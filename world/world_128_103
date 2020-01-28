@@ -4,7 +4,7 @@ region azumauindo
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-07-27 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_128_102
@@ -15,69 +15,137 @@ end
 arch deep_sea
 elevation -5724
 end
+arch sea_route
+end
 arch deep_sea
 y 1
 elevation -5901
+end
+arch sea_route
+y 1
 end
 arch deep_sea
 y 2
 elevation -6096
 end
+arch sea_route
+y 2
+end
 arch deep_sea
 y 3
 elevation -6304
+end
+arch sea_route
+y 3
 end
 arch deep_sea
 y 4
 elevation -6521
 end
+arch sea_route
+y 4
+end
+arch sea_route
+y 4
+end
 arch deep_sea
 y 5
 elevation -6742
+end
+arch sea_route
+y 5
+end
+arch sea_route
+y 5
 end
 arch deep_sea
 y 6
 elevation -6963
 end
+arch sea_route
+y 6
+end
 arch deep_sea
 y 7
 elevation -7181
+end
+arch sea_route
+y 7
+end
+arch sea_route
+y 7
 end
 arch deep_sea
 y 8
 elevation -7393
 end
+arch sea_route
+y 8
+end
+arch sea_route
+y 8
+end
 arch deep_sea
 y 9
 elevation -7594
+end
+arch sea_route
+y 9
+end
+arch sea_route
+y 9
 end
 arch deep_sea
 y 10
 elevation -7785
 end
+arch sea_route
+y 10
+end
+arch sea_route
+y 10
+end
 arch deep_sea
 y 11
 elevation -7961
+end
+arch sea_route
+y 11
 end
 arch deep_sea
 y 12
 elevation -8123
 end
+arch sea_route
+y 12
+end
 arch deep_sea
 y 13
 elevation -8269
+end
+arch sea_route
+y 13
 end
 arch deep_sea
 y 14
 elevation -8399
 end
+arch sea_route
+y 14
+end
 arch deep_sea
 y 15
 elevation -8512
 end
+arch sea_route
+y 15
+end
 arch deep_sea
 y 16
 elevation -8610
+end
+arch sea_route
+y 16
 end
 arch deep_sea
 y 17

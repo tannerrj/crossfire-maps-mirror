@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-11
-Modified: 2020-12-20 SilverNexus
+Modified: 2022-01-03 jason
 endmsg
 outdoor 1
 tile_path_1 world_128_100
@@ -3138,20 +3138,44 @@ x 7
 y 42
 elevation -633
 end
+arch sea_route
+x 7
+y 42
+end
 arch sea
 x 7
 y 43
 elevation -775
+end
+arch sea_route
+x 7
+y 43
+end
+arch magic_mouth
+msg
+Oh no!
+endmsg
+x 7
+y 43
+move_on all
 end
 arch sea
 x 7
 y 44
 elevation -912
 end
+arch sea_route
+x 7
+y 44
+end
 arch sea
 x 7
 y 45
 elevation -1045
+end
+arch sea_route
+x 7
+y 45
 end
 arch sea
 x 7
@@ -3490,6 +3514,10 @@ x 8
 y 42
 elevation -639
 end
+arch sea_route
+x 8
+y 42
+end
 arch sea
 x 8
 y 43
@@ -3505,10 +3533,22 @@ x 8
 y 45
 elevation -1035
 end
+arch sea_route
+x 8
+y 45
+end
 arch sea
 x 8
 y 46
 elevation -1163
+end
+arch sea_route
+x 8
+y 46
+end
+arch sea_route
+x 8
+y 46
 end
 arch sea
 x 8
@@ -3801,12 +3841,12 @@ y 35
 elevation 79
 end
 arch rowboat
-slaying world_128_101
+slaying ../azumauindo/misc/entrance1
 msg
 The boat goes south for a short time.
 endmsg
-hp 19
-sp 42
+hp 4
+sp 2
 x 9
 y 35
 end
@@ -3853,6 +3893,10 @@ x 9
 y 42
 elevation -635
 end
+arch sea_route
+x 9
+y 42
+end
 arch sea
 x 9
 y 43
@@ -3873,10 +3917,18 @@ x 9
 y 46
 elevation -1129
 end
+arch sea_route
+x 9
+y 46
+end
 arch sea
 x 9
 y 47
 elevation -1255
+end
+arch sea_route
+x 9
+y 47
 end
 arch sea
 x 9
@@ -4239,6 +4291,10 @@ x 10
 y 42
 elevation -617
 end
+arch sea_route
+x 10
+y 42
+end
 arch sea
 x 10
 y 43
@@ -4264,15 +4320,27 @@ x 10
 y 47
 elevation -1192
 end
+arch sea_route
+x 10
+y 47
+end
 arch sea
 x 10
 y 48
 elevation -1322
 end
+arch sea_route
+x 10
+y 48
+end
 arch sea
 x 10
 y 49
 elevation -1459
+end
+arch sea_route
+x 10
+y 49
 end
 arch beach
 x 11
@@ -4540,10 +4608,18 @@ x 11
 y 42
 elevation -583
 end
+arch sea_route
+x 11
+y 42
+end
 arch sea
 x 11
 y 43
 elevation -680
+end
+arch sea_route
+x 11
+y 43
 end
 arch sea
 x 11
@@ -4838,25 +4914,53 @@ x 12
 y 43
 elevation -612
 end
+arch sea_route
+x 12
+y 43
+end
 arch sea
 x 12
 y 44
 elevation -693
+end
+arch sea_route
+x 12
+y 44
 end
 arch sea
 x 12
 y 45
 elevation -778
 end
+arch sea_route
+x 12
+y 45
+end
+arch magic_mouth
+msg
+What's happening!
+endmsg
+x 12
+y 45
+move_on all
+end
 arch sea
 x 12
 y 46
 elevation -871
 end
+arch sea_route
+x 12
+y 46
+end
 arch sea
 x 12
 y 47
 elevation -975
+end
+arch sea_route
+x 12
+y 47
 end
 arch sea
 x 12
@@ -5134,10 +5238,18 @@ x 13
 y 47
 elevation -814
 end
+arch sea_route
+x 13
+y 47
+end
 arch sea
 x 13
 y 48
 elevation -923
+end
+arch sea_route
+x 13
+y 48
 end
 arch sea
 x 13
@@ -5410,16 +5522,39 @@ x 14
 y 47
 elevation -614
 end
+arch sea
+name shipwreck
+x 14
+y 48
+elevation -422
+end
 arch dungeon_magic
 x 14
-y 47
+y 48
+end
+arch invis_exit
+slaying /azumauindo/misc/crashlanding1
+hp 5
+sp 18
+x 14
+y 48
+move_on all
+damned 1
+end
+arch magic_mouth
+msg
+CRASH!
+endmsg
+x 14
+y 48
+move_on all
 end
 arch sea
 x 14
 y 48
-elevation -702
+move_block 0
 end
-arch dungeon_magic
+arch sea_route
 x 14
 y 48
 end
@@ -5427,10 +5562,6 @@ arch sea
 x 14
 y 49
 elevation -833
-end
-arch dungeon_magic
-x 14
-y 49
 end
 arch brush
 x 15
@@ -5698,39 +5829,50 @@ x 15
 y 46
 elevation -355
 end
-arch sea
+arch dungeon_magic
 x 15
 y 47
 elevation -377
 end
-arch dungeon_magic
+arch sea
 x 15
 y 47
 end
+arch mountain3
+x 15
+y 47
+move_block all
+is_floor 1
+end
+arch dungeon_magic
+x 15
+y 48
+elevation -529
+end
 arch sea
 x 15
 y 48
-elevation -422
-move_block 0
 end
-arch fishboat
-slaying world_126_104
-msg
-The fishing boat sails west.
-endmsg
-hp 30
-sp 27
+arch mountain3
 x 15
 y 48
+move_block all
+is_floor 1
 end
-arch sea
+arch dungeon_magic
 x 15
 y 49
 elevation -529
 end
-arch dungeon_magic
+arch sea
 x 15
 y 49
+end
+arch mountain3
+x 15
+y 49
+move_block all
+is_floor 1
 end
 arch beach
 x 16
@@ -6010,51 +6152,30 @@ x 16
 y 44
 elevation -161
 end
-arch dungeon_magic
-x 16
-y 44
-end
 arch sea
 x 16
 y 45
 elevation -160
-end
-arch dungeon_magic
-x 16
-y 45
 end
 arch sea
 x 16
 y 46
 elevation -150
 end
-arch dungeon_magic
-x 16
-y 46
-end
-arch sea
+arch grass
 x 16
 y 47
 elevation -121
 end
-arch dungeon_magic
-x 16
-y 47
-end
-arch shallow_sea
+arch grass
 x 16
 y 48
-elevation -71
-move_block 0
+elevation -121
 end
-arch sea
+arch grass
 x 16
 y 49
 elevation -100
-end
-arch dungeon_magic
-x 16
-y 49
 end
 arch shallow_sea
 x 17
@@ -6330,6 +6451,16 @@ arch grass
 x 17
 y 45
 elevation 18
+end
+arch house1_east
+slaying /azumauindo/misc/crashlanding1
+hp 15
+sp 23
+x 17
+y 45
+arch quest_apply_if
+name quests/Azumauindo 40-100
+end
 end
 arch grass
 x 17
@@ -6617,29 +6748,11 @@ arch dungeon_magic
 x 18
 y 42
 end
-arch dungeon_magic
+arch grass
 x 18
 y 43
 end
 arch grass
-x 18
-y 43
-elevation 676
-end
-arch cwall_2_2_2
-x 18
-y 43
-end
-arch dungeon_magic
-x 18
-y 44
-end
-arch grass
-x 18
-y 44
-elevation 640
-end
-arch cwall_2_2_1
 x 18
 y 44
 end
@@ -6944,54 +7057,28 @@ elevation -9
 move_block 0
 end
 arch rowboat
-slaying world_128_101
-msg
-The boat goes north for a short time.
-endmsg
-hp 10
-sp 35
 x 19
 y 42
-end
-arch dungeon_magic
-x 19
-y 43
-end
-arch invis_exit
-slaying /azumauindo/misc/entrance1
-hp 6
-sp 1
-x 19
-y 43
-end
-arch grass
-x 19
-y 43
-elevation 676
-end
-arch guard_house_4
-name Minatomachi Goei Mezon
-x 19
-y 43
-end
-arch dungeon_magic
-x 19
-y 44
 end
 arch invis_exit
 slaying /azumauindo/misc/entrance1
 hp 6
 sp 13
 x 19
-y 44
+y 42
 end
 arch grass
 x 19
-y 44
-elevation 676
+y 43
 end
-arch guard_house_3
-name Minatomachi Goei Mezon
+arch invis_exit
+slaying /azumauindo/misc/entrance1
+hp 6
+sp 13
+x 19
+y 43
+end
+arch grass
 x 19
 y 44
 end
@@ -7279,29 +7366,18 @@ x 20
 y 42
 elevation 79
 end
-arch dungeon_magic
+arch grass
+x 20
+y 43
+end
+arch invis_exit
+slaying /azumauindo/misc/entrance1
+hp 6
+sp 13
 x 20
 y 43
 end
 arch grass
-x 20
-y 43
-elevation 390
-end
-arch cwall_2_2_3
-x 20
-y 43
-end
-arch dungeon_magic
-x 20
-y 44
-end
-arch grass
-x 20
-y 44
-elevation 899
-end
-arch cwall_2_2_4
 x 20
 y 44
 end
@@ -7335,7 +7411,7 @@ end
 arch grass
 x 20
 y 48
-elevation 283
+elevation 160
 end
 arch shallow_sea
 x 20
@@ -7659,14 +7735,10 @@ x 21
 y 47
 elevation 3
 end
-arch shallow_sea
+arch beach
 x 21
 y 48
 elevation -5
-end
-arch dungeon_magic
-x 21
-y 48
 end
 arch sea
 x 21
@@ -8016,6 +8088,13 @@ y 48
 elevation -296
 end
 arch dungeon_magic
+x 22
+y 48
+end
+arch galleon
+slaying world_128_109
+hp 26
+sp 25
 x 22
 y 48
 end

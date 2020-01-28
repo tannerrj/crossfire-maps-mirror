@@ -8,7 +8,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  1994-10-11
-Modified: 2020-10-05 Daniel Hawkins
+Modified: 2022-01-02 jason
 endmsg
 end
 arch cobblestones2
@@ -8073,6 +8073,15 @@ endmsg
 x 27
 y 8
 end
+arch check_inv
+x 27
+y 8
+arch event_trigger
+name quests/Azumauindo 60>70
+title Python
+slaying python/quests/QuestAdvance.py
+end
+end
 arch woodlarge
 x 27
 y 9
@@ -13582,6 +13591,28 @@ end
 arch woodfloor
 x 45
 y 6
+end
+arch sage
+name Herfan
+msg
+endmsg
+x 45
+y 6
+friendly 1
+unaggressive 0
+stand_still 1
+arch NPCGift
+arch carton_box_1
+name kabuto
+arch kog
+end
+end
+end
+arch event_say
+name navar_city/herfan.msg
+title Python
+slaying python/dialog/npc_dialog.py
+end
 end
 arch woodlarge
 x 45

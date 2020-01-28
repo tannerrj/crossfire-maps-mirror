@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-26
-Modified: 2007-12-24 tchize
+Modified: 2022-01-02 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_126_103
@@ -7148,6 +7148,13 @@ x 25
 y 24
 elevation 3121
 end
+arch hut
+slaying ../azumauindo/misc/takuhut
+hp 5
+sp 9
+x 25
+y 24
+end
 arch hills
 x 25
 y 25
@@ -7440,6 +7447,10 @@ arch hills
 x 26
 y 25
 elevation 3043
+end
+arch campfire
+x 26
+y 25
 end
 arch grass_only
 x 26
@@ -8626,27 +8637,60 @@ x 30
 y 26
 elevation 31
 end
+arch guildmaster
+name Taku
+msg
+endmsg
+face barbarian.151
+hp 100
+maxhp 100
+x 30
+y 26
+randomitems viking
+pick_up 0
+arch event_say
+name azumauindo/taku.msg
+title Python
+slaying /python/dialog/npc_dialog.py
+end
+end
 arch shallow_sea
 x 30
 y 27
 elevation -11
-move_block 0
+move_block all -boat
 end
-arch fishboat
-slaying world_128_101
-msg
-The fishing boat sails east.
-
-endmsg
-hp 16
-sp 48
+arch sea_route
 x 30
 y 27
+end
+arch sailing_galleon
+msg
+You should ask Taku before taking his boat.
+endmsg
+x 30
+y 27
+arch event_apply
+name ship_mode
+title Python
+slaying /python/items/roll-o-matic.py
+end
+arch event_time
+name ship_mode
+title Python
+slaying /python/items/roll-o-matic.py
+end
+arch event_apply
+name quests/Azumauindo 40
+title Python
+slaying /python/quests/QuestApplyIf.py
+end
 end
 arch shallow_sea
 x 30
 y 28
 elevation -67
+move_block all -boat
 end
 arch sea
 x 30
@@ -8947,7 +8991,11 @@ arch shallow_sea
 x 31
 y 27
 elevation -54
-move_block 0
+move_block all -boat
+end
+arch sea_route
+x 31
+y 27
 end
 arch sea
 x 31
@@ -9237,6 +9285,11 @@ arch shallow_sea
 x 32
 y 27
 elevation -96
+move_block all -boat
+end
+arch sea_route
+x 32
+y 27
 end
 arch sea
 x 32
@@ -9498,6 +9551,10 @@ arch sea
 x 33
 y 27
 elevation -163
+end
+arch sea_route
+x 33
+y 27
 end
 arch sea
 x 33
@@ -9764,6 +9821,10 @@ x 34
 y 27
 elevation -275
 end
+arch sea_route
+x 34
+y 27
+end
 arch sea
 x 34
 y 28
@@ -10016,6 +10077,10 @@ arch sea
 x 35
 y 27
 elevation -426
+end
+arch sea_route
+x 35
+y 27
 end
 arch sea
 x 35
@@ -10278,6 +10343,10 @@ x 36
 y 27
 elevation -593
 end
+arch sea_route
+x 36
+y 27
+end
 arch sea
 x 36
 y 28
@@ -10526,6 +10595,10 @@ arch sea
 x 37
 y 27
 elevation -754
+end
+arch sea_route
+x 37
+y 27
 end
 arch sea
 x 37
@@ -10779,6 +10852,10 @@ arch sea
 x 38
 y 27
 elevation -906
+end
+arch sea_route
+x 38
+y 27
 end
 arch sea
 x 38
@@ -11037,6 +11114,10 @@ x 39
 y 27
 elevation -1046
 end
+arch sea_route
+x 39
+y 27
+end
 arch sea
 x 39
 y 28
@@ -11285,6 +11366,10 @@ arch sea
 x 40
 y 27
 elevation -1171
+end
+arch sea_route
+x 40
+y 27
 end
 arch sea
 x 40
@@ -11541,6 +11626,10 @@ arch sea
 x 41
 y 27
 elevation -1280
+end
+arch sea_route
+x 41
+y 27
 end
 arch sea
 x 41
@@ -11810,6 +11899,10 @@ x 42
 y 27
 elevation -1369
 end
+arch sea_route
+x 42
+y 27
+end
 arch sea
 x 42
 y 28
@@ -12071,6 +12164,10 @@ x 43
 y 27
 elevation -1438
 end
+arch sea_route
+x 43
+y 27
+end
 arch sea
 x 43
 y 28
@@ -12323,6 +12420,10 @@ arch sea
 x 44
 y 27
 elevation -1488
+end
+arch sea_route
+x 44
+y 27
 end
 arch sea
 x 44
@@ -12581,6 +12682,10 @@ x 45
 y 27
 elevation -1520
 end
+arch sea_route
+x 45
+y 27
+end
 arch sea
 x 45
 y 28
@@ -12837,6 +12942,10 @@ arch sea
 x 46
 y 27
 elevation -1546
+end
+arch sea_route
+x 46
+y 27
 end
 arch sea
 x 46
@@ -13107,6 +13216,10 @@ x 47
 y 27
 elevation -1586
 end
+arch sea_route
+x 47
+y 27
+end
 arch sea
 x 47
 y 28
@@ -13368,6 +13481,10 @@ x 48
 y 27
 elevation -1672
 end
+arch sea_route
+x 48
+y 27
+end
 arch sea
 x 48
 y 28
@@ -13624,6 +13741,10 @@ arch sea
 x 49
 y 27
 elevation -1830
+end
+arch sea_route
+x 49
+y 27
 end
 arch sea
 x 49

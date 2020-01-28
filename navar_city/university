@@ -8,7 +8,7 @@ enter_x 24
 enter_y 37
 msg
 Created:  2008-05-17 Nicolas Weeger
-Modified: 2021-07-25 Kevin Zheng
+Modified: 2021-07-30 Kevin Zheng
 endmsg
 maplore
 The university features:
@@ -3099,6 +3099,9 @@ end
 arch sage
 name Shabrao
 msg
+@match language
+You might want to talk to Professor Shinon, in the north end of the east wing.
+
 @match magic
 We do have one, but they are doing a dangerous experiment so they sealed themselves off on the second floor, unfortunately.
 @match geography
@@ -3121,6 +3124,7 @@ How can I help you?
 @question geography Do you have a department of world geography?
 @question history Do you have a department of world history?
 @question monster Do you have a department of monster lore?
+@question language Do you have a department of language?
 endmsg
 x 13
 y 37
@@ -6014,6 +6018,16 @@ end
 arch marble
 x 28
 y 5
+end
+arch c_woman
+name Professor Shinon
+x 28
+y 5
+arch event_say
+name navar_city/university_shinon.msg
+title Python
+slaying /python/dialog/npc_dialog.py
+end
 end
 arch marble
 x 28

@@ -1,0 +1,577 @@
+arch map
+name Taku's Hut
+region azumauindo
+width 10
+height 10
+msg
+Created:  2021-08-14 jason
+Modified: 2021-08-14 jason
+endmsg
+outdoor 1
+end
+arch grass
+end
+arch grass
+y 1
+end
+arch grass
+y 2
+end
+arch grass
+y 3
+end
+arch grass
+y 4
+end
+arch grass
+y 5
+end
+arch grass
+y 6
+end
+arch grass
+y 7
+end
+arch grass
+y 8
+end
+arch grass
+y 9
+end
+arch grass
+x 1
+end
+arch dirtfloor
+x 1
+y 1
+end
+arch bwall_2_2_2
+x 1
+y 1
+end
+arch dirtfloor
+x 1
+y 2
+end
+arch bwall_2_1_1
+x 1
+y 2
+end
+arch dirtfloor
+x 1
+y 3
+end
+arch bwall_2_1_1
+x 1
+y 3
+end
+arch dirtfloor
+x 1
+y 4
+end
+arch bwall_2_1_1
+x 1
+y 4
+end
+arch dirtfloor
+x 1
+y 5
+end
+arch bwall_2_1_1
+x 1
+y 5
+end
+arch dirtfloor
+x 1
+y 6
+end
+arch bwall_2_1_1
+x 1
+y 6
+end
+arch dirtfloor
+x 1
+y 7
+end
+arch bwall_2_1_1
+x 1
+y 7
+end
+arch dirtfloor
+x 1
+y 8
+end
+arch bwall_2_2_1
+x 1
+y 8
+end
+arch grass
+x 1
+y 9
+end
+arch grass
+x 2
+end
+arch dirtfloor
+x 2
+y 1
+end
+arch bwall_2_1_2
+x 2
+y 1
+end
+arch dirtfloor
+x 2
+y 2
+end
+arch bed_save
+x 2
+y 2
+end
+arch dirtfloor
+x 2
+y 3
+end
+arch dirtfloor
+x 2
+y 4
+end
+arch dirtfloor
+x 2
+y 5
+end
+arch barrel
+x 2
+y 5
+end
+arch dirtfloor
+x 2
+y 6
+end
+arch barrel
+x 2
+y 6
+end
+arch dirtfloor
+x 2
+y 7
+end
+arch barrel
+x 2
+y 7
+end
+arch dirtfloor
+x 2
+y 8
+end
+arch bwall_2_1_2
+x 2
+y 8
+end
+arch grass
+x 2
+y 9
+end
+arch grass
+x 3
+end
+arch dirtfloor
+x 3
+y 1
+end
+arch bwall_2_1_2
+x 3
+y 1
+end
+arch dirtfloor
+x 3
+y 2
+end
+arch dirtfloor
+x 3
+y 3
+end
+arch dirtfloor
+x 3
+y 4
+end
+arch dirtfloor
+x 3
+y 5
+end
+arch torch_1
+x 3
+y 5
+end
+arch dirtfloor
+x 3
+y 6
+end
+arch barrel
+x 3
+y 6
+end
+arch dirtfloor
+x 3
+y 7
+end
+arch barrel
+x 3
+y 7
+end
+arch dirtfloor
+x 3
+y 8
+end
+arch bwall_1_3
+x 3
+y 8
+end
+arch grass
+x 3
+y 9
+end
+arch grass
+x 4
+end
+arch dirtfloor
+x 4
+y 1
+end
+arch bwall_2_1_2
+x 4
+y 1
+end
+arch dirtfloor
+x 4
+y 2
+end
+arch chair_1.1
+x 4
+y 2
+end
+arch dirtfloor
+x 4
+y 3
+end
+arch dirtfloor
+x 4
+y 4
+end
+arch dirtfloor
+x 4
+y 5
+end
+arch dirtfloor
+x 4
+y 6
+end
+arch dirtfloor
+x 4
+y 7
+end
+arch dirtfloor
+x 4
+y 8
+end
+arch dirtfloor
+x 4
+y 9
+end
+arch invis_exit
+slaying ../../world/world_126_104
+hp 25
+sp 24
+x 4
+y 9
+end
+arch grass
+x 5
+end
+arch dirtfloor
+x 5
+y 1
+end
+arch bwall_2_1_2
+x 5
+y 1
+end
+arch dirtfloor
+x 5
+y 2
+end
+arch torch_unlit
+x 5
+y 2
+end
+arch dirtfloor
+x 5
+y 3
+end
+arch dirtfloor
+x 5
+y 4
+end
+arch dirtfloor
+x 5
+y 5
+end
+arch dirtfloor
+x 5
+y 6
+end
+arch dirtfloor
+x 5
+y 7
+end
+arch dirtfloor
+x 5
+y 8
+end
+arch dirtfloor
+x 5
+y 9
+end
+arch invis_exit
+slaying ../../world/world_126_104
+hp 25
+sp 24
+x 5
+y 9
+end
+arch grass
+x 6
+end
+arch dirtfloor
+x 6
+y 1
+end
+arch bwall_2_1_2
+x 6
+y 1
+end
+arch dirtfloor
+x 6
+y 2
+end
+arch torch_unlit
+x 6
+y 2
+end
+arch dirtfloor
+x 6
+y 3
+end
+arch campfire
+x 6
+y 3
+end
+arch light2
+x 6
+y 3
+end
+arch dirtfloor
+x 6
+y 4
+end
+arch dirtfloor
+x 6
+y 5
+end
+arch dirtfloor
+x 6
+y 6
+end
+arch dirtfloor
+x 6
+y 7
+end
+arch dirtfloor
+x 6
+y 8
+end
+arch bwall_1_4
+x 6
+y 8
+end
+arch grass
+x 6
+y 9
+end
+arch grass
+x 7
+end
+arch dirtfloor
+x 7
+y 1
+end
+arch bwall_2_1_2
+x 7
+y 1
+end
+arch dirtfloor
+x 7
+y 2
+end
+arch torch_unlit
+x 7
+y 2
+end
+arch dirtfloor
+x 7
+y 3
+end
+arch torch_1
+x 7
+y 3
+end
+arch dirtfloor
+x 7
+y 4
+end
+arch dirtfloor
+x 7
+y 5
+end
+arch fishfood
+x 7
+y 5
+end
+arch dirtfloor
+x 7
+y 6
+end
+arch fishfood
+x 7
+y 6
+end
+arch dirtfloor
+x 7
+y 7
+end
+arch fishfood
+x 7
+y 7
+end
+arch dirtfloor
+x 7
+y 8
+end
+arch bwall_2_1_2
+x 7
+y 8
+end
+arch grass
+x 7
+y 9
+end
+arch grass
+x 8
+end
+arch dirtfloor
+x 8
+y 1
+end
+arch bwall_2_2_3
+x 8
+y 1
+end
+arch dirtfloor
+x 8
+y 2
+end
+arch bwall_2_1_1
+x 8
+y 2
+end
+arch dirtfloor
+x 8
+y 3
+end
+arch bwall_2_1_1
+x 8
+y 3
+end
+arch dirtfloor
+x 8
+y 4
+end
+arch bwall_2_1_1
+x 8
+y 4
+end
+arch dirtfloor
+x 8
+y 5
+end
+arch bwall_2_1_1
+x 8
+y 5
+end
+arch dirtfloor
+x 8
+y 6
+end
+arch bwall_2_1_1
+x 8
+y 6
+end
+arch dirtfloor
+x 8
+y 7
+end
+arch bwall_2_1_1
+x 8
+y 7
+end
+arch dirtfloor
+x 8
+y 8
+end
+arch bwall_2_2_4
+x 8
+y 8
+end
+arch grass
+x 8
+y 9
+end
+arch grass
+x 9
+end
+arch grass
+x 9
+y 1
+end
+arch grass
+x 9
+y 2
+end
+arch grass
+x 9
+y 3
+end
+arch grass
+x 9
+y 4
+end
+arch grass
+x 9
+y 5
+end
+arch grass
+x 9
+y 6
+end
+arch grass
+x 9
+y 7
+end
+arch grass
+x 9
+y 8
+end
+arch grass
+x 9
+y 9
+end

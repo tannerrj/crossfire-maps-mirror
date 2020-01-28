@@ -3,7 +3,7 @@ name world_127_104
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-07-27 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_127_103
@@ -121,6 +121,9 @@ end
 arch sea
 y 27
 elevation -2064
+end
+arch sea_route
+y 27
 end
 arch sea
 y 28
@@ -348,6 +351,10 @@ arch sea
 x 1
 y 27
 elevation -2355
+end
+arch sea_route
+x 1
+y 27
 end
 arch sea
 x 1
@@ -597,6 +604,10 @@ arch sea
 x 2
 y 27
 elevation -2674
+end
+arch sea_route
+x 2
+y 27
 end
 arch sea
 x 2
@@ -850,6 +861,10 @@ arch sea
 x 3
 y 27
 elevation -2999
+end
+arch sea_route
+x 3
+y 27
 end
 arch sea
 x 3
@@ -1112,6 +1127,10 @@ x 4
 y 27
 elevation -3320
 end
+arch sea_route
+x 4
+y 27
+end
 arch sea
 x 4
 y 28
@@ -1364,10 +1383,18 @@ x 5
 y 26
 elevation -3447
 end
+arch sea_route
+x 5
+y 26
+end
 arch sea
 x 5
 y 27
 elevation -3634
+end
+arch sea_route
+x 5
+y 27
 end
 arch sea
 x 5
@@ -1612,6 +1639,10 @@ arch sea
 x 6
 y 26
 elevation -3777
+end
+arch sea_route
+x 6
+y 26
 end
 arch sea
 x 6
@@ -1862,6 +1893,10 @@ x 7
 y 26
 elevation -4098
 end
+arch sea_route
+x 7
+y 26
+end
 arch sea
 x 7
 y 27
@@ -2111,6 +2146,10 @@ x 8
 y 26
 elevation -4410
 end
+arch sea_route
+x 8
+y 26
+end
 arch sea
 x 8
 y 27
@@ -2355,10 +2394,18 @@ x 9
 y 25
 elevation -4576
 end
+arch sea_route
+x 9
+y 25
+end
 arch sea
 x 9
 y 26
 elevation -4715
+end
+arch sea_route
+x 9
+y 26
 end
 arch sea
 x 9
@@ -2603,6 +2650,10 @@ arch sea
 x 10
 y 25
 elevation -4896
+end
+arch sea_route
+x 10
+y 25
 end
 arch deep_sea
 x 10
@@ -2853,6 +2904,10 @@ x 11
 y 25
 elevation -5209
 end
+arch sea_route
+x 11
+y 25
+end
 arch deep_sea
 x 11
 y 26
@@ -3101,6 +3156,10 @@ arch deep_sea
 x 12
 y 25
 elevation -5514
+end
+arch sea_route
+x 12
+y 25
 end
 arch deep_sea
 x 12
@@ -3351,6 +3410,10 @@ x 13
 y 25
 elevation -5813
 end
+arch sea_route
+x 13
+y 25
+end
 arch deep_sea
 x 13
 y 26
@@ -3595,10 +3658,18 @@ x 14
 y 24
 elevation -6045
 end
+arch sea_route
+x 14
+y 24
+end
 arch deep_sea
 x 14
 y 25
 elevation -6105
+end
+arch sea_route
+x 14
+y 25
 end
 arch deep_sea
 x 14
@@ -3843,6 +3914,10 @@ arch deep_sea
 x 15
 y 24
 elevation -6352
+end
+arch sea_route
+x 15
+y 24
 end
 arch deep_sea
 x 15
@@ -4093,6 +4168,10 @@ x 16
 y 24
 elevation -6652
 end
+arch sea_route
+x 16
+y 24
+end
 arch deep_sea
 x 16
 y 25
@@ -4342,6 +4421,10 @@ x 17
 y 24
 elevation -6947
 end
+arch sea_route
+x 17
+y 24
+end
 arch deep_sea
 x 17
 y 25
@@ -4586,10 +4669,18 @@ x 18
 y 23
 elevation -7234
 end
+arch sea_route
+x 18
+y 23
+end
 arch deep_sea
 x 18
 y 24
 elevation -7239
+end
+arch sea_route
+x 18
+y 24
 end
 arch deep_sea
 x 18
@@ -4720,120 +4811,219 @@ arch deep_sea
 x 19
 elevation -7970
 end
+arch sea_route
+x 19
+end
 arch deep_sea
 x 19
 y 1
 elevation -7975
+end
+arch sea_route
+x 19
+y 1
 end
 arch deep_sea
 x 19
 y 2
 elevation -7974
 end
+arch sea_route
+x 19
+y 2
+end
 arch deep_sea
 x 19
 y 3
 elevation -7966
+end
+arch sea_route
+x 19
+y 3
 end
 arch deep_sea
 x 19
 y 4
 elevation -7952
 end
+arch sea_route
+x 19
+y 4
+end
 arch deep_sea
 x 19
 y 5
 elevation -7932
+end
+arch sea_route
+x 19
+y 5
+end
+arch sea_route
+x 19
+y 5
 end
 arch deep_sea
 x 19
 y 6
 elevation -7907
 end
+arch sea_route
+x 19
+y 6
+end
 arch deep_sea
 x 19
 y 7
 elevation -7877
+end
+arch sea_route
+x 19
+y 7
 end
 arch deep_sea
 x 19
 y 8
 elevation -7843
 end
+arch sea_route
+x 19
+y 8
+end
 arch deep_sea
 x 19
 y 9
 elevation -7807
+end
+arch sea_route
+x 19
+y 9
 end
 arch deep_sea
 x 19
 y 10
 elevation -7769
 end
+arch sea_route
+x 19
+y 10
+end
 arch deep_sea
 x 19
 y 11
 elevation -7732
+end
+arch sea_route
+x 19
+y 11
 end
 arch deep_sea
 x 19
 y 12
 elevation -7696
 end
+arch sea_route
+x 19
+y 12
+end
 arch deep_sea
 x 19
 y 13
 elevation -7664
+end
+arch sea_route
+x 19
+y 13
 end
 arch deep_sea
 x 19
 y 14
 elevation -7634
 end
+arch sea_route
+x 19
+y 14
+end
 arch deep_sea
 x 19
 y 15
 elevation -7610
+end
+arch sea_route
+x 19
+y 15
 end
 arch deep_sea
 x 19
 y 16
 elevation -7590
 end
+arch sea_route
+x 19
+y 16
+end
 arch deep_sea
 x 19
 y 17
 elevation -7574
+end
+arch sea_route
+x 19
+y 17
 end
 arch deep_sea
 x 19
 y 18
 elevation -7563
 end
+arch sea_route
+x 19
+y 18
+end
 arch deep_sea
 x 19
 y 19
 elevation -7555
+end
+arch sea_route
+x 19
+y 19
 end
 arch deep_sea
 x 19
 y 20
 elevation -7550
 end
+arch sea_route
+x 19
+y 20
+end
 arch deep_sea
 x 19
 y 21
 elevation -7545
+end
+arch sea_route
+x 19
+y 21
 end
 arch deep_sea
 x 19
 y 22
 elevation -7541
 end
+arch sea_route
+x 19
+y 22
+end
 arch deep_sea
 x 19
 y 23
 elevation -7536
+end
+arch sea_route
+x 19
+y 23
 end
 arch deep_sea
 x 19

@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-11
-Modified: 2012-08-28 Rick Tanner
+Modified: 2021-08-26 jason
 endmsg
 outdoor 1
 tile_path_1 world_127_100
@@ -13362,6 +13362,14 @@ arch shallow_sea
 x 42
 y 25
 elevation -10
+end
+arch galleon
+name To Wolfsburg
+slaying world_128_109
+hp 26
+sp 25
+x 42
+y 25
 end
 arch shallow_sea
 x 42

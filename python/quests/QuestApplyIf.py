@@ -12,19 +12,30 @@ player = Crossfire.WhoIsActivator()
 params = Crossfire.ScriptParameters()
 args = params.split()
 
-# by default, forbid applying
-Crossfire.SetReturnValue(1)
+def can_apply(player):
+    if type(player) == Crossfire.Player:
+        questname = args[0]
+        currentstep = player.QuestGetState(questname)
 
-if type(player) == Crossfire.Player:
-    questname = args[0]
-    currentstep = player.QuestGetState(questname)
+        for rule in args[1:]:
+            if rule.find("-") == -1:
+                startstep = int(rule)
+                endstep = startstep
+            else:
+                startstep = int(rule.split("-")[0])
+                endstep = int(rule.split("-")[1])
+            if currentstep >= startstep and currentstep <= endstep:
+                return True
+    return False
 
-    for rule in args[1:]:
-        if rule.find("-") == -1:
-            startstep = int(rule)
-            endstep = startstep
+if can_apply(player):
+    Crossfire.SetReturnValue(1)
+else:
+    # forbid applying
+    Crossfire.SetReturnValue(2)
+    msg = Crossfire.WhoAmI().Message
+    if type(player) == Crossfire.Player:
+        if msg is not None:
+            player.Message(msg.strip())
         else:
-            startstep = int(rule.split("-")[0])
-            endstep= int(rule.split("-")[1])
-        if currentstep >= startstep and currentstep <= endstep:
-            Crossfire.SetReturnValue(0)
+            player.Message("You cannot apply the %s now." % Crossfire.WhoAmI().Name)

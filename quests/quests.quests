@@ -89,3 +89,60 @@ end_description
 end_step
 end_quest
 
+quest quests/Azumauindo
+title Journey to the East
+description
+Find your way to the long-isolated island of Azumauindo.
+end_description
+step 10
+description
+I found a book written using indecipherable runes. Maybe someone from Navar's University might be able to help me read it?
+end_description
+end_step
+step 20
+description
+My book is written in a script from the far-east island of Azumauindo. No ships from the major ports stop there, so if I want to go there, I need to find someone from the northeast-most part of the continent to take me there.
+end_description
+end_step
+step 30
+description
+I found a fisherman, who will take me to Azumauindo if I can find him some fish.
+end_description
+end_step
+step 40
+description
+We are ready to set sail for Azumauindo.
+end_description
+end_step
+step 50
+description
+Akihiko told me I must retrieve the Kabuto of Geisya to be granted entry to Azumauindo.
+end_description
+end_step
+step 60
+description
+I need to return to Azumauindo with the Kabuto of Geisya for the Shogun to gain my trust.
+end_description
+end_step
+step 70
+description
+I saw the Kabuto of Geisya in Navar's museum.
+end_description
+end_step
+step 80
+description
+Herfan has given me the option of purchasing the Kabuto for 1 amberium coin.
+end_description
+end_step
+step 90
+description
+I bought off the Kabuto from Herfan.
+end_description
+end_step
+step 100
+finishes_quest
+description
+I returned the Kabuto of Geisya to Azumauindo. The Shogun has granted me an audience.
+end_description
+end_step
+end_quest
