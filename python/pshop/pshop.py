@@ -11,7 +11,7 @@ import CFDataBase,CFBank
 CFDB=CFDataBase.CFDataBase("PShop")
 PicDB=CFDataBase.CFDataBase("PicDB")
 PicDict=PicDB.get("Dict")
-bank=CFBank.CFBank("ImperialBank_DB")
+bank=CFBank.open()
 pshop=whoami.Map.Path.replace("/","_")
 
 

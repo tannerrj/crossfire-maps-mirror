@@ -42,9 +42,6 @@ CoinTypes={
 # Archetypes for the 'withdraw' command
 ArchType={"SILVER":"silvercoin","GOLD":"goldcoin","PLATINUM":"platinacoin","JADE":"jadecoin","AMBERIUM":"ambercoin", "IMPERIAL NOTE":"imperial","TEN IMPERIAL NOTE":"imperial10","ONE HUNDRED IMPERIAL NOTE":"imperial100"}
 
-# Filename for the bank
-bankdatabase = "ImperialBank_DB"
-
 remarklist = ['Excellent','Thank You','Thank You','Thank You', 'Thank You', 'Great', 'OK', 'Wonderful', 'Swell', 'Dude', 'Big Spender']
 exclaimlist = ['Hey','Hey','Hey','Hey', 'Now just a minute', 'AHEM', 'OK...Wait a minute', 'Look chowderhead']
 buddylist =   ['buddy','buddy','buddy','buddy','pal','friend','friend','friend','friend','dude','chum', 'sweetie']
@@ -162,7 +159,7 @@ class GuildDues:
             return
 
         Price = Items.get(item)
-        bank = CFBank.CFBank(bankdatabase)
+        bank = CFBank.open()
         balance = bank.getbalance(self.accountname)
         if Price > balance:
             whoami.Say("The guild does not have sufficient funds.")
@@ -219,7 +216,7 @@ class GuildDues:
 
     def do_balance(self):
         '''Handle the display of the guild's balance.'''
-        bank = CFBank.CFBank(bankdatabase)
+        bank = CFBank.open()
         balance = bank.getbalance(self.accountname)
         whoami.Say("The guild currently has %s on account." %(formatted_amount(balance)))
 
@@ -243,7 +240,7 @@ class GuildDues:
             guild = CFGuilds.CFGuild(self.guildname)
             guild.pay_dues(activator.Name,total)
             whoami.Say("%s, %s %s paid to the guild." % (random.choice(remarklist), cost, currency))
-            bank = CFBank.CFBank(bankdatabase)
+            bank = CFBank.open()
             bank.deposit(self.accountname, total)
         else:
             if total == 0:
@@ -267,7 +264,7 @@ class GuildDues:
             whoami.Say("Usage: withdraw <quantity> {cointype=silver}")
             return
 
-        bank = CFBank.CFBank(bankdatabase)
+        bank = CFBank.open()
         balance = bank.getbalance(self.accountname)
 
         if len(text) > 2:
@@ -334,7 +331,7 @@ class GuildDues:
             activator.Write('dues error, please notify a DM')
             return
 
-        bank = CFBank.CFBank(bankdatabase)
+        bank = CFBank.open()
         self.accountname = self.guildname + str(self.guildname.__hash__())
 
         if whoami.Name == 'Jack':
