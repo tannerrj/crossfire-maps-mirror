@@ -8,7 +8,7 @@ enter_x 10
 enter_y 11
 msg
 Created:  2020-05-30 Rick Tanner
-Modified: 2020-06-03 Rick Tanner
+Modified: 2020-06-04 Rick Tanner
 endmsg
 end
 arch blocked
@@ -491,7 +491,7 @@ arch stonefloor2
 x 3
 y 16
 end
-arch stair_3_down
+arch stair2_up
 slaying bank_marksel
 hp 3
 sp 16
