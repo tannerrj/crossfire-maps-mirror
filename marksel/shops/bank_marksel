@@ -8,7 +8,7 @@ enter_x 15
 enter_y 15
 msg
 Created:  2020-03-11 Rick Tanner
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-06-08 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -3583,9 +3583,9 @@ x 17
 y 18
 end
 arch invis_exit
-slaying ../../world/world_101_114
-hp 12
-sp 33
+slaying ../../world/world_120_109
+hp 42
+sp 41
 x 17
 y 18
 end
