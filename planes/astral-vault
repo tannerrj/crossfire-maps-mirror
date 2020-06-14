@@ -5,7 +5,7 @@ width 50
 height 36
 msg
 Created:  2020-02-08 Rick Tanner
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-06-13 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -443,6 +443,7 @@ x 1
 y 12
 end
 arch exit
+name Portal to Lone Town
 slaying /pup_land/lone_town/bank_vault
 hp 9
 sp 9
@@ -538,6 +539,7 @@ x 1
 y 21
 end
 arch exit
+name Portal to Nurnberg
 slaying /pup_land/nurnberg/bank_vault
 hp 20
 sp 4
@@ -4843,6 +4845,7 @@ x 12
 y 32
 end
 arch exit
+name Portal to Marksel
 slaying /marksel/shops/bank_marksel_vault
 hp 15
 sp 3
@@ -5654,6 +5657,7 @@ x 15
 y 1
 end
 arch exit
+name Portal to Brest
 slaying /brest/shops/brest_bank_vault
 hp 5
 sp 3
@@ -8530,6 +8534,7 @@ x 24
 y 1
 end
 arch exit
+name POrtal to Stoneville
 slaying /dragonisland/shops/bank_stoneville_vault
 hp 3
 sp 7
@@ -8788,6 +8793,7 @@ x 24
 y 30
 end
 arch exit
+name Portal to Darcap
 slaying /darcap/darcap/shops/bank_darcap_vault
 hp 19
 sp 16
@@ -9946,6 +9952,7 @@ msg
 Welcome to the Astral Vault!
 * The area with the grey marble can be customized with buildable materials
 ** IMPORTANT: Customize the floor tiles in the vault (grey marble tiles) before trying to save items on it!!!
+** HINT: There are 256 buildable floor tiles in the vault
 ** NO items are saved on the white tiles
 
 * Only one gate from one regional bank can be open at a time
@@ -10435,6 +10442,7 @@ x 29
 y 34
 end
 arch exit
+name Portal to Suno-yamatoshi
 slaying /azumauindo/suno-yamatoshi/shops/bank1_vault
 hp 5
 sp 2
@@ -10469,6 +10477,7 @@ x 30
 y 1
 end
 arch exit
+name Portal to City de Clouds
 slaying /mlab/citydeclouds/bank/bank_vault
 hp 14
 sp 8
@@ -12390,6 +12399,7 @@ x 36
 y 1
 end
 arch exit
+name Portal to Navar
 slaying /navar_city/misc/city1bank_vault
 hp 10
 sp 11
@@ -12658,6 +12668,7 @@ x 36
 y 31
 end
 arch exit
+name Portal to Scorn
 slaying /scorn/shops/bank-vault
 hp 6
 sp 10
@@ -14645,6 +14656,7 @@ x 42
 y 1
 end
 arch exit
+name Portal to Santo Dominion
 slaying /santo_dominion/shops/bank_santodominion_vault
 hp 20
 sp 5
@@ -15326,6 +15338,7 @@ x 43
 y 34
 end
 arch exit
+name Portal to Port Joseph
 slaying /port_joseph/town/bank-vault
 hp 12
 sp 3
@@ -17064,6 +17077,7 @@ x 48
 y 12
 end
 arch exit
+name Portal to Lake Country
 slaying /lake_country/shops/lc-bank-vault
 hp 9
 sp 3
@@ -17139,6 +17153,7 @@ x 48
 y 19
 end
 arch exit
+name Portal to Wolfsburg
 slaying /wolfsburg/shops/bank-wolfsburg-vault
 hp 23
 sp 5
