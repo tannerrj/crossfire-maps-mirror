@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2019-01-01 Jason Zheng
+Modified: 2020-07-31 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_122_116
@@ -149,8 +149,8 @@ end
 arch s_house1
 name Iscar's House
 slaying /navar_city/iscar
-hp 2
-sp 9
+hp 4
+sp 10
 y 14
 end
 arch dungeon_magic
