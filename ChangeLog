@@ -1,5 +1,9 @@
 2020-08-06  Daniel Hawkins
     * python/items/curse_on_apply.py: Add script to allow for items to become cursed when they are applied.
+    * python/items/lose_buffs_on_drop.py: Add script to remove custom buffs from a weapon,
+        e.g. for a weapon that gets stronger with a specific user over time.
+    * python/events/gkill/sword_of_souls.py: Add script to make a new weapon, the {weapon} of Souls, function.
+        This weapon grows stronger over time, but can ultimately overwhelm its wielder.
 
 2019-12-01  Daniel Hawkins
     * scorn/houses/alfalfa_ground: Update two exit coordinates to exit at Alfalfa's House.
