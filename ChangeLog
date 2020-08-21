@@ -1,3 +1,8 @@
+2020-08-16 Rick Tanner
+
+	* world/world_120_110: Added the world map tile (world_120_110)
+	  south of Hamlet of Lord Marksel to the Marksel region
+
 2020-08-14  Daniel Hawkins
     * styles/trapstyles/traps: Replace Rune of Marking with Rune of Sparking
     * styles/trapstyles/runes: Replace Rune of Marking with Rune of Sparking
@@ -8,6 +13,305 @@
         e.g. for a weapon that gets stronger with a specific user over time.
     * python/events/gkill/sword_of_souls.py: Add script to make a new weapon, the {weapon} of Souls, function.
         This weapon grows stronger over time, but can ultimately overwhelm its wielder.
+
+2020-07-31 Rick Tanner
+
+	* navar_city/iscar: Update Iscar's house (navar_city/iscar) to
+	  animate the front door so it opens and closes for visiting
+	  players
+
+2020-07-31 Rick Tanner
+
+	* navar_city/iscar, world/world_122_117: Cosmetic changes to
+	  Iscar's house (navar_city/iscar) to add more visual space on the
+	  map perimeter. Update world map (world/world_122_117) for
+	  entrance coordinate changes
+
+2020-07-31 Rick Tanner
+
+	* lake_country/sentrio_farmhouse, world/world_108_126: Cosmetic
+	  changes to Sentrio's farmhouse (lake_country/sentrio_farmhouse)
+	  to add more visual space on the map perimeter. Update world map
+	  (world/world_108_126) for entrance coordinate changes
+
+2020-06-14 Rick Tanner
+
+	* planes/astral-vault: Update note found in Astral Vault
+	  (planes/astral-vault) with buildable tile count, give exit
+	  portals titles related to what destination they go to
+
+2020-06-14 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/apartments/lapartment1: Update
+	  translation guide found in the Itteifuhen Apa-to
+	  (azumauindo/suno-yamatoshi/apartments/lapartment1) apartment map
+
+2020-06-08 Rick Tanner
+
+	* dragonisland/shops/bank_stoneville,
+	  dragonisland/shops/bank_stoneville_vault,
+	  pup_land/lone_town/town, pup_land/nurnberg/city,
+	  world/world_103_127: Update map names and sign references to the
+	  changes introduced in r20951, part of that commit was to make the
+	  map names more consistent
+
+2020-06-08 Rick Tanner
+
+	* marksel/shops/bank_marksel: Fix exit coordinates for Bank of
+	  Marksel (marksel/shops/bank_marksel), old coordinates went to the
+	  wrong world map tile
+
+2020-06-08 Rick Tanner
+
+	* santo_dominion/shops/bank_santodominion_vault: Update bank vault
+	  map Bank of Skud, Santo Dominion Branch
+	  (santo_dominion/shops/bank_santodominion_vault) - missed the
+	  Vault in the title.
+
+2020-06-07 Rick Tanner
+
+	* dragonisland/shops/bank_stoneville,
+	  dragonisland/shops/bank_stoneville_vault: Update Stoneville bank
+	  maps to use a consistent name of Stoneville Bank and Savings
+	  Vault - that is how the world map references it
+
+2020-06-04 Rick Tanner
+
+	* marksel/shops/bank_marksel_vault, port_joseph/town/bank-vault:
+	  Fix stairs in the Bank vault maps - they should go up instead of
+	  down
+
+2020-06-04 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1_vault,
+	  brest/shops/brest_bank_vault,
+	  darcap/darcap/shops/bank_darcap_vault,
+	  dragonisland/shops/bank_stoneville_vault,
+	  lake_country/shops/lc-bank-vault,
+	  marksel/shops/bank_marksel_vault,
+	  mlab/citydeclouds/bank/bank_vault,
+	  navar_city/misc/city1bank_vault, port_joseph/town/bank-vault,
+	  wolfsburg/shops/bank-wolfsburg-vault: Update entrance coordinates
+	  to vault maps
+
+2020-06-03 Rick Tanner
+
+	* wolfsburg/shops/bank-wolfsburg-vault: Cosmetic corrections and
+	  fixes to Bank of Wolfsburg Vault
+	  (wolfsburg/shops/bank-wolfsburg-vault), no functional changes
+
+2020-06-03 Rick Tanner
+
+	* scorn/shops/bank-vault: Make Bank of Skud Vault
+	  (scorn/shops/bank-vault) an indoor map, corrects map creator
+	  error
+
+2020-06-01 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1_vault,
+	  brest/shops/brest_bank_vault,
+	  darcap/darcap/shops/bank_darcap_vault,
+	  dragonisland/shops/bank_stoneville_vault,
+	  lake_country/shops/lc-bank-vault,
+	  marksel/shops/bank_marksel_vault,
+	  mlab/citydeclouds/bank/bank_vault,
+	  navar_city/misc/city1bank_vault, port_joseph/town/bank-vault,
+	  pup_land/lone_town/bank_vault, pup_land/nurnberg/bank_vault,
+	  santo_dominion/shops/bank_santodominion_vault,
+	  scorn/shops/bank-vault, wolfsburg/shops/bank-wolfsburg-vault:
+	  Correct creation date in map headers, no functional changes
+
+2020-06-01 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1_vault,
+	  brest/shops/brest_bank_vault,
+	  darcap/darcap/shops/bank_darcap_vault,
+	  dragonisland/shops/bank_stoneville_vault,
+	  lake_country/shops/lc-bank-vault,
+	  marksel/shops/bank_marksel_vault,
+	  mlab/citydeclouds/bank/bank_vault,
+	  navar_city/misc/city1bank_vault, planes/astral-vault,
+	  port_joseph/town/bank-vault, pup_land/lone_town/bank_vault,
+	  pup_land/nurnberg/bank_vault,
+	  santo_dominion/shops/bank_santodominion_vault,
+	  scorn/shops/bank-vault, wolfsburg/shops/bank-wolfsburg-vault:
+	  Make entrances to Astral Vault map unique, make map paths from
+	  the Astral Vault back to the banks absolute, added missing levers
+	  to the Astral Vault map
+
+2020-05-31 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1,
+	  azumauindo/suno-yamatoshi/shops/bank1_vault,
+	  brest/shops/brest.cvt, brest/shops/brest_bank_vault,
+	  darcap/darcap/shops/bank_darcap,
+	  darcap/darcap/shops/bank_darcap_vault,
+	  dragonisland/shops/bank_stoneville,
+	  dragonisland/shops/bank_stoneville_vault,
+	  lake_country/shops/lc-bank, lake_country/shops/lc-bank-vault,
+	  marksel/shops/bank_marksel, marksel/shops/bank_marksel_vault,
+	  mlab/citydeclouds/bank/bank2, mlab/citydeclouds/bank/bank_vault,
+	  navar_city/misc/city1bank, navar_city/misc/city1bank_vault,
+	  planes/astral-vault, port_joseph/town/bank,
+	  port_joseph/town/bank-vault, pup_land/lone_town/bank,
+	  pup_land/lone_town/bank_vault, pup_land/nurnberg/bank,
+	  pup_land/nurnberg/bank_vault,
+	  santo_dominion/shops/bank_santodominion,
+	  santo_dominion/shops/bank_santodominion_vault, scorn/shops/bank,
+	  scorn/shops/bank-vault, wolfsburg/shops/bank-wolfsburg,
+	  wolfsburg/shops/bank-wolfsburg-vault: New feature map, Astral
+	  Vault - a way for players to have access to common storage that
+	  is accessible from any of the current bank maps. Requires map
+	  update r21230.
+
+2020-05-31 Rick Tanner
+
+	* regions.reg: Added a new region, Astral Plan
+
+2020-05-31 Rick Tanner
+
+	* navar_city/misc/city1bank: Update Bank of Skud, Navar Branch
+	  (navar_city/misc/city1bank) to give more space in the lobby area
+	  for the conversion tables
+
+2020-04-30 Rick Tanner
+
+	* lake_country/shops/lc-bank, marksel/shops/bank_marksel,
+	  port_joseph/town/bank, wolfsburg/shops/bank-wolfsburg: Deploy
+	  bank tellers to Port Joseph, Wolfsburg, Marksel, and Lake Country
+	  banks
+
+2020-04-30 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1: Cosmetic change with how
+	  swall sections merge with nearby walls in Chokinbank
+	  (azumauindo/suno-yamatoshi/shops/bank1), no functional changes
+
+2020-04-30 Rick Tanner
+
+	* azumauindo/suno-yamatoshi/shops/bank1,
+	  lake_country/shops/lc-bank, marksel/shops/bank_marksel,
+	  port_joseph/town/bank, wolfsburg/shops/bank-wolfsburg: Deploy
+	  deposit boxes to Port Joseph, Wolfsburg, Marksel, Lake Country
+	  and Chokinbank (Suno Yamatoshi) banks
+
+2020-04-23 Kevin Zheng
+
+	* darcap/temple_justice/temple_justice.5: Remove duplicate floor
+
+2020-04-23 Kevin Zheng
+
+	* lake_country/elven_moon/elvenmoon.1: Fix entrance to Elven Moon
+	  
+	  - There are some water tiles with move_block set incorrectly that
+	  allow
+	  passage to the island even without the bridge. Fix those.
+	  
+	  - Move magic mouth underneath floor so it does not appear when
+	  'show
+	  invisible' is cast.
+	  
+	  - Make invisible barrier see-through.
+
+2020-03-31 Rick Tanner
+
+	* pup_land/rainbow/red_town/shop, pup_land/rainbow/red_town/town:
+	  Cosmetic changes to Bobo's Shop (pup_land/rainbow/red_town/shop)
+	  to add more visual space on the map perimeter. Update Red Town
+	  (pup_land/rainbow/red_town/town) for entrance coordinate changes.
+
+2020-03-21 Kevin Zheng
+
+	* brest/brest.scrolls, brest/brest.scrolls.right,
+	  brest/shops/brest.armour, brest/shops/brest.food,
+	  brest/shops/brest.magic, brest/shops/brest.weapon,
+	  brest/shops/buildshop, brest/shops/buildshop2: Mark Brest shops
+	  fixed reset
+
+2020-03-21 Kevin Zheng
+
+	* python/events/init/autojail_command.py,
+	  python/events/init/dip_command.py,
+	  python/events/init/disinfect_command.py,
+	  python/events/init/give_command.py,
+	  python/events/init/python_commands.py,
+	  python/events/init/reputation_command.py: Initialize Python
+	  commands in one file
+
+2020-03-21 Kevin Zheng
+
+	* python/commands/dip.py, python/events/init/dip_command.py: Add
+	  'dip' command
+	  
+	  Dipping allows players to fill empty bottles from fountains.
+
+2020-03-15 Rick Tanner
+
+	* marksel/shops/bank_marksel, world/world_120_109: New map, Bank of
+	  Marksel (marksel/shops/bank_marksel) in the Hamlet of Lord
+	  Marksel. World map (world/world_120_109) update for the bank map.
+
+2020-03-14 Kevin Zheng
+
+	* scorn/houses/house3.1st: Use artifact cure poison
+
+2020-03-14 22:39  Kevin Zheng
+
+	* quests/saromok/castlesaromok_frontgate,
+	  quests/saromok/castlesaromok_volcano: Make paths absolute
+
+2020-02-29 Rick Tanner
+
+	* scorn/misc/beginners, scorn/shops/oleds_cafe: Update
+	  instructional sign in Beginners (scorn/misc/beginners) in Scorn
+	  to remove the reference to wearing armour since it is now
+	  automatically worn as part of the character creation process.
+
+2020-02-29 Rick Tanner
+
+	* start/newbieshouse: Change the reward chest to non_pickable in
+	  Starting House (start/newbieshouse) since new players tend to
+	  pick up the chest first instead of using the key to open it.
+
+2020-02-09 Rick Tanner
+
+	* port_joseph/town/bank, world/world_101_114: New map, Port Joseph
+	  Bank (port_joseph/town/bank) in Port Joseph. World map
+	  (world/world_101_114) update for the bank map.
+
+2020-02-07 Rick Tanner
+
+	* wolfsburg/shops/bank-wolfsburg, world/world_128_109: New map,
+	  Bank of Wolfsburg (wolfsburg/shops/bank-wolfsburg) in Wolfsburg.
+	  World map (world/world_128_109) update for the bank map.
+
+2020-01-31 Rick Tanner
+
+	* lake_country/shops/lc-bank, world/world_109_126: New map, Lake
+	  Country Bank (lake_country/shops/lc-bank) in Lake Country. World
+	  map (world/world_109_126) for the bank map.
+
+2020-01-14 Rick Tanner
+
+	* scorn/houses/messhall, world/world_105_115: Cosmetic changes to
+	  Mess Hall (scorn/houses/messhall) to add more visual space on the
+	  map perimeter, and changed the floor from dirt to cobblestone.
+	  Update Scorn world map (world/world_105_115) for entrance
+	  coordinate changes to Mess Hall.
+
+2020-01-13 Rick Tanner
+
+	* unlinked/kandora/dd_market: Cosmetic changes to dd_market
+	  (unlinked/kandora/dd_market) in Kandora for nicer wall section
+	  merging. No functional changes.
+
+2020-01-13 Rick Tanner
+
+	* scorn/houses/barracks, world/world_105_115: Cosmetic changes to
+	  Barracks (scorn/houses/barracks) to add more visual space on the
+	  map perimeter, and changed the floor from dirt to cobblestone.
+	  Update Scorn world map (world/world_105_115) for entrance
+	  coordinate changes to Barracks.
 
 2019-12-01  Daniel Hawkins
     * scorn/houses/alfalfa_ground: Update two exit coordinates to exit at Alfalfa's House.
