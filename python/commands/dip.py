@@ -24,6 +24,7 @@ def dip(pl):
     if ob.ArchName == "wbottle_empty":
         ob.Quantity -= 1
         w = Crossfire.CreateObjectByName("water")
+        w.Identified = 1
         w.InsertInto(pl)
         pl.Message("You fill the %s with water from the %s." % (name_before, f.Name))
     else:

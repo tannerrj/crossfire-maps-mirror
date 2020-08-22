@@ -1,3 +1,6 @@
+2020-08-22  Daniel Hawkins
+    * python/commands/dip.py: Make the water identified to avoid infinite identify xp.
+
 2020-08-16 Rick Tanner
 
 	* world/world_120_110: Added the world map tile (world_120_110)
