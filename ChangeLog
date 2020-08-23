@@ -1,5 +1,7 @@
 2020-08-22  Daniel Hawkins
     * python/commands/dip.py: Make the water identified to avoid infinite identify xp.
+    * python/items/lose_buffs_on_drop.py: Add condition to make the calculation only
+        if the item has been used since last time it was dropped.
 
 2020-08-16 Rick Tanner
 
