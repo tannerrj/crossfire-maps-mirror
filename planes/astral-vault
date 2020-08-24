@@ -5,7 +5,7 @@ width 50
 height 36
 msg
 Created:  2020-02-08 Rick Tanner
-Modified: 2020-06-13 Rick Tanner
+Modified: 2020-08-24 Kevin Zheng
 endmsg
 end
 arch dungeon_magic
@@ -8534,7 +8534,7 @@ x 24
 y 1
 end
 arch exit
-name POrtal to Stoneville
+name Portal to Stoneville
 slaying /dragonisland/shops/bank_stoneville_vault
 hp 3
 sp 7
@@ -10448,7 +10448,6 @@ hp 5
 sp 2
 x 29
 y 34
-unique 1
 end
 arch dungeon_magic
 x 29
