@@ -8,7 +8,7 @@ enter_x 5
 enter_y 15
 msg
 Created:  2020-05-30 Rick Tanner
-Modified: 2020-06-03 Rick Tanner
+Modified: 2020-08-24 Kevin Zheng
 endmsg
 end
 arch blocked
@@ -1097,7 +1097,7 @@ x 9
 y 3
 end
 arch exit
-slaying ../../planes/astral-vault
+slaying /planes/astral-vault
 hp 48
 sp 12
 x 9

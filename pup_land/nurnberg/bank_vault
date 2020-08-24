@@ -8,7 +8,7 @@ enter_x 23
 enter_y 7
 msg
 Created:  2020-05-29 Rick Tanner
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-08-24 Kevin Zheng
 endmsg
 end
 arch dungeon_magic
@@ -4155,7 +4155,7 @@ x 20
 y 4
 end
 arch exit
-slaying ../../planes/astral-vault
+slaying /planes/astral-vault
 hp 1
 sp 21
 x 20
