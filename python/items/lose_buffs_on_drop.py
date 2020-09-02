@@ -23,6 +23,6 @@ if me.PermExp > 0:
     me.AttackType = me.Archetype.Clone.AttackType
     me.Food = me.Archetype.Clone.Food
     # Experience should be affected before Item Power, since it affects that field
-    me.AddExp(-me.PermExp)
+    me.AddExp(-me.TotalExp)
     me.ItemPower = me.Archetype.Clone.ItemPower
     ac.Write("The "+me.Name+" shudders and looks almost like a normal weapon again.")

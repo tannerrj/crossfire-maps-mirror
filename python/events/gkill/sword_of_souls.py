@@ -20,13 +20,13 @@ if killer.Owner is None and killer.Type == Crossfire.Type.PLAYER:
         victim = Crossfire.WhoAmI()
         if victim is not None:
             old_level = weap.ItemPower
-            old_xp = weap.PermExp
-            # Add experience to the weapon (though we only care about the perm_exp field)
+            old_xp = weap.TotalExp
+            # Add experience to the weapon (though we only care about the total_exp field)
             # As the weapon gets stronger, it takes a larger share of the exp
             weap.AddExp((victim.Exp * (1.0 + weap.ItemPower / 115.0)) // 1)
             
             # Determine the change in XP
-            delta_exp = weap.PermExp - old_xp
+            delta_exp = weap.TotalExp - old_xp
             
             # DEBUGGING INFO:
             # Crossfire.Log(Crossfire.LogInfo, str(victim.Exp) + " -> " + str(delta_exp) + " & " + str(victim.Exp - delta_exp))

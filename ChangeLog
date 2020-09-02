@@ -1,3 +1,8 @@
+2020-09-01  Daniel Hawkins
+    * python/items/lose_buffs_on_drop.py,
+      python/events/gkill/sword_of_souls.py: Update to use TotalExp field over PermExp.
+          Requires server r21326 to properly function.
+
 2020-08-25 Rick Tanner
     * planes/astral-vault: Numerous cosmetic, design and functional changes to 
       Astral Vault (planes/astral-vault)
