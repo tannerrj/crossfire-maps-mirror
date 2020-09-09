@@ -8,7 +8,7 @@ enter_x 23
 enter_y 7
 msg
 Created:  1996-02-09
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-09-09 Nicolas Weeger
 endmsg
 end
 arch grass
@@ -938,12 +938,7 @@ arch woodfloor
 x 8
 y 13
 end
-arch platinum_converter2
-name convert jade into platinum
-slaying jadecoin
-other_arch platinacoin
-sp 100
-food 1
+arch jade_converter2
 x 8
 y 13
 end
@@ -2467,12 +2462,7 @@ arch woodfloor
 x 19
 y 13
 end
-arch jade_converter
-name convert amberium into jade
-slaying ambercoin
-other_arch jadecoin
-sp 100
-food 1
+arch amberium_converter
 x 19
 y 13
 end

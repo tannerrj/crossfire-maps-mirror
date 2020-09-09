@@ -8,7 +8,7 @@ enter_x 15
 enter_y 15
 msg
 Created:  2020-01-21 Rick Tanner
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-09-09 Nicolas Weeger
 endmsg
 end
 arch dungeon_magic
@@ -1322,12 +1322,7 @@ arch woodfloor2
 x 7
 y 16
 end
-arch platinum_converter2
-name convert jade into platinum
-slaying jadecoin
-other_arch platinacoin
-sp 100
-food 1
+arch jade_converter2
 x 7
 y 16
 end
@@ -1655,12 +1650,7 @@ arch woodfloor2
 x 9
 y 16
 end
-arch jade_converter
-name convert amberium into jade
-slaying ambercoin
-other_arch jadecoin
-sp 100
-food 1
+arch amberium_converter
 x 9
 y 16
 end
@@ -1976,12 +1966,7 @@ arch woodfloor2
 x 11
 y 13
 end
-arch silver_converter
-name convert gold into silver
-slaying goldcoin
-other_arch silvercoin
-sp 10
-food 1
+arch gold_converter2
 x 11
 y 13
 end

@@ -8,7 +8,7 @@ enter_x 10
 enter_y 16
 msg
 Created:  1993-11-17
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-09-09 Nicolas Weeger
 endmsg
 end
 arch cobblestones2
@@ -554,12 +554,7 @@ arch cobblestones
 x 4
 y 13
 end
-arch silver_converter
-name convert gold into silver
-slaying goldcoin
-other_arch silvercoin
-sp 10
-food 1
+arch gold_converter2
 x 4
 y 13
 end
@@ -571,12 +566,7 @@ arch cobblestones
 x 4
 y 14
 end
-arch silver_converter
-name convert gold into silver
-slaying goldcoin
-other_arch silvercoin
-sp 10
-food 1
+arch gold_converter2
 x 4
 y 14
 end
@@ -2396,12 +2386,7 @@ arch cobblestones
 x 16
 y 12
 end
-arch jade_converter
-name convert amberium into jade
-slaying ambercoin
-other_arch jadecoin
-sp 100
-food 1
+arch amberium_converter
 x 16
 y 12
 end
@@ -2425,12 +2410,7 @@ arch cobblestones
 x 16
 y 14
 end
-arch platinum_converter2
-name convert jade into platinum
-slaying jadecoin
-other_arch platinacoin
-sp 100
-food 1
+arch jade_converter2
 x 16
 y 14
 end

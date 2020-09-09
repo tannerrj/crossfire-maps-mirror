@@ -8,7 +8,7 @@ enter_x 15
 enter_y 15
 msg
 Created:  2020-02-07 Rick Tanner
-Modified: 2020-05-31 Rick Tanner
+Modified: 2020-09-09 Nicolas Weeger
 endmsg
 end
 arch dungeon_magic
@@ -659,12 +659,7 @@ arch woodfloor
 x 3
 y 13
 end
-arch silver_converter
-name convert gold into silver
-slaying goldcoin
-other_arch silvercoin
-sp 10
-food 1
+arch gold_converter2
 x 3
 y 13
 end

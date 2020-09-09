@@ -9,7 +9,7 @@ enter_y 16
 msg
 Created:  1993-10-10 skud the great (tvangod@ecst.csuchico.edu)
 Idea credited to Eric Mehlhaff.
-Modified: 2020-05-30 Rick Tanner
+Modified: 2020-09-09 Nicolas Weeger
 endmsg
 end
 arch cobblestones2
@@ -3227,12 +3227,7 @@ arch woodlarge
 x 17
 y 16
 end
-arch platinum_converter2
-name convert jade into platinum
-slaying jadecoin
-other_arch platinacoin
-sp 100
-food 1
+arch jade_converter2
 x 17
 y 16
 end
@@ -3549,12 +3544,7 @@ arch woodlarge
 x 19
 y 16
 end
-arch jade_converter
-name convert amberium into jade
-slaying ambercoin
-other_arch jadecoin
-sp 100
-food 1
+arch amberium_converter
 x 19
 y 16
 end
@@ -3900,12 +3890,7 @@ arch woodlarge
 x 21
 y 12
 end
-arch silver_converter
-name convert gold into silver
-slaying goldcoin
-other_arch silvercoin
-sp 10
-food 1
+arch gold_converter2
 x 21
 y 12
 end
