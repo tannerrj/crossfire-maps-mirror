@@ -1,3 +1,17 @@
+2020-10-01  Daniel Hawkins
+	* pup_land/world: Add map tiling with rainbow/islands. Remove redundant tiles at south.
+	* pup_land/rainbow/islands: Add map tiling with pup_land/world. Remove redundant tiles at north and add sea tiles to west to align tiling.
+	* pup_land/jk/heads,
+	  pup_land/rainbow/l_h1,
+	  pup_land/rainbow/red_town/town,
+	  pup_land/rainbow/river,
+	  pup_land/rainbow/shore,
+	  pup_land/rainbow/well,
+	  pup_land/rainbow/woods,
+	  pup_land/s_f/ruin,
+	  pup_land/s_f/to-jyo: Update map exit references to rainbow/islands to reflect
+	      map repositioning.
+
 2020-09-01  Daniel Hawkins
     * python/items/lose_buffs_on_drop.py,
       python/events/gkill/sword_of_souls.py: Update to use TotalExp field over PermExp.

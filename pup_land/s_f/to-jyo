@@ -8,7 +8,7 @@ enter_x 9
 enter_y 13
 msg
 Created:  1996-02-09
-Modified: 2012-04-11 Rick Tanner
+Modified: 2020-10-01 SilverNexus
 endmsg
 end
 arch sea
@@ -620,8 +620,8 @@ y 13
 end
 arch invis_exit
 slaying ../rainbow/islands
-hp 24
-sp 22
+hp 27
+sp 15
 x 6
 y 14
 end
@@ -706,8 +706,8 @@ y 14
 end
 arch invis_exit
 slaying ../rainbow/islands
-hp 24
-sp 22
+hp 27
+sp 15
 x 7
 y 14
 end
@@ -826,8 +826,8 @@ y 13
 end
 arch invis_exit
 slaying ../rainbow/islands
-hp 24
-sp 22
+hp 27
+sp 15
 x 8
 y 14
 end
@@ -921,8 +921,8 @@ y 13
 end
 arch invis_exit
 slaying ../rainbow/islands
-hp 24
-sp 22
+hp 27
+sp 15
 x 9
 y 14
 end
@@ -991,8 +991,8 @@ y 13
 end
 arch invis_exit
 slaying ../rainbow/islands
-hp 24
-sp 22
+hp 27
+sp 15
 x 10
 y 14
 end

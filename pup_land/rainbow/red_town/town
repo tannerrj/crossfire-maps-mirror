@@ -6,7 +6,7 @@ width 15
 height 15
 msg
 Created:  1997-02-11
-Modified: 2020-03-31 Rick Tanner
+Modified: 2020-10-01 SilverNexus
 endmsg
 end
 arch woods
@@ -670,8 +670,8 @@ y 13
 end
 arch invis_exit
 slaying ../islands
-hp 21
-sp 21
+hp 24
+sp 14
 x 7
 y 14
 end
@@ -1137,8 +1137,8 @@ move_block 0
 end
 arch galleon
 slaying ../islands
-hp 24
-sp 25
+hp 27
+sp 18
 x 13
 y 12
 end
