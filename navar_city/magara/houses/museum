@@ -8,7 +8,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  1994-10-11
-Modified: 2019-12-23 Rick Tanner
+Modified: 2020-10-05 Daniel Hawkins
 endmsg
 end
 arch cobblestones2
@@ -9062,9 +9062,6 @@ x 30
 y 3
 end
 arch shield
-msg
-Shield
-endmsg
 x 30
 y 3
 end
@@ -9085,6 +9082,9 @@ x 30
 y 5
 end
 arch magic_mouth
+msg
+Shield
+endmsg
 x 30
 y 5
 end
@@ -12610,7 +12610,9 @@ arch woodfloor
 x 41
 y 28
 end
-arch cloak_black
+arch cloak
+artifact black leather
+identified 1
 x 41
 y 28
 end
@@ -12618,7 +12620,9 @@ arch woodlarge
 x 41
 y 29
 end
-arch cloak_white
+arch cloak
+artifact white leather
+identified 1
 x 41
 y 29
 end
