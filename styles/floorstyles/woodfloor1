@@ -4,10 +4,20 @@ width 6
 height 6
 msg
 Created:  1999-02-03
+Modified: 2020-10-06 SilverNexus
 endmsg
 end
 arch woodfloor
 end
 arch woodfloor2
 x 1
+end
+arch woodfloorvert
+x 2
+end
+arch woodlarge
+x 3
+end
+arch woodlgvertical
+x 4
 end

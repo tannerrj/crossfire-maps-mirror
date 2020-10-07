@@ -8,7 +8,17 @@ enter_x 1
 enter_y 1
 msg
 Created:  1998-02-19
+Modified: 2020-10-06 SilverNexus
 endmsg
 end
 arch woodfloor
+end
+arch woodfloorvert
+x 1
+end
+arch woodlarge
+x 2
+end
+arch woodlgvertical
+x 3
 end

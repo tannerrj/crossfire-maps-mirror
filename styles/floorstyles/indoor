@@ -4,22 +4,92 @@ width 6
 height 6
 msg
 Created:  1998-02-19
+Modified: 2020-10-06 SilverNexus
 endmsg
 end
 arch woodfloor
 end
+arch woodlarge
+y 1
+end
+arch tile_floor
+y 2
+end
+arch lightmagentamarble
+y 3
+end
 arch cobblestones
 x 1
+end
+arch woodlgvertical
+x 1
+y 1
+end
+arch tile_white_floor
+x 1
+y 2
+end
+arch pinkmarble
+x 1
+y 3
 end
 arch cobblestones2
 x 2
 end
+arch woodfloor2
+x 2
+y 1
+end
+arch greenmarblelight
+x 2
+y 2
+end
+arch whiteslate
+x 2
+y 3
+end
 arch flagstone
 x 3
+end
+arch woodfloorvert
+x 3
+y 1
+end
+arch afloor_blue_right
+x 3
+y 2
+end
+arch redslate
+x 3
+y 3
 end
 arch marble
 x 4
 end
+arch dungeon_floor
+x 4
+y 1
+end
+arch afloor_right
+x 4
+y 2
+end
+arch blackslate
+x 4
+y 3
+end
 arch blackmarble
 x 5
+end
+arch tile_tan_floor
+x 5
+y 1
+end
+arch afloor_magenta_right
+x 5
+y 2
+end
+arch lightgreenmarble
+x 5
+y 3
 end
