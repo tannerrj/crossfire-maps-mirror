@@ -1,3 +1,7 @@
+2020-10-11  Daniel Hawkins
+	* pup_land/begin/adv: Begin to modernize the mechanisms for producing the hints from the semi-gods.
+	    While at it, make the last option produce both the amulet/ring and the note, instead of just one.
+
 2020-10-05  Daniel Hawkins
 	* navar_city/magara/houses/museum: Fix misplaced magic_mouth text on a shield, and correct arches for white and black leather cloaks.
 	* styles/floorstyles/indoor,
@@ -28,7 +32,7 @@
           Requires server r21326 to properly function.
 
 2020-08-25 Rick Tanner
-    * planes/astral-vault: Numerous cosmetic, design and functional changes to 
+    * planes/astral-vault: Numerous cosmetic, design and functional changes to
       Astral Vault (planes/astral-vault)
       to prevent players from using the map as free transportation
 
@@ -241,15 +245,15 @@
 2020-04-23 Kevin Zheng
 
 	* lake_country/elven_moon/elvenmoon.1: Fix entrance to Elven Moon
-	  
+
 	  - There are some water tiles with move_block set incorrectly that
 	  allow
 	  passage to the island even without the bridge. Fix those.
-	  
+
 	  - Move magic mouth underneath floor so it does not appear when
 	  'show
 	  invisible' is cast.
-	  
+
 	  - Make invisible barrier see-through.
 
 2020-03-31 Rick Tanner
@@ -281,7 +285,7 @@
 
 	* python/commands/dip.py, python/events/init/dip_command.py: Add
 	  'dip' command
-	  
+
 	  Dipping allows players to fill empty bottles from fountains.
 
 2020-03-15 Rick Tanner
@@ -731,7 +735,7 @@
 
 	* scorn/misc/battle_arena/entrance, scorn/taverns/goths,
 	  world/world_111_117: Fix invalid object attributes.
-	  
+
 	  While around, fix text capitalization and a few dialogs.
 
 2014-03-23 16:03  kstenger
@@ -774,7 +778,7 @@
 
 	* scorn/mansion/garden, scorn/mansion/muriskunes: Fix a few exits
 	  in the Scorn Mansion.
-	  
+
 	  Remove a portal to a random map that leads to no final
 	  destination.
 	  Replace the Wishing Well exit with stairs going up.
@@ -994,7 +998,7 @@
 
 	* navar_city/collosium, navar_city/colosseum, world/world_121_116:
 	  Cosmetic fixes to Navar Colosseum.
-	  
+
 	  Big spelling fix, drop invalid fields in archtype.
 
 2013-08-18 21:12  partmedia
@@ -1002,7 +1006,7 @@
 	* navar_city/temples/mostrai, navar_city/temples/sorig,
 	  navar_city/temples/valriel, world/world_121_117,
 	  world/world_122_117: Cosmetic changes to temples in Navar.
-	  
+
 	  Bring back old Valkyrie Church, adjust map name properties of a
 	  few
 	  maps, and overhaul the temple->church of Sorig.
@@ -1011,7 +1015,7 @@
 
 	* world/world_121_116, world/world_121_117, world/world_122_116,
 	  world/world_122_117: Cosmetic changes to Navar City.
-	  
+
 	  Improve pixmaps on several churches/temples, as well as fix some
 	  text on
 	  some buildings. Also move the well so that it's not in the middle
@@ -1066,7 +1070,7 @@
 	* scorn/houses/cornerbrook, scorn/houses/riverside_manor,
 	  scorn/taverns/barking_mule: Rename non-cauldron stoves to
 	  "cooking stove".
-	  
+
 	  Also mark map as outdoor and improve NPC messages.
 
 2013-08-11 13:23  partmedia
@@ -1096,7 +1100,7 @@
 	  unlinked/tutorial/tutorialhouse,
 	  unlinked/tutorial/tutorialisland, unlinked/tutorial/tutorialshop:
 	  Import new tutorial from Patch #235.
-	  
+
 	  An earlier version also existed on Invidious; the newer version
 	  from the
 	  bug tracker was used instead.
@@ -1106,7 +1110,7 @@
 	* scorn/mansion/entrance, scorn/mansion/garden,
 	  scorn/mansion/muriskunes, scorn/mansion/subbasement1: Expand
 	  Scorn's Old Mansion deeper underground.
-	  
+
 	  This is part of the stuff left in the working directory of
 	  Invidious,
 	  with some changes. Attribution for this map goes to either
@@ -1346,7 +1350,7 @@
 
 	* python/IPO/banksay.py: Re-implement strAmount() as a wrapper to
 	  standard function.
-	  
+
 	  Thanks to Nicholas for pointing this out!
 
 2013-08-04 10:34  partmedia
@@ -1396,7 +1400,7 @@
 
 	* python/IPO/banksay.py: Implement and use new silver-to-string
 	  function.
-	  
+
 	  Also take this opportunity to fix the bank profit calculations.
 
 2013-08-03 00:28  partmedia
@@ -1444,7 +1448,7 @@
 2013-08-03 00:26  partmedia
 
 	* python/IPO/banksay.py: Implement common utility methods.
-	  
+
 	  Reimplment 'balance' and 'withdraw' using the new utility
 	  methods. Move
 	  'deposit' into its own function but don't touch it yet.
@@ -1457,7 +1461,7 @@
 2013-08-03 00:26  partmedia
 
 	* python/CFBank.py: Correctly close bank file in CFBank.py.
-	  
+
 	  Open bank file with writeback set to false (default); setting it
 	  to True
 	  was not needed and caused a mysterious bug on my system. The
@@ -1514,7 +1518,7 @@
 2013-07-29 03:03  partmedia
 
 	* scorn/shops/foodshop: Remove 'race' property in Scorn Food Shop.
-	  
+
 	  In addition, pay somewhat well for flesh (this is a food shop,
 	  take into
 	  account races such as dragons). Also improve lighting and add a
@@ -1539,7 +1543,7 @@
 
 	* marksel/grumms_inn, marksel/grumms_inn2: Fix downstairs exit for
 	  Grumms Inn.
-	  
+
 	  Take this opportunity to improve the upstairs, fix the
 	  archetypes, and
 	  correct/improve NPC dialogue.
@@ -1571,13 +1575,13 @@
 	  navar_city/troll_canyon/troll_canyon.8,
 	  navar_city/troll_canyon/troll_canyon.9: Fix troll canyon map
 	  tiling.
-	  
+
 	  It's not a good idea to have tiles overlap each other; this tends
 	  to
 	  confuse the client. Move the tile below the other tile onto a
 	  separate
 	  map to solve this problem. Also fix tiles for entire map.
-	  
+
 	  Take this opportunity to better connect elements of the map.
 
 2013-07-26 07:50  partmedia
@@ -1587,7 +1591,7 @@
 	  navar_city/troll_canyon/troll_canyon.1,
 	  navar_city/troll_canyon/troll_canyon.2, world/world_119_119: Do
 	  not tile Troll Canyon entrance.
-	  
+
 	  The entrance (32x64) is less than a single world map tile
 	  (50x50).
 	  Tiling does not have an advantage, and trolls only attack when a
@@ -1595,7 +1599,7 @@
 	  is nearby anyways. This makes the map less confusing for map
 	  editors and
 	  DMs trying to reset the map.
-	  
+
 	  Also take this opportunity to correct capitalization and make the
 	  bridge
 	  troll actually say something (was broken due to typo).
@@ -2160,7 +2164,7 @@
 
 	* python/items/magic_whistle.py: Using the new
 	  Crossfire.AttackMovement.PETMOVE constants.
-	  
+
 	  Reduce the affected area to the surrounding 10x10 square.
 
 2013-07-23 19:25  ryo_saeba
@@ -2170,7 +2174,7 @@
 2013-07-23 18:56  kstenger
 
 	* python/items/magic_whistle.py: New item: magic pet's whistle.
-	  
+
 	  Why this item:
 	  In some cases pets may get angry at their owner and attack him.
 	  This whistle intends to give the player a chance to make his pets
@@ -2178,13 +2182,13 @@
 	  This won't prevent the pet from getting angry again for whatever
 	  reason, which
 	  is ok.
-	  
+
 	  Including: archetype, image, treasure list (for the whistle
 	  inventory to work
 	  properly), python script which makes the "real work".
-	  
+
 	  Hope to add a map soon to make this available to the players.
-	  
+
 	  A maps/trunk/python/items/magic_whistle.py
 	  A arch/trunk/misc/magic_whistle.trs
 	  A arch/trunk/misc/magic_whistle.arc
@@ -2483,7 +2487,7 @@
 2013-07-15 13:09  partmedia
 
 	* regions.reg: Reformat all region descriptions on one line.
-	  
+
 	  This allows region descriptions to be line broken by the client
 	  instead
 	  of at inconveniently-placed spots.
@@ -2511,7 +2515,7 @@
 2013-07-14 23:33  partmedia
 
 	* dragonisland/hangar2: Make dragon hangar entrance more difficult.
-	  
+
 	  The new entrance prevents players from camping on the stairs.
 	  Now, they
 	  have to actually fight the dragon without running away.
@@ -2538,7 +2542,7 @@
 
 	* dragonisland/hangar: Minor textual changes to Stoneville Dragon
 	  Hangar.
-	  
+
 	  Use "Darcap" instead of "Dtabb" and improve NPC/sign dialog.
 
 2013-07-07 15:03  partmedia
@@ -40201,7 +40205,7 @@
 	  scorn/misc/battle_arena/snack: Try a new tactic with the "alarm
 	  system" on brest/zorn/castle.upper.floor.two
 	  and made cosmetic changes to the map.
-	  
+
 	  Put in a fixed reset (30 minutes) for the Scorn Battle Arena maps
 	  (exception
 	  is the underground map which is not changed).
@@ -41552,7 +41556,7 @@
 	  burn when it fell on the "eternal lake of fire". Removed the
 	  damnation from
 	  the shield.
-	  
+
 	  The Avatars (created by the generators) were a little too fast
 	  still. Slowed
 	  them some. They are also now "race Divine" instead of "race
@@ -42757,12 +42761,12 @@
 	  brest/zorn/castle.basement0
 	  Fix "emergency exit".
 	  Move a wall.
-	  
+
 	  Make Irritable Zorn a bit more difficult
 	  brest/brest.scrolls.right
 	  Someone bragged that he was easy for a level 1 character.
 	  Maybe not now. :-)
-	  
+
 	  Fix a problem with an invalid archetype on
 	  quests/peterm/quests/wyvern_quest
 
@@ -43153,7 +43157,7 @@
 
 	* HallOfDMs: Add altars for all cults and two 'test' altars to
 	  HallOfDMs ... because DMs might need to pray too.
-	  
+
 	  Since HallOfDMs has unique tiles the unique file will need to be
 	  removed for this update to apply correctly. Be sure to move any
 	  stuff off the map that needs to be kept before removing the
@@ -43165,10 +43169,10 @@
 	  brest/zorn/castle.upper.floor.two: Fixup the NPCs a bit to make
 	  them not so difficult after some server code changes. Add doors
 	  to the next levels above floor two. Minor tweaks.
-	  
+
 	  Happy 19th wedding anniversary to my wife Annie (December 31st
 	  1987 was one of my best days, love).
-	  
+
 	  Happy New Year all crossfire fans.
 
 2006-12-26 22:49  ryo_saeba
@@ -43191,10 +43195,10 @@
 
 	* brest/zorn/castle.upper.floor.two: Dang you Rednaxela! Dang you
 	  to heck! :-)
-	  
+
 	  Let's try this commit again after having to update the entire map
 	  tree thanks to Rednaxela.
-	  
+
 	  Update to Zorn Castle floor two. New modified monsters and some
 	  generators added. Also mods to the floor plan. The exits to the
 	  towers and to the top floor do not yet work. This floor is
@@ -46932,13 +46936,13 @@
 2006-10-07 14:47  k_ahlers
 
 	* quests/peterm/quests/wyvern_quest: Fixed Bug #1552319
-	  
+
 	  Not the best solution but now the chapel is usable.
 
 2006-10-07 14:27  k_ahlers
 
 	* lake_country/Mwizard/Mwizard5: Solved Bug #1530018
-	  
+
 	  I removed the runes and added "dungeon-magic" to the tiles
 	  below the door. This should prevent players casting some-
 	  thing through the door.
@@ -47346,7 +47350,7 @@
 2006-08-02 14:33  k_ahlers
 
 	* Added the 40th part of the FT-Quest
-	  
+
 	  ATTENTION: This questpart is not linked! Do NOT add a link!
 
 2006-08-02 11:16  k_ahlers
@@ -47817,7 +47821,7 @@
 	* Add a dragon tranport hangar building to Lone Town. More
 	  temptation to get
 	  a new apartment away from Scorn in Lone Town. :-)
-	  
+
 	  To add this map from CVS one will need to reset
 	  /pup_land/lone_town/town
 	  then remove pup_land@lone_town@town.v00 from
@@ -49607,7 +49611,7 @@
 	  will mostly be used to get the mlab maps into some sort of sane
 	  layout.
 	  update README to note these files.
-	  
+
 	  MSW 2005-04-13
 
 2005-04-14 07:02  mwedel
@@ -49812,7 +49816,7 @@
 	  to
 	  Mitch Obrian).
 	  -move ship to Wolfsburg from Scorn to Navar
-	  
+
 	  -remember to update your arches...
 
 2005-02-22 12:12  salathar
@@ -50256,7 +50260,7 @@
 	  - Slightly reduced duration of ball lightnings.
 	  - Added an additional line to the warning sign to mention
 	  the high risk of death in a clear way.
-	  
+
 	  --AndreasV
 
 2004-06-07 03:29  temitchell
@@ -50703,7 +50707,7 @@
 2003-10-20 17:57  temitchell
 
 	* fix monkey_temple WARNING SPOILER!
-	  
+
 	  - add some magic mouth for antioc appearing...
 	  - add the listener for the secret exit (local copy of map was not
 	  updated in initial commit :( )
@@ -50882,7 +50886,7 @@
 	* - add a couple things to the styles like special doors for sylvan
 	  maps
 	  and a wall file for making hedge mazes
-	  
+
 	  tweek some existing styles
 
 2003-09-14 10:50  temitchell
@@ -51073,11 +51077,11 @@
 	  There are two passages where the road leads over the mountains.
 	  Players need to fight and survive the mountain tops in order
 	  to enter Brittany.
-	  
+
 	  Additionally I added a direct road to Lake Country.
 	  I have also replaced all wastelands inside Brittany by
 	  snowy mountains.
-	  
+
 	  --AndreasV
 
 2003-05-18 04:56  mwedel
@@ -51226,7 +51230,7 @@
 	* Fix floor tiles in map - was using floor tiles before, which
 	  wasn't
 	  really the right thing to do.
-	  
+
 	  MSW 2003-01-27
 
 2003-01-27 07:14  mwedel
@@ -51385,7 +51389,7 @@
 	  missing "activate_on_push/release" flags. Same changes
 	  as to the standard map set, including a fix for
 	  reception tower map-bug.
-	  
+
 	  --AndreasV
 
 2002-10-27 04:09  temitchell
@@ -51498,11 +51502,11 @@
 2002-07-23 07:04  mwedel
 
 	* Add lake_county (kundi_area) maps to world southeast of brest.
-	  
+
 	  Update world maps road connects to this city. Also, fix up some
 	  typos/
 	  incorrect map path names.
-	  
+
 	  Add dreaming_sage guild to navar city.
 	  MSW 2002-07-22
 
@@ -51528,7 +51532,7 @@
 2002-06-05 07:31  mwedel
 
 	* Fix a bunch of broken exits.
-	  
+
 	  Add some of the peterm maps that are linked to maps already
 	  added.
 	  MSW 2002-06-04
@@ -51536,29 +51540,29 @@
 2002-06-03 07:27  mwedel
 
 	* Add navar_city maps.
-	  
+
 	  Update background picks to include shallow sea, deep sea.
-	  
+
 	  MSW 2002-06-02
 
 2002-06-03 07:24  mwedel
 
 	* Add navar_city to maps, with road connecting to scorn.
-	  
+
 	  Fix some broken exits in brest.
-	  
+
 	  MSW 2002-06-02
 
 2002-06-01 08:13  mwedel
 
 	* Add brest/brittany maps.
-	  
+
 	  Update the scorn map so that there are some light sources, so
 	  even at night
 	  you can still find your way around.
-	  
+
 	  Other world maps updated to add roads that link brest and scorn.
-	  
+
 	  MSW 2002-05-30
 
 2002-05-31 07:00  mwedel
@@ -51571,9 +51575,9 @@
 	* Fix some exits in santo_dominion which didn't lead back to the
 	  map
 	  properly.
-	  
+
 	  Add euthville (kar) maps.
-	  
+
 	  MSW 2002-05-30
 
 2002-05-29 07:03  mwedel
@@ -51602,7 +51606,7 @@
 
 	* README: Add notes to describe process of moving unique maps to
 	  maps-bigworld system.
-	  
+
 	  update_exits.pl: Modified to include any number of source and
 	  destination values, so the script can be used to update any
 	  number
@@ -51619,7 +51623,7 @@
 	* Update scorn maps with changes that have been made in the main
 	  map
 	  distribution.
-	  
+
 	  Add santo_dominion maps, as well as road connecting scorn and
 	  santo dominion.
 	  MSW 2002-05-19
