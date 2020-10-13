@@ -8,7 +8,7 @@ enter_x 3
 enter_y 12
 msg
 Created:  1996-02-13
-Modified: 2020-10-11 SilverNexus
+Modified: 2020-10-12 SilverNexus
 endmsg
 end
 arch marble
@@ -334,22 +334,16 @@ endmsg
 end
 end
 arch creator
-name 18
+name 11
 x 3
 y 3
-connected 18
+connected 11
 arch note
 name hint from the semi-gods 8
 msg
 Be careful when collecting food in dungeons.  Poisoned food can kill players of low level very quick! Check if the food stacks with the pieces you're already carrying.
 endmsg
 end
-end
-arch creator
-name 17
-x 3
-y 3
-connected 17
 arch note
 name hint from the semi-gods 7
 msg
@@ -362,36 +356,18 @@ potion of shielding:
 	90 resist to physical
 endmsg
 end
-end
-arch creator
-name 16
-x 3
-y 3
-connected 16
 arch note
 name hint from the semi-gods 6
 msg
 You can jump through certain kinds of gates and fences by using the spell "dimension door."
 endmsg
 end
-end
-arch creator
-name 15
-x 3
-y 3
-connected 15
 arch note
 name hint from the semi-gods 5
 msg
 Raising your Stats (Str/Dex/Con/...) by drinking potions of Strength/Dexterity/..etc is the best way to level up quickly.  Those cannot be found in shops.  Hence, in the beginning, you should try to find places (in dungeons) where to obtain random potions.
 endmsg
 end
-end
-arch creator
-name 14
-x 3
-y 3
-connected 14
 arch note
 name hint from the semi-gods 4
 msg
@@ -403,12 +379,6 @@ To examine an object...
 ...with gtk client: left-click on it!
 endmsg
 end
-end
-arch creator
-name 13
-x 3
-y 3
-connected 13
 arch note
 name hint from the semi-gods 3
 msg
@@ -419,24 +389,12 @@ Guide to weapon-enchanting:
 - drop the type and amount of potions you are prompted for, then apply the scroll again
 endmsg
 end
-end
-arch creator
-name 12
-x 3
-y 3
-connected 12
 arch note
 name hint from the semi-gods 2
 msg
 When you die - and that will happen - you loose some experience and one Stat (like Str -1 or Wis -1).  The exp. is gone, but the Stats can be recovered by drinking a potion of life! For skilled priests there is yet an easier way: Pray over an altar of your deity... The gods won't ignore the bidding of a worthy disciple.
 endmsg
 end
-end
-arch creator
-name 11
-x 3
-y 3
-connected 11
 arch note
 name hint from the semi-gods 1
 msg
@@ -982,12 +940,12 @@ end
 arch button_small
 x 9
 y 3
-connected 14
+connected 11
 end
 arch button_small
 x 9
 y 4
-connected 17
+connected 11
 end
 arch blocked
 x 9
@@ -1055,17 +1013,17 @@ end
 arch button_small
 x 10
 y 2
-connected 12
+connected 11
 end
 arch button_small
 x 10
 y 3
-connected 15
+connected 11
 end
 arch button_small
 x 10
 y 4
-connected 18
+connected 11
 end
 arch blocked
 x 10
@@ -1117,12 +1075,12 @@ end
 arch button_small
 x 11
 y 2
-connected 13
+connected 11
 end
 arch button_small
 x 11
 y 3
-connected 16
+connected 11
 end
 arch button_small
 x 11
