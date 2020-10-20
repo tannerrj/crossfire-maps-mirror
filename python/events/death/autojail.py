@@ -1,13 +1,18 @@
 #
 # This module will automaticall arrest players killing other players,
 # provided the option was activated by a DM through 'autojail 1'.
-# Note the settings defaults to 0 and isn't kept during server resets.
+# Note the settings defaults to 0 and isn't kept during server resets.
 
 import Crossfire
 
 
 def check_autojail():
     killer = Crossfire.WhoIsActivator()
+
+    # If a player dies by starvation, there is no killer.
+    # Bail if that is the case.
+    if killer is None:
+        return
 
     if killer.Type != Crossfire.Type.PLAYER or killer.DungeonMaster:
         return
