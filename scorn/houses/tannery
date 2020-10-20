@@ -8,7 +8,7 @@ enter_x 7
 enter_y 11
 msg
 Created:  2002-12-29
-Modified: 2012-03-36 Rick Tanner
+Modified: 2020-10-20 SilverNexus
 endmsg
 outdoor 1
 end
@@ -1085,6 +1085,8 @@ end
 arch flagstone
 x 8
 y 10
+no_magic 1
+damned 1
 end
 arch flagstone
 x 8
