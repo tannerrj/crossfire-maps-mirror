@@ -47,6 +47,9 @@ def handle():
     if who.Level > skill.Level + 5:
       return
 
+  # If no player, return.
+  if player is None:
+    return
   # if a spell was used, then the killer is the spell object, find the owner
   if player.Type != Crossfire.Type.PLAYER:
     player = player.Owner

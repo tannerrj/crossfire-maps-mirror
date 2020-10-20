@@ -1,5 +1,6 @@
 2020-10-20  Daniel Hawkins
 	* scorn/houses/tannery: Fix flagstone tile in entrance area that doesn't prevent casting.
+	* maps/python/quests/QuestAdvance.py: Bail when no player is provided. Avoids a core dump from the attempt to run the script in some scenarios.
 
 2020-10-12  Daniel Hawkins
 	* pup_land/begin/adv: Utilize the randomized item generation for the creator arch rather than separate
