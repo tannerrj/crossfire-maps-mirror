@@ -9,7 +9,7 @@ enter_x 13
 enter_y 19
 msg
 Created:  2015-03-25 Rick Tanner
-Modified: 2015-04-03 Rick Tanner
+Modified: 2020-10-31 Rick Tanner
 endmsg
 tile_path_1 uworld_107_122
 tile_path_2 uworld_108_123
@@ -2149,11 +2149,14 @@ arch cave10
 x 13
 y 18
 end
-arch mountain_cave
+arch dlevel_3_2
 x 13
 y 19
 end
-arch dlevel_3_2
+arch mountain_cave
+slaying cavern_of_descent-w
+hp 27
+sp 27
 x 13
 y 19
 end
