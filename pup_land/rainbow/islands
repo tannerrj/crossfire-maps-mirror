@@ -2,11 +2,11 @@ arch map
 name Rainbow Islands
 difficulty 1
 region pupland
-width 38
-height 29
+width 45
+height 37
 msg
 Created:  1996-05-30
-Modified: 2020-10-01 SilverNexus
+Modified: 2020-11-29 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 ../world
@@ -98,6 +98,30 @@ arch sea
 y 28
 end
 arch sea
+y 29
+end
+arch sea
+y 30
+end
+arch sea
+y 31
+end
+arch sea
+y 32
+end
+arch sea
+y 33
+end
+arch sea
+y 34
+end
+arch sea
+y 35
+end
+arch sea
+y 36
+end
+arch sea
 x 1
 end
 arch sea
@@ -213,6 +237,38 @@ x 1
 y 28
 end
 arch sea
+x 1
+y 29
+end
+arch sea
+x 1
+y 30
+end
+arch sea
+x 1
+y 31
+end
+arch sea
+x 1
+y 32
+end
+arch sea
+x 1
+y 33
+end
+arch sea
+x 1
+y 34
+end
+arch sea
+x 1
+y 35
+end
+arch sea
+x 1
+y 36
+end
+arch sea
 x 2
 end
 arch sea
@@ -326,6 +382,38 @@ end
 arch sea
 x 2
 y 28
+end
+arch sea
+x 2
+y 29
+end
+arch sea
+x 2
+y 30
+end
+arch sea
+x 2
+y 31
+end
+arch sea
+x 2
+y 32
+end
+arch sea
+x 2
+y 33
+end
+arch sea
+x 2
+y 34
+end
+arch sea
+x 2
+y 35
+end
+arch sea
+x 2
+y 36
 end
 arch sea
 x 3
@@ -445,6 +533,38 @@ end
 arch sea
 x 3
 y 28
+end
+arch sea
+x 3
+y 29
+end
+arch sea
+x 3
+y 30
+end
+arch sea
+x 3
+y 31
+end
+arch sea
+x 3
+y 32
+end
+arch sea
+x 3
+y 33
+end
+arch sea
+x 3
+y 34
+end
+arch sea
+x 3
+y 35
+end
+arch sea
+x 3
+y 36
 end
 arch sea
 x 4
@@ -580,6 +700,38 @@ end
 arch sea
 x 4
 y 28
+end
+arch sea
+x 4
+y 29
+end
+arch sea
+x 4
+y 30
+end
+arch sea
+x 4
+y 31
+end
+arch sea
+x 4
+y 32
+end
+arch sea
+x 4
+y 33
+end
+arch sea
+x 4
+y 34
+end
+arch sea
+x 4
+y 35
+end
+arch sea
+x 4
+y 36
 end
 arch sea
 x 5
@@ -708,6 +860,38 @@ x 5
 y 28
 end
 arch sea
+x 5
+y 29
+end
+arch sea
+x 5
+y 30
+end
+arch sea
+x 5
+y 31
+end
+arch sea
+x 5
+y 32
+end
+arch sea
+x 5
+y 33
+end
+arch sea
+x 5
+y 34
+end
+arch sea
+x 5
+y 35
+end
+arch sea
+x 5
+y 36
+end
+arch sea
 x 6
 end
 arch sea
@@ -827,6 +1011,38 @@ x 6
 y 28
 end
 arch sea
+x 6
+y 29
+end
+arch sea
+x 6
+y 30
+end
+arch sea
+x 6
+y 31
+end
+arch sea
+x 6
+y 32
+end
+arch sea
+x 6
+y 33
+end
+arch sea
+x 6
+y 34
+end
+arch sea
+x 6
+y 35
+end
+arch sea
+x 6
+y 36
+end
+arch sea
 x 7
 end
 arch sea
@@ -946,6 +1162,38 @@ x 7
 y 28
 end
 arch sea
+x 7
+y 29
+end
+arch sea
+x 7
+y 30
+end
+arch sea
+x 7
+y 31
+end
+arch sea
+x 7
+y 32
+end
+arch sea
+x 7
+y 33
+end
+arch sea
+x 7
+y 34
+end
+arch sea
+x 7
+y 35
+end
+arch sea
+x 7
+y 36
+end
+arch sea
 x 8
 end
 arch sea
@@ -1065,6 +1313,38 @@ x 8
 y 28
 end
 arch sea
+x 8
+y 29
+end
+arch sea
+x 8
+y 30
+end
+arch sea
+x 8
+y 31
+end
+arch sea
+x 8
+y 32
+end
+arch sea
+x 8
+y 33
+end
+arch sea
+x 8
+y 34
+end
+arch sea
+x 8
+y 35
+end
+arch sea
+x 8
+y 36
+end
+arch sea
 x 9
 end
 arch sea
@@ -1184,6 +1464,38 @@ x 9
 y 28
 end
 arch sea
+x 9
+y 29
+end
+arch sea
+x 9
+y 30
+end
+arch sea
+x 9
+y 31
+end
+arch sea
+x 9
+y 32
+end
+arch sea
+x 9
+y 33
+end
+arch sea
+x 9
+y 34
+end
+arch sea
+x 9
+y 35
+end
+arch sea
+x 9
+y 36
+end
+arch sea
 x 10
 end
 arch grass
@@ -1333,6 +1645,38 @@ end
 arch sea
 x 10
 y 28
+end
+arch sea
+x 10
+y 29
+end
+arch sea
+x 10
+y 30
+end
+arch sea
+x 10
+y 31
+end
+arch sea
+x 10
+y 32
+end
+arch sea
+x 10
+y 33
+end
+arch sea
+x 10
+y 34
+end
+arch sea
+x 10
+y 35
+end
+arch sea
+x 10
+y 36
 end
 arch sea
 x 11
@@ -1464,6 +1808,38 @@ end
 arch sea
 x 11
 y 28
+end
+arch sea
+x 11
+y 29
+end
+arch sea
+x 11
+y 30
+end
+arch sea
+x 11
+y 31
+end
+arch sea
+x 11
+y 32
+end
+arch sea
+x 11
+y 33
+end
+arch sea
+x 11
+y 34
+end
+arch sea
+x 11
+y 35
+end
+arch sea
+x 11
+y 36
 end
 arch dungeon_magic
 x 12
@@ -1608,6 +1984,38 @@ x 12
 y 28
 end
 arch sea
+x 12
+y 29
+end
+arch sea
+x 12
+y 30
+end
+arch sea
+x 12
+y 31
+end
+arch sea
+x 12
+y 32
+end
+arch sea
+x 12
+y 33
+end
+arch sea
+x 12
+y 34
+end
+arch sea
+x 12
+y 35
+end
+arch sea
+x 12
+y 36
+end
+arch sea
 x 13
 end
 arch woods
@@ -1773,6 +2181,38 @@ end
 arch sea
 x 13
 y 28
+end
+arch sea
+x 13
+y 29
+end
+arch sea
+x 13
+y 30
+end
+arch sea
+x 13
+y 31
+end
+arch sea
+x 13
+y 32
+end
+arch sea
+x 13
+y 33
+end
+arch sea
+x 13
+y 34
+end
+arch sea
+x 13
+y 35
+end
+arch sea
+x 13
+y 36
 end
 arch sea
 x 14
@@ -1933,6 +2373,38 @@ arch sea
 x 14
 y 28
 end
+arch sea
+x 14
+y 29
+end
+arch sea
+x 14
+y 30
+end
+arch sea
+x 14
+y 31
+end
+arch sea
+x 14
+y 32
+end
+arch sea
+x 14
+y 33
+end
+arch sea
+x 14
+y 34
+end
+arch sea
+x 14
+y 35
+end
+arch sea
+x 14
+y 36
+end
 arch grass
 x 15
 end
@@ -2087,6 +2559,38 @@ end
 arch sea
 x 15
 y 28
+end
+arch sea
+x 15
+y 29
+end
+arch sea
+x 15
+y 30
+end
+arch sea
+x 15
+y 31
+end
+arch sea
+x 15
+y 32
+end
+arch sea
+x 15
+y 33
+end
+arch sea
+x 15
+y 34
+end
+arch sea
+x 15
+y 35
+end
+arch sea
+x 15
+y 36
 end
 arch grass
 x 16
@@ -2227,6 +2731,38 @@ arch sea
 x 16
 y 28
 end
+arch sea
+x 16
+y 29
+end
+arch sea
+x 16
+y 30
+end
+arch sea
+x 16
+y 31
+end
+arch sea
+x 16
+y 32
+end
+arch sea
+x 16
+y 33
+end
+arch sea
+x 16
+y 34
+end
+arch sea
+x 16
+y 35
+end
+arch sea
+x 16
+y 36
+end
 arch grass
 x 17
 end
@@ -2373,6 +2909,38 @@ end
 arch sea
 x 17
 y 28
+end
+arch sea
+x 17
+y 29
+end
+arch sea
+x 17
+y 30
+end
+arch sea
+x 17
+y 31
+end
+arch sea
+x 17
+y 32
+end
+arch sea
+x 17
+y 33
+end
+arch sea
+x 17
+y 34
+end
+arch sea
+x 17
+y 35
+end
+arch sea
+x 17
+y 36
 end
 arch sea
 x 18
@@ -2505,6 +3073,38 @@ arch sea
 x 18
 y 28
 end
+arch sea
+x 18
+y 29
+end
+arch sea
+x 18
+y 30
+end
+arch sea
+x 18
+y 31
+end
+arch sea
+x 18
+y 32
+end
+arch sea
+x 18
+y 33
+end
+arch sea
+x 18
+y 34
+end
+arch sea
+x 18
+y 35
+end
+arch sea
+x 18
+y 36
+end
 arch dungeon_magic
 x 19
 end
@@ -2662,6 +3262,38 @@ end
 arch sea
 x 19
 y 28
+end
+arch sea
+x 19
+y 29
+end
+arch sea
+x 19
+y 30
+end
+arch sea
+x 19
+y 31
+end
+arch sea
+x 19
+y 32
+end
+arch sea
+x 19
+y 33
+end
+arch sea
+x 19
+y 34
+end
+arch sea
+x 19
+y 35
+end
+arch sea
+x 19
+y 36
 end
 arch grass
 x 20
@@ -2819,6 +3451,38 @@ end
 arch sea
 x 20
 y 28
+end
+arch sea
+x 20
+y 29
+end
+arch sea
+x 20
+y 30
+end
+arch sea
+x 20
+y 31
+end
+arch sea
+x 20
+y 32
+end
+arch sea
+x 20
+y 33
+end
+arch sea
+x 20
+y 34
+end
+arch sea
+x 20
+y 35
+end
+arch sea
+x 20
+y 36
 end
 arch grass
 x 21
@@ -2981,6 +3645,38 @@ arch sea
 x 21
 y 28
 end
+arch sea
+x 21
+y 29
+end
+arch sea
+x 21
+y 30
+end
+arch sea
+x 21
+y 31
+end
+arch sea
+x 21
+y 32
+end
+arch sea
+x 21
+y 33
+end
+arch sea
+x 21
+y 34
+end
+arch sea
+x 21
+y 35
+end
+arch sea
+x 21
+y 36
+end
 arch grass
 x 22
 end
@@ -3124,6 +3820,38 @@ arch sea
 x 22
 y 28
 end
+arch sea
+x 22
+y 29
+end
+arch sea
+x 22
+y 30
+end
+arch sea
+x 22
+y 31
+end
+arch sea
+x 22
+y 32
+end
+arch sea
+x 22
+y 33
+end
+arch sea
+x 22
+y 34
+end
+arch sea
+x 22
+y 35
+end
+arch sea
+x 22
+y 36
+end
 arch grass
 x 23
 end
@@ -3271,6 +3999,38 @@ arch sea
 x 23
 y 28
 end
+arch sea
+x 23
+y 29
+end
+arch sea
+x 23
+y 30
+end
+arch sea
+x 23
+y 31
+end
+arch sea
+x 23
+y 32
+end
+arch sea
+x 23
+y 33
+end
+arch sea
+x 23
+y 34
+end
+arch sea
+x 23
+y 35
+end
+arch sea
+x 23
+y 36
+end
 arch grass
 x 24
 end
@@ -3410,6 +4170,38 @@ arch sea
 x 24
 y 28
 end
+arch sea
+x 24
+y 29
+end
+arch sea
+x 24
+y 30
+end
+arch sea
+x 24
+y 31
+end
+arch sea
+x 24
+y 32
+end
+arch sea
+x 24
+y 33
+end
+arch sea
+x 24
+y 34
+end
+arch sea
+x 24
+y 35
+end
+arch sea
+x 24
+y 36
+end
 arch dungeon_magic
 x 25
 end
@@ -3544,6 +4336,38 @@ arch sea
 x 25
 y 28
 end
+arch sea
+x 25
+y 29
+end
+arch sea
+x 25
+y 30
+end
+arch sea
+x 25
+y 31
+end
+arch sea
+x 25
+y 32
+end
+arch sea
+x 25
+y 33
+end
+arch sea
+x 25
+y 34
+end
+arch sea
+x 25
+y 35
+end
+arch sea
+x 25
+y 36
+end
 arch dungeon_magic
 x 26
 end
@@ -3701,6 +4525,38 @@ end
 arch sea
 x 26
 y 28
+end
+arch sea
+x 26
+y 29
+end
+arch sea
+x 26
+y 30
+end
+arch sea
+x 26
+y 31
+end
+arch sea
+x 26
+y 32
+end
+arch sea
+x 26
+y 33
+end
+arch sea
+x 26
+y 34
+end
+arch sea
+x 26
+y 35
+end
+arch sea
+x 26
+y 36
 end
 arch dungeon_magic
 x 27
@@ -3933,6 +4789,38 @@ arch sea
 x 27
 y 28
 end
+arch sea
+x 27
+y 29
+end
+arch sea
+x 27
+y 30
+end
+arch sea
+x 27
+y 31
+end
+arch sea
+x 27
+y 32
+end
+arch sea
+x 27
+y 33
+end
+arch sea
+x 27
+y 34
+end
+arch sea
+x 27
+y 35
+end
+arch sea
+x 27
+y 36
+end
 arch grass
 x 28
 end
@@ -4097,6 +4985,38 @@ arch sea
 x 28
 y 28
 end
+arch sea
+x 28
+y 29
+end
+arch sea
+x 28
+y 30
+end
+arch sea
+x 28
+y 31
+end
+arch sea
+x 28
+y 32
+end
+arch sea
+x 28
+y 33
+end
+arch sea
+x 28
+y 34
+end
+arch sea
+x 28
+y 35
+end
+arch sea
+x 28
+y 36
+end
 arch grass
 x 29
 end
@@ -4237,6 +5157,38 @@ arch sea
 x 29
 y 28
 end
+arch sea
+x 29
+y 29
+end
+arch sea
+x 29
+y 30
+end
+arch sea
+x 29
+y 31
+end
+arch sea
+x 29
+y 32
+end
+arch sea
+x 29
+y 33
+end
+arch sea
+x 29
+y 34
+end
+arch sea
+x 29
+y 35
+end
+arch sea
+x 29
+y 36
+end
 arch cobblestones
 x 30
 end
@@ -4371,6 +5323,38 @@ end
 arch sea
 x 30
 y 28
+end
+arch sea
+x 30
+y 29
+end
+arch sea
+x 30
+y 30
+end
+arch sea
+x 30
+y 31
+end
+arch sea
+x 30
+y 32
+end
+arch sea
+x 30
+y 33
+end
+arch sea
+x 30
+y 34
+end
+arch sea
+x 30
+y 35
+end
+arch sea
+x 30
+y 36
 end
 arch grass
 x 31
@@ -4497,6 +5481,38 @@ arch sea
 x 31
 y 28
 end
+arch sea
+x 31
+y 29
+end
+arch sea
+x 31
+y 30
+end
+arch sea
+x 31
+y 31
+end
+arch sea
+x 31
+y 32
+end
+arch sea
+x 31
+y 33
+end
+arch sea
+x 31
+y 34
+end
+arch sea
+x 31
+y 35
+end
+arch sea
+x 31
+y 36
+end
 arch grass
 x 32
 end
@@ -4616,6 +5632,38 @@ arch sea
 x 32
 y 28
 end
+arch sea
+x 32
+y 29
+end
+arch sea
+x 32
+y 30
+end
+arch sea
+x 32
+y 31
+end
+arch sea
+x 32
+y 32
+end
+arch sea
+x 32
+y 33
+end
+arch sea
+x 32
+y 34
+end
+arch sea
+x 32
+y 35
+end
+arch sea
+x 32
+y 36
+end
 arch grass
 x 33
 end
@@ -4734,6 +5782,38 @@ end
 arch sea
 x 33
 y 28
+end
+arch sea
+x 33
+y 29
+end
+arch sea
+x 33
+y 30
+end
+arch sea
+x 33
+y 31
+end
+arch sea
+x 33
+y 32
+end
+arch sea
+x 33
+y 33
+end
+arch sea
+x 33
+y 34
+end
+arch sea
+x 33
+y 35
+end
+arch sea
+x 33
+y 36
 end
 arch brush
 x 34
@@ -4854,6 +5934,38 @@ arch sea
 x 34
 y 28
 end
+arch sea
+x 34
+y 29
+end
+arch sea
+x 34
+y 30
+end
+arch sea
+x 34
+y 31
+end
+arch sea
+x 34
+y 32
+end
+arch sea
+x 34
+y 33
+end
+arch sea
+x 34
+y 34
+end
+arch sea
+x 34
+y 35
+end
+arch sea
+x 34
+y 36
+end
 arch grass
 x 35
 end
@@ -4976,6 +6088,38 @@ end
 arch sea
 x 35
 y 28
+end
+arch sea
+x 35
+y 29
+end
+arch sea
+x 35
+y 30
+end
+arch sea
+x 35
+y 31
+end
+arch sea
+x 35
+y 32
+end
+arch sea
+x 35
+y 33
+end
+arch sea
+x 35
+y 34
+end
+arch sea
+x 35
+y 35
+end
+arch sea
+x 35
+y 36
 end
 arch brush
 x 36
@@ -5096,6 +6240,38 @@ arch sea
 x 36
 y 28
 end
+arch sea
+x 36
+y 29
+end
+arch sea
+x 36
+y 30
+end
+arch sea
+x 36
+y 31
+end
+arch sea
+x 36
+y 32
+end
+arch sea
+x 36
+y 33
+end
+arch sea
+x 36
+y 34
+end
+arch sea
+x 36
+y 35
+end
+arch sea
+x 36
+y 36
+end
 arch grass
 x 37
 end
@@ -5214,4 +6390,1065 @@ end
 arch sea
 x 37
 y 28
+end
+arch sea
+x 37
+y 29
+end
+arch sea
+x 37
+y 30
+end
+arch sea
+x 37
+y 31
+end
+arch sea
+x 37
+y 32
+end
+arch sea
+x 37
+y 33
+end
+arch sea
+x 37
+y 34
+end
+arch sea
+x 37
+y 35
+end
+arch sea
+x 37
+y 36
+end
+arch blocked
+x 38
+end
+arch blocked
+x 38
+y 1
+end
+arch blocked
+x 38
+y 2
+end
+arch blocked
+x 38
+y 3
+end
+arch blocked
+x 38
+y 4
+end
+arch blocked
+x 38
+y 5
+end
+arch blocked
+x 38
+y 6
+end
+arch blocked
+x 38
+y 7
+end
+arch blocked
+x 38
+y 8
+end
+arch blocked
+x 38
+y 9
+end
+arch blocked
+x 38
+y 10
+end
+arch blocked
+x 38
+y 11
+end
+arch blocked
+x 38
+y 12
+end
+arch blocked
+x 38
+y 13
+end
+arch blocked
+x 38
+y 14
+end
+arch blocked
+x 38
+y 15
+end
+arch blocked
+x 38
+y 16
+end
+arch blocked
+x 38
+y 17
+end
+arch blocked
+x 38
+y 18
+end
+arch blocked
+x 38
+y 19
+end
+arch blocked
+x 38
+y 20
+end
+arch blocked
+x 38
+y 21
+end
+arch blocked
+x 38
+y 22
+end
+arch blocked
+x 38
+y 23
+end
+arch blocked
+x 38
+y 24
+end
+arch blocked
+x 38
+y 25
+end
+arch blocked
+x 38
+y 26
+end
+arch blocked
+x 38
+y 27
+end
+arch blocked
+x 38
+y 28
+end
+arch blocked
+x 38
+y 29
+end
+arch blocked
+x 38
+y 30
+end
+arch blocked
+x 38
+y 31
+end
+arch blocked
+x 38
+y 32
+end
+arch blocked
+x 38
+y 33
+end
+arch blocked
+x 38
+y 34
+end
+arch blocked
+x 38
+y 35
+end
+arch blocked
+x 38
+y 36
+end
+arch blocked
+x 39
+end
+arch blocked
+x 39
+y 1
+end
+arch blocked
+x 39
+y 2
+end
+arch blocked
+x 39
+y 3
+end
+arch blocked
+x 39
+y 4
+end
+arch blocked
+x 39
+y 5
+end
+arch blocked
+x 39
+y 6
+end
+arch blocked
+x 39
+y 7
+end
+arch blocked
+x 39
+y 8
+end
+arch blocked
+x 39
+y 9
+end
+arch blocked
+x 39
+y 10
+end
+arch blocked
+x 39
+y 11
+end
+arch blocked
+x 39
+y 12
+end
+arch blocked
+x 39
+y 13
+end
+arch blocked
+x 39
+y 14
+end
+arch blocked
+x 39
+y 15
+end
+arch blocked
+x 39
+y 16
+end
+arch blocked
+x 39
+y 17
+end
+arch blocked
+x 39
+y 18
+end
+arch blocked
+x 39
+y 19
+end
+arch blocked
+x 39
+y 20
+end
+arch blocked
+x 39
+y 21
+end
+arch blocked
+x 39
+y 22
+end
+arch blocked
+x 39
+y 23
+end
+arch blocked
+x 39
+y 24
+end
+arch blocked
+x 39
+y 25
+end
+arch blocked
+x 39
+y 26
+end
+arch blocked
+x 39
+y 27
+end
+arch blocked
+x 39
+y 28
+end
+arch blocked
+x 39
+y 29
+end
+arch blocked
+x 39
+y 30
+end
+arch blocked
+x 39
+y 31
+end
+arch blocked
+x 39
+y 32
+end
+arch blocked
+x 39
+y 33
+end
+arch blocked
+x 39
+y 34
+end
+arch blocked
+x 39
+y 35
+end
+arch blocked
+x 39
+y 36
+end
+arch blocked
+x 40
+end
+arch blocked
+x 40
+y 1
+end
+arch blocked
+x 40
+y 2
+end
+arch blocked
+x 40
+y 3
+end
+arch blocked
+x 40
+y 4
+end
+arch blocked
+x 40
+y 5
+end
+arch blocked
+x 40
+y 6
+end
+arch blocked
+x 40
+y 7
+end
+arch blocked
+x 40
+y 8
+end
+arch blocked
+x 40
+y 9
+end
+arch blocked
+x 40
+y 10
+end
+arch blocked
+x 40
+y 11
+end
+arch blocked
+x 40
+y 12
+end
+arch blocked
+x 40
+y 13
+end
+arch blocked
+x 40
+y 14
+end
+arch blocked
+x 40
+y 15
+end
+arch blocked
+x 40
+y 16
+end
+arch blocked
+x 40
+y 17
+end
+arch blocked
+x 40
+y 18
+end
+arch blocked
+x 40
+y 19
+end
+arch blocked
+x 40
+y 20
+end
+arch blocked
+x 40
+y 21
+end
+arch blocked
+x 40
+y 22
+end
+arch blocked
+x 40
+y 23
+end
+arch blocked
+x 40
+y 24
+end
+arch blocked
+x 40
+y 25
+end
+arch blocked
+x 40
+y 26
+end
+arch blocked
+x 40
+y 27
+end
+arch blocked
+x 40
+y 28
+end
+arch blocked
+x 40
+y 29
+end
+arch blocked
+x 40
+y 30
+end
+arch blocked
+x 40
+y 31
+end
+arch blocked
+x 40
+y 32
+end
+arch blocked
+x 40
+y 33
+end
+arch blocked
+x 40
+y 34
+end
+arch blocked
+x 40
+y 35
+end
+arch blocked
+x 40
+y 36
+end
+arch blocked
+x 41
+end
+arch blocked
+x 41
+y 1
+end
+arch blocked
+x 41
+y 2
+end
+arch blocked
+x 41
+y 3
+end
+arch blocked
+x 41
+y 4
+end
+arch blocked
+x 41
+y 5
+end
+arch blocked
+x 41
+y 6
+end
+arch blocked
+x 41
+y 7
+end
+arch blocked
+x 41
+y 8
+end
+arch blocked
+x 41
+y 9
+end
+arch blocked
+x 41
+y 10
+end
+arch blocked
+x 41
+y 11
+end
+arch blocked
+x 41
+y 12
+end
+arch blocked
+x 41
+y 13
+end
+arch blocked
+x 41
+y 14
+end
+arch blocked
+x 41
+y 15
+end
+arch blocked
+x 41
+y 16
+end
+arch blocked
+x 41
+y 17
+end
+arch blocked
+x 41
+y 18
+end
+arch blocked
+x 41
+y 19
+end
+arch blocked
+x 41
+y 20
+end
+arch blocked
+x 41
+y 21
+end
+arch blocked
+x 41
+y 22
+end
+arch blocked
+x 41
+y 23
+end
+arch blocked
+x 41
+y 24
+end
+arch blocked
+x 41
+y 25
+end
+arch blocked
+x 41
+y 26
+end
+arch blocked
+x 41
+y 27
+end
+arch blocked
+x 41
+y 28
+end
+arch blocked
+x 41
+y 29
+end
+arch blocked
+x 41
+y 30
+end
+arch blocked
+x 41
+y 31
+end
+arch blocked
+x 41
+y 32
+end
+arch blocked
+x 41
+y 33
+end
+arch blocked
+x 41
+y 34
+end
+arch blocked
+x 41
+y 35
+end
+arch blocked
+x 41
+y 36
+end
+arch blocked
+x 42
+end
+arch blocked
+x 42
+y 1
+end
+arch blocked
+x 42
+y 2
+end
+arch blocked
+x 42
+y 3
+end
+arch blocked
+x 42
+y 4
+end
+arch blocked
+x 42
+y 5
+end
+arch blocked
+x 42
+y 6
+end
+arch blocked
+x 42
+y 7
+end
+arch blocked
+x 42
+y 8
+end
+arch blocked
+x 42
+y 9
+end
+arch blocked
+x 42
+y 10
+end
+arch blocked
+x 42
+y 11
+end
+arch blocked
+x 42
+y 12
+end
+arch blocked
+x 42
+y 13
+end
+arch blocked
+x 42
+y 14
+end
+arch blocked
+x 42
+y 15
+end
+arch blocked
+x 42
+y 16
+end
+arch blocked
+x 42
+y 17
+end
+arch blocked
+x 42
+y 18
+end
+arch blocked
+x 42
+y 19
+end
+arch blocked
+x 42
+y 20
+end
+arch blocked
+x 42
+y 21
+end
+arch blocked
+x 42
+y 22
+end
+arch blocked
+x 42
+y 23
+end
+arch blocked
+x 42
+y 24
+end
+arch blocked
+x 42
+y 25
+end
+arch blocked
+x 42
+y 26
+end
+arch blocked
+x 42
+y 27
+end
+arch blocked
+x 42
+y 28
+end
+arch blocked
+x 42
+y 29
+end
+arch blocked
+x 42
+y 30
+end
+arch blocked
+x 42
+y 31
+end
+arch blocked
+x 42
+y 32
+end
+arch blocked
+x 42
+y 33
+end
+arch blocked
+x 42
+y 34
+end
+arch blocked
+x 42
+y 35
+end
+arch blocked
+x 42
+y 36
+end
+arch blocked
+x 43
+end
+arch blocked
+x 43
+y 1
+end
+arch blocked
+x 43
+y 2
+end
+arch blocked
+x 43
+y 3
+end
+arch blocked
+x 43
+y 4
+end
+arch blocked
+x 43
+y 5
+end
+arch blocked
+x 43
+y 6
+end
+arch blocked
+x 43
+y 7
+end
+arch blocked
+x 43
+y 8
+end
+arch blocked
+x 43
+y 9
+end
+arch blocked
+x 43
+y 10
+end
+arch blocked
+x 43
+y 11
+end
+arch blocked
+x 43
+y 12
+end
+arch blocked
+x 43
+y 13
+end
+arch blocked
+x 43
+y 14
+end
+arch blocked
+x 43
+y 15
+end
+arch blocked
+x 43
+y 16
+end
+arch blocked
+x 43
+y 17
+end
+arch blocked
+x 43
+y 18
+end
+arch blocked
+x 43
+y 19
+end
+arch blocked
+x 43
+y 20
+end
+arch blocked
+x 43
+y 21
+end
+arch blocked
+x 43
+y 22
+end
+arch blocked
+x 43
+y 23
+end
+arch blocked
+x 43
+y 24
+end
+arch blocked
+x 43
+y 25
+end
+arch blocked
+x 43
+y 26
+end
+arch blocked
+x 43
+y 27
+end
+arch blocked
+x 43
+y 28
+end
+arch blocked
+x 43
+y 29
+end
+arch blocked
+x 43
+y 30
+end
+arch blocked
+x 43
+y 31
+end
+arch blocked
+x 43
+y 32
+end
+arch blocked
+x 43
+y 33
+end
+arch blocked
+x 43
+y 34
+end
+arch blocked
+x 43
+y 35
+end
+arch blocked
+x 43
+y 36
+end
+arch blocked
+x 44
+end
+arch blocked
+x 44
+y 1
+end
+arch blocked
+x 44
+y 2
+end
+arch blocked
+x 44
+y 3
+end
+arch blocked
+x 44
+y 4
+end
+arch blocked
+x 44
+y 5
+end
+arch blocked
+x 44
+y 6
+end
+arch blocked
+x 44
+y 7
+end
+arch blocked
+x 44
+y 8
+end
+arch blocked
+x 44
+y 9
+end
+arch blocked
+x 44
+y 10
+end
+arch blocked
+x 44
+y 11
+end
+arch blocked
+x 44
+y 12
+end
+arch blocked
+x 44
+y 13
+end
+arch blocked
+x 44
+y 14
+end
+arch blocked
+x 44
+y 15
+end
+arch blocked
+x 44
+y 16
+end
+arch blocked
+x 44
+y 17
+end
+arch blocked
+x 44
+y 18
+end
+arch blocked
+x 44
+y 19
+end
+arch blocked
+x 44
+y 20
+end
+arch blocked
+x 44
+y 21
+end
+arch blocked
+x 44
+y 22
+end
+arch blocked
+x 44
+y 23
+end
+arch blocked
+x 44
+y 24
+end
+arch blocked
+x 44
+y 25
+end
+arch blocked
+x 44
+y 26
+end
+arch blocked
+x 44
+y 27
+end
+arch blocked
+x 44
+y 28
+end
+arch blocked
+x 44
+y 29
+end
+arch blocked
+x 44
+y 30
+end
+arch blocked
+x 44
+y 31
+end
+arch blocked
+x 44
+y 32
+end
+arch blocked
+x 44
+y 33
+end
+arch blocked
+x 44
+y 34
+end
+arch blocked
+x 44
+y 35
+end
+arch blocked
+x 44
+y 36
 end
