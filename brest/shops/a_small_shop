@@ -2,13 +2,13 @@ arch map
 name A Small Shop
 difficulty 20
 region brest
-width 15
-height 15
-enter_x 11
+width 17
+height 17
+enter_x 12
 enter_y 12
 msg
 Created:  2007-03-11 Gene Alexander (poof, Galahad)
-Modified: 2008-11-20 Rick Tanner
+Modified: 2020-11-29 Rick Tanner
 endmsg
 end
 arch woods
@@ -65,195 +65,294 @@ arch brush
 y 13
 elevation 1582
 end
-arch flagstone
+arch brush
 y 14
+elevation 1582
+end
+arch flagstone
+y 15
+end
+arch flagstone
+y 16
 end
 arch woods
 x 1
 end
-arch dungeon_magic
+arch woods
 x 1
 y 1
 end
-arch woodfloor2
+arch brush
 x 1
+y 2
+elevation 1582
+end
+arch brush
+x 1
+y 3
+elevation 1582
+end
+arch brush
+x 1
+y 4
+elevation 1582
+end
+arch brush
+x 1
+y 5
+elevation 1582
+end
+arch brush
+x 1
+y 6
+elevation 1582
+end
+arch brush
+x 1
+y 7
+elevation 1582
+end
+arch brush
+x 1
+y 8
+elevation 1582
+end
+arch brush
+x 1
+y 9
+elevation 1582
+end
+arch brush
+x 1
+y 10
+elevation 1582
+end
+arch brush
+x 1
+y 11
+elevation 1582
+end
+arch brush
+x 1
+y 12
+elevation 1582
+end
+arch brush
+x 1
+y 13
+elevation 1582
+end
+arch brush
+x 1
+y 14
+elevation 1582
+end
+arch flagstone
+x 1
+y 15
+end
+arch flagstone
+x 1
+y 16
+end
+arch woods
+x 2
+end
+arch woods
+x 2
 y 1
+end
+arch dungeon_magic
+x 2
+y 2
+end
+arch woodfloor2
+x 2
+y 2
 end
 arch wwall_2_2_2
-x 1
-y 1
+x 2
+y 2
 end
 arch dungeon_magic
-x 1
-y 2
+x 2
+y 3
 end
 arch woodfloor2
-x 1
-y 2
+x 2
+y 3
 end
 arch wwall_2_1_1
-x 1
-y 2
+x 2
+y 3
 end
 arch dungeon_magic
-x 1
-y 3
+x 2
+y 4
 end
 arch woodfloor2
-x 1
-y 3
+x 2
+y 4
 end
 arch wwall_win1
-x 1
-y 3
+x 2
+y 4
 end
 arch dungeon_magic
-x 1
-y 4
+x 2
+y 5
 end
 arch woodfloor2
-x 1
-y 4
+x 2
+y 5
 end
 arch wwall_2_1_1
-x 1
-y 4
+x 2
+y 5
 end
 arch dungeon_magic
-x 1
-y 5
+x 2
+y 6
 end
 arch woodfloor2
-x 1
-y 5
+x 2
+y 6
 end
 arch wwall_3_2
-x 1
-y 5
-end
-arch dungeon_magic
-x 1
-y 6
-end
-arch woodfloor2
-x 1
-y 6
-end
-arch wwall_2_1_1
-x 1
+x 2
 y 6
 end
 arch dungeon_magic
-x 1
+x 2
 y 7
 end
 arch woodfloor2
-x 1
+x 2
 y 7
 end
 arch wwall_2_1_1
-x 1
+x 2
 y 7
 end
 arch dungeon_magic
-x 1
+x 2
 y 8
 end
 arch woodfloor2
-x 1
+x 2
 y 8
 end
 arch wwall_2_1_1
-x 1
+x 2
 y 8
 end
 arch dungeon_magic
-x 1
+x 2
 y 9
 end
 arch woodfloor2
-x 1
+x 2
 y 9
+end
+arch wwall_2_1_1
+x 2
+y 9
+end
+arch dungeon_magic
+x 2
+y 10
+end
+arch woodfloor2
+x 2
+y 10
 end
 arch wwall_3_2
-x 1
-y 9
-end
-arch dungeon_magic
-x 1
-y 10
-end
-arch woodfloor2
-x 1
-y 10
-end
-arch wwall_2_1_1
-x 1
+x 2
 y 10
 end
 arch dungeon_magic
-x 1
+x 2
 y 11
 end
 arch woodfloor2
-x 1
+x 2
 y 11
 end
 arch wwall_2_1_1
-x 1
+x 2
 y 11
 end
 arch dungeon_magic
-x 1
+x 2
 y 12
 end
 arch woodfloor2
-x 1
+x 2
 y 12
 end
 arch wwall_2_1_1
-x 1
+x 2
 y 12
 end
 arch dungeon_magic
-x 1
+x 2
 y 13
 end
 arch woodfloor2
-x 1
+x 2
 y 13
+end
+arch wwall_2_1_1
+x 2
+y 13
+end
+arch dungeon_magic
+x 2
+y 14
+end
+arch woodfloor2
+x 2
+y 14
 end
 arch wwall_2_2_1
-x 1
-y 13
-end
-arch flagstone
-x 1
+x 2
 y 14
 end
+arch flagstone
+x 2
+y 15
+end
+arch flagstone
+x 2
+y 16
+end
 arch woods
-x 2
+x 3
+end
+arch woods
+x 3
+y 1
 end
 arch dungeon_magic
-x 2
-y 1
+x 3
+y 2
 end
 arch woodfloor2
-x 2
-y 1
+x 3
+y 2
 end
 arch wwall_2_1_2
-x 2
-y 1
+x 3
+y 2
 end
 arch dungeon_magic
-x 2
-y 2
+x 3
+y 3
 end
 arch lbulletwall_4
 name Mana Crystal
-x 2
-y 2
+x 3
+y 3
 speed 0
 level 107
 invisible 1
@@ -264,28 +363,28 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 2
-y 2
+x 3
+y 3
 end
 arch dungeon_magic
-x 2
-y 3
+x 3
+y 4
 end
 arch woodfloor2
-x 2
-y 3
+x 3
+y 4
 end
 arch dungeon_magic
-x 2
-y 4
+x 3
+y 5
 end
 arch lbulletwall_4
 name Mana Crystal
+x 3
+y 5
+speed 0
+level 107
 direction 2
-x 2
-y 4
-speed 0
-level 107
 invisible 1
 connected 2
 move_block 0
@@ -294,65 +393,52 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 2
-y 4
+x 3
+y 5
 end
 arch woodfloor2
-x 2
-y 5
+x 3
+y 6
 end
 arch wwall_2_1_2
-x 2
-y 5
+x 3
+y 6
 end
 arch woodfloor2
-x 2
-y 6
+x 3
+y 7
 end
 arch chair_2.1
-x 2
-y 6
-end
-arch woodfloor2
-x 2
+x 3
 y 7
 end
 arch woodfloor2
-x 2
+x 3
 y 8
+end
+arch woodfloor2
+x 3
+y 9
 end
 arch chair_2.3
-x 2
-y 8
+x 3
+y 9
 end
 arch woodfloor2
-x 2
-y 9
+x 3
+y 10
 end
 arch wwall_2_1_2
-x 2
-y 9
-end
-arch woodfloor2
-x 2
+x 3
 y 10
 end
-arch lightningwall_3
-name cancellation
-x 2
-y 10
-speed 0.04
-level 300
-arch spell_cancellation
-end
-end
 arch woodfloor2
-x 2
+x 3
 y 11
 end
 arch lightningwall_3
 name cancellation
-x 2
+x 3
 y 11
 speed 0.04
 level 300
@@ -360,194 +446,223 @@ arch spell_cancellation
 end
 end
 arch woodfloor2
-x 2
+x 3
 y 12
 end
 arch lightningwall_3
 name cancellation
-x 2
+x 3
 y 12
+speed 0.04
+level 300
+arch spell_cancellation
+end
+end
+arch woodfloor2
+x 3
+y 13
+end
+arch lightningwall_3
+name cancellation
+x 3
+y 13
 speed 0.04
 level 300
 arch spell_cancellation
 end
 end
 arch dungeon_magic
-x 2
-y 13
-end
-arch woodfloor2
-x 2
-y 13
-end
-arch wwall_2_1_2
-x 2
-y 13
-end
-arch flagstone
-x 2
+x 3
 y 14
 end
-arch woods
-x 3
-end
-arch dungeon_magic
-x 3
-y 1
-end
 arch woodfloor2
 x 3
-y 1
+y 14
 end
 arch wwall_2_1_2
 x 3
+y 14
+end
+arch flagstone
+x 3
+y 15
+end
+arch flagstone
+x 3
+y 16
+end
+arch woods
+x 4
+end
+arch woods
+x 4
 y 1
 end
 arch dungeon_magic
-x 3
+x 4
 y 2
 end
 arch woodfloor2
-x 3
+x 4
 y 2
+end
+arch wwall_2_1_2
+x 4
+y 2
+end
+arch dungeon_magic
+x 4
+y 3
+end
+arch woodfloor2
+x 4
+y 3
 end
 arch magic_mouth
 msg
 Use this Mana Crystal at your own risk. We are not responsible if you die from overuse of the crystal.
 endmsg
-x 3
-y 3
+x 4
+y 4
 end
 arch dungeon_magic
-x 3
-y 3
+x 4
+y 4
 end
 arch woodfloor2
-x 3
-y 3
+x 4
+y 4
 end
 arch button_lever
 name Mana Crystal
 face power_crystal.111
 animation power_crystal
-x 3
-y 3
+x 4
+y 4
 connected 2
 end
 arch dungeon_magic
-x 3
-y 4
+x 4
+y 5
 end
 arch woodfloor2
-x 3
-y 4
+x 4
+y 5
 end
 arch dungeon_magic
-x 3
-y 5
+x 4
+y 6
 end
 arch woodfloor2
-x 3
-y 5
+x 4
+y 6
 end
 arch wwall_win2
-x 3
-y 5
+x 4
+y 6
 end
 arch woodfloor2
-x 3
-y 6
+x 4
+y 7
 end
 arch chair_2.1
-x 3
-y 6
-end
-arch woodfloor2
-x 3
+x 4
 y 7
 end
 arch woodfloor2
-x 3
+x 4
 y 8
+end
+arch woodfloor2
+x 4
+y 9
 end
 arch chair_2.3
-x 3
-y 8
+x 4
+y 9
 end
 arch woodfloor2
-x 3
-y 9
+x 4
+y 10
 end
 arch wwall_1_3
-x 3
-y 9
-end
-arch woodfloor2
-x 3
-y 10
-end
-arch director_3
-x 3
+x 4
 y 10
 end
 arch woodfloor2
-x 3
+x 4
 y 11
 end
 arch director_3
-x 3
+x 4
 y 11
 end
 arch woodfloor2
-x 3
+x 4
 y 12
 end
 arch director_3
-x 3
+x 4
 y 12
+end
+arch woodfloor2
+x 4
+y 13
+end
+arch director_3
+x 4
+y 13
 end
 arch dungeon_magic
-x 3
-y 13
-end
-arch woodfloor2
-x 3
-y 13
-end
-arch wwall_win2
-x 3
-y 13
-end
-arch flagstone
-x 3
+x 4
 y 14
 end
-arch woods
-x 4
-end
-arch dungeon_magic
-x 4
-y 1
-end
 arch woodfloor2
 x 4
-y 1
+y 14
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 4
+y 14
+end
+arch flagstone
+x 4
+y 15
+end
+arch flagstone
+x 4
+y 16
+end
+arch woods
+x 5
+end
+arch woods
+x 5
 y 1
 end
 arch dungeon_magic
-x 4
+x 5
 y 2
+end
+arch woodfloor2
+x 5
+y 2
+end
+arch wwall_2_1_2
+x 5
+y 2
+end
+arch dungeon_magic
+x 5
+y 3
 end
 arch lbulletwall_4
 name Mana Crystal
-direction 6
-x 4
-y 2
+x 5
+y 3
 speed 0
 level 107
+direction 6
 invisible 1
 connected 2
 move_block 0
@@ -556,36 +671,36 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 4
-y 2
+x 5
+y 3
 end
 arch dungeon_magic
-x 4
-y 3
+x 5
+y 4
 end
 arch woodfloor2
-x 4
-y 3
+x 5
+y 4
 end
 arch perm_magic_portal
 name Exit
 slaying a_small_shop
-hp 6
-sp 3
-x 4
-y 3
+hp 7
+sp 4
+x 5
+y 4
 end
 arch dungeon_magic
-x 4
-y 4
+x 5
+y 5
 end
 arch lbulletwall_4
 name Mana Crystal
-direction 8
-x 4
-y 4
+x 5
+y 5
 speed 0
 level 107
+direction 8
 invisible 1
 connected 2
 move_block 0
@@ -594,161 +709,169 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 4
-y 4
+x 5
+y 5
 end
 arch woodfloor2
-x 4
-y 5
+x 5
+y 6
 end
 arch wwall_2_1_2
-x 4
-y 5
+x 5
+y 6
 end
 arch altar_trigger
 slaying money
 exp 120
 food 25000
-x 4
-y 6
+x 5
+y 7
 connected 4
 end
 arch woodfloor2
-x 4
-y 6
+x 5
+y 7
 end
 arch barrel
-x 4
-y 6
+x 5
+y 7
 material 0
 move_block 0
 no_pick 1
 end
 arch woodfloor2
-x 4
-y 7
-end
-arch woodfloor2
-x 4
+x 5
 y 8
 end
-arch button_small
-x 4
+arch woodfloor2
+x 5
 y 9
+end
+arch button_small
+x 5
+y 10
 invisible 1
 connected 6
 end
 arch woodfloor2
-x 4
-y 9
+x 5
+y 10
 end
 arch grate_closed_1
-x 4
-y 9
+x 5
+y 10
 connected 6
 no_magic 1
 damned 1
 end
 arch dungeon_magic
-x 4
-y 10
+x 5
+y 11
 end
 arch button_small
-x 4
-y 10
+x 5
+y 11
 invisible 1
 connected 6
 end
 arch woodfloor2
-x 4
-y 10
-end
-arch dungeon_magic
-x 4
-y 11
-end
-arch woodfloor2
-x 4
+x 5
 y 11
 end
 arch dungeon_magic
-x 4
+x 5
 y 12
 end
 arch woodfloor2
-x 4
+x 5
 y 12
 end
 arch dungeon_magic
-x 4
+x 5
 y 13
 end
 arch woodfloor2
-x 4
+x 5
 y 13
 end
-arch wwall_2_1_2
-x 4
-y 13
-end
-arch flagstone
-x 4
+arch dungeon_magic
+x 5
 y 14
 end
-arch woods
-x 5
-end
-arch dungeon_magic
-x 5
-y 1
-end
 arch woodfloor2
 x 5
+y 14
+end
+arch wwall_2_1_2
+x 5
+y 14
+end
+arch flagstone
+x 5
+y 15
+end
+arch flagstone
+x 5
+y 16
+end
+arch woods
+x 6
+end
+arch woods
+x 6
 y 1
+end
+arch dungeon_magic
+x 6
+y 2
+end
+arch woodfloor2
+x 6
+y 2
 end
 arch wwall_3_3
-x 5
-y 1
+x 6
+y 2
 end
 arch woodfloor2
-x 5
-y 2
+x 6
+y 3
 end
 arch wwall_2_1_1
-x 5
-y 2
+x 6
+y 3
 end
 arch dungeon_magic
-x 5
-y 3
+x 6
+y 4
 end
 arch woodfloor2
-x 5
-y 3
+x 6
+y 4
 end
 arch wwall_win1
-x 5
-y 3
+x 6
+y 4
 end
 arch woodfloor2
-x 5
-y 4
+x 6
+y 5
 end
 arch wwall_2_1_1
-x 5
-y 4
+x 6
+y 5
 end
 arch woodfloor2
-x 5
-y 5
+x 6
+y 6
 end
 arch wwall_2_2_4
-x 5
-y 5
+x 6
+y 6
 end
 arch woodfloor2
-x 5
-y 6
+x 6
+y 7
 end
 arch sign
 name Mana Crystal West Room
@@ -758,16 +881,16 @@ Please drop 500 platinum coins in the barrel to enter the Mana Crystal West Room
 -= Warning =-
 Standing on or near a mana crystal for too long can be fatal to your health.
 endmsg
-x 5
-y 6
-end
-arch woodfloor2
-x 5
+x 6
 y 7
 end
 arch woodfloor2
-x 5
+x 6
 y 8
+end
+arch woodfloor2
+x 6
+y 9
 end
 arch sign
 name Cancellation Booth
@@ -777,183 +900,177 @@ Please drop 1500 platinum coins in the barrel to enter the Cancellation Booth.
 -= Warning =-
 Do not carry any equipment in the cancellation booth that you don't intend to have adjusted.
 endmsg
-x 5
-y 8
+x 6
+y 9
 end
 arch woodfloor2
-x 5
-y 9
+x 6
+y 10
 end
 arch wwall_1_4
-x 5
-y 9
-end
-arch woodfloor2
-x 5
-y 10
-end
-arch director_7
-x 5
+x 6
 y 10
 end
 arch woodfloor2
-x 5
+x 6
 y 11
 end
 arch director_7
-x 5
+x 6
 y 11
 end
 arch woodfloor2
-x 5
+x 6
 y 12
 end
 arch director_7
-x 5
+x 6
 y 12
+end
+arch woodfloor2
+x 6
+y 13
+end
+arch director_7
+x 6
+y 13
 end
 arch dungeon_magic
-x 5
-y 13
-end
-arch woodfloor2
-x 5
-y 13
-end
-arch wwall_win2
-x 5
-y 13
-end
-arch flagstone
-x 5
+x 6
 y 14
 end
-arch woods
-x 6
-end
-arch dungeon_magic
-x 6
-y 1
-end
 arch woodfloor2
 x 6
+y 14
+end
+arch wwall_win2
+x 6
+y 14
+end
+arch flagstone
+x 6
+y 15
+end
+arch flagstone
+x 6
+y 16
+end
+arch woods
+x 7
+end
+arch woods
+x 7
 y 1
+end
+arch dungeon_magic
+x 7
+y 2
+end
+arch woodfloor2
+x 7
+y 2
 end
 arch wwall_2_1_2
-x 6
-y 1
-end
-arch dungeon_magic
-x 6
-y 2
-end
-arch woodfloor2
-x 6
+x 7
 y 2
 end
 arch dungeon_magic
-x 6
+x 7
 y 3
 end
 arch woodfloor2
-x 6
+x 7
 y 3
+end
+arch dungeon_magic
+x 7
+y 4
+end
+arch woodfloor2
+x 7
+y 4
 end
 arch perm_magic_portal
 name Enter
 slaying a_small_shop
-hp 4
-sp 3
-x 6
-y 3
+hp 5
+sp 4
+x 7
+y 4
 end
 arch dungeon_magic
-x 6
-y 4
+x 7
+y 5
 end
 arch button_trigger
-x 6
-y 4
-invisible 1
-connected 4
-end
-arch woodfloor2
-x 6
-y 4
-end
-arch button_trigger
-x 6
+x 7
 y 5
 invisible 1
 connected 4
 end
 arch woodfloor2
-x 6
+x 7
 y 5
+end
+arch button_trigger
+x 7
+y 6
+invisible 1
+connected 4
+end
+arch woodfloor2
+x 7
+y 6
 end
 arch grate_closed_1
-x 6
-y 5
+x 7
+y 6
 connected 4
 no_magic 1
 damned 1
 end
 arch woodfloor2
-x 6
-y 6
+x 7
+y 7
 end
 arch woodfloor2
-x 6
-y 7
+x 7
+y 8
 end
 arch altar_trigger
 slaying money
 exp 120
 food 75000
-x 6
-y 8
+x 7
+y 9
 invisible 1
 connected 6
 end
 arch woodfloor2
-x 6
-y 8
+x 7
+y 9
 end
 arch barrel
-x 6
-y 8
+x 7
+y 9
 material 0
 move_block 0
-no_pick 1
 end
 arch woodfloor2
-x 6
-y 9
+x 7
+y 10
 end
 arch wwall_2_1_2
-x 6
-y 9
-end
-arch woodfloor2
-x 6
+x 7
 y 10
 end
-arch lightningwall_7
-name cancellation
-x 6
-y 10
-speed 0.04
-level 300
-arch spell_cancellation
-end
-end
 arch woodfloor2
-x 6
+x 7
 y 11
 end
 arch lightningwall_7
 name cancellation
-x 6
+x 7
 y 11
 speed 0.04
 level 300
@@ -961,250 +1078,279 @@ arch spell_cancellation
 end
 end
 arch woodfloor2
-x 6
+x 7
 y 12
 end
 arch lightningwall_7
 name cancellation
-x 6
+x 7
 y 12
+speed 0.04
+level 300
+arch spell_cancellation
+end
+end
+arch woodfloor2
+x 7
+y 13
+end
+arch lightningwall_7
+name cancellation
+x 7
+y 13
 speed 0.04
 level 300
 arch spell_cancellation
 end
 end
 arch dungeon_magic
-x 6
-y 13
-end
-arch woodfloor2
-x 6
-y 13
-end
-arch wwall_2_1_2
-x 6
-y 13
-end
-arch flagstone
-x 6
+x 7
 y 14
 end
-arch woods
-x 7
-end
-arch dungeon_magic
-x 7
-y 1
-end
 arch woodfloor2
 x 7
+y 14
+end
+arch wwall_2_1_2
+x 7
+y 14
+end
+arch flagstone
+x 7
+y 15
+end
+arch flagstone
+x 7
+y 16
+end
+arch woods
+x 8
+end
+arch woods
+x 8
 y 1
+end
+arch dungeon_magic
+x 8
+y 2
+end
+arch woodfloor2
+x 8
+y 2
 end
 arch wwall_3_3
-x 7
-y 1
+x 8
+y 2
 end
 arch dungeon_magic
-x 7
-y 2
+x 8
+y 3
 end
 arch woodfloor2
-x 7
-y 2
+x 8
+y 3
 end
 arch wwall_2_1_1
-x 7
-y 2
+x 8
+y 3
 end
 arch dungeon_magic
-x 7
-y 3
+x 8
+y 4
 end
 arch woodfloor2
-x 7
-y 3
+x 8
+y 4
 end
 arch wwall_win1
-x 7
-y 3
+x 8
+y 4
 end
 arch dungeon_magic
-x 7
-y 4
+x 8
+y 5
 end
 arch woodfloor2
-x 7
-y 4
+x 8
+y 5
 end
 arch wwall_2_1_1
-x 7
-y 4
+x 8
+y 5
 end
 arch woodfloor2
-x 7
-y 5
+x 8
+y 6
 end
 arch wwall_1_2
-x 7
-y 5
-end
-arch woodfloor2
-x 7
+x 8
 y 6
 end
 arch woodfloor2
-x 7
+x 8
 y 7
 end
 arch woodfloor2
-x 7
+x 8
 y 8
 end
 arch woodfloor2
-x 7
+x 8
 y 9
+end
+arch woodfloor2
+x 8
+y 10
 end
 arch wwall_3_3
-x 7
-y 9
-end
-arch woodfloor2
-x 7
-y 10
-end
-arch wwall_2_1_1
-x 7
+x 8
 y 10
 end
 arch woodfloor2
-x 7
+x 8
 y 11
 end
 arch wwall_2_1_1
-x 7
+x 8
 y 11
 end
 arch woodfloor2
-x 7
+x 8
 y 12
 end
 arch wwall_2_1_1
-x 7
+x 8
 y 12
+end
+arch woodfloor2
+x 8
+y 13
+end
+arch wwall_2_1_1
+x 8
+y 13
 end
 arch dungeon_magic
-x 7
-y 13
-end
-arch woodfloor2
-x 7
-y 13
-end
-arch wwall_3_1
-x 7
-y 13
-end
-arch flagstone
-x 7
+x 8
 y 14
 end
-arch woods
-x 8
-end
-arch dungeon_magic
-x 8
-y 1
-end
 arch woodfloor2
 x 8
+y 14
+end
+arch wwall_3_1
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch flagstone
+x 8
+y 16
+end
+arch woods
+x 9
+end
+arch woods
+x 9
 y 1
+end
+arch dungeon_magic
+x 9
+y 2
+end
+arch woodfloor2
+x 9
+y 2
 end
 arch wwall_2_1_2
-x 8
-y 1
-end
-arch dungeon_magic
-x 8
-y 2
-end
-arch woodfloor2
-x 8
+x 9
 y 2
 end
 arch dungeon_magic
-x 8
+x 9
 y 3
 end
 arch woodfloor2
-x 8
+x 9
 y 3
+end
+arch dungeon_magic
+x 9
+y 4
+end
+arch woodfloor2
+x 9
+y 4
 end
 arch perm_magic_portal
 name Enter
 slaying a_small_shop
-hp 10
-sp 3
-x 8
-y 3
+hp 11
+sp 4
+x 9
+y 4
 end
 arch dungeon_magic
-x 8
-y 4
+x 9
+y 5
 end
 arch button_trigger
-x 8
-y 4
-invisible 1
-connected 5
-end
-arch woodfloor2
-x 8
-y 4
-end
-arch button_trigger
-x 8
+x 9
 y 5
 invisible 1
 connected 5
 end
 arch woodfloor2
-x 8
+x 9
 y 5
+end
+arch button_trigger
+x 9
+y 6
+invisible 1
+connected 5
+end
+arch woodfloor2
+x 9
+y 6
 end
 arch grate_closed_1
-x 8
-y 5
+x 9
+y 6
 connected 5
 no_magic 1
 damned 1
 end
 arch woodfloor2
-x 8
-y 6
-end
-arch woodfloor2
-x 8
+x 9
 y 7
 end
 arch woodfloor2
-x 8
+x 9
 y 8
 end
 arch woodfloor2
-x 8
-y 9
-end
-arch wwall_2_1_2
-x 8
+x 9
 y 9
 end
 arch woodfloor2
-x 8
+x 9
+y 10
+end
+arch wwall_2_1_2
+x 9
 y 10
 end
 arch woodfloor2
-x 8
+x 9
 y 11
+end
+arch woodfloor2
+x 9
+y 12
 end
 arch merchant
 name Qint
@@ -1217,85 +1363,93 @@ The cancellation booth is used to remove negative damage from your equipment. En
 @match *
 Welcome to my shop. We have two mana crystal booths and a cancellation booth. Please feel free to ask me about them.
 endmsg
-x 8
-y 11
+x 9
+y 12
 level 150
 randomitems none
 end
 arch woodfloor2
-x 8
-y 12
+x 9
+y 13
 end
 arch dungeon_magic
-x 8
-y 13
-end
-arch woodfloor2
-x 8
-y 13
-end
-arch wwall_2_1_2
-x 8
-y 13
-end
-arch flagstone
-x 8
+x 9
 y 14
 end
-arch woods
-x 9
-end
-arch dungeon_magic
-x 9
-y 1
-end
 arch woodfloor2
 x 9
+y 14
+end
+arch wwall_2_1_2
+x 9
+y 14
+end
+arch flagstone
+x 9
+y 15
+end
+arch flagstone
+x 9
+y 16
+end
+arch woods
+x 10
+end
+arch woods
+x 10
 y 1
+end
+arch dungeon_magic
+x 10
+y 2
+end
+arch woodfloor2
+x 10
+y 2
 end
 arch wwall_3_3
-x 9
-y 1
+x 10
+y 2
 end
 arch woodfloor2
-x 9
-y 2
+x 10
+y 3
 end
 arch wwall_2_1_1
-x 9
-y 2
+x 10
+y 3
 end
 arch dungeon_magic
-x 9
-y 3
+x 10
+y 4
 end
 arch woodfloor2
-x 9
-y 3
+x 10
+y 4
 end
 arch wwall_win1
-x 9
-y 3
+x 10
+y 4
 end
 arch woodfloor2
-x 9
-y 4
+x 10
+y 5
 end
 arch wwall_2_1_1
-x 9
-y 4
+x 10
+y 5
 end
 arch woodfloor2
-x 9
-y 5
+x 10
+y 6
 end
 arch wwall_2_2_1
-x 9
-y 5
+x 10
+y 6
 end
 arch woodfloor2
-x 9
-y 6
+x 10
+y 7
 end
 arch sign
 name Mana Crystal East Room
@@ -1305,94 +1459,102 @@ Please drop 500 platinum coins in the barrel to enter the Mana Crystal East Room
 -= Warning =-
 Standing on or near a mana crystal for too long can be fatal to your health.
 endmsg
-x 9
-y 6
-end
-arch woodfloor2
-x 9
+x 10
 y 7
 end
 arch woodfloor2
-x 9
+x 10
 y 8
 end
 arch woodfloor2
-x 9
-y 9
-end
-arch wwall_2_1_2
-x 9
+x 10
 y 9
 end
 arch woodfloor2
-x 9
+x 10
 y 10
+end
+arch wwall_2_1_2
+x 10
+y 10
+end
+arch woodfloor2
+x 10
+y 11
 end
 arch longtable_1_1
 name counter
-x 9
-y 10
+x 10
+y 11
 move_block all
 end
 arch woodfloor2
-x 9
-y 11
+x 10
+y 12
 end
 arch longtable_2_1_1
 name counter
-x 9
-y 11
+x 10
+y 12
 move_block all
 end
 arch woodfloor2
-x 9
-y 12
+x 10
+y 13
 end
 arch longtable_1_2
 name counter
-x 9
-y 12
+x 10
+y 13
 move_block all
 end
 arch dungeon_magic
-x 9
-y 13
-end
-arch woodfloor2
-x 9
-y 13
-end
-arch wwall_win2
-x 9
-y 13
-end
-arch flagstone
-x 9
+x 10
 y 14
 end
-arch woods
-x 10
-end
-arch dungeon_magic
-x 10
-y 1
-end
 arch woodfloor2
 x 10
-y 1
+y 14
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 10
+y 14
+end
+arch flagstone
+x 10
+y 15
+end
+arch flagstone
+x 10
+y 16
+end
+arch woods
+x 11
+end
+arch woods
+x 11
 y 1
 end
 arch dungeon_magic
-x 10
+x 11
 y 2
+end
+arch woodfloor2
+x 11
+y 2
+end
+arch wwall_2_1_2
+x 11
+y 2
+end
+arch dungeon_magic
+x 11
+y 3
 end
 arch lbulletwall_4
 name Mana Crystal
-x 10
-y 2
+x 11
+y 3
 speed 0
 level 107
 invisible 1
@@ -1403,36 +1565,36 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 10
-y 2
+x 11
+y 3
 end
 arch dungeon_magic
-x 10
-y 3
+x 11
+y 4
 end
 arch woodfloor2
-x 10
-y 3
+x 11
+y 4
 end
 arch perm_magic_portal
 name Exit
 slaying a_small_shop
-hp 8
-sp 3
-x 10
-y 3
+hp 9
+sp 4
+x 11
+y 4
 end
 arch dungeon_magic
-x 10
-y 4
+x 11
+y 5
 end
 arch lbulletwall_4
 name Mana Crystal
-direction 2
-x 10
-y 4
+x 11
+y 5
 speed 0
 level 107
+direction 2
 invisible 1
 connected 3
 move_block 0
@@ -1441,303 +1603,318 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 10
-y 4
+x 11
+y 5
 end
 arch woodfloor2
-x 10
-y 5
+x 11
+y 6
 end
 arch wwall_2_1_2
-x 10
-y 5
+x 11
+y 6
 end
 arch altar_trigger
 slaying money
 exp 120
 food 25000
-x 10
-y 6
+x 11
+y 7
 connected 5
 end
 arch woodfloor2
-x 10
-y 6
-end
-arch barrel
-x 10
-y 6
-material 0
-move_block 0
-no_pick 1
-end
-arch woodfloor2
-x 10
+x 11
 y 7
 end
-arch button_small
-x 10
+arch barrel
+x 11
+y 7
+material 0
+move_block 0
+end
+arch woodfloor2
+x 11
 y 8
+end
+arch button_small
+x 11
+y 9
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 10
-y 8
+x 11
+y 9
 end
 arch woodfloor2
-x 10
-y 9
+x 11
+y 10
 end
 arch wwall_1_3
-x 10
-y 9
+x 11
+y 10
 end
 arch button_small
-x 10
-y 10
+x 11
+y 11
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 10
-y 10
-end
-arch woodfloor2
-x 10
+x 11
 y 11
 end
-arch button_small
-x 10
+arch woodfloor2
+x 11
 y 12
+end
+arch button_small
+x 11
+y 13
 invisible 1
 connected 8
 end
 arch woodfloor2
-x 10
-y 12
+x 11
+y 13
 end
 arch dungeon_magic
-x 10
-y 13
+x 11
+y 14
 end
 arch woodfloor2
-x 10
-y 13
+x 11
+y 14
 end
 arch wwall_1_3
-x 10
-y 13
+x 11
+y 14
 end
 arch invis_exit
 slaying /world/world_107_123
 hp 21
 sp 29
-x 10
-y 14
+x 11
+y 15
 end
 arch dungeon_magic
-x 10
-y 14
+x 11
+y 15
 end
 arch flagstone
-x 10
-y 14
+x 11
+y 15
+end
+arch flagstone
+x 11
+y 16
 end
 arch woods
-x 11
+x 12
+end
+arch woods
+x 12
+y 1
 end
 arch dungeon_magic
-x 11
-y 1
+x 12
+y 2
 end
 arch woodfloor2
-x 11
-y 1
+x 12
+y 2
 end
 arch wwall_2_1_2
-x 11
-y 1
+x 12
+y 2
 end
 arch dungeon_magic
-x 11
-y 2
+x 12
+y 3
 end
 arch woodfloor2
-x 11
-y 2
+x 12
+y 3
 end
 arch magic_mouth
 msg
 Use this Mana Crystal at your own risk. We are not responsible if you die from overuse of the crystal.
 endmsg
-x 11
-y 3
+x 12
+y 4
 end
 arch dungeon_magic
-x 11
-y 3
+x 12
+y 4
 end
 arch woodfloor2
-x 11
-y 3
+x 12
+y 4
 end
 arch button_lever
 name Mana Crystal
 face power_crystal.111
 animation power_crystal
-x 11
-y 3
+x 12
+y 4
 connected 3
 end
 arch dungeon_magic
-x 11
-y 4
+x 12
+y 5
 end
 arch woodfloor2
-x 11
-y 4
+x 12
+y 5
 end
 arch dungeon_magic
-x 11
-y 5
+x 12
+y 6
 end
 arch woodfloor2
-x 11
-y 5
+x 12
+y 6
 end
 arch wwall_win2
-x 11
-y 5
-end
-arch woodfloor2
-x 11
-y 6
-end
-arch chair_2.1
-x 11
+x 12
 y 6
 end
 arch woodfloor2
-x 11
+x 12
 y 7
 end
-arch button_small
-x 11
-y 8
-invisible 1
-connected 7
+arch chair_2.1
+x 12
+y 7
 end
 arch woodfloor2
-x 11
+x 12
 y 8
 end
 arch button_small
-x 11
+x 12
 y 9
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 11
+x 12
 y 9
+end
+arch button_small
+x 12
+y 10
+invisible 1
+connected 7
+end
+arch woodfloor2
+x 12
+y 10
 end
 arch mdoor_closed_1
-x 11
-y 9
+x 12
+y 10
 connected 7
 end
 arch button_small
-x 11
-y 10
+x 12
+y 11
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 11
-y 10
-end
-arch woodfloor2
-x 11
+x 12
 y 11
 end
-arch button_small
-x 11
+arch woodfloor2
+x 12
 y 12
+end
+arch button_small
+x 12
+y 13
 invisible 1
 connected 8
 end
 arch woodfloor2
-x 11
-y 12
+x 12
+y 13
 end
 arch invis_exit
 slaying /world/world_107_123
 hp 21
 sp 29
-x 11
-y 13
+x 12
+y 14
 end
 arch dungeon_magic
-x 11
-y 13
+x 12
+y 14
 end
 arch button_small
-x 11
-y 13
+x 12
+y 14
 invisible 1
 connected 8
 end
 arch woodfloor2
-x 11
-y 13
+x 12
+y 14
 end
 arch mdoor_closed_1
-x 11
-y 13
+x 12
+y 14
 connected 8
 end
 arch invis_exit
 slaying /world/world_107_123
 hp 21
 sp 29
-x 11
-y 14
+x 12
+y 15
 end
 arch dungeon_magic
-x 11
-y 14
+x 12
+y 15
 end
 arch flagstone
-x 11
-y 14
+x 12
+y 15
+end
+arch flagstone
+x 12
+y 16
 end
 arch woods
-x 12
+x 13
+end
+arch woods
+x 13
+y 1
 end
 arch dungeon_magic
-x 12
-y 1
+x 13
+y 2
 end
 arch woodfloor2
-x 12
-y 1
+x 13
+y 2
 end
 arch wwall_2_1_2
-x 12
-y 1
+x 13
+y 2
 end
 arch dungeon_magic
-x 12
-y 2
+x 13
+y 3
 end
 arch lbulletwall_4
 name Mana Crystal
+x 13
+y 3
+speed 0
+level 107
 direction 6
-x 12
-y 2
-speed 0
-level 107
 invisible 1
 connected 3
 move_block 0
@@ -1746,28 +1923,28 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 12
-y 2
+x 13
+y 3
 end
 arch dungeon_magic
-x 12
-y 3
+x 13
+y 4
 end
 arch woodfloor2
-x 12
-y 3
+x 13
+y 4
 end
 arch dungeon_magic
-x 12
-y 4
+x 13
+y 5
 end
 arch lbulletwall_4
 name Mana Crystal
-direction 8
-x 12
-y 4
+x 13
+y 5
 speed 0
 level 107
+direction 8
 invisible 1
 connected 3
 move_block 0
@@ -1776,322 +1953,409 @@ arch spell_transference
 end
 end
 arch woodfloor2
-x 12
-y 4
+x 13
+y 5
 end
 arch woodfloor2
-x 12
-y 5
+x 13
+y 6
 end
 arch wwall_2_1_2
-x 12
-y 5
-end
-arch woodfloor2
-x 12
-y 6
-end
-arch chair_2.1
-x 12
+x 13
 y 6
 end
 arch woodfloor2
-x 12
+x 13
 y 7
 end
-arch button_small
-x 12
+arch chair_2.1
+x 13
+y 7
+end
+arch woodfloor2
+x 13
 y 8
+end
+arch button_small
+x 13
+y 9
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 12
-y 8
+x 13
+y 9
 end
 arch woodfloor2
-x 12
-y 9
+x 13
+y 10
 end
 arch wwall_1_4
-x 12
-y 9
+x 13
+y 10
 end
 arch button_small
-x 12
-y 10
+x 13
+y 11
 invisible 1
 connected 7
 end
 arch woodfloor2
-x 12
-y 10
+x 13
+y 11
 end
 arch woodfloor2
-x 12
-y 11
+x 13
+y 12
 end
 arch palm
 name house palm
-x 12
-y 11
+x 13
+y 12
 end
 arch button_small
-x 12
-y 12
+x 13
+y 13
 invisible 1
 connected 8
 end
 arch woodfloor2
-x 12
-y 12
+x 13
+y 13
 end
 arch dungeon_magic
-x 12
-y 13
+x 13
+y 14
 end
 arch woodfloor2
-x 12
-y 13
+x 13
+y 14
 end
 arch wwall_1_4
-x 12
-y 13
+x 13
+y 14
 end
 arch invis_exit
 slaying /world/world_107_123
 hp 21
 sp 29
-x 12
-y 14
+x 13
+y 15
 end
 arch dungeon_magic
-x 12
-y 14
+x 13
+y 15
 end
 arch flagstone
-x 12
-y 14
+x 13
+y 15
+end
+arch flagstone
+x 13
+y 16
 end
 arch woods
-x 13
+x 14
+end
+arch woods
+x 14
+y 1
 end
 arch dungeon_magic
-x 13
-y 1
+x 14
+y 2
 end
 arch woodfloor2
-x 13
-y 1
+x 14
+y 2
 end
 arch wwall_2_2_3
-x 13
-y 1
+x 14
+y 2
 end
 arch dungeon_magic
-x 13
-y 2
+x 14
+y 3
 end
 arch woodfloor2
-x 13
-y 2
+x 14
+y 3
 end
 arch wwall_2_1_1
-x 13
-y 2
+x 14
+y 3
 end
 arch dungeon_magic
-x 13
-y 3
+x 14
+y 4
 end
 arch woodfloor2
-x 13
-y 3
+x 14
+y 4
 end
 arch wwall_win1
-x 13
-y 3
+x 14
+y 4
 end
 arch dungeon_magic
-x 13
-y 4
+x 14
+y 5
 end
 arch woodfloor2
-x 13
-y 4
+x 14
+y 5
 end
 arch wwall_2_1_1
-x 13
-y 4
+x 14
+y 5
 end
 arch dungeon_magic
-x 13
-y 5
+x 14
+y 6
 end
 arch woodfloor2
-x 13
-y 5
+x 14
+y 6
 end
 arch wwall_3_4
-x 13
-y 5
-end
-arch dungeon_magic
-x 13
-y 6
-end
-arch woodfloor2
-x 13
-y 6
-end
-arch wwall_2_1_1
-x 13
+x 14
 y 6
 end
 arch dungeon_magic
-x 13
+x 14
 y 7
 end
 arch woodfloor2
-x 13
+x 14
 y 7
 end
 arch wwall_2_1_1
-x 13
+x 14
 y 7
 end
 arch dungeon_magic
-x 13
+x 14
 y 8
 end
 arch woodfloor2
-x 13
+x 14
 y 8
 end
 arch wwall_2_1_1
-x 13
+x 14
 y 8
 end
 arch dungeon_magic
-x 13
+x 14
 y 9
 end
 arch woodfloor2
-x 13
+x 14
 y 9
+end
+arch wwall_2_1_1
+x 14
+y 9
+end
+arch dungeon_magic
+x 14
+y 10
+end
+arch woodfloor2
+x 14
+y 10
 end
 arch wwall_3_4
-x 13
-y 9
-end
-arch dungeon_magic
-x 13
-y 10
-end
-arch woodfloor2
-x 13
-y 10
-end
-arch wwall_2_1_1
-x 13
+x 14
 y 10
 end
 arch dungeon_magic
-x 13
+x 14
 y 11
 end
 arch woodfloor2
-x 13
+x 14
 y 11
+end
+arch wwall_2_1_1
+x 14
+y 11
+end
+arch dungeon_magic
+x 14
+y 12
+end
+arch woodfloor2
+x 14
+y 12
 end
 arch wwall_win1
-x 13
-y 11
-end
-arch dungeon_magic
-x 13
-y 12
-end
-arch woodfloor2
-x 13
-y 12
-end
-arch wwall_2_1_1
-x 13
+x 14
 y 12
 end
 arch dungeon_magic
-x 13
+x 14
 y 13
 end
 arch woodfloor2
-x 13
+x 14
 y 13
+end
+arch wwall_2_1_1
+x 14
+y 13
+end
+arch dungeon_magic
+x 14
+y 14
+end
+arch woodfloor2
+x 14
+y 14
 end
 arch wwall_2_2_4
-x 13
-y 13
-end
-arch flagstone
-x 13
+x 14
 y 14
 end
 arch flagstone
 x 14
+y 15
 end
 arch flagstone
 x 14
+y 16
+end
+arch flagstone
+x 15
+end
+arch flagstone
+x 15
 y 1
 end
 arch flagstone
-x 14
+x 15
 y 2
 end
 arch flagstone
-x 14
+x 15
 y 3
 end
 arch flagstone
-x 14
+x 15
 y 4
 end
 arch flagstone
-x 14
+x 15
 y 5
 end
 arch flagstone
-x 14
+x 15
 y 6
 end
 arch flagstone
-x 14
+x 15
 y 7
 end
 arch flagstone
-x 14
+x 15
 y 8
 end
 arch flagstone
-x 14
+x 15
 y 9
 end
 arch flagstone
-x 14
+x 15
 y 10
 end
 arch flagstone
-x 14
+x 15
 y 11
 end
 arch flagstone
-x 14
+x 15
 y 12
 end
 arch flagstone
-x 14
+x 15
 y 13
 end
 arch flagstone
-x 14
+x 15
 y 14
+end
+arch flagstone
+x 15
+y 15
+end
+arch flagstone
+x 15
+y 16
+end
+arch flagstone
+x 16
+end
+arch flagstone
+x 16
+y 1
+end
+arch flagstone
+x 16
+y 2
+end
+arch flagstone
+x 16
+y 3
+end
+arch flagstone
+x 16
+y 4
+end
+arch flagstone
+x 16
+y 5
+end
+arch flagstone
+x 16
+y 6
+end
+arch flagstone
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 8
+end
+arch flagstone
+x 16
+y 9
+end
+arch flagstone
+x 16
+y 10
+end
+arch flagstone
+x 16
+y 11
+end
+arch flagstone
+x 16
+y 12
+end
+arch flagstone
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 15
+end
+arch flagstone
+x 16
+y 16
 end
