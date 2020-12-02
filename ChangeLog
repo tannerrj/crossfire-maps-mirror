@@ -1,3 +1,6 @@
+2020-12-02  Nicolas Weeger
+        * styles/cheststyles: Add map with available chests for random maps. This will allow removing hardcoded list in the server code.
+
 2020-10-20  Daniel Hawkins
 	* scorn/houses/tannery: Fix flagstone tile in entrance area that doesn't prevent casting.
 	* maps/python/quests/QuestAdvance.py: Bail when no player is provided. Avoids a core dump from the attempt to run the script in some scenarios.
