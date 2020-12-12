@@ -159,17 +159,18 @@ def do_resist():
 		whoami.Say(' %d -> %d'%(r,who.GetResist(r)))
 
 def do_basics():
-	whoami.Say('Basic test')
-	whoami.Say(' your type is %d'%who.Type)
-	whoami.Say(' your race is %s'%who.Race)
-	whoami.Say(' your level is %d'%who.Level)
-	whoami.Say(' your nrof is %d'%who.Quantity)
-	whoami.Say(' your weight is %d'%who.Weight)
-	whoami.Say(' your name is %s'%who.Name)
-	whoami.Say(' your archname is %s'%who.ArchName)
-	whoami.Say(' your title is %s'%who.Title)
-	whoami.Say(' your ip is %s'%who.IP)
-	whoami.Say(' my name is %s'%whoami.Name)
+    msg  = 'Basic test\n'
+    msg += ' your type is %d\n'%who.Type
+    msg += ' your race is %s\n'%who.Race
+    msg += ' your level is %d\n'%who.Level
+    msg += ' your nrof is %d\n'%who.Quantity
+    msg += ' your weight is %d\n'%who.Weight
+    msg += ' your name is %s\n'%who.Name
+    msg += ' your archname is %s\n'%who.ArchName
+    msg += ' your title is %s\n'%who.Title
+    msg += ' your ip is %s\n'%who.IP
+    msg += ' my name is %s\n'%whoami.Name
+    whoami.Say(msg)
 
 def do_time():
 	cftime = Crossfire.GetTime()
@@ -439,7 +440,9 @@ def do_attr():
     return
   
   if len(topic) == 2:
-    whoami.Say('my %s is %d'%(topic[1], getattr(whoami, topic[1])))
+    val = getattr(whoami, topic[1])
+    # Not sure of the value of the attribute, so just use Python's type conversion by forcing to str
+    whoami.Say('my %s is %s'%(topic[1], str(val)))
     return
   
   try:
@@ -448,7 +451,10 @@ def do_attr():
     try:
       setattr(whoami, topic[1], int(topic[2]))
     except:
-      whoami.Say("sorry, I don't know how to set this attribute...")
+      try:
+        setattr(whoami, topic[1], float(topic[2]))
+      except:
+        whoami.Say("sorry, I don't know how to set this attribute...")
 
 def handle_say():
   if whoami.ReadKey('dest_x') != '' or whoami.ReadKey('dest_y') != '':
