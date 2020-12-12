@@ -1,3 +1,6 @@
+2020-12-12  Nicolas Weeger
+        * python/items/spell_arrow.py: Apply modified patch #364, see https://sourceforge.net/p/crossfire/patches/364/
+
 2020-12-02  Nicolas Weeger
         * styles/cheststyles: Add map with available chests for random maps. This will allow removing hardcoded list in the server code.
 
