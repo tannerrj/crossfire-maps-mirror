@@ -15,5 +15,5 @@ if spells and victim:
         spellob = Crossfire.CreateObjectByName(archetype)
         if spellob:
             for r in range(0, int(quantity)):
-                victim.CastAbility(spellob, 0, "")
+                victim.Cast(spellob, 0, "")
             spellob.Remove()
