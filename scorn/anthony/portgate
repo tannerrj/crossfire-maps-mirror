@@ -8,7 +8,7 @@ enter_x 8
 enter_y 11
 msg
 Created:  1998-12-28 Anthony Thyssen (anthony@cit.gu.edu.au)
-Modified: 2012-03-25 Rick Tanner
+Modified: 2020-12-12 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -773,10 +773,6 @@ y 5
 end
 arch guard
 name gatehouse guard
-msg
-@match *
-No Comment! Move along.
-endmsg
 x 7
 y 5
 friendly 1
@@ -803,10 +799,6 @@ y 7
 end
 arch guard
 name gatehouse guard
-msg
-@match *
-No Comment! Move along.
-endmsg
 x 7
 y 7
 friendly 1
@@ -1158,10 +1150,6 @@ y 5
 end
 arch guard
 name gatehouse guard
-msg
-@match *
-No Comment! Move along.
-endmsg
 x 10
 y 5
 friendly 1
@@ -1173,10 +1161,6 @@ y 6
 end
 arch guard
 name gatehouse guard
-msg
-@match *
-No Comment! Move along.
-endmsg
 x 10
 y 6
 friendly 1
@@ -1188,10 +1172,6 @@ y 7
 end
 arch guard
 name gatehouse guard
-msg
-@match *
-No Comment! Move along.
-endmsg
 x 10
 y 7
 friendly 1
@@ -1822,11 +1802,6 @@ arch cobblestones2
 x 16
 y 1
 end
-arch rock
-x 16
-y 1
-map_layer item
-end
 arch manhole_closed_1
 hp 15
 sp 9
@@ -1834,6 +1809,11 @@ x 16
 y 1
 connected 99
 map_layer no_pick
+end
+arch rock
+x 16
+y 1
+map_layer item
 end
 arch cobblestones2
 x 16
