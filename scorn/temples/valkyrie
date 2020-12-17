@@ -10,7 +10,7 @@ enter_x 7
 enter_y 17
 msg
 Created: 2003-08-17 Lalo Martins
-Modified: 2012-01-17 Rick Tanner
+Modified: 2020-12-17 Nicolas Weeger
 endmsg
 end
 arch dungeon_floor
@@ -3775,8 +3775,8 @@ y 17
 end
 arch cave_stair_up_2
 slaying ../houses/barracks
-hp 20
-sp 7
+hp 21
+sp 8
 x 16
 y 17
 end
