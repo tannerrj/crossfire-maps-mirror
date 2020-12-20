@@ -1,3 +1,6 @@
+2020-12-19 Daniel Hawkins:
+        * python/quests/QuestAdvance.py: Bail from method if non-player activator has no owner.
+
 2020-12-17  Nicolas Weeger
         * /scorn/houses/resir: Move exit under an extra grass column on the right, for coherence.
         * scorn/temples/valkyrie: Fix stairs coordinates.

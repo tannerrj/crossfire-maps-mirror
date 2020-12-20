@@ -52,6 +52,9 @@ def handle():
     return
   # if a spell was used, then the killer is the spell object, find the owner
   if player.Type != Crossfire.Type.PLAYER:
+    # If the non-player has no owner, then no quest changes.
+    if player.Owner is None:
+      return
     player = player.Owner
 
   if player.Type != Crossfire.Type.PLAYER:
