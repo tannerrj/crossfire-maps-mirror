@@ -271,7 +271,7 @@ class Dialog:
             path = os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), 'python/dialog/pre/', action + '.py')
             if os.path.isfile(path):
                 try:
-                    exec(open(path).read())
+                    exec(open(path).read(), globals())
                 except:
                     Crossfire.Log(Crossfire.LogError, "CFDialog: Failed to evaluate condition %s." % condition)
                     verdict = False
