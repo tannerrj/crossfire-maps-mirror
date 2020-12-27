@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2020-07-31 Rick Tanner
+Modified: 2020-12-27 Nicolas Weeger
 endmsg
 outdoor 1
 tile_path_1 world_122_116
@@ -4129,8 +4129,7 @@ arch grass_only
 x 11
 y 14
 end
-arch small_temple
-name Church of Valkyrie
+arch valkyrie_temple
 slaying ../navar_city/temples/valkyrie
 hp 12
 sp 21
