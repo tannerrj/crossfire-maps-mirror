@@ -268,12 +268,14 @@ class Dialog:
         for condition in rule.getPreconditions():
             action = condition[0]
             args = condition[1:]
+            script_args = {'args': args, 'character': character, 'location': location, 'action': action, 'self': self}
             path = os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), 'python/dialog/pre/', action + '.py')
             if os.path.isfile(path):
                 try:
-                    exec(open(path).read(), globals())
-                except:
-                    Crossfire.Log(Crossfire.LogError, "CFDialog: Failed to evaluate condition %s." % condition)
+                    exec(open(path).read(), {}, script_args)
+                    verdict = script_args['verdict']
+                except Exception as ex:
+                    Crossfire.Log(Crossfire.LogError, "CFDialog: Failed to evaluate condition %s: %s." % (condition, str(ex)))
                     verdict = False
                 if verdict == False:
                     return 0
