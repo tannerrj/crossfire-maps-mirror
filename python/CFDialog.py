@@ -268,7 +268,7 @@ class Dialog:
         for condition in rule.getPreconditions():
             action = condition[0]
             args = condition[1:]
-            script_args = {'args': args, 'character': character, 'location': location, 'action': action, 'self': self}
+            script_args = {'args': args, 'character': character, 'location': location, 'action': action, 'self': self, 'verdict': verdict}
             path = os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), 'python/dialog/pre/', action + '.py')
             if os.path.isfile(path):
                 try:
