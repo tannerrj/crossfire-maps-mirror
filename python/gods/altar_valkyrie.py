@@ -81,6 +81,6 @@ if praying and praying.Title == 'Valkyrie':
                 obj.Quantity -= 1
             else:
                 obj.Remove()
-            pl.AddExp(value, 'praying')
+            pl.AddExp(int(value), 'praying')
             break
         obj = obj.Above
