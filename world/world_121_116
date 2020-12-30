@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2019-08-16 Kevin Zheng
+Modified: 2020-12-30 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_121_115
@@ -6379,20 +6379,35 @@ x 23
 y 33
 elevation 7025
 end
-arch mountain
+arch dungeon_magic
 x 23
 y 34
 elevation 6347
 end
 arch mountain
 x 23
+y 34
+move_block all
+end
+arch dungeon_magic
+x 23
 y 35
 elevation 6902
 end
 arch mountain
 x 23
+y 35
+move_block all
+end
+arch dungeon_magic
+x 23
 y 36
 elevation 7371
+end
+arch mountain
+x 23
+y 36
+move_block all
 end
 arch mountain
 x 23
@@ -6652,20 +6667,37 @@ x 24
 y 33
 elevation 7525
 end
-arch mountain
+arch dungeon_magic
 x 24
 y 34
 elevation 7347
 end
 arch mountain
 x 24
+y 34
+move_block all
+end
+arch dungeon_magic
+x 24
 y 35
 elevation 6055
+end
+arch mountain_cave
+slaying ../navar_city/temples/devourers_lvl2
+hp 24
+sp 28
+x 24
+y 35
+end
+arch dungeon_magic
+x 24
+y 36
+elevation 7034
 end
 arch mountain
 x 24
 y 36
-elevation 7034
+move_block all
 end
 arch mountain
 x 24
@@ -6941,20 +6973,41 @@ x 25
 y 33
 elevation 7685
 end
-arch mountain
+arch dungeon_magic
 x 25
 y 34
 elevation 7623
 end
 arch mountain
 x 25
+y 34
+move_block all
+end
+arch dungeon_magic
+x 25
 y 35
 elevation 7125
+end
+arch magic_mouth
+msg
+Even out here you get no reprieve. How have the peope of Navar not noticed this?
+endmsg
+x 25
+y 35
+end
+arch mountain
+x 25
+y 35
+end
+arch dungeon_magic
+x 25
+y 36
+elevation 5986
 end
 arch mountain
 x 25
 y 36
-elevation 5986
+move_block all
 end
 arch mountain
 x 25
@@ -7215,20 +7268,35 @@ x 26
 y 33
 elevation 7579
 end
-arch mountain
+arch dungeon_magic
 x 26
 y 34
 elevation 7582
 end
 arch mountain
 x 26
+y 34
+move_block all
+end
+arch dungeon_magic
+x 26
 y 35
 elevation 6989
 end
 arch mountain
 x 26
+y 35
+move_block all
+end
+arch dungeon_magic
+x 26
 y 36
 elevation 6667
+end
+arch mountain
+x 26
+y 36
+move_block all
 end
 arch mountain
 x 26
