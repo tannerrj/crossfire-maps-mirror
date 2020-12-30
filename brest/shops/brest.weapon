@@ -1,7 +1,7 @@
 arch map
 name Brest Weapons
 fixed_resettime 1
-difficulty 100
+difficulty 9
 region brest
 shopitems weapon:40;weapon improver:20;*:-70
 shopgreed 1.00000
@@ -12,7 +12,7 @@ height 24
 enter_x 15
 enter_y 17
 msg
-Modified: 2020-03-21 Kevin Zheng
+Modified: 2020-12-30 Rick Tanner
 endmsg
 end
 arch grass
