@@ -8,7 +8,7 @@ enter_x 13
 enter_y 24
 msg
 Created:  2004-01-12 Avion
-Modified: 2008-10-25 Rick Tanner
+Modified: 2021-01-03 Nicolas Weeger
 endmsg
 end
 arch woodfloor
@@ -2544,6 +2544,11 @@ end
 arch woodfloor
 x 13
 y 28
+end
+arch button_handle
+x 13
+y 28
+connected 10
 end
 arch woodfloor
 x 13
