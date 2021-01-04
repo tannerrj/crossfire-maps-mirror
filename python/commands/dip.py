@@ -20,6 +20,11 @@ def dip(pl):
         return False
 
     name_before = ob.Name
+    def something(s):
+        pl.Message("You dip the %s into the %s. %s" % (name_before, f.Name, s))
+
+    def nothing():
+        something("Nothing happens.")
 
     if ob.ArchName == "wbottle_empty":
         ob.Quantity -= 1
@@ -27,7 +32,19 @@ def dip(pl):
         w.Identified = 1
         w.InsertInto(pl)
         pl.Message("You fill the %s with water from the %s." % (name_before, f.Name))
+    elif ob.ArchName == "scroll_new":
+        ob.Quantity -= 1
+        w = Crossfire.CreateObjectByName("scroll")
+        w.Identified = 0
+        w.InsertInto(pl)
+        something("The magic runes fade away.")
+    elif ob.Type == Crossfire.Type.BOOK:
+        if ob.Message != None and len(ob.Message) != 0:
+            ob.Message = ""
+            something("The writing fades away.")
+        else:
+            something("It gets wet.")
     else:
-        pl.Message("You dip the %s into the %s. Nothing happens." % (name_before, f.Name))
+        nothing()
 
 dip(Crossfire.WhoAmI())
