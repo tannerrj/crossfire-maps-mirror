@@ -2610,10 +2610,10 @@ The dagger from Temple Naive, the bow from Elven Moon, the hammer from Temple Ju
 You will be presented with a gift.
 @match gift
 A useful item...
-[Strange Old Wizard Grins...]
+*Strange Old Wizard Grins...*
 @match where
 Only the brave, clever adventure is worthy.  I can't do everything for you.
-[Strange Old Wizard Chuckles...]
+*Strange Old Wizard Chuckles...*
 @match xoonuf
 Never heard of anyone by that name.
 @match vim
@@ -5942,7 +5942,7 @@ end
 arch magic_mouth
 msg
 Your reward lies below...
-[Strange Old Wizard Vanishes...]
+*Strange Old Wizard Vanishes...*
 endmsg
 x 30
 y 5
