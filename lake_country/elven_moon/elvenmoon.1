@@ -3,7 +3,7 @@ name Elven Moon Entrance
 difficulty 30
 region lakecountry
 width 32
-height 32
+height 35
 enter_x 1
 enter_y 7
 msg
@@ -152,6 +152,15 @@ end
 arch hedge_2_2_1
 y 30
 move_block all
+end
+arch blocked
+y 31
+end
+arch blocked
+y 32
+end
+arch blocked
+y 32
 end
 arch grass
 x 1
@@ -342,6 +351,10 @@ arch hedge_2_2_1
 x 1
 y 31
 move_block all
+end
+arch blocked
+x 1
+y 32
 end
 arch grass
 x 2
@@ -579,6 +592,10 @@ x 2
 y 31
 move_block all
 end
+arch blocked
+x 2
+y 32
+end
 arch grass
 x 3
 end
@@ -780,6 +797,10 @@ arch hedge_2_1_2
 x 3
 y 31
 move_block all
+end
+arch blocked
+x 3
+y 32
 end
 arch grass
 x 4
@@ -992,6 +1013,18 @@ arch hedge_2_2_4
 x 4
 y 31
 move_block all
+end
+arch blocked
+x 4
+y 32
+end
+arch blocked
+x 4
+y 33
+end
+arch blocked
+x 4
+y 34
 end
 arch grass
 x 5
@@ -1246,11 +1279,23 @@ x 5
 y 30
 move_block all
 end
+arch blocked
+x 5
+y 31
+end
+arch blocked
+x 5
+y 32
+end
+arch blocked
+x 5
+y 33
+end
 arch teleporter
 hp 20
 sp 20
 x 5
-y 31
+y 34
 speed 0
 connected 201
 end
@@ -1258,7 +1303,7 @@ arch rose_white
 name Queen's White Rose
 name_pl Queen's White Roses
 x 5
-y 31
+y 34
 value 450
 weight 3
 end
@@ -1458,14 +1503,26 @@ x 6
 y 29
 move_block all
 end
-arch button_plate
+arch blocked
 x 6
 y 30
+end
+arch blocked
+x 6
+y 31
+end
+arch blocked
+x 6
+y 32
+end
+arch button_plate
+x 6
+y 33
 connected 201
 end
 arch button_plate
 x 6
-y 31
+y 34
 connected 202
 end
 arch grassdark
@@ -1681,17 +1738,25 @@ x 7
 y 29
 move_block all
 end
-arch spikes_moving
+arch blocked
 x 7
 y 30
+end
+arch blocked
+x 7
+y 32
+end
+arch spikes_moving
+x 7
+y 33
 end
 arch boulder
 x 7
-y 30
+y 33
 end
 arch button_plate
 x 7
-y 31
+y 34
 connected 202
 end
 arch grassdark
@@ -1882,14 +1947,26 @@ x 8
 y 29
 move_block all
 end
-arch button_plate
+arch blocked
 x 8
 y 30
+end
+arch blocked
+x 8
+y 31
+end
+arch blocked
+x 8
+y 32
+end
+arch button_plate
+x 8
+y 33
 connected 202
 end
 arch button_plate
 x 8
-y 31
+y 34
 connected 202
 end
 arch grassdark
@@ -2089,17 +2166,33 @@ x 9
 y 30
 move_block all
 end
+arch blocked
+x 9
+y 31
+end
+arch blocked
+x 9
+y 32
+end
+arch blocked
+x 9
+y 32
+end
+arch blocked
+x 9
+y 33
+end
 arch teleporter
 hp 11
 sp 25
 x 9
-y 31
+y 34
 speed 0
 connected 202
 end
 arch mushroom_1
 x 9
-y 31
+y 34
 end
 arch grass
 x 10
@@ -2311,6 +2404,18 @@ x 10
 y 31
 move_block all
 end
+arch blocked
+x 10
+y 32
+end
+arch blocked
+x 10
+y 33
+end
+arch blocked
+x 10
+y 34
+end
 arch shallow_sea
 name water
 x 11
@@ -2502,6 +2607,23 @@ arch hedge_2_1_2
 x 11
 y 31
 move_block all
+end
+arch blocked
+x 11
+y 32
+end
+arch grate_open_2
+x 11
+y 33
+connected 998
+end
+arch boulder
+x 11
+y 33
+end
+arch blocked
+x 11
+y 34
 end
 arch shallow_sea
 name water
@@ -2703,6 +2825,19 @@ arch hedge_2_1_2
 x 12
 y 31
 move_block all
+end
+arch blocked
+x 12
+y 32
+end
+arch button_plate
+x 12
+y 33
+connected 100
+end
+arch blocked
+x 12
+y 34
 end
 arch grass
 x 13
@@ -2907,6 +3042,18 @@ arch hedge_2_1_2
 x 13
 y 31
 move_block all
+end
+arch blocked
+x 13
+y 32
+end
+arch blocked
+x 13
+y 33
+end
+arch blocked
+x 13
+y 34
 end
 arch grassdark
 x 14
@@ -3126,6 +3273,24 @@ arch hedge_2_1_2
 x 14
 y 31
 move_block all
+end
+arch blocked
+x 14
+y 32
+end
+arch button_plate
+x 14
+y 33
+connected 53
+end
+arch igate_open_1
+x 14
+y 34
+connected 990
+end
+arch boulder
+x 14
+y 34
 end
 arch grassdark
 x 15
@@ -3367,6 +3532,18 @@ x 15
 y 31
 move_block all
 end
+arch blocked
+x 15
+y 32
+end
+arch blocked
+x 15
+y 33
+end
+arch blocked
+x 15
+y 34
+end
 arch grassdark
 x 16
 end
@@ -3564,6 +3741,10 @@ arch hedge_2_1_2
 x 16
 y 31
 move_block all
+end
+arch blocked
+x 16
+y 32
 end
 arch grassdark
 x 17
@@ -3812,6 +3993,18 @@ x 17
 y 31
 move_block all
 end
+arch blocked
+x 17
+y 32
+end
+arch blocked
+x 17
+y 33
+end
+arch blocked
+x 17
+y 34
+end
 arch grassmedium
 x 18
 end
@@ -4027,11 +4220,23 @@ x 18
 y 30
 move_block all
 end
+arch blocked
+x 18
+y 31
+end
+arch blocked
+x 18
+y 32
+end
+arch blocked
+x 18
+y 33
+end
 arch teleporter
 hp 18
 sp 6
 x 18
-y 31
+y 34
 speed 0.0
 connected 50
 end
@@ -4041,7 +4246,7 @@ msg
 The wind blows...
 endmsg
 x 18
-y 31
+y 34
 connected 52
 end
 arch grass
@@ -4273,11 +4478,19 @@ x 19
 y 30
 move_block all
 end
+arch blocked
+x 19
+y 31
+end
+arch blocked
+x 19
+y 33
+end
 arch teleporter
 hp 18
 sp 6
 x 19
-y 31
+y 34
 speed 0.0
 connected 51
 end
@@ -4287,7 +4500,7 @@ msg
 The wind blows...
 endmsg
 x 19
-y 31
+y 34
 connected 52
 end
 arch grass
@@ -4492,10 +4705,18 @@ x 20
 y 30
 move_block all
 end
+arch blocked
+x 20
+y 31
+end
+arch blocked
+x 20
+y 33
+end
 arch button_plate
 name large button 51
 x 20
-y 31
+y 34
 connected 51
 end
 arch grass
@@ -4733,13 +4954,21 @@ x 21
 y 30
 move_block all
 end
-arch spikes_moving
+arch blocked
 x 21
 y 31
 end
+arch blocked
+x 21
+y 33
+end
+arch spikes_moving
+x 21
+y 34
+end
 arch boulder
 x 21
-y 31
+y 34
 end
 arch grass
 x 22
@@ -4943,10 +5172,22 @@ x 22
 y 30
 move_block all
 end
+arch blocked
+x 22
+y 31
+end
+arch blocked
+x 22
+y 32
+end
+arch blocked
+x 22
+y 33
+end
 arch button_plate
 name large button 50
 x 22
-y 31
+y 34
 connected 50
 end
 arch grass
@@ -5183,6 +5424,18 @@ x 23
 y 31
 move_block all
 end
+arch blocked
+x 23
+y 32
+end
+arch blocked
+x 23
+y 33
+end
+arch blocked
+x 23
+y 34
+end
 arch grass
 x 24
 end
@@ -5382,6 +5635,10 @@ arch hedge_2_1_2
 x 24
 y 31
 move_block all
+end
+arch blocked
+x 24
+y 32
 end
 arch grass
 x 25
@@ -5634,6 +5891,18 @@ x 25
 y 31
 move_block all
 end
+arch blocked
+x 25
+y 32
+end
+arch blocked
+x 25
+y 33
+end
+arch blocked
+x 25
+y 34
+end
 arch grass
 x 26
 end
@@ -5849,27 +6118,32 @@ x 26
 y 29
 move_block all
 end
+arch blocked
+x 26
+y 30
+end
+arch blocked
+x 26
+y 31
+end
+arch blocked
+x 26
+y 32
+end
 arch button_plate
 name large button - bridge
 x 26
-y 30
+y 33
 connected 53
 end
 arch igate_open_1
 x 26
-y 31
+y 34
 connected 52
 end
 arch boulder
 x 26
-y 31
-end
-arch grate_open_2
-x 27
-connected 998
-end
-arch boulder
-x 27
+y 34
 end
 arch grass
 x 27
@@ -6080,19 +6354,27 @@ x 27
 y 29
 move_block all
 end
-arch hedge_0
+arch blocked
 x 27
 y 30
+end
+arch blocked
+x 27
+y 31
+end
+arch blocked
+x 27
+y 32
+end
+arch hedge_0
+x 27
+y 33
 move_block all
 end
 arch hedge_0
 x 27
-y 31
+y 34
 move_block all
-end
-arch button_plate
-x 28
-connected 100
 end
 arch grass
 x 28
@@ -6327,28 +6609,33 @@ x 28
 y 28
 move_block all
 end
+arch blocked
+x 28
+y 29
+end
+arch blocked
+x 28
+y 30
+end
+arch blocked
+x 28
+y 31
+end
 arch teleporter
 hp 8
 sp 16
 x 28
-y 29
+y 32
 end
 arch hedge_0
 x 28
-y 30
+y 33
 move_block all
 end
 arch hedge_0
 x 28
-y 31
+y 34
 move_block all
-end
-arch blocked
-x 29
-end
-arch blocked
-x 29
-y 1
 end
 arch grass
 x 29
@@ -6559,17 +6846,25 @@ x 29
 y 28
 move_block all
 end
-arch spikes_moving
+arch blocked
 x 29
 y 29
+end
+arch blocked
+x 29
+y 31
+end
+arch spikes_moving
+x 29
+y 32
 end
 arch rose_white
 x 29
-y 29
+y 32
 end
 arch hedge_0
 x 29
-y 30
+y 33
 move_block all
 end
 arch teleporter
@@ -6577,7 +6872,7 @@ name teleporter 51
 hp 28
 sp 19
 x 29
-y 31
+y 34
 speed 0.0
 connected 51
 end
@@ -6596,7 +6891,7 @@ maxsp 50
 exp 2500
 wc -10
 x 29
-y 31
+y 34
 level 50
 attacktype 3
 resist_magic 25
@@ -6619,19 +6914,6 @@ arch spell_paralyze
 end
 arch spell_magic_missile
 end
-end
-arch button_plate
-x 30
-connected 53
-end
-arch igate_open_1
-x 30
-y 1
-connected 990
-end
-arch boulder
-x 30
-y 1
 end
 arch grass
 x 30
@@ -6814,28 +7096,29 @@ x 30
 y 28
 move_block all
 end
+arch blocked
+x 30
+y 29
+end
+arch blocked
+x 30
+y 31
+end
 arch teleporter
 hp 3
 sp 29
 x 30
-y 29
+y 32
 end
 arch hedge_0
 x 30
-y 30
+y 33
 move_block all
 end
 arch hedge_0
 x 30
-y 31
+y 34
 move_block all
-end
-arch blocked
-x 31
-end
-arch blocked
-x 31
-y 1
 end
 arch grass
 x 31
@@ -7099,19 +7382,27 @@ x 31
 y 28
 move_block all
 end
-arch teleporter
+arch blocked
 x 31
 y 29
+end
+arch blocked
+x 31
+y 31
+end
+arch teleporter
+x 31
+y 32
 speed 0.0
 connected 50
 end
 arch waybread
 x 31
-y 29
+y 32
 end
 arch hedge_0
 x 31
-y 30
+y 33
 move_block all
 end
 arch teleporter
@@ -7119,7 +7410,7 @@ name teleporter 50
 hp 28
 sp 19
 x 31
-y 31
+y 34
 speed 0.0
 connected 50
 end
@@ -7138,7 +7429,7 @@ maxsp 50
 exp 2500
 wc -10
 x 31
-y 31
+y 34
 level 50
 attacktype 3
 resist_magic 25
