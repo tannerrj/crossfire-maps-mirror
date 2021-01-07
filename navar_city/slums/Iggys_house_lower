@@ -4,12 +4,12 @@ difficulty 8
 region navar
 darkness 3
 width 15
-height 30
+height 32
 enter_x 13
 enter_y 1
 msg
 Created:  2004-01-12 Avion
-Modified: 2008-10-25 Rick Tanner
+Modified: 2021-01-07 Nicolas Weeger
 endmsg
 end
 arch woodfloor
@@ -25,7 +25,7 @@ end
 arch woodfloor
 y 2
 end
-arch bwall_3_2
+arch bwall_2_2_2
 y 2
 end
 arch woodfloor
@@ -61,7 +61,7 @@ end
 arch woodfloor
 y 8
 end
-arch bwall_3_2
+arch bwall_2_1_1
 y 8
 end
 arch woodfloor
@@ -73,7 +73,7 @@ end
 arch woodfloor
 y 10
 end
-arch bwall_2_1_1
+arch bwall_3_2
 y 10
 end
 arch woodfloor
@@ -103,7 +103,7 @@ end
 arch woodfloor
 y 15
 end
-arch bwall_3_2
+arch bwall_2_1_1
 y 15
 end
 arch woodfloor
@@ -115,7 +115,7 @@ end
 arch woodfloor
 y 17
 end
-arch bwall_2_1_1
+arch bwall_3_2
 y 17
 end
 arch woodfloor
@@ -166,19 +166,19 @@ end
 arch bwall_2_1_1
 y 25
 end
+arch woodfloor
+y 26
+end
+arch bwall_2_1_1
+y 26
+end
+arch woodfloor
+y 27
+end
+arch bwall_2_1_1
+y 27
+end
 arch dirtfloor
-y 26
-end
-arch bwall_2_1_1
-y 26
-end
-arch woodfloor
-y 27
-end
-arch bwall_2_1_1
-y 27
-end
-arch woodfloor
 y 28
 end
 arch bwall_2_1_1
@@ -186,9 +186,21 @@ y 28
 end
 arch woodfloor
 y 29
+end
+arch bwall_2_1_1
+y 29
+end
+arch woodfloor
+y 30
+end
+arch bwall_2_1_1
+y 30
+end
+arch woodfloor
+y 31
 end
 arch bwall_2_2_1
-y 29
+y 31
 end
 arch woodfloor
 x 1
@@ -208,20 +220,20 @@ arch weak_wall_6
 x 1
 y 2
 end
+arch woodfloor
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
 arch magic_mouth
 msg
 Creak!
 endmsg
 x 1
-y 3
-end
-arch woodfloor
-x 1
-y 3
-end
-arch woodfloor
-x 1
-y 4
+y 5
 end
 arch woodfloor
 x 1
@@ -234,28 +246,28 @@ end
 arch woodfloor
 x 1
 y 7
+end
+arch woodfloor
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
 end
 arch generate_goblin
 x 1
-y 7
-end
-arch woodfloor
-x 1
-y 8
-end
-arch bwall_2_1_2
-x 1
-y 8
-end
-arch woodfloor
-x 1
 y 9
 end
-arch flagstone
+arch woodfloor
 x 1
 y 10
 end
-arch flagstone
+arch bwall_2_1_2
+x 1
+y 10
+end
+arch woodfloor
 x 1
 y 11
 end
@@ -267,51 +279,43 @@ arch flagstone
 x 1
 y 13
 end
-arch woodfloor
+arch flagstone
 x 1
 y 14
 end
-arch table_3
-x 1
-y 14
-end
-arch dirtfloor
-x 1
-y 15
-end
-arch bwall_2_1_2
+arch flagstone
 x 1
 y 15
 end
 arch woodfloor
 x 1
 y 16
+end
+arch table_3
+x 1
+y 16
+end
+arch dirtfloor
+x 1
+y 17
+end
+arch bwall_2_1_2
+x 1
+y 17
+end
+arch woodfloor
+x 1
+y 18
 end
 arch generate_ogre
 x 1
-y 16
+y 18
 end
 arch woodfloor
 x 1
-y 17
+y 19
 end
 arch dirtfloor
-x 1
-y 18
-end
-arch gnoll
-x 1
-y 18
-end
-arch woodfloor
-x 1
-y 19
-end
-arch gnoll
-x 1
-y 19
-end
-arch woodfloor
 x 1
 y 20
 end
@@ -323,23 +327,27 @@ arch woodfloor
 x 1
 y 21
 end
-arch ogre
+arch gnoll
 x 1
 y 21
 end
-arch dirtfloor
+arch woodfloor
 x 1
 y 22
 end
-arch dirtfloor
+arch gnoll
 x 1
-y 23
-end
-arch gnoll_chief_arc
-x 1
-y 23
+y 22
 end
 arch woodfloor
+x 1
+y 23
+end
+arch ogre
+x 1
+y 23
+end
+arch dirtfloor
 x 1
 y 24
 end
@@ -347,7 +355,7 @@ arch dirtfloor
 x 1
 y 25
 end
-arch gnoll
+arch gnoll_chief_arc
 x 1
 y 25
 end
@@ -355,33 +363,45 @@ arch woodfloor
 x 1
 y 26
 end
-arch gnoll
-x 1
-y 26
-end
-arch woodfloor
+arch dirtfloor
 x 1
 y 27
 end
-arch goblin_leader_arc
+arch gnoll
 x 1
 y 27
 end
 arch woodfloor
 x 1
 y 28
+end
+arch gnoll
+x 1
+y 28
+end
+arch woodfloor
+x 1
+y 29
+end
+arch goblin_leader_arc
+x 1
+y 29
+end
+arch woodfloor
+x 1
+y 30
 end
 arch generate_gnoll
 x 1
-y 28
+y 30
 end
 arch woodfloor
 x 1
-y 29
+y 31
 end
 arch bwall_2_1_2
 x 1
-y 29
+y 31
 end
 arch woodfloor
 x 2
@@ -405,10 +425,6 @@ arch woodfloor
 x 2
 y 3
 end
-arch ogre
-x 2
-y 3
-end
 arch woodfloor
 x 2
 y 4
@@ -417,19 +433,11 @@ arch woodfloor
 x 2
 y 5
 end
-arch light4
-x 2
-y 5
-end
-arch gnoll
+arch ogre
 x 2
 y 5
 end
 arch woodfloor
-x 2
-y 6
-end
-arch gnoll
 x 2
 y 6
 end
@@ -437,11 +445,19 @@ arch woodfloor
 x 2
 y 7
 end
+arch light4
+x 2
+y 7
+end
+arch gnoll
+x 2
+y 7
+end
 arch woodfloor
 x 2
 y 8
 end
-arch bwall_2_1_2
+arch gnoll
 x 2
 y 8
 end
@@ -449,43 +465,43 @@ arch woodfloor
 x 2
 y 9
 end
-arch flagstone
+arch woodfloor
 x 2
 y 10
 end
-arch flagstone
+arch bwall_2_1_2
+x 2
+y 10
+end
+arch woodfloor
 x 2
 y 11
+end
+arch flagstone
+x 2
+y 12
+end
+arch flagstone
+x 2
+y 13
 end
 arch forge
 x 2
-y 11
-end
-arch flagstone
-x 2
-y 12
-end
-arch flagstone
-x 2
 y 13
+end
+arch flagstone
+x 2
+y 14
+end
+arch flagstone
+x 2
+y 15
 end
 arch woodfloor
 x 2
-y 14
+y 16
 end
 arch table_3
-x 2
-y 14
-end
-arch dirtfloor
-x 2
-y 15
-end
-arch bwall_2_1_2
-x 2
-y 15
-end
-arch dirtfloor
 x 2
 y 16
 end
@@ -493,11 +509,11 @@ arch dirtfloor
 x 2
 y 17
 end
-arch woodfloor
+arch bwall_2_1_2
 x 2
-y 18
+y 17
 end
-arch light4
+arch dirtfloor
 x 2
 y 18
 end
@@ -509,19 +525,19 @@ arch woodfloor
 x 2
 y 20
 end
-arch gnoll_chief_arc
+arch light4
 x 2
 y 20
 end
-arch woodfloor
+arch dirtfloor
 x 2
 y 21
 end
-arch dirtfloor
+arch woodfloor
 x 2
 y 22
 end
-arch ogre
+arch gnoll_chief_arc
 x 2
 y 22
 end
@@ -533,7 +549,7 @@ arch dirtfloor
 x 2
 y 24
 end
-arch light4
+arch ogre
 x 2
 y 24
 end
@@ -541,15 +557,11 @@ arch woodfloor
 x 2
 y 25
 end
-arch ogre
-x 2
-y 25
-end
-arch woodfloor
+arch dirtfloor
 x 2
 y 26
 end
-arch gnoll
+arch light4
 x 2
 y 26
 end
@@ -557,7 +569,15 @@ arch woodfloor
 x 2
 y 27
 end
+arch ogre
+x 2
+y 27
+end
 arch woodfloor
+x 2
+y 28
+end
+arch gnoll
 x 2
 y 28
 end
@@ -565,9 +585,17 @@ arch woodfloor
 x 2
 y 29
 end
+arch woodfloor
+x 2
+y 30
+end
+arch woodfloor
+x 2
+y 31
+end
 arch bwall_2_1_2
 x 2
-y 29
+y 31
 end
 arch woodfloor
 x 3
@@ -591,19 +619,11 @@ arch woodfloor
 x 3
 y 3
 end
-arch woodfloor
-x 3
-y 4
-end
-arch gnoll
+arch dirtfloor
 x 3
 y 4
 end
 arch woodfloor
-x 3
-y 5
-end
-arch gnoll
 x 3
 y 5
 end
@@ -619,11 +639,15 @@ arch woodfloor
 x 3
 y 7
 end
+arch gnoll
+x 3
+y 7
+end
 arch woodfloor
 x 3
 y 8
 end
-arch bwall_2_1_2
+arch gnoll
 x 3
 y 8
 end
@@ -631,11 +655,15 @@ arch woodfloor
 x 3
 y 9
 end
-arch flagstone
+arch woodfloor
 x 3
 y 10
 end
-arch flagstone
+arch bwall_2_1_2
+x 3
+y 10
+end
+arch woodfloor
 x 3
 y 11
 end
@@ -643,31 +671,23 @@ arch flagstone
 x 3
 y 12
 end
-arch light4
-x 3
-y 12
-end
 arch flagstone
 x 3
 y 13
 end
-arch barrel
-x 3
-y 13
-end
-arch woodfloor
+arch flagstone
 x 3
 y 14
 end
-arch table_3
+arch light4
 x 3
 y 14
 end
-arch woodfloor
+arch flagstone
 x 3
 y 15
 end
-arch bwall_2_1_2
+arch barrel
 x 3
 y 15
 end
@@ -675,11 +695,15 @@ arch woodfloor
 x 3
 y 16
 end
-arch dirtfloor
+arch table_3
+x 3
+y 16
+end
+arch woodfloor
 x 3
 y 17
 end
-arch goblin_leader_arc
+arch bwall_2_1_2
 x 3
 y 17
 end
@@ -687,7 +711,7 @@ arch woodfloor
 x 3
 y 18
 end
-arch woodfloor
+arch dirtfloor
 x 3
 y 19
 end
@@ -711,15 +735,15 @@ arch woodfloor
 x 3
 y 22
 end
-arch goblin_leader_arc
-x 3
-y 22
-end
 arch woodfloor
 x 3
 y 23
 end
-arch dirtfloor
+arch goblin_leader_arc
+x 3
+y 23
+end
+arch woodfloor
 x 3
 y 24
 end
@@ -727,15 +751,15 @@ arch goblin_leader_arc
 x 3
 y 24
 end
-arch dirtfloor
-x 3
-y 25
-end
-arch gnoll
+arch woodfloor
 x 3
 y 25
 end
 arch dirtfloor
+x 3
+y 26
+end
+arch goblin_leader_arc
 x 3
 y 26
 end
@@ -751,17 +775,29 @@ arch dirtfloor
 x 3
 y 28
 end
+arch dirtfloor
+x 3
+y 29
+end
 arch gnoll
 x 3
-y 28
+y 29
+end
+arch dirtfloor
+x 3
+y 30
+end
+arch gnoll
+x 3
+y 30
 end
 arch woodfloor
 x 3
-y 29
+y 31
 end
 arch bwall_2_1_2
 x 3
-y 29
+y 31
 end
 arch woodfloor
 x 4
@@ -798,35 +834,35 @@ arch woodfloor
 x 4
 y 4
 end
-arch gnoll
-x 4
-y 4
-end
 arch woodfloor
 x 4
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 4
 y 6
 end
-arch dirtfloor
+arch gnoll
+x 4
+y 6
+end
+arch woodfloor
 x 4
 y 7
 end
-arch woodfloor
+arch dirtfloor
 x 4
 y 8
 end
-arch bwall_2_1_2
-x 4
-y 8
-end
-arch woodfloor
+arch dirtfloor
 x 4
 y 9
 end
 arch woodfloor
+x 4
+y 10
+end
+arch bwall_2_1_2
 x 4
 y 10
 end
@@ -838,11 +874,11 @@ arch woodfloor
 x 4
 y 12
 end
-arch dirtfloor
+arch woodfloor
 x 4
 y 13
 end
-arch dirtfloor
+arch woodfloor
 x 4
 y 14
 end
@@ -850,21 +886,15 @@ arch dirtfloor
 x 4
 y 15
 end
-arch bwall_2_1_2
-x 4
-y 15
-end
 arch dirtfloor
 x 4
 y 16
 end
-arch giant_bat
+arch dirtfloor
 x 4
-y 16
-run_away 20
-can_see_in_dark 1
+y 17
 end
-arch woodfloor
+arch bwall_2_1_2
 x 4
 y 17
 end
@@ -872,15 +902,17 @@ arch dirtfloor
 x 4
 y 18
 end
+arch giant_bat
+x 4
+y 18
+run_away 20
+can_see_in_dark 1
+end
 arch woodfloor
 x 4
 y 19
 end
-arch woodfloor
-x 4
-y 20
-end
-arch gnoll_chief_arc
+arch dirtfloor
 x 4
 y 20
 end
@@ -892,7 +924,7 @@ arch woodfloor
 x 4
 y 22
 end
-arch gnoll
+arch gnoll_chief_arc
 x 4
 y 22
 end
@@ -900,11 +932,11 @@ arch woodfloor
 x 4
 y 23
 end
-arch gnoll
+arch woodfloor
 x 4
-y 23
+y 24
 end
-arch dirtfloor
+arch gnoll
 x 4
 y 24
 end
@@ -912,37 +944,49 @@ arch woodfloor
 x 4
 y 25
 end
-arch gnoll_chief_arc
+arch gnoll
 x 4
 y 25
 end
-arch woodfloor
+arch dirtfloor
 x 4
 y 26
 end
-arch dirtfloor
+arch woodfloor
 x 4
 y 27
+end
+arch gnoll_chief_arc
+x 4
+y 27
+end
+arch woodfloor
+x 4
+y 28
+end
+arch dirtfloor
+x 4
+y 29
 end
 arch goblin_leader_arc
 x 4
-y 27
+y 29
 end
 arch woodfloor
 x 4
-y 28
+y 30
 end
 arch gnoll
 x 4
-y 28
+y 30
 end
 arch woodfloor
 x 4
-y 29
+y 31
 end
 arch bwall_2_1_2
 x 4
-y 29
+y 31
 end
 arch woodfloor
 x 5
@@ -971,15 +1015,11 @@ arch bwall_2_1_2
 x 5
 y 2
 end
-arch woodfloor
-x 5
-y 3
-end
-arch generate_gnoll
-x 5
-y 3
-end
 arch dirtfloor
+x 5
+y 3
+end
+arch woodfloor
 x 5
 y 4
 end
@@ -987,31 +1027,35 @@ arch woodfloor
 x 5
 y 5
 end
+arch generate_gnoll
+x 5
+y 5
+end
 arch dirtfloor
 x 5
 y 6
 end
+arch woodfloor
+x 5
+y 7
+end
 arch dirtfloor
 x 5
-y 7
+y 8
+end
+arch dirtfloor
+x 5
+y 9
 end
 arch ogre_leader_arc
-x 5
-y 7
-end
-arch woodfloor
-x 5
-y 8
-end
-arch bwall_2_1_2
-x 5
-y 8
-end
-arch woodfloor
 x 5
 y 9
 end
 arch woodfloor
+x 5
+y 10
+end
+arch bwall_2_1_2
 x 5
 y 10
 end
@@ -1035,10 +1079,6 @@ arch woodfloor
 x 5
 y 15
 end
-arch bwall_2_1_2
-x 5
-y 15
-end
 arch woodfloor
 x 5
 y 16
@@ -1047,7 +1087,7 @@ arch woodfloor
 x 5
 y 17
 end
-arch generate_gnoll
+arch bwall_2_1_2
 x 5
 y 17
 end
@@ -1059,7 +1099,7 @@ arch woodfloor
 x 5
 y 19
 end
-arch gnoll
+arch generate_gnoll
 x 5
 y 19
 end
@@ -1067,10 +1107,6 @@ arch woodfloor
 x 5
 y 20
 end
-arch gnoll
-x 5
-y 20
-end
 arch woodfloor
 x 5
 y 21
@@ -1083,7 +1119,7 @@ arch woodfloor
 x 5
 y 22
 end
-arch generate_goblin
+arch gnoll
 x 5
 y 22
 end
@@ -1091,19 +1127,19 @@ arch woodfloor
 x 5
 y 23
 end
+arch gnoll
+x 5
+y 23
+end
 arch woodfloor
 x 5
 y 24
 end
-arch gnoll
+arch generate_goblin
 x 5
 y 24
 end
-arch dirtfloor
-x 5
-y 25
-end
-arch gnoll
+arch woodfloor
 x 5
 y 25
 end
@@ -1111,11 +1147,15 @@ arch woodfloor
 x 5
 y 26
 end
-arch woodfloor
+arch gnoll
+x 5
+y 26
+end
+arch dirtfloor
 x 5
 y 27
 end
-arch generate_gnoll
+arch gnoll
 x 5
 y 27
 end
@@ -1127,14 +1167,29 @@ arch woodfloor
 x 5
 y 29
 end
-arch bwall_2_1_2
+arch generate_gnoll
 x 5
 y 29
 end
 arch woodfloor
+x 5
+y 30
+end
+arch woodfloor
+x 5
+y 31
+end
+arch bwall_2_1_2
+x 5
+y 31
+end
+arch woodfloor
 x 6
 end
-arch bwall_3_3
+arch woodfloor
+x 6
+end
+arch bwall_2_2_3
 x 6
 end
 arch woodfloor
@@ -1149,51 +1204,39 @@ arch woodfloor
 x 6
 y 2
 end
-arch bwall_2_2_4
+arch bwall_3_3
 x 6
 y 2
 end
-arch dirtfloor
+arch woodfloor
 x 6
 y 3
 end
-arch bwall_0
+arch bwall_2_1_1
 x 6
 y 3
-end
-arch creator
-other_arch light4
-x 6
-y 3
-connected 5
-end
-arch dirtfloor
-x 6
-y 4
-end
-arch block_door_closed
-x 6
-y 4
-connected 5
-activate_on_release 0
-end
-arch dirtfloor
-x 6
-y 5
-end
-arch dirtfloor
-x 6
-y 5
-end
-arch block_door_closed
-x 6
-y 5
-connected 5
-activate_on_release 0
 end
 arch woodfloor
 x 6
-y 6
+y 4
+end
+arch bwall_2_1_1
+x 6
+y 4
+end
+arch dirtfloor
+x 6
+y 5
+end
+arch bwall_0
+x 6
+y 5
+end
+arch creator
+other_arch light4
+x 6
+y 5
+connected 5
 end
 arch dirtfloor
 x 6
@@ -1209,62 +1252,74 @@ arch dirtfloor
 x 6
 y 7
 end
-arch bwall_0
+arch dirtfloor
 x 6
 y 7
 end
-arch creator
-other_arch light4
+arch block_door_closed
 x 6
 y 7
 connected 5
+activate_on_release 0
 end
 arch woodfloor
 x 6
 y 8
 end
-arch bwall_2_2_3
+arch dirtfloor
 x 6
 y 8
 end
-arch woodfloor
+arch block_door_closed
+x 6
+y 8
+connected 5
+activate_on_release 0
+end
+arch dirtfloor
 x 6
 y 9
 end
-arch bwall_1_2
+arch bwall_0
 x 6
 y 9
+end
+arch creator
+other_arch light4
+x 6
+y 9
+connected 5
 end
 arch woodfloor
 x 6
 y 10
+end
+arch bwall_2_2_3
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch bwall_1_2
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
 end
 arch locked_door2
 slaying Iggyforge
 x 6
-y 10
-end
-arch woodfloor
-x 6
-y 11
-end
-arch bwall_1_1
-x 6
-y 11
-end
-arch woodfloor
-x 6
-y 12
-end
-arch bwall_1_2
-x 6
 y 12
 end
 arch woodfloor
 x 6
 y 13
 end
-arch bwall_0
+arch bwall_1_1
 x 6
 y 13
 end
@@ -1272,103 +1327,97 @@ arch woodfloor
 x 6
 y 14
 end
-arch bwall_0
+arch bwall_1_2
 x 6
 y 14
 end
 arch woodfloor
 x 6
 y 15
+end
+arch bwall_0
+x 6
+y 15
+end
+arch woodfloor
+x 6
+y 16
+end
+arch bwall_0
+x 6
+y 16
+end
+arch woodfloor
+x 6
+y 17
 end
 arch bwall_1_3
 x 6
-y 15
-end
-arch woodfloor
-x 6
-y 16
-end
-arch bwall_0
-x 6
-y 16
-end
-arch woodfloor
-x 6
-y 17
-end
-arch bwall_0
-x 6
 y 17
 end
 arch woodfloor
 x 6
 y 18
 end
-arch dirtfloor
+arch bwall_0
 x 6
 y 18
 end
-arch block_door_closed
-x 6
-y 18
-connected 5
-activate_on_release 0
-end
-arch dirtfloor
+arch woodfloor
 x 6
 y 19
 end
-arch dirtfloor
+arch bwall_0
 x 6
 y 19
-end
-arch block_door_closed
-x 6
-y 19
-connected 5
-activate_on_release 0
 end
 arch woodfloor
 x 6
 y 20
+end
+arch dirtfloor
+x 6
+y 20
+end
+arch block_door_closed
+x 6
+y 20
+connected 5
+activate_on_release 0
+end
+arch dirtfloor
+x 6
+y 21
+end
+arch dirtfloor
+x 6
+y 21
+end
+arch block_door_closed
+x 6
+y 21
+connected 5
+activate_on_release 0
+end
+arch woodfloor
+x 6
+y 22
 end
 arch bwall_1_1
 x 6
-y 20
+y 22
 end
 arch creator
 other_arch light4
 x 6
-y 20
-connected 5
-end
-arch woodfloor
-x 6
-y 21
-end
-arch bwall_1_2
-x 6
-y 21
-end
-arch woodfloor
-x 6
-y 22
-end
-arch dirtfloor
-x 6
-y 22
-end
-arch block_door_closed
-x 6
 y 22
 connected 5
-activate_on_release 0
 end
 arch woodfloor
 x 6
 y 23
 end
-arch bwall_1_1
+arch bwall_1_2
 x 6
 y 23
 end
@@ -1376,79 +1425,95 @@ arch woodfloor
 x 6
 y 24
 end
-arch bwall_1_2
+arch dirtfloor
 x 6
 y 24
+end
+arch block_door_closed
+x 6
+y 24
+connected 5
+activate_on_release 0
+end
+arch woodfloor
+x 6
+y 25
+end
+arch bwall_1_1
+x 6
+y 25
+end
+arch woodfloor
+x 6
+y 26
+end
+arch bwall_1_2
+x 6
+y 26
 end
 arch creator
 other_arch light4
 x 6
-y 24
+y 26
 connected 5
 end
 arch dirtfloor
 x 6
-y 25
+y 27
 end
 arch dirtfloor
 x 6
-y 25
+y 27
 end
 arch block_door_closed
 x 6
-y 25
+y 27
 connected 5
 activate_on_release 0
 end
 arch dirtfloor
 x 6
-y 26
+y 28
 end
 arch dirtfloor
 x 6
-y 26
+y 28
 end
 arch block_door_closed
 x 6
-y 26
+y 28
 connected 5
 activate_on_release 0
-end
-arch woodfloor
-x 6
-y 27
-end
-arch bwall_0
-x 6
-y 27
-end
-arch woodfloor
-x 6
-y 28
-end
-arch bwall_1_1
-x 6
-y 28
 end
 arch woodfloor
 x 6
 y 29
+end
+arch bwall_0
+x 6
+y 29
+end
+arch woodfloor
+x 6
+y 30
+end
+arch bwall_1_1
+x 6
+y 30
+end
+arch woodfloor
+x 6
+y 31
 end
 arch bwall_3_1
 x 6
-y 29
+y 31
 end
 arch woodfloor
 x 7
+y 2
 end
 arch bwall_2_1_2
-x 7
-end
-arch woodfloor
-x 7
-y 1
-end
-arch dirtfloor
 x 7
 y 2
 end
@@ -1464,11 +1529,11 @@ arch woodfloor
 x 7
 y 5
 end
-arch woodfloor
+arch dirtfloor
 x 7
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 7
 end
@@ -1484,7 +1549,7 @@ arch woodfloor
 x 7
 y 10
 end
-arch woodfloor
+arch dirtfloor
 x 7
 y 11
 end
@@ -1512,7 +1577,7 @@ arch woodfloor
 x 7
 y 17
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 18
 end
@@ -1520,20 +1585,13 @@ arch woodfloor
 x 7
 y 19
 end
-arch woodfloor
+arch dirtfloor
 x 7
 y 20
 end
 arch woodfloor
 x 7
 y 21
-end
-arch pedestal
-x 7
-y 21
-invisible 1
-connected 5
-activate_on_release 0
 end
 arch woodfloor
 x 7
@@ -1542,6 +1600,13 @@ end
 arch woodfloor
 x 7
 y 23
+end
+arch pedestal
+x 7
+y 23
+invisible 1
+connected 5
+activate_on_release 0
 end
 arch woodfloor
 x 7
@@ -1555,7 +1620,7 @@ arch woodfloor
 x 7
 y 26
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 27
 end
@@ -1563,33 +1628,35 @@ arch woodfloor
 x 7
 y 28
 end
-arch woodfloor
-x 7
-y 29
-end
-arch bwall_2_1_2
+arch dirtfloor
 x 7
 y 29
 end
 arch woodfloor
-x 8
-end
-arch bwall_2_1_2
-x 8
+x 7
+y 30
 end
 arch woodfloor
-x 8
-y 1
+x 7
+y 31
+end
+arch bwall_2_1_2
+x 7
+y 31
 end
 arch woodfloor
 x 8
 y 2
 end
-arch dirtfloor
+arch bwall_2_1_2
+x 8
+y 2
+end
+arch woodfloor
 x 8
 y 3
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 4
 end
@@ -1605,23 +1672,17 @@ arch dirtfloor
 x 8
 y 7
 end
-arch woodfloor
+arch dirtfloor
 x 8
 y 8
 end
-arch woodfloor
+arch dirtfloor
 x 8
 y 9
 end
 arch woodfloor
 x 8
 y 10
-end
-arch giant_bat
-x 8
-y 10
-run_away 20
-can_see_in_dark 1
 end
 arch woodfloor
 x 8
@@ -1631,6 +1692,12 @@ arch woodfloor
 x 8
 y 12
 end
+arch giant_bat
+x 8
+y 12
+run_away 20
+can_see_in_dark 1
+end
 arch woodfloor
 x 8
 y 13
@@ -1638,12 +1705,6 @@ end
 arch woodfloor
 x 8
 y 14
-end
-arch giant_bat
-x 8
-y 14
-run_away 20
-can_see_in_dark 1
 end
 arch woodfloor
 x 8
@@ -1653,36 +1714,42 @@ arch woodfloor
 x 8
 y 16
 end
+arch giant_bat
+x 8
+y 16
+run_away 20
+can_see_in_dark 1
+end
 arch woodfloor
 x 8
 y 17
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 18
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 19
 end
-arch woodfloor
+arch dirtfloor
 x 8
 y 20
 end
-arch pedestal
-x 8
-y 20
-invisible 1
-connected 5
-activate_on_release 0
-end
-arch woodfloor
+arch dirtfloor
 x 8
 y 21
 end
 arch woodfloor
 x 8
 y 22
+end
+arch pedestal
+x 8
+y 22
+invisible 1
+connected 5
+activate_on_release 0
 end
 arch woodfloor
 x 8
@@ -1700,7 +1767,7 @@ arch woodfloor
 x 8
 y 26
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 27
 end
@@ -1708,33 +1775,35 @@ arch woodfloor
 x 8
 y 28
 end
-arch woodfloor
-x 8
-y 29
-end
-arch bwall_2_1_2
-x 8
-y 29
-end
-arch woodfloor
-x 9
-end
-arch bwall_2_1_2
-x 9
-end
-arch woodfloor
-x 9
-y 1
-end
 arch dirtfloor
+x 8
+y 29
+end
+arch woodfloor
+x 8
+y 30
+end
+arch woodfloor
+x 8
+y 31
+end
+arch bwall_2_1_2
+x 8
+y 31
+end
+arch woodfloor
 x 9
 y 2
 end
-arch dirtfloor
+arch bwall_2_1_2
+x 9
+y 2
+end
+arch woodfloor
 x 9
 y 3
 end
-arch woodfloor
+arch dirtfloor
 x 9
 y 4
 end
@@ -1742,7 +1811,7 @@ arch dirtfloor
 x 9
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 6
 end
@@ -1750,11 +1819,11 @@ arch dirtfloor
 x 9
 y 7
 end
-arch woodfloor
+arch dirtfloor
 x 9
 y 8
 end
-arch woodfloor
+arch dirtfloor
 x 9
 y 9
 end
@@ -1774,7 +1843,7 @@ arch woodfloor
 x 9
 y 13
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 14
 end
@@ -1782,7 +1851,7 @@ arch woodfloor
 x 9
 y 15
 end
-arch woodfloor
+arch dirtfloor
 x 9
 y 16
 end
@@ -1790,7 +1859,7 @@ arch woodfloor
 x 9
 y 17
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 18
 end
@@ -1798,20 +1867,20 @@ arch woodfloor
 x 9
 y 19
 end
-arch pedestal
-x 9
-y 19
-invisible 1
-connected 5
-activate_on_release 0
-end
-arch woodfloor
+arch dirtfloor
 x 9
 y 20
 end
 arch woodfloor
 x 9
 y 21
+end
+arch pedestal
+x 9
+y 21
+invisible 1
+connected 5
+activate_on_release 0
 end
 arch woodfloor
 x 9
@@ -1828,17 +1897,17 @@ end
 arch woodfloor
 x 9
 y 25
+end
+arch woodfloor
+x 9
+y 26
+end
+arch woodfloor
+x 9
+y 27
 end
 arch spider
 x 9
-y 25
-end
-arch woodfloor
-x 9
-y 26
-end
-arch woodfloor
-x 9
 y 27
 end
 arch woodfloor
@@ -1849,21 +1918,23 @@ arch woodfloor
 x 9
 y 29
 end
+arch woodfloor
+x 9
+y 30
+end
+arch woodfloor
+x 9
+y 31
+end
 arch bwall_2_1_2
 x 9
-y 29
+y 31
 end
 arch woodfloor
 x 10
+y 2
 end
 arch bwall_2_1_2
-x 10
-end
-arch woodfloor
-x 10
-y 1
-end
-arch woodfloor
 x 10
 y 2
 end
@@ -1875,17 +1946,11 @@ arch woodfloor
 x 10
 y 4
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 5
 end
-arch creator
-other_arch light4
-x 10
-y 5
-connected 5
-end
-arch dirtfloor
+arch woodfloor
 x 10
 y 6
 end
@@ -1893,11 +1958,17 @@ arch dirtfloor
 x 10
 y 7
 end
-arch woodfloor
+arch creator
+other_arch light4
+x 10
+y 7
+connected 5
+end
+arch dirtfloor
 x 10
 y 8
 end
-arch woodfloor
+arch dirtfloor
 x 10
 y 9
 end
@@ -1917,48 +1988,48 @@ arch woodfloor
 x 10
 y 13
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 14
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 15
-end
-arch creator
-other_arch light4
-x 10
-y 15
-connected 5
 end
 arch dirtfloor
 x 10
 y 16
 end
-arch woodfloor
+arch dirtfloor
 x 10
 y 17
 end
-arch woodfloor
+arch creator
+other_arch light4
 x 10
-y 18
-end
-arch pedestal
-x 10
-y 18
-invisible 1
+y 17
 connected 5
-activate_on_release 0
+end
+arch dirtfloor
+x 10
+y 18
 end
 arch woodfloor
 x 10
 y 19
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 20
 end
-arch dirtfloor
+arch pedestal
+x 10
+y 20
+invisible 1
+connected 5
+activate_on_release 0
+end
+arch woodfloor
 x 10
 y 21
 end
@@ -1966,19 +2037,19 @@ arch dirtfloor
 x 10
 y 22
 end
-arch creator
-other_arch light4
-x 10
-y 22
-connected 5
-end
-arch woodfloor
+arch dirtfloor
 x 10
 y 23
 end
-arch woodfloor
+arch dirtfloor
 x 10
 y 24
+end
+arch creator
+other_arch light4
+x 10
+y 24
+connected 5
 end
 arch woodfloor
 x 10
@@ -1988,7 +2059,7 @@ arch woodfloor
 x 10
 y 26
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 27
 end
@@ -1996,25 +2067,27 @@ arch woodfloor
 x 10
 y 28
 end
-arch woodfloor
-x 10
-y 29
-end
-arch bwall_2_1_2
+arch dirtfloor
 x 10
 y 29
 end
 arch woodfloor
-x 11
+x 10
+y 30
+end
+arch woodfloor
+x 10
+y 31
 end
 arch bwall_2_1_2
-x 11
+x 10
+y 31
 end
 arch woodfloor
 x 11
-y 1
+y 2
 end
-arch woodfloor
+arch bwall_2_1_2
 x 11
 y 2
 end
@@ -2030,19 +2103,19 @@ arch woodfloor
 x 11
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 11
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 11
 y 7
 end
-arch woodfloor
+arch dirtfloor
 x 11
 y 8
 end
-arch woodfloor
+arch dirtfloor
 x 11
 y 9
 end
@@ -2050,7 +2123,7 @@ arch woodfloor
 x 11
 y 10
 end
-arch dirtfloor
+arch woodfloor
 x 11
 y 11
 end
@@ -2065,20 +2138,20 @@ end
 arch woodfloor
 x 11
 y 14
+end
+arch dirtfloor
+x 11
+y 15
+end
+arch woodfloor
+x 11
+y 16
 end
 arch bones3
 x 11
-y 14
-end
-arch woodfloor
-x 11
-y 15
-end
-arch dirtfloor
-x 11
 y 16
 end
-arch dirtfloor
+arch woodfloor
 x 11
 y 17
 end
@@ -2086,26 +2159,26 @@ arch dirtfloor
 x 11
 y 18
 end
-arch woodfloor
+arch dirtfloor
 x 11
 y 19
 end
+arch dirtfloor
+x 11
+y 20
+end
+arch woodfloor
+x 11
+y 21
+end
 arch pedestal
 x 11
-y 19
+y 21
 invisible 1
 connected 5
 activate_on_release 0
 end
 arch woodfloor
-x 11
-y 20
-end
-arch dirtfloor
-x 11
-y 21
-end
-arch dirtfloor
 x 11
 y 22
 end
@@ -2113,25 +2186,25 @@ arch dirtfloor
 x 11
 y 23
 end
+arch dirtfloor
+x 11
+y 24
+end
+arch dirtfloor
+x 11
+y 25
+end
 arch giant_bat
 x 11
-y 23
+y 25
 run_away 20
 can_see_in_dark 1
 end
 arch woodfloor
 x 11
-y 24
-end
-arch woodfloor
-x 11
-y 25
-end
-arch woodfloor
-x 11
 y 26
 end
-arch dirtfloor
+arch woodfloor
 x 11
 y 27
 end
@@ -2139,29 +2212,31 @@ arch woodfloor
 x 11
 y 28
 end
+arch dirtfloor
+x 11
+y 29
+end
+arch woodfloor
+x 11
+y 30
+end
 arch spider
 x 11
-y 28
+y 30
 end
 arch woodfloor
 x 11
-y 29
+y 31
 end
 arch bwall_2_1_2
 x 11
-y 29
+y 31
 end
 arch woodfloor
 x 12
+y 2
 end
 arch bwall_2_1_2
-x 12
-end
-arch woodfloor
-x 12
-y 1
-end
-arch woodfloor
 x 12
 y 2
 end
@@ -2193,7 +2268,7 @@ arch woodfloor
 x 12
 y 9
 end
-arch dirtfloor
+arch woodfloor
 x 12
 y 10
 end
@@ -2201,7 +2276,7 @@ arch woodfloor
 x 12
 y 11
 end
-arch woodfloor
+arch dirtfloor
 x 12
 y 12
 end
@@ -2209,11 +2284,11 @@ arch woodfloor
 x 12
 y 13
 end
-arch dirtfloor
+arch woodfloor
 x 12
 y 14
 end
-arch dirtfloor
+arch woodfloor
 x 12
 y 15
 end
@@ -2225,7 +2300,7 @@ arch dirtfloor
 x 12
 y 17
 end
-arch woodfloor
+arch dirtfloor
 x 12
 y 18
 end
@@ -2237,34 +2312,34 @@ arch woodfloor
 x 12
 y 20
 end
+arch dirtfloor
+x 12
+y 21
+end
+arch woodfloor
+x 12
+y 22
+end
 arch pedestal
 x 12
-y 20
+y 22
 invisible 1
 connected 5
 activate_on_release 0
 end
 arch dirtfloor
 x 12
-y 21
-end
-arch dirtfloor
-x 12
-y 22
-end
-arch woodfloor
-x 12
 y 23
 end
-arch woodfloor
+arch dirtfloor
 x 12
 y 24
 end
-arch dirtfloor
+arch woodfloor
 x 12
 y 25
 end
-arch dirtfloor
+arch woodfloor
 x 12
 y 26
 end
@@ -2276,37 +2351,39 @@ arch dirtfloor
 x 12
 y 28
 end
-arch woodfloor
+arch dirtfloor
 x 12
 y 29
 end
+arch dirtfloor
+x 12
+y 30
+end
+arch woodfloor
+x 12
+y 31
+end
 arch bwall_2_1_2
 x 12
-y 29
+y 31
 end
 arch woodfloor
 x 13
+y 2
 end
 arch bwall_2_1_2
 x 13
+y 2
 end
 arch woodfloor
 x 13
-y 1
+y 3
 end
 arch stair2_up
 slaying Iggys_house
 hp 13
 sp 1
 x 13
-y 1
-end
-arch woodfloor
-x 13
-y 2
-end
-arch woodfloor
-x 13
 y 3
 end
 arch woodfloor
@@ -2345,12 +2422,6 @@ arch woodfloor
 x 13
 y 12
 end
-arch giant_bat
-x 13
-y 12
-run_away 20
-can_see_in_dark 1
-end
 arch woodfloor
 x 13
 y 13
@@ -2359,7 +2430,13 @@ arch woodfloor
 x 13
 y 14
 end
-arch dirtfloor
+arch giant_bat
+x 13
+y 14
+run_away 20
+can_see_in_dark 1
+end
+arch woodfloor
 x 13
 y 15
 end
@@ -2367,7 +2444,7 @@ arch woodfloor
 x 13
 y 16
 end
-arch woodfloor
+arch dirtfloor
 x 13
 y 17
 end
@@ -2379,23 +2456,23 @@ arch woodfloor
 x 13
 y 19
 end
+arch woodfloor
+x 13
+y 20
+end
+arch woodfloor
+x 13
+y 21
+end
 arch pedestal
 x 13
-y 19
+y 21
 invisible 1
 connected 5
 activate_on_release 0
 end
 arch woodfloor
 x 13
-y 20
-end
-arch woodfloor
-x 13
-y 21
-end
-arch woodfloor
-x 13
 y 22
 end
 arch woodfloor
@@ -2409,51 +2486,45 @@ end
 arch woodfloor
 x 13
 y 25
+end
+arch woodfloor
+x 13
+y 26
+end
+arch woodfloor
+x 13
+y 27
 end
 arch spider
 x 13
-y 25
+y 27
 end
 arch woodfloor
 x 13
-y 26
+y 28
 end
 arch dirtfloor
 x 13
-y 27
-end
-arch woodfloor
-x 13
-y 28
-end
-arch woodfloor
-x 13
 y 29
+end
+arch woodfloor
+x 13
+y 30
+end
+arch woodfloor
+x 13
+y 31
 end
 arch bwall_2_1_2
 x 13
-y 29
+y 31
 end
 arch woodfloor
 x 14
+y 2
 end
 arch bwall_2_2_3
 x 14
-end
-arch woodfloor
-x 14
-y 1
-end
-arch bwall_2_1_1
-x 14
-y 1
-end
-arch woodfloor
-x 14
-y 2
-end
-arch bwall_2_1_1
-x 14
 y 2
 end
 arch woodfloor
@@ -2667,8 +2738,24 @@ end
 arch woodfloor
 x 14
 y 29
+end
+arch bwall_2_1_1
+x 14
+y 29
+end
+arch woodfloor
+x 14
+y 30
+end
+arch bwall_2_1_1
+x 14
+y 30
+end
+arch woodfloor
+x 14
+y 31
 end
 arch bwall_2_2_4
 x 14
-y 29
+y 31
 end
