@@ -1,5 +1,6 @@
 arch map
 name General Store
+region andustar
 shopitems *:0
 shopmax 2000
 shoprace elf
@@ -7,7 +8,7 @@ width 14
 height 24
 msg
 Created:  2018-12-30 Kevin Zheng
-Modified: 2018-12-30 Kevin Zheng
+Modified: 2021-01-07 Kevin Zheng
 endmsg
 outdoor 1
 end
