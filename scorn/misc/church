@@ -9,7 +9,7 @@ enter_x 10
 enter_y 15
 msg
 Created:  1993-10-15
-Modified: 2012-06-28 Rick Tanner
+Modified: 2020-12-31 Rick Tanner
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -1045,6 +1045,10 @@ arch woodfloor
 x 9
 y 5
 end
+arch unlit brazier
+x 9
+y 5
+end
 arch woodfloor
 x 9
 y 6
@@ -1264,6 +1268,10 @@ x 11
 y 4
 end
 arch woodfloor
+x 11
+y 5
+end
+arch unlit brazier
 x 11
 y 5
 end
