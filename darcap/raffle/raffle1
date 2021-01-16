@@ -10,7 +10,7 @@ height 32
 enter_y 7
 msg
 Created:  2008-02-29
-Modified: 2015-06-06 tecslicer
+Modified: 2021-01-16 Nicolas Weeger
 endmsg
 outdoor 1
 end
@@ -796,12 +796,9 @@ x 3
 y 2
 connected 1
 end
-arch bolt_silk
-name tissue paper
-face tissu.111
+arch tissue_paper
 x 3
 y 2
-material 1
 end
 arch dungeon_magic
 x 3
