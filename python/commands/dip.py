@@ -26,7 +26,7 @@ def dip(pl):
     def nothing():
         something("Nothing happens.")
 
-    if ob.ArchName == "wbottle_empty":
+    if ob.ArchName == "wbottle_empty" or ob.ArchName == "potion_empty":
         ob.Quantity -= 1
         w = Crossfire.CreateObjectByName("water")
         w.Identified = 1
