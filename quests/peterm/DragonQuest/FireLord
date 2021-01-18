@@ -9,7 +9,7 @@ enter_x 3
 enter_y 26
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2012-01-01 Rick Tanner
+Modified: 2021-01-18 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -776,7 +776,7 @@ arch pstone_2
 x 4
 y 6
 end
-arch locked_door1
+arch locked_red_door1
 slaying FireLordKey
 x 4
 y 6
@@ -977,7 +977,7 @@ arch pstone_2
 x 5
 y 6
 end
-arch locked_door1
+arch locked_red_door1
 slaying FireLordKey
 x 5
 y 6
