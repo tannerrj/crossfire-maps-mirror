@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  1995-04-03 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2015-10-28 Rick Tanner
+Modified: 2021-01-17 SilverNexus
 endmsg
 end
 arch blocked
@@ -2842,6 +2842,11 @@ arch kobold
 x 9
 y 13
 end
+arch detector
+x 9
+y 14
+connected 10
+end
 arch dungeon_floor
 x 9
 y 14
@@ -2899,6 +2904,11 @@ end
 arch orc
 x 9
 y 20
+end
+arch detector
+x 9
+y 21
+connected 11
 end
 arch dungeon_floor
 x 9
@@ -4740,6 +4750,11 @@ arch goblin
 x 14
 y 29
 end
+arch detector
+x 14
+y 30
+connected 12
+end
 arch dungeon_floor
 x 14
 y 30
@@ -5328,6 +5343,8 @@ end
 arch sign
 msg
 This room is quit a bit harder than the room to the north.  Monsters move in a pattern.  You will get a bit more than regular experience out of them.
+
+The gate may close behind you as you enter. Stand in front of the gate to reopen it from within.
 endmsg
 x 16
 y 31
@@ -6259,8 +6276,8 @@ connected 13
 end
 arch teleporter
 slaying tower1
-hp 10
-sp 21
+hp 18
+sp 29
 x 19
 y 31
 speed 0.000000
@@ -7229,8 +7246,8 @@ y 26
 end
 arch teleporter
 slaying tower1
-hp 10
-sp 23
+hp 18
+sp 31
 x 22
 y 26
 end
@@ -7744,8 +7761,8 @@ connected 21
 end
 arch teleporter
 slaying tower1
-hp 18
-sp 1
+hp 26
+sp 9
 x 24
 y 9
 speed 0.000000
@@ -8338,8 +8355,8 @@ connected 22
 end
 arch teleporter
 slaying tower1
-hp 16
-sp 1
+hp 24
+sp 9
 x 26
 y 9
 speed 0.000000
@@ -8759,8 +8776,8 @@ connected 22
 end
 arch teleporter
 slaying tower1
-hp 16
-sp 1
+hp 24
+sp 9
 x 27
 y 14
 speed 0.000000
@@ -8861,6 +8878,11 @@ arch grate_closed_1
 x 27
 y 23
 speed 0.500000
+connected 15
+end
+arch detector
+x 27
+y 24
 connected 15
 end
 arch dungeon_floor
@@ -9208,6 +9230,8 @@ end
 arch sign
 msg
 One dark elf at the end of the room holds the key to the treasure room.  Kill him, get the key and take your rewards.
+
+The gate may close behind you as you enter. Stand in front of the gate to reopen it from within.
 endmsg
 x 28
 y 22
@@ -9449,8 +9473,8 @@ connected 22
 end
 arch teleporter
 slaying tower1
-hp 16
-sp 1
+hp 24
+sp 9
 x 29
 y 9
 speed 0.000000
@@ -9494,8 +9518,8 @@ connected 22
 end
 arch teleporter
 slaying tower1
-hp 16
-sp 1
+hp 24
+sp 9
 x 29
 y 12
 speed 0.000000
@@ -10212,8 +10236,8 @@ connected 22
 end
 arch teleporter
 slaying tower1
-hp 16
-sp 1
+hp 24
+sp 9
 x 31
 y 12
 speed 0.000000
