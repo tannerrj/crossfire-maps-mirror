@@ -9,7 +9,7 @@ enter_x 2
 enter_y 7
 msg
 Created:  2003-06-10 Avion
-Modified: 2012-05-07 Nicolas Weeger
+Modified: 2021-01-21 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -801,19 +801,11 @@ arch dirtfloor
 x 5
 y 20
 end
-arch giantrat
-Wis 15
-x 5
-y 20
-see_invisible 1
-can_see_in_dark 1
-no_mood_change 1
-arch bones2
-name giant rat's skull
-material 0
-end
-end
 arch dirtfloor
+x 5
+y 21
+end
+arch bear
 x 5
 y 21
 end
@@ -1415,17 +1407,9 @@ arch dirtfloor
 x 10
 y 15
 end
-arch giantrat
-Wis 15
+arch bear
 x 10
 y 15
-see_invisible 1
-can_see_in_dark 1
-no_mood_change 1
-arch bones2
-name giant rat's skull
-material 0
-end
 end
 arch dirtfloor
 x 10
@@ -2219,6 +2203,10 @@ x 16
 y 13
 end
 arch dirtfloor
+x 16
+y 14
+end
+arch bear
 x 16
 y 14
 end
@@ -3966,17 +3954,9 @@ arch dirtfloor
 x 29
 y 10
 end
-arch giantrat
-Wis 15
+arch bear
 x 29
 y 10
-see_invisible 1
-can_see_in_dark 1
-no_mood_change 1
-arch bones2
-name giant rat's skull
-material 0
-end
 end
 arch dirtfloor
 x 29
@@ -4462,17 +4442,9 @@ arch dirtfloor
 x 33
 y 5
 end
-arch giantrat
-Wis 15
+arch bear
 x 33
 y 5
-see_invisible 1
-can_see_in_dark 1
-no_mood_change 1
-arch bones2
-name giant rat's skull
-material 0
-end
 end
 arch dirtfloor
 x 33
