@@ -2,7 +2,7 @@
   "rules": [
   {
   "match" : ["killed"],
-  "pre" : [["npctoken", "status", "killed"], ["item", "giant rat's skull", "4"], ["quest", "navar/rescue-daughters", "=40"]],
+  "pre" : [["npctoken", "status", "killed"], ["item", "bear's skull", "5"], ["quest", "navar/rescue-daughters", "=40"]],
   "post" : [["quest", "navar/rescue-daughters", "50"]],
   "msg" : ["Thank you for saving me!"]
   }, {
@@ -14,7 +14,7 @@
   "match" : ["saved"],
   "pre" : [["npctoken", "status", "saved"], ["quest", "navar/rescue-daughters", "=40"]],
   "post" : [["setnpctoken", "status", "killed"]],
-  "msg" : ["I'm afraid of those evil rats!"],
+  "msg" : ["I'm afraid of those evil bears!"],
   "replies" : [["killed", "I killed them, it's safe now.", "0"]]
   }, {
   "match" : ["*"],
@@ -22,6 +22,11 @@
   "post" : [["setnpctoken", "status", "saved"]],
   "msg" : ["Help!"],
   "replies" : [["saved", "You're saved, now.", "0"]]
+  }, {
+  "match" : ["*"],
+  "pre" : [["quest", "navar/rescue-daughters", "=50"]],
+  "post" : [],
+  "msg" : ["Thanks for saving me from those bears!"]
   }, {
   "match" : ["*"],
   "pre" : [],
