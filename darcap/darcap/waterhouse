@@ -8,7 +8,7 @@ enter_x 3
 enter_y 8
 msg
 Created:  2008-09-13 Rick Tanner
-Modified: 2013-08-17 Kevin Zheng
+Modified: 2021-01-26 Nicolas Weeger
 endmsg
 outdoor 1
 end
@@ -186,6 +186,10 @@ arch swall_1_1_half
 x 3
 y 1
 end
+arch dungeon_magic
+x 3
+y 2
+end
 arch woodfloor
 x 3
 y 2
@@ -193,6 +197,10 @@ end
 arch swall_2_1_1
 x 3
 y 2
+end
+arch dungeon_magic
+x 3
+y 3
 end
 arch woodfloor
 x 3
@@ -202,6 +210,10 @@ arch swall_2_1_1
 x 3
 y 3
 end
+arch dungeon_magic
+x 3
+y 4
+end
 arch woodfloor
 x 3
 y 4
@@ -209,6 +221,10 @@ end
 arch swall_2_1_1
 x 3
 y 4
+end
+arch dungeon_magic
+x 3
+y 5
 end
 arch woodfloor
 x 3
@@ -319,6 +335,10 @@ arch woodfloor
 x 4
 y 4
 end
+arch dungeon_magic
+x 4
+y 5
+end
 arch woodfloor
 x 4
 y 5
@@ -379,6 +399,10 @@ end
 arch woodfloor
 x 5
 y 4
+end
+arch dungeon_magic
+x 5
+y 5
 end
 arch woodfloor
 x 5
@@ -444,6 +468,10 @@ arch woodfloor
 x 6
 y 4
 end
+arch dungeon_magic
+x 6
+y 5
+end
 arch woodfloor
 x 6
 y 5
@@ -451,6 +479,10 @@ end
 arch swall_2_2_3
 x 6
 y 5
+end
+arch dungeon_magic
+x 6
+y 6
 end
 arch woodfloor
 x 6
@@ -530,6 +562,10 @@ end
 arch woodfloor
 x 7
 y 5
+end
+arch dungeon_magic
+x 7
+y 6
 end
 arch woodfloor
 x 7

@@ -8,7 +8,7 @@ enter_x 2
 enter_y 8
 msg
 Created:  2008-09-13 Rick Tanner
-Modified: 2013-08-17 Kevin Zheng
+Modified: 2021-01-26 Nicolas Weeger
 endmsg
 end
 arch cobblestones2
@@ -188,6 +188,10 @@ arch swall_1_1_half
 x 3
 y 1
 end
+arch dungeon_magic
+x 3
+y 2
+end
 arch woodfloor2
 x 3
 y 2
@@ -195,6 +199,10 @@ end
 arch swall_2_1_1
 x 3
 y 2
+end
+arch dungeon_magic
+x 3
+y 3
 end
 arch woodfloor2
 x 3
@@ -259,6 +267,10 @@ arch woodfloor2
 x 4
 y 2
 end
+arch dungeon_magic
+x 4
+y 3
+end
 arch woodfloor2
 x 4
 y 3
@@ -282,6 +294,10 @@ arch woodfloor2
 x 4
 y 5
 end
+arch dungeon_magic
+x 4
+y 6
+end
 arch woodfloor2
 x 4
 y 6
@@ -289,6 +305,10 @@ end
 arch swall_2_2_2
 x 4
 y 6
+end
+arch dungeon_magic
+x 4
+y 7
 end
 arch woodfloor2
 x 4
@@ -334,6 +354,10 @@ arch woodfloor2
 x 5
 y 2
 end
+arch dungeon_magic
+x 5
+y 3
+end
 arch woodfloor2
 x 5
 y 3
@@ -349,6 +373,10 @@ end
 arch woodfloor2
 x 5
 y 5
+end
+arch dungeon_magic
+x 5
+y 6
 end
 arch woodfloor2
 x 5
@@ -401,6 +429,10 @@ arch woodfloor2
 x 6
 y 2
 end
+arch dungeon_magic
+x 6
+y 3
+end
 arch woodfloor2
 x 6
 y 3
@@ -409,6 +441,10 @@ arch swall_2_2_3
 x 6
 y 3
 end
+arch dungeon_magic
+x 6
+y 4
+end
 arch woodfloor2
 x 6
 y 4
@@ -417,6 +453,10 @@ arch swall_2_1_1
 x 6
 y 4
 end
+arch dungeon_magic
+x 6
+y 5
+end
 arch woodfloor2
 x 6
 y 5
@@ -424,6 +464,10 @@ end
 arch swall_2_1_1
 x 6
 y 5
+end
+arch dungeon_magic
+x 6
+y 6
 end
 arch woodfloor2
 x 6
