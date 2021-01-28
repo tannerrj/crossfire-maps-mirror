@@ -9,7 +9,7 @@ enter_x 4
 enter_y 5
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2012-01-01 Rick Tanner
+Modified: 2021-01-28 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -413,13 +413,9 @@ arch pstone_2
 x 2
 y 15
 end
-arch generate_dragon
-other_arch cold_dragon
+arch generate_cold_dragon
 x 2
 y 15
-speed 0.004000
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 2
@@ -674,12 +670,10 @@ arch pstone_2
 x 3
 y 22
 end
-arch generate_dragon
+arch generate_cold_dragon
 other_arch chinese_dragon
 x 3
 y 22
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 3
@@ -1049,13 +1043,9 @@ arch pstone_2
 x 5
 y 27
 end
-arch generate_dragon
-other_arch cold_dragon
+arch generate_cold_dragon
 x 5
 y 27
-speed 0.004000
-resist_fire 0
-resist_cold 100
 end
 arch pstone_1
 x 5
@@ -1370,13 +1360,9 @@ arch pstone_2
 x 7
 y 20
 end
-arch generate_dragon
-other_arch cold_dragon
+arch generate_cold_dragon
 x 7
 y 20
-speed 0.004000
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 7
@@ -1667,12 +1653,10 @@ arch pstone_2
 x 9
 y 13
 end
-arch generate_dragon
+arch generate_cold_dragon
 other_arch chinese_dragon
 x 9
 y 13
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 9
@@ -2143,13 +2127,9 @@ arch pstone_2
 x 12
 y 17
 end
-arch generate_dragon
-other_arch cold_dragon
+arch generate_cold_dragon
 x 12
 y 17
-speed 0.004000
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 12
@@ -2326,12 +2306,10 @@ arch pstone_2
 x 13
 y 23
 end
-arch generate_dragon
+arch generate_cold_dragon
 other_arch chinese_dragon
 x 13
 y 23
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 13
@@ -2341,13 +2319,9 @@ arch pstone_2
 x 13
 y 25
 end
-arch generate_dragon
-other_arch cold_dragon
+arch generate_cold_dragon
 x 13
 y 25
-speed 0.004000
-resist_fire 0
-resist_cold 100
 end
 arch pstone_2
 x 13

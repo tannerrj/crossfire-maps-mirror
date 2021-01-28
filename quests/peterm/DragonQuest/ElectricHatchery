@@ -9,7 +9,7 @@ enter_x 10
 enter_y 24
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2012-01-01 Rick Tanner
+Modified: 2021-01-28 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -468,13 +468,9 @@ arch pstone_2
 x 2
 y 21
 end
-arch generate_dragon
-other_arch elec_dragon
+arch generate_dragon_electric
 x 2
 y 21
-speed 0.004000
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 2
@@ -518,12 +514,10 @@ arch pstone_2
 x 2
 y 27
 end
-arch generate_dragon
+arch generate_dragon_electric
 other_arch big_elec
 x 2
 y 27
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 2
@@ -555,12 +549,10 @@ arch pstone_2
 x 3
 y 3
 end
-arch generate_dragon
+arch generate_dragon_electric
 other_arch big_elec
 x 3
 y 3
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 3
@@ -598,13 +590,9 @@ arch pstone_2
 x 3
 y 10
 end
-arch generate_dragon
-other_arch elec_dragon
+arch generate_dragon_electric
 x 3
 y 10
-speed 0.004000
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 3
@@ -1070,12 +1058,10 @@ arch pstone_2
 x 6
 y 6
 end
-arch generate_dragon
+arch generate_dragon_electric
 other_arch big_elec
 x 6
 y 6
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 6
@@ -1247,13 +1233,9 @@ arch pstone_2
 x 7
 y 8
 end
-arch generate_dragon
-other_arch elec_dragon
+arch generate_dragon_electric
 x 7
 y 8
-speed 0.004000
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 7
@@ -1632,13 +1614,9 @@ arch pstone_2
 x 9
 y 15
 end
-arch generate_dragon
-other_arch elec_dragon
+arch generate_dragon_electric
 x 9
 y 15
-speed 0.004000
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 9
@@ -1734,12 +1712,10 @@ arch pstone_2
 x 10
 y 3
 end
-arch generate_dragon
+arch generate_dragon_electric
 other_arch big_elec
 x 10
 y 3
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 10
@@ -2082,13 +2058,9 @@ arch pstone_2
 x 12
 y 9
 end
-arch generate_dragon
-other_arch elec_dragon
+arch generate_dragon_electric
 x 12
 y 9
-speed 0.004000
-resist_fire 0
-resist_electricity 100
 end
 arch pstone_2
 x 12
