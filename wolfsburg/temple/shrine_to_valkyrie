@@ -8,7 +8,7 @@ enter_x 11
 enter_y 13
 msg
 Created:  2017-10-29 Rick Tanner
-Modified: 2017-10-30 Rick Tanner
+Modified: 2021-01-28 Nicolas Weeger
 endmsg
 end
 arch brush
@@ -1954,6 +1954,10 @@ x 18
 y 3
 end
 arch tile_white_floor
+x 18
+y 4
+end
+arch guide_valkyrie
 x 18
 y 4
 end

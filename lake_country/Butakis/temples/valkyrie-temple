@@ -8,7 +8,7 @@ enter_x 11
 enter_y 13
 msg
 Created:  2016-05-06 Rick Tanner
-Modified: 2016-05-06 Rick Tanner
+Modified: 2021-01-28 Nicolas Weeger
 endmsg
 end
 arch cobblestones2
@@ -1210,6 +1210,10 @@ x 11
 y 8
 end
 arch graymarble
+x 11
+y 9
+end
+arch guide_valkyrie
 x 11
 y 9
 end
