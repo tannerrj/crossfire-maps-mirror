@@ -9,7 +9,7 @@ enter_x 4
 enter_y 5
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2021-01-28 Nicolas Weeger
+Modified: 2021-01-29 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -674,6 +674,7 @@ arch generate_cold_dragon
 other_arch chinese_dragon
 x 3
 y 22
+speed 0.0008
 end
 arch pstone_2
 x 3
@@ -1657,6 +1658,7 @@ arch generate_cold_dragon
 other_arch chinese_dragon
 x 9
 y 13
+speed 0.0008
 end
 arch pstone_2
 x 9
@@ -2310,6 +2312,7 @@ arch generate_cold_dragon
 other_arch chinese_dragon
 x 13
 y 23
+speed 0.0008
 end
 arch pstone_2
 x 13

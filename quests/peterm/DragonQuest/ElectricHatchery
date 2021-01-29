@@ -9,7 +9,7 @@ enter_x 10
 enter_y 24
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2021-01-28 Nicolas Weeger
+Modified: 2021-01-29 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -518,6 +518,7 @@ arch generate_dragon_electric
 other_arch big_elec
 x 2
 y 27
+speed 0.0008
 end
 arch pstone_2
 x 2
@@ -553,6 +554,7 @@ arch generate_dragon_electric
 other_arch big_elec
 x 3
 y 3
+speed 0.0008
 end
 arch pstone_2
 x 3
@@ -1062,6 +1064,7 @@ arch generate_dragon_electric
 other_arch big_elec
 x 6
 y 6
+speed 0.0008
 end
 arch pstone_2
 x 6
@@ -1716,6 +1719,7 @@ arch generate_dragon_electric
 other_arch big_elec
 x 10
 y 3
+speed 0.0008
 end
 arch pstone_2
 x 10
