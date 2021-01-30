@@ -9,121 +9,121 @@ enter_x 2
 enter_y 2
 msg
 Created:  1994-08-21 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2012-01-01 Rick Tanner
+Modified: 2021-01-30 Nicolas Weeger
 endmsg
 end
-arch cave_15
+arch red_cave_0
 end
 arch pstone_2
 y 1
 end
-arch cave24
+arch red_cave_24
 y 1
 end
 arch pstone_2
 y 2
 end
-arch cave3
+arch red_cave_3
 y 2
 end
 arch pstone_2
 y 3
 end
-arch cave23
+arch red_cave_23
 y 3
 end
-arch cave_15
+arch red_cave_0
 y 4
 end
-arch cave_15
+arch red_cave_0
 y 5
 end
-arch cave_15
+arch red_cave_0
 y 6
 end
-arch cave_15
+arch red_cave_0
 y 7
 end
-arch cave_15
+arch red_cave_0
 y 8
 end
-arch cave_15
+arch red_cave_0
 y 9
 end
 arch pstone_2
 y 10
 end
-arch cave24
+arch red_cave_24
 y 10
 end
 arch pstone_2
 y 11
 end
-arch cave23
+arch red_cave_23
 y 11
 end
 arch pstone_2
 y 12
 end
-arch cave24
+arch red_cave_24
 y 12
 end
 arch pstone_2
 y 13
 end
-arch cave3
+arch red_cave_3
 y 13
 end
 arch pstone_2
 y 14
 end
-arch cave3
+arch red_cave_3
 y 14
 end
 arch pstone_2
 y 15
 end
-arch cave23
+arch red_cave_23
 y 15
 end
 arch pstone_2
 y 16
 end
-arch cave24
+arch red_cave_24
 y 16
 end
 arch pstone_2
 y 17
 end
-arch cave3
+arch red_cave_3
 y 17
 end
 arch pstone_2
 y 18
 end
-arch cave23
+arch red_cave_23
 y 18
 end
-arch cave_15
+arch red_cave_0
 y 19
 end
-arch cave_15
+arch red_cave_0
 y 20
 end
-arch cave_15
+arch red_cave_0
 y 21
 end
 arch pstone_2
 x 1
 end
-arch cave24
+arch red_cave_24
 x 1
 end
 arch pstone_2
 x 1
 y 1
 end
-arch cave13
+arch red_cave_13
 x 1
 y 1
 end
@@ -131,7 +131,7 @@ arch pstone_2
 x 1
 y 2
 end
-arch cave21
+arch red_cave_21
 x 1
 y 2
 end
@@ -139,7 +139,7 @@ arch pstone_2
 x 1
 y 3
 end
-arch cave12
+arch red_cave_12
 x 1
 y 3
 end
@@ -147,23 +147,23 @@ arch pstone_2
 x 1
 y 4
 end
-arch cave23
+arch red_cave_23
 x 1
 y 4
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 5
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 6
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 7
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 8
 end
@@ -171,7 +171,7 @@ arch pstone_2
 x 1
 y 9
 end
-arch cave24
+arch red_cave_24
 x 1
 y 9
 end
@@ -179,7 +179,7 @@ arch pstone_2
 x 1
 y 10
 end
-arch cave9
+arch red_cave_9
 x 1
 y 10
 end
@@ -187,7 +187,7 @@ arch pstone_2
 x 1
 y 11
 end
-arch cave16
+arch red_cave_16
 x 1
 y 11
 end
@@ -195,7 +195,7 @@ arch pstone_2
 x 1
 y 12
 end
-arch cave9
+arch red_cave_9
 x 1
 y 12
 end
@@ -211,7 +211,7 @@ arch pstone_2
 x 1
 y 15
 end
-arch cave7
+arch red_cave_7
 x 1
 y 15
 end
@@ -219,7 +219,7 @@ arch pstone_2
 x 1
 y 16
 end
-arch cave9
+arch red_cave_9
 x 1
 y 16
 end
@@ -231,33 +231,33 @@ arch pstone_2
 x 1
 y 18
 end
-arch cave2
+arch red_cave_2
 x 1
 y 18
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 1
 y 21
 end
 arch pstone_2
 x 2
 end
-arch cave4
+arch red_cave_4
 x 2
 end
 arch pstone_2
 x 2
 y 1
 end
-arch cave21
+arch red_cave_21
 x 2
 y 1
 end
@@ -287,7 +287,7 @@ arch pstone_2
 x 2
 y 4
 end
-arch cave7
+arch red_cave_7
 x 2
 y 4
 end
@@ -295,19 +295,19 @@ arch pstone_2
 x 2
 y 5
 end
-arch cave23
+arch red_cave_23
 x 2
 y 5
 end
-arch cave_15
+arch red_cave_0
 x 2
 y 6
 end
-arch cave_15
+arch red_cave_0
 x 2
 y 7
 end
-arch cave_15
+arch red_cave_0
 x 2
 y 8
 end
@@ -315,7 +315,7 @@ arch pstone_2
 x 2
 y 9
 end
-arch cave4
+arch red_cave_4
 x 2
 y 9
 end
@@ -355,7 +355,7 @@ arch pstone_2
 x 2
 y 18
 end
-arch cave7
+arch red_cave_7
 x 2
 y 18
 end
@@ -363,29 +363,29 @@ arch pstone_2
 x 2
 y 19
 end
-arch cave23
+arch red_cave_23
 x 2
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 2
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 2
 y 21
 end
 arch pstone_2
 x 3
 end
-arch cave25
+arch red_cave_25
 x 3
 end
 arch pstone_2
 x 3
 y 1
 end
-arch cave10
+arch red_cave_10
 x 3
 y 1
 end
@@ -419,7 +419,7 @@ arch pstone_2
 x 3
 y 5
 end
-arch cave12
+arch red_cave_12
 x 3
 y 5
 end
@@ -427,7 +427,7 @@ arch pstone_2
 x 3
 y 6
 end
-arch cave3
+arch red_cave_3
 x 3
 y 6
 end
@@ -435,11 +435,11 @@ arch pstone_2
 x 3
 y 7
 end
-arch cave23
+arch red_cave_23
 x 3
 y 7
 end
-arch cave_15
+arch red_cave_0
 x 3
 y 8
 end
@@ -447,7 +447,7 @@ arch pstone_2
 x 3
 y 9
 end
-arch cave25
+arch red_cave_25
 x 3
 y 9
 end
@@ -455,7 +455,7 @@ arch pstone_2
 x 3
 y 10
 end
-arch cave14
+arch red_cave_14
 x 3
 y 10
 end
@@ -495,7 +495,7 @@ arch pstone_2
 x 3
 y 19
 end
-arch cave7
+arch red_cave_7
 x 3
 y 19
 end
@@ -503,22 +503,22 @@ arch pstone_2
 x 3
 y 20
 end
-arch cave23
+arch red_cave_23
 x 3
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 3
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 4
 end
 arch pstone_2
 x 4
 y 1
 end
-arch cave25
+arch red_cave_25
 x 4
 y 1
 end
@@ -526,7 +526,7 @@ arch pstone_2
 x 4
 y 2
 end
-arch cave14
+arch red_cave_14
 x 4
 y 2
 end
@@ -550,7 +550,7 @@ arch pstone_2
 x 4
 y 7
 end
-arch cave16
+arch red_cave_16
 x 4
 y 7
 end
@@ -558,11 +558,11 @@ arch pstone_2
 x 4
 y 8
 end
-arch cave17
+arch red_cave_17
 x 4
 y 8
 end
-arch cave_15
+arch red_cave_0
 x 4
 y 9
 end
@@ -570,7 +570,7 @@ arch pstone_2
 x 4
 y 10
 end
-arch cave4
+arch red_cave_4
 x 4
 y 10
 end
@@ -618,18 +618,18 @@ arch pstone_2
 x 4
 y 20
 end
-arch cave2
+arch red_cave_2
 x 4
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 4
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 5
 end
-arch cave_15
+arch red_cave_0
 x 5
 y 1
 end
@@ -637,7 +637,7 @@ arch pstone_2
 x 5
 y 2
 end
-arch cave25
+arch red_cave_25
 x 5
 y 2
 end
@@ -645,7 +645,7 @@ arch pstone_2
 x 5
 y 3
 end
-arch cave1
+arch red_cave_1
 x 5
 y 3
 end
@@ -653,7 +653,7 @@ arch pstone_2
 x 5
 y 4
 end
-arch cave10
+arch red_cave_10
 x 5
 y 4
 end
@@ -673,7 +673,7 @@ arch pstone_2
 x 5
 y 8
 end
-arch cave16
+arch red_cave_16
 x 5
 y 8
 end
@@ -681,7 +681,7 @@ arch pstone_2
 x 5
 y 9
 end
-arch cave17
+arch red_cave_17
 x 5
 y 9
 end
@@ -689,7 +689,7 @@ arch pstone_2
 x 5
 y 10
 end
-arch cave25
+arch red_cave_25
 x 5
 y 10
 end
@@ -697,7 +697,7 @@ arch pstone_2
 x 5
 y 11
 end
-arch cave10
+arch red_cave_10
 x 5
 y 11
 end
@@ -737,7 +737,7 @@ arch pstone_2
 x 5
 y 20
 end
-arch cave12
+arch red_cave_12
 x 5
 y 20
 end
@@ -745,22 +745,22 @@ arch pstone_2
 x 5
 y 21
 end
-arch cave23
+arch red_cave_23
 x 5
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 6
 end
-arch cave_15
+arch red_cave_0
 x 6
 y 1
 end
-arch cave_15
+arch red_cave_0
 x 6
 y 2
 end
-arch cave_15
+arch red_cave_0
 x 6
 y 3
 end
@@ -768,7 +768,7 @@ arch pstone_2
 x 6
 y 4
 end
-arch cave25
+arch red_cave_25
 x 6
 y 4
 end
@@ -776,7 +776,7 @@ arch pstone_2
 x 6
 y 5
 end
-arch cave14
+arch red_cave_14
 x 6
 y 5
 end
@@ -796,7 +796,7 @@ arch pstone_2
 x 6
 y 9
 end
-arch cave16
+arch red_cave_16
 x 6
 y 9
 end
@@ -804,7 +804,7 @@ arch pstone_2
 x 6
 y 10
 end
-arch cave23
+arch red_cave_23
 x 6
 y 10
 end
@@ -812,7 +812,7 @@ arch pstone_2
 x 6
 y 11
 end
-arch cave4
+arch red_cave_4
 x 6
 y 11
 end
@@ -852,7 +852,7 @@ arch pstone_2
 x 6
 y 20
 end
-arch cave11
+arch red_cave_11
 x 6
 y 20
 end
@@ -860,26 +860,26 @@ arch pstone_2
 x 6
 y 21
 end
-arch cave22
+arch red_cave_22
 x 6
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 7
 end
-arch cave_15
+arch red_cave_0
 x 7
 y 1
 end
-arch cave_15
+arch red_cave_0
 x 7
 y 2
 end
-arch cave_15
+arch red_cave_0
 x 7
 y 3
 end
-arch cave_15
+arch red_cave_0
 x 7
 y 4
 end
@@ -887,7 +887,7 @@ arch pstone_2
 x 7
 y 5
 end
-arch cave19
+arch red_cave_19
 x 7
 y 5
 end
@@ -895,7 +895,7 @@ arch pstone_2
 x 7
 y 6
 end
-arch cave14
+arch red_cave_14
 x 7
 y 6
 end
@@ -911,7 +911,7 @@ arch pstone_2
 x 7
 y 9
 end
-arch cave11
+arch red_cave_11
 x 7
 y 9
 end
@@ -919,7 +919,7 @@ arch pstone_2
 x 7
 y 10
 end
-arch cave22
+arch red_cave_22
 x 7
 y 10
 end
@@ -927,7 +927,7 @@ arch pstone_2
 x 7
 y 11
 end
-arch cave4
+arch red_cave_4
 x 7
 y 11
 end
@@ -939,7 +939,7 @@ arch pstone_2
 x 7
 y 13
 end
-arch cave21
+arch red_cave_21
 x 7
 y 13
 end
@@ -967,7 +967,7 @@ arch pstone_2
 x 7
 y 19
 end
-arch cave11
+arch red_cave_11
 x 7
 y 19
 end
@@ -975,34 +975,34 @@ arch pstone_2
 x 7
 y 20
 end
-arch cave22
+arch red_cave_22
 x 7
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 7
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 8
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 1
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 2
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 3
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 4
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 5
 end
@@ -1010,7 +1010,7 @@ arch pstone_2
 x 8
 y 6
 end
-arch cave19
+arch red_cave_19
 x 8
 y 6
 end
@@ -1018,7 +1018,7 @@ arch pstone_2
 x 8
 y 7
 end
-arch cave14
+arch red_cave_14
 x 8
 y 7
 end
@@ -1030,7 +1030,7 @@ arch pstone_2
 x 8
 y 9
 end
-arch cave16
+arch red_cave_16
 x 8
 y 9
 end
@@ -1038,7 +1038,7 @@ arch pstone_2
 x 8
 y 10
 end
-arch cave23
+arch red_cave_23
 x 8
 y 10
 end
@@ -1046,7 +1046,7 @@ arch pstone_2
 x 8
 y 11
 end
-arch cave4
+arch red_cave_4
 x 8
 y 11
 end
@@ -1082,7 +1082,7 @@ arch pstone_2
 x 8
 y 18
 end
-arch cave6
+arch red_cave_6
 x 8
 y 18
 end
@@ -1090,34 +1090,34 @@ arch pstone_2
 x 8
 y 19
 end
-arch cave22
+arch red_cave_22
 x 8
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 8
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 9
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 1
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 2
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 3
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 4
 end
@@ -1125,7 +1125,7 @@ arch pstone_2
 x 9
 y 5
 end
-arch cave24
+arch red_cave_24
 x 9
 y 5
 end
@@ -1133,7 +1133,7 @@ arch pstone_2
 x 9
 y 6
 end
-arch cave3
+arch red_cave_3
 x 9
 y 6
 end
@@ -1141,7 +1141,7 @@ arch pstone_2
 x 9
 y 7
 end
-arch cave13
+arch red_cave_13
 x 9
 y 7
 end
@@ -1161,7 +1161,7 @@ arch pstone_2
 x 9
 y 10
 end
-arch cave12
+arch red_cave_12
 x 9
 y 10
 end
@@ -1169,7 +1169,7 @@ arch pstone_2
 x 9
 y 11
 end
-arch cave9
+arch red_cave_9
 x 9
 y 11
 end
@@ -1201,26 +1201,26 @@ arch pstone_2
 x 9
 y 18
 end
-arch cave2
+arch red_cave_2
 x 9
 y 18
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 9
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 10
 end
-arch cave_15
+arch red_cave_0
 x 10
 y 1
 end
@@ -1228,7 +1228,7 @@ arch pstone_2
 x 10
 y 2
 end
-arch cave24
+arch red_cave_24
 x 10
 y 2
 end
@@ -1236,7 +1236,7 @@ arch pstone_2
 x 10
 y 3
 end
-arch cave23
+arch red_cave_23
 x 10
 y 3
 end
@@ -1244,7 +1244,7 @@ arch pstone_2
 x 10
 y 4
 end
-arch cave24
+arch red_cave_24
 x 10
 y 4
 end
@@ -1252,7 +1252,7 @@ arch pstone_2
 x 10
 y 5
 end
-arch cave8
+arch red_cave_8
 x 10
 y 5
 end
@@ -1312,7 +1312,7 @@ arch pstone_2
 x 10
 y 18
 end
-arch cave7
+arch red_cave_7
 x 10
 y 18
 end
@@ -1320,22 +1320,22 @@ arch pstone_2
 x 10
 y 19
 end
-arch cave23
+arch red_cave_23
 x 10
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 10
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 10
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 11
 end
-arch cave_15
+arch red_cave_0
 x 11
 y 1
 end
@@ -1343,7 +1343,7 @@ arch pstone_2
 x 11
 y 2
 end
-arch cave4
+arch red_cave_4
 x 11
 y 2
 end
@@ -1351,7 +1351,7 @@ arch pstone_2
 x 11
 y 3
 end
-arch cave12
+arch red_cave_12
 x 11
 y 3
 end
@@ -1359,7 +1359,7 @@ arch pstone_2
 x 11
 y 4
 end
-arch cave9
+arch red_cave_9
 x 11
 y 4
 end
@@ -1423,7 +1423,7 @@ arch pstone_2
 x 11
 y 19
 end
-arch cave12
+arch red_cave_12
 x 11
 y 19
 end
@@ -1431,22 +1431,22 @@ arch pstone_2
 x 11
 y 20
 end
-arch cave23
+arch red_cave_23
 x 11
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 11
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 12
 end
 arch pstone_2
 x 12
 y 1
 end
-arch cave24
+arch red_cave_24
 x 12
 y 1
 end
@@ -1454,7 +1454,7 @@ arch pstone_2
 x 12
 y 2
 end
-arch cave9
+arch red_cave_9
 x 12
 y 2
 end
@@ -1482,7 +1482,7 @@ arch pstone_2
 x 12
 y 8
 end
-arch cave15
+arch red_cave_15
 x 12
 y 8
 end
@@ -1490,7 +1490,7 @@ arch pstone_2
 x 12
 y 9
 end
-arch cave5
+arch red_cave_5
 x 12
 y 9
 end
@@ -1542,7 +1542,7 @@ arch pstone_2
 x 12
 y 20
 end
-arch cave16
+arch red_cave_16
 x 12
 y 20
 end
@@ -1550,21 +1550,21 @@ arch pstone_2
 x 12
 y 21
 end
-arch cave17
+arch red_cave_17
 x 12
 y 21
 end
 arch pstone_2
 x 13
 end
-arch cave24
+arch red_cave_24
 x 13
 end
 arch pstone_2
 x 13
 y 1
 end
-arch cave8
+arch red_cave_8
 x 13
 y 1
 end
@@ -1576,7 +1576,7 @@ arch pstone_2
 x 13
 y 3
 end
-arch cave21
+arch red_cave_21
 x 13
 y 3
 end
@@ -1600,7 +1600,7 @@ arch pstone_2
 x 13
 y 8
 end
-arch cave12
+arch red_cave_12
 x 13
 y 8
 end
@@ -1608,7 +1608,7 @@ arch pstone_2
 x 13
 y 9
 end
-arch cave8
+arch red_cave_8
 x 13
 y 9
 end
@@ -1644,7 +1644,7 @@ arch pstone_2
 x 13
 y 17
 end
-arch cave21
+arch red_cave_21
 x 13
 y 17
 end
@@ -1660,7 +1660,7 @@ arch pstone_2
 x 13
 y 20
 end
-arch cave6
+arch red_cave_6
 x 13
 y 20
 end
@@ -1668,14 +1668,14 @@ arch pstone_2
 x 13
 y 21
 end
-arch cave20
+arch red_cave_20
 x 13
 y 21
 end
 arch pstone_2
 x 14
 end
-arch cave4
+arch red_cave_4
 x 14
 end
 arch pstone_2
@@ -1758,25 +1758,25 @@ arch pstone_2
 x 14
 y 20
 end
-arch cave2
+arch red_cave_2
 x 14
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 14
 y 21
 end
 arch pstone_2
 x 15
 end
-arch cave25
+arch red_cave_25
 x 15
 end
 arch pstone_2
 x 15
 y 1
 end
-arch cave5
+arch red_cave_5
 x 15
 y 1
 end
@@ -1864,7 +1864,7 @@ arch pstone_2
 x 15
 y 20
 end
-arch cave7
+arch red_cave_7
 x 15
 y 20
 end
@@ -1872,21 +1872,21 @@ arch pstone_2
 x 15
 y 21
 end
-arch cave23
+arch red_cave_23
 x 15
 y 21
 end
 arch pstone_2
 x 16
 end
-arch cave24
+arch red_cave_24
 x 16
 end
 arch pstone_2
 x 16
 y 1
 end
-arch cave8
+arch red_cave_8
 x 16
 y 1
 end
@@ -1938,7 +1938,7 @@ arch pstone_2
 x 16
 y 13
 end
-arch cave21
+arch red_cave_21
 x 16
 y 13
 end
@@ -1954,7 +1954,7 @@ arch pstone_2
 x 16
 y 16
 end
-arch cave6
+arch red_cave_6
 x 16
 y 16
 end
@@ -1962,7 +1962,7 @@ arch pstone_2
 x 16
 y 17
 end
-arch cave1
+arch red_cave_1
 x 16
 y 17
 end
@@ -1970,7 +1970,7 @@ arch pstone_2
 x 16
 y 18
 end
-arch cave1
+arch red_cave_1
 x 16
 y 18
 end
@@ -1978,7 +1978,7 @@ arch pstone_2
 x 16
 y 19
 end
-arch cave10
+arch red_cave_10
 x 16
 y 19
 end
@@ -1986,7 +1986,7 @@ arch pstone_2
 x 16
 y 20
 end
-arch cave11
+arch red_cave_11
 x 16
 y 20
 end
@@ -1994,14 +1994,14 @@ arch pstone_2
 x 16
 y 21
 end
-arch cave22
+arch red_cave_22
 x 16
 y 21
 end
 arch pstone_2
 x 17
 end
-arch cave4
+arch red_cave_4
 x 17
 end
 arch pstone_2
@@ -2032,7 +2032,7 @@ arch pstone_2
 x 17
 y 7
 end
-arch cave21
+arch red_cave_21
 x 17
 y 7
 end
@@ -2072,7 +2072,7 @@ arch pstone_2
 x 17
 y 16
 end
-arch cave7
+arch red_cave_7
 x 17
 y 16
 end
@@ -2080,7 +2080,7 @@ arch pstone_2
 x 17
 y 17
 end
-arch cave3
+arch red_cave_3
 x 17
 y 17
 end
@@ -2088,7 +2088,7 @@ arch pstone_2
 x 17
 y 18
 end
-arch cave23
+arch red_cave_23
 x 17
 y 18
 end
@@ -2096,7 +2096,7 @@ arch pstone_2
 x 17
 y 19
 end
-arch cave25
+arch red_cave_25
 x 17
 y 19
 end
@@ -2104,18 +2104,18 @@ arch pstone_2
 x 17
 y 20
 end
-arch cave22
+arch red_cave_22
 x 17
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 17
 y 21
 end
 arch pstone_2
 x 18
 end
-arch cave4
+arch red_cave_4
 x 18
 end
 arch pstone_2
@@ -2204,7 +2204,7 @@ arch pstone_2
 x 18
 y 18
 end
-arch cave12
+arch red_cave_12
 x 18
 y 18
 end
@@ -2212,29 +2212,29 @@ arch pstone_2
 x 18
 y 19
 end
-arch cave23
+arch red_cave_23
 x 18
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 18
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 18
 y 21
 end
 arch pstone_2
 x 19
 end
-arch cave25
+arch red_cave_25
 x 19
 end
 arch pstone_2
 x 19
 y 1
 end
-arch cave5
+arch red_cave_5
 x 19
 y 1
 end
@@ -2286,7 +2286,7 @@ arch pstone_2
 x 19
 y 13
 end
-arch cave6
+arch red_cave_6
 x 19
 y 13
 end
@@ -2294,7 +2294,7 @@ arch pstone_2
 x 19
 y 14
 end
-arch cave5
+arch red_cave_5
 x 19
 y 14
 end
@@ -2332,7 +2332,7 @@ arch pstone_2
 x 19
 y 19
 end
-arch cave12
+arch red_cave_12
 x 19
 y 19
 end
@@ -2340,22 +2340,22 @@ arch pstone_2
 x 19
 y 20
 end
-arch cave23
+arch red_cave_23
 x 19
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 19
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 20
 end
 arch pstone_2
 x 20
 y 1
 end
-arch cave25
+arch red_cave_25
 x 20
 y 1
 end
@@ -2363,7 +2363,7 @@ arch pstone_2
 x 20
 y 2
 end
-arch cave1
+arch red_cave_1
 x 20
 y 2
 end
@@ -2371,7 +2371,7 @@ arch pstone_2
 x 20
 y 3
 end
-arch cave14
+arch red_cave_14
 x 20
 y 3
 end
@@ -2379,7 +2379,7 @@ arch pstone_2
 x 20
 y 4
 end
-arch cave6
+arch red_cave_6
 x 20
 y 4
 end
@@ -2387,7 +2387,7 @@ arch pstone_2
 x 20
 y 5
 end
-arch cave5
+arch red_cave_5
 x 20
 y 5
 end
@@ -2399,7 +2399,7 @@ arch pstone_2
 x 20
 y 7
 end
-arch cave11
+arch red_cave_11
 x 20
 y 7
 end
@@ -2407,7 +2407,7 @@ arch pstone_2
 x 20
 y 8
 end
-arch cave5
+arch red_cave_5
 x 20
 y 8
 end
@@ -2419,7 +2419,7 @@ arch pstone_2
 x 20
 y 10
 end
-arch cave15
+arch red_cave_15
 x 20
 y 10
 end
@@ -2427,7 +2427,7 @@ arch pstone_2
 x 20
 y 11
 end
-arch cave14
+arch red_cave_14
 x 20
 y 11
 end
@@ -2435,7 +2435,7 @@ arch pstone_2
 x 20
 y 12
 end
-arch cave11
+arch red_cave_11
 x 20
 y 12
 end
@@ -2443,7 +2443,7 @@ arch pstone_2
 x 20
 y 13
 end
-arch cave22
+arch red_cave_22
 x 20
 y 13
 end
@@ -2451,7 +2451,7 @@ arch pstone_2
 x 20
 y 14
 end
-arch cave25
+arch red_cave_25
 x 20
 y 14
 end
@@ -2459,7 +2459,7 @@ arch pstone_2
 x 20
 y 15
 end
-arch cave1
+arch red_cave_1
 x 20
 y 15
 end
@@ -2467,7 +2467,7 @@ arch pstone_2
 x 20
 y 16
 end
-arch cave1
+arch red_cave_1
 x 20
 y 16
 end
@@ -2475,7 +2475,7 @@ arch pstone_2
 x 20
 y 17
 end
-arch cave1
+arch red_cave_1
 x 20
 y 17
 end
@@ -2483,7 +2483,7 @@ arch pstone_2
 x 20
 y 18
 end
-arch cave5
+arch red_cave_5
 x 20
 y 18
 end
@@ -2491,7 +2491,7 @@ arch pstone_2
 x 20
 y 19
 end
-arch cave11
+arch red_cave_11
 x 20
 y 19
 end
@@ -2499,22 +2499,22 @@ arch pstone_2
 x 20
 y 20
 end
-arch cave22
+arch red_cave_22
 x 20
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 20
 y 21
 end
-arch cave_15
+arch red_cave_0
 x 21
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 1
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 2
 end
@@ -2522,7 +2522,7 @@ arch pstone_2
 x 21
 y 3
 end
-arch cave25
+arch red_cave_25
 x 21
 y 3
 end
@@ -2530,7 +2530,7 @@ arch pstone_2
 x 21
 y 4
 end
-arch cave22
+arch red_cave_22
 x 21
 y 4
 end
@@ -2538,7 +2538,7 @@ arch pstone_2
 x 21
 y 5
 end
-arch cave25
+arch red_cave_25
 x 21
 y 5
 end
@@ -2546,7 +2546,7 @@ arch pstone_2
 x 21
 y 6
 end
-arch cave1
+arch red_cave_1
 x 21
 y 6
 end
@@ -2554,7 +2554,7 @@ arch pstone_2
 x 21
 y 7
 end
-arch cave22
+arch red_cave_22
 x 21
 y 7
 end
@@ -2562,7 +2562,7 @@ arch pstone_2
 x 21
 y 8
 end
-arch cave25
+arch red_cave_25
 x 21
 y 8
 end
@@ -2570,7 +2570,7 @@ arch pstone_2
 x 21
 y 9
 end
-arch cave1
+arch red_cave_1
 x 21
 y 9
 end
@@ -2578,7 +2578,7 @@ arch pstone_2
 x 21
 y 10
 end
-arch cave22
+arch red_cave_22
 x 21
 y 10
 end
@@ -2586,7 +2586,7 @@ arch pstone_2
 x 21
 y 11
 end
-arch cave25
+arch red_cave_25
 x 21
 y 11
 end
@@ -2594,27 +2594,27 @@ arch pstone_2
 x 21
 y 12
 end
-arch cave22
+arch red_cave_22
 x 21
 y 12
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 13
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 14
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 15
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 16
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 17
 end
@@ -2622,7 +2622,7 @@ arch pstone_2
 x 21
 y 18
 end
-arch cave25
+arch red_cave_25
 x 21
 y 18
 end
@@ -2630,15 +2630,15 @@ arch pstone_2
 x 21
 y 19
 end
-arch cave22
+arch red_cave_22
 x 21
 y 19
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 20
 end
-arch cave_15
+arch red_cave_0
 x 21
 y 21
 end

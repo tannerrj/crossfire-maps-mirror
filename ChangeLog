@@ -1,3 +1,15 @@
+2021-01-30 Nicolas Weeger
+        * quests/peterm/DragonQuest/ElectricAnte,
+        * quests/peterm/DragonQuest/ElectricHatchery,
+        * quests/peterm/DragonQuest/ElectricLord: Use 'dark_blue_cave' archetypes instead of 'cave' ones. Requires arch r21867.
+        * quests/peterm/DragonQuest/FireAnte,
+        * quests/peterm/DragonQuest/FireHatchery,
+        * quests/peterm/DragonQuest/FireLord: Use 'red_cave' archetypes instead of 'cave' ones. Requires arch r21867.
+        * quests/peterm/DragonQuest/IceAnte,
+        * quests/peterm/DragonQuest/IceHatchery,
+        * quests/peterm/DragonQuest/IceLord: Use 'light_blue_cave' archetypes instead of 'cave' ones. Requires arch r21867.
+
+
 2021-01-29 Nicolas Weeger
         * marksel/mines: Add some random ores in the map.
         * navar_city/apartments/apartment: Move diamond altars so stairs appear at the desired place.
