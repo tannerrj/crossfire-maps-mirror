@@ -9,7 +9,7 @@ enter_x 10
 enter_y 12
 msg
 Created:  2004-02-21 Avion
-Modified: 2012-05-05 Rick Tanner
+Modified: 2021-02-01 Nicolas Weeger
 endmsg
 outdoor 1
 end
@@ -339,6 +339,11 @@ end
 arch woodfloor
 x 3
 y 10
+end
+arch guide_jeweler_to_nuggets
+x 3
+y 10
+no_pick 1
 end
 arch woodfloor
 x 3
@@ -1193,6 +1198,11 @@ end
 arch woodfloor
 x 11
 y 10
+end
+arch guide_jeweler_from_nuggets
+x 11
+y 10
+no_pick 1
 end
 arch woodfloor
 x 11
