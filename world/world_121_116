@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2020-12-30 Rick Tanner
+Modified: 2021-02-03 Nicolas Weeger
 endmsg
 outdoor 1
 tile_path_1 world_121_115
@@ -14407,7 +14407,11 @@ arch grass
 x 47
 y 39
 end
-arch t_house2
+arch store_alchemy
+name Armino fine alchemy supplies
+slaying ../navar_city/shops/armino_alchemy
+hp 3
+sp 22
 x 47
 y 39
 end
