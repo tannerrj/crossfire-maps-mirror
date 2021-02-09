@@ -1,6 +1,7 @@
 2021-02-09 Nicolas Weeger
         * quests/peterm/FireTemple/FifthFloor: Ingredients are on another level.
         * quests/peterm/FireTemple/FourthFloor: Give knowledge for formulae.
+        * python/commands/dip.py: When dipping a scroll, remove knowledge marker and reset name.
 
 2021-02-03 Nicolas Weeger
         * navar_city/shops/armino_alchemy,

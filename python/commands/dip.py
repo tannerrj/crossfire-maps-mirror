@@ -44,6 +44,9 @@ def dip(pl):
             something("The writing fades away.")
         else:
             something("It gets wet.")
+        ob.WriteKey("knowledge_marker", None, 0)
+        ob.Name = ob.Archetype.Clone.Name
+        ob.NamePl = ob.Archetype.Clone.NamePl
     else:
         nothing()
 
