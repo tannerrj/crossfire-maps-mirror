@@ -4,9 +4,11 @@ difficulty 40
 region darcap
 width 40
 height 30
+enter_x 28
+enter_y 28
 msg
 Created:  2010-10-17 Nicolas Weeger
-Modified: 2012-03-21 Rick Tanner
+Modified: 2021-02-12 Nicolas Weeger
 endmsg
 end
 arch tile_shop
@@ -593,6 +595,10 @@ arch tile_shop
 x 3
 y 7
 end
+arch g_worm
+x 3
+y 7
+end
 arch tile_shop
 x 3
 y 8
@@ -781,10 +787,6 @@ x 4
 y 8
 end
 arch tile_shop
-x 4
-y 9
-end
-arch gryphon
 x 4
 y 9
 end
@@ -1087,15 +1089,15 @@ arch tile_shop
 x 6
 y 7
 end
-arch archon
-x 6
-y 7
-end
 arch tile_shop
 x 6
 y 8
 end
 arch tile_shop
+x 6
+y 9
+end
+arch g_worm
 x 6
 y 9
 end
@@ -2115,6 +2117,10 @@ arch tile_shop
 x 12
 y 2
 end
+arch living_chaos
+x 12
+y 2
+end
 arch tile_shop
 x 12
 y 3
@@ -2266,19 +2272,15 @@ arch tile_shop
 x 13
 y 3
 end
-arch s_mastif
-x 13
-y 3
-end
 arch tile_shop
 x 13
 y 4
 end
-arch s_mastif
-x 13
-y 4
-end
 arch tile_shop
+x 13
+y 5
+end
+arch living_chaos
 x 13
 y 5
 end
@@ -2563,10 +2565,6 @@ arch tile_shop
 x 15
 y 1
 end
-arch s_mastif
-x 15
-y 1
-end
 arch tile_shop
 x 15
 y 2
@@ -2730,6 +2728,10 @@ x 16
 y 2
 end
 arch tile_shop
+x 16
+y 3
+end
+arch living_chaos
 x 16
 y 3
 end
@@ -2902,19 +2904,11 @@ arch tile_shop
 x 17
 y 4
 end
-arch s_mastif
-x 17
-y 4
-end
 arch tile_shop
 x 17
 y 5
 end
 arch tile_shop
-x 17
-y 6
-end
-arch s_mastif
 x 17
 y 6
 end
@@ -3678,6 +3672,10 @@ arch tile_shop
 x 21
 y 5
 end
+arch leech
+x 21
+y 5
+end
 arch tile_shop
 x 21
 y 6
@@ -4010,6 +4008,10 @@ arch tile_shop
 x 23
 y 3
 end
+arch leech
+x 23
+y 3
+end
 arch tile_shop
 x 23
 y 4
@@ -4047,10 +4049,6 @@ x 23
 y 8
 end
 arch tile_shop
-x 23
-y 9
-end
-arch s_wyvern
 x 23
 y 9
 end
@@ -4217,6 +4215,10 @@ x 24
 y 8
 end
 arch tile_shop
+x 24
+y 9
+end
+arch leech
 x 24
 y 9
 end
@@ -4734,10 +4736,6 @@ x 27
 y 3
 end
 arch tile_shop
-x 27
-y 4
-end
-arch s_wyvern
 x 27
 y 4
 end

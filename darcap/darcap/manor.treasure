@@ -1,11 +1,13 @@
 arch map
 name Darcap's Manor - treasure room
 region darcap
-width 20
-height 22
+width 13
+height 21
+enter_x 4
+enter_y 1
 msg
 Created:  2010-10-10 Nicolas Weeger
-Modified: 2012-01-29 Rick Tanner
+Modified: 2021-02-12 Nicolas Weeger
 endmsg
 end
 arch tile_shop
@@ -129,14 +131,8 @@ end
 arch tile_shop
 y 20
 end
-arch flagstone_2_1_1
-y 20
-end
-arch tile_shop
-y 21
-end
 arch flagstone_2_2_1
-y 21
+y 20
 end
 arch tile_shop
 x 1
@@ -212,11 +208,24 @@ arch tile_shop
 x 1
 y 14
 end
+arch dwall_1_4
+x 1
+y 14
+end
 arch tile_shop
 x 1
 y 15
 end
+arch amethyst
+x 1
+y 15
+nrof 20
+end
 arch tile_shop
+x 1
+y 16
+end
+arch dwall_1_4
 x 1
 y 16
 end
@@ -224,7 +233,15 @@ arch tile_shop
 x 1
 y 17
 end
+arch power_crystal
+x 1
+y 17
+end
 arch tile_shop
+x 1
+y 18
+end
+arch dwall_1_4
 x 1
 y 18
 end
@@ -232,30 +249,13 @@ arch tile_shop
 x 1
 y 19
 end
-arch swall_1_4
-x 1
-y 19
-end
 arch tile_shop
 x 1
 y 20
-end
-arch igate_open_2
-x 1
-y 20
-connected 100
-end
-arch boulder
-x 1
-y 20
-end
-arch tile_shop
-x 1
-y 21
 end
 arch flagstone_2_1_2
 x 1
-y 21
+y 20
 end
 arch tile_shop
 x 2
@@ -331,845 +331,181 @@ arch tile_shop
 x 2
 y 14
 end
-arch tile_shop
+arch dwall_1_3
 x 2
-y 15
-end
-arch tile_shop
-x 2
-y 16
-end
-arch tile_shop
-x 2
-y 17
-end
-arch tile_shop
-x 2
-y 18
-end
-arch tile_shop
-x 2
-y 19
-end
-arch swall_2_1_2
-x 2
-y 19
-end
-arch button_trigger
-x 2
-y 20
-connected 101
-end
-arch tile_shop
-x 2
-y 20
-end
-arch igate_open_2
-x 2
-y 20
-connected 101
-end
-arch tile_shop
-x 2
-y 21
-end
-arch flagstone_2_1_2
-x 2
-y 21
-end
-arch tile_shop
-x 3
-end
-arch flagstone_2_1_2
-x 3
-end
-arch tile_shop
-x 3
-y 1
-end
-arch tile_shop
-x 3
-y 2
-end
-arch tile_shop
-x 3
-y 3
-end
-arch tile_shop
-x 3
-y 4
-end
-arch cwall_2_1_2
-x 3
-y 4
-end
-arch tile_shop
-x 3
-y 5
-end
-arch tile_shop
-x 3
-y 6
-end
-arch tile_shop
-x 3
-y 7
-end
-arch tile_shop
-x 3
-y 8
-end
-arch cwall_2_1_2
-x 3
-y 8
-end
-arch tile_shop
-x 3
-y 9
-end
-arch tile_shop
-x 3
-y 10
-end
-arch tile_shop
-x 3
-y 11
-end
-arch tile_shop
-x 3
-y 12
-end
-arch cwall_2_1_2
-x 3
-y 12
-end
-arch tile_shop
-x 3
-y 13
-end
-arch swall_1_1
-x 3
-y 13
-end
-arch tile_shop
-x 3
 y 14
-end
-arch swall_1_2
-x 3
-y 14
-end
-arch tile_shop
-x 3
-y 15
-end
-arch grate_closed_2
-x 3
-y 15
 end
 arch dungeon_magic
-x 3
+x 2
 y 15
 end
 arch tile_shop
-x 3
-y 16
+x 2
+y 15
 end
-arch swall_1_1
-x 3
-y 16
-end
-arch tile_shop
-x 3
-y 17
-end
-arch swall_2_1_1
-x 3
-y 17
-end
-arch tile_shop
-x 3
-y 18
-end
-arch swall_3_2
-x 3
-y 18
-end
-arch tile_shop
-x 3
-y 19
-end
-arch swall_3_1
-x 3
-y 19
-end
-arch button_trigger
-x 3
-y 20
-connected 102
-end
-arch tile_shop
-x 3
-y 20
-end
-arch igate_open_2
-x 3
-y 20
-connected 102
-end
-arch tile_shop
-x 3
-y 21
-end
-arch flagstone_2_1_2
-x 3
-y 21
-end
-arch tile_shop
-x 4
-end
-arch flagstone_2_1_2
-x 4
-end
-arch tile_shop
-x 4
-y 1
-end
-arch tile_shop
-x 4
-y 2
-end
-arch tile_shop
-x 4
-y 3
-end
-arch tile_shop
-x 4
-y 4
-end
-arch cwall_2_1_2
-x 4
-y 4
-end
-arch tile_shop
-x 4
-y 5
-end
-arch tile_shop
-x 4
-y 6
-end
-arch tile_shop
-x 4
-y 7
-end
-arch tile_shop
-x 4
-y 8
-end
-arch cwall_2_1_2
-x 4
-y 8
-end
-arch tile_shop
-x 4
-y 9
-end
-arch tile_shop
-x 4
-y 10
-end
-arch tile_shop
-x 4
-y 11
-end
-arch tile_shop
-x 4
-y 12
-end
-arch cwall_2_1_2
-x 4
-y 12
-end
-arch tile_shop
-x 4
-y 13
-end
-arch tile_shop
-x 4
-y 14
-end
-arch tile_shop
-x 4
+arch igate_closed_2
+x 2
 y 15
 end
 arch tile_shop
-x 4
+x 2
 y 16
 end
-arch grate_closed_1
-x 4
+arch dwall_1_3
+x 2
 y 16
 end
 arch dungeon_magic
-x 4
-y 16
-end
-arch tile_shop
-x 4
+x 2
 y 17
 end
 arch tile_shop
-x 4
+x 2
+y 17
+end
+arch igate_closed_2
+x 2
+y 17
+end
+arch tile_shop
+x 2
 y 18
 end
-arch swall_3_3
-x 4
+arch dwall_2_2_3
+x 2
 y 18
 end
 arch tile_shop
-x 4
+x 2
 y 19
 end
-arch swall_3_1
-x 4
+arch dwall_1_2
+x 2
 y 19
 end
-arch button_trigger
-x 4
-y 20
-connected 103
-end
 arch tile_shop
-x 4
+x 2
 y 20
-end
-arch igate_open_2
-x 4
-y 20
-connected 103
-end
-arch tile_shop
-x 4
-y 21
 end
 arch flagstone_2_1_2
-x 4
-y 21
+x 2
+y 20
 end
 arch tile_shop
-x 5
+x 3
 end
 arch flagstone_2_1_2
-x 5
+x 3
 end
 arch tile_shop
-x 5
+x 3
 y 1
 end
 arch tile_shop
-x 5
+x 3
 y 2
 end
 arch tile_shop
-x 5
+x 3
 y 3
 end
 arch tile_shop
-x 5
-y 4
-end
-arch cwall_2_1_2
-x 5
-y 4
-end
-arch tile_shop
-x 5
-y 5
-end
-arch tile_shop
-x 5
-y 6
-end
-arch tile_shop
-x 5
-y 7
-end
-arch tile_shop
-x 5
-y 8
-end
-arch cwall_2_1_2
-x 5
-y 8
-end
-arch tile_shop
-x 5
-y 9
-end
-arch tile_shop
-x 5
-y 10
-end
-arch tile_shop
-x 5
-y 11
-end
-arch tile_shop
-x 5
-y 12
-end
-arch cwall_2_1_2
-x 5
-y 12
-end
-arch tile_shop
-x 5
-y 13
-end
-arch tile_shop
-x 5
-y 14
-end
-arch tile_shop
-x 5
-y 15
-end
-arch tile_shop
-x 5
-y 16
-end
-arch swall_1_1
-x 5
-y 16
-end
-arch tile_shop
-x 5
-y 17
-end
-arch swall_2_1_1
-x 5
-y 17
-end
-arch tile_shop
-x 5
-y 18
-end
-arch swall_4
-x 5
-y 18
-end
-arch tile_shop
-x 5
-y 19
-end
-arch swall_3_1
-x 5
-y 19
-end
-arch button_trigger
-x 5
-y 20
-connected 104
-end
-arch tile_shop
-x 5
-y 20
-end
-arch igate_open_2
-x 5
-y 20
-connected 104
-end
-arch tile_shop
-x 5
-y 21
-end
-arch flagstone_2_1_2
-x 5
-y 21
-end
-arch tile_shop
-x 6
-end
-arch flagstone_2_1_2
-x 6
-end
-arch tile_shop
-x 6
-y 1
-end
-arch tile_shop
-x 6
-y 2
-end
-arch tile_shop
-x 6
-y 3
-end
-arch tile_shop
-x 6
-y 4
-end
-arch cwall_2_1_2
-x 6
-y 4
-end
-arch tile_shop
-x 6
-y 5
-end
-arch tile_shop
-x 6
-y 6
-end
-arch tile_shop
-x 6
-y 7
-end
-arch tile_shop
-x 6
-y 8
-end
-arch cwall_2_1_2
-x 6
-y 8
-end
-arch tile_shop
-x 6
-y 9
-end
-arch tile_shop
-x 6
-y 10
-end
-arch tile_shop
-x 6
-y 11
-end
-arch tile_shop
-x 6
-y 12
-end
-arch cwall_2_1_2
-x 6
-y 12
-end
-arch tile_shop
-x 6
-y 13
-end
-arch tile_shop
-x 6
-y 14
-end
-arch tile_shop
-x 6
-y 15
-end
-arch tile_shop
-x 6
-y 16
-end
-arch grate_closed_1
-x 6
-y 16
-end
-arch dungeon_magic
-x 6
-y 16
-end
-arch tile_shop
-x 6
-y 17
-end
-arch tile_shop
-x 6
-y 18
-end
-arch swall_3_3
-x 6
-y 18
-end
-arch tile_shop
-x 6
-y 19
-end
-arch swall_3_1
-x 6
-y 19
-end
-arch button_trigger
-x 6
-y 20
-connected 105
-end
-arch tile_shop
-x 6
-y 20
-end
-arch igate_open_2
-x 6
-y 20
-connected 105
-end
-arch tile_shop
-x 6
-y 21
-end
-arch flagstone_2_1_2
-x 6
-y 21
-end
-arch tile_shop
-x 7
-end
-arch flagstone_2_1_2
-x 7
-end
-arch tile_shop
-x 7
-y 1
-end
-arch tile_shop
-x 7
-y 2
-end
-arch tile_shop
-x 7
-y 3
-end
-arch tile_shop
-x 7
-y 4
-end
-arch cwall_2_1_2
-x 7
-y 4
-end
-arch tile_shop
-x 7
-y 5
-end
-arch tile_shop
-x 7
-y 6
-end
-arch tile_shop
-x 7
-y 7
-end
-arch tile_shop
-x 7
-y 8
-end
-arch cwall_2_1_2
-x 7
-y 8
-end
-arch tile_shop
-x 7
-y 9
-end
-arch tile_shop
-x 7
-y 10
-end
-arch tile_shop
-x 7
-y 11
-end
-arch tile_shop
-x 7
-y 12
-end
-arch cwall_2_1_2
-x 7
-y 12
-end
-arch tile_shop
-x 7
-y 13
-end
-arch tile_shop
-x 7
-y 14
-end
-arch button_lever
-name get your reward!
-x 7
-y 14
-connected 100
-end
-arch tile_shop
-x 7
-y 15
-end
-arch tile_shop
-x 7
-y 16
-end
-arch swall_1_1
-x 7
-y 16
-end
-arch tile_shop
-x 7
-y 17
-end
-arch swall_2_1_1
-x 7
-y 17
-end
-arch tile_shop
-x 7
-y 18
-end
-arch swall_4
-x 7
-y 18
-end
-arch tile_shop
-x 7
-y 19
-end
-arch swall_3_1
-x 7
-y 19
-end
-arch button_trigger
-x 7
-y 20
-connected 106
-end
-arch tile_shop
-x 7
-y 20
-end
-arch igate_open_2
-x 7
-y 20
-connected 106
-end
-arch tile_shop
-x 7
-y 21
-end
-arch flagstone_2_1_2
-x 7
-y 21
-end
-arch tile_shop
-x 8
-end
-arch flagstone_2_1_2
-x 8
-end
-arch tile_shop
-x 8
-y 1
-end
-arch stair_down_1
-name down
-slaying manor.ground
-hp 8
-sp 3
-x 8
-y 1
-end
-arch tile_shop
-x 8
-y 2
-end
-arch tile_shop
-x 8
-y 3
-end
-arch tile_shop
-x 8
+x 3
 y 4
 end
 arch cwall_mural_end_1_1
-x 8
+x 3
 y 4
 end
 arch tile_shop
-x 8
+x 3
 y 5
 end
 arch tile_shop
-x 8
+x 3
 y 6
 end
 arch tile_shop
-x 8
+x 3
 y 7
 end
 arch tile_shop
-x 8
+x 3
 y 8
 end
 arch cwall_mural_end_1_1
-x 8
+x 3
 y 8
 end
 arch tile_shop
-x 8
+x 3
 y 9
 end
 arch tile_shop
-x 8
+x 3
 y 10
 end
 arch tile_shop
-x 8
+x 3
 y 11
 end
 arch tile_shop
-x 8
+x 3
 y 12
 end
 arch cwall_mural_end_1_1
-x 8
+x 3
 y 12
 end
 arch tile_shop
-x 8
+x 3
 y 13
 end
 arch tile_shop
-x 8
+x 3
 y 14
 end
-arch tile_shop
-x 8
+arch dungeon_magic
+x 3
 y 15
 end
 arch tile_shop
-x 8
-y 16
+x 3
+y 15
 end
-arch grate_closed_1
-x 8
-y 16
-end
-arch dungeon_magic
-x 8
+arch tile_shop
+x 3
 y 16
 end
 arch tile_shop
-x 8
+x 3
 y 17
+end
+arch dungeon_magic
+x 3
+y 18
+end
+arch tile_shop
+x 3
+y 18
+end
+arch igate_closed_1
+x 3
+y 18
+end
+arch tile_shop
+x 3
+y 19
 end
 arch lead
-name strange potion
-name_pl strange potions
+name potion from Darcap's Manor
+name_pl strange potions from Darcap's Manor
 msg
-This potion is from Darcap's Manor.  You wonder what it is used for.
+This potion is from Darcap's Manor.  You wonder what it is used for. Maybe you can ask Politos about it.
 endmsg
 face potionwis.111
-x 8
-y 17
+x 3
+y 19
 material 0
 identified 1
 arch event_stop
@@ -1179,51 +515,143 @@ slaying /python/maps/darcap/manor.py
 end
 end
 arch tile_shop
-x 8
-y 18
-end
-arch swall_3_3
-x 8
-y 18
-end
-arch tile_shop
-x 8
-y 19
-end
-arch swall_3_1
-x 8
-y 19
-end
-arch button_trigger
-x 8
+x 3
 y 20
-connected 107
-end
-arch tile_shop
-x 8
-y 20
-end
-arch igate_open_2
-x 8
-y 20
-connected 107
-end
-arch tile_shop
-x 8
-y 21
 end
 arch flagstone_2_1_2
-x 8
-y 21
+x 3
+y 20
 end
 arch tile_shop
-x 9
+x 4
 end
 arch flagstone_2_1_2
-x 9
+x 4
 end
 arch tile_shop
-x 9
+x 4
+y 1
+end
+arch stair_down_1
+name down
+slaying manor.ground
+hp 8
+sp 3
+x 4
+y 1
+end
+arch tile_shop
+x 4
+y 2
+end
+arch tile_shop
+x 4
+y 3
+end
+arch tile_shop
+x 4
+y 4
+end
+arch cwall_mural_1_1
+x 4
+y 4
+end
+arch tile_shop
+x 4
+y 5
+end
+arch tile_shop
+x 4
+y 6
+end
+arch tile_shop
+x 4
+y 7
+end
+arch tile_shop
+x 4
+y 8
+end
+arch cwall_mural_1_1
+x 4
+y 8
+end
+arch tile_shop
+x 4
+y 9
+end
+arch tile_shop
+x 4
+y 10
+end
+arch tile_shop
+x 4
+y 11
+end
+arch tile_shop
+x 4
+y 12
+end
+arch cwall_mural_1_1
+x 4
+y 12
+end
+arch tile_shop
+x 4
+y 13
+end
+arch tile_shop
+x 4
+y 14
+end
+arch tile_shop
+x 4
+y 15
+end
+arch dungeon_magic
+x 4
+y 16
+end
+arch tile_shop
+x 4
+y 16
+end
+arch tile_shop
+x 4
+y 17
+end
+arch tile_shop
+x 4
+y 18
+end
+arch dwall_1_1
+x 4
+y 18
+end
+arch tile_shop
+x 4
+y 19
+end
+arch dwall_1_2
+x 4
+y 19
+end
+arch tile_shop
+x 4
+y 20
+end
+arch flagstone_2_1_2
+x 4
+y 20
+end
+arch tile_shop
+x 5
+end
+arch flagstone_2_1_2
+x 5
+end
+arch tile_shop
+x 5
 y 1
 end
 arch stair_down_1
@@ -1231,139 +659,127 @@ name down
 slaying manor.ground
 hp 9
 sp 3
-x 9
+x 5
 y 1
 end
 arch tile_shop
-x 9
+x 5
 y 2
 end
 arch tile_shop
-x 9
+x 5
 y 3
 end
 arch tile_shop
-x 9
+x 5
 y 4
 end
-arch cwall_mural_1_1
-x 9
+arch cwall_mural_1_2
+x 5
 y 4
 end
 arch tile_shop
-x 9
+x 5
 y 5
 end
 arch tile_shop
-x 9
+x 5
 y 6
 end
 arch tile_shop
-x 9
+x 5
 y 7
 end
 arch tile_shop
-x 9
+x 5
 y 8
 end
-arch cwall_mural_1_1
-x 9
+arch cwall_mural_1_2
+x 5
 y 8
 end
 arch tile_shop
-x 9
+x 5
 y 9
 end
 arch tile_shop
-x 9
+x 5
 y 10
 end
 arch tile_shop
-x 9
+x 5
 y 11
 end
 arch tile_shop
-x 9
+x 5
 y 12
 end
-arch cwall_mural_1_1
-x 9
+arch cwall_mural_1_2
+x 5
 y 12
 end
 arch tile_shop
-x 9
+x 5
 y 13
 end
 arch tile_shop
-x 9
+x 5
 y 14
 end
 arch tile_shop
-x 9
+x 5
 y 15
 end
 arch tile_shop
-x 9
-y 16
-end
-arch swall_1_1
-x 9
+x 5
 y 16
 end
 arch tile_shop
-x 9
+x 5
 y 17
 end
-arch swall_2_1_1
-x 9
-y 17
-end
-arch tile_shop
-x 9
-y 18
-end
-arch swall_4
-x 9
+arch dungeon_magic
+x 5
 y 18
 end
 arch tile_shop
-x 9
+x 5
+y 18
+end
+arch igate_closed_1
+x 5
+y 18
+end
+arch tile_shop
+x 5
 y 19
 end
-arch swall_2_2_4
-x 9
+arch scroll_new
+x 5
 y 19
+nrof 10
+level 1
+identified 1
+startequip 1
+arch spell_town_portal
 end
-arch button_trigger
-x 9
-y 20
-connected 108
-end
-arch tile_shop
-x 9
-y 20
-end
-arch igate_open_2
-x 9
-y 20
-connected 108
 end
 arch tile_shop
-x 9
-y 21
+x 5
+y 20
 end
 arch flagstone_2_1_2
-x 9
-y 21
+x 5
+y 20
 end
 arch tile_shop
-x 10
+x 6
 end
 arch flagstone_2_1_2
-x 10
+x 6
 end
 arch tile_shop
-x 10
+x 6
 y 1
 end
 arch stair_down_1
@@ -1371,150 +787,136 @@ name down
 slaying manor.ground
 hp 10
 sp 3
-x 10
+x 6
 y 1
 end
 arch tile_shop
-x 10
+x 6
 y 2
 end
 arch tile_shop
-x 10
+x 6
 y 3
 end
 arch tile_shop
-x 10
+x 6
 y 4
 end
-arch cwall_mural_1_2
-x 10
+arch cwall_mural_end_1_2
+x 6
 y 4
 end
 arch tile_shop
-x 10
+x 6
 y 5
 end
 arch tile_shop
-x 10
+x 6
 y 6
 end
 arch tile_shop
-x 10
+x 6
 y 7
 end
 arch tile_shop
-x 10
+x 6
 y 8
 end
-arch cwall_mural_1_2
-x 10
+arch cwall_mural_end_1_2
+x 6
 y 8
 end
 arch tile_shop
-x 10
+x 6
 y 9
 end
 arch tile_shop
-x 10
+x 6
 y 10
 end
 arch tile_shop
-x 10
+x 6
 y 11
 end
 arch tile_shop
-x 10
+x 6
 y 12
 end
-arch cwall_mural_1_2
-x 10
+arch cwall_mural_end_1_2
+x 6
 y 12
 end
 arch tile_shop
-x 10
+x 6
 y 13
 end
 arch tile_shop
-x 10
+x 6
 y 14
 end
 arch tile_shop
-x 10
+x 6
 y 15
 end
-arch tile_shop
-x 10
-y 16
+arch button_lever
+name get your reward!
+x 6
+y 15
+arch event_apply
+name reward
+title Python
+slaying /python/maps/darcap/manor.py
 end
-arch grate_closed_1
-x 10
-y 16
-connected 204
+arch event_timer
+name reward
+title Python
+slaying /python/maps/darcap/manor.py
+end
 end
 arch dungeon_magic
-x 10
+x 6
 y 16
 end
 arch tile_shop
-x 10
+x 6
+y 16
+end
+arch tile_shop
+x 6
 y 17
 end
-arch scroll_new
-x 10
-y 17
-nrof 10
-level 1
-arch spell_town_portal
-end
-end
 arch tile_shop
-x 10
+x 6
 y 18
 end
-arch swall_2_1_2
-x 10
+arch dwall_1_1
+x 6
 y 18
 end
-arch button_plate
-x 10
-y 19
-weight 1
-connected 204
-end
 arch tile_shop
-x 10
+x 6
 y 19
 end
-arch button_trigger
-x 10
-y 20
-connected 109
+arch dwall_1_2
+x 6
+y 19
 end
 arch tile_shop
-x 10
+x 6
 y 20
-end
-arch igate_open_2
-x 10
-y 20
-connected 109
-end
-arch tile_shop
-x 10
-y 21
 end
 arch flagstone_2_1_2
-x 10
-y 21
+x 6
+y 20
 end
 arch tile_shop
-x 11
+x 7
 end
 arch flagstone_2_1_2
-x 11
+x 7
 end
 arch tile_shop
-x 11
+x 7
 y 1
 end
 arch stair_down_1
@@ -1522,1140 +924,782 @@ name down
 slaying manor.ground
 hp 11
 sp 3
-x 11
+x 7
 y 1
 end
 arch tile_shop
-x 11
+x 7
 y 2
 end
 arch tile_shop
-x 11
+x 7
 y 3
 end
 arch tile_shop
-x 11
+x 7
 y 4
 end
-arch cwall_mural_end_1_2
-x 11
+arch cwall_1_3
+x 7
 y 4
 end
 arch tile_shop
-x 11
+x 7
 y 5
 end
 arch tile_shop
-x 11
+x 7
 y 6
 end
 arch tile_shop
-x 11
+x 7
 y 7
 end
 arch tile_shop
-x 11
+x 7
 y 8
 end
-arch cwall_mural_end_1_2
-x 11
+arch cwall_1_3
+x 7
 y 8
 end
 arch tile_shop
-x 11
+x 7
 y 9
 end
 arch tile_shop
-x 11
+x 7
 y 10
 end
 arch tile_shop
-x 11
+x 7
 y 11
 end
 arch tile_shop
-x 11
+x 7
 y 12
 end
-arch cwall_mural_end_1_2
-x 11
+arch cwall_1_3
+x 7
 y 12
 end
 arch tile_shop
-x 11
+x 7
 y 13
 end
 arch tile_shop
-x 11
+x 7
 y 14
 end
 arch tile_shop
-x 11
+x 7
 y 15
 end
 arch tile_shop
-x 11
-y 16
-end
-arch swall_1_1
-x 11
+x 7
 y 16
 end
 arch tile_shop
-x 11
+x 7
 y 17
-end
-arch swall_2_1_1
-x 11
-y 17
-end
-arch tile_shop
-x 11
-y 18
-end
-arch swall_4
-x 11
-y 18
-end
-arch tile_shop
-x 11
-y 19
-end
-arch swall_2_1_1
-x 11
-y 19
-end
-arch tile_shop
-x 11
-y 20
-end
-arch swall_1_2
-x 11
-y 20
-end
-arch tile_shop
-x 11
-y 21
-end
-arch flagstone_2_1_2
-x 11
-y 21
-end
-arch tile_shop
-x 12
-end
-arch flagstone_2_1_2
-x 12
-end
-arch tile_shop
-x 12
-y 1
-end
-arch tile_shop
-x 12
-y 2
-end
-arch tile_shop
-x 12
-y 3
-end
-arch tile_shop
-x 12
-y 4
-end
-arch cwall_2_1_2
-x 12
-y 4
-end
-arch tile_shop
-x 12
-y 5
-end
-arch tile_shop
-x 12
-y 6
-end
-arch tile_shop
-x 12
-y 7
-end
-arch tile_shop
-x 12
-y 8
-end
-arch cwall_2_1_2
-x 12
-y 8
-end
-arch tile_shop
-x 12
-y 9
-end
-arch tile_shop
-x 12
-y 10
-end
-arch tile_shop
-x 12
-y 11
-end
-arch tile_shop
-x 12
-y 12
-end
-arch cwall_2_1_2
-x 12
-y 12
-end
-arch tile_shop
-x 12
-y 13
-end
-arch tile_shop
-x 12
-y 14
-end
-arch tile_shop
-x 12
-y 15
-end
-arch tile_shop
-x 12
-y 16
-end
-arch grate_closed_1
-x 12
-y 16
 end
 arch dungeon_magic
-x 12
-y 16
-end
-arch tile_shop
-x 12
-y 17
-end
-arch tile_shop
-x 12
-y 18
-end
-arch swall_2_1_2
-x 12
+x 7
 y 18
 end
 arch tile_shop
-x 12
+x 7
+y 18
+end
+arch igate_closed_1
+x 7
+y 18
+end
+arch tile_shop
+x 7
+y 19
+end
+arch lunar_shield
+x 7
 y 19
 end
 arch tile_shop
-x 12
+x 7
+y 20
+end
+arch flagstone_2_1_2
+x 7
 y 20
 end
 arch tile_shop
-x 12
-y 21
+x 8
 end
 arch flagstone_2_1_2
-x 12
-y 21
+x 8
 end
 arch tile_shop
-x 13
-end
-arch flagstone_2_1_2
-x 13
-end
-arch tile_shop
-x 13
+x 8
 y 1
 end
 arch tile_shop
-x 13
+x 8
 y 2
 end
 arch tile_shop
-x 13
+x 8
 y 3
 end
 arch tile_shop
-x 13
-y 4
-end
-arch cwall_2_1_2
-x 13
-y 4
-end
-arch tile_shop
-x 13
-y 5
-end
-arch tile_shop
-x 13
-y 6
-end
-arch tile_shop
-x 13
-y 7
-end
-arch tile_shop
-x 13
-y 8
-end
-arch cwall_2_1_2
-x 13
-y 8
-end
-arch tile_shop
-x 13
-y 9
-end
-arch tile_shop
-x 13
-y 10
-end
-arch tile_shop
-x 13
-y 11
-end
-arch tile_shop
-x 13
-y 12
-end
-arch cwall_2_1_2
-x 13
-y 12
-end
-arch tile_shop
-x 13
-y 13
-end
-arch tile_shop
-x 13
-y 14
-end
-arch tile_shop
-x 13
-y 15
-end
-arch tile_shop
-x 13
-y 16
-end
-arch swall_1_1
-x 13
-y 16
-end
-arch tile_shop
-x 13
-y 17
-end
-arch swall_2_1_1
-x 13
-y 17
-end
-arch tile_shop
-x 13
-y 18
-end
-arch swall_2_2_4
-x 13
-y 18
-end
-arch tile_shop
-x 13
-y 19
-end
-arch tile_shop
-x 13
-y 20
-end
-arch tile_shop
-x 13
-y 21
-end
-arch flagstone_2_1_2
-x 13
-y 21
-end
-arch tile_shop
-x 14
-end
-arch flagstone_2_1_2
-x 14
-end
-arch tile_shop
-x 14
-y 1
-end
-arch tile_shop
-x 14
-y 2
-end
-arch tile_shop
-x 14
-y 3
-end
-arch tile_shop
-x 14
-y 4
-end
-arch cwall_1_3
-x 14
-y 4
-end
-arch tile_shop
-x 14
-y 5
-end
-arch tile_shop
-x 14
-y 6
-end
-arch tile_shop
-x 14
-y 7
-end
-arch tile_shop
-x 14
-y 8
-end
-arch cwall_1_3
-x 14
-y 8
-end
-arch tile_shop
-x 14
-y 9
-end
-arch tile_shop
-x 14
-y 10
-end
-arch tile_shop
-x 14
-y 11
-end
-arch tile_shop
-x 14
-y 12
-end
-arch cwall_1_3
-x 14
-y 12
-end
-arch tile_shop
-x 14
-y 13
-end
-arch tile_shop
-x 14
-y 14
-end
-arch tile_shop
-x 14
-y 15
-end
-arch tile_shop
-x 14
-y 16
-end
-arch grate_closed_1
-x 14
-y 16
-end
-arch dungeon_magic
-x 14
-y 16
-end
-arch tile_shop
-x 14
-y 17
-end
-arch tile_shop
-x 14
-y 18
-end
-arch tile_shop
-x 14
-y 19
-end
-arch tile_shop
-x 14
-y 20
-end
-arch tile_shop
-x 14
-y 21
-end
-arch flagstone_2_1_2
-x 14
-y 21
-end
-arch tile_shop
-x 15
-end
-arch flagstone_2_1_2
-x 15
-end
-arch tile_shop
-x 15
-y 1
-end
-arch tile_shop
-x 15
-y 2
-end
-arch tile_shop
-x 15
-y 3
-end
-arch tile_shop
-x 15
+x 8
 y 4
 end
 arch locked_blue_door1
 slaying darcap_manor_blue
-x 15
+x 8
 y 4
 end
 arch dungeon_magic
-x 15
+x 8
 y 4
 end
 arch tile_shop
-x 15
+x 8
 y 5
 end
 arch tile_shop
-x 15
+x 8
 y 6
 end
 arch tile_shop
-x 15
+x 8
 y 7
 end
 arch tile_shop
-x 15
+x 8
 y 8
 end
 arch locked_door1
 slaying darcap_manor_brown
-x 15
+x 8
 y 8
 end
 arch dungeon_magic
-x 15
+x 8
 y 8
 end
 arch tile_shop
-x 15
+x 8
 y 9
 end
 arch tile_shop
-x 15
+x 8
 y 10
 end
 arch tile_shop
-x 15
+x 8
 y 11
 end
 arch tile_shop
-x 15
+x 8
 y 12
 end
 arch locked_white_door1
 slaying darcap_manor_white
-x 15
+x 8
 y 12
 end
 arch dungeon_magic
-x 15
+x 8
 y 12
 end
 arch tile_shop
-x 15
+x 8
 y 13
 end
 arch tile_shop
-x 15
+x 8
 y 14
 end
 arch tile_shop
-x 15
+x 8
 y 15
 end
-arch tile_shop
-x 15
-y 16
-end
-arch swall_1_1
-x 15
+arch dungeon_magic
+x 8
 y 16
 end
 arch tile_shop
-x 15
-y 17
+x 8
+y 16
 end
-arch swall_2_1_1
-x 15
+arch tile_shop
+x 8
 y 17
 end
 arch tile_shop
-x 15
+x 8
 y 18
 end
-arch swall_1_2
-x 15
+arch dwall_1_1
+x 8
 y 18
 end
 arch tile_shop
-x 15
+x 8
+y 19
+end
+arch dwall_1_2
+x 8
 y 19
 end
 arch tile_shop
-x 15
+x 8
+y 20
+end
+arch flagstone_2_1_2
+x 8
 y 20
 end
 arch tile_shop
-x 15
-y 21
+x 9
 end
 arch flagstone_2_1_2
-x 15
-y 21
+x 9
 end
 arch tile_shop
-x 16
-end
-arch flagstone_2_1_2
-x 16
-end
-arch tile_shop
-x 16
+x 9
 y 1
 end
 arch tile_shop
-x 16
+x 9
 y 2
 end
 arch tile_shop
-x 16
+x 9
 y 3
 end
 arch tile_shop
-x 16
+x 9
 y 4
 end
 arch locked_blue_door1
 slaying darcap_manor_blue
-x 16
+x 9
 y 4
 end
 arch dungeon_magic
-x 16
+x 9
 y 4
 end
 arch tile_shop
-x 16
+x 9
 y 5
 end
 arch tile_shop
-x 16
+x 9
 y 6
 end
 arch tile_shop
-x 16
+x 9
 y 7
 end
 arch tile_shop
-x 16
+x 9
 y 8
 end
 arch locked_door1
 slaying darcap_manor_brown
-x 16
+x 9
 y 8
 end
 arch dungeon_magic
-x 16
+x 9
 y 8
 end
 arch tile_shop
-x 16
+x 9
 y 9
 end
 arch tile_shop
-x 16
+x 9
 y 10
 end
 arch tile_shop
-x 16
+x 9
 y 11
 end
 arch tile_shop
-x 16
+x 9
 y 12
 end
 arch locked_white_door1
 slaying darcap_manor_white
-x 16
+x 9
 y 12
 end
 arch dungeon_magic
-x 16
+x 9
 y 12
 end
 arch tile_shop
-x 16
+x 9
 y 13
 end
 arch tile_shop
-x 16
+x 9
 y 14
 end
 arch tile_shop
-x 16
+x 9
 y 15
 end
 arch tile_shop
-x 16
-y 16
-end
-arch grate_closed_1
-x 16
-y 16
-end
-arch dungeon_magic
-x 16
+x 9
 y 16
 end
 arch tile_shop
-x 16
+x 9
 y 17
 end
 arch tile_shop
-x 16
+x 9
 y 18
 end
 arch tile_shop
-x 16
+x 9
 y 19
 end
 arch tile_shop
-x 16
+x 9
+y 20
+end
+arch flagstone_2_1_2
+x 9
 y 20
 end
 arch tile_shop
-x 16
-y 21
+x 10
 end
 arch flagstone_2_1_2
-x 16
-y 21
+x 10
 end
 arch tile_shop
-x 17
-end
-arch flagstone_2_1_2
-x 17
-end
-arch tile_shop
-x 17
+x 10
 y 1
 end
 arch tile_shop
-x 17
+x 10
 y 2
 end
 arch tile_shop
-x 17
+x 10
 y 3
 end
 arch tile_shop
-x 17
+x 10
 y 4
 end
 arch cwall_1_4
-x 17
+x 10
 y 4
 end
 arch tile_shop
-x 17
+x 10
 y 5
 end
 arch tile_shop
-x 17
+x 10
 y 6
 end
 arch tile_shop
-x 17
+x 10
 y 7
 end
 arch tile_shop
-x 17
+x 10
 y 8
 end
 arch cwall_1_4
-x 17
+x 10
 y 8
 end
 arch tile_shop
-x 17
+x 10
 y 9
 end
 arch tile_shop
-x 17
+x 10
 y 10
 end
 arch tile_shop
-x 17
+x 10
 y 11
 end
 arch tile_shop
-x 17
+x 10
 y 12
 end
 arch cwall_1_4
-x 17
+x 10
 y 12
 end
 arch tile_shop
-x 17
+x 10
 y 13
 end
 arch tile_shop
-x 17
+x 10
 y 14
 end
-arch tile_shop
-x 17
+arch dwall_1_4
+x 10
+y 14
+end
+arch dungeon_magic
+x 10
 y 15
 end
 arch tile_shop
-x 17
-y 16
-end
-arch swall_1_1
-x 17
-y 16
-end
-arch tile_shop
-x 17
-y 17
-end
-arch swall_2_1_1
-x 17
-y 17
-end
-arch tile_shop
-x 17
-y 18
-end
-arch swall_1_2
-x 17
-y 18
-end
-arch tile_shop
-x 17
-y 19
-end
-arch tile_shop
-x 17
-y 20
-end
-arch tile_shop
-x 17
-y 21
-end
-arch flagstone_2_1_2
-x 17
-y 21
-end
-arch tile_shop
-x 18
-end
-arch flagstone_2_1_2
-x 18
-end
-arch tile_shop
-x 18
-y 1
-end
-arch tile_shop
-x 18
-y 2
-end
-arch tile_shop
-x 18
-y 3
-end
-arch tile_shop
-x 18
-y 4
-end
-arch cwall_1_3
-x 18
-y 4
-end
-arch tile_shop
-x 18
-y 5
-end
-arch tile_shop
-x 18
-y 6
-end
-arch tile_shop
-x 18
-y 7
-end
-arch tile_shop
-x 18
-y 8
-end
-arch cwall_1_3
-x 18
-y 8
-end
-arch tile_shop
-x 18
-y 9
-end
-arch tile_shop
-x 18
-y 10
-end
-arch tile_shop
-x 18
-y 11
-end
-arch tile_shop
-x 18
-y 12
-end
-arch cwall_1_3
-x 18
-y 12
-end
-arch tile_shop
-x 18
-y 13
-end
-arch tile_shop
-x 18
-y 14
-end
-arch tile_shop
-x 18
+x 10
 y 15
 end
-arch tile_shop
-x 18
+arch igate_closed_2
+x 10
+y 15
+end
+arch dungeon_magic
+x 10
 y 16
 end
-arch grate_closed_1
-x 18
+arch tile_shop
+x 10
+y 16
+end
+arch dwall_1_4
+x 10
 y 16
 end
 arch dungeon_magic
-x 18
-y 16
-end
-arch tile_shop
-x 18
+x 10
 y 17
 end
 arch tile_shop
-x 18
+x 10
+y 17
+end
+arch igate_closed_2
+x 10
+y 17
+end
+arch tile_shop
+x 10
+y 18
+end
+arch dwall_2_2_2
+x 10
 y 18
 end
 arch tile_shop
-x 18
+x 10
+y 19
+end
+arch dwall_1_2
+x 10
 y 19
 end
 arch tile_shop
-x 18
+x 10
+y 20
+end
+arch flagstone_2_1_2
+x 10
 y 20
 end
 arch tile_shop
-x 18
-y 21
+x 11
 end
 arch flagstone_2_1_2
-x 18
-y 21
+x 11
 end
 arch tile_shop
-x 19
+x 11
+y 1
+end
+arch tile_shop
+x 11
+y 2
+end
+arch tile_shop
+x 11
+y 3
+end
+arch tile_shop
+x 11
+y 4
+end
+arch cwall_1_3
+x 11
+y 4
+end
+arch tile_shop
+x 11
+y 5
+end
+arch tile_shop
+x 11
+y 6
+end
+arch tile_shop
+x 11
+y 7
+end
+arch tile_shop
+x 11
+y 8
+end
+arch cwall_1_3
+x 11
+y 8
+end
+arch tile_shop
+x 11
+y 9
+end
+arch tile_shop
+x 11
+y 10
+end
+arch tile_shop
+x 11
+y 11
+end
+arch tile_shop
+x 11
+y 12
+end
+arch cwall_1_3
+x 11
+y 12
+end
+arch tile_shop
+x 11
+y 13
+end
+arch tile_shop
+x 11
+y 14
+end
+arch dwall_1_3
+x 11
+y 14
+end
+arch tile_shop
+x 11
+y 15
+end
+arch wizard_gloves
+x 11
+y 15
+end
+arch tile_shop
+x 11
+y 16
+end
+arch dwall_1_3
+x 11
+y 16
+end
+arch tile_shop
+x 11
+y 17
+end
+arch black_dragon_mail
+x 11
+y 17
+end
+arch tile_shop
+x 11
+y 18
+end
+arch dwall_1_3
+x 11
+y 18
+end
+arch tile_shop
+x 11
+y 19
+end
+arch tile_shop
+x 11
+y 20
+end
+arch flagstone_2_1_2
+x 11
+y 20
+end
+arch tile_shop
+x 12
 end
 arch flagstone_2_2_3
-x 19
+x 12
 end
 arch tile_shop
-x 19
+x 12
 y 1
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 1
 end
 arch tile_shop
-x 19
+x 12
 y 2
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 2
 end
 arch tile_shop
-x 19
+x 12
 y 3
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 3
 end
 arch tile_shop
-x 19
+x 12
 y 4
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 4
 end
 arch tile_shop
-x 19
+x 12
 y 5
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 5
 end
 arch tile_shop
-x 19
+x 12
 y 6
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 6
 end
 arch tile_shop
-x 19
+x 12
 y 7
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 7
 end
 arch tile_shop
-x 19
+x 12
 y 8
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 8
 end
 arch tile_shop
-x 19
+x 12
 y 9
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 9
 end
 arch tile_shop
-x 19
+x 12
 y 10
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 10
 end
 arch tile_shop
-x 19
+x 12
 y 11
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 11
 end
 arch tile_shop
-x 19
+x 12
 y 12
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 12
 end
 arch tile_shop
-x 19
+x 12
 y 13
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 13
 end
 arch tile_shop
-x 19
+x 12
 y 14
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 14
 end
 arch tile_shop
-x 19
+x 12
 y 15
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 15
 end
 arch tile_shop
-x 19
+x 12
 y 16
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 16
 end
 arch tile_shop
-x 19
+x 12
 y 17
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 17
 end
 arch tile_shop
-x 19
+x 12
 y 18
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 18
 end
 arch tile_shop
-x 19
+x 12
 y 19
 end
 arch flagstone_2_1_1
-x 19
+x 12
 y 19
 end
 arch tile_shop
-x 19
+x 12
 y 20
-end
-arch flagstone_2_1_1
-x 19
-y 20
-end
-arch tile_shop
-x 19
-y 21
 end
 arch flagstone_2_2_4
-x 19
-y 21
+x 12
+y 20
 end
