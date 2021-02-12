@@ -91,7 +91,7 @@ def kaptel_death():
         return
 
     who.Map.Print("%s roars and seems to regenerate!"%(Crossfire.WhoAmI().Name))
-    who.HP = who.MaxHP / 2
+    who.HP = int(who.MaxHP / 2)
     Crossfire.SetReturnValue(1)
 
 def challenge_correct_reply(count, msg):
