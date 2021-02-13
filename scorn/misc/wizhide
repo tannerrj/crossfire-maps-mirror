@@ -9,7 +9,7 @@ enter_x 10
 enter_y 12
 msg
 Created:  2006-08-05 Alex Schultz
-Modified: 2012-03-27 Rick Tanner
+Modified: 2021-02-13 Nicolas Weeger
 endmsg
 end
 arch dungeon_magic
@@ -465,8 +465,7 @@ title Python
 slaying /python/items/rhyzian_amulet.py
 end
 end
-arch potion_empty
-identified 1
+arch wbottle_empty
 end
 end
 end
