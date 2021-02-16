@@ -8,7 +8,7 @@ enter_x 29
 enter_y 29
 msg
 Created:  1994-12-28 Morten Hanshaugen
-Modified: 2013-11-23 Kevin Zheng
+Modified: 2021-02-13 DraugTheWhopper
 endmsg
 end
 arch grass
@@ -15037,7 +15037,8 @@ end
 arch guard
 name Arnold
 msg
-Ill be back...
+@match *
+I'll be back...
 endmsg
 x 40
 y 27
