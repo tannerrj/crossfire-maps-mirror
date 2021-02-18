@@ -42,6 +42,5 @@ def handle_death():
 
     if found != None:
         found.Say("You are going to pay!")
-    Crossfire.SetReturnValue(1)
 
 handle_death()
