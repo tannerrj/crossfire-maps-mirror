@@ -8,7 +8,7 @@ enter_x 11
 enter_y 20
 msg
 Created:  1997-04-27
-Modified: 2012-06-17 Nicolas Weeger
+Modified: 2021-02-23 Nicolas Weeger
 endmsg
 maplore
 @quest Lursendis
@@ -1823,6 +1823,7 @@ slaying Noble Rank Count
 food 0
 end
 arch firebrand
+identified 1
 end
 end
 arch carton_box_1
@@ -1843,6 +1844,7 @@ slaying Noble Rank Marquis
 food 0
 end
 arch potion_improve
+identified 1
 end
 end
 arch carton_box_1
@@ -1853,6 +1855,7 @@ slaying Noble Rank Baron
 food 0
 end
 arch elven_bow
+identified 1
 end
 end
 arch carton_box_1
@@ -1863,6 +1866,7 @@ slaying Noble Rank Baronet
 food 0
 end
 arch girdle_dam
+identified 1
 end
 end
 arch carton_box_1

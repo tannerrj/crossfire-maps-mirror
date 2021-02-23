@@ -8,7 +8,7 @@ enter_x 10
 enter_y 13
 msg
 Created:  1997-04-27
-Modified: 2017-06-02 Kevin Zheng
+Modified: 2021-02-23 Nicolas Weeger
 endmsg
 end
 arch grass
@@ -1587,16 +1587,19 @@ arch NPCGift
 arch carton_box_1
 name Prince Reward
 arch defender
+identified 1
 end
 end
 arch carton_box_1
 name Archduke Reward
 arch holy_shield
+identified 1
 end
 end
 arch carton_box_1
 name Duke Reward
 arch dragonslayer
+identified 1
 end
 end
 end
