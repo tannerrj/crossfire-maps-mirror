@@ -110,3 +110,37 @@ end_description
 end_step
 end_quest
 
+quest wolfsburg/dragon-hunter
+title Preno the dragon hunter
+face arrow_slay_dragon.101
+description
+Preno the dragon hunter may share her secrets for missiles of assassinating dragons, but I must prove my worth first.
+end_description
+step 10
+description
+Preno asked me to bring 5 red dragon scales.
+end_description
+end_step
+step 20
+description
+Preno asked me to bring 3 blue dragon scales
+end_description
+end_step
+step 30
+description
+Preno asked me for a black dragon scale.
+end_description
+end_step
+step 40
+description
+I must hunt and kill Nilplur the dragon.
+end_description
+end_step
+step 50
+finishes_quest
+description
+I proved myself, and got Preno's secret missiles crafting recipe.
+end_description
+end_step
+end_quest
+
