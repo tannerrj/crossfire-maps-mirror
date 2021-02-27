@@ -9,7 +9,7 @@ enter_x 4
 enter_y 1
 msg
 Created:  1996-01-29
-Modified: 2012-03-01 Rick Tanner
+Modified: 2021-02-27 Daniel Hawkins
 endmsg
 end
 arch grass
@@ -412,10 +412,6 @@ arch wwall_win2
 x 2
 y 23
 end
-arch shop_empty
-x 2
-y 24
-end
 arch shop_gems
 x 2
 y 24
@@ -423,10 +419,6 @@ end
 arch shop_empty
 x 2
 y 25
-end
-arch shop_empty
-x 2
-y 26
 end
 arch shop_gems
 x 2
@@ -495,10 +487,6 @@ x 3
 y 6
 level 20
 end
-arch shop_empty
-x 3
-y 7
-end
 arch shop_scrolls
 x 3
 y 7
@@ -510,10 +498,6 @@ end
 arch swall_1_4
 x 3
 y 8
-end
-arch shop_empty
-x 3
-y 9
 end
 arch shop_scrolls
 x 3
@@ -740,10 +724,6 @@ arch wwall_win2
 x 4
 y 23
 end
-arch shop_empty
-x 4
-y 24
-end
 arch shop_gems
 x 4
 y 24
@@ -751,10 +731,6 @@ end
 arch shop_empty
 x 4
 y 25
-end
-arch shop_empty
-x 4
-y 26
 end
 arch shop_gems
 x 4
@@ -802,10 +778,6 @@ arch shop_empty
 x 5
 y 6
 end
-arch shop_empty
-x 5
-y 7
-end
 arch shop_scrolls
 x 5
 y 7
@@ -818,10 +790,6 @@ arch swall_2_1_2
 x 5
 y 8
 end
-arch shop_empty
-x 5
-y 9
-end
 arch shop_scrolls
 x 5
 y 9
@@ -829,10 +797,6 @@ end
 arch shop_empty
 x 5
 y 10
-end
-arch shop_empty
-x 5
-y 11
 end
 arch shop_scrolls
 x 5
@@ -1048,10 +1012,6 @@ arch wwall_win2
 x 6
 y 23
 end
-arch shop_empty
-x 6
-y 24
-end
 arch shop_gems
 x 6
 y 24
@@ -1059,10 +1019,6 @@ end
 arch shop_empty
 x 6
 y 25
-end
-arch shop_empty
-x 6
-y 26
 end
 arch shop_gems
 x 6
@@ -1114,10 +1070,6 @@ arch shop_empty
 x 7
 y 6
 end
-arch shop_empty
-x 7
-y 7
-end
 arch shop_scrolls
 x 7
 y 7
@@ -1130,10 +1082,6 @@ arch swall_2_1_2
 x 7
 y 8
 end
-arch shop_empty
-x 7
-y 9
-end
 arch shop_scrolls
 x 7
 y 9
@@ -1141,10 +1089,6 @@ end
 arch shop_empty
 x 7
 y 10
-end
-arch shop_empty
-x 7
-y 11
 end
 arch shop_scrolls
 x 7
@@ -1363,10 +1307,6 @@ arch wwall_win2
 x 8
 y 23
 end
-arch shop_empty
-x 8
-y 24
-end
 arch shop_gems
 x 8
 y 24
@@ -1374,10 +1314,6 @@ end
 arch shop_empty
 x 8
 y 25
-end
-arch shop_empty
-x 8
-y 26
 end
 arch shop_gems
 x 8
@@ -1421,10 +1357,6 @@ arch shop_empty
 x 9
 y 6
 end
-arch shop_empty
-x 9
-y 7
-end
 arch shop_scrolls
 x 9
 y 7
@@ -1437,10 +1369,6 @@ arch swall_2_1_2
 x 9
 y 8
 end
-arch shop_empty
-x 9
-y 9
-end
 arch shop_scrolls
 x 9
 y 9
@@ -1448,10 +1376,6 @@ end
 arch shop_empty
 x 9
 y 10
-end
-arch shop_empty
-x 9
-y 11
 end
 arch shop_scrolls
 x 9
@@ -1559,10 +1483,6 @@ arch shop_empty
 x 10
 y 1
 end
-arch shop_empty
-x 10
-y 2
-end
 arch shop_scrolls
 x 10
 y 2
@@ -1571,10 +1491,6 @@ arch shop_empty
 x 10
 y 3
 end
-arch shop_empty
-x 10
-y 4
-end
 arch shop_scrolls
 x 10
 y 4
@@ -1582,10 +1498,6 @@ end
 arch shop_empty
 x 10
 y 5
-end
-arch shop_empty
-x 10
-y 6
 end
 arch shop_scrolls
 x 10
@@ -1671,10 +1583,6 @@ arch wwall_win2
 x 10
 y 21
 end
-arch shop_empty
-x 10
-y 22
-end
 arch shop_gems
 x 10
 y 22
@@ -1683,10 +1591,6 @@ arch shop_empty
 x 10
 y 23
 end
-arch shop_empty
-x 10
-y 24
-end
 arch shop_gems
 x 10
 y 24
@@ -1694,10 +1598,6 @@ end
 arch shop_empty
 x 10
 y 25
-end
-arch shop_empty
-x 10
-y 26
 end
 arch shop_gems
 x 10
@@ -1773,10 +1673,6 @@ arch swall_2_2_4
 x 11
 y 8
 end
-arch shop_empty
-x 11
-y 9
-end
 arch shop_scrolls
 x 11
 y 9
@@ -1784,10 +1680,6 @@ end
 arch shop_empty
 x 11
 y 10
-end
-arch shop_empty
-x 11
-y 11
 end
 arch shop_scrolls
 x 11
@@ -1891,10 +1783,6 @@ arch shop_empty
 x 12
 y 1
 end
-arch shop_empty
-x 12
-y 2
-end
 arch shop_scrolls
 x 12
 y 2
@@ -1902,10 +1790,6 @@ end
 arch shop_empty
 x 12
 y 3
-end
-arch shop_empty
-x 12
-y 4
 end
 arch shop_scrolls
 x 12
@@ -1915,10 +1799,6 @@ arch shop_empty
 x 12
 y 5
 end
-arch shop_empty
-x 12
-y 6
-end
 arch shop_scrolls
 x 12
 y 6
@@ -1926,10 +1806,6 @@ end
 arch shop_empty
 x 12
 y 7
-end
-arch shop_empty
-x 12
-y 8
 end
 arch shop_scrolls
 x 12
@@ -1946,10 +1822,6 @@ end
 arch shop_empty
 x 12
 y 11
-end
-arch shop_empty
-x 12
-y 12
 end
 arch shop_scrolls
 x 12
@@ -2027,10 +1899,6 @@ arch wwall_2_2_4
 x 12
 y 21
 end
-arch shop_empty
-x 12
-y 22
-end
 arch shop_gems
 x 12
 y 22
@@ -2046,10 +1914,6 @@ end
 arch shop_empty
 x 12
 y 25
-end
-arch shop_empty
-x 12
-y 26
 end
 arch shop_gems
 x 12
@@ -2191,10 +2055,6 @@ arch shop_empty
 x 14
 y 1
 end
-arch shop_empty
-x 14
-y 2
-end
 arch shop_amulets
 x 14
 y 2
@@ -2202,10 +2062,6 @@ end
 arch shop_empty
 x 14
 y 3
-end
-arch shop_empty
-x 14
-y 4
 end
 arch shop_amulets
 x 14
@@ -2215,10 +2071,6 @@ arch shop_empty
 x 14
 y 5
 end
-arch shop_empty
-x 14
-y 6
-end
 arch shop_amulets
 x 14
 y 6
@@ -2226,10 +2078,6 @@ end
 arch shop_empty
 x 14
 y 7
-end
-arch shop_empty
-x 14
-y 8
 end
 arch shop_amulets
 x 14
@@ -2251,10 +2099,6 @@ arch shop_empty
 x 14
 y 12
 end
-arch shop_empty
-x 14
-y 13
-end
 arch shop_books
 x 14
 y 13
@@ -2262,10 +2106,6 @@ end
 arch shop_empty
 x 14
 y 14
-end
-arch shop_empty
-x 14
-y 15
 end
 arch shop_books
 x 14
@@ -2275,10 +2115,6 @@ arch shop_empty
 x 14
 y 16
 end
-arch shop_empty
-x 14
-y 17
-end
 arch shop_books
 x 14
 y 17
@@ -2286,10 +2122,6 @@ end
 arch shop_empty
 x 14
 y 18
-end
-arch shop_empty
-x 14
-y 19
 end
 arch shop_books
 x 14
@@ -2299,10 +2131,6 @@ arch shop_empty
 x 14
 y 20
 end
-arch shop_empty
-x 14
-y 21
-end
 arch shop_books
 x 14
 y 21
@@ -2311,10 +2139,6 @@ arch shop_empty
 x 14
 y 22
 end
-arch shop_empty
-x 14
-y 23
-end
 arch shop_books
 x 14
 y 23
@@ -2322,10 +2146,6 @@ end
 arch shop_empty
 x 14
 y 24
-end
-arch shop_empty
-x 14
-y 25
 end
 arch shop_books
 x 14
@@ -2551,10 +2371,6 @@ arch shop_empty
 x 16
 y 1
 end
-arch shop_empty
-x 16
-y 2
-end
 arch shop_amulets
 x 16
 y 2
@@ -2562,10 +2378,6 @@ end
 arch shop_empty
 x 16
 y 3
-end
-arch shop_empty
-x 16
-y 4
 end
 arch shop_amulets
 x 16
@@ -2575,10 +2387,6 @@ arch shop_empty
 x 16
 y 5
 end
-arch shop_empty
-x 16
-y 6
-end
 arch shop_amulets
 x 16
 y 6
@@ -2586,10 +2394,6 @@ end
 arch shop_empty
 x 16
 y 7
-end
-arch shop_empty
-x 16
-y 8
 end
 arch shop_amulets
 x 16
@@ -2611,10 +2415,6 @@ arch shop_empty
 x 16
 y 12
 end
-arch shop_empty
-x 16
-y 13
-end
 arch shop_books
 x 16
 y 13
@@ -2622,10 +2422,6 @@ end
 arch shop_empty
 x 16
 y 14
-end
-arch shop_empty
-x 16
-y 15
 end
 arch shop_books
 x 16
@@ -2635,10 +2431,6 @@ arch shop_empty
 x 16
 y 16
 end
-arch shop_empty
-x 16
-y 17
-end
 arch shop_books
 x 16
 y 17
@@ -2646,10 +2438,6 @@ end
 arch shop_empty
 x 16
 y 18
-end
-arch shop_empty
-x 16
-y 19
 end
 arch shop_books
 x 16
@@ -2659,10 +2447,6 @@ arch shop_empty
 x 16
 y 20
 end
-arch shop_empty
-x 16
-y 21
-end
 arch shop_books
 x 16
 y 21
@@ -2671,10 +2455,6 @@ arch shop_empty
 x 16
 y 22
 end
-arch shop_empty
-x 16
-y 23
-end
 arch shop_books
 x 16
 y 23
@@ -2682,10 +2462,6 @@ end
 arch shop_empty
 x 16
 y 24
-end
-arch shop_empty
-x 16
-y 25
 end
 arch shop_books
 x 16
@@ -2835,10 +2611,6 @@ arch shop_empty
 x 18
 y 2
 end
-arch shop_empty
-x 18
-y 3
-end
 arch shop_wands
 x 18
 y 3
@@ -2846,10 +2618,6 @@ end
 arch shop_empty
 x 18
 y 4
-end
-arch shop_empty
-x 18
-y 5
 end
 arch shop_wands
 x 18
@@ -2859,10 +2627,6 @@ arch shop_empty
 x 18
 y 6
 end
-arch shop_empty
-x 18
-y 7
-end
 arch shop_wands
 x 18
 y 7
@@ -2870,10 +2634,6 @@ end
 arch shop_empty
 x 18
 y 8
-end
-arch shop_empty
-x 18
-y 9
 end
 arch shop_wands
 x 18
@@ -2887,10 +2647,6 @@ arch shop_empty
 x 18
 y 11
 end
-arch shop_empty
-x 18
-y 12
-end
 arch shop_books
 x 18
 y 12
@@ -2898,10 +2654,6 @@ end
 arch shop_empty
 x 18
 y 13
-end
-arch shop_empty
-x 18
-y 14
 end
 arch shop_books
 x 18
@@ -2911,10 +2663,6 @@ arch shop_empty
 x 18
 y 15
 end
-arch shop_empty
-x 18
-y 16
-end
 arch shop_books
 x 18
 y 16
@@ -2922,10 +2670,6 @@ end
 arch shop_empty
 x 18
 y 17
-end
-arch shop_empty
-x 18
-y 18
 end
 arch shop_books
 x 18
@@ -2935,10 +2679,6 @@ arch shop_empty
 x 18
 y 19
 end
-arch shop_empty
-x 18
-y 20
-end
 arch shop_books
 x 18
 y 20
@@ -2947,10 +2687,6 @@ arch shop_empty
 x 18
 y 21
 end
-arch shop_empty
-x 18
-y 22
-end
 arch shop_books
 x 18
 y 22
@@ -2958,10 +2694,6 @@ end
 arch shop_empty
 x 18
 y 23
-end
-arch shop_empty
-x 18
-y 24
 end
 arch shop_books
 x 18
@@ -2992,10 +2724,6 @@ end
 arch shop_empty
 x 19
 y 1
-end
-arch shop_empty
-x 19
-y 2
 end
 arch shop_wands
 x 19
@@ -3169,10 +2897,6 @@ arch swall_1_2
 x 19
 y 24
 end
-arch shop_empty
-x 19
-y 25
-end
 arch shop_books
 x 19
 y 25
@@ -3203,10 +2927,6 @@ arch shop_empty
 x 20
 y 2
 end
-arch shop_empty
-x 20
-y 3
-end
 arch shop_wands
 x 20
 y 3
@@ -3214,10 +2934,6 @@ end
 arch shop_empty
 x 20
 y 4
-end
-arch shop_empty
-x 20
-y 5
 end
 arch shop_wands
 x 20
@@ -3227,10 +2943,6 @@ arch shop_empty
 x 20
 y 6
 end
-arch shop_empty
-x 20
-y 7
-end
 arch shop_wands
 x 20
 y 7
@@ -3238,10 +2950,6 @@ end
 arch shop_empty
 x 20
 y 8
-end
-arch shop_empty
-x 20
-y 9
 end
 arch shop_wands
 x 20
@@ -3255,10 +2963,6 @@ arch shop_empty
 x 20
 y 11
 end
-arch shop_empty
-x 20
-y 12
-end
 arch shop_books
 x 20
 y 12
@@ -3266,10 +2970,6 @@ end
 arch shop_empty
 x 20
 y 13
-end
-arch shop_empty
-x 20
-y 14
 end
 arch shop_books
 x 20
@@ -3279,10 +2979,6 @@ arch shop_empty
 x 20
 y 15
 end
-arch shop_empty
-x 20
-y 16
-end
 arch shop_books
 x 20
 y 16
@@ -3290,10 +2986,6 @@ end
 arch shop_empty
 x 20
 y 17
-end
-arch shop_empty
-x 20
-y 18
 end
 arch shop_books
 x 20
@@ -3303,10 +2995,6 @@ arch shop_empty
 x 20
 y 19
 end
-arch shop_empty
-x 20
-y 20
-end
 arch shop_books
 x 20
 y 20
@@ -3315,10 +3003,6 @@ arch shop_empty
 x 20
 y 21
 end
-arch shop_empty
-x 20
-y 22
-end
 arch shop_books
 x 20
 y 22
@@ -3326,10 +3010,6 @@ end
 arch shop_empty
 x 20
 y 23
-end
-arch shop_empty
-x 20
-y 24
 end
 arch shop_books
 x 20
@@ -3490,10 +3170,6 @@ end
 arch shop_empty
 x 22
 y 4
-end
-arch shop_empty
-x 22
-y 5
 end
 arch shop_scrolls
 x 22
@@ -3503,10 +3179,6 @@ arch shop_empty
 x 22
 y 6
 end
-arch shop_empty
-x 22
-y 7
-end
 arch shop_scrolls
 x 22
 y 7
@@ -3514,10 +3186,6 @@ end
 arch shop_empty
 x 22
 y 8
-end
-arch shop_empty
-x 22
-y 9
 end
 arch shop_scrolls
 x 22
@@ -3535,10 +3203,6 @@ arch shop_empty
 x 22
 y 12
 end
-arch shop_empty
-x 22
-y 13
-end
 arch shop_books
 x 22
 y 13
@@ -3546,10 +3210,6 @@ end
 arch shop_empty
 x 22
 y 14
-end
-arch shop_empty
-x 22
-y 15
 end
 arch shop_books
 x 22
@@ -3559,10 +3219,6 @@ arch shop_empty
 x 22
 y 16
 end
-arch shop_empty
-x 22
-y 17
-end
 arch shop_books
 x 22
 y 17
@@ -3570,10 +3226,6 @@ end
 arch shop_empty
 x 22
 y 18
-end
-arch shop_empty
-x 22
-y 19
 end
 arch shop_books
 x 22
@@ -3583,10 +3235,6 @@ arch shop_empty
 x 22
 y 20
 end
-arch shop_empty
-x 22
-y 21
-end
 arch shop_books
 x 22
 y 21
@@ -3595,10 +3243,6 @@ arch shop_empty
 x 22
 y 22
 end
-arch shop_empty
-x 22
-y 23
-end
 arch shop_books
 x 22
 y 23
@@ -3606,10 +3250,6 @@ end
 arch shop_empty
 x 22
 y 24
-end
-arch shop_empty
-x 22
-y 25
 end
 arch shop_books
 x 22
@@ -3850,10 +3490,6 @@ arch shop_empty
 x 24
 y 4
 end
-arch shop_empty
-x 24
-y 5
-end
 arch shop_scrolls
 x 24
 y 5
@@ -3862,10 +3498,6 @@ arch shop_empty
 x 24
 y 6
 end
-arch shop_empty
-x 24
-y 7
-end
 arch shop_scrolls
 x 24
 y 7
@@ -3873,10 +3505,6 @@ end
 arch shop_empty
 x 24
 y 8
-end
-arch shop_empty
-x 24
-y 9
 end
 arch shop_scrolls
 x 24
@@ -3894,10 +3522,6 @@ arch shop_empty
 x 24
 y 12
 end
-arch shop_empty
-x 24
-y 13
-end
 arch shop_books
 x 24
 y 13
@@ -3905,10 +3529,6 @@ end
 arch shop_empty
 x 24
 y 14
-end
-arch shop_empty
-x 24
-y 15
 end
 arch shop_books
 x 24
@@ -3918,10 +3538,6 @@ arch shop_empty
 x 24
 y 16
 end
-arch shop_empty
-x 24
-y 17
-end
 arch shop_books
 x 24
 y 17
@@ -3929,10 +3545,6 @@ end
 arch shop_empty
 x 24
 y 18
-end
-arch shop_empty
-x 24
-y 19
 end
 arch shop_books
 x 24
@@ -3942,10 +3554,6 @@ arch shop_empty
 x 24
 y 20
 end
-arch shop_empty
-x 24
-y 21
-end
 arch shop_books
 x 24
 y 21
@@ -3954,10 +3562,6 @@ arch shop_empty
 x 24
 y 22
 end
-arch shop_empty
-x 24
-y 23
-end
 arch shop_books
 x 24
 y 23
@@ -3965,10 +3569,6 @@ end
 arch shop_empty
 x 24
 y 24
-end
-arch shop_empty
-x 24
-y 25
 end
 arch shop_books
 x 24
@@ -4133,10 +3733,6 @@ arch wwall_2_1_2
 x 26
 y 2
 end
-arch shop_empty
-x 26
-y 3
-end
 arch shop_potions
 x 26
 y 3
@@ -4144,10 +3740,6 @@ end
 arch shop_empty
 x 26
 y 4
-end
-arch shop_empty
-x 26
-y 5
 end
 arch shop_potions
 x 26
@@ -4157,10 +3749,6 @@ arch shop_empty
 x 26
 y 6
 end
-arch shop_empty
-x 26
-y 7
-end
 arch shop_potions
 x 26
 y 7
@@ -4168,10 +3756,6 @@ end
 arch shop_empty
 x 26
 y 8
-end
-arch shop_empty
-x 26
-y 9
 end
 arch shop_potions
 x 26
@@ -4181,10 +3765,6 @@ arch shop_empty
 x 26
 y 10
 end
-arch shop_empty
-x 26
-y 11
-end
 arch shop_potions
 x 26
 y 11
@@ -4192,10 +3772,6 @@ end
 arch shop_empty
 x 26
 y 12
-end
-arch shop_empty
-x 26
-y 13
 end
 arch shop_potions
 x 26
@@ -4205,10 +3781,6 @@ arch shop_empty
 x 26
 y 14
 end
-arch shop_empty
-x 26
-y 15
-end
 arch shop_potions
 x 26
 y 15
@@ -4216,10 +3788,6 @@ end
 arch shop_empty
 x 26
 y 16
-end
-arch shop_empty
-x 26
-y 17
 end
 arch shop_potions
 x 26
