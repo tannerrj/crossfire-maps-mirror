@@ -9,7 +9,7 @@ enter_x 18
 enter_y 9
 msg
 Created:  2010-03-07 Nicolas Weeger
-Modified: 2013-09-13 Kevin Zheng
+Modified: 2021-03-11 Nicolas Weeger
 endmsg
 end
 arch grass
@@ -1724,10 +1724,6 @@ arch woodlarge
 x 13
 y 8
 end
-arch woodlarge
-x 13
-y 9
-end
 arch pedestal
 x 13
 y 9
@@ -1736,13 +1732,17 @@ connected 1
 end
 arch woodlarge
 x 13
-y 10
+y 9
 end
 arch pedestal
 x 13
 y 10
 invisible 1
 connected 1
+end
+arch woodlarge
+x 13
+y 10
 end
 arch woodlarge
 x 13
@@ -1852,6 +1852,12 @@ arch white_wall_1_2
 x 14
 y 8
 end
+arch pedestal
+x 14
+y 9
+invisible 1
+connected 1
+end
 arch woodlarge
 x 14
 y 9
@@ -1859,6 +1865,12 @@ end
 arch igate_closed_2
 x 14
 y 9
+connected 1
+end
+arch pedestal
+x 14
+y 10
+invisible 1
 connected 1
 end
 arch woodlarge
