@@ -1,3 +1,10 @@
+2021-03-17 Nicolas Weeger
+        * quests/peterm/DragonQuest/ElectricHatchery,
+        * quests/peterm/DragonQuest/FireHatchery,
+        * quests/peterm/DragonQuest/IceHatchery,
+        * quests/peterm/DragonQuest/WyvernNest: Add no_magic on exits to prevent dimension door to a blocked place.
+            Fix exits coordinates for smoother transitions.
+
 2021-03-11 Nicolas Weeger
         * darcap/darcap/library_ground: Add pedestals under the grates to not crush players. Move pedestals under the ground.
 

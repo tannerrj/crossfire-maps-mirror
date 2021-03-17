@@ -9,7 +9,7 @@ enter_x 5
 enter_y 20
 msg
 Created:  1994-08-19 peterm (peterm@soda.berkeley.edu)
-Modified: 2012-01-02 Rick Tanner
+Modified: 2021-03-17 Nicolas Weeger
 endmsg
 end
 arch cave_15
@@ -3481,6 +3481,10 @@ arch pstone_2
 x 18
 y 4
 end
+arch dungeon_magic
+x 18
+y 5
+end
 arch invis_exit
 slaying ElectricHatchery
 hp 9
@@ -3745,6 +3749,10 @@ arch pstone_2
 x 19
 y 4
 end
+arch dungeon_magic
+x 19
+y 5
+end
 arch invis_exit
 slaying ElectricHatchery
 hp 10
@@ -3921,6 +3929,10 @@ end
 arch pstone_2
 x 19
 y 33
+end
+arch dungeon_magic
+x 19
+y 34
 end
 arch invis_exit
 slaying IceHatchery
@@ -4166,6 +4178,10 @@ end
 arch pstone_2
 x 20
 y 33
+end
+arch dungeon_magic
+x 20
+y 34
 end
 arch invis_exit
 slaying IceHatchery
@@ -4422,6 +4438,10 @@ end
 arch pstone_2
 x 21
 y 33
+end
+arch dungeon_magic
+x 21
+y 34
 end
 arch invis_exit
 slaying IceHatchery
@@ -7028,6 +7048,10 @@ sp 10
 x 34
 y 20
 end
+arch dungeon_magic
+x 34
+y 20
+end
 arch pstone_2
 x 34
 y 20
@@ -7039,6 +7063,10 @@ sp 11
 x 34
 y 21
 end
+arch dungeon_magic
+x 34
+y 21
+end
 arch pstone_1
 x 34
 y 21
@@ -7047,6 +7075,10 @@ arch invis_exit
 slaying FireHatchery
 hp 5
 sp 12
+x 34
+y 22
+end
+arch dungeon_magic
 x 34
 y 22
 end
