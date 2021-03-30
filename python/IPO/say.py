@@ -74,12 +74,13 @@ elif Crossfire.MatchString("letter", text[0]):
     whoami.Say("For %i platinum you can send a letter to your friend. Just say 'mailscroll <friend name>'." % priceMailScroll)
 
 elif Crossfire.MatchString("mail", text[0]):
-    reply = "To send items, buy one of our following containers:\n"
+    reply = "To send items, select one of our following containers:\n"
 
     for pack in packages.keys():
         # weight is in grams, so need to convert.
         reply += " - %s (limit %d kg, %d platinum)\n" % (pack, packages[pack][1] / 1000, packages[pack][0])
 
+    reply += "To buy it, say <container type> <friend name>'.\n"
     reply += "When you're ready to send it, say 'send <friend name>'."
     whoami.Say(reply)
 
