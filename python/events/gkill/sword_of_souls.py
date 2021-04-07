@@ -24,7 +24,7 @@ if killer.Owner is None and killer.Type == Crossfire.Type.PLAYER:
             # Add experience to the weapon (though we only care about the total_exp field)
             # As the weapon gets stronger, it takes a larger share of the exp,
             # with a baseline of half at level 0, and taking all of it at level 115.
-            weap.AddExp((victim.Exp * (1.0 + weap.ItemPower / 115.0)) // 2)
+            weap.AddExp(int(victim.Exp * (1.0 + weap.ItemPower / 115.0)) // 2)
             
             # Determine the change in XP
             delta_exp = weap.TotalExp - old_xp

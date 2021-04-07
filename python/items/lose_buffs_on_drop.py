@@ -4,7 +4,7 @@ me = Crossfire.WhoAmI()
 ac = Crossfire.WhoIsActivator()
 
 # It is assumed that this buffed weapon uses PermExp to denote how much it has been used.
-if me.PermExp > 0:
+if me.PermExp() > 0:
     me.Str = me.Archetype.Clone.Str
     me.Dex = me.Archetype.Clone.Dex
     me.Con = me.Archetype.Clone.Con
@@ -25,4 +25,5 @@ if me.PermExp > 0:
     # Experience should be affected before Item Power, since it affects that field
     me.AddExp(-me.TotalExp)
     me.ItemPower = me.Archetype.Clone.ItemPower
-    ac.Write("The "+me.Name+" shudders and looks almost like a normal weapon again.")
+    if ac.Type == Crossfire.Type.PLAYER:
+        ac.Write("The "+me.Name+" shudders and looks almost like a normal weapon again.")
