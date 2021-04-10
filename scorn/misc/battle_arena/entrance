@@ -9,7 +9,7 @@ enter_x 11
 enter_y 24
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2016-05-22 SilverNexus
+Modified: 2021-04-10 Daniel Hawkins
 endmsg
 end
 arch pstone_2
@@ -91,59 +91,7 @@ end
 arch blocked
 y 13
 end
-arch teleporter
-name 5
-hp 5
-sp 14
-y 14
-speed 0.000000
-resist_physical 30
-resist_fire 30
-connected 5
-end
-arch card
-name ARENA ticket
-slaying battle_arena123
-y 14
-type 21
-end
-arch bag_popcorn
-y 14
-end
-arch card
-name ARENA ticket
-slaying battle_arena123
-y 14
-type 21
-end
-arch bag_popcorn
-y 14
-end
-arch card
-name ARENA ticket
-slaying battle_arena123
-y 14
-type 21
-end
-arch bag_popcorn
-y 14
-end
-arch card
-name ARENA ticket
-slaying battle_arena123
-y 14
-type 21
-end
-arch bag_popcorn
-y 14
-end
-arch card
-name ARENA ticket
-slaying battle_arena123
-y 14
-type 21
-end
-arch bag_popcorn
+arch blocked
 y 14
 end
 arch blocked
@@ -1122,6 +1070,25 @@ arch pstone_2
 x 5
 y 14
 end
+arch creator
+x 5
+y 14
+connected 5
+lifesave 1
+arch bag_popcorn
+end
+end
+arch creator
+x 5
+y 14
+connected 5
+lifesave 1
+arch card
+name ARENA ticket
+slaying battle_arena123
+type 21
+end
+end
 arch pstone_2
 x 5
 y 15
@@ -1135,6 +1102,7 @@ endmsg
 food 100
 x 5
 y 15
+last_sp 1
 connected 5
 end
 arch pstone_2
