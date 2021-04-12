@@ -2,13 +2,13 @@ arch map
 name Navar Permenant Apartment, Upstairs
 difficulty 1
 region navar
-width 21
+width 22
 height 15
 enter_x 12
 enter_y 10
 msg
 Created:  2005-03-08
-Modified: 2008-10-25 Rick Tanner
+Modified: 2021-04-12 Nicolas Weeger
 endmsg
 end
 arch woodfloor
@@ -3136,13 +3136,76 @@ x 19
 y 14
 type 77
 end
-arch woodfloor
+arch darkness
 x 20
+end
+arch darkness
+x 20
+y 1
+end
+arch darkness
+x 20
+y 2
+end
+arch darkness
+x 20
+y 3
+end
+arch darkness
+x 20
+y 4
+end
+arch darkness
+x 20
+y 5
+end
+arch darkness
+x 20
+y 6
+end
+arch darkness
+x 20
+y 7
+end
+arch darkness
+x 20
+y 8
+end
+arch darkness
+x 20
+y 9
+end
+arch darkness
+x 20
+y 10
+end
+arch darkness
+x 20
+y 10
+end
+arch darkness
+x 20
+y 11
+end
+arch darkness
+x 20
+y 12
+end
+arch darkness
+x 20
+y 13
+end
+arch darkness
+x 20
+y 14
+end
+arch woodfloor
+x 21
 end
 arch teleporter
 hp 1
 sp 1
-x 20
+x 21
 speed 0.0
 connected 10
 end
@@ -3150,6 +3213,62 @@ arch stair_3_up
 slaying /navar_city/apartments/apartment_attic
 hp 1
 sp 1
-x 20
+x 21
 unique 1
+end
+arch darkness
+x 21
+y 1
+end
+arch darkness
+x 21
+y 2
+end
+arch darkness
+x 21
+y 3
+end
+arch darkness
+x 21
+y 4
+end
+arch darkness
+x 21
+y 5
+end
+arch darkness
+x 21
+y 6
+end
+arch darkness
+x 21
+y 7
+end
+arch darkness
+x 21
+y 8
+end
+arch darkness
+x 21
+y 9
+end
+arch darkness
+x 21
+y 10
+end
+arch darkness
+x 21
+y 11
+end
+arch darkness
+x 21
+y 12
+end
+arch darkness
+x 21
+y 13
+end
+arch darkness
+x 21
+y 14
 end
