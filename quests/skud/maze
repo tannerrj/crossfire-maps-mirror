@@ -8,7 +8,7 @@ enter_x 12
 enter_y 6
 msg
 You have entered a rather dark area.  You can here the clanking of metal on metal.  It is coming from one of the many passages in this maze.  A Maze in which, a wrong turn could be fatal.
-Modified: 2012-03-24 Rick Tanner
+Modified: 2021-04-13 Kevin Zheng
 endmsg
 end
 arch marble
@@ -3058,7 +3058,7 @@ arch marble
 x 12
 y 6
 end
-arch stair_down
+arch stair_up_2
 slaying east_1
 hp 1
 sp 28
