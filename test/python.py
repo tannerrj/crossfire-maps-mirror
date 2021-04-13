@@ -170,6 +170,7 @@ def do_basics():
     msg += ' your title is %s\n'%who.Title
     msg += ' your ip is %s\n'%who.IP
     msg += ' my name is %s\n'%whoami.Name
+    msg += ' your permanent exp is %d\n' % who.PermExp()
     whoami.Say(msg)
 
 def do_time():
