@@ -9,7 +9,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  1996-10-26 Chris Jeske
-Modified: 2017-07-09 Jason Zheng
+Modified: 2021-05-04 Daniel Hawkins
 endmsg
 end
 arch marble
@@ -2626,6 +2626,7 @@ glow_radius 5
 identified 1
 reflect_missile 1
 reflect_spell 1
+item_power 30
 end
 arch teleporter
 hp 7
