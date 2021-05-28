@@ -8,7 +8,7 @@ enter_x 2
 enter_y 8
 msg
 Created:  2007-05-27 Nicolas Weeger
-Modified: 2014-03-28 Kevin Zheng
+Modified: 2021-05-27 Kevin Zheng
 endmsg
 maplore
 @quest Lursendis
@@ -671,7 +671,7 @@ y 6
 end
 arch magic_ear
 msg
-@match trappers
+@match trapper
 Click.
 endmsg
 x 8
@@ -685,7 +685,7 @@ end
 arch nun
 name nurse
 msg
-@match trappers
+@match trapper
 Oh, you want to buy some goods? Please go down and check what we offer.
 @match *
 Go away, you're bothering us! We have many patients to help!
