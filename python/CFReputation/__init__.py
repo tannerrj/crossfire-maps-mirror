@@ -27,7 +27,7 @@ def _init_db():
     schema_files = map(_get_sql_path, ["schema.sql"])
     init_files = map(_get_sql_path, ["init.sql", "gods.sql"])
     db_path = os.path.join(Crossfire.LocalDirectory(), "factions.db")
-    con = sqlite3.connect(':memory:')
+    con = sqlite3.connect(db_path)
     _init_schema(con, 1, *schema_files)
     for f in init_files:
         with open(f) as initfile:
