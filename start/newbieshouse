@@ -5,12 +5,12 @@ fixed_resettime 1
 difficulty 1
 region creation
 width 19
-height 29
+height 32
 enter_x 9
 enter_y 4
 msg
 Created:  2003-07-31 Tchize
-Modified: 2020-02-29 Rick Tanner
+Modified: 2021-05-30 Nicolas Weeger
 endmsg
 end
 arch dungeon_magic
@@ -199,6 +199,15 @@ y 27
 end
 arch grass
 y 28
+end
+arch grass
+y 29
+end
+arch grass
+y 30
+end
+arch grass
+y 31
 end
 arch dungeon_magic
 x 1
@@ -533,6 +542,18 @@ end
 arch grass
 x 1
 y 28
+end
+arch grass
+x 1
+y 29
+end
+arch grass
+x 1
+y 30
+end
+arch grass
+x 1
+y 31
 end
 arch dungeon_magic
 x 2
@@ -895,6 +916,18 @@ arch grass
 x 2
 y 28
 end
+arch grass
+x 2
+y 29
+end
+arch grass
+x 2
+y 30
+end
+arch grass
+x 2
+y 31
+end
 arch dungeon_magic
 x 3
 end
@@ -1168,6 +1201,18 @@ end
 arch grass
 x 3
 y 28
+end
+arch grass
+x 3
+y 29
+end
+arch grass
+x 3
+y 30
+end
+arch grass
+x 3
+y 31
 end
 arch dungeon_magic
 x 4
@@ -1471,6 +1516,18 @@ end
 arch grass
 x 4
 y 28
+end
+arch grass
+x 4
+y 29
+end
+arch grass
+x 4
+y 30
+end
+arch grass
+x 4
+y 31
 end
 arch dungeon_magic
 x 5
@@ -1807,6 +1864,18 @@ arch grass
 x 5
 y 28
 end
+arch grass
+x 5
+y 29
+end
+arch grass
+x 5
+y 30
+end
+arch grass
+x 5
+y 31
+end
 arch dungeon_magic
 x 6
 end
@@ -2033,7 +2102,7 @@ arch woodfloor2
 x 6
 y 22
 end
-arch wwall_2_1_1
+arch wwall_3_2
 x 6
 y 22
 end
@@ -2069,7 +2138,7 @@ arch woodfloor2
 x 6
 y 25
 end
-arch wwall_3_2
+arch wwall_2_1_1
 x 6
 y 25
 end
@@ -2093,13 +2162,49 @@ arch woodfloor2
 x 6
 y 27
 end
-arch wwall_3_1
+arch wwall_3_4
 x 6
 y 27
 end
-arch grass
+arch dungeon_magic
 x 6
 y 28
+end
+arch woodfloor2
+x 6
+y 28
+end
+arch wwall_3_2
+x 6
+y 28
+end
+arch dungeon_magic
+x 6
+y 29
+end
+arch woodfloor2
+x 6
+y 29
+end
+arch wwall_2_1_1
+x 6
+y 29
+end
+arch dungeon_magic
+x 6
+y 30
+end
+arch woodfloor2
+x 6
+y 30
+end
+arch wwall_2_2_1
+x 6
+y 30
+end
+arch grass
+x 6
+y 31
 end
 arch dungeon_magic
 x 7
@@ -2356,6 +2461,34 @@ arch woodfloor2
 x 7
 y 22
 end
+arch wwall_2_1_2
+x 7
+y 22
+end
+arch dungeon_magic
+x 7
+y 23
+end
+arch woodfloor2
+x 7
+y 23
+end
+arch dungeon_magic
+x 7
+y 24
+end
+arch woodfloor2
+x 7
+y 24
+end
+arch dungeon_magic
+x 7
+y 25
+end
+arch woodfloor2
+x 7
+y 25
+end
 arch farmer
 name Doorman
 msg
@@ -2372,7 +2505,7 @@ So you're ready for the world of Crossfire? To go outside, use the knowledge you
 @question help Who can I ask for more help?
 endmsg
 x 7
-y 22
+y 25
 resist_physical 100
 resist_magic 100
 weight 5000000
@@ -2382,66 +2515,66 @@ stand_still 1
 end
 arch dungeon_magic
 x 7
-y 23
+y 26
 end
 arch woodfloor2
 x 7
-y 23
+y 26
 end
 arch dungeon_magic
 x 7
-y 24
+y 27
 end
 arch woodfloor2
 x 7
-y 24
+y 27
 end
 arch dungeon_magic
 x 7
-y 25
+y 28
 end
 arch woodfloor2
 x 7
-y 25
+y 28
 end
 arch wwall_2_1_2
 x 7
-y 25
+y 28
 end
 arch dungeon_magic
 x 7
-y 26
+y 29
 end
 arch woodfloor2
 x 7
-y 26
+y 29
 end
 arch generate_ant
 x 7
-y 26
+y 29
 resist_physical 100
 resist_magic 100
 generator_limit 50
 end
 arch dungeon_magic
 x 7
-y 27
+y 30
 end
 arch woodfloor2
 x 7
-y 27
+y 30
 end
 arch wwall_2_1_2
 x 7
-y 27
+y 30
 end
 arch dungeon_magic
 x 7
-y 28
+y 31
 end
 arch grass_only
 x 7
-y 28
+y 31
 end
 arch dungeon_magic
 x 8
@@ -2625,6 +2758,10 @@ arch woodfloor2
 x 8
 y 22
 end
+arch wwall_2_1_2
+x 8
+y 22
+end
 arch dungeon_magic
 x 8
 y 23
@@ -2648,42 +2785,66 @@ end
 arch woodfloor2
 x 8
 y 25
+end
+arch dungeon_magic
+x 8
+y 26
+end
+arch woodfloor2
+x 8
+y 26
+end
+arch dungeon_magic
+x 8
+y 27
+end
+arch woodfloor2
+x 8
+y 27
+end
+arch dungeon_magic
+x 8
+y 28
+end
+arch woodfloor2
+x 8
+y 28
 end
 arch wwall_2_1_2
 x 8
-y 25
+y 28
 end
 arch dungeon_magic
 x 8
-y 26
+y 29
 end
 arch woodfloor2
 x 8
-y 26
+y 29
 end
 arch dungeon_magic
 x 8
-y 27
+y 30
 end
 arch woodfloor2
 x 8
-y 27
+y 30
 end
 arch wwall_2_2_3
 x 8
-y 27
+y 30
 end
 arch dungeon_magic
 x 8
-y 28
+y 31
 end
 arch grass_only
 x 8
-y 28
+y 31
 end
 arch wwall_1_2
 x 8
-y 28
+y 31
 end
 arch dungeon_magic
 x 9
@@ -2750,7 +2911,7 @@ Want a quick start? Speak to Sigmund at the entrance. Don't remember how to spea
 -------
 say hello
 -------
-in the command box of your client or use the chat boxes if (there are any).
+in the command box of your client or use the chat boxes (if there are any).
 You will find many signs like this one in the game.
 Never forget to read them as they give you useful information.
 endmsg
@@ -2886,10 +3047,6 @@ arch woodfloor2
 x 9
 y 21
 end
-arch wwall_1_1
-x 9
-y 21
-end
 arch dungeon_magic
 x 9
 y 22
@@ -2897,41 +3054,41 @@ end
 arch woodfloor2
 x 9
 y 22
-end
-arch wwall_2_1_1
-x 9
-y 22
-end
-arch dungeon_magic
-x 9
-y 23
-end
-arch woodfloor2
-x 9
-y 23
-end
-arch wwall_2_2_1
-x 9
-y 23
-end
-arch dungeon_magic
-x 9
-y 24
-end
-arch woodfloor2
-x 9
-y 24
-end
-arch dungeon_magic
-x 9
-y 25
-end
-arch woodfloor2
-x 9
-y 25
 end
 arch wwall_2_1_2
 x 9
+y 22
+end
+arch dungeon_magic
+x 9
+y 23
+end
+arch woodfloor2
+x 9
+y 23
+end
+arch dungeon_magic
+x 9
+y 24
+end
+arch woodfloor2
+x 9
+y 24
+end
+arch wwall_1_1
+x 9
+y 24
+end
+arch dungeon_magic
+x 9
+y 25
+end
+arch woodfloor2
+x 9
+y 25
+end
+arch wwall_2_1_1
+x 9
 y 25
 end
 arch dungeon_magic
@@ -2942,6 +3099,10 @@ arch woodfloor2
 x 9
 y 26
 end
+arch wwall_2_2_1
+x 9
+y 26
+end
 arch dungeon_magic
 x 9
 y 27
@@ -2957,13 +3118,41 @@ end
 arch woodfloor2
 x 9
 y 28
+end
+arch wwall_2_1_2
+x 9
+y 28
+end
+arch dungeon_magic
+x 9
+y 29
+end
+arch woodfloor2
+x 9
+y 29
+end
+arch dungeon_magic
+x 9
+y 30
+end
+arch woodfloor2
+x 9
+y 30
+end
+arch dungeon_magic
+x 9
+y 31
+end
+arch woodfloor2
+x 9
+y 31
 end
 arch oakdoor_2
 slaying /start/Nexus
 hp 6
 sp 12
 x 9
-y 28
+y 31
 end
 arch dungeon_magic
 x 10
@@ -3158,6 +3347,10 @@ arch woodfloor2
 x 10
 y 22
 end
+arch wwall_2_1_2
+x 10
+y 22
+end
 arch dungeon_magic
 x 10
 y 23
@@ -3165,66 +3358,90 @@ end
 arch woodfloor2
 x 10
 y 23
+end
+arch dungeon_magic
+x 10
+y 24
+end
+arch woodfloor2
+x 10
+y 24
+end
+arch dungeon_magic
+x 10
+y 25
+end
+arch woodfloor2
+x 10
+y 25
+end
+arch dungeon_magic
+x 10
+y 26
+end
+arch woodfloor2
+x 10
+y 26
 end
 arch wwall_2_1_2
 x 10
-y 23
+y 26
 end
 arch dungeon_magic
 x 10
-y 24
+y 27
 end
 arch woodfloor2
 x 10
-y 24
+y 27
 end
 arch trigger
 x 10
-y 24
+y 27
 connected 31
 end
 arch dungeon_magic
 x 10
-y 25
+y 28
 end
 arch woodfloor2
 x 10
-y 25
+y 28
 end
 arch wwall_2_1_2
 x 10
-y 25
-end
-arch dungeon_magic
-x 10
-y 26
-end
-arch woodfloor2
-x 10
-y 26
-end
-arch dungeon_magic
-x 10
-y 27
-end
-arch woodfloor2
-x 10
-y 27
-end
-arch dungeon_magic
-x 10
 y 28
 end
+arch dungeon_magic
+x 10
+y 29
+end
 arch woodfloor2
 x 10
-y 28
+y 29
+end
+arch dungeon_magic
+x 10
+y 30
+end
+arch woodfloor2
+x 10
+y 30
+end
+arch dungeon_magic
+x 10
+y 31
+end
+arch woodfloor2
+x 10
+y 31
 end
 arch oakdoor_2
 slaying /start/Nexus
 hp 6
 sp 12
 x 10
-y 28
+y 31
 end
 arch dungeon_magic
 x 11
@@ -3466,9 +3683,11 @@ Some are so difficult your character may not understand them.
 Not everyone finds all books interesting, but one important fact is: Reading them often yields experience.
 Simply apply a book to read it.
 
-Reading is important for two reasons:
+Reading is important:
 - learning high-level spells requires a high literacy level, gained by reading a lot
-- texts contain various information about the world, including places that may be interesting to visit
+- texts contain various information about the world, including places that may be interesting to visit, monsters, and so on
+- texts may give hints about quests
+- crafting (alchemy, for instance) recipes are usually found in books, so you can learn how to make many items
 endmsg
 x 11
 y 18
@@ -3501,6 +3720,34 @@ arch woodfloor2
 x 11
 y 21
 end
+arch dungeon_magic
+x 11
+y 22
+end
+arch woodfloor2
+x 11
+y 22
+end
+arch wwall_2_1_2
+x 11
+y 22
+end
+arch dungeon_magic
+x 11
+y 23
+end
+arch woodfloor2
+x 11
+y 23
+end
+arch dungeon_magic
+x 11
+y 24
+end
+arch woodfloor2
+x 11
+y 24
+end
 arch sign
 name Food
 msg
@@ -3508,96 +3755,96 @@ Remember, you need to eat or you'll starve. Never forget to carry food with you.
 Would you like some more food now? If so, go near the altar and say 'food'.
 endmsg
 x 11
-y 21
+y 24
 end
 arch dungeon_magic
 x 11
-y 22
+y 25
 end
 arch woodfloor2
 x 11
-y 22
+y 25
 end
 arch creator
 other_arch food
 hp 12
 x 11
-y 22
+y 25
 connected 11
 end
 arch dungeon_magic
 x 11
-y 23
+y 26
 end
 arch woodfloor2
 x 11
-y 23
+y 26
 end
 arch wwall_2_1_2
 x 11
-y 23
+y 26
 end
 arch dungeon_magic
 x 11
-y 24
+y 27
 end
 arch woodfloor2
 x 11
-y 24
+y 27
 end
 arch grate_closed_2
 x 11
-y 24
+y 27
 connected 31
 end
 arch dungeon_magic
 x 11
-y 25
+y 28
 end
 arch woodfloor2
 x 11
-y 25
+y 28
 end
 arch wwall_2_1_2
 x 11
-y 25
+y 28
 end
 arch dungeon_magic
 x 11
-y 26
+y 29
 end
 arch woodfloor2
 x 11
-y 26
+y 29
 end
 arch gateTrg2
 x 11
-y 26
+y 29
 connected 32
 end
 arch dungeon_magic
 x 11
-y 27
+y 30
 end
 arch woodfloor2
 x 11
-y 27
+y 30
 end
 arch wwall_2_2_2
 x 11
-y 27
+y 30
 end
 arch dungeon_magic
 x 11
-y 28
+y 31
 end
 arch grass_only
 x 11
-y 28
+y 31
 end
 arch wwall_1_2
 x 11
-y 28
+y 31
 end
 arch dungeon_magic
 x 12
@@ -3818,69 +4065,97 @@ arch woodfloor2
 x 12
 y 21
 end
+arch dungeon_magic
+x 12
+y 22
+end
+arch woodfloor2
+x 12
+y 22
+end
+arch wwall_2_1_2
+x 12
+y 22
+end
+arch dungeon_magic
+x 12
+y 23
+end
+arch woodfloor2
+x 12
+y 23
+end
+arch dungeon_magic
+x 12
+y 24
+end
+arch woodfloor2
+x 12
+y 24
+end
 arch magic_ear
 msg
 @match food
 Food for you.
 endmsg
 x 12
-y 21
+y 24
 connected 11
 end
 arch dungeon_magic
 x 12
-y 22
+y 25
 end
 arch woodfloor2
 x 12
-y 22
+y 25
 move_block all
 end
 arch altar
-x 12
-y 22
-end
-arch dungeon_magic
-x 12
-y 23
-end
-arch woodfloor2
-x 12
-y 23
-end
-arch wwall_2_1_2
-x 12
-y 23
-end
-arch dungeon_magic
-x 12
-y 24
-end
-arch woodfloor2
-x 12
-y 24
-end
-arch button_small
-x 12
-y 24
-invisible 1
-connected 31
-end
-arch dungeon_magic
-x 12
-y 25
-end
-arch woodfloor2
-x 12
-y 25
-end
-arch wwall_2_1_2
 x 12
 y 25
 end
 arch dungeon_magic
 x 12
 y 26
+end
+arch woodfloor2
+x 12
+y 26
+end
+arch wwall_2_1_2
+x 12
+y 26
+end
+arch dungeon_magic
+x 12
+y 27
+end
+arch woodfloor2
+x 12
+y 27
+end
+arch button_small
+x 12
+y 27
+invisible 1
+connected 31
+end
+arch dungeon_magic
+x 12
+y 28
+end
+arch woodfloor2
+x 12
+y 28
+end
+arch wwall_2_1_2
+x 12
+y 28
+end
+arch dungeon_magic
+x 12
+y 29
 end
 arch magic_ear
 msg
@@ -3888,32 +4163,32 @@ msg
 Have a nice trip and don't die too quickly.
 endmsg
 x 12
-y 26
+y 29
 connected 32
 end
 arch woodfloor2
 x 12
-y 26
+y 29
 end
 arch dungeon_magic
 x 12
-y 27
+y 30
 end
 arch woodfloor2
 x 12
-y 27
+y 30
 end
 arch wwall_2_1_2
 x 12
-y 27
+y 30
 end
 arch dungeon_magic
 x 12
-y 28
+y 31
 end
 arch grass_only
 x 12
-y 28
+y 31
 end
 arch dungeon_magic
 x 13
@@ -4129,7 +4404,7 @@ arch woodfloor2
 x 13
 y 20
 end
-arch wwall_3_3
+arch wwall_2_1_2
 x 13
 y 20
 end
@@ -4141,10 +4416,6 @@ arch woodfloor2
 x 13
 y 21
 end
-arch wwall_2_1_1
-x 13
-y 21
-end
 arch dungeon_magic
 x 13
 y 22
@@ -4153,7 +4424,7 @@ arch woodfloor2
 x 13
 y 22
 end
-arch wwall_2_1_1
+arch wwall_1_3
 x 13
 y 22
 end
@@ -4162,10 +4433,6 @@ x 13
 y 23
 end
 arch woodfloor2
-x 13
-y 23
-end
-arch wwall_2_2_4
 x 13
 y 23
 end
@@ -4177,6 +4444,10 @@ arch woodfloor2
 x 13
 y 24
 end
+arch wwall_3_2
+x 13
+y 24
+end
 arch dungeon_magic
 x 13
 y 25
@@ -4185,44 +4456,76 @@ arch woodfloor2
 x 13
 y 25
 end
-arch wwall_2_1_2
+arch wwall_2_1_1
 x 13
 y 25
 end
 arch dungeon_magic
 x 13
 y 26
+end
+arch woodfloor2
+x 13
+y 26
+end
+arch wwall_2_2_4
+x 13
+y 26
+end
+arch dungeon_magic
+x 13
+y 27
+end
+arch woodfloor2
+x 13
+y 27
+end
+arch dungeon_magic
+x 13
+y 28
+end
+arch woodfloor2
+x 13
+y 28
+end
+arch wwall_2_1_2
+x 13
+y 28
+end
+arch dungeon_magic
+x 13
+y 29
 end
 arch magic_mouth
 msg
 Say 'hello world' if you want the door to open.
 endmsg
 x 13
-y 26
+y 29
 end
 arch woodfloor2
 x 13
-y 26
+y 29
 end
 arch dungeon_magic
 x 13
-y 27
+y 30
 end
 arch woodfloor2
 x 13
-y 27
+y 30
 end
 arch wwall_2_1_2
 x 13
-y 27
+y 30
 end
 arch dungeon_magic
 x 13
-y 28
+y 31
 end
 arch grass_only
 x 13
-y 28
+y 31
 end
 arch dungeon_magic
 x 14
@@ -4474,48 +4777,48 @@ arch dungeon_magic
 x 14
 y 21
 end
+arch woodfloor2
+x 14
+y 21
+end
+arch dungeon_magic
+x 14
+y 22
+end
+arch woodfloor2
+x 14
+y 22
+end
+arch dungeon_magic
+x 14
+y 23
+end
+arch woodfloor2
+x 14
+y 23
+end
+arch dungeon_magic
+x 14
+y 24
+end
 arch rune_paralysis
 x 14
-y 21
-end
-arch woodfloor2
-x 14
-y 21
-end
-arch dungeon_magic
-x 14
-y 22
-end
-arch woodfloor2
-x 14
-y 22
-end
-arch dungeon_magic
-x 14
-y 23
-end
-arch woodfloor2
-x 14
-y 23
-end
-arch dungeon_magic
-x 14
 y 24
 end
 arch woodfloor2
 x 14
 y 24
-end
-arch dungeon_magic
-x 14
-y 25
-end
-arch woodfloor2
-x 14
-y 25
 end
 arch wwall_2_1_2
 x 14
+y 24
+end
+arch dungeon_magic
+x 14
+y 25
+end
+arch woodfloor2
+x 14
 y 25
 end
 arch dungeon_magic
@@ -4525,32 +4828,60 @@ end
 arch woodfloor2
 x 14
 y 26
+end
+arch dungeon_magic
+x 14
+y 27
+end
+arch woodfloor2
+x 14
+y 27
+end
+arch dungeon_magic
+x 14
+y 28
+end
+arch woodfloor2
+x 14
+y 28
+end
+arch wwall_2_1_2
+x 14
+y 28
+end
+arch dungeon_magic
+x 14
+y 29
+end
+arch woodfloor2
+x 14
+y 29
 end
 arch check_inv
 hp 1
 x 14
-y 26
+y 29
 move_block all
 end
 arch dungeon_magic
 x 14
-y 27
+y 30
 end
 arch woodfloor2
 x 14
-y 27
+y 30
 end
 arch wwall_2_1_2
 x 14
-y 27
+y 30
 end
 arch dungeon_magic
 x 14
-y 28
+y 31
 end
 arch grass_only
 x 14
-y 28
+y 31
 end
 arch dungeon_magic
 x 15
@@ -4838,20 +5169,26 @@ arch woodfloor2
 x 15
 y 22
 end
-arch trap_spikes2
-dam 2
+arch sign
+msg
+If, unfortunately, you should lose stats after being defeated by an evil foo, drink a potion of life.
+It will restore everything you lost.
+
+Depending on your level, you must drink a minor, medium, major or supreme potion.
+
+Note that some gods can also restore you if you pray enough over their altar.
+
+Take the potions next to this sign, they may prove useful!
+endmsg
 x 15
 y 22
+knowledge_marker message:G-STATS-DEPLETION
 end
 arch dungeon_magic
 x 15
 y 23
 end
 arch woodfloor2
-x 15
-y 23
-end
-arch wwall_1_1
 x 15
 y 23
 end
@@ -4862,46 +5199,83 @@ end
 arch woodfloor2
 x 15
 y 24
-end
-arch wwall_2_1_1
-x 15
-y 24
-end
-arch dungeon_magic
-x 15
-y 25
-end
-arch woodfloor2
-x 15
-y 25
-end
-arch wwall_2_2_4
-x 15
-y 25
-end
-arch dungeon_magic
-x 15
-y 26
-end
-arch woodfloor2
-x 15
-y 26
-end
-arch dungeon_magic
-x 15
-y 27
-end
-arch woodfloor2
-x 15
-y 27
 end
 arch wwall_2_1_2
 x 15
+y 24
+end
+arch dungeon_magic
+x 15
+y 25
+end
+arch woodfloor2
+x 15
+y 25
+end
+arch trap_spikes2
+dam 2
+x 15
+y 25
+end
+arch dungeon_magic
+x 15
+y 26
+end
+arch woodfloor2
+x 15
+y 26
+end
+arch wwall_1_1
+x 15
+y 26
+end
+arch dungeon_magic
+x 15
 y 27
+end
+arch woodfloor2
+x 15
+y 27
+end
+arch wwall_2_1_1
+x 15
+y 27
+end
+arch dungeon_magic
+x 15
+y 28
+end
+arch woodfloor2
+x 15
+y 28
+end
+arch wwall_2_2_4
+x 15
+y 28
+end
+arch dungeon_magic
+x 15
+y 29
+end
+arch woodfloor2
+x 15
+y 29
+end
+arch dungeon_magic
+x 15
+y 30
+end
+arch woodfloor2
+x 15
+y 30
+end
+arch wwall_2_1_2
+x 15
+y 30
 end
 arch grass
 x 15
-y 28
+y 31
 end
 arch dungeon_magic
 x 16
@@ -5172,6 +5546,12 @@ arch woodfloor2
 x 16
 y 22
 end
+arch minor_potion_restoration
+x 16
+y 22
+nrof 5
+identified 1
+end
 arch dungeon_magic
 x 16
 y 23
@@ -5187,42 +5567,70 @@ end
 arch woodfloor2
 x 16
 y 24
-end
-arch dungeon_magic
-x 16
-y 25
-end
-arch woodfloor2
-x 16
-y 25
-end
-arch dungeon_magic
-x 16
-y 26
-end
-arch rune_paralysis
-x 16
-y 26
-end
-arch woodfloor2
-x 16
-y 26
-end
-arch dungeon_magic
-x 16
-y 27
-end
-arch woodfloor2
-x 16
-y 27
 end
 arch wwall_2_1_2
 x 16
+y 24
+end
+arch dungeon_magic
+x 16
+y 25
+end
+arch woodfloor2
+x 16
+y 25
+end
+arch dungeon_magic
+x 16
+y 26
+end
+arch woodfloor2
+x 16
+y 26
+end
+arch dungeon_magic
+x 16
 y 27
+end
+arch woodfloor2
+x 16
+y 27
+end
+arch dungeon_magic
+x 16
+y 28
+end
+arch woodfloor2
+x 16
+y 28
+end
+arch dungeon_magic
+x 16
+y 29
+end
+arch rune_paralysis
+x 16
+y 29
+end
+arch woodfloor2
+x 16
+y 29
+end
+arch dungeon_magic
+x 16
+y 30
+end
+arch woodfloor2
+x 16
+y 30
+end
+arch wwall_2_1_2
+x 16
+y 30
 end
 arch grass
 x 16
-y 28
+y 31
 end
 arch dungeon_magic
 x 17
@@ -5514,7 +5922,7 @@ arch woodfloor2
 x 17
 y 24
 end
-arch wwall_2_1_1
+arch wwall_3_4
 x 17
 y 24
 end
@@ -5550,13 +5958,49 @@ arch woodfloor2
 x 17
 y 27
 end
-arch wwall_2_2_4
+arch wwall_2_1_1
 x 17
 y 27
 end
-arch grass
+arch dungeon_magic
 x 17
 y 28
+end
+arch woodfloor2
+x 17
+y 28
+end
+arch wwall_2_1_1
+x 17
+y 28
+end
+arch dungeon_magic
+x 17
+y 29
+end
+arch woodfloor2
+x 17
+y 29
+end
+arch wwall_2_1_1
+x 17
+y 29
+end
+arch dungeon_magic
+x 17
+y 30
+end
+arch woodfloor2
+x 17
+y 30
+end
+arch wwall_2_2_4
+x 17
+y 30
+end
+arch grass
+x 17
+y 31
 end
 arch dungeon_magic
 x 18
@@ -5780,7 +6224,31 @@ arch grass_only
 x 18
 y 27
 end
-arch grass
+arch dungeon_magic
 x 18
 y 28
+end
+arch grass_only
+x 18
+y 28
+end
+arch dungeon_magic
+x 18
+y 29
+end
+arch grass_only
+x 18
+y 29
+end
+arch dungeon_magic
+x 18
+y 30
+end
+arch grass_only
+x 18
+y 30
+end
+arch grass
+x 18
+y 31
 end
