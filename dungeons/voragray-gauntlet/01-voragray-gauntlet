@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2017-06-30 Rick Tanner
-Modified: 2017-06-30 Rick Tanner
+Modified: 2021-06-05 Nicolas Weeger
 endmsg
 end
 arch cobblestones2
@@ -529,12 +529,12 @@ x 3
 y 10
 end
 arch exit
-slaying ../../world/world_119_104
+slaying 02-voragray-gauntlet
 msg
-Well.. I see I need to make this more challenging. How fortunate for you!!
+You managed to survive so far, good luck for the next round!
 endmsg
-hp 34
-sp 19
+hp 3
+sp 3
 x 3
 y 10
 end

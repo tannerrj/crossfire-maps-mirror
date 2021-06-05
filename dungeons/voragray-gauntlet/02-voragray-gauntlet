@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2017-12-30 Rick Tanner
-Modified: 2017-12-31 Rick Tanner
+Modified: 2021-06-05 Nicolas Weeger
 endmsg
 end
 arch flagstone
@@ -492,7 +492,7 @@ y 6
 end
 arch magic_mouth
 msg
-Back again? Find the three keys to continue on .. if you survive!
+Find the three keys to continue on .. if you survive!
 endmsg
 x 3
 y 6
@@ -529,12 +529,14 @@ x 3
 y 10
 end
 arch exit
-slaying ../../world/world_119_104
+slaying voragray-end
 msg
-Another challenge defeated. You live for another day. For now!!
+Very well, you seem strong enough.
+
+If you give back the relics, I shall be magnanimous and let you have some treasure.
 endmsg
-hp 34
-sp 19
+hp 3
+sp 3
 x 3
 y 10
 end
