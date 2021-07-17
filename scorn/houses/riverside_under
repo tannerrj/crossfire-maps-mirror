@@ -9,7 +9,7 @@ enter_x 23
 enter_y 4
 msg
 Created:  2003-04-27
-Modified: 2013-08-12 Kevin Zheng
+Modified: 2021-07-17 rock808
 endmsg
 end
 arch dirtfloor
@@ -247,8 +247,8 @@ y 15
 end
 arch ladder_up
 slaying riverside_under
-hp 1
-sp 10
+hp 19
+sp 1
 x 1
 y 15
 end
