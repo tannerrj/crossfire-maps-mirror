@@ -4097,7 +4097,7 @@ end
 arch gaelotroll
 name bridge troll
 msg
-match *
+@match *
 No pass!
 endmsg
 hp 6000

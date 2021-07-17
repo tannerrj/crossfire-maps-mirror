@@ -2554,7 +2554,7 @@ end
 arch beggar
 name wandering drunk
 msg
-match *
+@match *
 I am celebrating my big win.  Lady luck was finally on my side of the dice! *hiccup*
 endmsg
 x 20

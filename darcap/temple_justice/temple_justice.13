@@ -427,7 +427,7 @@ end
 arch liteangel
 name Holy Guard
 msg
-match@ *
+@match *
 You shall not pass!
 endmsg
 face guard_ligh.111

@@ -533,7 +533,7 @@ end
 arch gaelotroll
 name Bridge Troll
 msg
-match@ *
+@match *
 No pass!
 endmsg
 hp 6000
@@ -829,7 +829,7 @@ end
 arch gaelotroll
 name Bridge Troll
 msg
-match@ *
+@match *
 No pass!
 endmsg
 hp 6000
@@ -933,7 +933,7 @@ end
 arch gaelotroll
 name Bridge Troll
 msg
-match@ *
+@match *
 No pass!
 endmsg
 hp 6000

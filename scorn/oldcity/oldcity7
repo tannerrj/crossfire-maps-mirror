@@ -837,7 +837,7 @@ end
 arch thief_1
 name Gumble!
 msg
-match *
+@match *
 He he he he he he...
 endmsg
 x 3
@@ -2350,7 +2350,7 @@ end
 arch pixie
 name Lone Pixie
 msg
-match *
+@match *
 Beware of Thalik Norois, he is king of the Old City.
 endmsg
 x 9
