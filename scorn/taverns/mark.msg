@@ -5,7 +5,7 @@
   "match" : ["mark"],
   "pre" : [],
   "post": [],
-  "msg" : ["Ya that's me.  Bugger off, I'm on a roll here.\nO 47"]
+  "msg" : ["Ya that's me.  Bugger off, I'm on a roll here.\nO-47"]
   }, {
   "match" : ["amy"],
   "pre" : [],
@@ -22,15 +22,15 @@
   "post": [["quest", "scorn/CoffeeGoose", "40"]],
   "msg" : ["Ok, ok, don't hurt me.  I took her.  Don't turn me in.  If you did they'd take the goose for evidence, and then you wouldn't get the reward.\nI hid the that bird at Amy's place."]
   },{
-  "match" : ["key", "door"],
+  "match" : ["key", "special", "locked", "door"],
   "pre" : [["quest", "scorn/CoffeeGoose", "50"]],
   "post": [],
-  "msg" : ["Ok, ok, the key's hidden at Swabbie's house.\nTell Chancy 'mumblypeg' and he'll fetch it for you."]
+  "msg" : ["The key's at Swabbie's house.\nTell Chancy 'mumblypeg' and he'll fetch it for you."]
   },{
-  "match" : ["key", "door"],
+  "match" : ["key", "special", "locked", "door"],
   "pre" : [["quest", "scorn/CoffeeGoose", "40"]],
   "post": [["quest", "scorn/CoffeeGoose", "47"]],
-  "msg" : ["Ok, ok, the key's hidden at Swabbie's house.\nTell Chancy 'mumblypeg' and he'll fetch it for you."]
+  "msg" : ["The key's at Swabbie's house.\nTell Chancy 'mumblypeg' and he'll fetch it for you."]
   },{
   "match" : ["name"],
   "pre" : [],
@@ -45,6 +45,6 @@
   "match" : ["*"],
   "pre" : [],
   "post": [],
-  "msg" : ["Go away, I'm busy.\nN 15"]
+  "msg" : ["Go away, I'm busy.\nN-15"]
   }
 ]}

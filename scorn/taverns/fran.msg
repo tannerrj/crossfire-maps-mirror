@@ -2,50 +2,65 @@
   "location" : "scorn_riverside",
   "rules": [
   {
-  "match" : ["mark"],
+  "match" : ["cornerbrook"],
   "pre" : [],
   "post": [],
-  "msg" : ["That bum, all this time he had a girl on the side.\nToo bad he was coming into some coin too...\nSome deal with that bird of his."]
+  "msg" : ["Just south of here."]
   }, {
-  "match" : ["oled"],
+  "match" : ["swabbie"],
   "pre" : [],
   "post": [],
-  "msg" : ["He's ok to work for, but he's a pincher if you know what I mean.\nHe's usually pretty mellow, but lately he seems a bit tense."]
+  "msg" : ["That run down ole pirate has been hiding away at his place in Cornerbrook the last few days. Very odd."]
+  }, {
+  "match" : ["bird", "goose"],
+  "pre" : [["token", "service", "yes"], ["quest", "scorn/CoffeeGoose", "30"]],
+  "post": [],
+  "msg" : ["Ya I heard Mark and Swabbie stole a goose."]
   },{
+  "match" : ["bird", "goose"],
+  "pre" : [["token", "service", "yes"], ["quest", "scorn/CoffeeGoose", "20"]],
+  "post": [["quest", "scorn/CoffeeGoose", "30"]],
+  "msg" : ["Ya I heard Mark and Swabbie stole a goose."]
+  },{
+  "match" : ["bird", "goose"],
+  "pre" : [["token", "service", "yes"]],
+  "post": [],
+  "msg" : ["Ya I heard Mark and Swabbie stole a goose."]
+  },{
+  "match" : ["mark"],
+  "pre" : [["token", "service", "yes"]],
+  "post": [],
+  "msg" : ["That bum, all this time he had a girl on the side. Too bad he was coming into some coin too... Some deal with that bird of his."]
+  }, {
+  "match" : ["amy"],
+  "pre" : [["token", "service", "yes"]],
+  "post": [],
+  "msg" : ["She broke up with Mark. Can't blame her one bit."]
+  }, {
   "match" : ["pincher"],
-  "pre" : [],
+  "pre" : [["token", "service", "yes"]],
   "post": [],
   "msg" : ["You try it an I'll deck you I says to him..."]
   },{
-  "match" : ["bird", "goose"],
-  "pre" : [["quest", "scorn/CoffeeGoose", "30"]],
+  "match" : ["oled"],
+  "pre" : [["token", "service", "yes"]],
   "post": [],
-  "msg" : ["Ya I heard Mark stole a goose."]
+  "msg" : ["He's okay to work for, but he's a pincher if you know what I mean. He's usually pretty mellow, but lately he seems a bit tense."]
   },{
-  "match" : ["bird", "goose"],
-  "pre" : [["quest", "scorn/CoffeeGoose", "20"]],
-  "post": [["quest", "scorn/CoffeeGoose", "30"]],
-  "msg" : ["Ya I heard Mark stole a goose."]
-  },{
-  "match" : ["bird", "goose"],
+  "match" : ["job", "jobs"],
   "pre" : [],
-  "post": [],
-  "msg" : ["Ya I heard Mark stole a goose."]
+  "post": [["settoken", "service", "yes"]],
+  "msg" : ["Ya I work part time at Oled's Cafe too."]
+  },{
+  "match" : ["service", "order"],
+  "pre" : [],
+  "post": [["settoken", "service", "yes"]],
+  "msg" : ["Hey buddy just take a seat, I work two jobs you know."]
   },{
   "match" : ["who"],
   "pre" : [],
   "post": [],
-  "msg" : ["Your pretty nosey there fella."]
-  },{
-  "match" : ["service", "order"],
-  "pre" : [],
-  "post": [],
-  "msg" : ["Hey buddy just take a seat, I work two jobs you know."]
-  },{
-  "match" : ["job"],
-  "pre" : [],
-  "post": [],
-  "msg" : ["Ya I work part time at Oled's Cafe too."]
+  "msg" : ["You're pretty nosey there fella."]
   },{
   "match" : ["alfalfa"],
   "pre" : [["quest", "scorn/OrcDress", "=10"]],
@@ -55,6 +70,6 @@
   "match" : ["*"],
   "pre" : [],
   "post": [],
-  "msg" : ["Hey kitchen is off limits!\nKeep it in your scabbard and take a seat there chum."]
+  "msg" : ["Hey kitchen is off limits! Keep it in your scabbard and take a seat there chum."]
   }
 ]}

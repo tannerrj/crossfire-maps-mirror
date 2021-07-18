@@ -40,7 +40,7 @@
   "match" : ["yes"],
   "pre" : [["quest", "scorn/PassClerk", "50"], ["token", "buy", "gate", "port"]],
   "post" : [["settoken", "buy", "0"]],
-  "msg" : ["If you're going to go to the trouble of ordering a pass, at least have the money to pay for it. \nCome back when you have enough.\n Better still, don't come back at all."]
+  "msg" : ["If you're going to go to the trouble of ordering a pass, at least have the money to pay for it. Come back when you have enough. Better still, don't come back at all."]
   }, {
   "match" : ["yes"],
   "pre" : [["quest", "scorn/PassClerk", "30"], ["token", "buy", "coffee"], ["item", "Eswald's superior coffee", "1"]],
@@ -55,7 +55,7 @@
   "match" : ["yes"],
   "pre" : [["quest", "scorn/PassClerk", "30"], ["token", "buy", "coffee"], ["item", "Eswald's inferior coffee"], ["quest", "scorn/CoffeeGoose", "10"]],
   "post" : [["quest", "scorn/PassClerk", "40"], ["settoken", "buy", "choose"], ["takeitem", "Eswald's inferior coffee", "1"]],
-  "msg" : ["<SLURP>...<Cough>...<SPIT> What are you trying to do, poison me! That coffee is terrible, you'll need to find something a lot  better than that."]
+  "msg" : ["<SLURP>...<Cough>...<SPIT> What are you trying to do, poison me! That coffee is terrible, you'll need to find something a lot better than that."]
   }, {
   "match" : ["yes"],
   "pre" : [["quest", "scorn/PassClerk", "30"], ["token", "buy", "coffee"], ["item", "Eswald's inferior coffee"]],
@@ -145,7 +145,7 @@
   "match" : ["*"],
   "pre" : [["quest", "scorn/PassClerk", "50"]],
   "post" : [["settoken", "buy", "choose"]],
-  "msg" : ["oh, hello, I suppose you'll be wanting a pass then?"]
+  "msg" : ["Oh, hello, I suppose you'll be wanting a pass then?"]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "scorn/PassClerk", "10"]],

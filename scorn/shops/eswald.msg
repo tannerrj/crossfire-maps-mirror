@@ -30,57 +30,79 @@
   "match" : ["yes", "found"],
   "pre" : [["quest", "scorn/CoffeeGoose", "20"], ["token", "askgoose", "yes"], ["item", "EsmeraldaTheGoose"]],
   "post" : [["settoken", "askgoose", "0"], ["giveitem", "money", "5000"], ["quest", "scorn/CoffeeGoose", "100"], ["takeitem", "EsmeraldaTheGoose"]],
-  "msg" : ["You found her!  Here is your reward.  Thanks $you.\n\n Esmeralda has the finest nose...er... beak for coffee in the kingdom.\n Oled will be so jealous of my coffee."]
+  "msg" : ["You found her! Here is your reward. Thanks $you.\n\n Esmeralda has the finest nose...er... beak for coffee in the kingdom.\n Oled will be so jealous of my coffee."]
   }, {
   "match" : ["yes", "found"],
   "pre" : [["quest", "scorn/CoffeeGoose", "20"], ["token", "askgoose", "yes"]],
   "post" : [["settoken", "askgoose", "0"]],
-  "msg" : ["You have, that's fantastic! bring her back here and I'll pay you your reward."]
+  "msg" : ["You have, that's fantastic! Bring her back here and I'll pay you your reward."]
   }, {
-  "match" : ["*"],
-  "pre" : [["quest", "scorn/CoffeeGoose", "20"]],
-  "post" : [["settoken", "askgoose", "yes"]],
-  "msg" : ["Have you found Esmerelda yet?"]
+  "match" : ["goth", "goths", "tavern", "card", "games", "cards"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["Goth's Tavern? Best card games in all of Scorn! Far northeast corner of Scorn."]
   }, {
-  "match" : ["clue", "idea", "lead", "lost", "suspicious"],
-  "pre" : [["quest", "scorn/CoffeeGoose", "20"]],
+  "match" : ["mule"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["The Barking Mule! Head west on River Road all the way to the end, then it's just north."]
+  }, {
+  "match" : ["Mark"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["What a bum. Gambles a lot. Always after the quick, easy coin. Chattin' it up with Fran last I saw."]
+  }, {
+  "match" : ["Fran"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["Seen her working at the Mule. Just ask for service, she will always take your order!"]
+  }, {
+  "match" : ["amy"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["She's the caretaker down at Riverside Manor. Saw her talking to Oled earlier."]
+  }, {
+  "match" : ["riverside", "manor"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["Riverside Manor, just go south through the Guard House on the other wide of the Inn next door."]
+  }, {
+  "match" : ["clue", "clues", "idea", "lead", "leads", "lost", "how", "oled", "suspicious"],
+  "pre" : [["quest", "scorn/CoffeeGoose", "20-40"]],
   "post" : [],
   "msg" : ["Well Oled has always been jealous of my goose..."]
   }, {
   "match" : ["special"],
   "pre" : [["quest", "scorn/CoffeeGoose", "20"]],
   "post" : [],
-  "msg" : ["I'm not telling, you might not bring her back...."]
+  "msg" : ["I'm not telling, you might not bring her back..."]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "scorn/CoffeeGoose", "20"]],
-  "post" : [],
-  "msg" : ["Have you had any luck finding my goose?"]
+  "post" : [["settoken", "askgoose", "yes"]],
+  "msg" : ["Have you found Esmerelda yet?"]
   }, {
   "match" : ["yes", "interested", "goose"],
   "pre" : [["quest", "scorn/CoffeeGoose", "10"]],
   "post" : [["quest", "scorn/CoffeeGoose", "20"]],
   "msg" : ["Why, thank you, Her name is Esmeralda, she's a special goose."]
+  "replies" : [["special", "What's so special about her?"]]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "scorn/CoffeeGoose", "10"]],
   "post" : [],
-  "msg" : ["Yes, Yes, I know, my coffee is terrible, I'm truely very sorry, it just hasn't been the same since I lost my goose. \n\n You wouldn't be interested in finding her for me would you?"]
-  }, {
-  "match" : ["*"],
-  "pre" : [["token", "scorn/CoffeeGoose", "10"]],
-  "post" : [],
-  "msg" : ["Yes, Yes, I know, my coffee is terrible, I'm truely very sorry, it just hasn't been the same since I lost my goose. \n\n You wouldn't be interested in finding her for me would you?"]
+  "msg" : ["Yes, yes, I know, my coffee is terrible, I'm truly very sorry, it just hasn't been the same since I lost my goose. You wouldn't be interested in finding her for me would you?"]
+  "replies" : [["goose", "I can help you find your goose."]]
   }, {
   "match" : ["no"],
   "pre" : [["token", "offercoffee", "yes"]],
   "post" : [["settoken", "offercoffee", "0"], ["settoken", "badcoffee", "yes"]],
-  "msg" : ["I'm not surprised, no one else does either nowadays"]
+  "msg" : ["I'm not surprised, no one else does either nowadays."]
   }, {
   "match" : ["yes", "like"],
   "pre" : [["token", "offercoffee", "yes"], ["item", "money", "2"]],
   "post" : [["giveitem", "Eswald's inferior coffee"], ["settoken", "offercoffee", "0"], ["settoken", "badcoffee", "yes"], ["takeitem", "money", "2"]],
-  "msg" : ["Here you go, I apologise for the quality"]
+  "msg" : ["Here you go, I apologise for the quality."]
   }, {
   "match" : ["yes", "like"],
   "pre" : [["token", "offercoffee", "yes"], ["token", "freebie", "yes"]],
@@ -95,21 +117,19 @@
   "match" : ["coffee"],
   "pre" : [],
   "post" : [["settoken", "offercoffee", "yes"]],
-  "msg" : ["Would you like to buy some coffee, only 2 silver a cup?"]
+  "msg" : ["Coffee is 2 silver a cup. Would you like some?"],
+  "replies" : [["yes", "Yes, please."], ["no", "No, thank you."]]
   }, {
-  "match" : ["hello", "hi"],
+  "match" : ["*"],
   "pre" : [["token", "seenbefore", "yes"]],
-  "post" : [],
-  "msg" : ["Hello $you, would you like to buy some coffee?"]
-  }, {
-  "match" : ["hello", "hi"],
-  "pre" : [],
-  "post" : [["settoken", "seenbefore", "yes"]],
-  "msg" : ["Hello stranger. would you like to buy some coffee?"]
+  "post" : [["settoken", "offercoffee", "yes"]],
+  "msg" : ["Hello $you, would you like to buy some coffee, 2 silver a cup?"],
+  "replies" : [["yes", "Yes, please."], ["no", "No, thank you."]]
   }, {
   "match" : ["*"],
   "pre" : [],
   "post" : [["settoken", "seenbefore", "yes"]],
-  "msg" : ["Welcome to Eswald's coffee shop, serving, well, something vaguely coffee-like anyway."]
+  "msg" : ["Welcome to Eswald's coffee shop, serving, well, something vaguely coffee-like anyway."],
+  "replies" : [["coffee", "I'd like some coffee, please."]]
   }
 ]}

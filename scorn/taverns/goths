@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created:  1993-10-15
-Modified: 2014-03-28 Kevin Zheng
+Modified: 2021-07-15 rock808
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -2676,6 +2676,8 @@ title the scribe
 msg
 @match mark
 Mark loves to gamble... owes me a bunch.  Always first in line to the bingo.
+@match bingo
+Bingo is in that open room just down there (southeast)
 @match joke|yes
 I never wanted to be a scribe, I always wanted to do stand-up.  Did you hear the one about the Zombie and the princess? She always had a headache because he kept eating her brains!
 ...

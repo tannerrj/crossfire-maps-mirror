@@ -8,7 +8,7 @@ enter_x 11
 enter_y 1
 msg
 Created:  2003-04-27 Avion
-Modified: 2013-08-12 Kevin Zheng
+Modified: 2021-07-16 rock808
 endmsg
 outdoor 1
 end
@@ -2720,8 +2720,10 @@ Ya I know him, he told me not to tell anyone he was at Goth... Oh you said 'Mark
 Can't cook, can't clean and keeps stabbin me alla' time. Never marry a pirate lass...
 @match sheep|chancy
 Chancy is my pet sheep, and don't you make any wise cracks about it.
+@match sea|pirate|life
+I never should have married her. I should have stayed at sea, and taken no wife.
 @match *
-I never should have married her. I should have stayed at sea.
+Yo ho ho!  A pirate's life for me.  I should have stayed at sea.
 endmsg
 x 17
 y 8
@@ -3618,7 +3620,7 @@ Yup lost my walking stick - have ya seen it?
 Ya say yer sick?  That's a darn shame! I get a touch of the wind myself sometimes...
 @match ear
 You looking for deer? Used to be a woodsman myself.  Try the woods to the east - lots of game there...
-@match woods|east
+match woods|east
 Don't mumble - out with it now...
 @match *
 Hunn?  Speak up there!
