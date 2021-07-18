@@ -13,9 +13,9 @@ if (msg == 'st'):
 	state = who.QuestGetState(qn)
 	me.Say('quest status:%s'%state)
 elif (msg == 'ch'):
-	who.QuestSetState(qn, 3)
+	who.QuestSetState(qn, 30)
 elif (msg == 'co'):
-	who.QuestEnd(qn)
+	who.QuestSetState(qn, 50)
 elif (msg == 'wc'):
 	me.Say('was completed: %s'%who.QuestWasCompleted(qn))
 elif (msg == 'qs'):
