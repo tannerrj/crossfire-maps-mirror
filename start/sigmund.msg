@@ -92,7 +92,7 @@
   "match" : ["danger", "damage"],
   "pre" : [["token", "proposal", "heal2"]],
   "post" : [["settoken", "proposal", "food"]],
-  "msg" : ["Most wild monsters deal damage. Some of them deal damage faster than other ones. Traps and spells can also deal damage. Even some food can damage as there is there poisoned food to be found in Crossfirer, but you *need* to eat! Wanna get some info on eating?"]
+  "msg" : ["Most wild monsters deal damage. Some of them deal damage faster than other ones. Traps and spells can also deal damage. Even some food can damage as there is poisoned food to be found in Crossfire, but you *need* to eat! Wanna get some info on eating?"]
   }, {
   "match" : ["natural", "heal"],
   "pre" : [["token", "proposal", "heal2"]],
