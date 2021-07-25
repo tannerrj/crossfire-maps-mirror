@@ -1944,6 +1944,8 @@ You do not come from here, I can tell by your strange accent. Where are you from
 @reply navar I'm from Navar.
 @match scorn
 I have heard of that city. Far away it is, and in this age, many people do not travel far from their birthplace. You would do well to ask one of the elders about our magic lore.
+@match navar
+People from Navar do not come by this place often.
 @match *
 You seem a wise and honorable one. A stranger in a strange land.
 @question land Why do you think I'm a stranger?
