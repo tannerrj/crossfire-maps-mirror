@@ -233,14 +233,11 @@ msg
 @match hi|hello
 Greetings! Plan to travel far?
 @match yes
-Be wary of the woods. Now there is
-much danger.
+Be wary of the woods. Now there is much danger.
 @match danger
-Once it was peaceful, but something
-has made nature very angry.
+Once it was peaceful, but something has made nature very angry.
 @match nature
-She has her ways that no mortal can
-understand.
+She has her ways that no mortal can understand.
 endmsg
 hp 300
 x 2
@@ -1075,15 +1072,11 @@ arch dark_elf
 name Sunfar
 msg
 @match fort
-Alas, many trees fell to help protect
-our trading grounds from wretched
-theives and sundry ruffians.
+Alas, many trees fell to help protect our trading grounds from wretched theives and sundry ruffians.
 @match grounds
-Each summer we come to trade, then we
-part and leave our separate ways.
+Each summer we come to trade, then we part and leave our separate ways.
 @match *
-Welcome, friend.  Elcyon now sadly
-needs a fort.  Ruins its beauty, yes
+Welcome, friend.  Elcyon now sadly needs a fort.  Ruins its beauty, yes!
 endmsg
 hp 200
 x 10
@@ -1191,7 +1184,7 @@ end
 arch gnome
 msg
 @match *
-hee hee hee
+Hee hee hee...
 endmsg
 x 11
 y 6
@@ -1405,13 +1398,9 @@ end
 arch elf_1
 msg
 @match no
-All living things should pay homage to
-that which brings us life.
+All living things should pay homage to that which brings us life.
 @match yes
-You are wise. Your kind often loses
-sight of what brings us life.  The
-pixie in the grove is a child of
-Nature.  She may tell you more.
+You are wise. Your kind often loses sight of what brings us life.  The pixie in the grove is a child of Nature.  She may tell you more.
 @match *
 Do you worship nature?
 endmsg
@@ -1467,11 +1456,7 @@ end
 arch elf_1
 msg
 @match no
-I hear there are some still remaining
-deep in the woods.  Of course, it is
-too dangerous to seek them out.  I
-would like to learn from their deep
-wisdom.
+I hear there are some still remaining deep in the woods.  Of course, it is too dangerous to seek them out.  I would like to learn from their deep wisdom.
 @match *
 Greetings!  Have you ever seen an Ent?
 endmsg
@@ -1563,14 +1548,11 @@ msg
 @match hi|hello
 Hi. <jingle, tinkle, blink>
 @match nature
-once humans respected and worshipped
-nature.  Their old temple lies deep in
-the forest.
+Once humans respected and worshipped nature.  Their old temple lies deep in the forest.
 @match temple
 But mankind no longer knows of it.
-Instead, they chop and chip away at the
-forest.  It is slowly dissappearing.
-Nature is trying to defend itself
+Instead, they chop and chip away at the forest.  It is slowly dissappearing.
+Nature is trying to defend itself!
 endmsg
 hp 80
 x 14

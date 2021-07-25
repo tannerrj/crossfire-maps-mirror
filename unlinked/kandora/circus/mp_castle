@@ -4,7 +4,7 @@ width 16
 height 16
 msg
 Created:  1999-02-18 King Zoobus
-Modified: 2008-06-06 Arvid Norlander
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch small_stones
@@ -319,10 +319,7 @@ arch prisoner
 name prisoner prince
 msg
 @match *
-oh, thank you for saving me.  I didn't
-want to get married.  I want to become
-a singer.  La la la, free as the wind
-blows, free as the grass grows, la, l
+Oh, thank you for saving me.  I didn't want to get married.  I want to become a singer.  La la la, free as the wind blows, free as the grass grows, la, la.
 endmsg
 x 3
 y 4
@@ -343,9 +340,7 @@ arch lesser_dwarven_guard
 name The King
 msg
 @match *
-She's got huge tracts of land! I built
-a castle, and then it sank into the
-swamp. And so I built another one
+She's got huge tracts of land! I built a castle, and then it sank into the swamp. And so I built another one.
 endmsg
 x 3
 y 6
@@ -1324,9 +1319,7 @@ end
 arch holy_priest
 msg
 @match *
-We are here today to witness this
-merger... I mean union... of these two
-souls in holy matromony
+We are here today to witness this merger... I mean union... of these two souls in holy matromony.
 endmsg
 x 12
 y 12

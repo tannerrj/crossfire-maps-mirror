@@ -8,7 +8,7 @@ enter_x 5
 enter_y 9
 msg
 Created:  1997-11-28
-Modified: 2012-04-11 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch flagstone
@@ -893,7 +893,7 @@ end
 arch magic_ear
 msg
 @match wind|air
-click.
+Click.
 endmsg
 x 8
 y 7

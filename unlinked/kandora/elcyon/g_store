@@ -5,7 +5,7 @@ height 15
 enter_x 15
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch shop_empty
@@ -1005,13 +1005,7 @@ arch a_townsman3
 name Hondo
 msg
 @match *
-We have everything you need, and will
-even cash your paychecks.  Wait a sec,
-you're not one of 'em fools that
-believe in magic are ya? Oh, excuse
-me, did I say fool?  Some of the
-jewelry I keep in back is rumored to
-have Magic Powers.  (ohhhh)
+We have everything you need, and will even cash your paychecks.  Wait a sec, you're not one of 'em fools that believe in magic are ya? Oh, excuse me, did I say fool?  Some of the jewelry I keep in back is rumored to have Magic Powers.  (ohhhh)
 endmsg
 x 12
 y 11

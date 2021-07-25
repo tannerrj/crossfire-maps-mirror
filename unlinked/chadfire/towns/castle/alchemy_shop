@@ -7,7 +7,7 @@ width 21
 height 21
 msg
 Created:  2010-09-14 Chad
-Modified: 2010-09-29 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -1179,7 +1179,7 @@ name Shop Owner
 race none
 msg
 @match *
-heyy, come on in...I won't bite
+Hey, come on in...I won't bite!
 endmsg
 face thief.151
 hp 100

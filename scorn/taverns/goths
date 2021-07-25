@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created:  1993-10-15
-Modified: 2021-07-15 rock808
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -703,7 +703,7 @@ end
 arch wizard
 msg
 @match name
-That's one bit o' information you won't be gettin'
+That's one bit o' information you won't be gettin'.
 @match job
 You'd think I was running an information booth the way some people act...
 @match hi|hello
@@ -2344,7 +2344,7 @@ arch dwarf
 name lumberjack
 msg
 @match name
-Limyat
+Limyat.
 @match hi|hello|job
 I chop down trees in the forest.
 @match trees|forest
@@ -7127,7 +7127,7 @@ Don't know much about it.  It is probably full of nasty monsters after all of th
 @match desert
 It is in the north-eastern part of the continent.  Can't really miss it.
 @match job
-Professor Emeritus of Empirical History
+Professor Emeritus of Empirical History.
 @match *
 Can't you see I'm studying?
 endmsg
@@ -7762,7 +7762,7 @@ arch faerie_dragon
 name Dragon Emissary
 msg
 @match name
-Gramzon, Bringer-of-Ashes
+Gramzon, Bringer-of-Ashes.
 @match hi|hello|job
 I am the Emissary of the Dragonlords to the City of Scorn.  I have come to present the Demands of my masters.  However, your King is less than cooperative.  I should tell my masters that the city is ripe for conquer.
 @match demand

@@ -6,6 +6,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1999-02-06 King Zoobus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -80,12 +81,9 @@ arch beggar
 name blind beggar
 msg
 @match blind
-Ah yes.  In my days I was once a
-mighty warrior.  Then I entered a
-realm where my magic wands would not
-work.  I almost died.
+Ah yes.  In my days I was once a mighty warrior.  Then I entered a realm where my magic wands would not work.  I almost died.
 @match *
-spare a coin for a hungry, old man
+Spare a coin for a hungry, old man!
 endmsg
 x 1
 y 2

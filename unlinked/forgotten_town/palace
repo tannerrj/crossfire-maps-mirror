@@ -7,7 +7,7 @@ enter_x 9
 enter_y 19
 msg
 Created:  2005-07-19 Knut Ahlers
-Modified: 2019-09-13 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -1414,26 +1414,16 @@ arch guildmaster
 name King
 msg
 @match jerry|jipsy
-Hey do you know my monsters? Have you
-been in the city when they did break out?
+Hey do you know my monsters? Have you been in the city when they did break out?
 @match maveric|founder
-Maveric was the founder and first king of
-our great town. He is now buried in a
-catacomb below this palace.
+Maveric was the founder and first king of our great town. He is now buried in a catacomb below this palace.
 @match forgotten town
-Forgotten Town... That is the terrible name
-some people gave our city because for a
-long time no travellers came here. They just
-didn't pass the test and died.
+Forgotten Town... That is the terrible name some people gave our city because for a long time no travellers came here. They just didn't pass the test and died.
 @match quest
-I know lots about quests. But I won't tell
-you what I know. The only hint I'll give is: in
-the southern part of my city you can find a
-large quest.
+I know lots about quests. But I won't tell you what I know. The only hint I'll give is: in the southern part of my city you can find a large quest.
 @match *
 Did you notice the large number of guards?
-They do protect me, so do not even consider
-attacking me. They surely will kill you.
+They do protect me, so do not even consider attacking me. They surely will kill you.
 endmsg
 x 8
 y 1

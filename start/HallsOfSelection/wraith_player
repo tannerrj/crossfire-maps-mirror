@@ -8,7 +8,7 @@ enter_x 7
 enter_y 5
 msg
 Created:  2005-12-25 Pippijn van Steenhoven (pip88nl@gmail.com)
-Modified: 2012-03-14 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -1607,9 +1607,7 @@ msg
 @match choice|choose|class
 If he's a man he'd go for Warrior.
 @match *
-Why would you want to go back to
-the material plane? It is such a
-dreadful place.
+Why would you want to go back to the material plane? It is such a dreadful place.
 endmsg
 ac -100
 x 6

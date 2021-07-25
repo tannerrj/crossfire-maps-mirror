@@ -295,16 +295,9 @@ arch man
 name cook
 msg
 @match noises
-Yes, now that you mention it, I swear
-I heard footsteps in the kitchen a few
-nights ago. I thought it was rats, but
-when I went to look, I saw nothing
-except a small knife with the name
-Karthrak on it. I put it with the rest
-of the knives, but now it seems gone
+Yes, now that you mention it, I swear I heard footsteps in the kitchen a few nights ago. I thought it was rats, but when I went to look, I saw nothing except a small knife with the name Karthrak on it. I put it with the rest of the knives, but now it seems gone.
 @match *
-I haven't got the heart to cook, since
-the king has died.
+I haven't got the heart to cook, since the king has died.
 endmsg
 x 1
 y 17
@@ -1628,8 +1621,7 @@ arch charwoman
 name depressed servant
 msg
 @match *
-I'm so sad and frightened. Sometimes I
-think I hear strange noises at night
+I'm so sad and frightened. Sometimes I think I hear strange noises at night.
 endmsg
 x 8
 y 17
@@ -2126,8 +2118,7 @@ end
 arch magic_ear
 msg
 @match hope
-A guard turns a hidden crank to open
-the door.
+A guard turns a hidden crank to open the door.
 endmsg
 x 11
 y 14
@@ -2350,8 +2341,7 @@ msg
 @match hope
 Then by all means, enter...
 @match *
-The keep is closed until the King's
-funeral is arranged.
+The keep is closed until the King's funeral is arranged.
 endmsg
 x 12
 y 15
@@ -2678,18 +2668,12 @@ arch lord_e
 name Lord Denray
 msg
 @match reward
-Under the queen's bed is the key to my
-personal treasure room upstairs. Take
-what you will, but please leave some
-for us to pay servants. Why was I ill?
+Under the queen's bed is the key to my personal treasure room upstairs. Take what you will, but please leave some for us to pay servants. Why was I ill?
 @match poison|treachory|murder
 Murder! But who?
 @match rellik
-I cannot believe my own nephew would
-do such a thing! I must have proof!
-Take this pass to present to the
-Overseer in the courthouse, and then
-we can begin a trial.
+I cannot believe my own nephew would do such a thing! I must have proof!
+Take this pass to present to the Overseer in the courthouse, and then we can begin a trial.
 @match *
 I shall reward you greatly!
 endmsg
@@ -2954,7 +2938,7 @@ arch postman
 name healer
 msg
 @match *
-Truly a miracle
+Truly a miracle!
 endmsg
 x 15
 y 2
@@ -3028,18 +3012,11 @@ arch postman
 name healer
 msg
 @match help
-I think him beyond help, but you may
-try your medicine.
+I think him beyond help, but you may try your medicine.
 @match dead
-His heart does not beat, nor does he
-breath. I noticed a strange, grey
-mucus about his mouth... likely the
-result from an illness
+His heart does not beat, nor does he breath. I noticed a strange, grey mucus about his mouth... likely the result from an illness.
 @match *
-I fear my lord is dead. He is beyond
-the means for me to Help him.  I shall
-call the priests to begin the burial
-ritual.
+I fear my lord is dead. He is beyond the means for me to Help him.  I shall call the priests to begin the burial ritual.
 endmsg
 x 15
 y 9

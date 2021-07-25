@@ -5,7 +5,7 @@ height 11
 enter_x 15
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -108,9 +108,7 @@ end
 arch merchant
 msg
 @match *
-Help yourself to our special
-funds box for your reward.  You've
-earned it!
+Help yourself to our special funds box for your reward.  You've earned it!
 endmsg
 x 1
 y 2
@@ -278,11 +276,7 @@ end
 arch dwarf_priest
 msg
 @match *
-Ridding the area of thieves was a
-great boon for our trade.  I name you
-Dwarf-friend. If you wish to visit our
-city, stand by the south-east edge of
-the mountains and say Mithril!
+Ridding the area of thieves was a great boon for our trade.  I name you Dwarf-friend. If you wish to visit our city, stand by the south-east edge of the mountains and say Mithril!
 endmsg
 x 3
 y 2
@@ -718,14 +712,11 @@ msg
 @match bandits
 You mean you've killed their leader?!
 @match yes
-Show me proof!  If so, the leaders
-will want to reward you!
+Show me proof!  If so, the leaders will want to reward you!
 @match no
-We have a bounty for Doogan the
-Dastardly.  Kill him to get a reward!
+We have a bounty for Doogan the Dastardly.  Kill him to get a reward!
 @match *
-Yes, trade is slow these days with the
-bandits on the loose.
+Yes, trade is slow these days with the bandits on the loose.
 endmsg
 x 9
 y 3

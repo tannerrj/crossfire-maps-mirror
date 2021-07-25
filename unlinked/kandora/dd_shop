@@ -225,7 +225,7 @@ name solemn warrior
 name_pl solemn warrior
 msg
 @match *
-Trust no one
+Trust no one!
 endmsg
 x 3
 y 4
@@ -365,17 +365,11 @@ msg
 @match steel
 The elves do not have good smiths.
 @match elves
-We dwell near the great forest in
-Elcyon. It's a few leagues east of
-here.
+We dwell near the great forest in Elcyon. It's a few leagues east of here.
 @match forest
-The forest Anduin' is ancient and
-wild. Some say the trees even move
-around at night! The only safe passage
-through is the road to the north.
+The forest Anduin' is ancient and wild. Some say the trees even move around at night! The only safe passage through is the road to the north.
 @match *
-I've come to trade some longbows for
-iron and steel.
+I've come to trade some longbows for iron and steel.
 endmsg
 hp 400
 x 5
@@ -501,7 +495,7 @@ end
 arch smith
 msg
 @match *
-Careful of the forge, eh
+Careful of the forge, eh!
 endmsg
 x 6
 y 3
@@ -561,8 +555,7 @@ name Mercenary
 name_pl Mercenary
 msg
 @match *
-Argh! I'm hopin' fer a war. I need the
-coin.
+Argh I'm hopin' fer a war. I need the coin.
 endmsg
 x 7
 y 1

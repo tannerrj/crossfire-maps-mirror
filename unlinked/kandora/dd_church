@@ -6,7 +6,7 @@ enter_x 3
 enter_y 10
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -345,11 +345,9 @@ end
 arch a_priest
 msg
 @match hope
-Tell those who look sad that there is
-always hope.
+Tell those who look sad that there is always hope.
 @match *
-The Lord giveth & taketh away. We must
-remember never to lose hope.
+The Lord giveth & taketh away. We must remember never to lose hope.
 endmsg
 x 4
 y 2
@@ -417,8 +415,7 @@ end
 arch holy_priest
 msg
 @match *
-Welcome to our house of God. We pray
-for the dead King.
+Welcome to our house of God. We pray for the dead King.
 endmsg
 x 4
 y 9

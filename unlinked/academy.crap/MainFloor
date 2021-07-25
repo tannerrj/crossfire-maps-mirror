@@ -882,17 +882,12 @@ end
 arch conjurer2
 msg
 @match test test test
-To complete this quest just step up
-to the plate and shoot one magic bullet
-into the hole.
+To complete this quest just step up to the plate and shoot one magic bullet into the hole.
 Should be quite easy for you right?
 @match spell bullet magic
-If you don't have the magic bullet
-spell you can probably find a book
-in the chest over there
+If you don't have the magic bullet spell you can probably find a book in the chest over there.
 @match *
-This is the first test for
-aspiring warlocks
+This is the first test forb aspiring warlocks.
 endmsg
 hp 200
 x 5
@@ -2085,18 +2080,13 @@ end
 arch guildmaster
 msg
 @match test test
-We have several tests for both fighters
-and mages, in increasing difficulties.
+We have several tests for both fighters and mages, in increasing difficulties.
 @match fighter warrior east right
-In the east wing we will test your
-strength and fighting abilities.
+In the east wing we will test your strength and fighting abilities.
 @match mage wizard warlock left west
-In the west wing we will test your
-intelligense and spellcasting skills.
+In the west wing we will test your intelligense and spellcasting skills.
 @match *
-Welcome to the academy, all may enter
-but only a few will manage to pass
-our vigorous tests
+Welcome to the academy, all may enter but only a few will manage to pass our vigorous tests.
 endmsg
 hp 5000
 x 12
@@ -3441,12 +3431,9 @@ end
 arch ogre
 msg
 @match test test test
-This is a test of strength, you have
-to push the three weights to the end
-of the rows
+This is a test of strength, you have to push the three weights to the end of the rows.
 @match *
-This is the first test for
-aspiring fighters
+This is the first test for aspiring fighters.
 endmsg
 hp 400
 x 20

@@ -10,7 +10,7 @@ enter_x 13
 enter_y 13
 msg
 Created:  2005-07-21 Knut Ahlers
-Modified: 2013-11-24 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch stonefloor2
@@ -198,21 +198,9 @@ arch guildmaster
 name ancient mage
 msg
 @match altar|why
-The merchant in the generalshop came
-to me and has stolen my rod. That rod
-was a gift from the high council of the
-ancient mages for me. I had it in the cage
-here in the shop. As I was outside the
-merchant came and has stolen it. Would
-you help me to get it back?
+The merchant in the generalshop came to me and has stolen my rod. That rod was a gift from the high council of the ancient mages for me. I had it in the cage here in the shop. As I was outside the merchant came and has stolen it. Would you help me to get it back?
 @match yes
-Ok you must go to the generalshop. In
-the basement there is a personal depot
-of the merchant. It is guarded by two old
-and very strong creatures. You must be
-very careful. There is only one rod. Please
-bring it to me and put it on the altar next
-to me. You will get a reward for it.
+Ok you must go to the generalshop. In the basement there is a personal depot of the merchant. It is guarded by two old and very strong creatures. You must be very careful. There is only one rod. Please bring it to me and put it on the altar next to me. You will get a reward for it.
 @match *
 I'm too angry to help you.
 endmsg

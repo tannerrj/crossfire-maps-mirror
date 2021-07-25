@@ -9,7 +9,7 @@ enter_x 10
 enter_y 20
 msg
 Created:  2004-07-29 Mikeeusa
-Modified: 2012-03-14 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -4698,7 +4698,7 @@ arch dragon_exit
 name express mail dragon
 msg
 @match *
-grr
+Grrr!
 endmsg
 x 18
 y 13

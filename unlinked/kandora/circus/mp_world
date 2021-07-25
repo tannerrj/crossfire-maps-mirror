@@ -683,10 +683,10 @@ arch a_guard_l
 name policeman
 msg
 @match arrest
-Stop this silliness
+Stop this silliness!
 @match *
-okay, okay.  Let's break it up.  You!
-You're under arrest.
+Okay, okay.  Let's break it up.  You!
+You're under arrest!
 endmsg
 hp 280
 x 3
@@ -883,8 +883,7 @@ arch c_man
 name wounded man
 msg
 @match *
-I'm not dead yet!  I'm actually
-feeling much better now
+I'm not dead yet!  I'm actually feeling much better now!
 endmsg
 x 4
 y 14
@@ -1896,12 +1895,9 @@ msg
 @match arthur
 What is your quest?
 @match to seek the holy grail
-What is the eigenvalue of Hansen's
-matrix?
+What is the eigenvalue of Hansen's matrix?
 @match *
-Answer me these questions three, ere
-the other side ye see. What is your
-name?
+Answer me these questions three, ere the other side ye see. What is your name?
 endmsg
 hp 400
 x 9
@@ -2302,10 +2298,7 @@ msg
 @match quest
 A grail!?!?!?
 @match grail
-You must enter the lair of a horrbile
-beast.  A viscous monster with sharp,
-pointy teeth. I warn thee not to enter
-for fear of your very lives!
+You must enter the lair of a horrbile beast.  A viscous monster with sharp, pointy teeth. I warn thee not to enter for fear of your very lives!
 @match *
 There are some who call me... Tim!
 endmsg
@@ -4331,10 +4324,7 @@ end
 arch knight
 msg
 @match *
-we are no longer the Knights who say
-Nie!, we are now the Knights who say,
-"icky icky wicky betwoo betong whoop
-zing splotz nimmie blah blah boopsie..
+We are no longer the Knights who say Nie!, we are now the Knights who say, "icky icky wicky betwoo betong whoop zing splotz nimmie blah blah boopsie..
 endmsg
 x 22
 y 1
@@ -4531,11 +4521,10 @@ arch crone
 msg
 @match shrubbery
 Guards!  Help!  I'm being accosted!
-Oh how times have turned dark that a
-king would rob a poor beggar woman
+Oh how times have turned dark that a king would rob a poor beggar woman.
 @match *
-ewwww.  so you want a shrubbery, eh?
-It will cost you 1,000 gold pieces
+Ewwww.  so you want a shrubbery, eh?
+It will cost you 1,000 gold pieces!
 endmsg
 x 22
 y 39
@@ -4557,9 +4546,8 @@ msg
 @match herring
 Nie!
 @match *
-You must go and find the tallest tree
-in the forest, and cut it down....
-with a herring!!
+You must go and find the tallest tree in the forest, and cut it down....
+With a herring!!
 endmsg
 x 23
 y 1
@@ -4794,7 +4782,7 @@ end
 arch knight
 msg
 @match *
-we are the knights who say "Nie!
+We are the knights who say "Nie!
 endmsg
 x 24
 y 1
@@ -5253,7 +5241,7 @@ arch c_man
 name wagon bearer
 msg
 @match *
-bring out your dead
+Bring out your dead!
 endmsg
 x 25
 y 36
@@ -6443,14 +6431,11 @@ arch courier
 name Arthur, King of the Brits
 msg
 @match duck
-Right!  Who art thou that is so wise
-in the ways of the world?  Perhaps ye
-shall join my quest?
+Right!  Who art thou that is so wise in the ways of the world?  Perhaps ye shall join my quest?
 @match quest
-to seek the holy grail
+To seek the holy grail!
 @match *
-So witches are made of wood, and wood
-floats.  So what else floats on water?
+So witches are made of wood, and wood floats.  So what else floats on water?
 endmsg
 hp 450
 x 31
@@ -6465,7 +6450,7 @@ arch guard
 name Sir Lancelot
 msg
 @match *
-Ewww.  Greetings to youuu
+Ewww.  Greetings to youuu!
 endmsg
 hp 350
 x 31
@@ -6672,7 +6657,7 @@ arch c_knight
 name The Black Knight
 msg
 @match *
-None shall pass
+None shall pass!
 endmsg
 hp 450
 x 32
@@ -7009,7 +6994,7 @@ end
 arch a_townsman2
 msg
 @match *
-This is great fun
+This is great fun!
 endmsg
 x 33
 y 37
@@ -7238,7 +7223,7 @@ end
 arch a_priest
 msg
 @match *
-a witch must be burned at the stake
+A witch must be burned at the stake!
 endmsg
 x 34
 y 37
@@ -7479,7 +7464,7 @@ end
 arch veiled_woman
 msg
 @match witch
-Burn her
+Burn her!
 @match *
 She's a witch!
 endmsg
@@ -7703,8 +7688,7 @@ end
 arch a_townsman
 msg
 @match *
-well, he got better... but she's still
-a witch
+Well, he got better... but she's still a witch!
 endmsg
 x 36
 y 34

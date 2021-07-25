@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1999-02-27 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -92,16 +92,9 @@ end
 arch c_sage
 msg
 @match magic
-The sages tower next door may be
-willing to sell... check with them.
+The sages tower next door may be willing to sell... check with them.
 @match *
-Greetings! Welcome to my shop. I'm
-sorry we don't have more for sale, but
-this is such a remote dun we have
-little metal for trade.  The master in
-the corner will identify magical
-items, for a small fee.  You do belive
-in magic, don't you?
+Greetings! Welcome to my shop. I'm sorry we don't have more for sale, but this is such a remote dun we have little metal for trade.  The master in the corner will identify magical items, for a small fee.  You do belive in magic, don't you?
 endmsg
 x 1
 y 2
@@ -556,11 +549,9 @@ end
 arch guildmaster
 msg
 @match merchants
-They trade the dwarves for gold. They
-cannot travel because of the bandits.
+They trade the dwarves for gold. They cannot travel because of the bandits.
 @match bandits
-I'm sure they would reward the brave
-man to rid the road of those scum!
+I'm sure they would reward the brave man to rid the road of those scum!
 @match *
 I'm too busy to help you.
 endmsg

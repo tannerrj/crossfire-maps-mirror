@@ -6,6 +6,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  1999-02-28 King Zoobus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor2
@@ -272,19 +273,11 @@ arch prisoner
 name tortured merchant
 msg
 @match mine
-I cannot tell anyone. The dwarves do
-not like too many humans knowing where
-they live. The merchant guild swore a
-pact it cannot break. Still, they will
-reward you greatly for defeating
-those bandits.
+I cannot tell anyone. The dwarves do not like too many humans knowing where they live. The merchant guild swore a pact it cannot break. Still, they will reward you greatly for defeating those bandits.
 @match guild
-The guild is in Torel, a long ride to
-the east.
+The guild is in Torel, a long ride to the east.
 @match *
-Oh they tried to beat the secret
-dwarven mine out of me. But I'll never
-tell those bastards!
+Oh they tried to beat the secret dwarven mine out of me. But I'll never tell those bastards!
 endmsg
 x 5
 y 5

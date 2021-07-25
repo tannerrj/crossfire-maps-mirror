@@ -361,9 +361,9 @@ msg
 @match fog
 My love have gone to somewhere. I don't know where he is.
 @match hi|hello
-hi
+Hi!
 @match *
-ignore.
+Ignore.
 endmsg
 x 4
 y 10
@@ -567,7 +567,7 @@ arch dog
 name Masafumi the dog
 msg
 @match *
-bow
+Bow!
 endmsg
 Con 100
 Wis 100

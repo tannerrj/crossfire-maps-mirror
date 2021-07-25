@@ -5,7 +5,7 @@ height 16
 enter_x 8
 msg
 Created:  1999-02-18 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -412,7 +412,7 @@ end
 arch conjurer
 msg
 @match *
-i was once a chartered accountant
+I was once a chartered accountant...
 endmsg
 x 4
 y 11
@@ -698,7 +698,7 @@ arch elf_1
 name Brave Sir Robin
 msg
 @match *
-I've always wanted to be famous
+I've always wanted to be famous!
 endmsg
 x 7
 y 4
@@ -844,8 +844,7 @@ arch dwarf_wiz
 name Robin's minstrel
 msg
 @match *
-Brave, brave sir Robin turned his tail
-and fled....
+Brave, brave sir Robin turned his tail and fled....
 endmsg
 x 8
 y 4
@@ -908,20 +907,11 @@ end
 arch dwarf_priest
 msg
 @match grail
-I shalt consult the holy books for
-guidance for thee.  Ah!  It sayeth
-that god did make the waters, and the
-trees, and the little itsy bitty
-things that liveth under rocks, and ...
+I shalt consult the holy books for guidance for thee.  Ah!  It sayeth that god did make the waters, and the trees, and the little itsy bitty things that liveth under rocks, and ...
 @match guidance
-Ahem! As I was about to say; thou
-shalt seeketh a shrubbery, which shall
-bring thine companions confort.  Also,
-seeketh the Holy Handgrenade to aid
-thee in thine quest.
+Ahem! As I was about to say; thou shalt seeketh a shrubbery, which shall bring thine companions confort.  Also, seeketh the Holy Handgrenade to aid thee in thine quest.
 @match *
-Oh lord, ooh you are so big.  So
-completely huge..
+Oh lord, ooh you are so big.  So completely huge..
 endmsg
 x 8
 y 10

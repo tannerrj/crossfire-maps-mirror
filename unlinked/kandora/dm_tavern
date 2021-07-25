@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1999-02-01 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones
@@ -186,17 +186,13 @@ name_pl quiet man in corner
 msg
 @match signal|tower|bandits
 Aye, those scum make rotten robbers.
-I had a good life until they chased
-off those merchants.
+I had a good life until they chased off those merchants.
 @match merchants
-I hope someone kills those bastards so
-that the caravans will come here again
+I hope someone kills those bastards so that the caravans will come here again.
 @match yes
-Well & good then.  I think some strong
-mead may help take my mind off those
-stupid bandits.
+Well & good then.  I think some strong mead may help take my mind off those stupid bandits.
 @match *
-Are you buying this round
+Are you buying this round?
 endmsg
 hp 35
 x 2
@@ -234,9 +230,7 @@ end
 arch a_townsman3
 msg
 @match *
-yah git better <hic> service, if ya
-sit at one them tables by the bar and
-plop down some coinage. <hic>
+yah git better <hic> service, if ya sit at one them tables by the bar and plop down some coinage. <hic>
 endmsg
 x 2
 y 7
@@ -654,8 +648,7 @@ end
 arch dwarf_wiz
 msg
 @match mine
-I'd sooner cut out my tongue than tell
-where the hidden valley lies.
+I'd sooner cut out my tongue than tell where the hidden valley lies.
 @match *
 I'm too busy to answer your queries.
 endmsg
@@ -708,15 +701,12 @@ end
 arch c_man
 msg
 @match travellers
-Who would risk the south road with
-those bandits?
+Who would risk the south road with those bandits?
 @match bandits
-My brother used to help station the
-signal tower. Now, I fear he's dead...
+My brother used to help station the signal tower. Now, I fear he's dead...
 <sob>
 @match *
-Sigh, it's so boring when so few
-travellers come.
+Sigh, it's so boring when so few travellers come.
 endmsg
 x 8
 y 3
@@ -834,7 +824,7 @@ end
 arch warrior_1
 msg
 @match *
-hand't ya ever seen a dwarf before
+Hand't ya ever seen a dwarf before?
 endmsg
 x 9
 y 9
@@ -1088,7 +1078,7 @@ end
 arch c_woman
 msg
 @match *
-hiya cutie! Where're you from?
+Hiya cutie! Where're you from?
 endmsg
 x 12
 y 7

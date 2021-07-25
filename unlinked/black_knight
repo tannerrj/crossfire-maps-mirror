@@ -7,7 +7,7 @@ width 25
 height 25
 msg
 Created:  2010-09-03 neodeno
-Modified: 2019-05-30 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -1631,8 +1631,7 @@ Ah, the dragon is a rare sort from far to the South. He breathes acid, I cannot 
 @match help|hint
 My cook has an apron which I suppose might be of help to you. Why don't you ask her for it?
 @match reward|treasure
-The dragon also has stolen the key to my treasure chest. If you can rid me of this problem, you may of course have your pick of whatever treasure you
-like.
+The dragon also has stolen the key to my treasure chest. If you can rid me of this problem, you may of course have your pick of whatever treasure you like.
 @match *
 Feel free to have some dinner. Chef makes a fine meal.
 endmsg

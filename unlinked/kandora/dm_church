@@ -240,16 +240,9 @@ end
 arch holy_priest
 msg
 @match gildor
-Ah, I did not realize how far you have
-travelled. I still feel the taint of
-magic upon you. Gildor is the great
-city by the sea. The long road shall
-take you there. I shall pray for your
-safety.
+Ah, I did not realize how far you have travelled. I still feel the taint of magic upon you. Gildor is the great city by the sea. The long road shall take you there. I shall pray for your safety.
 @match *
-You have come a long way, stranger. I
-feel this must be an omen. You must
-visit the high priest in Gildor.
+You have come a long way, stranger. I feel this must be an omen. You must visit the high priest in Gildor.
 endmsg
 x 3
 y 2
@@ -422,8 +415,7 @@ arch northman
 name warrior
 msg
 @match *
-I have come a long way to have my
-child baptised.
+I have come a long way to have my child baptised.
 endmsg
 hp 250
 x 4
@@ -537,8 +529,7 @@ end
 arch a_priest
 msg
 @match *
-Bless this child, o Lord, so that he
-may live in honor
+Bless this child, o Lord, so that he may live in honor.
 endmsg
 hp 150
 x 5

@@ -1595,29 +1595,14 @@ name Manu
 title crazy key binder
 msg
 @match *
-Hello,
-I will teach you how to use
-keybindings. There are two ways
-to do so. The first is to use the
-keybinding window provided
-with your client (see documentation
-of client for additional help).
-The second is to use the command
-'bind <command>'. Your client
-will then ask you to push the key
-you want to associate with
-<command>.
-Let's try and example. type
-the command
+Hello, I will teach you how to use keybindings. There are two ways to do so. The first is to use the keybinding window provided with your client (see documentation of client for additional help).
+The second is to use the command 'bind <command>'. Your client will then ask you to push the key you want to associate with <command>.
+Let's try and example. type the command
 ---------
 bind apply
 ---------
-and push the key 'a' when your
-client asks for a key. Is it done?
-Congratulation, you have done
-your first keybinding! Now each
-time you push the key 'a' you
-will apply an item on the ground.
+and push the key 'a' when your client asks for a key. Is it done?
+Congratulation, you have done your first keybinding! Now each time you push the key 'a' you will apply an item on the ground.
 endmsg
 x 5
 y 12
@@ -2368,33 +2353,13 @@ arch farmer
 name doorman
 msg
 @match *
-So you are ready for the world
-of Crossfire? You will need to use
-the knowledge you learned
-in the tutorials to go outside.
-There is no way back. You
-can find beds to reality at Inns.
+So you are ready for the world of Crossfire? You will need to use the knowledge you learned in the tutorials to go outside.
+There is no way back. You can find beds to reality at Inns.
 One more thing:
-Some places will be inaccessible
-until you reach level 3. In the
-beginning, you won't be able to
-use magic or wisdom. When you
-are level 5 you can go to the city
-hall to get a teleporter for the
-famous city of Scorn.
-Never mind speaking with other
-players. The commands shout, say
-and tell are very useful. The
-command chat is useful too, but you
-have to be listening carefully to
-hear it. So use the command
-'listen 10' to do that.
-After you do that, if you
-get tired of all that noise use
-'listen 9' to ignore it.
-And don't forget the most useful
-command:
-help
+Some places will be inaccessible until you reach level 3. In the beginning, you won't be able to use magic or wisdom. When you are level 5 you can go to the city hall to get a teleporter for the famous city of Scorn.
+Never mind speaking with other players. The commands shout, say and tell are very useful. The command chat is useful too, but you have to be listening carefully to hear it. So use the command 'listen 10' to do that.
+After you do that, if you get tired of all that noise use 'listen 9' to ignore it.
+And don't forget the most useful command: help.
 endmsg
 x 7
 y 22
@@ -3346,46 +3311,19 @@ arch guildmaster
 name Sigmund
 msg
 @match yes|bed to reality|beds to reality
-A bed to reality is the way you quit
-the Crossfire world to get back to
-your real life. While you are in
-real life, your character is asleep.
-Nothing can happens to it. But
-beware! If you use a bed to
-reality all items you could have
-left on the ground may disappear
-or be stolen by other players. If
-you want to keep them with you,
-they must be put in your inventory
-or in your permanent apartments.
-You can not use a bed to reality
-until you have earned at least
-one experience point. You must
-use a bed to reality at least
-once to have you character saved.
-You can find beds to reality
-just southwest of here.
-You may also want to get
-extra information on how to
-apply an object in Crossfire.
+A bed to reality is the way you quit the Crossfire world to get back to your real life. While you are in real life, your character is asleep.
+Nothing can happens to it. But beware! If you use a bed to reality all items you could have left on the ground may disappear or be stolen by other players.
+If you want to keep them with you, they must be put in your inventory or in your permanent apartments.
+You can not use a bed to reality until you have earned at least one experience point. You must use a bed to reality at least once to have you character saved.
+You can find beds to reality just southwest of here.
+You may also want to get extra information on how to apply an object in Crossfire.
 @match *
 Hello, dear newbie. I am a NPC.
-This mean you can interact with
-me. To do this, just speak with me.
-Like all NPCs in Crossfire, i react
-to some words you could say when
-you are near me (using the
-'say <message>' command).
-If you want some additional
-information, just ask me.
-I know everything about what
-you should do next, where to heal,
-how to bind keys, how to use items,
-beds to reality and experience.
-Would you like me to tell you
-about beds to reality? That's one
-of the most important things in
-Crossfire.
+This mean you can interact with me. To do this, just speak with me.
+Like all NPCs in Crossfire, i react to some words you could say when you are near me (using the 'say <message>' command).
+If you want some additional information, just ask me.
+I know everything about what you should do next, where to heal, how to bind keys, how to use items, beds to reality and experience.
+Would you like me to tell you about beds to reality? That's one of the most important things in Crossfire.
 endmsg
 x 11
 y 7
@@ -3931,7 +3869,7 @@ end
 arch magic_ear
 msg
 @match food
-Food for you
+Food for you!
 endmsg
 x 12
 y 21
@@ -4000,8 +3938,7 @@ end
 arch magic_ear
 msg
 @match hello world
-Have a nice trip and don't die too
-quickly.
+Have a nice trip and don't die too quickly.
 endmsg
 x 12
 y 26

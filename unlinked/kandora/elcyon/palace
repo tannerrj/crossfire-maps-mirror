@@ -732,11 +732,7 @@ arch elf_1
 name elf emissary
 msg
 @match *
-I've come to ask the King to allow us
-to build an Elven embassy. We believe
-understanding between our people will
-help everyone!  The races should work
-together for peace and good!
+I've come to ask the King to allow us to build an Elven embassy. We believe understanding between our people will help everyone!  The races should work together for peace and good!
 endmsg
 x 6
 y 18
@@ -2034,8 +2030,7 @@ end
 arch magic_ear
 msg
 @match treaty
-The door silently opens with a wave of
-the King's hand.
+The door silently opens with a wave of the King's hand.
 endmsg
 x 18
 y 9
@@ -2045,13 +2040,9 @@ arch siegfried
 name King Zoobus
 msg
 @match ent
-You have seen the Ents?  I thought
-they had left many years ago.
+You have seen the Ents?  I thought they had left many years ago.
 @match treaty
-By all means.  I had not realized how
-much the forest had been damaged.  Go
-to the north wing and ask for the
-scribe to draft a copy.
+By all means.  I had not realized how much the forest had been damaged.  Go to the north wing and ask for the scribe to draft a copy.
 @match *
 Welcome to our city.
 endmsg

@@ -5,7 +5,7 @@ height 16
 enter_x 7
 msg
 Created:  1999-02-15 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch afloor_right
@@ -160,10 +160,9 @@ arch fatman
 name a very, very fat man
 msg
 @match bucket
-better get a bucket..
+Better get a bucket..
 @match *
-Put the whole lot in a bucket with me
-eggs on top!
+Put the whole lot in a bucket with me eggs on top!
 endmsg
 x 1
 y 7
@@ -873,11 +872,9 @@ end
 arch a_townsman3
 msg
 @match slug
-I think he was singing "yellow
-submarine". Almost lost my lunch I did!
+I think he was singing "yellow submarine". Almost lost my lunch I did!
 @match *
-I swear I just saw a slug squirm
-through that wall over there.
+I swear I just saw a slug squirm through that wall over there.
 endmsg
 x 7
 y 11
@@ -1339,7 +1336,7 @@ arch big_slave
 name the coook
 msg
 @match *
-parts is parts
+Parts is parts...
 endmsg
 x 11
 y 10

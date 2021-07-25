@@ -407,15 +407,11 @@ end
 arch c_sage
 msg
 @match yes
-Then you are wise. The "civilized"
-fools along the coast believe us to be
-superstitious, but they do not live
-near the dangers of the wild mountains.
+Then you are wise. The "civilized" fools along the coast believe us to be superstitious, but they do not live near the dangers of the wild mountains.
 @match mountains
 Do not venture there.
 @match danger|dangers
-Vile & mighty creatures lurk to devour
-men. Some say the old gods haunt them.
+Vile & mighty creatures lurk to devour men. Some say the old gods haunt them.
 @match *
 Do you believe in magic?
 endmsg
@@ -830,7 +826,7 @@ arch charwoman
 msg
 @match *
 Go flirt with the girls in the tavern!
-I'm an honorable lady
+I'm an honorable lady!
 endmsg
 x 9
 y 8
@@ -1025,17 +1021,14 @@ end
 arch a_priest
 msg
 @match yes
-Bless you my son.  Join us at our next
-service.
+Bless you my son.  Join us at our next service.
 @match no
-Then I pray your soul is not eaten by
-the old ones.
+Then I pray your soul is not eaten by the old ones.
 @match old ones
 The dark gods that haunt the wilds.
-They feed upon the unfortunate souls
-not protected by the covenent of God
+They feed upon the unfortunate souls not protected by the covenent of God.
 @match *
-Are you a man of God
+Are you a man of God?
 endmsg
 x 11
 y 11
@@ -1051,14 +1044,10 @@ end
 arch courier
 msg
 @match king|denray
-His castle lies to the south.  He is
-ruler of our province... or was.
-There is no suitable heir.  Who will
-be our next King? Oh, poor Queen
-Wilhema... her grief is great!
+His castle lies to the south.  He is ruler of our province... or was.
+There is no suitable heir.  Who will be our next King? Oh, poor Queen Wilhema... her grief is great!
 @match *
-I bear a message to my Lord.  The King
-of Denrey is dead
+I bear a message to my Lord.  The King of Denrey is dead!
 endmsg
 x 11
 y 13
@@ -1457,9 +1446,7 @@ end
 arch c_man
 msg
 @match *
-Hello stranger.  Please tell us news
-from other lands.  We get so few
-visitors..
+Hello stranger.  Please tell us news from other lands.  We get so few visitors..
 endmsg
 x 15
 y 11

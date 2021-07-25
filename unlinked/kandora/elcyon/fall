@@ -281,8 +281,7 @@ arch deathtree
 name angry tree
 msg
 @match *
-I do not trust you.  Too many of my
-friends have I seen brought to the axe.
+I do not trust you.  Too many of my friends have I seen brought to the axe.
 endmsg
 x 4
 y 1
@@ -324,11 +323,7 @@ end
 arch ent
 msg
 @match *
-Greetings.  My ent-name is
-The-Green-Forest-In-Far-Southern_Lands
-Where-The-Mighty-River-Roams-Wild-Thro
-gh-The-Tall-Trees-Where-Sloths-Frolick
-In-The-Emerald-Green-Leaves.......
+Greetings.  My ent-name is The-Green-Forest-In-Far-Southern_Lands Where-The-Mighty-River-Roams-Wild-Thro gh-The-Tall-Trees-Where-Sloths-Frolick In-The-Emerald-Green-Leaves.......
 endmsg
 x 4
 y 8
@@ -357,8 +352,7 @@ arch deathtree
 name angry tree
 msg
 @match *
-I do not trust you.  Too many of my
-friends have I seen brought to the axe.
+I do not trust you.  Too many of my friends have I seen brought to the axe.
 endmsg
 x 4
 y 12
@@ -388,22 +382,13 @@ arch ent
 name Frond the Ancient
 msg
 @match sapshed
-Well, what else do you call the
-senseless Butchering of trees?
+Well, what else do you call the senseless Butchering of trees?
 @match butchering
-Some of us call it genocide! That is a
-strong word for an Ent to employ.
+Some of us call it genocide! That is a strong word for an Ent to employ.
 @match ent
-Our meeting will last much too long
-for you to participate in the
-discussion. It would be best for you
-to ask the members of the council what
-you can do.
+Our meeting will last much too long for you to participate in the discussion. It would be best for you to ask the members of the council what you can do.
 @match *
-We have convened to discuss how to
-stop the Sapshed.  How timely a
-representative has shown up for the
-humans.
+We have convened to discuss how to stop the Sapshed.  How timely a representative has shown up for the humans.
 endmsg
 x 5
 y 3
@@ -592,22 +577,12 @@ arch ent
 name Sir Rootmore
 msg
 @match tree
-Ents love all plants, but trees
-sometimes require the most protection.
-You see, they grow too slowly and have
-wood for brains. If we do not protect
-them, then who will?  Alas, if only
-the druids were still here!
+Ents love all plants, but trees sometimes require the most protection.
+You see, they grow too slowly and have wood for brains. If we do not protect them, then who will?  Alas, if only the druids were still here!
 @match druids
-Gnarles is our loremaster, he is the
-one to ask.
+Gnarles is our loremaster, he is the one to ask.
 @match *
-Greetings good sir.  I know not all
-humans are greedy; and 'tis all to
-easy to be short-sighted when you only
-live as long as a shrub!  Aye!  But we
-must make you see on the timescale of
-a Tree!
+Greetings good sir.  I know not all humans are greedy; and 'tis all to easy to be short-sighted when you only live as long as a shrub!  Aye!  But we must make you see on the timescale of a Tree!
 endmsg
 x 7
 y 11
@@ -704,9 +679,7 @@ arch ent
 name Northond
 msg
 @match forest
-Can you not hear the maples scream,
-"Oppression!" and see the oaks shaking
-their heads?
+Can you not hear the maples scream, "Oppression!" and see the oaks shaking their heads?
 @match *
 There is unrest in the Forest!
 endmsg
@@ -893,9 +866,7 @@ end
 arch ent
 msg
 @match haste
-Time is the best teacher. The past can
-tell us much if we stop to ponder what
-has come to pass.
+Time is the best teacher. The past can tell us much if we stop to ponder what has come to pass.
 @match *
 Do not act in haste!
 endmsg
@@ -957,19 +928,11 @@ arch ent
 name Quercus
 msg
 @match month
-If you can get the King to halt the
-cutting of our lands before the
-meeting ends, you might avert War!
+If you can get the King to halt the cutting of our lands before the meeting ends, you might avert War!
 @match war
-If we feel we must protect ourselves,
-we may have to destroy the city. Bring
-a Treaty to the spirit stone and it
-may save us all. When you return, you
-can help us celebrate by bringing us
-draughts from the grove over there.
+If we feel we must protect ourselves, we may have to destroy the city. Bring a Treaty to the spirit stone and it may save us all. When you return, you can help us celebrate by bringing us draughts from the grove over there.
 @match *
-It will take us a month to conclude
-this meeting.
+It will take us a month to conclude this meeting.
 endmsg
 x 12
 y 6
@@ -1021,17 +984,12 @@ arch ent
 name Gnarles
 msg
 @match druids
-The old ones who worshipped Gaea. It
-was they who taught us speech. Sadly,
-they slowly lost their number.  None
-wish to align with Gaea these days.
+The old ones who worshipped Gaea. It was they who taught us speech. Sadly, they slowly lost their number.  None wish to align with Gaea these days.
 @match gaea
 Our wise Mother that brings us life.
-The druids built a SpiritStone to
-reach her.  It is near the large pool.
+The druids built a SpiritStone to reach her.  It is near the large pool.
 @match *
-Hmmmmmmmm. Deep thought.  Let us not
-be too hasty... Hmmmmmm....
+Hmmmmmmmm. Deep thought.  Let us not be too hasty... Hmmmmmm....
 endmsg
 x 13
 y 2
@@ -1193,8 +1151,7 @@ arch deathtree
 name angry tree
 msg
 @match *
-I do not trust you.  Too many of my
-friends have I seen brought to the axe.
+I do not trust you.  Too many of my friends have I seen brought to the axe.
 endmsg
 x 15
 y 9
@@ -1373,8 +1330,7 @@ end
 arch unicorn
 msg
 @match druid
-Worship Gaea and help the creatures in
-need.
+Worship Gaea and help the creatures in need.
 @match *
 Why not become a druid?
 endmsg

@@ -6,7 +6,7 @@ enter_x 16
 enter_y 8
 msg
 Created:  1999-02-28 King Zoobus
-Modified: 2019-08-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -311,12 +311,9 @@ end
 arch dwarf_priest
 msg
 @match gems
-They are easy to imbue with magic
-forces.
+They are easy to imbue with magic forces.
 @match magic
-If you gain permission to enter our
-city, perhaps you could learn from our
-great masters in the magic art.
+If you gain permission to enter our city, perhaps you could learn from our great masters in the magic art.
 @match *
 I need to create some gems.
 endmsg
@@ -735,10 +732,7 @@ msg
 @match stranger
 Would you like to get home?
 @match yes
-You should ask Kaladon.  He is a wise,
-old man. Last I heard he was in Dun
-Marksel. Ask him about travelling the
-etheric paths.
+You should ask Kaladon.  He is a wise, old man. Last I heard he was in Dun Marksel. Ask him about travelling the etheric paths.
 @match *
 You seem a stranger.
 endmsg
@@ -1155,11 +1149,9 @@ arch wizard
 name Narzon
 msg
 @match poison|cure
-Lathonus may have insight regarding
-these matters.
+Lathonus may have insight regarding these matters.
 @match *
-If you cannot find your answer in the
-library, then come ask me for help.
+If you cannot find your answer in the library, then come ask me for help.
 endmsg
 hp 80
 x 10
@@ -1448,13 +1440,9 @@ arch conjurer
 name Lathonus
 msg
 @match poison|cure
-Yes, and elixer for even the most
-vile toxins can be made.
+Yes, and elixer for even the most vile toxins can be made.
 @match elixer
-It requires a unicorn horn, a dragon's
-claw, and a potion of healing.  Place
-the items here in my room and I shall
-concoct the elixer for you.
+It requires a unicorn horn, a dragon's claw, and a potion of healing.  Place the items here in my room and I shall concoct the elixer for you.
 endmsg
 hp 90
 x 12
@@ -1722,7 +1710,7 @@ arch guildmaster
 msg
 @match *
 Special Offer:  new member drive!
-membership fees are now only 70 gold!
+Membership fees are now only 70 gold!
 endmsg
 x 15
 y 1

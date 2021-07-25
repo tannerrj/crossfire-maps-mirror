@@ -4,16 +4,14 @@ width 13
 height 13
 msg
 Created:  2000-02-09
-Modified: 2012-04-14 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch holy_priest
 name Priest
 msg
 @match *
-This is the one true path, give
-yourself to the devourers and the
-way shall open.
+This is the one true path, give yourself to the devourers and the way shall open.
 endmsg
 Con 15
 Wis 0
@@ -55,8 +53,7 @@ arch a_priest
 name acolyte
 msg
 @match *
-Let yourself be devoured and you shall
-know true power
+Let yourself be devoured and you shall know true power!
 endmsg
 Con 11
 Wis 0
@@ -124,7 +121,7 @@ arch holy_priest
 name Priest
 msg
 @match *
-In fire we walk and in fire we will be reborn
+In fire we walk and in fire we will be reborn!
 endmsg
 Con 15
 Wis 0
@@ -161,7 +158,7 @@ arch a_priest
 name acolyte
 msg
 @match *
-Ruggilli will burn your sins away
+Ruggilli will burn your sins away!
 endmsg
 Con 11
 Wis 6
@@ -203,8 +200,7 @@ arch a_priest
 name acolyte
 msg
 @match *
-Give yourself to Gorokh and he will
-show you the true meaning of power
+Give yourself to Gorokh and he will show you the true meaning of power!
 endmsg
 Con 11
 Wis 0
@@ -246,7 +242,7 @@ name Priest
 msg
 @match *
 INFIDEL!
-Gorokh will punish you for your blasfem
+Gorokh will punish you for your blasfem!
 endmsg
 Con 15
 Wis 0

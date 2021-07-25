@@ -8,7 +8,7 @@ enter_x 10
 enter_y 17
 msg
 Created:  1997-07-18
-Modified: 2012-06-06 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass_only
@@ -863,8 +863,7 @@ Hello!
 @match day
 Oh, a beautiful day indeed! Just don't go into any house, like the dreadful house, or you may well get yourself killed!
 @match dreadful|house
-Oh, the dreadful house.... If you want to go there, and you never heard of sesame, you may have a difficult time with the password - and that is just as well, because you can enjoy the day
-instead of getting yourself killed!
+Oh, the dreadful house.... If you want to go there, and you never heard of sesame, you may have a difficult time with the password - and that is just as well, because you can enjoy the day instead of getting yourself killed!
 @match *
 Nice day, isn't it?
 endmsg

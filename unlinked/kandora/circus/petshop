@@ -4,7 +4,7 @@ width 16
 height 16
 msg
 Created:  1999-02-18 King Zoobus
-Modified: 2014-08-28 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor2
@@ -205,13 +205,9 @@ end
 arch slug
 msg
 @match grail
-You may wish to seek the most Holy
-Hangrenade to aid thee in thine quest.
+You may wish to seek the most Holy Hangrenade to aid thee in thine quest.
 @match *
-My name is Clarence.  You must be
-Arthur, King of the Brits on a quest
-to seek the holy grail. Did you know
-slugs can talk?
+My name is Clarence.  You must be Arthur, King of the Brits on a quest to seek the holy grail. Did you know slugs can talk?
 endmsg
 x 1
 y 11
@@ -551,10 +547,9 @@ arch merchant
 name Petshop Owner
 msg
 @match slug
-Yes, and a fine pet he'd make
+Yes, and a fine pet he'd make.
 @match *
-Oh, he's not dead.  Just restin', he
-is...  I got a slug.
+Oh, he's not dead.  Just restin', he is...  I got a slug.
 endmsg
 x 4
 y 4

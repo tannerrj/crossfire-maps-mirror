@@ -4,7 +4,7 @@ width 14
 height 6
 msg
 Created:  1999-02-04 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -112,9 +112,7 @@ arch a_townsman2
 name Innkeep
 msg
 @match *
-Welcome. Just leave 10 silver on the
-nightstand before you leave. The
-corner suite is 20 gold. G'night
+Welcome. Just leave 10 silver on the nightstand before you leave. The corner suite is 20 gold. G'night.
 endmsg
 x 2
 y 4
@@ -547,11 +545,7 @@ arch letter
 name forgotten letter under bed
 msg
 Dearest Zandor,
-  You are the finest physician in the
-land. Please go at once to Denray at
-look at the King. I did not want to
-voice my suspician without proof, but
-I fear he may be poisoned! Regards, DG
+  You are the finest physician in the land. Please go at once to Denray at look at the King. I did not want to voice my suspician without proof, but I fear he may be poisoned! Regards, DG
 endmsg
 x 12
 y 4

@@ -7,6 +7,7 @@ height 14
 enter_x 1
 msg
 Created:  1999-02-28 King Zoobus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch earth
@@ -722,8 +723,7 @@ end
 arch nightmare
 msg
 @match *
-oo, stay away or you shall meet my
-fate. oooo
+Oo, stay away or you shall meet my fate. Oooo...
 endmsg
 x 8
 y 9
@@ -1379,10 +1379,7 @@ msg
 @match wise
 I am the guardian of the portal.
 @match portal
-My race is repaying their debt to the
-world.  We sought magicks forbidden and
-unleased that which must not be
-allowed to escape into the world.
+My race is repaying their debt to the world.  We sought magicks forbidden and unleased that which must not be allowed to escape into the world.
 @match *
 If you are wise, you should leave.
 endmsg

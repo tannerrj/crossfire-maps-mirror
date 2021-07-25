@@ -433,9 +433,7 @@ end
 arch dwarf_wiz
 msg
 @match *
-I help supply this guild. Usually, I
-only let members have access... but I
-see you are in need of help.
+I help supply this guild. Usually, I only let members have access... but I see you are in need of help.
 endmsg
 x 4
 y 8
@@ -486,29 +484,15 @@ arch guildmaster
 name Kaladon
 msg
 @match etheric plane
-Ah, you wish to know the balm of
-travelling. Very dangerous it is.
-Reminds me of a story. blah blah blah
+Ah, you wish to know the balm of travelling. Very dangerous it is.
+Reminds me of a story. blah blah blah...
 @match balm of travelling
-You youngsters, always in a hurry with
-no time to hear my stories. If my
-memory serves me, you need the wing of
-a faerie dragon, freshy killed. Sing
-the rites of passage while adding in
-triplicate the water of sapphire, xan
-wing, & pixie wings. Stamp thrice upon
-the ground to bind the powers
-together. Apply the balm under a new
-moon and stamp thrice to invoke the
-portal. Do not wear metal, or the
-portal shall close!
+You youngsters, always in a hurry with no time to hear my stories. If my memory serves me, you need the wing of a faerie dragon, freshy killed. Sing the rites of passage while adding in triplicate the water of sapphire, xan wing, & pixie wings. Stamp thrice upon the ground to bind the powers together. Apply the balm under a new moon and stamp thrice to invoke the portal. Do not wear metal, or the portal shall close!
 @match whispering
-TALK LOUDER! you young dolt, always
-waking old men from their naps...
-mutter... mutter... go study the world
-as I once did... mutter...
+TALK LOUDER! you young dolt, always waking old men from their naps...
+Mutter... mutter... go study the world as I once did... mutter...
 @match *
-eh? What's that? stop whispering.
+Eh? What's that? stop whispering.
 endmsg
 x 5
 y 1
@@ -918,19 +902,14 @@ arch c_priest
 name Garlock the Great
 msg
 @match land
-You do not come from here, I can tell
-by your strange accent. Where did you
-enter this world from?
+You do not come from here, I can tell by your strange accent. Where did you enter this world from?
 @match pond|portal
-Ah ha! I knew there was great magik
-about those waters. Some say a great
-druid lives there.
+Ah ha! I knew there was great magik about those waters. Some say a great druid lives there.
 @match druid
 Alas, history is not my strong point.
 Ask an elder these questions.
 @match *
-You seem a wise & honorable one. A
-stranger in a strange land.
+You seem a wise & honorable one. A stranger in a strange land.
 endmsg
 x 9
 y 3
@@ -1213,26 +1192,13 @@ end
 arch crone
 msg
 @match pond|portal
-To the north? Yes, it is said a great
-druid once used it as a means to
-explore beyond this world. He was a
-master of the etheric.
+To the north? Yes, it is said a great druid once used it as a means to explore beyond this world. He was a master of the etheric.
 @match druid
-Calaway the Great. He is long since
-departed from our plane of existence.
+Calaway the Great. He is long since departed from our plane of existence.
 @match world
-You wish to return to yours? A more
-powerful mage could perform a word of
-recall, but I am to frail. A last
-resort would be to charter a ship from
-the east.
+You wish to return to yours? A more powerful mage could perform a word of recall, but I am to frail. A last resort would be to charter a ship from the east.
 @match ship
-Some captains long to explore, but it
-is expensive to form an expedition
-@match etheric
-Kaladon, the wise, has dabbled in the
-etheric plane. If he's not alseep, he
-may answer your question
+Some captains long to explore, but it is expensive to form an expedition @match etheric Kaladon, the wise, has dabbled in the etheric plane. If he's not alseep, he may answer your question.
 endmsg
 x 11
 y 2

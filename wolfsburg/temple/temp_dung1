@@ -7,7 +7,7 @@ height 37
 enter_x 1
 enter_y 1
 msg
-Modified: 2012-04-01 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch small_stones
@@ -9677,7 +9677,7 @@ What is it?
 @match key
 You have guessed correctly.  The first object you seek is in the Volcano.  The first word you seek is TIMELESSNESS.
 @match name
-I am the Sphinx
+I am the Sphinx!
 @match *
 Have you come for a riddle?
 endmsg
