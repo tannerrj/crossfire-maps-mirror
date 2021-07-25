@@ -5,7 +5,7 @@ region scornoldcity
 width 40
 height 40
 msg
-Modified: 2012-03-18 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 tile_path_1 oldcity54
 tile_path_2 oldcity3
@@ -5308,7 +5308,7 @@ arch magic_ear
 msg
 @match subject|summon
 Why yes, I am going to take over your precious little city.  I have built a way in for my hordes! *The Demilich says evilly*
-@match hords|way|Hords|Way
+@match hords|way
 Yes, the entrance is nearer then you think! Of course, you'll never find IT!
 @match *
 You have killed many of my subjects, but I will summon more and the ones you have yet to face will surely kill you, so give up now foolish vermin.

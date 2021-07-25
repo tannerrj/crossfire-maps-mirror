@@ -8,7 +8,7 @@ enter_x 1
 enter_y 9
 msg
 Created:  1996-06-27
-Modified: 2011-12-20 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch pstone_4
@@ -298,7 +298,7 @@ y 5
 end
 arch magic_ear
 msg
-@match SEVEN
+@match seven
 Click.
 endmsg
 x 4

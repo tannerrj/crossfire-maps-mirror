@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created:  1996-09-16 Chris Jeske
-Modified: 2016-02-12 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woods_3
@@ -2538,7 +2538,7 @@ arch knight
 msg
 @match open|gate|grate|in|let|enter|out
 Why should I let you in?
-@match Lothar
+@match lothar
 Ok! Here you go...
 @match *
 What would you like?
@@ -2743,7 +2743,7 @@ connected 1
 end
 arch magic_ear
 msg
-@match Lothar
+@match lothar
 The guard seems to flinch beneath his armour...
 endmsg
 x 15

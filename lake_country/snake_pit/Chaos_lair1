@@ -9,7 +9,7 @@ enter_x 16
 enter_y 30
 msg
 Created:  1995-06-04 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2015-04-02 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 maplore
 @def ChaosLair
@@ -3189,7 +3189,7 @@ blocksview 1
 end
 arch magic_ear
 msg
-@match Orcus|Balrog|Asmodeus|Jessy
+@match orcus|balrog|asmodeus|jessy
 A parade of guards and guardians appeared to greet.  You hope no one discovers you.
 endmsg
 x 14
@@ -3222,7 +3222,7 @@ name dragonman guard
 msg
 @match open|enter|gate|door
 What's your name? What's your business?
-@match Orcus|Balrog|Asmodeus|Jessy
+@match orcus|balrog|asmodeus|jessy
 Gatekeeper! OPEN!!.
 @match kill
 Great! We all need some excercises!
@@ -4629,7 +4629,7 @@ blocksview 1
 end
 arch magic_ear
 msg
-@match Orcus|Balrog|Asmodeus|Jessy
+@match orcus|balrog|asmodeusjjessy
 A parade of guards and guardians appeared to greet.  You hope no one discovers you.
 endmsg
 x 19
@@ -4662,7 +4662,7 @@ name dragonman guard
 msg
 @match open|enter|gate|door
 What's your name? What's your business?
-@match Orcus|Balrog|Asmodeus|Jessy
+@match orcus|balrog|asmodeus|jessy
 Gatekeeper! OPEN!!.
 @match kill
 Great! We all need some excercises!

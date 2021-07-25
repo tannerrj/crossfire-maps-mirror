@@ -2033,7 +2033,7 @@ y 9
 end
 arch magic_ear
 msg
-@match treaty|Treaty
+@match treaty
 The door silently opens with a wave of
 the King's hand.
 endmsg
@@ -2044,10 +2044,10 @@ end
 arch siegfried
 name King Zoobus
 msg
-@match Ent|ent
+@match ent
 You have seen the Ents?  I thought
 they had left many years ago.
-@match Treaty|treaty
+@match treaty
 By all means.  I had not realized how
 much the forest had been damaged.  Go
 to the north wing and ask for the

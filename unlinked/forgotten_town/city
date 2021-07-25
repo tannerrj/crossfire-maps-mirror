@@ -8,7 +8,7 @@ enter_y 2
 msg
 Created:  2005-07-17 K. Ahlers
 Mail: info@knutshome.de
-Modified: 2013-11-24 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -3872,7 +3872,7 @@ y 23
 end
 arch magic_ear
 msg
-@match maveric|Maveric
+@match maveric
 Click.
 endmsg
 x 14

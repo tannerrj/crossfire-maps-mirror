@@ -4,7 +4,7 @@ width 40
 height 28
 msg
 Created:  1999-02-26 King Zoobus
-Modified: 2011-11-05 Andreas Kirschbaum
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woods
@@ -974,7 +974,7 @@ y 4
 end
 arch magic_ear
 msg
-@match mithril|Mithril
+@match mithril
 A dwarf pops up from behind a rock,
 blindfolds you, and begins leading
 down into a hidden valley....

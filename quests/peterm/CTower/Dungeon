@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1994-02-11 peter mardahl (peterm@soda.berkeley.edu)
-Modified: 2012-03-11 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -141,7 +141,7 @@ y 4
 end
 arch prisoner
 msg
-@match hi|hello|Hi
+@match hi|hello
 Set me free.  It's true I betrayed my master, but he's a monster.  There is worse than being a traitor.
 @match traitor|betray
 Yes, I betrayed my master.  Who wouldnt if they knew his evil scheme?

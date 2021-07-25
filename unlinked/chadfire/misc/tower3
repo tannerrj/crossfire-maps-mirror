@@ -4,7 +4,7 @@ width 11
 height 11
 msg
 Created:  2010-09-08 Chad
-Modified: 2010-09-10 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -158,9 +158,9 @@ arch guildmaster
 name Tower Guard
 race none
 msg
-@match hi|Hi
+@match hi
 One of these days the seal is going to wear off, and *it* will get us all...
-@match it|It
+@match it
 Trust me, you don't want to know...its easier to tolerate life here that way.
 endmsg
 face guard_med.111

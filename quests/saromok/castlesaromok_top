@@ -8,7 +8,7 @@ enter_x 12
 enter_y 6
 msg
 Created:  2008-08-14 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-03-22 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -7514,7 +7514,7 @@ glow_radius 50
 end
 arch magic_ear
 msg
-@match yes|sure|ok|Yes|Sure|ok
+@match yes|sure|ok
 Then I have no choice but to utterly annihilate you... You quickly travel through space and time as Saromok summons you to another dimension!
 endmsg
 x 12
@@ -7523,7 +7523,7 @@ connected 1
 end
 arch magic_ear
 msg
-@match hi|hey|hello|Hi|Hey|Hello
+@match hi|hey|hello
 Saromok says: It appears as if we have both underestimated each other.  I never imagined you would make it this far, and you still think you can defeat me.  You have no idea of the power I command...my 937 years of studying magic has allowed me to utterly master it.  With my power, and my unstoppable orc army, I am invincible!.. but, if you are so eager to die, then I will gladly help.  So what will you do? Challenge me to a duel to the death?
 endmsg
 x 12

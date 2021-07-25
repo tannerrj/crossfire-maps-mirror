@@ -8,7 +8,7 @@ enter_x 2
 enter_y 10
 msg
 Created:  1996-02-08
-Modified: 2012-03-08 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -400,7 +400,7 @@ Oh! You are quite okay.  I'll tell you a secret: On one of the islands close to 
 Who is that?
 @match odo
 Well... I don't know much.  My friend To-jyo is more familiar with stories about the ancient gods.
-@match To-jyo
+@match to-jyo
 He is an archeologist.  He lives to the east of here on an island.  The local sailors are friendly, so it should be easy to find a ship to take you there.
 @match key
 O.K.  Try the game.

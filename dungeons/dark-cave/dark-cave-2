@@ -8,7 +8,7 @@ height 60
 msg
 Creator: jesse
 Date:    2008-01-22
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cave_15
@@ -1895,11 +1895,11 @@ y 32
 end
 arch dwarf_priest
 msg
-@match yes|Yes|letter|Letter
+@match yes|letter
 Have you word from our friends?  Please, step forward and deliver it!
-@match no|No|where|Where|giant|Giant|ogre|Ogre
+@match no|where|giant|ogre
 The giant army is from the Red Foot tribe. The Red Foots are located in the mountains north of the nearby inn.  If our dwarven brothers still live, they are likely being held there.
-@match wizard|Wizard|glint|Glint|necromancer|Necromancer
+@match wizard|glint|necromancer
 Some time after the battle against the ogres, a wizard arrived.  We do not know much about him, but it appears that he has chosen our outpost as his home.
 
 We have heard battles raging upstairs, perhaps between the giants and the wizard's minions.  But the battles have been silent for some time now.

@@ -7,7 +7,7 @@ height 14
 enter_x 1
 msg
 Created:  1999-02-28 King Zoobus
-Modified: 2019-08-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch marble
@@ -629,7 +629,7 @@ arch wizard
 name The Honorable Lynius
 name_pl The Honorable Lynius
 msg
-@match rellik|Rellik
+@match rellik
 You accuse him of murdering the King?
 @match case
 You must provide the evidence to the

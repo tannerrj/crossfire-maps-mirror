@@ -4,6 +4,7 @@ width 19
 height 14
 msg
 Created:  1999-02-06 King Zoobus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch falls
@@ -386,13 +387,13 @@ end
 arch ent
 name Frond the Ancient
 msg
-@match Sapshed
+@match sapshed
 Well, what else do you call the
 senseless Butchering of trees?
-@match Butchering
+@match butchering
 Some of us call it genocide! That is a
 strong word for an Ent to employ.
-@match Ent
+@match ent
 Our meeting will last much too long
 for you to participate in the
 discussion. It would be best for you
@@ -590,7 +591,7 @@ end
 arch ent
 name Sir Rootmore
 msg
-@match Tree
+@match tree
 Ents love all plants, but trees
 sometimes require the most protection.
 You see, they grow too slowly and have
@@ -702,7 +703,7 @@ end
 arch ent
 name Northond
 msg
-@match Forest
+@match forest
 Can you not hear the maples scream,
 "Oppression!" and see the oaks shaking
 their heads?
@@ -959,7 +960,7 @@ msg
 If you can get the King to halt the
 cutting of our lands before the
 meeting ends, you might avert War!
-@match War
+@match war
 If we feel we must protect ourselves,
 we may have to destroy the city. Bring
 a Treaty to the spirit stone and it
@@ -1024,7 +1025,7 @@ The old ones who worshipped Gaea. It
 was they who taught us speech. Sadly,
 they slowly lost their number.  None
 wish to align with Gaea these days.
-@match Gaea
+@match gaea
 Our wise Mother that brings us life.
 The druids built a SpiritStone to
 reach her.  It is near the large pool.

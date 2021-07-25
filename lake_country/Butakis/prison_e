@@ -7,7 +7,7 @@ height 16
 enter_y 14
 msg
 Created:  1995-03-29 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -1849,7 +1849,7 @@ end
 arch wizard
 name Twis
 msg
-@match name|Wist
+@match name|wist
 How many time do I have to tell you that I am not Wist!
 @match save|help|release|escape
 Okay.  Help me escape here and I will reward you. Here is the plan. Find Fiery, my apprentice and get the chalice of fire from him.  When you get the chalice, I will tell you what to do next.
@@ -1860,7 +1860,7 @@ Okay.  Put it in the liquid that surrounds the cell.  It will breach the antimag
 @match reward|pay|payment|repay
 Did I promise reward?
 Ooh, okay.  As reward, I grant you permission to my private study.  If you have done as I asked, come in and I will send you to my study.
-@match Fiery
+@match fiery
 Fiery was my pupil.  He had the chalice of fire.  Force him to give it to you if you have to.  I don't know where he is now.  Search in the fortress and you may find him... I don't care if he dies.
 @match *
 How long do you think you can trap me in this place? Sooner or later I will get out and I will come back to crush you, all of you! Now what can you do for me?

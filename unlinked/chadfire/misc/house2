@@ -6,7 +6,7 @@ width 11
 height 11
 msg
 Created:  2010-09-11 Chad
-Modified: 2010-09-12 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -282,7 +282,7 @@ arch guildmaster
 name Trapped Mage
 race none
 msg
-@match hi|Hi|hey|Hey|hello|Hello
+@match hi|hey|hello
 Ahh thanks! I was trying a spell way out of my league and accidentally summoned some *spiders* which attacked me...
 @match spiders
 You saw the one in the front room, but there are more in the basement...please kill them for me!

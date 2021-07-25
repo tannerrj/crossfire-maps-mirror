@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1996-01-29
-Modified: 2012-03-01 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -2358,7 +2358,7 @@ y 14
 end
 arch magic_ear
 msg
-@match SOS
+@match sos
 Click.
 endmsg
 x 13

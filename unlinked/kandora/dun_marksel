@@ -1050,7 +1050,7 @@ y 13
 end
 arch courier
 msg
-@match king|King|Denray
+@match king|denray
 His castle lies to the south.  He is
 ruler of our province... or was.
 There is no suitable heir.  Who will
@@ -1150,7 +1150,7 @@ connected 3
 end
 arch magic_ear
 msg
-@match yes|Yes
+@match yes
 Click.
 endmsg
 x 12

@@ -472,7 +472,7 @@ end
 arch merchant
 name Sideshow Attendant
 msg
-@match Prize|prize
+@match prize
 How about a soft toy?
 @match *
 Pull the lever and win a Prize!

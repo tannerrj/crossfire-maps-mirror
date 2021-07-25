@@ -4,7 +4,7 @@ width 30
 height 22
 msg
 Created:  2002-03-09 Avion
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch teleporter
@@ -4393,7 +4393,7 @@ title Arnie
 msg
 @match hello|hi
 oooooOOOOOOOoooooOOO
-@match hello Arnie
+@match hello arnie
 Hey how's tricks?
 @match not bad, yourself?
 Well, I've been better obviously, but I can't complain.

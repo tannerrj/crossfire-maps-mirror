@@ -11,7 +11,7 @@ This map is intended for use as a tutorial for
 complete newbies, to teach them some of the
 basic concepts of Crossfire.  Players should
 enter at x-11, y-1.
-Modified: 2019-05-30 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 unique 1
 end
@@ -469,7 +469,7 @@ y 14
 end
 arch magic_ear
 msg
-@match orc-knuckle|ORC-KNUCKLE|Orc-Knuckle
+@match orc-knuckle
 Click.
 endmsg
 x 3
@@ -1691,13 +1691,13 @@ y 3
 end
 arch sage
 msg
-@match food|FOOD|food|no|NO|No
+@match food|no
 There is some food on the other side of this gate.
-@match beer|Beer|BEER
+@match beer
 Beer isn't food!
-@match gate|GATE|Gate
+@match gate
 Say the word "open" to get through.  Bye now!
-@match hello|HELLO|Hello|hi|Hi|HI
+@match hello|hi
 Do you have any food?
 @match *
 Ninety-nine bottles of beer on the wall....

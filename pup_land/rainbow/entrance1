@@ -6,7 +6,7 @@ width 16
 height 20
 msg
 Created:  1996-06-08
-Modified: 2008-10-12 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -1180,7 +1180,7 @@ connected 1
 end
 arch magic_ear
 msg
-@match IN
+@match in
 Click.
 endmsg
 x 10

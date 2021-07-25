@@ -8,7 +8,7 @@ enter_x 1
 enter_y 15
 msg
 Created:  1995-03-29 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2012-06-08 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dun10
@@ -135,7 +135,7 @@ name Lich prisoner
 msg
 @match hello
 If you want to talk to me, release me first.  I don't feel like talking in here.
-@match Yes
+@match yes
 Okay, go on turn the handle and release me.  Then I will reward you and let you be one of us.  Don't listen to whatever the others have to say about it.
 @match no
 No? NO???!! If you don't release me, I will suck your brain dry, when I come out, which is very soon.  Expect that moment coming soon when you go to bed tonite; for the dark force of the swamp is the strongest and soon will come to crush this fortress.

@@ -9,7 +9,7 @@ msg
 Creator: jesse
 Date:    2008-01-25
 An ogre stronghold.
-Modified: 2014-10-18 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -2946,7 +2946,7 @@ y 35
 end
 arch magic_ear
 msg
-@match yes|Yes|Yeah|yeah
+@match yes|yeah
 He hands you a letter.
 endmsg
 x 12
@@ -2956,11 +2956,11 @@ end
 arch dwarf_wiz
 name Snortrider
 msg
-@match letter|Letter|outpost|Outpost
+@match letter|outpost
 Our mining town is not far.  Head east from the Inn until you find a footpath going south.  Our town is in the mountains at the end of the path.
 
 Once in the cave, you must find the tombs.  Our brothers are hidden in a secret room near there.
-@match yes|Yes|Yeah|yeah
+@match yes|yeah
 Wonderful!  Please, take this letter.
 @match *
 Thank Mostrai you have arrived! We were captured by the Red Foot ogres in a terrible battle in our mining outpost south east of here.

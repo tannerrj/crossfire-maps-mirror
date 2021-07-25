@@ -9,7 +9,7 @@ enter_x 4
 enter_y 1
 msg
 Created:  1994-08-27 langley (langley@fermat.dartmouth.edu)
-Modified: 2012-02-20 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -1393,7 +1393,7 @@ name Buggle
 msg
 @match key
 Key?  You must be thinking of my cousin upstairs.  He keeps all the keys.
-@match Buggle
+@match buggle
 That's me name.  Whats it to ya?
 @match *
 Yeah, so you killed all my gang.  You don't want to mess we me. Or my dogs.  You are free to go.

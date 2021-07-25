@@ -8,7 +8,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  1995-04-13
-Modified: 2012-02-06 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dun10
@@ -409,7 +409,7 @@ y 6
 end
 arch magic_ear
 msg
-@match open|close|Open|Close
+@match open|close
 Click.
 endmsg
 x 4
@@ -469,7 +469,7 @@ msg
 @match visit|meet|see|talk
 Who are you visiting?
 Let me guess.  Wist? or Twis? Duan? Fiery? Joey?
-@match Wist|Twis|Duan|Fiery|Joey
+@match wist|twis|duan|fiery|joey
 Okay. But be careful.  OPEN THE GATE!!! ...
 @match monster|treasure
 There is no monsters or treasure here.  This is prison. Only the most dangerous criminals of the lands are imprisoned here.
@@ -751,7 +751,7 @@ y 8
 end
 arch magic_ear
 msg
-@match open|close|Open|Close
+@match open|close
 Click.
 endmsg
 x 7
@@ -804,7 +804,7 @@ connected 1
 end
 arch magic_ear
 msg
-@match Joey|Fiery|Wist|Twis|Duan
+@match joey|fiery|wist|twis|duan
 Click.
 endmsg
 x 7
@@ -1094,7 +1094,7 @@ y 6
 end
 arch magic_ear
 msg
-@match open|close|Open|Close
+@match open|close
 Click.
 endmsg
 x 10
@@ -1154,7 +1154,7 @@ msg
 @match visit|meet|see|talk
 Who are you visiting?
 Let me guess.  Wist? or Twis? Duan? Fiery? Joey?
-@match Wist|Twis|Duan|Fiery|Joey
+@match wist|twis|duan|fiery|joey
 Okay. But be careful.  OPEN THE GATE!!! ...
 @match monster|treasure
 There is no monsters or treasure here.  This is prison. Only the most dangerous criminals of the lands are imprisoned here.

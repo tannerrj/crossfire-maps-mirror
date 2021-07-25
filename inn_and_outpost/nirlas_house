@@ -4873,7 +4873,7 @@ blocksview 1
 end
 arch bird
 msg
-@match Hi|hello
+@match hi|hello
 Hello two legs!
 @match talk|speak
 I can talk better than you can most likely.
@@ -5432,14 +5432,14 @@ smoothlevel 254
 end
 arch elf_1
 msg
-@match Nirla
+@match nirla
 Yes this is her home.  She is wise but also, she is the Queen's daughter.
 @question queen What queen are you talking about?
 @match queen
 The Queen of the elves.
 @match *
 Nirla keeps a restful house.
-@question Nirla Who is Nirla?
+@question nirla Who is Nirla?
 endmsg
 x 21
 y 4

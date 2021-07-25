@@ -10,7 +10,7 @@ enter_x 9
 enter_y 4
 msg
 Created:  2003-07-31 Tchize
-Modified: 2014-08-07 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -3345,7 +3345,7 @@ end
 arch guildmaster
 name Sigmund
 msg
-@match yes|Yes|YES|bed to reality|Bed to reality|beds to reality|Beds to reality
+@match yes|bed to reality|beds to reality
 A bed to reality is the way you quit
 the Crossfire world to get back to
 your real life. While you are in
@@ -3999,7 +3999,7 @@ y 26
 end
 arch magic_ear
 msg
-@match Hello world|hello world|HELLO WORLD
+@match hello world
 Have a nice trip and don't die too
 quickly.
 endmsg
@@ -4860,7 +4860,7 @@ y 14
 end
 arch magic_ear
 msg
-@match Shazam|shazam
+@match shazam
 endmsg
 x 15
 y 14

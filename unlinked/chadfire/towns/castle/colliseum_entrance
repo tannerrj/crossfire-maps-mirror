@@ -4,7 +4,7 @@ width 31
 height 11
 msg
 Created:  2010-09-19 Chad
-Modified: 2010-09-19 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch stonefloor2
@@ -927,11 +927,11 @@ arch guildmaster
 name Colliseum Greeter
 race none
 msg
-@match hi|Hi|hey|Hey|hello|Hello
+@match hi|hey|hello
 Welcome...Welcome! Here at the Colliseum you can witness or participate in various *events*!
-@match events|Events
+@match events
 Enter and see which event is held *today*.
-@match today|Today
+@match today
 (mapmaker note: its supposed to be like all these events are held in the same colliseum at different times, but really there is multiple doors to multiple maps.)
 endmsg
 face guard_ligh.111

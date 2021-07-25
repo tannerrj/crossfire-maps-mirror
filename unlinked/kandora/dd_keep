@@ -6,7 +6,7 @@ enter_x 14
 enter_y 14
 msg
 Created:  1999-02-28 King Zoobus
-Modified: 2019-08-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -2347,7 +2347,7 @@ end
 arch guard
 name sad castle guard
 msg
-@match hope|Hope
+@match hope
 Then by all means, enter...
 @match *
 The keep is closed until the King's
@@ -2684,7 +2684,7 @@ what you will, but please leave some
 for us to pay servants. Why was I ill?
 @match poison|treachory|murder
 Murder! But who?
-@match Rellik|rellik
+@match rellik
 I cannot believe my own nephew would
 do such a thing! I must have proof!
 Take this pass to present to the
@@ -3027,7 +3027,7 @@ end
 arch postman
 name healer
 msg
-@match help|Help
+@match help
 I think him beyond help, but you may
 try your medicine.
 @match dead

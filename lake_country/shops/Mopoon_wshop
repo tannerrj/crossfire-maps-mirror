@@ -11,7 +11,7 @@ enter_x 9
 enter_y 9
 msg
 Created:  1995-03-19 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2021-05-13 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cave_15
@@ -1028,11 +1028,11 @@ end
 arch smith
 name Mopoon, the Dragonslayer
 msg
-@match Kashu
+@match kashu
 Mopoon smiles and nods approvingly at you.
-@match Twak
+@match twak
 "Ah.. Now I remember that's the old druid's name!"
-@match Zykie
+@match zykie
 "Don't say that name again.  It brings back some sad memories.  How I wish to see him again, my old Zykie."
 @match thanks|thank|thanx
 "You are welcome.  Give me some of your rare discoveries next time."
@@ -1043,7 +1043,7 @@ Mopoon smiles and nods approvingly at you.
 @match lord|master
 "Don't you think I am the Lord the land that I have slawn so many dragons and freed so many people of suffering."
 "But then again, I have retired the world for a long time. Ask the sages who live by the sea."
-@match Dragonslayer
+@match dragonslayer
 "That's me.  Well, I was so famous, and my sword also, that they confused my name with the sword's.  I was named Dragonslayer by my father who tried all his life to avenge for the deaths of his village."
 @match dragonbane
 "What do you want of my Dragonbane?"
@@ -1057,7 +1057,7 @@ Mopoon smiles and nods approvingly at you.
 "No.  They are not for sale and I don't lend my Dragon mail or my Dragonbane.  Unless you can impress me and prove yourself worthy."
 @match dragonsteak
 "You can get dragonsteaks from wyverns and hatchlings!"
-@match firedragon|Fire|red|flame
+@match firedragon|fire|red|flame
 "I tell you this, fire dragons are vulnerable to cold."
 @match electric|lightning
 "Lightning dragons fear fire just as much as cold dragons. "
@@ -1251,7 +1251,7 @@ invisible 1
 end
 arch magic_ear
 msg
-@match Kashu
+@match kashu
 The whole dungeon starts to shake as you invokes some old mechanism of the place..
 endmsg
 x 7
@@ -4136,7 +4136,7 @@ y 13
 end
 arch magic_ear
 msg
-@match Kashu|Wist|Twis
+@match kashu|wist|twis
 You are enveloped in a shroud of purple flame..
 endmsg
 x 22
@@ -4167,7 +4167,7 @@ y 15
 end
 arch magic_ear
 msg
-@match Jessy
+@match jessy
 You are surrounded by a shroud of black flame...
 endmsg
 x 22

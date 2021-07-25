@@ -9,7 +9,7 @@ enter_x 29
 enter_y 112
 msg
 Created:  2003-11-09 mikeeusa
-Modified: 2016-06-25 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -59561,7 +59561,7 @@ name Proprietor
 msg
 @match hi|hello
 Welcome to the dragon dock.  Please show your pass.
-@match lord|Valdak
+@match lord|valdak
 Oh... that business... I'd not venture to that castle far enough to the west if I were you.
 endmsg
 x 48

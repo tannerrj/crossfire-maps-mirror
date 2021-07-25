@@ -1193,10 +1193,10 @@ end
 arch merchant
 name Sideshow Attendant
 msg
-@match Boulder|boulder
+@match boulder
 The bigger the boulder - the bigger
 the prize!
-@match Prize|prize
+@match prize
 How about a soft toy?
 @match *
 Push the Boulders to win a

@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1993-10-15
-Modified: 2015-12-15 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -1575,7 +1575,7 @@ end
 arch ninja2
 name Mercenary
 msg
-@match monster|Monsters
+@match monster
 What about them!
 @match *
 And where do you think your GOING? Not downstairs!.... You'll have to kill me first!

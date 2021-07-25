@@ -9,7 +9,7 @@ enter_x 7
 enter_y 16
 msg
 Created:  1995-04-26 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2015-04-02 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cave_15
@@ -6784,7 +6784,7 @@ y 21
 end
 arch magic_ear
 msg
-@match Dusanki|Kasnuk
+@match dusanki|kasnuk
 Gnrr..rr...
 endmsg
 x 33
@@ -7020,7 +7020,7 @@ y 22
 end
 arch cave10
 msg
-@match Dusanki|Kasnuk
+@match dusanki|kasnuk
 "Ah! If you wish to enter please?"
 @match *
 "Be gone, before I call the guardian!"

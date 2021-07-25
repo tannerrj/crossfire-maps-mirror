@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created:  1996-09-24 Chris Jeske
-Modified: 2012-03-09 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch marble
@@ -3213,7 +3213,7 @@ Use my seal to open the door.  Bring me my crown, and I will let you go downstai
 Do you have my seal? You need my seal to open the door.
 @match crown
 It's very simple, moron! Go upstairs, get my crown, and place it on the altar.  THEN you may continue on your quest. <Geez, some people are so stupid...>
-@match Grey|shield|sword|quest|treasure
+@match grey|shield|sword|quest|treasure
 Ahh, you are looking for the Greyshield are you? If you get my sword (the Greysword), then I will let you into the treasure room... You must be worthy to gain the Greyshield!
 @match *
 <That stupid whats-his-face! He can never take care of anything himself!> What do you want? <sigh>

@@ -8,7 +8,7 @@ enter_x 20
 enter_y 2
 msg
 Created:  2008-08-13 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-03-22 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch awall_0
@@ -5336,7 +5336,7 @@ move_on 0
 end
 arch magic_ear
 msg
-@match hi|hey|hello|Hi|Hey|Hello
+@match hi|hey|hello
 endmsg
 x 20
 y 7
@@ -5353,7 +5353,7 @@ move_on 0
 end
 arch magic_ear
 msg
-@match yes|ok|sure|Yes|Ok|Sure
+@match yes|ok|sure
 Electricity Master says: Then you will be destroyed!
 endmsg
 x 20

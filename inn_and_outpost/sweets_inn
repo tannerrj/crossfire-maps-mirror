@@ -8,7 +8,7 @@ enter_x 15
 enter_y 12
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2021-01-07 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -698,7 +698,7 @@ name Sweet
 msg
 @match hi|hello
 Greetings, I am Sweet.  Please take advantage of my services.
-@match Sweet
+@match sweet
 My mother was a real barrel of laughs...
 @match portal|greenway|dark|forest
 Sorry, I don't know much about that.
@@ -1038,8 +1038,8 @@ arch elf_1
 msg
 @match greenway|portal
 I wouldn't know about that - you could ask Pyper.
-@question Pyper Who is Pyper?
-@match Pyper
+@question pyper Who is Pyper?
+@match pyper
 He's the local jeweler, you should be able to find him at his shop.
 @match *
 Ah, what a fine view of the sea...
@@ -1655,7 +1655,7 @@ y 8
 end
 arch elf_man
 msg
-@match Sweet
+@match sweet
 No, I'm not Sweet. Sweet is the big pixie over in the corner.
 @match hi|hello
 Hello, welcome to Sweets. Food and drink available at a reasonable rate. Rooms are 50 gold.

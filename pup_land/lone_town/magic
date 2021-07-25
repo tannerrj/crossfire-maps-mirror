@@ -8,7 +8,7 @@ enter_x 7
 enter_y 10
 msg
 Created:  1997-11-26
-Modified: 2012-07-15 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -286,7 +286,7 @@ end
 arch beholder
 name Fool
 msg
-@match I don't know
+@match i don't know
 At least you are an honest person.  I have decided to give you the token, but I can't stand your ugly face any more! GO AWAY!!
 @match token
 You do want the token don't you? So...  If you can answer my query, I'll give you the token.  Ok?
@@ -312,7 +312,7 @@ y 9
 end
 arch magic_ear
 msg
-@match I don't know
+@match i don't know
 endmsg
 x 1
 y 9

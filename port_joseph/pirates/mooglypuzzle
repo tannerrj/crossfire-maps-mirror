@@ -9,7 +9,7 @@ enter_x 5
 enter_y 7
 msg
 Created:  1994-06-11 langley (langley@fermat.dartmouth.edu)
-Modified: 2012-02-21 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dirtfloor
@@ -1398,7 +1398,7 @@ y 3
 end
 arch magic_ear
 msg
-@match moogly|bill|Moogly|Bill
+@match moogly|bill
 You are transported elsewhere.
 endmsg
 x 11

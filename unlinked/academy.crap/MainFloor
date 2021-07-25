@@ -8,6 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2000-04-06 Magnus Kronhamn (mak@solace.mh.se)
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch flagstone
@@ -880,7 +881,7 @@ y 1
 end
 arch conjurer2
 msg
-@match test Test TEST
+@match test test test
 To complete this quest just step up
 to the plate and shoot one magic bullet
 into the hole.
@@ -2083,7 +2084,7 @@ y 1
 end
 arch guildmaster
 msg
-@match test TEST
+@match test test
 We have several tests for both fighters
 and mages, in increasing difficulties.
 @match fighter warrior east right
@@ -3439,7 +3440,7 @@ y 1
 end
 arch ogre
 msg
-@match test Test TEST
+@match test test test
 This is a test of strength, you have
 to push the three weights to the end
 of the rows

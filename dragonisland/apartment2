@@ -8,7 +8,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  1997-07-09
-Modified: 2014-10-04 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -228,7 +228,7 @@ end
 arch kobold
 name Noruk
 msg
-@match Hello|Hallo|Hi
+@match hello|hallo|hi
 Hello! Nice to see you!
 @match hurt
 Most people just want to kill me on sight, sniff!
