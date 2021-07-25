@@ -4395,7 +4395,7 @@ msg
 oooooOOOOOOOoooooOOO
 @match hello arnie
 Hey how's tricks?
-@match not bad, yourself?
+@match not bad, yourself[?]
 Well, I've been better obviously, but I can't complain.
 @match *
 OOOOOoooooooOOOOOoooo

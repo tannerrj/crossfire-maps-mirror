@@ -8,6 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2003-10-10 Avion
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -1579,7 +1580,7 @@ end
 arch woman2
 name Shelly
 msg
-@match smuggler[s]
+@match smuggler|smugglers
 Yes yes these horrible smugglers kidnapped me.
 @match *
 Oh please save me from these smugglers!

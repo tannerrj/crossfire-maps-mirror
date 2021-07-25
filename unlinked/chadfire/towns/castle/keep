@@ -4029,9 +4029,6 @@ end
 arch guildmaster
 name Lord
 race none
-msg
-@match *
-endmsg
 face lord_e.111
 animation lord_e
 hp 100
@@ -4435,9 +4432,6 @@ end
 arch guildmaster
 name Lady
 race none
-msg
-@match *
-endmsg
 face princess.111
 animation princess
 hp 100

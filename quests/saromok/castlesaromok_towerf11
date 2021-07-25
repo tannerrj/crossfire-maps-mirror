@@ -8,7 +8,7 @@ enter_x 7
 enter_y 1
 msg
 Created:  2008-08-14 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-03-14 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch stonefloor2
@@ -976,9 +976,6 @@ lifesave 1
 arch chair_2.1
 name Animated Chair
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -1196,9 +1193,6 @@ lifesave 1
 arch platter1_plat
 name Animated Platter
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -1434,9 +1428,6 @@ lifesave 1
 arch dagger
 name Animated Dinner Knife
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -1673,9 +1664,6 @@ lifesave 1
 arch w_glass
 name Animated Wineglass
 race Human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -2975,9 +2963,6 @@ lifesave 1
 arch platter1_plat
 name Animated Platter
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -3036,9 +3021,6 @@ lifesave 1
 arch dagger
 name Animated Dinner Knife
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -3099,9 +3081,6 @@ lifesave 1
 arch w_glass
 name Animated Wineglass
 race Human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
@@ -3164,9 +3143,6 @@ lifesave 1
 arch chair_2.1
 name Animated Chair
 race human
-msg
-@match *
-endmsg
 Con 2
 Int 14
 hp 10
