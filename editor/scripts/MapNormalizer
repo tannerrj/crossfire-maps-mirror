@@ -96,6 +96,7 @@ while (it.hasNext()) {
     && !name.equals(".emergency")
     && !name.equals("ChangeLog")
     && !name.equals("COPYING")
+    && !path.contains("/.git/")
     && !path.contains("/Info/")
     && !path.contains("/editor/scripts/")) {
         normalizeMap(file, file.getPath().substring(mapDefaultFolder.length()));

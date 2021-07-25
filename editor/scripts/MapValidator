@@ -118,6 +118,7 @@ try {
         && !name.equals("ChangeLog")
         && !name.equals("COPYING")
         && !name.equals("TODO")
+        && !path.contains("/.git/")
         && !path.contains("/Info/")
         && !path.contains("/editor/scripts/")) {
             checkMap(file, file.getPath().substring(mapDefaultFolder.length()));
