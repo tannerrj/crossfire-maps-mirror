@@ -6,7 +6,7 @@ width 33
 height 31
 msg
 Created:  Andreas Vogl (red.blaze@gmx.net)
-Modified: 2012-06-03 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -3801,8 +3801,8 @@ You greedy... rascal... get me the cure first. *cough, cough*
 @match viper
 Shadow... vipers? Ask my friend about it. He might... know... *cough*
 @match *
-@question plate Your best plate mail, really?
 I got... poisoned by the... *cough* mudman. Please... help my friend... to mix a... cure... *cough*. If you do... I would... give you my... best plate mail.
+@question plate Your best plate mail, really?
 endmsg
 face corpse.111
 animation NONE
@@ -3862,19 +3862,19 @@ A brood of shadow vipers exists somewhere down the well of Santo Dominion.  We'v
 @match mudman
 The mudman is a vile creature.  He lurks in the marshes south-west of this town.  It is said that in very dark nights, when no moon is shining, he leaves the swamp to sneak around our houses.
 @match yes|cure|okay
-@question viper Where can I find a shadow viper?
 I'm still lacking three essential ingredients to mix a cure for my friend:
 - a beholder's tongue
 - a scorpion's stinger
 - skin of the shadow viper
 When you have the ingredients, put them into the cauldron here.  As a reminder you can take the list of ingredients from the bookshelf with you.
+@question viper Where can I find a shadow viper?
 @match help|gorgon|poison
+Gorgon is a mighty warrior.  A week ago he went into the marshes looking for the mudman who dwells there.  During battle, the mudman infected Gorgon with deadly poison.  Gorgon fled, but his life is fading.  Would you help me to create a cure for him?
 @question mudman What is the mudman?
 @reply yes Ok, I'll help.
-Gorgon is a mighty warrior.  A week ago he went into the marshes looking for the mudman who dwells there.  During battle, the mudman infected Gorgon with deadly poison.  Gorgon fled, but his life is fading.  Would you help me to create a cure for him?
 @match *
-@question help How can I help?
 Do you see my friend Gorgon in the other room? He got poisoned.  We need your help!
+@question help How can I help?
 endmsg
 face mage.131
 hp 500

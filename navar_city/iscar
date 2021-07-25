@@ -8,7 +8,7 @@ enter_x 4
 enter_y 10
 msg
 Created:  2008-02-09 Nicolas Weeger
-Modified: 2020-07-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -448,11 +448,11 @@ msg
 @match why
 I lost my pen somewhere, and I don't have any spare one.
 @match what|job
-@question why Why can't you write?
 I'm a writer, I write books for children.  But I can't write now...
+@question why Why can't you write?
 @match *
-@question job What are you doing?
 Hello.
+@question job What are you doing?
 endmsg
 x 5
 y 7

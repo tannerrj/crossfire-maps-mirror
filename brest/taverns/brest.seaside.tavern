@@ -7,7 +7,7 @@ enter_x 16
 enter_y 13
 msg
 Created:  2006-08-19 Gene Alexander
-Modified: 2012-01-27 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -2047,22 +2047,22 @@ arch man
 name Haemon
 msg
 @match tavern
-@question zorn You worked for Zorn?
 I bought this tavern with part of my pension from Zorn.
+@question zorn You worked for Zorn?
 @match given_name|given name
 Do NOT tell Zorn I told you this.  His given name is Zacharus Zorn.
 @match defeat_zorn|kill zorn|defeat zorn
 I know of no sure way to kill Zorn.  But there is a rumor in Brest that Zorn was a sickly child and has a weak immune system.
 @match tough
-@question defeat_zorn Do you know any way to defeat Zorn?
 It is true that Zorn is tough.  Many people have tried to kill Zorn but very few have been able to defeat Zorn.
+@question defeat_zorn Do you know any way to defeat Zorn?
 @match zorn
+Yes, I used to be Zorn's manservant.  He released me with a good pension many years ago.  He is a tough but fair man.  I am one of the few people to whom he entrusted his given name.
 @question tough So Zorn is tough?
 @question given_name What is Zorn's given name?
-Yes, I used to be Zorn's manservant.  He released me with a good pension many years ago.  He is a tough but fair man.  I am one of the few people to whom he entrusted his given name.
 @match *
-@question tavern So you are the owner of this tavern?
 Hello! Welcome to my tavern.
+@question tavern So you are the owner of this tavern?
 endmsg
 Con 50
 hp 18000

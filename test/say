@@ -4,7 +4,7 @@ width 10
 height 10
 msg
 Created:  2008-05-11 Nicolas Weeger
-Modified: 2008-06-28 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch pstone_4
@@ -323,19 +323,19 @@ Left or right does match, yes.
 @match test
 Yes, to make sure everything works.
 @match dialog
-@question rewritten Why is it being rewritten?
 It is being rewritten...
+@question rewritten Why is it being rewritten?
 @match rewritten
 Well, it was really not that powerful...
 @match yes
 It seems this works...
 @match *
-@question test Test the dialog system?
-@question dialog The dialog system?
-@reply yes Yes, please.
 hello, I'm an NPC to test the dialog system.
 
 You want me to explain something?
+@question test Test the dialog system?
+@question dialog The dialog system?
+@reply yes Yes, please.
 endmsg
 x 7
 y 8

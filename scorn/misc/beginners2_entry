@@ -8,7 +8,7 @@ enter_x 9
 enter_y 8
 msg
 Created:  2016-07-29 Rick Tanner
-Modified: 2016-07-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -347,18 +347,18 @@ arch sage
 name Sage of Training
 msg
 @match hi|hello
-@reply test Well yes, of course!
 Greetings Adventurer!  Here to test your skills and abilities?
+@reply test Well yes, of course!
 @match skills|skill|test|abilities|portal|arch
+Proceed through the archway ahead and bring back the red key and choose a reward..
 @question reward A reward, really?
 @question key Can you tell me anything about the red key?
-Proceed through the archway ahead and bring back the red key and choose a reward..
 @match reward
-@question key Can you tell me anything about the red key?
 Why yes, a reward.  To your left is a Potion of Healing - recover and heal yourself after battle, and a Potion of Minor Potion of LIfe - recover lost stats after an untimely, but momentary death. To your right is a Potion of Shielding - protect you for physical attacks for a limited time, and a Potion of Heroism - a tempary boost to your strength, health and quickness; great for combat during your many adventures.
+@question key Can you tell me anything about the red key?
 @match key|red
-@question reward So this key gives me a reward?
 A sly and clever Gnoll Champion stole the key and I suspect he has it hidden somewhere in the dungeon.  Explore, use your might, use your wit.  Fight and survive and come back here to collect your prizes.
+@question reward So this key gives me a reward?
 @match *
 Good day, traveler!
 endmsg
