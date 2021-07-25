@@ -8,7 +8,7 @@ enter_x 1
 enter_y 8
 msg
 Created:  2008-11-23
-Modified: 2012-05-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch invis_exit
@@ -990,7 +990,7 @@ end
 arch man
 name fisherman
 msg
-@match
+@match *
 Get out of my house!
 Sic em boy!
 endmsg

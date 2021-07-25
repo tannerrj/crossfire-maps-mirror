@@ -10,7 +10,7 @@ enter_x 9
 enter_y 4
 msg
 Created:  2003-07-31 Tchize
-Modified: 2021-05-30 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -2496,7 +2496,7 @@ msg
 You can find beds to reality at inns scattered all over the world.
 @match talk
 You can talk to other players by using the commands 'chat', 'shout', 'say', and 'tell'. To hear chat messages, use the command 'listen 10' (set by default). If you only want to hear shouts, use 'listen 9'.
-@help
+@match help
 If you get stuck, try talking to other players. And, as a parting word to the wise, don't forget the most useful command: 'help'.
 @match *
 So you're ready for the world of Crossfire? To go outside, use the knowledge you've just learned in the tutorials. There is no way back once you pass through the gate ahead. Do you have any questions?
