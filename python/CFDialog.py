@@ -210,6 +210,11 @@ class Dialog:
         if self.__speaker.Event(self.__speaker, self.__speaker, "query_object_is_animated", 1):
             return 0
 
+        if self.__character.DungeonMaster and msg == 'resetdialog':
+            self.__character.WriteKey(self.keyName(), "", 0)
+            Crossfire.NPCSay(self.__speaker, "Dialog state reset!")
+            return 0
+
         key = self.uniqueKey()
         replies = None
         if key in Crossfire.GetPrivateDictionary():
@@ -308,6 +313,8 @@ class Dialog:
             else:
                 Crossfire.Log(Crossfire.LogError, "CFDialog: Post Block called with unknown action %s." % action)
 
+    def keyName(self):
+        return "dialog_" + self.__location
 
     # Search the player file for a particular flag, and if it exists, return
     # its value.  Flag names are combined with the unique dialog "location"
@@ -315,7 +322,7 @@ class Dialog:
     # prevents flags from conflicting with other non-dialog-related contents
     # in the player file.
     def getStatus(self, key):
-        character_status=self.__character.ReadKey("dialog_"+self.__location)
+        character_status=self.__character.ReadKey(self.keyName())
         if character_status == "":
             return "0"
         pairs=character_status.split(";")
@@ -334,7 +341,7 @@ class Dialog:
             return
         ishere = 0
         finished = ""
-        character_status = self.__character.ReadKey("dialog_"+self.__location)
+        character_status = self.__character.ReadKey(self.keyName())
         if character_status != "":
             pairs = character_status.split(";")
             for i in pairs:
@@ -349,7 +356,7 @@ class Dialog:
             if finished != "":
                 finished = finished + ";"
             finished = finished + key + ":" + value
-        self.__character.WriteKey("dialog_" + self.__location, finished, 1)
+        self.__character.WriteKey(self.keyName(), finished, 1)
 
     # Search the NPC for a particular flag, and if it exists, return
     # its value.  Flag names are combined with the unique dialog "location"
@@ -357,7 +364,7 @@ class Dialog:
     # to be unique.  This also prevents flags from conflicting with other
     # non-dialog-related contents in the NPC.
     def getNPCStatus(self, key):
-        npc_status=self.__speaker.ReadKey("dialog_"+self.__location + "_" + self.__character.Name)
+        npc_status=self.__speaker.ReadKey(self.keyName() + "_" + self.__character.Name)
         if npc_status == "":
             return "0"
         pairs=npc_status.split(";")
@@ -377,7 +384,7 @@ class Dialog:
             return
         ishere = 0
         finished = ""
-        npc_status = self.__speaker.ReadKey("dialog_"+self.__location + "_" + self.__character.Name)
+        npc_status = self.__speaker.ReadKey(self.keyName() + "_" + self.__character.Name)
         if npc_status != "":
             pairs = npc_status.split(";")
             for i in pairs:
@@ -392,4 +399,4 @@ class Dialog:
             if finished != "":
                 finished = finished + ";"
             finished = finished + key + ":" + value
-        self.__speaker.WriteKey("dialog_" + self.__location + "_" + self.__character.Name, finished, 1)
+        self.__speaker.WriteKey(self.keyName() + "_" + self.__character.Name, finished, 1)
