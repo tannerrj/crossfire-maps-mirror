@@ -9,7 +9,7 @@ enter_x 13
 enter_y 18
 msg
 Created:  2002-12-20 Joel Southall
-Modified: 2021-01-29 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cave_15
@@ -1671,11 +1671,11 @@ end
 arch guildmaster
 name guard
 msg
-@match *
-This is a boring post.  Sitting here in this dark hole.  I wish I was posted in the other mine.
 @match mine
 Bit more exciting, I think.  If you get the area near the spider's lair.  I've heard that undead prowl somewhere deep in those mines.  A dwarf told me that it was even more exciting, before they completely drove the goblins
 away.
+@match *
+This is a boring post.  Sitting here in this dark hole.  I wish I was posted in the other mine.
 endmsg
 face warrior.151
 hp 100

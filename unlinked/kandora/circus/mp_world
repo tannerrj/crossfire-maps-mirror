@@ -6,7 +6,7 @@ enter_x 39
 enter_y 39
 msg
 Created:  1999-02-18 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch desert
@@ -7478,10 +7478,10 @@ y 36
 end
 arch veiled_woman
 msg
-@match *
-She's a witch!
 @match witch
 Burn her
+@match *
+She's a witch!
 endmsg
 x 35
 y 36

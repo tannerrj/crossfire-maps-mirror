@@ -5,7 +5,7 @@ width 39
 height 19
 msg
 Created:  2015-04-05 Rick Tanner
-Modified: 2015-05-31 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -1180,12 +1180,12 @@ msg
 Well met, adventurer! Do you have ore to turn in today?
 @match ore silverfrost silver frost yes
 Place the 10 silver frost on the table next to you to collect your gate pass.
-@match *
-This is the Ore Station for turning in silver frost
 @match gate pass gatepass
 Of course good adventurer. That is why you are here, right?
 @match help
 You collect 10 silver frost, come back here and turn them over to me and I give you a gate pass so you can go rejoin the surface world without facing the beasts and ice storm in the frigid mountain pass.
+@match *
+This is the Ore Station for turning in silver frost
 endmsg
 x 11
 y 4
@@ -1630,12 +1630,12 @@ msg
 Great day, adventurer! Do you have ore to turn in today?
 @match ore silverfrost silver frost yes
 Place the 10 silver frost on the table next to you to collect your gate pass.
-@match *
-This is the Ore Station for turning in silver frost
 @match gate pass gatepass
 Of course good adventurer. That is why you are here, right?
 @match help
 You collect 10 silver frost, come back here and turn them over to me and I give you a gate pass so you can go rejoin the surface world without facing the beasts and ice storm in the frigid mountain pass.
+@match *
+This is the Ore Station for turning in silver frost
 endmsg
 x 15
 y 3
@@ -2098,12 +2098,12 @@ msg
 Greetings, adventurer! Do you have ore to turn in today?
 @match ore silverfrost silver frost yes
 Place the 10 silver frost on the table next to you to collect your gate pass.
-@match *
-This is the Ore Station for turning in silver frost
 @match gate pass gatepass
 Of course good adventurer. That is why you are here, right?
 @match help
 You collect 10 silver frost, come back here and turn them over to me and I give you a gate pass so you can go rejoin the surface world without facing the beasts and ice storm in the frigid mountain pass.
+@match *
+This is the Ore Station for turning in silver frost
 endmsg
 x 19
 y 3
@@ -2560,12 +2560,12 @@ msg
 Hello, adventurer! Do you have ore to turn in today?
 @match ore silverfrost silver frost yes
 Place the 10 silver frost on the table next to you to collect your gate pass.
-@match *
-This is the Ore Station for turning in silver frost
 @match gate pass gatepass
 Of course good adventurer. That is why you are here, right?
 @match help
 You collect 10 silver frost, come back here and turn them over to me and I give you a gate pass so you can go rejoin the surface world without facing the beasts and ice storm in the frigid mountain pass.
+@match *
+This is the Ore Station for turning in silver frost
 endmsg
 x 23
 y 4
