@@ -2420,7 +2420,7 @@ name gatehouse guard
 msg
 @match monster
 They keep trying to sneak in, but we always kill them.
-@match open|gate
+@match open
 The gate opens only for certain people.
 @match who|people
 Only those who are

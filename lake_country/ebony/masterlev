@@ -3246,7 +3246,7 @@ end
 arch viking
 name viking guildguard
 msg
-@match door|secret|door
+@match door|secret
 The door is between two of us.  Go straight.
 @match key
 Oh yeah.  You need to have the Master key of thievery to enter next room.  The keys are hidden under the table.
