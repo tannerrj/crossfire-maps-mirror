@@ -8,7 +8,7 @@ enter_x 1
 enter_y 8
 msg
 Created:  1996-04-01
-Modified: 2012-04-02 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -2898,9 +2898,10 @@ end
 arch scroll
 name scroll - obsolete (?)
 msg
-@:you
-X:key
-o:others
+you: @
+key: X
+others: o
+
    o X
     @
    o o
