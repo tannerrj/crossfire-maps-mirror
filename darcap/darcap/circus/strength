@@ -6,7 +6,7 @@ width 20
 height 16
 msg
 Created:  1999-01-28 Cater & Wade (john_cater@yahoo.com)
-Modified: 2008-11-20 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch pstone_1
@@ -1193,10 +1193,10 @@ end
 arch merchant
 name Sideshow Attendant
 msg
-@match Boulder | boulder
+@match Boulder|boulder
 The bigger the boulder - the bigger
 the prize!
-@match Prize | prize
+@match Prize|prize
 How about a soft toy?
 @match *
 Push the Boulders to win a

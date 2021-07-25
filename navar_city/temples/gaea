@@ -8,7 +8,7 @@ enter_x 14
 enter_y 18
 msg
 Created:  2003-01-11 Avion
-Modified: 2012-02-19 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -2932,7 +2932,7 @@ end
 arch elf_lass
 name Servant of Gaea
 msg
-@match G | A
+@match G|A
 It is a hypothetical cheer you silly...
 @match *
 I am celebrating Gaea.  Gimme a G! Gimme an A ...

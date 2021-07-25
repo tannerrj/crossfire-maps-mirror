@@ -7,7 +7,7 @@ height 16
 enter_x 15
 msg
 Created:  1999-02-27 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch brush
@@ -1050,7 +1050,7 @@ y 13
 end
 arch courier
 msg
-@match king | King | Denray
+@match king|King|Denray
 His castle lies to the south.  He is
 ruler of our province... or was.
 There is no suitable heir.  Who will

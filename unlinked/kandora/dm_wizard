@@ -6,7 +6,7 @@ enter_x 13
 enter_y 7
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -921,7 +921,7 @@ msg
 You do not come from here, I can tell
 by your strange accent. Where did you
 enter this world from?
-@match pond | portal
+@match pond|portal
 Ah ha! I knew there was great magik
 about those waters. Some say a great
 druid lives there.
@@ -1212,7 +1212,7 @@ y 2
 end
 arch crone
 msg
-@match pond | portal
+@match pond|portal
 To the north? Yes, it is said a great
 druid once used it as a means to
 explore beyond this world. He was a
