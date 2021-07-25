@@ -4,7 +4,7 @@ width 21
 height 11
 msg
 Created:  2010-09-11 Chad
-Modified: 2010-09-13 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -101,7 +101,6 @@ race none
 msg
 @match *
 What? Did you think we sleep in our armour?
-
 endmsg
 face man.151
 hp 100
@@ -418,7 +417,6 @@ race none
 msg
 @match *
 Nooo...its almost my shift again..
-
 endmsg
 face man2.151
 hp 100
@@ -671,7 +669,6 @@ race none
 msg
 @match *
 Another exciting day of guard duty...
-
 endmsg
 face guard_hard.111
 hp 100
@@ -911,8 +908,6 @@ race none
 msg
 @match *
 Thats 237 shifts in a row where I didn't get to kill something...I cant take it much longer!
-
-
 endmsg
 face guard_hard.111
 hp 100
@@ -1176,8 +1171,6 @@ race none
 msg
 @match *
 I think I need bigger armour...
-
-
 endmsg
 face fatman.111
 hp 100

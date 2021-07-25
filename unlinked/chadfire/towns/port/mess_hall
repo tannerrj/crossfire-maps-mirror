@@ -4,7 +4,7 @@ width 21
 height 11
 msg
 Created:  2010-09-11 Chad
-Modified: 2010-09-13 Chad
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -332,7 +332,6 @@ race none
 msg
 @match *
 This is the best part about being a guard...the food!
-
 endmsg
 face guard_hard.111
 hp 100
@@ -980,7 +979,6 @@ race none
 msg
 @match *
 Don't talk to me...I'm eating.
-
 endmsg
 face guard_hard.111
 hp 100

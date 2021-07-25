@@ -7,7 +7,7 @@ enter_x 11
 enter_y 9
 msg
 Created:  2010-08-26 Chad
-Modified: 2013-07-25 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 background_music song7
@@ -1999,7 +1999,6 @@ race none
 msg
 @match *
 Careful, all 4 of these warehouses have been overrun by creatures! Feel free to exterminate them...I'll just keep watching over the town...
-
 endmsg
 face guard_hard.111
 hp 100

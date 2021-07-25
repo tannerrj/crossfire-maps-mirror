@@ -8,7 +8,7 @@ enter_x 3
 enter_y 18
 msg
 Created:  2010-03-15 Nicolas Weeger
-Modified: 2010-07-17 Nicolas Weeger
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -575,16 +575,12 @@ I have some treasure upstairs, and it is yours if you manage to get there.
 
 Be warned, though, my house is ... strangly built.
 
-
 To open the door, say "release".
-
-
 @match what
 @question help Can I help you?
 Well, my pets have become quite crazy, so I had to emprison them.
 
 And now I can't get anymore into my home...
-
 @match *
 @question what What is terrible?
 Hello...

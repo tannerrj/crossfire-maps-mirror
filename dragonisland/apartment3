@@ -8,7 +8,7 @@ enter_x 6
 enter_y 1
 msg
 Created:  1997-09-17
-Modified: 2014-10-04 Kevin Zheng
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_floor
@@ -1166,7 +1166,6 @@ arch magic_ear
 msg
 @match spike
 Of course, master!
-
 endmsg
 x 9
 y 12
@@ -1181,7 +1180,6 @@ arch magic_ear
 msg
 @match spike
 Of course, master!
-
 endmsg
 x 9
 y 13
@@ -1417,7 +1415,6 @@ arch magic_ear
 msg
 @match spike
 Of course, master!
-
 endmsg
 x 11
 y 12
@@ -1432,7 +1429,6 @@ arch magic_ear
 msg
 @match spike
 Of course, master!
-
 endmsg
 x 11
 y 13

@@ -8,7 +8,7 @@ enter_x 19
 enter_y 13
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2014-10-07 Rick Tanner
+Modified: 2021-07-25 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -1072,10 +1072,8 @@ name Frightened Elf Man
 msg
 @match nightmares
 Yes, I keep having a nightmare where the Pygmys slaughter me and then eat me..like what I saw them doing to their prisoners when I stumbled upon that forest...
-
 @match pygmy|forest
 The Pygmys are these evil little creatures that live in a forest on an island north and slightly east of this town...I had to use dimension door to get there...they are really dangerous and I'm sure they are guarding something in that forest...
-
 @match *
 I still have nightmares about my visit to the Pygmy Forest.
 endmsg
@@ -2163,7 +2161,6 @@ Ha sorry, that's the old name of the town, I sometimes use it without paying att
 *giggle*
 
 That's old age for you...
-
 @match *
 If you plan to explore our nice continent, you should buy yourself a permanent apartment in Caterham first.
 endmsg
