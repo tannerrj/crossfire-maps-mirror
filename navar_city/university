@@ -8,7 +8,7 @@ enter_x 24
 enter_y 37
 msg
 Created:  2008-05-17 Nicolas Weeger
-Modified: 2021-11-01 DraugTheWhopper
+Modified: 2021-07-25 Kevin Zheng
 endmsg
 maplore
 The university features:
@@ -631,7 +631,7 @@ arch grass_only
 x 3
 y 2
 end
-arch grass_only
+arch marble
 x 3
 y 3
 end
@@ -639,7 +639,7 @@ arch white_wall_2_2_2
 x 3
 y 3
 end
-arch grass_only
+arch marble
 x 3
 y 4
 end
@@ -647,7 +647,7 @@ arch white_wall_2_1_1
 x 3
 y 4
 end
-arch grass_only
+arch marble
 x 3
 y 5
 end
@@ -655,7 +655,7 @@ arch white_wall_win1
 x 3
 y 5
 end
-arch grass_only
+arch marble
 x 3
 y 6
 end
@@ -663,7 +663,7 @@ arch white_wall_2_1_1
 x 3
 y 6
 end
-arch grass_only
+arch marble
 x 3
 y 7
 end
@@ -671,7 +671,7 @@ arch white_wall_2_1_1
 x 3
 y 7
 end
-arch grass_only
+arch marble
 x 3
 y 8
 end
@@ -679,7 +679,7 @@ arch white_wall_win1
 x 3
 y 8
 end
-arch grass_only
+arch marble
 x 3
 y 9
 end
@@ -687,7 +687,7 @@ arch white_wall_2_1_1
 x 3
 y 9
 end
-arch grass_only
+arch marble
 x 3
 y 10
 end
@@ -834,7 +834,7 @@ arch grass_only
 x 4
 y 2
 end
-arch grass_only
+arch marble
 x 4
 y 3
 end
@@ -866,7 +866,7 @@ arch marble
 x 4
 y 9
 end
-arch grass_only
+arch marble
 x 4
 y 10
 end
@@ -1013,7 +1013,7 @@ arch grass_only
 x 5
 y 2
 end
-arch grass_only
+arch marble
 x 5
 y 3
 end
@@ -1045,7 +1045,7 @@ arch marble
 x 5
 y 9
 end
-arch grass_only
+arch marble
 x 5
 y 10
 end
@@ -1208,7 +1208,7 @@ arch grass_only
 x 6
 y 2
 end
-arch grass_only
+arch marble
 x 6
 y 3
 end
@@ -1246,7 +1246,7 @@ arch marble
 x 6
 y 9
 end
-arch grass_only
+arch marble
 x 6
 y 10
 end
@@ -1254,7 +1254,7 @@ arch white_wall_3_3
 x 6
 y 10
 end
-arch grass_only
+arch marble
 x 6
 y 11
 end
@@ -1262,7 +1262,7 @@ arch white_wall_2_1_1
 x 6
 y 11
 end
-arch grass_only
+arch marble
 x 6
 y 12
 end
@@ -1270,7 +1270,7 @@ arch white_wall_2_1_1
 x 6
 y 12
 end
-arch grass_only
+arch marble
 x 6
 y 13
 end
@@ -1278,7 +1278,7 @@ arch white_wall_win1
 x 6
 y 13
 end
-arch grass_only
+arch marble
 x 6
 y 14
 end
@@ -1286,7 +1286,7 @@ arch white_wall_2_1_1
 x 6
 y 14
 end
-arch grass_only
+arch marble
 x 6
 y 15
 end
@@ -1294,7 +1294,7 @@ arch white_wall_3_2
 x 6
 y 15
 end
-arch grass_only
+arch marble
 x 6
 y 16
 end
@@ -1302,7 +1302,7 @@ arch white_wall_win1
 x 6
 y 16
 end
-arch grass_only
+arch marble
 x 6
 y 17
 end
@@ -1310,7 +1310,7 @@ arch white_wall_2_1_1
 x 6
 y 17
 end
-arch grass_only
+arch marble
 x 6
 y 18
 end
@@ -1318,7 +1318,7 @@ arch white_wall_2_1_1
 x 6
 y 18
 end
-arch grass_only
+arch marble
 x 6
 y 19
 end
@@ -1326,7 +1326,7 @@ arch white_wall_2_1_1
 x 6
 y 19
 end
-arch grass_only
+arch marble
 x 6
 y 20
 end
@@ -1334,7 +1334,7 @@ arch white_wall_win1
 x 6
 y 20
 end
-arch grass_only
+arch marble
 x 6
 y 21
 end
@@ -1342,7 +1342,7 @@ arch white_wall_2_1_1
 x 6
 y 21
 end
-arch grass_only
+arch marble
 x 6
 y 22
 end
@@ -1350,7 +1350,7 @@ arch white_wall_2_1_1
 x 6
 y 22
 end
-arch grass_only
+arch marble
 x 6
 y 23
 end
@@ -1358,7 +1358,7 @@ arch white_wall_win1
 x 6
 y 23
 end
-arch grass_only
+arch marble
 x 6
 y 24
 end
@@ -1366,7 +1366,7 @@ arch white_wall_2_1_1
 x 6
 y 24
 end
-arch grass_only
+arch marble
 x 6
 y 25
 end
@@ -1461,7 +1461,7 @@ arch grass_only
 x 7
 y 2
 end
-arch grass_only
+arch marble
 x 7
 y 3
 end
@@ -1612,7 +1612,7 @@ arch marble
 x 7
 y 24
 end
-arch grass_only
+arch marble
 x 7
 y 25
 end
@@ -1711,7 +1711,7 @@ arch grass_only
 x 8
 y 2
 end
-arch grass_only
+arch marble
 x 8
 y 3
 end
@@ -1830,7 +1830,7 @@ arch marble
 x 8
 y 24
 end
-arch grass_only
+arch marble
 x 8
 y 25
 end
@@ -1917,7 +1917,7 @@ arch grass_only
 x 9
 y 2
 end
-arch grass_only
+arch marble
 x 9
 y 3
 end
@@ -2111,7 +2111,7 @@ arch marble
 x 9
 y 24
 end
-arch grass_only
+arch marble
 x 9
 y 25
 end
@@ -2194,7 +2194,7 @@ arch grass_only
 x 10
 y 2
 end
-arch grass_only
+arch marble
 x 10
 y 3
 end
@@ -2345,7 +2345,7 @@ arch mover_8
 x 10
 y 25
 end
-arch cobblestones2
+arch marble
 x 10
 y 25
 end
@@ -2452,7 +2452,7 @@ arch grass_only
 x 11
 y 2
 end
-arch grass_only
+arch marble
 x 11
 y 3
 end
@@ -2574,7 +2574,7 @@ arch mover_8
 x 11
 y 25
 end
-arch cobblestones2
+arch marble
 x 11
 y 25
 end
@@ -2661,7 +2661,7 @@ arch grass_only
 x 12
 y 2
 end
-arch grass_only
+arch marble
 x 12
 y 3
 end
@@ -2809,7 +2809,7 @@ arch white_wall_2_1_1
 x 12
 y 24
 end
-arch grass_only
+arch marble
 x 12
 y 25
 end
@@ -2916,7 +2916,7 @@ arch grass_only
 x 13
 y 2
 end
-arch grass_only
+arch marble
 x 13
 y 3
 end
@@ -3031,7 +3031,7 @@ arch marble
 x 13
 y 24
 end
-arch grass_only
+arch marble
 x 13
 y 25
 end
@@ -3153,7 +3153,7 @@ arch grass_only
 x 14
 y 2
 end
-arch grass_only
+arch marble
 x 14
 y 3
 end
@@ -3281,7 +3281,7 @@ arch marble
 x 14
 y 24
 end
-arch grass_only
+arch marble
 x 14
 y 25
 end
@@ -3375,7 +3375,7 @@ arch grass_only
 x 15
 y 2
 end
-arch grass_only
+arch marble
 x 15
 y 3
 end
@@ -3415,7 +3415,7 @@ arch stair_up_3
 x 15
 y 9
 end
-arch grass_only
+arch marble
 x 15
 y 10
 end
@@ -3423,7 +3423,7 @@ arch white_wall_3_3
 x 15
 y 10
 end
-arch grass_only
+arch marble
 x 15
 y 11
 end
@@ -3431,7 +3431,7 @@ arch white_wall_2_1_1
 x 15
 y 11
 end
-arch grass_only
+arch marble
 x 15
 y 12
 end
@@ -3439,7 +3439,7 @@ arch white_wall_win1
 x 15
 y 12
 end
-arch grass_only
+arch marble
 x 15
 y 13
 end
@@ -3447,7 +3447,7 @@ arch white_wall_2_1_1
 x 15
 y 13
 end
-arch grass_only
+arch marble
 x 15
 y 14
 end
@@ -3455,7 +3455,7 @@ arch white_wall_2_1_1
 x 15
 y 14
 end
-arch grass_only
+arch marble
 x 15
 y 15
 end
@@ -3463,7 +3463,7 @@ arch white_wall_win1
 x 15
 y 15
 end
-arch grass_only
+arch marble
 x 15
 y 16
 end
@@ -3471,7 +3471,7 @@ arch white_wall_2_1_1
 x 15
 y 16
 end
-arch grass_only
+arch marble
 x 15
 y 17
 end
@@ -3479,7 +3479,7 @@ arch white_wall_2_1_1
 x 15
 y 17
 end
-arch grass_only
+arch marble
 x 15
 y 18
 end
@@ -3487,7 +3487,7 @@ arch white_wall_3_4
 x 15
 y 18
 end
-arch grass_only
+arch marble
 x 15
 y 19
 end
@@ -3495,7 +3495,7 @@ arch white_wall_win1
 x 15
 y 19
 end
-arch grass_only
+arch marble
 x 15
 y 20
 end
@@ -3503,7 +3503,7 @@ arch white_wall_2_1_1
 x 15
 y 20
 end
-arch grass_only
+arch marble
 x 15
 y 21
 end
@@ -3511,7 +3511,7 @@ arch white_wall_2_1_1
 x 15
 y 21
 end
-arch grass_only
+arch marble
 x 15
 y 22
 end
@@ -3519,7 +3519,7 @@ arch white_wall_win1
 x 15
 y 22
 end
-arch grass_only
+arch marble
 x 15
 y 23
 end
@@ -3527,7 +3527,7 @@ arch white_wall_2_1_1
 x 15
 y 23
 end
-arch grass_only
+arch marble
 x 15
 y 24
 end
@@ -3535,7 +3535,7 @@ arch white_wall_2_1_1
 x 15
 y 24
 end
-arch grass_only
+arch marble
 x 15
 y 25
 end
@@ -3627,7 +3627,7 @@ arch grass_only
 x 16
 y 2
 end
-arch grass_only
+arch marble
 x 16
 y 3
 end
@@ -3679,7 +3679,7 @@ arch stair_up_3
 x 16
 y 9
 end
-arch grass_only
+arch marble
 x 16
 y 10
 end
@@ -3842,7 +3842,7 @@ arch grass_only
 x 17
 y 2
 end
-arch grass_only
+arch marble
 x 17
 y 3
 end
@@ -3850,7 +3850,7 @@ arch white_wall_2_2_3
 x 17
 y 3
 end
-arch grass_only
+arch marble
 x 17
 y 4
 end
@@ -3858,7 +3858,7 @@ arch white_wall_2_1_1
 x 17
 y 4
 end
-arch grass_only
+arch marble
 x 17
 y 5
 end
@@ -3874,7 +3874,7 @@ arch mover_7
 x 17
 y 6
 end
-arch cobblestones2
+arch marble
 x 17
 y 6
 end
@@ -3882,7 +3882,7 @@ arch mover_7
 x 17
 y 7
 end
-arch cobblestones2
+arch marble
 x 17
 y 7
 end
@@ -3890,7 +3890,7 @@ arch white_wall_bottom
 x 17
 y 7
 end
-arch grass_only
+arch marble
 x 17
 y 8
 end
@@ -3898,7 +3898,7 @@ arch white_wall_2_1_1
 x 17
 y 8
 end
-arch grass_only
+arch marble
 x 17
 y 9
 end
@@ -3906,7 +3906,7 @@ arch white_wall_2_1_1
 x 17
 y 9
 end
-arch grass_only
+arch marble
 x 17
 y 10
 end
@@ -5339,7 +5339,7 @@ arch grass_only
 x 25
 y 2
 end
-arch grass_only
+arch marble
 x 25
 y 3
 end
@@ -5347,7 +5347,7 @@ arch white_wall_2_2_2
 x 25
 y 3
 end
-arch grass_only
+arch marble
 x 25
 y 4
 end
@@ -5355,7 +5355,7 @@ arch white_wall_2_1_1
 x 25
 y 4
 end
-arch grass_only
+arch marble
 x 25
 y 5
 end
@@ -5363,7 +5363,7 @@ arch white_wall_win1
 x 25
 y 5
 end
-arch grass_only
+arch marble
 x 25
 y 6
 end
@@ -5371,7 +5371,7 @@ arch white_wall_2_1_1
 x 25
 y 6
 end
-arch grass_only
+arch marble
 x 25
 y 7
 end
@@ -5379,7 +5379,7 @@ arch white_wall_win1
 x 25
 y 7
 end
-arch grass_only
+arch marble
 x 25
 y 8
 end
@@ -5395,7 +5395,7 @@ arch mover_3
 x 25
 y 9
 end
-arch cobblestones2
+arch marble
 x 25
 y 9
 end
@@ -5403,7 +5403,7 @@ arch mover_3
 x 25
 y 10
 end
-arch cobblestones2
+arch marble
 x 25
 y 10
 end
@@ -5411,7 +5411,7 @@ arch white_wall_bottom
 x 25
 y 10
 end
-arch grass_only
+arch marble
 x 25
 y 11
 end
@@ -5419,7 +5419,7 @@ arch white_wall_3_2
 x 25
 y 11
 end
-arch grass_only
+arch marble
 x 25
 y 12
 end
@@ -5427,7 +5427,7 @@ arch white_wall_2_1_1
 x 25
 y 12
 end
-arch grass_only
+arch marble
 x 25
 y 13
 end
@@ -5435,7 +5435,7 @@ arch white_wall_win1
 x 25
 y 13
 end
-arch grass_only
+arch marble
 x 25
 y 14
 end
@@ -5443,7 +5443,7 @@ arch white_wall_2_1_1
 x 25
 y 14
 end
-arch grass_only
+arch marble
 x 25
 y 15
 end
@@ -5589,7 +5589,7 @@ arch grass_only
 x 26
 y 2
 end
-arch grass_only
+arch marble
 x 26
 y 3
 end
@@ -5654,7 +5654,7 @@ x 26
 y 14
 no_pick 1
 end
-arch grass_only
+arch marble
 x 26
 y 15
 end
@@ -5796,7 +5796,7 @@ arch grass_only
 x 27
 y 2
 end
-arch grass_only
+arch marble
 x 27
 y 3
 end
@@ -5867,7 +5867,7 @@ arch marble
 x 27
 y 14
 end
-arch grass_only
+arch marble
 x 27
 y 15
 end
@@ -5993,7 +5993,7 @@ arch grass_only
 x 28
 y 2
 end
-arch grass_only
+arch marble
 x 28
 y 3
 end
@@ -6065,7 +6065,7 @@ y 14
 glow_radius 4
 move_block 0
 end
-arch grass_only
+arch marble
 x 28
 y 15
 end
@@ -6195,7 +6195,7 @@ arch grass_only
 x 29
 y 2
 end
-arch grass_only
+arch marble
 x 29
 y 3
 end
@@ -6261,7 +6261,7 @@ x 29
 y 14
 no_pick 1
 end
-arch grass_only
+arch marble
 x 29
 y 15
 end
@@ -6391,7 +6391,7 @@ arch grass_only
 x 30
 y 2
 end
-arch grass_only
+arch marble
 x 30
 y 3
 end
@@ -6461,7 +6461,7 @@ x 30
 y 14
 no_pick 1
 end
-arch grass_only
+arch marble
 x 30
 y 15
 end
@@ -6587,7 +6587,7 @@ arch grass_only
 x 31
 y 2
 end
-arch grass_only
+arch marble
 x 31
 y 3
 end
@@ -6648,7 +6648,7 @@ arch marble
 x 31
 y 14
 end
-arch grass_only
+arch marble
 x 31
 y 15
 end
@@ -6774,7 +6774,7 @@ arch grass_only
 x 32
 y 2
 end
-arch grass_only
+arch marble
 x 32
 y 3
 end
@@ -6852,7 +6852,7 @@ arch white_wall_2_1_1
 x 32
 y 14
 end
-arch grass_only
+arch marble
 x 32
 y 15
 end
@@ -6990,7 +6990,7 @@ arch grass_only
 x 33
 y 2
 end
-arch grass_only
+arch marble
 x 33
 y 3
 end
@@ -7071,7 +7071,7 @@ arch marble
 x 33
 y 14
 end
-arch grass_only
+arch marble
 x 33
 y 15
 end
@@ -7234,7 +7234,7 @@ arch grass_only
 x 34
 y 2
 end
-arch grass_only
+arch marble
 x 34
 y 3
 end
@@ -7294,7 +7294,7 @@ arch marble
 x 34
 y 14
 end
-arch grass_only
+arch marble
 x 34
 y 15
 end
@@ -7445,7 +7445,7 @@ arch grass_only
 x 35
 y 2
 end
-arch grass_only
+arch marble
 x 35
 y 3
 end
@@ -7505,7 +7505,7 @@ arch marble
 x 35
 y 14
 end
-arch grass_only
+arch marble
 x 35
 y 15
 end
@@ -7632,7 +7632,7 @@ arch grass_only
 x 36
 y 2
 end
-arch grass_only
+arch marble
 x 36
 y 3
 end
@@ -7710,7 +7710,7 @@ y 14
 glow_radius 4
 move_block 0
 end
-arch grass_only
+arch marble
 x 36
 y 15
 end
@@ -7718,7 +7718,7 @@ arch white_wall_3_3
 x 36
 y 15
 end
-arch grass_only
+arch marble
 x 36
 y 16
 end
@@ -7726,7 +7726,7 @@ arch white_wall_2_1_1
 x 36
 y 16
 end
-arch grass_only
+arch marble
 x 36
 y 17
 end
@@ -7734,7 +7734,7 @@ arch white_wall_win1
 x 36
 y 17
 end
-arch grass_only
+arch marble
 x 36
 y 18
 end
@@ -7742,7 +7742,7 @@ arch white_wall_2_1_1
 x 36
 y 18
 end
-arch grass_only
+arch marble
 x 36
 y 19
 end
@@ -7750,7 +7750,7 @@ arch white_wall_2_1_1
 x 36
 y 19
 end
-arch grass_only
+arch marble
 x 36
 y 20
 end
@@ -7758,7 +7758,7 @@ arch white_wall_win1
 x 36
 y 20
 end
-arch grass_only
+arch marble
 x 36
 y 21
 end
@@ -7774,7 +7774,7 @@ arch mover_3
 x 36
 y 22
 end
-arch cobblestones2
+arch marble
 x 36
 y 22
 end
@@ -7782,7 +7782,7 @@ arch mover_3
 x 36
 y 23
 end
-arch cobblestones2
+arch marble
 x 36
 y 23
 end
@@ -7790,7 +7790,7 @@ arch white_wall_bottom
 x 36
 y 23
 end
-arch grass_only
+arch marble
 x 36
 y 24
 end
@@ -7798,7 +7798,7 @@ arch white_wall_3_2
 x 36
 y 24
 end
-arch grass_only
+arch marble
 x 36
 y 25
 end
@@ -7806,7 +7806,7 @@ arch white_wall_2_1_1
 x 36
 y 25
 end
-arch grass_only
+arch marble
 x 36
 y 26
 end
@@ -7814,7 +7814,7 @@ arch white_wall_win1
 x 36
 y 26
 end
-arch grass_only
+arch marble
 x 36
 y 27
 end
@@ -7822,7 +7822,7 @@ arch white_wall_2_1_1
 x 36
 y 27
 end
-arch grass_only
+arch marble
 x 36
 y 28
 end
@@ -7830,7 +7830,7 @@ arch white_wall_2_1_1
 x 36
 y 28
 end
-arch grass_only
+arch marble
 x 36
 y 29
 end
@@ -7901,7 +7901,7 @@ arch grass_only
 x 37
 y 2
 end
-arch grass_only
+arch marble
 x 37
 y 3
 end
@@ -8060,7 +8060,7 @@ x 37
 y 28
 no_pick 1
 end
-arch grass_only
+arch marble
 x 37
 y 29
 end
@@ -8131,7 +8131,7 @@ arch grass_only
 x 38
 y 2
 end
-arch grass_only
+arch marble
 x 38
 y 3
 end
@@ -8275,7 +8275,7 @@ arch marble
 x 38
 y 28
 end
-arch grass_only
+arch marble
 x 38
 y 29
 end
@@ -8346,7 +8346,7 @@ arch grass_only
 x 39
 y 2
 end
-arch grass_only
+arch marble
 x 39
 y 3
 end
@@ -8512,7 +8512,7 @@ x 39
 y 28
 no_pick 1
 end
-arch grass_only
+arch marble
 x 39
 y 29
 end
@@ -8599,7 +8599,7 @@ arch grass_only
 x 40
 y 2
 end
-arch grass_only
+arch marble
 x 40
 y 3
 end
@@ -8733,7 +8733,7 @@ arch white_wall_2_1_1
 x 40
 y 28
 end
-arch grass_only
+arch marble
 x 40
 y 29
 end
@@ -8804,7 +8804,7 @@ arch grass_only
 x 41
 y 2
 end
-arch grass_only
+arch marble
 x 41
 y 3
 end
@@ -8920,7 +8920,7 @@ arch mover_1
 x 41
 y 29
 end
-arch cobblestones2
+arch marble
 x 41
 y 29
 end
@@ -8991,7 +8991,7 @@ arch grass_only
 x 42
 y 2
 end
-arch grass_only
+arch marble
 x 42
 y 3
 end
@@ -9155,7 +9155,7 @@ arch mover_1
 x 42
 y 29
 end
-arch cobblestones2
+arch marble
 x 42
 y 29
 end
@@ -9218,7 +9218,7 @@ arch grass_only
 x 43
 y 2
 end
-arch grass_only
+arch marble
 x 43
 y 3
 end
@@ -9376,7 +9376,7 @@ arch white_wall_2_1_1
 x 43
 y 28
 end
-arch grass_only
+arch marble
 x 43
 y 29
 end
@@ -9443,7 +9443,7 @@ arch grass_only
 x 44
 y 2
 end
-arch grass_only
+arch marble
 x 44
 y 3
 end
@@ -9600,7 +9600,7 @@ arch marble
 x 44
 y 28
 end
-arch grass_only
+arch marble
 x 44
 y 29
 end
@@ -9671,7 +9671,7 @@ arch grass_only
 x 45
 y 2
 end
-arch grass_only
+arch marble
 x 45
 y 3
 end
@@ -9835,7 +9835,7 @@ arch marble
 x 45
 y 28
 end
-arch grass_only
+arch marble
 x 45
 y 29
 end
@@ -9906,7 +9906,7 @@ arch grass_only
 x 46
 y 2
 end
-arch grass_only
+arch marble
 x 46
 y 3
 end
@@ -9914,7 +9914,7 @@ arch white_wall_2_2_3
 x 46
 y 3
 end
-arch grass_only
+arch marble
 x 46
 y 4
 end
@@ -9922,7 +9922,7 @@ arch white_wall_2_1_1
 x 46
 y 4
 end
-arch grass_only
+arch marble
 x 46
 y 5
 end
@@ -9930,7 +9930,7 @@ arch white_wall_2_1_1
 x 46
 y 5
 end
-arch grass_only
+arch marble
 x 46
 y 6
 end
@@ -9938,7 +9938,7 @@ arch white_wall_win1
 x 46
 y 6
 end
-arch grass_only
+arch marble
 x 46
 y 7
 end
@@ -9946,7 +9946,7 @@ arch white_wall_2_1_1
 x 46
 y 7
 end
-arch grass_only
+arch marble
 x 46
 y 8
 end
@@ -9954,7 +9954,7 @@ arch white_wall_2_1_1
 x 46
 y 8
 end
-arch grass_only
+arch marble
 x 46
 y 9
 end
@@ -9962,7 +9962,7 @@ arch white_wall_win1
 x 46
 y 9
 end
-arch grass_only
+arch marble
 x 46
 y 10
 end
@@ -9970,7 +9970,7 @@ arch white_wall_2_1_1
 x 46
 y 10
 end
-arch grass_only
+arch marble
 x 46
 y 11
 end
@@ -9978,7 +9978,7 @@ arch white_wall_2_1_1
 x 46
 y 11
 end
-arch grass_only
+arch marble
 x 46
 y 12
 end
@@ -9986,7 +9986,7 @@ arch white_wall_3_4
 x 46
 y 12
 end
-arch grass_only
+arch marble
 x 46
 y 13
 end
@@ -9994,7 +9994,7 @@ arch white_wall_win1
 x 46
 y 13
 end
-arch grass_only
+arch marble
 x 46
 y 14
 end
@@ -10002,7 +10002,7 @@ arch white_wall_2_1_1
 x 46
 y 14
 end
-arch grass_only
+arch marble
 x 46
 y 15
 end
@@ -10010,7 +10010,7 @@ arch white_wall_2_1_1
 x 46
 y 15
 end
-arch grass_only
+arch marble
 x 46
 y 16
 end
@@ -10018,7 +10018,7 @@ arch white_wall_win1
 x 46
 y 16
 end
-arch grass_only
+arch marble
 x 46
 y 17
 end
@@ -10026,7 +10026,7 @@ arch white_wall_2_1_1
 x 46
 y 17
 end
-arch grass_only
+arch marble
 x 46
 y 18
 end
@@ -10034,7 +10034,7 @@ arch white_wall_2_1_1
 x 46
 y 18
 end
-arch grass_only
+arch marble
 x 46
 y 19
 end
@@ -10042,7 +10042,7 @@ arch white_wall_3_4
 x 46
 y 19
 end
-arch grass_only
+arch marble
 x 46
 y 20
 end
@@ -10050,7 +10050,7 @@ arch white_wall_win1
 x 46
 y 20
 end
-arch grass_only
+arch marble
 x 46
 y 21
 end
@@ -10058,7 +10058,7 @@ arch white_wall_2_1_1
 x 46
 y 21
 end
-arch grass_only
+arch marble
 x 46
 y 22
 end
@@ -10066,7 +10066,7 @@ arch white_wall_3_4
 x 46
 y 22
 end
-arch grass_only
+arch marble
 x 46
 y 23
 end
@@ -10074,7 +10074,7 @@ arch white_wall_win1
 x 46
 y 23
 end
-arch grass_only
+arch marble
 x 46
 y 24
 end
@@ -10082,7 +10082,7 @@ arch white_wall_2_1_1
 x 46
 y 24
 end
-arch grass_only
+arch marble
 x 46
 y 25
 end
@@ -10090,7 +10090,7 @@ arch white_wall_2_1_1
 x 46
 y 25
 end
-arch grass_only
+arch marble
 x 46
 y 26
 end
@@ -10098,7 +10098,7 @@ arch white_wall_win1
 x 46
 y 26
 end
-arch grass_only
+arch marble
 x 46
 y 27
 end
@@ -10106,7 +10106,7 @@ arch white_wall_2_1_1
 x 46
 y 27
 end
-arch grass_only
+arch marble
 x 46
 y 28
 end
@@ -10114,7 +10114,7 @@ arch white_wall_2_1_1
 x 46
 y 28
 end
-arch grass_only
+arch marble
 x 46
 y 29
 end
