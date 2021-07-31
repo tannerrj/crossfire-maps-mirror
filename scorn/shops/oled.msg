@@ -16,8 +16,8 @@
   "match" : ["name"],
   "pre" : [],
   "post" : [["settoken", "seenbefore", "yes"]],
-  "msg" : ["I'm Oled. I brew the finest coffee in Scorn."]
-  "replies" : [["coffee", "Can I have some coffee?"]]
+  "msg" : ["I'm Oled. I brew the finest coffee in Scorn."],
+  "replies": [["coffee", "Can I have some coffee?"]]
   }, {
   "match" : ["lady", "friend", "Fran"],
   "pre" : [["token", "seenbefore", "yes"]],

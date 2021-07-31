@@ -85,14 +85,14 @@
   "match" : ["yes", "interested", "goose"],
   "pre" : [["quest", "scorn/CoffeeGoose", "10"]],
   "post" : [["quest", "scorn/CoffeeGoose", "20"]],
-  "msg" : ["Why, thank you, Her name is Esmeralda, she's a special goose."]
-  "replies" : [["special", "What's so special about her?"]]
+  "msg" : ["Why, thank you, Her name is Esmeralda, she's a special goose."],
+  "replies": [["special", "What's so special about her?"]]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "scorn/CoffeeGoose", "10"]],
   "post" : [],
-  "msg" : ["Yes, yes, I know, my coffee is terrible, I'm truly very sorry, it just hasn't been the same since I lost my goose. You wouldn't be interested in finding her for me would you?"]
-  "replies" : [["goose", "I can help you find your goose."]]
+  "msg" : ["Yes, yes, I know, my coffee is terrible, I'm truly very sorry, it just hasn't been the same since I lost my goose. You wouldn't be interested in finding her for me would you?"],
+  "replies": [["goose", "I can help you find your goose."]]
   }, {
   "match" : ["no"],
   "pre" : [["token", "offercoffee", "yes"]],
