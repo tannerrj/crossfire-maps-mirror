@@ -12,7 +12,7 @@ enter_x 10
 enter_y 5
 msg
 Created:  2000-10-28
-Modified: 2013-03-18 Kevin Zheng
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch flagstone
@@ -520,7 +520,6 @@ end
 arch booze_table
 name Popcorn (30 gold each)
 other_arch bag_popcorn
-sp 1
 food 30
 x 7
 y 3
@@ -543,7 +542,6 @@ y 7
 end
 arch booze_table
 name Booze (10 gold each)
-sp 1
 food 10
 x 7
 y 7

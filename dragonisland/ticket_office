@@ -8,7 +8,7 @@ enter_x 7
 enter_y 8
 msg
 Created:  2013-03-19 Kevin Zheng
-Modified: 2013-07-14 Kevin Zheng
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -652,7 +652,6 @@ x 8
 y 5
 end
 arch silver_converter
-sp 1
 x 8
 y 5
 end
@@ -744,7 +743,6 @@ x 9
 y 5
 end
 arch gold_converter
-sp 1
 x 9
 y 5
 end

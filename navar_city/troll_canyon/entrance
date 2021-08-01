@@ -8,7 +8,7 @@ enter_x 1
 enter_y 22
 msg
 Created:  2007-02-03 Brad Reilly
-Modified: 2013-07-26 Kevin Zheng
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch mountain2
@@ -446,7 +446,6 @@ name mutton
 name_pl mutton
 x 3
 y 3
-value 60
 weight 7000
 end
 arch mountain
@@ -1037,7 +1036,6 @@ name mutton
 name_pl mutton
 x 7
 y 5
-value 60
 weight 7000
 end
 arch hills_rocky
@@ -1169,7 +1167,6 @@ name mutton
 name_pl mutton
 x 8
 y 3
-value 60
 weight 7000
 end
 arch hills_rocky
@@ -1771,7 +1768,6 @@ name mutton
 name_pl mutton
 x 12
 y 2
-value 60
 weight 7000
 end
 arch grass_br_gr
@@ -1807,7 +1803,6 @@ name mutton
 name_pl mutton
 x 12
 y 6
-value 60
 weight 7000
 end
 arch hills_rocky
@@ -2240,7 +2235,6 @@ name mutton
 name_pl mutton
 x 15
 y 4
-value 60
 weight 7000
 end
 arch hills_rocky

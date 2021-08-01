@@ -7,7 +7,7 @@ width 25
 height 25
 msg
 Created:  2010-09-03 neodeno
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch grass
@@ -571,7 +571,6 @@ y 15
 speed 0.0
 level 30
 connected 1017
-no_pick 1
 arch spell_lg_magic_bullet
 end
 end

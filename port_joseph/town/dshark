@@ -8,7 +8,7 @@ enter_x 16
 enter_y 6
 msg
 Created:  1994-05-17 langley (langley@fermat.dartmouth.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -1398,7 +1398,6 @@ x 12
 y 9
 end
 arch thief_1
-name thief
 msg
 @match thief
 Who you calling thief?
@@ -1491,7 +1490,6 @@ x 13
 y 6
 end
 arch thief_1
-name thief
 x 13
 y 6
 unaggressive 1
@@ -2071,7 +2069,6 @@ x 17
 y 15
 end
 arch thief_1
-name thief
 msg
 @match treasure
 Hah, you want in our treasure, well you might have better luck than us.  Its old Moogly Bill's treasure we be chattin' about.

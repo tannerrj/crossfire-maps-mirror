@@ -8,7 +8,7 @@ width 21
 height 21
 msg
 Created:  2010-09-10 Chad
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch woodfloor
@@ -1803,7 +1803,6 @@ x 15
 y 17
 end
 arch gold_converter
-sp 1
 x 15
 y 17
 end
@@ -1820,7 +1819,6 @@ x 15
 y 19
 end
 arch silver_converter
-sp 1
 x 15
 y 19
 end

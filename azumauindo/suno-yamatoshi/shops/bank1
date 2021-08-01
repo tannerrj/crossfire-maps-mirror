@@ -9,7 +9,7 @@ enter_x 8
 enter_y 13
 msg
 Created:  2005-04-07 MikeeUSA
-Modified: 2020-05-31 Rick Tanner
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -2653,7 +2653,6 @@ arch silver_converter
 name sell gold bar bullion for imperials
 slaying goldbar
 other_arch imperial
-sp 1
 food 1
 x 13
 y 12
@@ -2670,7 +2669,6 @@ arch silver_converter
 name sell silver bar bullion (min: 10) for imperials
 slaying silverbar
 other_arch imperial
-sp 1
 x 13
 y 13
 end

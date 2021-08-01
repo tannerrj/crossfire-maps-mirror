@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  2003-04-27 Avion
-Modified: 2019-02-02 DraugTheWhopper
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch cobblestones2
@@ -451,7 +451,6 @@ arch food_table
 name Fresh Coffee 4sp
 slaying money
 other_arch coffee
-sp 1
 food 4
 x 5
 y 7

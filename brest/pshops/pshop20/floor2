@@ -7,7 +7,7 @@ enter_x 15
 enter_y 11
 msg
 Created:  2004-11-24 Selenium (benjamin@telemuse.net)
-Modified: 2013-10-15 Rick Tanner
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -8134,7 +8134,6 @@ arch barrel
 x 31
 y 13
 move_block 0
-no_pick 1
 can_roll 0
 end
 arch woodfloor
@@ -8155,7 +8154,6 @@ arch barrel
 x 31
 y 14
 move_block 0
-no_pick 1
 can_roll 0
 end
 arch blocked

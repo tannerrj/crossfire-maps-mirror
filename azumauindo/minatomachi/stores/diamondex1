@@ -9,7 +9,7 @@ enter_x 7
 enter_y 15
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -2839,7 +2839,6 @@ arch silver_converter
 name sell gold bar bullion for imperials
 slaying goldbar
 other_arch imperial
-sp 1
 food 1
 x 9
 y 5
@@ -3405,7 +3404,6 @@ arch silver_converter
 name sell silver bar bullion (min: 10) for imperials
 slaying silverbar
 other_arch imperial
-sp 1
 x 11
 y 6
 end

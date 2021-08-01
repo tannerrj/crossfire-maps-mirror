@@ -8,7 +8,7 @@ enter_x 31
 enter_y 16
 msg
 Created:  2008-07-31 Raphaël Quinet
-Modified: 2016-02-16 Kevin Zheng
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 outdoor 1
 end
@@ -2256,7 +2256,6 @@ x 16
 y 7
 material 0
 move_block 0
-no_pick 1
 can_roll 0
 end
 arch afloor_left
@@ -6265,7 +6264,6 @@ x 47
 y 7
 material 0
 move_block 0
-no_pick 1
 can_roll 0
 end
 arch afloor_left

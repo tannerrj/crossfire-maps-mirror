@@ -11,7 +11,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1996-12-29
-Modified: 2021-01-16 Daniel Hawkins
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch blocked
@@ -552,7 +552,6 @@ end
 arch tissue_paper
 x 2
 y 1
-material 1
 end
 arch dungeon_magic
 x 2

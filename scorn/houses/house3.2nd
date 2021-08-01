@@ -8,7 +8,7 @@ enter_x 5
 enter_y 9
 msg
 Created:  2005-03-23 Huhanhi
-Modified: 2012-03-26 Rick Tanner
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch dungeon_magic
@@ -249,7 +249,6 @@ arch apple
 name egg
 name_pl eggs
 face ant_egg.111
-food 50
 nrof 3
 value 3
 end

@@ -9,7 +9,7 @@ enter_x 2
 enter_y 29
 msg
 Created:  1997-02-27
-Modified: 2012-03-08 Rick Tanner
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch pstone_2
@@ -1508,7 +1508,6 @@ end
 arch light4
 x 6
 y 22
-no_pick 1
 end
 arch ogre
 x 6
@@ -1598,7 +1597,6 @@ end
 arch light4
 x 7
 y 1
-no_pick 1
 end
 arch flagstone
 x 7
@@ -1675,7 +1673,6 @@ end
 arch light4
 x 7
 y 8
-no_pick 1
 end
 arch generate_ogre
 x 7
@@ -2263,7 +2260,6 @@ end
 arch light4
 x 9
 y 11
-no_pick 1
 end
 arch ogre
 x 9
@@ -2470,7 +2466,6 @@ end
 arch light4
 x 10
 y 4
-no_pick 1
 end
 arch bed_1
 x 10
@@ -2852,7 +2847,6 @@ end
 arch light4
 x 11
 y 17
-no_pick 1
 end
 arch ogre
 x 11
@@ -2902,7 +2896,6 @@ end
 arch light4
 x 11
 y 22
-no_pick 1
 end
 arch ogre
 x 11
@@ -3069,7 +3062,6 @@ end
 arch light4
 x 12
 y 9
-no_pick 1
 end
 arch generate_ogre
 x 12
@@ -3909,7 +3901,6 @@ end
 arch light4
 x 15
 y 22
-no_pick 1
 end
 arch ogre
 x 15

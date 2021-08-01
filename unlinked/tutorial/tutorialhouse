@@ -4,7 +4,7 @@ width 30
 height 20
 msg
 Created:  2008-07-07 lampshade
-Modified: 2008-07-08 lampshade
+Modified: 2021-08-01 Andreas Kirschbaum
 endmsg
 end
 arch dirtfloor
@@ -446,7 +446,6 @@ endmsg
 x 3
 y 9
 type 20
-move_block all
 end
 arch dirtfloor
 x 3
@@ -460,7 +459,6 @@ endmsg
 x 3
 y 10
 type 20
-move_block all
 end
 arch dirtfloor
 x 3
