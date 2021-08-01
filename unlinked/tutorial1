@@ -2207,10 +2207,6 @@ x 17
 y 1
 end
 arch magic_mouth
-x 17
-y 1
-end
-arch waybread
 msg
 A message scrawled on the wall says:
 
@@ -2222,6 +2218,10 @@ can afford them, they are the best food to
 take on long trips or dungeon excursions,
 since their light weight won't slow you down.
 endmsg
+x 17
+y 1
+end
+arch waybread
 x 17
 y 1
 end
