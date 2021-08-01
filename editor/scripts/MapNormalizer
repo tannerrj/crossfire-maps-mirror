@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
   <name>MapNormalizer</name>
-  <code><![CDATA[import java.io.File;
+  <code><![CDATA[import java.nio.file.Files;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
 import java.util.Iterator;
 import net.sf.gridarta.gui.dialog.shrinkmapsize.ShrinkMapSizeUtils;
 import net.sf.gridarta.map.mapmodel.MapModel;
 import net.sf.gridarta.map.mapmodel.MapSquare;
-import net.sf.gridarta.model.archetype.AttributeListUtils;
 import net.sf.gridarta.model.direction.Direction;
 import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.io.AttributeListUtils;
 import net.sf.gridarta.model.io.RecursiveFileIterator;
 
 void normalizeGameObject(GameObject gameObject) {
@@ -20,13 +22,13 @@ void normalizeGameObject(GameObject gameObject) {
     gameObject.setObjectText(AttributeListUtils.diffArchTextValues(gameObject.getArchetype(), gameObject.getObjectText()));
 }
 
-void normalizeMap(File mapFile, String mapPath) {
+void normalizeMap(Path mapFile, String mapPath) {
     print(mapPath);
 
     try {
         map = mapManager.openMapFile(mapFile, false);
     } catch (IOException ex) {
-        print("Cannot load map '"+mapFile+"': "+ex.getMessage());
+        print("Cannot load map '" + mapFile + "': " + ex.getMessage());
         return;
     }
 
@@ -48,7 +50,7 @@ void normalizeMap(File mapFile, String mapPath) {
                 ShrinkMapSizeUtils.shrinkMap(mapModel, shrinkFlags);
             }
 
-            Iterator it = mapModel.iterator	();
+            Iterator it = mapModel.iterator();
             while (it.hasNext()) {
                 Iterator it2 = it.next().iterator();
                 while (it2.hasNext()) {
@@ -59,9 +61,7 @@ void normalizeMap(File mapFile, String mapPath) {
             mapModel.endTransaction();
         }
 
-        if (map.getMapModel().isModified()) {
-            map.save();
-        }
+        map.save();
     } finally {
         mapManager.release(map);
     }
@@ -75,15 +75,14 @@ if (baseDirectory.endsWith("/")) {
     baseDirectory = baseDirectory.substring(0, baseDirectory.length() - 1);
 }
 
-String mapDefaultFolder = globalSettings.getMapsDirectory().getPath();
-String rootDirectory = mapDefaultFolder + baseDirectory;
-Iterator it = new RecursiveFileIterator(new File(rootDirectory));
+Path mapDefaultFolder = globalSettings.getMapsDirectory();
+Path rootDirectory = mapDefaultFolder.resolve(baseDirectory);
+Iterator it = new RecursiveFileIterator(rootDirectory);
 while (it.hasNext()) {
-    File file = it.next();
-    String name = file.getName();
-    String path = file.getPath();
-    if (file.isFile()
-    && path.startsWith(rootDirectory)
+    Path path = it.next();
+    String name = path.getFileName().toString();
+    if (Files.isRegularFile(path, new LinkOption[0])
+    && path.toString().startsWith(rootDirectory.toString())
     && !name.equalsIgnoreCase("README")
     && !name.endsWith(".msg")
     && !name.endsWith(".py")
@@ -96,10 +95,10 @@ while (it.hasNext()) {
     && !name.equals(".emergency")
     && !name.equals("ChangeLog")
     && !name.equals("COPYING")
-    && !path.contains("/.git/")
-    && !path.contains("/Info/")
-    && !path.contains("/editor/scripts/")) {
-        normalizeMap(file, file.getPath().substring(mapDefaultFolder.length()));
+    && !path.toString().contains("/.git/")
+    && !path.toString().contains("/Info/")
+    && !path.toString().contains("/editor/scripts/")) {
+        normalizeMap(path, path.toString().substring(mapDefaultFolder.toString().length()));
     }
 }
 
@@ -116,4 +115,3 @@ print("Done.");]]></code>
     <value>/</value>
   </parameter>
 </script>
-

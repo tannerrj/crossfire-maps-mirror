@@ -2994,13 +2994,13 @@ arch lightningwall_6
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 16
 y 4
 speed 0.250000
 speed_left -2.370000
 level 50
+direction 0
 alive 1
 arch spell_ball_lightning
 end
@@ -3016,13 +3016,13 @@ arch lightningwall_6
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 16
 y 5
 speed 0.250000
 speed_left -2.370000
 level 50
+direction 0
 alive 1
 arch spell_ball_lightning
 end
@@ -3038,13 +3038,13 @@ arch lightningwall_6
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 16
 y 6
 speed 0.250000
 speed_left -2.370000
 level 50
+direction 0
 alive 1
 arch spell_ball_lightning
 end
@@ -3258,13 +3258,13 @@ arch firewall_2
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 17
 y 4
 speed 0.250000
 speed_left -0.410000
 level 50
+direction 0
 alive 1
 arch spell_dragonbreath
 end
@@ -3280,13 +3280,13 @@ arch firewall_2
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 17
 y 5
 speed 0.250000
 speed_left -0.410000
 level 50
+direction 0
 alive 1
 arch spell_dragonbreath
 end
@@ -3302,13 +3302,13 @@ arch firewall_2
 Con 100
 hp 5000
 maxhp 5000
-direction 0
 ac -30
 x 17
 y 6
 speed 0.250000
 speed_left -0.410000
 level 50
+direction 0
 alive 1
 arch spell_dragonbreath
 end

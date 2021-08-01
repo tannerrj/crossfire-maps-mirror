@@ -5559,11 +5559,11 @@ end
 arch lbulletwall_1
 name bombbomb wall
 other_arch bomb
-direction 7
 x 29
 y 30
 speed -0.100000
 level 70
+direction 7
 arch spell_create_bomb
 end
 end

@@ -2206,11 +2206,11 @@ y 9
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 3
 x 8
 y 9
 speed 0.000000
 level 107
+direction 3
 invisible 1
 connected 2
 move_block 0
@@ -2229,11 +2229,11 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 2
 x 8
 y 10
 speed 0.000000
 level 107
+direction 2
 invisible 1
 connected 2
 move_block 0
@@ -2502,11 +2502,11 @@ y 8
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 5
 x 9
 y 8
 speed 0.000000
 level 107
+direction 5
 invisible 1
 connected 2
 move_block 0
@@ -2549,11 +2549,11 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 1
 x 9
 y 10
 speed 0.000000
 level 107
+direction 1
 invisible 1
 connected 2
 move_block 0
@@ -2818,11 +2818,11 @@ y 8
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 6
 x 10
 y 8
 speed 0.000000
 level 107
+direction 6
 invisible 1
 connected 2
 move_block 0
@@ -2841,11 +2841,11 @@ y 9
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
+x 10
+y 9
+speed 0.000000
+level 107
 direction 7
-x 10
-y 9
-speed 0.000000
-level 107
 invisible 1
 connected 2
 move_block 0
@@ -2864,11 +2864,11 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-direction 8
 x 10
 y 10
 speed 0.000000
 level 107
+direction 8
 invisible 1
 connected 2
 move_block 0

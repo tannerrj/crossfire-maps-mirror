@@ -567,8 +567,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 3
 direction 6
-x 3
 no_damage 1
 arch spell_large_lightning
 end
@@ -675,9 +675,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 3
 y 16
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -1284,8 +1284,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 7
 direction 6
-x 7
 no_damage 1
 arch spell_large_lightning
 end
@@ -1392,9 +1392,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 7
 y 16
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -1651,8 +1651,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 9
 direction 4
-x 9
 no_damage 1
 arch spell_large_lightning
 end
@@ -1759,9 +1759,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 9
 y 16
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -2050,8 +2050,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 6
 x 11
+direction 6
 no_damage 1
 arch spell_large_lightning
 end
@@ -2196,9 +2196,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 11
 y 16
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -2671,10 +2671,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 4
 x 13
 y 20
 level 110
+direction 4
 no_damage 1
 arch spell_large_lightning
 end
@@ -2702,10 +2702,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 4
 x 13
 y 24
 level 110
+direction 4
 no_damage 1
 arch spell_large_lightning
 end
@@ -2719,10 +2719,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 4
 x 13
 y 26
 level 110
+direction 4
 no_damage 1
 arch spell_large_lightning
 end
@@ -2750,10 +2750,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 4
 x 13
 y 30
 level 110
+direction 4
 no_damage 1
 arch spell_large_lightning
 end
@@ -3381,10 +3381,10 @@ y 17
 end
 arch bulletwall_1
 face fog.111
+x 15
+y 18
+level 110
 direction 6
-x 15
-y 18
-level 110
 no_damage 1
 arch spell_large_lightning
 end
@@ -3586,10 +3586,10 @@ y 31
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 15
 y 32
 level 110
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -4999,10 +4999,10 @@ y 17
 end
 arch bulletwall_1
 face fog.111
-direction 6
 x 19
 y 18
 level 110
+direction 6
 no_damage 1
 arch spell_large_lightning
 end
@@ -5204,10 +5204,10 @@ y 31
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 19
 y 32
 level 110
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -5602,10 +5602,10 @@ y 17
 end
 arch bulletwall_1
 face fog.111
-direction 6
 x 20
 y 18
 level 110
+direction 6
 no_damage 1
 arch spell_large_lightning
 end
@@ -6087,10 +6087,10 @@ y 17
 end
 arch bulletwall_1
 face fog.111
+x 21
+y 18
+level 110
 direction 4
-x 21
-y 18
-level 110
 no_damage 1
 arch spell_large_lightning
 end
@@ -6292,10 +6292,10 @@ y 31
 end
 arch bulletwall_1
 face fog.111
+x 21
+y 32
+level 110
 direction 2
-x 21
-y 32
-level 110
 no_damage 1
 arch spell_large_lightning
 end
@@ -7717,10 +7717,10 @@ y 17
 end
 arch bulletwall_1
 face fog.111
+x 25
+y 18
+level 110
 direction 6
-x 25
-y 18
-level 110
 no_damage 1
 arch spell_large_lightning
 end
@@ -7922,10 +7922,10 @@ y 31
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 25
 y 32
 level 110
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -8534,10 +8534,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 27
 y 20
 level 110
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -8565,10 +8565,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 27
 y 24
 level 110
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -8582,10 +8582,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 27
 y 26
 level 110
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -8613,10 +8613,10 @@ move_block all
 end
 arch bulletwall_1
 face fog.111
-direction 8
 x 27
 y 30
 level 110
+direction 8
 no_damage 1
 arch spell_large_lightning
 end
@@ -8869,8 +8869,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 4
 x 29
+direction 4
 no_damage 1
 arch spell_large_lightning
 end
@@ -9023,9 +9023,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 29
 y 16
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -9314,8 +9314,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 31
 direction 6
-x 31
 no_damage 1
 arch spell_large_lightning
 end
@@ -9422,9 +9422,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 31
+y 16
 direction 8
-x 31
-y 16
 no_damage 1
 arch spell_large_lightning
 end
@@ -9681,8 +9681,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 33
 direction 4
-x 33
 no_damage 1
 arch spell_large_lightning
 end
@@ -9789,9 +9789,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 33
 y 16
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
@@ -10398,8 +10398,8 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
+x 37
 direction 4
-x 37
 no_damage 1
 arch spell_large_lightning
 end
@@ -10506,9 +10506,9 @@ blocksview 0
 end
 arch bulletwall_1
 face fog.111
-direction 2
 x 37
 y 16
+direction 2
 no_damage 1
 arch spell_large_lightning
 end
