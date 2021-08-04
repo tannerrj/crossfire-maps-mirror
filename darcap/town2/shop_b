@@ -9,7 +9,7 @@ enter_x 16
 enter_y 32
 msg
 Created:  1993-10-21 Cater & Wade (john_cater@yahoo.com)
-Modified: 2012-01-31 Rick Tanner
+Modified: 2021-08-04 Nicolas Weeger
 endmsg
 outdoor 1
 end
@@ -888,6 +888,16 @@ arch woodfloor
 x 4
 y 28
 end
+arch dungeon_magic
+x 4
+y 29
+end
+arch button_small
+x 4
+y 29
+invisible 1
+connected 1
+end
 arch woodfloor
 x 4
 y 29
@@ -1105,12 +1115,6 @@ y 30
 speed 0.500000
 connected 1
 end
-arch button_small
-x 5
-y 31
-invisible 1
-connected 1
-end
 arch dungeon_magic
 x 5
 y 31
@@ -1274,6 +1278,16 @@ arch woodfloor
 x 6
 y 28
 end
+arch dungeon_magic
+x 6
+y 29
+end
+arch button_small
+x 6
+y 29
+invisible 1
+connected 1
+end
 arch woodfloor
 x 6
 y 29
@@ -1285,12 +1299,6 @@ end
 arch wwall_1_4
 x 6
 y 30
-end
-arch button_small
-x 6
-y 31
-invisible 1
-connected 1
 end
 arch dungeon_magic
 x 6
