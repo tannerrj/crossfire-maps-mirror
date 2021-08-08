@@ -1657,11 +1657,6 @@ x 3
 y 43
 speed_left -94.099998
 end
-arch fountain
-x 3
-y 43
-speed_left -94.099998
-end
 arch dungeon_magic
 x 3
 y 44
@@ -1720,11 +1715,14 @@ arch grass
 x 3
 y 48
 elevation 10832
+<<<<<<< HEAD
 end
 arch fountain
 x 3
 y 48
 speed_left -94.099998
+=======
+>>>>>>> f2564454c (Add missing elevation)
 end
 arch fountain
 x 3
