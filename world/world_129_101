@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-14
-Modified: 2008-11-20 Rick Tanner
+Modified: 2020-12-20 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_129_100
@@ -233,6 +233,7 @@ y 37
 end
 arch flagstone
 y 38
+elevation 767
 end
 arch grass
 y 39
@@ -258,6 +259,7 @@ y 41
 end
 arch flagstone
 y 42
+elevation 702
 end
 arch cityport_b
 y 42
@@ -529,18 +531,22 @@ end
 arch flagstone
 x 1
 y 35
+elevation 565
 end
 arch flagstone
 x 1
 y 36
+elevation 535
 end
 arch flagstone
 x 1
 y 37
+elevation 575
 end
 arch flagstone
 x 1
 y 38
+elevation 656
 end
 arch grass
 x 1
@@ -564,12 +570,14 @@ end
 arch flagstone
 x 1
 y 42
+elevation 704
 end
 arch flagstone
 name grass
 face grass.111
 x 1
 y 43
+elevation 343
 end
 arch house1_east
 slaying /!
@@ -828,10 +836,12 @@ end
 arch flagstone
 x 2
 y 34
+elevation 495
 end
 arch flagstone
 x 2
 y 35
+elevation 712
 end
 arch grass
 x 2
@@ -874,14 +884,17 @@ end
 arch flagstone
 x 2
 y 38
+elevation 703
 end
 arch flagstone
 x 2
 y 39
+elevation 678
 end
 arch flagstone
 x 2
 y 40
+elevation 789
 end
 arch hills
 x 2
@@ -895,12 +908,14 @@ end
 arch flagstone
 x 2
 y 42
+elevation 685
 end
 arch flagstone
 name grass
 face grass.111
 x 2
 y 43
+elevation 232
 end
 arch sea
 x 2
@@ -1138,6 +1153,7 @@ end
 arch flagstone
 x 3
 y 34
+elevation 501
 end
 arch hills
 x 3
@@ -1197,6 +1213,7 @@ end
 arch flagstone
 x 3
 y 40
+elevation 814
 end
 arch hills
 x 3
@@ -1210,16 +1227,19 @@ end
 arch flagstone
 x 3
 y 42
+elevation 767
 end
 arch flagstone
 x 3
 y 43
+elevation 565
 end
 arch flagstone
 name grass
 face grass.111
 x 3
 y 44
+elevation 343
 end
 arch sea
 x 3
@@ -1474,6 +1494,7 @@ end
 arch flagstone
 x 4
 y 34
+elevation 601
 end
 arch hills
 x 4
@@ -1519,6 +1540,7 @@ end
 arch flagstone
 x 4
 y 40
+elevation 800
 end
 arch hills
 x 4
@@ -1541,6 +1563,7 @@ end
 arch flagstone
 x 4
 y 43
+elevation 656
 end
 arch grass
 x 4
@@ -1560,6 +1583,7 @@ name grass
 face grass.111
 x 4
 y 45
+elevation 198
 end
 arch sea
 x 4
@@ -1791,6 +1815,7 @@ end
 arch flagstone
 x 5
 y 34
+elevation 526
 end
 arch hills
 x 5
@@ -1842,6 +1867,7 @@ end
 arch flagstone
 x 5
 y 40
+elevation 1064
 end
 arch dungeon_magic
 x 5
@@ -1850,6 +1876,7 @@ end
 arch flagstone
 x 5
 y 41
+elevation 954
 end
 arch grate_closed_1
 x 5
@@ -1864,10 +1891,12 @@ end
 arch flagstone
 x 5
 y 42
+elevation 809
 end
 arch flagstone
 x 5
 y 43
+elevation 767
 end
 arch grass
 x 5
@@ -2145,6 +2174,7 @@ end
 arch flagstone
 x 6
 y 40
+elevation 821
 end
 arch hills
 x 6
@@ -2447,6 +2477,7 @@ end
 arch flagstone
 x 7
 y 40
+elevation 813
 end
 arch hills
 x 7
@@ -2475,12 +2506,14 @@ name grass
 face grass.111
 x 7
 y 43
+elevation 317
 end
 arch flagstone
 name grass
 face grass.111
 x 7
 y 44
+elevation 261
 end
 arch sea
 x 7
@@ -2762,18 +2795,22 @@ end
 arch flagstone
 x 8
 y 37
+elevation 812
 end
 arch flagstone
 x 8
 y 38
+elevation 821
 end
 arch flagstone
 x 8
 y 39
+elevation 812
 end
 arch flagstone
 x 8
 y 40
+elevation 812
 end
 arch hills
 x 8
@@ -2794,6 +2831,7 @@ name grass
 face grass.111
 x 8
 y 43
+elevation 183
 end
 arch sea
 x 8
@@ -3045,10 +3083,12 @@ end
 arch flagstone
 x 9
 y 36
+elevation 775
 end
 arch flagstone
 x 9
 y 37
+elevation 717
 end
 arch grass
 x 9
@@ -3364,14 +3404,17 @@ end
 arch flagstone
 x 10
 y 34
+elevation 423
 end
 arch flagstone
 x 10
 y 35
+elevation 454
 end
 arch flagstone
 x 10
 y 36
+elevation 616
 end
 arch grass
 x 10

@@ -3,7 +3,7 @@ name world_121_110
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2020-12-20 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_121_109
@@ -71,9 +71,11 @@ y 13
 end
 arch cobblestones
 y 14
+elevation 2535
 end
 arch cobblestones
 y 15
+elevation 2535
 end
 arch steppe
 y 16
@@ -302,10 +304,12 @@ end
 arch cobblestones
 x 1
 y 14
+elevation 2406
 end
 arch cobblestones
 x 1
 y 15
+elevation 2406
 end
 arch hills
 x 1
@@ -580,10 +584,12 @@ end
 arch cobblestones
 x 2
 y 14
+elevation 2498
 end
 arch cobblestones
 x 2
 y 15
+elevation 2498
 end
 arch steppe
 x 2

@@ -4,7 +4,7 @@ region portjoseph
 width 50
 height 50
 msg
-Modified: 2018-12-28 Kevin Zheng
+Modified: 2020-12-20 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_100_113
@@ -196,12 +196,15 @@ elevation -2638
 end
 arch sea
 y 46
+elevation -2734
 end
 arch sea
 y 47
+elevation -2613
 end
 arch sea
 y 48
+elevation -2954
 end
 arch sea
 y 49
@@ -439,18 +442,22 @@ end
 arch sea
 x 1
 y 46
+elevation -5232
 end
 arch sea
 x 1
 y 47
+elevation -3065
 end
 arch sea
 x 1
 y 48
+elevation -4065
 end
 arch sea
 x 1
 y 49
+elevation -6472
 end
 arch sea
 x 2
@@ -1107,6 +1114,7 @@ end
 arch sea
 x 4
 y 33
+elevation -3280
 end
 arch sea
 x 4
@@ -1332,6 +1340,7 @@ end
 arch sea
 x 5
 y 33
+elevation -2833
 end
 arch sea
 x 5
@@ -1560,6 +1569,7 @@ end
 arch shallow_sea
 x 6
 y 33
+elevation -1982
 end
 arch shallow_sea
 x 6
@@ -1790,6 +1800,7 @@ end
 arch shallow_sea
 x 7
 y 33
+elevation -1523
 end
 arch shallow_sea
 x 7
@@ -2023,6 +2034,7 @@ end
 arch shallow_sea
 x 8
 y 33
+elevation -932
 end
 arch shallow_sea
 x 8
@@ -2240,6 +2252,7 @@ end
 arch shallow_sea
 x 9
 y 33
+elevation -506
 end
 arch shallow_sea
 x 9
@@ -2455,6 +2468,7 @@ end
 arch shallow_sea
 x 10
 y 33
+elevation -243
 end
 arch shallow_sea
 x 10
@@ -2681,6 +2695,7 @@ end
 arch shallow_sea
 x 11
 y 33
+elevation -121
 end
 arch pstone_1
 x 11
@@ -2903,10 +2918,12 @@ end
 arch shallow_sea
 x 12
 y 33
+elevation -50
 end
 arch shallow_sea
 x 12
 y 34
+elevation -78
 end
 arch pstone_1
 x 12
@@ -3150,6 +3167,7 @@ end
 arch pstone_1
 x 13
 y 32
+elevation 1
 end
 arch river_ne-w
 x 13
@@ -3158,10 +3176,12 @@ end
 arch pstone_1
 x 13
 y 33
+elevation 47
 end
 arch shallow_sea
 x 13
 y 34
+elevation -5
 end
 arch pstone_1
 x 13
@@ -3425,6 +3445,7 @@ end
 arch shallow_sea
 x 14
 y 34
+elevation -1
 end
 arch pstone_1
 x 14
@@ -4709,6 +4730,7 @@ end
 arch shallow_sea
 x 19
 y 21
+elevation -5
 end
 arch pstone_2
 x 19
@@ -4805,10 +4827,12 @@ end
 arch shallow_sea
 x 19
 y 35
+elevation -12
 end
 arch shallow_sea
 x 19
 y 36
+elevation -23
 end
 arch shallow_sea
 x 19
@@ -4967,6 +4991,7 @@ end
 arch shallow_sea
 x 20
 y 21
+elevation -19
 end
 arch pstone_1
 x 20
@@ -5037,14 +5062,17 @@ end
 arch shallow_sea
 x 20
 y 33
+elevation -5
 end
 arch shallow_sea
 x 20
 y 34
+elevation -35
 end
 arch shallow_sea
 x 20
 y 35
+elevation -79
 end
 arch shallow_sea
 x 20
@@ -5203,10 +5231,12 @@ end
 arch shallow_sea
 x 21
 y 20
+elevation -38
 end
 arch shallow_sea
 x 21
 y 21
+elevation -13
 end
 arch pstone_1
 x 21
@@ -5286,10 +5316,12 @@ end
 arch shallow_sea
 x 21
 y 35
+elevation -16
 end
 arch shallow_sea
 x 21
 y 36
+elevation -17
 end
 arch shallow_sea
 x 21
@@ -5443,6 +5475,7 @@ end
 arch pstone_1
 x 22
 y 20
+elevation 1
 end
 arch river_junct_ns-nw
 x 22
@@ -5451,6 +5484,7 @@ end
 arch pstone_1
 x 22
 y 21
+elevation 2
 end
 arch river_se-n
 x 22
@@ -5703,6 +5737,7 @@ end
 arch cobblestones2
 x 23
 y 19
+elevation 3
 end
 arch cwall_1_1
 x 23
@@ -5711,6 +5746,7 @@ end
 arch cobblestones2
 x 23
 y 20
+elevation 3
 end
 arch dwall_2_2_1
 x 23
@@ -5719,6 +5755,7 @@ end
 arch pstone_1
 x 23
 y 21
+elevation 13
 end
 arch river_nw-se_u
 x 23
@@ -5963,14 +6000,17 @@ end
 arch cobblestones2
 x 24
 y 18
+elevation 5
 end
 arch cobblestones2
 x 24
 y 19
+elevation 20
 end
 arch cobblestones2
 x 24
 y 20
+elevation 17
 end
 arch dwall_2_2_3
 x 24
@@ -6231,14 +6271,17 @@ end
 arch cobblestones2
 x 25
 y 18
+elevation 7
 end
 arch cobblestones2
 x 25
 y 19
+elevation 30
 end
 arch cobblestones2
 x 25
 y 20
+elevation 57
 end
 arch cobblestones2
 x 25
@@ -6478,14 +6521,17 @@ end
 arch shallow_sea
 x 26
 y 18
+elevation -22
 end
 arch cobblestones2
 x 26
 y 19
+elevation 15
 end
 arch cobblestones2
 x 26
 y 20
+elevation 48
 end
 arch cobblestones2
 x 26
@@ -6744,6 +6790,7 @@ end
 arch cobblestones2
 x 27
 y 19
+elevation 9
 end
 arch cwall_1_1
 x 27
@@ -6752,6 +6799,7 @@ end
 arch cobblestones2
 x 27
 y 20
+elevation 24
 end
 arch cwall_2_1_1
 x 27
@@ -6995,6 +7043,7 @@ end
 arch pstone_1
 x 28
 y 20
+elevation 11
 end
 arch pstone_1
 x 28
@@ -8140,6 +8189,7 @@ end
 arch sea
 x 32
 y 47
+elevation -4941
 end
 arch sea
 x 32
@@ -8738,6 +8788,7 @@ end
 arch sea
 x 35
 y 40
+elevation -3626
 end
 arch sea
 x 35
@@ -9000,6 +9051,7 @@ end
 arch sea
 x 36
 y 48
+elevation -4012
 end
 arch sea
 x 36

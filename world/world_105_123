@@ -3,7 +3,7 @@ name world_105_123
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2020-12-20 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_105_122
@@ -2125,10 +2125,12 @@ end
 arch drifts
 x 8
 y 34
+elevation 6817
 end
 arch drifts
 x 8
 y 35
+elevation 6852
 end
 arch s_mountain
 x 8
@@ -2367,18 +2369,22 @@ end
 arch drifts
 x 9
 y 33
+elevation 6875
 end
 arch snow
 x 9
 y 34
+elevation 3756
 end
 arch drifts
 x 9
 y 35
+elevation 6814
 end
 arch drifts
 x 9
 y 36
+elevation 6846
 end
 arch s_mountain
 x 9
@@ -2612,18 +2618,22 @@ end
 arch drifts
 x 10
 y 33
+elevation 6845
 end
 arch snow
 x 10
 y 34
+elevation 3856
 end
 arch snow
 x 10
 y 35
+elevation 3857
 end
 arch drifts
 x 10
 y 36
+elevation 6834
 end
 arch s_mountain
 x 10
@@ -2857,22 +2867,27 @@ end
 arch drifts
 x 11
 y 33
+elevation 6798
 end
 arch drifts
 x 11
 y 34
+elevation 6765
 end
 arch snow
 x 11
 y 35
+elevation 3967
 end
 arch drifts
 x 11
 y 36
+elevation 6756
 end
 arch drifts
 x 11
 y 37
+elevation 6829
 end
 arch s_mountain
 x 11
@@ -3106,14 +3121,17 @@ end
 arch drifts
 x 12
 y 34
+elevation 6823
 end
 arch snow
 x 12
 y 35
+elevation 4053
 end
 arch drifts
 x 12
 y 36
+elevation 6853
 end
 arch s_mountain
 x 12
@@ -3357,10 +3375,12 @@ end
 arch drifts
 x 13
 y 35
+elevation 6802
 end
 arch drifts
 x 13
 y 36
+elevation 6834
 end
 arch s_mountain
 x 13
@@ -3604,6 +3624,7 @@ end
 arch drifts
 x 14
 y 35
+elevation 6878
 end
 arch s_mountain
 x 14
@@ -6892,10 +6913,12 @@ end
 arch drifts
 x 27
 y 36
+elevation 6813
 end
 arch drifts
 x 27
 y 37
+elevation 6863
 end
 arch s_mountain
 x 27
@@ -7156,18 +7179,22 @@ end
 arch drifts
 x 28
 y 37
+elevation 6874
 end
 arch drifts
 x 28
 y 38
+elevation 6845
 end
 arch drifts
 x 28
 y 39
+elevation 6839
 end
 arch drifts
 x 28
 y 40
+elevation 6902
 end
 arch s_mountain
 x 28
@@ -10807,6 +10834,7 @@ end
 arch drifts
 x 43
 y 13
+elevation 4812
 end
 arch s_mountain
 x 43
@@ -11050,10 +11078,12 @@ end
 arch drifts
 x 44
 y 12
+elevation 4956
 end
 arch drifts
 x 44
 y 13
+elevation 5064
 end
 arch mountain5
 x 44
@@ -11292,10 +11322,12 @@ end
 arch drifts
 x 45
 y 11
+elevation 4906
 end
 arch drifts
 x 45
 y 12
+elevation 4812
 end
 arch s_mountain
 x 45
@@ -11539,6 +11571,7 @@ end
 arch drifts
 x 46
 y 11
+elevation 4798
 end
 arch s_mountain
 x 46

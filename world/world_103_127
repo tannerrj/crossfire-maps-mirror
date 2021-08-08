@@ -4,7 +4,7 @@ region stoneville
 width 50
 height 50
 msg
-Modified: 2020-06-08 Rick Tanner
+Modified: 2020-12-24 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_103_126
@@ -1315,6 +1315,7 @@ end
 arch beach
 x 5
 y 5
+elevation 588
 end
 arch hills
 x 5
@@ -1567,6 +1568,7 @@ elevation -6
 end
 arch beach
 x 6
+elevation 492
 end
 arch woods_2
 x 6
@@ -1596,6 +1598,7 @@ end
 arch beach
 x 6
 y 6
+elevation 95
 end
 arch woods_2
 x 6
@@ -1836,10 +1839,12 @@ end
 arch beach
 x 7
 y 3
+elevation 910
 end
 arch beach
 x 7
 y 4
+elevation 252
 end
 arch brush
 x 7
@@ -2089,18 +2094,22 @@ end
 arch beach
 x 8
 y 2
+elevation 289
 end
 arch beach
 x 8
 y 3
+elevation 414
 end
 arch beach
 x 8
 y 4
+elevation 81
 end
 arch beach
 x 8
 y 5
+elevation 13
 end
 arch brush
 x 8
@@ -2358,6 +2367,7 @@ end
 arch beach
 x 9
 y 5
+elevation 648
 end
 arch hills
 x 9
@@ -2600,6 +2610,7 @@ end
 arch beach
 x 10
 y 4
+elevation 169
 end
 arch brush
 x 10
@@ -2713,15 +2724,17 @@ end
 arch beach
 x 10
 y 26
+elevation 117
 end
 arch beach
 x 10
 y 27
+elevation 28
 end
 arch beach
 x 10
 y 28
-elevation -9
+elevation 9
 end
 arch shallow_sea
 x 10
@@ -2860,6 +2873,7 @@ end
 arch beach
 x 11
 y 6
+elevation 493
 end
 arch brush
 x 11
@@ -2948,16 +2962,17 @@ end
 arch beach
 x 11
 y 27
-elevation -10
+elevation 10
 end
 arch beach
 x 11
 y 28
+elevation 65
 end
 arch beach
 x 11
 y 29
-elevation -10
+elevation 10
 end
 arch shallow_sea
 x 11
@@ -3022,6 +3037,7 @@ end
 arch beach
 x 11
 y 42
+elevation 346
 end
 arch shallow_sea
 x 11
@@ -3222,10 +3238,12 @@ end
 arch beach
 x 12
 y 28
+elevation 137
 end
 arch beach
 x 12
 y 29
+elevation 78
 end
 arch shallow_sea
 x 12
@@ -3290,10 +3308,12 @@ end
 arch beach
 x 12
 y 42
+elevation 892
 end
 arch beach
 x 12
 y 43
+elevation 471
 end
 arch deep_swamp
 x 12
@@ -3479,6 +3499,7 @@ end
 arch beach
 x 13
 y 28
+elevation 30
 end
 arch shallow_sea
 x 13
@@ -3557,6 +3578,7 @@ end
 arch beach
 x 13
 y 43
+elevation 541
 end
 arch shallow_sea
 x 13
@@ -3808,6 +3830,7 @@ end
 arch beach
 x 14
 y 41
+elevation 592
 end
 arch brush
 x 14
@@ -3947,10 +3970,12 @@ end
 arch beach
 x 15
 y 18
+elevation 434
 end
 arch beach
 x 15
 y 19
+elevation 35
 end
 arch shallow_sea
 x 15
@@ -4050,22 +4075,27 @@ end
 arch beach
 x 15
 y 39
+elevation 20
 end
 arch beach
 x 15
 y 40
+elevation 303
 end
 arch beach
 x 15
 y 41
+elevation 203
 end
 arch beach
 x 15
 y 42
+elevation 559
 end
 arch beach
 x 15
 y 43
+elevation 149
 end
 arch shallow_sea
 x 15
@@ -4205,14 +4235,17 @@ end
 arch beach
 x 16
 y 18
+elevation 561
 end
 arch beach
 x 16
 y 19
+elevation 100
 end
 arch beach
 x 16
 y 20
+elevation 13
 end
 arch shallow_sea
 x 16
@@ -4232,38 +4265,47 @@ end
 arch beach
 x 16
 y 24
+elevation 12
 end
 arch beach
 x 16
 y 25
+elevation 13
 end
 arch beach
 x 16
 y 26
+elevation 22
 end
 arch beach
 x 16
 y 27
+elevation 78
 end
 arch beach
 x 16
 y 28
+elevation 118
 end
 arch beach
 x 16
 y 29
+elevation 145
 end
 arch beach
 x 16
 y 30
+elevation 158
 end
 arch beach
 x 16
 y 31
+elevation 146
 end
 arch beach
 x 16
 y 32
+elevation 41
 end
 arch shallow_sea
 x 16
@@ -4293,26 +4335,32 @@ end
 arch beach
 x 16
 y 38
+elevation 246
 end
 arch beach
 x 16
 y 39
+elevation 471
 end
 arch beach
 x 16
 y 40
+elevaation 553
 end
 arch beach
 x 16
 y 41
+elevation 570
 end
 arch beach
 x 16
 y 42
+elevation 584
 end
 arch beach
 x 16
 y 43
+elevation 367
 end
 arch shallow_sea
 x 16
@@ -4437,58 +4485,72 @@ end
 arch beach
 x 17
 y 19
+elevation 384
 end
 arch beach
 x 17
 y 20
+elevation 126
 end
 arch beach
 x 17
 y 21
+elevation 12
 end
 arch beach
 x 17
 y 22
+elevation 18
 end
 arch beach
 x 17
 y 23
+elevation 68
 end
 arch beach
 x 17
 y 24
+elevation 143
 end
 arch beach
 x 17
 y 25
+elevation 248
 end
 arch beach
 x 17
 y 26
+elevation 291
 end
 arch beach
 x 17
 y 27
+elevation 234
 end
 arch beach
 x 17
 y 28
+elevation 69
 end
 arch beach
 x 17
 y 29
+elevation 208
 end
 arch beach
 x 17
 y 30
+elevation 19
 end
 arch beach
 x 17
 y 31
+elevation 124
 end
 arch beach
 x 17
 y 32
+elevation 42
 end
 arch shallow_sea
 x 17
@@ -4513,34 +4575,42 @@ end
 arch beach
 x 17
 y 37
+elevation 144
 end
 arch beach
 x 17
 y 38
+elevation 468
 end
 arch beach
 x 17
 y 39
+elevation 687
 end
 arch beach
 x 17
 y 40
+elevation 703
 end
 arch beach
 x 17
 y 41
+elevation 725
 end
 arch beach
 x 17
 y 42
+elevation 628
 end
 arch beach
 x 17
 y 43
+elevation 501
 end
 arch beach
 x 17
 y 44
+elevation 36
 end
 arch sea
 x 17
@@ -4656,66 +4726,82 @@ end
 arch beach
 x 18
 y 18
+elevation 662
 end
 arch beach
 x 18
 y 19
+elevation 384
 end
 arch beach
 x 18
 y 20
+elevation 173
 end
 arch beach
 x 18
 y 21
+elevation 41
 end
 arch beach
 x 18
 y 22
+elevation 107
 end
 arch beach
 x 18
 y 23
+elevation 153
 end
 arch beach
 x 18
 y 24
+elevation 249
 end
 arch beach
 x 18
 y 25
+elevation 482
 end
 arch beach
 x 18
 y 26
+elevation 586
 end
 arch beach
 x 18
 y 27
+elevation 217
 end
 arch beach
 x 18
 y 28
+elevation 85
 end
 arch beach
 x 18
 y 29
+elevation 266
 end
 arch beach
 x 18
 y 30
+elevation 73
 end
 arch beach
 x 18
 y 31
+elevation 194
 end
 arch beach
 x 18
 y 32
+elevation 163
 end
 arch beach
 x 18
 y 33
+elevation 46
 end
 arch shallow_sea
 x 18
@@ -4725,42 +4811,52 @@ end
 arch beach
 x 18
 y 35
+elevation 11
 end
 arch beach
 x 18
 y 36
+elevation 81
 end
 arch beach
 x 18
 y 37
+elevation 146
 end
 arch beach
 x 18
 y 38
+elevation 240
 end
 arch beach
 x 18
 y 39
+elevation 654
 end
 arch beach
 x 18
 y 40
+elevation 781
 end
 arch beach
 x 18
 y 41
+elevation 902
 end
 arch beach
 x 18
 y 42
+elevation 414
 end
 arch beach
 x 18
 y 43
+elevation 543
 end
 arch beach
 x 18
 y 44
+elevation 162
 end
 arch sea
 x 18
@@ -4870,94 +4966,117 @@ end
 arch beach
 x 19
 y 18
+elevation 214
 end
 arch beach
 x 19
 y 19
+elevation 211
 end
 arch beach
 x 19
 y 20
+elevation 153
 end
 arch beach
 x 19
 y 21
+elevation 68
 end
 arch beach
 x 19
 y 22
+elevation 110
 end
 arch beach
 x 19
 y 23
+elevation 60
 end
 arch beach
 x 19
 y 24
+elevation 123
 end
 arch beach
 x 19
 y 25
+elevation 606
 end
 arch beach
 x 19
 y 26
+elevation 896
 end
 arch beach
 x 19
 y 27
+elevation 889
 end
 arch beach
 x 19
 y 28
+elevation 682
 end
 arch beach
 x 19
 y 29
+elevation 476
 end
 arch beach
 x 19
 y 30
+elevation 363
 end
 arch beach
 x 19
 y 31
+elevation 274
 end
 arch beach
 x 19
 y 32
+elevation 218
 end
 arch beach
 x 19
 y 33
+elevation 115
 end
 arch beach
 x 19
 y 34
+elevation 30
 end
 arch beach
 x 19
 y 35
+elevation 106
 end
 arch beach
 x 19
 y 36
+elevation 227
 end
 arch beach
 x 19
 y 37
+elevation 264
 end
 arch beach
 x 19
 y 38
+elevation 49
 end
 arch beach
 x 19
 y 39
+elevation 249
 end
 arch beach
 x 19
 y 40
+elevation 971
 end
 arch hills
 x 19
@@ -4967,14 +5086,17 @@ end
 arch beach
 x 19
 y 42
+elevation 759
 end
 arch beach
 x 19
 y 43
+elevation 630
 end
 arch beach
 x 19
 y 44
+elevation 192
 end
 arch sea
 x 19
@@ -5069,10 +5191,12 @@ end
 arch beach
 x 20
 y 14
+elevation 435
 end
 arch beach
 x 20
 y 15
+elevation 915
 end
 arch steppe
 x 20
@@ -5085,34 +5209,42 @@ end
 arch beach
 x 20
 y 18
+elevation 128
 end
 arch beach
 x 20
 y 19
+elevation 319
 end
 arch beach
 x 20
 y 20
+elevation 446
 end
 arch beach
 x 20
 y 21
+elevation 543
 end
 arch beach
 x 20
 y 22
+elevation 516
 end
 arch beach
 x 20
 y 23
+elevation 371
 end
 arch beach
 x 20
 y 24
+elevation 15
 end
 arch beach
 x 20
 y 25
+elevation 616
 end
 arch steppe
 x 20
@@ -5129,50 +5261,62 @@ end
 arch beach
 x 20
 y 29
+elevation 718
 end
 arch beach
 x 20
 y 30
+elevation 329
 end
 arch beach
 x 20
 y 31
+elevation 366
 end
 arch beach
 x 20
 y 32
+elevation 159
 end
 arch beach
 x 20
 y 33
+elevation 119
 end
 arch beach
 x 20
 y 34
+elevation 61
 end
 arch beach
 x 20
 y 35
+elevation 38
 end
 arch beach
 x 20
 y 36
+elevation 299
 end
 arch beach
 x 20
 y 37
+elevation 357
 end
 arch beach
 x 20
 y 38
+elevation 132
 end
 arch beach
 x 20
 y 39
+elevation 191
 end
 arch beach
 x 20
 y 40
+elevation 970
 end
 arch hills
 x 20
@@ -5182,14 +5326,17 @@ end
 arch beach
 x 20
 y 42
+elevation 982
 end
 arch beach
 x 20
 y 43
+elevation 611
 end
 arch beach
 x 20
 y 44
+elevation 184
 end
 arch sea
 x 20
@@ -5281,58 +5428,72 @@ end
 arch beach
 x 21
 y 13
+elevation 144
 end
 arch beach
 x 21
 y 14
+elevation 359
 end
 arch beach
 x 21
 y 15
+elevation 664
 end
 arch beach
 x 21
 y 16
+elevation 827
 end
 arch beach
 x 21
 y 17
+elevation 724
 end
 arch beach
 x 21
 y 18
+elevation 285
 end
 arch beach
 x 21
 y 19
+elevation 258
 end
 arch beach
 x 21
 y 20
+elevation 544
 end
 arch beach
 x 21
 y 21
+elevation 731
 end
 arch beach
 x 21
 y 22
+elevation 758
 end
 arch beach
 x 21
 y 23
+elevation 525
 end
 arch beach
 x 21
 y 24
+elevation 171
 end
 arch beach
 x 21
 y 25
+elevation 341
 end
 arch beach
 x 21
 y 26
+elevation 983
 end
 arch steppe
 x 21
@@ -5361,42 +5522,52 @@ end
 arch beach
 x 21
 y 33
+elevation 309
 end
 arch beach
 x 21
 y 34
+elevation 160
 end
 arch beach
 x 21
 y 35
+elevation 127
 end
 arch beach
 x 21
 y 36
+elevation 229
 end
 arch beach
 x 21
 y 37
+elevation 469
 end
 arch beach
 x 21
 y 38
+elevation 424
 end
 arch beach
 x 21
 y 39
+elevation 425
 end
 arch beach
 x 21
 y 40
+elevation 690
 end
 arch beach
 x 21
 y 41
+elevation 518
 end
 arch beach
 x 21
 y 42
+elevation 59
 end
 arch sea
 x 21
@@ -5506,22 +5677,27 @@ end
 arch beach
 x 22
 y 13
+elevation 86
 end
 arch beach
 x 22
 y 14
+elevation 255
 end
 arch beach
 x 22
 y 15
+elevation 355
 end
 arch beach
 x 22
 y 16
+elevation 593
 end
 arch beach
 x 22
 y 17
+elevation 606
 end
 arch campfire_out
 x 22
@@ -5530,38 +5706,47 @@ end
 arch beach
 x 22
 y 18
+elevation 435
 end
 arch beach
 x 22
 y 19
+elevation 115
 end
 arch beach
 x 22
 y 20
+elevation 381
 end
 arch beach
 x 22
 y 21
+elevation 620
 end
 arch beach
 x 22
 y 22
+elevation 703
 end
 arch beach
 x 22
 y 23
+elevation 629
 end
 arch beach
 x 22
 y 24
+elevation 49
 end
 arch beach
 x 22
 y 25
+elevation 488
 end
 arch beach
 x 22
 y 26
+elevation 838
 end
 arch steppe
 x 22
@@ -5594,26 +5779,32 @@ end
 arch beach
 x 22
 y 34
+elevation 503
 end
 arch beach
 x 22
 y 35
+elevation 395
 end
 arch beach
 x 22
 y 36
+elevation 454
 end
 arch beach
 x 22
 y 37
+elevation 574
 end
 arch beach
 x 22
 y 38
+elevation 590
 end
 arch beach
 x 22
 y 39
+elevation 362
 end
 arch shallow_sea
 x 22
@@ -5727,58 +5918,72 @@ end
 arch beach
 x 23
 y 13
+elevation 183
 end
 arch beach
 x 23
 y 14
+elevation 99
 end
 arch beach
 x 23
 y 15
+elevation 67
 end
 arch beach
 x 23
 y 16
+elevation 262
 end
 arch beach
 x 23
 y 17
+elevation 471
 end
 arch beach
 x 23
 y 18
+elevation 318
 end
 arch beach
 x 23
 y 19
+elevaation 30
 end
 arch beach
 x 23
 y 20
+elevation 25
 end
 arch beach
 x 23
 y 21
+elevation 169
 end
 arch beach
 x 23
 y 22
+elevation 544
 end
 arch beach
 x 23
 y 23
+elevation 624
 end
 arch beach
 x 23
 y 24
+elevation 541
 end
 arch beach
 x 23
 y 25
+elevation 417
 end
 arch beach
 x 23
 y 26
+elevation 232
 end
 arch steppe
 x 23
@@ -5814,26 +6019,32 @@ end
 arch beach
 x 23
 y 33
+elevation 682
 end
 arch beach
 x 23
 y 34
+elevation 461
 end
 arch beach
 x 23
 y 35
+elevation 359
 end
 arch beach
 x 23
 y 36
+elevation 539
 end
 arch beach
 x 23
 y 37
+elevation 607
 end
 arch beach
 x 23
 y 38
+elevation 544
 end
 arch shallow_sea
 x 23
@@ -5952,26 +6163,32 @@ end
 arch beach
 x 24
 y 13
+elevation 42
 end
 arch beach
 x 24
 y 14
+elevation 368
 end
 arch beach
 x 24
 y 15
+elevation 506
 end
 arch beach
 x 24
 y 16
+elevation 325
 end
 arch beach
 x 24
 y 17
+elevation 337
 end
 arch beach
 x 24
 y 18
+elevation 29
 end
 arch shallow_sea
 x 24
@@ -5991,26 +6208,32 @@ end
 arch beach
 x 24
 y 22
+elevation 199
 end
 arch beach
 x 24
 y 23
+elevation 427
 end
 arch beach
 x 24
 y 24
+elevation 369
 end
 arch beach
 x 24
 y 25
+elevation 212
 end
 arch beach
 x 24
 y 26
+elevation 123
 end
 arch beach
 x 24
 y 27
+elevation 440
 end
 arch steppe
 x 24
@@ -6039,26 +6262,32 @@ end
 arch beach
 x 24
 y 33
+elevation 308
 end
 arch beach
 x 24
 y 34
+elevation 129
 end
 arch beach
 x 24
 y 35
+elevation 582
 end
 arch beach
 x 24
 y 36
+elevation 737
 end
 arch beach
 x 24
 y 37
+elevation 603
 end
 arch beach
 x 24
 y 38
+elevation 413
 end
 arch sea
 x 24
@@ -6181,22 +6410,27 @@ end
 arch beach
 x 25
 y 13
+elevation 195
 end
 arch beach
 x 25
 y 14
+elevation 428
 end
 arch beach
 x 25
 y 15
+elevation 622
 end
 arch beach
 x 25
 y 16
+elevation 531
 end
 arch beach
 x 25
 y 17
+elevation 207
 end
 arch shallow_sea
 x 25
@@ -6246,6 +6480,7 @@ end
 arch beach
 x 25
 y 27
+elevation 66
 end
 arch steppe
 x 25
@@ -6270,26 +6505,32 @@ end
 arch beach
 x 25
 y 33
+elevation 216
 end
 arch beach
 x 25
 y 34
+elevation 265
 end
 arch beach
 x 25
 y 35
+elevation 454
 end
 arch beach
 x 25
 y 36
+elevation 622
 end
 arch beach
 x 25
 y 37
+elevation 566
 end
 arch beach
 x 25
 y 38
+elevation 211
 end
 arch sea
 x 25
@@ -6410,18 +6651,22 @@ end
 arch beach
 x 26
 y 13
+elevation 13
 end
 arch beach
 x 26
 y 14
+elevation 132
 end
 arch beach
 x 26
 y 15
+elevation 337
 end
 arch beach
 x 26
 y 16
+elevation 238
 end
 arch shallow_sea
 x 26
@@ -6476,14 +6721,17 @@ end
 arch beach
 x 26
 y 27
+elevation 20
 end
 arch beach
 x 26
 y 28
+elevation 203
 end
 arch beach
 x 26
 y 29
+elevation 279
 end
 arch steppe
 x 26
@@ -6492,30 +6740,37 @@ end
 arch beach
 x 26
 y 31
+elevation 966
 end
 arch beach
 x 26
 y 32
+elevation 707
 end
 arch beach
 x 26
 y 33
+elevation 345
 end
 arch beach
 x 26
 y 34
+elevation 43
 end
 arch beach
 x 26
 y 35
+elevation 23
 end
 arch beach
 x 26
 y 36
+elevation 56
 end
 arch beach
 x 26
 y 37
+elevation 14
 end
 arch sea
 x 26
@@ -6728,18 +6983,22 @@ end
 arch beach
 x 27
 y 30
+elevation 388
 end
 arch beach
 x 27
 y 31
+elevation 550
 end
 arch beach
 x 27
 y 32
+elevation 454
 end
 arch beach
 x 27
 y 33
+elevation 102
 end
 arch sea
 x 27
@@ -6973,14 +7232,17 @@ end
 arch beach
 x 28
 y 30
+elevation 41
 end
 arch beach
 x 28
 y 31
+elevation 217
 end
 arch beach
 x 28
 y 32
+elevation 140
 end
 arch sea
 x 28
@@ -11576,6 +11838,7 @@ end
 arch beach
 x 47
 y 5
+elevation 101
 end
 arch shallow_sea
 x 47
@@ -11630,10 +11893,12 @@ end
 arch beach
 x 47
 y 16
+elevation 45
 end
 arch beach
 x 47
 y 17
+elevation 151
 end
 arch sea
 x 47
@@ -11807,22 +12072,27 @@ end
 arch beach
 x 48
 y 2
+elevation 117
 end
 arch beach
 x 48
 y 3
+elevation 415
 end
 arch beach
 x 48
 y 4
+elevation 536
 end
 arch beach
 x 48
 y 5
+elevation 382
 end
 arch beach
 x 48
 y 6
+elevation 254
 end
 arch shallow_sea
 x 48
@@ -11872,14 +12142,17 @@ end
 arch beach
 x 48
 y 16
+elevation 546
 end
 arch beach
 x 48
 y 17
+elevation 733
 end
 arch beach
 x 48
 y 18
+elevation 10
 end
 arch sea
 x 48
@@ -12048,22 +12321,27 @@ end
 arch beach
 x 49
 y 2
+elevation 188
 end
 arch beach
 x 49
 y 3
+elevation 444
 end
 arch beach
 x 49
 y 4
+elevation 411
 end
 arch beach
 x 49
 y 5
+elevation 425
 end
 arch beach
 x 49
 y 6
+elevation 322
 end
 arch shallow_sea
 x 49
@@ -12113,18 +12391,22 @@ end
 arch beach
 x 49
 y 16
+elevation 507
 end
 arch beach
 x 49
 y 17
+elevation 732
 end
 arch beach
 x 49
 y 18
+elevation 489
 end
 arch beach
 x 49
 y 19
+elevation 119
 end
 arch sea
 x 49

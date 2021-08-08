@@ -3,7 +3,7 @@ name world_100_113
 width 50
 height 50
 msg
-Modified: 2018-12-28 Kevin Zheng
+Modified: 2020-12-20 SilverNexus
 endmsg
 outdoor 1
 tile_path_1 world_100_112
@@ -3678,6 +3678,7 @@ end
 arch sea
 x 14
 y 46
+elevation -1001
 end
 arch sea
 x 14
@@ -5103,10 +5104,12 @@ end
 arch sea
 x 20
 y 36
+elevation -1759
 end
 arch sea
 x 20
 y 37
+elevation -1817
 end
 arch sea
 x 20

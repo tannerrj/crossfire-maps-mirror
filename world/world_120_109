@@ -4,7 +4,7 @@ region marksel
 width 50
 height 50
 msg
-Modified: 2021-01-29 Nicolas Weeger
+Modified: 2021-03-09 Daniel Hawkins
 endmsg
 outdoor 1
 tile_path_1 world_120_108
@@ -682,6 +682,7 @@ end
 arch wasteland
 x 2
 y 44
+elevation 20712
 end
 arch wasteland
 x 2
@@ -690,10 +691,12 @@ end
 arch river_sw-ne_u
 x 2
 y 45
+elevation 18888
 end
 arch grass
 x 2
 y 46
+elevation 21726
 end
 arch river_ne-s
 x 2
@@ -702,6 +705,7 @@ end
 arch grass
 x 2
 y 47
+elevation 22617
 end
 arch river_n-s
 x 2
@@ -942,10 +946,12 @@ end
 arch mountain
 x 3
 y 43
+elevation 19433
 end
 arch mountain
 x 3
 y 44
+elevation 19426
 end
 arch river_sw-ne_u
 x 3
@@ -954,6 +960,7 @@ end
 arch grass
 x 3
 y 45
+elevation 19639
 end
 arch river_sw-ne
 x 3
@@ -962,6 +969,7 @@ end
 arch grass
 x 3
 y 46
+elevation 20813
 end
 arch river_sw-ne_l
 x 3
@@ -1189,18 +1197,22 @@ end
 arch hills_rocky
 x 4
 y 41
+elevation 17237
 end
 arch wasteland
 x 4
 y 42
+elevation 17043
 end
 arch mountain_cave2
 x 4
 y 43
+elevation 17106
 end
 arch grass
 x 4
 y 44
+elevation 17660
 end
 arch river_sw-ne
 x 4
@@ -1213,6 +1225,7 @@ end
 arch grass
 x 4
 y 45
+elevation 18160
 end
 arch river_sw-ne_l
 x 4
@@ -1225,10 +1238,12 @@ end
 arch mountain
 x 4
 y 46
+elevation 18735
 end
 arch mountain
 x 4
 y 47
+elevation 19839
 end
 arch mountain5
 x 4
@@ -1445,10 +1460,12 @@ end
 arch mountain_cave2
 x 5
 y 39
+elevation 14410
 end
 arch hills_rocky
 x 5
 y 40
+elevation 15623
 end
 arch dirtroad_2_2_1
 x 5
@@ -1457,10 +1474,12 @@ end
 arch hills
 x 5
 y 41
+elevation 16030
 end
 arch wasteland
 x 5
 y 42
+elevation 11901
 end
 arch river_sw-ne_u
 x 5
@@ -1469,6 +1488,7 @@ end
 arch grass
 x 5
 y 43
+elevation 12867
 end
 arch river_sw-ne
 x 5
@@ -1477,6 +1497,7 @@ end
 arch grass
 x 5
 y 44
+elevation 16243
 end
 arch river_sw-ne_l
 x 5
@@ -1490,6 +1511,7 @@ end
 arch mountain
 x 5
 y 46
+elevation 14467
 end
 arch mountain4
 x 5
@@ -1693,14 +1715,17 @@ end
 arch hills_rocky
 x 6
 y 37
+elevation 13465
 end
 arch hills_rocky
 x 6
 y 38
+elevation 12649
 end
 arch hills
 x 6
 y 39
+elevation 12170
 end
 arch dirtroad_2_2_2
 x 6
@@ -1709,6 +1734,7 @@ end
 arch grass
 x 6
 y 40
+elevation 13957
 end
 arch dirtroad_2_2_4
 x 6
@@ -1717,6 +1743,7 @@ end
 arch grass
 x 6
 y 41
+elevation 16023
 end
 arch river_sw-ne_u
 x 6
@@ -1729,6 +1756,7 @@ end
 arch grass
 x 6
 y 42
+elevation 15961
 end
 arch river_sw-ne
 x 6
@@ -1737,6 +1765,7 @@ end
 arch grass
 x 6
 y 43
+elevation 16003
 end
 arch river_sw-ne_l
 x 6
@@ -1745,6 +1774,7 @@ end
 arch grass
 x 6
 y 44
+elevation 16468
 end
 arch fernssparse
 x 6
@@ -1952,18 +1982,22 @@ end
 arch hills_rocky
 x 7
 y 35
+elevation 19668
 end
 arch hills
 x 7
 y 36
+elevation 17557
 end
 arch hills
 x 7
 y 37
+elevation 15614
 end
 arch grass
 x 7
 y 38
+elevation 13441
 end
 arch house_small
 x 7
@@ -1972,6 +2006,7 @@ end
 arch grass
 x 7
 y 39
+elevation 14751
 end
 arch dirtroad_1_4
 x 7
@@ -1984,6 +2019,7 @@ end
 arch grass
 x 7
 y 40
+elevation 16562
 end
 arch fernssparse
 x 7
@@ -1996,6 +2032,7 @@ end
 arch grass
 x 7
 y 41
+elevation 17469
 end
 arch river_sw-ne
 x 7
@@ -2004,6 +2041,7 @@ end
 arch grass
 x 7
 y 42
+elevation 17504
 end
 arch river_sw-ne_l
 x 7
@@ -2012,6 +2050,7 @@ end
 arch hills
 x 7
 y 43
+elevation 17248
 end
 arch fog
 x 7
@@ -2020,6 +2059,7 @@ end
 arch hills_rocky
 x 7
 y 44
+elevation 17710
 end
 arch mountain5
 x 7
@@ -2213,18 +2253,22 @@ end
 arch mountain
 x 8
 y 33
+elevation 22066
 end
 arch hills_rocky
 x 8
 y 34
+elevation 23696
 end
 arch hills
 x 8
 y 35
+elevation 23208
 end
 arch hills
 x 8
 y 36
+elevation 20785
 end
 arch fog
 x 8
@@ -2233,6 +2277,7 @@ end
 arch grass
 x 8
 y 37
+elevation 18104
 end
 arch dirtroad_2_2_2
 x 8
@@ -2241,6 +2286,7 @@ end
 arch grass
 x 8
 y 38
+elevation 15378
 end
 arch dirtroad_2_1_1
 x 8
@@ -2249,6 +2295,7 @@ end
 arch grass
 x 8
 y 39
+elevation 16279
 end
 arch river_sw-ne_u
 x 8
@@ -2261,6 +2308,7 @@ end
 arch grass
 x 8
 y 40
+elevation 18781
 end
 arch river_sw-ne
 x 8
@@ -2269,6 +2317,7 @@ end
 arch grass
 x 8
 y 41
+elevation 19215
 end
 arch river_sw-ne_l
 x 8
@@ -2277,10 +2326,12 @@ end
 arch hills
 x 8
 y 42
+elevation 17231
 end
 arch hills_rocky
 x 8
 y 43
+elevation 17693
 end
 arch mountain5
 x 8
@@ -2479,6 +2530,7 @@ end
 arch mountain
 x 9
 y 33
+elevation 22581
 end
 arch small_temple2
 x 9
@@ -2487,6 +2539,7 @@ end
 arch hills_rocky
 x 9
 y 34
+elevation 24291
 end
 arch dirtroad_1_1
 x 9
@@ -2495,6 +2548,7 @@ end
 arch hills
 x 9
 y 35
+elevation 24029
 end
 arch dirtroad_2_1_1
 x 9
@@ -2503,6 +2557,7 @@ end
 arch grass
 x 9
 y 36
+elevation 22235
 end
 arch dirtroad_2_1_1
 x 9
@@ -2511,6 +2566,7 @@ end
 arch grass
 x 9
 y 37
+elevation 18550
 end
 arch dirtroad_3_1
 x 9
@@ -2523,6 +2579,7 @@ end
 arch grass
 x 9
 y 38
+elevation 18759
 end
 arch fernssparse
 x 9
@@ -2535,6 +2592,7 @@ end
 arch grass
 x 9
 y 39
+elevation 19683
 end
 arch river_sw-ne
 x 9
@@ -2543,6 +2601,7 @@ end
 arch grass
 x 9
 y 40
+elevation 20246
 end
 arch river_sw-ne_l
 x 9
@@ -2551,10 +2610,12 @@ end
 arch hills
 x 9
 y 41
+elevation 19980
 end
 arch hills_rocky
 x 9
 y 42
+elevation 19488
 end
 arch fog
 x 9
@@ -2767,10 +2828,12 @@ end
 arch hills_rocky
 x 10
 y 34
+elevation 22084
 end
 arch hills
 x 10
 y 35
+elevation 21869
 end
 arch river_sw-ne_u
 x 10
@@ -2779,6 +2842,7 @@ end
 arch grass
 x 10
 y 36
+elevation 22525
 end
 arch river_ne-s
 x 10
@@ -2787,6 +2851,7 @@ end
 arch grass
 x 10
 y 37
+elevation 21910
 end
 arch dirtroad_2_1_2
 x 10
@@ -2799,6 +2864,7 @@ end
 arch grass
 x 10
 y 38
+elevation 21153
 end
 arch river_sw-n
 x 10
@@ -2807,6 +2873,7 @@ end
 arch grass
 x 10
 y 39
+elevation 21032
 end
 arch river_sw-ne_l
 x 10
@@ -2819,6 +2886,7 @@ end
 arch hills
 x 10
 y 40
+elevation 20851
 end
 arch dirtroad_1_4
 x 10
@@ -2831,6 +2899,7 @@ end
 arch hills_rocky
 x 10
 y 41
+elevation 19663
 end
 arch mountain5
 x 10
@@ -3034,14 +3103,17 @@ end
 arch hills_rocky
 x 11
 y 32
+elevation 15154
 end
 arch hills_rocky
 x 11
 y 33
+elevation 16801
 end
 arch hills
 x 11
 y 34
+elevation 16730
 end
 arch house_small
 x 11
@@ -3050,6 +3122,7 @@ end
 arch grass
 x 11
 y 35
+elevation 20440
 end
 arch river_sw-e
 x 11
@@ -3058,6 +3131,7 @@ end
 arch grass
 x 11
 y 36
+elevation 22320
 end
 arch river_sw-ne_l
 x 11
@@ -3066,6 +3140,7 @@ end
 arch grass
 x 11
 y 37
+elevation 22209
 end
 arch dirtroad_2_1_2
 x 11
@@ -3074,6 +3149,7 @@ end
 arch grass
 x 11
 y 38
+elevation 21324
 end
 arch fernssparse
 x 11
@@ -3082,6 +3158,7 @@ end
 arch grass
 x 11
 y 39
+elevation 20694
 end
 arch dirtroad_2_2_2
 x 11
@@ -3090,10 +3167,7 @@ end
 arch hills_rocky
 x 11
 y 40
-end
-arch hills_rocky
-x 11
-y 40
+elevation 20532
 end
 arch dirtroad_2_2_4
 x 11
@@ -3306,10 +3380,12 @@ end
 arch hills_rocky
 x 12
 y 32
+elevation 12515
 end
 arch hills
 x 12
 y 33
+elevation 14449
 end
 arch fog
 x 12
@@ -3318,6 +3394,7 @@ end
 arch grass
 x 12
 y 34
+elevation 12217
 end
 arch river_sw-ne_u
 x 12
@@ -3326,6 +3403,7 @@ end
 arch grass
 x 12
 y 35
+elevation 18805
 end
 arch river_ne-w
 x 12
@@ -3334,6 +3412,7 @@ end
 arch grass
 x 12
 y 36
+elevation 21538
 end
 arch s_house1
 x 12
@@ -3342,6 +3421,7 @@ end
 arch grass
 x 12
 y 37
+elevation 21648
 end
 arch dirtroad_3_3
 x 12
@@ -3350,6 +3430,7 @@ end
 arch grass
 x 12
 y 38
+elevation 17915
 end
 arch dirtroad_2_1_1
 x 12
@@ -3358,6 +3439,7 @@ end
 arch hills
 x 12
 y 39
+elevation 20549
 end
 arch dirtroad_2_2_4
 x 12
@@ -3366,6 +3448,7 @@ end
 arch hills_rocky
 x 12
 y 40
+elevation 19029
 end
 arch mountain5
 x 12
@@ -3539,6 +3622,7 @@ end
 arch grass
 x 13
 y 25
+elevation 13314
 end
 arch falls
 x 13
@@ -3547,6 +3631,7 @@ end
 arch grass
 x 13
 y 26
+elevation 12489
 end
 arch river_se-n
 x 13
@@ -3555,6 +3640,7 @@ end
 arch grass
 x 13
 y 27
+elevation 12681
 end
 arch river_nw-se_l
 x 13
@@ -3578,6 +3664,7 @@ end
 arch hills_rocky
 x 13
 y 31
+elevation 12254
 end
 arch house_small
 x 13
@@ -3586,10 +3673,12 @@ end
 arch hills
 x 13
 y 32
+elevation 12704
 end
 arch grass
 x 13
 y 33
+elevation 13849
 end
 arch river_sw-ne_u
 x 13
@@ -3598,6 +3687,7 @@ end
 arch grass
 x 13
 y 34
+elevation 13722
 end
 arch river_sw-ne
 x 13
@@ -3606,10 +3696,12 @@ end
 arch grass
 x 13
 y 35
+elevation 17957
 end
 arch river_sw-ne_l
 x 13
 y 35
+move_block 0
 end
 arch s_shop1
 x 13
@@ -3618,6 +3710,7 @@ end
 arch grass
 x 13
 y 36
+elevation 20271
 end
 arch dirtroad_1_1
 x 13
@@ -3626,6 +3719,7 @@ end
 arch hills
 x 13
 y 37
+elevation 20585
 end
 arch dirtroad_2_2_4
 x 13
@@ -3638,10 +3732,12 @@ end
 arch hills
 x 13
 y 38
+elevation 20801
 end
 arch hills_rocky
 x 13
 y 39
+elevation 20531
 end
 arch house_small
 x 13
@@ -3838,6 +3934,7 @@ end
 arch grass
 x 14
 y 27
+elevation 12606
 end
 arch river_nw-s
 x 14
@@ -3846,6 +3943,7 @@ end
 arch grass
 x 14
 y 28
+elevation 12996
 end
 arch river_n-s
 x 14
@@ -3854,6 +3952,7 @@ end
 arch grass
 x 14
 y 29
+elevation 13068
 end
 arch river_n-s
 x 14
@@ -3862,6 +3961,7 @@ end
 arch grass
 x 14
 y 30
+elevation 12466
 end
 arch river_n-s
 x 14
@@ -3870,6 +3970,7 @@ end
 arch grass
 x 14
 y 31
+elevation 10666
 end
 arch river_n-s
 x 14
@@ -3878,6 +3979,7 @@ end
 arch grass
 x 14
 y 32
+elevation 13007
 end
 arch river_n-s
 x 14
@@ -3886,6 +3988,7 @@ end
 arch grass
 x 14
 y 33
+elevation 14565
 end
 arch river_sw-n
 x 14
@@ -3894,6 +3997,7 @@ end
 arch grass
 x 14
 y 34
+elevation 16231
 end
 arch river_sw-ne_l
 x 14
@@ -3902,6 +4006,7 @@ end
 arch grass
 x 14
 y 35
+elevation 17292
 end
 arch fernssparse
 x 14
@@ -3910,10 +4015,12 @@ end
 arch hills
 x 14
 y 36
+elevation 18447
 end
 arch hills
 x 14
 y 37
+elevation 19542
 end
 arch hills_rocky
 x 14
@@ -3922,10 +4029,12 @@ end
 arch hills_rocky
 x 14
 y 38
+elevation 20449
 end
 arch hills_rocky
 x 14
 y 39
+elevation 20405
 end
 arch mountain5
 x 14
@@ -4139,10 +4248,12 @@ end
 arch hills_rocky
 x 15
 y 32
+elevation 12622
 end
 arch hills
 x 15
 y 33
+elevation 15289
 end
 arch fog
 x 15
@@ -4151,18 +4262,22 @@ end
 arch hills
 x 15
 y 34
+elevation 16308
 end
 arch hills_rocky
 x 15
 y 35
+elevation 16090
 end
 arch hills_rocky
 x 15
 y 36
+elevation 15104
 end
 arch hills_rocky
 x 15
 y 37
+elevation 17172
 end
 arch mountain5
 x 15
@@ -4391,6 +4506,7 @@ end
 arch hills_rocky
 x 16
 y 33
+elevation 15346
 end
 arch mountain4
 x 16
@@ -10597,18 +10713,22 @@ end
 arch cobblestones
 x 40
 y 46
+elevation 1909
 end
 arch cobblestones
 x 40
 y 47
+elevation 1521
 end
 arch cobblestones
 x 40
 y 48
+elevation 1140
 end
 arch cobblestones
 x 40
 y 49
+elevation 1698
 end
 arch mountain
 x 41
@@ -10813,50 +10933,62 @@ end
 arch cobblestones
 x 41
 y 38
+elevation 4940
 end
 arch cobblestones
 x 41
 y 39
+elevation 3853
 end
 arch cobblestones
 x 41
 y 40
+elevation 2405
 end
 arch cobblestones
 x 41
 y 41
+elevation 1980
 end
 arch cobblestones
 x 41
 y 42
+elevation 1197
 end
 arch cobblestones
 x 41
 y 43
+elevation 1955
 end
 arch cobblestones
 x 41
 y 44
+elevation 1854
 end
 arch cobblestones
 x 41
 y 45
+elevation 2065
 end
 arch cobblestones
 x 41
 y 46
+elevation 1814
 end
 arch cobblestones
 x 41
 y 47
+elevation 1624
 end
 arch cobblestones
 x 41
 y 48
+elevation 1754
 end
 arch cobblestones
 x 41
 y 49
+elevation 1796
 end
 arch mountain
 x 42
