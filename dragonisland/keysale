@@ -8,7 +8,7 @@ enter_x 4
 enter_y 4
 msg
 Created:  1997-07-09
-Modified: 2013-07-15 Kevin Zheng
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -196,6 +196,9 @@ arch key2
 name Brxzl's Key
 name_pl Brxzl's Keys
 slaying Brxzl's
+msg
+You are the owner of Brzxl's house in Stoneville.
+endmsg
 x 2
 y 4
 unique 1
@@ -217,6 +220,9 @@ arch key2
 name Key to Luxory Manor
 name_pl Keys to Luxory Manor
 slaying firsthousekey
+msg
+You are the owner of the Luxory Manor in Stoneville.
+endmsg
 x 2
 y 6
 unique 1
@@ -238,6 +244,9 @@ arch key2
 name key to house by the well
 name_pl keys to house by the well
 slaying viohousewell
+msg
+You are the owner of the house by the well in Stoneville.
+endmsg
 x 2
 y 8
 unique 1
@@ -259,6 +268,9 @@ arch key2
 name a key to a little house
 name_pl keys to a little house
 slaying NeuKey
+msg
+You are the owner of the little house in Stoneville.
+endmsg
 x 2
 y 10
 unique 1

@@ -9,7 +9,7 @@ enter_x 13
 enter_y 10
 msg
 Created:  2002-02-22 mikeeusa
-Modified: 2012-02-17 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1196,7 +1196,11 @@ x 8
 y 7
 carrying 100
 arch key2
+name skeleton's key
 slaying tttower10
+msg
+This key is from the tenth level of the Western Navar Tower.
+endmsg
 end
 end
 arch woodfloor2

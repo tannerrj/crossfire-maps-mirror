@@ -8,7 +8,7 @@ enter_x 8
 enter_y 6
 msg
 Created:  1996-02-12
-Modified: 2012-03-09 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch blocked
@@ -147,6 +147,9 @@ carrying 100
 arch key2
 name Key of A
 slaying 9A
+msg
+This key is from the shining tower under the Ancient Ruins on one of the Rainbow Islands of Pupland.
+endmsg
 end
 end
 arch flagstone
@@ -1136,6 +1139,9 @@ end
 arch key2
 name The key
 slaying 9sf
+msg
+This key is from the shining tower under the Ancient Ruins on one of the Rainbow Islands of Pupland.
+endmsg
 x 8
 y 15
 end
@@ -1581,6 +1587,9 @@ carrying 100
 arch key2
 name Key of UM
 slaying 9UM
+msg
+This key is from the shining tower under the Ancient Ruins on one of the Rainbow Islands of Pupland.
+endmsg
 end
 end
 arch flagstone

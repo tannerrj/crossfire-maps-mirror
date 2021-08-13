@@ -9044,11 +9044,18 @@ path_attuned 64
 path_repelled 2080
 can_use_range 1
 arch key2
+name basement key
 slaying Glick's special key
+msg
+This key was taken from the necromancer living in the ogre-infested dwarven mining outpost southeast of Hermes's Inn.
+endmsg
 end
 arch key2
-name another strange key
+name small desk key
 slaying Glint's desk key
+msg
+This key was taken from the necromancer living in the ogre-infested dwarven mining outpost southeast of Hermes's Inn.
+endmsg
 end
 end
 arch dungeon_floor

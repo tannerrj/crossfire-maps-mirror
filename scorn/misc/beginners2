@@ -8,7 +8,7 @@ enter_x 10
 enter_y 15
 msg
 Created:  1997-06-19
-Modified: 2016-07-31 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch pstone_2
@@ -142,6 +142,9 @@ end
 arch red_key
 name Red key
 slaying beginners2-reward
+msg
+This key is from Beginners 2 in Scorn.
+endmsg
 x 1
 y 1
 end
@@ -412,6 +415,9 @@ end
 arch brown_key
 name Brown key
 slaying beginners2-gnoll
+msg
+This key is from Beginners 2 in Scorn.
+endmsg
 x 2
 y 13
 end
@@ -2184,6 +2190,9 @@ end
 arch white_key
 name White key
 slaying beginners2-white
+msg
+This key is from Beginners 2 in Scorn.
+endmsg
 x 15
 y 16
 end
@@ -2448,6 +2457,9 @@ y 16
 arch green_key
 name Green key
 slaying 200
+msg
+This key is from Beginners 2 in Scorn.
+endmsg
 end
 end
 arch pstone_2

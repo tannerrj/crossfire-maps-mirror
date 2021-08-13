@@ -8,7 +8,7 @@ enter_x 15
 enter_y 8
 msg
 Created:  1995-04-26 jotang
-Modified: 2012-02-07 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -3012,10 +3012,10 @@ carrying 100
 arch spell_paralyze
 end
 arch key2
-name Gold Key With An Inscription
+name gold key
 slaying III
 msg
-To III
+This key was taken from the guardian angel in the first floor of the Tower of Sorcery in Lake Country.
 endmsg
 end
 arch abil_burning_hands

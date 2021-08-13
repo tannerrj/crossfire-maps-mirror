@@ -8,7 +8,7 @@ enter_x 10
 enter_y 2
 msg
 Created:  1993-11-17
-Modified: 2012-05-12 Nicolas Weeger
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -310,6 +310,9 @@ carrying 100
 arch key2
 name Skeleton Key
 slaying smugdf
+msg
+This key was taken from the Smuggler Leader in the smugglers' boat in Navar.
+endmsg
 end
 arch spell_summon_pet_monster
 end
@@ -3377,6 +3380,9 @@ carrying 100
 arch key2
 name Skeleton Key
 slaying smugdm
+msg
+This key was taken from the Smuggler Leader in the smugglers' boat in Navar.
+endmsg
 end
 end
 arch woodfloor

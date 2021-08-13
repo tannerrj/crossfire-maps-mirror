@@ -8,7 +8,7 @@ enter_x 21
 enter_y 19
 msg
 Created:  2007-03-11 mikeeusa
-Modified: 2011-10-31 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -3663,6 +3663,9 @@ end
 arch key2
 name Town Haus 1 Key (copy)
 slaying cwdctownhauskey1
+msg
+You are the owner of a Town Haus in the Cloud World.
+endmsg
 x 22
 y 20
 end

@@ -9,7 +9,7 @@ enter_x 10
 enter_y 1
 msg
 Created:  2004-07-01 Gene Alexander (gene@eracc.com)
-Modified: 2018-12-27 Kevin Zheng
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch shop_empty
@@ -3210,6 +3210,9 @@ arch key2
 name Oorgh key
 name_pl Oorgh keys
 slaying Oorgh key
+msg
+This key was taken from Oorgh, who manages the Scorn Pawn Shop.
+endmsg
 end
 end
 arch shop_empty

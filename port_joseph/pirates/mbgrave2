@@ -9,7 +9,7 @@ enter_x 10
 enter_y 30
 msg
 Created:  1994-06-02 langley (langley@fermat.dartmouth.edu)
-Modified: 2012-03-18 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch cave_15
@@ -553,6 +553,9 @@ end
 arch key2
 name The pirate's key.
 slaying mooglybill
+msg
+This key was taken from the body of the great pirate Moogly Bill in his tomb.
+endmsg
 x 3
 y 2
 end

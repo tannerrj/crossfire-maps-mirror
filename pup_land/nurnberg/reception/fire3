@@ -8,7 +8,7 @@ enter_x 7
 enter_y 6
 msg
 Created:  1996-02-18
-Modified: 2008-10-27 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -858,6 +858,9 @@ end
 arch key2
 name Tower Key
 slaying 1010542567
+msg
+This key opens the doors between the towers in the Nurnberg Reception Towers.
+endmsg
 x 8
 y 6
 end

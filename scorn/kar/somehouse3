@@ -8,7 +8,7 @@ enter_x 6
 enter_y 1
 msg
 Created:  1993-10-15
-Modified: 2012-01-10 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dirtfloor
@@ -545,6 +545,10 @@ arch key2
 name gorks key
 name_pl gorks keys
 slaying mork
+msg
+This key was given by Mork in the Friendly Giant's Tower.
+Gork sent you after it.
+endmsg
 arch quest_prevent_drop
 name scorn/GorksTreasure 50
 end
@@ -1213,7 +1217,11 @@ x 12
 y 1
 end
 arch key2
+name filthy key
 slaying abc
+msg
+This key is from the Friendly Giant's Tower.
+endmsg
 x 12
 y 1
 end

@@ -8,7 +8,7 @@ enter_x 2
 enter_y 2
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2008-12-22 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch cobblestones
@@ -1987,6 +1987,9 @@ carrying 100
 arch key2
 name Treasure key
 slaying eds key
+msg
+This key is from the unnaturals' challenge of the Warriors' Tower.
+endmsg
 end
 end
 arch cobblestones

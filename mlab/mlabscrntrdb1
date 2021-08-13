@@ -14,7 +14,7 @@ enter_x 6
 enter_y 14
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-08-13 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -697,6 +697,9 @@ end
 arch key2
 name locker 1 key
 slaying scrntlck1
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 15
 value 110
@@ -714,6 +717,9 @@ end
 arch key2
 name locker 4 key
 slaying scrntlck4
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 16
 value 110
@@ -731,6 +737,9 @@ end
 arch key2
 name locker 7 key
 slaying scrntlck7
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 17
 value 110
@@ -748,6 +757,9 @@ end
 arch key2
 name locker 10 key
 slaying scrntlck10
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 18
 value 110
@@ -765,6 +777,9 @@ end
 arch key2
 name locker 12 key
 slaying scrntlck13
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 19
 value 110
@@ -782,6 +797,9 @@ end
 arch key2
 name locker 18 key
 slaying scrntlck18
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 20
 value 110
@@ -800,6 +818,9 @@ end
 arch key2
 name locker 22 key
 slaying scrntlck22
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 21
 value 110
@@ -817,6 +838,9 @@ end
 arch key2
 name locker 26 key
 slaying scrntlck26
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 1
 y 22
 value 110
@@ -1107,6 +1131,9 @@ end
 arch key2
 name locker 2 key
 slaying scrntlck2
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 15
 value 110
@@ -1124,6 +1151,9 @@ end
 arch key2
 name locker 5 key
 slaying scrntlck5
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 16
 value 110
@@ -1141,6 +1171,9 @@ end
 arch key2
 name locker 8 key
 slaying scrntlck8
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 17
 value 110
@@ -1158,6 +1191,9 @@ end
 arch key2
 name locker 11 key
 slaying scrntlck11
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 18
 value 110
@@ -1175,6 +1211,9 @@ end
 arch key2
 name locker 14 key
 slaying scrntlck14
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 19
 value 110
@@ -1192,6 +1231,9 @@ end
 arch key2
 name locker 19 key
 slaying scrntlck19
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 20
 value 110
@@ -1210,6 +1252,9 @@ end
 arch key2
 name locker 23 key
 slaying scrntlck23
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 21
 value 110
@@ -1227,6 +1272,9 @@ end
 arch key2
 name locker 27 key
 slaying scrntlck27
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 2
 y 22
 value 110
@@ -1576,6 +1624,9 @@ end
 arch key2
 name locker 3 key
 slaying scrntlck3
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 15
 value 110
@@ -1593,6 +1644,9 @@ end
 arch key2
 name locker 6 key
 slaying scrntlck6
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 16
 value 110
@@ -1610,6 +1664,9 @@ end
 arch key2
 name locker 9 key
 slaying scrntlck9
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 17
 value 110
@@ -1627,6 +1684,9 @@ end
 arch key2
 name locker 12 key
 slaying scrntlck12
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 18
 value 110
@@ -1644,6 +1704,9 @@ end
 arch key2
 name locker 15 key
 slaying scrntlck15
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 19
 value 110
@@ -1661,6 +1724,9 @@ end
 arch key2
 name locker 20 key
 slaying scrntlck20
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 20
 value 110
@@ -1679,6 +1745,9 @@ end
 arch key2
 name locker 24 key
 slaying scrntlck24
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 21
 value 110
@@ -1696,6 +1765,9 @@ end
 arch key2
 name locker 28 key
 slaying scrntlck28
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 3
 y 22
 value 110
@@ -2042,6 +2114,9 @@ end
 arch key2
 name locker 16 key
 slaying scrntlck16
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 4
 y 19
 value 110
@@ -2059,6 +2134,9 @@ end
 arch key2
 name locker 21 key
 slaying scrntlck21
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 4
 y 20
 value 110
@@ -2077,6 +2155,9 @@ end
 arch key2
 name locker 25 key
 slaying scrntlck25
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 4
 y 21
 value 110
@@ -2514,6 +2595,9 @@ end
 arch key2
 name locker 17 key
 slaying scrntlck17
+msg
+You are the owner of a locker on the first level of the vault in the West Scorn Trade Market.
+endmsg
 x 5
 y 19
 value 110

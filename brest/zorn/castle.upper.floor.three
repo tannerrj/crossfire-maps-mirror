@@ -8,7 +8,7 @@ enter_x 29
 enter_y 3
 msg
 Created:  2007-03-06 Gene Alexander
-Modified: 2012-01-27 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -4736,6 +4736,9 @@ arch key2
 name pyromancy scroll key
 name_pl pyromancy scroll keys
 slaying pyromancy_scroll_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch stylus
 end
@@ -4937,6 +4940,9 @@ arch key2
 name summoning scroll key
 name_pl summoning scroll keys
 slaying summoning_scroll_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch spell_magehound
 end
@@ -6043,6 +6049,9 @@ arch key2
 name pyromancy book key
 name_pl pyromancy book keys
 slaying pyromancy_book_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch stylus
 end
@@ -6214,6 +6223,9 @@ arch key2
 name summoning book key
 name_pl summoning book keys
 slaying summoning_book_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch spell_magehound
 end
@@ -13698,6 +13710,9 @@ arch key2
 name evocation scroll key
 name_pl evocation scroll keys
 slaying evocation_scroll_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch stylus
 end
@@ -13885,6 +13900,9 @@ arch key2
 name sorcery scroll key
 name_pl sorcery scroll keys
 slaying sorcery_scroll_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch rod_light
 hp 500
@@ -14970,6 +14988,9 @@ arch key2
 name evocation book key
 name_pl evocation book keys
 slaying evocation_book_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch rod_light
 hp 500
@@ -15159,6 +15180,9 @@ arch key2
 name sorcery book key
 name_pl sorcery book keys
 slaying sorcery_book_key
+msg
+This key was taken from a powerful scribe in Zorn's Castle.
+endmsg
 end
 arch rod_light
 hp 500

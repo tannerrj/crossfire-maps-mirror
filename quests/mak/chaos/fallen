@@ -9,7 +9,7 @@ enter_x 2
 enter_y 31
 msg
 Created:  2000-04-09 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-03-09 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 maplore
 @quest Lorkas
@@ -3054,6 +3054,9 @@ end
 arch key2
 name a white shimmering key
 slaying Lorkas treasure key
+msg
+This key was taken from Lorkas the Fallen in the depths of the Warriors' Tower.
+endmsg
 end
 end
 arch small_stones

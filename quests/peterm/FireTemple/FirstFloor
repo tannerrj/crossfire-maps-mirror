@@ -8,7 +8,7 @@ enter_x 28
 enter_y 7
 msg
 Created:  1997-04-17 Peter Mardahl (peterm@soda.csua.berkeley.edu)
-Modified: 2012-03-19 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -4095,7 +4095,11 @@ x 18
 y 23
 carrying 100
 arch key2
+name professor's key
 slaying door5
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones2

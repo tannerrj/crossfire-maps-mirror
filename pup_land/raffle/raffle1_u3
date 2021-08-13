@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Created:  1997-02-27
-Modified: 2012-04-09 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch blocked
@@ -2416,6 +2416,9 @@ end
 arch key2
 name raffle ticket No.1
 slaying raffle1_first_chance
+msg
+This ticket lets you draw a prize from Pupland Raffle 1.
+endmsg
 face card.111
 x 19
 y 9

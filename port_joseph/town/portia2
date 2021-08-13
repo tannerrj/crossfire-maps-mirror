@@ -8,7 +8,7 @@ enter_x 13
 enter_y 5
 msg
 Created:  1994-05-26 langley
-Modified: 2012-06-15 Nicolas Weeger
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -2193,6 +2193,9 @@ carrying 100
 arch key2
 name bedroom key
 slaying portia
+msg
+This key is from Portia's house in Port Joseph. It opens the door to her room.
+endmsg
 end
 end
 arch woodfloor

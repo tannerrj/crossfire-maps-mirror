@@ -9,7 +9,7 @@ enter_x 32
 enter_y 27
 msg
 Created:  1995-04-26 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-28 Saiapatsu
 endmsg
 end
 arch large_stones
@@ -1935,6 +1935,7 @@ arch key2
 name jade green figurine of a small snake
 slaying jade_snake
 msg
+This figurine was taken from a chest guarded by the high priest Kasnuk in the Snake Pit in Lake Country.
 It flashes a rhythm attuned to some unknown device.
 endmsg
 face snake.111
@@ -2448,6 +2449,9 @@ end
 arch key2
 name Jade-key
 slaying Jade-key
+msg
+This key was taken from the high priest Kasnuk in the Snake Pit in Lake Country.
+endmsg
 end
 arch spell_mass_confusion
 end

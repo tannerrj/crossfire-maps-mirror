@@ -8,7 +8,7 @@ enter_x 20
 enter_y 8
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2013-08-03 Kevin Zheng
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch woodfloor2
@@ -966,6 +966,7 @@ name_pl greasy keys
 slaying Hermes Stash Key
 msg
 This key is slightly greasy, like it has been oiled.
+It was found in the hidden closet in Hermes' room in his inn.
 endmsg
 end
 arch random_wealth

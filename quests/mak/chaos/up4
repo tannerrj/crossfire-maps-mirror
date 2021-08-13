@@ -9,7 +9,7 @@ enter_x 11
 enter_y 13
 msg
 Created:  2000-04-09 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-04-14 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 maplore
 @quest Lorkas
@@ -2522,6 +2522,9 @@ end
 arch key2
 name a semi-ethereal key
 slaying djinn1
+msg
+This key is from a djinn in the Warriors' Tower.
+endmsg
 end
 end
 arch flagstone
@@ -4468,6 +4471,9 @@ end
 arch key2
 name a semi-ethereal key
 slaying djinn2
+msg
+This key is from a djinn in the Warriors' Tower.
+endmsg
 end
 end
 arch flagstone

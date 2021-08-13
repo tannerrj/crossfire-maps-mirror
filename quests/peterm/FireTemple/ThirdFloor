@@ -8,7 +8,7 @@ enter_x 7
 enter_y 8
 msg
 Created:  1997-04-20 Peter Mardahl (peterm@soda.csua.berkeley.edu)
-Modified: 2012-03-20 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -1761,6 +1761,9 @@ y 13
 carrying 100
 arch key2
 slaying door33
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones
@@ -2485,6 +2488,9 @@ carrying 100
 randomitems rich_old
 arch key2
 slaying door34
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones
@@ -2525,6 +2531,9 @@ speed_left -2.070000
 carrying 100
 arch key2
 slaying door31
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones
@@ -3302,6 +3311,9 @@ resist_fire 100
 carrying 175
 arch key2
 slaying door32
+msg
+This key is from the Fire Temple.
+endmsg
 end
 arch note
 msg

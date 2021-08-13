@@ -8,7 +8,7 @@ enter_x 6
 enter_y 4
 msg
 Created:  1996-06-12
-Modified: 2012-03-06 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch blocked
@@ -498,6 +498,9 @@ end
 arch key2
 name Bizuzu's key
 slaying bizuzu
+msg
+This key was taken from the lizardman priest Bizuzu on the first level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch dungeon_floor

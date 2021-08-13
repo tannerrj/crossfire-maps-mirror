@@ -8,7 +8,7 @@ enter_x 9
 enter_y 11
 msg
 Created:  1994-06-10 langley (langley@fermat.dartmouth.edu)
-Modified: 2011-11-23 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch pstone_2
@@ -175,6 +175,9 @@ y 9
 end
 arch pearl
 name moogly pearl
+msg
+This dark pearl was found in the beached ship on Tortola Island.
+endmsg
 x 1
 y 9
 value 500

@@ -9,7 +9,7 @@ enter_x 11
 enter_y 12
 msg
 Created:  2002-02-22 mikeeusa
-Modified: 2011-11-12 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1191,7 +1191,11 @@ material 0
 carrying 100
 no_pick 1
 arch key2
+name iron key
 slaying tttower17
+msg
+This key is from the seventeenth level of the Western Navar Tower.
+endmsg
 end
 end
 arch woodfloor2

@@ -10,7 +10,7 @@ enter_x 17
 enter_y 32
 msg
 Created:  1997-07-10 Viola Krings
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass_only
@@ -1171,6 +1171,9 @@ carrying 100
 arch key2
 name Key to Adventurers Guild
 slaying advguildkey
+msg
+This key grants entry into the Adventurers Guild of Dragon Island.
+endmsg
 end
 end
 arch woodfloor
@@ -1220,6 +1223,9 @@ end
 arch key2
 name Key to guild apartment 1
 slaying guildap1
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 6
 y 3
 unique 1
@@ -2345,6 +2351,9 @@ end
 arch key2
 name key to guild apartment 2
 slaying guildap2
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 11
 y 3
 unique 1
@@ -3349,6 +3358,9 @@ end
 arch key2
 name key to guild apartment 3
 slaying guildap3
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 16
 y 3
 unique 1
@@ -4401,6 +4413,9 @@ end
 arch key2
 name key to guild apartment 4
 slaying advap4
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 21
 y 3
 unique 1
@@ -5498,6 +5513,9 @@ end
 arch key2
 name key to guild apartment 5
 slaying advap5
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 26
 y 3
 end
@@ -6782,6 +6800,9 @@ end
 arch key2
 name key to guild apartment 6
 slaying guildap6
+msg
+You are the owner of an apartment in the Adventurers Guild of Dragon Island.
+endmsg
 x 32
 y 3
 unique 1

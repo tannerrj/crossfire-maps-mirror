@@ -8,7 +8,7 @@ enter_x 11
 enter_y 25
 msg
 Created:  2005-05-28 mikeeusa
-Modified: 2012-02-13 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -759,6 +759,9 @@ end
 arch key2
 name Deposit Room 3 FWB - CDC Branch
 slaying cdcfwbdr3
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 2
 y 12
 value 500
@@ -820,6 +823,9 @@ end
 arch key2
 name Deposit Room 2 FWB - CDC Branch
 slaying cdcfwbdr2
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 2
 y 17
 value 500
@@ -881,6 +887,9 @@ end
 arch key2
 name Deposit Room 1 FWB - CDC Branch
 slaying cdcfwbdr1
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 2
 y 22
 value 500
@@ -2460,6 +2469,9 @@ end
 arch key2
 name Master Key: Deposit Room 1 FWB - CDC Branch
 slaying mkcdcfwbdr1
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 7
 y 11
 value 550
@@ -2480,6 +2492,9 @@ end
 arch key2
 name Master Key: Deposit Room 2 FWB - CDC Branch
 slaying mkcdcfwbdr2
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 7
 y 12
 value 550
@@ -2500,6 +2515,9 @@ end
 arch key2
 name Master Key: Deposit Room 3 FWB - CDC Branch
 slaying mkcdcfwbdr3
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 7
 y 13
 value 550
@@ -2529,6 +2547,9 @@ end
 arch key2
 name Deposit Room 5 FWB - CDC Branch
 slaying windeproom5fwb
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 7
 y 15
 value 500
@@ -2625,6 +2646,9 @@ end
 arch key2
 name Deposit Room 4 FWB - CDC Branch
 slaying cdcfwbdr4
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 7
 y 20
 value 500
@@ -2867,6 +2891,9 @@ end
 arch key2
 name Master Key: Deposit Room 7 FWB - CDC Branch
 slaying mkcdcfwbdr7
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 8
 y 11
 value 550
@@ -2887,6 +2914,9 @@ end
 arch key2
 name Master Key: Deposit Room 6 FWB - CDC Branch
 slaying mkcdcfwbdr6
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 8
 y 12
 value 550
@@ -2907,6 +2937,9 @@ end
 arch key2
 name Master Key: Deposit Room 4 FWB - CDC Branch
 slaying mkcdcfwbdr4
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 8
 y 13
 value 550
@@ -3267,6 +3300,9 @@ end
 arch key2
 name Master Key: Deposit Room 8 FWB - CDC Branch
 slaying mkcdcfwbdr8
+msg
+You are the owner of a deposit room in the City de Clouds Bank.
+endmsg
 x 9
 y 13
 value 550
@@ -4992,6 +5028,9 @@ end
 arch key2
 name Deposit Room 8 FWB - CDC Branch
 slaying cdcfwbdr8
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 14
 y 12
 value 500
@@ -5053,6 +5092,9 @@ end
 arch key2
 name Deposit Room 7 FWB - CDC Branch
 slaying cdcfwbdr7
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 14
 y 17
 value 500
@@ -5114,6 +5156,9 @@ end
 arch key2
 name Deposit Room 6 FWB - CDC Branch
 slaying cdcfwbdr6
+msg
+This key allows you to access the contents of a deposit room in the City de Clouds bank once.
+endmsg
 x 14
 y 22
 value 500

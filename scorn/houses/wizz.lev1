@@ -9,7 +9,7 @@ enter_x 2
 enter_y 2
 msg
 Created:  1996-01-05 Bjoern Helfesrieder (helfesri@igd.fhg.de)
-Modified: 2019-05-15 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -13681,6 +13681,10 @@ will_apply 24
 arch key2
 name sacrifice key
 slaying 77
+msg
+This key was taken from the angry adventurer trapped in Yarid's House.
+It opens the sacrifice room.
+endmsg
 end
 arch book_read
 msg

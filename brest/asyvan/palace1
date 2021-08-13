@@ -8,7 +8,7 @@ enter_x 12
 enter_y 21
 msg
 Created:  1994-09-20
-Modified: 2012-03-31 Nicolas Weeger
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -3590,6 +3590,9 @@ end
 arch key2
 name Key marked: Gate 1
 slaying gate-1
+msg
+This key is from the Gates of Hell in the Kingdom Palace in Brest.
+endmsg
 x 13
 y 7
 arch quest_advance_pickup

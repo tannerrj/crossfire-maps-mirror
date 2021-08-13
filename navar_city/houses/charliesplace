@@ -8,7 +8,7 @@ enter_x 3
 enter_y 10
 msg
 Created:  2012-05-19 Rick Tanner
-Modified: 2012-07-15 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -369,7 +369,11 @@ arch chest
 x 3
 y 7
 arch darkgray_key
+name short key
 slaying charlie-exit1
+msg
+This key was in the chest in the house of the undertaker Charlie in Navar.
+endmsg
 end
 arch medium_potion_restoration
 end
@@ -1561,7 +1565,11 @@ arch grimreaper
 x 13
 y 3
 arch brown_key
+name cold key
 slaying charlie-treasure1
+msg
+This key was taken from the grimreaper in the house of the undertaker Charlie in Navar.
+endmsg
 end
 end
 arch woodfloor2

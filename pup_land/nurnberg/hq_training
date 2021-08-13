@@ -8,7 +8,7 @@ enter_x 4
 enter_y 6
 msg
 Created:  2000-12-24
-Modified: 2015-04-17 Jason Zheng
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch pstone_1
@@ -6447,6 +6447,9 @@ carrying 50000
 arch key2
 name sparring partner's head
 slaying lickmond_SP_head
+msg
+This is the head of Lickmond's sparring partner in the Headquarters of the Regular Army in Pupland.
+endmsg
 face demon_head.111
 weight 50000
 end

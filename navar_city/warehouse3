@@ -8,7 +8,7 @@ enter_x 2
 enter_y 34
 msg
 Created:  1993-11-10
-Modified: 2014-06-16 jwright
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -1835,6 +1835,9 @@ carrying 65600
 arch key2
 name Key
 slaying navar_ware
+msg
+This key was taken from a smuggler in the third warehouse in the port of Navar.
+endmsg
 face key_brown.111
 arch quest_advance_pickup
 name navar/smugglers 20>30

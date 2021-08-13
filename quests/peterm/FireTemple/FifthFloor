@@ -8,7 +8,7 @@ enter_x 12
 enter_y 9
 msg
 Created:  1997-05-23 PeterM (peterm@soda.csua.berkeley.edu)
-Modified: 2021-02-09 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch cobblestones
@@ -9206,7 +9206,11 @@ x 33
 y 10
 carrying 100
 arch key2
+name lab key
 slaying bonanza
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones
@@ -9304,7 +9308,11 @@ x 33
 y 30
 carrying 100
 arch key2
+name lab key
 slaying bendover
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch cobblestones

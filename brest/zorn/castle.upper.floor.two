@@ -8,7 +8,7 @@ enter_x 29
 enter_y 3
 msg
 Created:  2006-11-11 Gene Alexander
-Modified: 2012-03-19 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -9366,7 +9366,8 @@ name sergeant key
 name_pl sergeant keys
 slaying nw_sergeant
 msg
-This key is to the tower door.  Guard it with your life.
+This key was taken from a Fearless personal guard sergeant in Zorn's Castle.
+It opens a tower door. Guard it with your life.
 endmsg
 end
 arch rod_heavy
@@ -9813,7 +9814,8 @@ name sergeant key
 name_pl sergeant keys
 slaying sw_sergeant
 msg
-This key is to the tower door.  Guard it with your life.
+This key was taken from a Fearless personal guard sergeant in Zorn's Castle.
+It opens a tower door. Guard it with your life.
 endmsg
 end
 arch rod_heavy
@@ -15752,7 +15754,8 @@ name sergeant key
 name_pl sergeant keys
 slaying ne_sergeant
 msg
-This key is to the tower door.  Guard it with your life.
+This key was taken from a Fearless personal guard sergeant in Zorn's Castle.
+It opens a tower door. Guard it with your life.
 endmsg
 end
 arch rod_heavy
@@ -16281,7 +16284,8 @@ name sergeant key
 name_pl sergeant keys
 slaying se_sergeant
 msg
-This key is to the tower door.  Guard it with yout life.
+This key was taken from a Fearless personal guard sergeant in Zorn's Castle.
+It opens a tower door. Guard it with your life.
 endmsg
 end
 arch rod_heavy

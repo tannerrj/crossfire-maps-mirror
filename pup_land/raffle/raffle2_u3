@@ -10,7 +10,7 @@ enter_x 1
 enter_y 10
 msg
 Created:  1997-04-01
-Modified: 2012-04-09 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch cave_15
@@ -729,6 +729,9 @@ end
 arch key2
 name Wizard's key
 slaying raffle2_wizard_door
+msg
+This key is from Pupland Raffle 2.
+endmsg
 end
 end
 arch dungeon_magic
@@ -5189,6 +5192,9 @@ end
 arch key2
 name Warrior's key
 slaying raffle2_warrior_door
+msg
+This key is from Pupland Raffle 2.
+endmsg
 x 18
 y 17
 end

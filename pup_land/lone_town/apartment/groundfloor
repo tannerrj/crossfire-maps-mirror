@@ -8,7 +8,7 @@ enter_x 26
 enter_y 36
 msg
 Created:  2005-11-07 Gene Alexander
-Modified: 2012-02-28 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch cobblestones
@@ -487,6 +487,9 @@ end
 arch key2
 name LTAP Basement Key
 slaying LTAP Basement Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 2
 y 6
 end
@@ -505,6 +508,9 @@ end
 arch key2
 name LTAP Mudroom Key
 slaying LTAP Mudroom Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 2
 y 7
 end
@@ -689,6 +695,9 @@ end
 arch key2
 name LTAP Upper Key
 slaying LTAP Upper Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 3
 y 6
 end
@@ -707,6 +716,9 @@ end
 arch key2
 name LTAP Kitchen Key
 slaying LTAP Kitchen Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 3
 y 7
 end
@@ -895,6 +907,9 @@ end
 arch key2
 name LTAP Greatroom Key
 slaying LTAP Greatroom Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 4
 y 6
 end
@@ -913,6 +928,9 @@ end
 arch key2
 name LTAP Study Key
 slaying LTAP Study Key
+msg
+This key is from the Lone Town Apartment.
+endmsg
 x 4
 y 7
 end

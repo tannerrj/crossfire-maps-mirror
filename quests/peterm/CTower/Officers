@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1994-02-11 peter mardahl (peterm@soda.berkeley.edu)
-Modified: 2012-03-11 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -1141,7 +1141,11 @@ level 13
 carrying 100
 unaggressive 0
 arch key2
+name Major's key
 slaying major
+msg
+This key is from the Tower of the Stars.
+endmsg
 end
 end
 arch woodfloor

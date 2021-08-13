@@ -8,7 +8,7 @@ enter_x 27
 enter_y 2
 msg
 Created:  1995-04-26
-Modified: 2011-08-27 Andreas Kirschbaum
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -3373,6 +3373,9 @@ carrying 45100
 arch key2
 name insignia ring
 slaying ins
+msg
+This ring was taken from the vampire lord on the third floor of the Tower of Sorcery in Lake Country.
+endmsg
 face ring_drain.111
 end
 arch deathbringer

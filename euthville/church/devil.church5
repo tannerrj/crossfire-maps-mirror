@@ -9,7 +9,7 @@ enter_x 16
 enter_y 17
 msg
 Created:  1993-12-10
-Modified: 2013-08-02 Kevin Zheng
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -738,9 +738,12 @@ arch lich
 x 6
 y 17
 arch blue_key
-name blue key
+name lich's blue key
 name_pl blue keys
 slaying euthville_valriel_key
+msg
+This key was found deep in the catacombs of Valriel Weeping in Euthville.
+endmsg
 end
 end
 arch cobblestones2

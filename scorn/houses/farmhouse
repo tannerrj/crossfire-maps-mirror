@@ -9,7 +9,7 @@ enter_x 11
 enter_y 9
 msg
 Created:  2003-05-03
-Modified: 2012-01-09 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass
@@ -393,6 +393,9 @@ arch key2
 name Farmer's key
 name_pl Farmer's keys
 slaying scornfarmkey
+msg
+This key is from Terry's farmhouse beside the gates of Scorn.
+endmsg
 arch quest_prevent_drop
 name scorn/TerrysFarm 60
 end

@@ -9,7 +9,7 @@ enter_x 9
 enter_y 26
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2021-01-30 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch light_blue_cave_0
@@ -743,7 +743,11 @@ end
 arch abil_icestorm
 end
 arch key2
+name lord key
 slaying IceDragonKey
+msg
+This key was taken from the Ice Dragonmaster in the Dragon Cave.
+endmsg
 end
 end
 arch pstone_2

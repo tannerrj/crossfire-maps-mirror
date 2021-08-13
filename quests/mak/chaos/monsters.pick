@@ -4,7 +4,7 @@ width 13
 height 13
 msg
 Created:  2000-02-09
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch holy_priest
@@ -34,6 +34,9 @@ stand_still 1
 arch key2
 name Priest of Devourers head
 slaying cp_head_d
+msg
+This is from the Warriors' Tower.
+endmsg
 face head.111
 end
 arch spell_large_icestorm
@@ -143,6 +146,9 @@ stand_still 1
 arch key2
 name Priest of Ruggillis head
 slaying cp_head_d
+msg
+This is from the Warriors' Tower.
+endmsg
 face head.111
 end
 arch abil_fear
@@ -265,6 +271,9 @@ stand_still 1
 arch key2
 name Priest of Gorokhs head
 slaying cp_head_g
+msg
+This is from the Warriors' Tower.
+endmsg
 face head.111
 end
 arch spell_cause_light_wounds
@@ -402,6 +411,9 @@ end
 arch key2
 name a sharpedged key
 slaying up1-2 key
+msg
+This key is from the Warriors' Tower.
+endmsg
 x 10
 y 1
 end
@@ -561,6 +573,9 @@ reflect_spell 1
 arch key2
 name a white shimmering key
 slaying Lorkas treasure key
+msg
+This key was taken from Lorkas the Fallen in the depths of the Warriors' Tower.
+endmsg
 end
 arch abil_large_icestorm
 end

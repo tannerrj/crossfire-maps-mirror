@@ -8,7 +8,7 @@ enter_x 11
 enter_y 10
 msg
 Created:  1994-09-20
-Modified: 2012-03-31 Nicolas Weeger
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -277,6 +277,9 @@ end
 arch key2
 name Key marked: Gate 3
 slaying gate-3
+msg
+This key is from the Gates of Hell in the Kingdom Palace in Brest.
+endmsg
 x 1
 y 19
 arch quest_advance_pickup

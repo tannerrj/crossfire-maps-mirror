@@ -15,7 +15,7 @@ enter_x 24
 enter_y 4
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-10-26 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1165,6 +1165,9 @@ end
 arch key2
 name mise key 2
 slaying azamauingshodos2lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 4
 y 5
 end
@@ -1323,6 +1326,9 @@ end
 arch key2
 name mise key 1
 slaying azamauingshodos1lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 4
 y 20
 end
@@ -9213,6 +9219,9 @@ end
 arch key2
 name shop key 2
 slaying azamauingshodos2lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 27
 y 3
 end
@@ -9289,6 +9298,9 @@ end
 arch key2
 name mise key 2
 slaying azamauingshodos2lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 27
 y 7
 value 300000
@@ -9600,6 +9612,9 @@ end
 arch key2
 name shop key 1
 slaying azamauingshodos1lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 27
 y 26
 end
@@ -9794,6 +9809,9 @@ end
 arch key2
 name mise key 1
 slaying azamauingshodos1lvl2
+msg
+You are the owner of a group shop in Azumaindo.
+endmsg
 x 28
 y 7
 value 300000

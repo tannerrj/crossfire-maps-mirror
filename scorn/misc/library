@@ -2682,6 +2682,9 @@ end
 arch key2
 name an old key
 slaying rare_books
+msg
+This key was bought from the Scorn Library and opens the door in the back.
+endmsg
 x 15
 y 13
 value 5000

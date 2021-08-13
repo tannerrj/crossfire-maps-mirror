@@ -6,7 +6,7 @@ width 20
 height 20
 msg
 Created:  1994-12-29
-Modified: 2012-01-19 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass_only
@@ -483,6 +483,9 @@ can_use_armour 1
 can_use_weapon 1
 arch key2
 slaying simple
+msg
+This key was taken from the commander of the gnolls on the upstairs floor of the Small Manor in the Valley of the Three Sisters.
+endmsg
 end
 arch gloves
 end

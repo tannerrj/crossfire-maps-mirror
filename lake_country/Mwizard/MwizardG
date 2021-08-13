@@ -8,7 +8,7 @@ enter_x 10
 enter_y 10
 msg
 Created:  1995-04-26
-Modified: 2017-06-30 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -261,6 +261,9 @@ carrying 100
 arch key2
 name Number 4
 slaying four
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -386,6 +389,9 @@ carrying 100
 arch key2
 name Number 5
 slaying five
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -557,6 +563,9 @@ carrying 100
 arch key2
 name Number 3
 slaying three
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -710,6 +719,9 @@ carrying 100
 arch key2
 name Number 6
 slaying six
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -961,6 +973,9 @@ carrying 100
 arch key2
 name Number 2
 slaying two
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -1118,6 +1133,9 @@ carrying 100
 arch key2
 name Number 7
 slaying seven
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -1373,6 +1391,9 @@ carrying 100
 arch key2
 name Number 1
 slaying one
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -1415,6 +1436,9 @@ carrying 100
 arch key2
 name Number 8
 slaying eight
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -1604,6 +1628,9 @@ carrying 100
 arch key2
 name Number 9
 slaying nine
+msg
+This key was taken from a great wizard at the heights of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -2899,12 +2926,18 @@ arch key2
 name Golden Bug
 name_pl Golden Bugs
 slaying gbug
+msg
+It was taken from the Grand Master at the peak of the Tower of Sorcery in Lake Country.
+endmsg
 face ant.111
 end
 arch key2
 name strange smelling flower
 name_pl strange smelling flower
 slaying gmaster
+msg
+It was taken from the Grand Master at the peak of the Tower of Sorcery in Lake Country.
+endmsg
 face flowers.111
 end
 end

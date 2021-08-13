@@ -8,7 +8,7 @@ enter_x 15
 enter_y 38
 msg
 Created:  1993-11-16 Skud the Great (tvangod@ecst.csuchico.edu)
-Modified: 2012-03-24 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch snow3
@@ -3003,6 +3003,9 @@ unaggressive 1
 arch key2
 name Very hot key
 slaying hell
+msg
+This key was taken from the demon Guat'hdolamar in the north wing of Skud's Tower.
+endmsg
 end
 arch spell_small_speedball
 end
@@ -6600,6 +6603,9 @@ end
 arch key2
 name key of ice
 slaying iceworld
+msg
+This key was found in the ice storms around the north wing of Skud's Tower.
+endmsg
 x 19
 y 39
 end

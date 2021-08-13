@@ -8,7 +8,7 @@ enter_x 7
 enter_y 30
 msg
 Created:  1996-01-27
-Modified: 2011-12-05 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch blocked
@@ -2004,6 +2004,10 @@ end
 arch key2
 name chamber key
 slaying mleader_chamber
+msg
+This key was taken from the leader of the magicians in the Dressing Room in Lone Town.
+It opens the treasure chamber.
+endmsg
 end
 end
 arch cobblestones2

@@ -8,7 +8,7 @@ enter_x 9
 enter_y 13
 msg
 Created:  1996-02-06
-Modified: 2011-10-21 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch cave_15
@@ -686,6 +686,9 @@ unaggressive 1
 arch key2
 name gnome key
 slaying 958473
+msg
+This key was taken from the gnome in the dungeons under the Pupland Power Plant.
+endmsg
 end
 arch random_wealth
 hp 2

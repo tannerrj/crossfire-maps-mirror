@@ -8,7 +8,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  1996-06-14
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -72,6 +72,9 @@ end
 arch key2
 name Kum's key
 slaying kum
+msg
+This key was given by Kum the dwarf on the second level of the temple of the four heroes in Rainbow Island.
+endmsg
 x 1
 y 2
 end

@@ -8,7 +8,7 @@ enter_x 10
 enter_y 9
 msg
 Created:  1996-08-08
-Modified: 2008-10-12 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -373,7 +373,11 @@ x 2
 y 4
 carrying 100
 arch key2
+name corroded key
 slaying big
+msg
+This key was taken from the dragons in the hall with the titans and acid on the sixth level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch flagstone
@@ -588,7 +592,11 @@ x 3
 y 15
 carrying 100
 arch key2
+name corroded key
 slaying big
+msg
+This key was taken from the dragons in the hall with the titans and acid on the sixth level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch flagstone
@@ -2659,7 +2667,11 @@ x 17
 y 3
 carrying 100
 arch key2
+name corroded key
 slaying big
+msg
+This key was taken from the dragons in the hall with the titans and acid on the sixth level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch flagstone
@@ -2727,7 +2739,11 @@ x 17
 y 14
 carrying 100
 arch key2
+name corroded key
 slaying big
+msg
+This key was taken from the dragons in the hall with the titans and acid on the sixth level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch flagstone

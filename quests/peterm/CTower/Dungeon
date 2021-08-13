@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1994-02-11 peter mardahl (peterm@soda.berkeley.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -573,6 +573,9 @@ end
 arch key2
 name key to traitor's cell
 slaying traitor
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 5
 y 1
 end
@@ -684,7 +687,11 @@ x 6
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 6
 y 1
 end
@@ -796,7 +803,11 @@ x 7
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 7
 y 1
 end
@@ -905,7 +916,11 @@ x 8
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 8
 y 1
 end
@@ -1020,7 +1035,11 @@ x 9
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 9
 y 1
 end
@@ -1120,7 +1139,11 @@ x 10
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 10
 y 1
 end
@@ -1224,7 +1247,11 @@ x 11
 y 1
 end
 arch key2
+name cell key
 slaying ctower_dungeon
+msg
+This key is from the dungeon of the Tower of the Stars.
+endmsg
 x 11
 y 1
 end

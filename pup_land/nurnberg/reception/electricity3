@@ -8,7 +8,7 @@ enter_x 8
 enter_y 8
 msg
 Created:  1996-02-19
-Modified: 2008-10-27 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch marble
@@ -744,6 +744,9 @@ end
 arch key2
 name Tower Key
 slaying 1010542567
+msg
+This key opens the doors between the towers in the Nurnberg Reception Towers.
+endmsg
 x 6
 y 10
 end
@@ -814,7 +817,12 @@ x 7
 y 4
 end
 arch key2
+name shimmering key
 slaying 77497772343
+msg
+This key is from the Electricity section of the Reception Towers in Nurnberg.
+It unlocks special treasure.
+endmsg
 x 7
 y 4
 end

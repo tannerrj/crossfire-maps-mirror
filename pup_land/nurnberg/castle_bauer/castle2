@@ -8,7 +8,7 @@ enter_x 20
 enter_y 7
 msg
 Created:  1996-03-04
-Modified: 2015-04-18 Jason Zheng
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch blocked
@@ -332,6 +332,9 @@ carrying 90
 arch key2
 name Elevator Key
 slaying 551110551110
+msg
+This key opens the elevator in Castle Bauer in Nurnberg.
+endmsg
 end
 end
 arch dungeon_floor

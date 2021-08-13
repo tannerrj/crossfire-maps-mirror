@@ -8,7 +8,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-08-13 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -1645,6 +1645,9 @@ arch key2
 name Hermes' Key
 name_pl Hermes' Keys
 slaying Hermes Key
+msg
+This key was taken from the hill giant Billy in the Hermes Inn beside the Golden Brick Road.
+endmsg
 end
 end
 arch grass

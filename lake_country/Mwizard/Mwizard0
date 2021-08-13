@@ -9,7 +9,7 @@ enter_x 14
 enter_y 16
 msg
 Created:  1995-03-24
-Modified: 2012-03-21 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -616,6 +616,9 @@ carrying 100
 arch key2
 name a Big Key
 slaying 135
+msg
+This key was taken from the ugly gnome in the first level of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone

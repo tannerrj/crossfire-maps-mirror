@@ -9,7 +9,7 @@ enter_x 25
 enter_y 1
 msg
 Created:  2002-02-18 Mikeeusa
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch invis_exit
@@ -28825,11 +28825,11 @@ x 55
 y 11
 carrying 100
 arch key2
-name room key - 109
-name_pl room keys - 109
+name Room Key (Rm 109)
+name_pl Room Keys (Rm 109)
 slaying 109
 msg
-room key - 109
+This key was taken from the high roller wizard in the Western Navar Tavern. It opens a room there.
 endmsg
 end
 arch random_wealth
@@ -34526,6 +34526,9 @@ arch key2
 name house key
 name_pl house keys
 slaying scornmlabhouse193
+msg
+You are the owner of the little house southeast of the Western Navar Tavern.
+endmsg
 x 67
 y 49
 unique 1
@@ -44338,6 +44341,9 @@ arch key2
 name house key (copy)
 name_pl house keys (copy)
 slaying scornmlabhouse193
+msg
+You are the owner of the little house southeast of the Western Navar Tavern.
+endmsg
 x 84
 y 62
 end

@@ -8,7 +8,7 @@ enter_x 1
 enter_y 14
 msg
 Created:  1993-10-19
-Modified: 2008-12-21 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch pstone_1
@@ -691,6 +691,9 @@ carrying 100
 arch key2
 name Air Key
 slaying ra-gar-air
+msg
+This key is from the Castle of Ra-Gar.
+endmsg
 end
 end
 arch pstone_1

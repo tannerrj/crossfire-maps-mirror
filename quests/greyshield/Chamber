@@ -9,7 +9,7 @@ enter_x 11
 enter_y 13
 msg
 Created:  1996-10-25 Chris Jeske
-Modified: 2008-12-21 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -4685,6 +4685,9 @@ carrying 100
 arch key2
 name Carlos' key
 slaying Carlos
+msg
+This is the heart of the balrog Carlos from the Grey Castle.
+endmsg
 end
 end
 arch swall_1_4
@@ -4708,6 +4711,9 @@ carrying 100
 arch key2
 name Pedro's key
 slaying Pedro
+msg
+This is the heart of the balrog Pedro from the Grey Castle.
+endmsg
 end
 end
 arch swall_1_4
@@ -4731,6 +4737,9 @@ carrying 100
 arch key2
 name Carlos' key
 slaying Carlos
+msg
+This is the heart of the balrog Carlos from the Grey Castle.
+endmsg
 end
 end
 arch swall_1_4
@@ -4754,6 +4763,9 @@ carrying 100
 arch key2
 name Pedro's key
 slaying Pedro
+msg
+This is the heart of the balrog Pedro from the Grey Castle.
+endmsg
 end
 end
 arch swall_1_4
@@ -4946,6 +4958,9 @@ connected 5
 end
 arch EDK
 name Juan
+msg
+This is the heart of the Dread Knight Juan from the Grey Castle.
+endmsg
 x 30
 y 2
 carrying 100
@@ -4975,6 +4990,9 @@ carrying 100
 arch key2
 name Amal's key
 slaying Amal
+msg
+This is the heart of the Dread Knight Amal from the Grey Castle.
+endmsg
 end
 end
 arch swall_2_1_2
@@ -4998,6 +5016,9 @@ carrying 100
 arch key2
 name Juan's key
 slaying Juan
+msg
+This is the heart of the Dread Knight Juan from the Grey Castle.
+endmsg
 end
 end
 arch swall_2_1_2
@@ -5021,6 +5042,9 @@ carrying 100
 arch key2
 name Amal's key
 slaying Amal
+msg
+This is the heart of the Dread Knight Amal from the Grey Castle.
+endmsg
 end
 end
 arch swall_2_1_2

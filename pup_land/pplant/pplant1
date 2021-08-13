@@ -8,7 +8,7 @@ enter_x 10
 enter_y 21
 msg
 Created:  1996-02-04
-Modified: 2013-03-18 Kevin Zheng
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -2056,6 +2056,9 @@ unaggressive 1
 arch key2
 name zombie key
 slaying 1235567
+msg
+This key was taken from the floor chief zombie on the first floor of the Pupland Power Plant.
+endmsg
 end
 end
 arch cobblestones2

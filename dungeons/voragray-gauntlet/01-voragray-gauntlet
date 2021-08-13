@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2017-06-30 Rick Tanner
-Modified: 2021-06-05 Nicolas Weeger
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -594,9 +594,13 @@ arch generate_scorpion
 x 3
 y 21
 arch key2
-name Voragray's brown strange key
+name Voragray's brown key
 name_pl Voragray's brown strange keys
 slaying voragray-brown01
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+endmsg
 end
 end
 arch flagstone
@@ -2800,9 +2804,13 @@ arch generate_scorpion
 x 21
 y 3
 arch magenta_key
-name Voragray's magenta strange key
+name Voragray's magenta key
 name_pl Voragray's magenta strange keys
 slaying voragray-magenta01
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+endmsg
 end
 end
 arch pstone_1
@@ -2885,7 +2893,12 @@ arch generate_scorpion
 x 21
 y 21
 arch white_key
+name Voragray's white key
 slaying voragray-white01
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+endmsg
 end
 end
 arch flagstone

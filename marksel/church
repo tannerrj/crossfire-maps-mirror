@@ -8,7 +8,7 @@ enter_x 5
 enter_y 10
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2012-02-10 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -479,6 +479,9 @@ carrying 31802
 arch key2
 name church key
 slaying 4
+msg
+This key was taken from a priest in the Valriel church of Marksel.
+endmsg
 end
 arch w_glass
 end

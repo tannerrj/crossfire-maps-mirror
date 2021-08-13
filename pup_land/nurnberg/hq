@@ -8,7 +8,7 @@ enter_x 9
 enter_y 17
 msg
 Created:  1996-04-03
-Modified: 2017-06-02 jason
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -1217,10 +1217,17 @@ can_use_weapon 0
 arch key2
 name general's key
 slaying lickmond_hq_key
+msg
+This key was taken from Lickmond the general in the Headquarters of the Regular Army in Pupland.
+It opens one of the armories.
+endmsg
 end
 arch key2
 name Lickmond's head
 slaying dead_lickmond
+msg
+This is the head of Lickmond the general in the Headquarters of the Regular Army in Pupland.
+endmsg
 face head.111
 value 300
 weight 10000

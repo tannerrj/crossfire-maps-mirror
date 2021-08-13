@@ -8,7 +8,7 @@ enter_x 30
 enter_y 17
 msg
 Created:  1995-05-01 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch button_plate
@@ -2269,6 +2269,9 @@ carrying 100
 arch key2
 name Heart of Joey
 slaying Heart_Joey
+msg
+It was taken from Grunter the demon in the third level of the Towers of Luck in Lord Butakis's Fortress.
+endmsg
 face pyro_gen.111
 end
 end

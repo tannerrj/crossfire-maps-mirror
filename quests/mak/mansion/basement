@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2008-12-22 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch pstone_2
@@ -2319,6 +2319,9 @@ y 17
 end
 arch key2
 slaying mansion key 1
+msg
+This key is from the mansion of the Warriors' Tower.
+endmsg
 x 16
 y 17
 end

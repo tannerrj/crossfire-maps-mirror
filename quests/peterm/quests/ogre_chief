@@ -8,7 +8,7 @@ enter_x 6
 enter_y 6
 msg
 Created:  2000-06-17
-Modified: 2012-02-11 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -416,7 +416,12 @@ y 24
 speed_left -0.340000
 carrying 18100
 arch key2
+name mad key
 slaying 1335937847
+msg
+This key is from the cave of the Ogre Chief near Scorn.
+It opens the chest there.
+endmsg
 end
 arch skill_throwing
 end

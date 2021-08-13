@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created:  1996-09-16 Chris Jeske
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woods_3
@@ -2645,6 +2645,9 @@ end
 arch key2
 name Ring of Seals
 slaying King
+msg
+This seal ring is from the Grey Castle.
+endmsg
 face ring_drain.111
 x 15
 y 7

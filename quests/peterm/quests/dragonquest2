@@ -8,7 +8,7 @@ enter_x 2
 enter_y 2
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2014-03-28 Kevin Zheng
+Modified: 2021-07-26 Saiapatsu
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -2665,7 +2665,11 @@ x 11
 y 32
 carrying 100
 arch key2
+name dragon key
 slaying SecondDoor
+msg
+This key is from the Dragonlord's Lair in the mountains near Scorn.
+endmsg
 end
 end
 arch pstone_2
@@ -4832,7 +4836,11 @@ x 20
 y 37
 end
 arch key2
+name dragon key
 slaying ThirdDoor
+msg
+This key is from the Dragonlord's Lair in the mountains near Scorn.
+endmsg
 x 20
 y 37
 end
@@ -7141,7 +7149,11 @@ x 31
 y 18
 carrying 100
 arch key2
+name dragon key
 slaying LastDoor
+msg
+This key is from the Dragonlord's Lair in the mountains near Scorn.
+endmsg
 end
 end
 arch pstone_1
@@ -7932,7 +7944,11 @@ x 34
 y 35
 carrying 100
 arch key2
+name dragon key
 slaying FourthDoor
+msg
+This key is from the Dragonlord's Lair in the mountains near Scorn.
+endmsg
 end
 end
 arch pstone_1
@@ -8470,7 +8486,11 @@ x 37
 y 10
 end
 arch key2
+name dragon key
 slaying FirstDoor
+msg
+This key is from the Dragonlord's Lair in the mountains near Scorn.
+endmsg
 x 37
 y 10
 end

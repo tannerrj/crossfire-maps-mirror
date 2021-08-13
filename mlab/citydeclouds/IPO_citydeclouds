@@ -9,7 +9,7 @@ enter_x 10
 enter_y 20
 msg
 Created:  2004-07-29 Mikeeusa
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -8355,6 +8355,9 @@ arch key2
 name apartment key
 name_pl apartment keys
 slaying ipocdcapart101
+msg
+You are the owner of an apartment in the house next door to the City de Clouds IPO.
+endmsg
 x 35
 y 8
 unique 1
@@ -8850,6 +8853,9 @@ arch key2
 name apartment key
 name_pl apartment keys
 slaying ipocdcapart102
+msg
+You are the owner of an apartment in the house next door to the City de Clouds IPO.
+endmsg
 x 37
 y 8
 unique 1
@@ -9348,6 +9354,9 @@ arch key2
 name apartment key
 name_pl apartment keys
 slaying ipocdcapart103
+msg
+You are the owner of an apartment in the house next door to the City de Clouds IPO.
+endmsg
 x 39
 y 8
 unique 1

@@ -9,7 +9,7 @@ enter_x 13
 enter_y 13
 msg
 Created:  2002-02-25 mikeeusa
-Modified: 2012-02-17 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -354,6 +354,9 @@ y 11
 carrying 100
 arch key2
 slaying tttower274
+msg
+This key was taken from the dragons on the twenty seventh level of the Western Navar Tower.
+endmsg
 face key_blue.111
 end
 end
@@ -2638,6 +2641,9 @@ y 21
 carrying 100
 arch key2
 slaying tttower271
+msg
+This key was taken from the dragons on the twenty seventh level of the Western Navar Tower.
+endmsg
 face key_blue.111
 end
 end
@@ -2693,6 +2699,9 @@ y 1
 carrying 100
 arch key2
 slaying tttower273
+msg
+This key was taken from the dragons on the twenty seventh level of the Western Navar Tower.
+endmsg
 face key_blue.111
 end
 end
@@ -5170,6 +5179,9 @@ y 11
 carrying 100
 arch key2
 slaying tttower272
+msg
+This key was taken from the dragons on the twenty seventh level of the Western Navar Tower.
+endmsg
 face key_blue.111
 end
 end

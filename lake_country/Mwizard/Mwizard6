@@ -8,7 +8,7 @@ enter_x 2
 enter_y 2
 msg
 Created:  1995-04-26
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-28 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -970,6 +970,9 @@ carrying 100
 arch key2
 name Ying
 slaying ying
+msg
+This key was taken from the demon Oppie on the 6th floor of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone
@@ -2303,6 +2306,9 @@ carrying 100
 arch key2
 name Yang
 slaying yang
+msg
+This key was taken from the demon Fonz on the 6th floor of the Tower of Sorcery in Lake Country.
+endmsg
 end
 end
 arch flagstone

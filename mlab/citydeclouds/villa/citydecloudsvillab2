@@ -9,7 +9,7 @@ enter_x 17
 enter_y 30
 msg
 Created:  2003-08-17 mikeeusa
-Modified: 2011-11-07 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -5521,7 +5521,11 @@ x 13
 y 30
 end
 arch key2
+name villa safe key
 slaying sfevcdcb2etc
+msg
+You are the owner of the safe in the basement of the villa in City de Clouds.
+endmsg
 face key_brown.111
 x 13
 y 30

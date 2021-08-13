@@ -8,7 +8,7 @@ enter_x 7
 enter_y 6
 msg
 Created:  1994-06-10 langley (langley@fermat.dartmouth.edu)
-Modified: 2011-11-23 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch small_stones
@@ -572,6 +572,9 @@ y 1
 end
 arch gem
 name moogly diamond
+msg
+This slick and smooth diamond was found in the hole in the sand on Tortola Island.
+endmsg
 x 6
 y 1
 end

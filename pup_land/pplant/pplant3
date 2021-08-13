@@ -8,7 +8,7 @@ enter_x 2
 enter_y 16
 msg
 Created:  1996-02-04
-Modified: 2013-02-13 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -2692,6 +2692,9 @@ end
 arch key2
 name wealth room key
 slaying 536475
+msg
+This key was found in the secret area in the locked room on the third floor of the Pupland Power Plant.
+endmsg
 x 14
 y 16
 end
@@ -3513,6 +3516,9 @@ y 17
 arch key2
 name wraith key
 slaying pplant_wraith_key
+msg
+This key was taken from the wraith in Nazgul's room in the Pupland Power Plant.
+endmsg
 end
 end
 arch cobblestones2
@@ -3625,6 +3631,9 @@ unaggressive 1
 arch key2
 name wraith key
 slaying 934521
+msg
+This key was taken from the floor chief wraith on the third floor of the Pupland Power Plant.
+endmsg
 end
 end
 arch cobblestones2

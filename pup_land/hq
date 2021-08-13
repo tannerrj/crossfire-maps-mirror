@@ -8,7 +8,7 @@ enter_x 10
 enter_y 34
 msg
 Created:  1996-02-14
-Modified: 2012-04-05 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch pstone_1
@@ -2295,6 +2295,9 @@ can_use_skill 0
 arch key2
 name General Key
 slaying 94511055
+msg
+This key was taken from Alex, the general of the Liberation Army in its headquarters.
+endmsg
 end
 end
 arch cobblestones2

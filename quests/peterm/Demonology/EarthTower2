@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1994-04-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2012-03-11 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -370,7 +370,11 @@ x 3
 y 3
 end
 arch key2
+name earth key
 slaying Earth
+msg
+This key is from the Tower of Demonology.
+endmsg
 x 3
 y 3
 end

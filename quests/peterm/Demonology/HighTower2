@@ -8,7 +8,7 @@ enter_x 6
 enter_y 5
 msg
 Created:  1994-05-30 PeterM (peterm@soda.berkeley.edu)
-Modified: 2008-12-22 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -132,7 +132,11 @@ x 1
 y 7
 carrying 100
 arch key2
+name Balrog's key
 slaying Bkey
+msg
+This key is from the Tower of Demonology.
+endmsg
 end
 end
 arch woodfloor

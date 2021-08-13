@@ -8,7 +8,7 @@ enter_x 27
 enter_y 15
 msg
 Created:  1993-11-12
-Modified: 2014-06-16 jwright
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -309,6 +309,9 @@ arch NPCGift
 arch blue_key
 name Navar lighthouse key
 slaying navar_lightkey
+msg
+This key was given by a man trapped in the fourth warehouse in the port of Navar by the smugglers.
+endmsg
 end
 end
 arch npc_dialog

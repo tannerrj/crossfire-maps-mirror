@@ -9,7 +9,7 @@ enter_x 1
 enter_y 14
 msg
 Created:  1997-06-07 PeterM (peterm@soda.csua.berkeley.edu)
-Modified: 2012-03-12 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch pstone_1
@@ -911,7 +911,11 @@ x 3
 y 29
 carrying 100
 arch key2
+name fire key
 slaying firedoor2
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch pstone_1
@@ -4388,7 +4392,11 @@ x 20
 y 1
 carrying 100
 arch key2
+name fire key
 slaying firedoor
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch pstone_1
@@ -5887,7 +5895,11 @@ weight 70000
 randomitems imp
 see_invisible 0
 arch key2
+name fire key
 slaying firedoor3
+msg
+This key is from the Fire Temple.
+endmsg
 end
 end
 arch pstone_1

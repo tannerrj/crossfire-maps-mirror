@@ -8,7 +8,7 @@ enter_x 9
 enter_y 18
 msg
 Created:  1996-01-29
-Modified: 2020-09-09 Nicolas Weeger
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch afloor_right
@@ -1497,6 +1497,10 @@ unaggressive 0
 arch key2
 name president's key
 slaying presidents_key
+msg
+This key was taken from the president of the Lone Town branch of the Bank of Skud.
+It opens the employees only door.
+endmsg
 end
 end
 arch afloor_right

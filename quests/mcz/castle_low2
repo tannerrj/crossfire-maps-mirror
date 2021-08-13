@@ -8,7 +8,7 @@ enter_x 26
 enter_y 1
 msg
 Created:  1993-10-19
-Modified: 2012-03-11 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch large_stones
@@ -308,6 +308,9 @@ carrying 100
 arch key2
 name large key
 slaying set_individual_value large
+msg
+This key is from the dungeon of the Castle of Ra-Gar.
+endmsg
 end
 end
 arch large_stones

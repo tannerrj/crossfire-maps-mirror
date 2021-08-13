@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  1995-04-04 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2021-01-17 SilverNexus
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -2736,11 +2736,17 @@ carrying 200
 arch key2
 name A pinch of magical dust, kinda different
 slaying 24
+msg
+This dust was taken from a powerful undead creature on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face paralyse.111
 end
 arch key2
 name dust of the Fierce Spectre
 slaying 301
+msg
+These are the remains of the Fierce Spectre on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face enchantment.111
 end
 end
@@ -4530,6 +4536,9 @@ carrying 1040
 arch key2
 name glowing magical dust
 slaying 23
+msg
+This dust was taken from an undead creature on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face paralyse.111
 nrof 10
 end
@@ -5170,6 +5179,9 @@ end
 arch key2
 name glowing magical dust
 slaying 23
+msg
+This dust was taken from an undead creature on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face paralyse.111
 x 16
 y 21
@@ -9658,6 +9670,9 @@ carrying 700
 arch key2
 name glowing magical dust
 slaying 23
+msg
+This dust was taken from an undead creature on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face paralyse.111
 nrof 7
 end
@@ -10191,6 +10206,9 @@ carrying 1000
 arch key2
 name glowing magical dust
 slaying 23
+msg
+This dust was taken from an undead creature on the third floor of Lord Butakis's Elite Training Tower.
+endmsg
 face paralyse.111
 nrof 10
 end

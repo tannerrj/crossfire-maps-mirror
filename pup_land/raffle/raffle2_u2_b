@@ -10,7 +10,7 @@ enter_x 2
 enter_y 11
 msg
 Created:  1997-03-30
-Modified: 2008-10-25 Rick Tanner
+Modified: 2021-07-28 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -4257,7 +4257,11 @@ x 27
 y 9
 carrying 100
 arch key2
+name spectre's key
 slaying raffle2_u2_spectre_door
+msg
+This key is from Pupland Raffle 2.
+endmsg
 end
 end
 arch flagstone

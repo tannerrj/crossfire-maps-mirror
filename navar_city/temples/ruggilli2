@@ -8,7 +8,7 @@ enter_x 4
 enter_y 6
 msg
 Created:  2003-12-13 Avion
-Modified: 2012-02-19 Rick Tanner
+Modified: 2021-07-28 Saiapatsu
 With kudos to DH
 endmsg
 end
@@ -2058,8 +2058,11 @@ speed 0.0
 connected 20
 end
 arch key2
-name key
+name burning key
 slaying rugkey1
+msg
+This key is from the testing grounds under the Temple of Ruggilli in Navar.
+endmsg
 x 11
 end
 arch blocked
@@ -4808,6 +4811,7 @@ x 26
 y 13
 end
 arch locked_door2
+name burning door
 slaying rugkey1
 x 26
 y 13

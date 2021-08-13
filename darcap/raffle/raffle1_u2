@@ -10,7 +10,7 @@ enter_x 2
 enter_y 2
 msg
 Date: 2008-02-29
-Modified: 2008-10-21 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -2323,6 +2323,9 @@ end
 arch key2
 name cursed key
 slaying darcap_raffle_u2_door
+msg
+This key was found under a generator on the second level of the Darcap Raffle.
+endmsg
 x 19
 y 6
 end
@@ -2373,6 +2376,9 @@ end
 arch key2
 name treasure key
 slaying darcap_raffle_u3_treasure_door
+msg
+This key was found under a generator on the second level of the Darcap Raffle.
+endmsg
 x 19
 y 12
 end

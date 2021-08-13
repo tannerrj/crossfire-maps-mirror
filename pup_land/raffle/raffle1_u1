@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Created:  1997-02-24
-Modified: 2010-10-17 Nicolas Weeger
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch blocked
@@ -355,6 +355,9 @@ carrying 100
 arch key2
 name orc key
 slaying raffle_u1_door1
+msg
+This key was taken from an orc on the first level of Pupland Raffle 1.
+endmsg
 end
 end
 arch cobblestones2
@@ -2054,8 +2057,11 @@ y 2
 speed 0.100000
 carrying 100
 arch key2
-name Orc key
+name orc key
 slaying raffle_u1_door2
+msg
+This key was taken from an orc on the first level of Pupland Raffle 1.
+endmsg
 end
 end
 arch cobblestones2

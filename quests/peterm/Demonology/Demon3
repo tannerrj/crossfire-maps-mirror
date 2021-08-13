@@ -8,7 +8,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  1994-05-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -1610,11 +1610,17 @@ carrying 200
 arch key2
 name a burning ember
 slaying Fire_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face burnout.111
 end
 arch key2
 name a burning ember
 slaying Fire_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face burnout.111
 end
 end
@@ -1956,11 +1962,17 @@ carrying 200
 arch key2
 name a vial of strange water
 slaying Water_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face water.111
 end
 arch key2
 name a vial of strange water
 slaying Water_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face water.111
 end
 end
@@ -1989,11 +2001,17 @@ carrying 200
 arch key2
 name a handful of earth
 slaying Earth_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face dirt.111
 end
 arch key2
 name a handful of earth
 slaying Earth_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face dirt.111
 end
 end
@@ -2270,11 +2288,17 @@ carrying 200
 arch key2
 name a small vortex
 slaying Air_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face stalker.111
 end
 arch key2
 name a small vortex
 slaying Air_up
+msg
+This is from the Tower of Demonology.
+endmsg
 face stalker.111
 end
 end

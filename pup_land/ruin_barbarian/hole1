@@ -9,7 +9,7 @@ enter_x 2
 enter_y 29
 msg
 Created:  1997-02-27
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-08-13 Saiapatsu
 endmsg
 end
 arch pstone_2
@@ -1742,6 +1742,9 @@ unaggressive 1
 arch key2
 name Light Boulder
 slaying barbarian_useless
+msg
+This stone was removed from the mysterious altar beside the door in the buried house found by an archaeologist in Pupland.
+endmsg
 face boulder.111
 value 1
 weight 3159

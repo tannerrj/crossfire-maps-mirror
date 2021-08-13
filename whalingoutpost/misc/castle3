@@ -9,7 +9,7 @@ enter_x 13
 enter_y 12
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-11-14 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -6749,7 +6749,11 @@ x 34
 y 51
 carrying 100
 arch key2
+name frozen key
 slaying castle2key2
+msg
+This key is from the gate tower of the Glacier Keep on the south pole.
+endmsg
 end
 end
 arch flagstone
@@ -11408,7 +11412,11 @@ x 57
 y 57
 carrying 100
 arch key2
+name snowy key
 slaying castle2key1
+msg
+This key is from the southeastern tower of the Glacier Keep on the south pole.
+endmsg
 end
 end
 arch flagstone

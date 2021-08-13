@@ -9,7 +9,7 @@ enter_x 22
 enter_y 13
 msg
 Created:  1995-01-03 bt (thomas@nomad.astro.psu.edu)
-Modified: 2012-03-29 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -2069,10 +2069,18 @@ y 5
 carrying 200
 no_pick 1
 arch key2
+name shrine key
 slaying sdoor3
+msg
+This key was found in a chest in the Evil Shrine in the Valley of the Three Sisters.
+endmsg
 end
 arch key2
+name shrine key
 slaying sdoor4
+msg
+This key was found in a chest in the Evil Shrine in the Valley of the Three Sisters.
+endmsg
 end
 end
 arch cobblestones2

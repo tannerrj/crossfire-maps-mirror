@@ -8,7 +8,7 @@ enter_x 2
 enter_y 27
 msg
 Created:  1996-09-16 Chris Jeske
-Modified: 2012-03-09 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch medium_stones
@@ -6393,7 +6393,11 @@ x 23
 y 1
 end
 arch key2
+name factory key
 slaying factory
+msg
+This key is from the factory in the Grey Castle.
+endmsg
 x 23
 y 1
 end
@@ -8392,6 +8396,9 @@ end
 arch key2
 name iron chalice
 slaying chalice
+msg
+This important chalice is from the factory in the Grey Castle.
+endmsg
 face chalice.111
 x 30
 y 30

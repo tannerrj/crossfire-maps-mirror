@@ -9,7 +9,7 @@ enter_x 30
 enter_y 25
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-02-14 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -3828,7 +3828,11 @@ y 16
 level 90
 run_away 10
 arch key2
+name blue key
 slaying bluemarquiskeyl4cwdc
+msg
+This key was taken from Dar^Mentho the nazgul in the Castle of the Marquis.
+endmsg
 face key_blue.111
 no_steal 1
 end

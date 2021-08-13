@@ -10,7 +10,7 @@ enter_x 54
 enter_y 48
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2014-10-11 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch light4
@@ -37672,7 +37672,11 @@ carrying 100
 unaggressive 0
 sleep 0
 arch key2
+name jailer's key
 slaying jailupdoorcasb1
+msg
+This key was taken from the jailer in the Cloud World Castle dungeon.
+endmsg
 end
 end
 arch stonefloor2
@@ -67233,6 +67237,9 @@ carrying 100
 arch key2
 name castle key
 slaying castlecwdcb1
+msg
+This key was taken from an ancient red dragon just under Cloud World Castle.
+endmsg
 end
 end
 arch pstone_1

@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2015-12-22 Kevin Zheng
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2A
@@ -16149,7 +16149,11 @@ x 42
 y 32
 end
 arch key2
+name vault hall key
 slaying cdcvaulthall1k
+msg
+You have access to the vaults in the CityDeClouds branch of the First World Bank.
+endmsg
 face key_brown.111
 x 42
 y 32

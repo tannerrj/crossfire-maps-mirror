@@ -8,7 +8,7 @@ enter_x 11
 enter_y 1
 msg
 Created:  2003-04-27 Avion
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -507,8 +507,8 @@ arch quarterstaff
 name Gramp's walking stick
 slaying Gramp's walking stick
 msg
-This staff says:
-Prpty of G Malone - hands off.
+This walking stick was found in #3 Riverside Manor under the table.
+"Prpty of G Malone - hands off." is written on it.
 endmsg
 x 2
 y 21
@@ -1640,6 +1640,9 @@ arch key2
 name Esmeralda
 title the Goose
 slaying EsmeraldaTheGoose
+msg
+It's Esmerelda! Return her to Oled.
+endmsg
 face goose.131
 animation goose
 x 9
@@ -1954,7 +1957,8 @@ name apartment key
 name_pl apartment keys
 slaying hovel_key
 msg
-#2 Riverside Manor
+This key is from Amy's house in Scorn.
+It is labeled #2 Riverside Manor.
 endmsg
 x 11
 y 19
@@ -3414,7 +3418,8 @@ arch key2
 name key
 slaying BZA_whitedoor
 msg
-B. A. #1
+This key was taken from the body of Mr. White in the bushes of Riverside Manor.
+It is labeled B. A. #1
 endmsg
 face key_blue.111
 end

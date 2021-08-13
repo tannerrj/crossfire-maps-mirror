@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2015-11-28 Kevin Zheng
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 tile_path_3 citydeclouds2H
@@ -10799,6 +10799,10 @@ arch key2
 name Fountain Key
 name_pl Fountain Keys
 slaying foucdc2ttvnb3
+msg
+This key was in the fountain of the villa in City de Clouds.
+It allows entering the villa through the basement of the Navar tower tavern.
+endmsg
 face key_blue.111
 x 22
 y 31
@@ -14218,6 +14222,9 @@ arch key2
 name Guest Key
 name_pl Guest Keys
 slaying guestcdcmlab
+msg
+This is a guest key of the villa in City de Clouds.
+endmsg
 face key_brown.111
 x 28
 y 22

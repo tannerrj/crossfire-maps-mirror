@@ -8,7 +8,7 @@ enter_x 6
 enter_y 12
 msg
 Created:  1996-06-14
-Modified: 2008-10-27 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch blocked
@@ -573,10 +573,16 @@ carrying 200
 arch key2
 name dread key
 slaying dread
+msg
+This key was taken from the Dread on the second level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 arch key2
 name BlackMind key
 slaying black
+msg
+This key was taken from the Dread on the second level of the temple of the four heroes in Rainbow Island.
+endmsg
 end
 end
 arch cobblestones2

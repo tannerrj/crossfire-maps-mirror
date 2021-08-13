@@ -8953,7 +8953,11 @@ x 27
 y 31
 carrying 100
 arch key2
+name dark elf's key
 slaying 20
+msg
+This key was taken from a dark elf in Lord Butakis's Elite Training Tower.
+endmsg
 end
 end
 arch dungeon_floor
@@ -10307,7 +10311,11 @@ x 31
 y 19
 carrying 100
 arch key2
+name dark elf's key
 slaying 21
+msg
+This key was taken from a dark elf in Lord Butakis's Elite Training Tower.
+endmsg
 end
 end
 arch dungeon_floor

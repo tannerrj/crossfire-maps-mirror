@@ -9,7 +9,7 @@ enter_x 11
 enter_y 5
 msg
 Created:  1996-02-21
-Modified: 2019-03-03 DraugTheWhopper
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -519,6 +519,10 @@ end
 arch key2
 name white key
 slaying 7749777716
+msg
+This key is from the Water section of the Reception Towers in Nurnberg.
+It unlocks special treasure.
+endmsg
 x 4
 y 1
 end

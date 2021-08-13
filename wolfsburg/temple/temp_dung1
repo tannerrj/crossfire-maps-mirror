@@ -7,7 +7,7 @@ height 37
 enter_x 1
 enter_y 1
 msg
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch small_stones
@@ -2900,6 +2900,9 @@ end
 arch key2
 name cold key
 slaying shit
+msg
+This key is from the Reticent Temple on the jungle island south of Wolfsburg.
+endmsg
 x 12
 y 29
 end
@@ -4236,6 +4239,9 @@ end
 arch key2
 name warm key
 slaying pooh
+msg
+This key is from the Reticent Temple on the jungle island south of Wolfsburg.
+endmsg
 x 18
 y 22
 end
@@ -6262,6 +6268,9 @@ end
 arch key2
 name cold key
 slaying shit
+msg
+This key is from the Reticent Temple on the jungle island south of Wolfsburg.
+endmsg
 x 27
 y 24
 end
@@ -9989,6 +9998,9 @@ end
 arch key2
 name warm key
 slaying pooh
+msg
+This key is from the Reticent Temple on the jungle island south of Wolfsburg.
+endmsg
 x 44
 y 28
 end
@@ -10023,6 +10035,9 @@ end
 arch key2
 name cold key
 slaying shit
+msg
+This key is from the Reticent Temple on the jungle island south of Wolfsburg.
+endmsg
 x 44
 y 35
 end

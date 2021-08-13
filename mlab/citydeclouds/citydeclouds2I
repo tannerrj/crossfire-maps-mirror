@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2016-06-30 Rick Tanner
+Modified: 2021-07-28 Saiapatsu
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2H
@@ -17308,7 +17308,12 @@ speed 0.000000
 connected 7702
 end
 arch key2
+name mission key
 slaying cdcexittomystarea1ky
+msg
+This key allows exiting City de Clouds under the cloud surface outside the walls, where a strike force of dragons is expected to wait.
+This quest was removed.
+endmsg
 x 45
 y 48
 end

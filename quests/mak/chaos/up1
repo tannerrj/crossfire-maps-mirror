@@ -9,7 +9,7 @@ enter_x 10
 enter_y 12
 msg
 Created:  2000-04-09 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-04-14 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 maplore
 @quest Lorkas
@@ -2958,6 +2958,9 @@ y 11
 arch key2
 name a sharpedged key
 slaying up1-2 key
+msg
+This key is from the Warriors' Tower.
+endmsg
 end
 end
 arch cobblestones

@@ -9,7 +9,7 @@ enter_x 28
 enter_y 16
 msg
 Created:  2002-02-19 mikeeusa
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass_only
@@ -2110,6 +2110,9 @@ arch key2
 name Room Key (Rm 106)
 name_pl Room Keys (Rm 106)
 slaying 106
+msg
+This key opens a room in the Western Navar Tavern.
+endmsg
 x 8
 y 21
 end
@@ -2129,6 +2132,9 @@ arch key2
 name Room Key (Rm 105)
 name_pl Room Keys (Rm 105)
 slaying 105
+msg
+This key opens a room in the Western Navar Tavern.
+endmsg
 x 8
 y 23
 end
@@ -2148,6 +2154,9 @@ arch key2
 name Room Key (Rm 102)
 name_pl Room Keys (Rm 102)
 slaying 102
+msg
+This key opens a room in the Western Navar Tavern.
+endmsg
 x 8
 y 25
 end
@@ -2167,6 +2176,9 @@ arch key2
 name Master Suite Key (Rm 103)
 name_pl Master Suite Keys (Rm 103)
 slaying 103
+msg
+This key opens a room in the Western Navar Tavern.
+endmsg
 x 8
 y 27
 end
@@ -10830,6 +10842,9 @@ y 11
 end
 arch key2
 slaying tav2strrmfmnyns
+msg
+You are the owner of the strongroom in the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 38
 y 11

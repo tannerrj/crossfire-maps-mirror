@@ -13,7 +13,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  1996-04-28 b.t. (thomas@astro.psu.edu)
-Modified: 2012-04-11 Nicolas Weeger
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass
@@ -2693,6 +2693,9 @@ end
 arch key2
 name navar library key
 slaying navar_rare_books
+msg
+This key was bought from the Navar City Library and opens the door in the back.
+endmsg
 x 15
 y 13
 value 5000

@@ -9,7 +9,7 @@ enter_x 18
 enter_y 20
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-06-17 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch cobblestones2
@@ -1047,6 +1047,9 @@ arch key2
 name antarctic castle key
 name_pl antarctic castle keys
 slaying castle1antarctickey1234bb2
+msg
+This key was taken from a Navarian who was suspected to "hold information pertaining to the Jade Chest" by a spy of Azumaindo.
+endmsg
 face key_blue.111
 end
 end

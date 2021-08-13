@@ -8,7 +8,7 @@ enter_x 3
 enter_y 16
 msg
 Created:  1994-11-14
-Modified: 2019-02-22 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch cobblestones
@@ -6659,6 +6659,9 @@ nrof 5
 end
 arch key2
 slaying 1
+msg
+This key is from Lord Ramsdre's Mansion.
+endmsg
 end
 end
 arch dungeon_magic
@@ -7524,6 +7527,9 @@ y 25
 end
 arch key2
 slaying 1
+msg
+This key is from Lord Ramsdre's Mansion.
+endmsg
 x 25
 y 25
 end

@@ -8,7 +8,7 @@ enter_x 18
 enter_y 2
 msg
 Created:  1996-02-12
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-28 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -1205,6 +1205,9 @@ y 5
 carrying 100
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch marble
@@ -1333,6 +1336,9 @@ y 19
 carrying 100
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch flagstone
@@ -2157,6 +2163,9 @@ y 5
 carrying 100
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch dungeon_floor
@@ -3363,9 +3372,15 @@ y 23
 carrying 200
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch cobblestones2
@@ -3490,6 +3505,9 @@ y 5
 carrying 100
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch dungeon_magic
@@ -3658,6 +3676,9 @@ y 20
 carrying 100
 arch key2
 slaying 1
+msg
+This key is from the Dungeon of Life in Nurnberg.
+endmsg
 end
 end
 arch pstone_1
@@ -5837,6 +5858,9 @@ end
 arch key2
 name Expensive Key
 slaying 6472918
+msg
+This key opens one of the reward rooms in Dick's house.
+endmsg
 x 17
 y 15
 end
@@ -6236,6 +6260,10 @@ end
 arch key2
 name Treasure Key
 slaying treasure_heaven
+msg
+This key is from the Dungeon of Life in Nurnberg.
+It opens either the treasure room or the exit.
+endmsg
 x 18
 y 15
 end

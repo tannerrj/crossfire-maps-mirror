@@ -8,7 +8,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  1994-04-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2009-07-12 Andreas Kirschbaum
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -284,7 +284,11 @@ can_cast_spell 1
 arch spell_summon_earth_elemental
 end
 arch key2
+name Master Earth Summoner's key
 slaying EK
+msg
+This key is from the Tower of Demonology.
+endmsg
 end
 arch abil_slow
 end

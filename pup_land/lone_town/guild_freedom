@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1996-12-18
-Modified: 2015-04-17 Jason Zheng
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -1976,6 +1976,10 @@ end
 arch key2
 name Ordeal key
 slaying 432544
+msg
+This key was given by the Liberation Army recruiter in the Guild of Freedom in Lone Town.
+It admits entry into the Tower of Ordeal.
+endmsg
 x 19
 y 3
 end

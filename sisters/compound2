@@ -8,7 +8,7 @@ enter_x 1
 enter_y 6
 msg
 Created:  1994-12-26 bt (thomas@Nomad.astro.psu.edu)
-Modified: 2012-03-25 Nicolas Weeger
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1485,6 +1485,9 @@ carrying 28100
 arch key2
 name a gold plated key
 slaying gp_key
+msg
+This key was taken from Tagamart the cyclops in the large compound in the Valley of the Three Sisters.
+endmsg
 unique 1
 end
 arch skullcleaver

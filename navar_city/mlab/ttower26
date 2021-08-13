@@ -9,7 +9,7 @@ enter_x 21
 enter_y 12
 msg
 Created:  2002-02-25 mikeeusa
-Modified: 2012-03-21 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -180,6 +180,9 @@ arch key2
 name gold key
 name_pl gold keys
 slaying tttower28gldn
+msg
+This key was taken from a chest on the twenty sixth level of the Western Navar Tower.
+endmsg
 face key_brown.111
 end
 end

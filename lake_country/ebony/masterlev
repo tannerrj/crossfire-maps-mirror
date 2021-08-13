@@ -1978,6 +1978,9 @@ arch key2
 name Master key of thievery
 name_pl Master keys of thievery
 slaying Thievery
+msg
+This key grants access to the Thieves' Guild in Lake Country.
+endmsg
 nrof 1
 end
 arch spell_mass_confusion

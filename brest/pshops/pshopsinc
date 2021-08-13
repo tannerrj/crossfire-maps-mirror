@@ -6,7 +6,7 @@ width 36
 height 14
 msg
 Created:  2004-10-17 majorwoo (josh@woosworld.net)
-Modified: 2012-01-27 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -135,6 +135,9 @@ end
 arch key2
 name pshop1 key
 slaying pshop1
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 1
 y 1
 end
@@ -247,6 +250,9 @@ end
 arch key2
 name pshop15 key
 slaying pshop15
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 1
 y 9
 end
@@ -420,6 +426,9 @@ end
 arch key2
 name pshop2 key
 slaying pshop2
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 3
 y 1
 end
@@ -523,6 +532,9 @@ end
 arch key2
 name pshop16 key
 slaying pshop16
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 3
 y 9
 end
@@ -696,6 +708,9 @@ end
 arch key2
 name pshop3 key
 slaying pshop3
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 5
 y 1
 end
@@ -799,6 +814,9 @@ end
 arch key2
 name pshop17 key
 slaying pshop17
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 5
 y 9
 end
@@ -972,6 +990,9 @@ end
 arch key2
 name pshop4 key
 slaying pshop4
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 7
 y 1
 end
@@ -1075,6 +1096,9 @@ end
 arch key2
 name pshop18 key
 slaying pshop18
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 7
 y 9
 end
@@ -1248,6 +1272,9 @@ end
 arch key2
 name pshop5 key
 slaying pshop5
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 9
 y 1
 end
@@ -1351,6 +1378,9 @@ end
 arch key2
 name pshop19 key
 slaying pshop19
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 9
 y 9
 end
@@ -1524,6 +1554,9 @@ end
 arch key2
 name pshop6 key
 slaying pshop6
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 11
 y 1
 end
@@ -1627,6 +1660,9 @@ end
 arch key2
 name pshop20 key
 slaying pshop20
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 11
 y 9
 end
@@ -1800,6 +1836,9 @@ end
 arch key2
 name pshop7 key
 slaying pshop7
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 13
 y 1
 end
@@ -1903,6 +1942,9 @@ end
 arch key2
 name pshop21 key
 slaying pshop21
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 13
 y 9
 end
@@ -2079,6 +2121,9 @@ end
 arch key2
 name pshop8 key
 slaying pshop8
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 15
 y 1
 end
@@ -2356,6 +2401,9 @@ end
 arch key2
 name pshop9 key
 slaying pshop9
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 17
 y 1
 end
@@ -2459,6 +2507,9 @@ end
 arch key2
 name pshop22 key
 slaying pshop22
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 17
 y 9
 end
@@ -2632,6 +2683,9 @@ end
 arch key2
 name pshop10 key
 slaying pshop10
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 19
 y 1
 end
@@ -2735,6 +2789,9 @@ end
 arch key2
 name pshop23 key
 slaying pshop23
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 19
 y 9
 end
@@ -2908,6 +2965,9 @@ end
 arch key2
 name pshop11 key
 slaying pshop11
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 21
 y 1
 end
@@ -3011,6 +3071,9 @@ end
 arch key2
 name pshop24 key
 slaying pshop24
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 21
 y 9
 end
@@ -3184,6 +3247,9 @@ end
 arch key2
 name pshop12 key
 slaying pshop12
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 23
 y 1
 end
@@ -3287,6 +3353,9 @@ end
 arch key2
 name pshop25 key
 slaying pshop25
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 23
 y 9
 end
@@ -3460,6 +3529,9 @@ end
 arch key2
 name pshop13 key
 slaying pshop13
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 25
 y 1
 end
@@ -3563,6 +3635,9 @@ end
 arch key2
 name pshop26 key
 slaying pshop26
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 25
 y 9
 end
@@ -3736,6 +3811,9 @@ end
 arch key2
 name pshop14 key
 slaying pshop14
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 27
 y 1
 end
@@ -3839,6 +3917,9 @@ end
 arch key2
 name pshop27 key
 slaying pshop27
+msg
+You are the owner of a private shop in Brest.
+endmsg
 x 27
 y 9
 end

@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Date: 2008-02-29
-Modified: 2012-01-31 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch blocked
@@ -353,6 +353,9 @@ y 14
 arch key2
 name ghost key
 slaying darcap_raffle_u1_door1
+msg
+This key was taken from a ghost on the first level of the Darcap Raffle.
+endmsg
 end
 end
 arch cobblestones2
@@ -2074,8 +2077,11 @@ arch ghost
 x 18
 y 2
 arch key2
-name Ghost key
+name ghost key
 slaying darcap_raffle_u1_door2
+msg
+This key was taken from a ghost on the first level of the Darcap Raffle.
+endmsg
 end
 end
 arch cobblestones2

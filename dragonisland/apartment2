@@ -8,7 +8,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  1997-07-09
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch grass
@@ -784,6 +784,9 @@ end
 arch key2
 name key to private apartment
 slaying viohouse
+msg
+You are one of the owners of the apartment in the House With Apartment in Stoneville.
+endmsg
 x 7
 y 3
 end
@@ -795,6 +798,9 @@ end
 arch key2
 name key to private apartment
 slaying viohouse
+msg
+You are one of the owners of the apartment in the House With Apartment in Stoneville.
+endmsg
 x 7
 y 4
 end
@@ -907,6 +913,9 @@ end
 arch key2
 name key to private apartment
 slaying viohouse
+msg
+You are one of the owners of the apartment in the House With Apartment in Stoneville.
+endmsg
 x 8
 y 3
 end
@@ -918,6 +927,9 @@ end
 arch key2
 name key to private apartment
 slaying viohouse
+msg
+You are one of the owners of the apartment in the House With Apartment in Stoneville.
+endmsg
 x 8
 y 4
 end

@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2017-12-30 Rick Tanner
-Modified: 2021-06-05 Nicolas Weeger
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch flagstone
@@ -604,7 +604,13 @@ arch chest
 x 3
 y 21
 arch magenta_key
+name Voragray's second magenta key
 slaying voragray-magenta02
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+Holding this key reminds you of bitter failure.
+endmsg
 end
 end
 arch rune_paralysis
@@ -2905,7 +2911,13 @@ arch chest
 x 21
 y 3
 arch brown_key
+name Voragray's second brown key
 slaying voragray-brown02
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+Holding this key reminds you of bitter failure.
+endmsg
 end
 end
 arch rune_paralysis
@@ -3008,7 +3020,13 @@ arch chest
 x 21
 y 21
 arch white_key
+name Voragray's second white key
 slaying voragray-white02
+msg
+This key was found in the abandoned shrine in the mountains around the golden brick road southeast of Darcap.
+You remember taking an extraordinary golden nugget from the shrine.
+Holding this key reminds you of bitter failure.
+endmsg
 end
 end
 arch rune_paralysis

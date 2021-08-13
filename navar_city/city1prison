@@ -592,6 +592,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -1210,6 +1213,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -1902,6 +1908,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -2064,6 +2073,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -2139,6 +2151,9 @@ end
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 x 14
 y 5
 end
@@ -2169,6 +2184,9 @@ end
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 x 14
 y 10
 end
@@ -2293,14 +2311,23 @@ carrying 300
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -2347,6 +2374,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -2763,6 +2793,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -3067,6 +3100,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor
@@ -3089,6 +3125,9 @@ carrying 100
 arch key2
 name cell door key
 slaying set_individual_value cell
+msg
+This key opens a cell in the Navar Prison.
+endmsg
 end
 end
 arch dungeon_floor

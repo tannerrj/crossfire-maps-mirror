@@ -10,7 +10,7 @@ enter_x 54
 enter_y 24
 msg
 Created:  2002-02-20 mikeeusa
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-08-13 Saiapatsu
 endmsg
 end
 arch cave_15
@@ -6827,12 +6827,20 @@ name_pl permanent key rings
 carrying 180
 unique 1
 arch key2
+name safe key
 slaying keyxvsafe937
+msg
+This key is for the safe area in the Western Navar Tavern.
+endmsg
 face key_brown.111
 unique 1
 end
 arch key2
+name villa key
 slaying keyevm40ad34
+msg
+This key is for the villa in City de Clouds.
+endmsg
 face key_brown.111
 unique 1
 end
@@ -18319,6 +18327,9 @@ y 2
 end
 arch key2
 slaying srtaverb1mnyple1
+msg
+You are the owner of a strongroom hidden under and near the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 63
 y 2
@@ -18407,6 +18418,9 @@ y 9
 end
 arch key2
 slaying srtaverb1mnyple2
+msg
+You are the owner of a strongroom hidden under and near the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 63
 y 9
@@ -18495,6 +18509,9 @@ y 16
 end
 arch key2
 slaying srtaverb1mnyple3
+msg
+You are the owner of a strongroom hidden under and near the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 63
 y 16
@@ -18583,6 +18600,9 @@ y 23
 end
 arch key2
 slaying srtaverb1mnyple4
+msg
+You are the owner of a strongroom hidden under and near the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 63
 y 23
@@ -18671,6 +18691,9 @@ y 30
 end
 arch key2
 slaying srtaverb1mnyple5
+msg
+You are the owner of a strongroom hidden under and near the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 63
 y 30

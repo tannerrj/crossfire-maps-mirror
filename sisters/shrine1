@@ -9,7 +9,7 @@ enter_x 15
 enter_y 32
 msg
 Created:  1994-12-19 bt (thomas@nomad.astro.psu.edu)
-Modified: 2012-01-19 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -2753,6 +2753,9 @@ carrying 100
 arch key2
 name a key
 slaying eye_door
+msg
+This key was taken from Tarthia the black lamia in the Evil Shrine in the Valley of the Three Sisters.
+endmsg
 end
 end
 arch flagstone

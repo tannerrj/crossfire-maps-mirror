@@ -8,7 +8,7 @@ enter_x 10
 enter_y 49
 msg
 Created:  1993-11-17 Chris Hendelberg (hendel@ecst.csuchico.edu)
-Modified: 2012-04-14 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1219,7 +1219,11 @@ end
 arch spell_sm_lightning
 end
 arch key2
+name faerie key
 slaying ACID4
+msg
+This key is from the chamber of Nilplur the dragon northeast of Scorn.
+endmsg
 end
 end
 arch marble
@@ -2355,7 +2359,11 @@ can_use_armour 1
 can_use_weapon 1
 can_use_ring 1
 arch key2
+name Nilplur's key
 slaying ACID5
+msg
+This key is from the chamber of Nilplur the dragon northeast of Scorn.
+endmsg
 end
 arch quest_advance_death
 name quests/Nilplur 0-20>30
@@ -3187,7 +3195,11 @@ end
 arch spell_sm_lightning
 end
 arch key2
+name faerie key
 slaying ACID2
+msg
+This key is from the chamber of Nilplur the dragon northeast of Scorn.
+endmsg
 end
 end
 arch marble
@@ -3276,7 +3288,11 @@ x 10
 y 35
 end
 arch key2
+name raas key
 slaying ACID1
+msg
+This key is from the chamber of Nilplur the dragon northeast of Scorn.
+endmsg
 x 10
 y 35
 end
@@ -4998,7 +5014,11 @@ end
 arch spell_mass_confusion
 end
 arch key2
+name faerie key
 slaying ACID3
+msg
+This key is from the chamber of Nilplur the dragon northeast of Scorn.
+endmsg
 end
 end
 arch marble

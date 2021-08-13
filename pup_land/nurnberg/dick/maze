@@ -7,7 +7,7 @@ height 23
 enter_x 11
 msg
 Created:  1996-02-11
-Modified: 2008-10-11 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch grass
@@ -2014,6 +2014,9 @@ end
 arch key2
 name Silver Key
 slaying 43658709
+msg
+This key opens one of the reward rooms in Dick's house.
+endmsg
 x 11
 y 11
 end

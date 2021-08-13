@@ -12,7 +12,7 @@ enter_x 11
 enter_y 16
 msg
 Created:  1993-10-15 Tero Haatanen (Tero.Haatanen@tel.vtt.fi)
-Modified: 2012-03-28 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -1419,6 +1419,7 @@ arch key2
 name a brass key
 slaying bow_shop_key
 msg
+This key came with the key ring purchased in Scorn's Best Bows.
 There is some elven text on it.
 endmsg
 unpaid 1

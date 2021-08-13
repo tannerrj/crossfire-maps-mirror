@@ -9,7 +9,7 @@ enter_x 5
 enter_y 25
 msg
 Created:  2004-08-04 Mikeeusa
-Modified: 2020-05-31 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -4815,6 +4815,9 @@ end
 arch key2
 name strong room 3 key
 slaying cdcfbstrrm3
+msg
+You are the owner of a strongroom in the City de Clouds Bank.
+endmsg
 x 13
 y 19
 value 700
@@ -4835,6 +4838,9 @@ end
 arch key2
 name strong room 2 key
 slaying cdcfbstrrm2
+msg
+You are the owner of a strongroom in the City de Clouds Bank.
+endmsg
 x 13
 y 20
 value 700
@@ -4855,6 +4861,9 @@ end
 arch key2
 name strong room 1 key
 slaying cdcfbstrrm1
+msg
+You are the owner of a strongroom in the City de Clouds Bank.
+endmsg
 x 13
 y 21
 value 700
@@ -4875,6 +4884,9 @@ end
 arch key2
 name safe deposit box 12 key
 slaying cdcfbdepbox12
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 13
 y 22
 value 110
@@ -4895,6 +4907,9 @@ end
 arch key2
 name safe deposit box 11 key
 slaying cdcfbdepbox11
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 13
 y 23
 value 110
@@ -4915,6 +4930,9 @@ end
 arch key2
 name safe deposit box 10 key
 slaying cdcfbdepbox10
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 13
 y 24
 value 110
@@ -4935,6 +4953,9 @@ end
 arch key2
 name safe deposit box 9 key
 slaying cdcfbdepbox9
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 13
 y 25
 value 110
@@ -5283,6 +5304,9 @@ end
 arch key2
 name safe deposit box 1 key
 slaying cdcfbdepbox1
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 18
 value 110
@@ -5303,6 +5327,9 @@ end
 arch key2
 name safe deposit box 2 key
 slaying cdcfbdepbox2
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 19
 value 110
@@ -5323,6 +5350,9 @@ end
 arch key2
 name safe deposit box 3 key
 slaying cdcfbdepbox3
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 20
 value 110
@@ -5343,6 +5373,9 @@ end
 arch key2
 name safe deposit box 4 key
 slaying cdcfbdepbox4
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 21
 value 110
@@ -5363,6 +5396,9 @@ end
 arch key2
 name safe deposit box 5 key
 slaying cdcfbdepbox5
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 22
 value 110
@@ -5383,6 +5419,9 @@ end
 arch key2
 name safe deposit box 6 key
 slaying cdcfbdepbox6
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 23
 value 110
@@ -5403,6 +5442,9 @@ end
 arch key2
 name safe deposit box 7 key
 slaying cdcfbdepbox7
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 24
 value 110
@@ -5423,6 +5465,9 @@ end
 arch key2
 name safe deposit box 8 key
 slaying cdcfbdepbox8
+msg
+You are the owner of a safe deposit box in the City de Clouds Bank.
+endmsg
 x 14
 y 25
 value 110

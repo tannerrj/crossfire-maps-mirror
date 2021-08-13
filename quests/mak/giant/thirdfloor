@@ -9,7 +9,7 @@ enter_x 1
 enter_y 17
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2021-06-06 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -4290,6 +4290,9 @@ carrying 100
 arch key2
 name a large heavy key
 slaying belzlhkey
+msg
+This key is from the giants' test in the Warriors' Tower.
+endmsg
 end
 end
 arch blocked

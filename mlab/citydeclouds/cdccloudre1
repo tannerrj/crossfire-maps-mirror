@@ -9,7 +9,7 @@ enter_x 17
 enter_y 3
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-02-10 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch dungeon_magic
@@ -299,6 +299,9 @@ end
 arch key2
 name Town Haus 1 Key
 slaying cwdctownhauskey1
+msg
+You are the owner of a Town Haus in the Cloud World.
+endmsg
 face key_blue.111
 x 1
 y 5
@@ -328,6 +331,9 @@ end
 arch key2
 name Town Haus 2 Key
 slaying cwdctownhauskey2
+msg
+You are the owner of a Town Haus in the Cloud World.
+endmsg
 face key_blue.111
 x 1
 y 7
@@ -357,6 +363,9 @@ end
 arch key2
 name Town Haus 3 Key
 slaying cwdctownhauskey3
+msg
+You are the owner of a Town Haus in the Cloud World.
+endmsg
 face key_blue.111
 x 1
 y 9
@@ -386,6 +395,9 @@ end
 arch key2
 name Town Haus 4 Key
 slaying cwdctownhauskey4
+msg
+You are the owner of a Town Haus in the Cloud World.
+endmsg
 face key_blue.111
 x 1
 y 11
@@ -1806,6 +1818,9 @@ end
 arch key2
 name Lot 1 Key
 slaying cdcwlot1key
+msg
+You are the owner of a private lot in the Cloud World.
+endmsg
 face key_blue.111
 x 7
 y 11
@@ -2265,6 +2280,9 @@ end
 arch key2
 name Lot 2 Key
 slaying cdcwlot2key
+msg
+You are the owner of a private lot in the Cloud World.
+endmsg
 face key_blue.111
 x 9
 y 11
@@ -2734,6 +2752,9 @@ end
 arch key2
 name Lot 3 Key
 slaying cdcwlot3key
+msg
+You are the owner of a private lot in the Cloud World.
+endmsg
 face key_blue.111
 x 11
 y 11
@@ -3183,6 +3204,9 @@ end
 arch key2
 name Lot 4 Key
 slaying cdcwlot4key
+msg
+You are the owner of a private lot in the Cloud World.
+endmsg
 face key_blue.111
 x 13
 y 11
@@ -3636,6 +3660,9 @@ end
 arch key2
 name Lot 5 Key
 slaying cdcwlot5key
+msg
+You are the owner of a private lot in the Cloud World.
+endmsg
 face key_blue.111
 x 15
 y 11

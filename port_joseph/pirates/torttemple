@@ -9,7 +9,7 @@ enter_x 7
 enter_y 20
 msg
 Created:  1994-06-10 langley (langley@fermat.dartmouth.edu)
-Modified: 2011-11-23 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch jungle_1
@@ -959,6 +959,9 @@ y 2
 end
 arch ruby
 name fire stone
+msg
+This stone was found in the ruined temple on Tortola Island.
+endmsg
 x 7
 y 2
 value 800

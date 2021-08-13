@@ -9,7 +9,7 @@ enter_x 9
 enter_y 17
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-03-23 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -25277,6 +25277,9 @@ carrying 100
 arch key2
 name golden key
 slaying cofegdf4ng
+msg
+This key was taken from the impossibly ancient red dragon in the Cloud World Castle.
+endmsg
 face key_brown.111
 end
 end
@@ -33079,6 +33082,9 @@ carrying 100
 arch key2
 name strange charm
 slaying strngchrmcdccf1
+msg
+This charm was taken from the chaos witch in the Cloud World Castle.
+endmsg
 face tooth_charm.111
 end
 end

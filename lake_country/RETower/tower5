@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  1995-06-20 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2015-10-28 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 end
 arch blocked
@@ -5253,6 +5253,9 @@ carrying 100
 unaggressive 1
 arch key2
 slaying tower6A
+msg
+This key was taken from a trapped angel on the fifth floor of Lord Butakis's Elite Training Tower.
+endmsg
 end
 end
 arch permanent_lava
@@ -6752,6 +6755,9 @@ y 12
 carrying 100
 arch key2
 slaying tower5
+msg
+This key was taken from a Demon Lord on the fifth floor of Lord Butakis's Elite Training Tower.
+endmsg
 end
 end
 arch permanent_lava

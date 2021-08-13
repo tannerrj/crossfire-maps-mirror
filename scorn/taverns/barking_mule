@@ -8,7 +8,7 @@ enter_x 22
 enter_y 14
 msg
 Created:  2003-04-27 Avion
-Modified: 2013-08-12 Kevin Zheng
+Modified: 2021-07-27 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -391,6 +391,9 @@ arch white_key
 name Alfalfa's Front Door Key
 name_pl Alfalfa's Front Door Keys
 slaying alfalfakey
+msg
+This key was given by Fran in the Barking Mule tavern in Scorn.
+endmsg
 end
 end
 end

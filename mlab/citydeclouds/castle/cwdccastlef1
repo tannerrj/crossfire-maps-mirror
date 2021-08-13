@@ -9,7 +9,7 @@ enter_x 50
 enter_y 97
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-03-21 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -30263,6 +30263,9 @@ carrying 100
 arch key2
 name upper keep key
 slaying ccccccadn2opn
+msg
+This key was taken from the impossibly ancient red dragon in the Cloud World Castle ground floor.
+endmsg
 end
 end
 arch light4
@@ -93444,6 +93447,9 @@ end
 arch key2
 name Mystical Key
 slaying bluekeymysticcdccastwin
+msg
+This key was taken from the Second Wizard.
+endmsg
 face key_blue.111
 end
 arch cloak

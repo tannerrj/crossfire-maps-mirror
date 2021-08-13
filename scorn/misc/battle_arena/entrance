@@ -9,7 +9,7 @@ enter_x 11
 enter_y 24
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-30 Saiapatsu
 endmsg
 end
 arch pstone_2
@@ -1086,6 +1086,9 @@ lifesave 1
 arch card
 name ARENA ticket
 slaying battle_arena123
+msg
+This is a ticket to the spectators' area of the Scorn Arena.
+endmsg
 type 21
 end
 end

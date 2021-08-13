@@ -5,7 +5,7 @@ region scornoldcity
 width 40
 height 40
 msg
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 Saiapatsu
 endmsg
 tile_path_1 oldcity54
 tile_path_2 oldcity3
@@ -5772,6 +5772,9 @@ end
 arch key2
 name claw-shaped key
 slaying fruit
+msg
+This key was hidden under a rock in the southern part of the Scorn Old City.
+endmsg
 x 24
 y 26
 end

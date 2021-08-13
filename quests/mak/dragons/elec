@@ -8,7 +8,7 @@ enter_x 15
 enter_y 13
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-03-09 Rick Tanner
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch grate_open_1
@@ -811,7 +811,11 @@ y 12
 level 22
 carrying 100
 arch key2
+name electric key
 slaying elecdkey
+msg
+This key is from the electric dragon test of the Warriors' Tower.
+endmsg
 end
 end
 arch pstone_1
@@ -1073,6 +1077,9 @@ end
 arch key2
 name a shivering yellow key
 slaying mdragkey2
+msg
+This key is from the electric dragon test of the Warriors' Tower.
+endmsg
 x 6
 y 1
 end

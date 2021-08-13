@@ -9,7 +9,7 @@ enter_x 33
 enter_y 33
 msg
 Created:  2000-06-08
-Modified: 2012-02-02 Rick Tanner
+Modified: 2021-07-21 Saiapatsu
 endmsg
 maplore
 @quest Scorn Royalty Quest
@@ -1586,7 +1586,11 @@ y 1
 speed_left -0.400000
 carrying 100
 arch key2
+name big demon's key
 slaying gateway
+msg
+This key was found in the filthy pit in Euthville.
+endmsg
 end
 arch abil_create_fire_wall
 end
@@ -4420,6 +4424,9 @@ carrying 100
 arch key2
 name broken gateway
 slaying broken gateway
+msg
+This key was found in the filthy pit in Euthville.
+endmsg
 face penta.111
 arch quest_advance_pickup
 name scorn/DemonPit 30>40
@@ -5782,7 +5789,11 @@ y 25
 speed_left -0.400000
 carrying 100
 arch key2
+name big demon's key
 slaying inner_circle
+msg
+This key was found in the filthy pit in Euthville.
+endmsg
 end
 arch abil_burning_hands
 end

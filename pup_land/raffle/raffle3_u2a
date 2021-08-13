@@ -11,7 +11,7 @@ enter_x 11
 enter_y 27
 msg
 Created:  1997-07-03
-Modified: 2008-10-25 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch mine17
@@ -802,6 +802,9 @@ carrying 100
 arch key2
 name KEY1
 slaying raffle3_u2a_key1
+msg
+This key is from Pupland Raffle 3.
+endmsg
 end
 end
 arch blackmarble
@@ -1887,6 +1890,9 @@ carrying 100
 arch key2
 name KEY2
 slaying raffle3_u2a_key2
+msg
+This key is from Pupland Raffle 3.
+endmsg
 end
 end
 arch blackmarble

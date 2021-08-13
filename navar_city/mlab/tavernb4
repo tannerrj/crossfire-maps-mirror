@@ -10,7 +10,7 @@ enter_x 9
 enter_y 9
 msg
 Created:  2002-02-20 mikeeusa
-Modified: 2011-11-10 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch cave_15
@@ -14228,6 +14228,9 @@ y 14
 end
 arch key2
 slaying sfetvrnb4etcmny
+msg
+You are the owner of the safe in the basement of the Western Navar Tavern.
+endmsg
 face key_brown.111
 x 54
 y 14

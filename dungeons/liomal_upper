@@ -8,7 +8,7 @@ enter_x 42
 enter_y 32
 msg
 Created:  2010-03-15 Nicolas Weeger
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2021-07-22 Saiapatsu
 endmsg
 outdoor 1
 end
@@ -243,6 +243,9 @@ run_away 70
 arch red_key
 name Liomal's treasure key
 slaying liomal_treasure
+msg
+This key is from the first floor of Liomal's house somewhere in the wilderness.
+endmsg
 end
 end
 arch redmarble
@@ -9220,6 +9223,9 @@ run_away 70
 arch magenta_key
 name Liomal's treasure key
 slaying liomal_treasure
+msg
+This key is from the first floor of Liomal's house somewhere in the wilderness.
+endmsg
 end
 end
 arch magentamarblemedium
@@ -15522,6 +15528,9 @@ run_away 70
 arch blue_key
 name Liomal's treasure key
 slaying liomal_treasure
+msg
+This key is from the first floor of Liomal's house somewhere in the wilderness.
+endmsg
 end
 end
 arch bluemarblemedium
@@ -19804,6 +19813,9 @@ run_away 70
 arch green_key
 name Liomal's treasure key
 slaying liomal_treasure
+msg
+This key is from the first floor of Liomal's house somewhere in the wilderness.
+endmsg
 end
 end
 arch greenmarblelight

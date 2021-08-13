@@ -9,7 +9,7 @@ enter_x 3
 enter_y 26
 msg
 Created:  1994-08-19 peterm (peterm@soda.csua.berkeley.edu)
-Modified: 2021-01-30 Nicolas Weeger
+Modified: 2021-07-26 Saiapatsu
 endmsg
 end
 arch red_cave_0
@@ -1014,7 +1014,11 @@ speed -0.600000
 level 30
 carrying 17100
 arch key2
+name lord key
 slaying FireLordKey
+msg
+This key was taken from the High Dragon Lord in the Dragon Cave.
+endmsg
 end
 arch firebrand
 name Flametongue

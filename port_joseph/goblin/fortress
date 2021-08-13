@@ -8,7 +8,7 @@ enter_x 14
 enter_y 21
 msg
 Created:  1994-07-22 langley (langley@fermat.dartmouth.edu)
-Modified: 2011-11-22 Rick Tanner
+Modified: 2021-07-22 Saiapatsu
 endmsg
 end
 arch dungeon_floor
@@ -2138,6 +2138,9 @@ unaggressive 1
 arch key2
 name a rusty key
 slaying lrusty
+msg
+This key was taken from the big king ogre in the Goblin Fortress on Goblin Island.
+endmsg
 end
 end
 arch dungeon_floor
@@ -2953,6 +2956,9 @@ end
 arch key2
 name a thick golden key
 slaying lgold
+msg
+This key is from the Goblin Fortress on Goblin Island.
+endmsg
 x 21
 y 1
 end

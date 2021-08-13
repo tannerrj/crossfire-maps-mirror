@@ -8,7 +8,7 @@ enter_x 4
 enter_y 6
 msg
 Created:  2001-01-03 dnh (dnh@hawthorn.csse.monash.edu.au)
-Modified: 2012-03-29 Rick Tanner
+Modified: 2021-07-27 Saiapatsu
 endmsg
 end
 arch blocked
@@ -1124,6 +1124,9 @@ carrying 100
 arch key2
 name Rusted Key
 slaying ruggilli.test
+msg
+This key is from the Test of Ruggilli in the temple in Scorn.
+endmsg
 unique 1
 end
 end

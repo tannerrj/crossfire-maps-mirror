@@ -8,7 +8,7 @@ enter_x 8
 enter_y 18
 msg
 Created:  1996-02-08
-Modified: 2012-03-15 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch pit_closed
@@ -22,6 +22,9 @@ carrying 100
 arch key2
 name golden key
 slaying gs_key3
+msg
+This key was taken from the summoned dragon in the Summoner's House in Red Town in Pupland.
+endmsg
 end
 end
 arch pit_closed
@@ -45,6 +48,9 @@ carrying 100
 arch key2
 name wooden key
 slaying gs_key1
+msg
+This key was taken from the summoned goblin in the Summoner's House in Red Town in Pupland.
+endmsg
 end
 end
 arch blocked
@@ -600,6 +606,9 @@ carrying 100
 arch key2
 name iron key
 slaying gs_key2
+msg
+This key was taken from the summoned titan in the Summoner's House in Red Town in Pupland.
+endmsg
 end
 end
 arch pit_closed

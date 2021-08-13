@@ -11,7 +11,7 @@ enter_x 12
 enter_y 1
 msg
 Created:  1996-02-10
-Modified: 2012-03-02 Rick Tanner
+Modified: 2021-07-23 Saiapatsu
 endmsg
 end
 arch cobblestones
@@ -688,6 +688,9 @@ end
 arch key2
 name immoral key
 slaying 9imm
+msg
+This key is from the Night Flower Bar in Nurnberg.
+endmsg
 x 4
 y 5
 end
@@ -3675,6 +3678,9 @@ end
 arch key2
 name immoral key
 slaying 9imm
+msg
+This key is from the Night Flower Bar in Nurnberg.
+endmsg
 x 24
 y 18
 end
