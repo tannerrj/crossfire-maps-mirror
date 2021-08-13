@@ -11,7 +11,7 @@ This map is intended for use as a tutorial for
 complete newbies, to teach them some of the
 basic concepts of Crossfire.  Players should
 enter at x-11, y-1.
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-08-13 Nicolas Weeger
 endmsg
 unique 1
 end
@@ -749,12 +749,12 @@ x 5
 y 14
 end
 arch exit
-slaying /scorn/misc/beginners
+slaying /scorn/misc/beginners_entry
 msg
 Good luck!
 endmsg
-hp 15
-sp 28
+hp 5
+sp 8
 x 5
 y 14
 end
@@ -2010,9 +2010,11 @@ y 9
 end
 arch rune_mark
 msg
-See that rune to the north?  You may have to wait a few seconds to see it. Don't step on it; it might hurt you!  f you have the find traps and disarm traps skills mentioned earlier, you can step NEXT to it and attempt to find and disarm it. Since it's at the end of the hallway, you might decide it's not worth the risk, since there's nothing beyond it, but it's good to increase your experience in those skills whenever possible.
+See that rune to the north?  You may have to wait a few seconds to see it. Don't step on it; it might hurt you!  If you have the find traps and disarm traps skills mentioned earlier, you can step NEXT to it and attempt to find and disarm it. Since it's at the end of the hallway, you might decide it's not worth the risk, since there's nothing beyond it, but it's good to increase your experience in those skills whenever possible.
 
-Remember: to search for traps, press 'f' (or type 'use_skill find traps), and to attempt to disarm any traps you find, press 'd' (or type 'use_skill disarm traps).
+Remember: to search for traps, press 's' (or type 'use_skill find traps), and to attempt to disarm any traps you find, press 'd' (or type 'use_skill disarm traps).
+
+Sometimes you may need to press 's' or 'd' many times (10-30 times!) before your character finally finds the traps and then disarms it.  If your Messages window (here) doesn't say you spotted the trap, or disarmed it (or set it off accidentally) then keep trying 's' and 'd' a bit more.
 endmsg
 x 15
 y 9
@@ -2039,7 +2041,7 @@ y 12
 end
 arch sign
 msg
-How did you do?  Watch your hit points (HP) closely during battle. If they get too low, you can always retreat and come back. Hit points gradually regenerate over time, so if you took damage, wait until your HP is back to the maximum before moving on. Eating food speeds up HP regeneration, so you may want to eat this food now.
+How did you do?  Watch your hit points (HP) / Health  closely during battle. If they get too low, you can always retreat and come back. Hit points gradually regenerate over time, so if you took damage, wait until your HP is back to the maximum before moving on. Eating food speeds up HP regeneration, so you may want to eat this food now.
 endmsg
 x 15
 y 12
@@ -2903,7 +2905,7 @@ y 1
 end
 arch sign
 msg
-By the way, it's a good idea to always check for traps before trying to open a door. Do this with the command ('use_skill find traps), which is often bound to the 'f' key.  If you find a trap, you can try to disarm it with ('use_skill disarm traps). You can only find and disable traps if you have those skills.
+By the way, it's a good idea to always check for traps before trying to open a door. Do this with the command ('use_skill find traps), which is often bound to the 's' key (for Search).  If you find a trap, you can try to disarm it with ('use_skill disarm traps). You can only find and disable traps if you have those skills.
 
 Some doors will open when you walk up to them, then close after a moment. Be careful not to get crushed by standing in the doorway too long!
 endmsg
@@ -2949,7 +2951,7 @@ y 6
 end
 arch sign
 msg
-Some gates and doors are opened by levers.  Apply to lever to your south to continue.
+Some gates and doors are opened by levers.  Apply the lever to your south to continue.
 endmsg
 x 22
 y 6
@@ -3000,7 +3002,10 @@ arch sign
 msg
 === Inventory ===
 
-Stop and take a look at your inventory for a moment.  If you started the game with any armor or a hand-to-hand weapon like a sword, you probably should ready them now. (In most clients you do this by double-clicking.) Don't make the mistake of many new players, and run into your first monsters naked and empty-handed. :-)
+Stop and take a look at your inventory for a moment.  If you started the game with any armor or a hand-to-hand weapon like a sword, you probably should ready them now. (In most clients you do this by middle-clicking the mouse. Or also try holding the SHIFT key and then right-click mouuse.) Don't make the mistake of many new players, and run into your first monsters naked and empty-handed. :-)
+
+You can also try the long-form of the commands like:  'apply sword   OR   'apply chainmail
+Using the  'apply  command multiple times on the same item will toggle between "readied" and "unreadied".
 endmsg
 x 22
 y 11
