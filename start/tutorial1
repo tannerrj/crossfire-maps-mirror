@@ -11,7 +11,7 @@ This map is intended for use as a tutorial for
 complete newbies, to teach them some of the
 basic concepts of Crossfire.  Players should
 enter at x-11, y-1.
-Modified: 2021-08-13 Nicolas Weeger
+Modified: 2021-08-13 rock808
 endmsg
 unique 1
 end
@@ -193,11 +193,11 @@ y 12
 end
 arch sign
 msg
-A bed of reality is used for saving your game.  Whenever you want to leave the game, or just save in a particular town, apply (press 'a') on a bed of reality, like the one at the end of this hallway.
+A Bed To Reality is used as a natural exit from the game.  When your character restarts the game again, they will start at the same place they (press the 'a' key) applied the last Bed To Reality.  It's also a way for you to (re)set your character's "home base", if you prefer to start/save in a particular town, like the one at the end of this hallway.
 
 The next time you login, your player will start from that bed's location, with all the inventory items you had when you saved.  Also, if your player ever dies, you will be returned to the location of the last bed of reality you used.
 
-You may use this one now, and then continue on after logging back in.
+You may use this one now, and then continue on after logging back in.  Your NEXT mission will be to exit this map and find the Wanderer's Inn located in the city of Scorn.  This is where you want to use a Bed To Reality to make sure it's your next starting place for your character.
 endmsg
 x 1
 y 12
@@ -212,7 +212,7 @@ y 14
 end
 arch sign
 msg
-Congratulations, you have completed this part of the tutorial!  Take the exit to your east to move on.  Step carefully around the gravestone of Harold, who didn't pay very close attention and paid the price. :-)
+Congratulations, you have completed this part of the tutorial!  Take the exit to your east to move on.  Step past the gravestone of Harold, who didn't pay very close attention and paid the price. :-)
 
 endmsg
 x 1
@@ -422,7 +422,7 @@ y 9
 end
 arch sign
 msg
-Potions can help you in many ways, boosting your stats temporarily or permanently, giving you resistance to certain attacks, or healing you.  Save this potion of healing for some time when you are injured and unable to retreat to heal slowly.
+Potions can help you in many ways, boosting your stats temporarily or permanently, giving you resistance to certain attacks or healing you.  Save this potion of healing for some time when you are injured and unable to retreat to heal slowly.
 
 Keep in mind that potions you find can be cursed just like other objects, so always get them identified before using them.
 endmsg
@@ -625,13 +625,13 @@ y 1
 end
 arch sign
 msg
-Shops are an important part of Crossfire.  Shops will sell you all sorts of adventuring supplies, and then buy almost any treasure you bring back to sell.
+Shops are an important part of Crossfire.  Shops will sell you all sorts of adventuring supplies and they buy almost any treasure you bring back to sell.
 
-To enter a shop, step on the shop mat.  This will transport you to the inside.  To exit, simply step on the inside mat.  To sell items, drop them on the shop floor.  To buy items, simply pick up what you want and leave.  The cost of the items will be taken from your inventory.  If you don't have enough money to pay your bill, you won't be allowed to leave, and you will have to drop enough of the items you picked up until you can afford what you're holding.
+To enter a shop, step on the shop mat (with a "$").  This will transport you to the inside.  To exit, simply step on the inside mat.  To sell items, drop them on the shop floor.  To buy items, simply pick up what you want and leave.  The cost of the items will be taken from your inventory.  If you don't have enough money to pay your bill, you won't be allowed to leave, and you will have to drop enough of the items you picked up until you can afford what you're holding.
 
-You may enter this shop and look around, and buy something if you have the money.  When you're in the shop, clicking on an item in your inventory will tell you how much the shop will pay you for it.  Standing over an item on the shop floor and examining it (press 'e' or type 'examine) will tell you that item's price.
+You may enter this shop and look around, and buy something if you have the money.  When you're in the shop, clicking on an item in your inventory will tell you how much the shop will pay you for it.  Standing over an item on the shop floor and examining it (press the 'e' key or type:  'examine) will tell you that item's price.
 
-WARNING: Be very careful not to drop anything you aren't sure you want to sell!  Once dropped, an item is sold and belongs to the shop, and the price for buying it back may be many times what you sold it for.  Check your client's documentation on "locking" items for instructions on how to lock your important items so you can't accidentally drop them.
+WARNING: Be very careful not to drop anything you aren't sure you want to sell!  Once dropped, an item is sold and belongs to the shop, and the price for buying it back may be many times what you sold it for.  Check your client's documentation (maybe a HELP button?) for instructions on how to lock your important inventory items so you can't accidentally drop them.
 endmsg
 x 5
 y 1
@@ -937,7 +937,7 @@ msg
 
 Altars have many different uses.  Some altars are consecrated to a particular god.  Do not pray over these altars unless you wish to worship that god!  (More on gods later.)  Altars can also cast spells and perform other actions if you place the correct sacrifice on them.
 
-The altar to your east is an "altar of detect magic."  Dropping money on it will cause it to cast detect magic on all the items in your inventory.  (Make sure you pick up your change.)  To drop money, right-click on it in your inventory while standing on the altar.
+The altar to your east is an "altar of detect magic."  Dropping money on it will cause it to cast detect magic on all the items in your inventory.  To drop money, right-click on it in your inventory while standing on the altar.  (Make sure you pick up your change.)
 
 Magic items are often worth more than identical non-magic items, so detect magic can help you decide which ones to sell and which ones to identify or keep.
 endmsg
@@ -990,7 +990,7 @@ arch sign
 msg
 Ready your bow or crossbow by clicking on it. Arrows or bolts in your inventory will be used automatically.
 
-To fire a missile weapon, hold down your Fire (Shift) key, and press the movement key in the direction you want to fire.
+To fire a missile weapon, hold down your Fire <SHIFT> key, and press the movement key in the direction you want to fire.
 
 On the other side of these doors are some monsters.  Pull the lever to open the doors, and shoot them all! Don't worry, there's a force preventing them from reaching you. Continue down the passageway until you get back to this hallway, then go north.
 endmsg
@@ -1402,7 +1402,7 @@ x 11
 y 1
 end
 arch sign
-name Press 'a' to read me
+name Press the 'a' key to read me
 msg
 Welcome to Crossfire!
 
@@ -1410,7 +1410,7 @@ You are now in the beginner's area, which will teach you the fundamentals of pla
 
 As you pass through these halls, read all the signs and any other information provided, and you'll soon learn the basics of the game.
 
-From here, move south (press your down-arrow key, or type 'south<enter> ) and press the 'a' key to read the next sign.  Good luck!
+Move south to the next sign by using the down-arrow key, or the '2' key on the key pad or type 'south<ENTER>. Place your character directly on the sign.  Press the 'a' key to read (apply) the sign.  Good Luck!
 endmsg
 x 11
 y 1
@@ -1431,7 +1431,9 @@ There are many commands you can use to do everything from movement to attacking 
 
 So to move southeast, for example, you could type 'southeast. To read this sign, you could type 'apply sign. These "long-form" commands are always available for everything you can do in the game.
 
-However, it would be cumbersome to type commands like that for common actions, so many commands are bound to keys by default. This varies from client to client, but you will probably find that the movement commands are bound to the arrow keys on your keypad, for example. There are many other default keybindings, and you can create your own for any action or series of actions that you use regularly. See the documentation for your Crossfire client for more information on keybindings.
+However, it would be cumbersome to type commands like that for common actions, so many commands are bound to keys by default.  "Bound" or "binding keys" means assigning a single key as a substitution for typing the entire command.  This varies from client to client, but you will probably find that the movement commands are bound to the arrow keys on your keypad, for example.  In the example above, the key 'a' has a binding to the command for  'apply
+
+There are many other default keybindings, and you can create your own for any action or series of actions that you use regularly. See the documentation for your Crossfire client for more information on keybindings.
 endmsg
 x 11
 y 3
@@ -1448,9 +1450,11 @@ arch sign
 msg
 === Movement ===
 
-You can move in any of eight directions: north, south, east, west, and the four in between. Pressing a movement key once (or executing a movement command) will move you one tile in that direction. If something is in the way, you may attack it.
+You can move in any of eight directions: north, south, east, west, and the four diagonals in between. Pressing a movement key once (or executing a movement command) will move you one tile in that direction. If something is in the way, for example a monster, then you would normally attack it.  By default you will avoid attacking friendly game characters.
 
-To run in a direction, which is very useful when fighting, battering down doors, or traveling long distances, hold down the Ctrl key and press and hold the key for direction you wish to run.
+To run in a direction, which is very useful when fighting, battering down doors, or traveling long distances, hold down the <CTRL> key and press and hold the key for direction you wish to run.
+
+To see a reminder of movement commands / directions, type:  'help move
 
 Now run to the end of this hallway, and read the sign there.
 endmsg
@@ -1702,8 +1706,11 @@ Do you have any food?
 @match *
 Ninety-nine bottles of beer on the wall....
 endmsg
+hp 180
+maxhp 180
 x 13
 y 3
+no_damage 1
 end
 arch woodfloor
 x 13
@@ -1943,7 +1950,7 @@ arch magic_mouth
 msg
 A message scrawled on the wall says:
 
-There are many types of food you can eat. Be careful, though: food that you find may be poisonous, so to be safe, don't eat food until you've identified it. (More on identifying items later.)
+There are many types of food you can eat. Be careful, though: food that you find may be poisonous, so to be safe, don't eat food until you've identified it. (More on identifying items later.)  Most things you buy at a shop are already fully identified for you in advance.
 endmsg
 x 15
 y 1
@@ -2101,6 +2108,7 @@ arch heart
 name goblin's heart
 x 16
 y 1
+level 1
 end
 arch woodfloor
 x 16
@@ -2368,7 +2376,7 @@ msg
 
 You can also get information from non-player characters (NPCs) in the game by talking to them. To talk to the man at the end of this hallway when you're finished reading this, walk up next to him and type: 'say hello
 
-The 'say command will let you talk to nearby NPCs and other Crossfire players who are on the same map as you, so it is your main way to communicate inside the game. (The " (double-quote) key is often a shortcut for 'say.)
+The 'say command will let you talk to nearby NPCs and other Crossfire players who are on the same map as you, so it is your main way to communicate inside the game. The <DOUBLE-QUOTE> key (") is often a binding for the command:  'say
 
 Many NPC have useful information, but they will only tell you about it if you ask about the right things. Saying "hello" is a good start. If the NPC replies, look for words in his reply that might be important, and ask about them. For example, if he says, "Hello, do you have any food?" ask him about food ('say food), and he may say something else in response to that. Saying words like quest, key, treasure, and other things you're interested in may start up very interesting conversations!
 
@@ -2633,7 +2641,7 @@ arch magic_mouth
 msg
 A sign on the wall says:
 
-Here is a note you can pick up and take with you. (You may have already picked it up automatically if your client is set to do that. If so, find it in your inventory and read it by middle-clicking or whatever action your client uses to apply inventory items.) You may wish to read it first (press 'a'), and then pick it up (press the comma key or type 'take).  Now it will be in your inventory, so you can read it anytime you need to.
+Here is a note you can pick up and take with you. (You may have already picked it up automatically if your client is set to do that. If so, find it in your inventory panel and read it by middle-clicking or whatever action your client uses to apply inventory items.) You may wish to read it first (press the 'a' key), and then pick it up (press the <COMMA> key or type 'take).  Now it will be in your inventory, so you can read it anytime you need to.
 
 endmsg
 x 20
@@ -2641,7 +2649,7 @@ y 3
 end
 arch note
 msg
-The exit password is "orc-knuckle"!  (Save this note; you'll need it much later, after you meet Harold.)
+The exit password is "orc-knuckle"!  (TAKE this note with you.  Use the comma key to pick it up.  You'll need it much later, after you meet Harold.)
 endmsg
 x 20
 y 3
@@ -2778,6 +2786,7 @@ arch door_1
 hp 4
 x 21
 y 1
+randomitems none
 end
 arch woodfloor
 x 21
@@ -2905,7 +2914,7 @@ y 1
 end
 arch sign
 msg
-By the way, it's a good idea to always check for traps before trying to open a door. Do this with the command ('use_skill find traps), which is often bound to the 's' key (for Search).  If you find a trap, you can try to disarm it with ('use_skill disarm traps). You can only find and disable traps if you have those skills.
+By the way, it's a good idea to always check for traps before trying to open a door. Do this with the command ('use_skill find traps), which is often bound to the 's' key for Search.  If you find a trap, you can try to disarm it with ('use_skill disarm traps).  Usually the "d" key for Disarm.  You can only find and disable traps if you have those skills.
 
 Some doors will open when you walk up to them, then close after a moment. Be careful not to get crushed by standing in the doorway too long!
 endmsg
@@ -3002,7 +3011,7 @@ arch sign
 msg
 === Inventory ===
 
-Stop and take a look at your inventory for a moment.  If you started the game with any armor or a hand-to-hand weapon like a sword, you probably should ready them now. (In most clients you do this by middle-clicking the mouse. Or also try holding the SHIFT key and then right-click mouuse.) Don't make the mistake of many new players, and run into your first monsters naked and empty-handed. :-)
+Stop and take a look at your inventory for a moment.  If you started the game with any armor or a hand-to-hand weapon like a sword, you probably should ready them now. (In most clients you do this by middle-clicking the item in your inventory, or also try holding the <SHIFT> key and then right-click mouse.)  Don't make the mistake of many new players, and run into your first monsters naked and empty-handed. :-)
 
 You can also try the long-form of the commands like:  'apply sword   OR   'apply chainmail
 Using the  'apply  command multiple times on the same item will toggle between "readied" and "unreadied".
@@ -3022,7 +3031,7 @@ arch sign
 msg
 === Fighting ===
 
-Ready for your first fight?  On the other side of this door are some ants.  They're mostly harmless, so run into them as fast as you can, until you kill them.  Be sure to kill the anthill too, so it can't produce more ants. Many monsters have "generators" like this which produce more monsters every so often.
+Ready for your first fight?  On the other side of this door are some ants.  They're mostly harmless, so run into them as fast as you can, until you kill them.  Be sure to kill the anthill too, so it can't produce more ants.  Remember to run hold <CTRL> then press and hold direction key.  Many monsters have "generators" like this which produce more monsters every so often.
 
 After you kill the ants, go through the next door.
 endmsg
