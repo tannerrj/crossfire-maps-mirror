@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  1994-04-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2011-12-29 Rick Tanner
+Modified: 2021-08-03 Saiapatsu
 endmsg
 end
 arch woodfloor
@@ -1448,6 +1448,7 @@ x 8
 y 9
 end
 arch locked_door2
+slaying tdem_mlvl_doors
 x 8
 y 9
 end
@@ -1456,6 +1457,7 @@ x 8
 y 10
 end
 arch locked_door2
+slaying tdem_mlvl_doors
 x 8
 y 10
 end
@@ -1917,6 +1919,7 @@ x 11
 y 9
 end
 arch locked_door2
+slaying tdem_mlvl_doors
 x 11
 y 9
 end
@@ -1925,6 +1928,7 @@ x 11
 y 10
 end
 arch locked_door2
+slaying tdem_mlvl_doors
 x 11
 y 10
 end
