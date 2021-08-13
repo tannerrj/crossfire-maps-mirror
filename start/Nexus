@@ -11,7 +11,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  2003-09-25 Avion
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-07-27 rock808
 endmsg
 end
 arch blocked
@@ -408,7 +408,7 @@ end
 arch exit
 slaying /world/world_105_116
 hp 4
-sp 4
+sp 2
 x 2
 y 12
 end
