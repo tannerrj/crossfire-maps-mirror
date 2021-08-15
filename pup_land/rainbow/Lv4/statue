@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1996-07-12
-Modified: 2011-12-21 Rick Tanner
+Modified: 2021-08-15 Nicolas Weeger
 endmsg
 end
 arch pstone_1
@@ -534,8 +534,12 @@ arch pstone_1
 x 6
 y 5
 end
+arch pstone_1
+x 6
+y 6
+end
 arch pit_closed
-hp 5
+hp 8
 sp 14
 x 6
 y 6
@@ -588,7 +592,7 @@ arch pstone_1
 x 6
 y 13
 end
-arch rough_wall_2_2_3
+arch rough_wall_2_1_2
 x 6
 y 13
 end
@@ -596,15 +600,11 @@ arch pstone_1
 x 6
 y 14
 end
-arch rough_wall_2_1_1
-x 6
-y 14
-end
 arch pstone_1
 x 6
 y 15
 end
-arch rough_wall_1_2
+arch rough_wall_2_2_2
 x 6
 y 15
 end
@@ -683,15 +683,23 @@ arch blocked
 x 7
 y 12
 end
-arch blocked
+arch pstone_1
 x 7
 y 13
 end
-arch blocked
+arch rough_wall_2_1_2
+x 7
+y 13
+end
+arch pstone_1
 x 7
 y 14
 end
-arch blocked
+arch pstone_1
+x 7
+y 15
+end
+arch rough_wall_2_1_2
 x 7
 y 15
 end
@@ -765,15 +773,23 @@ arch blocked
 x 8
 y 12
 end
-arch blocked
+arch pstone_1
 x 8
 y 13
 end
-arch blocked
+arch rough_wall_2_1_2
+x 8
+y 13
+end
+arch pstone_1
 x 8
 y 14
 end
-arch blocked
+arch pstone_1
+x 8
+y 15
+end
+arch rough_wall_2_1_2
 x 8
 y 15
 end
@@ -844,15 +860,27 @@ arch blocked
 x 9
 y 12
 end
-arch blocked
+arch pstone_1
 x 9
 y 13
 end
-arch blocked
+arch rough_wall_2_2_3
+x 9
+y 13
+end
+arch pstone_1
 x 9
 y 14
 end
-arch blocked
+arch rough_wall_2_1_1
+x 9
+y 14
+end
+arch pstone_1
+x 9
+y 15
+end
+arch rough_wall_2_2_4
 x 9
 y 15
 end
