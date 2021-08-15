@@ -3,12 +3,12 @@ name Tower of Ordeal, Entrance
 difficulty 1
 region pupland
 width 23
-height 16
+height 17
 enter_x 8
 enter_y 15
 msg
 Created:  1997-06-29
-Modified: 2012-04-09 Rick Tanner
+Modified: 2021-08-15 Nicolas Weeger
 endmsg
 end
 arch afloor_right
@@ -105,6 +105,12 @@ end
 arch cwall_2_2_1
 y 15
 end
+arch dungeon_magic
+y 16
+end
+arch grass
+y 16
+end
 arch afloor_right
 x 1
 end
@@ -341,6 +347,14 @@ arch cwall_2_1_2
 x 1
 y 15
 end
+arch dungeon_magic
+x 1
+y 16
+end
+arch grass
+x 1
+y 16
+end
 arch afloor_right
 x 2
 end
@@ -586,6 +600,14 @@ end
 arch cwall_2_1_2
 x 2
 y 15
+end
+arch dungeon_magic
+x 2
+y 16
+end
+arch grass
+x 2
+y 16
 end
 arch afloor_right
 x 3
@@ -830,6 +852,22 @@ arch cwall_2_2_4
 x 3
 y 15
 end
+arch dungeon_magic
+x 3
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 3
+y 16
+speed_left -2.900000
+end
+arch grass
+x 3
+y 16
+end
 arch afloor_right
 x 4
 end
@@ -1113,6 +1151,22 @@ end
 arch grass
 x 4
 y 15
+end
+arch dungeon_magic
+x 4
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 4
+y 16
+speed_left -2.900000
+end
+arch grass
+x 4
+y 16
 end
 arch afloor_right
 x 5
@@ -1301,13 +1355,21 @@ arch grass
 x 5
 y 15
 end
+arch dungeon_magic
+x 5
+y 16
+end
 arch exit
 slaying ../world
 hp 13
 sp 10
 x 5
-y 15
+y 16
 speed_left -2.900000
+end
+arch grass
+x 5
+y 16
 end
 arch afloor_right
 x 6
@@ -1498,6 +1560,22 @@ end
 arch grass
 x 6
 y 15
+end
+arch dungeon_magic
+x 6
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 6
+y 16
+speed_left -2.900000
+end
+arch grass
+x 6
+y 16
 end
 arch afloor_right
 x 7
@@ -1691,6 +1769,22 @@ end
 arch grass
 x 7
 y 15
+end
+arch dungeon_magic
+x 7
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 7
+y 16
+speed_left -2.900000
+end
+arch grass
+x 7
+y 16
 end
 arch afloor_right
 x 8
@@ -1896,6 +1990,22 @@ arch grass
 x 8
 y 15
 end
+arch dungeon_magic
+x 8
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 8
+y 16
+speed_left -2.900000
+end
+arch grass
+x 8
+y 16
+end
 arch afloor_right
 x 9
 end
@@ -2083,6 +2193,22 @@ arch grass
 x 9
 y 15
 end
+arch dungeon_magic
+x 9
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 9
+y 16
+speed_left -2.900000
+end
+arch grass
+x 9
+y 16
+end
 arch afloor_right
 x 10
 end
@@ -2366,6 +2492,22 @@ end
 arch grass
 x 10
 y 15
+end
+arch dungeon_magic
+x 10
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 10
+y 16
+speed_left -2.900000
+end
+arch grass
+x 10
+y 16
 end
 arch afloor_right
 x 11
@@ -2612,6 +2754,22 @@ end
 arch grass
 x 11
 y 15
+end
+arch dungeon_magic
+x 11
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 11
+y 16
+speed_left -2.900000
+end
+arch grass
+x 11
+y 16
 end
 arch afloor_right
 x 12
@@ -2849,6 +3007,22 @@ arch cwall_2_2_1
 x 12
 y 15
 end
+arch dungeon_magic
+x 12
+y 16
+end
+arch exit
+slaying ../world
+hp 13
+sp 10
+x 12
+y 16
+speed_left -2.900000
+end
+arch grass
+x 12
+y 16
+end
 arch afloor_right
 x 13
 end
@@ -3084,6 +3258,14 @@ end
 arch cwall_2_1_2
 x 13
 y 15
+end
+arch dungeon_magic
+x 13
+y 16
+end
+arch grass
+x 13
+y 16
 end
 arch afloor_right
 x 14
@@ -3317,6 +3499,14 @@ arch cwall_2_1_2
 x 14
 y 15
 end
+arch dungeon_magic
+x 14
+y 16
+end
+arch grass
+x 14
+y 16
+end
 arch afloor_right
 x 15
 end
@@ -3443,6 +3633,14 @@ arch cwall_2_2_4
 x 15
 y 15
 end
+arch dungeon_magic
+x 15
+y 16
+end
+arch grass
+x 15
+y 16
+end
 arch blocked
 x 16
 end
@@ -3506,6 +3704,14 @@ arch blocked
 x 16
 y 15
 end
+arch dungeon_magic
+x 16
+y 16
+end
+arch grass
+x 16
+y 16
+end
 arch blocked
 x 17
 end
@@ -3564,6 +3770,14 @@ end
 arch blocked
 x 17
 y 8
+end
+arch dungeon_magic
+x 17
+y 16
+end
+arch grass
+x 17
+y 16
 end
 arch blocked
 x 18
@@ -3636,6 +3850,14 @@ arch blocked
 x 18
 y 8
 end
+arch dungeon_magic
+x 18
+y 16
+end
+arch grass
+x 18
+y 16
+end
 arch blocked
 x 19
 end
@@ -3704,6 +3926,14 @@ arch blocked
 x 19
 y 8
 end
+arch dungeon_magic
+x 19
+y 16
+end
+arch grass
+x 19
+y 16
+end
 arch blocked
 x 20
 end
@@ -3770,6 +4000,14 @@ arch blocked
 x 20
 y 8
 end
+arch dungeon_magic
+x 20
+y 16
+end
+arch grass
+x 20
+y 16
+end
 arch blocked
 x 21
 end
@@ -3819,6 +4057,14 @@ arch blocked
 x 21
 y 8
 end
+arch dungeon_magic
+x 21
+y 16
+end
+arch grass
+x 21
+y 16
+end
 arch blocked
 x 22
 end
@@ -3845,4 +4091,12 @@ end
 arch blocked
 x 22
 y 6
+end
+arch dungeon_magic
+x 22
+y 16
+end
+arch grass
+x 22
+y 16
 end
