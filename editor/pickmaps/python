@@ -4,7 +4,7 @@ width 20
 height 20
 msg
 Created:  2019-08-12 Kevin Zheng
-Modified: 2019-08-12 Kevin Zheng
+Modified: 2021-07-30 Saiapatsu
 endmsg
 end
 arch mailbox
@@ -34,16 +34,9 @@ title Python
 slaying /python/IPO/banksay.py
 end
 end
-arch sign
-name Scorn Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, try help.
-endmsg
+arch messageboard
 x 1
-arch event_say
-name Scorn board
-title Python
-slaying /python/IPO/board.py
+arch messageboard_say_event
 end
 end
 arch depositbox
@@ -52,5 +45,11 @@ y 2
 arch event_close
 title Python
 slaying /python/items/deposit_box.py
+end
+end
+arch messageboard_red
+x 2
+arch messageboard_say_event
+name Petitions board
 end
 end

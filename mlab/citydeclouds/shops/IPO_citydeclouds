@@ -881,17 +881,12 @@ arch cobblestones2
 x 6
 y 10
 end
-arch sign
+arch messageboard
 name City de Clouds Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, try help.
-endmsg
 x 6
 y 10
-arch event_say
+arch messageboard_say_event
 name City de Clouds board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch cobblestones2

@@ -9618,17 +9618,12 @@ y 7
 speed 0.0
 connected 9999
 end
-arch sign
+arch messageboard
 name Guild Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, say help.
-endmsg
 x 31
 y 7
-arch event_say
+arch messageboard_say_event
 name DamnedHeretic
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch blocked

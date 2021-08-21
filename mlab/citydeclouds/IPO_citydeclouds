@@ -3491,17 +3491,12 @@ name woodfloor
 x 12
 y 18
 end
-arch sign
+arch messageboard
 name CityDeClouds Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, say help.
-endmsg
 x 12
 y 18
-arch event_say
+arch messageboard_say_event
 name CityDeClouds board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch dungeon_floor

@@ -853,17 +853,12 @@ arch woodfloor
 x 9
 y 6
 end
-arch sign
+arch messageboard
 name Brest Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, try help.
-endmsg
 x 9
 y 6
-arch event_say
+arch messageboard_say_event
 name Brest board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch light4

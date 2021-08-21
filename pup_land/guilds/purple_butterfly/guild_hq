@@ -1274,17 +1274,12 @@ x 8
 y 1
 unique 1
 end
-arch sign
+arch messageboard
 name GuildMaster Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, say help.
-endmsg
 x 8
 y 1
-arch event_say
+arch messageboard_say_event
 name PurpleButterfly_GM_board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch flagstone

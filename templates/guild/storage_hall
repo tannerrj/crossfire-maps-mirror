@@ -3021,17 +3021,12 @@ no_magic 1
 unique 1
 damned 1
 end
-arch sign
+arch messageboard
 name GuildMaster Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, say help.
-endmsg
 x 9
 y 3
-arch event_say
+arch messageboard_say_event
 name GUILD_TEMPLATE_GM_board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch dungeon_magic

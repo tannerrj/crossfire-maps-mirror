@@ -679,17 +679,12 @@ arch marble
 x 7
 y 8
 end
-arch sign
+arch messageboard
 name Scorn Message Board
-msg
-I am a talking board, please say something to me.  If you don't know what to say, try help.
-endmsg
 x 7
 y 8
-arch event_say
+arch messageboard_say_event
 name Scorn board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch marble

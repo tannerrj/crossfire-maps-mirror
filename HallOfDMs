@@ -8,7 +8,7 @@ enter_x 13
 enter_y 12
 msg
 Created:  2004-04-10 Avion
-Modified: 2015-12-01 Rick Tanner
+Modified: 2021-07-30 Saiapatsu
 endmsg
 end
 arch blocked
@@ -731,18 +731,11 @@ x 3
 y 26
 unique 1
 end
-arch sign
-name Petitions for the DM
-msg
-I am a talking board, designed for leaving messages for the DM.
-If you don't know what to say, say help.
-endmsg
+arch messageboard_red
 x 3
 y 26
-arch event_say
+arch messageboard_say_event
 name Petitions board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch tile_white_floor
@@ -4355,18 +4348,15 @@ x 21
 y 26
 unique 1
 end
-arch sign
+arch messageboard
 name DM Message Board
 msg
-I am a talking board, designed for inter-DM messages.
-If you don't know what to say, say help.
+This is an inter-DM messageboard. If you don't know how to use it, say help.
 endmsg
 x 21
 y 26
-arch event_say
+arch messageboard_say_event
 name DM board
-title Python
-slaying /python/IPO/board.py
 end
 end
 arch tile_white_floor
