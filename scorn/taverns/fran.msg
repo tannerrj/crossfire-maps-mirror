@@ -62,10 +62,30 @@
   "post": [],
   "msg" : ["You're pretty nosey there fella."]
   },{
-  "match" : ["alfalfa"],
+  "match" : ["alfalfa", "dress", "key"],
+  "pre" : [["quest", "scorn/OrcDress", "=50"], ["item", "Alfalfa's Front Door Key"]],
+  "post": [["takeitem", "Alfalfa's Front Door Key"]],
+  "msg" : ["Thanks SO much!  Alfalfa appreciates you, even though they won't let her out.  Have you talked to the Magistrate in the castle yet?  Maybe you can win their favor."]
+  },{
+  "match" : ["alfalfa", "dress", "key"],
+  "pre" : [["quest", "scorn/OrcDress", "=50"]],
+  "post": [],
+  "msg" : ["Alfalfa appreciates you getting her dress, even though they won't let her out of prison.  Have you talked to the Magistrate in the castle yet?  Maybe you can win their favor."]
+  },{
+  "match" : ["alfalfa", "dress", "key"],
+  "pre" : [["quest", "scorn/OrcDress", "20-40"], ["item", "Alfalfa's Front Door Key"]],
+  "post": [],
+  "msg" : ["You are so nice for offering to retrieve her dress for her.  She takes good care of her friends."]
+  },{
+  "match" : ["alfalfa", "key"],
+  "pre" : [["quest", "scorn/OrcDress", "20-40"]],
+  "post": [["giveitem", "Alfalfa's Front Door Key"]],
+  "msg" : ["Did you lose Alfalfa's key?!  Good thing someone found it and returned it... one more time."]
+  },{
+  "match" : ["alfalfa", "key"],
   "pre" : [["quest", "scorn/OrcDress", "=10"]],
   "post": [["giveitem", "Alfalfa's Front Door Key"],["quest", "scorn/OrcDress", "20"]],
-  "msg" : ["Alfalfa sent you to get the key to her house? Ok then, here you go."]
+  "msg" : ["Alfalfa sent you to get the key to her house?  Ok then, here you go."]
   },{
   "match" : ["*"],
   "pre" : [],

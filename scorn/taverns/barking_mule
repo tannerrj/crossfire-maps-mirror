@@ -394,6 +394,9 @@ slaying alfalfakey
 msg
 This key was given by Fran in the Barking Mule tavern in Scorn.
 endmsg
+arch quest_prevent_drop
+name scorn/OrcDress 50
+end
 end
 end
 end
