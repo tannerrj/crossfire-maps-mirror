@@ -21,8 +21,6 @@ import Crossfire
 import CFGuilds
 import CFLog
 
-import sys
-import string
 from CFGuildClearance import CheckClearance
 
 activator=Crossfire.WhoIsActivator()
@@ -50,7 +48,7 @@ if (Access ==1) or (isDM == 1):
     if (guildname):
         guild = CFGuilds.CFGuild(guildname)
         guildhouse = CFGuilds.CFGuildHouses()
-        text = string.split(Crossfire.WhatIsMessage())
+        text = Crossfire.WhatIsMessage().split()
         if guild.info(activatorname) == 0 and isDM == 0:
             message = 'You don\'t belong to this guild!'
         elif text[0] == 'help' or text[0] == 'yes':
@@ -140,9 +138,8 @@ if (Access ==1) or (isDM == 1):
                     if guild.info(text[1]):
                         message = '%s is already a member.' %text[1]
                     else:
-                        #changed to support python 2.5                                                        guild.add_member(text[1], 'Initiate' if len(text)==2 else text[2])
                         guild.add_member(text[1], 'Initiate' )
-                        message = 'Added %s to the guild' %text[1]
+                        message = 'Added %s to the guild as Initiate' %text[1]
                 else:
                     message = 'Sorry, I don\'t know any %s' %text[1]
             else:
@@ -152,7 +149,7 @@ if (Access ==1) or (isDM == 1):
             if len(text)==2:
                 if record:
                     if guildhouse.change_status(guildname,text[1]):
-                        record = guildhouse.info(text[1]) #refresh record
+                        record = guildhouse.info(guildname) #refresh record
                         message = '%s now has status of %s' %(guildname, record['Status'])
                     else:
                         message = '%s is not a valid status' %text[1]
