@@ -2,13 +2,13 @@
   "rules": [
   {
   "match" : ["treasure"],
-  "pre" : [["quest", "wolfsburg/treasure-island", "=10"]],
+  "pre" : [["quest", "wolfsburg/treasure-island", "=10"], ["npctoken", "state", "job"]],
   "post" : [["quest", "wolfsburg/treasure-island", "20"]],
   "msg" : ["Yarh, I do happen.\n\nYou need a magic shovel.\n\nTalk to my friend Long John Silver in this tavern, he knows more than I do."]
   }, {
   "match" : ["pirate", "job"],
   "pre" : [["quest", "wolfsburg/treasure-island", "=10"]],
-  "post" : [],
+  "post" : [["setnpctoken", "state", "job"]],
   "msg" : ["I search the seven seas looking for treasure."],
   "replies" : [["treasure", "Talking of treasure, you don't happen to know anything about the so-called treasure island?", "2"]]
   }, {
@@ -26,5 +26,10 @@
   "pre" : [],
   "post" : [],
   "msg" : ["I search the seven seas looking for treasure."]
+  }, {
+  "match" : ["*"],
+  "pre" : [],
+  "post" : [],
+  "msg" : ["ARRRRRRR MATEY!!!!!"]
   }
 ]}
