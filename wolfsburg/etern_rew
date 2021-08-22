@@ -7,7 +7,7 @@ height 28
 enter_x 9
 enter_y 24
 msg
-Modified: 2021-07-27 Saiapatsu
+Modified: 2021-08-22 Nicolas Weeger
 endmsg
 end
 arch dungeon_floor
@@ -683,6 +683,7 @@ name map to the magic shovel
 msg
 This is a hand-drawn map by John Long Silver, but you can't make any sense of it.
 endmsg
+identified 1
 end
 end
 end
@@ -1408,9 +1409,14 @@ arch wwall_1_3
 x 8
 y 25
 end
+arch dungeon_magic
+x 8
+y 26
+end
 arch dungeon_floor
 x 8
 y 26
+move_block all
 end
 arch dungeon_floor
 x 8
@@ -1547,9 +1553,14 @@ sp 14
 x 9
 y 25
 end
+arch dungeon_magic
+x 9
+y 26
+end
 arch dungeon_floor
 x 9
 y 26
+move_block all
 end
 arch dungeon_floor
 x 9
@@ -1708,9 +1719,14 @@ sp 14
 x 10
 y 25
 end
+arch dungeon_magic
+x 10
+y 26
+end
 arch dungeon_floor
 x 10
 y 26
+move_block all
 end
 arch dungeon_floor
 x 10
@@ -1861,9 +1877,14 @@ arch wwall_1_4
 x 11
 y 25
 end
+arch dungeon_magic
+x 11
+y 26
+end
 arch dungeon_floor
 x 11
 y 26
+move_block all
 end
 arch dungeon_floor
 x 11
