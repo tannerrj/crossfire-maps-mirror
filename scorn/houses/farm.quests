@@ -3,7 +3,7 @@ title Old Man Terry Had a Farm
 description
 The Bandit leader Guuh has been beseiging Terry's farm just outside scorn
 end_description
-restart 0
+is_system 1
 step 10
 description
 The farmers have asked me to kill the bandit Guuh, and bring me his head.
@@ -49,7 +49,6 @@ title Kill the Bandit Guuh at Terry's Farm
 description
 Some farmers have asked for assistance in killing the evil bandit Guuh.
 end_description
-restart 0
 step 10
 description
 I spoke with Terry the farmer who asked me to help with some bandits who had invaded their farm he told me to speak to his wife to get a key to reach the rooms that they occupy.
@@ -94,7 +93,6 @@ title Kill the Farmer Terry on Guuh's land
 description
 Guuh claims that Terry has seized his land, and wants you to kill him and his wife so that he can reclaim it.
 end_description
-restart 0
 step 10
 description
 I spoke with Guuh, and he told me that the farmers had seized land that his band of nomads had lived on for years. Now they were seeking to kill him and his followers to secure their theft. Guuh asked me to kill the farmers, so that he and his people could live in safety and peace.
@@ -133,3 +131,4 @@ I have killed Guuh.
 end_description
 end_step
 end_quest
+
