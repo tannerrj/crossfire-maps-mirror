@@ -31,10 +31,12 @@ import Crossfire
 
 def trigger():
     player = Crossfire.WhoIsActivator()
-    if player.Type != Crossfire.Type.PLAYER:
-        return
     params = Crossfire.ScriptParameters()
     args = params.split()
+    if type(player) != Crossfire.Player:
+        # stepping off, trigger state 0
+        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 0, Crossfire.WhoAmI())
+        return
     questname = args[0]
     currentstep = player.QuestGetState(questname)
     condition = args[1]
@@ -46,6 +48,8 @@ def trigger():
         endstep= int(condition.split("-")[1])
     if currentstep >= startstep and currentstep <= endstep:
         Crossfire.Log(Crossfire.LogDebug, "QuestTriggerConnect.py: triggering connection number %s." % args[2])
-        player.Map.TriggerConnected(int(args[2]), 1, player)
+        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 1, player)
+    else:
+        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 0, player)
 
 trigger()
