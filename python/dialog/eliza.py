@@ -19,21 +19,20 @@ import string
 
 class eliza:
     def __init__(self):
-        self.keys = map(lambda x: re.compile(x[0], re.IGNORECASE),
-                        gPats)
-        self.values = map(lambda x: x[1], gPats)
+        self.keys = list(map(lambda x: re.compile(x[0], re.IGNORECASE), gPats))
+        self.values = list(map(lambda x: x[1], gPats))
 
     # ----------------------------------------------------------------------
     # translate: take a string, replace any words found in dict.keys()
     #  with the corresponding dict.values()
     # ----------------------------------------------------------------------
     def translate(self, str, dict):
-        words = string.split(string.lower(str))
+        words = str.lower().split()
         keys = dict.keys()
         for i in range(0, len(words)):
             if words[i] in keys:
                 words[i] = dict[words[i]]
-        return string.join(words)
+        return " ".join(words)
 
     # ----------------------------------------------------------------------
     #  respond: take a string, a set of regexps, and a corresponding
@@ -50,13 +49,13 @@ class eliza:
                 resp = random.choice(self.values[i])
 
                 # got a response... stuff in reflected text where indicated
-                pos = string.find(resp, '%')
+                pos = resp.find('%')
                 while pos > -1:
-                    num = string.atoi(resp[pos + 1:pos + 2])
+                    num = int(resp[pos + 1:pos + 2])
                     resp = resp[:pos] \
                         + self.translate(match.group(num),
                             gReflections) + resp[pos + 2:]
-                    pos = string.find(resp, '%')
+                    pos = resp.find('%')
 
                 # fix munged punctuation at the end
                 if resp[-2:] == '?.':
