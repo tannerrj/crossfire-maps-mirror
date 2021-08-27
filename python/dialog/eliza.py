@@ -129,7 +129,7 @@ gPats = [
     [r'(.*) sorry (.*)',
      ['There are many times when no apology is needed.',
      'What feelings do you have when you apologize?']],
-    [r'Hello(.*)', ["Hello... I'm glad you could drop by today.",
+    [r'(Hi)|(Hello(.*))', ["Hello... I'm glad you could drop by today.",
      'Hi there... how are you today?',
      'Greetings, how are you?',
      'Hello, how are you feeling today?']],
