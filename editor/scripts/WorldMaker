@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
   <name>WorldMaker</name>
-  <code><![CDATA[import java.io.IOException;
+  <code><![CDATA[import cfeditor.IGUIConstants;
+import java.io.IOException;
 import javax.imageio.ImageIO;
 import java.io.RandomAccessFile;
 import java.io.FileOutputStream;
+import java.io.File;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.file.Files;
-import java.nio.file.LinkOption;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.attribute.FileAttribute;
 
-Path getSimpleFilename(Path mapFile) {
-    String mapFilename = mapFile.toString();
+File getSimpleFilename(File mapFile) {
+    String mapFilename = mapFile.getPath();
     int i = mapFilename.lastIndexOf(File.separator);
     if (i > 0) {
         mapFilename = mapFilename.substring(i + 1);
     }
-    return Paths.get(mapFilename, new String[0]);
+    return new File(mapFilename);
 }
 
-Path getPngImageFilename(Path mapFile) {
-    return locationDir.resolve(PictureDirectory + getSimpleFilename(mapFile) + ".png");
+File getPngImageFilename(File mapFile) {
+    return new File(locationDir, PictureDirectory + getSimpleFilename(mapFile) + ".png");
 }
 
-boolean updateMap(Path mapFile, Path pictureFile) {
-    if (!Files.exists(mapFile, new LinkOption[0])) {
+boolean updateMap(File mapFile, File pictureFile) {
+    if (!mapFile.exists()) {
         return false;
     }
-    if (Files.exists(pictureFile, new LinkOption[0]) && Files.getLastModifiedTime(pictureFile, new LinkOption[0]).toMillis() >= Files.getLastModifiedTime(mapFile, new LinkOption[0]).toMillis()) {
+    if (pictureFile.exists() && pictureFile.lastModified() >= mapFile.lastModified()) {
         return false;
     }
     print("converting " + mapFile + " to " + pictureFile + ".");
@@ -41,7 +38,7 @@ boolean updateMap(Path mapFile, Path pictureFile) {
     }
     try {
         try {
-            ImageIO.write(rendererFactory.newSimpleMapRenderer(map.getMapModel()).getFullImage(), "png", pictureFile.toFile());
+            ImageIO.write(rendererFactory.newSimpleMapRenderer(map.getMapModel()).getFullImage(), "png", pictureFile);
         } catch (IOException ex) {
             print("cannot write " + pictureFile + ": " + ex.getMessage());
             return false;
@@ -71,7 +68,7 @@ void checkDaList() {
     if (Location == null || Location.length() == 0) {
         locationDir = globalSettings.getMapsDirectory();
     } else {
-        locationDir = Paths.get(Location);
+        locationDir = new File(Location);
     }
 
     print("World map will be " + DestWidth + "x" + DestHeight + " in size");
@@ -79,7 +76,7 @@ void checkDaList() {
     if (!PictureDirectory.endsWith(File.separator)) {
         PictureDirectory = PictureDirectory + File.separator;
     }
-    Files.createDirectories(locationDir.resolve(PictureDirectory), new FileAttribute[0]);
+    new File(locationDir, PictureDirectory).mkdirs();
 
     final long bytesPerPixel = 3L;
 
@@ -87,10 +84,10 @@ void checkDaList() {
     boolean firstRun = false;
     byte[] header = ("P6\n" + DestWidth + " " + DestHeight + "\n255\n").getBytes("ISO-8859-1");
     long headerSize = header.length;
-    Path destinationFilePpm = locationDir.resolve(PictureDirectory + WorldPicture + ".ppm");
-    Path destinationFilePng = locationDir.resolve(PictureDirectory + WorldPicture + ".png");
+    File destinationFilePpm = new File(locationDir, PictureDirectory + WorldPicture + ".ppm");
+    File destinationFilePng = new File(locationDir, PictureDirectory + WorldPicture + ".png");
     File tempFile = new File("/tmp/tmp.ppm");
-    if (Files.exists(destinationFilePpm, new LinkOption[0])) {
+    if (destinationFilePpm.exists()) {
         runCommand("cp '" + destinationFilePpm + "' '" + tempFile + "'");
     } else {
         print("generating empty picture");
@@ -113,10 +110,10 @@ void checkDaList() {
         for (int y = 0; y < NumY.intValue(); y++) {
             currentX = StartX.intValue() + x;
             currentY = StartY.intValue() + y;
-            currentMap = locationDir.resolve(MapFilename + "_" + currentX + "_" + currentY);
+            currentMap = new File(locationDir, MapFilename + "_" + currentX + "_" + currentY);
             currentPicture = getPngImageFilename(currentMap);
             didUpdate = updateMap(currentMap, currentPicture);
-            if ((didUpdate || firstRun) && Files.exists(currentPicture, new LinkOption[0])) {
+            if ((didUpdate || firstRun) && currentPicture.exists()) {
                 runCommand("pngtopnm '" + currentPicture + "' | pnmscale -xysize " + TileWidth + " " + TileHeight + " > '" + tempImageFile + "'");
                 FileInputStream fis = new FileInputStream(tempImageFile);
                 fis.skip(toSkip);
@@ -138,7 +135,7 @@ void checkDaList() {
     runCommand("mv /tmp/tmp.png '" + destinationFilePng + "'");
 }
 
-Path locationDir;
+File locationDir;
 checkDaList();
 print("Done!");]]></code>
   <mode>
@@ -219,3 +216,4 @@ print("Done!");]]></code>
     <value>worldmap</value>
   </parameter>
 </script>
+

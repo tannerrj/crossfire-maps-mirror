@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
   <name>LegacySpellConverter</name>
-  <code><![CDATA[import java.nio.file.Files;
-import java.nio.file.LinkOption;
-import java.nio.file.Path;
+  <code><![CDATA[import java.io.File;
 import java.util.Iterator;
-import net.sf.gridarta.model.archetype.Archetype;
-import net.sf.gridarta.model.gameobject.GameObject;
-import net.sf.gridarta.model.io.RecursiveFileIterator;
-import net.sf.gridarta.model.mapmodel.MapSquare;
+import net.sf.gridarta.gameobject.ArchetypeParser;
+import net.sf.gridarta.gameobject.ArchetypeSet;
+import net.sf.gridarta.gameobject.GameObject;
+import net.sf.gridarta.io.RecursiveFileIterator;
+import net.sf.gridarta.map.MapSquare;
 
 int countMapFiles = 0;
 int countSpellObjects = 0;
@@ -246,21 +245,21 @@ void convertGameObject(GameObject gameObject) {
     case 62: // FIREWALL
     case 109: // WAND
     case 111: // SCROLL
-/*        String spellAttribute = type == 62 ? "dam" : "sp";
+        String spellAttribute = type == 62 ? "dam" : "sp";
 
         if (!gameObject.iterator().hasNext()) {
             int spellId = gameObject.getAttributeInt(spellAttribute);
             if (spellId < 0 || spellId >= spellMapping.length || spellMapping[spellId] == null) {
                 print("invalid spell number " + spellId + " in object " + gameObject.getBestName() + " at " + gameObject.getMapX() + "/" + gameObject.getMapY());
             } else {
-                Archetype spellArchetype = archetypeSet.getOrCreateArchetype(spellMapping[spellId]);
-                GameObject spell = gameObjectFactory.createGameObject(spellArchetype);
+                GameObject spell = archetypeSet.getOrCreateArchetype(spellMapping[spellId]).createArch();
+                spell.postParseGameObject(0);
                 gameObject.addLast(spell);
                 countSpellObjects++;
             }
         }
 
-        gameObject.removeAttribute(spellAttribute);*/
+        gameObject.removeAttribute(spellAttribute);
         if (gameObject.getArchetype().getAttributeString("randomitems").length() > 0) {
             gameObject.setAttributeString("randomitems", "none");
         } else {
@@ -270,20 +269,19 @@ void convertGameObject(GameObject gameObject) {
     }
 }
 
-void convertMap(Path mapFile, String mapPath) {
-    print(mapPath.toString());
+void convertMap(File mapFile, String mapPath) {
+    print(mapPath);
 
-    try {
-        mapControl = mapManager.openMapFile(mapFile, false);
-    } catch (IOException ex) {
-        print("Cannot load map '" + mapFile + "': " + ex.getMessage());
+    mapControl = mapManager.openMapFile(mapFile, false);
+    if (mapControl == null) {
+        print("Cannot load map file");
         return;
     }
 
     try {
         mapControl.getMapModel().beginTransaction("spell conversion");
         try {
-            Iterator it1 = mapControl.getMapModel().iterator();
+            Iterator it1 = mapControl.getAllSquares().iterator();
             while (it1.hasNext()) {
                 MapSquare mapSquare = it1.next();
                 Iterator it2 = mapSquare.iterator();
@@ -296,7 +294,7 @@ void convertMap(Path mapFile, String mapPath) {
             mapControl.getMapModel().endTransaction();
         }
 
-        if (mapControl.getMapModel().isModified()) {
+        if (mapControl.isModified()) {
             countMapFiles++;
             mapControl.save();
         }
@@ -313,30 +311,16 @@ if (baseDirectory.endsWith("/")) {
     baseDirectory = baseDirectory.substring(0, baseDirectory.length() - 1);
 }
 
-Path mapDefaultFolder = globalSettings.getMapsDirectory();
-Path rootDirectory = mapDefaultFolder.resolve(baseDirectory);
-Iterator it = new RecursiveFileIterator(rootDirectory);
+String mapDefaultFolder = globalSettings.getMapsDirectory().getPath();
+String rootDirectory = mapDefaultFolder + baseDirectory;
+Iterator it = new RecursiveFileIterator(new File(rootDirectory));
 while (it.hasNext()) {
-    Path path = it.next();
-    String name = path.getFileName().toString();
-    if (Files.isRegularFile(path, new LinkOption[0])
-    && path.toString().startsWith(rootDirectory.toString())
-    && !name.equalsIgnoreCase("README")
-    && !name.endsWith(".msg")
-    && !name.endsWith(".py")
-    && !name.endsWith(".png")
-    && !name.endsWith(".ppm")
-    && !name.endsWith(".quests")
-    && !name.endsWith(".animation")
-    && !name.equals("pshop_copier")
-    && !name.equals("pshops_changelog")
-    && !name.equals(".emergency")
-    && !name.equals("ChangeLog")
-    && !name.equals("COPYING")
-    && !path.toString().contains("/.git/")
-    && !path.toString().contains("/Info/")
-    && !path.toString().contains("/editor/scripts/")) {
-        convertMap(path, path.toString().substring(mapDefaultFolder.toString().length()));
+    File file = it.next();
+    if (file.isFile()
+    && file.getPath().startsWith(rootDirectory)
+    && !file.getName().equalsIgnoreCase("README")
+    && !file.getName().endsWith(".msg")) {
+        convertMap(file, file.getPath().substring(mapDefaultFolder.length()));
     }
 }
 
@@ -353,3 +337,4 @@ print("Done. Created " + countSpellObjects + " spell objects in " + countMapFile
     <value>/</value>
   </parameter>
 </script>
+
