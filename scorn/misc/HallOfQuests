@@ -8,10 +8,10 @@ enter_x 30
 enter_y 7
 msg
 Created:  2000-06-05 peterm
-Modified: 2010-06-08 Cavesomething
+Modified: 2021-09-21 Nicolas Weeger
 endmsg
 maplore
-@def Scorn Royalty Quest
+@def scorn/ScornHero
 The Scorn Royalty Quest consists of various items to find or monsters to slay to get rewards, including :
 <ul>
 <li>royal titles, making the Scorn doors to outdoor open automatically</li>
@@ -21,7 +21,7 @@ The Scorn Royalty Quest consists of various items to find or monsters to slay to
 
 The quests starts in Scorn Castle.
 @end
-@quest Scorn Royalty Quest
+@quest scorn/ScornHero
 start map
 endmaplore
 end

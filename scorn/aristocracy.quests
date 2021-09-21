@@ -436,6 +436,14 @@ face quest_scorn_hero.111
 description
 Be pronounced Hero of Scorn
 end_description
+comment
+The Scorn Royalty Quest consists of various items to find or monsters to slay to get rewards, including :
+<ul>
+<li>royal titles, making the Scorn doors to outdoor open automatically</li>
+<li>shields</li>
+<li>weapons</li>
+</ul>
+end_comment
 step 10
 description
 I have discovered that the king is the only one who can declare me a hero. I should try speaking to someone at his court, and seek to win favour there.
@@ -462,3 +470,4 @@ scorn/GoblinKing finished
 end_setwhen
 end_step
 end_quest
+
