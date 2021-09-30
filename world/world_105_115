@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2020-01-13 Rick Tanner
+Modified: 2021-09-30 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -1642,6 +1642,11 @@ arch grass
 x 3
 y 43
 end
+arch fountain
+x 3
+y 43
+speed_left -94.099998
+end
 arch dungeon_magic
 x 3
 y 44
@@ -1651,10 +1656,12 @@ x 3
 y 44
 elevation 4981
 end
-arch fountain
+arch sign_w
+msg
+Castle of Scorn - Honor, Glory, and Royal Titles await for the Brave
+endmsg
 x 3
 y 44
-speed_left -94.099998
 end
 arch dungeon_magic
 x 3
@@ -1683,10 +1690,12 @@ x 3
 y 47
 elevation 9406
 end
-arch fountain
+arch sign_w
+msg
+Castle of Scorn - Honor, Glory, and Royal Titles await for the Brave
+endmsg
 x 3
 y 47
-speed_left -94.099998
 end
 arch dungeon_magic
 x 3
@@ -1695,6 +1704,11 @@ end
 arch grass
 x 3
 y 48
+end
+arch fountain
+x 3
+y 48
+speed_left -94.099998
 end
 arch dungeon_magic
 x 3
