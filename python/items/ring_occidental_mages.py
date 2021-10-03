@@ -48,5 +48,5 @@ if (me.Applied == 0):
 			me.Con = me.Con - 1
 			me.Identified=0
 
- 	if rest:
+	if rest:
 		rest.InsertInto(me.Env)
