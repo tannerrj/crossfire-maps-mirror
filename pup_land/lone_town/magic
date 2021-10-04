@@ -8,7 +8,7 @@ enter_x 7
 enter_y 10
 msg
 Created:  1997-11-26
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch blocked
@@ -287,15 +287,15 @@ arch beholder
 name Fool
 msg
 @match i don't know
-At least you are an honest person.  I have decided to give you the token, but I can't stand your ugly face any more! GO AWAY!!
+At least you are an honest person. I have decided to give you the token, but I can't stand your ugly face anymore! GO AWAY!!
 @match token
-You do want the token don't you? So...  If you can answer my query, I'll give you the token.  Ok?
+You do want the token, don't you? So...  If you can answer my query, I'll give you the token.  Ok?
 @match yes|ok
-My query for you is .. "Where is the Belzebub's sword?"
+My query for you is ... "Where is the Belzebub's sword?"
 @match here|there
-Are you sure!? You think the Belzebub's sword would be here!? You are stupid and annoying.  Go away!!
+Are you sure!? Do you think the Belzebub's sword would be here!? You are stupid and annoying. Go away!!
 @match *
-I hate your face!  I won't sell you anything!!
+I hate your face! I won't sell you anything!!
 endmsg
 hp 500
 maxhp 500
@@ -2561,13 +2561,13 @@ arch conjurer
 name Magician
 msg
 @match token|fool
-I'm afraid that crazy beholder-Fool will provide you with a query instead of the token.  His queries usually are quite difficult, so, if you cannot answer his query, just say honestly "I don't know."
+I'm afraid that crazy beholder-Fool will provide you with a query instead of the token. His queries usually are quite difficult, so, if you cannot answer his query, just say honestly "I don't know."
 @match no
 Then go ahead and buy a token.
 @match yes
-It's phantastic, isn't it?
+It's fantastic, isn't it?
 @match *
-Customer! Welcome to our famous magic show.  Have you seen it yet?
+Customer! Welcome to our famous magic show. Have you seen it yet?
 endmsg
 hp 400
 x 12

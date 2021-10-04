@@ -8,7 +8,7 @@ enter_x 24
 enter_y 37
 msg
 Created:  2008-05-17 Nicolas Weeger
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 maplore
 The university features:
@@ -1937,33 +1937,33 @@ According to the few historical records we know, the Empire of Khelens was a big
 
 Scorn and Navar were originally colonies from this Empire.
 
-Unfortunately, something happened to it some millenia ago, all contact was lost, and no one really knows what happened to it.
+Unfortunately, something happened to it some millennia ago, all contact was lost, and no one knows what happened to it.
 @match world
-Well, explaining everything would take really much time, time I don't have, sorry.
+Well, explaining everything would take much time, time I don't have, sorry.
 
 Let's just say that many cities are just colonies of the Empire of Khelens.
 @question khelens The Empire of Khelens?
 @match navar
 Navar was once a colony of Khelens.
 
-After the loss of contact, both Navar and Scorn became rival for glory.
+After the loss of contact, both Navar and Scorn became rivals for glory.
 @question khelens The Empire of Khelens?
 @question scorn What about Scorn?
 @match herghist
-Herghist was a famour explorer, who travelled the world without seeking any glory.
+Herghist was a famous explorer, who traveled the world without seeking any glory.
 @match darcap
 Ha, the lost colony of Darcap...
 
 Initially, Darcap was a colony of the Kingdom of the Masts, left to survive when the kingdom disappeared.
 
-It was forgotten for millenia, before the famous explorer Herghist arrived there about two thousand years ago.
+It was forgotten for a millenia before the famous explorer Herghist arrived there about two thousand years ago.
 @question herghist Herghist?
 @match scorn
 Scorn was the first colony of the Empire of Khelens to be established on this continent.
 
 The founder was Skud the Great, in 435 EK.
 
-In the next millenias, Scorn was destroyed a lot.
+In the next millenia, Scorn was destroyed a lot.
 @question khelens The Empire of Khelens?
 @question ek What does 'EK' mean?
 @match ek
@@ -3100,7 +3100,7 @@ arch sage
 name Shabrao
 msg
 @match magic
-We do have one, but they are doing a dangerous experiment so they sealed themselves off in the second floor, unfortunately.
+We do have one, but they are doing a dangerous experiment so they sealed themselves off on the second floor, unfortunately.
 @match geography
 Hum, I think professors Plifu and Shandrik are specialists. Yes, this is it.
 
@@ -9515,7 +9515,7 @@ msg
 @match lorkas
 Lorkas, you say? Hum, let's see...
 @match *
-Howdy. I'm professor Drolf, and monsters are my speciality.
+Howdy. I'm professor Drolf, and monsters are my specialty.
 
 Can I help you?
 endmsg

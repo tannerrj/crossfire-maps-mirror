@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  2003-04-27 Avion
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -284,7 +284,7 @@ Juanita Valdez... Yours?
 @match quest
 Park it and enjoy the java...
 @match *
-Mmmmm, mountain grown.
+Mmmmm, mountain-grown.
 endmsg
 x 3
 y 9
@@ -606,7 +606,7 @@ msg
 @match hello|hi
 Hello stranger.
 @match job|work
-I'm looking for someone to do a job for me.  You interested?
+I'm looking for someone to do a job for me. Are you interested?
 @match interested|what|yes
 Pay ya 500 gold to find my goose.
 @match goose
@@ -616,7 +616,7 @@ I'm not telling, you might not bring her back...
 @match 500
 Worth every coin too.
 @match clue|idea|lead|lost|suspicious
-Well Oled has always been jealous of my goose...
+Well, Oled has always been jealous of my goose...
 @match *
 Finest brew east of Navar.
 endmsg

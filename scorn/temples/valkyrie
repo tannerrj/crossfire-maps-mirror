@@ -10,7 +10,7 @@ enter_x 7
 enter_y 17
 msg
 Created: 2003-08-17 Lalo Martins
-Modified: 2020-12-17 Nicolas Weeger
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -1325,7 +1325,7 @@ arch knight
 name Priest of Valkyrie
 msg
 @match valkyrie
-Valkyrie is the warrior goddess.  She abhors all magic, unnatural creatures and other similar abominations.  Therefore Her priests are forbidden to use magic, even priest magic.  Priests of other gods say we're not real priests if we don't have divine magic, but don't be fooled - She grants us with protection from filthy magic, and blesses our weapons if we're faithful enough.
+Valkyrie is the warrior goddess. She abhors all magic, unnatural creatures, and other similar abominations. Therefore Her priests are forbidden to use magic, even priest magic.  Priests of other gods say we're not real priests if we don't have divine magic, but don't be fooled - She grants us protection from filthy magic and blesses our weapons if we're faithful enough.
 @match *
 Behold the glory of Valkyrie, the Deathbringer.
 endmsg

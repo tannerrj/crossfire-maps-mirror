@@ -8,7 +8,7 @@ enter_x 11
 enter_y 1
 msg
 Created:  2003-04-27 Avion
-Modified: 2021-07-27 Saiapatsu
+Modified: 2021-10-03 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -930,7 +930,7 @@ end
 arch woman
 msg
 @match *
-Get lost! You think you can just barge into other people's houses?
+Get lost! Do you think you can just barge into other people's houses?
 endmsg
 x 5
 y 14
@@ -2723,7 +2723,7 @@ Chancy is my pet sheep, and don't you make any wise cracks about it.
 @match sea|pirate|life
 I never should have married her. I should have stayed at sea, and taken no wife.
 @match *
-Yo ho ho!  A pirate's life for me.  I should have stayed at sea.
+Yo ho ho!  A pirate's life for me. I should have stayed at sea.
 endmsg
 x 17
 y 8
@@ -3617,9 +3617,9 @@ msg
 @match staff|walking
 Yup lost my walking stick - have ya seen it?
 @match stick
-Ya say yer sick?  That's a darn shame! I get a touch of the wind myself sometimes...
+Ya say yer sick? That's a darn shame! I get a touch of the wind myself sometimes...
 @match ear
-You looking for deer? Used to be a woodsman myself.  Try the woods to the east - lots of game there...
+You looking for deer? Used to be a woodsman myself. Try the woods to the east - lots of game there...
 @match woods|east
 Don't mumble - out with it now...
 @match *

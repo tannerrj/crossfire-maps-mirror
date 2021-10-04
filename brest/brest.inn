@@ -8,7 +8,7 @@ enter_x 14
 enter_y 23
 msg
 Created:  1994-09-24 Gene Alexander
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch brush
@@ -3320,7 +3320,7 @@ end
 arch fighter
 msg
 @match yes|no|palace
-There are nine gates in the palace.  They are often referred to as the "Nine Gates of Hell".  I managed to enter the first two of them, yet the monsters behind the third gate are too hard for me. *sigh*
+There are nine gates in the palace. They are often referred to as the "Nine Gates of Hell". I managed to enter the first two of them, yet the monsters behind the third gate are too hard for me. *sigh*
 @match *
 @reply no No, I didn't.
 @reply yes Yes... what about it?
@@ -4168,15 +4168,15 @@ end
 arch sage
 msg
 @match irritable|zorn
-Ah, yes.  I do not know much about the Zorn family.  They are quite a secretive bunch.
+Ah, yes. I do not know much about the Zorn family. They are quite a secretive bunch.
 @question secretive How are they secretive?
 @match secretive
-Yes, secretive and dangerous.  I do not want to be the subject of the Zorn family wrath.
+Yes, secretive and dangerous. I do not want to be the subject of the Zorn family's wrath.
 @question dangerous So they are dangerous too?
 @match dangerous
-I mean dangerous as in those that bother or upset the Zorns end up dead.  Haemon, the owner of the Brest Seaside Tavern, used to work for the Zorns.  Go ask him your questions.
+I mean dangerous as in those that bother or upset the Zorns end up dead. Haemon, the owner of the Brest Seaside Tavern, used to work for the Zorns. Go ask him your questions.
 @match *
-You must be strong to survive in the dungeons of Brest.  Look at me, I have grown too old.
+You must be strong to survive in the dungeons of Brest. Look at me, I have grown too old.
 endmsg
 x 24
 y 8
@@ -4378,15 +4378,15 @@ arch fighter
 name TCI Representative
 msg
 @match tci
-Training Centers Incorporated is the best dang training you'll ever get.  We have locations all over the world in exotic settings.  Come fight with us! (heh, they tell us we have to say all that)
+Training Centers Incorporated is the best dang training you'll ever get. We have locations all over the world in exotic settings. Come fight with us! (heh, they tell us we have to say all that)
 @question location Where are these locations?
 @match location
-Well, I don't know about all of them.  But our local TCI is off the road south of here just the other side of the mountain pass.  The road may be easier to reach from the Lake Country side.  Just look for one of our signs!
+Well, I don't know about all of them. But our local TCI is off the road south of here just the other side of the mountain pass. The road may be easier to reach from the Lake Country side. Just look for one of our signs!
 @match hello|hi
-Well, hello there! Sit down and chat with me a bit.  I am always looking for new people to tell about TCI.
+Well, hello there! Sit down and chat with me a bit. I am always looking for new people to tell about TCI.
 @question tci What is TCI?
 @match *
-Hi there young'un.  Wanna join TCI?
+Hi there young'un. Wanna join TCI?
 @question tci What is TCI?
 endmsg
 x 25

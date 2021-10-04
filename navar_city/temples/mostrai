@@ -8,7 +8,7 @@ enter_x 14
 enter_y 33
 msg
 Created:  1993-11-10 Cater & Wade (john_cater@yahoo.com)
-Modified: 2021-07-21 Saiapatsu
+Modified: 2021-10-03 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2140,7 +2140,7 @@ end
 arch dwarf_priest
 msg
 @match smugglers
-Then I can help you....the smugglers are headquartered in one of the warehouses.  Which one I do not know, but it may lead to their enterance to the city.  Here is the key to their front door.
+Then I can help you....the smugglers are headquartered in one of the warehouses. Which one I do not know, but it may lead to their entrance to the city. Here is the key to their front door.
 @match *
 Are you here about the smugglers??
 endmsg
@@ -3349,7 +3349,7 @@ end
 arch dwarf_priest
 msg
 @match *
-To go on you must prove your worthiness.  Place the drinks of life or death on a sacrifical altar so that you may continue.
+To go on you must prove your worthiness. Place the drinks of life or death on a sacrificial altar so that you may continue.
 endmsg
 x 14
 y 8
@@ -4692,7 +4692,7 @@ end
 arch dwarf_priest
 msg
 @match smugglers
-Then I can help you....the smugglers are headquartered in one of the warehouses.  Which one I do not know, but it may lead to their enterance to the city.  Here is the key to their front door.
+Then I can help you....the smugglers are headquartered in one of the warehouses. Which one I do not know, but it may lead to their entrance to the city. Here is the key to their front door.
 @match *
 Are you here about the smugglers??
 endmsg

@@ -8,7 +8,7 @@ enter_x 10
 enter_y 20
 msg
 Created:  1996-02-15
-Modified: 2014-09-28 Jason Zheng
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch grass
@@ -2395,7 +2395,7 @@ You should talk to him. He might know some interesting information.
 @match bobbie
 Look, that's the guy up there. The one who is standing next to the wall.
 @match no
-Calvin is our spy. He has entered the Headquarter of Resistance secretly, pretending to be a soldier.
+Calvin is our spy. He has entered the Headquarters of Resistance secretly, pretending to be a soldier.
 @match *
 Do you know Calvin?
 endmsg

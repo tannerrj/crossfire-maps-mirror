@@ -8,7 +8,7 @@ enter_x 12
 enter_y 23
 msg
 Created:  1997-01-22
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch afloor_left
@@ -228,7 +228,7 @@ Fox Tails live in the forest, somewhere in the center of Lone Town. But we don't
 @match nazgul
 Nazgul's crew lives in the power plant, to the west of Lone Town.
 @match gang|bandit
-One is Nazgul and his devils, the other one is called "Fox Tails." The former are very cruel, as Nazgul kills anyone on sight. The latter don't murder people.
+One is Nazgul and his devils, the other one is called "Fox Tails." The former is very cruel, as Nazgul kills anyone on sight. The latter don't murder people.
 @match rob
 There are two Gangs of Bandits in this town.
 @match *
@@ -1259,7 +1259,7 @@ He has no daughter.
 @match family
 Eureca has a Wife and a Son.
 @match eureca|no
-He used to be the lord of this country, but he disappeared two years ago. His Family is still waiting for him to return.
+He used to be the lord of this country, but he disappeared two years ago. His family is still waiting for him to return.
 @match *
 Do you know the Castle of Eureca?
 endmsg
@@ -1324,7 +1324,7 @@ msg
 @match item
 Shopkeepers say, "Transports are stopped by the war." But they hide many items under their shop, and wait for a rise in prices!
 @match yes
-There are only a few Items in it.
+There are only a few items in it.
 @match no
 You better not go there!
 @match *
@@ -1936,7 +1936,7 @@ msg
 @match tree
 He loves trees very much.
 @match tower
-He plants Trees around the tower.
+He plants trees around the tower.
 @match pupuly
 He lives in his Tower.
 @match *
@@ -2142,7 +2142,7 @@ arch viking
 name Frederick
 msg
 @match heinrich
-We live in the sourtheastern part of Lone Town.
+We live in the southeastern part of Lone Town.
 @match yes
 So, I suspect you have traveled to many places? Have you ever seen the prehistorical site? My brother, Heinrich, has searched for that prehistorical site for many years now. If you know anything about it, please go and talk to Heinrich.
 @match *
@@ -3269,7 +3269,7 @@ msg
 @match electric|power|plant
 It's located to the west of Lone Town. Would you retrieve the report for me?
 @match thieves
-Their aggitating point (agito) is the Electric Power Plant.
+Their agitating point (agito) is the Electric Power Plant.
 @match nazgul
 He is the boss of those Thieves.
 @match note
@@ -3277,7 +3277,7 @@ It is the Nazgul Report. We must know and understand him to defeat him. Now he s
 @match yes
 Thanks. If you get the Report, please put it on this table. I'll give you my special tool. But be careful! Nazgul is an odd creature, and his bodyguard, Ologhi, is very strong.
 @match *
-My research Notes were stolen by thieves!
+My research notes were stolen by thieves!
 endmsg
 hp 280
 x 22
@@ -3365,7 +3365,7 @@ arch guildmaster
 name Bob
 msg
 @match nurnberg
-Nurnberg is located east from here.
+Nurnberg is located east of here.
 @match lickmond
 He works for Bauer. He is the general of the Regular Army.
 @match bauer

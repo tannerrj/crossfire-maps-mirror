@@ -9,7 +9,7 @@ enter_x 11
 enter_y 24
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2021-07-30 Saiapatsu
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch pstone_2
@@ -287,7 +287,7 @@ arch veiled_woman3
 name veiled woman
 msg
 @match *
-I want to get in! Could you buy me a ticket please?
+I want to get in! Could you buy me a ticket, please?
 endmsg
 x 1
 y 10
@@ -2934,7 +2934,7 @@ msg
 @match question
 I don't know, I'm just a librarian. Go ask other adventurers or something.
 @match *
-Arrgghh, quit bothering me! If you have a question, go read the books over there!
+Arrgghh quit bothering me! If you have a question, go read the books over there!
 @reply question What if I have a different question?
 endmsg
 x 16

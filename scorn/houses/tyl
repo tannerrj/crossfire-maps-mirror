@@ -7,7 +7,7 @@ enter_x 3
 enter_y 9
 msg
 Created:  2009-12-05 Nicolas Weeger
-Modified: 2021-07-25 Kevin Zheng
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -393,9 +393,9 @@ arch guildmaster
 name Tyl
 msg
 @match amudrias
-Great, you really know the history of the world! Feel free to go look at my books all your heart, but don't pick any please.
+Great, you really know the history of the world! Feel free to go look at my books all your heart, but don't pick any, please.
 @match please
-Ha well, you seem like a decent follow, so I will let you look if you can reply to this question: where did Lorkas the fallen come from?
+Ha well, you seem like a decent fellow, so I will let you look if you can reply to this question: where did Lorkas the fallen come from?
 @match see
 Well, I'm not sure, they are precious ones...
 @match store

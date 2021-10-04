@@ -8,7 +8,7 @@ enter_x 12
 enter_y 19
 msg
 Created:  1993-11-01 (john_cater@yahoo.com)
-Modified: 2021-07-30 Saiapatsu
+Modified: 2021-10-02 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1163,7 +1163,7 @@ arch woman
 name receptionist
 msg
 @match yes
-I'm sorry, I don't see your name in the patient list. Are you sure?
+I'm sorry, I don't see your name on the patient list. Are you sure?
 @reply no No, I forgot to make an appointment.
 @match no
 That's fine. Dr. Eliza is free right now, so you can go in.

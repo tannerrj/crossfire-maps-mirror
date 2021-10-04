@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1588,7 +1588,7 @@ x 4
 y 7
 end
 arch a_townsman
-name abraham
+name Abraham
 msg
 @match *
 Why do people always have to fight? Is it really so much fun?
@@ -11894,7 +11894,7 @@ end
 arch fatman
 msg
 @match *
-*Munch*, *munch*... Did you visit the snack-shop yet? It's on the other side... *munch*
+*Munch*, *munch*... Did you visit the snack shop yet? It's on the other side... *munch*
 endmsg
 hp 100
 maxhp 100
@@ -15975,7 +15975,7 @@ arch a_priest
 name medic
 msg
 @match *
-At the first-aide station we bring all the gladiators back to perfect health.
+At the first-aide station, we bring all the gladiators back to perfect health.
 endmsg
 x 31
 y 4

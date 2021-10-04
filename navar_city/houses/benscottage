@@ -8,7 +8,7 @@ enter_x 11
 enter_y 12
 msg
 Created:  2012-03-20 Rick Tanner
-Modified: 2014-06-17 jwright
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -508,9 +508,9 @@ arch c_man
 name Ben
 msg
 @match daughters
-My daughters Susan and Nancy.  They were captured by smugglers.  We were ambushed, I got away and am trying to get help for them.
+My daughters Susan and Nancy. They were captured by smugglers. We were ambushed, I got away and am trying to get help for them.
 @match smugglers
-Yes members of the smugglers guild.  I heard them say they would take the girls to 'Smugglers Cove.'  You must help me find them.
+Yes, members of the smugglers guild. I heard them say they would take the girls to 'Smugglers Cove.' You must help me find them.
 @match cove
 I don't know where it is but maybe someone at the Frolicking Mermaid would?
 @match *

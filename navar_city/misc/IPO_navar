@@ -9,7 +9,7 @@ enter_y 9
 msg
 Created:  2001-09-05 Commander Gros (yann.chachkoff@mailandnews.com)
 Following a Lord MiDS idea
-Modified: 2012-05-05 Rick Tanner
+Modified: 2021-10-03 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -270,9 +270,9 @@ end
 arch greater_dwarven_guard
 msg
 @match hi|hello
-Greetings.  Have a pleasant day.
+Greetings. Have a pleasant day.
 @match *
-We donna tolerate no shenanigans around these parts.
+We don't tolerate any shenanigans around these parts.
 endmsg
 exp 0
 x 3

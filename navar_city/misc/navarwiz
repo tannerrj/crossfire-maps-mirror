@@ -9,7 +9,7 @@ enter_x 5
 enter_y 5
 msg
 Created:  2006-08-11 Alex Schultz
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -330,9 +330,9 @@ end
 arch guildmaster
 msg
 @match terrance|rhyz
-Oh! Terrance must have sent you? If he needs more gem essence, drop the bottle where the gem to magically fill it.
+Oh! Terrance must have sent you? If he needs more gem essence, drop the bottle where the gem is to magically fill it.
 @match magic
-For my own protection I've made an anti-magic field here.
+For my own protection, I've made an anti-magic field here.
 @match hiding
 Terrance and I are hiding from the kings of Scorn and Navar.
 @match *

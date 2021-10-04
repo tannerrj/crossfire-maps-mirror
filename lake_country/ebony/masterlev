@@ -9,7 +9,7 @@ width 25
 height 25
 msg
 Created:  1995-04-24 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -1957,9 +1957,9 @@ msg
 @match door|exit
 Do you deserve to be a guild member if you can't even find the door by yourself!!??
 @match symbol|thivery
-You may use the master key for many uses.  Keep them safe and you will find it useful.
+You may use the master key for many uses. Keep them safe and you will find them useful.
 @match *
-Hello stranger! So you want to be a member of the guild!? Well, since you passed the test, I will let you in the guild.  There are many things that the guild provide you.  Make your contributions on time, remember! And be a good fellow.  Okay you may go now.  You have to search the rooms for the master keys of thievery, which you may have and use as symbol of this guild.
+Hello stranger! So you want to be a member of the guild!? Well, since you passed the test, I will let you in the guild. There are many things that the guild provides you. Make your contributions on time, remember! And be a good fellow. Okay, you may go now. You have to search the rooms for the master keys of thievery, which you may have and use as a symbol of this guild.
 endmsg
 face guildmaste.111
 hp 3000
@@ -3250,13 +3250,13 @@ arch viking
 name viking guildguard
 msg
 @match door|secret
-The door is between two of us.  Go straight.
+The door is between the two of us. Go straight.
 @match key
-Oh yeah.  You need to have the Master key of thievery to enter next room.  The keys are hidden under the table.
+Oh yeah.  You need to have the Master key of thievery to enter the next room. The keys are hidden under the table.
 @match thievery
-The master key of thievery is a symbol of the guild, besides being a key.  It has many uses and opens many doors that open guildmembers are allowed.
+The master key of thievery is a symbol of the guild, besides being a key. It has many uses and opens many doors that open guildmembers are allowed.
 @match *
-Hello fellow guild members.
+Hello, fellow guild members.
 endmsg
 hp 500
 dam 40

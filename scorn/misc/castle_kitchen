@@ -8,7 +8,7 @@ enter_x 6
 enter_y 3
 msg
 Created:  2007-05-26 Nicolas Weeger
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2021-10-03 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -595,7 +595,7 @@ My friend Sentrio lives somewhere in Lake Country, but I don't remember where ex
 
 I do know eggs from his chicken are the only ones worth my cooking skill!
 @match mushroom
-Yes, it's a blue one, I think it grows in a marsh in the west.  I've heard it can be used for medicine, too.
+Yes, it's a blue one, I think it grows in a marsh in the west. I've heard it can be used for medicine, too.
 @match ingredients
 You need the following:
 - 4 eggs from my friend Sentrio's chicken
@@ -607,9 +607,9 @@ Then you'll have to bring me the ingredients.
 
 As you can see, I've lost my both arms during the last war against the Gnolls, so would you be kind enough to put whatever you found during your travel to make the recipe in the frypan, please?
 
-You wonder how I cook without arms? Heh, rookie, that's what makes the difference between a cooker and me, Farnass! I told you already: I'm simply wonderful.
+Do you wonder how I cook without arms? Heh, rookie, that's what makes the difference between a cooker and me, Farnass! I told you already: I'm simply wonderful.
 @match lursendis
-Ha, this old friend of me.  I haven't seen him in years, I wonder how he's doing...
+Ha, this old friend of mine. I haven't seen him in years, I wonder how he's doing...
 @match *
 Please don't disturb me, I'm trying a really hard recipe.
 endmsg

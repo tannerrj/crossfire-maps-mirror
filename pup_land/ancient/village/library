@@ -8,7 +8,7 @@ enter_x 6
 enter_y 12
 msg
 Created:  2000-06-03
-Modified: 2012-04-02 Rick Tanner
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -945,15 +945,15 @@ arch merchant
 name Romeo
 msg
 @match lara
-You have seen her?  In the castle... What did she say? - Afterlife?  That is not an option, I want to have babies with her!  Please, could you do me a favour?
+You have seen her? In the castle... What did she say? - Afterlife? That is not an option, I want to have babies with her! Please, could you do me a favor?
 @match julia|juliet
 It is not THAT easy, you know...
-@match favour
-Great, please defeat the Evil Masters!  Take this book of mine.  It might help you to find your way through that castle.
+@match favor
+Great, please defeat the Evil Masters! Take this book of mine  It might help you to find your way through that castle.
 @match wife
-You have seen her?  You are a liar, you don't even know her name.
+You have seen her? You are a liar, you don't even know her name.
 @match *
-I'm working on the translation of ancient scripts.  The Evil Masters don't want the ancient scripts to be translated.  So they have captured my wife... because they knew that would be worse than killing ME!
+I'm working on the translation of ancient scripts. The Evil Masters don't want the ancient scripts to be translated. So they have captured my wife... because they knew that would be worse than killing ME!
 endmsg
 hp 100
 maxhp 100

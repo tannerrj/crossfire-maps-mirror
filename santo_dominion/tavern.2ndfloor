@@ -6,7 +6,7 @@ width 33
 height 31
 msg
 Created:  Andreas Vogl (red.blaze@gmx.net)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch grass
@@ -827,7 +827,7 @@ end
 arch guard
 msg
 @match *
-These are the private rooms of Bonzo the Banker.  You cannot pass.
+These are the private rooms of Bonzo the Banker. You cannot pass.
 endmsg
 face guard_med.111
 x 5
@@ -1032,10 +1032,10 @@ arch thief
 name Thief
 msg
 @match money|bonzo|bank|guard
-I'd like to sneak in there and steal Bonzo's money.  But the guard never moves out.  Damn it.
+I'd like to sneak in there and steal Bonzo's money. But the guard never moves out.  Damn it.
 @match *
 @question money And why is money important?
-Bonzo the Banker's room is on the opposite side of the corridor.  I'm sure he wouldn't employ guards if there wasn't good money in there.
+Bonzo the Banker's room is on the opposite side of the corridor. I'm sure he wouldn't employ guards if there wasn't good money in there.
 endmsg
 hp 500
 maxhp 500
@@ -1877,7 +1877,7 @@ arch fatman
 name Bonzo the Banker
 msg
 @match *
-Nooo! Don't steal my money.  It's all mine, mine, miiiine!
+Nooo! Don't steal my money. It's all mine, mine, miiiine!
 endmsg
 x 11
 y 7
@@ -3858,22 +3858,22 @@ arch mage
 name Warloc Druid
 msg
 @match viper
-A brood of shadow vipers exists somewhere down the well of Santo Dominion.  We've got only one well here in town, so you can't miss it.  Anyways, be careful down there!
+A brood of shadow vipers exists somewhere down the well of Santo Dominion. We've got only one well here in town, so you can't miss it. Anyways, be careful down there!
 @match mudman
-The mudman is a vile creature.  He lurks in the marshes south-west of this town.  It is said that in very dark nights, when no moon is shining, he leaves the swamp to sneak around our houses.
+The mudman is a vile creature.  He lurks in the marshes south-west of this town. It is said that in very dark nights, when no moon is shining, he leaves the swamp to sneak around our houses.
 @match yes|cure|okay
 I'm still lacking three essential ingredients to mix a cure for my friend:
 - a beholder's tongue
 - a scorpion's stinger
 - skin of the shadow viper
-When you have the ingredients, put them into the cauldron here.  As a reminder you can take the list of ingredients from the bookshelf with you.
+When you have the ingredients, put them into the cauldron here. As a reminder you can take the list of ingredients from the bookshelf with you.
 @question viper Where can I find a shadow viper?
 @match help|gorgon|poison
-Gorgon is a mighty warrior.  A week ago he went into the marshes looking for the mudman who dwells there.  During battle, the mudman infected Gorgon with deadly poison.  Gorgon fled, but his life is fading.  Would you help me to create a cure for him?
+Gorgon is a mighty warrior.  A week ago he went into the marshes looking for the mudman who dwells there. During battle, the mudman infected Gorgon with deadly poison. Gorgon fled, but his life is fading. Would you help me to create a cure for him?
 @question mudman What is the mudman?
 @reply yes Ok, I'll help.
 @match *
-Do you see my friend Gorgon in the other room? He got poisoned.  We need your help!
+Do you see my friend Gorgon in the other room? He got poisoned. We need your help!
 @question help How can I help?
 endmsg
 face mage.131
@@ -3972,10 +3972,10 @@ arch c_man
 name Sorcerer
 msg
 @match yes|story
-North of Santo Dominion there is a huge tower, called the "Tower of Demonology."  It has been a school for summoning wizards long ago.  Someday, an evil shadow crept in there.  Rumors tell that a group of wizards had abused their power to summon demons.
+North of Santo Dominion there is a huge tower, called the "Tower of Demonology." It has been a school for summoning wizards long ago. Someday, an evil shadow crept in there.  Rumors tell that a group of wizards had abused their power to summon demons.
 @match *
-@reply yes Sure, I always enjoy adventure stories.
-You look like you are seeking adventures.  Care to hear a story?
+@reply yes Sure I always enjoy adventure stories.
+You look like you are seeking adventures. Care to hear a story?
 endmsg
 face sorcerer.151
 animation sorcerer_class
@@ -4228,7 +4228,7 @@ y 17
 arch plate_mail
 title of dominion
 msg
-This plate mail is forged of high quality steel.  It is lighter than usual but just as strong.  It even seems to protect a little against fire.
+This plate mail is forged of high quality steel. It is lighter than usual but just as strong. It even seems to protect a little against fire.
 endmsg
 resist_fire 20
 value 5000
@@ -4762,7 +4762,7 @@ end
 arch northman
 msg
 @match *
-Come have a bite with me.  This food is real good.
+Come have a bite with me. This food is really good.
 endmsg
 x 26
 y 9
@@ -5574,7 +5574,7 @@ arch fighter
 name Gorgon the Warrior
 msg
 @match *
-Thank you for saving me.  You shall have my famous plate mail as reward.  It's in the chest right there.
+Thank you for saving me.  You shall have my famous plate mail as a reward.  It's in the chest right there.
 endmsg
 x 30
 y 28

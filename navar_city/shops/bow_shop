@@ -11,7 +11,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  2010-08-04 Nicolas Weeger
-Modified: 2012-10-04 Rick Tanner
+Modified: 2021-10-02 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -890,7 +890,7 @@ msg
 @match monk
 Yes, business is business, you know.
 @match *
-@question monk You're a monk, and still you sell weapons?
+@question monk You're a monk, and still, you sell weapons?
 Hello, please enjoy my weapon collection.
 endmsg
 face monk.151

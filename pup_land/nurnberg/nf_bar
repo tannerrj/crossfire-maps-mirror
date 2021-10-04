@@ -11,7 +11,7 @@ enter_x 12
 enter_y 1
 msg
 Created:  1996-02-10
-Modified: 2021-07-23 Saiapatsu
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones
@@ -302,7 +302,7 @@ arch cleric
 name Masa-O
 msg
 @match *
-Baby, I love you.  I can't control myself any more.
+Baby, I love you. I can't control myself anymore.
 endmsg
 face cleric.131
 hp 100
@@ -1241,7 +1241,7 @@ end
 arch sailor
 msg
 @match *
-...Shake it baby!
+...Shake it, baby!
 endmsg
 hp 180
 maxhp 180
@@ -3223,13 +3223,13 @@ end
 arch conjurer
 msg
 @match bauer
-Bauer is a greedy and selfish person.  After Dick built the castle for him, Bauer didn't pay enough money.  Dick is still very angry about that.
+Bauer is a greedy and selfish person. After Dick built the castle for him, Bauer didn't pay enough money. Dick is still very angry about that.
 @match castle
 It's to the north of this town.
 @match dick
-He is a carpenter.  He built many buildings in this city, even the castle of Bauer.
+He is a carpenter. He built many buildings in this city, even the castle of Bauer.
 @match dungeon
-Dick is kinda sadistic sometimes.  His dungeons are very tricky and dangerous.  Be careful!
+Dick is kinda sadistic sometimes. His dungeons are very tricky and dangerous. Be careful!
 @match yes
 You should try Dick's dungeons.
 @match *

@@ -8,7 +8,7 @@ enter_x 12
 enter_y 15
 msg
 Created:  1996-03-02
-Modified: 2021-07-28 Saiapatsu
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1177,7 +1177,7 @@ msg
 @match head
 It's here in this city.
 @match lickmond
-He is the general of the Regular Army. Usually he can be found in the Headquarter of the Regular Army.
+He is the general of the Regular Army. Usually, he can be found in the Headquarters of the Regular Army.
 @match *
 Lickmond will save Eureca from the Resistance.
 endmsg
@@ -1835,7 +1835,7 @@ msg
 @match resistance
 Maybe someone supports them financially?
 @match *
-The Resistance is much smaller than us, but still they can resist our attacks. How?
+The Resistance is much smaller than us, but still, they can resist our attacks. How?
 endmsg
 hp 1000
 x 14

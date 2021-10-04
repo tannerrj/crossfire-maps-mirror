@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1996-06-27
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch pstone_4
@@ -510,14 +510,14 @@ arch sage
 name Rufto
 msg
 @match word|holy
-Oh.  I forgot to tell you.  The holy word is: SEVEN.
+Oh. I forgot to tell you. The holy word is: SEVEN.
 @match test
-Yes.  My test was over.  You passed my test.  Go to the next level, adventurer.
+Yes. My test was over. You passed my test. Go to the next level, adventurer.
 @match guard
-Yes.  I test an adventurer whether he is worthy enough to enter the heroes mousoleum.
+Yes. I test an adventurer whether he is worthy enough to enter the heroe's mausoleum.
 @reply test Tell me more about this testing.
 @match *
-Welcome.  I am a guard of this ruin.
+Welcome. I am a guard of this ruin.
 @question guard So, how do you guard this ruin?
 endmsg
 hp 180

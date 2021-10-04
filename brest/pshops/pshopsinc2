@@ -6,7 +6,7 @@ width 35
 height 14
 msg
 Created:  2004-10-17 majorwoo (josh@woosworld.net)
-Modified: 2012-03-14 Rick Tanner
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -677,17 +677,17 @@ arch thief_1
 name Shady Character
 msg
 @match key
-Yes you need a key to get in through that door. Unless...
+Yes, you need a key to get in through that door. Unless...
 @match unless
-Well I am a bit poor today, and I suppose I could...
+Well, I am a bit poor today, and I suppose I could...
 @match could
 Drop 2000 platinum in front of me.
 @match wife
-The managers wife is one of the most powerful female dragons you will ever meet.  Do not anger her.
+The manager's wife is one of the most powerful female dragons you will ever meet. Do not anger her.
 @match name
-So you want to know her name do you?  It's going to cost you..
+So you want to know her name, do you?  It's going to cost you...
 @match cost
-Hey man, nothing in this world is free.  If you want her name drop 1000 rubies in front of me.
+Hey man, nothing in this world is free. If you want her name drop 1000 rubies in front of me.
 @match *
 Don't waste my time with that.
 endmsg
@@ -1078,7 +1078,7 @@ end
 arch charwoman
 msg
 @match *
-Get out of the way!  I've got to cleanup!
+Get out of the way!  I've got to clean up!
 endmsg
 x 7
 y 7

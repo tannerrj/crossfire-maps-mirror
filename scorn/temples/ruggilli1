@@ -9,7 +9,7 @@ enter_x 3
 enter_y 14
 msg
 Created:  2001-01-03 dnh (dnh@hawthorn.csse.monash.edu.au)
-Modified: 2012-01-17 Rick Tanner
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch small_stones
@@ -194,7 +194,7 @@ Ruggilli will lend the immolating fires to any who choose to follow!
 @match immolating|fires
 Yes! A Flame which will consume your enemies!
 @match follow|worship|door|gate|stair
-The Consuming worm Ruggilli will only accept followers who can pass his test.  Descend down these stairs and destroy all the of His enemies and a pass shall be granted.
+The Consuming worm Ruggilli will only accept followers who can pass his test. Descend down these stairs and destroy all of His enemies and a pass shall be granted.
 @match quest
 When you are ready, your quest shall be given!
 @match *

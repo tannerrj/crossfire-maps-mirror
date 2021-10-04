@@ -12,7 +12,7 @@ enter_x 11
 enter_y 16
 msg
 Created:  1993-10-15 Tero Haatanen (Tero.Haatanen@tel.vtt.fi)
-Modified: 2021-07-27 Saiapatsu
+Modified: 2021-10-03 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1114,26 +1114,26 @@ end
 arch elf
 msg
 @match yes or no
-Trying to be funny? Try local inn, maybe someone offers free beer!
+Trying to be funny? Try a local inn, maybe someone offers free beer!
 @match yes
 OK! Remember what you promised!
 @match ^no$
 I guessed it, you're trying to rob me! GUARDS!
 Guard shouts: "Where is that thief?"
 @match promise|open
-Do you promise not to steal anything?  Please, respond yes or no!
+Do you promise not to steal anything? Please, respond yes or no!
 @match gate
-I keep it locked, so nobody can't steal anything.  If you promise not to steal anything I can open the gate.
+I keep it locked, so nobody can't steal anything. If you promise not to steal anything I can open the gate.
 @match chest|box|boots|longbow
-So you have been visited my private chamber! Maybe I should keep that door locked like gate!
+So you have been visited my private chamber! Maybe I should keep that door locked like a gate!
 @match adventurer|people
 People like you.
 @match item|misc|sell|sold|buy
 I buy almost everything that people are selling to me.
 @match shop|help
-This shop is specialized to missile weapons such as bows and crossbows.  I have two rooms of them.  The first room contains miscellaneous items that other adventurers have sold to me.
+This shop is specialized in missile weapons such as bows and crossbows. I have two rooms for them. The first room contains miscellaneous items that other adventurers have sold to me.
 @match *
-Welcome my little shop.  How can I help you?
+Welcome to my little shop. How can I help you?
 endmsg
 face elf.131
 hp 100

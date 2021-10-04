@@ -9,7 +9,7 @@ enter_x 18
 enter_y 9
 msg
 Created:  2010-03-07 Nicolas Weeger
-Modified: 2021-04-10 Nicolas Weeger
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch grass
@@ -3285,7 +3285,7 @@ msg
 The entire downstairs part of the library is open to all visitors, for a small fee. The upstairs is still under construction.
 @question fee Why is there a fee?
 @match fee
-Well, the library uses the money to aquire new books. That's why the books in the library change every so often, you know.
+Well, the library uses the money to acquire new books. That's why the books in the library change every so often, you know.
 @match *
 Oh, hello! Welcome to the Darcap Public Library!
 @question access What parts of the library can I access?

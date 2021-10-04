@@ -8,7 +8,7 @@ enter_x 19
 enter_y 13
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -870,9 +870,9 @@ end
 arch sage
 msg
 @match hello
-Well....
+Well...
 @match well
-I'm not deaf you know.  Visit the well!!
+I'm not deaf you know. Visit the well!!
 @match *
 I'm too busy to answer your queries.
 endmsg
@@ -1688,11 +1688,11 @@ arch warrior_1
 name well-trained warrior
 msg
 @match artifact|hear
-A friend told me something about very powerful bracers... But he died at the attempt to get those.  I believe he was killed by the... BELZEBUB!
+A friend told me something about very powerful bracers... But he died in the attempt to get those. I believe he was killed by the... BELZEBUB!
 @match proving|tower|yes
-There's an ancient temple in the underground, beneath that tower.  It is said that the most deadly creatures are lurking down there!
+There's an ancient temple in the underground, beneath that tower. It is said that the most deadly creatures are lurking down there!
 @match *
-Go to the Warrior Proving Tower.  It's on the northeast edge of the continent.  I've heard about incredible artifacts in there.
+Go to the Warrior Proving Tower. It's on the northeast edge of the continent. I've heard about incredible artifacts in there.
 endmsg
 x 13
 y 10
@@ -1802,7 +1802,7 @@ end
 arch fighter
 msg
 @match element|quest
-Water, earth, air and fire... It's a big task but the rewards are great! Enter the courthouse and you will understand me.  The major difficulty is finding the places that are involved in this quest.  E.g. I suspect the high volcano poses the fire-part...
+Water, earth, air, and fire... It's a big task but the rewards are great! Enter the courthouse and you will understand me.  The major difficulty is finding the places that are involved in this quest.  E.g. I suspect the high volcano poses the fire-part...
 @match *
 I've devoted myself to the elemental quest.
 endmsg
@@ -2236,7 +2236,7 @@ end
 arch ninja2
 msg
 @match land|exiled
-I lived north-east from here, until I took a boat out to talk to a foreigner like you.  They didn't let me go back.
+I lived northeast from here until I took a boat out to talk to a foreigner like you. They didn't let me go back.
 @match *
 I've been exiled from my land.
 endmsg
@@ -2644,9 +2644,9 @@ arch wizard
 name old wizard
 msg
 @match no|library|spell
-It's located in a mountain village, not far from here.  Take a few gold coins with you, I believe they charge for a small entrance fee.
+It's located in a mountain village, not far from here. Take a few gold coins with you, I believe they charge a small entrance fee.
 @match *
-Did you know that there is a huge spellbook library on dtabb?
+Did you know that there is a huge spellbook library on Dtabb?
 endmsg
 face wizard_yellow.151
 hp 100

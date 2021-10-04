@@ -13,7 +13,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  1996-04-28 b.t. (thomas@astro.psu.edu)
-Modified: 2021-07-27 Saiapatsu
+Modified: 2021-10-02 Rick Tanner
 endmsg
 end
 arch grass
@@ -1399,9 +1399,9 @@ arch sage
 name Nanoc the Sage
 msg
 @match hi|hello
-Err... well welcome (*harumph*).  Please try to keep quiet in the library.
+Err... well welcome (*harumph*). Please try to keep quiet in the library.
 @match door|gate|enter|entrance|help
-Whats the matter, want to get in, eh? Either get a library card or pay a fair one-time entrance fee (drop the $$$ on the floor behind me).
+What's the matter, want to get in, eh? Either get a library card or pay a fair one-time entrance fee (drop the $$$ on the floor behind me).
 @match *
 I'm too busy with my research to answer your queries.
 endmsg

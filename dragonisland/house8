@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  1997-09-12
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-03 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -316,17 +316,17 @@ arch courier
 name Timothius
 msg
 @match h[ae]llo|hi|greet
-My Greetigs to you! Welcome to my humble home.  Have you heard of my friend, Carthon? He was heading off to dragon mountain.
+My Greetings to you! Welcome to my humble home. Have you heard of my friend, Carthon? He was heading off to dragon mountain.
 @match no
 What a pity! I hope he's all right.
 @match dead|corpse|killed
-Oh dear!!!
+Oh, dear!!!
 *Timothius looks very sad.*
 Please leave me alone for a while.
 @match yes
 Well, where have you seen him?
 @match carthon
-Carthon is a friend of mine.  He's an adventurer and dragon hunter.
+Carthon is a friend of mine. He's an adventurer and dragon hunter.
 @match mountain
 I wish Carthon had never gone to that accursed dragon mountain!
 @match dragon
