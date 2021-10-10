@@ -7,7 +7,7 @@ height 30
 enter_x 31
 enter_y 1
 msg
-Modified: 2021-09-01 rock808
+Modified: 2021-10-09 Rick Tanner
 endmsg
 maplore
 The nightman down the hall spots you and shouts "HALT! THIEF!!!"  It seems they have mistaken you with somebody else.
@@ -3799,11 +3799,11 @@ arch thief_1
 name a sly thief
 msg
 @match apprentice
-Ok ok... it figures... be quiet and lets open this chest.
+Ok ok... it figures... be quiet and let's open this chest.
 @match chest|where
 Yeah, under the table..... geez did you study your rogue book?
 @match name
-Just call me Toad... shhhh.
+Just call me Toad... shhh.
 @match job
 Ohhhhh... newbies! SO much to learn!
 @match who|he

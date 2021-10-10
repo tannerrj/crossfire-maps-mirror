@@ -11,7 +11,7 @@ enter_x 10
 enter_y 16
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2021-07-25 Kevin Zheng
+Modified: 2021-10-09 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -2223,9 +2223,9 @@ arch guildmaster
 name Kaladon
 msg
 @match etheric|plane
-Ah, you wish to know the balm of travelling. Very dangerous it is. Reminds me of a story.
-@match balm of travelling
-You youngsters, always in a hurry with no time to hear my stories. If my memory serves me, you need the wing of a faerie dragon, freshy killed. Sing the rites of passage while adding in triplicate the water of sapphire, xan wing, & pixie wings. Stamp thrice upon the ground to bind the powers together. Apply the balm under a new moon and stamp thrice to invoke the portal. Do not wear metal, or the portal shall close!
+Ah, you wish to know the balm of traveling. Very dangerous it is. Reminds me of a story.
+@match balm of traveling
+You youngsters, always in a hurry with no time to hear my stories. If my memory serves me, you need the wing of a faerie dragon, freshly killed. Sing the rites of passage while adding in triplicate the water of sapphire, xan wing, & pixie wings. Stamp thrice upon the ground to bind the powers together. Apply the balm under a new moon and stamp thrice to invoke the portal. Do not wear metal, or the portal shall close!
 @match whispering
 TALK LOUDER! you young dolt, always waking old men from their naps... mutter... mutter... go study the world as I once did... mutter...
 @match *
@@ -2279,12 +2279,12 @@ That city to the west? Yes, it is said a great wizard founded that place. He was
 @match wizard
 Skud the Great. He is long since departed from our plane of existence.
 @match land
-You wish to return to yours? A more powerful mage could perform a word of recall, but I am too frail. I doubt it possible to charter a ship from that great city of Navar to sail to your distant city.
+Do you wish to return to yours? A more powerful mage could perform a word of recall, but I am too frail. I doubt it possible to charter a ship from that great city of Navar to sail to your distant city.
 @question ship Why wouldn't there be a ship to Scorn?
 @match ship
-Few captains long to explore, and it is expensive to form an expedition. In this age they fear far waters, Navar, most of all fears.
+Few captains long to explore, and it is expensive to form an expedition. In this age, they fear far waters, Navar, most of all fears.
 @match etheric
-Kaladon, the wise, has dabbled in the etheric plane.  If he's not alseep, he may answer your question.
+Kaladon, the wise, has dabbled in the etheric plane.  If he's not asleep, he may answer your question.
 endmsg
 x 16
 y 13
