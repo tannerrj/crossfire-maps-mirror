@@ -8,7 +8,7 @@ height 15
 enter_y 7
 msg
 Created:  2001-10-17
-Modified: 2014-04-04 Kevin Zheng
+Modified: 2021-10-17 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -911,7 +911,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 4
 y 6
@@ -935,7 +935,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 4
 y 8
@@ -1756,7 +1756,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 8
 y 6
@@ -1780,7 +1780,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 8
 y 8
@@ -2605,7 +2605,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 12
 y 6
@@ -2629,7 +2629,7 @@ end
 arch guard
 msg
 @match food|meal|starve|starving|hungry
-The Guard says: Only prisoners who show remorse may eat.
+The Guard says, "Only prisoners who show remorse may eat."
 endmsg
 x 12
 y 8
