@@ -29,13 +29,22 @@
 
 import Crossfire
 
+def trigger_connected(conn, state, player):
+    if state == 0:
+        name = "push"
+    else:
+        name = "release"
+    Crossfire.Log(Crossfire.LogDebug, "QuestTriggerConnect.py: triggering connection number %d (%s)" % (conn, name))
+    Crossfire.WhoAmI().Map.TriggerConnected(conn, state, player)
+
 def trigger():
     player = Crossfire.WhoIsActivator()
     params = Crossfire.ScriptParameters()
     args = params.split()
+    conn = int(args[2])
     if type(player) != Crossfire.Player:
-        # stepping off, trigger state 0
-        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 0, Crossfire.WhoAmI())
+        # stepping off, trigger released state
+        trigger_connected(conn, 1, player)
         return
     questname = args[0]
     currentstep = player.QuestGetState(questname)
@@ -47,9 +56,6 @@ def trigger():
         startstep = int(condition.split("-")[0])
         endstep= int(condition.split("-")[1])
     if currentstep >= startstep and currentstep <= endstep:
-        Crossfire.Log(Crossfire.LogDebug, "QuestTriggerConnect.py: triggering connection number %s." % args[2])
-        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 1, player)
-    else:
-        Crossfire.WhoAmI().Map.TriggerConnected(int(args[2]), 0, player)
+        trigger_connected(conn, 0, player)
 
 trigger()
