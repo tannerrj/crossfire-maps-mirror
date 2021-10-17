@@ -9,7 +9,7 @@ enter_x 1
 enter_y 5
 msg
 Created:  1993-10-28
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2021-10-17 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -161,11 +161,11 @@ end
 arch guard
 msg
 @match death|smell
-Can't you smell it?  Must be a couple hundred corpses up in the mountains all rotting and decaying to make a stench like that.
+Can't you smell it? Must be a couple of hundred corpses up in the mountains all rotting and decaying to make a stench like that.
 @match corpses|dead
 Of course.. nothing, and I meaning nothing.. could smell that bad.
 @match *
-Sheesh!  The smell of death when the wind comes over the mountains to the west make standing at this post unbearable!!
+Sheesh! The smell of death, when the wind comes over the mountains to the west, makes standing at this post unbearable!!
 endmsg
 x 1
 y 11
@@ -902,7 +902,7 @@ They came down from the mountains and attacked, dozens of them and we barely esc
 @match attack|ambush
 The monsters were in some sort of frenzy when they attacked, they were so vicious and ruthless - like nothing we have seen before.
 @match mountains|mountain
-There must be some huge battle happening in the mountain peaks and surrounding valleys.  Stench of rotting flesh is overwhelming.
+There must be some huge battle happening in the mountain peaks and surrounding valleys. The stench of rotting flesh is overwhelming.
 @match *
 We were heading north with some trade goods when some monsters ambushed us!
 endmsg
