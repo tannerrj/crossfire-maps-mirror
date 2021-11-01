@@ -8,7 +8,7 @@ enter_x 6
 enter_y 12
 msg
 Created:  2000-06-03
-Modified: 2021-10-02 Rick Tanner
+Modified: 2021-11-01 DraugTheWhopper
 endmsg
 end
 arch dungeon_magic
@@ -927,7 +927,7 @@ y 7
 end
 arch magic_ear
 msg
-@match favour
+@match favor|favour
 endmsg
 x 6
 y 7
@@ -948,8 +948,8 @@ msg
 You have seen her? In the castle... What did she say? - Afterlife? That is not an option, I want to have babies with her! Please, could you do me a favor?
 @match julia|juliet
 It is not THAT easy, you know...
-@match favor
-Great, please defeat the Evil Masters! Take this book of mine  It might help you to find your way through that castle.
+@match favor|favour
+Great, please defeat the Evil Masters! Take this book of mine, it might help you to find your way through that castle.
 @match wife
 You have seen her? You are a liar, you don't even know her name.
 @match *

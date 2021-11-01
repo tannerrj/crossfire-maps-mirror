@@ -8,7 +8,7 @@ enter_x 8
 enter_y 10
 msg
 Created:  2005-03-23 Huhanhi
-Modified: 2021-10-10 Rick Tanner
+Modified: 2021-11-01 DraugTheWhopper
 endmsg
 end
 arch cobblestones2
@@ -376,10 +376,10 @@ name Mike Miller
 msg
 @match noise|hear
 Yes. You can hear grinding sounds right now. They are so loud I'm afraid of going to my cellar to drink some wine! Or could it be coming from the neighbor's house?
-@match neighbor
+@match neighbor|neighbour
 You thought the house south of there was abandoned? No, I don't think so!
 @match house|abandoned|south
-People are certainly living in that house since the treasure always changes!
+In fact, people are certainly living in that house since the treasure always changes!
 @match treasure
 Go look for yourself. It's in the house just south of here! You can see the treasure through the windows!
 @match wine
@@ -389,7 +389,7 @@ Do not open my chest! You will regret it!! Being afraid is not always a bad thin
 @match afraid
 Hey, nevertheless I'm not a wimp! Go look for yourself if you wish.
 @match wimp
-Do you say I'm a wimp?! Ok, right, try to attack me and you'll see!!!
+You say I'm a wimp?! Ok, right, try to attack me and you'll see!!!
 @match attack
 To attack me, press Ctrl + Arrow in my direction. Beware though, I might kill you.
 @match grinding|loud
@@ -399,7 +399,7 @@ The cellar in the north-eastern corner of this room, but I shut the way with bar
 @match barrel|table
 Yes. That way, those pixies are blocked and can't come to attack me! Smart, aren't I?
 @match smart
-Of course, I'm smart!!!
+Of course I'm smart!!!
 @match pixie
 Yes, sorts of little fairies with wings. One of them tried to attack me in my cellar with a wand of firebolt!! I'd like to send out someone on a quest to clear my cellar but...
 @match firebolt|wand

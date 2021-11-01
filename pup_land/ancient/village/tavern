@@ -8,7 +8,7 @@ enter_x 1
 enter_y 16
 msg
 Created:  1996-05-21
-Modified: 2021-10-02 Rick Tanner
+Modified: 2021-11-01 DraugTheWhopper
 endmsg
 end
 arch woodfloor
@@ -1235,9 +1235,9 @@ msg
 @match cordish
 Psst! You know my old name, don't you? I want to have a talk with you. There is a switch in the tree of my house.
 @match you killed jacob
-Hahaha! I love such a kind of joke. BTW, I wanna invite you to dinner. There is a switch in the tree of my house. I'll be waiting for you :)
+Hahaha! I love such kinds of jokes. By the way, I wanna invite you to dinner. There is a switch in the tree of my house. I'll be waiting for you :)
 @match no
-Do you refuse to fetch my beer? Don't forget that you all owe me for my heroic deeds!
+Do you refuse to fetch my beer? Don't forget that you owe me for my heroic deeds!
 @match *
 Hello.  Please, fetch me some beer.
 endmsg
@@ -1936,9 +1936,9 @@ end
 arch sage
 msg
 @match servant
-Siegfried's servant got killed during the battle. He obviously wasn't much of help.
+Siegfried's servant got killed during the battle. He obviously wasn't of much help.
 @match siegfried
-We have been suffering from evil monsters for a long time. Six months ago, he and his servant defeated their leader and locked the rest of them into the castle. Siegfried saved us!
+We had been suffering from evil monsters for a long time. Six months ago, he and his servant defeated their leader and locked the rest of them into the castle. Siegfried saved us!
 @match *
 Siegfried is the hero!
 endmsg

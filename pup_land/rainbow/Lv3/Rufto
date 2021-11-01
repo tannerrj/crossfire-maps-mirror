@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1996-06-27
-Modified: 2021-10-02 Rick Tanner
+Modified: 2021-11-01 Rick Tanner
 endmsg
 end
 arch pstone_4
@@ -514,7 +514,7 @@ Oh. I forgot to tell you. The holy word is: SEVEN.
 @match test
 Yes. My test was over. You passed my test. Go to the next level, adventurer.
 @match guard
-Yes. I test an adventurer whether he is worthy enough to enter the heroe's mausoleum.
+Yes. I test an adventurer whether he is worthy enough to enter the hero's mausoleum.
 @reply test Tell me more about this testing.
 @match *
 Welcome. I am a guard of this ruin.

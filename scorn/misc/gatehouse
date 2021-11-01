@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1993-10-15
-Modified: 2021-10-17 Rick Tanner
+Modified: 2021-11-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2425,10 +2425,10 @@ The gate opens only for certain people.
 @match who|people
 Only those who are
 * Citizens of Scorn with a Password
-* Have a merchant "Gate Pass''
-* Or knighted "Hero'' by the king may pass through these gates.
+* Have a merchant "Gate Pass"
+* Or knighted "Hero" by the king may pass through these gates.
 @match gate|pass
-See the "Office of Gate Passes'' next to the Port Gate.
+See the "Office of Gate Passes" next to the Port Gate.
 @match secret|door|wall|password
 I can't tell you that! Do you want to be thrown in JAIL?
 @match *

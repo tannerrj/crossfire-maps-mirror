@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created:  1993-10-15
-Modified: 2021-10-23 Nicolas Weeger
+Modified: 2021-11-01 DraugTheWhopper
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -665,13 +665,13 @@ arch merchant
 name Bragh O'Leary
 msg
 @match bragh|o'leary|name
-Aye, I am BRAGH O'LEARY former OWNER of the Scorn TRAININ' CENTER. You are some whelp here to gloat over my loss of me TRAININ' CENTER?
+Aye, I be BRAGH O'LEARY, former OWNER of the Scorn TRAININ' CENTER. You be some whelp here to gloat over my loss of me TRAININ' CENTER?
 Away wit' ye! Bartender! Another Booze! (hic)
 @match train|center
 You liked me TRAININ' CENTER did ye?  Well good for ye!
 Some bleedin' CONSORTIUM bought it from the Bank afore I could raise the platinum to pay off the foreclosure. Buncha zombie lovers. (hic)
 @match job|owner
-Aye. I was the owner of the TRAININ' CENTER. I tol' the bloody Bank I'd gi' 'em their bloody money. Bleedin' slime foreclosed on me.
+Aye. I were the owner of the TRAININ' CENTER. I tol' the bloody Bank I'd gi' 'em their bloody money. Bleedin' slime foreclosed on me.
 @match consortium
 The consortamum ... constortanum ... BLAST! I dinno who they be. I just hears they broke up and MOVED me TRAININ' CENTER to other parts o' the world. The slime!  (hic)
 I also hears they ha' repr'sentatives tha' hang out in taverns to recruit people inta their centers.
@@ -5652,10 +5652,10 @@ end
 arch man
 msg
 @match mark
-Yeah, that's me. Bugger off, I'm on a roll here.
+Ya, that's me. Bugger off, I'm on a roll here.
 O 47
 @match amy
-Yeah, my old lady, she's kind of mad at me right now... When I hit it big she'll sing a different tune though.
+Ya, my old lady, she's kind of mad at me right now... When I hit it big she'll sing a different tune though.
 @match goose|esmeralda
 Ok, ok, don't hurt me. I took her. Don't turn me in. If you did they'd take the goose for evidence, and then you wouldn't get the reward. I hid that bird at Amy's place.
 @match key|door
