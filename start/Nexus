@@ -11,7 +11,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  2003-09-25 Avion
-Modified: 2021-09-01 rock808
+Modified: 2021-10-03 Nicolas Weeger
 endmsg
 end
 arch blocked
@@ -1368,17 +1368,25 @@ x 8
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 8
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_2
+x 8
+y 3
+end
+arch tile_white_floor
 x 8
 y 4
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_1_1
+x 8
+y 4
 end
 arch blocked
 name Void
@@ -1386,11 +1394,31 @@ x 8
 y 5
 blocksview 0
 end
+arch tile_white_floor
+x 8
+y 5
+no_magic 1
+damned 1
+end
+arch swall_2_1_1
+x 8
+y 5
+end
 arch blocked
 name Void
 x 8
 y 6
 blocksview 0
+end
+arch tile_white_floor
+x 8
+y 6
+no_magic 1
+damned 1
+end
+arch swall_2_2_1
+x 8
+y 6
 end
 arch blocked
 name Void
@@ -1590,36 +1618,47 @@ x 9
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 9
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_2
+x 9
+y 3
+end
+arch tile_white_floor
 x 9
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch exit
+name teleporter
+slaying /start/newbieshouse
+face teleporter.111
+hp 9
+sp 4
+x 9
+y 4
+unique 1
+end
+arch tile_white_floor
 x 9
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch firepot
-name Stars
-face sparkshower.111
-animation sparkshower
-x 9
-y 5
-end
-arch blocked
-name Void
+arch tile_white_floor
 x 9
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_1_2
+x 9
+y 6
 end
 arch blocked
 name Void
@@ -1764,29 +1803,41 @@ x 10
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 10
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_3
+x 10
+y 3
+end
+arch tile_white_floor
 x 10
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_1
+x 10
+y 4
+end
+arch tile_white_floor
 x 10
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 10
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_1_2
+x 10
+y 6
 end
 arch blocked
 name Void
@@ -1927,23 +1978,31 @@ x 11
 y 3
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 11
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_2
+x 11
+y 4
+end
+arch tile_white_floor
 x 11
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 11
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_2_3
+x 11
+y 6
 end
 arch tile_white_floor
 x 11
@@ -1951,7 +2010,7 @@ y 7
 no_magic 1
 damned 1
 end
-arch swall_2_2_2
+arch swall_2_1_1
 x 11
 y 7
 end
@@ -2111,64 +2170,69 @@ x 12
 y 3
 blocksview 0
 end
-arch blocked
-name Void
-x 12
-y 4
-blocksview 0
-end
-arch blocked
-name Void
-x 12
-y 5
-blocksview 0
-end
-arch blocked
-name Void
-x 12
-y 6
-blocksview 0
-end
 arch tile_white_floor
 x 12
-y 7
+y 4
 no_magic 1
 damned 1
 end
 arch swall_2_1_2
 x 12
-y 7
+y 4
 end
 arch tile_white_floor
 x 12
-y 8
-no_magic 1
-damned 1
-end
-arch exit
-name teleporter
-slaying /start/newbieshouse
-face teleporter.111
-hp 9
-sp 4
-x 12
-y 8
-unique 1
-end
-arch tile_white_floor
-x 12
-y 9
+y 5
 no_magic 1
 damned 1
 end
 arch sign
-name Tutorial
+name Tutorials
 msg
-Take this teleporter to the Beginners' House where you can learn some basic skills before journeying onward.
+There are 2 tutorials:
+- the right one is a "guided" one, in which you progress step by step
+- the left one is a "free-roaming" one, in which you explore an area
+
+Both contain the same explanations, they just differ in their form.
+
+Choose the one which suits you the best!
 endmsg
 x 12
-y 9
+y 5
 move_on walk fly_low
+end
+arch tile_white_floor
+x 12
+y 6
+no_magic 1
+damned 1
+end
+arch tile_white_floor
+x 12
+y 7
+no_magic 1
+damned 1
+end
+arch tile_white_floor
+x 12
+y 8
+no_magic 1
+damned 1
+end
+arch sign
+name Tutorials
+msg
+This passage leads to tutorial maps where you can learn the basics of Crossfire.
+endmsg
+x 12
+y 8
+move_on walk fly_low
+end
+arch tile_white_floor
+x 12
+y 9
+no_magic 1
+damned 1
 end
 arch tile_white_floor
 x 12
@@ -2211,16 +2275,6 @@ x 12
 y 16
 no_magic 1
 damned 1
-end
-arch exit
-name teleporter
-slaying /start/tutorial1
-face teleporter.111
-hp 11
-sp 1
-x 12
-y 16
-unique 1
 end
 arch tile_white_floor
 x 12
@@ -2304,23 +2358,31 @@ x 13
 y 3
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 13
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_2
+x 13
+y 4
+end
+arch tile_white_floor
 x 13
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 13
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_2_2
+x 13
+y 6
 end
 arch tile_white_floor
 x 13
@@ -2328,7 +2390,7 @@ y 7
 no_magic 1
 damned 1
 end
-arch swall_2_2_3
+arch swall_2_1_1
 x 13
 y 7
 end
@@ -2471,29 +2533,41 @@ x 14
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 14
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_2
+x 14
+y 3
+end
+arch tile_white_floor
 x 14
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_4
+x 14
+y 4
+end
+arch tile_white_floor
 x 14
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 14
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_1_2
+x 14
+y 6
 end
 arch blocked
 name Void
@@ -2635,34 +2709,45 @@ x 15
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 15
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_2
+x 15
+y 3
+end
+arch tile_white_floor
 x 15
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch exit
+name teleporter
+slaying /start/tutorial1
+face teleporter.111
+hp 11
+sp 1
+x 15
+y 4
+unique 1
+end
+arch tile_white_floor
 x 15
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 15
 y 6
-blocksview 0
+no_magic 1
+damned 1
 end
-arch firepot
-name Stars
-face sparkshower.111
-animation sparkshower
+arch swall_2_1_2
 x 15
 y 6
 end
@@ -2817,29 +2902,45 @@ x 16
 y 2
 blocksview 0
 end
-arch blocked
-name Void
+arch tile_white_floor
 x 16
 y 3
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_2_3
+x 16
+y 3
+end
+arch tile_white_floor
 x 16
 y 4
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_1
+x 16
+y 4
+end
+arch tile_white_floor
 x 16
 y 5
-blocksview 0
+no_magic 1
+damned 1
 end
-arch blocked
-name Void
+arch swall_2_1_1
+x 16
+y 5
+end
+arch tile_white_floor
 x 16
 y 6
-blocksview 0
+no_magic 1
+damned 1
+end
+arch swall_2_2_4
+x 16
+y 6
 end
 arch blocked
 name Void
