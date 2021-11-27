@@ -11,7 +11,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  2003-09-25 Avion
-Modified: 2021-07-27 rock808
+Modified: 2021-09-01 rock808
 endmsg
 end
 arch blocked
@@ -2211,6 +2211,16 @@ x 12
 y 16
 no_magic 1
 damned 1
+end
+arch exit
+name teleporter
+slaying /start/tutorial1
+face teleporter.111
+hp 11
+sp 1
+x 12
+y 16
+unique 1
 end
 arch tile_white_floor
 x 12
