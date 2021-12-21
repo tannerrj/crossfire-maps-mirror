@@ -1,0 +1,1328 @@
+arch map
+name Ko's cabin
+region wilderness
+width 15
+height 15
+enter_x 7
+enter_y 13
+msg
+Created:  2021-12-18 DraugTheWhopper
+Modified: 2021-12-18 DraugTheWhopper
+endmsg
+end
+arch woodlarge
+end
+arch woodwall_2_2_2
+end
+arch woodlarge
+y 1
+end
+arch woodwall_2_1_1
+y 1
+end
+arch woodlarge
+y 2
+end
+arch woodwall_2_1_1
+y 2
+end
+arch woodlarge
+y 3
+end
+arch woodwall_2_1_1
+y 3
+end
+arch woodlarge
+y 4
+end
+arch woodwall_2_1_1
+y 4
+end
+arch woodlarge
+y 5
+end
+arch woodwall_2_1_1
+y 5
+end
+arch woodlarge
+y 6
+end
+arch woodwall_2_1_1
+y 6
+end
+arch woodwall_3_2
+y 6
+end
+arch woodlarge
+y 7
+end
+arch woodwall_2_1_1
+y 7
+end
+arch woodlarge
+y 8
+end
+arch woodwall_2_1_1
+y 8
+end
+arch woodlarge
+y 9
+end
+arch woodwall_2_1_1
+y 9
+end
+arch woodlarge
+y 10
+end
+arch woodwall_2_1_1
+y 10
+end
+arch woodlarge
+y 11
+end
+arch woodwall_2_1_1
+y 11
+end
+arch woodlarge
+y 12
+end
+arch woodwall_2_1_1
+y 12
+end
+arch woodlarge
+y 13
+end
+arch woodwall_2_1_1
+y 13
+end
+arch woodlarge
+y 14
+end
+arch woodwall_2_2_1
+y 14
+end
+arch woodlarge
+x 1
+end
+arch woodwall_2_1_2
+x 1
+end
+arch woodlarge
+x 1
+y 1
+end
+arch chest_2
+x 1
+y 1
+arch bolt_silk
+nrof 5
+end
+arch chain_mail
+magic 2
+end
+arch coif
+magic 1
+end
+arch random_shield
+end
+arch random_weapon
+end
+arch random_talisman
+end
+end
+arch woodlarge
+x 1
+y 2
+end
+arch woodlarge
+x 1
+y 3
+end
+arch woodlarge
+x 1
+y 4
+end
+arch barrel
+x 1
+y 4
+end
+arch woodlarge
+x 1
+y 5
+end
+arch barrel
+x 1
+y 5
+end
+arch woodlarge
+x 1
+y 6
+end
+arch ewall_2_1_2
+x 1
+y 6
+end
+arch woodlarge
+x 1
+y 7
+end
+arch woodlarge
+x 1
+y 8
+end
+arch woodlarge
+x 1
+y 9
+end
+arch woodlarge
+x 1
+y 10
+end
+arch woodlarge
+x 1
+y 11
+end
+arch woodlarge
+x 1
+y 12
+end
+arch woodlarge
+x 1
+y 13
+end
+arch woodlarge
+x 1
+y 14
+end
+arch woodwall_2_1_2
+x 1
+y 14
+end
+arch woodlarge
+x 2
+end
+arch woodwall_2_1_2
+x 2
+end
+arch woodlarge
+x 2
+y 1
+end
+arch barrel
+x 2
+y 1
+can_roll 0
+end
+arch woodlarge
+x 2
+y 2
+end
+arch barrel
+x 2
+y 2
+can_roll 0
+end
+arch woodlarge
+x 2
+y 3
+end
+arch woodlarge
+x 2
+y 4
+end
+arch barrel
+x 2
+y 4
+end
+arch woodlarge
+x 2
+y 5
+end
+arch barrel
+x 2
+y 5
+end
+arch woodlarge
+x 2
+y 6
+end
+arch ewall_2_1_2
+x 2
+y 6
+end
+arch woodlarge
+x 2
+y 7
+end
+arch woodlarge
+x 2
+y 8
+end
+arch woodlarge
+x 2
+y 9
+end
+arch woodlarge
+x 2
+y 10
+end
+arch woodlarge
+x 2
+y 11
+end
+arch woodlarge
+x 2
+y 12
+end
+arch woodlarge
+x 2
+y 13
+end
+arch woodlarge
+x 2
+y 14
+end
+arch woodwall_2_1_2
+x 2
+y 14
+end
+arch woodlarge
+x 3
+end
+arch woodwall_2_1_2
+x 3
+end
+arch woodlarge
+x 3
+y 1
+end
+arch woodlarge
+x 3
+y 2
+end
+arch barrel
+x 3
+y 2
+end
+arch woodlarge
+x 3
+y 3
+end
+arch barrel
+x 3
+y 3
+end
+arch woodlarge
+x 3
+y 4
+end
+arch woodlarge
+x 3
+y 5
+end
+arch woodlarge
+x 3
+y 6
+end
+arch ewall_2_1_2
+x 3
+y 6
+end
+arch woodlarge
+x 3
+y 7
+end
+arch fireplace
+x 3
+y 7
+end
+arch woodlarge
+x 3
+y 8
+end
+arch woodlarge
+x 3
+y 9
+end
+arch woodlarge
+x 3
+y 10
+end
+arch woodlarge
+x 3
+y 11
+end
+arch woodlarge
+x 3
+y 12
+end
+arch woodlarge
+x 3
+y 13
+end
+arch woodlarge
+x 3
+y 14
+end
+arch woodwall_2_1_2
+x 3
+y 14
+end
+arch woodlarge
+x 4
+end
+arch woodwall_2_1_2
+x 4
+end
+arch woodlarge
+x 4
+y 1
+end
+arch woodlarge
+x 4
+y 2
+end
+arch woodlarge
+x 4
+y 3
+end
+arch barrel
+x 4
+y 3
+end
+arch woodlarge
+x 4
+y 4
+end
+arch barrel
+x 4
+y 4
+can_roll 0
+end
+arch woodlarge
+x 4
+y 5
+end
+arch barrel
+x 4
+y 5
+can_roll 0
+end
+arch woodlarge
+x 4
+y 6
+end
+arch ewall_2_1_2
+x 4
+y 6
+end
+arch woodlarge
+x 4
+y 7
+end
+arch woodlarge
+x 4
+y 8
+end
+arch woodlarge
+x 4
+y 9
+end
+arch woodlarge
+x 4
+y 10
+end
+arch woodlarge
+x 4
+y 11
+end
+arch woodlarge
+x 4
+y 12
+end
+arch woodlarge
+x 4
+y 13
+end
+arch woodlarge
+x 4
+y 14
+end
+arch woodwall_2_1_2
+x 4
+y 14
+end
+arch woodlarge
+x 5
+end
+arch woodwall_2_1_2
+x 5
+end
+arch woodlarge
+x 5
+y 1
+end
+arch barrel
+x 5
+y 1
+end
+arch woodlarge
+x 5
+y 2
+end
+arch woodlarge
+x 5
+y 3
+end
+arch woodlarge
+x 5
+y 4
+end
+arch woodlarge
+x 5
+y 5
+end
+arch random_food
+x 5
+y 5
+end
+arch woodlarge
+x 5
+y 6
+end
+arch ewall_1_3
+x 5
+y 6
+end
+arch woodlarge
+x 5
+y 7
+end
+arch woodlarge
+x 5
+y 8
+end
+arch woodlarge
+x 5
+y 9
+end
+arch woodlarge
+x 5
+y 10
+end
+arch woodlarge
+x 5
+y 11
+end
+arch woodlarge
+x 5
+y 12
+end
+arch woodlarge
+x 5
+y 13
+end
+arch woodlarge
+x 5
+y 14
+end
+arch woodwall_2_1_2
+x 5
+y 14
+end
+arch woodlarge
+x 6
+end
+arch woodwall_2_1_2
+x 6
+end
+arch woodlarge
+x 6
+y 1
+end
+arch random_food
+x 6
+y 1
+end
+arch woodlarge
+x 6
+y 2
+end
+arch random_food
+x 6
+y 2
+end
+arch woodlarge
+x 6
+y 3
+end
+arch barrel
+x 6
+y 3
+end
+arch woodlarge
+x 6
+y 4
+end
+arch barrel
+x 6
+y 4
+end
+arch woodlarge
+x 6
+y 5
+end
+arch woodlarge
+x 6
+y 6
+end
+arch door_2
+x 6
+y 6
+move_block 0
+end
+arch woodlarge
+x 6
+y 7
+end
+arch woodlarge
+x 6
+y 8
+end
+arch woodlarge
+x 6
+y 9
+end
+arch woodlarge
+x 6
+y 10
+end
+arch woodlarge
+x 6
+y 11
+end
+arch woodlarge
+x 6
+y 12
+end
+arch woodlarge
+x 6
+y 13
+end
+arch woodlarge
+x 6
+y 14
+end
+arch woodwall_1_3
+x 6
+y 14
+end
+arch woodlarge
+x 7
+end
+arch woodwall_3_3
+x 7
+end
+arch woodlarge
+x 7
+y 1
+end
+arch ewall_2_1_1
+x 7
+y 1
+end
+arch woodlarge
+x 7
+y 2
+end
+arch ewall_2_1_1
+x 7
+y 2
+end
+arch woodlarge
+x 7
+y 3
+end
+arch ewall_2_1_1
+x 7
+y 3
+end
+arch woodlarge
+x 7
+y 4
+end
+arch ewall_2_1_1
+x 7
+y 4
+end
+arch woodlarge
+x 7
+y 5
+end
+arch ewall_2_1_1
+x 7
+y 5
+end
+arch woodlarge
+x 7
+y 6
+end
+arch ewall_1_2
+x 7
+y 6
+end
+arch woodlarge
+x 7
+y 7
+end
+arch woodlarge
+x 7
+y 8
+end
+arch woodlarge
+x 7
+y 9
+end
+arch woodlarge
+x 7
+y 10
+end
+arch woodlarge
+x 7
+y 11
+end
+arch woodlarge
+x 7
+y 12
+end
+arch woodlarge
+x 7
+y 13
+end
+arch woodlarge
+x 7
+y 14
+end
+arch exit
+slaying /world/world_121_105
+hp 12
+sp 40
+x 7
+y 14
+end
+arch woodlarge
+x 8
+end
+arch woodwall_2_1_2
+x 8
+end
+arch woodlarge
+x 8
+y 1
+end
+arch woodlarge
+x 8
+y 2
+end
+arch woodlarge
+x 8
+y 3
+end
+arch woodlarge
+x 8
+y 4
+end
+arch woodlarge
+x 8
+y 5
+end
+arch woodlarge
+x 8
+y 6
+end
+arch door_2
+x 8
+y 6
+move_block 0
+end
+arch woodlarge
+x 8
+y 7
+end
+arch woodlarge
+x 8
+y 8
+end
+arch woodlarge
+x 8
+y 9
+end
+arch woodlarge
+x 8
+y 10
+end
+arch woodlarge
+x 8
+y 11
+end
+arch woodlarge
+x 8
+y 12
+end
+arch woodlarge
+x 8
+y 13
+end
+arch woodlarge
+x 8
+y 14
+end
+arch woodwall_1_4
+x 8
+y 14
+end
+arch woodlarge
+x 9
+end
+arch woodwall_2_1_2
+x 9
+end
+arch woodlarge
+x 9
+y 1
+end
+arch dresser
+x 9
+y 1
+arch random_wealth
+end
+arch random_wealth
+end
+end
+arch woodlarge
+x 9
+y 2
+end
+arch woodlarge
+x 9
+y 3
+end
+arch woodlarge
+x 9
+y 4
+end
+arch woodlarge
+x 9
+y 5
+end
+arch woodlarge
+x 9
+y 6
+end
+arch ewall_1_4
+x 9
+y 6
+end
+arch woodlarge
+x 9
+y 7
+end
+arch woodlarge
+x 9
+y 8
+end
+arch woodlarge
+x 9
+y 9
+end
+arch woodlarge
+x 9
+y 10
+end
+arch chair_1.4
+x 9
+y 10
+end
+arch woodlarge
+x 9
+y 11
+end
+arch woodlarge
+x 9
+y 12
+end
+arch woodlarge
+x 9
+y 13
+end
+arch woodlarge
+x 9
+y 14
+end
+arch woodwall_2_1_2
+x 9
+y 14
+end
+arch woodlarge
+x 10
+end
+arch woodwall_2_1_2
+x 10
+end
+arch woodlarge
+x 10
+y 1
+end
+arch woodlarge
+x 10
+y 2
+end
+arch woodlarge
+x 10
+y 3
+end
+arch woodlarge
+x 10
+y 4
+end
+arch woodlarge
+x 10
+y 5
+end
+arch woodlarge
+x 10
+y 6
+end
+arch ewall_2_1_2
+x 10
+y 6
+end
+arch woodlarge
+x 10
+y 7
+end
+arch woodlarge
+x 10
+y 8
+end
+arch woodlarge
+x 10
+y 9
+end
+arch sage
+name Ko
+msg
+@match road
+Well, to my cabin, I guess. Long ago there was a thriving kingdom west of here, but I haven't heard news from that way for many years.
+@match *
+Another lost traveller? I'm afraid there's not much out this way anymore.
+@reply road But where does this road go?
+endmsg
+x 10
+y 9
+stand_still 1
+end
+arch woodlarge
+x 10
+y 10
+end
+arch table_4
+x 10
+y 10
+end
+arch woodlarge
+x 10
+y 11
+end
+arch woodlarge
+x 10
+y 12
+end
+arch woodlarge
+x 10
+y 13
+end
+arch woodlarge
+x 10
+y 14
+end
+arch woodwall_2_1_2
+x 10
+y 14
+end
+arch woodlarge
+x 11
+end
+arch woodwall_2_1_2
+x 11
+end
+arch woodlarge
+x 11
+y 1
+end
+arch bed_1
+x 11
+y 1
+end
+arch woodlarge
+x 11
+y 2
+end
+arch woodlarge
+x 11
+y 3
+end
+arch woodlarge
+x 11
+y 4
+end
+arch woodlarge
+x 11
+y 5
+end
+arch woodlarge
+x 11
+y 6
+end
+arch ewall_2_1_2
+x 11
+y 6
+end
+arch woodlarge
+x 11
+y 7
+end
+arch clock
+x 11
+y 7
+end
+arch woodlarge
+x 11
+y 8
+end
+arch woodlarge
+x 11
+y 9
+end
+arch woodlarge
+x 11
+y 10
+end
+arch chair_1.2
+x 11
+y 10
+end
+arch woodlarge
+x 11
+y 11
+end
+arch woodlarge
+x 11
+y 12
+end
+arch woodlarge
+x 11
+y 13
+end
+arch woodlarge
+x 11
+y 14
+end
+arch woodwall_2_1_2
+x 11
+y 14
+end
+arch woodlarge
+x 12
+end
+arch woodwall_2_1_2
+x 12
+end
+arch woodlarge
+x 12
+y 1
+end
+arch woodlarge
+x 12
+y 2
+end
+arch woodlarge
+x 12
+y 3
+end
+arch woodlarge
+x 12
+y 4
+end
+arch woodlarge
+x 12
+y 5
+end
+arch woodlarge
+x 12
+y 6
+end
+arch ewall_2_1_2
+x 12
+y 6
+end
+arch woodlarge
+x 12
+y 7
+end
+arch woodlarge
+x 12
+y 8
+end
+arch woodlarge
+x 12
+y 9
+end
+arch woodlarge
+x 12
+y 10
+end
+arch woodlarge
+x 12
+y 11
+end
+arch woodlarge
+x 12
+y 12
+end
+arch woodlarge
+x 12
+y 13
+end
+arch woodlarge
+x 12
+y 14
+end
+arch woodwall_2_1_2
+x 12
+y 14
+end
+arch woodlarge
+x 13
+end
+arch woodwall_2_1_2
+x 13
+end
+arch woodlarge
+x 13
+y 1
+end
+arch woodlarge
+x 13
+y 2
+end
+arch woodlarge
+x 13
+y 3
+end
+arch desk
+x 13
+y 3
+end
+arch woodlarge
+x 13
+y 4
+end
+arch chair_1.3
+x 13
+y 4
+end
+arch woodlarge
+x 13
+y 5
+end
+arch woodlarge
+x 13
+y 6
+end
+arch ewall_2_1_2
+x 13
+y 6
+end
+arch woodlarge
+x 13
+y 7
+end
+arch bookshelf_right
+x 13
+y 7
+arch random_reading
+end
+arch random_reading
+end
+end
+arch woodlarge
+x 13
+y 8
+end
+arch bookshelf_right
+x 13
+y 8
+arch random_reading
+end
+arch random_reading
+end
+end
+arch woodlarge
+x 13
+y 9
+end
+arch bookshelf_right
+x 13
+y 9
+arch random_reading
+end
+arch random_reading
+end
+end
+arch woodlarge
+x 13
+y 10
+end
+arch woodlarge
+x 13
+y 11
+end
+arch woodlarge
+x 13
+y 12
+end
+arch woodlarge
+x 13
+y 13
+end
+arch woodlarge
+x 13
+y 14
+end
+arch woodwall_2_1_2
+x 13
+y 14
+end
+arch woodlarge
+x 14
+end
+arch woodwall_2_2_3
+x 14
+end
+arch woodlarge
+x 14
+y 1
+end
+arch woodwall_2_1_1
+x 14
+y 1
+end
+arch woodlarge
+x 14
+y 2
+end
+arch woodwall_2_1_1
+x 14
+y 2
+end
+arch woodlarge
+x 14
+y 3
+end
+arch woodwall_2_1_1
+x 14
+y 3
+end
+arch woodlarge
+x 14
+y 4
+end
+arch woodwall_2_1_1
+x 14
+y 4
+end
+arch woodlarge
+x 14
+y 5
+end
+arch woodwall_2_1_1
+x 14
+y 5
+end
+arch woodlarge
+x 14
+y 6
+end
+arch woodwall_2_1_1
+x 14
+y 6
+end
+arch woodwall_3_4
+x 14
+y 6
+end
+arch woodlarge
+x 14
+y 7
+end
+arch woodwall_2_1_1
+x 14
+y 7
+end
+arch woodlarge
+x 14
+y 8
+end
+arch woodwall_2_1_1
+x 14
+y 8
+end
+arch woodlarge
+x 14
+y 9
+end
+arch woodwall_2_1_1
+x 14
+y 9
+end
+arch woodlarge
+x 14
+y 10
+end
+arch woodwall_2_1_1
+x 14
+y 10
+end
+arch woodlarge
+x 14
+y 11
+end
+arch woodwall_2_1_1
+x 14
+y 11
+end
+arch woodlarge
+x 14
+y 12
+end
+arch woodwall_2_1_1
+x 14
+y 12
+end
+arch woodlarge
+x 14
+y 13
+end
+arch woodwall_2_1_1
+x 14
+y 13
+end
+arch woodlarge
+x 14
+y 14
+end
+arch woodwall_2_2_4
+x 14
+y 14
+end

@@ -3,7 +3,7 @@ name world_125_104
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-12-20 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_125_103
@@ -3164,10 +3164,9 @@ arch evergreens2
 x 11
 y 38
 end
-arch woods_2
+arch footpath_1_4
 x 11
 y 39
-elevation 2619
 end
 arch grass_only
 x 11
@@ -3472,23 +3471,15 @@ arch evergreens2
 x 12
 y 37
 end
-arch grass_only
+arch footpath_2_2_2
 x 12
 y 38
 elevation 2255
 end
-arch evergreens2
-x 12
-y 38
-end
-arch grass_only
+arch footpath_2_2_4
 x 12
 y 39
 elevation 2284
-end
-arch evergreens2
-x 12
-y 39
 end
 arch grass_only
 x 12
@@ -3781,14 +3772,10 @@ x 13
 y 37
 elevation 460
 end
-arch grass_only
+arch footpath_2_1_2
 x 13
 y 38
 elevation 1026
-end
-arch tree5
-x 13
-y 38
 end
 arch woods_2
 x 13
@@ -4082,14 +4069,10 @@ arch tree5
 x 14
 y 37
 end
-arch grass_only
+arch footpath_2_1_2
 x 14
 y 38
 elevation 1495
-end
-arch tree5
-x 14
-y 38
 end
 arch grass_only
 x 14
@@ -4387,14 +4370,10 @@ arch tree5
 x 15
 y 37
 end
-arch grass_only
+arch footpath_2_1_2
 x 15
 y 38
 elevation 1611
-end
-arch tree5
-x 15
-y 38
 end
 arch grass_only
 x 15
@@ -4664,14 +4643,10 @@ arch tree5
 x 16
 y 37
 end
-arch grass_only
+arch footpath_2_1_2
 x 16
 y 38
 elevation 1426
-end
-arch tree5
-x 16
-y 38
 end
 arch grass_only
 x 16
@@ -4949,7 +4924,7 @@ x 17
 y 37
 elevation 981
 end
-arch grass
+arch footpath_2_1_2
 x 17
 y 38
 elevation 758
@@ -5214,7 +5189,7 @@ x 18
 y 37
 elevation 835
 end
-arch grass
+arch footpath_2_1_2
 x 18
 y 38
 elevation 806
@@ -5479,14 +5454,10 @@ x 19
 y 37
 elevation 67
 end
-arch grass_only
+arch footpath_2_1_2
 x 19
 y 38
 elevation 1082
-end
-arch tree5
-x 19
-y 38
 end
 arch grass_only
 x 19
@@ -5764,14 +5735,10 @@ arch tree5
 x 20
 y 37
 end
-arch grass_only
+arch footpath_2_1_2
 x 20
 y 38
 elevation 1433
-end
-arch tree5
-x 20
-y 38
 end
 arch grass_only
 x 20
@@ -6045,14 +6012,10 @@ arch tree5
 x 21
 y 37
 end
-arch grass_only
+arch footpath_2_1_2
 x 21
 y 38
 elevation 1360
-end
-arch tree5
-x 21
-y 38
 end
 arch grass_only
 x 21
@@ -6106,28 +6069,20 @@ arch evergreens2
 x 21
 y 46
 end
-arch grass_only
+arch shallow_sea
 x 21
 y 47
 elevation 2075
 end
-arch evergreens2
-x 21
-y 47
-end
-arch grass
+arch shallow_sea
 x 21
 y 48
 elevation 821
 end
-arch grass_only
+arch shallow_sea
 x 21
 y 49
 elevation 1311
-end
-arch evergreens2
-x 21
-y 49
 end
 arch desert
 x 22
@@ -6326,7 +6281,7 @@ x 22
 y 37
 elevation 345
 end
-arch grass
+arch footpath_2_1_2
 x 22
 y 38
 elevation 148
@@ -6367,7 +6322,7 @@ arch evergreens2
 x 22
 y 42
 end
-arch hills_rocky
+arch shallow_sea
 x 22
 y 43
 elevation 3075
@@ -6377,46 +6332,30 @@ x 22
 y 44
 elevation 3071
 end
-arch hills_rocky
+arch shallow_sea
 x 22
 y 45
 elevation 3133
 end
-arch grass_only
+arch shallow_sea
 x 22
 y 46
 elevation 2570
 end
-arch evergreens2
-x 22
-y 46
-end
-arch grass_only
+arch shallow_sea
 x 22
 y 47
 elevation 2186
 end
-arch tree5
-x 22
-y 47
-end
-arch grass_only
+arch shallow_sea
 x 22
 y 48
 elevation 2120
 end
-arch evergreens2
-x 22
-y 48
-end
-arch grass_only
+arch shallow_sea
 x 22
 y 49
 elevation 2770
-end
-arch evergreens2
-x 22
-y 49
 end
 arch desert
 x 23
@@ -6607,7 +6546,7 @@ x 23
 y 37
 elevation 845
 end
-arch grass
+arch footpath_1_3
 x 23
 y 38
 elevation 777
@@ -6631,48 +6570,32 @@ x 23
 y 41
 elevation 759
 end
-arch grass_only
+arch shallow_sea
 x 23
 y 42
 elevation 1849
 end
-arch evergreens2
-x 23
-y 42
-end
-arch grass
+arch shallow_sea
 x 23
 y 43
 elevation 505
 end
-arch grass_only
+arch shallow_sea
 x 23
 y 44
 elevation 1668
 end
-arch evergreens2
-x 23
-y 44
-end
-arch grass_only
+arch shallow_sea
 x 23
 y 45
 elevation 1243
 end
-arch evergreens2
-x 23
-y 45
-end
-arch grass_only
+arch shallow_sea
 x 23
 y 46
 elevation 2211
 end
-arch evergreens2
-x 23
-y 46
-end
-arch grass
+arch shallow_sea
 x 23
 y 47
 elevation 113
@@ -6681,10 +6604,6 @@ arch grass_only
 x 23
 y 48
 elevation 2840
-end
-arch evergreens2
-x 23
-y 48
 end
 arch hills_rocky
 x 23
@@ -6885,61 +6804,49 @@ x 24
 y 38
 elevation 644
 end
+arch footbridge_1_4
+x 24
+y 38
+end
 arch grass
 x 24
 y 39
 elevation 68
 end
-arch grass
+arch shallow_sea
 x 24
 y 40
 elevation 154
 end
-arch grass
+arch shallow_sea
 x 24
 y 41
 elevation 860
 end
-arch grass_only
+arch shallow_sea
 x 24
 y 42
 elevation 1489
 end
-arch evergreens2
-x 24
-y 42
-end
-arch grass_only
+arch shallow_sea
 x 24
 y 43
 elevation 1307
 end
-arch tree5
-x 24
-y 43
-end
-arch grass
+arch shallow_sea
 x 24
 y 44
 elevation 144
 end
-arch grass_only
+arch shallow_sea
 x 24
 y 45
 elevation 2143
-end
-arch tree5
-x 24
-y 45
 end
 arch grass_only
 x 24
 y 46
 elevation 2846
-end
-arch tree5
-x 24
-y 46
 end
 arch grass
 x 24
@@ -7135,48 +7042,45 @@ x 25
 y 35
 elevation -9
 end
-arch grass
+arch shallow_sea
 x 25
 y 36
 elevation 297
 end
-arch grass
+arch shallow_sea
 x 25
 y 37
 elevation 255
 end
-arch grass
+arch shallow_sea
 x 25
 y 38
 elevation 341
+move_block 0
 end
-arch grass
+arch footbridge_2_1_2
+x 25
+y 38
+end
+arch shallow_sea
 x 25
 y 39
 elevation 83
 end
-arch grass
+arch shallow_sea
 x 25
 y 40
 elevation 363
 end
-arch grass_only
+arch shallow_sea
 x 25
 y 41
 elevation 1445
 end
-arch tree5
-x 25
-y 41
-end
-arch grass_only
+arch shallow_sea
 x 25
 y 42
 elevation 1802
-end
-arch tree5
-x 25
-y 42
 end
 arch grass_only
 x 25
@@ -7405,22 +7309,27 @@ x 26
 y 36
 elevation -4
 end
-arch grass
+arch shallow_sea
 x 26
 y 37
 elevation 345
 end
-arch grass
+arch shallow_sea
 x 26
 y 38
 elevation 435
+move_block 0
 end
-arch grass
+arch footbridge_2_1_2
+x 26
+y 38
+end
+arch shallow_sea
 x 26
 y 39
 elevation 170
 end
-arch grass
+arch shallow_sea
 x 26
 y 40
 elevation 552
@@ -7675,6 +7584,10 @@ arch grass
 x 27
 y 38
 elevation 539
+end
+arch footbridge_1_3
+x 27
+y 38
 end
 arch grass
 x 27
@@ -7936,7 +7849,7 @@ x 28
 y 37
 elevation 0
 end
-arch grass
+arch footpath_1_4
 x 28
 y 38
 elevation 278
@@ -8197,7 +8110,7 @@ x 29
 y 37
 elevation 30
 end
-arch grass
+arch footpath_2_1_2
 x 29
 y 38
 elevation 378
@@ -8458,14 +8371,10 @@ x 30
 y 37
 elevation 94
 end
-arch grass_only
+arch footpath_1_3
 x 30
 y 38
 elevation 1267
-end
-arch tree5
-x 30
-y 38
 end
 arch grass_only
 x 30
@@ -8723,10 +8632,6 @@ arch grass_only
 x 31
 y 38
 elevation 1524
-end
-arch tree5
-x 31
-y 38
 end
 arch grass_only
 x 31
@@ -9254,10 +9159,6 @@ x 33
 y 38
 elevation 1505
 end
-arch tree5
-x 33
-y 38
-end
 arch grass_only
 x 33
 y 39
@@ -9506,14 +9407,10 @@ x 34
 y 37
 elevation 28
 end
-arch grass_only
+arch footpath_1_4
 x 34
 y 38
 elevation 1318
-end
-arch tree5
-x 34
-y 38
 end
 arch woods_2
 x 34
@@ -9759,7 +9656,7 @@ x 35
 y 37
 elevation 170
 end
-arch woods_2
+arch footpath_2_1_2
 x 35
 y 38
 elevation 1159
@@ -10016,7 +9913,7 @@ x 36
 y 37
 elevation 164
 end
-arch woods_2
+arch footpath_2_1_2
 x 36
 y 38
 elevation 1170
@@ -10277,7 +10174,7 @@ x 37
 y 37
 elevation 42
 end
-arch woods_2
+arch footpath_1_3
 x 37
 y 38
 elevation 1025

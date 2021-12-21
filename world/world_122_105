@@ -3,7 +3,7 @@ name world_122_105
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-12-18 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_122_104
@@ -2633,7 +2633,7 @@ arch tree3
 x 9
 y 32
 end
-arch hills
+arch footpath_1_4
 x 9
 y 33
 elevation 1808
@@ -2908,12 +2908,12 @@ x 10
 y 31
 elevation 2209
 end
-arch hills
+arch footpath_2_2_2
 x 10
 y 32
 elevation 1923
 end
-arch hills
+arch footpath_2_2_4
 x 10
 y 33
 elevation 2778
@@ -3199,23 +3199,15 @@ arch tree3
 x 11
 y 30
 end
-arch grass_only
+arch footpath_2_2_2
 x 11
 y 31
 elevation 2225
 end
-arch tree3
-x 11
-y 31
-end
-arch grass_only
+arch footpath_2_2_4
 x 11
 y 32
 elevation 1496
-end
-arch tree3
-x 11
-y 32
 end
 arch hills_rocky
 x 11
@@ -3498,12 +3490,12 @@ arch tree3
 x 12
 y 29
 end
-arch hills
+arch footpath_2_2_2
 x 12
 y 30
 elevation 1920
 end
-arch hills
+arch footpath_2_2_4
 x 12
 y 31
 elevation 1263
@@ -3781,19 +3773,15 @@ x 13
 y 28
 elevation 4358
 end
-arch hills
+arch footpath_2_2_2
 x 13
 y 29
 elevation 3758
 end
-arch grass_only
+arch footpath_2_2_4
 x 13
 y 30
 elevation 2459
-end
-arch tree3
-x 13
-y 30
 end
 arch grass_only
 x 13
@@ -4061,12 +4049,12 @@ x 14
 y 27
 elevation 4926
 end
-arch hills
+arch footpath_2_2_2
 x 14
 y 28
 elevation 4756
 end
-arch hills_rocky
+arch footpath_2_2_4
 x 14
 y 29
 elevation 4402
@@ -4337,12 +4325,12 @@ x 15
 y 26
 elevation 4879
 end
-arch hills
+arch footpath_2_2_2
 x 15
 y 27
 elevation 4676
 end
-arch steppe
+arch footpath_2_2_4
 x 15
 y 28
 elevation 4555
@@ -4621,12 +4609,12 @@ x 16
 y 25
 elevation 4688
 end
-arch hills
+arch footpath_2_2_2
 x 16
 y 26
 elevation 4901
 end
-arch hills
+arch footpath_2_2_4
 x 16
 y 27
 elevation 4017

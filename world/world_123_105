@@ -3,7 +3,7 @@ name world_123_105
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-12-18 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_123_104
@@ -618,7 +618,7 @@ x 2
 y 4
 elevation 715
 end
-arch brush
+arch cobblestones
 x 2
 y 5
 elevation 756
@@ -931,7 +931,7 @@ x 3
 y 4
 elevation 820
 end
-arch brush
+arch cobblestones
 x 3
 y 5
 elevation 695
@@ -1227,7 +1227,7 @@ x 4
 y 4
 elevation 287
 end
-arch brush
+arch cobblestones
 x 4
 y 5
 elevation 958
@@ -6718,7 +6718,7 @@ x 23
 y 4
 elevation 3942
 end
-arch woods_2
+arch cobblestones
 x 23
 y 5
 elevation 2574
@@ -6987,7 +6987,7 @@ x 24
 y 4
 elevation 3664
 end
-arch woods_2
+arch cobblestones
 x 24
 y 5
 elevation 2675
@@ -7240,14 +7240,10 @@ x 25
 y 4
 elevation 2582
 end
-arch grass_only
+arch cobblestones
 x 25
 y 5
 elevation 1646
-end
-arch tree3
-x 25
-y 5
 end
 arch woods_2
 x 25
@@ -7501,7 +7497,7 @@ x 26
 y 4
 elevation 486
 end
-arch jungle_1
+arch cobblestones
 x 26
 y 5
 elevation 2038
@@ -7754,7 +7750,7 @@ x 27
 y 4
 elevation 2042
 end
-arch woods_2
+arch cobblestones
 x 27
 y 5
 elevation 2658
@@ -8003,7 +7999,7 @@ x 28
 y 4
 elevation 1316
 end
-arch hills
+arch cobblestones
 x 28
 y 5
 elevation 3167
@@ -11777,14 +11773,10 @@ x 42
 y 4
 elevation 3062
 end
-arch grass_only
+arch cobblestones
 x 42
 y 5
 elevation 2925
-end
-arch evergreens2
-x 42
-y 5
 end
 arch jungle_1
 x 42
@@ -12102,7 +12094,7 @@ x 43
 y 4
 elevation 4009
 end
-arch steppe
+arch cobblestones
 x 43
 y 5
 elevation 3807
@@ -12390,12 +12382,12 @@ x 44
 y 3
 elevation 5422
 end
-arch steppe
+arch cobblestones
 x 44
 y 4
 elevation 4292
 end
-arch hills_rocky
+arch cobblestones
 x 44
 y 5
 elevation 4511
@@ -12670,12 +12662,12 @@ x 45
 y 2
 elevation 6616
 end
-arch steppe
+arch cobblestones
 x 45
 y 3
 elevation 4521
 end
-arch steppe
+arch cobblestones
 x 45
 y 4
 elevation 3703
@@ -12958,12 +12950,12 @@ x 46
 y 1
 elevation 6719
 end
-arch mountain
+arch steppe
 x 46
 y 2
 elevation 6491
 end
-arch mountain
+arch steppe
 x 46
 y 3
 elevation 5990
@@ -13250,12 +13242,12 @@ arch mountain
 x 47
 elevation 5744
 end
-arch mountain
+arch steppe
 x 47
 y 1
 elevation 6080
 end
-arch mountain
+arch steppe
 x 47
 y 2
 elevation 5361
@@ -13547,12 +13539,12 @@ arch steppe
 x 48
 elevation 3658
 end
-arch mountain
+arch steppe
 x 48
 y 1
 elevation 5257
 end
-arch mountain
+arch steppe
 x 48
 y 2
 elevation 5824

@@ -3,7 +3,7 @@ name world_125_105
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-12-18 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_125_104
@@ -5610,18 +5610,14 @@ x 21
 y 49
 elevation 5088
 end
-arch hills_rocky
+arch shallow_sea
 x 22
 elevation 3343
 end
-arch grass_only
+arch shallow_sea
 x 22
 y 1
 elevation 2687
-end
-arch evergreens2
-x 22
-y 1
 end
 arch mountain
 x 22
@@ -5887,26 +5883,23 @@ x 22
 y 49
 elevation 5279
 end
-arch grass_only
+arch shallow_sea
 x 23
 elevation 2658
 end
-arch evergreens2
-x 23
-end
-arch grass_only
+arch shallow_sea
 x 23
 y 1
 elevation 2908
-end
-arch evergreens2
-x 23
-y 1
 end
 arch mountain
 x 23
 y 2
 elevation 5502
+end
+arch falls_3
+x 23
+y 2
 end
 arch mountain
 x 23

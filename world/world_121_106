@@ -3,7 +3,7 @@ name world_121_106
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2021-12-18 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_121_105
@@ -54,7 +54,7 @@ arch steppe
 y 10
 elevation 3548
 end
-arch hills_rocky
+arch cobblestones
 y 11
 elevation 3216
 end
@@ -264,7 +264,7 @@ x 1
 y 10
 elevation 1891
 end
-arch woods
+arch cobblestones
 x 1
 y 11
 elevation 2366
@@ -513,7 +513,7 @@ x 2
 y 10
 elevation 394
 end
-arch jungle_1
+arch cobblestones
 x 2
 y 11
 elevation 1444
@@ -762,7 +762,7 @@ x 3
 y 10
 elevation 1087
 end
-arch woods
+arch cobblestones
 x 3
 y 11
 elevation 1335
@@ -1011,7 +1011,7 @@ x 4
 y 10
 elevation 1772
 end
-arch jungle_1
+arch cobblestones
 x 4
 y 11
 elevation 1660
@@ -1264,7 +1264,7 @@ x 5
 y 10
 elevation 1646
 end
-arch woods
+arch cobblestones
 x 5
 y 11
 elevation 2055
@@ -1517,7 +1517,7 @@ x 6
 y 10
 elevation 2473
 end
-arch jungle_1
+arch cobblestones
 x 6
 y 11
 elevation 2107
@@ -1766,7 +1766,7 @@ x 7
 y 10
 elevation 2779
 end
-arch jungle_1
+arch cobblestones
 x 7
 y 11
 elevation 1957
@@ -2026,12 +2026,12 @@ x 8
 y 9
 elevation 3196
 end
-arch woods
+arch cobblestones
 x 8
 y 10
 elevation 2713
 end
-arch woods
+arch cobblestones
 x 8
 y 11
 elevation 1520
@@ -2286,12 +2286,12 @@ x 9
 y 8
 elevation 2760
 end
-arch woods
+arch cobblestones
 x 9
 y 9
 elevation 2690
 end
-arch woods
+arch cobblestones
 x 9
 y 10
 elevation 2360
@@ -2545,12 +2545,12 @@ x 10
 y 7
 elevation 2296
 end
-arch woods
+arch cobblestones
 x 10
 y 8
 elevation 1728
 end
-arch woods
+arch cobblestones
 x 10
 y 9
 elevation 2023
@@ -2801,12 +2801,12 @@ x 11
 y 6
 elevation 2174
 end
-arch woods
+arch cobblestones
 x 11
 y 7
 elevation 1940
 end
-arch woods
+arch cobblestones
 x 11
 y 8
 elevation 1320
@@ -3056,12 +3056,12 @@ x 12
 y 5
 elevation 2204
 end
-arch woods
+arch cobblestones
 x 12
 y 6
 elevation 2179
 end
-arch woods
+arch cobblestones
 x 12
 y 7
 elevation 1682
@@ -3304,12 +3304,12 @@ x 13
 y 4
 elevation 2202
 end
-arch woods
+arch cobblestones
 x 13
 y 5
 elevation 2158
 end
-arch woods
+arch cobblestones
 x 13
 y 6
 elevation 2085
@@ -3560,12 +3560,12 @@ x 14
 y 3
 elevation 2044
 end
-arch woods
+arch cobblestones
 x 14
 y 4
 elevation 2087
 end
-arch woods
+arch cobblestones
 x 14
 y 5
 elevation 1272
@@ -3808,16 +3808,12 @@ x 15
 y 2
 elevation 1760
 end
-arch grass_only
+arch cobblestones
 x 15
 y 3
 elevation 2103
 end
-arch evergreens2
-x 15
-y 3
-end
-arch woods
+arch cobblestones
 x 15
 y 4
 elevation 1755
@@ -4051,29 +4047,21 @@ x 15
 y 49
 elevation 7156
 end
-arch grass
+arch cobblestones
 x 16
 elevation 453
 end
-arch grass_only
+arch cobblestones
 x 16
 y 1
 elevation 1043
 end
-arch evergreens2
-x 16
-y 1
-end
-arch grass_only
+arch cobblestones
 x 16
 y 2
 elevation 1838
 end
-arch evergreens2
-x 16
-y 2
-end
-arch woods
+arch cobblestones
 x 16
 y 3
 elevation 2203
