@@ -33,13 +33,13 @@
   "pre" : [["quest", "quests/Azumauindo", "10"]],
   "post" : [],
   "msg" : ["In my studies, I have only come across one language which matches your description. This sounds like a script from Azumauindo."],
-  "replies" : [["azumauindo", "Where is Azumauindo?"]]
+  "replies" : [["azumauindo", "Where is Azumauindo?", "2"]]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "quests/Azumauindo", "10"]],
   "post" : [],
   "msg" : ["Another day of studying scriptures..."],
-  "replies" : [["book", "I found a strange book written with boxy runes. Could you tell me more about it?"]]
+  "replies" : [["book", "I found a strange book written with boxy runes. Could you tell me more about it?", "2"]]
   }, {
   "match" : ["*"],
   "pre" : [],
