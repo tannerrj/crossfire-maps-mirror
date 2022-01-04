@@ -29,10 +29,10 @@ def can_apply(player):
     return False
 
 if can_apply(player):
-    Crossfire.SetReturnValue(1)
+    Crossfire.SetReturnValue(0)
 else:
     # forbid applying
-    Crossfire.SetReturnValue(2)
+    Crossfire.SetReturnValue(1)
     msg = Crossfire.WhoAmI().Message
     if type(player) == Crossfire.Player:
         if msg is not None:
