@@ -9,7 +9,7 @@ enter_x 13
 enter_y 2
 msg
 Created:  1999-01-22 Raphaël Quinet (raphael@gimp.org)
-Modified: 2012-01-17 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 end
 arch cave_15
@@ -464,6 +464,7 @@ dungeon_level 1
 dungeon_depth 50
 difficulty 0
 difficulty_increase 0.5
+darkness 2
 orientation 1
 symmetry 1
 treasureoptions 1

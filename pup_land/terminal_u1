@@ -8,8 +8,9 @@ enter_x 13
 enter_y 10
 msg
 Created:  1996-04-05
-Modified: 2013-03-19 Kevin Zheng
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch sky
 end
@@ -1305,6 +1306,10 @@ sp 7
 x 9
 y 8
 end
+arch light1
+x 9
+y 8
+end
 arch cobblestones2
 x 9
 y 9
@@ -1432,6 +1437,10 @@ name Raffle 2 (Medium)
 slaying raffle/raffle2
 hp 1
 sp 7
+x 10
+y 8
+end
+arch light1
 x 10
 y 8
 end
@@ -1574,6 +1583,10 @@ name Raffle 3 (Hard)
 slaying raffle/raffle3
 hp 1
 sp 7
+x 11
+y 8
+end
+arch light1
 x 11
 y 8
 end

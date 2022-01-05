@@ -2,13 +2,14 @@ arch map
 name Aqueduct
 difficulty 10
 region nurnberg
+darkness 2
 width 48
 height 48
 enter_x 32
 enter_y 24
 msg
 Created:  1996-02-04
-Modified: 2012-03-02 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 end
 arch dungeon_floor

@@ -8,8 +8,9 @@ enter_x 5
 enter_y 8
 msg
 Created:  1998-12-28 Anthony Thyssen (anthony@cit.gu.edu.au)
-Modified: 2012-03-25 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch woodfloor
 end
@@ -671,6 +672,10 @@ y 2
 type 0
 move_block all
 end
+arch light3
+x 7
+y 2
+end
 arch dungeon_magic
 x 7
 y 3
@@ -726,6 +731,10 @@ x 7
 y 6
 type 0
 move_block all
+end
+arch light3
+x 7
+y 6
 end
 arch dungeon_magic
 x 7

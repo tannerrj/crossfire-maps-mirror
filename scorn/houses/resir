@@ -9,7 +9,7 @@ enter_x 24
 enter_y 4
 msg
 Created:  2005-07-16 Knut Ahlers (webmaster@knutshome.de)
-Modified: 2021-08-29 Nicolas Weeger
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 maplore
 @def Resir's house
@@ -17,6 +17,7 @@ This is a simple house with a nice reward at the end.
 
 Stand-alone map.
 endmaplore
+outdoor 1
 end
 arch cobblestones2
 end

@@ -6,7 +6,7 @@ width 30
 height 30
 msg
 Created:  1996-02-07
-Modified: 2020-06-08 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 outdoor 1
 background_music nurnberg
@@ -396,6 +396,10 @@ x 2
 y 11
 end
 arch grass
+x 2
+y 12
+end
+arch lamppost
 x 2
 y 12
 end
@@ -1971,6 +1975,10 @@ arch grass
 x 11
 y 21
 end
+arch lamppost
+x 11
+y 21
+end
 arch cobblestones
 x 11
 y 22
@@ -2049,6 +2057,10 @@ x 12
 y 6
 end
 arch grass
+x 12
+y 7
+end
+arch lamppost
 x 12
 y 7
 end
@@ -2706,6 +2718,10 @@ arch grass
 x 16
 y 11
 end
+arch lamppost
+x 16
+y 11
+end
 arch evergreen
 x 16
 y 12
@@ -2731,6 +2747,10 @@ x 16
 y 17
 end
 arch grass
+x 16
+y 18
+end
+arch lamppost
 x 16
 y 18
 end
@@ -3976,6 +3996,10 @@ arch grass
 x 24
 y 7
 end
+arch lamppost
+x 24
+y 7
+end
 arch cobblestones
 x 24
 y 8
@@ -4005,6 +4029,10 @@ x 24
 y 13
 end
 arch grass
+x 24
+y 14
+end
+arch lamppost
 x 24
 y 14
 end
@@ -4360,6 +4388,10 @@ x 26
 y 25
 end
 arch grass
+x 26
+y 26
+end
+arch lamppost
 x 26
 y 26
 end

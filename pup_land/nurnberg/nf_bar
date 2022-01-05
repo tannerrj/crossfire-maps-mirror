@@ -11,8 +11,9 @@ enter_x 12
 enter_y 1
 msg
 Created:  1996-02-10
-Modified: 2021-10-02 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch cobblestones
 end
@@ -362,6 +363,10 @@ arch poison
 x 2
 y 10
 end
+arch light4
+x 2
+y 10
+end
 arch woodfloor
 x 2
 y 11
@@ -395,6 +400,10 @@ y 13
 friendly 1
 unaggressive 0
 end
+arch light4
+x 2
+y 13
+end
 arch woodfloor
 x 2
 y 14
@@ -416,6 +425,10 @@ x 2
 y 16
 end
 arch poison
+x 2
+y 16
+end
+arch light4
 x 2
 y 16
 end
@@ -1092,6 +1105,10 @@ arch chair_1.4
 x 7
 y 6
 end
+arch light4
+x 7
+y 6
+end
 arch woodfloor
 x 7
 y 7
@@ -1400,6 +1417,10 @@ arch woodfloor
 x 9
 y 17
 end
+arch light4
+x 9
+y 17
+end
 arch woodfloor
 x 9
 y 18
@@ -1640,6 +1661,10 @@ randomitems none
 friendly 1
 can_use_skill 0
 end
+arch light4
+x 11
+y 7
+end
 arch dungeon_magic
 x 11
 y 8
@@ -1710,6 +1735,10 @@ x 11
 y 16
 end
 arch woodfloor
+x 11
+y 17
+end
+arch light4
 x 11
 y 17
 end
@@ -2413,6 +2442,10 @@ arch chair_1.2
 x 16
 y 6
 end
+arch light4
+x 16
+y 6
+end
 arch woodfloor
 x 16
 y 7
@@ -2468,6 +2501,10 @@ speed 0.400000
 speed_left -3.440000
 end
 arch woodfloor
+x 16
+y 16
+end
+arch light4
 x 16
 y 16
 end
@@ -3031,6 +3068,10 @@ arch shop_mat
 x 21
 y 4
 end
+arch light4
+x 21
+y 4
+end
 arch woodfloor
 x 21
 y 5
@@ -3544,6 +3585,10 @@ x 24
 y 5
 end
 arch shop_food
+x 24
+y 5
+end
+arch light4
 x 24
 y 5
 end

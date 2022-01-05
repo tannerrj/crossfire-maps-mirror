@@ -11,8 +11,9 @@ enter_x 11
 enter_y 23
 msg
 Created:  1996-02-12
-Modified: 2012-03-20 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch grass
 end
@@ -490,6 +491,10 @@ arch shop_empty
 x 4
 y 11
 end
+arch light4
+x 4
+y 11
+end
 arch shop_empty
 x 4
 y 12
@@ -819,6 +824,10 @@ arch shop_empty
 x 7
 y 7
 end
+arch light4
+x 7
+y 7
+end
 arch shop_empty
 x 7
 y 8
@@ -860,6 +869,10 @@ x 7
 y 14
 end
 arch shop_empty
+x 7
+y 15
+end
+arch light4
 x 7
 y 15
 end
@@ -1462,6 +1475,10 @@ arch shop_empty
 x 12
 y 7
 end
+arch light4
+x 12
+y 7
+end
 arch shop_empty
 x 12
 y 8
@@ -1475,6 +1492,10 @@ x 12
 y 10
 end
 arch shop_empty
+x 12
+y 11
+end
+arch light4
 x 12
 y 11
 end
@@ -1503,6 +1524,10 @@ x 12
 y 16
 end
 arch shop_empty
+x 12
+y 17
+end
+arch light4
 x 12
 y 17
 end
@@ -1991,6 +2016,10 @@ arch shop_empty
 x 16
 y 7
 end
+arch light4
+x 16
+y 7
+end
 arch shop_empty
 x 16
 y 8
@@ -2032,6 +2061,10 @@ x 16
 y 14
 end
 arch shop_empty
+x 16
+y 15
+end
+arch light4
 x 16
 y 15
 end
@@ -2365,6 +2398,10 @@ x 19
 y 10
 end
 arch shop_empty
+x 19
+y 11
+end
+arch light4
 x 19
 y 11
 end

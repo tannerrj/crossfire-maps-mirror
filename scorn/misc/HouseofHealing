@@ -10,8 +10,9 @@ enter_x 10
 enter_y 33
 msg
 Created:  1999-04-02
-Modified: 2019-04-04 DraugTheWhopper
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch grass
 end
@@ -1889,6 +1890,10 @@ arch woodfloor
 x 7
 y 25
 end
+arch light4
+x 7
+y 25
+end
 arch woodfloor
 x 7
 y 26
@@ -1905,6 +1910,10 @@ arch woodfloor
 x 7
 y 29
 end
+arch light4
+x 7
+y 29
+end
 arch woodfloor
 x 7
 y 30
@@ -1918,6 +1927,10 @@ x 7
 y 32
 end
 arch woodfloor
+x 7
+y 33
+end
+arch light4
 x 7
 y 33
 end
@@ -2312,6 +2325,10 @@ identified 1
 arch spell_heal
 end
 end
+arch light4
+x 9
+y 8
+end
 arch shop_empty
 x 9
 y 9
@@ -2343,6 +2360,10 @@ x 9
 y 11
 unpaid 1
 identified 1
+end
+arch light4
+x 9
+y 11
 end
 arch shop_empty
 x 9
@@ -2384,6 +2405,10 @@ y 14
 unpaid 1
 identified 1
 end
+arch light4
+x 9
+y 14
+end
 arch shop_empty
 x 9
 y 15
@@ -2416,6 +2441,10 @@ y 17
 unpaid 1
 identified 1
 artifact cure vision
+end
+arch light4
+x 9
+y 17
 end
 arch shop_empty
 x 9
@@ -3124,6 +3153,10 @@ arch shop_mat
 x 11
 y 21
 end
+arch light4
+x 11
+y 21
+end
 arch woodfloor
 x 11
 y 22
@@ -3201,6 +3234,10 @@ title Python
 slaying /python/maps/scorn/HouseofHealing.py
 end
 end
+arch light4
+x 11
+y 29
+end
 arch dungeon_magic
 x 11
 y 30
@@ -3232,6 +3269,10 @@ x 11
 y 32
 end
 arch woodfloor
+x 11
+y 33
+end
+arch light4
 x 11
 y 33
 end
@@ -3681,6 +3722,10 @@ identified 1
 arch spell_heal
 end
 end
+arch light4
+x 13
+y 8
+end
 arch shop_empty
 x 13
 y 9
@@ -3712,6 +3757,10 @@ x 13
 y 11
 unpaid 1
 identified 1
+end
+arch light4
+x 13
+y 11
 end
 arch shop_empty
 x 13
@@ -3753,6 +3802,10 @@ y 14
 unpaid 1
 identified 1
 end
+arch light4
+x 13
+y 14
+end
 arch shop_empty
 x 13
 y 15
@@ -3785,6 +3838,10 @@ y 17
 unpaid 1
 identified 1
 artifact cure vision
+end
+arch light4
+x 13
+y 17
 end
 arch shop_empty
 x 13
@@ -4642,6 +4699,10 @@ arch woodfloor
 x 16
 y 25
 end
+arch light4
+x 16
+y 25
+end
 arch woodfloor
 x 16
 y 26
@@ -4658,6 +4719,10 @@ arch woodfloor
 x 16
 y 29
 end
+arch light4
+x 16
+y 29
+end
 arch woodfloor
 x 16
 y 30
@@ -4671,6 +4736,10 @@ x 16
 y 32
 end
 arch woodfloor
+x 16
+y 33
+end
+arch light4
 x 16
 y 33
 end

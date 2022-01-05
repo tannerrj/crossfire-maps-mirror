@@ -8,8 +8,9 @@ enter_x 5
 enter_y 18
 msg
 Created:  1996-02-25
-Modified: 2020-06-08 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 background_music lonetown
 end
 arch grass
@@ -570,6 +571,10 @@ arch grass
 x 4
 y 16
 end
+arch lamppost
+x 4
+y 16
+end
 arch grass
 x 4
 y 17
@@ -900,6 +905,10 @@ x 7
 y 9
 end
 arch grass
+x 7
+y 10
+end
+arch lamppost
 x 7
 y 10
 end
@@ -1306,6 +1315,10 @@ arch grass
 x 10
 y 15
 end
+arch lamppost
+x 10
+y 15
+end
 arch cobblestones
 x 10
 y 16
@@ -1336,6 +1349,10 @@ arch grass
 x 11
 y 1
 end
+arch lamppost
+x 11
+y 1
+end
 arch cobblestones
 x 11
 y 2
@@ -1357,6 +1374,10 @@ x 11
 y 4
 end
 arch grass
+x 11
+y 5
+end
+arch lamppost
 x 11
 y 5
 end
@@ -2057,6 +2078,10 @@ arch grass
 x 15
 y 16
 end
+arch lamppost
+x 15
+y 16
+end
 arch grass
 x 15
 y 17
@@ -2242,6 +2267,10 @@ x 17
 y 9
 end
 arch grass
+x 17
+y 10
+end
+arch lamppost
 x 17
 y 10
 end

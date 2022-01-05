@@ -8,8 +8,9 @@ enter_x 10
 enter_y 20
 msg
 Created:  1996-02-15
-Modified: 2021-10-02 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch grass
 end
@@ -452,6 +453,10 @@ arch flagstone
 x 3
 y 8
 end
+arch light4
+x 3
+y 8
+end
 arch flagstone
 x 3
 y 9
@@ -619,6 +624,10 @@ x 4
 y 13
 end
 arch table_4
+x 4
+y 13
+end
+arch light4
 x 4
 y 13
 end
@@ -1416,6 +1425,10 @@ arch table_4
 x 10
 y 3
 end
+arch light4
+x 10
+y 3
+end
 arch flagstone
 x 10
 y 4
@@ -1437,6 +1450,10 @@ x 10
 y 6
 end
 arch table_4
+x 10
+y 6
+end
+arch light4
 x 10
 y 6
 end
@@ -1539,6 +1556,10 @@ material 0
 no_pick 1
 end
 arch flagstone
+x 10
+y 13
+end
+arch light4
 x 10
 y 13
 end
@@ -2541,6 +2562,10 @@ arch flagstone
 x 17
 y 13
 end
+arch light4
+x 17
+y 13
+end
 arch flagstone
 x 17
 y 14
@@ -2646,6 +2671,10 @@ x 18
 y 7
 end
 arch flagstone
+x 18
+y 8
+end
+arch light4
 x 18
 y 8
 end

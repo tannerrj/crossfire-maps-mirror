@@ -8,8 +8,9 @@ enter_x 19
 enter_y 1
 msg
 Created:  2000-11-11 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2021-10-02 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch exit
 slaying /world/world_105_115
@@ -426,6 +427,10 @@ arch woodfloor
 x 2
 y 8
 end
+arch light4
+x 2
+y 8
+end
 arch dungeon_magic
 x 2
 y 9
@@ -455,6 +460,10 @@ x 2
 y 12
 end
 arch woodfloor
+x 2
+y 12
+end
+arch light4
 x 2
 y 12
 end
@@ -479,6 +488,10 @@ x 2
 y 15
 end
 arch woodfloor
+x 2
+y 15
+end
+arch light4
 x 2
 y 15
 end
@@ -511,6 +524,10 @@ x 2
 y 19
 end
 arch woodfloor
+x 2
+y 19
+end
+arch light4
 x 2
 y 19
 end
@@ -1232,6 +1249,10 @@ arch woodfloor
 x 6
 y 8
 end
+arch light4
+x 6
+y 8
+end
 arch dungeon_magic
 x 6
 y 9
@@ -1288,6 +1309,10 @@ face shop_empty.111
 x 6
 y 12
 end
+arch light4
+x 6
+y 12
+end
 arch dungeon_magic
 x 6
 y 13
@@ -1315,6 +1340,10 @@ end
 arch cobblestones
 name black (c3)
 face dirtfloor.111
+x 6
+y 15
+end
+arch light4
 x 6
 y 15
 end
@@ -1366,6 +1395,10 @@ x 6
 y 19
 end
 arch woodfloor
+x 6
+y 19
+end
+arch light4
 x 6
 y 19
 end
@@ -2116,6 +2149,10 @@ arch woodfloor
 x 10
 y 8
 end
+arch light4
+x 10
+y 8
+end
 arch dungeon_magic
 x 10
 y 9
@@ -2172,6 +2209,10 @@ face shop_empty.111
 x 10
 y 12
 end
+arch light4
+x 10
+y 12
+end
 arch dungeon_magic
 x 10
 y 13
@@ -2199,6 +2240,10 @@ end
 arch cobblestones
 name black (g3)
 face dirtfloor.111
+x 10
+y 15
+end
+arch light4
 x 10
 y 15
 end
@@ -2250,6 +2295,10 @@ x 10
 y 19
 end
 arch woodfloor
+x 10
+y 19
+end
+arch light4
 x 10
 y 19
 end
@@ -2946,6 +2995,10 @@ arch woodfloor
 x 14
 y 8
 end
+arch light4
+x 14
+y 8
+end
 arch dungeon_magic
 x 14
 y 9
@@ -2983,6 +3036,10 @@ x 14
 y 12
 connected 2
 end
+arch light4
+x 14
+y 12
+end
 arch dungeon_magic
 x 14
 y 13
@@ -3011,6 +3068,10 @@ arch button_handle
 x 14
 y 15
 connected 2
+end
+arch light4
+x 14
+y 15
 end
 arch dungeon_magic
 x 14
@@ -3041,6 +3102,10 @@ x 14
 y 19
 end
 arch woodfloor
+x 14
+y 19
+end
+arch light4
 x 14
 y 19
 end
@@ -3627,6 +3692,10 @@ arch table_2
 x 17
 y 7
 end
+arch light4
+x 17
+y 7
+end
 arch dungeon_magic
 x 17
 y 8
@@ -3671,6 +3740,10 @@ arch table_2
 x 17
 y 11
 end
+arch light4
+x 17
+y 11
+end
 arch dungeon_magic
 x 17
 y 12
@@ -3707,6 +3780,10 @@ arch woodfloor
 x 17
 y 15
 end
+arch light4
+x 17
+y 15
+end
 arch dungeon_magic
 x 17
 y 16
@@ -3736,6 +3813,10 @@ x 17
 y 19
 end
 arch woodfloor
+x 17
+y 19
+end
+arch light4
 x 17
 y 19
 end
@@ -4442,6 +4523,10 @@ arch table_2
 x 21
 y 7
 end
+arch light4
+x 21
+y 7
+end
 arch dungeon_magic
 x 21
 y 8
@@ -4496,6 +4581,10 @@ arch table_2
 x 21
 y 11
 end
+arch light4
+x 21
+y 11
+end
 arch dungeon_magic
 x 21
 y 12
@@ -4532,6 +4621,10 @@ arch woodfloor
 x 21
 y 15
 end
+arch light4
+x 21
+y 15
+end
 arch dungeon_magic
 x 21
 y 16
@@ -4561,6 +4654,10 @@ x 21
 y 19
 end
 arch woodfloor
+x 21
+y 19
+end
+arch light4
 x 21
 y 19
 end
@@ -5122,6 +5219,10 @@ arch woodfloor
 x 24
 y 8
 end
+arch light4
+x 24
+y 8
+end
 arch dungeon_magic
 x 24
 y 9
@@ -5159,6 +5260,10 @@ x 24
 y 12
 connected 3
 end
+arch light4
+x 24
+y 12
+end
 arch dungeon_magic
 x 24
 y 13
@@ -5187,6 +5292,10 @@ arch button_handle
 x 24
 y 15
 connected 3
+end
+arch light4
+x 24
+y 15
 end
 arch dungeon_magic
 x 24
@@ -5217,6 +5326,10 @@ x 24
 y 19
 end
 arch woodfloor
+x 24
+y 19
+end
+arch light4
 x 24
 y 19
 end
@@ -5905,6 +6018,10 @@ arch woodfloor
 x 28
 y 8
 end
+arch light4
+x 28
+y 8
+end
 arch dungeon_magic
 x 28
 y 9
@@ -5961,6 +6078,10 @@ face dirtfloor.111
 x 28
 y 12
 end
+arch light4
+x 28
+y 12
+end
 arch dungeon_magic
 x 28
 y 13
@@ -5988,6 +6109,10 @@ end
 arch flagstone
 name white (b3)
 face shop_empty.111
+x 28
+y 15
+end
+arch light4
 x 28
 y 15
 end
@@ -6039,6 +6164,10 @@ x 28
 y 19
 end
 arch woodfloor
+x 28
+y 19
+end
+arch light4
 x 28
 y 19
 end
@@ -6797,6 +6926,10 @@ arch woodfloor
 x 32
 y 8
 end
+arch light4
+x 32
+y 8
+end
 arch dungeon_magic
 x 32
 y 9
@@ -6853,6 +6986,10 @@ face dirtfloor.111
 x 32
 y 12
 end
+arch light4
+x 32
+y 12
+end
 arch dungeon_magic
 x 32
 y 13
@@ -6880,6 +7017,10 @@ end
 arch flagstone
 name white (f3)
 face shop_empty.111
+x 32
+y 15
+end
+arch light4
 x 32
 y 15
 end
@@ -6931,6 +7072,10 @@ x 32
 y 19
 end
 arch woodfloor
+x 32
+y 19
+end
+arch light4
 x 32
 y 19
 end
@@ -7652,6 +7797,10 @@ arch woodfloor
 x 36
 y 8
 end
+arch light4
+x 36
+y 8
+end
 arch dungeon_magic
 x 36
 y 9
@@ -7681,6 +7830,10 @@ x 36
 y 12
 end
 arch woodfloor
+x 36
+y 12
+end
+arch light4
 x 36
 y 12
 end
@@ -7705,6 +7858,10 @@ x 36
 y 15
 end
 arch woodfloor
+x 36
+y 15
+end
+arch light4
 x 36
 y 15
 end
@@ -7737,6 +7894,10 @@ x 36
 y 19
 end
 arch woodfloor
+x 36
+y 19
+end
+arch light4
 x 36
 y 19
 end
