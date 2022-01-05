@@ -2,11 +2,12 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 40
 height 40
 msg
 Created:  1993-10-05 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_1 oldcity13
 tile_path_2 oldcity10
@@ -5235,7 +5236,7 @@ arch small_stones
 x 20
 y 27
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 20
 y 27
 end
@@ -5391,6 +5392,10 @@ name skull floor
 x 21
 y 10
 end
+arch brazier
+x 21
+y 10
+end
 arch dungeon_floor
 x 21
 y 11
@@ -5399,11 +5404,19 @@ arch dungeon_floor
 x 21
 y 12
 end
+arch brazier
+x 21
+y 12
+end
 arch dungeon_floor
 x 21
 y 13
 end
 arch dungeon_floor
+x 21
+y 14
+end
+arch brazier
 x 21
 y 14
 end
@@ -5429,7 +5442,7 @@ arch dungeon_floor
 x 21
 y 18
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 21
 y 18
 end
@@ -5453,6 +5466,10 @@ arch dungeon_floor
 x 21
 y 22
 end
+arch brazier
+x 21
+y 22
+end
 arch dungeon_floor
 x 21
 y 23
@@ -5473,7 +5490,7 @@ arch small_stones
 x 21
 y 26
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 21
 y 26
 end
@@ -5481,15 +5498,11 @@ arch small_stones
 x 21
 y 27
 end
-arch cwall_4
-x 21
-y 27
-end
 arch small_stones
 x 21
 y 28
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 21
 y 28
 end
@@ -5659,7 +5672,7 @@ arch dungeon_floor
 x 22
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 22
 y 17
 end
@@ -5667,15 +5680,11 @@ arch dungeon_floor
 x 22
 y 18
 end
-arch cwall_4
-x 22
-y 18
-end
 arch dungeon_floor
 x 22
 y 19
 end
-arch cwall_4
+arch cwall_3_3
 x 22
 y 19
 end
@@ -5723,7 +5732,7 @@ arch small_stones
 x 22
 y 27
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 22
 y 27
 end
@@ -5898,7 +5907,7 @@ arch dungeon_floor
 x 23
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 23
 y 17
 end
@@ -5906,15 +5915,11 @@ arch dungeon_floor
 x 23
 y 18
 end
-arch cwall_4
-x 23
-y 18
-end
 arch dungeon_floor
 x 23
 y 19
 end
-arch cwall_4
+arch cwall_3_3
 x 23
 y 19
 end
@@ -5955,6 +5960,10 @@ x 23
 y 25
 end
 arch small_stones
+x 23
+y 26
+end
+arch brazier
 x 23
 y 26
 end
@@ -6140,7 +6149,7 @@ arch dungeon_floor
 x 24
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 24
 y 17
 end
@@ -6148,15 +6157,11 @@ arch dungeon_floor
 x 24
 y 18
 end
-arch cwall_4
-x 24
-y 18
-end
 arch dungeon_floor
 x 24
 y 19
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 24
 y 19
 end
@@ -6344,6 +6349,10 @@ arch flagstone
 x 25
 y 10
 end
+arch light2
+x 25
+y 10
+end
 arch dungeon_floor
 name skull floor
 x 25
@@ -6381,7 +6390,7 @@ arch dungeon_floor
 x 25
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 25
 y 17
 end
@@ -6389,15 +6398,11 @@ arch dungeon_floor
 x 25
 y 18
 end
-arch cwall_4
-x 25
-y 18
-end
 arch dungeon_floor
 x 25
 y 19
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 25
 y 19
 end
@@ -6610,6 +6615,10 @@ arch flagstone
 x 26
 y 12
 end
+arch light2
+x 26
+y 12
+end
 arch dungeon_floor
 name skull floor
 x 26
@@ -6638,7 +6647,7 @@ arch dungeon_floor
 x 26
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 26
 y 17
 end
@@ -6646,15 +6655,11 @@ arch dungeon_floor
 x 26
 y 18
 end
-arch cwall_4
-x 26
-y 18
-end
 arch dungeon_floor
 x 26
 y 19
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 26
 y 19
 end
@@ -6847,6 +6852,10 @@ arch flagstone
 x 27
 y 10
 end
+arch light2
+x 27
+y 10
+end
 arch dungeon_floor
 name skull floor
 x 27
@@ -6884,7 +6893,7 @@ arch dungeon_floor
 x 27
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 27
 y 17
 end
@@ -6892,15 +6901,11 @@ arch dungeon_floor
 x 27
 y 18
 end
-arch cwall_4
-x 27
-y 18
-end
 arch dungeon_floor
 x 27
 y 19
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 27
 y 19
 end
@@ -7135,7 +7140,7 @@ arch dungeon_floor
 x 28
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 28
 y 17
 end
@@ -7143,15 +7148,11 @@ arch dungeon_floor
 x 28
 y 18
 end
-arch cwall_4
-x 28
-y 18
-end
 arch dungeon_floor
 x 28
 y 19
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 28
 y 19
 end
@@ -7195,7 +7196,7 @@ arch small_stones
 x 28
 y 27
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 28
 y 27
 end
@@ -7394,7 +7395,7 @@ arch dungeon_floor
 x 29
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 29
 y 17
 end
@@ -7402,15 +7403,11 @@ arch dungeon_floor
 x 29
 y 18
 end
-arch cwall_4
-x 29
-y 18
-end
 arch dungeon_floor
 x 29
 y 19
 end
-arch cwall_4
+arch cwall_3_3
 x 29
 y 19
 end
@@ -7454,7 +7451,7 @@ arch small_stones
 x 29
 y 26
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 29
 y 26
 end
@@ -7462,15 +7459,11 @@ arch small_stones
 x 29
 y 27
 end
-arch cwall_4
-x 29
-y 27
-end
 arch small_stones
 x 29
 y 28
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 29
 y 28
 end
@@ -7660,7 +7653,7 @@ arch dungeon_floor
 x 30
 y 17
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 30
 y 17
 end
@@ -7668,15 +7661,11 @@ arch dungeon_floor
 x 30
 y 18
 end
-arch cwall_4
-x 30
-y 18
-end
 arch dungeon_floor
 x 30
 y 19
 end
-arch cwall_4
+arch cwall_3_3
 x 30
 y 19
 end
@@ -7724,7 +7713,7 @@ arch small_stones
 x 30
 y 27
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 30
 y 27
 end
@@ -7892,6 +7881,10 @@ name skull floor
 x 31
 y 10
 end
+arch brazier
+x 31
+y 10
+end
 arch dungeon_floor
 x 31
 y 11
@@ -7900,11 +7893,19 @@ arch dungeon_floor
 x 31
 y 12
 end
+arch brazier
+x 31
+y 12
+end
 arch dungeon_floor
 x 31
 y 13
 end
 arch dungeon_floor
+x 31
+y 14
+end
+arch brazier
 x 31
 y 14
 end
@@ -7930,7 +7931,7 @@ arch dungeon_floor
 x 31
 y 18
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 31
 y 18
 end
@@ -7951,6 +7952,10 @@ x 31
 y 21
 end
 arch dungeon_floor
+x 31
+y 22
+end
+arch brazier
 x 31
 y 22
 end

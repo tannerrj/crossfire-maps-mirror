@@ -2,13 +2,14 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 20
 height 40
 enter_x 9
 enter_y 15
 msg
 Created:  1993-10-07 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2021-07-27 Saiapatsu
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_2 oldcity15e
 tile_path_3 oldcity14

@@ -2,13 +2,14 @@ arch map
 name Drinking Fountain
 difficulty 7
 region scorn
+darkness 3
 width 40
 height 40
 enter_x 1
 enter_y 1
 msg
 Created:  1993-10-05
-Modified: 2012-01-10 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 end
 arch pstone_1
@@ -265,6 +266,10 @@ slaying /world/world_105_115
 face hole.111
 hp 6
 sp 39
+x 1
+y 1
+end
+arch light2
 x 1
 y 1
 end
@@ -1353,6 +1358,10 @@ slaying drink
 face hole.111
 hp 4
 sp 5
+x 6
+y 1
+end
+arch light1
 x 6
 y 1
 end

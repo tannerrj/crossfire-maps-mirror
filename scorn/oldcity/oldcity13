@@ -2,12 +2,13 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 40
 height 40
 enter_x 14
 enter_y 39
 msg
-Modified: 2012-01-15 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_2 oldcity11
 tile_path_3 oldcity12

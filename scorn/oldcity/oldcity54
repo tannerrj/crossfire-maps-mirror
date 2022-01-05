@@ -2,11 +2,12 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 40
 height 40
 msg
 Created:  1993-10-19
-Modified: 2021-07-27 Saiapatsu
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_1 oldcity9
 tile_path_2 oldcity2
@@ -877,7 +878,7 @@ end
 arch magic_ear
 msg
 @match cloud
-Very good Adventurer! You have are indeed as cunning as me! But of course I will not FLEE! *The gnome smiles smoothly.*
+Very good Adventurer! You have are indeed as cunning as me! But of course I will not FLEE!
 endmsg
 x 3
 y 6
@@ -888,6 +889,10 @@ x 3
 y 6
 end
 arch large_stones
+x 3
+y 7
+end
+arch dim_torch
 x 3
 y 7
 end
@@ -5435,6 +5440,10 @@ arch ninja_1
 x 22
 y 1
 end
+arch torch_1
+x 22
+y 1
+end
 arch woodfloor
 x 22
 y 2
@@ -5476,6 +5485,10 @@ x 22
 y 5
 end
 arch random_treasure
+x 22
+y 5
+end
+arch torch_1
 x 22
 y 5
 end
@@ -6523,6 +6536,10 @@ arch madman
 x 26
 y 1
 end
+arch torch_1
+x 26
+y 1
+end
 arch woodfloor
 x 26
 y 2
@@ -6564,6 +6581,10 @@ name Rabies Man!
 hp 100
 maxhp 100
 dam 20
+x 26
+y 5
+end
+arch torch_1
 x 26
 y 5
 end

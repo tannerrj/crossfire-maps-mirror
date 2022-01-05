@@ -2,13 +2,14 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 20
 height 40
 enter_x 5
 enter_y 38
 msg
 Created:  1994-05-28
-Modified: 2012-03-28 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_2 oldcity54
 tile_path_4 oldcity8
@@ -1444,11 +1445,14 @@ arch dungeon_floor
 x 5
 y 38
 end
-arch well
-name well up
+arch ladder_up
 slaying /world/world_105_115
 hp 8
 sp 49
+x 5
+y 38
+end
+arch light1
 x 5
 y 38
 end

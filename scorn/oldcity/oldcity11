@@ -2,13 +2,14 @@ arch map
 name Old City
 difficulty 12
 region scornoldcity
+darkness 3
 width 20
 height 40
 enter_x 4
 enter_y 15
 msg
 Created:  1993-10-05 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2012-01-15 Rick Tanner
+Modified: 2022-01-05 Kevin Zheng
 endmsg
 tile_path_1 oldcity14
 tile_path_3 oldcity10
@@ -595,6 +596,10 @@ name well water
 x 2
 y 15
 end
+arch light4
+x 2
+y 15
+end
 arch sea
 name well water
 x 2
@@ -1103,6 +1108,10 @@ name well water
 x 4
 y 13
 end
+arch light4
+x 4
+y 13
+end
 arch sea
 name well water
 x 4
@@ -1127,6 +1136,10 @@ y 16
 end
 arch sea
 name well water
+x 4
+y 17
+end
+arch light4
 x 4
 y 17
 end
@@ -1281,6 +1294,10 @@ x 4
 y 36
 end
 arch generate_pixie
+x 4
+y 36
+end
+arch torch_1
 x 4
 y 36
 end
@@ -1649,6 +1666,10 @@ arch woodfloor
 x 6
 y 15
 end
+arch light4
+x 6
+y 15
+end
 arch sea
 name well water
 x 6
@@ -1769,6 +1790,10 @@ x 6
 y 36
 end
 arch pixie
+x 6
+y 36
+end
+arch torch_1
 x 6
 y 36
 end
