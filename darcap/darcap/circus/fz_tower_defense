@@ -1,0 +1,15340 @@
+arch map
+name Darcap Tower Defense
+region darcapcircus
+width 50
+height 50
+enter_x 28
+enter_y 16
+msg
+Created:  2022-01-07 jason
+Modified: 2022-01-12 jason
+endmsg
+end
+arch blocked
+end
+arch sign
+name INCINERATOR
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch sign
+name MONSTER TIPS
+msg
+1. All monsters but carry the event_death so the game accurately determines when the player wins
+2. All monsters must be standing still and have run at 0% HP so that they don't move off the path
+3. All monsters must be friendly so that players cannot attack them
+4. All monsters must have the property reflect missile so that players cannot shoot arrows at them
+endmsg
+y 6
+end
+arch goblin
+Wis 0
+y 8
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch orc
+Wis 0
+y 9
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch blocked
+y 10
+end
+arch battleground
+y 11
+end
+arch mover_3
+y 11
+end
+arch goblin
+Wis 0
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 12
+end
+arch mover_1
+y 12
+end
+arch goblin
+Wis 0
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 13
+end
+arch mover_1
+y 13
+end
+arch goblin
+Wis 0
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 14
+end
+arch mover_1
+y 14
+end
+arch orc
+Wis 0
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 15
+end
+arch mover_1
+y 15
+end
+arch orc
+Wis 0
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 16
+end
+arch mover_1
+y 16
+end
+arch goblin
+Wis 0
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 17
+end
+arch mover_1
+y 17
+end
+arch goblin
+Wis 0
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 18
+end
+arch mover_1
+y 18
+end
+arch goblin
+Wis 0
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 19
+end
+arch mover_1
+y 19
+end
+arch orc
+Wis 0
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 20
+end
+arch mover_1
+y 20
+end
+arch orc
+Wis 0
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 21
+end
+arch mover_1
+y 21
+end
+arch grate_closed_1
+y 21
+connected 999
+end
+arch battleground
+y 22
+end
+arch mover_1
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 23
+end
+arch mover_1
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 24
+end
+arch mover_1
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 25
+end
+arch mover_1
+y 25
+end
+arch gnoll
+Wis 0
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 26
+end
+arch mover_1
+y 26
+end
+arch gnoll
+Wis 0
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 27
+end
+arch mover_1
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 28
+end
+arch mover_1
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 29
+end
+arch mover_1
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 30
+end
+arch mover_1
+y 30
+end
+arch gnoll
+Wis 0
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 31
+end
+arch mover_1
+y 31
+end
+arch gnoll
+Wis 0
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+y 32
+end
+arch mover_1
+y 32
+end
+arch grate_closed_1
+y 32
+end
+arch battleground
+y 33
+end
+arch battleground
+y 34
+end
+arch battleground
+y 35
+end
+arch battleground
+y 36
+end
+arch battleground
+y 37
+end
+arch battleground
+y 38
+end
+arch battleground
+y 39
+end
+arch battleground
+y 40
+end
+arch battleground
+y 41
+end
+arch battleground
+y 42
+end
+arch battleground
+y 43
+end
+arch battleground
+y 44
+end
+arch battleground
+y 45
+end
+arch battleground
+y 46
+end
+arch battleground
+y 47
+end
+arch battleground
+y 48
+end
+arch battleground
+y 49
+end
+arch battleground
+x 1
+end
+arch lbulletwall_5
+x 1
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 1
+y 1
+end
+arch battleground
+x 1
+y 2
+end
+arch battleground
+x 1
+y 3
+end
+arch battleground
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 8
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch gnoll
+Wis 0
+x 1
+y 9
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch blocked
+x 1
+y 10
+end
+arch battleground
+x 1
+y 11
+end
+arch mover_3
+x 1
+y 11
+end
+arch goblin
+Wis 0
+x 1
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 12
+end
+arch mover_1
+x 1
+y 12
+end
+arch goblin
+Wis 0
+x 1
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 13
+end
+arch mover_1
+x 1
+y 13
+end
+arch goblin
+Wis 0
+x 1
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 14
+end
+arch mover_1
+x 1
+y 14
+end
+arch orc
+Wis 0
+x 1
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 15
+end
+arch mover_1
+x 1
+y 15
+end
+arch orc
+Wis 0
+x 1
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 16
+end
+arch mover_1
+x 1
+y 16
+end
+arch goblin
+Wis 0
+x 1
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 17
+end
+arch mover_1
+x 1
+y 17
+end
+arch goblin
+Wis 0
+x 1
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 18
+end
+arch mover_1
+x 1
+y 18
+end
+arch goblin
+Wis 0
+x 1
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 19
+end
+arch mover_1
+x 1
+y 19
+end
+arch orc
+Wis 0
+x 1
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 20
+end
+arch mover_1
+x 1
+y 20
+end
+arch orc
+Wis 0
+x 1
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 21
+end
+arch mover_1
+x 1
+y 21
+end
+arch grate_closed_1
+x 1
+y 21
+connected 999
+end
+arch battleground
+x 1
+y 22
+end
+arch mover_1
+x 1
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 23
+end
+arch mover_1
+x 1
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 24
+end
+arch mover_1
+x 1
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 25
+end
+arch mover_1
+x 1
+y 25
+end
+arch gnoll
+Wis 0
+x 1
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 26
+end
+arch mover_1
+x 1
+y 26
+end
+arch gnoll
+Wis 0
+x 1
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 27
+end
+arch mover_1
+x 1
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 28
+end
+arch mover_1
+x 1
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 29
+end
+arch mover_1
+x 1
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 1
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 30
+end
+arch mover_1
+x 1
+y 30
+end
+arch gnoll
+Wis 0
+x 1
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 31
+end
+arch mover_1
+x 1
+y 31
+end
+arch gnoll
+Wis 0
+x 1
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 1
+y 32
+end
+arch mover_1
+x 1
+y 32
+end
+arch grate_closed_1
+x 1
+y 32
+end
+arch battleground
+x 1
+y 33
+end
+arch battleground
+x 1
+y 34
+end
+arch battleground
+x 1
+y 35
+end
+arch battleground
+x 1
+y 36
+end
+arch battleground
+x 1
+y 37
+end
+arch battleground
+x 1
+y 38
+end
+arch battleground
+x 1
+y 39
+end
+arch battleground
+x 1
+y 40
+end
+arch battleground
+x 1
+y 41
+end
+arch battleground
+x 1
+y 42
+end
+arch battleground
+x 1
+y 43
+end
+arch battleground
+x 1
+y 44
+end
+arch battleground
+x 1
+y 45
+end
+arch battleground
+x 1
+y 46
+end
+arch battleground
+x 1
+y 47
+end
+arch battleground
+x 1
+y 48
+end
+arch battleground
+x 1
+y 49
+end
+arch battleground
+x 2
+end
+arch lbulletwall_5
+x 2
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 2
+y 1
+end
+arch battleground
+x 2
+y 2
+end
+arch battleground
+x 2
+y 3
+end
+arch battleground
+x 2
+y 4
+end
+arch blocked
+x 2
+y 5
+end
+arch blocked
+x 2
+y 10
+end
+arch battleground
+x 2
+y 11
+end
+arch mover_3
+x 2
+y 11
+end
+arch goblin
+Wis 0
+x 2
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 12
+end
+arch mover_1
+x 2
+y 12
+end
+arch goblin
+Wis 0
+x 2
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 13
+end
+arch mover_1
+x 2
+y 13
+end
+arch goblin
+Wis 0
+x 2
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 14
+end
+arch mover_1
+x 2
+y 14
+end
+arch orc
+Wis 0
+x 2
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 15
+end
+arch mover_1
+x 2
+y 15
+end
+arch orc
+Wis 0
+x 2
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 16
+end
+arch mover_1
+x 2
+y 16
+end
+arch goblin
+Wis 0
+x 2
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 17
+end
+arch mover_1
+x 2
+y 17
+end
+arch goblin
+Wis 0
+x 2
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 18
+end
+arch mover_1
+x 2
+y 18
+end
+arch goblin
+Wis 0
+x 2
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 19
+end
+arch mover_1
+x 2
+y 19
+end
+arch orc
+Wis 0
+x 2
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 20
+end
+arch mover_1
+x 2
+y 20
+end
+arch orc
+Wis 0
+x 2
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 21
+end
+arch mover_1
+x 2
+y 21
+end
+arch grate_closed_1
+x 2
+y 21
+connected 999
+end
+arch battleground
+x 2
+y 22
+end
+arch mover_1
+x 2
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 23
+end
+arch mover_1
+x 2
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 24
+end
+arch mover_1
+x 2
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 25
+end
+arch mover_1
+x 2
+y 25
+end
+arch gnoll
+Wis 0
+x 2
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 26
+end
+arch mover_1
+x 2
+y 26
+end
+arch gnoll
+Wis 0
+x 2
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 27
+end
+arch mover_1
+x 2
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 28
+end
+arch mover_1
+x 2
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 29
+end
+arch mover_1
+x 2
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 2
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 30
+end
+arch mover_1
+x 2
+y 30
+end
+arch gnoll
+Wis 0
+x 2
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 31
+end
+arch mover_1
+x 2
+y 31
+end
+arch gnoll
+Wis 0
+x 2
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 2
+y 32
+end
+arch mover_1
+x 2
+y 32
+end
+arch grate_closed_1
+x 2
+y 32
+end
+arch battleground
+x 2
+y 33
+end
+arch battleground
+x 2
+y 34
+end
+arch battleground
+x 2
+y 35
+end
+arch battleground
+x 2
+y 36
+end
+arch battleground
+x 2
+y 37
+end
+arch battleground
+x 2
+y 38
+end
+arch battleground
+x 2
+y 39
+end
+arch battleground
+x 2
+y 40
+end
+arch battleground
+x 2
+y 41
+end
+arch battleground
+x 2
+y 42
+end
+arch battleground
+x 2
+y 43
+end
+arch battleground
+x 2
+y 44
+end
+arch battleground
+x 2
+y 45
+end
+arch battleground
+x 2
+y 46
+end
+arch battleground
+x 2
+y 47
+end
+arch battleground
+x 2
+y 48
+end
+arch battleground
+x 2
+y 49
+end
+arch battleground
+x 3
+end
+arch lbulletwall_5
+x 3
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 3
+y 1
+end
+arch battleground
+x 3
+y 2
+end
+arch battleground
+x 3
+y 3
+end
+arch battleground
+x 3
+y 4
+end
+arch blocked
+x 3
+y 5
+end
+arch blocked
+x 3
+y 10
+end
+arch battleground
+x 3
+y 11
+end
+arch mover_3
+x 3
+y 11
+end
+arch goblin
+Wis 0
+x 3
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 12
+end
+arch mover_1
+x 3
+y 12
+end
+arch goblin
+Wis 0
+x 3
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 13
+end
+arch mover_1
+x 3
+y 13
+end
+arch goblin
+Wis 0
+x 3
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 14
+end
+arch mover_1
+x 3
+y 14
+end
+arch orc
+Wis 0
+x 3
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 15
+end
+arch mover_1
+x 3
+y 15
+end
+arch orc
+Wis 0
+x 3
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 16
+end
+arch mover_1
+x 3
+y 16
+end
+arch goblin
+Wis 0
+x 3
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 17
+end
+arch mover_1
+x 3
+y 17
+end
+arch goblin
+Wis 0
+x 3
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 18
+end
+arch mover_1
+x 3
+y 18
+end
+arch goblin
+Wis 0
+x 3
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 19
+end
+arch mover_1
+x 3
+y 19
+end
+arch orc
+Wis 0
+x 3
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 20
+end
+arch mover_1
+x 3
+y 20
+end
+arch orc
+Wis 0
+x 3
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 21
+end
+arch mover_1
+x 3
+y 21
+end
+arch grate_closed_1
+x 3
+y 21
+connected 999
+end
+arch battleground
+x 3
+y 22
+end
+arch mover_1
+x 3
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 23
+end
+arch mover_1
+x 3
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 24
+end
+arch mover_1
+x 3
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 25
+end
+arch mover_1
+x 3
+y 25
+end
+arch gnoll
+Wis 0
+x 3
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 26
+end
+arch mover_1
+x 3
+y 26
+end
+arch gnoll
+Wis 0
+x 3
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 27
+end
+arch mover_1
+x 3
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 28
+end
+arch mover_1
+x 3
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 29
+end
+arch mover_1
+x 3
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 3
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 30
+end
+arch mover_1
+x 3
+y 30
+end
+arch gnoll
+Wis 0
+x 3
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 31
+end
+arch mover_1
+x 3
+y 31
+end
+arch gnoll
+Wis 0
+x 3
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 3
+y 32
+end
+arch mover_1
+x 3
+y 32
+end
+arch grate_closed_1
+x 3
+y 32
+end
+arch battleground
+x 3
+y 33
+end
+arch battleground
+x 3
+y 34
+end
+arch battleground
+x 3
+y 35
+end
+arch battleground
+x 3
+y 36
+end
+arch battleground
+x 3
+y 37
+end
+arch battleground
+x 3
+y 38
+end
+arch battleground
+x 3
+y 39
+end
+arch battleground
+x 3
+y 40
+end
+arch battleground
+x 3
+y 41
+end
+arch battleground
+x 3
+y 42
+end
+arch battleground
+x 3
+y 43
+end
+arch battleground
+x 3
+y 44
+end
+arch battleground
+x 3
+y 45
+end
+arch battleground
+x 3
+y 46
+end
+arch battleground
+x 3
+y 47
+end
+arch battleground
+x 3
+y 48
+end
+arch battleground
+x 3
+y 49
+end
+arch battleground
+x 4
+end
+arch lbulletwall_5
+x 4
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 4
+y 1
+end
+arch battleground
+x 4
+y 2
+end
+arch battleground
+x 4
+y 3
+end
+arch battleground
+x 4
+y 4
+end
+arch blocked
+x 4
+y 5
+end
+arch blocked
+x 4
+y 10
+end
+arch battleground
+x 4
+y 11
+end
+arch mover_3
+x 4
+y 11
+end
+arch goblin
+Wis 0
+x 4
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 12
+end
+arch mover_1
+x 4
+y 12
+end
+arch goblin
+Wis 0
+x 4
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 13
+end
+arch mover_1
+x 4
+y 13
+end
+arch goblin
+Wis 0
+x 4
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 14
+end
+arch mover_1
+x 4
+y 14
+end
+arch orc
+Wis 0
+x 4
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 15
+end
+arch mover_1
+x 4
+y 15
+end
+arch orc
+Wis 0
+x 4
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 16
+end
+arch mover_1
+x 4
+y 16
+end
+arch goblin
+Wis 0
+x 4
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 17
+end
+arch mover_1
+x 4
+y 17
+end
+arch goblin
+Wis 0
+x 4
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 18
+end
+arch mover_1
+x 4
+y 18
+end
+arch goblin
+Wis 0
+x 4
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 19
+end
+arch mover_1
+x 4
+y 19
+end
+arch orc
+Wis 0
+x 4
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 20
+end
+arch mover_1
+x 4
+y 20
+end
+arch orc
+Wis 0
+x 4
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 21
+end
+arch mover_1
+x 4
+y 21
+end
+arch grate_closed_1
+x 4
+y 21
+connected 999
+end
+arch battleground
+x 4
+y 22
+end
+arch mover_1
+x 4
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 23
+end
+arch mover_1
+x 4
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 24
+end
+arch mover_1
+x 4
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 25
+end
+arch mover_1
+x 4
+y 25
+end
+arch gnoll
+Wis 0
+x 4
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 26
+end
+arch mover_1
+x 4
+y 26
+end
+arch gnoll
+Wis 0
+x 4
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 27
+end
+arch mover_1
+x 4
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 28
+end
+arch mover_1
+x 4
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 29
+end
+arch mover_1
+x 4
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 4
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 30
+end
+arch mover_1
+x 4
+y 30
+end
+arch gnoll
+Wis 0
+x 4
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 31
+end
+arch mover_1
+x 4
+y 31
+end
+arch gnoll
+Wis 0
+x 4
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 4
+y 32
+end
+arch mover_1
+x 4
+y 32
+end
+arch grate_closed_1
+x 4
+y 32
+end
+arch battleground
+x 4
+y 33
+end
+arch battleground
+x 4
+y 34
+end
+arch battleground
+x 4
+y 35
+end
+arch battleground
+x 4
+y 36
+end
+arch battleground
+x 4
+y 37
+end
+arch battleground
+x 4
+y 38
+end
+arch battleground
+x 4
+y 39
+end
+arch battleground
+x 4
+y 40
+end
+arch battleground
+x 4
+y 41
+end
+arch battleground
+x 4
+y 42
+end
+arch battleground
+x 4
+y 43
+end
+arch battleground
+x 4
+y 44
+end
+arch battleground
+x 4
+y 45
+end
+arch battleground
+x 4
+y 46
+end
+arch battleground
+x 4
+y 47
+end
+arch battleground
+x 4
+y 48
+end
+arch battleground
+x 4
+y 49
+end
+arch battleground
+x 5
+end
+arch lbulletwall_5
+x 5
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 5
+y 1
+end
+arch battleground
+x 5
+y 2
+end
+arch battleground
+x 5
+y 3
+end
+arch battleground
+x 5
+y 4
+end
+arch blocked
+x 5
+y 5
+end
+arch blocked
+x 5
+y 10
+end
+arch battleground
+x 5
+y 11
+end
+arch mover_3
+x 5
+y 11
+end
+arch goblin
+Wis 0
+x 5
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 12
+end
+arch mover_1
+x 5
+y 12
+end
+arch goblin
+Wis 0
+x 5
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 13
+end
+arch mover_1
+x 5
+y 13
+end
+arch goblin
+Wis 0
+x 5
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 14
+end
+arch mover_1
+x 5
+y 14
+end
+arch orc
+Wis 0
+x 5
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 15
+end
+arch mover_1
+x 5
+y 15
+end
+arch orc
+Wis 0
+x 5
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 16
+end
+arch mover_1
+x 5
+y 16
+end
+arch goblin
+Wis 0
+x 5
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 17
+end
+arch mover_1
+x 5
+y 17
+end
+arch goblin
+Wis 0
+x 5
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 18
+end
+arch mover_1
+x 5
+y 18
+end
+arch goblin
+Wis 0
+x 5
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 19
+end
+arch mover_1
+x 5
+y 19
+end
+arch orc
+Wis 0
+x 5
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 20
+end
+arch mover_1
+x 5
+y 20
+end
+arch orc
+Wis 0
+x 5
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 21
+end
+arch mover_1
+x 5
+y 21
+end
+arch grate_closed_1
+x 5
+y 21
+connected 999
+end
+arch battleground
+x 5
+y 22
+end
+arch mover_1
+x 5
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 23
+end
+arch mover_1
+x 5
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 24
+end
+arch mover_1
+x 5
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 25
+end
+arch mover_1
+x 5
+y 25
+end
+arch gnoll
+Wis 0
+x 5
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 26
+end
+arch mover_1
+x 5
+y 26
+end
+arch gnoll
+Wis 0
+x 5
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 27
+end
+arch mover_1
+x 5
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 28
+end
+arch mover_1
+x 5
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 29
+end
+arch mover_1
+x 5
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 5
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 30
+end
+arch mover_1
+x 5
+y 30
+end
+arch gnoll
+Wis 0
+x 5
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 31
+end
+arch mover_1
+x 5
+y 31
+end
+arch gnoll
+Wis 0
+x 5
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 5
+y 32
+end
+arch mover_1
+x 5
+y 32
+end
+arch grate_closed_1
+x 5
+y 32
+end
+arch battleground
+x 5
+y 33
+end
+arch battleground
+x 5
+y 34
+end
+arch battleground
+x 5
+y 35
+end
+arch battleground
+x 5
+y 36
+end
+arch battleground
+x 5
+y 37
+end
+arch battleground
+x 5
+y 38
+end
+arch battleground
+x 5
+y 39
+end
+arch battleground
+x 5
+y 40
+end
+arch battleground
+x 5
+y 41
+end
+arch battleground
+x 5
+y 42
+end
+arch battleground
+x 5
+y 43
+end
+arch battleground
+x 5
+y 44
+end
+arch battleground
+x 5
+y 45
+end
+arch battleground
+x 5
+y 46
+end
+arch battleground
+x 5
+y 47
+end
+arch battleground
+x 5
+y 48
+end
+arch battleground
+x 5
+y 49
+end
+arch battleground
+x 6
+end
+arch lbulletwall_5
+x 6
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 6
+y 1
+end
+arch battleground
+x 6
+y 2
+end
+arch battleground
+x 6
+y 3
+end
+arch battleground
+x 6
+y 4
+end
+arch blocked
+x 6
+y 5
+end
+arch blocked
+x 6
+y 10
+end
+arch battleground
+x 6
+y 11
+end
+arch mover_3
+x 6
+y 11
+end
+arch goblin
+Wis 0
+x 6
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 12
+end
+arch mover_1
+x 6
+y 12
+end
+arch goblin
+Wis 0
+x 6
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 13
+end
+arch mover_1
+x 6
+y 13
+end
+arch goblin
+Wis 0
+x 6
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 14
+end
+arch mover_1
+x 6
+y 14
+end
+arch orc
+Wis 0
+x 6
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 15
+end
+arch mover_1
+x 6
+y 15
+end
+arch orc
+Wis 0
+x 6
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 16
+end
+arch mover_1
+x 6
+y 16
+end
+arch goblin
+Wis 0
+x 6
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 17
+end
+arch mover_1
+x 6
+y 17
+end
+arch goblin
+Wis 0
+x 6
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 18
+end
+arch mover_1
+x 6
+y 18
+end
+arch goblin
+Wis 0
+x 6
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 19
+end
+arch mover_1
+x 6
+y 19
+end
+arch orc
+Wis 0
+x 6
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 20
+end
+arch mover_1
+x 6
+y 20
+end
+arch orc
+Wis 0
+x 6
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 21
+end
+arch mover_1
+x 6
+y 21
+end
+arch grate_closed_1
+x 6
+y 21
+connected 999
+end
+arch battleground
+x 6
+y 22
+end
+arch mover_1
+x 6
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 23
+end
+arch mover_1
+x 6
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 24
+end
+arch mover_1
+x 6
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 25
+end
+arch mover_1
+x 6
+y 25
+end
+arch gnoll
+Wis 0
+x 6
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 26
+end
+arch mover_1
+x 6
+y 26
+end
+arch gnoll
+Wis 0
+x 6
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 27
+end
+arch mover_1
+x 6
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 28
+end
+arch mover_1
+x 6
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 29
+end
+arch mover_1
+x 6
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 6
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 30
+end
+arch mover_1
+x 6
+y 30
+end
+arch gnoll
+Wis 0
+x 6
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 31
+end
+arch mover_1
+x 6
+y 31
+end
+arch gnoll
+Wis 0
+x 6
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 6
+y 32
+end
+arch mover_1
+x 6
+y 32
+end
+arch grate_closed_1
+x 6
+y 32
+end
+arch battleground
+x 6
+y 33
+end
+arch battleground
+x 6
+y 34
+end
+arch battleground
+x 6
+y 35
+end
+arch battleground
+x 6
+y 36
+end
+arch battleground
+x 6
+y 37
+end
+arch battleground
+x 6
+y 38
+end
+arch battleground
+x 6
+y 39
+end
+arch battleground
+x 6
+y 40
+end
+arch battleground
+x 6
+y 41
+end
+arch battleground
+x 6
+y 42
+end
+arch battleground
+x 6
+y 43
+end
+arch battleground
+x 6
+y 44
+end
+arch battleground
+x 6
+y 45
+end
+arch battleground
+x 6
+y 46
+end
+arch battleground
+x 6
+y 47
+end
+arch battleground
+x 6
+y 48
+end
+arch battleground
+x 6
+y 49
+end
+arch battleground
+x 7
+end
+arch lbulletwall_5
+x 7
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 7
+y 1
+end
+arch battleground
+x 7
+y 2
+end
+arch battleground
+x 7
+y 3
+end
+arch battleground
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
+end
+arch blocked
+x 7
+y 10
+end
+arch battleground
+x 7
+y 11
+end
+arch mover_3
+x 7
+y 11
+end
+arch goblin
+Wis 0
+x 7
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 12
+end
+arch mover_1
+x 7
+y 12
+end
+arch goblin
+Wis 0
+x 7
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 13
+end
+arch mover_1
+x 7
+y 13
+end
+arch goblin
+Wis 0
+x 7
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 14
+end
+arch mover_1
+x 7
+y 14
+end
+arch orc
+Wis 0
+x 7
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 15
+end
+arch mover_1
+x 7
+y 15
+end
+arch orc
+Wis 0
+x 7
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 16
+end
+arch mover_1
+x 7
+y 16
+end
+arch goblin
+Wis 0
+x 7
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 17
+end
+arch mover_1
+x 7
+y 17
+end
+arch goblin
+Wis 0
+x 7
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 18
+end
+arch mover_1
+x 7
+y 18
+end
+arch goblin
+Wis 0
+x 7
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 19
+end
+arch mover_1
+x 7
+y 19
+end
+arch orc
+Wis 0
+x 7
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 20
+end
+arch mover_1
+x 7
+y 20
+end
+arch orc
+Wis 0
+x 7
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 21
+end
+arch mover_1
+x 7
+y 21
+end
+arch grate_closed_1
+x 7
+y 21
+connected 999
+end
+arch battleground
+x 7
+y 22
+end
+arch mover_1
+x 7
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 23
+end
+arch mover_1
+x 7
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 24
+end
+arch mover_1
+x 7
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 25
+end
+arch mover_1
+x 7
+y 25
+end
+arch gnoll
+Wis 0
+x 7
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 26
+end
+arch mover_1
+x 7
+y 26
+end
+arch gnoll
+Wis 0
+x 7
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 27
+end
+arch mover_1
+x 7
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 28
+end
+arch mover_1
+x 7
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 29
+end
+arch mover_1
+x 7
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 7
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 30
+end
+arch mover_1
+x 7
+y 30
+end
+arch gnoll
+Wis 0
+x 7
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 31
+end
+arch mover_1
+x 7
+y 31
+end
+arch gnoll
+Wis 0
+x 7
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 7
+y 32
+end
+arch mover_1
+x 7
+y 32
+end
+arch grate_closed_1
+x 7
+y 32
+end
+arch battleground
+x 7
+y 33
+end
+arch battleground
+x 7
+y 34
+end
+arch battleground
+x 7
+y 35
+end
+arch battleground
+x 7
+y 36
+end
+arch battleground
+x 7
+y 37
+end
+arch battleground
+x 7
+y 38
+end
+arch battleground
+x 7
+y 39
+end
+arch battleground
+x 7
+y 40
+end
+arch battleground
+x 7
+y 41
+end
+arch battleground
+x 7
+y 42
+end
+arch battleground
+x 7
+y 43
+end
+arch battleground
+x 7
+y 44
+end
+arch battleground
+x 7
+y 45
+end
+arch battleground
+x 7
+y 46
+end
+arch battleground
+x 7
+y 47
+end
+arch battleground
+x 7
+y 48
+end
+arch battleground
+x 7
+y 49
+end
+arch battleground
+x 8
+end
+arch lbulletwall_5
+x 8
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 8
+y 1
+end
+arch battleground
+x 8
+y 2
+end
+arch battleground
+x 8
+y 3
+end
+arch battleground
+x 8
+y 4
+end
+arch blocked
+x 8
+y 5
+end
+arch blocked
+x 8
+y 10
+end
+arch battleground
+x 8
+y 11
+end
+arch mover_3
+x 8
+y 11
+end
+arch goblin
+Wis 0
+x 8
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 12
+end
+arch mover_1
+x 8
+y 12
+end
+arch goblin
+Wis 0
+x 8
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 13
+end
+arch mover_1
+x 8
+y 13
+end
+arch goblin
+Wis 0
+x 8
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 14
+end
+arch mover_1
+x 8
+y 14
+end
+arch orc
+Wis 0
+x 8
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 15
+end
+arch mover_1
+x 8
+y 15
+end
+arch orc
+Wis 0
+x 8
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 16
+end
+arch mover_1
+x 8
+y 16
+end
+arch goblin
+Wis 0
+x 8
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 17
+end
+arch mover_1
+x 8
+y 17
+end
+arch goblin
+Wis 0
+x 8
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 18
+end
+arch mover_1
+x 8
+y 18
+end
+arch goblin
+Wis 0
+x 8
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 19
+end
+arch mover_1
+x 8
+y 19
+end
+arch orc
+Wis 0
+x 8
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 20
+end
+arch mover_1
+x 8
+y 20
+end
+arch orc
+Wis 0
+x 8
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 21
+end
+arch mover_1
+x 8
+y 21
+end
+arch grate_closed_1
+x 8
+y 21
+connected 999
+end
+arch battleground
+x 8
+y 22
+end
+arch mover_1
+x 8
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 23
+end
+arch mover_1
+x 8
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 24
+end
+arch mover_1
+x 8
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 25
+end
+arch mover_1
+x 8
+y 25
+end
+arch gnoll
+Wis 0
+x 8
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 26
+end
+arch mover_1
+x 8
+y 26
+end
+arch gnoll
+Wis 0
+x 8
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 27
+end
+arch mover_1
+x 8
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 28
+end
+arch mover_1
+x 8
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 29
+end
+arch mover_1
+x 8
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 8
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 30
+end
+arch mover_1
+x 8
+y 30
+end
+arch gnoll
+Wis 0
+x 8
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 31
+end
+arch mover_1
+x 8
+y 31
+end
+arch gnoll
+Wis 0
+x 8
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 8
+y 32
+end
+arch mover_1
+x 8
+y 32
+end
+arch grate_closed_1
+x 8
+y 32
+end
+arch battleground
+x 8
+y 33
+end
+arch battleground
+x 8
+y 34
+end
+arch battleground
+x 8
+y 35
+end
+arch battleground
+x 8
+y 36
+end
+arch battleground
+x 8
+y 37
+end
+arch battleground
+x 8
+y 38
+end
+arch battleground
+x 8
+y 39
+end
+arch battleground
+x 8
+y 40
+end
+arch battleground
+x 8
+y 41
+end
+arch battleground
+x 8
+y 42
+end
+arch battleground
+x 8
+y 43
+end
+arch battleground
+x 8
+y 44
+end
+arch battleground
+x 8
+y 45
+end
+arch battleground
+x 8
+y 46
+end
+arch battleground
+x 8
+y 47
+end
+arch battleground
+x 8
+y 48
+end
+arch battleground
+x 8
+y 49
+end
+arch battleground
+x 9
+end
+arch lbulletwall_5
+x 9
+level 100
+arch spelldirect_dragonbreath
+end
+end
+arch battleground
+x 9
+y 1
+end
+arch battleground
+x 9
+y 2
+end
+arch battleground
+x 9
+y 3
+end
+arch battleground
+x 9
+y 4
+end
+arch blocked
+x 9
+y 5
+end
+arch blocked
+x 9
+y 10
+end
+arch battleground
+x 9
+y 11
+end
+arch mover_3
+x 9
+y 11
+end
+arch goblin
+Wis 0
+x 9
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 12
+end
+arch mover_1
+x 9
+y 12
+end
+arch goblin
+Wis 0
+x 9
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 13
+end
+arch mover_1
+x 9
+y 13
+end
+arch goblin
+Wis 0
+x 9
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 14
+end
+arch mover_1
+x 9
+y 14
+end
+arch orc
+Wis 0
+x 9
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 15
+end
+arch mover_1
+x 9
+y 15
+end
+arch orc
+Wis 0
+x 9
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 16
+end
+arch mover_1
+x 9
+y 16
+end
+arch goblin
+Wis 0
+x 9
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 17
+end
+arch mover_1
+x 9
+y 17
+end
+arch goblin
+Wis 0
+x 9
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 18
+end
+arch mover_1
+x 9
+y 18
+end
+arch goblin
+Wis 0
+x 9
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 19
+end
+arch mover_1
+x 9
+y 19
+end
+arch orc
+Wis 0
+x 9
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 20
+end
+arch mover_1
+x 9
+y 20
+end
+arch orc
+Wis 0
+x 9
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 21
+end
+arch mover_1
+x 9
+y 21
+end
+arch grate_closed_1
+x 9
+y 21
+connected 999
+end
+arch battleground
+x 9
+y 22
+end
+arch mover_1
+x 9
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 23
+end
+arch mover_1
+x 9
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 24
+end
+arch mover_1
+x 9
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 25
+end
+arch mover_1
+x 9
+y 25
+end
+arch gnoll
+Wis 0
+x 9
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 26
+end
+arch mover_1
+x 9
+y 26
+end
+arch gnoll
+Wis 0
+x 9
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 27
+end
+arch mover_1
+x 9
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 28
+end
+arch mover_1
+x 9
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 29
+end
+arch mover_1
+x 9
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 9
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 30
+end
+arch mover_1
+x 9
+y 30
+end
+arch gnoll
+Wis 0
+x 9
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 31
+end
+arch mover_1
+x 9
+y 31
+end
+arch gnoll
+Wis 0
+x 9
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 9
+y 32
+end
+arch mover_1
+x 9
+y 32
+end
+arch grate_closed_1
+x 9
+y 32
+end
+arch battleground
+x 9
+y 33
+end
+arch battleground
+x 9
+y 34
+end
+arch battleground
+x 9
+y 35
+end
+arch battleground
+x 9
+y 36
+end
+arch battleground
+x 9
+y 37
+end
+arch battleground
+x 9
+y 38
+end
+arch battleground
+x 9
+y 39
+end
+arch battleground
+x 9
+y 40
+end
+arch battleground
+x 9
+y 41
+end
+arch battleground
+x 9
+y 42
+end
+arch battleground
+x 9
+y 43
+end
+arch battleground
+x 9
+y 44
+end
+arch battleground
+x 9
+y 45
+end
+arch battleground
+x 9
+y 46
+end
+arch battleground
+x 9
+y 47
+end
+arch battleground
+x 9
+y 48
+end
+arch battleground
+x 9
+y 49
+end
+arch blocked
+x 10
+end
+arch blocked
+x 10
+y 1
+end
+arch blocked
+x 10
+y 2
+end
+arch blocked
+x 10
+y 3
+end
+arch blocked
+x 10
+y 4
+end
+arch blocked
+x 10
+y 5
+end
+arch blocked
+x 10
+y 10
+end
+arch battleground
+x 10
+y 11
+end
+arch mover_3
+x 10
+y 11
+end
+arch goblin
+Wis 0
+x 10
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 12
+end
+arch mover_1
+x 10
+y 12
+end
+arch goblin
+Wis 0
+x 10
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 13
+end
+arch mover_1
+x 10
+y 13
+end
+arch goblin
+Wis 0
+x 10
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 14
+end
+arch mover_1
+x 10
+y 14
+end
+arch orc
+Wis 0
+x 10
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 15
+end
+arch mover_1
+x 10
+y 15
+end
+arch orc
+Wis 0
+x 10
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 16
+end
+arch mover_1
+x 10
+y 16
+end
+arch goblin
+Wis 0
+x 10
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 17
+end
+arch mover_1
+x 10
+y 17
+end
+arch goblin
+Wis 0
+x 10
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 18
+end
+arch mover_1
+x 10
+y 18
+end
+arch goblin
+Wis 0
+x 10
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 19
+end
+arch mover_1
+x 10
+y 19
+end
+arch orc
+Wis 0
+x 10
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 20
+end
+arch mover_1
+x 10
+y 20
+end
+arch orc
+Wis 0
+x 10
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 21
+end
+arch mover_1
+x 10
+y 21
+end
+arch grate_closed_1
+x 10
+y 21
+connected 999
+end
+arch battleground
+x 10
+y 22
+end
+arch mover_1
+x 10
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 23
+end
+arch mover_1
+x 10
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 24
+end
+arch mover_1
+x 10
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 25
+end
+arch mover_1
+x 10
+y 25
+end
+arch gnoll
+Wis 0
+x 10
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 26
+end
+arch mover_1
+x 10
+y 26
+end
+arch gnoll
+Wis 0
+x 10
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 27
+end
+arch mover_1
+x 10
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 28
+end
+arch mover_1
+x 10
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 29
+end
+arch mover_1
+x 10
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 10
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 30
+end
+arch mover_1
+x 10
+y 30
+end
+arch gnoll
+Wis 0
+x 10
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 31
+end
+arch mover_1
+x 10
+y 31
+end
+arch gnoll
+Wis 0
+x 10
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 10
+y 32
+end
+arch mover_1
+x 10
+y 32
+end
+arch grate_closed_1
+x 10
+y 32
+end
+arch battleground
+x 10
+y 33
+end
+arch battleground
+x 10
+y 34
+end
+arch battleground
+x 10
+y 35
+end
+arch battleground
+x 10
+y 36
+end
+arch battleground
+x 10
+y 37
+end
+arch battleground
+x 10
+y 38
+end
+arch battleground
+x 10
+y 39
+end
+arch battleground
+x 10
+y 40
+end
+arch battleground
+x 10
+y 41
+end
+arch battleground
+x 10
+y 42
+end
+arch battleground
+x 10
+y 43
+end
+arch battleground
+x 10
+y 44
+end
+arch battleground
+x 10
+y 45
+end
+arch battleground
+x 10
+y 46
+end
+arch battleground
+x 10
+y 47
+end
+arch battleground
+x 10
+y 48
+end
+arch battleground
+x 10
+y 49
+end
+arch blocked
+x 11
+end
+arch sign
+name WAVE 2 ANNOUNCEMENT
+x 11
+end
+arch battleground
+x 11
+y 1
+end
+arch flagstone
+x 11
+y 1
+end
+arch magic_mouth
+msg
+STARTING WAVE 2
+endmsg
+x 11
+y 1
+connected 999
+end
+arch battleground
+x 11
+y 2
+end
+arch button_lever
+name WORKAROUND LEVER
+x 11
+y 2
+connected 999
+end
+arch flagstone
+x 11
+y 3
+end
+arch gate_open_1
+name LOSER GATE
+x 11
+y 3
+connected 1001
+end
+arch blocked
+x 11
+y 4
+end
+arch blocked
+x 11
+y 5
+end
+arch blocked
+x 11
+y 6
+end
+arch blocked
+x 11
+y 8
+end
+arch blocked
+x 11
+y 9
+end
+arch blocked
+x 11
+y 10
+end
+arch battleground
+x 11
+y 11
+end
+arch mover_3
+x 11
+y 11
+end
+arch goblin
+Wis 0
+x 11
+y 11
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 12
+end
+arch mover_1
+x 11
+y 12
+end
+arch goblin
+Wis 0
+x 11
+y 12
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 13
+end
+arch mover_1
+x 11
+y 13
+end
+arch goblin
+Wis 0
+x 11
+y 13
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 14
+end
+arch mover_1
+x 11
+y 14
+end
+arch orc
+Wis 0
+x 11
+y 14
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 15
+end
+arch mover_1
+x 11
+y 15
+end
+arch orc
+Wis 0
+x 11
+y 15
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 16
+end
+arch mover_1
+x 11
+y 16
+end
+arch goblin
+Wis 0
+x 11
+y 16
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 17
+end
+arch mover_1
+x 11
+y 17
+end
+arch goblin
+Wis 0
+x 11
+y 17
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 18
+end
+arch mover_1
+x 11
+y 18
+end
+arch goblin
+Wis 0
+x 11
+y 18
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 19
+end
+arch mover_1
+x 11
+y 19
+end
+arch orc
+Wis 0
+x 11
+y 19
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 20
+end
+arch mover_1
+x 11
+y 20
+end
+arch orc
+Wis 0
+x 11
+y 20
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 21
+end
+arch mover_1
+x 11
+y 21
+end
+arch grate_closed_1
+x 11
+y 21
+connected 999
+end
+arch battleground
+x 11
+y 22
+end
+arch mover_1
+x 11
+y 22
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 22
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 23
+end
+arch mover_1
+x 11
+y 23
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 23
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 24
+end
+arch mover_1
+x 11
+y 24
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 24
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 25
+end
+arch mover_1
+x 11
+y 25
+end
+arch gnoll
+Wis 0
+x 11
+y 25
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 26
+end
+arch mover_1
+x 11
+y 26
+end
+arch gnoll
+Wis 0
+x 11
+y 26
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 27
+end
+arch mover_1
+x 11
+y 27
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 27
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 28
+end
+arch mover_1
+x 11
+y 28
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 28
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 29
+end
+arch mover_1
+x 11
+y 29
+end
+arch goblin_leader_arc
+Wis 0
+x 11
+y 29
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 30
+end
+arch mover_1
+x 11
+y 30
+end
+arch gnoll
+Wis 0
+x 11
+y 30
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 31
+end
+arch mover_1
+x 11
+y 31
+end
+arch gnoll
+Wis 0
+x 11
+y 31
+friendly 1
+reflect_missile 1
+run_away 0
+sleep 0
+stand_still 1
+arch event_death
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch battleground
+x 11
+y 32
+end
+arch mover_1
+x 11
+y 32
+end
+arch grate_closed_1
+x 11
+y 32
+end
+arch battleground
+x 11
+y 33
+end
+arch battleground
+x 11
+y 34
+end
+arch battleground
+x 11
+y 35
+end
+arch battleground
+x 11
+y 36
+end
+arch battleground
+x 11
+y 37
+end
+arch battleground
+x 11
+y 38
+end
+arch battleground
+x 11
+y 39
+end
+arch battleground
+x 11
+y 40
+end
+arch battleground
+x 11
+y 41
+end
+arch battleground
+x 11
+y 42
+end
+arch battleground
+x 11
+y 43
+end
+arch battleground
+x 11
+y 44
+end
+arch battleground
+x 11
+y 45
+end
+arch battleground
+x 11
+y 46
+end
+arch battleground
+x 11
+y 47
+end
+arch battleground
+x 11
+y 48
+end
+arch battleground
+x 11
+y 49
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
+end
+arch blocked
+x 12
+y 2
+end
+arch blocked
+x 12
+y 4
+end
+arch flagstone
+x 12
+y 5
+end
+arch stwall_2_2_2
+x 12
+y 5
+end
+arch flagstone
+x 12
+y 6
+end
+arch stwall_2_1_1
+x 12
+y 6
+end
+arch flagstone
+x 12
+y 7
+end
+arch stwall_2_1_1
+x 12
+y 7
+end
+arch flagstone
+x 12
+y 8
+end
+arch stwall_2_1_1
+x 12
+y 8
+end
+arch flagstone
+x 12
+y 9
+end
+arch stwall_2_1_1
+x 12
+y 9
+end
+arch flagstone
+x 12
+y 10
+end
+arch stwall_1_2
+x 12
+y 10
+end
+arch pedestal
+x 12
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 12
+y 11
+end
+arch mover_3
+x 12
+y 11
+end
+arch igate_closed_2
+x 12
+y 11
+connected 101
+end
+arch fog_wall
+x 12
+y 11
+end
+arch flagstone
+x 12
+y 12
+end
+arch stwall_1_1
+x 12
+y 12
+end
+arch flagstone
+x 12
+y 13
+end
+arch stwall_2_1_1
+x 12
+y 13
+end
+arch flagstone
+x 12
+y 14
+end
+arch stwall_2_1_1
+x 12
+y 14
+end
+arch flagstone
+x 12
+y 15
+end
+arch stwall_2_1_1
+x 12
+y 15
+end
+arch flagstone
+x 12
+y 16
+end
+arch stwall_2_1_1
+x 12
+y 16
+end
+arch flagstone
+x 12
+y 17
+end
+arch stwall_2_1_1
+x 12
+y 17
+end
+arch flagstone
+x 12
+y 18
+end
+arch stwall_2_1_1
+x 12
+y 18
+end
+arch flagstone
+x 12
+y 19
+end
+arch stwall_2_1_1
+x 12
+y 19
+end
+arch flagstone
+x 12
+y 20
+end
+arch stwall_2_1_1
+x 12
+y 20
+end
+arch flagstone
+x 12
+y 21
+end
+arch stwall_2_1_1
+x 12
+y 21
+end
+arch flagstone
+x 12
+y 22
+end
+arch stwall_2_2_1
+x 12
+y 22
+end
+arch blocked
+x 12
+y 23
+end
+arch blocked
+x 12
+y 24
+end
+arch blocked
+x 12
+y 25
+end
+arch blocked
+x 12
+y 26
+end
+arch blocked
+x 12
+y 27
+end
+arch blocked
+x 12
+y 28
+end
+arch blocked
+x 12
+y 29
+end
+arch blocked
+x 12
+y 30
+end
+arch blocked
+x 12
+y 31
+end
+arch blocked
+x 12
+y 32
+end
+arch blocked
+x 12
+y 33
+end
+arch blocked
+x 12
+y 34
+end
+arch blocked
+x 12
+y 35
+end
+arch blocked
+x 12
+y 36
+end
+arch blocked
+x 12
+y 37
+end
+arch blocked
+x 12
+y 38
+end
+arch blocked
+x 12
+y 39
+end
+arch blocked
+x 12
+y 40
+end
+arch blocked
+x 12
+y 41
+end
+arch blocked
+x 12
+y 42
+end
+arch blocked
+x 12
+y 43
+end
+arch blocked
+x 12
+y 44
+end
+arch blocked
+x 12
+y 45
+end
+arch blocked
+x 12
+y 46
+end
+arch blocked
+x 12
+y 47
+end
+arch blocked
+x 12
+y 48
+end
+arch blocked
+x 12
+y 49
+end
+arch blocked
+x 13
+end
+arch sign
+name START WAVE
+x 13
+end
+arch battleground
+x 13
+y 1
+end
+arch button_small
+x 13
+y 1
+connected 101
+arch event_trigger
+name reset
+title Python
+slaying python/maps/darcap/tower_defense/death-counter.py
+end
+end
+arch blocked
+x 13
+y 2
+end
+arch blocked
+x 13
+y 4
+end
+arch flagstone
+x 13
+y 5
+end
+arch stwall_2_1_2
+x 13
+y 5
+end
+arch dungeon_magic
+x 13
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 6
+end
+arch flagstone
+x 13
+y 6
+end
+arch dungeon_magic
+x 13
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 7
+end
+arch flagstone
+x 13
+y 7
+end
+arch dungeon_magic
+x 13
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 8
+end
+arch flagstone
+x 13
+y 8
+end
+arch dungeon_magic
+x 13
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 9
+end
+arch flagstone
+x 13
+y 9
+end
+arch dungeon_magic
+x 13
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 10
+end
+arch flagstone
+x 13
+y 10
+end
+arch dungeon_magic
+x 13
+y 11
+end
+arch pedestal
+x 13
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 13
+y 11
+end
+arch mover_3
+x 13
+y 11
+end
+arch dungeon_magic
+x 13
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 12
+end
+arch flagstone
+x 13
+y 12
+end
+arch dungeon_magic
+x 13
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 13
+end
+arch flagstone
+x 13
+y 13
+end
+arch dungeon_magic
+x 13
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 14
+end
+arch flagstone
+x 13
+y 14
+end
+arch dungeon_magic
+x 13
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 15
+end
+arch flagstone
+x 13
+y 15
+end
+arch dungeon_magic
+x 13
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 16
+end
+arch flagstone
+x 13
+y 16
+end
+arch dungeon_magic
+x 13
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 17
+end
+arch flagstone
+x 13
+y 17
+end
+arch dungeon_magic
+x 13
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 18
+end
+arch flagstone
+x 13
+y 18
+end
+arch dungeon_magic
+x 13
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 19
+end
+arch flagstone
+x 13
+y 19
+end
+arch dungeon_magic
+x 13
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 20
+end
+arch flagstone
+x 13
+y 20
+end
+arch dungeon_magic
+x 13
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 13
+y 21
+end
+arch flagstone
+x 13
+y 21
+end
+arch flagstone
+x 13
+y 22
+end
+arch stwall_2_1_2
+x 13
+y 22
+end
+arch blocked
+x 13
+y 23
+end
+arch blocked
+x 14
+end
+arch battleground
+x 14
+y 1
+end
+arch grate_open_2
+x 14
+y 1
+connected 100
+end
+arch t_boulder
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
+x 14
+y 4
+end
+arch flagstone
+x 14
+y 5
+end
+arch stwall_2_1_2
+x 14
+y 5
+end
+arch dungeon_magic
+x 14
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 6
+end
+arch flagstone
+x 14
+y 6
+end
+arch dungeon_magic
+x 14
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 7
+end
+arch flagstone
+x 14
+y 7
+end
+arch dungeon_magic
+x 14
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 8
+end
+arch flagstone
+x 14
+y 8
+end
+arch dungeon_magic
+x 14
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 9
+end
+arch goldflagstone
+name tower placement
+x 14
+y 9
+end
+arch dungeon_magic
+x 14
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 10
+end
+arch flagstone
+x 14
+y 10
+end
+arch dungeon_magic
+x 14
+y 11
+end
+arch pedestal
+x 14
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 14
+y 11
+end
+arch mover_3
+x 14
+y 11
+end
+arch dungeon_magic
+x 14
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 12
+end
+arch flagstone
+x 14
+y 12
+end
+arch dungeon_magic
+x 14
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 13
+end
+arch flagstone
+x 14
+y 13
+end
+arch dungeon_magic
+x 14
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 14
+end
+arch flagstone
+x 14
+y 14
+end
+arch dungeon_magic
+x 14
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 15
+end
+arch flagstone
+x 14
+y 15
+end
+arch dungeon_magic
+x 14
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 16
+end
+arch flagstone
+x 14
+y 16
+end
+arch dungeon_magic
+x 14
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 17
+end
+arch flagstone
+x 14
+y 17
+end
+arch dungeon_magic
+x 14
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 18
+end
+arch flagstone
+x 14
+y 18
+end
+arch dungeon_magic
+x 14
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 19
+end
+arch flagstone
+x 14
+y 19
+end
+arch dungeon_magic
+x 14
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 20
+end
+arch flagstone
+x 14
+y 20
+end
+arch dungeon_magic
+x 14
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 14
+y 21
+end
+arch flagstone
+x 14
+y 21
+end
+arch flagstone
+x 14
+y 22
+end
+arch stwall_2_1_2
+x 14
+y 22
+end
+arch blocked
+x 14
+y 23
+end
+arch blocked
+x 15
+end
+arch blocked
+x 15
+y 1
+end
+arch blocked
+x 15
+y 2
+end
+arch blocked
+x 15
+y 4
+end
+arch flagstone
+x 15
+y 5
+end
+arch stwall_2_1_2
+x 15
+y 5
+end
+arch dungeon_magic
+x 15
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 6
+end
+arch flagstone
+x 15
+y 6
+end
+arch dungeon_magic
+x 15
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 7
+end
+arch flagstone
+x 15
+y 7
+end
+arch dungeon_magic
+x 15
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 8
+end
+arch flagstone
+x 15
+y 8
+end
+arch dungeon_magic
+x 15
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 9
+end
+arch flagstone
+x 15
+y 9
+end
+arch dungeon_magic
+x 15
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 10
+end
+arch flagstone
+x 15
+y 10
+end
+arch dungeon_magic
+x 15
+y 11
+end
+arch pedestal
+x 15
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 15
+y 11
+end
+arch mover_3
+x 15
+y 11
+end
+arch dungeon_magic
+x 15
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 12
+end
+arch flagstone
+x 15
+y 12
+end
+arch dungeon_magic
+x 15
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 13
+end
+arch flagstone
+x 15
+y 13
+end
+arch dungeon_magic
+x 15
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 14
+end
+arch flagstone
+x 15
+y 14
+end
+arch dungeon_magic
+x 15
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 15
+end
+arch flagstone
+x 15
+y 15
+end
+arch dungeon_magic
+x 15
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 16
+end
+arch flagstone
+x 15
+y 16
+end
+arch dungeon_magic
+x 15
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 17
+end
+arch flagstone
+x 15
+y 17
+end
+arch dungeon_magic
+x 15
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 18
+end
+arch flagstone
+x 15
+y 18
+end
+arch dungeon_magic
+x 15
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 19
+end
+arch flagstone
+x 15
+y 19
+end
+arch dungeon_magic
+x 15
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 20
+end
+arch flagstone
+x 15
+y 20
+end
+arch dungeon_magic
+x 15
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 15
+y 21
+end
+arch flagstone
+x 15
+y 21
+end
+arch flagstone
+x 15
+y 22
+end
+arch stwall_2_1_2
+x 15
+y 22
+end
+arch blocked
+x 15
+y 23
+end
+arch blocked
+x 16
+end
+arch sign
+name PRIZE
+x 16
+end
+arch battleground
+x 16
+y 1
+end
+arch grate_open_2
+x 16
+y 1
+connected 1001
+end
+arch pit_closed
+hp 20
+sp 1
+x 16
+y 1
+connected 1000
+end
+arch scroll
+name YOU WON
+msg
+Congratulations! You have successfully completed Tower Defense!
+endmsg
+x 16
+y 1
+end
+arch raw_sapphire_great_value
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch magic_mouth
+msg
+YOU WON!
+endmsg
+food 1
+x 16
+y 2
+connected 1000
+end
+arch blocked
+x 16
+y 4
+end
+arch flagstone
+x 16
+y 5
+end
+arch stwall_2_1_2
+x 16
+y 5
+end
+arch dungeon_magic
+x 16
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 6
+end
+arch flagstone
+x 16
+y 6
+end
+arch dungeon_magic
+x 16
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 7
+end
+arch dungeon_magic
+x 16
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 8
+end
+arch flagstone
+x 16
+y 8
+end
+arch dungeon_magic
+x 16
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 9
+end
+arch flagstone
+x 16
+y 9
+end
+arch dungeon_magic
+x 16
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 10
+end
+arch flagstone
+x 16
+y 10
+end
+arch dungeon_magic
+x 16
+y 11
+end
+arch pedestal
+x 16
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 11
+end
+arch mover_3
+x 16
+y 11
+end
+arch dungeon_magic
+x 16
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 12
+end
+arch flagstone
+x 16
+y 12
+end
+arch dungeon_magic
+x 16
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 13
+end
+arch dungeon_magic
+x 16
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 14
+end
+arch dungeon_magic
+x 16
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 15
+end
+arch flagstone
+x 16
+y 15
+end
+arch dungeon_magic
+x 16
+y 16
+end
+arch pedestal
+x 16
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 16
+end
+arch mover_5
+x 16
+y 16
+end
+arch dungeon_magic
+x 16
+y 17
+end
+arch pedestal
+x 16
+y 17
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 17
+end
+arch mover_5
+x 16
+y 17
+end
+arch dungeon_magic
+x 16
+y 18
+end
+arch pedestal
+x 16
+y 18
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 18
+end
+arch mover_5
+x 16
+y 18
+end
+arch dungeon_magic
+x 16
+y 19
+end
+arch pedestal
+x 16
+y 19
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 19
+end
+arch mover_5
+x 16
+y 19
+end
+arch dungeon_magic
+x 16
+y 20
+end
+arch pedestal
+x 16
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 16
+y 20
+end
+arch mover_3
+x 16
+y 20
+end
+arch dungeon_magic
+x 16
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 16
+y 21
+end
+arch flagstone
+x 16
+y 21
+end
+arch flagstone
+x 16
+y 22
+end
+arch stwall_2_1_2
+x 16
+y 22
+end
+arch blocked
+x 16
+y 23
+end
+arch blocked
+x 17
+end
+arch battleground
+x 17
+y 1
+end
+arch blocked
+x 17
+y 2
+end
+arch blocked
+x 17
+y 4
+end
+arch flagstone
+x 17
+y 5
+end
+arch stwall_2_1_2
+x 17
+y 5
+end
+arch dungeon_magic
+x 17
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 6
+end
+arch flagstone
+x 17
+y 6
+end
+arch dungeon_magic
+x 17
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 7
+end
+arch flagstone
+x 17
+y 7
+end
+arch dungeon_magic
+x 17
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 8
+end
+arch flagstone
+x 17
+y 8
+end
+arch dungeon_magic
+x 17
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 9
+end
+arch flagstone
+x 17
+y 9
+end
+arch dungeon_magic
+x 17
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 10
+end
+arch flagstone
+x 17
+y 10
+end
+arch dungeon_magic
+x 17
+y 11
+end
+arch pedestal
+x 17
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 17
+y 11
+end
+arch mover_3
+x 17
+y 11
+end
+arch dungeon_magic
+x 17
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 12
+end
+arch flagstone
+x 17
+y 12
+end
+arch dungeon_magic
+x 17
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 13
+end
+arch flagstone
+x 17
+y 13
+end
+arch dungeon_magic
+x 17
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 14
+end
+arch flagstone
+x 17
+y 14
+end
+arch dungeon_magic
+x 17
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 15
+end
+arch flagstone
+x 17
+y 15
+end
+arch dungeon_magic
+x 17
+y 16
+end
+arch pedestal
+x 17
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 17
+y 16
+end
+arch mover_7
+x 17
+y 16
+end
+arch dungeon_magic
+x 17
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 17
+end
+arch flagstone
+x 17
+y 17
+end
+arch dungeon_magic
+x 17
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 18
+end
+arch flagstone
+x 17
+y 18
+end
+arch dungeon_magic
+x 17
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 19
+end
+arch flagstone
+x 17
+y 19
+end
+arch dungeon_magic
+x 17
+y 20
+end
+arch pedestal
+x 17
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 17
+y 20
+end
+arch mover_3
+x 17
+y 20
+end
+arch dungeon_magic
+x 17
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 17
+y 21
+end
+arch flagstone
+x 17
+y 21
+end
+arch flagstone
+x 17
+y 22
+end
+arch stwall_2_1_2
+x 17
+y 22
+end
+arch blocked
+x 17
+y 23
+end
+arch blocked
+x 18
+end
+arch battleground
+x 18
+y 1
+end
+arch pit_closed
+hp 20
+sp 1
+x 18
+y 1
+connected 1001
+end
+arch scroll
+name YOU LOST
+msg
+You lost! Better luck next time.
+endmsg
+x 18
+y 1
+end
+arch blocked
+x 18
+y 2
+end
+arch magic_mouth
+msg
+YOU LOST!
+endmsg
+food 1
+x 18
+y 2
+connected 1001
+end
+arch blocked
+x 18
+y 4
+end
+arch flagstone
+x 18
+y 5
+end
+arch stwall_2_1_2
+x 18
+y 5
+end
+arch dungeon_magic
+x 18
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 6
+end
+arch flagstone
+x 18
+y 6
+end
+arch dungeon_magic
+x 18
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 7
+end
+arch flagstone
+x 18
+y 7
+end
+arch dungeon_magic
+x 18
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 8
+end
+arch flagstone
+x 18
+y 8
+end
+arch dungeon_magic
+x 18
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 9
+end
+arch flagstone
+x 18
+y 9
+end
+arch dungeon_magic
+x 18
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 10
+end
+arch flagstone
+x 18
+y 10
+end
+arch dungeon_magic
+x 18
+y 11
+end
+arch pedestal
+x 18
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 18
+y 11
+end
+arch mover_3
+x 18
+y 11
+end
+arch dungeon_magic
+x 18
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 12
+end
+arch flagstone
+x 18
+y 12
+end
+arch dungeon_magic
+x 18
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 13
+end
+arch flagstone
+x 18
+y 13
+end
+arch dungeon_magic
+x 18
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 14
+end
+arch flagstone
+x 18
+y 14
+end
+arch dungeon_magic
+x 18
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 15
+end
+arch flagstone
+x 18
+y 15
+end
+arch dungeon_magic
+x 18
+y 16
+end
+arch pedestal
+x 18
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 18
+y 16
+end
+arch mover_7
+x 18
+y 16
+end
+arch dungeon_magic
+x 18
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 17
+end
+arch flagstone
+x 18
+y 17
+end
+arch dungeon_magic
+x 18
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 18
+end
+arch goldflagstone
+name tower placement
+x 18
+y 18
+end
+arch dungeon_magic
+x 18
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 19
+end
+arch flagstone
+x 18
+y 19
+end
+arch dungeon_magic
+x 18
+y 20
+end
+arch pedestal
+x 18
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 18
+y 20
+end
+arch mover_3
+x 18
+y 20
+end
+arch dungeon_magic
+x 18
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 18
+y 21
+end
+arch flagstone
+x 18
+y 21
+end
+arch flagstone
+x 18
+y 22
+end
+arch stwall_2_1_2
+x 18
+y 22
+end
+arch blocked
+x 18
+y 23
+end
+arch blocked
+x 19
+end
+arch blocked
+x 19
+y 1
+end
+arch blocked
+x 19
+y 2
+end
+arch blocked
+x 19
+y 4
+end
+arch flagstone
+x 19
+y 5
+end
+arch stwall_2_1_2
+x 19
+y 5
+end
+arch dungeon_magic
+x 19
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 6
+end
+arch flagstone
+x 19
+y 6
+end
+arch dungeon_magic
+x 19
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 7
+end
+arch flagstone
+x 19
+y 7
+end
+arch dungeon_magic
+x 19
+y 8
+end
+arch pedestal
+x 19
+y 8
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 8
+end
+arch mover_3
+x 19
+y 8
+end
+arch dungeon_magic
+x 19
+y 9
+end
+arch pedestal
+x 19
+y 9
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 9
+end
+arch mover_1
+x 19
+y 9
+end
+arch dungeon_magic
+x 19
+y 10
+end
+arch pedestal
+x 19
+y 10
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 10
+end
+arch mover_1
+x 19
+y 10
+end
+arch dungeon_magic
+x 19
+y 11
+end
+arch pedestal
+x 19
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 11
+end
+arch mover_1
+x 19
+y 11
+end
+arch dungeon_magic
+x 19
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 12
+end
+arch flagstone
+x 19
+y 12
+end
+arch dungeon_magic
+x 19
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 13
+end
+arch flagstone
+x 19
+y 13
+end
+arch dungeon_magic
+x 19
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 14
+end
+arch flagstone
+x 19
+y 14
+end
+arch stair_down_4
+slaying fz_tower_defense
+hp 26
+sp 14
+x 19
+y 14
+end
+arch dungeon_magic
+x 19
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 15
+end
+arch flagstone
+x 19
+y 15
+end
+arch dungeon_magic
+x 19
+y 16
+end
+arch pedestal
+x 19
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 16
+end
+arch mover_7
+x 19
+y 16
+end
+arch dungeon_magic
+x 19
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 17
+end
+arch flagstone
+x 19
+y 17
+end
+arch dungeon_magic
+x 19
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 18
+end
+arch flagstone
+x 19
+y 18
+end
+arch dungeon_magic
+x 19
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 19
+end
+arch flagstone
+x 19
+y 19
+end
+arch dungeon_magic
+x 19
+y 20
+end
+arch pedestal
+x 19
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 19
+y 20
+end
+arch mover_3
+x 19
+y 20
+end
+arch dungeon_magic
+x 19
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 19
+y 21
+end
+arch flagstone
+x 19
+y 21
+end
+arch flagstone
+x 19
+y 22
+end
+arch stwall_2_1_2
+x 19
+y 22
+end
+arch blocked
+x 19
+y 23
+end
+arch blocked
+x 20
+end
+arch sign
+name PRIZE TELEPORTER
+x 20
+end
+arch battleground
+x 20
+y 1
+end
+arch teleporter
+hp 35
+sp 20
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 4
+end
+arch flagstone
+x 20
+y 5
+end
+arch stwall_2_1_2
+x 20
+y 5
+end
+arch dungeon_magic
+x 20
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 6
+end
+arch flagstone
+x 20
+y 6
+end
+arch dungeon_magic
+x 20
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 7
+end
+arch flagstone
+x 20
+y 7
+end
+arch dungeon_magic
+x 20
+y 8
+end
+arch pedestal
+x 20
+y 8
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 20
+y 8
+end
+arch mover_3
+x 20
+y 8
+end
+arch dungeon_magic
+x 20
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 9
+end
+arch flagstone
+x 20
+y 9
+end
+arch dungeon_magic
+x 20
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 10
+end
+arch flagstone
+x 20
+y 10
+end
+arch dungeon_magic
+x 20
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 11
+end
+arch flagstone
+x 20
+y 11
+end
+arch dungeon_magic
+x 20
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 12
+end
+arch flagstone
+x 20
+y 12
+end
+arch dungeon_magic
+x 20
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 13
+end
+arch flagstone
+x 20
+y 13
+end
+arch dungeon_magic
+x 20
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 14
+end
+arch flagstone
+x 20
+y 14
+end
+arch dungeon_magic
+x 20
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 15
+end
+arch flagstone
+x 20
+y 15
+end
+arch dungeon_magic
+x 20
+y 16
+end
+arch pedestal
+x 20
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 20
+y 16
+end
+arch mover_7
+x 20
+y 16
+end
+arch dungeon_magic
+x 20
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 17
+end
+arch flagstone
+x 20
+y 17
+end
+arch dungeon_magic
+x 20
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 18
+end
+arch flagstone
+x 20
+y 18
+end
+arch dungeon_magic
+x 20
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 19
+end
+arch flagstone
+x 20
+y 19
+end
+arch dungeon_magic
+x 20
+y 20
+end
+arch pedestal
+x 20
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 20
+y 20
+end
+arch mover_3
+x 20
+y 20
+end
+arch dungeon_magic
+x 20
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 20
+y 21
+end
+arch flagstone
+x 20
+y 21
+end
+arch flagstone
+x 20
+y 22
+end
+arch stwall_2_1_2
+x 20
+y 22
+end
+arch blocked
+x 20
+y 23
+end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
+x 21
+y 2
+end
+arch blocked
+x 21
+y 4
+end
+arch flagstone
+x 21
+y 5
+end
+arch stwall_2_1_2
+x 21
+y 5
+end
+arch dungeon_magic
+x 21
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 6
+end
+arch flagstone
+x 21
+y 6
+end
+arch dungeon_magic
+x 21
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 7
+end
+arch flagstone
+x 21
+y 7
+end
+arch dungeon_magic
+x 21
+y 8
+end
+arch pedestal
+x 21
+y 8
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 21
+y 8
+end
+arch mover_3
+x 21
+y 8
+end
+arch dungeon_magic
+x 21
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 9
+end
+arch flagstone
+x 21
+y 9
+end
+arch dungeon_magic
+x 21
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 10
+end
+arch goldflagstone
+name tower placement
+x 21
+y 10
+end
+arch dungeon_magic
+x 21
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 11
+end
+arch flagstone
+x 21
+y 11
+end
+arch dungeon_magic
+x 21
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 12
+end
+arch flagstone
+x 21
+y 12
+end
+arch dungeon_magic
+x 21
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 13
+end
+arch flagstone
+x 21
+y 13
+end
+arch dungeon_magic
+x 21
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 14
+end
+arch goldflagstone
+name tower placement
+x 21
+y 14
+end
+arch dungeon_magic
+x 21
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 15
+end
+arch flagstone
+x 21
+y 15
+end
+arch dungeon_magic
+x 21
+y 16
+end
+arch pedestal
+x 21
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 21
+y 16
+end
+arch mover_7
+x 21
+y 16
+end
+arch dungeon_magic
+x 21
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 17
+end
+arch flagstone
+x 21
+y 17
+end
+arch dungeon_magic
+x 21
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 18
+end
+arch goldflagstone
+name tower placement
+x 21
+y 18
+end
+arch dungeon_magic
+x 21
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 19
+end
+arch flagstone
+x 21
+y 19
+end
+arch dungeon_magic
+x 21
+y 20
+end
+arch pedestal
+x 21
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 21
+y 20
+end
+arch mover_3
+x 21
+y 20
+end
+arch dungeon_magic
+x 21
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 21
+y 21
+end
+arch flagstone
+x 21
+y 21
+end
+arch flagstone
+x 21
+y 22
+end
+arch stwall_2_1_2
+x 21
+y 22
+end
+arch blocked
+x 21
+y 23
+end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
+x 22
+y 2
+end
+arch blocked
+x 22
+y 3
+end
+arch blocked
+x 22
+y 4
+end
+arch flagstone
+x 22
+y 5
+end
+arch stwall_2_1_2
+x 22
+y 5
+end
+arch dungeon_magic
+x 22
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 6
+end
+arch flagstone
+x 22
+y 6
+end
+arch dungeon_magic
+x 22
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 7
+end
+arch flagstone
+x 22
+y 7
+end
+arch dungeon_magic
+x 22
+y 8
+end
+arch pedestal
+x 22
+y 8
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 22
+y 8
+end
+arch mover_3
+x 22
+y 8
+end
+arch dungeon_magic
+x 22
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 9
+end
+arch flagstone
+x 22
+y 9
+end
+arch dungeon_magic
+x 22
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 10
+end
+arch flagstone
+x 22
+y 10
+end
+arch dungeon_magic
+x 22
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 11
+end
+arch flagstone
+x 22
+y 11
+end
+arch dungeon_magic
+x 22
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 12
+end
+arch flagstone
+x 22
+y 12
+end
+arch dungeon_magic
+x 22
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 13
+end
+arch flagstone
+x 22
+y 13
+end
+arch dungeon_magic
+x 22
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 14
+end
+arch flagstone
+x 22
+y 14
+end
+arch dungeon_magic
+x 22
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 15
+end
+arch flagstone
+x 22
+y 15
+end
+arch dungeon_magic
+x 22
+y 16
+end
+arch pedestal
+x 22
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 22
+y 16
+end
+arch mover_7
+x 22
+y 16
+end
+arch dungeon_magic
+x 22
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 17
+end
+arch flagstone
+x 22
+y 17
+end
+arch dungeon_magic
+x 22
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 18
+end
+arch flagstone
+x 22
+y 18
+end
+arch dungeon_magic
+x 22
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 19
+end
+arch flagstone
+x 22
+y 19
+end
+arch dungeon_magic
+x 22
+y 20
+end
+arch pedestal
+x 22
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 22
+y 20
+end
+arch mover_3
+x 22
+y 20
+end
+arch dungeon_magic
+x 22
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 22
+y 21
+end
+arch flagstone
+x 22
+y 21
+end
+arch flagstone
+x 22
+y 22
+end
+arch stwall_2_1_2
+x 22
+y 22
+end
+arch blocked
+x 22
+y 23
+end
+arch flagstone
+x 23
+end
+arch stwall_2_2_2
+x 23
+end
+arch flagstone
+x 23
+y 1
+end
+arch stwall_2_1_1
+x 23
+y 1
+end
+arch flagstone
+x 23
+y 2
+end
+arch stwall_2_1_1
+x 23
+y 2
+end
+arch flagstone
+x 23
+y 3
+end
+arch stwall_2_1_1
+x 23
+y 3
+end
+arch flagstone
+x 23
+y 4
+end
+arch stwall_2_1_1
+x 23
+y 4
+end
+arch flagstone
+x 23
+y 5
+end
+arch stwall_3_4
+x 23
+y 5
+end
+arch flagstone
+x 23
+y 6
+end
+arch stwall_2_2_1
+x 23
+y 6
+end
+arch dungeon_magic
+x 23
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 23
+y 7
+end
+arch flagstone
+x 23
+y 7
+end
+arch dungeon_magic
+x 23
+y 8
+end
+arch pedestal
+x 23
+y 8
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 8
+end
+arch mover_5
+x 23
+y 8
+end
+arch dungeon_magic
+x 23
+y 9
+end
+arch pedestal
+x 23
+y 9
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 9
+end
+arch mover_5
+x 23
+y 9
+end
+arch dungeon_magic
+x 23
+y 10
+end
+arch pedestal
+x 23
+y 10
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 10
+end
+arch mover_5
+x 23
+y 10
+end
+arch dungeon_magic
+x 23
+y 11
+end
+arch pedestal
+x 23
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 11
+end
+arch mover_5
+x 23
+y 11
+end
+arch dungeon_magic
+x 23
+y 12
+end
+arch pedestal
+x 23
+y 12
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 12
+end
+arch mover_5
+x 23
+y 12
+end
+arch dungeon_magic
+x 23
+y 13
+end
+arch pedestal
+x 23
+y 13
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 13
+end
+arch mover_5
+x 23
+y 13
+end
+arch dungeon_magic
+x 23
+y 14
+end
+arch pedestal
+x 23
+y 14
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 14
+end
+arch mover_5
+x 23
+y 14
+end
+arch dungeon_magic
+x 23
+y 15
+end
+arch pedestal
+x 23
+y 15
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 15
+end
+arch mover_5
+x 23
+y 15
+end
+arch dungeon_magic
+x 23
+y 16
+end
+arch pedestal
+x 23
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 16
+end
+arch mover_7
+x 23
+y 16
+end
+arch dungeon_magic
+x 23
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 23
+y 17
+end
+arch flagstone
+x 23
+y 17
+end
+arch dungeon_magic
+x 23
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 23
+y 18
+end
+arch flagstone
+x 23
+y 18
+end
+arch dungeon_magic
+x 23
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 23
+y 19
+end
+arch flagstone
+x 23
+y 19
+end
+arch dungeon_magic
+x 23
+y 20
+end
+arch pedestal
+x 23
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 23
+y 20
+end
+arch mover_3
+x 23
+y 20
+end
+arch dungeon_magic
+x 23
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 23
+y 21
+end
+arch flagstone
+x 23
+y 21
+end
+arch flagstone
+x 23
+y 22
+end
+arch stwall_2_1_2
+x 23
+y 22
+end
+arch blocked
+x 23
+y 23
+end
+arch stwall_2_1_2
+x 24
+end
+arch dungeon_magic
+x 24
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 1
+end
+arch flagstone
+x 24
+y 1
+end
+arch altar_trigger
+name large bullet tower (5 plat)
+slaying platinacoin
+x 24
+y 1
+last_sp 1
+connected 1
+end
+arch creator
+x 24
+y 1
+connected 1
+lifesave 1
+arch card
+name build large bullet tower
+msg
+This card builds a large bullet tower!
+endmsg
+arch event_apply
+title Python
+slaying python/maps/darcap/tower_defense/create-tower.py
+end
+end
+end
+arch dungeon_magic
+x 24
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 2
+end
+arch flagstone
+x 24
+y 2
+end
+arch sign_e
+name Towers
+msg
+Towers
+endmsg
+x 24
+y 2
+end
+arch dungeon_magic
+x 24
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 3
+end
+arch flagstone
+x 24
+y 3
+end
+arch dungeon_magic
+x 24
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 4
+end
+arch flagstone
+x 24
+y 4
+end
+arch dungeon_magic
+x 24
+y 5
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 5
+end
+arch flagstone
+x 24
+y 5
+end
+arch flagstone
+x 24
+y 6
+end
+arch stwindow_win2
+x 24
+y 6
+end
+arch dungeon_magic
+x 24
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 7
+end
+arch flagstone
+x 24
+y 7
+end
+arch dungeon_magic
+x 24
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 8
+end
+arch flagstone
+x 24
+y 8
+end
+arch dungeon_magic
+x 24
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 9
+end
+arch flagstone
+x 24
+y 9
+end
+arch dungeon_magic
+x 24
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 10
+end
+arch flagstone
+x 24
+y 10
+end
+arch dungeon_magic
+x 24
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 11
+end
+arch flagstone
+x 24
+y 11
+end
+arch dungeon_magic
+x 24
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 12
+end
+arch flagstone
+x 24
+y 12
+end
+arch dungeon_magic
+x 24
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 13
+end
+arch flagstone
+x 24
+y 13
+end
+arch dungeon_magic
+x 24
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 14
+end
+arch flagstone
+x 24
+y 14
+end
+arch dungeon_magic
+x 24
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 15
+end
+arch flagstone
+x 24
+y 15
+end
+arch dungeon_magic
+x 24
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 16
+end
+arch flagstone
+x 24
+y 16
+end
+arch dungeon_magic
+x 24
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 17
+end
+arch flagstone
+x 24
+y 17
+end
+arch dungeon_magic
+x 24
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 18
+end
+arch flagstone
+x 24
+y 18
+end
+arch dungeon_magic
+x 24
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 19
+end
+arch flagstone
+x 24
+y 19
+end
+arch dungeon_magic
+x 24
+y 20
+end
+arch pedestal
+x 24
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 24
+y 20
+end
+arch mover_3
+x 24
+y 20
+end
+arch dungeon_magic
+x 24
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 24
+y 21
+end
+arch flagstone
+x 24
+y 21
+end
+arch flagstone
+x 24
+y 22
+end
+arch stwall_2_1_2
+x 24
+y 22
+end
+arch blocked
+x 24
+y 23
+end
+arch stwall_2_1_2
+x 25
+end
+arch dungeon_magic
+x 25
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 1
+end
+arch flagstone
+x 25
+y 1
+end
+arch altar_trigger
+name lightning tower (50 plat)
+slaying platinacoin
+food 50
+x 25
+y 1
+last_sp 1
+connected 2
+end
+arch creator
+x 25
+y 1
+connected 2
+lifesave 1
+arch card
+name build lightning tower
+arch event_apply
+title Python
+slaying python/maps/darcap/tower_defense/create-tower.py
+end
+end
+end
+arch dungeon_magic
+x 25
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 2
+end
+arch flagstone
+x 25
+y 2
+end
+arch dungeon_magic
+x 25
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 3
+end
+arch flagstone
+x 25
+y 3
+end
+arch dungeon_magic
+x 25
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 4
+end
+arch flagstone
+x 25
+y 4
+end
+arch dungeon_magic
+x 25
+y 5
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 5
+end
+arch flagstone
+x 25
+y 5
+end
+arch flagstone
+x 25
+y 6
+end
+arch stwall_2_1_2
+x 25
+y 6
+end
+arch dungeon_magic
+x 25
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 7
+end
+arch flagstone
+x 25
+y 7
+end
+arch dungeon_magic
+x 25
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 8
+end
+arch flagstone
+x 25
+y 8
+end
+arch dungeon_magic
+x 25
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 9
+end
+arch flagstone
+x 25
+y 9
+end
+arch dungeon_magic
+x 25
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 10
+end
+arch flagstone
+x 25
+y 10
+end
+arch dungeon_magic
+x 25
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 11
+end
+arch flagstone
+x 25
+y 11
+end
+arch dungeon_magic
+x 25
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 12
+end
+arch goldflagstone
+name tower placement
+x 25
+y 12
+end
+arch dungeon_magic
+x 25
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 13
+end
+arch flagstone
+x 25
+y 13
+end
+arch dungeon_magic
+x 25
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 14
+end
+arch flagstone
+x 25
+y 14
+end
+arch dungeon_magic
+x 25
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 15
+end
+arch flagstone
+x 25
+y 15
+end
+arch dungeon_magic
+x 25
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 16
+end
+arch flagstone
+x 25
+y 16
+end
+arch dungeon_magic
+x 25
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 17
+end
+arch flagstone
+x 25
+y 17
+end
+arch dungeon_magic
+x 25
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 18
+end
+arch goldflagstone
+name tower placement
+x 25
+y 18
+end
+arch dungeon_magic
+x 25
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 19
+end
+arch flagstone
+x 25
+y 19
+end
+arch dungeon_magic
+x 25
+y 20
+end
+arch pedestal
+x 25
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 25
+y 20
+end
+arch mover_3
+x 25
+y 20
+end
+arch dungeon_magic
+x 25
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 25
+y 21
+end
+arch flagstone
+x 25
+y 21
+end
+arch flagstone
+x 25
+y 22
+end
+arch stwall_2_1_2
+x 25
+y 22
+end
+arch blocked
+x 25
+y 23
+end
+arch stwall_2_1_2
+x 26
+end
+arch dungeon_magic
+x 26
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 1
+end
+arch flagstone
+x 26
+y 1
+end
+arch altar_trigger
+name fire tower (100 plat)
+slaying platinacoin
+food 100
+x 26
+y 1
+last_sp 1
+connected 3
+end
+arch creator
+x 26
+y 1
+connected 3
+lifesave 1
+arch card
+name build fire tower
+arch event_apply
+title Python
+slaying python/maps/darcap/tower_defense/create-tower.py
+end
+end
+end
+arch dungeon_magic
+x 26
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 2
+end
+arch flagstone
+x 26
+y 2
+end
+arch dungeon_magic
+x 26
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 3
+end
+arch flagstone
+x 26
+y 3
+end
+arch dungeon_magic
+x 26
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 4
+end
+arch flagstone
+x 26
+y 4
+end
+arch dungeon_magic
+x 26
+y 5
+end
+arch pedestal
+x 26
+y 5
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 5
+end
+arch flagstone
+x 26
+y 5
+end
+arch dungeon_magic
+x 26
+y 6
+end
+arch pedestal
+x 26
+y 6
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 6
+end
+arch flagstone
+x 26
+y 6
+end
+arch grate_closed_1
+x 26
+y 6
+connected 500
+end
+arch stwall_door_1_4
+x 26
+y 6
+end
+arch dungeon_magic
+x 26
+y 7
+end
+arch pedestal
+x 26
+y 7
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 7
+end
+arch flagstone
+x 26
+y 7
+end
+arch dungeon_magic
+x 26
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 8
+end
+arch flagstone
+x 26
+y 8
+end
+arch dungeon_magic
+x 26
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 9
+end
+arch flagstone
+x 26
+y 9
+end
+arch dungeon_magic
+x 26
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 10
+end
+arch flagstone
+x 26
+y 10
+end
+arch dungeon_magic
+x 26
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 11
+end
+arch flagstone
+x 26
+y 11
+end
+arch dungeon_magic
+x 26
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 12
+end
+arch flagstone
+x 26
+y 12
+end
+arch dungeon_magic
+x 26
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 13
+end
+arch flagstone
+x 26
+y 13
+end
+arch dungeon_magic
+x 26
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 14
+end
+arch flagstone
+x 26
+y 14
+end
+arch stair_down
+slaying fz_tower_defense
+hp 19
+sp 14
+x 26
+y 14
+end
+arch dungeon_magic
+x 26
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 15
+end
+arch flagstone
+x 26
+y 15
+end
+arch dungeon_magic
+x 26
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 16
+end
+arch flagstone
+x 26
+y 16
+end
+arch dungeon_magic
+x 26
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 17
+end
+arch flagstone
+x 26
+y 17
+end
+arch dungeon_magic
+x 26
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 18
+end
+arch flagstone
+x 26
+y 18
+end
+arch dungeon_magic
+x 26
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 19
+end
+arch flagstone
+x 26
+y 19
+end
+arch dungeon_magic
+x 26
+y 20
+end
+arch pedestal
+x 26
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 26
+y 20
+end
+arch mover_3
+x 26
+y 20
+end
+arch dungeon_magic
+x 26
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 26
+y 21
+end
+arch flagstone
+x 26
+y 21
+end
+arch flagstone
+x 26
+y 22
+end
+arch stwall_2_1_2
+x 26
+y 22
+end
+arch blocked
+x 26
+y 23
+end
+arch stwall_2_1_2
+x 27
+end
+arch dungeon_magic
+x 27
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 1
+end
+arch flagstone
+x 27
+y 1
+end
+arch dungeon_magic
+x 27
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 2
+end
+arch flagstone
+x 27
+y 2
+end
+arch dungeon_magic
+x 27
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 3
+end
+arch flagstone
+x 27
+y 3
+end
+arch dungeon_magic
+x 27
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 4
+end
+arch flagstone
+x 27
+y 4
+end
+arch dungeon_magic
+x 27
+y 5
+end
+arch pedestal
+x 27
+y 5
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 5
+end
+arch flagstone
+x 27
+y 5
+end
+arch dungeon_magic
+x 27
+y 6
+end
+arch pedestal
+x 27
+y 6
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 6
+end
+arch flagstone
+x 27
+y 6
+end
+arch grate_closed_1
+x 27
+y 6
+connected 500
+end
+arch stwall_door_1_4
+x 27
+y 6
+end
+arch dungeon_magic
+x 27
+y 7
+end
+arch pedestal
+x 27
+y 7
+connected 500
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 7
+end
+arch flagstone
+x 27
+y 7
+end
+arch dungeon_magic
+x 27
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 8
+end
+arch flagstone
+x 27
+y 8
+end
+arch dungeon_magic
+x 27
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 9
+end
+arch flagstone
+x 27
+y 9
+end
+arch dungeon_magic
+x 27
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 10
+end
+arch flagstone
+x 27
+y 10
+end
+arch dungeon_magic
+x 27
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 11
+end
+arch flagstone
+x 27
+y 11
+end
+arch dungeon_magic
+x 27
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 12
+end
+arch flagstone
+x 27
+y 12
+end
+arch dungeon_magic
+x 27
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 13
+end
+arch flagstone
+x 27
+y 13
+end
+arch dungeon_magic
+x 27
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 14
+end
+arch flagstone
+x 27
+y 14
+end
+arch stair_down_4
+slaying fz_tower_defense
+hp 34
+sp 14
+x 27
+y 14
+end
+arch dungeon_magic
+x 27
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 15
+end
+arch flagstone
+x 27
+y 15
+end
+arch dungeon_magic
+x 27
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 16
+end
+arch flagstone
+x 27
+y 16
+end
+arch dungeon_magic
+x 27
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 17
+end
+arch flagstone
+x 27
+y 17
+end
+arch dungeon_magic
+x 27
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 18
+end
+arch flagstone
+x 27
+y 18
+end
+arch dungeon_magic
+x 27
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 19
+end
+arch flagstone
+x 27
+y 19
+end
+arch dungeon_magic
+x 27
+y 20
+end
+arch pedestal
+x 27
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 27
+y 20
+end
+arch mover_3
+x 27
+y 20
+end
+arch dungeon_magic
+x 27
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 27
+y 21
+end
+arch flagstone
+x 27
+y 21
+end
+arch flagstone
+x 27
+y 22
+end
+arch stwall_2_1_2
+x 27
+y 22
+end
+arch blocked
+x 27
+y 23
+end
+arch stwall_2_1_2
+x 28
+end
+arch dungeon_magic
+x 28
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 1
+end
+arch flagstone
+x 28
+y 1
+end
+arch table_3
+x 28
+y 1
+end
+arch claypipe
+name destroy tower
+face wrench.111
+x 28
+y 1
+arch event_apply
+title Python
+slaying python/maps/darcap/tower_defense/destroy-tower.py
+end
+end
+arch dungeon_magic
+x 28
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 2
+end
+arch flagstone
+x 28
+y 2
+end
+arch dungeon_magic
+x 28
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 3
+end
+arch flagstone
+x 28
+y 3
+end
+arch dungeon_magic
+x 28
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 4
+end
+arch flagstone
+x 28
+y 4
+end
+arch dungeon_magic
+x 28
+y 5
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 5
+end
+arch flagstone
+x 28
+y 5
+end
+arch flagstone
+x 28
+y 6
+end
+arch stwall_2_1_2
+x 28
+y 6
+end
+arch dungeon_magic
+x 28
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 7
+end
+arch flagstone
+x 28
+y 7
+end
+arch sign
+name Armory
+msg
+Welcome to the armory! Here you can access everything you need to set up your towers!
+endmsg
+x 28
+y 7
+end
+arch dungeon_magic
+x 28
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 8
+end
+arch flagstone
+x 28
+y 8
+end
+arch dungeon_magic
+x 28
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 9
+end
+arch flagstone
+x 28
+y 9
+end
+arch dungeon_magic
+x 28
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 10
+end
+arch flagstone
+x 28
+y 10
+end
+arch dungeon_magic
+x 28
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 11
+end
+arch flagstone
+x 28
+y 11
+end
+arch dungeon_magic
+x 28
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 12
+end
+arch flagstone
+x 28
+y 12
+end
+arch dungeon_magic
+x 28
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 13
+end
+arch flagstone
+x 28
+y 13
+end
+arch dungeon_magic
+x 28
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 14
+end
+arch flagstone
+x 28
+y 14
+end
+arch dungeon_magic
+x 28
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 15
+end
+arch flagstone
+x 28
+y 15
+end
+arch dungeon_magic
+x 28
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 16
+end
+arch flagstone
+x 28
+y 16
+end
+arch dungeon_magic
+x 28
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 17
+end
+arch flagstone
+x 28
+y 17
+end
+arch dungeon_magic
+x 28
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 18
+end
+arch goldflagstone
+name tower placement
+x 28
+y 18
+end
+arch dungeon_magic
+x 28
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 19
+end
+arch flagstone
+x 28
+y 19
+end
+arch dungeon_magic
+x 28
+y 20
+end
+arch pedestal
+x 28
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 28
+y 20
+end
+arch mover_3
+x 28
+y 20
+end
+arch dungeon_magic
+x 28
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 28
+y 21
+end
+arch flagstone
+x 28
+y 21
+end
+arch flagstone
+x 28
+y 22
+end
+arch stwall_2_1_2
+x 28
+y 22
+end
+arch blocked
+x 28
+y 23
+end
+arch stwall_2_1_2
+x 29
+end
+arch dungeon_magic
+x 29
+y 1
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 1
+end
+arch flagstone
+x 29
+y 1
+end
+arch table_3
+x 29
+y 1
+end
+arch claypipe
+name rotate tower
+face wrench.111
+x 29
+y 1
+arch event_apply
+title Python
+slaying python/maps/darcap/tower_defense/rotate-tower.py
+end
+end
+arch dungeon_magic
+x 29
+y 2
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 2
+end
+arch flagstone
+x 29
+y 2
+end
+arch sign_w
+name Tools
+msg
+Tools
+endmsg
+x 29
+y 2
+end
+arch dungeon_magic
+x 29
+y 3
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 3
+end
+arch flagstone
+x 29
+y 3
+end
+arch dungeon_magic
+x 29
+y 4
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 4
+end
+arch flagstone
+x 29
+y 4
+end
+arch dungeon_magic
+x 29
+y 5
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 5
+end
+arch flagstone
+x 29
+y 5
+end
+arch flagstone
+x 29
+y 6
+end
+arch stwindow_win2
+x 29
+y 6
+end
+arch dungeon_magic
+x 29
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 7
+end
+arch flagstone
+x 29
+y 7
+end
+arch dungeon_magic
+x 29
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 8
+end
+arch flagstone
+x 29
+y 8
+end
+arch dungeon_magic
+x 29
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 9
+end
+arch flagstone
+x 29
+y 9
+end
+arch dungeon_magic
+x 29
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 10
+end
+arch flagstone
+x 29
+y 10
+end
+arch dungeon_magic
+x 29
+y 11
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 11
+end
+arch flagstone
+x 29
+y 11
+end
+arch dungeon_magic
+x 29
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 12
+end
+arch flagstone
+x 29
+y 12
+end
+arch dungeon_magic
+x 29
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 13
+end
+arch flagstone
+x 29
+y 13
+end
+arch dungeon_magic
+x 29
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 14
+end
+arch flagstone
+x 29
+y 14
+end
+arch dungeon_magic
+x 29
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 15
+end
+arch flagstone
+x 29
+y 15
+end
+arch dungeon_magic
+x 29
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 16
+end
+arch flagstone
+x 29
+y 16
+end
+arch dungeon_magic
+x 29
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 17
+end
+arch flagstone
+x 29
+y 17
+end
+arch dungeon_magic
+x 29
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 18
+end
+arch flagstone
+x 29
+y 18
+end
+arch dungeon_magic
+x 29
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 19
+end
+arch flagstone
+x 29
+y 19
+end
+arch dungeon_magic
+x 29
+y 20
+end
+arch pedestal
+x 29
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 29
+y 20
+end
+arch mover_3
+x 29
+y 20
+end
+arch dungeon_magic
+x 29
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 29
+y 21
+end
+arch flagstone
+x 29
+y 21
+end
+arch flagstone
+x 29
+y 22
+end
+arch stwall_2_1_2
+x 29
+y 22
+end
+arch blocked
+x 29
+y 23
+end
+arch flagstone
+x 30
+end
+arch stwall_2_2_3
+x 30
+end
+arch flagstone
+x 30
+y 1
+end
+arch stwall_2_1_1
+x 30
+y 1
+end
+arch flagstone
+x 30
+y 2
+end
+arch stwall_2_1_1
+x 30
+y 2
+end
+arch flagstone
+x 30
+y 3
+end
+arch stwall_2_1_1
+x 30
+y 3
+end
+arch flagstone
+x 30
+y 4
+end
+arch stwall_2_1_1
+x 30
+y 4
+end
+arch flagstone
+x 30
+y 5
+end
+arch stwall_3_2
+x 30
+y 5
+end
+arch flagstone
+x 30
+y 6
+end
+arch stwall_2_2_4
+x 30
+y 6
+end
+arch dungeon_magic
+x 30
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 30
+y 7
+end
+arch flagstone
+x 30
+y 7
+end
+arch dungeon_magic
+x 30
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 30
+y 8
+end
+arch flagstone
+x 30
+y 8
+end
+arch dungeon_magic
+x 30
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 30
+y 9
+end
+arch flagstone
+x 30
+y 9
+end
+arch dungeon_magic
+x 30
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 30
+y 10
+end
+arch flagstone
+x 30
+y 10
+end
+arch dungeon_magic
+x 30
+y 11
+end
+arch pedestal
+x 30
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 11
+end
+arch mover_3
+x 30
+y 11
+end
+arch dungeon_magic
+x 30
+y 12
+end
+arch pedestal
+x 30
+y 12
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 12
+end
+arch mover_1
+x 30
+y 12
+end
+arch dungeon_magic
+x 30
+y 13
+end
+arch pedestal
+x 30
+y 13
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 13
+end
+arch mover_1
+x 30
+y 13
+end
+arch dungeon_magic
+x 30
+y 14
+end
+arch pedestal
+x 30
+y 14
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 14
+end
+arch mover_1
+x 30
+y 14
+end
+arch dungeon_magic
+x 30
+y 15
+end
+arch pedestal
+x 30
+y 15
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 15
+end
+arch mover_1
+x 30
+y 15
+end
+arch dungeon_magic
+x 30
+y 16
+end
+arch pedestal
+x 30
+y 16
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 16
+end
+arch mover_1
+x 30
+y 16
+end
+arch dungeon_magic
+x 30
+y 17
+end
+arch pedestal
+x 30
+y 17
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 17
+end
+arch mover_1
+x 30
+y 17
+end
+arch dungeon_magic
+x 30
+y 18
+end
+arch pedestal
+x 30
+y 18
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 18
+end
+arch mover_1
+x 30
+y 18
+end
+arch dungeon_magic
+x 30
+y 19
+end
+arch pedestal
+x 30
+y 19
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 19
+end
+arch mover_1
+x 30
+y 19
+end
+arch dungeon_magic
+x 30
+y 20
+end
+arch pedestal
+x 30
+y 20
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 30
+y 20
+end
+arch mover_1
+x 30
+y 20
+end
+arch dungeon_magic
+x 30
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 30
+y 21
+end
+arch flagstone
+x 30
+y 21
+end
+arch flagstone
+x 30
+y 22
+end
+arch stwall_2_1_2
+x 30
+y 22
+end
+arch blocked
+x 30
+y 23
+end
+arch blocked
+x 31
+end
+arch blocked
+x 31
+y 1
+end
+arch blocked
+x 31
+y 2
+end
+arch blocked
+x 31
+y 3
+end
+arch blocked
+x 31
+y 4
+end
+arch flagstone
+x 31
+y 5
+end
+arch stwall_2_1_2
+x 31
+y 5
+end
+arch dungeon_magic
+x 31
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 6
+end
+arch flagstone
+x 31
+y 6
+end
+arch dungeon_magic
+x 31
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 7
+end
+arch flagstone
+x 31
+y 7
+end
+arch dungeon_magic
+x 31
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 8
+end
+arch flagstone
+x 31
+y 8
+end
+arch dungeon_magic
+x 31
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 9
+end
+arch flagstone
+x 31
+y 9
+end
+arch dungeon_magic
+x 31
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 10
+end
+arch flagstone
+x 31
+y 10
+end
+arch dungeon_magic
+x 31
+y 11
+end
+arch pedestal
+x 31
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 31
+y 11
+end
+arch mover_3
+x 31
+y 11
+end
+arch dungeon_magic
+x 31
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 12
+end
+arch flagstone
+x 31
+y 12
+end
+arch dungeon_magic
+x 31
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 13
+end
+arch flagstone
+x 31
+y 13
+end
+arch dungeon_magic
+x 31
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 14
+end
+arch flagstone
+x 31
+y 14
+end
+arch dungeon_magic
+x 31
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 15
+end
+arch flagstone
+x 31
+y 15
+end
+arch dungeon_magic
+x 31
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 16
+end
+arch flagstone
+x 31
+y 16
+end
+arch dungeon_magic
+x 31
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 17
+end
+arch flagstone
+x 31
+y 17
+end
+arch dungeon_magic
+x 31
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 18
+end
+arch flagstone
+x 31
+y 18
+end
+arch dungeon_magic
+x 31
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 19
+end
+arch flagstone
+x 31
+y 19
+end
+arch dungeon_magic
+x 31
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 20
+end
+arch flagstone
+x 31
+y 20
+end
+arch dungeon_magic
+x 31
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 31
+y 21
+end
+arch flagstone
+x 31
+y 21
+end
+arch flagstone
+x 31
+y 22
+end
+arch stwall_2_1_2
+x 31
+y 22
+end
+arch blocked
+x 31
+y 23
+end
+arch blocked
+x 32
+end
+arch sign
+name PLAYER DEATH TELEPORTER
+x 32
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 32
+y 1
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 32
+y 1
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 32
+y 2
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 32
+y 2
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 32
+y 3
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 32
+y 3
+end
+arch blocked
+x 32
+y 4
+end
+arch flagstone
+x 32
+y 5
+end
+arch stwall_2_1_2
+x 32
+y 5
+end
+arch dungeon_magic
+x 32
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 6
+end
+arch flagstone
+x 32
+y 6
+end
+arch dungeon_magic
+x 32
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 7
+end
+arch flagstone
+x 32
+y 7
+end
+arch dungeon_magic
+x 32
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 8
+end
+arch flagstone
+x 32
+y 8
+end
+arch dungeon_magic
+x 32
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 9
+end
+arch flagstone
+x 32
+y 9
+end
+arch dungeon_magic
+x 32
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 10
+end
+arch flagstone
+x 32
+y 10
+end
+arch dungeon_magic
+x 32
+y 11
+end
+arch pedestal
+x 32
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 32
+y 11
+end
+arch mover_3
+x 32
+y 11
+end
+arch dungeon_magic
+x 32
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 12
+end
+arch flagstone
+x 32
+y 12
+end
+arch dungeon_magic
+x 32
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 13
+end
+arch goldflagstone
+name tower placement
+x 32
+y 13
+end
+arch dungeon_magic
+x 32
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 14
+end
+arch flagstone
+x 32
+y 14
+end
+arch dungeon_magic
+x 32
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 15
+end
+arch flagstone
+x 32
+y 15
+end
+arch dungeon_magic
+x 32
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 16
+end
+arch flagstone
+x 32
+y 16
+end
+arch dungeon_magic
+x 32
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 17
+end
+arch flagstone
+x 32
+y 17
+end
+arch dungeon_magic
+x 32
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 18
+end
+arch flagstone
+x 32
+y 18
+end
+arch dungeon_magic
+x 32
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 19
+end
+arch flagstone
+x 32
+y 19
+end
+arch dungeon_magic
+x 32
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 20
+end
+arch flagstone
+x 32
+y 20
+end
+arch dungeon_magic
+x 32
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 32
+y 21
+end
+arch flagstone
+x 32
+y 21
+end
+arch flagstone
+x 32
+y 22
+end
+arch stwall_2_1_2
+x 32
+y 22
+end
+arch blocked
+x 32
+y 23
+end
+arch blocked
+x 33
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 33
+y 1
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 33
+y 1
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 33
+y 2
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 33
+y 2
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 33
+y 3
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 33
+y 3
+end
+arch blocked
+x 33
+y 4
+end
+arch flagstone
+x 33
+y 5
+end
+arch stwall_2_1_2
+x 33
+y 5
+end
+arch dungeon_magic
+x 33
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 6
+end
+arch flagstone
+x 33
+y 6
+end
+arch dungeon_magic
+x 33
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 7
+end
+arch flagstone
+x 33
+y 7
+end
+arch dungeon_magic
+x 33
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 8
+end
+arch flagstone
+x 33
+y 8
+end
+arch dungeon_magic
+x 33
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 9
+end
+arch flagstone
+x 33
+y 9
+end
+arch dungeon_magic
+x 33
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 10
+end
+arch flagstone
+x 33
+y 10
+end
+arch dungeon_magic
+x 33
+y 11
+end
+arch pedestal
+x 33
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 33
+y 11
+end
+arch mover_3
+x 33
+y 11
+end
+arch dungeon_magic
+x 33
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 12
+end
+arch flagstone
+x 33
+y 12
+end
+arch dungeon_magic
+x 33
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 13
+end
+arch flagstone
+x 33
+y 13
+end
+arch dungeon_magic
+x 33
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 14
+end
+arch flagstone
+x 33
+y 14
+end
+arch dungeon_magic
+x 33
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 15
+end
+arch flagstone
+x 33
+y 15
+end
+arch dungeon_magic
+x 33
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 16
+end
+arch flagstone
+x 33
+y 16
+end
+arch dungeon_magic
+x 33
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 17
+end
+arch flagstone
+x 33
+y 17
+end
+arch dungeon_magic
+x 33
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 18
+end
+arch flagstone
+x 33
+y 18
+end
+arch dungeon_magic
+x 33
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 19
+end
+arch flagstone
+x 33
+y 19
+end
+arch dungeon_magic
+x 33
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 20
+end
+arch flagstone
+x 33
+y 20
+end
+arch dungeon_magic
+x 33
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 33
+y 21
+end
+arch flagstone
+x 33
+y 21
+end
+arch flagstone
+x 33
+y 22
+end
+arch stwall_2_1_2
+x 33
+y 22
+end
+arch blocked
+x 33
+y 23
+end
+arch blocked
+x 34
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 34
+y 1
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 34
+y 1
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 34
+y 2
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 34
+y 2
+end
+arch teleporter
+slaying fz_lobby
+hp 49
+sp 8
+x 34
+y 3
+speed 5.0
+invisible 1
+end
+arch blackmarble
+x 34
+y 3
+end
+arch blocked
+x 34
+y 4
+end
+arch flagstone
+x 34
+y 5
+end
+arch stwall_2_1_2
+x 34
+y 5
+end
+arch dungeon_magic
+x 34
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 6
+end
+arch flagstone
+x 34
+y 6
+end
+arch dungeon_magic
+x 34
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 7
+end
+arch flagstone
+x 34
+y 7
+end
+arch dungeon_magic
+x 34
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 8
+end
+arch flagstone
+x 34
+y 8
+end
+arch dungeon_magic
+x 34
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 9
+end
+arch goldflagstone
+name tower placement
+x 34
+y 9
+end
+arch dungeon_magic
+x 34
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 10
+end
+arch flagstone
+x 34
+y 10
+end
+arch dungeon_magic
+x 34
+y 11
+end
+arch pedestal
+x 34
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 34
+y 11
+end
+arch mover_3
+x 34
+y 11
+end
+arch dungeon_magic
+x 34
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 12
+end
+arch flagstone
+x 34
+y 12
+end
+arch dungeon_magic
+x 34
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 13
+end
+arch flagstone
+x 34
+y 13
+end
+arch dungeon_magic
+x 34
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 14
+end
+arch flagstone
+x 34
+y 14
+end
+arch stair_down
+slaying fz_tower_defense
+hp 27
+sp 14
+x 34
+y 14
+end
+arch dungeon_magic
+x 34
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 15
+end
+arch flagstone
+x 34
+y 15
+end
+arch dungeon_magic
+x 34
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 16
+end
+arch flagstone
+x 34
+y 16
+end
+arch dungeon_magic
+x 34
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 17
+end
+arch flagstone
+x 34
+y 17
+end
+arch dungeon_magic
+x 34
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 18
+end
+arch flagstone
+x 34
+y 18
+end
+arch dungeon_magic
+x 34
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 19
+end
+arch flagstone
+x 34
+y 19
+end
+arch book_clasp
+name book on Rules
+msg
+You lose the game if a monster reaches the end of the path. You win if you successfully kill all the monsters before they reach the end of the path.
+endmsg
+x 34
+y 19
+end
+arch dungeon_magic
+x 34
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 20
+end
+arch flagstone
+x 34
+y 20
+end
+arch dungeon_magic
+x 34
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 34
+y 21
+end
+arch flagstone
+x 34
+y 21
+end
+arch flagstone
+x 34
+y 22
+end
+arch stwall_2_1_2
+x 34
+y 22
+end
+arch blocked
+x 34
+y 23
+end
+arch blocked
+x 35
+end
+arch blocked
+x 35
+y 1
+end
+arch blocked
+x 35
+y 2
+end
+arch blocked
+x 35
+y 3
+end
+arch blocked
+x 35
+y 4
+end
+arch flagstone
+x 35
+y 5
+end
+arch stwall_2_1_2
+x 35
+y 5
+end
+arch dungeon_magic
+x 35
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 6
+end
+arch flagstone
+x 35
+y 6
+end
+arch dungeon_magic
+x 35
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 7
+end
+arch flagstone
+x 35
+y 7
+end
+arch dungeon_magic
+x 35
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 8
+end
+arch flagstone
+x 35
+y 8
+end
+arch dungeon_magic
+x 35
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 9
+end
+arch flagstone
+x 35
+y 9
+end
+arch dungeon_magic
+x 35
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 10
+end
+arch flagstone
+x 35
+y 10
+end
+arch dungeon_magic
+x 35
+y 11
+end
+arch pedestal
+x 35
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 35
+y 11
+end
+arch mover_3
+x 35
+y 11
+end
+arch dungeon_magic
+x 35
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 12
+end
+arch flagstone
+x 35
+y 12
+end
+arch dungeon_magic
+x 35
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 13
+end
+arch flagstone
+x 35
+y 13
+end
+arch dungeon_magic
+x 35
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 14
+end
+arch flagstone
+x 35
+y 14
+end
+arch dungeon_magic
+x 35
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 15
+end
+arch flagstone
+x 35
+y 15
+end
+arch dungeon_magic
+x 35
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 16
+end
+arch flagstone
+x 35
+y 16
+end
+arch dungeon_magic
+x 35
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 17
+end
+arch flagstone
+x 35
+y 17
+end
+arch trigger
+name Start wave 1
+x 35
+y 17
+connected 100
+end
+arch dungeon_magic
+x 35
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 18
+end
+arch flagstone
+x 35
+y 18
+end
+arch sign
+name Welcome to Tower Defense!
+msg
+Welcome to Tower Defense!
+When the game is started, monsters will follow the path. Your goal is to build towers in order to kill all the monsters before they reach the end of the path. To get started, read the books in front of you. Can you survive all the waves?
+endmsg
+x 35
+y 18
+end
+arch dungeon_magic
+x 35
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 19
+end
+arch flagstone
+x 35
+y 19
+end
+arch book_clasp
+name book on Tower Information
+msg
+You can choose between three types of towers: the large bullet tower, the lightning tower, and the fire tower.
+---
+To place a tower, purchase a tower card from the altar. Then, apply the card while standing on any of the tower placement tiles on the map. Note that you can only place one tower on a tile, and you can only place towers on the tower placement tiles.
+endmsg
+x 35
+y 19
+end
+arch dungeon_magic
+x 35
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 20
+end
+arch flagstone
+x 35
+y 20
+end
+arch dungeon_magic
+x 35
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 35
+y 21
+end
+arch flagstone
+x 35
+y 21
+end
+arch flagstone
+x 35
+y 22
+end
+arch stwall_door_1_4
+x 35
+y 22
+end
+arch invis_exit
+slaying /darcap/darcap/circus/fz_lobby
+hp 43
+sp 4
+x 35
+y 22
+end
+arch blocked
+x 35
+y 23
+end
+arch blocked
+x 36
+y 4
+end
+arch flagstone
+x 36
+y 5
+end
+arch stwall_2_1_2
+x 36
+y 5
+end
+arch dungeon_magic
+x 36
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 6
+end
+arch flagstone
+x 36
+y 6
+end
+arch dungeon_magic
+x 36
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 7
+end
+arch flagstone
+x 36
+y 7
+end
+arch dungeon_magic
+x 36
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 8
+end
+arch flagstone
+x 36
+y 8
+end
+arch dungeon_magic
+x 36
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 9
+end
+arch flagstone
+x 36
+y 9
+end
+arch dungeon_magic
+x 36
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 10
+end
+arch flagstone
+x 36
+y 10
+end
+arch dungeon_magic
+x 36
+y 11
+end
+arch pedestal
+x 36
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 36
+y 11
+end
+arch mover_3
+x 36
+y 11
+end
+arch dungeon_magic
+x 36
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 12
+end
+arch flagstone
+x 36
+y 12
+end
+arch dungeon_magic
+x 36
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 13
+end
+arch goldflagstone
+name tower placement
+x 36
+y 13
+end
+arch dungeon_magic
+x 36
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 14
+end
+arch flagstone
+x 36
+y 14
+end
+arch dungeon_magic
+x 36
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 15
+end
+arch flagstone
+x 36
+y 15
+end
+arch dungeon_magic
+x 36
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 16
+end
+arch flagstone
+x 36
+y 16
+end
+arch dungeon_magic
+x 36
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 17
+end
+arch flagstone
+x 36
+y 17
+end
+arch dungeon_magic
+x 36
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 18
+end
+arch flagstone
+x 36
+y 18
+end
+arch dungeon_magic
+x 36
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 19
+end
+arch flagstone
+x 36
+y 19
+end
+arch book_clasp
+name book on Tool Information
+msg
+To rotate a tower, use the rotate tower tool. Face the tower you want to rotate and then apply the tool. Continue applying until you feel satisfied with the tower orientation.
+---
+To destroy a tower, use the destroy tower tool. Face the tower you want to rotate and then apply the tool. The tower is now destroyed, and you can build another tower on the same spot.
+endmsg
+x 36
+y 19
+end
+arch dungeon_magic
+x 36
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 20
+end
+arch flagstone
+x 36
+y 20
+end
+arch dungeon_magic
+x 36
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 36
+y 21
+end
+arch flagstone
+x 36
+y 21
+end
+arch flagstone
+x 36
+y 22
+end
+arch stwall_2_1_2
+x 36
+y 22
+end
+arch blocked
+x 36
+y 23
+end
+arch blocked
+x 37
+y 4
+end
+arch flagstone
+x 37
+y 5
+end
+arch stwall_2_1_2
+x 37
+y 5
+end
+arch dungeon_magic
+x 37
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 6
+end
+arch flagstone
+x 37
+y 6
+end
+arch dungeon_magic
+x 37
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 7
+end
+arch flagstone
+x 37
+y 7
+end
+arch dungeon_magic
+x 37
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 8
+end
+arch flagstone
+x 37
+y 8
+end
+arch dungeon_magic
+x 37
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 9
+end
+arch flagstone
+x 37
+y 9
+end
+arch dungeon_magic
+x 37
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 10
+end
+arch flagstone
+x 37
+y 10
+end
+arch dungeon_magic
+x 37
+y 11
+end
+arch pedestal
+x 37
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 37
+y 11
+end
+arch mover_3
+x 37
+y 11
+end
+arch dungeon_magic
+x 37
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 12
+end
+arch flagstone
+x 37
+y 12
+end
+arch dungeon_magic
+x 37
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 13
+end
+arch flagstone
+x 37
+y 13
+end
+arch dungeon_magic
+x 37
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 14
+end
+arch flagstone
+x 37
+y 14
+end
+arch dungeon_magic
+x 37
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 15
+end
+arch flagstone
+x 37
+y 15
+end
+arch dungeon_magic
+x 37
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 16
+end
+arch flagstone
+x 37
+y 16
+end
+arch dungeon_magic
+x 37
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 17
+end
+arch flagstone
+x 37
+y 17
+end
+arch dungeon_magic
+x 37
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 18
+end
+arch flagstone
+x 37
+y 18
+end
+arch dungeon_magic
+x 37
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 19
+end
+arch flagstone
+x 37
+y 19
+end
+arch dungeon_magic
+x 37
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 20
+end
+arch flagstone
+x 37
+y 20
+end
+arch dungeon_magic
+x 37
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 37
+y 21
+end
+arch flagstone
+x 37
+y 21
+end
+arch flagstone
+x 37
+y 22
+end
+arch stwall_2_1_2
+x 37
+y 22
+end
+arch blocked
+x 37
+y 23
+end
+arch blocked
+x 38
+y 4
+end
+arch flagstone
+x 38
+y 5
+end
+arch stwall_2_1_2
+x 38
+y 5
+end
+arch dungeon_magic
+x 38
+y 6
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 6
+end
+arch flagstone
+x 38
+y 6
+end
+arch dungeon_magic
+x 38
+y 7
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 7
+end
+arch flagstone
+x 38
+y 7
+end
+arch dungeon_magic
+x 38
+y 8
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 8
+end
+arch flagstone
+x 38
+y 8
+end
+arch dungeon_magic
+x 38
+y 9
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 9
+end
+arch flagstone
+x 38
+y 9
+end
+arch dungeon_magic
+x 38
+y 10
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 10
+end
+arch flagstone
+x 38
+y 10
+end
+arch dungeon_magic
+x 38
+y 11
+end
+arch pedestal
+x 38
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 38
+y 11
+end
+arch mover_3
+x 38
+y 11
+end
+arch dungeon_magic
+x 38
+y 12
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 12
+end
+arch flagstone
+x 38
+y 12
+end
+arch dungeon_magic
+x 38
+y 13
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 13
+end
+arch flagstone
+x 38
+y 13
+end
+arch dungeon_magic
+x 38
+y 14
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 14
+end
+arch flagstone
+x 38
+y 14
+end
+arch dungeon_magic
+x 38
+y 15
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 15
+end
+arch flagstone
+x 38
+y 15
+end
+arch dungeon_magic
+x 38
+y 16
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 16
+end
+arch flagstone
+x 38
+y 16
+end
+arch dungeon_magic
+x 38
+y 17
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 17
+end
+arch flagstone
+x 38
+y 17
+end
+arch dungeon_magic
+x 38
+y 18
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 18
+end
+arch flagstone
+x 38
+y 18
+end
+arch dungeon_magic
+x 38
+y 19
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 19
+end
+arch flagstone
+x 38
+y 19
+end
+arch dungeon_magic
+x 38
+y 20
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 20
+end
+arch flagstone
+x 38
+y 20
+end
+arch dungeon_magic
+x 38
+y 21
+end
+arch battleground
+hp 33
+sp 2
+x 38
+y 21
+end
+arch flagstone
+x 38
+y 21
+end
+arch flagstone
+x 38
+y 22
+end
+arch stwall_2_1_2
+x 38
+y 22
+end
+arch blocked
+x 38
+y 23
+end
+arch blocked
+x 39
+y 4
+end
+arch flagstone
+x 39
+y 5
+end
+arch stwall_2_2_3
+x 39
+y 5
+end
+arch flagstone
+x 39
+y 6
+end
+arch stwall_2_1_1
+x 39
+y 6
+end
+arch flagstone
+x 39
+y 7
+end
+arch stwall_2_1_1
+x 39
+y 7
+end
+arch flagstone
+x 39
+y 8
+end
+arch stwall_2_1_1
+x 39
+y 8
+end
+arch flagstone
+x 39
+y 9
+end
+arch stwall_2_1_1
+x 39
+y 9
+end
+arch flagstone
+x 39
+y 10
+end
+arch stwall_1_2
+x 39
+y 10
+end
+arch button_small
+name YOU LOST
+x 39
+y 11
+connected 1001
+end
+arch pedestal
+x 39
+y 11
+arch event_trigger
+title Python
+slaying python/maps/darcap/tower_defense/block-player.py
+end
+end
+arch battleground
+x 39
+y 11
+end
+arch mover_3
+x 39
+y 11
+end
+arch fog_wall
+x 39
+y 11
+end
+arch flagstone
+x 39
+y 12
+end
+arch stwall_1_1
+x 39
+y 12
+end
+arch flagstone
+x 39
+y 13
+end
+arch stwall_2_1_1
+x 39
+y 13
+end
+arch flagstone
+x 39
+y 14
+end
+arch stwall_2_1_1
+x 39
+y 14
+end
+arch flagstone
+x 39
+y 15
+end
+arch stwall_2_1_1
+x 39
+y 15
+end
+arch flagstone
+x 39
+y 16
+end
+arch stwall_2_1_1
+x 39
+y 16
+end
+arch flagstone
+x 39
+y 17
+end
+arch stwall_2_1_1
+x 39
+y 17
+end
+arch flagstone
+x 39
+y 18
+end
+arch stwall_2_1_1
+x 39
+y 18
+end
+arch flagstone
+x 39
+y 19
+end
+arch stwall_2_1_1
+x 39
+y 19
+end
+arch flagstone
+x 39
+y 20
+end
+arch stwall_2_1_1
+x 39
+y 20
+end
+arch flagstone
+x 39
+y 21
+end
+arch stwall_2_1_1
+x 39
+y 21
+end
+arch flagstone
+x 39
+y 22
+end
+arch stwall_2_2_4
+x 39
+y 22
+end
+arch blocked
+x 39
+y 23
+end
+arch blocked
+x 40
+y 4
+end
+arch blocked
+x 40
+y 5
+end
+arch blocked
+x 40
+y 6
+end
+arch blocked
+x 40
+y 7
+end
+arch blocked
+x 40
+y 8
+end
+arch blocked
+x 40
+y 9
+end
+arch blocked
+x 40
+y 10
+end
+arch button_small
+name YOU LOST
+x 40
+y 11
+connected 1001
+end
+arch battleground
+x 40
+y 11
+end
+arch mover_3
+x 40
+y 11
+end
+arch blocked
+x 40
+y 12
+end
+arch blocked
+x 40
+y 13
+end
+arch blocked
+x 40
+y 14
+end
+arch blocked
+x 40
+y 15
+end
+arch blocked
+x 40
+y 16
+end
+arch blocked
+x 40
+y 17
+end
+arch blocked
+x 40
+y 18
+end
+arch blocked
+x 40
+y 19
+end
+arch blocked
+x 40
+y 20
+end
+arch blocked
+x 40
+y 21
+end
+arch blocked
+x 40
+y 22
+end
+arch blocked
+x 40
+y 23
+end
+arch blocked
+x 41
+y 4
+end
+arch battleground
+x 41
+y 5
+end
+arch pit_open
+hp 5
+sp 3
+x 41
+y 5
+end
+arch button_small
+name YOU LOST
+x 41
+y 6
+connected 1001
+end
+arch battleground
+x 41
+y 6
+end
+arch mover_1
+x 41
+y 6
+end
+arch button_small
+name YOU LOST
+x 41
+y 7
+connected 1001
+end
+arch battleground
+x 41
+y 7
+end
+arch mover_1
+x 41
+y 7
+end
+arch button_small
+name YOU LOST
+x 41
+y 8
+connected 1001
+end
+arch battleground
+x 41
+y 8
+end
+arch mover_1
+x 41
+y 8
+end
+arch button_small
+name YOU LOST
+x 41
+y 9
+connected 1001
+end
+arch battleground
+x 41
+y 9
+end
+arch mover_1
+x 41
+y 9
+end
+arch button_small
+name YOU LOST
+x 41
+y 10
+connected 1001
+end
+arch battleground
+x 41
+y 10
+end
+arch mover_1
+x 41
+y 10
+end
+arch button_small
+name YOU LOST
+x 41
+y 11
+connected 1001
+end
+arch battleground
+x 41
+y 11
+end
+arch mover_1
+x 41
+y 11
+end
+arch blocked
+x 41
+y 12
+end
+arch blocked
+x 42
+y 4
+end
+arch blocked
+x 42
+y 5
+end
+arch blocked
+x 42
+y 6
+end
+arch blocked
+x 42
+y 7
+end
+arch blocked
+x 42
+y 8
+end
+arch blocked
+x 42
+y 9
+end
+arch blocked
+x 42
+y 10
+end
+arch blocked
+x 42
+y 11
+end
+arch blocked
+x 42
+y 12
+end

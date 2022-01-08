@@ -8,7 +8,7 @@ enter_x 31
 enter_y 16
 msg
 Created:  2008-07-31 Raphaël Quinet
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2022-01-09 jason
 endmsg
 outdoor 1
 end
@@ -5699,12 +5699,10 @@ x 43
 y 4
 end
 arch perm_magic_portal
-name Game Pending
-slaying fz_lobby
-x 43
-y 4
-end
-arch dust_effect
+name Tower Defense
+slaying fz_tower_defense
+hp 35
+sp 21
 x 43
 y 4
 end
