@@ -9,7 +9,7 @@ enter_x 18
 enter_y 20
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2021-07-21 Saiapatsu
+Modified: 2022-01-09 Kevin Zheng
 endmsg
 end
 arch cobblestones2
@@ -776,6 +776,9 @@ arch button_handle
 x 5
 y 12
 connected 1
+arch quest_advance_apply
+name quests/JadeChest 10>20
+end
 end
 arch woodfloor
 x 5
@@ -1051,6 +1054,9 @@ msg
 This key was taken from a Navarian who was suspected to "hold information pertaining to the Jade Chest" by a spy of Azumaindo.
 endmsg
 face key_blue.111
+arch quest_advance_pickup
+name quests/JadeChest 20>30
+end
 end
 end
 arch dungeon_floor
@@ -2869,10 +2875,13 @@ speed 0.500000
 connected 200
 end
 arch check_inv
-slaying azaspyenterancenavar1
 x 18
 y 16
-connected 200
+arch event_trigger
+name quests/JadeChest 10 200 1
+title Python
+slaying /python/quests/QuestTriggerConnect.py
+end
 end
 arch woodfloor
 x 18
@@ -2902,10 +2911,13 @@ speed 0.500000
 connected 2
 end
 arch check_inv
-slaying azumauindolvl0pass
 x 18
 y 19
-connected 2
+arch event_trigger
+name quests/Azumauindo 100 2 1
+title Python
+slaying /python/quests/QuestTriggerConnect.py
+end
 end
 arch woodfloor
 x 18
@@ -3055,10 +3067,13 @@ speed 0.500000
 connected 200
 end
 arch check_inv
-slaying azaspyenterancenavar1
 x 19
 y 16
-connected 200
+arch event_trigger
+name quests/JadeChest 10 200 1
+title Python
+slaying /python/quests/QuestTriggerConnect.py
+end
 end
 arch woodfloor
 x 19
@@ -3088,10 +3103,13 @@ speed 0.500000
 connected 2
 end
 arch check_inv
-slaying azumauindolvl0pass
 x 19
 y 19
-connected 2
+arch event_trigger
+name quests/Azumauindo 100 2 1
+title Python
+slaying /python/quests/QuestTriggerConnect.py
+end
 end
 arch woodfloor
 x 19

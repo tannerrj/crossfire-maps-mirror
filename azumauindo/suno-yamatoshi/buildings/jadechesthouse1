@@ -9,7 +9,7 @@ enter_x 11
 enter_y 17
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-01-24 Rick Tanner
+Modified: 2022-01-09 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -2670,6 +2670,9 @@ materialname jade
 value 50000
 arch spell_icestorm
 level 30
+end
+arch quest_advance_pickup
+name quests/JadeChest 60>100
 end
 end
 end

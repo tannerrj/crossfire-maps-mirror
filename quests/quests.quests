@@ -146,3 +146,44 @@ I returned the Kabuto of Geisya to Azumauindo. The Shogun has granted me an audi
 end_description
 end_step
 end_quest
+quest quests/JadeChest
+title The Jade Chest
+description
+Find your way to the long-isolated island of Azumauindo.
+end_description
+step 10
+description
+The Eastern Wind asked me to get information about the Jade Chest from an informant in Navar.
+end_description
+end_step
+step 20
+description
+I need to "interrogate" the Navarians held in the Eastern Wind's spy house.
+end_description
+end_step
+step 30
+description
+I found a key to some keep in the antarctic.
+end_description
+end_step
+step 40
+description
+I found the Glacier Keep.
+end_description
+end_step
+step 50
+description
+I obtained the Jade Key.
+end_description
+end_step
+step 60
+description
+I opened the door to the room with the Jade Chest, but it is gone!
+end_description
+end_step
+step 100
+description
+I found the Jade Chest.
+end_description
+end_step
+end_quest

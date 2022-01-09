@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-25
-Modified: 2008-10-30 Rick Tanner
+Modified: 2022-01-09 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_128_128
@@ -9545,6 +9545,9 @@ hp 31
 sp 62
 x 35
 y 18
+arch quest_advance_apply
+name quests/JadeChest 30>40
+end
 end
 arch s_mountain
 x 35

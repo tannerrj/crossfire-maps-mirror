@@ -10,7 +10,7 @@ enter_x 57
 enter_y 40
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2021-07-27 Saiapatsu
+Modified: 2022-01-09 Kevin Zheng
 endmsg
 end
 arch cave_15
@@ -15281,6 +15281,9 @@ x 56
 y 12
 materialname jade
 value 2000
+arch quest_advance_pickup
+name quests/JadeChest 40>50
+end
 end
 arch snow
 x 56
