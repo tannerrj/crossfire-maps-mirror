@@ -2,6 +2,11 @@
   "location": "azumauindo/misc/crashlanding1",
   "rules": [
   {
+  "match" : ["*"],
+  "pre" : [["quest", "quests/Azumauindo", "100"]],
+  "post" : [],
+  "msg" : ["Welcome back, $you. Thank you for returning the Kabuto."]
+  }, {
   "match" : ["yes"],
   "pre" : [["quest", "quests/Azumauindo", "60"], ["item", "Kabuto of Geisya"]],
   "post" : [["takeitem", "Kabuto of Geisya"], ["quest", "quests/Azumauindo", "100"]],
