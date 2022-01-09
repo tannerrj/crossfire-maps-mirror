@@ -21,11 +21,11 @@
 # This script is intended to be bound to event objects in order to conditionally trigger
 # connections based on the status of a quest, used correctly it can reduce the need for
 # markers to use checkinvs on.
-# it must always be given the following arguments:
-# name of the quest
-# stage(s) to trigger on
-# connection to trigger
-# the quest must exist, and the connection must be present on the map.
+# Usage: /python/quests/QuestTriggerConnect.py QUEST STATE CONNECTION [EDGE]
+#  QUEST - quest identifier string
+#  STATE - stages to trigger on
+#  CONNECTION - connection number
+#  EDGE - optional trigger edge, 0 (push) by default
 
 import Crossfire
 
@@ -41,10 +41,13 @@ def trigger():
     player = Crossfire.WhoIsActivator()
     params = Crossfire.ScriptParameters()
     args = params.split()
+    edge = 0 # transition type, 0 for push, 1 for release
+    if len(args) < 3:
+        raise IndexError("QuestTriggerConnect used with incorrect number of arguments")
+    if len(args) >= 4:
+        edge = int(args[3])
     conn = int(args[2])
     if type(player) != Crossfire.Player:
-        # stepping off, trigger released state
-        trigger_connected(conn, 1, player)
         return
     questname = args[0]
     currentstep = player.QuestGetState(questname)
@@ -56,6 +59,6 @@ def trigger():
         startstep = int(condition.split("-")[0])
         endstep= int(condition.split("-")[1])
     if currentstep >= startstep and currentstep <= endstep:
-        trigger_connected(conn, 0, player)
+        trigger_connected(conn, edge, player)
 
 trigger()
