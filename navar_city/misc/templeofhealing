@@ -10,8 +10,9 @@ enter_x 11
 enter_y 34
 msg
 Created:  2012-03-30
-Modified: 2019-07-23 Rick Tanner
+Modified: 2022-01-15 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch grass
 end
@@ -1897,6 +1898,10 @@ arch woodfloor2
 x 7
 y 25
 end
+arch light4
+x 7
+y 25
+end
 arch woodfloor2
 x 7
 y 26
@@ -1913,6 +1918,10 @@ arch woodfloor2
 x 7
 y 29
 end
+arch light4
+x 7
+y 29
+end
 arch woodfloor2
 x 7
 y 30
@@ -1926,6 +1935,10 @@ x 7
 y 32
 end
 arch woodfloor2
+x 7
+y 33
+end
+arch light4
 x 7
 y 33
 end
@@ -2338,6 +2351,10 @@ y 9
 unpaid 1
 identified 1
 end
+arch light4
+x 9
+y 9
+end
 arch shop_empty
 x 9
 y 10
@@ -2400,6 +2417,10 @@ y 14
 unpaid 1
 identified 1
 end
+arch light4
+x 9
+y 14
+end
 arch shop_empty
 x 9
 y 15
@@ -2443,6 +2464,10 @@ y 18
 unpaid 1
 identified 1
 artifact first aid
+end
+arch light4
+x 9
+y 18
 end
 arch shop_empty
 x 9
@@ -3231,6 +3256,10 @@ x 11
 y 29
 friendly 1
 end
+arch light4
+x 11
+y 29
+end
 arch dungeon_magic
 x 11
 y 30
@@ -3261,6 +3290,10 @@ x 11
 y 32
 end
 arch woodfloor2
+x 11
+y 33
+end
+arch light4
 x 11
 y 33
 end
@@ -3746,6 +3779,10 @@ y 9
 unpaid 1
 identified 1
 end
+arch light4
+x 13
+y 9
+end
 arch shop_empty
 x 13
 y 10
@@ -3808,6 +3845,10 @@ y 14
 unpaid 1
 identified 1
 end
+arch light4
+x 13
+y 14
+end
 arch shop_empty
 x 13
 y 15
@@ -3851,6 +3892,10 @@ y 18
 unpaid 1
 identified 1
 artifact first aid
+end
+arch light4
+x 13
+y 18
 end
 arch shop_empty
 x 13
@@ -4528,6 +4573,10 @@ arch woodfloor2
 x 15
 y 25
 end
+arch light4
+x 15
+y 25
+end
 arch woodfloor2
 x 15
 y 26
@@ -4544,6 +4593,10 @@ arch woodfloor2
 x 15
 y 29
 end
+arch light4
+x 15
+y 29
+end
 arch woodfloor2
 x 15
 y 30
@@ -4557,6 +4610,10 @@ x 15
 y 32
 end
 arch woodfloor2
+x 15
+y 33
+end
+arch light4
 x 15
 y 33
 end

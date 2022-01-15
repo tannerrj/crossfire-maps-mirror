@@ -9,8 +9,9 @@ enter_x 25
 enter_y 1
 msg
 Created:  2002-02-18 Mikeeusa
-Modified: 2021-07-27 Saiapatsu
+Modified: 2022-01-15 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch invis_exit
 slaying /world/world_121_117
@@ -3358,6 +3359,10 @@ arch marble
 x 6
 y 33
 end
+arch light4
+x 6
+y 33
+end
 arch marble
 x 6
 y 34
@@ -3720,6 +3725,10 @@ arch table_3
 x 7
 y 18
 end
+arch light4
+x 7
+y 18
+end
 arch woodfloor2
 name woodfloor
 x 7
@@ -3752,6 +3761,10 @@ arch table_3
 x 7
 y 22
 end
+arch light4
+x 7
+y 22
+end
 arch woodfloor2
 name woodfloor
 x 7
@@ -3781,6 +3794,10 @@ x 7
 y 26
 end
 arch table_3
+x 7
+y 26
+end
+arch light4
 x 7
 y 26
 end
@@ -5959,6 +5976,10 @@ arch marble
 x 11
 y 33
 end
+arch light4
+x 11
+y 33
+end
 arch marble
 x 11
 y 34
@@ -6361,6 +6382,10 @@ arch table_3
 x 12
 y 18
 end
+arch light4
+x 12
+y 18
+end
 arch woodfloor2
 name woodfloor
 x 12
@@ -6393,6 +6418,10 @@ arch table_3
 x 12
 y 22
 end
+arch light4
+x 12
+y 22
+end
 arch woodfloor2
 name woodfloor
 x 12
@@ -6422,6 +6451,10 @@ x 12
 y 26
 end
 arch table_3
+x 12
+y 26
+end
+arch light4
 x 12
 y 26
 end
@@ -8400,6 +8433,10 @@ arch water
 x 16
 y 11
 end
+arch light4
+x 16
+y 11
+end
 arch afloor_left
 name floor
 x 16
@@ -8433,6 +8470,10 @@ x 16
 y 15
 end
 arch water
+x 16
+y 15
+end
+arch light4
 x 16
 y 15
 end
@@ -9054,6 +9095,10 @@ name floor
 x 17
 y 25
 end
+arch light4
+x 17
+y 25
+end
 arch afloor_right
 name floor
 x 17
@@ -9433,6 +9478,10 @@ y 3
 end
 arch afloor_left
 name floor
+x 18
+y 4
+end
+arch light4
 x 18
 y 4
 end
@@ -11745,6 +11794,10 @@ name floor
 x 22
 y 9
 end
+arch light4
+x 22
+y 9
+end
 arch afloor_left
 name floor
 x 22
@@ -11776,6 +11829,10 @@ y 12
 end
 arch afloor_left
 name floor
+x 22
+y 13
+end
+arch light4
 x 22
 y 13
 end
@@ -11856,6 +11913,10 @@ name floor
 x 22
 y 25
 end
+arch light4
+x 22
+y 25
+end
 arch afloor_right
 name floor
 x 22
@@ -11893,6 +11954,10 @@ y 29
 end
 arch afloor_right
 name floor
+x 22
+y 30
+end
+arch light4
 x 22
 y 30
 end
@@ -14523,6 +14588,10 @@ x 27
 y 25
 unaggressive 1
 end
+arch light4
+x 27
+y 25
+end
 arch afloor_right
 name floor
 x 27
@@ -14554,6 +14623,10 @@ y 29
 end
 arch afloor_right
 name floor
+x 27
+y 30
+end
+arch light4
 x 27
 y 30
 end
@@ -17255,6 +17328,10 @@ name floor
 x 32
 y 25
 end
+arch light4
+x 32
+y 25
+end
 arch afloor_right
 name floor
 x 32
@@ -17297,6 +17374,10 @@ type 0
 move_type walk
 monster 1
 unaggressive 1
+end
+arch light4
+x 32
+y 30
 end
 arch afloor_right
 name floor
@@ -17713,6 +17794,10 @@ name floor
 x 33
 y 21
 end
+arch light4
+x 33
+y 21
+end
 arch afloor_right
 name floor
 x 33
@@ -18070,6 +18155,10 @@ y 3
 end
 arch woodfloor2
 name woodfloor
+x 34
+y 4
+end
+arch light4
 x 34
 y 4
 end
@@ -20088,6 +20177,10 @@ name floor
 x 38
 y 17
 end
+arch light4
+x 38
+y 17
+end
 arch afloor_right
 name floor
 x 38
@@ -20110,6 +20203,10 @@ y 21
 end
 arch afloor_right
 name floor
+x 38
+y 22
+end
+arch light4
 x 38
 y 22
 end
@@ -20470,6 +20567,10 @@ y 4
 end
 arch woodfloor2
 name woodfloor
+x 39
+y 5
+end
+arch light4
 x 39
 y 5
 end
@@ -22048,6 +22149,10 @@ arch woodfloor
 x 42
 y 16
 end
+arch light4
+x 42
+y 16
+end
 arch afloor_right
 name floor
 x 42
@@ -22109,6 +22214,10 @@ y 23
 end
 arch afloor_right
 name floor
+x 42
+y 24
+end
+arch firepot
 x 42
 y 24
 end
@@ -22405,6 +22514,10 @@ y 3
 end
 arch woodfloor2
 name woodfloor
+x 43
+y 4
+end
+arch light4
 x 43
 y 4
 end
@@ -23684,6 +23797,10 @@ arch flagstone
 x 45
 y 24
 end
+arch firepot
+x 45
+y 24
+end
 arch flagstone
 x 45
 y 25
@@ -24124,6 +24241,10 @@ arch woodfloor
 x 46
 y 16
 end
+arch light4
+x 46
+y 16
+end
 arch afloor_right
 name floor
 x 46
@@ -24523,6 +24644,10 @@ name woodfloor
 x 47
 y 5
 end
+arch light4
+x 47
+y 5
+end
 arch woodfloor2
 name woodfloor
 x 47
@@ -24734,6 +24859,10 @@ y 33
 move_block all
 end
 arch dungeon_floor
+x 47
+y 34
+end
+arch light4
 x 47
 y 34
 end
@@ -26533,6 +26662,10 @@ name woodfloor
 x 51
 y 4
 end
+arch light4
+x 51
+y 4
+end
 arch woodfloor2
 name woodfloor
 x 51
@@ -26613,6 +26746,10 @@ y 18
 end
 arch afloor_right
 name floor
+x 51
+y 19
+end
+arch light4
 x 51
 y 19
 end
@@ -26704,6 +26841,10 @@ x 51
 y 33
 end
 arch dungeon_floor
+x 51
+y 34
+end
+arch light4
 x 51
 y 34
 end
@@ -28992,6 +29133,10 @@ x 55
 y 25
 end
 arch fountain
+x 55
+y 25
+end
+arch light4
 x 55
 y 25
 end

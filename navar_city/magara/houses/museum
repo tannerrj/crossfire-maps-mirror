@@ -8,8 +8,9 @@ enter_x 5
 enter_y 37
 msg
 Created:  1994-10-11
-Modified: 2022-01-02 jason
+Modified: 2022-01-15 Kevin Zheng
 endmsg
+outdoor 1
 end
 arch cobblestones2
 end
@@ -657,6 +658,10 @@ arch woodlarge
 x 3
 y 3
 end
+arch brazier
+x 3
+y 3
+end
 arch woodfloor
 x 3
 y 4
@@ -694,6 +699,10 @@ x 3
 y 9
 end
 arch woodfloor
+x 3
+y 10
+end
+arch brazier
 x 3
 y 10
 end
@@ -737,6 +746,10 @@ arch bolt
 x 3
 y 15
 end
+arch light4
+x 3
+y 15
+end
 arch woodfloor
 x 3
 y 16
@@ -766,6 +779,10 @@ x 3
 y 19
 end
 arch handcrossbow
+x 3
+y 19
+end
+arch light4
 x 3
 y 19
 end
@@ -801,6 +818,10 @@ arch huntersbow
 x 3
 y 23
 end
+arch light4
+x 3
+y 23
+end
 arch woodfloor
 x 3
 y 24
@@ -830,6 +851,10 @@ x 3
 y 27
 end
 arch reflexbow_bone
+x 3
+y 27
+end
+arch light4
 x 3
 y 27
 end
@@ -881,6 +906,10 @@ arch woodfloor
 x 3
 y 34
 end
+arch brazier
+x 3
+y 34
+end
 arch woodlarge
 x 3
 y 35
@@ -894,6 +923,10 @@ x 3
 y 37
 end
 arch woodfloor
+x 3
+y 38
+end
+arch brazier
 x 3
 y 38
 end
@@ -2163,6 +2196,10 @@ arch woodlarge
 x 8
 y 34
 end
+arch brazier
+x 8
+y 34
+end
 arch woodfloor
 x 8
 y 35
@@ -2176,6 +2213,10 @@ x 8
 y 37
 end
 arch woodlarge
+x 8
+y 38
+end
+arch brazier
 x 8
 y 38
 end
@@ -2211,6 +2252,10 @@ x 9
 y 2
 end
 arch woodlarge
+x 9
+y 3
+end
+arch brazier
 x 9
 y 3
 end
@@ -2690,6 +2735,10 @@ arch axe_2
 x 10
 y 24
 end
+arch light4
+x 10
+y 24
+end
 arch woodfloor
 x 10
 y 25
@@ -2711,6 +2760,10 @@ x 10
 y 27
 end
 arch b_axe1
+x 10
+y 27
+end
+arch light4
 x 10
 y 27
 end
@@ -2880,6 +2933,10 @@ arch crown
 x 11
 y 10
 end
+arch light4
+x 11
+y 10
+end
 arch woodlarge
 x 11
 y 11
@@ -2923,6 +2980,10 @@ arch rapier
 x 11
 y 15
 end
+arch light4
+x 11
+y 15
+end
 arch woodfloor
 x 11
 y 16
@@ -2936,6 +2997,10 @@ x 11
 y 17
 end
 arch b_bsword_2
+x 11
+y 17
+end
+arch light4
 x 11
 y 17
 end
@@ -3301,6 +3366,10 @@ arch axe_5
 x 12
 y 24
 end
+arch light4
+x 12
+y 24
+end
 arch woodfloor
 x 12
 y 25
@@ -3322,6 +3391,10 @@ x 12
 y 27
 end
 arch battle_axe
+x 12
+y 27
+end
+arch light4
 x 12
 y 27
 end
@@ -3373,6 +3446,10 @@ arch black_dragon_mail
 msg
 Black Dragon Mail
 endmsg
+x 12
+y 34
+end
+arch light4
 x 12
 y 34
 end
@@ -4168,6 +4245,10 @@ arch crown_white
 x 15
 y 10
 end
+arch light4
+x 15
+y 10
+end
 arch woodlarge
 x 15
 y 11
@@ -4211,6 +4292,10 @@ arch serp_sword
 x 15
 y 15
 end
+arch light4
+x 15
+y 15
+end
 arch woodfloor
 x 15
 y 16
@@ -4224,6 +4309,10 @@ x 15
 y 17
 end
 arch butterflysword_2
+x 15
+y 17
+end
+arch light4
 x 15
 y 17
 end
@@ -4642,6 +4731,10 @@ arch b_scale_mail
 x 16
 y 34
 end
+arch light4
+x 16
+y 34
+end
 arch woodfloor
 x 16
 y 35
@@ -4709,6 +4802,10 @@ x 17
 y 3
 end
 arch DShieldm
+x 17
+y 3
+end
+arch light4
 x 17
 y 3
 end
@@ -5242,6 +5339,10 @@ arch morningstar
 x 18
 y 23
 end
+arch light4
+x 18
+y 23
+end
 arch woodlarge
 x 18
 y 24
@@ -5271,6 +5372,10 @@ x 18
 y 27
 end
 arch stonehammer
+x 18
+y 27
+end
+arch light4
 x 18
 y 27
 end
@@ -5454,6 +5559,10 @@ arch a_helmet
 x 19
 y 10
 end
+arch light4
+x 19
+y 10
+end
 arch woodlarge
 x 19
 y 11
@@ -5497,6 +5606,10 @@ arch shortsword_2
 x 19
 y 15
 end
+arch light4
+x 19
+y 15
+end
 arch woodfloor
 x 19
 y 16
@@ -5510,6 +5623,10 @@ x 19
 y 17
 end
 arch falchion
+x 19
+y 17
+end
+arch light4
 x 19
 y 17
 end
@@ -5894,6 +6011,10 @@ arch shootingstar
 x 20
 y 23
 end
+arch light4
+x 20
+y 23
+end
 arch woodlarge
 x 20
 y 24
@@ -5923,6 +6044,10 @@ x 20
 y 27
 end
 arch cudgel
+x 20
+y 27
+end
+arch light4
 x 20
 y 27
 end
@@ -5971,6 +6096,10 @@ x 20
 y 34
 end
 arch green_dragon_mail
+x 20
+y 34
+end
+arch light4
 x 20
 y 34
 end
@@ -6041,6 +6170,10 @@ x 21
 y 3
 end
 arch eyeshield
+x 21
+y 3
+end
+arch light4
 x 21
 y 3
 end
@@ -6781,6 +6914,10 @@ arch helmet_of_xrays
 x 23
 y 10
 end
+arch light4
+x 23
+y 10
+end
 arch woodlarge
 x 23
 y 11
@@ -6824,6 +6961,10 @@ arch steel_shortsword
 x 23
 y 15
 end
+arch light4
+x 23
+y 15
+end
 arch woodfloor
 x 23
 y 16
@@ -6837,6 +6978,10 @@ x 23
 y 17
 end
 arch b_lsword
+x 23
+y 17
+end
+arch light4
 x 23
 y 17
 end
@@ -7262,6 +7407,10 @@ arch mithril_chainmail
 x 24
 y 34
 end
+arch light4
+x 24
+y 34
+end
 arch woodfloor
 x 24
 y 35
@@ -7329,6 +7478,10 @@ x 25
 y 3
 end
 arch holy_shield
+x 25
+y 3
+end
+arch light4
 x 25
 y 3
 end
@@ -7870,6 +8023,10 @@ arch kama2
 x 26
 y 23
 end
+arch light4
+x 26
+y 23
+end
 arch woodlarge
 x 26
 y 24
@@ -7907,6 +8064,10 @@ x 26
 y 28
 end
 arch scythe1
+x 26
+y 28
+end
+arch light4
 x 26
 y 28
 end
@@ -8102,6 +8263,10 @@ arch kog
 x 27
 y 10
 end
+arch light4
+x 27
+y 10
+end
 arch woodlarge
 x 27
 y 11
@@ -8145,6 +8310,10 @@ arch vlongsword
 x 27
 y 15
 end
+arch light4
+x 27
+y 15
+end
 arch woodfloor
 x 27
 y 16
@@ -8158,6 +8327,10 @@ x 27
 y 17
 end
 arch sword
+x 27
+y 17
+end
+arch light4
 x 27
 y 17
 end
@@ -8553,6 +8726,10 @@ arch sickle1
 x 28
 y 23
 end
+arch light4
+x 28
+y 23
+end
 arch woodlarge
 x 28
 y 24
@@ -8590,6 +8767,10 @@ x 28
 y 28
 end
 arch trident
+x 28
+y 28
+end
+arch light4
 x 28
 y 28
 end
@@ -8641,6 +8822,10 @@ x 28
 y 34
 end
 arch Pdragon_mail
+x 28
+y 34
+end
+arch light4
 x 28
 y 34
 end
@@ -8711,6 +8896,10 @@ x 29
 y 3
 end
 arch round_shield
+x 29
+y 3
+end
+arch light4
 x 29
 y 3
 end
@@ -9871,6 +10060,10 @@ arch robe2
 x 32
 y 34
 end
+arch light4
+x 32
+y 34
+end
 arch woodfloor
 x 32
 y 35
@@ -9938,6 +10131,10 @@ x 33
 y 3
 end
 arch small_shield
+x 33
+y 3
+end
+arch light4
 x 33
 y 3
 end
@@ -10447,6 +10644,10 @@ arch CSword
 x 34
 y 18
 end
+arch light4
+x 34
+y 18
+end
 arch woodfloor
 x 34
 y 19
@@ -10479,6 +10680,10 @@ arch defender
 x 34
 y 22
 end
+arch light4
+x 34
+y 22
+end
 arch woodfloor
 x 34
 y 23
@@ -10508,6 +10713,10 @@ x 34
 y 26
 end
 arch firebrand
+x 34
+y 26
+end
+arch light4
 x 34
 y 26
 end
@@ -10700,6 +10909,10 @@ x 35
 y 10
 end
 arch girdle_dam
+x 35
+y 10
+end
+arch light4
 x 35
 y 10
 end
@@ -11087,6 +11300,10 @@ arch magi_staff
 x 36
 y 18
 end
+arch light4
+x 36
+y 18
+end
 arch woodfloor
 x 36
 y 19
@@ -11119,6 +11336,10 @@ arch mjoellnir
 x 36
 y 22
 end
+arch light4
+x 36
+y 22
+end
 arch woodfloor
 x 36
 y 23
@@ -11148,6 +11369,10 @@ x 36
 y 26
 end
 arch holy_avenger
+x 36
+y 26
+end
+arch light4
 x 36
 y 26
 end
@@ -11208,6 +11433,10 @@ x 36
 y 34
 end
 arch wdsm
+x 36
+y 34
+end
+arch light4
 x 36
 y 34
 end
@@ -12153,6 +12382,10 @@ arch woodfloor
 x 40
 y 3
 end
+arch brazier
+x 40
+y 3
+end
 arch woodlarge
 x 40
 y 4
@@ -12512,6 +12745,10 @@ arch gauntlets_dex
 x 41
 y 14
 end
+arch light4
+x 41
+y 14
+end
 arch woodlarge
 x 41
 y 15
@@ -12541,6 +12778,10 @@ x 41
 y 18
 end
 arch gloves_w
+x 41
+y 18
+end
+arch light4
 x 41
 y 18
 end
@@ -12576,6 +12817,10 @@ x 41
 y 22
 end
 arch thunderking_gauntlet
+x 41
+y 22
+end
+arch light4
 x 41
 y 22
 end
@@ -12625,6 +12870,10 @@ y 28
 identified 1
 artifact black leather
 end
+arch light4
+x 41
+y 28
+end
 arch woodlarge
 x 41
 y 29
@@ -12656,6 +12905,10 @@ x 41
 y 32
 end
 arch oilskin
+x 41
+y 32
+end
+arch light4
 x 41
 y 32
 end
@@ -13355,6 +13608,10 @@ x 43
 y 37
 end
 arch woodfloor
+x 43
+y 38
+end
+arch brazier
 x 43
 y 38
 end
@@ -14416,6 +14673,10 @@ arch woodfloor
 x 48
 y 3
 end
+arch brazier
+x 48
+y 3
+end
 arch woodlarge
 x 48
 y 4
@@ -14464,6 +14725,10 @@ arch woodfloor
 x 48
 y 11
 end
+arch brazier
+x 48
+y 11
+end
 arch woodlarge
 x 48
 y 12
@@ -14489,6 +14754,10 @@ x 48
 y 14
 end
 arch bracers_ac
+x 48
+y 14
+end
+arch light4
 x 48
 y 14
 end
@@ -14548,6 +14817,10 @@ arch golem_shoes
 x 48
 y 21
 end
+arch light4
+x 48
+y 21
+end
 arch woodlarge
 x 48
 y 22
@@ -14577,6 +14850,10 @@ x 48
 y 25
 end
 arch high_boots_w
+x 48
+y 25
+end
+arch light4
 x 48
 y 25
 end
@@ -14620,6 +14897,10 @@ arch sandals
 x 48
 y 30
 end
+arch light4
+x 48
+y 30
+end
 arch woodfloor
 x 48
 y 31
@@ -14641,6 +14922,10 @@ x 48
 y 32
 end
 arch woodfloor
+x 48
+y 33
+end
+arch brazier
 x 48
 y 33
 end
@@ -14673,6 +14958,10 @@ x 48
 y 37
 end
 arch woodlarge
+x 48
+y 38
+end
+arch brazier
 x 48
 y 38
 end
