@@ -8,7 +8,7 @@ enter_x 15
 enter_y 23
 msg
 Created:  2013-03-29 Rick Tanner
-Modified: 2013-04-02 Rick Tanner
+Modified: 2022-01-15 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -2821,8 +2821,8 @@ x 14
 y 25
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 15
+slaying /world/world_122_117
+hp 17
 sp 18
 x 14
 y 26
@@ -3058,8 +3058,8 @@ y 25
 connected 11
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 15
+slaying /world/world_122_117
+hp 17
 sp 18
 x 15
 y 26
@@ -3286,8 +3286,8 @@ x 16
 y 25
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 15
+slaying /world/world_122_117
+hp 17
 sp 18
 x 16
 y 26

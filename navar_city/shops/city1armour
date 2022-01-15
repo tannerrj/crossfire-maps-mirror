@@ -14,7 +14,7 @@ enter_x 4
 enter_y 15
 msg
 Created:  1993-10-27
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2022-01-15 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -428,9 +428,9 @@ x 3
 y 18
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 16
-sp 2
+slaying /world/world_122_117
+hp 15
+sp 8
 x 3
 y 18
 end
@@ -561,9 +561,9 @@ x 4
 y 18
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 16
-sp 2
+slaying /world/world_122_117
+hp 15
+sp 8
 x 4
 y 18
 end
@@ -672,9 +672,9 @@ x 5
 y 18
 end
 arch invis_exit
-slaying ../../world/world_122_117
-hp 16
-sp 2
+slaying /world/world_122_117
+hp 15
+sp 8
 x 5
 y 18
 end

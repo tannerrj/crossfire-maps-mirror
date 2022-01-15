@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2020-12-30 Rick Tanner
+Modified: 2022-01-15 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_122_116
@@ -4085,7 +4085,15 @@ arch dungeon_magic
 x 11
 y 9
 end
-arch brush
+arch grass
+x 11
+y 9
+end
+arch tavern
+name Tim the Bowyer
+slaying /navar_city/misc/bowyer
+hp 6
+sp 14
 x 11
 y 9
 end
@@ -4110,6 +4118,14 @@ x 11
 y 12
 end
 arch grass
+x 11
+y 12
+end
+arch minihouse
+name Tannery of Navar
+slaying /navar_city/misc/tannery
+hp 10
+sp 10
 x 11
 y 12
 end
@@ -5202,12 +5218,19 @@ arch grass
 x 14
 y 16
 end
+arch store_alchemy
+name Armino fine alchemy supplies
+slaying ../navar_city/shops/armino_alchemy
+hp 3
+sp 22
+x 14
+y 16
+end
 arch grass
 x 14
 y 17
-elevation 253
 end
-arch grass
+arch cobblestones2
 x 14
 y 18
 elevation 435
@@ -5440,7 +5463,15 @@ arch dungeon_magic
 x 15
 y 7
 end
-arch cobblestones2
+arch grass
+x 15
+y 7
+end
+arch store_armour
+name Olaf's Armor Emporium
+slaying ../navar_city/shops/city1armour
+hp 4
+sp 15
 x 15
 y 7
 end
@@ -5448,7 +5479,7 @@ arch dungeon_magic
 x 15
 y 8
 end
-arch cobblestones2
+arch grass
 x 15
 y 8
 end
@@ -5516,20 +5547,12 @@ arch grass
 x 15
 y 16
 end
-arch grass_only
-x 15
-y 17
-elevation 2147
-end
-arch draughts_house
-name Draughts of Navar
-slaying ../navar_city/misc/draughts
-hp 15
-sp 23
-x 15
-y 17
-end
 arch grass
+x 15
+y 17
+elevation 1678
+end
+arch cobblestones2
 x 15
 y 18
 elevation 1678
@@ -5722,14 +5745,6 @@ arch cobblestones2
 x 16
 y 1
 end
-arch store_armour
-name Olaf's Armor Emporium
-slaying ../navar_city/shops/city1armour
-hp 4
-sp 15
-x 16
-y 1
-end
 arch dungeon_magic
 x 16
 y 2
@@ -5786,35 +5801,23 @@ arch dungeon_magic
 x 16
 y 7
 end
-arch cobblestones2
-x 16
-y 7
-end
-arch store_weapons
-name Red's Weapons Bazaar
-slaying ../navar_city/shops/city1weapon
-hp 12
-sp 18
+arch grass
 x 16
 y 7
 end
 arch dungeon_magic
 x 16
 y 8
-end
-arch cobblestones2
-x 16
-y 8
-end
-arch dungeon_magic
-x 16
-y 9
 end
 arch grass
 x 16
+y 8
+end
+arch dungeon_magic
+x 16
 y 9
 end
-arch lamppost
+arch cobblestones2
 x 16
 y 9
 end
@@ -5890,7 +5893,7 @@ arch grass
 x 16
 y 17
 end
-arch grass
+arch cobblestones2
 x 16
 y 18
 elevation 2486
@@ -6144,7 +6147,15 @@ arch dungeon_magic
 x 17
 y 7
 end
-arch cobblestones2
+arch grass
+x 17
+y 7
+end
+arch store_weapons
+name Red's Weapons Bazaar
+slaying ../navar_city/shops/city1weapon
+hp 12
+sp 18
 x 17
 y 7
 end
@@ -6152,7 +6163,7 @@ arch dungeon_magic
 x 17
 y 8
 end
-arch cobblestones2
+arch grass
 x 17
 y 8
 end
@@ -6160,7 +6171,7 @@ arch dungeon_magic
 x 17
 y 9
 end
-arch grass
+arch cobblestones2
 x 17
 y 9
 end
@@ -6185,6 +6196,10 @@ x 17
 y 12
 end
 arch grass
+x 17
+y 12
+end
+arch lamppost
 x 17
 y 12
 end
@@ -6216,10 +6231,18 @@ arch grass
 x 17
 y 16
 end
-arch grass
+arch grass_only
 x 17
 y 17
-elevation 2535
+elevation 2147
+end
+arch draughts_house
+name Draughts of Navar
+slaying ../navar_city/misc/draughts
+hp 15
+sp 23
+x 17
+y 17
 end
 arch grass
 x 17
@@ -6462,7 +6485,7 @@ arch dungeon_magic
 x 18
 y 7
 end
-arch cobblestones2
+arch grass
 x 18
 y 7
 end
@@ -6470,7 +6493,7 @@ arch dungeon_magic
 x 18
 y 8
 end
-arch cobblestones2
+arch grass
 x 18
 y 8
 end
