@@ -9605,6 +9605,8 @@ x 36
 y 18
 level 1
 attacktype 1
+move_type all
+move_on all
 end
 arch mountain
 x 36
@@ -10078,6 +10080,8 @@ x 38
 y 20
 level 1
 attacktype 1
+move_type all
+move_on all
 end
 arch woods
 x 38
