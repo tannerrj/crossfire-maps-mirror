@@ -25,7 +25,7 @@
 #  QUEST - quest identifier string
 #  STATE - stages to trigger on
 #  CONNECTION - connection number
-#  EDGE - optional trigger edge, 0 (push) by default
+#  EDGE - optional trigger edge, 1 (release) by default
 
 import Crossfire
 
@@ -41,7 +41,7 @@ def trigger():
     player = Crossfire.WhoIsActivator()
     params = Crossfire.ScriptParameters()
     args = params.split()
-    edge = 0 # transition type, 0 for push, 1 for release
+    edge = 1 # transition type, 0 for push, 1 for release
     if len(args) < 3:
         raise IndexError("QuestTriggerConnect used with incorrect number of arguments")
     if len(args) >= 4:
