@@ -3,7 +3,7 @@ name world_111_114
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-02-06 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_111_113
@@ -3289,6 +3289,10 @@ arch evergreens2
 x 11
 y 36
 end
+arch pillars
+x 11
+y 36
+end
 arch woods
 x 11
 y 37
@@ -3304,16 +3308,16 @@ x 11
 y 39
 elevation 3112
 end
-arch evergreens2
-x 11
-y 39
-end
 arch grass_only
 x 11
 y 40
 elevation 2709
 end
 arch evergreens2
+x 11
+y 40
+end
+arch pillars
 x 11
 y 40
 end
@@ -3376,15 +3380,14 @@ arch evergreens2
 x 11
 y 47
 end
-arch hills
+arch footpath_2_2_2
 x 11
 y 48
 elevation 2781
 end
-arch hills
+arch footpath_2_1_1
 x 11
 y 49
-elevation 2740
 end
 arch mountain
 x 12
@@ -3590,28 +3593,20 @@ x 12
 y 36
 elevation 834
 end
-arch hills_rocky
+arch brush
 x 12
 y 37
-elevation 1304
+elevation 272
 end
 arch grass_only
 x 12
 y 38
 elevation 1960
 end
-arch evergreens2
-x 12
-y 38
-end
 arch grass_only
 x 12
 y 39
 elevation 2494
-end
-arch evergreens2
-x 12
-y 39
 end
 arch hills
 x 12
@@ -3672,16 +3667,12 @@ arch evergreens2
 x 12
 y 46
 end
-arch hills
+arch footpath_2_2_2
 x 12
 y 47
 elevation 4622
 end
-arch woods5
-x 12
-y 47
-end
-arch hills_rocky
+arch footpath_2_2_4
 x 12
 y 48
 elevation 3810
@@ -3899,31 +3890,34 @@ x 13
 y 36
 elevation 953
 end
-arch brush
-x 13
-y 37
-elevation 456
-end
 arch grass
 x 13
+y 37
+elevation 953
+end
+arch brush
+x 13
 y 38
-elevation 714
+elevation 456
+end
+arch stair_down
+slaying /quests/peterm/Nethack_in_crossfire_entrance
+hp 1
+sp 1
+x 13
+y 38
 end
 arch grass_only
 x 13
 y 39
 elevation 1808
 end
-arch evergreens2
-x 13
-y 39
-end
 arch grass_only
 x 13
 y 40
 elevation 2313
 end
-arch evergreens2
+arch broken_generate_devil
 x 13
 y 40
 end
@@ -3981,14 +3975,10 @@ arch evergreens2
 x 13
 y 46
 end
-arch hills
+arch footpath_2_1_2
 x 13
 y 47
 elevation 4768
-end
-arch woods5
-x 13
-y 47
 end
 arch hills
 x 13
@@ -4214,7 +4204,7 @@ end
 arch grass_only
 x 14
 y 36
-elevation 1296
+elevation 1595
 end
 arch evergreens2
 x 14
@@ -4230,7 +4220,7 @@ x 14
 y 38
 elevation 489
 end
-arch hills_rocky
+arch brush
 x 14
 y 39
 elevation 1346
@@ -4290,14 +4280,10 @@ arch evergreens2
 x 14
 y 46
 end
-arch hills
+arch footpath_2_1_2
 x 14
 y 47
 elevation 4679
-end
-arch woods5
-x 14
-y 47
 end
 arch hills
 x 14
@@ -4529,12 +4515,16 @@ arch evergreens2
 x 15
 y 36
 end
+arch pillars
+x 15
+y 36
+end
 arch brush
 x 15
 y 37
 elevation 671
 end
-arch hills_rocky
+arch brush
 x 15
 y 38
 elevation 1193
@@ -4544,16 +4534,16 @@ x 15
 y 39
 elevation 1282
 end
-arch evergreens2
-x 15
-y 39
-end
 arch grass_only
 x 15
 y 40
 elevation 1473
 end
 arch evergreens2
+x 15
+y 40
+end
+arch pillars
 x 15
 y 40
 end
@@ -4599,14 +4589,10 @@ arch evergreens2
 x 15
 y 46
 end
-arch hills
+arch footpath_2_1_2
 x 15
 y 47
 elevation 4572
-end
-arch woods5
-x 15
-y 47
 end
 arch hills_rocky
 x 15
@@ -4844,7 +4830,7 @@ arch evergreens2
 x 16
 y 38
 end
-arch hills
+arch footpath_1_4
 x 16
 y 39
 elevation 1807
@@ -4894,32 +4880,20 @@ arch evergreens2
 x 16
 y 44
 end
-arch hills
+arch footpath_2_2_2
 x 16
 y 45
 elevation 4462
 end
-arch woods5
-x 16
-y 45
-end
-arch hills
+arch footpath_2_1_1
 x 16
 y 46
 elevation 4754
 end
-arch woods5
-x 16
-y 46
-end
-arch hills
+arch footpath_2_2_4
 x 16
 y 47
 elevation 4419
-end
-arch woods5
-x 16
-y 47
 end
 arch hills_rocky
 x 16
@@ -5165,7 +5139,7 @@ arch evergreens2
 x 17
 y 38
 end
-arch hills_rocky
+arch footpath_2_1_2
 x 17
 y 39
 elevation 2196
@@ -5211,14 +5185,10 @@ arch evergreens2
 x 17
 y 44
 end
-arch hills
+arch footpath_2_1_2
 x 17
 y 45
 elevation 4740
-end
-arch woods5
-x 17
-y 45
 end
 arch steppe
 x 17
@@ -5478,56 +5448,40 @@ x 18
 y 38
 elevation 2786
 end
-arch woods_2
+arch footpath_2_2_3
 x 18
 y 39
 elevation 2799
 end
-arch woods_2
+arch footpath_2_1_1
 x 18
 y 40
 elevation 2713
 end
-arch hills
+arch footpath_2_1_1
 x 18
 y 41
 elevation 2591
 end
-arch grass_only
+arch footpath_2_1_1
 x 18
 y 42
 elevation 2628
 end
-arch evergreens2
-x 18
-y 42
-end
-arch hills
+arch footpath_2_1_1
 x 18
 y 43
 elevation 3359
 end
-arch woods5
-x 18
-y 43
-end
-arch grass_only
+arch footpath_2_1_1
 x 18
 y 44
 elevation 4133
 end
-arch evergreens2
-x 18
-y 44
-end
-arch hills
+arch footpath_2_2_4
 x 18
 y 45
 elevation 4421
-end
-arch woods5
-x 18
-y 45
 end
 arch hills_rocky
 x 18
