@@ -3,7 +3,7 @@ name Thief Market
 difficulty 1
 region lonetown
 shopitems gem:100;*:50
-shopgreed 50.0000
+shopgreed 3.00000
 shopmin 1000
 width 16
 height 25
@@ -11,7 +11,7 @@ enter_x 5
 enter_y 5
 msg
 Created:  1996-03-14
-Modified: 2021-10-03 Rick Tanner
+Modified: 2022-02-13 Kevin Zheng
 endmsg
 end
 arch blocked

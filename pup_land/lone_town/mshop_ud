@@ -3,7 +3,7 @@ name Lown Town Magic Shop, Cellar
 difficulty 25
 region lonetown
 shopitems *:100
-shopgreed 50.0000
+shopgreed 3.00000
 shopmin 10000
 width 15
 height 16
@@ -11,7 +11,7 @@ enter_x 1
 enter_y 13
 msg
 Created:  1996-01-31
-Modified: 2011-12-07 Rick Tanner
+Modified: 2022-02-13 Kevin Zheng
 endmsg
 end
 arch shop_empty
