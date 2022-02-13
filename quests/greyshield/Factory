@@ -8,7 +8,7 @@ enter_x 2
 enter_y 27
 msg
 Created:  1996-09-16 Chris Jeske
-Modified: 2021-07-26 Saiapatsu
+Modified: 2022-02-12 Kevin Zheng
 endmsg
 end
 arch medium_stones
@@ -7176,6 +7176,7 @@ end
 arch generate_kobold
 x 26
 y 1
+generator_limit 0
 end
 arch medium_stones
 x 26
@@ -7234,6 +7235,7 @@ end
 arch generate_kobold
 x 26
 y 8
+generator_limit 0
 end
 arch medium_stones
 x 26
@@ -7258,6 +7260,7 @@ end
 arch generate_kobold
 x 26
 y 11
+generator_limit 0
 end
 arch medium_stones
 x 26
@@ -7332,6 +7335,7 @@ end
 arch generate_kobold
 x 26
 y 22
+generator_limit 0
 end
 arch medium_stones
 x 26
@@ -7365,6 +7369,7 @@ end
 arch generate_kobold
 x 26
 y 26
+generator_limit 0
 end
 arch medium_stones
 x 26
@@ -7703,6 +7708,7 @@ end
 arch generate_kobold
 x 28
 y 6
+generator_limit 0
 end
 arch medium_stones
 x 28
@@ -7744,6 +7750,7 @@ end
 arch generate_kobold
 x 28
 y 11
+generator_limit 0
 end
 arch medium_stones
 x 28
@@ -7809,6 +7816,7 @@ end
 arch generate_kobold
 x 28
 y 20
+generator_limit 0
 end
 arch medium_stones
 x 28
@@ -7842,6 +7850,7 @@ end
 arch generate_kobold
 x 28
 y 24
+generator_limit 0
 end
 arch medium_stones
 x 28
@@ -7913,6 +7922,7 @@ end
 arch generate_kobold
 x 29
 y 1
+generator_limit 0
 end
 arch medium_stones
 x 29
@@ -8176,6 +8186,7 @@ end
 arch generate_kobold
 x 30
 y 3
+generator_limit 0
 end
 arch medium_stones
 x 30
@@ -8200,6 +8211,7 @@ end
 arch generate_kobold
 x 30
 y 6
+generator_limit 0
 end
 arch medium_stones
 x 30
@@ -8241,6 +8253,7 @@ end
 arch generate_kobold
 x 30
 y 11
+generator_limit 0
 end
 arch medium_stones
 x 30
@@ -8314,6 +8327,7 @@ end
 arch generate_kobold
 x 30
 y 20
+generator_limit 0
 end
 arch medium_stones
 x 30
@@ -8347,6 +8361,7 @@ end
 arch generate_kobold
 x 30
 y 24
+generator_limit 0
 end
 arch medium_stones
 x 30
