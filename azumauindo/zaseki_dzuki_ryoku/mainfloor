@@ -15,7 +15,7 @@ Avion
 Date:    11/19/2004
 Map finised by:  Alestan jehloq@yahoo.com
 Date:     8/27/2007
-Modified: 2013-05-12 Nicolas Weeger
+Modified: 2022-02-16 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -8887,10 +8887,10 @@ end
 arch perm_magic_portal
 name Pup Land Terminal
 slaying /pup_land/terminal
+hp 10
+sp 2
 x 29
 y 5
-walk_on 0
-fly_on 0
 end
 arch grass
 x 29
