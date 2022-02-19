@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-03-19 Rick Tanner
+Modified: 2022-02-19 Nicolas Weeger
 endmsg
 end
 arch dungeon_floor
@@ -2145,13 +2145,10 @@ arch marble
 x 10
 y 30
 end
-arch bookshelf
-name a marble coffin
-face coffin.111
+arch marble_coffin_container_closed
 x 10
 y 30
 carrying 25000
-no_pick 1
 arch random_treasure
 end
 arch random_wealth
