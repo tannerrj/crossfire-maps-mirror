@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2020-12-21 SilverNexus
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_102_106
@@ -1222,7 +1222,7 @@ end
 arch cobblestones
 x 4
 y 46
-elevation  485
+elevation 485
 end
 arch cobblestones
 x 4
@@ -2736,8 +2736,8 @@ end
 arch shallow_sea
 x 10
 y 46
-move_block 0
 elevation -795
+move_block 0
 end
 arch stonebridge_2_1_2
 x 10
@@ -2990,8 +2990,8 @@ end
 arch shallow_sea
 x 11
 y 46
-move_block 0
 elevation -561
+move_block 0
 end
 arch stonebridge_2_1_2
 x 11
@@ -3244,8 +3244,8 @@ end
 arch shallow_sea
 x 12
 y 46
-move_block 0
 elevation -295
+move_block 0
 end
 arch stonebridge_2_1_2
 x 12
@@ -3498,8 +3498,8 @@ end
 arch shallow_sea
 x 13
 y 46
-move_block 0
 elevation -7
+move_block 0
 end
 arch stonebridge_2_1_2
 x 13
@@ -3749,10 +3749,14 @@ x 14
 y 45
 elevation 175
 end
-arch cobblestones
+arch light3
 x 14
 y 46
 elevation 649
+end
+arch cobblestones
+x 14
+y 46
 end
 arch stonebridge_1_3
 x 14
@@ -4251,10 +4255,14 @@ x 16
 y 45
 elevation 2197
 end
-arch cobblestones
+arch light3
 x 16
 y 46
 elevation 1590
+end
+arch cobblestones
+x 16
+y 46
 end
 arch woods
 x 16
@@ -4757,10 +4765,14 @@ x 18
 y 45
 elevation 1983
 end
-arch cobblestones
+arch light3
 x 18
 y 46
 elevation 684
+end
+arch cobblestones
+x 18
+y 46
 end
 arch beach
 x 18
@@ -5011,10 +5023,14 @@ x 19
 y 46
 elevation 1413
 end
-arch cobblestones
+arch light3
 x 19
 y 47
 elevation 1398
+end
+arch cobblestones
+x 19
+y 47
 end
 arch beach
 x 19
@@ -5509,10 +5525,14 @@ x 21
 y 46
 elevation 1012
 end
-arch cobblestones
+arch light3
 x 21
 y 47
 elevation 1801
+end
+arch cobblestones
+x 21
+y 47
 end
 arch woods
 x 21
@@ -5763,10 +5783,14 @@ x 22
 y 47
 elevation 269
 end
-arch cobblestones
+arch light3
 x 22
 y 48
 elevation 1491
+end
+arch cobblestones
+x 22
+y 48
 end
 arch grass
 x 22
@@ -6261,10 +6285,14 @@ x 24
 y 47
 elevation 1693
 end
-arch cobblestones
+arch light3
 x 24
 y 48
 elevation 1223
+end
+arch cobblestones
+x 24
+y 48
 end
 arch grass
 x 24
@@ -6515,10 +6543,14 @@ x 25
 y 48
 elevation 1957
 end
-arch cobblestones
+arch light3
 x 25
 y 49
 elevation 1146
+end
+arch cobblestones
+x 25
+y 49
 end
 arch sea
 x 26

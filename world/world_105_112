@@ -4,7 +4,7 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2021-08-14 Daniel Hawkins
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_111
@@ -155,9 +155,12 @@ arch mountain
 y 35
 elevation 7016
 end
-arch cobblestones
+arch light3
 y 36
 elevation 4994
+end
+arch cobblestones
+y 36
 end
 arch mountain
 y 37
@@ -395,10 +398,14 @@ x 1
 y 36
 elevation 2985
 end
-arch cobblestones
+arch light3
 x 1
 y 37
 elevation 4361
+end
+arch cobblestones
+x 1
+y 37
 end
 arch hills_rocky
 x 1
@@ -901,10 +908,14 @@ x 3
 y 36
 elevation 3219
 end
-arch cobblestones
+arch light3
 x 3
 y 37
 elevation 4650
+end
+arch cobblestones
+x 3
+y 37
 end
 arch mountain
 x 3
@@ -1155,10 +1166,14 @@ x 4
 y 37
 elevation 5804
 end
-arch cobblestones
+arch light3
 x 4
 y 38
 elevation 6847
+end
+arch cobblestones
+x 4
+y 38
 end
 arch mountain
 x 4
@@ -1653,10 +1668,14 @@ x 6
 y 37
 elevation 7220
 end
-arch cobblestones
+arch light3
 x 6
 y 38
 elevation 6333
+end
+arch cobblestones
+x 6
+y 38
 end
 arch cobblestones
 x 6
@@ -1907,10 +1926,14 @@ x 7
 y 38
 elevation 6179
 end
-arch cobblestones
+arch light3
 x 7
 y 39
 elevation 2771
+end
+arch cobblestones
+x 7
+y 39
 end
 arch cobblestones
 x 7
@@ -2161,10 +2184,14 @@ x 8
 y 39
 elevation 4493
 end
-arch cobblestones
+arch light3
 x 8
 y 40
 elevation 3621
+end
+arch cobblestones
+x 8
+y 40
 end
 arch mountain
 x 8
@@ -2670,10 +2697,14 @@ x 10
 y 39
 elevation 5604
 end
-arch cobblestones
+arch light3
 x 10
 y 40
 elevation 5081
+end
+arch cobblestones
+x 10
+y 40
 end
 arch mountain
 x 10
@@ -2932,10 +2963,14 @@ x 11
 y 40
 elevation 6889
 end
-arch cobblestones
+arch light3
 x 11
 y 41
 elevation 8555
+end
+arch cobblestones
+x 11
+y 41
 end
 arch mountain2
 x 11
@@ -3186,10 +3221,14 @@ x 12
 y 41
 elevation 7883
 end
-arch cobblestones
+arch light3
 x 12
 y 42
 elevation 8398
+end
+arch cobblestones
+x 12
+y 42
 end
 arch mountain
 x 12
@@ -3221,10 +3260,14 @@ x 12
 y 48
 elevation 3377
 end
-arch cobblestones
+arch light3
 x 12
 y 49
 elevation 2565
+end
+arch cobblestones
+x 12
+y 49
 end
 arch hills_rocky
 x 13
@@ -3440,30 +3483,42 @@ x 13
 y 42
 elevation 5880
 end
-arch cobblestones
+arch light3
 x 13
 y 43
 elevation 7143
 end
 arch cobblestones
 x 13
+y 43
+end
+arch cobblestones
+x 13
 y 44
 elevation 7766
 end
-arch cobblestones
+arch light3
 x 13
 y 45
 elevation 7161
 end
 arch cobblestones
 x 13
+y 45
+end
+arch cobblestones
+x 13
 y 46
 elevation 5479
+end
+arch light3
+x 13
+y 47
+elevation 3484
 end
 arch cobblestones
 x 13
 y 47
-elevation 3484
 end
 arch cobblestones
 x 13

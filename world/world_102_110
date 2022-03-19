@@ -4,7 +4,7 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2021-08-10 Daniel Hawkins
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_102_109
@@ -10488,10 +10488,14 @@ arch cobblestones
 x 40
 elevation 1408
 end
-arch cobblestones
+arch light3
 x 40
 y 1
 elevation 318
+end
+arch cobblestones
+x 40
+y 1
 end
 arch cobblestones
 x 40
@@ -10741,9 +10745,12 @@ x 40
 y 49
 elevation 3849
 end
-arch cobblestones
+arch light3
 x 41
 elevation 1872
+end
+arch cobblestones
+x 41
 end
 arch cobblestones
 x 41
@@ -10755,10 +10762,14 @@ x 41
 y 2
 elevation 1672
 end
-arch cobblestones
+arch light3
 x 41
 y 3
 elevation 2438
+end
+arch cobblestones
+x 41
+y 3
 end
 arch steppe
 x 41
@@ -11281,20 +11292,28 @@ x 43
 y 2
 elevation 1927
 end
-arch cobblestones
+arch light3
 x 43
 y 3
 elevation 835
 end
 arch cobblestones
 x 43
+y 3
+end
+arch cobblestones
+x 43
 y 4
 elevation 2406
+end
+arch light3
+x 43
+y 5
+elevation 2519
 end
 arch cobblestones
 x 43
 y 5
-elevation 2519
 end
 arch grass
 x 43
@@ -11788,10 +11807,14 @@ x 45
 y 3
 elevation 1456
 end
-arch cobblestones
+arch light3
 x 45
 y 4
 elevation 692
+end
+arch cobblestones
+x 45
+y 4
 end
 arch cobblestones
 x 45
@@ -12042,10 +12065,14 @@ x 46
 y 4
 elevation 248
 end
-arch cobblestones
+arch light3
 x 46
 y 5
 elevation 332
+end
+arch cobblestones
+x 46
+y 5
 end
 arch cobblestones
 x 46
@@ -12296,10 +12323,14 @@ x 47
 y 5
 elevation 1848
 end
-arch cobblestones
+arch light3
 x 47
 y 6
 elevation 2083
+end
+arch cobblestones
+x 47
+y 6
 end
 arch steppe
 x 47
@@ -12789,10 +12820,14 @@ x 49
 y 4
 elevation 1390
 end
-arch cobblestones
+arch light3
 x 49
 y 5
 elevation 2693
+end
+arch cobblestones
+x 49
+y 5
 end
 arch cobblestones
 x 49

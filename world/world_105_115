@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2022-03-17 Rick Tanner
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -13302,10 +13302,14 @@ x 34
 y 31
 elevation 1602
 end
-arch cobblestones
+arch light3
 x 34
 y 32
 elevation 1822
+end
+arch cobblestones
+x 34
+y 32
 end
 arch cobblestones
 x 34
@@ -13573,10 +13577,14 @@ x 35
 y 29
 elevation 2201
 end
-arch cobblestones
+arch light3
 x 35
 y 30
 elevation 2658
+end
+arch cobblestones
+x 35
+y 30
 end
 arch cobblestones
 x 35
@@ -13593,10 +13601,14 @@ x 35
 y 33
 elevation 2222
 end
-arch cobblestones
+arch light3
 x 35
 y 34
 elevation 1978
+end
+arch cobblestones
+x 35
+y 34
 end
 arch cobblestones
 x 35
@@ -13842,20 +13854,28 @@ x 36
 y 25
 elevation 1106
 end
-arch cobblestones
+arch light3
 x 36
 y 26
 elevation 2378
 end
 arch cobblestones
 x 36
+y 26
+end
+arch cobblestones
+x 36
 y 27
 elevation 1573
+end
+arch light3
+x 36
+y 28
+elevation 2064
 end
 arch cobblestones
 x 36
 y 28
-elevation 2064
 end
 arch cobblestones
 x 36
@@ -14110,10 +14130,14 @@ x 37
 y 24
 elevation 1191
 end
-arch cobblestones
+arch light3
 x 37
 y 25
 elevation 579
+end
+arch cobblestones
+x 37
+y 25
 end
 arch cobblestones
 x 37
@@ -14390,10 +14414,14 @@ x 38
 y 23
 elevation 2666
 end
-arch cobblestones
+arch light3
 x 38
 y 24
 elevation 1918
+end
+arch cobblestones
+x 38
+y 24
 end
 arch cobblestones
 x 38
@@ -14688,10 +14716,14 @@ x 39
 y 21
 elevation 777
 end
-arch cobblestones
+arch light3
 x 39
 y 22
 elevation 1764
+end
+arch cobblestones
+x 39
+y 22
 end
 arch cobblestones
 x 39
@@ -15003,10 +15035,14 @@ x 40
 y 20
 elevation 367
 end
-arch cobblestones
+arch light3
 x 40
 y 21
 elevation 1648
+end
+arch cobblestones
+x 40
+y 21
 end
 arch cobblestones
 x 40
@@ -15314,10 +15350,14 @@ x 41
 y 19
 elevation 2290
 end
-arch cobblestones
+arch light3
 x 41
 y 20
 elevation 2047
+end
+arch cobblestones
+x 41
+y 20
 end
 arch cobblestones
 x 41
@@ -15605,10 +15645,14 @@ x 42
 y 18
 elevation 1198
 end
-arch cobblestones
+arch light3
 x 42
 y 19
 elevation 1326
+end
+arch cobblestones
+x 42
+y 19
 end
 arch cobblestones
 x 42
@@ -15904,10 +15948,14 @@ x 43
 y 17
 elevation 2540
 end
-arch cobblestones
+arch light3
 x 43
 y 18
 elevation 1724
+end
+arch cobblestones
+x 43
+y 18
 end
 arch cobblestones
 x 43
@@ -16164,10 +16212,14 @@ x 44
 y 9
 elevation 1235
 end
-arch cobblestones
+arch light3
 x 44
 y 10
 elevation 2563
+end
+arch cobblestones
+x 44
+y 10
 end
 arch cobblestones
 x 44
@@ -16184,20 +16236,28 @@ x 44
 y 13
 elevation 6278
 end
-arch cobblestones
+arch light3
 x 44
 y 14
 elevation 4102
 end
 arch cobblestones
 x 44
+y 14
+end
+arch cobblestones
+x 44
 y 15
 elevation 4730
+end
+arch light3
+x 44
+y 16
+elevation 3998
 end
 arch cobblestones
 x 44
 y 16
-elevation 3998
 end
 arch cobblestones
 x 44
@@ -16417,10 +16477,14 @@ x 45
 y 6
 elevation 1826
 end
-arch cobblestones
+arch light3
 x 45
 y 7
 elevation 1787
+end
+arch cobblestones
+x 45
+y 7
 end
 arch cobblestones
 x 45
@@ -16442,10 +16506,14 @@ x 45
 y 11
 elevation 2335
 end
-arch cobblestones
+arch light3
 x 45
 y 12
 elevation 5291
+end
+arch cobblestones
+x 45
+y 12
 end
 arch cobblestones
 x 45
@@ -16652,9 +16720,12 @@ x 45
 y 49
 elevation 476
 end
-arch cobblestones
+arch light3
 x 46
 elevation 802
+end
+arch cobblestones
+x 46
 end
 arch cobblestones
 x 46
@@ -16666,20 +16737,28 @@ x 46
 y 2
 elevation 4350
 end
-arch cobblestones
+arch light3
 x 46
 y 3
 elevation 3700
 end
 arch cobblestones
 x 46
+y 3
+end
+arch cobblestones
+x 46
 y 4
 elevation 3501
+end
+arch light3
+x 46
+y 5
+elevation 2893
 end
 arch cobblestones
 x 46
 y 5
-elevation 2893
 end
 arch cobblestones
 x 46
@@ -16696,10 +16775,14 @@ x 46
 y 8
 elevation 3513
 end
-arch cobblestones
+arch light3
 x 46
 y 9
 elevation 3863
+end
+arch cobblestones
+x 46
+y 9
 end
 arch cobblestones
 x 46
@@ -16929,10 +17012,14 @@ arch cobblestones
 x 47
 elevation 802
 end
-arch cobblestones
+arch light3
 x 47
 y 1
 elevation 1023
+end
+arch cobblestones
+x 47
+y 1
 end
 arch cobblestones
 x 47
