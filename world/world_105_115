@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2021-10-20 Rick Tanner
+Modified: 2022-03-17 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -11312,6 +11312,10 @@ x 27
 y 35
 elevation 1513
 end
+arch lamppost
+x 27
+y 35
+end
 arch cobblestones2
 x 27
 y 36
@@ -11331,6 +11335,10 @@ arch grass
 x 27
 y 39
 elevation 934
+end
+arch lamppost
+x 27
+y 39
 end
 arch hills
 x 27
@@ -13339,10 +13347,14 @@ x 34
 y 40
 elevation 1675
 end
-arch grass_only
+arch light4
 x 34
 y 41
 elevation 2189
+end
+arch grass_only
+x 34
+y 41
 end
 arch tree3
 x 34
@@ -13894,10 +13906,14 @@ x 36
 y 37
 elevation 2639
 end
-arch jungle_1
+arch light4
 x 36
 y 38
 elevation 1255
+end
+arch jungle_1
+x 36
+y 38
 end
 arch cobblestones
 x 36
@@ -14458,10 +14474,14 @@ x 38
 y 39
 elevation 2956
 end
-arch cobblestones
+arch light3
 x 38
 y 40
 elevation 2098
+end
+arch cobblestones
+x 38
+y 40
 end
 arch cobblestones
 x 38
@@ -15095,10 +15115,14 @@ x 40
 y 40
 elevation 2897
 end
-arch cobblestones
+arch light3
 x 40
 y 41
 elevation 2785
+end
+arch cobblestones
+x 40
+y 41
 end
 arch cobblestones
 x 40
@@ -15720,10 +15744,14 @@ x 42
 y 41
 elevation 1789
 end
-arch cobblestones
+arch light3
 x 42
 y 42
 elevation 1789
+end
+arch cobblestones
+x 42
+y 42
 end
 arch hills_rocky
 x 42
@@ -16303,10 +16331,14 @@ x 44
 y 40
 elevation 2579
 end
-arch cobblestones
+arch light3
 x 44
 y 41
 elevation 3327
+end
+arch cobblestones
+x 44
+y 41
 end
 arch cobblestones
 x 44
@@ -16849,10 +16881,14 @@ x 46
 y 41
 elevation 1978
 end
-arch cobblestones
+arch light3
 x 46
 y 42
 elevation 1978
+end
+arch cobblestones
+x 46
+y 42
 end
 arch jungle_1
 x 46
@@ -17393,10 +17429,14 @@ x 48
 y 40
 elevation 4263
 end
-arch cobblestones
+arch light3
 x 48
 y 41
 elevation 2765
+end
+arch cobblestones
+x 48
+y 41
 end
 arch cobblestones
 x 48

@@ -7,7 +7,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-18 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_118_116
@@ -145,6 +145,9 @@ end
 arch jungle_1
 y 30
 elevation 1355
+end
+arch light3
+y 31
 end
 arch cobblestones
 y 31
@@ -628,6 +631,10 @@ end
 arch cobblestones
 x 2
 y 31
+end
+arch light3
+x 2
+y 32
 end
 arch cobblestones
 x 2
@@ -1122,6 +1129,10 @@ x 4
 y 30
 elevation 2961
 end
+arch light3
+x 4
+y 31
+end
 arch cobblestones
 x 4
 y 31
@@ -1129,6 +1140,10 @@ end
 arch cobblestones
 x 4
 y 32
+end
+arch light3
+x 4
+y 33
 end
 arch cobblestones
 x 4
@@ -1631,6 +1646,10 @@ x 6
 y 31
 elevation 3479
 end
+arch light3
+x 6
+y 32
+end
 arch cobblestones
 x 6
 y 32
@@ -2132,6 +2151,10 @@ end
 arch cobblestones
 x 8
 y 32
+end
+arch light3
+x 8
+y 33
 end
 arch cobblestones
 x 8
@@ -2654,6 +2677,10 @@ arch desert
 x 10
 y 31
 elevation 44
+end
+arch light3
+x 10
+y 32
 end
 arch cobblestones
 x 10
@@ -3209,6 +3236,10 @@ arch cobblestones
 x 12
 y 32
 end
+arch light3
+x 12
+y 33
+end
 arch cobblestones
 x 12
 y 33
@@ -3729,6 +3760,10 @@ arch desert
 x 14
 y 31
 elevation 10
+end
+arch light3
+x 14
+y 32
 end
 arch cobblestones
 x 14
@@ -4260,6 +4295,10 @@ arch cobblestones
 x 16
 y 32
 end
+arch light3
+x 16
+y 33
+end
 arch cobblestones
 x 16
 y 33
@@ -4774,6 +4813,10 @@ x 18
 y 31
 elevation 4325
 end
+arch light3
+x 18
+y 32
+end
 arch cobblestones
 x 18
 y 32
@@ -4781,6 +4824,10 @@ end
 arch cobblestones
 x 18
 y 33
+end
+arch light3
+x 18
+y 34
 end
 arch cobblestones
 x 18
@@ -5299,6 +5346,10 @@ arch mountain
 x 20
 y 32
 elevation 5510
+end
+arch light3
+x 20
+y 33
 end
 arch cobblestones
 x 20
@@ -5838,6 +5889,10 @@ arch cobblestones
 x 22
 y 33
 end
+arch light3
+x 22
+y 34
+end
 arch cobblestones
 x 22
 y 34
@@ -6343,6 +6398,10 @@ arch jungle_1
 x 24
 y 32
 elevation 2436
+end
+arch light3
+x 24
+y 33
 end
 arch cobblestones
 x 24
@@ -6850,6 +6909,10 @@ arch cobblestones
 x 26
 y 33
 end
+arch light3
+x 26
+y 34
+end
 arch cobblestones
 x 26
 y 34
@@ -7347,6 +7410,10 @@ arch mountain
 x 28
 y 32
 elevation 5586
+end
+arch light3
+x 28
+y 33
 end
 arch cobblestones
 x 28
@@ -7876,6 +7943,10 @@ end
 arch cobblestones
 x 30
 y 33
+end
+arch light3
+x 30
+y 34
 end
 arch cobblestones
 x 30
@@ -8415,6 +8486,10 @@ x 32
 y 32
 elevation 4402
 end
+arch light3
+x 32
+y 33
+end
 arch cobblestones
 x 32
 y 33
@@ -8913,6 +8988,10 @@ arch cobblestones
 x 34
 y 33
 end
+arch light3
+x 34
+y 34
+end
 arch cobblestones
 x 34
 y 34
@@ -9402,6 +9481,10 @@ arch hills_rocky
 x 36
 y 32
 elevation 3632
+end
+arch light3
+x 36
+y 33
 end
 arch cobblestones
 x 36
@@ -9901,6 +9984,10 @@ arch cobblestones
 x 38
 y 33
 end
+arch light3
+x 38
+y 34
+end
 arch cobblestones
 x 38
 y 34
@@ -10390,6 +10477,10 @@ arch hills_rocky
 x 40
 y 32
 elevation 2091
+end
+arch light3
+x 40
+y 33
 end
 arch cobblestones
 x 40
@@ -10893,6 +10984,10 @@ arch cobblestones
 x 42
 y 33
 end
+arch light3
+x 42
+y 34
+end
 arch cobblestones
 x 42
 y 34
@@ -11382,6 +11477,10 @@ arch hills_rocky
 x 44
 y 32
 elevation 2289
+end
+arch light3
+x 44
+y 33
 end
 arch cobblestones
 x 44
@@ -11881,6 +11980,10 @@ arch cobblestones
 x 46
 y 33
 end
+arch light3
+x 46
+y 34
+end
 arch cobblestones
 x 46
 y 34
@@ -12371,6 +12474,10 @@ x 48
 y 32
 elevation 4149
 end
+arch light3
+x 48
+y 33
+end
 arch cobblestones
 x 48
 y 33
@@ -12621,6 +12728,10 @@ end
 arch cobblestones
 x 49
 y 33
+end
+arch light3
+x 49
+y 34
 end
 arch cobblestones
 x 49

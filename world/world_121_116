@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2022-03-18 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_121_115
@@ -9114,6 +9114,10 @@ arch cobblestones
 x 32
 y 43
 end
+arch light3
+x 32
+y 44
+end
 arch cobblestones
 x 32
 y 44
@@ -9134,6 +9138,10 @@ To go to Brest or Scorn, take the road south.
 endmsg
 x 32
 y 46
+end
+arch light3
+x 32
+y 47
 end
 arch cobblestones2
 x 32
@@ -9613,6 +9621,10 @@ arch cobblestones
 x 34
 y 44
 end
+arch light3
+x 34
+y 45
+end
 arch cobblestones2
 x 34
 y 45
@@ -9620,6 +9632,10 @@ end
 arch cobblestones2
 x 34
 y 46
+end
+arch light3
+x 34
+y 47
 end
 arch cobblestones2
 x 34

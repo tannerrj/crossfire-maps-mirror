@@ -7,7 +7,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-18 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_116_116
@@ -10773,6 +10773,9 @@ x 42
 y 49
 elevation 9976
 end
+arch light3
+x 43
+end
 arch cobblestones
 x 43
 end
@@ -11294,6 +11297,10 @@ arch woods_2
 x 45
 elevation 2426
 end
+arch light3
+x 45
+y 1
+end
 arch cobblestones
 x 45
 y 1
@@ -11301,6 +11308,10 @@ end
 arch cobblestones
 x 45
 y 2
+end
+arch light3
+x 45
+y 3
 end
 arch cobblestones
 x 45
@@ -11800,6 +11811,10 @@ x 47
 y 2
 elevation 4176
 end
+arch light3
+x 47
+y 3
+end
 arch cobblestones
 x 47
 y 3
@@ -11807,6 +11822,10 @@ end
 arch cobblestones
 x 47
 y 4
+end
+arch light3
+x 47
+y 5
 end
 arch cobblestones
 x 47
@@ -12308,6 +12327,10 @@ arch woods_2
 x 49
 y 4
 elevation 2666
+end
+arch light3
+x 49
+y 5
 end
 arch cobblestones
 x 49
