@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2021-07-27 rock808
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_115
@@ -8196,6 +8196,10 @@ arch tree3
 x 29
 y 22
 end
+arch light3
+x 29
+y 23
+end
 arch flagstone
 x 29
 y 23
@@ -8207,6 +8211,10 @@ end
 arch flagstone
 x 29
 y 25
+end
+arch light3
+x 29
+y 26
 end
 arch flagstone
 x 29
@@ -8224,6 +8232,10 @@ arch flagstone
 x 29
 y 29
 end
+arch light3
+x 29
+y 30
+end
 arch flagstone
 x 29
 y 30
@@ -8239,6 +8251,10 @@ end
 arch flagstone
 x 29
 y 33
+end
+arch light3
+x 29
+y 34
 end
 arch flagstone
 x 29
@@ -8256,6 +8272,10 @@ arch flagstone
 x 29
 y 37
 end
+arch light3
+x 29
+y 38
+end
 arch flagstone
 x 29
 y 38
@@ -8271,6 +8291,10 @@ end
 arch flagstone
 x 29
 y 41
+end
+arch light3
+x 29
+y 42
 end
 arch flagstone
 x 29
@@ -8288,6 +8312,10 @@ arch flagstone
 x 29
 y 45
 end
+arch light3
+x 29
+y 46
+end
 arch flagstone
 x 29
 y 46
@@ -8300,6 +8328,10 @@ arch flagstone
 x 29
 y 48
 end
+arch light3
+x 29
+y 49
+end
 arch flagstone
 x 29
 y 49
@@ -8310,6 +8342,10 @@ end
 arch flagstone
 x 30
 y 1
+end
+arch light3
+x 30
+y 2
 end
 arch flagstone
 x 30
@@ -8335,6 +8371,10 @@ arch flagstone
 x 30
 y 7
 end
+arch light3
+x 30
+y 8
+end
 arch flagstone
 x 30
 y 8
@@ -8342,6 +8382,10 @@ end
 arch flagstone
 x 30
 y 9
+end
+arch light3
+x 30
+y 10
 end
 arch flagstone
 x 30
@@ -8351,6 +8395,10 @@ arch flagstone
 x 30
 y 11
 end
+arch light3
+x 30
+y 12
+end
 arch flagstone
 x 30
 y 12
@@ -8358,6 +8406,10 @@ end
 arch flagstone
 x 30
 y 13
+end
+arch light3
+x 30
+y 14
 end
 arch flagstone
 x 30
@@ -8374,6 +8426,10 @@ end
 arch flagstone
 x 30
 y 17
+end
+arch light3
+x 30
+y 18
 end
 arch flagstone
 x 30
@@ -8391,6 +8447,10 @@ arch flagstone
 x 30
 y 21
 end
+arch light3
+x 30
+y 22
+end
 arch flagstone
 x 30
 y 22
@@ -8398,6 +8458,10 @@ end
 arch flagstone
 x 30
 y 23
+end
+arch light3
+x 30
+y 24
 end
 arch flagstone
 x 30
@@ -8415,6 +8479,10 @@ arch flagstone
 x 30
 y 27
 end
+arch light3
+x 30
+y 28
+end
 arch flagstone
 x 30
 y 28
@@ -8430,6 +8498,10 @@ end
 arch flagstone
 x 30
 y 31
+end
+arch light3
+x 30
+y 32
 end
 arch flagstone
 x 30
@@ -8447,6 +8519,10 @@ arch flagstone
 x 30
 y 35
 end
+arch light3
+x 30
+y 36
+end
 arch flagstone
 x 30
 y 36
@@ -8462,6 +8538,10 @@ end
 arch flagstone
 x 30
 y 39
+end
+arch light3
+x 30
+y 40
 end
 arch flagstone
 x 30
@@ -8479,6 +8559,10 @@ arch flagstone
 x 30
 y 43
 end
+arch light3
+x 30
+y 44
+end
 arch flagstone
 x 30
 y 44
@@ -8495,6 +8579,10 @@ arch flagstone
 x 30
 y 47
 end
+arch light3
+x 30
+y 48
+end
 arch flagstone
 x 30
 y 48
@@ -8502,6 +8590,9 @@ end
 arch flagstone
 x 30
 y 49
+end
+arch light3
+x 31
 end
 arch flagstone
 x 31
@@ -8518,6 +8609,10 @@ arch flagstone
 x 31
 y 3
 end
+arch light3
+x 31
+y 4
+end
 arch flagstone
 x 31
 y 4
@@ -8525,6 +8620,10 @@ end
 arch flagstone
 x 31
 y 5
+end
+arch light3
+x 31
+y 6
 end
 arch flagstone
 x 31
@@ -8566,6 +8665,10 @@ arch flagstone
 x 31
 y 15
 end
+arch light3
+x 31
+y 16
+end
 arch flagstone
 x 31
 y 16
@@ -8581,6 +8684,10 @@ end
 arch flagstone
 x 31
 y 19
+end
+arch light3
+x 31
+y 20
 end
 arch flagstone
 x 31

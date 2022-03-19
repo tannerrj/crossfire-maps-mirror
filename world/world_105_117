@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2019-12-29 Kevin Zheng
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_116
@@ -7256,6 +7256,9 @@ x 28
 y 49
 elevation 7554
 end
+arch light3
+x 29
+end
 arch flagstone
 x 29
 end
@@ -7270,6 +7273,10 @@ end
 arch flagstone
 x 29
 y 3
+end
+arch light3
+x 29
+y 4
 end
 arch flagstone
 x 29
@@ -7287,6 +7294,10 @@ arch flagstone
 x 29
 y 7
 end
+arch light3
+x 29
+y 8
+end
 arch flagstone
 x 29
 y 8
@@ -7302,6 +7313,10 @@ end
 arch flagstone
 x 29
 y 11
+end
+arch light3
+x 29
+y 12
 end
 arch flagstone
 x 29
@@ -7499,6 +7514,10 @@ arch flagstone
 x 30
 y 1
 end
+arch light3
+x 30
+y 2
+end
 arch flagstone
 x 30
 y 2
@@ -7515,6 +7534,10 @@ arch flagstone
 x 30
 y 5
 end
+arch light3
+x 30
+y 6
+end
 arch flagstone
 x 30
 y 6
@@ -7530,6 +7553,10 @@ end
 arch flagstone
 x 30
 y 9
+end
+arch light3
+x 30
+y 10
 end
 arch flagstone
 x 30
@@ -7786,9 +7813,17 @@ x 31
 y 11
 elevation 5384
 end
+arch light3
+x 31
+y 12
+end
 arch flagstone
 x 31
 y 12
+end
+arch light3
+x 31
+y 13
 end
 arch flagstone
 x 31
@@ -8041,6 +8076,10 @@ arch flagstone
 x 32
 y 13
 end
+arch light3
+x 32
+y 14
+end
 arch flagstone
 x 32
 y 14
@@ -8291,6 +8330,10 @@ arch flagstone
 x 33
 y 14
 end
+arch light3
+x 33
+y 15
+end
 arch flagstone
 x 33
 y 15
@@ -8298,6 +8341,10 @@ end
 arch flagstone
 x 33
 y 16
+end
+arch light3
+x 33
+y 17
 end
 arch flagstone
 x 33
@@ -8793,6 +8840,10 @@ x 35
 y 16
 elevation 5003
 end
+arch light3
+x 35
+y 17
+end
 arch flagstone
 x 35
 y 17
@@ -9043,6 +9094,10 @@ end
 arch flagstone
 x 36
 y 17
+end
+arch light3
+x 36
+y 18
 end
 arch flagstone
 x 36
@@ -9299,6 +9354,10 @@ arch flagstone
 x 37
 y 18
 end
+arch light3
+x 37
+y 19
+end
 arch flagstone
 x 37
 y 19
@@ -9545,6 +9604,10 @@ end
 arch flagstone
 x 38
 y 19
+end
+arch light3
+x 38
+y 20
 end
 arch flagstone
 x 38
@@ -9797,6 +9860,10 @@ x 39
 y 20
 elevation 2209
 end
+arch light3
+x 39
+y 21
+end
 arch flagstone
 x 39
 y 21
@@ -10046,6 +10113,10 @@ end
 arch flagstone
 x 40
 y 21
+end
+arch light3
+x 40
+y 22
 end
 arch flagstone
 x 40
@@ -10297,6 +10368,10 @@ end
 arch flagstone
 x 41
 y 22
+end
+arch light3
+x 41
+y 23
 end
 arch flagstone
 x 41
@@ -10787,6 +10862,10 @@ arch mountain
 x 43
 y 21
 elevation 5708
+end
+arch light3
+x 43
+y 22
 end
 arch flagstone
 x 43
@@ -11286,6 +11365,10 @@ arch flagstone
 x 45
 y 22
 end
+arch light3
+x 45
+y 23
+end
 arch flagstone
 x 45
 y 23
@@ -11775,6 +11858,10 @@ arch jungle_1
 x 47
 y 21
 elevation 1430
+end
+arch light3
+x 47
+y 22
 end
 arch flagstone
 x 47
@@ -12273,6 +12360,10 @@ end
 arch flagstone
 x 49
 y 22
+end
+arch light3
+x 49
+y 23
 end
 arch flagstone
 x 49

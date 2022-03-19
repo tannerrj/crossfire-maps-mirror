@@ -3,7 +3,7 @@ name world_106_121
 width 50
 height 50
 msg
-Modified: 2019-08-16 Kevin Zheng
+Modified: 2022-03-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_106_120
@@ -6952,6 +6952,10 @@ arch flagstone
 x 25
 y 45
 end
+arch light3
+x 25
+y 46
+end
 arch flagstone
 x 25
 y 46
@@ -6963,6 +6967,10 @@ end
 arch flagstone
 x 25
 y 48
+end
+arch light3
+x 25
+y 49
 end
 arch flagstone
 x 25
@@ -7162,6 +7170,10 @@ x 26
 y 38
 elevation 1806
 end
+arch light3
+x 26
+y 39
+end
 arch flagstone
 x 26
 y 39
@@ -7169,6 +7181,10 @@ end
 arch flagstone
 x 26
 y 40
+end
+arch light3
+x 26
+y 41
 end
 arch flagstone
 x 26
@@ -7186,6 +7202,10 @@ arch flagstone
 x 26
 y 44
 end
+arch light3
+x 26
+y 45
+end
 arch flagstone
 x 26
 y 45
@@ -7197,6 +7217,10 @@ end
 arch flagstone
 x 26
 y 47
+end
+arch light3
+x 26
+y 48
 end
 arch flagstone
 x 26
@@ -7394,6 +7418,10 @@ arch flagstone
 x 27
 y 37
 end
+arch light3
+x 27
+y 38
+end
 arch flagstone
 x 27
 y 38
@@ -7413,6 +7441,10 @@ end
 arch flagstone
 x 27
 y 42
+end
+arch light3
+x 27
+y 43
 end
 arch flagstone
 x 27
@@ -7627,6 +7659,10 @@ arch flagstone
 x 28
 y 36
 end
+arch light3
+x 28
+y 37
+end
 arch flagstone
 x 28
 y 37
@@ -7638,6 +7674,10 @@ end
 arch flagstone
 x 28
 y 39
+end
+arch light3
+x 28
+y 40
 end
 arch flagstone
 x 28
@@ -7799,6 +7839,10 @@ x 29
 y 19
 elevation 1889
 end
+arch light3
+x 29
+y 20
+end
 arch flagstone
 x 29
 y 20
@@ -7811,6 +7855,10 @@ arch flagstone
 x 29
 y 22
 end
+arch light3
+x 29
+y 23
+end
 arch flagstone
 x 29
 y 23
@@ -7818,6 +7866,10 @@ end
 arch flagstone
 x 29
 y 24
+end
+arch light3
+x 29
+y 25
 end
 arch cobblestones2
 x 29
@@ -7844,6 +7896,10 @@ arch flagstone
 x 29
 y 28
 end
+arch light3
+x 29
+y 29
+end
 arch flagstone
 x 29
 y 29
@@ -7860,6 +7916,10 @@ arch flagstone
 x 29
 y 32
 end
+arch light3
+x 29
+y 33
+end
 arch flagstone
 x 29
 y 33
@@ -7871,6 +7931,10 @@ end
 arch flagstone
 x 29
 y 35
+end
+arch light3
+x 29
+y 36
 end
 arch flagstone
 x 29
@@ -8065,6 +8129,10 @@ arch flagstone
 x 30
 y 18
 end
+arch light3
+x 30
+y 19
+end
 arch flagstone
 x 30
 y 19
@@ -8072,6 +8140,10 @@ end
 arch flagstone
 x 30
 y 20
+end
+arch light3
+x 30
+y 21
 end
 arch flagstone
 x 30
@@ -8085,6 +8157,10 @@ arch flagstone
 x 30
 y 23
 end
+arch light3
+x 30
+y 24
+end
 arch flagstone
 x 30
 y 24
@@ -8092,6 +8168,10 @@ end
 arch cobblestones2
 x 30
 y 25
+end
+arch light3
+x 30
+y 26
 end
 arch cobblestones2
 x 30
@@ -8113,6 +8193,10 @@ arch flagstone
 x 30
 y 30
 end
+arch light3
+x 30
+y 31
+end
 arch flagstone
 x 30
 y 31
@@ -8128,6 +8212,10 @@ end
 arch flagstone
 x 30
 y 34
+end
+arch light3
+x 30
+y 35
 end
 arch flagstone
 x 30
@@ -8275,6 +8363,10 @@ arch flagstone
 x 31
 y 10
 end
+arch light3
+x 31
+y 11
+end
 arch flagstone
 x 31
 y 11
@@ -8291,6 +8383,10 @@ arch flagstone
 x 31
 y 14
 end
+arch light3
+x 31
+y 15
+end
 arch flagstone
 x 31
 y 15
@@ -8302,6 +8398,10 @@ end
 arch flagstone
 x 31
 y 17
+end
+arch light3
+x 31
+y 18
 end
 arch flagstone
 x 31
@@ -8342,6 +8442,10 @@ end
 arch cobblestones2
 x 31
 y 26
+end
+arch light3
+x 31
+y 27
 end
 arch cobblestones2
 x 31
@@ -8529,6 +8633,10 @@ arch flagstone
 x 32
 y 9
 end
+arch light3
+x 32
+y 10
+end
 arch flagstone
 x 32
 y 10
@@ -8540,6 +8648,10 @@ end
 arch flagstone
 x 32
 y 12
+end
+arch light3
+x 32
+y 13
 end
 arch flagstone
 x 32
@@ -8556,6 +8668,10 @@ end
 arch flagstone
 x 32
 y 16
+end
+arch light3
+x 32
+y 17
 end
 arch flagstone
 x 32
@@ -8801,6 +8917,10 @@ arch flagstone
 x 33
 y 8
 end
+arch light3
+x 33
+y 9
+end
 arch flagstone
 x 33
 y 9
@@ -9029,6 +9149,9 @@ x 33
 y 49
 elevation 3910
 end
+arch light3
+x 34
+end
 arch flagstone
 x 34
 end
@@ -9043,6 +9166,10 @@ end
 arch flagstone
 x 34
 y 3
+end
+arch light3
+x 34
+y 4
 end
 arch flagstone
 x 34
@@ -9059,6 +9186,10 @@ end
 arch flagstone
 x 34
 y 7
+end
+arch light3
+x 34
+y 8
 end
 arch flagstone
 x 34
@@ -9313,6 +9444,10 @@ arch flagstone
 x 35
 y 1
 end
+arch light3
+x 35
+y 2
+end
 arch flagstone
 x 35
 y 2
@@ -9328,6 +9463,10 @@ end
 arch flagstone
 x 35
 y 5
+end
+arch light3
+x 35
+y 6
 end
 arch flagstone
 x 35
