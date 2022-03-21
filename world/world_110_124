@@ -3,7 +3,7 @@ name world_110_124
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-21 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_110_123
@@ -5204,6 +5204,9 @@ x 20
 y 49
 elevation 20378
 end
+arch light3
+x 21
+end
 arch flagstone
 x 21
 end
@@ -5218,6 +5221,10 @@ end
 arch flagstone
 x 21
 y 3
+end
+arch light3
+x 21
+y 4
 end
 arch flagstone
 x 21
@@ -5235,6 +5242,10 @@ arch flagstone
 x 21
 y 7
 end
+arch light3
+x 21
+y 8
+end
 arch flagstone
 x 21
 y 8
@@ -5251,6 +5262,10 @@ arch flagstone
 x 21
 y 11
 end
+arch light3
+x 21
+y 12
+end
 arch flagstone
 x 21
 y 12
@@ -5262,6 +5277,10 @@ end
 arch flagstone
 x 21
 y 14
+end
+arch light3
+x 21
+y 15
 end
 arch flagstone
 x 21
@@ -5278,6 +5297,10 @@ end
 arch flagstone
 x 21
 y 18
+end
+arch light3
+x 21
+y 19
 end
 arch flagstone
 x 21
@@ -5438,6 +5461,10 @@ arch flagstone
 x 22
 y 1
 end
+arch light3
+x 22
+y 2
+end
 arch flagstone
 x 22
 y 2
@@ -5453,6 +5480,10 @@ end
 arch flagstone
 x 22
 y 5
+end
+arch light3
+x 22
+y 6
 end
 arch flagstone
 x 22
@@ -5470,6 +5501,10 @@ arch flagstone
 x 22
 y 9
 end
+arch light3
+x 22
+y 10
+end
 arch flagstone
 x 22
 y 10
@@ -5486,6 +5521,10 @@ arch flagstone
 x 22
 y 13
 end
+arch light3
+x 22
+y 14
+end
 arch flagstone
 x 22
 y 14
@@ -5497,6 +5536,10 @@ end
 arch flagstone
 x 22
 y 16
+end
+arch light3
+x 22
+y 17
 end
 arch flagstone
 x 22
@@ -5510,6 +5553,10 @@ arch flagstone
 x 22
 y 19
 end
+arch light3
+x 22
+y 20
+end
 arch flagstone
 x 22
 y 20
@@ -5521,6 +5568,10 @@ end
 arch flagstone
 x 22
 y 22
+end
+arch light3
+x 22
+y 23
 end
 arch flagstone
 x 22
@@ -5617,6 +5668,10 @@ arch flagstone
 x 22
 y 42
 end
+arch light3
+x 22
+y 43
+end
 arch flagstone
 x 22
 y 43
@@ -5632,6 +5687,10 @@ end
 arch flagstone
 x 22
 y 46
+end
+arch light3
+x 22
+y 47
 end
 arch flagstone
 x 22
@@ -5748,6 +5807,10 @@ arch flagstone
 x 23
 y 20
 end
+arch light3
+x 23
+y 21
+end
 arch flagstone
 x 23
 y 21
@@ -5764,6 +5827,10 @@ arch flagstone
 x 23
 y 24
 end
+arch light3
+x 23
+y 25
+end
 arch flagstone
 x 23
 y 25
@@ -5775,6 +5842,10 @@ end
 arch flagstone
 x 23
 y 27
+end
+arch light3
+x 23
+y 28
 end
 arch flagstone
 x 23
@@ -5792,6 +5863,10 @@ arch flagstone
 x 23
 y 31
 end
+arch light3
+x 23
+y 32
+end
 arch flagstone
 x 23
 y 32
@@ -5807,6 +5882,10 @@ end
 arch flagstone
 x 23
 y 35
+end
+arch light3
+x 23
+y 36
 end
 arch flagstone
 x 23
@@ -5824,6 +5903,10 @@ arch flagstone
 x 23
 y 39
 end
+arch light3
+x 23
+y 40
+end
 arch flagstone
 x 23
 y 40
@@ -5831,6 +5914,10 @@ end
 arch flagstone
 x 23
 y 41
+end
+arch light3
+x 23
+y 42
 end
 arch flagstone
 x 23
@@ -5843,6 +5930,10 @@ end
 arch flagstone
 x 23
 y 44
+end
+arch light3
+x 23
+y 45
 end
 arch flagstone
 x 23
@@ -5859,6 +5950,10 @@ end
 arch flagstone
 x 23
 y 48
+end
+arch light3
+x 23
+y 49
 end
 arch flagstone
 x 23
@@ -5992,6 +6087,10 @@ arch flagstone
 x 24
 y 25
 end
+arch light3
+x 24
+y 26
+end
 arch flagstone
 x 24
 y 26
@@ -6007,6 +6106,10 @@ end
 arch flagstone
 x 24
 y 29
+end
+arch light3
+x 24
+y 30
 end
 arch flagstone
 x 24
@@ -6024,6 +6127,10 @@ arch flagstone
 x 24
 y 33
 end
+arch light3
+x 24
+y 34
+end
 arch flagstone
 x 24
 y 34
@@ -6040,6 +6147,10 @@ arch flagstone
 x 24
 y 37
 end
+arch light3
+x 24
+y 38
+end
 arch flagstone
 x 24
 y 38
@@ -6051,6 +6162,10 @@ end
 arch flagstone
 x 24
 y 40
+end
+arch light3
+x 24
+y 41
 end
 arch flagstone
 x 24

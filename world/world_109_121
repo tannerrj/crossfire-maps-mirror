@@ -3,7 +3,7 @@ name world_109_121
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-21 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_109_120
@@ -116,6 +116,9 @@ y 22
 end
 arch flagstone
 y 23
+end
+arch light3
+y 24
 end
 arch flagstone
 y 24
@@ -365,6 +368,10 @@ end
 arch flagstone
 x 1
 y 22
+end
+arch light3
+x 1
+y 23
 end
 arch flagstone
 x 1
@@ -653,6 +660,10 @@ end
 arch flagstone
 x 2
 y 21
+end
+arch light3
+x 2
+y 22
 end
 arch flagstone
 x 2
@@ -965,6 +976,10 @@ end
 arch flagstone
 x 3
 y 20
+end
+arch light3
+x 3
+y 21
 end
 arch flagstone
 x 3
@@ -1286,6 +1301,10 @@ end
 arch evergreens2
 x 4
 y 19
+end
+arch light3
+x 4
+y 20
 end
 arch flagstone
 x 4
@@ -1612,6 +1631,10 @@ end
 arch evergreens2
 x 5
 y 18
+end
+arch light3
+x 5
+y 19
 end
 arch flagstone
 x 5
@@ -2262,6 +2285,10 @@ arch flagstone
 x 7
 y 19
 end
+arch light3
+x 7
+y 20
+end
 arch flagstone
 x 7
 y 20
@@ -2846,6 +2873,10 @@ end
 arch evergreens2
 x 9
 y 18
+end
+arch light3
+x 9
+y 19
 end
 arch flagstone
 x 9
@@ -3487,6 +3518,10 @@ end
 arch flagstone
 x 11
 y 19
+end
+arch light3
+x 11
+y 20
 end
 arch flagstone
 x 11
@@ -4182,6 +4217,10 @@ arch evergreens2
 x 13
 y 18
 end
+arch light3
+x 13
+y 19
+end
 arch flagstone
 x 13
 y 19
@@ -4854,6 +4893,10 @@ arch flagstone
 x 15
 y 19
 end
+arch light3
+x 15
+y 20
+end
 arch flagstone
 x 15
 y 20
@@ -5507,6 +5550,10 @@ arch deep_swamp
 x 17
 y 18
 elevation 9
+end
+arch light3
+x 17
+y 19
 end
 arch flagstone
 x 17
@@ -6170,6 +6217,10 @@ arch flagstone
 x 19
 y 19
 end
+arch light3
+x 19
+y 20
+end
 arch flagstone
 x 19
 y 20
@@ -6779,6 +6830,10 @@ x 21
 y 18
 elevation 1259
 end
+arch light3
+x 21
+y 19
+end
 arch flagstone
 x 21
 y 19
@@ -7085,6 +7140,10 @@ arch jungle_2
 x 22
 y 19
 elevation 466
+end
+arch light3
+x 22
+y 20
 end
 arch flagstone
 x 22
@@ -7396,6 +7455,10 @@ end
 arch flagstone
 x 23
 y 20
+end
+arch light3
+x 23
+y 21
 end
 arch flagstone
 x 23
@@ -7712,6 +7775,10 @@ arch flagstone
 x 24
 y 21
 end
+arch light3
+x 24
+y 22
+end
 arch flagstone
 x 24
 y 22
@@ -8018,6 +8085,10 @@ arch flagstone
 x 25
 y 22
 end
+arch light3
+x 25
+y 23
+end
 arch flagstone
 x 25
 y 23
@@ -8029,6 +8100,10 @@ end
 arch flagstone
 x 25
 y 25
+end
+arch light3
+x 25
+y 26
 end
 arch flagstone
 x 25
@@ -8046,6 +8121,10 @@ arch flagstone
 x 25
 y 29
 end
+arch light3
+x 25
+y 30
+end
 arch flagstone
 x 25
 y 30
@@ -8061,6 +8140,10 @@ end
 arch flagstone
 x 25
 y 33
+end
+arch light3
+x 25
+y 34
 end
 arch flagstone
 x 25
@@ -8085,6 +8168,10 @@ end
 arch flagstone
 x 25
 y 39
+end
+arch light3
+x 25
+y 40
 end
 arch flagstone
 x 25
@@ -8278,6 +8365,10 @@ arch flagstone
 x 26
 y 23
 end
+arch light3
+x 26
+y 24
+end
 arch flagstone
 x 26
 y 24
@@ -8293,6 +8384,10 @@ end
 arch flagstone
 x 26
 y 27
+end
+arch light3
+x 26
+y 28
 end
 arch flagstone
 x 26
@@ -8310,6 +8405,10 @@ arch flagstone
 x 26
 y 31
 end
+arch light3
+x 26
+y 32
+end
 arch flagstone
 x 26
 y 32
@@ -8326,6 +8425,10 @@ arch flagstone
 x 26
 y 35
 end
+arch light3
+x 26
+y 36
+end
 arch flagstone
 x 26
 y 36
@@ -8333,6 +8436,10 @@ end
 arch flagstone
 x 26
 y 37
+end
+arch light3
+x 26
+y 38
 end
 arch flagstone
 x 26
@@ -8346,13 +8453,25 @@ arch flagstone
 x 26
 y 40
 end
-arch flagstone
+arch light3
 x 26
 y 41
 end
 arch flagstone
 x 26
+y 41
+end
+arch light3
+x 26
 y 42
+end
+arch flagstone
+x 26
+y 42
+end
+arch light3
+x 26
+y 43
 end
 arch flagstone
 x 26
@@ -8369,6 +8488,10 @@ end
 arch flagstone
 x 26
 y 46
+end
+arch light3
+x 26
+y 47
 end
 arch flagstone
 x 26
@@ -8647,6 +8770,10 @@ arch flagstone
 x 27
 y 44
 end
+arch light3
+x 27
+y 45
+end
 arch flagstone
 x 27
 y 45
@@ -8662,6 +8789,10 @@ end
 arch flagstone
 x 27
 y 48
+end
+arch light3
+x 27
+y 49
 end
 arch flagstone
 x 27

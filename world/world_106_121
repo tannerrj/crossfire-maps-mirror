@@ -3,7 +3,7 @@ name world_106_121
 width 50
 height 50
 msg
-Modified: 2022-03-19 Rick Tanner
+Modified: 2022-03-21 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_106_120
@@ -8716,6 +8716,10 @@ x 32
 y 25
 elevation 804
 end
+arch light3
+x 32
+y 26
+end
 arch flagstone
 x 32
 y 26
@@ -9283,6 +9287,10 @@ arch flagstone
 x 34
 y 26
 end
+arch light3
+x 34
+y 27
+end
 arch flagstone
 x 34
 y 27
@@ -9835,6 +9843,10 @@ arch hills_rocky
 x 36
 y 25
 elevation 1134
+end
+arch light3
+x 36
+y 26
 end
 arch flagstone
 x 36
@@ -10390,6 +10402,10 @@ arch flagstone
 x 38
 y 26
 end
+arch light3
+x 38
+y 27
+end
 arch flagstone
 x 38
 y 27
@@ -10895,6 +10911,10 @@ arch steppe
 x 40
 y 25
 elevation 4327
+end
+arch light3
+x 40
+y 26
 end
 arch flagstone
 x 40
@@ -11405,6 +11425,10 @@ end
 arch flagstone
 x 42
 y 26
+end
+arch light3
+x 42
+y 27
 end
 arch flagstone
 x 42
@@ -11950,6 +11974,10 @@ x 44
 y 25
 elevation 5920
 end
+arch light3
+x 44
+y 26
+end
 arch flagstone
 x 44
 y 26
@@ -12470,6 +12498,10 @@ end
 arch flagstone
 x 46
 y 26
+end
+arch light3
+x 46
+y 27
 end
 arch flagstone
 x 46
@@ -13003,6 +13035,10 @@ x 48
 y 25
 elevation 3792
 end
+arch light3
+x 48
+y 26
+end
 arch flagstone
 x 48
 y 26
@@ -13272,6 +13308,10 @@ end
 arch flagstone
 x 49
 y 26
+end
+arch light3
+x 49
+y 27
 end
 arch flagstone
 x 49

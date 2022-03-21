@@ -3,7 +3,7 @@ name world_108_121
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-21 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_108_120
@@ -128,6 +128,9 @@ elevation 3113
 end
 arch flagstone
 y 24
+end
+arch light3
+y 25
 end
 arch flagstone
 y 25
@@ -641,6 +644,10 @@ x 2
 y 23
 elevation 2853
 end
+arch light3
+x 2
+y 24
+end
 arch flagstone
 x 2
 y 24
@@ -1151,6 +1158,10 @@ arch flagstone
 x 4
 y 24
 end
+arch light3
+x 4
+y 25
+end
 arch flagstone
 x 4
 y 25
@@ -1640,6 +1651,10 @@ arch woods_2
 x 6
 y 23
 elevation 2664
+end
+arch light3
+x 6
+y 24
 end
 arch flagstone
 x 6
@@ -2143,6 +2158,10 @@ arch flagstone
 x 8
 y 24
 end
+arch light3
+x 8
+y 25
+end
 arch flagstone
 x 8
 y 25
@@ -2640,6 +2659,10 @@ arch jungle_1
 x 10
 y 23
 elevation 1483
+end
+arch light3
+x 10
+y 24
 end
 arch flagstone
 x 10
@@ -3151,6 +3174,10 @@ arch flagstone
 x 12
 y 24
 end
+arch light3
+x 12
+y 25
+end
 arch flagstone
 x 12
 y 25
@@ -3648,6 +3675,10 @@ arch jungle_1
 x 14
 y 23
 elevation 1974
+end
+arch light3
+x 14
+y 24
 end
 arch flagstone
 x 14
@@ -4173,6 +4204,10 @@ arch flagstone
 x 16
 y 24
 end
+arch light3
+x 16
+y 25
+end
 arch flagstone
 x 16
 y 25
@@ -4678,6 +4713,10 @@ arch jungle_1
 x 18
 y 23
 elevation 2688
+end
+arch light3
+x 18
+y 24
 end
 arch flagstone
 x 18
@@ -5269,6 +5308,10 @@ arch flagstone
 x 20
 y 24
 end
+arch light3
+x 20
+y 25
+end
 arch flagstone
 x 20
 y 25
@@ -5807,6 +5850,10 @@ x 22
 y 23
 elevation 1088
 end
+arch light3
+x 22
+y 24
+end
 arch flagstone
 x 22
 y 24
@@ -6324,6 +6371,10 @@ x 24
 y 22
 elevation 1656
 end
+arch light3
+x 24
+y 23
+end
 arch flagstone
 x 24
 y 23
@@ -6331,6 +6382,10 @@ end
 arch flagstone
 x 24
 y 24
+end
+arch light3
+x 24
+y 25
 end
 arch flagstone
 x 24
@@ -6868,6 +6923,10 @@ end
 arch flagstone
 x 26
 y 23
+end
+arch light3
+x 26
+y 24
 end
 arch flagstone
 x 26
@@ -7410,6 +7469,10 @@ arch brush
 x 28
 y 22
 elevation 358
+end
+arch light3
+x 28
+y 23
 end
 arch flagstone
 x 28
@@ -7957,6 +8020,10 @@ arch flagstone
 x 30
 y 23
 end
+arch light3
+x 30
+y 24
+end
 arch flagstone
 x 30
 y 24
@@ -8458,6 +8525,10 @@ arch brush
 x 32
 y 22
 elevation 514
+end
+arch light3
+x 32
+y 23
 end
 arch flagstone
 x 32
@@ -9009,6 +9080,10 @@ arch flagstone
 x 34
 y 23
 end
+arch light3
+x 34
+y 24
+end
 arch flagstone
 x 34
 y 24
@@ -9531,6 +9606,10 @@ x 36
 y 22
 elevation 987
 end
+arch light3
+x 36
+y 23
+end
 arch flagstone
 x 36
 y 23
@@ -9789,6 +9868,10 @@ end
 arch flagstone
 x 37
 y 23
+end
+arch light3
+x 37
+y 24
 end
 arch flagstone
 x 37
@@ -10296,6 +10379,10 @@ x 39
 y 22
 elevation 496
 end
+arch light3
+x 39
+y 23
+end
 arch flagstone
 x 39
 y 23
@@ -10794,6 +10881,10 @@ arch flagstone
 x 41
 y 23
 end
+arch light3
+x 41
+y 24
+end
 arch flagstone
 x 41
 y 24
@@ -11283,6 +11374,10 @@ arch grass
 x 43
 y 22
 elevation 22
+end
+arch light3
+x 43
+y 23
 end
 arch flagstone
 x 43
@@ -11782,6 +11877,10 @@ arch flagstone
 x 45
 y 23
 end
+arch light3
+x 45
+y 24
+end
 arch flagstone
 x 45
 y 24
@@ -12272,6 +12371,10 @@ x 47
 y 22
 elevation 904
 end
+arch light3
+x 47
+y 23
+end
 arch flagstone
 x 47
 y 23
@@ -12523,6 +12626,10 @@ arch flagstone
 x 48
 y 23
 end
+arch light3
+x 48
+y 24
+end
 arch flagstone
 x 48
 y 24
@@ -12765,6 +12872,10 @@ arch hills_rocky
 x 49
 y 22
 elevation 1831
+end
+arch light3
+x 49
+y 23
 end
 arch flagstone
 x 49
