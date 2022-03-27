@@ -4,7 +4,7 @@ region marksel
 width 50
 height 50
 msg
-Modified: 2020-12-20 SilverNexus
+Modified: 2022-03-27 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_120_109
@@ -10570,9 +10570,12 @@ x 39
 y 49
 elevation 2461
 end
-arch cobblestones
+arch light3
 x 40
 elevation 2034
+end
+arch cobblestones
+x 40
 end
 arch cobblestones
 x 40
@@ -10586,6 +10589,10 @@ end
 arch cobblestones
 x 40
 y 3
+end
+arch light3
+x 40
+y 4
 end
 arch cobblestones
 x 40
@@ -10602,6 +10609,10 @@ end
 arch cobblestones
 x 40
 y 7
+end
+arch light3
+x 40
+y 8
 end
 arch cobblestones
 x 40
@@ -10852,6 +10863,10 @@ x 41
 y 1
 elevation 2103
 end
+arch light3
+x 41
+y 2
+end
 arch cobblestones
 x 41
 y 2
@@ -10868,6 +10883,10 @@ arch cobblestones
 x 41
 y 5
 end
+arch light3
+x 41
+y 6
+end
 arch cobblestones
 x 41
 y 6
@@ -10879,6 +10898,10 @@ end
 arch cobblestones
 x 41
 y 8
+end
+arch light3
+x 41
+y 9
 end
 arch cobblestones
 x 41
@@ -11167,6 +11190,10 @@ arch cobblestones
 x 42
 y 9
 end
+arch light3
+x 42
+y 10
+end
 arch cobblestones
 x 42
 y 10
@@ -11442,6 +11469,10 @@ arch cobblestones
 x 43
 y 10
 end
+arch light3
+x 43
+y 11
+end
 arch cobblestones
 x 43
 y 11
@@ -11692,6 +11723,10 @@ end
 arch cobblestones
 x 44
 y 11
+end
+arch light3
+x 44
+y 12
 end
 arch cobblestones
 x 44
@@ -11956,6 +11991,10 @@ arch cobblestones
 x 45
 y 12
 end
+arch light3
+x 45
+y 13
+end
 arch cobblestones
 x 45
 y 13
@@ -12218,6 +12257,10 @@ end
 arch cobblestones
 x 46
 y 13
+end
+arch light3
+x 46
+y 14
 end
 arch cobblestones
 x 46
@@ -12488,6 +12531,10 @@ end
 arch cobblestones
 x 47
 y 14
+end
+arch light3
+x 47
+y 15
 end
 arch cobblestones
 x 47
@@ -13038,6 +13085,10 @@ arch hills_rocky
 x 49
 y 13
 elevation 3437
+end
+arch light3
+x 49
+y 14
 end
 arch cobblestones
 x 49

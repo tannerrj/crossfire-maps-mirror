@@ -3,7 +3,7 @@ name world_121_110
 width 50
 height 50
 msg
-Modified: 2020-12-20 SilverNexus
+Modified: 2022-03-27 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_121_109
@@ -69,9 +69,12 @@ end
 arch tree5
 y 13
 end
-arch cobblestones
+arch light3
 y 14
 elevation 2535
+end
+arch cobblestones
+y 14
 end
 arch cobblestones
 y 15
@@ -306,10 +309,14 @@ x 1
 y 14
 elevation 2406
 end
-arch cobblestones
+arch light3
 x 1
 y 15
 elevation 2406
+end
+arch cobblestones
+x 1
+y 15
 end
 arch hills
 x 1
@@ -845,6 +852,10 @@ arch tree5
 x 3
 y 13
 end
+arch light3
+x 3
+y 14
+end
 arch cobblestones
 x 3
 y 14
@@ -1378,6 +1389,10 @@ arch cobblestones
 x 5
 y 14
 end
+arch light3
+x 5
+y 15
+end
 arch cobblestones
 x 5
 y 15
@@ -1896,6 +1911,10 @@ arch tree5
 x 7
 y 13
 end
+arch light3
+x 7
+y 14
+end
 arch cobblestones
 x 7
 y 14
@@ -2162,6 +2181,10 @@ end
 arch cobblestones
 x 8
 y 14
+end
+arch light3
+x 8
+y 15
 end
 arch cobblestones
 x 8
@@ -2679,6 +2702,10 @@ arch grass
 x 10
 y 13
 elevation 50
+end
+arch light3
+x 10
+y 14
 end
 arch cobblestones
 x 10
@@ -3200,6 +3227,10 @@ end
 arch cobblestones
 x 12
 y 14
+end
+arch light3
+x 12
+y 15
 end
 arch cobblestones
 x 12
@@ -3727,6 +3758,10 @@ x 14
 y 13
 elevation 2644
 end
+arch light3
+x 14
+y 14
+end
 arch cobblestones
 x 14
 y 14
@@ -4245,6 +4280,10 @@ arch cobblestones
 x 16
 y 14
 end
+arch light3
+x 16
+y 15
+end
 arch cobblestones
 x 16
 y 15
@@ -4495,6 +4534,10 @@ end
 arch cobblestones
 x 17
 y 15
+end
+arch light3
+x 17
+y 16
 end
 arch cobblestones
 x 17
@@ -4751,6 +4794,10 @@ arch cobblestones
 x 18
 y 16
 end
+arch light3
+x 18
+y 17
+end
 arch cobblestones
 x 18
 y 17
@@ -5001,6 +5048,10 @@ end
 arch cobblestones
 x 19
 y 17
+end
+arch light3
+x 19
+y 18
 end
 arch cobblestones
 x 19
@@ -5261,6 +5312,10 @@ arch cobblestones
 x 20
 y 18
 end
+arch light3
+x 20
+y 19
+end
 arch cobblestones
 x 20
 y 19
@@ -5519,6 +5574,10 @@ end
 arch cobblestones
 x 21
 y 19
+end
+arch light3
+x 21
+y 20
 end
 arch cobblestones
 x 21
@@ -5783,6 +5842,10 @@ arch cobblestones
 x 22
 y 20
 end
+arch light3
+x 22
+y 21
+end
 arch cobblestones
 x 22
 y 21
@@ -6037,6 +6100,10 @@ end
 arch cobblestones
 x 23
 y 21
+end
+arch light3
+x 23
+y 22
 end
 arch cobblestones
 x 23
@@ -6297,6 +6364,10 @@ arch cobblestones
 x 24
 y 22
 end
+arch light3
+x 24
+y 23
+end
 arch cobblestones
 x 24
 y 23
@@ -6552,9 +6623,17 @@ arch cobblestones
 x 25
 y 23
 end
+arch light3
+x 25
+y 24
+end
 arch cobblestones
 x 25
 y 24
+end
+arch light3
+x 25
+y 25
 end
 arch cobblestones
 x 25
@@ -6818,6 +6897,10 @@ arch cobblestones
 x 26
 y 25
 end
+arch light3
+x 26
+y 26
+end
 arch cobblestones
 x 26
 y 26
@@ -6829,6 +6912,10 @@ end
 arch cobblestones
 x 26
 y 28
+end
+arch light3
+x 26
+y 29
 end
 arch cobblestones
 x 26
@@ -6846,6 +6933,10 @@ arch cobblestones
 x 26
 y 32
 end
+arch light3
+x 26
+y 33
+end
 arch cobblestones
 x 26
 y 33
@@ -6861,6 +6952,10 @@ end
 arch cobblestones
 x 26
 y 36
+end
+arch light3
+x 26
+y 37
 end
 arch cobblestones
 x 26
@@ -7066,6 +7161,10 @@ arch cobblestones
 x 27
 y 26
 end
+arch light3
+x 27
+y 27
+end
 arch cobblestones
 x 27
 y 27
@@ -7081,6 +7180,10 @@ end
 arch cobblestones
 x 27
 y 30
+end
+arch light3
+x 27
+y 31
 end
 arch cobblestones
 x 27
@@ -7098,6 +7201,10 @@ arch cobblestones
 x 27
 y 34
 end
+arch light3
+x 27
+y 35
+end
 arch cobblestones
 x 27
 y 35
@@ -7110,6 +7217,10 @@ arch cobblestones
 x 27
 y 37
 end
+arch light3
+x 27
+y 38
+end
 arch cobblestones
 x 27
 y 38
@@ -7121,6 +7232,10 @@ end
 arch cobblestones
 x 27
 y 40
+end
+arch light3
+x 27
+y 41
 end
 arch cobblestones
 x 27
@@ -7138,6 +7253,10 @@ arch cobblestones
 x 27
 y 44
 end
+arch light3
+x 27
+y 45
+end
 arch cobblestones
 x 27
 y 45
@@ -7153,6 +7272,10 @@ end
 arch cobblestones
 x 27
 y 48
+end
+arch light3
+x 27
+y 49
 end
 arch cobblestones
 x 27
@@ -7351,6 +7474,10 @@ arch cobblestones
 x 28
 y 38
 end
+arch light3
+x 28
+y 39
+end
 arch cobblestones
 x 28
 y 39
@@ -7367,6 +7494,10 @@ arch cobblestones
 x 28
 y 42
 end
+arch light3
+x 28
+y 43
+end
 arch cobblestones
 x 28
 y 43
@@ -7382,6 +7513,10 @@ end
 arch cobblestones
 x 28
 y 46
+end
+arch light3
+x 28
+y 47
 end
 arch cobblestones
 x 28

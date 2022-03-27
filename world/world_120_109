@@ -4,7 +4,7 @@ region marksel
 width 50
 height 50
 msg
-Modified: 2021-03-09 Daniel Hawkins
+Modified: 2022-03-27 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_120_108
@@ -10710,10 +10710,14 @@ name outpost
 x 40
 y 45
 end
-arch cobblestones
+arch light3
 x 40
 y 46
 elevation 1909
+end
+arch cobblestones
+x 40
+y 46
 end
 arch cobblestones
 x 40
@@ -10725,10 +10729,14 @@ x 40
 y 48
 elevation 1140
 end
-arch cobblestones
+arch light3
 x 40
 y 49
 elevation 1698
+end
+arch cobblestones
+x 40
+y 49
 end
 arch mountain
 x 41
@@ -10930,40 +10938,56 @@ sp 58
 x 41
 y 37
 end
-arch cobblestones
+arch light3
 x 41
 y 38
 elevation 4940
 end
 arch cobblestones
 x 41
+y 38
+end
+arch cobblestones
+x 41
 y 39
 elevation 3853
 end
-arch cobblestones
+arch light3
 x 41
 y 40
 elevation 2405
 end
 arch cobblestones
 x 41
+y 40
+end
+arch cobblestones
+x 41
 y 41
 elevation 1980
 end
-arch cobblestones
+arch light3
 x 41
 y 42
 elevation 1197
 end
 arch cobblestones
 x 41
+y 42
+end
+arch cobblestones
+x 41
 y 43
 elevation 1955
+end
+arch light3
+x 41
+y 44
+elevation 1854
 end
 arch cobblestones
 x 41
 y 44
-elevation 1854
 end
 arch cobblestones
 x 41
@@ -10975,10 +10999,14 @@ x 41
 y 46
 elevation 1814
 end
-arch cobblestones
+arch light3
 x 41
 y 47
 elevation 1624
+end
+arch cobblestones
+x 41
+y 47
 end
 arch cobblestones
 x 41
