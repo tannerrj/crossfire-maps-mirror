@@ -5,7 +5,7 @@ region darcap
 width 50
 height 50
 msg
-Modified: 2021-01-10 Nicolas Weeger
+Modified: 2022-03-27 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_116_101
@@ -7971,10 +7971,13 @@ x 27
 y 46
 elevation 0
 end
+arch light3
+x 27
+y 47
+end
 arch cobblestones
 x 27
 y 47
-elevation 0
 end
 arch cobblestones
 x 27
@@ -8329,10 +8332,13 @@ x 28
 y 47
 elevation 538
 end
+arch light3
+x 28
+y 48
+end
 arch cobblestones
 x 28
 y 48
-elevation 0
 end
 arch cobblestones
 x 28
@@ -8661,10 +8667,13 @@ x 29
 y 48
 elevation 1309
 end
+arch light3
+x 29
+y 49
+end
 arch cobblestones
 x 29
 y 49
-elevation 0
 end
 arch brush
 x 30

@@ -3,7 +3,7 @@ name world_119_106
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2022-03-27 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_119_105
@@ -11976,12 +11976,19 @@ x 44
 y 49
 elevation 13390
 end
+arch light3
+x 45
+end
 arch cobblestones
 x 45
 end
 arch cobblestones
 x 45
 y 1
+end
+arch light3
+x 45
+y 2
 end
 arch cobblestones
 x 45
@@ -11991,6 +11998,10 @@ arch cobblestones
 x 45
 y 3
 end
+arch light3
+x 45
+y 4
+end
 arch cobblestones
 x 45
 y 4
@@ -11998,6 +12009,10 @@ end
 arch cobblestones
 x 45
 y 5
+end
+arch light3
+x 45
+y 6
 end
 arch cobblestones
 x 45
@@ -12337,6 +12352,10 @@ arch tree3
 x 46
 y 6
 end
+arch light3
+x 46
+y 7
+end
 arch cobblestones
 x 46
 y 7
@@ -12635,6 +12654,10 @@ arch brush
 x 47
 y 7
 elevation 585
+end
+arch light3
+x 47
+y 8
 end
 arch cobblestones
 x 47
@@ -13221,6 +13244,10 @@ arch hills
 x 49
 y 7
 elevation 1007
+end
+arch light3
+x 49
+y 8
 end
 arch cobblestones
 x 49
