@@ -5,7 +5,7 @@ region euthville
 width 50
 height 50
 msg
-Modified: 2022-03-19 Rick Tanner
+Modified: 2022-04-17 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_112
@@ -6840,6 +6840,21 @@ arch cobblestones
 x 25
 y 14
 elevation 2176
+end
+arch cross_sign
+msg
+Welcome to the Ruins of Euthville!
+Follow the road ahead to the following destinations:
+The Kingdom of Scorn - 125 chains south
+Santo Dominion - 300 chains north
+Brest - 643 chains south
+Lake Country - 800 chains south
+Kingdom of Navar - 1073 chains south
+Hamlet of Lord Marksel - 1433 chains south
+The Sultanate of Darcap - 2138 chains south
+endmsg
+x 25
+y 14
 end
 arch light3
 x 25
