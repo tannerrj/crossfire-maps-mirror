@@ -5,7 +5,7 @@ region darcap
 width 50
 height 50
 msg
-Modified: 2022-03-27 Rick Tanner
+Modified: 2022-04-17 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_116_101
@@ -7658,12 +7658,39 @@ elevation 985
 end
 arch sign
 msg
-Welcome to Darcap!
-Navar City: 1065 chains southeast
+Welcome to The Sultanate of Darcap!
+Follow the road ahead to the following destinations:
+Hamlet of Lord Marksel - 473 chains south
+The Kingdom of Navar - 1065 chains south
+The Kingdom of Scorn - 2013 chains south
+Ruins of Euthville - 2138 chains south
+Santo Dominion - 2438 chains south
+Brest - 2531 chains south
+Lake Country - 2688 chains south
 endmsg
 x 26
 y 46
 elevation 985
+end
+arch cobblestones2
+x 26
+y 46
+end
+arch cross_sign
+msg
+Welcome to Navar City!
+
+Follow the road ahead to the following destinations:
+Hamlet of Lord Marksel - 360 chains north
+The Sultanate of Darcap - 1065 chains north
+The Kingdom of Scorn - 948 chains south
+Ruins of Euthville - 1073 chains south
+Santo Dominion - 1373 chains south
+Brest - 1466 chains south
+Lake Country - 1623 chains south
+endmsg
+x 26
+y 46
 end
 arch woods_2
 x 26
