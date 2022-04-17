@@ -4,7 +4,7 @@ region marksel
 width 50
 height 50
 msg
-Modified: 2022-03-27 Rick Tanner
+Modified: 2022-04-17 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_120_108
@@ -11012,6 +11012,20 @@ arch cobblestones
 x 41
 y 48
 elevation 1754
+end
+arch cross_sign
+msg
+Welcome to the Hamlet of Lord Marksel!
+Follow the road ahead to the following destinations:
+The Sultanate of Darcap - 473 chains north
+The Kingdom of Scorn - 1308 chains south
+Ruins of Euthville - 1433 chains south
+Santo Dominion - 1733 chains south
+Brest - 1826 chains south
+Lake Country - 1983 chains south
+endmsg
+x 41
+y 48
 end
 arch cobblestones
 x 41
