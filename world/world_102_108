@@ -8667,14 +8667,10 @@ x 29
 y 8
 elevation 3401
 end
-arch grass
+arch cobblestones
 x 29
 y 9
 elevation 3161
-end
-arch lamppost
-x 29
-y 9
 end
 arch cobblestones2
 x 29
@@ -8968,6 +8964,10 @@ arch grass
 x 30
 y 9
 elevation 2296
+end
+arch lamppost
+x 30
+y 9
 end
 arch light3
 x 30
