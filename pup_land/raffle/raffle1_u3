@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Created:  1997-02-27
-Modified: 2021-07-23 Saiapatsu
+Modified: 2022-04-17 DraugTheWhopper
 endmsg
 end
 arch blocked
@@ -660,15 +660,7 @@ arch cobblestones2
 x 5
 y 1
 end
-arch generate_giant
-x 5
-y 1
-end
 arch cobblestones2
-x 5
-y 2
-end
-arch generate_giant
 x 5
 y 2
 end
@@ -676,7 +668,7 @@ arch cobblestones2
 x 5
 y 3
 end
-arch generate_giant
+arch giant
 x 5
 y 3
 end
@@ -684,23 +676,11 @@ arch cobblestones2
 x 5
 y 4
 end
-arch generate_giant
-x 5
-y 4
-end
 arch cobblestones2
 x 5
 y 5
 end
-arch generate_giant
-x 5
-y 5
-end
 arch cobblestones2
-x 5
-y 6
-end
-arch generate_giant
 x 5
 y 6
 end
@@ -740,15 +720,7 @@ arch cobblestones2
 x 5
 y 12
 end
-arch generate_giant
-x 5
-y 12
-end
 arch cobblestones2
-x 5
-y 13
-end
-arch generate_giant
 x 5
 y 13
 end
@@ -756,7 +728,7 @@ arch cobblestones2
 x 5
 y 14
 end
-arch generate_giant
+arch giant
 x 5
 y 14
 end
@@ -764,23 +736,11 @@ arch cobblestones2
 x 5
 y 15
 end
-arch generate_giant
-x 5
-y 15
-end
 arch cobblestones2
 x 5
 y 16
 end
-arch generate_giant
-x 5
-y 16
-end
 arch cobblestones2
-x 5
-y 17
-end
-arch generate_giant
 x 5
 y 17
 end
@@ -802,6 +762,10 @@ arch cobblestones2
 x 6
 y 1
 end
+arch giant
+x 6
+y 1
+end
 arch cobblestones2
 x 6
 y 2
@@ -815,6 +779,10 @@ x 6
 y 4
 end
 arch cobblestones2
+x 6
+y 5
+end
+arch giant
 x 6
 y 5
 end
@@ -858,6 +826,10 @@ arch cobblestones2
 x 6
 y 12
 end
+arch giant
+x 6
+y 12
+end
 arch cobblestones2
 x 6
 y 13
@@ -871,6 +843,10 @@ x 6
 y 15
 end
 arch cobblestones2
+x 6
+y 16
+end
+arch giant
 x 6
 y 16
 end
@@ -896,15 +872,7 @@ arch cobblestones2
 x 7
 y 1
 end
-arch generate_giant
-x 7
-y 1
-end
 arch cobblestones2
-x 7
-y 2
-end
-arch generate_giant
 x 7
 y 2
 end
@@ -912,7 +880,7 @@ arch cobblestones2
 x 7
 y 3
 end
-arch generate_giant
+arch giant
 x 7
 y 3
 end
@@ -920,23 +888,11 @@ arch cobblestones2
 x 7
 y 4
 end
-arch generate_giant
-x 7
-y 4
-end
 arch cobblestones2
 x 7
 y 5
 end
-arch generate_giant
-x 7
-y 5
-end
 arch cobblestones2
-x 7
-y 6
-end
-arch generate_giant
 x 7
 y 6
 end
@@ -976,15 +932,7 @@ arch cobblestones2
 x 7
 y 12
 end
-arch generate_giant
-x 7
-y 12
-end
 arch cobblestones2
-x 7
-y 13
-end
-arch generate_giant
 x 7
 y 13
 end
@@ -992,7 +940,7 @@ arch cobblestones2
 x 7
 y 14
 end
-arch generate_giant
+arch giant
 x 7
 y 14
 end
@@ -1000,23 +948,11 @@ arch cobblestones2
 x 7
 y 15
 end
-arch generate_giant
-x 7
-y 15
-end
 arch cobblestones2
 x 7
 y 16
 end
-arch generate_giant
-x 7
-y 16
-end
 arch cobblestones2
-x 7
-y 17
-end
-arch generate_giant
 x 7
 y 17
 end
@@ -1038,6 +974,10 @@ arch cobblestones2
 x 8
 y 1
 end
+arch giant
+x 8
+y 1
+end
 arch cobblestones2
 x 8
 y 2
@@ -1051,6 +991,10 @@ x 8
 y 4
 end
 arch cobblestones2
+x 8
+y 5
+end
+arch giant
 x 8
 y 5
 end
@@ -1094,6 +1038,10 @@ arch cobblestones2
 x 8
 y 12
 end
+arch giant
+x 8
+y 12
+end
 arch cobblestones2
 x 8
 y 13
@@ -1107,6 +1055,10 @@ x 8
 y 15
 end
 arch cobblestones2
+x 8
+y 16
+end
+arch giant
 x 8
 y 16
 end
@@ -1140,15 +1092,11 @@ arch cobblestones2
 x 9
 y 2
 end
-arch generate_giant
-x 9
-y 2
-end
 arch cobblestones2
 x 9
 y 3
 end
-arch generate_giant
+arch giant
 x 9
 y 3
 end
@@ -1156,23 +1104,11 @@ arch cobblestones2
 x 9
 y 4
 end
-arch generate_giant
-x 9
-y 4
-end
 arch cobblestones2
 x 9
 y 5
 end
-arch generate_giant
-x 9
-y 5
-end
 arch cobblestones2
-x 9
-y 6
-end
-arch generate_giant
 x 9
 y 6
 end
@@ -1212,15 +1148,7 @@ arch cobblestones2
 x 9
 y 12
 end
-arch generate_giant
-x 9
-y 12
-end
 arch cobblestones2
-x 9
-y 13
-end
-arch generate_giant
 x 9
 y 13
 end
@@ -1228,7 +1156,7 @@ arch cobblestones2
 x 9
 y 14
 end
-arch generate_giant
+arch giant
 x 9
 y 14
 end
@@ -1236,15 +1164,7 @@ arch cobblestones2
 x 9
 y 15
 end
-arch generate_giant
-x 9
-y 15
-end
 arch cobblestones2
-x 9
-y 16
-end
-arch generate_giant
 x 9
 y 16
 end
@@ -1274,6 +1194,10 @@ arch cobblestones2
 x 10
 y 1
 end
+arch giant
+x 10
+y 1
+end
 arch cobblestones2
 x 10
 y 2
@@ -1287,6 +1211,10 @@ x 10
 y 4
 end
 arch cobblestones2
+x 10
+y 5
+end
+arch giant
 x 10
 y 5
 end
@@ -1330,6 +1258,10 @@ arch cobblestones2
 x 10
 y 12
 end
+arch giant
+x 10
+y 12
+end
 arch cobblestones2
 x 10
 y 13
@@ -1343,6 +1275,10 @@ x 10
 y 15
 end
 arch cobblestones2
+x 10
+y 16
+end
+arch giant
 x 10
 y 16
 end
@@ -1368,15 +1304,7 @@ arch cobblestones2
 x 11
 y 1
 end
-arch generate_giant
-x 11
-y 1
-end
 arch cobblestones2
-x 11
-y 2
-end
-arch generate_giant
 x 11
 y 2
 end
@@ -1384,7 +1312,7 @@ arch cobblestones2
 x 11
 y 3
 end
-arch generate_giant
+arch giant
 x 11
 y 3
 end
@@ -1392,23 +1320,11 @@ arch cobblestones2
 x 11
 y 4
 end
-arch generate_giant
-x 11
-y 4
-end
 arch cobblestones2
 x 11
 y 5
 end
-arch generate_giant
-x 11
-y 5
-end
 arch cobblestones2
-x 11
-y 6
-end
-arch generate_giant
 x 11
 y 6
 end
@@ -1452,15 +1368,7 @@ arch cobblestones2
 x 11
 y 12
 end
-arch generate_giant
-x 11
-y 12
-end
 arch cobblestones2
-x 11
-y 13
-end
-arch generate_giant
 x 11
 y 13
 end
@@ -1468,7 +1376,7 @@ arch cobblestones2
 x 11
 y 14
 end
-arch generate_giant
+arch giant
 x 11
 y 14
 end
@@ -1476,23 +1384,11 @@ arch cobblestones2
 x 11
 y 15
 end
-arch generate_giant
-x 11
-y 15
-end
 arch cobblestones2
 x 11
 y 16
 end
-arch generate_giant
-x 11
-y 16
-end
 arch cobblestones2
-x 11
-y 17
-end
-arch generate_giant
 x 11
 y 17
 end
@@ -1514,6 +1410,10 @@ arch cobblestones2
 x 12
 y 1
 end
+arch giant
+x 12
+y 1
+end
 arch cobblestones2
 x 12
 y 2
@@ -1527,6 +1427,10 @@ x 12
 y 4
 end
 arch cobblestones2
+x 12
+y 5
+end
+arch giant
 x 12
 y 5
 end
@@ -1570,6 +1474,10 @@ arch cobblestones2
 x 12
 y 12
 end
+arch giant
+x 12
+y 12
+end
 arch cobblestones2
 x 12
 y 13
@@ -1583,6 +1491,10 @@ x 12
 y 15
 end
 arch cobblestones2
+x 12
+y 16
+end
+arch giant
 x 12
 y 16
 end
@@ -1616,15 +1528,11 @@ arch cobblestones2
 x 13
 y 2
 end
-arch generate_giant
-x 13
-y 2
-end
 arch cobblestones2
 x 13
 y 3
 end
-arch generate_giant
+arch giant
 x 13
 y 3
 end
@@ -1632,23 +1540,11 @@ arch cobblestones2
 x 13
 y 4
 end
-arch generate_giant
-x 13
-y 4
-end
 arch cobblestones2
 x 13
 y 5
 end
-arch generate_giant
-x 13
-y 5
-end
 arch cobblestones2
-x 13
-y 6
-end
-arch generate_giant
 x 13
 y 6
 end
@@ -1688,15 +1584,7 @@ arch cobblestones2
 x 13
 y 12
 end
-arch generate_giant
-x 13
-y 12
-end
 arch cobblestones2
-x 13
-y 13
-end
-arch generate_giant
 x 13
 y 13
 end
@@ -1704,7 +1592,7 @@ arch cobblestones2
 x 13
 y 14
 end
-arch generate_giant
+arch giant
 x 13
 y 14
 end
@@ -1712,15 +1600,7 @@ arch cobblestones2
 x 13
 y 15
 end
-arch generate_giant
-x 13
-y 15
-end
 arch cobblestones2
-x 13
-y 16
-end
-arch generate_giant
 x 13
 y 16
 end
@@ -1750,6 +1630,10 @@ arch cobblestones2
 x 14
 y 1
 end
+arch giant
+x 14
+y 1
+end
 arch cobblestones2
 x 14
 y 2
@@ -1763,6 +1647,10 @@ x 14
 y 4
 end
 arch cobblestones2
+x 14
+y 5
+end
+arch giant
 x 14
 y 5
 end
@@ -1816,6 +1704,10 @@ arch cobblestones2
 x 14
 y 12
 end
+arch giant
+x 14
+y 12
+end
 arch cobblestones2
 x 14
 y 13
@@ -1829,6 +1721,10 @@ x 14
 y 15
 end
 arch cobblestones2
+x 14
+y 16
+end
+arch giant
 x 14
 y 16
 end
@@ -1854,15 +1750,7 @@ arch cobblestones2
 x 15
 y 1
 end
-arch generate_giant
-x 15
-y 1
-end
 arch cobblestones2
-x 15
-y 2
-end
-arch generate_giant
 x 15
 y 2
 end
@@ -1870,7 +1758,7 @@ arch cobblestones2
 x 15
 y 3
 end
-arch generate_giant
+arch giant
 x 15
 y 3
 end
@@ -1878,23 +1766,11 @@ arch cobblestones2
 x 15
 y 4
 end
-arch generate_giant
-x 15
-y 4
-end
 arch cobblestones2
 x 15
 y 5
 end
-arch generate_giant
-x 15
-y 5
-end
 arch cobblestones2
-x 15
-y 6
-end
-arch generate_giant
 x 15
 y 6
 end
@@ -1934,15 +1810,7 @@ arch cobblestones2
 x 15
 y 12
 end
-arch generate_giant
-x 15
-y 12
-end
 arch cobblestones2
-x 15
-y 13
-end
-arch generate_giant
 x 15
 y 13
 end
@@ -1950,7 +1818,7 @@ arch cobblestones2
 x 15
 y 14
 end
-arch generate_giant
+arch giant
 x 15
 y 14
 end
@@ -1958,23 +1826,11 @@ arch cobblestones2
 x 15
 y 15
 end
-arch generate_giant
-x 15
-y 15
-end
 arch cobblestones2
 x 15
 y 16
 end
-arch generate_giant
-x 15
-y 16
-end
 arch cobblestones2
-x 15
-y 17
-end
-arch generate_giant
 x 15
 y 17
 end
@@ -1996,6 +1852,10 @@ arch cobblestones2
 x 16
 y 1
 end
+arch giant
+x 16
+y 1
+end
 arch cobblestones2
 x 16
 y 2
@@ -2009,6 +1869,10 @@ x 16
 y 4
 end
 arch cobblestones2
+x 16
+y 5
+end
+arch giant
 x 16
 y 5
 end
@@ -2052,6 +1916,10 @@ arch cobblestones2
 x 16
 y 12
 end
+arch giant
+x 16
+y 12
+end
 arch cobblestones2
 x 16
 y 13
@@ -2065,6 +1933,10 @@ x 16
 y 15
 end
 arch cobblestones2
+x 16
+y 16
+end
+arch giant
 x 16
 y 16
 end
@@ -2098,15 +1970,11 @@ arch cobblestones2
 x 17
 y 2
 end
-arch generate_giant
-x 17
-y 2
-end
 arch cobblestones2
 x 17
 y 3
 end
-arch generate_giant
+arch giant
 x 17
 y 3
 end
@@ -2114,23 +1982,11 @@ arch cobblestones2
 x 17
 y 4
 end
-arch generate_giant
-x 17
-y 4
-end
 arch cobblestones2
 x 17
 y 5
 end
-arch generate_giant
-x 17
-y 5
-end
 arch cobblestones2
-x 17
-y 6
-end
-arch generate_giant
 x 17
 y 6
 end
@@ -2170,15 +2026,7 @@ arch cobblestones2
 x 17
 y 12
 end
-arch generate_giant
-x 17
-y 12
-end
 arch cobblestones2
-x 17
-y 13
-end
-arch generate_giant
 x 17
 y 13
 end
@@ -2186,7 +2034,7 @@ arch cobblestones2
 x 17
 y 14
 end
-arch generate_giant
+arch giant
 x 17
 y 14
 end
@@ -2194,15 +2042,7 @@ arch cobblestones2
 x 17
 y 15
 end
-arch generate_giant
-x 17
-y 15
-end
 arch cobblestones2
-x 17
-y 16
-end
-arch generate_giant
 x 17
 y 16
 end
@@ -2232,6 +2072,10 @@ arch cobblestones2
 x 18
 y 1
 end
+arch giant
+x 18
+y 1
+end
 arch cobblestones2
 x 18
 y 2
@@ -2245,6 +2089,10 @@ x 18
 y 4
 end
 arch cobblestones2
+x 18
+y 5
+end
+arch giant
 x 18
 y 5
 end
@@ -2303,6 +2151,10 @@ arch cobblestones2
 x 18
 y 12
 end
+arch giant
+x 18
+y 12
+end
 arch cobblestones2
 x 18
 y 13
@@ -2316,6 +2168,10 @@ x 18
 y 15
 end
 arch cobblestones2
+x 18
+y 16
+end
+arch giant
 x 18
 y 16
 end
@@ -2349,15 +2205,11 @@ arch cobblestones2
 x 19
 y 2
 end
-arch generate_giant
-x 19
-y 2
-end
 arch cobblestones2
 x 19
 y 3
 end
-arch generate_giant
+arch giant
 x 19
 y 3
 end
@@ -2365,23 +2217,11 @@ arch cobblestones2
 x 19
 y 4
 end
-arch generate_giant
-x 19
-y 4
-end
 arch cobblestones2
 x 19
 y 5
 end
-arch generate_giant
-x 19
-y 5
-end
 arch cobblestones2
-x 19
-y 6
-end
-arch generate_giant
 x 19
 y 6
 end
@@ -2439,15 +2279,7 @@ arch cobblestones2
 x 19
 y 12
 end
-arch generate_giant
-x 19
-y 12
-end
 arch cobblestones2
-x 19
-y 13
-end
-arch generate_giant
 x 19
 y 13
 end
@@ -2455,7 +2287,7 @@ arch cobblestones2
 x 19
 y 14
 end
-arch generate_giant
+arch giant
 x 19
 y 14
 end
@@ -2463,15 +2295,7 @@ arch cobblestones2
 x 19
 y 15
 end
-arch generate_giant
-x 19
-y 15
-end
 arch cobblestones2
-x 19
-y 16
-end
-arch generate_giant
 x 19
 y 16
 end
