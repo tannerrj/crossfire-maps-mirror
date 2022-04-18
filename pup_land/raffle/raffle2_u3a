@@ -10,7 +10,7 @@ enter_x 10
 enter_y 13
 msg
 Created:  1997-04-03
-Modified: 2012-04-04 Rick Tanner
+Modified: 2022-04-17 DraugTheWhopper
 endmsg
 end
 arch cobblestones2
@@ -215,11 +215,11 @@ arch cave_15
 x 1
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 1
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 1
 y 14
 end
@@ -342,11 +342,11 @@ arch cave_15
 x 2
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 2
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 2
 y 14
 end
@@ -409,21 +409,21 @@ face blake_F.111
 x 3
 y 5
 end
-arch dungeon_magic
-x 3
-y 6
-end
 arch biglake_center
 name sky
 x 3
 y 6
 end
 arch dungeon_magic
+x 3
+y 6
+end
+arch biglake_center
+name sky
 x 3
 y 7
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 3
 y 7
 end
@@ -477,11 +477,11 @@ arch cave_15
 x 3
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 3
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 3
 y 14
 end
@@ -536,10 +536,6 @@ arch fog
 x 4
 y 3
 end
-arch dungeon_magic
-x 4
-y 4
-end
 arch biglake_center
 name sky
 x 4
@@ -547,7 +543,7 @@ y 4
 end
 arch dungeon_magic
 x 4
-y 5
+y 4
 end
 arch biglake_center
 name sky
@@ -555,11 +551,15 @@ x 4
 y 5
 end
 arch dungeon_magic
+x 4
+y 5
+end
+arch biglake_center
+name sky
 x 4
 y 6
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 4
 y 6
 end
@@ -568,10 +568,6 @@ name sky
 x 4
 y 7
 end
-arch dungeon_magic
-x 4
-y 8
-end
 arch small_stones
 x 4
 y 8
@@ -582,7 +578,7 @@ y 8
 end
 arch dungeon_magic
 x 4
-y 9
+y 8
 end
 arch cave_15
 x 4
@@ -590,7 +586,7 @@ y 9
 end
 arch dungeon_magic
 x 4
-y 10
+y 9
 end
 arch cave_15
 x 4
@@ -598,7 +594,7 @@ y 10
 end
 arch dungeon_magic
 x 4
-y 11
+y 10
 end
 arch cave_15
 x 4
@@ -606,7 +602,7 @@ y 11
 end
 arch dungeon_magic
 x 4
-y 12
+y 11
 end
 arch cave_15
 x 4
@@ -614,17 +610,21 @@ y 12
 end
 arch dungeon_magic
 x 4
-y 13
+y 12
 end
 arch cave_15
 x 4
 y 13
 end
 arch dungeon_magic
+x 4
+y 13
+end
+arch cave_15
 x 4
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 4
 y 14
 end
@@ -679,12 +679,12 @@ arch fog
 x 5
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 5
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 5
 y 4
 end
@@ -721,19 +721,15 @@ arch small_stones
 x 5
 y 8
 end
-arch dungeon_magic
-x 5
-y 8
-end
 arch cave12
 x 5
 y 8
 end
-arch small_stones
-x 5
-y 9
-end
 arch dungeon_magic
+x 5
+y 8
+end
+arch small_stones
 x 5
 y 9
 end
@@ -741,15 +737,19 @@ arch cave3
 x 5
 y 9
 end
+arch dungeon_magic
+x 5
+y 9
+end
 arch small_stones
 x 5
 y 10
 end
-arch dungeon_magic
+arch cave3
 x 5
 y 10
 end
-arch cave3
+arch dungeon_magic
 x 5
 y 10
 end
@@ -757,11 +757,11 @@ arch small_stones
 x 5
 y 11
 end
-arch dungeon_magic
+arch cave3
 x 5
 y 11
 end
-arch cave3
+arch dungeon_magic
 x 5
 y 11
 end
@@ -769,11 +769,11 @@ arch small_stones
 x 5
 y 12
 end
-arch dungeon_magic
+arch cave3
 x 5
 y 12
 end
-arch cave3
+arch dungeon_magic
 x 5
 y 12
 end
@@ -844,12 +844,12 @@ face blake_F.111
 x 6
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 6
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 6
 y 4
 end
@@ -962,12 +962,12 @@ face blake_F.111
 x 7
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 7
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 7
 y 4
 end
@@ -1095,10 +1095,6 @@ face blake_F.111
 x 8
 y 3
 end
-arch dungeon_magic
-x 8
-y 4
-end
 arch biglake_center
 name sky
 x 8
@@ -1106,7 +1102,7 @@ y 4
 end
 arch dungeon_magic
 x 8
-y 5
+y 4
 end
 arch biglake_center
 name sky
@@ -1115,7 +1111,7 @@ y 5
 end
 arch dungeon_magic
 x 8
-y 6
+y 5
 end
 arch biglake_center
 name sky
@@ -1124,7 +1120,7 @@ y 6
 end
 arch dungeon_magic
 x 8
-y 7
+y 6
 end
 arch biglake_center
 name sky
@@ -1133,7 +1129,7 @@ y 7
 end
 arch dungeon_magic
 x 8
-y 8
+y 7
 end
 arch small_stones
 x 8
@@ -1145,7 +1141,7 @@ y 8
 end
 arch dungeon_magic
 x 8
-y 9
+y 8
 end
 arch cave_15
 x 8
@@ -1153,7 +1149,7 @@ y 9
 end
 arch dungeon_magic
 x 8
-y 10
+y 9
 end
 arch cave_15
 x 8
@@ -1161,7 +1157,7 @@ y 10
 end
 arch dungeon_magic
 x 8
-y 11
+y 10
 end
 arch cave_15
 x 8
@@ -1169,7 +1165,7 @@ y 11
 end
 arch dungeon_magic
 x 8
-y 12
+y 11
 end
 arch cave_15
 x 8
@@ -1177,7 +1173,7 @@ y 12
 end
 arch dungeon_magic
 x 8
-y 13
+y 12
 end
 arch cave_15
 x 8
@@ -1185,7 +1181,7 @@ y 13
 end
 arch dungeon_magic
 x 8
-y 14
+y 13
 end
 arch cave_15
 x 8
@@ -1193,7 +1189,7 @@ y 14
 end
 arch dungeon_magic
 x 8
-y 15
+y 14
 end
 arch cave_15
 x 8
@@ -1201,17 +1197,21 @@ y 15
 end
 arch dungeon_magic
 x 8
-y 16
+y 15
 end
 arch cave_15
 x 8
 y 16
 end
 arch dungeon_magic
+x 8
+y 16
+end
+arch cave_15
 x 8
 y 17
 end
-arch cave_15
+arch dungeon_magic
 x 8
 y 17
 end
@@ -1242,12 +1242,12 @@ arch fog
 x 9
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 9
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 9
 y 4
 end
@@ -1387,12 +1387,12 @@ arch fog
 x 10
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 10
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 10
 y 4
 end
@@ -1501,12 +1501,12 @@ face blake_F.111
 x 11
 y 3
 end
-arch dungeon_magic
+arch biglake_center
+name sky
 x 11
 y 4
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 11
 y 4
 end
@@ -1535,19 +1535,15 @@ arch small_stones
 x 11
 y 8
 end
-arch dungeon_magic
-x 11
-y 8
-end
 arch cave11
 x 11
 y 8
 end
-arch small_stones
-x 11
-y 9
-end
 arch dungeon_magic
+x 11
+y 8
+end
+arch small_stones
 x 11
 y 9
 end
@@ -1555,15 +1551,19 @@ arch cave1
 x 11
 y 9
 end
+arch dungeon_magic
+x 11
+y 9
+end
 arch small_stones
 x 11
 y 10
 end
-arch dungeon_magic
+arch cave1
 x 11
 y 10
 end
-arch cave1
+arch dungeon_magic
 x 11
 y 10
 end
@@ -1571,11 +1571,11 @@ arch small_stones
 x 11
 y 11
 end
-arch dungeon_magic
+arch cave1
 x 11
 y 11
 end
-arch cave1
+arch dungeon_magic
 x 11
 y 11
 end
@@ -1583,11 +1583,11 @@ arch small_stones
 x 11
 y 12
 end
-arch dungeon_magic
+arch cave1
 x 11
 y 12
 end
-arch cave1
+arch dungeon_magic
 x 11
 y 12
 end
@@ -1595,11 +1595,11 @@ arch small_stones
 x 11
 y 13
 end
-arch dungeon_magic
+arch cave1
 x 11
 y 13
 end
-arch cave1
+arch dungeon_magic
 x 11
 y 13
 end
@@ -1654,10 +1654,6 @@ face blake_F.111
 x 12
 y 3
 end
-arch dungeon_magic
-x 12
-y 4
-end
 arch biglake_center
 name sky
 x 12
@@ -1665,7 +1661,7 @@ y 4
 end
 arch dungeon_magic
 x 12
-y 5
+y 4
 end
 arch biglake_center
 name sky
@@ -1673,11 +1669,15 @@ x 12
 y 5
 end
 arch dungeon_magic
+x 12
+y 5
+end
+arch biglake_center
+name sky
 x 12
 y 6
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 12
 y 6
 end
@@ -1685,10 +1685,6 @@ arch biglake_center
 name sky
 x 12
 y 7
-end
-arch dungeon_magic
-x 12
-y 8
 end
 arch small_stones
 x 12
@@ -1700,7 +1696,7 @@ y 8
 end
 arch dungeon_magic
 x 12
-y 9
+y 8
 end
 arch cave_15
 x 12
@@ -1708,7 +1704,7 @@ y 9
 end
 arch dungeon_magic
 x 12
-y 10
+y 9
 end
 arch cave_15
 x 12
@@ -1716,7 +1712,7 @@ y 10
 end
 arch dungeon_magic
 x 12
-y 11
+y 10
 end
 arch cave_15
 x 12
@@ -1724,7 +1720,7 @@ y 11
 end
 arch dungeon_magic
 x 12
-y 12
+y 11
 end
 arch cave_15
 x 12
@@ -1732,17 +1728,21 @@ y 12
 end
 arch dungeon_magic
 x 12
-y 13
+y 12
 end
 arch cave_15
 x 12
 y 13
 end
 arch dungeon_magic
+x 12
+y 13
+end
+arch cave_15
 x 12
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 12
 y 14
 end
@@ -1801,21 +1801,21 @@ face blake_F.111
 x 13
 y 5
 end
-arch dungeon_magic
-x 13
-y 6
-end
 arch biglake_center
 name sky
 x 13
 y 6
 end
 arch dungeon_magic
+x 13
+y 6
+end
+arch biglake_center
+name sky
 x 13
 y 7
 end
-arch biglake_center
-name sky
+arch dungeon_magic
 x 13
 y 7
 end
@@ -1871,11 +1871,11 @@ arch cave_15
 x 13
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 13
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 13
 y 14
 end
@@ -1994,11 +1994,11 @@ arch cave_15
 x 14
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 14
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 14
 y 14
 end
@@ -2119,11 +2119,11 @@ arch cave_15
 x 15
 y 13
 end
-arch dungeon_magic
+arch cave_15
 x 15
 y 14
 end
-arch cave_15
+arch dungeon_magic
 x 15
 y 14
 end

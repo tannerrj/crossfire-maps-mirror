@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Created:  1996-12-29
-Modified: 2021-07-23 Saiapatsu
+Modified: 2022-04-17 DraugTheWhopper
 endmsg
 end
 arch flagstone
@@ -125,13 +125,13 @@ end
 arch dun3
 y 18
 end
-arch dungeon_magic
-y 19
-end
 arch flagstone
 y 19
 end
 arch dun11
+y 19
+end
+arch dungeon_magic
 y 19
 end
 arch flagstone
@@ -264,15 +264,15 @@ arch blocked
 x 1
 y 18
 end
-arch dungeon_magic
-x 1
-y 19
-end
 arch flagstone
 x 1
 y 19
 end
 arch dun2
+x 1
+y 19
+end
+arch dungeon_magic
 x 1
 y 19
 end
@@ -405,16 +405,16 @@ arch flagstone
 x 2
 y 18
 end
-arch dungeon_magic
-x 2
-y 18
-end
 arch block_door_closed
 face blocked.111
 x 2
 y 18
 speed 0.500000
 connected 666
+end
+arch dungeon_magic
+x 2
+y 18
 end
 arch magic_mouth
 msg
@@ -427,16 +427,16 @@ arch flagstone
 x 2
 y 19
 end
-arch dungeon_magic
-x 2
-y 19
-end
 arch block_door_closed
 face mine_A.111
 x 2
 y 19
 speed 0.500000
 connected 666
+end
+arch dungeon_magic
+x 2
+y 19
 end
 arch flagstone
 x 2
@@ -917,10 +917,6 @@ arch dun3
 x 6
 y 1
 end
-arch dungeon_magic
-x 6
-y 2
-end
 arch flagstone
 x 6
 y 2
@@ -933,6 +929,10 @@ end
 arch door_look_2
 hp 1000
 ac -20
+x 6
+y 2
+end
+arch dungeon_magic
 x 6
 y 2
 end
@@ -1305,10 +1305,6 @@ arch swall_1_1_half
 x 8
 y 19
 end
-arch dungeon_magic
-x 8
-y 20
-end
 arch flagstone
 x 8
 y 20
@@ -1319,7 +1315,7 @@ y 20
 end
 arch dungeon_magic
 x 8
-y 21
+y 20
 end
 arch flagstone
 x 8
@@ -1331,15 +1327,19 @@ y 21
 speed 0.500000
 connected 10
 end
+arch dungeon_magic
+x 8
+y 21
+end
 arch flagstone
 x 8
 y 22
 end
-arch dungeon_magic
+arch swall_2_2_2
 x 8
 y 22
 end
-arch swall_2_2_2
+arch dungeon_magic
 x 8
 y 22
 end
@@ -1469,10 +1469,6 @@ arch dun2
 x 9
 y 19
 end
-arch dungeon_magic
-x 9
-y 20
-end
 arch flagstone
 x 9
 y 20
@@ -1483,7 +1479,7 @@ y 20
 end
 arch dungeon_magic
 x 9
-y 21
+y 20
 end
 arch magic_mouth
 msg
@@ -1500,15 +1496,19 @@ arch boulder
 x 9
 y 21
 end
+arch dungeon_magic
+x 9
+y 21
+end
 arch flagstone
 x 9
 y 22
 end
-arch dungeon_magic
+arch swall_2_1_2
 x 9
 y 22
 end
-arch swall_2_1_2
+arch dungeon_magic
 x 9
 y 22
 end
@@ -1622,10 +1622,6 @@ arch dun2
 x 10
 y 19
 end
-arch dungeon_magic
-x 10
-y 20
-end
 arch flagstone
 x 10
 y 20
@@ -1636,7 +1632,7 @@ y 20
 end
 arch dungeon_magic
 x 10
-y 21
+y 20
 end
 arch flagstone
 x 10
@@ -1647,15 +1643,19 @@ x 10
 y 21
 connected 1000
 end
+arch dungeon_magic
+x 10
+y 21
+end
 arch flagstone
 x 10
 y 22
 end
-arch dungeon_magic
+arch swall_1_3
 x 10
 y 22
 end
-arch swall_1_3
+arch dungeon_magic
 x 10
 y 22
 end
@@ -1902,10 +1902,6 @@ arch dun3
 x 12
 y 10
 end
-arch dungeon_magic
-x 12
-y 11
-end
 arch flagstone
 x 12
 y 11
@@ -1918,6 +1914,10 @@ end
 arch door_look_2
 hp 4000
 ac -20
+x 12
+y 11
+end
+arch dungeon_magic
 x 12
 y 11
 end
@@ -2771,16 +2771,16 @@ arch dun2
 x 18
 y 12
 end
-arch dungeon_magic
-x 18
-y 13
-end
 arch flagstone
 x 18
 y 13
 end
 arch locked_door2
 slaying raffle2_u_trial_door
+x 18
+y 13
+end
+arch dungeon_magic
 x 18
 y 13
 end
@@ -2792,16 +2792,16 @@ arch dun2
 x 18
 y 14
 end
-arch dungeon_magic
-x 18
-y 15
-end
 arch flagstone
 x 18
 y 15
 end
 arch locked_door2
 slaying raffle2_u_trial_door
+x 18
+y 15
+end
+arch dungeon_magic
 x 18
 y 15
 end
@@ -2813,16 +2813,16 @@ arch dun2
 x 18
 y 16
 end
-arch dungeon_magic
-x 18
-y 17
-end
 arch flagstone
 x 18
 y 17
 end
 arch locked_door2
 slaying raffle2_u_trial_door
+x 18
+y 17
+end
+arch dungeon_magic
 x 18
 y 17
 end
@@ -2939,11 +2939,11 @@ arch dun2
 x 19
 y 12
 end
-arch dungeon_magic
+arch flagstone
 x 19
 y 13
 end
-arch flagstone
+arch dungeon_magic
 x 19
 y 13
 end
@@ -2955,11 +2955,11 @@ arch dun2
 x 19
 y 14
 end
-arch dungeon_magic
+arch flagstone
 x 19
 y 15
 end
-arch flagstone
+arch dungeon_magic
 x 19
 y 15
 end
@@ -2971,11 +2971,11 @@ arch dun2
 x 19
 y 16
 end
-arch dungeon_magic
+arch flagstone
 x 19
 y 17
 end
-arch flagstone
+arch dungeon_magic
 x 19
 y 17
 end
@@ -3352,15 +3352,11 @@ arch blocked
 x 21
 y 23
 end
-arch dungeon_magic
-x 22
-end
 arch blocked
 x 22
 end
 arch dungeon_magic
 x 22
-y 1
 end
 arch blocked
 x 22
@@ -3368,7 +3364,7 @@ y 1
 end
 arch dungeon_magic
 x 22
-y 2
+y 1
 end
 arch blocked
 x 22
@@ -3376,7 +3372,7 @@ y 2
 end
 arch dungeon_magic
 x 22
-y 3
+y 2
 end
 arch blocked
 x 22
@@ -3384,7 +3380,7 @@ y 3
 end
 arch dungeon_magic
 x 22
-y 4
+y 3
 end
 arch blocked
 x 22
@@ -3392,7 +3388,7 @@ y 4
 end
 arch dungeon_magic
 x 22
-y 5
+y 4
 end
 arch blocked
 x 22
@@ -3400,7 +3396,7 @@ y 5
 end
 arch dungeon_magic
 x 22
-y 6
+y 5
 end
 arch blocked
 x 22
@@ -3408,7 +3404,7 @@ y 6
 end
 arch dungeon_magic
 x 22
-y 7
+y 6
 end
 arch blocked
 x 22
@@ -3416,7 +3412,7 @@ y 7
 end
 arch dungeon_magic
 x 22
-y 8
+y 7
 end
 arch blocked
 x 22
@@ -3424,7 +3420,7 @@ y 8
 end
 arch dungeon_magic
 x 22
-y 9
+y 8
 end
 arch blocked
 x 22
@@ -3432,7 +3428,7 @@ y 9
 end
 arch dungeon_magic
 x 22
-y 10
+y 9
 end
 arch blocked
 x 22
@@ -3440,7 +3436,7 @@ y 10
 end
 arch dungeon_magic
 x 22
-y 11
+y 10
 end
 arch blocked
 x 22
@@ -3448,7 +3444,7 @@ y 11
 end
 arch dungeon_magic
 x 22
-y 12
+y 11
 end
 arch blocked
 x 22
@@ -3456,7 +3452,7 @@ y 12
 end
 arch dungeon_magic
 x 22
-y 13
+y 12
 end
 arch blocked
 x 22
@@ -3464,7 +3460,7 @@ y 13
 end
 arch dungeon_magic
 x 22
-y 14
+y 13
 end
 arch blocked
 x 22
@@ -3472,7 +3468,7 @@ y 14
 end
 arch dungeon_magic
 x 22
-y 15
+y 14
 end
 arch blocked
 x 22
@@ -3480,7 +3476,7 @@ y 15
 end
 arch dungeon_magic
 x 22
-y 16
+y 15
 end
 arch blocked
 x 22
@@ -3488,17 +3484,21 @@ y 16
 end
 arch dungeon_magic
 x 22
-y 17
+y 16
 end
 arch blocked
 x 22
 y 17
 end
 arch dungeon_magic
+x 22
+y 17
+end
+arch blocked
 x 22
 y 18
 end
-arch blocked
+arch dungeon_magic
 x 22
 y 18
 end
@@ -3530,11 +3530,11 @@ arch blocked
 x 22
 y 22
 end
-arch dungeon_magic
+arch blocked
 x 22
 y 23
 end
-arch blocked
+arch dungeon_magic
 x 22
 y 23
 end
@@ -4074,11 +4074,11 @@ arch blocked
 x 26
 y 18
 end
-arch dungeon_magic
+arch blocked
 x 26
 y 19
 end
-arch blocked
+arch dungeon_magic
 x 26
 y 19
 end
