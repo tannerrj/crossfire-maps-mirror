@@ -3,7 +3,7 @@ name world_109_125
 width 50
 height 50
 msg
-Modified: 2022-03-21 Rick Tanner
+Modified: 2022-04-18 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_109_124
@@ -3961,9 +3961,15 @@ y 45
 end
 arch cross_sign
 msg
-Brest - North
-Scorn - East
-Lake Country - South
+Welcome to Lake Country!
+Follow the road ahead to the following destinations:
+Brest - 287 chains north
+Kingdom of Scorn - 675 chains east
+Ruins of Euthville - 800 chains east
+Santo Dominion - 1100 chains east
+The Kingdom of Navar - 1623 chains east
+Hamlet of Lord Marksel - 1983 chains east
+The Sultanate of Darcap - 2688 chains east
 endmsg
 x 14
 y 45
