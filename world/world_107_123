@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2021-05-28 Kevin Zheng
+Modified: 2022-04-18 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_107_122
@@ -5938,10 +5938,17 @@ arch flagstone
 x 22
 y 13
 end
-arch sign_e
+arch cross_sign
 msg
-Brest - 3 chains south
+Welcome to Brest!
+Follow the road ahead to the following destinations:
 Lake Country - 241 chains east
+The Kingdom of Scorn - 739 chains north
+Ruins of Euthville - 864 chains north
+Santo Dominion - 943 chains south
+The Kingdom of Navar - 1687 chains south
+Hamlet of Lord Marksel - 2047 chains north
+The Sultanate of Darcap - 2752 chains north
 endmsg
 x 22
 y 13
