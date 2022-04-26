@@ -8,7 +8,7 @@ enter_x 7
 enter_y 1
 msg
 Created:  1996-05-07
-Modified: 2012-04-04 Rick Tanner
+Modified: 2022-04-25 Kevin Zheng
 endmsg
 end
 arch pstone_1
@@ -1239,15 +1239,19 @@ x 13
 y 6
 end
 arch table
-msg
-   Someone scribbled a message on it:
-   "Pull first lever (west) - wait ten seconds - pull second lever (east) - wait one second - pull second lever (east) again."
-endmsg
 x 13
 y 6
 material 0
 value 0
 no_pick 1
+end
+arch magic_mouth
+msg
+Someone scribbled a message on it:
+"Pull first lever (west) - wait ten seconds - pull second lever (east) - wait one second - pull second lever (east) again."
+endmsg
+x 13
+y 6
 end
 arch pstone_1
 x 13
