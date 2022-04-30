@@ -8,7 +8,7 @@ enter_x 36
 enter_y 27
 msg
 Created:  Morten Hanshaugen (meh@ifi.uio.no, meh@usit.uio.no)
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2022-04-30 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1024,7 +1024,7 @@ arch woodfloor
 x 5
 y 10
 end
-arch cwall_2_1_1
+arch weak_wall_3
 x 5
 y 10
 end
@@ -1214,7 +1214,7 @@ arch woodfloor
 x 6
 y 9
 end
-arch cwall_2_1_2
+arch weak_wall_4
 x 6
 y 9
 end
@@ -1598,7 +1598,7 @@ arch woodfloor
 x 8
 y 9
 end
-arch cwall_2_2_3
+arch cwall_1_3
 x 8
 y 9
 end
