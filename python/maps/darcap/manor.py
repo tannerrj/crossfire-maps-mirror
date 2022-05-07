@@ -132,15 +132,18 @@ def white_challenge():
             names = [ 'diamonds', 'amethysts', 'emeralds', 'rubies', 'sapphires', 'pearls' ]
             choice = random.randint(0, 5)
 
+            behind_windows = { (8, 2), (10, 7), (10, 9), (28, 18) }
+            behind_grates = { (2, 23), (10, 7), (10, 9), (16, 21), (19, 26), (19, 28), (20, 26), (23, 7), (24, 1), (24, 6), (25, 7) }
+
             location = random.randint(1, 3)
             if location == 1:
-                positions = [ [8, 2], [10, 7], [10, 9], [28, 18] ]
+                positions = behind_windows
                 where = 'behind windows'
             elif location == 2:
-                positions = [ [10, 7], [10, 9], [2, 23], [16, 21], [8, 2], [24, 6], [23, 7], [25, 7], [19, 26], [20, 26], [19, 28] ]
+                positions = behind_grates
                 where = 'behind grates'
             else:
-                positions = [ [8, 2], [10, 7], [10, 9], [2, 23], [16, 21], [8, 2], [24, 6], [23, 7], [25, 7], [28, 18], [19, 26], [20, 26], [19, 28] ]
+                positions = behind_windows.union(behind_grates)
                 where = 'in this dungeon'
 
             count = 0
