@@ -9,7 +9,7 @@ enter_x 3
 enter_y 4
 msg
 Created:  2000-06-06
-Modified: 2021-07-30 Saiapatsu
+Modified: 2022-05-07 Kevin Zheng
 endmsg
 end
 arch dungeon_magic
@@ -1759,15 +1759,6 @@ arch medium_stones
 x 5
 y 14
 end
-arch spikes_open
-name invisible force
-x 5
-y 14
-speed 0.500000
-value 1
-invisible 1
-connected 20
-end
 arch dungeon_magic
 x 5
 y 15
@@ -1794,15 +1785,6 @@ end
 arch medium_stones
 x 5
 y 16
-end
-arch spikes_open
-name invisible force
-x 5
-y 16
-speed 0.500000
-value 1
-invisible 1
-connected 20
 end
 arch dungeon_magic
 x 5
@@ -2109,24 +2091,19 @@ arch permanent_lava
 x 6
 y 14
 end
-arch spikes_open
-name invisible force
+arch creator
 x 6
-y 14
-speed 0.500000
-value 1
-invisible 1
-connected 20
+y 15
+connected 5
+arch invis_exit
+slaying volcano.2
+hp 31
+sp 24
+end
 end
 arch dungeon_magic
 x 6
 y 15
-end
-arch pedestal
-name 11
-x 6
-y 15
-connected 11
 end
 arch mover_3
 x 6
@@ -2146,15 +2123,8 @@ move_slow walk
 move_slow_penalty 1.000000
 end
 arch bridge_1
-slaying volcano.2
-hp 31
-sp 24
 x 6
 y 15
-type 41
-connected 10
-activate_on_push 1
-activate_on_release 1
 end
 arch dungeon_magic
 x 6
@@ -2163,15 +2133,6 @@ end
 arch permanent_lava
 x 6
 y 16
-end
-arch spikes_open
-name invisible force
-x 6
-y 16
-speed 0.500000
-value 1
-invisible 1
-connected 20
 end
 arch dungeon_magic
 x 6
@@ -2502,15 +2463,6 @@ name rail
 x 7
 y 15
 end
-arch spikes_open
-name invisible force
-x 7
-y 15
-speed 0.500000
-value 1
-invisible 1
-connected 20
-end
 arch dungeon_magic
 x 7
 y 16
@@ -2518,15 +2470,6 @@ end
 arch medium_stones
 x 7
 y 16
-end
-arch spikes_open
-name invisible force
-x 7
-y 16
-speed 0.500000
-value 1
-invisible 1
-connected 20
 end
 arch dungeon_magic
 x 7
@@ -5056,27 +4999,9 @@ arch dungeon_magic
 x 14
 y 17
 end
-arch button_small
-name 20
+arch cave_15
 x 14
 y 17
-weight 1000
-connected 20
-end
-arch igate_open_2
-name 21
-x 14
-y 17
-speed 0.500000
-value 1
-connected 21
-end
-arch creator
-name 12
-other_arch small_shield
-x 14
-y 17
-connected 12
 end
 arch dungeon_magic
 x 14
@@ -5090,19 +5015,9 @@ arch dungeon_magic
 x 14
 y 19
 end
-arch button_small
-name 12
+arch cave_15
 x 14
 y 19
-weight 1000
-connected 12
-end
-arch creator
-name 5
-other_arch small_shield
-x 14
-y 19
-connected 5
 end
 arch dungeon_magic
 x 14
@@ -5430,6 +5345,14 @@ end
 arch cave_15
 x 15
 y 16
+end
+arch dungeon_magic
+x 15
+y 17
+end
+arch cave_15
+x 15
+y 17
 end
 arch dungeon_magic
 x 15
@@ -5818,19 +5741,9 @@ arch dungeon_magic
 x 16
 y 19
 end
-arch igate_open_2
-name 12
+arch cave_15
 x 16
 y 19
-speed 2.000000
-value 1
-connected 12
-end
-arch small_shield
-x 16
-y 19
-material 0
-weight 10
 end
 arch dungeon_magic
 x 16
@@ -6225,13 +6138,9 @@ arch dungeon_magic
 x 17
 y 19
 end
-arch igate_open_2
-name 11
+arch cave_15
 x 17
 y 19
-speed 2.000000
-value 1
-connected 11
 end
 arch dungeon_magic
 x 17
@@ -6621,12 +6530,9 @@ arch dungeon_magic
 x 18
 y 19
 end
-arch button_small
-name 10
+arch cave_15
 x 18
 y 19
-weight 10
-connected 10
 end
 arch dungeon_magic
 x 18
@@ -12653,12 +12559,6 @@ arch dungeon_magic
 x 34
 y 25
 end
-arch pedestal
-name 21
-x 34
-y 25
-connected 21
-end
 arch mover_5
 x 34
 y 25
@@ -12678,12 +12578,6 @@ arch dungeon_magic
 x 34
 y 26
 end
-arch pedestal
-name 21
-x 34
-y 26
-connected 21
-end
 arch mover_5
 x 34
 y 26
@@ -12702,12 +12596,6 @@ end
 arch dungeon_magic
 x 34
 y 27
-end
-arch pedestal
-name 21
-x 34
-y 27
-connected 21
 end
 arch mover_5
 x 34
