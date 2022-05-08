@@ -19,7 +19,7 @@ def blue_count_kobolds():
         for y in range(map.Height):
             below = map.ObjectAt(x, y)
             while below:
-                if below.Name == 'kobold':
+                if below.Name == 'kobold' or below.Name == 'Second Chance kobold':
                     count = count + 1
                     break
                 below = below.Above
