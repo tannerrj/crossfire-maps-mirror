@@ -10,7 +10,7 @@ enter_x 1
 enter_y 10
 msg
 Created:  1997-04-01
-Modified: 2022-04-17 DraugTheWhopper
+Modified: 2022-05-07 DraugTheWhopper
 endmsg
 end
 arch cave_15
@@ -39,139 +39,139 @@ end
 arch cave_15
 y 8
 end
-arch flagstone
+arch dungeon_floor
 y 9
 end
 arch mine11
 y 9
 end
-arch flagstone
+arch dungeon_floor
 y 10
 end
 arch mine3
 y 10
 end
-arch flagstone
+arch dungeon_floor
 y 11
 end
 arch mine3
 y 11
 end
-arch flagstone
+arch dungeon_floor
 y 12
 end
 arch mine3
 y 12
 end
-arch flagstone
+arch dungeon_floor
 y 13
 end
 arch mine3
 y 13
 end
-arch flagstone
+arch dungeon_floor
 y 14
 end
 arch mine3
 y 14
 end
-arch flagstone
+arch dungeon_floor
 y 15
 end
 arch mine3
 y 15
 end
-arch flagstone
+arch dungeon_floor
 y 16
 end
 arch mine3
 y 16
 end
-arch flagstone
+arch dungeon_floor
 y 17
 end
 arch mine3
 y 17
 end
-arch flagstone
+arch dungeon_floor
 y 18
 end
 arch mine3
 y 18
 end
-arch flagstone
+arch dungeon_floor
 y 19
 end
 arch mine3
 y 19
 end
-arch flagstone
+arch dungeon_floor
 y 20
 end
 arch mine3
 y 20
 end
-arch flagstone
+arch dungeon_floor
 y 21
 end
 arch mine11
 y 21
 end
-arch flagstone
+arch dungeon_floor
 y 22
 end
 arch mine3
 y 22
 end
-arch flagstone
+arch dungeon_floor
 y 23
 end
 arch mine11
 y 23
 end
-arch flagstone
+arch dungeon_floor
 y 24
 end
 arch mine3
 y 24
 end
-arch flagstone
+arch dungeon_floor
 y 25
 end
 arch mine3
 y 25
 end
-arch flagstone
+arch dungeon_floor
 y 26
 end
 arch mine3
 y 26
 end
-arch flagstone
+arch dungeon_floor
 y 27
 end
 arch mine3
 y 27
 end
-arch flagstone
+arch dungeon_floor
 y 28
 end
 arch mine3
 y 28
 end
-arch flagstone
+arch dungeon_floor
 y 29
 end
 arch mine3
 y 29
 end
-arch flagstone
+arch dungeon_floor
 y 30
 end
 arch mine3
 y 30
 end
-arch flagstone
+arch dungeon_floor
 y 31
 end
 arch mine4
@@ -246,19 +246,11 @@ arch cave_15
 x 1
 y 7
 end
-arch dungeon_magic
-x 1
-y 7
-end
 arch cave_15
 x 1
 y 8
 end
-arch dungeon_magic
-x 1
-y 8
-end
-arch flagstone
+arch dungeon_floor
 x 1
 y 9
 end
@@ -266,7 +258,7 @@ arch mine2
 x 1
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 10
 end
@@ -281,7 +273,7 @@ arch dungeon_magic
 x 1
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 11
 end
@@ -289,7 +281,7 @@ arch dungeon_magic
 x 1
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 12
 end
@@ -302,7 +294,7 @@ arch dungeon_magic
 x 1
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 13
 end
@@ -310,7 +302,7 @@ arch dungeon_magic
 x 1
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 14
 end
@@ -322,7 +314,7 @@ arch dungeon_magic
 x 1
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 15
 end
@@ -334,7 +326,7 @@ arch dungeon_magic
 x 1
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 16
 end
@@ -342,7 +334,7 @@ arch dungeon_magic
 x 1
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 17
 end
@@ -354,7 +346,7 @@ arch dungeon_magic
 x 1
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 18
 end
@@ -362,7 +354,7 @@ arch dungeon_magic
 x 1
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 19
 end
@@ -374,7 +366,7 @@ arch dungeon_magic
 x 1
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 20
 end
@@ -382,7 +374,7 @@ arch dungeon_magic
 x 1
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 21
 end
@@ -390,11 +382,7 @@ arch mine2
 x 1
 y 21
 end
-arch dungeon_magic
-x 1
-y 21
-end
-arch flagstone
+arch dungeon_floor
 x 1
 y 22
 end
@@ -409,7 +397,7 @@ arch dungeon_magic
 x 1
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 23
 end
@@ -417,11 +405,7 @@ arch mine2
 x 1
 y 23
 end
-arch dungeon_magic
-x 1
-y 23
-end
-arch flagstone
+arch dungeon_floor
 x 1
 y 24
 end
@@ -429,7 +413,7 @@ arch dungeon_magic
 x 1
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 25
 end
@@ -437,7 +421,7 @@ arch dungeon_magic
 x 1
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 26
 end
@@ -445,7 +429,7 @@ arch dungeon_magic
 x 1
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 27
 end
@@ -459,7 +443,7 @@ arch dungeon_magic
 x 1
 y 27
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 28
 end
@@ -467,7 +451,7 @@ arch dungeon_magic
 x 1
 y 28
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 29
 end
@@ -475,7 +459,7 @@ arch dungeon_magic
 x 1
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 30
 end
@@ -483,7 +467,7 @@ arch dungeon_magic
 x 1
 y 30
 end
-arch flagstone
+arch dungeon_floor
 x 1
 y 31
 end
@@ -534,7 +518,7 @@ arch cave3
 x 2
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 9
 end
@@ -542,7 +526,7 @@ arch mine7
 x 2
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 10
 end
@@ -554,7 +538,7 @@ arch dungeon_magic
 x 2
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 11
 end
@@ -562,7 +546,7 @@ arch dungeon_magic
 x 2
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 12
 end
@@ -570,7 +554,7 @@ arch dungeon_magic
 x 2
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 13
 end
@@ -578,7 +562,7 @@ arch dungeon_magic
 x 2
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 14
 end
@@ -586,7 +570,7 @@ arch dungeon_magic
 x 2
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 15
 end
@@ -594,7 +578,7 @@ arch dungeon_magic
 x 2
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 16
 end
@@ -602,7 +586,7 @@ arch dungeon_magic
 x 2
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 17
 end
@@ -610,7 +594,7 @@ arch dungeon_magic
 x 2
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 18
 end
@@ -618,7 +602,7 @@ arch dungeon_magic
 x 2
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 19
 end
@@ -626,7 +610,7 @@ arch dungeon_magic
 x 2
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 20
 end
@@ -634,7 +618,7 @@ arch dungeon_magic
 x 2
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 21
 end
@@ -642,11 +626,7 @@ arch mine7
 x 2
 y 21
 end
-arch dungeon_magic
-x 2
-y 21
-end
-arch flagstone
+arch dungeon_floor
 x 2
 y 22
 end
@@ -660,7 +640,7 @@ arch dungeon_magic
 x 2
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 23
 end
@@ -668,11 +648,7 @@ arch mine7
 x 2
 y 23
 end
-arch dungeon_magic
-x 2
-y 23
-end
-arch flagstone
+arch dungeon_floor
 x 2
 y 24
 end
@@ -680,7 +656,7 @@ arch dungeon_magic
 x 2
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 25
 end
@@ -688,7 +664,7 @@ arch dungeon_magic
 x 2
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 26
 end
@@ -696,7 +672,7 @@ arch dungeon_magic
 x 2
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 27
 end
@@ -710,7 +686,7 @@ arch dungeon_magic
 x 2
 y 27
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 28
 end
@@ -734,7 +710,7 @@ arch dungeon_magic
 x 2
 y 28
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 29
 end
@@ -742,7 +718,7 @@ arch dungeon_magic
 x 2
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 30
 end
@@ -750,7 +726,7 @@ arch dungeon_magic
 x 2
 y 30
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 31
 end
@@ -812,10 +788,6 @@ arch cave_15
 x 3
 y 5
 end
-arch dungeon_magic
-x 3
-y 5
-end
 arch small_stones
 x 3
 y 6
@@ -831,6 +803,11 @@ end
 arch cave8
 x 3
 y 7
+move_block 0
+end
+arch dungeon_magic
+x 3
+y 7
 end
 arch small_stones
 x 3
@@ -844,7 +821,7 @@ arch dungeon_magic
 x 3
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 9
 end
@@ -852,7 +829,7 @@ arch dungeon_magic
 x 3
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 10
 end
@@ -860,7 +837,7 @@ arch dungeon_magic
 x 3
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 11
 end
@@ -868,7 +845,7 @@ arch dungeon_magic
 x 3
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 12
 end
@@ -876,7 +853,7 @@ arch dungeon_magic
 x 3
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 13
 end
@@ -884,7 +861,7 @@ arch dungeon_magic
 x 3
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 14
 end
@@ -896,7 +873,7 @@ arch dungeon_magic
 x 3
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 15
 end
@@ -908,7 +885,7 @@ arch dungeon_magic
 x 3
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 16
 end
@@ -916,7 +893,7 @@ arch dungeon_magic
 x 3
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 17
 end
@@ -928,7 +905,7 @@ arch dungeon_magic
 x 3
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 18
 end
@@ -936,7 +913,7 @@ arch dungeon_magic
 x 3
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 19
 end
@@ -948,7 +925,7 @@ arch dungeon_magic
 x 3
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 20
 end
@@ -956,7 +933,7 @@ arch dungeon_magic
 x 3
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 21
 end
@@ -964,7 +941,7 @@ arch dungeon_magic
 x 3
 y 21
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 22
 end
@@ -972,7 +949,7 @@ arch dungeon_magic
 x 3
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 23
 end
@@ -980,7 +957,7 @@ arch dungeon_magic
 x 3
 y 23
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 24
 end
@@ -988,7 +965,7 @@ arch dungeon_magic
 x 3
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 25
 end
@@ -996,7 +973,7 @@ arch dungeon_magic
 x 3
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 26
 end
@@ -1004,7 +981,7 @@ arch dungeon_magic
 x 3
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 27
 end
@@ -1018,7 +995,7 @@ arch dungeon_magic
 x 3
 y 27
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 28
 end
@@ -1026,7 +1003,7 @@ arch dungeon_magic
 x 3
 y 28
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 29
 end
@@ -1034,7 +1011,7 @@ arch dungeon_magic
 x 3
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 30
 end
@@ -1042,15 +1019,11 @@ arch dungeon_magic
 x 3
 y 30
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 31
 end
 arch mine2
-x 3
-y 31
-end
-arch dungeon_magic
 x 3
 y 31
 end
@@ -1080,10 +1053,6 @@ arch cave_15
 x 4
 y 5
 end
-arch dungeon_magic
-x 4
-y 5
-end
 arch small_stones
 x 4
 y 6
@@ -1092,11 +1061,11 @@ arch cave4
 x 4
 y 6
 end
-arch dungeon_magic
+arch small_stones
 x 4
 y 7
 end
-arch small_stones
+arch dungeon_magic
 x 4
 y 7
 end
@@ -1108,7 +1077,7 @@ arch cave11
 x 4
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 9
 end
@@ -1116,7 +1085,7 @@ arch mine4
 x 4
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 10
 end
@@ -1124,7 +1093,7 @@ arch dungeon_magic
 x 4
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 11
 end
@@ -1132,7 +1101,7 @@ arch dungeon_magic
 x 4
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 12
 end
@@ -1140,7 +1109,7 @@ arch dungeon_magic
 x 4
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 13
 end
@@ -1148,7 +1117,7 @@ arch dungeon_magic
 x 4
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 14
 end
@@ -1156,7 +1125,7 @@ arch dungeon_magic
 x 4
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 15
 end
@@ -1164,7 +1133,7 @@ arch dungeon_magic
 x 4
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 16
 end
@@ -1172,7 +1141,7 @@ arch dungeon_magic
 x 4
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 17
 end
@@ -1180,7 +1149,7 @@ arch dungeon_magic
 x 4
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 18
 end
@@ -1188,7 +1157,7 @@ arch dungeon_magic
 x 4
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 19
 end
@@ -1196,7 +1165,7 @@ arch dungeon_magic
 x 4
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 20
 end
@@ -1204,7 +1173,7 @@ arch dungeon_magic
 x 4
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 21
 end
@@ -1212,7 +1181,11 @@ arch swall_2_2_2
 x 4
 y 21
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 21
+end
+arch dungeon_floor
 x 4
 y 22
 end
@@ -1220,7 +1193,11 @@ arch swall_2_1_1
 x 4
 y 22
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 22
+end
+arch dungeon_floor
 x 4
 y 23
 end
@@ -1228,7 +1205,11 @@ arch swall_2_1_1
 x 4
 y 23
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 23
+end
+arch dungeon_floor
 x 4
 y 24
 end
@@ -1236,7 +1217,11 @@ arch swall_2_1_1
 x 4
 y 24
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 24
+end
+arch dungeon_floor
 x 4
 y 25
 end
@@ -1244,7 +1229,11 @@ arch swall_3_2
 x 4
 y 25
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 25
+end
+arch dungeon_floor
 x 4
 y 26
 end
@@ -1252,7 +1241,11 @@ arch swall_3_2
 x 4
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 26
+end
+arch dungeon_floor
 x 4
 y 27
 end
@@ -1260,7 +1253,11 @@ arch swall_2_1_1
 x 4
 y 27
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 27
+end
+arch dungeon_floor
 x 4
 y 28
 end
@@ -1268,7 +1265,11 @@ arch swall_2_1_1
 x 4
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 28
+end
+arch dungeon_floor
 x 4
 y 29
 end
@@ -1276,7 +1277,11 @@ arch swall_2_1_1
 x 4
 y 29
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 29
+end
+arch dungeon_floor
 x 4
 y 30
 end
@@ -1284,7 +1289,11 @@ arch swall_2_1_1
 x 4
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 4
+y 30
+end
+arch dungeon_floor
 x 4
 y 31
 end
@@ -1358,10 +1367,6 @@ arch cave_15
 x 5
 y 5
 end
-arch dungeon_magic
-x 5
-y 5
-end
 arch small_stones
 x 5
 y 6
@@ -1370,11 +1375,11 @@ arch cave4
 x 5
 y 6
 end
-arch dungeon_magic
+arch small_stones
 x 5
 y 7
 end
-arch small_stones
+arch dungeon_magic
 x 5
 y 7
 end
@@ -1386,7 +1391,7 @@ arch cave2
 x 5
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 9
 end
@@ -1394,7 +1399,7 @@ arch mine2
 x 5
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 10
 end
@@ -1402,7 +1407,7 @@ arch dungeon_magic
 x 5
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 11
 end
@@ -1410,7 +1415,7 @@ arch dungeon_magic
 x 5
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 12
 end
@@ -1422,7 +1427,7 @@ arch dungeon_magic
 x 5
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 13
 end
@@ -1430,7 +1435,7 @@ arch dungeon_magic
 x 5
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 14
 end
@@ -1442,7 +1447,7 @@ arch dungeon_magic
 x 5
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 15
 end
@@ -1454,7 +1459,7 @@ arch dungeon_magic
 x 5
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 16
 end
@@ -1462,7 +1467,7 @@ arch dungeon_magic
 x 5
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 17
 end
@@ -1474,7 +1479,7 @@ arch dungeon_magic
 x 5
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 18
 end
@@ -1482,7 +1487,7 @@ arch dungeon_magic
 x 5
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 19
 end
@@ -1494,7 +1499,7 @@ arch dungeon_magic
 x 5
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 20
 end
@@ -1502,11 +1507,15 @@ arch dungeon_magic
 x 5
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 21
 end
 arch swall_2_1_2
+x 5
+y 21
+end
+arch dungeon_magic
 x 5
 y 21
 end
@@ -1542,7 +1551,7 @@ arch dungeon_magic
 x 5
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 25
 end
@@ -1550,11 +1559,19 @@ arch swall_2_2_3
 x 5
 y 25
 end
-arch flagstone
+arch dungeon_magic
+x 5
+y 25
+end
+arch dungeon_floor
 x 5
 y 26
 end
 arch swall_2_2_4
+x 5
+y 26
+end
+arch dungeon_magic
 x 5
 y 26
 end
@@ -1601,6 +1618,10 @@ x 5
 y 29
 randomitems none
 end
+arch dungeon_magic
+x 5
+y 29
+end
 arch small_stones
 x 5
 y 30
@@ -1609,7 +1630,11 @@ arch director_3
 x 5
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 5
+y 30
+end
+arch dungeon_floor
 x 5
 y 31
 end
@@ -1640,10 +1665,6 @@ arch cave_15
 x 6
 y 5
 end
-arch dungeon_magic
-x 6
-y 5
-end
 arch small_stones
 x 6
 y 6
@@ -1652,11 +1673,11 @@ arch cave4
 x 6
 y 6
 end
-arch dungeon_magic
+arch small_stones
 x 6
 y 7
 end
-arch small_stones
+arch dungeon_magic
 x 6
 y 7
 end
@@ -1668,7 +1689,7 @@ arch cave2
 x 6
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 9
 end
@@ -1680,7 +1701,7 @@ arch swall_1_1_half
 x 6
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 10
 end
@@ -1688,7 +1709,11 @@ arch swall_2_1_1
 x 6
 y 10
 end
-arch flagstone
+arch dungeon_magic
+x 6
+y 10
+end
+arch dungeon_floor
 x 6
 y 11
 end
@@ -1696,7 +1721,11 @@ arch swall_2_1_1
 x 6
 y 11
 end
-arch flagstone
+arch dungeon_magic
+x 6
+y 11
+end
+arch dungeon_floor
 x 6
 y 12
 end
@@ -1704,7 +1733,11 @@ arch swall_2_1_1
 x 6
 y 12
 end
-arch flagstone
+arch dungeon_magic
+x 6
+y 12
+end
+arch dungeon_floor
 x 6
 y 13
 end
@@ -1712,7 +1745,11 @@ arch swall_2_2_1
 x 6
 y 13
 end
-arch flagstone
+arch dungeon_magic
+x 6
+y 13
+end
+arch dungeon_floor
 x 6
 y 14
 end
@@ -1720,7 +1757,7 @@ arch dungeon_magic
 x 6
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 15
 end
@@ -1728,7 +1765,7 @@ arch dungeon_magic
 x 6
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 16
 end
@@ -1736,7 +1773,7 @@ arch dungeon_magic
 x 6
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 17
 end
@@ -1744,7 +1781,7 @@ arch dungeon_magic
 x 6
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 18
 end
@@ -1752,7 +1789,7 @@ arch dungeon_magic
 x 6
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 19
 end
@@ -1760,7 +1797,7 @@ arch dungeon_magic
 x 6
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 20
 end
@@ -1768,11 +1805,15 @@ arch dungeon_magic
 x 6
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 21
 end
 arch swall_2_1_2
+x 6
+y 21
+end
+arch dungeon_magic
 x 6
 y 21
 end
@@ -1844,11 +1885,19 @@ arch small_stones
 x 6
 y 29
 end
+arch dungeon_magic
+x 6
+y 29
+end
 arch small_stones
 x 6
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 6
+y 30
+end
+arch dungeon_floor
 x 6
 y 31
 end
@@ -1896,10 +1945,6 @@ arch cave_15
 x 7
 y 5
 end
-arch dungeon_magic
-x 7
-y 5
-end
 arch small_stones
 x 7
 y 6
@@ -1908,11 +1953,11 @@ arch cave4
 x 7
 y 6
 end
-arch dungeon_magic
+arch small_stones
 x 7
 y 7
 end
-arch small_stones
+arch dungeon_magic
 x 7
 y 7
 end
@@ -1931,7 +1976,7 @@ sp 14
 x 7
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 9
 end
@@ -1939,10 +1984,6 @@ arch mine2
 x 7
 y 9
 move_block 0
-end
-arch dungeon_magic
-x 7
-y 9
 end
 arch pedestal
 x 7
@@ -1955,7 +1996,7 @@ y 10
 level 1
 attacktype 1
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 10
 end
@@ -1982,7 +2023,7 @@ x 7
 y 11
 connected 104
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 11
 end
@@ -2016,7 +2057,7 @@ endmsg
 x 7
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 12
 end
@@ -2031,7 +2072,7 @@ arch dungeon_magic
 x 7
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 13
 end
@@ -2044,7 +2085,7 @@ arch dungeon_magic
 x 7
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 14
 end
@@ -2056,7 +2097,7 @@ arch dungeon_magic
 x 7
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 15
 end
@@ -2068,7 +2109,7 @@ arch dungeon_magic
 x 7
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 16
 end
@@ -2076,7 +2117,7 @@ arch dungeon_magic
 x 7
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 17
 end
@@ -2088,7 +2129,7 @@ arch dungeon_magic
 x 7
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 18
 end
@@ -2096,7 +2137,7 @@ arch dungeon_magic
 x 7
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 19
 end
@@ -2104,7 +2145,7 @@ arch dungeon_magic
 x 7
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 20
 end
@@ -2112,11 +2153,15 @@ arch dungeon_magic
 x 7
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 21
 end
 arch swall_2_1_2
+x 7
+y 21
+end
+arch dungeon_magic
 x 7
 y 21
 end
@@ -2128,57 +2173,29 @@ arch dungeon_magic
 x 7
 y 22
 end
-arch flagstone
-x 7
-y 23
-end
 arch mine16
 x 7
 y 23
 end
-arch flagstone
+arch mine11
 x 7
 y 24
 end
 arch mine11
 x 7
-y 24
-end
-arch flagstone
-x 7
 y 25
-end
-arch mine11
-x 7
-y 25
-end
-arch flagstone
-x 7
-y 26
 end
 arch mine3
 x 7
 y 26
 end
-arch flagstone
-x 7
-y 27
-end
 arch mine3
 x 7
 y 27
-end
-arch flagstone
-x 7
-y 28
 end
 arch mine14
 x 7
 y 28
-end
-arch flagstone
-x 7
-y 29
 end
 arch mine4
 x 7
@@ -2188,7 +2205,11 @@ arch small_stones
 x 7
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 7
+y 30
+end
+arch dungeon_floor
 x 7
 y 31
 end
@@ -2199,14 +2220,7 @@ end
 arch cave_15
 x 8
 end
-arch dungeon_magic
-x 8
-end
 arch cave_15
-x 8
-y 1
-end
-arch dungeon_magic
 x 8
 y 1
 end
@@ -2214,15 +2228,7 @@ arch cave_15
 x 8
 y 2
 end
-arch dungeon_magic
-x 8
-y 2
-end
 arch cave_15
-x 8
-y 3
-end
-arch dungeon_magic
 x 8
 y 3
 end
@@ -2230,15 +2236,7 @@ arch cave_15
 x 8
 y 4
 end
-arch dungeon_magic
-x 8
-y 4
-end
 arch cave_15
-x 8
-y 5
-end
-arch dungeon_magic
 x 8
 y 5
 end
@@ -2250,11 +2248,11 @@ arch cave4
 x 8
 y 6
 end
-arch dungeon_magic
+arch small_stones
 x 8
 y 7
 end
-arch small_stones
+arch dungeon_magic
 x 8
 y 7
 end
@@ -2266,7 +2264,7 @@ arch cave2
 x 8
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 9
 end
@@ -2278,7 +2276,7 @@ arch swall_1_1_half
 x 8
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 10
 end
@@ -2286,15 +2284,23 @@ arch swall_2_1_1
 x 8
 y 10
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 10
+end
+arch dungeon_floor
 x 8
 y 11
 end
-arch swall_3_2
+arch swall_2_1_1
 x 8
 y 11
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 11
+end
+arch dungeon_floor
 x 8
 y 12
 end
@@ -2302,15 +2308,23 @@ arch swall_2_1_1
 x 8
 y 12
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 12
+end
+arch dungeon_floor
 x 8
 y 13
 end
-arch swall_3_1
+arch swall_2_2_4
 x 8
 y 13
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 13
+end
+arch dungeon_floor
 x 8
 y 14
 end
@@ -2318,7 +2332,7 @@ arch dungeon_magic
 x 8
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 15
 end
@@ -2326,7 +2340,7 @@ arch dungeon_magic
 x 8
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 16
 end
@@ -2334,7 +2348,7 @@ arch dungeon_magic
 x 8
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 17
 end
@@ -2342,7 +2356,7 @@ arch dungeon_magic
 x 8
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 18
 end
@@ -2350,7 +2364,7 @@ arch dungeon_magic
 x 8
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 19
 end
@@ -2358,7 +2372,7 @@ arch dungeon_magic
 x 8
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 20
 end
@@ -2366,7 +2380,11 @@ arch swall_2_2_2
 x 8
 y 20
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 20
+end
+arch dungeon_floor
 x 8
 y 21
 end
@@ -2374,32 +2392,21 @@ arch swall_2_2_4
 x 8
 y 21
 end
+arch dungeon_magic
+x 8
+y 21
+end
 arch small_stones
 x 8
 y 22
-end
-arch mover_3
-maxhp 1
-x 8
-y 22
-level 1
-attacktype 1
 end
 arch dungeon_magic
 x 8
 y 22
 end
-arch flagstone
-x 8
-y 23
-end
 arch blocked
 x 8
 y 23
-end
-arch flagstone
-x 8
-y 24
 end
 arch blocked
 x 8
@@ -2421,12 +2428,9 @@ arch director_3
 x 8
 y 26
 end
-arch mover_3
-maxhp 1
+arch mover_2
 x 8
 y 26
-level 1
-attacktype 1
 end
 arch dungeon_magic
 x 8
@@ -2452,10 +2456,6 @@ arch dungeon_magic
 x 8
 y 28
 end
-arch flagstone
-x 8
-y 29
-end
 arch mine2
 x 8
 y 29
@@ -2464,7 +2464,11 @@ arch small_stones
 x 8
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 8
+y 30
+end
+arch dungeon_floor
 x 8
 y 31
 end
@@ -2526,10 +2530,6 @@ arch cave9
 x 9
 y 6
 end
-arch dungeon_magic
-x 9
-y 7
-end
 arch small_stones
 x 9
 y 7
@@ -2545,6 +2545,10 @@ randomitems none
 arch spell_large_fireball
 end
 end
+arch dungeon_magic
+x 9
+y 7
+end
 arch small_stones
 x 9
 y 8
@@ -2553,7 +2557,7 @@ arch cave2
 x 9
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 9
 end
@@ -2561,7 +2565,7 @@ arch mine2
 x 9
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 10
 end
@@ -2574,15 +2578,15 @@ arch dungeon_magic
 x 9
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 11
 end
-arch swall_2_1_2
+arch dungeon_magic
 x 9
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 12
 end
@@ -2590,20 +2594,15 @@ arch dungeon_magic
 x 9
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 13
-end
-arch ggate_open
-x 9
-y 13
-connected 201
 end
 arch dungeon_magic
 x 9
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 14
 end
@@ -2615,7 +2614,7 @@ arch dungeon_magic
 x 9
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 15
 end
@@ -2627,7 +2626,7 @@ arch dungeon_magic
 x 9
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 16
 end
@@ -2635,7 +2634,7 @@ arch dungeon_magic
 x 9
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 17
 end
@@ -2647,7 +2646,7 @@ arch dungeon_magic
 x 9
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 18
 end
@@ -2655,7 +2654,7 @@ arch dungeon_magic
 x 9
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 19
 end
@@ -2670,11 +2669,15 @@ arch dungeon_magic
 x 9
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 20
 end
 arch swall_2_1_2
+x 9
+y 20
+end
+arch dungeon_magic
 x 9
 y 20
 end
@@ -2704,6 +2707,10 @@ arch dungeon_magic
 x 9
 y 21
 end
+arch mover_5
+x 9
+y 22
+end
 arch small_stones
 x 9
 y 22
@@ -2721,7 +2728,6 @@ x 9
 y 23
 end
 arch mover_5
-maxhp 1
 x 9
 y 23
 level 1
@@ -2744,7 +2750,6 @@ x 9
 y 25
 end
 arch mover_1
-maxhp 1
 x 9
 y 25
 level 1
@@ -2762,22 +2767,19 @@ arch director_1
 x 9
 y 26
 end
-arch mover_1
-maxhp 1
-x 9
-y 26
-level 1
-attacktype 1
-end
 arch dungeon_magic
 x 9
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 27
 end
 arch swall_1_4
+x 9
+y 27
+end
+arch dungeon_magic
 x 9
 y 27
 end
@@ -2788,10 +2790,6 @@ end
 arch dungeon_magic
 x 9
 y 28
-end
-arch flagstone
-x 9
-y 29
 end
 arch mine2
 x 9
@@ -2801,7 +2799,11 @@ arch small_stones
 x 9
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 9
+y 30
+end
+arch dungeon_floor
 x 9
 y 31
 end
@@ -2828,14 +2830,14 @@ arch dungeon_magic
 x 10
 y 3
 end
+arch small_stones
+x 10
+y 4
+end
 arch invis_exit
 slaying raffle2_u3a
 hp 6
 sp 13
-x 10
-y 4
-end
-arch small_stones
 x 10
 y 4
 end
@@ -2866,6 +2868,11 @@ end
 arch cave6
 x 10
 y 7
+move_block 0
+end
+arch dungeon_magic
+x 10
+y 7
 end
 arch small_stones
 x 10
@@ -2875,7 +2882,7 @@ arch cave22
 x 10
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 9
 end
@@ -2883,7 +2890,7 @@ arch mine2
 x 10
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 10
 end
@@ -2896,31 +2903,31 @@ arch dungeon_magic
 x 10
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 11
 end
-arch swall_2_2_3
+arch dungeon_magic
 x 10
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 12
 end
-arch swall_2_1_1
+arch dungeon_magic
 x 10
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 13
 end
-arch swall_2_2_4
+arch dungeon_magic
 x 10
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 14
 end
@@ -2928,7 +2935,7 @@ arch dungeon_magic
 x 10
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 15
 end
@@ -2936,7 +2943,7 @@ arch dungeon_magic
 x 10
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 16
 end
@@ -2944,7 +2951,7 @@ arch dungeon_magic
 x 10
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 17
 end
@@ -2952,7 +2959,7 @@ arch dungeon_magic
 x 10
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 18
 end
@@ -2960,7 +2967,7 @@ arch dungeon_magic
 x 10
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 19
 end
@@ -2968,7 +2975,7 @@ arch dungeon_magic
 x 10
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 20
 end
@@ -2976,7 +2983,11 @@ arch swall_2_2_3
 x 10
 y 20
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 20
+end
+arch dungeon_floor
 x 10
 y 21
 end
@@ -2984,7 +2995,11 @@ arch swall_2_1_1
 x 10
 y 21
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 21
+end
+arch dungeon_floor
 x 10
 y 22
 end
@@ -2992,7 +3007,11 @@ arch swall_2_1_1
 x 10
 y 22
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 22
+end
+arch dungeon_floor
 x 10
 y 23
 end
@@ -3000,7 +3019,11 @@ arch swall_2_1_1
 x 10
 y 23
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 23
+end
+arch dungeon_floor
 x 10
 y 24
 end
@@ -3011,7 +3034,11 @@ y 24
 speed 0.500000
 connected 1001
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 24
+end
+arch dungeon_floor
 x 10
 y 25
 end
@@ -3019,7 +3046,11 @@ arch swall_2_1_1
 x 10
 y 25
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 25
+end
+arch dungeon_floor
 x 10
 y 26
 end
@@ -3027,11 +3058,19 @@ arch swall_2_1_1
 x 10
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 26
+end
+arch dungeon_floor
 x 10
 y 27
 end
 arch swall_3_1
+x 10
+y 27
+end
+arch dungeon_magic
 x 10
 y 27
 end
@@ -3049,10 +3088,6 @@ arch dungeon_magic
 x 10
 y 28
 end
-arch flagstone
-x 10
-y 29
-end
 arch mine2
 x 10
 y 29
@@ -3061,7 +3096,11 @@ arch small_stones
 x 10
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 10
+y 30
+end
+arch dungeon_floor
 x 10
 y 31
 end
@@ -3139,7 +3178,7 @@ arch cave_15
 x 11
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 9
 end
@@ -3147,7 +3186,7 @@ arch mine2
 x 11
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 10
 end
@@ -3160,7 +3199,7 @@ arch dungeon_magic
 x 11
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 11
 end
@@ -3168,7 +3207,7 @@ arch dungeon_magic
 x 11
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 12
 end
@@ -3187,7 +3226,7 @@ arch dungeon_magic
 x 11
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 13
 end
@@ -3195,7 +3234,7 @@ arch dungeon_magic
 x 11
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 14
 end
@@ -3207,7 +3246,7 @@ arch dungeon_magic
 x 11
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 15
 end
@@ -3215,7 +3254,7 @@ arch dungeon_magic
 x 11
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 16
 end
@@ -3223,7 +3262,7 @@ arch dungeon_magic
 x 11
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 17
 end
@@ -3231,7 +3270,7 @@ arch dungeon_magic
 x 11
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 18
 end
@@ -3239,7 +3278,7 @@ arch dungeon_magic
 x 11
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 19
 end
@@ -3247,7 +3286,7 @@ arch dungeon_magic
 x 11
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 20
 end
@@ -3255,7 +3294,7 @@ arch dungeon_magic
 x 11
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 21
 end
@@ -3263,7 +3302,7 @@ arch dungeon_magic
 x 11
 y 21
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 22
 end
@@ -3271,7 +3310,7 @@ arch dungeon_magic
 x 11
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 23
 end
@@ -3286,7 +3325,7 @@ endmsg
 x 11
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 24
 end
@@ -3296,7 +3335,7 @@ y 24
 invisible 1
 connected 1001
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 25
 end
@@ -3304,7 +3343,7 @@ arch dungeon_magic
 x 11
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 26
 end
@@ -3312,11 +3351,15 @@ arch dungeon_magic
 x 11
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 27
 end
 arch swall_2_1_2
+x 11
+y 27
+end
+arch dungeon_magic
 x 11
 y 27
 end
@@ -3325,7 +3368,6 @@ x 11
 y 28
 end
 arch mover_3
-maxhp 1
 x 11
 y 28
 level 1
@@ -3334,10 +3376,6 @@ end
 arch dungeon_magic
 x 11
 y 28
-end
-arch flagstone
-x 11
-y 29
 end
 arch mine2
 x 11
@@ -3347,14 +3385,11 @@ arch small_stones
 x 11
 y 30
 end
-arch mover_3
-maxhp 1
+arch dungeon_magic
 x 11
 y 30
-level 1
-attacktype 1
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 31
 end
@@ -3405,15 +3440,7 @@ arch cave_15
 x 12
 y 3
 end
-arch dungeon_magic
-x 12
-y 3
-end
 arch cave_15
-x 12
-y 4
-end
-arch dungeon_magic
 x 12
 y 4
 end
@@ -3421,15 +3448,7 @@ arch cave_15
 x 12
 y 5
 end
-arch dungeon_magic
-x 12
-y 5
-end
 arch cave_15
-x 12
-y 6
-end
-arch dungeon_magic
 x 12
 y 6
 end
@@ -3437,19 +3456,11 @@ arch cave_15
 x 12
 y 7
 end
-arch dungeon_magic
-x 12
-y 7
-end
 arch cave_15
 x 12
 y 8
 end
-arch dungeon_magic
-x 12
-y 8
-end
-arch flagstone
+arch dungeon_floor
 x 12
 y 9
 end
@@ -3461,11 +3472,7 @@ arch swall_1_1_half
 x 12
 y 9
 end
-arch dungeon_magic
-x 12
-y 9
-end
-arch flagstone
+arch dungeon_floor
 x 12
 y 10
 end
@@ -3477,7 +3484,7 @@ arch dungeon_magic
 x 12
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 11
 end
@@ -3489,7 +3496,7 @@ arch dungeon_magic
 x 12
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 12
 end
@@ -3501,7 +3508,7 @@ arch dungeon_magic
 x 12
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 13
 end
@@ -3513,7 +3520,7 @@ arch dungeon_magic
 x 12
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 14
 end
@@ -3521,7 +3528,7 @@ arch mine8
 x 12
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 15
 end
@@ -3529,7 +3536,7 @@ arch mine3
 x 12
 y 15
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 16
 end
@@ -3537,7 +3544,7 @@ arch mine3
 x 12
 y 16
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 17
 end
@@ -3545,7 +3552,7 @@ arch mine3
 x 12
 y 17
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 18
 end
@@ -3553,7 +3560,7 @@ arch mine3
 x 12
 y 18
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 19
 end
@@ -3561,7 +3568,7 @@ arch mine3
 x 12
 y 19
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 20
 end
@@ -3569,7 +3576,7 @@ arch mine3
 x 12
 y 20
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 21
 end
@@ -3581,7 +3588,7 @@ arch swall_1_1_half
 x 12
 y 21
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 22
 end
@@ -3593,7 +3600,7 @@ arch dungeon_magic
 x 12
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 23
 end
@@ -3605,7 +3612,7 @@ arch dungeon_magic
 x 12
 y 23
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 24
 end
@@ -3617,7 +3624,7 @@ arch dungeon_magic
 x 12
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 25
 end
@@ -3629,7 +3636,7 @@ arch dungeon_magic
 x 12
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 26
 end
@@ -3641,7 +3648,7 @@ arch dungeon_magic
 x 12
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 27
 end
@@ -3679,10 +3686,6 @@ arch mine7
 x 12
 y 29
 end
-arch dungeon_magic
-x 12
-y 29
-end
 arch small_stones
 x 12
 y 30
@@ -3691,7 +3694,7 @@ arch dungeon_magic
 x 12
 y 30
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 31
 end
@@ -3777,10 +3780,6 @@ arch mine2
 x 13
 y 9
 end
-arch dungeon_magic
-x 13
-y 9
-end
 arch flagstone
 x 13
 y 10
@@ -3813,15 +3812,7 @@ arch flagstone
 x 13
 y 13
 end
-arch generate_beholder
-x 13
-y 13
-end
 arch flagstone
-x 13
-y 14
-end
-arch generate_beholder
 x 13
 y 14
 end
@@ -3924,7 +3915,7 @@ endmsg
 x 13
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 13
 y 27
 end
@@ -3949,7 +3940,7 @@ x 13
 y 28
 connected 2610
 end
-arch brush
+arch dungeon_floor
 x 13
 y 28
 end
@@ -3964,7 +3955,11 @@ x 13
 y 28
 connected 2001
 end
-arch flagstone
+arch dungeon_magic
+x 13
+y 28
+end
+arch dungeon_floor
 x 13
 y 29
 end
@@ -3976,11 +3971,15 @@ arch dungeon_magic
 x 13
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 13
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 13
+y 30
+end
+arch dungeon_floor
 x 13
 y 31
 end
@@ -4007,6 +4006,10 @@ arch dungeon_magic
 x 14
 y 3
 end
+arch small_stones
+x 14
+y 4
+end
 arch invis_exit
 slaying raffle2_u3a
 hp 10
@@ -4014,7 +4017,7 @@ sp 13
 x 14
 y 4
 end
-arch small_stones
+arch dungeon_magic
 x 14
 y 4
 end
@@ -4033,6 +4036,7 @@ end
 arch cave7
 x 14
 y 7
+move_block 0
 end
 arch small_stones
 x 14
@@ -4050,10 +4054,6 @@ arch mine2
 x 14
 y 9
 end
-arch dungeon_magic
-x 14
-y 9
-end
 arch flagstone
 x 14
 y 10
@@ -4067,35 +4067,11 @@ arch flagstone
 x 14
 y 11
 end
-arch swall_2_2_2
-x 14
-y 11
-end
-arch dungeon_magic
-x 14
-y 11
-end
 arch flagstone
 x 14
 y 12
 end
-arch swall_2_1_1
-x 14
-y 12
-end
-arch dungeon_magic
-x 14
-y 12
-end
 arch flagstone
-x 14
-y 13
-end
-arch swall_2_2_1
-x 14
-y 13
-end
-arch dungeon_magic
 x 14
 y 13
 end
@@ -4153,7 +4129,7 @@ arch flagstone
 x 14
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 14
 y 25
 end
@@ -4165,11 +4141,15 @@ arch dungeon_magic
 x 14
 y 25
 end
-arch brush
+arch dungeon_floor
 x 14
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 14
+y 26
+end
+arch dungeon_floor
 x 14
 y 27
 end
@@ -4181,11 +4161,15 @@ arch dungeon_magic
 x 14
 y 27
 end
-arch brush
+arch dungeon_floor
 x 14
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 14
+y 28
+end
+arch dungeon_floor
 x 14
 y 29
 end
@@ -4197,11 +4181,15 @@ arch dungeon_magic
 x 14
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 14
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 14
+y 30
+end
+arch dungeon_floor
 x 14
 y 31
 end
@@ -4247,10 +4235,6 @@ arch cave1
 x 15
 y 4
 end
-arch dungeon_magic
-x 15
-y 4
-end
 arch small_stones
 x 15
 y 5
@@ -4259,19 +4243,11 @@ arch cave1
 x 15
 y 5
 end
-arch dungeon_magic
-x 15
-y 5
-end
 arch small_stones
 x 15
 y 6
 end
 arch cave10
-x 15
-y 6
-end
-arch dungeon_magic
 x 15
 y 6
 end
@@ -4295,10 +4271,6 @@ arch mine2
 x 15
 y 9
 end
-arch dungeon_magic
-x 15
-y 9
-end
 arch flagstone
 x 15
 y 10
@@ -4312,28 +4284,11 @@ arch flagstone
 x 15
 y 11
 end
-arch swall_2_1_2
-x 15
-y 11
-end
-arch dungeon_magic
-x 15
-y 11
-end
 arch flagstone
 x 15
 y 12
 end
 arch flagstone
-x 15
-y 13
-end
-arch ggate_open
-x 15
-y 13
-connected 101
-end
-arch dungeon_magic
 x 15
 y 13
 end
@@ -4400,7 +4355,7 @@ arch flagstone
 x 15
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 15
 y 25
 end
@@ -4412,11 +4367,15 @@ arch dungeon_magic
 x 15
 y 25
 end
-arch brush
+arch dungeon_floor
 x 15
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 15
+y 26
+end
+arch dungeon_floor
 x 15
 y 27
 end
@@ -4428,11 +4387,15 @@ arch dungeon_magic
 x 15
 y 27
 end
-arch brush
+arch dungeon_floor
 x 15
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 15
+y 28
+end
+arch dungeon_floor
 x 15
 y 29
 end
@@ -4444,11 +4407,15 @@ arch dungeon_magic
 x 15
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 15
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 15
+y 30
+end
+arch dungeon_floor
 x 15
 y 31
 end
@@ -4474,23 +4441,11 @@ arch cave_15
 x 16
 y 3
 end
-arch dungeon_magic
-x 16
-y 3
-end
 arch cave_15
 x 16
 y 4
 end
-arch dungeon_magic
-x 16
-y 4
-end
 arch cave_15
-x 16
-y 5
-end
-arch dungeon_magic
 x 16
 y 5
 end
@@ -4499,10 +4454,6 @@ x 16
 y 6
 end
 arch cave4
-x 16
-y 6
-end
-arch dungeon_magic
 x 16
 y 6
 end
@@ -4530,10 +4481,6 @@ arch swall_1_1_half
 x 16
 y 9
 end
-arch dungeon_magic
-x 16
-y 9
-end
 arch flagstone
 x 16
 y 10
@@ -4550,7 +4497,7 @@ arch flagstone
 x 16
 y 11
 end
-arch swall_3_4
+arch swall_2_1_1
 x 16
 y 11
 end
@@ -4574,7 +4521,7 @@ arch flagstone
 x 16
 y 13
 end
-arch swall_3_1
+arch swall_2_2_1
 x 16
 y 13
 end
@@ -4668,7 +4615,7 @@ arch flagstone
 x 16
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 16
 y 25
 end
@@ -4680,11 +4627,15 @@ arch dungeon_magic
 x 16
 y 25
 end
-arch brush
+arch dungeon_floor
 x 16
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 16
+y 26
+end
+arch dungeon_floor
 x 16
 y 27
 end
@@ -4696,11 +4647,15 @@ arch dungeon_magic
 x 16
 y 27
 end
-arch brush
+arch dungeon_floor
 x 16
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 16
+y 28
+end
+arch dungeon_floor
 x 16
 y 29
 end
@@ -4712,11 +4667,15 @@ arch dungeon_magic
 x 16
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 16
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 16
+y 30
+end
+arch dungeon_floor
 x 16
 y 31
 end
@@ -4771,19 +4730,11 @@ arch cave_15
 x 17
 y 5
 end
-arch dungeon_magic
-x 17
-y 5
-end
 arch small_stones
 x 17
 y 6
 end
 arch cave4
-x 17
-y 6
-end
-arch dungeon_magic
 x 17
 y 6
 end
@@ -4837,6 +4788,10 @@ x 17
 y 10
 connected 204
 end
+arch dungeon_magic
+x 17
+y 10
+end
 arch mover_5
 x 17
 y 11
@@ -4858,6 +4813,10 @@ x 17
 y 11
 speed 0.500000
 connected 203
+end
+arch dungeon_magic
+x 17
+y 11
 end
 arch button_small
 name 204
@@ -4994,7 +4953,7 @@ arch flagstone
 x 17
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 17
 y 25
 end
@@ -5006,11 +4965,15 @@ arch dungeon_magic
 x 17
 y 25
 end
-arch brush
+arch dungeon_floor
 x 17
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 17
+y 26
+end
+arch dungeon_floor
 x 17
 y 27
 end
@@ -5022,11 +4985,15 @@ arch dungeon_magic
 x 17
 y 27
 end
-arch brush
+arch dungeon_floor
 x 17
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 17
+y 28
+end
+arch dungeon_floor
 x 17
 y 29
 end
@@ -5038,11 +5005,15 @@ arch dungeon_magic
 x 17
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 17
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 17
+y 30
+end
+arch dungeon_floor
 x 17
 y 31
 end
@@ -5073,19 +5044,11 @@ arch cave_15
 x 18
 y 5
 end
-arch dungeon_magic
-x 18
-y 5
-end
 arch small_stones
 x 18
 y 6
 end
 arch cave4
-x 18
-y 6
-end
-arch dungeon_magic
 x 18
 y 6
 end
@@ -5110,10 +5073,6 @@ x 18
 y 9
 end
 arch swall_1_1_half
-x 18
-y 9
-end
-arch dungeon_magic
 x 18
 y 9
 end
@@ -5255,7 +5214,7 @@ arch flagstone
 x 18
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 18
 y 25
 end
@@ -5267,11 +5226,15 @@ arch dungeon_magic
 x 18
 y 25
 end
-arch brush
+arch dungeon_floor
 x 18
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 18
+y 26
+end
+arch dungeon_floor
 x 18
 y 27
 end
@@ -5283,11 +5246,15 @@ arch dungeon_magic
 x 18
 y 27
 end
-arch brush
+arch dungeon_floor
 x 18
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 18
+y 28
+end
+arch dungeon_floor
 x 18
 y 29
 end
@@ -5299,11 +5266,15 @@ arch dungeon_magic
 x 18
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 18
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 18
+y 30
+end
+arch dungeon_floor
 x 18
 y 31
 end
@@ -5358,19 +5329,11 @@ arch cave_15
 x 19
 y 5
 end
-arch dungeon_magic
-x 19
-y 5
-end
 arch small_stones
 x 19
 y 6
 end
 arch cave4
-x 19
-y 6
-end
-arch dungeon_magic
 x 19
 y 6
 end
@@ -5394,15 +5357,7 @@ arch mine2
 x 19
 y 9
 end
-arch dungeon_magic
-x 19
-y 9
-end
 arch flagstone
-x 19
-y 10
-end
-arch generate_beholder
 x 19
 y 10
 end
@@ -5505,7 +5460,7 @@ arch flagstone
 x 19
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 19
 y 25
 end
@@ -5517,11 +5472,15 @@ arch dungeon_magic
 x 19
 y 25
 end
-arch brush
+arch dungeon_floor
 x 19
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 19
+y 26
+end
+arch dungeon_floor
 x 19
 y 27
 end
@@ -5533,11 +5492,15 @@ arch dungeon_magic
 x 19
 y 27
 end
-arch brush
+arch dungeon_floor
 x 19
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 19
+y 28
+end
+arch dungeon_floor
 x 19
 y 29
 end
@@ -5549,11 +5512,15 @@ arch dungeon_magic
 x 19
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 19
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 19
+y 30
+end
+arch dungeon_floor
 x 19
 y 31
 end
@@ -5584,19 +5551,11 @@ arch cave_15
 x 20
 y 5
 end
-arch dungeon_magic
-x 20
-y 5
-end
 arch small_stones
 x 20
 y 6
 end
 arch cave4
-x 20
-y 6
-end
-arch dungeon_magic
 x 20
 y 6
 end
@@ -5620,15 +5579,7 @@ arch mine7
 x 20
 y 9
 end
-arch dungeon_magic
-x 20
-y 9
-end
 arch flagstone
-x 20
-y 10
-end
-arch generate_beholder
 x 20
 y 10
 end
@@ -5730,7 +5681,7 @@ arch flagstone
 x 20
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 20
 y 25
 end
@@ -5742,11 +5693,15 @@ arch dungeon_magic
 x 20
 y 25
 end
-arch brush
+arch dungeon_floor
 x 20
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 20
+y 26
+end
+arch dungeon_floor
 x 20
 y 27
 end
@@ -5758,11 +5713,15 @@ arch dungeon_magic
 x 20
 y 27
 end
-arch brush
+arch dungeon_floor
 x 20
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 20
+y 28
+end
+arch dungeon_floor
 x 20
 y 29
 end
@@ -5774,11 +5733,15 @@ arch dungeon_magic
 x 20
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 20
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 20
+y 30
+end
+arch dungeon_floor
 x 20
 y 31
 end
@@ -5826,19 +5789,11 @@ arch cave_15
 x 21
 y 5
 end
-arch dungeon_magic
-x 21
-y 5
-end
 arch small_stones
 x 21
 y 6
 end
 arch cave25
-x 21
-y 6
-end
-arch dungeon_magic
 x 21
 y 6
 end
@@ -5849,10 +5804,7 @@ end
 arch cave5
 x 21
 y 7
-end
-arch dungeon_magic
-x 21
-y 7
+move_block 0
 end
 arch small_stones
 x 21
@@ -5863,10 +5815,6 @@ x 21
 y 9
 end
 arch flagstone
-x 21
-y 10
-end
-arch generate_beholder
 x 21
 y 10
 end
@@ -5941,7 +5889,7 @@ arch flagstone
 x 21
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 21
 y 25
 end
@@ -5953,29 +5901,39 @@ arch dungeon_magic
 x 21
 y 25
 end
-arch brush
+arch dungeon_floor
 x 21
 y 26
 end
 arch director_5
 x 21
 y 26
-speed_left -17.699993
 end
-arch brush
+arch dungeon_magic
+x 21
+y 26
+end
+arch dungeon_floor
 x 21
 y 27
 end
-arch brush
+arch dungeon_magic
+x 21
+y 27
+end
+arch dungeon_floor
 x 21
 y 28
 end
 arch director_7
 x 21
 y 28
-speed_left -10.499998
 end
-arch flagstone
+arch dungeon_magic
+x 21
+y 28
+end
+arch dungeon_floor
 x 21
 y 29
 end
@@ -5987,11 +5945,15 @@ arch dungeon_magic
 x 21
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 21
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 21
+y 30
+end
+arch dungeon_floor
 x 21
 y 31
 end
@@ -6022,10 +5984,6 @@ arch cave_15
 x 22
 y 5
 end
-arch dungeon_magic
-x 22
-y 5
-end
 arch small_stones
 x 22
 y 6
@@ -6042,19 +6000,11 @@ arch cave25
 x 22
 y 7
 end
-arch dungeon_magic
-x 22
-y 7
-end
 arch small_stones
 x 22
 y 8
 end
 arch cave1
-x 22
-y 8
-end
-arch dungeon_magic
 x 22
 y 8
 end
@@ -6066,15 +6016,7 @@ arch mine4
 x 22
 y 9
 end
-arch dungeon_magic
-x 22
-y 9
-end
 arch flagstone
-x 22
-y 10
-end
-arch generate_beholder
 x 22
 y 10
 end
@@ -6136,7 +6078,7 @@ arch flagstone
 x 22
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 23
 end
@@ -6148,12 +6090,11 @@ arch dungeon_magic
 x 22
 y 23
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 24
 end
 arch mover_7
-maxhp 1
 x 22
 y 24
 level 1
@@ -6163,7 +6104,7 @@ arch dungeon_magic
 x 22
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 25
 end
@@ -6175,7 +6116,7 @@ arch dungeon_magic
 x 22
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 26
 end
@@ -6187,7 +6128,7 @@ arch dungeon_magic
 x 22
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 27
 end
@@ -6199,7 +6140,7 @@ arch dungeon_magic
 x 22
 y 27
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 28
 end
@@ -6211,7 +6152,7 @@ arch dungeon_magic
 x 22
 y 28
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 29
 end
@@ -6223,11 +6164,15 @@ arch dungeon_magic
 x 22
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 22
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 22
+y 30
+end
+arch dungeon_floor
 x 22
 y 31
 end
@@ -6410,23 +6355,11 @@ arch cave_15
 x 23
 y 6
 end
-arch dungeon_magic
-x 23
-y 6
-end
 arch cave_15
 x 23
 y 7
 end
-arch dungeon_magic
-x 23
-y 7
-end
 arch cave_15
-x 23
-y 8
-end
-arch dungeon_magic
 x 23
 y 8
 end
@@ -6435,10 +6368,6 @@ x 23
 y 9
 end
 arch mine2
-x 23
-y 9
-end
-arch dungeon_magic
 x 23
 y 9
 end
@@ -6554,7 +6483,7 @@ sp 21
 x 23
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 23
 y 23
 end
@@ -6566,7 +6495,7 @@ arch dungeon_magic
 x 23
 y 23
 end
-arch flagstone
+arch dungeon_floor
 x 23
 y 24
 end
@@ -6575,40 +6504,62 @@ x 23
 y 24
 end
 arch mover_7
-maxhp 1
 x 23
 y 24
 level 1
 attacktype 1
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 24
+end
+arch dungeon_floor
 x 23
 y 25
 end
-arch mover_1
-maxhp 1
+arch mover_8
 x 23
 y 25
 level 1
 attacktype 1
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 25
+end
+arch dungeon_floor
 x 23
 y 26
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 26
+end
+arch dungeon_floor
 x 23
 y 27
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 27
+end
+arch dungeon_floor
 x 23
 y 28
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 28
+end
+arch dungeon_floor
 x 23
 y 29
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 29
+end
+arch dungeon_floor
 x 23
 y 30
 end
@@ -6616,7 +6567,11 @@ arch director_1
 x 23
 y 30
 end
-arch flagstone
+arch dungeon_magic
+x 23
+y 30
+end
+arch dungeon_floor
 x 23
 y 31
 end
@@ -6775,7 +6730,7 @@ arch mine3
 x 24
 y 22
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 23
 end
@@ -6783,7 +6738,7 @@ arch mine14
 x 24
 y 23
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 24
 end
@@ -6791,7 +6746,7 @@ arch mine3
 x 24
 y 24
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 25
 end
@@ -6799,7 +6754,7 @@ arch mine3
 x 24
 y 25
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 26
 end
@@ -6807,7 +6762,7 @@ arch mine3
 x 24
 y 26
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 27
 end
@@ -6815,7 +6770,7 @@ arch mine3
 x 24
 y 27
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 28
 end
@@ -6823,7 +6778,7 @@ arch mine3
 x 24
 y 28
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 29
 end
@@ -6831,7 +6786,7 @@ arch mine3
 x 24
 y 29
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 30
 end
@@ -6839,7 +6794,7 @@ arch mine3
 x 24
 y 30
 end
-arch flagstone
+arch dungeon_floor
 x 24
 y 31
 end
