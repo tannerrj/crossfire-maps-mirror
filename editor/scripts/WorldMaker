@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
   <name>WorldMaker</name>
-  <code><![CDATA[import cfeditor.IGUIConstants;
+  <code xml:space="preserve">import cfeditor.IGUIConstants;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import java.io.RandomAccessFile;
@@ -13,7 +13,7 @@ import java.nio.channels.FileChannel;
 File getSimpleFilename(File mapFile) {
     String mapFilename = mapFile.getPath();
     int i = mapFilename.lastIndexOf(File.separator);
-    if (i > 0) {
+    if (i &gt; 0) {
         mapFilename = mapFilename.substring(i + 1);
     }
     return new File(mapFilename);
@@ -27,7 +27,7 @@ boolean updateMap(File mapFile, File pictureFile) {
     if (!mapFile.exists()) {
         return false;
     }
-    if (pictureFile.exists() && pictureFile.lastModified() >= mapFile.lastModified()) {
+    if (pictureFile.exists() &amp;&amp; pictureFile.lastModified() &gt;= mapFile.lastModified()) {
         return false;
     }
     print("converting " + mapFile + " to " + pictureFile + ".");
@@ -94,7 +94,7 @@ void checkDaList() {
         FileOutputStream fos = new FileOutputStream(tempFile, false);
         fos.write(header);
         byte[] buf = new byte[(int) DestWidth.intValue() * bytesPerPixel];
-        for (int i = 0; i < DestHeight.intValue(); i++) {
+        for (int i = 0; i &lt; DestHeight.intValue(); i++) {
             fos.write(buf);
         }
         fos.close();
@@ -106,22 +106,22 @@ void checkDaList() {
     byte[] buf = new byte[bytesPerPixel * TileWidth.intValue() * TileHeight.intValue()];
 
     File tempImageFile = new File("/tmp/ppm.tmp");
-    for (int x = 0; x < NumX.intValue(); x++) {
-        for (int y = 0; y < NumY.intValue(); y++) {
+    for (int x = 0; x &lt; NumX.intValue(); x++) {
+        for (int y = 0; y &lt; NumY.intValue(); y++) {
             currentX = StartX.intValue() + x;
             currentY = StartY.intValue() + y;
             currentMap = new File(locationDir, MapFilename + "_" + currentX + "_" + currentY);
             currentPicture = getPngImageFilename(currentMap);
             didUpdate = updateMap(currentMap, currentPicture);
-            if ((didUpdate || firstRun) && currentPicture.exists()) {
-                runCommand("pngtopnm '" + currentPicture + "' | pnmscale -xysize " + TileWidth + " " + TileHeight + " > '" + tempImageFile + "'");
+            if ((didUpdate || firstRun) &amp;&amp; currentPicture.exists()) {
+                runCommand("pngtopnm '" + currentPicture + "' | pnmscale -xysize " + TileWidth + " " + TileHeight + " &gt; '" + tempImageFile + "'");
                 FileInputStream fis = new FileInputStream(tempImageFile);
                 fis.skip(toSkip);
                 fis.read(buf);
                 sx = x * TileWidth.intValue();
                 sy = y * TileHeight.intValue();
                 long index = ((long) sy * (long) DestWidth.intValue() + (long) sx) * bytesPerPixel + headerSize;
-                for (long row = 0; row < TileHeight.intValue(); row++) {
+                for (long row = 0; row &lt; TileHeight.intValue(); row++) {
                     MappedByteBuffer mbb = fc.map(FileChannel.MapMode.READ_WRITE, index + row * DestWidth.intValue() * bytesPerPixel, TileWidth.intValue() * bytesPerPixel);
                     mbb.put(buf, (int) (row * TileWidth.intValue() * bytesPerPixel), (int) (TileWidth.intValue() * bytesPerPixel));
                 }
@@ -131,13 +131,13 @@ void checkDaList() {
     raf.close();
     runCommand("mv " + tempFile + " '" + destinationFilePpm + "'");
     print("converting to png if possible.\n");
-    runCommand("pnmtopng '" + destinationFilePpm + "' > /tmp/tmp.png");
+    runCommand("pnmtopng '" + destinationFilePpm + "' &gt; /tmp/tmp.png");
     runCommand("mv /tmp/tmp.png '" + destinationFilePng + "'");
 }
 
 File locationDir;
 checkDaList();
-print("Done!");]]></code>
+print("Done!");</code>
   <mode>
     <autoboot>false</autoboot>
     <bash>true</bash>
@@ -147,7 +147,7 @@ print("Done!");]]></code>
     <name>Location</name>
     <description>Specify the map directory to use by this script. Leave empty for maps directory</description>
     <type>java.lang.String</type>
-    <value />
+    <value/>
   </parameter>
   <parameter>
     <name>MapFilename</name>
@@ -216,4 +216,3 @@ print("Done!");]]></code>
     <value>worldmap</value>
   </parameter>
 </script>
-

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
   <name>LegacySpellConverter</name>
-  <code><![CDATA[import java.io.File;
+  <code xml:space="preserve">import java.io.File;
 import java.util.Iterator;
-import net.sf.gridarta.gameobject.ArchetypeParser;
-import net.sf.gridarta.gameobject.ArchetypeSet;
-import net.sf.gridarta.gameobject.GameObject;
-import net.sf.gridarta.io.RecursiveFileIterator;
-import net.sf.gridarta.map.MapSquare;
+import net.sf.gridarta.model.archetypeset.ArchetypeSet;
+import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.io.ArchetypeParser;
+import net.sf.gridarta.model.io.RecursiveFileIterator;
+import net.sf.gridarta.model.mapmodel.MapSquare;
 
 int countMapFiles = 0;
 int countSpellObjects = 0;
@@ -236,7 +236,7 @@ void convertGameObject(GameObject gameObject) {
     case 31: // TRIGGER_ALTAR
     case 154: // RUNE
         if (gameObject.getAttributeInt("sp") == 0) {
-            // non-spellcasting object ==> skip
+            // non-spellcasting object ==&gt; skip
             break;
         }
         //fallthrough
@@ -249,18 +249,17 @@ void convertGameObject(GameObject gameObject) {
 
         if (!gameObject.iterator().hasNext()) {
             int spellId = gameObject.getAttributeInt(spellAttribute);
-            if (spellId < 0 || spellId >= spellMapping.length || spellMapping[spellId] == null) {
+            if (spellId &lt; 0 || spellId &gt;= spellMapping.length || spellMapping[spellId] == null) {
                 print("invalid spell number " + spellId + " in object " + gameObject.getBestName() + " at " + gameObject.getMapX() + "/" + gameObject.getMapY());
             } else {
-                GameObject spell = archetypeSet.getOrCreateArchetype(spellMapping[spellId]).createArch();
-                spell.postParseGameObject(0);
+                GameObject spell = gameObjectFactory.createGameObject(archetypeSet.getOrCreateArchetype(spellMapping[spellId]));
                 gameObject.addLast(spell);
                 countSpellObjects++;
             }
         }
 
         gameObject.removeAttribute(spellAttribute);
-        if (gameObject.getArchetype().getAttributeString("randomitems").length() > 0) {
+        if (gameObject.getArchetype().getAttributeString("randomitems").length() &gt; 0) {
             gameObject.setAttributeString("randomitems", "none");
         } else {
             gameObject.removeAttribute("randomitems");
@@ -272,38 +271,39 @@ void convertGameObject(GameObject gameObject) {
 void convertMap(File mapFile, String mapPath) {
     print(mapPath);
 
-    mapControl = mapManager.openMapFile(mapFile, false);
-    if (mapControl == null) {
-        print("Cannot load map file");
+    try {
+        map = mapManager.openMapFile(mapFile, false);
+    } catch (IOException ex) {
+        String message = ex.getMessage();
+        if (!message.startsWith("unexpected first line of map ")) {
+            print("Cannot load map '"+mapFile+"': "+ex.getMessage());
+        }
         return;
     }
 
     try {
-        mapControl.getMapModel().beginTransaction("spell conversion");
+        mapModel = map.getMapModel();
+        mapModel.beginTransaction("spell conversion");
         try {
-            Iterator it1 = mapControl.getAllSquares().iterator();
-            while (it1.hasNext()) {
-                MapSquare mapSquare = it1.next();
-                Iterator it2 = mapSquare.iterator();
-                while (it2.hasNext()) {
-                    GameObject gameObject = it2.next();
-                    convertGameObject(gameObject);
-                }
+            Iterator it = mapModel.getAllGameObjects().iterator();
+            while (it.hasNext()) {
+                GameObject gameObject = it.next();
+                convertGameObject(gameObject);
             }
         } finally {
-            mapControl.getMapModel().endTransaction();
+            mapModel.endTransaction();
         }
 
-        if (mapControl.isModified()) {
+        if (mapModel.isModified()) {
             countMapFiles++;
-            mapControl.save();
+            map.save();
         }
     } finally {
-        mapManager.release(mapControl);
+        mapManager.release(map);
     }
 }
 
-if (baseDirectory == null || baseDirectory.length() <= 0) {
+if (baseDirectory == null || baseDirectory.length() &lt;= 0) {
     baseDirectory = "/";
 }
 print("Converting spellcasting objects maps below " + baseDirectory + "...");
@@ -316,15 +316,36 @@ String rootDirectory = mapDefaultFolder + baseDirectory;
 Iterator it = new RecursiveFileIterator(new File(rootDirectory));
 while (it.hasNext()) {
     File file = it.next();
+    String name = file.getName();
+    String path = file.getPath();
     if (file.isFile()
-    && file.getPath().startsWith(rootDirectory)
-    && !file.getName().equalsIgnoreCase("README")
-    && !file.getName().endsWith(".msg")) {
+    &amp;&amp; path.startsWith(rootDirectory)
+    &amp;&amp; !name.endsWith(".animation")
+    &amp;&amp; !name.endsWith(".msg")
+    &amp;&amp; !name.endsWith(".png")
+    &amp;&amp; !name.endsWith(".ppm")
+    &amp;&amp; !name.endsWith(".py")
+    &amp;&amp; !name.endsWith(".pyc")
+    &amp;&amp; !name.endsWith(".quests")
+    &amp;&amp; !name.endsWith(".txt")
+    &amp;&amp; !name.endsWith(".zip")
+    &amp;&amp; !name.equals(".emergency")
+    &amp;&amp; !name.equals(".gitignore")
+    &amp;&amp; !name.equals("COPYING")
+    &amp;&amp; !name.equals("ChangeLog")
+    &amp;&amp; !name.equals("TODO")
+    &amp;&amp; !name.equals("__pycache__")
+    &amp;&amp; !name.equals("pshop_copier")
+    &amp;&amp; !name.equals("pshops_changelog")
+    &amp;&amp; !name.equalsIgnoreCase("README")
+    &amp;&amp; !path.contains("/.git/")
+    &amp;&amp; !path.contains("/Info/")
+    &amp;&amp; !path.contains("/editor/scripts/")) {
         convertMap(file, file.getPath().substring(mapDefaultFolder.length()));
     }
 }
 
-print("Done. Created " + countSpellObjects + " spell objects in " + countMapFiles + " map files.");]]></code>
+print("Done. Created " + countSpellObjects + " spell objects in " + countMapFiles + " map files.");</code>
   <mode>
     <autoboot>false</autoboot>
     <bash>false</bash>
@@ -337,4 +358,3 @@ print("Done. Created " + countSpellObjects + " spell objects in " + countMapFile
     <value>/</value>
   </parameter>
 </script>
-
