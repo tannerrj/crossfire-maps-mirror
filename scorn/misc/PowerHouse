@@ -12,7 +12,7 @@ enter_x 40
 enter_y 21
 msg
 Created:  1999-04-02
-Modified: 2016-05-17 SilverNexus
+Modified: 2022-05-17 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -3280,10 +3280,6 @@ arch cwall_2_1_2
 x 18
 y 13
 end
-arch light4
-x 18
-y 14
-end
 arch magic_banned
 x 18
 y 14
@@ -3291,15 +3287,6 @@ end
 arch flagstone
 x 18
 y 14
-end
-arch power_crystal
-sp 400
-maxsp 400
-x 18
-y 14
-resist_cold 100
-material 0
-no_pick 1
 end
 arch magic_banned
 x 18
@@ -3309,25 +3296,25 @@ arch flagstone
 x 18
 y 15
 end
-arch block_door_closed
-x 18
-y 15
-connected 11
-end
 arch magic_banned
 x 18
 y 16
 end
-arch goldfloor
-name Drop 400 gold coins for 400 Spell Points.
-food 400
+arch flagstone
 x 18
 y 16
-connected 11
+end
+arch magic_banned
+x 18
+y 17
 end
 arch flagstone
 x 18
 y 17
+end
+arch magic_banned
+x 18
+y 18
 end
 arch flagstone
 x 18
@@ -3337,6 +3324,10 @@ arch shop_mat
 x 18
 y 18
 end
+arch magic_banned
+x 18
+y 19
+end
 arch flagstone
 x 18
 y 19
@@ -3345,12 +3336,9 @@ arch magic_banned
 x 18
 y 20
 end
-arch goldfloor
-name Drop 400 gold coins for 400 Spell Points.
-food 400
+arch flagstone
 x 18
 y 20
-connected 28
 end
 arch magic_banned
 x 18
@@ -3360,15 +3348,6 @@ arch flagstone
 x 18
 y 21
 end
-arch block_door_closed
-x 18
-y 21
-connected 28
-end
-arch light4
-x 18
-y 22
-end
 arch magic_banned
 x 18
 y 22
@@ -3376,15 +3355,6 @@ end
 arch flagstone
 x 18
 y 22
-end
-arch power_crystal
-sp 400
-maxsp 400
-x 18
-y 22
-resist_cold 100
-material 0
-no_pick 1
 end
 arch flagstone
 x 18
@@ -3473,39 +3443,43 @@ arch flagstone
 x 19
 y 13
 end
-arch cwall_3_3
+arch dwall_win2
 x 19
 y 13
 end
-arch flagstone
-x 19
-y 14
-end
-arch cwall_2_1_1
+arch magic_banned
 x 19
 y 14
 end
 arch flagstone
 x 19
-y 15
+y 14
 end
-arch cwall_2_1_1
+arch magic_banned
 x 19
 y 15
 end
 arch flagstone
 x 19
-y 16
+y 15
 end
-arch cwall_1_2
+arch magic_banned
 x 19
 y 16
+end
+arch flagstone
+x 19
+y 16
+end
+arch magic_banned
+x 19
+y 17
 end
 arch flagstone
 x 19
 y 17
 end
-arch light4
+arch magic_banned
 x 19
 y 18
 end
@@ -3513,31 +3487,35 @@ arch flagstone
 x 19
 y 18
 end
-arch flagstone
+arch magic_banned
 x 19
 y 19
 end
 arch flagstone
 x 19
-y 20
+y 19
 end
-arch cwall_1_1
+arch magic_banned
 x 19
 y 20
 end
 arch flagstone
 x 19
-y 21
+y 20
 end
-arch cwall_2_1_1
+arch magic_banned
 x 19
 y 21
 end
 arch flagstone
+x 19
+y 21
+end
+arch magic_banned
 x 19
 y 22
 end
-arch cwall_2_1_1
+arch flagstone
 x 19
 y 22
 end
@@ -3545,7 +3523,7 @@ arch flagstone
 x 19
 y 23
 end
-arch cwall_3_1
+arch dwall_win2
 x 19
 y 23
 end
@@ -3640,10 +3618,6 @@ arch cwall_2_1_2
 x 20
 y 13
 end
-arch light4
-x 20
-y 14
-end
 arch magic_banned
 x 20
 y 14
@@ -3652,15 +3626,6 @@ arch flagstone
 x 20
 y 14
 end
-arch power_crystal
-sp 400
-maxsp 400
-x 20
-y 14
-resist_cold 100
-material 0
-no_pick 1
-end
 arch magic_banned
 x 20
 y 15
@@ -3668,30 +3633,34 @@ end
 arch flagstone
 x 20
 y 15
-end
-arch block_door_closed
-x 20
-y 15
-connected 12
 end
 arch magic_banned
 x 20
 y 16
 end
-arch goldfloor
-name Drop 400 gold coins for 400 Spell Points.
-food 400
+arch flagstone
 x 20
 y 16
-connected 12
 end
-arch flagstone
+arch magic_banned
 x 20
 y 17
 end
 arch flagstone
 x 20
+y 17
+end
+arch magic_banned
+x 20
 y 18
+end
+arch flagstone
+x 20
+y 18
+end
+arch magic_banned
+x 20
+y 19
 end
 arch flagstone
 x 20
@@ -3701,12 +3670,9 @@ arch magic_banned
 x 20
 y 20
 end
-arch goldfloor
-name Drop 400 gold coins for 400 Spell Points.
-food 400
+arch flagstone
 x 20
 y 20
-connected 27
 end
 arch magic_banned
 x 20
@@ -3716,15 +3682,6 @@ arch flagstone
 x 20
 y 21
 end
-arch block_door_closed
-x 20
-y 21
-connected 27
-end
-arch light4
-x 20
-y 22
-end
 arch magic_banned
 x 20
 y 22
@@ -3732,15 +3689,6 @@ end
 arch flagstone
 x 20
 y 22
-end
-arch power_crystal
-sp 400
-maxsp 400
-x 20
-y 22
-resist_cold 100
-material 0
-no_pick 1
 end
 arch flagstone
 x 20
@@ -3829,6 +3777,10 @@ arch cwall_3_3
 x 21
 y 13
 end
+arch magic_banned
+x 21
+y 14
+end
 arch flagstone
 x 21
 y 14
@@ -3837,49 +3789,73 @@ arch cwall_2_1_1
 x 21
 y 14
 end
-arch flagstone
-x 21
-y 15
-end
-arch cwall_2_1_1
+arch magic_banned
 x 21
 y 15
 end
 arch flagstone
 x 21
-y 16
+y 15
 end
 arch cwall_1_2
 x 21
+y 15
+end
+arch magic_banned
+x 21
 y 16
 end
 arch flagstone
+x 21
+y 16
+end
+arch magic_banned
 x 21
 y 17
 end
 arch flagstone
 x 21
+y 17
+end
+arch magic_banned
+x 21
 y 18
 end
 arch flagstone
+x 21
+y 18
+end
+arch magic_banned
 x 21
 y 19
 end
 arch flagstone
 x 21
-y 20
+y 19
 end
-arch cwall_1_1
+arch magic_banned
 x 21
 y 20
 end
 arch flagstone
 x 21
-y 21
+y 20
 end
-arch cwall_2_1_1
+arch magic_banned
 x 21
 y 21
+end
+arch flagstone
+x 21
+y 21
+end
+arch cwall_1_1
+x 21
+y 21
+end
+arch magic_banned
+x 21
+y 22
 end
 arch flagstone
 x 21
@@ -3976,10 +3952,6 @@ arch cwall_2_1_2
 x 22
 y 13
 end
-arch light4
-x 22
-y 14
-end
 arch magic_banned
 x 22
 y 14
@@ -3987,15 +3959,6 @@ end
 arch flagstone
 x 22
 y 14
-end
-arch power_crystal
-sp 300
-maxsp 300
-x 22
-y 14
-resist_cold 100
-material 0
-no_pick 1
 end
 arch magic_banned
 x 22
@@ -4005,33 +3968,37 @@ arch flagstone
 x 22
 y 15
 end
-arch block_door_closed
-x 22
-y 15
-connected 13
-end
 arch magic_banned
 x 22
 y 16
 end
-arch goldfloor
-name Drop 300 gold coins for 300 Spell Points.
-food 300
+arch flagstone
 x 22
 y 16
-connected 13
+end
+arch magic_banned
+x 22
+y 17
 end
 arch flagstone
 x 22
 y 17
 end
-arch light4
+arch pentagram_111
+x 22
+y 17
+end
+arch magic_banned
 x 22
 y 18
 end
 arch flagstone
 x 22
 y 18
+end
+arch magic_banned
+x 22
+y 19
 end
 arch flagstone
 x 22
@@ -4041,12 +4008,9 @@ arch magic_banned
 x 22
 y 20
 end
-arch goldfloor
-name Drop 300 gold coins for 300 Spell Points.
-food 300
+arch flagstone
 x 22
 y 20
-connected 26
 end
 arch magic_banned
 x 22
@@ -4056,15 +4020,6 @@ arch flagstone
 x 22
 y 21
 end
-arch block_door_closed
-x 22
-y 21
-connected 26
-end
-arch light4
-x 22
-y 22
-end
 arch magic_banned
 x 22
 y 22
@@ -4072,15 +4027,6 @@ end
 arch flagstone
 x 22
 y 22
-end
-arch power_crystal
-sp 300
-maxsp 300
-x 22
-y 22
-resist_cold 100
-material 0
-no_pick 1
 end
 arch flagstone
 x 22
@@ -4177,67 +4123,84 @@ arch flagstone
 x 23
 y 13
 end
-arch cwall_3_3
+arch dwall_win2
 x 23
 y 13
 end
-arch flagstone
-x 23
-y 14
-end
-arch cwall_2_1_1
+arch magic_banned
 x 23
 y 14
 end
 arch flagstone
 x 23
-y 15
+y 14
 end
-arch cwall_2_1_1
+arch magic_banned
 x 23
 y 15
 end
 arch flagstone
 x 23
-y 16
+y 15
 end
-arch cwall_1_2
+arch magic_banned
 x 23
 y 16
 end
 arch flagstone
+x 23
+y 16
+end
+arch magic_banned
 x 23
 y 17
 end
 arch flagstone
 x 23
+y 17
+end
+arch magic_banned
+x 23
 y 18
 end
 arch flagstone
+x 23
+y 18
+end
+arch light4
+x 23
+y 18
+glow_radius 7
+end
+arch magic_banned
 x 23
 y 19
 end
 arch flagstone
 x 23
-y 20
+y 19
 end
-arch cwall_1_1
+arch magic_banned
 x 23
 y 20
 end
 arch flagstone
 x 23
-y 21
+y 20
 end
-arch cwall_2_1_1
+arch magic_banned
 x 23
 y 21
 end
 arch flagstone
+x 23
+y 21
+end
+arch magic_banned
 x 23
 y 22
 end
-arch cwall_2_1_1
+arch flagstone
 x 23
 y 22
 end
@@ -4245,7 +4208,7 @@ arch flagstone
 x 23
 y 23
 end
-arch cwall_3_1
+arch dwall_win2
 x 23
 y 23
 end
@@ -4332,10 +4295,6 @@ arch cwall_2_1_2
 x 24
 y 13
 end
-arch light4
-x 24
-y 14
-end
 arch magic_banned
 x 24
 y 14
@@ -4344,15 +4303,6 @@ arch flagstone
 x 24
 y 14
 end
-arch power_crystal
-sp 300
-maxsp 300
-x 24
-y 14
-resist_cold 100
-material 0
-no_pick 1
-end
 arch magic_banned
 x 24
 y 15
@@ -4360,30 +4310,34 @@ end
 arch flagstone
 x 24
 y 15
-end
-arch block_door_closed
-x 24
-y 15
-connected 15
 end
 arch magic_banned
 x 24
 y 16
 end
-arch goldfloor
-name Drop 300 gold coins for 300 Spell Points.
-food 300
+arch flagstone
 x 24
 y 16
-connected 15
 end
-arch flagstone
+arch magic_banned
 x 24
 y 17
 end
 arch flagstone
 x 24
+y 17
+end
+arch magic_banned
+x 24
 y 18
+end
+arch flagstone
+x 24
+y 18
+end
+arch magic_banned
+x 24
+y 19
 end
 arch flagstone
 x 24
@@ -4393,12 +4347,9 @@ arch magic_banned
 x 24
 y 20
 end
-arch goldfloor
-name Drop 300 gold coins for 300 Spell Spoints.
-food 300
+arch flagstone
 x 24
 y 20
-connected 25
 end
 arch magic_banned
 x 24
@@ -4408,15 +4359,6 @@ arch flagstone
 x 24
 y 21
 end
-arch block_door_closed
-x 24
-y 21
-connected 25
-end
-arch light4
-x 24
-y 22
-end
 arch magic_banned
 x 24
 y 22
@@ -4424,15 +4366,6 @@ end
 arch flagstone
 x 24
 y 22
-end
-arch power_crystal
-sp 300
-maxsp 300
-x 24
-y 22
-resist_cold 100
-material 0
-no_pick 1
 end
 arch flagstone
 x 24
@@ -4529,6 +4462,10 @@ arch cwall_3_3
 x 25
 y 13
 end
+arch magic_banned
+x 25
+y 14
+end
 arch flagstone
 x 25
 y 14
@@ -4537,27 +4474,35 @@ arch cwall_2_1_1
 x 25
 y 14
 end
-arch flagstone
-x 25
-y 15
-end
-arch cwall_2_1_1
+arch magic_banned
 x 25
 y 15
 end
 arch flagstone
 x 25
-y 16
+y 15
 end
 arch cwall_1_2
 x 25
+y 15
+end
+arch magic_banned
+x 25
 y 16
+end
+arch flagstone
+x 25
+y 16
+end
+arch magic_banned
+x 25
+y 17
 end
 arch flagstone
 x 25
 y 17
 end
-arch light4
+arch magic_banned
 x 25
 y 18
 end
@@ -4565,25 +4510,37 @@ arch flagstone
 x 25
 y 18
 end
-arch flagstone
+arch magic_banned
 x 25
 y 19
 end
 arch flagstone
 x 25
-y 20
+y 19
 end
-arch cwall_1_1
+arch magic_banned
 x 25
 y 20
 end
 arch flagstone
 x 25
-y 21
+y 20
 end
-arch cwall_2_1_1
+arch magic_banned
 x 25
 y 21
+end
+arch flagstone
+x 25
+y 21
+end
+arch cwall_1_1
+x 25
+y 21
+end
+arch magic_banned
+x 25
+y 22
 end
 arch flagstone
 x 25
@@ -4692,10 +4649,6 @@ arch cwall_2_1_2
 x 26
 y 13
 end
-arch light4
-x 26
-y 14
-end
 arch magic_banned
 x 26
 y 14
@@ -4704,248 +4657,246 @@ arch flagstone
 x 26
 y 14
 end
+arch magic_banned
+x 26
+y 15
+end
+arch flagstone
+x 26
+y 15
+end
+arch magic_banned
+x 26
+y 16
+end
+arch flagstone
+x 26
+y 16
+end
+arch magic_banned
+x 26
+y 17
+end
+arch flagstone
+x 26
+y 17
+end
+arch magic_banned
+x 26
+y 18
+end
+arch flagstone
+x 26
+y 18
+end
+arch magic_banned
+x 26
+y 19
+end
+arch flagstone
+x 26
+y 19
+end
+arch magic_banned
+x 26
+y 20
+end
+arch flagstone
+x 26
+y 20
+end
+arch magic_banned
+x 26
+y 21
+end
+arch flagstone
+x 26
+y 21
+end
+arch magic_banned
+x 26
+y 22
+end
+arch flagstone
+x 26
+y 22
+end
+arch flagstone
+x 26
+y 23
+end
+arch cwall_2_1_2
+x 26
+y 23
+end
+arch grass
+x 26
+y 24
+end
+arch grass
+x 26
+y 25
+end
+arch grass
+x 26
+y 26
+end
+arch grass
+x 26
+y 27
+end
+arch grass
+x 26
+y 28
+end
+arch grass
+x 27
+end
+arch grass
+x 27
+y 1
+end
+arch grass
+x 27
+y 2
+end
+arch grass
+x 27
+y 3
+end
+arch grass
+x 27
+y 4
+end
+arch grass
+x 27
+y 5
+end
+arch grass
+x 27
+y 6
+end
+arch grass
+x 27
+y 7
+end
+arch grass
+x 27
+y 8
+end
+arch grass
+x 27
+y 9
+end
+arch grass
+x 27
+y 10
+end
+arch grass
+x 27
+y 11
+end
+arch grass
+x 27
+y 12
+end
+arch flagstone
+x 27
+y 13
+end
+arch dwall_win2
+x 27
+y 13
+end
+arch magic_banned
+x 27
+y 14
+end
+arch flagstone
+x 27
+y 14
+end
+arch magic_banned
+x 27
+y 15
+end
+arch flagstone
+x 27
+y 15
+end
+arch magic_banned
+x 27
+y 16
+end
+arch flagstone
+x 27
+y 16
+end
+arch magic_banned
+x 27
+y 17
+end
+arch flagstone
+x 27
+y 17
+end
+arch magic_banned
+x 27
+y 18
+end
+arch flagstone
+x 27
+y 18
+end
+arch magic_banned
+x 27
+y 19
+end
+arch flagstone
+x 27
+y 19
+end
+arch magic_banned
+x 27
+y 20
+end
+arch flagstone
+x 27
+y 20
+end
+arch magic_banned
+x 27
+y 21
+end
+arch flagstone
+x 27
+y 21
+end
+arch magic_banned
+x 27
+y 22
+end
+arch flagstone
+x 27
+y 22
+end
+arch slevel_0
+x 27
+y 22
+end
 arch power_crystal
-sp 200
+name Glowing Crystal Exhibit
 maxsp 200
-x 26
-y 14
-resist_cold 100
-material 0
+x 27
+y 22
 no_pick 1
-end
-arch magic_banned
-x 26
-y 15
-end
-arch flagstone
-x 26
-y 15
-end
-arch block_door_closed
-x 26
-y 15
-connected 18
-end
-arch magic_banned
-x 26
-y 16
-end
-arch goldfloor
-name Drop 200 gold coins for 200 Spell Points.
-food 200
-x 26
-y 16
-connected 18
-end
-arch flagstone
-x 26
-y 17
-end
-arch flagstone
-x 26
-y 18
-end
-arch flagstone
-x 26
-y 19
-end
-arch magic_banned
-x 26
-y 20
-end
-arch goldfloor
-name Drop 200 gold coins for 200 Spell Points.
-food 200
-x 26
-y 20
-connected 24
-end
-arch magic_banned
-x 26
-y 21
-end
-arch flagstone
-x 26
-y 21
-end
-arch block_door_closed
-x 26
-y 21
-connected 24
-end
-arch light4
-x 26
-y 22
-end
-arch magic_banned
-x 26
-y 22
-end
-arch flagstone
-x 26
-y 22
-end
-arch power_crystal
-sp 200
-maxsp 200
-x 26
-y 22
-resist_cold 100
-material 0
-no_pick 1
-end
-arch flagstone
-x 26
-y 23
-end
-arch cwall_2_1_2
-x 26
-y 23
-end
-arch grass
-x 26
-y 24
-end
-arch grass
-x 26
-y 25
-end
-arch grass
-x 26
-y 26
-end
-arch grass
-x 26
-y 27
-end
-arch grass
-x 26
-y 28
-end
-arch grass
-x 27
-end
-arch grass
-x 27
-y 1
-end
-arch grass
-x 27
-y 2
-end
-arch grass
-x 27
-y 3
-end
-arch grass
-x 27
-y 4
-end
-arch grass
-x 27
-y 5
-end
-arch grass
-x 27
-y 6
-end
-arch grass
-x 27
-y 7
-end
-arch grass
-x 27
-y 8
-end
-arch grass
-x 27
-y 9
-end
-arch grass
-x 27
-y 10
-end
-arch grass
-x 27
-y 11
-end
-arch grass
-x 27
-y 12
-end
-arch flagstone
-x 27
-y 13
-end
-arch cwall_3_3
-x 27
-y 13
-end
-arch flagstone
-x 27
-y 14
-end
-arch cwall_2_1_1
-x 27
-y 14
-end
-arch flagstone
-x 27
-y 15
-end
-arch cwall_2_1_1
-x 27
-y 15
-end
-arch flagstone
-x 27
-y 16
-end
-arch cwall_1_2
-x 27
-y 16
-end
-arch flagstone
-x 27
-y 17
-end
-arch flagstone
-x 27
-y 18
-end
-arch flagstone
-x 27
-y 19
-end
-arch flagstone
-x 27
-y 20
-end
-arch cwall_1_1
-x 27
-y 20
-end
-arch flagstone
-x 27
-y 21
-end
-arch cwall_2_1_1
-x 27
-y 21
-end
-arch flagstone
-x 27
-y 22
-end
-arch cwall_2_1_1
-x 27
-y 22
+identified 1
 end
 arch flagstone
 x 27
 y 23
 end
-arch cwall_3_1
+arch dwall_win2
 x 27
 y 23
 end
@@ -5028,10 +4979,6 @@ arch cwall_2_1_2
 x 28
 y 13
 end
-arch light4
-x 28
-y 14
-end
 arch magic_banned
 x 28
 y 14
@@ -5039,15 +4986,6 @@ end
 arch flagstone
 x 28
 y 14
-end
-arch power_crystal
-sp 150
-maxsp 150
-x 28
-y 14
-resist_cold 100
-material 0
-no_pick 1
 end
 arch magic_banned
 x 28
@@ -5057,33 +4995,33 @@ arch flagstone
 x 28
 y 15
 end
-arch block_door_closed
-x 28
-y 15
-connected 19
-end
 arch magic_banned
 x 28
 y 16
 end
-arch goldfloor
-name Drop 150 gold coins for 150 Spell Points.
-food 150
+arch flagstone
 x 28
 y 16
-connected 19
+end
+arch magic_banned
+x 28
+y 17
 end
 arch flagstone
 x 28
 y 17
 end
-arch light4
+arch magic_banned
 x 28
 y 18
 end
 arch flagstone
 x 28
 y 18
+end
+arch magic_banned
+x 28
+y 19
 end
 arch flagstone
 x 28
@@ -5093,12 +5031,9 @@ arch magic_banned
 x 28
 y 20
 end
-arch goldfloor
-name Drop 200 gold coins for 200 Spell Points.
-food 200
+arch flagstone
 x 28
 y 20
-connected 23
 end
 arch magic_banned
 x 28
@@ -5108,15 +5043,6 @@ arch flagstone
 x 28
 y 21
 end
-arch block_door_closed
-x 28
-y 21
-connected 23
-end
-arch light4
-x 28
-y 22
-end
 arch magic_banned
 x 28
 y 22
@@ -5125,14 +5051,12 @@ arch flagstone
 x 28
 y 22
 end
-arch power_crystal
-sp 200
-maxsp 200
+arch sign
+msg
+The Glowing Crystal exhibited here is one of the rare gemstones that are able to store Spell Points.  Touching it when your Spell Points is at maximum capacity will transfer half your Spell Points into it.  Touching it when you are below maximum capacity will retrieve any stored Spell Points, up to your capacity.  This particular crystal can only store up to 200 Spell Points.  Crystals with capacities for 1000 Spell Points and beyond are known to exist; and are very much sought after by all spellcasters.
+endmsg
 x 28
 y 22
-resist_cold 100
-material 0
-no_pick 1
 end
 arch flagstone
 x 28
@@ -5213,7 +5137,7 @@ arch flagstone
 x 29
 y 7
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 29
 y 7
 end
@@ -5229,7 +5153,7 @@ arch flagstone
 x 29
 y 9
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 29
 y 9
 end
@@ -5245,7 +5169,7 @@ arch flagstone
 x 29
 y 11
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 29
 y 11
 end
@@ -5261,61 +5185,81 @@ arch flagstone
 x 29
 y 13
 end
-arch cwall_4
+arch cwall_2_2_4
 x 29
 y 13
 end
-arch flagstone
-x 29
-y 14
-end
-arch cwall_2_1_1
+arch magic_banned
 x 29
 y 14
 end
 arch flagstone
 x 29
-y 15
+y 14
 end
-arch cwall_3_2
+arch magic_banned
 x 29
 y 15
 end
 arch flagstone
 x 29
-y 16
+y 15
 end
-arch cwall_1_2
+arch magic_banned
 x 29
 y 16
 end
 arch flagstone
+x 29
+y 16
+end
+arch magic_banned
 x 29
 y 17
 end
 arch flagstone
 x 29
+y 17
+end
+arch magic_banned
+x 29
 y 18
 end
 arch flagstone
+x 29
+y 18
+end
+arch magic_banned
 x 29
 y 19
 end
 arch flagstone
 x 29
-y 20
+y 19
 end
-arch cwall_1_1
+arch magic_banned
 x 29
 y 20
 end
 arch flagstone
 x 29
-y 21
+y 20
 end
-arch cwall_2_1_1
+arch magic_banned
 x 29
 y 21
+end
+arch flagstone
+x 29
+y 21
+end
+arch cwall_1_1
+x 29
+y 21
+end
+arch magic_banned
+x 29
+y 22
 end
 arch flagstone
 x 29
@@ -5368,10 +5312,6 @@ arch cwall_2_1_2
 x 30
 y 2
 end
-arch light4
-x 30
-y 3
-end
 arch magic_banned
 x 30
 y 3
@@ -5381,12 +5321,8 @@ x 30
 y 3
 end
 arch power_crystal
-sp 2000
-maxsp 2000
 x 30
 y 3
-resist_cold 100
-material 0
 no_pick 1
 end
 arch magic_banned
@@ -5397,41 +5333,38 @@ arch flagstone
 x 30
 y 4
 end
-arch block_door_closed
+arch power_crystal
 x 30
 y 4
-connected 33
+no_pick 1
 end
 arch magic_banned
 x 30
 y 5
 end
-arch goldfloor
-name Spell Points in bulk.  Up to 2000 Spell Points, for 1500 gold.
-food 1500
+arch flagstone
 x 30
 y 5
-connected 33
+end
+arch swall_1_4
+x 30
+y 5
+end
+arch magic_banned
+x 30
+y 6
 end
 arch flagstone
 x 30
 y 6
 end
-arch light4
+arch magic_banned
 x 30
 y 7
 end
 arch flagstone
 x 30
 y 7
-end
-arch cwall_2_1_2
-x 30
-y 7
-end
-arch light4
-x 30
-y 8
 end
 arch magic_banned
 x 30
@@ -5441,22 +5374,14 @@ arch flagstone
 x 30
 y 8
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 30
-y 8
+y 9
 end
 arch flagstone
 x 30
 y 9
 end
-arch cwall_2_1_2
-x 30
-y 9
-end
-arch light4
-x 30
-y 10
-end
 arch magic_banned
 x 30
 y 10
@@ -5465,22 +5390,14 @@ arch flagstone
 x 30
 y 10
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 30
-y 10
+y 11
 end
 arch flagstone
 x 30
 y 11
 end
-arch cwall_2_1_2
-x 30
-y 11
-end
-arch light4
-x 30
-y 12
-end
 arch magic_banned
 x 30
 y 12
@@ -5489,21 +5406,17 @@ arch flagstone
 x 30
 y 12
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 30
-y 12
+y 13
 end
 arch flagstone
 x 30
 y 13
 end
-arch cwall_2_1_2
+arch lockable_hdoor_locked
 x 30
 y 13
-end
-arch light4
-x 30
-y 14
 end
 arch magic_banned
 x 30
@@ -5513,33 +5426,45 @@ arch flagstone
 x 30
 y 14
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 30
-y 14
+y 15
 end
 arch flagstone
 x 30
 y 15
 end
-arch cwall_2_1_2
-x 30
-y 15
-end
-arch flagstone
+arch magic_banned
 x 30
 y 16
 end
 arch flagstone
 x 30
+y 16
+end
+arch magic_banned
+x 30
 y 17
 end
-arch light4
+arch flagstone
+x 30
+y 17
+end
+arch pentagram_111
+x 30
+y 17
+end
+arch magic_banned
 x 30
 y 18
 end
 arch flagstone
 x 30
 y 18
+end
+arch magic_banned
+x 30
+y 19
 end
 arch flagstone
 x 30
@@ -5549,12 +5474,9 @@ arch magic_banned
 x 30
 y 20
 end
-arch goldfloor
-name Drop 200 gold coins for 200 Spell Points.
-food 200
+arch flagstone
 x 30
 y 20
-connected 34
 end
 arch magic_banned
 x 30
@@ -5564,15 +5486,6 @@ arch flagstone
 x 30
 y 21
 end
-arch block_door_closed
-x 30
-y 21
-connected 34
-end
-arch light4
-x 30
-y 22
-end
 arch magic_banned
 x 30
 y 22
@@ -5581,1463 +5494,9 @@ arch flagstone
 x 30
 y 22
 end
-arch power_crystal
-sp 200
-maxsp 200
+arch longtable_1_4
 x 30
 y 22
-resist_cold 100
-material 0
-no_pick 1
-end
-arch flagstone
-x 30
-y 23
-end
-arch cwall_2_1_2
-x 30
-y 23
-end
-arch grass
-x 30
-y 24
-end
-arch grass
-x 30
-y 25
-end
-arch grass
-x 30
-y 26
-end
-arch grass
-x 30
-y 27
-end
-arch grass
-x 30
-y 28
-end
-arch grass
-x 31
-end
-arch grass
-x 31
-y 1
-end
-arch flagstone
-x 31
-y 2
-end
-arch cwall_3_3
-x 31
-y 2
-end
-arch flagstone
-x 31
-y 3
-end
-arch cwall_2_1_1
-x 31
-y 3
-end
-arch flagstone
-x 31
-y 4
-end
-arch cwall_2_1_1
-x 31
-y 4
-end
-arch flagstone
-x 31
-y 5
-end
-arch cwall_1_2
-x 31
-y 5
-end
-arch flagstone
-x 31
-y 6
-end
-arch flagstone
-x 31
-y 7
-end
-arch cwall_2_1_2
-x 31
-y 7
-end
-arch magic_banned
-x 31
-y 8
-end
-arch flagstone
-x 31
-y 8
-end
-arch block_door_closed
-x 31
-y 8
-connected 32
-end
-arch flagstone
-x 31
-y 9
-end
-arch cwall_2_1_2
-x 31
-y 9
-end
-arch magic_banned
-x 31
-y 10
-end
-arch flagstone
-x 31
-y 10
-end
-arch block_door_closed
-x 31
-y 10
-connected 31
-end
-arch flagstone
-x 31
-y 11
-end
-arch cwall_2_1_2
-x 31
-y 11
-end
-arch magic_banned
-x 31
-y 12
-end
-arch flagstone
-x 31
-y 12
-end
-arch block_door_closed
-x 31
-y 12
-connected 30
-end
-arch flagstone
-x 31
-y 13
-end
-arch cwall_2_1_2
-x 31
-y 13
-end
-arch magic_banned
-x 31
-y 14
-end
-arch flagstone
-x 31
-y 14
-end
-arch block_door_closed
-x 31
-y 14
-connected 29
-end
-arch flagstone
-x 31
-y 15
-end
-arch cwall_2_1_2
-x 31
-y 15
-end
-arch flagstone
-x 31
-y 16
-end
-arch flagstone
-x 31
-y 17
-end
-arch flagstone
-x 31
-y 18
-end
-arch flagstone
-x 31
-y 19
-end
-arch flagstone
-x 31
-y 20
-end
-arch cwall_1_1
-x 31
-y 20
-end
-arch flagstone
-x 31
-y 21
-end
-arch cwall_2_1_1
-x 31
-y 21
-end
-arch flagstone
-x 31
-y 22
-end
-arch cwall_2_1_1
-x 31
-y 22
-end
-arch flagstone
-x 31
-y 23
-end
-arch cwall_3_1
-x 31
-y 23
-end
-arch grass
-x 31
-y 24
-end
-arch grass
-x 31
-y 25
-end
-arch grass
-x 31
-y 26
-end
-arch grass
-x 31
-y 27
-end
-arch grass
-x 31
-y 28
-end
-arch grass
-x 32
-end
-arch grass
-x 32
-y 1
-end
-arch flagstone
-x 32
-y 2
-end
-arch cwall_2_1_2
-x 32
-y 2
-end
-arch light4
-x 32
-y 3
-end
-arch magic_banned
-x 32
-y 3
-end
-arch flagstone
-x 32
-y 3
-end
-arch power_crystal
-sp 3000
-maxsp 3000
-x 32
-y 3
-resist_cold 100
-material 0
-no_pick 1
-end
-arch magic_banned
-x 32
-y 4
-end
-arch flagstone
-x 32
-y 4
-end
-arch block_door_closed
-x 32
-y 4
-connected 44
-end
-arch magic_banned
-x 32
-y 5
-end
-arch goldfloor
-name Spell Points in bulk.  2000 gold for 3000 Spell Points.
-food 2000
-x 32
-y 5
-connected 44
-end
-arch flagstone
-x 32
-y 6
-end
-arch flagstone
-x 32
-y 7
-end
-arch cwall_1_3
-x 32
-y 7
-end
-arch magic_banned
-x 32
-y 8
-end
-arch goldfloor
-name 500 gold for all the Spell Points you can hold..
-food 500
-x 32
-y 8
-connected 32
-end
-arch flagstone
-x 32
-y 9
-end
-arch cwall_1_3
-x 32
-y 9
-end
-arch magic_banned
-x 32
-y 10
-end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
-x 32
-y 10
-connected 31
-end
-arch flagstone
-x 32
-y 11
-end
-arch cwall_1_3
-x 32
-y 11
-end
-arch magic_banned
-x 32
-y 12
-end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
-x 32
-y 12
-connected 30
-end
-arch flagstone
-x 32
-y 13
-end
-arch cwall_1_3
-x 32
-y 13
-end
-arch magic_banned
-x 32
-y 14
-end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
-x 32
-y 14
-connected 29
-end
-arch flagstone
-x 32
-y 15
-end
-arch cwall_1_3
-x 32
-y 15
-end
-arch flagstone
-x 32
-y 16
-end
-arch flagstone
-x 32
-y 17
-end
-arch light4
-x 32
-y 18
-end
-arch flagstone
-x 32
-y 18
-end
-arch flagstone
-x 32
-y 19
-end
-arch magic_banned
-x 32
-y 20
-end
-arch goldfloor
-name Drop 200 gold coins for 200 Spell Points.
-food 200
-x 32
-y 20
-connected 35
-end
-arch magic_banned
-x 32
-y 21
-end
-arch flagstone
-x 32
-y 21
-end
-arch block_door_closed
-x 32
-y 21
-connected 35
-end
-arch light4
-x 32
-y 22
-end
-arch magic_banned
-x 32
-y 22
-end
-arch flagstone
-x 32
-y 22
-end
-arch power_crystal
-sp 200
-maxsp 200
-x 32
-y 22
-resist_cold 100
-material 0
-no_pick 1
-end
-arch flagstone
-x 32
-y 23
-end
-arch cwall_2_1_2
-x 32
-y 23
-end
-arch grass
-x 32
-y 24
-end
-arch grass
-x 32
-y 25
-end
-arch grass
-x 32
-y 26
-end
-arch grass
-x 32
-y 27
-end
-arch grass
-x 32
-y 28
-end
-arch grass
-x 33
-end
-arch grass
-x 33
-y 1
-end
-arch flagstone
-x 33
-y 2
-end
-arch cwall_3_3
-x 33
-y 2
-end
-arch flagstone
-x 33
-y 3
-end
-arch cwall_2_1_1
-x 33
-y 3
-end
-arch flagstone
-x 33
-y 4
-end
-arch cwall_2_1_1
-x 33
-y 4
-end
-arch flagstone
-x 33
-y 5
-end
-arch cwall_1_2
-x 33
-y 5
-end
-arch flagstone
-x 33
-y 6
-end
-arch flagstone
-x 33
-y 7
-end
-arch flagstone
-x 33
-y 8
-end
-arch flagstone
-x 33
-y 9
-end
-arch flagstone
-x 33
-y 10
-end
-arch flagstone
-x 33
-y 11
-end
-arch flagstone
-x 33
-y 12
-end
-arch flagstone
-x 33
-y 13
-end
-arch flagstone
-x 33
-y 14
-end
-arch flagstone
-x 33
-y 15
-end
-arch flagstone
-x 33
-y 16
-end
-arch flagstone
-x 33
-y 17
-end
-arch flagstone
-x 33
-y 18
-end
-arch flagstone
-x 33
-y 19
-end
-arch flagstone
-x 33
-y 20
-end
-arch cwall_1_1
-x 33
-y 20
-end
-arch flagstone
-x 33
-y 21
-end
-arch cwall_2_1_1
-x 33
-y 21
-end
-arch flagstone
-x 33
-y 22
-end
-arch cwall_2_1_1
-x 33
-y 22
-end
-arch flagstone
-x 33
-y 23
-end
-arch cwall_3_1
-x 33
-y 23
-end
-arch grass
-x 33
-y 24
-end
-arch grass
-x 33
-y 25
-end
-arch grass
-x 33
-y 26
-end
-arch grass
-x 33
-y 27
-end
-arch grass
-x 33
-y 28
-end
-arch grass
-x 34
-end
-arch grass
-x 34
-y 1
-end
-arch flagstone
-x 34
-y 2
-end
-arch cwall_2_1_2
-x 34
-y 2
-end
-arch light4
-x 34
-y 3
-end
-arch magic_banned
-x 34
-y 3
-end
-arch flagstone
-x 34
-y 3
-end
-arch power_crystal
-sp 5000
-maxsp 5000
-x 34
-y 3
-resist_cold 100
-material 0
-no_pick 1
-end
-arch magic_banned
-x 34
-y 4
-end
-arch flagstone
-x 34
-y 4
-end
-arch block_door_closed
-x 34
-y 4
-connected 2
-end
-arch magic_banned
-x 34
-y 5
-end
-arch goldfloor
-name Super volume discount!  3000 gold for 5000 Spell Points.
-food 3000
-x 34
-y 5
-connected 2
-end
-arch flagstone
-x 34
-y 6
-end
-arch light4
-x 34
-y 7
-end
-arch flagstone
-x 34
-y 7
-end
-arch flagstone
-x 34
-y 8
-end
-arch magic_banned
-x 34
-y 9
-end
-arch flagstone
-x 34
-y 9
-end
-arch wall_2_2_2
-x 34
-y 9
-end
-arch magic_banned
-x 34
-y 10
-end
-arch flagstone
-x 34
-y 10
-end
-arch wall_2_1_1
-x 34
-y 10
-end
-arch light4
-x 34
-y 11
-end
-arch magic_banned
-x 34
-y 11
-end
-arch flagstone
-x 34
-y 11
-end
-arch wall_2_1_1
-x 34
-y 11
-end
-arch magic_banned
-x 34
-y 12
-end
-arch flagstone
-x 34
-y 12
-end
-arch wall_2_1_1
-x 34
-y 12
-end
-arch magic_banned
-x 34
-y 13
-end
-arch flagstone
-x 34
-y 13
-end
-arch wall_2_2_1
-x 34
-y 13
-end
-arch light4
-x 34
-y 14
-end
-arch magic_banned
-x 34
-y 14
-end
-arch dungeon_magic
-x 34
-y 14
-end
-arch flagstone
-x 34
-y 14
-end
-arch longtable_1_1
-x 34
-y 14
-move_block all
-end
-arch magic_banned
-x 34
-y 15
-end
-arch dungeon_magic
-x 34
-y 15
-end
-arch flagstone
-x 34
-y 15
-end
-arch longtable_2_2_1
-x 34
-y 15
-move_block all
-end
-arch magic_banned
-x 34
-y 16
-end
-arch flagstone
-x 34
-y 16
-end
-arch flagstone
-x 34
-y 17
-end
-arch flagstone
-x 34
-y 18
-end
-arch flagstone
-x 34
-y 19
-end
-arch magic_banned
-x 34
-y 20
-end
-arch goldfloor
-name Drop 150 gold coins for 150 Spell Points.
-food 150
-x 34
-y 20
-connected 22
-end
-arch magic_banned
-x 34
-y 21
-end
-arch flagstone
-x 34
-y 21
-end
-arch block_door_closed
-x 34
-y 21
-connected 22
-end
-arch light4
-x 34
-y 22
-end
-arch magic_banned
-x 34
-y 22
-end
-arch flagstone
-x 34
-y 22
-end
-arch power_crystal
-sp 150
-maxsp 150
-x 34
-y 22
-resist_cold 100
-material 0
-no_pick 1
-end
-arch flagstone
-x 34
-y 23
-end
-arch cwall_2_1_2
-x 34
-y 23
-end
-arch grass
-x 34
-y 24
-end
-arch grass
-x 34
-y 25
-end
-arch grass
-x 34
-y 26
-end
-arch grass
-x 34
-y 27
-end
-arch grass
-x 34
-y 28
-end
-arch grass
-x 35
-end
-arch grass
-x 35
-y 1
-end
-arch flagstone
-x 35
-y 2
-end
-arch cwall_3_3
-x 35
-y 2
-end
-arch flagstone
-x 35
-y 3
-end
-arch cwall_2_1_1
-x 35
-y 3
-end
-arch flagstone
-x 35
-y 4
-end
-arch cwall_2_1_1
-x 35
-y 4
-end
-arch flagstone
-x 35
-y 5
-end
-arch cwall_1_2
-x 35
-y 5
-end
-arch flagstone
-x 35
-y 6
-end
-arch flagstone
-x 35
-y 7
-end
-arch flagstone
-x 35
-y 8
-end
-arch magic_banned
-x 35
-y 9
-end
-arch flagstone
-x 35
-y 9
-end
-arch wall_1_3
-x 35
-y 9
-end
-arch magic_banned
-x 35
-y 10
-end
-arch flagstone
-x 35
-y 10
-end
-arch magic_banned
-x 35
-y 11
-end
-arch flagstone
-x 35
-y 11
-end
-arch sign
-msg
-The Glowing Crystal exhibited here is one of the rare gemstones that are able to store Spell Points.  Touching it when your Spell Points is at maximum capacity will transfer half your Spell Points into it.  Touching it when you are below maximum capacity will retrieve any stored Spell Points, up to your capacity.  This particular crystal can only store up to 200 Spell Points.  Crystals with capacities for 1000 Spell Points and beyond are known to exist; and are very much sought after by all spellcasters.
-endmsg
-x 35
-y 11
-end
-arch magic_banned
-x 35
-y 12
-end
-arch flagstone
-x 35
-y 12
-end
-arch power_crystal
-name Glowing Crystal Exhibit
-maxsp 200
-x 35
-y 12
-no_pick 1
-identified 1
-end
-arch magic_banned
-x 35
-y 13
-end
-arch flagstone
-x 35
-y 13
-end
-arch wall_2_1_2
-x 35
-y 13
-end
-arch magic_banned
-x 35
-y 14
-end
-arch dungeon_magic
-x 35
-y 14
-end
-arch flagstone
-x 35
-y 14
-end
-arch magic_banned
-x 35
-y 15
-end
-arch dungeon_magic
-x 35
-y 15
-end
-arch flagstone
-x 35
-y 15
-end
-arch longtable_2_1_2
-x 35
-y 15
-move_block all
-end
-arch magic_banned
-x 35
-y 16
-end
-arch flagstone
-x 35
-y 16
-end
-arch flagstone
-x 35
-y 17
-end
-arch flagstone
-x 35
-y 18
-end
-arch flagstone
-x 35
-y 19
-end
-arch flagstone
-x 35
-y 20
-end
-arch cwall_1_1
-x 35
-y 20
-end
-arch flagstone
-x 35
-y 21
-end
-arch cwall_2_1_1
-x 35
-y 21
-end
-arch flagstone
-x 35
-y 22
-end
-arch cwall_2_1_1
-x 35
-y 22
-end
-arch flagstone
-x 35
-y 23
-end
-arch cwall_3_1
-x 35
-y 23
-end
-arch grass
-x 35
-y 24
-end
-arch grass
-x 35
-y 25
-end
-arch grass
-x 35
-y 26
-end
-arch grass
-x 35
-y 27
-end
-arch grass
-x 35
-y 28
-end
-arch grass
-x 36
-end
-arch grass
-x 36
-y 1
-end
-arch flagstone
-x 36
-y 2
-end
-arch cwall_2_1_2
-x 36
-y 2
-end
-arch light4
-x 36
-y 3
-end
-arch magic_banned
-x 36
-y 3
-end
-arch flagstone
-x 36
-y 3
-end
-arch power_crystal
-sp 10000
-maxsp 10000
-x 36
-y 3
-resist_cold 100
-material 0
-no_pick 1
-end
-arch magic_banned
-x 36
-y 4
-end
-arch flagstone
-x 36
-y 4
-end
-arch block_door_closed
-x 36
-y 4
-connected 3
-end
-arch magic_banned
-x 36
-y 5
-end
-arch goldfloor
-name Awesome blockbuster deal!  10000 Spell Points for 5000 gold.
-food 5000
-x 36
-y 5
-connected 3
-end
-arch flagstone
-x 36
-y 6
-end
-arch flagstone
-x 36
-y 7
-end
-arch flagstone
-x 36
-y 8
-end
-arch magic_banned
-x 36
-y 9
-end
-arch flagstone
-x 36
-y 9
-end
-arch door_look_1
-x 36
-y 9
-move_block 0
-end
-arch magic_banned
-x 36
-y 10
-end
-arch flagstone
-x 36
-y 10
-end
-arch magic_banned
-x 36
-y 11
-end
-arch flagstone
-x 36
-y 11
-end
-arch magic_banned
-x 36
-y 12
-end
-arch flagstone
-x 36
-y 12
-end
-arch magic_banned
-x 36
-y 13
-end
-arch flagstone
-x 36
-y 13
-end
-arch wall_2_1_2
-x 36
-y 13
-end
-arch magic_banned
-x 36
-y 14
-end
-arch dungeon_magic
-x 36
-y 14
-end
-arch flagstone
-x 36
-y 14
-end
-arch wizard
-name master of transferrence
-msg
-@match *
-Welcome to the House of Power! Here, you will find an abundant supply of fresh Spell Points at a fee.
-endmsg
-face wizard.151
-hp 100
-x 36
-y 14
-level 50
-unaggressive 1
-end
-arch magic_banned
-x 36
-y 15
-end
-arch dungeon_magic
-x 36
-y 15
-end
-arch flagstone
-x 36
-y 15
-end
-arch longtable_2_1_2
-x 36
-y 15
-move_block all
-end
-arch light4
-x 36
-y 16
-end
-arch magic_banned
-x 36
-y 16
-end
-arch flagstone
-x 36
-y 16
-end
-arch altar
-name restore full Spell Points (550 gold)
-slaying money
-food 5500
-x 36
-y 16
-arch spell_regenerate_spellpoints
-end
-end
-arch flagstone
-x 36
-y 17
-end
-arch flagstone
-x 36
-y 18
-end
-arch flagstone
-x 36
-y 19
-end
-arch magic_banned
-x 36
-y 20
-end
-arch goldfloor
-name Drop 100 gold coins for 100 Spell Points.
-food 100
-x 36
-y 20
-connected 21
-end
-arch magic_banned
-x 36
-y 21
-end
-arch flagstone
-x 36
-y 21
-end
-arch block_door_closed
-x 36
-y 21
-connected 21
-end
-arch light4
-x 36
-y 22
-end
-arch magic_banned
-x 36
-y 22
-end
-arch flagstone
-x 36
-y 22
-end
-arch power_crystal
-sp 100
-maxsp 100
-x 36
-y 22
-resist_cold 100
-material 0
-no_pick 1
-end
-arch flagstone
-x 36
-y 23
-end
-arch cwall_2_1_2
-x 36
-y 23
-end
-arch grass
-x 36
-y 24
-end
-arch grass
-x 36
-y 25
-end
-arch grass
-x 36
-y 26
-end
-arch grass
-x 36
-y 27
-end
-arch grass
-x 36
-y 28
-end
-arch grass
-x 37
-end
-arch grass
-x 37
-y 1
-end
-arch flagstone
-x 37
-y 2
-end
-arch cwall_3_3
-x 37
-y 2
-end
-arch flagstone
-x 37
-y 3
-end
-arch cwall_2_1_1
-x 37
-y 3
-end
-arch flagstone
-x 37
-y 4
-end
-arch cwall_2_1_1
-x 37
-y 4
-end
-arch flagstone
-x 37
-y 5
-end
-arch cwall_1_2
-x 37
-y 5
-end
-arch flagstone
-x 37
-y 6
-end
-arch flagstone
-x 37
-y 7
-end
-arch flagstone
-x 37
-y 8
-end
-arch magic_banned
-x 37
-y 9
-end
-arch flagstone
-x 37
-y 9
-end
-arch wall_1_4
-x 37
-y 9
-end
-arch magic_banned
-x 37
-y 10
-end
-arch flagstone
-x 37
-y 10
-end
-arch table
-x 37
-y 10
 end
 arch tome
 name exposition
@@ -7045,21 +5504,250 @@ title of magical powers
 msg
 There are two factors controlling one's magical powers: Spell Point capacity, and Spell Point regeneration rate.  Spell Points is the force that drives magical spells; Spell Point capacity is how much Spell Points one can naturally have.  Spell Point regeneration rate is how fast the Spell Points are replenished.  Spell Point capacity is controlled mainly by one's power (Pow) and level of magic experience.  One's intelligence (Int) also affects this capacity, to a lesser degree.  Some magical equipment grant Pow bonuses, which will increase this capacity while worn.  Improvement potions may also permanently increase one's Spell Point capacity.  There are also very rare gemstones that have capacity to store Spell Points.  Spell Points stored in these crystals can be retrieved at a single touch.  High-level wizards use these stones to increase the total amount of Spell Points they have at their disposal.
 endmsg
-x 37
-y 10
+x 30
+y 22
 identified 1
 end
+arch flagstone
+x 30
+y 23
+end
+arch cwall_2_1_2
+x 30
+y 23
+end
+arch grass
+x 30
+y 24
+end
+arch grass
+x 30
+y 25
+end
+arch grass
+x 30
+y 26
+end
+arch grass
+x 30
+y 27
+end
+arch grass
+x 30
+y 28
+end
+arch grass
+x 31
+end
+arch grass
+x 31
+y 1
+end
+arch flagstone
+x 31
+y 2
+end
+arch cwall_2_1_2
+x 31
+y 2
+end
 arch magic_banned
-x 37
+x 31
+y 3
+end
+arch flagstone
+x 31
+y 3
+end
+arch power_crystal
+x 31
+y 3
+no_pick 1
+end
+arch magic_banned
+x 31
+y 4
+end
+arch flagstone
+x 31
+y 4
+end
+arch magic_banned
+x 31
+y 5
+end
+arch flagstone
+x 31
+y 5
+end
+arch swall_1_3
+x 31
+y 5
+end
+arch magic_banned
+x 31
+y 6
+end
+arch flagstone
+x 31
+y 6
+end
+arch magic_banned
+x 31
+y 7
+end
+arch flagstone
+x 31
+y 7
+end
+arch magic_banned
+x 31
+y 8
+end
+arch flagstone
+x 31
+y 8
+end
+arch magic_banned
+x 31
+y 9
+end
+arch flagstone
+x 31
+y 9
+end
+arch cwall_2_2_2
+x 31
+y 9
+end
+arch magic_banned
+x 31
+y 10
+end
+arch flagstone
+x 31
+y 10
+end
+arch cwall_2_1_1
+x 31
+y 10
+end
+arch magic_banned
+x 31
 y 11
 end
 arch flagstone
-x 37
+x 31
 y 11
 end
-arch table
-x 37
+arch cwall_2_1_1
+x 31
 y 11
+end
+arch magic_banned
+x 31
+y 12
+end
+arch flagstone
+x 31
+y 12
+end
+arch cwall_2_1_1
+x 31
+y 12
+end
+arch magic_banned
+x 31
+y 13
+end
+arch flagstone
+x 31
+y 13
+end
+arch cwall_1_2
+x 31
+y 13
+end
+arch magic_banned
+x 31
+y 14
+end
+arch flagstone
+x 31
+y 14
+end
+arch magic_banned
+x 31
+y 15
+end
+arch flagstone
+x 31
+y 15
+end
+arch magic_banned
+x 31
+y 16
+end
+arch flagstone
+x 31
+y 16
+end
+arch magic_banned
+x 31
+y 17
+end
+arch flagstone
+x 31
+y 17
+end
+arch magic_banned
+x 31
+y 18
+end
+arch flagstone
+x 31
+y 18
+end
+arch light4
+x 31
+y 18
+glow_radius 7
+end
+arch magic_banned
+x 31
+y 19
+end
+arch flagstone
+x 31
+y 19
+end
+arch magic_banned
+x 31
+y 20
+end
+arch flagstone
+x 31
+y 20
+end
+arch magic_banned
+x 31
+y 21
+end
+arch flagstone
+x 31
+y 21
+end
+arch magic_banned
+x 31
+y 22
+end
+arch flagstone
+x 31
+y 22
+end
+arch longtable_2_1_2
+x 31
+y 22
 end
 arch tome
 title of Spell Points Regeneration
@@ -7069,170 +5757,1475 @@ o  Some magical rings or amulets are resonant to the patterns of the aether, and
 o  Although some armour specially crafted for mages may increase spell point regeneration, in general most heavy armour will impede the flow of Spell Points into the wearer and slow down Spell Point regeneration rates.
 o  Special weapons crafted for mages may also have Spell Point regeneration bonuses.
 endmsg
-x 37
-y 11
+x 31
+y 22
 identified 1
 end
-arch magic_banned
-x 37
-y 12
-end
 arch flagstone
-x 37
-y 12
-end
-arch magic_banned
-x 37
-y 13
-end
-arch flagstone
-x 37
-y 13
-end
-arch wall_2_1_2
-x 37
-y 13
-end
-arch magic_banned
-x 37
-y 14
-end
-arch dungeon_magic
-x 37
-y 14
-end
-arch flagstone
-x 37
-y 14
-end
-arch magic_banned
-x 37
-y 15
-end
-arch dungeon_magic
-x 37
-y 15
-end
-arch flagstone
-x 37
-y 15
-end
-arch longtable_2_1_2
-x 37
-y 15
-move_block all
-end
-arch magic_banned
-x 37
-y 16
-end
-arch flagstone
-x 37
-y 16
-end
-arch flagstone
-x 37
-y 17
-end
-arch flagstone
-x 37
-y 18
-end
-arch flagstone
-x 37
-y 19
-end
-arch light4
-x 37
-y 20
-end
-arch flagstone
-x 37
-y 20
-end
-arch cwall_1_1
-x 37
-y 20
-end
-arch flagstone
-x 37
-y 21
-end
-arch cwall_2_1_1
-x 37
-y 21
-end
-arch flagstone
-x 37
-y 22
-end
-arch cwall_2_1_1
-x 37
-y 22
-end
-arch flagstone
-x 37
+x 31
 y 23
 end
-arch cwall_3_1
-x 37
+arch cwall_2_1_2
+x 31
 y 23
 end
 arch grass
-x 37
+x 31
 y 24
 end
 arch grass
-x 37
+x 31
 y 25
 end
 arch grass
-x 37
+x 31
 y 26
 end
 arch grass
-x 37
+x 31
 y 27
 end
 arch grass
-x 37
+x 31
 y 28
 end
 arch grass
-x 38
+x 32
 end
 arch grass
-x 38
+x 32
 y 1
 end
 arch flagstone
-x 38
+x 32
 y 2
 end
 arch cwall_2_1_2
-x 38
+x 32
 y 2
 end
-arch light4
-x 38
-y 3
-end
 arch magic_banned
-x 38
+x 32
 y 3
 end
 arch flagstone
-x 38
+x 32
 y 3
 end
 arch power_crystal
-sp 5000
-maxsp 5000
+x 32
+y 3
+no_pick 1
+end
+arch magic_banned
+x 32
+y 4
+end
+arch flagstone
+x 32
+y 4
+end
+arch magic_banned
+x 32
+y 5
+end
+arch flagstone
+x 32
+y 5
+end
+arch grate_closed_1
+x 32
+y 5
+end
+arch magic_banned
+x 32
+y 6
+end
+arch flagstone
+x 32
+y 6
+end
+arch magic_banned
+x 32
+y 7
+end
+arch flagstone
+x 32
+y 7
+end
+arch magic_banned
+x 32
+y 8
+end
+arch flagstone
+x 32
+y 8
+end
+arch magic_banned
+x 32
+y 9
+end
+arch flagstone
+x 32
+y 9
+end
+arch cwall_1_3
+x 32
+y 9
+end
+arch magic_banned
+x 32
+y 10
+end
+arch flagstone
+x 32
+y 10
+end
+arch magic_banned
+x 32
+y 11
+end
+arch flagstone
+x 32
+y 11
+end
+arch longtable_1_4
+x 32
+y 11
+move_block walk
+end
+arch magic_banned
+x 32
+y 12
+end
+arch flagstone
+x 32
+y 12
+end
+arch magic_banned
+x 32
+y 13
+end
+arch flagstone
+x 32
+y 13
+end
+arch magic_banned
+x 32
+y 14
+end
+arch flagstone
+x 32
+y 14
+end
+arch magic_banned
+x 32
+y 15
+end
+arch flagstone
+x 32
+y 15
+end
+arch magic_banned
+x 32
+y 16
+end
+arch flagstone
+x 32
+y 16
+end
+arch magic_banned
+x 32
+y 17
+end
+arch flagstone
+x 32
+y 17
+end
+arch magic_banned
+x 32
+y 18
+end
+arch flagstone
+x 32
+y 18
+end
+arch magic_banned
+x 32
+y 19
+end
+arch flagstone
+x 32
+y 19
+end
+arch magic_banned
+x 32
+y 20
+end
+arch flagstone
+x 32
+y 20
+end
+arch magic_banned
+x 32
+y 21
+end
+arch flagstone
+x 32
+y 21
+end
+arch magic_banned
+x 32
+y 22
+end
+arch flagstone
+x 32
+y 22
+end
+arch longtable_1_3
+x 32
+y 22
+end
+arch flagstone
+x 32
+y 23
+end
+arch cwall_2_1_2
+x 32
+y 23
+end
+arch grass
+x 32
+y 24
+end
+arch grass
+x 32
+y 25
+end
+arch grass
+x 32
+y 26
+end
+arch grass
+x 32
+y 27
+end
+arch grass
+x 32
+y 28
+end
+arch grass
+x 33
+end
+arch grass
+x 33
+y 1
+end
+arch flagstone
+x 33
+y 2
+end
+arch cwall_2_1_2
+x 33
+y 2
+end
+arch magic_banned
+x 33
+y 3
+end
+arch flagstone
+x 33
+y 3
+end
+arch power_crystal
+x 33
+y 3
+no_pick 1
+end
+arch magic_banned
+x 33
+y 4
+end
+arch flagstone
+x 33
+y 4
+end
+arch magic_banned
+x 33
+y 5
+end
+arch flagstone
+x 33
+y 5
+end
+arch swall_1_4
+x 33
+y 5
+end
+arch magic_banned
+x 33
+y 6
+end
+arch flagstone
+x 33
+y 6
+end
+arch magic_banned
+x 33
+y 7
+end
+arch flagstone
+x 33
+y 7
+end
+arch magic_banned
+x 33
+y 8
+end
+arch flagstone
+x 33
+y 8
+end
+arch magic_banned
+x 33
+y 9
+end
+arch flagstone
+x 33
+y 9
+end
+arch lockable_hdoor_locked
+x 33
+y 9
+end
+arch magic_banned
+x 33
+y 10
+end
+arch flagstone
+x 33
+y 10
+end
+arch wizard
+name master of transferrence
+face wizard.151
+hp 100
+x 33
+y 10
+level 50
+unaggressive 1
+end
+arch magic_banned
+x 33
+y 11
+end
+arch flagstone
+x 33
+y 11
+end
+arch longtable_2_1_2
+x 33
+y 11
+move_block walk
+end
+arch light4
+x 33
+y 11
+end
+arch magic_banned
+x 33
+y 12
+end
+arch flagstone
+x 33
+y 12
+end
+arch power_crystal
+name power broker
+maxsp 500
+x 33
+y 12
+no_pick 1
+arch event_say
+title Python
+slaying /python/items/powerbroker.py
+end
+arch event_apply
+title Python
+slaying /python/items/powerbroker.py
+end
+end
+arch magic_banned
+x 33
+y 13
+end
+arch flagstone
+x 33
+y 13
+end
+arch magic_banned
+x 33
+y 14
+end
+arch flagstone
+x 33
+y 14
+end
+arch magic_banned
+x 33
+y 15
+end
+arch flagstone
+x 33
+y 15
+end
+arch magic_banned
+x 33
+y 16
+end
+arch flagstone
+x 33
+y 16
+end
+arch magic_banned
+x 33
+y 17
+end
+arch flagstone
+x 33
+y 17
+end
+arch magic_banned
+x 33
+y 18
+end
+arch flagstone
+x 33
+y 18
+end
+arch magic_banned
+x 33
+y 19
+end
+arch flagstone
+x 33
+y 19
+end
+arch magic_banned
+x 33
+y 20
+end
+arch flagstone
+x 33
+y 20
+end
+arch magic_banned
+x 33
+y 21
+end
+arch flagstone
+x 33
+y 21
+end
+arch cwall_1_1
+x 33
+y 21
+end
+arch magic_banned
+x 33
+y 22
+end
+arch flagstone
+x 33
+y 22
+end
+arch cwall_2_1_1
+x 33
+y 22
+end
+arch flagstone
+x 33
+y 23
+end
+arch cwall_3_1
+x 33
+y 23
+end
+arch grass
+x 33
+y 24
+end
+arch grass
+x 33
+y 25
+end
+arch grass
+x 33
+y 26
+end
+arch grass
+x 33
+y 27
+end
+arch grass
+x 33
+y 28
+end
+arch grass
+x 34
+end
+arch grass
+x 34
+y 1
+end
+arch flagstone
+x 34
+y 2
+end
+arch cwall_2_1_2
+x 34
+y 2
+end
+arch magic_banned
+x 34
+y 3
+end
+arch flagstone
+x 34
+y 3
+end
+arch power_crystal
+x 34
+y 3
+no_pick 1
+end
+arch magic_banned
+x 34
+y 4
+end
+arch flagstone
+x 34
+y 4
+end
+arch power_crystal
+x 34
+y 4
+no_pick 1
+end
+arch magic_banned
+x 34
+y 5
+end
+arch flagstone
+x 34
+y 5
+end
+arch swall_2_1_2
+x 34
+y 5
+end
+arch magic_banned
+x 34
+y 6
+end
+arch flagstone
+x 34
+y 6
+end
+arch magic_banned
+x 34
+y 7
+end
+arch flagstone
+x 34
+y 7
+end
+arch magic_banned
+x 34
+y 8
+end
+arch flagstone
+x 34
+y 8
+end
+arch magic_banned
+x 34
+y 9
+end
+arch flagstone
+x 34
+y 9
+end
+arch cwall_1_4
+x 34
+y 9
+end
+arch magic_banned
+x 34
+y 10
+end
+arch flagstone
+x 34
+y 10
+end
+arch magic_banned
+x 34
+y 11
+end
+arch flagstone
+x 34
+y 11
+end
+arch longtable_1_3
+x 34
+y 11
+move_block walk
+end
+arch magic_banned
+x 34
+y 12
+end
+arch flagstone
+x 34
+y 12
+end
+arch magic_banned
+x 34
+y 13
+end
+arch flagstone
+x 34
+y 13
+end
+arch magic_banned
+x 34
+y 14
+end
+arch flagstone
+x 34
+y 14
+end
+arch magic_banned
+x 34
+y 15
+end
+arch flagstone
+x 34
+y 15
+end
+arch magic_banned
+x 34
+y 16
+end
+arch flagstone
+x 34
+y 16
+end
+arch magic_banned
+x 34
+y 17
+end
+arch flagstone
+x 34
+y 17
+end
+arch magic_banned
+x 34
+y 18
+end
+arch flagstone
+x 34
+y 18
+end
+arch magic_banned
+x 34
+y 19
+end
+arch flagstone
+x 34
+y 19
+end
+arch magic_banned
+x 34
+y 20
+end
+arch flagstone
+x 34
+y 20
+end
+arch magic_banned
+x 34
+y 21
+end
+arch flagstone
+x 34
+y 21
+end
+arch magic_banned
+x 34
+y 22
+end
+arch flagstone
+x 34
+y 22
+end
+arch flagstone
+x 34
+y 23
+end
+arch cwall_2_1_2
+x 34
+y 23
+end
+arch grass
+x 34
+y 24
+end
+arch grass
+x 34
+y 25
+end
+arch grass
+x 34
+y 26
+end
+arch grass
+x 34
+y 27
+end
+arch grass
+x 34
+y 28
+end
+arch grass
+x 35
+end
+arch grass
+x 35
+y 1
+end
+arch flagstone
+x 35
+y 2
+end
+arch cwall_2_1_2
+x 35
+y 2
+end
+arch magic_banned
+x 35
+y 3
+end
+arch flagstone
+x 35
+y 3
+end
+arch swall_1_1
+x 35
+y 3
+end
+arch magic_banned
+x 35
+y 4
+end
+arch flagstone
+x 35
+y 4
+end
+arch swall_2_1_1
+x 35
+y 4
+end
+arch magic_banned
+x 35
+y 5
+end
+arch flagstone
+x 35
+y 5
+end
+arch swall_2_2_4
+x 35
+y 5
+end
+arch magic_banned
+x 35
+y 6
+end
+arch flagstone
+x 35
+y 6
+end
+arch magic_banned
+x 35
+y 7
+end
+arch flagstone
+x 35
+y 7
+end
+arch magic_banned
+x 35
+y 8
+end
+arch flagstone
+x 35
+y 8
+end
+arch magic_banned
+x 35
+y 9
+end
+arch flagstone
+x 35
+y 9
+end
+arch cwall_3_3
+x 35
+y 9
+end
+arch magic_banned
+x 35
+y 10
+end
+arch flagstone
+x 35
+y 10
+end
+arch cwall_2_1_1
+x 35
+y 10
+end
+arch magic_banned
+x 35
+y 11
+end
+arch flagstone
+x 35
+y 11
+end
+arch cwall_2_1_1
+x 35
+y 11
+end
+arch magic_banned
+x 35
+y 12
+end
+arch flagstone
+x 35
+y 12
+end
+arch cwall_2_1_1
+x 35
+y 12
+end
+arch magic_banned
+x 35
+y 13
+end
+arch flagstone
+x 35
+y 13
+end
+arch cwall_1_2
+x 35
+y 13
+end
+arch magic_banned
+x 35
+y 14
+end
+arch flagstone
+x 35
+y 14
+end
+arch magic_banned
+x 35
+y 15
+end
+arch flagstone
+x 35
+y 15
+end
+arch magic_banned
+x 35
+y 16
+end
+arch flagstone
+x 35
+y 16
+end
+arch magic_banned
+x 35
+y 17
+end
+arch flagstone
+x 35
+y 17
+end
+arch magic_banned
+x 35
+y 18
+end
+arch flagstone
+x 35
+y 18
+end
+arch magic_banned
+x 35
+y 19
+end
+arch flagstone
+x 35
+y 19
+end
+arch magic_banned
+x 35
+y 20
+end
+arch flagstone
+x 35
+y 20
+end
+arch magic_banned
+x 35
+y 21
+end
+arch flagstone
+x 35
+y 21
+end
+arch magic_banned
+x 35
+y 22
+end
+arch flagstone
+x 35
+y 22
+end
+arch flagstone
+x 35
+y 23
+end
+arch cwall_2_1_2
+x 35
+y 23
+end
+arch grass
+x 35
+y 24
+end
+arch grass
+x 35
+y 25
+end
+arch grass
+x 35
+y 26
+end
+arch grass
+x 35
+y 27
+end
+arch grass
+x 35
+y 28
+end
+arch grass
+x 36
+end
+arch grass
+x 36
+y 1
+end
+arch flagstone
+x 36
+y 2
+end
+arch cwall_2_1_2
+x 36
+y 2
+end
+arch magic_banned
+x 36
+y 3
+end
+arch flagstone
+x 36
+y 3
+end
+arch magic_banned
+x 36
+y 4
+end
+arch flagstone
+x 36
+y 4
+end
+arch magic_banned
+x 36
+y 5
+end
+arch flagstone
+x 36
+y 5
+end
+arch magic_banned
+x 36
+y 6
+end
+arch flagstone
+x 36
+y 6
+end
+arch magic_banned
+x 36
+y 7
+end
+arch flagstone
+x 36
+y 7
+end
+arch magic_banned
+x 36
+y 8
+end
+arch flagstone
+x 36
+y 8
+end
+arch magic_banned
+x 36
+y 9
+end
+arch flagstone
+x 36
+y 9
+end
+arch cwall_1_3
+x 36
+y 9
+end
+arch magic_banned
+x 36
+y 10
+end
+arch flagstone
+x 36
+y 10
+end
+arch magic_banned
+x 36
+y 11
+end
+arch flagstone
+x 36
+y 11
+end
+arch longtable_1_4
+x 36
+y 11
+move_block walk
+end
+arch magic_banned
+x 36
+y 12
+end
+arch flagstone
+x 36
+y 12
+end
+arch magic_banned
+x 36
+y 13
+end
+arch flagstone
+x 36
+y 13
+end
+arch magic_banned
+x 36
+y 14
+end
+arch flagstone
+x 36
+y 14
+end
+arch magic_banned
+x 36
+y 15
+end
+arch flagstone
+x 36
+y 15
+end
+arch magic_banned
+x 36
+y 16
+end
+arch flagstone
+x 36
+y 16
+end
+arch magic_banned
+x 36
+y 17
+end
+arch flagstone
+x 36
+y 17
+end
+arch magic_banned
+x 36
+y 18
+end
+arch flagstone
+x 36
+y 18
+end
+arch magic_banned
+x 36
+y 19
+end
+arch flagstone
+x 36
+y 19
+end
+arch magic_banned
+x 36
+y 20
+end
+arch flagstone
+x 36
+y 20
+end
+arch magic_banned
+x 36
+y 21
+end
+arch flagstone
+x 36
+y 21
+end
+arch magic_banned
+x 36
+y 22
+end
+arch flagstone
+x 36
+y 22
+end
+arch flagstone
+x 36
+y 23
+end
+arch cwall_2_1_2
+x 36
+y 23
+end
+arch grass
+x 36
+y 24
+end
+arch grass
+x 36
+y 25
+end
+arch grass
+x 36
+y 26
+end
+arch grass
+x 36
+y 27
+end
+arch grass
+x 36
+y 28
+end
+arch grass
+x 37
+end
+arch grass
+x 37
+y 1
+end
+arch flagstone
+x 37
+y 2
+end
+arch cwall_2_1_2
+x 37
+y 2
+end
+arch magic_banned
+x 37
+y 3
+end
+arch flagstone
+x 37
+y 3
+end
+arch bookshelf
+x 37
+y 3
+end
+arch magic_banned
+x 37
+y 4
+end
+arch flagstone
+x 37
+y 4
+end
+arch magic_banned
+x 37
+y 5
+end
+arch flagstone
+x 37
+y 5
+end
+arch desk
+x 37
+y 5
+end
+arch light4
+x 37
+y 5
+end
+arch magic_banned
+x 37
+y 6
+end
+arch flagstone
+x 37
+y 6
+end
+arch man
+x 37
+y 6
+end
+arch magic_banned
+x 37
+y 7
+end
+arch flagstone
+x 37
+y 7
+end
+arch magic_banned
+x 37
+y 8
+end
+arch flagstone
+x 37
+y 8
+end
+arch magic_banned
+x 37
+y 9
+end
+arch flagstone
+x 37
+y 9
+end
+arch lockable_hdoor_locked
+x 37
+y 9
+end
+arch magic_banned
+x 37
+y 10
+end
+arch flagstone
+x 37
+y 10
+end
+arch wizard
+name master of transferrence
+face wizard.151
+hp 100
+x 37
+y 10
+level 50
+unaggressive 1
+end
+arch magic_banned
+x 37
+y 11
+end
+arch flagstone
+x 37
+y 11
+end
+arch longtable_2_1_2
+x 37
+y 11
+move_block walk
+end
+arch light4
+x 37
+y 11
+end
+arch magic_banned
+x 37
+y 12
+end
+arch flagstone
+x 37
+y 12
+end
+arch power_crystal
+name power broker
+maxsp 500
+x 37
+y 12
+no_pick 1
+arch event_say
+title Python
+slaying /python/items/powerbroker.py
+end
+arch event_apply
+title Python
+slaying /python/items/powerbroker.py
+end
+end
+arch magic_banned
+x 37
+y 13
+end
+arch flagstone
+x 37
+y 13
+end
+arch magic_banned
+x 37
+y 14
+end
+arch flagstone
+x 37
+y 14
+end
+arch magic_banned
+x 37
+y 15
+end
+arch flagstone
+x 37
+y 15
+end
+arch magic_banned
+x 37
+y 16
+end
+arch flagstone
+x 37
+y 16
+end
+arch magic_banned
+x 37
+y 17
+end
+arch flagstone
+x 37
+y 17
+end
+arch magic_banned
+x 37
+y 18
+end
+arch flagstone
+x 37
+y 18
+end
+arch magic_banned
+x 37
+y 19
+end
+arch flagstone
+x 37
+y 19
+end
+arch magic_banned
+x 37
+y 20
+end
+arch flagstone
+x 37
+y 20
+end
+arch magic_banned
+x 37
+y 21
+end
+arch flagstone
+x 37
+y 21
+end
+arch magic_banned
+x 37
+y 22
+end
+arch flagstone
+x 37
+y 22
+end
+arch flagstone
+x 37
+y 23
+end
+arch cwall_2_1_2
+x 37
+y 23
+end
+arch grass
+x 37
+y 24
+end
+arch grass
+x 37
+y 25
+end
+arch grass
+x 37
+y 26
+end
+arch grass
+x 37
+y 27
+end
+arch grass
+x 37
+y 28
+end
+arch grass
+x 38
+end
+arch grass
+x 38
+y 1
+end
+arch flagstone
+x 38
+y 2
+end
+arch cwall_2_1_2
+x 38
+y 2
+end
+arch magic_banned
 x 38
 y 3
-resist_cold 100
-material 0
-no_pick 1
+end
+arch flagstone
+x 38
+y 3
+end
+arch bookshelf
+x 38
+y 3
 end
 arch magic_banned
 x 38
@@ -7242,33 +7235,33 @@ arch flagstone
 x 38
 y 4
 end
-arch block_door_closed
-x 38
-y 4
-connected 4
-end
 arch magic_banned
 x 38
 y 5
 end
-arch goldfloor
-name Super volume discount!  5000 Spell Points for 3000 gold.
-food 3000
+arch flagstone
 x 38
 y 5
-connected 4
+end
+arch magic_banned
+x 38
+y 6
 end
 arch flagstone
 x 38
 y 6
 end
-arch light4
+arch magic_banned
 x 38
 y 7
 end
 arch flagstone
 x 38
 y 7
+end
+arch magic_banned
+x 38
+y 8
 end
 arch flagstone
 x 38
@@ -7282,7 +7275,7 @@ arch flagstone
 x 38
 y 9
 end
-arch wall_2_2_3
+arch cwall_1_4
 x 38
 y 9
 end
@@ -7294,14 +7287,6 @@ arch flagstone
 x 38
 y 10
 end
-arch wall_2_1_1
-x 38
-y 10
-end
-arch light4
-x 38
-y 11
-end
 arch magic_banned
 x 38
 y 11
@@ -7310,19 +7295,16 @@ arch flagstone
 x 38
 y 11
 end
-arch wall_2_1_1
+arch longtable_1_3
 x 38
 y 11
+move_block walk
 end
 arch magic_banned
 x 38
 y 12
 end
 arch flagstone
-x 38
-y 12
-end
-arch wall_2_1_1
 x 38
 y 12
 end
@@ -7334,19 +7316,7 @@ arch flagstone
 x 38
 y 13
 end
-arch wall_2_2_4
-x 38
-y 13
-end
-arch light4
-x 38
-y 14
-end
 arch magic_banned
-x 38
-y 14
-end
-arch dungeon_magic
 x 38
 y 14
 end
@@ -7354,27 +7324,13 @@ arch flagstone
 x 38
 y 14
 end
-arch longtable_1_1
-x 38
-y 14
-move_block all
-end
 arch magic_banned
-x 38
-y 15
-end
-arch dungeon_magic
 x 38
 y 15
 end
 arch flagstone
 x 38
 y 15
-end
-arch longtable_2_2_4
-x 38
-y 15
-move_block all
 end
 arch magic_banned
 x 38
@@ -7384,27 +7340,59 @@ arch flagstone
 x 38
 y 16
 end
-arch flagstone
+arch magic_banned
 x 38
 y 17
 end
 arch flagstone
 x 38
+y 17
+end
+arch pentagram_111
+x 38
+y 17
+end
+arch magic_banned
+x 38
 y 18
 end
 arch flagstone
+x 38
+y 18
+end
+arch magic_banned
 x 38
 y 19
 end
 arch flagstone
 x 38
+y 19
+end
+arch magic_banned
+x 38
 y 20
+end
+arch flagstone
+x 38
+y 20
+end
+arch magic_banned
+x 38
+y 21
 end
 arch flagstone
 x 38
 y 21
 end
+arch magic_banned
+x 38
+y 22
+end
 arch flagstone
+x 38
+y 22
+end
+arch brazier
 x 38
 y 22
 end
@@ -7447,97 +7435,206 @@ arch flagstone
 x 39
 y 2
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 39
 y 2
 end
-arch flagstone
-x 39
-y 3
-end
-arch cwall_2_1_1
+arch magic_banned
 x 39
 y 3
 end
 arch flagstone
 x 39
-y 4
+y 3
 end
-arch cwall_2_1_1
+arch bookshelf
+x 39
+y 3
+end
+arch magic_banned
 x 39
 y 4
 end
 arch flagstone
 x 39
-y 5
+y 4
 end
-arch cwall_1_2
+arch magic_banned
 x 39
 y 5
 end
 arch flagstone
+x 39
+y 5
+end
+arch desk
+x 39
+y 5
+end
+arch light4
+x 39
+y 5
+end
+arch magic_banned
 x 39
 y 6
 end
 arch flagstone
 x 39
+y 6
+end
+arch man
+x 39
+y 6
+end
+arch magic_banned
+x 39
 y 7
 end
 arch flagstone
+x 39
+y 7
+end
+arch magic_banned
 x 39
 y 8
 end
 arch flagstone
 x 39
+y 8
+end
+arch magic_banned
+x 39
 y 9
 end
 arch flagstone
+x 39
+y 9
+end
+arch cwall_3_3
+x 39
+y 9
+end
+arch magic_banned
 x 39
 y 10
 end
 arch flagstone
 x 39
+y 10
+end
+arch cwall_2_1_1
+x 39
+y 10
+end
+arch magic_banned
+x 39
 y 11
 end
 arch flagstone
+x 39
+y 11
+end
+arch cwall_2_1_1
+x 39
+y 11
+end
+arch magic_banned
 x 39
 y 12
 end
 arch flagstone
 x 39
+y 12
+end
+arch cwall_2_1_1
+x 39
+y 12
+end
+arch magic_banned
+x 39
 y 13
 end
 arch flagstone
+x 39
+y 13
+end
+arch cwall_1_2
+x 39
+y 13
+end
+arch magic_banned
 x 39
 y 14
 end
 arch flagstone
 x 39
+y 14
+end
+arch magic_banned
+x 39
 y 15
 end
 arch flagstone
+x 39
+y 15
+end
+arch magic_banned
 x 39
 y 16
 end
 arch flagstone
 x 39
+y 16
+end
+arch magic_banned
+x 39
 y 17
 end
 arch flagstone
+x 39
+y 17
+end
+arch magic_banned
 x 39
 y 18
 end
 arch flagstone
 x 39
+y 18
+end
+arch light4
+x 39
+y 18
+glow_radius 7
+end
+arch magic_banned
+x 39
 y 19
 end
 arch flagstone
+x 39
+y 19
+end
+arch magic_banned
 x 39
 y 20
 end
 arch flagstone
 x 39
+y 20
+end
+arch magic_banned
+x 39
 y 21
+end
+arch flagstone
+x 39
+y 21
+end
+arch magic_banned
+x 39
+y 22
 end
 arch button_small
 x 39
@@ -7602,10 +7699,6 @@ arch cwall_2_1_2
 x 40
 y 2
 end
-arch light4
-x 40
-y 3
-end
 arch magic_banned
 x 40
 y 3
@@ -7614,14 +7707,9 @@ arch flagstone
 x 40
 y 3
 end
-arch power_crystal
-sp 3000
-maxsp 3000
+arch bookshelf
 x 40
 y 3
-resist_cold 100
-material 0
-no_pick 1
 end
 arch magic_banned
 x 40
@@ -7630,32 +7718,28 @@ end
 arch flagstone
 x 40
 y 4
-end
-arch block_door_closed
-x 40
-y 4
-connected 5
 end
 arch magic_banned
 x 40
 y 5
 end
-arch goldfloor
-name Spell Points in bulk.  3000 Spell Points for 2000 gold.
-food 2000
+arch flagstone
 x 40
 y 5
-connected 5
 end
-arch flagstone
+arch magic_banned
 x 40
 y 6
 end
 arch flagstone
 x 40
+y 6
+end
+arch magic_banned
+x 40
 y 7
 end
-arch cwall_1_4
+arch flagstone
 x 40
 y 7
 end
@@ -7663,18 +7747,19 @@ arch magic_banned
 x 40
 y 8
 end
-arch goldfloor
-name 500 gold for all the Spell Points you can hold.
-food 500
+arch flagstone
 x 40
 y 8
-connected 7
+end
+arch magic_banned
+x 40
+y 9
 end
 arch flagstone
 x 40
 y 9
 end
-arch cwall_1_4
+arch cwall_1_3
 x 40
 y 9
 end
@@ -7682,37 +7767,36 @@ arch magic_banned
 x 40
 y 10
 end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
+arch flagstone
 x 40
 y 10
-connected 8
+end
+arch magic_banned
+x 40
+y 11
 end
 arch flagstone
 x 40
 y 11
 end
-arch cwall_1_4
+arch longtable_1_4
 x 40
 y 11
+move_block walk
 end
 arch magic_banned
 x 40
 y 12
 end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
+arch flagstone
 x 40
 y 12
-connected 9
 end
-arch flagstone
+arch magic_banned
 x 40
 y 13
 end
-arch cwall_1_4
+arch flagstone
 x 40
 y 13
 end
@@ -7720,48 +7804,69 @@ arch magic_banned
 x 40
 y 14
 end
-arch goldfloor
-name Drop 500 gold coins for all-you-can-take Spell Points.
-food 500
+arch flagstone
 x 40
 y 14
-connected 10
+end
+arch magic_banned
+x 40
+y 15
 end
 arch flagstone
 x 40
 y 15
 end
-arch cwall_1_4
-x 40
-y 15
-end
-arch flagstone
+arch magic_banned
 x 40
 y 16
 end
 arch flagstone
 x 40
-y 17
+y 16
 end
-arch cwall_1_4
+arch magic_banned
 x 40
 y 17
 end
 arch flagstone
+x 40
+y 17
+end
+arch magic_banned
 x 40
 y 18
 end
 arch flagstone
 x 40
+y 18
+end
+arch magic_banned
+x 40
 y 19
 end
 arch flagstone
+x 40
+y 19
+end
+arch magic_banned
 x 40
 y 20
 end
 arch flagstone
 x 40
+y 20
+end
+arch magic_banned
+x 40
 y 21
+end
+arch flagstone
+x 40
+y 21
+end
+arch magic_banned
+x 40
+y 22
 end
 arch button_small
 x 40
@@ -7828,43 +7933,63 @@ arch flagstone
 x 41
 y 2
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 41
 y 2
 end
-arch flagstone
-x 41
-y 3
-end
-arch cwall_2_1_1
+arch magic_banned
 x 41
 y 3
 end
 arch flagstone
 x 41
-y 4
+y 3
 end
-arch cwall_2_1_1
+arch bookshelf
+x 41
+y 3
+end
+arch magic_banned
 x 41
 y 4
 end
 arch flagstone
 x 41
-y 5
+y 4
 end
-arch cwall_1_2
+arch magic_banned
 x 41
 y 5
 end
 arch flagstone
+x 41
+y 5
+end
+arch desk
+x 41
+y 5
+end
+arch light4
+x 41
+y 5
+end
+arch magic_banned
 x 41
 y 6
 end
 arch flagstone
 x 41
+y 6
+end
+arch man
+x 41
+y 6
+end
+arch magic_banned
+x 41
 y 7
 end
-arch cwall_2_1_2
+arch flagstone
 x 41
 y 7
 end
@@ -7876,16 +8001,15 @@ arch flagstone
 x 41
 y 8
 end
-arch block_door_closed
+arch magic_banned
 x 41
-y 8
-connected 7
+y 9
 end
 arch flagstone
 x 41
 y 9
 end
-arch cwall_2_1_2
+arch lockable_hdoor_locked
 x 41
 y 9
 end
@@ -7897,16 +8021,29 @@ arch flagstone
 x 41
 y 10
 end
-arch block_door_closed
+arch wizard
+name master of transferrence
+face wizard.151
+hp 100
 x 41
 y 10
-connected 8
+level 50
+unaggressive 1
+end
+arch magic_banned
+x 41
+y 11
 end
 arch flagstone
 x 41
 y 11
 end
-arch cwall_2_1_2
+arch longtable_2_1_2
+x 41
+y 11
+move_block walk
+end
+arch light4
 x 41
 y 11
 end
@@ -7918,16 +8055,26 @@ arch flagstone
 x 41
 y 12
 end
-arch block_door_closed
+arch power_crystal
+name power broker
+maxsp 500
 x 41
 y 12
-connected 9
+no_pick 1
+arch event_say
+title Python
+slaying /python/items/powerbroker.py
 end
-arch flagstone
+arch event_apply
+title Python
+slaying /python/items/powerbroker.py
+end
+end
+arch magic_banned
 x 41
 y 13
 end
-arch cwall_2_1_2
+arch flagstone
 x 41
 y 13
 end
@@ -7939,16 +8086,11 @@ arch flagstone
 x 41
 y 14
 end
-arch block_door_closed
-x 41
-y 14
-connected 10
-end
-arch flagstone
+arch magic_banned
 x 41
 y 15
 end
-arch cwall_2_1_2
+arch flagstone
 x 41
 y 15
 end
@@ -7960,35 +8102,68 @@ arch flagstone
 x 41
 y 16
 end
-arch block_door_open
+arch magic_banned
 x 41
-y 16
-speed 0.500000
-value 1
+y 17
 end
 arch flagstone
 x 41
 y 17
 end
-arch cwall_2_1_2
+arch wizard
+name master of transferrence
+msg
+@match buy
+Simply walk up to a power broker and say the number of spell points that you would like to buy.
+@match sell
+Simply transfer your spell points into one of the power broker, and tell the clerk that you would like to sell.
+@match *
+Welcome to the House of Power! Here, you will find an abundant supply of fresh spell points at a fee.
+@reply sell How do I sell mana?
+@reply buy How do I buy mana?
+endmsg
+face wizard.151
+hp 100
 x 41
 y 17
+level 50
+unaggressive 1
 end
-arch flagstone
+arch magic_banned
 x 41
 y 18
 end
 arch flagstone
 x 41
+y 18
+end
+arch magic_banned
+x 41
 y 19
 end
 arch flagstone
+x 41
+y 19
+end
+arch magic_banned
 x 41
 y 20
 end
 arch flagstone
 x 41
+y 20
+end
+arch magic_banned
+x 41
 y 21
+end
+arch flagstone
+x 41
+y 21
+end
+arch magic_banned
+x 41
+y 22
 end
 arch button_small
 x 41
@@ -8053,10 +8228,6 @@ arch cwall_2_1_2
 x 42
 y 2
 end
-arch light4
-x 42
-y 3
-end
 arch magic_banned
 x 42
 y 3
@@ -8064,15 +8235,6 @@ end
 arch flagstone
 x 42
 y 3
-end
-arch power_crystal
-sp 2000
-maxsp 2000
-x 42
-y 3
-resist_cold 100
-material 0
-no_pick 1
 end
 arch magic_banned
 x 42
@@ -8082,41 +8244,29 @@ arch flagstone
 x 42
 y 4
 end
-arch block_door_closed
-x 42
-y 4
-connected 6
-end
 arch magic_banned
 x 42
 y 5
 end
-arch goldfloor
-name Spell Points in bulk.  1500 gold for 2000 Spell Points.
-food 1500
+arch flagstone
 x 42
 y 5
-connected 6
+end
+arch magic_banned
+x 42
+y 6
 end
 arch flagstone
 x 42
 y 6
 end
-arch light4
+arch magic_banned
 x 42
 y 7
 end
 arch flagstone
 x 42
 y 7
-end
-arch cwall_2_1_2
-x 42
-y 7
-end
-arch light4
-x 42
-y 8
 end
 arch magic_banned
 x 42
@@ -8126,22 +8276,18 @@ arch flagstone
 x 42
 y 8
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 42
-y 8
+y 9
 end
 arch flagstone
 x 42
 y 9
 end
-arch cwall_2_1_2
+arch cwall_1_4
 x 42
 y 9
 end
-arch light4
-x 42
-y 10
-end
 arch magic_banned
 x 42
 y 10
@@ -8150,21 +8296,18 @@ arch flagstone
 x 42
 y 10
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 42
-y 10
+y 11
 end
 arch flagstone
 x 42
 y 11
 end
-arch cwall_2_1_2
+arch longtable_1_3
 x 42
 y 11
-end
-arch light4
-x 42
-y 12
+move_block walk
 end
 arch magic_banned
 x 42
@@ -8174,22 +8317,14 @@ arch flagstone
 x 42
 y 12
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 42
-y 12
+y 13
 end
 arch flagstone
 x 42
 y 13
 end
-arch cwall_2_1_2
-x 42
-y 13
-end
-arch light4
-x 42
-y 14
-end
 arch magic_banned
 x 42
 y 14
@@ -8198,21 +8333,13 @@ arch flagstone
 x 42
 y 14
 end
-arch rune_regenerate_spellpoints
+arch magic_banned
 x 42
-y 14
+y 15
 end
 arch flagstone
 x 42
 y 15
-end
-arch cwall_2_1_2
-x 42
-y 15
-end
-arch light4
-x 42
-y 16
 end
 arch magic_banned
 x 42
@@ -8222,39 +8349,55 @@ arch flagstone
 x 42
 y 16
 end
-arch rune_transferrence
+arch magic_banned
 x 42
-y 16
+y 17
 end
 arch flagstone
 x 42
 y 17
 end
-arch cwall_2_1_2
-x 42
-y 17
-end
-arch flagstone
+arch magic_banned
 x 42
 y 18
 end
 arch flagstone
 x 42
+y 18
+end
+arch magic_banned
+x 42
 y 19
 end
-arch light4
+arch flagstone
+x 42
+y 19
+end
+arch magic_banned
 x 42
 y 20
 end
 arch flagstone
 x 42
 y 20
+end
+arch magic_banned
+x 42
+y 21
 end
 arch flagstone
 x 42
 y 21
 end
+arch magic_banned
+x 42
+y 22
+end
 arch flagstone
+x 42
+y 22
+end
+arch brazier
 x 42
 y 22
 end
@@ -8337,7 +8480,7 @@ arch flagstone
 x 43
 y 7
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 43
 y 7
 end
@@ -8369,7 +8512,7 @@ arch flagstone
 x 43
 y 11
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 43
 y 11
 end
@@ -8385,7 +8528,7 @@ arch flagstone
 x 43
 y 13
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 43
 y 13
 end
@@ -8401,7 +8544,7 @@ arch flagstone
 x 43
 y 15
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 43
 y 15
 end
@@ -8417,7 +8560,7 @@ arch flagstone
 x 43
 y 17
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 43
 y 17
 end
