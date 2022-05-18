@@ -4,7 +4,7 @@ width 20
 height 20
 msg
 Created:  2019-08-12 Kevin Zheng
-Modified: 2021-07-30 Saiapatsu
+Modified: 2022-05-17 Kevin Zheng
 endmsg
 end
 arch mailbox
@@ -32,6 +32,20 @@ stand_still 1
 arch event_say
 title Python
 slaying /python/IPO/banksay.py
+end
+end
+arch power_crystal
+name power broker
+maxsp 500
+y 4
+no_pick 1
+arch event_say
+title Python
+slaying /python/items/powerbroker.py
+end
+arch event_apply
+title Python
+slaying /python/items/powerbroker.py
 end
 end
 arch messageboard
