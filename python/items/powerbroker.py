@@ -62,6 +62,9 @@ def buy_mana():
         if mana_stock() == 0:
             me.Say("Sorry, we are out of stock right now. Come back later.")
             return
+        if amount <= 0:
+            me.Say("If you want to sell mana, transfer it into the power broker.")
+            return
         if amount > max_buy:
             me.Say("I can only sell you up to %d mana right now." % max_buy)
             amount = max_buy
