@@ -8,7 +8,7 @@ enter_x 16
 enter_y 19
 msg
 Created:  1996-12-25
-Modified: 2021-07-23 Saiapatsu
+Modified: 2022-05-17 Kevin Zheng
 endmsg
 end
 arch blocked
@@ -1918,15 +1918,7 @@ end
 arch scroll
 name Proof Scroll
 msg
- ****
- *   **
- *     **
- *       *
- *       *
- *       *
- *     **
- *   **
- ***
+D
 endmsg
 x 10
 y 17

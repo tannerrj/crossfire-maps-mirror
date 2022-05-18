@@ -8,7 +8,7 @@ enter_x 1
 enter_y 14
 msg
 Created:  1996-02-10
-Modified: 2022-05-17 Nicolas Weeger
+Modified: 2022-05-17 Kevin Zheng
 endmsg
 end
 arch woodfloor
@@ -2468,7 +2468,7 @@ y 13
 end
 arch sign
 msg
-Don't burn the Proof of scroll
+Don't burn the proof scroll!
 endmsg
 x 17
 y 13
@@ -3917,13 +3917,7 @@ end
 arch scroll
 name Proof Scroll
 msg
-
-************
-     **
-     xx
-     **
-     xx
-     **
+T
 endmsg
 x 25
 y 12

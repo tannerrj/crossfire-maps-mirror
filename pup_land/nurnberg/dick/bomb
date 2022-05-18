@@ -8,7 +8,7 @@ enter_x 16
 enter_y 23
 msg
 Created:  1996-02-10
-Modified: 2021-07-23 Saiapatsu
+Modified: 2022-05-17 Kevin Zheng
 endmsg
 end
 arch igate_open_1
@@ -1177,16 +1177,7 @@ end
 arch scroll
 name Proof Scroll
 msg
-
- ****
- *   **
- *     **
- *       *
- *       *
- *       *
- *     **
- *   **
- ***
+D
 endmsg
 x 7
 y 16
