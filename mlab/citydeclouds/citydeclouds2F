@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2020-08-24 Kevin Zheng
+Modified: 2022-05-21 Nicolas Weeger
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2E
@@ -16852,6 +16852,10 @@ arch shop_wands
 x 40
 y 19
 end
+arch dungeon_magic
+x 40
+y 20
+end
 arch woodfloor2
 name woodfloor
 x 40
@@ -17329,6 +17333,10 @@ arch shop_wands
 x 41
 y 19
 end
+arch dungeon_magic
+x 41
+y 20
+end
 arch woodfloor2
 name woodfloor
 x 41
@@ -17337,6 +17345,10 @@ end
 arch shop_wands
 x 41
 y 20
+end
+arch dungeon_magic
+x 41
+y 21
 end
 arch woodfloor2
 name woodfloor
@@ -17760,6 +17772,10 @@ arch wall_2_2_1
 x 42
 y 17
 end
+arch dungeon_magic
+x 42
+y 18
+end
 arch woodfloor2
 name woodfloor
 x 42
@@ -17768,6 +17784,10 @@ end
 arch shop_wands
 x 42
 y 18
+end
+arch dungeon_magic
+x 42
+y 19
 end
 arch woodfloor2
 name woodfloor
@@ -17778,6 +17798,10 @@ arch shop_wands
 x 42
 y 19
 end
+arch dungeon_magic
+x 42
+y 20
+end
 arch woodfloor2
 name woodfloor
 x 42
@@ -17786,6 +17810,10 @@ end
 arch shop_wands
 x 42
 y 20
+end
+arch dungeon_magic
+x 42
+y 21
 end
 arch woodfloor2
 name woodfloor
@@ -18219,6 +18247,10 @@ arch wall_2_2_1
 x 43
 y 18
 end
+arch dungeon_magic
+x 43
+y 19
+end
 arch woodfloor2
 name woodfloor
 x 43
@@ -18227,6 +18259,10 @@ end
 arch shop_wands
 x 43
 y 19
+end
+arch dungeon_magic
+x 43
+y 20
 end
 arch woodfloor2
 name woodfloor
