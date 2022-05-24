@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-11
-Modified: 2021-08-26 jason
+Modified: 2022-05-23 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_127_100
@@ -14815,16 +14815,10 @@ y 17
 elevation 509
 end
 arch house1_east
-slaying /!
-msg
-floorstyle lightwood
-exitstyle door
-wallstyle eastern
-monsterstyle chaos
-dungeon_level 6
-dungeon_depth 1
-decorstyle furniture
-endmsg
+name Go Dojo
+slaying /azumauindo/suno-yamatoshi/buildings/godojo
+hp 10
+sp 17
 x 46
 y 17
 end
