@@ -8,7 +8,7 @@ enter_x 13
 enter_y 12
 msg
 Created:  2004-04-10 Avion
-Modified: 2021-07-30 Saiapatsu
+Modified: 2022-05-25 Kevin Zheng
 endmsg
 end
 arch blocked
@@ -1421,11 +1421,17 @@ x 7
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 7
 y 24
-blocksview 0
+end
+arch exit
+name Pup Land
+slaying /pup_land/world
+hp 18
+sp 18
+x 7
+y 24
 end
 arch tile_white_floor
 x 7
@@ -1816,11 +1822,17 @@ animation sunspear
 x 9
 y 23
 end
-arch blocked
-name Void
+arch blackmarble
 x 9
 y 24
-blocksview 0
+end
+arch exit
+name Santo Domino
+slaying /world/world_102_108
+hp 19
+sp 13
+x 9
+y 24
 end
 arch tile_white_floor
 x 9
@@ -1842,11 +1854,17 @@ x 9
 y 27
 unique 1
 end
-arch blocked
-name Void
+arch blackmarble
 x 9
 y 28
-blocksview 0
+end
+arch exit
+name Stoneville
+slaying /world/world_103_127
+hp 4
+sp 16
+x 9
+y 28
 end
 arch blocked
 name Void
@@ -1996,11 +2014,17 @@ x 10
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 10
 y 24
-blocksview 0
+end
+arch exit
+name Euthville
+slaying /world/world_105_113
+hp 10
+sp 18
+x 10
+y 24
 end
 arch tile_white_floor
 x 10
@@ -2022,16 +2046,15 @@ x 10
 y 27
 unique 1
 end
-arch blocked
-name Void
+arch blackmarble
 x 10
 y 28
-blocksview 0
 end
-arch firepot
-name Stars
-face sunspear.111
-animation sunspear
+arch exit
+name Lake Country
+slaying /world/world_109_126
+hp 17
+sp 19
 x 10
 y 28
 end
@@ -2200,9 +2223,9 @@ y 24
 end
 arch exit
 name Scorn
-slaying /world/world_105_116
-hp 4
-sp 4
+slaying /world/world_105_115
+hp 5
+sp 37
 x 11
 y 24
 end
@@ -2231,10 +2254,10 @@ x 11
 y 28
 end
 arch exit
-name Darcap
-slaying /world/world_116_102
-hp 27
-sp 24
+name Brest
+slaying /world/world_107_123
+hp 31
+sp 28
 x 11
 y 28
 end
@@ -3041,10 +3064,10 @@ x 14
 y 24
 end
 arch exit
-name Navar
-slaying /world/world_122_117
-hp 3
-sp 10
+name Darcap
+slaying /world/world_116_102
+hp 27
+sp 24
 x 14
 y 24
 end
@@ -3073,10 +3096,10 @@ x 14
 y 28
 end
 arch exit
-name Brest
-slaying /world/world_107_123
-hp 31
-sp 28
+name Navar
+slaying /world/world_122_117
+hp 3
+sp 10
 x 14
 y 28
 end
@@ -3224,11 +3247,17 @@ x 15
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 15
 y 24
-blocksview 0
+end
+arch exit
+name Wolfsburg
+slaying /world/world_128_109
+hp 30
+sp 13
+x 15
+y 24
 end
 arch tile_white_floor
 x 15
@@ -3455,16 +3484,15 @@ x 16
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 16
 y 24
-blocksview 0
 end
-arch firepot
-name Stars
-face sparkshower.111
-animation sparkshower
+arch exit
+name Azumauindo
+slaying /world/world_128_101
+hp 4
+sp 31
 x 16
 y 24
 end
@@ -4334,10 +4362,6 @@ arch blackmarble
 x 21
 y 24
 end
-arch exit
-x 21
-y 24
-end
 arch tile_white_floor
 x 21
 y 25
@@ -4365,10 +4389,6 @@ y 27
 unique 1
 end
 arch blackmarble
-x 21
-y 28
-end
-arch exit
 x 21
 y 28
 end
@@ -4746,10 +4766,6 @@ y 25
 blocksview 0
 end
 arch blackmarble
-x 23
-y 26
-end
-arch exit
 x 23
 y 26
 end
