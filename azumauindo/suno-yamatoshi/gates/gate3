@@ -9,211 +9,164 @@ enter_x 14
 enter_y 13
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2008-10-05 Rick Tanner
+Modified: 2022-05-25 Kevin Zheng
 endmsg
 outdoor 1
 end
 arch hills
 end
-arch cwall_2_2_2
-end
 arch flagstone
-y 1
-end
-arch cwall_4
 y 1
 end
 arch flagstone
 y 2
 end
-arch cwall_4
-y 2
-end
 arch flagstone
-y 3
-end
-arch cwall_4
 y 3
 end
 arch flagstone
 y 4
 end
-arch cwall_4
-y 4
-end
 arch flagstone
-y 5
-end
-arch cwall_4
 y 5
 end
 arch flagstone
 y 6
 end
-arch cwall_4
-y 6
-end
 arch flagstone
-y 7
-end
-arch cwall_4
 y 7
 end
 arch flagstone
 y 8
 end
-arch cwall_4
-y 8
-end
 arch flagstone
-y 9
-end
-arch cwall_4
 y 9
 end
 arch flagstone
 y 10
 end
-arch cwall_4
-y 10
-end
 arch flagstone
-y 11
-end
-arch cwall_4
 y 11
 end
 arch flagstone
 y 12
 end
-arch cwall_4
-y 12
-end
 arch flagstone
-y 13
-end
-arch cwall_4
 y 13
 end
 arch brush
 y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch hills
+x 1
+end
+arch flagstone
+x 1
+y 1
+end
+arch cwall_2_2_2
+x 1
+y 1
+end
+arch flagstone
+x 1
+y 2
+end
+arch cwall_2_1_1
+x 1
+y 2
+end
+arch flagstone
+x 1
+y 3
+end
+arch cwall_3_2
+x 1
+y 3
+end
+arch flagstone
+x 1
+y 4
+end
+arch cwall_3_2
+x 1
+y 4
+end
+arch flagstone
+x 1
+y 5
+end
+arch cwall_2_1_1
+x 1
+y 5
+end
+arch flagstone
+x 1
+y 6
+end
+arch cwall_2_1_1
+x 1
+y 6
+end
+arch flagstone
+x 1
+y 7
+end
+arch cwall_2_1_1
+x 1
+y 7
+end
+arch flagstone
+x 1
+y 8
+end
+arch cwall_2_1_1
+x 1
+y 8
+end
+arch flagstone
+x 1
+y 9
+end
+arch cwall_2_1_1
+x 1
+y 9
+end
+arch flagstone
+x 1
+y 10
+end
+arch cwall_2_1_1
+x 1
+y 10
+end
+arch flagstone
+x 1
+y 11
+end
+arch cwall_2_1_1
+x 1
+y 11
+end
+arch flagstone
+x 1
+y 12
+end
+arch cwall_2_1_1
+x 1
+y 12
+end
+arch flagstone
+x 1
+y 13
 end
 arch cwall_2_2_1
-y 14
-end
-arch blocked
-y 15
-end
-arch blocked
-y 16
-end
-arch hills
-x 1
-end
-arch cwall_3_3
-x 1
-end
-arch flagstone
-x 1
-y 1
-end
-arch cwall_4
-x 1
-y 1
-end
-arch flagstone
-x 1
-y 2
-end
-arch cwall_3_4
-x 1
-y 2
-end
-arch flagstone
-x 1
-y 3
-end
-arch cwall_4
-x 1
-y 3
-end
-arch flagstone
-x 1
-y 4
-end
-arch cwall_4
-x 1
-y 4
-end
-arch flagstone
-x 1
-y 5
-end
-arch cwall_3_4
-x 1
-y 5
-end
-arch flagstone
-x 1
-y 6
-end
-arch cwall_3_4
-x 1
-y 6
-end
-arch flagstone
-x 1
-y 7
-end
-arch cwall_3_4
-x 1
-y 7
-end
-arch flagstone
-x 1
-y 8
-end
-arch cwall_3_4
-x 1
-y 8
-end
-arch flagstone
-x 1
-y 9
-end
-arch cwall_3_4
-x 1
-y 9
-end
-arch flagstone
-x 1
-y 10
-end
-arch cwall_3_4
-x 1
-y 10
-end
-arch flagstone
-x 1
-y 11
-end
-arch cwall_3_4
-x 1
-y 11
-end
-arch flagstone
-x 1
-y 12
-end
-arch cwall_3_4
-x 1
-y 12
-end
-arch flagstone
-x 1
-y 13
-end
-arch cwall_4
 x 1
 y 13
 end
@@ -221,10 +174,6 @@ arch brush
 x 1
 y 14
 end
-arch cwall_3_1
-x 1
-y 14
-end
 arch blocked
 x 1
 y 15
@@ -236,14 +185,11 @@ end
 arch hills
 x 2
 end
-arch cwall_3_3
-x 2
-end
 arch flagstone
 x 2
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 2
 y 1
 end
@@ -335,15 +281,11 @@ arch flagstone
 x 2
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 2
 y 13
 end
 arch brush
-x 2
-y 14
-end
-arch cwall_3_1
 x 2
 y 14
 end
@@ -358,14 +300,11 @@ end
 arch hills
 x 3
 end
-arch cwall_3_3
-x 3
-end
 arch flagstone
 x 3
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 3
 y 1
 end
@@ -417,15 +356,11 @@ arch flagstone
 x 3
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 3
 y 13
 end
 arch brush
-x 3
-y 14
-end
-arch cwall_3_1
 x 3
 y 14
 end
@@ -440,14 +375,11 @@ end
 arch hills
 x 4
 end
-arch cwall_3_3
-x 4
-end
 arch flagstone
 x 4
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 4
 y 1
 end
@@ -467,7 +399,7 @@ arch flagstone
 x 4
 y 4
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 4
 end
@@ -475,7 +407,7 @@ arch flagstone
 x 4
 y 5
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 5
 end
@@ -483,7 +415,7 @@ arch flagstone
 x 4
 y 6
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 6
 end
@@ -515,7 +447,7 @@ arch flagstone
 x 4
 y 10
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 10
 end
@@ -523,7 +455,7 @@ arch flagstone
 x 4
 y 11
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 11
 end
@@ -531,7 +463,7 @@ arch flagstone
 x 4
 y 12
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 4
 y 12
 end
@@ -539,15 +471,11 @@ arch flagstone
 x 4
 y 13
 end
-arch cwall_4
+arch cwall_3_1
 x 4
 y 13
 end
 arch brush
-x 4
-y 14
-end
-arch cwall_3_1
 x 4
 y 14
 end
@@ -562,14 +490,11 @@ end
 arch hills
 x 5
 end
-arch cwall_3_3
-x 5
-end
 arch flagstone
 x 5
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 5
 y 1
 end
@@ -581,7 +506,7 @@ arch flagstone
 x 5
 y 3
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 5
 y 3
 end
@@ -589,23 +514,11 @@ arch flagstone
 x 5
 y 4
 end
-arch cwall_4
-x 5
-y 4
-end
 arch flagstone
 x 5
 y 5
 end
-arch cwall_4
-x 5
-y 5
-end
 arch flagstone
-x 5
-y 6
-end
-arch cwall_4
 x 5
 y 6
 end
@@ -613,7 +526,7 @@ arch flagstone
 x 5
 y 7
 end
-arch cwall_4
+arch cwall_3_3
 x 5
 y 7
 end
@@ -629,7 +542,7 @@ arch flagstone
 x 5
 y 9
 end
-arch cwall_4
+arch cwall_3_1
 x 5
 y 9
 end
@@ -637,23 +550,11 @@ arch flagstone
 x 5
 y 10
 end
-arch cwall_4
-x 5
-y 10
-end
 arch flagstone
 x 5
 y 11
 end
-arch cwall_4
-x 5
-y 11
-end
 arch flagstone
-x 5
-y 12
-end
-arch cwall_4
 x 5
 y 12
 end
@@ -661,15 +562,11 @@ arch flagstone
 x 5
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 5
 y 13
 end
 arch brush
-x 5
-y 14
-end
-arch cwall_3_1
 x 5
 y 14
 end
@@ -684,14 +581,11 @@ end
 arch hills
 x 6
 end
-arch cwall_3_3
-x 6
-end
 arch flagstone
 x 6
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 6
 y 1
 end
@@ -703,7 +597,7 @@ arch flagstone
 x 6
 y 3
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 6
 y 3
 end
@@ -711,15 +605,11 @@ arch flagstone
 x 6
 y 4
 end
-arch cwall_4
-x 6
-y 4
-end
 arch flagstone
 x 6
 y 5
 end
-arch cwall_4
+arch cwall_2_2_2
 x 6
 y 5
 end
@@ -727,7 +617,7 @@ arch flagstone
 x 6
 y 6
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 6
 y 6
 end
@@ -762,7 +652,7 @@ arch flagstone
 x 6
 y 10
 end
-arch cwall_4
+arch cwall_2_2_1
 x 6
 y 10
 end
@@ -770,15 +660,7 @@ arch flagstone
 x 6
 y 11
 end
-arch cwall_4
-x 6
-y 11
-end
 arch flagstone
-x 6
-y 12
-end
-arch cwall_4
 x 6
 y 12
 end
@@ -786,15 +668,11 @@ arch flagstone
 x 6
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 6
 y 13
 end
 arch brush
-x 6
-y 14
-end
-arch cwall_3_1
 x 6
 y 14
 end
@@ -809,14 +687,11 @@ end
 arch hills
 x 7
 end
-arch cwall_3_3
-x 7
-end
 arch flagstone
 x 7
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 7
 y 1
 end
@@ -836,7 +711,7 @@ arch flagstone
 x 7
 y 4
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 7
 y 4
 end
@@ -891,7 +766,7 @@ arch flagstone
 x 7
 y 11
 end
-arch cwall_4
+arch cwall_2_2_1
 x 7
 y 11
 end
@@ -899,23 +774,15 @@ arch flagstone
 x 7
 y 12
 end
-arch cwall_4
-x 7
-y 12
-end
 arch flagstone
 x 7
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 7
 y 13
 end
 arch brush
-x 7
-y 14
-end
-arch cwall_3_1
 x 7
 y 14
 end
@@ -930,14 +797,11 @@ end
 arch hills
 x 8
 end
-arch cwall_3_3
-x 8
-end
 arch flagstone
 x 8
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 8
 y 1
 end
@@ -1020,7 +884,7 @@ arch slevel_3_4
 x 8
 y 12
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 8
 y 12
 end
@@ -1044,7 +908,7 @@ arch swall_1_4
 x 8
 y 14
 end
-arch cwall_3_1
+arch cwall_2_2_1
 x 8
 y 14
 end
@@ -1059,14 +923,11 @@ end
 arch hills
 x 9
 end
-arch cwall_3_3
-x 9
-end
 arch flagstone
 x 9
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 9
 y 1
 end
@@ -1183,14 +1044,11 @@ end
 arch hills
 x 10
 end
-arch cwall_3_3
-x 10
-end
 arch flagstone
 x 10
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 10
 y 1
 end
@@ -1299,14 +1157,11 @@ end
 arch hills
 x 11
 end
-arch cwall_3_3
-x 11
-end
 arch flagstone
 x 11
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 11
 y 1
 end
@@ -1420,14 +1275,11 @@ end
 arch hills
 x 12
 end
-arch cwall_3_3
-x 12
-end
 arch flagstone
 x 12
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 12
 y 1
 end
@@ -1548,7 +1400,7 @@ end
 arch hills
 x 13
 end
-arch cwall_2_2_3
+arch cwall_1_1
 x 13
 end
 arch flagstone
@@ -2057,7 +1909,7 @@ end
 arch hills
 x 16
 end
-arch cwall_2_2_2
+arch cwall_1_1
 x 16
 end
 arch flagstone
@@ -2276,14 +2128,11 @@ end
 arch hills
 x 17
 end
-arch cwall_3_3
-x 17
-end
 arch flagstone
 x 17
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 17
 y 1
 end
@@ -2404,14 +2253,11 @@ end
 arch hills
 x 18
 end
-arch cwall_3_3
-x 18
-end
 arch flagstone
 x 18
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 18
 y 1
 end
@@ -2520,14 +2366,11 @@ end
 arch hills
 x 19
 end
-arch cwall_3_3
-x 19
-end
 arch flagstone
 x 19
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 19
 y 1
 end
@@ -2636,14 +2479,11 @@ end
 arch hills
 x 20
 end
-arch cwall_3_3
-x 20
-end
 arch flagstone
 x 20
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 20
 y 1
 end
@@ -2760,14 +2600,11 @@ end
 arch hills
 x 21
 end
-arch cwall_3_3
-x 21
-end
 arch flagstone
 x 21
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 21
 y 1
 end
@@ -2850,7 +2687,7 @@ arch slevel_3_2
 x 21
 y 12
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 21
 y 12
 end
@@ -2874,7 +2711,7 @@ arch swall_1_3
 x 21
 y 14
 end
-arch cwall_3_1
+arch cwall_2_2_4
 x 21
 y 14
 end
@@ -2889,14 +2726,11 @@ end
 arch hills
 x 22
 end
-arch cwall_3_3
-x 22
-end
 arch flagstone
 x 22
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 22
 y 1
 end
@@ -2916,7 +2750,7 @@ arch flagstone
 x 22
 y 4
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 22
 y 4
 end
@@ -2971,7 +2805,7 @@ arch flagstone
 x 22
 y 11
 end
-arch cwall_4
+arch cwall_2_2_4
 x 22
 y 11
 end
@@ -2979,23 +2813,15 @@ arch flagstone
 x 22
 y 12
 end
-arch cwall_4
-x 22
-y 12
-end
 arch flagstone
 x 22
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 22
 y 13
 end
 arch brush
-x 22
-y 14
-end
-arch cwall_3_1
 x 22
 y 14
 end
@@ -3010,14 +2836,11 @@ end
 arch hills
 x 23
 end
-arch cwall_3_3
-x 23
-end
 arch flagstone
 x 23
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 23
 y 1
 end
@@ -3029,7 +2852,7 @@ arch flagstone
 x 23
 y 3
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 23
 y 3
 end
@@ -3037,15 +2860,11 @@ arch flagstone
 x 23
 y 4
 end
-arch cwall_4
-x 23
-y 4
-end
 arch flagstone
 x 23
 y 5
 end
-arch cwall_4
+arch cwall_2_2_3
 x 23
 y 5
 end
@@ -3053,7 +2872,7 @@ arch flagstone
 x 23
 y 6
 end
-arch cwall_3_2
+arch cwall_2_1_1
 x 23
 y 6
 end
@@ -3088,7 +2907,7 @@ arch flagstone
 x 23
 y 10
 end
-arch cwall_4
+arch cwall_2_2_4
 x 23
 y 10
 end
@@ -3096,15 +2915,7 @@ arch flagstone
 x 23
 y 11
 end
-arch cwall_4
-x 23
-y 11
-end
 arch flagstone
-x 23
-y 12
-end
-arch cwall_4
 x 23
 y 12
 end
@@ -3112,15 +2923,11 @@ arch flagstone
 x 23
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 23
 y 13
 end
 arch brush
-x 23
-y 14
-end
-arch cwall_3_1
 x 23
 y 14
 end
@@ -3135,14 +2942,11 @@ end
 arch hills
 x 24
 end
-arch cwall_3_3
-x 24
-end
 arch flagstone
 x 24
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 24
 y 1
 end
@@ -3154,7 +2958,7 @@ arch flagstone
 x 24
 y 3
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 24
 y 3
 end
@@ -3162,23 +2966,11 @@ arch flagstone
 x 24
 y 4
 end
-arch cwall_4
-x 24
-y 4
-end
 arch flagstone
 x 24
 y 5
 end
-arch cwall_4
-x 24
-y 5
-end
 arch flagstone
-x 24
-y 6
-end
-arch cwall_4
 x 24
 y 6
 end
@@ -3186,7 +2978,7 @@ arch flagstone
 x 24
 y 7
 end
-arch cwall_4
+arch cwall_3_3
 x 24
 y 7
 end
@@ -3202,7 +2994,7 @@ arch flagstone
 x 24
 y 9
 end
-arch cwall_4
+arch cwall_3_1
 x 24
 y 9
 end
@@ -3210,23 +3002,11 @@ arch flagstone
 x 24
 y 10
 end
-arch cwall_4
-x 24
-y 10
-end
 arch flagstone
 x 24
 y 11
 end
-arch cwall_4
-x 24
-y 11
-end
 arch flagstone
-x 24
-y 12
-end
-arch cwall_4
 x 24
 y 12
 end
@@ -3234,15 +3014,11 @@ arch flagstone
 x 24
 y 13
 end
-arch cwall_4
+arch cwall_2_1_2
 x 24
 y 13
 end
 arch brush
-x 24
-y 14
-end
-arch cwall_3_1
 x 24
 y 14
 end
@@ -3257,14 +3033,11 @@ end
 arch hills
 x 25
 end
-arch cwall_3_3
-x 25
-end
 arch flagstone
 x 25
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 25
 y 1
 end
@@ -3284,7 +3057,7 @@ arch flagstone
 x 25
 y 4
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 4
 end
@@ -3292,7 +3065,7 @@ arch flagstone
 x 25
 y 5
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 5
 end
@@ -3300,7 +3073,7 @@ arch flagstone
 x 25
 y 6
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 6
 end
@@ -3332,7 +3105,7 @@ arch flagstone
 x 25
 y 10
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 10
 end
@@ -3340,7 +3113,7 @@ arch flagstone
 x 25
 y 11
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 11
 end
@@ -3348,7 +3121,7 @@ arch flagstone
 x 25
 y 12
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 25
 y 12
 end
@@ -3356,15 +3129,11 @@ arch flagstone
 x 25
 y 13
 end
-arch cwall_4
+arch cwall_3_1
 x 25
 y 13
 end
 arch brush
-x 25
-y 14
-end
-arch cwall_3_1
 x 25
 y 14
 end
@@ -3379,14 +3148,11 @@ end
 arch hills
 x 26
 end
-arch cwall_3_3
-x 26
-end
 arch flagstone
 x 26
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 26
 y 1
 end
@@ -3462,15 +3228,11 @@ arch flagstone
 x 26
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 26
 y 13
 end
 arch brush
-x 26
-y 14
-end
-arch cwall_3_1
 x 26
 y 14
 end
@@ -3485,14 +3247,11 @@ end
 arch hills
 x 27
 end
-arch cwall_3_3
-x 27
-end
 arch flagstone
 x 27
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 27
 y 1
 end
@@ -3576,15 +3335,11 @@ arch flagstone
 x 27
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 27
 y 13
 end
 arch brush
-x 27
-y 14
-end
-arch cwall_3_1
 x 27
 y 14
 end
@@ -3599,14 +3354,11 @@ end
 arch hills
 x 28
 end
-arch cwall_3_3
-x 28
-end
 arch flagstone
 x 28
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 28
 y 1
 end
@@ -3690,15 +3442,11 @@ arch flagstone
 x 28
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 28
 y 13
 end
 arch brush
-x 28
-y 14
-end
-arch cwall_3_1
 x 28
 y 14
 end
@@ -3713,14 +3461,11 @@ end
 arch hills
 x 29
 end
-arch cwall_3_3
-x 29
-end
 arch flagstone
 x 29
 y 1
 end
-arch cwall_3_1
+arch cwall_2_1_2
 x 29
 y 1
 end
@@ -3796,15 +3541,11 @@ arch flagstone
 x 29
 y 13
 end
-arch cwall_3_3
+arch cwall_2_1_2
 x 29
 y 13
 end
 arch brush
-x 29
-y 14
-end
-arch cwall_3_1
 x 29
 y 14
 end
@@ -3819,244 +3560,178 @@ end
 arch hills
 x 30
 end
-arch cwall_3_3
-x 30
-end
 arch flagstone
 x 30
 y 1
-end
-arch cwall_4
-x 30
-y 1
-end
-arch flagstone
-x 30
-y 2
-end
-arch cwall_3_2
-x 30
-y 2
-end
-arch flagstone
-x 30
-y 3
-end
-arch cwall_3_2
-x 30
-y 3
-end
-arch flagstone
-x 30
-y 4
-end
-arch cwall_3_2
-x 30
-y 4
-end
-arch flagstone
-x 30
-y 5
-end
-arch cwall_3_2
-x 30
-y 5
-end
-arch flagstone
-x 30
-y 6
-end
-arch cwall_3_2
-x 30
-y 6
-end
-arch flagstone
-x 30
-y 7
-end
-arch cwall_3_2
-x 30
-y 7
-end
-arch flagstone
-x 30
-y 8
-end
-arch cwall_3_2
-x 30
-y 8
-end
-arch flagstone
-x 30
-y 9
-end
-arch cwall_3_2
-x 30
-y 9
-end
-arch flagstone
-x 30
-y 10
-end
-arch cwall_3_2
-x 30
-y 10
-end
-arch flagstone
-x 30
-y 11
-end
-arch cwall_3_2
-x 30
-y 11
-end
-arch flagstone
-x 30
-y 12
-end
-arch cwall_3_2
-x 30
-y 12
-end
-arch flagstone
-x 30
-y 13
-end
-arch cwall_4
-x 30
-y 13
-end
-arch brush
-x 30
-y 14
-end
-arch cwall_3_1
-x 30
-y 14
-end
-arch blocked
-x 30
-y 15
-end
-arch blocked
-x 30
-y 16
-end
-arch hills
-x 31
 end
 arch cwall_2_2_3
-x 31
-end
-arch flagstone
-x 31
-y 1
-end
-arch cwall_4
-x 31
+x 30
 y 1
 end
 arch flagstone
-x 31
+x 30
 y 2
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 2
 end
 arch flagstone
-x 31
+x 30
 y 3
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 3
 end
 arch flagstone
-x 31
+x 30
 y 4
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 4
 end
 arch flagstone
-x 31
+x 30
 y 5
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 5
 end
 arch flagstone
-x 31
+x 30
 y 6
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 6
 end
 arch flagstone
-x 31
+x 30
 y 7
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 7
 end
 arch flagstone
-x 31
+x 30
 y 8
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 8
 end
 arch flagstone
-x 31
+x 30
 y 9
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 9
 end
 arch flagstone
-x 31
+x 30
 y 10
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 10
 end
 arch flagstone
-x 31
+x 30
 y 11
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 11
 end
 arch flagstone
-x 31
+x 30
 y 12
 end
-arch cwall_4
-x 31
+arch cwall_2_1_1
+x 30
 y 12
 end
 arch flagstone
-x 31
+x 30
 y 13
 end
-arch cwall_3_4
+arch cwall_2_2_4
+x 30
+y 13
+end
+arch brush
+x 30
+y 14
+end
+arch blocked
+x 30
+y 15
+end
+arch blocked
+x 30
+y 16
+end
+arch hills
+x 31
+end
+arch flagstone
+x 31
+y 1
+end
+arch flagstone
+x 31
+y 2
+end
+arch flagstone
+x 31
+y 3
+end
+arch flagstone
+x 31
+y 4
+end
+arch flagstone
+x 31
+y 5
+end
+arch flagstone
+x 31
+y 6
+end
+arch flagstone
+x 31
+y 7
+end
+arch flagstone
+x 31
+y 8
+end
+arch flagstone
+x 31
+y 9
+end
+arch flagstone
+x 31
+y 10
+end
+arch flagstone
+x 31
+y 11
+end
+arch flagstone
+x 31
+y 12
+end
+arch flagstone
 x 31
 y 13
 end
 arch brush
-x 31
-y 14
-end
-arch cwall_2_2_4
 x 31
 y 14
 end
