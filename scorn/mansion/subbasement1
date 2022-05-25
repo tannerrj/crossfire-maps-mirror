@@ -1662,26 +1662,9 @@ arch blackslate
 x 6
 y 9
 end
-arch pet_necro
-other_arch pet of Necromancer
-Con 2
-Int 7
-hp 200
-maxhp 200
-maxsp 10
-exp 5000
-dam 25
+arch undead_pet_necro
 x 6
 y 9
-speed 0.1
-type 0
-attacktype 1025
-generator 1
-see_invisible 1
-undead 1
-run_away 20
-can_see_in_dark 1
-random_movement 1
 end
 arch unholy_ground
 x 6
