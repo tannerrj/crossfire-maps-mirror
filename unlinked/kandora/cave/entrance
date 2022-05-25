@@ -7,7 +7,7 @@ height 14
 enter_x 1
 msg
 Created:  1999-02-28 King Zoobus
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2022-05-24 DraugTheWhopper
 endmsg
 end
 arch earth
@@ -1372,9 +1372,8 @@ arch earth
 x 16
 y 6
 end
-arch big_dragon_worthless
+arch big_dragon
 name Xarnok
-name_pl Xarnok
 msg
 @match wise
 I am the guardian of the portal.

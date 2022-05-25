@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1996-12-18
-Modified: 2012-02-28 Rick Tanner
+Modified: 2022-05-24 DraugTheWhopper
 endmsg
 end
 arch dungeon_floor
@@ -2487,7 +2487,7 @@ y 36
 connected 14
 end
 arch generate_dragon
-other_arch big_dragon_worthless
+other_arch big_dragon
 Con 100
 hp 30000
 maxhp 30000
@@ -2511,7 +2511,7 @@ x 8
 y 38
 end
 arch generate_dragon
-other_arch big_dragon_worthless
+other_arch big_dragon
 Con 100
 hp 30000
 maxhp 30000

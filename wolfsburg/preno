@@ -7,7 +7,7 @@ enter_x 4
 enter_y 23
 msg
 Created:  2021-02-23 Nicolas Weeger
-Modified: 2021-02-23 Nicolas Weeger
+Modified: 2022-05-24 DraugTheWhopper
 endmsg
 end
 arch woodfloorvert
@@ -3059,7 +3059,7 @@ arch woodfloorvert
 x 13
 y 2
 end
-arch big_dragon_worthless
+arch big_chaos_dragon
 x 13
 y 2
 end
@@ -3326,7 +3326,7 @@ arch woodfloorvert
 x 14
 y 6
 end
-arch swall_2_1_1
+arch swall_2_2_1
 x 14
 y 6
 end
@@ -3338,19 +3338,11 @@ arch woodfloorvert
 x 14
 y 7
 end
-arch swall_2_1_1
-x 14
-y 7
-end
 arch dungeon_magic
 x 14
 y 8
 end
 arch woodfloorvert
-x 14
-y 8
-end
-arch swall_2_2_1
 x 14
 y 8
 end
@@ -3569,7 +3561,7 @@ arch woodfloorvert
 x 15
 y 6
 end
-arch big_chaos_dragon
+arch swall_2_1_2
 x 15
 y 6
 end
@@ -3586,10 +3578,6 @@ x 15
 y 8
 end
 arch woodfloorvert
-x 15
-y 8
-end
-arch swall_2_1_2
 x 15
 y 8
 end
@@ -3810,23 +3798,23 @@ arch woodfloorvert
 x 16
 y 6
 end
-arch dungeon_magic
-x 16
-y 7
-end
-arch woodfloorvert
-x 16
-y 7
-end
-arch dungeon_magic
-x 16
-y 8
-end
-arch woodfloorvert
-x 16
-y 8
-end
 arch swall_2_1_2
+x 16
+y 6
+end
+arch dungeon_magic
+x 16
+y 7
+end
+arch woodfloorvert
+x 16
+y 7
+end
+arch dungeon_magic
+x 16
+y 8
+end
+arch woodfloorvert
 x 16
 y 8
 end
@@ -4049,6 +4037,10 @@ arch woodfloorvert
 x 17
 y 6
 end
+arch swall_2_2_3
+x 17
+y 6
+end
 arch dungeon_magic
 x 17
 y 7
@@ -4057,15 +4049,15 @@ arch woodfloorvert
 x 17
 y 7
 end
+arch swall_2_2_1
+x 17
+y 7
+end
 arch dungeon_magic
 x 17
 y 8
 end
 arch woodfloorvert
-x 17
-y 8
-end
-arch swall_2_1_2
 x 17
 y 8
 end
@@ -4304,6 +4296,10 @@ arch woodfloorvert
 x 18
 y 7
 end
+arch swall_2_2_3
+x 18
+y 7
+end
 arch dungeon_magic
 x 18
 y 8
@@ -4312,7 +4308,7 @@ arch woodfloorvert
 x 18
 y 8
 end
-arch swall_2_2_3
+arch swall_2_1_1
 x 18
 y 8
 end

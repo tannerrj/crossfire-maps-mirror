@@ -8,7 +8,7 @@ enter_x 7
 enter_y 11
 msg
 Created:  1996-06-07
-Modified: 2011-11-30 Rick Tanner
+Modified: 2022-05-24 DraugTheWhopper
 endmsg
 end
 arch pstone_1
@@ -931,13 +931,13 @@ x 7
 y 2
 end
 arch generate_dragon
-other_arch big_dragon_worthless
-hp 10000
-maxhp 10000
+other_arch big_dragon
+hp 3000
+maxhp 3000
 ac -10
 x 7
 y 2
-speed 0.010000
+speed 0.01
 end
 arch pstone_1
 x 7
