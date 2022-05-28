@@ -5,15 +5,7 @@ killer = Crossfire.WhoIsActivator()
 # and the killer is a player (who would be wielding this weapon.
 if killer.Owner is None and killer.Type == Crossfire.Type.PLAYER:
     # Find the equipped weapon on the player.
-    inv = killer.Inventory
-    weap = None
-    while inv:
-        # The artifact name "of Souls" does this.
-        # Also only do things if the weapon is cursed as a sanity check.
-        if inv.Applied == 1 and inv.Cursed == 1 and inv.Title == 'of Souls':
-            weap = inv
-            break
-        inv = inv.Below
+    weap = killer.CurrentWeapon
     # Don't bother with xp if weapon is missing or already at the maximum level.
     if weap != None and weap.ItemPower < 115:
         # Get the victim -- we need to know how much exp they are worth.
