@@ -6,8 +6,8 @@ killer = Crossfire.WhoIsActivator()
 if killer.Owner is None and killer.Type == Crossfire.Type.PLAYER:
     # Find the equipped weapon on the player.
     weap = killer.CurrentWeapon
-    # Don't bother with xp if weapon is missing or already at the maximum level.
-    if weap != None and weap.ItemPower < 115:
+    # Don't bother with xp if weapon is not the right one or already at the maximum level.
+    if weap != None and weap.Applied == 1 and weap.Cursed == 1 and weap.Title == 'of Souls' and weap.ItemPower < 115:
         # Get the victim -- we need to know how much exp they are worth.
         victim = Crossfire.WhoAmI()
         if victim is not None:
