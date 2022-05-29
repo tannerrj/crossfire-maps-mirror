@@ -8,7 +8,7 @@ enter_x 19
 enter_y 39
 msg
 Created:  1993-11-13
-Modified: 2012-03-24 Rick Tanner
+Modified: 2022-05-29 Nicolas Weeger
 endmsg
 end
 arch marble
@@ -9185,6 +9185,7 @@ y 4
 end
 arch exit
 slaying east_1
+hp 0
 sp 5
 x 39
 y 5
