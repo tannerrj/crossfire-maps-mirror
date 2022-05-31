@@ -42,6 +42,8 @@ def create_tower(player, current_map, tile, builder):
     current_map: the map object the player is in
     tile: all objects on a tile (a list of Crossfire objects)
     builder: the tower builder (a Crossfire object)
+
+    Returns: True if a tower was built, False otherwise.
     """
     for ob in tile:
         if ob.Name == 'tower placement':
@@ -61,8 +63,8 @@ def create_tower(player, current_map, tile, builder):
                     player.Teleport(current_map, player.X, player.Y+1)
 
                     builder.Quantity -= 1
-
-                    break
+                    return True
+    return False
 
 
 def destroy_tower(tile, towerlist):
@@ -71,10 +73,14 @@ def destroy_tower(tile, towerlist):
 
     tile: all objects on a tile (a list of Crossfire objects)
     towerlist: bulletwall, firewall, or lightningwall
+
+    Returns: True if a tower was destroyed, False otherwise.
     """
     for ob in tile:
         if ob.ArchName in towerlist:
             ob.Remove()
+            return True
+    return False
 
 
 def replace_tower(current_map, tile, towerlist, level=0):
@@ -86,6 +92,8 @@ def replace_tower(current_map, tile, towerlist, level=0):
     tile: all objects on a tile (a list of Crossfire objects)
     towerlist: bulletwall, firewall, or lightningwall
     level: the spell level of the tower
+
+    Returns: True if a tower was replaced, False otherwise.
     """
     for ob in tile:
         if ob.ArchName in towerlist:
@@ -104,6 +112,8 @@ def replace_tower(current_map, tile, towerlist, level=0):
             # Add original rebalanced spell level for tower
             if level:
                 wall.Level = level
+            return True
+    return False
 
 
 def player_objects(player, current_map) -> list:

@@ -11,4 +11,9 @@ Crossfire.SetReturnValue(1)
 
 if tile and current_map.Path == '/darcap/darcap/circus/fz_tower_defense':
     walls = td.bulletwall+td.firewall+td.lightningwall
-    td.destroy_tower(tile, walls)
+    if td.destroy_tower(tile, walls):
+        player.Message("You destroy the tower.")
+    else:
+        player.Message("There is no tower in front of you to destroy.")
+else:
+    player.Message("Nothing happens here.")
