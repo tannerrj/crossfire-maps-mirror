@@ -4,7 +4,7 @@ region wolfsburg
 width 50
 height 50
 msg
-Modified: 2020-12-20 SilverNexus
+Modified: 2022-06-01 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_129_108
@@ -6338,9 +6338,6 @@ hp 12
 sp 14
 x 24
 y 40
-arch quest_advance_apply
-name wolfsburg/treasure-island 0>10
-end
 end
 arch pstone_1
 x 24
