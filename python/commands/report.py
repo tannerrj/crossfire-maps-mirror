@@ -30,10 +30,17 @@ Report:     {DESC}
     msg["From"] = "crossfire"
     msg["Subject"] = "Crossfire issue report"
 
-    result = subprocess.run(['sendmail', recipient], input=msg.as_bytes())
-    if result.returncode == 0:
-        pl.Message("Thank you for your report.")
-    else:
-        pl.Message("There was an error reporting your problem. Please contact a Dungeon Master to report your problem.")
+    try:
+        result = subprocess.run(['sendmail', recipient], universal_newlines=True, input=msg.as_string(), timeout=2)
+        if result.returncode == 0:
+            pl.Message("Thank you for your report.")
+        else:
+            error(pl)
+    except subprocess.TimeoutExpired:
+        error(pl)
+        Crossfire.Log(Crossfire.LogError, "Timed out while reporting a problem")
+
+def error(pl):
+    pl.Message("There was an error reporting your problem. Please try again or contact a Dungeon Master to report your problem.")
 
 report(Crossfire.WhoAmI())
