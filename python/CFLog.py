@@ -27,8 +27,12 @@
 
 import Crossfire
 
+from dateutil import parser
 from time import localtime, strftime, time
+
 from CFDataFile import CFDataFile, CFData
+
+TimeFormat = "%a, %d %b %Y %H:%M:%S %Z"
 
 class CFLog:
 
@@ -38,7 +42,7 @@ class CFLog:
         self.log = CFData('Player_log', logheader)
 
     def create(self, name):
-        date = strftime("%a, %d %b %Y %H:%M:%S %Z", localtime(time()))
+        date = strftime(TimeFormat, localtime(time()))
         record={'#': name
         ,'Born':date
         ,'IP':'unknown'
@@ -54,22 +58,29 @@ class CFLog:
         self.log.remove_record(name)
 
     def login_update(self, name, ip):
-        date = strftime("%a, %d %b %Y %H:%M:%S %Z", localtime(time()))
+        date = strftime(TimeFormat, localtime(time()))
         record = self.log.get_record(name)
         record['IP']=ip
         record['Last_Login_Date']=date
         record['Login_Count']=int(record['Login_Count'])+1
         self.log.put_record(record)
 
+    def last_login(self, name):
+        record = self.info(name)
+        try:
+            return parser.parse(record['Last_Login_Date'])
+        except:
+            return None
+
     def kick_update(self, name):
-        date = strftime("%a, %d %b %Y %H:%M:%S %Z", localtime(time()))
+        date = strftime(TimeFormat, localtime(time()))
         record = self.log.get_record(name)
         record['Kick_Count']=int(record['Kick_Count'])+1
         record['Last_Kick_Date']=date
         self.log.put_record(record)
 
     def muzzle_update(self, name):
-        date = strftime("%a, %d %b %Y %H:%M:%S %Z", localtime(time()))
+        date = strftime(TimeFormat, localtime(time()))
         record = self.log.get_record(name)
         record['Muzzle_Count']=int(record['Muzzle_Count'])+1
         record['Last_Muzzle_Date']=date
