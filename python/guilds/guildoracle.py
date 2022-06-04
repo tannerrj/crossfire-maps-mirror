@@ -118,20 +118,23 @@ if (Access ==1) or (isDM == 1):
             else:
                 message = 'Usage "demote <member_name>"'
         elif text[0] == 'status':
-            record = guild.info(text[1])
-            if record:
-                if len(text)==3:
-                    if guild.change_status(text[1],text[2]):
-                        record = guild.info(text[1]) #refresh record
-                        message = '%s now has status of %s' %(text[1], record['Status'])
+            if len(text) > 1:
+                record = guild.info(text[1])
+                if record:
+                    if len(text)==3:
+                        if guild.change_status(text[1],text[2]):
+                            record = guild.info(text[1]) #refresh record
+                            message = '%s now has status of %s' %(text[1], record['Status'])
+                        else:
+                            status = ', '.join(guild.status)
+                            message = '%s is not a valid status, valid values are %s.' %(text[2],status)
                     else:
                         status = ', '.join(guild.status)
-                        message = '%s is not a valid status, valid values are %s.' %(text[2],status)
+                        message = 'Current status for %s is %s.\nTo change use "status %s <status>" where status is one of %s.' %(text[1],record['Status'],text[1],status)
                 else:
-                    status = ', '.join(guild.status)
-                    message = 'Current status for %s is %s.\nTo change use "status %s <status>" where status is one of %s.' %(text[1],record['Status'],text[1],status)
+                    message = '%s is not a member' %text[1]
             else:
-                message = '%s is not a member' %text[1]
+                message = "Say status <member> to query the member's status."
         elif text[0] == 'add' and isDM:
             if len(text)==2:
                 if log.info(text[1]):
