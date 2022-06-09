@@ -3,8 +3,6 @@ import sqlite3
 
 import Crossfire
 
-_dict_name = 'CFReputationConnection'
-
 def _init_schema(con, version, *schema_files):
     con.execute("PRAGMA journal_mode=WAL;");
     con.execute("PRAGMA synchronous=NORMAL;");
@@ -32,13 +30,10 @@ def _init_db():
     for f in init_files:
         with open(f) as initfile:
             con.executescript(initfile.read())
-    Crossfire.GetSharedDictionary()[_dict_name] = con
+    return con
 
 def _get_db():
-    d = Crossfire.GetSharedDictionary()
-    if _dict_name not in d:
-        _init_db()
-    return d[_dict_name]
+    return _init_db()
 
 def reputation(player, faction=None):
     """
@@ -60,6 +55,7 @@ FROM reputations
 WHERE name=? AND faction=? AND ABS(rep) > 0;
         """
         result = con.execute(query, (player, faction)).fetchall()
+    con.close()
     return result
 
 def record_kill(race, region, player, fraction=0.0001, limit=0.4):
@@ -80,3 +76,4 @@ WHERE ABS(new_rep) <= ?;
     """
     con.execute(query, (fraction, race, region, player, limit))
     con.commit()
+    con.close()
