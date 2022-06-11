@@ -3,27 +3,24 @@ activator=Crossfire.WhoIsActivator()
 mymap=activator.Map
 
 whoami=Crossfire.WhoAmI()
-def GetForce(Target):
-	while Target!=None:
-		if Target.Name=="BigChest":
-			return Target
-		else:
-			Target=Target.Below
 
 if whoami.Name=="Big Chest":
-	myPath=mymap.Path
-	Target=activator.CheckInventory("BigChest")
-	if Target !=None:
-		Target.Quantity=0
 
+	# Remove all forces, in case player had more than one
+	check = activator.Inventory
+	while check:
+		below = check.Below
+		if check.Name == "BigChest":
+			check.Remove()
+		check = below
 
 	Card=activator.CreateObject("event_apply")
 	Card.Name="BigChest"
 
+	myPath=mymap.Path
 	Card.Title=myPath
 else:
-	Target=activator.Inventory
-	Target=GetForce(Target)
+	Target=activator.CheckInventory("BigChest")
 	if Target==None:
 		whoami.Say("I'm sorry, I can't send you home.  It seems my attachment to the material plane has shifted.")
 	else:
