@@ -24,12 +24,9 @@
 # Updated to add new fields and functions (kick, muzzle)
 # and rewritten to use plain text file storage (CFDataFile) instead of shelve.
 
+from time import localtime, strftime, strptime, time
 
 import Crossfire
-
-from dateutil import parser
-from time import localtime, strftime, time
-
 from CFDataFile import CFDataFile, CFData
 
 TimeFormat = "%a, %d %b %Y %H:%M:%S %Z"
@@ -68,8 +65,20 @@ class CFLog:
     def last_login(self, name):
         record = self.info(name)
         try:
-            return parser.parse(record['Last_Login_Date'])
-        except:
+            r = record['Last_Login_Date']
+            return strptime(r, TimeFormat)
+        except ValueError:
+            # If the server time zone changes, then %Z will no longer parse.
+            # Remove the time zone and try again.
+            BackupTimeFormat = "%a, %d %b %Y %H:%M:%S"
+            try:
+                time_no_tz = " ".join(r.split(" ")[:-1])
+                return strptime(time_no_tz, BackupTimeFormat)
+            except Exception as e:
+                Crossfire.Log(Crossfire.LogDebug, "CFLog: Failed to parse time: " + str(e))
+                return None
+        except Exception as e:
+            Crossfire.Log(Crossfire.LogDebug, "CFLog: Failed to parse time: " + str(e))
             return None
 
     def kick_update(self, name):
