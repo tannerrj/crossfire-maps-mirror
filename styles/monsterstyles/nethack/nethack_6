@@ -498,10 +498,23 @@ reflect_spell 0
 run_away 85
 can_cast_spell 0
 end
-arch small_troll
-name ape
+arch ape
+Con 5
+Wis 10
+Str 20
+Int 5
+Dex 18
+exp 1250
+dam 14
+hp 90
+maxhp 90
+ac 6
+wc 6
 x 4
 y 10
+resist_physical 0
+resist_electricity 0
+run_away 5
 end
 arch panther
 name jaguar

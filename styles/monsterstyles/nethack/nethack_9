@@ -129,14 +129,24 @@ arch green_slime
 x 1
 y 2
 end
-arch small_troll
+arch ape
 name carnivorous ape
-hp 350
+Con 5
+Wis 10
+Str 20
+Int 5
+Dex 18
+exp 1350
 dam 20
+hp 350
+maxhp 350
+ac 6
+wc 6
 x 1
 y 3
 attacktype 1
-resist_fire 0
+resist_electricity 0
+run_away 5
 end
 arch dog
 name large dog
