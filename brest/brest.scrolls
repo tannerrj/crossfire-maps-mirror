@@ -15,10 +15,11 @@ enter_x 3
 enter_y 37
 msg
 Created:  2005-05-23 Gene Alexander
-Modified: 2020-03-21 Kevin Zheng
+Modified: 2022-07-14 Rick Tanner
 endmsg
 outdoor 1
 tile_path_2 brest.scrolls.right
+reset_group brest-scrolls_galore
 end
 arch brush
 end
