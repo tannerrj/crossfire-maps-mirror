@@ -7,9 +7,10 @@ enter_x 29
 enter_y 3
 msg
 Created:  2005-09-26 Gene Alexander
-Modified: 2012-01-27 Rick Tanner
+Modified: 2022-07-15 Rick Tanner
 endmsg
 outdoor 1
+reset_group brest_zorn
 end
 arch brush
 end
