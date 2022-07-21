@@ -40,7 +40,7 @@ end
 arch oakdoor_1
 name Oakdoor to Execution Chamber
 slaying prison_w
-hp 15
+hp 14
 sp 1
 y 4
 end
@@ -50,7 +50,7 @@ end
 arch oakdoor_1
 name Oakdoor to Execution Chamber
 slaying prison_w
-hp 15
+hp 14
 sp 2
 y 5
 end
@@ -295,7 +295,7 @@ arch oakdoor_2
 name Oakdoor to Maximum Security Cells
 slaying prison_n
 hp 13
-sp 15
+sp 14
 x 4
 end
 arch dungeon_floor
@@ -345,6 +345,7 @@ arch oakdoor_2
 name Oakdoor to a Heavily Guarded Chamber
 slaying prison_s
 hp 1
+sp 1
 x 4
 y 9
 end
@@ -355,7 +356,7 @@ arch oakdoor_2
 name Oakdoor to Maximum Security Cells
 slaying prison_n
 hp 14
-sp 15
+sp 14
 x 5
 end
 arch dungeon_floor
@@ -405,6 +406,7 @@ arch oakdoor_2
 name Oakdoor to a Heavily Guarded Chamber
 slaying prison_s
 hp 2
+sp 1
 x 5
 y 9
 end
@@ -655,6 +657,7 @@ end
 arch oakdoor_1
 name Oakdoor to Wizards' Cells
 slaying prison_e
+hp 1
 sp 13
 x 9
 y 4
@@ -666,6 +669,7 @@ end
 arch oakdoor_1
 name Oakdoor to Wizards' Cells
 slaying prison_e
+hp 1
 sp 14
 x 9
 y 5
