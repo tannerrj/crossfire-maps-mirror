@@ -9,9 +9,10 @@ enter_x 4
 enter_y 10
 msg
 Created:  1993-11-10
-Modified: 2021-08-22 Nicolas Weeger
+Modified: 2022-07-24 Rick Tanner
 endmsg
 outdoor 1
+reset_group navar_tower-of-illusion
 end
 arch woodfloor
 end
