@@ -8,13 +8,14 @@ enter_x 9
 enter_y 9
 msg
 Created:  2007-05-26 Nicolas Weeger
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2022-07-26 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
 Entrance to an underground tavern.
 endmaplore
 outdoor 1
+reset_group portjoseph_grens-house
 end
 arch pstone_1
 end
