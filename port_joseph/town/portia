@@ -8,9 +8,10 @@ enter_x 16
 enter_y 26
 msg
 Created:  1994-05-26 langley (langley@fermat.dartmouth.edu)
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2022-07-26 Rick Tanner
 endmsg
 outdoor 1
+reset_group portjoseph_portias-house
 end
 arch grass_only
 end
