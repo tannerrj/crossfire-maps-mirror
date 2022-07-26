@@ -7,12 +7,13 @@ width 50
 height 50
 msg
 Created:  2004-05-24 Avion
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2022-07-26 Rick Tanner
 endmsg
 tile_path_1 greenway3
 tile_path_2 greenway7
 tile_path_3 greenway6
 tile_path_4 greenway8
+reset_group greenway
 end
 arch darkforest
 end

@@ -8,12 +8,14 @@ enter_x 34
 enter_y 13
 msg
 Created:  2004-09-25 Avion
+Modified: 2022-07-26 Rick Tanner
 endmsg
 maplore
 In Harcanna Wood you can find the tower of Sorrow.
 Harcanna Wood is the home of the brothers Verdan and Non.
 endmaplore
 outdoor 1
+reset_group greenway
 end
 arch darkforest
 end

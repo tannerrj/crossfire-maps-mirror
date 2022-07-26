@@ -8,12 +8,13 @@ enter_x 31
 enter_y 41
 msg
 Created:  2004-05-24 Avion
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2022-07-26 Rick Tanner
 endmsg
 tile_path_1 greenway9
 tile_path_2 greenway4
 tile_path_3 greenway3
 tile_path_4 greenway5
+reset_group greenway
 end
 arch jungle_1
 end
