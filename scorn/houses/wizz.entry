@@ -9,9 +9,10 @@ enter_x 14
 enter_y 7
 msg
 Created:  1996-01-06 Bjoern Helfesrieder (helfesri@igd.fhg.de)
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2022-07-27 Rick Tanner
 endmsg
 outdoor 1
+reset_group scorn_yarids-house
 end
 arch dungeon_floor
 end
