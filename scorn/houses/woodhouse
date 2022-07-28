@@ -8,12 +8,13 @@ enter_x 2
 enter_y 8
 msg
 Created:  2007-05-27 Nicolas Weeger
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2022-07-27 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
 Hospital and entrance to the trappers.
 endmaplore
+reset_group scorn_wood-house-scorn-trappers
 end
 arch woodfloor
 end
