@@ -10,9 +10,10 @@ enter_x 3
 enter_y 11
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2009-08-03 Kevin Bulgrien
+Modified: 2022-07-28 Rick Tanner
 endmsg
 outdoor 1
+reset_group scorn_abandoned-temple
 end
 arch dirtfloor
 end

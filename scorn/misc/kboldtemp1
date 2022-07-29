@@ -9,9 +9,10 @@ enter_x 10
 enter_y 3
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-10-09 Rick Tanner
+Modified: 2022-07-28 Rick Tanner
 endmsg
 outdoor 1
+reset_group scorn_abandoned-temple
 end
 arch cobblestones2
 end
