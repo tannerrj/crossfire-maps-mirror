@@ -25,7 +25,7 @@
   "match" : ["yes", "service", "Scorn"],
   "pre" : [],
   "post" : [["quest", "scorn/WyvernWing", "10"], ["givecontents", "balm of return home"]],
-  "msg" : ["His Majesty, the King of Scorn, craves a snack.\n You will go and return with a wing from His Majesty's enemy, Slithselest, the self-styled Lord of Wyverns.\n When His Majesty dines upon this delicacy, you shall earn your Earldom.\n Slithselest has his eyrie (it is said) in the high mountains south of the road to Brest.\n\n Take those balms to make your return trip faster."]
+  "msg" : ["His Majesty, the King of Scorn, craves a snack.\n You will go and return with a wing from His Majesty's enemy, Slithselest, the self-styled Lord of Wyverns.\n When His Majesty dines upon this delicacy, you shall earn your Earldom.\n Slithselest has his eyrie (it is said) in the high mountains south of the road to Brest. \nLook for a valley in the mountains, southeast of the last farmland at the southern border of The Kingdom of Scorn.\n\n Take those balms to make your return trip faster."]
   }, {
   "match" : ["*"],
   "pre" : [],
