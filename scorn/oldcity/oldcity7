@@ -9,10 +9,11 @@ enter_x 5
 enter_y 38
 msg
 Created:  1994-05-28
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2022-07-28 Rick Tanner
 endmsg
 tile_path_2 oldcity54
 tile_path_4 oldcity8
+reset_group scornoldcity_old-city
 end
 arch dungeon_floor
 end

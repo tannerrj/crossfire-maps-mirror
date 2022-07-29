@@ -8,10 +8,11 @@ height 40
 enter_x 9
 enter_y 39
 msg
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2022-07-28 Rick Tanner
 endmsg
 tile_path_1 oldcity15
 tile_path_3 oldcity11
+reset_group scornoldcity_old-city
 end
 arch pstone_3
 end

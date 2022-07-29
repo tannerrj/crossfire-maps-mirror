@@ -8,9 +8,10 @@ height 40
 enter_y 26
 msg
 Created:  1993-10-19
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2022-07-28 Rick Tanner
 endmsg
 tile_path_4 oldcity3
+reset_group scornoldcity_old-city
 end
 arch dungeon_magic
 end
