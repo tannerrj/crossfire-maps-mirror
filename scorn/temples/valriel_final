@@ -8,9 +8,10 @@ enter_x 29
 enter_y 50
 msg
 Created:  2006-06-11 Gene Alexander (poof@eracc.com)
-Modified: 2012-01-22 Nicolas Weeger
+Modified: 2022-07-29 Rick Tanner
 endmsg
 outdoor 1
+reset_group scorn_chapel-of-valriel
 end
 arch blocked
 name Void
