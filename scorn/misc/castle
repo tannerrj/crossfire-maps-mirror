@@ -8,12 +8,13 @@ enter_x 11
 enter_y 20
 msg
 Created:  1997-04-27
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2022-07-28 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
 Password for the kitchen.
 endmaplore
+reset_group scorn_scorn-castle
 end
 arch grass
 end
