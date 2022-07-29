@@ -25,7 +25,7 @@
   "match" : ["yes", "service", "Scorn"],
   "pre" : [],
   "post" : [["quest", "scorn/BlueMushroom", "10"], ["givecontents", "balm of return home"]],
-  "msg" : ["His Majesty, the King of Scorn, is suffering from bunions. \nHis honorable physician believes that a certain rare mushroom will provide a cure.\n The king pledges to elevate to the rank of Marquis whomever will provide this cure. \nThe mushrooms he needs are  blue in color, and grows only in the marshy areas located at the far west of the continent, same level as Scorn city.\n\nHere are some balms to ensure a safer trip back."]
+  "msg" : ["His Majesty, the King of Scorn, is suffering from bunions. \nHis honorable physician believes that a certain rare mushroom will provide a cure.\n The king pledges to elevate to the rank of Marquis whomever will provide this cure. \nThe mushrooms he needs are blue in color and grow only in the marshy areas located on the far side of the continent, due west of Scorn city.\n\nHere are some balms to ensure a safer trip back."]
   }, {
   "match" : ["*"],
   "pre" : [],
