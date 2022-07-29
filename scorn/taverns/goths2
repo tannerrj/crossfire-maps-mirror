@@ -7,11 +7,12 @@ height 30
 enter_x 31
 enter_y 1
 msg
-Modified: 2021-10-09 Rick Tanner
+Modified: 2022-07-28 Rick Tanner
 endmsg
 maplore
 The nightman down the hall spots you and shouts "HALT! THIEF!!!"  It seems they have mistaken you with somebody else.
 endmaplore
+reset_group scorn_goths-tavern
 end
 arch cobblestones2
 end
