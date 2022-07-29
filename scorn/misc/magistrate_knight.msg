@@ -25,7 +25,7 @@
   "match" : ["yes", "service", "Scorn"],
   "pre" : [],
   "post" : [["quest", "scorn/OgreKing", "10"], ["givecontents", "balm of return home"]],
-  "msg" : ["His Majesty, the King of Scorn, announces that whomsoever returns with the Head of the Ogre Chief shall be awarded a Baronetcy. \n\n His tribe of ogres have been stealing sheep from the hills east of the city. \n\n Go and decapitate the tribe. Take those balms to make your return trip faster.\n Our scouts have reported sightings of members of the tribe near a hole north of the road to Navar."]
+  "msg" : ["His Majesty, the King of Scorn, announces that whomsoever returns with the Head of the Ogre Chief shall be awarded a Baronetcy. \n\n His tribe of ogres have been stealing sheep from the hills east of the city. \n\n Go and decapitate the tribe. Take those balms to make your return trip faster.\n Our scouts have reported sightings of members of the tribe.\n They were near a hole in the grazing hills north of the road to Navar."]
   }, {
   "match" : ["*"],
   "pre" : [],
