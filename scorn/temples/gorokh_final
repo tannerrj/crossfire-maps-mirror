@@ -8,9 +8,10 @@ enter_x 51
 enter_y 6
 msg
 Created:  2006-12-10 Gene Alexander (poof@eracc.com)
-Modified: 2012-03-29 Rick Tanner
+Modified: 2022-07-29 Rick Tanner
 endmsg
 outdoor 1
+reset_group scorn_church-of-gorokh
 end
 arch blocked
 name Eternal Darkness
