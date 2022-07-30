@@ -30,7 +30,7 @@
   "match" : ["home"],
   "pre"   : [],
   "post"  : [],
-  "msg"   : ["Their dwelling is on the western edge of the mountains southwest of Navar."]
+  "msg"   : ["Their dwelling is south of Hermes Inn and atop the mountains overlooking an expanse of lakes."]
   },{
   "match" : ["dragonlord", "master"],
   "pre"   : [],
