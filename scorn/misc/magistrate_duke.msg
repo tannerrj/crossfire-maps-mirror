@@ -4,7 +4,7 @@
   "match" : ["titan", "pretender", "crown", "yes", "assistance"],
   "pre" : [["quest", "scorn/TitanCrown", "10"], ["token", "question", "helptitan"]],
   "post" : [["settoken", "question", "0"], ["quest", "scorn/TitanCrown", "20"]],
-  "msg" : ["So the King wishes you to depose the titan, Meganthropopulos? This will be no easy task I fear.\n We know that Meganthropopulos has secured himself in a stronghold on the extreme south-east of this continent, we can not launch a direct assault on him though, because this stronghold is well defended and located on a narrow peninsula with only one approach.\n You may be able to sneak in and accomplish the task however.\n Good Luck Your Grace."]
+  "msg" : ["So the King wishes you to depose the titan, Meganthropopulos? This will be no easy task I fear.\n We know that Meganthropopulos has secured himself in a stronghold on the extreme southeast of this continent by a Fishing Village.\nWe can not launch a direct assault on him though, because this stronghold is well defended and located on a narrow peninsula with only one approach.\n You may be able to sneak in and accomplish the task however.\n Good Luck Your Grace."]
   }, {
   "match" : ["no"],
   "pre" : [["token", "question", "helptitan"]],
