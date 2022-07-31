@@ -22,7 +22,7 @@
   "match" : ["spectre"],
   "pre" : [["quest", "scorn/LordSpectre", "=10"]],
   "post" : [["quest", "scorn/LordSpectre", "20"]],
-  "msg" : ["The entrance to the warren in which the Lord Spectre resides may be found on the Pirate Island."]
+  "msg" : ["The entrance to the warren in which the Lord Spectre resides may be found on the Pirate Island of Wolfsburg."]
   },{
   "match" : ["*"],
   "pre" : [["quest", "scorn/LordSpectre", "=10"]],
