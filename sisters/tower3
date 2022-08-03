@@ -459,7 +459,7 @@ end
 arch igateTrg1
 x 4
 y 6
-connected 100
+connected 101
 end
 arch flagstone
 x 4
@@ -1252,7 +1252,7 @@ end
 arch igateTrg1
 x 11
 y 6
-connected 100
+connected 101
 end
 arch flagstone
 x 11
@@ -1757,6 +1757,11 @@ arch blocked
 x 17
 y 6
 end
+arch button_trigger
+x 17
+y 7
+connected 101
+end
 arch pedestal_trigger
 slaying fred
 x 17
@@ -1851,8 +1856,7 @@ arch panther
 race fred
 x 21
 y 7
-speed 1.000000
-speed_left -1.000000
+speed 1.0
 end
 arch blocked
 x 21
