@@ -456,10 +456,11 @@ arch flagstone
 x 4
 y 6
 end
-arch igateTrg1
+arch grate_closed_1
 x 4
 y 6
 connected 101
+blocksview 1
 end
 arch flagstone
 x 4
@@ -1249,10 +1250,11 @@ arch flagstone
 x 11
 y 6
 end
-arch igateTrg1
+arch grate_closed_1
 x 11
 y 6
 connected 101
+blocksview 1
 end
 arch flagstone
 x 11
@@ -1757,10 +1759,9 @@ arch blocked
 x 17
 y 6
 end
-arch button_trigger
+arch whiteslate
 x 17
 y 7
-connected 101
 end
 arch pedestal_trigger
 slaying fred
@@ -1776,6 +1777,10 @@ arch blocked
 x 18
 y 6
 end
+arch whiteslate
+x 18
+y 7
+end
 arch grate_closed_2
 x 18
 y 7
@@ -1784,6 +1789,30 @@ end
 arch blocked
 x 18
 y 8
+end
+arch whiteslate
+x 18
+y 10
+end
+arch swall_2_2_2
+x 18
+y 10
+end
+arch whiteslate
+x 18
+y 11
+end
+arch swall_2_1_1
+x 18
+y 11
+end
+arch whiteslate
+x 18
+y 12
+end
+arch swall_2_2_1
+x 18
+y 12
 end
 arch teleporter
 hp 8
@@ -1826,6 +1855,10 @@ arch blocked
 x 19
 y 6
 end
+arch whiteslate
+x 19
+y 7
+end
 arch grate_closed_2
 x 19
 y 7
@@ -1835,9 +1868,38 @@ arch blocked
 x 19
 y 8
 end
+arch whiteslate
+x 19
+y 10
+end
+arch swall_2_1_2
+x 19
+y 10
+end
+arch whiteslate
+x 19
+y 11
+end
+arch button_plate
+x 19
+y 11
+connected 101
+end
+arch whiteslate
+x 19
+y 12
+end
+arch swall_2_1_2
+x 19
+y 12
+end
 arch blocked
 x 20
 y 6
+end
+arch whiteslate
+x 20
+y 7
 end
 arch grate_closed_2
 x 20
@@ -1848,17 +1910,76 @@ arch blocked
 x 20
 y 8
 end
+arch whiteslate
+x 20
+y 10
+end
+arch swall_2_1_2
+x 20
+y 10
+end
+arch whiteslate
+x 20
+y 11
+end
+arch spikes_open
+x 20
+y 11
+connected 100
+end
+arch boulder
+x 20
+y 11
+end
+arch whiteslate
+x 20
+y 12
+end
+arch swall_2_1_2
+x 20
+y 12
+end
 arch blocked
 x 21
 y 6
+end
+arch whiteslate
+x 21
+y 7
 end
 arch panther
 race fred
 x 21
 y 7
 speed 1.0
+attack_movement 5
+run_away 0
 end
 arch blocked
 x 21
 y 8
+end
+arch whiteslate
+x 21
+y 10
+end
+arch swall_2_2_3
+x 21
+y 10
+end
+arch whiteslate
+x 21
+y 11
+end
+arch swall_2_1_1
+x 21
+y 11
+end
+arch whiteslate
+x 21
+y 12
+end
+arch swall_2_2_4
+x 21
+y 12
 end
