@@ -1829,8 +1829,8 @@ hp 8
 sp 11
 x 19
 y 2
-speed 0.000000
-connected 100
+speed 0.0
+connected 50
 end
 arch cloak
 name Many-colored cloak
@@ -1845,20 +1845,26 @@ material 256
 stealth 1
 make_invisible 1
 end
+arch teleporter
+hp 8
+sp 11
+x 19
+y 4
+speed 0.000000
+connected 100
+end
 arch cobblestones
 x 19
 y 4
 end
 arch create_serpent_cloak
 name Golden Spinning Wheel
-race wheel
 slaying bolt_silk
-other_arch cloak
 face spinningwheel.111
 food 10
 x 19
 y 4
-type 0
+type 18
 connected 50
 end
 arch blocked
