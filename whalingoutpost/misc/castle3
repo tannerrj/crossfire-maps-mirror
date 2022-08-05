@@ -9,9 +9,10 @@ enter_x 13
 enter_y 12
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2021-07-27 Saiapatsu
+Modified: 2022-08-05 Rick Tanner
 endmsg
 outdoor 1
+reset_group whalingoutpost_glacier-keep
 end
 arch fog
 y 4
