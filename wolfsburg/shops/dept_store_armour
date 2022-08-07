@@ -12,10 +12,11 @@ enter_x 16
 enter_y 1
 msg
 Created:  2005-09-18
-Modified: 2014-08-21 Rick Tanner
+Modified: 2022-08-07 Rick Tanner
 endmsg
 tile_path_2 dept_store_weapon
 tile_path_3 dept_store_magic
+reset_group wolfsburg_one-eyed-mikes-dept-store
 end
 arch dungeon_floor
 end
