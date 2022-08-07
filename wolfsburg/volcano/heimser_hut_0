@@ -9,12 +9,13 @@ enter_y 7
 msg
 Created:  2008-01-12 lauwenmark
 Based on an original map of Tero Haatanen.
-Modified: 2021-11-01 DraugTheWhopper
+Modified: 2022-08-07 Rick Tanner
 endmsg
 maplore
 This map is part of the Quest of the Two Heimser Brothers.
 endmaplore
 outdoor 1
+reset_group wolfsburg_heimsers-hut
 end
 arch grass_only
 end

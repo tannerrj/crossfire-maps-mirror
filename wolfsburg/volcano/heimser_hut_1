@@ -9,11 +9,12 @@ enter_x 2
 enter_y 1
 msg
 Created:  2008-01-12 lauwenmark
-Modified: 2012-05-20 Nicolas Weeger
+Modified: 2022-08-07 Rick Tanner
 endmsg
 maplore
 This map is part of the Quest of the Two Heimser Brothers.
 endmaplore
+reset_group wolfsburg_heimsers-hut
 end
 arch dirtfloor
 end
