@@ -7,8 +7,9 @@ height 25
 enter_x 2
 enter_y 1
 msg
-Modified: 2009-10-23 Andreas Kirschbaum
+Modified: 2022-08-07 Rick Tanner
 endmsg
+reset_group wolfsburg_slave-pit-2
 end
 arch blocked
 end
@@ -4486,8 +4487,6 @@ arch chole_1
 name pit
 slaying snakepit
 face hole.111
-hp -1
-sp -1
 x 32
 y 9
 end
