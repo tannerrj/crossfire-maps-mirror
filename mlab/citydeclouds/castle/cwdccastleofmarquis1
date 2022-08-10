@@ -9,9 +9,10 @@ enter_x 32
 enter_y 57
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-02-14 Rick Tanner
+Modified: 2022-08-10 Rick Tanner
 endmsg
 outdoor 1
+reset_group citydeclouds_castle-de-clouds
 end
 arch blocked
 end
