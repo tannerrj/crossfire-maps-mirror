@@ -13,9 +13,10 @@ enter_x 41
 enter_y 2
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2022-08-10 Rick Tanner
 endmsg
 outdoor 1
+reset_group citydeclouds_big-store
 end
 arch flagstone
 end
