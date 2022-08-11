@@ -8,9 +8,10 @@ enter_x 10
 enter_y 16
 msg
 Created:  1993-11-17
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2022-08-11 Rick Tanner
 endmsg
 outdoor 1
+reset_group navar_bank
 end
 arch cobblestones2
 end
