@@ -9,10 +9,11 @@ enter_x 31
 enter_y 63
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-11-107 Rick Tanner
+Modified: 2022-08-11 Rick Tanner
 endmsg
 outdoor 1
 tile_path_3 cwdcchessarenaa2
+reset_group citydeclouds_chess-collesium
 end
 arch flagstone
 name floor
