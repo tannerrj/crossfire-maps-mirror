@@ -8,7 +8,7 @@ enter_x 7
 enter_y 1
 msg
 Created:  1996-05-07
-Modified: 2022-04-25 Kevin Zheng
+Modified: 2022-09-25 DraugTheWhopper
 endmsg
 end
 arch pstone_1
@@ -1641,7 +1641,7 @@ x 17
 y 11
 end
 arch block_door_open
-name blocked
+name 5
 x 17
 y 12
 speed 0.500000
@@ -1666,8 +1666,7 @@ x 17
 y 14
 end
 arch pit_closed
-name blocked
-face blocked.111
+name 8
 hp 14
 sp 1
 x 17
@@ -1677,95 +1676,76 @@ end
 arch invis_exit
 name void
 slaying underground
-face blocked.111
 hp 1
 sp 10
 x 17
 y 15
 end
 arch igate_open_1
-name blocked
-face blocked.111
+name 1
 x 18
 speed 0.500000
 value 1
 connected 1
 end
 arch scroll_2
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch note
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch scroll_2
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch note
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch scroll_2
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch note
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch scroll_2
-name blocked
-face blocked.111
 x 18
 material 0
 value 0
 weight 10
 end
 arch button_small
-name blocked
-face blocked.111
+name 3
 x 18
 y 1
 weight 70
 connected 3
 end
 arch button_small
-name blocked
-face blocked.111
+name 4
 x 18
 y 2
 weight 10
 connected 4
 end
 arch igate_open_1
-name blocked
-face blocked.111
+name 2
 x 18
 y 3
 speed 0.500000
@@ -1773,8 +1753,6 @@ value 1
 connected 2
 end
 arch scroll_2
-name blocked
-face blocked.111
 x 18
 y 3
 material 0
@@ -1786,16 +1764,13 @@ x 18
 y 4
 end
 arch lightningwall_5
-name blocked
-face blocked.111
 x 18
 y 5
 arch spell_sm_lightning
 end
 end
 arch igateTrg1
-name blocked
-face blocked.111
+name 3
 hp 30
 maxhp 30
 x 18
@@ -1804,16 +1779,14 @@ speed 1.000000
 connected 3
 end
 arch igateTrg1
-name blocked
-face blocked.111
+name 4
 x 18
 y 7
 speed 1.000000
 connected 4
 end
 arch block_door_open
-name blocked
-face blocked.111
+name 2
 x 18
 y 8
 speed 0.500000
@@ -1821,9 +1794,8 @@ value 1
 connected 2
 end
 arch detector
-name blocked
+name 5
 slaying lightning
-face blocked.111
 x 18
 y 9
 connected 5
@@ -1833,21 +1805,21 @@ x 18
 y 10
 end
 arch button_small
-name blocked
+name 8 (lucky)
 x 18
 y 11
 weight 10
 connected 8
 end
 arch button_small
-name blocked
+name 6 (unlucky)
 x 18
 y 12
 weight 10
 connected 6
 end
 arch button_small
-name blocked
+name 8 (lucky)
 x 18
 y 13
 weight 10
@@ -1858,7 +1830,7 @@ x 18
 y 14
 end
 arch magic_mouth
-name blocked
+name 6 (unlucky)
 msg
 You hear the sound of bursting metal.  (Looks like you had bad luck - Try again later.)
 endmsg
@@ -1867,7 +1839,7 @@ y 15
 connected 6
 end
 arch magic_mouth
-name blocked
+name 8 (lucky)
 msg
 You hear the sound of an opening gate.
 endmsg
