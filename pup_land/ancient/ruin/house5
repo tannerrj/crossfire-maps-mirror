@@ -1434,19 +1434,6 @@ arch blocked
 x 15
 y 12
 end
-arch button_small
-x 15
-y 14
-connected 1
-end
-arch teleporter
-hp 17
-sp 15
-x 15
-y 14
-speed 0.000000
-connected 1
-end
 arch blocked
 x 16
 end
