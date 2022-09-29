@@ -9,7 +9,7 @@ enter_x 8
 enter_y 6
 msg
 Created:  1997-07-13
-Modified: 2008-10-27 Rick Tanner
+Modified: 2022-09-28 DraugTheWhopper
 endmsg
 end
 arch woodfloor
@@ -124,14 +124,12 @@ x 1
 y 1
 end
 arch firewall_4
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 1
 y 1
-speed 0.050000
-speed_left -1.160000
+speed 0.05
 level 50
 alive 1
 arch spell_firebolt
@@ -238,14 +236,12 @@ x 1
 y 14
 end
 arch firewall_2
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 1
 y 14
-speed 0.050000
-speed_left -0.410000
+speed 0.05
 level 50
 alive 1
 arch spell_firebolt
@@ -1314,13 +1310,12 @@ x 14
 y 1
 end
 arch firewall_6
-Con 100
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 14
 y 1
-speed 0.050000
-speed_left -2.540000
+speed 0.05
 level 50
 alive 1
 arch spell_firebolt
@@ -1427,14 +1422,12 @@ x 14
 y 14
 end
 arch firewall_8
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 14
 y 14
-speed 0.050000
-speed_left -1.810000
+speed 0.05
 level 50
 alive 1
 arch spell_firebolt

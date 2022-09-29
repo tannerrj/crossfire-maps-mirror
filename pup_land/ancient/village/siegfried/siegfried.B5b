@@ -9,7 +9,7 @@ enter_x 8
 enter_y 7
 msg
 Created:  1997-07-13
-Modified: 2008-10-27 Rick Tanner
+Modified: 2022-09-28 DraugTheWhopper
 endmsg
 end
 arch marble
@@ -117,14 +117,12 @@ x 1
 y 1
 end
 arch lightningwall_4
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 1
 y 1
 speed 0.250000
-speed_left -1.410000
 level 15
 resist_electricity 100
 alive 1
@@ -239,14 +237,12 @@ x 1
 y 14
 end
 arch lightningwall_2
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 1
 y 14
 speed 0.250000
-speed_left -2.450000
 level 15
 resist_electricity 100
 alive 1
@@ -1296,14 +1292,12 @@ x 14
 y 1
 end
 arch lightningwall_6
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 14
 y 1
 speed 0.250000
-speed_left -2.370000
 level 15
 resist_electricity 100
 alive 1
@@ -1411,14 +1405,12 @@ x 14
 y 14
 end
 arch lightningwall_8
-Con 100
-hp 5000
-maxhp 5000
-ac -30
+hp 500
+maxhp 500
+ac 30
 x 14
 y 14
 speed 0.250000
-speed_left -2.750000
 level 15
 resist_electricity 100
 alive 1
