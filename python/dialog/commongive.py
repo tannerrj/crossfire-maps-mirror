@@ -19,6 +19,7 @@ if itemname == "money":
     if quantity % 50 > 0:
         id = character.CreateObject('silver coin')
         CFItemBroker.Item(id).add(int(quantity % 10))
+    character.Write("{} gives you {}".format(speaker.Name, Crossfire.CostStringFromValue(quantity)))
 else:
     # what we will do, is increase the number of items the NPC is holding, then
     # split the stack into the players inventory.
@@ -45,6 +46,7 @@ else:
                     quantity = 1
                 newob = nextob.Clone(0)
                 newob.Quantity = quantity
+                character.Write("{} gives you {} {}".format(speaker.Name, quantity, newob.Name))
                 newob.InsertInto(character)
                 nextob=nextob.Below
         else:
@@ -55,6 +57,7 @@ else:
                 CFItemBroker.Item(inv).add(quantity+1)
             newob = inv.Split(quantity)
 
+            character.Write("{} gives you {} {}".format(speaker.Name, quantity, newob.Name))
             newob.InsertInto(character)
     else:
         # ok, we didn't find any
