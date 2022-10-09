@@ -70,9 +70,11 @@ def do_arch():
 def do_maps():
 	whoami.Say('Current map is %s'%who.Map.Name)
 	maps = Crossfire.GetMaps()
-	whoami.Say('%d maps loaded'%len(maps))
+	whoami.Say('%d maps loaded:'%len(maps))
+	list = '\n'
 	for map in maps:
-		whoami.Say('%s [%d]   -> %d players'%(map.Name, map.Unique, map.Players))
+		list += '%s [%d]   -> %d players\n'%(map.Name, map.Unique, map.Players)
+	whoami.Say(list)
 #activator=Crossfire.WhoIsActivator()
 	whoami.Say('this map is %s, size %d, %d'%(whoami.Map.Name, whoami.Map.Width, whoami.Map.Height))
 	if (len(topic) > 1):
