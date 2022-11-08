@@ -7,7 +7,7 @@ enter_x 4
 enter_y 1
 msg
 Created:  2010-10-10 Nicolas Weeger
-Modified: 2021-02-12 Nicolas Weeger
+Modified: 2022-11-07 DraugTheWhopper
 endmsg
 end
 arch tile_shop
@@ -760,7 +760,6 @@ y 19
 nrof 10
 level 1
 identified 1
-startequip 1
 arch spell_town_portal
 end
 end

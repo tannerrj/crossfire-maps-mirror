@@ -8,7 +8,7 @@ enter_x 24
 enter_y 24
 msg
 Created:  1994-05-31
-Modified: 2022-07-15 Rick Tanner
+Modified: 2022-11-07 DraugTheWhopper
 endmsg
 reset_group brest_tower-of-ludo
 end
@@ -11114,7 +11114,6 @@ resist_paralyze 100
 resist_fear 30
 weight 120000
 magic 4
-startequip 1
 end
 arch woodfloor
 x 37
