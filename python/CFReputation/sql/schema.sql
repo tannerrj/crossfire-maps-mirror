@@ -4,6 +4,7 @@ CREATE TABLE regions(
     faction      TEXT,
     region       TEXT,    -- region name (or 'ALL') this faction controls
     influence    NUMERIC,
+    PRIMARY KEY  (faction, region),
     CONSTRAINT   influence_range CHECK(influence BETWEEN 0 AND 1)
 );
 
