@@ -25,7 +25,7 @@ def pay(payee, quantity):
     if quantity % 50 > 0:
         item = payee.CreateObject('gold coin')
         CFItemBroker.Item(item).add(int((quantity % 50)/10))
-    if quantity % 50 > 0:
+    if quantity % 10 > 0:
         item = payee.CreateObject('silver coin')
         CFItemBroker.Item(item).add(int(quantity % 10))
 
