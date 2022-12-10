@@ -3,11 +3,11 @@ name Slave Pit 2
 difficulty 9
 region wolfsburg
 width 35
-height 25
+height 29
 enter_x 2
 enter_y 1
 msg
-Modified: 2022-08-07 Rick Tanner
+Modified: 2022-12-10 Nicolas Weeger
 endmsg
 reset_group wolfsburg_slave-pit-2
 end
@@ -115,7 +115,7 @@ end
 arch woodfloor
 y 20
 end
-arch mine11
+arch mine3
 y 20
 end
 arch woodfloor
@@ -139,8 +139,32 @@ end
 arch woodfloor
 y 24
 end
-arch mine4
+arch mine11
 y 24
+end
+arch woodfloor
+y 25
+end
+arch mine3
+y 25
+end
+arch woodfloor
+y 26
+end
+arch mine3
+y 26
+end
+arch woodfloor
+y 27
+end
+arch mine3
+y 27
+end
+arch woodfloor
+y 28
+end
+arch mine4
+y 28
 end
 arch woodfloor
 x 1
@@ -272,11 +296,11 @@ arch woodfloor
 x 1
 y 17
 end
-arch generate_ogre
-x 1
-y 17
-end
 arch woodfloor
+x 1
+y 18
+end
+arch generate_ogre
 x 1
 y 18
 end
@@ -284,15 +308,7 @@ arch woodfloor
 x 1
 y 19
 end
-arch random_treasure
-x 1
-y 19
-end
 arch woodfloor
-x 1
-y 20
-end
-arch mine2
 x 1
 y 20
 end
@@ -308,7 +324,7 @@ arch woodfloor
 x 1
 y 23
 end
-arch generate_pixie
+arch random_treasure
 x 1
 y 23
 end
@@ -319,6 +335,30 @@ end
 arch mine2
 x 1
 y 24
+end
+arch woodfloor
+x 1
+y 25
+end
+arch woodfloor
+x 1
+y 26
+end
+arch woodfloor
+x 1
+y 27
+end
+arch generate_pixie
+x 1
+y 27
+end
+arch woodfloor
+x 1
+y 28
+end
+arch mine2
+x 1
+y 28
 end
 arch woodfloor
 x 2
@@ -421,15 +461,7 @@ arch woodfloor
 x 2
 y 19
 end
-arch generate_ogre
-x 2
-y 19
-end
 arch woodfloor
-x 2
-y 20
-end
-arch mine2
 x 2
 y 20
 end
@@ -445,6 +477,10 @@ arch woodfloor
 x 2
 y 23
 end
+arch generate_ogre
+x 2
+y 23
+end
 arch woodfloor
 x 2
 y 24
@@ -452,6 +488,26 @@ end
 arch mine2
 x 2
 y 24
+end
+arch woodfloor
+x 2
+y 25
+end
+arch woodfloor
+x 2
+y 26
+end
+arch woodfloor
+x 2
+y 27
+end
+arch woodfloor
+x 2
+y 28
+end
+arch mine2
+x 2
+y 28
 end
 arch woodfloor
 x 3
@@ -559,10 +615,6 @@ arch woodfloor
 x 3
 y 17
 end
-arch ogre
-x 3
-y 17
-end
 arch woodfloor
 x 3
 y 18
@@ -579,11 +631,11 @@ arch woodfloor
 x 3
 y 20
 end
-arch mine2
-x 3
-y 20
-end
 arch woodfloor
+x 3
+y 21
+end
+arch ogre
 x 3
 y 21
 end
@@ -595,10 +647,6 @@ arch woodfloor
 x 3
 y 23
 end
-arch random_spells
-x 3
-y 23
-end
 arch woodfloor
 x 3
 y 24
@@ -606,6 +654,30 @@ end
 arch mine2
 x 3
 y 24
+end
+arch woodfloor
+x 3
+y 25
+end
+arch woodfloor
+x 3
+y 26
+end
+arch woodfloor
+x 3
+y 27
+end
+arch random_spells
+x 3
+y 27
+end
+arch woodfloor
+x 3
+y 28
+end
+arch mine2
+x 3
+y 28
 end
 arch woodfloor
 x 4
@@ -705,10 +777,6 @@ arch woodfloor
 x 4
 y 20
 end
-arch mine2
-x 4
-y 20
-end
 arch woodfloor
 x 4
 y 21
@@ -721,10 +789,6 @@ arch woodfloor
 x 4
 y 23
 end
-arch generate_pixie
-x 4
-y 23
-end
 arch woodfloor
 x 4
 y 24
@@ -732,6 +796,30 @@ end
 arch mine2
 x 4
 y 24
+end
+arch woodfloor
+x 4
+y 25
+end
+arch woodfloor
+x 4
+y 26
+end
+arch woodfloor
+x 4
+y 27
+end
+arch generate_pixie
+x 4
+y 27
+end
+arch woodfloor
+x 4
+y 28
+end
+arch mine2
+x 4
+y 28
 end
 arch woodfloor
 x 5
@@ -835,30 +923,46 @@ arch woodfloor
 x 5
 y 20
 end
+arch woodfloor
+x 5
+y 21
+end
+arch woodfloor
+x 5
+y 22
+end
+arch woodfloor
+x 5
+y 23
+end
+arch woodfloor
+x 5
+y 24
+end
 arch mine2
 x 5
-y 20
+y 24
 move_block 0
 end
 arch woodfloor
 x 5
-y 21
+y 25
 end
 arch woodfloor
 x 5
-y 22
+y 26
 end
 arch woodfloor
 x 5
-y 23
+y 27
 end
 arch woodfloor
 x 5
-y 24
+y 28
 end
 arch mine2
 x 5
-y 24
+y 28
 end
 arch woodfloor
 x 6
@@ -946,11 +1050,11 @@ arch woodfloor
 x 6
 y 17
 end
-arch small_troll
-x 6
-y 17
-end
 arch woodfloor
+x 6
+y 18
+end
+arch small_troll
 x 6
 y 18
 end
@@ -959,10 +1063,6 @@ x 6
 y 19
 end
 arch woodfloor
-x 6
-y 20
-end
-arch mine2
 x 6
 y 20
 end
@@ -985,6 +1085,26 @@ end
 arch mine2
 x 6
 y 24
+end
+arch woodfloor
+x 6
+y 25
+end
+arch woodfloor
+x 6
+y 26
+end
+arch woodfloor
+x 6
+y 27
+end
+arch woodfloor
+x 6
+y 28
+end
+arch mine2
+x 6
+y 28
 end
 arch woodfloor
 x 7
@@ -1072,6 +1192,10 @@ arch woodfloor
 x 7
 y 17
 end
+arch ogre
+x 7
+y 17
+end
 arch woodfloor
 x 7
 y 18
@@ -1079,42 +1203,66 @@ end
 arch woodfloor
 x 7
 y 19
+end
+arch woodfloor
+x 7
+y 20
+end
+arch small_troll
+x 7
+y 20
+end
+arch woodfloor
+x 7
+y 21
+end
+arch woodfloor
+x 7
+y 22
+end
+arch ogre
+x 7
+y 22
+end
+arch woodfloor
+x 7
+y 23
 end
 arch random_shield
 x 7
-y 19
+y 23
 end
 arch woodfloor
 x 7
-y 20
+y 24
 end
 arch mine2
 x 7
-y 20
+y 24
 end
 arch woodfloor
 x 7
-y 21
+y 25
 end
 arch woodfloor
 x 7
-y 22
+y 26
 end
 arch woodfloor
 x 7
-y 23
+y 27
 end
 arch generate_pixie
 x 7
-y 23
+y 27
 end
 arch woodfloor
 x 7
-y 24
+y 28
 end
 arch mine2
 x 7
-y 24
+y 28
 end
 arch woodfloor
 x 8
@@ -1214,10 +1362,6 @@ arch woodfloor
 x 8
 y 20
 end
-arch mine2
-x 8
-y 20
-end
 arch woodfloor
 x 8
 y 21
@@ -1229,18 +1373,38 @@ end
 arch woodfloor
 x 8
 y 23
+end
+arch woodfloor
+x 8
+y 24
+end
+arch mine2
+x 8
+y 24
+end
+arch woodfloor
+x 8
+y 25
+end
+arch woodfloor
+x 8
+y 26
+end
+arch woodfloor
+x 8
+y 27
 end
 arch random_talisman
 x 8
-y 23
+y 27
 end
 arch woodfloor
 x 8
-y 24
+y 28
 end
 arch mine2
 x 8
-y 24
+y 28
 end
 arch woodfloor
 x 9
@@ -1331,29 +1495,25 @@ end
 arch woodfloor
 x 9
 y 19
+end
+arch woodfloor
+x 9
+y 20
+end
+arch woodfloor
+x 9
+y 21
+end
+arch woodfloor
+x 9
+y 22
+end
+arch woodfloor
+x 9
+y 23
 end
 arch small_troll
 x 9
-y 19
-end
-arch woodfloor
-x 9
-y 20
-end
-arch mine2
-x 9
-y 20
-end
-arch woodfloor
-x 9
-y 21
-end
-arch woodfloor
-x 9
-y 22
-end
-arch woodfloor
-x 9
 y 23
 end
 arch woodfloor
@@ -1363,6 +1523,26 @@ end
 arch mine2
 x 9
 y 24
+end
+arch woodfloor
+x 9
+y 25
+end
+arch woodfloor
+x 9
+y 26
+end
+arch woodfloor
+x 9
+y 27
+end
+arch woodfloor
+x 9
+y 28
+end
+arch mine2
+x 9
+y 28
 end
 arch woodfloor
 x 10
@@ -1458,10 +1638,6 @@ arch woodfloor
 x 10
 y 20
 end
-arch mine2
-x 10
-y 20
-end
 arch woodfloor
 x 10
 y 21
@@ -1474,10 +1650,6 @@ arch woodfloor
 x 10
 y 23
 end
-arch generate_pixie
-x 10
-y 23
-end
 arch woodfloor
 x 10
 y 24
@@ -1485,6 +1657,30 @@ end
 arch mine2
 x 10
 y 24
+end
+arch woodfloor
+x 10
+y 25
+end
+arch woodfloor
+x 10
+y 26
+end
+arch woodfloor
+x 10
+y 27
+end
+arch generate_pixie
+x 10
+y 27
+end
+arch woodfloor
+x 10
+y 28
+end
+arch mine2
+x 10
+y 28
 end
 arch woodfloor
 x 11
@@ -1630,7 +1826,7 @@ arch woodfloor
 x 11
 y 20
 end
-arch mine14
+arch mine3
 x 11
 y 20
 end
@@ -1665,6 +1861,38 @@ end
 arch mine13
 x 11
 y 24
+end
+arch woodfloor
+x 11
+y 25
+end
+arch mine3
+x 11
+y 25
+end
+arch woodfloor
+x 11
+y 26
+end
+arch mine3
+x 11
+y 26
+end
+arch woodfloor
+x 11
+y 27
+end
+arch mine3
+x 11
+y 27
+end
+arch woodfloor
+x 11
+y 28
+end
+arch mine12
+x 11
+y 28
 end
 arch woodfloor
 x 12
