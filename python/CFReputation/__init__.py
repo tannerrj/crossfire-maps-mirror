@@ -7,14 +7,23 @@ def _init_schema(con, version, *schema_files):
     con.execute("PRAGMA journal_mode=WAL;");
     con.execute("PRAGMA synchronous=NORMAL;");
     con.execute("CREATE TABLE IF NOT EXISTS schema(version INT);");
-    result = con.execute("SELECT version FROM schema").fetchall();
-    curr = len(result)
+    # We will always return something, either a zero or the highest version number.
+    result = con.execute("SELECT COALESCE(MAX(version), 0) FROM schema").fetchall();
+    curr = result[0][0]
     if curr < version:
         Crossfire.Log(Crossfire.LogInfo,
                 "Initializing factions schema %d->%d" % (curr, version))
-        for f in schema_files:
-            with open(f) as initfile:
+        if curr == 0:
+            # schema.sql is already updated to load in the current schema.
+            with open(schema_files[0]) as initfile:
                 con.executescript(initfile.read())
+        else:
+            for f in schema_files:
+                # Compare just the file name
+                if f.split("/").pop() == f"update_schema_{curr}_{curr+1}.sql":
+                    with open(f) as updfile:
+                        con.executescript(updfile.read())
+                    curr += 1
         con.commit()
 
 def _get_sql_path(f):
@@ -22,11 +31,12 @@ def _get_sql_path(f):
             "python/CFReputation/sql", f)
 
 def _init_db():
-    schema_files = map(_get_sql_path, ["schema.sql"])
+    # Schema update files must go in order.
+    schema_files = map(_get_sql_path, ["schema.sql", "update_schema_1_2.sql"])
     init_files = map(_get_sql_path, ["init.sql", "gods.sql"])
     db_path = os.path.join(Crossfire.LocalDirectory(), "factions.db")
     con = sqlite3.connect(db_path)
-    _init_schema(con, 1, *schema_files)
+    _init_schema(con, 2, *schema_files)
     for f in init_files:
         with open(f) as initfile:
             con.executescript(initfile.read())

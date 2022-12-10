@@ -23,4 +23,4 @@ CREATE TABLE reputations(
     CONSTRAINT   reputation_range CHECK(reputation BETWEEN -1 AND 1)
 );
 
-INSERT INTO schema VALUES(1);
+INSERT INTO schema VALUES(2);
