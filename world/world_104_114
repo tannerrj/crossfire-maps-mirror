@@ -4,7 +4,7 @@ region andustar
 width 50
 height 50
 msg
-Modified: 2021-01-07 Kevin Zheng
+Modified: 2022-12-16 Kevin Bulgrien
 endmsg
 outdoor 1
 tile_path_1 world_104_113
@@ -2320,6 +2320,11 @@ x 8
 y 49
 elevation -29
 end
+arch sea
+x 8
+y 49
+elevation -32
+end
 arch hills_rocky
 x 9
 elevation 2060
@@ -3064,6 +3069,11 @@ arch shallow_sea
 x 11
 y 47
 elevation -15
+end
+arch sea
+x 11
+y 47
+elevation -26
 end
 arch sea
 x 11

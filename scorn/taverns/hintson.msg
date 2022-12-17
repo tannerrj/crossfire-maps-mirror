@@ -47,7 +47,7 @@
    { "match" : ["help"],
      "pre"   : [],
      "post"  : [],
-     "msg"   : ["Are you kidding, I would, but I'm not gonna upssset the men in mail.",
+     "msg"   : ["Are you kidding, I would, but I'm not gonna upssset the men in jail.",
                 "Jussst don't get in the guards' way..."]
    },
    { "match" : ["lass"],
