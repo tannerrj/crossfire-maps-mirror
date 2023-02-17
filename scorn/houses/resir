@@ -9,7 +9,7 @@ enter_x 24
 enter_y 4
 msg
 Created:  2005-07-16 Knut Ahlers (webmaster@knutshome.de)
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2023-02-16 Kevin Zheng
 endmsg
 maplore
 @def Resir's house
@@ -44,12 +44,11 @@ end
 arch cobblestones2
 y 4
 end
-arch chole_1
+arch ladder_down
 slaying resir
 hp 22
 sp 13
 y 4
-glow_radius 22
 end
 arch cobblestones2
 y 5
@@ -3243,12 +3242,12 @@ arch dirtfloor
 x 22
 y 13
 end
-arch chole_1
+arch ladder_up
 slaying resir
+hp 0
 sp 4
 x 22
 y 13
-glow_radius 22
 end
 arch dirtfloor
 x 22
