@@ -2511,7 +2511,6 @@ arch firepot
 name Giant Torch
 x 13
 y 1
-glow_radius 15
 end
 arch stonefloor2
 x 13
@@ -2641,7 +2640,6 @@ arch firepot
 name Giant Torch
 x 13
 y 15
-glow_radius 15
 end
 arch awall_0
 name Clouds
@@ -5319,11 +5317,6 @@ other_arch magic_mouth
 x 20
 y 7
 connected 5
-end
-arch light4
-x 20
-y 7
-glow_radius 50
 end
 arch magic_mouth
 msg
@@ -8374,7 +8367,6 @@ arch firepot
 name Giant Torch
 x 27
 y 1
-glow_radius 15
 end
 arch stonefloor2
 x 27
@@ -8504,7 +8496,6 @@ arch firepot
 name Giant Torch
 x 27
 y 15
-glow_radius 15
 end
 arch awall_0
 name Clouds

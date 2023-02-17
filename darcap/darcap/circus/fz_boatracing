@@ -8,7 +8,7 @@ enter_x 1
 enter_y 8
 msg
 Created:  2008-09-28 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2008-10-06 Rick Tanner
+Modified: 2023-02-16 Kevin Zheng
 endmsg
 end
 arch stonefloor2
@@ -354,11 +354,6 @@ end
 arch stonefloor2
 x 4
 y 7
-end
-arch light4
-x 4
-y 8
-glow_radius 200
 end
 arch stonefloor2
 x 4

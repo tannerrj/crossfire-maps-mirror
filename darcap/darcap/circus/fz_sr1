@@ -15676,11 +15676,6 @@ move_block all -swim
 no_magic 1
 damned 1
 end
-arch light4
-x 18
-y 27
-glow_radius 50
-end
 arch dungeon_magic
 x 18
 y 27

@@ -1542,11 +1542,6 @@ y 5
 last_sp 1
 connected 35
 end
-arch light4
-x 15
-y 5
-glow_radius 50
-end
 arch battleground
 hp 74
 sp 12
@@ -2860,11 +2855,6 @@ x 22
 y 5
 last_sp 1
 end
-arch light4
-x 22
-y 5
-glow_radius 50
-end
 arch glue
 x 22
 y 5
@@ -5714,11 +5704,6 @@ attacktype 1048581
 connected 11
 move_on all
 end
-arch light4
-x 41
-y 5
-glow_radius 50
-end
 arch glue
 x 41
 y 5
@@ -7760,11 +7745,6 @@ y 4
 attacktype 1048581
 connected 14
 move_on all
-end
-arch light4
-x 55
-y 5
-glow_radius 50
 end
 arch glue
 x 55
@@ -9683,11 +9663,6 @@ attacktype 1
 invisible 0
 move_type all
 move_on all
-end
-arch light4
-x 68
-y 5
-glow_radius 50
 end
 arch altar_trigger
 slaying finger

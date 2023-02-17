@@ -18,7 +18,6 @@ arch cwall_2_2_2
 end
 arch firepot
 name Giant Torch
-glow_radius 15
 end
 arch blackrock
 y 1
@@ -167,7 +166,6 @@ end
 arch firepot
 name Giant Torch
 y 24
-glow_radius 15
 end
 arch blocked
 y 25
@@ -1610,7 +1608,6 @@ end
 arch firepot
 name Giant Torch
 x 8
-glow_radius 15
 end
 arch blackrock
 x 8
@@ -1688,7 +1685,6 @@ arch firepot
 name Giant Torch
 x 8
 y 9
-glow_radius 15
 end
 arch blackrock
 x 8
@@ -1821,9 +1817,6 @@ end
 arch blackrock
 x 9
 y 8
-arch light4
-glow_radius 50
-end
 end
 arch blackrock
 x 9
@@ -2857,11 +2850,6 @@ end
 arch blackrock
 x 14
 y 12
-end
-arch light4
-x 14
-y 13
-glow_radius 50
 end
 arch blackrock
 x 14
@@ -4175,7 +4163,6 @@ end
 arch firepot
 name Giant Torch
 x 21
-glow_radius 15
 end
 arch blackrock
 x 21
@@ -4253,7 +4240,6 @@ arch firepot
 name Giant Torch
 x 21
 y 9
-glow_radius 15
 end
 arch blackrock
 x 21
@@ -5701,7 +5687,6 @@ end
 arch firepot
 name Giant Torch
 x 29
-glow_radius 15
 end
 arch blackrock
 x 29
@@ -5899,7 +5884,6 @@ arch firepot
 name Giant Torch
 x 29
 y 24
-glow_radius 15
 end
 arch blocked
 x 29

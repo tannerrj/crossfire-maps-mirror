@@ -17,7 +17,6 @@ arch redcwall_2_2_2
 end
 arch firepot
 name Giant Torch
-glow_radius 15
 end
 arch stonefloor2
 y 1
@@ -137,7 +136,6 @@ end
 arch firepot
 name Giant Torch
 y 14
-glow_radius 15
 end
 arch stonefloor2
 x 1
@@ -1432,7 +1430,6 @@ end
 arch firepot
 name Giant Torch
 x 14
-glow_radius 15
 end
 arch stonefloor2
 x 14
@@ -1574,5 +1571,4 @@ arch firepot
 name Giant Torch
 x 14
 y 14
-glow_radius 15
 end

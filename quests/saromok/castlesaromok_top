@@ -3414,7 +3414,6 @@ arch firepot
 name Giant Torch
 x 6
 y 6
-glow_radius 15
 end
 arch teleporter
 hp 12
@@ -3556,7 +3555,6 @@ arch firepot
 name Giant Torch
 x 6
 y 18
-glow_radius 15
 end
 arch awall_0
 name Clouds
@@ -7507,11 +7505,6 @@ x 12
 y 12
 connected 5
 end
-arch light4
-x 12
-y 12
-glow_radius 50
-end
 arch magic_ear
 msg
 @match yes|sure|ok
@@ -7742,11 +7735,6 @@ speed 1
 invisible 0
 is_used_up 0
 end
-arch light4
-x 12
-y 28
-glow_radius 50
-end
 arch altar_trigger
 slaying sarodied
 exp 1
@@ -7965,11 +7953,6 @@ y 39
 move_block 0
 blocksview 0
 is_floor 1
-end
-arch light4
-x 12
-y 40
-glow_radius 50
 end
 arch altar_trigger
 slaying sarodied
@@ -11580,7 +11563,6 @@ arch firepot
 name Giant Torch
 x 18
 y 6
-glow_radius 15
 end
 arch teleporter
 hp 12
@@ -11722,7 +11704,6 @@ arch firepot
 name Giant Torch
 x 18
 y 18
-glow_radius 15
 end
 arch awall_0
 name Clouds

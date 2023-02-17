@@ -8,7 +8,7 @@ enter_x 27
 enter_y 27
 msg
 Created: 2007-12-18 Chad Opperman
-Modified: 2022-07-16 Rick Tanner
+Modified: 2023-02-16 Kevin Zheng
 endmsg
 reset_group darcap_pygmy-forest
 end
@@ -13418,11 +13418,6 @@ x 30
 y 25
 move_block fly_high swim boat
 slow_move 3
-end
-arch light4
-x 30
-y 25
-glow_radius 100
 end
 arch grassdark
 name Thick Forest Terrain
