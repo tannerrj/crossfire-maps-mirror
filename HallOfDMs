@@ -3,12 +3,12 @@ name Hall of Dungeon Masters
 difficulty 1
 region creation
 width 25
-height 30
+height 36
 enter_x 13
 enter_y 12
 msg
 Created:  2004-04-10 Avion
-Modified: 2022-05-25 Kevin Zheng
+Modified: 2023-02-19 DraugTheWhopper
 endmsg
 end
 arch blocked
@@ -188,6 +188,36 @@ name Stars
 face sparkshower.111
 animation sparkshower
 y 29
+end
+arch blocked
+name Void
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+y 31
+blocksview 0
+end
+arch blocked
+name Void
+y 32
+blocksview 0
+end
+arch blocked
+name Void
+y 33
+blocksview 0
+end
+arch blocked
+name Void
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+y 35
+blocksview 0
 end
 arch blocked
 name Void
@@ -397,6 +427,49 @@ blocksview 0
 end
 arch blocked
 name Void
+x 1
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+x 1
+y 31
+blocksview 0
+end
+arch blocked
+name Void
+x 1
+y 32
+blocksview 0
+end
+arch blocked
+name Void
+x 1
+y 33
+blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 1
+y 33
+end
+arch blocked
+name Void
+x 1
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 1
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 2
 blocksview 0
 end
@@ -578,6 +651,48 @@ name Void
 x 2
 y 29
 blocksview 0
+end
+arch blocked
+name Void
+x 2
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+x 2
+y 31
+blocksview 0
+end
+arch tile_white_floor
+x 2
+y 32
+unique 1
+end
+arch blocked
+name Void
+x 2
+y 33
+blocksview 0
+end
+arch blocked
+name Void
+x 2
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 2
+y 35
+blocksview 0
+end
+arch firepot
+name Stars
+face sunspear.111
+animation sunspear
+x 2
+y 35
 end
 arch blocked
 name Void
@@ -770,6 +885,39 @@ y 29
 end
 arch blocked
 name Void
+x 3
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 3
+y 31
+unique 1
+end
+arch tile_white_floor
+x 3
+y 32
+unique 1
+end
+arch tile_white_floor
+x 3
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 3
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 3
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 4
 blocksview 0
 end
@@ -937,6 +1085,39 @@ arch blocked
 name Void
 x 4
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 4
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 4
+y 31
+unique 1
+end
+arch tile_white_floor
+x 4
+y 32
+unique 1
+end
+arch tile_white_floor
+x 4
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 4
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 4
+y 35
 blocksview 0
 end
 arch blocked
@@ -1121,6 +1302,39 @@ blocksview 0
 end
 arch blocked
 name Void
+x 5
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 5
+y 31
+unique 1
+end
+arch tile_white_floor
+x 5
+y 32
+unique 1
+end
+arch tile_white_floor
+x 5
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 5
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 5
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 6
 blocksview 0
 end
@@ -1289,6 +1503,39 @@ arch blocked
 name Void
 x 6
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 6
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 6
+y 31
+unique 1
+end
+arch tile_white_floor
+x 6
+y 32
+unique 1
+end
+arch tile_white_floor
+x 6
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 6
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 6
+y 35
 blocksview 0
 end
 arch blocked
@@ -1467,6 +1714,39 @@ blocksview 0
 end
 arch blocked
 name Void
+x 7
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 7
+y 31
+unique 1
+end
+arch tile_white_floor
+x 7
+y 32
+unique 1
+end
+arch tile_white_floor
+x 7
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 7
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 7
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 8
 blocksview 0
 end
@@ -1632,6 +1912,53 @@ name Void
 x 8
 y 29
 blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 8
+y 29
+end
+arch blocked
+name Void
+x 8
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 8
+y 31
+unique 1
+end
+arch tile_white_floor
+x 8
+y 32
+unique 1
+end
+arch tile_white_floor
+x 8
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 8
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 8
+y 35
+blocksview 0
+end
+arch firepot
+name Stars
+face sunspear.111
+animation sunspear
+x 8
+y 35
 end
 arch blocked
 name Void
@@ -1874,6 +2201,39 @@ blocksview 0
 end
 arch blocked
 name Void
+x 9
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 9
+y 31
+unique 1
+end
+arch tile_white_floor
+x 9
+y 32
+unique 1
+end
+arch tile_white_floor
+x 9
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 9
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 9
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 10
 blocksview 0
 end
@@ -2062,6 +2422,39 @@ arch blocked
 name Void
 x 10
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 10
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 10
+y 31
+unique 1
+end
+arch tile_white_floor
+x 10
+y 32
+unique 1
+end
+arch tile_white_floor
+x 10
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 10
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 10
+y 35
 blocksview 0
 end
 arch blocked
@@ -2266,6 +2659,46 @@ name Void
 x 11
 y 29
 blocksview 0
+end
+arch blocked
+name Void
+x 11
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 11
+y 31
+unique 1
+end
+arch tile_white_floor
+x 11
+y 32
+unique 1
+end
+arch tile_white_floor
+x 11
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 11
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 11
+y 35
+blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 11
+y 35
 end
 arch blocked
 name Void
@@ -2595,18 +3028,41 @@ title Python
 slaying /python/IPO/seen.py
 end
 end
+arch tile_white_floor
+x 12
+y 29
+unique 1
+end
+arch tile_white_floor
+x 12
+y 30
+unique 1
+end
+arch tile_white_floor
+x 12
+y 31
+unique 1
+end
+arch tile_white_floor
+x 12
+y 32
+unique 1
+end
+arch tile_white_floor
+x 12
+y 33
+unique 1
+end
+arch tile_white_floor
+x 12
+y 34
+unique 1
+end
 arch blocked
 name Void
 x 12
-y 29
+y 35
 blocksview 0
-end
-arch firepot
-name Stars
-face sparkshower.111
-animation sparkshower
-x 12
-y 29
 end
 arch blocked
 name Void
@@ -2907,10 +3363,40 @@ title Python
 slaying /python/IPO/receive.py
 end
 end
+arch tile_white_floor
+x 13
+y 29
+unique 1
+end
+arch tile_white_floor
+x 13
+y 30
+unique 1
+end
+arch tile_white_floor
+x 13
+y 31
+unique 1
+end
+arch tile_white_floor
+x 13
+y 32
+unique 1
+end
+arch tile_white_floor
+x 13
+y 33
+unique 1
+end
+arch tile_white_floor
+x 13
+y 34
+unique 1
+end
 arch blocked
 name Void
 x 13
-y 29
+y 35
 blocksview 0
 end
 arch blocked
@@ -3109,6 +3595,46 @@ x 14
 y 29
 blocksview 0
 end
+arch marble
+x 14
+y 30
+end
+arch perm_magic_portal
+name Lighting test hub
+slaying test/dmtest/lighttesthub
+hp 1
+sp 1
+x 14
+y 30
+unique 1
+end
+arch tile_white_floor
+x 14
+y 31
+unique 1
+end
+arch tile_white_floor
+x 14
+y 32
+unique 1
+end
+arch tile_white_floor
+x 14
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 14
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 14
+y 35
+blocksview 0
+end
 arch blocked
 name Void
 x 15
@@ -3297,6 +3823,39 @@ face sunspear.111
 animation sunspear
 x 15
 y 29
+end
+arch blocked
+name Void
+x 15
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 15
+y 31
+unique 1
+end
+arch tile_white_floor
+x 15
+y 32
+unique 1
+end
+arch tile_white_floor
+x 15
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 15
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 15
+y 35
+blocksview 0
 end
 arch blocked
 name Void
@@ -3530,6 +4089,46 @@ blocksview 0
 end
 arch blocked
 name Void
+x 16
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 16
+y 31
+unique 1
+end
+arch tile_white_floor
+x 16
+y 32
+unique 1
+end
+arch tile_white_floor
+x 16
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 16
+y 34
+blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 16
+y 34
+end
+arch blocked
+name Void
+x 16
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 17
 blocksview 0
 end
@@ -3700,6 +4299,39 @@ blocksview 0
 end
 arch blocked
 name Void
+x 17
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 17
+y 31
+unique 1
+end
+arch tile_white_floor
+x 17
+y 32
+unique 1
+end
+arch tile_white_floor
+x 17
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 17
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 17
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 18
 blocksview 0
 end
@@ -3864,6 +4496,39 @@ arch blocked
 name Void
 x 18
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 18
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 18
+y 31
+unique 1
+end
+arch tile_white_floor
+x 18
+y 32
+unique 1
+end
+arch tile_white_floor
+x 18
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 18
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 18
+y 35
 blocksview 0
 end
 arch blocked
@@ -4053,6 +4718,53 @@ blocksview 0
 end
 arch blocked
 name Void
+x 19
+y 30
+blocksview 0
+end
+arch firepot
+name Stars
+face sunspear.111
+animation sunspear
+x 19
+y 30
+end
+arch tile_white_floor
+x 19
+y 31
+unique 1
+end
+arch tile_white_floor
+x 19
+y 32
+unique 1
+end
+arch tile_white_floor
+x 19
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 19
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 19
+y 35
+blocksview 0
+end
+arch firepot
+name Stars
+face sunspear.111
+animation sunspear
+x 19
+y 35
+end
+arch blocked
+name Void
 x 20
 blocksview 0
 end
@@ -4226,6 +4938,39 @@ arch blocked
 name Void
 x 20
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 20
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 20
+y 31
+unique 1
+end
+arch tile_white_floor
+x 20
+y 32
+unique 1
+end
+arch tile_white_floor
+x 20
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 20
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 20
+y 35
 blocksview 0
 end
 arch blocked
@@ -4407,6 +5152,39 @@ y 29
 end
 arch blocked
 name Void
+x 21
+y 30
+blocksview 0
+end
+arch tile_white_floor
+x 21
+y 31
+unique 1
+end
+arch tile_white_floor
+x 21
+y 32
+unique 1
+end
+arch tile_white_floor
+x 21
+y 33
+unique 1
+end
+arch blocked
+name Void
+x 21
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 21
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 22
 blocksview 0
 end
@@ -4584,6 +5362,48 @@ blocksview 0
 end
 arch blocked
 name Void
+x 22
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+x 22
+y 31
+blocksview 0
+end
+arch tile_white_floor
+x 22
+y 32
+unique 1
+end
+arch blocked
+name Void
+x 22
+y 33
+blocksview 0
+end
+arch blocked
+name Void
+x 22
+y 34
+blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 22
+y 34
+end
+arch blocked
+name Void
+x 22
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 23
 blocksview 0
 end
@@ -4789,6 +5609,49 @@ blocksview 0
 end
 arch blocked
 name Void
+x 23
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+x 23
+y 31
+blocksview 0
+end
+arch firepot
+name Stars
+face sparkshower.111
+animation sparkshower
+x 23
+y 31
+end
+arch blocked
+name Void
+x 23
+y 32
+blocksview 0
+end
+arch blocked
+name Void
+x 23
+y 33
+blocksview 0
+end
+arch blocked
+name Void
+x 23
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 23
+y 35
+blocksview 0
+end
+arch blocked
+name Void
 x 24
 blocksview 0
 end
@@ -4991,5 +5854,41 @@ arch blocked
 name Void
 x 24
 y 29
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 30
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 31
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 32
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 33
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 34
+blocksview 0
+end
+arch blocked
+name Void
+x 24
+y 35
 blocksview 0
 end
