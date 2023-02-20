@@ -1,5 +1,6 @@
 arch map
 name Armino fine alchemy supplies
+difficulty 15
 region navar
 shopitems potion:25;inorganic:65;container:25;*:-65
 shopmax 200000
@@ -7,7 +8,7 @@ width 25
 height 25
 msg
 Created:  2021-02-03 Nicolas Weeger
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2023-02-20 Daniel Hawkins
 endmsg
 outdoor 1
 end
