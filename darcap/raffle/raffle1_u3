@@ -10,7 +10,7 @@ enter_x 2
 enter_y 16
 msg
 Date: 2008-02-29
-Modified: 2022-07-14 Rick Tanner
+Modified: 2023-03-12 Daniel Hawkins
 endmsg
 reset_group darcap-raffle1
 end
@@ -698,6 +698,7 @@ face s_moun_cave.111
 x 5
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -718,6 +719,7 @@ face s_moun_cave.111
 x 5
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -738,6 +740,7 @@ face s_moun_cave.111
 x 5
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -758,6 +761,7 @@ face s_moun_cave.111
 x 5
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -778,6 +782,7 @@ face s_moun_cave.111
 x 5
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -798,6 +803,7 @@ face s_moun_cave.111
 x 5
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -850,6 +856,7 @@ face s_moun_cave.111
 x 5
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -870,6 +877,7 @@ face s_moun_cave.111
 x 5
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -890,6 +898,7 @@ face s_moun_cave.111
 x 5
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -910,6 +919,7 @@ face s_moun_cave.111
 x 5
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -930,6 +940,7 @@ face s_moun_cave.111
 x 5
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -950,6 +961,7 @@ face s_moun_cave.111
 x 5
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1078,6 +1090,7 @@ face s_moun_cave.111
 x 7
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1098,6 +1111,7 @@ face s_moun_cave.111
 x 7
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1118,6 +1132,7 @@ face s_moun_cave.111
 x 7
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1138,6 +1153,7 @@ face s_moun_cave.111
 x 7
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1158,6 +1174,7 @@ face s_moun_cave.111
 x 7
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1178,6 +1195,7 @@ face s_moun_cave.111
 x 7
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1230,6 +1248,7 @@ face s_moun_cave.111
 x 7
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1250,6 +1269,7 @@ face s_moun_cave.111
 x 7
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1270,6 +1290,7 @@ face s_moun_cave.111
 x 7
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1290,6 +1311,7 @@ face s_moun_cave.111
 x 7
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1310,6 +1332,7 @@ face s_moun_cave.111
 x 7
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1330,6 +1353,7 @@ face s_moun_cave.111
 x 7
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1458,6 +1482,7 @@ face s_moun_cave.111
 x 9
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1478,6 +1503,7 @@ face s_moun_cave.111
 x 9
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1498,6 +1524,7 @@ face s_moun_cave.111
 x 9
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1518,6 +1545,7 @@ face s_moun_cave.111
 x 9
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1538,6 +1566,7 @@ face s_moun_cave.111
 x 9
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1558,6 +1587,7 @@ face s_moun_cave.111
 x 9
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1610,6 +1640,7 @@ face s_moun_cave.111
 x 9
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1630,6 +1661,7 @@ face s_moun_cave.111
 x 9
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1650,6 +1682,7 @@ face s_moun_cave.111
 x 9
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1670,6 +1703,7 @@ face s_moun_cave.111
 x 9
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1690,6 +1724,7 @@ face s_moun_cave.111
 x 9
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1710,6 +1745,7 @@ face s_moun_cave.111
 x 9
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1838,6 +1874,7 @@ face s_moun_cave.111
 x 11
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1858,6 +1895,7 @@ face s_moun_cave.111
 x 11
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1878,6 +1916,7 @@ face s_moun_cave.111
 x 11
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1898,6 +1937,7 @@ face s_moun_cave.111
 x 11
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1918,6 +1958,7 @@ face s_moun_cave.111
 x 11
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1938,6 +1979,7 @@ face s_moun_cave.111
 x 11
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -1994,6 +2036,7 @@ face s_moun_cave.111
 x 11
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2014,6 +2057,7 @@ face s_moun_cave.111
 x 11
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2034,6 +2078,7 @@ face s_moun_cave.111
 x 11
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2054,6 +2099,7 @@ face s_moun_cave.111
 x 11
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2074,6 +2120,7 @@ face s_moun_cave.111
 x 11
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2094,6 +2141,7 @@ face s_moun_cave.111
 x 11
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2222,6 +2270,7 @@ face s_moun_cave.111
 x 13
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2242,6 +2291,7 @@ face s_moun_cave.111
 x 13
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2262,6 +2312,7 @@ face s_moun_cave.111
 x 13
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2282,6 +2333,7 @@ face s_moun_cave.111
 x 13
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2302,6 +2354,7 @@ face s_moun_cave.111
 x 13
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2322,6 +2375,7 @@ face s_moun_cave.111
 x 13
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2374,6 +2428,7 @@ face s_moun_cave.111
 x 13
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2394,6 +2449,7 @@ face s_moun_cave.111
 x 13
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2414,6 +2470,7 @@ face s_moun_cave.111
 x 13
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2434,6 +2491,7 @@ face s_moun_cave.111
 x 13
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2454,6 +2512,7 @@ face s_moun_cave.111
 x 13
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2474,6 +2533,7 @@ face s_moun_cave.111
 x 13
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2609,6 +2669,7 @@ face s_moun_cave.111
 x 15
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2629,6 +2690,7 @@ face s_moun_cave.111
 x 15
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2649,6 +2711,7 @@ face s_moun_cave.111
 x 15
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2669,6 +2732,7 @@ face s_moun_cave.111
 x 15
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2689,6 +2753,7 @@ face s_moun_cave.111
 x 15
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2709,6 +2774,7 @@ face s_moun_cave.111
 x 15
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2761,6 +2827,7 @@ face s_moun_cave.111
 x 15
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2781,6 +2848,7 @@ face s_moun_cave.111
 x 15
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2801,6 +2869,7 @@ face s_moun_cave.111
 x 15
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2821,6 +2890,7 @@ face s_moun_cave.111
 x 15
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2841,6 +2911,7 @@ face s_moun_cave.111
 x 15
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2861,6 +2932,7 @@ face s_moun_cave.111
 x 15
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -2989,6 +3061,7 @@ face s_moun_cave.111
 x 17
 y 1
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3009,6 +3082,7 @@ face s_moun_cave.111
 x 17
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3029,6 +3103,7 @@ face s_moun_cave.111
 x 17
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3049,6 +3124,7 @@ face s_moun_cave.111
 x 17
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3069,6 +3145,7 @@ face s_moun_cave.111
 x 17
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3089,6 +3166,7 @@ face s_moun_cave.111
 x 17
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3141,6 +3219,7 @@ face s_moun_cave.111
 x 17
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3161,6 +3240,7 @@ face s_moun_cave.111
 x 17
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3181,6 +3261,7 @@ face s_moun_cave.111
 x 17
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3201,6 +3282,7 @@ face s_moun_cave.111
 x 17
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3221,6 +3303,7 @@ face s_moun_cave.111
 x 17
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3241,6 +3324,7 @@ face s_moun_cave.111
 x 17
 y 17
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3392,6 +3476,7 @@ face s_moun_cave.111
 x 19
 y 2
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3412,6 +3497,7 @@ face s_moun_cave.111
 x 19
 y 3
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3432,6 +3518,7 @@ face s_moun_cave.111
 x 19
 y 4
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3452,6 +3539,7 @@ face s_moun_cave.111
 x 19
 y 5
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3472,6 +3560,7 @@ face s_moun_cave.111
 x 19
 y 6
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3542,6 +3631,7 @@ face s_moun_cave.111
 x 19
 y 12
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3562,6 +3652,7 @@ face s_moun_cave.111
 x 19
 y 13
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3582,6 +3673,7 @@ face s_moun_cave.111
 x 19
 y 14
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3602,6 +3694,7 @@ face s_moun_cave.111
 x 19
 y 15
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
@@ -3622,6 +3715,7 @@ face s_moun_cave.111
 x 19
 y 16
 resist_cold 95
+death_animation rubble
 use_content_on_gen 1
 arch polarbear
 Pow 8
