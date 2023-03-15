@@ -1,0 +1,1899 @@
+arch map
+name farmhand
+difficulty 1
+region scorn
+width 17
+height 16
+enter_x 8
+enter_y 14
+msg
+Created:  2023-03-15 Daniel Hawkins
+Modified: 2023-03-15 Daniel Hawkins
+endmsg
+outdoor 1
+end
+arch farmland
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+end
+arch farmland
+y 1
+end
+arch farmland
+y 1
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 1
+end
+arch farmland
+y 2
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 2
+end
+arch farmland
+y 3
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 3
+end
+arch farmland
+y 4
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 4
+end
+arch farmland
+y 5
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 5
+end
+arch farmland
+y 6
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 6
+end
+arch farmland
+y 7
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 7
+end
+arch farmland
+y 8
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 8
+end
+arch farmland
+y 9
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 9
+end
+arch farmland
+y 10
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 10
+end
+arch farmland
+y 11
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 11
+end
+arch farmland
+y 12
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 12
+end
+arch farmland
+y 13
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 13
+end
+arch farmland
+y 14
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 14
+end
+arch farmland
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+y 15
+end
+arch farmland
+x 1
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 1
+end
+arch farmland
+x 1
+y 1
+end
+arch farmland
+x 1
+y 2
+end
+arch farmland
+x 1
+y 3
+end
+arch farmland
+x 1
+y 4
+end
+arch earth
+x 1
+y 5
+end
+arch earth
+x 1
+y 6
+end
+arch earth
+x 1
+y 7
+end
+arch earth
+x 1
+y 8
+end
+arch earth
+x 1
+y 9
+end
+arch earth
+x 1
+y 10
+end
+arch farmland
+x 1
+y 11
+end
+arch farmland
+x 1
+y 12
+end
+arch farmland
+x 1
+y 13
+end
+arch farmland
+x 1
+y 14
+end
+arch farmland
+x 1
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 1
+y 15
+end
+arch farmland
+x 2
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 2
+end
+arch farmland
+x 2
+y 1
+end
+arch farmland
+x 2
+y 2
+end
+arch earth
+x 2
+y 3
+end
+arch earth
+x 2
+y 4
+end
+arch earth
+x 2
+y 5
+end
+arch dirtfloor
+x 2
+y 6
+end
+arch woodwall_2_2_2
+x 2
+y 6
+end
+arch dirtfloor
+x 2
+y 7
+end
+arch woodwall_2_1_1
+x 2
+y 7
+end
+arch dirtfloor
+x 2
+y 8
+end
+arch woodwall_2_1_1
+x 2
+y 8
+end
+arch dirtfloor
+x 2
+y 9
+end
+arch woodwall_2_2_1
+x 2
+y 9
+end
+arch grass
+x 2
+y 10
+end
+arch earth
+x 2
+y 11
+end
+arch grass
+x 2
+y 12
+end
+arch farmland
+x 2
+y 13
+end
+arch farmland
+x 2
+y 14
+end
+arch farmland
+x 2
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 2
+y 15
+end
+arch farmland
+x 3
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 3
+end
+arch farmland
+x 3
+y 1
+end
+arch earth
+x 3
+y 2
+end
+arch earth
+x 3
+y 3
+end
+arch dirtfloor
+x 3
+y 4
+end
+arch woodwall_2_2_2
+x 3
+y 4
+end
+arch dirtfloor
+x 3
+y 5
+end
+arch woodwall_2_1_1
+x 3
+y 5
+end
+arch dirtfloor
+x 3
+y 6
+end
+arch woodwall_2_2_4
+x 3
+y 6
+end
+arch dirtfloor
+x 3
+y 7
+end
+arch shovel_1
+x 3
+y 7
+end
+arch dirtfloor
+x 3
+y 8
+end
+arch hammer
+x 3
+y 8
+end
+arch dirtfloor
+x 3
+y 9
+end
+arch woodwall_2_2_3
+x 3
+y 9
+end
+arch dirtfloor
+x 3
+y 10
+end
+arch woodwall_2_1_1
+x 3
+y 10
+end
+arch dirtfloor
+x 3
+y 11
+end
+arch woodwall_2_2_1
+x 3
+y 11
+end
+arch earth
+x 3
+y 12
+end
+arch grass
+x 3
+y 13
+end
+arch farmland
+x 3
+y 14
+end
+arch farmland
+x 3
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 3
+y 15
+end
+arch farmland
+x 4
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 4
+end
+arch farmland
+x 4
+y 1
+end
+arch earth
+x 4
+y 2
+end
+arch dirtfloor
+x 4
+y 3
+end
+arch woodwall_2_2_2
+x 4
+y 3
+end
+arch dirtfloor
+x 4
+y 4
+end
+arch woodwall_2_2_4
+x 4
+y 4
+end
+arch dirtfloor
+x 4
+y 5
+end
+arch table_1x2
+x 4
+y 5
+end
+arch loaf
+x 4
+y 5
+end
+arch dirtfloor
+x 4
+y 6
+end
+arch loaf
+x 4
+y 6
+end
+arch dirtfloor
+x 4
+y 7
+end
+arch dirtfloor
+x 4
+y 8
+end
+arch dirtfloor
+x 4
+y 9
+end
+arch potato
+x 4
+y 9
+end
+arch dirtfloor
+x 4
+y 10
+end
+arch barrel
+x 4
+y 10
+end
+arch booze
+x 4
+y 10
+end
+arch dirtfloor
+x 4
+y 11
+end
+arch woodwall_2_2_3
+x 4
+y 11
+end
+arch dirtfloor
+x 4
+y 12
+end
+arch woodwall_2_2_1
+x 4
+y 12
+end
+arch earth
+x 4
+y 13
+end
+arch farmland
+x 4
+y 14
+end
+arch farmland
+x 4
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 4
+y 15
+end
+arch farmland
+x 5
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 5
+end
+arch earth
+x 5
+y 1
+end
+arch tomato
+x 5
+y 1
+end
+arch earth
+x 5
+y 2
+end
+arch dirtfloor
+x 5
+y 3
+end
+arch woodwall_2_1_2
+x 5
+y 3
+end
+arch dirtfloor
+x 5
+y 4
+end
+arch chair_1.1
+x 5
+y 4
+end
+arch dirtfloor
+x 5
+y 5
+end
+arch table_2x1
+x 5
+y 5
+end
+arch platter1_tin
+x 5
+y 5
+end
+arch utensils
+x 5
+y 5
+end
+arch dirtfloor
+x 5
+y 6
+end
+arch dirtfloor
+x 5
+y 7
+end
+arch dirtfloor
+x 5
+y 8
+end
+arch dirtfloor
+x 5
+y 9
+end
+arch dirtfloor
+x 5
+y 10
+end
+arch dirtfloor
+x 5
+y 11
+end
+arch arrow
+x 5
+y 11
+nrof 20
+end
+arch huntersbow
+x 5
+y 11
+end
+arch dirtfloor
+x 5
+y 12
+end
+arch woodwall_2_1_2
+x 5
+y 12
+end
+arch grass
+x 5
+y 13
+end
+arch earth
+x 5
+y 14
+end
+arch farmland
+x 5
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 5
+y 15
+end
+arch farmland
+x 6
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 6
+end
+arch earth
+x 6
+y 1
+end
+arch orange
+x 6
+y 1
+end
+arch dirtfloor
+x 6
+y 2
+end
+arch woodwall_2_2_2
+x 6
+y 2
+end
+arch dirtfloor
+x 6
+y 3
+end
+arch woodwall_2_2_4
+x 6
+y 3
+end
+arch dirtfloor
+x 6
+y 4
+end
+arch chair_1.1
+x 6
+y 4
+end
+arch dirtfloor
+x 6
+y 5
+end
+arch spoon
+x 6
+y 5
+end
+arch dirtfloor
+x 6
+y 6
+end
+arch dirtfloor
+x 6
+y 7
+end
+arch farmer
+name Alan
+msg
+@match hi|hello|hola|hey
+Hello there, stranger. What brings you to our abode? The crops aren't ready to harvest yet.
+@match farm|crops
+We got a warm snap at the start of growing season, and were able to plant early.
+Combine that with the regular rain we've had, and it's looking like a bumper crop this year.
+@match grow
+The soil here's very fertile. Some of the best farmland on Bigworld. With the right rain, you could grow anything in these fields.
+@match food
+We surely wouldn't let you leave on an empty stomach! We may not have much, but we can at least feed you.
+@match soil|dirt
+The soil's dark, full of organic matter. Seems to be washing down the mountains this way; something big must've died up there a while ago.
+@match died
+I dunno what would've died up in the hills to make this must farming dirt, but I ain't complaining.
+@match cold|door
+It does get cold in the winter without a door, but the stove gets pretty hot, so we manage.
+@match Christopher
+Aye, we go way back. Both grew up out here on these very fields.
+@match Turing
+Turing? Didn't that fella have a machine that could do anything? Some wizardry if you ask me.
+@match rose
+The rose? That was, uh, a gift from ah, a friend. A lover, of sorts.
+*Alan and Christopher make eye contact*
+@match lover
+Aye, we're close, very close.
+@match close
+We see each other every day, so we know a lot about each other.
+@match girl
+*Alan looks confused for a brief second, then regains compsure*
+You seem intent on figuring out my lover. I suppose I can tell you.
+*Alan inhales*
+Christopher and I are lovers.
+He gave me the rose.
+It's why there's only one bed.
+It's why there's the odd arrangement of food out back.
+@match roommate|hut|house
+The place is big enough for two people, why not have two people live in it? Chrissy and I decided we could be roommates.
+*Christopher scowls at being called "Chrissy"*
+@match bed
+What about the bed?
+@match gay
+Yeah, we are.
+If you see us as less for it, that is a problem with you, not a problem with us.
+endmsg
+x 6
+y 7
+speed 0.2
+attack_movement 64
+pick_up 0
+arch trident
+name pitchfork
+name_pl pitchforks
+is_thrown 0
+is_turnable 0
+end
+end
+arch dirtfloor
+x 6
+y 8
+end
+arch dirtfloor
+x 6
+y 9
+end
+arch dirtfloor
+x 6
+y 10
+end
+arch dirtfloor
+x 6
+y 11
+end
+arch dirtfloor
+x 6
+y 12
+end
+arch woodwall_2_2_3
+x 6
+y 12
+end
+arch dirtfloor
+x 6
+y 13
+end
+arch woodwall_2_2_1
+x 6
+y 13
+end
+arch earth
+x 6
+y 14
+end
+arch farmland
+x 6
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 6
+y 15
+end
+arch farmland
+x 7
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 7
+end
+arch earth
+x 7
+y 1
+end
+arch pear
+x 7
+y 1
+end
+arch dirtfloor
+x 7
+y 2
+end
+arch woodwall_2_1_2
+x 7
+y 2
+end
+arch dirtfloor
+x 7
+y 3
+end
+arch table_2
+x 7
+y 3
+end
+arch b_slicingknife
+x 7
+y 3
+end
+arch dirtfloor
+x 7
+y 4
+end
+arch dirtfloor
+x 7
+y 5
+end
+arch dirtfloor
+x 7
+y 6
+end
+arch dirtfloor
+x 7
+y 7
+end
+arch dirtfloor
+x 7
+y 8
+end
+arch dirtfloor
+x 7
+y 9
+end
+arch dirtfloor
+x 7
+y 10
+end
+arch dirtfloor
+x 7
+y 11
+end
+arch dirtfloor
+x 7
+y 12
+end
+arch dirtfloor
+x 7
+y 13
+end
+arch woodwall_1_3
+x 7
+y 13
+end
+arch woodwall_0
+x 7
+y 13
+end
+arch grass_br_gr
+x 7
+y 14
+end
+arch farmland
+x 7
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 7
+y 15
+end
+arch farmland
+x 8
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 8
+end
+arch earth
+x 8
+y 1
+end
+arch cabbage
+x 8
+y 1
+end
+arch dirtfloor
+x 8
+y 2
+end
+arch woodwall_2_1_2
+x 8
+y 2
+end
+arch dirtfloor
+x 8
+y 3
+end
+arch table
+x 8
+y 3
+end
+arch frypan_closed
+x 8
+y 3
+end
+arch dirtfloor
+x 8
+y 4
+end
+arch dirtfloor
+x 8
+y 5
+end
+arch dirtfloor
+x 8
+y 6
+end
+arch dirtfloor
+x 8
+y 7
+end
+arch dirtfloor
+x 8
+y 8
+end
+arch dirtfloor
+x 8
+y 9
+end
+arch dirtfloor
+x 8
+y 10
+end
+arch dirtfloor
+x 8
+y 11
+end
+arch dirtfloor
+x 8
+y 12
+end
+arch dirtfloor
+x 8
+y 13
+end
+arch mat
+x 8
+y 13
+end
+arch earth
+x 8
+y 14
+end
+arch farmland
+x 8
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 8
+y 15
+end
+arch farmland
+x 9
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 9
+end
+arch earth
+x 9
+y 1
+end
+arch mushroom_3
+x 9
+y 1
+end
+arch dirtfloor
+x 9
+y 2
+end
+arch woodwall_2_1_2
+x 9
+y 2
+end
+arch dirtfloor
+x 9
+y 3
+end
+arch stove
+x 9
+y 3
+end
+arch dirtfloor
+x 9
+y 4
+end
+arch dirtfloor
+x 9
+y 5
+end
+arch dirtfloor
+x 9
+y 6
+end
+arch farmer
+name Christopher
+msg
+@match hello|hi|hola|hey
+Hello! We, um, weren't expecting guests, but feel free to make yourself comfortable.
+@match Chrissy
+Ugh, it feels so infantilizing. I mean, we're....
+*Christopher looks as if he's done speaking*
+endmsg
+x 9
+y 6
+speed 0.2
+attack_movement 112
+pick_up 0
+arch trident
+name pitchfork
+name_pl pitchforks
+is_thrown 0
+is_turnable 0
+end
+end
+arch dirtfloor
+x 9
+y 7
+end
+arch dirtfloor
+x 9
+y 8
+end
+arch dirtfloor
+x 9
+y 9
+end
+arch dirtfloor
+x 9
+y 10
+end
+arch dirtfloor
+x 9
+y 11
+end
+arch dirtfloor
+x 9
+y 12
+end
+arch dirtfloor
+x 9
+y 13
+end
+arch woodwall_1_4
+x 9
+y 13
+end
+arch woodwall_0
+x 9
+y 13
+end
+arch earth
+x 9
+y 14
+end
+arch farmland
+x 9
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 9
+y 15
+end
+arch farmland
+x 10
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 10
+end
+arch earth
+x 10
+y 1
+end
+arch w_glass
+x 10
+y 1
+end
+arch dirtfloor
+x 10
+y 2
+end
+arch woodwall_2_2_3
+x 10
+y 2
+end
+arch dirtfloor
+x 10
+y 3
+end
+arch woodwall_2_2_1
+x 10
+y 3
+end
+arch dirtfloor
+x 10
+y 4
+end
+arch dirtfloor
+x 10
+y 5
+end
+arch dirtfloor
+x 10
+y 6
+end
+arch dirtfloor
+x 10
+y 7
+end
+arch dirtfloor
+x 10
+y 8
+end
+arch dirtfloor
+x 10
+y 9
+end
+arch dirtfloor
+x 10
+y 10
+end
+arch dirtfloor
+x 10
+y 11
+end
+arch dirtfloor
+x 10
+y 12
+end
+arch woodwall_2_2_2
+x 10
+y 12
+end
+arch dirtfloor
+x 10
+y 13
+end
+arch woodwall_2_2_4
+x 10
+y 13
+end
+arch earth
+x 10
+y 14
+end
+arch farmland
+x 10
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 10
+y 15
+end
+arch farmland
+x 11
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 11
+end
+arch earth
+x 11
+y 1
+end
+arch earth
+x 11
+y 2
+end
+arch dirtfloor
+x 11
+y 3
+end
+arch woodwall_2_1_2
+x 11
+y 3
+end
+arch dirtfloor
+x 11
+y 4
+end
+arch dirtfloor
+x 11
+y 5
+end
+arch dirtfloor
+x 11
+y 6
+end
+arch dirtfloor
+x 11
+y 7
+end
+arch dirtfloor
+x 11
+y 8
+end
+arch dirtfloor
+x 11
+y 9
+end
+arch dirtfloor
+x 11
+y 10
+end
+arch dirtfloor
+x 11
+y 11
+end
+arch t_lrock
+x 11
+y 11
+end
+arch dirtfloor
+x 11
+y 12
+end
+arch woodwall_2_1_2
+x 11
+y 12
+end
+arch earth
+x 11
+y 13
+end
+arch earth
+x 11
+y 14
+end
+arch farmland
+x 11
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 11
+y 15
+end
+arch farmland
+x 12
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 12
+end
+arch farmland
+x 12
+y 1
+end
+arch earth
+x 12
+y 2
+end
+arch dirtfloor
+x 12
+y 3
+end
+arch woodwall_2_2_3
+x 12
+y 3
+end
+arch dirtfloor
+x 12
+y 4
+end
+arch woodwall_2_2_1
+x 12
+y 4
+end
+arch dirtfloor
+x 12
+y 5
+end
+arch saw
+x 12
+y 5
+end
+arch dirtfloor
+x 12
+y 6
+end
+arch dresser2
+x 12
+y 6
+arch tunic
+end
+arch tunic
+end
+arch tunic
+end
+arch tunic
+end
+arch gloves
+end
+arch gloves
+end
+arch lapron
+end
+end
+arch rose_red
+x 12
+y 6
+end
+arch dirtfloor
+x 12
+y 7
+end
+arch dirtfloor
+x 12
+y 8
+end
+arch dirtfloor
+x 12
+y 9
+end
+arch dirtfloor
+x 12
+y 10
+end
+arch dirtfloor
+x 12
+y 11
+end
+arch woodwall_2_2_2
+x 12
+y 11
+end
+arch dirtfloor
+x 12
+y 12
+end
+arch woodwall_2_2_4
+x 12
+y 12
+end
+arch earth
+x 12
+y 13
+end
+arch farmland
+x 12
+y 14
+end
+arch farmland
+x 12
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 12
+y 15
+end
+arch farmland
+x 13
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 13
+end
+arch farmland
+x 13
+y 1
+end
+arch earth
+x 13
+y 2
+end
+arch grassbrown
+x 13
+y 3
+end
+arch dirtfloor
+x 13
+y 4
+end
+arch woodwall_2_2_3
+x 13
+y 4
+end
+arch dirtfloor
+x 13
+y 5
+end
+arch woodwall_2_1_1
+x 13
+y 5
+end
+arch dirtfloor
+x 13
+y 6
+end
+arch woodwall_2_2_1
+x 13
+y 6
+end
+arch dirtfloor
+x 13
+y 7
+end
+arch bed_1
+x 13
+y 7
+end
+arch dirtfloor
+x 13
+y 8
+end
+arch table_4
+x 13
+y 8
+end
+arch claypipe
+x 13
+y 8
+end
+arch dirtfloor
+x 13
+y 9
+end
+arch woodwall_2_2_2
+x 13
+y 9
+end
+arch dirtfloor
+x 13
+y 10
+end
+arch woodwall_2_1_1
+x 13
+y 10
+end
+arch dirtfloor
+x 13
+y 11
+end
+arch woodwall_2_2_4
+x 13
+y 11
+end
+arch earth
+x 13
+y 12
+end
+arch earth
+x 13
+y 13
+end
+arch farmland
+x 13
+y 14
+end
+arch farmland
+x 13
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 13
+y 15
+end
+arch farmland
+x 14
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 14
+end
+arch farmland
+x 14
+y 1
+end
+arch farmland
+x 14
+y 2
+end
+arch earth
+x 14
+y 3
+end
+arch earth
+x 14
+y 4
+end
+arch earth
+x 14
+y 5
+end
+arch dirtfloor
+x 14
+y 6
+end
+arch woodwall_2_2_3
+x 14
+y 6
+end
+arch dirtfloor
+x 14
+y 7
+end
+arch woodwall_2_1_1
+x 14
+y 7
+end
+arch dirtfloor
+x 14
+y 8
+end
+arch woodwall_2_1_1
+x 14
+y 8
+end
+arch dirtfloor
+x 14
+y 9
+end
+arch woodwall_2_2_4
+x 14
+y 9
+end
+arch brush
+x 14
+y 10
+end
+arch earth
+x 14
+y 11
+end
+arch earth
+x 14
+y 12
+end
+arch farmland
+x 14
+y 13
+end
+arch farmland
+x 14
+y 14
+end
+arch farmland
+x 14
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 14
+y 15
+end
+arch farmland
+x 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 15
+end
+arch farmland
+x 15
+y 1
+end
+arch farmland
+x 15
+y 2
+end
+arch farmland
+x 15
+y 3
+end
+arch farmland
+x 15
+y 4
+end
+arch earth
+x 15
+y 5
+end
+arch earth
+x 15
+y 6
+end
+arch earth
+x 15
+y 7
+end
+arch grassbrown
+x 15
+y 8
+end
+arch earth
+x 15
+y 9
+end
+arch earth
+x 15
+y 10
+end
+arch farmland
+x 15
+y 11
+end
+arch farmland
+x 15
+y 12
+end
+arch wheelbarrow
+x 15
+y 12
+end
+arch farmland
+x 15
+y 13
+end
+arch farmland
+x 15
+y 14
+end
+arch farmland
+x 15
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 15
+y 15
+end
+arch farmland
+x 16
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+end
+arch farmland
+x 16
+y 1
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 1
+end
+arch farmland
+x 16
+y 2
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 2
+end
+arch farmland
+x 16
+y 3
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 3
+end
+arch farmland
+x 16
+y 4
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 4
+end
+arch farmland
+x 16
+y 5
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 5
+end
+arch farmland
+x 16
+y 6
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 6
+end
+arch farmland
+x 16
+y 7
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 7
+end
+arch farmland
+x 16
+y 8
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 8
+end
+arch farmland
+x 16
+y 9
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 9
+end
+arch farmland
+x 16
+y 10
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 10
+end
+arch farmland
+x 16
+y 11
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 11
+end
+arch farmland
+x 16
+y 12
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 12
+end
+arch farmland
+x 16
+y 13
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 13
+end
+arch farmland
+x 16
+y 14
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 14
+end
+arch farmland
+x 16
+y 15
+end
+arch invis_exit
+slaying ../../world/world_105_116
+hp 41
+sp 1
+x 16
+y 15
+end
