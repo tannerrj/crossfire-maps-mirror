@@ -1169,7 +1169,7 @@ y 8
 end
 arch sign
 msg
-NOTICE: no library books are to pass beyond these doors.  Thieves will be punished to the full extent of the law! For your convenience, we have chained all books to the shelves.  Have a nice day.
+NOTICE: no library books are to pass beyond these doors. Thieves will be punished to the full extent of the law! For your convenience, we have chained all books to the shelves. Have a nice day.
 endmsg
 x 7
 y 8
@@ -1438,7 +1438,7 @@ end
 arch sign
 name Library
 msg
-NOTICE: leave your bags at the door.  No admittance otherwise.  Not responsible for lost or stolen bags!
+NOTICE: leave your bags at the door. No admittance otherwise. Not responsible for lost or stolen bags!
 endmsg
 x 8
 y 14
@@ -2478,7 +2478,7 @@ arch sage
 name Conan the Librarian
 msg
 @match hi|hello
-Err... well welcome (*harumph*).  Please try to keep quiet in the library.
+Err... well welcome (*harumph*). Please try to keep quiet in the library.
 @match door|gate|enter|entrance|help
 Oh, you need to buy the key from the shop.
 @match *
