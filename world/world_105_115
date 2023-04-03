@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2022-04-18 Rick Tanner
+Modified: 2023-04-02 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -11881,15 +11881,16 @@ y 39
 elevation 602
 end
 arch altar
-name 100 platinum for a driven wagon
+name 2 platinum to rent a wagon
 slaying money
 msg
 A wagon rolls out! Climb in and say a direction to travel, like 'east'. Say 'stop' to stop.
 endmsg
-food 5000
+food 100
 x 29
 y 39
-connected 1
+connected 5000
+elevation 602
 end
 arch brush
 x 29
@@ -12163,9 +12164,11 @@ y 37
 elevation 1888
 end
 arch creator
+name wagon spawner
 x 30
 y 37
-connected 1
+connected 5000
+elevation 1888
 lifesave 1
 arch wagon
 name wagon

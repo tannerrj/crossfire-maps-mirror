@@ -1,0 +1,43 @@
+arch map
+name transport
+width 7
+height 1
+msg
+Created:  2023-04-02 Kevin Zheng
+Modified: 2023-04-02 Kevin Zheng
+endmsg
+end
+arch creator
+name wagon spawner
+connected 5000
+elevation 1888
+lifesave 1
+arch wagon
+name wagon
+speed 3.0
+type 2
+container 5000000
+move_type walk
+move_allow walk
+passenger_limit 2
+arch event_say
+title Python
+slaying /python/items/roll-o-matic.py
+end
+arch event_time
+title Python
+slaying /python/items/roll-o-matic.py
+end
+end
+end
+arch altar
+name 2 platinum to rent a wagon
+slaying money
+msg
+A wagon rolls out! Climb in and say a direction to travel, like 'east'. Say 'stop' to stop.
+endmsg
+food 100
+x 1
+connected 5000
+elevation 602
+end

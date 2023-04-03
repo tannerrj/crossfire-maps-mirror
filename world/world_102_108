@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-02-19
-Modified: 2022-04-17 Rick Tanner
+Modified: 2023-04-02 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_102_107
@@ -9008,6 +9008,31 @@ x 30
 y 13
 elevation 5549
 end
+arch creator
+name wagon spawner
+x 30
+y 13
+connected 5000
+elevation 1888
+lifesave 1
+arch wagon
+name wagon
+speed 3.0
+type 2
+container 5000000
+move_type walk
+move_allow walk
+passenger_limit 2
+arch event_say
+title Python
+slaying /python/items/roll-o-matic.py
+end
+arch event_time
+title Python
+slaying /python/items/roll-o-matic.py
+end
+end
+end
 arch light3
 x 30
 y 14
@@ -9299,6 +9324,18 @@ arch grass
 x 31
 y 12
 elevation 4595
+end
+arch altar
+name 2 platinum to rent a wagon
+slaying money
+msg
+A wagon rolls out! Climb in and say a direction to travel, like 'east'. Say 'stop' to stop.
+endmsg
+food 100
+x 31
+y 12
+connected 5000
+elevation 602
 end
 arch brush
 x 31
