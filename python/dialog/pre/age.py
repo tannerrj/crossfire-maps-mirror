@@ -17,6 +17,7 @@
 ## \d
 ## ENDDIALOGCHECK
 
+import Crossfire
 
 class checkfailed(Exception):
     pass
@@ -32,12 +33,12 @@ try:
         raise checkfailed()
     markername = args[0]
     oldtime = self.getStatus(markername).split("-")
-    oldtime = map(int, oldtime)
+    oldtime = list(map(int, oldtime))
     if len(oldtime) !=5:
         # The marker hasn't been set yet
         raise checkfailed()
 
-    desireddiff = map(int, args[1:])
+    desireddiff = list(map(int, args[1:]))
     currenttime = (Crossfire.GetTime())[:5]
     actualdiff = []
 
