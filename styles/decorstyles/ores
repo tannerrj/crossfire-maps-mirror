@@ -4,7 +4,7 @@ width 13
 height 8
 msg
 Created:  2014-05-26 SilverNexus
-Modified: 2014-05-27 SilverNexus
+Modified: 2023-04-14 Daniel Hawkins
 endmsg
 end
 arch goldore
@@ -119,6 +119,10 @@ arch rubble
 x 3
 y 6
 end
+arch mountain_stone
+x 3
+y 7
+end
 arch platore
 x 4
 end
@@ -223,7 +227,7 @@ arch zincore
 x 7
 y 2
 end
-arch uraniumore
+arch field_stone
 x 7
 y 3
 end
@@ -362,6 +366,10 @@ end
 arch rubble
 x 11
 y 6
+end
+arch river_stone
+x 11
+y 7
 end
 arch random_ore
 x 12
