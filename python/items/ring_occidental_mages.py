@@ -32,20 +32,21 @@ if (me.Applied == 0):
 			me.Cursed= 1
 			me.Con = me.Con + 1
 			me.Identified=0
-	elif (1 - r <= 0.03):
-		if me.Dex > -2:
+	# Negative effects
+	elif (1 - r <= 0.01):
+		if me.Con > -2:
 			me.Cursed= 1
-			me.Dex = me.Dex - 1
+			me.Con = me.Con - 1
 			me.Identified=0
 	elif (1 - r <= 0.02):
 		if me.Int > -2:
 			me.Cursed= 1
 			me.Int = me.Int - 1
 			me.Identified=0
-	elif (1 - r <= 0.01):
-		if me.Con > -2:
+	elif (1 - r <= 0.03):
+		if me.Dex > -2:
 			me.Cursed= 1
-			me.Con = me.Con - 1
+			me.Dex = me.Dex - 1
 			me.Identified=0
 
 	if rest:
