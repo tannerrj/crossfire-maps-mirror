@@ -12,7 +12,7 @@ enter_x 40
 enter_y 21
 msg
 Created:  2012-04-01 Rick Tanner
-Modified: 2012-04-01 Rick Tanner
+Modified: 2023-04-18 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -8153,6 +8153,10 @@ x 42
 y 20
 end
 arch woodfloor
+x 42
+y 21
+end
+arch menu
 x 42
 y 21
 end
