@@ -10,7 +10,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  1996-04-28 b.t. (thomas@astro.psu.edu)
-Modified: 2021-10-09 Rick Tanner
+Modified: 2023-04-18 Daniel Hawkins
 endmsg
 end
 arch grass
@@ -651,12 +651,15 @@ y 7
 end
 arch charwoman
 name Verunda the janitor
+Con 1
 x 4
 y 7
 carrying 150000
+friendly 1
 arch knight
 name Library Guard
 hp 2500
+maxhp 2500
 speed 0.200000
 unaggressive 0
 end
@@ -1408,9 +1411,11 @@ endmsg
 x 8
 y 12
 carrying 150000
+friendly 1
 arch knight
 name Library Guard
 hp 2500
+maxhp 2500
 speed 0.200000
 unaggressive 0
 end
@@ -2476,9 +2481,11 @@ endmsg
 x 14
 y 11
 carrying 150000
+friendly 1
 arch knight
 name Library Guard
 hp 2500
+maxhp 2500
 speed 0.200000
 unaggressive 0
 end
