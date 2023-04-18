@@ -12,7 +12,7 @@ enter_x 40
 enter_y 21
 msg
 Created:  1999-04-02
-Modified: 2022-06-30 Rick Tanner
+Modified: 2023-04-18 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -8386,6 +8386,10 @@ x 42
 y 20
 end
 arch flagstone
+x 42
+y 20
+end
+arch menu
 x 42
 y 20
 end
