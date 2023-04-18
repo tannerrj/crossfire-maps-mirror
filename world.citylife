@@ -81,6 +81,31 @@ arch nun
 arch sage
 arch woman
 
+# Scorn County
+# Intentionally fall through from world_105_116 definition above,
+# so that both sections actually work.
+population 8
+# Village
+zone 24 27 27 35
+# Field
+zone 25 12 27 18
+# Field
+zone 34 12 36 16
+# Field
+zone 38 0 45 2
+point 24 27
+point 26 27
+point 24 29
+point 27 29
+point 24 31
+point 24 34
+point 34 32
+point 41 1
+arch child
+arch farmer
+arch fatman
+arch fatwoman
+
 # Darcap
 # The city is triangular so we will try 3 rectangles that exclude the inn and docks.
 map /world/world_116_102
@@ -315,26 +340,3 @@ arch man
 arch sailor
 arch woman3
 arch merchant
-
-# Scorn County
-population 8
-# Village
-zone 24 27 27 35
-# Field
-zone 25 12 27 18
-# Field
-zone 34 12 36 16
-# Field
-zone 38 0 45 2
-point 24 27
-point 26 27
-point 24 29
-point 27 29
-point 24 31
-point 24 34
-point 34 32
-point 41 1
-arch child
-arch farmer
-arch fatman
-arch fatwoman
