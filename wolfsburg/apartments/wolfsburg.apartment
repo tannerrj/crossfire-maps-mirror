@@ -7,7 +7,7 @@ height 20
 enter_x 2
 enter_y 1
 msg
-Modified: 2008-12-02 Rick Tanner
+Modified: 2023-04-20 Daniel Hawkins
 endmsg
 end
 arch woodfloor
@@ -160,6 +160,7 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 1
 y 1
 connected 1
@@ -168,6 +169,7 @@ end
 arch duplicator
 name destructor wwall_1_1
 other_arch wwall_1_1
+food 1
 x 1
 y 1
 connected 1
@@ -207,18 +209,18 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 1
 y 2
 connected 1
-is_buildable 1
 end
 arch duplicator
 name destructor wwall_2_2_1
 other_arch wwall_2_2_1
+food 1
 x 1
 y 2
 connected 1
-is_buildable 1
 end
 arch woodfloor
 x 1
@@ -458,6 +460,7 @@ name creator woodfloor
 x 2
 y 1
 connected 1
+is_floor 1
 is_buildable 1
 arch woodfloor
 name wood floor buildable
@@ -468,18 +471,18 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 2
 y 1
 connected 1
-is_buildable 1
 end
 arch duplicator
 name destructor goldfloor
 other_arch goldfloor
+food 1
 x 2
 y 1
 connected 1
-is_buildable 1
 end
 arch woodfloor
 x 2
@@ -518,18 +521,18 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 2
 y 2
 connected 1
-is_buildable 1
 end
 arch duplicator
 name destructor wwall_2_1_2
 other_arch wwall_2_1_2
+food 1
 x 2
 y 2
 connected 1
-is_buildable 1
 end
 arch woodfloor
 x 2
@@ -776,18 +779,18 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 3
 y 1
 connected 1
-is_buildable 1
 end
 arch duplicator
 name destructor wwall_1_1
 other_arch wwall_1_1
+food 1
 x 3
 y 1
 connected 1
-is_buildable 1
 end
 arch woodfloor
 x 3
@@ -823,18 +826,18 @@ end
 arch duplicator
 name destructor woodfloor
 other_arch woodfloor
+food 1
 x 3
 y 2
 connected 1
-is_buildable 1
 end
 arch duplicator
 name destructor wwall_2_2_4
 other_arch wwall_2_2_4
+food 1
 x 3
 y 2
 connected 1
-is_buildable 1
 end
 arch woodfloor
 x 3
