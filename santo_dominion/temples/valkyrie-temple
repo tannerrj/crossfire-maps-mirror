@@ -8,7 +8,7 @@ enter_x 11
 enter_y 13
 msg
 Created:  2016-12-29 Rick Tanner
-Modified: 2021-01-28 Nicolas Weeger
+Modified: 2023-04-27 Daniel Hawkins
 endmsg
 end
 arch cobblestones
@@ -548,6 +548,7 @@ end
 arch chair_gv_1.3
 x 5
 y 8
+no_pick 1
 end
 arch graymarble
 x 5
@@ -560,6 +561,7 @@ end
 arch chair_gv_1.3
 x 5
 y 10
+no_pick 1
 end
 arch light4
 x 5
@@ -576,6 +578,7 @@ end
 arch chair_gv_1.3
 x 5
 y 12
+no_pick 1
 end
 arch graymarble
 x 5
@@ -660,6 +663,7 @@ end
 arch chair_gv_1.3
 x 6
 y 8
+no_pick 1
 end
 arch redslate
 x 6
@@ -672,6 +676,7 @@ end
 arch chair_gv_1.3
 x 6
 y 10
+no_pick 1
 end
 arch graymarble
 x 6
@@ -684,6 +689,7 @@ end
 arch chair_gv_1.3
 x 6
 y 12
+no_pick 1
 end
 arch graymarble
 x 6
@@ -854,6 +860,7 @@ end
 arch chair_gv_1.3
 x 8
 y 8
+no_pick 1
 end
 arch graymarble
 x 8
@@ -866,10 +873,19 @@ end
 arch chair_gv_1.3
 x 8
 y 10
+no_pick 1
 end
 arch graymarble
 x 8
 y 11
+end
+arch magic_mouth
+msg
+Huh. The nails seems to be pulled out of this chair.
+endmsg
+food 1
+x 8
+y 12
 end
 arch redslate
 x 8
@@ -1096,6 +1112,16 @@ x 10
 y 9
 end
 arch redslate
+x 10
+y 10
+end
+arch sign
+name Notice
+msg
+Due to repeated theft of our chairs, we have opted to nail our chairs to the floor.
+
+We apologize to our practicioners for any inconvenience.
+endmsg
 x 10
 y 10
 end
@@ -1576,6 +1602,7 @@ end
 arch chair_gv_1.3
 x 14
 y 8
+no_pick 1
 end
 arch graymarble
 x 14
@@ -1588,6 +1615,7 @@ end
 arch chair_gv_1.3
 x 14
 y 10
+no_pick 1
 end
 arch graymarble
 x 14
@@ -1600,6 +1628,7 @@ end
 arch chair_gv_1.3
 x 14
 y 12
+no_pick 1
 end
 arch gray-white-h-marble_112
 x 14
@@ -1767,6 +1796,7 @@ end
 arch chair_gv_1.3
 x 16
 y 8
+no_pick 1
 end
 arch redslate
 x 16
@@ -1779,6 +1809,7 @@ end
 arch chair_gv_1.3
 x 16
 y 10
+no_pick 1
 end
 arch graymarble
 x 16
@@ -1791,6 +1822,7 @@ end
 arch chair_gv_1.3
 x 16
 y 12
+no_pick 1
 end
 arch graymarble
 x 16
@@ -1875,6 +1907,7 @@ end
 arch chair_gv_1.3
 x 17
 y 8
+no_pick 1
 end
 arch graymarble
 x 17
@@ -1887,6 +1920,7 @@ end
 arch chair_gv_1.3
 x 17
 y 10
+no_pick 1
 end
 arch light4
 x 17
@@ -1903,6 +1937,7 @@ end
 arch chair_gv_1.3
 x 17
 y 12
+no_pick 1
 end
 arch graymarble
 x 17
