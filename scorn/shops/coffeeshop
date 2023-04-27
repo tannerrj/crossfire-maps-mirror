@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  2003-04-27 Avion
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2023-04-27 Daniel Hawkins
 endmsg
 outdoor 1
 end
@@ -453,6 +453,7 @@ name Fresh Coffee 4sp
 slaying money
 other_arch coffee
 food 4
+wc 1
 x 5
 y 7
 end
@@ -633,6 +634,7 @@ arch coffee
 name Eswald's inferior coffee
 name_pl cups of Eswald's inferior coffee
 food 1
+value 2
 arch quest_advance_apply
 name scorn/CoffeeGoose 0>10
 end
