@@ -13,7 +13,7 @@ Editor: CrossfireEditor
 Date:    3/17/2007
 Map finised by:  Alestan jehloq@yahoo.com
 Date:     8/27/2007
-Modified: 2013-05-12 Nicolas Weeger
+Modified: 2023-05-26 Rick Tanner
 endmsg
 end
 arch grass
@@ -524,7 +524,7 @@ arch altar_trigger
 name New Forge
 slaying Forge
 msg
-Removing your old forge.  Please wait.
+Removing your old forge. Please wait.
 endmsg
 exp 60
 food 1
@@ -2130,7 +2130,7 @@ arch altar_trigger
 name New Workbench
 slaying BowyerBench
 msg
-Removing your old bowyer bench.  Please wait.
+Removing your old bowyer bench. Please wait.
 endmsg
 exp 60
 food 1
