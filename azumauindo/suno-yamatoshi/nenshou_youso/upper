@@ -9,7 +9,7 @@ enter_x 12
 enter_y 11
 msg
 Created:  2002-01-11 MikeeUSA
-Modified: 2011-10-26 Rick Tanner
+Modified: 2023-05-27 Rick Tanner
 endmsg
 end
 arch blocked
@@ -3203,7 +3203,7 @@ end
 arch locked_door1
 slaying chargingroom
 msg
-You need the Charging Room  key to open this door.
+You need the Charging Room key to open this door.
 endmsg
 x 11
 y 14
