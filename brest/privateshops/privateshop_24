@@ -9,8 +9,7 @@ enter_x 17
 enter_y 35
 msg
 Created:  2010-02-28 Alestan
-
-Modified: 2013-07-19 Andreas Kirschbaum
+Modified: 2023-05-28 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -984,7 +983,7 @@ end
 arch sign
 name Notice
 msg
-Left position makes owner area non buildable.  Right makes it buildable.
+Left position makes owner area non buildable. Right makes it buildable.
 endmsg
 x 4
 y 7
@@ -1260,7 +1259,7 @@ end
 arch sign
 name Notice
 msg
-Left position makes magic Denied in the shop.  Right makes it Allowed.
+Left position makes magic Denied in the shop. Right makes it Allowed.
 endmsg
 x 5
 y 7
@@ -1543,7 +1542,7 @@ end
 arch sign
 name Notice
 msg
-Left position makes shop non buildable.  Right makes it buildable.
+Left position makes shop non buildable. Right makes it buildable.
 endmsg
 x 6
 y 7
@@ -1819,7 +1818,7 @@ end
 arch sign
 name Notice
 msg
-This lever renames all floor tiles in the shop to Shop Floor.  Use if your items are melting.
+This lever renames all floor tiles in the shop to Shop Floor. Use if your items are melting.
 endmsg
 x 7
 y 7
@@ -4153,7 +4152,7 @@ end
 arch depositbox
 name Trade
 msg
-Put items in here, close the box, and say a price to store the item.  Then open the box and get the glass duplicate for display.
+Put items in here, close the box, and say a price to store the item. Then open the box and get the glass duplicate for display.
 endmsg
 x 16
 y 4
@@ -4806,7 +4805,7 @@ end
 arch bag
 name Store
 msg
-Put items in here, close the box, and say a price to store the item.  Then open the box and get the glass duplicate for display.
+Put items in here, close the box, and say a price to store the item. Then open the box and get the glass duplicate for display.
 endmsg
 other_arch close_dbox
 face depositbox.111
@@ -5176,7 +5175,7 @@ end
 arch depositbox
 name Exchange
 msg
-Put items in here, close the box, and say a price to store the item.  Then open the box and get the glass duplicate for display.
+Put items in here, close the box, and say a price to store the item. Then open the box and get the glass duplicate for display.
 endmsg
 x 19
 y 10

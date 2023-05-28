@@ -6,7 +6,7 @@ width 35
 height 14
 msg
 Created:  2004-10-17 majorwoo (josh@woosworld.net)
-Modified: 2021-10-02 Rick Tanner
+Modified: 2023-05-28 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -392,7 +392,7 @@ msg
 @match key
 Buy your key downstairs.
 @match manager
-The Manager is downstairs in his office.  Maybe you could ask his wife?
+The Manager is downstairs in his office. Maybe you could ask his wife?
 @match wife
 The Managers wife is inside, I'm sorry but you can't pass without a key.
 @match *
@@ -1078,7 +1078,7 @@ end
 arch charwoman
 msg
 @match *
-Get out of the way!  I've got to clean up!
+Get out of the way! I've got to clean up!
 endmsg
 x 7
 y 7
@@ -3296,11 +3296,11 @@ msg
 @match hi|hello
 Oh, hello!  Did my husband send you?
 @match yes
-Good!  I forgot what time our date is.  Be a dear and go downstairs ask him.
+Good!  I forgot what time our date is. Be a dear and go downstairs ask him.
 @match 7
-Oh that's right, I remember our date is at 7.  Thank you.
+Oh that's right, I remember our date is at 7. Thank you.
 @match pen
-Here.  My husband left this up here, he will reward you for it.
+Here. My husband left this up here, he will reward you for it.
 @match *
 You're beginning to bother me little man.
 endmsg
