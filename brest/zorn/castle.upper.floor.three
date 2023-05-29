@@ -8,7 +8,7 @@ enter_x 29
 enter_y 3
 msg
 Created:  2007-03-06 Gene Alexander
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 outdoor 1
 reset_group brest_zorn
@@ -9971,7 +9971,7 @@ name Zorn cloak
 name_pl Zorn cloaks
 title of Invisibility
 msg
-A cloak created for the Zorn family by the great Wizards of Brest.  The cloak works by tapping into the powers of the mind of the wearer.
+A cloak created for the Zorn family by the great Wizards of Brest. The cloak works by tapping into the powers of the mind of the wearer.
 endmsg
 face cloak_black.111
 Wis -5
@@ -10072,7 +10072,7 @@ end
 arch magic_mouth
 name eight doors
 msg
-There are eight locked doors here.  To open them requires the correct key for each door.
+There are eight locked doors here. To open them requires the correct key for each door.
 endmsg
 x 29
 y 13

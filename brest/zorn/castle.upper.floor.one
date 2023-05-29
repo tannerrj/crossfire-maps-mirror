@@ -8,7 +8,7 @@ enter_x 29
 enter_y 3
 msg
 Created:  2006-08-12 Gene Alexander
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 outdoor 1
 reset_group brest_zorn
@@ -6545,7 +6545,7 @@ msg
 @match zorn
 Yes, I am a member of the Zorn family.
 @match treasure
-Oh, I wouldn't know anything about any treasure.  You must be mistaken.
+Oh, I wouldn't know anything about any treasure. You must be mistaken.
 @match *
 Hello, dearie, welcome to my home.
 endmsg
@@ -6921,7 +6921,7 @@ name Weinia Zorn
 title Youngest Daughter
 msg
 @match *
-My name is Weinia Zorn.  You killed my father.  Prepare to die.
+My name is Weinia Zorn. You killed my father. Prepare to die.
 endmsg
 Con 30
 Pow 50
@@ -9682,7 +9682,7 @@ name Zorn family information scroll
 name_pl Zorn family information scrolls
 msg
 Dear Descendant,
-There are some interesting treasures our family has collected over the centuries.  We have hidden these treasures deep below the family castle and protected them as best we can.  It would be quite bad for many of these items to fall into the wrong hands.  However, should you find worthy citizens of the realm suggest they get these treasures for themselves.  Only the bravest and most worthy of citizens should be able to get the treasures thus keeping them out of evil hands.
+There are some interesting treasures our family has collected over the centuries. We have hidden these treasures deep below the family castle and protected them as best we can. It would be quite bad for many of these items to fall into the wrong hands. However, should you find worthy citizens of the realm suggest they get these treasures for themselves. Only the bravest and most worthy of citizens should be able to get the treasures thus keeping them out of evil hands.
 Arcturo Zorn
 endmsg
 level 15
@@ -13644,7 +13644,7 @@ end
 arch stair3_gstone_up
 slaying castle.upper.floor.two
 msg
-You get a STRONG sense of danger.  Perhaps you should not hang around too long on this floor.
+You get a STRONG sense of danger. Perhaps you should not hang around too long on this floor.
 endmsg
 hp 25
 sp 44
@@ -13658,7 +13658,7 @@ end
 arch stair3_gstone_up
 slaying castle.upper.floor.two
 msg
-You get a STRONG sense of danger.  Perhaps you should not hang around too long on this floor.
+You get a STRONG sense of danger. Perhaps you should not hang around too long on this floor.
 endmsg
 hp 25
 sp 45
@@ -13673,7 +13673,7 @@ arch sign
 name Acme Inc.
 msg
 -=Warning=- -=Warning=- -=Warning=-
-The next floor is protected by an Acme Inc. alarm system and Zorn Security Guards.  Interlopers that are caught on the next floor will be executed on sight.
+The next floor is protected by an Acme Inc. alarm system and Zorn Security Guards. Interlopers that are caught on the next floor will be executed on sight.
 -=Warning=- -=Warning=- -=Warning=-
 endmsg
 x 25
@@ -21909,7 +21909,7 @@ end
 arch stair3_gstone_up
 slaying castle.upper.floor.two
 msg
-You get a STRONG sense of danger.  Perhaps you should not hang around too long on this floor.
+You get a STRONG sense of danger. Perhaps you should not hang around too long on this floor.
 endmsg
 hp 33
 sp 44
@@ -21923,7 +21923,7 @@ end
 arch stair3_gstone_up
 slaying castle.upper.floor.two
 msg
-You get a STRONG sense of danger.  Perhaps you should not hang around too long on this floor.
+You get a STRONG sense of danger. Perhaps you should not hang around too long on this floor.
 endmsg
 hp 33
 sp 45
@@ -21938,7 +21938,7 @@ arch sign
 name Acme Inc.
 msg
 -=Warning=- -=Warning=- -=Warning=-
-The next floor is protected by an Acme Inc. alarm system and Zorn Security Guards.  Interlopers that are caught on the next floor will be executed on sight.
+The next floor is protected by an Acme Inc. alarm system and Zorn Security Guards. Interlopers that are caught on the next floor will be executed on sight.
 -=Warning=- -=Warning=- -=Warning=-
 endmsg
 x 33
@@ -28533,13 +28533,13 @@ msg
 @match zorn
 Yes, I am a member of the Zorn family.
 @match treasure
-I have heard of this treasure but only my dad knows about it as far as I know.  Have you asked him?
+I have heard of this treasure but only my dad knows about it as far as I know. Have you asked him?
 @match yes
 Then why are you asking me?
 @match no
 Then maybe you should ask him.
 @match *
-Hi.  What are you doing in my room?
+Hi. What are you doing in my room?
 endmsg
 Con 30
 Pow 25
