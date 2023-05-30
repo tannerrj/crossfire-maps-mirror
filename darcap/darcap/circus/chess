@@ -6,7 +6,7 @@ width 20
 height 16
 msg
 Created:  1999-03-10 Cater & Wade (john_cater@yahoo.com)
-Modified: 2008-11-20 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -1376,8 +1376,7 @@ arch merchant
 name Sideshow Attendant
 msg
 @match *
-Chess is a battle of intellect.
-Nothing for the likes of you!
+Chess is a battle of intellect. Nothing for the likes of you!
 endmsg
 hp 1000
 x 10

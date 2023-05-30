@@ -8,7 +8,7 @@ enter_x 46
 enter_y 11
 msg
 Created:  2008-06-19 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2011-12-14 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch altar_trigger
@@ -13060,7 +13060,7 @@ end
 arch sign_w
 name Team 1 Starting Box
 msg
-This is the Team 1 starting box.  If you are Team 1, your opponents' goal is on the left side of the court.
+This is the Team 1 starting box. If you are Team 1, your opponents' goal is on the left side of the court.
 endmsg
 x 39
 y 8
@@ -13092,7 +13092,7 @@ end
 arch sign_w
 name Team 2 Starting Box
 msg
-This is the Team 2 starting box.  If you are Team 2, your opponents' goal is on the right side of the court.
+This is the Team 2 starting box. If you are Team 2, your opponents' goal is on the right side of the court.
 endmsg
 x 39
 y 14
@@ -13577,7 +13577,7 @@ end
 arch sign
 name Boulderball Explanation
 msg
-To play boulderball, form two teams (a team can be 1-4 players) and have one team gather on one group of pentagrams, and the other team on the other, then say 'start' to be teleported in.  The goal of this game is to push the Boulderball into the opposing team's goal (reference the signs by the starting boxes for location information).  The game is won at 1 point, so upon a team scoring a goal, both teams are teleported out, and the winning team is declared.  (Warning: no tiles anywhere on this map are arena tiles, meaning that any kills anywhere on this map will be a PK with the usual penalties, so please do not do that.)  (Note: do not worry about accidentally pushing the boulder against a wall rendering it stuck--the wall lining denies boulders.  Also, players cannot stand inside the goal, to prevent them from just sitting right in there to block it.)  (Note: the teams start in a line in between the ball and their goal to prevent one team from just drilling the Boulderball into the opponent's goal right off the start.)
+To play boulderball, form two teams (a team can be 1-4 players) and have one team gather on one group of pentagrams, and the other team on the other, then say 'start' to be teleported in. The goal of this game is to push the Boulderball into the opposing team's goal (reference the signs by the starting boxes for location information). The game is won at 1 point, so upon a team scoring a goal, both teams are teleported out, and the winning team is declared. (Warning: no tiles anywhere on this map are arena tiles, meaning that any kills anywhere on this map will be a PK with the usual penalties, so please do not do that.) (Note: do not worry about accidentally pushing the boulder against a wall rendering it stuck--the wall lining denies boulders. Also, players cannot stand inside the goal, to prevent them from just sitting right in there to block it.) (Note: the teams start in a line in between the ball and their goal to prevent one team from just drilling the Boulderball into the opponent's goal right off the start.)
 endmsg
 x 44
 y 11

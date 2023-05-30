@@ -20,17 +20,17 @@
   "match" : ["name"],
   "pre" : [],
   "post" : [],
-  "msg" : ["My name is Bob.  I own this place."]
+  "msg" : ["My name is Bob. I own this place."]
   }, {
   "match" : ["sage"],
   "pre" : [],
   "post" : [],
-  "msg" : ["I don't know.  Go ask them!"]
+  "msg" : ["I don't know. Go ask them!"]
   }, {
   "match" : ["order", "tower"],
   "pre" : [],
   "post" : [],
-  "msg" : ["To open the Tower, you must uses each part in order of the sage's names.  Good Luck."]
+  "msg" : ["To open the Tower, you must uses each part in order of the sage's names. Good Luck."]
   }, {
   "match" : ["*"],
   "pre" : [["quest", "darcap/Spike", "=20"]],

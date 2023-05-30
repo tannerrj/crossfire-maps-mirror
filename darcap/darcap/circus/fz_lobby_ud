@@ -11,7 +11,7 @@ enter_x 11
 enter_y 12
 msg
 Created: 2008-07-31 Raphaël Quinet & Chad Opperman
-Modified: 2012-03-18 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -1351,7 +1351,7 @@ end
 arch trigger_marker
 slaying fun_zone
 msg
-The guard puts a stamp on your arm.  You can enjoy the fun zone for a day.
+The guard puts a stamp on your arm. You can enjoy the fun zone for a day.
 endmsg
 food 504
 x 11
@@ -1423,7 +1423,7 @@ msg
 @match pending
 That just means we haven't connected a game to that portal yet.
 @match *
-Welcome to the fun zone!  We have many games here, both single and multiplayer, in which to experience fun!  If you seek description about any of the games, simply read their respective explanation sign through the portal.
+Welcome to the fun zone! We have many games here, both single and multiplayer, in which to experience fun! If you seek description about any of the games, simply read their respective explanation sign through the portal.
 endmsg
 x 12
 y 1
@@ -2843,7 +2843,7 @@ x 23
 end
 arch magic_mouth
 msg
-You hear angry muttering coming from inside this slot machine.  Perhaps it is broken.
+You hear angry muttering coming from inside this slot machine. Perhaps it is broken.
 endmsg
 food 1
 x 23
@@ -2856,7 +2856,7 @@ end
 arch slotmachine2
 name Moria
 msg
-You hear angry muttering coming from inside this slot machine.  Perhaps it is broken.
+You hear angry muttering coming from inside this slot machine. Perhaps it is broken.
 endmsg
 face slotmachine1.111
 food 0

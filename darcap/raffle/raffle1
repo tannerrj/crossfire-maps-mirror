@@ -10,7 +10,7 @@ height 32
 enter_y 7
 msg
 Created:  2008-02-29
-Modified: 2022-07-14 Rick Tanner
+Modified: 2023-05-30 Rick Tanner
 endmsg
 outdoor 1
 reset_group darcap-raffle1
@@ -2082,7 +2082,7 @@ end
 arch locked_door2
 slaying darcap_raffle_key_No1
 msg
-You need the raffle key No. 1 to open this door.  If you have it, you can draw the raffle a second time!
+You need the raffle key No. 1 to open this door. If you have it, you can draw the raffle a second time!
 endmsg
 x 6
 y 24
@@ -2568,8 +2568,7 @@ arch key2
 name raffle key
 slaying darcap_raffle_key_No1
 msg
-This key was won from the Darcap Raffle.
-It gives you a second draw.
+This key was won from the Darcap Raffle. It gives you a second draw.
 endmsg
 x 8
 y 2

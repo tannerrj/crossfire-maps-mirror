@@ -11,7 +11,7 @@ enter_x 4
 enter_y 17
 msg
 Created:  1996-05-02 bt (thomas@astro.psu.edu)
-Modified: 2023-02-20 Daniel Hawkins
+Modified: 2023-05-29 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -434,7 +434,7 @@ msg
 @match *
 I'm too busy to help you.
 @match note
-The actual dialogs are in the various dlg_xxx scrolls in the inventory of this NPC.  They vary based on the quest currently being done.  Please don't change the @match and @reply unless you know what you are doing :)
+The actual dialogs are in the various dlg_xxx scrolls in the inventory of this NPC. They vary based on the quest currently being done. Please don't change the @match and @reply unless you know what you are doing :)
 endmsg
 face wizard.151
 hp 100

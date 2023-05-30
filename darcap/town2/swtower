@@ -8,7 +8,7 @@ enter_x 6
 enter_y 10
 msg
 Created:  2008-11-23 Rick Tanner
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-05-30 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -472,7 +472,7 @@ arch guildmaster
 name Sage
 msg
 @match hello|hi
-Hello.  I'm busy studying.
+Hello. I'm busy studying.
 @match name
 I go by the name, Joe the Sage.
 @match job|study
@@ -482,9 +482,9 @@ I have discovered part of the rune of opening.
 @match rune|open
 My part is 'Ra'.
 @match order
-I'm not sure of the order.  Ask Bob.
+I'm not sure of the order. Ask Bob.
 @match bob
-Bob?   He owns Bob's Fish & Chips in town.
+Bob? He owns Bob's Fish & Chips in town.
 @match *
 I don't know any thing about that.
 endmsg

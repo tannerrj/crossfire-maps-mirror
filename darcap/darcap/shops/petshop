@@ -11,7 +11,7 @@ enter_x 7
 enter_y 23
 msg
 Created:  2010-09-28 neodeno
-Modified: 2012-10-01 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1083,7 +1083,7 @@ end
 arch magic_mouth
 msg
 Isn't she the finest animal you've ever seen!?
-Only 150 platinum buys her, just drop it in my hand and you can go home with this gorgeous beast today.  Mind you, she's too wild to ride, and got a bad temper, but she'll stand right by you in a fight.  Watch her hooves heh heh...
+Only 150 platinum buys her, just drop it in my hand and you can go home with this gorgeous beast today. Mind you, she's too wild to ride, and got a bad temper, but she'll stand right by you in a fight. Watch her hooves heh heh...
 endmsg
 food 1
 x 6
@@ -1658,7 +1658,7 @@ y 6
 end
 arch magic_mouth
 msg
-This vicious monster is trained to do one thing only, kill, and kill on command.  Well, he may not fit through every door you find, but for only 1200 platinum that's your problem not mine.
+This vicious monster is trained to do one thing only, kill, and kill on command. Well, he may not fit through every door you find, but for only 1200 platinum that's your problem not mine.
 endmsg
 food 1
 x 10
@@ -1807,7 +1807,7 @@ end
 arch magic_mouth
 msg
 Isn't this a fine pack of wolves?
-Observe the sheen of their coats, the strong teeth and jaws.  They are well trained and will follow you for the modest sum of 2000 platinum.
+Observe the sheen of their coats, the strong teeth and jaws. They are well trained and will follow you for the modest sum of 2000 platinum.
 endmsg
 food 1
 x 11
@@ -1835,7 +1835,7 @@ y 8
 end
 arch magic_mouth
 msg
-A fire serpent!  Just think of the things you could do if you had a fire serpent of your very own... Only 400 platinum.
+A fire serpent! Just think of the things you could do if you had a fire serpent of your very own... Only 400 platinum.
 endmsg
 food 1
 x 11
@@ -2162,7 +2162,7 @@ y 3
 end
 arch magic_mouth
 msg
-Not your average troll, no, not at all.  He's big, he's fierce, he'll fight for you, for only 1000 platinum.  Of his own free will of course, we would never harm such a fine upstanding humanoidish beast.
+Not your average troll, no, not at all. He's big, he's fierce, he'll fight for you, for only 1000 platinum. Of his own free will of course, we would never harm such a fine upstanding humanoidish beast.
 endmsg
 food 1
 x 14
@@ -2210,7 +2210,7 @@ y 8
 end
 arch magic_mouth
 msg
-Just look at this fine animal.  He sings, he dances, he loads ammunition.  He's eating me out of house and home.  Pleeeease take him for only 200 platinum.
+Just look at this fine animal. He sings, he dances, he loads ammunition. He's eating me out of house and home. Pleeeease take him for only 200 platinum.
 endmsg
 food 1
 x 14
@@ -3189,7 +3189,7 @@ connected 10
 end
 arch magic_mouth
 msg
-This fool tried to rob from us, we still can't find our bracers of dexterity that he took.  If you give us a pair we'll set him free and maybe he'll be grateful and rob for you.
+This fool tried to rob from us, we still can't find our bracers of dexterity that he took. If you give us a pair we'll set him free and maybe he'll be grateful and rob for you.
 endmsg
 x 20
 y 5
@@ -3250,9 +3250,9 @@ reflect_spell 1
 end
 arch magic_mouth
 msg
-Welcome to my store!  We purchase containers and food.  Our special packages contain a ready to use pet, though some of them can be kind of wild when you let them out of the box.  It's best to turn the box upside down and just shake it to let them out, and also prepare to be very charming.
+Welcome to my store! We purchase containers and food. Our special packages contain a ready to use pet, though some of them can be kind of wild when you let them out of the box. It's best to turn the box upside down and just shake it to let them out, and also prepare to be very charming.
 
-As it is sometimes difficult to tame these magical pets, I have had my wife, who is a wizard, prepare a special pentagram.  Open your pet box above the pentagram and the pets you purchase here will be automatically charmed for you.  Opening them elsewhere may have unpredictable results.
+As it is sometimes difficult to tame these magical pets, I have had my wife, who is a wizard, prepare a special pentagram. Open your pet box above the pentagram and the pets you purchase here will be automatically charmed for you. Opening them elsewhere may have unpredictable results.
 
 All sales are final.
 endmsg
@@ -3295,7 +3295,7 @@ arch neko
 name My Favorite Neko Chan
 msg
 Ain't that the cutest darn cat you've ever seen!?
-Wait, she's got claws!  No kitty, don't eat me...
+Wait, she's got claws! No kitty, don't eat me...
 endmsg
 Con 7
 Int 20
@@ -3782,7 +3782,7 @@ race elf
 msg
 @match *
 Have you ever heard of Idlewood?
-I'm a princess there you know.  But I don't know how to get home.
+I'm a princess there you know. But I don't know how to get home.
 endmsg
 Con 15
 Wis 6
@@ -3920,7 +3920,7 @@ connected 3
 end
 arch magic_mouth
 msg
-Elven Princess is a long way from home.  For 1 elven boots you can try to take her there.
+Elven Princess is a long way from home. For 1 elven boots you can try to take her there.
 endmsg
 x 23
 y 5
@@ -4260,7 +4260,7 @@ arch pirate
 name Bob the Undead Pirate
 msg
 @match *
-Yarrr!  Just show me what to kill.
+Yarrr! Just show me what to kill.
 endmsg
 Con 18
 Int 20
@@ -4527,7 +4527,7 @@ connected 12
 end
 arch magic_mouth
 msg
-Undead Pirate is more trouble than he's worth, and that's about a Girdle of Fighting.  I'll hand him over to you for that.
+Undead Pirate is more trouble than he's worth, and that's about a Girdle of Fighting. I'll hand him over to you for that.
 endmsg
 food 1
 x 26
@@ -5030,7 +5030,7 @@ y 6
 end
 arch magic_mouth
 msg
-Above the door is a sign carved in wood that reads "DUTY".  You notice on the other side of the door there is a sign above it that reads "RESPECT".
+Above the door is a sign carved in wood that reads "DUTY". You notice on the other side of the door there is a sign above it that reads "RESPECT".
 endmsg
 food 1
 x 29

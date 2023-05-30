@@ -8,7 +8,7 @@ enter_x 1
 enter_y 8
 msg
 Created:  2008-09-28 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-02-16 Kevin Zheng
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -318,7 +318,7 @@ end
 arch sign
 name Boat Racing Explanation
 msg
-The objective of this game is to be the first one to the finish line.  To play, have every racer position themself at the starting gate and then someone say 'start'.  This causes the gate to open.  After it opens, go to the right towards the finish line as fast as you can, but watch out for the jagged rocks and randomly generated 'strange water' which slows you down.  In order to tell who won, look at the order of the 'Racer x has finished!' and see who was first.
+The objective of this game is to be the first one to the finish line. To play, have every racer position themself at the starting gate and then someone say 'start'. This causes the gate to open. After it opens, go to the right towards the finish line as fast as you can, but watch out for the jagged rocks and randomly generated 'strange water' which slows you down. In order to tell who won, look at the order of the 'Racer x has finished!' and see who was first.
 endmsg
 x 3
 y 8
@@ -4027,7 +4027,7 @@ arch merchant
 name Boat Racing Fan
 msg
 @match *
-Out of my way...I can't see the race!
+Out of my way... I can't see the race!
 endmsg
 face elf_lad.111
 animation elf_man
@@ -29767,7 +29767,7 @@ arch merchant
 name Boat Racing Fan
 msg
 @match *
-Pschhh...I could sail this blindfolded.
+Pschhh... I could sail this blindfolded.
 endmsg
 face sailor.111
 x 113

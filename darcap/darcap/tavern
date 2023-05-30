@@ -8,7 +8,7 @@ enter_x 19
 enter_y 13
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2021-10-02 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1071,9 +1071,9 @@ arch elf_man
 name Frightened Elf Man
 msg
 @match nightmares
-Yes, I keep having a nightmare where the Pygmys slaughter me and then eat me..like what I saw them doing to their prisoners when I stumbled upon that forest...
+Yes, I keep having a nightmare where the Pygmys slaughter me and then eat me... like what I saw them doing to their prisoners when I stumbled upon that forest...
 @match pygmy|forest
-The Pygmys are these evil little creatures that live in a forest on an island north and slightly east of this town...I had to use dimension door to get there...they are really dangerous and I'm sure they are guarding something in that forest...
+The Pygmys are these evil little creatures that live in a forest on an island north and slightly east of this town... I had to use dimension door to get there... they are really dangerous and I'm sure they are guarding something in that forest...
 @match *
 I still have nightmares about my visit to the Pygmy Forest.
 endmsg
@@ -1407,13 +1407,13 @@ arch fighter
 name TCI Representative
 msg
 @match tci
-Training Centers Incorporated is the best dang training you'll ever get.  We have locations all over the world in exotic settings.  Come fight with us! (Heh, they tell us we have to say all that.)
+Training Centers Incorporated is the best dang training you'll ever get. We have locations all over the world in exotic settings. Come fight with us! (Heh, they tell us we have to say all that.)
 @match location
-Well, I don't know about all of them.  But our local TCI is off the road south of here.  Just look for one of our signs!
+Well, I don't know about all of them. But our local TCI is off the road south of here. Just look for one of our signs!
 @match hello|hi
-Well, hello there! Sit down and chat with me a bit.  I am always looking for new people to tell about TCI.
+Well, hello there! Sit down and chat with me a bit. I am always looking for new people to tell about TCI.
 @match *
-Hi there young'un.  Wanna join TCI?
+Hi there young'un. Wanna join TCI?
 endmsg
 x 11
 y 13
@@ -1802,7 +1802,7 @@ end
 arch fighter
 msg
 @match element|quest
-Water, earth, air, and fire... It's a big task but the rewards are great! Enter the courthouse and you will understand me.  The major difficulty is finding the places that are involved in this quest.  E.g. I suspect the high volcano poses the fire-part...
+Water, earth, air, and fire... It's a big task but the rewards are great! Enter the courthouse and you will understand me. The major difficulty is finding the places that are involved in this quest. E.g. I suspect the high volcano poses the fire-part...
 @match *
 I've devoted myself to the elemental quest.
 endmsg
@@ -2097,9 +2097,9 @@ We're all doomed! Doomed I tell ye! *Saromok* the Master Sorceror has began crea
 @match saromok
 He is an incredibly powerful sorceror who plans to destroy everything with his orc army! He needs to be *stopped*!
 @match stopped
-Well, many have tried to stop him already, but none have succeeded.  But you seem different, I sense an aura about you.  Perhaps you will attempt to *save* us?
+Well, many have tried to stop him already, but none have succeeded. But you seem different, I sense an aura about you. Perhaps you will attempt to *save* us?
 @match save
-If you would try and stop him, look for his fortress northwest of here.  The best way to find it is to hug the northern shore west--you can't miss it, its a giant fortress with a lava motte and its surrounded by mountains.  But heed my warning, his fortress is an extremely dangerous place, not meant for the weak.
+If you would try and stop him, look for his fortress northwest of here. The best way to find it is to hug the northern shore west--you can't miss it, its a giant fortress with a lava motte and its surrounded by mountains. But heed my warning, his fortress is an extremely dangerous place, not meant for the weak.
 endmsg
 face a_townsman2.111
 x 16
@@ -2154,7 +2154,7 @@ arch guildmaster
 name Old Man
 msg
 @match apartment
-Yes, you should buy an apartment.  There you can store some food and equipment.
+Yes, you should buy an apartment. There you can store some food and equipment.
 @match caterham
 Ha sorry, that's the old name of the town, I sometimes use it without paying attention.
 

@@ -8,7 +8,7 @@ enter_x 26
 enter_y 8
 msg
 Created:  2008-06-17 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2009-03-12 Chad Opperman | cromagic@sbcglobal.net
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -4296,7 +4296,7 @@ arch charwoman
 name Cleaning Woman
 msg
 @match *
-I wrestle...trash.
+I wrestle... trash.
 endmsg
 x 12
 y 1
@@ -6853,7 +6853,7 @@ end
 arch sign
 name Sumo Wrestling Explanation
 msg
-To play Sumo Wrestling, have one player stand on one pentagram, and another player on the other, and then wait a few moments.  Once that is achieved, both players will be teleported into the wrestling area. The goal of this game is to push your opponent outside of the wrestling area (onto the 'battleground' tiles) which will cause them to lose, and die (there is no death penalty though).  The remaining player will be teleported out upon victory. (WARNING: the only way this map can work is to have *only* the fatal/out-of-boundary area as arena tiles, that means if you use magic or go hostile and end up killing someone in the wrestling area or outside the safety fence, it will be a PK with the usual penalty, so please do not do that.
+To play Sumo Wrestling, have one player stand on one pentagram, and another player on the other, and then wait a few moments. Once that is achieved, both players will be teleported into the wrestling area. The goal of this game is to push your opponent outside of the wrestling area (onto the 'battleground' tiles) which will cause them to lose, and die (there is no death penalty though). The remaining player will be teleported out upon victory. (WARNING: the only way this map can work is to have *only* the fatal/out-of-boundary area as arena tiles, that means if you use magic or go hostile and end up killing someone in the wrestling area or outside the safety fence, it will be a PK with the usual penalty, so please do not do that.
 endmsg
 x 24
 y 8

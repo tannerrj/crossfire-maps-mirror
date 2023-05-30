@@ -9,7 +9,7 @@ enter_x 28
 enter_y 14
 msg
 Created:  2008-10-10 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-03-30 Rick Tanner
+Modified: 2023-05-29 Rick Tanner
 endmsg
 end
 arch blocked
@@ -6518,7 +6518,7 @@ end
 arch book_clasp
 name Owner's Guide
 msg
-Welcome to your storage building.  This fine facility has a auto-storing feature, so that you can store all your items into their respective areas faster than normal.  Also, there are powerful anti magic fields all through this facility, to make it impossible to have your loot destroyed.  To use the auto sort feature, place items on the pits above, then pull the lever.  That causes the items to fall through tubes and end up in different rooms to your sorting delight.  Enjoy!
+Welcome to your storage building. This fine facility has a auto-storing feature, so that you can store all your items into their respective areas faster than normal. Also, there are powerful anti magic fields all through this facility, to make it impossible to have your loot destroyed. To use the auto sort feature, place items on the pits above, then pull the lever. That causes the items to fall through tubes and end up in different rooms to your sorting delight. Enjoy!
 endmsg
 x 27
 y 9
@@ -6571,8 +6571,7 @@ end
 end
 arch magic_mouth
 msg
-Guardian says: If you are worthy to enter here, say enter.
-Be warned - if you are not welcome here you will suffer my wrath.
+Guardian says: If you are worthy to enter here, say enter. Be warned - if you are not welcome here you will suffer my wrath.
 endmsg
 x 27
 y 13
@@ -6917,8 +6916,7 @@ y 13
 end
 arch magic_mouth
 msg
-Guardian says: If you are worthy to enter here, say enter.
-Be warned - if you are not welcome here you will suffer my wrath.
+Guardian says: If you are worthy to enter here, say enter. Be warned - if you are not welcome here you will suffer my wrath.
 endmsg
 x 28
 y 13
