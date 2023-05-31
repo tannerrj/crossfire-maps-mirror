@@ -8,7 +8,7 @@ enter_x 9
 enter_y 26
 msg
 Created:  1997-07-15 Viola Krings
-Modified: 2022-07-18 Rick Tanner
+Modified: 2023-05-31 Rick Tanner
 endmsg
 reset_group stoneville_adventurers-guild
 end
@@ -5313,7 +5313,7 @@ arch elf
 name Nathirel, the elf priest
 msg
 @match *
-Come to Lythanders altar and pray.  If you are accepted, you can call yourself lucky.
+Come to Lythanders altar and pray. If you are accepted, you can call yourself lucky.
 endmsg
 face elf.151
 x 26

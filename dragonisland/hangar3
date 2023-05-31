@@ -8,7 +8,7 @@ enter_x 14
 enter_y 15
 msg
 Created:  2001-03-17
-Modified: 2022-07-18 Rick Tanner
+Modified: 2023-05-31 Rick Tanner
 endmsg
 reset_group stoneville_dragon-hangar
 end
@@ -3511,7 +3511,7 @@ end
 arch scroll
 name note
 msg
-The teleporter is not working.  An engineer has been called to fix it.
+The teleporter is not working. An engineer has been called to fix it.
 endmsg
 x 20
 y 27
@@ -4010,7 +4010,7 @@ y 24
 end
 arch magic_mouth
 msg
-Stop.  Where are you going?
+Stop. Where are you going?
 endmsg
 x 23
 y 25
@@ -4041,7 +4041,7 @@ arch dwarf
 name Dragon Dompteur
 msg
 @match fix teleporter|fix the teleporter
-Ah.  You're the engineer.  Wait, I'll open the door for you.
+Ah. You're the engineer. Wait, I'll open the door for you.
 @match *
 Go back to where you came from.
 endmsg
@@ -4780,7 +4780,7 @@ arch dwarf
 name Dragon Dompteur
 msg
 @match *
-This is the breeding area.  Only Dompteurs are allowed beyond this door.
+This is the breeding area. Only Dompteurs are allowed beyond this door.
 endmsg
 sp 0
 maxsp 0
