@@ -8,7 +8,7 @@ enter_x 10
 enter_y 18
 msg
 Created:  2004-03-07 Avion
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-06-04 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1165,7 +1165,7 @@ arch statue2
 msg
 Outpost Ara Nor
 -------------
-This outpost commissioned in the memory of Lord Ara of the sharp eye.  Hero of the Denau Uprising.
+This outpost commissioned in the memory of Lord Ara of the sharp eye. Hero of the Denau Uprising.
 endmsg
 x 8
 y 15
@@ -2376,7 +2376,7 @@ end
 arch merchant
 msg
 @match merchant|trade
-I mostly trade with the elves.  Some say it's dangerous but you just have to be cautious.
+I mostly trade with the elves. Some say it's dangerous but you just have to be cautious.
 @question elves Where are the elves?
 @question dangerous What do you mean with "dangerous"?
 @match elves
@@ -2385,7 +2385,7 @@ Yes there is a elven village to the west of here.
 Well the elves aren't really dangerous but the Dark Forest is...
 @question elves Where are the elves?
 @match *
-Hello, good to meet you.  I'm Zim, a merchant by trade.
+Hello, good to meet you. I'm Zim, a merchant by trade.
 @question merchant Who do you trade with out here in the wilderness?
 endmsg
 x 18

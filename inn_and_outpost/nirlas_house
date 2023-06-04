@@ -8,7 +8,7 @@ enter_x 24
 enter_y 6
 msg
 Created:  2004-05-28 Avion
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-06-04 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1181,10 +1181,10 @@ msg
 @match hi|hello
 Hello, I am Nirla, please make yourself welcome.
 @match dark|forest
-Although it may seem to be many places where you can find it, there is only one Dark Forest.  It is all connected - these connections are called The Greenway.
+Although it may seem to be many places where you can find it, there is only one Dark Forest. It is all connected - these connections are called The Greenway.
 @question greenway What is this "Greenway"?
 @match greenway
-The Greenway of the forest spans the world (and some say even time itself).  The portals are hard to find and the paths are chaotic and dangerous.  Only the experienced may find their way.
+The Greenway of the forest spans the world (and some say even time itself). The portals are hard to find and the paths are chaotic and dangerous. Only the experienced may find their way.
 @question portal Where can I find a portal?
 @match enter|portal
 Directly west of the Golden Yew you may find an entrance to The Greenway.
@@ -4878,7 +4878,7 @@ Hello two legs!
 @match talk|speak
 I can talk better than you can most likely.
 @match aza
-Do not trust Aza.  He is not the leader.
+Do not trust Aza. He is not the leader.
 @match *
 Hello.
 endmsg
@@ -5433,7 +5433,7 @@ end
 arch elf_1
 msg
 @match nirla
-Yes this is her home.  She is wise but also, she is the Queen's daughter.
+Yes this is her home. She is wise but also, she is the Queen's daughter.
 @question queen What queen are you talking about?
 @match queen
 The Queen of the elves.
