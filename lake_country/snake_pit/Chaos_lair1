@@ -8,8 +8,8 @@ height 36
 enter_x 16
 enter_y 30
 msg
-Created:  1995-06-04 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2022-07-21 Rick Tanner
+Created: 1995-06-04 Kundi, Xue (xkd@soda.berkeley.edu)
+Modified: 2023-06-05 Rick Tanner
 endmsg
 maplore
 @def ChaosLair
@@ -3191,7 +3191,7 @@ end
 arch magic_ear
 msg
 @match orcus|balrog|asmodeus|jessy
-A parade of guards and guardians appeared to greet.  You hope no one discovers you.
+A parade of guards and guardians appeared to greet. You hope no one discovers you.
 endmsg
 x 14
 y 23
@@ -3228,7 +3228,7 @@ Gatekeeper! OPEN!!.
 @match kill
 Great! We all need some excercises!
 @match sacrifice
-Aha, the more fresh flesh the better.  Put the sacrifice away!!
+Aha, the more fresh flesh the better. Put the sacrifice away!!
 @match *
 You'd better leave before I throw you out or summon more guards!
 endmsg
@@ -4632,7 +4632,7 @@ end
 arch magic_ear
 msg
 @match orcus|balrog|asmodeus|jessy
-A parade of guards and guardians appeared to greet.  You hope no one discovers you.
+A parade of guards and guardians appeared to greet. You hope no one discovers you.
 endmsg
 x 19
 y 23
@@ -4669,7 +4669,7 @@ Gatekeeper! OPEN!!.
 @match kill
 Great! We all need some excercises!
 @match sacrifice
-Aha, the more fresh flesh the better.  Put the sacrifice away!!
+Aha, the more fresh flesh the better. Put the sacrifice away!!
 @match *
 You'd better leave before I throw you out or summon more guards!
 endmsg

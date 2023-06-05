@@ -8,8 +8,8 @@ shopmax 25000
 width 25
 height 25
 msg
-Created:  1995-04-24 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2022-07-21 Rick Tanner
+Created: 1995-04-24 Kundi, Xue (xkd@soda.csua.berkeley.edu)
+Modified: 2023-06-05 Rick Tanner
 endmsg
 reset_group lakecountry_ebony-tiger-thief-guild
 end
@@ -2600,7 +2600,7 @@ arch smith
 name blackmarket master
 msg
 @match *
-You have to find out where to get the goodies for trading.  I have no other helpful information to give you.
+You have to find out where to get the goodies for trading. I have no other helpful information to give you.
 endmsg
 x 14
 y 22
@@ -2879,7 +2879,7 @@ arch bracers_dex
 name Essence of Flame
 name_pl Essences of Flame
 msg
-It's said to be from the spirit of an efreet.  It burns with red hot fury.
+It's said to be from the spirit of an efreet. It burns with red hot fury.
 endmsg
 face fire.111
 Cha 1
@@ -3253,7 +3253,7 @@ msg
 @match door|secret
 The door is between the two of us. Go straight.
 @match key
-Oh yeah.  You need to have the Master key of thievery to enter the next room. The keys are hidden under the table.
+Oh yeah. You need to have the Master key of thievery to enter the next room. The keys are hidden under the table.
 @match thievery
 The master key of thievery is a symbol of the guild, besides being a key. It has many uses and opens many doors that open guildmembers are allowed.
 @match *
@@ -3497,7 +3497,7 @@ arch mithril_chainmail
 name mithril chainmail of Winter
 name_pl mithril chainmails of Winter
 msg
-This special chainmail is covered with patterns of snow flake.  It was created by ancient high elves.
+This special chainmail is covered with patterns of snow flake. It was created by ancient high elves.
 endmsg
 Cha 3
 x 20
@@ -3777,7 +3777,7 @@ y 19
 end
 arch sign_e
 msg
-You need a fragment of chaos to trade for it.  The Gauntlets are an ingenious artifact that were made from the lost knowledge of the element of electricity.  It tunes the wearer in every aspect to the element.  However it has some undesirable effects, as the most powerful artifacts usually do.
+You need a fragment of chaos to trade for it. The Gauntlets are an ingenious artifact that were made from the lost knowledge of the element of electricity. It tunes the wearer in every aspect to the element. However it has some undesirable effects, as the most powerful artifacts usually do.
 endmsg
 x 22
 y 19
@@ -3798,7 +3798,7 @@ y 20
 end
 arch sign_e
 msg
-You need 30,000 diamonds to trade for this item.  Think of a way to transport the diamonds here.  The ring turns the wearer into a super-hero with incredible fighting power.
+You need 30,000 diamonds to trade for this item. Think of a way to transport the diamonds here. The ring turns the wearer into a super-hero with incredible fighting power.
 endmsg
 x 22
 y 20
@@ -3820,7 +3820,7 @@ y 21
 end
 arch sign_e
 msg
-You need a Thunderfist to trade for this item.  These pair of bracers have the power to turn the wearer semi-ethereal and protect it from physical attacks.  However it weakens the wearer both mentally and physically.
+You need a Thunderfist to trade for this item. These pair of bracers have the power to turn the wearer semi-ethereal and protect it from physical attacks. However it weakens the wearer both mentally and physically.
 endmsg
 x 22
 y 21

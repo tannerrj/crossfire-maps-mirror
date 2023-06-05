@@ -10,8 +10,8 @@ height 26
 enter_x 16
 enter_y 21
 msg
-Created:  1995-03-23
-Modified: 2021-09-30 Rick Tanner
+Created: 1995-03-23
+Modified: 2023-06-05 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -1044,7 +1044,7 @@ Crown of Might(Con+1, Str+1, Dex+1)
 Your quested items are three Glowing Crystals from the GemTunnel in the Dark Forest.
 Drop your quested items and you may take the crown..
 ***Special***
-Put one crystal on each of the three altars up there.  Oldie Moldie has bad memory, so bring all three together
+Put one crystal on each of the three altars up there. Oldie Moldie has bad memory, so bring all three together
 endmsg
 x 5
 y 18
@@ -1906,7 +1906,7 @@ arch smith
 name Oldie Moldie
 msg
 @match *
-Inside are my collection of fine gems.  Out at both wings are my collections of rare crowns of the lands.  I don't use them any more.  So I will give them to worthy adventurers.
+Inside are my collection of fine gems. Out at both wings are my collections of rare crowns of the lands. I don't use them any more. So I will give them to worthy adventurers.
 endmsg
 x 11
 y 13

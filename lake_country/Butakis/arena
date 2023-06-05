@@ -7,7 +7,7 @@ height 30
 enter_y 20
 msg
 Created:  1995-05-03
-Modified: 2021-07-21 Saiapatsu
+Modified: 2023-06-04 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -286,7 +286,7 @@ y 21
 end
 arch sign
 msg
-This arena is used to judge if a prisoner should die or allowed to be free.  If you want to try your luck go to the towers of luck in inner city.
+This arena is used to judge if a prisoner should die or allowed to be free. If you want to try your luck go to the towers of luck in inner city.
  -Arena Management
 endmsg
 x 1
@@ -2878,7 +2878,7 @@ y 19
 end
 arch sign
 msg
-Go to middle of the arena and say 'start' when you are ready.  No magic is can be casted in the arena and adjacent areas to prevent magical means of fleeing..
+Go to middle of the arena and say 'start' when you are ready. No magic is can be casted in the arena and adjacent areas to prevent magical means of fleeing..
 endmsg
 x 9
 y 19

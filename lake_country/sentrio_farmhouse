@@ -7,8 +7,8 @@ height 24
 enter_x 6
 enter_y 20
 msg
-Created:  2007-05-23 Nicolas Weeger
-Modified: 2021-09-21 Nicolas Weeger
+Created: 2007-05-23 Nicolas Weeger
+Modified: 2023-06-05 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -1985,11 +1985,11 @@ That is...
 
 I forgot exactly what they eat...
 @match egg|eggs
-Of course they lay eggs.  But they require special food, mind you, since they are special chicken!
+Of course they lay eggs. But they require special food, mind you, since they are special chicken!
 @match chicken|chickens
-Yes, those are special chicken, trained for combat.  Trust me, you don't want to bother them!
+Yes, those are special chicken, trained for combat. Trust me, you don't want to bother them!
 @match *
-Hello, I don't often see visitors.  Please feel free to look around, but don't bother the chickens, please.
+Hello, I don't often see visitors. Please feel free to look around, but don't bother the chickens, please.
 endmsg
 x 15
 y 7

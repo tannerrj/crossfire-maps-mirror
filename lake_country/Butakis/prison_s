@@ -7,8 +7,8 @@ width 20
 height 20
 enter_x 1
 msg
-Created:  1995-03-29 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2022-07-21 Rick Tanner
+Created: 1995-03-29 Kundi, Xue (xkd@soda.csua.berkeley.edu)
+Modified: 2023-06-05 Rick Tanner
 endmsg
 reset_group butakisfortress_prison
 end
@@ -1026,13 +1026,13 @@ arch smith
 name High Court Wizard, Tasury
 msg
 @match thunderbolt
-You have the right word.  Please go to the front and enter.  Since you have this special code word for regular access to the portal chamber; I will tell you the code to open the front gate.  It's "hailstorm".  Speak it to the wall opposite to the gate of the chamber.
+You have the right word. Please go to the front and enter. Since you have this special code word for regular access to the portal chamber; I will tell you the code to open the front gate. It's "hailstorm". Speak it to the wall opposite to the gate of the chamber.
 @match yes
 Tell me the password that the Lord gave you.
 @match use|travel|teleport|portal
 Do you have Lord Butakis' permission to use the portals?
 @match *
-If you don't have permission to be here, please leave.  I will not open the gate for you.
+If you don't have permission to be here, please leave. I will not open the gate for you.
 endmsg
 face wizard.151
 x 6

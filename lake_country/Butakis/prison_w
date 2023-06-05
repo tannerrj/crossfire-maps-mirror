@@ -8,7 +8,7 @@ enter_x 15
 enter_y 1
 msg
 Created:  1995-03-28
-Modified: 2022-07-21 Rick Tanner
+Modified: 2023-06-05 Rick Tanner
 endmsg
 reset_group butakisfortress_prison
 end
@@ -1472,9 +1472,9 @@ arch knight
 name Executioner
 msg
 @match yes
-Finally.  Here it goes.
+Finally. Here it goes.
 @match *
-Do you have the order to terminate these vermins?  I can't wait anymore!
+Do you have the order to terminate these vermins? I can't wait anymore!
 endmsg
 x 13
 y 4

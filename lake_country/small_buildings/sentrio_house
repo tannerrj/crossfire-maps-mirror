@@ -7,12 +7,12 @@ height 10
 enter_x 4
 enter_y 1
 msg
-Created:  2007-05-26 Nicolas Weeger
-Modified: 2021-09-21 Nicolas Weeger
+Created: 2007-05-26 Nicolas Weeger
+Modified: 2023-06-05 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
-Sentrio, scientist and chicken owner.  Will give location of the farm.
+Sentrio, scientist and chicken owner. Will give location of the farm.
 endmaplore
 end
 arch marble_blgr
@@ -393,7 +393,7 @@ arch lich
 name Sentrio
 msg
 @match chicken|egg|eggs
-Oh, you want some eggs from my farm? Just go there, and ask the farmer.  The farm is somewhere on the road to, hum, how is it called? Trainer Central? Something like that.
+Oh, you want some eggs from my farm? Just go there, and ask the farmer. The farm is somewhere on the road to, hum, how is it called? Trainer Central? Something like that.
 @match experiments
 Yes, I'm researching the source of magic.
 @match *

@@ -7,8 +7,8 @@ height 41
 enter_x 20
 enter_y 36
 msg
-Created:  1995-04-03
-Modified: 2022-07-21 Rick Tanner
+Created: 1995-04-03
+Modified: 2023-06-05 Rick Tanner
 endmsg
 reset_group lakecountry_elite-training-tower
 end
@@ -3792,9 +3792,9 @@ arch smith
 name Ninja Master, Galla
 msg
 @match yes
-Okay.  You may go in.  On each level you have to pay admission fee.  Now I have opened the doors for you.  Read the warnings in the lobby!
+Okay. You may go in. On each level you have to pay admission fee. Now I have opened the doors for you. Read the warnings in the lobby!
 @match *
-Hello adventurer.  Do you intend to use the training facilities upstairs?
+Hello adventurer. Do you intend to use the training facilities upstairs?
 endmsg
 face ninja.111
 x 15
@@ -4804,7 +4804,7 @@ end
 arch sign
 msg
 Warning 1:
-Do not leave litter on teleporters or other transporters.  That will stop them from properly functioning.
+Do not leave litter on teleporters or other transporters. That will stop them from properly functioning.
 endmsg
 x 19
 y 13
@@ -5318,7 +5318,7 @@ end
 arch sign
 msg
 Warning 2:
-Specially named monsters may be a lot harder than others of their kind.  They were selected out of their kind to perform certain functions.
+Specially named monsters may be a lot harder than others of their kind. They were selected out of their kind to perform certain functions.
 endmsg
 x 21
 y 13
