@@ -10,8 +10,8 @@ height 21
 enter_x 10
 enter_y 16
 msg
-Created:  1999-02-03 King Zoobus
-Modified: 2021-10-09 Rick Tanner
+Created: 1999-02-03 King Zoobus
+Modified: 2023-06-05 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -2284,7 +2284,7 @@ Do you wish to return to yours? A more powerful mage could perform a word of rec
 @match ship
 Few captains long to explore, and it is expensive to form an expedition. In this age, they fear far waters, Navar, most of all fears.
 @match etheric
-Kaladon, the wise, has dabbled in the etheric plane.  If he's not asleep, he may answer your question.
+Kaladon, the wise, has dabbled in the etheric plane. If he's not asleep, he may answer your question.
 endmsg
 x 16
 y 13
@@ -2378,7 +2378,7 @@ y 6
 carrying 10497
 arch book_clasp
 msg
-Go ye into the shady groves and summon the shadows there.  The elves in the wood know many magiks lost to us.  A wise man understands we are brothers.
+Go ye into the shady groves and summon the shadows there. The elves in the wood know many magiks lost to us. A wise man understands we are brothers.
  - Caladon the Druid
 endmsg
 end
@@ -2390,7 +2390,7 @@ endmsg
 end
 arch tome
 msg
-I found these strange plants growing up north near the mystic pond.  I hope the will make my potions more potent.  An old dwarf sold me this strange talisman.  I must get the guildmaster to help me identify it.  I need to ask Kaladon how to travel across the etheric plane.
+I found these strange plants growing up north near the mystic pond. I hope the will make my potions more potent. An old dwarf sold me this strange talisman. I must get the guildmaster to help me identify it. I need to ask Kaladon how to travel across the etheric plane.
 endmsg
 end
 arch random_plant

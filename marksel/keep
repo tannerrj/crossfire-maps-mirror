@@ -7,8 +7,8 @@ height 15
 enter_x 9
 enter_y 15
 msg
-Created:  1999-01-28 King Zoobus
-Modified: 2022-07-22 Rick Tanner
+Created: 1999-01-28 King Zoobus
+Modified: 2023-06-05 Rick Tanner
 endmsg
 reset_group marksel_marksel-keep
 end
@@ -211,7 +211,7 @@ end
 arch woman
 msg
 @match *
-The Royal Apartments are upstairs.  You don't need to go up there.
+The Royal Apartments are upstairs. You don't need to go up there.
 endmsg
 x 2
 y 4
@@ -847,9 +847,9 @@ end
 arch courier
 msg
 @match king|navar
-His city lies to the south.  He is ruler of our province... or was.  There is no suitable heir.   Who will be our next King? Oh, poor Queen Wilhema... her grief is great!
+His city lies to the south. He is ruler of our province... or was. There is no suitable heir. Who will be our next King? Oh, poor Queen Wilhema... her grief is great!
 @match *
-I bear a message to my Lord.  The King of Navar is dead.
+I bear a message to my Lord. The King of Navar is dead.
 endmsg
 x 8
 y 11
@@ -1221,7 +1221,7 @@ end
 arch warrior_1
 msg
 @match *
-The bandits have been most troublesome.  I don't know how much more we can take, I wish the King of Navar would send an army to help us.
+The bandits have been most troublesome. I don't know how much more we can take, I wish the King of Navar would send an army to help us.
 endmsg
 x 12
 y 8
