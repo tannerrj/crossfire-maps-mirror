@@ -8,8 +8,8 @@ height 140
 enter_x 29
 enter_y 112
 msg
-Created:  2003-11-09 mikeeusa
-Modified: 2021-10-02 Rick Tanner
+Created: 2003-11-09 mikeeusa
+Modified: 2023-06-06 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -57880,7 +57880,7 @@ y 47
 end
 arch magic_mouth
 msg
-A statue of a great wizard stands before you.  The wizard is holding a staff and is wearing a amulet of some sort...
+A statue of a great wizard stands before you. The wizard is holding a staff and is wearing a amulet of some sort...
 endmsg
 x 47
 y 48
@@ -59560,7 +59560,7 @@ arch fatman
 name Proprietor
 msg
 @match hi|hello
-Welcome to the dragon dock.  Please show your pass.
+Welcome to the dragon dock. Please show your pass.
 @match lord|valdak
 Oh... that business... I'd not venture to that castle far enough to the west if I were you.
 endmsg

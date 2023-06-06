@@ -8,8 +8,8 @@ height 99
 enter_x 50
 enter_y 97
 msg
-Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Created: 2004-08-03 Mikeeusa
+Modified: 2023-06-06 Rick Tanner
 endmsg
 outdoor 1
 reset_group citydeclouds_castle-de-clouds
@@ -45481,7 +45481,7 @@ arch elf_1
 name possessed elf lord Valdak
 msg
 @match *
-YoYoYou WiLlL BoW BeFoRe GrEaTeR PoWeRs oF DeAtH aNd SeE ThE WiZaRd WhOm CoNtRoLlS ThE PoWeRs FrOm FoTtH ThE PiT AnD tHe DaRk AlTeR! ThE CiTy wIlL DiE SoOn On tHe WoRd oF mE.  ThEy Do nOt wOrShIp ThE SkUlL fUlLy aS tHeY DiD BeFoRe.  ThEy HaVe AlSo FoRgOtTeN ThE CrEaToR oF ThEiR DwElLiNg aNd HiS gReAtEr PoWeR oF ThE DaRrRrK! DeAtH To YoU AnD AlL YoU oWn.
+YoYoYou WiLlL BoW BeFoRe GrEaTeR PoWeRs oF DeAtH aNd SeE ThE WiZaRd WhOm CoNtRoLlS ThE PoWeRs FrOm FoTtH ThE PiT AnD tHe DaRk AlTeR! ThE CiTy wIlL DiE SoOn On tHe WoRd oF mE. ThEy Do nOt wOrShIp ThE SkUlL fUlLy aS tHeY DiD BeFoRe. ThEy HaVe AlSo FoRgOtTeN ThE CrEaToR oF ThEiR DwElLiNg aNd HiS gReAtEr PoWeR oF ThE DaRrRrK! DeAtH To YoU AnD AlL YoU oWn.
 endmsg
 hp 400
 maxhp 400
@@ -61692,7 +61692,7 @@ arch locked_door1
 name force
 slaying strngchrmcdccf1
 msg
-A force restrains you.  You have no charm it is seeking.  You are not the minion.
+A force restrains you. You have no charm it is seeking. You are not the minion.
 endmsg
 face beach.111
 x 66
@@ -95637,7 +95637,7 @@ x 109
 end
 arch magic_mouth
 msg
-There is a great rumble in the air.  You sense the presence of the second wizard! He who you thought had been destroyed forever in the tower is here now!... but you cannot see him.  He must be using a charm...
+There is a great rumble in the air. You sense the presence of the second wizard! He who you thought had been destroyed forever in the tower is here now!... but you cannot see him. He must be using a charm...
 endmsg
 x 109
 y 1
