@@ -7,8 +7,8 @@ height 19
 enter_x 10
 enter_y 16
 msg
-Created:  1993-11-01 (john_cater@yahoo.com)
-Modified: 2021-10-02 Rick Tanner
+Created: 1993-11-01 (john_cater@yahoo.com)
+Modified: 2023-06-07 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -749,11 +749,11 @@ end
 arch magic_ear
 msg
 @match quest
-Praise God someone is here to save us.  We are being overrun by damned creatures that stalk the night.  So far we have been able to take care of them, but we cannot find their source.  I charge you with finding the source and stoping it, with any means possible...you might start with talking to that good for nothing High Wizzard of ours, Wizzo, you will find him in his shop, he may know something about the dead that plague us.
+Praise God someone is here to save us. We are being overrun by damned creatures that stalk the night. So far we have been able to take care of them, but we cannot find their source. I charge you with finding the source and stoping it, with any means possible...you might start with talking to that good for nothing High Wizzard of ours, Wizzo, you will find him in his shop, he may know something about the dead that plague us.
 @match necromancy
-Why do you ask about that vile art of magic, it is banned because our previous High Wizard practiced it regularly.  Bringing forth vile creatures.  But we put a stop to him, threw him in prison we did.
+Why do you ask about that vile art of magic, it is banned because our previous High Wizard practiced it regularly. Bringing forth vile creatures. But we put a stop to him, threw him in prison we did.
 @match wizzo
-Yes that Wizzo is a good for nothing Leach, oh he was of some use to the city until he opened his shop.  He is more entrepreneur than wizzard now.
+Yes that Wizzo is a good for nothing Leach, oh he was of some use to the city until he opened his shop. He is more entrepreneur than wizzard now.
 @match *
 I would like to help you, but I am very busy, you must be very specific.
 endmsg

@@ -7,8 +7,8 @@ height 26
 enter_x 12
 enter_y 21
 msg
-Created:  2008-12-07 Rick Tanner
-Modified: 2022-07-24 Rick Tanner
+Created: 2008-12-07 Rick Tanner
+Modified: 2023-06-07 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_church_of_valkyrie
@@ -1071,7 +1071,7 @@ I serve Valkyrie, goddess of battle. I have proven my faith to her.
 @match proof|proven
 Valkyrie wants all would worship her to prove their worth and skill with a test of faith.
 @match test|faith
-Down the stairs to this Church is where you start.  That is all I will and can say.
+Down the stairs to this Church is where you start. That is all I will and can say.
 @match *
 In faith, live and death .. I serve Valkyrie!
 endmsg
@@ -1903,7 +1903,7 @@ connected 33
 end
 arch magic_mouth
 msg
-Testament of your faith awaits you down the stairs.  Prove your worth to Valkyrie!
+Testament of your faith awaits you down the stairs. Prove your worth to Valkyrie!
 endmsg
 x 12
 y 9

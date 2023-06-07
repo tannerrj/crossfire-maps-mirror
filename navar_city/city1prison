@@ -7,8 +7,8 @@ width 26
 height 23
 enter_y 1
 msg
-Created:  1993-10-27
-Modified: 2022-01-15 Kevin Zheng
+Created: 1993-10-27
+Modified: 2023-06-07 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -3170,7 +3170,7 @@ end
 arch prisoner
 msg
 @match wizard
-Oh yes... I was imprisoned with the wizard, he tried to hex me every day, good thing he was bound with silver otherwise it would have worked.  But he escaped long ago.  Out of this very cell, he dug his way out, and covered the hole back up.
+Oh yes... I was imprisoned with the wizard, he tried to hex me every day, good thing he was bound with silver otherwise it would have worked. But he escaped long ago. Out of this very cell, he dug his way out, and covered the hole back up.
 @match *
 Please help me, I cannot escape like the old wizard, I have no strength left to dig.
 endmsg
@@ -3571,14 +3571,14 @@ end
 arch scroll
 name Torn Scroll
 msg
-This seems to be the torn remains of some evil spell.  You cannot make the words out, but symbols of Death permeate the reading.  You get the feeling some evil has been set loose upon the world.  Something catches your eye on the scroll, it looks like something written in blood........ "You will pay for all that you have done Kurte!"
+This seems to be the torn remains of some evil spell. You cannot make the words out, but symbols of Death permeate the reading. You get the feeling some evil has been set loose upon the world. Something catches your eye on the scroll, it looks like something written in blood........ "You will pay for all that you have done Kurte!"
 endmsg
 x 22
 y 21
 end
 arch corpse
 msg
-This corpse must be of the wizard you have been told of.  But there is something strange about it, there are no bones remaining......
+This corpse must be of the wizard you have been told of. But there is something strange about it, there are no bones remaining......
 endmsg
 x 22
 y 21

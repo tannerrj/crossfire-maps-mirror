@@ -7,8 +7,8 @@ height 50
 enter_x 11
 enter_y 2
 msg
-Created:  2003-10-10 Avion
-Modified: 2022-01-15 Kevin Zheng
+Created: 2003-10-10 Avion
+Modified: 2023-06-07 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1305,9 +1305,9 @@ msg
 @match young
 Well when you are as old as me everyone else is a young one...
 @match yes|upstairs
-I never go up there - I think it's haunted.  Anyway sometimes folk never come back down...
+I never go up there - I think it's haunted. Anyway sometimes folk never come back down...
 @match *
-Hello there young one.  Headed upstairs?
+Hello there young one. Headed upstairs?
 endmsg
 x 5
 y 10
@@ -3977,7 +3977,7 @@ end
 arch woman2
 msg
 @match yes
-Oh, good they don't have many friends.  They are upstairs.
+Oh, good they don't have many friends. They are upstairs.
 @match boys
 Yes, the little scamps are playing upstairs.
 @match food

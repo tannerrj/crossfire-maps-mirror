@@ -7,8 +7,8 @@ height 30
 enter_x 15
 enter_y 28
 msg
-Created:  2003-08-06 Avion
-Modified: 2022-07-24 Rick Tanner
+Created: 2003-08-06 Avion
+Modified: 2023-06-07 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_casino-infernal
@@ -2386,7 +2386,7 @@ name Rudy
 title the floorman
 msg
 @match *
-Welcome to the Casino Infernal!  Please enjoy your visit.
+Welcome to the Casino Infernal! Please enjoy your visit.
 endmsg
 face halfling2.151
 animation halfling2
@@ -2598,7 +2598,7 @@ y 9
 end
 arch magic_mouth
 msg
-My my, at Napoleon did surrender.  Oh yeah, and I have met my destiny in quite a similar way.  The history book on the shelf.  Is always repeating itself.
+My my, at Napoleon did surrender. Oh yeah, and I have met my destiny in quite a similar way. The history book on the shelf. Is always repeating itself.
 endmsg
 x 13
 y 10
@@ -3629,7 +3629,7 @@ arch sign_e
 name Imperial Slots
 msg
 Odds for Imperial Slots:
-3 Dreads pay  1
+3 Dreads pay 1
 3 Dragons pay  2
 3 Knights pay  3
 3 Wizards pay  4
@@ -4416,7 +4416,7 @@ y 15
 end
 arch magic_mouth
 msg
-You hear angry muttering coming from inside this slot machine.  Perhaps it is broken.
+You hear angry muttering coming from inside this slot machine. Perhaps it is broken.
 endmsg
 food 1
 x 21
@@ -4429,7 +4429,7 @@ end
 arch slotmachine2
 name Moria
 msg
-You hear angry muttering coming from inside this slot machine.  Perhaps it is broken.
+You hear angry muttering coming from inside this slot machine. Perhaps it is broken.
 endmsg
 face slotmachine1.111
 food 0
@@ -4493,7 +4493,7 @@ name Sadie
 title The Bartender
 msg
 @match *
-Wanna drink?  Five gold big spender.
+Wanna drink? Five gold big spender.
 endmsg
 face woman2.111
 animation woman2

@@ -9,8 +9,8 @@ height 39
 enter_x 11
 enter_y 34
 msg
-Created:  2012-03-30
-Modified: 2023-04-18 Rick Tanner
+Created: 2012-03-30
+Modified: 2023-06-07 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2856,7 +2856,7 @@ end
 arch tome
 name On the Cure of Disease
 msg
-You find a lengthy treatise on disease and its cure.  Some diseases, apparently, are more difficult to cure than others, and require a higher level of skill.  Other diseases can be expected to run their course and go away without causing serious harm, unless of course, one is in a situation in which temporary incapacity is fatal.  The cure disease spell is effective against disease, except as remarked above.  Restoration also works well against disease.  Cure wounds spells won't cure disease, but they will reduce symptoms.  Cure wounds spells therefore can be used to keep a person alive until the disease may be cured.  Also, they may keep him alive until the disease naturally goes away.  There are also claims of herbal, alchemical, animal, or other magical cures for disease, but these belong in another treatise.
+You find a lengthy treatise on disease and its cure. Some diseases, apparently, are more difficult to cure than others, and require a higher level of skill. Other diseases can be expected to run their course and go away without causing serious harm, unless of course, one is in a situation in which temporary incapacity is fatal. The cure disease spell is effective against disease, except as remarked above. Restoration also works well against disease. Cure wounds spells won't cure disease, but they will reduce symptoms. Cure wounds spells therefore can be used to keep a person alive until the disease may be cured. Also, they may keep him alive until the disease naturally goes away. There are also claims of herbal, alchemical, animal, or other magical cures for disease, but these belong in another treatise.
 endmsg
 x 10
 y 26
@@ -2872,7 +2872,7 @@ end
 arch tome
 name On the Healing of Wounds
 msg
-Many spells are effective for speeding the recovery of a wounded person.  Some potions are also efficacious.  In increasing order of effectiveness:
+Many spells are effective for speeding the recovery of a wounded person. Some potions are also efficacious. In increasing order of effectiveness:
 minor healing
 medium healing
 major healing
@@ -3583,7 +3583,7 @@ end
 arch tome
 name How to Restore Drained Abilities
 msg
-Drained abilities (stats), lost by fighting undead, or dying, may be restored via drinking a "potion of life."  The ones who are experienced in the skill of priesthood, they can pray over an altar and eventually get restored by their deity.  However, this does not work for all cults.
+Drained abilities (stats), lost by fighting undead, or dying, may be restored via drinking a "potion of life." The ones who are experienced in the skill of priesthood, they can pray over an altar and eventually get restored by their deity. However, this does not work for all cults.
 endmsg
 x 12
 y 26
@@ -3599,7 +3599,7 @@ end
 arch tome
 name Cures for Miscellaneous Problems
 msg
-Poison may be cured via the "cure poison" prayer.  Madness or confusion may be cured via the "cure confusion" prayer.  Blindness may be cured via the "cure blindness" prayer.  The "restoration" spell cures all hazards mentioned above.  Note that these spells are also available on scrolls.
+Poison may be cured via the "cure poison" prayer. Madness or confusion may be cured via the "cure confusion" prayer. Blindness may be cured via the "cure blindness" prayer. The "restoration" spell cures all hazards mentioned above. Note that these spells are also available on scrolls.
 endmsg
 x 12
 y 27

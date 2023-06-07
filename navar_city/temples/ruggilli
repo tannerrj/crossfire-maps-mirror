@@ -8,8 +8,8 @@ height 27
 enter_x 11
 enter_y 22
 msg
-Created:  2003-11 Avion
-Modified: 2022-07-24 Rick Tanner
+Created: 2003-11 Avion
+Modified: 2023-06-07 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_temple_of_ruggilli
@@ -841,7 +841,7 @@ Ruggilli will lend the immolating fires to any who choose to follow!
 @match immolating|fires
 Yes! A Flame which will consume your enemies!
 @match follow|worship|door|gate|stair
-The Consuming worm Ruggilli will only accept followers who can pass his test.  Descend down these stairs destroy His enemies and pass the tests and a pass shall be granted.
+The Consuming worm Ruggilli will only accept followers who can pass his test. Descend down these stairs destroy His enemies and pass the tests and a pass shall be granted.
 @match quest
 When you are ready, your quest shall be given!
 @match *
@@ -1801,7 +1801,7 @@ connected 10
 end
 arch magic_mouth
 msg
-Proceed down those stairs and defeat The Servant.  Ruggilli will then permit entrance.
+Proceed down those stairs and defeat The Servant. Ruggilli will then permit entrance.
 endmsg
 x 12
 y 11
