@@ -7,8 +7,8 @@ height 30
 enter_x 3
 enter_y 27
 msg
-Created:  1994-05-27 langley (langley@fermat.dartmouth.edu)
-Modified: 2022-07-26 Rick Tanner
+Created: 1994-05-27 langley (langley@fermat.dartmouth.edu)
+Modified: 2023-06-06 Rick Tanner
 endmsg
 reset_group portjoseph_moogly-bill
 end
@@ -255,7 +255,7 @@ end
 arch pirate
 msg
 @match *
-Arr.  Ye won't take this fort alive!
+Arr. Ye won't take this fort alive!
 endmsg
 maxhp 30
 x 1
@@ -745,7 +745,7 @@ end
 arch magic_ear
 msg
 @match tortola
-Aye!  Tortola it is!
+Aye! Tortola it is!
 endmsg
 x 3
 y 29

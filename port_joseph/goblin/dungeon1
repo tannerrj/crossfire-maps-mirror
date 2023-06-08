@@ -8,8 +8,8 @@ height 16
 enter_x 1
 enter_y 5
 msg
-Created:  1994-08-27 langley (langley@fermat.dartmouth.edu)
-Modified: 2022-07-26 Rick Tanner
+Created: 1994-08-27 langley (langley@fermat.dartmouth.edu)
+Modified: 2023-06-06 Rick Tanner
 endmsg
 reset_group portjoseph_goblin-island
 end
@@ -1186,11 +1186,11 @@ arch kobold
 name cowardly kobold
 msg
 @match why
-I hurt nobody!  I steal nothing!
+I hurt nobody! I steal nothing!
 @match steal|nothing
-I just want to look at it, thats all!  It so pretty and shiny!
+I just want to look at it, thats all! It so pretty and shiny!
 @match shiny|it|pretty|look at
-Buggle's key thats what!  Don't hurt me!
+Buggle's key thats what! Don't hurt me!
 @match buggle
 Buggle the big and mean guy!
 @match *

@@ -7,8 +7,8 @@ height 19
 enter_x 16
 enter_y 6
 msg
-Created:  1994-05-17 langley (langley@fermat.dartmouth.edu)
-Modified: 2021-08-01 Andreas Kirschbaum
+Created: 1994-05-17 langley (langley@fermat.dartmouth.edu)
+Modified: 2023-06-06 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1402,7 +1402,7 @@ msg
 @match thief
 Who you calling thief?
 @match fight
-Yeah, the fight.  What are you, stupid?
+Yeah, the fight. What are you, stupid?
 @match *
 Why don't you mind your own business and watch the fight?
 endmsg
@@ -1629,13 +1629,13 @@ msg
 @match redeye
 That's me name, what of it?
 @match percival|percy
-Ah, ye want to learn his secrets?  Well, the only one who he will speak to is the lovely lady Portia.
+Ah, ye want to learn his secrets? Well, the only one who he will speak to is the lovely lady Portia.
 @match portia|lady
-Eh, a pretty lass in her day.  Ask her about Percy, not me.  She has a house up near the church.
+Eh, a pretty lass in her day. Ask her about Percy, not me. She has a house up near the church.
 @match treasure
-Heh, heh.  Everyones after a pirate's gold aren't they?  Mind you, if ya go after it, more than likely yer bones will litter the sandy deep.
+Heh, heh. Everyones after a pirate's gold aren't they? Mind you, if ya go after it, more than likely yer bones will litter the sandy deep.
 @match moogly|bill
-Moogly Bill was a terror to peaceful folk.  He took his secrets to his grave, and made sure his grave was not to be harmed.
+Moogly Bill was a terror to peaceful folk. He took his secrets to his grave, and made sure his grave was not to be harmed.
 @match *
 What are ye babbling about?
 endmsg
@@ -1920,7 +1920,7 @@ msg
 @match redeye
 Heh, he's me mate oer in the corner.
 @match *
-Arrr!  Get him ye landlubber!
+Arrr! Get him ye landlubber!
 endmsg
 x 16
 y 9
@@ -2071,11 +2071,11 @@ end
 arch thief_1
 msg
 @match treasure
-Hah, you want in our treasure, well you might have better luck than us.  Its old Moogly Bill's treasure we be chattin' about.
+Hah, you want in our treasure, well you might have better luck than us. Its old Moogly Bill's treasure we be chattin' about.
 @match grave|secret
-Yes, he was buried with his treasure map.  Only Pegleg Percival knows where.
+Yes, he was buried with his treasure map. Only Pegleg Percival knows where.
 @match redeye
-Redeye is in the back room watching the fight.  He's the ugly one.
+Redeye is in the back room watching the fight. He's the ugly one.
 endmsg
 x 17
 y 15
@@ -2347,15 +2347,15 @@ end
 arch pirate
 msg
 @match percy|percival|pegleg
-Old Percival is retired and spends his time fishin.  He won't talk to the likes o' us.
+Old Percival is retired and spends his time fishin. He won't talk to the likes o' us.
 @match hello|howdy|hi
-Arr.  Goodday to ye.
+Arr. Goodday to ye.
 @match bill|moogly
-Ay, the dread pirate Moogly Bill. Terror of the high seas he was.  No one found his pirate loot, he took the secret of where it is to his grave.
+Ay, the dread pirate Moogly Bill. Terror of the high seas he was. No one found his pirate loot, he took the secret of where it is to his grave.
 @match loot
 Enough for a king's ransom . . . as Redeye puts it.
 @match buried|where
-<Shrug>.  They buried the map with ole Moogly, rest his soul.  Redeye knows more about that than we do, but he's pretty tight-lipped about it.
+<Shrug>. They buried the map with ole Moogly, rest his soul. Redeye knows more about that than we do, but he's pretty tight-lipped about it.
 endmsg
 x 19
 y 15

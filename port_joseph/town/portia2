@@ -7,8 +7,8 @@ height 16
 enter_x 13
 enter_y 5
 msg
-Created:  1994-05-26 langley
-Modified: 2022-07-26 Rick Tanner
+Created: 1994-05-26 langley
+Modified: 2023-06-06 Rick Tanner
 endmsg
 reset_group portjoseph_portias-house
 end
@@ -2114,7 +2114,7 @@ msg
 @match hello|hi|greetings
 Hello, stranger, you sure do know how to make an entrance!
 @match percival|percy
-Ah Percy!  Being stubborn is he? Well, he and I are old friends.  Yes, just mention `violet' and he'll know who sent you.
+Ah Percy! Being stubborn is he? Well, he and I are old friends. Yes, just mention `violet' and he'll know who sent you.
 @match violet
 That's a private matter between Percy and I.
 @match pirate
@@ -2122,9 +2122,9 @@ My pirating days are over.
 @match entrance
 You handily dealt with my rough crew, now, what can I do for you?
 @match moogly|bill
-The dread Moogly Bill.  It is said he haunts his grave tormented by the souls of those he murdered.
+The dread Moogly Bill. It is said he haunts his grave tormented by the souls of those he murdered.
 @match grave
-Percy buried him years ago.  The last of Moogly Bill's pirates.
+Percy buried him years ago. The last of Moogly Bill's pirates.
 @match *
 If you're going to talk nonsense, get out of my house.
 endmsg
