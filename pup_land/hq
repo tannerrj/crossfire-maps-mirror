@@ -7,8 +7,8 @@ height 36
 enter_x 10
 enter_y 34
 msg
-Created:  1996-02-14
-Modified: 2021-11-01 DraugTheWhopper
+Created: 1996-02-14
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -279,7 +279,7 @@ arch viking
 name viking chief
 msg
 @match *
-I trained them very hard.  They are very strong! We cannot be overcome by the enemy!!
+I trained them very hard. They are very strong! We cannot be overcome by the enemy!!
 endmsg
 face viking.131
 hp 100
@@ -1307,7 +1307,7 @@ arch thief
 name councilor
 msg
 @match calvin
-What! He is a spy!? I see. We'll put him to torture.  Thanks, this is your reward.
+What! He is a spy!? I see. We'll put him to torture. Thanks, this is your reward.
 @match *
 I've heard that spies of the government have entered secretly. If you discover one of them, please let me know!
 endmsg
@@ -2215,7 +2215,7 @@ arch medium_guard
 name guard
 msg
 @match hi|hello
-Here is the Liberation Army Headquarters.  Are you our member? If you are, please prove it.
+Here is the Liberation Army Headquarters. Are you our member? If you are, please prove it.
 endmsg
 hp 1200
 x 8
@@ -3279,7 +3279,7 @@ arch medium_guard
 name guard
 msg
 @match hi|hello
-Here is the Liberation Army Headquarters.  Are you our member? If you are, please prove it.
+Here is the Liberation Army Headquarters. Are you our member? If you are, please prove it.
 endmsg
 hp 1200
 x 12
@@ -3358,7 +3358,7 @@ If you don't know about escape passage, please go to the tavern in lone town and
 @match hidden|exit
 You can see the hidden exit by using the spell of show invisible.
 @match yes
-I have been invited by Eureca once.  So I know his castle. To reach the upper floor of the castle, you need to find the Hidden Exit in the Escape Passage of the castle. Regular Army doesn't seem to know this information.  Please go there to find Eureca's family!
+I have been invited by Eureca once. So I know his castle. To reach the upper floor of the castle, you need to find the Hidden Exit in the Escape Passage of the castle. Regular Army doesn't seem to know this information. Please go there to find Eureca's family!
 @match *
 You are the spy of our army, right? I have information concerning Eureca's castle. Do you want to hear it?
 endmsg

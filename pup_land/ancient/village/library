@@ -8,7 +8,7 @@ enter_x 6
 enter_y 12
 msg
 Created:  2000-06-03
-Modified: 2021-11-01 DraugTheWhopper
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -162,7 +162,7 @@ end
 arch book_clasp
 name History of Pup Land, part 1
 msg
-... The `Golden Age' was a great period of peace and wealth.  There were four kings ruling side by side...
+... The `Golden Age' was a great period of peace and wealth. There were four kings ruling side by side...
 endmsg
 face tome.111
 x 1
@@ -463,7 +463,7 @@ end
 arch book_read
 name History of Pup Land, part 3
 msg
-... As the rulers were gone, wars erupted and a lot of blood was shed.  But things should even get worse: The Evil Masters appeared, spreading terror and pain...
+... As the rulers were gone, wars erupted and a lot of blood was shed. But things should even get worse: The Evil Masters appeared, spreading terror and pain...
 endmsg
 x 3
 y 1
@@ -621,7 +621,7 @@ end
 arch book_read
 name History of Pup Land, part 4
 msg
-... The Evil Masters could not be stopped.  A weak army, consisting of farmers and townsmen mainly, was sent to combat them - they returned... undead... killing their own wives and children...
+... The Evil Masters could not be stopped. A weak army, consisting of farmers and townsmen mainly, was sent to combat them - they returned... undead... killing their own wives and children...
 endmsg
 x 4
 y 1
@@ -1456,7 +1456,7 @@ end
 arch book_read
 name facts about Gothwolte, part 1
 msg
-... Not much is know about Gothwolte.  He just appeared one day and lived in the Evil Master's castle since then.  He seems to have become their leader...
+... Not much is know about Gothwolte. He just appeared one day and lived in the Evil Master's castle since then. He seems to have become their leader...
 endmsg
 x 10
 y 1
@@ -1545,7 +1545,7 @@ carrying 4000
 arch book_clasp
 name dusty old book
 msg
-... Exploring the underground caves, I suddenly met a breed of mighty earth-spirits! I summoned a devastating bullet storm and they seemed to get hurt - But then I ran out of mana.  A balm of travelling saved my life that day... I never set foot to the underground caves since.
+... Exploring the underground caves, I suddenly met a breed of mighty earth-spirits! I summoned a devastating bullet storm and they seemed to get hurt - But then I ran out of mana. A balm of travelling saved my life that day... I never set foot to the underground caves since.
 -- Flake, the wizard --
 endmsg
 end
@@ -1973,7 +1973,7 @@ arch tome
 name book mortex
 slaying mortex
 msg
-   With this book, you can translate the ancient script "mortex" into English.
+  With this book, you can translate the ancient script "mortex" into English.
 endmsg
 x 14
 y 1

@@ -8,7 +8,7 @@ enter_x 7
 enter_y 1
 msg
 Created:  1996-05-07
-Modified: 2022-09-25 DraugTheWhopper
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -336,7 +336,7 @@ y 12
 end
 arch table
 msg
-   There are crumbs of bread on this table.  As if someone ate at this table recently.
+   There are crumbs of bread on this table. As if someone ate at this table recently.
 endmsg
 x 3
 y 12
@@ -1832,7 +1832,7 @@ end
 arch magic_mouth
 name 6 (unlucky)
 msg
-You hear the sound of bursting metal.  (Looks like you had bad luck - Try again later.)
+You hear the sound of bursting metal. (Looks like you had bad luck - Try again later.)
 endmsg
 x 18
 y 15

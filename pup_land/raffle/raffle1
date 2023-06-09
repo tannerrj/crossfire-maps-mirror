@@ -10,8 +10,8 @@ height 30
 enter_x 1
 enter_y 7
 msg
-Created:  1996-12-29
-Modified: 2022-07-13 Rick Tanner
+Created: 1996-12-29
+Modified: 2023-06-09 Rick Tanner
 endmsg
 reset_group pupland-raffle1
 end
@@ -1810,7 +1810,7 @@ end
 arch locked_door2
 slaying raffle_key_No1
 msg
-You need the raffle key No. 1 to open this door.  If you have it, you can draw the raffle a second time!
+You need the raffle key No. 1 to open this door. If you have it, you can draw the raffle a second time!
 endmsg
 x 5
 y 23

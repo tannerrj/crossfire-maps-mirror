@@ -10,8 +10,8 @@ height 20
 enter_x 12
 enter_y 1
 msg
-Created:  1996-02-10
-Modified: 2022-01-05 Kevin Zheng
+Created: 1996-02-10
+Modified: 2023-06-09 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -747,7 +747,7 @@ msg
 @match yes|beer|war|senseless
 Did you ever meet the scholars of Kurte in their huts next to the sea? They are so wise, ask them about the war...
 @match *
-The war in Pup Land is so senseless.  Come on, have a beer with me.
+The war in Pup Land is so senseless. Come on, have a beer with me.
 endmsg
 hp 100
 x 4
@@ -1586,7 +1586,7 @@ y 18
 end
 arch sign
 msg
-Presenting the Lucky Lady Slots courtesy of Casino Infernal.  Pull the handle and try your luck.  Please visit our Casino in Navar!
+Presenting the Lucky Lady Slots courtesy of Casino Infernal. Pull the handle and try your luck. Please visit our Casino in Navar!
 endmsg
 x 10
 y 18

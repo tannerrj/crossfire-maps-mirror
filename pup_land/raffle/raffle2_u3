@@ -9,8 +9,8 @@ height 32
 enter_x 1
 enter_y 10
 msg
-Created:  1997-04-01
-Modified: 2022-07-14 Rick Tanner
+Created: 1997-04-01
+Modified: 2023-06-09 Rick Tanner
 endmsg
 reset_group pupland-raffle2
 end
@@ -220,7 +220,7 @@ arch magic_mouth
 name 1203
 msg
 Rufus says:
-Arrgh! You murdered Raffy, my friend.  Now I'll kill you!
+Arrgh! You murdered Raffy, my friend. Now I'll kill you!
 endmsg
 x 1
 y 5
@@ -3215,7 +3215,7 @@ end
 arch sign
 name Instructions
 msg
-With this transport mechanism you can send items to the other side (where your teammate is).  To use it, follow the instructions:
+With this transport mechanism you can send items to the other side (where your teammate is). To use it, follow the instructions:
 o Put an item into the cage on your left.
 o Set lever to "on."
 o After transport, set lever to "off."
@@ -3801,7 +3801,7 @@ end
 arch sign
 name Instructions
 msg
-With this transport mechanism you can send items to the other side (where your teammate is).  To use it, follow the instructions:
+With this transport mechanism you can send items to the other side (where your teammate is). To use it, follow the instructions:
 o Put an item into the cage on your right.
 o Set lever to "on."
 o After transport, set lever to "off."

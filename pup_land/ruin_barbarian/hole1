@@ -8,8 +8,8 @@ height 32
 enter_x 2
 enter_y 29
 msg
-Created:  1997-02-27
-Modified: 2021-08-13 Saiapatsu
+Created: 1997-02-27
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch pstone_2
@@ -1067,7 +1067,7 @@ x 5
 end
 arch magic_mouth
 msg
-Something is written on the door.  But it's hard to read, because the surface of the gate is in the state of decay:
+Something is written on the door. But it's hard to read, because the surface of the gate is in the state of decay:
 "ta.is..n
  sp..nx's h.ad
  G.an. Wo.m's e.e
@@ -1455,7 +1455,7 @@ end
 arch locked_door2
 slaying barbarian_cristalkey
 msg
-You can't open this door.  There's a spherical hollow keeping the door shut.
+You can't open this door. There's a spherical hollow keeping the door shut.
 endmsg
 x 6
 y 16
@@ -3920,7 +3920,7 @@ speed 0.300000
 end
 arch magic_mouth
 msg
-Strange... The ruin is filled with ogres.  And there is light... How can this be? ...Magic?
+Strange... The ruin is filled with ogres. And there is light... How can this be? ...Magic?
 endmsg
 x 15
 y 24

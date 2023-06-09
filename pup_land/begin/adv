@@ -7,8 +7,8 @@ height 15
 enter_x 3
 enter_y 12
 msg
-Created:  1996-02-13
-Modified: 2020-10-12 SilverNexus
+Created: 1996-02-13
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch marble
@@ -341,7 +341,7 @@ connected 11
 arch note
 name hint from the semi-gods 8
 msg
-Be careful when collecting food in dungeons.  Poisoned food can kill players of low level very quick! Check if the food stacks with the pieces you're already carrying.
+Be careful when collecting food in dungeons. Poisoned food can kill players of low level very quick! Check if the food stacks with the pieces you're already carrying.
 endmsg
 end
 arch note
@@ -365,13 +365,13 @@ end
 arch note
 name hint from the semi-gods 5
 msg
-Raising your Stats (Str/Dex/Con/...) by drinking potions of Strength/Dexterity/..etc is the best way to level up quickly.  Those cannot be found in shops.  Hence, in the beginning, you should try to find places (in dungeons) where to obtain random potions.
+Raising your Stats (Str/Dex/Con/...) by drinking potions of Strength/Dexterity/..etc is the best way to level up quickly. Those cannot be found in shops. Hence, in the beginning, you should try to find places (in dungeons) where to obtain random potions.
 endmsg
 end
 arch note
 name hint from the semi-gods 4
 msg
-You can get lots of useful information by examining all kinds of objects in your surrounding.  For example:
+You can get lots of useful information by examining all kinds of objects in your surrounding. For example:
 o Names of unreachable items.
 o Equipment of monsters/NPCs.
 ------
@@ -392,13 +392,13 @@ end
 arch note
 name hint from the semi-gods 2
 msg
-When you die - and that will happen - you loose some experience and one Stat (like Str -1 or Wis -1).  The exp. is gone, but the Stats can be recovered by drinking a potion of life! For skilled priests there is yet an easier way: Pray over an altar of your deity... The gods won't ignore the bidding of a worthy disciple.
+When you die - and that will happen - you loose some experience and one Stat (like Str -1 or Wis -1). The exp. is gone, but the Stats can be recovered by drinking a potion of life! For skilled priests there is yet an easier way: Pray over an altar of your deity... The gods won't ignore the bidding of a worthy disciple.
 endmsg
 end
 arch note
 name hint from the semi-gods 1
 msg
-Bombs are very useful to boost magic experience.  To create bombs, you must learn the spell "create bomb."  There are rumours about a rod of create bomb somewhere in the world.
+Bombs are very useful to boost magic experience. To create bombs, you must learn the spell "create bomb." There are rumours about a rod of create bomb somewhere in the world.
 endmsg
 end
 end

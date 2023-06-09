@@ -7,8 +7,8 @@ height 18
 enter_x 1
 enter_y 16
 msg
-Created:  1996-05-21
-Modified: 2021-11-01 DraugTheWhopper
+Created: 1996-05-21
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -455,7 +455,7 @@ arch sailor
 name lonely man
 msg
 @match *
-Look at those fools.  They believe in Siegfried, their `hero.'  They are so scared, they would believe in anything as long as it makes them feel better!
+Look at those fools. They believe in Siegfried, their `hero.' They are so scared, they would believe in anything as long as it makes them feel better!
 endmsg
 hp 180
 maxhp 180
@@ -534,11 +534,11 @@ end
 arch priest
 msg
 @match necromancer
-He is very nasty because he dislikes Siegfried.  He lives in the mountains.  But Siegfried is kind enough to let him live for another week or two.
+He is very nasty because he dislikes Siegfried. He lives in the mountains. But Siegfried is kind enough to let him live for another week or two.
 @match hole
-Monsters manage to come out.  I guess they are Necromancer's work.
+Monsters manage to come out. I guess they are Necromancer's work.
 @match *
-There is a Hole in this village.  Many monsters live in that hole.  Siegfried prevents them from coming out.
+There is a Hole in this village. Many monsters live in that hole. Siegfried prevents them from coming out.
 endmsg
 face priest.131
 hp 100
@@ -1239,7 +1239,7 @@ Hahaha! I love such kinds of jokes. By the way, I wanna invite you to dinner. Th
 @match no
 Do you refuse to fetch my beer? Don't forget that you owe me for my heroic deeds!
 @match *
-Hello.  Please, fetch me some beer.
+Hello. Please, fetch me some beer.
 endmsg
 x 6
 y 2
@@ -2120,7 +2120,7 @@ arch magic_mouth
 msg
 Written on the wall:
  "Siegfried is our hero!
-  Siegfried, banzai!"
+ Siegfried, banzai!"
 endmsg
 x 9
 y 14
@@ -2751,7 +2751,7 @@ arch man
 name barkeeper
 msg
 @match *
-Siegfried is so brave.  We don't have to be scared anymore.
+Siegfried is so brave. We don't have to be scared anymore.
 endmsg
 face man.171
 hp 180

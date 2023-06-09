@@ -7,8 +7,8 @@ height 25
 enter_x 7
 enter_y 10
 msg
-Created:  1997-11-26
-Modified: 2021-10-02 Rick Tanner
+Created: 1997-11-26
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch blocked
@@ -289,7 +289,7 @@ msg
 @match i don't know
 At least you are an honest person. I have decided to give you the token, but I can't stand your ugly face anymore! GO AWAY!!
 @match token
-You do want the token, don't you? So...  If you can answer my query, I'll give you the token.  Ok?
+You do want the token, don't you? So... If you can answer my query, I'll give you the token. Ok?
 @match yes|ok
 My query for you is ... "Where is the Belzebub's sword?"
 @match here|there
@@ -345,7 +345,7 @@ arch conjurer
 name Magician
 msg
 @match *
-The magic show is over.  Please wait for your server to reset this map.
+The magic show is over. Please wait for your server to reset this map.
 endmsg
 hp 400
 exp 1
@@ -917,7 +917,7 @@ end
 arch uw_sword
 name Belzepub's sword
 msg
-  This is not the true Belzebub's Sword.  It's a fake, made of paper.
+ This is not the true Belzebub's Sword. It's a fake, made of paper.
 endmsg
 Con 0
 Int 0
@@ -1533,7 +1533,7 @@ end
 arch locked_door1
 slaying the_magic_show
 msg
-Ladies and Gentlemen, Welcome to our phantastic MAGIC SHOW.  Enjoy our most famous illusion:  The teleportation of the Belzebub's Sword! To see it, please buy a Token.  Ask "Fool", the beholder salesman.
+Ladies and Gentlemen, Welcome to our phantastic MAGIC SHOW. Enjoy our most famous illusion: The teleportation of the Belzebub's Sword! To see it, please buy a Token. Ask "Fool", the beholder salesman.
 endmsg
 x 7
 y 7

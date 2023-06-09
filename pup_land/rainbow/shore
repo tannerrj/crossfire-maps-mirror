@@ -7,8 +7,8 @@ height 20
 enter_x 7
 enter_y 1
 msg
-Created:  1996-06-08
-Modified: 2021-10-02 Rick Tanner
+Created: 1996-06-08
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch invis_exit
@@ -1191,7 +1191,7 @@ msg
 @match bay-watch
 Yeah, I'm looking at the women's... err... no, I mean... forget it!
 @match *
-I'm doing bay-watch.  Don't distract me.
+I'm doing bay-watch. Don't distract me.
 endmsg
 hp 500
 x 10
@@ -1588,7 +1588,7 @@ arch man
 name swimmer
 msg
 @match *
-Oh! What a fast current.  I can't move...
+Oh! What a fast current. I can't move...
 endmsg
 face man.131
 hp 180
