@@ -8,8 +8,8 @@ height 16
 enter_x 7
 enter_y 14
 msg
-Created:  1996-05-21
-Modified: 2019-09-13 Rick Tanner
+Created: 1996-05-21
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch grass
@@ -596,9 +596,9 @@ end
 arch man
 msg
 @match special offer
-Sometimes I have special offers.  Check back often.
+Sometimes I have special offers. Check back often.
 @match *
-Welcome to Kurte's Shop.  I'll exchange my items for your gold nuggets.
+Welcome to Kurte's Shop. I'll exchange my items for your gold nuggets.
 endmsg
 hp 180
 x 7
