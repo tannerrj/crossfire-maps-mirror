@@ -9,7 +9,7 @@ enter_x 17
 enter_y 32
 msg
 Created:  1994-01-14 peterm (peterm@soda.berkeley.edu)
-Modified: 2022-07-16 Nicolas Weeger
+Modified: 2023-06-11 Rick Tanner
 endmsg
 reset_group quests_dark-forest
 end
@@ -373,7 +373,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 1
@@ -559,7 +559,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 1
@@ -1285,7 +1285,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 4
@@ -1452,7 +1452,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 5
@@ -3652,7 +3652,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 13
@@ -3730,7 +3730,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 13
@@ -3999,7 +3999,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 14
@@ -4312,7 +4312,7 @@ arch courthouse
 name Temple
 slaying OuterTemple
 msg
-Just your luck.  You have to come busting in just when a religious ceremony is occurring.
+Just your luck. You have to come busting in just when a religious ceremony is occurring.
 endmsg
 hp 7
 sp 29
@@ -4434,7 +4434,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 15
@@ -5260,7 +5260,7 @@ y 30
 end
 arch magic_mouth
 msg
-This path must lead to the temple of the Dark Gods..  It looks dangerous: the trees have taken life and are dancing in strange patterns
+This path must lead to the temple of the Dark Gods.. It looks dangerous: the trees have taken life and are dancing in strange patterns
 endmsg
 x 18
 y 31
@@ -5271,7 +5271,7 @@ y 31
 end
 arch magic_mouth
 msg
-This path must lead to the temple of the Dark Gods..  It looks dangerous: the trees have taken life and are dancing in strange patterns
+This path must lead to the temple of the Dark Gods.. It looks dangerous: the trees have taken life and are dancing in strange patterns
 endmsg
 x 18
 y 32
@@ -8083,7 +8083,7 @@ end
 arch tree6
 name bramble
 msg
-This bush is full of vicious thorns.  Ouch!
+This bush is full of vicious thorns. Ouch!
 endmsg
 face thorns.111
 x 29

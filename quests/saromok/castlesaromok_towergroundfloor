@@ -8,7 +8,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  2008-08-13 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2008-10-20 Rick Tanner
+Modified: 2023-06-11 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -665,7 +665,7 @@ arch merchant
 name Saromok's Projection
 msg
 @match *
-You can't stop me.  My orc army will destroy all of the lands, despite your pathetic attempt to stop me.  You just can't possibly win!
+You can't stop me. My orc army will destroy all of the lands, despite your pathetic attempt to stop me. You just can't possibly win!
 endmsg
 face wraith.111
 animation wraith

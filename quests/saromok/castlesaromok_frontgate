@@ -8,7 +8,7 @@ enter_x 5
 enter_y 6
 msg
 Created:  2008-08-11 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-06-11 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -190,7 +190,7 @@ y 4
 end
 arch magic_mouth
 msg
-It's settled then, here is the key to the volcano.  I will enjoy watching my pet destroy you.  Should you manage to survive however, my pet dragon has a key to this gate.
+It's settled then, here is the key to the volcano. I will enjoy watching my pet destroy you. Should you manage to survive however, my pet dragon has a key to this gate.
 endmsg
 x 3
 y 5
@@ -225,7 +225,7 @@ arch merchant
 name Saromok's Projection
 msg
 @match hi|hey|hello
-He he heh... you really think you can stop me, mortal?  I am the most powerful sorceror in the universe, as you will see in due time, I assure you.  Many adventurers have visited my fortress...however, none have even made it past my guards yet!  Though my true form is currently atop my tower, I could even remotely kill you right now by merely willing it, however I think it would be more entertaining to pit you against my guards...Hmm, how about this: I will allow you to further entertain me inside the walls if you first prove yourself by slaying my pet dragon in the volcano.  What say you to this?
+He he heh... you really think you can stop me, mortal? I am the most powerful sorceror in the universe, as you will see in due time, I assure you. Many adventurers have visited my fortress...however, none have even made it past my guards yet! Though my true form is currently atop my tower, I could even remotely kill you right now by merely willing it, however I think it would be more entertaining to pit you against my guards...Hmm, how about this: I will allow you to further entertain me inside the walls if you first prove yourself by slaying my pet dragon in the volcano. What say you to this?
 endmsg
 face wraith.111
 animation wraith

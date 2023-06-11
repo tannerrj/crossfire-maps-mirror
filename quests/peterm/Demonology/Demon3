@@ -7,8 +7,8 @@ height 25
 enter_x 7
 enter_y 7
 msg
-Created:  1994-05-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2023-02-27 Rick Tanner
+Created: 1994-05-30 peterm (peterm@soda.berkeley.edu)
+Modified: 2023-06-09 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -411,9 +411,9 @@ arch lich
 name Dead Master of Air
 msg
 @match word
-You think I'm going to tell you the word?  Well, why should I?  You can't do anything to me, I'm already dead.
+You think I'm going to tell you the word? Well, why should I? You can't do anything to me, I'm already dead.
 @match thessalrudin
-Owwwwwwwwwwwwwwwwwww......... I only know part of the word.  You're going to have to get the rest of it out of the other three Masters.  My part is 'Hleafna.'
+Owwwwwwwwwwwwwwwwwww......... I only know part of the word. You're going to have to get the rest of it out of the other three Masters. My part is 'Hleafna.'
 endmsg
 x 2
 y 23
@@ -1041,7 +1041,7 @@ msg
 @match word
 I will not tell you.
 @match brenlorien
-Huunnnnnhhh.... Okay, maybe I WILL tell you.  MY part of the word is 'karanth.'
+Huunnnnnhhh.... Okay, maybe I WILL tell you. MY part of the word is 'karanth.'
 endmsg
 x 6
 y 19

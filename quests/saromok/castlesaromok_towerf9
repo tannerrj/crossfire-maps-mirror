@@ -8,7 +8,7 @@ enter_x 20
 enter_y 2
 msg
 Created:  2008-08-13 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-06-11 Rick Tanner
 endmsg
 end
 arch awall_0
@@ -5337,7 +5337,7 @@ connected 1
 end
 arch magic_mouth
 msg
-Electricity Master says: My master is starting to find your persistence annoying.  By his will, I challenge you to a duel to the death.  Do you accept?
+Electricity Master says: My master is starting to find your persistence annoying. By his will, I challenge you to a duel to the death. Do you accept?
 endmsg
 x 20
 y 7
@@ -5466,7 +5466,7 @@ arch merchant
 name Saromok's Projection
 msg
 @match *
-The time has come for you to die... these masters will make sure of it.  Eeh eh eh eh!
+The time has come for you to die... these masters will make sure of it. Eeh eh eh eh!
 endmsg
 face wraith.111
 animation wraith

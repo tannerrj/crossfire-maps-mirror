@@ -8,7 +8,7 @@ enter_x 7
 enter_y 39
 msg
 Created:  1994-01-14 peterm (peterm@soda.berkeley.edu)
-Modified: 2022-07-16 Nicolas Weeger
+Modified: 2023-06-11 Rick Tanner
 endmsg
 reset_group quests_dark-forest
 end
@@ -1474,7 +1474,7 @@ y 6
 end
 arch magic_mouth
 msg
-A corpse!  Well, at least it's fresh and doesn't stink yet.  Poor bastard!
+A corpse! Well, at least it's fresh and doesn't stink yet. Poor bastard!
 endmsg
 x 5
 y 7
@@ -2941,7 +2941,7 @@ y 6
 end
 arch magic_mouth
 msg
-Prisoners!  Maybe they know something.
+Prisoners! Maybe they know something.
 endmsg
 x 10
 y 7
@@ -3243,7 +3243,7 @@ y 6
 end
 arch magic_mouth
 msg
-Diabolical!  They've stored the food just out of the reach of the starving prisoners.
+Diabolical! They've stored the food just out of the reach of the starving prisoners.
 endmsg
 x 11
 y 7
@@ -3798,7 +3798,7 @@ x 13
 end
 arch magic_mouth
 msg
-A foul reek emanates from the hole.  Somehow, the hole seems like a huge maw, ready to swallow you up.
+A foul reek emanates from the hole. Somehow, the hole seems like a huge maw, ready to swallow you up.
 endmsg
 x 13
 y 1
@@ -3813,7 +3813,7 @@ y 1
 end
 arch magic_mouth
 msg
-A foul reek wafts from the hole.  A scary analogy between that hole and the mouth of a demon blows through your mind briefly.
+A foul reek wafts from the hole. A scary analogy between that hole and the mouth of a demon blows through your mind briefly.
 endmsg
 x 13
 y 2
@@ -3845,7 +3845,7 @@ end
 arch prisoner
 msg
 @match *
-Thank goodness you're here!  Those monsters were planning to use us as sacrifices to their dark God..
+Thank goodness you're here! Those monsters were planning to use us as sacrifices to their dark God..
 endmsg
 hp 100
 maxhp 100
@@ -4143,7 +4143,7 @@ y 1
 end
 arch magic_mouth
 msg
-You peer down the hole into the smelly torchlit depths....  It goes down, and down, and down...  Somehow, you don't look forward to seeing the end of it.
+You peer down the hole into the smelly torchlit depths.... It goes down, and down, and down... Somehow, you don't look forward to seeing the end of it.
 endmsg
 x 14
 y 2

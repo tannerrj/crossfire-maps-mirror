@@ -8,7 +8,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  2008-08-13 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-01-01 Rick Tanner
+Modified: 2023-06-11 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -599,10 +599,10 @@ end
 arch book_clasp
 name Saromok's Journal
 msg
-Day 1: The orc machine was just finished.  This marvel will churn out 1000 orcs a day easily!
+Day 1: The orc machine was just finished. This marvel will churn out 1000 orcs a day easily!
 Day 2: The army is coming along nicely, already I have over 1000 skilled orcs under my command.
-Day11: My army of orcs is over 10,000 strong now.  No civilization can withstand such an attack.
-Day12: The army is suited up and almost ready to be mobilized.  Luckily the only way to stop the destruction of the world now is to kill me, and I am extremely powerful...
+Day11: My army of orcs is over 10,000 strong now. No civilization can withstand such an attack.
+Day12: The army is suited up and almost ready to be mobilized. Luckily the only way to stop the destruction of the world now is to kill me, and I am extremely powerful...
 endmsg
 x 6
 y 6
@@ -705,7 +705,7 @@ arch merchant
 name Saromok's Projection
 msg
 @match *
-Hmm, this is really unexpected.  Oh well, you will still die anyways.  My personal guards are quite deadly.
+Hmm, this is really unexpected. Oh well, you will still die anyways. My personal guards are quite deadly.
 endmsg
 face wraith.111
 animation wraith
@@ -755,7 +755,7 @@ material 0
 arch note
 name Saromok's Notes
 msg
-I have finally finished constructing my wand of mastery.  With it, I am unstoppable, as it grants me total command of all magic...
+I have finally finished constructing my wand of mastery. With it, I am unstoppable, as it grants me total command of all magic...
 endmsg
 material 0
 end
