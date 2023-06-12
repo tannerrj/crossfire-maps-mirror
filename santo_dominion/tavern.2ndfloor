@@ -7,8 +7,8 @@ height 31
 enter_x 16
 enter_y 14
 msg
-Created:  Andreas Vogl (red.blaze@gmx.net)
-Modified: 2022-07-27 Rick Tanner
+Created: Andreas Vogl (red.blaze@gmx.net)
+Modified: 2023-06-12 Rick Tanner
 endmsg
 reset_group santodominion_the-golden-lion
 end
@@ -1035,7 +1035,7 @@ arch thief
 name Thief
 msg
 @match money|bonzo|bank|guard
-I'd like to sneak in there and steal Bonzo's money. But the guard never moves out.  Damn it.
+I'd like to sneak in there and steal Bonzo's money. But the guard never moves out. Damn it.
 @match *
 @question money And why is money important?
 Bonzo the Banker's room is on the opposite side of the corridor. I'm sure he wouldn't employ guards if there wasn't good money in there.
@@ -1319,7 +1319,7 @@ end
 arch magic_mouth
 msg
 Bonzo the Banker says:
-Hey stranger - Stop right there! This money is mine.  Don't touch it! Get out!!!
+Hey stranger - Stop right there! This money is mine. Don't touch it! Get out!!!
 endmsg
 food 1
 x 8
@@ -3197,7 +3197,7 @@ end
 arch locked_door2
 slaying no_key_available
 msg
-There's a note on the door: I am ill.  Please do not disturb.
+There's a note on the door: I am ill. Please do not disturb.
 endmsg
 face ldoor_white2.111
 x 18
@@ -3493,7 +3493,7 @@ arch book_clasp
 name history book
 msg
 ...
-After the great famine in the second year of Lord Byron's reign, the plan for a permanent mass food storage place was developed.  The big barns were constructed east of Santo Dominion.
+After the great famine in the second year of Lord Byron's reign, the plan for a permanent mass food storage place was developed. The big barns were constructed east of Santo Dominion.
 ...
 endmsg
 end
@@ -3676,7 +3676,7 @@ arch book_clasp
 name history book
 msg
 ...
-In the fifth year of Lord Byron's reign, Santo Dominion fell to a surprise attack of wild and cruel monsters from the north.  It turned out that the attackers were driven simply by lack of food in their homeland.  So the farmers opened the barns which were filled to the roof with grain and dried meat.  The lives of the townsmen were spared. Unfortunately, some monsters never returned to their homeland but stayed in the barns.
+In the fifth year of Lord Byron's reign, Santo Dominion fell to a surprise attack of wild and cruel monsters from the north. It turned out that the attackers were driven simply by lack of food in their homeland. So the farmers opened the barns which were filled to the roof with grain and dried meat. The lives of the townsmen were spared. Unfortunately, some monsters never returned to their homeland but stayed in the barns.
 ...
 endmsg
 end
@@ -3831,7 +3831,7 @@ y 22
 end
 arch magic_mouth
 msg
-In the other room you see a warrior lying on the floor.  His face is pale and gaunt, he is coughing.  The poor guy seems to be very ill.
+In the other room you see a warrior lying on the floor. His face is pale and gaunt, he is coughing. The poor guy seems to be very ill.
 endmsg
 food 1
 x 21
@@ -3863,7 +3863,7 @@ msg
 @match viper
 A brood of shadow vipers exists somewhere down the well of Santo Dominion. We've got only one well here in town, so you can't miss it. Anyways, be careful down there!
 @match mudman
-The mudman is a vile creature.  He lurks in the marshes south-west of this town. It is said that in very dark nights, when no moon is shining, he leaves the swamp to sneak around our houses.
+The mudman is a vile creature. He lurks in the marshes south-west of this town. It is said that in very dark nights, when no moon is shining, he leaves the swamp to sneak around our houses.
 @match yes|cure|okay
 I'm still lacking three essential ingredients to mix a cure for my friend:
 - a beholder's tongue
@@ -3872,7 +3872,7 @@ I'm still lacking three essential ingredients to mix a cure for my friend:
 When you have the ingredients, put them into the cauldron here. As a reminder you can take the list of ingredients from the bookshelf with you.
 @question viper Where can I find a shadow viper?
 @match help|gorgon|poison
-Gorgon is a mighty warrior.  A week ago he went into the marshes looking for the mudman who dwells there. During battle, the mudman infected Gorgon with deadly poison. Gorgon fled, but his life is fading. Would you help me to create a cure for him?
+Gorgon is a mighty warrior. A week ago he went into the marshes looking for the mudman who dwells there. During battle, the mudman infected Gorgon with deadly poison. Gorgon fled, but his life is fading. Would you help me to create a cure for him?
 @question mudman What is the mudman?
 @reply yes Ok, I'll help.
 @match *
@@ -3975,7 +3975,7 @@ arch c_man
 name Sorcerer
 msg
 @match yes|story
-North of Santo Dominion there is a huge tower, called the "Tower of Demonology." It has been a school for summoning wizards long ago. Someday, an evil shadow crept in there.  Rumors tell that a group of wizards had abused their power to summon demons.
+North of Santo Dominion there is a huge tower, called the "Tower of Demonology." It has been a school for summoning wizards long ago. Someday, an evil shadow crept in there. Rumors tell that a group of wizards had abused their power to summon demons.
 @match *
 @reply yes Sure I always enjoy adventure stories.
 You look like you are seeking adventures. Care to hear a story?
@@ -5577,7 +5577,7 @@ arch fighter
 name Gorgon the Warrior
 msg
 @match *
-Thank you for saving me.  You shall have my famous plate mail as a reward.  It's in the chest right there.
+Thank you for saving me. You shall have my famous plate mail as a reward. It's in the chest right there.
 endmsg
 x 30
 y 28
