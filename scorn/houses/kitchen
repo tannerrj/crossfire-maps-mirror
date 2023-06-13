@@ -7,8 +7,8 @@ height 16
 enter_x 6
 enter_y 11
 msg
-Created:  2002-12-29
-Modified: 2012-03-26 Rick Tanner
+Created: 2002-12-29
+Modified: 2023-06-13 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -380,7 +380,7 @@ end
 arch charwoman
 msg
 @match *
-You adventures... always making a mess of our town.  Go find adventure elsewhere!
+You adventures... always making a mess of our town. Go find adventure elsewhere!
 endmsg
 exp 1
 x 3
@@ -1181,7 +1181,7 @@ end
 arch a_townsman3
 msg
 @match *
-Don't bother talking to the monk.  I think he has taken a vow of silence.  I wish my wife would take a vow of silence.  Have you seen the state of the town lately?  I think we should petition the King? You should try cooking.  For a 100 platinum they teach you how... if you have woodlore that is.  My this coffee is strong...
+Don't bother talking to the monk. I think he has taken a vow of silence. I wish my wife would take a vow of silence. Have you seen the state of the town lately? I think we should petition the King? You should try cooking. For a 100 platinum they teach you how... if you have woodlore that is. My this coffee is strong...
 endmsg
 exp 1
 x 8
@@ -1357,7 +1357,7 @@ arch guildmaster
 name monk
 msg
 @match *
-<In a whisper>  I wish he would just shutup... Oh my, I musn't think like that what would Gaea do?
+<In a whisper> I wish he would just shutup... Oh my, I musn't think like that what would Gaea do?
 endmsg
 face monk.151
 hp 100

@@ -8,8 +8,8 @@ height 16
 enter_x 7
 enter_y 5
 msg
-Created:  2006-05-26 Bort
-Modified: 2022-07-27 Rick Tanner
+Created: 2006-05-26 Bort
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_alfalfas-house
 end
@@ -646,7 +646,7 @@ y 3
 end
 arch magic_mouth
 msg
-There seems to be a lot of smoke.  Was something burning?
+There seems to be a lot of smoke. Was something burning?
 endmsg
 food 1
 x 6
@@ -662,7 +662,7 @@ y 5
 end
 arch magic_mouth
 msg
-There seems to be a lot of smoke.  Was something burning?
+There seems to be a lot of smoke. Was something burning?
 endmsg
 food 1
 x 6
@@ -1538,7 +1538,7 @@ arch card
 name Gate Pass
 slaying gate_pass
 msg
-The holder of this card is allowed free access into and out of the City of Scorn to the rest of the continent without further charges and penalties.  The City of Scorn reserves the right to revoke said access at any time of its choosing without recompense or liability.
+The holder of this card is allowed free access into and out of the City of Scorn to the rest of the continent without further charges and penalties. The City of Scorn reserves the right to revoke said access at any time of its choosing without recompense or liability.
 endmsg
 value 800
 identified 1
@@ -1571,7 +1571,7 @@ y 1
 end
 arch magic_mouth
 msg
-This must be where the orcs got in.  There is a hole in the wall leading to a corridor that seems to head off into some underground caverns.  You can't see down it very far though, because the way is blocked by a rockfall.  This seems to have happened after the Orcs came through, trapping them here.  You suspect that the cave-in may have been deliberate, which leads you to wonder; what were the orcs trying to block themselves off from?
+This must be where the orcs got in. There is a hole in the wall leading to a corridor that seems to head off into some underground caverns. You can't see down it very far though, because the way is blocked by a rockfall. This seems to have happened after the Orcs came through, trapping them here. You suspect that the cave-in may have been deliberate, which leads you to wonder; what were the orcs trying to block themselves off from?
 endmsg
 x 15
 y 2

@@ -8,8 +8,8 @@ height 20
 enter_x 10
 enter_y 19
 msg
-Created:  2006-05-26 Bort
-Modified: 2022-07-27 Rick Tanner
+Created: 2006-05-26 Bort
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_alfalfas-house
 end
@@ -886,7 +886,7 @@ y 5
 end
 arch magic_mouth
 msg
-Phew!  Something reeks behind this door.
+Phew! Something reeks behind this door.
 endmsg
 food 1
 x 7

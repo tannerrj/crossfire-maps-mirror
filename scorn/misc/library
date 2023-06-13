@@ -9,8 +9,8 @@ height 18
 enter_x 9
 enter_y 15
 msg
-Created:  1996-04-28 b.t. (thomas@astro.psu.edu)
-Modified: 2023-04-18 Daniel Hawkins
+Created: 1996-04-28 b.t. (thomas@astro.psu.edu)
+Modified: 2023-06-13 Rick Tanner
 endmsg
 end
 arch grass
@@ -1169,7 +1169,7 @@ y 8
 end
 arch sign
 msg
-NOTICE: no library books are to pass beyond these doors.  Thieves will be punished to the full extent of the law! For your convenience, we have chained all books to the shelves.  Have a nice day.
+NOTICE: no library books are to pass beyond these doors. Thieves will be punished to the full extent of the law! For your convenience, we have chained all books to the shelves. Have a nice day.
 endmsg
 x 7
 y 8
@@ -1318,7 +1318,7 @@ y 6
 end
 arch magic_mouth
 msg
-Rare books room.  Card holders only.
+Rare books room. Card holders only.
 endmsg
 x 8
 y 6
@@ -1402,7 +1402,7 @@ arch sage
 name Holtsapple the Sage
 msg
 @match hi|hello
-Err... well welcome (*harumph*).  Please try to keep quiet in the library.
+Err... well welcome (*harumph*). Please try to keep quiet in the library.
 @match door|gate|enter|entrance|help
 What's the matter, want to get in, eh? Either get a library card or pay a fair one-time entrance fee (drop the $$$ on the floor behind me).
 @match *
@@ -1442,7 +1442,7 @@ y 14
 end
 arch sign
 msg
-NOTICE: leave your bags at the door.  No admittance otherwise.  Not responsible for lost or stolen bags!
+NOTICE: leave your bags at the door. No admittance otherwise. Not responsible for lost or stolen bags!
 endmsg
 x 8
 y 14
@@ -2401,7 +2401,7 @@ y 5
 end
 arch magic_mouth
 msg
-Very rare books room.  See librarian for admittance.
+Very rare books room. See librarian for admittance.
 endmsg
 x 14
 y 5
@@ -2472,7 +2472,7 @@ arch sage
 name Narweenle the Librarian
 msg
 @match hi|hello
-Err... well welcome (*harumph*).  Please try to keep quiet in the library.
+Err... well welcome (*harumph*). Please try to keep quiet in the library.
 @match door|gate|enter|entrance|help
 Oh, you need to buy the key from the shop.
 @match *

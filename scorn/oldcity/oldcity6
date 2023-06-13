@@ -6,7 +6,7 @@ darkness 3
 width 40
 height 40
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 tile_path_1 oldcity54
 tile_path_2 oldcity3
@@ -5309,7 +5309,7 @@ end
 arch magic_ear
 msg
 @match subject|summon
-Why yes, I am going to take over your precious little city.  I have built a way in for my hordes! *The Demilich says evilly*
+Why yes, I am going to take over your precious little city. I have built a way in for my hordes! *The Demilich says evilly*
 @match hords|way
 Yes, the entrance is nearer then you think! Of course, you'll never find IT!
 @match *

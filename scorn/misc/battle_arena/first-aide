@@ -9,7 +9,7 @@ enter_x 5
 enter_y 10
 msg
 Created:  2000-10-28
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scornarena_arena-battleground
 end
@@ -1128,7 +1128,7 @@ arch sage
 name warrior
 msg
 @match *
-Arrgh! I have lost a battle against my brother.  This is so embarrassing!
+Arrgh! I have lost a battle against my brother. This is so embarrassing!
 endmsg
 face warrior_green.171
 hp 180

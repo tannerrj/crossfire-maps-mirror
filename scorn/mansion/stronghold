@@ -7,8 +7,8 @@ height 32
 enter_x 36
 enter_y 27
 msg
-Created:  Morten Hanshaugen (meh@ifi.uio.no, meh@usit.uio.no)
-Modified: 2022-07-28 Rick Tanner
+Created: Morten Hanshaugen (meh@ifi.uio.no, meh@usit.uio.no)
+Modified: 2023-06-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_scorn-mansion
@@ -3862,7 +3862,7 @@ y 14
 end
 arch magic_mouth
 msg
-You feel a strong presence of evil in here.  This room appears far more dangerous than the ones behind.
+You feel a strong presence of evil in here. This room appears far more dangerous than the ones behind.
 endmsg
 food 1
 x 19
@@ -5997,7 +5997,7 @@ y 1
 end
 arch sign
 msg
-The City of Scorn has sealed this building due to monster infestation.  Only access is through the old tunnel that connects this building to the nearby mansion, caution is advised.
+The City of Scorn has sealed this building due to monster infestation. Only access is through the old tunnel that connects this building to the nearby mansion, caution is advised.
 endmsg
 x 30
 y 1

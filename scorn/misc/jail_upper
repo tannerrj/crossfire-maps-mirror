@@ -8,8 +8,8 @@ height 15
 enter_x 3
 enter_y 7
 msg
-Created:  2004-11-09 Casper and Salathar (salathar@hotmail.com)
-Modified: 2022-07-28 Rick Tanner
+Created: 2004-11-09 Casper and Salathar (salathar@hotmail.com)
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_scorn-jail
 end
@@ -323,7 +323,7 @@ y 4
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 2
 y 4
@@ -418,7 +418,7 @@ y 10
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 2
 y 10
@@ -957,7 +957,7 @@ y 4
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 6
 y 4
@@ -1052,7 +1052,7 @@ y 10
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 6
 y 10
@@ -1584,7 +1584,7 @@ y 4
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 10
 y 4
@@ -1679,7 +1679,7 @@ y 10
 end
 arch magic_mouth
 msg
-You were summoned here because you have been naughty.  Say "I understand" and the door will open.
+You were summoned here because you have been naughty. Say "I understand" and the door will open.
 endmsg
 x 10
 y 10
@@ -2312,7 +2312,7 @@ end
 arch sign
 name Instructions
 msg
-Step into a waiting cell.  Summon a character there.
+Step into a waiting cell. Summon a character there.
 Saying 'I understand' near a waiting cell door will open it.
 The Warden's key will allow you to open waiting cell doors when you are not flying (dm).
 When the door is open the character will be able to leave.

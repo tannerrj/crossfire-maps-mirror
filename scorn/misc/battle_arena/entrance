@@ -9,7 +9,7 @@ enter_x 11
 enter_y 24
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scornarena_arena-battleground
 end
@@ -2029,7 +2029,7 @@ arch sign
 msg
 All payments are final. No refunds.
 -=-=-=-=-=-=-=-=-=-
-Items placed up for betting are forfeit if one or both players quit the arena before a final decision (kill) is made.  Items will be sold to defray the cost of refunding the spectator fees.
+Items placed up for betting are forfeit if one or both players quit the arena before a final decision (kill) is made. Items will be sold to defray the cost of refunding the spectator fees.
 endmsg
 x 11
 y 6
@@ -2405,7 +2405,7 @@ msg
 @match sword|arena
 "There can only be ONE"...
 @match *
-Man those souvenirs are SO cool.  If I had any money left I would buy that sword...
+Man those souvenirs are SO cool. If I had any money left I would buy that sword...
 endmsg
 x 13
 y 17

@@ -8,8 +8,8 @@ height 12
 enter_x 11
 enter_y 9
 msg
-Created:  2003-05-03
-Modified: 2021-07-27 Saiapatsu
+Created: 2003-05-03
+Modified: 2023-06-13 Rick Tanner
 endmsg
 end
 arch grass
@@ -834,7 +834,7 @@ arch farmer
 name Terry the farmer
 msg
 @match *
-They are killing our chickens and stealing our potatoes.  Please stop them! The key's on the table.
+They are killing our chickens and stealing our potatoes. Please stop them! The key's on the table.
 endmsg
 x 8
 y 7
@@ -1229,7 +1229,7 @@ end
 arch locked_door2
 slaying scornfarmkey
 msg
-You hear a lot of squawking noises behind the door.  Better ask the farmer what's going on.
+You hear a lot of squawking noises behind the door. Better ask the farmer what's going on.
 endmsg
 x 13
 y 2
@@ -1241,7 +1241,7 @@ end
 arch locked_door2
 slaying scornfarmkey
 msg
-You hear a lot of squawking noises behind the door.  Better ask the farmer what's going on.
+You hear a lot of squawking noises behind the door. Better ask the farmer what's going on.
 endmsg
 x 13
 y 3

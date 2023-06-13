@@ -7,7 +7,7 @@ height 40
 enter_x 4
 enter_y 1
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_goths-tavern
 end
@@ -281,11 +281,11 @@ arch man
 name Chris
 msg
 @match hello|hi
-Hello.  Watch your step.
+Hello. Watch your step.
 @match name|job
 My name is Chris. I'm pest control.
 @match step
-Yes.  We have a bunch of pests down here.
+Yes. We have a bunch of pests down here.
 @match pest
 Goth's has been overrun with pests. I don't know where they are all coming from.
 endmsg

@@ -7,7 +7,7 @@ height 20
 enter_x 10
 enter_y 17
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_gorks-grovel
@@ -346,7 +346,7 @@ arch card
 name Gate Pass
 slaying gate_pass
 msg
-The holder of this card is allowed free access into and out of the City of Scorn to the rest of the continent without further charges and penalties.  The City of Scorn reserves the right to revoke said access at any time of its choosing without recompense or liability.
+The holder of this card is allowed free access into and out of the City of Scorn to the rest of the continent without further charges and penalties. The City of Scorn reserves the right to revoke said access at any time of its choosing without recompense or liability.
 endmsg
 x 3
 y 3
@@ -1160,7 +1160,7 @@ y 16
 end
 arch sign_e
 msg
-'Ere be Gork's.   You be eatn if youse come en here.
+'Ere be Gork's. You be eatn if youse come en here.
 -GORK
 endmsg
 x 9

@@ -9,7 +9,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2000-11-08 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scornarena_arena-battleground
 end
@@ -5491,7 +5491,7 @@ y 38
 end
 arch sign
 msg
-Use these handles to add obstacles of your choice to the arena.  You have to agree with your opponent on the selection of obstacles.
+Use these handles to add obstacles of your choice to the arena. You have to agree with your opponent on the selection of obstacles.
 endmsg
 x 11
 y 38
@@ -5501,7 +5501,7 @@ x 11
 y 39
 end
 arch button_handle
-name statues   <yes | no>
+name statues <yes | no>
 x 11
 y 39
 connected 101
@@ -5511,7 +5511,7 @@ x 11
 y 40
 end
 arch button_handle
-name fences   <yes | no>
+name fences <yes | no>
 x 11
 y 40
 connected 102
@@ -5521,7 +5521,7 @@ x 11
 y 41
 end
 arch button_handle
-name archways   <yes | no>
+name archways <yes | no>
 x 11
 y 41
 connected 103
@@ -5531,7 +5531,7 @@ x 11
 y 42
 end
 arch button_handle
-name escape tunnel  <yes | no>
+name escape tunnel <yes | no>
 x 11
 y 42
 connected 104
@@ -5541,7 +5541,7 @@ x 11
 y 43
 end
 arch button_handle
-name sticky ground   <yes | no>
+name sticky ground <yes | no>
 x 11
 y 43
 connected 105
@@ -7592,7 +7592,7 @@ end
 arch sign
 name info
 msg
-Place your winning-bets on the red squares each.  When you're both satisfied, pull the levers and step on the teleporters.
+Place your winning-bets on the red squares each. When you're both satisfied, pull the levers and step on the teleporters.
 endmsg
 x 15
 y 41
@@ -10169,7 +10169,7 @@ end
 arch sign
 name info
 msg
-Place your winning-bets on the red squares each.  When you're both satisfied, pull the levers and step on the teleporters.
+Place your winning-bets on the red squares each. When you're both satisfied, pull the levers and step on the teleporters.
 endmsg
 x 19
 y 41
@@ -12399,7 +12399,7 @@ y 38
 end
 arch sign
 msg
-Use these handles to add obstacles of your choice to the arena.  You have to agree with your opponent on the selection of obstacles.
+Use these handles to add obstacles of your choice to the arena. You have to agree with your opponent on the selection of obstacles.
 endmsg
 x 23
 y 38
@@ -12409,7 +12409,7 @@ x 23
 y 39
 end
 arch button_handle
-name statues   <yes | no>
+name statues <yes | no>
 x 23
 y 39
 connected 101
@@ -12419,7 +12419,7 @@ x 23
 y 40
 end
 arch button_handle
-name fences   <yes | no>
+name fences <yes | no>
 x 23
 y 40
 connected 102
@@ -12429,7 +12429,7 @@ x 23
 y 41
 end
 arch button_handle
-name archways   <yes | no>
+name archways <yes | no>
 x 23
 y 41
 connected 103
@@ -12439,7 +12439,7 @@ x 23
 y 42
 end
 arch button_handle
-name escape tunnel  <yes | no>
+name escape tunnel <yes | no>
 x 23
 y 42
 connected 104
@@ -12449,7 +12449,7 @@ x 23
 y 43
 end
 arch button_handle
-name sticky ground   <yes | no>
+name sticky ground <yes | no>
 x 23
 y 43
 connected 105
@@ -16648,7 +16648,7 @@ arch courier
 name man
 msg
 @match *
-You can learn a lot by watching other people fight.  Come, sit down.
+You can learn a lot by watching other people fight. Come, sit down.
 endmsg
 x 32
 y 22

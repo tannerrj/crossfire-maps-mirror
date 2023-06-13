@@ -8,7 +8,7 @@ enter_x 9
 enter_y 8
 msg
 Created:  2011-09-07 Rick Tanner
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_beginners
@@ -344,17 +344,17 @@ arch sage
 name Sage of Training
 msg
 @match hi|hello
-Greetings Adventurer!  Here to test your skills and abilities?
+Greetings Adventurer! Here to test your skills and abilities?
 @reply test Well yes, of course!
 @match skills|skill|test|abilities|portal|arch
 Proceed through the archway ahead and bring back the blue key and choose a reward.
 @question reward A reward, really?
 @question key Can you tell me anything about the blue key?
 @match reward
-Why yes, a reward.  To your left is a Potion of Healing - recover and heal yourself after a battle.  To your right is a Potion of Minor Life - recover lost stats after an untimely, but momentary death.
+Why yes, a reward. To your left is a Potion of Healing - recover and heal yourself after a battle. To your right is a Potion of Minor Life - recover lost stats after an untimely, but momentary death.
 @question key Can you tell me anything about the blue key?
 @match key|blue
-A devious Ogre holds the key. But don't expect to find him too easily.  Explore, use your might, use your wit.  Fight and survive and come back here to collect your prize.
+A devious Ogre holds the key. But don't expect to find him too easily. Explore, use your might, use your wit. Fight and survive and come back here to collect your prize.
 @question reward So this key gives me a reward?
 @match *
 Good day, traveler!

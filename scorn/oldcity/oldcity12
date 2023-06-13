@@ -6,8 +6,8 @@ darkness 3
 width 40
 height 40
 msg
-Created:  1993-10-05 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2022-07-28 Rick Tanner
+Created: 1993-10-05 skud the great (tvangod@ecst.csuchico.edu)
+Modified: 2023-06-13 Rick Tanner
 endmsg
 tile_path_1 oldcity13
 tile_path_2 oldcity10
@@ -1525,13 +1525,13 @@ msg
 @match earthquake|buried
 Yes, the great earthquake destroyed the city of Scorn, we were rebuilding the city when I was trapped.
 @match scorn|city|trapped
-But I learned of something down here, as I heard monsters scratching at the walls...as the worms ate my flesh.  I heard an evil voice.
+But I learned of something down here, as I heard monsters scratching at the walls...as the worms ate my flesh. I heard an evil voice.
 @match evil|voice|monster|flesh
 Yes, It was commanding others around to build a secret chamber.
 @match chamber|secret
 All I heard was something about build it there, and move the cup and the crown away from here!
 @match *
-Oh! It is great to look upon the face of the living! I've been buried here for two centuries.  We were rebuilding Scorn after the big earthquake, building right over the ruins! Alas, I was trapped in a landslide and buried alive.  I've been here ever since.
+Oh! It is great to look upon the face of the living! I've been buried here for two centuries. We were rebuilding Scorn after the big earthquake, building right over the ruins! Alas, I was trapped in a landslide and buried alive. I've been here ever since.
 endmsg
 exp 1000
 x 5

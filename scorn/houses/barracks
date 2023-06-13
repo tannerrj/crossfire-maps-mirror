@@ -8,8 +8,8 @@ height 12
 enter_x 25
 enter_y 5
 msg
-Created:  2003-01-04
-Modified: 2021-01-28 Nicolas Weeger
+Created: 2003-01-04
+Modified: 2023-06-13 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -1627,7 +1627,7 @@ end
 arch stair_down
 slaying ../temples/valkyrie
 msg
-You go down for a LONG distance... you wonder how deep down you are.  The air smells funny.
+You go down for a LONG distance... you wonder how deep down you are. The air smells funny.
 endmsg
 hp 16
 sp 17

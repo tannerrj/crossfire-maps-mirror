@@ -6,7 +6,7 @@ width 18
 height 30
 msg
 Created:  2010-08-15 chris
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -307,8 +307,7 @@ arch holy_shield
 name unholy shield
 name_pl unholy shields
 msg
-This dark shield of bone radiates a malevolent
-aura.  You are afraid to even be near it.
+This dark shield of bone radiates a malevolent aura. You are afraid to even be near it.
 endmsg
 face shield2.111
 Pow 2
@@ -354,15 +353,13 @@ y 5
 end
 arch nazgul
 msg
-A big scary Nazgul!  Run away!!
+A big scary Nazgul! Run away!!
 endmsg
 x 1
 y 5
 arch naz_report
 msg
-This scroll is a report on the Nazgul, that has somehow fallen
-into the hands of the Nazgul.  It is tattered and stained with
-blood.  Nazgul has painted a big smiley face with teeth on it.
+This scroll is a report on the Nazgul, that has somehow fallen into the hands of the Nazgul. It is tattered and stained with blood. Nazgul has painted a big smiley face with teeth on it.
 endmsg
 end
 end
@@ -645,11 +642,7 @@ end
 arch cauldron
 name Cauldron of Melvinus
 msg
-This is the cauldron of the wizard Melvinus.
-It is dark and crusted with horrible goo, but
-it also seems to be of fine craftsmanship, and
-is exceptionally large.  You might even fit a
-gaelotroll's corpse inside here!
+This is the cauldron of the wizard Melvinus. It is dark and crusted with horrible goo, but it also seems to be of fine craftsmanship, and is exceptionally large. You might even fit a gaelotroll's corpse inside here!
 endmsg
 x 2
 y 9
@@ -855,15 +848,13 @@ y 3
 end
 arch nazgul
 msg
-A big scary Nazgul!  Run away!!
+A big scary Nazgul! Run away!!
 endmsg
 x 3
 y 3
 arch naz_report
 msg
-This scroll is a report on the Nazgul, that has somehow fallen
-into the hands of the Nazgul.  It is tattered and stained with
-blood.  Nazgul has painted a big smiley face with teeth on it.
+This scroll is a report on the Nazgul, that has somehow fallen into the hands of the Nazgul. It is tattered and stained with blood. Nazgul has painted a big smiley face with teeth on it.
 endmsg
 end
 end
@@ -2433,7 +2424,7 @@ y 9
 end
 arch blackslate
 msg
-You  have a very bad feeling of impending doom...
+You have a very bad feeling of impending doom...
 endmsg
 x 8
 y 9

@@ -6,8 +6,8 @@ darkness 3
 width 20
 height 40
 msg
-Created:  1998-05-03
-Modified: 2022-07-28 Rick Tanner
+Created: 1998-05-03
+Modified: 2023-06-13 Rick Tanner
 endmsg
 tile_path_1 oldcity2
 tile_path_2 end
@@ -3864,13 +3864,13 @@ That is not important.
 @match job
 I dabble in the black arts.
 @match art|black
-I've killed many who have tried to test my power.  Do you think you can kill me?
+I've killed many who have tried to test my power. Do you think you can kill me?
 @match yes
 I doubt it. *The dark elf grins evilly.*
 @match no
 Smart, you are.
 @match pass
-I guard this passage and I will kill any who try to pass.  The Black Art will stop you.
+I guard this passage and I will kill any who try to pass. The Black Art will stop you.
 @match *
 You may not pass.
 endmsg

@@ -7,10 +7,10 @@ height 30
 enter_x 31
 enter_y 1
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2023-06-13 Rick Tanner
 endmsg
 maplore
-The nightman down the hall spots you and shouts "HALT! THIEF!!!"  It seems they have mistaken you with somebody else.
+The nightman down the hall spots you and shouts "HALT! THIEF!!!" It seems they have mistaken you with somebody else.
 endmaplore
 reset_group scorn_goths-tavern
 end
@@ -1903,7 +1903,7 @@ arch card
 name Port Pass
 slaying port_pass
 msg
-This is a merchants pass allowing paid access between the City of Scorn and the Port of Scorn, for the purposes of trade and commerce.  Animal or plants entering the city of scorn must be quarantined in the Quarantine Warehouse in the port area.
+This is a merchants pass allowing paid access between the City of Scorn and the Port of Scorn, for the purposes of trade and commerce. Animal or plants entering the city of scorn must be quarantined in the Quarantine Warehouse in the port area.
 endmsg
 value 2500
 identified 1
@@ -3810,7 +3810,7 @@ Ohhhhh... newbies! SO much to learn!
 @match who|he
 Don't ask too many questions. Let's focus on this chest.
 @match *
-Shhhhhhhhhhhhhhhh... hey man.. he'll hear you.  Are you that apprentice they promised me?
+Shhhhhhhhhhhhhhhh... hey man.. he'll hear you. Are you that apprentice they promised me?
 endmsg
 x 19
 y 19
@@ -3834,9 +3834,7 @@ end
 arch note
 msg
 Adventurers Needed:
-Please go see the magistrate in Scorn castle
-at your earliest convience.  They are in
-desperate need of assistance.
+Please go see the magistrate in Scorn castle at your earliest convience. They are in desperate need of assistance.
 endmsg
 x 19
 y 20

@@ -7,8 +7,8 @@ height 55
 enter_x 1
 enter_y 52
 msg
-Created:  1994-02-14
-Modified: 2022-07-28 Rick Tanner
+Created: 1994-02-14
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_scorn-prison
 end
@@ -675,7 +675,7 @@ end
 arch charwoman
 msg
 @match *
-Sweep and Clean.  Clean and Sweep.  These monsters are such animals!
+Sweep and Clean. Clean and Sweep. These monsters are such animals!
 endmsg
 x 2
 y 16
@@ -1873,7 +1873,7 @@ end
 arch charwoman
 msg
 @match *
-Sweep and Clean.  Clean and Sweep.  These monsters are such animals!
+Sweep and Clean. Clean and Sweep. These monsters are such animals!
 endmsg
 x 6
 y 14
@@ -2691,7 +2691,7 @@ end
 arch charwoman
 msg
 @match *
-Sweep and Clean.  Clean and Sweep.  These monsters are such animals!
+Sweep and Clean. Clean and Sweep. These monsters are such animals!
 endmsg
 x 8
 y 35
@@ -3907,7 +3907,7 @@ end
 arch charwoman
 msg
 @match *
-Sweep and Clean.  Clean and Sweep.  These monsters are such animals!
+Sweep and Clean. Clean and Sweep. These monsters are such animals!
 endmsg
 x 12
 y 3
@@ -4250,13 +4250,13 @@ arch guard
 name talkative prison guard
 msg
 @match crisis
-The crisis of all these monsters popping up all over the city.  We get rid of one batch and they just re-appear a few days later!
+The crisis of all these monsters popping up all over the city. We get rid of one batch and they just re-appear a few days later!
 @match monster|monsters
-Monsters like those in the city zoo.  My theory is that they are escaping from the zoo and getting into peoples homes.
+Monsters like those in the city zoo. My theory is that they are escaping from the zoo and getting into peoples homes.
 @match zoo
-You should visit the Zoo.  It is highly educational.  It is at the south-east corner of the city at the end of Zoo Road.
+You should visit the Zoo. It is highly educational. It is at the south-east corner of the city at the end of Zoo Road.
 @match *
-I wouldn't go in there if I was ye.  This is where we keep the monsters captured in the city since the crisis started.
+I wouldn't go in there if I was ye. This is where we keep the monsters captured in the city since the crisis started.
 endmsg
 x 12
 y 51
@@ -7806,7 +7806,7 @@ arch giant
 name Chief
 msg
 @match *
-I am the prison warden.  You leave these monsters alone or I thump thee one.
+I am the prison warden. You leave these monsters alone or I thump thee one.
 endmsg
 x 23
 y 46
@@ -10643,7 +10643,7 @@ end
 arch charwoman
 msg
 @match *
-Sweep and Clean.  Clean and Sweep.  These monsters are such animals!
+Sweep and Clean. Clean and Sweep. These monsters are such animals!
 endmsg
 x 32
 y 35

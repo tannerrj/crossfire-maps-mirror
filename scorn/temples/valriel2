@@ -7,8 +7,8 @@ height 12
 enter_x 1
 enter_y 10
 msg
-Created:  1999-01-18 Raphaël Quinet (raphael@gimp.org)
-Modified: 2022-07-29 Rick Tanner
+Created: 1999-01-18 Raphaël Quinet (raphael@gimp.org)
+Modified: 2023-06-13 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valriel
 end
@@ -577,7 +577,7 @@ arch sage
 name choir leader
 msg
 @match valriel
-Valriel is our Lord.  He will save us from all evil and bring us to Heaven.
+Valriel is our Lord. He will save us from all evil and bring us to Heaven.
 @match lord
 There is only one true Lord, and His name is Valriel.
 @match heaven
@@ -585,7 +585,7 @@ One day, Valriel will bring all His followers to Heaven.
 @match hymn
 It is a song celebrating Valriel in all His glory.
 @match *
-Hmmm...  Please do not disturb me.  I am currently writing a new hymn to the glory of Valriel.
+Hmmm... Please do not disturb me. I am currently writing a new hymn to the glory of Valriel.
 endmsg
 x 7
 y 8

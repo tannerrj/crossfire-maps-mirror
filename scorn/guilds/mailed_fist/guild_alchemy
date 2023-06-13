@@ -9,10 +9,10 @@ enter_x 3
 enter_y 7
 msg
 Creator: CF Java Map Editor
-Date:    4/8/2007
+Date:   4/8/2007
 Map finised by:  Alestan jehloq@yahoo.com
 Date:     8/27/2007
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2023-06-13 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -691,7 +691,7 @@ arch altar_trigger
 name New Cauldron
 slaying Cauldron
 msg
-Removing your old cauldron.  Please wait.
+Removing your old cauldron. Please wait.
 endmsg
 exp 60
 food 1
