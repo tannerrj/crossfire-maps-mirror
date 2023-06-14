@@ -7,6 +7,7 @@ enter_x 7
 enter_y 20
 msg
 Created:  2002-03-09 Avion
+Modified: 2023-06-14 Rick Tanner
 endmsg
 end
 arch teleporter
@@ -1653,7 +1654,7 @@ y 15
 connected 40
 end
 arch goldfloor
-name drop  X for door guard
+name drop X for door guard
 slaying gem
 msg
 Dig. Dig. Dig.
@@ -2603,7 +2604,7 @@ x 13
 y 15
 end
 arch goldfloor
-name drop  Well shovel for secret tunnel to basement
+name drop Well shovel for secret tunnel to basement
 slaying Well shovel
 msg
 Dig. Dig. Dig.
@@ -5004,7 +5005,7 @@ x 26
 y 16
 end
 arch goldfloor
-name drop  Well shovel for secret tunnel to basement
+name drop Well shovel for secret tunnel to basement
 slaying Well shovel
 msg
 Dig. Dig. Dig.

@@ -5,8 +5,8 @@ height 30
 enter_x 9
 enter_y 28
 msg
-Created:  2002-03-09 Avion
-Modified: 2012-03-30 Rick Tanner
+Created: 2002-03-09 Avion
+Modified: 2023-06-14 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -3692,7 +3692,7 @@ x 22
 y 4
 end
 arch goldfloor
-name drop X  for Monster 3
+name drop X for Monster 3
 slaying gem
 face button_sma.111
 food 1
