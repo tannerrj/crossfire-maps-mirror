@@ -10,7 +10,7 @@ enter_x 9
 enter_y 4
 msg
 Created:  2003-07-31 Tchize
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2023-06-14 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -1295,7 +1295,7 @@ end
 arch sign
 name Gates and Doors
 msg
-Some doors and gates automatically swing open by triggering a (sometimes hidden) button or switch.  Be careful not to stand in the way when they are swinging open or closed...  Ouch.
+Some doors and gates automatically swing open by triggering a (sometimes hidden) button or switch. Be careful not to stand in the way when they are swinging open or closed... Ouch.
 endmsg
 x 4
 y 7
@@ -2362,7 +2362,7 @@ name Fighting
 msg
 Get your first experience points!
 Ants are the easiest creatures to kill in the world of Crossfire.
-Nothing is easier than fighting.  Just run into the ants.
+Nothing is easier than fighting. Just run into the ants.
 Go ahead, you can kill them!
 endmsg
 x 7
@@ -3599,8 +3599,8 @@ The second is to use the command
 apply
 -----
 which uses the top object on the ground where you are standing.
-Of course it isn't easy to type the command each time you want to use a lever or eat some food.  I recommend you bind the command to a key.
-If you don't know how to do bind commands to keys, follow the binding tutorial by talking to Manu, the crazy key binder.  He is to your left.
+Of course it isn't easy to type the command each time you want to use a lever or eat some food. I recommend you bind the command to a key.
+If you don't know how to do bind commands to keys, follow the binding tutorial by talking to Manu, the crazy key binder. He is to your left.
 -------------------
 endmsg
 x 11
@@ -5007,7 +5007,7 @@ arch sign
 name sign
 msg
 There are many different types of doors.
-The most basic type is a simple closed door.  You can open this kind of door with a generic key like the one beside this sign.
+The most basic type is a simple closed door. You can open this kind of door with a generic key like the one beside this sign.
 If you have no keys you can try to break the door down by attacking it.
 If you have the lockpicking skill you can try to open the door by typing 'ready_skill lockpicking' and then 'firing' (usually pressing shift + <direction>) towards the door like you would fire an arrow or a bolt.
 There are also locked doors which can only be opened with special keys...
