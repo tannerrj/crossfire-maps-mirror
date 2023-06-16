@@ -10,8 +10,8 @@ width 12
 height 15
 enter_x 4
 msg
-Creator: 2007-06-11 Philip Stolarczyk
-Modified: 2008-10-02 Rick Tanner
+Creator:  2007-06-11 Philip Stolarczyk
+Modified: 2023-06-16 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -243,7 +243,7 @@ y 8
 end
 arch magic_mouth
 msg
-You wake up in a cage!  You think you may be able to tunnel out through the floor.
+You wake up in a cage! You think you may be able to tunnel out through the floor.
 endmsg
 x 1
 y 8
@@ -252,7 +252,7 @@ arch oakdoor
 name dirtfloor
 slaying pet-apartment
 msg
-You tunnel under the bars.  You hope your pets don't figure out this trick.
+You tunnel under the bars. You hope your pets don't figure out this trick.
 endmsg
 face dirtfloor.111
 hp 2
@@ -641,7 +641,7 @@ y 8
 end
 arch magic_mouth
 msg
-You wake up in a cage!  You think you may be able to tunnel out through the floor.
+You wake up in a cage! You think you may be able to tunnel out through the floor.
 endmsg
 x 3
 y 8
@@ -650,7 +650,7 @@ arch oakdoor
 name dirtfloor
 slaying pet-apartment
 msg
-You tunnel under the bars.  You hope your pets don't figure out this trick.
+You tunnel under the bars. You hope your pets don't figure out this trick.
 endmsg
 face dirtfloor.111
 hp 2
@@ -934,7 +934,7 @@ arch sign
 name Instructions
 msg
 Welcome to your pet storage apartment.
-To save a pet, bring the pet you wish to store to the teleporter and pull the lever.  It will take a few moments for the pet to appear in the cell.
+To save a pet, bring the pet you wish to store to the teleporter and pull the lever. It will take a few moments for the pet to appear in the cell.
 To retrieve a pet, pull the lever in front of the cell.
 To escape from the pet cell if you get trapped, apply the floor.
 
@@ -1051,7 +1051,7 @@ y 8
 end
 arch magic_mouth
 msg
-You wake up in a cage!  You think you may be able to tunnel out through the floor.
+You wake up in a cage! You think you may be able to tunnel out through the floor.
 endmsg
 x 5
 y 8
@@ -1060,7 +1060,7 @@ arch oakdoor
 name dirtfloor
 slaying pet-apartment
 msg
-You tunnel under the bars.  You hope your pets don't figure out this trick.
+You tunnel under the bars. You hope your pets don't figure out this trick.
 endmsg
 face dirtfloor.111
 hp 6
@@ -1443,7 +1443,7 @@ y 8
 end
 arch magic_mouth
 msg
-You wake up in a cage!  You think you may be able to tunnel out through the floor.
+You wake up in a cage! You think you may be able to tunnel out through the floor.
 endmsg
 x 7
 y 8
@@ -1452,7 +1452,7 @@ arch oakdoor
 name dirtfloor
 slaying pet-apartment
 msg
-You tunnel under the bars.  You hope your pets don't figure out this trick.
+You tunnel under the bars. You hope your pets don't figure out this trick.
 endmsg
 face dirtfloor.111
 hp 6

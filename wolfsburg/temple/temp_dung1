@@ -7,7 +7,7 @@ height 37
 enter_x 1
 enter_y 1
 msg
-Modified: 2022-08-07 Rick Tanner
+Modified: 2023-06-16 Rick Tanner
 endmsg
 reset_group wolfsburg_reticent-temple
 end
@@ -7209,7 +7209,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -8036,7 +8036,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -8077,7 +8077,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -8908,7 +8908,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -8949,7 +8949,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -9679,13 +9679,13 @@ end
 arch sphinx
 msg
 @match yes|riddle
-   Sometimes brass or gold,
+  Sometimes brass or gold,
    for each a hole and a ring,
    turning, ever turning,
    waiting for an opening.
 What is it?
 @match key
-You have guessed correctly.  The first object you seek is in the Volcano.  The first word you seek is TIMELESSNESS.
+You have guessed correctly. The first object you seek is in the Volcano. The first word you seek is TIMELESSNESS.
 @match name
 I am the Sphinx!
 @match *
@@ -9782,7 +9782,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *
@@ -9810,11 +9810,11 @@ Hello, Sapling.
 @match name
 I am Arborius the King of the Ents.
 @match king|ents
-I rule the Ents, the living trees.  We live in a forrest which is on a distant island.
+I rule the Ents, the living trees. We live in a forrest which is on a distant island.
 @match island
 There is a longboat in Wolfsburg that goes there regularly.
 @match autumn
-The second object is in my forest kingdom.  The second word is TWILIGHT.
+The second object is in my forest kingdom. The second word is TWILIGHT.
 @match *
 Be careful of my roots, sapling.
 endmsg
@@ -9841,7 +9841,7 @@ arch faerie_dragon
 name Faerie Dragon Guardian
 msg
 @match hello|hi
-Hello.  You should talk to Arborius.
+Hello. You should talk to Arborius.
 @match arborius
 He is the ent king.
 @match *

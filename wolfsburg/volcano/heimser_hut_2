@@ -9,7 +9,7 @@ enter_x 9
 enter_y 1
 msg
 Created:  2008-01-12 lauwenmark
-Modified: 2022-08-07 Rick Tanner
+Modified: 2023-06-16 Rick Tanner
 endmsg
 maplore
 This map is part of the Quest of the Two Heimser Brothers.
@@ -89,7 +89,7 @@ x 1
 y 1
 arch book_read
 msg
-...I'll require at least ten of those crystals to get enough power.  Maybe we'll find some in Euthville's ruins?
+...I'll require at least ten of those crystals to get enough power. Maybe we'll find some in Euthville's ruins?
 endmsg
 value 1
 end
@@ -175,13 +175,13 @@ x 2
 y 1
 arch book_clasp
 msg
-...Experiment 321: It still doesn't bend the Field enough.  The accumulator is not pure enough.  I'll try to use the one we found in the ruins.
+...Experiment 321: It still doesn't bend the Field enough. The accumulator is not pure enough. I'll try to use the one we found in the ruins.
 endmsg
 value 1
 end
 arch book_clasp
 msg
-...Experiment 453: The Crystal is too unstable.  I can try to change the delta structure to 22.
+...Experiment 453: The Crystal is too unstable. I can try to change the delta structure to 22.
 endmsg
 value 1
 end
@@ -382,7 +382,7 @@ y 6
 end
 arch book_clasp
 msg
-The book contains Metamathematics used by magicians to create new spells.  You've never seen such formulae before, though.
+The book contains Metamathematics used by magicians to create new spells. You've never seen such formulae before, though.
 endmsg
 x 5
 y 6
@@ -394,7 +394,7 @@ y 7
 end
 arch book_clasp
 msg
-The book contains Metamathematics used by magicians to create new spells.  You've never seen such formulae before, though.
+The book contains Metamathematics used by magicians to create new spells. You've never seen such formulae before, though.
 endmsg
 x 5
 y 7
@@ -448,7 +448,7 @@ y 6
 end
 arch book_read
 msg
-There are children's drawings in that book.  They are all signed: "Keiran."
+There are children's drawings in that book. They are all signed: "Keiran."
 endmsg
 x 6
 y 6
@@ -460,7 +460,7 @@ y 7
 end
 arch book_clasp
 msg
-The book contains Metamathematics used by magicians to create new spells.  You've never seen such formulae before, though.
+The book contains Metamathematics used by magicians to create new spells. You've never seen such formulae before, though.
 endmsg
 x 6
 y 7
