@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2023-06-16 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_122_115
@@ -3056,8 +3056,7 @@ end
 arch guard
 msg
 @match *
-On your way - or I'll arrest you for
-disturbin' the peace...
+On your way - or I'll arrest you for disturbin' the peace...
 endmsg
 x 8
 y 48

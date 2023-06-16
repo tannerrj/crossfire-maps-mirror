@@ -4,7 +4,7 @@ region portjoseph
 width 50
 height 50
 msg
-Modified: 2021-11-01 DraugTheWhopper
+Modified: 2023-06-16 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_101_113
@@ -3757,7 +3757,7 @@ arch pirate
 name Percival
 msg
 @match hello|hi|howdy
-Goodday to-ya. Want a ride out to Goblin island?  (Simply press `A')
+Goodday to-ya. Want a ride out to Goblin island? (Simply press `A')
 @match portia
 Portia is a good woman. You don't bother her now.
 @match bill|moogly
@@ -3797,8 +3797,8 @@ arch magic_ear
 msg
 @match violet
 Percival says 'Ah so Portia sent ye...'
-The king's navy is attacking the fort!  This is as far as I dare take ye.
-The grave is under the shadow of the wall to the north.  Return with the name of the island where he buried his treasure...
+The king's navy is attacking the fort! This is as far as I dare take ye.
+The grave is under the shadow of the wall to the north. Return with the name of the island where he buried his treasure...
 endmsg
 x 15
 y 48
