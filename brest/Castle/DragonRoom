@@ -8,7 +8,7 @@ enter_x 12
 enter_y 1
 msg
 Created:  1994-07-02
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-07-31 Rick Tanner
 endmsg
 reset_group brest-castle_of_brittany
 end
@@ -1440,14 +1440,10 @@ end
 arch dirtfloor
 x 10
 end
-arch bwall_3_3
+arch bwall_2_1_2
 x 10
 end
 arch dirtfloor
-x 10
-y 1
-end
-arch bwall_2_1_1
 x 10
 y 1
 end
@@ -1455,7 +1451,7 @@ arch dirtfloor
 x 10
 y 2
 end
-arch bwall_2_1_1
+arch big_elec
 x 10
 y 2
 end
@@ -1463,7 +1459,7 @@ arch dirtfloor
 x 10
 y 3
 end
-arch bwall_2_2_1
+arch random_wealth
 x 10
 y 3
 end
@@ -1511,29 +1507,37 @@ arch dirtfloor
 x 10
 y 9
 end
-arch director_4
+arch grate_closed_2
 x 10
 y 9
-end
-arch big_elec
-x 10
-y 9
+connected 1
 end
 arch dirtfloor
 x 10
 y 10
 end
+arch grate_closed_2
+x 10
+y 10
+connected 1
+end
 arch dirtfloor
 x 10
 y 11
 end
+arch grate_closed_2
+x 10
+y 11
+connected 1
+end
 arch dirtfloor
 x 10
 y 12
 end
-arch random_wealth
+arch grate_closed_2
 x 10
 y 12
+connected 1
 end
 arch dirtfloor
 x 10
@@ -1605,7 +1609,7 @@ arch dirtfloor
 x 11
 y 1
 end
-arch sign
+arch director_7
 x 11
 y 1
 end
@@ -1613,15 +1617,11 @@ arch dirtfloor
 x 11
 y 2
 end
-arch sign
+arch director_6
 x 11
 y 2
 end
 arch dirtfloor
-x 11
-y 3
-end
-arch bwall_1_3
 x 11
 y 3
 end
@@ -1653,15 +1653,16 @@ arch dirtfloor
 x 11
 y 9
 end
-arch director_5
+arch grate_closed_1
 x 11
 y 9
+connected 1
 end
 arch dirtfloor
 x 11
 y 10
 end
-arch director_7
+arch sign
 x 11
 y 10
 end
@@ -1669,13 +1670,18 @@ arch dirtfloor
 x 11
 y 11
 end
-arch director_6
+arch sign
 x 11
 y 11
 end
 arch dirtfloor
 x 11
 y 12
+end
+arch grate_closed_1
+x 11
+y 12
+connected 1
 end
 arch dirtfloor
 x 11
@@ -1747,30 +1753,17 @@ arch dirtfloor
 x 12
 y 1
 end
-arch ladder_up
-slaying castle
-hp 12
-sp 30
-x 12
-y 1
-end
 arch dirtfloor
 x 12
 y 2
-end
-arch button_handle
-x 12
-y 2
-connected 1
 end
 arch dirtfloor
 x 12
 y 3
 end
-arch grate_closed_1
+arch director_2
 x 12
 y 3
-connected 1
 end
 arch dirtfloor
 x 12
@@ -1812,11 +1805,19 @@ arch dirtfloor
 x 12
 y 9
 end
-arch big_elec
+arch grate_closed_1
 x 12
 y 9
+connected 1
 end
 arch dirtfloor
+x 12
+y 10
+end
+arch ladder_up
+slaying castle
+hp 12
+sp 30
 x 12
 y 10
 end
@@ -1824,13 +1825,19 @@ arch dirtfloor
 x 12
 y 11
 end
+arch button_handle
+x 12
+y 11
+connected 1
+end
 arch dirtfloor
 x 12
 y 12
 end
-arch director_2
+arch grate_closed_1
 x 12
 y 12
+connected 1
 end
 arch dirtfloor
 x 12
@@ -1894,7 +1901,7 @@ arch dirtfloor
 x 13
 y 1
 end
-arch sign
+arch director_7
 x 13
 y 1
 end
@@ -1902,7 +1909,11 @@ arch dirtfloor
 x 13
 y 2
 end
-arch sign
+arch director_7
+x 13
+y 2
+end
+arch big_elec
 x 13
 y 2
 end
@@ -1910,7 +1921,7 @@ arch dirtfloor
 x 13
 y 3
 end
-arch bwall_1_4
+arch director_6
 x 13
 y 3
 end
@@ -1946,11 +1957,16 @@ arch dirtfloor
 x 13
 y 9
 end
+arch grate_closed_1
+x 13
+y 9
+connected 1
+end
 arch dirtfloor
 x 13
 y 10
 end
-arch director_7
+arch sign
 x 13
 y 10
 end
@@ -1958,7 +1974,7 @@ arch dirtfloor
 x 13
 y 11
 end
-arch director_7
+arch sign
 x 13
 y 11
 end
@@ -1966,9 +1982,10 @@ arch dirtfloor
 x 13
 y 12
 end
-arch director_6
+arch grate_closed_1
 x 13
 y 12
+connected 1
 end
 arch dirtfloor
 x 13
@@ -2033,14 +2050,14 @@ end
 arch dirtfloor
 x 14
 end
-arch bwall_3_3
+arch bwall_2_1_2
 x 14
 end
 arch dirtfloor
 x 14
 y 1
 end
-arch bwall_2_1_1
+arch chest
 x 14
 y 1
 end
@@ -2048,15 +2065,11 @@ arch dirtfloor
 x 14
 y 2
 end
-arch bwall_2_1_1
+arch random_weapon
 x 14
 y 2
 end
 arch dirtfloor
-x 14
-y 3
-end
-arch bwall_2_2_4
 x 14
 y 3
 end
@@ -2104,25 +2117,37 @@ arch dirtfloor
 x 14
 y 9
 end
+arch grate_closed_2
+x 14
+y 9
+connected 1
+end
 arch dirtfloor
 x 14
 y 10
 end
-arch chest
+arch grate_closed_2
 x 14
 y 10
+connected 1
 end
 arch dirtfloor
 x 14
 y 11
 end
-arch random_weapon
+arch grate_closed_2
 x 14
 y 11
+connected 1
 end
 arch dirtfloor
 x 14
 y 12
+end
+arch grate_closed_2
+x 14
+y 12
+connected 1
 end
 arch dirtfloor
 x 14
@@ -2239,10 +2264,6 @@ x 15
 y 9
 end
 arch director_8
-x 15
-y 9
-end
-arch big_elec
 x 15
 y 9
 end
@@ -2507,6 +2528,10 @@ x 17
 y 7
 end
 arch director_4
+x 17
+y 7
+end
+arch big_elec
 x 17
 y 7
 end

@@ -8,7 +8,7 @@ enter_x 9
 enter_y 16
 msg
 Created:  1994-08-30
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-07-31 Rick Tanner
 endmsg
 reset_group brest-castle_of_brittany
 end
@@ -2791,7 +2791,7 @@ end
 arch ladder_bi_down
 slaying DragonRoom
 hp 12
-sp 1
+sp 10
 x 12
 y 30
 end
