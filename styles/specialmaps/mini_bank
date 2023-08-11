@@ -1,0 +1,153 @@
+arch map
+name Pop-Up Bank of Skud
+width 6
+height 6
+msg
+Created:  Avion
+2004-03-22
+Modified: 2023-08-11 Daniel Hawkins
+endmsg
+end
+arch tile_tan_floor
+x 1
+y 1
+end
+arch wall_2_2_2
+x 1
+y 1
+end
+arch tile_tan_floor
+x 1
+y 2
+end
+arch window_win1
+x 1
+y 2
+end
+arch tile_tan_floor
+x 1
+y 3
+end
+arch swall_1_4_half
+x 1
+y 3
+end
+arch wall_2_1_1
+x 1
+y 3
+end
+arch tile_tan_floor
+x 1
+y 4
+end
+arch wall_1_2
+x 1
+y 4
+end
+arch tile_tan_floor
+x 2
+y 1
+end
+arch window_win2
+x 2
+y 1
+end
+arch tile_tan_floor
+x 2
+y 2
+end
+arch firepot_bright
+x 2
+y 2
+end
+arch tile_tan_floor
+x 2
+y 3
+end
+arch swall_2_1_2
+x 2
+y 3
+end
+arch tile_tan_floor
+x 2
+y 4
+end
+arch sign_e
+msg
+Change your money here!
+
+Please form a single-file line.
+endmsg
+x 2
+y 4
+end
+arch tile_tan_floor
+x 3
+y 1
+end
+arch window_win2
+x 3
+y 1
+end
+arch tile_tan_floor
+x 3
+y 2
+end
+arch black_dragon2
+name teller
+x 3
+y 2
+no_mood_change 1
+end
+arch tile_tan_floor
+x 3
+y 3
+end
+arch swall_2_1_2
+x 3
+y 3
+end
+arch tile_tan_floor
+x 3
+y 4
+end
+arch random_converter
+x 3
+y 4
+end
+arch tile_tan_floor
+x 4
+y 1
+end
+arch wall_2_2_3
+x 4
+y 1
+end
+arch tile_tan_floor
+x 4
+y 2
+end
+arch window_win1
+x 4
+y 2
+end
+arch tile_tan_floor
+x 4
+y 3
+end
+arch wall_2_1_1
+x 4
+y 3
+end
+arch swall_1_3_half
+x 4
+y 3
+end
+arch tile_tan_floor
+x 4
+y 4
+end
+arch wall_1_2
+x 4
+y 4
+end
