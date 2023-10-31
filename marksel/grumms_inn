@@ -8,7 +8,7 @@ enter_x 9
 enter_y 15
 msg
 Created: 2002-10-27 Todd Mitchell
-Modified: 2023-06-05 Rick Tanner
+Modified: 2023-10-31 Rick Tanner
 endmsg
 outdoor 1
 reset_group marksel_grumms-inn
@@ -730,7 +730,7 @@ end
 arch a_priest
 msg
 @match yes
-Bless you my son. Join us at our next service.
+Bless you, my son. Join us at our next service.
 @match no
 Then I pray your soul is not eaten by the old ones.
 @match eaten|old|ones
