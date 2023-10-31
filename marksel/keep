@@ -8,7 +8,7 @@ enter_x 9
 enter_y 15
 msg
 Created: 1999-01-28 King Zoobus
-Modified: 2023-06-05 Rick Tanner
+Modified: 2023-10-31 Rick Tanner
 endmsg
 reset_group marksel_marksel-keep
 end
@@ -847,7 +847,7 @@ end
 arch courier
 msg
 @match king|navar
-His city lies to the south. He is ruler of our province... or was. There is no suitable heir. Who will be our next King? Oh, poor Queen Wilhema... her grief is great!
+His city lies to the south. He is the ruler of our province... or was. There is no suitable heir. Who will be our next King? Oh, poor Queen Wilhema... her grief is great!
 @match *
 I bear a message to my Lord. The King of Navar is dead.
 endmsg
