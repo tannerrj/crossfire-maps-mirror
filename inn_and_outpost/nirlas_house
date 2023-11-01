@@ -8,7 +8,7 @@ enter_x 24
 enter_y 6
 msg
 Created:  2004-05-28 Avion
-Modified: 2023-06-04 Rick Tanner
+Modified: 2023-11-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1181,7 +1181,7 @@ msg
 @match hi|hello
 Hello, I am Nirla, please make yourself welcome.
 @match dark|forest
-Although it may seem to be many places where you can find it, there is only one Dark Forest. It is all connected - these connections are called The Greenway.
+Although there may seem to be many places where you can find it, there is only one Dark Forest. It is all connected - these connections are called The Greenway.
 @question greenway What is this "Greenway"?
 @match greenway
 The Greenway of the forest spans the world (and some say even time itself). The portals are hard to find and the paths are chaotic and dangerous. Only the experienced may find their way.
