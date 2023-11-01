@@ -1400,7 +1400,7 @@ end
 arch thief_1
 msg
 @match thief
-Who you calling thief?
+Who are you calling a thief?
 @match fight
 Yeah, the fight. What are you, stupid?
 @match *
@@ -1513,7 +1513,7 @@ end
 arch northman
 msg
 @match *
-Show your stuff Olaf!
+Show your stuff, Olaf!
 endmsg
 x 13
 y 8
@@ -1629,13 +1629,13 @@ msg
 @match redeye
 That's me name, what of it?
 @match percival|percy
-Ah, ye want to learn his secrets? Well, the only one who he will speak to is the lovely lady Portia.
+Ah, ye want to learn his secrets? Well, the only one whom he will speak to is the lovely lady Portia.
 @match portia|lady
 Eh, a pretty lass in her day. Ask her about Percy, not me. She has a house up near the church.
 @match treasure
 Heh, heh. Everyones after a pirate's gold aren't they? Mind you, if ya go after it, more than likely yer bones will litter the sandy deep.
 @match moogly|bill
-Moogly Bill was a terror to peaceful folk. He took his secrets to his grave, and made sure his grave was not to be harmed.
+Moogly Bill was a terror to peaceful folk. He took his secrets to his grave and made sure his grave was not to be harmed.
 @match *
 What are ye babbling about?
 endmsg
@@ -2071,7 +2071,7 @@ end
 arch thief_1
 msg
 @match treasure
-Hah, you want in our treasure, well you might have better luck than us. Its old Moogly Bill's treasure we be chattin' about.
+Hah, you want in our treasure, well you might have better luck than us. It's old Moogly Bill's treasure we be chattin' about.
 @match grave|secret
 Yes, he was buried with his treasure map. Only Pegleg Percival knows where.
 @match redeye
