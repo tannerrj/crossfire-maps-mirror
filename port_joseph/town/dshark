@@ -8,7 +8,7 @@ enter_x 16
 enter_y 6
 msg
 Created: 1994-05-17 langley (langley@fermat.dartmouth.edu)
-Modified: 2023-06-06 Rick Tanner
+Modified: 2023-11-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2347,11 +2347,11 @@ end
 arch pirate
 msg
 @match percy|percival|pegleg
-Old Percival is retired and spends his time fishin. He won't talk to the likes o' us.
+Old Percival is retired and spends his time fishin'. He won't talk to the likes o' us.
 @match hello|howdy|hi
-Arr. Goodday to ye.
+Arr. Good day to ye.
 @match bill|moogly
-Ay, the dread pirate Moogly Bill. Terror of the high seas he was. No one found his pirate loot, he took the secret of where it is to his grave.
+Ay, the dread pirate Moogly Bill. Terror of the high seas he was. No one found his pirate loot, he took the secret of where it was to his grave.
 @match loot
 Enough for a king's ransom . . . as Redeye puts it.
 @match buried|where
