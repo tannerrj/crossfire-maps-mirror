@@ -8,7 +8,7 @@ enter_x 13
 enter_y 13
 msg
 Created: 1993-10-27
-Modified: 2023-06-07 Rick Tanner
+Modified: 2023-11-02 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1144,7 +1144,7 @@ name Pip
 title the barkeep
 msg
 @match rhyz
-One of the rooms has stairs leading where you want to go.
+One of the rooms has stairs leading to where you want to go.
 @match *
 What a rowdy lot!
 endmsg
