@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  2007-03-11 Gene Alexander (poof, Galahad)
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2023-11-03 Rick Tanner
 endmsg
 end
 arch woods
@@ -1358,7 +1358,7 @@ msg
 @match mana|crystal
 The mana crystal booths are used to recharge the mana crystals you may carry in your inventory. Go in the booth, stand over the crystal to gain mana, then transfer the mana to the crystals you carry by applying them. Beware that standing on or near the mana crystal too long can be fatal to your health.
 @match cancellation
-The cancellation booth is used to remove negative damage from your equipment. Enter the booth, stand between the directors and check your negative damaged equipment. Eventually all negative damage will be removed. Beware that the cancellation will also remove bonuses from your equipment. Do not carry any equipment in the cancellation booth that you don't intend to have adjusted.
+The cancellation booth is used to remove negative damage from your equipment. Enter the booth, stand between the directors, and check your negative damaged equipment. Eventually, all negative damage will be removed. Beware that the cancellation will also remove bonuses from your equipment. Do not carry any equipment in the cancellation booth that you don't intend to have adjusted.
 @match *
 Welcome to my shop. We have two mana crystal booths and a cancellation booth. Please feel free to ask me about them.
 endmsg
