@@ -8,7 +8,7 @@ enter_x 1
 enter_y 13
 msg
 Created: 1996-02-07
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-03 Rick Tanner
 endmsg
 end
 arch dirtfloor
@@ -163,7 +163,7 @@ end
 arch human
 msg
 @match site|research
-You'll find the labs in a cave south-east of Nurnberg.
+You'll find the labs in a cave southeast of Nurnberg.
 @match yes|no|weapon
 I've heard rumors about experiments with living creatures. Horrible... Please go to the research site and destroy everything.
 @match *
@@ -787,7 +787,7 @@ end
 arch woman
 msg
 @match castle
-In the underground of Bauer's castle there is a prison. We all believe that Eureca is captured there. Bauer plans to become the new lord of Pup Land!
+In the underground of Bauer's castle, there is a prison. We all believe that Eureca is captured there. Bauer plans to become the new lord of Pup Land!
 @match bauer
 He is the mayor of Nurnberg. I'm sure that Eureca is held in captivity in Bauer's castle. Bauer deserves to DIE!
 @match eureca
@@ -1228,7 +1228,7 @@ end
 arch cleric
 msg
 @match bobbie|no
-Bobbie is the spy of Liberation Army. He has entered the Guild of Law to collect information. To meet him, ask for "Bobbie" in the guild.
+Bobbie is the spy of the Liberation Army. He has entered the Guild of Law to collect information. To meet him, ask for "Bobbie" in the guild.
 @match yes
 You two should work together!
 @match *
@@ -1456,7 +1456,7 @@ I hear there are two weapons. One is a living thing. The other is an artifact.
 @match regular|army
 We fight against it.
 @match bauer
-He is the leader of Regular army.
+He is the leader of the Regular army.
 @match jungle|no
 It is to the south of this town.
 @match cave|yes
