@@ -9,7 +9,7 @@ enter_x 32
 enter_y 24
 msg
 Created: 1996-02-04
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-05 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -4803,7 +4803,7 @@ arch pirate
 name Thief
 msg
 @match bauer
-He is very rich..
+He is very rich.
 @match path
 Yeah!, it leads to the treasure room of the castle!
 @match *
