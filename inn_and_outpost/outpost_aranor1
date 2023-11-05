@@ -8,7 +8,7 @@ enter_x 10
 enter_y 18
 msg
 Created:  2004-03-07 Avion
-Modified: 2023-06-04 Rick Tanner
+Modified: 2023-11-05 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2378,9 +2378,9 @@ msg
 @match merchant|trade
 I mostly trade with the elves. Some say it's dangerous but you just have to be cautious.
 @question elves Where are the elves?
-@question dangerous What do you mean with "dangerous"?
+@question dangerous What do you mean by "dangerous"?
 @match elves
-Yes there is a elven village to the west of here.
+Yes there is an elven village to the west of here.
 @match dangerous
 Well the elves aren't really dangerous but the Dark Forest is...
 @question elves Where are the elves?
