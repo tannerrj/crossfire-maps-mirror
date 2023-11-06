@@ -8,7 +8,7 @@ enter_x 9
 enter_y 8
 msg
 Created:  2016-07-29 Rick Tanner
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-06 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_beginners2
@@ -355,7 +355,7 @@ Proceed through the archway ahead and bring back the red key and choose a reward
 @question reward A reward, really?
 @question key Can you tell me anything about the red key?
 @match reward
-Why yes, a reward. To your left is a Potion of Healing - recover and heal yourself after a battle, and a Potion of Minor Potion of Life - recover lost stats after an untimely, but momentary death. To your right is a Potion of Shielding - protect you from physical attacks for a limited time, and a Potion of Heroism - a temporary boost to your strength, health, and quickness; great for combat during your many adventures.
+Why yes, a reward. To your left is a Potion of Healing - recover and heal yourself after a battle, and a Potion of Minor Potion of Life - recover lost stats after an untimely, but momentary death. To your right is a Potion of Shielding - which protects you from physical attacks for a limited time, and a Potion of Heroism - a temporary boost to your strength, health, and quickness; great for combat during your many adventures.
 @question key Can you tell me anything about the red key?
 @match key|red
 A sly and clever Gnoll Champion stole the key and I suspect he has it hidden somewhere in the dungeon. Explore, use your might, use your wit. Fight and survive and come back here to collect your prizes.
