@@ -8,7 +8,7 @@ height 24
 enter_x 13
 enter_y 19
 msg
-Modified: 2022-08-11 Rick Tanner
+Modified: 2023-11-06 Rick Tanner
 endmsg
 reset_group brest_bank
 end
@@ -387,7 +387,7 @@ arch guard
 name bank guard boss
 msg
 @match rob|steal
-You think you can steal from the Bank of Skud? In your dreams, pal!
+Do you think you can steal from the Bank of Skud? In your dreams, pal!
 @reply joke It was only a joke, ha!
 @reply serious I'm serious, hand over all your money or die!
 @match serious
