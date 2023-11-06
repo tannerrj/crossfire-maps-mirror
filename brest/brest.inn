@@ -8,7 +8,7 @@ enter_x 14
 enter_y 23
 msg
 Created:  1994-09-24 Gene Alexander
-Modified: 2021-10-03 Rick Tanner
+Modified: 2023-11-06 Rick Tanner
 endmsg
 end
 arch brush
@@ -3320,7 +3320,7 @@ end
 arch fighter
 msg
 @match yes|no|palace
-There are nine gates in the palace. They are often referred to as the "Nine Gates of Hell". I managed to enter the first two of them, yet the monsters behind the third gate are too hard for me. *sigh*
+There are nine gates in the palace. They are often referred to as the "Nine Gates of Hell." I managed to enter the first two of them, yet the monsters behind the third gate were too hard for me. *sigh*
 @match *
 @reply no No, I didn't.
 @reply yes Yes... what about it?
