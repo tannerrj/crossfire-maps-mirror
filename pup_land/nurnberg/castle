@@ -8,7 +8,7 @@ enter_x 12
 enter_y 15
 msg
 Created: 1996-03-02
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-07 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1769,11 +1769,11 @@ msg
 @match spy
 Ask our members in the Guild of Law.
 @match head|resistance
-The headquarter of the Resistance can be found northwest of the Castle of Eureca.
+The headquarters of the Resistance can be found northwest of the Castle of Eureca.
 @match eureca
 He was the lord of this country.
 @match *
-We will soon rescue Lord Eureca from the hands of the Resistance. Already, our spy is sneaking into their headquarter.
+We will soon rescue Lord Eureca from the hands of the Resistance. Already, our spy is sneaking into their headquarters.
 endmsg
 hp 100
 x 14
