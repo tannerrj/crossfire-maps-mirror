@@ -13,7 +13,7 @@ enter_x 41
 enter_y 2
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Modified: 2023-11-08 Rick Tanner
 endmsg
 outdoor 1
 reset_group citydeclouds_big-store
@@ -14072,7 +14072,7 @@ arch courier
 name Jeweler
 msg
 @match *
-May I help you in selecting the most perfect ring?
+May I help you select the most perfect ring?
 endmsg
 x 40
 y 10
