@@ -8,7 +8,7 @@ enter_x 19
 enter_y 1
 msg
 Created: 2000-11-11 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-08 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -4231,7 +4231,7 @@ arch sage
 name club owner
 msg
 @match yes
-Very well then. Get a gaming partner, pay 100 gold coins and start playing.
+Very well then. Get a gaming partner, pay 100 gold coins, and start playing.
 @match no
 Idiot! Chess is such a beautiful game...
 @match *
