@@ -10,7 +10,7 @@ enter_x 7
 enter_y 17
 msg
 Created: 2003-08-17 Lalo Martins
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-08 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valkyrie
 end
@@ -2340,7 +2340,7 @@ arch knight
 name Priest of Valkyrie
 msg
 @match *
-If you want to become a priest of the Brave Goddess, but you can't pray, all you have to do is prove your faith by passing the test behind us, and She will gift you with a holy symbol blessed by Herself, which will allow you to pray at Her altar. But beware, the test is not for beginners!
+If you want to become a priest of the Brave Goddess, and if you can't pray, all you have to do is prove your faith by passing the test behind us, and She will gift you with a holy symbol blessed by Herself, which will allow you to pray at Her altar. But beware, the test is not for beginners!
 endmsg
 x 10
 y 4
