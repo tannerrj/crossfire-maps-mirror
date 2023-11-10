@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created: 1993-10-15
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-11 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1576,7 +1576,7 @@ arch ninja2
 name Mercenary
 msg
 @match monster
-What about them!
+What about them!?
 @match *
 And where do you think you're GOING? Not downstairs!.... You'll have to kill me first!
 endmsg
