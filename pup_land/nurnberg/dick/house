@@ -8,7 +8,7 @@ enter_x 1
 enter_y 3
 msg
 Created: 1996-02-09
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-11 Rick Tanner
 endmsg
 end
 arch grass
@@ -524,17 +524,17 @@ arch human
 name Dick, the carpenter
 msg
 @match castle
-Bauer is very stingy. So, I did jerry-building in the underground of castle :). Go there and look into one of the pillars.
+Bauer is very stingy. So, I did jerry-building in the underground of the castle :). Go there and look into one of the pillars.
 @match bauer
 I hate him! He is very stingy! I built his Castle, but he didn't pay enough money!!!
 @match dot
 Ok!
 @match tod
-Really? You want to die?
+Really? Do you want to die?
 @match extra
 Oh, You want to try the extra dungeon, do you? Then please say the keyword from the Proof Scrolls.
 @match yes
-Ok. Please drop 5 platinum on the alter, and go to the next room.
+Ok. Please drop 5 platinum on the altar, and go to the next room.
 @match *
 Welcome to my house!
 I'm Dick, a Carpenter.
