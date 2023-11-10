@@ -8,7 +8,7 @@ enter_x 7
 enter_y 39
 msg
 Created:  1994-01-14 peterm (peterm@soda.berkeley.edu)
-Modified: 2023-06-11 Rick Tanner
+Modified: 2023-11-10 Rick Tanner
 endmsg
 reset_group quests_dark-forest
 end
@@ -3845,7 +3845,7 @@ end
 arch prisoner
 msg
 @match *
-Thank goodness you're here! Those monsters were planning to use us as sacrifices to their dark God..
+Thank goodness you're here! Those monsters were planning to use us as sacrifices to their dark god.
 endmsg
 hp 100
 maxhp 100
