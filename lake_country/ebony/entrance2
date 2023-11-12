@@ -2226,13 +2226,13 @@ arch thief
 name low guildguard
 msg
 @match test
-You will find out ... hee .. Well I can give you few lucky numbers if you want.
+You will find out ... hee .. Well, I can give you a few lucky numbers if you want.
 @match lucky|number
-I will tell you the first three. You have to find out the rest yourself. Now listen: 10, 5 and 2. Now do you intend to take the test?
+I will tell you the first three. You have to find out the rest yourself. Now listen, they are 10, 5, and 2. Now do you intend to take the test?
 @match yes
 So be it!
 @match *
-Hello, we don't welcome strangers. Now be warned and go back. If you intend to go in. You must have pass the test.
+Hello, we don't welcome strangers. Now be warned and go back. If you intend to go in. You must have passed the test.
 endmsg
 hp 500
 x 14
