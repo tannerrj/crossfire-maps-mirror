@@ -8,7 +8,7 @@ enter_x 24
 enter_y 12
 msg
 Created:  1997-04-19 Peter Mardahl (peterm@soda.csua.berkeley.edu)
-Modified: 2023-06-11 Rick Tanner
+Modified: 2023-11-13 Rick Tanner
 endmsg
 reset_group quests_fire-temple
 end
@@ -1137,7 +1137,7 @@ arch raas
 name Dr John Verboncoeur
 msg
 @match research
-YOU AGAIN! HOW MANY TIMES DO I HAVE TO TELL YOU! YOU NEED A pile of sulphur, and DON'T bother me about it again.
+YOU AGAIN! HOW MANY TIMES DO I HAVE TO TELL YOU!? YOU NEED A pile of sulphur, and DON'T bother me about it again.
 endmsg
 x 8
 y 2
@@ -2038,7 +2038,7 @@ arch devil
 name Professor C.K. Birdsall
 msg
 @match research
-You didn't think professors actually did research did you? Well, mostly I go get money and handle administrative stuff, but now and again I do some original stuff! For our current project you'd need a pile of phosphorus and I found THAT out myself.
+You didn't think professors actually did research, did you? Well, mostly I go get money and handle administrative stuff, but now and again I do some original stuff! For our current project, you'd need a pile of phosphorus and I found THAT out myself.
 endmsg
 x 14
 y 2
@@ -4716,7 +4716,7 @@ msg
 @match research
 Yah, we're working on like, blowing stuff up! It's rad! We're done, we just haven't published it yet! Wanna know what we do?
 @match yes
-Ok, well i don't work on everything, I did the pile of salt part. Peggy next door is working with us too, and so are John and Prof. Birdsall down the hall.
+Ok, well I don't work on everything, I did the pile of salt part. Peggy next door is working with us too, and so are John and Prof. Birdsall down the hall.
 endmsg
 x 29
 y 15
