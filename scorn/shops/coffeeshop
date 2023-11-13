@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  2003-04-27 Avion
-Modified: 2023-04-27 Daniel Hawkins
+Modified: 2023-11-13 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -283,7 +283,7 @@ I'm off right now, as you can see.
 @match name
 Juanita Valdez... Yours?
 @match quest
-Park it and enjoy the java...
+Park it and enjoy the Java...
 @match *
 Mmmmm, mountain-grown.
 endmsg
@@ -612,7 +612,7 @@ I'm looking for someone to do a job for me. Are you interested?
 @match interested|what|yes
 Pay ya 500 gold to find my goose.
 @match goose
-Her name is Esmeralda, she's a special goose.
+Her name is Esmeralda, and she's a special goose.
 @match special
 I'm not telling, you might not bring her back...
 @match 500
@@ -620,7 +620,7 @@ Worth every coin too.
 @match clue|idea|lead|lost|suspicious
 Well, Oled has always been jealous of my goose...
 @match *
-Finest brew east of Navar.
+The finest brew east of Navar.
 endmsg
 x 7
 y 5
