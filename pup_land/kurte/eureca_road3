@@ -8,7 +8,7 @@ enter_x 6
 enter_y 8
 msg
 Created: 1996-04-03
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-13 Rick Tanner
 endmsg
 end
 arch blocked
@@ -4373,7 +4373,7 @@ arch man
 name Tom
 msg
 @match hi|hello
-Go to the rear of the hotel, and say the password to evergreen tree.
+Go to the rear of the hotel, and say the password to the evergreen tree.
 endmsg
 hp 180
 x 17
@@ -7940,7 +7940,7 @@ arch man
 name Bernie
 msg
 @match hi|hello
-I'm hungry mum..
+I'm hungry Mum..
 Lauretta says:
 Bernie, you must endure.
 endmsg
@@ -8114,7 +8114,7 @@ arch guildmaster
 name Guildmaster, Dean
 msg
 @match hi|hello
-Siegfried killed Evil Masters, and saved the world in the legend. He is our Hero!!!
+Siegfried killed Evil Masters and saved the world in the legend. He is our Hero!!!
 endmsg
 x 31
 y 17
