@@ -11,7 +11,7 @@ enter_x 11
 enter_y 12
 msg
 Created: 2008-07-31 Raphaël Quinet & Chad Opperman
-Modified: 2023-05-29 Rick Tanner
+Modified: 2023-11-14 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -326,7 +326,7 @@ arch woman2
 name vendor
 msg
 @match *
-Drop gold on the tables to buy beer, popcorn or burgers.
+Drop gold on the tables to buy beer, popcorn, or burgers.
 endmsg
 x 2
 y 10
