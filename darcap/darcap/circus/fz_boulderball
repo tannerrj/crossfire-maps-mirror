@@ -8,7 +8,7 @@ enter_x 46
 enter_y 11
 msg
 Created:  2008-06-19 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-05-29 Rick Tanner
+Modified: 2023-11-14 Rick Tanner
 endmsg
 end
 arch altar_trigger
@@ -4782,7 +4782,7 @@ arch charwoman
 name Cleaning Woman
 msg
 @match *
-I'm glad people are such slobs, else I would be unemployed!
+I'm glad people are such slobs, or I would be unemployed!
 endmsg
 x 17
 y 21
