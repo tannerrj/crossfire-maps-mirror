@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-16 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -792,7 +792,7 @@ Well, maybe your greed will keep you alive, then. I've known some people who hav
 @match cave
 I never explored his cave. If you can get past his pets and into his Chamber, you'll probably find something interesting. After the battle, the mountain was far too hot to be near, and I've had better things to do since then. I don't think you'll be able to pass his vicious pets unless you're at least 15th Tier in your guild. The mountain can be found north of the bend in the Great East Road.
 @match mountain
-I'll never forget that mountain. I fought a battle atop it with a dark spirit. His evil had begun to poison the land around his lair, so I challenged him to battle. When he issued forth from his cave to do battle with me, I rose into the air above him and blasted him with fire. He somehow survived that first blast, so I threw yet a greater at him. He survived that one too, so I stretched myself. The next blast of fire scorched the mountain black (it remains so to this day). Yet still, he stood against me, so I thought he must somehow be immune. Using the last of my strength, I blasted him with lightning. He was destroyed, but I never looked into his cave.
+I'll never forget that mountain. I fought a battle atop it with a dark spirit. His evil had begun to poison the land around his lair, so I challenged him to battle. When he issued forth from his cave to do battle with me, I rose into the air above him and blasted him with fire. He somehow survived that first blast, so I threw yet a greater blast at him. He survived that one too, so I stretched myself. The next blast of fire scorched the mountain black (it remains so to this day). Yet still, he stood against me, so I thought he must somehow be immune. Using the last of my strength, I blasted him with lightning. He was destroyed, but I never looked into his cave.
 @reply cave What's in this cave?
 @match sword
 You've heard the rumors about the goings-on in Navar, at the end of the Great East Road?
@@ -2374,7 +2374,7 @@ I chop down trees in the forest.
 I chop them down in the great forest to the east. I wandered across a great tower one time.
 @reply tower A tower?
 @match tower|great
-The tower of Sokoban. Apparently, he was a puzzle creator. For those that can solve the puzzles, there is rumored to be a nice treasure.
+The tower of Sokoban. Apparently, he was a puzzle creator. For those who can solve the puzzles, there is rumored to be a nice treasure.
 endmsg
 x 11
 y 14
@@ -4970,7 +4970,7 @@ Jack. Just call me Jack... A - 3
 @match bingo
 Yes! A great contest today, I am going to be rich, just look at this crowd! SUCKERS! ... C - 3
 @match crowd
-Oh, WE HAVE A WINNER, next game in 10 minutes.
+Oh, WE HAVE A WINNER, the next game is in 10 minutes.
 @match *
 B - 5 ... B -
 endmsg
@@ -5123,9 +5123,9 @@ I got injured trying to kill the monsters in Castle Aaaarg.
 @reply castle What castle?
 @match castle|aaaarg
 It's full of a lot of nasty monsters - wyverns, giants, beholders. Do you want to go there?
-@reply yes Yes, I really want to go.
+@reply yes Yes, I want to go.
 @match yes
-It's almost directly to the northeast of Scorn - about 400 chains. The easiest way to get there is to take the north road outside of Scorn. Once you get past the lake, start heading east/northeast - you will need to climb over some mountains. If you run across a river, just start going north - keep going north past the like it flows from - about 75 chains. The castle is in a valley with some hills and woods.
+It's almost directly to the northeast of Scorn - about 400 chains. The easiest way to get there is to take the north road outside of Scorn. Once you get past the lake, start heading east/northeast - you will need to climb over some mountains. If you run across a river, just start going north - keep going north past the lake it flows from - about 75 chains. The castle is in a valley with some hills and woods.
 @match *
 Buzz off. Can't you see I am in pain!
 @reply pain Why are you in pain?
@@ -6368,7 +6368,7 @@ She's a sight for sore eyes, eh?
 Oh, do you have news about the war?
 @reply war What war?
 @match no|where
-You can go there by using the dragon transport found at the west end of the Scorn port area. It really is worth a trip - even if a war is going on!
+You can go there by using the dragon transport found at the west end of the Scorn port area. It is worth a trip - even if a war is going on!
 @reply war What war?
 @match pupland|war|pup land
 There is a war going on in Pup Land, but rumors say that the one who solves the mysteries of the lands is rewarded with unsurpassable power, so all sorts of people still go there on a quest for glory.
@@ -7203,7 +7203,7 @@ Yes, I'm looking over my notes about a ruined building in the middle of the dese
 @match building
 Don't know much about it. It is probably full of nasty monsters after all of this time.
 @match desert
-It is in the north-eastern part of the continent. Can't really miss it.
+It is in the northeastern part of the continent. Can't miss it.
 @match job
 Professor Emeritus of Empirical History.
 @match *
@@ -7385,7 +7385,7 @@ Awiergan Cynricson at your service!
 @match hello|hi
 Hi! I'm studying Summoning at the Tower of Demonology and Summoning up north. Are you interested in studying Summoning also?
 @match yes
-Well, you'll need the entrance fees. They're pretty extortionate. Ask about "admissions," they'll let you know how much it is these days.
+Well, you'll need the entrance fees. They're pretty extortionate. Ask about "admissions," and they'll let you know how much it is these days.
 @match stories
 Well, it's rumored that each of the Summoning Masters has powerful items which are the trappings of their office. Four of them together guard still greater treasures. The Summoning Masters are rather powerful. I bet it'd take someone at least 15th rank in their guilds to kill one. If you want to go try your luck, the Tower is North of Santo Dominion, by the Sea.
 @match job
