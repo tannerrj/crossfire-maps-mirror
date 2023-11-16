@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created: 1996-09-16 Chris Jeske
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-16 Rick Tanner
 endmsg
 end
 arch woods_3
@@ -4022,7 +4022,7 @@ Ahh... I have heard the Grey King keeps his treasure in a secret underground for
 @match underground|fortress|dungeon
 There is a passage from the dungeon to the underground caverns.
 @match caverns|secret|passage
-There is also passage into the fortress created by the wizard Lothar of Rice, who was also searching for the Greyshield.
+There is also a passage into the fortress created by the wizard Lothar of Rice, who was also searching for the Greyshield.
 @match *
 Pardon me?
 endmsg
