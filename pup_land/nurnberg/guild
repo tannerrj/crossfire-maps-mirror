@@ -8,7 +8,7 @@ enter_x 10
 enter_y 20
 msg
 Created:  1996-02-15
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2023-11-16 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1489,7 +1489,7 @@ arch elf
 name Regular Army recruiter
 msg
 @match reception|office
-Did you notice the four towers in the westside of this city? That's the Reception Office.
+Did you notice the four towers in the west side of this city? That's the Reception Office.
 @match yes
 Great! Go to the Reception Office and enter one of the four towers. Bring me what you find on the top level.
 @match no
@@ -2536,7 +2536,7 @@ Eureca's family, that is Bernhard and Laurel... I think. No, I'm not sure... but
 @match eureca
 The Resistance has kidnapped Lord Eureca, but soon we will rescue him!
 @match castle
-We have entered the castle to search for Eureca's family. The leaders of Regular Army are very concerned about saving innocent lives.
+We have entered the castle to search for Eureca's family. The leaders of the Regular Army are very concerned about saving innocent lives.
 @match *
 Our army has entered the western wing of Eureca's castle.
 endmsg
