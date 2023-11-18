@@ -8,7 +8,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  1997-07-09
-Modified: 2021-07-27 Saiapatsu
+Modified: 2023-11-18 Rick Tanner
 endmsg
 end
 arch grass
@@ -1054,7 +1054,7 @@ arch guildmaster
 name housekeeper
 msg
 @match hello|hallo|hi|greeting
-Hello there! To the left is a private apartment, to your right is a room you may enter if you pay a fee.
+Hello there! To the left is a private apartment, and to your right is a room you may enter if you pay a fee.
 @match apartment
 This apartment is very comfortable, trust me! And it's got a cauldron, too!
 endmsg
