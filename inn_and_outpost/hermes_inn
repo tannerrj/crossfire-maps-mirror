@@ -8,7 +8,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2023-06-04 Rick Tanner
+Modified: 2023-11-18 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -317,7 +317,7 @@ You must be cold and tired.
 @question room Do you have a room for the night?
 @match room|bed
 Need a room eh? Upstairs, cost ya 50 gold for one day.
-@question 50 Fifty goldcoins!?
+@question 50 Fifty gold coins!?
 @match 50|fifty
 Not much else around friend.
 @reply ripoff You are ripping me off!
