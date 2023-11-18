@@ -9,7 +9,7 @@ enter_x 2
 enter_y 29
 msg
 Created: 1997-02-27
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-17 Rick Tanner
 endmsg
 end
 arch pstone_2
@@ -3963,7 +3963,7 @@ msg
 @match wall
 Yes! This wall is undoubtedly man-made!! I am the greatest archaeologist of the whole world!
 @match *
-Hello adventurer!! Finally, I found the prehistorical ruin!! Look at this Wall!
+Hello, adventurer!! Finally, I found the prehistorical ruin!! Look at this Wall!
 endmsg
 Str 0
 Con 0
