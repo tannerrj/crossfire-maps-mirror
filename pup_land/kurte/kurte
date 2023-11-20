@@ -8,7 +8,7 @@ enter_x 11
 enter_y 13
 msg
 Created: 1996-04-03
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-20 Rick Tanner
 endmsg
 end
 arch blocked
@@ -1459,19 +1459,19 @@ msg
 @match family
 I can look all over this country... So... I saw that the hideout of Eureca's family has been discovered by the monsters...
 @match solve|answer
-I didn't know anything about Gothwolte. So I did some research. Read the scrolls above. I found out that Gothwolte is immune to everything. Nothing can harm it. So I told Eureca, "There is only one way to defeat it. Travel to the Past, and kill Gothwolte before he bcomes invulnerable!"
+I didn't know anything about Gothwolte. So I did some research. Read the scrolls above. I found out that Gothwolte is immune to everything. Nothing can harm it. So I told Eureca, "There is only one way to defeat it. Travel to the Past, and kill Gothwolte before he becomes invulnerable!"
 @match trouble|start
-One night, Eureca's castle was attacked by monsters. Eureca defended his castle bravely, but Gothwolte, the leader of the attacking army was incredibly strong. At last he gave up fighting Gothwolte. He managed to escape with his family and servant. He hid his Family in a secret room in the castle. Then he and his servant, Cordish, came here to ask me how they could solve their disaster.
+One night, Eureca's castle was attacked by monsters. Eureca defended his castle bravely, but Gothwolte, the leader of the attacking army was incredibly strong. At last, he gave up fighting Gothwolte. He managed to escape with his family and servant. He hid his Family in a secret room in the castle. Then he and his servant, Cordish, came here to ask me how they could solve their disaster.
 @match saving eureca
 At first, I'll tell you how all of this trouble started...
 @match yes
 Find and save Eureca... I count on you!
 @match cordish
-He is one of Eureca's servants. He looked scared and coward...
+He is one of Eureca's servants. He looked scared and cowardly...
 @match past
 Eureca and his servant went to the past... and they didn't return yet... They must have gotten into trouble again... I am very concerned... Would you go to the past and save them?
 @match *
-Hello, adventurer... I ask you again, "What is your motive in comming here?"
+Hello, adventurer... I ask you again, "What is your motive in coming here?"
 endmsg
 Con 100
 hp 20000
