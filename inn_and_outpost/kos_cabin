@@ -7,7 +7,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  2021-12-18 DraugTheWhopper
-Modified: 2021-12-18 DraugTheWhopper
+Modified: 2023-11-20 Rick Tanner
 endmsg
 end
 arch woodlarge
@@ -915,7 +915,7 @@ msg
 @match road
 Well, to my cabin, I guess. Long ago there was a thriving kingdom west of here, but I haven't heard news from that way for many years.
 @match *
-Another lost traveller? I'm afraid there's not much out this way anymore.
+Another lost traveler? I'm afraid there's not much out this way anymore.
 @reply road But where does this road go?
 endmsg
 x 10
