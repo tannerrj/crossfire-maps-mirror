@@ -8,7 +8,7 @@ enter_x 10
 enter_y 34
 msg
 Created: 1996-02-14
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-21 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -3354,11 +3354,11 @@ end
 arch human
 msg
 @match escape|passage
-If you don't know about escape passage, please go to the tavern in lone town and talk with a thief. If you don't know how to open the doors in the escape passage, then go to the tavern in Lone Town, and talk with the learned man.
+If you don't know about the escape passage, please go to the tavern in Lone Town and talk with a thief. If you don't know how to open the doors in the escape passage, then go to the tavern in Lone Town, and talk with the learned man.
 @match hidden|exit
 You can see the hidden exit by using the spell of show invisible.
 @match yes
-I have been invited by Eureca once. So I know his castle. To reach the upper floor of the castle, you need to find the Hidden Exit in the Escape Passage of the castle. Regular Army doesn't seem to know this information. Please go there to find Eureca's family!
+I have been invited by Eureca once. So I know his castle. To reach the upper floor of the castle, you need to find the Hidden Exit in the Escape Passage of the castle. The Regular Army doesn't seem to know this information. Please go there to find Eureca's family!
 @match *
 You are the spy of our army, right? I have information concerning Eureca's castle. Do you want to hear it?
 endmsg
@@ -3708,7 +3708,7 @@ arch elf
 name elf soldier
 msg
 @match yes|prison
-I dug the hole to the prison secretly. So, push me. I think the lord of Eureca is held in captivity down there. You must save him!
+I dug the hole into the prison secretly. So, push me. I think the lord of Eureca is held in captivity down there. You must save him!
 @match calvin
 How could you know my name? Oh, I see. You are a spy of the Regular Army, aren't you? Do you want to enter the prison below?
 @match *
