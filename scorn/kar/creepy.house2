@@ -3040,14 +3040,6 @@ arch dungeon_floor
 x 21
 y 4
 end
-arch spikes_open
-name floor
-face dung_floor.111
-dam 18
-x 21
-y 4
-invisible 1
-end
 arch button_handle
 x 21
 y 4
@@ -3056,13 +3048,6 @@ end
 arch dungeon_floor
 x 21
 y 5
-end
-arch spikes_open
-name floor
-face dung_floor.111
-x 21
-y 5
-connected 2
 end
 arch dungeon_floor
 x 21
@@ -3217,23 +3202,9 @@ arch dungeon_floor
 x 22
 y 4
 end
-arch spikes_open
-name floor
-face dung_floor.111
-x 22
-y 4
-connected 2
-end
 arch dungeon_floor
 x 22
 y 5
-end
-arch spikes_open
-name floor
-face dung_floor.111
-x 22
-y 5
-connected 2
 end
 arch dungeon_floor
 x 22
