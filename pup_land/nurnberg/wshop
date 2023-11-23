@@ -10,7 +10,7 @@ enter_x 12
 enter_y 23
 msg
 Created:  1996-02-09
-Modified: 2012-03-04 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 end
 arch grass
@@ -946,7 +946,7 @@ arch man
 name shopkeeper
 msg
 @match *
-Welcome to weapon shop, Muramasa!
+Welcome to the weapon shop, Muramasa!
 endmsg
 face man.131
 hp 180
