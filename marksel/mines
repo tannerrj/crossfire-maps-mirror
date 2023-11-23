@@ -9,7 +9,7 @@ enter_x 13
 enter_y 18
 msg
 Created: 2002-12-20 Joel Southall
-Modified: 2023-06-05 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 end
 arch cave_15
@@ -1081,7 +1081,7 @@ arch guildmaster
 name guard
 msg
 @match *
-I wonder where these dwarves live. They come here from the mines a bit further in the mountains. But no one I know has actually been in their dwellings.
+I wonder where these dwarves live. They come here from the mines a bit further in the mountains. But no one I know has been in their dwellings.
 endmsg
 face warrior.151
 hp 100
@@ -1584,7 +1584,7 @@ arch guildmaster
 name dwarf
 msg
 @match *
-Think this is hard work, laddy? The work is its own reward... and some of the good stones we bring up... he he heh....
+Think this is hard work, laddy? The work is its own reward... and some of the good stones we bring up... he he heh...
 endmsg
 face dwarf_p.111
 hp 100
@@ -1672,7 +1672,7 @@ arch guildmaster
 name guard
 msg
 @match mine
-Bit more exciting, I think. If you get the area near the spider's lair. I've heard that undead prowl somewhere deep in those mines. A dwarf told me that it was even more exciting, before they completely drove the goblins away.
+Bit more exciting, I think. If you get the area near the spider's lair. I've heard that undead prowl somewhere deep in those mines. A dwarf told me that it was even more exciting before they completely drove the goblins away.
 @match *
 This is a boring post. Sitting here in this dark hole. I wish I was posted in the other mine.
 endmsg
