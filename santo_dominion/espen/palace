@@ -8,7 +8,7 @@ enter_x 3
 enter_y 16
 msg
 Created:  1994-11-14
-Modified: 2022-07-27 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 reset_group santodominion_lord-ramsdre-mansion
 end
@@ -6648,7 +6648,7 @@ arch woman
 name Lady Ramsdre
 msg
 @match block|stone
-It used to be opened, but closed when the clock was moved to the corner.
+It used to be opened but closed when the clock was moved to the corner.
 @match *
 How may I help you?
 endmsg
