@@ -8,7 +8,7 @@ enter_x 8
 enter_y 10
 msg
 Created: 2005-03-23 Huhanhi
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_mike-millers-house
@@ -397,7 +397,7 @@ To attack me, press Ctrl + Arrow in my direction. Beware though, I might kill yo
 @match grinding|loud
 The noise seems to be coming from my cellar.
 @match cellar
-The cellar in the north-eastern corner of this room, but I shut the way with barrels.
+The cellar in the northeastern corner of this room, but I shut the way with barrels.
 @match barrel|table
 Yes. That way, those pixies are blocked and can't come to attack me! Smart, aren't I?
 @match smart
@@ -407,7 +407,7 @@ Yes, sorts of little fairies with wings. One of them tried to attack me in my ce
 @match firebolt|wand
 Go look for yourself if you wish. Maybe you can find that wand.
 @match quest|send|someone
-You? You agree to clear my cellar? You?? AH AH AH... Well okay, if you can bring back the proof you've cleared the source of this noise, I'll provide a nifty little reward.
+You? Do you agree to clear my cellar? You?? AH AH AH... Well okay, if you can bring back the proof you've cleared the source of this noise, I'll provide a nifty little reward.
 @match proof|source
 Okay, bring me the head of an angry pixie. You'll get a nice reward.
 @match head|angry
