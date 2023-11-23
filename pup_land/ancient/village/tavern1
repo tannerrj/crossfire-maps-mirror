@@ -8,7 +8,7 @@ enter_x 1
 enter_y 16
 msg
 Created: 1996-05-21
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -1031,11 +1031,11 @@ end
 arch viking
 msg
 @match person
-I have never seen him. But I expect that he lives in the house where there is the burning fireplace.
+I have never seen him. But I expect that he lives in the house where there is a fireplace.
 @match yes|no
 It's a ghost town now. But I've heard that one Person still lives in the town.
 @match *
-Have you ever been to shining town?
+Have you ever been to Shining Town?
 endmsg
 face viking.111
 hp 100
