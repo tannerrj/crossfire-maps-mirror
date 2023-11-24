@@ -9,7 +9,7 @@ enter_x 1
 enter_y 5
 msg
 Created:  1993-10-28
-Modified: 2021-10-17 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -163,7 +163,7 @@ msg
 @match death|smell
 Can't you smell it? Must be a couple of hundred corpses up in the mountains all rotting and decaying to make a stench like that.
 @match corpses|dead
-Of course.. nothing, and I meaning nothing.. could smell that bad.
+Of course.. nothing, and I mean nothing.. could smell that bad.
 @match *
 Sheesh! The smell of death, when the wind comes over the mountains to the west, makes standing at this post unbearable!!
 endmsg
