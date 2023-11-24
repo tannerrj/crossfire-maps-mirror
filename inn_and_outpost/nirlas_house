@@ -8,7 +8,7 @@ enter_x 24
 enter_y 6
 msg
 Created:  2004-05-28 Avion
-Modified: 2023-11-01 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -5433,10 +5433,10 @@ end
 arch elf_1
 msg
 @match nirla
-Yes this is her home. She is wise but also, she is the Queen's daughter.
+Yes, this is her home. She is wise but also, she is the Queen's daughter.
 @question queen What queen are you talking about?
 @match queen
-The Queen of the elves.
+The Queen of the Elves.
 @match *
 Nirla keeps a restful house.
 @question nirla Who is Nirla?
