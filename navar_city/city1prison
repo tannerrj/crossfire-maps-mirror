@@ -8,7 +8,7 @@ height 23
 enter_y 1
 msg
 Created: 1993-10-27
-Modified: 2023-06-07 Rick Tanner
+Modified: 2023-11-23 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -180,7 +180,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 1
 y 5
@@ -200,7 +200,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 1
 y 7
@@ -1007,7 +1007,7 @@ end
 arch prisoner
 msg
 @match *
-Yea I did it, now I sit here for my crime...leave me be, and let me rot, that much I deserve for being in my drunken stupor and murdering that young lass.
+Yeah I did it, and now I sit here for my crime...leave me be, and let me rot, that much I deserve for being in my drunken stupor and murdering that young lass.
 endmsg
 x 6
 y 12
@@ -1306,7 +1306,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 8
 y 8
@@ -1358,7 +1358,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 8
 y 15
@@ -2215,7 +2215,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 14
 y 13
@@ -2731,7 +2731,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 17
 y 19
@@ -3146,7 +3146,7 @@ end
 arch prisoner
 msg
 @match *
-Please help me, I have no strength left, I am truely innocent of my crime.
+Please help me, I have no strength left, I am truly innocent of my crime.
 endmsg
 x 20
 y 13
@@ -3170,7 +3170,7 @@ end
 arch prisoner
 msg
 @match wizard
-Oh yes... I was imprisoned with the wizard, he tried to hex me every day, good thing he was bound with silver otherwise it would have worked. But he escaped long ago. Out of this very cell, he dug his way out, and covered the hole back up.
+Oh yes... I was imprisoned with the wizard, he tried to hex me every day, good thing he was bound with silver otherwise it would have worked. But he escaped long ago. Out of this very cell, he dug his way out and covered the hole back up.
 @match *
 Please help me, I cannot escape like the old wizard, I have no strength left to dig.
 endmsg
