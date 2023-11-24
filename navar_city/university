@@ -8,7 +8,7 @@ enter_x 24
 enter_y 37
 msg
 Created:  2008-05-17 Nicolas Weeger
-Modified: 2021-07-30 Kevin Zheng
+Modified: 2023-11-23 Rick Tanner
 endmsg
 maplore
 The university features:
@@ -2253,7 +2253,7 @@ y 11
 end
 arch magic_mouth
 msg
-A sign on the door reads: professor Lordil
+A sign on the door reads: Professor Lordil
 endmsg
 x 10
 y 12
@@ -2475,7 +2475,7 @@ y 5
 end
 arch magic_mouth
 msg
-A sign on the door reads: professor Ulote
+A sign on the door reads: Professor Ulote
 endmsg
 x 11
 y 6
@@ -3105,11 +3105,11 @@ You might want to talk to Professor Shinon, in the north end of the east wing.
 @match magic
 We do have one, but they are doing a dangerous experiment so they sealed themselves off on the second floor, unfortunately.
 @match geography
-Hum, I think professors Plifu and Shandrik are specialists. Yes, this is it.
+Hum, I think Professors Plifu and Shandrik are specialists. Yes, this is it.
 
 They are gone on a trip, though, for now.
 @match history
-You'll obviously want to talk to professor Ulote, the head of the history department.
+You'll obviously want to talk to Professor Ulote, the head of the history department.
 
 You can find his office on the west wing, he shouldn't be too far from it.
 @match monster
@@ -9529,7 +9529,7 @@ msg
 @match lorkas
 Lorkas, you say? Hum, let's see...
 @match *
-Howdy. I'm professor Drolf, and monsters are my specialty.
+Howdy. I'm Professor Drolf, and monsters are my specialty.
 
 Can I help you?
 endmsg
