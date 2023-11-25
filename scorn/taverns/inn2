@@ -8,7 +8,7 @@ enter_x 4
 enter_y 2
 msg
 Created:  1993-10-15
-Modified: 2012-03-29 Rick Tanner
+Modified: 2023-11-25 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -441,7 +441,7 @@ end
 arch sailor
 msg
 @match *
-Ahoy friend! You should take a ship and make an adventure-trip.
+Ahoy friend! You should take a ship and make an adventure trip.
 endmsg
 dam 1
 x 4
