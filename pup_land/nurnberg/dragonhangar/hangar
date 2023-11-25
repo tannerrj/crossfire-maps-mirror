@@ -8,7 +8,7 @@ enter_x 15
 enter_y 1
 msg
 Created: 1997-02-19
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-11-25 Rick Tanner
 endmsg
 end
 arch magic_banned
@@ -4464,7 +4464,7 @@ arch guildmaster
 name old man
 msg
 @match *
-You can pay for your ticket either with platinum, gold or silver.
+You can pay for your ticket either with platinum, gold, or silver.
 endmsg
 x 12
 y 7
