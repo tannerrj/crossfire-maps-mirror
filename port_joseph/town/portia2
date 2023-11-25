@@ -8,7 +8,7 @@ enter_x 13
 enter_y 5
 msg
 Created: 1994-05-26 langley
-Modified: 2023-11-02 Rick Tanner
+Modified: 2023-11-25 Rick Tanner
 endmsg
 reset_group portjoseph_portias-house
 end
@@ -2114,7 +2114,7 @@ msg
 @match hello|hi|greetings
 Hello, stranger, you sure do know how to make an entrance!
 @match percival|percy
-Ah Percy! Being stubborn, is he? Well, he and I are old friends. Yes, just mention `violet' and he'll know who sent you.
+Ah, Percy! Being stubborn, is he? Well, he and I are old friends. Yes, just mention `violet' and he'll know who sent you.
 @match violet
 That's a private matter between Percy and I.
 @match pirate
