@@ -8,7 +8,7 @@ enter_x 4
 enter_y 6
 msg
 Created: 2003-12-13 Avion
-Modified: 2023-06-07 Rick Tanner
+Modified: 2023-11-27 Rick Tanner
 With kudos to DH
 endmsg
 reset_group navar_temple_of_ruggilli
@@ -2968,7 +2968,7 @@ name Shriea
 title High Priestess
 msg
 @match path
-Prove your self worthy by taking the longest path!
+Prove yourself worthy by taking the longest path!
 @match ruggilli
 Speak not that name supplicant unless thou are a follower of the true path.
 @match *
