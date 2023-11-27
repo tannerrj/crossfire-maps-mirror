@@ -10,7 +10,7 @@ enter_x 6
 enter_y 16
 msg
 Created: 1996-05-02 bt (thomas@astro.psu.edu)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-27 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_scorn-alchemy-shop
@@ -526,7 +526,7 @@ msg
 @match formula|recipe|alchemy
 To find alchemical recipes you should read old books. They often appear in magic shops.
 @match *
-If you're really interested in alchemy you'd better buy a day pass and get going.
+If you're interested in alchemy you'd better buy a day pass and get going.
 endmsg
 x 4
 y 16
