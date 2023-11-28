@@ -12,7 +12,7 @@ enter_x 11
 enter_y 16
 msg
 Created: 1993-10-15 Tero Haatanen (Tero.Haatanen@tel.vtt.fi)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-11-28 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1125,13 +1125,13 @@ Do you promise not to steal anything? Please, respond yes or no!
 @match gate
 I keep it locked, so nobody can't steal anything. If you promise not to steal anything I can open the gate.
 @match chest|box|boots|longbow
-So you have been visited my private chamber! Maybe I should keep that door locked like a gate!
+So you have visited my private chamber! Maybe I should keep that door locked like a gate!
 @match adventurer|people
 People like you.
 @match item|misc|sell|sold|buy
 I buy almost everything that people are selling to me.
 @match shop|help
-This shop is specialized in missile weapons such as bows and crossbows. I have two rooms for them. The first room contains miscellaneous items that other adventurers have sold to me.
+This shop specializes in missile weapons such as bows and crossbows. I have two rooms for them. The first room contains miscellaneous items that other adventurers have sold to me.
 @match *
 Welcome to my little shop. How can I help you?
 endmsg
