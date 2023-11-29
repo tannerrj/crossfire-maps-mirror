@@ -8,7 +8,7 @@ enter_x 15
 enter_y 1
 msg
 Created:  1997-06-19
-Modified: 2023-05-31 Rick Tanner
+Modified: 2023-11-29 Rick Tanner
 endmsg
 reset_group stoneville_dragon-hangar
 end
@@ -4489,7 +4489,7 @@ arch guildmaster
 name old man
 msg
 @match *
-You can pay your ticket with either platinum, gold, or silver coins.
+You can pay for your ticket with either platinum, gold, or silver coins.
 endmsg
 x 12
 y 7
@@ -6851,7 +6851,7 @@ arch sage
 name old traveler
 msg
 @match *
-I have travelled all around the world.
+I have traveled all around the world.
 endmsg
 x 18
 y 14
