@@ -9,7 +9,7 @@ enter_x 3
 enter_y 14
 msg
 Created: 2001-01-03 dnh (dnh@hawthorn.csse.monash.edu.au)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2023-12-01 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_temple-to-ruggilli
@@ -196,7 +196,7 @@ Ruggilli will lend the immolating fires to any who choose to follow!
 @match immolating|fires
 Yes! A Flame which will consume your enemies!
 @match follow|worship|door|gate|stair
-The Consuming worm Ruggilli will only accept followers who can pass his test. Descend down these stairs and destroy all of His enemies and a pass shall be granted.
+The Consuming worm Ruggilli will only accept followers who can pass his test. Descend these stairs and destroy all of His enemies and a pass shall be granted.
 @match quest
 When you are ready, your quest shall be given!
 @match *
@@ -435,7 +435,7 @@ arch fire_elemental
 name Knight of Ruggilli
 msg
 @match ruggilli
-....Massster...We...Live...In...His...Wrath....
+....Massster...We...Live...In...His...Wrath...
 @match *
 ....Do...Not...Attempt...To...Pervent...This...Place...
 endmsg
@@ -1020,7 +1020,7 @@ arch fire_elemental
 name Knight of Ruggilli
 msg
 @match ruggilli
-....Massster...We...Live...In...His...Wrath....
+....Massster...We...Live...In...His...Wrath...
 @match *
 ....Do...Not...Attempt...To...Pervent...This...Place...
 endmsg
@@ -1163,7 +1163,7 @@ arch fire_elemental
 name Knight of Ruggilli
 msg
 @match ruggilli
-....Massster...We...Live...In...His...Wrath....
+....Massster...We...Live...In...His...Wrath...
 @match *
 ....Do...Not...Attempt...To...Pervent...This...Place...
 endmsg
