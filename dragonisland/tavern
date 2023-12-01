@@ -8,7 +8,7 @@ enter_x 10
 enter_y 17
 msg
 Created:  1997-07-18
-Modified: 2021-11-01 DraugTheWhopper
+Modified: 2023-12-01 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -663,7 +663,7 @@ So, you're an adventurer, aren't you?
 @match no
 Oh well.
 @match yes|adventurer
-Well, that this is probably the right place for you to live. The guild is famous. That's what I came here for, but I was not prepared for that terrible test.
+Well, this is probably the right place for you to live. The guild is famous. That's what I came here for, but I was not prepared for that terrible test.
 @match test|guild
 Well, the adventurers guild ties the guild key to the eye of a dread. Nice test, that is.
 endmsg
@@ -978,7 +978,7 @@ end
 arch child
 msg
 @match *
-My mummy says a shall not speak to strangers, so I will not! Go away!
+My mummy says I shall not speak to strangers, so I will not! Go away!
 endmsg
 x 7
 y 7
@@ -2553,7 +2553,7 @@ arch elec_dragon
 name electric dragon child
 msg
 @match h[ae]llo|hi
-Hello! This is a nice tavern the humans have build here! I wish my parents could see it!
+Hello! This is a nice tavern the humans have built here! I wish my parents could see it!
 @match parent|parents
 Unfortunately, my parents are too large to fit into this tavern!
 endmsg
