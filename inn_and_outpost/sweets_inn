@@ -8,7 +8,7 @@ enter_x 15
 enter_y 12
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2021-10-02 Rick Tanner
+Modified: 2023-12-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -703,7 +703,7 @@ My mother was a real barrel of laughs...
 @match portal|greenway|dark|forest
 Sorry, I don't know much about that.
 @match services
-I have food and drink available at the bar, I can also identify items. I sell healing potions and do simple money conversions.
+I have food and drink available at the bar, and I can also identify items. I sell healing potions and do simple money conversions.
 @match *
 How may I help you?
 endmsg
