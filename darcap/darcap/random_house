@@ -8,7 +8,7 @@ enter_x 5
 enter_y 1
 msg
 Created:  2010-03-13 Nicolas Weeger
-Modified: 2023-05-29 Rick Tanner
+Modified: 2023-12-02 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -437,7 +437,7 @@ arch guildmaster
 name Cartio
 msg
 @match *
-Hello, and welcome to the Darcap Random House! You can visit our magic house here, that changes every visit. We only ask for a small entry fee of 10 silver so we can pay the magicians who create this place.
+Hello, and welcome to the Darcap Random House! You can visit our magic house here, which changes every visit. We only ask for a small entry fee of 10 silver so we can pay the magicians who create this place.
 endmsg
 face evoker.151
 hp 100
