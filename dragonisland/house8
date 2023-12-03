@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  1997-09-12
-Modified: 2023-05-31 Rick Tanner
+Modified: 2023-12-03 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -316,7 +316,7 @@ arch courier
 name Timothius
 msg
 @match h[ae]llo|hi|greet
-My Greetings to you! Welcome to my humble home. Have you heard of my friend, Carthon? He was heading off to dragon mountain.
+My Greetings to you! Welcome to my humble home. Have you heard of my friend, Carthon? He was heading off to Dragon Mountain.
 @match no
 What a pity! I hope he's all right.
 @match dead|corpse|killed
