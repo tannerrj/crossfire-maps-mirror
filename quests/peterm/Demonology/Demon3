@@ -8,7 +8,7 @@ enter_x 7
 enter_y 7
 msg
 Created: 1994-05-30 peterm (peterm@soda.berkeley.edu)
-Modified: 2023-06-19 Rick Tanner
+Modified: 2023-12-03 Rick Tanner
 endmsg
 reset_group wilderness_tower-of-demonology
 end
@@ -1021,11 +1021,11 @@ arch charwoman
 name even more gossipy cleaning woman
 msg
 @match hello|hi|boo
-You're not planning on opening those doors are you???? If you are, let me run downstairs. Opening the gates summons the Guardians!
+You're not planning on opening those doors, are you???? If you are, let me run downstairs. Opening the gates summons the Guardians!
 @match guardian|guardians
-Yes, two visible, and two invisibile. They guard the Portals in the corners of the rooms. The Dead can be summoned by means of those portals. The Masters used the portals to question those who have passed on.
+Yes, two visible, and two invisible. They guard the Portals in the corners of the rooms. The Dead can be summoned using those portals. The Masters used the portals to question those who have passed on.
 @match word|password|teleport
-The teleporters lead to the levels above. Each of the Masters had a syllable of the One Word. They had to speak the word in succession. Actually, they whispered it: They didn't trust each other enough to share the One Word. They spoke the One Word in the order of their power, Air, Earth, Water, Fire. But the One Word died with them.
+The teleporters lead to the levels above. Each of the Masters had a syllable of the One Word. They had to speak the word in succession. They whispered it: They didn't trust each other enough to share the One Word. They spoke the One Word in the order of their power, Air, Earth, Water, Fire. But the One Word died with them.
 @match portal
 Yes, you can summon the dead with those portals if you know their names. Getting them to cooperate is quite another matter.
 endmsg
@@ -1320,11 +1320,11 @@ arch charwoman
 name even more gossipy cleaning woman
 msg
 @match hello|hi|boo
-You're not planning on opening those doors are you???? If you are, let me run downstairs. Opening the gates summons the Guardians!
+You're not planning on opening those doors, are you???? If you are, let me run downstairs. Opening the gates summons the Guardians!
 @match guardian|guardians
-Yes, two visible, and two invisibile. They guard the Portals in the corners of the rooms. The Dead can be summoned by means of those portals. The Masters used the portals to question those who have passed on.
+Yes, two visible, and two invisible. They guard the Portals in the corners of the rooms. The Dead can be summoned using those portals. The Masters used the portals to question those who have passed on.
 @match word|password|teleport
-The teleporters lead to the levels above. Each of the Masters had a syllable of the One Word. They had to speak the word in succession. Actually, they whispered it: They didn't trust each other enough to share the One Word. They spoke the One Word in the order of their power, Air, Earth, Water, Fire. But the One Word died with them.
+The teleporters lead to the levels above. Each of the Masters had a syllable of the One Word. They had to speak the word in succession. They whispered it: They didn't trust each other enough to share the One Word. They spoke the One Word in the order of their power, Air, Earth, Water, Fire. But the One Word died with them.
 @match portal
 Yes, you can summon the dead with those portals if you know their names. Getting them to cooperate is quite another matter.
 endmsg
