@@ -11,7 +11,7 @@ msg
 This tavern seems quite old, but is apparently much used.
 
 Created:  2007-05-26 Nicolas Weeger
-Modified: 2022-07-26 Rick Tanner
+Modified: 2023-12-04 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -600,8 +600,8 @@ Yes, apparently from a magical experiment gone weird. Though he did survive, it 
 Maybe his brother knows more, you should ask him directly.
 @question brother Ha, he has a brother?
 @match farnass
-Haa, Farnass, now that's a name I haven't heard in a while. He was one of the best head cooks in the whole world. He was a brother to the Mad Mage of Scorn, and they shared a passion for wizardry; yet his center of interest was much more focused on making tasty things and brewing nice beers. Fifteen years ago his house just exploded.
-@question exploded His house exploded, really?
+Haa, Farnass, now that's a name I haven't heard in a while. He was one of the best head cooks in the whole world. He was a brother to the Mad Mage of Scorn, and they shared a passion for wizardry, yet his center of interest was much more focused on making tasty things and brewing nice beers. Fifteen years ago his house just exploded.
+@question exploded His house exploded?
 @match *
 Hello, youngster.
 endmsg
