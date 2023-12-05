@@ -8,7 +8,7 @@ enter_x 10
 enter_y 16
 msg
 Created:  1995-03-28 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2023-06-04 Rick Tanner
+Modified: 2023-12-05 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -958,13 +958,13 @@ msg
 @match what|hear
 I have heard nothing interesting yet.
 @match why|who|you|money|bribe
-Oh, my boss bid me to do this job. I have to do it, since now I am in the guild.
+Oh, my boss ordered me to do this job. I have to do it, since now I am in the guild.
 @match guild|boss
-It's the guild of ebony tiger, thieves' guild. My boss is one of the low guildmasters. He's in the room left. If you want to join the guild, talk to him.
+It's the guild of Ebony Tiger, a thieves' guild. My boss is one of the low guild masters. He's in the room left. If you want to join the guild, talk to him.
 @match they
 Those sitting near the main door.
 @match *
-Shh.. I am trying to hear what they are talking.
+Shh... I am trying to hear what they are saying.
 endmsg
 hp 10
 x 8
