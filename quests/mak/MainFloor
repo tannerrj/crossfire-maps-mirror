@@ -9,7 +9,7 @@ enter_x 15
 enter_y 48
 msg
 Created: 2000-04-06 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2023-06-09 Rick Tanner
+Modified: 2023-12-05 Rick Tanner
 endmsg
 maplore
 @def Warriors' Tower
@@ -1025,7 +1025,7 @@ arch pirate
 name wounded warrior
 msg
 @match *
-I only have the last test to go, but as you can see my last attempt didn't go to well and I might have to give up.
+I only have the last test to go, but as you can see my last attempt didn't go too well and I might have to give up.
 endmsg
 x 2
 y 43
@@ -1949,7 +1949,7 @@ arch northman
 name seasoned warrior
 msg
 @match *
-I'm just about ready for another try. I still have a few tricks up my sleave that might get me through.
+I'm just about ready for another try. I still have a few tricks up my sleeve that might get me through.
 endmsg
 x 4
 y 39
@@ -2412,7 +2412,7 @@ end
 arch fatwoman
 msg
 @match *
-My husband is the big one over there. He's the one in charge here, I just try to help him out as good as I can.
+My husband is the big one over there. He's the one in charge here, I just try to help him out as well as I can.
 endmsg
 x 5
 y 41
@@ -3625,7 +3625,7 @@ arch lesser_dwarven_guard
 name a powerful dwarf
 msg
 @match *
-Dragons have become an all to common problem these days, so every fighter must know how to defeat them. First you will have to take on some of the standard varietees before we will let you go up against the big guys.
+Dragons have become an all too common problem these days, so every fighter must know how to defeat them. First, you will have to take on some of the standard varieties before we will let you go up against the big guys.
 endmsg
 x 8
 y 9
@@ -3918,7 +3918,7 @@ arch c_man
 name scrawny man
 msg
 @match *
-I'm almost ashamed to admit it but I have still to pass the first test. That statue is just to heavy for me.
+I'm almost ashamed to admit it but I have still to pass the first test. That statue is just too heavy for me.
 endmsg
 x 8
 y 38
@@ -8691,9 +8691,9 @@ Nobody returns from the temple.
 @match task|temple|final
 When the archangel Lorkas fell, he managed to steal some of the most highly valued artifacts. Now he lurks in his underground temple... killing anyone who dares to oppose him.
 @match fragment
-To get a fragment-of-chaos, you must seek for the legendary Chaoswyrm in lake country.
+To get a fragment of chaos, you must seek the legendary Chaoswyrm in Lake Country.
 @match *
-This will be your final Task. We've build this tower to prepare the warriors for their walk into the underground temple. You must prove that you have passed all the other quests before we let you go. Just drop the items you obtained on the altars and the passage will open.
+This will be your final Task. We've built this tower to prepare the warriors for their walk into the underground temple. You must prove that you have passed all the other quests before we let you go. Just drop the items you obtained on the altars and the passage will open.
 endmsg
 x 18
 y 7
@@ -11053,7 +11053,7 @@ arch merchant
 name welldressed man
 msg
 @match *
-This test includes some really big problems, literally. A band of giants have been plagueing the countryside and your job will be to seek them out and end this threat.
+This test includes some really big problems, literally. A band of giants have been plaguing the countryside and your job will be to seek them out and end this threat.
 endmsg
 x 23
 y 13
@@ -11085,7 +11085,7 @@ end
 arch conjurer
 msg
 @match *
-This will be your first run against spellcasting monsters, and we have managed to find some really nice specimens for you.
+This will be your first run against spellcasting monsters, and we have managed to find some nice specimens for you.
 endmsg
 x 23
 y 15
