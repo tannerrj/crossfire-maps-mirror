@@ -4,7 +4,7 @@ region portjoseph
 width 50
 height 50
 msg
-Modified: 2023-06-16 Rick Tanner
+Modified: 2023-12-06 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_101_113
@@ -3757,13 +3757,13 @@ arch pirate
 name Percival
 msg
 @match hello|hi|howdy
-Goodday to-ya. Want a ride out to Goblin island? (Simply press `A')
+Good day to-ya. Want a ride out to Goblin Island? (Simply press `A')
 @match portia
 Portia is a good woman. You don't bother her now.
 @match bill|moogly
 Eh, I sailed with Moogly Bill.
 @match buried|grave
-Yes, I buried Moogly Bill, but he built his own tomb.
+Yes, I buried Moogly Bill, but he built his tomb.
 @match map
 Never seen the treasure maps but ye might have better luck...
 endmsg
