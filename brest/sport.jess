@@ -8,7 +8,7 @@ enter_x 12
 enter_y 24
 msg
 Created:  1994-05-31
-Modified: 2023-04-22 Daniel Hawkins
+Modified: 2023-12-11 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -2767,7 +2767,7 @@ arch woodfloor
 x 8
 y 17
 end
-arch wall_2_1_2
+arch wall_1_3
 x 8
 y 17
 end
@@ -8448,7 +8448,11 @@ arch woodfloor
 x 30
 y 30
 end
-arch swall_2_2_2
+arch swall_1_4_half
+x 30
+y 30
+end
+arch wall_0
 x 30
 y 30
 end
@@ -8466,7 +8470,7 @@ arch woodfloor
 x 30
 y 32
 end
-arch wall_4
+arch wall_2_2_3
 x 30
 y 32
 end
@@ -9319,7 +9323,11 @@ arch woodfloor
 x 33
 y 17
 end
-arch wall_4
+arch wall_3_2
+x 33
+y 17
+end
+arch wall_2_short
 x 33
 y 17
 end
@@ -9423,7 +9431,11 @@ arch woodfloor
 x 33
 y 30
 end
-arch wall_3_4
+arch wall_2_1_1
+x 33
+y 30
+end
+arch swall_1_3_half
 x 33
 y 30
 end
@@ -9439,7 +9451,11 @@ arch woodfloor
 x 33
 y 32
 end
-arch wall_3_4
+arch wall_2_1_1
+x 33
+y 32
+end
+arch wall_2_short
 x 33
 y 32
 end
