@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1994-05-31
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-12-12 Rick Tanner
 endmsg
 reset_group brest_underground
 end
@@ -12287,6 +12287,10 @@ arch door_look_2
 x 29
 y 28
 end
+arch pstone_2
+x 29
+y 29
+end
 arch bwall_0
 x 29
 y 29
@@ -17392,8 +17396,15 @@ arch blocked
 x 46
 y 41
 end
+arch pstone_2
+x 47
+end
 arch blocked
 x 47
+end
+arch pstone_2
+x 47
+y 1
 end
 arch blocked
 x 47
