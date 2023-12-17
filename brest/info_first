@@ -8,7 +8,7 @@ enter_x 37
 enter_y 66
 msg
 Created:  1994-02-31
-Modified: 2023-05-27 Rick Tanner
+Modified: 2023-12-17 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -841,7 +841,7 @@ arch woodfloor
 x 1
 y 53
 end
-arch book_read
+arch random_reading
 x 1
 y 53
 end
@@ -1316,7 +1316,7 @@ arch woodfloor
 x 2
 y 49
 end
-arch book_read
+arch random_reading
 x 2
 y 49
 end
@@ -1340,7 +1340,7 @@ arch woodfloor
 x 2
 y 54
 end
-arch book_read
+arch random_reading
 x 2
 y 54
 end
@@ -2917,7 +2917,7 @@ arch woodfloor
 x 5
 y 47
 end
-arch book_read
+arch random_reading
 x 5
 y 47
 end
@@ -2963,7 +2963,7 @@ arch woodfloor
 x 5
 y 55
 end
-arch book_read
+arch random_reading
 x 5
 y 55
 end
@@ -3417,7 +3417,7 @@ arch woodfloor
 x 6
 y 48
 end
-arch book_read
+arch random_reading
 x 6
 y 48
 end
@@ -3455,7 +3455,7 @@ arch woodfloor
 x 6
 y 54
 end
-arch book_read
+arch random_reading
 x 6
 y 54
 end
@@ -4400,7 +4400,7 @@ arch woodfloor
 x 8
 y 54
 end
-arch book_read
+arch random_reading
 x 8
 y 54
 end
@@ -4826,7 +4826,7 @@ arch woodfloor
 x 9
 y 49
 end
-arch book_read
+arch random_reading
 x 9
 y 49
 end
@@ -5756,7 +5756,7 @@ arch woodfloor
 x 11
 y 47
 end
-arch book_read
+arch random_reading
 x 11
 y 47
 end
@@ -5792,7 +5792,7 @@ arch woodfloor
 x 11
 y 55
 end
-arch book_read
+arch random_reading
 x 11
 y 55
 end
@@ -6182,7 +6182,7 @@ arch woodfloor
 x 12
 y 47
 end
-arch book_read
+arch random_reading
 x 12
 y 47
 end
@@ -6194,7 +6194,7 @@ arch woodfloor
 x 12
 y 49
 end
-arch book_read
+arch random_reading
 x 12
 y 49
 end
@@ -6210,8 +6210,7 @@ arch woodfloor
 x 12
 y 52
 end
-arch book_read
-name Dont disturb
+arch random_reading
 x 12
 y 52
 end
