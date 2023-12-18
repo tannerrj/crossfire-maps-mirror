@@ -8,7 +8,7 @@ enter_x 24
 enter_y 1
 msg
 Created:  1994-07-02
-Modified: 2022-07-15 Rick Tanner
+Modified: 2023-12-18 Rick Tanner
 endmsg
 reset_group brest-castle_of_brittany
 end
@@ -380,7 +380,7 @@ arch dirtfloor
 x 5
 y 6
 end
-arch book_read
+arch random_reading
 x 5
 y 6
 end
