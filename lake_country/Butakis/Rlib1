@@ -8,7 +8,7 @@ enter_x 2
 enter_y 9
 msg
 Created:  1995-03-28 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2022-07-21 Rick Tanner
+Modified: 2023-12-22 Rick Tanner
 endmsg
 reset_group butakisfortress_royal-library
 end
@@ -237,7 +237,7 @@ arch marble
 x 2
 y 2
 end
-arch book_read
+arch random_reading
 x 2
 y 2
 end
@@ -265,7 +265,7 @@ arch marble
 x 2
 y 6
 end
-arch book_read
+arch random_reading
 x 2
 y 6
 end
@@ -297,7 +297,7 @@ arch marble
 x 2
 y 11
 end
-arch book_read
+arch random_reading
 x 2
 y 11
 end
@@ -325,7 +325,7 @@ arch marble
 x 2
 y 15
 end
-arch book_read
+arch random_reading
 x 2
 y 15
 end
@@ -356,7 +356,7 @@ arch marble
 x 3
 y 2
 end
-arch book_read
+arch random_reading
 x 3
 y 2
 end
@@ -380,7 +380,7 @@ arch marble
 x 3
 y 6
 end
-arch book_read
+arch random_reading
 x 3
 y 6
 end
@@ -412,7 +412,7 @@ arch marble
 x 3
 y 11
 end
-arch book_read
+arch random_reading
 x 3
 y 11
 end
@@ -436,7 +436,7 @@ arch marble
 x 3
 y 15
 end
-arch book_read
+arch random_reading
 x 3
 y 15
 end
@@ -1519,7 +1519,7 @@ arch marble
 x 14
 y 2
 end
-arch book_read
+arch random_reading
 x 14
 y 2
 end
@@ -1591,7 +1591,7 @@ arch marble
 x 14
 y 15
 end
-arch book_read
+arch random_reading
 x 14
 y 15
 end
@@ -1622,7 +1622,7 @@ arch marble
 x 15
 y 2
 end
-arch book_read
+arch random_reading
 x 15
 y 2
 end
@@ -1634,7 +1634,7 @@ arch marble
 x 15
 y 4
 end
-arch book_read
+arch random_reading
 x 15
 y 4
 end
@@ -1690,7 +1690,7 @@ arch marble
 x 15
 y 13
 end
-arch book_read
+arch random_reading
 x 15
 y 13
 end
@@ -1702,7 +1702,7 @@ arch marble
 x 15
 y 15
 end
-arch book_read
+arch random_reading
 x 15
 y 15
 end
