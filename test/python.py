@@ -44,6 +44,7 @@ def do_help():
 	help += ' - nosave\n'
 	help += ' - move_to\n'
 	help += ' - attr: object-attribute tests'
+	help += ' - cjson: Python cjson tests'
 
 	whoami.Say(help)
 
@@ -459,6 +460,18 @@ def do_attr():
       except:
         whoami.Say("sorry, I don't know how to set this attribute...")
 
+def do_cjson():
+  if len(topic) == 1:
+     whoami.Say('Please add something so I can encode & decode it in JSON')
+     return
+  msg = ' '.join(Crossfire.WhatIsMessage().split()[1:])
+  import cjson
+  json = {'msg': msg}
+  encoded = cjson.encode(json)
+  # Crossfire.Log(0, encoded.decode('UTF-8'))
+  result = cjson.decode(encoded)['msg']
+  whoami.Say('You said after encode & decode: %s'%msg)
+
 def handle_say():
   if whoami.ReadKey('dest_x') != '' or whoami.ReadKey('dest_y') != '':
     return
@@ -540,6 +553,8 @@ def handle_say():
     do_move_to()
   elif topic[0] == 'attr':
     do_attr()
+  elif topic[0] == 'cjson':
+    do_cjson()
   else:
     do_help()
 
