@@ -8,7 +8,7 @@ enter_x 6
 enter_y 9
 msg
 Created:  1993-12-01
-Modified: 2021-07-26 Saiapatsu
+Modified: 2024-01-24 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -4826,7 +4826,7 @@ arch cobblestones2
 x 29
 y 14
 end
-arch book_read
+arch random_reading
 x 29
 y 14
 end
@@ -5442,7 +5442,7 @@ arch cobblestones2
 x 32
 y 14
 end
-arch book_read
+arch random_reading
 x 32
 y 14
 end
