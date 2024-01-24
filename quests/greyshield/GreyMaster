@@ -9,7 +9,7 @@ enter_x 2
 enter_y 2
 msg
 Created: 1996-11-06 Chris Jeske
-Modified: 2023-06-09 Rick Tanner
+Modified: 2024-01-24 Rick Tanner
 endmsg
 end
 arch marble
@@ -745,22 +745,6 @@ arch food
 x 5
 y 14
 end
-arch quarto
-x 5
-y 14
-end
-arch tome
-x 5
-y 14
-end
-arch book_clasp
-x 5
-y 14
-end
-arch book_read
-x 5
-y 14
-end
 arch low_boots
 x 5
 y 14
@@ -803,6 +787,26 @@ x 5
 y 14
 end
 arch serp_cloak
+x 5
+y 14
+end
+arch random_reading
+x 5
+y 14
+end
+arch random_reading
+x 5
+y 14
+end
+arch random_reading
+x 5
+y 14
+end
+arch random_reading
+x 5
+y 14
+end
+arch random_reading
 x 5
 y 14
 end
