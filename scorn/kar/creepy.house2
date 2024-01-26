@@ -7,7 +7,7 @@ height 25
 enter_x 12
 enter_y 11
 msg
-Modified: 2024-01-24 Rick Tanner
+Modified: 2024-01-26 Rick Tanner
 endmsg
 reset_group scorn_harrys-place
 end
@@ -24,6 +24,9 @@ end
 arch dirtfloor
 y 2
 end
+arch swall_1_4_half
+y 2
+end
 arch mine3
 y 2
 end
@@ -136,6 +139,9 @@ arch mine3
 y 20
 end
 arch dirtfloor
+y 21
+end
+arch swall_1_4_half
 y 21
 end
 arch mine3
@@ -169,7 +175,16 @@ arch dirtfloor
 x 1
 y 1
 end
+arch button_lever
+x 1
+y 1
+connected 5
+end
 arch dirtfloor
+x 1
+y 2
+end
+arch swall_2_1_2
 x 1
 y 2
 end
@@ -249,6 +264,10 @@ arch dirtfloor
 x 1
 y 17
 end
+arch random_wealth
+x 1
+y 17
+end
 arch dirtfloor
 x 1
 y 18
@@ -261,11 +280,20 @@ arch dirtfloor
 x 1
 y 19
 end
+arch button_lever
+x 1
+y 19
+connected 8
+end
 arch dirtfloor
 x 1
 y 20
 end
 arch dirtfloor
+x 1
+y 21
+end
+arch swall_1_3
 x 1
 y 21
 end
@@ -296,6 +324,10 @@ x 2
 y 1
 end
 arch dirtfloor
+x 2
+y 2
+end
+arch swall_1_3
 x 2
 y 2
 end
@@ -417,6 +449,15 @@ y 21
 end
 arch dirtfloor
 x 2
+y 21
+end
+arch grate_closed_1
+x 2
+y 21
+connected 6
+end
+arch dirtfloor
+x 2
 y 22
 end
 arch dirtfloor
@@ -448,6 +489,11 @@ end
 arch dirtfloor
 x 3
 y 2
+end
+arch grate_closed_1
+x 3
+y 2
+connected 4
 end
 arch dirtfloor
 x 3
@@ -531,6 +577,14 @@ y 14
 end
 arch dirtfloor
 x 3
+y 14
+end
+arch snake
+x 3
+y 14
+end
+arch dirtfloor
+x 3
 y 15
 end
 arch snake
@@ -573,6 +627,10 @@ arch dirtfloor
 x 3
 y 21
 end
+arch swall_1_4
+x 3
+y 21
+end
 arch dirtfloor
 x 3
 y 22
@@ -604,6 +662,10 @@ x 4
 y 1
 end
 arch dirtfloor
+x 4
+y 2
+end
+arch swall_1_4
 x 4
 y 2
 end
@@ -671,7 +733,15 @@ arch mine2
 x 4
 y 13
 end
+arch swall_1_1_half
+x 4
+y 13
+end
 arch dirtfloor
+x 4
+y 14
+end
+arch swall_2_1_1
 x 4
 y 14
 end
@@ -679,19 +749,32 @@ arch dirtfloor
 x 4
 y 15
 end
+arch swall_1_2
+x 4
+y 15
+end
 arch dirtfloor
 x 4
 y 16
 end
+arch grate_closed_2
+x 4
+y 16
+connected 3
+end
 arch dirtfloor
 x 4
 y 17
 end
-arch random_wealth
+arch swall_1_1
 x 4
 y 17
 end
 arch dirtfloor
+x 4
+y 18
+end
+arch swall_1_2_half
 x 4
 y 18
 end
@@ -699,7 +782,15 @@ arch mine2
 x 4
 y 18
 end
+arch swall_1_1_half
+x 4
+y 18
+end
 arch dirtfloor
+x 4
+y 19
+end
+arch swall_2_1_1
 x 4
 y 19
 end
@@ -707,7 +798,15 @@ arch dirtfloor
 x 4
 y 20
 end
+arch swall_2_1_1
+x 4
+y 20
+end
 arch dirtfloor
+x 4
+y 21
+end
+arch swall_2_2_4
 x 4
 y 21
 end
@@ -742,6 +841,10 @@ x 5
 y 1
 end
 arch dirtfloor
+x 5
+y 2
+end
+arch swall_2_1_2
 x 5
 y 2
 end
@@ -817,11 +920,12 @@ arch dirtfloor
 x 5
 y 14
 end
-arch dirtfloor
+arch button_lever
 x 5
-y 15
+y 14
+connected 4
 end
-arch snake
+arch dirtfloor
 x 5
 y 15
 end
@@ -888,6 +992,10 @@ x 6
 y 1
 end
 arch dirtfloor
+x 6
+y 2
+end
+arch swall_1_3_half
 x 6
 y 2
 end
@@ -1437,7 +1545,15 @@ arch mine2
 x 9
 y 18
 end
+arch swall_1_1_half
+x 9
+y 18
+end
 arch dirtfloor
+x 9
+y 19
+end
+arch swall_2_1_1
 x 9
 y 19
 end
@@ -1445,7 +1561,15 @@ arch dirtfloor
 x 9
 y 20
 end
+arch swall_2_1_1
+x 9
+y 20
+end
 arch dirtfloor
+x 9
+y 21
+end
+arch swall_2_2_1
 x 9
 y 21
 end
@@ -1583,7 +1707,16 @@ arch dirtfloor
 x 10
 y 20
 end
+arch button_lever
+x 10
+y 20
+connected 7
+end
 arch dirtfloor
+x 10
+y 21
+end
+arch swall_2_1_2
 x 10
 y 21
 end
@@ -1732,6 +1865,10 @@ arch dirtfloor
 x 11
 y 21
 end
+arch swall_2_1_2
+x 11
+y 21
+end
 arch dirtfloor
 x 11
 y 22
@@ -1862,6 +1999,10 @@ x 12
 y 20
 end
 arch dirtfloor
+x 12
+y 21
+end
+arch swall_1_3
 x 12
 y 21
 end
@@ -2003,6 +2144,11 @@ arch dirtfloor
 x 13
 y 21
 end
+arch grate_closed_1
+x 13
+y 21
+connected 7
+end
 arch dirtfloor
 x 13
 y 22
@@ -2134,6 +2280,10 @@ x 14
 y 20
 end
 arch dirtfloor
+x 14
+y 21
+end
+arch swall_1_4
 x 14
 y 21
 end
@@ -2272,7 +2422,15 @@ arch mine2
 x 15
 y 18
 end
+arch swall_1_1_half
+x 15
+y 18
+end
 arch dirtfloor
+x 15
+y 19
+end
+arch swall_2_1_1
 x 15
 y 19
 end
@@ -2280,7 +2438,15 @@ arch dirtfloor
 x 15
 y 20
 end
+arch swall_2_1_1
+x 15
+y 20
+end
 arch dirtfloor
+x 15
+y 21
+end
+arch swall_2_2_4
 x 15
 y 21
 end
@@ -2306,7 +2472,14 @@ end
 arch mine2
 x 16
 end
+arch swall_1_1_half
+x 16
+end
 arch dirtfloor
+x 16
+y 1
+end
+arch swall_1_2
 x 16
 y 1
 end
@@ -2314,11 +2487,24 @@ arch dirtfloor
 x 16
 y 2
 end
+arch grate_closed_2
+x 16
+y 2
+connected 2
+end
 arch dirtfloor
 x 16
 y 3
 end
+arch swall_1_1
+x 16
+y 3
+end
 arch dirtfloor
+x 16
+y 4
+end
+arch swall_1_2_half
 x 16
 y 4
 end
@@ -2565,6 +2751,11 @@ end
 arch dirtfloor
 x 18
 y 3
+end
+arch button_lever
+x 18
+y 3
+connected 3
 end
 arch dirtfloor
 x 18
@@ -2768,6 +2959,10 @@ arch dirtfloor
 x 19
 y 10
 end
+arch swall_2_1_2
+x 19
+y 10
+end
 arch dirtfloor
 x 19
 y 11
@@ -2846,13 +3041,11 @@ arch dungeon_floor
 x 20
 y 1
 end
-arch spikes_open
+arch random_wealth
 x 20
 y 1
-invisible 1
-connected 2
 end
-arch random_wealth
+arch medium_potion_restoration
 x 20
 y 1
 end
@@ -2863,13 +3056,13 @@ end
 arch grate_closed_1
 x 20
 y 2
+connected 8
 end
 arch dungeon_floor
 x 20
 y 3
 end
-arch spikes_open
-face dung_floor.111
+arch grate_closed_1
 x 20
 y 3
 connected 2
@@ -2878,33 +3071,13 @@ arch dungeon_floor
 x 20
 y 4
 end
-arch spikes_open
-name floor
-face dung_floor.111
-x 20
-y 4
-connected 2
-end
 arch dungeon_floor
 x 20
 y 5
 end
-arch spikes_open
-name floor
-face dung_floor.111
-x 20
-y 5
-connected 2
-end
 arch dungeon_floor
 x 20
 y 6
-end
-arch spikes_open
-face dung_floor.111
-x 20
-y 6
-connected 2
 end
 arch dungeon_floor
 x 20
@@ -2926,7 +3099,16 @@ arch dirtfloor
 x 20
 y 9
 end
+arch button_lever
+x 20
+y 9
+connected 6
+end
 arch dirtfloor
+x 20
+y 10
+end
+arch swall_1_3
 x 20
 y 10
 end
@@ -3008,14 +3190,16 @@ arch dungeon_floor
 x 21
 y 1
 end
-arch spikes_open
-x 21
-y 1
-invisible 1
-end
 arch random_wealth
 x 21
 y 1
+end
+arch potion_magic
+x 21
+y 1
+nrof 5
+arch spell_regenerate_spellpoints
+end
 end
 arch dungeon_floor
 x 21
@@ -3024,14 +3208,13 @@ end
 arch grate_closed_1
 x 21
 y 2
+connected 8
 end
 arch dungeon_floor
 x 21
 y 3
 end
-arch spikes_open
-name floor
-face dung_floor.111
+arch grate_closed_1
 x 21
 y 3
 connected 2
@@ -3052,13 +3235,6 @@ end
 arch dungeon_floor
 x 21
 y 6
-end
-arch spikes_open
-name floor
-face dung_floor.111
-x 21
-y 6
-connected 2
 end
 arch dirtfloor
 x 21
@@ -3083,6 +3259,11 @@ end
 arch dirtfloor
 x 21
 y 10
+end
+arch grate_closed_1
+x 21
+y 10
+connected 5
 end
 arch dirtfloor
 x 21
@@ -3170,14 +3351,16 @@ arch dungeon_floor
 x 22
 y 1
 end
-arch spikes_open
-x 22
-y 1
-invisible 1
-end
 arch random_wealth
 x 22
 y 1
+end
+arch potion_heal
+x 22
+y 1
+nrof 5
+arch spell_heal
+end
 end
 arch dungeon_floor
 x 22
@@ -3186,14 +3369,13 @@ end
 arch grate_closed_1
 x 22
 y 2
+connected 8
 end
 arch dungeon_floor
 x 22
 y 3
 end
-arch spikes_open
-name floor
-face dung_floor.111
+arch grate_closed_1
 x 22
 y 3
 connected 2
@@ -3209,13 +3391,6 @@ end
 arch dungeon_floor
 x 22
 y 6
-end
-arch spikes_open
-name floor
-face dung_floor.111
-x 22
-y 6
-connected 2
 end
 arch dirtfloor
 x 22
@@ -3238,6 +3413,10 @@ x 22
 y 9
 end
 arch dirtfloor
+x 22
+y 10
+end
+arch swall_1_4
 x 22
 y 10
 end
@@ -3323,14 +3502,15 @@ arch dungeon_floor
 x 23
 y 1
 end
-arch spikes_open
-x 23
-y 1
-invisible 1
-end
 arch random_wealth
 x 23
 y 1
+end
+arch potion_generic
+x 23
+y 1
+arch spell_word_of_recall
+end
 end
 arch dungeon_floor
 x 23
@@ -3339,14 +3519,13 @@ end
 arch grate_closed_1
 x 23
 y 2
+connected 8
 end
 arch dungeon_floor
 x 23
 y 3
 end
-arch spikes_open
-name floor
-face dung_floor.111
+arch grate_closed_1
 x 23
 y 3
 connected 2
@@ -3355,34 +3534,13 @@ arch dungeon_floor
 x 23
 y 4
 end
-arch spikes_open
-name floor
-face dung_floor.111
-x 23
-y 4
-connected 2
-end
 arch dungeon_floor
 x 23
 y 5
 end
-arch spikes_open
-name floor
-face dung_floor.111
-x 23
-y 5
-connected 2
-end
 arch dungeon_floor
 x 23
 y 6
-end
-arch spikes_open
-name floor
-face dung_floor.111
-x 23
-y 6
-connected 2
 end
 arch dirtfloor
 x 23
@@ -3406,6 +3564,10 @@ x 23
 y 9
 end
 arch dirtfloor
+x 23
+y 10
+end
+arch swall_2_1_2
 x 23
 y 10
 end
@@ -3564,6 +3726,10 @@ x 24
 y 9
 end
 arch dirtfloor
+x 24
+y 10
+end
+arch swall_1_3_half
 x 24
 y 10
 end
