@@ -3506,9 +3506,12 @@ arch random_wealth
 x 23
 y 1
 end
-arch potion_generic
+arch balm_generic
+title of traveling
 x 23
 y 1
+nrof 2
+identified 1
 arch spell_word_of_recall
 end
 end
