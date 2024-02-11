@@ -8,7 +8,7 @@ enter_x 3
 enter_y 3
 msg
 Created:  2012-05-29 Rick Tanner
-Modified: 2012-05-30 Rick Tanner
+Modified: 2024-02-11 Rick Tanner
 endmsg
 end
 arch blocked
@@ -344,7 +344,7 @@ arch woodfloor
 x 3
 y 14
 end
-arch book_read
+arch random_reading
 x 3
 y 14
 end
