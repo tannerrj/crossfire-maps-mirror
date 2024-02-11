@@ -8,7 +8,7 @@ enter_x 5
 enter_y 7
 msg
 Created:  2012-05-29 Rick Tanner
-Modified: 2012-12-31 Rick Tanner
+Modified: 2024-02-11 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -461,7 +461,7 @@ arch woodfloor
 x 7
 y 5
 end
-arch book_read
+arch random_reading
 x 7
 y 5
 end
