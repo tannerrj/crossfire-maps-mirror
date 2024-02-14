@@ -1,5 +1,6 @@
 arch map
 name Scorn Central Library
+fixed_resettime 1
 difficulty 4
 region scorn
 shopitems book:80;special key:80;skillscroll:80
@@ -10,7 +11,7 @@ enter_x 9
 enter_y 15
 msg
 Created: 1996-04-28 b.t. (thomas@astro.psu.edu)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2024-02-13 Kevin Zheng
 endmsg
 end
 arch grass
