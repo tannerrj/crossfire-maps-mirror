@@ -2,12 +2,13 @@ arch map
 name Goth's Tavern, Cellar
 difficulty 3
 region scorn
+darkness 1
 width 40
 height 40
 enter_x 4
 enter_y 1
 msg
-Modified: 2023-06-13 Rick Tanner
+Modified: 2024-02-15 Kevin Zheng
 endmsg
 reset_group scorn_goths-tavern
 end
