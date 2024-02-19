@@ -8,7 +8,7 @@ enter_x 15
 enter_y 15
 msg
 Created:  2020-01-21 Rick Tanner
-Modified: 2022-08-11 Rick Tanner
+Modified: 2024-02-19 Kevin Zheng
 endmsg
 reset_group lakecountry_bank
 end
@@ -617,6 +617,7 @@ end
 arch longtable_1_4
 x 3
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 3
@@ -790,6 +791,7 @@ end
 arch longtable_2_1_2
 x 4
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 4
@@ -954,6 +956,7 @@ end
 arch longtable_2_1_2
 x 5
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 5
@@ -1104,6 +1107,7 @@ end
 arch longtable_2_1_2
 x 6
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 6
@@ -1294,6 +1298,7 @@ end
 arch longtable_2_1_2
 x 7
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 7
@@ -1456,6 +1461,20 @@ end
 arch longtable_2_1_2
 x 8
 y 9
+move_block walk swim boat
+end
+arch dungeon_magic
+x 8
+y 9
+end
+arch woodfloor2
+x 8
+y 9
+end
+arch longtable_2_1_2
+x 8
+y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 8
@@ -1618,6 +1637,7 @@ end
 arch longtable_2_1_2
 x 9
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 9
@@ -1784,6 +1804,7 @@ end
 arch longtable_2_1_2
 x 10
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 10
@@ -1946,6 +1967,7 @@ end
 arch longtable_2_1_2
 x 11
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 11
@@ -2142,6 +2164,7 @@ end
 arch longtable_2_1_2
 x 12
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 12
@@ -2322,6 +2345,7 @@ end
 arch longtable_2_1_2
 x 13
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 13
@@ -2478,6 +2502,7 @@ end
 arch longtable_2_1_2
 x 14
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 14
@@ -2651,6 +2676,7 @@ end
 arch longtable_2_1_2
 x 15
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 15
@@ -2816,6 +2842,7 @@ end
 arch longtable_1_3
 x 16
 y 9
+move_block walk swim boat
 end
 arch woodfloor2
 x 16
