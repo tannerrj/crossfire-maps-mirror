@@ -8,7 +8,7 @@ enter_x 17
 enter_y 17
 msg
 Created:  1993-11-09
-Modified: 2022-07-24 Rick Tanner
+Modified: 2024-02-24 Kevin Zheng
 endmsg
 reset_group navar_tower-of-illusion
 end
@@ -746,6 +746,7 @@ end
 arch gwall_2_1_2
 x 5
 y 3
+move_type walk
 can_roll 1
 end
 arch cobblestones
@@ -2124,6 +2125,7 @@ end
 arch gwall_2_1_1
 x 13
 y 10
+move_type walk
 can_roll 1
 end
 arch cobblestones
