@@ -12,7 +12,7 @@ enter_x 25
 enter_y 3
 msg
 Created:  1997-11-05 Xtreme
-Modified: 2012-04-03 Rick Tanner
+Modified: 2024-02-24 Neila Hawkins
 endmsg
 end
 arch small_stones
@@ -2319,7 +2319,7 @@ arch diamond_converter
 name drop platinum to buy mineral oil
 slaying money
 other_arch min_oil
-food 200
+food 800
 x 15
 y 9
 end
@@ -2746,7 +2746,7 @@ arch diamond_converter
 name drop platinum to buy salt
 slaying money
 other_arch salt
-food 2000
+food 250
 x 18
 y 9
 end
