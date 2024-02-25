@@ -22,11 +22,16 @@
   "post" : [],
   "msg" : ["Please bring it back..."]
   }, {
+  "match" : ["key"],
+  "pre" : [["quest", "euthville/valriel", "10-30"]],
+  "post" : [["giveitem", "key to the catacombs"]],
+  "msg" : ["Here's another one, please bring back the chalice..."]
+  }, {
   "match" : ["*"],
   "pre" : [["quest", "euthville/valriel", "10-30"]],
   "post" : [],
   "msg" : ["So, do you have the chalice?"],
-  "replies" : [["yes", "Yes, I got it.", "1"], ["no", "No, not yet", "1"]]
+  "replies" : [["yes", "Yes, I got it.", "1"], ["no", "No, not yet", "1"], ["key", "Well, err... seems I lost the key...", "1"]]
   }, {
   "match" : ["recover"],
   "pre" : [["npctoken", "state", "recover"]],
