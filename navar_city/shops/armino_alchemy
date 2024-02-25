@@ -8,7 +8,7 @@ width 25
 height 25
 msg
 Created:  2021-02-03 Nicolas Weeger
-Modified: 2023-02-20 Daniel Hawkins
+Modified: 2024-02-25 Neila Hawkins
 endmsg
 outdoor 1
 end
@@ -632,12 +632,6 @@ arch whiteslate
 x 4
 y 22
 end
-arch uraniumoxide
-x 4
-y 22
-no_pick 1
-identified 1
-end
 arch whiteslate
 x 4
 y 23
@@ -750,12 +744,6 @@ arch whiteslate
 x 5
 y 22
 end
-arch uf6pile
-x 5
-y 22
-no_pick 1
-identified 1
-end
 arch whiteslate
 x 5
 y 23
@@ -866,12 +854,6 @@ end
 arch whiteslate
 x 6
 y 22
-end
-arch uraniumpile
-x 6
-y 22
-no_pick 1
-identified 1
 end
 arch whiteslate
 x 6
@@ -1745,12 +1727,6 @@ end
 arch whiteslate
 x 13
 y 22
-end
-arch euf6pile
-x 13
-y 22
-no_pick 1
-identified 1
 end
 arch whiteslate
 x 13
