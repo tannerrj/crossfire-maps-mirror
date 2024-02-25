@@ -7,7 +7,7 @@ height 18
 enter_x 15
 enter_y 3
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2024-02-25 nicolas
 endmsg
 reset_group scorn_gorks-grovel
 end
@@ -573,7 +573,7 @@ y 5
 end
 arch key2
 name Crusty old key with a goblins head on it
-slaying 1
+slaying gork_grovel
 msg
 This key is from Gork's Grovel.
 endmsg

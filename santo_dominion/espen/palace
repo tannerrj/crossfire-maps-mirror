@@ -8,7 +8,7 @@ enter_x 3
 enter_y 16
 msg
 Created:  1994-11-14
-Modified: 2023-11-23 Rick Tanner
+Modified: 2024-02-25 nicolas
 endmsg
 reset_group santodominion_lord-ramsdre-mansion
 end
@@ -4847,7 +4847,7 @@ x 17
 y 6
 end
 arch locked_door1
-slaying 1
+slaying lord_ramsdre_key
 x 17
 y 6
 end
@@ -5042,7 +5042,7 @@ x 17
 y 26
 end
 arch locked_door1
-slaying 1
+slaying lord_ramsdre_key
 x 17
 y 26
 end
@@ -5162,7 +5162,7 @@ x 18
 y 6
 end
 arch locked_door1
-slaying 1
+slaying lord_ramsdre_key
 x 18
 y 6
 end
@@ -5361,7 +5361,7 @@ x 18
 y 26
 end
 arch locked_door1
-slaying 1
+slaying lord_ramsdre_key
 x 18
 y 26
 end
@@ -7527,7 +7527,7 @@ x 25
 y 25
 end
 arch key2
-slaying 1
+slaying lord_ramsdre_key
 msg
 This key is from Lord Ramsdre's Mansion.
 endmsg

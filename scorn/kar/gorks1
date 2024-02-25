@@ -7,7 +7,7 @@ height 20
 enter_x 10
 enter_y 17
 msg
-Modified: 2023-06-13 Rick Tanner
+Modified: 2024-02-25 nicolas
 endmsg
 outdoor 1
 reset_group scorn_gorks-grovel
@@ -238,7 +238,7 @@ x 2
 y 4
 end
 arch locked_door1
-slaying 1
+slaying gork_grovel
 x 2
 y 4
 blocksview 1
