@@ -1,7 +1,7 @@
 2023-04-10  Rebecca Kelly
         * Info/map-digraphs: add tool to generate GraphViz files describing the interconnections between maps and regions.
 
-2023-03-15  Daniel Hawkins
+2023-03-15  Neila Hawkins
         * scorn/country/farmland_1,
           world/world_105_116: New map for one of the huts in the fields outside Scorn.
 
@@ -73,18 +73,18 @@
         * wolfsburg/guilds/damned_heretics/mainfloor,
         * wolfsburg/shops/IPO_wolfsburg:  Use new message board archetypes
 
-2021-08-12 Daniel Hawkins
+2021-08-12 Neila Hawkins
         * pup_land/hq_ud: Convert custom tear-down garden gate into an arch and fix the tear-down animation
             to open the gate instead of close it as it is torn down.
 
 2021-08-01 Andreas Kirschbaum
         * Remove attributes which have the same value as the archetype.
 
-2021-07-23 Daniel Hawkins
+2021-07-23 Neila Hawkins
         * wolfsburg/tt/tta1: Make princess's dialogue more discoverable by making a @match * message.
         * styles/misc/fountains: Add a much wider variety of spells available from random map fountains.
 
-2021-07-17 Daniel Hawkins
+2021-07-17 Neila Hawkins
         * world/world_122_116: Clean up the flames on the random maps outside Navar.
 
 2021-06-05 Nicolas Weeger
@@ -96,7 +96,7 @@
 2021-05-30 Nicolas Weeger
         * start/newbieshouse: Add zone with information on potions of life, slightly change layout
 
-2021-05-04 Daniel Hawkins
+2021-05-04 Neila Hawkins
         * quests/greyshield/Finish: Change Greyshield item power (6 -> 30).
 
 2021-04-23 DraugTheWhopper
@@ -113,7 +113,7 @@
 2021-04-12 Nicolas Weeger
         * navar_city/apartments/apartment_upstairs: Move teleporter and stairs to attic one square to the right so x-ray won't show them.
 
-2021-04-10 Daniel Hawkins
+2021-04-10 Neila Hawkins
         * scorn/misc/battle_arena/entrance: Rework the arena ticket purchase spot so that it can dispense a ticket to any number of patrons.
 
 2021-04-10 Nicolas Weeger
@@ -150,7 +150,7 @@
 2021-02-18 Nicolas Weeger
         * python/items/death_punisher.py: Let monsters be killed.
 
-2021-02-16 Daniel Hawkins
+2021-02-16 Neila Hawkins
         * mavar_city/troll_canyon/troll_canyon.7: Apply damage boost to large club of Troll Canyon to reflect improvements
             to the regular large club. Damage 25 -> 35.
 
@@ -189,7 +189,7 @@
         * navar_city/shops/armino_alchemy,
         * world/world_121_116: New alchemy shop in Navar, 'Armino fine alchemy supplies'.
 
-2021-02-02 Daniel Hawkins
+2021-02-02 Neila Hawkins
         * pup_land/raffle/raffle1_u2: Make sure the gate opens if you get stuck
           on the zombie level. This lets you reach the emergency exit on the first floor.
 
@@ -255,7 +255,7 @@
         * quests/peterm/DragonQuest/IceLord: Change locked doors for colored ones.
 
 
-2021-01-17 Daniel Hawkins
+2021-01-17 Neila Hawkins
 	* lake_country/RETower/tower1: Fix teleporters and prevent accidental player capture.
 	* lake_country/RETower/tower2: Fix teleporters and prevent accidental player capture.
 	* lake_country/RETower/tower3: Fix teleporter from end to start.
@@ -263,7 +263,7 @@
 2021-01-17 Nicolas Weeger
         * quests/peterm/FireTemple/FifthFloor: List potion of fire resistance ingredients, and give knowledge too.
 
-2021-01-16 Daniel Hawkins
+2021-01-16 Neila Hawkins
         * pup_land/raffle/raffle2,
           pup_land/raffle/raffle3: Fix tissue paper on raffles 2 and 3 in pupland as well.
         * world/world_128_109: Update Wolfburg Provisions to be new food shop barn arch.
@@ -284,7 +284,7 @@
 2021-01-03 Nicolas Weeger
         * navar_city/slums/Iggys_house_upper: Add lever to avoid being trapped if the gates close.
 
-2020-12-19 Daniel Hawkins:
+2020-12-19 Neila Hawkins:
         * python/quests/QuestAdvance.py: Bail from method if non-player activator has no owner.
 
 2020-12-17  Nicolas Weeger
@@ -298,20 +298,20 @@
 2020-12-02  Nicolas Weeger
         * styles/cheststyles: Add map with available chests for random maps. This will allow removing hardcoded list in the server code.
 
-2020-10-20  Daniel Hawkins
+2020-10-20  Neila Hawkins
 	* scorn/houses/tannery: Fix flagstone tile in entrance area that doesn't prevent casting.
 	* maps/python/quests/QuestAdvance.py: Bail when no player is provided. Avoids a core dump from the attempt to run the script in some scenarios.
 	* maps/python/events/death/autojail.py: Handle player deaths without a killer (e.g. from starvation)
 
-2020-10-12  Daniel Hawkins
+2020-10-12  Neila Hawkins
 	* pup_land/begin/adv: Utilize the randomized item generation for the creator arch rather than separate
 	  creator arches for the eight non-amulet cases.
 
-2020-10-11  Daniel Hawkins
+2020-10-11  Neila Hawkins
 	* pup_land/begin/adv: Begin to modernize the mechanisms for producing the hints from the semi-gods.
 	    While at it, make the last option produce both the amulet/ring and the note, instead of just one.
 
-2020-10-05  Daniel Hawkins
+2020-10-05  Neila Hawkins
 	* navar_city/magara/houses/museum: Fix misplaced magic_mouth text on a shield, and correct arches for white and black leather cloaks.
 	* styles/floorstyles/indoor,
 	  styles/floorstyles/lightwood,
@@ -321,7 +321,7 @@
 	  styles/floorstyles/woodfloor,
 	  styles/floorstyles/woodfloor1: Add some more recent floor arches to the style pickmaps.
 
-2020-10-01  Daniel Hawkins
+2020-10-01  Neila Hawkins
 	* pup_land/world: Add map tiling with rainbow/islands. Remove redundant tiles at south.
 	* pup_land/rainbow/islands: Add map tiling with pup_land/world. Remove redundant tiles at north and add sea tiles to west to align tiling.
 	* pup_land/jk/heads,
@@ -335,7 +335,7 @@
 	  pup_land/s_f/to-jyo: Update map exit references to rainbow/islands to reflect
 	      map repositioning.
 
-2020-09-01  Daniel Hawkins
+2020-09-01  Neila Hawkins
     * python/items/lose_buffs_on_drop.py,
       python/events/gkill/sword_of_souls.py: Update to use TotalExp field over PermExp.
           Requires server r21326 to properly function.
@@ -345,7 +345,7 @@
       Astral Vault (planes/astral-vault)
       to prevent players from using the map as free transportation
 
-2020-08-22  Daniel Hawkins
+2020-08-22  Neila Hawkins
     * python/commands/dip.py: Make the water identified to avoid infinite identify xp.
     * python/items/lose_buffs_on_drop.py: Add condition to make the calculation only
         if the item has been used since last time it was dropped.
@@ -355,11 +355,11 @@
 	* world/world_120_110: Added the world map tile (world_120_110)
 	  south of Hamlet of Lord Marksel to the Marksel region
 
-2020-08-14  Daniel Hawkins
+2020-08-14  Neila Hawkins
     * styles/trapstyles/traps: Replace Rune of Marking with Rune of Sparking
     * styles/trapstyles/runes: Replace Rune of Marking with Rune of Sparking
 
-2020-08-06  Daniel Hawkins
+2020-08-06  Neila Hawkins
     * python/items/curse_on_apply.py: Add script to allow for items to become cursed when they are applied.
     * python/items/lose_buffs_on_drop.py: Add script to remove custom buffs from a weapon,
         e.g. for a weapon that gets stronger with a specific user over time.
@@ -665,25 +665,25 @@
 	  Update Scorn world map (world/world_105_115) for entrance
 	  coordinate changes to Barracks.
 
-2019-12-01  Daniel Hawkins
+2019-12-01  Neila Hawkins
     * scorn/houses/alfalfa_ground: Update two exit coordinates to exit at Alfalfa's House.
         Prior behavior had them exit over to Easy House.
 
-2018-12-24  Daniel Hawkins
+2018-12-24  Neila Hawkins
     * python/events/clock/bell.py: Comment out to reflect port to separate plugin.
 
-2017-09-04  Daniel Hawkins
+2017-09-04  Neila Hawkins
     * styles/decorstyles/alchemy: Remove unpaid flag from diamond of exceptional beauty,
       since it isn't spawning in a shop.
 
-2017-08-11  Daniel Hawkins
+2017-08-11  Neila Hawkins
     * darcap/darcap/circus/wurfbude: Add player movers to prevent players from flying past barrier.
     * darcap/darcap/circus/shooting: Modify player movers to also move flying players behind the line.
 
-2017-08-06  Daniel Hawkins
+2017-08-06  Neila Hawkins
     * lake_country/RETower/tower3: Fix teleporter to first floor coordinates.
 
-2017-08-05  Daniel Hawkins
+2017-08-05  Neila Hawkins
     * azumauindo/minatomachi/ketsueki_itsuryuu/guild_alchemy,
     azumauindo/minatomachi/ketsueki_itsuryuu/guild_bbq,
     azumauindo/minatomachi/ketsueki_itsuryuu/guild_jeweler,
@@ -956,23 +956,23 @@
 	* test/newmaps/madness_maze/scripts/madnessmaze1.py: Fix syntax
 	error.
 
-2016-05-24 12:29  Daniel Hawkins
+2016-05-24 12:29  Neila Hawkins
 
 	* Info/land.c: Updated to solve some compiler warnings, use impassable
 	  mountains instead of wastelands, and generate beaches.
 	  Also, generate very high mountains at extreme altitude and make the old
 	  highest mountains a different color on the output map.
 
-2016-05-22 15:59  Daniel Hawkins
+2016-05-22 15:59  Neila Hawkins
 
 	* scorn/misc/battle_arena/entrance: Made the information books start identified.
 
-2016-05-20 23:45  Daniel Hawkins
+2016-05-20 23:45  Neila Hawkins
 
 	* python/dialog/npc_dialog.py: Replace deprecated call to dict.has_key()
 	* python/CFDialog.py: Replace deprecated call to dict.has_key()
 
-2016-05-17 17:26  Daniel Hawkins
+2016-05-17 17:26  Neila Hawkins
 
 	* scorn/misc/HouseofHealing: Made the information books start identified.
 	* scorn/misc/PowerHouse: Made the information books start identified.
@@ -981,35 +981,35 @@
 	* scorn/shops/IPO_scorn: Made the IPO books on the table start identified.
 	* scorn/taverns/inn: Made the Guestbook start identified.
 
-2015-12-06 13:39  Daniel Hawkins
+2015-12-06 13:39  Neila Hawkins
 
     * scorn/shops/weaponshop: Remove duplicate shop_weapon tile in back of shop.
 
-2015-05-24 16:32  Daniel Hawkins
+2015-05-24 16:32  Neila Hawkins
 
 	* brest/sow/sow: Spelling corrections to the Strange Old Wizard's dialogue.
 
-2015-05-22 22:56  Daniel Hawkins
+2015-05-22 22:56  Neila Hawkins
 
 	* navar_city/houses/mouse_house: Made cauldron unpickable.
 	  Fighting off a few mice is not enough to warrant a free cauldron.
 
-2015-05-20 19:11  Daniel Hawkins
+2015-05-20 19:11  Neila Hawkins
 
 	* world/world_105_115: Fixed sea spaces under sailing galleons that
 	  remained walkable after the ship left.
 
-2015-05-17 16:25  Daniel Hawkins (SilverNexus)
+2015-05-17 16:25  Neila Hawkins (SilverNexus)
 
 	* world/world_102_108: Adjusted Santo Dominion's bank to match Scorn's
 	  bank.
 
-2015-05-17 15:00  Daniel Hawkins (SilverNexus)
+2015-05-17 15:00  Neila Hawkins (SilverNexus)
 
 	* python/tod/replace_in_map.py: Adjusted error messages that appeared
 	  to refer to an old name for the script.
 
-2015-05-17 13:01  Daniel Hawkins (SilverNexus)
+2015-05-17 13:01  Neila Hawkins (SilverNexus)
 
 	* scorn/houses/resir: Spelling change for stairwell message and
 	  ground-floor note.
