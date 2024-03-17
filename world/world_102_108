@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-02-19
-Modified: 2023-04-02 Kevin Zheng
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_102_107
@@ -11282,17 +11282,17 @@ x 37
 y 14
 elevation 5124
 end
-arch grass
+arch earth
 x 37
 y 15
 elevation 5117
 end
-arch brush
+arch earth
 x 37
 y 16
 elevation 5070
 end
-arch brush
+arch earth
 x 37
 y 17
 elevation 4418
@@ -11595,20 +11595,37 @@ x 38
 y 14
 elevation 4605
 end
-arch brush
+arch earth
 x 38
 y 15
 elevation 4837
 end
-arch brush
+arch dragon_exit
+name Dragon Express
+x 38
+y 15
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
+end
+arch earth
 x 38
 y 16
 elevation 4799
 end
-arch brush
+arch earth
 x 38
 y 17
 elevation 4741
+end
+arch lamppost
+x 38
+y 17
 end
 arch brush
 x 38
@@ -11900,17 +11917,17 @@ arch evergreens2
 x 39
 y 14
 end
-arch brush
+arch earth
 x 39
 y 15
 elevation 5599
 end
-arch brush
+arch earth
 x 39
 y 16
 elevation 4830
 end
-arch brush
+arch earth
 x 39
 y 17
 elevation 5306
@@ -12173,17 +12190,17 @@ x 40
 y 14
 elevation 5445
 end
-arch brush
+arch earth
 x 40
 y 15
 elevation 5150
 end
-arch brush
+arch earth
 x 40
 y 16
 elevation 5244
 end
-arch brush
+arch earth
 x 40
 y 17
 elevation 4984

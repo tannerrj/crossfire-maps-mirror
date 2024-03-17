@@ -6,7 +6,7 @@ width 30
 height 30
 msg
 Created:  1996-02-07
-Modified: 2023-06-09 Rick Tanner
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 background_music nurnberg
@@ -3418,6 +3418,11 @@ arch grass
 x 20
 y 27
 end
+arch barn
+name Dragon Hangar
+x 20
+y 27
+end
 arch grass
 x 20
 y 28
@@ -3761,11 +3766,11 @@ arch cobblestones
 x 22
 y 26
 end
-arch grass
+arch earth
 x 22
 y 27
 end
-arch grass
+arch earth
 x 22
 y 28
 end
@@ -3942,11 +3947,24 @@ arch cobblestones
 x 23
 y 26
 end
-arch grass
+arch earth
 x 23
 y 27
 end
-arch grass
+arch dragon_exit
+name Dragon Express
+x 23
+y 27
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
+end
+arch earth
 x 23
 y 28
 end
@@ -4084,11 +4102,11 @@ arch cobblestones
 x 24
 y 26
 end
-arch grass
+arch earth
 x 24
 y 27
 end
-arch grass
+arch earth
 x 24
 y 28
 end
@@ -4214,11 +4232,11 @@ arch cobblestones
 x 25
 y 26
 end
-arch grass
+arch earth
 x 25
 y 27
 end
-arch grass
+arch earth
 x 25
 y 28
 end
@@ -4363,7 +4381,7 @@ arch grass
 x 26
 y 21
 end
-arch cobblestones
+arch grass
 x 26
 y 22
 end
@@ -4371,19 +4389,11 @@ arch grass
 x 26
 y 23
 end
-arch barn
-name Dragon Hangar
-slaying dragonhangar/hangar
-hp 15
-sp 1
-x 26
-y 23
-end
 arch grass
 x 26
 y 24
 end
-arch cobblestones
+arch grass
 x 26
 y 25
 end
@@ -4399,7 +4409,7 @@ arch grass
 x 26
 y 27
 end
-arch grass
+arch earth
 x 26
 y 28
 end

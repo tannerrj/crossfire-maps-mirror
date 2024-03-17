@@ -4,7 +4,7 @@ region stoneville
 width 50
 height 50
 msg
-Modified: 2023-06-16 Rick Tanner
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_103_126
@@ -801,8 +801,9 @@ y 9
 end
 arch barn
 name Stoneville Dragon Hangar
-slaying /dragonisland/hangar
+slaying /dragonisland/hangar2
 hp 15
+sp 30
 x 3
 y 9
 end
@@ -1332,19 +1333,15 @@ x 5
 y 8
 elevation 2730
 end
-arch grass
+arch earth
 x 5
 y 9
 end
-arch grass
+arch earth
 x 5
 y 10
 end
-arch grass
-x 5
-y 11
-end
-arch tree3
+arch earth
 x 5
 y 11
 end
@@ -1610,15 +1607,28 @@ x 6
 y 8
 elevation 2762
 end
-arch grass
+arch earth
 x 6
 y 9
 end
-arch grass
+arch dragon_exit
+name Dragon Express
+x 6
+y 9
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
+end
+arch earth
 x 6
 y 10
 end
-arch grass
+arch earth
 x 6
 y 11
 end
@@ -1866,19 +1876,19 @@ x 7
 y 8
 elevation 2960
 end
-arch grass
+arch earth
 x 7
 y 9
 end
-arch grass
+arch earth
 x 7
 y 10
 end
-arch tree3
+arch earth
 x 7
-y 10
+y 11
 end
-arch grass
+arch lamppost
 x 7
 y 11
 end
@@ -2124,15 +2134,15 @@ arch grass
 x 8
 y 8
 end
-arch grass
+arch earth
 x 8
 y 9
 end
-arch grass
+arch earth
 x 8
 y 10
 end
-arch grass
+arch earth
 x 8
 y 11
 end

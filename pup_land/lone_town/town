@@ -8,7 +8,7 @@ enter_x 5
 enter_y 18
 msg
 Created:  1996-02-25
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 background_music lonetown
@@ -2909,25 +2909,9 @@ arch pstone_1
 x 22
 y 16
 end
-arch dungeon_magic
-x 22
-y 17
-end
 arch grass
 x 22
 y 17
-end
-arch barn
-name Dragon Hangar
-slaying /pup_land/lone_town/dragonhangar/hangar
-hp 16
-sp 1
-x 22
-y 17
-end
-arch dungeon_magic
-x 22
-y 18
 end
 arch grass
 x 22
@@ -3031,17 +3015,9 @@ arch pstone_1
 x 23
 y 16
 end
-arch dungeon_magic
-x 23
-y 17
-end
 arch grass
 x 23
 y 17
-end
-arch dungeon_magic
-x 23
-y 18
 end
 arch grass
 x 23

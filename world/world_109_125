@@ -3,7 +3,7 @@ name world_109_125
 width 50
 height 50
 msg
-Modified: 2022-04-18 Rick Tanner
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_109_124
@@ -6852,10 +6852,7 @@ y 47
 elevation 95
 end
 arch barn
-name dragon hangar - Lake Country
-slaying /lake_country/dragon_hangar/hangar
-hp 15
-sp 1
+name dragon hangar
 x 25
 y 47
 end
@@ -7964,17 +7961,17 @@ x 29
 y 45
 elevation 1450
 end
-arch jungle_1
+arch earth
 x 29
 y 46
 elevation 1288
 end
-arch jungle_1
+arch earth
 x 29
 y 47
 elevation 1263
 end
-arch woods_3
+arch earth
 x 29
 y 48
 elevation 1020
@@ -8209,17 +8206,30 @@ x 30
 y 45
 elevation 1489
 end
-arch jungle_1
+arch earth
 x 30
 y 46
 elevation 1307
 end
-arch woods_3
+arch earth
 x 30
 y 47
 elevation 1449
 end
-arch jungle_1
+arch dragon_exit
+name Dragon Express
+x 30
+y 47
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
+end
+arch earth
 x 30
 y 48
 elevation 1699
@@ -8460,17 +8470,17 @@ x 31
 y 45
 elevation 762
 end
-arch grass
+arch earth
 x 31
 y 46
 elevation 812
 end
-arch jungle_1
+arch earth
 x 31
 y 47
 elevation 1484
 end
-arch woods_3
+arch earth
 x 31
 y 48
 elevation 2005
@@ -8710,17 +8720,17 @@ x 32
 y 45
 elevation 2846
 end
-arch woods
+arch earth
 x 32
 y 46
 elevation 2413
 end
-arch jungle_1
+arch earth
 x 32
 y 47
 elevation 1191
 end
-arch jungle_1
+arch earth
 x 32
 y 48
 elevation 2359

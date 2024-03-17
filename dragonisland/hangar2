@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created:  2001-03-06 Philipp Currlin (philipp.currlin@epost.de)
-Modified: 2022-07-18 Rick Tanner
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 reset_group stoneville_dragon-hangar
 end
@@ -2837,9 +2837,9 @@ x 15
 y 30
 end
 arch stair_up_2
-slaying hangar
-hp 15
-sp 33
+slaying /world/world_103_127
+hp 3
+sp 10
 x 15
 y 30
 end
@@ -3044,13 +3044,6 @@ x 16
 y 29
 end
 arch dungeon_floor
-x 16
-y 30
-end
-arch stair_up_4
-slaying hangar
-hp 16
-sp 33
 x 16
 y 30
 end

@@ -4,7 +4,7 @@ region darcap
 width 50
 height 50
 msg
-Modified: 2022-03-27 Rick Tanner
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_116_102
@@ -5667,6 +5667,11 @@ x 19
 y 4
 elevation 411
 end
+arch barn
+name Dragon Hangar
+x 19
+y 4
+end
 arch brush
 x 19
 y 5
@@ -6263,17 +6268,17 @@ x 21
 y 2
 elevation 896
 end
-arch brush
+arch earth
 x 21
 y 3
 elevation 541
 end
-arch brush
+arch earth
 x 21
 y 4
 elevation 110
 end
-arch brush
+arch earth
 x 21
 y 5
 elevation 76
@@ -6600,17 +6605,34 @@ x 22
 y 2
 elevation 1013
 end
-arch brush
+arch earth
 x 22
 y 3
 elevation 253
 end
-arch brush
+arch lamppost
+x 22
+y 3
+end
+arch earth
 x 22
 y 4
 elevation 586
 end
-arch brush
+arch dragon_exit
+name Dragon Express
+x 22
+y 4
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
+end
+arch earth
 x 22
 y 5
 elevation 595
@@ -6941,17 +6963,17 @@ x 23
 y 2
 elevation 999
 end
-arch brush
+arch earth
 x 23
 y 3
 elevation 967
 end
-arch brush
+arch earth
 x 23
 y 4
 elevation 865
 end
-arch brush
+arch earth
 x 23
 y 5
 elevation 708
@@ -7230,17 +7252,17 @@ x 24
 y 2
 elevation 752
 end
-arch brush
+arch earth
 x 24
 y 3
 elevation 944
 end
-arch brush
+arch earth
 x 24
 y 4
 elevation 996
 end
-arch brush
+arch earth
 x 24
 y 5
 elevation 776

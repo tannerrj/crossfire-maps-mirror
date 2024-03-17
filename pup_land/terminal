@@ -8,7 +8,7 @@ enter_x 10
 enter_y 2
 msg
 Created:  1996-04-05
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2024-03-16 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -1320,15 +1320,17 @@ x 9
 y 1
 end
 arch dragon_exit
-name Dragon to Scorn
-slaying /world/world_104_115
-msg
-The dragon flies high up into the sky, heading towards Scorn...
-endmsg
-hp 43
-sp 24
+name Dragon Express
 x 9
 y 1
+arch event_say
+title Python
+slaying /python/monsters/dragon.py
+end
+arch event_apply
+title Python
+slaying /python/monsters/dragon.py
+end
 end
 arch cobblestones2
 x 9
