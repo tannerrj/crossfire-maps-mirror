@@ -26,7 +26,7 @@ max_fare = 150*50 # maximum fare per trip, in money units (silver)
 # All the fun places we can go! Tuple of map path and X, Y coordinate.
 destinations = {
     'Port Joseph': ('/world/world_101_114', 16, 39),
-    'Red Town': ('/pup_land/rainbow/station', 7, 3),
+    'Red Town': ('/pup_land/terminal', 10, 12),
     'Wolfsburg': ('/world/world_128_109', 35, 13),
     'Brest': ('/world/world_107_123', 32, 30),
     'Navar': ('/world/world_121_116', 37, 46),
@@ -38,6 +38,12 @@ destinations = {
 #   'Nurnberg': ('/pup_land/nurnberg/city', 25, 15), # needs a passport check
 }
 
+# Some maps aren't on the world map, so give them coordinate overrides so that
+# they don't charge max price but still respect distance-based fares.
+coord_override = {
+    '/pup_land/terminal': (94, 115), # 50 platinum from Scorn
+}
+
 def search_destination(name):
     if name in destinations:
         return destinations[name]
@@ -46,6 +52,8 @@ def search_destination(name):
 
 def world_map_coord(path):
     """Try to extract the coordinates from a world map path."""
+    if path in coord_override:
+        return coord_override[path]
     groups = re.match(world_map_path_matcher, path)
     if groups is not None:
         coords = groups.group(1, 2)
