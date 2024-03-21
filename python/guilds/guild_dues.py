@@ -159,36 +159,35 @@ class GuildDues:
             return
 
         Price = Items.get(item)
-        bank = CFBank.open()
-        balance = bank.getbalance(self.accountname)
-        if Price > balance:
-            whoami.Say("The guild does not have sufficient funds.")
-            return
+        with CFBank.open() as bank:
+            balance = bank.getbalance(self.accountname)
+            if Price > balance:
+                whoami.Say("The guild does not have sufficient funds.")
+                return
 
-        if item in Cards:
-            card = activator.CreateObject('diploma')
-            card.Name = item
-            card.Message = 'This enables you to buy a new ' + item + ' for your guild.'
-            card.Value = 0
+            if item in Cards:
+                card = activator.CreateObject('diploma')
+                card.Name = item
+                card.Message = 'This enables you to buy a new ' + item + ' for your guild.'
+                card.Value = 0
+                bank.withdraw(self.accountname, Price)
+                whoami.Say("Here is your card\nThe guild now has %s on account." %(formatted_amount(bank.getbalance(self.accountname))))
+                return
+
+            Loc = Rooms.get(item)
+            coin = Loc[0].ObjectAt(Loc[1], Loc[2])
+            coin = FindCoin(coin)
+
+            if coin != 0:
+                whoami.Say("The guild already has this expansion!")
+                return
+
+            coin = mymap.CreateObject('silvercoin',40,29)
+            coin.Teleport(Loc[0] ,Loc[1], Loc[2])
+
             bank.withdraw(self.accountname, Price)
-            whoami.Say("Here is your card\nThe guild now has %s on account." %(formatted_amount(bank.getbalance(self.accountname))))
-
-            return
-
-        Loc = Rooms.get(item)
-        coin = Loc[0].ObjectAt(Loc[1], Loc[2])
-        coin = FindCoin(coin)
-
-        if coin != 0:
-            whoami.Say("The guild already has this expansion!")
-            return
-
-        coin = mymap.CreateObject('silvercoin',40,29)
-        coin.Teleport(Loc[0] ,Loc[1], Loc[2])
-
-        bank.withdraw(self.accountname, Price)
-        whoami.Say("The new room has been unlocked.\n"
-        + "The guild now has %s on account." %(formatted_amount(bank.getbalance(self.accountname))))
+            whoami.Say("The new room has been unlocked.\n"
+            + "The guild now has %s on account." %(formatted_amount(bank.getbalance(self.accountname))))
 
     def do_mailscroll(self, text):
         '''Handle getting a mailscroll for a friend.'''
@@ -216,9 +215,9 @@ class GuildDues:
 
     def do_balance(self):
         '''Handle the display of the guild's balance.'''
-        bank = CFBank.open()
-        balance = bank.getbalance(self.accountname)
-        whoami.Say("The guild currently has %s on account." %(formatted_amount(balance)))
+        with CFBank.open() as bank:
+            balance = bank.getbalance(self.accountname)
+            whoami.Say("The guild currently has %s on account." %(formatted_amount(balance)))
 
     def do_pay(self, text):
         '''Handle player paying dues to the guild.'''
@@ -240,8 +239,8 @@ class GuildDues:
             guild = CFGuilds.CFGuild(self.guildname)
             guild.pay_dues(activator.Name,total)
             whoami.Say("%s, %s %s paid to the guild." % (random.choice(remarklist), cost, currency))
-            bank = CFBank.open()
-            bank.deposit(self.accountname, total)
+            with CFBank.open() as bank:
+                bank.deposit(self.accountname, total)
         else:
             if total == 0:
                 whoami.Say("Uh? Ya wanna trick me, %s." % random.choice(buddylist))
@@ -264,32 +263,32 @@ class GuildDues:
             whoami.Say("Usage: withdraw <quantity> {cointype=silver}")
             return
 
-        bank = CFBank.open()
-        balance = bank.getbalance(self.accountname)
+        with CFBank.open() as bank:
+            balance = bank.getbalance(self.accountname)
 
-        if len(text) > 2:
-            Type = ' '.join(text[2:])
-        else:
-            Type = "silver"
+            if len(text) > 2:
+                Type = ' '.join(text[2:])
+            else:
+                Type = "silver"
 
-        if not Type.upper() in CoinTypes.keys():
-            whoami.Say("Sorry, I have no clue what %s are"%Type)
-            return
+            if not Type.upper() in CoinTypes.keys():
+                whoami.Say("Sorry, I have no clue what %s are"%Type)
+                return
 
-        Value = CoinTypes.get(Type.upper())
+            Value = CoinTypes.get(Type.upper())
 
-        if Amount*Value <= balance:
-            message = (str(Amount))
-            message +=" " + Type + " withdrawn.\nYour new present balance is "
+            if Amount*Value <= balance:
+                message = (str(Amount))
+                message +=" " + Type + " withdrawn.\nYour new present balance is "
 
-            id = activator.CreateObject(ArchType.get(Type.upper()))
-            CFItemBroker.Item(id).add(Amount)
-            bank.withdraw(self.accountname, Amount*Value)
-            message += formatted_amount(bank.getbalance(self.accountname))+"."
-            whoami.Say(message)
-        else:
-            message="You only have " + formatted_amount(bank.getbalance(self.accountname))+" on your account."
-            whoami.Say(message)
+                id = activator.CreateObject(ArchType.get(Type.upper()))
+                CFItemBroker.Item(id).add(Amount)
+                bank.withdraw(self.accountname, Amount*Value)
+                message += formatted_amount(bank.getbalance(self.accountname))+"."
+                whoami.Say(message)
+            else:
+                message="You only have " + formatted_amount(bank.getbalance(self.accountname))+" on your account."
+                whoami.Say(message)
 
     def handle_jack(self):
         '''Handle Jack, the guild helper'''
@@ -331,15 +330,16 @@ class GuildDues:
             activator.Write('dues error, please notify a DM')
             return
 
-        bank = CFBank.open()
-        self.accountname = self.guildname + str(self.guildname.__hash__())
+        self.accountname = "/guilds/" + self.guildname
 
         if whoami.Name == 'Jack':
             self.handle_jack()
             return
 
         amount = Crossfire.WhoIsOther().Value * Crossfire.WhoIsOther().Quantity
+        bank = CFBank.open()
         bank.deposit(self.accountname, amount)
+        bank.close()
 
 dues = GuildDues()
 dues.handle()
