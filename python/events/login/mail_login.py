@@ -29,6 +29,6 @@ name = activator.Name
 mail = CFMail.CFMail()
 total = mail.countmail(name)
 if total > 0:
-	activator.Write('You have some mail waiting for you')
+	activator.Write('You have mail!')
 else:
 	activator.Write('No mail...')
