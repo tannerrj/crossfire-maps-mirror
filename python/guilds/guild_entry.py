@@ -28,10 +28,6 @@ import string
 activator=Crossfire.WhoIsActivator()
 activatorname=activator.Name
 mymap = activator.Map
-x=32
-y=16
-x1=36
-y1=20
 activatorx=activator.X
 activatory=activator.Y
 whoami=Crossfire.WhoAmI()
@@ -58,8 +54,7 @@ if text:
             message = 'Entry granted for %s' %activatorname
             mymap.TriggerConnected(int(Params[2]),1,activator)
         else:
-            message = 'You try my patience %s.  BEGONE!' %activatorname
-            activator.Teleport(mymap,int(x),int(y)) #teleport them
+            message = "You are not allowed through this door. Access denied."
 
     elif text[0].upper() == 'BUY' and whoami.Name=="Guardian":
         if guildrecord['Status'] == 'inactive':
