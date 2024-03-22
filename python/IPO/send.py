@@ -57,3 +57,5 @@ while inv:
 
 for inv in idlist:
 	inv.Remove()
+
+mail.close()

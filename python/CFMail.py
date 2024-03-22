@@ -1,57 +1,40 @@
 # CFMail.py - CFMail class
-#
-# Copyright (C) 2002 Joris Bontje
-#
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 2 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-#
-# The author can be reached via e-mail at jbontje@suespammers.org
-#
-#Updated to use new path functions in CFPython -Todd Mitchell
-
-import os.path
-import shelve
+# Rewritten to use CFSqlDb
 
 import Crossfire
+import CFSqlDb as cfdb
 
 class CFMail:
+    def __init__(self):
+        self.maildb = cfdb.open()
 
-	maildb_file = os.path.join(Crossfire.LocalDirectory(),'crossfiremail')
-	maildb = {}
-	total = 0
+    def init_schema(self):
+        self.maildb.execute("CREATE TABLE IF NOT EXISTS mail ('recipient' TEXT, 'sender' TEXT, 'date' DATE, 'type' INT, 'message' TEXT);")
 
-	def __init__(self):
-		self.maildb = shelve.open(self.maildb_file)
+    def __enter__(self):
+        return self
 
-	def send(self, type, toname, fromname, message):
-		# type: 1=mailscoll, 2=newsletter, 3=mailwarning
-		if not toname in self.maildb:
-			self.maildb[toname]=[[type,fromname,message]]
-		else:
-			temp=self.maildb[toname]
-			temp.append([type,fromname,message])
-			self.maildb[toname]=temp
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.close()
 
-	def receive(self, toname):
-		if toname in self.maildb:
-			elements=self.maildb[toname]
-			del self.maildb[toname]
-			return elements
+    def send(self, type, toname, fromname, message):
+        # type: 1=mailscoll, 2=newsletter, 3=mailwarning
+        self.maildb.execute("INSERT INTO mail VALUES (?, ?, datetime('now'), ?, ?);", (toname, fromname, type, message))
 
+    def receive(self, toname):
+        c = self.maildb.cursor()
+        c.execute("SELECT type, sender, message FROM mail WHERE recipient=?;", (toname,))
+        mail = list()
+        for el in c.fetchall():
+            mail.append(el)
+        c.execute("DELETE FROM mail WHERE recipient=?;", (toname,))
+        return mail
 
-	def countmail(self, toname):
-		if toname in self.maildb:
-			return len(self.maildb[toname])
-		else:
-			return 0
+    def countmail(self, toname):
+        c = self.maildb.cursor()
+        c.execute("SELECT COUNT(*) FROM mail WHERE recipient=?;", (toname,))
+        return c.fetchone()[0]
+
+    def close(self):
+        self.maildb.commit()
+        self.maildb.close()

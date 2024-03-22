@@ -41,3 +41,5 @@ if total > 0:
             Crossfire.Log(Crossfire.LogError, 'ERROR: unknown mailtype\n')
 else:
     activator.Write("You haven't got any mail.")
+
+mail.close()
