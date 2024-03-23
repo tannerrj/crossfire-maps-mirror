@@ -13,7 +13,7 @@ enter_x 41
 enter_y 2
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2023-11-08 Rick Tanner
+Modified: 2024-03-22 Kevin Zheng
 endmsg
 outdoor 1
 reset_group citydeclouds_big-store
@@ -2140,6 +2140,10 @@ x 6
 y 4
 no_magic 1
 damned 1
+end
+arch shop_mat
+x 6
+y 4
 end
 arch flagstone
 x 6
