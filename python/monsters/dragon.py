@@ -38,6 +38,11 @@ destinations = {
 #   'Nurnberg': ('/pup_land/nurnberg/city', 25, 15), # needs a passport check
 }
 
+dest_searchable = {} # searchable index of destinations along with a canonical name
+
+for key, val in destinations.items():
+    dest_searchable[key.upper()] = (key, val)
+
 # Some maps aren't on the world map, so give them coordinate overrides so that
 # they don't charge max price but still respect distance-based fares.
 coord_override = {
@@ -45,8 +50,9 @@ coord_override = {
 }
 
 def search_destination(name):
-    if name in destinations:
-        return destinations[name]
+    name = name.upper()
+    if name in dest_searchable:
+        return dest_searchable[name]
     else:
         return None
 
@@ -104,9 +110,10 @@ def handle_say():
 
     dest = search_destination(msg)
     if dest is not None:
-        dest_name = msg
+        dest_name = dest[0]
+        dest = dest[1]
         price = fare(dest)
-        whoami.Say("Alright, let's go to %s. That will cost %s. Is that okay?" % (msg, Crossfire.CostStringFromValue(price)))
+        whoami.Say("Alright, let's go to %s. That will cost %s. Is that okay?" % (dest_name, Crossfire.CostStringFromValue(price)))
         Crossfire.AddReply("yes", "Okay, let's go.")
         Crossfire.AddReply("no", "No thanks.")
         state[activator.Name] = (dest_name, price)
