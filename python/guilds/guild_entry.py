@@ -51,8 +51,11 @@ if text:
             activator.Write('This guild is currently under probation.\nPlease see a DM for more information')
         elif (CheckClearance(Params,activator)):
             #check their status
-            message = 'Entry granted for %s' %activatorname
-            mymap.TriggerConnected(int(Params[2]),1,activator)
+            if len(Params) < 3:
+                message = "I don't know which door I'm supposed to open for you. Contact a DM."
+            else:
+                message = 'Entry granted for %s' %activatorname
+                mymap.TriggerConnected(int(Params[2]),1,activator)
         else:
             message = "You are not allowed through this door. Access denied."
 
