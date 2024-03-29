@@ -92,7 +92,7 @@ class GuildDues:
         '''Handles buying a guild extension'''
 
         if (not CheckClearance([self.guildname, "GuildMaster"], activator)):
-            whoami.Say("Only guild masters and GMs can buy extensions or new desks for the guild.")
+            whoami.Say("Only guild masters can purchase guild extensions and replacement parts.")
             return
 
         # This lists all items that can be bought, extensions or new desks
@@ -135,7 +135,7 @@ class GuildDues:
             "Smithy": (ToolShed, 23, 16) }
 
         if len(text) == 1:
-            help = "Buy what?\nYou can buy:\n"
+            help = "Buy what? Extensions are unlockable areas for your guild. Cards are for replacing missing crafting equipment like caudrons and benches. You can buy:\n"
 
             for i in Items:
                 if i in Cards:
