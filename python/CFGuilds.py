@@ -22,23 +22,18 @@ import Crossfire
 
 from time import localtime, strftime, time
 import os
+import sys
 from CFDataFile import CFDataFile, CFData
 
 def GuildUpdate():
-    GuildList = os.path.join(Crossfire.DataDirectory(),Crossfire.MapDirectory(),'templates','guild','GuildList')
-    try:
-            guildfile = open(GuildList,'r')
-            guildlisting = guildfile.read().split('\n')
-            guildfile.close()
-            guildlisting.pop()
-    except:
-        Crossfire.Log(Crossfire.LogError,'No GuildList file.  Please check %s' %GuildList)
-    if (guildlisting):
-        Crossfire.Log(Crossfire.LogDebug, '%s' %guildlisting)
-        for guild in guildlisting:
-            if not CFGuildHouses().info(guild):
-                if CFGuildHouses().add_guild(guild):
-                    Crossfire.Log(Crossfire.LogInfo,'New Guild: %s' %guild)
+    sys.path.append(os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), 'templates', 'guild'))
+    from guilds import guilds
+    guildlisting = list(map(lambda x: x.id, guilds))
+    Crossfire.Log(Crossfire.LogDebug, 'Found guilds: %s' % guildlisting)
+    for guild in guildlisting:
+        if not CFGuildHouses().info(guild):
+            if CFGuildHouses().add_guild(guild):
+                Crossfire.Log(Crossfire.LogInfo,'New Guild: %s' %guild)
 
 def SearchGuilds(player):
     guildlist = CFGuildHouses().list_guilds()
@@ -50,7 +45,7 @@ def SearchGuilds(player):
     return 0
 
 class CFGuildHouses:
-    '''Inter-Guild management class - loads guild from GuildList'''
+    '''Inter-Guild management class'''
 
     def __init__(self):
         guildhousesheader= ['Founded_Date', 'Points', 'Status', 'Quest_points']

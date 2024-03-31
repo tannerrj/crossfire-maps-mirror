@@ -4,14 +4,14 @@
 
 1 Install:
 Both the install process and the maps themselves require python, so make sure you have that, version 2.5 or later.
-There are 5 files involved in the automatic install, convert.py, convertall.py, GuildLocations, and filelist.py. GuildLocations is what is used by the install script for setting up the maps.  It has 9 columns in it, the first is the name of the guild, no spaces.  The second is the region of the guild, the third is the destination folder for the maps, the fourth is the exit location (usually the world map), the fifth and sixth are the x and y coords within the exit map, the seventh eighth and ninth are the exit location for the storage hall.  If field seven is 'same', then it uses the same exit map as for the guild hall itself.
+There are 5 files involved in the automatic install, convert.py, convertall.py, guilds.py, and filelist.py. guilds.py is what is used by the install script for setting up the maps.  It has 9 columns in it, the first is the name of the guild, no spaces.  The second is the region of the guild, the third is the destination folder for the maps, the fourth is the exit location (usually the world map), the fifth and sixth are the x and y coords within the exit map, the seventh eighth and ninth are the exit location for the storage hall.  If field seven is 'same', then it uses the same exit map as for the guild hall itself.
 
 filelist.py has a list of which files to process for each guild hall.
 convert.py takes all the files in filelist.py and customises them to the specific guild hall, then outputs them into a new (or overwrites an existing) folder in the current working directory.  The output folder is the name of the guildhall.
-It also writes them into the destination dir.  It takes the arguments from argv, in the same order that they are listed in GuildLocations.  
-convertall.py reads the lines from GuildLocations and runs them, line by line, through convert.py
+It also writes them into the destination dir.  It takes the arguments from argv, in the same order that they are listed in guilds.py.  
+convertall.py reads the lines from guilds.py and runs them, line by line, through convert.py
 
-Generally speaking, configuring GuildLocations and the running convertall.py is all that is needed.  If that doesn't work, then I suggest looking at how convert.py functions before trying to make a work around.
+Generally speaking, configuring guilds.py and the running convertall.py is all that is needed.  If that doesn't work, then I suggest looking at how convert.py functions before trying to make a work around.
 
 
 2 Bug reporting:
