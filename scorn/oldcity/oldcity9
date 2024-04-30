@@ -6,7 +6,7 @@ darkness 3
 width 40
 height 20
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2024-04-29 Rick Tanner
 endmsg
 tile_path_1 oldcity12
 tile_path_2 oldcity1
@@ -336,7 +336,7 @@ arch pstone_1
 x 2
 y 18
 end
-arch awall_2_1_1
+arch awall_1_2
 x 2
 y 18
 end
@@ -1233,7 +1233,7 @@ arch medium_stones
 x 10
 y 4
 end
-arch awall_3_3
+arch awall_2_2_3
 x 10
 y 4
 end
@@ -1465,7 +1465,7 @@ arch medium_stones
 x 12
 y 3
 end
-arch awall_2_1_1
+arch awall_1_2
 x 12
 y 3
 end

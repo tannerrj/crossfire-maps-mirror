@@ -9,7 +9,7 @@ enter_x 7
 enter_y 1
 msg
 Created: 1999-01-03
-Modified: 2023-06-13 Rick Tanner
+Modified: 2024-04-29 Rick Tanner
 endmsg
 tile_path_1 oldcity1
 tile_path_3 oldcity3
@@ -3570,7 +3570,7 @@ arch large_stones
 x 15
 y 23
 end
-arch awall_2_2_3
+arch awall_1_3
 x 15
 y 23
 end
@@ -3828,7 +3828,7 @@ arch pstone_3
 x 16
 y 24
 end
-arch awall_2_2_3
+arch awall_1_1
 x 16
 y 24
 end
