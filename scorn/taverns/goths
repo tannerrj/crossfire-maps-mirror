@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2023-11-16 Rick Tanner
+Modified: 2024-05-18 Kevin Zheng
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -664,40 +664,6 @@ arch woodfloor
 x 3
 y 12
 end
-arch chair_1.4
-x 3
-y 12
-end
-arch merchant
-name upset merchant
-msg
-@match bragh|o'leary|name
-Aye, I be BRAGH O'LEARY, former OWNER of the Scorn TRAININ' CENTER. You be some whelp here to gloat over my loss of me TRAININ' CENTER?
-Away wit' ye! Bartender! Another Booze! (hic)
-@identify
-@reply train Yes, what a sorry loss of the Training Center...
-@match train|center
-You liked me TRAININ' CENTER did ye? Well good for ye!
-Some bleedin' CONSORTIUM bought it from the Bank afore I could raise the platinum to pay off the foreclosure. Buncha zombie lovers. (hic)
-@reply consortium Who is the consortium?
-@match job|owner
-Aye. I were the owner of the TRAININ' CENTER. I tol' the bloody Bank I'd gi' 'em their bloody money. Bleedin' slime foreclosed on me.
-@match consortium
-The consortamum ... constortanum ... BLAST! I dinno who they be. I just hears they broke up and MOVED me TRAININ' CENTER to other parts o' the world. The slime! (hic)
-I also hears they ha' repr'sentatives tha' hang out in taverns to recruit people inta their centers.
-@reply move So where did you move?
-@match move
-Well, young'un, I dinna know the details, but I hears the high-level TRAININ' CENTERs are in the wilderness near Santo Dominion, Darcap, Brest 'n Navar, but th' term "near" is used a bit loosely here - ye unnershtan'? (hic) I dinna know what the bloody fools did wit' me low-level TRAININ' CENTERs. Anyway, ask around in the taverns in them towns. Some'n there will be able to ansher ye questions.
-@match *
-(hic) Leave me be. Kin ye no see I be drinkin'!?
-@reply name What is your name?
-@reply job What is your job?
-endmsg
-x 3
-y 12
-friendly 1
-identified_name Bragh O'Leary
-end
 arch woodfloor
 x 3
 y 13
@@ -845,7 +811,7 @@ arch woodfloor
 x 3
 y 23
 end
-arch cwall_0
+arch harpsichord2
 x 3
 y 23
 end
@@ -861,7 +827,49 @@ arch woodfloor
 x 3
 y 26
 end
+arch chair_wv_1.1
+x 3
+y 26
+end
+arch merchant
+name upset merchant
+msg
+@match bragh|o'leary|name
+Aye, I be BRAGH O'LEARY, former OWNER of the Scorn TRAININ' CENTER. You be some whelp here to gloat over my loss of me TRAININ' CENTER?
+Away wit' ye! Bartender! Another Booze! (hic)
+@identify
+@reply train Yes, what a sorry loss of the Training Center...
+@match train|center
+You liked me TRAININ' CENTER did ye? Well good for ye!
+Some bleedin' CONSORTIUM bought it from the Bank afore I could raise the platinum to pay off the foreclosure. Buncha zombie lovers. (hic)
+@reply consortium Who is the consortium?
+@match job|owner
+Aye. I were the owner of the TRAININ' CENTER. I tol' the bloody Bank I'd gi' 'em their bloody money. Bleedin' slime foreclosed on me.
+@match consortium
+The consortamum ... constortanum ... BLAST! I dinno who they be. I just hears they broke up and MOVED me TRAININ' CENTER to other parts o' the world. The slime! (hic)
+I also hears they ha' repr'sentatives tha' hang out in taverns to recruit people inta their centers.
+@reply move So where did you move?
+@match move
+Well, young'un, I dinna know the details, but I hears the high-level TRAININ' CENTERs are in the wilderness near Santo Dominion, Darcap, Brest 'n Navar, but th' term "near" is used a bit loosely here - ye unnershtan'? (hic) I dinna know what the bloody fools did wit' me low-level TRAININ' CENTERs. Anyway, ask around in the taverns in them towns. Some'n there will be able to ansher ye questions.
+@match *
+(hic) Leave me be. Kin ye no see I be drinkin'!?
+@reply name What is your name?
+@reply job What is your job?
+endmsg
+x 3
+y 26
+friendly 1
+identified_name Bragh O'Leary
+end
 arch woodfloor
+x 3
+y 27
+end
+arch table_4
+x 3
+y 27
+end
+arch booze
 x 3
 y 27
 end
@@ -869,11 +877,11 @@ arch woodfloor
 x 3
 y 28
 end
-arch cwall_0
-x 3
-y 28
-end
 arch woodfloor
+x 3
+y 29
+end
+arch clock
 x 3
 y 29
 end
@@ -885,15 +893,19 @@ arch woodfloor
 x 3
 y 31
 end
+arch table_4
+x 3
+y 31
+end
 arch woodfloor
 x 3
 y 32
 end
-arch woodfloor
+arch chair_wv_1.3
 x 3
-y 33
+y 32
 end
-arch cwall_0
+arch woodfloor
 x 3
 y 33
 end
@@ -998,12 +1010,6 @@ arch table_3
 x 4
 y 12
 end
-arch booze
-x 4
-y 12
-map_layer item
-no_pick 1
-end
 arch woodfloor
 x 4
 y 13
@@ -1076,11 +1082,19 @@ arch woodfloor
 x 4
 y 25
 end
+arch chair_wv_1.3
+x 4
+y 25
+end
 arch woodfloor
 x 4
 y 26
 end
 arch woodfloor
+x 4
+y 27
+end
+arch chair_wv_1.2
 x 4
 y 27
 end
@@ -1099,6 +1113,43 @@ end
 arch woodfloor
 x 4
 y 31
+end
+arch chair_wv_1.2
+x 4
+y 31
+end
+arch guildmaster
+name man
+title the Ancient
+msg
+@match name
+My name is Brum.
+@identify
+@match job
+I used to wander the lands.
+@match story|yes
+Very, well......many years ago I met a great wizard.
+@reply wizard A wizard?
+@match wizard|skud
+Yes, Skud the Great. He had a tower in the mountains.
+@reply tower Where was this tower?
+@match tower|mountain
+The tower was high in the peaks of the Black Ice Mountains, hidden in a valley.
+@reply black Where are the Black Ice Mountains?
+@reply valley What is in this valley?
+@match mountains|black|ice
+The Black Ice Mountain range lies a bit to the west of Navar.
+@match valley
+Yes, I heard that somewhere in the depths of the castle dungeon rests a piece of the Talisman!!! I never found it.
+@match *
+Would you like to hear a story?
+@reply yes Yes, I'd like to hear a story.
+endmsg
+x 4
+y 31
+friendly 1
+unaggressive 0
+identified_name Brum
 end
 arch woodfloor
 x 4
@@ -1252,7 +1303,7 @@ arch woodfloor
 x 5
 y 22
 end
-arch wall_2_1_2
+arch wall_1_3
 x 5
 y 22
 end
@@ -1283,21 +1334,6 @@ end
 arch woodfloor
 x 5
 y 29
-end
-arch man
-msg
-@match *
-Howdy.
-endmsg
-x 5
-y 29
-friendly 1
-unaggressive 0
-arch event_say
-name event_say
-title Python
-slaying /python/IPO/seen.py
-end
 end
 arch woodfloor
 x 5
@@ -1457,10 +1493,6 @@ x 6
 y 21
 end
 arch woodfloor
-x 6
-y 22
-end
-arch wall_1_3
 x 6
 y 22
 end
@@ -1810,6 +1842,10 @@ arch woodfloor
 x 8
 y 22
 end
+arch wall_1_4
+x 8
+y 22
+end
 arch woodfloor
 x 8
 y 23
@@ -1818,11 +1854,45 @@ arch woodfloor
 x 8
 y 24
 end
+arch chair_1.4
+x 8
+y 24
+end
+arch fighter
+name wounded fighter
+msg
+@match name
+Apanu... Aaeeia! ...ugak
+@identify
+@match wound|pain
+I got injured trying to kill the monsters in Castle Aaaarg.
+@reply castle What castle?
+@match castle|aaaarg
+It's full of a lot of nasty monsters - wyverns, giants, beholders. Do you want to go there?
+@reply yes Yes, I want to go.
+@match yes
+It's almost directly to the northeast of Scorn - about 400 chains. The easiest way to get there is to take the north road outside of Scorn. Once you get past the lake, start heading east/northeast - you will need to climb over some mountains. If you run across a river, just start going north - keep going north past the lake it flows from - about 75 chains. The castle is in a valley with some hills and woods.
+@match *
+Buzz off. Can't you see I am in pain!
+@reply pain Why are you in pain?
+endmsg
+hp 130
+x 8
+y 24
+level 12
+friendly 1
+unaggressive 0
+identified_name Apanu Aaeeia
+end
 arch woodfloor
 x 8
 y 25
 end
 arch woodfloor
+x 8
+y 26
+end
+arch chair_1.4
 x 8
 y 26
 end
@@ -1834,11 +1904,47 @@ arch woodfloor
 x 8
 y 28
 end
+arch chair_1.4
+x 8
+y 28
+end
+arch courier
+name scribe
+msg
+@match mark
+Mark loves to gamble... owes me a bunch. Always first in line to the bingo.
+@match bingo
+Bingo is in that open room just down there (southeast)
+@match joke|yes
+I never wanted to be a scribe, I always wanted to do stand-up. Did you hear the one about the Zombie and the princess? She always had a headache because he kept eating her brains!
+...
+...
+Hey, that's quality material buddy!
+@match job|scribe
+Ya I just rowed in from Lake Country and boy are my arms tired...
+Badaboom....
+No?
+That one killed them in Pup Land...
+Take my wight... please.
+@match *
+Want to hear a joke?
+endmsg
+x 8
+y 28
+monster 0
+friendly 1
+stand_still 1
+identified_name Joey
+end
 arch woodfloor
 x 8
 y 29
 end
 arch woodfloor
+x 8
+y 30
+end
+arch chair_1.4
 x 8
 y 30
 end
@@ -1849,6 +1955,25 @@ end
 arch woodfloor
 x 8
 y 32
+end
+arch chair_1.4
+x 8
+y 32
+end
+arch man
+msg
+@match *
+Howdy.
+endmsg
+x 8
+y 32
+friendly 1
+unaggressive 0
+arch event_say
+name event_say
+title Python
+slaying /python/IPO/seen.py
+end
 end
 arch woodfloor
 x 8
@@ -1984,7 +2109,7 @@ arch woodfloor
 x 9
 y 22
 end
-arch wall_1_4
+arch wall_2_1_2
 x 9
 y 22
 end
@@ -1992,45 +2117,100 @@ arch woodfloor
 x 9
 y 23
 end
+arch bench_1_1
+x 9
+y 23
+move_block walk
+end
 arch woodfloor
 x 9
 y 24
+end
+arch bench_2_1_1
+x 9
+y 24
+move_block walk
 end
 arch woodfloor
 x 9
 y 25
 end
+arch bench_2_1_1
+x 9
+y 25
+move_block walk
+end
 arch woodfloor
 x 9
 y 26
+end
+arch bench_2_1_1
+x 9
+y 26
+move_block walk
 end
 arch woodfloor
 x 9
 y 27
 end
+arch bench_2_1_1
+x 9
+y 27
+move_block walk
+end
 arch woodfloor
 x 9
 y 28
+end
+arch bench_2_1_1
+x 9
+y 28
+move_block walk
 end
 arch woodfloor
 x 9
 y 29
 end
+arch bench_2_1_1
+x 9
+y 29
+move_block walk
+end
 arch woodfloor
 x 9
 y 30
+end
+arch bench_2_1_1
+x 9
+y 30
+move_block walk
 end
 arch woodfloor
 x 9
 y 31
 end
+arch bench_2_1_1
+x 9
+y 31
+move_block walk
+end
 arch woodfloor
 x 9
 y 32
 end
+arch bench_2_1_1
+x 9
+y 32
+move_block walk
+end
 arch woodfloor
 x 9
 y 33
+end
+arch bench_1_2
+x 9
+y 33
+move_block fly_low
 end
 arch woodfloor
 x 9
@@ -2178,7 +2358,11 @@ arch woodfloor
 x 10
 y 23
 end
-arch cwall_0
+arch table_2x1
+x 10
+y 23
+end
+arch boozebottle_empty
 x 10
 y 23
 end
@@ -2187,6 +2371,11 @@ x 10
 y 24
 end
 arch woodfloor
+x 10
+y 25
+end
+arch man
+name bartender
 x 10
 y 25
 end
@@ -2199,10 +2388,6 @@ x 10
 y 27
 end
 arch woodfloor
-x 10
-y 28
-end
-arch cwall_0
 x 10
 y 28
 end
@@ -2223,10 +2408,6 @@ x 10
 y 32
 end
 arch woodfloor
-x 10
-y 33
-end
-arch cwall_0
 x 10
 y 33
 end
@@ -2422,7 +2603,7 @@ arch woodfloor
 x 11
 y 22
 end
-arch wall_3_3
+arch wall_2_1_2
 x 11
 y 22
 end
@@ -2430,7 +2611,7 @@ arch woodfloor
 x 11
 y 23
 end
-arch wall_2_1_1
+arch boozebottle_empty
 x 11
 y 23
 end
@@ -2438,15 +2619,7 @@ arch woodfloor
 x 11
 y 24
 end
-arch wall_2_1_1
-x 11
-y 24
-end
 arch woodfloor
-x 11
-y 25
-end
-arch wall_2_1_1
 x 11
 y 25
 end
@@ -2454,15 +2627,7 @@ arch woodfloor
 x 11
 y 26
 end
-arch wall_2_1_1
-x 11
-y 26
-end
 arch woodfloor
-x 11
-y 27
-end
-arch wall_2_1_1
 x 11
 y 27
 end
@@ -2470,23 +2635,11 @@ arch woodfloor
 x 11
 y 28
 end
-arch wall_2_1_1
-x 11
-y 28
-end
 arch woodfloor
 x 11
 y 29
 end
-arch wall_2_1_1
-x 11
-y 29
-end
 arch woodfloor
-x 11
-y 30
-end
-arch wall_1_2
 x 11
 y 30
 end
@@ -2505,15 +2658,7 @@ arch woodfloor
 x 11
 y 32
 end
-arch wall_1_1
-x 11
-y 32
-end
 arch woodfloor
-x 11
-y 33
-end
-arch wall_2_1_1
 x 11
 y 33
 end
@@ -2521,7 +2666,7 @@ arch woodfloor
 x 11
 y 34
 end
-arch wall_3_1
+arch wall_2_1_2
 x 11
 y 34
 end
@@ -2700,34 +2845,6 @@ arch woodfloor
 x 12
 y 18
 end
-arch courier
-name scribe
-msg
-@match mark
-Mark loves to gamble... owes me a bunch. Always first in line to the bingo.
-@match bingo
-Bingo is in that open room just down there (southeast)
-@match joke|yes
-I never wanted to be a scribe, I always wanted to do stand-up. Did you hear the one about the Zombie and the princess? She always had a headache because he kept eating her brains!
-...
-...
-Hey, that's quality material buddy!
-@match job|scribe
-Ya I just rowed in from Lake Country and boy are my arms tired...
-Badaboom....
-No?
-That one killed them in Pup Land...
-Take my wight... please.
-@match *
-Want to hear a joke?
-endmsg
-x 12
-y 18
-monster 0
-friendly 1
-stand_still 1
-identified_name Joey
-end
 arch woodfloor
 x 12
 y 19
@@ -2744,7 +2861,7 @@ arch woodfloor
 x 12
 y 22
 end
-arch wall_2_1_2
+arch wall_3_3
 x 12
 y 22
 end
@@ -2752,7 +2869,7 @@ arch woodfloor
 x 12
 y 23
 end
-arch bookshelf_left_close
+arch wall_2_1_1
 x 12
 y 23
 end
@@ -2760,11 +2877,15 @@ arch woodfloor
 x 12
 y 24
 end
+arch wall_2_1_1
+x 12
+y 24
+end
 arch woodfloor
 x 12
 y 25
 end
-arch bookshelf_left_close
+arch wall_2_1_1
 x 12
 y 25
 end
@@ -2772,11 +2893,15 @@ arch woodfloor
 x 12
 y 26
 end
+arch wall_2_1_1
+x 12
+y 26
+end
 arch woodfloor
 x 12
 y 27
 end
-arch bookshelf_left_close
+arch wall_2_2_1
 x 12
 y 27
 end
@@ -2788,11 +2913,15 @@ arch woodfloor
 x 12
 y 29
 end
-arch bookshelf_left_close
+arch wall_2_2_2
 x 12
 y 29
 end
 arch woodfloor
+x 12
+y 30
+end
+arch wall_1_2
 x 12
 y 30
 end
@@ -2808,7 +2937,7 @@ arch woodfloor
 x 12
 y 33
 end
-arch bookshelf_left_close
+arch wall_1_1
 x 12
 y 33
 end
@@ -2816,7 +2945,7 @@ arch woodfloor
 x 12
 y 34
 end
-arch wall_2_1_2
+arch wall_3_1
 x 12
 y 34
 end
@@ -2985,7 +3114,15 @@ arch woodfloor
 x 13
 y 23
 end
+arch barrel
+x 13
+y 23
+end
 arch woodfloor
+x 13
+y 24
+end
+arch barrel
 x 13
 y 24
 end
@@ -3001,6 +3138,10 @@ arch woodfloor
 x 13
 y 27
 end
+arch wall_1_3
+x 13
+y 27
+end
 arch woodfloor
 x 13
 y 28
@@ -3009,11 +3150,23 @@ arch woodfloor
 x 13
 y 29
 end
+arch wall_2_1_2
+x 13
+y 29
+end
 arch woodfloor
 x 13
 y 30
 end
+arch stove
+x 13
+y 30
+end
 arch woodfloor
+x 13
+y 31
+end
+arch armless_cook
 x 13
 y 31
 end
@@ -3022,6 +3175,10 @@ x 13
 y 32
 end
 arch woodfloor
+x 13
+y 33
+end
+arch table_2x1
 x 13
 y 33
 end
@@ -3169,7 +3326,7 @@ arch woodfloor
 x 14
 y 23
 end
-arch close_dresser2
+arch barrel
 x 14
 y 23
 end
@@ -3177,11 +3334,11 @@ arch woodfloor
 x 14
 y 24
 end
-arch woodfloor
+arch barrel
 x 14
-y 25
+y 24
 end
-arch close_dresser2
+arch woodfloor
 x 14
 y 25
 end
@@ -3193,7 +3350,7 @@ arch woodfloor
 x 14
 y 27
 end
-arch close_dresser2
+arch door_2
 x 14
 y 27
 end
@@ -3205,7 +3362,7 @@ arch woodfloor
 x 14
 y 29
 end
-arch close_dresser2
+arch wall_2_1_2
 x 14
 y 29
 end
@@ -3213,11 +3370,11 @@ arch woodfloor
 x 14
 y 30
 end
-arch woodfloor
+arch table
 x 14
-y 31
+y 30
 end
-arch close_dresser2
+arch woodfloor
 x 14
 y 31
 end
@@ -3226,10 +3383,6 @@ x 14
 y 32
 end
 arch woodfloor
-x 14
-y 33
-end
-arch close_dresser2
 x 14
 y 33
 end
@@ -3417,7 +3570,7 @@ arch woodfloor
 x 15
 y 27
 end
-arch wall_2_1_1
+arch wall_1_2
 x 15
 y 27
 end
@@ -3425,7 +3578,7 @@ arch woodfloor
 x 15
 y 28
 end
-arch wall_2_1_1
+arch door_1
 x 15
 y 28
 end
@@ -3433,7 +3586,7 @@ arch woodfloor
 x 15
 y 29
 end
-arch wall_2_1_1
+arch wall_2_2_3
 x 15
 y 29
 end
@@ -5108,36 +5261,6 @@ arch woodfloor
 x 22
 y 19
 end
-arch chair_1.4
-x 22
-y 19
-end
-arch fighter
-name wounded fighter
-msg
-@match name
-Apanu... Aaeeia! ...ugak
-@identify
-@match wound|pain
-I got injured trying to kill the monsters in Castle Aaaarg.
-@reply castle What castle?
-@match castle|aaaarg
-It's full of a lot of nasty monsters - wyverns, giants, beholders. Do you want to go there?
-@reply yes Yes, I want to go.
-@match yes
-It's almost directly to the northeast of Scorn - about 400 chains. The easiest way to get there is to take the north road outside of Scorn. Once you get past the lake, start heading east/northeast - you will need to climb over some mountains. If you run across a river, just start going north - keep going north past the lake it flows from - about 75 chains. The castle is in a valley with some hills and woods.
-@match *
-Buzz off. Can't you see I am in pain!
-@reply pain Why are you in pain?
-endmsg
-hp 130
-x 22
-y 19
-level 12
-friendly 1
-unaggressive 0
-identified_name Apanu Aaeeia
-end
 arch woodfloor
 x 22
 y 20
@@ -6558,39 +6681,6 @@ end
 arch woodfloor
 x 28
 y 9
-end
-arch guildmaster
-name man
-title the Ancient
-msg
-@match name
-My name is Brum.
-@identify
-@match job
-I used to wander the lands.
-@match story|yes
-Very, well......many years ago I met a great wizard.
-@reply wizard A wizard?
-@match wizard|skud
-Yes, Skud the Great. He had a tower in the mountains.
-@reply tower Where was this tower?
-@match tower|mountain
-The tower was high in the peaks of the Black Ice Mountains, hidden in a valley.
-@reply black Where are the Black Ice Mountains?
-@reply valley What is in this valley?
-@match mountains|black|ice
-The Black Ice Mountain range lies a bit to the west of Navar.
-@match valley
-Yes, I heard that somewhere in the depths of the castle dungeon rests a piece of the Talisman!!! I never found it.
-@match *
-Would you like to hear a story?
-@reply yes Yes, I'd like to hear a story.
-endmsg
-x 28
-y 9
-friendly 1
-unaggressive 0
-identified_name Brum
 end
 arch woodfloor
 x 28
