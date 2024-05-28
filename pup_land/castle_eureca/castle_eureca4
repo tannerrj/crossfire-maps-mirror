@@ -8,7 +8,7 @@ enter_x 19
 enter_y 1
 msg
 Created:  1996-03-07
-Modified: 2011-12-01 Rick Tanner
+Modified: 2024-05-28 Rick Tanner
 endmsg
 end
 arch flagstone
@@ -2556,6 +2556,9 @@ end
 arch flagstone
 x 13
 end
+arch swall_1_4_half
+x 13
+end
 arch dwall_1_3
 x 13
 end
@@ -2750,6 +2753,9 @@ end
 arch flagstone
 x 14
 end
+arch swall_1_3_half
+x 14
+end
 arch wall_1_4
 x 14
 end
@@ -2940,6 +2946,9 @@ end
 arch flagstone
 x 15
 end
+arch swall_1_4_half
+x 15
+end
 arch wall_2_2_3
 x 15
 end
@@ -3088,6 +3097,9 @@ x 15
 y 20
 end
 arch dungeon_floor
+x 16
+end
+arch swall_1_3_half
 x 16
 end
 arch dwall_1_4
