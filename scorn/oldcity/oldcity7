@@ -9,7 +9,7 @@ enter_x 5
 enter_y 38
 msg
 Created: 1994-05-28
-Modified: 2024-04-30 Rick Tanner
+Modified: 2024-05-31 Rick Tanner
 endmsg
 tile_path_2 oldcity54
 tile_path_4 oldcity8
@@ -1747,13 +1747,14 @@ arch mine13
 x 6
 y 39
 end
-arch exit
+arch dungeon_floor
+x 7
+end
+arch invis_exit
 slaying /scorn/kar/drink
-face dung_floor.111
 hp 34
 sp 39
 x 7
-client_anim_random 0
 end
 arch dungeon_floor
 x 7
