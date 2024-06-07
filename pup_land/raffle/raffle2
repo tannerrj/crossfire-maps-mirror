@@ -1,6 +1,5 @@
 arch map
 name Raffle 2, Entrance
-swap_time 5
 reset_timeout 3600
 fixed_resettime 1
 difficulty 1
@@ -11,7 +10,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1996-12-29
-Modified: 2022-07-14 Rick Tanner
+Modified: 2024-06-07 Rick Tanner
 endmsg
 reset_group pupland-raffle2
 end

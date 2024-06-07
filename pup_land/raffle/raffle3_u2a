@@ -1,6 +1,5 @@
 arch map
 name Raffle 3, Level 2a
-swap_time 5
 reset_timeout 3600
 difficulty 45
 region pupland
@@ -11,7 +10,7 @@ enter_x 11
 enter_y 27
 msg
 Created:  1997-07-03
-Modified: 2022-07-14 Rick Tanner
+Modified: 2024-06-07 Rick Tanner
 endmsg
 reset_group pupland-raffle3
 end

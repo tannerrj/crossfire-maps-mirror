@@ -1,6 +1,5 @@
 arch map
 name Raffle 2, Level 2b
-swap_time 5
 reset_timeout 3600
 difficulty 12
 region pupland
@@ -10,7 +9,7 @@ enter_x 2
 enter_y 11
 msg
 Created:  1997-03-30
-Modified: 2022-07-14 Rick Tanner
+Modified: 2024-06-07 Rick Tanner
 endmsg
 reset_group pupland-raffle2
 end

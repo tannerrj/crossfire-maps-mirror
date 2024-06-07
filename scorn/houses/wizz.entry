@@ -1,6 +1,5 @@
 arch map
 name Yarid's House, Entrance
-swap_time 3600
 difficulty 9
 region scorn
 width 16
@@ -9,7 +8,7 @@ enter_x 14
 enter_y 7
 msg
 Created: 1996-01-06 Bjoern Helfesrieder (helfesri@igd.fhg.de)
-Modified: 2023-12-07 Rick Tanner
+Modified: 2024-06-07 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_yarids-house
