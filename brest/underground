@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1994-05-31
-Modified: 2023-12-12 Rick Tanner
+Modified: 2024-07-04 Rick Tanner
 endmsg
 reset_group brest_underground
 end
@@ -244,9 +244,6 @@ end
 arch spikes_open
 x 1
 y 3
-speed 0.500000
-resist_physical 30
-value 1
 connected 1
 end
 arch boulder
@@ -754,8 +751,6 @@ end
 arch button_plate
 x 2
 y 3
-resist_confusion 30
-resist_acid 30
 connected 96
 end
 arch woodfloor
@@ -765,10 +760,6 @@ end
 arch gate_open_1
 x 2
 y 4
-speed 0.500000
-resist_confusion 30
-resist_acid 30
-value 1
 connected 96
 end
 arch woodfloor
@@ -782,7 +773,6 @@ end
 arch button_lever
 x 2
 y 6
-resist_physical 30
 connected 1
 end
 arch woodfloor
@@ -792,7 +782,6 @@ end
 arch igate_closed_1
 x 2
 y 7
-resist_physical 30
 connected 1
 end
 arch magic_mouth
@@ -881,7 +870,6 @@ arch altar
 food 5
 x 2
 y 17
-resist_magic 30
 connected 2
 end
 arch pstone_2
@@ -920,7 +908,6 @@ end
 arch gate_closed_1
 x 2
 y 21
-resist_magic 30
 connected 2
 end
 arch ogre
@@ -1012,7 +999,6 @@ end
 arch gate_closed_1
 x 2
 y 31
-resist_magic 30
 connected 2
 end
 arch ogre
@@ -1110,8 +1096,6 @@ end
 arch block_door_closed
 x 2
 y 42
-resist_physical 30
-resist_magic 30
 connected 3
 end
 arch small_stones
@@ -1121,8 +1105,6 @@ end
 arch block_door_closed
 x 2
 y 43
-resist_physical 30
-resist_magic 30
 connected 3
 end
 arch small_stones
@@ -2248,10 +2230,6 @@ end
 arch grate_closed_2
 x 5
 y 1
-resist_physical 30
-resist_magic 30
-resist_fire 30
-resist_electricity 30
 connected 15
 end
 arch woodfloor
@@ -2713,10 +2691,6 @@ end
 arch button_lever
 x 6
 y 1
-resist_physical 30
-resist_magic 30
-resist_fire 30
-resist_electricity 30
 connected 15
 end
 arch small_stones
@@ -3284,7 +3258,6 @@ end
 arch gate_closed_1
 x 7
 y 19
-resist_magic 30
 connected 2
 end
 arch magic_mouth
@@ -3733,7 +3706,6 @@ end
 arch gate_closed_1
 x 8
 y 19
-resist_magic 30
 connected 2
 end
 arch pstone_2
@@ -5217,8 +5189,6 @@ end
 arch button_handle
 x 11
 y 43
-resist_physical 30
-resist_magic 30
 connected 3
 end
 arch small_stones
@@ -6022,7 +5992,6 @@ end
 arch gate_closed_1
 x 13
 y 21
-resist_magic 30
 connected 2
 end
 arch ogre
@@ -6114,7 +6083,6 @@ end
 arch gate_closed_1
 x 13
 y 31
-resist_magic 30
 connected 2
 end
 arch ogre
@@ -10206,7 +10174,6 @@ end
 arch gate_closed_2
 x 22
 y 10
-resist_fire 30
 connected 4
 end
 arch pstone_2
@@ -10216,7 +10183,6 @@ end
 arch gate_closed_2
 x 22
 y 11
-resist_fire 30
 connected 4
 end
 arch pstone_2
@@ -11506,8 +11472,6 @@ end
 arch gate_closed_2
 x 26
 y 10
-resist_physical 30
-resist_fire 30
 connected 5
 end
 arch pstone_2
@@ -11517,8 +11481,6 @@ end
 arch gate_closed_2
 x 26
 y 11
-resist_physical 30
-resist_fire 30
 connected 5
 end
 arch pstone_2
@@ -12489,8 +12451,6 @@ end
 arch gate_closed_1
 x 30
 y 12
-resist_magic 30
-resist_fire 30
 connected 6
 end
 arch pstone_2
@@ -12521,9 +12481,6 @@ end
 arch gate_closed_1
 x 30
 y 16
-resist_physical 30
-resist_magic 30
-resist_fire 30
 connected 7
 end
 arch pstone_2
@@ -12849,8 +12806,6 @@ end
 arch gate_closed_1
 x 31
 y 12
-resist_magic 30
-resist_fire 30
 connected 6
 end
 arch pstone_2
@@ -12883,9 +12838,6 @@ end
 arch gate_closed_1
 x 31
 y 16
-resist_physical 30
-resist_magic 30
-resist_fire 30
 connected 7
 end
 arch pstone_2
@@ -13188,7 +13140,6 @@ end
 arch gate_closed_2
 x 32
 y 19
-resist_electricity 30
 connected 8
 end
 arch pstone_2
@@ -13198,7 +13149,6 @@ end
 arch gate_closed_2
 x 32
 y 20
-resist_electricity 30
 connected 8
 end
 arch pstone_2
@@ -13740,8 +13690,6 @@ end
 arch gate_closed_1
 x 34
 y 12
-resist_magic 30
-resist_electricity 30
 connected 10
 end
 arch pstone_2
@@ -13780,8 +13728,6 @@ end
 arch gate_closed_1
 x 34
 y 17
-resist_physical 30
-resist_electricity 30
 connected 9
 end
 arch pstone_2
@@ -14081,8 +14027,6 @@ end
 arch gate_closed_1
 x 35
 y 12
-resist_magic 30
-resist_electricity 30
 connected 10
 end
 arch pstone_2
@@ -14115,8 +14059,6 @@ end
 arch gate_closed_1
 x 35
 y 17
-resist_physical 30
-resist_electricity 30
 connected 9
 end
 arch pstone_2
@@ -14738,9 +14680,6 @@ end
 arch gate_closed_2
 x 37
 y 10
-resist_physical 30
-resist_magic 30
-resist_electricity 30
 connected 11
 end
 arch pstone_2
@@ -14750,9 +14689,6 @@ end
 arch gate_closed_2
 x 37
 y 11
-resist_physical 30
-resist_magic 30
-resist_electricity 30
 connected 11
 end
 arch pstone_2
@@ -15040,8 +14976,6 @@ end
 arch gate_closed_1
 x 38
 y 14
-resist_fire 30
-resist_electricity 30
 connected 12
 end
 arch pstone_2
@@ -15075,9 +15009,6 @@ end
 arch gate_closed_1
 x 38
 y 20
-resist_physical 30
-resist_fire 30
-resist_electricity 30
 connected 13
 end
 arch pstone_2
@@ -15289,8 +15220,6 @@ end
 arch gate_closed_1
 x 39
 y 14
-resist_fire 30
-resist_electricity 30
 connected 12
 end
 arch pstone_2
@@ -15320,9 +15249,6 @@ end
 arch gate_closed_1
 x 39
 y 20
-resist_physical 30
-resist_fire 30
-resist_electricity 30
 connected 13
 end
 arch pstone_2
@@ -16477,10 +16403,6 @@ end
 arch block_door_closed
 x 43
 y 24
-speed 0.500000
-resist_magic 30
-resist_fire 30
-resist_electricity 30
 connected 14
 end
 arch pstone_2
@@ -16494,9 +16416,6 @@ end
 arch button_small
 x 43
 y 26
-resist_magic 30
-resist_fire 30
-resist_electricity 30
 connected 14
 end
 arch pstone_2
