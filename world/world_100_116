@@ -4,7 +4,7 @@ region portjoseph
 width 50
 height 50
 msg
-Modified: 2018-12-28 Kevin Zheng
+Modified: 2024-07-10 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_100_115
@@ -10126,6 +10126,7 @@ end
 arch big_galleon
 slaying /port_joseph/pirates/tortship
 hp 7
+sp 0
 x 41
 y 28
 smoothlevel 51
