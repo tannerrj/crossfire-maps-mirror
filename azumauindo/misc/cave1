@@ -10,7 +10,7 @@ enter_x 23
 enter_y 61
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2014-10-06 Rick Tanner
+Modified: 2024-07-16 Rick Tanner
 endmsg
 end
 arch cave_15
@@ -1224,6 +1224,7 @@ y 18
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 3
 x 4
 y 18
@@ -1545,6 +1546,7 @@ y 18
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 3
 x 5
 y 18
@@ -1858,6 +1860,7 @@ y 18
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 3
 x 6
 y 18
