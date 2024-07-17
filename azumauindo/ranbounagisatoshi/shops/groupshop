@@ -14,7 +14,7 @@ enter_x 17
 enter_y 18
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-09 Rick Tanner
+Modified: 2024-07-17 Rick Tanner
 endmsg
 outdoor 1
 reset_group azumauindo_gurupu-mise
@@ -939,14 +939,6 @@ arch woodfloor
 x 4
 y 5
 end
-arch woodfloor
-x 4
-y 5
-end
-arch woodfloor
-x 4
-y 5
-end
 arch key2
 name mise key 2
 slaying azamauingshodos2lvl0
@@ -1097,10 +1089,6 @@ x 4
 y 19
 end
 arch dungeon_magic
-x 4
-y 20
-end
-arch woodfloor
 x 4
 y 20
 end
@@ -2204,10 +2192,6 @@ arch ewall_2_1_2
 x 8
 y 2
 end
-arch dungeon_magic
-x 8
-y 3
-end
 arch light2
 x 8
 y 3
@@ -2221,10 +2205,6 @@ name unique 1 woodfloor
 x 8
 y 3
 unique 1
-end
-arch dungeon_magic
-x 8
-y 4
 end
 arch light2
 x 8
@@ -2242,10 +2222,6 @@ arch swall_2_1_2
 x 8
 y 4
 end
-arch dungeon_magic
-x 8
-y 5
-end
 arch light2
 x 8
 y 5
@@ -2259,10 +2235,6 @@ name unique 1 woodfloor
 x 8
 y 5
 unique 1
-end
-arch dungeon_magic
-x 8
-y 6
 end
 arch light2
 x 8
@@ -2280,10 +2252,6 @@ arch swall_2_1_2
 x 8
 y 6
 end
-arch dungeon_magic
-x 8
-y 7
-end
 arch light2
 x 8
 y 7
@@ -2297,10 +2265,6 @@ name unique 1 woodfloor
 x 8
 y 7
 unique 1
-end
-arch dungeon_magic
-x 8
-y 8
 end
 arch light2
 x 8
@@ -2318,10 +2282,6 @@ arch swall_2_1_2
 x 8
 y 8
 end
-arch dungeon_magic
-x 8
-y 9
-end
 arch light2
 x 8
 y 9
@@ -2335,10 +2295,6 @@ name unique 1 woodfloor
 x 8
 y 9
 unique 1
-end
-arch dungeon_magic
-x 8
-y 10
 end
 arch light2
 x 8
@@ -2355,10 +2311,6 @@ end
 arch swall_2_1_2
 x 8
 y 10
-end
-arch dungeon_magic
-x 8
-y 11
 end
 arch light2
 x 8
@@ -2434,10 +2386,6 @@ arch ewall_2_1_2
 x 8
 y 17
 end
-arch dungeon_magic
-x 8
-y 18
-end
 arch light2
 x 8
 y 18
@@ -2457,10 +2405,6 @@ x 8
 y 19
 end
 arch light2
-x 8
-y 19
-end
-arch dungeon_magic
 x 8
 y 19
 end
@@ -2480,10 +2424,6 @@ arch light2
 x 8
 y 20
 end
-arch dungeon_magic
-x 8
-y 20
-end
 arch woodfloor
 name unique 1 woodfloor
 x 8
@@ -2495,10 +2435,6 @@ x 8
 y 21
 end
 arch light2
-x 8
-y 21
-end
-arch dungeon_magic
 x 8
 y 21
 end
@@ -2518,10 +2454,6 @@ arch light2
 x 8
 y 22
 end
-arch dungeon_magic
-x 8
-y 22
-end
 arch woodfloor
 name unique 1 woodfloor
 x 8
@@ -2533,10 +2465,6 @@ x 8
 y 23
 end
 arch light2
-x 8
-y 23
-end
-arch dungeon_magic
 x 8
 y 23
 end
@@ -2553,10 +2481,6 @@ x 8
 y 24
 end
 arch light2
-x 8
-y 24
-end
-arch dungeon_magic
 x 8
 y 24
 end
@@ -2571,10 +2495,6 @@ x 8
 y 25
 end
 arch light2
-x 8
-y 25
-end
-arch dungeon_magic
 x 8
 y 25
 end
@@ -2591,10 +2511,6 @@ x 8
 y 26
 end
 arch light2
-x 8
-y 26
-end
-arch dungeon_magic
 x 8
 y 26
 end
@@ -2663,10 +2579,6 @@ arch ewall_2_1_2
 x 9
 y 2
 end
-arch dungeon_magic
-x 9
-y 3
-end
 arch light2
 x 9
 y 3
@@ -2685,10 +2597,6 @@ y 3
 speed 0.500000
 connected 70
 end
-arch dungeon_magic
-x 9
-y 4
-end
 arch light2
 x 9
 y 4
@@ -2704,10 +2612,6 @@ end
 arch swall_1_3
 x 9
 y 4
-end
-arch dungeon_magic
-x 9
-y 5
 end
 arch light2
 x 9
@@ -2727,10 +2631,6 @@ y 5
 speed 0.500000
 connected 60
 end
-arch dungeon_magic
-x 9
-y 6
-end
 arch light2
 x 9
 y 6
@@ -2746,10 +2646,6 @@ end
 arch swall_1_3
 x 9
 y 6
-end
-arch dungeon_magic
-x 9
-y 7
 end
 arch light2
 x 9
@@ -2769,10 +2665,6 @@ y 7
 speed 0.500000
 connected 50
 end
-arch dungeon_magic
-x 9
-y 8
-end
 arch light2
 x 9
 y 8
@@ -2788,10 +2680,6 @@ end
 arch swall_1_3
 x 9
 y 8
-end
-arch dungeon_magic
-x 9
-y 9
 end
 arch light2
 x 9
@@ -2811,10 +2699,6 @@ y 9
 speed 0.500000
 connected 40
 end
-arch dungeon_magic
-x 9
-y 10
-end
 arch light2
 x 9
 y 10
@@ -2830,10 +2714,6 @@ end
 arch swall_1_3
 x 9
 y 10
-end
-arch dungeon_magic
-x 9
-y 11
 end
 arch light2
 x 9
@@ -2913,10 +2793,6 @@ arch ewall_2_1_2
 x 9
 y 17
 end
-arch dungeon_magic
-x 9
-y 18
-end
 arch light2
 x 9
 y 18
@@ -2943,10 +2819,6 @@ arch light2
 x 9
 y 19
 end
-arch dungeon_magic
-x 9
-y 19
-end
 arch woodfloor
 x 9
 y 19
@@ -2960,10 +2832,6 @@ x 9
 y 20
 end
 arch light2
-x 9
-y 20
-end
-arch dungeon_magic
 x 9
 y 20
 end
@@ -2985,10 +2853,6 @@ arch light2
 x 9
 y 21
 end
-arch dungeon_magic
-x 9
-y 21
-end
 arch woodfloor
 x 9
 y 21
@@ -3002,10 +2866,6 @@ x 9
 y 22
 end
 arch light2
-x 9
-y 22
-end
-arch dungeon_magic
 x 9
 y 22
 end
@@ -3027,10 +2887,6 @@ arch light2
 x 9
 y 23
 end
-arch dungeon_magic
-x 9
-y 23
-end
 arch woodfloor
 x 9
 y 23
@@ -3044,10 +2900,6 @@ x 9
 y 24
 end
 arch light2
-x 9
-y 24
-end
-arch dungeon_magic
 x 9
 y 24
 end
@@ -3069,10 +2921,6 @@ arch light2
 x 9
 y 25
 end
-arch dungeon_magic
-x 9
-y 25
-end
 arch woodfloor
 x 9
 y 25
@@ -3086,10 +2934,6 @@ x 9
 y 26
 end
 arch light2
-x 9
-y 26
-end
-arch dungeon_magic
 x 9
 y 26
 end
@@ -3162,10 +3006,6 @@ arch ewall_2_1_2
 x 10
 y 2
 end
-arch dungeon_magic
-x 10
-y 3
-end
 arch light2
 x 10
 y 3
@@ -3186,10 +3026,6 @@ x 10
 y 3
 connected 70
 end
-arch dungeon_magic
-x 10
-y 4
-end
 arch light2
 x 10
 y 4
@@ -3201,10 +3037,6 @@ end
 arch woodfloor
 x 10
 y 4
-end
-arch dungeon_magic
-x 10
-y 5
 end
 arch light2
 x 10
@@ -3226,10 +3058,6 @@ x 10
 y 5
 connected 60
 end
-arch dungeon_magic
-x 10
-y 6
-end
 arch light2
 x 10
 y 6
@@ -3241,10 +3069,6 @@ end
 arch woodfloor
 x 10
 y 6
-end
-arch dungeon_magic
-x 10
-y 7
 end
 arch light2
 x 10
@@ -3266,10 +3090,6 @@ x 10
 y 7
 connected 50
 end
-arch dungeon_magic
-x 10
-y 8
-end
 arch light2
 x 10
 y 8
@@ -3281,10 +3101,6 @@ end
 arch woodfloor
 x 10
 y 8
-end
-arch dungeon_magic
-x 10
-y 9
 end
 arch light2
 x 10
@@ -3306,10 +3122,6 @@ x 10
 y 9
 connected 40
 end
-arch dungeon_magic
-x 10
-y 10
-end
 arch light2
 x 10
 y 10
@@ -3321,10 +3133,6 @@ end
 arch woodfloor
 x 10
 y 10
-end
-arch dungeon_magic
-x 10
-y 11
 end
 arch light2
 x 10
@@ -3406,10 +3214,6 @@ arch ewall_2_1_2
 x 10
 y 17
 end
-arch dungeon_magic
-x 10
-y 18
-end
 arch light2
 x 10
 y 18
@@ -3438,10 +3242,6 @@ arch light2
 x 10
 y 19
 end
-arch dungeon_magic
-x 10
-y 19
-end
 arch woodfloor
 x 10
 y 19
@@ -3451,10 +3251,6 @@ x 10
 y 20
 end
 arch light2
-x 10
-y 20
-end
-arch dungeon_magic
 x 10
 y 20
 end
@@ -3478,10 +3274,6 @@ arch light2
 x 10
 y 21
 end
-arch dungeon_magic
-x 10
-y 21
-end
 arch woodfloor
 x 10
 y 21
@@ -3491,10 +3283,6 @@ x 10
 y 22
 end
 arch light2
-x 10
-y 22
-end
-arch dungeon_magic
 x 10
 y 22
 end
@@ -3518,10 +3306,6 @@ arch light2
 x 10
 y 23
 end
-arch dungeon_magic
-x 10
-y 23
-end
 arch woodfloor
 x 10
 y 23
@@ -3531,10 +3315,6 @@ x 10
 y 24
 end
 arch light2
-x 10
-y 24
-end
-arch dungeon_magic
 x 10
 y 24
 end
@@ -3558,10 +3338,6 @@ arch light2
 x 10
 y 25
 end
-arch dungeon_magic
-x 10
-y 25
-end
 arch woodfloor
 x 10
 y 25
@@ -3571,10 +3347,6 @@ x 10
 y 26
 end
 arch light2
-x 10
-y 26
-end
-arch dungeon_magic
 x 10
 y 26
 end
@@ -3649,10 +3421,6 @@ arch ewall_2_1_2
 x 11
 y 2
 end
-arch dungeon_magic
-x 11
-y 3
-end
 arch light2
 x 11
 y 3
@@ -3667,10 +3435,6 @@ x 11
 y 3
 unique 1
 end
-arch dungeon_magic
-x 11
-y 4
-end
 arch light2
 x 11
 y 4
@@ -3682,10 +3446,6 @@ end
 arch woodfloor
 x 11
 y 4
-end
-arch dungeon_magic
-x 11
-y 5
 end
 arch light2
 x 11
@@ -3701,10 +3461,6 @@ x 11
 y 5
 unique 1
 end
-arch dungeon_magic
-x 11
-y 6
-end
 arch light2
 x 11
 y 6
@@ -3716,10 +3472,6 @@ end
 arch woodfloor
 x 11
 y 6
-end
-arch dungeon_magic
-x 11
-y 7
 end
 arch light2
 x 11
@@ -3735,10 +3487,6 @@ x 11
 y 7
 unique 1
 end
-arch dungeon_magic
-x 11
-y 8
-end
 arch light2
 x 11
 y 8
@@ -3750,10 +3498,6 @@ end
 arch woodfloor
 x 11
 y 8
-end
-arch dungeon_magic
-x 11
-y 9
 end
 arch light2
 x 11
@@ -3769,10 +3513,6 @@ x 11
 y 9
 unique 1
 end
-arch dungeon_magic
-x 11
-y 10
-end
 arch light2
 x 11
 y 10
@@ -3784,10 +3524,6 @@ end
 arch woodfloor
 x 11
 y 10
-end
-arch dungeon_magic
-x 11
-y 11
 end
 arch light2
 x 11
@@ -3868,10 +3604,6 @@ arch ewall_2_1_2
 x 11
 y 17
 end
-arch dungeon_magic
-x 11
-y 18
-end
 arch light2
 x 11
 y 18
@@ -3898,14 +3630,6 @@ arch light2
 x 11
 y 19
 end
-arch dungeon_magic
-x 11
-y 19
-end
-arch dungeon_magic
-x 11
-y 19
-end
 arch woodfloor
 x 11
 y 19
@@ -3915,14 +3639,6 @@ x 11
 y 20
 end
 arch light2
-x 11
-y 20
-end
-arch dungeon_magic
-x 11
-y 20
-end
-arch dungeon_magic
 x 11
 y 20
 end
@@ -3940,14 +3656,6 @@ arch light2
 x 11
 y 21
 end
-arch dungeon_magic
-x 11
-y 21
-end
-arch dungeon_magic
-x 11
-y 21
-end
 arch woodfloor
 x 11
 y 21
@@ -3957,14 +3665,6 @@ x 11
 y 22
 end
 arch light2
-x 11
-y 22
-end
-arch dungeon_magic
-x 11
-y 22
-end
-arch dungeon_magic
 x 11
 y 22
 end
@@ -3982,14 +3682,6 @@ arch light2
 x 11
 y 23
 end
-arch dungeon_magic
-x 11
-y 23
-end
-arch dungeon_magic
-x 11
-y 23
-end
 arch woodfloor
 x 11
 y 23
@@ -3999,14 +3691,6 @@ x 11
 y 24
 end
 arch light2
-x 11
-y 24
-end
-arch dungeon_magic
-x 11
-y 24
-end
-arch dungeon_magic
 x 11
 y 24
 end
@@ -4021,14 +3705,6 @@ x 11
 y 25
 end
 arch light2
-x 11
-y 25
-end
-arch dungeon_magic
-x 11
-y 25
-end
-arch dungeon_magic
 x 11
 y 25
 end
@@ -4041,14 +3717,6 @@ x 11
 y 26
 end
 arch light2
-x 11
-y 26
-end
-arch dungeon_magic
-x 11
-y 26
-end
-arch dungeon_magic
 x 11
 y 26
 end
@@ -4122,10 +3790,6 @@ arch ewall_2_1_2
 x 12
 y 2
 end
-arch dungeon_magic
-x 12
-y 3
-end
 arch light2
 x 12
 y 3
@@ -4139,10 +3803,6 @@ name unique 1 woodfloor
 x 12
 y 3
 unique 1
-end
-arch dungeon_magic
-x 12
-y 4
 end
 arch light2
 x 12
@@ -4164,10 +3824,6 @@ arch longtable_2_2_2
 x 12
 y 4
 end
-arch dungeon_magic
-x 12
-y 5
-end
 arch light2
 x 12
 y 5
@@ -4187,10 +3843,6 @@ end
 arch longtable_2_1_1
 x 12
 y 5
-end
-arch dungeon_magic
-x 12
-y 6
 end
 arch light2
 x 12
@@ -4212,10 +3864,6 @@ arch longtable_2_1_1
 x 12
 y 6
 end
-arch dungeon_magic
-x 12
-y 7
-end
 arch light2
 x 12
 y 7
@@ -4235,10 +3883,6 @@ end
 arch longtable_2_1_1
 x 12
 y 7
-end
-arch dungeon_magic
-x 12
-y 8
 end
 arch light2
 x 12
@@ -4260,10 +3904,6 @@ arch longtable_2_1_1
 x 12
 y 8
 end
-arch dungeon_magic
-x 12
-y 9
-end
 arch light2
 x 12
 y 9
@@ -4284,10 +3924,6 @@ arch longtable_2_1_1
 x 12
 y 9
 end
-arch dungeon_magic
-x 12
-y 10
-end
 arch light2
 x 12
 y 10
@@ -4307,10 +3943,6 @@ end
 arch longtable_2_1_1
 x 12
 y 10
-end
-arch dungeon_magic
-x 12
-y 11
 end
 arch light2
 x 12
@@ -4402,19 +4034,7 @@ arch ewall_2_1_2
 x 12
 y 17
 end
-arch dungeon_magic
-x 12
-y 18
-end
 arch light2
-x 12
-y 18
-end
-arch dungeon_magic
-x 12
-y 18
-end
-arch dungeon_magic
 x 12
 y 18
 end
@@ -4433,10 +4053,6 @@ x 12
 y 19
 end
 arch light2
-x 12
-y 19
-end
-arch dungeon_magic
 x 12
 y 19
 end
@@ -4460,10 +4076,6 @@ arch light2
 x 12
 y 20
 end
-arch dungeon_magic
-x 12
-y 20
-end
 arch woodfloor
 x 12
 y 20
@@ -4484,10 +4096,6 @@ arch light2
 x 12
 y 21
 end
-arch dungeon_magic
-x 12
-y 21
-end
 arch woodfloor
 x 12
 y 21
@@ -4505,10 +4113,6 @@ x 12
 y 22
 end
 arch light2
-x 12
-y 22
-end
-arch dungeon_magic
 x 12
 y 22
 end
@@ -4529,10 +4133,6 @@ x 12
 y 23
 end
 arch light2
-x 12
-y 23
-end
-arch dungeon_magic
 x 12
 y 23
 end
@@ -4553,10 +4153,6 @@ x 12
 y 24
 end
 arch light2
-x 12
-y 24
-end
-arch dungeon_magic
 x 12
 y 24
 end
@@ -4577,10 +4173,6 @@ x 12
 y 25
 end
 arch light2
-x 12
-y 25
-end
-arch dungeon_magic
 x 12
 y 25
 end
@@ -4601,10 +4193,6 @@ x 12
 y 26
 end
 arch light2
-x 12
-y 26
-end
-arch dungeon_magic
 x 12
 y 26
 end
@@ -4689,10 +4277,6 @@ arch ewall_2_1_2
 x 13
 y 2
 end
-arch dungeon_magic
-x 13
-y 3
-end
 arch light2
 x 13
 y 3
@@ -4706,10 +4290,6 @@ name unique 1 woodfloor
 x 13
 y 3
 unique 1
-end
-arch dungeon_magic
-x 13
-y 4
 end
 arch light2
 x 13
@@ -4731,10 +4311,6 @@ arch longtable_1_3
 x 13
 y 4
 end
-arch dungeon_magic
-x 13
-y 5
-end
 arch light2
 x 13
 y 5
@@ -4748,10 +4324,6 @@ name unique 1 woodfloor
 x 13
 y 5
 unique 1
-end
-arch dungeon_magic
-x 13
-y 6
 end
 arch light2
 x 13
@@ -4767,10 +4339,6 @@ x 13
 y 6
 unique 1
 end
-arch dungeon_magic
-x 13
-y 7
-end
 arch light2
 x 13
 y 7
@@ -4784,10 +4352,6 @@ name unique 1 woodfloor
 x 13
 y 7
 unique 1
-end
-arch dungeon_magic
-x 13
-y 8
 end
 arch light2
 x 13
@@ -4803,10 +4367,6 @@ x 13
 y 8
 unique 1
 end
-arch dungeon_magic
-x 13
-y 9
-end
 arch light2
 x 13
 y 9
@@ -4820,10 +4380,6 @@ name unique 1 woodfloor
 x 13
 y 9
 unique 1
-end
-arch dungeon_magic
-x 13
-y 10
 end
 arch light2
 x 13
@@ -4839,10 +4395,6 @@ x 13
 y 10
 unique 1
 end
-arch dungeon_magic
-x 13
-y 11
-end
 arch light2
 x 13
 y 11
@@ -4857,10 +4409,6 @@ x 13
 y 11
 unique 1
 end
-arch dungeon_magic
-x 13
-y 12
-end
 arch light2
 x 13
 y 12
@@ -4874,10 +4422,6 @@ name unique 1 woodfloor
 x 13
 y 12
 unique 1
-end
-arch dungeon_magic
-x 13
-y 13
 end
 arch light2
 x 13
@@ -4938,19 +4482,7 @@ arch ewall_2_1_2
 x 13
 y 17
 end
-arch dungeon_magic
-x 13
-y 18
-end
 arch light2
-x 13
-y 18
-end
-arch dungeon_magic
-x 13
-y 18
-end
-arch dungeon_magic
 x 13
 y 18
 end
@@ -4969,10 +4501,6 @@ x 13
 y 19
 end
 arch light2
-x 13
-y 19
-end
-arch dungeon_magic
 x 13
 y 19
 end
@@ -4996,10 +4524,6 @@ arch light2
 x 13
 y 20
 end
-arch dungeon_magic
-x 13
-y 20
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5014,10 +4538,6 @@ arch light2
 x 13
 y 21
 end
-arch dungeon_magic
-x 13
-y 21
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5032,10 +4552,6 @@ arch light2
 x 13
 y 22
 end
-arch dungeon_magic
-x 13
-y 22
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5050,10 +4566,6 @@ arch light2
 x 13
 y 23
 end
-arch dungeon_magic
-x 13
-y 23
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5068,10 +4580,6 @@ arch light2
 x 13
 y 24
 end
-arch dungeon_magic
-x 13
-y 24
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5086,10 +4594,6 @@ arch light2
 x 13
 y 25
 end
-arch dungeon_magic
-x 13
-y 25
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5104,10 +4608,6 @@ arch light2
 x 13
 y 26
 end
-arch dungeon_magic
-x 13
-y 26
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5122,10 +4622,6 @@ arch light2
 x 13
 y 27
 end
-arch dungeon_magic
-x 13
-y 27
-end
 arch woodfloor
 name unique 1 woodfloor
 x 13
@@ -5137,10 +4633,6 @@ x 13
 y 28
 end
 arch light2
-x 13
-y 28
-end
-arch dungeon_magic
 x 13
 y 28
 end
@@ -5363,14 +4855,6 @@ end
 arch ewall_1_3
 x 14
 y 17
-end
-arch dungeon_magic
-x 14
-y 18
-end
-arch dungeon_magic
-x 14
-y 18
 end
 arch dungeon_magic
 x 14
