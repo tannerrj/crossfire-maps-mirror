@@ -9,7 +9,7 @@ enter_x 17
 enter_y 1
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2023-05-27 Rick Tanner
+Modified: 2024-07-18 Rick Tanner
 endmsg
 end
 arch woodfloor2
@@ -299,6 +299,7 @@ y 17
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 2
 end
@@ -424,6 +425,7 @@ is_buildable 1
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 2
 y 15
@@ -445,6 +447,7 @@ y 17
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 3
 end
@@ -560,6 +563,7 @@ is_buildable 1
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 3
 y 15
@@ -962,6 +966,7 @@ y 17
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 7
 end
@@ -1081,6 +1086,7 @@ is_buildable 1
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 7
 y 15
@@ -1102,6 +1108,7 @@ y 17
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 8
 end
@@ -1221,6 +1228,7 @@ is_buildable 1
 end
 arch invis_exit
 slaying /world/world_128_101
+hp 0
 sp 16
 x 8
 y 15
