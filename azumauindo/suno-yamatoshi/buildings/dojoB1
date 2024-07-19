@@ -10,7 +10,7 @@ enter_x 23
 enter_y 55
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-09 Rick Tanner
+Modified: 2024-07-19 Rick Tanner
 endmsg
 reset_group azumauindo_suno-yamatoshi-dojo
 end
@@ -31,11 +31,6 @@ end
 arch cave_15
 y 5
 end
-arch check_inv
-slaying dojo
-y 19
-connected 1
-end
 arch dungeon_magic
 y 19
 end
@@ -48,11 +43,6 @@ end
 arch cwall_2_2_2
 y 19
 end
-arch check_inv
-slaying dojo
-y 20
-connected 1
-end
 arch dungeon_magic
 y 20
 end
@@ -64,11 +54,6 @@ y 20
 end
 arch cwall_3_2
 y 20
-end
-arch check_inv
-slaying dojo
-y 21
-connected 1
 end
 arch dungeon_magic
 y 21
@@ -82,11 +67,6 @@ end
 arch cwall_3_2
 y 21
 end
-arch check_inv
-slaying dojo
-y 22
-connected 1
-end
 arch dungeon_magic
 y 22
 end
@@ -98,11 +78,6 @@ y 22
 end
 arch cwall_3_2
 y 22
-end
-arch check_inv
-slaying dojo
-y 23
-connected 1
 end
 arch dungeon_magic
 y 23
@@ -116,11 +91,6 @@ end
 arch cwall_3_2
 y 23
 end
-arch check_inv
-slaying dojo
-y 24
-connected 1
-end
 arch dungeon_magic
 y 24
 end
@@ -132,11 +102,6 @@ y 24
 end
 arch cwall_3_2
 y 24
-end
-arch check_inv
-slaying dojo
-y 25
-connected 1
 end
 arch dungeon_magic
 y 25
@@ -150,11 +115,6 @@ end
 arch cwall_3_2
 y 25
 end
-arch check_inv
-slaying dojo
-y 26
-connected 1
-end
 arch dungeon_magic
 y 26
 end
@@ -166,11 +126,6 @@ y 26
 end
 arch cwall_3_2
 y 26
-end
-arch check_inv
-slaying dojo
-y 27
-connected 1
 end
 arch dungeon_magic
 y 27
@@ -184,11 +139,6 @@ end
 arch cwall_3_2
 y 27
 end
-arch check_inv
-slaying dojo
-y 28
-connected 1
-end
 arch dungeon_magic
 y 28
 end
@@ -200,11 +150,6 @@ y 28
 end
 arch cwall_3_2
 y 28
-end
-arch check_inv
-slaying dojo
-y 29
-connected 1
 end
 arch dungeon_magic
 y 29
@@ -218,11 +163,6 @@ end
 arch cwall_3_2
 y 29
 end
-arch check_inv
-slaying dojo
-y 30
-connected 1
-end
 arch dungeon_magic
 y 30
 end
@@ -234,11 +174,6 @@ y 30
 end
 arch cwall_3_2
 y 30
-end
-arch check_inv
-slaying dojo
-y 31
-connected 1
 end
 arch dungeon_magic
 y 31
@@ -252,11 +187,6 @@ end
 arch cwall_3_2
 y 31
 end
-arch check_inv
-slaying dojo
-y 32
-connected 1
-end
 arch dungeon_magic
 y 32
 end
@@ -268,11 +198,6 @@ y 32
 end
 arch cwall_3_2
 y 32
-end
-arch check_inv
-slaying dojo
-y 33
-connected 1
 end
 arch dungeon_magic
 y 33
@@ -286,11 +211,6 @@ end
 arch cwall_3_2
 y 33
 end
-arch check_inv
-slaying dojo
-y 34
-connected 1
-end
 arch dungeon_magic
 y 34
 end
@@ -302,11 +222,6 @@ y 34
 end
 arch cwall_3_2
 y 34
-end
-arch check_inv
-slaying dojo
-y 35
-connected 1
 end
 arch dungeon_magic
 y 35
@@ -320,11 +235,6 @@ end
 arch cwall_3_2
 y 35
 end
-arch check_inv
-slaying dojo
-y 36
-connected 1
-end
 arch dungeon_magic
 y 36
 end
@@ -336,11 +246,6 @@ y 36
 end
 arch cwall_3_2
 y 36
-end
-arch check_inv
-slaying dojo
-y 37
-connected 1
 end
 arch dungeon_magic
 y 37
@@ -354,11 +259,6 @@ end
 arch cwall_3_2
 y 37
 end
-arch check_inv
-slaying dojo
-y 38
-connected 1
-end
 arch dungeon_magic
 y 38
 end
@@ -370,11 +270,6 @@ y 38
 end
 arch cwall_3_2
 y 38
-end
-arch check_inv
-slaying dojo
-y 39
-connected 1
 end
 arch dungeon_magic
 y 39
@@ -388,11 +283,6 @@ end
 arch cwall_3_2
 y 39
 end
-arch check_inv
-slaying dojo
-y 40
-connected 1
-end
 arch dungeon_magic
 y 40
 end
@@ -404,11 +294,6 @@ y 40
 end
 arch cwall_3_2
 y 40
-end
-arch check_inv
-slaying dojo
-y 41
-connected 1
 end
 arch dungeon_magic
 y 41
@@ -422,11 +307,6 @@ end
 arch cwall_3_2
 y 41
 end
-arch check_inv
-slaying dojo
-y 42
-connected 1
-end
 arch dungeon_magic
 y 42
 end
@@ -438,11 +318,6 @@ y 42
 end
 arch cwall_3_2
 y 42
-end
-arch check_inv
-slaying dojo
-y 43
-connected 1
 end
 arch dungeon_magic
 y 43
@@ -456,11 +331,6 @@ end
 arch cwall_3_2
 y 43
 end
-arch check_inv
-slaying dojo
-y 44
-connected 1
-end
 arch dungeon_magic
 y 44
 end
@@ -472,11 +342,6 @@ y 44
 end
 arch cwall_3_2
 y 44
-end
-arch check_inv
-slaying dojo
-y 45
-connected 1
 end
 arch dungeon_magic
 y 45
@@ -490,11 +355,6 @@ end
 arch cwall_3_2
 y 45
 end
-arch check_inv
-slaying dojo
-y 46
-connected 1
-end
 arch dungeon_magic
 y 46
 end
@@ -506,11 +366,6 @@ y 46
 end
 arch cwall_3_2
 y 46
-end
-arch check_inv
-slaying dojo
-y 47
-connected 1
 end
 arch dungeon_magic
 y 47
@@ -524,11 +379,6 @@ end
 arch cwall_3_2
 y 47
 end
-arch check_inv
-slaying dojo
-y 48
-connected 1
-end
 arch dungeon_magic
 y 48
 end
@@ -540,11 +390,6 @@ y 48
 end
 arch cwall_3_2
 y 48
-end
-arch check_inv
-slaying dojo
-y 49
-connected 1
 end
 arch dungeon_magic
 y 49
@@ -558,11 +403,6 @@ end
 arch cwall_3_2
 y 49
 end
-arch check_inv
-slaying dojo
-y 50
-connected 1
-end
 arch dungeon_magic
 y 50
 end
@@ -574,11 +414,6 @@ y 50
 end
 arch cwall_3_2
 y 50
-end
-arch check_inv
-slaying dojo
-y 51
-connected 1
 end
 arch dungeon_magic
 y 51
@@ -592,11 +427,6 @@ end
 arch cwall_3_2
 y 51
 end
-arch check_inv
-slaying dojo
-y 52
-connected 1
-end
 arch dungeon_magic
 y 52
 end
@@ -608,11 +438,6 @@ y 52
 end
 arch cwall_3_2
 y 52
-end
-arch check_inv
-slaying dojo
-y 53
-connected 1
 end
 arch dungeon_magic
 y 53
@@ -626,11 +451,6 @@ end
 arch cwall_3_2
 y 53
 end
-arch check_inv
-slaying dojo
-y 54
-connected 1
-end
 arch dungeon_magic
 y 54
 end
@@ -642,11 +462,6 @@ y 54
 end
 arch cwall_3_2
 y 54
-end
-arch check_inv
-slaying dojo
-y 55
-connected 1
 end
 arch dungeon_magic
 y 55
@@ -660,11 +475,6 @@ end
 arch cwall_3_2
 y 55
 end
-arch check_inv
-slaying dojo
-y 56
-connected 1
-end
 arch dungeon_magic
 y 56
 end
@@ -676,11 +486,6 @@ y 56
 end
 arch cwall_3_2
 y 56
-end
-arch check_inv
-slaying dojo
-y 57
-connected 1
 end
 arch dungeon_magic
 y 57
@@ -694,10 +499,29 @@ end
 arch cwall_3_2
 y 57
 end
-arch check_inv
-slaying dojo
-y 58
-connected 1
+arch dungeon_magic
+y 57
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+y 57
+end
+arch cwall_3_2
+y 57
+end
+arch dungeon_magic
+y 57
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+y 57
+end
+arch cwall_3_2
+y 57
 end
 arch dungeon_magic
 y 58
@@ -711,10 +535,29 @@ end
 arch cwall_3_2
 y 58
 end
-arch check_inv
-slaying dojo
-y 59
-connected 1
+arch dungeon_magic
+y 58
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+y 58
+end
+arch cwall_3_2
+y 58
+end
+arch dungeon_magic
+y 58
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+y 58
+end
+arch cwall_3_2
+y 58
 end
 arch dungeon_magic
 y 59
@@ -728,11 +571,6 @@ end
 arch cwall_3_2
 y 59
 end
-arch check_inv
-slaying dojo
-y 60
-connected 1
-end
 arch dungeon_magic
 y 60
 end
@@ -744,11 +582,6 @@ y 60
 end
 arch cwall_3_2
 y 60
-end
-arch check_inv
-slaying dojo
-y 61
-connected 1
 end
 arch dungeon_magic
 y 61
@@ -762,11 +595,6 @@ end
 arch cwall_3_2
 y 61
 end
-arch check_inv
-slaying dojo
-y 62
-connected 1
-end
 arch dungeon_magic
 y 62
 end
@@ -778,11 +606,6 @@ y 62
 end
 arch cwall_3_2
 y 62
-end
-arch check_inv
-slaying dojo
-y 63
-connected 1
 end
 arch dungeon_magic
 y 63
@@ -852,12 +675,6 @@ arch cave_15
 x 1
 y 5
 end
-arch check_inv
-slaying dojo
-x 1
-y 19
-connected 1
-end
 arch dungeon_magic
 x 1
 y 19
@@ -872,12 +689,6 @@ end
 arch cwall_3_3
 x 1
 y 19
-end
-arch check_inv
-slaying dojo
-x 1
-y 20
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -894,12 +705,6 @@ arch cwall_4
 x 1
 y 20
 end
-arch check_inv
-slaying dojo
-x 1
-y 21
-connected 1
-end
 arch dungeon_magic
 x 1
 y 21
@@ -914,12 +719,6 @@ end
 arch cwall_3_4
 x 1
 y 21
-end
-arch check_inv
-slaying dojo
-x 1
-y 22
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -936,12 +735,6 @@ arch cwall_3_4
 x 1
 y 22
 end
-arch check_inv
-slaying dojo
-x 1
-y 23
-connected 1
-end
 arch dungeon_magic
 x 1
 y 23
@@ -956,12 +749,6 @@ end
 arch cwall_3_4
 x 1
 y 23
-end
-arch check_inv
-slaying dojo
-x 1
-y 24
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -978,12 +765,6 @@ arch cwall_3_4
 x 1
 y 24
 end
-arch check_inv
-slaying dojo
-x 1
-y 25
-connected 1
-end
 arch dungeon_magic
 x 1
 y 25
@@ -998,12 +779,6 @@ end
 arch cwall_3_4
 x 1
 y 25
-end
-arch check_inv
-slaying dojo
-x 1
-y 26
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1020,12 +795,6 @@ arch cwall_3_4
 x 1
 y 26
 end
-arch check_inv
-slaying dojo
-x 1
-y 27
-connected 1
-end
 arch dungeon_magic
 x 1
 y 27
@@ -1040,12 +809,6 @@ end
 arch cwall_3_4
 x 1
 y 27
-end
-arch check_inv
-slaying dojo
-x 1
-y 28
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1062,12 +825,6 @@ arch cwall_3_4
 x 1
 y 28
 end
-arch check_inv
-slaying dojo
-x 1
-y 29
-connected 1
-end
 arch dungeon_magic
 x 1
 y 29
@@ -1082,12 +839,6 @@ end
 arch cwall_3_4
 x 1
 y 29
-end
-arch check_inv
-slaying dojo
-x 1
-y 30
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1104,12 +855,6 @@ arch cwall_3_4
 x 1
 y 30
 end
-arch check_inv
-slaying dojo
-x 1
-y 31
-connected 1
-end
 arch dungeon_magic
 x 1
 y 31
@@ -1124,12 +869,6 @@ end
 arch cwall_3_4
 x 1
 y 31
-end
-arch check_inv
-slaying dojo
-x 1
-y 32
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1146,12 +885,6 @@ arch cwall_3_4
 x 1
 y 32
 end
-arch check_inv
-slaying dojo
-x 1
-y 33
-connected 1
-end
 arch dungeon_magic
 x 1
 y 33
@@ -1166,12 +899,6 @@ end
 arch cwall_3_4
 x 1
 y 33
-end
-arch check_inv
-slaying dojo
-x 1
-y 34
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1188,12 +915,6 @@ arch cwall_3_4
 x 1
 y 34
 end
-arch check_inv
-slaying dojo
-x 1
-y 35
-connected 1
-end
 arch dungeon_magic
 x 1
 y 35
@@ -1208,12 +929,6 @@ end
 arch cwall_3_4
 x 1
 y 35
-end
-arch check_inv
-slaying dojo
-x 1
-y 36
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1230,12 +945,6 @@ arch cwall_3_4
 x 1
 y 36
 end
-arch check_inv
-slaying dojo
-x 1
-y 37
-connected 1
-end
 arch dungeon_magic
 x 1
 y 37
@@ -1250,12 +959,6 @@ end
 arch cwall_3_4
 x 1
 y 37
-end
-arch check_inv
-slaying dojo
-x 1
-y 38
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1272,12 +975,6 @@ arch cwall_3_4
 x 1
 y 38
 end
-arch check_inv
-slaying dojo
-x 1
-y 39
-connected 1
-end
 arch dungeon_magic
 x 1
 y 39
@@ -1292,12 +989,6 @@ end
 arch cwall_3_4
 x 1
 y 39
-end
-arch check_inv
-slaying dojo
-x 1
-y 40
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1314,12 +1005,6 @@ arch cwall_3_4
 x 1
 y 40
 end
-arch check_inv
-slaying dojo
-x 1
-y 41
-connected 1
-end
 arch dungeon_magic
 x 1
 y 41
@@ -1334,12 +1019,6 @@ end
 arch cwall_3_4
 x 1
 y 41
-end
-arch check_inv
-slaying dojo
-x 1
-y 42
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1356,12 +1035,6 @@ arch cwall_3_4
 x 1
 y 42
 end
-arch check_inv
-slaying dojo
-x 1
-y 43
-connected 1
-end
 arch dungeon_magic
 x 1
 y 43
@@ -1376,12 +1049,6 @@ end
 arch cwall_3_4
 x 1
 y 43
-end
-arch check_inv
-slaying dojo
-x 1
-y 44
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1398,12 +1065,6 @@ arch cwall_3_4
 x 1
 y 44
 end
-arch check_inv
-slaying dojo
-x 1
-y 45
-connected 1
-end
 arch dungeon_magic
 x 1
 y 45
@@ -1418,12 +1079,6 @@ end
 arch cwall_3_4
 x 1
 y 45
-end
-arch check_inv
-slaying dojo
-x 1
-y 46
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1440,12 +1095,6 @@ arch cwall_3_4
 x 1
 y 46
 end
-arch check_inv
-slaying dojo
-x 1
-y 47
-connected 1
-end
 arch dungeon_magic
 x 1
 y 47
@@ -1460,12 +1109,6 @@ end
 arch cwall_3_4
 x 1
 y 47
-end
-arch check_inv
-slaying dojo
-x 1
-y 48
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1482,12 +1125,6 @@ arch cwall_3_4
 x 1
 y 48
 end
-arch check_inv
-slaying dojo
-x 1
-y 49
-connected 1
-end
 arch dungeon_magic
 x 1
 y 49
@@ -1502,12 +1139,6 @@ end
 arch cwall_3_4
 x 1
 y 49
-end
-arch check_inv
-slaying dojo
-x 1
-y 50
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1524,12 +1155,6 @@ arch cwall_3_4
 x 1
 y 50
 end
-arch check_inv
-slaying dojo
-x 1
-y 51
-connected 1
-end
 arch dungeon_magic
 x 1
 y 51
@@ -1544,12 +1169,6 @@ end
 arch cwall_3_4
 x 1
 y 51
-end
-arch check_inv
-slaying dojo
-x 1
-y 52
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1566,12 +1185,6 @@ arch cwall_3_4
 x 1
 y 52
 end
-arch check_inv
-slaying dojo
-x 1
-y 53
-connected 1
-end
 arch dungeon_magic
 x 1
 y 53
@@ -1586,12 +1199,6 @@ end
 arch cwall_3_4
 x 1
 y 53
-end
-arch check_inv
-slaying dojo
-x 1
-y 54
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1608,12 +1215,6 @@ arch cwall_3_4
 x 1
 y 54
 end
-arch check_inv
-slaying dojo
-x 1
-y 55
-connected 1
-end
 arch dungeon_magic
 x 1
 y 55
@@ -1628,12 +1229,6 @@ end
 arch cwall_3_4
 x 1
 y 55
-end
-arch check_inv
-slaying dojo
-x 1
-y 56
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1650,12 +1245,6 @@ arch cwall_3_4
 x 1
 y 56
 end
-arch check_inv
-slaying dojo
-x 1
-y 57
-connected 1
-end
 arch dungeon_magic
 x 1
 y 57
@@ -1671,11 +1260,35 @@ arch cwall_3_4
 x 1
 y 57
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 1
-y 58
-connected 1
+y 57
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 1
+y 57
+end
+arch cwall_3_4
+x 1
+y 57
+end
+arch dungeon_magic
+x 1
+y 57
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 1
+y 57
+end
+arch cwall_3_4
+x 1
+y 57
 end
 arch dungeon_magic
 x 1
@@ -1692,11 +1305,35 @@ arch cwall_3_4
 x 1
 y 58
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 1
-y 59
-connected 1
+y 58
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 1
+y 58
+end
+arch cwall_3_4
+x 1
+y 58
+end
+arch dungeon_magic
+x 1
+y 58
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 1
+y 58
+end
+arch cwall_3_4
+x 1
+y 58
 end
 arch dungeon_magic
 x 1
@@ -1713,12 +1350,6 @@ arch cwall_3_4
 x 1
 y 59
 end
-arch check_inv
-slaying dojo
-x 1
-y 60
-connected 1
-end
 arch dungeon_magic
 x 1
 y 60
@@ -1734,12 +1365,6 @@ arch cwall_3_4
 x 1
 y 60
 end
-arch check_inv
-slaying dojo
-x 1
-y 61
-connected 1
-end
 arch dungeon_magic
 x 1
 y 61
@@ -1754,12 +1379,6 @@ end
 arch cwall_3_4
 x 1
 y 61
-end
-arch check_inv
-slaying dojo
-x 1
-y 62
-connected 1
 end
 arch dungeon_magic
 x 1
@@ -1776,12 +1395,6 @@ arch cwall_4
 x 1
 y 62
 end
-arch check_inv
-slaying dojo
-x 1
-y 63
-connected 1
-end
 arch dungeon_magic
 x 1
 y 63
@@ -1853,19 +1466,13 @@ arch cave_15
 x 2
 y 5
 end
-arch check_inv
-slaying dojo
-x 2
-y 19
-connected 1
-end
 arch dungeon_magic
 x 2
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 2
 y 19
@@ -1874,19 +1481,13 @@ arch cwall_3_3
 x 2
 y 19
 end
-arch check_inv
-slaying dojo
-x 2
-y 20
-connected 1
-end
 arch dungeon_magic
 x 2
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 2
 y 20
@@ -2059,19 +1660,13 @@ arch cave_15
 x 2
 y 61
 end
-arch check_inv
-slaying dojo
-x 2
-y 62
-connected 1
-end
 arch dungeon_magic
 x 2
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 2
 y 62
@@ -2080,19 +1675,13 @@ arch cwall_3_3
 x 2
 y 62
 end
-arch check_inv
-slaying dojo
-x 2
-y 63
-connected 1
-end
 arch dungeon_magic
 x 2
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 2
 y 63
@@ -2157,19 +1746,13 @@ arch cave_15
 x 3
 y 5
 end
-arch check_inv
-slaying dojo
-x 3
-y 19
-connected 1
-end
 arch dungeon_magic
 x 3
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 3
 y 19
@@ -2178,19 +1761,13 @@ arch cwall_3_3
 x 3
 y 19
 end
-arch check_inv
-slaying dojo
-x 3
-y 20
-connected 1
-end
 arch dungeon_magic
 x 3
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 3
 y 20
@@ -2363,19 +1940,13 @@ arch cave_15
 x 3
 y 61
 end
-arch check_inv
-slaying dojo
-x 3
-y 62
-connected 1
-end
 arch dungeon_magic
 x 3
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 3
 y 62
@@ -2384,19 +1955,13 @@ arch cwall_3_3
 x 3
 y 62
 end
-arch check_inv
-slaying dojo
-x 3
-y 63
-connected 1
-end
 arch dungeon_magic
 x 3
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 3
 y 63
@@ -2428,19 +1993,13 @@ arch cave_15
 x 4
 y 5
 end
-arch check_inv
-slaying dojo
-x 4
-y 19
-connected 1
-end
 arch dungeon_magic
 x 4
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 4
 y 19
@@ -2449,19 +2008,13 @@ arch cwall_3_3
 x 4
 y 19
 end
-arch check_inv
-slaying dojo
-x 4
-y 20
-connected 1
-end
 arch dungeon_magic
 x 4
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 4
 y 20
@@ -2634,19 +2187,13 @@ arch cave_15
 x 4
 y 61
 end
-arch check_inv
-slaying dojo
-x 4
-y 62
-connected 1
-end
 arch dungeon_magic
 x 4
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 4
 y 62
@@ -2655,19 +2202,13 @@ arch cwall_3_3
 x 4
 y 62
 end
-arch check_inv
-slaying dojo
-x 4
-y 63
-connected 1
-end
 arch dungeon_magic
 x 4
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 4
 y 63
@@ -2699,19 +2240,13 @@ arch cave_15
 x 5
 y 5
 end
-arch check_inv
-slaying dojo
-x 5
-y 19
-connected 1
-end
 arch dungeon_magic
 x 5
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 5
 y 19
@@ -2720,19 +2255,13 @@ arch cwall_3_3
 x 5
 y 19
 end
-arch check_inv
-slaying dojo
-x 5
-y 20
-connected 1
-end
 arch dungeon_magic
 x 5
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 5
 y 20
@@ -2905,19 +2434,13 @@ arch cave_15
 x 5
 y 61
 end
-arch check_inv
-slaying dojo
-x 5
-y 62
-connected 1
-end
 arch dungeon_magic
 x 5
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 5
 y 62
@@ -2926,19 +2449,13 @@ arch cwall_3_3
 x 5
 y 62
 end
-arch check_inv
-slaying dojo
-x 5
-y 63
-connected 1
-end
 arch dungeon_magic
 x 5
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 5
 y 63
@@ -2947,19 +2464,13 @@ arch cwall_3_1
 x 5
 y 63
 end
-arch check_inv
-slaying dojo
-x 6
-y 19
-connected 1
-end
 arch dungeon_magic
 x 6
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 6
 y 19
@@ -2968,19 +2479,13 @@ arch cwall_3_3
 x 6
 y 19
 end
-arch check_inv
-slaying dojo
-x 6
-y 20
-connected 1
-end
 arch dungeon_magic
 x 6
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 6
 y 20
@@ -3153,19 +2658,13 @@ arch cave_15
 x 6
 y 61
 end
-arch check_inv
-slaying dojo
-x 6
-y 62
-connected 1
-end
 arch dungeon_magic
 x 6
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 6
 y 62
@@ -3174,19 +2673,13 @@ arch cwall_3_3
 x 6
 y 62
 end
-arch check_inv
-slaying dojo
-x 6
-y 63
-connected 1
-end
 arch dungeon_magic
 x 6
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 6
 y 63
@@ -3195,19 +2688,13 @@ arch cwall_3_1
 x 6
 y 63
 end
-arch check_inv
-slaying dojo
-x 7
-y 19
-connected 1
-end
 arch dungeon_magic
 x 7
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 7
 y 19
@@ -3216,19 +2703,13 @@ arch cwall_3_3
 x 7
 y 19
 end
-arch check_inv
-slaying dojo
-x 7
-y 20
-connected 1
-end
 arch dungeon_magic
 x 7
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 7
 y 20
@@ -3401,19 +2882,13 @@ arch cave_15
 x 7
 y 61
 end
-arch check_inv
-slaying dojo
-x 7
-y 62
-connected 1
-end
 arch dungeon_magic
 x 7
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 7
 y 62
@@ -3422,19 +2897,13 @@ arch cwall_3_3
 x 7
 y 62
 end
-arch check_inv
-slaying dojo
-x 7
-y 63
-connected 1
-end
 arch dungeon_magic
 x 7
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 7
 y 63
@@ -3443,19 +2912,13 @@ arch cwall_3_1
 x 7
 y 63
 end
-arch check_inv
-slaying dojo
-x 8
-y 19
-connected 1
-end
 arch dungeon_magic
 x 8
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 8
 y 19
@@ -3464,19 +2927,13 @@ arch cwall_3_3
 x 8
 y 19
 end
-arch check_inv
-slaying dojo
-x 8
-y 20
-connected 1
-end
 arch dungeon_magic
 x 8
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 8
 y 20
@@ -3649,19 +3106,13 @@ arch cave_15
 x 8
 y 61
 end
-arch check_inv
-slaying dojo
-x 8
-y 62
-connected 1
-end
 arch dungeon_magic
 x 8
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 8
 y 62
@@ -3670,19 +3121,13 @@ arch cwall_3_3
 x 8
 y 62
 end
-arch check_inv
-slaying dojo
-x 8
-y 63
-connected 1
-end
 arch dungeon_magic
 x 8
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 8
 y 63
@@ -3691,19 +3136,13 @@ arch cwall_3_1
 x 8
 y 63
 end
-arch check_inv
-slaying dojo
-x 9
-y 19
-connected 1
-end
 arch dungeon_magic
 x 9
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 9
 y 19
@@ -3712,19 +3151,13 @@ arch cwall_3_3
 x 9
 y 19
 end
-arch check_inv
-slaying dojo
-x 9
-y 20
-connected 1
-end
 arch dungeon_magic
 x 9
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 9
 y 20
@@ -3897,19 +3330,13 @@ arch cave_15
 x 9
 y 61
 end
-arch check_inv
-slaying dojo
-x 9
-y 62
-connected 1
-end
 arch dungeon_magic
 x 9
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 9
 y 62
@@ -3918,19 +3345,13 @@ arch cwall_3_3
 x 9
 y 62
 end
-arch check_inv
-slaying dojo
-x 9
-y 63
-connected 1
-end
 arch dungeon_magic
 x 9
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 9
 y 63
@@ -3962,19 +3383,13 @@ arch cave_15
 x 10
 y 5
 end
-arch check_inv
-slaying dojo
-x 10
-y 19
-connected 1
-end
 arch dungeon_magic
 x 10
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 10
 y 19
@@ -3983,19 +3398,13 @@ arch cwall_3_3
 x 10
 y 19
 end
-arch check_inv
-slaying dojo
-x 10
-y 20
-connected 1
-end
 arch dungeon_magic
 x 10
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 10
 y 20
@@ -4168,19 +3577,13 @@ arch cave_15
 x 10
 y 61
 end
-arch check_inv
-slaying dojo
-x 10
-y 62
-connected 1
-end
 arch dungeon_magic
 x 10
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 10
 y 62
@@ -4189,19 +3592,13 @@ arch cwall_3_3
 x 10
 y 62
 end
-arch check_inv
-slaying dojo
-x 10
-y 63
-connected 1
-end
 arch dungeon_magic
 x 10
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 10
 y 63
@@ -4233,19 +3630,13 @@ arch cave_15
 x 11
 y 5
 end
-arch check_inv
-slaying dojo
-x 11
-y 19
-connected 1
-end
 arch dungeon_magic
 x 11
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 11
 y 19
@@ -4254,19 +3645,13 @@ arch cwall_3_3
 x 11
 y 19
 end
-arch check_inv
-slaying dojo
-x 11
-y 20
-connected 1
-end
 arch dungeon_magic
 x 11
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 11
 y 20
@@ -4439,19 +3824,13 @@ arch cave_15
 x 11
 y 61
 end
-arch check_inv
-slaying dojo
-x 11
-y 62
-connected 1
-end
 arch dungeon_magic
 x 11
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 11
 y 62
@@ -4460,19 +3839,13 @@ arch cwall_3_3
 x 11
 y 62
 end
-arch check_inv
-slaying dojo
-x 11
-y 63
-connected 1
-end
 arch dungeon_magic
 x 11
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 11
 y 63
@@ -4537,19 +3910,13 @@ arch cave_15
 x 12
 y 5
 end
-arch check_inv
-slaying dojo
-x 12
-y 19
-connected 1
-end
 arch dungeon_magic
 x 12
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 12
 y 19
@@ -4558,19 +3925,13 @@ arch cwall_3_3
 x 12
 y 19
 end
-arch check_inv
-slaying dojo
-x 12
-y 20
-connected 1
-end
 arch dungeon_magic
 x 12
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 12
 y 20
@@ -4743,19 +4104,13 @@ arch cave_15
 x 12
 y 61
 end
-arch check_inv
-slaying dojo
-x 12
-y 62
-connected 1
-end
 arch dungeon_magic
 x 12
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 12
 y 62
@@ -4764,19 +4119,13 @@ arch cwall_3_3
 x 12
 y 62
 end
-arch check_inv
-slaying dojo
-x 12
-y 63
-connected 1
-end
 arch dungeon_magic
 x 12
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 12
 y 63
@@ -4841,19 +4190,13 @@ arch cave_15
 x 13
 y 5
 end
-arch check_inv
-slaying dojo
-x 13
-y 19
-connected 1
-end
 arch dungeon_magic
 x 13
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 13
 y 19
@@ -4862,19 +4205,13 @@ arch cwall_3_3
 x 13
 y 19
 end
-arch check_inv
-slaying dojo
-x 13
-y 20
-connected 1
-end
 arch dungeon_magic
 x 13
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 13
 y 20
@@ -5047,19 +4384,13 @@ arch cave_15
 x 13
 y 61
 end
-arch check_inv
-slaying dojo
-x 13
-y 62
-connected 1
-end
 arch dungeon_magic
 x 13
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 13
 y 62
@@ -5068,19 +4399,13 @@ arch cwall_3_3
 x 13
 y 62
 end
-arch check_inv
-slaying dojo
-x 13
-y 63
-connected 1
-end
 arch dungeon_magic
 x 13
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 13
 y 63
@@ -5145,19 +4470,13 @@ arch cave_15
 x 14
 y 5
 end
-arch check_inv
-slaying dojo
-x 14
-y 19
-connected 1
-end
 arch dungeon_magic
 x 14
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 14
 y 19
@@ -5166,19 +4485,13 @@ arch cwall_3_3
 x 14
 y 19
 end
-arch check_inv
-slaying dojo
-x 14
-y 20
-connected 1
-end
 arch dungeon_magic
 x 14
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 14
 y 20
@@ -5351,19 +4664,13 @@ arch cave_15
 x 14
 y 61
 end
-arch check_inv
-slaying dojo
-x 14
-y 62
-connected 1
-end
 arch dungeon_magic
 x 14
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 14
 y 62
@@ -5372,19 +4679,13 @@ arch cwall_3_3
 x 14
 y 62
 end
-arch check_inv
-slaying dojo
-x 14
-y 63
-connected 1
-end
 arch dungeon_magic
 x 14
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 14
 y 63
@@ -5416,19 +4717,13 @@ arch cave_15
 x 15
 y 5
 end
-arch check_inv
-slaying dojo
-x 15
-y 19
-connected 1
-end
 arch dungeon_magic
 x 15
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 15
 y 19
@@ -5437,19 +4732,13 @@ arch cwall_3_3
 x 15
 y 19
 end
-arch check_inv
-slaying dojo
-x 15
-y 20
-connected 1
-end
 arch dungeon_magic
 x 15
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 15
 y 20
@@ -5622,19 +4911,13 @@ arch cave_15
 x 15
 y 61
 end
-arch check_inv
-slaying dojo
-x 15
-y 62
-connected 1
-end
 arch dungeon_magic
 x 15
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 15
 y 62
@@ -5643,19 +4926,13 @@ arch cwall_3_3
 x 15
 y 62
 end
-arch check_inv
-slaying dojo
-x 15
-y 63
-connected 1
-end
 arch dungeon_magic
 x 15
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 15
 y 63
@@ -5687,19 +4964,13 @@ arch cave_15
 x 16
 y 5
 end
-arch check_inv
-slaying dojo
-x 16
-y 19
-connected 1
-end
 arch dungeon_magic
 x 16
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 16
 y 19
@@ -5708,19 +4979,13 @@ arch cwall_3_3
 x 16
 y 19
 end
-arch check_inv
-slaying dojo
-x 16
-y 20
-connected 1
-end
 arch dungeon_magic
 x 16
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 16
 y 20
@@ -5893,19 +5158,13 @@ arch cave_15
 x 16
 y 61
 end
-arch check_inv
-slaying dojo
-x 16
-y 62
-connected 1
-end
 arch dungeon_magic
 x 16
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 16
 y 62
@@ -5914,19 +5173,13 @@ arch cwall_3_3
 x 16
 y 62
 end
-arch check_inv
-slaying dojo
-x 16
-y 63
-connected 1
-end
 arch dungeon_magic
 x 16
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 16
 y 63
@@ -5935,19 +5188,13 @@ arch cwall_3_1
 x 16
 y 63
 end
-arch check_inv
-slaying dojo
-x 17
-y 19
-connected 1
-end
 arch dungeon_magic
 x 17
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 17
 y 19
@@ -5956,19 +5203,13 @@ arch cwall_3_3
 x 17
 y 19
 end
-arch check_inv
-slaying dojo
-x 17
-y 20
-connected 1
-end
 arch dungeon_magic
 x 17
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 17
 y 20
@@ -6247,23 +5488,13 @@ arch cave_15
 x 17
 y 61
 end
-arch magic_banned
-x 17
-y 62
-end
-arch check_inv
-slaying dojo
-x 17
-y 62
-connected 1
-end
 arch dungeon_magic
 x 17
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 17
 y 62
@@ -6272,23 +5503,13 @@ arch cwall_3_3
 x 17
 y 62
 end
-arch magic_banned
-x 17
-y 63
-end
-arch check_inv
-slaying dojo
-x 17
-y 63
-connected 1
-end
 arch dungeon_magic
 x 17
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 17
 y 63
@@ -6296,12 +5517,6 @@ end
 arch cwall_3_1
 x 17
 y 63
-end
-arch check_inv
-slaying dojo
-x 18
-y 19
-connected 1
 end
 arch dungeon_magic
 x 18
@@ -6309,7 +5524,7 @@ y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 18
 y 19
@@ -6318,19 +5533,13 @@ arch cwall_3_3
 x 18
 y 19
 end
-arch check_inv
-slaying dojo
-x 18
-y 20
-connected 1
-end
 arch dungeon_magic
 x 18
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 18
 y 20
@@ -6639,23 +5848,13 @@ arch cave_15
 x 18
 y 61
 end
-arch magic_banned
-x 18
-y 62
-end
-arch check_inv
-slaying dojo
-x 18
-y 62
-connected 1
-end
 arch dungeon_magic
 x 18
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 18
 y 62
@@ -6664,23 +5863,13 @@ arch cwall_3_3
 x 18
 y 62
 end
-arch magic_banned
-x 18
-y 63
-end
-arch check_inv
-slaying dojo
-x 18
-y 63
-connected 1
-end
 arch dungeon_magic
 x 18
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 18
 y 63
@@ -6689,19 +5878,13 @@ arch cwall_3_1
 x 18
 y 63
 end
-arch check_inv
-slaying dojo
-x 19
-y 19
-connected 1
-end
 arch dungeon_magic
 x 19
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 19
 y 19
@@ -6710,19 +5893,13 @@ arch cwall_3_3
 x 19
 y 19
 end
-arch check_inv
-slaying dojo
-x 19
-y 20
-connected 1
-end
 arch dungeon_magic
 x 19
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 19
 y 20
@@ -7019,23 +6196,13 @@ arch cave_15
 x 19
 y 61
 end
-arch magic_banned
-x 19
-y 62
-end
-arch check_inv
-slaying dojo
-x 19
-y 62
-connected 1
-end
 arch dungeon_magic
 x 19
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 19
 y 62
@@ -7044,23 +6211,13 @@ arch cwall_3_3
 x 19
 y 62
 end
-arch magic_banned
-x 19
-y 63
-end
-arch check_inv
-slaying dojo
-x 19
-y 63
-connected 1
-end
 arch dungeon_magic
 x 19
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 19
 y 63
@@ -7069,19 +6226,13 @@ arch cwall_3_1
 x 19
 y 63
 end
-arch check_inv
-slaying dojo
-x 20
-y 19
-connected 1
-end
 arch dungeon_magic
 x 20
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 20
 y 19
@@ -7090,19 +6241,13 @@ arch cwall_3_3
 x 20
 y 19
 end
-arch check_inv
-slaying dojo
-x 20
-y 20
-connected 1
-end
 arch dungeon_magic
 x 20
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 20
 y 20
@@ -7387,23 +6532,13 @@ arch cave_15
 x 20
 y 61
 end
-arch magic_banned
-x 20
-y 62
-end
-arch check_inv
-slaying dojo
-x 20
-y 62
-connected 1
-end
 arch dungeon_magic
 x 20
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 20
 y 62
@@ -7412,23 +6547,13 @@ arch cwall_3_3
 x 20
 y 62
 end
-arch magic_banned
-x 20
-y 63
-end
-arch check_inv
-slaying dojo
-x 20
-y 63
-connected 1
-end
 arch dungeon_magic
 x 20
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 20
 y 63
@@ -7437,19 +6562,13 @@ arch cwall_3_1
 x 20
 y 63
 end
-arch check_inv
-slaying dojo
-x 21
-y 19
-connected 1
-end
 arch dungeon_magic
 x 21
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 21
 y 19
@@ -7458,19 +6577,13 @@ arch cwall_3_3
 x 21
 y 19
 end
-arch check_inv
-slaying dojo
-x 21
-y 20
-connected 1
-end
 arch dungeon_magic
 x 21
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 21
 y 20
@@ -7773,23 +6886,13 @@ arch cave_15
 x 21
 y 61
 end
-arch magic_banned
-x 21
-y 62
-end
-arch check_inv
-slaying dojo
-x 21
-y 62
-connected 1
-end
 arch dungeon_magic
 x 21
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 21
 y 62
@@ -7798,23 +6901,13 @@ arch cwall_3_3
 x 21
 y 62
 end
-arch magic_banned
-x 21
-y 63
-end
-arch check_inv
-slaying dojo
-x 21
-y 63
-connected 1
-end
 arch dungeon_magic
 x 21
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 21
 y 63
@@ -7823,19 +6916,13 @@ arch cwall_3_1
 x 21
 y 63
 end
-arch check_inv
-slaying dojo
-x 22
-y 19
-connected 1
-end
 arch dungeon_magic
 x 22
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 22
 y 19
@@ -7844,19 +6931,13 @@ arch cwall_3_3
 x 22
 y 19
 end
-arch check_inv
-slaying dojo
-x 22
-y 20
-connected 1
-end
 arch dungeon_magic
 x 22
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 22
 y 20
@@ -8359,16 +7440,6 @@ arch cave_15
 x 22
 y 61
 end
-arch magic_banned
-x 22
-y 62
-end
-arch check_inv
-slaying dojo
-x 22
-y 62
-connected 1
-end
 arch dungeon_magic
 x 22
 y 62
@@ -8383,16 +7454,6 @@ end
 arch cwall_3_3
 x 22
 y 62
-end
-arch magic_banned
-x 22
-y 63
-end
-arch check_inv
-slaying dojo
-x 22
-y 63
-connected 1
 end
 arch dungeon_magic
 x 22
@@ -8409,19 +7470,13 @@ arch cwall_3_1
 x 22
 y 63
 end
-arch check_inv
-slaying dojo
-x 23
-y 19
-connected 1
-end
 arch dungeon_magic
 x 23
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 23
 y 19
@@ -8430,19 +7485,13 @@ arch cwall_3_3
 x 23
 y 19
 end
-arch check_inv
-slaying dojo
-x 23
-y 20
-connected 1
-end
 arch dungeon_magic
 x 23
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 23
 y 20
@@ -8956,16 +8005,6 @@ arch cave_15
 x 23
 y 61
 end
-arch magic_banned
-x 23
-y 62
-end
-arch check_inv
-slaying dojo
-x 23
-y 62
-connected 1
-end
 arch dungeon_magic
 x 23
 y 62
@@ -8980,16 +8019,6 @@ end
 arch cwall_3_3
 x 23
 y 62
-end
-arch magic_banned
-x 23
-y 63
-end
-arch check_inv
-slaying dojo
-x 23
-y 63
-connected 1
 end
 arch dungeon_magic
 x 23
@@ -9006,19 +8035,13 @@ arch cwall_3_1
 x 23
 y 63
 end
-arch check_inv
-slaying dojo
-x 24
-y 19
-connected 1
-end
 arch dungeon_magic
 x 24
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 24
 y 19
@@ -9027,19 +8050,13 @@ arch cwall_3_3
 x 24
 y 19
 end
-arch check_inv
-slaying dojo
-x 24
-y 20
-connected 1
-end
 arch dungeon_magic
 x 24
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 24
 y 20
@@ -9571,16 +8588,6 @@ arch cave_15
 x 24
 y 61
 end
-arch magic_banned
-x 24
-y 62
-end
-arch check_inv
-slaying dojo
-x 24
-y 62
-connected 1
-end
 arch dungeon_magic
 x 24
 y 62
@@ -9595,16 +8602,6 @@ end
 arch cwall_3_3
 x 24
 y 62
-end
-arch magic_banned
-x 24
-y 63
-end
-arch check_inv
-slaying dojo
-x 24
-y 63
-connected 1
 end
 arch dungeon_magic
 x 24
@@ -9621,19 +8618,13 @@ arch cwall_3_1
 x 24
 y 63
 end
-arch check_inv
-slaying dojo
-x 25
-y 19
-connected 1
-end
 arch dungeon_magic
 x 25
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 25
 y 19
@@ -9642,19 +8633,13 @@ arch cwall_3_3
 x 25
 y 19
 end
-arch check_inv
-slaying dojo
-x 25
-y 20
-connected 1
-end
 arch dungeon_magic
 x 25
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 25
 y 20
@@ -10210,16 +9195,6 @@ arch cave_15
 x 25
 y 61
 end
-arch magic_banned
-x 25
-y 62
-end
-arch check_inv
-slaying dojo
-x 25
-y 62
-connected 1
-end
 arch dungeon_magic
 x 25
 y 62
@@ -10234,16 +9209,6 @@ end
 arch cwall_3_3
 x 25
 y 62
-end
-arch magic_banned
-x 25
-y 63
-end
-arch check_inv
-slaying dojo
-x 25
-y 63
-connected 1
 end
 arch dungeon_magic
 x 25
@@ -10260,19 +9225,13 @@ arch cwall_3_1
 x 25
 y 63
 end
-arch check_inv
-slaying dojo
-x 26
-y 19
-connected 1
-end
 arch dungeon_magic
 x 26
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 26
 y 19
@@ -10281,19 +9240,13 @@ arch cwall_3_3
 x 26
 y 19
 end
-arch check_inv
-slaying dojo
-x 26
-y 20
-connected 1
-end
 arch dungeon_magic
 x 26
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 26
 y 20
@@ -10931,16 +9884,6 @@ arch cave_15
 x 26
 y 61
 end
-arch magic_banned
-x 26
-y 62
-end
-arch check_inv
-slaying dojo
-x 26
-y 62
-connected 1
-end
 arch dungeon_magic
 x 26
 y 62
@@ -10955,16 +9898,6 @@ end
 arch cwall_3_3
 x 26
 y 62
-end
-arch magic_banned
-x 26
-y 63
-end
-arch check_inv
-slaying dojo
-x 26
-y 63
-connected 1
 end
 arch dungeon_magic
 x 26
@@ -10981,19 +9914,13 @@ arch cwall_3_1
 x 26
 y 63
 end
-arch check_inv
-slaying dojo
-x 27
-y 19
-connected 1
-end
 arch dungeon_magic
 x 27
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 27
 y 19
@@ -11002,19 +9929,13 @@ arch cwall_3_3
 x 27
 y 19
 end
-arch check_inv
-slaying dojo
-x 27
-y 20
-connected 1
-end
 arch dungeon_magic
 x 27
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 27
 y 20
@@ -11663,16 +10584,6 @@ arch cave_15
 x 27
 y 61
 end
-arch magic_banned
-x 27
-y 62
-end
-arch check_inv
-slaying dojo
-x 27
-y 62
-connected 1
-end
 arch dungeon_magic
 x 27
 y 62
@@ -11687,16 +10598,6 @@ end
 arch cwall_3_3
 x 27
 y 62
-end
-arch magic_banned
-x 27
-y 63
-end
-arch check_inv
-slaying dojo
-x 27
-y 63
-connected 1
 end
 arch dungeon_magic
 x 27
@@ -11713,19 +10614,13 @@ arch cwall_3_1
 x 27
 y 63
 end
-arch check_inv
-slaying dojo
-x 28
-y 19
-connected 1
-end
 arch dungeon_magic
 x 28
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 28
 y 19
@@ -11734,19 +10629,13 @@ arch cwall_3_3
 x 28
 y 19
 end
-arch check_inv
-slaying dojo
-x 28
-y 20
-connected 1
-end
 arch dungeon_magic
 x 28
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 28
 y 20
@@ -12391,16 +11280,6 @@ arch cave_15
 x 28
 y 61
 end
-arch magic_banned
-x 28
-y 62
-end
-arch check_inv
-slaying dojo
-x 28
-y 62
-connected 1
-end
 arch dungeon_magic
 x 28
 y 62
@@ -12415,16 +11294,6 @@ end
 arch cwall_3_3
 x 28
 y 62
-end
-arch magic_banned
-x 28
-y 63
-end
-arch check_inv
-slaying dojo
-x 28
-y 63
-connected 1
 end
 arch dungeon_magic
 x 28
@@ -12441,19 +11310,13 @@ arch cwall_3_1
 x 28
 y 63
 end
-arch check_inv
-slaying dojo
-x 29
-y 19
-connected 1
-end
 arch dungeon_magic
 x 29
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 29
 y 19
@@ -12462,19 +11325,13 @@ arch cwall_3_3
 x 29
 y 19
 end
-arch check_inv
-slaying dojo
-x 29
-y 20
-connected 1
-end
 arch dungeon_magic
 x 29
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 29
 y 20
@@ -13125,16 +11982,6 @@ arch cave_15
 x 29
 y 61
 end
-arch magic_banned
-x 29
-y 62
-end
-arch check_inv
-slaying dojo
-x 29
-y 62
-connected 1
-end
 arch dungeon_magic
 x 29
 y 62
@@ -13149,16 +11996,6 @@ end
 arch cwall_3_3
 x 29
 y 62
-end
-arch magic_banned
-x 29
-y 63
-end
-arch check_inv
-slaying dojo
-x 29
-y 63
-connected 1
 end
 arch dungeon_magic
 x 29
@@ -13175,19 +12012,13 @@ arch cwall_3_1
 x 29
 y 63
 end
-arch check_inv
-slaying dojo
-x 30
-y 19
-connected 1
-end
 arch dungeon_magic
 x 30
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 30
 y 19
@@ -13196,19 +12027,13 @@ arch cwall_3_3
 x 30
 y 19
 end
-arch check_inv
-slaying dojo
-x 30
-y 20
-connected 1
-end
 arch dungeon_magic
 x 30
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 30
 y 20
@@ -13862,16 +12687,6 @@ arch cave_15
 x 30
 y 61
 end
-arch magic_banned
-x 30
-y 62
-end
-arch check_inv
-slaying dojo
-x 30
-y 62
-connected 1
-end
 arch dungeon_magic
 x 30
 y 62
@@ -13886,16 +12701,6 @@ end
 arch cwall_3_3
 x 30
 y 62
-end
-arch magic_banned
-x 30
-y 63
-end
-arch check_inv
-slaying dojo
-x 30
-y 63
-connected 1
 end
 arch dungeon_magic
 x 30
@@ -13912,19 +12717,13 @@ arch cwall_3_1
 x 30
 y 63
 end
-arch check_inv
-slaying dojo
-x 31
-y 19
-connected 1
-end
 arch dungeon_magic
 x 31
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 31
 y 19
@@ -13933,19 +12732,13 @@ arch cwall_3_3
 x 31
 y 19
 end
-arch check_inv
-slaying dojo
-x 31
-y 20
-connected 1
-end
 arch dungeon_magic
 x 31
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 31
 y 20
@@ -14567,16 +13360,6 @@ arch cave_15
 x 31
 y 61
 end
-arch magic_banned
-x 31
-y 62
-end
-arch check_inv
-slaying dojo
-x 31
-y 62
-connected 1
-end
 arch dungeon_magic
 x 31
 y 62
@@ -14591,16 +13374,6 @@ end
 arch cwall_3_3
 x 31
 y 62
-end
-arch magic_banned
-x 31
-y 63
-end
-arch check_inv
-slaying dojo
-x 31
-y 63
-connected 1
 end
 arch dungeon_magic
 x 31
@@ -14617,19 +13390,13 @@ arch cwall_3_1
 x 31
 y 63
 end
-arch check_inv
-slaying dojo
-x 32
-y 19
-connected 1
-end
 arch dungeon_magic
 x 32
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 32
 y 19
@@ -14638,19 +13405,13 @@ arch cwall_3_3
 x 32
 y 19
 end
-arch check_inv
-slaying dojo
-x 32
-y 20
-connected 1
-end
 arch dungeon_magic
 x 32
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 32
 y 20
@@ -15185,16 +13946,6 @@ arch cave_15
 x 32
 y 61
 end
-arch magic_banned
-x 32
-y 62
-end
-arch check_inv
-slaying dojo
-x 32
-y 62
-connected 1
-end
 arch dungeon_magic
 x 32
 y 62
@@ -15209,16 +13960,6 @@ end
 arch cwall_3_3
 x 32
 y 62
-end
-arch magic_banned
-x 32
-y 63
-end
-arch check_inv
-slaying dojo
-x 32
-y 63
-connected 1
 end
 arch dungeon_magic
 x 32
@@ -15235,19 +13976,13 @@ arch cwall_3_1
 x 32
 y 63
 end
-arch check_inv
-slaying dojo
-x 33
-y 19
-connected 1
-end
 arch dungeon_magic
 x 33
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 33
 y 19
@@ -15256,19 +13991,13 @@ arch cwall_3_3
 x 33
 y 19
 end
-arch check_inv
-slaying dojo
-x 33
-y 20
-connected 1
-end
 arch dungeon_magic
 x 33
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 33
 y 20
@@ -15800,16 +14529,6 @@ arch cave_15
 x 33
 y 61
 end
-arch magic_banned
-x 33
-y 62
-end
-arch check_inv
-slaying dojo
-x 33
-y 62
-connected 1
-end
 arch dungeon_magic
 x 33
 y 62
@@ -15824,16 +14543,6 @@ end
 arch cwall_3_3
 x 33
 y 62
-end
-arch magic_banned
-x 33
-y 63
-end
-arch check_inv
-slaying dojo
-x 33
-y 63
-connected 1
 end
 arch dungeon_magic
 x 33
@@ -15850,19 +14559,13 @@ arch cwall_3_1
 x 33
 y 63
 end
-arch check_inv
-slaying dojo
-x 34
-y 19
-connected 1
-end
 arch dungeon_magic
 x 34
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 34
 y 19
@@ -15871,19 +14574,13 @@ arch cwall_3_3
 x 34
 y 19
 end
-arch check_inv
-slaying dojo
-x 34
-y 20
-connected 1
-end
 arch dungeon_magic
 x 34
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 34
 y 20
@@ -16389,16 +15086,6 @@ arch cave_15
 x 34
 y 60
 end
-arch magic_banned
-x 34
-y 61
-end
-arch check_inv
-slaying dojo
-x 34
-y 61
-connected 1
-end
 arch dungeon_magic
 x 34
 y 61
@@ -16413,16 +15100,6 @@ end
 arch cwall_3_2
 x 34
 y 61
-end
-arch magic_banned
-x 34
-y 62
-end
-arch check_inv
-slaying dojo
-x 34
-y 62
-connected 1
 end
 arch dungeon_magic
 x 34
@@ -16439,16 +15116,6 @@ arch cwall_4
 x 34
 y 62
 end
-arch magic_banned
-x 34
-y 63
-end
-arch check_inv
-slaying dojo
-x 34
-y 63
-connected 1
-end
 arch dungeon_magic
 x 34
 y 63
@@ -16464,19 +15131,13 @@ arch cwall_3_1
 x 34
 y 63
 end
-arch check_inv
-slaying dojo
-x 35
-y 19
-connected 1
-end
 arch dungeon_magic
 x 35
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 35
 y 19
@@ -16485,19 +15146,13 @@ arch cwall_3_3
 x 35
 y 19
 end
-arch check_inv
-slaying dojo
-x 35
-y 20
-connected 1
-end
 arch dungeon_magic
 x 35
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 35
 y 20
@@ -17001,16 +15656,6 @@ arch cave_15
 x 35
 y 60
 end
-arch magic_banned
-x 35
-y 61
-end
-arch check_inv
-slaying dojo
-x 35
-y 61
-connected 1
-end
 arch dungeon_magic
 x 35
 y 61
@@ -17026,16 +15671,6 @@ arch cwall_3_4
 x 35
 y 61
 end
-arch magic_banned
-x 35
-y 62
-end
-arch check_inv
-slaying dojo
-x 35
-y 62
-connected 1
-end
 arch dungeon_magic
 x 35
 y 62
@@ -17050,16 +15685,6 @@ end
 arch cwall_3_4
 x 35
 y 62
-end
-arch magic_banned
-x 35
-y 63
-end
-arch check_inv
-slaying dojo
-x 35
-y 63
-connected 1
 end
 arch dungeon_magic
 x 35
@@ -17076,19 +15701,13 @@ arch cwall_2_2_4
 x 35
 y 63
 end
-arch check_inv
-slaying dojo
-x 36
-y 19
-connected 1
-end
 arch dungeon_magic
 x 36
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 36
 y 19
@@ -17097,19 +15716,13 @@ arch cwall_3_3
 x 36
 y 19
 end
-arch check_inv
-slaying dojo
-x 36
-y 20
-connected 1
-end
 arch dungeon_magic
 x 36
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 36
 y 20
@@ -17636,19 +16249,13 @@ arch cave_15
 x 36
 y 63
 end
-arch check_inv
-slaying dojo
-x 37
-y 19
-connected 1
-end
 arch dungeon_magic
 x 37
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 37
 y 19
@@ -17657,19 +16264,13 @@ arch cwall_3_3
 x 37
 y 19
 end
-arch check_inv
-slaying dojo
-x 37
-y 20
-connected 1
-end
 arch dungeon_magic
 x 37
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 37
 y 20
@@ -18194,19 +16795,13 @@ arch cave_15
 x 37
 y 63
 end
-arch check_inv
-slaying dojo
-x 38
-y 19
-connected 1
-end
 arch dungeon_magic
 x 38
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 38
 y 19
@@ -18215,19 +16810,13 @@ arch cwall_3_3
 x 38
 y 19
 end
-arch check_inv
-slaying dojo
-x 38
-y 20
-connected 1
-end
 arch dungeon_magic
 x 38
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 38
 y 20
@@ -18758,19 +17347,13 @@ arch cave_15
 x 38
 y 63
 end
-arch check_inv
-slaying dojo
-x 39
-y 19
-connected 1
-end
 arch dungeon_magic
 x 39
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 39
 y 19
@@ -18779,19 +17362,13 @@ arch cwall_3_3
 x 39
 y 19
 end
-arch check_inv
-slaying dojo
-x 39
-y 20
-connected 1
-end
 arch dungeon_magic
 x 39
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 39
 y 20
@@ -19308,19 +17885,13 @@ arch cave_15
 x 39
 y 63
 end
-arch check_inv
-slaying dojo
-x 40
-y 19
-connected 1
-end
 arch dungeon_magic
 x 40
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 40
 y 19
@@ -19329,19 +17900,13 @@ arch cwall_3_3
 x 40
 y 19
 end
-arch check_inv
-slaying dojo
-x 40
-y 20
-connected 1
-end
 arch dungeon_magic
 x 40
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 40
 y 20
@@ -19851,16 +18416,6 @@ arch cave_15
 x 40
 y 60
 end
-arch magic_banned
-x 40
-y 61
-end
-arch check_inv
-slaying dojo
-x 40
-y 61
-connected 1
-end
 arch dungeon_magic
 x 40
 y 61
@@ -19876,16 +18431,6 @@ arch cwall_3_2
 x 40
 y 61
 end
-arch magic_banned
-x 40
-y 62
-end
-arch check_inv
-slaying dojo
-x 40
-y 62
-connected 1
-end
 arch dungeon_magic
 x 40
 y 62
@@ -19900,16 +18445,6 @@ end
 arch cwall_3_2
 x 40
 y 62
-end
-arch magic_banned
-x 40
-y 63
-end
-arch check_inv
-slaying dojo
-x 40
-y 63
-connected 1
 end
 arch dungeon_magic
 x 40
@@ -19926,19 +18461,13 @@ arch cwall_2_2_1
 x 40
 y 63
 end
-arch check_inv
-slaying dojo
-x 41
-y 19
-connected 1
-end
 arch dungeon_magic
 x 41
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 41
 y 19
@@ -19947,19 +18476,13 @@ arch cwall_3_3
 x 41
 y 19
 end
-arch check_inv
-slaying dojo
-x 41
-y 20
-connected 1
-end
 arch dungeon_magic
 x 41
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 41
 y 20
@@ -20473,16 +18996,6 @@ arch cave_15
 x 41
 y 60
 end
-arch magic_banned
-x 41
-y 61
-end
-arch check_inv
-slaying dojo
-x 41
-y 61
-connected 1
-end
 arch dungeon_magic
 x 41
 y 61
@@ -20497,12 +19010,6 @@ end
 arch cwall_3_4
 x 41
 y 61
-end
-arch check_inv
-slaying dojo
-x 41
-y 62
-connected 1
 end
 arch dungeon_magic
 x 41
@@ -20519,12 +19026,6 @@ arch cwall_4
 x 41
 y 62
 end
-arch check_inv
-slaying dojo
-x 41
-y 63
-connected 1
-end
 arch dungeon_magic
 x 41
 y 63
@@ -20540,19 +19041,13 @@ arch cwall_3_1
 x 41
 y 63
 end
-arch check_inv
-slaying dojo
-x 42
-y 19
-connected 1
-end
 arch dungeon_magic
 x 42
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 42
 y 19
@@ -20561,19 +19056,13 @@ arch cwall_3_3
 x 42
 y 19
 end
-arch check_inv
-slaying dojo
-x 42
-y 20
-connected 1
-end
 arch dungeon_magic
 x 42
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 42
 y 20
@@ -21083,12 +19572,6 @@ arch cave_15
 x 42
 y 61
 end
-arch check_inv
-slaying dojo
-x 42
-y 62
-connected 1
-end
 arch dungeon_magic
 x 42
 y 62
@@ -21103,12 +19586,6 @@ end
 arch cwall_3_3
 x 42
 y 62
-end
-arch check_inv
-slaying dojo
-x 42
-y 63
-connected 1
 end
 arch dungeon_magic
 x 42
@@ -21125,19 +19602,13 @@ arch cwall_3_1
 x 42
 y 63
 end
-arch check_inv
-slaying dojo
-x 43
-y 19
-connected 1
-end
 arch dungeon_magic
 x 43
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 43
 y 19
@@ -21146,19 +19617,13 @@ arch cwall_3_3
 x 43
 y 19
 end
-arch check_inv
-slaying dojo
-x 43
-y 20
-connected 1
-end
 arch dungeon_magic
 x 43
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 43
 y 20
@@ -21722,12 +20187,6 @@ arch cave_15
 x 43
 y 61
 end
-arch check_inv
-slaying dojo
-x 43
-y 62
-connected 1
-end
 arch dungeon_magic
 x 43
 y 62
@@ -21742,12 +20201,6 @@ end
 arch cwall_3_3
 x 43
 y 62
-end
-arch check_inv
-slaying dojo
-x 43
-y 63
-connected 1
 end
 arch dungeon_magic
 x 43
@@ -21764,19 +20217,13 @@ arch cwall_3_1
 x 43
 y 63
 end
-arch check_inv
-slaying dojo
-x 44
-y 19
-connected 1
-end
 arch dungeon_magic
 x 44
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 44
 y 19
@@ -21785,19 +20232,13 @@ arch cwall_3_3
 x 44
 y 19
 end
-arch check_inv
-slaying dojo
-x 44
-y 20
-connected 1
-end
 arch dungeon_magic
 x 44
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 44
 y 20
@@ -22392,12 +20833,6 @@ arch cave_15
 x 44
 y 61
 end
-arch check_inv
-slaying dojo
-x 44
-y 62
-connected 1
-end
 arch dungeon_magic
 x 44
 y 62
@@ -22412,12 +20847,6 @@ end
 arch cwall_3_3
 x 44
 y 62
-end
-arch check_inv
-slaying dojo
-x 44
-y 63
-connected 1
 end
 arch dungeon_magic
 x 44
@@ -22434,19 +20863,13 @@ arch cwall_3_1
 x 44
 y 63
 end
-arch check_inv
-slaying dojo
-x 45
-y 19
-connected 1
-end
 arch dungeon_magic
 x 45
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 45
 y 19
@@ -22455,19 +20878,13 @@ arch cwall_3_3
 x 45
 y 19
 end
-arch check_inv
-slaying dojo
-x 45
-y 20
-connected 1
-end
 arch dungeon_magic
 x 45
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 45
 y 20
@@ -23100,12 +21517,6 @@ arch cave_15
 x 45
 y 61
 end
-arch check_inv
-slaying dojo
-x 45
-y 62
-connected 1
-end
 arch dungeon_magic
 x 45
 y 62
@@ -23120,12 +21531,6 @@ end
 arch cwall_3_3
 x 45
 y 62
-end
-arch check_inv
-slaying dojo
-x 45
-y 63
-connected 1
 end
 arch dungeon_magic
 x 45
@@ -23142,19 +21547,13 @@ arch cwall_3_1
 x 45
 y 63
 end
-arch check_inv
-slaying dojo
-x 46
-y 19
-connected 1
-end
 arch dungeon_magic
 x 46
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 46
 y 19
@@ -23163,19 +21562,13 @@ arch cwall_3_3
 x 46
 y 19
 end
-arch check_inv
-slaying dojo
-x 46
-y 20
-connected 1
-end
 arch dungeon_magic
 x 46
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 46
 y 20
@@ -23857,12 +22250,6 @@ arch cave_15
 x 46
 y 61
 end
-arch check_inv
-slaying dojo
-x 46
-y 62
-connected 1
-end
 arch dungeon_magic
 x 46
 y 62
@@ -23877,12 +22264,6 @@ end
 arch cwall_3_3
 x 46
 y 62
-end
-arch check_inv
-slaying dojo
-x 46
-y 63
-connected 1
 end
 arch dungeon_magic
 x 46
@@ -23899,19 +22280,13 @@ arch cwall_3_1
 x 46
 y 63
 end
-arch check_inv
-slaying dojo
-x 47
-y 19
-connected 1
-end
 arch dungeon_magic
 x 47
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 47
 y 19
@@ -23920,19 +22295,13 @@ arch cwall_3_3
 x 47
 y 19
 end
-arch check_inv
-slaying dojo
-x 47
-y 20
-connected 1
-end
 arch dungeon_magic
 x 47
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 47
 y 20
@@ -24615,12 +22984,6 @@ arch cave_15
 x 47
 y 61
 end
-arch check_inv
-slaying dojo
-x 47
-y 62
-connected 1
-end
 arch dungeon_magic
 x 47
 y 62
@@ -24635,12 +22998,6 @@ end
 arch cwall_3_3
 x 47
 y 62
-end
-arch check_inv
-slaying dojo
-x 47
-y 63
-connected 1
 end
 arch dungeon_magic
 x 47
@@ -24657,19 +23014,13 @@ arch cwall_3_1
 x 47
 y 63
 end
-arch check_inv
-slaying dojo
-x 48
-y 19
-connected 1
-end
 arch dungeon_magic
 x 48
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 48
 y 19
@@ -24678,19 +23029,13 @@ arch cwall_3_3
 x 48
 y 19
 end
-arch check_inv
-slaying dojo
-x 48
-y 20
-connected 1
-end
 arch dungeon_magic
 x 48
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 48
 y 20
@@ -25368,12 +23713,6 @@ arch cave_15
 x 48
 y 61
 end
-arch check_inv
-slaying dojo
-x 48
-y 62
-connected 1
-end
 arch dungeon_magic
 x 48
 y 62
@@ -25388,12 +23727,6 @@ end
 arch cwall_3_3
 x 48
 y 62
-end
-arch check_inv
-slaying dojo
-x 48
-y 63
-connected 1
 end
 arch dungeon_magic
 x 48
@@ -25410,19 +23743,13 @@ arch cwall_3_1
 x 48
 y 63
 end
-arch check_inv
-slaying dojo
-x 49
-y 19
-connected 1
-end
 arch dungeon_magic
 x 49
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 49
 y 19
@@ -25431,19 +23758,13 @@ arch cwall_3_3
 x 49
 y 19
 end
-arch check_inv
-slaying dojo
-x 49
-y 20
-connected 1
-end
 arch dungeon_magic
 x 49
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 49
 y 20
@@ -26144,12 +24465,6 @@ arch cave_15
 x 49
 y 61
 end
-arch check_inv
-slaying dojo
-x 49
-y 62
-connected 1
-end
 arch dungeon_magic
 x 49
 y 62
@@ -26164,12 +24479,6 @@ end
 arch cwall_3_3
 x 49
 y 62
-end
-arch check_inv
-slaying dojo
-x 49
-y 63
-connected 1
 end
 arch dungeon_magic
 x 49
@@ -26186,19 +24495,13 @@ arch cwall_3_1
 x 49
 y 63
 end
-arch check_inv
-slaying dojo
-x 50
-y 19
-connected 1
-end
 arch dungeon_magic
 x 50
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 50
 y 19
@@ -26207,19 +24510,13 @@ arch cwall_3_3
 x 50
 y 19
 end
-arch check_inv
-slaying dojo
-x 50
-y 20
-connected 1
-end
 arch dungeon_magic
 x 50
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 50
 y 20
@@ -26918,12 +25215,6 @@ arch cave_15
 x 50
 y 61
 end
-arch check_inv
-slaying dojo
-x 50
-y 62
-connected 1
-end
 arch dungeon_magic
 x 50
 y 62
@@ -26938,12 +25229,6 @@ end
 arch cwall_3_3
 x 50
 y 62
-end
-arch check_inv
-slaying dojo
-x 50
-y 63
-connected 1
 end
 arch dungeon_magic
 x 50
@@ -26960,19 +25245,13 @@ arch cwall_3_1
 x 50
 y 63
 end
-arch check_inv
-slaying dojo
-x 51
-y 19
-connected 1
-end
 arch dungeon_magic
 x 51
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 51
 y 19
@@ -26981,19 +25260,13 @@ arch cwall_3_3
 x 51
 y 19
 end
-arch check_inv
-slaying dojo
-x 51
-y 20
-connected 1
-end
 arch dungeon_magic
 x 51
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 51
 y 20
@@ -27676,12 +25949,6 @@ arch cave_15
 x 51
 y 61
 end
-arch check_inv
-slaying dojo
-x 51
-y 62
-connected 1
-end
 arch dungeon_magic
 x 51
 y 62
@@ -27696,12 +25963,6 @@ end
 arch cwall_3_3
 x 51
 y 62
-end
-arch check_inv
-slaying dojo
-x 51
-y 63
-connected 1
 end
 arch dungeon_magic
 x 51
@@ -27718,19 +25979,13 @@ arch cwall_3_1
 x 51
 y 63
 end
-arch check_inv
-slaying dojo
-x 52
-y 19
-connected 1
-end
 arch dungeon_magic
 x 52
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 52
 y 19
@@ -27739,19 +25994,13 @@ arch cwall_3_3
 x 52
 y 19
 end
-arch check_inv
-slaying dojo
-x 52
-y 20
-connected 1
-end
 arch dungeon_magic
 x 52
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 52
 y 20
@@ -28392,12 +26641,6 @@ arch cave_15
 x 52
 y 61
 end
-arch check_inv
-slaying dojo
-x 52
-y 62
-connected 1
-end
 arch dungeon_magic
 x 52
 y 62
@@ -28412,12 +26655,6 @@ end
 arch cwall_3_3
 x 52
 y 62
-end
-arch check_inv
-slaying dojo
-x 52
-y 63
-connected 1
 end
 arch dungeon_magic
 x 52
@@ -28434,19 +26671,13 @@ arch cwall_3_1
 x 52
 y 63
 end
-arch check_inv
-slaying dojo
-x 53
-y 19
-connected 1
-end
 arch dungeon_magic
 x 53
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 53
 y 19
@@ -28455,19 +26686,13 @@ arch cwall_3_3
 x 53
 y 19
 end
-arch check_inv
-slaying dojo
-x 53
-y 20
-connected 1
-end
 arch dungeon_magic
 x 53
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 53
 y 20
@@ -29062,12 +27287,6 @@ arch cave_15
 x 53
 y 61
 end
-arch check_inv
-slaying dojo
-x 53
-y 62
-connected 1
-end
 arch dungeon_magic
 x 53
 y 62
@@ -29082,12 +27301,6 @@ end
 arch cwall_3_3
 x 53
 y 62
-end
-arch check_inv
-slaying dojo
-x 53
-y 63
-connected 1
 end
 arch dungeon_magic
 x 53
@@ -29104,19 +27317,13 @@ arch cwall_3_1
 x 53
 y 63
 end
-arch check_inv
-slaying dojo
-x 54
-y 19
-connected 1
-end
 arch dungeon_magic
 x 54
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 54
 y 19
@@ -29125,11 +27332,65 @@ arch cwall_3_3
 x 54
 y 19
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 54
-y 20
-connected 1
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 19
+end
+arch cwall_3_3
+x 54
+y 19
+end
+arch dungeon_magic
+x 54
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 19
+end
+arch cwall_3_3
+x 54
+y 19
+end
+arch dungeon_magic
+x 54
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 19
+end
+arch cwall_3_3
+x 54
+y 19
+end
+arch dungeon_magic
+x 54
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 19
+end
+arch cwall_3_3
+x 54
+y 19
 end
 arch dungeon_magic
 x 54
@@ -29137,7 +27398,67 @@ y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
+sp 2
+x 54
+y 20
+end
+arch cwall_3_1
+x 54
+y 20
+end
+arch dungeon_magic
+x 54
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 20
+end
+arch cwall_3_1
+x 54
+y 20
+end
+arch dungeon_magic
+x 54
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 20
+end
+arch cwall_3_1
+x 54
+y 20
+end
+arch dungeon_magic
+x 54
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 54
+y 20
+end
+arch cwall_3_1
+x 54
+y 20
+end
+arch dungeon_magic
+x 54
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
 sp 2
 x 54
 y 20
@@ -29648,19 +27969,13 @@ arch cave_15
 x 54
 y 61
 end
-arch check_inv
-slaying dojo
-x 54
-y 62
-connected 1
-end
 arch dungeon_magic
 x 54
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 54
 y 62
@@ -29669,19 +27984,13 @@ arch cwall_3_3
 x 54
 y 62
 end
-arch check_inv
-slaying dojo
-x 54
-y 63
-connected 1
-end
 arch dungeon_magic
 x 54
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 54
 y 63
@@ -29690,19 +27999,13 @@ arch cwall_3_1
 x 54
 y 63
 end
-arch check_inv
-slaying dojo
-x 55
-y 19
-connected 1
-end
 arch dungeon_magic
 x 55
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 55
 y 19
@@ -29711,11 +28014,65 @@ arch cwall_3_3
 x 55
 y 19
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 55
-y 20
-connected 1
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 19
+end
+arch cwall_3_3
+x 55
+y 19
+end
+arch dungeon_magic
+x 55
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 19
+end
+arch cwall_3_3
+x 55
+y 19
+end
+arch dungeon_magic
+x 55
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 19
+end
+arch cwall_3_3
+x 55
+y 19
+end
+arch dungeon_magic
+x 55
+y 19
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 19
+end
+arch cwall_3_3
+x 55
+y 19
 end
 arch dungeon_magic
 x 55
@@ -29723,7 +28080,67 @@ y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
+sp 2
+x 55
+y 20
+end
+arch cwall_3_1
+x 55
+y 20
+end
+arch dungeon_magic
+x 55
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 20
+end
+arch cwall_3_1
+x 55
+y 20
+end
+arch dungeon_magic
+x 55
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 20
+end
+arch cwall_3_1
+x 55
+y 20
+end
+arch dungeon_magic
+x 55
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
+sp 2
+x 55
+y 20
+end
+arch cwall_3_1
+x 55
+y 20
+end
+arch dungeon_magic
+x 55
+y 20
+end
+arch battleground
+face dung_floor.111
+hp 13
 sp 2
 x 55
 y 20
@@ -30224,19 +28641,13 @@ arch cave_15
 x 55
 y 61
 end
-arch check_inv
-slaying dojo
-x 55
-y 62
-connected 1
-end
 arch dungeon_magic
 x 55
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 55
 y 62
@@ -30245,19 +28656,13 @@ arch cwall_3_3
 x 55
 y 62
 end
-arch check_inv
-slaying dojo
-x 55
-y 63
-connected 1
-end
 arch dungeon_magic
 x 55
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 55
 y 63
@@ -30266,19 +28671,13 @@ arch cwall_3_1
 x 55
 y 63
 end
-arch check_inv
-slaying dojo
-x 56
-y 19
-connected 1
-end
 arch dungeon_magic
 x 56
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 56
 y 19
@@ -30287,19 +28686,13 @@ arch cwall_3_3
 x 56
 y 19
 end
-arch check_inv
-slaying dojo
-x 56
-y 20
-connected 1
-end
 arch dungeon_magic
 x 56
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 56
 y 20
@@ -30736,19 +29129,13 @@ arch cave_15
 x 56
 y 61
 end
-arch check_inv
-slaying dojo
-x 56
-y 62
-connected 1
-end
 arch dungeon_magic
 x 56
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 56
 y 62
@@ -30757,19 +29144,13 @@ arch cwall_3_3
 x 56
 y 62
 end
-arch check_inv
-slaying dojo
-x 56
-y 63
-connected 1
-end
 arch dungeon_magic
 x 56
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 56
 y 63
@@ -30778,19 +29159,13 @@ arch cwall_3_1
 x 56
 y 63
 end
-arch check_inv
-slaying dojo
-x 57
-y 19
-connected 1
-end
 arch dungeon_magic
 x 57
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 57
 y 19
@@ -30799,19 +29174,13 @@ arch cwall_3_3
 x 57
 y 19
 end
-arch check_inv
-slaying dojo
-x 57
-y 20
-connected 1
-end
 arch dungeon_magic
 x 57
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 57
 y 20
@@ -31280,19 +29649,13 @@ arch cave_15
 x 57
 y 61
 end
-arch check_inv
-slaying dojo
-x 57
-y 62
-connected 1
-end
 arch dungeon_magic
 x 57
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 57
 y 62
@@ -31301,19 +29664,13 @@ arch cwall_3_3
 x 57
 y 62
 end
-arch check_inv
-slaying dojo
-x 57
-y 63
-connected 1
-end
 arch dungeon_magic
 x 57
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 57
 y 63
@@ -31322,19 +29679,13 @@ arch cwall_3_1
 x 57
 y 63
 end
-arch check_inv
-slaying dojo
-x 58
-y 19
-connected 1
-end
 arch dungeon_magic
 x 58
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 58
 y 19
@@ -31343,19 +29694,13 @@ arch cwall_3_3
 x 58
 y 19
 end
-arch check_inv
-slaying dojo
-x 58
-y 20
-connected 1
-end
 arch dungeon_magic
 x 58
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 58
 y 20
@@ -31860,19 +30205,13 @@ arch cave_15
 x 58
 y 61
 end
-arch check_inv
-slaying dojo
-x 58
-y 62
-connected 1
-end
 arch dungeon_magic
 x 58
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 58
 y 62
@@ -31881,19 +30220,13 @@ arch cwall_3_3
 x 58
 y 62
 end
-arch check_inv
-slaying dojo
-x 58
-y 63
-connected 1
-end
 arch dungeon_magic
 x 58
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 58
 y 63
@@ -31902,19 +30235,13 @@ arch cwall_3_1
 x 58
 y 63
 end
-arch check_inv
-slaying dojo
-x 59
-y 19
-connected 1
-end
 arch dungeon_magic
 x 59
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 59
 y 19
@@ -31923,19 +30250,13 @@ arch cwall_3_3
 x 59
 y 19
 end
-arch check_inv
-slaying dojo
-x 59
-y 20
-connected 1
-end
 arch dungeon_magic
 x 59
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 59
 y 20
@@ -32474,19 +30795,13 @@ arch cave_15
 x 59
 y 61
 end
-arch check_inv
-slaying dojo
-x 59
-y 62
-connected 1
-end
 arch dungeon_magic
 x 59
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 59
 y 62
@@ -32495,19 +30810,13 @@ arch cwall_3_3
 x 59
 y 62
 end
-arch check_inv
-slaying dojo
-x 59
-y 63
-connected 1
-end
 arch dungeon_magic
 x 59
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 59
 y 63
@@ -32516,19 +30825,13 @@ arch cwall_3_1
 x 59
 y 63
 end
-arch check_inv
-slaying dojo
-x 60
-y 19
-connected 1
-end
 arch dungeon_magic
 x 60
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 60
 y 19
@@ -32537,19 +30840,13 @@ arch cwall_3_3
 x 60
 y 19
 end
-arch check_inv
-slaying dojo
-x 60
-y 20
-connected 1
-end
 arch dungeon_magic
 x 60
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 60
 y 20
@@ -33036,19 +31333,13 @@ arch cave_15
 x 60
 y 61
 end
-arch check_inv
-slaying dojo
-x 60
-y 62
-connected 1
-end
 arch dungeon_magic
 x 60
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 60
 y 62
@@ -33057,19 +31348,13 @@ arch cwall_3_3
 x 60
 y 62
 end
-arch check_inv
-slaying dojo
-x 60
-y 63
-connected 1
-end
 arch dungeon_magic
 x 60
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 60
 y 63
@@ -33078,19 +31363,13 @@ arch cwall_3_1
 x 60
 y 63
 end
-arch check_inv
-slaying dojo
-x 61
-y 19
-connected 1
-end
 arch dungeon_magic
 x 61
 y 19
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 61
 y 19
@@ -33099,19 +31378,13 @@ arch cwall_3_3
 x 61
 y 19
 end
-arch check_inv
-slaying dojo
-x 61
-y 20
-connected 1
-end
 arch dungeon_magic
 x 61
 y 20
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 61
 y 20
@@ -33508,19 +31781,13 @@ arch cave_15
 x 61
 y 61
 end
-arch check_inv
-slaying dojo
-x 61
-y 62
-connected 1
-end
 arch dungeon_magic
 x 61
 y 62
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 61
 y 62
@@ -33529,19 +31796,13 @@ arch cwall_3_3
 x 61
 y 62
 end
-arch check_inv
-slaying dojo
-x 61
-y 63
-connected 1
-end
 arch dungeon_magic
 x 61
 y 63
 end
 arch battleground
 face dung_floor.111
-hp 2
+hp 13
 sp 2
 x 61
 y 63
@@ -33550,12 +31811,6 @@ arch cwall_3_1
 x 61
 y 63
 end
-arch check_inv
-slaying dojo
-x 62
-y 19
-connected 1
-end
 arch dungeon_magic
 x 62
 y 19
@@ -33570,12 +31825,6 @@ end
 arch cwall_3_3
 x 62
 y 19
-end
-arch check_inv
-slaying dojo
-x 62
-y 20
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33592,12 +31841,6 @@ arch cwall_4
 x 62
 y 20
 end
-arch check_inv
-slaying dojo
-x 62
-y 21
-connected 1
-end
 arch dungeon_magic
 x 62
 y 21
@@ -33612,12 +31855,6 @@ end
 arch cwall_3_2
 x 62
 y 21
-end
-arch check_inv
-slaying dojo
-x 62
-y 22
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33634,12 +31871,6 @@ arch cwall_3_2
 x 62
 y 22
 end
-arch check_inv
-slaying dojo
-x 62
-y 23
-connected 1
-end
 arch dungeon_magic
 x 62
 y 23
@@ -33654,12 +31885,6 @@ end
 arch cwall_3_2
 x 62
 y 23
-end
-arch check_inv
-slaying dojo
-x 62
-y 24
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33676,12 +31901,6 @@ arch cwall_3_2
 x 62
 y 24
 end
-arch check_inv
-slaying dojo
-x 62
-y 25
-connected 1
-end
 arch dungeon_magic
 x 62
 y 25
@@ -33696,12 +31915,6 @@ end
 arch cwall_3_2
 x 62
 y 25
-end
-arch check_inv
-slaying dojo
-x 62
-y 26
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33718,12 +31931,6 @@ arch cwall_3_2
 x 62
 y 26
 end
-arch check_inv
-slaying dojo
-x 62
-y 27
-connected 1
-end
 arch dungeon_magic
 x 62
 y 27
@@ -33738,12 +31945,6 @@ end
 arch cwall_3_2
 x 62
 y 27
-end
-arch check_inv
-slaying dojo
-x 62
-y 28
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33760,12 +31961,6 @@ arch cwall_3_2
 x 62
 y 28
 end
-arch check_inv
-slaying dojo
-x 62
-y 29
-connected 1
-end
 arch dungeon_magic
 x 62
 y 29
@@ -33780,12 +31975,6 @@ end
 arch cwall_3_2
 x 62
 y 29
-end
-arch check_inv
-slaying dojo
-x 62
-y 30
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33802,12 +31991,6 @@ arch cwall_3_2
 x 62
 y 30
 end
-arch check_inv
-slaying dojo
-x 62
-y 31
-connected 1
-end
 arch dungeon_magic
 x 62
 y 31
@@ -33823,11 +32006,35 @@ arch cwall_3_2
 x 62
 y 31
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 62
-y 32
-connected 1
+y 31
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 62
+y 31
+end
+arch cwall_3_2
+x 62
+y 31
+end
+arch dungeon_magic
+x 62
+y 31
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 62
+y 31
+end
+arch cwall_3_2
+x 62
+y 31
 end
 arch dungeon_magic
 x 62
@@ -33844,11 +32051,35 @@ arch cwall_3_2
 x 62
 y 32
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 62
-y 33
-connected 1
+y 32
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 62
+y 32
+end
+arch cwall_3_2
+x 62
+y 32
+end
+arch dungeon_magic
+x 62
+y 32
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 62
+y 32
+end
+arch cwall_3_2
+x 62
+y 32
 end
 arch dungeon_magic
 x 62
@@ -33865,12 +32096,6 @@ arch cwall_3_2
 x 62
 y 33
 end
-arch check_inv
-slaying dojo
-x 62
-y 34
-connected 1
-end
 arch dungeon_magic
 x 62
 y 34
@@ -33885,12 +32110,6 @@ end
 arch cwall_3_2
 x 62
 y 34
-end
-arch check_inv
-slaying dojo
-x 62
-y 35
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33907,12 +32126,6 @@ arch cwall_3_2
 x 62
 y 35
 end
-arch check_inv
-slaying dojo
-x 62
-y 36
-connected 1
-end
 arch dungeon_magic
 x 62
 y 36
@@ -33927,12 +32140,6 @@ end
 arch cwall_3_2
 x 62
 y 36
-end
-arch check_inv
-slaying dojo
-x 62
-y 37
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33949,12 +32156,6 @@ arch cwall_3_2
 x 62
 y 37
 end
-arch check_inv
-slaying dojo
-x 62
-y 38
-connected 1
-end
 arch dungeon_magic
 x 62
 y 38
@@ -33969,12 +32170,6 @@ end
 arch cwall_3_2
 x 62
 y 38
-end
-arch check_inv
-slaying dojo
-x 62
-y 39
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -33991,12 +32186,6 @@ arch cwall_3_2
 x 62
 y 39
 end
-arch check_inv
-slaying dojo
-x 62
-y 40
-connected 1
-end
 arch dungeon_magic
 x 62
 y 40
@@ -34011,12 +32200,6 @@ end
 arch cwall_3_2
 x 62
 y 40
-end
-arch check_inv
-slaying dojo
-x 62
-y 41
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34033,12 +32216,6 @@ arch cwall_3_2
 x 62
 y 41
 end
-arch check_inv
-slaying dojo
-x 62
-y 42
-connected 1
-end
 arch dungeon_magic
 x 62
 y 42
@@ -34053,12 +32230,6 @@ end
 arch cwall_3_2
 x 62
 y 42
-end
-arch check_inv
-slaying dojo
-x 62
-y 43
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34075,12 +32246,6 @@ arch cwall_3_2
 x 62
 y 43
 end
-arch check_inv
-slaying dojo
-x 62
-y 44
-connected 1
-end
 arch dungeon_magic
 x 62
 y 44
@@ -34095,12 +32260,6 @@ end
 arch cwall_3_2
 x 62
 y 44
-end
-arch check_inv
-slaying dojo
-x 62
-y 45
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34117,12 +32276,6 @@ arch cwall_3_2
 x 62
 y 45
 end
-arch check_inv
-slaying dojo
-x 62
-y 46
-connected 1
-end
 arch dungeon_magic
 x 62
 y 46
@@ -34137,12 +32290,6 @@ end
 arch cwall_3_2
 x 62
 y 46
-end
-arch check_inv
-slaying dojo
-x 62
-y 47
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34159,12 +32306,6 @@ arch cwall_3_2
 x 62
 y 47
 end
-arch check_inv
-slaying dojo
-x 62
-y 48
-connected 1
-end
 arch dungeon_magic
 x 62
 y 48
@@ -34179,12 +32320,6 @@ end
 arch cwall_3_2
 x 62
 y 48
-end
-arch check_inv
-slaying dojo
-x 62
-y 49
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34201,12 +32336,6 @@ arch cwall_3_2
 x 62
 y 49
 end
-arch check_inv
-slaying dojo
-x 62
-y 50
-connected 1
-end
 arch dungeon_magic
 x 62
 y 50
@@ -34221,12 +32350,6 @@ end
 arch cwall_3_2
 x 62
 y 50
-end
-arch check_inv
-slaying dojo
-x 62
-y 51
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34243,12 +32366,6 @@ arch cwall_3_2
 x 62
 y 51
 end
-arch check_inv
-slaying dojo
-x 62
-y 52
-connected 1
-end
 arch dungeon_magic
 x 62
 y 52
@@ -34263,12 +32380,6 @@ end
 arch cwall_3_2
 x 62
 y 52
-end
-arch check_inv
-slaying dojo
-x 62
-y 53
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34285,12 +32396,6 @@ arch cwall_3_2
 x 62
 y 53
 end
-arch check_inv
-slaying dojo
-x 62
-y 54
-connected 1
-end
 arch dungeon_magic
 x 62
 y 54
@@ -34305,12 +32410,6 @@ end
 arch cwall_3_2
 x 62
 y 54
-end
-arch check_inv
-slaying dojo
-x 62
-y 55
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34327,12 +32426,6 @@ arch cwall_3_2
 x 62
 y 55
 end
-arch check_inv
-slaying dojo
-x 62
-y 56
-connected 1
-end
 arch dungeon_magic
 x 62
 y 56
@@ -34347,12 +32440,6 @@ end
 arch cwall_3_2
 x 62
 y 56
-end
-arch check_inv
-slaying dojo
-x 62
-y 57
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34369,12 +32456,6 @@ arch cwall_3_2
 x 62
 y 57
 end
-arch check_inv
-slaying dojo
-x 62
-y 58
-connected 1
-end
 arch dungeon_magic
 x 62
 y 58
@@ -34389,12 +32470,6 @@ end
 arch cwall_3_2
 x 62
 y 58
-end
-arch check_inv
-slaying dojo
-x 62
-y 59
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34411,12 +32486,6 @@ arch cwall_3_2
 x 62
 y 59
 end
-arch check_inv
-slaying dojo
-x 62
-y 60
-connected 1
-end
 arch dungeon_magic
 x 62
 y 60
@@ -34432,12 +32501,6 @@ arch cwall_3_2
 x 62
 y 60
 end
-arch check_inv
-slaying dojo
-x 62
-y 61
-connected 1
-end
 arch dungeon_magic
 x 62
 y 61
@@ -34452,12 +32515,6 @@ end
 arch cwall_3_2
 x 62
 y 61
-end
-arch check_inv
-slaying dojo
-x 62
-y 62
-connected 1
 end
 arch dungeon_magic
 x 62
@@ -34474,12 +32531,6 @@ arch cwall_4
 x 62
 y 62
 end
-arch check_inv
-slaying dojo
-x 62
-y 63
-connected 1
-end
 arch dungeon_magic
 x 62
 y 63
@@ -34494,12 +32545,6 @@ end
 arch cwall_3_1
 x 62
 y 63
-end
-arch check_inv
-slaying dojo
-x 63
-y 19
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34516,12 +32561,6 @@ arch cwall_2_2_3
 x 63
 y 19
 end
-arch check_inv
-slaying dojo
-x 63
-y 20
-connected 1
-end
 arch dungeon_magic
 x 63
 y 20
@@ -34536,12 +32575,6 @@ end
 arch cwall_3_4
 x 63
 y 20
-end
-arch check_inv
-slaying dojo
-x 63
-y 21
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34558,12 +32591,6 @@ arch cwall_3_4
 x 63
 y 21
 end
-arch check_inv
-slaying dojo
-x 63
-y 22
-connected 1
-end
 arch dungeon_magic
 x 63
 y 22
@@ -34578,12 +32605,6 @@ end
 arch cwall_3_4
 x 63
 y 22
-end
-arch check_inv
-slaying dojo
-x 63
-y 23
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34600,12 +32621,6 @@ arch cwall_3_4
 x 63
 y 23
 end
-arch check_inv
-slaying dojo
-x 63
-y 24
-connected 1
-end
 arch dungeon_magic
 x 63
 y 24
@@ -34620,12 +32635,6 @@ end
 arch cwall_3_4
 x 63
 y 24
-end
-arch check_inv
-slaying dojo
-x 63
-y 25
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34642,12 +32651,6 @@ arch cwall_3_4
 x 63
 y 25
 end
-arch check_inv
-slaying dojo
-x 63
-y 26
-connected 1
-end
 arch dungeon_magic
 x 63
 y 26
@@ -34662,12 +32665,6 @@ end
 arch cwall_3_4
 x 63
 y 26
-end
-arch check_inv
-slaying dojo
-x 63
-y 27
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34684,12 +32681,6 @@ arch cwall_3_4
 x 63
 y 27
 end
-arch check_inv
-slaying dojo
-x 63
-y 28
-connected 1
-end
 arch dungeon_magic
 x 63
 y 28
@@ -34704,12 +32695,6 @@ end
 arch cwall_3_4
 x 63
 y 28
-end
-arch check_inv
-slaying dojo
-x 63
-y 29
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34726,12 +32711,6 @@ arch cwall_3_4
 x 63
 y 29
 end
-arch check_inv
-slaying dojo
-x 63
-y 30
-connected 1
-end
 arch dungeon_magic
 x 63
 y 30
@@ -34746,12 +32725,6 @@ end
 arch cwall_3_4
 x 63
 y 30
-end
-arch check_inv
-slaying dojo
-x 63
-y 31
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34768,11 +32741,35 @@ arch cwall_3_4
 x 63
 y 31
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 63
-y 32
-connected 1
+y 31
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 63
+y 31
+end
+arch cwall_3_4
+x 63
+y 31
+end
+arch dungeon_magic
+x 63
+y 31
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 63
+y 31
+end
+arch cwall_3_4
+x 63
+y 31
 end
 arch dungeon_magic
 x 63
@@ -34789,11 +32786,35 @@ arch cwall_3_4
 x 63
 y 32
 end
-arch check_inv
-slaying dojo
+arch dungeon_magic
 x 63
-y 33
-connected 1
+y 32
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 63
+y 32
+end
+arch cwall_3_4
+x 63
+y 32
+end
+arch dungeon_magic
+x 63
+y 32
+end
+arch battleground
+face dung_floor.111
+hp 2
+sp 2
+x 63
+y 32
+end
+arch cwall_3_4
+x 63
+y 32
 end
 arch dungeon_magic
 x 63
@@ -34810,12 +32831,6 @@ arch cwall_3_4
 x 63
 y 33
 end
-arch check_inv
-slaying dojo
-x 63
-y 34
-connected 1
-end
 arch dungeon_magic
 x 63
 y 34
@@ -34830,12 +32845,6 @@ end
 arch cwall_3_4
 x 63
 y 34
-end
-arch check_inv
-slaying dojo
-x 63
-y 35
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34852,12 +32861,6 @@ arch cwall_3_4
 x 63
 y 35
 end
-arch check_inv
-slaying dojo
-x 63
-y 36
-connected 1
-end
 arch dungeon_magic
 x 63
 y 36
@@ -34872,12 +32875,6 @@ end
 arch cwall_3_4
 x 63
 y 36
-end
-arch check_inv
-slaying dojo
-x 63
-y 37
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34894,12 +32891,6 @@ arch cwall_3_4
 x 63
 y 37
 end
-arch check_inv
-slaying dojo
-x 63
-y 38
-connected 1
-end
 arch dungeon_magic
 x 63
 y 38
@@ -34914,12 +32905,6 @@ end
 arch cwall_3_4
 x 63
 y 38
-end
-arch check_inv
-slaying dojo
-x 63
-y 39
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34936,12 +32921,6 @@ arch cwall_3_4
 x 63
 y 39
 end
-arch check_inv
-slaying dojo
-x 63
-y 40
-connected 1
-end
 arch dungeon_magic
 x 63
 y 40
@@ -34956,12 +32935,6 @@ end
 arch cwall_3_4
 x 63
 y 40
-end
-arch check_inv
-slaying dojo
-x 63
-y 41
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -34978,12 +32951,6 @@ arch cwall_3_4
 x 63
 y 41
 end
-arch check_inv
-slaying dojo
-x 63
-y 42
-connected 1
-end
 arch dungeon_magic
 x 63
 y 42
@@ -34998,12 +32965,6 @@ end
 arch cwall_3_4
 x 63
 y 42
-end
-arch check_inv
-slaying dojo
-x 63
-y 43
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35020,12 +32981,6 @@ arch cwall_3_4
 x 63
 y 43
 end
-arch check_inv
-slaying dojo
-x 63
-y 44
-connected 1
-end
 arch dungeon_magic
 x 63
 y 44
@@ -35040,12 +32995,6 @@ end
 arch cwall_3_4
 x 63
 y 44
-end
-arch check_inv
-slaying dojo
-x 63
-y 45
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35062,12 +33011,6 @@ arch cwall_3_4
 x 63
 y 45
 end
-arch check_inv
-slaying dojo
-x 63
-y 46
-connected 1
-end
 arch dungeon_magic
 x 63
 y 46
@@ -35082,12 +33025,6 @@ end
 arch cwall_3_4
 x 63
 y 46
-end
-arch check_inv
-slaying dojo
-x 63
-y 47
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35104,12 +33041,6 @@ arch cwall_3_4
 x 63
 y 47
 end
-arch check_inv
-slaying dojo
-x 63
-y 48
-connected 1
-end
 arch dungeon_magic
 x 63
 y 48
@@ -35124,12 +33055,6 @@ end
 arch cwall_3_4
 x 63
 y 48
-end
-arch check_inv
-slaying dojo
-x 63
-y 49
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35146,12 +33071,6 @@ arch cwall_3_4
 x 63
 y 49
 end
-arch check_inv
-slaying dojo
-x 63
-y 50
-connected 1
-end
 arch dungeon_magic
 x 63
 y 50
@@ -35166,12 +33085,6 @@ end
 arch cwall_3_4
 x 63
 y 50
-end
-arch check_inv
-slaying dojo
-x 63
-y 51
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35188,12 +33101,6 @@ arch cwall_3_4
 x 63
 y 51
 end
-arch check_inv
-slaying dojo
-x 63
-y 52
-connected 1
-end
 arch dungeon_magic
 x 63
 y 52
@@ -35208,12 +33115,6 @@ end
 arch cwall_3_4
 x 63
 y 52
-end
-arch check_inv
-slaying dojo
-x 63
-y 53
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35230,12 +33131,6 @@ arch cwall_3_4
 x 63
 y 53
 end
-arch check_inv
-slaying dojo
-x 63
-y 54
-connected 1
-end
 arch dungeon_magic
 x 63
 y 54
@@ -35250,12 +33145,6 @@ end
 arch cwall_3_4
 x 63
 y 54
-end
-arch check_inv
-slaying dojo
-x 63
-y 55
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35272,12 +33161,6 @@ arch cwall_3_4
 x 63
 y 55
 end
-arch check_inv
-slaying dojo
-x 63
-y 56
-connected 1
-end
 arch dungeon_magic
 x 63
 y 56
@@ -35292,12 +33175,6 @@ end
 arch cwall_3_4
 x 63
 y 56
-end
-arch check_inv
-slaying dojo
-x 63
-y 57
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35314,12 +33191,6 @@ arch cwall_3_4
 x 63
 y 57
 end
-arch check_inv
-slaying dojo
-x 63
-y 58
-connected 1
-end
 arch dungeon_magic
 x 63
 y 58
@@ -35334,12 +33205,6 @@ end
 arch cwall_3_4
 x 63
 y 58
-end
-arch check_inv
-slaying dojo
-x 63
-y 59
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35356,12 +33221,6 @@ arch cwall_3_4
 x 63
 y 59
 end
-arch check_inv
-slaying dojo
-x 63
-y 60
-connected 1
-end
 arch dungeon_magic
 x 63
 y 60
@@ -35376,12 +33235,6 @@ end
 arch cwall_3_4
 x 63
 y 60
-end
-arch check_inv
-slaying dojo
-x 63
-y 61
-connected 1
 end
 arch dungeon_magic
 x 63
@@ -35398,12 +33251,6 @@ arch cwall_3_4
 x 63
 y 61
 end
-arch check_inv
-slaying dojo
-x 63
-y 62
-connected 1
-end
 arch dungeon_magic
 x 63
 y 62
@@ -35418,12 +33265,6 @@ end
 arch cwall_3_4
 x 63
 y 62
-end
-arch check_inv
-slaying dojo
-x 63
-y 63
-connected 1
 end
 arch dungeon_magic
 x 63
