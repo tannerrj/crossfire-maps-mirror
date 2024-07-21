@@ -9,7 +9,7 @@ enter_x 28
 enter_y 53
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-09 Rick Tanner
+Modified: 2024-07-21 Rick Tanner
 endmsg
 outdoor 1
 reset_group azumauindo_akuma-tatemono
@@ -4002,6 +4002,7 @@ x 8
 y 28
 end
 arch bad_cauldron
+Str 80
 x 8
 y 28
 material 0
