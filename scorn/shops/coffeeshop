@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  2003-04-27 Avion
-Modified: 2023-11-13 Rick Tanner
+Modified: 2024-08-05 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -629,12 +629,13 @@ arch NPCGift
 arch coffee
 name Eswald's superior coffee
 name_pl cups of Eswald's superior coffee
+value 1
 end
 arch coffee
 name Eswald's inferior coffee
 name_pl cups of Eswald's inferior coffee
 food 1
-value 2
+value 1
 arch quest_advance_apply
 name scorn/CoffeeGoose 0>10
 end
