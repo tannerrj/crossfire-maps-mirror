@@ -13,7 +13,7 @@ Editor: CrossfireEditor
 Date:    3/17/2007
 Map finised by:  Alestan jehloq@yahoo.com
 Date:     8/27/2007
-Modified: 2023-06-07 Rick Tanner
+Modified: 2024-03-29 Kevin Zheng
 endmsg
 end
 arch grass
@@ -1446,7 +1446,7 @@ can_use_ring 1
 can_use_skill 1
 can_see_in_dark 1
 arch event_say
-name DreamingSage GuildMaster
+name DreamingSage GuildMaster 918
 title Python
 slaying /python/guilds/guild_entry.py
 end
