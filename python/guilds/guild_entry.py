@@ -20,6 +20,7 @@
 import Crossfire
 import CFGuilds
 from CFGuildClearance import CheckClearance
+import misc.trigger
 
 import sys
 
@@ -55,7 +56,7 @@ if text:
                 message = "I don't know which door I'm supposed to open for you. Contact a DM."
             else:
                 message = 'Entry granted for %s' %activatorname
-                mymap.TriggerConnected(int(Params[2]),1,activator)
+                misc.trigger.trigger(whoami, int(Params[2]))
         else:
             message = "You are not allowed through this door. Access denied."
 
