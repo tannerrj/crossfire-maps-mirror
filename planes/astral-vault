@@ -5,7 +5,7 @@ width 50
 height 36
 msg
 Created:  2020-02-08 Rick Tanner
-Modified: 2020-08-25 Rick Tanner
+Modified: 2024-08-28 Rick Tanner
 endmsg
 end
 arch dungeon_magic
@@ -10176,6 +10176,9 @@ end
 arch note
 msg
 Welcome to the Astral Vault!
+
+Behold! Secure and centralized storage, accessible from any bank across all the known lands and kingdoms!
+
 * The area with the grey marble can be customized with buildable materials
 ** IMPORTANT: Customize the floor tiles in the vault (grey marble tiles) before trying to save items on it!!!
 ** HINT: There are 256 buildable floor tiles in the vault
