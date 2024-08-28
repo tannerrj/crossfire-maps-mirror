@@ -14,7 +14,7 @@ enter_x 6
 enter_y 24
 msg
 Created:  2005-11-05 Gene Alexander
-Modified: 2021-01-19 Nicolas Weeger
+Modified: 2024-08-28 Rick Tanner
 endmsg
 end
 arch flagstone
@@ -632,6 +632,20 @@ x 4
 y 20
 end
 arch guide_building_signs
+msg
+When making signs and talking (or listening) books, you need to place a book or scroll with the text you want on the square you're building on just like a marking rune.
+
+With the talking/listening books, they will take the name and picture of the book used to create them as well.
+
+For the talking and listening books, you also need to connect them with a marking rune just like gates buttons and levers, which, in the case of the talking books, makes the book say its message when activated, and in the case of listening books, it causes saying the phrase that the book looks for to act like pulling a lever.
+
+For the listening books, the message must be in this format:
+
+  @match blah
+  Click.
+
+Which will make it activate when somebody within two squares says "blah", and will additionally say "Click." upon activation.
+endmsg
 x 4
 y 20
 end
