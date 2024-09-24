@@ -7,7 +7,7 @@ enter_x 16
 enter_y 13
 msg
 Created:  2006-08-19 Gene Alexander
-Modified: 2023-11-06 Rick Tanner
+Modified: 2024-09-23 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -306,7 +306,7 @@ arch dungeon_magic
 x 3
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 3
 end
@@ -322,7 +322,7 @@ arch dungeon_magic
 x 3
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 4
 end
@@ -334,7 +334,7 @@ arch dungeon_magic
 x 3
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 5
 end
@@ -346,7 +346,7 @@ arch dungeon_magic
 x 3
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 6
 end
@@ -358,7 +358,7 @@ arch dungeon_magic
 x 3
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 7
 end
@@ -370,7 +370,7 @@ arch dungeon_magic
 x 3
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 8
 end
@@ -382,7 +382,7 @@ arch dungeon_magic
 x 3
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 9
 end
@@ -394,7 +394,7 @@ arch dungeon_magic
 x 3
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 10
 end
@@ -406,7 +406,7 @@ arch dungeon_magic
 x 3
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 11
 end
@@ -462,7 +462,7 @@ arch dungeon_magic
 x 4
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 3
 end
@@ -568,7 +568,7 @@ arch dungeon_magic
 x 4
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 11
 end
@@ -616,7 +616,7 @@ x 5
 y 2
 elevation 25
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 3
 end
@@ -764,7 +764,7 @@ arch dungeon_magic
 x 5
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 11
 end
@@ -812,7 +812,7 @@ x 6
 y 2
 elevation 25
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 3
 end
@@ -896,7 +896,7 @@ arch dungeon_magic
 x 6
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 11
 end
@@ -948,7 +948,7 @@ arch dungeon_magic
 x 7
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 3
 end
@@ -1006,7 +1006,7 @@ arch dungeon_magic
 x 7
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 11
 end
@@ -1047,7 +1047,7 @@ arch dungeon_magic
 x 8
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 3
 end
@@ -1111,7 +1111,7 @@ arch dungeon_magic
 x 8
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 11
 end
@@ -1152,7 +1152,7 @@ arch dungeon_magic
 x 9
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 3
 end
@@ -1224,7 +1224,7 @@ arch dungeon_magic
 x 9
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 11
 end
@@ -1265,7 +1265,7 @@ arch dungeon_magic
 x 10
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 3
 end
@@ -1368,7 +1368,7 @@ arch dungeon_magic
 x 10
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 11
 end
@@ -1409,7 +1409,7 @@ arch dungeon_magic
 x 11
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 3
 end
@@ -1462,7 +1462,7 @@ arch dungeon_magic
 x 11
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 11
 end
@@ -1503,7 +1503,7 @@ arch dungeon_magic
 x 12
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 12
 y 3
 end
@@ -1561,7 +1561,7 @@ arch dungeon_magic
 x 12
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 12
 y 11
 end
@@ -1602,7 +1602,7 @@ arch dungeon_magic
 x 13
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 13
 y 3
 end
@@ -1709,7 +1709,7 @@ arch dungeon_magic
 x 13
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 13
 y 11
 end
@@ -1750,7 +1750,7 @@ arch dungeon_magic
 x 14
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 14
 y 3
 end
@@ -1820,7 +1820,7 @@ arch dungeon_magic
 x 14
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 14
 y 11
 end
@@ -1861,7 +1861,7 @@ arch dungeon_magic
 x 15
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 15
 y 3
 end
@@ -1958,7 +1958,7 @@ arch dungeon_magic
 x 15
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 15
 y 11
 end
@@ -1999,7 +1999,7 @@ arch dungeon_magic
 x 16
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 16
 y 3
 end
@@ -2090,7 +2090,7 @@ arch dungeon_magic
 x 16
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 16
 y 11
 end
@@ -2131,7 +2131,7 @@ arch dungeon_magic
 x 17
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 17
 y 3
 end
@@ -2197,7 +2197,7 @@ arch dungeon_magic
 x 17
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 17
 y 11
 end
@@ -2238,7 +2238,7 @@ arch dungeon_magic
 x 18
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 18
 y 3
 end
@@ -2317,7 +2317,7 @@ arch dungeon_magic
 x 18
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 18
 y 11
 end
@@ -2358,7 +2358,7 @@ arch dungeon_magic
 x 19
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 19
 y 3
 end
@@ -2457,7 +2457,7 @@ arch dungeon_magic
 x 19
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 19
 y 11
 end
@@ -2498,7 +2498,7 @@ arch dungeon_magic
 x 20
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 20
 y 3
 end
@@ -2600,7 +2600,7 @@ arch dungeon_magic
 x 20
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 20
 y 11
 end
@@ -2641,7 +2641,7 @@ arch dungeon_magic
 x 21
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 21
 y 3
 end
@@ -2699,7 +2699,7 @@ arch dungeon_magic
 x 21
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 21
 y 11
 end
@@ -2740,7 +2740,7 @@ arch dungeon_magic
 x 22
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 22
 y 3
 end
@@ -2815,7 +2815,7 @@ arch dungeon_magic
 x 22
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 22
 y 11
 end
@@ -2856,7 +2856,7 @@ arch dungeon_magic
 x 23
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 3
 end
@@ -2975,7 +2975,7 @@ arch dungeon_magic
 x 23
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 11
 end
@@ -3019,7 +3019,7 @@ arch dungeon_magic
 x 24
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 24
 y 3
 end
@@ -3089,7 +3089,7 @@ arch dungeon_magic
 x 24
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 24
 y 11
 end
@@ -3130,7 +3130,7 @@ arch dungeon_magic
 x 25
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 25
 y 3
 end
@@ -3271,7 +3271,7 @@ arch dungeon_magic
 x 25
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 25
 y 11
 end
@@ -3316,7 +3316,7 @@ arch dungeon_magic
 x 26
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 3
 end
@@ -3328,7 +3328,7 @@ arch dungeon_magic
 x 26
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 4
 end
@@ -3340,7 +3340,7 @@ arch dungeon_magic
 x 26
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 5
 end
@@ -3352,7 +3352,7 @@ arch dungeon_magic
 x 26
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 6
 end
@@ -3364,7 +3364,7 @@ arch dungeon_magic
 x 26
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 7
 end
@@ -3376,7 +3376,7 @@ arch dungeon_magic
 x 26
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 8
 end
@@ -3388,7 +3388,7 @@ arch dungeon_magic
 x 26
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 9
 end
@@ -3400,7 +3400,7 @@ arch dungeon_magic
 x 26
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 10
 end
@@ -3412,7 +3412,7 @@ arch dungeon_magic
 x 26
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 26
 y 11
 end
