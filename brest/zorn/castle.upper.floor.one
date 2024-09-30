@@ -8,7 +8,7 @@ enter_x 29
 enter_y 3
 msg
 Created:  2006-08-12 Gene Alexander
-Modified: 2023-05-29 Rick Tanner
+Modified: 2024-09-30 Rick Tanner
 endmsg
 outdoor 1
 reset_group brest_zorn
@@ -3191,7 +3191,7 @@ arch skill_one_handed_weapon
 end
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 9
 y 10
 level 35
@@ -3345,7 +3345,7 @@ x 9
 y 46
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 9
 y 47
 level 35
@@ -3475,7 +3475,7 @@ x 10
 y 8
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 10
 y 9
 level 35
@@ -3661,7 +3661,7 @@ x 10
 y 27
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 10
 y 28
 level 35
@@ -3671,7 +3671,7 @@ x 10
 y 28
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 10
 y 29
 level 35
@@ -3857,7 +3857,7 @@ x 10
 y 47
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 10
 y 48
 level 35
@@ -3867,7 +3867,7 @@ x 10
 y 48
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 10
 y 49
 level 35
@@ -4005,7 +4005,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 11
@@ -4061,7 +4061,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 11
@@ -4274,7 +4274,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 11
@@ -4309,7 +4309,7 @@ name ring trap
 msg
 The ring of Resist Elements disappears!
 endmsg
-Cha 200
+Cha 127
 dam 0
 x 11
 y 46
@@ -4318,7 +4318,7 @@ attacktype 0
 connected 104
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 dam 0
 x 11
 y 46
@@ -4326,7 +4326,7 @@ level 75
 attacktype 0
 end
 arch rune_ball_lightning
-Cha 200
+Cha 127
 dam 0
 x 11
 y 46
@@ -4334,7 +4334,7 @@ level 75
 attacktype 0
 end
 arch rune_create_bomb
-Cha 200
+Cha 127
 dam 0
 x 11
 y 46
@@ -4346,7 +4346,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 11
@@ -4545,7 +4545,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -4569,7 +4569,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -4600,7 +4600,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -4901,7 +4901,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -4916,7 +4916,7 @@ x 12
 y 44
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 dam 0
 x 12
 y 45
@@ -4924,7 +4924,7 @@ level 75
 attacktype 0
 end
 arch rune_ball_lightning
-Cha 200
+Cha 127
 dam 0
 x 12
 y 45
@@ -4932,7 +4932,7 @@ level 75
 attacktype 0
 end
 arch rune_create_bomb
-Cha 200
+Cha 127
 dam 0
 x 12
 y 45
@@ -4944,7 +4944,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -4966,7 +4966,7 @@ cursed 1
 damned 1
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 dam 0
 x 12
 y 46
@@ -4974,7 +4974,7 @@ level 75
 attacktype 0
 end
 arch rune_ball_lightning
-Cha 200
+Cha 127
 dam 0
 x 12
 y 46
@@ -4982,7 +4982,7 @@ level 75
 attacktype 0
 end
 arch rune_create_bomb
-Cha 200
+Cha 127
 dam 0
 x 12
 y 46
@@ -4994,7 +4994,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 12
@@ -5300,7 +5300,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 13
@@ -5335,7 +5335,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 13
@@ -5667,7 +5667,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 13
@@ -5690,7 +5690,7 @@ x 13
 y 45
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 dam 0
 x 13
 y 46
@@ -5698,7 +5698,7 @@ level 75
 attacktype 0
 end
 arch rune_ball_lightning
-Cha 200
+Cha 127
 dam 0
 x 13
 y 46
@@ -5706,7 +5706,7 @@ level 75
 attacktype 0
 end
 arch rune_create_bomb
-Cha 200
+Cha 127
 dam 0
 x 13
 y 46
@@ -5718,7 +5718,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 13
@@ -11545,7 +11545,7 @@ x 23
 y 8
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 23
 y 9
 level 35
@@ -11947,7 +11947,7 @@ x 23
 y 47
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 23
 y 48
 level 35
@@ -14791,7 +14791,7 @@ x 27
 y 27
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 27
 y 28
 level 35
@@ -14801,7 +14801,7 @@ x 27
 y 28
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 27
 y 29
 level 35
@@ -15120,7 +15120,7 @@ x 28
 y 9
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 28
 y 10
 level 35
@@ -17402,7 +17402,7 @@ x 29
 y 9
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 29
 y 10
 level 35
@@ -17440,7 +17440,7 @@ x 29
 y 15
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 29
 y 16
 level 35
@@ -17490,7 +17490,7 @@ x 29
 y 26
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 29
 y 27
 level 35
@@ -17508,7 +17508,7 @@ x 29
 y 29
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 29
 y 30
 level 35
@@ -17558,7 +17558,7 @@ x 29
 y 40
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 29
 y 41
 level 35
@@ -17740,7 +17740,7 @@ x 30
 y 9
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 30
 y 10
 level 35
@@ -20287,7 +20287,7 @@ x 31
 y 27
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 31
 y 28
 level 35
@@ -20297,7 +20297,7 @@ x 31
 y 28
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 31
 y 29
 level 35
@@ -23042,7 +23042,7 @@ x 35
 y 8
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 35
 y 9
 level 35
@@ -23444,7 +23444,7 @@ x 35
 y 47
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 35
 y 48
 level 35
@@ -29144,7 +29144,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 45
@@ -29204,7 +29204,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 45
@@ -29532,7 +29532,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 45
@@ -29559,7 +29559,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 45
@@ -29578,7 +29578,7 @@ connected 103
 activate_on_release 0
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 45
 y 46
 level 35
@@ -29871,7 +29871,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -29890,7 +29890,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -29916,7 +29916,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -30217,7 +30217,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -30236,7 +30236,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -30268,7 +30268,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 46
@@ -30285,7 +30285,7 @@ level 50
 connected 103
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 46
 y 46
 level 35
@@ -30562,7 +30562,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 47
@@ -30623,7 +30623,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 47
@@ -30836,7 +30836,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 47
@@ -30863,7 +30863,7 @@ name Zorn bomb trap
 msg
 You set off a trap!
 endmsg
-Cha 200
+Cha 127
 hp 5
 dam 50
 x 47
@@ -30882,7 +30882,7 @@ connected 103
 activate_on_release 0
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 47
 y 46
 level 35
@@ -31044,7 +31044,7 @@ x 48
 y 8
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 48
 y 9
 level 35
@@ -31230,7 +31230,7 @@ x 48
 y 27
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 48
 y 28
 level 35
@@ -31240,7 +31240,7 @@ x 48
 y 28
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 48
 y 29
 level 35
@@ -31426,7 +31426,7 @@ x 48
 y 47
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 48
 y 48
 level 35
@@ -31436,7 +31436,7 @@ x 48
 y 48
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 48
 y 49
 level 35
@@ -31684,7 +31684,7 @@ arch skill_one_handed_weapon
 end
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 49
 y 10
 level 35
@@ -31838,7 +31838,7 @@ x 49
 y 46
 end
 arch rune_large_fireball
-Cha 200
+Cha 127
 x 49
 y 47
 level 35
