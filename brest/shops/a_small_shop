@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created:  2007-03-11 Gene Alexander (poof, Galahad)
-Modified: 2024-08-28 Rick Tanner
+Modified: 2024-09-30 Rick Tanner
 endmsg
 end
 arch woods
@@ -441,7 +441,7 @@ name cancellation
 x 3
 y 11
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
@@ -454,7 +454,7 @@ name cancellation
 x 3
 y 12
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
@@ -467,7 +467,7 @@ name cancellation
 x 3
 y 13
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
@@ -1072,7 +1072,7 @@ name cancellation
 x 7
 y 11
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
@@ -1085,7 +1085,7 @@ name cancellation
 x 7
 y 12
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
@@ -1098,7 +1098,7 @@ name cancellation
 x 7
 y 13
 speed 0.04
-level 300
+level 115
 arch spell_cancellation
 end
 end
