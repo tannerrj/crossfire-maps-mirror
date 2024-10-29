@@ -8,7 +8,7 @@ enter_x 14
 enter_y 23
 msg
 Created:  1994-09-24 Gene Alexander
-Modified: 2023-11-06 Rick Tanner
+Modified: 2024-10-29 Rick Tanner
 endmsg
 end
 arch brush
@@ -221,7 +221,7 @@ arch brush
 x 2
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 2
 end
@@ -229,7 +229,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 3
 end
@@ -237,7 +237,7 @@ arch wall_2_1_1
 x 2
 y 3
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 4
 end
@@ -245,7 +245,7 @@ arch window_win1
 x 2
 y 4
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 5
 end
@@ -253,7 +253,7 @@ arch wall_3_2
 x 2
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 6
 end
@@ -261,7 +261,7 @@ arch window_win1
 x 2
 y 6
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 7
 end
@@ -269,7 +269,7 @@ arch wall_2_1_1
 x 2
 y 7
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 8
 end
@@ -277,7 +277,7 @@ arch wall_3_2
 x 2
 y 8
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 9
 end
@@ -285,7 +285,7 @@ arch window_win1
 x 2
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 10
 end
@@ -293,7 +293,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 11
 end
@@ -301,7 +301,7 @@ arch wall_3_2
 x 2
 y 11
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 12
 end
@@ -309,7 +309,7 @@ arch wall_2_1_1
 x 2
 y 12
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 13
 end
@@ -321,7 +321,7 @@ arch dungeon_magic
 x 2
 y 14
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 14
 end
@@ -329,7 +329,7 @@ arch wall_2_1_1
 x 2
 y 14
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 15
 end
@@ -337,7 +337,7 @@ arch wall_3_2
 x 2
 y 15
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 16
 end
@@ -345,7 +345,7 @@ arch wall_2_1_1
 x 2
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 17
 end
@@ -353,7 +353,7 @@ arch wall_2_1_1
 x 2
 y 17
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 18
 end
@@ -361,7 +361,7 @@ arch wall_2_1_1
 x 2
 y 18
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 19
 end
@@ -369,7 +369,7 @@ arch window_win1
 x 2
 y 19
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 20
 end
@@ -377,7 +377,7 @@ arch wall_2_1_1
 x 2
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 21
 end
@@ -404,7 +404,7 @@ arch brush
 x 3
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 3
 y 2
 end
@@ -580,7 +580,7 @@ arch bed_save
 x 3
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 3
 y 21
 end
@@ -611,7 +611,7 @@ arch brush
 x 4
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 4
 y 2
 end
@@ -764,7 +764,7 @@ x 4
 y 20
 no_pick 1
 end
-arch woodfloor
+arch cobblestones2
 x 4
 y 21
 end
@@ -795,7 +795,7 @@ arch brush
 x 5
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 5
 y 2
 end
@@ -930,7 +930,7 @@ arch wall_2_1_1
 x 5
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 5
 y 21
 end
@@ -961,7 +961,7 @@ arch dungeon_magic
 x 6
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 6
 y 2
 end
@@ -1104,7 +1104,7 @@ arch bed_save
 x 6
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 6
 y 21
 end
@@ -1131,7 +1131,7 @@ arch tree
 x 7
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 7
 y 2
 end
@@ -1291,7 +1291,7 @@ x 7
 y 20
 no_pick 1
 end
-arch woodfloor
+arch cobblestones2
 x 7
 y 21
 end
@@ -1318,7 +1318,7 @@ arch brush
 x 8
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 8
 y 2
 end
@@ -1468,7 +1468,7 @@ arch wall_2_1_1
 x 8
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 8
 y 21
 end
@@ -1503,7 +1503,7 @@ arch dungeon_magic
 x 9
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 9
 y 2
 end
@@ -1657,7 +1657,7 @@ arch bed_save
 x 9
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 9
 y 21
 end
@@ -1684,7 +1684,7 @@ arch brush
 x 10
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 10
 y 2
 end
@@ -1860,7 +1860,7 @@ arch woodfloor
 x 10
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 10
 y 21
 end
@@ -1887,7 +1887,7 @@ arch brush
 x 11
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 2
 end
@@ -2025,7 +2025,7 @@ arch bed_save
 x 11
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 21
 end
@@ -2052,7 +2052,7 @@ arch brush
 x 12
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 12
 y 2
 end
@@ -2205,7 +2205,7 @@ arch wall_2_1_1
 x 12
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 12
 y 21
 end
@@ -2232,7 +2232,7 @@ arch brush
 x 13
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 13
 y 2
 end
@@ -2361,7 +2361,7 @@ arch woodfloor
 x 13
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 13
 y 21
 end
@@ -2404,7 +2404,7 @@ arch dungeon_magic
 x 14
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 14
 y 2
 end
@@ -2526,7 +2526,7 @@ x 14
 y 21
 connected 100
 end
-arch woodfloor
+arch cobblestones2
 x 14
 y 21
 end
@@ -2571,7 +2571,7 @@ arch brush
 x 15
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 15
 y 2
 end
@@ -2707,7 +2707,7 @@ arch woodfloor
 x 15
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 15
 y 21
 end
@@ -2746,7 +2746,7 @@ arch brush
 x 16
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 16
 y 2
 end
@@ -2873,7 +2873,7 @@ x 16
 y 20
 move_block all
 end
-arch woodfloor
+arch cobblestones2
 x 16
 y 21
 end
@@ -2900,7 +2900,7 @@ arch brush
 x 17
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 17
 y 2
 end
@@ -3059,7 +3059,7 @@ x 17
 y 20
 move_block all
 end
-arch woodfloor
+arch cobblestones2
 x 17
 y 21
 end
@@ -3086,7 +3086,7 @@ arch brush
 x 18
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 2
 end
@@ -3242,7 +3242,7 @@ arch dungeon_magic
 x 18
 y 21
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 21
 end
@@ -3269,7 +3269,7 @@ arch brush
 x 19
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 19
 y 2
 end
@@ -3387,7 +3387,7 @@ arch woodfloor
 x 19
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 19
 y 21
 end
@@ -3418,7 +3418,7 @@ arch brush
 x 20
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 20
 y 2
 end
@@ -3568,7 +3568,7 @@ arch chair_1.3
 x 20
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 20
 y 21
 end
@@ -3595,7 +3595,7 @@ arch tree
 x 21
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 21
 y 2
 end
@@ -3729,7 +3729,7 @@ arch chair_1.3
 x 21
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 21
 y 21
 end
@@ -3756,7 +3756,7 @@ arch brush
 x 22
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 22
 y 2
 end
@@ -3914,7 +3914,7 @@ arch chair_1.3
 x 22
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 22
 y 21
 end
@@ -3945,7 +3945,7 @@ arch brush
 x 23
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 23
 y 2
 end
@@ -4079,7 +4079,7 @@ arch chair_1.3
 x 23
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 23
 y 21
 end
@@ -4106,7 +4106,7 @@ arch brush
 x 24
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 24
 y 2
 end
@@ -4275,7 +4275,7 @@ arch chair_1.3
 x 24
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 24
 y 21
 end
@@ -4302,7 +4302,7 @@ arch tree
 x 25
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 25
 y 2
 end
@@ -4448,7 +4448,7 @@ arch woodfloor
 x 25
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 25
 y 21
 end
@@ -4475,7 +4475,7 @@ arch brush
 x 26
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 2
 end
@@ -4483,7 +4483,7 @@ arch wall_2_2_3
 x 26
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 3
 end
@@ -4491,7 +4491,7 @@ arch wall_2_1_1
 x 26
 y 3
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 4
 end
@@ -4499,7 +4499,7 @@ arch window_win1
 x 26
 y 4
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 5
 end
@@ -4507,7 +4507,7 @@ arch wall_2_1_1
 x 26
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 6
 end
@@ -4515,7 +4515,7 @@ arch wall_3_4
 x 26
 y 6
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 7
 end
@@ -4523,7 +4523,7 @@ arch wall_2_1_1
 x 26
 y 7
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 8
 end
@@ -4531,7 +4531,7 @@ arch wall_2_1_1
 x 26
 y 8
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 9
 end
@@ -4539,7 +4539,7 @@ arch wall_2_1_1
 x 26
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 10
 end
@@ -4547,7 +4547,7 @@ arch wall_2_1_1
 x 26
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 11
 end
@@ -4555,7 +4555,7 @@ arch wall_2_1_1
 x 26
 y 11
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 12
 end
@@ -4563,7 +4563,7 @@ arch wall_2_1_1
 x 26
 y 12
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 13
 end
@@ -4571,7 +4571,7 @@ arch wall_2_1_1
 x 26
 y 13
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 14
 end
@@ -4579,7 +4579,7 @@ arch wall_2_1_1
 x 26
 y 14
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 15
 end
@@ -4587,7 +4587,7 @@ arch wall_2_1_1
 x 26
 y 15
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 16
 end
@@ -4595,7 +4595,7 @@ arch wall_2_1_1
 x 26
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 17
 end
@@ -4603,7 +4603,7 @@ arch wall_3_4
 x 26
 y 17
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 18
 end
@@ -4611,7 +4611,7 @@ arch wall_2_1_1
 x 26
 y 18
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 19
 end
@@ -4619,7 +4619,7 @@ arch wall_2_1_1
 x 26
 y 19
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 20
 end
@@ -4627,7 +4627,7 @@ arch wall_2_1_1
 x 26
 y 20
 end
-arch woodfloor
+arch cobblestones2
 x 26
 y 21
 end
