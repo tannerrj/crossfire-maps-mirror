@@ -8,7 +8,7 @@ enter_x 7
 enter_y 10
 msg
 Created:  2001-09-05 Commander Gros (yann.chachkoff@mailandnews.com)
-Modified: 2012-09-25 Rick Tanner
+Modified: 2024-10-29 Rick Tanner
 Following a Lord MiDS idea
 endmsg
 outdoor 1
@@ -118,7 +118,7 @@ arch grass
 x 2
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 2
 end
@@ -126,7 +126,7 @@ arch woodwall_2_2_2
 x 2
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 3
 end
@@ -138,7 +138,7 @@ arch light2
 x 2
 y 4
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 4
 end
@@ -150,7 +150,7 @@ arch dungeon_magic
 x 2
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 5
 end
@@ -162,7 +162,7 @@ arch woodwall_2_1_1
 x 2
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 6
 end
@@ -174,7 +174,7 @@ arch woodwall_2_1_1
 x 2
 y 6
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 7
 end
@@ -182,7 +182,7 @@ arch woodwall_2_1_1
 x 2
 y 7
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 8
 end
@@ -194,7 +194,7 @@ arch light2
 x 2
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 9
 end
@@ -202,7 +202,7 @@ arch woodwall_win1
 x 2
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 10
 end
@@ -210,7 +210,7 @@ arch woodwall_2_1_1
 x 2
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 2
 y 11
 end
@@ -233,7 +233,7 @@ arch grass
 x 3
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 3
 y 2
 end
@@ -319,7 +319,7 @@ arch light2
 x 3
 y 11
 end
-arch woodfloor
+arch cobblestones2
 x 3
 y 11
 end
@@ -342,7 +342,7 @@ arch grass
 x 4
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 4
 y 2
 end
@@ -412,7 +412,7 @@ arch woodfloor
 x 4
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 4
 y 11
 end
@@ -435,7 +435,7 @@ arch grass
 x 5
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 5
 y 2
 end
@@ -491,7 +491,7 @@ arch light2
 x 5
 y 11
 end
-arch woodfloor
+arch cobblestones2
 x 5
 y 11
 end
@@ -514,7 +514,7 @@ arch grass
 x 6
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 6
 y 2
 end
@@ -587,7 +587,7 @@ arch woodfloor
 x 6
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 6
 y 11
 end
@@ -621,7 +621,7 @@ arch grass
 x 7
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 7
 y 2
 end
@@ -683,7 +683,7 @@ x 7
 y 11
 connected 1
 end
-arch woodfloor
+arch cobblestones2
 x 7
 y 11
 end
@@ -703,7 +703,7 @@ sp 29
 x 7
 y 12
 end
-arch grass
+arch cobblestones2
 x 7
 y 12
 end
@@ -718,7 +718,7 @@ arch grass
 x 8
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 8
 y 2
 end
@@ -779,7 +779,7 @@ arch woodfloor
 x 8
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 8
 y 11
 end
@@ -813,7 +813,7 @@ arch grass
 x 9
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 9
 y 2
 end
@@ -923,7 +923,7 @@ arch chair_2.3
 x 9
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 9
 y 11
 end
@@ -946,7 +946,7 @@ arch grass
 x 10
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 10
 y 2
 end
@@ -1009,7 +1009,7 @@ arch woodfloor
 x 10
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 10
 y 11
 end
@@ -1032,7 +1032,7 @@ arch grass
 x 11
 y 1
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 2
 end
@@ -1040,7 +1040,7 @@ arch woodwall_2_2_3
 x 11
 y 2
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 3
 end
@@ -1052,7 +1052,7 @@ arch light2
 x 11
 y 4
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 4
 end
@@ -1064,7 +1064,7 @@ arch dungeon_magic
 x 11
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 5
 end
@@ -1072,7 +1072,7 @@ arch woodwall_3_4
 x 11
 y 5
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 6
 end
@@ -1080,7 +1080,7 @@ arch woodwall_2_1_1
 x 11
 y 6
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 7
 end
@@ -1088,7 +1088,7 @@ arch woodwall_2_1_1
 x 11
 y 7
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 8
 end
@@ -1100,7 +1100,7 @@ arch light2
 x 11
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 9
 end
@@ -1108,7 +1108,7 @@ arch woodwall_win1
 x 11
 y 9
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 10
 end
@@ -1116,7 +1116,7 @@ arch woodwall_2_1_1
 x 11
 y 10
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 11
 end
