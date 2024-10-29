@@ -15,7 +15,7 @@ enter_x 3
 enter_y 37
 msg
 Created:  2005-05-23 Gene Alexander
-Modified: 2023-05-27 Rick Tanner
+Modified: 2024-10-29 Rick Tanner
 endmsg
 outdoor 1
 tile_path_2 brest.scrolls.right
@@ -2491,7 +2491,7 @@ exp 20
 x 9
 y 23
 end
-arch shop_empty
+arch stonefloor2
 x 9
 y 24
 end
@@ -2499,7 +2499,7 @@ arch flagstone_2_2_2
 x 9
 y 24
 end
-arch shop_empty
+arch stonefloor2
 x 9
 y 25
 end
@@ -2784,7 +2784,7 @@ exp 20
 x 10
 y 23
 end
-arch shop_empty
+arch stonefloor2
 x 10
 y 24
 end
@@ -2792,7 +2792,7 @@ arch flagstone_2_2_3
 x 10
 y 24
 end
-arch shop_empty
+arch stonefloor2
 x 10
 y 25
 end
@@ -3649,7 +3649,7 @@ exp 20
 x 13
 y 23
 end
-arch shop_empty
+arch stonefloor2
 x 13
 y 24
 end
@@ -3657,7 +3657,7 @@ arch flagstone_2_2_2
 x 13
 y 24
 end
-arch shop_empty
+arch stonefloor2
 x 13
 y 25
 end
@@ -3915,7 +3915,7 @@ exp 20
 x 14
 y 23
 end
-arch shop_empty
+arch stonefloor2
 x 14
 y 24
 end
@@ -3923,7 +3923,7 @@ arch flagstone_2_2_3
 x 14
 y 24
 end
-arch shop_empty
+arch stonefloor2
 x 14
 y 25
 end
