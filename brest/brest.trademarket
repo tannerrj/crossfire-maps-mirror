@@ -9,19 +9,19 @@ enter_x 7
 enter_y 15
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-03-14 Rick Tanner
+Modified: 2024-10-29 Rick Tanner
 endmsg
 end
 arch dungeon_magic
 end
-arch woodfloor
+arch dungeon_floor
 end
 arch woodwall_2_2_2
 end
 arch dungeon_magic
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 y 1
 end
 arch woodwall_2_1_1
@@ -30,7 +30,7 @@ end
 arch dungeon_magic
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 y 2
 end
 arch woodwall_2_1_1
@@ -39,7 +39,7 @@ end
 arch dungeon_magic
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 y 3
 end
 arch woodwall_2_1_1
@@ -48,7 +48,7 @@ end
 arch dungeon_magic
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 y 4
 end
 arch woodwall_2_1_1
@@ -57,7 +57,7 @@ end
 arch dungeon_magic
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 y 5
 end
 arch woodwall_2_1_1
@@ -66,7 +66,7 @@ end
 arch dungeon_magic
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 y 6
 end
 arch woodwall_2_1_1
@@ -75,7 +75,7 @@ end
 arch dungeon_magic
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 y 7
 end
 arch woodwall_2_1_1
@@ -84,7 +84,7 @@ end
 arch dungeon_magic
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 y 8
 end
 arch woodwall_2_1_1
@@ -93,7 +93,7 @@ end
 arch dungeon_magic
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 y 9
 end
 arch woodwall_2_1_1
@@ -102,7 +102,7 @@ end
 arch dungeon_magic
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 y 10
 end
 arch woodwall_2_1_1
@@ -111,7 +111,7 @@ end
 arch dungeon_magic
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 y 11
 end
 arch woodwall_2_1_1
@@ -120,7 +120,7 @@ end
 arch dungeon_magic
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 y 12
 end
 arch woodwall_2_1_1
@@ -129,7 +129,7 @@ end
 arch dungeon_magic
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 y 13
 end
 arch woodwall_2_1_1
@@ -138,7 +138,7 @@ end
 arch dungeon_magic
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 y 14
 end
 arch woodwall_2_1_1
@@ -147,7 +147,7 @@ end
 arch dungeon_magic
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 y 15
 end
 arch woodwall_2_2_1
@@ -177,7 +177,7 @@ end
 arch dungeon_magic
 x 1
 end
-arch woodfloor
+arch dungeon_floor
 x 1
 end
 arch woodwall_2_1_2
@@ -318,7 +318,7 @@ arch dungeon_magic
 x 1
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 1
 y 15
 end
@@ -374,7 +374,7 @@ end
 arch dungeon_magic
 x 2
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 end
 arch woodwall_2_1_2
@@ -554,7 +554,7 @@ arch dungeon_magic
 x 2
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 15
 end
@@ -615,7 +615,7 @@ end
 arch dungeon_magic
 x 3
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 end
 arch woodwall_2_1_2
@@ -819,7 +819,7 @@ arch dungeon_magic
 x 3
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 y 15
 end
@@ -858,7 +858,7 @@ end
 arch dungeon_magic
 x 4
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 end
 arch woodwall_2_1_2
@@ -1058,7 +1058,7 @@ arch dungeon_magic
 x 4
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 15
 end
@@ -1070,7 +1070,7 @@ arch dungeon_magic
 x 4
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 16
 end
@@ -1093,7 +1093,7 @@ end
 arch dungeon_magic
 x 5
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 end
 arch woodwall_2_1_2
@@ -1316,7 +1316,7 @@ arch dungeon_magic
 x 5
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 y 16
 end
@@ -1339,7 +1339,7 @@ end
 arch dungeon_magic
 x 6
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 end
 arch woodwall_2_1_2
@@ -1532,7 +1532,7 @@ arch dungeon_magic
 x 6
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 y 16
 end
@@ -1558,7 +1558,7 @@ end
 arch dungeon_magic
 x 7
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 end
 arch woodwall_2_1_2
@@ -1748,7 +1748,7 @@ arch dungeon_magic
 x 7
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 y 16
 end
@@ -1774,7 +1774,7 @@ end
 arch dungeon_magic
 x 8
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 end
 arch woodwall_2_1_2
@@ -2011,7 +2011,7 @@ arch dungeon_magic
 x 8
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 y 16
 end
@@ -2034,7 +2034,7 @@ end
 arch dungeon_magic
 x 9
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 end
 arch woodwall_2_1_2
@@ -2234,7 +2234,7 @@ arch dungeon_magic
 x 9
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 15
 end
@@ -2246,7 +2246,7 @@ arch dungeon_magic
 x 9
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 16
 end
@@ -2269,7 +2269,7 @@ end
 arch dungeon_magic
 x 10
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 end
 arch woodwall_2_1_2
@@ -2473,7 +2473,7 @@ arch dungeon_magic
 x 10
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 15
 end
@@ -2496,7 +2496,7 @@ end
 arch dungeon_magic
 x 11
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 end
 arch woodwall_2_1_2
@@ -2676,7 +2676,7 @@ arch dungeon_magic
 x 11
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 15
 end
@@ -2691,7 +2691,7 @@ end
 arch dungeon_magic
 x 12
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 end
 arch woodwall_2_1_2
@@ -2832,7 +2832,7 @@ arch dungeon_magic
 x 12
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 15
 end
@@ -2847,7 +2847,7 @@ end
 arch dungeon_magic
 x 13
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 end
 arch woodwall_2_2_3
@@ -2857,7 +2857,7 @@ arch dungeon_magic
 x 13
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 1
 end
@@ -2869,7 +2869,7 @@ arch dungeon_magic
 x 13
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 2
 end
@@ -2881,7 +2881,7 @@ arch dungeon_magic
 x 13
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 3
 end
@@ -2893,7 +2893,7 @@ arch dungeon_magic
 x 13
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 4
 end
@@ -2905,7 +2905,7 @@ arch dungeon_magic
 x 13
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 5
 end
@@ -2917,7 +2917,7 @@ arch dungeon_magic
 x 13
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 6
 end
@@ -2929,7 +2929,7 @@ arch dungeon_magic
 x 13
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 7
 end
@@ -2941,7 +2941,7 @@ arch dungeon_magic
 x 13
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 8
 end
@@ -2953,7 +2953,7 @@ arch dungeon_magic
 x 13
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 9
 end
@@ -2965,7 +2965,7 @@ arch dungeon_magic
 x 13
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 10
 end
@@ -2977,7 +2977,7 @@ arch dungeon_magic
 x 13
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 11
 end
@@ -2989,7 +2989,7 @@ arch dungeon_magic
 x 13
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 12
 end
@@ -3001,7 +3001,7 @@ arch dungeon_magic
 x 13
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 13
 end
@@ -3013,7 +3013,7 @@ arch dungeon_magic
 x 13
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 14
 end
@@ -3025,7 +3025,7 @@ arch dungeon_magic
 x 13
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 15
 end
