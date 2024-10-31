@@ -12557,8 +12557,10 @@ x 30
 y 29
 end
 arch wand
+food 10
 x 30
 y 29
+level 20
 randomitems none
 arch spell_magic_bullet
 end
@@ -12680,8 +12682,10 @@ x 30
 y 42
 end
 arch wand
+food 10
 x 30
 y 42
+level 20
 randomitems none
 arch spell_magic_bullet
 end
