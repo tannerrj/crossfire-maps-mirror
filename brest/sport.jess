@@ -8,7 +8,7 @@ enter_x 12
 enter_y 24
 msg
 Created:  1994-05-31
-Modified: 2023-12-11 Rick Tanner
+Modified: 2024-10-31 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -9131,31 +9131,19 @@ arch woodfloor
 x 32
 y 34
 end
-arch button_lever
-name for level more than 1
-x 32
-y 34
-connected 10
-end
 arch woodfloor
 x 32
 y 35
+end
+arch woodfloor
+x 32
+y 36
 end
 arch button_lever
 name level 10-12
 x 32
-y 35
+y 36
 connected 8
-end
-arch woodfloor
-x 32
-y 36
-end
-arch button_lever
-name level 8-12
-x 32
-y 36
-connected 6
 end
 arch woodfloor
 x 32
