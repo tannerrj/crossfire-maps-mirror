@@ -8,7 +8,7 @@ enter_x 46
 enter_y 11
 msg
 Created:  2008-06-19 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-11-14 Rick Tanner
+Modified: 2024-11-30 Rick Tanner
 endmsg
 end
 arch altar_trigger
@@ -7104,8 +7104,6 @@ end
 arch bag_popcorn
 x 22
 y 20
-type 0
-material 0
 no_pick 1
 end
 arch stonefloor2
