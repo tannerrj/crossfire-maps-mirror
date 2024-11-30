@@ -8,7 +8,7 @@ enter_x 61
 enter_y 30
 msg
 Created:  2008-07-26 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-05-29 Rick Tanner
+Modified: 2024-11-30 Rick Tanner
 endmsg
 end
 arch altar_trigger
@@ -59182,6 +59182,105 @@ arch blocked
 x 52
 y 49
 end
+arch blocked
+x 53
+end
+arch blocked
+x 53
+y 1
+end
+arch blocked
+x 53
+y 2
+end
+arch blocked
+x 53
+y 3
+end
+arch blocked
+x 53
+y 4
+end
+arch blocked
+x 53
+y 5
+end
+arch blocked
+x 53
+y 6
+end
+arch blocked
+x 53
+y 7
+end
+arch blocked
+x 53
+y 8
+end
+arch blocked
+x 53
+y 9
+end
+arch blocked
+x 53
+y 10
+end
+arch blocked
+x 53
+y 11
+end
+arch blocked
+x 53
+y 12
+end
+arch blocked
+x 53
+y 13
+end
+arch blocked
+x 53
+y 14
+end
+arch blocked
+x 53
+y 15
+end
+arch blocked
+x 53
+y 16
+end
+arch blocked
+x 53
+y 17
+end
+arch blocked
+x 53
+y 18
+end
+arch blocked
+x 53
+y 19
+end
+arch blocked
+x 53
+y 20
+end
+arch blocked
+x 53
+y 21
+end
+arch blocked
+x 53
+y 22
+end
+arch blocked
+x 53
+y 23
+end
+arch blocked
+x 53
+y 24
+end
 arch blackrock
 x 53
 y 25
@@ -59269,6 +59368,161 @@ end
 arch cave21
 x 53
 y 35
+end
+arch blocked
+x 53
+y 36
+end
+arch blocked
+x 53
+y 37
+end
+arch blocked
+x 53
+y 38
+end
+arch blocked
+x 53
+y 39
+end
+arch blocked
+x 53
+y 40
+end
+arch blocked
+x 53
+y 41
+end
+arch blocked
+x 53
+y 42
+end
+arch blocked
+x 53
+y 43
+end
+arch blocked
+x 53
+y 44
+end
+arch blocked
+x 53
+y 45
+end
+arch blocked
+x 53
+y 46
+end
+arch blocked
+x 53
+y 47
+end
+arch blocked
+x 53
+y 48
+end
+arch blocked
+x 53
+y 49
+end
+arch blocked
+x 54
+end
+arch blocked
+x 54
+y 1
+end
+arch blocked
+x 54
+y 2
+end
+arch blocked
+x 54
+y 3
+end
+arch blocked
+x 54
+y 4
+end
+arch blocked
+x 54
+y 5
+end
+arch blocked
+x 54
+y 6
+end
+arch blocked
+x 54
+y 7
+end
+arch blocked
+x 54
+y 8
+end
+arch blocked
+x 54
+y 9
+end
+arch blocked
+x 54
+y 10
+end
+arch blocked
+x 54
+y 11
+end
+arch blocked
+x 54
+y 12
+end
+arch blocked
+x 54
+y 13
+end
+arch blocked
+x 54
+y 14
+end
+arch blocked
+x 54
+y 15
+end
+arch blocked
+x 54
+y 16
+end
+arch blocked
+x 54
+y 17
+end
+arch blocked
+x 54
+y 18
+end
+arch blocked
+x 54
+y 19
+end
+arch blocked
+x 54
+y 20
+end
+arch blocked
+x 54
+y 21
+end
+arch blocked
+x 54
+y 22
+end
+arch blocked
+x 54
+y 23
+end
+arch blocked
+x 54
+y 24
 end
 arch blackrock
 x 54
@@ -59333,6 +59587,161 @@ arch cave21
 x 54
 y 35
 end
+arch blocked
+x 54
+y 36
+end
+arch blocked
+x 54
+y 37
+end
+arch blocked
+x 54
+y 38
+end
+arch blocked
+x 54
+y 39
+end
+arch blocked
+x 54
+y 40
+end
+arch blocked
+x 54
+y 41
+end
+arch blocked
+x 54
+y 42
+end
+arch blocked
+x 54
+y 43
+end
+arch blocked
+x 54
+y 44
+end
+arch blocked
+x 54
+y 45
+end
+arch blocked
+x 54
+y 46
+end
+arch blocked
+x 54
+y 47
+end
+arch blocked
+x 54
+y 48
+end
+arch blocked
+x 54
+y 49
+end
+arch blocked
+x 55
+end
+arch blocked
+x 55
+y 1
+end
+arch blocked
+x 55
+y 2
+end
+arch blocked
+x 55
+y 3
+end
+arch blocked
+x 55
+y 4
+end
+arch blocked
+x 55
+y 5
+end
+arch blocked
+x 55
+y 6
+end
+arch blocked
+x 55
+y 7
+end
+arch blocked
+x 55
+y 8
+end
+arch blocked
+x 55
+y 9
+end
+arch blocked
+x 55
+y 10
+end
+arch blocked
+x 55
+y 11
+end
+arch blocked
+x 55
+y 12
+end
+arch blocked
+x 55
+y 13
+end
+arch blocked
+x 55
+y 14
+end
+arch blocked
+x 55
+y 15
+end
+arch blocked
+x 55
+y 16
+end
+arch blocked
+x 55
+y 17
+end
+arch blocked
+x 55
+y 18
+end
+arch blocked
+x 55
+y 19
+end
+arch blocked
+x 55
+y 20
+end
+arch blocked
+x 55
+y 21
+end
+arch blocked
+x 55
+y 22
+end
+arch blocked
+x 55
+y 23
+end
+arch blocked
+x 55
+y 24
+end
 arch blackrock
 x 55
 y 25
@@ -59387,6 +59796,18 @@ y 35
 end
 arch blocked
 x 55
+y 36
+end
+arch blocked
+x 55
+y 37
+end
+arch blocked
+x 55
+y 38
+end
+arch blocked
+x 55
 y 39
 end
 arch blocked
@@ -59412,6 +59833,121 @@ end
 arch blocked
 x 55
 y 45
+end
+arch blocked
+x 55
+y 46
+end
+arch blocked
+x 55
+y 47
+end
+arch blocked
+x 55
+y 48
+end
+arch blocked
+x 55
+y 49
+end
+arch blocked
+x 56
+end
+arch blocked
+x 56
+y 1
+end
+arch blocked
+x 56
+y 2
+end
+arch blocked
+x 56
+y 3
+end
+arch blocked
+x 56
+y 4
+end
+arch blocked
+x 56
+y 5
+end
+arch blocked
+x 56
+y 6
+end
+arch blocked
+x 56
+y 7
+end
+arch blocked
+x 56
+y 8
+end
+arch blocked
+x 56
+y 9
+end
+arch blocked
+x 56
+y 10
+end
+arch blocked
+x 56
+y 11
+end
+arch blocked
+x 56
+y 12
+end
+arch blocked
+x 56
+y 13
+end
+arch blocked
+x 56
+y 14
+end
+arch blocked
+x 56
+y 15
+end
+arch blocked
+x 56
+y 16
+end
+arch blocked
+x 56
+y 17
+end
+arch blocked
+x 56
+y 18
+end
+arch blocked
+x 56
+y 19
+end
+arch blocked
+x 56
+y 20
+end
+arch blocked
+x 56
+y 21
+end
+arch blocked
+x 56
+y 22
+end
+arch blocked
+x 56
+y 23
+end
+arch blocked
+x 56
+y 24
 end
 arch blackrock
 x 56
@@ -59477,6 +60013,18 @@ y 35
 end
 arch blocked
 x 56
+y 36
+end
+arch blocked
+x 56
+y 37
+end
+arch blocked
+x 56
+y 38
+end
+arch blocked
+x 56
 y 39
 end
 arch teleporter
@@ -59547,6 +60095,121 @@ end
 arch blocked
 x 56
 y 45
+end
+arch blocked
+x 56
+y 46
+end
+arch blocked
+x 56
+y 47
+end
+arch blocked
+x 56
+y 48
+end
+arch blocked
+x 56
+y 49
+end
+arch blocked
+x 57
+end
+arch blocked
+x 57
+y 1
+end
+arch blocked
+x 57
+y 2
+end
+arch blocked
+x 57
+y 3
+end
+arch blocked
+x 57
+y 4
+end
+arch blocked
+x 57
+y 5
+end
+arch blocked
+x 57
+y 6
+end
+arch blocked
+x 57
+y 7
+end
+arch blocked
+x 57
+y 8
+end
+arch blocked
+x 57
+y 9
+end
+arch blocked
+x 57
+y 10
+end
+arch blocked
+x 57
+y 11
+end
+arch blocked
+x 57
+y 12
+end
+arch blocked
+x 57
+y 13
+end
+arch blocked
+x 57
+y 14
+end
+arch blocked
+x 57
+y 15
+end
+arch blocked
+x 57
+y 16
+end
+arch blocked
+x 57
+y 17
+end
+arch blocked
+x 57
+y 18
+end
+arch blocked
+x 57
+y 19
+end
+arch blocked
+x 57
+y 20
+end
+arch blocked
+x 57
+y 21
+end
+arch blocked
+x 57
+y 22
+end
+arch blocked
+x 57
+y 23
+end
+arch blocked
+x 57
+y 24
 end
 arch blackrock
 x 57
@@ -59622,6 +60285,18 @@ y 35
 end
 arch blocked
 x 57
+y 36
+end
+arch blocked
+x 57
+y 37
+end
+arch blocked
+x 57
+y 38
+end
+arch blocked
+x 57
 y 39
 end
 arch teleporter
@@ -59692,6 +60367,121 @@ end
 arch blocked
 x 57
 y 45
+end
+arch blocked
+x 57
+y 46
+end
+arch blocked
+x 57
+y 47
+end
+arch blocked
+x 57
+y 48
+end
+arch blocked
+x 57
+y 49
+end
+arch blocked
+x 58
+end
+arch blocked
+x 58
+y 1
+end
+arch blocked
+x 58
+y 2
+end
+arch blocked
+x 58
+y 3
+end
+arch blocked
+x 58
+y 4
+end
+arch blocked
+x 58
+y 5
+end
+arch blocked
+x 58
+y 6
+end
+arch blocked
+x 58
+y 7
+end
+arch blocked
+x 58
+y 8
+end
+arch blocked
+x 58
+y 9
+end
+arch blocked
+x 58
+y 10
+end
+arch blocked
+x 58
+y 11
+end
+arch blocked
+x 58
+y 12
+end
+arch blocked
+x 58
+y 13
+end
+arch blocked
+x 58
+y 14
+end
+arch blocked
+x 58
+y 15
+end
+arch blocked
+x 58
+y 16
+end
+arch blocked
+x 58
+y 17
+end
+arch blocked
+x 58
+y 18
+end
+arch blocked
+x 58
+y 19
+end
+arch blocked
+x 58
+y 20
+end
+arch blocked
+x 58
+y 21
+end
+arch blocked
+x 58
+y 22
+end
+arch blocked
+x 58
+y 23
+end
+arch blocked
+x 58
+y 24
 end
 arch blackrock
 x 58
@@ -59747,6 +60537,18 @@ y 35
 end
 arch blocked
 x 58
+y 36
+end
+arch blocked
+x 58
+y 37
+end
+arch blocked
+x 58
+y 38
+end
+arch blocked
+x 58
 y 39
 end
 arch teleporter
@@ -59817,6 +60619,121 @@ end
 arch blocked
 x 58
 y 45
+end
+arch blocked
+x 58
+y 46
+end
+arch blocked
+x 58
+y 47
+end
+arch blocked
+x 58
+y 48
+end
+arch blocked
+x 58
+y 49
+end
+arch blocked
+x 59
+end
+arch blocked
+x 59
+y 1
+end
+arch blocked
+x 59
+y 2
+end
+arch blocked
+x 59
+y 3
+end
+arch blocked
+x 59
+y 4
+end
+arch blocked
+x 59
+y 5
+end
+arch blocked
+x 59
+y 6
+end
+arch blocked
+x 59
+y 7
+end
+arch blocked
+x 59
+y 8
+end
+arch blocked
+x 59
+y 9
+end
+arch blocked
+x 59
+y 10
+end
+arch blocked
+x 59
+y 11
+end
+arch blocked
+x 59
+y 12
+end
+arch blocked
+x 59
+y 13
+end
+arch blocked
+x 59
+y 14
+end
+arch blocked
+x 59
+y 15
+end
+arch blocked
+x 59
+y 16
+end
+arch blocked
+x 59
+y 17
+end
+arch blocked
+x 59
+y 18
+end
+arch blocked
+x 59
+y 19
+end
+arch blocked
+x 59
+y 20
+end
+arch blocked
+x 59
+y 21
+end
+arch blocked
+x 59
+y 22
+end
+arch blocked
+x 59
+y 23
+end
+arch blocked
+x 59
+y 24
 end
 arch blackrock
 x 59
@@ -59879,6 +60796,18 @@ y 35
 end
 arch blocked
 x 59
+y 36
+end
+arch blocked
+x 59
+y 37
+end
+arch blocked
+x 59
+y 38
+end
+arch blocked
+x 59
 y 39
 end
 arch teleporter
@@ -59949,6 +60878,121 @@ end
 arch blocked
 x 59
 y 45
+end
+arch blocked
+x 59
+y 46
+end
+arch blocked
+x 59
+y 47
+end
+arch blocked
+x 59
+y 48
+end
+arch blocked
+x 59
+y 49
+end
+arch blocked
+x 60
+end
+arch blocked
+x 60
+y 1
+end
+arch blocked
+x 60
+y 2
+end
+arch blocked
+x 60
+y 3
+end
+arch blocked
+x 60
+y 4
+end
+arch blocked
+x 60
+y 5
+end
+arch blocked
+x 60
+y 6
+end
+arch blocked
+x 60
+y 7
+end
+arch blocked
+x 60
+y 8
+end
+arch blocked
+x 60
+y 9
+end
+arch blocked
+x 60
+y 10
+end
+arch blocked
+x 60
+y 11
+end
+arch blocked
+x 60
+y 12
+end
+arch blocked
+x 60
+y 13
+end
+arch blocked
+x 60
+y 14
+end
+arch blocked
+x 60
+y 15
+end
+arch blocked
+x 60
+y 16
+end
+arch blocked
+x 60
+y 17
+end
+arch blocked
+x 60
+y 18
+end
+arch blocked
+x 60
+y 19
+end
+arch blocked
+x 60
+y 20
+end
+arch blocked
+x 60
+y 21
+end
+arch blocked
+x 60
+y 22
+end
+arch blocked
+x 60
+y 23
+end
+arch blocked
+x 60
+y 24
 end
 arch blackrock
 x 60
@@ -60014,6 +61058,18 @@ y 35
 end
 arch blocked
 x 60
+y 36
+end
+arch blocked
+x 60
+y 37
+end
+arch blocked
+x 60
+y 38
+end
+arch blocked
+x 60
 y 39
 end
 arch teleporter
@@ -60084,6 +61140,121 @@ end
 arch blocked
 x 60
 y 45
+end
+arch blocked
+x 60
+y 46
+end
+arch blocked
+x 60
+y 47
+end
+arch blocked
+x 60
+y 48
+end
+arch blocked
+x 60
+y 49
+end
+arch blocked
+x 61
+end
+arch blocked
+x 61
+y 1
+end
+arch blocked
+x 61
+y 2
+end
+arch blocked
+x 61
+y 3
+end
+arch blocked
+x 61
+y 4
+end
+arch blocked
+x 61
+y 5
+end
+arch blocked
+x 61
+y 6
+end
+arch blocked
+x 61
+y 7
+end
+arch blocked
+x 61
+y 8
+end
+arch blocked
+x 61
+y 9
+end
+arch blocked
+x 61
+y 10
+end
+arch blocked
+x 61
+y 11
+end
+arch blocked
+x 61
+y 12
+end
+arch blocked
+x 61
+y 13
+end
+arch blocked
+x 61
+y 14
+end
+arch blocked
+x 61
+y 15
+end
+arch blocked
+x 61
+y 16
+end
+arch blocked
+x 61
+y 17
+end
+arch blocked
+x 61
+y 18
+end
+arch blocked
+x 61
+y 19
+end
+arch blocked
+x 61
+y 20
+end
+arch blocked
+x 61
+y 21
+end
+arch blocked
+x 61
+y 22
+end
+arch blocked
+x 61
+y 23
+end
+arch blocked
+x 61
+y 24
 end
 arch blackrock
 x 61
@@ -60147,6 +61318,18 @@ y 35
 end
 arch blocked
 x 61
+y 36
+end
+arch blocked
+x 61
+y 37
+end
+arch blocked
+x 61
+y 38
+end
+arch blocked
+x 61
 y 39
 end
 arch blocked
@@ -60173,6 +61356,121 @@ arch blocked
 x 61
 y 45
 end
+arch blocked
+x 61
+y 46
+end
+arch blocked
+x 61
+y 47
+end
+arch blocked
+x 61
+y 48
+end
+arch blocked
+x 61
+y 49
+end
+arch blocked
+x 62
+end
+arch blocked
+x 62
+y 1
+end
+arch blocked
+x 62
+y 2
+end
+arch blocked
+x 62
+y 3
+end
+arch blocked
+x 62
+y 4
+end
+arch blocked
+x 62
+y 5
+end
+arch blocked
+x 62
+y 6
+end
+arch blocked
+x 62
+y 7
+end
+arch blocked
+x 62
+y 8
+end
+arch blocked
+x 62
+y 9
+end
+arch blocked
+x 62
+y 10
+end
+arch blocked
+x 62
+y 11
+end
+arch blocked
+x 62
+y 12
+end
+arch blocked
+x 62
+y 13
+end
+arch blocked
+x 62
+y 14
+end
+arch blocked
+x 62
+y 15
+end
+arch blocked
+x 62
+y 16
+end
+arch blocked
+x 62
+y 17
+end
+arch blocked
+x 62
+y 18
+end
+arch blocked
+x 62
+y 19
+end
+arch blocked
+x 62
+y 20
+end
+arch blocked
+x 62
+y 21
+end
+arch blocked
+x 62
+y 22
+end
+arch blocked
+x 62
+y 23
+end
+arch blocked
+x 62
+y 24
+end
 arch blackrock
 x 62
 y 25
@@ -60260,4 +61558,60 @@ end
 arch cave21
 x 62
 y 35
+end
+arch blocked
+x 62
+y 36
+end
+arch blocked
+x 62
+y 37
+end
+arch blocked
+x 62
+y 38
+end
+arch blocked
+x 62
+y 39
+end
+arch blocked
+x 62
+y 40
+end
+arch blocked
+x 62
+y 41
+end
+arch blocked
+x 62
+y 42
+end
+arch blocked
+x 62
+y 43
+end
+arch blocked
+x 62
+y 44
+end
+arch blocked
+x 62
+y 45
+end
+arch blocked
+x 62
+y 46
+end
+arch blocked
+x 62
+y 47
+end
+arch blocked
+x 62
+y 48
+end
+arch blocked
+x 62
+y 49
 end
