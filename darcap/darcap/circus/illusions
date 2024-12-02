@@ -8,7 +8,7 @@ enter_x 18
 enter_y 11
 msg
 Created:  1999-01-28 Cater & Wade (john_cater@yahoo.com)
-Modified: 2023-11-09 Rick Tanner
+Modified: 2024-12-02 Rick Tanner
 endmsg
 end
 arch small_stones
@@ -1077,7 +1077,7 @@ arch pstone_1
 x 4
 y 10
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 4
 y 10
 end
@@ -1127,7 +1127,7 @@ arch pstone_1
 x 4
 y 13
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 4
 y 13
 end
@@ -2420,7 +2420,7 @@ arch pstone_1
 x 9
 y 5
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 9
 y 5
 end
@@ -2472,7 +2472,7 @@ arch pstone_1
 x 9
 y 8
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 8
 end
@@ -2515,10 +2515,9 @@ arch pstone_1
 x 9
 y 11
 end
-arch grate_closed_2
+arch woodwall_1_2
 x 9
 y 11
-connected 2
 end
 arch magic_banned
 x 9
@@ -2548,7 +2547,7 @@ arch pstone_1
 x 9
 y 13
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 13
 end
@@ -2572,7 +2571,7 @@ arch pstone_1
 x 9
 y 15
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 9
 y 15
 end
@@ -2624,7 +2623,7 @@ arch pstone_1
 x 9
 y 18
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 18
 end
@@ -2696,7 +2695,7 @@ arch pstone_1
 x 9
 y 30
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 9
 y 30
 end
@@ -2734,7 +2733,7 @@ arch pstone_1
 x 9
 y 33
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 33
 end
@@ -2758,7 +2757,7 @@ arch pstone_1
 x 9
 y 35
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 9
 y 35
 end
@@ -2796,7 +2795,7 @@ arch pstone_1
 x 9
 y 38
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 38
 end
@@ -2820,7 +2819,7 @@ arch pstone_1
 x 9
 y 40
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 9
 y 40
 end
@@ -2858,7 +2857,7 @@ arch pstone_1
 x 9
 y 43
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 9
 y 43
 end
@@ -4811,7 +4810,7 @@ arch pstone_1
 x 15
 y 9
 end
-arch woodwall_3_2
+arch woodwall_2_2_1
 x 15
 y 9
 end
@@ -4875,7 +4874,7 @@ arch pstone_1
 x 15
 y 14
 end
-arch woodwall_3_2
+arch woodwall_2_2_2
 x 15
 y 14
 end
@@ -5031,7 +5030,7 @@ arch pstone_1
 x 15
 y 34
 end
-arch woodwall_3_2
+arch woodwall_2_2_1
 x 15
 y 34
 end
@@ -5091,7 +5090,7 @@ arch pstone_1
 x 15
 y 39
 end
-arch woodwall_3_2
+arch woodwall_2_2_2
 x 15
 y 39
 end
@@ -10600,7 +10599,7 @@ arch pstone_1
 x 34
 y 5
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 5
 end
@@ -10638,7 +10637,7 @@ arch pstone_1
 x 34
 y 8
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 8
 end
@@ -10662,7 +10661,7 @@ arch pstone_1
 x 34
 y 10
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 10
 end
@@ -10700,7 +10699,7 @@ arch pstone_1
 x 34
 y 13
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 13
 end
@@ -10724,7 +10723,7 @@ arch pstone_1
 x 34
 y 15
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 15
 end
@@ -10762,7 +10761,7 @@ arch pstone_1
 x 34
 y 18
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 18
 end
@@ -10834,7 +10833,7 @@ arch pstone_1
 x 34
 y 30
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 30
 end
@@ -10872,7 +10871,7 @@ arch pstone_1
 x 34
 y 33
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 33
 end
@@ -10896,7 +10895,7 @@ arch pstone_1
 x 34
 y 35
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 35
 end
@@ -10934,7 +10933,7 @@ arch pstone_1
 x 34
 y 38
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 38
 end
@@ -10958,7 +10957,7 @@ arch pstone_1
 x 34
 y 40
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 34
 y 40
 end
@@ -10996,7 +10995,7 @@ arch pstone_1
 x 34
 y 43
 end
-arch woodwall_2_1_1
+arch woodwall_1_1
 x 34
 y 43
 end
@@ -12949,7 +12948,7 @@ arch pstone_1
 x 40
 y 9
 end
-arch woodwall_3_2
+arch woodwall_2_2_1
 x 40
 y 9
 end
@@ -13009,7 +13008,7 @@ arch pstone_1
 x 40
 y 14
 end
-arch woodwall_3_2
+arch woodwall_2_2_2
 x 40
 y 14
 end
@@ -13165,7 +13164,7 @@ arch pstone_1
 x 40
 y 34
 end
-arch woodwall_3_2
+arch woodwall_2_2_1
 x 40
 y 34
 end
@@ -13225,7 +13224,7 @@ arch pstone_1
 x 40
 y 39
 end
-arch woodwall_3_2
+arch woodwall_2_2_2
 x 40
 y 39
 end
