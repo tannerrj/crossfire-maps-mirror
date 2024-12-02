@@ -8,7 +8,7 @@ enter_x 26
 enter_y 8
 msg
 Created:  2008-06-17 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-05-29 Rick Tanner
+Modified: 2024-12-02 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -6782,6 +6782,25 @@ arch stwall_2_2_4
 x 22
 y 16
 end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
+arch blocked
+x 23
+y 2
+end
+arch blocked
+x 23
+y 3
+end
+arch blocked
+x 23
+y 4
+end
 arch stonefloor2
 x 23
 y 5
@@ -6817,6 +6836,45 @@ end
 arch stwall_2_1_2
 x 23
 y 11
+end
+arch blocked
+x 23
+y 12
+end
+arch blocked
+x 23
+y 13
+end
+arch blocked
+x 23
+y 14
+end
+arch blocked
+x 23
+y 15
+end
+arch blocked
+x 23
+y 16
+end
+arch blocked
+x 24
+end
+arch blocked
+x 24
+y 1
+end
+arch blocked
+x 24
+y 2
+end
+arch blocked
+x 24
+y 3
+end
+arch blocked
+x 24
+y 4
 end
 arch tile_tan_floor
 name Wrestling Mat
@@ -6874,6 +6932,45 @@ arch stwall_2_1_2
 x 24
 y 11
 end
+arch blocked
+x 24
+y 12
+end
+arch blocked
+x 24
+y 13
+end
+arch blocked
+x 24
+y 14
+end
+arch blocked
+x 24
+y 15
+end
+arch blocked
+x 24
+y 16
+end
+arch blocked
+x 25
+end
+arch blocked
+x 25
+y 1
+end
+arch blocked
+x 25
+y 2
+end
+arch blocked
+x 25
+y 3
+end
+arch blocked
+x 25
+y 4
+end
 arch stonefloor2
 x 25
 y 5
@@ -6912,6 +7009,14 @@ y 11
 end
 arch blocked
 x 25
+y 12
+end
+arch blocked
+x 25
+y 13
+end
+arch blocked
+x 25
 y 14
 end
 arch blocked
@@ -6936,6 +7041,10 @@ end
 arch awall_2_2_1
 x 26
 y 3
+end
+arch blocked
+x 26
+y 4
 end
 arch stonefloor2
 x 26
@@ -6980,6 +7089,14 @@ end
 arch stwall_2_1_2
 x 26
 y 11
+end
+arch blocked
+x 26
+y 12
+end
+arch blocked
+x 26
+y 13
 end
 arch blocked
 x 26
@@ -7042,6 +7159,10 @@ arch awall_2_1_2
 x 27
 y 3
 end
+arch blocked
+x 27
+y 4
+end
 arch stonefloor2
 x 27
 y 5
@@ -7097,6 +7218,14 @@ end
 arch stwall_2_2_4
 x 27
 y 11
+end
+arch blocked
+x 27
+y 12
+end
+arch blocked
+x 27
+y 13
 end
 arch blocked
 x 27
