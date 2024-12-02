@@ -5,7 +5,7 @@ width 50
 height 30
 msg
 Created:  2016-01-21 radish
-Modified: 2023-11-10 Rick Tanner
+Modified: 2024-12-02 Rick Tanner
 endmsg
 end
 arch cobblestones
@@ -6623,6 +6623,10 @@ x 27
 y 2
 end
 arch white_wall_2_2_1
+x 27
+y 2
+end
+arch swall_1_1_half
 x 27
 y 2
 end
