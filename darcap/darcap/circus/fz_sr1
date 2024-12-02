@@ -8,7 +8,7 @@ enter_x 40
 enter_y 27
 msg
 Created:  2008-07-30 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-05-29 Rick Tanner
+Modified: 2024-12-02 Rick Tanner
 endmsg
 end
 arch stonefloor2
@@ -30008,6 +30008,101 @@ arch stwall_2_2_4
 x 35
 y 54
 end
+arch blocked
+x 36
+end
+arch blocked
+x 36
+y 1
+end
+arch blocked
+x 36
+y 2
+end
+arch blocked
+x 36
+y 3
+end
+arch blocked
+x 36
+y 4
+end
+arch blocked
+x 36
+y 5
+end
+arch blocked
+x 36
+y 6
+end
+arch blocked
+x 36
+y 7
+end
+arch blocked
+x 36
+y 8
+end
+arch blocked
+x 36
+y 9
+end
+arch blocked
+x 36
+y 10
+end
+arch blocked
+x 36
+y 11
+end
+arch blocked
+x 36
+y 12
+end
+arch blocked
+x 36
+y 13
+end
+arch blocked
+x 36
+y 14
+end
+arch blocked
+x 36
+y 15
+end
+arch blocked
+x 36
+y 16
+end
+arch blocked
+x 36
+y 17
+end
+arch blocked
+x 36
+y 18
+end
+arch blocked
+x 36
+y 19
+end
+arch blocked
+x 36
+y 20
+end
+arch blocked
+x 36
+y 21
+end
+arch blocked
+x 36
+y 22
+end
+arch blocked
+x 36
+y 23
+end
 arch stonefloor2
 x 36
 y 24
@@ -30044,6 +30139,102 @@ arch stwall_2_1_2
 x 36
 y 30
 end
+arch blocked
+x 36
+y 31
+end
+arch blocked
+x 36
+y 32
+end
+arch blocked
+x 36
+y 33
+end
+arch blocked
+x 36
+y 34
+end
+arch blocked
+x 36
+y 35
+end
+arch blocked
+x 36
+y 36
+end
+arch blocked
+x 36
+y 37
+end
+arch blocked
+x 36
+y 38
+end
+arch blocked
+x 36
+y 39
+end
+arch blocked
+x 36
+y 40
+end
+arch blocked
+x 36
+y 41
+end
+arch blocked
+x 36
+y 42
+end
+arch blocked
+x 36
+y 43
+end
+arch blocked
+x 36
+y 44
+end
+arch blocked
+x 36
+y 45
+end
+arch blocked
+x 36
+y 46
+end
+arch blocked
+x 36
+y 47
+end
+arch blocked
+x 36
+y 48
+end
+arch blocked
+x 36
+y 49
+end
+arch blocked
+x 36
+y 50
+end
+arch blocked
+x 36
+y 51
+end
+arch blocked
+x 36
+y 52
+end
+arch blocked
+x 36
+y 53
+end
+arch blocked
+x 36
+y 54
+end
 arch duplicator
 other_arch cwall_0
 x 37
@@ -30073,6 +30264,10 @@ material 0
 move_slow swim
 move_slow_penalty 10
 end
+end
+arch blocked
+x 37
+y 2
 end
 arch duplicator
 other_arch cwall_0
@@ -30105,6 +30300,82 @@ material 0
 move_slow swim
 move_slow_penalty 10
 end
+end
+arch blocked
+x 37
+y 5
+end
+arch blocked
+x 37
+y 6
+end
+arch blocked
+x 37
+y 7
+end
+arch blocked
+x 37
+y 8
+end
+arch blocked
+x 37
+y 9
+end
+arch blocked
+x 37
+y 10
+end
+arch blocked
+x 37
+y 11
+end
+arch blocked
+x 37
+y 12
+end
+arch blocked
+x 37
+y 13
+end
+arch blocked
+x 37
+y 14
+end
+arch blocked
+x 37
+y 15
+end
+arch blocked
+x 37
+y 16
+end
+arch blocked
+x 37
+y 17
+end
+arch blocked
+x 37
+y 18
+end
+arch blocked
+x 37
+y 19
+end
+arch blocked
+x 37
+y 20
+end
+arch blocked
+x 37
+y 21
+end
+arch blocked
+x 37
+y 22
+end
+arch blocked
+x 37
+y 23
 end
 arch stonefloor2
 x 37
@@ -30142,6 +30413,102 @@ arch stwall_2_1_2
 x 37
 y 30
 end
+arch blocked
+x 37
+y 31
+end
+arch blocked
+x 37
+y 32
+end
+arch blocked
+x 37
+y 33
+end
+arch blocked
+x 37
+y 34
+end
+arch blocked
+x 37
+y 35
+end
+arch blocked
+x 37
+y 36
+end
+arch blocked
+x 37
+y 37
+end
+arch blocked
+x 37
+y 38
+end
+arch blocked
+x 37
+y 39
+end
+arch blocked
+x 37
+y 40
+end
+arch blocked
+x 37
+y 41
+end
+arch blocked
+x 37
+y 42
+end
+arch blocked
+x 37
+y 43
+end
+arch blocked
+x 37
+y 44
+end
+arch blocked
+x 37
+y 45
+end
+arch blocked
+x 37
+y 46
+end
+arch blocked
+x 37
+y 47
+end
+arch blocked
+x 37
+y 48
+end
+arch blocked
+x 37
+y 49
+end
+arch blocked
+x 37
+y 50
+end
+arch blocked
+x 37
+y 51
+end
+arch blocked
+x 37
+y 52
+end
+arch blocked
+x 37
+y 53
+end
+arch blocked
+x 37
+y 54
+end
 arch duplicator
 other_arch mine0
 x 38
@@ -30171,6 +30538,10 @@ material 0
 move_slow swim
 move_slow_penalty 15
 end
+end
+arch blocked
+x 38
+y 2
 end
 arch duplicator
 other_arch mine0
@@ -30203,6 +30574,10 @@ material 0
 move_slow swim
 move_slow_penalty 15
 end
+end
+arch blocked
+x 38
+y 5
 end
 arch stwall_2_2_2
 x 38
@@ -30243,6 +30618,38 @@ end
 arch stwall_2_2_1
 x 38
 y 15
+end
+arch blocked
+x 38
+y 16
+end
+arch blocked
+x 38
+y 17
+end
+arch blocked
+x 38
+y 18
+end
+arch blocked
+x 38
+y 19
+end
+arch blocked
+x 38
+y 20
+end
+arch blocked
+x 38
+y 21
+end
+arch blocked
+x 38
+y 22
+end
+arch blocked
+x 38
+y 23
 end
 arch stonefloor2
 x 38
@@ -30288,6 +30695,102 @@ arch stwall_2_1_2
 x 38
 y 30
 end
+arch blocked
+x 38
+y 31
+end
+arch blocked
+x 38
+y 32
+end
+arch blocked
+x 38
+y 33
+end
+arch blocked
+x 38
+y 34
+end
+arch blocked
+x 38
+y 35
+end
+arch blocked
+x 38
+y 36
+end
+arch blocked
+x 38
+y 37
+end
+arch blocked
+x 38
+y 38
+end
+arch blocked
+x 38
+y 39
+end
+arch blocked
+x 38
+y 40
+end
+arch blocked
+x 38
+y 41
+end
+arch blocked
+x 38
+y 42
+end
+arch blocked
+x 38
+y 43
+end
+arch blocked
+x 38
+y 44
+end
+arch blocked
+x 38
+y 45
+end
+arch blocked
+x 38
+y 46
+end
+arch blocked
+x 38
+y 47
+end
+arch blocked
+x 38
+y 48
+end
+arch blocked
+x 38
+y 49
+end
+arch blocked
+x 38
+y 50
+end
+arch blocked
+x 38
+y 51
+end
+arch blocked
+x 38
+y 52
+end
+arch blocked
+x 38
+y 53
+end
+arch blocked
+x 38
+y 54
+end
 arch duplicator
 other_arch rock
 x 39
@@ -30318,6 +30821,10 @@ name Teleport Trap
 face teleporter.111
 move_on swim
 end
+end
+arch blocked
+x 39
+y 2
 end
 arch duplicator
 other_arch rock
@@ -30351,6 +30858,10 @@ name Teleport Trap
 face teleporter.111
 move_on swim
 end
+end
+arch blocked
+x 39
+y 5
 end
 arch stwall_2_1_2
 x 39
@@ -30422,6 +30933,38 @@ arch stwall_2_1_2
 x 39
 y 15
 end
+arch blocked
+x 39
+y 16
+end
+arch blocked
+x 39
+y 17
+end
+arch blocked
+x 39
+y 18
+end
+arch blocked
+x 39
+y 19
+end
+arch blocked
+x 39
+y 20
+end
+arch blocked
+x 39
+y 21
+end
+arch blocked
+x 39
+y 22
+end
+arch blocked
+x 39
+y 23
+end
 arch stonefloor2
 x 39
 y 24
@@ -30458,6 +31001,102 @@ arch stwall_2_1_2
 x 39
 y 30
 end
+arch blocked
+x 39
+y 31
+end
+arch blocked
+x 39
+y 32
+end
+arch blocked
+x 39
+y 33
+end
+arch blocked
+x 39
+y 34
+end
+arch blocked
+x 39
+y 35
+end
+arch blocked
+x 39
+y 36
+end
+arch blocked
+x 39
+y 37
+end
+arch blocked
+x 39
+y 38
+end
+arch blocked
+x 39
+y 39
+end
+arch blocked
+x 39
+y 40
+end
+arch blocked
+x 39
+y 41
+end
+arch blocked
+x 39
+y 42
+end
+arch blocked
+x 39
+y 43
+end
+arch blocked
+x 39
+y 44
+end
+arch blocked
+x 39
+y 45
+end
+arch blocked
+x 39
+y 46
+end
+arch blocked
+x 39
+y 47
+end
+arch blocked
+x 39
+y 48
+end
+arch blocked
+x 39
+y 49
+end
+arch blocked
+x 39
+y 50
+end
+arch blocked
+x 39
+y 51
+end
+arch blocked
+x 39
+y 52
+end
+arch blocked
+x 39
+y 53
+end
+arch blocked
+x 39
+y 54
+end
 arch duplicator
 other_arch pillars
 x 40
@@ -30488,6 +31127,10 @@ material 0
 move_slow swim
 move_slow_penalty 5
 end
+end
+arch blocked
+x 40
+y 2
 end
 arch duplicator
 other_arch pillars
@@ -30521,6 +31164,10 @@ material 0
 move_slow swim
 move_slow_penalty 5
 end
+end
+arch blocked
+x 40
+y 5
 end
 arch stwall_2_1_2
 x 40
@@ -30608,6 +31255,18 @@ arch stwall_2_1_2
 x 40
 y 15
 end
+arch blocked
+x 40
+y 16
+end
+arch blocked
+x 40
+y 17
+end
+arch blocked
+x 40
+y 18
+end
 arch awall_2_2_2
 x 40
 y 19
@@ -30623,6 +31282,10 @@ end
 arch awall_2_2_1
 x 40
 y 22
+end
+arch blocked
+x 40
+y 23
 end
 arch stonefloor2
 x 40
@@ -30667,6 +31330,125 @@ end
 arch stwall_2_1_2
 x 40
 y 30
+end
+arch blocked
+x 40
+y 31
+end
+arch blocked
+x 40
+y 32
+end
+arch blocked
+x 40
+y 33
+end
+arch blocked
+x 40
+y 34
+end
+arch blocked
+x 40
+y 35
+end
+arch blocked
+x 40
+y 36
+end
+arch blocked
+x 40
+y 37
+end
+arch blocked
+x 40
+y 38
+end
+arch blocked
+x 40
+y 39
+end
+arch blocked
+x 40
+y 40
+end
+arch blocked
+x 40
+y 41
+end
+arch blocked
+x 40
+y 42
+end
+arch blocked
+x 40
+y 43
+end
+arch blocked
+x 40
+y 44
+end
+arch blocked
+x 40
+y 45
+end
+arch blocked
+x 40
+y 46
+end
+arch blocked
+x 40
+y 47
+end
+arch blocked
+x 40
+y 48
+end
+arch blocked
+x 40
+y 49
+end
+arch blocked
+x 40
+y 50
+end
+arch blocked
+x 40
+y 51
+end
+arch blocked
+x 40
+y 52
+end
+arch blocked
+x 40
+y 53
+end
+arch blocked
+x 40
+y 54
+end
+arch blocked
+x 41
+end
+arch blocked
+x 41
+y 1
+end
+arch blocked
+x 41
+y 2
+end
+arch blocked
+x 41
+y 3
+end
+arch blocked
+x 41
+y 4
+end
+arch blocked
+x 41
+y 5
 end
 arch stwall_2_1_2
 x 41
@@ -30774,6 +31556,10 @@ lifesave 1
 arch beholdereye
 end
 end
+arch blocked
+x 41
+y 18
+end
 arch awall_2_1_2
 x 41
 y 19
@@ -30805,6 +31591,10 @@ end
 arch awall_2_1_2
 x 41
 y 22
+end
+arch blocked
+x 41
+y 23
 end
 arch stonefloor2
 x 41
@@ -30862,6 +31652,14 @@ arch stwall_2_2_4
 x 41
 y 30
 end
+arch blocked
+x 41
+y 31
+end
+arch blocked
+x 41
+y 32
+end
 arch magic_mouth
 msg
 Racer #1 has finished!!!
@@ -30917,4 +31715,76 @@ connected 8
 lifesave 1
 arch beholdereye
 end
+end
+arch blocked
+x 41
+y 37
+end
+arch blocked
+x 41
+y 38
+end
+arch blocked
+x 41
+y 39
+end
+arch blocked
+x 41
+y 40
+end
+arch blocked
+x 41
+y 41
+end
+arch blocked
+x 41
+y 42
+end
+arch blocked
+x 41
+y 43
+end
+arch blocked
+x 41
+y 44
+end
+arch blocked
+x 41
+y 45
+end
+arch blocked
+x 41
+y 46
+end
+arch blocked
+x 41
+y 47
+end
+arch blocked
+x 41
+y 48
+end
+arch blocked
+x 41
+y 49
+end
+arch blocked
+x 41
+y 50
+end
+arch blocked
+x 41
+y 51
+end
+arch blocked
+x 41
+y 52
+end
+arch blocked
+x 41
+y 53
+end
+arch blocked
+x 41
+y 54
 end
