@@ -802,6 +802,10 @@ arch woodwall_2_2_1
 x 6
 y 4
 end
+arch swall_1_1_half
+x 6
+y 4
+end
 arch dungeon_magic
 x 6
 y 5
@@ -819,6 +823,10 @@ x 6
 y 5
 end
 arch bench_1_1
+x 6
+y 5
+end
+arch swall_1_2_half
 x 6
 y 5
 end
@@ -922,7 +930,15 @@ arch bench_1_2
 x 6
 y 10
 end
+arch swall_1_1_half
+x 6
+y 10
+end
 arch pstone_1
+x 6
+y 11
+end
+arch swall_1_2_half
 x 6
 y 11
 end
