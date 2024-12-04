@@ -730,11 +730,7 @@ arch pstone_1
 x 5
 y 14
 end
-arch unholy_ground
-x 5
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 5
 y 15
 end
@@ -746,10 +742,7 @@ arch woodwall_2_1_2
 x 5
 y 15
 end
-arch unholy_ground
-x 6
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 end
 arch pstone_1
@@ -758,11 +751,7 @@ end
 arch woodwall_3_3
 x 6
 end
-arch unholy_ground
-x 6
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 y 1
 end
@@ -774,11 +763,7 @@ arch woodwall_2_1_1
 x 6
 y 1
 end
-arch unholy_ground
-x 6
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 y 2
 end
@@ -797,6 +782,10 @@ end
 arch woodwall_2_1_1
 x 6
 y 3
+end
+arch dungeon_magic
+x 6
+y 4
 end
 arch mover_3
 x 6
@@ -804,14 +793,6 @@ y 4
 speed -20.000000
 level 1
 attacktype 1
-end
-arch unholy_ground
-x 6
-y 4
-end
-arch magic_banned
-x 6
-y 4
 end
 arch pstone_1
 x 6
@@ -821,6 +802,10 @@ arch woodwall_2_2_1
 x 6
 y 4
 end
+arch dungeon_magic
+x 6
+y 5
+end
 arch mover_3
 x 6
 y 5
@@ -828,14 +813,6 @@ speed -20.0
 level 1
 attacktype 1
 move_type walk fly_low
-end
-arch unholy_ground
-x 6
-y 5
-end
-arch magic_banned
-x 6
-y 5
 end
 arch pstone_1
 x 6
@@ -845,6 +822,10 @@ arch bench_1_1
 x 6
 y 5
 end
+arch dungeon_magic
+x 6
+y 6
+end
 arch mover_3
 x 6
 y 6
@@ -852,14 +833,6 @@ speed -20.0
 level 1
 attacktype 1
 move_type walk fly_low
-end
-arch unholy_ground
-x 6
-y 6
-end
-arch magic_banned
-x 6
-y 6
 end
 arch pstone_1
 x 6
@@ -869,6 +842,10 @@ arch bench_2_1_1
 x 6
 y 6
 end
+arch dungeon_magic
+x 6
+y 7
+end
 arch mover_3
 x 6
 y 7
@@ -876,14 +853,6 @@ speed -20.0
 level 1
 attacktype 1
 move_type walk fly_low
-end
-arch unholy_ground
-x 6
-y 7
-end
-arch magic_banned
-x 6
-y 7
 end
 arch pstone_1
 x 6
@@ -893,6 +862,10 @@ arch bench_2_1_1
 x 6
 y 7
 end
+arch dungeon_magic
+x 6
+y 8
+end
 arch mover_3
 x 6
 y 8
@@ -900,14 +873,6 @@ speed -20.0
 level 1
 attacktype 1
 move_type walk fly_low
-end
-arch unholy_ground
-x 6
-y 8
-end
-arch magic_banned
-x 6
-y 8
 end
 arch pstone_1
 x 6
@@ -917,6 +882,10 @@ arch bench_2_1_1
 x 6
 y 8
 end
+arch dungeon_magic
+x 6
+y 9
+end
 arch mover_3
 x 6
 y 9
@@ -925,14 +894,6 @@ level 1
 attacktype 1
 move_type walk fly_low
 end
-arch unholy_ground
-x 6
-y 9
-end
-arch magic_banned
-x 6
-y 9
-end
 arch pstone_1
 x 6
 y 9
@@ -940,6 +901,10 @@ end
 arch bench_2_1_1
 x 6
 y 9
+end
+arch dungeon_magic
+x 6
+y 10
 end
 arch mover_3
 x 6
@@ -948,14 +913,6 @@ speed -20.0
 level 1
 attacktype 1
 move_type walk fly_low
-end
-arch unholy_ground
-x 6
-y 10
-end
-arch magic_banned
-x 6
-y 10
 end
 arch pstone_1
 x 6
@@ -981,11 +938,7 @@ arch woodwall_2_1_1
 x 6
 y 12
 end
-arch unholy_ground
-x 6
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 y 13
 end
@@ -997,11 +950,7 @@ arch woodwall_2_1_1
 x 6
 y 13
 end
-arch unholy_ground
-x 6
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 y 14
 end
@@ -1013,11 +962,7 @@ arch woodwall_2_1_1
 x 6
 y 14
 end
-arch unholy_ground
-x 6
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 6
 y 15
 end
@@ -1029,10 +974,7 @@ arch woodwall_3_1
 x 6
 y 15
 end
-arch unholy_ground
-x 7
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 end
 arch pstone_1
@@ -1053,11 +995,7 @@ arch shop_throw
 x 7
 y 3
 end
-arch unholy_ground
-x 7
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 4
 end
@@ -1069,11 +1007,7 @@ arch woodwall_2_1_2
 x 7
 y 4
 end
-arch unholy_ground
-x 7
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 5
 end
@@ -1081,11 +1015,7 @@ arch pstone_1
 x 7
 y 5
 end
-arch unholy_ground
-x 7
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 6
 end
@@ -1093,11 +1023,7 @@ arch pstone_1
 x 7
 y 6
 end
-arch unholy_ground
-x 7
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 7
 end
@@ -1105,11 +1031,7 @@ arch pstone_1
 x 7
 y 7
 end
-arch unholy_ground
-x 7
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 8
 end
@@ -1117,11 +1039,7 @@ arch pstone_1
 x 7
 y 8
 end
-arch unholy_ground
-x 7
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 9
 end
@@ -1129,11 +1047,7 @@ arch pstone_1
 x 7
 y 9
 end
-arch unholy_ground
-x 7
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 10
 end
@@ -1141,11 +1055,7 @@ arch pstone_1
 x 7
 y 10
 end
-arch unholy_ground
-x 7
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 11
 end
@@ -1169,11 +1079,7 @@ arch shop_throw
 x 7
 y 14
 end
-arch unholy_ground
-x 7
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 7
 y 15
 end
@@ -1185,10 +1091,7 @@ arch woodwall_2_1_2
 x 7
 y 15
 end
-arch unholy_ground
-x 8
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 end
 arch pstone_1
@@ -1209,11 +1112,7 @@ arch shop_throw
 x 8
 y 3
 end
-arch unholy_ground
-x 8
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 4
 end
@@ -1225,11 +1124,7 @@ arch woodwall_2_1_2
 x 8
 y 4
 end
-arch unholy_ground
-x 8
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 5
 end
@@ -1237,11 +1132,7 @@ arch pstone_1
 x 8
 y 5
 end
-arch unholy_ground
-x 8
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 6
 end
@@ -1249,11 +1140,7 @@ arch pstone_1
 x 8
 y 6
 end
-arch unholy_ground
-x 8
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 7
 end
@@ -1261,11 +1148,7 @@ arch pstone_1
 x 8
 y 7
 end
-arch unholy_ground
-x 8
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 8
 end
@@ -1273,11 +1156,7 @@ arch pstone_1
 x 8
 y 8
 end
-arch unholy_ground
-x 8
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 9
 end
@@ -1285,11 +1164,7 @@ arch pstone_1
 x 8
 y 9
 end
-arch unholy_ground
-x 8
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 10
 end
@@ -1297,11 +1172,7 @@ arch pstone_1
 x 8
 y 10
 end
-arch unholy_ground
-x 8
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 11
 end
@@ -1325,11 +1196,7 @@ arch shop_throw
 x 8
 y 14
 end
-arch unholy_ground
-x 8
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 8
 y 15
 end
@@ -1341,10 +1208,7 @@ arch woodwall_2_1_2
 x 8
 y 15
 end
-arch unholy_ground
-x 9
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 end
 arch pstone_1
@@ -1365,11 +1229,7 @@ arch shop_throw
 x 9
 y 3
 end
-arch unholy_ground
-x 9
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 4
 end
@@ -1381,11 +1241,7 @@ arch woodwall_2_1_2
 x 9
 y 4
 end
-arch unholy_ground
-x 9
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 5
 end
@@ -1393,11 +1249,7 @@ arch pstone_1
 x 9
 y 5
 end
-arch unholy_ground
-x 9
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 6
 end
@@ -1405,11 +1257,7 @@ arch pstone_1
 x 9
 y 6
 end
-arch unholy_ground
-x 9
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 7
 end
@@ -1417,11 +1265,7 @@ arch pstone_1
 x 9
 y 7
 end
-arch unholy_ground
-x 9
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 8
 end
@@ -1429,11 +1273,7 @@ arch pstone_1
 x 9
 y 8
 end
-arch unholy_ground
-x 9
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 9
 end
@@ -1441,11 +1281,7 @@ arch pstone_1
 x 9
 y 9
 end
-arch unholy_ground
-x 9
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 10
 end
@@ -1453,11 +1289,7 @@ arch pstone_1
 x 9
 y 10
 end
-arch unholy_ground
-x 9
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 11
 end
@@ -1481,11 +1313,7 @@ arch shop_throw
 x 9
 y 14
 end
-arch unholy_ground
-x 9
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 9
 y 15
 end
@@ -1497,10 +1325,7 @@ arch woodwall_2_1_2
 x 9
 y 15
 end
-arch unholy_ground
-x 10
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 end
 arch pstone_1
@@ -1521,11 +1346,7 @@ arch shop_throw
 x 10
 y 3
 end
-arch unholy_ground
-x 10
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 4
 end
@@ -1537,11 +1358,7 @@ arch woodwall_2_1_2
 x 10
 y 4
 end
-arch unholy_ground
-x 10
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 5
 end
@@ -1549,11 +1366,7 @@ arch pstone_1
 x 10
 y 5
 end
-arch unholy_ground
-x 10
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 6
 end
@@ -1561,11 +1374,7 @@ arch pstone_1
 x 10
 y 6
 end
-arch unholy_ground
-x 10
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 7
 end
@@ -1573,11 +1382,7 @@ arch pstone_1
 x 10
 y 7
 end
-arch unholy_ground
-x 10
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 8
 end
@@ -1585,11 +1390,7 @@ arch pstone_1
 x 10
 y 8
 end
-arch unholy_ground
-x 10
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 9
 end
@@ -1608,11 +1409,7 @@ hp 10000
 x 10
 y 9
 end
-arch unholy_ground
-x 10
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 10
 end
@@ -1620,11 +1417,7 @@ arch pstone_1
 x 10
 y 10
 end
-arch unholy_ground
-x 10
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 11
 end
@@ -1648,11 +1441,7 @@ arch shop_throw
 x 10
 y 14
 end
-arch unholy_ground
-x 10
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 10
 y 15
 end
@@ -1664,10 +1453,7 @@ arch woodwall_2_1_2
 x 10
 y 15
 end
-arch unholy_ground
-x 11
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 end
 arch pstone_1
@@ -1688,11 +1474,7 @@ arch shop_throw
 x 11
 y 3
 end
-arch unholy_ground
-x 11
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 4
 end
@@ -1704,11 +1486,7 @@ arch woodwall_2_1_2
 x 11
 y 4
 end
-arch unholy_ground
-x 11
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 5
 end
@@ -1720,11 +1498,7 @@ arch shop_mat
 x 11
 y 5
 end
-arch unholy_ground
-x 11
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 6
 end
@@ -1732,11 +1506,7 @@ arch pstone_1
 x 11
 y 6
 end
-arch unholy_ground
-x 11
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 7
 end
@@ -1744,11 +1514,7 @@ arch pstone_1
 x 11
 y 7
 end
-arch unholy_ground
-x 11
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 8
 end
@@ -1756,11 +1522,7 @@ arch pstone_1
 x 11
 y 8
 end
-arch unholy_ground
-x 11
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 9
 end
@@ -1768,11 +1530,7 @@ arch pstone_1
 x 11
 y 9
 end
-arch unholy_ground
-x 11
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 10
 end
@@ -1784,11 +1542,7 @@ arch shop_mat
 x 11
 y 10
 end
-arch unholy_ground
-x 11
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 11
 end
@@ -1812,11 +1566,7 @@ arch shop_throw
 x 11
 y 14
 end
-arch unholy_ground
-x 11
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 11
 y 15
 end
@@ -1828,10 +1578,7 @@ arch woodwall_2_1_2
 x 11
 y 15
 end
-arch unholy_ground
-x 12
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 end
 arch pstone_1
@@ -1852,11 +1599,7 @@ arch shop_throw
 x 12
 y 3
 end
-arch unholy_ground
-x 12
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 4
 end
@@ -1868,11 +1611,7 @@ arch woodwall_2_2_3
 x 12
 y 4
 end
-arch unholy_ground
-x 12
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 5
 end
@@ -1884,11 +1623,7 @@ arch woodwall_2_2_1
 x 12
 y 5
 end
-arch unholy_ground
-x 12
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 6
 end
@@ -1901,11 +1636,7 @@ x 12
 y 6
 connected 96
 end
-arch unholy_ground
-x 12
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 7
 end
@@ -1918,11 +1649,7 @@ x 12
 y 7
 connected 96
 end
-arch unholy_ground
-x 12
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 8
 end
@@ -1935,11 +1662,7 @@ x 12
 y 8
 connected 96
 end
-arch unholy_ground
-x 12
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 9
 end
@@ -1952,11 +1675,7 @@ x 12
 y 9
 connected 96
 end
-arch unholy_ground
-x 12
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 10
 end
@@ -1968,11 +1687,7 @@ arch woodwall_2_2_2
 x 12
 y 10
 end
-arch unholy_ground
-x 12
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 11
 end
@@ -1996,11 +1711,7 @@ arch shop_throw
 x 12
 y 14
 end
-arch unholy_ground
-x 12
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 12
 y 15
 end
@@ -2012,10 +1723,7 @@ arch woodwall_2_1_2
 x 12
 y 15
 end
-arch unholy_ground
-x 13
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 end
 arch pstone_1
@@ -2044,11 +1752,7 @@ arch shop_mat
 x 13
 y 4
 end
-arch unholy_ground
-x 13
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 5
 end
@@ -2060,11 +1764,7 @@ arch woodwall_2_1_2
 x 13
 y 5
 end
-arch unholy_ground
-x 13
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 6
 end
@@ -2079,11 +1779,7 @@ x 13
 y 6
 connected 96
 end
-arch unholy_ground
-x 13
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 7
 end
@@ -2098,11 +1794,7 @@ x 13
 y 7
 connected 96
 end
-arch unholy_ground
-x 13
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 8
 end
@@ -2117,11 +1809,7 @@ x 13
 y 8
 connected 96
 end
-arch unholy_ground
-x 13
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 9
 end
@@ -2136,11 +1824,7 @@ x 13
 y 9
 connected 96
 end
-arch unholy_ground
-x 13
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 10
 end
@@ -2172,11 +1856,7 @@ arch shop_throw
 x 13
 y 14
 end
-arch unholy_ground
-x 13
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 13
 y 15
 end
@@ -2188,10 +1868,7 @@ arch woodwall_2_1_2
 x 13
 y 15
 end
-arch unholy_ground
-x 14
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 end
 arch pstone_1
@@ -2216,11 +1893,7 @@ arch shop_throw
 x 14
 y 4
 end
-arch unholy_ground
-x 14
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 5
 end
@@ -2232,11 +1905,7 @@ arch woodwall_2_1_2
 x 14
 y 5
 end
-arch unholy_ground
-x 14
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 6
 end
@@ -2252,11 +1921,7 @@ endmsg
 x 14
 y 6
 end
-arch unholy_ground
-x 14
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 7
 end
@@ -2264,11 +1929,7 @@ arch pstone_1
 x 14
 y 7
 end
-arch unholy_ground
-x 14
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 8
 end
@@ -2276,11 +1937,7 @@ arch pstone_1
 x 14
 y 8
 end
-arch unholy_ground
-x 14
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 9
 end
@@ -2288,11 +1945,7 @@ arch pstone_1
 x 14
 y 9
 end
-arch unholy_ground
-x 14
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 10
 end
@@ -2320,11 +1973,7 @@ arch shop_throw
 x 14
 y 14
 end
-arch unholy_ground
-x 14
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 14
 y 15
 end
@@ -2336,10 +1985,7 @@ arch woodwall_2_1_2
 x 14
 y 15
 end
-arch unholy_ground
-x 15
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 end
 arch pstone_1
@@ -2348,11 +1994,7 @@ end
 arch woodwall_2_2_3
 x 15
 end
-arch unholy_ground
-x 15
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 1
 end
@@ -2364,11 +2006,7 @@ arch woodwall_2_1_1
 x 15
 y 1
 end
-arch unholy_ground
-x 15
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 2
 end
@@ -2380,11 +2018,7 @@ arch woodwall_2_1_1
 x 15
 y 2
 end
-arch unholy_ground
-x 15
-y 3
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 3
 end
@@ -2396,11 +2030,7 @@ arch woodwall_2_1_1
 x 15
 y 3
 end
-arch unholy_ground
-x 15
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 4
 end
@@ -2412,11 +2042,7 @@ arch woodwall_2_1_1
 x 15
 y 4
 end
-arch unholy_ground
-x 15
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 5
 end
@@ -2428,11 +2054,7 @@ arch woodwall_3_4
 x 15
 y 5
 end
-arch unholy_ground
-x 15
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 6
 end
@@ -2444,11 +2066,7 @@ arch woodwall_1_2
 x 15
 y 6
 end
-arch unholy_ground
-x 15
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 7
 end
@@ -2463,11 +2081,7 @@ sp 16
 x 15
 y 7
 end
-arch unholy_ground
-x 15
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 8
 end
@@ -2482,11 +2096,7 @@ sp 16
 x 15
 y 8
 end
-arch unholy_ground
-x 15
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 9
 end
@@ -2498,11 +2108,7 @@ arch woodwall_1_1
 x 15
 y 9
 end
-arch unholy_ground
-x 15
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 10
 end
@@ -2514,11 +2120,7 @@ arch woodwall_3_4
 x 15
 y 10
 end
-arch unholy_ground
-x 15
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 11
 end
@@ -2530,11 +2132,7 @@ arch woodwall_2_1_1
 x 15
 y 11
 end
-arch unholy_ground
-x 15
-y 12
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 12
 end
@@ -2546,11 +2144,7 @@ arch woodwall_2_1_1
 x 15
 y 12
 end
-arch unholy_ground
-x 15
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 13
 end
@@ -2562,11 +2156,7 @@ arch woodwall_2_1_1
 x 15
 y 13
 end
-arch unholy_ground
-x 15
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 14
 end
@@ -2578,11 +2168,7 @@ arch woodwall_2_1_1
 x 15
 y 14
 end
-arch unholy_ground
-x 15
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 15
 y 15
 end
@@ -2594,20 +2180,13 @@ arch woodwall_2_2_4
 x 15
 y 15
 end
-arch unholy_ground
-x 16
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 end
 arch grassmedium
 x 16
 end
-arch unholy_ground
-x 16
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 1
 end
@@ -2615,11 +2194,7 @@ arch grassmedium
 x 16
 y 1
 end
-arch unholy_ground
-x 16
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 2
 end
@@ -2627,11 +2202,7 @@ arch grassmedium
 x 16
 y 2
 end
-arch unholy_ground
-x 16
-y 3
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 3
 end
@@ -2639,11 +2210,7 @@ arch grassmedium
 x 16
 y 3
 end
-arch unholy_ground
-x 16
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 4
 end
@@ -2651,11 +2218,7 @@ arch grassmedium
 x 16
 y 4
 end
-arch unholy_ground
-x 16
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 5
 end
@@ -2663,11 +2226,7 @@ arch grassmedium
 x 16
 y 5
 end
-arch unholy_ground
-x 16
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 6
 end
@@ -2675,11 +2234,7 @@ arch grassmedium
 x 16
 y 6
 end
-arch unholy_ground
-x 16
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 7
 end
@@ -2687,11 +2242,7 @@ arch pstone_1
 x 16
 y 7
 end
-arch unholy_ground
-x 16
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 8
 end
@@ -2699,11 +2250,7 @@ arch pstone_1
 x 16
 y 8
 end
-arch unholy_ground
-x 16
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 9
 end
@@ -2711,11 +2258,7 @@ arch grassmedium
 x 16
 y 9
 end
-arch unholy_ground
-x 16
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 10
 end
@@ -2723,11 +2266,7 @@ arch grassmedium
 x 16
 y 10
 end
-arch unholy_ground
-x 16
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 11
 end
@@ -2735,11 +2274,7 @@ arch grassmedium
 x 16
 y 11
 end
-arch unholy_ground
-x 16
-y 12
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 12
 end
@@ -2747,11 +2282,7 @@ arch grassmedium
 x 16
 y 12
 end
-arch unholy_ground
-x 16
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 13
 end
@@ -2759,11 +2290,7 @@ arch grassmedium
 x 16
 y 13
 end
-arch unholy_ground
-x 16
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 14
 end
@@ -2771,11 +2298,7 @@ arch grassmedium
 x 16
 y 14
 end
-arch unholy_ground
-x 16
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 16
 y 15
 end
@@ -2783,20 +2306,13 @@ arch grassmedium
 x 16
 y 15
 end
-arch unholy_ground
-x 17
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 end
 arch grassmedium
 x 17
 end
-arch unholy_ground
-x 17
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 1
 end
@@ -2804,11 +2320,7 @@ arch grassmedium
 x 17
 y 1
 end
-arch unholy_ground
-x 17
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 2
 end
@@ -2816,11 +2328,7 @@ arch grassmedium
 x 17
 y 2
 end
-arch unholy_ground
-x 17
-y 3
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 3
 end
@@ -2828,11 +2336,7 @@ arch grassmedium
 x 17
 y 3
 end
-arch unholy_ground
-x 17
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 4
 end
@@ -2840,11 +2344,7 @@ arch grassmedium
 x 17
 y 4
 end
-arch unholy_ground
-x 17
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 5
 end
@@ -2852,11 +2352,7 @@ arch grassmedium
 x 17
 y 5
 end
-arch unholy_ground
-x 17
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 6
 end
@@ -2864,11 +2360,7 @@ arch grassmedium
 x 17
 y 6
 end
-arch unholy_ground
-x 17
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 7
 end
@@ -2876,11 +2368,7 @@ arch pstone_1
 x 17
 y 7
 end
-arch unholy_ground
-x 17
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 8
 end
@@ -2888,11 +2376,7 @@ arch pstone_1
 x 17
 y 8
 end
-arch unholy_ground
-x 17
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 9
 end
@@ -2900,11 +2384,7 @@ arch grassmedium
 x 17
 y 9
 end
-arch unholy_ground
-x 17
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 10
 end
@@ -2912,11 +2392,7 @@ arch grassmedium
 x 17
 y 10
 end
-arch unholy_ground
-x 17
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 11
 end
@@ -2924,11 +2400,7 @@ arch grassmedium
 x 17
 y 11
 end
-arch unholy_ground
-x 17
-y 12
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 12
 end
@@ -2936,11 +2408,7 @@ arch grassmedium
 x 17
 y 12
 end
-arch unholy_ground
-x 17
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 13
 end
@@ -2948,11 +2416,7 @@ arch grassmedium
 x 17
 y 13
 end
-arch unholy_ground
-x 17
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 14
 end
@@ -2960,11 +2424,7 @@ arch grassmedium
 x 17
 y 14
 end
-arch unholy_ground
-x 17
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 17
 y 15
 end
@@ -2972,20 +2432,13 @@ arch grassmedium
 x 17
 y 15
 end
-arch unholy_ground
-x 18
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 end
 arch pstone_1
 x 18
 end
-arch unholy_ground
-x 18
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 1
 end
@@ -2993,11 +2446,7 @@ arch pstone_1
 x 18
 y 1
 end
-arch unholy_ground
-x 18
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 2
 end
@@ -3005,11 +2454,7 @@ arch pstone_1
 x 18
 y 2
 end
-arch unholy_ground
-x 18
-y 3
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 3
 end
@@ -3017,11 +2462,7 @@ arch pstone_1
 x 18
 y 3
 end
-arch unholy_ground
-x 18
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 4
 end
@@ -3029,11 +2470,7 @@ arch pstone_1
 x 18
 y 4
 end
-arch unholy_ground
-x 18
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 5
 end
@@ -3041,11 +2478,7 @@ arch pstone_1
 x 18
 y 5
 end
-arch unholy_ground
-x 18
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 6
 end
@@ -3053,11 +2486,7 @@ arch pstone_1
 x 18
 y 6
 end
-arch unholy_ground
-x 18
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 7
 end
@@ -3065,11 +2494,7 @@ arch pstone_1
 x 18
 y 7
 end
-arch unholy_ground
-x 18
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 8
 end
@@ -3077,11 +2502,7 @@ arch pstone_1
 x 18
 y 8
 end
-arch unholy_ground
-x 18
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 9
 end
@@ -3089,11 +2510,7 @@ arch pstone_1
 x 18
 y 9
 end
-arch unholy_ground
-x 18
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 10
 end
@@ -3101,11 +2518,7 @@ arch pstone_1
 x 18
 y 10
 end
-arch unholy_ground
-x 18
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 11
 end
@@ -3113,11 +2526,7 @@ arch pstone_1
 x 18
 y 11
 end
-arch unholy_ground
-x 18
-y 12
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 12
 end
@@ -3125,11 +2534,7 @@ arch pstone_1
 x 18
 y 12
 end
-arch unholy_ground
-x 18
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 13
 end
@@ -3137,11 +2542,7 @@ arch pstone_1
 x 18
 y 13
 end
-arch unholy_ground
-x 18
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 14
 end
@@ -3149,11 +2550,7 @@ arch pstone_1
 x 18
 y 14
 end
-arch unholy_ground
-x 18
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 18
 y 15
 end
@@ -3161,20 +2558,13 @@ arch pstone_1
 x 18
 y 15
 end
-arch unholy_ground
-x 19
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 end
 arch pstone_1
 x 19
 end
-arch unholy_ground
-x 19
-y 1
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 1
 end
@@ -3182,11 +2572,7 @@ arch pstone_1
 x 19
 y 1
 end
-arch unholy_ground
-x 19
-y 2
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 2
 end
@@ -3194,11 +2580,7 @@ arch pstone_1
 x 19
 y 2
 end
-arch unholy_ground
-x 19
-y 3
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 3
 end
@@ -3206,11 +2588,7 @@ arch pstone_1
 x 19
 y 3
 end
-arch unholy_ground
-x 19
-y 4
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 4
 end
@@ -3218,11 +2596,7 @@ arch pstone_1
 x 19
 y 4
 end
-arch unholy_ground
-x 19
-y 5
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 5
 end
@@ -3230,11 +2604,7 @@ arch pstone_1
 x 19
 y 5
 end
-arch unholy_ground
-x 19
-y 6
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 6
 end
@@ -3242,11 +2612,7 @@ arch pstone_1
 x 19
 y 6
 end
-arch unholy_ground
-x 19
-y 7
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 7
 end
@@ -3254,11 +2620,7 @@ arch pstone_1
 x 19
 y 7
 end
-arch unholy_ground
-x 19
-y 8
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 8
 end
@@ -3266,11 +2628,7 @@ arch pstone_1
 x 19
 y 8
 end
-arch unholy_ground
-x 19
-y 9
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 9
 end
@@ -3278,11 +2636,7 @@ arch pstone_1
 x 19
 y 9
 end
-arch unholy_ground
-x 19
-y 10
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 10
 end
@@ -3290,11 +2644,7 @@ arch pstone_1
 x 19
 y 10
 end
-arch unholy_ground
-x 19
-y 11
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 11
 end
@@ -3302,11 +2652,7 @@ arch pstone_1
 x 19
 y 11
 end
-arch unholy_ground
-x 19
-y 12
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 12
 end
@@ -3314,11 +2660,7 @@ arch pstone_1
 x 19
 y 12
 end
-arch unholy_ground
-x 19
-y 13
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 13
 end
@@ -3326,11 +2668,7 @@ arch pstone_1
 x 19
 y 13
 end
-arch unholy_ground
-x 19
-y 14
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 14
 end
@@ -3338,11 +2676,7 @@ arch pstone_1
 x 19
 y 14
 end
-arch unholy_ground
-x 19
-y 15
-end
-arch magic_banned
+arch dungeon_magic
 x 19
 y 15
 end
