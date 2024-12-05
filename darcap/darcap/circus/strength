@@ -4,9 +4,11 @@ difficulty 1
 region darcapcircus
 width 20
 height 16
+enter_x 14
+enter_y 7
 msg
 Created:  1999-01-28 Cater & Wade (john_cater@yahoo.com)
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2024-12-04 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -1340,7 +1342,7 @@ arch pstone_1
 x 12
 y 5
 end
-arch woodwall_2_2_2
+arch woodwall_1_4
 x 12
 y 5
 end
@@ -1384,7 +1386,7 @@ arch pstone_1
 x 12
 y 10
 end
-arch woodwall_2_2_1
+arch woodwall_1_4
 x 12
 y 10
 end
