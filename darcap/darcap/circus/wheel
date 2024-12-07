@@ -1042,6 +1042,10 @@ end
 arch woodwall_2_1_2
 x 11
 end
+arch pstone_1
+x 11
+y 1
+end
 arch pit_closed
 hp 18
 sp 14
@@ -1180,6 +1184,10 @@ x 12
 end
 arch woodwall_2_1_2
 x 12
+end
+arch pstone_1
+x 12
+y 1
 end
 arch pit_closed
 hp 18
@@ -1328,6 +1336,10 @@ end
 arch woodwall_2_1_2
 x 13
 end
+arch pstone_1
+x 13
+y 1
+end
 arch pit_closed
 hp 18
 sp 14
@@ -1470,6 +1482,10 @@ x 14
 end
 arch woodwall_2_1_2
 x 14
+end
+arch pstone_1
+x 14
+y 1
 end
 arch pit_closed
 hp 18
