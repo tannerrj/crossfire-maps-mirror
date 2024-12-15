@@ -11,7 +11,7 @@ enter_x 4
 enter_y 17
 msg
 Created:  1996-05-02 bt (thomas@astro.psu.edu)
-Modified: 2023-05-29 Rick Tanner
+Modified: 2024-12-15 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -178,7 +178,7 @@ arch flagstone
 x 2
 y 2
 end
-arch wwall_2_2_2
+arch wall_2_2_2
 x 2
 y 2
 end
@@ -186,7 +186,7 @@ arch flagstone
 x 2
 y 3
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 3
 end
@@ -194,7 +194,7 @@ arch flagstone
 x 2
 y 4
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 4
 end
@@ -206,7 +206,7 @@ arch flagstone
 x 2
 y 5
 end
-arch wwall_win1
+arch window_win1
 x 2
 y 5
 end
@@ -214,7 +214,7 @@ arch flagstone
 x 2
 y 6
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 6
 end
@@ -222,7 +222,7 @@ arch flagstone
 x 2
 y 7
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 7
 end
@@ -230,7 +230,7 @@ arch flagstone
 x 2
 y 8
 end
-arch wwall_3_2
+arch wall_3_2
 x 2
 y 8
 end
@@ -238,7 +238,7 @@ arch flagstone
 x 2
 y 9
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 9
 end
@@ -246,7 +246,7 @@ arch flagstone
 x 2
 y 10
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 10
 end
@@ -254,7 +254,7 @@ arch flagstone
 x 2
 y 11
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 11
 end
@@ -262,7 +262,7 @@ arch flagstone
 x 2
 y 12
 end
-arch wwall_3_2
+arch wall_3_2
 x 2
 y 12
 end
@@ -270,7 +270,7 @@ arch flagstone
 x 2
 y 13
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 13
 end
@@ -278,7 +278,7 @@ arch flagstone
 x 2
 y 14
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 14
 end
@@ -286,7 +286,7 @@ arch flagstone
 x 2
 y 15
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 15
 end
@@ -298,7 +298,7 @@ arch flagstone
 x 2
 y 16
 end
-arch wwall_win1
+arch window_win1
 x 2
 y 16
 end
@@ -306,7 +306,7 @@ arch flagstone
 x 2
 y 17
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 17
 end
@@ -314,7 +314,7 @@ arch flagstone
 x 2
 y 18
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 2
 y 18
 end
@@ -322,7 +322,7 @@ arch flagstone
 x 2
 y 19
 end
-arch wwall_2_2_1
+arch wall_2_2_1
 x 2
 y 19
 end
@@ -345,7 +345,7 @@ arch flagstone
 x 3
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 3
 y 2
 end
@@ -381,7 +381,7 @@ arch woodfloor
 x 3
 y 8
 end
-arch wwall_win2
+arch window_win2
 x 3
 y 8
 end
@@ -420,7 +420,7 @@ arch woodfloor
 x 3
 y 12
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 3
 y 12
 end
@@ -491,7 +491,7 @@ arch flagstone
 x 3
 y 19
 end
-arch wwall_1_3
+arch wall_1_3
 x 3
 y 19
 end
@@ -529,7 +529,7 @@ arch flagstone
 x 4
 y 2
 end
-arch wwall_win2
+arch window_win2
 x 4
 y 2
 end
@@ -549,7 +549,7 @@ arch woodfloor
 x 4
 y 6
 end
-arch wwall_1_4
+arch wall_1_4
 x 4
 y 6
 end
@@ -566,7 +566,7 @@ arch woodfloor
 x 4
 y 8
 end
-arch wwall_win2
+arch window_win2
 x 4
 y 8
 end
@@ -578,7 +578,7 @@ arch woodfloor
 x 4
 y 10
 end
-arch wwall_1_4
+arch wall_1_4
 x 4
 y 10
 end
@@ -590,7 +590,7 @@ arch woodfloor
 x 4
 y 12
 end
-arch wwall_1_3
+arch wall_1_3
 x 4
 y 12
 end
@@ -679,7 +679,7 @@ arch flagstone
 x 5
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 5
 y 2
 end
@@ -699,7 +699,7 @@ arch woodfloor
 x 5
 y 6
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 5
 y 6
 end
@@ -716,7 +716,7 @@ arch woodfloor
 x 5
 y 8
 end
-arch wwall_1_3
+arch wall_1_3
 x 5
 y 8
 end
@@ -728,7 +728,7 @@ arch woodfloor
 x 5
 y 10
 end
-arch wwall_win2
+arch window_win2
 x 5
 y 10
 end
@@ -788,7 +788,7 @@ arch flagstone
 x 5
 y 19
 end
-arch wwall_1_4
+arch wall_1_4
 x 5
 y 19
 end
@@ -822,7 +822,7 @@ arch flagstone
 x 6
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 6
 y 2
 end
@@ -851,7 +851,7 @@ arch woodfloor
 x 6
 y 6
 end
-arch wwall_win2
+arch window_win2
 x 6
 y 6
 end
@@ -880,7 +880,7 @@ arch woodfloor
 x 6
 y 10
 end
-arch wwall_3_3
+arch wall_3_3
 x 6
 y 10
 end
@@ -888,7 +888,7 @@ arch woodfloor
 x 6
 y 11
 end
-arch wwall_1_2
+arch wall_1_2
 x 6
 y 11
 end
@@ -952,7 +952,7 @@ arch swall_1_2_half
 x 6
 y 18
 end
-arch wwall_1_1
+arch wall_1_1
 x 6
 y 18
 end
@@ -960,7 +960,7 @@ arch flagstone
 x 6
 y 19
 end
-arch wwall_3_1
+arch wall_3_1
 x 6
 y 19
 end
@@ -983,7 +983,7 @@ arch flagstone
 x 7
 y 2
 end
-arch wwall_3_3
+arch wall_3_3
 x 7
 y 2
 end
@@ -991,7 +991,7 @@ arch woodfloor
 x 7
 y 3
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 3
 end
@@ -999,7 +999,7 @@ arch woodfloor
 x 7
 y 4
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 4
 end
@@ -1007,7 +1007,7 @@ arch woodfloor
 x 7
 y 5
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 5
 end
@@ -1015,7 +1015,7 @@ arch woodfloor
 x 7
 y 6
 end
-arch wwall_3_4
+arch wall_3_4
 x 7
 y 6
 end
@@ -1023,7 +1023,7 @@ arch woodfloor
 x 7
 y 7
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 7
 end
@@ -1031,7 +1031,7 @@ arch woodfloor
 x 7
 y 8
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 8
 end
@@ -1039,7 +1039,7 @@ arch woodfloor
 x 7
 y 9
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 7
 y 9
 end
@@ -1047,7 +1047,7 @@ arch woodfloor
 x 7
 y 10
 end
-arch wwall_2_2_4
+arch wall_2_2_4
 x 7
 y 10
 end
@@ -1103,7 +1103,7 @@ arch flagstone
 x 7
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 7
 y 19
 end
@@ -1126,7 +1126,7 @@ arch flagstone
 x 8
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 8
 y 2
 end
@@ -1198,7 +1198,7 @@ arch flagstone
 x 8
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 8
 y 19
 end
@@ -1221,7 +1221,7 @@ arch flagstone
 x 9
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 9
 y 2
 end
@@ -1313,7 +1313,7 @@ arch flagstone
 x 9
 y 19
 end
-arch wwall_win2
+arch window_win2
 x 9
 y 19
 end
@@ -1336,7 +1336,7 @@ arch flagstone
 x 10
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 10
 y 2
 end
@@ -1416,7 +1416,7 @@ arch flagstone
 x 10
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 10
 y 19
 end
@@ -1443,7 +1443,7 @@ arch flagstone
 x 11
 y 2
 end
-arch wwall_win2
+arch window_win2
 x 11
 y 2
 end
@@ -1531,7 +1531,7 @@ arch flagstone
 x 11
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 11
 y 19
 end
@@ -1554,7 +1554,7 @@ arch flagstone
 x 12
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 12
 y 2
 end
@@ -1626,7 +1626,7 @@ arch flagstone
 x 12
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 12
 y 19
 end
@@ -1649,7 +1649,7 @@ arch flagstone
 x 13
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 13
 y 2
 end
@@ -1737,7 +1737,7 @@ arch flagstone
 x 13
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 13
 y 19
 end
@@ -1760,7 +1760,7 @@ arch flagstone
 x 14
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 14
 y 2
 end
@@ -1832,7 +1832,7 @@ arch flagstone
 x 14
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 14
 y 19
 end
@@ -1855,7 +1855,7 @@ arch flagstone
 x 15
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 15
 y 2
 end
@@ -1947,7 +1947,7 @@ arch flagstone
 x 15
 y 19
 end
-arch wwall_win2
+arch window_win2
 x 15
 y 19
 end
@@ -1970,7 +1970,7 @@ arch flagstone
 x 16
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 16
 y 2
 end
@@ -2045,7 +2045,7 @@ arch flagstone
 x 16
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 16
 y 19
 end
@@ -2068,7 +2068,7 @@ arch flagstone
 x 17
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 17
 y 2
 end
@@ -2156,7 +2156,7 @@ arch flagstone
 x 17
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 17
 y 19
 end
@@ -2183,7 +2183,7 @@ arch flagstone
 x 18
 y 2
 end
-arch wwall_win2
+arch window_win2
 x 18
 y 2
 end
@@ -2255,7 +2255,7 @@ arch flagstone
 x 18
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 18
 y 19
 end
@@ -2278,7 +2278,7 @@ arch flagstone
 x 19
 y 2
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 19
 y 2
 end
@@ -2358,7 +2358,7 @@ arch flagstone
 x 19
 y 19
 end
-arch wwall_2_1_2
+arch wall_2_1_2
 x 19
 y 19
 end
@@ -2381,7 +2381,7 @@ arch flagstone
 x 20
 y 2
 end
-arch wwall_2_2_3
+arch wall_2_2_3
 x 20
 y 2
 end
@@ -2389,7 +2389,7 @@ arch flagstone
 x 20
 y 3
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 3
 end
@@ -2397,7 +2397,7 @@ arch flagstone
 x 20
 y 4
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 4
 end
@@ -2409,7 +2409,7 @@ arch flagstone
 x 20
 y 5
 end
-arch wwall_win1
+arch window_win1
 x 20
 y 5
 end
@@ -2417,7 +2417,7 @@ arch flagstone
 x 20
 y 6
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 6
 end
@@ -2425,7 +2425,7 @@ arch flagstone
 x 20
 y 7
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 7
 end
@@ -2433,7 +2433,7 @@ arch flagstone
 x 20
 y 8
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 8
 end
@@ -2441,7 +2441,7 @@ arch flagstone
 x 20
 y 9
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 9
 end
@@ -2449,7 +2449,7 @@ arch flagstone
 x 20
 y 10
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 10
 end
@@ -2457,7 +2457,7 @@ arch flagstone
 x 20
 y 11
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 11
 end
@@ -2465,7 +2465,7 @@ arch flagstone
 x 20
 y 12
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 12
 end
@@ -2473,7 +2473,7 @@ arch flagstone
 x 20
 y 13
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 13
 end
@@ -2481,7 +2481,7 @@ arch flagstone
 x 20
 y 14
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 14
 end
@@ -2489,7 +2489,7 @@ arch flagstone
 x 20
 y 15
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 15
 end
@@ -2501,7 +2501,7 @@ arch flagstone
 x 20
 y 16
 end
-arch wwall_win1
+arch window_win1
 x 20
 y 16
 end
@@ -2509,7 +2509,7 @@ arch flagstone
 x 20
 y 17
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 17
 end
@@ -2517,7 +2517,7 @@ arch flagstone
 x 20
 y 18
 end
-arch wwall_2_1_1
+arch wall_2_1_1
 x 20
 y 18
 end
@@ -2525,7 +2525,7 @@ arch flagstone
 x 20
 y 19
 end
-arch wwall_2_2_4
+arch wall_2_2_4
 x 20
 y 19
 end
