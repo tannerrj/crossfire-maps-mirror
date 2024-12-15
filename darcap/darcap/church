@@ -8,7 +8,7 @@ enter_x 17
 enter_y 1
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2021-07-22 Saiapatsu
+Modified: 2024-12-15 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -2711,7 +2711,7 @@ arch woodfloor
 x 14
 y 23
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 14
 y 23
 end
@@ -2901,7 +2901,7 @@ arch woodfloor
 x 15
 y 20
 end
-arch swall_2_1_1
+arch swall_1_2
 x 15
 y 20
 end
@@ -2909,7 +2909,11 @@ arch woodfloor
 x 15
 y 21
 end
-arch swall_1_2
+arch locked_door2
+slaying darcap_andreas
+msg
+You don't have the key to the Sanctuary.
+endmsg
 x 15
 y 21
 end
@@ -2917,11 +2921,7 @@ arch woodfloor
 x 15
 y 22
 end
-arch locked_door2
-slaying darcap_andreas
-msg
-You don't have the key to the Sanctuary.
-endmsg
+arch swall_1_1
 x 15
 y 22
 end
@@ -2929,7 +2929,11 @@ arch woodfloor
 x 15
 y 23
 end
-arch wwall_win2
+arch swall_1_2_half
+x 15
+y 23
+end
+arch wwall_2_1_2
 x 15
 y 23
 end
@@ -3940,7 +3944,7 @@ arch woodfloor
 x 19
 y 22
 end
-arch swall_1_2
+arch swall_2_1_1
 x 19
 y 22
 end
@@ -3948,7 +3952,11 @@ arch woodfloor
 x 19
 y 23
 end
-arch wwall_win2
+arch swall_1_2_half
+x 19
+y 23
+end
+arch wwall_2_1_2
 x 19
 y 23
 end
@@ -4171,7 +4179,7 @@ arch woodfloor
 x 20
 y 23
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 20
 y 23
 end
