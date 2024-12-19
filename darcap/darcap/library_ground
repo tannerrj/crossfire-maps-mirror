@@ -3,13 +3,13 @@ name Darcap Library
 fixed_resettime 1
 region darcap
 shopitems book:50;*:-50
-width 20
-height 20
+width 22
+height 22
 enter_x 18
-enter_y 9
+enter_y 10
 msg
 Created:  2010-03-07 Nicolas Weeger
-Modified: 2022-07-16 Rick Tanner
+Modified: 2024-12-19 Rick Tanner
 endmsg
 reset_group darcap_library
 end
@@ -73,221 +73,83 @@ arch grass
 y 19
 end
 arch grass
+y 20
+end
+arch cobblestones2
+y 21
+end
+arch grass
 x 1
 end
-arch dungeon_magic
-x 1
-y 1
-end
-arch woodlarge
-x 1
-y 1
-end
-arch white_wall_2_2_2
+arch grass
 x 1
 y 1
 end
-arch dungeon_magic
+arch grass
 x 1
 y 2
 end
-arch woodlarge
-x 1
-y 2
-end
-arch white_wall_2_1_1
-x 1
-y 2
-end
-arch dungeon_magic
+arch grass
 x 1
 y 3
 end
-arch woodlarge
-x 1
-y 3
-end
-arch white_wall_2_1_1
-x 1
-y 3
-end
-arch dungeon_magic
+arch grass
 x 1
 y 4
 end
-arch woodlarge
-x 1
-y 4
-end
-arch white_wall_2_1_1
-x 1
-y 4
-end
-arch dungeon_magic
+arch grass
 x 1
 y 5
 end
-arch woodlarge
-x 1
-y 5
-end
-arch white_wall_2_1_1
-x 1
-y 5
-end
-arch dungeon_magic
+arch grass
 x 1
 y 6
 end
-arch woodlarge
-x 1
-y 6
-end
-arch white_wall_2_1_1
-x 1
-y 6
-end
-arch dungeon_magic
+arch grass
 x 1
 y 7
 end
-arch woodlarge
-x 1
-y 7
-end
-arch white_wall_3_2
-x 1
-y 7
-end
-arch dungeon_magic
+arch grass
 x 1
 y 8
 end
-arch woodlarge
-x 1
-y 8
-end
-arch white_wall_2_1_1
-x 1
-y 8
-end
-arch dungeon_magic
+arch grass
 x 1
 y 9
 end
-arch woodlarge
-x 1
-y 9
-end
-arch white_wall_2_1_1
-x 1
-y 9
-end
-arch dungeon_magic
+arch grass
 x 1
 y 10
 end
-arch woodlarge
-x 1
-y 10
-end
-arch white_wall_2_1_1
-x 1
-y 10
-end
-arch dungeon_magic
+arch grass
 x 1
 y 11
 end
-arch woodlarge
-x 1
-y 11
-end
-arch white_wall_2_1_1
-x 1
-y 11
-end
-arch dungeon_magic
+arch grass
 x 1
 y 12
 end
-arch woodlarge
-x 1
-y 12
-end
-arch white_wall_3_2
-x 1
-y 12
-end
-arch dungeon_magic
+arch grass
 x 1
 y 13
 end
-arch woodlarge
-x 1
-y 13
-end
-arch white_wall_2_1_1
-x 1
-y 13
-end
-arch dungeon_magic
+arch grass
 x 1
 y 14
 end
-arch woodlarge
-x 1
-y 14
-end
-arch white_wall_2_1_1
-x 1
-y 14
-end
-arch dungeon_magic
+arch grass
 x 1
 y 15
 end
-arch woodlarge
-x 1
-y 15
-end
-arch white_wall_2_1_1
-x 1
-y 15
-end
-arch dungeon_magic
+arch grass
 x 1
 y 16
 end
-arch woodlarge
-x 1
-y 16
-end
-arch white_wall_2_1_1
-x 1
-y 16
-end
-arch dungeon_magic
+arch grass
 x 1
 y 17
 end
-arch woodlarge
-x 1
-y 17
-end
-arch white_wall_2_1_1
-x 1
-y 17
-end
-arch dungeon_magic
-x 1
-y 18
-end
-arch woodlarge
-x 1
-y 18
-end
-arch white_wall_2_2_1
+arch grass
 x 1
 y 18
 end
@@ -296,31 +158,274 @@ x 1
 y 19
 end
 arch grass
+x 1
+y 20
+end
+arch cobblestones2
+x 1
+y 21
+end
+arch grass
 x 2
+end
+arch grass
+x 2
+y 1
 end
 arch dungeon_magic
 x 2
-y 1
+y 2
 end
 arch woodlarge
 x 2
+y 2
+end
+arch white_wall_2_2_2
+x 2
+y 2
+end
+arch dungeon_magic
+x 2
+y 3
+end
+arch woodlarge
+x 2
+y 3
+end
+arch white_wall_2_1_1
+x 2
+y 3
+end
+arch dungeon_magic
+x 2
+y 4
+end
+arch woodlarge
+x 2
+y 4
+end
+arch white_wall_2_1_1
+x 2
+y 4
+end
+arch dungeon_magic
+x 2
+y 5
+end
+arch woodlarge
+x 2
+y 5
+end
+arch white_wall_2_1_1
+x 2
+y 5
+end
+arch dungeon_magic
+x 2
+y 6
+end
+arch woodlarge
+x 2
+y 6
+end
+arch white_wall_2_1_1
+x 2
+y 6
+end
+arch dungeon_magic
+x 2
+y 7
+end
+arch woodlarge
+x 2
+y 7
+end
+arch white_wall_2_1_1
+x 2
+y 7
+end
+arch dungeon_magic
+x 2
+y 8
+end
+arch woodlarge
+x 2
+y 8
+end
+arch white_wall_3_2
+x 2
+y 8
+end
+arch dungeon_magic
+x 2
+y 9
+end
+arch woodlarge
+x 2
+y 9
+end
+arch white_wall_2_1_1
+x 2
+y 9
+end
+arch dungeon_magic
+x 2
+y 10
+end
+arch woodlarge
+x 2
+y 10
+end
+arch white_wall_2_1_1
+x 2
+y 10
+end
+arch dungeon_magic
+x 2
+y 11
+end
+arch woodlarge
+x 2
+y 11
+end
+arch white_wall_2_1_1
+x 2
+y 11
+end
+arch dungeon_magic
+x 2
+y 12
+end
+arch woodlarge
+x 2
+y 12
+end
+arch white_wall_2_1_1
+x 2
+y 12
+end
+arch dungeon_magic
+x 2
+y 13
+end
+arch woodlarge
+x 2
+y 13
+end
+arch white_wall_3_2
+x 2
+y 13
+end
+arch dungeon_magic
+x 2
+y 14
+end
+arch woodlarge
+x 2
+y 14
+end
+arch white_wall_2_1_1
+x 2
+y 14
+end
+arch dungeon_magic
+x 2
+y 15
+end
+arch woodlarge
+x 2
+y 15
+end
+arch white_wall_2_1_1
+x 2
+y 15
+end
+arch dungeon_magic
+x 2
+y 16
+end
+arch woodlarge
+x 2
+y 16
+end
+arch white_wall_2_1_1
+x 2
+y 16
+end
+arch dungeon_magic
+x 2
+y 17
+end
+arch woodlarge
+x 2
+y 17
+end
+arch white_wall_2_1_1
+x 2
+y 17
+end
+arch dungeon_magic
+x 2
+y 18
+end
+arch woodlarge
+x 2
+y 18
+end
+arch white_wall_2_1_1
+x 2
+y 18
+end
+arch dungeon_magic
+x 2
+y 19
+end
+arch woodlarge
+x 2
+y 19
+end
+arch white_wall_2_2_1
+x 2
+y 19
+end
+arch grass
+x 2
+y 20
+end
+arch cobblestones2
+x 2
+y 21
+end
+arch grass
+x 3
+end
+arch grass
+x 3
 y 1
+end
+arch dungeon_magic
+x 3
+y 2
+end
+arch woodlarge
+x 3
+y 2
 end
 arch white_wall_2_1_2
-x 2
-y 1
+x 3
+y 2
 end
 arch dungeon_magic
-x 2
-y 2
+x 3
+y 3
 end
 arch woodlarge
-x 2
-y 2
+x 3
+y 3
 end
 arch bookshelf
-x 2
-y 2
+x 3
+y 3
 no_pick 1
 arch random_reading
 exp 10
@@ -328,40 +433,40 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 2
-y 3
-end
-arch woodlarge
-x 2
-y 3
-end
-arch dungeon_magic
-x 2
+x 3
 y 4
 end
 arch woodlarge
-x 2
+x 3
 y 4
 end
 arch dungeon_magic
-x 2
+x 3
 y 5
 end
 arch woodlarge
-x 2
+x 3
 y 5
 end
 arch dungeon_magic
-x 2
+x 3
 y 6
 end
 arch woodlarge
-x 2
+x 3
 y 6
+end
+arch dungeon_magic
+x 3
+y 7
+end
+arch woodlarge
+x 3
+y 7
 end
 arch bookshelf_bottom
-x 2
-y 6
+x 3
+y 7
 no_pick 1
 arch random_reading
 exp 10
@@ -369,32 +474,32 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 2
-y 7
+x 3
+y 8
 end
 arch woodlarge
-x 2
-y 7
+x 3
+y 8
 end
 arch white_wall_2_1_2
-x 2
-y 7
-end
-arch dungeon_magic
-x 2
-y 8
-end
-arch woodlarge
-x 2
+x 3
 y 8
 end
 arch dungeon_magic
-x 2
+x 3
 y 9
 end
 arch woodlarge
-x 2
+x 3
 y 9
+end
+arch dungeon_magic
+x 3
+y 10
+end
+arch woodlarge
+x 3
+y 10
 end
 arch gardengnome
 name Trevor
@@ -405,49 +510,49 @@ G'day, an' welcome to the library. Anything I can help you with?
 @match *
 Shush! This is a library!
 endmsg
-x 2
-y 9
+x 3
+y 10
 unaggressive 1
 end
 arch dungeon_magic
-x 2
-y 10
-end
-arch woodlarge
-x 2
-y 10
-end
-arch dungeon_magic
-x 2
+x 3
 y 11
 end
 arch woodlarge
-x 2
+x 3
 y 11
 end
 arch dungeon_magic
-x 2
+x 3
 y 12
 end
 arch woodlarge
-x 2
+x 3
 y 12
+end
+arch dungeon_magic
+x 3
+y 13
+end
+arch woodlarge
+x 3
+y 13
 end
 arch white_wall_2_1_2
-x 2
-y 12
+x 3
+y 13
 end
 arch dungeon_magic
-x 2
-y 13
+x 3
+y 14
 end
 arch woodlarge
-x 2
-y 13
+x 3
+y 14
 end
 arch bookshelf
-x 2
-y 13
+x 3
+y 14
 no_pick 1
 arch random_reading
 exp 10
@@ -455,40 +560,40 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 2
-y 14
-end
-arch woodlarge
-x 2
-y 14
-end
-arch dungeon_magic
-x 2
+x 3
 y 15
 end
 arch woodlarge
-x 2
+x 3
 y 15
 end
 arch dungeon_magic
-x 2
+x 3
 y 16
 end
 arch woodlarge
-x 2
+x 3
 y 16
 end
 arch dungeon_magic
-x 2
+x 3
 y 17
 end
 arch woodlarge
-x 2
+x 3
 y 17
+end
+arch dungeon_magic
+x 3
+y 18
+end
+arch woodlarge
+x 3
+y 18
 end
 arch bookshelf_bottom
-x 2
-y 17
+x 3
+y 18
 no_pick 1
 arch random_reading
 exp 10
@@ -496,47 +601,55 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 2
-y 18
+x 3
+y 19
 end
 arch woodlarge
-x 2
-y 18
+x 3
+y 19
 end
 arch white_wall_2_1_2
-x 2
-y 18
-end
-arch grass
-x 2
+x 3
 y 19
 end
 arch grass
 x 3
+y 20
+end
+arch cobblestones2
+x 3
+y 21
+end
+arch grass
+x 4
+end
+arch grass
+x 4
+y 1
 end
 arch dungeon_magic
-x 3
-y 1
+x 4
+y 2
 end
 arch woodlarge
-x 3
-y 1
+x 4
+y 2
 end
 arch white_wall_2_1_2
-x 3
-y 1
+x 4
+y 2
 end
 arch dungeon_magic
-x 3
-y 2
+x 4
+y 3
 end
 arch woodlarge
-x 3
-y 2
+x 4
+y 3
 end
 arch bookshelf
-x 3
-y 2
+x 4
+y 3
 no_pick 1
 arch random_reading
 exp 10
@@ -544,40 +657,40 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 3
-y 3
-end
-arch woodlarge
-x 3
-y 3
-end
-arch dungeon_magic
-x 3
+x 4
 y 4
 end
 arch woodlarge
-x 3
+x 4
 y 4
 end
 arch dungeon_magic
-x 3
+x 4
 y 5
 end
 arch woodlarge
-x 3
+x 4
 y 5
 end
 arch dungeon_magic
-x 3
+x 4
 y 6
 end
 arch woodlarge
-x 3
+x 4
 y 6
+end
+arch dungeon_magic
+x 4
+y 7
+end
+arch woodlarge
+x 4
+y 7
 end
 arch bookshelf_bottom
-x 3
-y 6
+x 4
+y 7
 no_pick 1
 arch random_reading
 exp 10
@@ -585,92 +698,92 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 3
-y 7
+x 4
+y 8
 end
 arch woodlarge
-x 3
-y 7
+x 4
+y 8
 end
 arch white_wall_2_1_2
-x 3
-y 7
+x 4
+y 8
 end
 arch dungeon_magic
-x 3
-y 8
+x 4
+y 9
 end
 arch woodlarge
-x 3
-y 8
+x 4
+y 9
 end
 arch longtable_2_2_2
-x 3
-y 8
-move_block all
-end
-arch dungeon_magic
-x 3
-y 9
-end
-arch woodlarge
-x 3
-y 9
-end
-arch longtable_2_1_1
-x 3
+x 4
 y 9
 move_block all
 end
 arch dungeon_magic
-x 3
+x 4
 y 10
 end
 arch woodlarge
-x 3
+x 4
 y 10
 end
 arch longtable_2_1_1
-x 3
+x 4
 y 10
 move_block all
 end
 arch dungeon_magic
-x 3
+x 4
 y 11
 end
 arch woodlarge
-x 3
+x 4
 y 11
+end
+arch longtable_2_1_1
+x 4
+y 11
+move_block all
+end
+arch dungeon_magic
+x 4
+y 12
+end
+arch woodlarge
+x 4
+y 12
 end
 arch longtable_2_2_1
-x 3
-y 11
+x 4
+y 12
 move_block all
 end
 arch dungeon_magic
-x 3
-y 12
+x 4
+y 13
 end
 arch woodlarge
-x 3
-y 12
+x 4
+y 13
 end
 arch white_wall_2_1_2
-x 3
-y 12
+x 4
+y 13
 end
 arch dungeon_magic
-x 3
-y 13
+x 4
+y 14
 end
 arch woodlarge
-x 3
-y 13
+x 4
+y 14
 end
 arch bookshelf
-x 3
-y 13
+x 4
+y 14
 no_pick 1
 arch random_reading
 exp 10
@@ -678,40 +791,40 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 3
-y 14
-end
-arch woodlarge
-x 3
-y 14
-end
-arch dungeon_magic
-x 3
+x 4
 y 15
 end
 arch woodlarge
-x 3
+x 4
 y 15
 end
 arch dungeon_magic
-x 3
+x 4
 y 16
 end
 arch woodlarge
-x 3
+x 4
 y 16
 end
 arch dungeon_magic
-x 3
+x 4
 y 17
 end
 arch woodlarge
-x 3
+x 4
 y 17
+end
+arch dungeon_magic
+x 4
+y 18
+end
+arch woodlarge
+x 4
+y 18
 end
 arch bookshelf_bottom
-x 3
-y 17
+x 4
+y 18
 no_pick 1
 arch random_reading
 exp 10
@@ -719,1890 +832,1737 @@ no_pick 1
 end
 end
 arch dungeon_magic
-x 3
-y 18
+x 4
+y 19
 end
 arch woodlarge
-x 3
-y 18
+x 4
+y 19
 end
 arch white_wall_2_1_2
-x 3
-y 18
-end
-arch grass
-x 3
+x 4
 y 19
 end
 arch grass
 x 4
+y 20
 end
-arch dungeon_magic
+arch cobblestones2
 x 4
-y 1
-end
-arch woodlarge
-x 4
-y 1
-end
-arch white_wall_2_1_2
-x 4
-y 1
-end
-arch dungeon_magic
-x 4
-y 2
-end
-arch woodlarge
-x 4
-y 2
-end
-arch bookshelf
-x 4
-y 2
-no_pick 1
-arch random_reading
-exp 10
-no_pick 1
-end
-end
-arch dungeon_magic
-x 4
-y 3
-end
-arch woodlarge
-x 4
-y 3
-end
-arch dungeon_magic
-x 4
-y 4
-end
-arch woodlarge
-x 4
-y 4
-end
-arch dungeon_magic
-x 4
-y 5
-end
-arch woodlarge
-x 4
-y 5
-end
-arch dungeon_magic
-x 4
-y 6
-end
-arch woodlarge
-x 4
-y 6
-end
-arch bookshelf_bottom
-x 4
-y 6
-no_pick 1
-arch random_reading
-exp 10
-no_pick 1
-end
-end
-arch dungeon_magic
-x 4
-y 7
-end
-arch woodlarge
-x 4
-y 7
-end
-arch white_wall_2_1_2
-x 4
-y 7
-end
-arch dungeon_magic
-x 4
-y 8
-end
-arch woodlarge
-x 4
-y 8
-end
-arch longtable_1_3
-x 4
-y 8
-move_block all
-end
-arch dungeon_magic
-x 4
-y 9
-end
-arch woodlarge
-x 4
-y 9
-end
-arch dungeon_magic
-x 4
-y 10
-end
-arch woodlarge
-x 4
-y 10
-end
-arch dungeon_magic
-x 4
-y 11
-end
-arch woodlarge
-x 4
-y 11
-end
-arch longtable_1_3
-x 4
-y 11
-move_block all
-end
-arch dungeon_magic
-x 4
-y 12
-end
-arch woodlarge
-x 4
-y 12
-end
-arch white_wall_2_1_2
-x 4
-y 12
-end
-arch dungeon_magic
-x 4
-y 13
-end
-arch woodlarge
-x 4
-y 13
-end
-arch bookshelf
-x 4
-y 13
-no_pick 1
-arch random_reading
-exp 10
-no_pick 1
-end
-end
-arch dungeon_magic
-x 4
-y 14
-end
-arch woodlarge
-x 4
-y 14
-end
-arch dungeon_magic
-x 4
-y 15
-end
-arch woodlarge
-x 4
-y 15
-end
-arch dungeon_magic
-x 4
-y 16
-end
-arch woodlarge
-x 4
-y 16
-end
-arch dungeon_magic
-x 4
-y 17
-end
-arch woodlarge
-x 4
-y 17
-end
-arch bookshelf_bottom
-x 4
-y 17
-no_pick 1
-arch random_reading
-exp 10
-no_pick 1
-end
-end
-arch dungeon_magic
-x 4
-y 18
-end
-arch woodlarge
-x 4
-y 18
-end
-arch white_wall_2_1_2
-x 4
-y 18
+y 21
 end
 arch grass
-x 4
+x 5
+end
+arch grass
+x 5
+y 1
+end
+arch dungeon_magic
+x 5
+y 2
+end
+arch woodlarge
+x 5
+y 2
+end
+arch white_wall_2_1_2
+x 5
+y 2
+end
+arch dungeon_magic
+x 5
+y 3
+end
+arch woodlarge
+x 5
+y 3
+end
+arch bookshelf
+x 5
+y 3
+no_pick 1
+arch random_reading
+exp 10
+no_pick 1
+end
+end
+arch dungeon_magic
+x 5
+y 4
+end
+arch woodlarge
+x 5
+y 4
+end
+arch dungeon_magic
+x 5
+y 5
+end
+arch woodlarge
+x 5
+y 5
+end
+arch dungeon_magic
+x 5
+y 6
+end
+arch woodlarge
+x 5
+y 6
+end
+arch dungeon_magic
+x 5
+y 7
+end
+arch woodlarge
+x 5
+y 7
+end
+arch bookshelf_bottom
+x 5
+y 7
+no_pick 1
+arch random_reading
+exp 10
+no_pick 1
+end
+end
+arch dungeon_magic
+x 5
+y 8
+end
+arch woodlarge
+x 5
+y 8
+end
+arch white_wall_2_1_2
+x 5
+y 8
+end
+arch dungeon_magic
+x 5
+y 9
+end
+arch woodlarge
+x 5
+y 9
+end
+arch longtable_1_3
+x 5
+y 9
+move_block all
+end
+arch dungeon_magic
+x 5
+y 10
+end
+arch woodlarge
+x 5
+y 10
+end
+arch dungeon_magic
+x 5
+y 11
+end
+arch woodlarge
+x 5
+y 11
+end
+arch dungeon_magic
+x 5
+y 12
+end
+arch woodlarge
+x 5
+y 12
+end
+arch longtable_1_3
+x 5
+y 12
+move_block all
+end
+arch dungeon_magic
+x 5
+y 13
+end
+arch woodlarge
+x 5
+y 13
+end
+arch white_wall_2_1_2
+x 5
+y 13
+end
+arch dungeon_magic
+x 5
+y 14
+end
+arch woodlarge
+x 5
+y 14
+end
+arch bookshelf
+x 5
+y 14
+no_pick 1
+arch random_reading
+exp 10
+no_pick 1
+end
+end
+arch dungeon_magic
+x 5
+y 15
+end
+arch woodlarge
+x 5
+y 15
+end
+arch dungeon_magic
+x 5
+y 16
+end
+arch woodlarge
+x 5
+y 16
+end
+arch dungeon_magic
+x 5
+y 17
+end
+arch woodlarge
+x 5
+y 17
+end
+arch dungeon_magic
+x 5
+y 18
+end
+arch woodlarge
+x 5
+y 18
+end
+arch bookshelf_bottom
+x 5
+y 18
+no_pick 1
+arch random_reading
+exp 10
+no_pick 1
+end
+end
+arch dungeon_magic
+x 5
+y 19
+end
+arch woodlarge
+x 5
+y 19
+end
+arch white_wall_2_1_2
+x 5
 y 19
 end
 arch grass
 x 5
+y 20
+end
+arch cobblestones2
+x 5
+y 21
+end
+arch grass
+x 6
+end
+arch grass
+x 6
+y 1
 end
 arch dungeon_magic
-x 5
-y 1
+x 6
+y 2
 end
 arch woodlarge
-x 5
-y 1
+x 6
+y 2
 end
 arch white_wall_3_3
-x 5
-y 1
+x 6
+y 2
 end
 arch dungeon_magic
-x 5
-y 2
+x 6
+y 3
 end
 arch woodlarge
-x 5
-y 2
+x 6
+y 3
 end
 arch white_wall_2_1_1
-x 5
-y 2
-end
-arch dungeon_magic
-x 5
-y 3
-end
-arch woodlarge
-x 5
-y 3
-end
-arch white_wall_1_2
-x 5
+x 6
 y 3
 end
 arch dungeon_magic
-x 5
+x 6
 y 4
 end
 arch woodlarge
-x 5
+x 6
+y 4
+end
+arch white_wall_1_2
+x 6
 y 4
 end
 arch dungeon_magic
-x 5
+x 6
 y 5
 end
 arch woodlarge
-x 5
+x 6
 y 5
+end
+arch dungeon_magic
+x 6
+y 6
+end
+arch woodlarge
+x 6
+y 6
 end
 arch white_wall_1_1
-x 5
-y 5
+x 6
+y 6
 end
 arch dungeon_magic
-x 5
-y 6
+x 6
+y 7
 end
 arch woodlarge
-x 5
-y 6
+x 6
+y 7
 end
 arch white_wall_2_1_1
-x 5
-y 6
+x 6
+y 7
 end
 arch dungeon_magic
-x 5
-y 7
+x 6
+y 8
 end
 arch woodlarge
-x 5
-y 7
+x 6
+y 8
 end
 arch white_wall_3_4
-x 5
-y 7
-end
-arch dungeon_magic
-x 5
-y 8
-end
-arch woodlarge
-x 5
-y 8
-end
-arch white_wall_1_2
-x 5
+x 6
 y 8
 end
 arch dungeon_magic
-x 5
+x 6
 y 9
 end
 arch woodlarge
-x 5
+x 6
+y 9
+end
+arch white_wall_1_2
+x 6
 y 9
 end
 arch dungeon_magic
-x 5
+x 6
 y 10
 end
 arch woodlarge
-x 5
+x 6
 y 10
 end
 arch dungeon_magic
-x 5
+x 6
 y 11
 end
 arch woodlarge
-x 5
+x 6
 y 11
+end
+arch dungeon_magic
+x 6
+y 12
+end
+arch woodlarge
+x 6
+y 12
 end
 arch white_wall_1_1
-x 5
-y 11
+x 6
+y 12
 end
 arch dungeon_magic
-x 5
-y 12
+x 6
+y 13
 end
 arch woodlarge
-x 5
-y 12
+x 6
+y 13
 end
 arch white_wall_3_4
-x 5
-y 12
+x 6
+y 13
 end
 arch dungeon_magic
-x 5
-y 13
+x 6
+y 14
 end
 arch woodlarge
-x 5
-y 13
+x 6
+y 14
 end
 arch white_wall_2_1_1
-x 5
-y 13
+x 6
+y 14
 end
 arch dungeon_magic
-x 5
-y 14
+x 6
+y 15
 end
 arch woodlarge
-x 5
-y 14
+x 6
+y 15
 end
 arch white_wall_1_2
-x 5
-y 14
-end
-arch dungeon_magic
-x 5
-y 15
-end
-arch woodlarge
-x 5
+x 6
 y 15
 end
 arch dungeon_magic
-x 5
+x 6
 y 16
 end
 arch woodlarge
-x 5
+x 6
 y 16
+end
+arch dungeon_magic
+x 6
+y 17
+end
+arch woodlarge
+x 6
+y 17
 end
 arch white_wall_1_1
-x 5
-y 16
+x 6
+y 17
 end
 arch dungeon_magic
-x 5
-y 17
+x 6
+y 18
 end
 arch woodlarge
-x 5
-y 17
+x 6
+y 18
 end
 arch white_wall_2_1_1
-x 5
-y 17
+x 6
+y 18
 end
 arch dungeon_magic
-x 5
-y 18
+x 6
+y 19
 end
 arch woodlarge
-x 5
-y 18
+x 6
+y 19
 end
 arch white_wall_3_1
-x 5
-y 18
-end
-arch grass
-x 5
-y 19
-end
-arch grass
-x 6
-end
-arch dungeon_magic
-x 6
-y 1
-end
-arch woodlarge
-x 6
-y 1
-end
-arch white_wall_2_1_2
-x 6
-y 1
-end
-arch dungeon_magic
-x 6
-y 2
-end
-arch woodlarge
-x 6
-y 2
-end
-arch dungeon_magic
-x 6
-y 3
-end
-arch woodlarge
-x 6
-y 3
-end
-arch dungeon_magic
-x 6
-y 4
-end
-arch woodlarge
-x 6
-y 4
-end
-arch dungeon_magic
-x 6
-y 5
-end
-arch woodlarge
-x 6
-y 5
-end
-arch dungeon_magic
-x 6
-y 6
-end
-arch woodlarge
-x 6
-y 6
-end
-arch dungeon_magic
-x 6
-y 7
-end
-arch woodlarge
-x 6
-y 7
-end
-arch dungeon_magic
-x 6
-y 8
-end
-arch woodlarge
-x 6
-y 8
-end
-arch dungeon_magic
-x 6
-y 9
-end
-arch woodlarge
-x 6
-y 9
-end
-arch dungeon_magic
-x 6
-y 10
-end
-arch woodlarge
-x 6
-y 10
-end
-arch dungeon_magic
-x 6
-y 11
-end
-arch woodlarge
-x 6
-y 11
-end
-arch dungeon_magic
-x 6
-y 12
-end
-arch woodlarge
-x 6
-y 12
-end
-arch dungeon_magic
-x 6
-y 13
-end
-arch woodlarge
-x 6
-y 13
-end
-arch dungeon_magic
-x 6
-y 14
-end
-arch woodlarge
-x 6
-y 14
-end
-arch dungeon_magic
-x 6
-y 15
-end
-arch woodlarge
-x 6
-y 15
-end
-arch dungeon_magic
-x 6
-y 16
-end
-arch woodlarge
-x 6
-y 16
-end
-arch dungeon_magic
-x 6
-y 17
-end
-arch woodlarge
-x 6
-y 17
-end
-arch dungeon_magic
-x 6
-y 18
-end
-arch woodlarge
-x 6
-y 18
-end
-arch white_wall_2_1_2
-x 6
-y 18
-end
-arch grass
 x 6
 y 19
 end
 arch grass
-x 7
+x 6
+y 20
 end
-arch dungeon_magic
-x 7
-y 1
-end
-arch woodlarge
-x 7
-y 1
-end
-arch white_wall_2_1_2
-x 7
-y 1
-end
-arch dungeon_magic
-x 7
-y 2
-end
-arch woodlarge
-x 7
-y 2
-end
-arch dungeon_magic
-x 7
-y 3
-end
-arch woodlarge
-x 7
-y 3
-end
-arch bookshelf
-x 7
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 4
-end
-arch woodlarge
-x 7
-y 4
-end
-arch dungeon_magic
-x 7
-y 5
-end
-arch woodlarge
-x 7
-y 5
-end
-arch bookshelf
-x 7
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 6
-end
-arch woodlarge
-x 7
-y 6
-end
-arch dungeon_magic
-x 7
-y 7
-end
-arch woodlarge
-x 7
-y 7
-end
-arch bookshelf
-x 7
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 8
-end
-arch woodlarge
-x 7
-y 8
-end
-arch dungeon_magic
-x 7
-y 9
-end
-arch woodlarge
-x 7
-y 9
-end
-arch dungeon_magic
-x 7
-y 10
-end
-arch woodlarge
-x 7
-y 10
-end
-arch dungeon_magic
-x 7
-y 11
-end
-arch woodlarge
-x 7
-y 11
-end
-arch dungeon_magic
-x 7
-y 12
-end
-arch woodlarge
-x 7
-y 12
-end
-arch bookshelf
-x 7
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 13
-end
-arch woodlarge
-x 7
-y 13
-end
-arch dungeon_magic
-x 7
-y 14
-end
-arch woodlarge
-x 7
-y 14
-end
-arch bookshelf
-x 7
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 15
-end
-arch woodlarge
-x 7
-y 15
-end
-arch dungeon_magic
-x 7
-y 16
-end
-arch woodlarge
-x 7
-y 16
-end
-arch bookshelf
-x 7
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 7
-y 17
-end
-arch woodlarge
-x 7
-y 17
-end
-arch dungeon_magic
-x 7
-y 18
-end
-arch woodlarge
-x 7
-y 18
-end
-arch white_wall_2_1_2
-x 7
-y 18
+arch cobblestones2
+x 6
+y 21
 end
 arch grass
+x 7
+end
+arch grass
+x 7
+y 1
+end
+arch dungeon_magic
+x 7
+y 2
+end
+arch woodlarge
+x 7
+y 2
+end
+arch white_wall_2_1_2
+x 7
+y 2
+end
+arch dungeon_magic
+x 7
+y 3
+end
+arch woodlarge
+x 7
+y 3
+end
+arch dungeon_magic
+x 7
+y 4
+end
+arch woodlarge
+x 7
+y 4
+end
+arch dungeon_magic
+x 7
+y 5
+end
+arch woodlarge
+x 7
+y 5
+end
+arch dungeon_magic
+x 7
+y 6
+end
+arch woodlarge
+x 7
+y 6
+end
+arch dungeon_magic
+x 7
+y 7
+end
+arch woodlarge
+x 7
+y 7
+end
+arch dungeon_magic
+x 7
+y 8
+end
+arch woodlarge
+x 7
+y 8
+end
+arch dungeon_magic
+x 7
+y 9
+end
+arch woodlarge
+x 7
+y 9
+end
+arch dungeon_magic
+x 7
+y 10
+end
+arch woodlarge
+x 7
+y 10
+end
+arch dungeon_magic
+x 7
+y 11
+end
+arch woodlarge
+x 7
+y 11
+end
+arch dungeon_magic
+x 7
+y 12
+end
+arch woodlarge
+x 7
+y 12
+end
+arch dungeon_magic
+x 7
+y 13
+end
+arch woodlarge
+x 7
+y 13
+end
+arch dungeon_magic
+x 7
+y 14
+end
+arch woodlarge
+x 7
+y 14
+end
+arch dungeon_magic
+x 7
+y 15
+end
+arch woodlarge
+x 7
+y 15
+end
+arch dungeon_magic
+x 7
+y 16
+end
+arch woodlarge
+x 7
+y 16
+end
+arch dungeon_magic
+x 7
+y 17
+end
+arch woodlarge
+x 7
+y 17
+end
+arch dungeon_magic
+x 7
+y 18
+end
+arch woodlarge
+x 7
+y 18
+end
+arch dungeon_magic
+x 7
+y 19
+end
+arch woodlarge
+x 7
+y 19
+end
+arch white_wall_2_1_2
 x 7
 y 19
 end
 arch grass
-x 8
+x 7
+y 20
 end
-arch dungeon_magic
-x 8
-y 1
-end
-arch woodlarge
-x 8
-y 1
-end
-arch white_wall_2_1_2
-x 8
-y 1
-end
-arch dungeon_magic
-x 8
-y 2
-end
-arch woodlarge
-x 8
-y 2
-end
-arch dungeon_magic
-x 8
-y 3
-end
-arch woodlarge
-x 8
-y 3
-end
-arch bookshelf
-x 8
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 4
-end
-arch woodlarge
-x 8
-y 4
-end
-arch dungeon_magic
-x 8
-y 5
-end
-arch woodlarge
-x 8
-y 5
-end
-arch bookshelf
-x 8
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 6
-end
-arch woodlarge
-x 8
-y 6
-end
-arch dungeon_magic
-x 8
-y 7
-end
-arch woodlarge
-x 8
-y 7
-end
-arch bookshelf
-x 8
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 8
-end
-arch woodlarge
-x 8
-y 8
-end
-arch dungeon_magic
-x 8
-y 9
-end
-arch woodlarge
-x 8
-y 9
-end
-arch dungeon_magic
-x 8
-y 10
-end
-arch woodlarge
-x 8
-y 10
-end
-arch dungeon_magic
-x 8
-y 11
-end
-arch woodlarge
-x 8
-y 11
-end
-arch dungeon_magic
-x 8
-y 12
-end
-arch woodlarge
-x 8
-y 12
-end
-arch bookshelf
-x 8
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 13
-end
-arch woodlarge
-x 8
-y 13
-end
-arch dungeon_magic
-x 8
-y 14
-end
-arch woodlarge
-x 8
-y 14
-end
-arch bookshelf
-x 8
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 15
-end
-arch woodlarge
-x 8
-y 15
-end
-arch dungeon_magic
-x 8
-y 16
-end
-arch woodlarge
-x 8
-y 16
-end
-arch bookshelf
-x 8
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 8
-y 17
-end
-arch woodlarge
-x 8
-y 17
-end
-arch dungeon_magic
-x 8
-y 18
-end
-arch woodlarge
-x 8
-y 18
-end
-arch white_wall_2_1_2
-x 8
-y 18
+arch cobblestones2
+x 7
+y 21
 end
 arch grass
+x 8
+end
+arch grass
+x 8
+y 1
+end
+arch dungeon_magic
+x 8
+y 2
+end
+arch woodlarge
+x 8
+y 2
+end
+arch white_wall_2_1_2
+x 8
+y 2
+end
+arch dungeon_magic
+x 8
+y 3
+end
+arch woodlarge
+x 8
+y 3
+end
+arch dungeon_magic
+x 8
+y 4
+end
+arch woodlarge
+x 8
+y 4
+end
+arch bookshelf
+x 8
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 5
+end
+arch woodlarge
+x 8
+y 5
+end
+arch dungeon_magic
+x 8
+y 6
+end
+arch woodlarge
+x 8
+y 6
+end
+arch bookshelf
+x 8
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 7
+end
+arch woodlarge
+x 8
+y 7
+end
+arch dungeon_magic
+x 8
+y 8
+end
+arch woodlarge
+x 8
+y 8
+end
+arch bookshelf
+x 8
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 9
+end
+arch woodlarge
+x 8
+y 9
+end
+arch dungeon_magic
+x 8
+y 10
+end
+arch woodlarge
+x 8
+y 10
+end
+arch dungeon_magic
+x 8
+y 11
+end
+arch woodlarge
+x 8
+y 11
+end
+arch dungeon_magic
+x 8
+y 12
+end
+arch woodlarge
+x 8
+y 12
+end
+arch dungeon_magic
+x 8
+y 13
+end
+arch woodlarge
+x 8
+y 13
+end
+arch bookshelf
+x 8
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 14
+end
+arch woodlarge
+x 8
+y 14
+end
+arch dungeon_magic
+x 8
+y 15
+end
+arch woodlarge
+x 8
+y 15
+end
+arch bookshelf
+x 8
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 16
+end
+arch woodlarge
+x 8
+y 16
+end
+arch dungeon_magic
+x 8
+y 17
+end
+arch woodlarge
+x 8
+y 17
+end
+arch bookshelf
+x 8
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 8
+y 18
+end
+arch woodlarge
+x 8
+y 18
+end
+arch dungeon_magic
+x 8
+y 19
+end
+arch woodlarge
+x 8
+y 19
+end
+arch white_wall_2_1_2
 x 8
 y 19
 end
 arch grass
-x 9
+x 8
+y 20
 end
-arch dungeon_magic
-x 9
-y 1
-end
-arch woodlarge
-x 9
-y 1
-end
-arch white_wall_2_1_2
-x 9
-y 1
-end
-arch dungeon_magic
-x 9
-y 2
-end
-arch woodlarge
-x 9
-y 2
-end
-arch dungeon_magic
-x 9
-y 3
-end
-arch woodlarge
-x 9
-y 3
-end
-arch bookshelf
-x 9
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 4
-end
-arch woodlarge
-x 9
-y 4
-end
-arch dungeon_magic
-x 9
-y 5
-end
-arch woodlarge
-x 9
-y 5
-end
-arch bookshelf
-x 9
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 6
-end
-arch woodlarge
-x 9
-y 6
-end
-arch dungeon_magic
-x 9
-y 7
-end
-arch woodlarge
-x 9
-y 7
-end
-arch bookshelf
-x 9
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 8
-end
-arch woodlarge
-x 9
-y 8
-end
-arch dungeon_magic
-x 9
-y 9
-end
-arch woodlarge
-x 9
-y 9
-end
-arch dungeon_magic
-x 9
-y 10
-end
-arch woodlarge
-x 9
-y 10
-end
-arch dungeon_magic
-x 9
-y 11
-end
-arch woodlarge
-x 9
-y 11
-end
-arch dungeon_magic
-x 9
-y 12
-end
-arch woodlarge
-x 9
-y 12
-end
-arch bookshelf
-x 9
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 13
-end
-arch woodlarge
-x 9
-y 13
-end
-arch dungeon_magic
-x 9
-y 14
-end
-arch woodlarge
-x 9
-y 14
-end
-arch bookshelf
-x 9
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 15
-end
-arch woodlarge
-x 9
-y 15
-end
-arch dungeon_magic
-x 9
-y 16
-end
-arch woodlarge
-x 9
-y 16
-end
-arch bookshelf
-x 9
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 9
-y 17
-end
-arch woodlarge
-x 9
-y 17
-end
-arch dungeon_magic
-x 9
-y 18
-end
-arch woodlarge
-x 9
-y 18
-end
-arch white_wall_2_1_2
-x 9
-y 18
+arch cobblestones2
+x 8
+y 21
 end
 arch grass
+x 9
+end
+arch grass
+x 9
+y 1
+end
+arch dungeon_magic
+x 9
+y 2
+end
+arch woodlarge
+x 9
+y 2
+end
+arch white_wall_2_1_2
+x 9
+y 2
+end
+arch dungeon_magic
+x 9
+y 3
+end
+arch woodlarge
+x 9
+y 3
+end
+arch dungeon_magic
+x 9
+y 4
+end
+arch woodlarge
+x 9
+y 4
+end
+arch bookshelf
+x 9
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 5
+end
+arch woodlarge
+x 9
+y 5
+end
+arch dungeon_magic
+x 9
+y 6
+end
+arch woodlarge
+x 9
+y 6
+end
+arch bookshelf
+x 9
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 7
+end
+arch woodlarge
+x 9
+y 7
+end
+arch dungeon_magic
+x 9
+y 8
+end
+arch woodlarge
+x 9
+y 8
+end
+arch bookshelf
+x 9
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 9
+end
+arch woodlarge
+x 9
+y 9
+end
+arch dungeon_magic
+x 9
+y 10
+end
+arch woodlarge
+x 9
+y 10
+end
+arch dungeon_magic
+x 9
+y 11
+end
+arch woodlarge
+x 9
+y 11
+end
+arch dungeon_magic
+x 9
+y 12
+end
+arch woodlarge
+x 9
+y 12
+end
+arch dungeon_magic
+x 9
+y 13
+end
+arch woodlarge
+x 9
+y 13
+end
+arch bookshelf
+x 9
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 14
+end
+arch woodlarge
+x 9
+y 14
+end
+arch dungeon_magic
+x 9
+y 15
+end
+arch woodlarge
+x 9
+y 15
+end
+arch bookshelf
+x 9
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 16
+end
+arch woodlarge
+x 9
+y 16
+end
+arch dungeon_magic
+x 9
+y 17
+end
+arch woodlarge
+x 9
+y 17
+end
+arch bookshelf
+x 9
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 9
+y 18
+end
+arch woodlarge
+x 9
+y 18
+end
+arch dungeon_magic
+x 9
+y 19
+end
+arch woodlarge
+x 9
+y 19
+end
+arch white_wall_2_1_2
 x 9
 y 19
 end
 arch grass
-x 10
+x 9
+y 20
 end
-arch dungeon_magic
-x 10
-y 1
-end
-arch woodlarge
-x 10
-y 1
-end
-arch white_wall_2_1_2
-x 10
-y 1
-end
-arch dungeon_magic
-x 10
-y 2
-end
-arch woodlarge
-x 10
-y 2
-end
-arch dungeon_magic
-x 10
-y 3
-end
-arch woodlarge
-x 10
-y 3
-end
-arch bookshelf
-x 10
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 4
-end
-arch woodlarge
-x 10
-y 4
-end
-arch dungeon_magic
-x 10
-y 5
-end
-arch woodlarge
-x 10
-y 5
-end
-arch bookshelf
-x 10
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 6
-end
-arch woodlarge
-x 10
-y 6
-end
-arch dungeon_magic
-x 10
-y 7
-end
-arch woodlarge
-x 10
-y 7
-end
-arch bookshelf
-x 10
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 8
-end
-arch woodlarge
-x 10
-y 8
-end
-arch dungeon_magic
-x 10
-y 9
-end
-arch woodlarge
-x 10
-y 9
-end
-arch dungeon_magic
-x 10
-y 10
-end
-arch woodlarge
-x 10
-y 10
-end
-arch dungeon_magic
-x 10
-y 11
-end
-arch woodlarge
-x 10
-y 11
-end
-arch dungeon_magic
-x 10
-y 12
-end
-arch woodlarge
-x 10
-y 12
-end
-arch bookshelf
-x 10
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 13
-end
-arch woodlarge
-x 10
-y 13
-end
-arch dungeon_magic
-x 10
-y 14
-end
-arch woodlarge
-x 10
-y 14
-end
-arch bookshelf
-x 10
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 15
-end
-arch woodlarge
-x 10
-y 15
-end
-arch dungeon_magic
-x 10
-y 16
-end
-arch woodlarge
-x 10
-y 16
-end
-arch bookshelf
-x 10
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 10
-y 17
-end
-arch woodlarge
-x 10
-y 17
-end
-arch dungeon_magic
-x 10
-y 18
-end
-arch woodlarge
-x 10
-y 18
-end
-arch white_wall_2_1_2
-x 10
-y 18
+arch cobblestones2
+x 9
+y 21
 end
 arch grass
+x 10
+end
+arch grass
+x 10
+y 1
+end
+arch dungeon_magic
+x 10
+y 2
+end
+arch woodlarge
+x 10
+y 2
+end
+arch white_wall_2_1_2
+x 10
+y 2
+end
+arch dungeon_magic
+x 10
+y 3
+end
+arch woodlarge
+x 10
+y 3
+end
+arch dungeon_magic
+x 10
+y 4
+end
+arch woodlarge
+x 10
+y 4
+end
+arch bookshelf
+x 10
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 5
+end
+arch woodlarge
+x 10
+y 5
+end
+arch dungeon_magic
+x 10
+y 6
+end
+arch woodlarge
+x 10
+y 6
+end
+arch bookshelf
+x 10
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 7
+end
+arch woodlarge
+x 10
+y 7
+end
+arch dungeon_magic
+x 10
+y 8
+end
+arch woodlarge
+x 10
+y 8
+end
+arch bookshelf
+x 10
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 9
+end
+arch woodlarge
+x 10
+y 9
+end
+arch dungeon_magic
+x 10
+y 10
+end
+arch woodlarge
+x 10
+y 10
+end
+arch dungeon_magic
+x 10
+y 11
+end
+arch woodlarge
+x 10
+y 11
+end
+arch dungeon_magic
+x 10
+y 12
+end
+arch woodlarge
+x 10
+y 12
+end
+arch dungeon_magic
+x 10
+y 13
+end
+arch woodlarge
+x 10
+y 13
+end
+arch bookshelf
+x 10
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 14
+end
+arch woodlarge
+x 10
+y 14
+end
+arch dungeon_magic
+x 10
+y 15
+end
+arch woodlarge
+x 10
+y 15
+end
+arch bookshelf
+x 10
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 16
+end
+arch woodlarge
+x 10
+y 16
+end
+arch dungeon_magic
+x 10
+y 17
+end
+arch woodlarge
+x 10
+y 17
+end
+arch bookshelf
+x 10
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 10
+y 18
+end
+arch woodlarge
+x 10
+y 18
+end
+arch dungeon_magic
+x 10
+y 19
+end
+arch woodlarge
+x 10
+y 19
+end
+arch white_wall_2_1_2
 x 10
 y 19
 end
 arch grass
-x 11
+x 10
+y 20
 end
-arch dungeon_magic
-x 11
-y 1
-end
-arch woodlarge
-x 11
-y 1
-end
-arch white_wall_2_1_2
-x 11
-y 1
-end
-arch dungeon_magic
-x 11
-y 2
-end
-arch woodlarge
-x 11
-y 2
-end
-arch dungeon_magic
-x 11
-y 3
-end
-arch woodlarge
-x 11
-y 3
-end
-arch bookshelf
-x 11
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 4
-end
-arch woodlarge
-x 11
-y 4
-end
-arch dungeon_magic
-x 11
-y 5
-end
-arch woodlarge
-x 11
-y 5
-end
-arch bookshelf
-x 11
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 6
-end
-arch woodlarge
-x 11
-y 6
-end
-arch dungeon_magic
-x 11
-y 7
-end
-arch woodlarge
-x 11
-y 7
-end
-arch bookshelf
-x 11
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 8
-end
-arch woodlarge
-x 11
-y 8
-end
-arch dungeon_magic
-x 11
-y 9
-end
-arch woodlarge
-x 11
-y 9
-end
-arch dungeon_magic
-x 11
-y 10
-end
-arch woodlarge
-x 11
-y 10
-end
-arch dungeon_magic
-x 11
-y 11
-end
-arch woodlarge
-x 11
-y 11
-end
-arch dungeon_magic
-x 11
-y 12
-end
-arch woodlarge
-x 11
-y 12
-end
-arch bookshelf
-x 11
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 13
-end
-arch woodlarge
-x 11
-y 13
-end
-arch dungeon_magic
-x 11
-y 14
-end
-arch woodlarge
-x 11
-y 14
-end
-arch bookshelf
-x 11
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 15
-end
-arch woodlarge
-x 11
-y 15
-end
-arch dungeon_magic
-x 11
-y 16
-end
-arch woodlarge
-x 11
-y 16
-end
-arch bookshelf
-x 11
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 11
-y 17
-end
-arch woodlarge
-x 11
-y 17
-end
-arch dungeon_magic
-x 11
-y 18
-end
-arch woodlarge
-x 11
-y 18
-end
-arch white_wall_2_1_2
-x 11
-y 18
+arch cobblestones2
+x 10
+y 21
 end
 arch grass
+x 11
+end
+arch grass
+x 11
+y 1
+end
+arch dungeon_magic
+x 11
+y 2
+end
+arch woodlarge
+x 11
+y 2
+end
+arch white_wall_2_1_2
+x 11
+y 2
+end
+arch dungeon_magic
+x 11
+y 3
+end
+arch woodlarge
+x 11
+y 3
+end
+arch dungeon_magic
+x 11
+y 4
+end
+arch woodlarge
+x 11
+y 4
+end
+arch bookshelf
+x 11
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 5
+end
+arch woodlarge
+x 11
+y 5
+end
+arch dungeon_magic
+x 11
+y 6
+end
+arch woodlarge
+x 11
+y 6
+end
+arch bookshelf
+x 11
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 7
+end
+arch woodlarge
+x 11
+y 7
+end
+arch dungeon_magic
+x 11
+y 8
+end
+arch woodlarge
+x 11
+y 8
+end
+arch bookshelf
+x 11
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 9
+end
+arch woodlarge
+x 11
+y 9
+end
+arch dungeon_magic
+x 11
+y 10
+end
+arch woodlarge
+x 11
+y 10
+end
+arch dungeon_magic
+x 11
+y 11
+end
+arch woodlarge
+x 11
+y 11
+end
+arch dungeon_magic
+x 11
+y 12
+end
+arch woodlarge
+x 11
+y 12
+end
+arch dungeon_magic
+x 11
+y 13
+end
+arch woodlarge
+x 11
+y 13
+end
+arch bookshelf
+x 11
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 14
+end
+arch woodlarge
+x 11
+y 14
+end
+arch dungeon_magic
+x 11
+y 15
+end
+arch woodlarge
+x 11
+y 15
+end
+arch bookshelf
+x 11
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 16
+end
+arch woodlarge
+x 11
+y 16
+end
+arch dungeon_magic
+x 11
+y 17
+end
+arch woodlarge
+x 11
+y 17
+end
+arch bookshelf
+x 11
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 11
+y 18
+end
+arch woodlarge
+x 11
+y 18
+end
+arch dungeon_magic
+x 11
+y 19
+end
+arch woodlarge
+x 11
+y 19
+end
+arch white_wall_2_1_2
 x 11
 y 19
 end
 arch grass
-x 12
+x 11
+y 20
 end
-arch dungeon_magic
-x 12
-y 1
-end
-arch woodlarge
-x 12
-y 1
-end
-arch white_wall_2_1_2
-x 12
-y 1
-end
-arch dungeon_magic
-x 12
-y 2
-end
-arch woodlarge
-x 12
-y 2
-end
-arch dungeon_magic
-x 12
-y 3
-end
-arch woodlarge
-x 12
-y 3
-end
-arch bookshelf
-x 12
-y 3
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 4
-end
-arch woodlarge
-x 12
-y 4
-end
-arch dungeon_magic
-x 12
-y 5
-end
-arch woodlarge
-x 12
-y 5
-end
-arch bookshelf
-x 12
-y 5
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 6
-end
-arch woodlarge
-x 12
-y 6
-end
-arch dungeon_magic
-x 12
-y 7
-end
-arch woodlarge
-x 12
-y 7
-end
-arch bookshelf
-x 12
-y 7
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 8
-end
-arch woodlarge
-x 12
-y 8
-end
-arch dungeon_magic
-x 12
-y 9
-end
-arch woodlarge
-x 12
-y 9
-end
-arch dungeon_magic
-x 12
-y 10
-end
-arch woodlarge
-x 12
-y 10
-end
-arch dungeon_magic
-x 12
-y 11
-end
-arch woodlarge
-x 12
-y 11
-end
-arch dungeon_magic
-x 12
-y 12
-end
-arch woodlarge
-x 12
-y 12
-end
-arch bookshelf
-x 12
-y 12
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 13
-end
-arch woodlarge
-x 12
-y 13
-end
-arch dungeon_magic
-x 12
-y 14
-end
-arch woodlarge
-x 12
-y 14
-end
-arch bookshelf
-x 12
-y 14
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 15
-end
-arch woodlarge
-x 12
-y 15
-end
-arch dungeon_magic
-x 12
-y 16
-end
-arch woodlarge
-x 12
-y 16
-end
-arch bookshelf
-x 12
-y 16
-no_pick 1
-arch random_reading
-exp 5
-no_pick 1
-end
-end
-arch dungeon_magic
-x 12
-y 17
-end
-arch woodlarge
-x 12
-y 17
-end
-arch dungeon_magic
-x 12
-y 18
-end
-arch woodlarge
-x 12
-y 18
-end
-arch white_wall_2_1_2
-x 12
-y 18
+arch cobblestones2
+x 11
+y 21
 end
 arch grass
 x 12
+end
+arch grass
+x 12
+y 1
+end
+arch dungeon_magic
+x 12
+y 2
+end
+arch woodlarge
+x 12
+y 2
+end
+arch white_wall_2_1_2
+x 12
+y 2
+end
+arch dungeon_magic
+x 12
+y 3
+end
+arch woodlarge
+x 12
+y 3
+end
+arch dungeon_magic
+x 12
+y 4
+end
+arch woodlarge
+x 12
+y 4
+end
+arch bookshelf
+x 12
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 5
+end
+arch woodlarge
+x 12
+y 5
+end
+arch dungeon_magic
+x 12
+y 6
+end
+arch woodlarge
+x 12
+y 6
+end
+arch bookshelf
+x 12
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 7
+end
+arch woodlarge
+x 12
+y 7
+end
+arch dungeon_magic
+x 12
+y 8
+end
+arch woodlarge
+x 12
+y 8
+end
+arch bookshelf
+x 12
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 9
+end
+arch woodlarge
+x 12
+y 9
+end
+arch dungeon_magic
+x 12
+y 10
+end
+arch woodlarge
+x 12
+y 10
+end
+arch dungeon_magic
+x 12
+y 11
+end
+arch woodlarge
+x 12
+y 11
+end
+arch dungeon_magic
+x 12
+y 12
+end
+arch woodlarge
+x 12
+y 12
+end
+arch dungeon_magic
+x 12
+y 13
+end
+arch woodlarge
+x 12
+y 13
+end
+arch bookshelf
+x 12
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 14
+end
+arch woodlarge
+x 12
+y 14
+end
+arch dungeon_magic
+x 12
+y 15
+end
+arch woodlarge
+x 12
+y 15
+end
+arch bookshelf
+x 12
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 16
+end
+arch woodlarge
+x 12
+y 16
+end
+arch dungeon_magic
+x 12
+y 17
+end
+arch woodlarge
+x 12
+y 17
+end
+arch bookshelf
+x 12
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 12
+y 18
+end
+arch woodlarge
+x 12
+y 18
+end
+arch dungeon_magic
+x 12
 y 19
+end
+arch woodlarge
+x 12
+y 19
+end
+arch white_wall_2_1_2
+x 12
+y 19
+end
+arch grass
+x 12
+y 20
+end
+arch cobblestones2
+x 12
+y 21
 end
 arch grass
 x 13
 end
-arch dungeon_magic
-x 13
-y 1
-end
-arch woodlarge
-x 13
-y 1
-end
-arch white_wall_2_1_2
+arch grass
 x 13
 y 1
 end
@@ -2613,671 +2573,928 @@ end
 arch woodlarge
 x 13
 y 2
+end
+arch white_wall_2_1_2
+x 13
+y 2
+end
+arch dungeon_magic
+x 13
+y 3
+end
+arch woodlarge
+x 13
+y 3
+end
+arch dungeon_magic
+x 13
+y 4
+end
+arch woodlarge
+x 13
+y 4
+end
+arch bookshelf
+x 13
+y 4
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 5
+end
+arch woodlarge
+x 13
+y 5
+end
+arch dungeon_magic
+x 13
+y 6
+end
+arch woodlarge
+x 13
+y 6
+end
+arch bookshelf
+x 13
+y 6
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 7
+end
+arch woodlarge
+x 13
+y 7
+end
+arch dungeon_magic
+x 13
+y 8
+end
+arch woodlarge
+x 13
+y 8
+end
+arch bookshelf
+x 13
+y 8
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 9
+end
+arch woodlarge
+x 13
+y 9
+end
+arch dungeon_magic
+x 13
+y 10
+end
+arch woodlarge
+x 13
+y 10
+end
+arch dungeon_magic
+x 13
+y 11
+end
+arch woodlarge
+x 13
+y 11
+end
+arch dungeon_magic
+x 13
+y 12
+end
+arch woodlarge
+x 13
+y 12
+end
+arch dungeon_magic
+x 13
+y 13
+end
+arch woodlarge
+x 13
+y 13
+end
+arch bookshelf
+x 13
+y 13
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 14
+end
+arch woodlarge
+x 13
+y 14
+end
+arch dungeon_magic
+x 13
+y 15
+end
+arch woodlarge
+x 13
+y 15
+end
+arch bookshelf
+x 13
+y 15
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 16
+end
+arch woodlarge
+x 13
+y 16
+end
+arch dungeon_magic
+x 13
+y 17
+end
+arch woodlarge
+x 13
+y 17
+end
+arch bookshelf
+x 13
+y 17
+no_pick 1
+arch random_reading
+exp 5
+no_pick 1
+end
+end
+arch dungeon_magic
+x 13
+y 18
+end
+arch woodlarge
+x 13
+y 18
+end
+arch dungeon_magic
+x 13
+y 19
+end
+arch woodlarge
+x 13
+y 19
+end
+arch white_wall_2_1_2
+x 13
+y 19
+end
+arch grass
+x 13
+y 20
+end
+arch cobblestones2
+x 13
+y 21
+end
+arch grass
+x 14
+end
+arch grass
+x 14
+y 1
+end
+arch dungeon_magic
+x 14
+y 2
+end
+arch woodlarge
+x 14
+y 2
+end
+arch white_wall_2_1_2
+x 14
+y 2
+end
+arch dungeon_magic
+x 14
+y 3
+end
+arch woodlarge
+x 14
+y 3
 end
 arch sign_e
 msg
 This part of the library is under construction.
 endmsg
-x 13
-y 2
-end
-arch dungeon_magic
-x 13
-y 3
-end
-arch woodlarge
-x 13
+x 14
 y 3
 end
 arch dungeon_magic
-x 13
+x 14
 y 4
 end
 arch woodlarge
-x 13
+x 14
 y 4
 end
 arch dungeon_magic
-x 13
+x 14
 y 5
 end
 arch woodlarge
-x 13
+x 14
 y 5
 end
 arch dungeon_magic
-x 13
+x 14
 y 6
 end
 arch woodlarge
-x 13
+x 14
 y 6
 end
 arch dungeon_magic
-x 13
+x 14
 y 7
 end
 arch woodlarge
-x 13
+x 14
 y 7
 end
 arch dungeon_magic
-x 13
+x 14
 y 8
 end
 arch woodlarge
-x 13
+x 14
 y 8
 end
 arch dungeon_magic
-x 13
+x 14
 y 9
-end
-arch pedestal
-x 13
-y 9
-invisible 1
-connected 1
 end
 arch woodlarge
-x 13
+x 14
 y 9
 end
 arch dungeon_magic
-x 13
+x 14
 y 10
 end
 arch pedestal
-x 13
+x 14
 y 10
 invisible 1
 connected 1
 end
 arch woodlarge
-x 13
+x 14
 y 10
 end
 arch dungeon_magic
-x 13
+x 14
 y 11
 end
+arch pedestal
+x 14
+y 11
+invisible 1
+connected 1
+end
 arch woodlarge
-x 13
+x 14
 y 11
 end
 arch dungeon_magic
-x 13
+x 14
 y 12
 end
 arch woodlarge
-x 13
+x 14
 y 12
 end
 arch dungeon_magic
-x 13
+x 14
 y 13
 end
 arch woodlarge
-x 13
+x 14
 y 13
 end
 arch dungeon_magic
-x 13
+x 14
 y 14
 end
 arch woodlarge
-x 13
+x 14
 y 14
 end
 arch dungeon_magic
-x 13
+x 14
 y 15
 end
 arch woodlarge
-x 13
+x 14
 y 15
 end
 arch dungeon_magic
-x 13
+x 14
 y 16
 end
 arch woodlarge
-x 13
+x 14
 y 16
 end
 arch dungeon_magic
-x 13
+x 14
 y 17
 end
 arch woodlarge
-x 13
+x 14
 y 17
 end
 arch dungeon_magic
-x 13
+x 14
 y 18
 end
 arch woodlarge
-x 13
+x 14
 y 18
+end
+arch dungeon_magic
+x 14
+y 19
+end
+arch woodlarge
+x 14
+y 19
 end
 arch white_wall_2_1_2
-x 13
-y 18
-end
-arch grass
-x 13
+x 14
 y 19
 end
 arch grass
 x 14
+y 20
+end
+arch cobblestones2
+x 14
+y 21
+end
+arch grass
+x 15
+end
+arch grass
+x 15
+y 1
 end
 arch dungeon_magic
-x 14
-y 1
+x 15
+y 2
 end
 arch woodlarge
-x 14
-y 1
+x 15
+y 2
 end
 arch white_wall_2_1_2
-x 14
-y 1
+x 15
+y 2
 end
 arch dungeon_magic
-x 14
-y 2
+x 15
+y 3
 end
 arch woodlarge
-x 14
-y 2
+x 15
+y 3
 end
 arch igate_closed_2
-x 14
-y 2
+x 15
+y 3
 connected 2
 end
 arch dungeon_magic
-x 14
-y 3
+x 15
+y 4
 end
 arch woodlarge
-x 14
-y 3
+x 15
+y 4
 end
 arch white_wall_1_1
-x 14
-y 3
+x 15
+y 4
 end
 arch dungeon_magic
-x 14
-y 4
+x 15
+y 5
 end
 arch woodlarge
-x 14
-y 4
+x 15
+y 5
 end
 arch white_wall_win1
-x 14
-y 4
+x 15
+y 5
 end
 arch dungeon_magic
-x 14
-y 5
+x 15
+y 6
 end
 arch woodlarge
-x 14
-y 5
+x 15
+y 6
 end
 arch white_wall_3_2
-x 14
-y 5
-end
-arch dungeon_magic
-x 14
-y 6
-end
-arch woodlarge
-x 14
-y 6
-end
-arch white_wall_2_1_1
-x 14
+x 15
 y 6
 end
 arch dungeon_magic
-x 14
+x 15
 y 7
 end
 arch woodlarge
-x 14
+x 15
 y 7
 end
 arch white_wall_2_1_1
-x 14
+x 15
 y 7
 end
 arch dungeon_magic
-x 14
+x 15
 y 8
 end
 arch woodlarge
-x 14
+x 15
 y 8
+end
+arch white_wall_2_1_1
+x 15
+y 8
+end
+arch dungeon_magic
+x 15
+y 9
+end
+arch woodlarge
+x 15
+y 9
 end
 arch white_wall_1_2
-x 14
-y 8
+x 15
+y 9
 end
 arch dungeon_magic
-x 14
-y 9
-end
-arch pedestal
-x 14
-y 9
-invisible 1
-connected 1
-end
-arch woodlarge
-x 14
-y 9
-end
-arch igate_closed_2
-x 14
-y 9
-connected 1
-end
-arch dungeon_magic
-x 14
+x 15
 y 10
 end
 arch pedestal
-x 14
+x 15
 y 10
 invisible 1
 connected 1
 end
 arch woodlarge
-x 14
+x 15
 y 10
 end
 arch igate_closed_2
-x 14
+x 15
 y 10
 connected 1
 end
 arch dungeon_magic
-x 14
+x 15
 y 11
 end
-arch woodlarge
-x 14
+arch pedestal
+x 15
 y 11
+invisible 1
+connected 1
+end
+arch woodlarge
+x 15
+y 11
+end
+arch igate_closed_2
+x 15
+y 11
+connected 1
+end
+arch dungeon_magic
+x 15
+y 12
+end
+arch woodlarge
+x 15
+y 12
 end
 arch white_wall_1_1
-x 14
-y 11
+x 15
+y 12
 end
 arch dungeon_magic
-x 14
-y 12
+x 15
+y 13
 end
 arch woodlarge
-x 14
-y 12
+x 15
+y 13
 end
 arch white_wall_3_2
-x 14
-y 12
+x 15
+y 13
 end
 arch dungeon_magic
-x 14
-y 13
+x 15
+y 14
 end
 arch woodlarge
-x 14
-y 13
+x 15
+y 14
 end
 arch white_wall_2_1_1
-x 14
-y 13
+x 15
+y 14
 end
 arch dungeon_magic
-x 14
-y 14
+x 15
+y 15
 end
 arch woodlarge
-x 14
-y 14
+x 15
+y 15
 end
 arch white_wall_3_2
-x 14
-y 14
+x 15
+y 15
 end
 arch dungeon_magic
-x 14
-y 15
+x 15
+y 16
 end
 arch woodlarge
-x 14
-y 15
+x 15
+y 16
 end
 arch white_wall_1_2
-x 14
-y 15
-end
-arch dungeon_magic
-x 14
-y 16
-end
-arch woodlarge
-x 14
+x 15
 y 16
 end
 arch dungeon_magic
-x 14
+x 15
 y 17
 end
 arch woodlarge
-x 14
+x 15
 y 17
+end
+arch dungeon_magic
+x 15
+y 18
+end
+arch woodlarge
+x 15
+y 18
 end
 arch white_wall_1_1
-x 14
-y 17
+x 15
+y 18
 end
 arch dungeon_magic
-x 14
-y 18
+x 15
+y 19
 end
 arch woodlarge
-x 14
-y 18
+x 15
+y 19
 end
 arch white_wall_3_1
-x 14
-y 18
-end
-arch grass
-x 14
+x 15
 y 19
 end
 arch grass
 x 15
+y 20
+end
+arch cobblestones2
+x 15
+y 21
+end
+arch grass
+x 16
+end
+arch grass
+x 16
+y 1
 end
 arch dungeon_magic
-x 15
-y 1
+x 16
+y 2
 end
 arch woodlarge
-x 15
-y 1
+x 16
+y 2
 end
 arch white_wall_2_1_2
-x 15
-y 1
+x 16
+y 2
 end
 arch dungeon_magic
-x 15
-y 2
+x 16
+y 3
 end
 arch woodlarge
-x 15
-y 2
+x 16
+y 3
 end
 arch pedestal
-x 15
-y 2
+x 16
+y 3
 invisible 1
 connected 2
 end
 arch dungeon_magic
-x 15
-y 3
-end
-arch woodlarge
-x 15
-y 3
-end
-arch dungeon_magic
-x 15
+x 16
 y 4
 end
 arch woodlarge
-x 15
+x 16
 y 4
 end
 arch dungeon_magic
-x 15
+x 16
 y 5
 end
 arch woodlarge
-x 15
+x 16
 y 5
+end
+arch dungeon_magic
+x 16
+y 6
+end
+arch woodlarge
+x 16
+y 6
 end
 arch white_wall_2_1_2
-x 15
-y 5
-end
-arch dungeon_magic
-x 15
-y 6
-end
-arch woodlarge
-x 15
+x 16
 y 6
 end
 arch dungeon_magic
-x 15
+x 16
 y 7
 end
 arch woodlarge
-x 15
+x 16
 y 7
+end
+arch dungeon_magic
+x 16
+y 8
+end
+arch woodlarge
+x 16
+y 8
 end
 arch button_lever
-x 15
-y 7
+x 16
+y 8
 connected 1
 end
 arch dungeon_magic
-x 15
-y 8
+x 16
+y 9
 end
 arch woodlarge
-x 15
-y 8
+x 16
+y 9
 end
 arch longtable_1_4
-x 15
-y 8
+x 16
+y 9
 move_block all
 end
 arch dungeon_magic
-x 15
-y 9
-end
-arch woodlarge
-x 15
-y 9
-end
-arch dungeon_magic
-x 15
+x 16
 y 10
 end
 arch woodlarge
-x 15
+x 16
 y 10
 end
 arch dungeon_magic
-x 15
+x 16
 y 11
 end
 arch woodlarge
-x 15
+x 16
 y 11
+end
+arch dungeon_magic
+x 16
+y 12
+end
+arch woodlarge
+x 16
+y 12
 end
 arch altar_trigger
 name drop 10 platinum to enter
 slaying money
 exp 50
 food 500
-x 15
-y 11
+x 16
+y 12
 connected 1
 end
 arch dungeon_magic
-x 15
-y 12
+x 16
+y 13
 end
 arch woodlarge
-x 15
-y 12
+x 16
+y 13
 end
 arch white_wall_win2
-x 15
-y 12
+x 16
+y 13
 end
 arch dungeon_magic
-x 15
-y 13
+x 16
+y 14
 end
 arch shop_empty
-x 15
-y 13
+x 16
+y 14
 end
 arch scroll_literacy
-x 15
-y 13
+x 16
+y 14
 unpaid 1
 identified 1
 end
 arch dungeon_magic
-x 15
-y 14
-end
-arch woodlarge
-x 15
-y 14
-end
-arch white_wall_2_1_2
-x 15
-y 14
-end
-arch dungeon_magic
-x 15
+x 16
 y 15
 end
 arch woodlarge
-x 15
+x 16
+y 15
+end
+arch white_wall_2_1_2
+x 16
 y 15
 end
 arch dungeon_magic
-x 15
+x 16
 y 16
 end
 arch woodlarge
-x 15
+x 16
 y 16
 end
 arch dungeon_magic
-x 15
+x 16
 y 17
 end
 arch woodlarge
-x 15
+x 16
 y 17
 end
 arch dungeon_magic
-x 15
+x 16
 y 18
 end
 arch woodlarge
-x 15
+x 16
 y 18
+end
+arch dungeon_magic
+x 16
+y 19
+end
+arch woodlarge
+x 16
+y 19
 end
 arch white_wall_2_1_2
-x 15
-y 18
-end
-arch grass
-x 15
+x 16
 y 19
 end
 arch grass
 x 16
+y 20
+end
+arch cobblestones2
+x 16
+y 21
+end
+arch grass
+x 17
+end
+arch grass
+x 17
+y 1
 end
 arch dungeon_magic
-x 16
-y 1
+x 17
+y 2
 end
 arch woodlarge
-x 16
-y 1
+x 17
+y 2
 end
 arch white_wall_2_1_2
-x 16
-y 1
-end
-arch dungeon_magic
-x 16
-y 2
-end
-arch woodlarge
-x 16
+x 17
 y 2
 end
 arch dungeon_magic
-x 16
+x 17
 y 3
 end
 arch woodlarge
-x 16
+x 17
 y 3
+end
+arch dungeon_magic
+x 17
+y 4
+end
+arch woodlarge
+x 17
+y 4
 end
 arch stair_3_up
 slaying library_upper
 hp 17
 sp 2
-x 16
-y 3
-end
-arch dungeon_magic
-x 16
-y 4
-end
-arch woodlarge
-x 16
+x 17
 y 4
 end
 arch dungeon_magic
-x 16
+x 17
 y 5
 end
 arch woodlarge
-x 16
+x 17
 y 5
+end
+arch dungeon_magic
+x 17
+y 6
+end
+arch woodlarge
+x 17
+y 6
 end
 arch white_wall_2_1_2
-x 16
-y 5
-end
-arch dungeon_magic
-x 16
-y 6
-end
-arch woodlarge
-x 16
+x 17
 y 6
 end
 arch dungeon_magic
-x 16
+x 17
 y 7
 end
 arch woodlarge
-x 16
+x 17
 y 7
+end
+arch dungeon_magic
+x 17
+y 8
+end
+arch woodlarge
+x 17
+y 8
 end
 arch halfling3
 name Lovast
@@ -3291,279 +3508,287 @@ Well, the library uses the money to acquire new books. That's why the books in t
 Oh, hello! Welcome to the Darcap Public Library!
 @question access What parts of the library can I access?
 endmsg
-x 16
-y 7
+x 17
+y 8
 stand_still 1
 random_movement 1
 end
 arch dungeon_magic
-x 16
-y 8
+x 17
+y 9
 end
 arch woodlarge
-x 16
-y 8
+x 17
+y 9
 end
 arch longtable_2_1_2
-x 16
-y 8
+x 17
+y 9
 move_block all
 end
 arch dungeon_magic
-x 16
-y 9
-end
-arch woodlarge
-x 16
-y 9
-end
-arch dungeon_magic
-x 16
+x 17
 y 10
 end
 arch woodlarge
-x 16
+x 17
 y 10
 end
 arch dungeon_magic
-x 16
+x 17
 y 11
 end
 arch woodlarge
-x 16
+x 17
 y 11
+end
+arch dungeon_magic
+x 17
+y 12
+end
+arch woodlarge
+x 17
+y 12
 end
 arch white_wall_1_1
-x 16
-y 11
+x 17
+y 12
 end
 arch dungeon_magic
-x 16
-y 12
+x 17
+y 13
 end
 arch woodlarge
-x 16
-y 12
+x 17
+y 13
 end
 arch white_wall_3_1
-x 16
-y 12
+x 17
+y 13
 end
 arch dungeon_magic
-x 16
-y 13
+x 17
+y 14
 end
 arch shop_empty
-x 16
-y 13
-end
-arch dungeon_magic
-x 16
-y 14
-end
-arch woodlarge
-x 16
-y 14
-end
-arch white_wall_2_1_2
-x 16
+x 17
 y 14
 end
 arch dungeon_magic
-x 16
+x 17
 y 15
 end
 arch woodlarge
-x 16
+x 17
+y 15
+end
+arch white_wall_2_1_2
+x 17
 y 15
 end
 arch dungeon_magic
-x 16
+x 17
 y 16
 end
 arch woodlarge
-x 16
+x 17
 y 16
 end
 arch dungeon_magic
-x 16
+x 17
 y 17
 end
 arch woodlarge
-x 16
+x 17
 y 17
 end
 arch dungeon_magic
-x 16
+x 17
 y 18
 end
 arch woodlarge
-x 16
+x 17
 y 18
+end
+arch dungeon_magic
+x 17
+y 19
+end
+arch woodlarge
+x 17
+y 19
 end
 arch white_wall_2_1_2
-x 16
-y 18
-end
-arch grass
-x 16
+x 17
 y 19
 end
 arch grass
 x 17
+y 20
+end
+arch cobblestones2
+x 17
+y 21
+end
+arch grass
+x 18
+end
+arch grass
+x 18
+y 1
 end
 arch dungeon_magic
-x 17
-y 1
-end
-arch woodlarge
-x 17
-y 1
-end
-arch white_wall_2_1_2
-x 17
-y 1
-end
-arch dungeon_magic
-x 17
+x 18
 y 2
 end
 arch woodlarge
-x 17
+x 18
+y 2
+end
+arch white_wall_2_1_2
+x 18
 y 2
 end
 arch dungeon_magic
-x 17
+x 18
 y 3
 end
 arch woodlarge
-x 17
+x 18
 y 3
 end
 arch dungeon_magic
-x 17
+x 18
 y 4
 end
 arch woodlarge
-x 17
+x 18
 y 4
 end
 arch dungeon_magic
-x 17
+x 18
 y 5
 end
 arch woodlarge
-x 17
+x 18
 y 5
+end
+arch dungeon_magic
+x 18
+y 6
+end
+arch woodlarge
+x 18
+y 6
 end
 arch white_wall_2_1_2
-x 17
-y 5
+x 18
+y 6
 end
 arch dungeon_magic
-x 17
-y 6
+x 18
+y 7
 end
 arch woodlarge
-x 17
-y 6
+x 18
+y 7
 end
 arch clock
-x 17
-y 6
-end
-arch dungeon_magic
-x 17
-y 7
-end
-arch woodlarge
-x 17
+x 18
 y 7
 end
 arch dungeon_magic
-x 17
+x 18
 y 8
 end
 arch woodlarge
-x 17
+x 18
 y 8
+end
+arch dungeon_magic
+x 18
+y 9
+end
+arch woodlarge
+x 18
+y 9
 end
 arch longtable_1_3
-x 17
-y 8
+x 18
+y 9
 move_block all
 end
 arch dungeon_magic
-x 17
-y 9
-end
-arch woodlarge
-x 17
-y 9
-end
-arch dungeon_magic
-x 17
+x 18
 y 10
 end
 arch woodlarge
-x 17
+x 18
 y 10
 end
 arch dungeon_magic
-x 17
+x 18
 y 11
 end
 arch woodlarge
-x 17
+x 18
 y 11
+end
+arch dungeon_magic
+x 18
+y 12
+end
+arch woodlarge
+x 18
+y 12
 end
 arch shop_mat
-x 17
-y 11
+x 18
+y 12
 end
 arch dungeon_magic
-x 17
-y 12
+x 18
+y 13
 end
 arch woodlarge
-x 17
-y 12
+x 18
+y 13
 end
 arch white_wall_win2
-x 17
-y 12
+x 18
+y 13
 end
 arch dungeon_magic
-x 17
-y 13
+x 18
+y 14
 end
 arch shop_empty
-x 17
-y 13
+x 18
+y 14
 end
 arch shop_mat
-x 17
-y 13
+x 18
+y 14
 end
 arch dungeon_magic
-x 17
-y 14
+x 18
+y 15
 end
 arch woodlarge
-x 17
-y 14
+x 18
+y 15
 end
 arch white_wall_2_1_2
-x 17
-y 14
+x 18
+y 15
 end
 arch dungeon_magic
-x 17
-y 15
+x 18
+y 16
 end
 arch woodlarge
-x 17
-y 15
+x 18
+y 16
 end
 arch book_clasp
 name Julio the Great, by Simpoe
@@ -3588,17 +3813,17 @@ As many inhabitants, including neighbours who did complain, started to tell how 
 
 His houses, escaping planned destruction, were restored, and became a museum to his work.
 endmsg
-x 17
-y 15
+x 18
+y 16
 no_pick 1
 end
 arch dungeon_magic
-x 17
-y 16
+x 18
+y 17
 end
 arch woodlarge
-x 17
-y 16
+x 18
+y 17
 end
 arch tome
 name Short History of Darcap, by Alvanes
@@ -3613,17 +3838,17 @@ Navar then helped build a road connecting the two towns (some wonder why it goes
 
 To forget their awful past, and attract many visitors to not be forgotten again, Darcapians decided to build the biggest circus in the world, and a big port conducting business with the rest of the continent.
 endmsg
-x 17
-y 16
+x 18
+y 17
 no_pick 1
 end
 arch dungeon_magic
-x 17
-y 17
+x 18
+y 18
 end
 arch woodlarge
-x 17
-y 17
+x 18
+y 18
 end
 arch quarto
 name Darcap-Navar Relations, by Poltihr
@@ -3634,339 +3859,446 @@ But Navar leaders were reluctant to trust the hordes of undead living in the tow
 
 The tension between the towns was exacerbated when, in 6170 EK, the outpost of Navar south of Zaah's castle was assaulted by undead. It took many negotiations (and some say money was exchanged too, though no one could bring a formal proof) for the Navar forces to not retaliate.
 endmsg
-x 17
-y 17
+x 18
+y 18
 no_pick 1
 end
 arch dungeon_magic
-x 17
-y 18
+x 18
+y 19
 end
 arch woodlarge
-x 17
-y 18
+x 18
+y 19
 end
 arch white_wall_2_1_2
-x 17
-y 18
-end
-arch grass
-x 17
+x 18
 y 19
 end
 arch grass
 x 18
+y 20
+end
+arch cobblestones2
+x 18
+y 21
+end
+arch grass
+x 19
+end
+arch grass
+x 19
+y 1
 end
 arch dungeon_magic
-x 18
-y 1
+x 19
+y 2
 end
 arch woodlarge
-x 18
-y 1
+x 19
+y 2
 end
 arch white_wall_2_2_3
-x 18
-y 1
-end
-arch dungeon_magic
-x 18
-y 2
-end
-arch woodlarge
-x 18
-y 2
-end
-arch white_wall_2_1_1
-x 18
+x 19
 y 2
 end
 arch dungeon_magic
-x 18
+x 19
 y 3
 end
 arch woodlarge
-x 18
+x 19
 y 3
 end
 arch white_wall_2_1_1
-x 18
+x 19
 y 3
 end
 arch dungeon_magic
-x 18
+x 19
 y 4
 end
 arch woodlarge
-x 18
+x 19
 y 4
 end
 arch white_wall_2_1_1
-x 18
+x 19
 y 4
 end
 arch dungeon_magic
-x 18
+x 19
 y 5
 end
 arch woodlarge
-x 18
+x 19
 y 5
+end
+arch white_wall_2_1_1
+x 19
+y 5
+end
+arch dungeon_magic
+x 19
+y 6
+end
+arch woodlarge
+x 19
+y 6
 end
 arch white_wall_3_4
-x 18
-y 5
-end
-arch dungeon_magic
-x 18
-y 6
-end
-arch woodlarge
-x 18
-y 6
-end
-arch white_wall_2_1_1
-x 18
+x 19
 y 6
 end
 arch dungeon_magic
-x 18
+x 19
 y 7
 end
 arch woodlarge
-x 18
+x 19
 y 7
 end
 arch white_wall_2_1_1
-x 18
+x 19
 y 7
 end
 arch dungeon_magic
-x 18
+x 19
 y 8
 end
 arch woodlarge
-x 18
+x 19
 y 8
+end
+arch white_wall_2_1_1
+x 19
+y 8
+end
+arch dungeon_magic
+x 19
+y 9
+end
+arch woodlarge
+x 19
+y 9
 end
 arch white_wall_1_2
-x 18
-y 8
+x 19
+y 9
 end
 arch dungeon_magic
-x 18
-y 9
-end
-arch woodlarge
-x 18
-y 9
-end
-arch oakdoor_1
-slaying /world/world_116_102
-hp 29
-sp 31
-x 18
-y 9
-move_on all
-blocksview 1
-end
-arch dungeon_magic
-x 18
+x 19
 y 10
 end
 arch woodlarge
-x 18
+x 19
 y 10
 end
 arch oakdoor_1
 slaying /world/world_116_102
 hp 29
 sp 31
-x 18
+x 19
 y 10
 move_on all
 blocksview 1
 end
 arch dungeon_magic
-x 18
+x 19
 y 11
 end
 arch woodlarge
-x 18
+x 19
 y 11
+end
+arch oakdoor_1
+slaying /world/world_116_102
+hp 29
+sp 31
+x 19
+y 11
+move_on all
+blocksview 1
+end
+arch dungeon_magic
+x 19
+y 12
+end
+arch woodlarge
+x 19
+y 12
 end
 arch white_wall_1_1
-x 18
-y 11
+x 19
+y 12
 end
 arch dungeon_magic
-x 18
-y 12
+x 19
+y 13
 end
 arch woodlarge
-x 18
-y 12
+x 19
+y 13
 end
 arch white_wall_3_4
-x 18
-y 12
+x 19
+y 13
 end
 arch dungeon_magic
-x 18
-y 13
+x 19
+y 14
 end
 arch woodlarge
-x 18
-y 13
+x 19
+y 14
 end
 arch white_wall_2_1_1
-x 18
-y 13
+x 19
+y 14
 end
 arch dungeon_magic
-x 18
-y 14
+x 19
+y 15
 end
 arch woodlarge
-x 18
-y 14
+x 19
+y 15
 end
 arch white_wall_3_4
-x 18
-y 14
-end
-arch dungeon_magic
-x 18
-y 15
-end
-arch woodlarge
-x 18
-y 15
-end
-arch white_wall_2_1_1
-x 18
+x 19
 y 15
 end
 arch dungeon_magic
-x 18
+x 19
 y 16
 end
 arch woodlarge
-x 18
+x 19
 y 16
 end
 arch white_wall_2_1_1
-x 18
+x 19
 y 16
 end
 arch dungeon_magic
-x 18
+x 19
 y 17
 end
 arch woodlarge
-x 18
+x 19
 y 17
 end
 arch white_wall_2_1_1
-x 18
+x 19
 y 17
 end
 arch dungeon_magic
-x 18
+x 19
 y 18
 end
 arch woodlarge
-x 18
+x 19
 y 18
+end
+arch white_wall_2_1_1
+x 19
+y 18
+end
+arch dungeon_magic
+x 19
+y 19
+end
+arch woodlarge
+x 19
+y 19
 end
 arch white_wall_2_2_4
-x 18
-y 18
-end
-arch grass
-x 18
+x 19
 y 19
 end
 arch grass
 x 19
+y 20
+end
+arch cobblestones2
+x 19
+y 21
 end
 arch grass
-x 19
+x 20
+end
+arch grass
+x 20
 y 1
 end
 arch grass
-x 19
+x 20
 y 2
 end
 arch grass
-x 19
+x 20
 y 3
 end
 arch grass
-x 19
+x 20
 y 4
 end
 arch grass
-x 19
+x 20
 y 5
 end
 arch grass
-x 19
+x 20
 y 6
 end
 arch grass
-x 19
+x 20
 y 7
 end
 arch grass
-x 19
+x 20
 y 8
-move_block all
 end
 arch grass
-x 19
+x 20
 y 9
 move_block all
 end
 arch grass
-x 19
+x 20
 y 10
 move_block all
 end
 arch grass
-x 19
+x 20
 y 11
 move_block all
 end
 arch grass
-x 19
+x 20
 y 12
+move_block all
 end
 arch grass
-x 19
+x 20
 y 13
 end
 arch grass
-x 19
+x 20
 y 14
 end
 arch grass
-x 19
+x 20
 y 15
 end
 arch grass
-x 19
+x 20
 y 16
 end
 arch grass
-x 19
+x 20
 y 17
 end
 arch grass
-x 19
+x 20
 y 18
 end
 arch grass
-x 19
+x 20
 y 19
+end
+arch grass
+x 20
+y 20
+end
+arch cobblestones2
+x 20
+y 21
+end
+arch cobblestones2
+x 21
+end
+arch cobblestones2
+x 21
+y 1
+end
+arch cobblestones2
+x 21
+y 2
+end
+arch cobblestones2
+x 21
+y 3
+end
+arch cobblestones2
+x 21
+y 4
+end
+arch cobblestones2
+x 21
+y 5
+end
+arch cobblestones2
+x 21
+y 6
+end
+arch cobblestones2
+x 21
+y 7
+end
+arch cobblestones2
+x 21
+y 8
+end
+arch cobblestones2
+x 21
+y 9
+end
+arch cobblestones2
+x 21
+y 10
+end
+arch cobblestones2
+x 21
+y 11
+end
+arch cobblestones2
+x 21
+y 12
+end
+arch cobblestones2
+x 21
+y 13
+end
+arch cobblestones2
+x 21
+y 14
+end
+arch cobblestones2
+x 21
+y 15
+end
+arch cobblestones2
+x 21
+y 16
+end
+arch cobblestones2
+x 21
+y 17
+end
+arch cobblestones2
+x 21
+y 18
+end
+arch cobblestones2
+x 21
+y 19
+end
+arch cobblestones2
+x 21
+y 20
+end
+arch cobblestones2
+x 21
+y 21
 end
