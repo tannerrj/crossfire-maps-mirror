@@ -30588,20 +30588,23 @@ arch woodfloor
 x 81
 y 15
 end
-arch wwall_1_3
+arch wwall_2_2_3
 x 81
 y 15
 end
-arch grass
+arch woodfloor
 x 81
 y 16
-move_block all
 end
-arch grass
+arch wwall_2_1_1
+x 81
+y 16
+end
+arch woodfloor
 x 81
 y 17
 end
-arch flowers_permanent
+arch wwall_2_2_1
 x 81
 y 17
 end
@@ -30879,23 +30882,22 @@ arch woodfloor
 x 82
 y 15
 end
-arch oakdoor_2
+arch woodfloor
+x 82
+y 16
+end
+arch exit
 slaying /world/world_116_102
 hp 31
 sp 28
 x 82
-y 15
-end
-arch grass
-x 82
 y 16
-move_block all
 end
-arch grass
+arch woodfloor
 x 82
 y 17
 end
-arch flowers_permanent
+arch wwall_2_1_2
 x 82
 y 17
 end
@@ -31166,20 +31168,23 @@ arch woodfloor
 x 83
 y 15
 end
-arch wwall_1_4
+arch wwall_2_2_2
 x 83
 y 15
 end
-arch grass
+arch woodfloor
 x 83
 y 16
-move_block all
 end
-arch grass
+arch wwall_2_1_1
+x 83
+y 16
+end
+arch woodfloor
 x 83
 y 17
 end
-arch flowers_permanent
+arch wwall_2_2_4
 x 83
 y 17
 end
