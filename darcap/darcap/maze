@@ -8,7 +8,7 @@ enter_x 85
 enter_y 30
 msg
 Created:  1999-01-19 Cater/Wade (john_cater@yahoo.com)
-Modified: 2024-12-20 Rick Tanner
+Modified: 2024-12-24 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -31288,13 +31288,23 @@ arch wwall_2_2_1
 x 83
 y 30
 end
-arch grass
+arch dungeon_magic
 x 83
 y 31
 end
 arch grass
 x 83
+y 31
+move_block all
+end
+arch dungeon_magic
+x 83
 y 32
+end
+arch grass
+x 83
+y 32
+move_block all
 end
 arch grass
 x 83
@@ -31616,6 +31626,11 @@ arch dungeon_magic
 x 84
 y 29
 end
+arch button_small
+x 84
+y 29
+connected 100
+end
 arch woodfloor
 x 84
 y 29
@@ -31636,14 +31651,25 @@ arch wwall_1_3
 x 84
 y 30
 end
+arch invis_exit
+slaying /world/world_116_102
+hp 31
+sp 28
+x 84
+y 31
+end
 arch grass
 x 84
 y 31
-move_block all
+end
+arch dungeon_magic
+x 84
+y 32
 end
 arch grass
 x 84
 y 32
+move_block all
 end
 arch grass
 x 84
@@ -31916,37 +31942,52 @@ arch dungeon_magic
 x 85
 y 29
 end
+arch button_small
+x 85
+y 29
+connected 100
+end
 arch woodfloor
 x 85
 y 29
-end
-arch grass
-x 85
-y 30
 end
 arch dungeon_magic
 x 85
 y 30
 end
+arch button_small
+x 85
+y 30
+connected 100
+end
 arch woodfloor
 x 85
 y 30
 end
-arch oakdoor_2
+arch odoorn2_closed_1
+x 85
+y 30
+connected 100
+end
+arch invis_exit
 slaying /world/world_116_102
 hp 31
 sp 28
 x 85
-y 30
+y 31
 end
 arch grass
 x 85
 y 31
-move_block all
+end
+arch dungeon_magic
+x 85
+y 32
 end
 arch grass
 x 85
 y 32
+move_block all
 end
 arch grass
 x 85
@@ -32250,6 +32291,11 @@ end
 arch dungeon_magic
 x 86
 y 29
+end
+arch button_small
+x 86
+y 29
+connected 100
 end
 arch woodfloor
 x 86
@@ -32271,14 +32317,25 @@ arch wwall_1_4
 x 86
 y 30
 end
+arch invis_exit
+slaying /world/world_116_102
+hp 31
+sp 28
+x 86
+y 31
+end
 arch grass
 x 86
 y 31
-move_block all
+end
+arch dungeon_magic
+x 86
+y 32
 end
 arch grass
 x 86
 y 32
+move_block all
 end
 arch grass
 x 86
@@ -32629,14 +32686,23 @@ arch wwall_2_2_4
 x 87
 y 30
 end
+arch dungeon_magic
+x 87
+y 31
+end
 arch grass
 x 87
 y 31
 move_block all
 end
+arch dungeon_magic
+x 87
+y 32
+end
 arch grass
 x 87
 y 32
+move_block all
 end
 arch grass
 x 87
