@@ -4,7 +4,7 @@ region darcap
 width 50
 height 50
 msg
-Modified: 2024-03-16 Kevin Zheng
+Modified: 2024-12-31 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_116_102
@@ -6277,6 +6277,13 @@ arch earth
 x 21
 y 4
 elevation 110
+end
+arch sign_e
+msg
+Ask the dragon what services they offer, or where it could take you - no more flight tickets!
+endmsg
+x 21
+y 4
 end
 arch earth
 x 21
