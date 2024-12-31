@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2024-03-16 Kevin Zheng
+Modified: 2024-12-31 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_121_116
@@ -8710,6 +8710,13 @@ arch earth
 x 32
 y 35
 elevation 4209
+end
+arch sign_e
+msg
+Ask the dragon what services they offer, or where it could take you - no more flight tickets!
+endmsg
+x 32
+y 35
 end
 arch earth
 x 32
