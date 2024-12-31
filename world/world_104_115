@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-02-16
-Modified: 2024-07-08 Rick Tanner
+Modified: 2024-12-31 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_104_114
@@ -11580,6 +11580,13 @@ x 41
 y 24
 end
 arch cobblestones2
+x 41
+y 24
+end
+arch sign_e
+msg
+Ask the dragon what services they offer, or where it could take you - no more flight tickets!
+endmsg
 x 41
 y 24
 end
