@@ -126,4 +126,4 @@ Crossfire.SetReturnValue(1)
 if event.Subtype == Crossfire.EventType.SAY:
     handle_say()
 else:
-    whoami.Say("Hey, you can't get on without paying!")
+    activator.Say("Hello!")
