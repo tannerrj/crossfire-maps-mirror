@@ -6,7 +6,7 @@ width 30
 height 30
 msg
 Created:  1996-02-07
-Modified: 2024-03-16 Kevin Zheng
+Modified: 2025-01-01 Rick Tanner
 endmsg
 outdoor 1
 background_music nurnberg
@@ -3771,6 +3771,13 @@ x 22
 y 27
 end
 arch earth
+x 22
+y 28
+end
+arch sign_e
+msg
+Ask the dragon what services they offer, or where it could take you - no more flight tickets!
+endmsg
 x 22
 y 28
 end
