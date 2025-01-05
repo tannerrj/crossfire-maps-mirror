@@ -7,7 +7,7 @@ enter_x 9
 enter_y 2
 msg
 Created:  2010-02-14 Nicolas Weeger
-Modified: 2022-07-16 Rick Tanner
+Modified: 2025-01-05 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -890,8 +890,8 @@ y 2
 end
 arch stair_down_1
 slaying thilgar
-hp 9
-sp 2
+hp 10
+sp 3
 x 9
 y 2
 end
@@ -984,8 +984,8 @@ y 2
 end
 arch stair_down_1
 slaying thilgar
-hp 10
-sp 2
+hp 11
+sp 3
 x 10
 y 2
 end
