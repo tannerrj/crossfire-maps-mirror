@@ -5,10 +5,10 @@ region darcap
 width 13
 height 13
 enter_x 6
-enter_y 10
+enter_y 9
 msg
 Created:  2008-11-23 Rick Tanner
-Modified: 2012-01-31 Rick Tanner
+Modified: 2025-01-07 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -368,6 +368,7 @@ end
 arch medium_stones
 x 4
 y 12
+move_block all
 end
 arch medium_stones
 x 5
@@ -422,6 +423,11 @@ arch woodfloor
 x 5
 y 9
 end
+arch button_small
+x 5
+y 10
+connected 100
+end
 arch woodfloor
 x 5
 y 10
@@ -438,10 +444,16 @@ arch dungeon_magic
 x 5
 y 12
 end
+arch invis_exit
+slaying ../../world/world_116_104
+hp 18
+sp 20
+x 5
+y 12
+end
 arch medium_stones
 x 5
 y 12
-move_block all
 end
 arch medium_stones
 x 6
@@ -516,29 +528,43 @@ arch woodfloor
 x 6
 y 9
 end
+arch button_small
+x 6
+y 10
+connected 100
+end
 arch woodfloor
 x 6
 y 10
 end
+arch button_small
+x 6
+y 11
+connected 100
+end
 arch woodfloor
 x 6
 y 11
 end
-arch oakdoor_2
+arch odoorn2_closed_1
+x 6
+y 11
+connected 100
+end
+arch dungeon_magic
+x 6
+y 12
+end
+arch invis_exit
 slaying ../../world/world_116_104
 hp 18
 sp 20
-x 6
-y 11
-end
-arch dungeon_magic
 x 6
 y 12
 end
 arch medium_stones
 x 6
 y 12
-move_block all
 end
 arch medium_stones
 x 7
@@ -589,6 +615,11 @@ arch woodfloor
 x 7
 y 9
 end
+arch button_small
+x 7
+y 10
+connected 100
+end
 arch woodfloor
 x 7
 y 10
@@ -605,10 +636,16 @@ arch dungeon_magic
 x 7
 y 12
 end
+arch invis_exit
+slaying ../../world/world_116_104
+hp 18
+sp 20
+x 7
+y 12
+end
 arch medium_stones
 x 7
 y 12
-move_block all
 end
 arch medium_stones
 x 8
@@ -672,6 +709,7 @@ end
 arch medium_stones
 x 8
 y 12
+move_block all
 end
 arch medium_stones
 x 9
