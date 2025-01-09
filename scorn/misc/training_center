@@ -10,7 +10,7 @@ enter_x 6
 enter_y 18
 msg
 Created: 2003-06-19 Preston Crow
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-01-09 DraugTheWhopper
 endmsg
 outdoor 1
 end
@@ -1300,17 +1300,16 @@ y 4
 end
 arch pirate_lass
 name Sweet Little Girl
-Con 25
+Con 2
 Wis 5
 hp 500
 maxhp 500
 exp 600
-dam 24
-wc -1
-ac -1
+wc 5
+ac 5
 x 10
 y 4
-level 24
+level 6
 resist_physical 10
 resist_magic 10
 sleep 1
