@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2024-07-06 Rick Tanner
+Modified: 2025-01-11 Kevin Zheng
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -7960,25 +7960,9 @@ arch faerie_dragon
 name scary-looking dragon
 title the dragon emissary
 msg
-@match name
-Gramzon, Bringer-of-Ashes.
-@identify
-@match hi|hello|job
-I am the Emissary of the Dragonlords to the City of Scorn. I have come to present the Demands of my masters. However, your King is less than cooperative. I should tell my masters that the city is ripe for conquering.
-@match demand
-The Dragonlords demand in tribute:
-10 virgins per year,
-100 head of cattle,
-and 100000 pieces of gold
-Such tribute would help them express kindness by refraining from destroying your squalid little city.
-@match dragonlord|master
-My masters, the Dragonlords, are most puissant. Few mortals may hope to overcome them in combat, for they wield such magics as would snuff the life of a mortal in seconds. No mortal can deal blows, arcane or otherwise, quickly enough to destroy the Lords, before they are destroyed. The only way a mortal could destroy one of the Dragonlords is by some clever device, for none may face one in straight combat to the death and live. To even challenge a Dragonlord to combat, you would have to pass all their draconic guards. The last of these is Ancient Dragons, whose teeth are spears, whose claws are swords, and whose breath is death! Would you know where the dragonlords dwell so that you might behold their magnificence?
-@match yes
-Their dwelling is on the western edge of the mountains southwest of Navar.
-@match weapon
-What? Where did you hear about that? Well, why would I tell you anything about this mythical 'weapon'?
-@match bribe
-You're beginning to interest me. I have a weakness for emeralds of great value. Bring me seven, and I shall tell you what you want to know. Drop them right above me and I shall reveal the location of the weapon's hiding place.
+@match *
+You are not the King. I demand an audience with the King!
+(Something is wrong with this dialog; please report this issue to a Dungeon Master.)
 endmsg
 hp 900
 maxhp 900

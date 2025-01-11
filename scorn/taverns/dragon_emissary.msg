@@ -23,7 +23,7 @@
   "msg"   : ["You're beginning to interest me.  I have a weakness for emeralds of great value.\n Bring me seven, and I shall tell you what you want to know."]
   },{
   "match" : ["weapon"],
-  "pre"   : [],
+  "pre"   : [["quest", "scorn/DragonWhisker", "10"]],
   "post"  : [],
   "msg"   : ["What?  Where did you hear about that?\n Well, why would I tell you anything about this mythical 'weapon'?"]
   },{
@@ -39,19 +39,24 @@
   "replies" : [["home", "Where do the Dragonlords dwell?"]]
   },{
   "match" : ["demand"],
-  "pre"   : [],
+  "pre"   : [["quest", "scorn/DragonWhisker", "10"]],
   "post"  : [],
   "msg"   : ["The Dragonlords demand in tribute:\n10 virgins per year,\n100 head of cattle,\n and 100000 pieces of gold\n Such tribute would help them express kindness by refraining from destroying your squalid little city."]
   },{
-  "match" : ["hi", "hello", "job"],
+  "match" : ["demand"],
   "pre"   : [],
   "post"  : [],
-  "msg"   : ["I am the Emissary of the Dragonlords to the City of Scorn.  I have come to present the Demands of my masters.  However, your King is less than cooperative.  I should tell my masters that the city is ripe for conquer."],
-  "replies" : [["demands", "What are the demands of the Dragon Lords?"], ["dragonlords", "Who are the Dragonlords?"]]
+  "msg"   : ["Sorry, I'm making my demand directly to the King. You are not nobility, are you?"]
   },{
   "match" : ["name"],
   "pre"   : [],
   "post"  : [],
   "msg"   : ["Gramzon, Bringer-of-Ashes"]
+  },{
+  "match" : ["*"],
+  "pre"   : [],
+  "post"  : [],
+  "msg"   : ["I am the Emissary of the Dragonlords to the City of Scorn.  I have come to present the Demands of my masters.  However, your King is less than cooperative.  I should tell my masters that the city is ripe for conquer."],
+  "replies" : [["demands", "What are the demands of the Dragon Lords?"], ["dragonlords", "Who are the Dragonlords?"]]
   }
 ]}
