@@ -9,7 +9,7 @@ enter_x 17
 enter_y 35
 msg
 Created: 2010-02-28 Alestan
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-01-11 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -4750,6 +4750,10 @@ arch grass
 x 17
 y 34
 end
+arch awall_0
+x 17
+y 34
+end
 arch grass
 x 17
 y 35
@@ -5082,6 +5086,13 @@ x 18
 y 34
 end
 arch grass
+x 18
+y 35
+end
+arch sign
+msg
+Closed for demolition. For assistance, contact a Dungeon Master.
+endmsg
 x 18
 y 35
 end
