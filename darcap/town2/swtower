@@ -8,7 +8,7 @@ enter_x 7
 enter_y 10
 msg
 Created:  2008-11-23 Rick Tanner
-Modified: 2025-01-15 Rick Tanner
+Modified: 2025-01-16 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -141,7 +141,7 @@ arch dungeon_floor
 x 2
 y 5
 end
-arch dwall_2_1_1
+arch dwall_win1
 x 2
 y 5
 end
@@ -173,7 +173,7 @@ arch dungeon_floor
 x 2
 y 9
 end
-arch dwall_2_1_1
+arch dwall_win1
 x 2
 y 9
 end
@@ -404,7 +404,7 @@ arch dungeon_floor
 x 5
 y 2
 end
-arch dwall_2_1_2
+arch dwall_win2
 x 5
 y 2
 end
@@ -744,7 +744,7 @@ arch dungeon_floor
 x 9
 y 2
 end
-arch dwall_2_1_2
+arch dwall_win2
 x 9
 y 2
 end
@@ -1023,7 +1023,7 @@ arch dungeon_floor
 x 12
 y 5
 end
-arch dwall_2_1_1
+arch dwall_win1
 x 12
 y 5
 end
@@ -1055,7 +1055,7 @@ arch dungeon_floor
 x 12
 y 9
 end
-arch dwall_2_1_1
+arch dwall_win1
 x 12
 y 9
 end
