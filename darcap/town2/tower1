@@ -14,55 +14,109 @@ reset_group darcap_tower
 end
 arch medium_stones
 end
+arch mountain3
+end
 arch medium_stones
+y 1
+end
+arch mountain3
 y 1
 end
 arch medium_stones
 y 2
 end
+arch mountain3
+y 2
+end
 arch medium_stones
+y 3
+end
+arch mountain3
 y 3
 end
 arch medium_stones
 y 4
 end
+arch mountain3
+y 4
+end
 arch medium_stones
+y 5
+end
+arch mountain3
 y 5
 end
 arch medium_stones
 y 6
 end
+arch mountain3
+y 6
+end
 arch medium_stones
+y 7
+end
+arch mountain3
 y 7
 end
 arch medium_stones
 y 8
 end
+arch mountain3
+y 8
+end
 arch medium_stones
+y 9
+end
+arch mountain3
 y 9
 end
 arch medium_stones
 y 10
 end
+arch mountain3
+y 10
+end
 arch medium_stones
+y 11
+end
+arch mountain3
 y 11
 end
 arch medium_stones
 y 12
 end
+arch mountain3
+y 12
+end
 arch medium_stones
 y 13
 end
+arch mountain3
+y 13
+end
 arch medium_stones
+y 14
+end
+arch mountain3
 y 14
 end
 arch medium_stones
 y 15
 end
+arch mountain3
+y 15
+end
 arch medium_stones
 x 1
 end
+arch mountain3
+x 1
+end
 arch medium_stones
+x 1
+y 1
+end
+arch mountain3
 x 1
 y 1
 end
@@ -70,7 +124,15 @@ arch medium_stones
 x 1
 y 2
 end
+arch mountain3
+x 1
+y 2
+end
 arch medium_stones
+x 1
+y 3
+end
+arch mountain3
 x 1
 y 3
 end
@@ -83,6 +145,10 @@ x 1
 y 5
 end
 arch medium_stones
+x 1
+y 6
+end
+arch mountain3
 x 1
 y 6
 end
@@ -102,6 +168,10 @@ arch medium_stones
 x 1
 y 10
 end
+arch mountain3
+x 1
+y 10
+end
 arch medium_stones
 x 1
 y 11
@@ -110,11 +180,23 @@ arch medium_stones
 x 1
 y 12
 end
+arch mountain3
+x 1
+y 12
+end
 arch medium_stones
 x 1
 y 13
 end
+arch mountain3
+x 1
+y 13
+end
 arch medium_stones
+x 1
+y 14
+end
+arch mountain3
 x 1
 y 14
 end
@@ -122,10 +204,21 @@ arch medium_stones
 x 1
 y 15
 end
+arch mountain3
+x 1
+y 15
+end
 arch medium_stones
 x 2
 end
+arch mountain3
+x 2
+end
 arch medium_stones
+x 2
+y 1
+end
+arch mountain3
 x 2
 y 1
 end
@@ -181,14 +274,29 @@ arch medium_stones
 x 2
 y 14
 end
+arch mountain3
+x 2
+y 14
+end
 arch medium_stones
+x 2
+y 15
+end
+arch mountain3
 x 2
 y 15
 end
 arch medium_stones
 x 3
 end
+arch mountain3
+x 3
+end
 arch medium_stones
+x 3
+y 1
+end
+arch mountain3
 x 3
 y 1
 end
@@ -268,6 +376,10 @@ arch medium_stones
 x 3
 y 12
 end
+arch mountain3
+x 3
+y 12
+end
 arch medium_stones
 x 3
 y 13
@@ -276,11 +388,22 @@ arch medium_stones
 x 3
 y 14
 end
+arch mountain3
+x 3
+y 14
+end
 arch medium_stones
 x 3
 y 15
 end
+arch mountain3
+x 3
+y 15
+end
 arch medium_stones
+x 4
+end
+arch mountain3
 x 4
 end
 arch medium_stones
@@ -385,14 +508,29 @@ arch medium_stones
 x 4
 y 14
 end
+arch mountain3
+x 4
+y 14
+end
 arch medium_stones
+x 4
+y 15
+end
+arch mountain3
 x 4
 y 15
 end
 arch medium_stones
 x 5
 end
+arch mountain3
+x 5
+end
 arch medium_stones
+x 5
+y 1
+end
+arch mountain3
 x 5
 y 1
 end
@@ -476,7 +614,15 @@ arch medium_stones
 x 5
 y 13
 end
+arch mountain3
+x 5
+y 13
+end
 arch medium_stones
+x 5
+y 14
+end
+arch mountain3
 x 5
 y 14
 end
@@ -484,10 +630,21 @@ arch medium_stones
 x 5
 y 15
 end
+arch mountain3
+x 5
+y 15
+end
 arch medium_stones
 x 6
 end
+arch mountain3
+x 6
+end
 arch medium_stones
+x 6
+y 1
+end
+arch mountain3
 x 6
 y 1
 end
@@ -585,7 +742,15 @@ arch medium_stones
 x 6
 y 13
 end
+arch mountain3
+x 6
+y 13
+end
 arch medium_stones
+x 6
+y 14
+end
+arch mountain3
 x 6
 y 14
 end
@@ -593,10 +758,21 @@ arch medium_stones
 x 6
 y 15
 end
+arch mountain3
+x 6
+y 15
+end
 arch medium_stones
 x 7
 end
+arch mountain3
+x 7
+end
 arch medium_stones
+x 7
+y 1
+end
+arch mountain3
 x 7
 y 1
 end
@@ -694,7 +870,15 @@ arch medium_stones
 x 7
 y 13
 end
+arch mountain3
+x 7
+y 13
+end
 arch medium_stones
+x 7
+y 14
+end
+arch mountain3
 x 7
 y 14
 end
@@ -702,10 +886,21 @@ arch medium_stones
 x 7
 y 15
 end
+arch mountain3
+x 7
+y 15
+end
 arch medium_stones
 x 8
 end
+arch mountain3
+x 8
+end
 arch medium_stones
+x 8
+y 1
+end
+arch mountain3
 x 8
 y 1
 end
@@ -793,14 +988,29 @@ arch medium_stones
 x 8
 y 14
 end
+arch mountain3
+x 8
+y 14
+end
 arch medium_stones
+x 8
+y 15
+end
+arch mountain3
 x 8
 y 15
 end
 arch medium_stones
 x 9
 end
+arch mountain3
+x 9
+end
 arch medium_stones
+x 9
+y 1
+end
+arch mountain3
 x 9
 y 1
 end
@@ -888,11 +1098,22 @@ arch medium_stones
 x 9
 y 14
 end
+arch mountain3
+x 9
+y 14
+end
 arch medium_stones
 x 9
 y 15
 end
+arch mountain3
+x 9
+y 15
+end
 arch medium_stones
+x 10
+end
+arch mountain3
 x 10
 end
 arch medium_stones
@@ -1001,7 +1222,14 @@ arch medium_stones
 x 10
 y 15
 end
+arch mountain3
+x 10
+y 15
+end
 arch medium_stones
+x 11
+end
+arch mountain3
 x 11
 end
 arch medium_stones
@@ -1174,6 +1402,10 @@ arch medium_stones
 x 12
 y 14
 end
+arch mountain3
+x 12
+y 14
+end
 arch medium_stones
 x 12
 y 15
@@ -1182,6 +1414,10 @@ arch medium_stones
 x 13
 end
 arch medium_stones
+x 13
+y 1
+end
+arch mountain3
 x 13
 y 1
 end
