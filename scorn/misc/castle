@@ -8,7 +8,7 @@ enter_x 11
 enter_y 20
 msg
 Created:  1997-04-27
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-01-20 ChristopherPH
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -1819,7 +1819,7 @@ arch NPCGift
 arch carton_box_1
 name Count Reward
 arch marker
-name Noble Rank Earl
+name Noble Rank of Count
 slaying Noble Rank Count
 food 0
 end
@@ -1830,7 +1830,7 @@ end
 arch carton_box_1
 name Earl Reward
 arch marker
-name Noble Rank Marquis
+name Noble Rank of Earl
 slaying Noble Rank Earl
 food 0
 end
@@ -1840,7 +1840,7 @@ end
 arch carton_box_1
 name Marquis Reward
 arch marker
-name Noble Rank Baron
+name Noble Rank of Marquis
 slaying Noble Rank Marquis
 food 0
 end
@@ -1851,7 +1851,7 @@ end
 arch carton_box_1
 name Baron Reward
 arch marker
-name Noble Rank Baronet
+name Noble Rank of Baron
 slaying Noble Rank Baron
 food 0
 end
@@ -1862,7 +1862,7 @@ end
 arch carton_box_1
 name Baronet Reward
 arch marker
-name Noble Rank Knight
+name Noble Rank of Baronet
 slaying Noble Rank Baronet
 food 0
 end
@@ -1873,10 +1873,12 @@ end
 arch carton_box_1
 name Knight Reward
 arch marker
+name Title of Hero of Scorn
 slaying hero_of_scorn
 food 0
 end
 arch marker
+name Noble Rank of Knight
 slaying Noble Rank Knight
 food 0
 end
