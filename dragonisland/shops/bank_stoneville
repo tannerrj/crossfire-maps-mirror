@@ -8,7 +8,7 @@ enter_x 10
 enter_y 10
 msg
 Created:  2012-09-03 Rick Tanner
-Modified: 2022-08-11 Rick Tanner
+Modified: 2025-01-26 Rick Tanner
 endmsg
 reset_group stoneville_bank
 end
@@ -126,7 +126,7 @@ arch dungeon_magic
 x 2
 y 2
 end
-arch woodlarge
+arch flagstone
 x 2
 y 2
 end
@@ -138,7 +138,7 @@ arch dungeon_magic
 x 2
 y 3
 end
-arch woodlarge
+arch flagstone
 x 2
 y 3
 end
@@ -150,7 +150,7 @@ arch dungeon_magic
 x 2
 y 4
 end
-arch woodlarge
+arch flagstone
 x 2
 y 4
 end
@@ -162,7 +162,7 @@ arch dungeon_magic
 x 2
 y 5
 end
-arch woodlarge
+arch flagstone
 x 2
 y 5
 end
@@ -174,7 +174,7 @@ arch dungeon_magic
 x 2
 y 6
 end
-arch woodlarge
+arch flagstone
 x 2
 y 6
 end
@@ -186,7 +186,7 @@ arch dungeon_magic
 x 2
 y 7
 end
-arch woodlarge
+arch flagstone
 x 2
 y 7
 end
@@ -198,7 +198,7 @@ arch dungeon_magic
 x 2
 y 8
 end
-arch woodlarge
+arch flagstone
 x 2
 y 8
 end
@@ -210,7 +210,7 @@ arch dungeon_magic
 x 2
 y 9
 end
-arch woodlarge
+arch flagstone
 x 2
 y 9
 end
@@ -222,7 +222,7 @@ arch dungeon_magic
 x 2
 y 10
 end
-arch woodlarge
+arch flagstone
 x 2
 y 10
 end
@@ -234,7 +234,7 @@ arch dungeon_magic
 x 2
 y 11
 end
-arch woodlarge
+arch flagstone
 x 2
 y 11
 end
@@ -246,7 +246,7 @@ arch dungeon_magic
 x 2
 y 12
 end
-arch woodlarge
+arch flagstone
 x 2
 y 12
 end
@@ -277,7 +277,7 @@ arch dungeon_magic
 x 3
 y 2
 end
-arch woodlarge
+arch flagstone
 x 3
 y 2
 end
@@ -396,7 +396,7 @@ arch dungeon_magic
 x 3
 y 12
 end
-arch woodlarge
+arch flagstone
 x 3
 y 12
 end
@@ -427,7 +427,7 @@ arch dungeon_magic
 x 4
 y 2
 end
-arch woodlarge
+arch flagstone
 x 4
 y 2
 end
@@ -524,7 +524,7 @@ arch dungeon_magic
 x 4
 y 12
 end
-arch woodlarge
+arch flagstone
 x 4
 y 12
 end
@@ -555,7 +555,7 @@ arch dungeon_magic
 x 5
 y 2
 end
-arch woodlarge
+arch flagstone
 x 5
 y 2
 end
@@ -664,7 +664,7 @@ arch dungeon_magic
 x 5
 y 12
 end
-arch woodlarge
+arch flagstone
 x 5
 y 12
 end
@@ -695,7 +695,7 @@ arch dungeon_magic
 x 6
 y 2
 end
-arch woodlarge
+arch flagstone
 x 6
 y 2
 end
@@ -807,7 +807,7 @@ arch dungeon_magic
 x 6
 y 12
 end
-arch woodlarge
+arch flagstone
 x 6
 y 12
 end
@@ -838,7 +838,7 @@ arch dungeon_magic
 x 7
 y 2
 end
-arch woodlarge
+arch flagstone
 x 7
 y 2
 end
@@ -947,7 +947,7 @@ arch dungeon_magic
 x 7
 y 12
 end
-arch woodlarge
+arch flagstone
 x 7
 y 12
 end
@@ -978,7 +978,7 @@ arch dungeon_magic
 x 8
 y 2
 end
-arch woodlarge
+arch flagstone
 x 8
 y 2
 end
@@ -1113,7 +1113,7 @@ arch dungeon_magic
 x 8
 y 12
 end
-arch woodlarge
+arch flagstone
 x 8
 y 12
 end
@@ -1144,7 +1144,7 @@ arch dungeon_magic
 x 9
 y 2
 end
-arch woodlarge
+arch flagstone
 x 9
 y 2
 end
@@ -1259,7 +1259,7 @@ arch dungeon_magic
 x 9
 y 12
 end
-arch woodlarge
+arch flagstone
 x 9
 y 12
 end
@@ -1302,7 +1302,7 @@ arch dungeon_magic
 x 10
 y 2
 end
-arch woodlarge
+arch flagstone
 x 10
 y 2
 end
@@ -1435,7 +1435,7 @@ x 10
 y 12
 connected 10
 end
-arch woodlarge
+arch flagstone
 x 10
 y 12
 end
@@ -1479,7 +1479,7 @@ arch dungeon_magic
 x 11
 y 2
 end
-arch woodlarge
+arch flagstone
 x 11
 y 2
 end
@@ -1608,7 +1608,7 @@ arch dungeon_magic
 x 11
 y 12
 end
-arch woodlarge
+arch flagstone
 x 11
 y 12
 end
@@ -1651,7 +1651,7 @@ arch dungeon_magic
 x 12
 y 2
 end
-arch woodlarge
+arch flagstone
 x 12
 y 2
 end
@@ -1663,7 +1663,7 @@ arch dungeon_magic
 x 12
 y 3
 end
-arch woodlarge
+arch flagstone
 x 12
 y 3
 end
@@ -1675,7 +1675,7 @@ arch dungeon_magic
 x 12
 y 4
 end
-arch woodlarge
+arch flagstone
 x 12
 y 4
 end
@@ -1687,7 +1687,7 @@ arch dungeon_magic
 x 12
 y 5
 end
-arch woodlarge
+arch flagstone
 x 12
 y 5
 end
@@ -1699,7 +1699,7 @@ arch dungeon_magic
 x 12
 y 6
 end
-arch woodlarge
+arch flagstone
 x 12
 y 6
 end
@@ -1711,7 +1711,7 @@ arch dungeon_magic
 x 12
 y 7
 end
-arch woodlarge
+arch flagstone
 x 12
 y 7
 end
@@ -1723,7 +1723,7 @@ arch dungeon_magic
 x 12
 y 8
 end
-arch woodlarge
+arch flagstone
 x 12
 y 8
 end
@@ -1735,7 +1735,7 @@ arch dungeon_magic
 x 12
 y 9
 end
-arch woodlarge
+arch flagstone
 x 12
 y 9
 end
@@ -1747,7 +1747,7 @@ arch dungeon_magic
 x 12
 y 10
 end
-arch woodlarge
+arch flagstone
 x 12
 y 10
 end
@@ -1759,7 +1759,7 @@ arch dungeon_magic
 x 12
 y 11
 end
-arch woodlarge
+arch flagstone
 x 12
 y 11
 end
@@ -1771,7 +1771,7 @@ arch dungeon_magic
 x 12
 y 12
 end
-arch woodlarge
+arch flagstone
 x 12
 y 12
 end
