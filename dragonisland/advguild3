@@ -8,7 +8,7 @@ enter_x 8
 enter_y 30
 msg
 Created:  1997-07-15 Viola Krings
-Modified: 2023-11-03 Rick Tanner
+Modified: 2025-01-27 Rick Tanner
 endmsg
 reset_group stoneville_adventurers-guild
 end
@@ -2761,7 +2761,7 @@ arch dungeon_floor
 x 13
 y 30
 end
-arch cwall_1_2
+arch cwall_2_1_1
 x 13
 y 30
 end
@@ -2769,7 +2769,7 @@ arch dungeon_floor
 x 13
 y 31
 end
-arch dwall_2_1_2
+arch dwall_3_1
 x 13
 y 31
 end
@@ -4254,7 +4254,7 @@ arch dungeon_floor
 x 22
 y 8
 end
-arch cwall_2_2_3
+arch cwall_3_3
 x 22
 y 8
 end
@@ -4294,7 +4294,7 @@ arch dungeon_floor
 x 22
 y 13
 end
-arch cwall_2_2_4
+arch cwall_3_1
 x 22
 y 13
 end
@@ -4306,7 +4306,7 @@ arch dungeon_floor
 x 22
 y 15
 end
-arch cwall_2_2_3
+arch cwall_3_3
 x 22
 y 15
 end
@@ -4354,7 +4354,7 @@ arch dungeon_floor
 x 22
 y 21
 end
-arch cwall_2_2_4
+arch cwall_3_1
 x 22
 y 21
 end
@@ -4485,7 +4485,7 @@ arch dungeon_floor
 x 23
 y 8
 end
-arch dwall_2_1_1
+arch dwall_3_4
 x 23
 y 8
 end
@@ -4525,7 +4525,7 @@ arch dungeon_floor
 x 23
 y 13
 end
-arch dwall_2_1_1
+arch dwall_3_4
 x 23
 y 13
 end
@@ -4541,7 +4541,7 @@ arch dungeon_floor
 x 23
 y 15
 end
-arch dwall_2_1_1
+arch dwall_3_4
 x 23
 y 15
 end
@@ -4589,7 +4589,7 @@ arch dungeon_floor
 x 23
 y 21
 end
-arch dwall_2_1_1
+arch dwall_3_4
 x 23
 y 21
 end
