@@ -1,12 +1,13 @@
 arch map
 name ter_1
+width 16
+height 16
 msg
 Creator: Joel Southall
 Email: joel@prninfo.com
 Date: Mon Dec  6 00:14:32 1999
+Modified: 2025-01-28 kettek
 endmsg
-width 16
-height 16
 end
 arch dungeon_floor
 end
@@ -909,6 +910,13 @@ x 9
 y 6
 end
 arch sea1
+x 9
+y 7
+end
+arch ladder_up
+slaying city
+hp 23
+sp 1
 x 9
 y 7
 end
