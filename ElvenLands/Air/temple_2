@@ -1,0 +1,6517 @@
+arch map
+name temple_2
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Dec  9 11:20:02 1999
+endmsg
+width 27
+height 25
+end
+arch marble
+face marble_blgr.111
+end
+arch flagstone_2_2_2
+end
+arch marble
+face marble_blgr.111
+y 1
+end
+arch flagstone_2_1_1
+y 1
+end
+arch marble
+face marble_blgr.111
+y 2
+end
+arch flagstone_2_1_1
+y 2
+end
+arch marble
+face marble_blgr.111
+y 3
+end
+arch flagstone_2_1_1
+y 3
+end
+arch marble
+face marble_blgr.111
+y 4
+end
+arch flagstone_2_1_1
+y 4
+end
+arch marble
+face marble_blgr.111
+y 5
+end
+arch flagstone_2_1_1
+y 5
+end
+arch marble
+face marble_blgr.111
+y 6
+end
+arch flagstone_3_2
+y 6
+end
+arch marble
+face marble_blgr.111
+y 7
+end
+arch flagstone_2_1_1
+y 7
+end
+arch marble
+face marble_blgr.111
+y 8
+end
+arch flagstone_2_1_1
+y 8
+end
+arch marble
+face marble_blgr.111
+y 9
+end
+arch flagstone_2_1_1
+y 9
+end
+arch marble
+face marble_blgr.111
+y 10
+end
+arch flagstone_3_2
+y 10
+end
+arch marble
+face marble_blgr.111
+y 11
+end
+arch flagstone_2_1_1
+y 11
+end
+arch marble
+face marble_blgr.111
+y 12
+end
+arch flagstone_2_1_1
+y 12
+end
+arch marble
+face marble_blgr.111
+y 13
+end
+arch flagstone_2_1_1
+y 13
+end
+arch marble
+face marble_blgr.111
+y 14
+end
+arch flagstone_2_1_1
+y 14
+end
+arch marble
+face marble_blgr.111
+y 15
+end
+arch flagstone_2_2_1
+y 15
+end
+arch sea
+y 16
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+y 16
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+y 17
+end
+arch paralyze
+dam 0
+wc 0
+y 17
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+y 18
+end
+arch paralyze
+dam 0
+wc 0
+y 18
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+y 19
+end
+arch paralyze
+dam 0
+wc 0
+y 19
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+y 21
+end
+arch healing
+name Shining star
+food 0
+y 21
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+y 23
+end
+arch paralyze
+dam 0
+wc 0
+y 23
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+y 24
+end
+arch healing
+name Shining star
+food 0
+y 24
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 1
+end
+arch marble
+face marble_blgr.111
+x 1
+end
+arch marble
+face marble_blgr.111
+x 1
+end
+arch flagstone_2_1_2
+x 1
+end
+arch marble
+face marble_blgr.111
+x 1
+y 1
+end
+arch marble
+face marble_blgr.111
+x 1
+y 1
+end
+arch marble
+face marble_blgr.111
+x 1
+y 2
+end
+arch marble
+face marble_blgr.111
+x 1
+y 2
+end
+arch marble
+face marble_blgr.111
+x 1
+y 3
+end
+arch marble
+face marble_blgr.111
+x 1
+y 3
+end
+arch marble
+face marble_blgr.111
+x 1
+y 4
+end
+arch marble
+face marble_blgr.111
+x 1
+y 4
+end
+arch marble
+face marble_blgr.111
+x 1
+y 5
+end
+arch marble
+face marble_blgr.111
+x 1
+y 5
+end
+arch marble
+face marble_blgr.111
+x 1
+y 6
+end
+arch marble
+face marble_blgr.111
+x 1
+y 6
+end
+arch swall_2_1_2
+x 1
+y 6
+end
+arch sea
+x 1
+y 7
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 7
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 1
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch healing
+name Shining star
+food 0
+x 1
+y 8
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 1
+y 9
+end
+arch paralyze
+dam 0
+wc 0
+x 1
+y 9
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 1
+y 10
+end
+arch marble
+face marble_blgr.111
+x 1
+y 10
+end
+arch flagstone_2_1_2
+x 1
+y 10
+end
+arch marble
+face marble_blgr.111
+x 1
+y 11
+end
+arch marble
+face marble_blgr.111
+x 1
+y 11
+end
+arch marble
+face marble_blgr.111
+x 1
+y 12
+end
+arch marble
+face marble_blgr.111
+x 1
+y 12
+end
+arch marble
+face marble_blgr.111
+x 1
+y 13
+end
+arch marble
+face marble_blgr.111
+x 1
+y 13
+end
+arch marble
+face marble_blgr.111
+x 1
+y 14
+end
+arch marble
+face marble_blgr.111
+x 1
+y 14
+end
+arch marble
+face marble_blgr.111
+x 1
+y 15
+end
+arch marble
+face marble_blgr.111
+x 1
+y 15
+end
+arch flagstone_2_2_3
+x 1
+y 15
+end
+arch marble
+face marble_blgr.111
+x 1
+y 16
+end
+arch marble
+face marble_blgr.111
+x 1
+y 16
+end
+arch flagstone_2_2_1
+x 1
+y 16
+end
+arch sea
+x 1
+y 17
+end
+arch paralyze
+dam 0
+wc 0
+x 1
+y 17
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 1
+y 18
+end
+arch healing
+name Shining star
+food 0
+x 1
+y 18
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 1
+y 19
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 19
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 1
+y 20
+end
+arch paralyze
+dam 0
+wc 0
+x 1
+y 20
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 1
+y 21
+end
+arch paralyze
+dam 0
+wc 0
+x 1
+y 21
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 1
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 1
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 1
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 1
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 2
+end
+arch marble
+face marble_blgr.111
+x 2
+end
+arch flagstone_2_1_2
+x 2
+end
+arch marble
+face marble_blgr.111
+x 2
+y 1
+end
+arch marble
+face marble_blgr.111
+x 2
+y 1
+end
+arch marble
+face marble_blgr.111
+x 2
+y 2
+end
+arch marble
+face marble_blgr.111
+x 2
+y 3
+end
+arch marble
+face marble_blgr.111
+x 2
+y 3
+end
+arch marble
+face marble_blgr.111
+x 2
+y 4
+end
+arch marble
+face marble_blgr.111
+x 2
+y 4
+end
+arch marble
+face marble_blgr.111
+x 2
+y 5
+end
+arch marble
+face marble_blgr.111
+x 2
+y 5
+end
+arch marble
+face marble_blgr.111
+x 2
+y 6
+end
+arch marble
+face marble_blgr.111
+x 2
+y 6
+end
+arch swall_2_1_2
+x 2
+y 6
+end
+arch sea
+x 2
+y 7
+end
+arch paralyze
+dam 0
+wc 0
+x 2
+y 7
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 2
+y 7
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 2
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 2
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 2
+y 9
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 2
+y 9
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 2
+y 10
+end
+arch marble
+face marble_blgr.111
+x 2
+y 10
+end
+arch flagstone_3_3
+x 2
+y 10
+end
+arch marble
+face marble_blgr.111
+x 2
+y 11
+end
+arch marble
+face marble_blgr.111
+x 2
+y 11
+end
+arch swall_1_1
+x 2
+y 11
+end
+arch marble
+face marble_blgr.111
+x 2
+y 12
+end
+arch marble
+face marble_blgr.111
+x 2
+y 12
+end
+arch swall_2_2_1
+x 2
+y 12
+end
+arch marble
+face marble_blgr.111
+x 2
+y 13
+end
+arch marble
+face marble_blgr.111
+x 2
+y 13
+end
+arch marble
+face marble_blgr.111
+x 2
+y 14
+end
+arch marble
+face marble_blgr.111
+x 2
+y 14
+end
+arch marble
+face marble_blgr.111
+x 2
+y 15
+end
+arch marble
+face marble_blgr.111
+x 2
+y 15
+end
+arch marble
+face marble_blgr.111
+x 2
+y 16
+end
+arch marble
+face marble_blgr.111
+x 2
+y 16
+end
+arch swall_2_1_2
+x 2
+y 16
+end
+arch sea
+x 2
+y 17
+end
+arch paralyze
+dam 0
+wc 0
+x 2
+y 17
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 2
+y 18
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 2
+y 18
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 2
+y 19
+end
+arch paralyze
+dam 0
+wc 0
+x 2
+y 19
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 2
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 2
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 2
+y 21
+end
+arch healing
+name Shining star
+food 0
+x 2
+y 21
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 2
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 2
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 2
+y 23
+end
+arch healing
+name Shining star
+food 0
+x 2
+y 23
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 2
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 2
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 3
+end
+arch flagstone_2_1_2
+x 3
+end
+arch marble
+face marble_blgr.111
+x 3
+y 1
+end
+arch marble
+face marble_blgr.111
+x 3
+y 2
+end
+arch marble
+face marble_blgr.111
+x 3
+y 3
+end
+arch marble
+face marble_blgr.111
+x 3
+y 4
+end
+arch marble
+face marble_blgr.111
+x 3
+y 5
+end
+arch marble
+face marble_blgr.111
+x 3
+y 6
+end
+arch swall_2_1_2
+x 3
+y 6
+end
+arch sea
+x 3
+y 7
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 7
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 3
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 3
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 3
+y 9
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 9
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 3
+y 9
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 3
+y 10
+end
+arch flagstone_2_1_2
+x 3
+y 10
+end
+arch sea
+x 3
+y 11
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 3
+y 11
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 11
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 3
+y 11
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 3
+y 12
+end
+arch swall_2_1_2
+x 3
+y 12
+end
+arch marble
+face marble_blgr.111
+x 3
+y 13
+end
+arch marble
+face marble_blgr.111
+x 3
+y 14
+end
+arch marble
+face marble_blgr.111
+x 3
+y 15
+end
+arch marble
+face marble_blgr.111
+x 3
+y 16
+end
+arch swall_2_2_3
+x 3
+y 16
+end
+arch marble
+face marble_blgr.111
+x 3
+y 17
+end
+arch swall_2_2_1
+x 3
+y 17
+end
+arch sea
+x 3
+y 18
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 3
+y 18
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 3
+y 19
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 19
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 3
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 3
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 3
+y 21
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 21
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 3
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 3
+y 23
+end
+arch paralyze
+dam 0
+wc 0
+x 3
+y 23
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 3
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 3
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 4
+end
+arch flagstone_2_1_2
+x 4
+end
+arch marble
+face marble_blgr.111
+x 4
+y 1
+end
+arch marble
+face marble_blgr.111
+x 4
+y 2
+end
+arch marble
+face marble_blgr.111
+x 4
+y 3
+end
+arch marble
+face marble_blgr.111
+x 4
+y 4
+end
+arch marble
+face marble_blgr.111
+x 4
+y 5
+end
+arch marble
+face marble_blgr.111
+x 4
+y 6
+end
+arch swall_2_2_3
+x 4
+y 6
+end
+arch marble
+face marble_blgr.111
+x 4
+y 7
+end
+arch swall_2_1_1
+x 4
+y 7
+end
+arch marble
+face marble_blgr.111
+x 4
+y 8
+end
+arch swall_2_1_1
+x 4
+y 8
+end
+arch marble
+face marble_blgr.111
+x 4
+y 9
+end
+arch swall_2_1_1
+x 4
+y 9
+end
+arch marble
+face marble_blgr.111
+x 4
+y 10
+end
+arch flagstone_3_1
+x 4
+y 10
+end
+arch sea
+x 4
+y 11
+end
+arch paralyze
+dam 0
+wc 0
+x 4
+y 11
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 4
+y 11
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch healing
+name Shining star
+food 0
+x 4
+y 11
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 4
+y 12
+end
+arch swall_2_1_2
+x 4
+y 12
+end
+arch marble
+face marble_blgr.111
+x 4
+y 13
+end
+arch marble
+face marble_blgr.111
+x 4
+y 14
+end
+arch marble
+face marble_blgr.111
+x 4
+y 15
+end
+arch marble
+face marble_blgr.111
+x 4
+y 16
+end
+arch marble
+face marble_blgr.111
+x 4
+y 17
+end
+arch swall_2_2_3
+x 4
+y 17
+end
+arch marble
+face marble_blgr.111
+x 4
+y 18
+end
+arch swall_2_2_1
+x 4
+y 18
+end
+arch sea
+x 4
+y 19
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 4
+y 19
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 4
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 4
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 4
+y 21
+end
+arch healing
+name Shining star
+food 0
+x 4
+y 21
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 4
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 4
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 4
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 4
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 4
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 4
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 5
+end
+arch flagstone_2_1_2
+x 5
+end
+arch marble
+face marble_blgr.111
+x 5
+y 1
+end
+arch marble
+face marble_blgr.111
+x 5
+y 2
+end
+arch marble
+face marble_blgr.111
+x 5
+y 3
+end
+arch marble
+face marble_blgr.111
+x 5
+y 4
+end
+arch marble
+face marble_blgr.111
+x 5
+y 5
+end
+arch marble
+face marble_blgr.111
+x 5
+y 6
+end
+arch marble
+face marble_blgr.111
+x 5
+y 7
+end
+arch marble
+face marble_blgr.111
+x 5
+y 8
+end
+arch marble
+face marble_blgr.111
+x 5
+y 9
+end
+arch marble
+face marble_blgr.111
+x 5
+y 10
+end
+arch flagstone_3_3
+x 5
+y 10
+end
+arch marble
+face marble_blgr.111
+x 5
+y 11
+end
+arch swall_1_1
+x 5
+y 11
+end
+arch marble
+face marble_blgr.111
+x 5
+y 12
+end
+arch swall_2_2_4
+x 5
+y 12
+end
+arch marble
+face marble_blgr.111
+x 5
+y 13
+end
+arch marble
+face marble_blgr.111
+x 5
+y 14
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 5
+y 14
+level 80
+end
+arch marble
+face marble_blgr.111
+x 5
+y 15
+end
+arch marble
+face marble_blgr.111
+x 5
+y 16
+end
+arch marble
+face marble_blgr.111
+x 5
+y 17
+end
+arch marble
+face marble_blgr.111
+x 5
+y 18
+end
+arch swall_2_2_3
+x 5
+y 18
+end
+arch marble
+face marble_blgr.111
+x 5
+y 19
+end
+arch swall_2_2_1
+x 5
+y 19
+end
+arch sea
+x 5
+y 20
+end
+arch paralyze
+dam 0
+wc 0
+x 5
+y 20
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 5
+y 21
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 5
+y 21
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 5
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 5
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 5
+y 23
+end
+arch paralyze
+dam 0
+wc 0
+x 5
+y 23
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 5
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 5
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 6
+end
+arch flagstone_2_1_2
+x 6
+end
+arch marble
+face marble_blgr.111
+x 6
+y 1
+end
+arch marble
+face marble_blgr.111
+x 6
+y 2
+end
+arch marble
+face marble_blgr.111
+x 6
+y 3
+end
+arch marble
+face marble_blgr.111
+x 6
+y 4
+end
+arch marble
+face marble_blgr.111
+x 6
+y 5
+end
+arch marble
+face marble_blgr.111
+x 6
+y 6
+end
+arch marble
+face marble_blgr.111
+x 6
+y 7
+end
+arch marble
+face marble_blgr.111
+x 6
+y 8
+end
+arch marble
+face marble_blgr.111
+x 6
+y 9
+end
+arch marble
+face marble_blgr.111
+x 6
+y 10
+end
+arch flagstone_2_1_2
+x 6
+y 10
+end
+arch marble
+face marble_blgr.111
+x 6
+y 11
+end
+arch marble
+face marble_blgr.111
+x 6
+y 12
+end
+arch marble
+face marble_blgr.111
+x 6
+y 13
+end
+arch marble
+face marble_blgr.111
+x 6
+y 14
+end
+arch marble
+face marble_blgr.111
+x 6
+y 15
+end
+arch marble
+face marble_blgr.111
+x 6
+y 16
+end
+arch marble
+face marble_blgr.111
+x 6
+y 17
+end
+arch marble
+face marble_blgr.111
+x 6
+y 18
+end
+arch marble
+face marble_blgr.111
+x 6
+y 19
+end
+arch swall_2_2_3
+x 6
+y 19
+end
+arch marble
+face marble_blgr.111
+x 6
+y 20
+end
+arch swall_2_2_1
+x 6
+y 20
+end
+arch sea
+x 6
+y 21
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 6
+y 21
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 6
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 6
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 6
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 6
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 6
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 6
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 7
+end
+arch flagstone_2_1_2
+x 7
+end
+arch marble
+face marble_blgr.111
+x 7
+y 1
+end
+arch marble
+face marble_blgr.111
+x 7
+y 2
+end
+arch marble
+face marble_blgr.111
+x 7
+y 3
+end
+arch marble
+face marble_blgr.111
+x 7
+y 4
+end
+arch marble
+face marble_blgr.111
+x 7
+y 5
+end
+arch marble
+face marble_blgr.111
+x 7
+y 6
+end
+arch marble
+face marble_blgr.111
+x 7
+y 7
+end
+arch marble
+face marble_blgr.111
+x 7
+y 8
+end
+arch marble
+face marble_blgr.111
+x 7
+y 9
+end
+arch marble
+face marble_blgr.111
+x 7
+y 10
+end
+arch flagstone_2_1_2
+x 7
+y 10
+end
+arch marble
+face marble_blgr.111
+x 7
+y 11
+end
+arch marble
+face marble_blgr.111
+x 7
+y 12
+end
+arch marble
+face marble_blgr.111
+x 7
+y 13
+end
+arch marble
+face marble_blgr.111
+x 7
+y 14
+end
+arch marble
+face marble_blgr.111
+x 7
+y 15
+end
+arch marble
+face marble_blgr.111
+x 7
+y 16
+end
+arch marble
+face marble_blgr.111
+x 7
+y 17
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 7
+y 17
+level 80
+end
+arch marble
+face marble_blgr.111
+x 7
+y 18
+end
+arch marble
+face marble_blgr.111
+x 7
+y 19
+end
+arch marble
+face marble_blgr.111
+x 7
+y 20
+end
+arch swall_2_2_3
+x 7
+y 20
+end
+arch marble
+face marble_blgr.111
+x 7
+y 21
+end
+arch swall_2_1_1
+x 7
+y 21
+end
+arch marble
+face marble_blgr.111
+x 7
+y 22
+end
+arch swall_2_1_1
+x 7
+y 22
+end
+arch marble
+face marble_blgr.111
+x 7
+y 23
+end
+arch flagstone_2_2_1
+x 7
+y 23
+end
+arch sea
+x 7
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 7
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 8
+end
+arch flagstone_2_1_2
+x 8
+end
+arch marble
+face marble_blgr.111
+x 8
+y 1
+end
+arch marble
+face marble_blgr.111
+x 8
+y 2
+end
+arch marble
+face marble_blgr.111
+x 8
+y 3
+end
+arch marble
+face marble_blgr.111
+x 8
+y 4
+end
+arch marble
+face marble_blgr.111
+x 8
+y 5
+end
+arch marble
+face marble_blgr.111
+x 8
+y 6
+end
+arch marble
+face marble_blgr.111
+x 8
+y 7
+end
+arch marble
+face marble_blgr.111
+x 8
+y 8
+end
+arch marble
+face marble_blgr.111
+x 8
+y 9
+end
+arch marble
+face marble_blgr.111
+x 8
+y 10
+end
+arch flagstone_2_1_2
+x 8
+y 10
+end
+arch marble
+face marble_blgr.111
+x 8
+y 11
+end
+arch marble
+face marble_blgr.111
+x 8
+y 12
+end
+arch marble
+face marble_blgr.111
+x 8
+y 13
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 8
+y 13
+level 80
+end
+arch marble
+face marble_blgr.111
+x 8
+y 14
+end
+arch marble
+face marble_blgr.111
+x 8
+y 15
+end
+arch marble
+face marble_blgr.111
+x 8
+y 16
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 8
+y 16
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 8
+y 17
+end
+arch marble
+face marble_blgr.111
+x 8
+y 18
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 8
+y 18
+level 80
+end
+arch marble
+face marble_blgr.111
+x 8
+y 19
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 8
+y 19
+level 80
+end
+arch marble
+face marble_blgr.111
+x 8
+y 20
+end
+arch marble
+face marble_blgr.111
+x 8
+y 21
+end
+arch marble
+face marble_blgr.111
+x 8
+y 22
+end
+arch random_potion
+x 8
+y 22
+end
+arch marble
+face marble_blgr.111
+x 8
+y 23
+end
+arch flagstone_2_2_3
+x 8
+y 23
+end
+arch marble
+face marble_blgr.111
+x 8
+y 24
+end
+arch flagstone_2_2_1
+x 8
+y 24
+end
+arch marble
+face marble_blgr.111
+x 9
+end
+arch flagstone_2_1_2
+x 9
+end
+arch marble
+face marble_blgr.111
+x 9
+y 1
+end
+arch marble
+face marble_blgr.111
+x 9
+y 2
+end
+arch marble
+face marble_blgr.111
+x 9
+y 3
+end
+arch marble
+face marble_blgr.111
+x 9
+y 4
+end
+arch marble
+face marble_blgr.111
+x 9
+y 5
+end
+arch marble
+face marble_blgr.111
+x 9
+y 6
+end
+arch marble
+face marble_blgr.111
+x 9
+y 7
+end
+arch marble
+face marble_blgr.111
+x 9
+y 8
+end
+arch marble
+face marble_blgr.111
+x 9
+y 9
+end
+arch marble
+face marble_blgr.111
+x 9
+y 10
+end
+arch flagstone_2_1_2
+x 9
+y 10
+end
+arch marble
+face marble_blgr.111
+x 9
+y 11
+end
+arch marble
+face marble_blgr.111
+x 9
+y 12
+end
+arch marble
+face marble_blgr.111
+x 9
+y 13
+end
+arch marble
+face marble_blgr.111
+x 9
+y 14
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 9
+y 14
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 9
+y 15
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 9
+y 15
+level 80
+end
+arch marble
+face marble_blgr.111
+x 9
+y 16
+end
+arch marble
+face marble_blgr.111
+x 9
+y 17
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 9
+y 17
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 9
+y 18
+end
+arch marble
+face marble_blgr.111
+x 9
+y 19
+end
+arch marble
+face marble_blgr.111
+x 9
+y 20
+end
+arch marble
+face marble_blgr.111
+x 9
+y 21
+end
+arch marble
+face marble_blgr.111
+x 9
+y 22
+end
+arch random_wealth
+x 9
+y 22
+end
+arch marble
+face marble_blgr.111
+x 9
+y 23
+end
+arch random_potion
+x 9
+y 23
+end
+arch marble
+face marble_blgr.111
+x 9
+y 24
+end
+arch flagstone_2_1_2
+x 9
+y 24
+end
+arch marble
+face marble_blgr.111
+x 10
+end
+arch flagstone_2_1_2
+x 10
+end
+arch marble
+face marble_blgr.111
+x 10
+y 1
+end
+arch marble
+face marble_blgr.111
+x 10
+y 2
+end
+arch marble
+face marble_blgr.111
+x 10
+y 3
+end
+arch marble
+face marble_blgr.111
+x 10
+y 4
+end
+arch marble
+face marble_blgr.111
+x 10
+y 5
+end
+arch marble
+face marble_blgr.111
+x 10
+y 6
+end
+arch marble
+face marble_blgr.111
+x 10
+y 7
+end
+arch marble
+face marble_blgr.111
+x 10
+y 8
+end
+arch marble
+face marble_blgr.111
+x 10
+y 9
+end
+arch marble
+face marble_blgr.111
+x 10
+y 10
+end
+arch flagstone_1_3
+x 10
+y 10
+end
+arch marble
+face marble_blgr.111
+x 10
+y 11
+end
+arch marble
+face marble_blgr.111
+x 10
+y 12
+end
+arch marble
+face marble_blgr.111
+x 10
+y 13
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 10
+y 13
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 10
+y 14
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 10
+y 14
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 10
+y 15
+end
+arch marble
+face marble_blgr.111
+x 10
+y 16
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 10
+y 16
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 10
+y 17
+end
+arch marble
+face marble_blgr.111
+x 10
+y 18
+end
+arch marble
+face marble_blgr.111
+x 10
+y 19
+end
+arch marble
+face marble_blgr.111
+x 10
+y 20
+end
+arch marble
+face marble_blgr.111
+x 10
+y 21
+end
+arch marble
+face marble_blgr.111
+x 10
+y 22
+end
+arch random_wealth
+x 10
+y 22
+end
+arch marble
+face marble_blgr.111
+x 10
+y 23
+end
+arch random_potion
+x 10
+y 23
+end
+arch marble
+face marble_blgr.111
+x 10
+y 24
+end
+arch flagstone_2_1_2
+x 10
+y 24
+end
+arch marble
+face marble_blgr.111
+x 11
+end
+arch flagstone_3_3
+x 11
+end
+arch marble
+face marble_blgr.111
+x 11
+y 1
+end
+arch flagstone_2_1_1
+x 11
+y 1
+end
+arch marble
+face marble_blgr.111
+x 11
+y 2
+end
+arch flagstone_1_2
+x 11
+y 2
+end
+arch marble
+face marble_blgr.111
+x 11
+y 3
+end
+arch marble
+face marble_blgr.111
+x 11
+y 4
+end
+arch marble
+face marble_blgr.111
+x 11
+y 5
+end
+arch marble
+face marble_blgr.111
+x 11
+y 6
+end
+arch marble
+face marble_blgr.111
+x 11
+y 7
+end
+arch marble
+face marble_blgr.111
+x 11
+y 8
+end
+arch marble
+face marble_blgr.111
+x 11
+y 9
+end
+arch marble
+face marble_blgr.111
+x 11
+y 10
+end
+arch door_2
+x 11
+y 10
+end
+arch marble
+face marble_blgr.111
+x 11
+y 11
+end
+arch marble
+face marble_blgr.111
+x 11
+y 12
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 11
+y 12
+level 80
+end
+arch marble
+face marble_blgr.111
+x 11
+y 13
+end
+arch marble
+face marble_blgr.111
+x 11
+y 14
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 11
+y 14
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 11
+y 15
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 11
+y 15
+level 80
+end
+arch marble
+face marble_blgr.111
+x 11
+y 16
+end
+arch marble
+face marble_blgr.111
+x 11
+y 17
+end
+arch marble
+face marble_blgr.111
+x 11
+y 18
+end
+arch marble
+face marble_blgr.111
+x 11
+y 19
+end
+arch marble
+face marble_blgr.111
+x 11
+y 20
+end
+arch marble
+face marble_blgr.111
+x 11
+y 21
+end
+arch marble
+face marble_blgr.111
+x 11
+y 22
+end
+arch marble
+face marble_blgr.111
+x 11
+y 23
+end
+arch flagstone_1_1
+x 11
+y 23
+end
+arch marble
+face marble_blgr.111
+x 11
+y 24
+end
+arch flagstone_2_2_4
+x 11
+y 24
+end
+arch marble
+face marble_blgr.111
+x 12
+end
+arch flagstone_2_1_2
+x 12
+end
+arch marble
+face marble_blgr.111
+x 12
+y 1
+end
+arch whirlwind_exit
+slaying /ElvenLands/Air/windy
+hp 21
+sp 22
+x 12
+y 1
+end
+arch marble
+face marble_blgr.111
+x 12
+y 2
+end
+arch locked_door1
+slaying air
+x 12
+y 2
+end
+arch marble
+face marble_blgr.111
+x 12
+y 3
+end
+arch marble
+face marble_blgr.111
+x 12
+y 4
+end
+arch altar_sorig
+x 12
+y 4
+end
+arch marble
+face marble_blgr.111
+x 12
+y 5
+end
+arch marble
+face marble_blgr.111
+x 12
+y 6
+end
+arch marble
+face marble_blgr.111
+x 12
+y 7
+end
+arch marble
+face marble_blgr.111
+x 12
+y 8
+end
+arch marble
+face marble_blgr.111
+x 12
+y 9
+end
+arch marble
+face marble_blgr.111
+x 12
+y 10
+end
+arch door_2
+x 12
+y 10
+end
+arch marble
+face marble_blgr.111
+x 12
+y 11
+end
+arch marble
+face marble_blgr.111
+x 12
+y 12
+end
+arch marble
+face marble_blgr.111
+x 12
+y 13
+end
+arch marble
+face marble_blgr.111
+x 12
+y 14
+end
+arch marble
+face marble_blgr.111
+x 12
+y 15
+end
+arch marble
+face marble_blgr.111
+x 12
+y 16
+end
+arch marble
+face marble_blgr.111
+x 12
+y 17
+end
+arch marble
+face marble_blgr.111
+x 12
+y 18
+end
+arch marble
+face marble_blgr.111
+x 12
+y 19
+end
+arch marble
+face marble_blgr.111
+x 12
+y 20
+end
+arch marble
+face marble_blgr.111
+x 12
+y 21
+end
+arch marble
+face marble_blgr.111
+x 12
+y 22
+end
+arch marble
+face marble_blgr.111
+x 12
+y 23
+end
+arch invis_exit
+slaying /ElvenLands/Air/temple_1
+hp 24
+sp 27
+x 12
+y 23
+end
+arch marble
+face marble_blgr.111
+x 12
+y 24
+end
+arch marble
+face marble_blgr.111
+x 13
+end
+arch flagstone_3_3
+x 13
+end
+arch marble
+face marble_blgr.111
+x 13
+y 1
+end
+arch flagstone_2_1_1
+x 13
+y 1
+end
+arch marble
+face marble_blgr.111
+x 13
+y 2
+end
+arch flagstone_1_2
+x 13
+y 2
+end
+arch marble
+face marble_blgr.111
+x 13
+y 3
+end
+arch marble
+face marble_blgr.111
+x 13
+y 4
+end
+arch marble
+face marble_blgr.111
+x 13
+y 5
+end
+arch marble
+face marble_blgr.111
+x 13
+y 6
+end
+arch marble
+face marble_blgr.111
+x 13
+y 7
+end
+arch marble
+face marble_blgr.111
+x 13
+y 8
+end
+arch marble
+face marble_blgr.111
+x 13
+y 9
+end
+arch marble
+face marble_blgr.111
+x 13
+y 10
+end
+arch door_2
+x 13
+y 10
+end
+arch marble
+face marble_blgr.111
+x 13
+y 11
+end
+arch marble
+face marble_blgr.111
+x 13
+y 12
+end
+arch marble
+face marble_blgr.111
+x 13
+y 13
+end
+arch marble
+face marble_blgr.111
+x 13
+y 14
+end
+arch marble
+face marble_blgr.111
+x 13
+y 15
+end
+arch marble
+face marble_blgr.111
+x 13
+y 16
+end
+arch marble
+face marble_blgr.111
+x 13
+y 17
+end
+arch marble
+face marble_blgr.111
+x 13
+y 18
+end
+arch marble
+face marble_blgr.111
+x 13
+y 19
+end
+arch marble
+face marble_blgr.111
+x 13
+y 20
+end
+arch marble
+face marble_blgr.111
+x 13
+y 21
+end
+arch marble
+face marble_blgr.111
+x 13
+y 22
+end
+arch marble
+face marble_blgr.111
+x 13
+y 23
+end
+arch flagstone_1_1
+x 13
+y 23
+end
+arch marble
+face marble_blgr.111
+x 13
+y 24
+end
+arch flagstone_2_2_1
+x 13
+y 24
+end
+arch marble
+face marble_blgr.111
+x 14
+end
+arch flagstone_2_1_2
+x 14
+end
+arch marble
+face marble_blgr.111
+x 14
+y 1
+end
+arch marble
+face marble_blgr.111
+x 14
+y 2
+end
+arch marble
+face marble_blgr.111
+x 14
+y 3
+end
+arch marble
+face marble_blgr.111
+x 14
+y 4
+end
+arch marble
+face marble_blgr.111
+x 14
+y 5
+end
+arch marble
+face marble_blgr.111
+x 14
+y 6
+end
+arch marble
+face marble_blgr.111
+x 14
+y 7
+end
+arch marble
+face marble_blgr.111
+x 14
+y 8
+end
+arch marble
+face marble_blgr.111
+x 14
+y 9
+end
+arch marble
+face marble_blgr.111
+x 14
+y 10
+end
+arch flagstone_1_4
+x 14
+y 10
+end
+arch marble
+face marble_blgr.111
+x 14
+y 11
+end
+arch marble
+face marble_blgr.111
+x 14
+y 12
+end
+arch marble
+face marble_blgr.111
+x 14
+y 13
+end
+arch marble
+face marble_blgr.111
+x 14
+y 14
+end
+arch marble
+face marble_blgr.111
+x 14
+y 15
+end
+arch marble
+face marble_blgr.111
+x 14
+y 16
+end
+arch marble
+face marble_blgr.111
+x 14
+y 17
+end
+arch marble
+face marble_blgr.111
+x 14
+y 18
+end
+arch marble
+face marble_blgr.111
+x 14
+y 19
+end
+arch marble
+face marble_blgr.111
+x 14
+y 20
+end
+arch marble
+face marble_blgr.111
+x 14
+y 21
+end
+arch marble
+face marble_blgr.111
+x 14
+y 22
+end
+arch random_wealth
+x 14
+y 22
+end
+arch marble
+face marble_blgr.111
+x 14
+y 23
+end
+arch random_potion
+x 14
+y 23
+end
+arch marble
+face marble_blgr.111
+x 14
+y 24
+end
+arch flagstone_2_1_2
+x 14
+y 24
+end
+arch marble
+face marble_blgr.111
+x 15
+end
+arch flagstone_2_1_2
+x 15
+end
+arch marble
+face marble_blgr.111
+x 15
+y 1
+end
+arch marble
+face marble_blgr.111
+x 15
+y 2
+end
+arch marble
+face marble_blgr.111
+x 15
+y 3
+end
+arch marble
+face marble_blgr.111
+x 15
+y 4
+end
+arch marble
+face marble_blgr.111
+x 15
+y 5
+end
+arch marble
+face marble_blgr.111
+x 15
+y 6
+end
+arch marble
+face marble_blgr.111
+x 15
+y 7
+end
+arch marble
+face marble_blgr.111
+x 15
+y 8
+end
+arch marble
+face marble_blgr.111
+x 15
+y 9
+end
+arch marble
+face marble_blgr.111
+x 15
+y 10
+end
+arch flagstone_2_1_2
+x 15
+y 10
+end
+arch marble
+face marble_blgr.111
+x 15
+y 11
+end
+arch marble
+face marble_blgr.111
+x 15
+y 12
+end
+arch marble
+face marble_blgr.111
+x 15
+y 13
+end
+arch marble
+face marble_blgr.111
+x 15
+y 14
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 15
+y 14
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 15
+y 15
+end
+arch marble
+face marble_blgr.111
+x 15
+y 16
+end
+arch marble
+face marble_blgr.111
+x 15
+y 17
+end
+arch marble
+face marble_blgr.111
+x 15
+y 18
+end
+arch marble
+face marble_blgr.111
+x 15
+y 19
+end
+arch marble
+face marble_blgr.111
+x 15
+y 20
+end
+arch marble
+face marble_blgr.111
+x 15
+y 21
+end
+arch marble
+face marble_blgr.111
+x 15
+y 22
+end
+arch random_wealth
+x 15
+y 22
+end
+arch marble
+face marble_blgr.111
+x 15
+y 23
+end
+arch random_potion
+x 15
+y 23
+end
+arch marble
+face marble_blgr.111
+x 15
+y 24
+end
+arch flagstone_2_1_2
+x 15
+y 24
+end
+arch marble
+face marble_blgr.111
+x 16
+end
+arch flagstone_2_1_2
+x 16
+end
+arch marble
+face marble_blgr.111
+x 16
+y 1
+end
+arch marble
+face marble_blgr.111
+x 16
+y 2
+end
+arch marble
+face marble_blgr.111
+x 16
+y 3
+end
+arch marble
+face marble_blgr.111
+x 16
+y 4
+end
+arch marble
+face marble_blgr.111
+x 16
+y 5
+end
+arch marble
+face marble_blgr.111
+x 16
+y 6
+end
+arch marble
+face marble_blgr.111
+x 16
+y 7
+end
+arch marble
+face marble_blgr.111
+x 16
+y 8
+end
+arch marble
+face marble_blgr.111
+x 16
+y 9
+end
+arch marble
+face marble_blgr.111
+x 16
+y 10
+end
+arch flagstone_2_1_2
+x 16
+y 10
+end
+arch marble
+face marble_blgr.111
+x 16
+y 11
+end
+arch marble
+face marble_blgr.111
+x 16
+y 12
+end
+arch marble
+face marble_blgr.111
+x 16
+y 13
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 16
+y 13
+level 80
+end
+arch marble
+face marble_blgr.111
+x 16
+y 14
+end
+arch marble
+face marble_blgr.111
+x 16
+y 15
+end
+arch marble
+face marble_blgr.111
+x 16
+y 16
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 16
+y 16
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 16
+y 17
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 16
+y 17
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 16
+y 18
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 16
+y 18
+level 80
+end
+arch marble
+face marble_blgr.111
+x 16
+y 19
+end
+arch marble
+face marble_blgr.111
+x 16
+y 20
+end
+arch marble
+face marble_blgr.111
+x 16
+y 21
+end
+arch marble
+face marble_blgr.111
+x 16
+y 22
+end
+arch random_potion
+x 16
+y 22
+end
+arch marble
+face marble_blgr.111
+x 16
+y 23
+end
+arch flagstone_2_2_2
+x 16
+y 23
+end
+arch marble
+face marble_blgr.111
+x 16
+y 24
+end
+arch flagstone_2_2_4
+x 16
+y 24
+end
+arch marble
+face marble_blgr.111
+x 17
+end
+arch flagstone_2_1_2
+x 17
+end
+arch marble
+face marble_blgr.111
+x 17
+y 1
+end
+arch marble
+face marble_blgr.111
+x 17
+y 2
+end
+arch marble
+face marble_blgr.111
+x 17
+y 3
+end
+arch marble
+face marble_blgr.111
+x 17
+y 4
+end
+arch marble
+face marble_blgr.111
+x 17
+y 5
+end
+arch marble
+face marble_blgr.111
+x 17
+y 6
+end
+arch marble
+face marble_blgr.111
+x 17
+y 7
+end
+arch marble
+face marble_blgr.111
+x 17
+y 8
+end
+arch marble
+face marble_blgr.111
+x 17
+y 9
+end
+arch marble
+face marble_blgr.111
+x 17
+y 10
+end
+arch flagstone_2_1_2
+x 17
+y 10
+end
+arch marble
+face marble_blgr.111
+x 17
+y 11
+end
+arch marble
+face marble_blgr.111
+x 17
+y 12
+end
+arch marble
+face marble_blgr.111
+x 17
+y 13
+end
+arch marble
+face marble_blgr.111
+x 17
+y 14
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 17
+y 14
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 17
+y 15
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 17
+y 15
+level 80
+end
+arch marble
+face marble_blgr.111
+x 17
+y 16
+end
+arch marble
+face marble_blgr.111
+x 17
+y 17
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 17
+y 17
+level 80
+end
+arch marble
+face marble_blgr.111
+x 17
+y 18
+end
+arch marble
+face marble_blgr.111
+x 17
+y 19
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 17
+y 19
+level 80
+end
+arch marble
+face marble_blgr.111
+x 17
+y 20
+end
+arch marble
+face marble_blgr.111
+x 17
+y 21
+end
+arch marble
+face marble_blgr.111
+x 17
+y 22
+end
+arch marble
+face marble_blgr.111
+x 17
+y 23
+end
+arch swall_2_1_2
+x 17
+y 23
+end
+arch sea
+x 17
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 17
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 18
+end
+arch flagstone_2_1_2
+x 18
+end
+arch marble
+face marble_blgr.111
+x 18
+y 1
+end
+arch marble
+face marble_blgr.111
+x 18
+y 2
+end
+arch marble
+face marble_blgr.111
+x 18
+y 3
+end
+arch marble
+face marble_blgr.111
+x 18
+y 4
+end
+arch marble
+face marble_blgr.111
+x 18
+y 5
+end
+arch marble
+face marble_blgr.111
+x 18
+y 6
+end
+arch marble
+face marble_blgr.111
+x 18
+y 7
+end
+arch marble
+face marble_blgr.111
+x 18
+y 8
+end
+arch marble
+face marble_blgr.111
+x 18
+y 9
+end
+arch marble
+face marble_blgr.111
+x 18
+y 10
+end
+arch flagstone_2_1_2
+x 18
+y 10
+end
+arch marble
+face marble_blgr.111
+x 18
+y 11
+end
+arch marble
+face marble_blgr.111
+x 18
+y 12
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 18
+y 12
+level 80
+end
+arch marble
+face marble_blgr.111
+x 18
+y 13
+end
+arch marble
+face marble_blgr.111
+x 18
+y 14
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 18
+y 14
+level 80
+end
+arch marble
+face marble_blgr.111
+x 18
+y 15
+end
+arch marble
+face marble_blgr.111
+x 18
+y 16
+end
+arch air_elemental
+name greater air elemental
+hp 9000
+maxhp 9000
+exp 250000
+dam 50
+wc -60
+ac -30
+x 18
+y 16
+level 80
+end
+arch marble
+face marble_blgr.111
+x 18
+y 17
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 18
+y 17
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 18
+y 18
+end
+arch marble
+face marble_blgr.111
+x 18
+y 19
+end
+arch marble
+face marble_blgr.111
+x 18
+y 20
+end
+arch marble
+face marble_blgr.111
+x 18
+y 21
+end
+arch marble
+face marble_blgr.111
+x 18
+y 22
+end
+arch swall_2_2_2
+x 18
+y 22
+end
+arch marble
+face marble_blgr.111
+x 18
+y 23
+end
+arch swall_2_2_4
+x 18
+y 23
+end
+arch sea
+x 18
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 18
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 19
+end
+arch flagstone_2_1_2
+x 19
+end
+arch marble
+face marble_blgr.111
+x 19
+y 1
+end
+arch marble
+face marble_blgr.111
+x 19
+y 2
+end
+arch marble
+face marble_blgr.111
+x 19
+y 3
+end
+arch marble
+face marble_blgr.111
+x 19
+y 4
+end
+arch marble
+face marble_blgr.111
+x 19
+y 5
+end
+arch marble
+face marble_blgr.111
+x 19
+y 6
+end
+arch marble
+face marble_blgr.111
+x 19
+y 7
+end
+arch marble
+face marble_blgr.111
+x 19
+y 8
+end
+arch marble
+face marble_blgr.111
+x 19
+y 9
+end
+arch marble
+face marble_blgr.111
+x 19
+y 10
+end
+arch flagstone_3_3
+x 19
+y 10
+end
+arch marble
+face marble_blgr.111
+x 19
+y 11
+end
+arch swall_2_1_1
+x 19
+y 11
+end
+arch marble
+face marble_blgr.111
+x 19
+y 12
+end
+arch swall_2_2_1
+x 19
+y 12
+end
+arch marble
+face marble_blgr.111
+x 19
+y 13
+end
+arch marble
+face marble_blgr.111
+x 19
+y 14
+end
+arch marble
+face marble_blgr.111
+x 19
+y 15
+end
+arch pixie
+name air sprite
+Pow 80
+hp 5500
+maxhp 4000
+sp 200
+maxsp 200
+exp 250000
+dam 25
+wc -20
+ac -15
+x 19
+y 15
+speed -0.600000
+level 31
+attacktype 2
+resist_physical 30
+resist_magic 80
+resist_electricity 100
+resist_confusion 100
+resist_paralyze 100
+resist_fear 100
+arch ability_maj_heal
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
+arch ability_missile
+end
+end
+arch marble
+face marble_blgr.111
+x 19
+y 16
+end
+arch marble
+face marble_blgr.111
+x 19
+y 17
+end
+arch marble
+face marble_blgr.111
+x 19
+y 18
+end
+arch marble
+face marble_blgr.111
+x 19
+y 19
+end
+arch marble
+face marble_blgr.111
+x 19
+y 20
+end
+arch marble
+face marble_blgr.111
+x 19
+y 21
+end
+arch swall_2_2_2
+x 19
+y 21
+end
+arch marble
+face marble_blgr.111
+x 19
+y 22
+end
+arch swall_2_2_4
+x 19
+y 22
+end
+arch sea
+x 19
+y 23
+end
+arch paralyze
+dam 0
+wc 0
+x 19
+y 23
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 19
+y 24
+end
+arch healing
+name Shining star
+food 0
+x 19
+y 24
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 20
+end
+arch flagstone_2_1_2
+x 20
+end
+arch marble
+face marble_blgr.111
+x 20
+y 1
+end
+arch marble
+face marble_blgr.111
+x 20
+y 2
+end
+arch marble
+face marble_blgr.111
+x 20
+y 3
+end
+arch marble
+face marble_blgr.111
+x 20
+y 4
+end
+arch marble
+face marble_blgr.111
+x 20
+y 5
+end
+arch marble
+face marble_blgr.111
+x 20
+y 6
+end
+arch marble
+face marble_blgr.111
+x 20
+y 7
+end
+arch marble
+face marble_blgr.111
+x 20
+y 8
+end
+arch marble
+face marble_blgr.111
+x 20
+y 9
+end
+arch marble
+face marble_blgr.111
+x 20
+y 10
+end
+arch flagstone_2_1_2
+x 20
+y 10
+end
+arch sea
+x 20
+y 11
+end
+arch paralyze
+dam 0
+wc 0
+x 20
+y 11
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 20
+y 11
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch healing
+name Shining star
+food 0
+x 20
+y 11
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 20
+y 12
+end
+arch swall_2_1_2
+x 20
+y 12
+end
+arch marble
+face marble_blgr.111
+x 20
+y 13
+end
+arch marble
+face marble_blgr.111
+x 20
+y 14
+end
+arch marble
+face marble_blgr.111
+x 20
+y 15
+end
+arch marble
+face marble_blgr.111
+x 20
+y 16
+end
+arch marble
+face marble_blgr.111
+x 20
+y 17
+end
+arch marble
+face marble_blgr.111
+x 20
+y 18
+end
+arch marble
+face marble_blgr.111
+x 20
+y 19
+end
+arch marble
+face marble_blgr.111
+x 20
+y 20
+end
+arch swall_2_2_2
+x 20
+y 20
+end
+arch marble
+face marble_blgr.111
+x 20
+y 21
+end
+arch swall_2_2_4
+x 20
+y 21
+end
+arch sea
+x 20
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 20
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 20
+y 23
+end
+arch healing
+name Shining star
+food 0
+x 20
+y 23
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 20
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 20
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 21
+end
+arch flagstone_2_1_2
+x 21
+end
+arch marble
+face marble_blgr.111
+x 21
+y 1
+end
+arch marble
+face marble_blgr.111
+x 21
+y 2
+end
+arch marble
+face marble_blgr.111
+x 21
+y 3
+end
+arch marble
+face marble_blgr.111
+x 21
+y 4
+end
+arch marble
+face marble_blgr.111
+x 21
+y 5
+end
+arch marble
+face marble_blgr.111
+x 21
+y 6
+end
+arch marble
+face marble_blgr.111
+x 21
+y 7
+end
+arch marble
+face marble_blgr.111
+x 21
+y 8
+end
+arch marble
+face marble_blgr.111
+x 21
+y 9
+end
+arch marble
+face marble_blgr.111
+x 21
+y 10
+end
+arch flagstone_2_1_2
+x 21
+y 10
+end
+arch sea
+x 21
+y 11
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 21
+y 11
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch paralyze
+dam 0
+wc 0
+x 21
+y 11
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 21
+y 11
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 21
+y 12
+end
+arch swall_2_1_2
+x 21
+y 12
+end
+arch marble
+face marble_blgr.111
+x 21
+y 13
+end
+arch marble
+face marble_blgr.111
+x 21
+y 14
+end
+arch marble
+face marble_blgr.111
+x 21
+y 15
+end
+arch marble
+face marble_blgr.111
+x 21
+y 16
+end
+arch marble
+face marble_blgr.111
+x 21
+y 17
+end
+arch marble
+face marble_blgr.111
+x 21
+y 18
+end
+arch marble
+face marble_blgr.111
+x 21
+y 19
+end
+arch swall_2_2_2
+x 21
+y 19
+end
+arch marble
+face marble_blgr.111
+x 21
+y 20
+end
+arch swall_2_2_4
+x 21
+y 20
+end
+arch sea
+x 21
+y 21
+end
+arch paralyze
+dam 0
+wc 0
+x 21
+y 21
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 21
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 21
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 21
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 21
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 21
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 21
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 22
+end
+arch flagstone_2_1_2
+x 22
+end
+arch marble
+face marble_blgr.111
+x 22
+y 1
+end
+arch marble
+face marble_blgr.111
+x 22
+y 2
+end
+arch marble
+face marble_blgr.111
+x 22
+y 3
+end
+arch marble
+face marble_blgr.111
+x 22
+y 4
+end
+arch marble
+face marble_blgr.111
+x 22
+y 5
+end
+arch marble
+face marble_blgr.111
+x 22
+y 6
+end
+arch swall_2_2_2
+x 22
+y 6
+end
+arch marble
+face marble_blgr.111
+x 22
+y 7
+end
+arch swall_2_1_1
+x 22
+y 7
+end
+arch marble
+face marble_blgr.111
+x 22
+y 8
+end
+arch swall_2_1_1
+x 22
+y 8
+end
+arch marble
+face marble_blgr.111
+x 22
+y 9
+end
+arch swall_2_1_1
+x 22
+y 9
+end
+arch marble
+face marble_blgr.111
+x 22
+y 10
+end
+arch flagstone_4
+x 22
+y 10
+end
+arch marble
+face marble_blgr.111
+x 22
+y 11
+end
+arch swall_2_1_1
+x 22
+y 11
+end
+arch marble
+face marble_blgr.111
+x 22
+y 12
+end
+arch swall_2_2_4
+x 22
+y 12
+end
+arch marble
+face marble_blgr.111
+x 22
+y 13
+end
+arch marble
+face marble_blgr.111
+x 22
+y 14
+end
+arch marble
+face marble_blgr.111
+x 22
+y 15
+end
+arch marble
+face marble_blgr.111
+x 22
+y 16
+end
+arch marble
+face marble_blgr.111
+x 22
+y 17
+end
+arch marble
+face marble_blgr.111
+x 22
+y 18
+end
+arch swall_2_2_2
+x 22
+y 18
+end
+arch marble
+face marble_blgr.111
+x 22
+y 19
+end
+arch swall_2_2_4
+x 22
+y 19
+end
+arch sea
+x 22
+y 20
+end
+arch paralyze
+dam 0
+wc 0
+x 22
+y 20
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 22
+y 21
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 22
+y 21
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 22
+y 22
+end
+arch healing
+name Shining star
+food 0
+x 22
+y 22
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 22
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 22
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 22
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 22
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 23
+end
+arch flagstone_2_1_2
+x 23
+end
+arch marble
+face marble_blgr.111
+x 23
+y 1
+end
+arch marble
+face marble_blgr.111
+x 23
+y 2
+end
+arch marble
+face marble_blgr.111
+x 23
+y 3
+end
+arch marble
+face marble_blgr.111
+x 23
+y 4
+end
+arch marble
+face marble_blgr.111
+x 23
+y 5
+end
+arch marble
+face marble_blgr.111
+x 23
+y 6
+end
+arch swall_2_1_2
+x 23
+y 6
+end
+arch sea
+x 23
+y 7
+end
+arch paralyze
+dam 0
+wc 0
+x 23
+y 7
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 23
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 23
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 23
+y 9
+end
+arch paralyze
+dam 0
+wc 0
+x 23
+y 9
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 23
+y 9
+is_used_up 0
+see_anywhere 0
+end
+arch marble
+face marble_blgr.111
+x 23
+y 10
+end
+arch flagstone_2_1_2
+x 23
+y 10
+end
+arch marble
+face marble_blgr.111
+x 23
+y 11
+end
+arch random_potion
+x 23
+y 11
+end
+arch marble
+face marble_blgr.111
+x 23
+y 12
+end
+arch random_talisman
+x 23
+y 12
+end
+arch marble
+face marble_blgr.111
+x 23
+y 13
+end
+arch marble
+face marble_blgr.111
+x 23
+y 14
+end
+arch marble
+face marble_blgr.111
+x 23
+y 15
+end
+arch marble
+face marble_blgr.111
+x 23
+y 16
+end
+arch marble
+face marble_blgr.111
+x 23
+y 17
+end
+arch swall_2_2_2
+x 23
+y 17
+end
+arch marble
+face marble_blgr.111
+x 23
+y 18
+end
+arch swall_2_2_4
+x 23
+y 18
+end
+arch sea
+x 23
+y 19
+end
+arch paralyze
+dam 0
+wc 0
+x 23
+y 19
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 23
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 23
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 23
+y 21
+end
+arch healing
+name Shining star
+food 0
+x 23
+y 21
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 23
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 23
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 23
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 23
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 23
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 23
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 24
+end
+arch flagstone_2_1_2
+x 24
+end
+arch marble
+face marble_blgr.111
+x 24
+y 1
+end
+arch marble
+face marble_blgr.111
+x 24
+y 2
+end
+arch marble
+face marble_blgr.111
+x 24
+y 3
+end
+arch marble
+face marble_blgr.111
+x 24
+y 4
+end
+arch marble
+face marble_blgr.111
+x 24
+y 5
+end
+arch marble
+face marble_blgr.111
+x 24
+y 6
+end
+arch swall_2_1_2
+x 24
+y 6
+end
+arch sea
+x 24
+y 7
+end
+arch paralyze
+dam 0
+wc 0
+x 24
+y 7
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch healing
+name Shining star
+food 0
+x 24
+y 7
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 24
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 24
+y 9
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 9
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 24
+y 10
+end
+arch flagstone_2_1_2
+x 24
+y 10
+end
+arch marble
+face marble_blgr.111
+x 24
+y 11
+end
+arch random_potion
+x 24
+y 11
+end
+arch marble
+face marble_blgr.111
+x 24
+y 12
+end
+arch random_talisman
+x 24
+y 12
+end
+arch marble
+face marble_blgr.111
+x 24
+y 13
+end
+arch marble
+face marble_blgr.111
+x 24
+y 14
+end
+arch marble
+face marble_blgr.111
+x 24
+y 15
+end
+arch marble
+face marble_blgr.111
+x 24
+y 16
+end
+arch marble
+face marble_blgr.111
+x 24
+y 17
+end
+arch swall_2_1_2
+x 24
+y 17
+end
+arch sea
+x 24
+y 18
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 18
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 24
+y 19
+end
+arch healing
+name Shining star
+food 0
+x 24
+y 19
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 24
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 24
+y 21
+end
+arch healing
+name Shining star
+food 0
+x 24
+y 21
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 24
+y 22
+end
+arch paralyze
+dam 0
+wc 0
+x 24
+y 22
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 24
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 24
+y 24
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 24
+y 24
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch marble
+face marble_blgr.111
+x 25
+end
+arch flagstone_2_1_2
+x 25
+end
+arch marble
+face marble_blgr.111
+x 25
+y 1
+end
+arch marble
+face marble_blgr.111
+x 25
+y 2
+end
+arch marble
+face marble_blgr.111
+x 25
+y 3
+end
+arch marble
+face marble_blgr.111
+x 25
+y 4
+end
+arch marble
+face marble_blgr.111
+x 25
+y 5
+end
+arch marble
+face marble_blgr.111
+x 25
+y 6
+end
+arch swall_2_1_2
+x 25
+y 6
+end
+arch sea
+x 25
+y 7
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 7
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 8
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 8
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch healing
+name Shining star
+food 0
+x 25
+y 8
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 25
+y 9
+end
+arch paralyze
+dam 0
+wc 0
+x 25
+y 9
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 25
+y 10
+end
+arch flagstone_2_1_2
+x 25
+y 10
+end
+arch marble
+face marble_blgr.111
+x 25
+y 11
+end
+arch random_talisman
+x 25
+y 11
+end
+arch marble
+face marble_blgr.111
+x 25
+y 12
+end
+arch random_talisman
+x 25
+y 12
+end
+arch marble
+face marble_blgr.111
+x 25
+y 13
+end
+arch random_wealth
+x 25
+y 13
+end
+arch marble
+face marble_blgr.111
+x 25
+y 14
+end
+arch random_wealth
+x 25
+y 14
+end
+arch marble
+face marble_blgr.111
+x 25
+y 15
+end
+arch flagstone_2_2_2
+x 25
+y 15
+end
+arch marble
+face marble_blgr.111
+x 25
+y 16
+end
+arch swall_2_1_1
+x 25
+y 16
+end
+arch marble
+face marble_blgr.111
+x 25
+y 17
+end
+arch swall_2_2_4
+x 25
+y 17
+end
+arch sea
+x 25
+y 18
+end
+arch paralyze
+dam 0
+wc 0
+x 25
+y 18
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 25
+y 19
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 19
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 20
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 20
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 21
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 21
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 25
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 25
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 25
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch marble
+face marble_blgr.111
+x 26
+end
+arch flagstone_2_2_3
+x 26
+end
+arch marble
+face marble_blgr.111
+x 26
+y 1
+end
+arch flagstone_2_1_1
+x 26
+y 1
+end
+arch marble
+face marble_blgr.111
+x 26
+y 2
+end
+arch flagstone_2_1_1
+x 26
+y 2
+end
+arch marble
+face marble_blgr.111
+x 26
+y 3
+end
+arch flagstone_2_1_1
+x 26
+y 3
+end
+arch marble
+face marble_blgr.111
+x 26
+y 4
+end
+arch flagstone_2_1_1
+x 26
+y 4
+end
+arch marble
+face marble_blgr.111
+x 26
+y 5
+end
+arch flagstone_2_1_1
+x 26
+y 5
+end
+arch marble
+face marble_blgr.111
+x 26
+y 6
+end
+arch flagstone_3_4
+x 26
+y 6
+end
+arch marble
+face marble_blgr.111
+x 26
+y 7
+end
+arch flagstone_2_1_1
+x 26
+y 7
+end
+arch marble
+face marble_blgr.111
+x 26
+y 8
+end
+arch flagstone_2_1_1
+x 26
+y 8
+end
+arch marble
+face marble_blgr.111
+x 26
+y 9
+end
+arch flagstone_2_1_1
+x 26
+y 9
+end
+arch marble
+face marble_blgr.111
+x 26
+y 10
+end
+arch flagstone_3_4
+x 26
+y 10
+end
+arch marble
+face marble_blgr.111
+x 26
+y 11
+end
+arch flagstone_2_1_1
+x 26
+y 11
+end
+arch marble
+face marble_blgr.111
+x 26
+y 12
+end
+arch flagstone_2_1_1
+x 26
+y 12
+end
+arch marble
+face marble_blgr.111
+x 26
+y 13
+end
+arch flagstone_2_1_1
+x 26
+y 13
+end
+arch marble
+face marble_blgr.111
+x 26
+y 14
+end
+arch flagstone_2_1_1
+x 26
+y 14
+end
+arch marble
+face marble_blgr.111
+x 26
+y 15
+end
+arch flagstone_2_2_4
+x 26
+y 15
+end
+arch sea
+x 26
+y 16
+end
+arch paralyze
+dam 0
+wc 0
+x 26
+y 16
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 26
+y 17
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 26
+y 17
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 26
+y 18
+end
+arch healing
+name Shining star
+food 0
+x 26
+y 18
+is_used_up 0
+see_anywhere 0
+end
+arch sea
+x 26
+y 19
+end
+arch paralyze
+dam 0
+wc 0
+x 26
+y 19
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 26
+y 20
+end
+arch paralyze
+dam 0
+wc 0
+x 26
+y 20
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 26
+y 21
+end
+arch paralyze
+dam 0
+wc 0
+x 26
+y 21
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch sea
+x 26
+y 22
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 26
+y 22
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 26
+y 23
+end
+arch sunspear
+name Stars
+hp 0
+exp 0
+dam 0
+wc 0
+x 26
+y 23
+type 0
+attacktype 0
+flying 0
+reflecting 0
+end
+arch sea
+x 26
+y 24
+end
+arch paralyze
+dam 0
+wc 0
+x 26
+y 24
+level 0
+type 0
+attacktype 0
+flying 0
+fly_on 0
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 1
+y 1
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 7
+y 14
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 9
+y 12
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch dragonman
+name Ice Dragonpriest
+Int 7
+hp 5500
+maxhp 5500
+maxsp 70
+exp 200000
+dam 20
+x 10
+y 2
+level 25
+attacktype 17
+resist_magic 30
+resist_fire -100
+resist_cold 100
+carrying 100
+unaggressive 1
+arch key2
+slaying air
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 10
+y 17
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch dragonman
+name Blue Dragonpriest
+Int 5
+hp 7000
+maxhp 7000
+maxsp 50
+exp 200000
+dam 40
+wc -12
+ac -15
+x 14
+y 2
+level 30
+resist_magic 30
+carrying 17100
+unaggressive 1
+arch key2
+slaying air
+end
+arch mjoellnir
+name ThunderMallet
+dam 22
+attacktype 264
+path_attuned 8
+material 0
+value 250000
+weight 17000
+magic 2
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 15
+y 12
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 17
+y 11
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 19
+y 17
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -30
+ac -24
+x 24
+y 1
+speed -0.300000
+level 60
+end

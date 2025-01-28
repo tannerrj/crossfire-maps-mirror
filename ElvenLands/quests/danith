@@ -1,0 +1,4275 @@
+arch map
+name danith
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun May 13 15:41:13 2001
+endmsg
+width 25
+height 25
+enter_x 12
+enter_y 22
+end
+arch small_stones
+end
+arch mine10
+end
+arch small_stones
+y 1
+end
+arch mine3
+y 1
+end
+arch small_stones
+y 2
+end
+arch mine3
+y 2
+end
+arch small_stones
+y 3
+end
+arch mine3
+y 3
+end
+arch small_stones
+y 4
+end
+arch mine3
+y 4
+end
+arch small_stones
+y 5
+end
+arch mine3
+y 5
+end
+arch small_stones
+y 6
+end
+arch mine3
+y 6
+end
+arch small_stones
+y 7
+end
+arch mine3
+y 7
+end
+arch small_stones
+y 8
+end
+arch mine3
+y 8
+end
+arch small_stones
+y 9
+end
+arch mine3
+y 9
+end
+arch small_stones
+y 10
+end
+arch mine3
+y 10
+end
+arch small_stones
+y 11
+end
+arch mine11
+y 11
+end
+arch small_stones
+y 12
+end
+arch mine3
+y 12
+end
+arch small_stones
+y 13
+end
+arch mine3
+y 13
+end
+arch small_stones
+y 14
+end
+arch mine11
+y 14
+end
+arch small_stones
+y 15
+end
+arch mine11
+y 15
+end
+arch small_stones
+y 16
+end
+arch mine3
+y 16
+end
+arch small_stones
+y 17
+end
+arch mine3
+y 17
+end
+arch small_stones
+y 18
+end
+arch mine11
+y 18
+end
+arch small_stones
+y 19
+end
+arch mine3
+y 19
+end
+arch small_stones
+y 20
+end
+arch mine3
+y 20
+end
+arch small_stones
+y 21
+end
+arch mine3
+y 21
+end
+arch small_stones
+y 22
+end
+arch mine3
+y 22
+end
+arch small_stones
+y 23
+end
+arch mine3
+y 23
+end
+arch small_stones
+y 24
+end
+arch mine4
+y 24
+end
+arch small_stones
+x 1
+end
+arch mine2
+x 1
+end
+arch small_stones
+x 1
+y 1
+end
+arch wraith
+x 1
+y 1
+end
+arch small_stones
+x 1
+y 2
+end
+arch wraith
+x 1
+y 2
+end
+arch small_stones
+x 1
+y 3
+end
+arch wraith
+x 1
+y 3
+end
+arch small_stones
+x 1
+y 4
+end
+arch wraith
+x 1
+y 4
+end
+arch small_stones
+x 1
+y 5
+end
+arch wraith
+x 1
+y 5
+end
+arch small_stones
+x 1
+y 6
+end
+arch small_stones
+x 1
+y 7
+end
+arch small_stones
+x 1
+y 8
+end
+arch small_stones
+x 1
+y 9
+end
+arch door_2
+x 1
+y 9
+end
+arch small_stones
+x 1
+y 10
+end
+arch grimreaper
+x 1
+y 10
+end
+arch small_stones
+x 1
+y 11
+end
+arch mine2
+x 1
+y 11
+end
+arch small_stones
+x 1
+y 12
+end
+arch ghost
+x 1
+y 12
+end
+arch small_stones
+x 1
+y 13
+end
+arch ghost
+x 1
+y 13
+end
+arch mine2
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch magic_mouth
+msg
+Danith shouts:
+YKHALCRUMALDETH!!!
+endmsg
+connected 1
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch small_stones
+x 1
+y 18
+end
+arch mine2
+x 1
+y 18
+end
+arch small_stones
+x 1
+y 19
+end
+arch generate_skeleton
+x 1
+y 19
+end
+arch small_stones
+x 1
+y 20
+end
+arch generate_skeleton
+x 1
+y 20
+end
+arch small_stones
+x 1
+y 21
+end
+arch generate_skeleton
+x 1
+y 21
+end
+arch small_stones
+x 1
+y 22
+end
+arch generate_skeleton
+x 1
+y 22
+end
+arch small_stones
+x 1
+y 23
+end
+arch generate_skeleton
+x 1
+y 23
+end
+arch small_stones
+x 1
+y 24
+end
+arch mine2
+x 1
+y 24
+end
+arch small_stones
+x 2
+end
+arch mine2
+x 2
+end
+arch small_stones
+x 2
+y 1
+end
+arch wraith
+x 2
+y 1
+end
+arch small_stones
+x 2
+y 2
+end
+arch wraith
+x 2
+y 2
+end
+arch small_stones
+x 2
+y 3
+end
+arch wraith
+x 2
+y 3
+end
+arch small_stones
+x 2
+y 4
+end
+arch wraith
+x 2
+y 4
+end
+arch small_stones
+x 2
+y 5
+end
+arch wraith
+x 2
+y 5
+end
+arch small_stones
+x 2
+y 6
+end
+arch small_stones
+x 2
+y 7
+end
+arch small_stones
+x 2
+y 8
+end
+arch small_stones
+x 2
+y 9
+end
+arch mine6
+x 2
+y 9
+end
+arch small_stones
+x 2
+y 10
+end
+arch small_stones
+x 2
+y 11
+end
+arch mine2
+x 2
+y 11
+end
+arch small_stones
+x 2
+y 12
+end
+arch small_stones
+x 2
+y 13
+end
+arch ghost
+x 2
+y 13
+end
+arch mine2
+x 2
+y 14
+end
+arch blocked
+x 2
+y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch small_stones
+x 2
+y 18
+end
+arch mine2
+x 2
+y 18
+end
+arch small_stones
+x 2
+y 19
+end
+arch skeleton
+x 2
+y 19
+end
+arch small_stones
+x 2
+y 20
+end
+arch wraith
+x 2
+y 20
+end
+arch small_stones
+x 2
+y 21
+end
+arch small_stones
+x 2
+y 22
+end
+arch skeleton
+x 2
+y 22
+end
+arch small_stones
+x 2
+y 23
+end
+arch wraith
+x 2
+y 23
+end
+arch small_stones
+x 2
+y 24
+end
+arch mine2
+x 2
+y 24
+end
+arch small_stones
+x 3
+end
+arch mine2
+x 3
+end
+arch small_stones
+x 3
+y 1
+end
+arch grimreaper
+x 3
+y 1
+end
+arch small_stones
+x 3
+y 2
+end
+arch grimreaper
+x 3
+y 2
+end
+arch small_stones
+x 3
+y 3
+end
+arch grimreaper
+x 3
+y 3
+end
+arch small_stones
+x 3
+y 4
+end
+arch wraith
+x 3
+y 4
+end
+arch small_stones
+x 3
+y 5
+end
+arch wraith
+x 3
+y 5
+end
+arch small_stones
+x 3
+y 6
+end
+arch small_stones
+x 3
+y 7
+end
+arch small_stones
+x 3
+y 8
+end
+arch small_stones
+x 3
+y 9
+end
+arch mine2
+x 3
+y 9
+end
+arch small_stones
+x 3
+y 10
+end
+arch small_stones
+x 3
+y 11
+end
+arch mine2
+x 3
+y 11
+end
+arch small_stones
+x 3
+y 12
+end
+arch ghost
+x 3
+y 12
+end
+arch small_stones
+x 3
+y 13
+end
+arch ghost
+x 3
+y 13
+end
+arch small_stones
+x 3
+y 14
+end
+arch mine9
+x 3
+y 14
+end
+arch mine3
+x 3
+y 15
+end
+arch mine3
+x 3
+y 16
+end
+arch mine3
+x 3
+y 17
+end
+arch small_stones
+x 3
+y 18
+end
+arch mine13
+x 3
+y 18
+end
+arch small_stones
+x 3
+y 19
+end
+arch small_stones
+x 3
+y 20
+end
+arch skeleton
+x 3
+y 20
+end
+arch small_stones
+x 3
+y 21
+end
+arch wraith
+x 3
+y 21
+end
+arch small_stones
+x 3
+y 22
+end
+arch small_stones
+x 3
+y 23
+end
+arch small_stones
+x 3
+y 24
+end
+arch mine2
+x 3
+y 24
+end
+arch small_stones
+x 4
+end
+arch mine2
+x 4
+end
+arch small_stones
+x 4
+y 1
+end
+arch grimreaper
+x 4
+y 1
+end
+arch small_stones
+x 4
+y 2
+end
+arch grimreaper
+x 4
+y 2
+end
+arch small_stones
+x 4
+y 3
+end
+arch grimreaper
+x 4
+y 3
+end
+arch small_stones
+x 4
+y 4
+end
+arch wraith
+x 4
+y 4
+end
+arch small_stones
+x 4
+y 5
+end
+arch wraith
+x 4
+y 5
+end
+arch small_stones
+x 4
+y 6
+end
+arch small_stones
+x 4
+y 7
+end
+arch small_stones
+x 4
+y 8
+end
+arch small_stones
+x 4
+y 9
+end
+arch mine2
+x 4
+y 9
+end
+arch small_stones
+x 4
+y 10
+end
+arch small_stones
+x 4
+y 11
+end
+arch mine2
+x 4
+y 11
+end
+arch small_stones
+x 4
+y 12
+end
+arch ghost
+x 4
+y 12
+end
+arch small_stones
+x 4
+y 13
+end
+arch wraith
+x 4
+y 13
+end
+arch small_stones
+x 4
+y 14
+end
+arch small_stones
+x 4
+y 15
+end
+arch wraith
+x 4
+y 15
+end
+arch small_stones
+x 4
+y 16
+end
+arch wraith
+x 4
+y 16
+end
+arch small_stones
+x 4
+y 17
+end
+arch ghost
+x 4
+y 17
+end
+arch small_stones
+x 4
+y 18
+end
+arch mine2
+x 4
+y 18
+end
+arch small_stones
+x 4
+y 19
+end
+arch wraith
+x 4
+y 19
+end
+arch small_stones
+x 4
+y 20
+end
+arch small_stones
+x 4
+y 21
+end
+arch skeleton
+x 4
+y 21
+end
+arch small_stones
+x 4
+y 22
+end
+arch wraith
+x 4
+y 22
+end
+arch small_stones
+x 4
+y 23
+end
+arch skeleton
+x 4
+y 23
+end
+arch small_stones
+x 4
+y 24
+end
+arch mine2
+x 4
+y 24
+end
+arch small_stones
+x 5
+end
+arch mine2
+x 5
+end
+arch small_stones
+x 5
+y 1
+end
+arch grimreaper
+x 5
+y 1
+end
+arch small_stones
+x 5
+y 2
+end
+arch grimreaper
+x 5
+y 2
+end
+arch small_stones
+x 5
+y 3
+end
+arch grimreaper
+x 5
+y 3
+end
+arch small_stones
+x 5
+y 4
+end
+arch wraith
+x 5
+y 4
+end
+arch small_stones
+x 5
+y 5
+end
+arch wraith
+x 5
+y 5
+end
+arch small_stones
+x 5
+y 6
+end
+arch small_stones
+x 5
+y 7
+end
+arch small_stones
+x 5
+y 8
+end
+arch small_stones
+x 5
+y 9
+end
+arch mine2
+x 5
+y 9
+end
+arch small_stones
+x 5
+y 10
+end
+arch small_stones
+x 5
+y 11
+end
+arch mine2
+x 5
+y 11
+end
+arch small_stones
+x 5
+y 12
+end
+arch ghost
+x 5
+y 12
+end
+arch small_stones
+x 5
+y 13
+end
+arch wraith
+x 5
+y 13
+end
+arch small_stones
+x 5
+y 14
+end
+arch ghost
+x 5
+y 14
+end
+arch small_stones
+x 5
+y 15
+end
+arch wraith
+x 5
+y 15
+end
+arch small_stones
+x 5
+y 16
+end
+arch wraith
+x 5
+y 16
+end
+arch small_stones
+x 5
+y 17
+end
+arch ghost
+x 5
+y 17
+end
+arch small_stones
+x 5
+y 18
+end
+arch mine2
+x 5
+y 18
+end
+arch small_stones
+x 5
+y 19
+end
+arch skeleton
+x 5
+y 19
+end
+arch small_stones
+x 5
+y 20
+end
+arch small_stones
+x 5
+y 21
+end
+arch small_stones
+x 5
+y 22
+end
+arch small_stones
+x 5
+y 23
+end
+arch wraith
+x 5
+y 23
+end
+arch small_stones
+x 5
+y 24
+end
+arch mine2
+x 5
+y 24
+end
+arch small_stones
+x 6
+end
+arch mine2
+x 6
+end
+arch small_stones
+x 6
+y 1
+end
+arch wraith
+x 6
+y 1
+end
+arch small_stones
+x 6
+y 2
+end
+arch wraith
+x 6
+y 2
+end
+arch small_stones
+x 6
+y 3
+end
+arch wraith
+x 6
+y 3
+end
+arch small_stones
+x 6
+y 4
+end
+arch wraith
+x 6
+y 4
+end
+arch small_stones
+x 6
+y 5
+end
+arch wraith
+x 6
+y 5
+end
+arch small_stones
+x 6
+y 6
+end
+arch small_stones
+x 6
+y 7
+end
+arch small_stones
+x 6
+y 8
+end
+arch small_stones
+x 6
+y 9
+end
+arch mine2
+x 6
+y 9
+end
+arch small_stones
+x 6
+y 10
+end
+arch small_stones
+x 6
+y 11
+end
+arch mine2
+x 6
+y 11
+end
+arch small_stones
+x 6
+y 12
+end
+arch ghost
+x 6
+y 12
+end
+arch small_stones
+x 6
+y 13
+end
+arch wraith
+x 6
+y 13
+end
+arch small_stones
+x 6
+y 14
+end
+arch wraith
+x 6
+y 14
+end
+arch small_stones
+x 6
+y 15
+end
+arch wraith
+x 6
+y 15
+end
+arch small_stones
+x 6
+y 16
+end
+arch wraith
+x 6
+y 16
+end
+arch small_stones
+x 6
+y 17
+end
+arch ghost
+x 6
+y 17
+end
+arch small_stones
+x 6
+y 18
+end
+arch mine2
+x 6
+y 18
+end
+arch small_stones
+x 6
+y 19
+end
+arch small_stones
+x 6
+y 20
+end
+arch skeleton
+x 6
+y 20
+end
+arch small_stones
+x 6
+y 21
+end
+arch skeleton
+x 6
+y 21
+end
+arch small_stones
+x 6
+y 22
+end
+arch small_stones
+x 6
+y 23
+end
+arch small_stones
+x 6
+y 24
+end
+arch mine2
+x 6
+y 24
+end
+arch small_stones
+x 7
+end
+arch mine2
+x 7
+end
+arch small_stones
+x 7
+y 1
+end
+arch wraith
+x 7
+y 1
+end
+arch small_stones
+x 7
+y 2
+end
+arch wraith
+x 7
+y 2
+end
+arch small_stones
+x 7
+y 3
+end
+arch wraith
+x 7
+y 3
+end
+arch small_stones
+x 7
+y 4
+end
+arch wraith
+x 7
+y 4
+end
+arch small_stones
+x 7
+y 5
+end
+arch wraith
+x 7
+y 5
+end
+arch small_stones
+x 7
+y 6
+end
+arch small_stones
+x 7
+y 7
+end
+arch small_stones
+x 7
+y 8
+end
+arch small_stones
+x 7
+y 9
+end
+arch mine2
+x 7
+y 9
+end
+arch small_stones
+x 7
+y 10
+end
+arch small_stones
+x 7
+y 11
+end
+arch mine7
+x 7
+y 11
+end
+arch small_stones
+x 7
+y 12
+end
+arch wraith
+x 7
+y 12
+end
+arch small_stones
+x 7
+y 13
+end
+arch ghost
+x 7
+y 13
+end
+arch small_stones
+x 7
+y 14
+end
+arch wraith
+x 7
+y 14
+end
+arch small_stones
+x 7
+y 15
+end
+arch wraith
+x 7
+y 15
+end
+arch small_stones
+x 7
+y 16
+end
+arch wraith
+x 7
+y 16
+end
+arch small_stones
+x 7
+y 17
+end
+arch small_stones
+x 7
+y 18
+end
+arch mine2
+x 7
+y 18
+end
+arch small_stones
+x 7
+y 19
+end
+arch skeleton
+x 7
+y 19
+end
+arch small_stones
+x 7
+y 20
+end
+arch skeleton
+x 7
+y 20
+end
+arch small_stones
+x 7
+y 21
+end
+arch small_stones
+x 7
+y 22
+end
+arch small_stones
+x 7
+y 23
+end
+arch skeleton
+x 7
+y 23
+end
+arch small_stones
+x 7
+y 24
+end
+arch mine2
+x 7
+y 24
+end
+arch small_stones
+x 8
+end
+arch mine16
+x 8
+end
+arch small_stones
+x 8
+y 1
+end
+arch mine3
+x 8
+y 1
+end
+arch small_stones
+x 8
+y 2
+end
+arch mine3
+x 8
+y 2
+end
+arch small_stones
+x 8
+y 3
+end
+arch mine3
+x 8
+y 3
+end
+arch small_stones
+x 8
+y 4
+end
+arch mine3
+x 8
+y 4
+end
+arch small_stones
+x 8
+y 5
+end
+arch mine3
+x 8
+y 5
+end
+arch small_stones
+x 8
+y 6
+end
+arch mine3
+x 8
+y 6
+end
+arch small_stones
+x 8
+y 7
+end
+arch mine3
+x 8
+y 7
+end
+arch small_stones
+x 8
+y 8
+end
+arch mine3
+x 8
+y 8
+end
+arch small_stones
+x 8
+y 9
+end
+arch mine13
+x 8
+y 9
+end
+arch small_stones
+x 8
+y 10
+end
+arch grimreaper
+x 8
+y 10
+end
+arch small_stones
+x 8
+y 11
+end
+arch door_2
+x 8
+y 11
+end
+arch small_stones
+x 8
+y 12
+end
+arch ghost
+x 8
+y 12
+end
+arch small_stones
+x 8
+y 13
+end
+arch ghost
+x 8
+y 13
+end
+arch small_stones
+x 8
+y 14
+end
+arch wraith
+x 8
+y 14
+end
+arch small_stones
+x 8
+y 15
+end
+arch wraith
+x 8
+y 15
+end
+arch small_stones
+x 8
+y 16
+end
+arch wraith
+x 8
+y 16
+end
+arch small_stones
+x 8
+y 17
+end
+arch ghost
+x 8
+y 17
+end
+arch small_stones
+x 8
+y 18
+end
+arch mine2
+x 8
+y 18
+end
+arch small_stones
+x 8
+y 19
+end
+arch small_stones
+x 8
+y 20
+end
+arch small_stones
+x 8
+y 21
+end
+arch skeleton
+x 8
+y 21
+end
+arch small_stones
+x 8
+y 22
+end
+arch skeleton
+x 8
+y 22
+end
+arch small_stones
+x 8
+y 23
+end
+arch skeleton
+x 8
+y 23
+end
+arch small_stones
+x 8
+y 24
+end
+arch mine2
+x 8
+y 24
+end
+arch small_stones
+x 9
+end
+arch mine2
+x 9
+end
+arch small_stones
+x 9
+y 1
+end
+arch wraith
+x 9
+y 1
+end
+arch small_stones
+x 9
+y 2
+end
+arch wraith
+x 9
+y 2
+end
+arch small_stones
+x 9
+y 3
+end
+arch wraith
+x 9
+y 3
+end
+arch small_stones
+x 9
+y 4
+end
+arch wraith
+x 9
+y 4
+end
+arch small_stones
+x 9
+y 5
+end
+arch small_stones
+x 9
+y 6
+end
+arch small_stones
+x 9
+y 7
+end
+arch small_stones
+x 9
+y 8
+end
+arch small_stones
+x 9
+y 9
+end
+arch mine2
+x 9
+y 9
+end
+arch small_stones
+x 9
+y 10
+end
+arch small_stones
+x 9
+y 11
+end
+arch mine6
+x 9
+y 11
+end
+arch small_stones
+x 9
+y 12
+end
+arch ghost
+x 9
+y 12
+end
+arch small_stones
+x 9
+y 13
+end
+arch wraith
+x 9
+y 13
+end
+arch small_stones
+x 9
+y 14
+end
+arch ghost
+x 9
+y 14
+end
+arch small_stones
+x 9
+y 15
+end
+arch wraith
+x 9
+y 15
+end
+arch small_stones
+x 9
+y 16
+end
+arch wraith
+x 9
+y 16
+end
+arch small_stones
+x 9
+y 17
+end
+arch ghost
+x 9
+y 17
+end
+arch small_stones
+x 9
+y 18
+end
+arch mine7
+x 9
+y 18
+end
+arch small_stones
+x 9
+y 19
+end
+arch small_stones
+x 9
+y 20
+end
+arch skeleton
+x 9
+y 20
+end
+arch small_stones
+x 9
+y 21
+end
+arch small_stones
+x 9
+y 22
+end
+arch small_stones
+x 9
+y 23
+end
+arch small_stones
+x 9
+y 24
+end
+arch mine2
+x 9
+y 24
+end
+arch small_stones
+x 10
+end
+arch mine2
+x 10
+end
+arch small_stones
+x 10
+y 1
+end
+arch wraith
+x 10
+y 1
+end
+arch small_stones
+x 10
+y 2
+end
+arch wraith
+x 10
+y 2
+end
+arch small_stones
+x 10
+y 3
+end
+arch wraith
+x 10
+y 3
+end
+arch small_stones
+x 10
+y 4
+end
+arch wraith
+x 10
+y 4
+end
+arch small_stones
+x 10
+y 5
+end
+arch wraith
+x 10
+y 5
+end
+arch small_stones
+x 10
+y 6
+end
+arch small_stones
+x 10
+y 7
+end
+arch small_stones
+x 10
+y 8
+end
+arch grimreaper
+x 10
+y 8
+end
+arch small_stones
+x 10
+y 9
+end
+arch mine2
+x 10
+y 9
+end
+arch small_stones
+x 10
+y 10
+end
+arch small_stones
+x 10
+y 11
+end
+arch mine2
+x 10
+y 11
+end
+arch small_stones
+x 10
+y 12
+end
+arch ghost
+x 10
+y 12
+end
+arch small_stones
+x 10
+y 13
+end
+arch wraith
+x 10
+y 13
+end
+arch small_stones
+x 10
+y 14
+end
+arch ghost
+x 10
+y 14
+end
+arch small_stones
+x 10
+y 15
+end
+arch ghost
+x 10
+y 15
+end
+arch small_stones
+x 10
+y 16
+end
+arch ghost
+x 10
+y 16
+end
+arch small_stones
+x 10
+y 17
+end
+arch ghost
+x 10
+y 17
+end
+arch small_stones
+x 10
+y 18
+end
+arch door_2
+x 10
+y 18
+end
+arch small_stones
+x 10
+y 19
+end
+arch small_stones
+x 10
+y 20
+end
+arch small_stones
+x 10
+y 21
+end
+arch mine6
+x 10
+y 21
+end
+arch small_stones
+x 10
+y 22
+end
+arch door_1
+x 10
+y 22
+end
+arch small_stones
+x 10
+y 23
+end
+arch door_1
+x 10
+y 23
+end
+arch small_stones
+x 10
+y 24
+end
+arch mine2
+x 10
+y 24
+end
+arch small_stones
+x 11
+end
+arch mine2
+x 11
+end
+arch small_stones
+x 11
+y 1
+end
+arch small_stones
+x 11
+y 2
+end
+arch small_stones
+x 11
+y 3
+end
+arch small_stones
+x 11
+y 4
+end
+arch wraith
+x 11
+y 4
+end
+arch small_stones
+x 11
+y 5
+end
+arch wraith
+x 11
+y 5
+end
+arch small_stones
+x 11
+y 6
+end
+arch wraith
+x 11
+y 6
+end
+arch small_stones
+x 11
+y 7
+end
+arch grimreaper
+x 11
+y 7
+end
+arch small_stones
+x 11
+y 8
+end
+arch grimreaper
+x 11
+y 8
+end
+arch small_stones
+x 11
+y 9
+end
+arch mine7
+x 11
+y 9
+end
+arch small_stones
+x 11
+y 10
+end
+arch small_stones
+x 11
+y 11
+end
+arch mine2
+x 11
+y 11
+end
+arch small_stones
+x 11
+y 12
+end
+arch ghost
+x 11
+y 12
+end
+arch small_stones
+x 11
+y 13
+end
+arch ghost
+x 11
+y 13
+end
+arch small_stones
+x 11
+y 14
+end
+arch ghost
+x 11
+y 14
+end
+arch small_stones
+x 11
+y 15
+end
+arch small_stones
+x 11
+y 16
+end
+arch ghost
+x 11
+y 16
+end
+arch small_stones
+x 11
+y 17
+end
+arch ghost
+x 11
+y 17
+end
+arch small_stones
+x 11
+y 18
+end
+arch mine6
+x 11
+y 18
+end
+arch small_stones
+x 11
+y 19
+end
+arch skeleton
+x 11
+y 19
+end
+arch small_stones
+x 11
+y 20
+end
+arch small_stones
+x 11
+y 21
+end
+arch mine2
+x 11
+y 21
+end
+arch small_stones
+x 11
+y 22
+end
+arch small_stones
+x 11
+y 23
+end
+arch small_stones
+x 11
+y 24
+end
+arch mine2
+x 11
+y 24
+end
+arch small_stones
+x 12
+end
+arch mine2
+x 12
+end
+arch small_stones
+x 12
+y 1
+end
+arch wizard
+name Danith
+face wizard.151
+msg
+@match *
+You dare intrude into my lair!
+DIE!!!
+endmsg
+type 0
+Str 0
+Con 6
+Wis 20
+Pow 10
+Int 8
+hp 420
+sp 90
+maxsp 90
+exp 3000
+dam 20
+wc -1
+ac -1
+speed 0.310000
+attack_movement 7
+level 22
+resist_magic 70
+resist_deplete 100
+carrying 15000
+monster 1
+see_invisible 1
+unaggressive 1
+can_cast_spell 1
+x 12
+y 1
+arch robe
+name robe of Danith
+resist_magic 10
+resist_drain 10
+resist_fear 10
+resist_deplete 10
+magic 3
+end
+arch book
+sp 17
+end
+end
+arch small_stones
+x 12
+y 2
+end
+arch small_stones
+x 12
+y 3
+end
+arch small_stones
+x 12
+y 4
+end
+arch wraith
+x 12
+y 4
+end
+arch small_stones
+x 12
+y 5
+end
+arch wraith
+x 12
+y 5
+end
+arch small_stones
+x 12
+y 6
+end
+arch wraith
+x 12
+y 6
+end
+arch small_stones
+x 12
+y 7
+end
+arch grimreaper
+x 12
+y 7
+end
+arch small_stones
+x 12
+y 8
+end
+arch grimreaper
+x 12
+y 8
+end
+arch small_stones
+x 12
+y 9
+end
+arch door_2
+x 12
+y 9
+end
+arch small_stones
+x 12
+y 10
+end
+arch grimreaper
+x 12
+y 10
+end
+arch small_stones
+x 12
+y 11
+end
+arch mine16
+x 12
+y 11
+end
+arch small_stones
+x 12
+y 12
+end
+arch mine3
+x 12
+y 12
+end
+arch small_stones
+x 12
+y 13
+end
+arch mine3
+x 12
+y 13
+end
+arch small_stones
+x 12
+y 14
+end
+arch mine3
+x 12
+y 14
+end
+arch small_stones
+x 12
+y 15
+end
+arch mine3
+x 12
+y 15
+end
+arch small_stones
+x 12
+y 16
+end
+arch mine3
+x 12
+y 16
+end
+arch small_stones
+x 12
+y 17
+end
+arch mine3
+x 12
+y 17
+end
+arch small_stones
+x 12
+y 18
+end
+arch mine17
+x 12
+y 18
+end
+arch small_stones
+x 12
+y 19
+end
+arch mine3
+x 12
+y 19
+end
+arch small_stones
+x 12
+y 20
+end
+arch mine3
+x 12
+y 20
+end
+arch small_stones
+x 12
+y 21
+end
+arch mine13
+x 12
+y 21
+end
+arch small_stones
+x 12
+y 22
+end
+arch stair_up_1
+slaying ../../ElvenLands/Yoer/crypt
+hp 13
+sp 9
+x 12
+y 22
+end
+arch small_stones
+x 12
+y 23
+end
+arch small_stones
+x 12
+y 24
+end
+arch mine2
+x 12
+y 24
+end
+arch small_stones
+x 13
+end
+arch mine2
+x 13
+end
+arch small_stones
+x 13
+y 1
+end
+arch small_stones
+x 13
+y 2
+end
+arch small_stones
+x 13
+y 3
+end
+arch small_stones
+x 13
+y 4
+end
+arch wraith
+x 13
+y 4
+end
+arch small_stones
+x 13
+y 5
+end
+arch wraith
+x 13
+y 5
+end
+arch small_stones
+x 13
+y 6
+end
+arch wraith
+x 13
+y 6
+end
+arch small_stones
+x 13
+y 7
+end
+arch grimreaper
+x 13
+y 7
+end
+arch small_stones
+x 13
+y 8
+end
+arch grimreaper
+x 13
+y 8
+end
+arch small_stones
+x 13
+y 9
+end
+arch mine6
+x 13
+y 9
+end
+arch small_stones
+x 13
+y 10
+end
+arch small_stones
+x 13
+y 11
+end
+arch mine2
+x 13
+y 11
+end
+arch small_stones
+x 13
+y 12
+end
+arch ghost
+x 13
+y 12
+end
+arch small_stones
+x 13
+y 13
+end
+arch small_stones
+x 13
+y 14
+end
+arch ghost
+x 13
+y 14
+end
+arch small_stones
+x 13
+y 15
+end
+arch ghost
+x 13
+y 15
+end
+arch small_stones
+x 13
+y 16
+end
+arch ghost
+x 13
+y 16
+end
+arch small_stones
+x 13
+y 17
+end
+arch small_stones
+x 13
+y 18
+end
+arch mine7
+x 13
+y 18
+end
+arch small_stones
+x 13
+y 19
+end
+arch small_stones
+x 13
+y 20
+end
+arch small_stones
+x 13
+y 21
+end
+arch mine2
+x 13
+y 21
+end
+arch small_stones
+x 13
+y 22
+end
+arch small_stones
+x 13
+y 23
+end
+arch small_stones
+x 13
+y 24
+end
+arch mine2
+x 13
+y 24
+end
+arch small_stones
+x 14
+end
+arch mine2
+x 14
+end
+arch small_stones
+x 14
+y 1
+end
+arch wraith
+x 14
+y 1
+end
+arch small_stones
+x 14
+y 2
+end
+arch wraith
+x 14
+y 2
+end
+arch small_stones
+x 14
+y 3
+end
+arch wraith
+x 14
+y 3
+end
+arch small_stones
+x 14
+y 4
+end
+arch wraith
+x 14
+y 4
+end
+arch small_stones
+x 14
+y 5
+end
+arch wraith
+x 14
+y 5
+end
+arch small_stones
+x 14
+y 6
+end
+arch small_stones
+x 14
+y 7
+end
+arch small_stones
+x 14
+y 8
+end
+arch grimreaper
+x 14
+y 8
+end
+arch small_stones
+x 14
+y 9
+end
+arch mine2
+x 14
+y 9
+end
+arch small_stones
+x 14
+y 10
+end
+arch small_stones
+x 14
+y 11
+end
+arch mine2
+x 14
+y 11
+end
+arch small_stones
+x 14
+y 12
+end
+arch small_stones
+x 14
+y 13
+end
+arch small_stones
+x 14
+y 14
+end
+arch ghost
+x 14
+y 14
+end
+arch small_stones
+x 14
+y 15
+end
+arch wraith
+x 14
+y 15
+end
+arch small_stones
+x 14
+y 16
+end
+arch wraith
+x 14
+y 16
+end
+arch small_stones
+x 14
+y 17
+end
+arch ghost
+x 14
+y 17
+end
+arch small_stones
+x 14
+y 18
+end
+arch door_2
+x 14
+y 18
+end
+arch small_stones
+x 14
+y 19
+end
+arch skeleton
+x 14
+y 19
+end
+arch small_stones
+x 14
+y 20
+end
+arch small_stones
+x 14
+y 21
+end
+arch mine7
+x 14
+y 21
+end
+arch small_stones
+x 14
+y 22
+end
+arch door_1
+x 14
+y 22
+end
+arch small_stones
+x 14
+y 23
+end
+arch door_1
+x 14
+y 23
+end
+arch small_stones
+x 14
+y 24
+end
+arch mine2
+x 14
+y 24
+end
+arch small_stones
+x 15
+end
+arch mine2
+x 15
+end
+arch small_stones
+x 15
+y 1
+end
+arch wraith
+x 15
+y 1
+end
+arch small_stones
+x 15
+y 2
+end
+arch wraith
+x 15
+y 2
+end
+arch small_stones
+x 15
+y 3
+end
+arch wraith
+x 15
+y 3
+end
+arch small_stones
+x 15
+y 4
+end
+arch wraith
+x 15
+y 4
+end
+arch small_stones
+x 15
+y 5
+end
+arch small_stones
+x 15
+y 6
+end
+arch small_stones
+x 15
+y 7
+end
+arch small_stones
+x 15
+y 8
+end
+arch small_stones
+x 15
+y 9
+end
+arch mine2
+x 15
+y 9
+end
+arch small_stones
+x 15
+y 10
+end
+arch small_stones
+x 15
+y 11
+end
+arch mine7
+x 15
+y 11
+end
+arch small_stones
+x 15
+y 12
+end
+arch small_stones
+x 15
+y 13
+end
+arch wraith
+x 15
+y 13
+end
+arch small_stones
+x 15
+y 14
+end
+arch ghost
+x 15
+y 14
+end
+arch small_stones
+x 15
+y 15
+end
+arch ghost
+x 15
+y 15
+end
+arch small_stones
+x 15
+y 16
+end
+arch wraith
+x 15
+y 16
+end
+arch small_stones
+x 15
+y 17
+end
+arch ghost
+x 15
+y 17
+end
+arch small_stones
+x 15
+y 18
+end
+arch mine6
+x 15
+y 18
+end
+arch small_stones
+x 15
+y 19
+end
+arch small_stones
+x 15
+y 20
+end
+arch small_stones
+x 15
+y 21
+end
+arch small_stones
+x 15
+y 22
+end
+arch small_stones
+x 15
+y 23
+end
+arch small_stones
+x 15
+y 24
+end
+arch mine2
+x 15
+y 24
+end
+arch small_stones
+x 16
+end
+arch mine16
+x 16
+end
+arch small_stones
+x 16
+y 1
+end
+arch mine3
+x 16
+y 1
+end
+arch small_stones
+x 16
+y 2
+end
+arch mine3
+x 16
+y 2
+end
+arch small_stones
+x 16
+y 3
+end
+arch mine3
+x 16
+y 3
+end
+arch small_stones
+x 16
+y 4
+end
+arch mine3
+x 16
+y 4
+end
+arch small_stones
+x 16
+y 5
+end
+arch mine3
+x 16
+y 5
+end
+arch small_stones
+x 16
+y 6
+end
+arch mine3
+x 16
+y 6
+end
+arch small_stones
+x 16
+y 7
+end
+arch mine3
+x 16
+y 7
+end
+arch small_stones
+x 16
+y 8
+end
+arch mine3
+x 16
+y 8
+end
+arch small_stones
+x 16
+y 9
+end
+arch mine13
+x 16
+y 9
+end
+arch small_stones
+x 16
+y 10
+end
+arch grimreaper
+x 16
+y 10
+end
+arch small_stones
+x 16
+y 11
+end
+arch door_2
+x 16
+y 11
+end
+arch small_stones
+x 16
+y 12
+end
+arch small_stones
+x 16
+y 13
+end
+arch ghost
+x 16
+y 13
+end
+arch small_stones
+x 16
+y 14
+end
+arch wraith
+x 16
+y 14
+end
+arch small_stones
+x 16
+y 15
+end
+arch ghost
+x 16
+y 15
+end
+arch small_stones
+x 16
+y 16
+end
+arch wraith
+x 16
+y 16
+end
+arch small_stones
+x 16
+y 17
+end
+arch small_stones
+x 16
+y 18
+end
+arch mine2
+x 16
+y 18
+end
+arch small_stones
+x 16
+y 19
+end
+arch skeleton
+x 16
+y 19
+end
+arch small_stones
+x 16
+y 20
+end
+arch small_stones
+x 16
+y 21
+end
+arch skeleton
+x 16
+y 21
+end
+arch small_stones
+x 16
+y 22
+end
+arch skeleton
+x 16
+y 22
+end
+arch small_stones
+x 16
+y 23
+end
+arch small_stones
+x 16
+y 24
+end
+arch mine2
+x 16
+y 24
+end
+arch small_stones
+x 17
+end
+arch mine2
+x 17
+end
+arch small_stones
+x 17
+y 1
+end
+arch wraith
+x 17
+y 1
+end
+arch small_stones
+x 17
+y 2
+end
+arch wraith
+x 17
+y 2
+end
+arch small_stones
+x 17
+y 3
+end
+arch wraith
+x 17
+y 3
+end
+arch small_stones
+x 17
+y 4
+end
+arch wraith
+x 17
+y 4
+end
+arch small_stones
+x 17
+y 5
+end
+arch wraith
+x 17
+y 5
+end
+arch small_stones
+x 17
+y 6
+end
+arch small_stones
+x 17
+y 7
+end
+arch small_stones
+x 17
+y 8
+end
+arch small_stones
+x 17
+y 9
+end
+arch mine2
+x 17
+y 9
+end
+arch small_stones
+x 17
+y 10
+end
+arch small_stones
+x 17
+y 11
+end
+arch mine6
+x 17
+y 11
+end
+arch small_stones
+x 17
+y 12
+end
+arch ghost
+x 17
+y 12
+end
+arch small_stones
+x 17
+y 13
+end
+arch ghost
+x 17
+y 13
+end
+arch small_stones
+x 17
+y 14
+end
+arch wraith
+x 17
+y 14
+end
+arch small_stones
+x 17
+y 15
+end
+arch ghost
+x 17
+y 15
+end
+arch small_stones
+x 17
+y 16
+end
+arch wraith
+x 17
+y 16
+end
+arch small_stones
+x 17
+y 17
+end
+arch small_stones
+x 17
+y 18
+end
+arch mine2
+x 17
+y 18
+end
+arch small_stones
+x 17
+y 19
+end
+arch small_stones
+x 17
+y 20
+end
+arch skeleton
+x 17
+y 20
+end
+arch small_stones
+x 17
+y 21
+end
+arch skeleton
+x 17
+y 21
+end
+arch small_stones
+x 17
+y 22
+end
+arch small_stones
+x 17
+y 23
+end
+arch skeleton
+x 17
+y 23
+end
+arch small_stones
+x 17
+y 24
+end
+arch mine2
+x 17
+y 24
+end
+arch small_stones
+x 18
+end
+arch mine2
+x 18
+end
+arch small_stones
+x 18
+y 1
+end
+arch wraith
+x 18
+y 1
+end
+arch small_stones
+x 18
+y 2
+end
+arch wraith
+x 18
+y 2
+end
+arch small_stones
+x 18
+y 3
+end
+arch wraith
+x 18
+y 3
+end
+arch small_stones
+x 18
+y 4
+end
+arch wraith
+x 18
+y 4
+end
+arch small_stones
+x 18
+y 5
+end
+arch wraith
+x 18
+y 5
+end
+arch small_stones
+x 18
+y 6
+end
+arch small_stones
+x 18
+y 7
+end
+arch small_stones
+x 18
+y 8
+end
+arch small_stones
+x 18
+y 9
+end
+arch mine2
+x 18
+y 9
+end
+arch small_stones
+x 18
+y 10
+end
+arch small_stones
+x 18
+y 11
+end
+arch mine2
+x 18
+y 11
+end
+arch small_stones
+x 18
+y 12
+end
+arch ghost
+x 18
+y 12
+end
+arch small_stones
+x 18
+y 13
+end
+arch ghost
+x 18
+y 13
+end
+arch small_stones
+x 18
+y 14
+end
+arch small_stones
+x 18
+y 15
+end
+arch wraith
+x 18
+y 15
+end
+arch small_stones
+x 18
+y 16
+end
+arch ghost
+x 18
+y 16
+end
+arch small_stones
+x 18
+y 17
+end
+arch small_stones
+x 18
+y 18
+end
+arch mine2
+x 18
+y 18
+end
+arch small_stones
+x 18
+y 19
+end
+arch small_stones
+x 18
+y 20
+end
+arch small_stones
+x 18
+y 21
+end
+arch wraith
+x 18
+y 21
+end
+arch small_stones
+x 18
+y 22
+end
+arch skeleton
+x 18
+y 22
+end
+arch small_stones
+x 18
+y 23
+end
+arch small_stones
+x 18
+y 24
+end
+arch mine2
+x 18
+y 24
+end
+arch small_stones
+x 19
+end
+arch mine2
+x 19
+end
+arch small_stones
+x 19
+y 1
+end
+arch grimreaper
+x 19
+y 1
+end
+arch small_stones
+x 19
+y 2
+end
+arch grimreaper
+x 19
+y 2
+end
+arch small_stones
+x 19
+y 3
+end
+arch grimreaper
+x 19
+y 3
+end
+arch small_stones
+x 19
+y 4
+end
+arch wraith
+x 19
+y 4
+end
+arch small_stones
+x 19
+y 5
+end
+arch wraith
+x 19
+y 5
+end
+arch small_stones
+x 19
+y 6
+end
+arch small_stones
+x 19
+y 7
+end
+arch small_stones
+x 19
+y 8
+end
+arch small_stones
+x 19
+y 9
+end
+arch mine2
+x 19
+y 9
+end
+arch small_stones
+x 19
+y 10
+end
+arch small_stones
+x 19
+y 11
+end
+arch mine2
+x 19
+y 11
+end
+arch small_stones
+x 19
+y 12
+end
+arch ghost
+x 19
+y 12
+end
+arch small_stones
+x 19
+y 13
+end
+arch ghost
+x 19
+y 13
+end
+arch small_stones
+x 19
+y 14
+end
+arch ghost
+x 19
+y 14
+end
+arch small_stones
+x 19
+y 15
+end
+arch wraith
+x 19
+y 15
+end
+arch small_stones
+x 19
+y 16
+end
+arch ghost
+x 19
+y 16
+end
+arch small_stones
+x 19
+y 17
+end
+arch small_stones
+x 19
+y 18
+end
+arch mine2
+x 19
+y 18
+end
+arch small_stones
+x 19
+y 19
+end
+arch small_stones
+x 19
+y 20
+end
+arch small_stones
+x 19
+y 21
+end
+arch skeleton
+x 19
+y 21
+end
+arch small_stones
+x 19
+y 22
+end
+arch small_stones
+x 19
+y 23
+end
+arch small_stones
+x 19
+y 24
+end
+arch mine2
+x 19
+y 24
+end
+arch small_stones
+x 20
+end
+arch mine2
+x 20
+end
+arch small_stones
+x 20
+y 1
+end
+arch grimreaper
+x 20
+y 1
+end
+arch small_stones
+x 20
+y 2
+end
+arch grimreaper
+x 20
+y 2
+end
+arch small_stones
+x 20
+y 3
+end
+arch grimreaper
+x 20
+y 3
+end
+arch small_stones
+x 20
+y 4
+end
+arch wraith
+x 20
+y 4
+end
+arch small_stones
+x 20
+y 5
+end
+arch wraith
+x 20
+y 5
+end
+arch small_stones
+x 20
+y 6
+end
+arch small_stones
+x 20
+y 7
+end
+arch small_stones
+x 20
+y 8
+end
+arch small_stones
+x 20
+y 9
+end
+arch mine2
+x 20
+y 9
+end
+arch small_stones
+x 20
+y 10
+end
+arch small_stones
+x 20
+y 11
+end
+arch mine2
+x 20
+y 11
+end
+arch small_stones
+x 20
+y 12
+end
+arch small_stones
+x 20
+y 13
+end
+arch wraith
+x 20
+y 13
+end
+arch small_stones
+x 20
+y 14
+end
+arch wraith
+x 20
+y 14
+end
+arch small_stones
+x 20
+y 15
+end
+arch wraith
+x 20
+y 15
+end
+arch small_stones
+x 20
+y 16
+end
+arch ghost
+x 20
+y 16
+end
+arch small_stones
+x 20
+y 17
+end
+arch ghost
+x 20
+y 17
+end
+arch small_stones
+x 20
+y 18
+end
+arch mine2
+x 20
+y 18
+end
+arch small_stones
+x 20
+y 19
+end
+arch skeleton
+x 20
+y 19
+end
+arch small_stones
+x 20
+y 20
+end
+arch wraith
+x 20
+y 20
+end
+arch small_stones
+x 20
+y 21
+end
+arch wraith
+x 20
+y 21
+end
+arch small_stones
+x 20
+y 22
+end
+arch small_stones
+x 20
+y 23
+end
+arch wraith
+x 20
+y 23
+end
+arch small_stones
+x 20
+y 24
+end
+arch mine2
+x 20
+y 24
+end
+arch small_stones
+x 21
+end
+arch mine2
+x 21
+end
+arch small_stones
+x 21
+y 1
+end
+arch grimreaper
+x 21
+y 1
+end
+arch small_stones
+x 21
+y 2
+end
+arch grimreaper
+x 21
+y 2
+end
+arch small_stones
+x 21
+y 3
+end
+arch grimreaper
+x 21
+y 3
+end
+arch small_stones
+x 21
+y 4
+end
+arch wraith
+x 21
+y 4
+end
+arch small_stones
+x 21
+y 5
+end
+arch wraith
+x 21
+y 5
+end
+arch small_stones
+x 21
+y 6
+end
+arch small_stones
+x 21
+y 7
+end
+arch small_stones
+x 21
+y 8
+end
+arch small_stones
+x 21
+y 9
+end
+arch mine2
+x 21
+y 9
+end
+arch small_stones
+x 21
+y 10
+end
+arch small_stones
+x 21
+y 11
+end
+arch mine2
+x 21
+y 11
+end
+arch small_stones
+x 21
+y 12
+end
+arch small_stones
+x 21
+y 13
+end
+arch wraith
+x 21
+y 13
+end
+arch mine10
+x 21
+y 14
+end
+arch mine3
+x 21
+y 15
+end
+arch mine3
+x 21
+y 16
+end
+arch mine3
+x 21
+y 17
+end
+arch small_stones
+x 21
+y 18
+end
+arch mine13
+x 21
+y 18
+end
+arch small_stones
+x 21
+y 19
+end
+arch small_stones
+x 21
+y 20
+end
+arch skeleton
+x 21
+y 20
+end
+arch small_stones
+x 21
+y 21
+end
+arch wraith
+x 21
+y 21
+end
+arch small_stones
+x 21
+y 22
+end
+arch skeleton
+x 21
+y 22
+end
+arch small_stones
+x 21
+y 23
+end
+arch small_stones
+x 21
+y 24
+end
+arch mine2
+x 21
+y 24
+end
+arch small_stones
+x 22
+end
+arch mine2
+x 22
+end
+arch small_stones
+x 22
+y 1
+end
+arch wraith
+x 22
+y 1
+end
+arch small_stones
+x 22
+y 2
+end
+arch wraith
+x 22
+y 2
+end
+arch small_stones
+x 22
+y 3
+end
+arch wraith
+x 22
+y 3
+end
+arch small_stones
+x 22
+y 4
+end
+arch wraith
+x 22
+y 4
+end
+arch small_stones
+x 22
+y 5
+end
+arch wraith
+x 22
+y 5
+end
+arch small_stones
+x 22
+y 6
+end
+arch small_stones
+x 22
+y 7
+end
+arch small_stones
+x 22
+y 8
+end
+arch small_stones
+x 22
+y 9
+end
+arch mine7
+x 22
+y 9
+end
+arch small_stones
+x 22
+y 10
+end
+arch small_stones
+x 22
+y 11
+end
+arch mine2
+x 22
+y 11
+end
+arch small_stones
+x 22
+y 12
+end
+arch ghost
+x 22
+y 12
+end
+arch small_stones
+x 22
+y 13
+end
+arch ghost
+x 22
+y 13
+end
+arch mine2
+x 22
+y 14
+end
+arch blocked
+x 22
+y 15
+end
+arch blocked
+x 22
+y 16
+end
+arch blocked
+x 22
+y 17
+end
+arch small_stones
+x 22
+y 18
+end
+arch mine2
+x 22
+y 18
+end
+arch small_stones
+x 22
+y 19
+end
+arch wraith
+x 22
+y 19
+end
+arch small_stones
+x 22
+y 20
+end
+arch small_stones
+x 22
+y 21
+end
+arch small_stones
+x 22
+y 22
+end
+arch small_stones
+x 22
+y 23
+end
+arch wraith
+x 22
+y 23
+end
+arch small_stones
+x 22
+y 24
+end
+arch mine2
+x 22
+y 24
+end
+arch small_stones
+x 23
+end
+arch mine2
+x 23
+end
+arch small_stones
+x 23
+y 1
+end
+arch wraith
+x 23
+y 1
+end
+arch small_stones
+x 23
+y 2
+end
+arch wraith
+x 23
+y 2
+end
+arch small_stones
+x 23
+y 3
+end
+arch wraith
+x 23
+y 3
+end
+arch small_stones
+x 23
+y 4
+end
+arch wraith
+x 23
+y 4
+end
+arch small_stones
+x 23
+y 5
+end
+arch wraith
+x 23
+y 5
+end
+arch small_stones
+x 23
+y 6
+end
+arch small_stones
+x 23
+y 7
+end
+arch small_stones
+x 23
+y 8
+end
+arch small_stones
+x 23
+y 9
+end
+arch door_2
+x 23
+y 9
+end
+arch small_stones
+x 23
+y 10
+end
+arch grimreaper
+x 23
+y 10
+end
+arch small_stones
+x 23
+y 11
+end
+arch mine2
+x 23
+y 11
+end
+arch small_stones
+x 23
+y 12
+end
+arch small_stones
+x 23
+y 13
+end
+arch ghost
+x 23
+y 13
+end
+arch mine2
+x 23
+y 14
+end
+arch blocked
+x 23
+y 15
+end
+arch magic_mouth
+msg
+Danith says:
+YOU DARE INTRUDE INTO MY LAIR!!!
+DIE!!!
+endmsg
+connected 1
+x 23
+y 16
+end
+arch blocked
+x 23
+y 17
+end
+arch small_stones
+x 23
+y 18
+end
+arch mine2
+x 23
+y 18
+end
+arch small_stones
+x 23
+y 19
+end
+arch generate_skeleton
+x 23
+y 19
+end
+arch small_stones
+x 23
+y 20
+end
+arch generate_skeleton
+x 23
+y 20
+end
+arch small_stones
+x 23
+y 21
+end
+arch generate_skeleton
+x 23
+y 21
+end
+arch small_stones
+x 23
+y 22
+end
+arch generate_skeleton
+x 23
+y 22
+end
+arch small_stones
+x 23
+y 23
+end
+arch generate_skeleton
+x 23
+y 23
+end
+arch small_stones
+x 23
+y 24
+end
+arch mine2
+x 23
+y 24
+end
+arch small_stones
+x 24
+end
+arch mine9
+x 24
+end
+arch small_stones
+x 24
+y 1
+end
+arch mine3
+x 24
+y 1
+end
+arch small_stones
+x 24
+y 2
+end
+arch mine3
+x 24
+y 2
+end
+arch small_stones
+x 24
+y 3
+end
+arch mine3
+x 24
+y 3
+end
+arch small_stones
+x 24
+y 4
+end
+arch mine3
+x 24
+y 4
+end
+arch small_stones
+x 24
+y 5
+end
+arch mine3
+x 24
+y 5
+end
+arch small_stones
+x 24
+y 6
+end
+arch mine3
+x 24
+y 6
+end
+arch small_stones
+x 24
+y 7
+end
+arch mine3
+x 24
+y 7
+end
+arch small_stones
+x 24
+y 8
+end
+arch mine3
+x 24
+y 8
+end
+arch small_stones
+x 24
+y 9
+end
+arch mine3
+x 24
+y 9
+end
+arch small_stones
+x 24
+y 10
+end
+arch mine3
+x 24
+y 10
+end
+arch small_stones
+x 24
+y 11
+end
+arch mine14
+x 24
+y 11
+end
+arch small_stones
+x 24
+y 12
+end
+arch mine3
+x 24
+y 12
+end
+arch small_stones
+x 24
+y 13
+end
+arch mine3
+x 24
+y 13
+end
+arch small_stones
+x 24
+y 14
+end
+arch mine14
+x 24
+y 14
+end
+arch small_stones
+x 24
+y 15
+end
+arch mine14
+x 24
+y 15
+end
+arch small_stones
+x 24
+y 16
+end
+arch mine3
+x 24
+y 16
+end
+arch small_stones
+x 24
+y 17
+end
+arch mine3
+x 24
+y 17
+end
+arch small_stones
+x 24
+y 18
+end
+arch mine14
+x 24
+y 18
+end
+arch small_stones
+x 24
+y 19
+end
+arch mine3
+x 24
+y 19
+end
+arch small_stones
+x 24
+y 20
+end
+arch mine3
+x 24
+y 20
+end
+arch small_stones
+x 24
+y 21
+end
+arch mine3
+x 24
+y 21
+end
+arch small_stones
+x 24
+y 22
+end
+arch mine3
+x 24
+y 22
+end
+arch small_stones
+x 24
+y 23
+end
+arch mine3
+x 24
+y 23
+end
+arch small_stones
+x 24
+y 24
+end
+arch mine12
+x 24
+y 24
+end

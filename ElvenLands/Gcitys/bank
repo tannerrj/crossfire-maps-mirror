@@ -1,0 +1,360 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Nov 20 15:13:41 1999
+endmsg
+width 7
+height 7
+end
+arch flagstone
+end
+arch stwall_2_2_2
+end
+arch flagstone
+y 1
+end
+arch stwall_2_1_1
+y 1
+end
+arch flagstone
+y 2
+end
+arch stwall_2_1_1
+y 2
+end
+arch flagstone
+y 3
+end
+arch stwall_2_1_1
+y 3
+end
+arch flagstone
+y 4
+end
+arch stwall_2_1_1
+y 4
+end
+arch flagstone
+y 5
+end
+arch stwall_2_1_1
+y 5
+end
+arch flagstone
+y 6
+end
+arch stwall_2_2_1
+y 6
+end
+arch flagstone
+x 1
+end
+arch stwall_2_1_2
+x 1
+end
+arch flagstone
+x 1
+y 1
+end
+arch goldcoin
+x 1
+y 1
+end
+arch flagstone
+x 1
+y 2
+end
+arch hugenugget
+x 1
+y 2
+end
+arch flagstone
+x 1
+y 3
+end
+arch swall_1_4
+x 1
+y 3
+end
+arch flagstone
+x 1
+y 4
+end
+arch gold_converter
+x 1
+y 4
+end
+arch flagstone
+x 1
+y 5
+end
+arch flagstone
+x 1
+y 6
+end
+arch stwall_2_1_2
+x 1
+y 6
+end
+arch flagstone
+x 2
+end
+arch stwall_2_1_2
+x 2
+end
+arch flagstone
+x 2
+y 1
+end
+arch mithril
+x 2
+y 1
+end
+arch flagstone
+x 2
+y 2
+end
+arch emerald
+x 2
+y 2
+end
+arch flagstone
+x 2
+y 3
+end
+arch swall_2_1_2
+x 2
+y 3
+end
+arch flagstone
+x 2
+y 4
+end
+arch platinum_converter
+x 2
+y 4
+end
+arch flagstone
+x 2
+y 5
+end
+arch a_guard_h
+x 2
+y 5
+end
+arch flagstone
+x 2
+y 6
+end
+arch stwall_1_3
+x 2
+y 6
+end
+arch flagstone
+x 3
+end
+arch stwall_2_1_2
+x 3
+end
+arch flagstone
+x 3
+y 1
+end
+arch gem
+x 3
+y 1
+end
+arch flagstone
+x 3
+y 2
+end
+arch ruby
+x 3
+y 2
+end
+arch flagstone
+x 3
+y 3
+end
+arch swall_2_1_2
+x 3
+y 3
+end
+arch flagstone
+x 3
+y 4
+end
+arch flagstone
+x 3
+y 5
+end
+arch flagstone
+x 3
+y 6
+end
+arch invis_exit
+slaying /ElvenLands/Gcitys/city1
+hp 19
+sp 18
+x 3
+y 6
+end
+arch flagstone
+x 4
+end
+arch stwall_2_1_2
+x 4
+end
+arch flagstone
+x 4
+y 1
+end
+arch silvercoin
+x 4
+y 1
+end
+arch flagstone
+x 4
+y 2
+end
+arch sapphire
+x 4
+y 2
+end
+arch flagstone
+x 4
+y 3
+end
+arch swall_2_1_2
+x 4
+y 3
+end
+arch flagstone
+x 4
+y 4
+end
+arch diamond_converter
+x 4
+y 4
+end
+arch flagstone
+x 4
+y 5
+end
+arch a_guard_h
+x 4
+y 5
+end
+arch flagstone
+x 4
+y 6
+end
+arch stwall_1_4
+x 4
+y 6
+end
+arch flagstone
+x 5
+end
+arch stwall_2_1_2
+x 5
+end
+arch flagstone
+x 5
+y 1
+end
+arch platinacoin
+x 5
+y 1
+end
+arch flagstone
+x 5
+y 2
+end
+arch pearl
+x 5
+y 2
+end
+arch flagstone
+x 5
+y 3
+end
+arch swall_1_3
+x 5
+y 3
+end
+arch flagstone
+x 5
+y 4
+end
+arch silver_converter
+x 5
+y 4
+end
+arch flagstone
+x 5
+y 5
+end
+arch flagstone
+x 5
+y 6
+end
+arch stwall_2_1_2
+x 5
+y 6
+end
+arch flagstone
+x 6
+end
+arch stwall_2_2_3
+x 6
+end
+arch flagstone
+x 6
+y 1
+end
+arch stwall_2_1_1
+x 6
+y 1
+end
+arch flagstone
+x 6
+y 2
+end
+arch stwall_2_1_1
+x 6
+y 2
+end
+arch flagstone
+x 6
+y 3
+end
+arch stwall_2_1_1
+x 6
+y 3
+end
+arch flagstone
+x 6
+y 4
+end
+arch stwall_2_1_1
+x 6
+y 4
+end
+arch flagstone
+x 6
+y 5
+end
+arch stwall_2_1_1
+x 6
+y 5
+end
+arch flagstone
+x 6
+y 6
+end
+arch stwall_2_2_4
+x 6
+y 6
+end

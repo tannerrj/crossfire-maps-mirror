@@ -1,0 +1,1250 @@
+arch map
+msg
+Creator: Gnat the Gnu
+Email: gnu@foo.bar
+Date: Mon Feb 26 20:21:47 2001
+endmsg
+height 12
+width 16
+end
+arch woodfloor2
+end
+arch woodwall_2_2_2
+end
+arch woodfloor2
+y 1
+end
+arch woodwall_2_1_1
+y 1
+end
+arch woodfloor2
+y 2
+end
+arch woodwall_2_1_1
+y 2
+end
+arch woodfloor2
+y 3
+end
+arch woodwall_1_2
+y 3
+end
+arch woodfloor2
+y 4
+end
+arch invis_exit
+slaying /ElvenLands/WhiteTiger/Orphanage/eating quarters
+hp 14
+sp 4
+y 4
+end
+arch grate_open_2
+y 4
+end
+arch woodfloor2
+y 5
+end
+arch invis_exit
+slaying /ElvenLands/WhiteTiger/Orphanage/eating quarters
+hp 14
+sp 5
+y 5
+end
+arch grate_open_2
+y 5
+end
+arch woodfloor2
+y 6
+end
+arch invis_exit
+slaying /ElvenLands/WhiteTiger/Orphanage/eating quarters
+hp 14
+sp 6
+y 6
+end
+arch grate_open_2
+y 6
+end
+arch woodfloor2
+y 7
+end
+arch invis_exit
+slaying /ElvenLands/WhiteTiger/Orphanage/eating quarters
+hp 14
+sp 6
+y 7
+end
+arch grate_open_2
+y 7
+end
+arch woodfloor2
+y 8
+end
+arch woodwall_1_1
+y 8
+end
+arch woodfloor2
+y 9
+end
+arch woodwall_2_1_1
+y 9
+end
+arch woodfloor2
+y 10
+end
+arch woodwall_2_1_1
+y 10
+end
+arch woodfloor2
+y 11
+end
+arch woodwall_2_2_1
+y 11
+end
+arch woodfloor2
+x 1
+end
+arch woodwall_2_1_2
+x 1
+end
+arch woodfloor2
+x 1
+y 1
+end
+arch table
+x 1
+y 1
+end
+arch book_clasp
+name book with a latch on it
+msg
+DEAR DIARY,
+My best friend Tommy got adopted. I am
+very happy for him and hope I will see
+him again soon
+endmsg
+x 1
+y 1
+end
+arch woodfloor2
+x 1
+y 2
+end
+arch woodfloor2
+x 1
+y 3
+end
+arch woodfloor2
+x 1
+y 4
+end
+arch woodfloor2
+x 1
+y 5
+end
+arch woodfloor2
+x 1
+y 6
+end
+arch woodfloor2
+x 1
+y 7
+end
+arch woodfloor2
+x 1
+y 8
+end
+arch woodfloor2
+x 1
+y 9
+end
+arch woodfloor2
+x 1
+y 10
+end
+arch table
+x 1
+y 10
+end
+arch woodfloor2
+x 1
+y 11
+end
+arch woodwall_2_1_2
+x 1
+y 11
+end
+arch woodfloor2
+x 2
+end
+arch woodwall_2_1_2
+x 2
+end
+arch woodfloor2
+x 2
+y 1
+end
+arch bed_1
+x 2
+y 1
+end
+arch child
+name Tolus
+msg
+@match hi|hello
+(sniff) Yes?
+@match Tommy
+He was my best friend.But now he's
+adopted and I don't think I'll see him
+again.
+endmsg
+x 2
+y 1
+end
+arch woodfloor2
+x 2
+y 2
+end
+arch woodfloor2
+x 2
+y 3
+end
+arch woodfloor2
+x 2
+y 4
+end
+arch chair_1.3
+x 2
+y 4
+end
+arch woodfloor2
+x 2
+y 5
+end
+arch woodwall_1_4
+x 2
+y 5
+end
+arch woodfloor2
+x 2
+y 6
+end
+arch woodfloor2
+x 2
+y 7
+end
+arch woodfloor2
+x 2
+y 8
+end
+arch woodfloor2
+x 2
+y 9
+end
+arch woodfloor2
+x 2
+y 10
+end
+arch bed_1
+x 2
+y 10
+end
+arch woodfloor2
+x 2
+y 11
+end
+arch woodwall_2_1_2
+x 2
+y 11
+end
+arch woodfloor2
+x 3
+end
+arch woodwall_2_1_2
+x 3
+end
+arch woodfloor2
+x 3
+y 1
+end
+arch table
+x 3
+y 1
+end
+arch woodfloor2
+x 3
+y 2
+end
+arch woodfloor2
+x 3
+y 3
+end
+arch woodfloor2
+x 3
+y 4
+end
+arch woodfloor2
+x 3
+y 5
+end
+arch woodwall_2_1_2
+x 3
+y 5
+end
+arch woodfloor2
+x 3
+y 6
+end
+arch woodfloor2
+x 3
+y 7
+end
+arch woodfloor2
+x 3
+y 8
+end
+arch woodfloor2
+x 3
+y 9
+end
+arch woodfloor2
+x 3
+y 10
+end
+arch table
+x 3
+y 10
+end
+arch woodfloor2
+x 3
+y 11
+end
+arch woodwall_2_1_2
+x 3
+y 11
+end
+arch woodfloor2
+x 4
+end
+arch woodwall_2_1_2
+x 4
+end
+arch woodfloor2
+x 4
+y 1
+end
+arch bed_1
+x 4
+y 1
+end
+arch woodfloor2
+x 4
+y 2
+end
+arch woodfloor2
+x 4
+y 3
+end
+arch woodfloor2
+x 4
+y 4
+end
+arch chair_1.3
+x 4
+y 4
+end
+arch woodfloor2
+x 4
+y 5
+end
+arch woodwall_2_1_2
+x 4
+y 5
+end
+arch woodfloor2
+x 4
+y 6
+end
+arch woodfloor2
+x 4
+y 7
+end
+arch woodfloor2
+x 4
+y 8
+end
+arch woodfloor2
+x 4
+y 9
+end
+arch woodfloor2
+x 4
+y 10
+end
+arch bed_1
+x 4
+y 10
+end
+arch woodfloor2
+x 4
+y 11
+end
+arch woodwall_2_1_2
+x 4
+y 11
+end
+arch woodfloor2
+x 5
+end
+arch woodwall_2_1_2
+x 5
+end
+arch woodfloor2
+x 5
+y 1
+end
+arch table
+x 5
+y 1
+end
+arch woodfloor2
+x 5
+y 2
+end
+arch woodfloor2
+x 5
+y 3
+end
+arch child
+name Donson
+hp 10000
+x 5
+y 3
+end
+arch woodfloor2
+x 5
+y 4
+end
+arch woodfloor2
+x 5
+y 5
+end
+arch woodwall_2_1_2
+x 5
+y 5
+end
+arch woodfloor2
+x 5
+y 6
+end
+arch woodfloor2
+x 5
+y 7
+end
+arch woodfloor2
+x 5
+y 8
+end
+arch woodfloor2
+x 5
+y 9
+end
+arch woodfloor2
+x 5
+y 10
+end
+arch table
+x 5
+y 10
+end
+arch woodfloor2
+x 5
+y 11
+end
+arch woodwall_2_1_2
+x 5
+y 11
+end
+arch woodfloor2
+x 6
+end
+arch woodwall_2_1_2
+x 6
+end
+arch woodfloor2
+x 6
+y 1
+end
+arch bed_1
+x 6
+y 1
+end
+arch woodfloor2
+x 6
+y 2
+end
+arch woodfloor2
+x 6
+y 3
+end
+arch woodfloor2
+x 6
+y 4
+end
+arch chair_1.3
+x 6
+y 4
+end
+arch woodfloor2
+x 6
+y 5
+end
+arch woodwall_2_1_2
+x 6
+y 5
+end
+arch woodfloor2
+x 6
+y 6
+end
+arch woodfloor2
+x 6
+y 7
+end
+arch woodfloor2
+x 6
+y 8
+end
+arch woodfloor2
+x 6
+y 9
+end
+arch woodfloor2
+x 6
+y 10
+end
+arch bed_1
+x 6
+y 10
+end
+arch woodfloor2
+x 6
+y 11
+end
+arch woodwall_2_1_2
+x 6
+y 11
+end
+arch woodfloor2
+x 7
+end
+arch woodwall_2_1_2
+x 7
+end
+arch woodfloor2
+x 7
+y 1
+end
+arch table
+x 7
+y 1
+end
+arch woodfloor2
+x 7
+y 2
+end
+arch woodfloor2
+x 7
+y 3
+end
+arch woodfloor2
+x 7
+y 4
+end
+arch woodfloor2
+x 7
+y 5
+end
+arch woodwall_2_1_2
+x 7
+y 5
+end
+arch woodfloor2
+x 7
+y 6
+end
+arch woodfloor2
+x 7
+y 7
+end
+arch woodfloor2
+x 7
+y 8
+end
+arch child
+name Bobby
+msg
+@match hi|hello
+Hi! Nice to meet you.
+endmsg
+hp 10000
+x 7
+y 8
+end
+arch woodfloor2
+x 7
+y 9
+end
+arch woodfloor2
+x 7
+y 10
+end
+arch table
+x 7
+y 10
+end
+arch woodfloor2
+x 7
+y 11
+end
+arch woodwall_2_1_2
+x 7
+y 11
+end
+arch woodfloor2
+x 8
+end
+arch woodwall_2_1_2
+x 8
+end
+arch woodfloor2
+x 8
+y 1
+end
+arch bed_1
+x 8
+y 1
+end
+arch woodfloor2
+x 8
+y 2
+end
+arch child
+name Jeret
+msg
+@match hi|hello
+Hi!! How are you? I'm fine!! I LIKE IT
+HERE A LOT!!! I know just about anything
+about everybody here,except for some
+girls in the left wing.Ask me about
+anybody!!
+@match Toby
+He lived pretty much by himself,before
+he came here.Toby worked for some
+pretty mean people.He had a lot of
+friends,and they used to go on
+adventures together.He said it was a
+lot of fun.Toby likes it here because he
+does not have so many problems to deal
+with,but he does not like it here
+because it's not exciting to him.
+@match Jack
+Jack is the smallest of us boys here,an'
+he gets his way by being cute.His
+parents died in the Elven Wars.Jack does
+not like to talk about very much,so you
+won't get much out of him.
+@match Bobby 
+ 
+Bobby does not talk much,so I don't
+know much about him.He kind of shy.Nice
+though...
+@match Tolus
+Tolus is an honest to goodness black
+elf. Well, at least that is what the
+other boys say when he does not agree
+with them.Tolus has been sulking
+because his friend doesn't live here
+anymore.He came here when he was seven
+endmsg
+hp 9000
+x 8
+y 2
+end
+arch woodfloor2
+x 8
+y 3
+end
+arch woodfloor2
+x 8
+y 4
+end
+arch chair_1.3
+x 8
+y 4
+end
+arch woodfloor2
+x 8
+y 5
+end
+arch woodwall_2_1_2
+x 8
+y 5
+end
+arch woodfloor2
+x 8
+y 6
+end
+arch woodfloor2
+x 8
+y 7
+end
+arch woodfloor2
+x 8
+y 8
+end
+arch woodfloor2
+x 8
+y 9
+end
+arch woodfloor2
+x 8
+y 10
+end
+arch bed_1
+x 8
+y 10
+end
+arch woodfloor2
+x 8
+y 11
+end
+arch woodwall_2_1_2
+x 8
+y 11
+end
+arch woodfloor2
+x 9
+end
+arch woodwall_2_1_2
+x 9
+end
+arch woodfloor2
+x 9
+y 1
+end
+arch table
+x 9
+y 1
+end
+arch woodfloor2
+x 9
+y 2
+end
+arch woodfloor2
+x 9
+y 3
+end
+arch woodfloor2
+x 9
+y 4
+end
+arch woodfloor2
+x 9
+y 5
+end
+arch woodwall_2_1_2
+x 9
+y 5
+end
+arch woodfloor2
+x 9
+y 6
+end
+arch woodfloor2
+x 9
+y 7
+end
+arch child
+name Jack
+msg
+@match hi|hello
+ 
+HI! PLLLEEEAAASSEEEEEE ADOPT ME!!
+@match Elven Wars|elven wars
+Bad Black Elves killed my parents!!
+endmsg
+hp 10000
+x 9
+y 7
+end
+arch woodfloor2
+x 9
+y 8
+end
+arch woodfloor2
+x 9
+y 9
+end
+arch woodfloor2
+x 9
+y 10
+end
+arch table
+x 9
+y 10
+end
+arch woodfloor2
+x 9
+y 11
+end
+arch woodwall_2_1_2
+x 9
+y 11
+end
+arch woodfloor2
+x 10
+end
+arch woodwall_2_1_2
+x 10
+end
+arch woodfloor2
+x 10
+y 1
+end
+arch bed_1
+x 10
+y 1
+end
+arch woodfloor2
+x 10
+y 2
+end
+arch woodfloor2
+x 10
+y 3
+end
+arch woodfloor2
+x 10
+y 4
+end
+arch chair_1.3
+x 10
+y 4
+end
+arch woodfloor2
+x 10
+y 5
+end
+arch woodwall_2_1_2
+x 10
+y 5
+end
+arch woodfloor2
+x 10
+y 6
+end
+arch woodfloor2
+x 10
+y 7
+end
+arch woodfloor2
+x 10
+y 8
+end
+arch woodfloor2
+x 10
+y 9
+end
+arch woodfloor2
+x 10
+y 10
+end
+arch bed_1
+x 10
+y 10
+end
+arch woodfloor2
+x 10
+y 11
+end
+arch woodwall_2_1_2
+x 10
+y 11
+end
+arch woodfloor2
+x 11
+end
+arch woodwall_2_1_2
+x 11
+end
+arch woodfloor2
+x 11
+y 1
+end
+arch table
+x 11
+y 1
+end
+arch woodfloor2
+x 11
+y 2
+end
+arch woodfloor2
+x 11
+y 3
+end
+arch woodfloor2
+x 11
+y 4
+end
+arch woodfloor2
+x 11
+y 5
+end
+arch woodwall_2_1_2
+x 11
+y 5
+end
+arch woodfloor2
+x 11
+y 6
+end
+arch woodfloor2
+x 11
+y 7
+end
+arch woodfloor2
+x 11
+y 8
+end
+arch woodfloor2
+x 11
+y 9
+end
+arch woodfloor2
+x 11
+y 10
+end
+arch table
+x 11
+y 10
+end
+arch woodfloor2
+x 11
+y 11
+end
+arch woodwall_2_1_2
+x 11
+y 11
+end
+arch woodfloor2
+x 12
+end
+arch woodwall_2_1_2
+x 12
+end
+arch woodfloor2
+x 12
+y 1
+end
+arch bed_1
+x 12
+y 1
+end
+arch woodfloor2
+x 12
+y 2
+end
+arch woodfloor2
+x 12
+y 3
+end
+arch woodfloor2
+x 12
+y 4
+end
+arch chair_1.3
+x 12
+y 4
+end
+arch woodfloor2
+x 12
+y 5
+end
+arch woodwall_2_1_2
+x 12
+y 5
+end
+arch woodfloor2
+x 12
+y 6
+end
+arch woodfloor2
+x 12
+y 7
+end
+arch woodfloor2
+x 12
+y 8
+end
+arch woodfloor2
+x 12
+y 9
+end
+arch woodfloor2
+x 12
+y 10
+end
+arch bed_1
+x 12
+y 10
+end
+arch woodfloor2
+x 12
+y 11
+end
+arch woodwall_2_1_2
+x 12
+y 11
+end
+arch woodfloor2
+x 13
+end
+arch woodwall_2_1_2
+x 13
+end
+arch woodfloor2
+x 13
+y 1
+end
+arch woodfloor2
+x 13
+y 2
+end
+arch woodfloor2
+x 13
+y 3
+end
+arch child
+name Clark
+msg
+@match hi|hello
+Hi.Toby complains to much about his old
+home an' this here orphanage.I think he 
+wants to go back where he came from,to
+see his old friends.I don't know why.
+endmsg
+hp -31072
+x 13
+y 3
+end
+arch woodfloor2
+x 13
+y 4
+end
+arch woodfloor2
+x 13
+y 5
+end
+arch woodwall_1_3
+x 13
+y 5
+end
+arch woodfloor2
+x 13
+y 6
+end
+arch woodfloor2
+x 13
+y 7
+end
+arch child
+name Toby
+msg
+@match hi|hello
+Hello, I hope you enjoy it here,
+although I don't.Can't complain,we're
+treated well,unlike my old home.(sigh)
+I've said too much already.
+endmsg
+hp 30000
+x 13
+y 7
+end
+arch woodfloor2
+x 13
+y 8
+end
+arch woodfloor2
+x 13
+y 9
+end
+arch woodfloor2
+x 13
+y 10
+end
+arch woodfloor2
+x 13
+y 11
+end
+arch woodwall_2_1_2
+x 13
+y 11
+end
+arch woodfloor2
+x 14
+end
+arch woodwall_2_1_2
+x 14
+end
+arch woodfloor2
+x 14
+y 1
+end
+arch clock
+x 14
+y 1
+end
+arch woodfloor2
+x 14
+y 2
+end
+arch woodfloor2
+x 14
+y 3
+end
+arch woodfloor2
+x 14
+y 4
+end
+arch woodfloor2
+x 14
+y 5
+end
+arch woodfloor2
+x 14
+y 6
+end
+arch woodfloor2
+x 14
+y 7
+end
+arch woodfloor2
+x 14
+y 8
+end
+arch woodfloor2
+x 14
+y 9
+end
+arch woodfloor2
+x 14
+y 10
+end
+arch clock
+x 14
+y 10
+end
+arch woodfloor2
+x 14
+y 11
+end
+arch woodwall_2_1_2
+x 14
+y 11
+end
+arch woodfloor2
+x 15
+end
+arch woodwall_2_2_3
+x 15
+end
+arch woodfloor2
+x 15
+y 1
+end
+arch woodwall_2_1_1
+x 15
+y 1
+end
+arch woodfloor2
+x 15
+y 2
+end
+arch woodwall_2_1_1
+x 15
+y 2
+end
+arch woodfloor2
+x 15
+y 3
+end
+arch woodwall_2_1_1
+x 15
+y 3
+end
+arch woodfloor2
+x 15
+y 4
+end
+arch woodwall_2_1_1
+x 15
+y 4
+end
+arch woodfloor2
+x 15
+y 5
+end
+arch woodwall_2_1_1
+x 15
+y 5
+end
+arch woodfloor2
+x 15
+y 6
+end
+arch woodwall_2_1_1
+x 15
+y 6
+end
+arch woodfloor2
+x 15
+y 7
+end
+arch woodwall_2_1_1
+x 15
+y 7
+end
+arch woodfloor2
+x 15
+y 8
+end
+arch woodwall_2_1_1
+x 15
+y 8
+end
+arch woodfloor2
+x 15
+y 9
+end
+arch woodwall_2_1_1
+x 15
+y 9
+end
+arch woodfloor2
+x 15
+y 10
+end
+arch woodwall_2_1_1
+x 15
+y 10
+end
+arch woodfloor2
+x 15
+y 11
+end
+arch woodwall_2_2_4
+x 15
+y 11
+end

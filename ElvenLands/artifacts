@@ -1,0 +1,47 @@
+arch map
+msg
+Creator: Joel@prninfo.com
+Email: joel@prninfo.com
+Date: Wed May  2 02:48:29 2001
+endmsg
+width 3
+height 3
+end
+arch skullcleaver
+name Legendary Dwarven Axe
+slaying giant
+Str 1
+Con 1
+dam 40
+resist_physical 10
+resist_fire 10
+end
+arch uw_sword
+name Chrystalar Blade
+slaying divine
+Str 2
+Dex 2
+Pow 2
+Cha 2
+Int 2
+dam 40
+x 1
+attacktype 4194560
+resist_magic 40
+magic 10
+end
+arch gauntlets_str
+name Fists of Earth
+Str 2
+Dex -1
+dam 15
+x 2
+speed -1.000000
+resist_physical 10
+resist_magic -10
+resist_fire 5
+resist_electricity 5
+resist_cold 5
+material 256
+magic 4
+end

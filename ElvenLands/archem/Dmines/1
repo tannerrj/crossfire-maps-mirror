@@ -1,0 +1,4244 @@
+arch map
+name 1
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Jun  2 21:22:48 2000
+endmsg
+width 28
+height 28
+darkness 5
+end
+arch mine10
+end
+arch mine3
+y 1
+end
+arch mine3
+y 2
+end
+arch mine3
+y 3
+end
+arch mine3
+y 4
+end
+arch mine11
+y 5
+end
+arch mine3
+y 6
+end
+arch mine3
+y 7
+end
+arch mine3
+y 8
+end
+arch mine11
+y 9
+end
+arch medium_stones
+y 10
+end
+arch mine3
+y 10
+end
+arch mine11
+y 11
+end
+arch large_stones
+y 12
+end
+arch mine3
+y 12
+end
+arch large_stones
+y 13
+end
+arch mine3
+y 13
+end
+arch medium_stones
+y 14
+end
+arch mine3
+y 14
+end
+arch medium_stones
+y 15
+end
+arch mine3
+y 15
+end
+arch medium_stones
+y 16
+end
+arch mine3
+y 16
+end
+arch medium_stones
+y 17
+end
+arch mine11
+y 17
+end
+arch medium_stones
+y 18
+end
+arch mine3
+y 18
+end
+arch medium_stones
+y 19
+end
+arch mine3
+y 19
+end
+arch large_stones
+y 20
+end
+arch mine3
+y 20
+end
+arch medium_stones
+y 21
+end
+arch mine3
+y 21
+end
+arch large_stones
+y 22
+end
+arch mine3
+y 22
+end
+arch large_stones
+y 23
+end
+arch mine3
+y 23
+end
+arch large_stones
+y 24
+end
+arch mine3
+y 24
+end
+arch large_stones
+y 25
+end
+arch mine3
+y 25
+end
+arch medium_stones
+y 26
+end
+arch mine3
+y 26
+end
+arch medium_stones
+y 27
+end
+arch mine4
+y 27
+end
+arch mine2
+x 1
+end
+arch medium_stones
+x 1
+y 1
+end
+arch medium_stones
+x 1
+y 2
+end
+arch stair_down_2
+slaying /ElvenLands/archem/Dmines/2
+hp 29
+sp 8
+x 1
+y 2
+end
+arch medium_stones
+x 1
+y 3
+end
+arch lesser_dwarven_guard
+msg
+@match *
+*yawn* Don't bother me. *yawn* .
+endmsg
+x 1
+y 3
+speed_left -0.500000
+unaggressive 1
+end
+arch medium_stones
+x 1
+y 4
+end
+arch mine2
+x 1
+y 5
+end
+arch medium_stones
+x 1
+y 6
+end
+arch random_gem
+x 1
+y 6
+end
+arch medium_stones
+x 1
+y 7
+end
+arch large_stones
+x 1
+y 8
+end
+arch mine2
+x 1
+y 9
+end
+arch medium_stones
+x 1
+y 10
+end
+arch mine2
+x 1
+y 11
+end
+arch large_stones
+x 1
+y 12
+end
+arch medium_stones
+x 1
+y 13
+end
+arch medium_stones
+x 1
+y 14
+end
+arch medium_stones
+x 1
+y 15
+end
+arch medium_stones
+x 1
+y 16
+end
+arch medium_stones
+x 1
+y 17
+end
+arch mine2
+x 1
+y 17
+end
+arch large_stones
+x 1
+y 18
+end
+arch large_stones
+x 1
+y 19
+end
+arch medium_stones
+x 1
+y 20
+end
+arch large_stones
+x 1
+y 21
+end
+arch medium_stones
+x 1
+y 22
+end
+arch large_stones
+x 1
+y 23
+end
+arch medium_stones
+x 1
+y 24
+end
+arch medium_stones
+x 1
+y 25
+end
+arch large_stones
+x 1
+y 26
+end
+arch medium_stones
+x 1
+y 27
+end
+arch mine2
+x 1
+y 27
+end
+arch mine2
+x 2
+end
+arch medium_stones
+x 2
+y 1
+end
+arch medium_stones
+x 2
+y 2
+end
+arch medium_stones
+x 2
+y 3
+end
+arch medium_stones
+x 2
+y 4
+end
+arch mine2
+x 2
+y 5
+end
+arch medium_stones
+x 2
+y 6
+end
+arch medium_stones
+x 2
+y 7
+end
+arch gnome
+name mad dwarf
+x 2
+y 7
+speed_left -1.700000
+end
+arch large_stones
+x 2
+y 8
+end
+arch mine2
+x 2
+y 9
+end
+arch medium_stones
+x 2
+y 10
+end
+arch mine2
+x 2
+y 11
+end
+arch large_stones
+x 2
+y 12
+end
+arch medium_stones
+x 2
+y 13
+end
+arch large_stones
+x 2
+y 14
+end
+arch medium_stones
+x 2
+y 15
+end
+arch medium_stones
+x 2
+y 16
+end
+arch medium_stones
+x 2
+y 17
+end
+arch mine7
+x 2
+y 17
+end
+arch large_stones
+x 2
+y 18
+end
+arch medium_stones
+x 2
+y 19
+end
+arch medium_stones
+x 2
+y 20
+end
+arch large_stones
+x 2
+y 21
+end
+arch large_stones
+x 2
+y 22
+end
+arch gnome
+name mad dwarf
+x 2
+y 22
+speed_left -3.300000
+end
+arch large_stones
+x 2
+y 23
+end
+arch medium_stones
+x 2
+y 24
+end
+arch large_stones
+x 2
+y 25
+end
+arch medium_stones
+x 2
+y 26
+end
+arch medium_stones
+x 2
+y 27
+end
+arch mine2
+x 2
+y 27
+end
+arch mine2
+x 3
+end
+arch medium_stones
+x 3
+y 1
+end
+arch medium_stones
+x 3
+y 2
+end
+arch medium_stones
+x 3
+y 3
+end
+arch medium_stones
+x 3
+y 4
+end
+arch mine2
+x 3
+y 5
+end
+arch medium_stones
+x 3
+y 6
+end
+arch medium_stones
+x 3
+y 7
+end
+arch large_stones
+x 3
+y 8
+end
+arch mine2
+x 3
+y 9
+end
+arch medium_stones
+x 3
+y 10
+end
+arch mine2
+x 3
+y 11
+end
+arch large_stones
+x 3
+y 12
+end
+arch large_stones
+x 3
+y 13
+end
+arch medium_stones
+x 3
+y 14
+end
+arch head
+name Dwarf's head
+x 3
+y 14
+end
+arch medium_stones
+x 3
+y 15
+end
+arch medium_stones
+x 3
+y 16
+end
+arch large_stones
+x 3
+y 17
+end
+arch medium_stones
+x 3
+y 18
+end
+arch large_stones
+x 3
+y 19
+end
+arch gnome
+name mad dwarf
+x 3
+y 19
+speed_left -3.300000
+end
+arch medium_stones
+x 3
+y 20
+end
+arch medium_stones
+x 3
+y 21
+end
+arch large_stones
+x 3
+y 22
+end
+arch large_stones
+x 3
+y 23
+end
+arch medium_stones
+x 3
+y 24
+end
+arch large_stones
+x 3
+y 25
+end
+arch large_stones
+x 3
+y 26
+end
+arch large_stones
+x 3
+y 27
+end
+arch mine2
+x 3
+y 27
+end
+arch mine2
+x 4
+end
+arch medium_stones
+x 4
+y 1
+end
+arch medium_stones
+x 4
+y 2
+end
+arch medium_stones
+x 4
+y 3
+end
+arch medium_stones
+x 4
+y 4
+end
+arch mine2
+x 4
+y 5
+end
+arch medium_stones
+x 4
+y 6
+end
+arch medium_stones
+x 4
+y 7
+end
+arch large_stones
+x 4
+y 8
+end
+arch medium_stones
+x 4
+y 9
+end
+arch mine7
+x 4
+y 9
+end
+arch medium_stones
+x 4
+y 10
+end
+arch mine2
+x 4
+y 11
+end
+arch medium_stones
+x 4
+y 12
+end
+arch large_stones
+x 4
+y 13
+end
+arch medium_stones
+x 4
+y 14
+end
+arch medium_stones
+x 4
+y 15
+end
+arch medium_stones
+x 4
+y 16
+end
+arch large_stones
+x 4
+y 17
+end
+arch mine6
+x 4
+y 17
+end
+arch medium_stones
+x 4
+y 18
+end
+arch medium_stones
+x 4
+y 19
+end
+arch medium_stones
+x 4
+y 20
+end
+arch large_stones
+x 4
+y 21
+end
+arch medium_stones
+x 4
+y 22
+end
+arch large_stones
+x 4
+y 23
+end
+arch medium_stones
+x 4
+y 24
+end
+arch medium_stones
+x 4
+y 25
+end
+arch medium_stones
+x 4
+y 26
+end
+arch medium_stones
+x 4
+y 27
+end
+arch mine2
+x 4
+y 27
+end
+arch mine2
+x 5
+end
+arch medium_stones
+x 5
+y 1
+end
+arch medium_stones
+x 5
+y 2
+end
+arch medium_stones
+x 5
+y 3
+end
+arch medium_stones
+x 5
+y 4
+end
+arch mine2
+x 5
+y 5
+end
+arch large_stones
+x 5
+y 6
+end
+arch large_stones
+x 5
+y 7
+end
+arch large_stones
+x 5
+y 8
+end
+arch gnome
+name mad dwarf
+x 5
+y 8
+speed_left -3.300000
+end
+arch medium_stones
+x 5
+y 9
+end
+arch magic_mouth
+msg
+*rumble* *rumble* CRASH!!! 
+endmsg
+x 5
+y 9
+end
+arch medium_stones
+x 5
+y 10
+end
+arch mine2
+x 5
+y 11
+end
+arch medium_stones
+x 5
+y 12
+end
+arch large_stones
+x 5
+y 13
+end
+arch large_stones
+x 5
+y 14
+end
+arch medium_stones
+x 5
+y 15
+end
+arch medium_stones
+x 5
+y 16
+end
+arch medium_stones
+x 5
+y 17
+end
+arch mine2
+x 5
+y 17
+end
+arch large_stones
+x 5
+y 18
+end
+arch large_stones
+x 5
+y 19
+end
+arch medium_stones
+x 5
+y 20
+end
+arch large_stones
+x 5
+y 21
+end
+arch large_stones
+x 5
+y 22
+end
+arch large_stones
+x 5
+y 23
+end
+arch large_stones
+x 5
+y 24
+end
+arch large_stones
+x 5
+y 25
+end
+arch large_stones
+x 5
+y 26
+end
+arch medium_stones
+x 5
+y 27
+end
+arch mine2
+x 5
+y 27
+end
+arch mine2
+x 6
+end
+arch medium_stones
+x 6
+y 1
+end
+arch medium_stones
+x 6
+y 2
+end
+arch medium_stones
+x 6
+y 3
+end
+arch medium_stones
+x 6
+y 4
+end
+arch mine2
+x 6
+y 5
+end
+arch large_stones
+x 6
+y 6
+end
+arch rock2
+x 6
+y 6
+end
+arch medium_stones
+x 6
+y 7
+end
+arch medium_stones
+x 6
+y 8
+end
+arch rock2
+x 6
+y 8
+end
+arch medium_stones
+x 6
+y 9
+end
+arch mine6
+x 6
+y 9
+end
+arch medium_stones
+x 6
+y 10
+end
+arch mine2
+x 6
+y 11
+end
+arch medium_stones
+x 6
+y 12
+end
+arch medium_stones
+x 6
+y 13
+end
+arch gnome
+name mad dwarf
+x 6
+y 13
+speed_left -1.700000
+end
+arch medium_stones
+x 6
+y 14
+end
+arch large_stones
+x 6
+y 15
+end
+arch mine10
+x 6
+y 15
+end
+arch large_stones
+x 6
+y 16
+end
+arch mine3
+x 6
+y 16
+end
+arch large_stones
+x 6
+y 17
+end
+arch mine14
+x 6
+y 17
+end
+arch large_stones
+x 6
+y 18
+end
+arch mine3
+x 6
+y 18
+end
+arch large_stones
+x 6
+y 19
+end
+arch mine3
+x 6
+y 19
+end
+arch large_stones
+x 6
+y 20
+end
+arch mine3
+x 6
+y 20
+end
+arch large_stones
+x 6
+y 21
+end
+arch mine3
+x 6
+y 21
+end
+arch large_stones
+x 6
+y 22
+end
+arch mine3
+x 6
+y 22
+end
+arch medium_stones
+x 6
+y 23
+end
+arch mine3
+x 6
+y 23
+end
+arch large_stones
+x 6
+y 24
+end
+arch mine3
+x 6
+y 24
+end
+arch large_stones
+x 6
+y 25
+end
+arch mine5
+x 6
+y 25
+end
+arch large_stones
+x 6
+y 26
+end
+arch large_stones
+x 6
+y 27
+end
+arch mine2
+x 6
+y 27
+end
+arch mine2
+x 7
+end
+arch medium_stones
+x 7
+y 1
+end
+arch medium_stones
+x 7
+y 2
+end
+arch medium_stones
+x 7
+y 3
+end
+arch medium_stones
+x 7
+y 4
+end
+arch mine2
+x 7
+y 5
+end
+arch medium_stones
+x 7
+y 6
+end
+arch rock2
+x 7
+y 6
+end
+arch medium_stones
+x 7
+y 7
+end
+arch rock2
+x 7
+y 7
+end
+arch large_stones
+x 7
+y 8
+end
+arch mine2
+x 7
+y 9
+end
+arch medium_stones
+x 7
+y 10
+end
+arch mine2
+x 7
+y 11
+end
+arch medium_stones
+x 7
+y 12
+end
+arch large_stones
+x 7
+y 13
+end
+arch medium_stones
+x 7
+y 14
+end
+arch large_stones
+x 7
+y 15
+end
+arch mine2
+x 7
+y 15
+end
+arch medium_stones
+x 7
+y 16
+end
+arch dim_torch
+x 7
+y 16
+speed_left -0.700000
+end
+arch large_stones
+x 7
+y 17
+end
+arch large_stones
+x 7
+y 18
+end
+arch medium_stones
+x 7
+y 19
+end
+arch large_stones
+x 7
+y 20
+end
+arch medium_stones
+x 7
+y 21
+end
+arch large_stones
+x 7
+y 22
+end
+arch medium_stones
+x 7
+y 23
+end
+arch large_stones
+x 7
+y 24
+end
+arch medium_stones
+x 7
+y 25
+end
+arch medium_stones
+x 7
+y 26
+end
+arch medium_stones
+x 7
+y 27
+end
+arch mine2
+x 7
+y 27
+end
+arch mine2
+x 8
+end
+arch medium_stones
+x 8
+y 1
+end
+arch medium_stones
+x 8
+y 2
+end
+arch medium_stones
+x 8
+y 3
+end
+arch medium_stones
+x 8
+y 4
+end
+arch mine2
+x 8
+y 5
+end
+arch medium_stones
+x 8
+y 6
+end
+arch rock2
+x 8
+y 6
+end
+arch large_stones
+x 8
+y 7
+end
+arch rock2
+x 8
+y 7
+end
+arch magic_mouth
+msg
+looks like the mad dwarves caused a
+cave in! 
+endmsg
+x 8
+y 7
+end
+arch medium_stones
+x 8
+y 8
+end
+arch rock2
+x 8
+y 8
+end
+arch mine2
+x 8
+y 9
+end
+arch medium_stones
+x 8
+y 10
+end
+arch mine2
+x 8
+y 11
+end
+arch medium_stones
+x 8
+y 12
+end
+arch large_stones
+x 8
+y 13
+end
+arch medium_stones
+x 8
+y 14
+end
+arch medium_stones
+x 8
+y 15
+end
+arch mine2
+x 8
+y 15
+end
+arch large_stones
+x 8
+y 16
+end
+arch smallnugget
+x 8
+y 16
+end
+arch medium_stones
+x 8
+y 17
+end
+arch corpse
+name dead dwarf
+x 8
+y 17
+carrying 50
+arch ruby
+end
+end
+arch large_stones
+x 8
+y 18
+end
+arch large_stones
+x 8
+y 19
+end
+arch medium_stones
+x 8
+y 20
+end
+arch large_stones
+x 8
+y 21
+end
+arch medium_stones
+x 8
+y 22
+end
+arch large_stones
+x 8
+y 23
+end
+arch medium_stones
+x 8
+y 24
+end
+arch large_stones
+x 8
+y 25
+end
+arch large_stones
+x 8
+y 26
+end
+arch medium_stones
+x 8
+y 27
+end
+arch mine2
+x 8
+y 27
+end
+arch mine2
+x 9
+end
+arch medium_stones
+x 9
+y 1
+end
+arch medium_stones
+x 9
+y 2
+end
+arch medium_stones
+x 9
+y 3
+end
+arch medium_stones
+x 9
+y 4
+end
+arch mine16
+x 9
+y 5
+end
+arch medium_stones
+x 9
+y 6
+end
+arch mine5
+x 9
+y 6
+end
+arch medium_stones
+x 9
+y 7
+end
+arch boulder
+name giant rock
+slaying rock
+msg
+This rock needs a special shovel to
+move
+endmsg
+x 9
+y 7
+type 20
+can_roll 0
+damned 1
+end
+arch medium_stones
+x 9
+y 8
+end
+arch mine8
+x 9
+y 8
+end
+arch mine13
+x 9
+y 9
+end
+arch medium_stones
+x 9
+y 10
+end
+arch mine2
+x 9
+y 11
+end
+arch large_stones
+x 9
+y 12
+end
+arch medium_stones
+x 9
+y 13
+end
+arch large_stones
+x 9
+y 14
+end
+arch large_stones
+x 9
+y 15
+end
+arch mine2
+x 9
+y 15
+end
+arch large_stones
+x 9
+y 16
+end
+arch large_stones
+x 9
+y 17
+end
+arch gnome
+name mad dwarf
+msg
+@match *
+fdjsrxfjnmdkdty
+endmsg
+x 9
+y 17
+speed_left -3.300000
+carrying 3000
+arch torch_1
+end
+end
+arch large_stones
+x 9
+y 18
+end
+arch medium_stones
+x 9
+y 19
+end
+arch medium_stones
+x 9
+y 20
+end
+arch medium_stones
+x 9
+y 21
+end
+arch medium_stones
+x 9
+y 22
+end
+arch large_stones
+x 9
+y 23
+end
+arch medium_stones
+x 9
+y 24
+end
+arch medium_stones
+x 9
+y 25
+end
+arch medium_stones
+x 9
+y 26
+end
+arch large_stones
+x 9
+y 27
+end
+arch mine2
+x 9
+y 27
+end
+arch mine2
+x 10
+end
+arch medium_stones
+x 10
+y 1
+end
+arch medium_stones
+x 10
+y 2
+end
+arch medium_stones
+x 10
+y 3
+end
+arch medium_stones
+x 10
+y 4
+end
+arch mine2
+x 10
+y 5
+end
+arch medium_stones
+x 10
+y 6
+end
+arch rock2
+x 10
+y 6
+end
+arch medium_stones
+x 10
+y 7
+end
+arch rock2
+x 10
+y 7
+end
+arch medium_stones
+x 10
+y 8
+end
+arch rock2
+x 10
+y 8
+end
+arch mine2
+x 10
+y 9
+end
+arch medium_stones
+x 10
+y 10
+end
+arch mine2
+x 10
+y 11
+end
+arch medium_stones
+x 10
+y 12
+end
+arch medium_stones
+x 10
+y 13
+end
+arch medium_stones
+x 10
+y 14
+end
+arch medium_stones
+x 10
+y 15
+end
+arch mine2
+x 10
+y 15
+end
+arch large_stones
+x 10
+y 16
+end
+arch large_stones
+x 10
+y 17
+end
+arch medium_stones
+x 10
+y 18
+end
+arch medium_stones
+x 10
+y 19
+end
+arch large_stones
+x 10
+y 20
+end
+arch medium_stones
+x 10
+y 21
+end
+arch large_stones
+x 10
+y 22
+end
+arch medium_stones
+x 10
+y 23
+end
+arch large_stones
+x 10
+y 24
+end
+arch gnome
+name mad dwarf
+x 10
+y 24
+speed_left -3.300000
+end
+arch large_stones
+x 10
+y 25
+end
+arch medium_stones
+x 10
+y 26
+end
+arch medium_stones
+x 10
+y 27
+end
+arch mine2
+x 10
+y 27
+end
+arch mine2
+x 11
+end
+arch medium_stones
+x 11
+y 1
+end
+arch medium_stones
+x 11
+y 2
+end
+arch medium_stones
+x 11
+y 3
+end
+arch medium_stones
+x 11
+y 4
+end
+arch mine2
+x 11
+y 5
+end
+arch medium_stones
+x 11
+y 6
+end
+arch medium_stones
+x 11
+y 7
+end
+arch rock2
+x 11
+y 7
+end
+arch medium_stones
+x 11
+y 8
+end
+arch rock2
+x 11
+y 8
+end
+arch mine2
+x 11
+y 9
+end
+arch medium_stones
+x 11
+y 10
+end
+arch mine2
+x 11
+y 11
+end
+arch large_stones
+x 11
+y 12
+end
+arch medium_stones
+x 11
+y 13
+end
+arch large_stones
+x 11
+y 14
+end
+arch large_stones
+x 11
+y 15
+end
+arch mine9
+x 11
+y 15
+end
+arch large_stones
+x 11
+y 16
+end
+arch mine3
+x 11
+y 16
+end
+arch medium_stones
+x 11
+y 17
+end
+arch mine3
+x 11
+y 17
+end
+arch medium_stones
+x 11
+y 18
+end
+arch mine3
+x 11
+y 18
+end
+arch large_stones
+x 11
+y 19
+end
+arch mine4
+x 11
+y 19
+end
+arch large_stones
+x 11
+y 20
+end
+arch large_stones
+x 11
+y 21
+end
+arch medium_stones
+x 11
+y 22
+end
+arch large_stones
+x 11
+y 23
+end
+arch medium_stones
+x 11
+y 24
+end
+arch large_stones
+x 11
+y 25
+end
+arch medium_stones
+x 11
+y 26
+end
+arch large_stones
+x 11
+y 27
+end
+arch mine2
+x 11
+y 27
+end
+arch mine2
+x 12
+end
+arch medium_stones
+x 12
+y 1
+end
+arch button_lever
+x 12
+y 1
+connected 1
+end
+arch dwarf
+msg
+@match *
+You are not allowed to open the gate! 
+endmsg
+x 12
+y 1
+speed_left -0.550000
+end
+arch medium_stones
+x 12
+y 2
+end
+arch medium_stones
+x 12
+y 3
+end
+arch medium_stones
+x 12
+y 4
+end
+arch mine2
+x 12
+y 5
+end
+arch medium_stones
+x 12
+y 6
+end
+arch medium_stones
+x 12
+y 7
+end
+arch medium_stones
+x 12
+y 8
+end
+arch rock2
+x 12
+y 8
+end
+arch mine2
+x 12
+y 9
+end
+arch medium_stones
+x 12
+y 10
+end
+arch mine2
+x 12
+y 11
+end
+arch large_stones
+x 12
+y 12
+end
+arch medium_stones
+x 12
+y 13
+end
+arch medium_stones
+x 12
+y 14
+end
+arch medium_stones
+x 12
+y 15
+end
+arch medium_stones
+x 12
+y 16
+end
+arch medium_stones
+x 12
+y 17
+end
+arch corpse
+name dead dwarf
+x 12
+y 17
+carrying 3000
+arch torch_1
+end
+end
+arch large_stones
+x 12
+y 18
+end
+arch mithril
+x 12
+y 18
+speed_left -1.700000
+nrof 5
+end
+arch medium_stones
+x 12
+y 19
+end
+arch mine2
+x 12
+y 19
+end
+arch large_stones
+x 12
+y 20
+end
+arch large_stones
+x 12
+y 21
+end
+arch mine10
+x 12
+y 21
+end
+arch medium_stones
+x 12
+y 22
+end
+arch mine3
+x 12
+y 22
+end
+arch medium_stones
+x 12
+y 23
+end
+arch mine3
+x 12
+y 23
+end
+arch large_stones
+x 12
+y 24
+end
+arch mine3
+x 12
+y 24
+end
+arch large_stones
+x 12
+y 25
+end
+arch mine3
+x 12
+y 25
+end
+arch medium_stones
+x 12
+y 26
+end
+arch mine3
+x 12
+y 26
+end
+arch medium_stones
+x 12
+y 27
+end
+arch mine12
+x 12
+y 27
+end
+arch mine16
+x 13
+end
+arch medium_stones
+x 13
+y 1
+end
+arch mine5
+x 13
+y 1
+end
+arch medium_stones
+x 13
+y 2
+end
+arch grate_closed_2
+x 13
+y 2
+connected 1
+end
+arch medium_stones
+x 13
+y 3
+end
+arch mine8
+x 13
+y 3
+end
+arch mine3
+x 13
+y 4
+end
+arch mine13
+x 13
+y 5
+end
+arch medium_stones
+x 13
+y 6
+end
+arch gnome
+name mad dwarf
+x 13
+y 6
+speed_left -1.700000
+end
+arch medium_stones
+x 13
+y 7
+end
+arch medium_stones
+x 13
+y 8
+end
+arch mine2
+x 13
+y 9
+end
+arch medium_stones
+x 13
+y 10
+end
+arch mine2
+x 13
+y 11
+end
+arch large_stones
+x 13
+y 12
+end
+arch bighorned_helmet
+x 13
+y 12
+end
+arch large_stones
+x 13
+y 13
+end
+arch large_stones
+x 13
+y 14
+end
+arch medium_stones
+x 13
+y 15
+end
+arch medium_stones
+x 13
+y 16
+end
+arch large_stones
+x 13
+y 17
+end
+arch shovel_1
+x 13
+y 17
+end
+arch medium_stones
+x 13
+y 18
+end
+arch sapphire
+x 13
+y 18
+nrof 3
+end
+arch large_stones
+x 13
+y 19
+end
+arch mine2
+x 13
+y 19
+end
+arch medium_stones
+x 13
+y 20
+end
+arch medium_stones
+x 13
+y 21
+end
+arch mine2
+x 13
+y 21
+end
+arch medium_stones
+x 13
+y 22
+end
+arch medium_stones
+x 13
+y 23
+end
+arch medium_stones
+x 13
+y 24
+end
+arch medium_stones
+x 13
+y 25
+end
+arch large_stones
+x 13
+y 26
+end
+arch medium_stones
+x 13
+y 27
+end
+arch mine2
+x 14
+end
+arch medium_stones
+x 14
+y 1
+end
+arch medium_stones
+x 14
+y 2
+end
+arch medium_stones
+x 14
+y 3
+end
+arch medium_stones
+x 14
+y 4
+end
+arch mine2
+x 14
+y 5
+end
+arch medium_stones
+x 14
+y 6
+end
+arch medium_stones
+x 14
+y 7
+end
+arch medium_stones
+x 14
+y 8
+end
+arch mine2
+x 14
+y 9
+end
+arch medium_stones
+x 14
+y 10
+end
+arch mine9
+x 14
+y 11
+end
+arch mine3
+x 14
+y 12
+end
+arch mine3
+x 14
+y 13
+end
+arch mine3
+x 14
+y 14
+end
+arch medium_stones
+x 14
+y 15
+end
+arch mine3
+x 14
+y 15
+end
+arch large_stones
+x 14
+y 16
+end
+arch mine3
+x 14
+y 16
+end
+arch medium_stones
+x 14
+y 17
+end
+arch mine3
+x 14
+y 17
+end
+arch medium_stones
+x 14
+y 18
+end
+arch mine3
+x 14
+y 18
+end
+arch medium_stones
+x 14
+y 19
+end
+arch mine12
+x 14
+y 19
+end
+arch medium_stones
+x 14
+y 20
+end
+arch large_stones
+x 14
+y 21
+end
+arch mine9
+x 14
+y 21
+end
+arch large_stones
+x 14
+y 22
+end
+arch mine3
+x 14
+y 22
+end
+arch large_stones
+x 14
+y 23
+end
+arch mine3
+x 14
+y 23
+end
+arch medium_stones
+x 14
+y 24
+end
+arch mine3
+x 14
+y 24
+end
+arch medium_stones
+x 14
+y 25
+end
+arch mine3
+x 14
+y 25
+end
+arch medium_stones
+x 14
+y 26
+end
+arch mine3
+x 14
+y 26
+end
+arch medium_stones
+x 14
+y 27
+end
+arch mine4
+x 14
+y 27
+end
+arch mine2
+x 15
+end
+arch medium_stones
+x 15
+y 1
+end
+arch medium_stones
+x 15
+y 2
+end
+arch medium_stones
+x 15
+y 3
+end
+arch medium_stones
+x 15
+y 4
+end
+arch mine2
+x 15
+y 5
+end
+arch medium_stones
+x 15
+y 6
+end
+arch medium_stones
+x 15
+y 7
+end
+arch medium_stones
+x 15
+y 8
+end
+arch mine2
+x 15
+y 9
+end
+arch medium_stones
+x 15
+y 10
+end
+arch medium_stones
+x 15
+y 11
+end
+arch medium_stones
+x 15
+y 12
+end
+arch medium_stones
+x 15
+y 13
+end
+arch gnome
+name mad dwarf
+x 15
+y 13
+speed_left -1.700000
+end
+arch medium_stones
+x 15
+y 14
+end
+arch medium_stones
+x 15
+y 15
+end
+arch medium_stones
+x 15
+y 16
+end
+arch medium_stones
+x 15
+y 17
+end
+arch medium_stones
+x 15
+y 18
+end
+arch large_stones
+x 15
+y 19
+end
+arch medium_stones
+x 15
+y 20
+end
+arch large_stones
+x 15
+y 21
+end
+arch medium_stones
+x 15
+y 22
+end
+arch large_stones
+x 15
+y 23
+end
+arch medium_stones
+x 15
+y 24
+end
+arch medium_stones
+x 15
+y 25
+end
+arch medium_stones
+x 15
+y 26
+end
+arch dim_torch
+x 15
+y 26
+speed_left -0.700000
+end
+arch medium_stones
+x 15
+y 27
+end
+arch mine2
+x 15
+y 27
+end
+arch mine16
+x 16
+end
+arch mine3
+x 16
+y 1
+end
+arch mine3
+x 16
+y 2
+end
+arch medium_stones
+x 16
+y 3
+end
+arch mine5
+x 16
+y 3
+end
+arch medium_stones
+x 16
+y 4
+end
+arch mine2
+x 16
+y 5
+end
+arch medium_stones
+x 16
+y 6
+end
+arch medium_stones
+x 16
+y 7
+end
+arch medium_stones
+x 16
+y 8
+end
+arch mine9
+x 16
+y 9
+end
+arch large_stones
+x 16
+y 10
+end
+arch mine11
+x 16
+y 10
+end
+arch large_stones
+x 16
+y 11
+end
+arch mine3
+x 16
+y 11
+end
+arch medium_stones
+x 16
+y 12
+end
+arch mine5
+x 16
+y 12
+end
+arch medium_stones
+x 16
+y 13
+end
+arch boulder
+x 16
+y 13
+end
+arch large_stones
+x 16
+y 14
+end
+arch mine8
+x 16
+y 14
+end
+arch medium_stones
+x 16
+y 15
+end
+arch mine3
+x 16
+y 15
+end
+arch medium_stones
+x 16
+y 16
+end
+arch mine3
+x 16
+y 16
+end
+arch medium_stones
+x 16
+y 17
+end
+arch mine3
+x 16
+y 17
+end
+arch medium_stones
+x 16
+y 18
+end
+arch mine3
+x 16
+y 18
+end
+arch large_stones
+x 16
+y 19
+end
+arch mine4
+x 16
+y 19
+end
+arch large_stones
+x 16
+y 20
+end
+arch medium_stones
+x 16
+y 21
+end
+arch mine10
+x 16
+y 21
+end
+arch large_stones
+x 16
+y 22
+end
+arch mine3
+x 16
+y 22
+end
+arch medium_stones
+x 16
+y 23
+end
+arch mine3
+x 16
+y 23
+end
+arch medium_stones
+x 16
+y 24
+end
+arch mine3
+x 16
+y 24
+end
+arch medium_stones
+x 16
+y 25
+end
+arch mine3
+x 16
+y 25
+end
+arch medium_stones
+x 16
+y 26
+end
+arch mine3
+x 16
+y 26
+end
+arch medium_stones
+x 16
+y 27
+end
+arch mine12
+x 16
+y 27
+end
+arch mine2
+x 17
+end
+arch medium_stones
+x 17
+y 1
+end
+arch gnome
+name mad dwarf
+msg
+@match *
+SDHGSJRSHshestu
+endmsg
+x 17
+y 1
+speed_left -1.700000
+end
+arch medium_stones
+x 17
+y 2
+end
+arch medium_stones
+x 17
+y 3
+end
+arch grate_closed_1
+x 17
+y 3
+connected 1
+end
+arch medium_stones
+x 17
+y 4
+end
+arch mine2
+x 17
+y 5
+end
+arch medium_stones
+x 17
+y 6
+end
+arch medium_stones
+x 17
+y 7
+end
+arch medium_stones
+x 17
+y 8
+end
+arch medium_stones
+x 17
+y 9
+end
+arch random_gem
+x 17
+y 9
+end
+arch large_stones
+x 17
+y 10
+end
+arch mine2
+x 17
+y 10
+end
+arch large_stones
+x 17
+y 11
+end
+arch clock
+x 17
+y 11
+end
+arch medium_stones
+x 17
+y 12
+end
+arch medium_stones
+x 17
+y 13
+end
+arch medium_stones
+x 17
+y 14
+end
+arch large_stones
+x 17
+y 15
+end
+arch medium_stones
+x 17
+y 16
+end
+arch large_stones
+x 17
+y 17
+end
+arch random_food
+x 17
+y 17
+end
+arch medium_stones
+x 17
+y 18
+end
+arch random_food
+x 17
+y 18
+end
+arch medium_stones
+x 17
+y 19
+end
+arch mine2
+x 17
+y 19
+end
+arch large_stones
+x 17
+y 20
+end
+arch medium_stones
+x 17
+y 21
+end
+arch mine2
+x 17
+y 21
+end
+arch large_stones
+x 17
+y 22
+end
+arch large_stones
+x 17
+y 23
+end
+arch medium_stones
+x 17
+y 24
+end
+arch large_stones
+x 17
+y 25
+end
+arch medium_stones
+x 17
+y 26
+end
+arch medium_stones
+x 17
+y 27
+end
+arch mine2
+x 18
+end
+arch medium_stones
+x 18
+y 1
+end
+arch medium_stones
+x 18
+y 2
+end
+arch medium_stones
+x 18
+y 3
+end
+arch mine6
+x 18
+y 3
+end
+arch medium_stones
+x 18
+y 4
+end
+arch mine2
+x 18
+y 5
+end
+arch medium_stones
+x 18
+y 6
+end
+arch medium_stones
+x 18
+y 7
+end
+arch medium_stones
+x 18
+y 8
+end
+arch corpse
+name wounded dwarf
+msg
+@match *
+Too hurt... Mad dwarf tried to kill
+me... Did not finish job... soon I will
+die... must help us... go to Dwarf
+Town... *gasp* 
+endmsg
+x 18
+y 8
+end
+arch magic_mouth
+msg
+*gasp* Mad dwarf tried to kill me...
+Did not finish... but did enough...
+Soon I will die... *gasp* Must help
+us... go to dwarven city... *gasp* 
+endmsg
+x 18
+y 8
+end
+arch medium_stones
+x 18
+y 9
+end
+arch random_gem
+x 18
+y 9
+end
+arch large_stones
+x 18
+y 10
+end
+arch mine2
+x 18
+y 10
+end
+arch large_stones
+x 18
+y 11
+end
+arch random_gem
+x 18
+y 11
+end
+arch random_wealth
+x 18
+y 11
+end
+arch large_stones
+x 18
+y 12
+end
+arch large_stones
+x 18
+y 13
+end
+arch medium_stones
+x 18
+y 14
+end
+arch medium_stones
+x 18
+y 15
+end
+arch medium_stones
+x 18
+y 16
+end
+arch medium_stones
+x 18
+y 17
+end
+arch random_food
+x 18
+y 17
+end
+arch medium_stones
+x 18
+y 18
+end
+arch random_food
+x 18
+y 18
+end
+arch medium_stones
+x 18
+y 19
+end
+arch mine2
+x 18
+y 19
+end
+arch large_stones
+x 18
+y 20
+end
+arch medium_stones
+x 18
+y 21
+end
+arch mine2
+x 18
+y 21
+end
+arch large_stones
+x 18
+y 22
+end
+arch medium_stones
+x 18
+y 23
+end
+arch large_stones
+x 18
+y 24
+end
+arch medium_stones
+x 18
+y 25
+end
+arch large_stones
+x 18
+y 26
+end
+arch medium_stones
+x 18
+y 27
+end
+arch mine2
+x 19
+end
+arch medium_stones
+x 19
+y 1
+end
+arch grate_closed_2
+x 19
+y 1
+connected 1
+end
+arch medium_stones
+x 19
+y 2
+end
+arch mine8
+x 19
+y 2
+end
+arch mine14
+x 19
+y 3
+end
+arch mine3
+x 19
+y 4
+end
+arch mine13
+x 19
+y 5
+end
+arch medium_stones
+x 19
+y 6
+end
+arch medium_stones
+x 19
+y 7
+end
+arch medium_stones
+x 19
+y 8
+end
+arch medium_stones
+x 19
+y 9
+end
+arch random_gem
+x 19
+y 9
+end
+arch large_stones
+x 19
+y 10
+end
+arch mine2
+x 19
+y 10
+end
+arch large_stones
+x 19
+y 11
+end
+arch chair_1.1
+x 19
+y 11
+end
+arch dwarf
+msg
+@match *
+I was afraid of those crazed maniacs!
+I sealed the doors with boulders and
+rocks. Please help....
+endmsg
+x 19
+y 11
+speed_left -1.300000
+carrying 3000
+arch torch_1
+end
+end
+arch large_stones
+x 19
+y 12
+end
+arch table_3
+x 19
+y 12
+end
+arch large_stones
+x 19
+y 13
+end
+arch boulder
+x 19
+y 13
+end
+arch large_stones
+x 19
+y 14
+end
+arch boulder
+x 19
+y 14
+end
+arch medium_stones
+x 19
+y 15
+end
+arch rock
+x 19
+y 15
+end
+arch large_stones
+x 19
+y 16
+end
+arch medium_stones
+x 19
+y 17
+end
+arch random_food
+x 19
+y 17
+end
+arch large_stones
+x 19
+y 18
+end
+arch random_food
+x 19
+y 18
+end
+arch medium_stones
+x 19
+y 19
+end
+arch mine2
+x 19
+y 19
+end
+arch medium_stones
+x 19
+y 20
+end
+arch large_stones
+x 19
+y 21
+end
+arch mine2
+x 19
+y 21
+end
+arch medium_stones
+x 19
+y 22
+end
+arch large_stones
+x 19
+y 23
+end
+arch medium_stones
+x 19
+y 24
+end
+arch large_stones
+x 19
+y 25
+end
+arch medium_stones
+x 19
+y 26
+end
+arch medium_stones
+x 19
+y 27
+end
+arch mine2
+x 20
+end
+arch medium_stones
+x 20
+y 1
+end
+arch medium_stones
+x 20
+y 2
+end
+arch medium_stones
+x 20
+y 3
+end
+arch medium_stones
+x 20
+y 4
+end
+arch mine2
+x 20
+y 5
+end
+arch medium_stones
+x 20
+y 6
+end
+arch medium_stones
+x 20
+y 7
+end
+arch gnome
+name mad dwarf
+x 20
+y 7
+speed_left -1.700000
+end
+arch medium_stones
+x 20
+y 8
+end
+arch mine10
+x 20
+y 8
+end
+arch mine3
+x 20
+y 9
+end
+arch large_stones
+x 20
+y 10
+end
+arch mine14
+x 20
+y 10
+end
+arch large_stones
+x 20
+y 11
+end
+arch mine3
+x 20
+y 11
+end
+arch large_stones
+x 20
+y 12
+end
+arch mine3
+x 20
+y 12
+end
+arch large_stones
+x 20
+y 13
+end
+arch mine5
+x 20
+y 13
+end
+arch large_stones
+x 20
+y 14
+end
+arch rock
+x 20
+y 14
+end
+arch medium_stones
+x 20
+y 15
+end
+arch mine10
+x 20
+y 15
+end
+arch medium_stones
+x 20
+y 16
+end
+arch mine3
+x 20
+y 16
+end
+arch medium_stones
+x 20
+y 17
+end
+arch mine3
+x 20
+y 17
+end
+arch large_stones
+x 20
+y 18
+end
+arch mine3
+x 20
+y 18
+end
+arch medium_stones
+x 20
+y 19
+end
+arch mine12
+x 20
+y 19
+end
+arch medium_stones
+x 20
+y 20
+end
+arch medium_stones
+x 20
+y 21
+end
+arch mine9
+x 20
+y 21
+end
+arch large_stones
+x 20
+y 22
+end
+arch mine3
+x 20
+y 22
+end
+arch medium_stones
+x 20
+y 23
+end
+arch mine3
+x 20
+y 23
+end
+arch medium_stones
+x 20
+y 24
+end
+arch mine3
+x 20
+y 24
+end
+arch large_stones
+x 20
+y 25
+end
+arch mine3
+x 20
+y 25
+end
+arch large_stones
+x 20
+y 26
+end
+arch mine4
+x 20
+y 26
+end
+arch medium_stones
+x 20
+y 27
+end
+arch mine2
+x 21
+end
+arch medium_stones
+x 21
+y 1
+end
+arch medium_stones
+x 21
+y 2
+end
+arch medium_stones
+x 21
+y 3
+end
+arch medium_stones
+x 21
+y 4
+end
+arch mine2
+x 21
+y 5
+end
+arch medium_stones
+x 21
+y 6
+end
+arch medium_stones
+x 21
+y 7
+end
+arch mine2
+x 21
+y 8
+end
+arch medium_stones
+x 21
+y 9
+end
+arch large_stones
+x 21
+y 10
+end
+arch medium_stones
+x 21
+y 11
+end
+arch large_stones
+x 21
+y 12
+end
+arch gnome
+name mad dwarf
+x 21
+y 12
+speed_left -3.300000
+carrying 3000
+arch torch_1
+end
+end
+arch medium_stones
+x 21
+y 13
+end
+arch door_2
+x 21
+y 13
+end
+arch large_stones
+x 21
+y 14
+end
+arch medium_stones
+x 21
+y 15
+end
+arch mine2
+x 21
+y 15
+end
+arch medium_stones
+x 21
+y 16
+end
+arch boulder
+x 21
+y 16
+end
+arch medium_stones
+x 21
+y 17
+end
+arch large_stones
+x 21
+y 18
+end
+arch medium_stones
+x 21
+y 19
+end
+arch large_stones
+x 21
+y 20
+end
+arch medium_stones
+x 21
+y 21
+end
+arch medium_stones
+x 21
+y 22
+end
+arch large_stones
+x 21
+y 23
+end
+arch medium_stones
+x 21
+y 24
+end
+arch medium_stones
+x 21
+y 25
+end
+arch boulder
+x 21
+y 25
+end
+arch large_stones
+x 21
+y 26
+end
+arch mine2
+x 21
+y 26
+end
+arch large_stones
+x 21
+y 27
+end
+arch mine2
+x 22
+end
+arch medium_stones
+x 22
+y 1
+end
+arch boulder
+x 22
+y 1
+end
+arch medium_stones
+x 22
+y 2
+end
+arch medium_stones
+x 22
+y 3
+end
+arch medium_stones
+x 22
+y 4
+end
+arch mine2
+x 22
+y 5
+end
+arch medium_stones
+x 22
+y 6
+end
+arch medium_stones
+x 22
+y 7
+end
+arch mine2
+x 22
+y 8
+end
+arch medium_stones
+x 22
+y 9
+end
+arch large_stones
+x 22
+y 10
+end
+arch mine8
+x 22
+y 10
+end
+arch mine3
+x 22
+y 11
+end
+arch mine3
+x 22
+y 12
+end
+arch mine3
+x 22
+y 13
+end
+arch mine3
+x 22
+y 14
+end
+arch medium_stones
+x 22
+y 15
+end
+arch mine13
+x 22
+y 15
+end
+arch medium_stones
+x 22
+y 16
+end
+arch boulder
+x 22
+y 16
+end
+arch medium_stones
+x 22
+y 17
+end
+arch large_stones
+x 22
+y 18
+end
+arch medium_stones
+x 22
+y 19
+end
+arch medium_stones
+x 22
+y 20
+end
+arch medium_stones
+x 22
+y 21
+end
+arch medium_stones
+x 22
+y 22
+end
+arch medium_stones
+x 22
+y 23
+end
+arch large_stones
+x 22
+y 24
+end
+arch medium_stones
+x 22
+y 25
+end
+arch boulder
+x 22
+y 25
+end
+arch large_stones
+x 22
+y 26
+end
+arch mine2
+x 22
+y 26
+end
+arch large_stones
+x 22
+y 27
+end
+arch mine2
+x 23
+end
+arch medium_stones
+x 23
+y 1
+end
+arch button_plate
+x 23
+y 1
+end
+arch boulder
+x 23
+y 1
+end
+arch medium_stones
+x 23
+y 2
+end
+arch medium_stones
+x 23
+y 3
+end
+arch medium_stones
+x 23
+y 4
+end
+arch mine2
+x 23
+y 5
+end
+arch medium_stones
+x 23
+y 6
+end
+arch medium_stones
+x 23
+y 7
+end
+arch mine2
+x 23
+y 8
+end
+arch medium_stones
+x 23
+y 9
+end
+arch medium_stones
+x 23
+y 10
+end
+arch gnome
+name mad dwarf
+x 23
+y 10
+speed_left -1.700000
+end
+arch large_stones
+x 23
+y 11
+end
+arch random_gem
+x 23
+y 11
+end
+arch large_stones
+x 23
+y 12
+end
+arch corpse
+name dead dwarf
+x 23
+y 12
+end
+arch large_stones
+x 23
+y 13
+end
+arch large_stones
+x 23
+y 14
+end
+arch random_gem
+x 23
+y 14
+end
+arch medium_stones
+x 23
+y 15
+end
+arch mine2
+x 23
+y 15
+end
+arch medium_stones
+x 23
+y 16
+end
+arch boulder
+x 23
+y 16
+end
+arch medium_stones
+x 23
+y 17
+end
+arch flint_and_steel
+x 23
+y 17
+end
+arch boulder
+x 23
+y 17
+end
+arch medium_stones
+x 23
+y 18
+end
+arch medium_stones
+x 23
+y 19
+end
+arch large_stones
+x 23
+y 20
+end
+arch medium_stones
+x 23
+y 21
+end
+arch large_stones
+x 23
+y 22
+end
+arch medium_stones
+x 23
+y 23
+end
+arch medium_stones
+x 23
+y 24
+end
+arch torch_unlit
+x 23
+y 24
+nrof 5
+end
+arch boulder
+x 23
+y 24
+end
+arch medium_stones
+x 23
+y 25
+end
+arch boulder
+x 23
+y 25
+end
+arch medium_stones
+x 23
+y 26
+end
+arch mine2
+x 23
+y 26
+end
+arch large_stones
+x 23
+y 27
+end
+arch mine2
+x 24
+end
+arch medium_stones
+x 24
+y 1
+end
+arch button_plate
+x 24
+y 1
+end
+arch boulder
+x 24
+y 1
+end
+arch medium_stones
+x 24
+y 2
+end
+arch medium_stones
+x 24
+y 3
+end
+arch medium_stones
+x 24
+y 4
+end
+arch medium_stones
+x 24
+y 5
+end
+arch mine7
+x 24
+y 5
+end
+arch medium_stones
+x 24
+y 6
+end
+arch medium_stones
+x 24
+y 7
+end
+arch mine2
+x 24
+y 8
+end
+arch large_stones
+x 24
+y 9
+end
+arch medium_stones
+x 24
+y 10
+end
+arch medium_stones
+x 24
+y 11
+end
+arch medium_stones
+x 24
+y 12
+end
+arch gnome
+name mad dwarf
+x 24
+y 12
+speed_left -1.700000
+end
+arch medium_stones
+x 24
+y 13
+end
+arch large_stones
+x 24
+y 14
+end
+arch shovel_1
+name special shovel
+race keys
+slaying rock
+x 24
+y 14
+type 21
+end
+arch medium_stones
+x 24
+y 15
+end
+arch mine2
+x 24
+y 15
+end
+arch medium_stones
+x 24
+y 16
+end
+arch boulder
+x 24
+y 16
+end
+arch large_stones
+x 24
+y 17
+end
+arch medium_stones
+x 24
+y 18
+end
+arch medium_stones
+x 24
+y 19
+end
+arch medium_stones
+x 24
+y 20
+end
+arch medium_stones
+x 24
+y 21
+end
+arch large_stones
+x 24
+y 22
+end
+arch medium_stones
+x 24
+y 23
+end
+arch medium_stones
+x 24
+y 24
+end
+arch medium_stones
+x 24
+y 25
+end
+arch boulder
+x 24
+y 25
+end
+arch large_stones
+x 24
+y 26
+end
+arch mine2
+x 24
+y 26
+end
+arch large_stones
+x 24
+y 27
+end
+arch mine2
+x 25
+end
+arch medium_stones
+x 25
+y 1
+end
+arch button_plate
+x 25
+y 1
+end
+arch boulder
+x 25
+y 1
+end
+arch medium_stones
+x 25
+y 2
+end
+arch medium_stones
+x 25
+y 3
+end
+arch medium_stones
+x 25
+y 4
+end
+arch medium_stones
+x 25
+y 5
+end
+arch medium_stones
+x 25
+y 6
+end
+arch medium_stones
+x 25
+y 7
+end
+arch mine2
+x 25
+y 8
+end
+arch large_stones
+x 25
+y 9
+end
+arch large_stones
+x 25
+y 10
+end
+arch gnome
+name mad dwarf
+x 25
+y 10
+speed_left -3.300000
+carrying 3000
+arch torch_1
+end
+end
+arch large_stones
+x 25
+y 11
+end
+arch medium_stones
+x 25
+y 12
+end
+arch medium_stones
+x 25
+y 13
+end
+arch medium_stones
+x 25
+y 14
+end
+arch corpse
+name dead dwarf
+x 25
+y 14
+end
+arch medium_stones
+x 25
+y 15
+end
+arch mine2
+x 25
+y 15
+end
+arch large_stones
+x 25
+y 16
+end
+arch boulder
+x 25
+y 16
+end
+arch medium_stones
+x 25
+y 17
+end
+arch medium_stones
+x 25
+y 18
+end
+arch medium_stones
+x 25
+y 19
+end
+arch large_stones
+x 25
+y 20
+end
+arch sign
+msg
+Welcome to the Dwarven Mines!
+Make sure you have plenty of torches!
+endmsg
+x 25
+y 20
+end
+arch light4
+x 25
+y 20
+end
+arch medium_stones
+x 25
+y 21
+end
+arch medium_stones
+x 25
+y 22
+end
+arch medium_stones
+x 25
+y 23
+end
+arch medium_stones
+x 25
+y 24
+end
+arch medium_stones
+x 25
+y 25
+end
+arch boulder
+x 25
+y 25
+end
+arch medium_stones
+x 25
+y 26
+end
+arch mine2
+x 25
+y 26
+end
+arch large_stones
+x 25
+y 27
+end
+arch mine2
+x 26
+end
+arch medium_stones
+x 26
+y 1
+end
+arch button_plate
+x 26
+y 1
+connected 1
+end
+arch gnome
+name mad dwarf
+x 26
+y 1
+speed_left -1.700000
+end
+arch medium_stones
+x 26
+y 2
+end
+arch medium_stones
+x 26
+y 3
+end
+arch medium_stones
+x 26
+y 4
+end
+arch medium_stones
+x 26
+y 5
+end
+arch mine6
+x 26
+y 5
+end
+arch medium_stones
+x 26
+y 6
+end
+arch medium_stones
+x 26
+y 7
+end
+arch mine2
+x 26
+y 8
+end
+arch large_stones
+x 26
+y 9
+end
+arch large_stones
+x 26
+y 10
+end
+arch large_stones
+x 26
+y 11
+end
+arch medium_stones
+x 26
+y 12
+end
+arch large_stones
+x 26
+y 13
+end
+arch random_gem
+x 26
+y 13
+end
+arch large_stones
+x 26
+y 14
+end
+arch gnome
+name mad dwarf
+x 26
+y 14
+speed_left -3.300000
+end
+arch large_stones
+x 26
+y 15
+end
+arch mine2
+x 26
+y 15
+end
+arch medium_stones
+x 26
+y 16
+end
+arch boulder
+x 26
+y 16
+end
+arch large_stones
+x 26
+y 17
+end
+arch medium_stones
+x 26
+y 18
+end
+arch medium_stones
+x 26
+y 19
+end
+arch large_stones
+x 26
+y 20
+end
+arch medium_stones
+x 26
+y 21
+end
+arch medium_stones
+x 26
+y 22
+end
+arch large_stones
+x 26
+y 23
+end
+arch medium_stones
+x 26
+y 24
+end
+arch medium_stones
+x 26
+y 25
+end
+arch boulder
+x 26
+y 25
+end
+arch large_stones
+x 26
+y 26
+end
+arch mine2
+x 26
+y 26
+end
+arch large_stones
+x 26
+y 27
+end
+arch mine9
+x 27
+end
+arch mine3
+x 27
+y 1
+end
+arch mine3
+x 27
+y 2
+end
+arch mine3
+x 27
+y 3
+end
+arch mine3
+x 27
+y 4
+end
+arch mine14
+x 27
+y 5
+end
+arch mine3
+x 27
+y 6
+end
+arch mine3
+x 27
+y 7
+end
+arch mine14
+x 27
+y 8
+end
+arch mine3
+x 27
+y 9
+end
+arch mine3
+x 27
+y 10
+end
+arch mine3
+x 27
+y 11
+end
+arch mine3
+x 27
+y 12
+end
+arch mine3
+x 27
+y 13
+end
+arch mine3
+x 27
+y 14
+end
+arch medium_stones
+x 27
+y 15
+end
+arch mine14
+x 27
+y 15
+end
+arch medium_stones
+x 27
+y 16
+end
+arch mine3
+x 27
+y 16
+end
+arch large_stones
+x 27
+y 17
+end
+arch mine3
+x 27
+y 17
+end
+arch medium_stones
+x 27
+y 18
+end
+arch mine3
+x 27
+y 18
+end
+arch medium_stones
+x 27
+y 19
+end
+arch mine5
+x 27
+y 19
+end
+arch medium_stones
+x 27
+y 20
+end
+arch invis_exit
+slaying /ElvenLands/archem/land
+hp 38
+sp 31
+x 27
+y 20
+end
+arch medium_stones
+x 27
+y 21
+end
+arch mine8
+x 27
+y 21
+end
+arch large_stones
+x 27
+y 22
+end
+arch mine3
+x 27
+y 22
+end
+arch medium_stones
+x 27
+y 23
+end
+arch mine3
+x 27
+y 23
+end
+arch large_stones
+x 27
+y 24
+end
+arch mine3
+x 27
+y 24
+end
+arch medium_stones
+x 27
+y 25
+end
+arch mine3
+x 27
+y 25
+end
+arch large_stones
+x 27
+y 26
+end
+arch mine12
+x 27
+y 26
+end
+arch large_stones
+x 27
+y 27
+end

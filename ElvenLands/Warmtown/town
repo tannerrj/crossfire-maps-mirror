@@ -1,0 +1,1346 @@
+arch map
+name town
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun Nov 21 23:47:23 1999
+endmsg
+width 16
+height 16
+end
+arch mountain4
+end
+arch mountain
+y 1
+end
+arch mountain
+y 2
+end
+arch wasteland
+y 3
+end
+arch wasteland
+y 4
+end
+arch wasteland
+y 5
+end
+arch wasteland
+y 6
+end
+arch wasteland
+y 7
+end
+arch wasteland
+y 8
+end
+arch wasteland
+y 9
+end
+arch wasteland
+y 10
+end
+arch wasteland
+y 11
+end
+arch wasteland
+y 12
+end
+arch wasteland
+y 13
+end
+arch wasteland
+y 14
+end
+arch wasteland
+y 15
+end
+arch mountain
+x 1
+y 2
+end
+arch wasteland
+x 1
+y 3
+end
+arch small_stones
+x 1
+y 4
+end
+arch small_stones
+x 1
+y 5
+end
+arch small_stones
+x 1
+y 6
+end
+arch small_stones
+x 1
+y 7
+end
+arch small_stones
+x 1
+y 8
+end
+arch small_stones
+x 1
+y 9
+end
+arch small_stones
+x 1
+y 10
+end
+arch small_stones
+x 1
+y 11
+end
+arch crater
+x 1
+y 12
+end
+arch small_stones
+x 1
+y 13
+end
+arch small_stones
+x 1
+y 14
+end
+arch small_stones
+x 1
+y 15
+end
+arch swall_1_4
+x 1
+y 15
+end
+arch mountain
+x 2
+y 2
+end
+arch wasteland
+x 2
+y 3
+end
+arch small_stones
+x 2
+y 4
+end
+arch small_stones
+x 2
+y 5
+end
+arch crater
+x 2
+y 6
+end
+arch small_stones
+x 2
+y 7
+end
+arch small_stones
+x 2
+y 8
+end
+arch small_stones
+x 2
+y 9
+end
+arch ytree
+x 2
+y 9
+end
+arch small_stones
+x 2
+y 10
+end
+arch dirtroad_2_2_2
+x 2
+y 10
+end
+arch small_stones
+x 2
+y 11
+end
+arch dirtroad_2_1_1
+x 2
+y 11
+end
+arch small_stones
+x 2
+y 12
+end
+arch dirtroad_2_1_1
+x 2
+y 12
+end
+arch small_stones
+x 2
+y 13
+end
+arch dirtroad_2_2_1
+x 2
+y 13
+end
+arch small_stones
+x 2
+y 14
+end
+arch small_stones
+x 2
+y 15
+end
+arch swall_1_3
+x 2
+y 15
+end
+arch mountain
+x 3
+end
+arch mountain2
+x 3
+y 1
+end
+arch mountain
+x 3
+y 2
+end
+arch wasteland
+x 3
+y 3
+end
+arch small_stones
+x 3
+y 4
+end
+arch dirtroad_2_2_2
+x 3
+y 4
+end
+arch small_stones
+x 3
+y 5
+end
+arch dirtroad_2_1_1
+x 3
+y 5
+end
+arch small_stones
+x 3
+y 6
+end
+arch dirtroad_2_1_1
+x 3
+y 6
+end
+arch small_stones
+x 3
+y 7
+end
+arch dirtroad_2_1_1
+x 3
+y 7
+end
+arch small_stones
+x 3
+y 8
+end
+arch dirtroad_2_1_1
+x 3
+y 8
+end
+arch small_stones
+x 3
+y 9
+end
+arch dirtroad_2_1_1
+x 3
+y 9
+end
+arch small_stones
+x 3
+y 10
+end
+arch dirtroad_3_1
+x 3
+y 10
+end
+arch small_stones
+x 3
+y 11
+end
+arch hovels
+x 3
+y 11
+end
+arch small_stones
+x 3
+y 12
+end
+arch hovels
+x 3
+y 12
+end
+arch small_stones
+x 3
+y 13
+end
+arch dirtroad_3_3
+x 3
+y 13
+end
+arch small_stones
+x 3
+y 14
+end
+arch dirtroad_2_1_1
+x 3
+y 14
+end
+arch small_stones
+x 3
+y 15
+end
+arch dirtroad_2_1_1
+x 3
+y 15
+end
+arch invis_exit
+slaying /ElvenLands/Darkoth/darkland
+hp 4
+sp 3
+x 3
+y 15
+end
+arch mountain2
+x 4
+end
+arch mountain
+x 4
+y 1
+end
+arch mountain
+x 4
+y 2
+end
+arch wasteland
+x 4
+y 3
+end
+arch small_stones
+x 4
+y 4
+end
+arch dirtroad_1_3
+x 4
+y 4
+end
+arch small_stones
+x 4
+y 5
+end
+arch ytree_2
+x 4
+y 5
+end
+arch small_stones
+x 4
+y 6
+end
+arch small_stones
+x 4
+y 7
+end
+arch small_stones
+x 4
+y 8
+end
+arch small_stones
+x 4
+y 9
+end
+arch market1
+name Grung's store
+slaying /ElvenLands/Warmtown/shops
+hp 7
+sp 14
+x 4
+y 9
+end
+arch small_stones
+x 4
+y 10
+end
+arch dirtroad_1_4
+x 4
+y 10
+end
+arch small_stones
+x 4
+y 11
+end
+arch hovels
+x 4
+y 11
+end
+arch small_stones
+x 4
+y 12
+end
+arch hovels
+x 4
+y 12
+end
+arch small_stones
+x 4
+y 13
+end
+arch dirtroad_2_1_2
+x 4
+y 13
+end
+arch small_stones
+x 4
+y 14
+end
+arch ytree_2
+x 4
+y 14
+end
+arch small_stones
+x 4
+y 15
+end
+arch swall_1_4
+x 4
+y 15
+end
+arch mountain
+x 5
+end
+arch mountain2
+x 5
+y 1
+end
+arch mountain
+x 5
+y 2
+end
+arch wasteland
+x 5
+y 3
+end
+arch small_stones
+x 5
+y 4
+end
+arch dirtroad_1_3
+x 5
+y 4
+end
+arch small_stones
+x 5
+y 5
+end
+arch wasteland
+x 5
+y 6
+end
+arch small_stones
+x 5
+y 7
+end
+arch small_stones
+x 5
+y 8
+end
+arch small_stones
+x 5
+y 9
+end
+arch market3
+name Bolron's shop
+slaying /ElvenLands/Warmtown/shops
+hp 9
+sp 14
+x 5
+y 9
+end
+arch small_stones
+x 5
+y 10
+end
+arch dirtroad_1_4
+x 5
+y 10
+end
+arch small_stones
+x 5
+y 11
+end
+arch hovels
+x 5
+y 11
+end
+arch small_stones
+x 5
+y 12
+end
+arch hovels
+x 5
+y 12
+end
+arch small_stones
+x 5
+y 13
+end
+arch dirtroad_2_1_2
+x 5
+y 13
+end
+arch small_stones
+x 5
+y 14
+end
+arch small_stones
+x 5
+y 15
+end
+arch swall_1_3
+x 5
+y 15
+end
+arch mountain4
+x 6
+end
+arch mountain
+x 6
+y 1
+end
+arch mountain
+x 6
+y 2
+end
+arch wasteland
+x 6
+y 3
+end
+arch small_stones
+x 6
+y 4
+end
+arch dirtroad_1_3
+x 6
+y 4
+end
+arch small_stones
+x 6
+y 5
+end
+arch wasteland
+x 6
+y 6
+end
+arch crater
+x 6
+y 7
+end
+arch small_stones
+x 6
+y 8
+end
+arch small_stones
+x 6
+y 9
+end
+arch r_house2
+name healing house
+slaying /ElvenLands/Warmtown/heal
+hp 7
+sp 13
+x 6
+y 9
+end
+arch small_stones
+x 6
+y 10
+end
+arch dirtroad_1_4
+x 6
+y 10
+end
+arch small_stones
+x 6
+y 11
+end
+arch hovels
+x 6
+y 11
+end
+arch small_stones
+x 6
+y 12
+end
+arch hovels
+x 6
+y 12
+end
+arch small_stones
+x 6
+y 13
+end
+arch dirtroad_2_1_2
+x 6
+y 13
+end
+arch small_stones
+x 6
+y 14
+end
+arch wasteland
+x 6
+y 15
+end
+arch mountain4
+x 7
+end
+arch mountain
+x 7
+y 1
+end
+arch mountain4
+x 7
+y 2
+end
+arch wasteland
+x 7
+y 3
+end
+arch small_stones
+x 7
+y 4
+end
+arch dirtroad_1_3
+x 7
+y 4
+end
+arch wasteland
+x 7
+y 5
+end
+arch wasteland
+x 7
+y 6
+end
+arch small_stones
+x 7
+y 7
+end
+arch small_stones
+x 7
+y 8
+end
+arch small_stones
+x 7
+y 9
+end
+arch tavern
+slaying /ElvenLands/Warmtown/tavern
+hp 8
+sp 14
+x 7
+y 9
+end
+arch small_stones
+x 7
+y 10
+end
+arch dirtroad_1_4
+x 7
+y 10
+end
+arch small_stones
+x 7
+y 11
+end
+arch hovels
+x 7
+y 11
+end
+arch small_stones
+x 7
+y 12
+end
+arch hovels
+x 7
+y 12
+end
+arch small_stones
+x 7
+y 13
+end
+arch dirtroad_2_1_2
+x 7
+y 13
+end
+arch small_stones
+x 7
+y 14
+end
+arch wasteland
+x 7
+y 15
+end
+arch mountain
+x 8
+end
+arch mountain
+x 8
+y 1
+end
+arch mountain
+x 8
+y 2
+end
+arch wasteland
+x 8
+y 3
+end
+arch small_stones
+x 8
+y 4
+end
+arch dirtroad_1_3
+x 8
+y 4
+end
+arch wasteland
+x 8
+y 5
+end
+arch wasteland
+x 8
+y 6
+end
+arch small_stones
+x 8
+y 7
+end
+arch small_stones
+x 8
+y 8
+end
+arch small_stones
+x 8
+y 9
+end
+arch small_temple2
+name bank
+slaying /ElvenLands/Warmtown/bank
+hp 3
+sp 5
+x 8
+y 9
+end
+arch small_stones
+x 8
+y 10
+end
+arch dirtroad_1_4
+x 8
+y 10
+end
+arch small_stones
+x 8
+y 11
+end
+arch hovels
+x 8
+y 11
+end
+arch small_stones
+x 8
+y 12
+end
+arch hovels
+x 8
+y 12
+end
+arch small_stones
+x 8
+y 13
+end
+arch dirtroad_2_1_2
+x 8
+y 13
+end
+arch small_stones
+x 8
+y 14
+end
+arch wasteland
+x 8
+y 15
+end
+arch mountain
+x 9
+end
+arch mountain
+x 9
+y 1
+end
+arch mountain
+x 9
+y 2
+end
+arch wasteland
+x 9
+y 3
+end
+arch small_stones
+x 9
+y 4
+end
+arch dirtroad_1_3
+x 9
+y 4
+end
+arch wasteland
+x 9
+y 5
+end
+arch wasteland
+x 9
+y 6
+end
+arch small_stones
+x 9
+y 7
+end
+arch small_stones
+x 9
+y 8
+end
+arch small_stones
+x 9
+y 9
+end
+arch house_1
+name inn
+slaying /ElvenLands/Warmtown/inn
+hp 3
+sp 5
+x 9
+y 9
+end
+arch small_stones
+x 9
+y 10
+end
+arch dirtroad_1_4
+x 9
+y 10
+end
+arch small_stones
+x 9
+y 11
+end
+arch hovels
+x 9
+y 11
+end
+arch small_stones
+x 9
+y 12
+end
+arch hovels
+x 9
+y 12
+end
+arch small_stones
+x 9
+y 13
+end
+arch dirtroad_2_1_2
+x 9
+y 13
+end
+arch crater
+x 9
+y 14
+end
+arch wasteland
+x 9
+y 15
+end
+arch mountain
+x 10
+end
+arch mountain
+x 10
+y 1
+end
+arch mountain
+x 10
+y 2
+end
+arch wasteland
+x 10
+y 3
+end
+arch small_stones
+x 10
+y 4
+end
+arch dirtroad_1_3
+x 10
+y 4
+end
+arch wasteland
+x 10
+y 5
+end
+arch wasteland
+x 10
+y 6
+end
+arch small_stones
+x 10
+y 7
+end
+arch small_stones
+x 10
+y 8
+end
+arch small_stones
+x 10
+y 9
+end
+arch small_temple
+slaying /ElvenLands/Warmtown/temple
+hp 7
+sp 13
+x 10
+y 9
+end
+arch small_stones
+x 10
+y 10
+end
+arch dirtroad_1_4
+x 10
+y 10
+end
+arch small_stones
+x 10
+y 11
+end
+arch hovels
+x 10
+y 11
+end
+arch small_stones
+x 10
+y 12
+end
+arch hovels
+x 10
+y 12
+end
+arch small_stones
+x 10
+y 13
+end
+arch dirtroad_2_1_2
+x 10
+y 13
+end
+arch small_stones
+x 10
+y 14
+end
+arch wasteland
+x 10
+y 15
+end
+arch mountain
+x 11
+end
+arch mountain
+x 11
+y 1
+end
+arch mountain_cave
+slaying /ElvenLands/passage2
+hp 12
+sp 1
+x 11
+y 2
+end
+arch small_stones
+x 11
+y 3
+end
+arch dirtroad_1_1
+x 11
+y 3
+end
+arch small_stones
+x 11
+y 4
+end
+arch dirtroad_2_2_4
+x 11
+y 4
+end
+arch wasteland
+x 11
+y 5
+end
+arch wasteland
+x 11
+y 6
+end
+arch small_stones
+x 11
+y 7
+end
+arch small_stones
+x 11
+y 8
+end
+arch small_stones
+x 11
+y 9
+end
+arch small_stones
+x 11
+y 10
+end
+arch dirtroad_3_3
+x 11
+y 10
+end
+arch small_stones
+x 11
+y 11
+end
+arch dirtroad_2_1_1
+x 11
+y 11
+end
+arch small_stones
+x 11
+y 12
+end
+arch dirtroad_2_1_1
+x 11
+y 12
+end
+arch small_stones
+x 11
+y 13
+end
+arch dirtroad_2_2_4
+x 11
+y 13
+end
+arch small_stones
+x 11
+y 14
+end
+arch wasteland
+x 11
+y 15
+end
+arch mountain
+x 12
+end
+arch mountain
+x 12
+y 1
+end
+arch mountain
+x 12
+y 2
+end
+arch wasteland
+x 12
+y 3
+end
+arch small_stones
+x 12
+y 4
+end
+arch ytree_2
+x 12
+y 4
+end
+arch wasteland
+x 12
+y 5
+end
+arch wasteland
+x 12
+y 6
+end
+arch small_stones
+x 12
+y 7
+end
+arch ytree_2
+x 12
+y 7
+end
+arch small_stones
+x 12
+y 8
+end
+arch crater
+x 12
+y 9
+end
+arch small_stones
+x 12
+y 10
+end
+arch dirtroad_2_1_2
+x 12
+y 10
+end
+arch small_stones
+x 12
+y 11
+end
+arch ytree
+x 12
+y 11
+end
+arch small_stones
+x 12
+y 12
+end
+arch small_stones
+x 12
+y 13
+end
+arch woodhouse
+name house
+slaying /ElvenLands/Warmtown/lavahut
+hp 1
+sp 1
+x 12
+y 13
+end
+arch permanent_lava
+x 12
+y 14
+end
+arch wasteland
+x 12
+y 15
+end
+arch mountain
+x 13
+end
+arch mountain
+x 13
+y 1
+end
+arch mountain
+x 13
+y 2
+end
+arch wasteland
+x 13
+y 3
+end
+arch wasteland
+x 13
+y 4
+end
+arch wasteland
+x 13
+y 5
+end
+arch wasteland
+x 13
+y 6
+end
+arch wasteland
+x 13
+y 7
+end
+arch wasteland
+x 13
+y 8
+end
+arch small_stones
+x 13
+y 9
+end
+arch darkhold_sym
+slaying //ElvenLands/Warmtown/hold_1
+hp 7
+sp 14
+x 13
+y 9
+end
+arch small_stones
+x 13
+y 10
+end
+arch dirtroad_2_2_4
+x 13
+y 10
+end
+arch small_stones
+x 13
+y 11
+end
+arch permanent_lava
+x 13
+y 12
+end
+arch permanent_lava
+x 13
+y 13
+end
+arch permanent_lava
+x 13
+y 14
+end
+arch wasteland
+x 13
+y 15
+end
+arch mountain
+x 14
+end
+arch mountain
+x 14
+y 1
+end
+arch mountain
+x 14
+y 2
+end
+arch wasteland
+x 14
+y 3
+end
+arch wasteland
+x 14
+y 4
+end
+arch wasteland
+x 14
+y 5
+end
+arch wasteland
+x 14
+y 6
+end
+arch wasteland
+x 14
+y 7
+end
+arch wasteland
+x 14
+y 8
+end
+arch wasteland
+x 14
+y 9
+end
+arch wasteland
+x 14
+y 10
+end
+arch wasteland
+x 14
+y 11
+end
+arch wasteland
+x 14
+y 12
+end
+arch wasteland
+x 14
+y 13
+end
+arch wasteland
+x 14
+y 14
+end
+arch wasteland
+x 14
+y 15
+end
+arch mountain
+x 15
+end
+arch mountain
+x 15
+y 1
+end
+arch mountain
+x 15
+y 2
+end
+arch wasteland
+x 15
+y 3
+end
+arch wasteland
+x 15
+y 4
+end
+arch wasteland
+x 15
+y 5
+end
+arch wasteland
+x 15
+y 6
+end
+arch wasteland
+x 15
+y 7
+end
+arch wasteland
+x 15
+y 8
+end
+arch wasteland
+x 15
+y 9
+end
+arch wasteland
+x 15
+y 10
+end
+arch wasteland
+x 15
+y 11
+end
+arch wasteland
+x 15
+y 12
+end
+arch wasteland
+x 15
+y 13
+end
+arch wasteland
+x 15
+y 14
+end
+arch wasteland
+x 15
+y 15
+end
+arch mountain_2
+x 1
+end

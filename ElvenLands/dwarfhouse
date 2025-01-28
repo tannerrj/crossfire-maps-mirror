@@ -1,0 +1,1229 @@
+arch map
+msg
+Creator: Gnat the Gnu
+Email: gnu@foo.bar
+Date: Sat Aug 14 21:27:15 1999
+endmsg
+width 16
+height 16
+end
+arch oakdoor
+slaying /ElvenLands/Yoer/city/city
+hp 24
+sp 33
+end
+arch dwarf
+y 1
+end
+arch dwarf
+y 2
+end
+arch dwarf
+y 3
+end
+arch potionstr
+y 4
+end
+arch dwarf
+y 4
+end
+arch dwarf
+y 5
+end
+arch potion_heal
+y 6
+end
+arch dwarf_priest
+y 6
+end
+arch dwarf_priest
+y 7
+end
+arch dwarf_priest
+y 8
+end
+arch dwarf_priest
+y 9
+end
+arch dwarf_wiz
+y 10
+end
+arch potionpow
+y 11
+end
+arch dwarf_wiz
+y 11
+end
+arch dwarf_wiz
+y 12
+end
+arch lesser_dwarven_guard
+y 13
+end
+arch lesser_dwarven_guard
+y 14
+end
+arch greater_dwarven_guard
+y 15
+end
+arch dwarf
+x 1
+end
+arch dwarf
+x 1
+y 1
+end
+arch potion_heroism
+x 1
+y 2
+end
+arch dwarf
+x 1
+y 2
+end
+arch dwarf
+x 1
+y 3
+end
+arch dwarf
+x 1
+y 4
+end
+arch dwarf
+x 1
+y 5
+end
+arch dwarf_priest
+x 1
+y 6
+end
+arch potion_cold
+x 1
+y 7
+end
+arch dwarf_priest
+x 1
+y 7
+end
+arch potion_improve
+x 1
+y 8
+end
+arch dwarf_priest
+x 1
+y 8
+end
+arch potionstr
+x 1
+y 9
+end
+arch dwarf_priest
+x 1
+y 9
+end
+arch dwarf_wiz
+x 1
+y 10
+end
+arch dwarf_wiz
+x 1
+y 11
+end
+arch dwarf_wiz
+x 1
+y 12
+end
+arch lesser_dwarven_guard
+x 1
+y 13
+end
+arch lesser_dwarven_guard
+x 1
+y 14
+end
+arch greater_dwarven_guard
+x 1
+y 15
+end
+arch dwarf
+x 2
+end
+arch dwarf
+x 2
+y 1
+end
+arch potioncha
+x 2
+y 2
+end
+arch dwarf
+x 2
+y 2
+end
+arch dwarf
+x 2
+y 3
+end
+arch potion_fire
+x 2
+y 4
+end
+arch dwarf
+x 2
+y 4
+end
+arch dwarf
+x 2
+y 5
+end
+arch dwarf_priest
+x 2
+y 6
+end
+arch dwarf_priest
+x 2
+y 7
+end
+arch dwarf_priest
+x 2
+y 8
+end
+arch dwarf_priest
+x 2
+y 9
+end
+arch dwarf_wiz
+x 2
+y 10
+end
+arch potion_generic
+x 2
+y 11
+end
+arch dwarf_wiz
+x 2
+y 11
+end
+arch dwarf_wiz
+x 2
+y 12
+end
+arch potion_restoration
+x 2
+y 13
+end
+arch lesser_dwarven_guard
+x 2
+y 13
+end
+arch lesser_dwarven_guard
+x 2
+y 14
+end
+arch potion_invulnerability
+x 2
+y 15
+end
+arch greater_dwarven_guard
+x 2
+y 15
+end
+arch dwarf
+x 3
+end
+arch potion_heroism
+x 3
+y 1
+end
+arch dwarf
+x 3
+y 1
+end
+arch dwarf
+x 3
+y 2
+end
+arch dwarf
+x 3
+y 3
+end
+arch dwarf
+x 3
+y 4
+end
+arch dwarf
+x 3
+y 5
+end
+arch potion_generic
+x 3
+y 6
+end
+arch dwarf_priest
+x 3
+y 6
+end
+arch dwarf_priest
+x 3
+y 7
+end
+arch dwarf_priest
+x 3
+y 8
+end
+arch dwarf_priest
+x 3
+y 9
+end
+arch potion_generic
+x 3
+y 10
+end
+arch dwarf_wiz
+x 3
+y 10
+end
+arch potiondex
+x 3
+y 11
+end
+arch dwarf_wiz
+x 3
+y 11
+end
+arch dwarf_wiz
+x 3
+y 12
+end
+arch lesser_dwarven_guard
+x 3
+y 13
+end
+arch potiondex
+x 3
+y 14
+end
+arch lesser_dwarven_guard
+x 3
+y 14
+end
+arch greater_dwarven_guard
+x 3
+y 15
+end
+arch dwarf
+x 4
+end
+arch dwarf
+x 4
+y 1
+end
+arch potion_improve
+x 4
+y 2
+end
+arch dwarf
+x 4
+y 2
+end
+arch potionstr
+x 4
+y 3
+end
+arch dwarf
+x 4
+y 3
+end
+arch potiondex
+x 4
+y 4
+end
+arch dwarf
+x 4
+y 4
+end
+arch dwarf
+x 4
+y 5
+end
+arch dwarf_priest
+x 4
+y 6
+end
+arch dwarf_priest
+x 4
+y 7
+end
+arch dwarf_priest
+x 4
+y 8
+end
+arch dwarf_priest
+x 4
+y 9
+end
+arch dwarf_wiz
+x 4
+y 10
+end
+arch dwarf_wiz
+x 4
+y 11
+end
+arch potionpow
+x 4
+y 12
+end
+arch dwarf_wiz
+x 4
+y 12
+end
+arch lesser_dwarven_guard
+x 4
+y 13
+end
+arch lesser_dwarven_guard
+x 4
+y 14
+end
+arch greater_dwarven_guard
+x 4
+y 15
+end
+arch dwarf
+x 5
+end
+arch dwarf
+x 5
+y 1
+end
+arch dwarf
+x 5
+y 2
+end
+arch dwarf
+x 5
+y 3
+end
+arch dwarf
+x 5
+y 4
+end
+arch dwarf
+x 5
+y 5
+end
+arch dwarf_priest
+x 5
+y 6
+end
+arch dwarf_priest
+x 5
+y 7
+end
+arch potionwis
+x 5
+y 8
+end
+arch dwarf_priest
+x 5
+y 8
+end
+arch dwarf_priest
+x 5
+y 9
+end
+arch potiondex
+x 5
+y 10
+end
+arch dwarf_wiz
+x 5
+y 10
+end
+arch dwarf_wiz
+x 5
+y 11
+end
+arch potion_generic
+x 5
+y 12
+end
+arch dwarf_wiz
+x 5
+y 12
+end
+arch potioncha
+x 5
+y 13
+end
+arch lesser_dwarven_guard
+x 5
+y 13
+end
+arch lesser_dwarven_guard
+x 5
+y 14
+end
+arch greater_dwarven_guard
+x 5
+y 15
+end
+arch dwarf_priest
+x 6
+end
+arch dwarf_priest
+x 6
+y 1
+end
+arch dwarf_priest
+x 6
+y 2
+end
+arch potionwis
+x 6
+y 3
+end
+arch dwarf_priest
+x 6
+y 3
+end
+arch dwarf_priest
+x 6
+y 4
+end
+arch dwarf_priest
+x 6
+y 5
+end
+arch dwarf_priest
+x 6
+y 6
+end
+arch potion_invulnerability
+x 6
+y 7
+end
+arch dwarf_priest
+x 6
+y 7
+end
+arch dwarf_priest
+x 6
+y 8
+end
+arch dwarf_priest
+x 6
+y 9
+end
+arch dwarf_wiz
+x 6
+y 10
+end
+arch dwarf_wiz
+x 6
+y 11
+end
+arch dwarf_wiz
+x 6
+y 12
+end
+arch potionwis
+x 6
+y 13
+end
+arch lesser_dwarven_guard
+x 6
+y 13
+end
+arch lesser_dwarven_guard
+x 6
+y 14
+end
+arch greater_dwarven_guard
+x 6
+y 15
+end
+arch dwarf_priest
+x 7
+end
+arch dwarf_priest
+x 7
+y 1
+end
+arch dwarf_priest
+x 7
+y 2
+end
+arch dwarf_priest
+x 7
+y 3
+end
+arch dwarf_priest
+x 7
+y 4
+end
+arch potionpow
+x 7
+y 5
+end
+arch dwarf_priest
+x 7
+y 5
+end
+arch potiondex
+x 7
+y 6
+end
+arch dwarf_priest
+x 7
+y 6
+end
+arch dwarf_priest
+x 7
+y 7
+end
+arch dwarf_priest
+x 7
+y 8
+end
+arch dwarf_priest
+x 7
+y 9
+end
+arch dwarf_wiz
+x 7
+y 10
+end
+arch dwarf_wiz
+x 7
+y 11
+end
+arch dwarf_wiz
+x 7
+y 12
+end
+arch lesser_dwarven_guard
+x 7
+y 13
+end
+arch lesser_dwarven_guard
+x 7
+y 14
+end
+arch potion_heal
+x 7
+y 15
+end
+arch greater_dwarven_guard
+x 7
+y 15
+end
+arch dwarf_priest
+x 8
+end
+arch potionint
+x 8
+y 1
+end
+arch dwarf_priest
+x 8
+y 1
+end
+arch dwarf_priest
+x 8
+y 2
+end
+arch potion_cold
+x 8
+y 3
+end
+arch dwarf_priest
+x 8
+y 3
+end
+arch dwarf_priest
+x 8
+y 4
+end
+arch potiondex
+x 8
+y 5
+end
+arch dwarf_priest
+x 8
+y 5
+end
+arch dwarf_priest
+x 8
+y 6
+end
+arch dwarf_priest
+x 8
+y 7
+end
+arch dwarf_priest
+x 8
+y 8
+end
+arch dwarf_priest
+x 8
+y 9
+end
+arch potioncon
+x 8
+y 10
+end
+arch dwarf_wiz
+x 8
+y 10
+end
+arch dwarf_wiz
+x 8
+y 11
+end
+arch potion_generic
+x 8
+y 12
+end
+arch dwarf_wiz
+x 8
+y 12
+end
+arch lesser_dwarven_guard
+x 8
+y 13
+end
+arch lesser_dwarven_guard
+x 8
+y 14
+end
+arch greater_dwarven_guard
+x 8
+y 15
+end
+arch dwarf_priest
+x 9
+end
+arch dwarf_priest
+x 9
+y 1
+end
+arch potionint
+x 9
+y 2
+end
+arch dwarf_priest
+x 9
+y 2
+end
+arch dwarf_priest
+x 9
+y 3
+end
+arch dwarf_priest
+x 9
+y 4
+end
+arch dwarf_priest
+x 9
+y 5
+end
+arch potioncon
+x 9
+y 6
+end
+arch dwarf_priest
+x 9
+y 6
+end
+arch potionwis
+x 9
+y 7
+end
+arch dwarf_priest
+x 9
+y 7
+end
+arch potionwis
+x 9
+y 8
+end
+arch dwarf_priest
+x 9
+y 8
+end
+arch dwarf_priest
+x 9
+y 9
+end
+arch dwarf_wiz
+x 9
+y 10
+end
+arch dwarf_wiz
+x 9
+y 11
+end
+arch dwarf_wiz
+x 9
+y 12
+end
+arch potionstr
+x 9
+y 13
+end
+arch lesser_dwarven_guard
+x 9
+y 13
+end
+arch potion_cold
+x 9
+y 14
+end
+arch lesser_dwarven_guard
+x 9
+y 14
+end
+arch greater_dwarven_guard
+x 9
+y 15
+end
+arch dwarf_wiz
+x 10
+end
+arch dwarf_wiz
+x 10
+y 1
+end
+arch dwarf_wiz
+x 10
+y 2
+end
+arch potion_generic
+x 10
+y 3
+end
+arch dwarf_wiz
+x 10
+y 3
+end
+arch dwarf_wiz
+x 10
+y 4
+end
+arch potioncon
+x 10
+y 5
+end
+arch dwarf_wiz
+x 10
+y 5
+end
+arch dwarf_wiz
+x 10
+y 6
+end
+arch dwarf_wiz
+x 10
+y 7
+end
+arch dwarf_wiz
+x 10
+y 8
+end
+arch potion_heal
+x 10
+y 9
+end
+arch dwarf_wiz
+x 10
+y 9
+end
+arch dwarf_wiz
+x 10
+y 10
+end
+arch dwarf_wiz
+x 10
+y 11
+end
+arch dwarf_wiz
+x 10
+y 12
+end
+arch potion_cold
+x 10
+y 13
+end
+arch lesser_dwarven_guard
+x 10
+y 13
+end
+arch lesser_dwarven_guard
+x 10
+y 14
+end
+arch greater_dwarven_guard
+x 10
+y 15
+end
+arch dwarf_wiz
+x 11
+end
+arch dwarf_wiz
+x 11
+y 1
+end
+arch dwarf_wiz
+x 11
+y 2
+end
+arch dwarf_wiz
+x 11
+y 3
+end
+arch potion_fire
+x 11
+y 4
+end
+arch dwarf_wiz
+x 11
+y 4
+end
+arch dwarf_wiz
+x 11
+y 5
+end
+arch dwarf_wiz
+x 11
+y 6
+end
+arch dwarf_wiz
+x 11
+y 7
+end
+arch dwarf_wiz
+x 11
+y 8
+end
+arch dwarf_wiz
+x 11
+y 9
+end
+arch dwarf_wiz
+x 11
+y 10
+end
+arch potioncha
+x 11
+y 11
+end
+arch dwarf_wiz
+x 11
+y 11
+end
+arch dwarf_wiz
+x 11
+y 12
+end
+arch lesser_dwarven_guard
+x 11
+y 13
+end
+arch lesser_dwarven_guard
+x 11
+y 14
+end
+arch greater_dwarven_guard
+x 11
+y 15
+end
+arch dwarf_wiz
+x 12
+end
+arch dwarf_wiz
+x 12
+y 1
+end
+arch dwarf_wiz
+x 12
+y 2
+end
+arch potion_invulnerability
+x 12
+y 3
+end
+arch dwarf_wiz
+x 12
+y 3
+end
+arch dwarf_wiz
+x 12
+y 4
+end
+arch dwarf_wiz
+x 12
+y 5
+end
+arch dwarf_wiz
+x 12
+y 6
+end
+arch potionpow
+x 12
+y 7
+end
+arch dwarf_wiz
+x 12
+y 7
+end
+arch dwarf_wiz
+x 12
+y 8
+end
+arch dwarf_wiz
+x 12
+y 9
+end
+arch dwarf_wiz
+x 12
+y 10
+end
+arch potion_magic
+x 12
+y 11
+end
+arch dwarf_wiz
+x 12
+y 11
+end
+arch dwarf_wiz
+x 12
+y 12
+end
+arch potiondex
+x 12
+y 13
+end
+arch lesser_dwarven_guard
+x 12
+y 13
+end
+arch lesser_dwarven_guard
+x 12
+y 14
+end
+arch greater_dwarven_guard
+x 12
+y 15
+end
+arch lesser_dwarven_guard
+x 13
+end
+arch lesser_dwarven_guard
+x 13
+y 1
+end
+arch lesser_dwarven_guard
+x 13
+y 2
+end
+arch potionint
+x 13
+y 3
+end
+arch lesser_dwarven_guard
+x 13
+y 3
+end
+arch potiondex
+x 13
+y 4
+end
+arch lesser_dwarven_guard
+x 13
+y 4
+end
+arch lesser_dwarven_guard
+x 13
+y 5
+end
+arch potion_generic
+x 13
+y 6
+end
+arch lesser_dwarven_guard
+x 13
+y 6
+end
+arch lesser_dwarven_guard
+x 13
+y 7
+end
+arch lesser_dwarven_guard
+x 13
+y 8
+end
+arch lesser_dwarven_guard
+x 13
+y 9
+end
+arch lesser_dwarven_guard
+x 13
+y 10
+end
+arch lesser_dwarven_guard
+x 13
+y 11
+end
+arch lesser_dwarven_guard
+x 13
+y 12
+end
+arch lesser_dwarven_guard
+x 13
+y 13
+end
+arch lesser_dwarven_guard
+x 13
+y 14
+end
+arch greater_dwarven_guard
+x 13
+y 15
+end
+arch lesser_dwarven_guard
+x 14
+end
+arch lesser_dwarven_guard
+x 14
+y 1
+end
+arch lesser_dwarven_guard
+x 14
+y 2
+end
+arch lesser_dwarven_guard
+x 14
+y 3
+end
+arch lesser_dwarven_guard
+x 14
+y 4
+end
+arch lesser_dwarven_guard
+x 14
+y 5
+end
+arch lesser_dwarven_guard
+x 14
+y 6
+end
+arch lesser_dwarven_guard
+x 14
+y 7
+end
+arch lesser_dwarven_guard
+x 14
+y 8
+end
+arch lesser_dwarven_guard
+x 14
+y 9
+end
+arch lesser_dwarven_guard
+x 14
+y 10
+end
+arch lesser_dwarven_guard
+x 14
+y 11
+end
+arch lesser_dwarven_guard
+x 14
+y 12
+end
+arch lesser_dwarven_guard
+x 14
+y 13
+end
+arch lesser_dwarven_guard
+x 14
+y 14
+end
+arch potionwis
+x 14
+y 15
+end
+arch greater_dwarven_guard
+x 14
+y 15
+end
+arch greater_dwarven_guard
+x 15
+end
+arch greater_dwarven_guard
+x 15
+y 1
+end
+arch greater_dwarven_guard
+x 15
+y 2
+end
+arch greater_dwarven_guard
+x 15
+y 3
+end
+arch greater_dwarven_guard
+x 15
+y 4
+end
+arch greater_dwarven_guard
+x 15
+y 5
+end
+arch greater_dwarven_guard
+x 15
+y 6
+end
+arch greater_dwarven_guard
+x 15
+y 7
+end
+arch greater_dwarven_guard
+x 15
+y 8
+end
+arch greater_dwarven_guard
+x 15
+y 9
+end
+arch greater_dwarven_guard
+x 15
+y 10
+end
+arch greater_dwarven_guard
+x 15
+y 11
+end
+arch greater_dwarven_guard
+x 15
+y 12
+end
+arch greater_dwarven_guard
+x 15
+y 13
+end
+arch greater_dwarven_guard
+x 15
+y 14
+end
+arch potionstr
+x 15
+y 15
+end
+arch greater_dwarven_guard
+x 15
+y 15
+end

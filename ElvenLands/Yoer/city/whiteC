@@ -1,0 +1,6271 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun May 13 00:32:42 2001
+endmsg
+width 27
+height 21
+end
+arch cobblestones2
+end
+arch dwall_2_2_2
+end
+arch cobblestones2
+y 1
+end
+arch dwall_2_1_1
+y 1
+end
+arch cobblestones2
+y 2
+end
+arch dwall_2_1_1
+y 2
+end
+arch cobblestones2
+y 3
+end
+arch dwall_2_1_1
+y 3
+end
+arch cobblestones2
+y 4
+end
+arch dwall_2_1_1
+y 4
+end
+arch cobblestones2
+y 5
+end
+arch dwall_2_1_1
+y 5
+end
+arch cobblestones2
+y 6
+end
+arch dwall_2_1_1
+y 6
+end
+arch cobblestones2
+y 7
+end
+arch dwall_2_1_1
+y 7
+end
+arch cobblestones2
+y 8
+end
+arch dwall_2_1_1
+y 8
+end
+arch cobblestones2
+y 9
+end
+arch dwall_2_1_1
+y 9
+end
+arch cobblestones2
+y 10
+end
+arch dwall_2_1_1
+y 10
+end
+arch cobblestones2
+y 11
+end
+arch dwall_2_1_1
+y 11
+end
+arch cobblestones2
+y 12
+end
+arch dwall_2_1_1
+y 12
+end
+arch cobblestones2
+y 13
+end
+arch dwall_2_1_1
+y 13
+end
+arch cobblestones2
+y 14
+end
+arch dwall_2_1_1
+y 14
+end
+arch cobblestones2
+y 15
+end
+arch dwall_2_1_1
+y 15
+end
+arch cobblestones2
+y 16
+end
+arch dwall_2_1_1
+y 16
+end
+arch cobblestones2
+y 17
+end
+arch dwall_2_1_1
+y 17
+end
+arch cobblestones2
+y 18
+end
+arch dwall_2_1_1
+y 18
+end
+arch cobblestones2
+y 19
+end
+arch dwall_2_1_1
+y 19
+end
+arch cobblestones2
+y 20
+end
+arch dwall_2_2_1
+y 20
+end
+arch cobblestones2
+x 1
+end
+arch dwall_2_1_2
+x 1
+end
+arch cobblestones2
+x 1
+y 1
+end
+arch stair_3_down
+slaying white9
+hp 1
+sp 1
+x 1
+y 1
+end
+arch unholy_ground
+x 1
+y 1
+end
+arch dungeon_magic
+x 1
+y 1
+end
+arch magic_mouth
+msg
+You feel a vast amount of power close
+by.
+endmsg
+x 1
+y 1
+end
+arch cobblestones2
+x 1
+y 2
+end
+arch unholy_ground
+x 1
+y 2
+end
+arch dungeon_magic
+x 1
+y 2
+end
+arch cobblestones2
+x 1
+y 3
+end
+arch grate_closed_1
+x 1
+y 3
+connected 1
+end
+arch magic_banned
+x 1
+y 3
+end
+arch unholy_ground
+x 1
+y 3
+end
+arch dungeon_magic
+x 1
+y 3
+end
+arch cobblestones2
+x 1
+y 4
+end
+arch unholy_ground
+x 1
+y 4
+end
+arch dungeon_magic
+x 1
+y 4
+end
+arch cobblestones2
+x 1
+y 5
+end
+arch unholy_ground
+x 1
+y 5
+end
+arch dungeon_magic
+x 1
+y 5
+end
+arch cobblestones2
+x 1
+y 6
+end
+arch unholy_ground
+x 1
+y 6
+end
+arch dungeon_magic
+x 1
+y 6
+end
+arch cobblestones2
+x 1
+y 7
+end
+arch unholy_ground
+x 1
+y 7
+end
+arch dungeon_magic
+x 1
+y 7
+end
+arch cobblestones2
+x 1
+y 8
+end
+arch unholy_ground
+x 1
+y 8
+end
+arch dungeon_magic
+x 1
+y 8
+end
+arch cobblestones2
+x 1
+y 9
+end
+arch unholy_ground
+x 1
+y 9
+end
+arch dungeon_magic
+x 1
+y 9
+end
+arch cobblestones2
+x 1
+y 10
+end
+arch unholy_ground
+x 1
+y 10
+end
+arch dungeon_magic
+x 1
+y 10
+end
+arch cobblestones2
+x 1
+y 11
+end
+arch unholy_ground
+x 1
+y 11
+end
+arch dungeon_magic
+x 1
+y 11
+end
+arch cobblestones2
+x 1
+y 12
+end
+arch unholy_ground
+x 1
+y 12
+end
+arch dungeon_magic
+x 1
+y 12
+end
+arch cobblestones2
+x 1
+y 13
+end
+arch unholy_ground
+x 1
+y 13
+end
+arch dungeon_magic
+x 1
+y 13
+end
+arch cobblestones2
+x 1
+y 14
+end
+arch unholy_ground
+x 1
+y 14
+end
+arch dungeon_magic
+x 1
+y 14
+end
+arch cobblestones2
+x 1
+y 15
+end
+arch unholy_ground
+x 1
+y 15
+end
+arch dungeon_magic
+x 1
+y 15
+end
+arch cobblestones2
+x 1
+y 16
+end
+arch unholy_ground
+x 1
+y 16
+end
+arch dungeon_magic
+x 1
+y 16
+end
+arch cobblestones2
+x 1
+y 17
+end
+arch grate_closed_1
+x 1
+y 17
+connected 1
+end
+arch magic_banned
+x 1
+y 17
+end
+arch unholy_ground
+x 1
+y 17
+end
+arch dungeon_magic
+x 1
+y 17
+end
+arch cobblestones2
+x 1
+y 18
+end
+arch unholy_ground
+x 1
+y 18
+end
+arch dungeon_magic
+x 1
+y 18
+end
+arch cobblestones2
+x 1
+y 19
+end
+arch stair_3_down
+slaying white9
+hp 1
+sp 28
+x 1
+y 19
+end
+arch unholy_ground
+x 1
+y 19
+end
+arch dungeon_magic
+x 1
+y 19
+end
+arch magic_mouth
+msg
+You feel a vast amount of power close
+by.
+endmsg
+x 1
+y 19
+end
+arch cobblestones2
+x 1
+y 20
+end
+arch dwall_2_1_2
+x 1
+y 20
+end
+arch cobblestones2
+x 2
+end
+arch dwall_2_1_2
+x 2
+end
+arch cobblestones2
+x 2
+y 1
+end
+arch unholy_ground
+x 2
+y 1
+end
+arch dungeon_magic
+x 2
+y 1
+end
+arch cobblestones2
+x 2
+y 2
+end
+arch unholy_ground
+x 2
+y 2
+end
+arch dungeon_magic
+x 2
+y 2
+end
+arch cobblestones2
+x 2
+y 3
+end
+arch grate_closed_1
+x 2
+y 3
+connected 1
+end
+arch magic_banned
+x 2
+y 3
+end
+arch unholy_ground
+x 2
+y 3
+end
+arch dungeon_magic
+x 2
+y 3
+end
+arch cobblestones2
+x 2
+y 4
+end
+arch unholy_ground
+x 2
+y 4
+end
+arch dungeon_magic
+x 2
+y 4
+end
+arch cobblestones2
+x 2
+y 5
+end
+arch unholy_ground
+x 2
+y 5
+end
+arch dungeon_magic
+x 2
+y 5
+end
+arch cobblestones2
+x 2
+y 6
+end
+arch unholy_ground
+x 2
+y 6
+end
+arch dungeon_magic
+x 2
+y 6
+end
+arch cobblestones2
+x 2
+y 7
+end
+arch unholy_ground
+x 2
+y 7
+end
+arch dungeon_magic
+x 2
+y 7
+end
+arch cobblestones2
+x 2
+y 8
+end
+arch unholy_ground
+x 2
+y 8
+end
+arch dungeon_magic
+x 2
+y 8
+end
+arch cobblestones2
+x 2
+y 9
+end
+arch unholy_ground
+x 2
+y 9
+end
+arch dungeon_magic
+x 2
+y 9
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 2
+y 9
+end
+arch cobblestones2
+x 2
+y 10
+end
+arch unholy_ground
+x 2
+y 10
+end
+arch dungeon_magic
+x 2
+y 10
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 2
+y 10
+end
+arch cobblestones2
+x 2
+y 11
+end
+arch unholy_ground
+x 2
+y 11
+end
+arch dungeon_magic
+x 2
+y 11
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 2
+y 11
+end
+arch cobblestones2
+x 2
+y 12
+end
+arch unholy_ground
+x 2
+y 12
+end
+arch dungeon_magic
+x 2
+y 12
+end
+arch cobblestones2
+x 2
+y 13
+end
+arch unholy_ground
+x 2
+y 13
+end
+arch dungeon_magic
+x 2
+y 13
+end
+arch cobblestones2
+x 2
+y 14
+end
+arch unholy_ground
+x 2
+y 14
+end
+arch dungeon_magic
+x 2
+y 14
+end
+arch cobblestones2
+x 2
+y 15
+end
+arch unholy_ground
+x 2
+y 15
+end
+arch dungeon_magic
+x 2
+y 15
+end
+arch cobblestones2
+x 2
+y 16
+end
+arch unholy_ground
+x 2
+y 16
+end
+arch dungeon_magic
+x 2
+y 16
+end
+arch cobblestones2
+x 2
+y 17
+end
+arch grate_closed_1
+x 2
+y 17
+connected 1
+end
+arch magic_banned
+x 2
+y 17
+end
+arch unholy_ground
+x 2
+y 17
+end
+arch dungeon_magic
+x 2
+y 17
+end
+arch cobblestones2
+x 2
+y 18
+end
+arch unholy_ground
+x 2
+y 18
+end
+arch dungeon_magic
+x 2
+y 18
+end
+arch cobblestones2
+x 2
+y 19
+end
+arch unholy_ground
+x 2
+y 19
+end
+arch dungeon_magic
+x 2
+y 19
+end
+arch cobblestones2
+x 2
+y 20
+end
+arch dwall_2_1_2
+x 2
+y 20
+end
+arch cobblestones2
+x 3
+end
+arch dwall_2_1_2
+x 3
+end
+arch cobblestones2
+x 3
+y 1
+end
+arch grate_closed_2
+x 3
+y 1
+connected 1
+end
+arch magic_banned
+x 3
+y 1
+end
+arch unholy_ground
+x 3
+y 1
+end
+arch dungeon_magic
+x 3
+y 1
+end
+arch cobblestones2
+x 3
+y 2
+end
+arch grate_closed_2
+x 3
+y 2
+connected 1
+end
+arch magic_banned
+x 3
+y 2
+end
+arch unholy_ground
+x 3
+y 2
+end
+arch dungeon_magic
+x 3
+y 2
+end
+arch cobblestones2
+x 3
+y 3
+end
+arch dwall_2_2_2
+x 3
+y 3
+end
+arch cobblestones2
+x 3
+y 4
+end
+arch dwall_2_1_1
+x 3
+y 4
+end
+arch cobblestones2
+x 3
+y 5
+end
+arch dwall_2_1_1
+x 3
+y 5
+end
+arch cobblestones2
+x 3
+y 6
+end
+arch dwall_2_1_1
+x 3
+y 6
+end
+arch cobblestones2
+x 3
+y 7
+end
+arch dwall_2_1_1
+x 3
+y 7
+end
+arch cobblestones2
+x 3
+y 8
+end
+arch dwall_1_2
+x 3
+y 8
+end
+arch cobblestones2
+x 3
+y 9
+end
+arch unholy_ground
+x 3
+y 9
+end
+arch dungeon_magic
+x 3
+y 9
+end
+arch door_look_1
+face ldoor_white2.111
+x 3
+y 9
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 3
+y 10
+end
+arch unholy_ground
+x 3
+y 10
+end
+arch dungeon_magic
+x 3
+y 10
+end
+arch door_look_1
+face ldoor_white2.111
+x 3
+y 10
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 3
+y 11
+end
+arch unholy_ground
+x 3
+y 11
+end
+arch dungeon_magic
+x 3
+y 11
+end
+arch door_look_1
+face ldoor_white2.111
+x 3
+y 11
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 3
+y 12
+end
+arch dwall_1_1
+x 3
+y 12
+end
+arch cobblestones2
+x 3
+y 13
+end
+arch dwall_2_1_1
+x 3
+y 13
+end
+arch cobblestones2
+x 3
+y 14
+end
+arch dwall_2_1_1
+x 3
+y 14
+end
+arch cobblestones2
+x 3
+y 15
+end
+arch dwall_2_1_1
+x 3
+y 15
+end
+arch cobblestones2
+x 3
+y 16
+end
+arch dwall_2_1_1
+x 3
+y 16
+end
+arch cobblestones2
+x 3
+y 17
+end
+arch dwall_2_2_1
+x 3
+y 17
+end
+arch cobblestones2
+x 3
+y 18
+end
+arch grate_closed_2
+x 3
+y 18
+connected 1
+end
+arch magic_banned
+x 3
+y 18
+end
+arch unholy_ground
+x 3
+y 18
+end
+arch dungeon_magic
+x 3
+y 18
+end
+arch cobblestones2
+x 3
+y 19
+end
+arch grate_closed_2
+x 3
+y 19
+connected 1
+end
+arch magic_banned
+x 3
+y 19
+end
+arch unholy_ground
+x 3
+y 19
+end
+arch dungeon_magic
+x 3
+y 19
+end
+arch cobblestones2
+x 3
+y 20
+end
+arch dwall_2_1_2
+x 3
+y 20
+end
+arch cobblestones2
+x 4
+end
+arch dwall_2_1_2
+x 4
+end
+arch cobblestones2
+x 4
+y 1
+end
+arch unholy_ground
+x 4
+y 1
+end
+arch dungeon_magic
+x 4
+y 1
+end
+arch cobblestones2
+x 4
+y 2
+end
+arch unholy_ground
+x 4
+y 2
+end
+arch dungeon_magic
+x 4
+y 2
+end
+arch cobblestones2
+x 4
+y 3
+end
+arch dwall_2_1_2
+x 4
+y 3
+end
+arch flagstone
+x 4
+y 4
+end
+arch cwall_0
+x 4
+y 4
+end
+arch flagstone
+x 4
+y 5
+end
+arch power_crystal
+name smaller mana crystal
+x 4
+y 5
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 4
+y 6
+end
+arch unholy_ground
+x 4
+y 6
+end
+arch dungeon_magic
+x 4
+y 6
+end
+arch flagstone
+x 4
+y 7
+end
+arch unholy_ground
+x 4
+y 7
+end
+arch dungeon_magic
+x 4
+y 7
+end
+arch flagstone
+x 4
+y 8
+end
+arch cwall_0
+x 4
+y 8
+end
+arch flagstone
+x 4
+y 9
+end
+arch unholy_ground
+x 4
+y 9
+end
+arch dungeon_magic
+x 4
+y 9
+end
+arch flagstone
+x 4
+y 10
+end
+arch unholy_ground
+x 4
+y 10
+end
+arch dungeon_magic
+x 4
+y 10
+end
+arch flagstone
+x 4
+y 11
+end
+arch unholy_ground
+x 4
+y 11
+end
+arch dungeon_magic
+x 4
+y 11
+end
+arch flagstone
+x 4
+y 12
+end
+arch cwall_0
+x 4
+y 12
+end
+arch flagstone
+x 4
+y 13
+end
+arch unholy_ground
+x 4
+y 13
+end
+arch dungeon_magic
+x 4
+y 13
+end
+arch flagstone
+x 4
+y 14
+end
+arch unholy_ground
+x 4
+y 14
+end
+arch dungeon_magic
+x 4
+y 14
+end
+arch flagstone
+x 4
+y 15
+end
+arch power_crystal
+name smaller mana crystal
+x 4
+y 15
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 4
+y 16
+end
+arch cwall_0
+x 4
+y 16
+end
+arch cobblestones2
+x 4
+y 17
+end
+arch dwall_2_1_2
+x 4
+y 17
+end
+arch cobblestones2
+x 4
+y 18
+end
+arch unholy_ground
+x 4
+y 18
+end
+arch dungeon_magic
+x 4
+y 18
+end
+arch cobblestones2
+x 4
+y 19
+end
+arch unholy_ground
+x 4
+y 19
+end
+arch dungeon_magic
+x 4
+y 19
+end
+arch cobblestones2
+x 4
+y 20
+end
+arch dwall_2_1_2
+x 4
+y 20
+end
+arch cobblestones2
+x 5
+end
+arch dwall_2_1_2
+x 5
+end
+arch cobblestones2
+x 5
+y 1
+end
+arch unholy_ground
+x 5
+y 1
+end
+arch dungeon_magic
+x 5
+y 1
+end
+arch cobblestones2
+x 5
+y 2
+end
+arch unholy_ground
+x 5
+y 2
+end
+arch dungeon_magic
+x 5
+y 2
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch dwall_2_1_2
+x 5
+y 3
+end
+arch flagstone
+x 5
+y 4
+end
+arch power_crystal
+name smaller mana crystal
+x 5
+y 4
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 5
+y 5
+end
+arch power_crystal
+name smaller mana crystal
+x 5
+y 5
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 5
+y 6
+end
+arch unholy_ground
+x 5
+y 6
+end
+arch dungeon_magic
+x 5
+y 6
+end
+arch flagstone
+x 5
+y 7
+end
+arch chair_1.4
+x 5
+y 7
+end
+arch unholy_ground
+x 5
+y 7
+end
+arch wizard
+msg
+@match *
+Shhhh. Listen to the council.
+endmsg
+face wizard.131
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 5
+y 7
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 5
+y 8
+end
+arch chair_1.4
+x 5
+y 8
+end
+arch unholy_ground
+x 5
+y 8
+end
+arch dungeon_magic
+x 5
+y 8
+end
+arch flagstone
+x 5
+y 9
+end
+arch chair_1.4
+x 5
+y 9
+end
+arch unholy_ground
+x 5
+y 9
+end
+arch dungeon_magic
+x 5
+y 9
+end
+arch flagstone
+x 5
+y 10
+end
+arch unholy_ground
+x 5
+y 10
+end
+arch dungeon_magic
+x 5
+y 10
+end
+arch flagstone
+x 5
+y 11
+end
+arch chair_1.4
+x 5
+y 11
+end
+arch unholy_ground
+x 5
+y 11
+end
+arch dungeon_magic
+x 5
+y 11
+end
+arch flagstone
+x 5
+y 12
+end
+arch flagstone
+x 5
+y 12
+end
+arch chair_1.4
+x 5
+y 12
+end
+arch unholy_ground
+x 5
+y 12
+end
+arch wizard
+msg
+@match *
+Shhhh. Listen to the council.
+endmsg
+face wizard.131
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 5
+y 12
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 5
+y 13
+end
+arch chair_1.4
+x 5
+y 13
+end
+arch unholy_ground
+x 5
+y 13
+end
+arch dungeon_magic
+x 5
+y 13
+end
+arch flagstone
+x 5
+y 14
+end
+arch unholy_ground
+x 5
+y 14
+end
+arch dungeon_magic
+x 5
+y 14
+end
+arch flagstone
+x 5
+y 15
+end
+arch power_crystal
+name smaller mana crystal
+x 5
+y 15
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 5
+y 16
+end
+arch power_crystal
+name smaller mana crystal
+x 5
+y 16
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch cobblestones2
+x 5
+y 17
+end
+arch dwall_2_1_2
+x 5
+y 17
+end
+arch cobblestones2
+x 5
+y 18
+end
+arch unholy_ground
+x 5
+y 18
+end
+arch dungeon_magic
+x 5
+y 18
+end
+arch cobblestones2
+x 5
+y 19
+end
+arch unholy_ground
+x 5
+y 19
+end
+arch dungeon_magic
+x 5
+y 19
+end
+arch cobblestones2
+x 5
+y 20
+end
+arch dwall_2_1_2
+x 5
+y 20
+end
+arch cobblestones2
+x 6
+end
+arch dwall_2_1_2
+x 6
+end
+arch cobblestones2
+x 6
+y 1
+end
+arch unholy_ground
+x 6
+y 1
+end
+arch dungeon_magic
+x 6
+y 1
+end
+arch cobblestones2
+x 6
+y 2
+end
+arch unholy_ground
+x 6
+y 2
+end
+arch dungeon_magic
+x 6
+y 2
+end
+arch cobblestones2
+x 6
+y 3
+end
+arch dwall_2_1_2
+x 6
+y 3
+end
+arch flagstone
+x 6
+y 4
+end
+arch unholy_ground
+x 6
+y 4
+end
+arch dungeon_magic
+x 6
+y 4
+end
+arch flagstone
+x 6
+y 5
+end
+arch unholy_ground
+x 6
+y 5
+end
+arch dungeon_magic
+x 6
+y 5
+end
+arch flagstone
+x 6
+y 6
+end
+arch unholy_ground
+x 6
+y 6
+end
+arch dungeon_magic
+x 6
+y 6
+end
+arch flagstone
+x 6
+y 7
+end
+arch chair_1.4
+x 6
+y 7
+end
+arch unholy_ground
+x 6
+y 7
+end
+arch dungeon_magic
+x 6
+y 7
+end
+arch flagstone
+x 6
+y 8
+end
+arch chair_1.4
+x 6
+y 8
+end
+arch unholy_ground
+x 6
+y 8
+end
+arch flagstone
+x 6
+y 9
+end
+arch chair_1.4
+x 6
+y 9
+end
+arch unholy_ground
+x 6
+y 9
+end
+arch wizard
+msg
+@match *
+Shhhh. Listen to the council.
+endmsg
+face wizard.131
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 6
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 6
+y 10
+end
+arch unholy_ground
+x 6
+y 10
+end
+arch dungeon_magic
+x 6
+y 10
+end
+arch flagstone
+x 6
+y 11
+end
+arch chair_1.4
+x 6
+y 11
+end
+arch unholy_ground
+x 6
+y 11
+end
+arch dungeon_magic
+x 6
+y 11
+end
+arch flagstone
+x 6
+y 12
+end
+arch chair_1.4
+x 6
+y 12
+end
+arch unholy_ground
+x 6
+y 12
+end
+arch dungeon_magic
+x 6
+y 12
+end
+arch flagstone
+x 6
+y 13
+end
+arch chair_1.4
+x 6
+y 13
+end
+arch unholy_ground
+x 6
+y 13
+end
+arch wizard
+msg
+@match *
+Shhhh. Listen to the council.
+endmsg
+face wizard.131
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 6
+y 13
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 6
+y 14
+end
+arch unholy_ground
+x 6
+y 14
+end
+arch dungeon_magic
+x 6
+y 14
+end
+arch flagstone
+x 6
+y 15
+end
+arch unholy_ground
+x 6
+y 15
+end
+arch dungeon_magic
+x 6
+y 15
+end
+arch flagstone
+x 6
+y 16
+end
+arch unholy_ground
+x 6
+y 16
+end
+arch dungeon_magic
+x 6
+y 16
+end
+arch cobblestones2
+x 6
+y 17
+end
+arch dwall_2_1_2
+x 6
+y 17
+end
+arch cobblestones2
+x 6
+y 18
+end
+arch unholy_ground
+x 6
+y 18
+end
+arch dungeon_magic
+x 6
+y 18
+end
+arch cobblestones2
+x 6
+y 19
+end
+arch unholy_ground
+x 6
+y 19
+end
+arch dungeon_magic
+x 6
+y 19
+end
+arch cobblestones2
+x 6
+y 20
+end
+arch dwall_2_1_2
+x 6
+y 20
+end
+arch cobblestones2
+x 7
+end
+arch dwall_2_1_2
+x 7
+end
+arch cobblestones2
+x 7
+y 1
+end
+arch unholy_ground
+x 7
+y 1
+end
+arch dungeon_magic
+x 7
+y 1
+end
+arch cobblestones2
+x 7
+y 2
+end
+arch unholy_ground
+x 7
+y 2
+end
+arch dungeon_magic
+x 7
+y 2
+end
+arch cobblestones2
+x 7
+y 3
+end
+arch dwall_2_1_2
+x 7
+y 3
+end
+arch flagstone
+x 7
+y 4
+end
+arch unholy_ground
+x 7
+y 4
+end
+arch dungeon_magic
+x 7
+y 4
+end
+arch flagstone
+x 7
+y 5
+end
+arch chair_1.1
+x 7
+y 5
+end
+arch unholy_ground
+x 7
+y 5
+end
+arch dungeon_magic
+x 7
+y 5
+end
+arch flagstone
+x 7
+y 6
+end
+arch chair_1.1
+x 7
+y 6
+end
+arch unholy_ground
+x 7
+y 6
+end
+arch dungeon_magic
+x 7
+y 6
+end
+arch flagstone
+x 7
+y 7
+end
+arch unholy_ground
+x 7
+y 7
+end
+arch dungeon_magic
+x 7
+y 7
+end
+arch flagstone
+x 7
+y 8
+end
+arch unholy_ground
+x 7
+y 8
+end
+arch dungeon_magic
+x 7
+y 8
+end
+arch flagstone
+x 7
+y 9
+end
+arch unholy_ground
+x 7
+y 9
+end
+arch dungeon_magic
+x 7
+y 9
+end
+arch flagstone
+x 7
+y 10
+end
+arch unholy_ground
+x 7
+y 10
+end
+arch dungeon_magic
+x 7
+y 10
+end
+arch flagstone
+x 7
+y 11
+end
+arch unholy_ground
+x 7
+y 11
+end
+arch dungeon_magic
+x 7
+y 11
+end
+arch flagstone
+x 7
+y 12
+end
+arch unholy_ground
+x 7
+y 12
+end
+arch dungeon_magic
+x 7
+y 12
+end
+arch flagstone
+x 7
+y 13
+end
+arch unholy_ground
+x 7
+y 13
+end
+arch dungeon_magic
+x 7
+y 13
+end
+arch flagstone
+x 7
+y 14
+end
+arch chair_1.3
+x 7
+y 14
+end
+arch unholy_ground
+x 7
+y 14
+end
+arch dungeon_magic
+x 7
+y 14
+end
+arch flagstone
+x 7
+y 15
+end
+arch chair_1.1
+x 7
+y 15
+end
+arch unholy_ground
+x 7
+y 15
+end
+arch dungeon_magic
+x 7
+y 15
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.111
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 7
+y 15
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 7
+y 16
+end
+arch unholy_ground
+x 7
+y 16
+end
+arch dungeon_magic
+x 7
+y 16
+end
+arch cobblestones2
+x 7
+y 17
+end
+arch dwall_2_1_2
+x 7
+y 17
+end
+arch cobblestones2
+x 7
+y 18
+end
+arch unholy_ground
+x 7
+y 18
+end
+arch dungeon_magic
+x 7
+y 18
+end
+arch cobblestones2
+x 7
+y 19
+end
+arch unholy_ground
+x 7
+y 19
+end
+arch dungeon_magic
+x 7
+y 19
+end
+arch cobblestones2
+x 7
+y 20
+end
+arch dwall_2_1_2
+x 7
+y 20
+end
+arch cobblestones2
+x 8
+end
+arch dwall_2_1_2
+x 8
+end
+arch cobblestones2
+x 8
+y 1
+end
+arch unholy_ground
+x 8
+y 1
+end
+arch dungeon_magic
+x 8
+y 1
+end
+arch cobblestones2
+x 8
+y 2
+end
+arch unholy_ground
+x 8
+y 2
+end
+arch dungeon_magic
+x 8
+y 2
+end
+arch cobblestones2
+x 8
+y 3
+end
+arch dwall_1_3
+x 8
+y 3
+end
+arch flagstone
+x 8
+y 4
+end
+arch cwall_0
+x 8
+y 4
+end
+arch flagstone
+x 8
+y 5
+end
+arch chair_1.1
+x 8
+y 5
+end
+arch unholy_ground
+x 8
+y 5
+end
+arch dungeon_magic
+x 8
+y 5
+end
+arch flagstone
+x 8
+y 6
+end
+arch chair_1.1
+x 8
+y 6
+end
+arch unholy_ground
+x 8
+y 6
+end
+arch dungeon_magic
+x 8
+y 6
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 8
+y 6
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 8
+y 7
+end
+arch unholy_ground
+x 8
+y 7
+end
+arch dungeon_magic
+x 8
+y 7
+end
+arch flagstone
+x 8
+y 8
+end
+arch unholy_ground
+x 8
+y 8
+end
+arch dungeon_magic
+x 8
+y 8
+end
+arch flagstone
+x 8
+y 9
+end
+arch unholy_ground
+x 8
+y 9
+end
+arch dungeon_magic
+x 8
+y 9
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 8
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 8
+y 10
+end
+arch unholy_ground
+x 8
+y 10
+end
+arch dungeon_magic
+x 8
+y 10
+end
+arch flagstone
+x 8
+y 11
+end
+arch unholy_ground
+x 8
+y 11
+end
+arch dungeon_magic
+x 8
+y 11
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 8
+y 11
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 8
+y 12
+end
+arch unholy_ground
+x 8
+y 12
+end
+arch dungeon_magic
+x 8
+y 12
+end
+arch flagstone
+x 8
+y 13
+end
+arch unholy_ground
+x 8
+y 13
+end
+arch dungeon_magic
+x 8
+y 13
+end
+arch flagstone
+x 8
+y 14
+end
+arch chair_1.3
+x 8
+y 14
+end
+arch unholy_ground
+x 8
+y 14
+end
+arch dungeon_magic
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch chair_1.3
+x 8
+y 15
+end
+arch unholy_ground
+x 8
+y 15
+end
+arch dungeon_magic
+x 8
+y 15
+end
+arch flagstone
+x 8
+y 16
+end
+arch cwall_0
+x 8
+y 16
+end
+arch cobblestones2
+x 8
+y 17
+end
+arch dwall_1_3
+x 8
+y 17
+end
+arch cobblestones2
+x 8
+y 18
+end
+arch unholy_ground
+x 8
+y 18
+end
+arch dungeon_magic
+x 8
+y 18
+end
+arch cobblestones2
+x 8
+y 19
+end
+arch unholy_ground
+x 8
+y 19
+end
+arch dungeon_magic
+x 8
+y 19
+end
+arch cobblestones2
+x 8
+y 20
+end
+arch dwall_2_1_2
+x 8
+y 20
+end
+arch cobblestones2
+x 9
+end
+arch dwall_2_1_2
+x 9
+end
+arch cobblestones2
+x 9
+y 1
+end
+arch unholy_ground
+x 9
+y 1
+end
+arch dungeon_magic
+x 9
+y 1
+end
+arch cobblestones2
+x 9
+y 2
+end
+arch unholy_ground
+x 9
+y 2
+end
+arch dungeon_magic
+x 9
+y 2
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 9
+y 2
+end
+arch cobblestones2
+x 9
+y 3
+end
+arch unholy_ground
+x 9
+y 3
+end
+arch dungeon_magic
+x 9
+y 3
+end
+arch door_look_1
+face ldoor_white1.111
+x 9
+y 3
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch flagstone
+x 9
+y 4
+end
+arch unholy_ground
+x 9
+y 4
+end
+arch dungeon_magic
+x 9
+y 4
+end
+arch flagstone
+x 9
+y 5
+end
+arch chair_1.1
+x 9
+y 5
+end
+arch unholy_ground
+x 9
+y 5
+end
+arch dungeon_magic
+x 9
+y 5
+end
+arch flagstone
+x 9
+y 6
+end
+arch chair_1.1
+x 9
+y 6
+end
+arch unholy_ground
+x 9
+y 6
+end
+arch dungeon_magic
+x 9
+y 6
+end
+arch flagstone
+x 9
+y 7
+end
+arch unholy_ground
+x 9
+y 7
+end
+arch dungeon_magic
+x 9
+y 7
+end
+arch flagstone
+x 9
+y 8
+end
+arch unholy_ground
+x 9
+y 8
+end
+arch dungeon_magic
+x 9
+y 8
+end
+arch flagstone
+x 9
+y 9
+end
+arch creator
+hp 999
+x 9
+y 9
+end
+arch slevel_2_2_2
+x 9
+y 9
+end
+arch mover_8
+x 9
+y 9
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 9
+y 9
+end
+arch dungeon_magic
+x 9
+y 9
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 9
+y 9
+end
+arch flagstone
+x 9
+y 10
+end
+arch creator
+hp 999
+x 9
+y 10
+end
+arch slevel_3_2
+x 9
+y 10
+end
+arch mover_7
+x 9
+y 10
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 9
+y 10
+end
+arch dungeon_magic
+x 9
+y 10
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 9
+y 10
+end
+arch flagstone
+x 9
+y 11
+end
+arch creator
+hp 999
+x 9
+y 11
+end
+arch slevel_2_2_1
+x 9
+y 11
+end
+arch mover_6
+x 9
+y 11
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 9
+y 11
+end
+arch dungeon_magic
+x 9
+y 11
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 9
+y 11
+end
+arch flagstone
+x 9
+y 12
+end
+arch unholy_ground
+x 9
+y 12
+end
+arch dungeon_magic
+x 9
+y 12
+end
+arch flagstone
+x 9
+y 13
+end
+arch unholy_ground
+x 9
+y 13
+end
+arch dungeon_magic
+x 9
+y 13
+end
+arch flagstone
+x 9
+y 14
+end
+arch chair_1.1
+x 9
+y 14
+end
+arch unholy_ground
+x 9
+y 14
+end
+arch dungeon_magic
+x 9
+y 14
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.111
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 9
+y 14
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 9
+y 15
+end
+arch chair_1.3
+x 9
+y 15
+end
+arch unholy_ground
+x 9
+y 15
+end
+arch dungeon_magic
+x 9
+y 15
+end
+arch flagstone
+x 9
+y 16
+end
+arch unholy_ground
+x 9
+y 16
+end
+arch dungeon_magic
+x 9
+y 16
+end
+arch cobblestones2
+x 9
+y 17
+end
+arch unholy_ground
+x 9
+y 17
+end
+arch dungeon_magic
+x 9
+y 17
+end
+arch door_look_1
+face ldoor_white1.111
+x 9
+y 17
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 9
+y 18
+end
+arch unholy_ground
+x 9
+y 18
+end
+arch dungeon_magic
+x 9
+y 18
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 9
+y 18
+end
+arch cobblestones2
+x 9
+y 19
+end
+arch unholy_ground
+x 9
+y 19
+end
+arch dungeon_magic
+x 9
+y 19
+end
+arch cobblestones2
+x 9
+y 20
+end
+arch dwall_2_1_2
+x 9
+y 20
+end
+arch cobblestones2
+x 10
+end
+arch dwall_2_1_2
+x 10
+end
+arch cobblestones2
+x 10
+y 1
+end
+arch unholy_ground
+x 10
+y 1
+end
+arch dungeon_magic
+x 10
+y 1
+end
+arch cobblestones2
+x 10
+y 2
+end
+arch unholy_ground
+x 10
+y 2
+end
+arch dungeon_magic
+x 10
+y 2
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 10
+y 2
+end
+arch cobblestones2
+x 10
+y 3
+end
+arch unholy_ground
+x 10
+y 3
+end
+arch dungeon_magic
+x 10
+y 3
+end
+arch door_look_1
+face ldoor_white1.111
+x 10
+y 3
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch flagstone
+x 10
+y 4
+end
+arch unholy_ground
+x 10
+y 4
+end
+arch dungeon_magic
+x 10
+y 4
+end
+arch flagstone
+x 10
+y 5
+end
+arch unholy_ground
+x 10
+y 5
+end
+arch dungeon_magic
+x 10
+y 5
+end
+arch flagstone
+x 10
+y 6
+end
+arch unholy_ground
+x 10
+y 6
+end
+arch dungeon_magic
+x 10
+y 6
+end
+arch flagstone
+x 10
+y 7
+end
+arch unholy_ground
+x 10
+y 7
+end
+arch dungeon_magic
+x 10
+y 7
+end
+arch flagstone
+x 10
+y 8
+end
+arch unholy_ground
+x 10
+y 8
+end
+arch dungeon_magic
+x 10
+y 8
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 10
+y 8
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 10
+y 9
+end
+arch creator
+hp 999
+x 10
+y 9
+end
+arch slevel_3_3
+x 10
+y 9
+end
+arch mover_1
+x 10
+y 9
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 10
+y 9
+end
+arch dungeon_magic
+x 10
+y 9
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 10
+y 9
+end
+arch flagstone
+x 10
+y 10
+end
+arch power_crystal
+name Great Mana Crystal
+x 10
+y 10
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+no_pass 1
+end
+arch flagstone
+x 10
+y 11
+end
+arch creator
+hp 999
+x 10
+y 11
+end
+arch slevel_3_1
+x 10
+y 11
+end
+arch mover_5
+x 10
+y 11
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 10
+y 11
+end
+arch dungeon_magic
+x 10
+y 11
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 10
+y 11
+end
+arch flagstone
+x 10
+y 12
+end
+arch unholy_ground
+x 10
+y 12
+end
+arch dungeon_magic
+x 10
+y 12
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 10
+y 12
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 10
+y 13
+end
+arch unholy_ground
+x 10
+y 13
+end
+arch dungeon_magic
+x 10
+y 13
+end
+arch flagstone
+x 10
+y 14
+end
+arch unholy_ground
+x 10
+y 14
+end
+arch dungeon_magic
+x 10
+y 14
+end
+arch flagstone
+x 10
+y 15
+end
+arch unholy_ground
+x 10
+y 15
+end
+arch dungeon_magic
+x 10
+y 15
+end
+arch flagstone
+x 10
+y 16
+end
+arch unholy_ground
+x 10
+y 16
+end
+arch dungeon_magic
+x 10
+y 16
+end
+arch cobblestones2
+x 10
+y 17
+end
+arch unholy_ground
+x 10
+y 17
+end
+arch dungeon_magic
+x 10
+y 17
+end
+arch door_look_1
+face ldoor_white1.111
+x 10
+y 17
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 10
+y 18
+end
+arch unholy_ground
+x 10
+y 18
+end
+arch dungeon_magic
+x 10
+y 18
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 10
+y 18
+end
+arch cobblestones2
+x 10
+y 19
+end
+arch unholy_ground
+x 10
+y 19
+end
+arch dungeon_magic
+x 10
+y 19
+end
+arch cobblestones2
+x 10
+y 20
+end
+arch dwall_2_1_2
+x 10
+y 20
+end
+arch cobblestones2
+x 11
+end
+arch dwall_2_1_2
+x 11
+end
+arch cobblestones2
+x 11
+y 1
+end
+arch unholy_ground
+x 11
+y 1
+end
+arch dungeon_magic
+x 11
+y 1
+end
+arch cobblestones2
+x 11
+y 2
+end
+arch unholy_ground
+x 11
+y 2
+end
+arch dungeon_magic
+x 11
+y 2
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 11
+y 2
+end
+arch cobblestones2
+x 11
+y 3
+end
+arch unholy_ground
+x 11
+y 3
+end
+arch dungeon_magic
+x 11
+y 3
+end
+arch door_look_1
+face ldoor_white1.111
+x 11
+y 3
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch flagstone
+x 11
+y 4
+end
+arch unholy_ground
+x 11
+y 4
+end
+arch dungeon_magic
+x 11
+y 4
+end
+arch flagstone
+x 11
+y 5
+end
+arch chair_1.1
+x 11
+y 5
+end
+arch unholy_ground
+x 11
+y 5
+end
+arch dungeon_magic
+x 11
+y 5
+end
+arch flagstone
+x 11
+y 6
+end
+arch chair_1.1
+x 11
+y 6
+end
+arch unholy_ground
+x 11
+y 6
+end
+arch dungeon_magic
+x 11
+y 6
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 11
+y 6
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 11
+y 7
+end
+arch unholy_ground
+x 11
+y 7
+end
+arch dungeon_magic
+x 11
+y 7
+end
+arch flagstone
+x 11
+y 8
+end
+arch unholy_ground
+x 11
+y 8
+end
+arch dungeon_magic
+x 11
+y 8
+end
+arch flagstone
+x 11
+y 9
+end
+arch creator
+hp 999
+x 11
+y 9
+end
+arch slevel_2_2_3
+x 11
+y 9
+end
+arch mover_2
+x 11
+y 9
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 11
+y 9
+end
+arch dungeon_magic
+x 11
+y 9
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 11
+y 9
+end
+arch flagstone
+x 11
+y 10
+end
+arch creator
+hp 999
+x 11
+y 10
+end
+arch slevel_3_4
+x 11
+y 10
+end
+arch mover_3
+x 11
+y 10
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 11
+y 10
+end
+arch dungeon_magic
+x 11
+y 10
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 11
+y 10
+end
+arch flagstone
+x 11
+y 11
+end
+arch creator
+hp 999
+x 11
+y 11
+end
+arch slevel_2_2_4
+x 11
+y 11
+end
+arch mover_4
+x 11
+y 11
+level 1
+attacktype 1
+end
+arch unholy_ground
+x 11
+y 11
+end
+arch dungeon_magic
+x 11
+y 11
+end
+arch magic_mouth
+msg
+You are pushed back by the powerful
+force of the crystal.
+endmsg
+x 11
+y 11
+end
+arch flagstone
+x 11
+y 12
+end
+arch unholy_ground
+x 11
+y 12
+end
+arch dungeon_magic
+x 11
+y 12
+end
+arch flagstone
+x 11
+y 13
+end
+arch unholy_ground
+x 11
+y 13
+end
+arch dungeon_magic
+x 11
+y 13
+end
+arch flagstone
+x 11
+y 14
+end
+arch chair_1.3
+x 11
+y 14
+end
+arch unholy_ground
+x 11
+y 14
+end
+arch dungeon_magic
+x 11
+y 14
+end
+arch flagstone
+x 11
+y 15
+end
+arch chair_1.1
+x 11
+y 15
+end
+arch unholy_ground
+x 11
+y 15
+end
+arch dungeon_magic
+x 11
+y 15
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.111
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 11
+y 15
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 11
+y 16
+end
+arch unholy_ground
+x 11
+y 16
+end
+arch dungeon_magic
+x 11
+y 16
+end
+arch cobblestones2
+x 11
+y 17
+end
+arch unholy_ground
+x 11
+y 17
+end
+arch dungeon_magic
+x 11
+y 17
+end
+arch door_look_1
+face ldoor_white1.111
+x 11
+y 17
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 11
+y 18
+end
+arch unholy_ground
+x 11
+y 18
+end
+arch dungeon_magic
+x 11
+y 18
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 11
+y 18
+end
+arch cobblestones2
+x 11
+y 19
+end
+arch unholy_ground
+x 11
+y 19
+end
+arch dungeon_magic
+x 11
+y 19
+end
+arch cobblestones2
+x 11
+y 20
+end
+arch dwall_2_1_2
+x 11
+y 20
+end
+arch cobblestones2
+x 12
+end
+arch dwall_2_1_2
+x 12
+end
+arch cobblestones2
+x 12
+y 1
+end
+arch unholy_ground
+x 12
+y 1
+end
+arch dungeon_magic
+x 12
+y 1
+end
+arch cobblestones2
+x 12
+y 2
+end
+arch unholy_ground
+x 12
+y 2
+end
+arch dungeon_magic
+x 12
+y 2
+end
+arch cobblestones2
+x 12
+y 3
+end
+arch dwall_1_4
+x 12
+y 3
+end
+arch flagstone
+x 12
+y 4
+end
+arch cwall_0
+x 12
+y 4
+end
+arch flagstone
+x 12
+y 5
+end
+arch chair_1.1
+x 12
+y 5
+end
+arch unholy_ground
+x 12
+y 5
+end
+arch dungeon_magic
+x 12
+y 5
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 12
+y 5
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 12
+y 6
+end
+arch chair_1.1
+x 12
+y 6
+end
+arch unholy_ground
+x 12
+y 6
+end
+arch dungeon_magic
+x 12
+y 6
+end
+arch flagstone
+x 12
+y 7
+end
+arch unholy_ground
+x 12
+y 7
+end
+arch dungeon_magic
+x 12
+y 7
+end
+arch flagstone
+x 12
+y 8
+end
+arch unholy_ground
+x 12
+y 8
+end
+arch dungeon_magic
+x 12
+y 8
+end
+arch flagstone
+x 12
+y 9
+end
+arch unholy_ground
+x 12
+y 9
+end
+arch dungeon_magic
+x 12
+y 9
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 12
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 12
+y 10
+end
+arch unholy_ground
+x 12
+y 10
+end
+arch flagstone
+x 12
+y 11
+end
+arch unholy_ground
+x 12
+y 11
+end
+arch dungeon_magic
+x 12
+y 11
+end
+arch wizard
+name Grand High Mage
+msg
+@match hi|hello
+Sit and listen...
+endmsg
+face wizard_white.151
+Str 0
+Con 6
+Wis 20
+Pow 80
+Int 8
+hp 200
+maxhp 10000
+sp 600
+maxsp 600
+exp 3000
+dam 20
+wc -50
+ac -25
+x 12
+y 11
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 12
+y 12
+end
+arch unholy_ground
+x 12
+y 12
+end
+arch dungeon_magic
+x 12
+y 12
+end
+arch flagstone
+x 12
+y 13
+end
+arch unholy_ground
+x 12
+y 13
+end
+arch dungeon_magic
+x 12
+y 13
+end
+arch flagstone
+x 12
+y 14
+end
+arch chair_1.1
+x 12
+y 14
+end
+arch unholy_ground
+x 12
+y 14
+end
+arch dungeon_magic
+x 12
+y 14
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.111
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 12
+y 14
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 12
+y 15
+end
+arch chair_1.3
+x 12
+y 15
+end
+arch unholy_ground
+x 12
+y 15
+end
+arch dungeon_magic
+x 12
+y 15
+end
+arch flagstone
+x 12
+y 16
+end
+arch cwall_0
+x 12
+y 16
+end
+arch cobblestones2
+x 12
+y 17
+end
+arch dwall_1_4
+x 12
+y 17
+end
+arch cobblestones2
+x 12
+y 18
+end
+arch unholy_ground
+x 12
+y 18
+end
+arch dungeon_magic
+x 12
+y 18
+end
+arch cobblestones2
+x 12
+y 19
+end
+arch unholy_ground
+x 12
+y 19
+end
+arch dungeon_magic
+x 12
+y 19
+end
+arch cobblestones2
+x 12
+y 20
+end
+arch dwall_2_1_2
+x 12
+y 20
+end
+arch cobblestones2
+x 13
+end
+arch dwall_2_1_2
+x 13
+end
+arch cobblestones2
+x 13
+y 1
+end
+arch unholy_ground
+x 13
+y 1
+end
+arch dungeon_magic
+x 13
+y 1
+end
+arch cobblestones2
+x 13
+y 2
+end
+arch unholy_ground
+x 13
+y 2
+end
+arch dungeon_magic
+x 13
+y 2
+end
+arch cobblestones2
+x 13
+y 3
+end
+arch dwall_2_1_2
+x 13
+y 3
+end
+arch flagstone
+x 13
+y 4
+end
+arch unholy_ground
+x 13
+y 4
+end
+arch dungeon_magic
+x 13
+y 4
+end
+arch flagstone
+x 13
+y 5
+end
+arch chair_1.1
+x 13
+y 5
+end
+arch unholy_ground
+x 13
+y 5
+end
+arch dungeon_magic
+x 13
+y 5
+end
+arch flagstone
+x 13
+y 6
+end
+arch chair_1.1
+x 13
+y 6
+end
+arch unholy_ground
+x 13
+y 6
+end
+arch dungeon_magic
+x 13
+y 6
+end
+arch flagstone
+x 13
+y 7
+end
+arch unholy_ground
+x 13
+y 7
+end
+arch dungeon_magic
+x 13
+y 7
+end
+arch flagstone
+x 13
+y 8
+end
+arch unholy_ground
+x 13
+y 8
+end
+arch dungeon_magic
+x 13
+y 8
+end
+arch flagstone
+x 13
+y 9
+end
+arch unholy_ground
+x 13
+y 9
+end
+arch dungeon_magic
+x 13
+y 9
+end
+arch flagstone
+x 13
+y 10
+end
+arch unholy_ground
+x 13
+y 10
+end
+arch dungeon_magic
+x 13
+y 10
+end
+arch flagstone
+x 13
+y 11
+end
+arch unholy_ground
+x 13
+y 11
+end
+arch dungeon_magic
+x 13
+y 11
+end
+arch flagstone
+x 13
+y 12
+end
+arch unholy_ground
+x 13
+y 12
+end
+arch dungeon_magic
+x 13
+y 12
+end
+arch flagstone
+x 13
+y 13
+end
+arch unholy_ground
+x 13
+y 13
+end
+arch dungeon_magic
+x 13
+y 13
+end
+arch flagstone
+x 13
+y 14
+end
+arch chair_1.3
+x 13
+y 14
+end
+arch unholy_ground
+x 13
+y 14
+end
+arch dungeon_magic
+x 13
+y 14
+end
+arch flagstone
+x 13
+y 15
+end
+arch chair_1.1
+x 13
+y 15
+end
+arch unholy_ground
+x 13
+y 15
+end
+arch dungeon_magic
+x 13
+y 15
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+face wizard.111
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 13
+y 15
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 13
+y 16
+end
+arch unholy_ground
+x 13
+y 16
+end
+arch dungeon_magic
+x 13
+y 16
+end
+arch cobblestones2
+x 13
+y 17
+end
+arch dwall_2_1_2
+x 13
+y 17
+end
+arch cobblestones2
+x 13
+y 18
+end
+arch unholy_ground
+x 13
+y 18
+end
+arch dungeon_magic
+x 13
+y 18
+end
+arch cobblestones2
+x 13
+y 19
+end
+arch unholy_ground
+x 13
+y 19
+end
+arch dungeon_magic
+x 13
+y 19
+end
+arch cobblestones2
+x 13
+y 20
+end
+arch dwall_2_1_2
+x 13
+y 20
+end
+arch cobblestones2
+x 14
+end
+arch dwall_2_1_2
+x 14
+end
+arch cobblestones2
+x 14
+y 1
+end
+arch unholy_ground
+x 14
+y 1
+end
+arch dungeon_magic
+x 14
+y 1
+end
+arch cobblestones2
+x 14
+y 2
+end
+arch unholy_ground
+x 14
+y 2
+end
+arch dungeon_magic
+x 14
+y 2
+end
+arch cobblestones2
+x 14
+y 3
+end
+arch dwall_2_1_2
+x 14
+y 3
+end
+arch flagstone
+x 14
+y 4
+end
+arch unholy_ground
+x 14
+y 4
+end
+arch dungeon_magic
+x 14
+y 4
+end
+arch flagstone
+x 14
+y 5
+end
+arch unholy_ground
+x 14
+y 5
+end
+arch dungeon_magic
+x 14
+y 5
+end
+arch flagstone
+x 14
+y 6
+end
+arch unholy_ground
+x 14
+y 6
+end
+arch dungeon_magic
+x 14
+y 6
+end
+arch flagstone
+x 14
+y 7
+end
+arch chair_1.2
+x 14
+y 7
+end
+arch unholy_ground
+x 14
+y 7
+end
+arch dungeon_magic
+x 14
+y 7
+end
+arch flagstone
+x 14
+y 8
+end
+arch chair_1.1
+x 14
+y 8
+end
+arch unholy_ground
+x 14
+y 8
+end
+arch dungeon_magic
+x 14
+y 8
+end
+arch flagstone
+x 14
+y 9
+end
+arch chair_1.2
+x 14
+y 9
+end
+arch unholy_ground
+x 14
+y 9
+end
+arch dungeon_magic
+x 14
+y 9
+end
+arch flagstone
+x 14
+y 10
+end
+arch unholy_ground
+x 14
+y 10
+end
+arch flagstone
+x 14
+y 11
+end
+arch chair_1.1
+x 14
+y 11
+end
+arch unholy_ground
+x 14
+y 11
+end
+arch dungeon_magic
+x 14
+y 11
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 14
+y 11
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 14
+y 12
+end
+arch chair_1.2
+x 14
+y 12
+end
+arch unholy_ground
+x 14
+y 12
+end
+arch dungeon_magic
+x 14
+y 12
+end
+arch flagstone
+x 14
+y 13
+end
+arch chair_1.2
+x 14
+y 13
+end
+arch unholy_ground
+x 14
+y 13
+end
+arch dungeon_magic
+x 14
+y 13
+end
+arch flagstone
+x 14
+y 14
+end
+arch unholy_ground
+x 14
+y 14
+end
+arch dungeon_magic
+x 14
+y 14
+end
+arch flagstone
+x 14
+y 15
+end
+arch unholy_ground
+x 14
+y 15
+end
+arch dungeon_magic
+x 14
+y 15
+end
+arch flagstone
+x 14
+y 16
+end
+arch unholy_ground
+x 14
+y 16
+end
+arch dungeon_magic
+x 14
+y 16
+end
+arch cobblestones2
+x 14
+y 17
+end
+arch dwall_2_1_2
+x 14
+y 17
+end
+arch cobblestones2
+x 14
+y 18
+end
+arch unholy_ground
+x 14
+y 18
+end
+arch dungeon_magic
+x 14
+y 18
+end
+arch cobblestones2
+x 14
+y 19
+end
+arch unholy_ground
+x 14
+y 19
+end
+arch dungeon_magic
+x 14
+y 19
+end
+arch cobblestones2
+x 14
+y 20
+end
+arch dwall_2_1_2
+x 14
+y 20
+end
+arch cobblestones2
+x 15
+end
+arch dwall_2_1_2
+x 15
+end
+arch cobblestones2
+x 15
+y 1
+end
+arch unholy_ground
+x 15
+y 1
+end
+arch dungeon_magic
+x 15
+y 1
+end
+arch cobblestones2
+x 15
+y 2
+end
+arch unholy_ground
+x 15
+y 2
+end
+arch dungeon_magic
+x 15
+y 2
+end
+arch cobblestones2
+x 15
+y 3
+end
+arch dwall_2_1_2
+x 15
+y 3
+end
+arch flagstone
+x 15
+y 4
+end
+arch power_crystal
+name smaller mana crystal
+x 15
+y 4
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 15
+y 5
+end
+arch power_crystal
+name smaller mana crystal
+x 15
+y 5
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 15
+y 6
+end
+arch unholy_ground
+x 15
+y 6
+end
+arch dungeon_magic
+x 15
+y 6
+end
+arch flagstone
+x 15
+y 7
+end
+arch chair_1.1
+x 15
+y 7
+end
+arch unholy_ground
+x 15
+y 7
+end
+arch dungeon_magic
+x 15
+y 7
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 15
+y 7
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 15
+y 8
+end
+arch chair_1.2
+x 15
+y 8
+end
+arch unholy_ground
+x 15
+y 8
+end
+arch dungeon_magic
+x 15
+y 8
+end
+arch flagstone
+x 15
+y 9
+end
+arch chair_1.1
+x 15
+y 9
+end
+arch unholy_ground
+x 15
+y 9
+end
+arch dungeon_magic
+x 15
+y 9
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 15
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 15
+y 10
+end
+arch unholy_ground
+x 15
+y 10
+end
+arch dungeon_magic
+x 15
+y 10
+end
+arch flagstone
+x 15
+y 11
+end
+arch chair_1.2
+x 15
+y 11
+end
+arch unholy_ground
+x 15
+y 11
+end
+arch dungeon_magic
+x 15
+y 11
+end
+arch flagstone
+x 15
+y 12
+end
+arch chair_1.2
+x 15
+y 12
+end
+arch unholy_ground
+x 15
+y 12
+end
+arch dungeon_magic
+x 15
+y 12
+end
+arch flagstone
+x 15
+y 13
+end
+arch chair_1.1
+x 15
+y 13
+end
+arch unholy_ground
+x 15
+y 13
+end
+arch dungeon_magic
+x 15
+y 13
+end
+arch wizard
+msg
+@match hi|hello
+Hello.
+endmsg
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 15
+y 13
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch flagstone
+x 15
+y 14
+end
+arch unholy_ground
+x 15
+y 14
+end
+arch dungeon_magic
+x 15
+y 14
+end
+arch flagstone
+x 15
+y 15
+end
+arch power_crystal
+name smaller mana crystal
+x 15
+y 15
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 15
+y 16
+end
+arch power_crystal
+name smaller mana crystal
+x 15
+y 16
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch cobblestones2
+x 15
+y 17
+end
+arch dwall_2_1_2
+x 15
+y 17
+end
+arch cobblestones2
+x 15
+y 18
+end
+arch unholy_ground
+x 15
+y 18
+end
+arch dungeon_magic
+x 15
+y 18
+end
+arch cobblestones2
+x 15
+y 19
+end
+arch unholy_ground
+x 15
+y 19
+end
+arch dungeon_magic
+x 15
+y 19
+end
+arch cobblestones2
+x 15
+y 20
+end
+arch dwall_2_1_2
+x 15
+y 20
+end
+arch cobblestones2
+x 16
+end
+arch dwall_2_1_2
+x 16
+end
+arch cobblestones2
+x 16
+y 1
+end
+arch unholy_ground
+x 16
+y 1
+end
+arch dungeon_magic
+x 16
+y 1
+end
+arch cobblestones2
+x 16
+y 2
+end
+arch unholy_ground
+x 16
+y 2
+end
+arch dungeon_magic
+x 16
+y 2
+end
+arch cobblestones2
+x 16
+y 3
+end
+arch dwall_2_1_2
+x 16
+y 3
+end
+arch flagstone
+x 16
+y 4
+end
+arch cwall_0
+x 16
+y 4
+end
+arch flagstone
+x 16
+y 5
+end
+arch power_crystal
+name smaller mana crystal
+x 16
+y 5
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 16
+y 6
+end
+arch unholy_ground
+x 16
+y 6
+end
+arch dungeon_magic
+x 16
+y 6
+end
+arch flagstone
+x 16
+y 7
+end
+arch unholy_ground
+x 16
+y 7
+end
+arch dungeon_magic
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 8
+end
+arch cwall_0
+x 16
+y 8
+end
+arch flagstone
+x 16
+y 9
+end
+arch unholy_ground
+x 16
+y 9
+end
+arch dungeon_magic
+x 16
+y 9
+end
+arch flagstone
+x 16
+y 10
+end
+arch unholy_ground
+x 16
+y 10
+end
+arch dungeon_magic
+x 16
+y 10
+end
+arch flagstone
+x 16
+y 11
+end
+arch unholy_ground
+x 16
+y 11
+end
+arch dungeon_magic
+x 16
+y 11
+end
+arch flagstone
+x 16
+y 12
+end
+arch cwall_0
+x 16
+y 12
+end
+arch flagstone
+x 16
+y 13
+end
+arch unholy_ground
+x 16
+y 13
+end
+arch dungeon_magic
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 14
+end
+arch unholy_ground
+x 16
+y 14
+end
+arch dungeon_magic
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 15
+end
+arch power_crystal
+name smaller mana crystal
+x 16
+y 15
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+no_pick 1
+end
+arch flagstone
+x 16
+y 16
+end
+arch cwall_0
+x 16
+y 16
+end
+arch cobblestones2
+x 16
+y 17
+end
+arch dwall_2_1_2
+x 16
+y 17
+end
+arch cobblestones2
+x 16
+y 18
+end
+arch unholy_ground
+x 16
+y 18
+end
+arch dungeon_magic
+x 16
+y 18
+end
+arch cobblestones2
+x 16
+y 19
+end
+arch unholy_ground
+x 16
+y 19
+end
+arch dungeon_magic
+x 16
+y 19
+end
+arch cobblestones2
+x 16
+y 20
+end
+arch dwall_2_1_2
+x 16
+y 20
+end
+arch cobblestones2
+x 17
+end
+arch dwall_2_1_2
+x 17
+end
+arch cobblestones2
+x 17
+y 1
+end
+arch grate_closed_2
+x 17
+y 1
+connected 1
+end
+arch magic_banned
+x 17
+y 1
+end
+arch unholy_ground
+x 17
+y 1
+end
+arch dungeon_magic
+x 17
+y 1
+end
+arch cobblestones2
+x 17
+y 2
+end
+arch grate_closed_2
+x 17
+y 2
+connected 1
+end
+arch magic_banned
+x 17
+y 2
+end
+arch unholy_ground
+x 17
+y 2
+end
+arch dungeon_magic
+x 17
+y 2
+end
+arch cobblestones2
+x 17
+y 3
+end
+arch dwall_2_2_3
+x 17
+y 3
+end
+arch cobblestones2
+x 17
+y 4
+end
+arch dwall_2_1_1
+x 17
+y 4
+end
+arch cobblestones2
+x 17
+y 5
+end
+arch dwall_2_1_1
+x 17
+y 5
+end
+arch cobblestones2
+x 17
+y 6
+end
+arch dwall_2_1_1
+x 17
+y 6
+end
+arch cobblestones2
+x 17
+y 7
+end
+arch dwall_2_1_1
+x 17
+y 7
+end
+arch cobblestones2
+x 17
+y 8
+end
+arch dwall_1_2
+x 17
+y 8
+end
+arch cobblestones2
+x 17
+y 9
+end
+arch unholy_ground
+x 17
+y 9
+end
+arch dungeon_magic
+x 17
+y 9
+end
+arch door_look_1
+face ldoor_white2.111
+x 17
+y 9
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 17
+y 10
+end
+arch unholy_ground
+x 17
+y 10
+end
+arch dungeon_magic
+x 17
+y 10
+end
+arch door_look_1
+face ldoor_white2.111
+x 17
+y 10
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 17
+y 11
+end
+arch unholy_ground
+x 17
+y 11
+end
+arch dungeon_magic
+x 17
+y 11
+end
+arch door_look_1
+face ldoor_white2.111
+x 17
+y 11
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 100
+resist_chaos 100
+no_pass 0
+end
+arch cobblestones2
+x 17
+y 12
+end
+arch dwall_1_1
+x 17
+y 12
+end
+arch cobblestones2
+x 17
+y 13
+end
+arch dwall_2_1_1
+x 17
+y 13
+end
+arch cobblestones2
+x 17
+y 14
+end
+arch dwall_2_1_1
+x 17
+y 14
+end
+arch cobblestones2
+x 17
+y 15
+end
+arch dwall_2_1_1
+x 17
+y 15
+end
+arch cobblestones2
+x 17
+y 16
+end
+arch dwall_2_1_1
+x 17
+y 16
+end
+arch cobblestones2
+x 17
+y 17
+end
+arch dwall_2_2_4
+x 17
+y 17
+end
+arch cobblestones2
+x 17
+y 18
+end
+arch grate_closed_2
+x 17
+y 18
+connected 1
+end
+arch magic_banned
+x 17
+y 18
+end
+arch unholy_ground
+x 17
+y 18
+end
+arch dungeon_magic
+x 17
+y 18
+end
+arch cobblestones2
+x 17
+y 19
+end
+arch grate_closed_2
+x 17
+y 19
+connected 1
+end
+arch magic_banned
+x 17
+y 19
+end
+arch unholy_ground
+x 17
+y 19
+end
+arch dungeon_magic
+x 17
+y 19
+end
+arch cobblestones2
+x 17
+y 20
+end
+arch dwall_2_1_2
+x 17
+y 20
+end
+arch cobblestones2
+x 18
+end
+arch dwall_2_1_2
+x 18
+end
+arch cobblestones2
+x 18
+y 1
+end
+arch unholy_ground
+x 18
+y 1
+end
+arch dungeon_magic
+x 18
+y 1
+end
+arch cobblestones2
+x 18
+y 2
+end
+arch unholy_ground
+x 18
+y 2
+end
+arch dungeon_magic
+x 18
+y 2
+end
+arch cobblestones2
+x 18
+y 3
+end
+arch grate_closed_1
+x 18
+y 3
+connected 1
+end
+arch magic_banned
+x 18
+y 3
+end
+arch unholy_ground
+x 18
+y 3
+end
+arch dungeon_magic
+x 18
+y 3
+end
+arch cobblestones2
+x 18
+y 4
+end
+arch unholy_ground
+x 18
+y 4
+end
+arch dungeon_magic
+x 18
+y 4
+end
+arch cobblestones2
+x 18
+y 5
+end
+arch unholy_ground
+x 18
+y 5
+end
+arch dungeon_magic
+x 18
+y 5
+end
+arch cobblestones2
+x 18
+y 6
+end
+arch unholy_ground
+x 18
+y 6
+end
+arch dungeon_magic
+x 18
+y 6
+end
+arch cobblestones2
+x 18
+y 7
+end
+arch unholy_ground
+x 18
+y 7
+end
+arch dungeon_magic
+x 18
+y 7
+end
+arch cobblestones2
+x 18
+y 8
+end
+arch unholy_ground
+x 18
+y 8
+end
+arch dungeon_magic
+x 18
+y 8
+end
+arch cobblestones2
+x 18
+y 9
+end
+arch unholy_ground
+x 18
+y 9
+end
+arch dungeon_magic
+x 18
+y 9
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 18
+y 9
+end
+arch cobblestones2
+x 18
+y 10
+end
+arch unholy_ground
+x 18
+y 10
+end
+arch dungeon_magic
+x 18
+y 10
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 18
+y 10
+end
+arch cobblestones2
+x 18
+y 11
+end
+arch unholy_ground
+x 18
+y 11
+end
+arch dungeon_magic
+x 18
+y 11
+end
+arch magic_mouth
+msg
+You hear a loud humming...
+endmsg
+x 18
+y 11
+end
+arch cobblestones2
+x 18
+y 12
+end
+arch unholy_ground
+x 18
+y 12
+end
+arch dungeon_magic
+x 18
+y 12
+end
+arch cobblestones2
+x 18
+y 13
+end
+arch unholy_ground
+x 18
+y 13
+end
+arch dungeon_magic
+x 18
+y 13
+end
+arch cobblestones2
+x 18
+y 14
+end
+arch unholy_ground
+x 18
+y 14
+end
+arch dungeon_magic
+x 18
+y 14
+end
+arch cobblestones2
+x 18
+y 15
+end
+arch unholy_ground
+x 18
+y 15
+end
+arch dungeon_magic
+x 18
+y 15
+end
+arch cobblestones2
+x 18
+y 16
+end
+arch unholy_ground
+x 18
+y 16
+end
+arch dungeon_magic
+x 18
+y 16
+end
+arch cobblestones2
+x 18
+y 17
+end
+arch grate_closed_1
+x 18
+y 17
+connected 1
+end
+arch magic_banned
+x 18
+y 17
+end
+arch unholy_ground
+x 18
+y 17
+end
+arch dungeon_magic
+x 18
+y 17
+end
+arch cobblestones2
+x 18
+y 18
+end
+arch unholy_ground
+x 18
+y 18
+end
+arch dungeon_magic
+x 18
+y 18
+end
+arch cobblestones2
+x 18
+y 19
+end
+arch unholy_ground
+x 18
+y 19
+end
+arch dungeon_magic
+x 18
+y 19
+end
+arch cobblestones2
+x 18
+y 20
+end
+arch dwall_2_1_2
+x 18
+y 20
+end
+arch cobblestones2
+x 19
+end
+arch dwall_2_1_2
+x 19
+end
+arch cobblestones2
+x 19
+y 1
+end
+arch stair_3_down
+slaying white9
+hp 28
+sp 1
+x 19
+y 1
+end
+arch unholy_ground
+x 19
+y 1
+end
+arch dungeon_magic
+x 19
+y 1
+end
+arch magic_mouth
+msg
+You feel a vast amount of power close
+by.
+endmsg
+x 19
+y 1
+end
+arch cobblestones2
+x 19
+y 2
+end
+arch unholy_ground
+x 19
+y 2
+end
+arch dungeon_magic
+x 19
+y 2
+end
+arch cobblestones2
+x 19
+y 3
+end
+arch grate_closed_1
+x 19
+y 3
+connected 1
+end
+arch magic_banned
+x 19
+y 3
+end
+arch unholy_ground
+x 19
+y 3
+end
+arch dungeon_magic
+x 19
+y 3
+end
+arch cobblestones2
+x 19
+y 4
+end
+arch unholy_ground
+x 19
+y 4
+end
+arch dungeon_magic
+x 19
+y 4
+end
+arch cobblestones2
+x 19
+y 5
+end
+arch unholy_ground
+x 19
+y 5
+end
+arch dungeon_magic
+x 19
+y 5
+end
+arch cobblestones2
+x 19
+y 6
+end
+arch unholy_ground
+x 19
+y 6
+end
+arch dungeon_magic
+x 19
+y 6
+end
+arch cobblestones2
+x 19
+y 7
+end
+arch unholy_ground
+x 19
+y 7
+end
+arch dungeon_magic
+x 19
+y 7
+end
+arch cobblestones2
+x 19
+y 8
+end
+arch unholy_ground
+x 19
+y 8
+end
+arch dungeon_magic
+x 19
+y 8
+end
+arch cobblestones2
+x 19
+y 9
+end
+arch unholy_ground
+x 19
+y 9
+end
+arch dungeon_magic
+x 19
+y 9
+end
+arch cobblestones2
+x 19
+y 10
+end
+arch unholy_ground
+x 19
+y 10
+end
+arch dungeon_magic
+x 19
+y 10
+end
+arch cobblestones2
+x 19
+y 11
+end
+arch unholy_ground
+x 19
+y 11
+end
+arch dungeon_magic
+x 19
+y 11
+end
+arch cobblestones2
+x 19
+y 12
+end
+arch unholy_ground
+x 19
+y 12
+end
+arch dungeon_magic
+x 19
+y 12
+end
+arch cobblestones2
+x 19
+y 13
+end
+arch unholy_ground
+x 19
+y 13
+end
+arch dungeon_magic
+x 19
+y 13
+end
+arch cobblestones2
+x 19
+y 14
+end
+arch unholy_ground
+x 19
+y 14
+end
+arch dungeon_magic
+x 19
+y 14
+end
+arch cobblestones2
+x 19
+y 15
+end
+arch unholy_ground
+x 19
+y 15
+end
+arch dungeon_magic
+x 19
+y 15
+end
+arch cobblestones2
+x 19
+y 16
+end
+arch unholy_ground
+x 19
+y 16
+end
+arch dungeon_magic
+x 19
+y 16
+end
+arch cobblestones2
+x 19
+y 17
+end
+arch grate_closed_1
+x 19
+y 17
+connected 1
+end
+arch magic_banned
+x 19
+y 17
+end
+arch unholy_ground
+x 19
+y 17
+end
+arch dungeon_magic
+x 19
+y 17
+end
+arch cobblestones2
+x 19
+y 18
+end
+arch unholy_ground
+x 19
+y 18
+end
+arch dungeon_magic
+x 19
+y 18
+end
+arch cobblestones2
+x 19
+y 19
+end
+arch stair_3_down
+slaying white9
+hp 28
+sp 28
+x 19
+y 19
+end
+arch unholy_ground
+x 19
+y 19
+end
+arch dungeon_magic
+x 19
+y 19
+end
+arch magic_mouth
+msg
+You feel a vast amount of power close
+by.
+endmsg
+x 19
+y 19
+end
+arch cobblestones2
+x 19
+y 20
+end
+arch dwall_2_1_2
+x 19
+y 20
+end
+arch cobblestones2
+x 20
+end
+arch dwall_2_2_3
+x 20
+end
+arch cobblestones2
+x 20
+y 1
+end
+arch dwall_2_1_1
+x 20
+y 1
+end
+arch cobblestones2
+x 20
+y 2
+end
+arch dwall_2_1_1
+x 20
+y 2
+end
+arch cobblestones2
+x 20
+y 3
+end
+arch dwall_2_1_1
+x 20
+y 3
+end
+arch cobblestones2
+x 20
+y 4
+end
+arch dwall_2_1_1
+x 20
+y 4
+end
+arch cobblestones2
+x 20
+y 5
+end
+arch dwall_2_1_1
+x 20
+y 5
+end
+arch cobblestones2
+x 20
+y 6
+end
+arch dwall_2_1_1
+x 20
+y 6
+end
+arch cobblestones2
+x 20
+y 7
+end
+arch dwall_2_1_1
+x 20
+y 7
+end
+arch cobblestones2
+x 20
+y 8
+end
+arch dwall_2_1_1
+x 20
+y 8
+end
+arch cobblestones2
+x 20
+y 9
+end
+arch dwall_2_1_1
+x 20
+y 9
+end
+arch cobblestones2
+x 20
+y 10
+end
+arch dwall_2_1_1
+x 20
+y 10
+end
+arch cobblestones2
+x 20
+y 11
+end
+arch dwall_2_1_1
+x 20
+y 11
+end
+arch cobblestones2
+x 20
+y 12
+end
+arch dwall_2_1_1
+x 20
+y 12
+end
+arch cobblestones2
+x 20
+y 13
+end
+arch dwall_2_1_1
+x 20
+y 13
+end
+arch cobblestones2
+x 20
+y 14
+end
+arch dwall_2_1_1
+x 20
+y 14
+end
+arch cobblestones2
+x 20
+y 15
+end
+arch dwall_2_1_1
+x 20
+y 15
+end
+arch cobblestones2
+x 20
+y 16
+end
+arch dwall_2_1_1
+x 20
+y 16
+end
+arch cobblestones2
+x 20
+y 17
+end
+arch cobblestones2
+x 20
+y 18
+end
+arch dwall_2_1_1
+x 20
+y 18
+end
+arch cobblestones2
+x 20
+y 19
+end
+arch dwall_2_1_1
+x 20
+y 19
+end
+arch cobblestones2
+x 20
+y 20
+end
+arch dwall_2_2_4
+x 20
+y 20
+end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
+x 21
+y 2
+end
+arch blocked
+x 21
+y 3
+end
+arch blocked
+x 21
+y 4
+end
+arch blocked
+x 21
+y 5
+end
+arch blocked
+x 21
+y 6
+end
+arch blocked
+x 21
+y 7
+end
+arch blocked
+x 21
+y 8
+end
+arch blocked
+x 21
+y 9
+end
+arch blocked
+x 21
+y 10
+end
+arch blocked
+x 21
+y 11
+end
+arch blocked
+x 21
+y 12
+end
+arch blocked
+x 21
+y 13
+end
+arch blocked
+x 21
+y 14
+end
+arch blocked
+x 21
+y 15
+end
+arch blocked
+x 21
+y 16
+end
+arch blocked
+x 21
+y 17
+end
+arch blocked
+x 21
+y 18
+end
+arch blocked
+x 21
+y 19
+end
+arch blocked
+x 21
+y 20
+end

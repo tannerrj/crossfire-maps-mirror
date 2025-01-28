@@ -1,0 +1,3274 @@
+arch map
+name guild2
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Mar  3 17:12:08 2001
+endmsg
+width 23
+height 22
+end
+arch blocked
+msg
+endmsg
+end
+arch blocked
+msg
+endmsg
+y 1
+end
+arch woodfloor
+y 2
+end
+arch dwall_2_2_2
+y 2
+end
+arch woodfloor
+y 3
+end
+arch dwall_2_1_1
+y 3
+end
+arch woodfloor
+y 4
+end
+arch dwall_2_1_1
+y 4
+end
+arch woodfloor
+y 5
+end
+arch dwall_2_1_1
+y 5
+end
+arch woodfloor
+y 6
+end
+arch dwall_3_2
+y 6
+end
+arch woodfloor
+y 7
+end
+arch dwall_2_1_1
+y 7
+end
+arch woodfloor
+y 8
+end
+arch dwall_2_1_1
+y 8
+end
+arch woodfloor
+y 9
+end
+arch dwall_2_1_1
+y 9
+end
+arch woodfloor
+y 10
+end
+arch dwall_3_2
+y 10
+end
+arch woodfloor
+y 11
+end
+arch dwall_2_1_1
+y 11
+end
+arch woodfloor
+y 12
+end
+arch dwall_2_1_1
+y 12
+end
+arch woodfloor
+y 13
+end
+arch dwall_2_1_1
+y 13
+end
+arch woodfloor
+y 14
+end
+arch dwall_2_1_1
+y 14
+end
+arch woodfloor
+y 15
+end
+arch dwall_3_2
+y 15
+end
+arch woodfloor
+y 16
+end
+arch dwall_2_1_1
+y 16
+end
+arch woodfloor
+y 17
+end
+arch dwall_2_1_1
+y 17
+end
+arch woodfloor
+y 18
+end
+arch dwall_2_1_1
+y 18
+end
+arch woodfloor
+y 19
+end
+arch dwall_2_2_1
+y 19
+end
+arch blocked
+msg
+endmsg
+y 20
+end
+arch blocked
+msg
+endmsg
+y 21
+end
+arch blocked
+msg
+endmsg
+x 1
+end
+arch blocked
+msg
+endmsg
+x 1
+y 1
+end
+arch woodfloor
+x 1
+y 2
+end
+arch dwall_2_1_2
+x 1
+y 2
+end
+arch woodfloor
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch woodfloor
+x 1
+y 6
+end
+arch dwall_2_1_2
+x 1
+y 6
+end
+arch woodfloor
+x 1
+y 7
+end
+arch bookshelf
+x 1
+y 7
+end
+arch woodfloor
+x 1
+y 8
+end
+arch table_4
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
+end
+arch quarto
+x 1
+y 9
+end
+arch woodfloor
+x 1
+y 10
+end
+arch dwall_2_1_2
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 11
+end
+arch bookshelf
+x 1
+y 11
+end
+arch woodfloor
+x 1
+y 12
+end
+arch table_4
+x 1
+y 12
+end
+arch woodfloor
+x 1
+y 13
+end
+arch woodfloor
+x 1
+y 14
+end
+arch table_4
+x 1
+y 14
+end
+arch woodfloor
+x 1
+y 15
+end
+arch dwall_2_1_2
+x 1
+y 15
+end
+arch woodfloor
+x 1
+y 16
+end
+arch bookshelf
+x 1
+y 16
+end
+arch woodfloor
+x 1
+y 17
+end
+arch woodfloor
+x 1
+y 18
+end
+arch table_4
+x 1
+y 18
+end
+arch woodfloor
+x 1
+y 19
+end
+arch dwall_2_1_2
+x 1
+y 19
+end
+arch blocked
+msg
+endmsg
+x 1
+y 20
+end
+arch blocked
+msg
+endmsg
+x 1
+y 21
+end
+arch woodfloor
+x 2
+end
+arch dwall_2_2_2
+x 2
+end
+arch woodfloor
+x 2
+y 1
+end
+arch dwall_2_1_1
+x 2
+y 1
+end
+arch woodfloor
+x 2
+y 2
+end
+arch dwall_2_2_4
+x 2
+y 2
+end
+arch woodfloor
+x 2
+y 3
+end
+arch woodfloor
+x 2
+y 4
+end
+arch woodfloor
+x 2
+y 5
+end
+arch woodfloor
+x 2
+y 6
+end
+arch dwall_2_1_2
+x 2
+y 6
+end
+arch woodfloor
+x 2
+y 7
+end
+arch bookshelf
+x 2
+y 7
+end
+arch woodfloor
+x 2
+y 8
+end
+arch chair_2.2
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 9
+end
+arch quarto
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 10
+end
+arch dwall_2_1_2
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 11
+end
+arch bookshelf
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 12
+end
+arch chair_2.2
+x 2
+y 12
+end
+arch woodfloor
+x 2
+y 13
+end
+arch woodfloor
+x 2
+y 14
+end
+arch chair_2.2
+x 2
+y 14
+end
+arch woodfloor
+x 2
+y 15
+end
+arch dwall_2_1_2
+x 2
+y 15
+end
+arch woodfloor
+x 2
+y 16
+end
+arch bookshelf
+x 2
+y 16
+end
+arch woodfloor
+x 2
+y 17
+end
+arch woodfloor
+x 2
+y 18
+end
+arch chair_2.2
+x 2
+y 18
+end
+arch woodfloor
+x 2
+y 19
+end
+arch dwall3_3
+x 2
+y 19
+end
+arch woodfloor
+x 2
+y 20
+end
+arch dwall_2_1_1
+x 2
+y 20
+end
+arch woodfloor
+x 2
+y 21
+end
+arch dwall_2_2_1
+x 2
+y 21
+end
+arch woodfloor
+x 3
+end
+arch dwall_2_1_2
+x 3
+end
+arch woodfloor
+x 3
+y 1
+end
+arch woodfloor
+x 3
+y 2
+end
+arch woodfloor
+x 3
+y 3
+end
+arch woodfloor
+x 3
+y 4
+end
+arch woodfloor
+x 3
+y 5
+end
+arch woodfloor
+x 3
+y 6
+end
+arch dwall_2_1_2
+x 3
+y 6
+end
+arch woodfloor
+x 3
+y 7
+end
+arch bookshelf
+x 3
+y 7
+end
+arch woodfloor
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 9
+end
+arch quarto
+name information about Lord Darkoth
+msg
+Lord Darkoth is the Elven King of
+Darkland,and a powerful wizard. Not
+much is known about him,he is very
+intelligent and evil.
+
+
+endmsg
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 10
+end
+arch dwall_2_1_2
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 11
+end
+arch bookshelf
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 12
+end
+arch woodfloor
+x 3
+y 13
+end
+arch woodfloor
+x 3
+y 14
+end
+arch woodfloor
+x 3
+y 15
+end
+arch dwall_2_1_2
+x 3
+y 15
+end
+arch woodfloor
+x 3
+y 16
+end
+arch bookshelf
+x 3
+y 16
+end
+arch woodfloor
+x 3
+y 17
+end
+arch woodfloor
+x 3
+y 18
+end
+arch book_read
+name The great worm
+msg
+Legends of the past tell of a massive
+worm-like monster. This worm could
+tunnel underground at remarkable
+speeds. Before this beast would
+emerge,the ground would crackle with
+electricity. When the great worm burst
+forth from earth,a deafening roar
+would reverbate throughout the
+surrounding countryside. Lightning
+bolts would flash from within its
+yawning mouth. Sandstorms would arise
+from around the worm's bulk. Its very
+skin would glow with electricity.
+
+
+endmsg
+x 3
+y 18
+end
+arch woodfloor
+x 3
+y 19
+end
+arch dwall_2_1_2
+x 3
+y 19
+end
+arch woodfloor
+x 3
+y 20
+end
+arch woodfloor
+x 3
+y 21
+end
+arch dwall_2_1_2
+x 3
+y 21
+end
+arch woodfloor
+x 4
+end
+arch dwall_2_1_2
+x 4
+end
+arch woodfloor
+x 4
+y 1
+end
+arch woodfloor
+x 4
+y 2
+end
+arch woodfloor
+x 4
+y 3
+end
+arch woodfloor
+x 4
+y 4
+end
+arch woodfloor
+x 4
+y 5
+end
+arch woodfloor
+x 4
+y 6
+end
+arch dwall_2_1_2
+x 4
+y 6
+end
+arch woodfloor
+x 4
+y 7
+end
+arch bookshelf
+x 4
+y 7
+end
+arch woodfloor
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 9
+end
+arch quarto
+name Information about King Yoer
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 10
+end
+arch dwall_2_1_2
+x 4
+y 10
+end
+arch woodfloor
+x 4
+y 11
+end
+arch bookshelf
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 12
+end
+arch woodfloor
+x 4
+y 13
+end
+arch book_read
+x 4
+y 13
+end
+arch woodfloor
+x 4
+y 14
+end
+arch book_clasp
+x 4
+y 14
+end
+arch woodfloor
+x 4
+y 15
+end
+arch dwall_2_1_2
+x 4
+y 15
+end
+arch woodfloor
+x 4
+y 16
+end
+arch bookshelf
+x 4
+y 16
+end
+arch woodfloor
+x 4
+y 17
+end
+arch woodfloor
+x 4
+y 18
+end
+arch book_clasp
+name strange worm creature
+msg
+A strange worm creature is rumored to
+have been sighted south of Fleabeon.
+Descriptions from the travellers who
+said they saw this thing, are simular
+to the great worm of legend.
+
+endmsg
+x 4
+y 18
+end
+arch woodfloor
+x 4
+y 19
+end
+arch dwall_2_1_2
+x 4
+y 19
+end
+arch woodfloor
+x 4
+y 20
+end
+arch woodfloor
+x 4
+y 21
+end
+arch dwall_2_1_2
+x 4
+y 21
+end
+arch woodfloor
+x 5
+end
+arch dwall_2_1_2
+x 5
+end
+arch woodfloor
+x 5
+y 1
+end
+arch woodfloor
+x 5
+y 2
+end
+arch woodfloor
+x 5
+y 3
+end
+arch woodfloor
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch woodfloor
+x 5
+y 6
+end
+arch dwall_2_1_2
+x 5
+y 6
+end
+arch woodfloor
+x 5
+y 7
+end
+arch bookshelf
+x 5
+y 7
+end
+arch woodfloor
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 9
+end
+arch quarto
+name information about Queen Flora
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 10
+end
+arch dwall_2_1_2
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 11
+end
+arch bookshelf
+x 5
+y 11
+end
+arch woodfloor
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 13
+end
+arch book_clasp
+x 5
+y 13
+end
+arch woodfloor
+x 5
+y 14
+end
+arch book_read
+x 5
+y 14
+end
+arch woodfloor
+x 5
+y 15
+end
+arch dwall_2_1_2
+x 5
+y 15
+end
+arch woodfloor
+x 5
+y 16
+end
+arch bookshelf
+x 5
+y 16
+end
+arch woodfloor
+x 5
+y 17
+end
+arch woodfloor
+x 5
+y 18
+end
+arch book_read
+x 5
+y 18
+end
+arch woodfloor
+x 5
+y 19
+end
+arch dwall_2_1_2
+x 5
+y 19
+end
+arch woodfloor
+x 5
+y 20
+end
+arch woodfloor
+x 5
+y 21
+end
+arch dwall_2_1_2
+x 5
+y 21
+end
+arch woodfloor
+x 6
+end
+arch dwall_2_1_2
+x 6
+end
+arch woodfloor
+x 6
+y 1
+end
+arch woodfloor
+x 6
+y 2
+end
+arch woodfloor
+x 6
+y 3
+end
+arch woodfloor
+x 6
+y 4
+end
+arch woodfloor
+x 6
+y 5
+end
+arch woodfloor
+x 6
+y 6
+end
+arch dwall_2_2_3
+x 6
+y 6
+end
+arch woodfloor
+x 6
+y 7
+end
+arch dwall_1_2
+x 6
+y 7
+end
+arch woodfloor
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 9
+end
+arch dwall_1_1
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 10
+end
+arch dwall_3_4
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch dwall_1_2
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 13
+end
+arch dwall_1_1
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 14
+end
+arch dwall_2_1_1
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 15
+end
+arch dwall_3_4
+x 6
+y 15
+end
+arch woodfloor
+x 6
+y 16
+end
+arch dwall_1_2
+x 6
+y 16
+end
+arch woodfloor
+x 6
+y 17
+end
+arch woodfloor
+x 6
+y 18
+end
+arch dwall_1_1
+x 6
+y 18
+end
+arch woodfloor
+x 6
+y 19
+end
+arch dwall_2_2_4
+x 6
+y 19
+end
+arch woodfloor
+x 6
+y 20
+end
+arch woodfloor
+x 6
+y 21
+end
+arch dwall_2_1_2
+x 6
+y 21
+end
+arch woodfloor
+x 7
+end
+arch dwall_2_1_2
+x 7
+end
+arch woodfloor
+x 7
+y 1
+end
+arch woodfloor
+x 7
+y 2
+end
+arch woodfloor
+x 7
+y 3
+end
+arch woodfloor
+x 7
+y 4
+end
+arch woodfloor
+x 7
+y 5
+end
+arch woodfloor
+x 7
+y 6
+end
+arch woodfloor
+x 7
+y 7
+end
+arch woodfloor
+x 7
+y 8
+end
+arch sign_w
+name Important people
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 12
+end
+arch sign_w
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 15
+end
+arch woodfloor
+x 7
+y 16
+end
+arch woodfloor
+x 7
+y 17
+end
+arch sign_w
+x 7
+y 17
+end
+arch woodfloor
+x 7
+y 18
+end
+arch woodfloor
+x 7
+y 19
+end
+arch woodfloor
+x 7
+y 20
+end
+arch woodfloor
+x 7
+y 21
+end
+arch dwall_2_1_2
+x 7
+y 21
+end
+arch woodfloor
+x 8
+end
+arch dwall_2_1_2
+x 8
+end
+arch woodfloor
+x 8
+y 1
+end
+arch woodfloor
+x 8
+y 2
+end
+arch woodfloor
+x 8
+y 3
+end
+arch woodfloor
+x 8
+y 4
+end
+arch woodfloor
+x 8
+y 5
+end
+arch woodfloor
+x 8
+y 6
+end
+arch woodfloor
+x 8
+y 7
+end
+arch woodfloor
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 12
+end
+arch woodfloor
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 15
+end
+arch woodfloor
+x 8
+y 16
+end
+arch woodfloor
+x 8
+y 17
+end
+arch woodfloor
+x 8
+y 18
+end
+arch woodfloor
+x 8
+y 19
+end
+arch woodfloor
+x 8
+y 20
+end
+arch woodfloor
+x 8
+y 21
+end
+arch dwall_2_1_2
+x 8
+y 21
+end
+arch woodfloor
+x 9
+end
+arch dwall_2_1_2
+x 9
+end
+arch woodfloor
+x 9
+y 1
+end
+arch woodfloor
+x 9
+y 2
+end
+arch woodfloor
+x 9
+y 3
+end
+arch sign_e
+name Info about the land
+x 9
+y 3
+end
+arch woodfloor
+x 9
+y 4
+end
+arch woodfloor
+x 9
+y 5
+end
+arch woodfloor
+x 9
+y 6
+end
+arch woodfloor
+x 9
+y 7
+end
+arch woodfloor
+x 9
+y 8
+end
+arch sign_e
+x 9
+y 8
+end
+arch woodfloor
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 12
+end
+arch sign_e
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 13
+end
+arch woodfloor
+x 9
+y 14
+end
+arch woodfloor
+x 9
+y 15
+end
+arch woodfloor
+x 9
+y 16
+end
+arch woodfloor
+x 9
+y 17
+end
+arch woodfloor
+x 9
+y 18
+end
+arch woodfloor
+x 9
+y 19
+end
+arch woodfloor
+x 9
+y 20
+end
+arch woodfloor
+x 9
+y 21
+end
+arch dwall_2_1_2
+x 9
+y 21
+end
+arch woodfloor
+x 10
+end
+arch dwall3_3
+x 10
+end
+arch woodfloor
+x 10
+y 1
+end
+arch dwall_2_1_1
+x 10
+y 1
+end
+arch woodfloor
+x 10
+y 2
+end
+arch dwall_1_2
+x 10
+y 2
+end
+arch woodfloor
+x 10
+y 3
+end
+arch woodfloor
+x 10
+y 4
+end
+arch dwall_1_1
+x 10
+y 4
+end
+arch woodfloor
+x 10
+y 5
+end
+arch dwall_2_1_1
+x 10
+y 5
+end
+arch woodfloor
+x 10
+y 6
+end
+arch dwall_3_2
+x 10
+y 6
+end
+arch woodfloor
+x 10
+y 7
+end
+arch dwall_1_2
+x 10
+y 7
+end
+arch woodfloor
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 9
+end
+arch dwall_1_1
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 10
+end
+arch dwall_3_2
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 11
+end
+arch dwall_1_2
+x 10
+y 11
+end
+arch woodfloor
+x 10
+y 12
+end
+arch woodfloor
+x 10
+y 13
+end
+arch dwall_1_1
+x 10
+y 13
+end
+arch woodfloor
+x 10
+y 14
+end
+arch dwall_3_2
+x 10
+y 14
+end
+arch woodfloor
+x 10
+y 15
+end
+arch dwall_2_1_1
+x 10
+y 15
+end
+arch woodfloor
+x 10
+y 16
+end
+arch dwall_2_1_1
+x 10
+y 16
+end
+arch woodfloor
+x 10
+y 17
+end
+arch dwall_2_1_1
+x 10
+y 17
+end
+arch woodfloor
+x 10
+y 18
+end
+arch dwall_2_2_1
+x 10
+y 18
+end
+arch woodfloor
+x 10
+y 19
+end
+arch woodfloor
+x 10
+y 20
+end
+arch woodfloor
+x 10
+y 21
+end
+arch dwall_2_1_2
+x 10
+y 21
+end
+arch woodfloor
+x 11
+end
+arch dwall_2_1_2
+x 11
+end
+arch woodfloor
+x 11
+y 1
+end
+arch bookshelf
+x 11
+y 1
+end
+arch woodfloor
+x 11
+y 2
+end
+arch tome
+name the Elven Lands:three elf factions
+msg
+This continent has three Elven
+kingdoms,the Green Elves,the Light
+Elves,and the Dark elves.
+The Light elves,their kingdom is
+called the Elven Land of Yoer,are
+continually at war with the Dark
+elves,who live in the Elven Land of
+Darkoth. The wood elves call their
+kingdom,Flora's domain.
+ The wood elves were once allies of
+the light elves,until a terrible
+tragity happened to the light elf
+leader. He disapeared,and has not
+been seen in these lands since.
+ Certain groups speculate that the
+Dwarves were responsible for King
+Yoer's dissapearance. They think that
+the Dwarves either killed him or
+imprisoned him. 
+
+endmsg
+x 11
+y 2
+end
+arch woodfloor
+x 11
+y 3
+end
+arch woodfloor
+x 11
+y 4
+end
+arch book_read
+name Information about the sacred stones
+msg
+ It is said that four powerful stones
+exist,and are hidden through out the
+land. Each stone has power of an
+element. Therefore,they are of the
+four elements. Legend says that the
+stones are extremely powerful when
+brought together. 
+endmsg
+x 11
+y 4
+end
+arch woodfloor
+x 11
+y 5
+end
+arch book_read
+name Information about the dark passage
+msg
+The only land way to get the Elven
+Land of Darkoth from the Elven land of
+Yoer,is through the dark passage.
+Unfortunatly,the way is dangerous and
+many adventurers have gotten lost and
+never returned. Most probally eaten by
+one of those dragons said to inhabit
+the caverns. 
+endmsg
+x 11
+y 5
+end
+arch woodfloor
+x 11
+y 6
+end
+arch dwall_2_1_2
+x 11
+y 6
+end
+arch woodfloor
+x 11
+y 7
+end
+arch bookshelf
+x 11
+y 7
+end
+arch woodfloor
+x 11
+y 8
+end
+arch woodfloor
+x 11
+y 9
+end
+arch book_clasp
+x 11
+y 9
+end
+arch woodfloor
+x 11
+y 10
+end
+arch dwall_2_1_2
+x 11
+y 10
+end
+arch woodfloor
+x 11
+y 11
+end
+arch bookshelf
+x 11
+y 11
+end
+arch woodfloor
+x 11
+y 12
+end
+arch woodfloor
+x 11
+y 13
+end
+arch book_clasp
+x 11
+y 13
+end
+arch woodfloor
+x 11
+y 14
+end
+arch dwall_2_1_2
+x 11
+y 14
+end
+arch woodfloor
+x 11
+y 15
+end
+arch bookshelf
+x 11
+y 15
+end
+arch woodfloor
+x 11
+y 16
+end
+arch book_clasp
+x 11
+y 16
+end
+arch woodfloor
+x 11
+y 17
+end
+arch book_read
+x 11
+y 17
+end
+arch woodfloor
+x 11
+y 18
+end
+arch dwall_1_3
+x 11
+y 18
+end
+arch woodfloor
+x 11
+y 19
+end
+arch woodfloor
+x 11
+y 20
+end
+arch woodfloor
+x 11
+y 21
+end
+arch dwall_2_1_2
+x 11
+y 21
+end
+arch woodfloor
+x 12
+end
+arch dwall_2_1_2
+x 12
+end
+arch woodfloor
+x 12
+y 1
+end
+arch bookshelf
+x 12
+y 1
+end
+arch woodfloor
+x 12
+y 2
+end
+arch woodfloor
+x 12
+y 3
+end
+arch woodfloor
+x 12
+y 4
+end
+arch woodfloor
+x 12
+y 5
+end
+arch woodfloor
+x 12
+y 6
+end
+arch dwall_2_1_2
+x 12
+y 6
+end
+arch woodfloor
+x 12
+y 7
+end
+arch bookshelf
+x 12
+y 7
+end
+arch woodfloor
+x 12
+y 8
+end
+arch woodfloor
+x 12
+y 9
+end
+arch book_clasp
+x 12
+y 9
+end
+arch woodfloor
+x 12
+y 10
+end
+arch dwall_2_1_2
+x 12
+y 10
+end
+arch woodfloor
+x 12
+y 11
+end
+arch bookshelf
+x 12
+y 11
+end
+arch woodfloor
+x 12
+y 12
+end
+arch woodfloor
+x 12
+y 13
+end
+arch book_read
+x 12
+y 13
+end
+arch woodfloor
+x 12
+y 14
+end
+arch dwall_2_1_2
+x 12
+y 14
+end
+arch woodfloor
+x 12
+y 15
+end
+arch bookshelf
+x 12
+y 15
+end
+arch woodfloor
+x 12
+y 16
+end
+arch woodfloor
+x 12
+y 17
+end
+arch woodfloor
+x 12
+y 18
+end
+arch woodfloor
+x 12
+y 19
+end
+arch sign
+x 12
+y 19
+end
+arch woodfloor
+x 12
+y 20
+end
+arch woodfloor
+x 12
+y 21
+end
+arch dwall_2_1_2
+x 12
+y 21
+end
+arch woodfloor
+x 13
+end
+arch dwall_2_1_2
+x 13
+end
+arch woodfloor
+x 13
+y 1
+end
+arch bookshelf
+x 13
+y 1
+end
+arch woodfloor
+x 13
+y 2
+end
+arch woodfloor
+x 13
+y 3
+end
+arch chair_2.4
+x 13
+y 3
+end
+arch woodfloor
+x 13
+y 4
+end
+arch woodfloor
+x 13
+y 5
+end
+arch chair_2.4
+x 13
+y 5
+end
+arch woodfloor
+x 13
+y 6
+end
+arch dwall_2_1_2
+x 13
+y 6
+end
+arch woodfloor
+x 13
+y 7
+end
+arch bookshelf
+x 13
+y 7
+end
+arch woodfloor
+x 13
+y 8
+end
+arch woodfloor
+x 13
+y 9
+end
+arch chair_2.4
+x 13
+y 9
+end
+arch woodfloor
+x 13
+y 10
+end
+arch dwall_2_1_2
+x 13
+y 10
+end
+arch woodfloor
+x 13
+y 11
+end
+arch bookshelf
+x 13
+y 11
+end
+arch woodfloor
+x 13
+y 12
+end
+arch woodfloor
+x 13
+y 13
+end
+arch chair_2.4
+x 13
+y 13
+end
+arch woodfloor
+x 13
+y 14
+end
+arch dwall_2_1_2
+x 13
+y 14
+end
+arch woodfloor
+x 13
+y 15
+end
+arch bookshelf
+x 13
+y 15
+end
+arch woodfloor
+x 13
+y 16
+end
+arch woodfloor
+x 13
+y 17
+end
+arch chair_2.4
+x 13
+y 17
+end
+arch woodfloor
+x 13
+y 18
+end
+arch dwall_1_4
+x 13
+y 18
+end
+arch woodfloor
+x 13
+y 19
+end
+arch woodfloor
+x 13
+y 20
+end
+arch woodfloor
+x 13
+y 21
+end
+arch dwall_2_1_2
+x 13
+y 21
+end
+arch woodfloor
+x 14
+end
+arch dwall_2_1_2
+x 14
+end
+arch woodfloor
+x 14
+y 1
+end
+arch bookshelf
+x 14
+y 1
+end
+arch woodfloor
+x 14
+y 2
+end
+arch woodfloor
+x 14
+y 3
+end
+arch table_4
+x 14
+y 3
+end
+arch woodfloor
+x 14
+y 4
+end
+arch woodfloor
+x 14
+y 5
+end
+arch table_4
+x 14
+y 5
+end
+arch woodfloor
+x 14
+y 6
+end
+arch dwall_2_1_2
+x 14
+y 6
+end
+arch woodfloor
+x 14
+y 7
+end
+arch bookshelf
+x 14
+y 7
+end
+arch woodfloor
+x 14
+y 8
+end
+arch woodfloor
+x 14
+y 9
+end
+arch table_4
+x 14
+y 9
+end
+arch woodfloor
+x 14
+y 10
+end
+arch dwall_2_1_2
+x 14
+y 10
+end
+arch woodfloor
+x 14
+y 11
+end
+arch bookshelf
+x 14
+y 11
+end
+arch woodfloor
+x 14
+y 12
+end
+arch woodfloor
+x 14
+y 13
+end
+arch table_4
+x 14
+y 13
+end
+arch woodfloor
+x 14
+y 14
+end
+arch dwall_2_1_2
+x 14
+y 14
+end
+arch woodfloor
+x 14
+y 15
+end
+arch bookshelf
+x 14
+y 15
+end
+arch woodfloor
+x 14
+y 16
+end
+arch woodfloor
+x 14
+y 17
+end
+arch table_4
+x 14
+y 17
+end
+arch woodfloor
+x 14
+y 18
+end
+arch dwall_2_1_2
+x 14
+y 18
+end
+arch woodfloor
+x 14
+y 19
+end
+arch woodfloor
+x 14
+y 20
+end
+arch woodfloor
+x 14
+y 21
+end
+arch dwall_2_1_2
+x 14
+y 21
+end
+arch woodfloor
+x 15
+end
+arch dwall3_3
+x 15
+end
+arch woodfloor
+x 15
+y 1
+end
+arch dwall_2_1_1
+x 15
+y 1
+end
+arch woodfloor
+x 15
+y 2
+end
+arch dwall_2_1_1
+x 15
+y 2
+end
+arch woodfloor
+x 15
+y 3
+end
+arch dwall_2_1_1
+x 15
+y 3
+end
+arch woodfloor
+x 15
+y 4
+end
+arch dwall_2_1_1
+x 15
+y 4
+end
+arch woodfloor
+x 15
+y 5
+end
+arch dwall_2_1_1
+x 15
+y 5
+end
+arch woodfloor
+x 15
+y 6
+end
+arch dwall_3_4
+x 15
+y 6
+end
+arch woodfloor
+x 15
+y 7
+end
+arch dwall_2_1_1
+x 15
+y 7
+end
+arch woodfloor
+x 15
+y 8
+end
+arch dwall_2_1_1
+x 15
+y 8
+end
+arch woodfloor
+x 15
+y 9
+end
+arch dwall_2_1_1
+x 15
+y 9
+end
+arch woodfloor
+x 15
+y 10
+end
+arch dwall_3_4
+x 15
+y 10
+end
+arch woodfloor
+x 15
+y 11
+end
+arch dwall_2_1_1
+x 15
+y 11
+end
+arch woodfloor
+x 15
+y 12
+end
+arch dwall_2_1_1
+x 15
+y 12
+end
+arch woodfloor
+x 15
+y 13
+end
+arch dwall_2_1_1
+x 15
+y 13
+end
+arch woodfloor
+x 15
+y 14
+end
+arch dwall_3_4
+x 15
+y 14
+end
+arch woodfloor
+x 15
+y 15
+end
+arch dwall_2_1_1
+x 15
+y 15
+end
+arch woodfloor
+x 15
+y 16
+end
+arch dwall_2_1_1
+x 15
+y 16
+end
+arch woodfloor
+x 15
+y 17
+end
+arch dwall_2_1_1
+x 15
+y 17
+end
+arch woodfloor
+x 15
+y 18
+end
+arch dwall_2_2_4
+x 15
+y 18
+end
+arch woodfloor
+x 15
+y 19
+end
+arch woodfloor
+x 15
+y 20
+end
+arch woodfloor
+x 15
+y 21
+end
+arch dwall_2_1_2
+x 15
+y 21
+end
+arch woodfloor
+x 16
+end
+arch dwall_2_1_2
+x 16
+end
+arch woodfloor
+x 16
+y 1
+end
+arch woodfloor
+x 16
+y 2
+end
+arch woodfloor
+x 16
+y 3
+end
+arch woodfloor
+x 16
+y 4
+end
+arch woodfloor
+x 16
+y 5
+end
+arch woodfloor
+x 16
+y 6
+end
+arch woodfloor
+x 16
+y 7
+end
+arch woodfloor
+x 16
+y 8
+end
+arch woodfloor
+x 16
+y 9
+end
+arch woodfloor
+x 16
+y 10
+end
+arch woodfloor
+x 16
+y 11
+end
+arch woodfloor
+x 16
+y 12
+end
+arch woodfloor
+x 16
+y 13
+end
+arch woodfloor
+x 16
+y 14
+end
+arch woodfloor
+x 16
+y 15
+end
+arch woodfloor
+x 16
+y 16
+end
+arch woodfloor
+x 16
+y 17
+end
+arch woodfloor
+x 16
+y 18
+end
+arch woodfloor
+x 16
+y 19
+end
+arch woodfloor
+x 16
+y 20
+end
+arch woodfloor
+x 16
+y 21
+end
+arch dwall_2_1_2
+x 16
+y 21
+end
+arch woodfloor
+x 17
+end
+arch dwall_2_1_2
+x 17
+end
+arch woodfloor
+x 17
+y 1
+end
+arch woodfloor
+x 17
+y 2
+end
+arch woodfloor
+x 17
+y 3
+end
+arch woodfloor
+x 17
+y 4
+end
+arch sign_e
+x 17
+y 4
+end
+arch woodfloor
+x 17
+y 5
+end
+arch woodfloor
+x 17
+y 6
+end
+arch woodfloor
+x 17
+y 7
+end
+arch woodfloor
+x 17
+y 8
+end
+arch sign_e
+x 17
+y 8
+end
+arch woodfloor
+x 17
+y 9
+end
+arch woodfloor
+x 17
+y 10
+end
+arch woodfloor
+x 17
+y 11
+end
+arch woodfloor
+x 17
+y 12
+end
+arch sign_e
+x 17
+y 12
+end
+arch woodfloor
+x 17
+y 13
+end
+arch woodfloor
+x 17
+y 14
+end
+arch woodfloor
+x 17
+y 15
+end
+arch woodfloor
+x 17
+y 16
+end
+arch sign_e
+x 17
+y 16
+end
+arch woodfloor
+x 17
+y 17
+end
+arch woodfloor
+x 17
+y 18
+end
+arch woodfloor
+x 17
+y 19
+end
+arch woodfloor
+x 17
+y 20
+end
+arch woodfloor
+x 17
+y 21
+end
+arch dwall_2_1_2
+x 17
+y 21
+end
+arch woodfloor
+x 18
+end
+arch dwall_2_2_3
+x 18
+end
+arch woodfloor
+x 18
+y 1
+end
+arch dwall_2_1_1
+x 18
+y 1
+end
+arch woodfloor
+x 18
+y 2
+end
+arch dwall_3_2
+x 18
+y 2
+end
+arch woodfloor
+x 18
+y 3
+end
+arch dwall_1_2
+x 18
+y 3
+end
+arch woodfloor
+x 18
+y 4
+end
+arch woodfloor
+x 18
+y 5
+end
+arch dwall_1_1
+x 18
+y 5
+end
+arch woodfloor
+x 18
+y 6
+end
+arch dwall_3_2
+x 18
+y 6
+end
+arch woodfloor
+x 18
+y 7
+end
+arch dwall_1_2
+x 18
+y 7
+end
+arch woodfloor
+x 18
+y 8
+end
+arch woodfloor
+x 18
+y 9
+end
+arch dwall_1_1
+x 18
+y 9
+end
+arch woodfloor
+x 18
+y 10
+end
+arch dwall_3_2
+x 18
+y 10
+end
+arch woodfloor
+x 18
+y 11
+end
+arch dwall_1_2
+x 18
+y 11
+end
+arch woodfloor
+x 18
+y 12
+end
+arch woodfloor
+x 18
+y 13
+end
+arch dwall_1_1
+x 18
+y 13
+end
+arch woodfloor
+x 18
+y 14
+end
+arch dwall_3_2
+x 18
+y 14
+end
+arch woodfloor
+x 18
+y 15
+end
+arch dwall_1_2
+x 18
+y 15
+end
+arch woodfloor
+x 18
+y 16
+end
+arch woodfloor
+x 18
+y 17
+end
+arch dwall_1_1
+x 18
+y 17
+end
+arch woodfloor
+x 18
+y 18
+end
+arch dwall_2_2_1
+x 18
+y 18
+end
+arch woodfloor
+x 18
+y 19
+end
+arch woodfloor
+x 18
+y 20
+end
+arch woodfloor
+x 18
+y 21
+end
+arch dwall_2_1_2
+x 18
+y 21
+end
+arch blocked
+msg
+endmsg
+x 19
+end
+arch blocked
+msg
+endmsg
+x 19
+y 1
+end
+arch woodfloor
+x 19
+y 2
+end
+arch dwall_2_1_2
+x 19
+y 2
+end
+arch woodfloor
+x 19
+y 3
+end
+arch bookshelf
+x 19
+y 3
+end
+arch woodfloor
+x 19
+y 4
+end
+arch woodfloor
+x 19
+y 5
+end
+arch book_read
+x 19
+y 5
+end
+arch woodfloor
+x 19
+y 6
+end
+arch dwall_2_1_2
+x 19
+y 6
+end
+arch woodfloor
+x 19
+y 7
+end
+arch bookshelf
+x 19
+y 7
+end
+arch woodfloor
+x 19
+y 8
+end
+arch woodfloor
+x 19
+y 9
+end
+arch book_read
+x 19
+y 9
+end
+arch woodfloor
+x 19
+y 10
+end
+arch dwall_2_1_2
+x 19
+y 10
+end
+arch woodfloor
+x 19
+y 11
+end
+arch bookshelf
+x 19
+y 11
+end
+arch woodfloor
+x 19
+y 12
+end
+arch woodfloor
+x 19
+y 13
+end
+arch book_read
+x 19
+y 13
+end
+arch woodfloor
+x 19
+y 14
+end
+arch dwall_2_1_2
+x 19
+y 14
+end
+arch woodfloor
+x 19
+y 15
+end
+arch bookshelf
+x 19
+y 15
+end
+arch woodfloor
+x 19
+y 16
+end
+arch woodfloor
+x 19
+y 17
+end
+arch book_clasp
+x 19
+y 17
+end
+arch woodfloor
+x 19
+y 18
+end
+arch dwall_2_1_2
+x 19
+y 18
+end
+arch woodfloor
+x 19
+y 19
+end
+arch woodfloor
+x 19
+y 20
+end
+arch woodfloor
+x 19
+y 21
+end
+arch dwall_2_1_2
+x 19
+y 21
+end
+arch blocked
+msg
+endmsg
+x 20
+end
+arch blocked
+msg
+endmsg
+x 20
+y 1
+end
+arch woodfloor
+x 20
+y 2
+end
+arch dwall_2_1_2
+x 20
+y 2
+end
+arch woodfloor
+x 20
+y 3
+end
+arch bookshelf
+x 20
+y 3
+end
+arch woodfloor
+x 20
+y 4
+end
+arch chair_2.4
+x 20
+y 4
+end
+arch woodfloor
+x 20
+y 5
+end
+arch book_clasp
+x 20
+y 5
+end
+arch woodfloor
+x 20
+y 6
+end
+arch dwall_2_1_2
+x 20
+y 6
+end
+arch woodfloor
+x 20
+y 7
+end
+arch bookshelf
+x 20
+y 7
+end
+arch woodfloor
+x 20
+y 8
+end
+arch chair_2.4
+x 20
+y 8
+end
+arch woodfloor
+x 20
+y 9
+end
+arch book_read
+x 20
+y 9
+end
+arch woodfloor
+x 20
+y 10
+end
+arch dwall_2_1_2
+x 20
+y 10
+end
+arch woodfloor
+x 20
+y 11
+end
+arch bookshelf
+x 20
+y 11
+end
+arch woodfloor
+x 20
+y 12
+end
+arch chair_2.4
+x 20
+y 12
+end
+arch woodfloor
+x 20
+y 13
+end
+arch book_clasp
+x 20
+y 13
+end
+arch woodfloor
+x 20
+y 14
+end
+arch dwall_2_1_2
+x 20
+y 14
+end
+arch woodfloor
+x 20
+y 15
+end
+arch bookshelf
+x 20
+y 15
+end
+arch woodfloor
+x 20
+y 16
+end
+arch chair_2.4
+x 20
+y 16
+end
+arch woodfloor
+x 20
+y 17
+end
+arch book_read
+x 20
+y 17
+end
+arch woodfloor
+x 20
+y 18
+end
+arch dwall3_3
+x 20
+y 18
+end
+arch woodfloor
+x 20
+y 19
+end
+arch dwall_2_1_1
+x 20
+y 19
+end
+arch woodfloor
+x 20
+y 20
+end
+arch dwall_2_1_1
+x 20
+y 20
+end
+arch woodfloor
+x 20
+y 21
+end
+arch dwall_2_2_4
+x 20
+y 21
+end
+arch blocked
+msg
+endmsg
+x 21
+end
+arch blocked
+msg
+endmsg
+x 21
+y 1
+end
+arch woodfloor
+x 21
+y 2
+end
+arch dwall_2_1_2
+x 21
+y 2
+end
+arch woodfloor
+x 21
+y 3
+end
+arch bookshelf
+x 21
+y 3
+end
+arch woodfloor
+x 21
+y 4
+end
+arch table_4
+x 21
+y 4
+end
+arch woodfloor
+x 21
+y 5
+end
+arch book_read
+x 21
+y 5
+end
+arch woodfloor
+x 21
+y 6
+end
+arch dwall_2_1_2
+x 21
+y 6
+end
+arch woodfloor
+x 21
+y 7
+end
+arch bookshelf
+x 21
+y 7
+end
+arch woodfloor
+x 21
+y 8
+end
+arch table_4
+x 21
+y 8
+end
+arch woodfloor
+x 21
+y 9
+end
+arch book_read
+x 21
+y 9
+end
+arch woodfloor
+x 21
+y 10
+end
+arch dwall_2_1_2
+x 21
+y 10
+end
+arch woodfloor
+x 21
+y 11
+end
+arch bookshelf
+x 21
+y 11
+end
+arch woodfloor
+x 21
+y 12
+end
+arch table_4
+x 21
+y 12
+end
+arch woodfloor
+x 21
+y 13
+end
+arch book_clasp
+x 21
+y 13
+end
+arch woodfloor
+x 21
+y 14
+end
+arch dwall_2_1_2
+x 21
+y 14
+end
+arch woodfloor
+x 21
+y 15
+end
+arch bookshelf
+x 21
+y 15
+end
+arch woodfloor
+x 21
+y 16
+end
+arch table_4
+x 21
+y 16
+end
+arch woodfloor
+x 21
+y 17
+end
+arch book_clasp
+x 21
+y 17
+end
+arch woodfloor
+x 21
+y 18
+end
+arch dwall_2_1_2
+x 21
+y 18
+end
+arch blocked
+msg
+endmsg
+x 21
+y 19
+end
+arch blocked
+msg
+endmsg
+x 21
+y 20
+end
+arch blocked
+msg
+endmsg
+x 21
+y 21
+end
+arch blocked
+msg
+endmsg
+x 22
+end
+arch blocked
+msg
+endmsg
+x 22
+y 1
+end
+arch woodfloor
+x 22
+y 2
+end
+arch dwall_2_2_3
+x 22
+y 2
+end
+arch woodfloor
+x 22
+y 3
+end
+arch dwall_2_1_1
+x 22
+y 3
+end
+arch woodfloor
+x 22
+y 4
+end
+arch dwall_2_1_1
+x 22
+y 4
+end
+arch woodfloor
+x 22
+y 5
+end
+arch dwall_2_1_1
+x 22
+y 5
+end
+arch woodfloor
+x 22
+y 6
+end
+arch dwall_3_4
+x 22
+y 6
+end
+arch woodfloor
+x 22
+y 7
+end
+arch dwall_2_1_1
+x 22
+y 7
+end
+arch woodfloor
+x 22
+y 8
+end
+arch dwall_2_1_1
+x 22
+y 8
+end
+arch woodfloor
+x 22
+y 9
+end
+arch dwall_2_1_1
+x 22
+y 9
+end
+arch woodfloor
+x 22
+y 10
+end
+arch dwall_3_4
+x 22
+y 10
+end
+arch woodfloor
+x 22
+y 11
+end
+arch dwall_2_1_1
+x 22
+y 11
+end
+arch woodfloor
+x 22
+y 12
+end
+arch dwall_2_1_1
+x 22
+y 12
+end
+arch woodfloor
+x 22
+y 13
+end
+arch dwall_2_1_1
+x 22
+y 13
+end
+arch woodfloor
+x 22
+y 14
+end
+arch dwall_3_4
+x 22
+y 14
+end
+arch woodfloor
+x 22
+y 15
+end
+arch dwall_2_1_1
+x 22
+y 15
+end
+arch woodfloor
+x 22
+y 16
+end
+arch dwall_2_1_1
+x 22
+y 16
+end
+arch woodfloor
+x 22
+y 17
+end
+arch dwall_2_1_1
+x 22
+y 17
+end
+arch woodfloor
+x 22
+y 18
+end
+arch dwall_2_2_4
+x 22
+y 18
+end
+arch blocked
+msg
+endmsg
+x 22
+y 19
+end
+arch blocked
+msg
+endmsg
+x 22
+y 20
+end
+arch blocked
+msg
+endmsg
+x 22
+y 21
+end

@@ -1,0 +1,4208 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri May 11 18:08:05 2001
+endmsg
+width 26
+height 26
+end
+arch cobblestones2
+end
+arch dwall_2_2_2
+end
+arch cobblestones2
+y 1
+end
+arch dwall_2_1_1
+y 1
+end
+arch cobblestones2
+y 2
+end
+arch dwall_2_1_1
+y 2
+end
+arch cobblestones2
+y 3
+end
+arch dwall_2_1_1
+y 3
+end
+arch cobblestones2
+y 4
+end
+arch dwall_2_1_1
+y 4
+end
+arch cobblestones2
+y 5
+end
+arch dwall_2_1_1
+y 5
+end
+arch cobblestones2
+y 6
+end
+arch dwall_3_2
+y 6
+end
+arch cobblestones2
+y 7
+end
+arch dwall_2_1_1
+y 7
+end
+arch cobblestones2
+y 8
+end
+arch dwall_2_1_1
+y 8
+end
+arch cobblestones2
+y 9
+end
+arch dwall_2_1_1
+y 9
+end
+arch cobblestones2
+y 10
+end
+arch dwall_2_1_1
+y 10
+end
+arch cobblestones2
+y 11
+end
+arch dwall_2_1_1
+y 11
+end
+arch cobblestones2
+y 12
+end
+arch dwall_2_1_1
+y 12
+end
+arch cobblestones2
+y 13
+end
+arch dwall_2_1_1
+y 13
+end
+arch cobblestones2
+y 14
+end
+arch dwall_2_1_1
+y 14
+end
+arch cobblestones2
+y 15
+end
+arch dwall_2_1_1
+y 15
+end
+arch cobblestones2
+y 16
+end
+arch dwall_2_1_1
+y 16
+end
+arch cobblestones2
+y 17
+end
+arch dwall_2_1_1
+y 17
+end
+arch cobblestones2
+y 18
+end
+arch dwall_2_1_1
+y 18
+end
+arch cobblestones2
+y 19
+end
+arch dwall_2_1_1
+y 19
+end
+arch cobblestones2
+y 20
+end
+arch dwall_3_2
+y 20
+end
+arch cobblestones2
+y 21
+end
+arch dwall_2_1_1
+y 21
+end
+arch cobblestones2
+y 22
+end
+arch dwall_2_1_1
+y 22
+end
+arch cobblestones2
+y 23
+end
+arch dwall_2_1_1
+y 23
+end
+arch cobblestones2
+y 24
+end
+arch dwall_2_1_1
+y 24
+end
+arch cobblestones2
+y 25
+end
+arch dwall_2_2_1
+y 25
+end
+arch cobblestones2
+x 1
+end
+arch dwall_2_1_2
+x 1
+end
+arch cobblestones2
+x 1
+y 1
+unique 1
+end
+arch bookshelf
+x 1
+y 1
+no_pick 1
+unique 1
+end
+arch cobblestones2
+x 1
+y 2
+unique 1
+end
+arch cobblestones2
+x 1
+y 3
+unique 1
+end
+arch cobblestones2
+x 1
+y 4
+unique 1
+end
+arch cobblestones2
+x 1
+y 5
+unique 1
+end
+arch cobblestones2
+x 1
+y 6
+end
+arch dwall_2_1_2
+x 1
+y 6
+end
+arch cobblestones2
+x 1
+y 7
+end
+arch cobblestones2
+x 1
+y 8
+end
+arch cobblestones2
+x 1
+y 9
+end
+arch cobblestones2
+x 1
+y 10
+end
+arch spikes_open
+x 1
+y 10
+connected 68
+end
+arch cobblestones2
+x 1
+y 11
+end
+arch button_lever
+x 1
+y 11
+connected 68
+end
+arch cobblestones2
+x 1
+y 12
+end
+arch grate_closed_1
+x 1
+y 12
+connected 68
+end
+arch cobblestones2
+x 1
+y 13
+end
+arch cobblestones2
+x 1
+y 14
+end
+arch cobblestones2
+x 1
+y 15
+end
+arch cobblestones2
+x 1
+y 16
+end
+arch cobblestones2
+x 1
+y 17
+end
+arch cobblestones2
+x 1
+y 18
+end
+arch cobblestones2
+x 1
+y 19
+end
+arch cobblestones2
+x 1
+y 20
+end
+arch dwall_2_1_2
+x 1
+y 20
+end
+arch cobblestones2
+x 1
+y 21
+end
+arch cobblestones2
+x 1
+y 22
+end
+arch cobblestones2
+x 1
+y 23
+end
+arch cobblestones2
+x 1
+y 24
+end
+arch cobblestones2
+x 1
+y 25
+end
+arch dwall_2_1_2
+x 1
+y 25
+end
+arch cobblestones2
+x 2
+end
+arch dwall_2_1_2
+x 2
+end
+arch cobblestones2
+x 2
+y 1
+unique 1
+end
+arch bookshelf
+x 2
+y 1
+no_pick 1
+unique 1
+end
+arch cobblestones2
+x 2
+y 2
+unique 1
+end
+arch cobblestones2
+x 2
+y 3
+unique 1
+end
+arch cobblestones2
+x 2
+y 4
+unique 1
+end
+arch cobblestones2
+x 2
+y 5
+unique 1
+end
+arch cobblestones2
+x 2
+y 6
+end
+arch dwall_2_1_2
+x 2
+y 6
+end
+arch cobblestones2
+x 2
+y 7
+end
+arch wizard
+msg
+@match hi|hello
+Greetings.
+endmsg
+face wizard_yellow.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 2
+y 7
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 2
+y 8
+end
+arch cobblestones2
+x 2
+y 9
+end
+arch cobblestones2
+x 2
+y 10
+end
+arch dwall_2_2_2
+x 2
+y 10
+end
+arch cobblestones2
+x 2
+y 11
+end
+arch dwall_2_1_1
+x 2
+y 11
+end
+arch cobblestones2
+x 2
+y 12
+end
+arch dwall_2_1_1
+x 2
+y 12
+end
+arch cobblestones2
+x 2
+y 13
+end
+arch dwall_1_2
+x 2
+y 13
+end
+arch cobblestones2
+x 2
+y 14
+end
+arch cobblestones2
+x 2
+y 15
+end
+arch cobblestones2
+x 2
+y 16
+end
+arch cobblestones2
+x 2
+y 17
+end
+arch cobblestones2
+x 2
+y 18
+end
+arch cobblestones2
+x 2
+y 19
+end
+arch cobblestones2
+x 2
+y 20
+end
+arch dwall_2_1_2
+x 2
+y 20
+end
+arch cobblestones2
+x 2
+y 21
+end
+arch cobblestones2
+x 2
+y 22
+end
+arch cobblestones2
+x 2
+y 23
+end
+arch cobblestones2
+x 2
+y 24
+end
+arch cobblestones2
+x 2
+y 25
+end
+arch dwall_2_1_2
+x 2
+y 25
+end
+arch cobblestones2
+x 3
+end
+arch dwall_2_1_2
+x 3
+end
+arch cobblestones2
+x 3
+y 1
+unique 1
+end
+arch bookshelf
+x 3
+y 1
+no_pick 1
+unique 1
+end
+arch cobblestones2
+x 3
+y 2
+unique 1
+end
+arch cobblestones2
+x 3
+y 3
+unique 1
+end
+arch cobblestones2
+x 3
+y 4
+unique 1
+end
+arch cobblestones2
+x 3
+y 5
+unique 1
+end
+arch cobblestones2
+x 3
+y 6
+end
+arch dwall_2_1_2
+x 3
+y 6
+end
+arch cobblestones2
+x 3
+y 7
+end
+arch cobblestones2
+x 3
+y 8
+end
+arch cobblestones2
+x 3
+y 9
+end
+arch cobblestones2
+x 3
+y 10
+end
+arch dwall_2_1_2
+x 3
+y 10
+end
+arch cobblestones2
+x 3
+y 11
+end
+arch cobblestones2
+x 3
+y 12
+end
+arch cobblestones2
+x 3
+y 13
+end
+arch cobblestones2
+x 3
+y 14
+end
+arch cobblestones2
+x 3
+y 15
+end
+arch cobblestones2
+x 3
+y 16
+end
+arch cobblestones2
+x 3
+y 17
+end
+arch cobblestones2
+x 3
+y 18
+end
+arch cobblestones2
+x 3
+y 19
+end
+arch cobblestones2
+x 3
+y 20
+end
+arch dwall_2_1_2
+x 3
+y 20
+end
+arch cobblestones2
+x 3
+y 21
+end
+arch cobblestones2
+x 3
+y 22
+end
+arch cobblestones2
+x 3
+y 23
+end
+arch cobblestones2
+x 3
+y 24
+end
+arch cobblestones2
+x 3
+y 25
+end
+arch dwall_2_1_2
+x 3
+y 25
+end
+arch cobblestones2
+x 4
+end
+arch dwall_2_1_2
+x 4
+end
+arch cobblestones2
+x 4
+y 1
+unique 1
+end
+arch bookshelf
+x 4
+y 1
+no_pick 1
+unique 1
+end
+arch cobblestones2
+x 4
+y 2
+unique 1
+end
+arch cobblestones2
+x 4
+y 3
+unique 1
+end
+arch cobblestones2
+x 4
+y 4
+unique 1
+end
+arch cobblestones2
+x 4
+y 5
+unique 1
+end
+arch cobblestones2
+x 4
+y 6
+end
+arch dwall_2_1_2
+x 4
+y 6
+end
+arch cobblestones2
+x 4
+y 7
+end
+arch cobblestones2
+x 4
+y 8
+end
+arch cobblestones2
+x 4
+y 9
+end
+arch cobblestones2
+x 4
+y 10
+end
+arch dwall_2_1_2
+x 4
+y 10
+end
+arch cobblestones2
+x 4
+y 11
+end
+arch cobblestones2
+x 4
+y 12
+end
+arch cobblestones2
+x 4
+y 13
+end
+arch cobblestones2
+x 4
+y 14
+end
+arch cobblestones2
+x 4
+y 15
+end
+arch cobblestones2
+x 4
+y 16
+end
+arch cobblestones2
+x 4
+y 17
+end
+arch cobblestones2
+x 4
+y 18
+end
+arch cobblestones2
+x 4
+y 19
+end
+arch cobblestones2
+x 4
+y 20
+end
+arch dwall_2_1_2
+x 4
+y 20
+end
+arch cobblestones2
+x 4
+y 21
+end
+arch cobblestones2
+x 4
+y 22
+end
+arch cobblestones2
+x 4
+y 23
+end
+arch cobblestones2
+x 4
+y 24
+end
+arch cobblestones2
+x 4
+y 25
+end
+arch dwall_2_1_2
+x 4
+y 25
+end
+arch cobblestones2
+x 5
+end
+arch dwall_2_1_2
+x 5
+end
+arch cobblestones2
+x 5
+y 1
+unique 1
+end
+arch bookshelf
+x 5
+y 1
+no_pick 1
+unique 1
+end
+arch cobblestones2
+x 5
+y 2
+unique 1
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch button_lever
+x 5
+y 3
+connected 1
+end
+arch cobblestones2
+x 5
+y 4
+unique 1
+end
+arch cobblestones2
+x 5
+y 5
+unique 1
+end
+arch depositbox
+x 5
+y 5
+unique 1
+end
+arch cobblestones2
+x 5
+y 6
+end
+arch dwall_2_1_2
+x 5
+y 6
+end
+arch cobblestones2
+x 5
+y 7
+end
+arch cobblestones2
+x 5
+y 8
+end
+arch cobblestones2
+x 5
+y 9
+end
+arch cobblestones2
+x 5
+y 10
+end
+arch dwall_2_1_2
+x 5
+y 10
+end
+arch cobblestones2
+x 5
+y 11
+end
+arch cobblestones2
+x 5
+y 12
+end
+arch cobblestones2
+x 5
+y 13
+end
+arch cobblestones2
+x 5
+y 14
+end
+arch cobblestones2
+x 5
+y 15
+end
+arch cobblestones2
+x 5
+y 16
+end
+arch cobblestones2
+x 5
+y 17
+end
+arch cobblestones2
+x 5
+y 18
+end
+arch cobblestones2
+x 5
+y 19
+end
+arch cobblestones2
+x 5
+y 20
+end
+arch dwall_1_3
+x 5
+y 20
+end
+arch cobblestones2
+x 5
+y 21
+end
+arch cobblestones2
+x 5
+y 22
+end
+arch cobblestones2
+x 5
+y 23
+end
+arch cobblestones2
+x 5
+y 24
+end
+arch cobblestones2
+x 5
+y 25
+end
+arch dwall_2_1_2
+x 5
+y 25
+end
+arch cobblestones2
+x 6
+end
+arch dwall3_3
+x 6
+end
+arch cobblestones2
+x 6
+y 1
+end
+arch dwall_3_2
+x 6
+y 1
+end
+arch cobblestones2
+x 6
+y 2
+end
+arch dwall_1_2
+x 6
+y 2
+end
+arch cobblestones2
+x 6
+y 3
+end
+arch grate_closed_2
+x 6
+y 3
+connected 1
+end
+arch cobblestones2
+x 6
+y 4
+end
+arch dwall_1_1
+x 6
+y 4
+end
+arch cobblestones2
+x 6
+y 5
+end
+arch dwall_3_2
+x 6
+y 5
+end
+arch cobblestones2
+x 6
+y 6
+end
+arch dwall_3_1
+x 6
+y 6
+end
+arch cobblestones2
+x 6
+y 7
+end
+arch cobblestones2
+x 6
+y 8
+end
+arch cobblestones2
+x 6
+y 9
+end
+arch cobblestones2
+x 6
+y 10
+end
+arch dwall_2_1_2
+x 6
+y 10
+end
+arch cobblestones2
+x 6
+y 11
+end
+arch cobblestones2
+x 6
+y 12
+end
+arch cobblestones2
+x 6
+y 13
+end
+arch cobblestones2
+x 6
+y 14
+end
+arch cobblestones2
+x 6
+y 15
+end
+arch cobblestones2
+x 6
+y 16
+end
+arch cobblestones2
+x 6
+y 17
+end
+arch cobblestones2
+x 6
+y 18
+end
+arch cobblestones2
+x 6
+y 19
+end
+arch cobblestones2
+x 6
+y 20
+end
+arch cobblestones2
+x 6
+y 21
+end
+arch cobblestones2
+x 6
+y 22
+end
+arch cobblestones2
+x 6
+y 23
+end
+arch cobblestones2
+x 6
+y 24
+end
+arch cobblestones2
+x 6
+y 25
+end
+arch dwall_2_1_2
+x 6
+y 25
+end
+arch cobblestones2
+x 7
+end
+arch dwall3_3
+x 7
+end
+arch cobblestones2
+x 7
+y 1
+end
+arch dwall_3_1
+x 7
+y 1
+end
+arch cobblestones2
+x 7
+y 2
+end
+arch knight
+x 7
+y 2
+end
+arch cobblestones2
+x 7
+y 3
+end
+arch button_lever
+x 7
+y 3
+connected 1
+end
+arch cobblestones2
+x 7
+y 4
+end
+arch knight
+x 7
+y 4
+end
+arch cobblestones2
+x 7
+y 5
+end
+arch dwall3_3
+x 7
+y 5
+end
+arch cobblestones2
+x 7
+y 6
+end
+arch dwall_3_1
+x 7
+y 6
+end
+arch cobblestones2
+x 7
+y 7
+end
+arch cobblestones2
+x 7
+y 8
+end
+arch cobblestones2
+x 7
+y 9
+end
+arch cobblestones2
+x 7
+y 10
+end
+arch dwall_2_1_2
+x 7
+y 10
+end
+arch cobblestones2
+x 7
+y 11
+end
+arch cobblestones2
+x 7
+y 12
+end
+arch cobblestones2
+x 7
+y 13
+end
+arch cobblestones2
+x 7
+y 14
+end
+arch cobblestones2
+x 7
+y 15
+end
+arch cobblestones2
+x 7
+y 16
+end
+arch cobblestones2
+x 7
+y 17
+end
+arch cobblestones2
+x 7
+y 18
+end
+arch cobblestones2
+x 7
+y 19
+end
+arch cobblestones2
+x 7
+y 20
+end
+arch cobblestones2
+x 7
+y 21
+end
+arch cobblestones2
+x 7
+y 22
+end
+arch cobblestones2
+x 7
+y 23
+end
+arch cobblestones2
+x 7
+y 24
+end
+arch cobblestones2
+x 7
+y 25
+end
+arch dwall_2_1_2
+x 7
+y 25
+end
+arch cobblestones2
+x 8
+end
+arch dwall3_3
+x 8
+end
+arch cobblestones2
+x 8
+y 1
+end
+arch dwall_3_4
+x 8
+y 1
+end
+arch cobblestones2
+x 8
+y 2
+end
+arch dwall_1_2
+x 8
+y 2
+end
+arch cobblestones2
+x 8
+y 3
+end
+arch cobblestones2
+x 8
+y 4
+end
+arch dwall_1_1
+x 8
+y 4
+end
+arch cobblestones2
+x 8
+y 5
+end
+arch dwall_3_4
+x 8
+y 5
+end
+arch cobblestones2
+x 8
+y 6
+end
+arch dwall_2_2_4
+x 8
+y 6
+end
+arch cobblestones2
+x 8
+y 7
+end
+arch cobblestones2
+x 8
+y 8
+end
+arch cobblestones2
+x 8
+y 9
+end
+arch wizard
+msg
+@match hi|hello
+Greetings.
+endmsg
+face wizard_yellow.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 8
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 8
+y 10
+end
+arch dwall_2_1_2
+x 8
+y 10
+end
+arch cobblestones2
+x 8
+y 11
+end
+arch cobblestones2
+x 8
+y 12
+end
+arch cobblestones2
+x 8
+y 13
+end
+arch cobblestones2
+x 8
+y 14
+end
+arch cobblestones2
+x 8
+y 15
+end
+arch cobblestones2
+x 8
+y 16
+end
+arch cobblestones2
+x 8
+y 17
+end
+arch cobblestones2
+x 8
+y 18
+end
+arch cobblestones2
+x 8
+y 19
+end
+arch cobblestones2
+x 8
+y 20
+end
+arch cobblestones2
+x 8
+y 21
+end
+arch cobblestones2
+x 8
+y 22
+end
+arch cobblestones2
+x 8
+y 23
+end
+arch cobblestones2
+x 8
+y 24
+end
+arch cobblestones2
+x 8
+y 25
+end
+arch dwall_2_1_2
+x 8
+y 25
+end
+arch cobblestones2
+x 9
+end
+arch dwall_2_1_2
+x 9
+end
+arch cobblestones2
+x 9
+y 1
+end
+arch cobblestones2
+x 9
+y 2
+end
+arch cobblestones2
+x 9
+y 3
+end
+arch cobblestones2
+x 9
+y 4
+end
+arch cobblestones2
+x 9
+y 5
+end
+arch cobblestones2
+x 9
+y 6
+end
+arch cobblestones2
+x 9
+y 7
+end
+arch cobblestones2
+x 9
+y 8
+end
+arch cobblestones2
+x 9
+y 9
+end
+arch cobblestones2
+x 9
+y 10
+end
+arch dwall3_3
+x 9
+y 10
+end
+arch cobblestones2
+x 9
+y 11
+end
+arch dwall_2_1_1
+x 9
+y 11
+end
+arch cobblestones2
+x 9
+y 12
+end
+arch dwall_2_1_1
+x 9
+y 12
+end
+arch cobblestones2
+x 9
+y 13
+end
+arch dwall_2_1_1
+x 9
+y 13
+end
+arch cobblestones2
+x 9
+y 14
+end
+arch dwall_3_2
+x 9
+y 14
+end
+arch cobblestones2
+x 9
+y 15
+end
+arch dwall_2_1_1
+x 9
+y 15
+end
+arch cobblestones2
+x 9
+y 16
+end
+arch dwall_2_1_1
+x 9
+y 16
+end
+arch cobblestones2
+x 9
+y 17
+end
+arch dwall_2_1_1
+x 9
+y 17
+end
+arch cobblestones2
+x 9
+y 18
+end
+arch dwall_2_1_1
+x 9
+y 18
+end
+arch cobblestones2
+x 9
+y 19
+end
+arch dwall_2_1_1
+x 9
+y 19
+end
+arch cobblestones2
+x 9
+y 20
+end
+arch dwall_2_1_1
+x 9
+y 20
+end
+arch cobblestones2
+x 9
+y 21
+end
+arch dwall_2_1_1
+x 9
+y 21
+end
+arch cobblestones2
+x 9
+y 22
+end
+arch dwall_2_1_1
+x 9
+y 22
+end
+arch cobblestones2
+x 9
+y 23
+end
+arch dwall_2_1_1
+x 9
+y 23
+end
+arch cobblestones2
+x 9
+y 24
+end
+arch dwall_2_1_1
+x 9
+y 24
+end
+arch cobblestones2
+x 9
+y 25
+end
+arch dwall_3_1
+x 9
+y 25
+end
+arch cobblestones2
+x 10
+end
+arch dwall_2_1_2
+x 10
+end
+arch cobblestones2
+x 10
+y 1
+end
+arch cobblestones2
+x 10
+y 2
+end
+arch cobblestones2
+x 10
+y 3
+end
+arch cobblestones2
+x 10
+y 4
+end
+arch cobblestones2
+x 10
+y 5
+end
+arch cobblestones2
+x 10
+y 6
+end
+arch wizard
+name journey man
+msg
+@match hi|hello
+Hey,man.
+endmsg
+face wizard_green.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 10
+y 6
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 10
+y 7
+end
+arch cobblestones2
+x 10
+y 8
+end
+arch cobblestones2
+x 10
+y 9
+end
+arch cobblestones2
+x 10
+y 10
+end
+arch dwall_1_3
+x 10
+y 10
+end
+arch cobblestones2
+x 10
+y 11
+end
+arch cobblestones2
+x 10
+y 12
+end
+arch altar
+name drop 500 diamonds
+slaying gem
+food 500
+x 10
+y 12
+connected 257
+end
+arch magic_mouth
+msg
+Drop 500 diamonds for 5 potions of
+lava resistance.
+endmsg
+x 10
+y 12
+end
+arch cobblestones2
+x 10
+y 13
+end
+arch potion_cold2
+x 10
+y 13
+nrof 5
+end
+arch block_door_closed
+x 10
+y 13
+connected 257
+end
+arch cobblestones2
+x 10
+y 14
+end
+arch dwall_2_1_2
+x 10
+y 14
+end
+arch shop_books
+x 10
+y 15
+end
+arch shop_books
+x 10
+y 16
+end
+arch shop_books
+x 10
+y 17
+end
+arch shop_books
+x 10
+y 18
+end
+arch shop_books
+x 10
+y 19
+end
+arch shop_books
+x 10
+y 20
+end
+arch shop_books
+x 10
+y 21
+end
+arch shop_books
+x 10
+y 22
+end
+arch shop_books
+x 10
+y 23
+end
+arch shop_books
+x 10
+y 24
+end
+arch cobblestones2
+x 10
+y 25
+end
+arch dwall_2_1_2
+x 10
+y 25
+end
+arch cobblestones2
+x 11
+end
+arch dwall_2_1_2
+x 11
+end
+arch cobblestones2
+x 11
+y 1
+end
+arch cobblestones2
+x 11
+y 2
+end
+arch cobblestones2
+x 11
+y 3
+end
+arch cobblestones2
+x 11
+y 4
+end
+arch cobblestones2
+x 11
+y 5
+end
+arch cobblestones2
+x 11
+y 6
+end
+arch cobblestones2
+x 11
+y 7
+end
+arch cobblestones2
+x 11
+y 8
+end
+arch cobblestones2
+x 11
+y 9
+end
+arch cobblestones2
+x 11
+y 10
+end
+arch door_look_1
+x 11
+y 10
+no_pass 0
+end
+arch cobblestones2
+x 11
+y 11
+end
+arch cobblestones2
+x 11
+y 12
+end
+arch altar
+name drop 500 diamonds
+slaying gem
+food 500
+x 11
+y 12
+connected 258
+end
+arch magic_mouth
+msg
+Drop 500 diamonds for 5 potions of
+frost resistance.
+endmsg
+x 11
+y 12
+end
+arch cobblestones2
+x 11
+y 13
+end
+arch potion_fire2
+x 11
+y 13
+nrof 5
+end
+arch block_door_closed
+x 11
+y 13
+connected 258
+end
+arch cobblestones2
+x 11
+y 14
+end
+arch dwall_2_1_2
+x 11
+y 14
+end
+arch shop_books
+x 11
+y 15
+end
+arch shop_books
+x 11
+y 16
+end
+arch shop_books
+x 11
+y 17
+end
+arch shop_books
+x 11
+y 18
+end
+arch shop_books
+x 11
+y 19
+end
+arch shop_books
+x 11
+y 20
+end
+arch shop_books
+x 11
+y 21
+end
+arch shop_books
+x 11
+y 22
+end
+arch shop_books
+x 11
+y 23
+end
+arch shop_books
+x 11
+y 24
+end
+arch cobblestones2
+x 11
+y 25
+end
+arch dwall_2_1_2
+x 11
+y 25
+end
+arch cobblestones2
+x 12
+end
+arch dwall3_3
+x 12
+end
+arch cobblestones2
+x 12
+y 1
+end
+arch dwall_2_1_1
+x 12
+y 1
+end
+arch cobblestones2
+x 12
+y 2
+end
+arch dwall_2_1_1
+x 12
+y 2
+end
+arch cobblestones2
+x 12
+y 3
+end
+arch dwall_1_2
+x 12
+y 3
+end
+arch cobblestones2
+x 12
+y 4
+end
+arch cobblestones2
+x 12
+y 5
+end
+arch cobblestones2
+x 12
+y 6
+end
+arch cobblestones2
+x 12
+y 7
+end
+arch cobblestones2
+x 12
+y 8
+end
+arch cobblestones2
+x 12
+y 9
+end
+arch cobblestones2
+x 12
+y 10
+end
+arch dwall_1_4
+x 12
+y 10
+end
+arch cobblestones2
+x 12
+y 11
+end
+arch cobblestones2
+x 12
+y 12
+end
+arch altar
+name drop 500 diamonds
+slaying gem
+food 500
+x 12
+y 12
+connected 259
+end
+arch magic_mouth
+msg
+Drop 500 diamonds for 5 potions of
+thunder resistance.
+endmsg
+x 12
+y 12
+end
+arch cobblestones2
+x 12
+y 13
+end
+arch potion_fire2
+name potion of thunder resistance
+face potiongen.111
+x 12
+y 13
+nrof 5
+resist_electricity 95
+resist_cold 0
+end
+arch block_door_closed
+x 12
+y 13
+connected 259
+end
+arch cobblestones2
+x 12
+y 14
+end
+arch dwall_2_1_2
+x 12
+y 14
+end
+arch shop_books
+x 12
+y 15
+end
+arch shop_books
+x 12
+y 16
+end
+arch shop_books
+x 12
+y 17
+end
+arch shop_books
+x 12
+y 18
+end
+arch shop_books
+x 12
+y 19
+end
+arch shop_books
+x 12
+y 20
+end
+arch shop_books
+x 12
+y 21
+end
+arch shop_books
+x 12
+y 22
+end
+arch shop_books
+x 12
+y 23
+end
+arch shop_books
+x 12
+y 24
+end
+arch cobblestones2
+x 12
+y 25
+end
+arch dwall_2_1_2
+x 12
+y 25
+end
+arch cobblestones2
+x 13
+end
+arch dwall_2_1_2
+x 13
+end
+arch cobblestones2
+x 13
+y 1
+end
+arch wizard
+msg
+@match hi|hello
+To enter the 6th circle,you must
+proove your worthiness. That ancient
+dragon,Sthrithlar,has been making
+trouble. He's been burning fields and
+stealing sheep for long months.
+However,he's gone to killing people.
+Slay him and bring back proof of your
+deed.
+
+endmsg
+face wizard.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 420
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 13
+y 1
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity 100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+resist_weaponmagic 100
+resist_ghosthit 100
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 100
+resist_fear 100
+resist_cancellation 100
+resist_deplete 100
+resist_death 100
+resist_chaos 100
+resist_counterspell 100
+resist_godpower 100
+resist_holyword 100
+resist_blind 100
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch altar
+slaying heart of Sthrithlar
+food 1
+x 13
+y 2
+invisible 1
+connected 100
+end
+arch cobblestones2
+x 13
+y 2
+end
+arch cobblestones2
+x 13
+y 3
+end
+arch door_look_1
+x 13
+y 3
+no_pass 0
+end
+arch cobblestones2
+x 13
+y 4
+end
+arch cobblestones2
+x 13
+y 5
+end
+arch cobblestones2
+x 13
+y 6
+end
+arch cobblestones2
+x 13
+y 7
+end
+arch cobblestones2
+x 13
+y 8
+end
+arch cobblestones2
+x 13
+y 9
+end
+arch cobblestones2
+x 13
+y 10
+end
+arch dwall_2_2_3
+x 13
+y 10
+end
+arch cobblestones2
+x 13
+y 11
+end
+arch dwall_2_1_1
+x 13
+y 11
+end
+arch cobblestones2
+x 13
+y 12
+end
+arch dwall_2_1_1
+x 13
+y 12
+end
+arch cobblestones2
+x 13
+y 13
+end
+arch dwall_2_1_1
+x 13
+y 13
+end
+arch cobblestones2
+x 13
+y 14
+end
+arch dwall_3_1
+x 13
+y 14
+end
+arch shop_potions
+x 13
+y 15
+end
+arch shop_empty
+x 13
+y 16
+end
+arch shop_empty
+x 13
+y 17
+end
+arch shop_empty
+x 13
+y 18
+end
+arch shop_empty
+x 13
+y 19
+end
+arch shop_empty
+x 13
+y 20
+end
+arch shop_empty
+x 13
+y 21
+end
+arch shop_empty
+x 13
+y 22
+end
+arch shop_empty
+x 13
+y 23
+end
+arch shop_scrolls
+x 13
+y 24
+end
+arch cobblestones2
+x 13
+y 25
+end
+arch dwall_2_1_2
+x 13
+y 25
+end
+arch cobblestones2
+x 14
+end
+arch dwall_2_1_2
+x 14
+end
+arch dungeon_magic
+x 14
+y 1
+end
+arch magic_banned
+x 14
+y 1
+end
+arch creator
+x 14
+y 1
+connected 100
+end
+arch exit
+name portal
+slaying /ElvenLands/Yoer/city/white5
+hp 16
+sp 2
+x 14
+y 1
+end
+arch block_door_closed
+msg
+Enter the portal...
+endmsg
+face flagstone.111
+x 14
+y 1
+connected 100
+end
+arch cobblestones2
+x 14
+y 2
+end
+arch cobblestones2
+x 14
+y 3
+end
+arch dwall_1_4
+x 14
+y 3
+end
+arch cobblestones2
+x 14
+y 4
+end
+arch cobblestones2
+x 14
+y 5
+end
+arch cobblestones2
+x 14
+y 6
+end
+arch cobblestones2
+x 14
+y 7
+end
+arch cobblestones2
+x 14
+y 8
+end
+arch cobblestones2
+x 14
+y 9
+end
+arch cobblestones2
+x 14
+y 10
+end
+arch cobblestones2
+x 14
+y 11
+end
+arch cobblestones2
+x 14
+y 12
+end
+arch cobblestones2
+x 14
+y 13
+end
+arch wizard
+msg
+@match hi|hello
+Greetings.
+endmsg
+face wizard_yellow.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 14
+y 13
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 14
+y 14
+end
+arch dwall_2_1_2
+x 14
+y 14
+end
+arch shop_potions
+x 14
+y 15
+end
+arch shop_empty
+x 14
+y 16
+end
+arch shop_wands
+x 14
+y 17
+end
+arch shop_wands
+x 14
+y 18
+end
+arch shop_wands
+x 14
+y 19
+end
+arch shop_wands
+x 14
+y 20
+end
+arch shop_wands
+x 14
+y 21
+end
+arch shop_wands
+x 14
+y 22
+end
+arch shop_empty
+x 14
+y 23
+end
+arch shop_scrolls
+x 14
+y 24
+end
+arch cobblestones2
+x 14
+y 25
+end
+arch dwall_2_1_2
+x 14
+y 25
+end
+arch cobblestones2
+x 15
+end
+arch dwall3_3
+x 15
+end
+arch cobblestones2
+x 15
+y 1
+end
+arch dwall_2_1_1
+x 15
+y 1
+end
+arch cobblestones2
+x 15
+y 2
+end
+arch dwall_2_1_1
+x 15
+y 2
+end
+arch cobblestones2
+x 15
+y 3
+end
+arch dwall_3_1
+x 15
+y 3
+end
+arch cobblestones2
+x 15
+y 4
+end
+arch cobblestones2
+x 15
+y 5
+end
+arch cobblestones2
+x 15
+y 6
+end
+arch wizard
+msg
+@match hi|hello
+Greetings.
+endmsg
+face wizard_yellow.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 15
+y 6
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 15
+y 7
+end
+arch cobblestones2
+x 15
+y 8
+end
+arch cobblestones2
+x 15
+y 9
+end
+arch cobblestones2
+x 15
+y 10
+end
+arch cobblestones2
+x 15
+y 11
+end
+arch cobblestones2
+x 15
+y 12
+end
+arch cobblestones2
+x 15
+y 13
+end
+arch cobblestones2
+x 15
+y 14
+end
+arch dwall_2_1_2
+x 15
+y 14
+end
+arch shop_potions
+x 15
+y 15
+end
+arch shop_empty
+x 15
+y 16
+end
+arch shop_wands
+x 15
+y 17
+end
+arch shop_wands
+x 15
+y 18
+end
+arch shop_wands
+x 15
+y 19
+end
+arch shop_wands
+x 15
+y 20
+end
+arch shop_wands
+x 15
+y 21
+end
+arch shop_wands
+x 15
+y 22
+end
+arch shop_empty
+x 15
+y 23
+end
+arch shop_scrolls
+x 15
+y 24
+end
+arch cobblestones2
+x 15
+y 25
+end
+arch dwall_2_1_2
+x 15
+y 25
+end
+arch cobblestones2
+x 16
+end
+arch dwall_2_1_2
+x 16
+end
+arch cobblestones2
+x 16
+y 1
+end
+arch rod_light
+name whining rod
+msg
+This weapon is extremely fast and does
+a fair amount of damage. 
+endmsg
+Dex 3
+Pow 1
+hp 0
+maxhp 0
+dam 10
+wc 2
+x 16
+y 1
+type 15
+attacktype 256
+value 10000
+magic 5
+last_sp 3
+end
+arch cobblestones2
+x 16
+y 2
+end
+arch magic_mouth
+msg
+Congratulations,you have proved your
+worthiness. You have now proceeded to
+the 6th circle of the White Circle.
+Your circle meets upstairs.
+ 
+endmsg
+x 16
+y 2
+end
+arch marker
+slaying WhiteCircle6
+food 0
+x 16
+y 2
+end
+arch cobblestones2
+x 16
+y 3
+end
+arch dwall_2_1_2
+x 16
+y 3
+end
+arch cobblestones2
+x 16
+y 4
+end
+arch cobblestones2
+x 16
+y 5
+end
+arch cobblestones2
+x 16
+y 6
+end
+arch cobblestones2
+x 16
+y 7
+end
+arch cobblestones2
+x 16
+y 8
+end
+arch cobblestones2
+x 16
+y 9
+end
+arch cobblestones2
+x 16
+y 10
+end
+arch cobblestones2
+x 16
+y 11
+end
+arch cobblestones2
+x 16
+y 12
+end
+arch cobblestones2
+x 16
+y 13
+end
+arch cobblestones2
+x 16
+y 14
+end
+arch swall_2_1_2
+x 16
+y 14
+end
+arch shop_potions
+x 16
+y 15
+end
+arch shop_empty
+x 16
+y 16
+end
+arch shop_wands
+x 16
+y 17
+end
+arch shop_wands
+x 16
+y 18
+end
+arch shop_wands
+x 16
+y 19
+end
+arch shop_wands
+x 16
+y 20
+end
+arch shop_wands
+x 16
+y 21
+end
+arch shop_wands
+x 16
+y 22
+end
+arch shop_empty
+x 16
+y 23
+end
+arch shop_scrolls
+x 16
+y 24
+end
+arch cobblestones2
+x 16
+y 25
+end
+arch dwall_2_1_2
+x 16
+y 25
+end
+arch cobblestones2
+x 17
+end
+arch dwall_2_1_2
+x 17
+end
+arch cobblestones2
+x 17
+y 1
+end
+arch exit
+name portal
+slaying white2
+hp 13
+sp 4
+x 17
+y 1
+end
+arch cobblestones2
+x 17
+y 2
+end
+arch cloak
+title of protections
+msg
+This cloak gives much protection.
+But the magics used to protect the
+wielder,draw power from the user.
+endmsg
+Pow -1
+x 17
+y 2
+resist_physical 15
+resist_magic 20
+resist_fire 15
+resist_electricity 15
+resist_cold 15
+resist_acid 25
+resist_poison 15
+magic 4
+reflect_missile 1
+end
+arch cobblestones2
+x 17
+y 3
+end
+arch dwall_2_1_2
+x 17
+y 3
+end
+arch cobblestones2
+x 17
+y 4
+end
+arch wizard
+msg
+@match hi|hello
+Greetings.
+endmsg
+face wizard_yellow.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 17
+y 4
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 17
+y 5
+end
+arch cobblestones2
+x 17
+y 6
+end
+arch cobblestones2
+x 17
+y 7
+end
+arch cobblestones2
+x 17
+y 8
+end
+arch cobblestones2
+x 17
+y 9
+end
+arch cobblestones2
+x 17
+y 10
+end
+arch cobblestones2
+x 17
+y 11
+end
+arch cobblestones2
+x 17
+y 12
+end
+arch cobblestones2
+x 17
+y 13
+end
+arch cobblestones2
+x 17
+y 14
+end
+arch swall_2_1_2
+x 17
+y 14
+end
+arch shop_potions
+x 17
+y 15
+end
+arch shop_empty
+x 17
+y 16
+end
+arch shop_empty
+x 17
+y 17
+end
+arch shop_empty
+x 17
+y 18
+end
+arch shop_empty
+x 17
+y 19
+end
+arch shop_empty
+x 17
+y 20
+end
+arch shop_empty
+x 17
+y 21
+end
+arch shop_empty
+x 17
+y 22
+end
+arch shop_empty
+x 17
+y 23
+end
+arch shop_scrolls
+x 17
+y 24
+end
+arch cobblestones2
+x 17
+y 25
+end
+arch dwall_2_1_2
+x 17
+y 25
+end
+arch cobblestones2
+x 18
+end
+arch dwall3_3
+x 18
+end
+arch cobblestones2
+x 18
+y 1
+end
+arch dwall_2_1_1
+x 18
+y 1
+end
+arch cobblestones2
+x 18
+y 2
+end
+arch dwall_2_1_1
+x 18
+y 2
+end
+arch cobblestones2
+x 18
+y 3
+end
+arch dwall_3_1
+x 18
+y 3
+end
+arch cobblestones2
+x 18
+y 4
+end
+arch cobblestones2
+x 18
+y 5
+end
+arch cobblestones2
+x 18
+y 6
+end
+arch cobblestones2
+x 18
+y 7
+end
+arch cobblestones2
+x 18
+y 8
+end
+arch cobblestones2
+x 18
+y 9
+end
+arch wizard
+name journey man
+msg
+@match hi|hello
+Hey,man.
+endmsg
+face wizard_green.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 200
+maxhp 200
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 18
+y 9
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 18
+y 10
+end
+arch cobblestones2
+x 18
+y 11
+end
+arch cobblestones2
+x 18
+y 12
+end
+arch cobblestones2
+x 18
+y 13
+end
+arch cobblestones2
+x 18
+y 14
+end
+arch swall_2_1_2
+x 18
+y 14
+end
+arch shop_potions
+x 18
+y 15
+end
+arch shop_empty
+x 18
+y 16
+end
+arch shop_amulets
+x 18
+y 17
+end
+arch shop_amulets
+x 18
+y 18
+end
+arch shop_amulets
+x 18
+y 19
+end
+arch shop_amulets
+x 18
+y 20
+end
+arch shop_amulets
+x 18
+y 21
+end
+arch shop_amulets
+x 18
+y 22
+end
+arch shop_empty
+x 18
+y 23
+end
+arch shop_scrolls
+x 18
+y 24
+end
+arch cobblestones2
+x 18
+y 25
+end
+arch dwall_2_1_2
+x 18
+y 25
+end
+arch cobblestones2
+x 19
+end
+arch dwall_2_1_2
+x 19
+end
+arch cobblestones2
+x 19
+y 1
+end
+arch stair2_up
+slaying white7
+hp 22
+sp 2
+x 19
+y 1
+end
+arch cobblestones2
+x 19
+y 2
+end
+arch stair2_down
+slaying white5
+hp 19
+sp 1
+x 19
+y 2
+end
+arch cobblestones2
+x 19
+y 3
+end
+arch dwall_1_3
+x 19
+y 3
+end
+arch cobblestones2
+x 19
+y 4
+end
+arch cobblestones2
+x 19
+y 5
+end
+arch cobblestones2
+x 19
+y 6
+end
+arch cobblestones2
+x 19
+y 7
+end
+arch dwall_2_2_2
+x 19
+y 7
+end
+arch cobblestones2
+x 19
+y 8
+end
+arch dwall_2_1_1
+x 19
+y 8
+end
+arch cobblestones2
+x 19
+y 9
+end
+arch dwall_2_1_1
+x 19
+y 9
+end
+arch cobblestones2
+x 19
+y 10
+end
+arch dwall_2_1_1
+x 19
+y 10
+end
+arch cobblestones2
+x 19
+y 11
+end
+arch dwall_2_2_1
+x 19
+y 11
+end
+arch cobblestones2
+x 19
+y 12
+end
+arch cobblestones2
+x 19
+y 13
+end
+arch cobblestones2
+x 19
+y 14
+end
+arch swall_2_1_2
+x 19
+y 14
+end
+arch shop_potions
+x 19
+y 15
+end
+arch shop_empty
+x 19
+y 16
+end
+arch shop_amulets
+x 19
+y 17
+end
+arch shop_amulets
+x 19
+y 18
+end
+arch shop_amulets
+x 19
+y 19
+end
+arch shop_amulets
+x 19
+y 20
+end
+arch shop_amulets
+x 19
+y 21
+end
+arch shop_amulets
+x 19
+y 22
+end
+arch shop_empty
+x 19
+y 23
+end
+arch shop_scrolls
+x 19
+y 24
+end
+arch cobblestones2
+x 19
+y 25
+end
+arch dwall_2_1_2
+x 19
+y 25
+end
+arch cobblestones2
+x 20
+end
+arch dwall_2_1_2
+x 20
+end
+arch cobblestones2
+x 20
+y 1
+end
+arch cobblestones2
+x 20
+y 2
+end
+arch check_inv
+slaying WhiteCircle5
+x 20
+y 2
+connected 376
+end
+arch cobblestones2
+x 20
+y 3
+end
+arch igate_closed_1
+x 20
+y 3
+connected 376
+end
+arch cobblestones2
+x 20
+y 4
+end
+arch check_inv
+slaying WhiteCircle5
+x 20
+y 4
+connected 376
+end
+arch cobblestones2
+x 20
+y 5
+end
+arch cobblestones2
+x 20
+y 6
+end
+arch cobblestones2
+x 20
+y 7
+end
+arch dwall_2_1_2
+x 20
+y 7
+end
+arch cobblestones2
+x 20
+y 8
+end
+arch table_3
+x 20
+y 8
+end
+arch creator
+other_arch booze
+x 20
+y 8
+end
+arch creator
+other_arch waybread
+x 20
+y 8
+end
+arch cobblestones2
+x 20
+y 9
+end
+arch table_3
+x 20
+y 9
+end
+arch creator
+other_arch booze
+x 20
+y 9
+end
+arch creator
+other_arch waybread
+x 20
+y 9
+end
+arch cobblestones2
+x 20
+y 10
+end
+arch table_3
+x 20
+y 10
+end
+arch creator
+other_arch booze
+x 20
+y 10
+end
+arch creator
+other_arch waybread
+x 20
+y 10
+end
+arch cobblestones2
+x 20
+y 11
+end
+arch dwall_2_1_2
+x 20
+y 11
+end
+arch cobblestones2
+x 20
+y 12
+end
+arch cobblestones2
+x 20
+y 13
+end
+arch cobblestones2
+x 20
+y 14
+end
+arch swall_2_1_2
+x 20
+y 14
+end
+arch shop_potions
+x 20
+y 15
+end
+arch shop_empty
+x 20
+y 16
+end
+arch shop_empty
+x 20
+y 17
+end
+arch shop_empty
+x 20
+y 18
+end
+arch shop_empty
+x 20
+y 19
+end
+arch shop_empty
+x 20
+y 20
+end
+arch shop_empty
+x 20
+y 21
+end
+arch shop_empty
+x 20
+y 22
+end
+arch shop_empty
+x 20
+y 23
+end
+arch shop_scrolls
+x 20
+y 24
+end
+arch cobblestones2
+x 20
+y 25
+end
+arch dwall_2_1_2
+x 20
+y 25
+end
+arch cobblestones2
+x 21
+end
+arch dwall_2_2_3
+x 21
+end
+arch cobblestones2
+x 21
+y 1
+end
+arch dwall_2_1_1
+x 21
+y 1
+end
+arch cobblestones2
+x 21
+y 2
+end
+arch dwall_2_1_1
+x 21
+y 2
+end
+arch cobblestones2
+x 21
+y 3
+end
+arch dwall_2_1_1
+x 21
+y 3
+end
+arch cobblestones2
+x 21
+y 4
+end
+arch dwall_2_1_1
+x 21
+y 4
+end
+arch cobblestones2
+x 21
+y 5
+end
+arch dwall_2_1_1
+x 21
+y 5
+end
+arch cobblestones2
+x 21
+y 6
+end
+arch dwall_2_1_1
+x 21
+y 6
+end
+arch cobblestones2
+x 21
+y 7
+end
+arch dwall_3_1
+x 21
+y 7
+end
+arch cobblestones2
+x 21
+y 8
+end
+arch table_3
+x 21
+y 8
+end
+arch creator
+other_arch booze
+x 21
+y 8
+end
+arch creator
+other_arch waybread
+x 21
+y 8
+end
+arch cobblestones2
+x 21
+y 9
+end
+arch cobblestones2
+x 21
+y 10
+end
+arch cobblestones2
+x 21
+y 11
+end
+arch dwall_1_3
+x 21
+y 11
+end
+arch cobblestones2
+x 21
+y 12
+end
+arch cobblestones2
+x 21
+y 13
+end
+arch cobblestones2
+x 21
+y 14
+end
+arch swall_2_1_2
+x 21
+y 14
+end
+arch shop_potions
+x 21
+y 15
+end
+arch shop_empty
+x 21
+y 16
+end
+arch shop_ring
+x 21
+y 17
+end
+arch shop_ring
+x 21
+y 18
+end
+arch shop_ring
+x 21
+y 19
+end
+arch shop_ring
+x 21
+y 20
+end
+arch shop_ring
+x 21
+y 21
+end
+arch shop_ring
+x 21
+y 22
+end
+arch shop_empty
+x 21
+y 23
+end
+arch shop_scrolls
+x 21
+y 24
+end
+arch cobblestones2
+x 21
+y 25
+end
+arch dwall_2_1_2
+x 21
+y 25
+end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
+x 22
+y 2
+end
+arch blocked
+x 22
+y 3
+end
+arch blocked
+x 22
+y 4
+end
+arch blocked
+x 22
+y 5
+end
+arch blocked
+x 22
+y 6
+end
+arch cobblestones2
+x 22
+y 7
+end
+arch dwall_2_1_2
+x 22
+y 7
+end
+arch cobblestones2
+x 22
+y 8
+end
+arch table_3
+x 22
+y 8
+end
+arch creator
+other_arch booze
+x 22
+y 8
+end
+arch creator
+other_arch waybread
+x 22
+y 8
+end
+arch cobblestones2
+x 22
+y 9
+end
+arch cobblestones2
+x 22
+y 10
+end
+arch cobblestones2
+x 22
+y 11
+end
+arch door_look_1
+x 22
+y 11
+no_pass 0
+end
+arch cobblestones2
+x 22
+y 12
+end
+arch cobblestones2
+x 22
+y 13
+end
+arch wizard
+name wizard shopkeeper
+msg
+@match hi|hello
+Hello,as you can see we have a nice
+collection of magical items. Feel free
+to look around.
+endmsg
+face wizard_blue.151
+Str 0
+Con 6
+Wis 20
+Int 8
+hp 420
+maxsp 90
+exp 3000
+dam 20
+ac 2
+x 22
+y 13
+speed 0.310000
+attack_movement 7
+level 22
+type 0
+monster 1
+friendly 1
+see_invisible 1
+can_cast_spell 1
+end
+arch cobblestones2
+x 22
+y 14
+end
+arch swall_2_1_2
+x 22
+y 14
+end
+arch shop_potions
+x 22
+y 15
+end
+arch shop_empty
+x 22
+y 16
+end
+arch shop_ring
+x 22
+y 17
+end
+arch shop_ring
+x 22
+y 18
+end
+arch shop_ring
+x 22
+y 19
+end
+arch shop_ring
+x 22
+y 20
+end
+arch shop_ring
+x 22
+y 21
+end
+arch shop_ring
+x 22
+y 22
+end
+arch shop_empty
+x 22
+y 23
+end
+arch shop_scrolls
+x 22
+y 24
+end
+arch cobblestones2
+x 22
+y 25
+end
+arch dwall_2_1_2
+x 22
+y 25
+end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
+arch blocked
+x 23
+y 2
+end
+arch blocked
+x 23
+y 3
+end
+arch blocked
+x 23
+y 4
+end
+arch blocked
+x 23
+y 5
+end
+arch blocked
+x 23
+y 6
+end
+arch cobblestones2
+x 23
+y 7
+end
+arch dwall_2_1_2
+x 23
+y 7
+end
+arch cobblestones2
+x 23
+y 8
+end
+arch table_3
+x 23
+y 8
+end
+arch creator
+other_arch booze
+x 23
+y 8
+end
+arch creator
+other_arch waybread
+x 23
+y 8
+end
+arch cobblestones2
+x 23
+y 9
+end
+arch cobblestones2
+x 23
+y 10
+end
+arch cobblestones2
+x 23
+y 11
+end
+arch dwall_1_4
+x 23
+y 11
+end
+arch cobblestones2
+x 23
+y 12
+end
+arch cobblestones2
+x 23
+y 13
+end
+arch cobblestones2
+x 23
+y 14
+end
+arch swall_2_1_2
+x 23
+y 14
+end
+arch shop_empty
+x 23
+y 15
+end
+arch menu
+x 23
+y 15
+end
+arch shop_empty
+x 23
+y 16
+end
+arch shop_empty
+x 23
+y 17
+end
+arch shop_empty
+x 23
+y 18
+end
+arch shop_empty
+x 23
+y 19
+end
+arch shop_empty
+x 23
+y 20
+end
+arch shop_empty
+x 23
+y 21
+end
+arch shop_empty
+x 23
+y 22
+end
+arch shop_empty
+x 23
+y 23
+end
+arch shop_scrolls
+x 23
+y 24
+end
+arch cobblestones2
+x 23
+y 25
+end
+arch dwall_2_1_2
+x 23
+y 25
+end
+arch blocked
+x 24
+end
+arch blocked
+x 24
+y 1
+end
+arch blocked
+x 24
+y 2
+end
+arch blocked
+x 24
+y 3
+end
+arch blocked
+x 24
+y 4
+end
+arch blocked
+x 24
+y 5
+end
+arch blocked
+x 24
+y 6
+end
+arch cobblestones2
+x 24
+y 7
+end
+arch dwall_2_1_2
+x 24
+y 7
+end
+arch cobblestones2
+x 24
+y 8
+end
+arch table_3
+x 24
+y 8
+end
+arch creator
+other_arch booze
+x 24
+y 8
+end
+arch creator
+other_arch waybread
+x 24
+y 8
+end
+arch cobblestones2
+x 24
+y 9
+end
+arch table_3
+x 24
+y 9
+end
+arch creator
+other_arch booze
+x 24
+y 9
+end
+arch creator
+other_arch waybread
+x 24
+y 9
+end
+arch cobblestones2
+x 24
+y 10
+end
+arch table_3
+x 24
+y 10
+end
+arch creator
+other_arch booze
+x 24
+y 10
+end
+arch creator
+other_arch waybread
+x 24
+y 10
+end
+arch cobblestones2
+x 24
+y 11
+end
+arch dwall_2_1_2
+x 24
+y 11
+end
+arch cobblestones2
+x 24
+y 12
+end
+arch identify_table
+x 24
+y 12
+end
+arch cobblestones2
+x 24
+y 13
+end
+arch shop_mat
+x 24
+y 13
+end
+arch cobblestones2
+x 24
+y 14
+end
+arch swall_2_1_2
+x 24
+y 14
+end
+arch shop_empty
+x 24
+y 15
+end
+arch shop_mat
+x 24
+y 15
+end
+arch shop_empty
+x 24
+y 16
+end
+arch shop_scrolls
+x 24
+y 17
+end
+arch shop_scrolls
+x 24
+y 18
+end
+arch shop_scrolls
+x 24
+y 19
+end
+arch shop_scrolls
+x 24
+y 20
+end
+arch shop_scrolls
+x 24
+y 21
+end
+arch shop_scrolls
+x 24
+y 22
+end
+arch shop_scrolls
+x 24
+y 23
+end
+arch shop_scrolls
+x 24
+y 24
+end
+arch cobblestones2
+x 24
+y 25
+end
+arch dwall_2_1_2
+x 24
+y 25
+end
+arch blocked
+x 25
+end
+arch blocked
+x 25
+y 1
+end
+arch blocked
+x 25
+y 2
+end
+arch blocked
+x 25
+y 3
+end
+arch blocked
+x 25
+y 4
+end
+arch blocked
+x 25
+y 5
+end
+arch blocked
+x 25
+y 6
+end
+arch cobblestones2
+x 25
+y 7
+end
+arch dwall_2_2_3
+x 25
+y 7
+end
+arch cobblestones2
+x 25
+y 8
+end
+arch dwall_2_1_1
+x 25
+y 8
+end
+arch cobblestones2
+x 25
+y 9
+end
+arch dwall_2_1_1
+x 25
+y 9
+end
+arch cobblestones2
+x 25
+y 10
+end
+arch dwall_2_1_1
+x 25
+y 10
+end
+arch cobblestones2
+x 25
+y 11
+end
+arch dwall_3_4
+x 25
+y 11
+end
+arch cobblestones2
+x 25
+y 12
+end
+arch dwall_2_1_1
+x 25
+y 12
+end
+arch cobblestones2
+x 25
+y 13
+end
+arch dwall_2_1_1
+x 25
+y 13
+end
+arch cobblestones2
+x 25
+y 14
+end
+arch dwall_3_4
+x 25
+y 14
+end
+arch cobblestones2
+x 25
+y 15
+end
+arch dwall_2_1_1
+x 25
+y 15
+end
+arch cobblestones2
+x 25
+y 16
+end
+arch dwall_2_1_1
+x 25
+y 16
+end
+arch cobblestones2
+x 25
+y 17
+end
+arch dwall_2_1_1
+x 25
+y 17
+end
+arch cobblestones2
+x 25
+y 18
+end
+arch dwall_2_1_1
+x 25
+y 18
+end
+arch cobblestones2
+x 25
+y 19
+end
+arch dwall_2_1_1
+x 25
+y 19
+end
+arch cobblestones2
+x 25
+y 20
+end
+arch dwall_2_1_1
+x 25
+y 20
+end
+arch cobblestones2
+x 25
+y 21
+end
+arch dwall_2_1_1
+x 25
+y 21
+end
+arch cobblestones2
+x 25
+y 22
+end
+arch dwall_2_1_1
+x 25
+y 22
+end
+arch cobblestones2
+x 25
+y 23
+end
+arch dwall_2_1_1
+x 25
+y 23
+end
+arch cobblestones2
+x 25
+y 24
+end
+arch dwall_2_1_1
+x 25
+y 24
+end
+arch cobblestones2
+x 25
+y 25
+end
+arch dwall_2_2_4
+x 25
+y 25
+end
+arch troll
+x 1
+y 14
+end
+arch troll
+x 1
+y 16
+end
+arch troll
+x 1
+y 18
+end
+arch dread
+x 2
+y 21
+end
+arch dread
+x 2
+y 23
+end
+arch troll
+x 3
+y 12
+end
+arch troll
+x 3
+y 14
+end
+arch troll
+x 3
+y 16
+end
+arch troll
+x 3
+y 18
+end
+arch dread
+x 4
+y 23
+end
+arch troll
+x 5
+y 12
+end
+arch troll
+x 5
+y 14
+end
+arch troll
+x 5
+y 16
+end
+arch troll
+x 5
+y 18
+end
+arch dread
+x 5
+y 21
+end
+arch troll
+x 7
+y 12
+end
+arch troll
+x 7
+y 14
+end
+arch troll
+x 7
+y 16
+end
+arch troll
+x 7
+y 18
+end
+arch dread
+x 7
+y 20
+end
+arch dread
+x 7
+y 23
+end

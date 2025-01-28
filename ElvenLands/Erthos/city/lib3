@@ -1,0 +1,1785 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Wed May 23 02:55:12 2001
+endmsg
+width 16
+height 16
+end
+arch marble
+end
+arch cwall_2_2_2
+end
+arch marble
+y 1
+end
+arch cwall_3_2
+y 1
+end
+arch marble
+y 2
+end
+arch cwall_3_2
+y 2
+end
+arch marble
+y 3
+end
+arch cwall_3_2
+y 3
+end
+arch marble
+y 4
+end
+arch cwall_3_2
+y 4
+end
+arch marble
+y 5
+end
+arch cwall_3_2
+y 5
+end
+arch marble
+y 6
+end
+arch cwall_3_2
+y 6
+end
+arch marble
+y 7
+end
+arch cwall_3_2
+y 7
+end
+arch marble
+y 8
+end
+arch cwall_3_2
+y 8
+end
+arch marble
+y 9
+end
+arch cwall_3_2
+y 9
+end
+arch marble
+y 10
+end
+arch cwall_3_2
+y 10
+end
+arch marble
+y 11
+end
+arch cwall_3_2
+y 11
+end
+arch marble
+y 12
+end
+arch cwall_3_2
+y 12
+end
+arch marble
+y 13
+end
+arch cwall_3_2
+y 13
+end
+arch marble
+y 14
+end
+arch cwall_2_2_1
+y 14
+end
+arch blocked
+y 15
+end
+arch marble
+x 1
+end
+arch cwall_3_3
+x 1
+end
+arch marble
+x 1
+y 1
+end
+arch cwall_4
+x 1
+y 1
+end
+arch marble
+x 1
+y 2
+end
+arch cwall_3_4
+x 1
+y 2
+end
+arch marble
+x 1
+y 3
+end
+arch cwall_4
+x 1
+y 3
+end
+arch marble
+x 1
+y 4
+end
+arch cwall_3_4
+x 1
+y 4
+end
+arch marble
+x 1
+y 5
+end
+arch cwall_3_4
+x 1
+y 5
+end
+arch marble
+x 1
+y 6
+end
+arch cwall_3_4
+x 1
+y 6
+end
+arch marble
+x 1
+y 7
+end
+arch cwall_3_4
+x 1
+y 7
+end
+arch marble
+x 1
+y 8
+end
+arch cwall_3_4
+x 1
+y 8
+end
+arch marble
+x 1
+y 9
+end
+arch cwall_3_4
+x 1
+y 9
+end
+arch marble
+x 1
+y 10
+end
+arch cwall_3_4
+x 1
+y 10
+end
+arch marble
+x 1
+y 11
+end
+arch cwall_4
+x 1
+y 11
+end
+arch marble
+x 1
+y 12
+end
+arch cwall_3_4
+x 1
+y 12
+end
+arch marble
+x 1
+y 13
+end
+arch cwall_4
+x 1
+y 13
+end
+arch marble
+x 1
+y 14
+end
+arch cwall_3_1
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch marble
+x 2
+end
+arch cwall_3_3
+x 2
+end
+arch marble
+x 2
+y 1
+end
+arch cwall_3_1
+x 2
+y 1
+end
+arch marble
+x 2
+y 2
+end
+arch stair_down_2
+slaying lib2
+hp 18
+sp 2
+x 2
+y 2
+end
+arch marble
+x 2
+y 3
+end
+arch cwall_2_1_2
+x 2
+y 3
+end
+arch marble
+x 2
+y 4
+end
+arch random_reading
+slaying library
+x 2
+y 4
+level 30
+no_pick 1
+end
+arch marble
+x 2
+y 5
+end
+arch marble
+x 2
+y 6
+end
+arch random_reading
+slaying library
+x 2
+y 6
+level 30
+no_pick 1
+end
+arch marble
+x 2
+y 7
+end
+arch marble
+x 2
+y 8
+end
+arch random_reading
+slaying library
+x 2
+y 8
+level 30
+no_pick 1
+end
+arch marble
+x 2
+y 9
+end
+arch marble
+x 2
+y 10
+end
+arch random_reading
+slaying library
+x 2
+y 10
+level 30
+no_pick 1
+end
+arch marble
+x 2
+y 11
+end
+arch cwall_2_1_2
+x 2
+y 11
+end
+arch marble
+x 2
+y 12
+end
+arch stair_down_2
+slaying lib2
+hp 18
+sp 18
+x 2
+y 12
+end
+arch marble
+x 2
+y 13
+end
+arch cwall_3_3
+x 2
+y 13
+end
+arch marble
+x 2
+y 14
+end
+arch cwall_3_1
+x 2
+y 14
+end
+arch blocked
+x 2
+y 15
+end
+arch marble
+x 3
+end
+arch cwall_3_3
+x 3
+end
+arch marble
+x 3
+y 1
+end
+arch cwall_3_1
+x 3
+y 1
+end
+arch marble
+x 3
+y 2
+end
+arch door_look_2
+x 3
+y 2
+no_pass 0
+end
+arch marble
+x 3
+y 3
+end
+arch cwall_1_3
+x 3
+y 3
+end
+arch marble
+x 3
+y 4
+end
+arch marble
+x 3
+y 5
+end
+arch marble
+x 3
+y 6
+end
+arch marble
+x 3
+y 7
+end
+arch marble
+x 3
+y 8
+end
+arch marble
+x 3
+y 9
+end
+arch marble
+x 3
+y 10
+end
+arch marble
+x 3
+y 11
+end
+arch cwall_1_3
+x 3
+y 11
+end
+arch marble
+x 3
+y 12
+end
+arch door_look_2
+x 3
+y 12
+no_pass 0
+end
+arch marble
+x 3
+y 13
+end
+arch cwall_3_3
+x 3
+y 13
+end
+arch marble
+x 3
+y 14
+end
+arch cwall_3_1
+x 3
+y 14
+end
+arch blocked
+x 3
+y 15
+end
+arch marble
+x 4
+end
+arch cwall_3_3
+x 4
+end
+arch marble
+x 4
+y 1
+end
+arch cwall_3_1
+x 4
+y 1
+end
+arch marble
+x 4
+y 2
+end
+arch marble
+x 4
+y 3
+end
+arch marble
+x 4
+y 4
+end
+arch marble
+x 4
+y 5
+end
+arch random_reading
+slaying library
+x 4
+y 5
+level 30
+no_pick 1
+end
+arch marble
+x 4
+y 6
+end
+arch marble
+x 4
+y 7
+end
+arch random_reading
+slaying library
+x 4
+y 7
+level 30
+no_pick 1
+end
+arch marble
+x 4
+y 8
+end
+arch marble
+x 4
+y 9
+end
+arch random_reading
+slaying library
+x 4
+y 9
+level 30
+no_pick 1
+end
+arch marble
+x 4
+y 10
+end
+arch marble
+x 4
+y 11
+end
+arch marble
+x 4
+y 12
+end
+arch marble
+x 4
+y 13
+end
+arch cwall_3_3
+x 4
+y 13
+end
+arch marble
+x 4
+y 14
+end
+arch cwall_3_1
+x 4
+y 14
+end
+arch blocked
+x 4
+y 15
+end
+arch marble
+x 5
+end
+arch cwall_3_3
+x 5
+end
+arch marble
+x 5
+y 1
+end
+arch cwall_3_1
+x 5
+y 1
+end
+arch marble
+x 5
+y 2
+end
+arch marble
+x 5
+y 3
+end
+arch marble
+x 5
+y 4
+end
+arch marble
+x 5
+y 5
+end
+arch cwall_1_1
+x 5
+y 5
+end
+arch marble
+x 5
+y 6
+end
+arch cwall_2_1_1
+x 5
+y 6
+end
+arch marble
+x 5
+y 7
+end
+arch cwall_2_1_1
+x 5
+y 7
+end
+arch marble
+x 5
+y 8
+end
+arch cwall_2_1_1
+x 5
+y 8
+end
+arch marble
+x 5
+y 9
+end
+arch cwall_1_2
+x 5
+y 9
+end
+arch marble
+x 5
+y 10
+end
+arch marble
+x 5
+y 11
+end
+arch marble
+x 5
+y 12
+end
+arch marble
+x 5
+y 13
+end
+arch cwall_3_3
+x 5
+y 13
+end
+arch marble
+x 5
+y 14
+end
+arch cwall_3_1
+x 5
+y 14
+end
+arch blocked
+x 5
+y 15
+end
+arch marble
+x 6
+end
+arch cwall_3_3
+x 6
+end
+arch marble
+x 6
+y 1
+end
+arch cwall_3_1
+x 6
+y 1
+end
+arch marble
+x 6
+y 2
+end
+arch marble
+x 6
+y 3
+end
+arch marble
+x 6
+y 4
+end
+arch marble
+x 6
+y 5
+end
+arch marble
+x 6
+y 6
+end
+arch greater_dwarven_guard
+name royal dwarven guard
+hp 3000
+maxhp 3000
+dam 20
+wc -2
+ac -15
+x 6
+y 6
+unaggressive 1
+end
+arch marble
+x 6
+y 7
+end
+arch marble
+x 6
+y 8
+end
+arch greater_dwarven_guard
+name royal dwarven guard
+hp 3000
+maxhp 3000
+dam 20
+wc -2
+ac -15
+x 6
+y 8
+unaggressive 1
+end
+arch marble
+x 6
+y 9
+end
+arch marble
+x 6
+y 10
+end
+arch marble
+x 6
+y 11
+end
+arch marble
+x 6
+y 12
+end
+arch marble
+x 6
+y 13
+end
+arch cwall_3_3
+x 6
+y 13
+end
+arch marble
+x 6
+y 14
+end
+arch cwall_3_1
+x 6
+y 14
+end
+arch blocked
+x 6
+y 15
+end
+arch marble
+x 7
+end
+arch cwall_3_3
+x 7
+end
+arch marble
+x 7
+y 1
+end
+arch cwall_3_1
+x 7
+y 1
+end
+arch marble
+x 7
+y 2
+end
+arch marble
+x 7
+y 3
+end
+arch marble
+x 7
+y 4
+end
+arch marble
+x 7
+y 5
+end
+arch marble
+x 7
+y 6
+end
+arch marble
+x 7
+y 7
+end
+arch marble
+x 7
+y 8
+end
+arch marble
+x 7
+y 9
+end
+arch marble
+x 7
+y 10
+end
+arch marble
+x 7
+y 11
+end
+arch marble
+x 7
+y 12
+end
+arch marble
+x 7
+y 13
+end
+arch cwall_3_3
+x 7
+y 13
+end
+arch marble
+x 7
+y 14
+end
+arch cwall_3_1
+x 7
+y 14
+end
+arch blocked
+x 7
+y 15
+end
+arch marble
+x 8
+end
+arch cwall_3_3
+x 8
+end
+arch marble
+x 8
+y 1
+end
+arch cwall_3_1
+x 8
+y 1
+end
+arch marble
+x 8
+y 2
+end
+arch marble
+x 8
+y 3
+end
+arch marble
+x 8
+y 4
+end
+arch marble
+x 8
+y 5
+end
+arch marble
+x 8
+y 6
+end
+arch marble
+x 8
+y 7
+end
+arch marble
+x 8
+y 8
+end
+arch marble
+x 8
+y 9
+end
+arch marble
+x 8
+y 10
+end
+arch marble
+x 8
+y 11
+end
+arch marble
+x 8
+y 12
+end
+arch marble
+x 8
+y 13
+end
+arch cwall_3_3
+x 8
+y 13
+end
+arch marble
+x 8
+y 14
+end
+arch cwall_3_1
+x 8
+y 14
+end
+arch blocked
+x 8
+y 15
+end
+arch marble
+x 9
+end
+arch cwall_3_3
+x 9
+end
+arch marble
+x 9
+y 1
+end
+arch cwall_3_1
+x 9
+y 1
+end
+arch marble
+x 9
+y 2
+end
+arch marble
+x 9
+y 3
+end
+arch marble
+x 9
+y 4
+end
+arch cwall_2_2_2
+x 9
+y 4
+end
+arch marble
+x 9
+y 5
+end
+arch cwall_2_1_1
+x 9
+y 5
+end
+arch marble
+x 9
+y 6
+end
+arch cwall_1_2
+x 9
+y 6
+end
+arch marble
+x 9
+y 7
+end
+arch door_look_2
+x 9
+y 7
+no_pass 0
+end
+arch marble
+x 9
+y 8
+end
+arch cwall_1_1
+x 9
+y 8
+end
+arch marble
+x 9
+y 9
+end
+arch cwall_2_1_1
+x 9
+y 9
+end
+arch marble
+x 9
+y 10
+end
+arch cwall_2_2_1
+x 9
+y 10
+end
+arch marble
+x 9
+y 11
+end
+arch marble
+x 9
+y 12
+end
+arch marble
+x 9
+y 13
+end
+arch cwall_3_3
+x 9
+y 13
+end
+arch marble
+x 9
+y 14
+end
+arch cwall_3_1
+x 9
+y 14
+end
+arch blocked
+x 9
+y 15
+end
+arch marble
+x 10
+end
+arch cwall_3_3
+x 10
+end
+arch marble
+x 10
+y 1
+end
+arch cwall_3_1
+x 10
+y 1
+end
+arch marble
+x 10
+y 2
+end
+arch marble
+x 10
+y 3
+end
+arch marble
+x 10
+y 4
+end
+arch cwall_2_1_2
+x 10
+y 4
+end
+arch marble
+x 10
+y 5
+end
+arch bookshelf
+x 10
+y 5
+end
+arch marble
+x 10
+y 6
+end
+arch marble
+x 10
+y 7
+end
+arch marble
+x 10
+y 8
+end
+arch grate_closed_1
+x 10
+y 8
+connected 1
+end
+arch marble
+x 10
+y 9
+end
+arch note
+name notes on the dragon lords
+msg
+  The three dragon lords,sons of the
+dragon mother,are immensly powerful.
+Their greed knows no bounds,and they
+wish for complete immortality.
+However,they are immune to most
+attacks,except their natural
+weaknesses. Fire lord being weak
+against cold,Ice lord being weak
+against fire,and Thunder lord being
+weak against fire. Their skin is so
+tough,however,that physical attacks do
+not hurt them at all. And they were
+given complete protection from magical
+attacks,by ruggilli. It is also said
+that they carry weapons given to them
+by ruggilli,these weapons are said to
+be so powerful,that no normal being
+may use them. But,fortunatly,they
+carry other rewards that they achieved
+by themselves. 
+
+  The high dragon lords dwell in the
+mountain of Gondoria.  
+endmsg
+x 10
+y 9
+end
+arch marble
+x 10
+y 10
+end
+arch cwall_2_1_2
+x 10
+y 10
+end
+arch marble
+x 10
+y 11
+end
+arch marble
+x 10
+y 12
+end
+arch marble
+x 10
+y 13
+end
+arch cwall_3_3
+x 10
+y 13
+end
+arch marble
+x 10
+y 14
+end
+arch cwall_3_1
+x 10
+y 14
+end
+arch blocked
+x 10
+y 15
+end
+arch marble
+x 11
+end
+arch cwall_3_3
+x 11
+end
+arch marble
+x 11
+y 1
+end
+arch cwall_3_1
+x 11
+y 1
+end
+arch marble
+x 11
+y 2
+end
+arch marble
+x 11
+y 3
+end
+arch marble
+x 11
+y 4
+end
+arch cwall_2_1_2
+x 11
+y 4
+end
+arch marble
+x 11
+y 5
+end
+arch bookshelf
+x 11
+y 5
+end
+arch marble
+x 11
+y 6
+end
+arch marble
+x 11
+y 7
+end
+arch magic_ear
+msg
+@match balrog|Balrog|dragon|Dragon
+endmsg
+x 11
+y 7
+connected 1
+end
+arch table_4
+x 11
+y 7
+no_pass 1
+end
+arch marble
+x 11
+y 8
+end
+arch grate_closed_1
+x 11
+y 8
+connected 1
+end
+arch marble
+x 11
+y 9
+end
+arch note
+name notes on the balrog
+msg
+  The balrog who took the mines of
+morgria,guards great treasure. In the
+treasure is a Black Dragon Mail,making
+the wearer resistant to
+fire,electricity,cold,and chaos;a
+Fire Star of Great Power;a Red
+Crystal,able to fire evil flames;and
+an Evil Shield. But,may the adventurer
+be warned,the artifacts have great side
+effects. Even touching them may bring
+the adventurer trouble. I would stay
+away from those artifacts...
+endmsg
+x 11
+y 9
+end
+arch marble
+x 11
+y 10
+end
+arch cwall_2_1_2
+x 11
+y 10
+end
+arch marble
+x 11
+y 11
+end
+arch marble
+x 11
+y 12
+end
+arch marble
+x 11
+y 13
+end
+arch cwall_3_3
+x 11
+y 13
+end
+arch marble
+x 11
+y 14
+end
+arch cwall_3_1
+x 11
+y 14
+end
+arch blocked
+x 11
+y 15
+end
+arch marble
+x 12
+end
+arch cwall_3_3
+x 12
+end
+arch marble
+x 12
+y 1
+end
+arch cwall_3_1
+x 12
+y 1
+end
+arch marble
+x 12
+y 2
+end
+arch marble
+x 12
+y 3
+end
+arch marble
+x 12
+y 4
+end
+arch cwall_2_1_2
+x 12
+y 4
+end
+arch marble
+x 12
+y 5
+end
+arch bookshelf
+x 12
+y 5
+end
+arch marble
+x 12
+y 6
+end
+arch marble
+x 12
+y 7
+end
+arch chair_1.2
+x 12
+y 7
+end
+arch c_sage
+name old librarian,Bartud
+msg
+@match necromancer|Necromancer
+ I have been doing research on
+him,with books from all over Erthos
+and the Elven Lands! He is over a
+thousand years old,the dark spirits of
+Devourers have given him immortality.
+He never ages,however,that just means
+that he never dies of age. He can be
+killed in battle. The Devourers gave
+him this power,due to his loyalty and
+deeds. He is their greatest mortal
+servent! To help him in his dark quest
+to succumb the world to their
+religion,they gave him the Dark
+Behemoth. The Dark Behemoth is a
+powerful beast,impervious to most
+attacks. The necromancer is part of
+the Black Alliance,as he believes that
+this will help him in his quest. 
+@match weakness|Weakness
+  I have not found out the Dark
+Behemoth's weakness yet. But I hear
+there is a sage somewhere who knows
+the behemoth's weakness. 
+@match Balrog|balrog|dragon|Dragon
+I have done some research on that
+subject,you may look at some of my
+notes.
+@match hi|hello
+Sorry,i'm a little busy right now. If
+you don't have any thing important to
+say,i must get back to my research...
+endmsg
+x 12
+y 7
+end
+arch marble
+x 12
+y 8
+end
+arch grate_closed_1
+x 12
+y 8
+connected 1
+end
+arch marble
+x 12
+y 9
+end
+arch note
+name notes on the Black Alliance
+msg
+  There are many evils in Erthos and
+the Elven Lands. It has been said that
+they have formed a dark union,called
+the Black Alliance. The leader of this
+alliance is Lord Darkoth,ruler of the
+dark elves. Also in this group must be
+that foul necromancer,perhaps even the
+balrog... 
+endmsg
+x 12
+y 9
+end
+arch marble
+x 12
+y 10
+end
+arch cwall_2_1_2
+x 12
+y 10
+end
+arch marble
+x 12
+y 11
+end
+arch marble
+x 12
+y 12
+end
+arch marble
+x 12
+y 13
+end
+arch cwall_3_3
+x 12
+y 13
+end
+arch marble
+x 12
+y 14
+end
+arch cwall_3_1
+x 12
+y 14
+end
+arch blocked
+x 12
+y 15
+end
+arch marble
+x 13
+end
+arch cwall_3_3
+x 13
+end
+arch marble
+x 13
+y 1
+end
+arch cwall_3_1
+x 13
+y 1
+end
+arch marble
+x 13
+y 2
+end
+arch marble
+x 13
+y 3
+end
+arch greater_dwarven_guard
+name royal dwarven guard
+hp 3000
+maxhp 3000
+dam 20
+wc -2
+ac -15
+x 13
+y 3
+unaggressive 1
+end
+arch marble
+x 13
+y 4
+end
+arch cwall_2_1_2
+x 13
+y 4
+end
+arch marble
+x 13
+y 5
+end
+arch bookshelf
+x 13
+y 5
+end
+arch marble
+x 13
+y 6
+end
+arch marble
+x 13
+y 7
+end
+arch marble
+x 13
+y 8
+end
+arch grate_closed_1
+x 13
+y 8
+connected 1
+end
+arch marble
+x 13
+y 9
+end
+arch note
+name notes on the hidden temples
+msg
+   In Erthos,i believe there are many
+hidden temples of mostrai. Each one
+has a useful artifact. One may be
+located in the mountains near Erthos.
+These artifacts will not be so easy to
+get,i fear.
+endmsg
+x 13
+y 9
+end
+arch marble
+x 13
+y 10
+end
+arch cwall_2_1_2
+x 13
+y 10
+end
+arch marble
+x 13
+y 11
+end
+arch greater_dwarven_guard
+name royal dwarven guard
+hp 3000
+maxhp 3000
+dam 20
+wc -2
+ac -15
+x 13
+y 11
+unaggressive 1
+end
+arch marble
+x 13
+y 12
+end
+arch marble
+x 13
+y 13
+end
+arch cwall_3_3
+x 13
+y 13
+end
+arch marble
+x 13
+y 14
+end
+arch cwall_3_1
+x 13
+y 14
+end
+arch blocked
+x 13
+y 15
+end
+arch marble
+x 14
+end
+arch cwall_3_3
+x 14
+end
+arch marble
+x 14
+y 1
+end
+arch cwall_4
+x 14
+y 1
+end
+arch marble
+x 14
+y 2
+end
+arch cwall_3_2
+x 14
+y 2
+end
+arch marble
+x 14
+y 3
+end
+arch cwall_3_2
+x 14
+y 3
+end
+arch marble
+x 14
+y 4
+end
+arch cwall_4
+x 14
+y 4
+end
+arch marble
+x 14
+y 5
+end
+arch cwall_3_2
+x 14
+y 5
+end
+arch marble
+x 14
+y 6
+end
+arch cwall_3_2
+x 14
+y 6
+end
+arch marble
+x 14
+y 7
+end
+arch cwall_3_2
+x 14
+y 7
+end
+arch marble
+x 14
+y 8
+end
+arch cwall_3_2
+x 14
+y 8
+end
+arch marble
+x 14
+y 9
+end
+arch cwall_3_2
+x 14
+y 9
+end
+arch marble
+x 14
+y 10
+end
+arch cwall_4
+x 14
+y 10
+end
+arch marble
+x 14
+y 11
+end
+arch cwall_3_2
+x 14
+y 11
+end
+arch marble
+x 14
+y 12
+end
+arch cwall_3_2
+x 14
+y 12
+end
+arch marble
+x 14
+y 13
+end
+arch cwall_4
+x 14
+y 13
+end
+arch marble
+x 14
+y 14
+end
+arch cwall_3_1
+x 14
+y 14
+end
+arch blocked
+x 14
+y 15
+end
+arch marble
+x 15
+end
+arch cwall_2_2_3
+x 15
+end
+arch marble
+x 15
+y 1
+end
+arch cwall_3_4
+x 15
+y 1
+end
+arch marble
+x 15
+y 2
+end
+arch cwall_3_4
+x 15
+y 2
+end
+arch marble
+x 15
+y 3
+end
+arch cwall_3_4
+x 15
+y 3
+end
+arch marble
+x 15
+y 4
+end
+arch cwall_3_4
+x 15
+y 4
+end
+arch marble
+x 15
+y 5
+end
+arch cwall_3_4
+x 15
+y 5
+end
+arch marble
+x 15
+y 6
+end
+arch cwall_3_4
+x 15
+y 6
+end
+arch marble
+x 15
+y 7
+end
+arch cwall_3_4
+x 15
+y 7
+end
+arch marble
+x 15
+y 8
+end
+arch cwall_3_4
+x 15
+y 8
+end
+arch marble
+x 15
+y 9
+end
+arch cwall_3_4
+x 15
+y 9
+end
+arch marble
+x 15
+y 10
+end
+arch cwall_3_4
+x 15
+y 10
+end
+arch marble
+x 15
+y 11
+end
+arch cwall_3_4
+x 15
+y 11
+end
+arch marble
+x 15
+y 12
+end
+arch cwall_3_4
+x 15
+y 12
+end
+arch marble
+x 15
+y 13
+end
+arch cwall_3_4
+x 15
+y 13
+end
+arch marble
+x 15
+y 14
+end
+arch cwall_2_2_4
+x 15
+y 14
+end
+arch blocked
+x 15
+y 15
+end

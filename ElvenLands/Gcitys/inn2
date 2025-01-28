@@ -1,0 +1,629 @@
+arch map
+name inn2
+msg
+Creator: 
+Email: 
+Date: Sat Nov 20 20:53:05 1999
+endmsg
+width 12
+height 12
+end
+arch woodfloor
+end
+arch woodwall_2_2_2
+end
+arch woodfloor
+y 1
+end
+arch woodwall_2_1_1
+y 1
+end
+arch woodfloor
+y 2
+end
+arch woodwall_2_1_1
+y 2
+end
+arch woodfloor
+y 3
+end
+arch woodwall_2_1_1
+y 3
+end
+arch woodfloor
+y 4
+end
+arch woodwall_2_1_1
+y 4
+end
+arch woodfloor
+y 5
+end
+arch woodwall_2_2_1
+y 5
+end
+arch woodfloor
+y 6
+end
+arch woodfloor
+x 1
+end
+arch woodwall_2_1_2
+x 1
+end
+arch woodfloor
+x 1
+y 1
+end
+arch bed_save
+x 1
+y 1
+end
+arch woodfloor
+x 1
+y 2
+end
+arch woodfloor
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
+arch booze_table
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch woodwall_2_1_2
+x 1
+y 5
+end
+arch woodfloor
+x 1
+y 6
+end
+arch woodfloor
+x 2
+end
+arch woodwall_3_3
+x 2
+end
+arch woodfloor
+x 2
+y 1
+end
+arch woodwall_2_1_1
+x 2
+y 1
+end
+arch woodfloor
+x 2
+y 2
+end
+arch woodwall_1_2
+x 2
+y 2
+end
+arch woodfloor
+x 2
+y 3
+end
+arch woodfloor
+x 2
+y 4
+end
+arch waybread_table
+x 2
+y 4
+end
+arch woodfloor
+x 2
+y 5
+end
+arch woodwall_2_2_3
+x 2
+y 5
+end
+arch woodfloor
+x 2
+y 6
+end
+arch woodwall_2_2_1
+x 2
+y 6
+end
+arch bwall_2_2_2
+x 2
+y 7
+end
+arch bwall_2_1_1
+x 2
+y 8
+end
+arch bwall_2_1_1
+x 2
+y 9
+end
+arch bwall_2_2_1
+x 2
+y 10
+end
+arch woodfloor
+x 3
+end
+arch woodwall_2_1_2
+x 3
+end
+arch woodfloor
+x 3
+y 1
+end
+arch guildmaster
+name old man
+msg
+@match *
+If you want to talk to me say hello!
+endmsg
+x 3
+y 1
+end
+arch woodfloor
+x 3
+y 2
+end
+arch swall_0
+x 3
+y 2
+end
+arch woodfloor
+x 3
+y 3
+end
+arch pit_closed
+hp 8
+sp 1
+x 3
+y 3
+invisible 1
+connected 1
+end
+arch magic_ear
+msg
+@match hello
+Let me tell you a story...
+Boom! You are jolted from your sleep! 
+What! You look around. Where are you...
+Commander! A warrior calls you. I need
+to tell you something!
+endmsg
+x 3
+y 3
+connected 2
+end
+arch woodfloor
+x 3
+y 4
+end
+arch woodfloor
+x 3
+y 5
+end
+arch oakdoor
+slaying /ElvenLands/Gcitys/city2
+hp 6
+sp 1
+x 3
+y 5
+end
+arch woodfloor
+x 3
+y 6
+end
+arch woodwall_2_1_2
+x 3
+y 6
+end
+arch bwall_2_1_2
+x 3
+y 7
+end
+arch grate_open_1
+x 3
+y 8
+connected 2
+end
+arch boulder
+x 3
+y 8
+end
+arch button_plate
+x 3
+y 9
+connected 1
+end
+arch bwall_2_1_2
+x 3
+y 10
+end
+arch woodfloor
+x 4
+end
+arch woodwall_3_3
+x 4
+end
+arch woodfloor
+x 4
+y 1
+end
+arch woodwall_2_1_1
+x 4
+y 1
+end
+arch woodfloor
+x 4
+y 2
+end
+arch woodwall_1_2
+x 4
+y 2
+end
+arch woodfloor
+x 4
+y 3
+end
+arch woodfloor
+x 4
+y 4
+end
+arch food_table
+x 4
+y 4
+end
+arch woodfloor
+x 4
+y 5
+end
+arch woodwall_2_2_2
+x 4
+y 5
+end
+arch woodfloor
+x 4
+y 6
+end
+arch woodwall_2_2_4
+x 4
+y 6
+end
+arch bwall_2_2_3
+x 4
+y 7
+end
+arch bwall_2_1_1
+x 4
+y 8
+end
+arch bwall_2_1_1
+x 4
+y 9
+end
+arch bwall_2_2_4
+x 4
+y 10
+end
+arch woodfloor
+x 5
+end
+arch woodwall_2_1_2
+x 5
+end
+arch woodfloor
+x 5
+y 1
+end
+arch bed_save
+x 5
+y 1
+end
+arch woodfloor
+x 5
+y 2
+end
+arch woodfloor
+x 5
+y 3
+end
+arch woodfloor
+x 5
+y 4
+end
+arch dragon_steak_table
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch woodwall_2_1_2
+x 5
+y 5
+end
+arch woodfloor
+x 5
+y 6
+end
+arch woodfloor
+x 6
+end
+arch woodwall_2_2_3
+x 6
+end
+arch woodfloor
+x 6
+y 1
+end
+arch woodwall_2_1_1
+x 6
+y 1
+end
+arch woodfloor
+x 6
+y 2
+end
+arch woodwall_2_1_1
+x 6
+y 2
+end
+arch woodfloor
+x 6
+y 3
+end
+arch woodwall_2_1_1
+x 6
+y 3
+end
+arch woodfloor
+x 6
+y 4
+end
+arch woodwall_2_1_1
+x 6
+y 4
+end
+arch woodfloor
+x 6
+y 5
+end
+arch woodwall_2_2_4
+x 6
+y 5
+end
+arch woodfloor
+x 6
+y 6
+end
+arch cwall_2_2_2
+x 7
+end
+arch cwall_2_1_1
+x 7
+y 1
+end
+arch cwall_2_1_1
+x 7
+y 2
+end
+arch cwall_2_1_1
+x 7
+y 3
+end
+arch cwall_2_1_1
+x 7
+y 4
+end
+arch cwall_2_1_1
+x 7
+y 5
+end
+arch cwall_2_2_1
+x 7
+y 6
+end
+arch cwall_2_1_2
+x 8
+end
+arch cobblestones
+x 8
+y 1
+end
+arch bed_save
+x 8
+y 1
+end
+arch cobblestones
+x 8
+y 2
+end
+arch cobblestones
+x 8
+y 3
+end
+arch cobblestones
+x 8
+y 4
+end
+arch cobblestones
+x 8
+y 5
+end
+arch cwall_2_2_3
+x 8
+y 6
+end
+arch cwall_2_1_1
+x 8
+y 7
+end
+arch cwall_2_1_1
+x 8
+y 8
+end
+arch cwall_2_1_1
+x 8
+y 9
+end
+arch cwall_2_1_1
+x 8
+y 10
+end
+arch cwall_1_2
+x 8
+y 11
+end
+arch cwall_2_1_2
+x 9
+end
+arch cobblestones
+x 9
+y 1
+end
+arch clock
+x 9
+y 1
+end
+arch cobblestones
+x 9
+y 2
+end
+arch cobblestones
+x 9
+y 3
+end
+arch cobblestones
+x 9
+y 4
+end
+arch magic_mouth
+msg
+Sir! I need to tell you something!
+endmsg
+x 9
+y 4
+end
+arch cobblestones
+x 9
+y 5
+end
+arch button_handle
+x 9
+y 5
+connected 1
+end
+arch igate_open_1
+x 9
+y 6
+connected 1
+end
+arch invis_exit
+slaying /ElvenLands/Gcitys/war
+hp 3
+sp 25
+x 9
+y 9
+end
+arch cwall_2_1_2
+x 10
+end
+arch cobblestones
+x 10
+y 1
+end
+arch chair_3.2
+x 10
+y 1
+end
+arch cobblestones
+x 10
+y 2
+end
+arch cobblestones
+x 10
+y 3
+end
+arch cobblestones
+x 10
+y 4
+end
+arch warrior_1
+name halforc warrior
+msg
+@match *
+Sir,the fort is under attack!
+Glovarites are attacking! There leader
+is a vampire! He is carrying some kind
+of ring! They have killed all our men.
+endmsg
+x 10
+y 4
+end
+arch cobblestones
+x 10
+y 5
+end
+arch cwall_2_2_2
+x 10
+y 6
+end
+arch cwall_2_1_1
+x 10
+y 7
+end
+arch cwall_2_1_1
+x 10
+y 8
+end
+arch cwall_2_1_1
+x 10
+y 9
+end
+arch cwall_2_1_1
+x 10
+y 10
+end
+arch cwall_1_2
+x 10
+y 11
+end
+arch cwall_2_2_3
+x 11
+end
+arch cwall_2_1_1
+x 11
+y 1
+end
+arch cwall_2_1_1
+x 11
+y 2
+end
+arch cwall_2_1_1
+x 11
+y 3
+end
+arch cwall_2_1_1
+x 11
+y 4
+end
+arch cwall_2_1_1
+x 11
+y 5
+end
+arch cwall_2_2_4
+x 11
+y 6
+end

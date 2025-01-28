@@ -1,0 +1,1046 @@
+arch map
+name Spec test
+msg
+Creator: CF Java Map Editor
+Date:    9/25/2002
+endmsg
+width 16
+height 16
+end
+arch roughwall_2_2_2
+end
+arch roughwall_2_1_1
+y 1
+end
+arch roughwall_3_2
+y 2
+end
+arch roughwall_2_1_1
+y 3
+end
+arch roughwall_3_2
+y 4
+end
+arch roughwall_2_1_1
+y 5
+end
+arch roughwall_2_1_1
+y 6
+end
+arch roughwall_2_1_1
+y 7
+end
+arch roughwall_2_1_1
+y 8
+end
+arch roughwall_2_1_1
+y 9
+end
+arch roughwall_2_1_1
+y 10
+end
+arch roughwall_2_1_1
+y 11
+end
+arch roughwall_2_1_1
+y 12
+end
+arch roughwall_2_1_1
+y 13
+end
+arch roughwall_2_1_1
+y 14
+end
+arch roughwall_2_2_1
+y 15
+end
+arch roughwall_2_1_2
+x 1
+end
+arch grate_open_2
+connected 5
+no_pass 1
+x 1
+y 1
+end
+arch boulder
+x 1
+y 1
+end
+arch roughwall_2_1_2
+x 1
+y 2
+end
+arch grate_open_2
+connected 25
+no_pass 1
+x 1
+y 3
+end
+arch boulder
+x 1
+y 3
+end
+arch roughwall_2_1_2
+x 1
+y 4
+end
+arch pstone_4
+x 1
+y 5
+end
+arch pstone_4
+x 1
+y 6
+end
+arch pstone_4
+x 1
+y 7
+end
+arch pstone_4
+x 1
+y 8
+end
+arch pstone_4
+x 1
+y 9
+end
+arch pstone_4
+x 1
+y 10
+end
+arch pstone_4
+x 1
+y 11
+end
+arch pstone_4
+x 1
+y 12
+end
+arch pstone_4
+x 1
+y 13
+end
+arch pstone_4
+x 1
+y 14
+end
+arch roughwall_2_1_2
+x 1
+y 15
+end
+arch roughwall_2_1_2
+x 2
+end
+arch button_plate
+connected 10
+x 2
+y 1
+end
+arch grate_open_2
+x 2
+y 1
+end
+arch roughwall_2_1_2
+x 2
+y 2
+end
+arch button_plate
+connected 30
+x 2
+y 3
+end
+arch grate_open_2
+connected 30
+no_pass 1
+x 2
+y 3
+end
+arch roughwall_2_1_2
+x 2
+y 4
+end
+arch pstone_4
+x 2
+y 5
+end
+arch pstone_4
+x 2
+y 6
+end
+arch pstone_4
+x 2
+y 7
+end
+arch pstone_4
+x 2
+y 8
+end
+arch pstone_4
+x 2
+y 9
+end
+arch pstone_4
+x 2
+y 10
+end
+arch pstone_4
+x 2
+y 11
+end
+arch pstone_4
+x 2
+y 12
+end
+arch pstone_4
+x 2
+y 13
+end
+arch pstone_4
+x 2
+y 14
+end
+arch roughwall_2_1_2
+x 2
+y 15
+end
+arch roughwall_2_1_2
+x 3
+end
+arch button_small
+connected 15
+x 3
+y 1
+end
+arch magic_mouth
+msg
+Spec: *GRRR* You again!
+endmsg
+x 3
+y 1
+end
+arch roughwall_2_1_2
+x 3
+y 2
+end
+arch button_small
+connected 35
+x 3
+y 3
+end
+arch roughwall_2_1_2
+x 3
+y 4
+end
+arch pstone_4
+x 3
+y 5
+end
+arch pstone_4
+x 3
+y 6
+end
+arch pstone_4
+x 3
+y 7
+end
+arch pstone_4
+x 3
+y 8
+end
+arch pstone_4
+x 3
+y 9
+end
+arch pstone_4
+x 3
+y 10
+end
+arch pstone_4
+x 3
+y 11
+end
+arch pstone_4
+x 3
+y 12
+end
+arch pstone_4
+x 3
+y 13
+end
+arch pstone_4
+x 3
+y 14
+end
+arch roughwall_2_1_2
+x 3
+y 15
+end
+arch roughwall_3_3
+x 4
+end
+arch roughwall_2_1_1
+x 4
+y 1
+end
+arch roughwall_4
+x 4
+y 2
+end
+arch roughwall_2_1_1
+x 4
+y 3
+end
+arch roughwall_3_1
+x 4
+y 4
+end
+arch pstone_4
+x 4
+y 5
+end
+arch pstone_4
+x 4
+y 6
+end
+arch pstone_4
+x 4
+y 7
+end
+arch pstone_4
+x 4
+y 8
+end
+arch pstone_4
+x 4
+y 9
+end
+arch pstone_4
+x 4
+y 10
+end
+arch pstone_4
+x 4
+y 11
+end
+arch pstone_4
+x 4
+y 12
+end
+arch pstone_4
+x 4
+y 13
+end
+arch pstone_4
+x 4
+y 14
+end
+arch roughwall_2_1_2
+x 4
+y 15
+end
+arch roughwall_2_1_2
+x 5
+end
+arch grate_open_2
+connected 15
+no_pass 1
+x 5
+y 1
+end
+arch boulder
+x 5
+y 1
+end
+arch roughwall_2_1_2
+x 5
+y 2
+end
+arch roughwall_2_1_2
+x 5
+y 4
+end
+arch pstone_4
+x 5
+y 5
+end
+arch pstone_4
+x 5
+y 6
+end
+arch pstone_4
+x 5
+y 7
+end
+arch pstone_4
+x 5
+y 8
+end
+arch pstone_4
+x 5
+y 9
+end
+arch pstone_4
+x 5
+y 10
+end
+arch pstone_4
+x 5
+y 11
+end
+arch pstone_4
+x 5
+y 12
+end
+arch pstone_4
+x 5
+y 13
+end
+arch pstone_4
+x 5
+y 14
+end
+arch roughwall_2_1_2
+x 5
+y 15
+end
+arch roughwall_2_1_2
+x 6
+end
+arch button_plate
+connected 20
+x 6
+y 1
+end
+arch grate_open_2
+connected 20
+no_pass 1
+x 6
+y 1
+end
+arch roughwall_3_3
+x 6
+y 2
+end
+arch roughwall_2_1_1
+x 6
+y 3
+end
+arch roughwall_3_1
+x 6
+y 4
+end
+arch pstone_4
+x 6
+y 5
+end
+arch pstone_4
+x 6
+y 6
+end
+arch pstone_4
+x 6
+y 7
+end
+arch pstone_4
+x 6
+y 8
+end
+arch pstone_4
+x 6
+y 9
+end
+arch pstone_4
+x 6
+y 10
+end
+arch pstone_4
+x 6
+y 11
+end
+arch pstone_4
+x 6
+y 12
+end
+arch pstone_4
+x 6
+y 13
+end
+arch pstone_4
+x 6
+y 14
+end
+arch roughwall_2_1_2
+x 6
+y 15
+end
+arch roughwall_2_1_2
+x 7
+end
+arch button_small
+connected 25
+x 7
+y 1
+end
+arch magic_mouth
+msg
+Spec: You cannot stop me from freeing my master!
+endmsg
+x 7
+y 1
+end
+arch roughwall_2_1_2
+x 7
+y 2
+end
+arch teleporter
+hp 9
+sp 13
+connected 35
+x 7
+y 3
+end
+arch perm_magic_portal
+type 41
+slaying 
+sp 0
+connected 40
+x 7
+y 3
+end
+arch roughwall_2_1_2
+x 7
+y 4
+end
+arch pstone_4
+x 7
+y 5
+end
+arch pstone_4
+x 7
+y 6
+end
+arch pstone_4
+x 7
+y 7
+end
+arch pstone_4
+x 7
+y 8
+end
+arch pstone_4
+x 7
+y 9
+end
+arch pstone_4
+x 7
+y 10
+end
+arch pstone_4
+x 7
+y 11
+end
+arch pstone_4
+x 7
+y 12
+end
+arch pstone_4
+x 7
+y 13
+end
+arch pstone_4
+x 7
+y 14
+end
+arch roughwall_2_1_2
+x 7
+y 15
+end
+arch roughwall_2_2_3
+x 8
+end
+arch roughwall_2_1_1
+x 8
+y 1
+end
+arch roughwall_3_4
+x 8
+y 2
+end
+arch roughwall_2_1_1
+x 8
+y 3
+end
+arch roughwall_3_1
+x 8
+y 4
+end
+arch pstone_4
+x 8
+y 5
+end
+arch pstone_4
+x 8
+y 6
+end
+arch pstone_4
+x 8
+y 7
+end
+arch pstone_4
+x 8
+y 8
+end
+arch pstone_4
+x 8
+y 9
+end
+arch pstone_4
+x 8
+y 10
+end
+arch pstone_4
+x 8
+y 11
+end
+arch pstone_4
+x 8
+y 12
+end
+arch pstone_4
+x 8
+y 13
+end
+arch pstone_4
+x 8
+y 14
+end
+arch roughwall_2_1_2
+x 8
+y 15
+end
+arch roughwall_1_3
+x 9
+y 4
+end
+arch pstone_4
+x 9
+y 5
+end
+arch pstone_4
+x 9
+y 6
+end
+arch pstone_4
+x 9
+y 7
+end
+arch pstone_4
+x 9
+y 8
+end
+arch pstone_4
+x 9
+y 9
+end
+arch pstone_4
+x 9
+y 10
+end
+arch pstone_4
+x 9
+y 11
+end
+arch pstone_4
+x 9
+y 12
+end
+arch pstone_4
+x 9
+y 13
+end
+arch button_small
+weight 200000
+connected 40
+x 9
+y 13
+end
+arch pstone_4
+x 9
+y 14
+end
+arch roughwall_2_1_2
+x 9
+y 15
+end
+arch pstone_4
+x 10
+y 4
+end
+arch pstone_4
+x 10
+y 5
+end
+arch pstone_4
+x 10
+y 6
+end
+arch pstone_4
+x 10
+y 7
+end
+arch pstone_4
+x 10
+y 8
+end
+arch pstone_4
+x 10
+y 9
+end
+arch pstone_4
+x 10
+y 10
+end
+arch pstone_4
+x 10
+y 11
+end
+arch pstone_4
+x 10
+y 12
+end
+arch pstone_4
+x 10
+y 13
+end
+arch mover_7
+speed 5.0
+lifesave 1
+hp 1
+x 10
+y 13
+end
+arch imp
+name Spec
+title the Imp
+level 40
+exp 80000
+speed 1.0
+dam 40
+wc 20
+hp 1000
+maxhp 1000
+ac 15
+Con 5
+sp 50
+maxsp 50
+Pow 5
+path_attuned 2
+path_denied 260
+can_use_weapon 1
+can_use_bow 1
+can_use_armour 1
+can_use_ring 1
+can_use_wand 1
+can_use_rod 1
+can_use_scroll 1
+can_use_skill 1
+Wis 4
+resist_physical 95
+resist_magic 95
+resist_confusion 100
+resist_fear 100
+x 10
+y 13
+arch skill_stealing
+end
+arch skill_flame_touch
+end
+arch skill_clawing
+end
+arch glovesofsun
+name fiery gloves of the quick-handed
+msg
+These gloves, originally crafted by ancient dwarves of 
+Morgria, were enchanted to the forces of flame and 
+darkness by powerful demons of flame.
+endmsg
+value 9000
+material 264
+identified 1
+damned 1
+startequip 0
+resist_physical 2
+resist_fire 15
+resist_fear 50
+Dex 1
+stealth 1
+end
+arch ability_mass_confusion
+end
+arch ability_firespell
+end
+end
+arch pstone_4
+x 10
+y 14
+end
+arch roughwall_2_1_2
+x 10
+y 15
+end
+arch roughwall_1_1
+x 11
+end
+arch roughwall_2_1_1
+x 11
+y 1
+end
+arch roughwall_2_1_1
+x 11
+y 2
+end
+arch roughwall_2_1_1
+x 11
+y 3
+end
+arch roughwall_2_2_1
+x 11
+y 4
+end
+arch pstone_4
+x 11
+y 5
+end
+arch pstone_4
+x 11
+y 6
+end
+arch pstone_4
+x 11
+y 7
+end
+arch pstone_4
+x 11
+y 8
+end
+arch pstone_4
+x 11
+y 9
+end
+arch pstone_4
+x 11
+y 10
+end
+arch pstone_4
+x 11
+y 11
+end
+arch pstone_4
+x 11
+y 12
+end
+arch pstone_4
+x 11
+y 13
+end
+arch pstone_4
+x 11
+y 14
+end
+arch roughwall_2_1_2
+x 11
+y 15
+end
+arch roughwall_2_1_2
+x 12
+y 4
+end
+arch pstone_4
+x 12
+y 5
+end
+arch pstone_4
+x 12
+y 6
+end
+arch pstone_4
+x 12
+y 7
+end
+arch pstone_4
+x 12
+y 8
+end
+arch pstone_4
+x 12
+y 9
+end
+arch pstone_4
+x 12
+y 10
+end
+arch pstone_4
+x 12
+y 11
+end
+arch pstone_4
+x 12
+y 12
+end
+arch pstone_4
+x 12
+y 13
+end
+arch pstone_4
+x 12
+y 14
+end
+arch roughwall_2_1_2
+x 12
+y 15
+end
+arch roughwall_2_1_2
+x 13
+y 4
+end
+arch pstone_4
+x 13
+y 5
+end
+arch pstone_4
+x 13
+y 6
+end
+arch pstone_4
+x 13
+y 7
+end
+arch pstone_4
+x 13
+y 8
+end
+arch pstone_4
+x 13
+y 9
+end
+arch pstone_4
+x 13
+y 10
+end
+arch pstone_4
+x 13
+y 11
+end
+arch pstone_4
+x 13
+y 12
+end
+arch pstone_4
+x 13
+y 13
+end
+arch pstone_4
+x 13
+y 14
+end
+arch roughwall_2_1_2
+x 13
+y 15
+end
+arch roughwall_2_1_2
+x 14
+y 4
+end
+arch pstone_4
+x 14
+y 5
+end
+arch pstone_4
+x 14
+y 6
+end
+arch pstone_4
+x 14
+y 7
+end
+arch pstone_4
+x 14
+y 8
+end
+arch pstone_4
+x 14
+y 9
+end
+arch pstone_4
+x 14
+y 10
+end
+arch pstone_4
+x 14
+y 11
+end
+arch pstone_4
+x 14
+y 12
+end
+arch pstone_4
+x 14
+y 13
+end
+arch pstone_4
+x 14
+y 14
+end
+arch roughwall_2_1_2
+x 14
+y 15
+end
+arch roughwall_2_2_3
+x 15
+y 4
+end
+arch roughwall_2_1_1
+x 15
+y 5
+end
+arch roughwall_2_1_1
+x 15
+y 6
+end
+arch roughwall_2_1_1
+x 15
+y 7
+end
+arch roughwall_2_1_1
+x 15
+y 8
+end
+arch roughwall_2_1_1
+x 15
+y 9
+end
+arch roughwall_2_1_1
+x 15
+y 10
+end
+arch roughwall_2_1_1
+x 15
+y 11
+end
+arch roughwall_2_1_1
+x 15
+y 12
+end
+arch roughwall_2_1_1
+x 15
+y 13
+end
+arch roughwall_2_1_1
+x 15
+y 14
+end
+arch roughwall_2_2_4
+x 15
+y 15
+end

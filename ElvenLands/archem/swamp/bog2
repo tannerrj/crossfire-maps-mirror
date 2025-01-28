@@ -1,0 +1,1843 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Mon Jan 10 22:07:37 2000
+endmsg
+width 16
+height 16
+end
+arch swamp
+end
+arch biglake_nw
+end
+arch swamp
+y 1
+end
+arch biglake_w
+y 1
+end
+arch swamp
+y 2
+end
+arch biglake_w
+y 2
+end
+arch swamp
+y 3
+end
+arch biglake_ew
+y 3
+end
+arch swamp
+y 4
+end
+arch biglake_ew
+y 4
+end
+arch swamp
+y 5
+end
+arch biglake_w
+y 5
+end
+arch swamp
+y 6
+end
+arch biglake_w
+y 6
+end
+arch swamp
+y 7
+end
+arch biglake_w
+y 7
+end
+arch swamp
+y 8
+end
+arch biglake_ew
+y 8
+end
+arch swamp
+y 9
+end
+arch biglake_ew
+y 9
+end
+arch swamp
+y 10
+end
+arch biglake_ew
+y 10
+end
+arch swamp
+y 11
+end
+arch biglake_w
+y 11
+end
+arch swamp
+y 12
+end
+arch biglake_w
+y 12
+end
+arch swamp
+y 13
+end
+arch biglake_w
+y 13
+end
+arch swamp
+y 14
+end
+arch biglake_w
+y 14
+end
+arch swamp
+y 15
+end
+arch biglake_sw
+y 15
+end
+arch swamp
+x 1
+end
+arch biglake_n
+x 1
+end
+arch swamp
+x 1
+y 1
+end
+arch biglake_center
+x 1
+y 1
+end
+arch swamp
+x 1
+y 2
+end
+arch biglake_se
+x 1
+y 2
+end
+arch swamp
+x 1
+y 3
+end
+arch swamp
+x 1
+y 4
+end
+arch teleporter
+slaying /ElvenLands/archem/swamp/bog1
+msg
+The bog spits you out.
+endmsg
+hp 13
+sp 12
+x 1
+y 4
+invisible 1
+connected 1
+end
+arch magic_ear
+msg
+@match swallow me
+gulp *burp*
+endmsg
+x 1
+y 4
+connected 1
+end
+arch magic_mouth
+msg
+The bog requires a command.
+endmsg
+x 1
+y 4
+end
+arch swamp
+x 1
+y 5
+end
+arch biglake_n
+x 1
+y 5
+end
+arch swamp
+x 1
+y 6
+end
+arch biglake_e
+x 1
+y 6
+end
+arch swamp
+x 1
+y 7
+end
+arch biglake_se
+x 1
+y 7
+end
+arch swamp
+x 1
+y 8
+end
+arch slime
+x 1
+y 8
+end
+arch swamp
+x 1
+y 9
+end
+arch slime
+x 1
+y 9
+end
+arch swamp
+x 1
+y 10
+end
+arch slime
+x 1
+y 10
+end
+arch swamp
+x 1
+y 11
+end
+arch biglake_n
+x 1
+y 11
+end
+arch swamp
+x 1
+y 12
+end
+arch biglake_center
+x 1
+y 12
+end
+arch swamp
+x 1
+y 13
+end
+arch biglake_center
+x 1
+y 13
+end
+arch swamp
+x 1
+y 14
+end
+arch biglake_center
+x 1
+y 14
+end
+arch swamp
+x 1
+y 15
+end
+arch biglake_s
+x 1
+y 15
+end
+arch swamp
+x 2
+end
+arch biglake_n
+x 2
+end
+arch swamp
+x 2
+y 1
+end
+arch biglake_s
+x 2
+y 1
+end
+arch swamp
+x 2
+y 2
+end
+arch swamp
+x 2
+y 3
+end
+arch swamp
+x 2
+y 4
+end
+arch swamp
+x 2
+y 5
+end
+arch biglake_sn
+x 2
+y 5
+end
+arch swamp
+x 2
+y 6
+end
+arch slime
+x 2
+y 6
+end
+arch swamp
+x 2
+y 7
+end
+arch slime
+x 2
+y 7
+end
+arch swamp
+x 2
+y 8
+end
+arch slime
+x 2
+y 8
+end
+arch swamp
+x 2
+y 9
+end
+arch green_slime
+x 2
+y 9
+end
+arch swamp
+x 2
+y 10
+end
+arch slime
+x 2
+y 10
+end
+arch swamp
+x 2
+y 11
+end
+arch biglake_ne
+x 2
+y 11
+end
+arch swamp
+x 2
+y 12
+end
+arch biglake_center
+x 2
+y 12
+end
+arch swamp
+x 2
+y 13
+end
+arch biglake_center
+x 2
+y 13
+end
+arch swamp
+x 2
+y 14
+end
+arch biglake_center
+x 2
+y 14
+end
+arch swamp
+x 2
+y 15
+end
+arch biglake_s
+x 2
+y 15
+end
+arch swamp
+x 3
+end
+arch biglake_n
+x 3
+end
+arch swamp
+x 3
+y 1
+end
+arch biglake_s
+x 3
+y 1
+end
+arch swamp
+x 3
+y 2
+end
+arch swamp
+x 3
+y 3
+end
+arch swamp
+x 3
+y 4
+end
+arch biglake_new
+x 3
+y 4
+end
+arch swamp
+x 3
+y 5
+end
+arch biglake_se
+x 3
+y 5
+end
+arch swamp
+x 3
+y 6
+end
+arch swamp
+x 3
+y 7
+end
+arch swamp
+x 3
+y 8
+end
+arch slime
+x 3
+y 8
+end
+arch swamp
+x 3
+y 9
+end
+arch slime
+x 3
+y 9
+end
+arch swamp
+x 3
+y 10
+end
+arch slime
+x 3
+y 10
+end
+arch swamp
+x 3
+y 11
+end
+arch slime
+x 3
+y 11
+end
+arch swamp
+x 3
+y 12
+end
+arch biglake_n
+x 3
+y 12
+end
+arch swamp
+x 3
+y 13
+end
+arch biglake_center
+x 3
+y 13
+end
+arch swamp
+x 3
+y 14
+end
+arch biglake_center
+x 3
+y 14
+end
+arch swamp
+x 3
+y 15
+end
+arch biglake_s
+x 3
+y 15
+end
+arch swamp
+x 4
+end
+arch biglake_n
+x 4
+end
+arch swamp
+x 4
+y 1
+end
+arch biglake_s
+x 4
+y 1
+end
+arch swamp
+x 4
+y 2
+end
+arch swamp
+x 4
+y 3
+end
+arch swamp
+x 4
+y 4
+end
+arch swamp
+x 4
+y 5
+end
+arch swamp
+x 4
+y 6
+end
+arch swamp
+x 4
+y 7
+end
+arch swamp
+x 4
+y 8
+end
+arch para_mud
+x 4
+y 8
+end
+arch swamp
+x 4
+y 9
+end
+arch para_mud
+x 4
+y 9
+end
+arch swamp
+x 4
+y 10
+end
+arch slime
+x 4
+y 10
+end
+arch swamp
+x 4
+y 11
+end
+arch slime
+x 4
+y 11
+end
+arch swamp
+x 4
+y 12
+end
+arch biglake_ne
+x 4
+y 12
+end
+arch swamp
+x 4
+y 13
+end
+arch biglake_center
+x 4
+y 13
+end
+arch swamp
+x 4
+y 14
+end
+arch biglake_center
+x 4
+y 14
+end
+arch swamp
+x 4
+y 15
+end
+arch biglake_s
+x 4
+y 15
+end
+arch swamp
+x 5
+end
+arch biglake_n
+x 5
+end
+arch swamp
+x 5
+y 1
+end
+arch biglake_s
+x 5
+y 1
+end
+arch swamp
+x 5
+y 2
+end
+arch swamp
+x 5
+y 3
+end
+arch swamp
+x 5
+y 4
+end
+arch biglake_nse
+x 5
+y 4
+end
+arch swamp
+x 5
+y 5
+end
+arch swamp
+x 5
+y 6
+end
+arch slime
+x 5
+y 6
+end
+arch swamp
+x 5
+y 7
+end
+arch slime
+x 5
+y 7
+end
+arch swamp
+x 5
+y 8
+end
+arch swamp
+x 5
+y 9
+end
+arch swamp
+x 5
+y 10
+end
+arch slime
+x 5
+y 10
+end
+arch swamp
+x 5
+y 11
+end
+arch slime
+x 5
+y 11
+end
+arch swamp
+x 5
+y 12
+end
+arch swamp
+x 5
+y 13
+end
+arch biglake_n
+x 5
+y 13
+end
+arch swamp
+x 5
+y 14
+end
+arch biglake_center
+x 5
+y 14
+end
+arch swamp
+x 5
+y 15
+end
+arch biglake_s
+x 5
+y 15
+end
+arch swamp
+x 6
+end
+arch biglake_n
+x 6
+end
+arch swamp
+x 6
+y 1
+end
+arch biglake_center
+x 6
+y 1
+end
+arch swamp
+x 6
+y 2
+end
+arch biglake_ew
+x 6
+y 2
+end
+arch swamp
+x 6
+y 3
+end
+arch biglake_ew
+x 6
+y 3
+end
+arch swamp
+x 6
+y 4
+end
+arch biglake_se
+x 6
+y 4
+end
+arch swamp
+x 6
+y 5
+end
+arch para_mud
+x 6
+y 5
+end
+arch swamp
+x 6
+y 6
+end
+arch slime
+x 6
+y 6
+end
+arch swamp
+x 6
+y 7
+end
+arch slime
+x 6
+y 7
+end
+arch swamp
+x 6
+y 8
+end
+arch swamp
+x 6
+y 9
+end
+arch swamp
+x 6
+y 10
+end
+arch swamp
+x 6
+y 11
+end
+arch slime
+x 6
+y 11
+end
+arch swamp
+x 6
+y 12
+end
+arch slime
+x 6
+y 12
+end
+arch swamp
+x 6
+y 13
+end
+arch biglake_n
+x 6
+y 13
+end
+arch swamp
+x 6
+y 14
+end
+arch biglake_center
+x 6
+y 14
+end
+arch swamp
+x 6
+y 15
+end
+arch biglake_s
+x 6
+y 15
+end
+arch swamp
+x 7
+end
+arch biglake_n
+x 7
+end
+arch swamp
+x 7
+y 1
+end
+arch biglake_se
+x 7
+y 1
+end
+arch swamp
+x 7
+y 2
+end
+arch slime
+x 7
+y 2
+end
+arch swamp
+x 7
+y 3
+end
+arch slime
+x 7
+y 3
+end
+arch swamp
+x 7
+y 4
+end
+arch swamp
+x 7
+y 5
+end
+arch para_mud
+x 7
+y 5
+end
+arch swamp
+x 7
+y 6
+end
+arch slime
+x 7
+y 6
+end
+arch swamp
+x 7
+y 7
+end
+arch slime
+x 7
+y 7
+end
+arch swamp
+x 7
+y 8
+end
+arch slime
+x 7
+y 8
+end
+arch swamp
+x 7
+y 9
+end
+arch swamp
+x 7
+y 10
+end
+arch swamp
+x 7
+y 11
+end
+arch swamp
+x 7
+y 12
+end
+arch slime
+x 7
+y 12
+end
+arch swamp
+x 7
+y 13
+end
+arch biglake_n
+x 7
+y 13
+end
+arch swamp
+x 7
+y 14
+end
+arch biglake_center
+x 7
+y 14
+end
+arch swamp
+x 7
+y 15
+end
+arch biglake_s
+x 7
+y 15
+end
+arch swamp
+x 8
+end
+arch biglake_sn
+x 8
+end
+arch swamp
+x 8
+y 1
+end
+arch acid_pool
+x 8
+y 1
+end
+arch swamp
+x 8
+y 2
+end
+arch slime
+x 8
+y 2
+end
+arch swamp
+x 8
+y 3
+end
+arch slime
+x 8
+y 3
+end
+arch swamp
+x 8
+y 4
+end
+arch swamp
+x 8
+y 5
+end
+arch swamp
+x 8
+y 6
+end
+arch swamp
+x 8
+y 7
+end
+arch slime
+x 8
+y 7
+end
+arch swamp
+x 8
+y 8
+end
+arch slime
+x 8
+y 8
+end
+arch swamp
+x 8
+y 9
+end
+arch slime
+x 8
+y 9
+end
+arch swamp
+x 8
+y 10
+end
+arch swamp
+x 8
+y 11
+end
+arch para_mud
+x 8
+y 11
+end
+arch swamp
+x 8
+y 12
+end
+arch slime
+x 8
+y 12
+end
+arch swamp
+x 8
+y 13
+end
+arch biglake_ne
+x 8
+y 13
+end
+arch swamp
+x 8
+y 14
+end
+arch biglake_center
+x 8
+y 14
+end
+arch swamp
+x 8
+y 15
+end
+arch biglake_s
+x 8
+y 15
+end
+arch swamp
+x 9
+end
+arch biglake_sn
+x 9
+end
+arch swamp
+x 9
+y 1
+end
+arch green_slime
+x 9
+y 1
+end
+arch swamp
+x 9
+y 2
+end
+arch slime
+x 9
+y 2
+end
+arch swamp
+x 9
+y 3
+end
+arch slime
+x 9
+y 3
+end
+arch swamp
+x 9
+y 4
+end
+arch slime
+x 9
+y 4
+end
+arch swamp
+x 9
+y 5
+end
+arch slime
+x 9
+y 5
+end
+arch swamp
+x 9
+y 6
+end
+arch swamp
+x 9
+y 7
+end
+arch swamp
+x 9
+y 8
+end
+arch slime
+x 9
+y 8
+end
+arch swamp
+x 9
+y 9
+end
+arch slime
+x 9
+y 9
+end
+arch swamp
+x 9
+y 10
+end
+arch slime
+x 9
+y 10
+end
+arch swamp
+x 9
+y 11
+end
+arch swamp
+x 9
+y 12
+end
+arch slime
+x 9
+y 12
+end
+arch swamp
+x 9
+y 13
+end
+arch green_slime
+x 9
+y 13
+end
+arch swamp
+x 9
+y 14
+end
+arch biglake_n
+x 9
+y 14
+end
+arch swamp
+x 9
+y 15
+end
+arch biglake_s
+x 9
+y 15
+end
+arch swamp
+x 10
+end
+arch biglake_n
+x 10
+end
+arch swamp
+x 10
+y 1
+end
+arch biglake_sw
+x 10
+y 1
+end
+arch swamp
+x 10
+y 2
+end
+arch swamp
+x 10
+y 3
+end
+arch slime
+x 10
+y 3
+end
+arch swamp
+x 10
+y 4
+end
+arch slime
+x 10
+y 4
+end
+arch swamp
+x 10
+y 5
+end
+arch slime
+x 10
+y 5
+end
+arch swamp
+x 10
+y 6
+end
+arch slime
+x 10
+y 6
+end
+arch swamp
+x 10
+y 7
+end
+arch swamp
+x 10
+y 8
+end
+arch swamp
+x 10
+y 9
+end
+arch slime
+x 10
+y 9
+end
+arch swamp
+x 10
+y 10
+end
+arch slime
+x 10
+y 10
+end
+arch swamp
+x 10
+y 11
+end
+arch swamp
+x 10
+y 12
+end
+arch slime
+x 10
+y 12
+end
+arch swamp
+x 10
+y 13
+end
+arch slime
+x 10
+y 13
+end
+arch swamp
+x 10
+y 14
+end
+arch biglake_n
+x 10
+y 14
+end
+arch swamp
+x 10
+y 15
+end
+arch biglake_s
+x 10
+y 15
+end
+arch swamp
+x 11
+end
+arch biglake_n
+x 11
+end
+arch swamp
+x 11
+y 1
+end
+arch biglake_center
+x 11
+y 1
+end
+arch swamp
+x 11
+y 2
+end
+arch biglake_sw
+x 11
+y 2
+end
+arch swamp
+x 11
+y 3
+end
+arch slime
+x 11
+y 3
+end
+arch swamp
+x 11
+y 4
+end
+arch green_slime
+x 11
+y 4
+end
+arch swamp
+x 11
+y 5
+end
+arch slime
+x 11
+y 5
+end
+arch swamp
+x 11
+y 6
+end
+arch slime
+x 11
+y 6
+end
+arch swamp
+x 11
+y 7
+end
+arch swamp
+x 11
+y 8
+end
+arch para_water
+x 11
+y 8
+end
+arch swamp
+x 11
+y 9
+end
+arch para_water
+x 11
+y 9
+end
+arch swamp
+x 11
+y 10
+end
+arch swamp
+x 11
+y 11
+end
+arch slime
+x 11
+y 11
+end
+arch swamp
+x 11
+y 12
+end
+arch slime
+x 11
+y 12
+end
+arch swamp
+x 11
+y 13
+end
+arch acid_pool
+x 11
+y 13
+end
+arch swamp
+x 11
+y 14
+end
+arch biglake_n
+x 11
+y 14
+end
+arch swamp
+x 11
+y 15
+end
+arch biglake_s
+x 11
+y 15
+end
+arch swamp
+x 12
+end
+arch biglake_n
+x 12
+end
+arch swamp
+x 12
+y 1
+end
+arch biglake_center
+x 12
+y 1
+end
+arch swamp
+x 12
+y 2
+end
+arch biglake_s
+x 12
+y 2
+end
+arch swamp
+x 12
+y 3
+end
+arch para_mud
+x 12
+y 3
+end
+arch swamp
+x 12
+y 4
+end
+arch slime
+x 12
+y 4
+end
+arch swamp
+x 12
+y 5
+end
+arch slime
+x 12
+y 5
+end
+arch swamp
+x 12
+y 6
+end
+arch slime
+x 12
+y 6
+end
+arch swamp
+x 12
+y 7
+end
+arch swamp
+x 12
+y 8
+end
+arch swamp
+x 12
+y 9
+end
+arch para_water
+x 12
+y 9
+end
+arch swamp
+x 12
+y 10
+end
+arch swamp
+x 12
+y 11
+end
+arch swamp
+x 12
+y 12
+end
+arch swamp
+x 12
+y 13
+end
+arch biglake_nw
+x 12
+y 13
+end
+arch swamp
+x 12
+y 14
+end
+arch biglake_center
+x 12
+y 14
+end
+arch swamp
+x 12
+y 15
+end
+arch biglake_s
+x 12
+y 15
+end
+arch swamp
+x 13
+end
+arch biglake_n
+x 13
+end
+arch swamp
+x 13
+y 1
+end
+arch biglake_center
+x 13
+y 1
+end
+arch swamp
+x 13
+y 2
+end
+arch biglake_center
+x 13
+y 2
+end
+arch swamp
+x 13
+y 3
+end
+arch biglake_w
+x 13
+y 3
+end
+arch swamp
+x 13
+y 4
+end
+arch biglake_sw
+x 13
+y 4
+end
+arch swamp
+x 13
+y 5
+end
+arch slime
+x 13
+y 5
+end
+arch swamp
+x 13
+y 6
+end
+arch slime
+x 13
+y 6
+end
+arch swamp
+x 13
+y 7
+end
+arch para_mud
+x 13
+y 7
+end
+arch swamp
+x 13
+y 8
+end
+arch para_mud
+x 13
+y 8
+end
+arch swamp
+x 13
+y 9
+end
+arch swamp
+x 13
+y 10
+end
+arch swamp
+x 13
+y 11
+end
+arch biglake_nw
+x 13
+y 11
+end
+arch swamp
+x 13
+y 12
+end
+arch biglake_w
+x 13
+y 12
+end
+arch swamp
+x 13
+y 13
+end
+arch biglake_center
+x 13
+y 13
+end
+arch swamp
+x 13
+y 14
+end
+arch biglake_center
+x 13
+y 14
+end
+arch swamp
+x 13
+y 15
+end
+arch biglake_s
+x 13
+y 15
+end
+arch swamp
+x 14
+end
+arch biglake_n
+x 14
+end
+arch swamp
+x 14
+y 1
+end
+arch biglake_center
+x 14
+y 1
+end
+arch swamp
+x 14
+y 2
+end
+arch biglake_center
+x 14
+y 2
+end
+arch swamp
+x 14
+y 3
+end
+arch biglake_center
+x 14
+y 3
+end
+arch swamp
+x 14
+y 4
+end
+arch biglake_center
+x 14
+y 4
+end
+arch swamp
+x 14
+y 5
+end
+arch para_mud
+x 14
+y 5
+end
+arch swamp
+x 14
+y 6
+end
+arch biglake_w
+x 14
+y 6
+end
+arch swamp
+x 14
+y 7
+end
+arch biglake_sw
+x 14
+y 7
+end
+arch swamp
+x 14
+y 8
+end
+arch swamp
+x 14
+y 9
+end
+arch swamp
+x 14
+y 10
+end
+arch biglake_nw
+x 14
+y 10
+end
+arch swamp
+x 14
+y 11
+end
+arch biglake_center
+x 14
+y 11
+end
+arch swamp
+x 14
+y 12
+end
+arch biglake_center
+x 14
+y 12
+end
+arch swamp
+x 14
+y 13
+end
+arch biglake_center
+x 14
+y 13
+end
+arch swamp
+x 14
+y 14
+end
+arch biglake_center
+x 14
+y 14
+end
+arch swamp
+x 14
+y 15
+end
+arch biglake_s
+x 14
+y 15
+end
+arch swamp
+x 15
+end
+arch biglake_ne
+x 15
+end
+arch swamp
+x 15
+y 1
+end
+arch biglake_e
+x 15
+y 1
+end
+arch swamp
+x 15
+y 2
+end
+arch biglake_e
+x 15
+y 2
+end
+arch swamp
+x 15
+y 3
+end
+arch biglake_e
+x 15
+y 3
+end
+arch swamp
+x 15
+y 4
+end
+arch biglake_e
+x 15
+y 4
+end
+arch swamp
+x 15
+y 5
+end
+arch biglake_e
+x 15
+y 5
+end
+arch swamp
+x 15
+y 6
+end
+arch biglake_e
+x 15
+y 6
+end
+arch swamp
+x 15
+y 7
+end
+arch biglake_e
+x 15
+y 7
+end
+arch swamp
+x 15
+y 8
+end
+arch bridge_we
+x 15
+y 8
+end
+arch invis_exit
+slaying /ElvenLands/archem/land
+hp 19
+sp 34
+x 15
+y 8
+end
+arch swamp
+x 15
+y 9
+end
+arch bridge_we
+x 15
+y 9
+end
+arch invis_exit
+slaying /ElvenLands/archem/land
+hp 19
+sp 34
+x 15
+y 9
+end
+arch swamp
+x 15
+y 10
+end
+arch biglake_e
+x 15
+y 10
+end
+arch swamp
+x 15
+y 11
+end
+arch biglake_e
+x 15
+y 11
+end
+arch swamp
+x 15
+y 12
+end
+arch biglake_e
+x 15
+y 12
+end
+arch swamp
+x 15
+y 13
+end
+arch biglake_e
+x 15
+y 13
+end
+arch swamp
+x 15
+y 14
+end
+arch biglake_e
+x 15
+y 14
+end
+arch swamp
+x 15
+y 15
+end
+arch biglake_se
+x 15
+y 15
+end
+arch cobra
+x 6
+y 8
+end
+arch cobra
+x 9
+y 6
+end

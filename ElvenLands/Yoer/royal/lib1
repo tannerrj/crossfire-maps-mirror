@@ -1,0 +1,3310 @@
+arch map
+name lib1
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Mar 30 22:55:18 2000
+endmsg
+width 25
+height 21
+end
+arch flagstone
+end
+arch wall_2_2_2
+end
+arch flagstone
+y 1
+end
+arch wall_2_1_1
+y 1
+end
+arch flagstone
+y 2
+end
+arch wall_2_1_1
+y 2
+end
+arch flagstone
+y 3
+end
+arch wall_2_1_1
+y 3
+end
+arch flagstone
+y 4
+end
+arch wall_2_1_1
+y 4
+end
+arch flagstone
+y 5
+end
+arch wall_2_1_1
+y 5
+end
+arch flagstone
+y 6
+end
+arch wall_2_1_1
+y 6
+end
+arch flagstone
+y 7
+end
+arch wall_2_1_1
+y 7
+end
+arch flagstone
+y 8
+end
+arch wall_2_1_1
+y 8
+end
+arch flagstone
+y 9
+end
+arch wall_2_1_1
+y 9
+end
+arch flagstone
+y 10
+end
+arch wall_2_1_1
+y 10
+end
+arch flagstone
+y 11
+end
+arch wall_2_1_1
+y 11
+end
+arch flagstone
+y 12
+end
+arch wall_2_1_1
+y 12
+end
+arch flagstone
+y 13
+end
+arch wall_2_1_1
+y 13
+end
+arch flagstone
+y 14
+end
+arch wall_2_1_1
+y 14
+end
+arch flagstone
+y 15
+end
+arch wall_2_1_1
+y 15
+end
+arch flagstone
+y 16
+end
+arch wall_2_1_1
+y 16
+end
+arch flagstone
+y 17
+end
+arch wall_2_1_1
+y 17
+end
+arch flagstone
+y 18
+end
+arch wall_2_1_1
+y 18
+end
+arch flagstone
+y 19
+end
+arch wall_2_1_1
+y 19
+end
+arch flagstone
+y 20
+end
+arch wall_2_2_1
+y 20
+end
+arch flagstone
+x 1
+end
+arch wall_2_1_2
+x 1
+end
+arch marble
+x 1
+y 1
+end
+arch bookshelf
+x 1
+y 1
+end
+arch marble
+x 1
+y 2
+end
+arch marble
+x 1
+y 3
+end
+arch marble
+x 1
+y 4
+end
+arch marble
+x 1
+y 5
+end
+arch marble
+x 1
+y 6
+end
+arch marble
+x 1
+y 7
+end
+arch marble
+x 1
+y 8
+end
+arch marble
+x 1
+y 9
+end
+arch marble
+x 1
+y 10
+end
+arch marble
+x 1
+y 11
+end
+arch marble
+x 1
+y 12
+end
+arch marble
+x 1
+y 13
+end
+arch marble
+x 1
+y 14
+end
+arch marble
+x 1
+y 15
+end
+arch marble
+x 1
+y 16
+end
+arch chair_2.4
+x 1
+y 16
+end
+arch marble
+x 1
+y 17
+end
+arch marble
+x 1
+y 18
+end
+arch marble
+x 1
+y 19
+end
+arch scroll
+x 1
+y 19
+end
+arch flagstone
+x 1
+y 20
+end
+arch wall_2_1_2
+x 1
+y 20
+end
+arch flagstone
+x 2
+end
+arch wall_2_1_2
+x 2
+end
+arch marble
+x 2
+y 1
+end
+arch bookshelf
+x 2
+y 1
+end
+arch marble
+x 2
+y 2
+end
+arch marble
+x 2
+y 3
+end
+arch marble
+x 2
+y 4
+end
+arch marble
+x 2
+y 5
+end
+arch marble
+x 2
+y 6
+end
+arch marble
+x 2
+y 7
+end
+arch tome
+name Flora's Domain
+msg
+Most of Flora's Domain is the large
+jungle to the south of Yoer's kingdom.
+Flora used to be an ally of Yoer's
+kingdom before King Yoer disapeared.
+There are two cities in Flora's
+Domain,the City of the White Rose and
+Flora City. The city of the White Rose
+is said to have a magical white
+rose,which contributes to the city's
+prosperity. Flora City is Flora's
+capital.
+There is also a large cave in the
+southern part of the jungle. It is
+called the Cave of Vines. Little else
+is known about Flora's Domain.
+endmsg
+x 2
+y 7
+end
+arch marble
+x 2
+y 8
+end
+arch scroll_2
+x 2
+y 8
+end
+arch marble
+x 2
+y 9
+end
+arch quarto
+x 2
+y 9
+end
+arch marble
+x 2
+y 10
+end
+arch book_read
+x 2
+y 10
+end
+arch marble
+x 2
+y 11
+end
+arch scroll
+x 2
+y 11
+end
+arch marble
+x 2
+y 12
+end
+arch quarto
+x 2
+y 12
+end
+arch marble
+x 2
+y 13
+end
+arch marble
+x 2
+y 14
+end
+arch marble
+x 2
+y 15
+end
+arch marble
+x 2
+y 16
+end
+arch table_4
+x 2
+y 16
+end
+arch marble
+x 2
+y 17
+end
+arch marble
+x 2
+y 18
+end
+arch marble
+x 2
+y 19
+end
+arch book_clasp
+name Sting
+msg
+The magical troll slaying sword was
+lost in a dark forest filled with
+savage gnarg worshipers.
+endmsg
+no_pick 1
+x 2
+y 19
+end
+arch flagstone
+x 2
+y 20
+end
+arch wall_2_1_2
+x 2
+y 20
+end
+arch flagstone
+x 3
+end
+arch wall_2_1_2
+x 3
+end
+arch marble
+x 3
+y 1
+end
+arch bookshelf
+x 3
+y 1
+end
+arch marble
+x 3
+y 2
+end
+arch marble
+x 3
+y 3
+end
+arch marble
+x 3
+y 4
+end
+arch marble
+x 3
+y 5
+end
+arch marble
+x 3
+y 6
+end
+arch marble
+x 3
+y 7
+end
+arch book_clasp
+x 3
+y 7
+end
+arch marble
+x 3
+y 8
+end
+arch book_read
+x 3
+y 8
+end
+arch marble
+x 3
+y 9
+end
+arch scroll
+x 3
+y 9
+end
+arch marble
+x 3
+y 10
+end
+arch book_clasp
+x 3
+y 10
+end
+arch marble
+x 3
+y 11
+end
+arch tome
+x 3
+y 11
+end
+arch marble
+x 3
+y 12
+end
+arch scroll_2
+x 3
+y 12
+end
+arch marble
+x 3
+y 13
+end
+arch marble
+x 3
+y 14
+end
+arch marble
+x 3
+y 15
+end
+arch marble
+x 3
+y 16
+end
+arch marble
+x 3
+y 17
+end
+arch marble
+x 3
+y 18
+end
+arch marble
+x 3
+y 19
+end
+arch scroll
+x 3
+y 19
+end
+arch flagstone
+x 3
+y 20
+end
+arch wall_2_1_2
+x 3
+y 20
+end
+arch flagstone
+x 4
+end
+arch wall_2_1_2
+x 4
+end
+arch marble
+x 4
+y 1
+end
+arch bookshelf
+x 4
+y 1
+end
+arch marble
+x 4
+y 2
+end
+arch marble
+x 4
+y 3
+end
+arch marble
+x 4
+y 4
+end
+arch marble
+x 4
+y 5
+end
+arch marble
+x 4
+y 6
+end
+arch marble
+x 4
+y 7
+end
+arch marble
+x 4
+y 8
+end
+arch marble
+x 4
+y 9
+end
+arch marble
+x 4
+y 10
+end
+arch marble
+x 4
+y 11
+end
+arch marble
+x 4
+y 12
+end
+arch marble
+x 4
+y 13
+end
+arch marble
+x 4
+y 14
+end
+arch marble
+x 4
+y 15
+end
+arch marble
+x 4
+y 16
+end
+arch marble
+x 4
+y 17
+end
+arch marble
+x 4
+y 18
+end
+arch marble
+x 4
+y 19
+end
+arch scroll
+x 4
+y 19
+end
+arch flagstone
+x 4
+y 20
+end
+arch wall_2_1_2
+x 4
+y 20
+end
+arch flagstone
+x 5
+end
+arch wall_2_1_2
+x 5
+end
+arch marble
+x 5
+y 1
+end
+arch bookshelf
+x 5
+y 1
+end
+arch marble
+x 5
+y 2
+end
+arch marble
+x 5
+y 3
+end
+arch marble
+x 5
+y 4
+end
+arch flagstone
+x 5
+y 5
+end
+arch statue
+x 5
+y 5
+end
+arch flagstone
+x 5
+y 6
+end
+arch wall_2_2_2
+x 5
+y 6
+end
+arch flagstone
+x 5
+y 7
+end
+arch wall_2_1_1
+x 5
+y 7
+end
+arch flagstone
+x 5
+y 8
+end
+arch wall_2_1_1
+x 5
+y 8
+end
+arch flagstone
+x 5
+y 9
+end
+arch wall_2_1_1
+x 5
+y 9
+end
+arch flagstone
+x 5
+y 10
+end
+arch wall_2_1_1
+x 5
+y 10
+end
+arch flagstone
+x 5
+y 11
+end
+arch wall_2_1_1
+x 5
+y 11
+end
+arch flagstone
+x 5
+y 12
+end
+arch wall_2_1_1
+x 5
+y 12
+end
+arch flagstone
+x 5
+y 13
+end
+arch wall_1_2
+x 5
+y 13
+end
+arch marble
+x 5
+y 14
+end
+arch knight
+x 5
+y 14
+end
+arch marble
+x 5
+y 15
+end
+arch marble
+x 5
+y 16
+end
+arch marble
+x 5
+y 17
+end
+arch marble
+x 5
+y 18
+end
+arch marble
+x 5
+y 19
+end
+arch scroll
+x 5
+y 19
+end
+arch flagstone
+x 5
+y 20
+end
+arch wall_2_1_2
+x 5
+y 20
+end
+arch flagstone
+x 6
+end
+arch wall_2_1_2
+x 6
+end
+arch marble
+x 6
+y 1
+end
+arch bookshelf
+x 6
+y 1
+end
+arch marble
+x 6
+y 2
+end
+arch marble
+x 6
+y 3
+end
+arch marble
+x 6
+y 4
+end
+arch marble
+x 6
+y 5
+end
+arch random_reading
+slaying library
+level 6
+no_pick 1
+x 6
+y 5
+end
+arch flagstone
+x 6
+y 6
+end
+arch wall_2_1_2
+x 6
+y 6
+end
+arch marble
+x 6
+y 7
+end
+arch statue2
+x 6
+y 7
+end
+arch marble
+x 6
+y 8
+end
+arch book_read
+x 6
+y 8
+end
+arch marble
+x 6
+y 9
+end
+arch tome
+name Darkland:volume 2
+msg
+To the southwest are two goblin ruled
+cities,Glovarit and Rithar. The two
+cities used to war with each other,but
+they are now at peace. They are known
+for capturing and making slaves of
+people.
+continued in volume 3
+endmsg
+no_pick 1
+x 6
+y 9
+end
+arch marble
+x 6
+y 10
+end
+arch book_clasp
+x 6
+y 10
+end
+arch marble
+x 6
+y 11
+end
+arch marble
+x 6
+y 12
+end
+arch marble
+x 6
+y 13
+end
+arch marble
+x 6
+y 14
+end
+arch marble
+x 6
+y 15
+end
+arch marble
+x 6
+y 16
+end
+arch marble
+x 6
+y 17
+end
+arch marble
+x 6
+y 18
+end
+arch marble
+x 6
+y 19
+end
+arch tome
+name Darkland:volume 3
+msg
+To the north of Glovarit and Rithar is
+Lavaland. Lavaland is a hot,fiery land
+filled with lava and volcanos. Rumor
+has it that a important city lies in
+Lavaland.
+Southeast in darkland is the Gnomish
+village. To the North is a dark
+forest filled with savage trolls and
+orges. Most of the denizens of darkland
+worship evil gods such as
+Ruggilly,Devourers,and Gnarg.
+End..
+endmsg
+no_pick 1
+x 6
+y 19
+end
+arch flagstone
+x 6
+y 20
+end
+arch wall_2_1_2
+x 6
+y 20
+end
+arch flagstone
+x 7
+end
+arch wall_2_1_2
+x 7
+end
+arch marble
+x 7
+y 1
+end
+arch bookshelf
+x 7
+y 1
+end
+arch marble
+x 7
+y 2
+end
+arch marble
+x 7
+y 3
+end
+arch marble
+x 7
+y 4
+end
+arch marble
+x 7
+y 5
+end
+arch random_reading
+name mon_reading
+slaying library
+sp 1
+level 5
+no_pick 1
+x 7
+y 5
+end
+arch flagstone
+x 7
+y 6
+end
+arch wall_2_1_2
+x 7
+y 6
+end
+arch marble
+x 7
+y 7
+end
+arch bookshelf
+x 7
+y 7
+end
+arch marble
+x 7
+y 8
+end
+arch marble
+x 7
+y 9
+end
+arch marble
+x 7
+y 10
+end
+arch marble
+x 7
+y 11
+end
+arch marble
+x 7
+y 12
+end
+arch marble
+x 7
+y 13
+end
+arch marble
+x 7
+y 14
+end
+arch marble
+x 7
+y 15
+end
+arch marble
+x 7
+y 16
+end
+arch marble
+x 7
+y 17
+end
+arch marble
+x 7
+y 18
+end
+arch marble
+x 7
+y 19
+end
+arch scroll
+x 7
+y 19
+end
+arch flagstone
+x 7
+y 20
+end
+arch wall_2_1_2
+x 7
+y 20
+end
+arch flagstone
+x 8
+end
+arch wall_2_1_2
+x 8
+end
+arch marble
+x 8
+y 1
+end
+arch bookshelf
+x 8
+y 1
+end
+arch marble
+x 8
+y 2
+end
+arch marble
+x 8
+y 3
+end
+arch marble
+x 8
+y 4
+end
+arch marble
+x 8
+y 5
+end
+arch random_reading
+name mon_reading
+slaying library
+sp 1
+level 5
+no_pick 1
+x 8
+y 5
+end
+arch flagstone
+x 8
+y 6
+end
+arch wall_2_1_2
+x 8
+y 6
+end
+arch marble
+x 8
+y 7
+end
+arch bookshelf
+x 8
+y 7
+end
+arch marble
+x 8
+y 8
+end
+arch marble
+x 8
+y 9
+end
+arch marble
+x 8
+y 10
+end
+arch chair_2.4
+x 8
+y 10
+end
+arch marble
+x 8
+y 11
+end
+arch marble
+x 8
+y 12
+end
+arch flagstone
+x 8
+y 13
+end
+arch wall_2_2_2
+x 8
+y 13
+end
+arch flagstone
+x 8
+y 14
+end
+arch wall_2_1_1
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch wall_2_1_1
+x 8
+y 15
+end
+arch flagstone
+x 8
+y 16
+end
+arch wall_1_2
+x 8
+y 16
+end
+arch marble
+x 8
+y 17
+end
+arch flagstone
+x 8
+y 18
+end
+arch wall_1_1
+x 8
+y 18
+end
+arch flagstone
+x 8
+y 19
+end
+arch wall_2_1_1
+x 8
+y 19
+end
+arch flagstone
+x 8
+y 20
+end
+arch wall_3_1
+x 8
+y 20
+end
+arch flagstone
+x 9
+end
+arch wall_2_1_2
+x 9
+end
+arch marble
+x 9
+y 1
+end
+arch bookshelf
+x 9
+y 1
+end
+arch marble
+x 9
+y 2
+end
+arch marble
+x 9
+y 3
+end
+arch marble
+x 9
+y 4
+end
+arch marble
+x 9
+y 5
+end
+arch random_reading
+name mon_reading
+slaying library
+sp 1
+level 5
+no_pick 1
+x 9
+y 5
+end
+arch flagstone
+x 9
+y 6
+end
+arch wall_2_1_2
+x 9
+y 6
+end
+arch marble
+x 9
+y 7
+end
+arch bookshelf
+x 9
+y 7
+end
+arch marble
+x 9
+y 8
+end
+arch marble
+x 9
+y 9
+end
+arch chair_2.1
+x 9
+y 9
+end
+arch marble
+x 9
+y 10
+end
+arch table_4
+x 9
+y 10
+end
+arch marble
+x 9
+y 11
+end
+arch chair_2.3
+x 9
+y 11
+end
+arch marble
+x 9
+y 12
+end
+arch flagstone
+x 9
+y 13
+end
+arch wall_2_1_2
+x 9
+y 13
+end
+arch marble
+x 9
+y 14
+end
+arch bookshelf
+x 9
+y 14
+end
+arch marble
+x 9
+y 15
+end
+arch marble
+x 9
+y 16
+end
+arch knight
+x 9
+y 16
+end
+arch marble
+x 9
+y 17
+end
+arch marble
+x 9
+y 18
+end
+arch knight
+x 9
+y 18
+end
+arch flagstone
+x 9
+y 19
+end
+arch statue
+x 9
+y 19
+end
+arch flagstone
+x 9
+y 20
+end
+arch wall_2_1_2
+x 9
+y 20
+end
+arch flagstone
+x 10
+end
+arch wall_2_1_2
+x 10
+end
+arch marble
+x 10
+y 1
+end
+arch bookshelf
+x 10
+y 1
+end
+arch marble
+x 10
+y 2
+end
+arch marble
+x 10
+y 3
+end
+arch marble
+x 10
+y 4
+end
+arch marble
+x 10
+y 5
+end
+arch random_reading
+name spell_reading
+slaying library
+sp 3
+level 5
+no_pick 1
+x 10
+y 5
+end
+arch flagstone
+x 10
+y 6
+end
+arch wall_2_1_2
+x 10
+y 6
+end
+arch marble
+x 10
+y 7
+end
+arch bookshelf
+x 10
+y 7
+end
+arch marble
+x 10
+y 8
+end
+arch marble
+x 10
+y 9
+end
+arch marble
+x 10
+y 10
+end
+arch chair_2.2
+x 10
+y 10
+end
+arch marble
+x 10
+y 11
+end
+arch marble
+x 10
+y 12
+end
+arch flagstone
+x 10
+y 13
+end
+arch wall_2_1_2
+x 10
+y 13
+end
+arch marble
+x 10
+y 14
+end
+arch bookshelf
+x 10
+y 14
+end
+arch marble
+x 10
+y 15
+end
+arch marble
+x 10
+y 16
+end
+arch marble
+x 10
+y 17
+end
+arch marble
+x 10
+y 18
+end
+arch marble
+x 10
+y 19
+end
+arch flagstone
+x 10
+y 20
+end
+arch wall_2_1_2
+x 10
+y 20
+end
+arch flagstone
+x 11
+end
+arch wall_2_1_2
+x 11
+end
+arch marble
+x 11
+y 1
+end
+arch bookshelf
+x 11
+y 1
+end
+arch marble
+x 11
+y 2
+end
+arch marble
+x 11
+y 3
+end
+arch stair_3_up
+slaying /ElvenLands/Yoer/royal/lib2
+hp 1
+sp 14
+x 11
+y 3
+end
+arch marble
+x 11
+y 4
+end
+arch marble
+x 11
+y 5
+end
+arch random_reading
+name spell_reading
+slaying library
+sp 3
+level 5
+no_pick 1
+x 11
+y 5
+end
+arch flagstone
+x 11
+y 6
+end
+arch wall_2_1_2
+x 11
+y 6
+end
+arch marble
+x 11
+y 7
+end
+arch bookshelf
+x 11
+y 7
+end
+arch marble
+x 11
+y 8
+end
+arch marble
+x 11
+y 9
+end
+arch marble
+x 11
+y 10
+end
+arch statue2
+x 11
+y 10
+end
+arch marble
+x 11
+y 11
+end
+arch marble
+x 11
+y 12
+end
+arch flagstone
+x 11
+y 13
+end
+arch wall_1_3
+x 11
+y 13
+end
+arch marble
+x 11
+y 14
+end
+arch bookshelf
+x 11
+y 14
+end
+arch marble
+x 11
+y 15
+end
+arch marble
+x 11
+y 16
+end
+arch biglake_nw
+x 11
+y 16
+end
+arch marble
+x 11
+y 17
+end
+arch biglake_w
+x 11
+y 17
+end
+arch marble
+x 11
+y 18
+end
+arch biglake_sw
+x 11
+y 18
+end
+arch marble
+x 11
+y 19
+end
+arch flagstone
+x 11
+y 20
+end
+arch wall_2_1_2
+x 11
+y 20
+end
+arch flagstone
+x 12
+end
+arch wall_2_1_2
+x 12
+end
+arch marble
+x 12
+y 1
+end
+arch bookshelf
+x 12
+y 1
+end
+arch marble
+x 12
+y 2
+end
+arch marble
+x 12
+y 3
+end
+arch marble
+x 12
+y 4
+end
+arch marble
+x 12
+y 5
+end
+arch random_reading
+name spell_reading
+slaying library
+sp 3
+level 5
+no_pick 1
+x 12
+y 5
+end
+arch flagstone
+x 12
+y 6
+end
+arch wall_2_1_2
+x 12
+y 6
+end
+arch marble
+x 12
+y 7
+end
+arch clock
+x 12
+y 7
+end
+arch marble
+x 12
+y 8
+end
+arch marble
+x 12
+y 9
+end
+arch statue2
+x 12
+y 9
+end
+arch marble
+x 12
+y 10
+end
+arch fountain
+x 12
+y 10
+end
+arch marble
+x 12
+y 11
+end
+arch statue2
+x 12
+y 11
+end
+arch marble
+x 12
+y 12
+end
+arch marble
+x 12
+y 13
+end
+arch marble
+x 12
+y 14
+end
+arch marble
+x 12
+y 15
+end
+arch marble
+x 12
+y 16
+end
+arch biglake_n
+x 12
+y 16
+end
+arch marble
+x 12
+y 17
+end
+arch biglake_center
+x 12
+y 17
+end
+arch fountain
+x 12
+y 17
+end
+arch marble
+x 12
+y 18
+end
+arch biglake_s
+x 12
+y 18
+end
+arch marble
+x 12
+y 19
+end
+arch stair_down_1
+slaying /ElvenLands/Yoer/royal/lib0
+hp 12
+sp 1
+x 12
+y 19
+end
+arch flagstone
+x 12
+y 20
+end
+arch wall_2_1_2
+x 12
+y 20
+end
+arch flagstone
+x 13
+end
+arch wall_2_1_2
+x 13
+end
+arch marble
+x 13
+y 1
+end
+arch bookshelf
+x 13
+y 1
+end
+arch marble
+x 13
+y 2
+end
+arch marble
+x 13
+y 3
+end
+arch marble
+x 13
+y 4
+end
+arch marble
+x 13
+y 5
+end
+arch random_reading
+name gods_reading
+slaying library
+sp 5
+level 5
+no_pick 1
+x 13
+y 5
+end
+arch flagstone
+x 13
+y 6
+end
+arch wall_2_1_2
+x 13
+y 6
+end
+arch marble
+x 13
+y 7
+end
+arch bookshelf
+x 13
+y 7
+end
+arch marble
+x 13
+y 8
+end
+arch marble
+x 13
+y 9
+end
+arch marble
+x 13
+y 10
+end
+arch statue2
+x 13
+y 10
+end
+arch marble
+x 13
+y 11
+end
+arch marble
+x 13
+y 12
+end
+arch flagstone
+x 13
+y 13
+end
+arch wall_1_4
+x 13
+y 13
+end
+arch marble
+x 13
+y 14
+end
+arch bookshelf
+x 13
+y 14
+end
+arch marble
+x 13
+y 15
+end
+arch marble
+x 13
+y 16
+end
+arch biglake_ne
+x 13
+y 16
+end
+arch marble
+x 13
+y 17
+end
+arch biglake_e
+x 13
+y 17
+end
+arch marble
+x 13
+y 18
+end
+arch biglake_se
+x 13
+y 18
+end
+arch marble
+x 13
+y 19
+end
+arch flagstone
+x 13
+y 20
+end
+arch wall_2_1_2
+x 13
+y 20
+end
+arch flagstone
+x 14
+end
+arch wall_2_1_2
+x 14
+end
+arch marble
+x 14
+y 1
+end
+arch bookshelf
+x 14
+y 1
+end
+arch marble
+x 14
+y 2
+end
+arch marble
+x 14
+y 3
+end
+arch marble
+x 14
+y 4
+end
+arch marble
+x 14
+y 5
+end
+arch random_reading
+name gods_reading
+slaying library
+sp 5
+level 5
+no_pick 1
+x 14
+y 5
+end
+arch flagstone
+x 14
+y 6
+end
+arch wall_2_1_2
+x 14
+y 6
+end
+arch marble
+x 14
+y 7
+end
+arch bookshelf
+x 14
+y 7
+end
+arch marble
+x 14
+y 8
+end
+arch marble
+x 14
+y 9
+end
+arch marble
+x 14
+y 10
+end
+arch chair_2.4
+x 14
+y 10
+end
+arch marble
+x 14
+y 11
+end
+arch marble
+x 14
+y 12
+end
+arch flagstone
+x 14
+y 13
+end
+arch wall_2_1_2
+x 14
+y 13
+end
+arch marble
+x 14
+y 14
+end
+arch bookshelf
+x 14
+y 14
+end
+arch marble
+x 14
+y 15
+end
+arch marble
+x 14
+y 16
+end
+arch marble
+x 14
+y 17
+end
+arch marble
+x 14
+y 18
+end
+arch marble
+x 14
+y 19
+end
+arch flagstone
+x 14
+y 20
+end
+arch wall_2_1_2
+x 14
+y 20
+end
+arch flagstone
+x 15
+end
+arch wall_2_1_2
+x 15
+end
+arch marble
+x 15
+y 1
+end
+arch bookshelf
+x 15
+y 1
+end
+arch marble
+x 15
+y 2
+end
+arch marble
+x 15
+y 3
+end
+arch marble
+x 15
+y 4
+end
+arch marble
+x 15
+y 5
+end
+arch random_reading
+name gods_reading
+slaying library
+sp 5
+level 5
+no_pick 1
+x 15
+y 5
+end
+arch flagstone
+x 15
+y 6
+end
+arch wall_2_1_2
+x 15
+y 6
+end
+arch marble
+x 15
+y 7
+end
+arch bookshelf
+x 15
+y 7
+end
+arch marble
+x 15
+y 8
+end
+arch marble
+x 15
+y 9
+end
+arch chair_2.1
+x 15
+y 9
+end
+arch marble
+x 15
+y 10
+end
+arch table_4
+x 15
+y 10
+end
+arch marble
+x 15
+y 11
+end
+arch chair_2.3
+x 15
+y 11
+end
+arch marble
+x 15
+y 12
+end
+arch flagstone
+x 15
+y 13
+end
+arch wall_2_1_2
+x 15
+y 13
+end
+arch marble
+x 15
+y 14
+end
+arch bookshelf
+x 15
+y 14
+end
+arch marble
+x 15
+y 15
+end
+arch marble
+x 15
+y 16
+end
+arch knight
+x 15
+y 16
+end
+arch marble
+x 15
+y 17
+end
+arch marble
+x 15
+y 18
+end
+arch knight
+x 15
+y 18
+end
+arch flagstone
+x 15
+y 19
+end
+arch statue
+x 15
+y 19
+end
+arch flagstone
+x 15
+y 20
+end
+arch wall_2_1_2
+x 15
+y 20
+end
+arch flagstone
+x 16
+end
+arch wall_2_1_2
+x 16
+end
+arch marble
+x 16
+y 1
+end
+arch bookshelf
+x 16
+y 1
+end
+arch marble
+x 16
+y 2
+end
+arch marble
+x 16
+y 3
+end
+arch marble
+x 16
+y 4
+end
+arch marble
+x 16
+y 5
+end
+arch random_reading
+slaying library
+level 6
+no_pick 1
+x 16
+y 5
+end
+arch flagstone
+x 16
+y 6
+end
+arch wall_2_1_2
+x 16
+y 6
+end
+arch marble
+x 16
+y 7
+end
+arch bookshelf
+x 16
+y 7
+end
+arch marble
+x 16
+y 8
+end
+arch marble
+x 16
+y 9
+end
+arch marble
+x 16
+y 10
+end
+arch chair_2.2
+x 16
+y 10
+end
+arch marble
+x 16
+y 11
+end
+arch marble
+x 16
+y 12
+end
+arch flagstone
+x 16
+y 13
+end
+arch wall_2_2_3
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 14
+end
+arch wall_2_1_1
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 15
+end
+arch wall_2_1_1
+x 16
+y 15
+end
+arch flagstone
+x 16
+y 16
+end
+arch wall_1_2
+x 16
+y 16
+end
+arch marble
+x 16
+y 17
+end
+arch flagstone
+x 16
+y 18
+end
+arch wall_1_1
+x 16
+y 18
+end
+arch flagstone
+x 16
+y 19
+end
+arch wall_2_1_1
+x 16
+y 19
+end
+arch flagstone
+x 16
+y 20
+end
+arch wall_3_1
+x 16
+y 20
+end
+arch flagstone
+x 17
+end
+arch wall_2_1_2
+x 17
+end
+arch marble
+x 17
+y 1
+end
+arch bookshelf
+x 17
+y 1
+end
+arch marble
+x 17
+y 2
+end
+arch marble
+x 17
+y 3
+end
+arch marble
+x 17
+y 4
+end
+arch marble
+x 17
+y 5
+end
+arch random_reading
+slaying library
+level 6
+no_pick 1
+x 17
+y 5
+end
+arch flagstone
+x 17
+y 6
+end
+arch wall_2_1_2
+x 17
+y 6
+end
+arch marble
+x 17
+y 7
+end
+arch bookshelf
+x 17
+y 7
+end
+arch marble
+x 17
+y 8
+end
+arch marble
+x 17
+y 9
+end
+arch marble
+x 17
+y 10
+end
+arch marble
+x 17
+y 11
+end
+arch marble
+x 17
+y 12
+end
+arch marble
+x 17
+y 13
+end
+arch marble
+x 17
+y 14
+end
+arch marble
+x 17
+y 15
+end
+arch marble
+x 17
+y 16
+end
+arch marble
+x 17
+y 17
+end
+arch marble
+x 17
+y 18
+end
+arch marble
+x 17
+y 19
+end
+arch scroll
+x 17
+y 19
+end
+arch flagstone
+x 17
+y 20
+end
+arch wall_2_1_2
+x 17
+y 20
+end
+arch flagstone
+x 18
+end
+arch wall_2_1_2
+x 18
+end
+arch marble
+x 18
+y 1
+end
+arch bookshelf
+x 18
+y 1
+end
+arch marble
+x 18
+y 2
+end
+arch marble
+x 18
+y 3
+end
+arch marble
+x 18
+y 4
+end
+arch marble
+x 18
+y 5
+end
+arch random_reading
+slaying library
+level 6
+no_pick 1
+x 18
+y 5
+end
+arch flagstone
+x 18
+y 6
+end
+arch wall_2_1_2
+x 18
+y 6
+end
+arch marble
+x 18
+y 7
+end
+arch statue2
+x 18
+y 7
+end
+arch marble
+x 18
+y 8
+end
+arch tome
+name Darkland:volume one
+msg
+Above the Land of Yoer lies the
+Darkland. This land is dominated by
+Dark Elves and those they see fit to
+live there. The capital of Dark Land is
+Shodow City,sometimes called the City
+of Darkoth. Darkoth is the  ruler
+of Darkland. He does not spend much
+time at his capital. Instead he resides
+on an island.
+Continued in volume 2
+endmsg
+no_pick 1
+x 18
+y 8
+end
+arch marble
+x 18
+y 9
+end
+arch book_clasp
+x 18
+y 9
+end
+arch marble
+x 18
+y 10
+end
+arch book_read
+name the Stones
+msg
+There are 4 stones of power.
+The stones are of diferent elements.
+King Yoer disapeared when he went
+questing for them. The Prince wants the
+stones and will give an ancient
+artifact for them. There is said to be
+an ancient scroll about the stones.
+endmsg
+no_pick 1
+x 18
+y 10
+end
+arch marble
+x 18
+y 11
+end
+arch marble
+x 18
+y 12
+end
+arch marble
+x 18
+y 13
+end
+arch marble
+x 18
+y 14
+end
+arch marble
+x 18
+y 15
+end
+arch marble
+x 18
+y 16
+end
+arch marble
+x 18
+y 17
+end
+arch marble
+x 18
+y 18
+end
+arch marble
+x 18
+y 19
+end
+arch scroll
+x 18
+y 19
+end
+arch flagstone
+x 18
+y 20
+end
+arch wall_2_1_2
+x 18
+y 20
+end
+arch flagstone
+x 19
+end
+arch wall_2_1_2
+x 19
+end
+arch marble
+x 19
+y 1
+end
+arch bookshelf
+x 19
+y 1
+end
+arch marble
+x 19
+y 2
+end
+arch marble
+x 19
+y 3
+end
+arch marble
+x 19
+y 4
+end
+arch flagstone
+x 19
+y 5
+end
+arch statue
+x 19
+y 5
+end
+arch flagstone
+x 19
+y 6
+end
+arch wall_2_2_3
+x 19
+y 6
+end
+arch flagstone
+x 19
+y 7
+end
+arch wall_2_1_1
+x 19
+y 7
+end
+arch flagstone
+x 19
+y 8
+end
+arch wall_2_1_1
+x 19
+y 8
+end
+arch flagstone
+x 19
+y 9
+end
+arch wall_2_1_1
+x 19
+y 9
+end
+arch flagstone
+x 19
+y 10
+end
+arch wall_2_1_1
+x 19
+y 10
+end
+arch flagstone
+x 19
+y 11
+end
+arch wall_2_1_1
+x 19
+y 11
+end
+arch flagstone
+x 19
+y 12
+end
+arch wall_2_1_1
+x 19
+y 12
+end
+arch flagstone
+x 19
+y 13
+end
+arch wall_2_1_1
+x 19
+y 13
+end
+arch flagstone
+x 19
+y 14
+end
+arch wall_1_2
+x 19
+y 14
+end
+arch marble
+x 19
+y 15
+end
+arch knight
+x 19
+y 15
+end
+arch marble
+x 19
+y 16
+end
+arch marble
+x 19
+y 17
+end
+arch marble
+x 19
+y 18
+end
+arch marble
+x 19
+y 19
+end
+arch scroll
+x 19
+y 19
+end
+arch flagstone
+x 19
+y 20
+end
+arch wall_2_1_2
+x 19
+y 20
+end
+arch flagstone
+x 20
+end
+arch wall_2_1_2
+x 20
+end
+arch marble
+x 20
+y 1
+end
+arch bookshelf
+x 20
+y 1
+end
+arch marble
+x 20
+y 2
+end
+arch marble
+x 20
+y 3
+end
+arch marble
+x 20
+y 4
+end
+arch marble
+x 20
+y 5
+end
+arch marble
+x 20
+y 6
+end
+arch marble
+x 20
+y 7
+end
+arch marble
+x 20
+y 8
+end
+arch marble
+x 20
+y 9
+end
+arch marble
+x 20
+y 10
+end
+arch marble
+x 20
+y 11
+end
+arch marble
+x 20
+y 12
+end
+arch marble
+x 20
+y 13
+end
+arch marble
+x 20
+y 14
+end
+arch marble
+x 20
+y 15
+end
+arch marble
+x 20
+y 16
+end
+arch marble
+x 20
+y 17
+end
+arch marble
+x 20
+y 18
+end
+arch marble
+x 20
+y 19
+end
+arch scroll
+x 20
+y 19
+end
+arch flagstone
+x 20
+y 20
+end
+arch wall_2_1_2
+x 20
+y 20
+end
+arch flagstone
+x 21
+end
+arch wall_2_1_2
+x 21
+end
+arch marble
+x 21
+y 1
+end
+arch bookshelf
+x 21
+y 1
+end
+arch marble
+x 21
+y 2
+end
+arch marble
+x 21
+y 3
+end
+arch marble
+x 21
+y 4
+end
+arch marble
+x 21
+y 5
+end
+arch marble
+x 21
+y 6
+end
+arch book_read
+x 21
+y 6
+end
+arch marble
+x 21
+y 7
+end
+arch book_read
+x 21
+y 7
+end
+arch marble
+x 21
+y 8
+end
+arch book_clasp
+x 21
+y 8
+end
+arch marble
+x 21
+y 9
+end
+arch tome
+x 21
+y 9
+end
+arch marble
+x 21
+y 10
+end
+arch book_read
+x 21
+y 10
+end
+arch marble
+x 21
+y 11
+end
+arch book_read
+x 21
+y 11
+end
+arch marble
+x 21
+y 12
+end
+arch tome
+x 21
+y 12
+end
+arch marble
+x 21
+y 13
+end
+arch book_read
+x 21
+y 13
+end
+arch marble
+x 21
+y 14
+end
+arch marble
+x 21
+y 15
+end
+arch marble
+x 21
+y 16
+end
+arch marble
+x 21
+y 17
+end
+arch marble
+x 21
+y 18
+end
+arch marble
+x 21
+y 19
+end
+arch scroll
+x 21
+y 19
+end
+arch flagstone
+x 21
+y 20
+end
+arch wall_2_1_2
+x 21
+y 20
+end
+arch flagstone
+x 22
+end
+arch wall_2_1_2
+x 22
+end
+arch marble
+x 22
+y 1
+end
+arch bookshelf
+x 22
+y 1
+end
+arch marble
+x 22
+y 2
+end
+arch marble
+x 22
+y 3
+end
+arch marble
+x 22
+y 4
+end
+arch marble
+x 22
+y 5
+end
+arch marble
+x 22
+y 6
+end
+arch book_clasp
+x 22
+y 6
+end
+arch marble
+x 22
+y 7
+end
+arch book_read
+x 22
+y 7
+end
+arch marble
+x 22
+y 8
+end
+arch tome
+name Yoer's Kingdom
+msg
+The Land of Yoer is a elf ruled country.
+The Elves in that kingdom are generally
+light elves. The original king of that
+land dissapeared years ago. His son now
+rules for him.
+Yoer City is known for its many
+advances and wonders. Some of its
+wonders are Yoer Stadium,the Royal
+Cathedral,the Royal Palace,the Royal
+Library,and its large University.
+To the west of Yoer is Fleabeon. A
+small town ruled by Fleabolt. Fleabeon
+was founded by King Fleabeon. Fleabolt
+is Fleabeon's grandson.
+endmsg
+no_pick 1
+x 22
+y 8
+end
+arch marble
+x 22
+y 9
+end
+arch book_read
+x 22
+y 9
+end
+arch marble
+x 22
+y 10
+end
+arch book_clasp
+x 22
+y 10
+end
+arch marble
+x 22
+y 11
+end
+arch book_clasp
+x 22
+y 11
+end
+arch marble
+x 22
+y 12
+end
+arch book_read
+x 22
+y 12
+end
+arch marble
+x 22
+y 13
+end
+arch book_clasp
+x 22
+y 13
+end
+arch marble
+x 22
+y 14
+end
+arch marble
+x 22
+y 15
+end
+arch marble
+x 22
+y 16
+end
+arch table_4
+x 22
+y 16
+end
+arch marble
+x 22
+y 17
+end
+arch marble
+x 22
+y 18
+end
+arch marble
+x 22
+y 19
+end
+arch scroll
+x 22
+y 19
+end
+arch flagstone
+x 22
+y 20
+end
+arch wall_2_1_2
+x 22
+y 20
+end
+arch flagstone
+x 23
+end
+arch wall_2_1_2
+x 23
+end
+arch marble
+x 23
+y 1
+end
+arch bookshelf
+x 23
+y 1
+end
+arch marble
+x 23
+y 2
+end
+arch marble
+x 23
+y 3
+end
+arch marble
+x 23
+y 4
+end
+arch marble
+x 23
+y 5
+end
+arch marble
+x 23
+y 6
+end
+arch marble
+x 23
+y 7
+end
+arch marble
+x 23
+y 8
+end
+arch marble
+x 23
+y 9
+end
+arch marble
+x 23
+y 10
+end
+arch marble
+x 23
+y 11
+end
+arch marble
+x 23
+y 12
+end
+arch marble
+x 23
+y 13
+end
+arch marble
+x 23
+y 14
+end
+arch marble
+x 23
+y 15
+end
+arch marble
+x 23
+y 16
+end
+arch chair_2.2
+x 23
+y 16
+end
+arch scroll_2
+name old scroll
+msg
+Ec'd R'll To'd Teemora'del?
+SGDFHGDFHDFHEYHDSHDHFDSHFDF
+endmsg
+x 23
+y 16
+end
+arch guildmaster
+name person
+x 23
+y 16
+end
+arch marble
+x 23
+y 17
+end
+arch marble
+x 23
+y 18
+end
+arch marble
+x 23
+y 19
+end
+arch scroll
+x 23
+y 19
+end
+arch flagstone
+x 23
+y 20
+end
+arch wall_2_1_2
+x 23
+y 20
+end
+arch flagstone
+x 24
+end
+arch wall_2_2_3
+x 24
+end
+arch flagstone
+x 24
+y 1
+end
+arch wall_2_1_1
+x 24
+y 1
+end
+arch flagstone
+x 24
+y 2
+end
+arch wall_2_1_1
+x 24
+y 2
+end
+arch flagstone
+x 24
+y 3
+end
+arch wall_2_1_1
+x 24
+y 3
+end
+arch flagstone
+x 24
+y 4
+end
+arch wall_2_1_1
+x 24
+y 4
+end
+arch flagstone
+x 24
+y 5
+end
+arch wall_2_1_1
+x 24
+y 5
+end
+arch flagstone
+x 24
+y 6
+end
+arch wall_2_1_1
+x 24
+y 6
+end
+arch flagstone
+x 24
+y 7
+end
+arch wall_2_1_1
+x 24
+y 7
+end
+arch flagstone
+x 24
+y 8
+end
+arch wall_2_1_1
+x 24
+y 8
+end
+arch flagstone
+x 24
+y 9
+end
+arch wall_2_1_1
+x 24
+y 9
+end
+arch flagstone
+x 24
+y 10
+end
+arch wall_2_1_1
+x 24
+y 10
+end
+arch flagstone
+x 24
+y 11
+end
+arch wall_2_1_1
+x 24
+y 11
+end
+arch flagstone
+x 24
+y 12
+end
+arch wall_2_1_1
+x 24
+y 12
+end
+arch flagstone
+x 24
+y 13
+end
+arch wall_2_1_1
+x 24
+y 13
+end
+arch flagstone
+x 24
+y 14
+end
+arch wall_2_1_1
+x 24
+y 14
+end
+arch flagstone
+x 24
+y 15
+end
+arch wall_2_1_1
+x 24
+y 15
+end
+arch flagstone
+x 24
+y 16
+end
+arch wall_2_1_1
+x 24
+y 16
+end
+arch flagstone
+x 24
+y 17
+end
+arch wall_2_1_1
+x 24
+y 17
+end
+arch flagstone
+x 24
+y 18
+end
+arch wall_2_1_1
+x 24
+y 18
+end
+arch flagstone
+x 24
+y 19
+end
+arch wall_2_1_1
+x 24
+y 19
+end
+arch flagstone
+x 24
+y 20
+end
+arch wall_2_2_4
+x 24
+y 20
+end

@@ -1,0 +1,5400 @@
+arch map
+name cave6
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Jul 12 19:51:36 2001
+endmsg
+enter_y 10
+width 32
+height 22
+end
+arch earth
+end
+arch earth
+y 1
+end
+arch earth
+y 2
+end
+arch earth
+y 3
+end
+arch earth
+y 4
+end
+arch cave18
+y 4
+end
+arch earth
+y 5
+end
+arch cave3
+y 5
+end
+arch earth
+y 6
+end
+arch cave3
+y 6
+end
+arch earth
+y 7
+end
+arch cave3
+y 7
+end
+arch earth
+y 8
+end
+arch cave3
+y 8
+end
+arch earth
+y 9
+end
+arch cave3
+y 9
+end
+arch earth
+y 10
+end
+arch cave3
+y 10
+end
+arch earth
+y 11
+end
+arch cave3
+y 11
+end
+arch earth
+y 12
+end
+arch cave3
+y 12
+end
+arch earth
+y 13
+end
+arch cave3
+y 13
+end
+arch earth
+y 14
+end
+arch cave3
+y 14
+end
+arch earth
+y 15
+end
+arch cave3
+y 15
+end
+arch earth
+y 16
+end
+arch cave3
+y 16
+end
+arch earth
+y 17
+end
+arch cave17
+y 17
+end
+arch earth
+y 18
+end
+arch earth
+y 19
+end
+arch earth
+y 20
+end
+arch earth
+y 21
+end
+arch earth
+x 1
+end
+arch earth
+x 1
+y 1
+end
+arch earth
+x 1
+y 2
+end
+arch earth
+x 1
+y 3
+end
+arch cave18
+x 1
+y 3
+end
+arch earth
+x 1
+y 4
+end
+arch cave13
+x 1
+y 4
+end
+arch earth
+x 1
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 1
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 1
+y 6
+end
+arch earth
+x 1
+y 7
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 1
+y 7
+connected 5
+end
+arch earth
+x 1
+y 8
+end
+arch earth
+x 1
+y 9
+end
+arch earth
+x 1
+y 10
+end
+arch stair_up_4
+slaying cave5
+hp 24
+sp 36
+x 1
+y 10
+end
+arch earth
+x 1
+y 11
+end
+arch earth
+x 1
+y 12
+end
+arch earth
+x 1
+y 13
+end
+arch earth
+x 1
+y 14
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 1
+y 14
+connected 5
+end
+arch earth
+x 1
+y 15
+end
+arch earth
+x 1
+y 16
+end
+arch earth
+x 1
+y 17
+end
+arch cave16
+x 1
+y 17
+end
+arch earth
+x 1
+y 18
+end
+arch cave17
+x 1
+y 18
+end
+arch earth
+x 1
+y 19
+end
+arch earth
+x 1
+y 20
+end
+arch earth
+x 1
+y 21
+end
+arch earth
+x 2
+end
+arch earth
+x 2
+y 1
+end
+arch earth
+x 2
+y 2
+end
+arch cave18
+x 2
+y 2
+end
+arch earth
+x 2
+y 3
+end
+arch cave13
+x 2
+y 3
+end
+arch earth
+x 2
+y 4
+end
+arch earth
+x 2
+y 5
+end
+arch earth
+x 2
+y 6
+end
+arch earth
+x 2
+y 7
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 2
+y 7
+connected 5
+end
+arch earth
+x 2
+y 8
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 2
+y 8
+connected 5
+end
+arch earth
+x 2
+y 9
+end
+arch earth
+x 2
+y 10
+end
+arch earth
+x 2
+y 11
+end
+arch button_lever
+x 2
+y 11
+connected 5
+end
+arch earth
+x 2
+y 12
+end
+arch earth
+x 2
+y 13
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 2
+y 13
+connected 5
+end
+arch earth
+x 2
+y 14
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 2
+y 14
+connected 5
+end
+arch earth
+x 2
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 2
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 2
+y 16
+end
+arch earth
+x 2
+y 17
+end
+arch earth
+x 2
+y 18
+end
+arch cave16
+x 2
+y 18
+end
+arch earth
+x 2
+y 19
+end
+arch cave17
+x 2
+y 19
+end
+arch earth
+x 2
+y 20
+end
+arch earth
+x 2
+y 21
+end
+arch earth
+x 3
+end
+arch earth
+x 3
+y 1
+end
+arch cave18
+x 3
+y 1
+end
+arch earth
+x 3
+y 2
+end
+arch cave13
+x 3
+y 2
+end
+arch earth
+x 3
+y 3
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 3
+y 3
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 3
+y 4
+end
+arch earth
+x 3
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 3
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 3
+y 6
+end
+arch earth
+x 3
+y 7
+end
+arch earth
+x 3
+y 8
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 8
+connected 5
+end
+arch earth
+x 3
+y 9
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 9
+connected 5
+end
+arch earth
+x 3
+y 10
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 10
+connected 5
+end
+arch earth
+x 3
+y 11
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 11
+connected 5
+end
+arch earth
+x 3
+y 12
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 12
+connected 5
+end
+arch earth
+x 3
+y 13
+end
+arch block_door_closed
+name stone pillar
+face cave21.111
+x 3
+y 13
+connected 5
+end
+arch earth
+x 3
+y 14
+end
+arch earth
+x 3
+y 15
+end
+arch earth
+x 3
+y 16
+end
+arch earth
+x 3
+y 17
+end
+arch earth
+x 3
+y 18
+end
+arch earth
+x 3
+y 19
+end
+arch cave16
+x 3
+y 19
+end
+arch earth
+x 3
+y 20
+end
+arch cave17
+x 3
+y 20
+end
+arch earth
+x 3
+y 21
+end
+arch earth
+x 4
+end
+arch cave18
+x 4
+end
+arch earth
+x 4
+y 1
+end
+arch cave13
+x 4
+y 1
+end
+arch earth
+x 4
+y 2
+end
+arch earth
+x 4
+y 3
+end
+arch earth
+x 4
+y 4
+end
+arch earth
+x 4
+y 5
+end
+arch earth
+x 4
+y 6
+end
+arch earth
+x 4
+y 7
+end
+arch earth
+x 4
+y 8
+end
+arch earth
+x 4
+y 9
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 4
+y 9
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 4
+y 10
+end
+arch earth
+x 4
+y 11
+end
+arch earth
+x 4
+y 12
+end
+arch earth
+x 4
+y 13
+end
+arch earth
+x 4
+y 14
+end
+arch earth
+x 4
+y 15
+end
+arch earth
+x 4
+y 16
+end
+arch earth
+x 4
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 4
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 4
+y 18
+end
+arch earth
+x 4
+y 19
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 4
+y 19
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 4
+y 20
+end
+arch cave16
+x 4
+y 20
+end
+arch earth
+x 4
+y 21
+end
+arch cave17
+x 4
+y 21
+end
+arch earth
+x 5
+end
+arch cave4
+x 5
+end
+arch earth
+x 5
+y 1
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 1
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 2
+end
+arch earth
+x 5
+y 3
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 3
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 4
+end
+arch earth
+x 5
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 6
+end
+arch earth
+x 5
+y 7
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 7
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 8
+end
+arch earth
+x 5
+y 9
+end
+arch earth
+x 5
+y 10
+end
+arch earth
+x 5
+y 11
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 11
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 12
+end
+arch earth
+x 5
+y 13
+end
+arch earth
+x 5
+y 14
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 5
+y 14
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 5
+y 15
+end
+arch earth
+x 5
+y 16
+end
+arch earth
+x 5
+y 17
+end
+arch earth
+x 5
+y 18
+end
+arch earth
+x 5
+y 19
+end
+arch earth
+x 5
+y 20
+end
+arch earth
+x 5
+y 21
+end
+arch cave2
+x 5
+y 21
+end
+arch earth
+x 6
+end
+arch cave4
+x 6
+end
+arch earth
+x 6
+y 1
+end
+arch earth
+x 6
+y 2
+end
+arch earth
+x 6
+y 3
+end
+arch earth
+x 6
+y 4
+end
+arch earth
+x 6
+y 5
+end
+arch earth
+x 6
+y 6
+end
+arch earth
+x 6
+y 7
+end
+arch earth
+x 6
+y 8
+end
+arch earth
+x 6
+y 9
+end
+arch earth
+x 6
+y 10
+end
+arch earth
+x 6
+y 11
+end
+arch earth
+x 6
+y 12
+end
+arch earth
+x 6
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 6
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 6
+y 14
+end
+arch earth
+x 6
+y 15
+end
+arch earth
+x 6
+y 16
+end
+arch earth
+x 6
+y 17
+end
+arch earth
+x 6
+y 18
+end
+arch earth
+x 6
+y 19
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 6
+y 19
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 6
+y 20
+end
+arch earth
+x 6
+y 21
+end
+arch cave2
+x 6
+y 21
+end
+arch earth
+x 7
+end
+arch cave4
+x 7
+end
+arch earth
+x 7
+y 1
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 1
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 2
+end
+arch earth
+x 7
+y 3
+end
+arch earth
+x 7
+y 4
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 4
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 5
+end
+arch earth
+x 7
+y 6
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 6
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 7
+end
+arch earth
+x 7
+y 8
+end
+arch earth
+x 7
+y 9
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 9
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 10
+end
+arch earth
+x 7
+y 11
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 11
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 12
+end
+arch earth
+x 7
+y 13
+end
+arch earth
+x 7
+y 14
+end
+arch earth
+x 7
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 16
+end
+arch earth
+x 7
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 7
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 7
+y 18
+end
+arch earth
+x 7
+y 19
+end
+arch earth
+x 7
+y 20
+end
+arch earth
+x 7
+y 21
+end
+arch cave2
+x 7
+y 21
+end
+arch earth
+x 8
+end
+arch cave4
+x 8
+end
+arch earth
+x 8
+y 1
+end
+arch earth
+x 8
+y 2
+end
+arch earth
+x 8
+y 3
+end
+arch earth
+x 8
+y 4
+end
+arch earth
+x 8
+y 5
+end
+arch earth
+x 8
+y 6
+end
+arch earth
+x 8
+y 7
+end
+arch earth
+x 8
+y 8
+end
+arch earth
+x 8
+y 9
+end
+arch earth
+x 8
+y 10
+end
+arch earth
+x 8
+y 11
+end
+arch earth
+x 8
+y 12
+end
+arch earth
+x 8
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 8
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 8
+y 14
+end
+arch earth
+x 8
+y 15
+end
+arch earth
+x 8
+y 16
+end
+arch earth
+x 8
+y 17
+end
+arch earth
+x 8
+y 18
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 8
+y 18
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 8
+y 19
+end
+arch earth
+x 8
+y 20
+end
+arch earth
+x 8
+y 21
+end
+arch cave2
+x 8
+y 21
+end
+arch earth
+x 9
+end
+arch cave4
+x 9
+end
+arch earth
+x 9
+y 1
+end
+arch earth
+x 9
+y 2
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 2
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 3
+end
+arch earth
+x 9
+y 4
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 4
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 5
+end
+arch earth
+x 9
+y 6
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 6
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 7
+end
+arch earth
+x 9
+y 8
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 8
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 9
+end
+arch earth
+x 9
+y 10
+end
+arch earth
+x 9
+y 11
+end
+arch earth
+x 9
+y 12
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 12
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 13
+end
+arch earth
+x 9
+y 14
+end
+arch earth
+x 9
+y 15
+end
+arch earth
+x 9
+y 16
+end
+arch earth
+x 9
+y 17
+end
+arch earth
+x 9
+y 18
+end
+arch earth
+x 9
+y 19
+end
+arch earth
+x 9
+y 20
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 9
+y 20
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 9
+y 21
+end
+arch cave2
+x 9
+y 21
+end
+arch earth
+x 10
+end
+arch cave4
+x 10
+end
+arch earth
+x 10
+y 1
+end
+arch earth
+x 10
+y 2
+end
+arch earth
+x 10
+y 3
+end
+arch earth
+x 10
+y 4
+end
+arch earth
+x 10
+y 5
+end
+arch earth
+x 10
+y 6
+end
+arch earth
+x 10
+y 7
+end
+arch earth
+x 10
+y 8
+end
+arch earth
+x 10
+y 9
+end
+arch earth
+x 10
+y 10
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 10
+y 10
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 10
+y 11
+end
+arch earth
+x 10
+y 12
+end
+arch earth
+x 10
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 10
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 10
+y 14
+end
+arch earth
+x 10
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 10
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 10
+y 16
+end
+arch earth
+x 10
+y 17
+end
+arch earth
+x 10
+y 18
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 10
+y 18
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 10
+y 19
+end
+arch earth
+x 10
+y 20
+end
+arch earth
+x 10
+y 21
+end
+arch cave2
+x 10
+y 21
+end
+arch earth
+x 11
+end
+arch cave4
+x 11
+end
+arch earth
+x 11
+y 1
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 11
+y 1
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 11
+y 2
+end
+arch earth
+x 11
+y 3
+end
+arch earth
+x 11
+y 4
+end
+arch earth
+x 11
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 11
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 11
+y 6
+end
+arch earth
+x 11
+y 7
+end
+arch earth
+x 11
+y 8
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 11
+y 8
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 11
+y 9
+end
+arch earth
+x 11
+y 10
+end
+arch earth
+x 11
+y 11
+end
+arch earth
+x 11
+y 12
+end
+arch earth
+x 11
+y 13
+end
+arch earth
+x 11
+y 14
+end
+arch earth
+x 11
+y 15
+end
+arch earth
+x 11
+y 16
+end
+arch earth
+x 11
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 11
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 11
+y 18
+end
+arch earth
+x 11
+y 19
+end
+arch earth
+x 11
+y 20
+end
+arch earth
+x 11
+y 21
+end
+arch cave2
+x 11
+y 21
+end
+arch earth
+x 12
+end
+arch cave4
+x 12
+end
+arch earth
+x 12
+y 1
+end
+arch earth
+x 12
+y 2
+end
+arch earth
+x 12
+y 3
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 12
+y 3
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 12
+y 4
+end
+arch earth
+x 12
+y 5
+end
+arch earth
+x 12
+y 6
+end
+arch earth
+x 12
+y 7
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 12
+y 7
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 12
+y 8
+end
+arch earth
+x 12
+y 9
+end
+arch earth
+x 12
+y 10
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 12
+y 10
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 12
+y 11
+end
+arch earth
+x 12
+y 12
+end
+arch earth
+x 12
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 12
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 12
+y 14
+end
+arch earth
+x 12
+y 15
+end
+arch earth
+x 12
+y 16
+end
+arch earth
+x 12
+y 17
+end
+arch earth
+x 12
+y 18
+end
+arch earth
+x 12
+y 19
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 12
+y 19
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 12
+y 20
+end
+arch earth
+x 12
+y 21
+end
+arch cave2
+x 12
+y 21
+end
+arch earth
+x 13
+end
+arch cave4
+x 13
+end
+arch earth
+x 13
+y 1
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 13
+y 1
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 13
+y 2
+end
+arch earth
+x 13
+y 3
+end
+arch earth
+x 13
+y 4
+end
+arch earth
+x 13
+y 5
+end
+arch earth
+x 13
+y 6
+end
+arch earth
+x 13
+y 7
+end
+arch earth
+x 13
+y 8
+end
+arch earth
+x 13
+y 9
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 13
+y 9
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 13
+y 10
+end
+arch earth
+x 13
+y 11
+end
+arch earth
+x 13
+y 12
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 13
+y 12
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 13
+y 13
+end
+arch earth
+x 13
+y 14
+end
+arch earth
+x 13
+y 15
+end
+arch earth
+x 13
+y 16
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 13
+y 16
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 13
+y 17
+end
+arch earth
+x 13
+y 18
+end
+arch earth
+x 13
+y 19
+end
+arch earth
+x 13
+y 20
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 13
+y 20
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 13
+y 21
+end
+arch cave2
+x 13
+y 21
+end
+arch earth
+x 14
+end
+arch cave4
+x 14
+end
+arch earth
+x 14
+y 1
+end
+arch earth
+x 14
+y 2
+end
+arch earth
+x 14
+y 3
+end
+arch earth
+x 14
+y 4
+end
+arch earth
+x 14
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 14
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 14
+y 6
+end
+arch earth
+x 14
+y 7
+end
+arch earth
+x 14
+y 8
+end
+arch earth
+x 14
+y 9
+end
+arch earth
+x 14
+y 10
+end
+arch earth
+x 14
+y 11
+end
+arch earth
+x 14
+y 12
+end
+arch earth
+x 14
+y 13
+end
+arch earth
+x 14
+y 14
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 14
+y 14
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 14
+y 15
+end
+arch earth
+x 14
+y 16
+end
+arch earth
+x 14
+y 17
+end
+arch earth
+x 14
+y 18
+end
+arch earth
+x 14
+y 19
+end
+arch earth
+x 14
+y 20
+end
+arch earth
+x 14
+y 21
+end
+arch cave2
+x 14
+y 21
+end
+arch earth
+x 15
+end
+arch cave4
+x 15
+end
+arch earth
+x 15
+y 1
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 1
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 2
+end
+arch earth
+x 15
+y 3
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 3
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 4
+end
+arch earth
+x 15
+y 5
+end
+arch earth
+x 15
+y 6
+end
+arch earth
+x 15
+y 7
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 7
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 8
+end
+arch earth
+x 15
+y 9
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 9
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 10
+end
+arch earth
+x 15
+y 11
+end
+arch earth
+x 15
+y 12
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 12
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 13
+end
+arch earth
+x 15
+y 14
+end
+arch earth
+x 15
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 16
+end
+arch earth
+x 15
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 18
+end
+arch earth
+x 15
+y 19
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 15
+y 19
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 15
+y 20
+end
+arch earth
+x 15
+y 21
+end
+arch cave2
+x 15
+y 21
+end
+arch earth
+x 16
+end
+arch cave4
+x 16
+end
+arch earth
+x 16
+y 1
+end
+arch earth
+x 16
+y 2
+end
+arch earth
+x 16
+y 3
+end
+arch earth
+x 16
+y 4
+end
+arch earth
+x 16
+y 5
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 16
+y 5
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 16
+y 6
+end
+arch earth
+x 16
+y 7
+end
+arch earth
+x 16
+y 8
+end
+arch earth
+x 16
+y 9
+end
+arch earth
+x 16
+y 10
+end
+arch earth
+x 16
+y 11
+end
+arch earth
+x 16
+y 12
+end
+arch earth
+x 16
+y 13
+end
+arch earth
+x 16
+y 14
+end
+arch earth
+x 16
+y 15
+end
+arch earth
+x 16
+y 16
+end
+arch earth
+x 16
+y 17
+end
+arch earth
+x 16
+y 18
+end
+arch earth
+x 16
+y 19
+end
+arch earth
+x 16
+y 20
+end
+arch earth
+x 16
+y 21
+end
+arch cave2
+x 16
+y 21
+end
+arch earth
+x 17
+end
+arch cave4
+x 17
+end
+arch earth
+x 17
+y 1
+end
+arch earth
+x 17
+y 2
+end
+arch earth
+x 17
+y 3
+end
+arch earth
+x 17
+y 4
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 17
+y 4
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 17
+y 5
+end
+arch earth
+x 17
+y 6
+end
+arch earth
+x 17
+y 7
+end
+arch earth
+x 17
+y 8
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 17
+y 8
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 17
+y 9
+end
+arch earth
+x 17
+y 10
+end
+arch earth
+x 17
+y 11
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 17
+y 11
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 17
+y 12
+end
+arch earth
+x 17
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 17
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 17
+y 14
+end
+arch earth
+x 17
+y 15
+end
+arch earth
+x 17
+y 16
+end
+arch earth
+x 17
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 17
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 17
+y 18
+end
+arch earth
+x 17
+y 19
+end
+arch earth
+x 17
+y 20
+end
+arch earth
+x 17
+y 21
+end
+arch cave2
+x 17
+y 21
+end
+arch earth
+x 18
+end
+arch cave25
+x 18
+end
+arch earth
+x 18
+y 1
+end
+arch cave14
+x 18
+y 1
+end
+arch earth
+x 18
+y 2
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 18
+y 2
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 18
+y 3
+end
+arch earth
+x 18
+y 4
+end
+arch earth
+x 18
+y 5
+end
+arch earth
+x 18
+y 6
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 18
+y 6
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 18
+y 7
+end
+arch earth
+x 18
+y 8
+end
+arch earth
+x 18
+y 9
+end
+arch earth
+x 18
+y 10
+end
+arch earth
+x 18
+y 11
+end
+arch earth
+x 18
+y 12
+end
+arch earth
+x 18
+y 13
+end
+arch earth
+x 18
+y 14
+end
+arch earth
+x 18
+y 15
+end
+arch earth
+x 18
+y 16
+end
+arch earth
+x 18
+y 17
+end
+arch earth
+x 18
+y 18
+end
+arch earth
+x 18
+y 19
+end
+arch earth
+x 18
+y 20
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 18
+y 20
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 18
+y 21
+end
+arch cave2
+x 18
+y 21
+end
+arch earth
+x 19
+end
+arch cave2
+x 19
+end
+arch earth
+x 19
+y 1
+end
+arch cave19
+x 19
+y 1
+end
+arch earth
+x 19
+y 2
+end
+arch cave14
+x 19
+y 2
+end
+arch earth
+x 19
+y 3
+end
+arch earth
+x 19
+y 4
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 19
+y 4
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 19
+y 5
+end
+arch earth
+x 19
+y 6
+end
+arch earth
+x 19
+y 7
+end
+arch earth
+x 19
+y 8
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 19
+y 8
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 19
+y 9
+end
+arch earth
+x 19
+y 10
+end
+arch earth
+x 19
+y 11
+end
+arch earth
+x 19
+y 12
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 19
+y 12
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 19
+y 13
+end
+arch earth
+x 19
+y 14
+end
+arch earth
+x 19
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 19
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 19
+y 16
+end
+arch earth
+x 19
+y 17
+end
+arch earth
+x 19
+y 18
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 19
+y 18
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 19
+y 19
+end
+arch earth
+x 19
+y 20
+end
+arch earth
+x 19
+y 21
+end
+arch cave2
+x 19
+y 21
+end
+arch earth
+x 20
+end
+arch cave2
+x 20
+end
+arch earth
+x 20
+y 2
+end
+arch cave19
+x 20
+y 2
+end
+arch earth
+x 20
+y 3
+end
+arch cave14
+x 20
+y 3
+end
+arch earth
+x 20
+y 4
+end
+arch earth
+x 20
+y 5
+end
+arch earth
+x 20
+y 6
+end
+arch earth
+x 20
+y 7
+end
+arch earth
+x 20
+y 8
+end
+arch earth
+x 20
+y 9
+end
+arch earth
+x 20
+y 10
+end
+arch earth
+x 20
+y 11
+end
+arch earth
+x 20
+y 12
+end
+arch earth
+x 20
+y 13
+end
+arch earth
+x 20
+y 14
+end
+arch earth
+x 20
+y 15
+end
+arch earth
+x 20
+y 16
+end
+arch earth
+x 20
+y 17
+end
+arch earth
+x 20
+y 18
+end
+arch earth
+x 20
+y 19
+end
+arch earth
+x 20
+y 20
+end
+arch cave15
+x 20
+y 20
+end
+arch earth
+x 20
+y 21
+end
+arch cave22
+x 20
+y 21
+end
+arch earth
+x 21
+end
+arch cave2
+x 21
+end
+arch earth
+x 21
+y 3
+end
+arch cave19
+x 21
+y 3
+end
+arch earth
+x 21
+y 4
+end
+arch cave14
+x 21
+y 4
+end
+arch earth
+x 21
+y 5
+end
+arch earth
+x 21
+y 6
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 21
+y 6
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 21
+y 7
+end
+arch earth
+x 21
+y 8
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 21
+y 8
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 21
+y 9
+end
+arch earth
+x 21
+y 10
+end
+arch earth
+x 21
+y 11
+end
+arch earth
+x 21
+y 12
+end
+arch earth
+x 21
+y 13
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 21
+y 13
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 21
+y 14
+end
+arch earth
+x 21
+y 15
+end
+arch earth
+x 21
+y 16
+end
+arch earth
+x 21
+y 17
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 21
+y 17
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 21
+y 18
+end
+arch earth
+x 21
+y 19
+end
+arch cave15
+x 21
+y 19
+end
+arch earth
+x 21
+y 20
+end
+arch cave20
+x 21
+y 20
+end
+arch earth
+x 21
+y 21
+end
+arch cave2
+x 21
+y 21
+end
+arch earth
+x 22
+end
+arch cave2
+x 22
+end
+arch earth
+x 22
+y 4
+end
+arch cave19
+x 22
+y 4
+end
+arch earth
+x 22
+y 5
+end
+arch cave14
+x 22
+y 5
+end
+arch earth
+x 22
+y 6
+end
+arch earth
+x 22
+y 7
+end
+arch earth
+x 22
+y 8
+end
+arch earth
+x 22
+y 9
+end
+arch earth
+x 22
+y 10
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 22
+y 10
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 22
+y 11
+end
+arch earth
+x 22
+y 12
+end
+arch earth
+x 22
+y 13
+end
+arch earth
+x 22
+y 14
+end
+arch earth
+x 22
+y 15
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 22
+y 15
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 22
+y 16
+end
+arch earth
+x 22
+y 17
+end
+arch earth
+x 22
+y 18
+end
+arch cave15
+x 22
+y 18
+end
+arch earth
+x 22
+y 19
+end
+arch cave20
+x 22
+y 19
+end
+arch earth
+x 22
+y 21
+end
+arch cave2
+x 22
+y 21
+end
+arch earth
+x 23
+end
+arch cave2
+x 23
+end
+arch earth
+x 23
+y 5
+end
+arch cave19
+x 23
+y 5
+end
+arch earth
+x 23
+y 6
+end
+arch cave1
+x 23
+y 6
+end
+arch earth
+x 23
+y 7
+end
+arch cave1
+x 23
+y 7
+end
+arch earth
+x 23
+y 8
+end
+arch cave1
+x 23
+y 8
+end
+arch earth
+x 23
+y 9
+end
+arch cave10
+x 23
+y 9
+end
+arch earth
+x 23
+y 10
+end
+arch earth
+x 23
+y 11
+end
+arch earth
+x 23
+y 12
+end
+arch mystic_fist
+name Fist of Earth
+hp 10000
+maxhp 10000
+exp 500000
+dam 50
+wc -20
+ac -15
+x 23
+y 12
+level 50
+resist_physical 80
+resist_magic -100
+resist_fire 50
+resist_electricity 50
+resist_cold 50
+resist_confusion 100
+resist_weaponmagic 50
+resist_slow -50
+resist_paralyze -50
+see_invisible 1
+end
+arch earth
+x 23
+y 13
+end
+arch cave11
+x 23
+y 13
+end
+arch earth
+x 23
+y 14
+end
+arch cave1
+x 23
+y 14
+end
+arch earth
+x 23
+y 15
+end
+arch cave1
+x 23
+y 15
+end
+arch earth
+x 23
+y 16
+end
+arch cave1
+x 23
+y 16
+end
+arch earth
+x 23
+y 17
+end
+arch cave1
+x 23
+y 17
+end
+arch earth
+x 23
+y 18
+end
+arch cave20
+x 23
+y 18
+end
+arch earth
+x 23
+y 21
+end
+arch cave2
+x 23
+y 21
+end
+arch earth
+x 24
+end
+arch cave2
+x 24
+end
+arch earth
+x 24
+y 8
+end
+arch cave24
+x 24
+y 8
+end
+arch earth
+x 24
+y 9
+end
+arch cave9
+x 24
+y 9
+end
+arch earth
+x 24
+y 10
+end
+arch locked_door2
+slaying CaveofVines
+x 24
+y 10
+end
+arch earth
+x 24
+y 11
+end
+arch locked_door2
+slaying CaveofVines
+x 24
+y 11
+end
+arch earth
+x 24
+y 12
+end
+arch locked_door2
+slaying CaveofVines
+x 24
+y 12
+end
+arch earth
+x 24
+y 13
+end
+arch cave12
+x 24
+y 13
+end
+arch earth
+x 24
+y 14
+end
+arch cave23
+x 24
+y 14
+end
+arch earth
+x 24
+y 21
+end
+arch cave2
+x 24
+y 21
+end
+arch earth
+x 25
+end
+arch cave2
+x 25
+end
+arch earth
+x 25
+y 8
+end
+arch cave4
+x 25
+y 8
+end
+arch earth
+x 25
+y 9
+end
+arch earth
+x 25
+y 10
+end
+arch earth
+x 25
+y 11
+end
+arch earth
+x 25
+y 12
+end
+arch earth
+x 25
+y 13
+end
+arch earth
+x 25
+y 14
+end
+arch cave2
+x 25
+y 14
+end
+arch earth
+x 25
+y 21
+end
+arch cave22
+x 25
+y 21
+end
+arch earth
+x 26
+end
+arch cave2
+x 26
+end
+arch earth
+x 26
+y 1
+end
+arch cave24
+x 26
+y 1
+end
+arch earth
+x 26
+y 2
+end
+arch cave3
+x 26
+y 2
+end
+arch earth
+x 26
+y 3
+end
+arch cave3
+x 26
+y 3
+end
+arch earth
+x 26
+y 4
+end
+arch cave3
+x 26
+y 4
+end
+arch earth
+x 26
+y 5
+end
+arch cave3
+x 26
+y 5
+end
+arch earth
+x 26
+y 6
+end
+arch cave3
+x 26
+y 6
+end
+arch earth
+x 26
+y 7
+end
+arch cave23
+x 26
+y 7
+end
+arch earth
+x 26
+y 8
+end
+arch cave4
+x 26
+y 8
+end
+arch earth
+x 26
+y 9
+end
+arch earth
+x 26
+y 10
+end
+arch earth
+x 26
+y 11
+end
+arch button_plate
+x 26
+y 11
+weight 800000
+connected 16
+end
+arch earth
+x 26
+y 12
+end
+arch earth
+x 26
+y 13
+end
+arch earth
+x 26
+y 14
+end
+arch cave2
+x 26
+y 14
+end
+arch earth
+x 26
+y 15
+end
+arch cave24
+x 26
+y 15
+end
+arch earth
+x 26
+y 16
+end
+arch cave3
+x 26
+y 16
+end
+arch earth
+x 26
+y 17
+end
+arch cave3
+x 26
+y 17
+end
+arch earth
+x 26
+y 18
+end
+arch cave3
+x 26
+y 18
+end
+arch earth
+x 26
+y 19
+end
+arch cave3
+x 26
+y 19
+end
+arch earth
+x 26
+y 20
+end
+arch cave3
+x 26
+y 20
+end
+arch earth
+x 26
+y 21
+end
+arch cave23
+x 26
+y 21
+end
+arch earth
+x 27
+end
+arch cave2
+x 27
+end
+arch earth
+x 27
+y 1
+end
+arch cave4
+x 27
+y 1
+end
+arch earth
+x 27
+y 2
+end
+arch random_potion
+x 27
+y 2
+end
+arch earth
+x 27
+y 3
+end
+arch random_potion
+x 27
+y 3
+end
+arch earth
+x 27
+y 4
+end
+arch random_talisman
+x 27
+y 4
+end
+arch earth
+x 27
+y 5
+end
+arch random_talisman
+x 27
+y 5
+end
+arch earth
+x 27
+y 6
+end
+arch random_spells
+x 27
+y 6
+end
+arch earth
+x 27
+y 7
+end
+arch cave12
+x 27
+y 7
+end
+arch earth
+x 27
+y 8
+end
+arch cave9
+x 27
+y 8
+end
+arch earth
+x 27
+y 9
+end
+arch earth
+x 27
+y 10
+end
+arch earth
+x 27
+y 11
+end
+arch earth
+x 27
+y 12
+end
+arch earth
+x 27
+y 13
+end
+arch earth
+x 27
+y 14
+end
+arch cave12
+x 27
+y 14
+end
+arch earth
+x 27
+y 15
+end
+arch cave9
+x 27
+y 15
+end
+arch earth
+x 27
+y 16
+end
+arch random_spells
+x 27
+y 16
+end
+arch earth
+x 27
+y 17
+end
+arch random_talisman
+x 27
+y 17
+end
+arch earth
+x 27
+y 18
+end
+arch random_talisman
+x 27
+y 18
+end
+arch earth
+x 27
+y 19
+end
+arch random_potion
+x 27
+y 19
+end
+arch earth
+x 27
+y 20
+end
+arch random_potion
+x 27
+y 20
+end
+arch earth
+x 27
+y 21
+end
+arch cave2
+x 27
+y 21
+end
+arch earth
+x 28
+end
+arch cave2
+x 28
+end
+arch earth
+x 28
+y 1
+end
+arch cave4
+x 28
+y 1
+end
+arch earth
+x 28
+y 2
+end
+arch random_artifact
+x 28
+y 2
+end
+arch earth
+x 28
+y 3
+end
+arch random_potion
+x 28
+y 3
+end
+arch earth
+x 28
+y 4
+end
+arch random_talisman
+x 28
+y 4
+end
+arch earth
+x 28
+y 5
+end
+arch random_talisman
+x 28
+y 5
+end
+arch earth
+x 28
+y 6
+end
+arch random_spells
+x 28
+y 6
+end
+arch earth
+x 28
+y 7
+end
+arch earth
+x 28
+y 8
+end
+arch block_door_closed
+x 28
+y 8
+connected 16
+end
+arch earth
+x 28
+y 9
+end
+arch block_door_closed
+x 28
+y 9
+connected 16
+end
+arch earth
+x 28
+y 10
+end
+arch block_door_closed
+x 28
+y 10
+connected 16
+end
+arch earth
+x 28
+y 11
+end
+arch block_door_closed
+x 28
+y 11
+connected 16
+end
+arch earth
+x 28
+y 12
+end
+arch block_door_closed
+x 28
+y 12
+connected 16
+end
+arch earth
+x 28
+y 13
+end
+arch block_door_closed
+x 28
+y 13
+connected 16
+end
+arch earth
+x 28
+y 14
+end
+arch block_door_closed
+x 28
+y 14
+connected 16
+end
+arch earth
+x 28
+y 15
+end
+arch earth
+x 28
+y 16
+end
+arch random_spells
+x 28
+y 16
+end
+arch earth
+x 28
+y 17
+end
+arch random_talisman
+x 28
+y 17
+end
+arch earth
+x 28
+y 18
+end
+arch random_talisman
+x 28
+y 18
+end
+arch earth
+x 28
+y 19
+end
+arch random_potion
+x 28
+y 19
+end
+arch earth
+x 28
+y 20
+end
+arch random_artifact
+x 28
+y 20
+end
+arch earth
+x 28
+y 21
+end
+arch cave2
+x 28
+y 21
+end
+arch earth
+x 29
+end
+arch cave2
+x 29
+end
+arch earth
+x 29
+y 1
+end
+arch cave4
+x 29
+y 1
+end
+arch earth
+x 29
+y 2
+end
+arch random_artifact
+x 29
+y 2
+end
+arch earth
+x 29
+y 3
+end
+arch random_potion
+x 29
+y 3
+end
+arch earth
+x 29
+y 4
+end
+arch random_talisman
+x 29
+y 4
+end
+arch earth
+x 29
+y 5
+end
+arch random_talisman
+x 29
+y 5
+end
+arch earth
+x 29
+y 6
+end
+arch random_spells
+x 29
+y 6
+end
+arch earth
+x 29
+y 7
+end
+arch earth
+x 29
+y 8
+end
+arch block_door_closed
+x 29
+y 8
+connected 16
+end
+arch earth
+x 29
+y 9
+end
+arch block_door_closed
+x 29
+y 9
+connected 16
+end
+arch earth
+x 29
+y 10
+end
+arch block_door_closed
+x 29
+y 10
+connected 16
+end
+arch earth
+x 29
+y 11
+end
+arch block_door_closed
+x 29
+y 11
+connected 16
+end
+arch earth
+x 29
+y 12
+end
+arch block_door_closed
+x 29
+y 12
+connected 16
+end
+arch earth
+x 29
+y 13
+end
+arch block_door_closed
+x 29
+y 13
+connected 16
+end
+arch earth
+x 29
+y 14
+end
+arch block_door_closed
+x 29
+y 14
+connected 16
+end
+arch earth
+x 29
+y 15
+end
+arch earth
+x 29
+y 16
+end
+arch random_spells
+x 29
+y 16
+end
+arch earth
+x 29
+y 17
+end
+arch random_talisman
+x 29
+y 17
+end
+arch earth
+x 29
+y 18
+end
+arch random_talisman
+x 29
+y 18
+end
+arch earth
+x 29
+y 19
+end
+arch random_potion
+x 29
+y 19
+end
+arch earth
+x 29
+y 20
+end
+arch random_artifact
+x 29
+y 20
+end
+arch earth
+x 29
+y 21
+end
+arch cave2
+x 29
+y 21
+end
+arch earth
+x 30
+end
+arch cave2
+x 30
+end
+arch earth
+x 30
+y 1
+end
+arch cave4
+x 30
+y 1
+end
+arch earth
+x 30
+y 2
+end
+arch random_potion
+x 30
+y 2
+end
+arch earth
+x 30
+y 3
+end
+arch random_potion
+x 30
+y 3
+end
+arch earth
+x 30
+y 4
+end
+arch random_talisman
+x 30
+y 4
+end
+arch earth
+x 30
+y 5
+end
+arch random_talisman
+x 30
+y 5
+end
+arch earth
+x 30
+y 6
+end
+arch random_spells
+x 30
+y 6
+end
+arch earth
+x 30
+y 7
+end
+arch cave11
+x 30
+y 7
+end
+arch earth
+x 30
+y 8
+end
+arch cave10
+x 30
+y 8
+end
+arch earth
+x 30
+y 9
+end
+arch block_door_closed
+x 30
+y 9
+connected 16
+end
+arch earth
+x 30
+y 10
+end
+arch gauntlets_str
+name Fists
+title of Earth
+Str 3
+dam 20
+wc 1
+x 30
+y 10
+magic 4
+end
+arch earth
+x 30
+y 11
+end
+arch t_boulder
+name Stone of Earth
+msg
+This stone has strange runes upon it.
+endmsg
+x 30
+y 11
+end
+arch earth
+x 30
+y 12
+end
+arch girdle_strcon
+name Girdle
+title of Earth
+Str 3
+Con 2
+hp 1
+x 30
+y 12
+resist_physical 10
+resist_magic -15
+resist_fire 10
+resist_electricity 10
+resist_cold 10
+end
+arch earth
+x 30
+y 13
+end
+arch block_door_closed
+x 30
+y 13
+connected 16
+end
+arch earth
+x 30
+y 14
+end
+arch cave11
+x 30
+y 14
+end
+arch earth
+x 30
+y 15
+end
+arch cave10
+x 30
+y 15
+end
+arch earth
+x 30
+y 16
+end
+arch random_spells
+x 30
+y 16
+end
+arch earth
+x 30
+y 17
+end
+arch random_talisman
+x 30
+y 17
+end
+arch earth
+x 30
+y 18
+end
+arch random_talisman
+x 30
+y 18
+end
+arch earth
+x 30
+y 19
+end
+arch random_potion
+x 30
+y 19
+end
+arch earth
+x 30
+y 20
+end
+arch random_potion
+x 30
+y 20
+end
+arch earth
+x 30
+y 21
+end
+arch cave2
+x 30
+y 21
+end
+arch earth
+x 31
+end
+arch cave2
+x 31
+end
+arch earth
+x 31
+y 1
+end
+arch cave25
+x 31
+y 1
+end
+arch earth
+x 31
+y 2
+end
+arch cave1
+x 31
+y 2
+end
+arch earth
+x 31
+y 3
+end
+arch cave1
+x 31
+y 3
+end
+arch earth
+x 31
+y 4
+end
+arch cave1
+x 31
+y 4
+end
+arch earth
+x 31
+y 5
+end
+arch cave1
+x 31
+y 5
+end
+arch earth
+x 31
+y 6
+end
+arch cave1
+x 31
+y 6
+end
+arch earth
+x 31
+y 7
+end
+arch cave22
+x 31
+y 7
+end
+arch earth
+x 31
+y 8
+end
+arch cave25
+x 31
+y 8
+end
+arch earth
+x 31
+y 9
+end
+arch cave1
+x 31
+y 9
+end
+arch earth
+x 31
+y 10
+end
+arch cave1
+x 31
+y 10
+end
+arch earth
+x 31
+y 11
+end
+arch cave1
+x 31
+y 11
+end
+arch earth
+x 31
+y 12
+end
+arch cave1
+x 31
+y 12
+end
+arch earth
+x 31
+y 13
+end
+arch cave1
+x 31
+y 13
+end
+arch earth
+x 31
+y 14
+end
+arch cave22
+x 31
+y 14
+end
+arch earth
+x 31
+y 15
+end
+arch cave25
+x 31
+y 15
+end
+arch earth
+x 31
+y 16
+end
+arch cave1
+x 31
+y 16
+end
+arch earth
+x 31
+y 17
+end
+arch cave1
+x 31
+y 17
+end
+arch earth
+x 31
+y 18
+end
+arch cave1
+x 31
+y 18
+end
+arch earth
+x 31
+y 19
+end
+arch cave1
+x 31
+y 19
+end
+arch earth
+x 31
+y 20
+end
+arch cave1
+x 31
+y 20
+end
+arch earth
+x 31
+y 21
+end
+arch cave22
+x 31
+y 21
+end
+arch titan
+name Earth Master
+Str 80
+Dex 35
+Con 70
+Pow 35
+hp 18000
+maxhp 18000
+sp 300
+maxsp 300
+exp 1000000
+dam 80
+wc -80
+ac -50
+x 19
+y 10
+speed -0.500000
+level 80
+resist_physical 95
+resist_magic -20
+resist_fire 80
+resist_electricity 95
+resist_cold 60
+resist_confusion -50
+resist_acid 95
+resist_godpower -30
+resist_holyword 50
+carrying 815100
+arch key2
+slaying CaveofVines
+end
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch bonecrusher
+name Earth Crusher
+slaying earth elemental
+dam 150
+weight 800000
+magic 5
+end
+arch mithril_chainmail
+resist_physical 45
+resist_electricity 5
+end
+end

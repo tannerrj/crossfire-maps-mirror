@@ -1,0 +1,1251 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Oct 29 22:54:20 1999
+endmsg
+width 16
+height 14
+end
+arch bwall_2_2_2
+y 3
+end
+arch bwall_1_2
+y 4
+end
+arch button_small
+y 5
+connected 21
+end
+arch bwall_1_4
+y 6
+end
+arch button_small
+y 7
+connected 11
+end
+arch bwall_1_1
+y 8
+end
+arch bwall_2_2_1
+y 9
+end
+arch bwall_2_1_2
+x 1
+y 3
+end
+arch igate_open_1
+x 1
+y 4
+connected 400
+end
+arch god_finger
+Pow 2
+x 1
+y 4
+end
+arch button_small
+x 1
+y 5
+connected 20
+end
+arch bwall_2_1_2
+x 1
+y 6
+end
+arch button_small
+x 1
+y 7
+connected 10
+end
+arch gate_open_1
+name 100
+x 1
+y 8
+connected 100
+end
+arch god_finger
+x 1
+y 8
+end
+arch bwall_2_1_2
+x 1
+y 9
+end
+arch cobblestones
+x 2
+y 2
+end
+arch bwall_2_2_2
+x 2
+y 2
+end
+arch cobblestones
+x 2
+y 3
+end
+arch bwall_3_4
+x 2
+y 3
+end
+arch cobblestones
+x 2
+y 4
+end
+arch bwall_2_1_1
+x 2
+y 4
+end
+arch cobblestones
+x 2
+y 5
+end
+arch bwall_2_1_1
+x 2
+y 5
+end
+arch cobblestones
+x 2
+y 6
+end
+arch bwall_3_4
+x 2
+y 6
+end
+arch cobblestones
+x 2
+y 7
+end
+arch bwall_2_1_1
+x 2
+y 7
+end
+arch cobblestones
+x 2
+y 8
+end
+arch bwall_2_1_1
+x 2
+y 8
+end
+arch cobblestones
+x 2
+y 9
+end
+arch bwall_3_4
+x 2
+y 9
+end
+arch cobblestones
+x 2
+y 10
+end
+arch bwall_2_1_1
+x 2
+y 10
+end
+arch cobblestones
+x 2
+y 11
+end
+arch bwall_2_1_1
+x 2
+y 11
+end
+arch cobblestones
+x 2
+y 12
+end
+arch bwall_2_1_1
+x 2
+y 12
+end
+arch cobblestones
+x 2
+y 13
+end
+arch bwall_2_2_1
+x 2
+y 13
+end
+arch cobblestones
+x 3
+y 2
+end
+arch bwall_2_1_2
+x 3
+y 2
+end
+arch cobblestones
+x 3
+y 3
+end
+arch spikes_open
+x 3
+y 3
+connected 20
+end
+arch elvenboots
+x 3
+y 3
+end
+arch cobblestones
+x 3
+y 4
+end
+arch pit_open
+hp 7
+sp 3
+x 3
+y 4
+end
+arch cobblestones
+x 3
+y 5
+end
+arch spikes_open
+x 3
+y 5
+connected 21
+end
+arch low_boots
+x 3
+y 5
+end
+arch cobblestones
+x 3
+y 6
+end
+arch swall_1_4
+x 3
+y 6
+end
+arch cobblestones
+x 3
+y 7
+end
+arch spikes_open
+x 3
+y 7
+connected 10
+end
+arch cloak
+x 3
+y 7
+end
+arch pit_open
+hp 8
+sp 12
+x 3
+y 8
+end
+arch cobblestones
+x 3
+y 9
+end
+arch spikes_open
+x 3
+y 9
+connected 11
+end
+arch serp_cloak
+x 3
+y 9
+end
+arch cobblestones
+x 3
+y 10
+end
+arch swall_1_4
+x 3
+y 10
+end
+arch cobblestones
+x 3
+y 11
+end
+arch pet_necro
+x 3
+y 11
+end
+arch cobblestones
+x 3
+y 12
+end
+arch cobblestones
+x 3
+y 13
+end
+arch bwall_2_1_2
+x 3
+y 13
+end
+arch cobblestones
+x 4
+y 2
+end
+arch bwall_2_1_2
+x 4
+y 2
+end
+arch cobblestones
+x 4
+y 3
+end
+arch swall_1_1
+x 4
+y 3
+end
+arch cobblestones
+x 4
+y 4
+end
+arch swall_2_1_1
+x 4
+y 4
+end
+arch cobblestones
+x 4
+y 5
+end
+arch swall_2_1_1
+x 4
+y 5
+end
+arch cobblestones
+x 4
+y 6
+end
+arch swall_3_4
+x 4
+y 6
+end
+arch cobblestones
+x 4
+y 7
+end
+arch swall_2_1_1
+x 4
+y 7
+end
+arch cobblestones
+x 4
+y 8
+end
+arch swall_2_1_1
+x 4
+y 8
+end
+arch cobblestones
+x 4
+y 9
+end
+arch swall_2_1_1
+x 4
+y 9
+end
+arch cobblestones
+x 4
+y 10
+end
+arch swall_3_4
+x 4
+y 10
+end
+arch cobblestones
+x 4
+y 11
+end
+arch swall_2_1_1
+x 4
+y 11
+end
+arch cobblestones
+x 4
+y 12
+end
+arch swall_1_2
+x 4
+y 12
+end
+arch cobblestones
+x 4
+y 13
+end
+arch bwall_2_1_2
+x 4
+y 13
+end
+arch cobblestones
+x 5
+y 2
+end
+arch bwall_2_1_2
+x 5
+y 2
+end
+arch cobblestones
+x 5
+y 3
+end
+arch cobblestones
+x 5
+y 4
+end
+arch cobblestones
+x 5
+y 5
+end
+arch cobblestones
+x 5
+y 6
+end
+arch cobblestones
+x 5
+y 7
+end
+arch cobblestones
+x 5
+y 8
+end
+arch cobblestones
+x 5
+y 9
+end
+arch cobblestones
+x 5
+y 10
+end
+arch cobblestones
+x 5
+y 11
+end
+arch cobblestones
+x 5
+y 12
+end
+arch oakdoor
+slaying /ElvenLands/Gcitys/city1
+hp 9
+sp 1
+x 5
+y 12
+end
+arch cobblestones
+x 5
+y 13
+end
+arch bwall_2_1_2
+x 5
+y 13
+end
+arch cobblestones
+x 6
+y 2
+end
+arch bwall_2_1_2
+x 6
+y 2
+end
+arch cobblestones
+x 6
+y 3
+end
+arch cobblestones
+x 6
+y 4
+end
+arch swall_2_2_2
+x 6
+y 4
+end
+arch cobblestones
+x 6
+y 5
+end
+arch swall_2_1_1
+x 6
+y 5
+end
+arch cobblestones
+x 6
+y 6
+end
+arch swall_3_2
+x 6
+y 6
+end
+arch cobblestones
+x 6
+y 7
+end
+arch swall_2_1_1
+x 6
+y 7
+end
+arch cobblestones
+x 6
+y 8
+end
+arch swall_2_1_1
+x 6
+y 8
+end
+arch cobblestones
+x 6
+y 9
+end
+arch swall_2_1_1
+x 6
+y 9
+end
+arch cobblestones
+x 6
+y 10
+end
+arch swall_2_2_1
+x 6
+y 10
+end
+arch goldfloor
+name drop 5000 goldcoins
+food 5000
+x 6
+y 11
+connected 2001
+end
+arch cobblestones
+x 6
+y 12
+end
+arch cobblestones
+x 6
+y 13
+end
+arch bwall_2_1_2
+x 6
+y 13
+end
+arch cobblestones
+x 7
+y 2
+end
+arch bwall_2_1_2
+x 7
+y 2
+end
+arch cobblestones
+x 7
+y 3
+end
+arch cobblestones
+x 7
+y 4
+end
+arch swall_2_1_2
+x 7
+y 4
+end
+arch cobblestones
+x 7
+y 5
+end
+arch spikes_open
+x 7
+y 5
+connected 2002
+end
+arch boulder
+x 7
+y 5
+end
+arch cobblestones
+x 7
+y 6
+end
+arch swall_1_3
+x 7
+y 6
+end
+arch cobblestones
+x 7
+y 7
+end
+arch button_plate
+x 7
+y 7
+connected 400
+end
+arch cobblestones
+x 7
+y 8
+end
+arch button_plate
+x 7
+y 8
+connected 100
+end
+arch button_small
+x 7
+y 9
+connected 1111
+end
+arch cobblestones
+x 7
+y 9
+end
+arch spikes_open
+x 7
+y 9
+connected 1111
+end
+arch cobblestones
+x 7
+y 10
+end
+arch swall_2_2_3
+x 7
+y 10
+end
+arch cobblestones
+x 7
+y 11
+end
+arch swall_2_2_1
+x 7
+y 11
+end
+arch cobblestones
+x 7
+y 12
+end
+arch cobblestones
+x 7
+y 13
+end
+arch bwall_2_1_2
+x 7
+y 13
+end
+arch cobblestones
+x 8
+y 2
+end
+arch bwall_2_1_2
+x 8
+y 2
+end
+arch cobblestones
+x 8
+y 3
+end
+arch cobblestones
+x 8
+y 4
+end
+arch swall_2_2_3
+x 8
+y 4
+end
+arch cobblestones
+x 8
+y 5
+end
+arch swall_2_2_1
+x 8
+y 5
+end
+arch button_small
+x 8
+y 6
+connected 1000
+end
+arch cobblestones
+x 8
+y 6
+end
+arch spikes_open
+x 8
+y 6
+connected 1000
+end
+arch cobblestones
+x 8
+y 7
+end
+arch button_plate
+x 8
+y 7
+connected 300
+end
+arch cobblestones
+x 8
+y 8
+end
+arch button_plate
+x 8
+y 8
+connected 200
+end
+arch cobblestones
+x 8
+y 9
+end
+arch swall_1_4
+x 8
+y 9
+end
+arch cobblestones
+x 8
+y 10
+end
+arch spikes_open
+x 8
+y 10
+connected 2001
+end
+arch boulder
+x 8
+y 10
+end
+arch cobblestones
+x 8
+y 11
+end
+arch swall_2_1_2
+x 8
+y 11
+end
+arch cobblestones
+x 8
+y 12
+end
+arch cobblestones
+x 8
+y 13
+end
+arch bwall_2_1_2
+x 8
+y 13
+end
+arch cobblestones
+x 9
+y 2
+end
+arch bwall_2_1_2
+x 9
+y 2
+end
+arch cobblestones
+x 9
+y 3
+end
+arch goldfloor
+name drop 5000 goldcoins
+food 5000
+x 9
+y 4
+connected 2002
+end
+arch cobblestones
+x 9
+y 5
+end
+arch swall_2_2_3
+x 9
+y 5
+end
+arch cobblestones
+x 9
+y 6
+end
+arch swall_2_1_1
+x 9
+y 6
+end
+arch cobblestones
+x 9
+y 7
+end
+arch swall_2_1_1
+x 9
+y 7
+end
+arch cobblestones
+x 9
+y 8
+end
+arch swall_2_1_1
+x 9
+y 8
+end
+arch cobblestones
+x 9
+y 9
+end
+arch swall_3_4
+x 9
+y 9
+end
+arch cobblestones
+x 9
+y 10
+end
+arch swall_2_1_1
+x 9
+y 10
+end
+arch cobblestones
+x 9
+y 11
+end
+arch swall_2_2_4
+x 9
+y 11
+end
+arch cobblestones
+x 9
+y 12
+end
+arch cobblestones
+x 9
+y 13
+end
+arch bwall_2_1_2
+x 9
+y 13
+end
+arch cobblestones
+x 10
+y 2
+end
+arch bwall_2_1_2
+x 10
+y 2
+end
+arch cobblestones
+x 10
+y 3
+end
+arch cobblestones
+x 10
+y 4
+end
+arch cobblestones
+x 10
+y 5
+end
+arch cobblestones
+x 10
+y 6
+end
+arch cobblestones
+x 10
+y 7
+end
+arch cobblestones
+x 10
+y 8
+end
+arch cobblestones
+x 10
+y 9
+end
+arch cobblestones
+x 10
+y 10
+end
+arch cobblestones
+x 10
+y 11
+end
+arch cobblestones
+x 10
+y 12
+end
+arch cobblestones
+x 10
+y 13
+end
+arch bwall_2_1_2
+x 10
+y 13
+end
+arch cobblestones
+x 11
+y 2
+end
+arch bwall_2_1_2
+x 11
+y 2
+end
+arch cobblestones
+x 11
+y 3
+end
+arch swall_1_1
+x 11
+y 3
+end
+arch cobblestones
+x 11
+y 4
+end
+arch swall_2_1_1
+x 11
+y 4
+end
+arch cobblestones
+x 11
+y 5
+end
+arch swall_2_1_1
+x 11
+y 5
+end
+arch cobblestones
+x 11
+y 6
+end
+arch swall_3_2
+x 11
+y 6
+end
+arch cobblestones
+x 11
+y 7
+end
+arch swall_2_1_1
+x 11
+y 7
+end
+arch cobblestones
+x 11
+y 8
+end
+arch swall_2_1_1
+x 11
+y 8
+end
+arch cobblestones
+x 11
+y 9
+end
+arch swall_2_1_1
+x 11
+y 9
+end
+arch cobblestones
+x 11
+y 10
+end
+arch swall_3_2
+x 11
+y 10
+end
+arch cobblestones
+x 11
+y 11
+end
+arch swall_2_1_1
+x 11
+y 11
+end
+arch cobblestones
+x 11
+y 12
+end
+arch swall_1_2
+x 11
+y 12
+end
+arch cobblestones
+x 11
+y 13
+end
+arch bwall_2_1_2
+x 11
+y 13
+end
+arch cobblestones
+x 12
+y 2
+end
+arch bwall_2_1_2
+x 12
+y 2
+end
+arch cobblestones
+x 12
+y 3
+end
+arch spikes_open
+x 12
+y 3
+connected 23
+end
+arch gloves
+x 12
+y 3
+end
+arch cobblestones
+x 12
+y 4
+end
+arch pit_open
+hp 7
+sp 3
+x 12
+y 4
+end
+arch cobblestones
+x 12
+y 5
+end
+arch spikes_open
+x 12
+y 5
+connected 24
+end
+arch gauntlets_dex
+x 12
+y 5
+end
+arch cobblestones
+x 12
+y 6
+end
+arch swall_1_3
+x 12
+y 6
+end
+arch cobblestones
+x 12
+y 7
+end
+arch spikes_open
+x 12
+y 7
+connected 12
+end
+arch kog
+x 12
+y 7
+end
+arch cobblestones
+x 12
+y 8
+end
+arch pit_open
+hp 7
+sp 12
+x 12
+y 8
+end
+arch cobblestones
+x 12
+y 9
+end
+arch spikes_open
+x 12
+y 9
+connected 13
+end
+arch helmet
+x 12
+y 9
+end
+arch cobblestones
+x 12
+y 10
+end
+arch swall_1_3
+x 12
+y 10
+end
+arch cobblestones
+x 12
+y 11
+end
+arch rustmonster
+x 12
+y 11
+end
+arch cobblestones
+x 12
+y 12
+end
+arch cobblestones
+x 12
+y 13
+end
+arch bwall_2_1_2
+x 12
+y 13
+end
+arch cobblestones
+x 13
+y 2
+end
+arch bwall_2_2_3
+x 13
+y 2
+end
+arch cobblestones
+x 13
+y 3
+end
+arch bwall_3_2
+x 13
+y 3
+end
+arch cobblestones
+x 13
+y 4
+end
+arch bwall_2_1_1
+x 13
+y 4
+end
+arch cobblestones
+x 13
+y 5
+end
+arch bwall_2_1_1
+x 13
+y 5
+end
+arch cobblestones
+x 13
+y 6
+end
+arch bwall_3_2
+x 13
+y 6
+end
+arch cobblestones
+x 13
+y 7
+end
+arch bwall_2_1_1
+x 13
+y 7
+end
+arch cobblestones
+x 13
+y 8
+end
+arch bwall_2_1_1
+x 13
+y 8
+end
+arch cobblestones
+x 13
+y 9
+end
+arch bwall_3_2
+x 13
+y 9
+end
+arch cobblestones
+x 13
+y 10
+end
+arch bwall_2_1_1
+x 13
+y 10
+end
+arch cobblestones
+x 13
+y 11
+end
+arch bwall_2_1_1
+x 13
+y 11
+end
+arch cobblestones
+x 13
+y 12
+end
+arch bwall_2_1_1
+x 13
+y 12
+end
+arch cobblestones
+x 13
+y 13
+end
+arch bwall_2_2_4
+x 13
+y 13
+end
+arch bwall_2_1_2
+x 14
+y 3
+end
+arch igate_open_1
+x 14
+y 4
+connected 300
+end
+arch god_finger
+x 14
+y 4
+end
+arch button_small
+x 14
+y 5
+connected 23
+end
+arch bwall_2_1_2
+x 14
+y 6
+end
+arch button_small
+x 14
+y 7
+connected 13
+end
+arch igate_open_1
+x 14
+y 8
+connected 200
+end
+arch god_finger
+x 14
+y 8
+end
+arch bwall_2_1_2
+x 14
+y 9
+end
+arch bwall_2_2_3
+x 15
+y 3
+end
+arch bwall_1_2
+x 15
+y 4
+end
+arch button_small
+x 15
+y 5
+connected 24
+end
+arch bwall_1_3
+x 15
+y 6
+end
+arch button_small
+x 15
+y 7
+connected 12
+end
+arch bwall_1_1
+x 15
+y 8
+end
+arch bwall_2_2_4
+x 15
+y 9
+end

@@ -1,0 +1,2762 @@
+arch map
+name rest_stop
+width 21
+height 21
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Jul 29 14:34:04 2000
+Modified: 2025-01-28 kettek
+endmsg
+end
+arch grass
+end
+arch grass
+y 1
+end
+arch dirtfloor
+y 2
+end
+arch invis_exit
+slaying /ElvenLands/Mithril/1
+hp 78
+sp 14
+y 2
+end
+arch dirtfloor
+y 3
+end
+arch invis_exit
+slaying /ElvenLands/Mithril/1
+hp 78
+sp 14
+y 3
+end
+arch grass
+y 4
+end
+arch grass
+y 5
+end
+arch brush
+y 5
+end
+arch grass
+y 6
+end
+arch brush
+y 6
+end
+arch woodfloor
+y 7
+end
+arch wwall_2_2_2
+y 7
+end
+arch woodfloor
+y 8
+end
+arch wwall_2_1_1
+y 8
+end
+arch woodfloor
+y 9
+end
+arch wwall_2_1_1
+y 9
+end
+arch woodfloor
+y 10
+end
+arch wwall_2_1_1
+y 10
+end
+arch woodfloor
+y 11
+end
+arch wwall_2_1_1
+y 11
+end
+arch woodfloor
+y 12
+end
+arch wwall_2_2_1
+y 12
+end
+arch grass
+y 13
+end
+arch swall_1_1
+y 13
+end
+arch grass
+y 14
+end
+arch swall_2_1_1
+y 14
+end
+arch grass
+y 15
+end
+arch swall_2_1_1
+y 15
+end
+arch grass
+y 16
+end
+arch swall_2_1_1
+y 16
+end
+arch grass
+y 17
+end
+arch swall_2_1_1
+y 17
+end
+arch grass
+y 18
+end
+arch swall_2_1_1
+y 18
+end
+arch grass
+y 19
+end
+arch swall_2_1_1
+y 19
+end
+arch grass
+y 20
+end
+arch swall_2_2_1
+y 20
+end
+arch grass
+x 1
+end
+arch brush
+x 1
+end
+arch grass
+x 1
+y 1
+end
+arch dirtfloor
+x 1
+y 2
+end
+arch dirtfloor
+x 1
+y 3
+end
+arch grass
+x 1
+y 4
+end
+arch grass
+x 1
+y 5
+end
+arch grass
+x 1
+y 6
+end
+arch brush
+x 1
+y 6
+end
+arch woodfloor
+x 1
+y 7
+end
+arch wwall_2_1_2
+x 1
+y 7
+end
+arch woodfloor
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
+end
+arch chair_2.4
+x 1
+y 9
+end
+arch dwarf
+name Davli the Dwarf
+msg
+@match hi|hello
+Welcome! Would you like a room to sleep
+in or do you want information?
+@match room|sleep
+Please drop 10 gold peices on the table.
+@match info|information
+The road ahead leads to the Dwarven
+Kingdom of Erthos. It's a long and
+dangerous route to the Kingdom of
+Erthos. Would you like to hire a guide
+to help you?
+@match yes
+Just drop 200 gold peices on Gunther's
+table.
+endmsg
+Str 10
+Con 10
+Wis 10
+Pow 10
+Cha 10
+Int 10
+hp 500
+maxhp 500
+dam 3
+wc 5
+ac 5
+x 1
+y 9
+type 0
+carrying 100
+arch key2
+slaying Davli
+end
+end
+arch woodfloor
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 11
+end
+arch woodfloor
+x 1
+y 12
+end
+arch wwall_win2
+x 1
+y 12
+end
+arch grass
+x 1
+y 13
+end
+arch tree3
+x 1
+y 13
+end
+arch grass
+x 1
+y 14
+end
+arch flowers_permanent
+x 1
+y 14
+end
+arch grass
+x 1
+y 15
+end
+arch tree3
+x 1
+y 15
+end
+arch grass
+x 1
+y 16
+end
+arch flowers_permanent
+x 1
+y 16
+end
+arch grass
+x 1
+y 17
+end
+arch tree3
+x 1
+y 17
+end
+arch grass
+x 1
+y 18
+end
+arch flowers_permanent
+x 1
+y 18
+end
+arch grass
+x 1
+y 19
+end
+arch tree3
+x 1
+y 19
+end
+arch grass
+x 1
+y 20
+end
+arch swall_2_1_2
+x 1
+y 20
+end
+arch grass
+x 2
+end
+arch brush
+x 2
+end
+arch tree
+x 2
+y 1
+end
+arch dirtfloor
+x 2
+y 2
+end
+arch dirtfloor
+x 2
+y 3
+end
+arch grass
+x 2
+y 4
+end
+arch tree
+x 2
+y 5
+end
+arch grass
+x 2
+y 6
+end
+arch brush
+x 2
+y 6
+end
+arch woodfloor
+x 2
+y 7
+end
+arch wwall_2_1_2
+x 2
+y 7
+end
+arch woodfloor
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 9
+end
+arch goldfloor
+x 2
+y 9
+invisible 1
+connected 1
+end
+arch table_4
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 12
+end
+arch door_look_1
+x 2
+y 12
+no_pass 0
+end
+arch dirtfloor
+x 2
+y 13
+end
+arch dirtfloor
+x 2
+y 14
+end
+arch dirtfloor
+x 2
+y 15
+end
+arch dirtfloor
+x 2
+y 16
+end
+arch dirtfloor
+x 2
+y 17
+end
+arch dirtfloor
+x 2
+y 18
+end
+arch grass
+x 2
+y 19
+end
+arch flowers_permanent
+x 2
+y 19
+end
+arch grass
+x 2
+y 20
+end
+arch swall_2_1_2
+x 2
+y 20
+end
+arch grass
+x 3
+end
+arch brush
+x 3
+end
+arch grass
+x 3
+y 1
+end
+arch dirtfloor
+x 3
+y 2
+end
+arch dirtfloor
+x 3
+y 3
+end
+arch grass
+x 3
+y 4
+end
+arch grass
+x 3
+y 5
+end
+arch grass
+x 3
+y 6
+end
+arch woodfloor
+x 3
+y 7
+end
+arch wwall_win2
+x 3
+y 7
+end
+arch woodfloor
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 12
+end
+arch wwall_2_1_2
+x 3
+y 12
+end
+arch grass
+x 3
+y 13
+end
+arch tree3
+x 3
+y 13
+end
+arch grass
+x 3
+y 14
+end
+arch flowers_permanent
+x 3
+y 14
+end
+arch grass
+x 3
+y 15
+end
+arch tree3
+x 3
+y 15
+end
+arch grass
+x 3
+y 16
+end
+arch flowers_permanent
+x 3
+y 16
+end
+arch grass
+x 3
+y 17
+end
+arch tree3
+x 3
+y 17
+end
+arch dirtfloor
+x 3
+y 18
+end
+arch grass
+x 3
+y 19
+end
+arch tree3
+x 3
+y 19
+end
+arch grass
+x 3
+y 20
+end
+arch swall_2_1_2
+x 3
+y 20
+end
+arch grass
+x 4
+end
+arch brush
+x 4
+end
+arch grass
+x 4
+y 1
+end
+arch dirtfloor
+x 4
+y 2
+end
+arch dirtfloor
+x 4
+y 3
+end
+arch grass
+x 4
+y 4
+end
+arch grass
+x 4
+y 5
+end
+arch grass
+x 4
+y 6
+end
+arch woodfloor
+x 4
+y 7
+end
+arch wwall_1_3
+x 4
+y 7
+end
+arch woodfloor
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 10
+end
+arch woodfloor
+x 4
+y 11
+end
+arch chair_1.4
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 12
+end
+arch wwall_win2
+x 4
+y 12
+end
+arch grass
+x 4
+y 13
+end
+arch grass
+x 4
+y 14
+end
+arch grass
+x 4
+y 15
+end
+arch grass
+x 4
+y 16
+end
+arch grass
+x 4
+y 17
+end
+arch flowers_permanent
+x 4
+y 17
+end
+arch dirtfloor
+x 4
+y 18
+end
+arch grass
+x 4
+y 19
+end
+arch flowers_permanent
+x 4
+y 19
+end
+arch grass
+x 4
+y 20
+end
+arch swall_2_1_2
+x 4
+y 20
+end
+arch grass
+x 5
+end
+arch grass
+x 5
+y 1
+end
+arch dirtfloor
+x 5
+y 2
+end
+arch dirtfloor
+x 5
+y 3
+end
+arch dirtfloor
+x 5
+y 4
+end
+arch dirtfloor
+x 5
+y 5
+end
+arch dirtfloor
+x 5
+y 6
+end
+arch woodfloor
+x 5
+y 7
+end
+arch door_look_1
+x 5
+y 7
+no_pass 0
+end
+arch woodfloor
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 10
+end
+arch chair_1.1
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 11
+end
+arch booze_table
+name serving coffee (4 g.c @)
+other_arch coffee
+x 5
+y 11
+end
+arch woodfloor
+x 5
+y 12
+end
+arch wwall_3_3
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 13
+end
+arch wwall_2_1_1
+x 5
+y 13
+end
+arch woodfloor
+x 5
+y 14
+end
+arch wwall_win1
+x 5
+y 14
+end
+arch woodfloor
+x 5
+y 15
+end
+arch wwall_2_1_1
+x 5
+y 15
+end
+arch woodfloor
+x 5
+y 16
+end
+arch wwall_2_2_1
+x 5
+y 16
+end
+arch grass
+x 5
+y 17
+end
+arch tree3
+x 5
+y 17
+end
+arch dirtfloor
+x 5
+y 18
+end
+arch grass
+x 5
+y 19
+end
+arch tree3
+x 5
+y 19
+end
+arch grass
+x 5
+y 20
+end
+arch swall_2_1_2
+x 5
+y 20
+end
+arch tree
+x 6
+end
+arch grass
+x 6
+y 1
+end
+arch dirtfloor
+x 6
+y 2
+end
+arch dirtfloor
+x 6
+y 3
+end
+arch grass
+x 6
+y 4
+end
+arch grass
+x 6
+y 5
+end
+arch grass
+x 6
+y 6
+end
+arch woodfloor
+x 6
+y 7
+end
+arch wwall_1_4
+x 6
+y 7
+end
+arch woodfloor
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch chair_1.2
+x 6
+y 11
+end
+arch warrior_1
+name a traveler
+msg
+@match hi|hello
+Hello,I've been traveling the dwarven
+road. The road is dangerous and filled
+with bandits and other risks. But it is
+the only known route to the Dwarven
+Kingdom. I suggest you hire a guide to
+help you. Ask the keeper of this place
+for information.
+endmsg
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
+end
+arch wwall_2_1_2
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 13
+end
+arch chair
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 15
+end
+arch woodfloor
+x 6
+y 16
+end
+arch wwall_2_1_2
+x 6
+y 16
+end
+arch grass
+x 6
+y 17
+end
+arch flowers_permanent
+x 6
+y 17
+end
+arch dirtfloor
+x 6
+y 18
+end
+arch gnome
+name Belri the Gardener
+msg
+@match hi|hello
+Hello. Aren't these flowers beautiful?
+Could you get me the shovel from the
+shed. The key is in front of the pool.
+Just drop the shovel in front of the
+pool and DO NOT DROP IT IN THE POOL
+endmsg
+x 6
+y 18
+unaggressive 1
+end
+arch grass
+x 6
+y 19
+end
+arch flowers_permanent
+x 6
+y 19
+end
+arch grass
+x 6
+y 20
+end
+arch swall_2_1_2
+x 6
+y 20
+end
+arch grass
+x 7
+end
+arch grass
+x 7
+y 1
+end
+arch dirtfloor
+x 7
+y 2
+end
+arch dirtfloor
+x 7
+y 3
+end
+arch grass
+x 7
+y 4
+end
+arch grass
+x 7
+y 5
+end
+arch tree
+x 7
+y 6
+end
+arch woodfloor
+x 7
+y 7
+end
+arch wwall_2_1_2
+x 7
+y 7
+end
+arch woodfloor
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 12
+end
+arch wwall_1_3
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 13
+end
+arch table_4
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 15
+end
+arch bed_1
+x 7
+y 15
+end
+arch woodfloor
+x 7
+y 16
+end
+arch wwall_win2
+x 7
+y 16
+end
+arch grass
+x 7
+y 17
+end
+arch tree3
+x 7
+y 17
+end
+arch dirtfloor
+x 7
+y 18
+end
+arch grass
+x 7
+y 19
+end
+arch tree3
+x 7
+y 19
+end
+arch grass
+x 7
+y 20
+end
+arch swall_2_1_2
+x 7
+y 20
+end
+arch grass
+x 8
+end
+arch grass
+x 8
+y 1
+end
+arch dirtfloor
+x 8
+y 2
+end
+arch dirtfloor
+x 8
+y 3
+end
+arch brush
+x 8
+y 4
+end
+arch grass
+x 8
+y 5
+end
+arch grass
+x 8
+y 6
+end
+arch woodfloor
+x 8
+y 7
+end
+arch wwall_win2
+x 8
+y 7
+end
+arch woodfloor
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 9
+end
+arch chair_1.4
+x 8
+y 9
+end
+arch elf_1
+name Fedner the traveler
+msg
+@match hi
+Hello!
+I am about to tell my story about the
+dark passage.
+Would you like to hear?
+@match yes
+One day I decided to sell my fine
+elixers to the denizens of Darkland. I
+knew the way would be hard. So I hired
+a guide to help me through the dark
+passage. We walked through the
+passage,then suddenly an arrow flew
+from the darkness. My guide pulled out
+a crossbow from his pack and I readied
+my bow. Then eyes apeared in the
+darkness,horrible yellow eyes. The
+figure came into the light,it was a
+person robbed of his sanity. He carried
+a club and growled at us. Then he lept
+at us. My guide fired his crossbow and
+then,the madman lay dead. We never made
+it to the end. My guide was killed by a
+dragon. It got out and lived to tell
+the story.
+endmsg
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 12
+end
+arch door_look_1
+x 8
+y 12
+no_pass 0
+end
+arch woodfloor
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 15
+end
+arch table
+x 8
+y 15
+end
+arch woodfloor
+x 8
+y 16
+end
+arch wwall_win2
+x 8
+y 16
+end
+arch grass
+x 8
+y 17
+end
+arch flowers_permanent
+x 8
+y 17
+end
+arch dirtfloor
+x 8
+y 18
+end
+arch key2
+slaying Joe
+x 8
+y 18
+end
+arch grass
+x 8
+y 19
+end
+arch flowers_permanent
+x 8
+y 19
+end
+arch grass
+x 8
+y 20
+end
+arch swall_2_1_2
+x 8
+y 20
+end
+arch grass
+x 9
+end
+arch tree
+x 9
+y 1
+end
+arch dirtfloor
+x 9
+y 2
+end
+arch dirtfloor
+x 9
+y 3
+end
+arch grass
+x 9
+y 4
+end
+arch brush
+x 9
+y 5
+end
+arch grass
+x 9
+y 6
+end
+arch woodfloor
+x 9
+y 7
+end
+arch wwall_2_1_2
+x 9
+y 7
+end
+arch woodfloor
+x 9
+y 8
+end
+arch charm_floor
+x 9
+y 8
+connected 2
+end
+arch chair_1.1
+x 9
+y 8
+end
+arch lesser_dwarven_guard
+name Gunther
+msg
+@match hi|hello
+Hey friend!
+@match Dark Wood Forest|dark|Dark
+Dark Wood Forest is an extremely
+dangerous place. Many travelers have
+met their grave there. There are many
+caves in Dark Wood Forest. But there is
+one cave that is filled with treasure.
+@match cave
+Legend has it,that there was a very
+successful bandit who robbed many
+dwarves and travelers. His success was
+due to his skill at mastering the
+magical rites. He stored his treasure
+in a cave and summoned 5 xans,5
+scorpions,2 panthers,5 spiders,and 2
+bats to guard his treasure. The animals
+populated the forest and became a
+threat to travelers. The bandit soon
+died.
+@match wood elves|wood elf|Wood elves
+The wood elves lived in the Dark Wood
+Forest long before the monsters came.
+They fashioned magical armour made from
+mithril. An art only the dwarves and
+the mountain elves mastered. Their bows
+shot sure and strong. The wood elves
+became in tune with the magic of the
+trees.
+endmsg
+hp 1000
+maxhp 1000
+dam 20
+wc 6
+x 9
+y 8
+speed 0.400000
+unaggressive 1
+end
+arch woodfloor
+x 9
+y 9
+end
+arch goldfloor
+name drop 200 goldcoins
+msg
+Davli: Ask him anything about the trip
+endmsg
+food 200
+x 9
+y 9
+invisible 1
+connected 2
+end
+arch table_4
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 10
+end
+arch chair_1.3
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 12
+end
+arch wwall_1_4
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 13
+end
+arch clock
+x 9
+y 13
+end
+arch woodfloor
+x 9
+y 14
+end
+arch woodfloor
+x 9
+y 15
+end
+arch chest_2
+slaying Davli
+x 9
+y 15
+carrying 96900
+no_pick 1
+arch cloak
+name dwarven cloak
+end
+arch chain_mail
+end
+arch axe_5
+end
+arch round_shield
+end
+arch scroll
+msg
+This is to verify that Davli,son of
+Davner,is part of the dwarven army.
+signed by Gimmer,Son of Doorin
+endmsg
+end
+arch pouch
+carrying 4500
+arch goldcoin
+nrof 500
+end
+end
+end
+arch woodfloor
+x 9
+y 16
+end
+arch wwall_2_1_2
+x 9
+y 16
+end
+arch grass
+x 9
+y 17
+end
+arch tree3
+x 9
+y 17
+end
+arch goldfloor
+slaying shovel
+msg
+You drop the shovel in the pool.
+(Splash!)
+Suddenly a creature comes out of the
+pool carrying a shovel with gems
+adorning it. She says: Is this the
+shovel you through in? You say: No.
+She dives in and comes back with both
+shovels. She says: You may keep this
+for your honesty.
+endmsg
+food 1
+x 9
+y 18
+invisible 1
+connected 21
+end
+arch grasspond
+x 9
+y 18
+end
+arch grass
+x 9
+y 19
+end
+arch tree3
+x 9
+y 19
+end
+arch grass
+x 9
+y 20
+end
+arch swall_2_1_2
+x 9
+y 20
+end
+arch grass
+x 10
+end
+arch grass
+x 10
+y 1
+end
+arch dirtfloor
+x 10
+y 2
+end
+arch dirtfloor
+x 10
+y 3
+end
+arch grass
+x 10
+y 4
+end
+arch grass
+x 10
+y 5
+end
+arch grass
+x 10
+y 6
+end
+arch woodfloor
+x 10
+y 7
+end
+arch wwall_2_2_3
+x 10
+y 7
+end
+arch woodfloor
+x 10
+y 8
+end
+arch wwall_2_1_1
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 9
+end
+arch wwall_2_1_1
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 10
+end
+arch wwall_win1
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 11
+end
+arch wwall_2_1_1
+x 10
+y 11
+end
+arch woodfloor
+x 10
+y 12
+end
+arch wwall_3_4
+x 10
+y 12
+end
+arch woodfloor
+x 10
+y 13
+end
+arch wwall_2_1_1
+x 10
+y 13
+end
+arch woodfloor
+x 10
+y 14
+end
+arch wwall_win1
+x 10
+y 14
+end
+arch woodfloor
+x 10
+y 15
+end
+arch wwall_2_1_1
+x 10
+y 15
+end
+arch woodfloor
+x 10
+y 16
+end
+arch wwall_2_2_4
+x 10
+y 16
+end
+arch grass
+x 10
+y 17
+end
+arch swall_1_1
+x 10
+y 17
+end
+arch grass
+x 10
+y 18
+end
+arch swall_2_1_1
+x 10
+y 18
+end
+arch grass
+x 10
+y 19
+end
+arch swall_2_1_1
+x 10
+y 19
+end
+arch grass
+x 10
+y 20
+end
+arch swall_2_2_4
+x 10
+y 20
+end
+arch grass
+x 11
+end
+arch grass
+x 11
+y 1
+end
+arch dirtfloor
+x 11
+y 2
+end
+arch dirtfloor
+x 11
+y 3
+end
+arch tree
+x 11
+y 4
+end
+arch grass
+x 11
+y 5
+end
+arch grass
+x 11
+y 6
+end
+arch grass
+x 11
+y 7
+end
+arch grass
+x 11
+y 8
+end
+arch grass
+x 11
+y 9
+end
+arch grass
+x 11
+y 10
+end
+arch grass
+x 11
+y 11
+end
+arch tree
+x 11
+y 12
+end
+arch grass
+x 11
+y 13
+end
+arch grass
+x 11
+y 14
+end
+arch grass
+x 11
+y 15
+end
+arch brush
+x 11
+y 16
+end
+arch grass
+x 11
+y 17
+end
+arch grass
+x 11
+y 18
+end
+arch grass
+x 11
+y 19
+end
+arch grass
+x 11
+y 20
+end
+arch brush
+x 11
+y 20
+end
+arch grass
+x 12
+end
+arch brush
+x 12
+end
+arch grass
+x 12
+y 1
+end
+arch dirtfloor
+x 12
+y 2
+end
+arch dirtfloor
+x 12
+y 3
+end
+arch dirtfloor
+x 12
+y 4
+end
+arch dirtfloor
+x 12
+y 5
+end
+arch dirtfloor
+x 12
+y 6
+end
+arch dirtfloor
+x 12
+y 7
+end
+arch dirtfloor
+x 12
+y 8
+end
+arch dirtfloor
+x 12
+y 9
+end
+arch dirtfloor
+x 12
+y 10
+end
+arch dirtfloor
+x 12
+y 11
+end
+arch grass
+x 12
+y 12
+end
+arch grass
+x 12
+y 13
+end
+arch grass
+x 12
+y 14
+end
+arch grass
+x 12
+y 15
+end
+arch brush
+x 12
+y 16
+end
+arch woodfloor
+x 12
+y 17
+end
+arch wwall_2_2_2
+x 12
+y 17
+end
+arch woodfloor
+x 12
+y 18
+end
+arch wwall_2_1_1
+x 12
+y 18
+end
+arch woodfloor
+x 12
+y 19
+end
+arch wwall_2_1_1
+x 12
+y 19
+end
+arch woodfloor
+x 12
+y 20
+end
+arch wwall_2_2_1
+x 12
+y 20
+end
+arch grass
+x 13
+end
+arch brush
+x 13
+end
+arch grass
+x 13
+y 1
+end
+arch brush
+x 13
+y 1
+end
+arch dirtfloor
+x 13
+y 2
+end
+arch dirtfloor
+x 13
+y 3
+end
+arch dirtfloor
+x 13
+y 4
+end
+arch dirtfloor
+x 13
+y 5
+end
+arch dirtfloor
+x 13
+y 6
+end
+arch grass
+x 13
+y 7
+end
+arch tree
+x 13
+y 8
+end
+arch grass
+x 13
+y 9
+end
+arch grass
+x 13
+y 10
+end
+arch dirtfloor
+x 13
+y 11
+end
+arch grass
+x 13
+y 12
+end
+arch grass
+x 13
+y 13
+end
+arch tree
+x 13
+y 14
+end
+arch brush
+x 13
+y 15
+end
+arch brush
+x 13
+y 16
+end
+arch woodfloor
+x 13
+y 17
+end
+arch wwall_2_1_2
+x 13
+y 17
+end
+arch woodfloor
+x 13
+y 18
+end
+arch bed_save
+x 13
+y 18
+end
+arch woodfloor
+x 13
+y 19
+end
+arch key2
+name Key to room
+slaying Joe2
+x 13
+y 19
+end
+arch note
+msg
+If you go to sleep in this room,use
+this key to get out if the map resets.
+endmsg
+x 13
+y 19
+end
+arch woodfloor
+x 13
+y 20
+end
+arch wwall_2_1_2
+x 13
+y 20
+end
+arch grass
+x 14
+end
+arch grass
+x 14
+y 1
+end
+arch brush
+x 14
+y 1
+end
+arch dirtfloor
+x 14
+y 2
+end
+arch dirtfloor
+x 14
+y 3
+end
+arch dirtfloor
+x 14
+y 4
+end
+arch sign
+msg
+Welcome to Davli's Inn.
+endmsg
+x 14
+y 4
+end
+arch dirtfloor
+x 14
+y 5
+end
+arch grass
+x 14
+y 6
+end
+arch grass
+x 14
+y 7
+end
+arch grass
+x 14
+y 8
+end
+arch grass
+x 14
+y 9
+end
+arch grass
+x 14
+y 10
+end
+arch dirtfloor
+x 14
+y 11
+end
+arch dirtfloor
+x 14
+y 12
+end
+arch dirtfloor
+x 14
+y 13
+end
+arch dirtfloor
+x 14
+y 14
+end
+arch dirtfloor
+x 14
+y 15
+end
+arch dirtfloor
+x 14
+y 16
+end
+arch woodfloor
+x 14
+y 17
+end
+arch wwall_2_1_2
+x 14
+y 17
+end
+arch woodfloor
+x 14
+y 18
+end
+arch table_2
+x 14
+y 18
+end
+arch loaf
+name Dwarven Bread
+food 300
+x 14
+y 18
+end
+arch woodfloor
+x 14
+y 19
+end
+arch woodfloor
+x 14
+y 20
+end
+arch wwall_2_1_2
+x 14
+y 20
+end
+arch grass
+x 15
+end
+arch grass
+x 15
+y 1
+end
+arch grass
+x 15
+y 2
+end
+arch dirtfloor
+x 15
+y 3
+end
+arch dirtfloor
+x 15
+y 4
+end
+arch dirtfloor
+x 15
+y 5
+end
+arch grass
+x 15
+y 6
+end
+arch brush
+x 15
+y 7
+end
+arch grass
+x 15
+y 8
+end
+arch woodfloor
+x 15
+y 9
+end
+arch wwall_2_2_2
+x 15
+y 9
+end
+arch woodfloor
+x 15
+y 10
+end
+arch wwall_2_1_1
+x 15
+y 10
+end
+arch woodfloor
+x 15
+y 11
+end
+arch wwall_3_2
+x 15
+y 11
+end
+arch woodfloor
+x 15
+y 12
+end
+arch wwall_1_2
+x 15
+y 12
+end
+arch woodfloor
+x 15
+y 13
+end
+arch locked_door2
+slaying Joe
+x 15
+y 13
+blocksview 1
+end
+arch woodfloor
+x 15
+y 14
+end
+arch wwall_1_1
+x 15
+y 14
+end
+arch woodfloor
+x 15
+y 15
+end
+arch wwall_2_2_1
+x 15
+y 15
+end
+arch dirtfloor
+x 15
+y 16
+end
+arch woodfloor
+x 15
+y 17
+end
+arch wwall_2_2_3
+x 15
+y 17
+end
+arch woodfloor
+x 15
+y 18
+end
+arch wwall_1_2
+x 15
+y 18
+end
+arch woodfloor
+x 15
+y 19
+end
+arch locked_door2
+slaying Joe2
+x 15
+y 19
+end
+arch woodfloor
+x 15
+y 20
+end
+arch wwall_1_3
+x 15
+y 20
+end
+arch grass
+x 16
+end
+arch grass
+x 16
+y 1
+end
+arch grass
+x 16
+y 2
+end
+arch grass
+x 16
+y 3
+end
+arch dirtfloor
+x 16
+y 4
+end
+arch dirtfloor
+x 16
+y 5
+end
+arch grass
+x 16
+y 6
+end
+arch brush
+x 16
+y 7
+end
+arch grass
+x 16
+y 8
+end
+arch woodfloor
+x 16
+y 9
+end
+arch wwall_2_1_2
+x 16
+y 9
+end
+arch woodfloor
+x 16
+y 10
+end
+arch pit_closed
+hp 3
+sp 9
+x 16
+y 10
+connected 1
+end
+arch key2
+name Key to room
+slaying Joe2
+x 16
+y 10
+end
+arch woodfloor
+x 16
+y 11
+end
+arch wwall_2_1_2
+x 16
+y 11
+end
+arch woodfloor
+x 16
+y 12
+end
+arch chest_2
+name tool box
+x 16
+y 12
+carrying 34500
+arch pipe
+end
+arch saw
+end
+arch wrench
+end
+arch bolt
+name nail
+nrof 10
+end
+arch hammer
+end
+end
+arch woodfloor
+x 16
+y 13
+end
+arch woodfloor
+x 16
+y 14
+end
+arch axe_4
+x 16
+y 14
+end
+arch woodfloor
+x 16
+y 15
+end
+arch wwall_2_1_2
+x 16
+y 15
+end
+arch dirtfloor
+x 16
+y 16
+end
+arch dirtfloor
+x 16
+y 17
+end
+arch dirtfloor
+x 16
+y 18
+end
+arch dirtfloor
+x 16
+y 19
+end
+arch brush
+x 16
+y 20
+end
+arch grass
+x 17
+end
+arch grass
+x 17
+y 1
+end
+arch grass
+x 17
+y 2
+end
+arch grass
+x 17
+y 3
+end
+arch dirtfloor
+x 17
+y 4
+end
+arch dirtfloor
+x 17
+y 5
+end
+arch grass
+x 17
+y 6
+end
+arch brush
+x 17
+y 7
+end
+arch grass
+x 17
+y 8
+end
+arch woodfloor
+x 17
+y 9
+end
+arch wwall_2_1_2
+x 17
+y 9
+end
+arch woodfloor
+x 17
+y 10
+end
+arch pit_closed
+hp 8
+sp 18
+x 17
+y 10
+connected 21
+end
+arch shovel_1
+x 17
+y 10
+end
+arch shovel_1
+name precious shovel
+x 17
+y 10
+value 60000
+magic 5
+end
+arch woodfloor
+x 17
+y 11
+end
+arch wwall_2_1_2
+x 17
+y 11
+end
+arch woodfloor
+x 17
+y 12
+end
+arch shovel_1
+x 17
+y 12
+end
+arch woodfloor
+x 17
+y 13
+end
+arch sword_2
+dam 10
+x 17
+y 13
+end
+arch woodfloor
+x 17
+y 14
+end
+arch sack
+x 17
+y 14
+carrying 67500
+arch cabbage
+nrof 50
+been_applied 1
+end
+end
+arch woodfloor
+x 17
+y 15
+end
+arch wwall_2_1_2
+x 17
+y 15
+end
+arch grass
+x 17
+y 16
+end
+arch woodfloor
+x 17
+y 17
+end
+arch wwall_2_2_2
+x 17
+y 17
+end
+arch woodfloor
+x 17
+y 18
+end
+arch wwall_1_2
+x 17
+y 18
+end
+arch woodfloor
+x 17
+y 19
+end
+arch locked_door2
+slaying Joe2
+x 17
+y 19
+end
+arch woodfloor
+x 17
+y 20
+end
+arch wwall_1_4
+x 17
+y 20
+end
+arch grass
+x 18
+end
+arch tree
+x 18
+y 1
+end
+arch grass
+x 18
+y 2
+end
+arch grass
+x 18
+y 3
+end
+arch brush
+x 18
+y 3
+end
+arch dirtfloor
+x 18
+y 4
+end
+arch dirtfloor
+x 18
+y 5
+end
+arch grass
+x 18
+y 6
+end
+arch grass
+x 18
+y 7
+end
+arch grass
+x 18
+y 8
+end
+arch woodfloor
+x 18
+y 9
+end
+arch wwall_2_2_3
+x 18
+y 9
+end
+arch woodfloor
+x 18
+y 10
+end
+arch wwall_2_1_1
+x 18
+y 10
+end
+arch woodfloor
+x 18
+y 11
+end
+arch wwall_3_4
+x 18
+y 11
+end
+arch woodfloor
+x 18
+y 12
+end
+arch wwall_2_1_1
+x 18
+y 12
+end
+arch woodfloor
+x 18
+y 13
+end
+arch wwall_2_1_1
+x 18
+y 13
+end
+arch woodfloor
+x 18
+y 14
+end
+arch wwall_2_1_1
+x 18
+y 14
+end
+arch woodfloor
+x 18
+y 15
+end
+arch wwall_2_2_4
+x 18
+y 15
+end
+arch grass
+x 18
+y 16
+end
+arch woodfloor
+x 18
+y 17
+end
+arch wwall_2_1_2
+x 18
+y 17
+end
+arch woodfloor
+x 18
+y 18
+end
+arch bed_save
+x 18
+y 18
+end
+arch woodfloor
+x 18
+y 19
+end
+arch woodfloor
+x 18
+y 20
+end
+arch wwall_2_1_2
+x 18
+y 20
+end
+arch grass
+x 19
+end
+arch grass
+x 19
+y 1
+end
+arch grass
+x 19
+y 2
+end
+arch brush
+x 19
+y 2
+end
+arch grass
+x 19
+y 3
+end
+arch dirtfloor
+x 19
+y 4
+end
+arch dirtfloor
+x 19
+y 5
+end
+arch grass
+x 19
+y 6
+end
+arch grass
+x 19
+y 7
+end
+arch grass
+x 19
+y 8
+end
+arch grass
+x 19
+y 9
+end
+arch tree
+x 19
+y 10
+end
+arch grass
+x 19
+y 11
+end
+arch grass
+x 19
+y 12
+end
+arch grass
+x 19
+y 13
+end
+arch grass
+x 19
+y 14
+end
+arch grass
+x 19
+y 15
+end
+arch grass
+x 19
+y 16
+end
+arch woodfloor
+x 19
+y 17
+end
+arch wwall_2_1_2
+x 19
+y 17
+end
+arch woodfloor
+x 19
+y 18
+end
+arch table_2
+x 19
+y 18
+end
+arch loaf
+name Dwarven Bread
+food 300
+x 19
+y 18
+end
+arch woodfloor
+x 19
+y 19
+end
+arch key2
+name Key to room
+slaying Joe2
+x 19
+y 19
+end
+arch note
+msg
+If you go to sleep in this room,use
+this key to get out if the map resets.
+endmsg
+x 19
+y 19
+end
+arch woodfloor
+x 19
+y 20
+end
+arch wwall_2_1_2
+x 19
+y 20
+end
+arch grass
+x 20
+end
+arch grass
+x 20
+y 1
+end
+arch brush
+x 20
+y 1
+end
+arch grass
+x 20
+y 2
+end
+arch brush
+x 20
+y 2
+end
+arch grass
+x 20
+y 3
+end
+arch dirtfloor
+x 20
+y 4
+end
+arch invis_exit
+slaying /ElvenLands/Yoer/yoer_a1
+hp 6
+sp 7
+x 20
+y 4
+end
+arch dirtfloor
+x 20
+y 5
+end
+arch invis_exit
+slaying /ElvenLands/Yoer/yoer_a1
+hp 6
+sp 7
+x 20
+y 5
+end
+arch grass
+x 20
+y 6
+end
+arch grass
+x 20
+y 7
+end
+arch brush
+x 20
+y 8
+end
+arch grass
+x 20
+y 9
+end
+arch grass
+x 20
+y 10
+end
+arch grass
+x 20
+y 11
+end
+arch grass
+x 20
+y 12
+end
+arch brush
+x 20
+y 12
+end
+arch grass
+x 20
+y 13
+end
+arch brush
+x 20
+y 13
+end
+arch grass
+x 20
+y 14
+end
+arch grass
+x 20
+y 15
+end
+arch grass
+x 20
+y 16
+end
+arch woodfloor
+x 20
+y 17
+end
+arch wwall_2_2_3
+x 20
+y 17
+end
+arch woodfloor
+x 20
+y 18
+end
+arch wwall_2_1_1
+x 20
+y 18
+end
+arch woodfloor
+x 20
+y 19
+end
+arch wwall_2_1_1
+x 20
+y 19
+end
+arch woodfloor
+x 20
+y 20
+end
+arch wwall_2_2_4
+x 20
+y 20
+end

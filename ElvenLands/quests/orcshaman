@@ -1,0 +1,4510 @@
+arch map
+name orcshaman
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun May 13 14:26:56 2001
+endmsg
+enter_x 12
+enter_y 23
+width 24
+height 24
+end
+arch medium_stones
+end
+arch mine10
+end
+arch medium_stones
+y 1
+end
+arch mine3
+y 1
+end
+arch medium_stones
+y 2
+end
+arch mine3
+y 2
+end
+arch medium_stones
+y 3
+end
+arch mine3
+y 3
+end
+arch medium_stones
+y 4
+end
+arch mine3
+y 4
+end
+arch medium_stones
+y 5
+end
+arch mine3
+y 5
+end
+arch medium_stones
+y 6
+end
+arch mine3
+y 6
+end
+arch medium_stones
+y 7
+end
+arch mine3
+y 7
+end
+arch medium_stones
+y 8
+end
+arch mine3
+y 8
+end
+arch medium_stones
+y 9
+end
+arch mine3
+y 9
+end
+arch medium_stones
+y 10
+end
+arch mine3
+y 10
+end
+arch medium_stones
+y 11
+end
+arch mine3
+y 11
+end
+arch medium_stones
+y 12
+end
+arch mine3
+y 12
+end
+arch medium_stones
+y 13
+end
+arch mine3
+y 13
+end
+arch medium_stones
+y 14
+end
+arch mine3
+y 14
+end
+arch medium_stones
+y 15
+end
+arch mine3
+y 15
+end
+arch medium_stones
+y 16
+end
+arch mine11
+y 16
+end
+arch medium_stones
+y 17
+end
+arch mine3
+y 17
+end
+arch medium_stones
+y 18
+end
+arch mine3
+y 18
+end
+arch medium_stones
+y 19
+end
+arch mine3
+y 19
+end
+arch medium_stones
+y 20
+end
+arch mine3
+y 20
+end
+arch medium_stones
+y 21
+end
+arch mine3
+y 21
+end
+arch medium_stones
+y 22
+end
+arch mine3
+y 22
+end
+arch medium_stones
+y 23
+end
+arch mine4
+y 23
+end
+arch medium_stones
+x 1
+end
+arch mine2
+x 1
+end
+arch medium_stones
+x 1
+y 1
+end
+arch generate_gnoll
+x 1
+y 1
+end
+arch medium_stones
+x 1
+y 2
+end
+arch generate_goblin
+x 1
+y 2
+end
+arch medium_stones
+x 1
+y 3
+end
+arch generate_gnoll
+x 1
+y 3
+end
+arch medium_stones
+x 1
+y 4
+end
+arch generate_goblin
+x 1
+y 4
+end
+arch medium_stones
+x 1
+y 5
+end
+arch generate_gnoll
+x 1
+y 5
+end
+arch medium_stones
+x 1
+y 6
+end
+arch generate_goblin
+x 1
+y 6
+end
+arch medium_stones
+x 1
+y 7
+end
+arch generate_gnoll
+x 1
+y 7
+end
+arch medium_stones
+x 1
+y 8
+end
+arch generate_goblin
+x 1
+y 8
+end
+arch medium_stones
+x 1
+y 9
+end
+arch generate_gnoll
+x 1
+y 9
+end
+arch medium_stones
+x 1
+y 10
+end
+arch generate_goblin
+x 1
+y 10
+end
+arch medium_stones
+x 1
+y 11
+end
+arch generate_gnoll
+x 1
+y 11
+end
+arch medium_stones
+x 1
+y 12
+end
+arch generate_goblin
+x 1
+y 12
+end
+arch medium_stones
+x 1
+y 13
+end
+arch generate_gnoll
+x 1
+y 13
+end
+arch medium_stones
+x 1
+y 14
+end
+arch generate_goblin
+x 1
+y 14
+end
+arch medium_stones
+x 1
+y 15
+end
+arch generate_gnoll
+x 1
+y 15
+end
+arch medium_stones
+x 1
+y 16
+end
+arch mine2
+x 1
+y 16
+end
+arch medium_stones
+x 1
+y 17
+end
+arch medium_stones
+x 1
+y 18
+end
+arch medium_stones
+x 1
+y 19
+end
+arch medium_stones
+x 1
+y 20
+end
+arch medium_stones
+x 1
+y 21
+end
+arch medium_stones
+x 1
+y 22
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 1
+y 22
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 1
+y 23
+end
+arch mine2
+x 1
+y 23
+end
+arch medium_stones
+x 2
+end
+arch mine2
+x 2
+end
+arch medium_stones
+x 2
+y 1
+end
+arch generate_goblin
+x 2
+y 1
+end
+arch medium_stones
+x 2
+y 2
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 2
+y 2
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 2
+y 3
+end
+arch medium_stones
+x 2
+y 4
+end
+arch medium_stones
+x 2
+y 5
+end
+arch medium_stones
+x 2
+y 6
+end
+arch medium_stones
+x 2
+y 7
+end
+arch medium_stones
+x 2
+y 8
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 2
+y 8
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 2
+y 9
+end
+arch medium_stones
+x 2
+y 10
+end
+arch medium_stones
+x 2
+y 11
+end
+arch medium_stones
+x 2
+y 12
+end
+arch medium_stones
+x 2
+y 13
+end
+arch medium_stones
+x 2
+y 14
+end
+arch medium_stones
+x 2
+y 15
+end
+arch medium_stones
+x 2
+y 16
+end
+arch mine7
+x 2
+y 16
+end
+arch medium_stones
+x 2
+y 17
+end
+arch medium_stones
+x 2
+y 18
+end
+arch medium_stones
+x 2
+y 19
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 2
+y 19
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 2
+y 20
+end
+arch medium_stones
+x 2
+y 21
+end
+arch medium_stones
+x 2
+y 22
+end
+arch medium_stones
+x 2
+y 23
+end
+arch mine2
+x 2
+y 23
+end
+arch medium_stones
+x 3
+end
+arch mine2
+x 3
+end
+arch medium_stones
+x 3
+y 1
+end
+arch generate_gnoll
+x 3
+y 1
+end
+arch medium_stones
+x 3
+y 2
+end
+arch medium_stones
+x 3
+y 3
+end
+arch key2
+slaying orcshaman1
+x 3
+y 3
+end
+arch medium_stones
+x 3
+y 4
+end
+arch medium_stones
+x 3
+y 5
+end
+arch medium_stones
+x 3
+y 6
+end
+arch medium_stones
+x 3
+y 7
+end
+arch medium_stones
+x 3
+y 8
+end
+arch medium_stones
+x 3
+y 9
+end
+arch medium_stones
+x 3
+y 10
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 3
+y 10
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 3
+y 11
+end
+arch medium_stones
+x 3
+y 12
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 3
+y 12
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 3
+y 13
+end
+arch medium_stones
+x 3
+y 14
+end
+arch medium_stones
+x 3
+y 15
+end
+arch medium_stones
+x 3
+y 16
+end
+arch door_2
+x 3
+y 16
+end
+arch medium_stones
+x 3
+y 17
+end
+arch medium_stones
+x 3
+y 18
+end
+arch medium_stones
+x 3
+y 19
+end
+arch medium_stones
+x 3
+y 20
+end
+arch medium_stones
+x 3
+y 21
+end
+arch medium_stones
+x 3
+y 22
+end
+arch medium_stones
+x 3
+y 23
+end
+arch mine2
+x 3
+y 23
+end
+arch medium_stones
+x 4
+end
+arch mine2
+x 4
+end
+arch medium_stones
+x 4
+y 1
+end
+arch generate_goblin
+x 4
+y 1
+end
+arch medium_stones
+x 4
+y 2
+end
+arch medium_stones
+x 4
+y 3
+end
+arch medium_stones
+x 4
+y 4
+end
+arch medium_stones
+x 4
+y 5
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 4
+y 5
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 4
+y 6
+end
+arch medium_stones
+x 4
+y 7
+end
+arch medium_stones
+x 4
+y 8
+end
+arch medium_stones
+x 4
+y 9
+end
+arch medium_stones
+x 4
+y 10
+end
+arch medium_stones
+x 4
+y 11
+end
+arch medium_stones
+x 4
+y 12
+end
+arch medium_stones
+x 4
+y 13
+end
+arch medium_stones
+x 4
+y 14
+end
+arch medium_stones
+x 4
+y 15
+end
+arch medium_stones
+x 4
+y 16
+end
+arch mine6
+x 4
+y 16
+end
+arch medium_stones
+x 4
+y 17
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 4
+y 17
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 4
+y 18
+end
+arch medium_stones
+x 4
+y 19
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 4
+y 19
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 4
+y 20
+end
+arch medium_stones
+x 4
+y 21
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 4
+y 21
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 4
+y 22
+end
+arch medium_stones
+x 4
+y 23
+end
+arch mine2
+x 4
+y 23
+end
+arch medium_stones
+x 5
+end
+arch mine2
+x 5
+end
+arch medium_stones
+x 5
+y 1
+end
+arch generate_gnoll
+x 5
+y 1
+end
+arch medium_stones
+x 5
+y 2
+end
+arch generate_goblin
+x 5
+y 2
+end
+arch medium_stones
+x 5
+y 3
+end
+arch generate_gnoll
+x 5
+y 3
+end
+arch medium_stones
+x 5
+y 4
+end
+arch generate_goblin
+x 5
+y 4
+end
+arch medium_stones
+x 5
+y 5
+end
+arch generate_gnoll
+x 5
+y 5
+end
+arch medium_stones
+x 5
+y 6
+end
+arch generate_goblin
+x 5
+y 6
+end
+arch medium_stones
+x 5
+y 7
+end
+arch generate_gnoll
+x 5
+y 7
+end
+arch medium_stones
+x 5
+y 8
+end
+arch generate_goblin
+x 5
+y 8
+end
+arch medium_stones
+x 5
+y 9
+end
+arch generate_gnoll
+x 5
+y 9
+end
+arch medium_stones
+x 5
+y 10
+end
+arch generate_goblin
+x 5
+y 10
+end
+arch medium_stones
+x 5
+y 11
+end
+arch generate_gnoll
+x 5
+y 11
+end
+arch medium_stones
+x 5
+y 12
+end
+arch generate_goblin
+x 5
+y 12
+end
+arch medium_stones
+x 5
+y 13
+end
+arch generate_gnoll
+x 5
+y 13
+end
+arch medium_stones
+x 5
+y 14
+end
+arch generate_goblin
+x 5
+y 14
+end
+arch medium_stones
+x 5
+y 15
+end
+arch generate_gnoll
+x 5
+y 15
+end
+arch medium_stones
+x 5
+y 16
+end
+arch mine2
+x 5
+y 16
+end
+arch medium_stones
+x 5
+y 17
+end
+arch medium_stones
+x 5
+y 18
+end
+arch medium_stones
+x 5
+y 19
+end
+arch medium_stones
+x 5
+y 20
+end
+arch medium_stones
+x 5
+y 21
+end
+arch medium_stones
+x 5
+y 22
+end
+arch medium_stones
+x 5
+y 23
+end
+arch mine2
+x 5
+y 23
+end
+arch medium_stones
+x 6
+end
+arch mine16
+x 6
+end
+arch medium_stones
+x 6
+y 1
+end
+arch mine3
+x 6
+y 1
+end
+arch medium_stones
+x 6
+y 2
+end
+arch mine3
+x 6
+y 2
+end
+arch medium_stones
+x 6
+y 3
+end
+arch mine3
+x 6
+y 3
+end
+arch medium_stones
+x 6
+y 4
+end
+arch mine3
+x 6
+y 4
+end
+arch medium_stones
+x 6
+y 5
+end
+arch mine3
+x 6
+y 5
+end
+arch medium_stones
+x 6
+y 6
+end
+arch mine3
+x 6
+y 6
+end
+arch medium_stones
+x 6
+y 7
+end
+arch mine11
+x 6
+y 7
+end
+arch medium_stones
+x 6
+y 8
+end
+arch mine3
+x 6
+y 8
+end
+arch medium_stones
+x 6
+y 9
+end
+arch mine3
+x 6
+y 9
+end
+arch medium_stones
+x 6
+y 10
+end
+arch mine3
+x 6
+y 10
+end
+arch medium_stones
+x 6
+y 11
+end
+arch mine3
+x 6
+y 11
+end
+arch medium_stones
+x 6
+y 12
+end
+arch mine3
+x 6
+y 12
+end
+arch medium_stones
+x 6
+y 13
+end
+arch mine3
+x 6
+y 13
+end
+arch medium_stones
+x 6
+y 14
+end
+arch mine3
+x 6
+y 14
+end
+arch medium_stones
+x 6
+y 15
+end
+arch mine3
+x 6
+y 15
+end
+arch medium_stones
+x 6
+y 16
+end
+arch mine13
+x 6
+y 16
+end
+arch medium_stones
+x 6
+y 17
+end
+arch medium_stones
+x 6
+y 18
+end
+arch medium_stones
+x 6
+y 19
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 6
+y 19
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 6
+y 20
+end
+arch medium_stones
+x 6
+y 21
+end
+arch medium_stones
+x 6
+y 22
+end
+arch medium_stones
+x 6
+y 23
+end
+arch mine2
+x 6
+y 23
+end
+arch medium_stones
+x 7
+end
+arch mine2
+x 7
+end
+arch medium_stones
+x 7
+y 1
+end
+arch medium_stones
+x 7
+y 2
+end
+arch medium_stones
+x 7
+y 3
+end
+arch medium_stones
+x 7
+y 4
+end
+arch medium_stones
+x 7
+y 5
+end
+arch medium_stones
+x 7
+y 6
+end
+arch medium_stones
+x 7
+y 7
+end
+arch mine2
+x 7
+y 7
+end
+arch medium_stones
+x 7
+y 8
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 7
+y 8
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 7
+y 9
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 7
+y 9
+level 5
+carrying 27500
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 7
+y 10
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 7
+y 10
+level 5
+carrying 27500
+reflect_missile 1
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 7
+y 11
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 7
+y 11
+level 5
+carrying 13250
+reflect_missile 1
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 7
+y 12
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 7
+y 12
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 7
+y 13
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 7
+y 13
+level 5
+carrying 27500
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 7
+y 14
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 7
+y 14
+level 5
+carrying 27500
+reflect_missile 1
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 7
+y 15
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 7
+y 15
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 7
+y 16
+end
+arch mine16
+x 7
+y 16
+end
+arch medium_stones
+x 7
+y 17
+end
+arch mine3
+x 7
+y 17
+end
+arch medium_stones
+x 7
+y 18
+end
+arch mine3
+x 7
+y 18
+end
+arch medium_stones
+x 7
+y 19
+end
+arch mine5
+x 7
+y 19
+end
+arch medium_stones
+x 7
+y 20
+end
+arch door_1
+x 7
+y 20
+end
+arch medium_stones
+x 7
+y 21
+end
+arch mine8
+x 7
+y 21
+end
+arch medium_stones
+x 7
+y 22
+end
+arch mine3
+x 7
+y 22
+end
+arch medium_stones
+x 7
+y 23
+end
+arch mine13
+x 7
+y 23
+end
+arch medium_stones
+x 8
+end
+arch mine2
+x 8
+end
+arch medium_stones
+x 8
+y 1
+end
+arch medium_stones
+x 8
+y 2
+end
+arch medium_stones
+x 8
+y 3
+end
+arch medium_stones
+x 8
+y 4
+end
+arch goblin
+name student of Galuk
+Pow 4
+hp 100
+maxhp 100
+exp 200
+dam 5
+wc 1
+ac 3
+x 8
+y 4
+randomitems wizard
+can_cast_spell 1
+end
+arch medium_stones
+x 8
+y 5
+end
+arch medium_stones
+x 8
+y 6
+end
+arch medium_stones
+x 8
+y 7
+end
+arch mine2
+x 8
+y 7
+end
+arch medium_stones
+x 8
+y 8
+end
+arch medium_stones
+x 8
+y 9
+end
+arch medium_stones
+x 8
+y 10
+end
+arch medium_stones
+x 8
+y 11
+end
+arch medium_stones
+x 8
+y 12
+end
+arch medium_stones
+x 8
+y 13
+end
+arch medium_stones
+x 8
+y 14
+end
+arch medium_stones
+x 8
+y 15
+end
+arch medium_stones
+x 8
+y 16
+end
+arch mine2
+x 8
+y 16
+end
+arch medium_stones
+x 8
+y 17
+end
+arch medium_stones
+x 8
+y 18
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 8
+y 18
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 8
+y 19
+end
+arch medium_stones
+x 8
+y 20
+end
+arch medium_stones
+x 8
+y 21
+end
+arch medium_stones
+x 8
+y 22
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 8
+y 22
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 8
+y 23
+end
+arch mine2
+x 8
+y 23
+end
+arch medium_stones
+x 9
+end
+arch mine2
+x 9
+end
+arch medium_stones
+x 9
+y 1
+end
+arch medium_stones
+x 9
+y 2
+end
+arch medium_stones
+x 9
+y 3
+end
+arch medium_stones
+x 9
+y 4
+end
+arch medium_stones
+x 9
+y 5
+end
+arch medium_stones
+x 9
+y 6
+end
+arch medium_stones
+x 9
+y 7
+end
+arch mine2
+x 9
+y 7
+end
+arch medium_stones
+x 9
+y 8
+end
+arch medium_stones
+x 9
+y 9
+end
+arch medium_stones
+x 9
+y 10
+end
+arch medium_stones
+x 9
+y 11
+end
+arch medium_stones
+x 9
+y 12
+end
+arch medium_stones
+x 9
+y 13
+end
+arch medium_stones
+x 9
+y 14
+end
+arch medium_stones
+x 9
+y 15
+end
+arch medium_stones
+x 9
+y 16
+end
+arch mine2
+x 9
+y 16
+end
+arch medium_stones
+x 9
+y 17
+end
+arch medium_stones
+x 9
+y 18
+end
+arch medium_stones
+x 9
+y 19
+end
+arch medium_stones
+x 9
+y 20
+end
+arch medium_stones
+x 9
+y 21
+end
+arch medium_stones
+x 9
+y 22
+end
+arch medium_stones
+x 9
+y 23
+end
+arch mine2
+x 9
+y 23
+end
+arch medium_stones
+x 10
+end
+arch mine2
+x 10
+end
+arch medium_stones
+x 10
+y 1
+end
+arch medium_stones
+x 10
+y 2
+end
+arch goblin
+name student of Galuk
+Pow 4
+hp 100
+maxhp 100
+exp 200
+dam 5
+wc 1
+ac 3
+x 10
+y 2
+randomitems wizard
+can_cast_spell 1
+end
+arch medium_stones
+x 10
+y 3
+end
+arch medium_stones
+x 10
+y 4
+end
+arch medium_stones
+x 10
+y 5
+end
+arch medium_stones
+x 10
+y 6
+end
+arch medium_stones
+x 10
+y 7
+end
+arch mine7
+x 10
+y 7
+end
+arch medium_stones
+x 10
+y 8
+end
+arch medium_stones
+x 10
+y 9
+end
+arch medium_stones
+x 10
+y 10
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 10
+y 10
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 10
+y 11
+end
+arch medium_stones
+x 10
+y 12
+end
+arch medium_stones
+x 10
+y 13
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 10
+y 13
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 10
+y 14
+end
+arch medium_stones
+x 10
+y 15
+end
+arch medium_stones
+x 10
+y 16
+end
+arch mine7
+x 10
+y 16
+end
+arch medium_stones
+x 10
+y 17
+end
+arch medium_stones
+x 10
+y 18
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 10
+y 18
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 10
+y 19
+end
+arch medium_stones
+x 10
+y 20
+end
+arch medium_stones
+x 10
+y 21
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 10
+y 21
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 10
+y 22
+end
+arch medium_stones
+x 10
+y 23
+end
+arch mine2
+x 10
+y 23
+end
+arch medium_stones
+x 11
+end
+arch mine2
+x 11
+end
+arch medium_stones
+x 11
+y 1
+end
+arch ologhi
+name Galuk
+Str 0
+Dex 10
+Con 8
+Wis 15
+Pow 8
+hp 150
+maxhp 150
+sp 25
+maxsp 25
+exp 1000
+dam 12
+wc -5
+ac -2
+x 11
+y 1
+level 6
+resist_physical 0
+resist_magic 0
+resist_electricity 0
+carrying 25020
+can_cast_spell 1
+can_use_wand 1
+can_use_ring 1
+arch book
+sp 4
+end
+arch book
+sp 1
+end
+arch book
+sp 17
+end
+arch book
+sp 5
+end
+arch book
+sp 7
+end
+arch ring
+name ring of Galuk
+magic 1
+end
+end
+arch medium_stones
+x 11
+y 2
+end
+arch medium_stones
+x 11
+y 3
+end
+arch medium_stones
+x 11
+y 4
+end
+arch goblin
+name student of Galuk
+Pow 4
+hp 100
+maxhp 100
+sp 16
+exp 200
+dam 5
+wc 1
+ac 3
+x 11
+y 4
+carrying 2300
+randomitems wizard
+can_cast_spell 1
+arch wand
+end
+end
+arch medium_stones
+x 11
+y 5
+end
+arch medium_stones
+x 11
+y 6
+end
+arch medium_stones
+x 11
+y 7
+end
+arch door_2
+hp 800
+x 11
+y 7
+end
+arch medium_stones
+x 11
+y 8
+end
+arch medium_stones
+x 11
+y 9
+end
+arch medium_stones
+x 11
+y 10
+end
+arch medium_stones
+x 11
+y 11
+end
+arch medium_stones
+x 11
+y 12
+end
+arch medium_stones
+x 11
+y 13
+end
+arch medium_stones
+x 11
+y 14
+end
+arch medium_stones
+x 11
+y 15
+end
+arch medium_stones
+x 11
+y 16
+end
+arch locked_door1
+slaying orcshaman2
+x 11
+y 16
+end
+arch medium_stones
+x 11
+y 17
+end
+arch medium_stones
+x 11
+y 18
+end
+arch medium_stones
+x 11
+y 19
+end
+arch medium_stones
+x 11
+y 20
+end
+arch medium_stones
+x 11
+y 21
+end
+arch medium_stones
+x 11
+y 22
+end
+arch medium_stones
+x 11
+y 23
+end
+arch mine7
+x 11
+y 23
+end
+arch medium_stones
+x 12
+end
+arch mine2
+x 12
+end
+arch medium_stones
+x 12
+y 1
+end
+arch medium_stones
+x 12
+y 2
+end
+arch goblin
+name student of Galuk
+Pow 4
+hp 100
+maxhp 100
+exp 200
+dam 5
+wc 1
+ac 3
+x 12
+y 2
+carrying 2300
+randomitems wizard
+can_cast_spell 1
+arch wand
+end
+end
+arch medium_stones
+x 12
+y 3
+end
+arch medium_stones
+x 12
+y 4
+end
+arch medium_stones
+x 12
+y 5
+end
+arch medium_stones
+x 12
+y 6
+end
+arch medium_stones
+x 12
+y 7
+end
+arch door_2
+hp 800
+x 12
+y 7
+end
+arch medium_stones
+x 12
+y 8
+end
+arch medium_stones
+x 12
+y 9
+end
+arch medium_stones
+x 12
+y 10
+end
+arch medium_stones
+x 12
+y 11
+end
+arch medium_stones
+x 12
+y 12
+end
+arch medium_stones
+x 12
+y 13
+end
+arch medium_stones
+x 12
+y 14
+end
+arch medium_stones
+x 12
+y 15
+end
+arch medium_stones
+x 12
+y 16
+end
+arch locked_door1
+slaying orcshaman2
+x 12
+y 16
+end
+arch medium_stones
+x 12
+y 17
+end
+arch medium_stones
+x 12
+y 18
+end
+arch medium_stones
+x 12
+y 19
+end
+arch medium_stones
+x 12
+y 20
+end
+arch medium_stones
+x 12
+y 21
+end
+arch medium_stones
+x 12
+y 22
+end
+arch medium_stones
+x 12
+y 23
+end
+arch stair_up_3
+slaying ../../ElvenLands/Yoer/Yoer
+hp 29
+sp 2
+x 12
+y 23
+end
+arch medium_stones
+x 13
+end
+arch mine2
+x 13
+end
+arch medium_stones
+x 13
+y 1
+end
+arch medium_stones
+x 13
+y 2
+end
+arch medium_stones
+x 13
+y 3
+end
+arch medium_stones
+x 13
+y 4
+end
+arch medium_stones
+x 13
+y 5
+end
+arch medium_stones
+x 13
+y 6
+end
+arch medium_stones
+x 13
+y 7
+end
+arch mine6
+x 13
+y 7
+end
+arch medium_stones
+x 13
+y 8
+end
+arch medium_stones
+x 13
+y 9
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 13
+y 9
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 13
+y 10
+end
+arch medium_stones
+x 13
+y 11
+end
+arch medium_stones
+x 13
+y 12
+end
+arch medium_stones
+x 13
+y 13
+end
+arch medium_stones
+x 13
+y 14
+end
+arch medium_stones
+x 13
+y 15
+end
+arch medium_stones
+x 13
+y 16
+end
+arch mine6
+x 13
+y 16
+end
+arch medium_stones
+x 13
+y 17
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 13
+y 17
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 13
+y 18
+end
+arch medium_stones
+x 13
+y 19
+end
+arch medium_stones
+x 13
+y 20
+end
+arch medium_stones
+x 13
+y 21
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 13
+y 21
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 13
+y 22
+end
+arch medium_stones
+x 13
+y 23
+end
+arch mine6
+x 13
+y 23
+end
+arch medium_stones
+x 14
+end
+arch mine2
+x 14
+end
+arch medium_stones
+x 14
+y 1
+end
+arch medium_stones
+x 14
+y 2
+end
+arch medium_stones
+x 14
+y 3
+end
+arch medium_stones
+x 14
+y 4
+end
+arch medium_stones
+x 14
+y 5
+end
+arch medium_stones
+x 14
+y 6
+end
+arch medium_stones
+x 14
+y 7
+end
+arch mine2
+x 14
+y 7
+end
+arch medium_stones
+x 14
+y 8
+end
+arch medium_stones
+x 14
+y 9
+end
+arch medium_stones
+x 14
+y 10
+end
+arch medium_stones
+x 14
+y 11
+end
+arch medium_stones
+x 14
+y 12
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 14
+y 12
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 14
+y 13
+end
+arch medium_stones
+x 14
+y 14
+end
+arch medium_stones
+x 14
+y 15
+end
+arch medium_stones
+x 14
+y 16
+end
+arch mine2
+x 14
+y 16
+end
+arch medium_stones
+x 14
+y 17
+end
+arch medium_stones
+x 14
+y 18
+end
+arch medium_stones
+x 14
+y 19
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 14
+y 19
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 14
+y 20
+end
+arch medium_stones
+x 14
+y 21
+end
+arch medium_stones
+x 14
+y 22
+end
+arch medium_stones
+x 14
+y 23
+end
+arch mine2
+x 14
+y 23
+end
+arch medium_stones
+x 15
+end
+arch mine2
+x 15
+end
+arch medium_stones
+x 15
+y 1
+end
+arch medium_stones
+x 15
+y 2
+end
+arch medium_stones
+x 15
+y 3
+end
+arch medium_stones
+x 15
+y 4
+end
+arch goblin
+name student of Galuk
+Pow 4
+hp 100
+maxhp 100
+exp 200
+dam 5
+wc 1
+ac 3
+x 15
+y 4
+randomitems wizard
+can_cast_spell 1
+end
+arch medium_stones
+x 15
+y 5
+end
+arch medium_stones
+x 15
+y 6
+end
+arch medium_stones
+x 15
+y 7
+end
+arch mine2
+x 15
+y 7
+end
+arch medium_stones
+x 15
+y 8
+end
+arch medium_stones
+x 15
+y 9
+end
+arch medium_stones
+x 15
+y 10
+end
+arch medium_stones
+x 15
+y 11
+end
+arch medium_stones
+x 15
+y 12
+end
+arch medium_stones
+x 15
+y 13
+end
+arch medium_stones
+x 15
+y 14
+end
+arch medium_stones
+x 15
+y 15
+end
+arch medium_stones
+x 15
+y 16
+end
+arch mine2
+x 15
+y 16
+end
+arch medium_stones
+x 15
+y 17
+end
+arch medium_stones
+x 15
+y 18
+end
+arch medium_stones
+x 15
+y 19
+end
+arch medium_stones
+x 15
+y 20
+end
+arch medium_stones
+x 15
+y 21
+end
+arch medium_stones
+x 15
+y 22
+end
+arch medium_stones
+x 15
+y 23
+end
+arch mine2
+x 15
+y 23
+end
+arch medium_stones
+x 16
+end
+arch mine2
+x 16
+end
+arch medium_stones
+x 16
+y 1
+end
+arch medium_stones
+x 16
+y 2
+end
+arch medium_stones
+x 16
+y 3
+end
+arch medium_stones
+x 16
+y 4
+end
+arch medium_stones
+x 16
+y 5
+end
+arch medium_stones
+x 16
+y 6
+end
+arch medium_stones
+x 16
+y 7
+end
+arch mine2
+x 16
+y 7
+end
+arch medium_stones
+x 16
+y 8
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 16
+y 8
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 16
+y 9
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 16
+y 9
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 16
+y 10
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 16
+y 10
+level 5
+carrying 13250
+reflect_missile 1
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 16
+y 11
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 16
+y 11
+level 5
+carrying 27500
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 16
+y 12
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 16
+y 12
+level 5
+carrying 13250
+reflect_missile 1
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 16
+y 13
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+x 16
+y 13
+level 5
+carrying 27500
+reflect_missile 1
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 16
+y 14
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 16
+y 14
+level 5
+carrying 13250
+stand_still 1
+arch arrow
+nrof 50
+end
+arch bow
+end
+end
+arch medium_stones
+x 16
+y 15
+end
+arch goblin
+name goblin archer
+Str 20
+Wis 13
+hp 100
+maxhp 100
+exp 100
+dam 5
+wc -2
+x 16
+y 15
+level 5
+carrying 27500
+stand_still 1
+arch bolt
+nrof 50
+end
+arch crossbow
+end
+end
+arch medium_stones
+x 16
+y 16
+end
+arch mine2
+x 16
+y 16
+end
+arch medium_stones
+x 16
+y 17
+end
+arch medium_stones
+x 16
+y 18
+end
+arch medium_stones
+x 16
+y 19
+end
+arch medium_stones
+x 16
+y 20
+end
+arch medium_stones
+x 16
+y 21
+end
+arch medium_stones
+x 16
+y 22
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 16
+y 22
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 16
+y 23
+end
+arch mine2
+x 16
+y 23
+end
+arch medium_stones
+x 17
+end
+arch mine16
+x 17
+end
+arch medium_stones
+x 17
+y 1
+end
+arch mine3
+x 17
+y 1
+end
+arch medium_stones
+x 17
+y 2
+end
+arch mine3
+x 17
+y 2
+end
+arch medium_stones
+x 17
+y 3
+end
+arch mine3
+x 17
+y 3
+end
+arch medium_stones
+x 17
+y 4
+end
+arch mine3
+x 17
+y 4
+end
+arch medium_stones
+x 17
+y 5
+end
+arch mine3
+x 17
+y 5
+end
+arch medium_stones
+x 17
+y 6
+end
+arch mine3
+x 17
+y 6
+end
+arch medium_stones
+x 17
+y 7
+end
+arch mine14
+x 17
+y 7
+end
+arch medium_stones
+x 17
+y 8
+end
+arch mine3
+x 17
+y 8
+end
+arch medium_stones
+x 17
+y 9
+end
+arch mine3
+x 17
+y 9
+end
+arch medium_stones
+x 17
+y 10
+end
+arch mine3
+x 17
+y 10
+end
+arch medium_stones
+x 17
+y 11
+end
+arch mine3
+x 17
+y 11
+end
+arch medium_stones
+x 17
+y 12
+end
+arch mine3
+x 17
+y 12
+end
+arch medium_stones
+x 17
+y 13
+end
+arch mine3
+x 17
+y 13
+end
+arch medium_stones
+x 17
+y 14
+end
+arch mine3
+x 17
+y 14
+end
+arch medium_stones
+x 17
+y 15
+end
+arch mine3
+x 17
+y 15
+end
+arch medium_stones
+x 17
+y 16
+end
+arch mine17
+x 17
+y 16
+end
+arch medium_stones
+x 17
+y 17
+end
+arch mine3
+x 17
+y 17
+end
+arch medium_stones
+x 17
+y 18
+end
+arch mine3
+x 17
+y 18
+end
+arch medium_stones
+x 17
+y 19
+end
+arch mine5
+x 17
+y 19
+end
+arch medium_stones
+x 17
+y 20
+end
+arch locked_door2
+slaying orcshaman1
+x 17
+y 20
+end
+arch medium_stones
+x 17
+y 21
+end
+arch mine8
+x 17
+y 21
+end
+arch medium_stones
+x 17
+y 22
+end
+arch mine3
+x 17
+y 22
+end
+arch medium_stones
+x 17
+y 23
+end
+arch mine13
+x 17
+y 23
+end
+arch medium_stones
+x 18
+end
+arch mine2
+x 18
+end
+arch medium_stones
+x 18
+y 1
+end
+arch generate_gnoll
+x 18
+y 1
+end
+arch medium_stones
+x 18
+y 2
+end
+arch generate_goblin
+x 18
+y 2
+end
+arch medium_stones
+x 18
+y 3
+end
+arch generate_gnoll
+x 18
+y 3
+end
+arch medium_stones
+x 18
+y 4
+end
+arch generate_goblin
+x 18
+y 4
+end
+arch medium_stones
+x 18
+y 5
+end
+arch generate_gnoll
+x 18
+y 5
+end
+arch medium_stones
+x 18
+y 6
+end
+arch generate_goblin
+x 18
+y 6
+end
+arch medium_stones
+x 18
+y 7
+end
+arch generate_gnoll
+x 18
+y 7
+end
+arch medium_stones
+x 18
+y 8
+end
+arch generate_goblin
+x 18
+y 8
+end
+arch medium_stones
+x 18
+y 9
+end
+arch generate_gnoll
+x 18
+y 9
+end
+arch medium_stones
+x 18
+y 10
+end
+arch generate_goblin
+x 18
+y 10
+end
+arch medium_stones
+x 18
+y 11
+end
+arch generate_gnoll
+x 18
+y 11
+end
+arch medium_stones
+x 18
+y 12
+end
+arch generate_goblin
+x 18
+y 12
+end
+arch medium_stones
+x 18
+y 13
+end
+arch generate_gnoll
+x 18
+y 13
+end
+arch medium_stones
+x 18
+y 14
+end
+arch generate_goblin
+x 18
+y 14
+end
+arch medium_stones
+x 18
+y 15
+end
+arch generate_gnoll
+x 18
+y 15
+end
+arch medium_stones
+x 18
+y 16
+end
+arch mine2
+x 18
+y 16
+end
+arch medium_stones
+x 18
+y 17
+end
+arch medium_stones
+x 18
+y 18
+end
+arch medium_stones
+x 18
+y 19
+end
+arch medium_stones
+x 18
+y 20
+end
+arch medium_stones
+x 18
+y 21
+end
+arch medium_stones
+x 18
+y 22
+end
+arch medium_stones
+x 18
+y 23
+end
+arch mine2
+x 18
+y 23
+end
+arch medium_stones
+x 19
+end
+arch mine2
+x 19
+end
+arch medium_stones
+x 19
+y 1
+end
+arch generate_goblin
+x 19
+y 1
+end
+arch medium_stones
+x 19
+y 2
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 19
+y 2
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 19
+y 3
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 19
+y 3
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 19
+y 4
+end
+arch medium_stones
+x 19
+y 5
+end
+arch medium_stones
+x 19
+y 6
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 19
+y 6
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 19
+y 7
+end
+arch medium_stones
+x 19
+y 8
+end
+arch medium_stones
+x 19
+y 9
+end
+arch medium_stones
+x 19
+y 10
+end
+arch medium_stones
+x 19
+y 11
+end
+arch medium_stones
+x 19
+y 12
+end
+arch medium_stones
+x 19
+y 13
+end
+arch medium_stones
+x 19
+y 14
+end
+arch medium_stones
+x 19
+y 15
+end
+arch medium_stones
+x 19
+y 16
+end
+arch mine7
+x 19
+y 16
+end
+arch medium_stones
+x 19
+y 17
+end
+arch medium_stones
+x 19
+y 18
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 19
+y 18
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 19
+y 19
+end
+arch medium_stones
+x 19
+y 20
+end
+arch medium_stones
+x 19
+y 21
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 19
+y 21
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 19
+y 22
+end
+arch medium_stones
+x 19
+y 23
+end
+arch mine2
+x 19
+y 23
+end
+arch medium_stones
+x 20
+end
+arch mine2
+x 20
+end
+arch medium_stones
+x 20
+y 1
+end
+arch generate_gnoll
+x 20
+y 1
+end
+arch medium_stones
+x 20
+y 2
+end
+arch key2
+slaying orcshaman2
+x 20
+y 2
+end
+arch medium_stones
+x 20
+y 3
+end
+arch medium_stones
+x 20
+y 4
+end
+arch medium_stones
+x 20
+y 5
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 20
+y 5
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 20
+y 6
+end
+arch medium_stones
+x 20
+y 7
+end
+arch medium_stones
+x 20
+y 8
+end
+arch medium_stones
+x 20
+y 9
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 20
+y 9
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 20
+y 10
+end
+arch medium_stones
+x 20
+y 11
+end
+arch medium_stones
+x 20
+y 12
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 20
+y 12
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 20
+y 13
+end
+arch medium_stones
+x 20
+y 14
+end
+arch medium_stones
+x 20
+y 15
+end
+arch medium_stones
+x 20
+y 16
+end
+arch door_2
+x 20
+y 16
+end
+arch medium_stones
+x 20
+y 17
+end
+arch medium_stones
+x 20
+y 18
+end
+arch medium_stones
+x 20
+y 19
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 20
+y 19
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 20
+y 20
+end
+arch medium_stones
+x 20
+y 21
+end
+arch medium_stones
+x 20
+y 22
+end
+arch medium_stones
+x 20
+y 23
+end
+arch mine2
+x 20
+y 23
+end
+arch medium_stones
+x 21
+end
+arch mine2
+x 21
+end
+arch medium_stones
+x 21
+y 1
+end
+arch generate_goblin
+x 21
+y 1
+end
+arch medium_stones
+x 21
+y 2
+end
+arch medium_stones
+x 21
+y 3
+end
+arch medium_stones
+x 21
+y 4
+end
+arch medium_stones
+x 21
+y 5
+end
+arch medium_stones
+x 21
+y 6
+end
+arch medium_stones
+x 21
+y 7
+end
+arch goblin
+name goblin guard
+hp 150
+maxhp 150
+exp 200
+dam 5
+wc -5
+ac 5
+x 21
+y 7
+level 5
+carrying 32000
+arch leather_armour
+name goblin's armour
+ac 3
+resist_physical 15
+magic 2
+end
+arch axe_4
+name goblin's axe
+dam 10
+magic 2
+last_sp 9
+end
+arch spiked_shield
+end
+end
+arch medium_stones
+x 21
+y 8
+end
+arch medium_stones
+x 21
+y 9
+end
+arch medium_stones
+x 21
+y 10
+end
+arch medium_stones
+x 21
+y 11
+end
+arch medium_stones
+x 21
+y 12
+end
+arch medium_stones
+x 21
+y 13
+end
+arch medium_stones
+x 21
+y 14
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 21
+y 14
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 21
+y 15
+end
+arch medium_stones
+x 21
+y 16
+end
+arch mine6
+x 21
+y 16
+end
+arch medium_stones
+x 21
+y 17
+end
+arch medium_stones
+x 21
+y 18
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 21
+y 18
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 21
+y 19
+end
+arch medium_stones
+x 21
+y 20
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 21
+y 20
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 21
+y 21
+end
+arch medium_stones
+x 21
+y 22
+end
+arch medium_stones
+x 21
+y 23
+end
+arch mine2
+x 21
+y 23
+end
+arch medium_stones
+x 22
+end
+arch mine2
+x 22
+end
+arch medium_stones
+x 22
+y 1
+end
+arch generate_gnoll
+x 22
+y 1
+end
+arch medium_stones
+x 22
+y 2
+end
+arch generate_goblin
+x 22
+y 2
+end
+arch medium_stones
+x 22
+y 3
+end
+arch generate_gnoll
+x 22
+y 3
+end
+arch medium_stones
+x 22
+y 4
+end
+arch generate_goblin
+x 22
+y 4
+end
+arch medium_stones
+x 22
+y 5
+end
+arch generate_gnoll
+x 22
+y 5
+end
+arch medium_stones
+x 22
+y 6
+end
+arch generate_goblin
+x 22
+y 6
+end
+arch medium_stones
+x 22
+y 7
+end
+arch generate_gnoll
+x 22
+y 7
+end
+arch medium_stones
+x 22
+y 8
+end
+arch generate_goblin
+x 22
+y 8
+end
+arch medium_stones
+x 22
+y 9
+end
+arch generate_gnoll
+x 22
+y 9
+end
+arch medium_stones
+x 22
+y 10
+end
+arch generate_goblin
+x 22
+y 10
+end
+arch medium_stones
+x 22
+y 11
+end
+arch generate_gnoll
+x 22
+y 11
+end
+arch medium_stones
+x 22
+y 12
+end
+arch generate_goblin
+x 22
+y 12
+end
+arch medium_stones
+x 22
+y 13
+end
+arch generate_gnoll
+x 22
+y 13
+end
+arch medium_stones
+x 22
+y 14
+end
+arch generate_goblin
+x 22
+y 14
+end
+arch medium_stones
+x 22
+y 15
+end
+arch generate_gnoll
+x 22
+y 15
+end
+arch medium_stones
+x 22
+y 16
+end
+arch mine2
+x 22
+y 16
+end
+arch medium_stones
+x 22
+y 17
+end
+arch medium_stones
+x 22
+y 18
+end
+arch medium_stones
+x 22
+y 19
+end
+arch medium_stones
+x 22
+y 20
+end
+arch medium_stones
+x 22
+y 21
+end
+arch medium_stones
+x 22
+y 22
+end
+arch gnoll
+name gnoll fighter
+Wis 20
+hp 100
+maxhp 100
+exp 150
+dam 5
+wc -5
+ac -2
+x 22
+y 22
+carrying 29500
+arch leather_armour
+end
+arch dagger
+name gnoll's dagger
+dam 3
+last_sp 4
+end
+arch t_dagger
+nrof 5
+end
+end
+arch medium_stones
+x 22
+y 23
+end
+arch mine2
+x 22
+y 23
+end
+arch medium_stones
+x 23
+end
+arch mine9
+x 23
+end
+arch medium_stones
+x 23
+y 1
+end
+arch mine3
+x 23
+y 1
+end
+arch medium_stones
+x 23
+y 2
+end
+arch mine3
+x 23
+y 2
+end
+arch medium_stones
+x 23
+y 3
+end
+arch mine3
+x 23
+y 3
+end
+arch medium_stones
+x 23
+y 4
+end
+arch mine3
+x 23
+y 4
+end
+arch medium_stones
+x 23
+y 5
+end
+arch mine3
+x 23
+y 5
+end
+arch medium_stones
+x 23
+y 6
+end
+arch mine3
+x 23
+y 6
+end
+arch medium_stones
+x 23
+y 7
+end
+arch mine3
+x 23
+y 7
+end
+arch medium_stones
+x 23
+y 8
+end
+arch mine3
+x 23
+y 8
+end
+arch medium_stones
+x 23
+y 9
+end
+arch mine3
+x 23
+y 9
+end
+arch medium_stones
+x 23
+y 10
+end
+arch mine3
+x 23
+y 10
+end
+arch medium_stones
+x 23
+y 11
+end
+arch mine3
+x 23
+y 11
+end
+arch medium_stones
+x 23
+y 12
+end
+arch mine3
+x 23
+y 12
+end
+arch medium_stones
+x 23
+y 13
+end
+arch mine3
+x 23
+y 13
+end
+arch medium_stones
+x 23
+y 14
+end
+arch mine3
+x 23
+y 14
+end
+arch medium_stones
+x 23
+y 15
+end
+arch mine3
+x 23
+y 15
+end
+arch medium_stones
+x 23
+y 16
+end
+arch mine14
+x 23
+y 16
+end
+arch medium_stones
+x 23
+y 17
+end
+arch mine3
+x 23
+y 17
+end
+arch medium_stones
+x 23
+y 18
+end
+arch mine3
+x 23
+y 18
+end
+arch medium_stones
+x 23
+y 19
+end
+arch mine3
+x 23
+y 19
+end
+arch medium_stones
+x 23
+y 20
+end
+arch mine3
+x 23
+y 20
+end
+arch medium_stones
+x 23
+y 21
+end
+arch mine3
+x 23
+y 21
+end
+arch medium_stones
+x 23
+y 22
+end
+arch mine3
+x 23
+y 22
+end
+arch medium_stones
+x 23
+y 23
+end
+arch mine12
+x 23
+y 23
+end

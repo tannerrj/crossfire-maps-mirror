@@ -1,0 +1,4434 @@
+arch map
+name shop_1
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Wed Dec 22 22:04:46 1999
+endmsg
+width 21
+height 21
+end
+arch woodfloor
+end
+arch wall_2_2_2
+end
+arch woodfloor
+y 1
+end
+arch wall_2_1_1
+y 1
+end
+arch woodfloor
+y 2
+end
+arch wall_2_1_1
+y 2
+end
+arch woodfloor
+y 3
+end
+arch wall_2_1_1
+y 3
+end
+arch woodfloor
+y 4
+end
+arch wall_2_1_1
+y 4
+end
+arch woodfloor
+y 5
+end
+arch wall_3_2
+y 5
+end
+arch woodfloor
+y 6
+end
+arch wall_2_1_1
+y 6
+end
+arch woodfloor
+y 7
+end
+arch wall_2_1_1
+y 7
+end
+arch woodfloor
+y 8
+end
+arch wall_2_1_1
+y 8
+end
+arch woodfloor
+y 9
+end
+arch wall_2_1_1
+y 9
+end
+arch woodfloor
+y 10
+end
+arch wall_2_1_1
+y 10
+end
+arch woodfloor
+y 11
+end
+arch wall_2_1_1
+y 11
+end
+arch woodfloor
+y 12
+end
+arch wall_2_1_1
+y 12
+end
+arch woodfloor
+y 13
+end
+arch wall_2_1_1
+y 13
+end
+arch woodfloor
+y 14
+end
+arch wall_2_1_1
+y 14
+end
+arch woodfloor
+y 15
+end
+arch wall_2_1_1
+y 15
+end
+arch woodfloor
+y 16
+end
+arch wall_2_1_1
+y 16
+end
+arch woodfloor
+y 17
+end
+arch wall_2_1_1
+y 17
+end
+arch woodfloor
+y 18
+end
+arch wall_2_1_1
+y 18
+end
+arch woodfloor
+y 19
+end
+arch wall_2_1_1
+y 19
+end
+arch woodfloor
+y 20
+end
+arch wall_2_2_1
+y 20
+end
+arch woodfloor
+x 1
+end
+arch wall_2_1_2
+x 1
+end
+arch woodfloor
+x 1
+y 1
+end
+arch oakdoor
+slaying /ElvenLands/Darkoth/darkland
+hp 48
+sp 49
+x 1
+y 1
+end
+arch woodfloor
+x 1
+y 2
+end
+arch woodfloor
+x 1
+y 3
+end
+arch swall_1_4
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
+arch shop_mat
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch wall_2_1_2
+x 1
+y 5
+end
+arch shop_empty
+x 1
+y 6
+end
+arch woodfloor
+x 1
+y 6
+end
+arch shop_mat
+x 1
+y 6
+end
+arch shop_empty
+x 1
+y 7
+end
+arch woodfloor
+x 1
+y 7
+end
+arch shop_empty
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 8
+end
+arch bolt
+name Bolt
+title of Assisinating Trolls
+slaying troll
+food 100
+dam 7
+x 1
+y 8
+nrof 10
+attacktype 131072
+value 50000
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 9
+end
+arch woodfloor
+x 1
+y 9
+end
+arch true_lead
+name cube
+title of power
+Pow 2
+maxsp 100
+x 1
+y 9
+type 156
+value 150000
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 10
+end
+arch hammer_2
+name Hammer of Ghosthit
+Str -1
+Dex 1
+Con -1
+Pow 1
+Cha -1
+Int 1
+dam 10
+x 1
+y 10
+attacktype 528
+value 70000
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 11
+end
+arch woodfloor
+x 1
+y 11
+end
+arch crown
+name good crown
+x 1
+y 11
+resist_physical 30
+resist_magic 30
+resist_electricity 30
+resist_acid 30
+value 90000
+magic 3
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 12
+end
+arch woodfloor
+x 1
+y 12
+end
+arch hammer
+name behemoth crusher
+slaying behemoth
+Str 1
+Dex 1
+dam 15
+x 1
+y 12
+value 500
+magic 3
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 13
+end
+arch woodfloor
+x 1
+y 13
+end
+arch wig
+name beautiful wig
+Cha 2
+x 1
+y 13
+value 9999
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 14
+end
+arch woodfloor
+x 1
+y 14
+end
+arch axe
+name axe of wood
+Str 1
+Dex 1
+Con 1
+dam 20
+x 1
+y 14
+resist_physical 15
+resist_fire -100
+value 5000
+magic 3
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 15
+end
+arch woodfloor
+x 1
+y 15
+end
+arch ring_mail2
+name Tunic of Heroism
+Str 1
+Dex 1
+Con 1
+Cha 1
+x 1
+y 15
+resist_physical 15
+resist_fear 50
+value 90000
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 16
+end
+arch woodfloor
+x 1
+y 16
+end
+arch robe2
+name robe of snake
+Str 1
+Dex 1
+Con 1
+Cha -3
+x 1
+y 16
+resist_poison 30
+value 90000
+magic 3
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 17
+end
+arch woodfloor
+x 1
+y 17
+end
+arch gauntlets_dex
+x 1
+y 17
+magic 3
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 18
+end
+arch woodfloor
+x 1
+y 18
+end
+arch dress2
+name dress of beauty
+Cha 5
+x 1
+y 18
+value 80000
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 1
+y 19
+end
+arch woodfloor
+x 1
+y 19
+end
+arch tunic
+name gold tunic
+msg
+This shirt was woven from strands of
+perfect gold. It has been enchanted by
+an elven mage.
+endmsg
+Str 1
+Dex 1
+Con 1
+ac 2
+x 1
+y 19
+resist_physical 10
+value 100000
+weight 10000
+magic 5
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 1
+y 20
+end
+arch wall_2_1_2
+x 1
+y 20
+end
+arch woodfloor
+x 2
+end
+arch wall_2_1_2
+x 2
+end
+arch woodfloor
+x 2
+y 1
+end
+arch woodfloor
+x 2
+y 2
+end
+arch woodfloor
+x 2
+y 3
+end
+arch swall_2_1_2
+x 2
+y 3
+end
+arch woodfloor
+x 2
+y 4
+end
+arch check_inv
+slaying Twenster_member
+x 2
+y 4
+connected 267
+end
+arch woodfloor
+x 2
+y 5
+end
+arch wall_2_1_2
+x 2
+y 5
+end
+arch shop_empty
+x 2
+y 6
+end
+arch woodfloor
+x 2
+y 6
+end
+arch shop_empty
+x 2
+y 7
+end
+arch woodfloor
+x 2
+y 7
+end
+arch shop_empty
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 8
+end
+arch shop_empty
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 9
+end
+arch shop_empty
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 10
+end
+arch shop_empty
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 11
+end
+arch shop_empty
+x 2
+y 12
+end
+arch woodfloor
+x 2
+y 12
+end
+arch shop_empty
+x 2
+y 13
+end
+arch woodfloor
+x 2
+y 13
+end
+arch shop_empty
+x 2
+y 14
+end
+arch woodfloor
+x 2
+y 14
+end
+arch shop_empty
+x 2
+y 15
+end
+arch woodfloor
+x 2
+y 15
+end
+arch shop_empty
+x 2
+y 16
+end
+arch woodfloor
+x 2
+y 16
+end
+arch shop_empty
+x 2
+y 17
+end
+arch woodfloor
+x 2
+y 17
+end
+arch shop_empty
+x 2
+y 18
+end
+arch woodfloor
+x 2
+y 18
+end
+arch shop_empty
+x 2
+y 19
+end
+arch woodfloor
+x 2
+y 19
+end
+arch lapron
+name apron of iron
+x 2
+y 19
+resist_physical 15
+material 2
+value 30000
+weight 16000
+magic 3
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 2
+y 20
+end
+arch wall_2_1_2
+x 2
+y 20
+end
+arch woodfloor
+x 3
+end
+arch wall_2_1_2
+x 3
+end
+arch woodfloor
+x 3
+y 1
+end
+arch woodfloor
+x 3
+y 2
+end
+arch woodfloor
+x 3
+y 3
+end
+arch swall_1_3
+x 3
+y 3
+end
+arch woodfloor
+x 3
+y 4
+end
+arch grate_closed_2
+x 3
+y 4
+connected 267
+end
+arch woodfloor
+x 3
+y 5
+end
+arch wall_2_1_2
+x 3
+y 5
+end
+arch shop_empty
+x 3
+y 6
+end
+arch woodfloor
+x 3
+y 6
+end
+arch menu
+x 3
+y 6
+end
+arch shop_empty
+x 3
+y 7
+end
+arch woodfloor
+x 3
+y 7
+end
+arch shop_empty
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 8
+end
+arch shop_empty
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 9
+end
+arch shop_empty
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 10
+end
+arch shop_empty
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 11
+end
+arch shop_empty
+x 3
+y 12
+end
+arch woodfloor
+x 3
+y 12
+end
+arch shop_empty
+x 3
+y 13
+end
+arch woodfloor
+x 3
+y 13
+end
+arch shop_empty
+x 3
+y 14
+end
+arch woodfloor
+x 3
+y 14
+end
+arch shop_empty
+x 3
+y 15
+end
+arch woodfloor
+x 3
+y 15
+end
+arch shop_empty
+x 3
+y 16
+end
+arch woodfloor
+x 3
+y 16
+end
+arch shop_empty
+x 3
+y 17
+end
+arch woodfloor
+x 3
+y 17
+end
+arch shop_empty
+x 3
+y 18
+end
+arch woodfloor
+x 3
+y 18
+end
+arch shop_empty
+x 3
+y 19
+end
+arch woodfloor
+x 3
+y 19
+end
+arch a_helmet
+name thinking cap
+Int 4
+x 3
+y 19
+value 100000
+magic 3
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 3
+y 20
+end
+arch wall_2_1_2
+x 3
+y 20
+end
+arch woodfloor
+x 4
+end
+arch wall_2_1_2
+x 4
+end
+arch woodfloor
+x 4
+y 1
+end
+arch woodfloor
+x 4
+y 2
+end
+arch woodfloor
+x 4
+y 3
+end
+arch woodfloor
+x 4
+y 4
+end
+arch check_inv
+slaying Twenster_member
+x 4
+y 4
+connected 267
+end
+arch woodfloor
+x 4
+y 5
+end
+arch wall_2_1_2
+x 4
+y 5
+end
+arch shop_empty
+x 4
+y 6
+end
+arch woodfloor
+x 4
+y 6
+end
+arch shop_empty
+x 4
+y 7
+end
+arch woodfloor
+x 4
+y 7
+end
+arch shop_empty
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 8
+end
+arch shop_empty
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 9
+end
+arch shop_empty
+x 4
+y 10
+end
+arch woodfloor
+x 4
+y 10
+end
+arch shop_empty
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 11
+end
+arch shop_empty
+x 4
+y 12
+end
+arch woodfloor
+x 4
+y 12
+end
+arch shop_empty
+x 4
+y 13
+end
+arch woodfloor
+x 4
+y 13
+end
+arch shop_empty
+x 4
+y 14
+end
+arch woodfloor
+x 4
+y 14
+end
+arch shop_empty
+x 4
+y 15
+end
+arch woodfloor
+x 4
+y 15
+end
+arch shop_empty
+x 4
+y 16
+end
+arch woodfloor
+x 4
+y 16
+end
+arch shop_empty
+x 4
+y 17
+end
+arch woodfloor
+x 4
+y 17
+end
+arch shop_empty
+x 4
+y 18
+end
+arch woodfloor
+x 4
+y 18
+end
+arch shop_empty
+x 4
+y 19
+end
+arch woodfloor
+x 4
+y 19
+end
+arch turban
+name turban of leadership
+Wis 1
+Cha 2
+Int 2
+x 4
+y 19
+value 100000
+magic 5
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 4
+y 20
+end
+arch wall_2_1_2
+x 4
+y 20
+end
+arch woodfloor
+x 5
+end
+arch wall_2_1_2
+x 5
+end
+arch woodfloor
+x 5
+y 1
+end
+arch swall_1_1
+x 5
+y 1
+end
+arch magic_banned
+x 5
+y 1
+end
+arch woodfloor
+x 5
+y 2
+end
+arch swall_2_1_1
+x 5
+y 2
+end
+arch magic_banned
+x 5
+y 2
+end
+arch woodfloor
+x 5
+y 3
+end
+arch swall_2_1_1
+x 5
+y 3
+end
+arch magic_banned
+x 5
+y 3
+end
+arch woodfloor
+x 5
+y 4
+end
+arch swall_1_2
+x 5
+y 4
+end
+arch magic_banned
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch wall_2_1_2
+x 5
+y 5
+end
+arch shop_empty
+x 5
+y 6
+end
+arch woodfloor
+x 5
+y 6
+end
+arch shop_empty
+x 5
+y 7
+end
+arch woodfloor
+x 5
+y 7
+end
+arch shop_empty
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 8
+end
+arch shop_empty
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 9
+end
+arch shop_empty
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 10
+end
+arch shop_empty
+x 5
+y 11
+end
+arch woodfloor
+x 5
+y 11
+end
+arch shop_empty
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 12
+end
+arch shop_empty
+x 5
+y 13
+end
+arch woodfloor
+x 5
+y 13
+end
+arch shop_empty
+x 5
+y 14
+end
+arch woodfloor
+x 5
+y 14
+end
+arch shop_empty
+x 5
+y 15
+end
+arch woodfloor
+x 5
+y 15
+end
+arch shop_empty
+x 5
+y 16
+end
+arch woodfloor
+x 5
+y 16
+end
+arch shop_empty
+x 5
+y 17
+end
+arch woodfloor
+x 5
+y 17
+end
+arch shop_empty
+x 5
+y 18
+end
+arch woodfloor
+x 5
+y 18
+end
+arch shop_empty
+x 5
+y 19
+end
+arch woodfloor
+x 5
+y 19
+end
+arch cloak
+name warm winter cloak
+msg
+This cloak was made with very thick
+furs.
+endmsg
+x 5
+y 19
+resist_cold 30
+value 90000
+magic 2
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 5
+y 20
+end
+arch wall_2_1_2
+x 5
+y 20
+end
+arch woodfloor
+x 6
+end
+arch wall_2_1_2
+x 6
+end
+arch woodfloor
+x 6
+y 1
+end
+arch woodfloor
+x 6
+y 2
+end
+arch elf_1
+name Twenster
+msg
+@match hi|hello
+Hello! I am selling items I have
+collected around the world. You are
+welcome in all the rooms,except those
+past my locked door. You won't be able
+to go in there because it is locked. I
+have excellent artifacts! But I keep my
+favorite ones behind the locket door.
+@match sword
+Oh,the sword. Yes,you may have it for
+5000 platinum. Drop it on the floor.
+@match gate|bow|crystal dagger
+Those are my artifacts! I would only
+give them for the rich silk that is
+kept in Gnome tower.
+endmsg
+x 6
+y 2
+end
+arch woodfloor
+x 6
+y 3
+end
+arch pit_closed
+hp 8
+sp 1
+x 6
+y 3
+invisible 1
+connected 4
+end
+arch key2
+name key to locked door
+slaying elfshop1
+x 6
+y 3
+end
+arch woodfloor
+x 6
+y 4
+end
+arch pit_closed
+hp 8
+sp 4
+x 6
+y 4
+invisible 1
+connected 3
+end
+arch broadsword
+name Beautiful Sword
+msg
+It is decorated with many valuable gems.
+endmsg
+Str 1
+Dex 1
+Cha 2
+dam 13
+x 6
+y 4
+value 3000
+magic 3
+end
+arch woodfloor
+x 6
+y 5
+end
+arch wall_2_1_2
+x 6
+y 5
+end
+arch shop_empty
+x 6
+y 6
+end
+arch woodfloor
+x 6
+y 6
+end
+arch shop_empty
+x 6
+y 7
+end
+arch woodfloor
+x 6
+y 7
+end
+arch bolt_silk
+x 6
+y 7
+unpaid 1
+end
+arch shop_empty
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 8
+end
+arch bolt_silk
+x 6
+y 8
+unpaid 1
+end
+arch shop_empty
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 9
+end
+arch bolt_silk
+x 6
+y 9
+unpaid 1
+end
+arch shop_empty
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 10
+end
+arch ring
+name ring of invisibility
+face ring.117
+x 6
+y 10
+value 300000
+unpaid 1
+identified 1
+make_invisible 1
+end
+arch shop_empty
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 11
+end
+arch holy_symbol
+name golden cross
+Wis 2
+x 6
+y 11
+value 90000
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 12
+end
+arch horn
+name horn of calming
+hp 10
+maxhp 10
+sp 137
+x 6
+y 12
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 13
+end
+arch horn
+name troll horn
+slaying small troll
+hp 10
+maxhp 10
+sp 137
+x 6
+y 13
+value 500
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 14
+end
+arch serp_sword
+x 6
+y 14
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 6
+y 15
+end
+arch woodfloor
+x 6
+y 15
+end
+arch nunchacu_1
+name Nunchacu of the Black Tiger
+msg
+This weapon was once the weapon of a
+Ninja Master. It will make the wearer
+very stealthy. But it also will make the
+wearer very ugly.
+
+endmsg
+Str 1
+Dex 1
+Cha -5
+dam 10
+x 6
+y 15
+attacktype 130
+resist_magic -30
+value 10000
+magic 6
+unpaid 1
+identified 1
+stealth 1
+end
+arch shop_empty
+x 6
+y 16
+end
+arch woodfloor
+x 6
+y 16
+end
+arch eyeglasses
+name xray glasses
+msg
+These eye glasses give the wearer the
+ability to see thru walls,but they give
+him low strength and charisma. 
+endmsg
+Str -3
+x 6
+y 16
+value 70000
+magic 2
+unpaid 1
+identified 1
+xrays 1
+end
+arch shop_empty
+x 6
+y 17
+end
+arch woodfloor
+x 6
+y 17
+end
+arch shop_empty
+x 6
+y 18
+end
+arch woodfloor
+x 6
+y 18
+end
+arch stylus
+name QP
+face doll.111
+Cha 2
+x 6
+y 18
+value 10000
+unpaid 1
+end
+arch shop_empty
+x 6
+y 19
+end
+arch woodfloor
+x 6
+y 19
+end
+arch high_boots
+name running boots
+Str 2
+x 6
+y 19
+speed 0.100000
+value 30000
+magic 3
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 6
+y 20
+end
+arch wall_2_1_2
+x 6
+y 20
+end
+arch woodfloor
+x 7
+end
+arch wall_3_3
+x 7
+end
+arch woodfloor
+x 7
+y 1
+end
+arch wall_1_2
+x 7
+y 1
+end
+arch magic_ear
+msg
+@match key
+Just a peek
+endmsg
+x 7
+y 2
+connected 4
+end
+arch woodfloor
+x 7
+y 2
+end
+arch table_4
+x 7
+y 2
+no_pass 1
+end
+arch magic_banned
+x 7
+y 2
+end
+arch woodfloor
+x 7
+y 3
+end
+arch wall_1_1
+x 7
+y 3
+end
+arch woodfloor
+x 7
+y 4
+end
+arch wall_2_1_1
+x 7
+y 4
+end
+arch woodfloor
+x 7
+y 5
+end
+arch wall_2_2_4
+x 7
+y 5
+end
+arch shop_empty
+x 7
+y 6
+end
+arch woodfloor
+x 7
+y 6
+end
+arch shop_empty
+x 7
+y 7
+end
+arch woodfloor
+x 7
+y 7
+end
+arch wall_2_2_2
+x 7
+y 7
+end
+arch shop_empty
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 8
+end
+arch wall_2_1_1
+x 7
+y 8
+end
+arch shop_empty
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 9
+end
+arch wall_2_1_1
+x 7
+y 9
+end
+arch shop_empty
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 10
+end
+arch wall_2_1_1
+x 7
+y 10
+end
+arch shop_empty
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 11
+end
+arch wall_3_2
+x 7
+y 11
+end
+arch shop_empty
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 12
+end
+arch wall_2_1_1
+x 7
+y 12
+end
+arch shop_empty
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 13
+end
+arch wall_2_1_1
+x 7
+y 13
+end
+arch shop_empty
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 14
+end
+arch wall_2_1_1
+x 7
+y 14
+end
+arch shop_empty
+x 7
+y 15
+end
+arch woodfloor
+x 7
+y 15
+end
+arch wall_2_1_1
+x 7
+y 15
+end
+arch shop_empty
+x 7
+y 16
+end
+arch woodfloor
+x 7
+y 16
+end
+arch wall_1_2
+x 7
+y 16
+end
+arch shop_empty
+x 7
+y 17
+end
+arch woodfloor
+x 7
+y 17
+end
+arch door_look_2
+x 7
+y 17
+no_pass 0
+end
+arch shop_empty
+x 7
+y 18
+end
+arch woodfloor
+x 7
+y 18
+end
+arch wall_1_1
+x 7
+y 18
+end
+arch shop_empty
+x 7
+y 19
+end
+arch woodfloor
+x 7
+y 19
+end
+arch wall_2_1_1
+x 7
+y 19
+end
+arch woodfloor
+x 7
+y 20
+end
+arch wall_3_1
+x 7
+y 20
+end
+arch woodfloor
+x 8
+end
+arch wall_2_1_2
+x 8
+end
+arch shop_empty
+x 8
+y 1
+end
+arch woodfloor
+x 8
+y 1
+end
+arch altar_trigger
+slaying goldcoin
+food 5000
+x 8
+y 2
+invisible 1
+connected 3
+end
+arch woodfloor2
+x 8
+y 2
+end
+arch magic_mouth
+msg
+The elf says: Can I help you?
+endmsg
+x 8
+y 2
+end
+arch shop_empty
+x 8
+y 3
+end
+arch woodfloor
+x 8
+y 3
+end
+arch shop_empty
+x 8
+y 4
+end
+arch woodfloor
+x 8
+y 4
+end
+arch shop_empty
+x 8
+y 5
+end
+arch woodfloor
+x 8
+y 5
+end
+arch shop_empty
+x 8
+y 6
+end
+arch woodfloor
+x 8
+y 6
+end
+arch shop_empty
+x 8
+y 7
+end
+arch woodfloor
+x 8
+y 7
+end
+arch wall_2_1_2
+x 8
+y 7
+end
+arch shop_empty
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 8
+end
+arch thundar_bolt
+x 8
+y 8
+nrof 10
+unpaid 1
+end
+arch shop_empty
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 9
+end
+arch shop_empty
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 10
+end
+arch shop_empty
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 11
+end
+arch wall_2_1_2
+x 8
+y 11
+end
+arch shop_empty
+x 8
+y 12
+end
+arch woodfloor
+x 8
+y 12
+end
+arch bow
+title of Skill
+x 8
+y 12
+weight 7000
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 13
+end
+arch bag
+name a bag of incredible holding
+msg
+Fasioned by the powerful spirit elves
+of the north. It can store great
+amounts of equiptment. It is like a
+pocket into another dimension.
+endmsg
+Str 45
+x 8
+y 13
+container 800000
+unpaid 1
+end
+arch shop_empty
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 14
+end
+arch girdle_str
+x 8
+y 14
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 8
+y 15
+end
+arch woodfloor
+x 8
+y 15
+end
+arch scroll_smithing
+x 8
+y 15
+unpaid 1
+end
+arch shop_empty
+x 8
+y 16
+end
+arch woodfloor
+x 8
+y 16
+end
+arch lockpicks
+name lockpicks of dexterity
+Dex 2
+x 8
+y 16
+value 5000
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 8
+y 17
+end
+arch woodfloor
+x 8
+y 17
+end
+arch shop_empty
+x 8
+y 18
+end
+arch woodfloor
+x 8
+y 18
+end
+arch torch_cyan
+name Torch
+title of Undead Slaying
+slaying undead
+Str -1
+Con 1
+dam 10
+x 8
+y 18
+type 15
+attacktype 256
+value 500
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 8
+y 19
+end
+arch woodfloor
+x 8
+y 19
+end
+arch shield
+name shield of fire element
+msg
+This shield was made from a heat
+resistent metal.
+endmsg
+x 8
+y 19
+resist_fire 30
+value 100
+magic 5
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 8
+y 20
+end
+arch wall_2_1_2
+x 8
+y 20
+end
+arch woodfloor
+x 9
+end
+arch wall_3_3
+x 9
+end
+arch shop_empty
+x 9
+y 1
+end
+arch woodfloor
+x 9
+y 1
+end
+arch wall_2_1_1
+x 9
+y 1
+end
+arch shop_empty
+x 9
+y 2
+end
+arch woodfloor
+x 9
+y 2
+end
+arch wall_2_1_1
+x 9
+y 2
+end
+arch shop_empty
+x 9
+y 3
+end
+arch woodfloor
+x 9
+y 3
+end
+arch wall_2_1_1
+x 9
+y 3
+end
+arch shop_empty
+x 9
+y 4
+end
+arch woodfloor
+x 9
+y 4
+end
+arch wall_2_1_1
+x 9
+y 4
+end
+arch shop_empty
+x 9
+y 5
+end
+arch woodfloor
+x 9
+y 5
+end
+arch wall_2_1_1
+x 9
+y 5
+end
+arch shop_empty
+x 9
+y 6
+end
+arch woodfloor
+x 9
+y 6
+end
+arch wall_2_1_1
+x 9
+y 6
+end
+arch shop_empty
+x 9
+y 7
+end
+arch woodfloor
+x 9
+y 7
+end
+arch wall_4
+x 9
+y 7
+end
+arch shop_empty
+x 9
+y 8
+end
+arch woodfloor
+x 9
+y 8
+end
+arch wall_2_1_1
+x 9
+y 8
+end
+arch shop_empty
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 9
+end
+arch wall_1_2
+x 9
+y 9
+end
+arch shop_empty
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 10
+end
+arch shop_empty
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 11
+end
+arch wall_1_3
+x 9
+y 11
+end
+arch shop_empty
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 12
+end
+arch skull
+name skull helmet
+race none
+Str 1
+Dex 1
+Con 1
+Wis 3
+Pow 3
+Cha -3
+Int 3
+hp 0
+maxhp 0
+maxsp 0
+exp 0
+dam 0
+luck 1
+wc 0
+ac 0
+x 9
+y 12
+speed 0.000000
+attack_movement 0
+level 0
+type 34
+attacktype 0
+resist_physical 5
+resist_fire -100
+value 10000
+weight 100
+magic 2
+randomitems none
+run_away 0
+alive 0
+unpaid 1
+no_pick 0
+flying 0
+monster 0
+identified 1
+undead 0
+can_cast_spell 0
+sleep 0
+can_see_in_dark 0
+end
+arch shop_empty
+x 9
+y 13
+end
+arch woodfloor
+x 9
+y 13
+end
+arch shop_empty
+x 9
+y 14
+end
+arch woodfloor
+x 9
+y 14
+end
+arch shop_empty
+x 9
+y 15
+end
+arch woodfloor
+x 9
+y 15
+end
+arch shop_empty
+x 9
+y 16
+end
+arch woodfloor
+x 9
+y 16
+end
+arch shop_empty
+x 9
+y 17
+end
+arch woodfloor
+x 9
+y 17
+end
+arch shop_empty
+x 9
+y 18
+end
+arch woodfloor
+x 9
+y 18
+end
+arch shop_empty
+x 9
+y 19
+end
+arch woodfloor
+x 9
+y 19
+end
+arch quarterstaff
+name staff of magic
+Wis 2
+Pow 3
+Int 2
+x 9
+y 19
+value 2000
+magic 5
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 9
+y 20
+end
+arch wall_2_1_2
+x 9
+y 20
+end
+arch woodfloor
+x 10
+end
+arch wall_2_1_2
+x 10
+end
+arch woodfloor
+x 10
+y 1
+end
+arch bed_save
+x 10
+y 1
+end
+arch woodfloor
+x 10
+y 2
+end
+arch woodfloor
+x 10
+y 3
+end
+arch woodfloor
+x 10
+y 4
+end
+arch woodfloor
+x 10
+y 5
+end
+arch woodfloor
+x 10
+y 6
+end
+arch chair_2.4
+x 10
+y 6
+end
+arch shop_empty
+x 10
+y 7
+end
+arch woodfloor
+x 10
+y 7
+end
+arch wall_2_1_2
+x 10
+y 7
+end
+arch shop_empty
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 8
+end
+arch morningstar
+name morningstar of strength
+Str 1
+x 10
+y 8
+value 9000
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 9
+end
+arch shop_empty
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 10
+end
+arch shop_empty
+x 10
+y 11
+end
+arch woodfloor
+x 10
+y 11
+end
+arch door_look_1
+x 10
+y 11
+no_pass 0
+end
+arch shop_empty
+x 10
+y 12
+end
+arch woodfloor
+x 10
+y 12
+end
+arch shop_empty
+x 10
+y 13
+end
+arch woodfloor
+x 10
+y 13
+end
+arch shop_empty
+x 10
+y 14
+end
+arch woodfloor
+x 10
+y 14
+end
+arch shop_empty
+x 10
+y 15
+end
+arch woodfloor
+x 10
+y 15
+end
+arch shop_empty
+x 10
+y 16
+end
+arch woodfloor
+x 10
+y 16
+end
+arch shop_empty
+x 10
+y 17
+end
+arch woodfloor
+x 10
+y 17
+end
+arch shop_empty
+x 10
+y 18
+end
+arch woodfloor
+x 10
+y 18
+end
+arch shop_empty
+x 10
+y 19
+end
+arch woodfloor
+x 10
+y 19
+end
+arch mithril_chainmail
+name mithril shirt
+x 10
+y 19
+magic 3
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 10
+y 20
+end
+arch wall_2_1_2
+x 10
+y 20
+end
+arch woodfloor
+x 11
+end
+arch wall_2_1_2
+x 11
+end
+arch woodfloor
+x 11
+y 1
+end
+arch chest_2
+x 11
+y 1
+carrying 12500
+no_pick 1
+arch bow
+dam 6
+end
+arch arrow
+dam 3
+nrof 20
+end
+end
+arch woodfloor
+x 11
+y 2
+end
+arch woodfloor
+x 11
+y 3
+end
+arch woodfloor
+x 11
+y 4
+end
+arch woodfloor
+x 11
+y 5
+end
+arch chair_2.1
+x 11
+y 5
+end
+arch woodfloor
+x 11
+y 6
+end
+arch table_4
+x 11
+y 6
+end
+arch shop_empty
+x 11
+y 7
+end
+arch woodfloor
+x 11
+y 7
+end
+arch wall_3_3
+x 11
+y 7
+end
+arch shop_empty
+x 11
+y 8
+end
+arch woodfloor
+x 11
+y 8
+end
+arch wall_2_1_1
+x 11
+y 8
+end
+arch shop_empty
+x 11
+y 9
+end
+arch woodfloor
+x 11
+y 9
+end
+arch wall_1_2
+x 11
+y 9
+end
+arch shop_empty
+x 11
+y 10
+end
+arch woodfloor
+x 11
+y 10
+end
+arch shop_empty
+x 11
+y 11
+end
+arch woodfloor
+x 11
+y 11
+end
+arch wall_1_4
+x 11
+y 11
+end
+arch shop_empty
+x 11
+y 12
+end
+arch woodfloor
+x 11
+y 12
+end
+arch holy_symbol
+name unlucky strike
+face unluck.111
+Con -1
+x 11
+y 12
+resist_confusion 30
+value 10000
+unpaid 1
+end
+arch shop_empty
+x 11
+y 13
+end
+arch woodfloor
+x 11
+y 13
+end
+arch shop_empty
+x 11
+y 14
+end
+arch woodfloor
+x 11
+y 14
+end
+arch shop_empty
+x 11
+y 15
+end
+arch woodfloor
+x 11
+y 15
+end
+arch shop_empty
+x 11
+y 16
+end
+arch woodfloor
+x 11
+y 16
+end
+arch shop_empty
+x 11
+y 17
+end
+arch woodfloor
+x 11
+y 17
+end
+arch shop_empty
+x 11
+y 18
+end
+arch woodfloor
+x 11
+y 18
+end
+arch shop_empty
+x 11
+y 19
+end
+arch woodfloor
+x 11
+y 19
+end
+arch potion_fire
+name potion of frost resistance
+x 11
+y 19
+resist_cold 95
+unpaid 1
+end
+arch woodfloor
+x 11
+y 20
+end
+arch wall_2_1_2
+x 11
+y 20
+end
+arch woodfloor
+x 12
+end
+arch wall_2_1_2
+x 12
+end
+arch woodfloor
+x 12
+y 1
+end
+arch bookshelf
+x 12
+y 1
+end
+arch woodfloor
+x 12
+y 2
+end
+arch woodfloor
+x 12
+y 3
+end
+arch woodfloor
+x 12
+y 4
+end
+arch woodfloor
+x 12
+y 5
+end
+arch woodfloor
+x 12
+y 6
+end
+arch chair_2.2
+x 12
+y 6
+end
+arch shop_empty
+x 12
+y 7
+end
+arch woodfloor
+x 12
+y 7
+end
+arch wall_2_1_2
+x 12
+y 7
+end
+arch shop_empty
+x 12
+y 8
+end
+arch woodfloor
+x 12
+y 8
+end
+arch arrow
+title Lightning
+x 12
+y 8
+nrof 20
+attacktype 9
+value 20
+magic 2
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 12
+y 9
+end
+arch woodfloor
+x 12
+y 9
+end
+arch shop_empty
+x 12
+y 10
+end
+arch woodfloor
+x 12
+y 10
+end
+arch shop_empty
+x 12
+y 11
+end
+arch woodfloor
+x 12
+y 11
+end
+arch wall_2_1_2
+x 12
+y 11
+end
+arch shop_empty
+x 12
+y 12
+end
+arch woodfloor
+x 12
+y 12
+end
+arch talisman
+name rabbit's foot
+face r_foot.111
+luck 1
+x 12
+y 12
+value 5000
+unpaid 1
+end
+arch shop_empty
+x 12
+y 13
+end
+arch woodfloor
+x 12
+y 13
+end
+arch shop_empty
+x 12
+y 14
+end
+arch woodfloor
+x 12
+y 14
+end
+arch swall_2_2_2
+x 12
+y 14
+end
+arch shop_empty
+x 12
+y 15
+end
+arch woodfloor
+x 12
+y 15
+end
+arch swall_2_1_1
+x 12
+y 15
+end
+arch shop_empty
+x 12
+y 16
+end
+arch woodfloor
+x 12
+y 16
+end
+arch swall_2_2_1
+x 12
+y 16
+end
+arch shop_empty
+x 12
+y 17
+end
+arch woodfloor
+x 12
+y 17
+end
+arch shop_empty
+x 12
+y 18
+end
+arch woodfloor
+x 12
+y 18
+end
+arch shop_empty
+x 12
+y 19
+end
+arch woodfloor
+x 12
+y 19
+end
+arch boulder
+name Grey Sphere
+sp 10
+food 10
+x 12
+y 19
+level 20
+type 109
+path_attuned 4
+value 600
+weight 30000
+unpaid 1
+need_an 1
+no_pick 0
+no_pass 0
+can_roll 0
+identified 1
+end
+arch woodfloor
+x 12
+y 20
+end
+arch wall_2_1_2
+x 12
+y 20
+end
+arch woodfloor
+x 13
+end
+arch wall_2_1_2
+x 13
+end
+arch woodfloor
+x 13
+y 1
+end
+arch clock
+x 13
+y 1
+end
+arch woodfloor
+x 13
+y 2
+end
+arch random_potion
+x 13
+y 2
+end
+arch woodfloor
+x 13
+y 3
+end
+arch letter
+msg
+Friend Twenster,
+   I have come upon hard times. I will
+not be able to collect the sword I let
+you borrow in case I could not pay my
+debt.  You may sell it to any costomer.
+         
+                    Yours Truly,
+                    Gert the Warrior
+endmsg
+x 13
+y 3
+end
+arch woodfloor
+x 13
+y 4
+end
+arch random_scroll
+x 13
+y 4
+end
+arch woodfloor
+x 13
+y 5
+end
+arch woodfloor
+x 13
+y 6
+end
+arch random_reading
+x 13
+y 6
+end
+arch shop_empty
+x 13
+y 7
+end
+arch woodfloor
+x 13
+y 7
+end
+arch wall_3_3
+x 13
+y 7
+end
+arch shop_empty
+x 13
+y 8
+end
+arch woodfloor
+x 13
+y 8
+end
+arch wall_2_1_1
+x 13
+y 8
+end
+arch shop_empty
+x 13
+y 9
+end
+arch woodfloor
+x 13
+y 9
+end
+arch wall_1_2
+x 13
+y 9
+end
+arch shop_empty
+x 13
+y 10
+end
+arch woodfloor
+x 13
+y 10
+end
+arch shop_empty
+x 13
+y 11
+end
+arch woodfloor
+x 13
+y 11
+end
+arch wall_2_1_2
+x 13
+y 11
+end
+arch shop_empty
+x 13
+y 12
+end
+arch woodfloor
+x 13
+y 12
+end
+arch bolt_silk
+name tissue paper
+face tissu.111
+x 13
+y 12
+material 1
+unpaid 1
+end
+arch shop_empty
+x 13
+y 13
+end
+arch woodfloor
+x 13
+y 13
+end
+arch shop_empty
+x 13
+y 14
+end
+arch woodfloor
+x 13
+y 14
+end
+arch swall_2_1_2
+x 13
+y 14
+end
+arch dungeon_floor
+x 13
+y 15
+end
+arch woodfloor
+face fireball.111
+x 13
+y 15
+end
+arch shop_empty
+x 13
+y 16
+end
+arch woodfloor
+x 13
+y 16
+end
+arch swall_2_1_2
+x 13
+y 16
+end
+arch shop_empty
+x 13
+y 17
+end
+arch woodfloor
+x 13
+y 17
+end
+arch shop_empty
+x 13
+y 18
+end
+arch woodfloor
+x 13
+y 18
+end
+arch shop_empty
+x 13
+y 19
+end
+arch woodfloor
+x 13
+y 19
+end
+arch potion_cold
+name potion of lava resistance
+x 13
+y 19
+resist_fire 95
+unpaid 1
+end
+arch woodfloor
+x 13
+y 20
+end
+arch wall_2_1_2
+x 13
+y 20
+end
+arch woodfloor
+x 14
+end
+arch wall_3_3
+x 14
+end
+arch shop_empty
+x 14
+y 1
+end
+arch woodfloor
+x 14
+y 1
+end
+arch wall_2_1_1
+x 14
+y 1
+end
+arch shop_empty
+x 14
+y 2
+end
+arch woodfloor
+x 14
+y 2
+end
+arch wall_2_1_1
+x 14
+y 2
+end
+arch shop_empty
+x 14
+y 3
+end
+arch woodfloor
+x 14
+y 3
+end
+arch wall_2_1_1
+x 14
+y 3
+end
+arch shop_empty
+x 14
+y 4
+end
+arch woodfloor
+x 14
+y 4
+end
+arch wall_1_2
+x 14
+y 4
+end
+arch woodfloor
+x 14
+y 5
+end
+arch door_look_2
+x 14
+y 5
+no_pass 0
+end
+arch shop_empty
+x 14
+y 6
+end
+arch woodfloor
+x 14
+y 6
+end
+arch wall_1_1
+x 14
+y 6
+end
+arch shop_empty
+x 14
+y 7
+end
+arch woodfloor
+x 14
+y 7
+end
+arch wall_3_1
+x 14
+y 7
+end
+arch shop_empty
+x 14
+y 8
+end
+arch woodfloor
+x 14
+y 8
+end
+arch arrow
+title Frost
+x 14
+y 8
+nrof 20
+attacktype 17
+value 20
+magic 2
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 14
+y 9
+end
+arch woodfloor
+x 14
+y 9
+end
+arch shop_empty
+x 14
+y 10
+end
+arch woodfloor
+x 14
+y 10
+end
+arch shop_empty
+x 14
+y 11
+end
+arch woodfloor
+x 14
+y 11
+end
+arch wall_2_1_2
+x 14
+y 11
+end
+arch shop_empty
+x 14
+y 12
+end
+arch woodfloor
+x 14
+y 12
+end
+arch bolt_silk
+name tissue paper
+face tissu.111
+x 14
+y 12
+material 1
+unpaid 1
+end
+arch shop_empty
+x 14
+y 13
+end
+arch woodfloor
+x 14
+y 13
+end
+arch shop_empty
+x 14
+y 14
+end
+arch woodfloor
+x 14
+y 14
+end
+arch swall_2_2_3
+x 14
+y 14
+end
+arch shop_empty
+x 14
+y 15
+end
+arch woodfloor
+x 14
+y 15
+end
+arch swall_2_1_1
+x 14
+y 15
+end
+arch shop_empty
+x 14
+y 16
+end
+arch woodfloor
+x 14
+y 16
+end
+arch swall_2_2_4
+x 14
+y 16
+end
+arch shop_empty
+x 14
+y 17
+end
+arch woodfloor
+x 14
+y 17
+end
+arch shop_empty
+x 14
+y 18
+end
+arch woodfloor
+x 14
+y 18
+end
+arch shop_empty
+x 14
+y 19
+end
+arch woodfloor
+x 14
+y 19
+end
+arch wine
+name bottle of red liquid
+Str 5
+Int -5
+x 14
+y 19
+value 14000
+unpaid 1
+end
+arch woodfloor
+x 14
+y 20
+end
+arch wall_2_1_2
+x 14
+y 20
+end
+arch woodfloor
+x 15
+end
+arch wall_2_1_2
+x 15
+end
+arch woodfloor
+x 15
+y 1
+end
+arch shortsword_2
+name Crystal Dagger
+Str -2
+Dex 1
+Con -2
+Wis 2
+Pow 3
+Int 1
+dam 8
+x 15
+y 1
+attacktype 256
+value 10000
+end
+arch woodfloor
+x 15
+y 2
+end
+arch woodfloor
+x 15
+y 3
+end
+arch swall_1_4
+x 15
+y 3
+end
+arch magic_banned
+x 15
+y 3
+end
+arch woodfloor
+x 15
+y 4
+end
+arch woodfloor
+x 15
+y 5
+end
+arch woodfloor
+x 15
+y 6
+end
+arch shop_empty
+x 15
+y 7
+end
+arch woodfloor
+x 15
+y 7
+end
+arch wall_3_3
+x 15
+y 7
+end
+arch shop_empty
+x 15
+y 8
+end
+arch woodfloor
+x 15
+y 8
+end
+arch wall_2_1_1
+x 15
+y 8
+end
+arch shop_empty
+x 15
+y 9
+end
+arch woodfloor
+x 15
+y 9
+end
+arch wall_1_2
+x 15
+y 9
+end
+arch shop_empty
+x 15
+y 10
+end
+arch woodfloor
+x 15
+y 10
+end
+arch shop_empty
+x 15
+y 11
+end
+arch woodfloor
+x 15
+y 11
+end
+arch wall_2_1_2
+x 15
+y 11
+end
+arch shop_empty
+x 15
+y 12
+end
+arch woodfloor
+x 15
+y 12
+end
+arch bolt_silk
+name tissue paper
+face tissu.111
+x 15
+y 12
+material 1
+unpaid 1
+end
+arch shop_empty
+x 15
+y 13
+end
+arch woodfloor
+x 15
+y 13
+end
+arch shop_empty
+x 15
+y 14
+end
+arch woodfloor
+x 15
+y 14
+end
+arch shop_empty
+x 15
+y 15
+end
+arch woodfloor
+x 15
+y 15
+end
+arch shop_empty
+x 15
+y 16
+end
+arch woodfloor
+x 15
+y 16
+end
+arch shop_empty
+x 15
+y 17
+end
+arch woodfloor
+x 15
+y 17
+end
+arch shop_empty
+x 15
+y 18
+end
+arch woodfloor
+x 15
+y 18
+end
+arch shop_empty
+x 15
+y 19
+end
+arch woodfloor
+x 15
+y 19
+end
+arch wine
+name bottle of blue liquid
+Str -2
+Dex -1
+Con -1
+Wis 2
+Pow 2
+Int 2
+x 15
+y 19
+value 12000
+unpaid 1
+end
+arch woodfloor
+x 15
+y 20
+end
+arch wall_2_1_2
+x 15
+y 20
+end
+arch woodfloor
+x 16
+end
+arch wall_2_1_2
+x 16
+end
+arch woodfloor
+x 16
+y 1
+end
+arch elven_bow
+x 16
+y 1
+end
+arch woodfloor
+x 16
+y 2
+end
+arch woodfloor
+x 16
+y 3
+end
+arch swall_2_1_2
+x 16
+y 3
+end
+arch magic_banned
+x 16
+y 3
+end
+arch woodfloor
+x 16
+y 4
+end
+arch woodfloor
+x 16
+y 5
+end
+arch woodfloor
+x 16
+y 6
+end
+arch shop_empty
+x 16
+y 7
+end
+arch woodfloor
+x 16
+y 7
+end
+arch wall_2_1_2
+x 16
+y 7
+end
+arch shop_empty
+x 16
+y 8
+end
+arch woodfloor
+x 16
+y 8
+end
+arch arrow
+title Fire
+x 16
+y 8
+nrof 20
+attacktype 5
+value 20
+magic 2
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 16
+y 9
+end
+arch woodfloor
+x 16
+y 9
+end
+arch shop_empty
+x 16
+y 10
+end
+arch woodfloor
+x 16
+y 10
+end
+arch shop_empty
+x 16
+y 11
+end
+arch woodfloor
+x 16
+y 11
+end
+arch wall_2_1_2
+x 16
+y 11
+end
+arch shop_empty
+x 16
+y 12
+end
+arch woodfloor
+x 16
+y 12
+end
+arch gem
+title of exceptional beauty
+face pretty_crystal.111
+x 16
+y 12
+speed 0.000000
+nrof 10
+value 10000
+weight 65
+unpaid 1
+is_animated 0
+end
+arch shop_empty
+x 16
+y 13
+end
+arch woodfloor
+x 16
+y 13
+end
+arch shop_empty
+x 16
+y 14
+end
+arch woodfloor
+x 16
+y 14
+end
+arch shop_empty
+x 16
+y 15
+end
+arch woodfloor
+x 16
+y 15
+end
+arch shop_empty
+x 16
+y 16
+end
+arch woodfloor
+x 16
+y 16
+end
+arch shop_empty
+x 16
+y 17
+end
+arch woodfloor
+x 16
+y 17
+end
+arch shop_empty
+x 16
+y 18
+end
+arch woodfloor
+x 16
+y 18
+end
+arch shop_empty
+x 16
+y 19
+end
+arch woodfloor
+x 16
+y 19
+end
+arch water
+name bottle of white liquid
+Str -2
+Con -3
+Pow 5
+x 16
+y 19
+value 10000
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 16
+y 20
+end
+arch wall_2_1_2
+x 16
+y 20
+end
+arch woodfloor
+x 17
+end
+arch wall_2_1_2
+x 17
+end
+arch woodfloor
+x 17
+y 1
+end
+arch woodfloor
+x 17
+y 2
+end
+arch woodfloor
+x 17
+y 3
+end
+arch ggate_closed
+name gate
+x 17
+y 3
+connected 1
+end
+arch magic_banned
+x 17
+y 3
+end
+arch woodfloor
+x 17
+y 4
+end
+arch woodfloor
+x 17
+y 5
+end
+arch woodfloor
+x 17
+y 6
+end
+arch shop_empty
+x 17
+y 7
+end
+arch woodfloor
+x 17
+y 7
+end
+arch wall_3_3
+x 17
+y 7
+end
+arch shop_empty
+x 17
+y 8
+end
+arch woodfloor
+x 17
+y 8
+end
+arch wall_2_1_1
+x 17
+y 8
+end
+arch shop_empty
+x 17
+y 9
+end
+arch woodfloor
+x 17
+y 9
+end
+arch wall_1_2
+x 17
+y 9
+end
+arch shop_empty
+x 17
+y 10
+end
+arch woodfloor
+x 17
+y 10
+end
+arch locked_door2
+slaying elfshop1
+x 17
+y 10
+end
+arch shop_empty
+x 17
+y 11
+end
+arch woodfloor
+x 17
+y 11
+end
+arch wall_2_1_2
+x 17
+y 11
+end
+arch shop_empty
+x 17
+y 12
+end
+arch woodfloor
+x 17
+y 12
+end
+arch axe_5
+x 17
+y 12
+unpaid 1
+end
+arch shop_empty
+x 17
+y 13
+end
+arch woodfloor
+x 17
+y 13
+end
+arch shop_empty
+x 17
+y 14
+end
+arch woodfloor
+x 17
+y 14
+end
+arch shop_empty
+x 17
+y 15
+end
+arch woodfloor
+x 17
+y 15
+end
+arch shop_empty
+x 17
+y 16
+end
+arch woodfloor
+x 17
+y 16
+end
+arch shop_empty
+x 17
+y 17
+end
+arch woodfloor
+x 17
+y 17
+end
+arch shop_empty
+x 17
+y 18
+end
+arch woodfloor
+x 17
+y 18
+end
+arch shop_empty
+x 17
+y 19
+end
+arch woodfloor
+x 17
+y 19
+end
+arch amulet_lifesave
+x 17
+y 19
+unpaid 1
+end
+arch woodfloor
+x 17
+y 20
+end
+arch wall_2_1_2
+x 17
+y 20
+end
+arch woodfloor
+x 18
+end
+arch wall_2_1_2
+x 18
+end
+arch woodfloor
+x 18
+y 1
+end
+arch dog
+name Twenster's faithful dog
+Str 30
+Dex 30
+Con 30
+hp 10000
+dam 20
+wc 5
+ac 2
+x 18
+y 1
+end
+arch woodfloor
+x 18
+y 2
+end
+arch woodfloor
+x 18
+y 3
+end
+arch swall_2_1_2
+x 18
+y 3
+end
+arch magic_banned
+x 18
+y 3
+end
+arch woodfloor
+x 18
+y 4
+end
+arch woodfloor
+x 18
+y 5
+end
+arch woodfloor
+x 18
+y 6
+end
+arch shop_empty
+x 18
+y 7
+end
+arch woodfloor
+x 18
+y 7
+end
+arch wall_1_3
+x 18
+y 7
+end
+arch shop_empty
+x 18
+y 8
+end
+arch woodfloor
+x 18
+y 8
+end
+arch shop_empty
+x 18
+y 9
+end
+arch woodfloor
+x 18
+y 9
+end
+arch shop_empty
+x 18
+y 10
+end
+arch woodfloor
+x 18
+y 10
+end
+arch shop_empty
+x 18
+y 11
+end
+arch woodfloor
+x 18
+y 11
+end
+arch wall_2_1_2
+x 18
+y 11
+end
+arch shop_empty
+x 18
+y 12
+end
+arch woodfloor
+x 18
+y 12
+end
+arch axe_5
+x 18
+y 12
+unpaid 1
+end
+arch shop_empty
+x 18
+y 13
+end
+arch woodfloor
+x 18
+y 13
+end
+arch shop_empty
+x 18
+y 14
+end
+arch woodfloor
+x 18
+y 14
+end
+arch shop_empty
+x 18
+y 15
+end
+arch woodfloor
+x 18
+y 15
+end
+arch shop_empty
+x 18
+y 16
+end
+arch woodfloor
+x 18
+y 16
+end
+arch shop_empty
+x 18
+y 17
+end
+arch woodfloor
+x 18
+y 17
+end
+arch shop_empty
+x 18
+y 18
+end
+arch woodfloor
+x 18
+y 18
+end
+arch shop_empty
+x 18
+y 19
+end
+arch woodfloor
+x 18
+y 19
+end
+arch stylus
+name stylus
+Wis 1
+Pow 1
+Int 1
+sp 30
+x 18
+y 19
+unpaid 1
+end
+arch woodfloor
+x 18
+y 20
+end
+arch wall_2_1_2
+x 18
+y 20
+end
+arch woodfloor
+x 19
+end
+arch wall_2_1_2
+x 19
+end
+arch woodfloor
+x 19
+y 1
+end
+arch woodfloor
+x 19
+y 2
+end
+arch woodfloor
+x 19
+y 3
+end
+arch swall_1_3
+x 19
+y 3
+end
+arch magic_banned
+x 19
+y 3
+end
+arch woodfloor
+x 19
+y 4
+end
+arch woodfloor
+x 19
+y 5
+end
+arch woodfloor
+x 19
+y 6
+end
+arch shop_mat
+x 19
+y 6
+end
+arch shop_empty
+x 19
+y 7
+end
+arch woodfloor
+x 19
+y 7
+end
+arch swall_0
+x 19
+y 7
+end
+arch shop_empty
+x 19
+y 8
+end
+arch woodfloor
+x 19
+y 8
+end
+arch shop_mat
+x 19
+y 8
+end
+arch shop_empty
+x 19
+y 9
+end
+arch woodfloor
+x 19
+y 9
+end
+arch shop_empty
+x 19
+y 10
+end
+arch woodfloor
+x 19
+y 10
+end
+arch shop_empty
+x 19
+y 11
+end
+arch woodfloor
+x 19
+y 11
+end
+arch wall_2_1_2
+x 19
+y 11
+end
+arch shop_empty
+x 19
+y 12
+end
+arch woodfloor
+x 19
+y 12
+end
+arch axe_5
+x 19
+y 12
+unpaid 1
+end
+arch shop_empty
+x 19
+y 13
+end
+arch woodfloor
+x 19
+y 13
+end
+arch axe_5
+x 19
+y 13
+unpaid 1
+end
+arch shop_empty
+x 19
+y 14
+end
+arch woodfloor
+x 19
+y 14
+end
+arch axe_5
+x 19
+y 14
+unpaid 1
+end
+arch shop_empty
+x 19
+y 15
+end
+arch woodfloor
+x 19
+y 15
+end
+arch mace_2
+name Titan Slayer
+slaying titan
+Str 1
+dam 15
+x 19
+y 15
+value 1000
+magic 3
+identified 1
+end
+arch shop_empty
+x 19
+y 16
+end
+arch woodfloor
+x 19
+y 16
+end
+arch map
+hp 16
+sp 21
+x 19
+type 66
+value 20000
+pick_up 1
+unpaid 1
+end
+arch shop_empty
+x 19
+y 17
+end
+arch woodfloor
+x 19
+y 17
+end
+arch ring_nodrain
+x 19
+y 17
+unpaid 1
+end
+arch shop_empty
+x 19
+y 18
+end
+arch woodfloor
+x 19
+y 18
+end
+arch crystalball
+x 19
+y 18
+unpaid 1
+end
+arch shop_empty
+x 19
+y 19
+end
+arch woodfloor
+x 19
+y 19
+end
+arch battle_axe
+x 19
+y 19
+unpaid 1
+identified 1
+end
+arch woodfloor
+x 19
+y 20
+end
+arch wall_2_1_2
+x 19
+y 20
+end
+arch woodfloor
+x 20
+end
+arch wall_2_2_3
+x 20
+end
+arch woodfloor
+x 20
+y 1
+end
+arch wall_2_1_1
+x 20
+y 1
+end
+arch woodfloor
+x 20
+y 2
+end
+arch wall_2_1_1
+x 20
+y 2
+end
+arch woodfloor
+x 20
+y 3
+end
+arch wall_2_1_1
+x 20
+y 3
+end
+arch woodfloor
+x 20
+y 4
+end
+arch wall_2_1_1
+x 20
+y 4
+end
+arch woodfloor
+x 20
+y 5
+end
+arch wall_2_1_1
+x 20
+y 5
+end
+arch woodfloor
+x 20
+y 6
+end
+arch wall_2_1_1
+x 20
+y 6
+end
+arch woodfloor
+x 20
+y 7
+end
+arch wall_2_1_1
+x 20
+y 7
+end
+arch woodfloor
+x 20
+y 8
+end
+arch wall_2_1_1
+x 20
+y 8
+end
+arch woodfloor
+x 20
+y 9
+end
+arch wall_2_1_1
+x 20
+y 9
+end
+arch woodfloor
+x 20
+y 10
+end
+arch wall_2_1_1
+x 20
+y 10
+end
+arch woodfloor
+x 20
+y 11
+end
+arch wall_3_4
+x 20
+y 11
+end
+arch woodfloor
+x 20
+y 12
+end
+arch wall_2_1_1
+x 20
+y 12
+end
+arch woodfloor
+x 20
+y 13
+end
+arch wall_2_1_1
+x 20
+y 13
+end
+arch woodfloor
+x 20
+y 14
+end
+arch wall_2_1_1
+x 20
+y 14
+end
+arch woodfloor
+x 20
+y 15
+end
+arch wall_2_1_1
+x 20
+y 15
+end
+arch woodfloor
+x 20
+y 16
+end
+arch wall_2_1_1
+x 20
+y 16
+end
+arch woodfloor
+x 20
+y 17
+end
+arch wall_2_1_1
+x 20
+y 17
+end
+arch woodfloor
+x 20
+y 18
+end
+arch wall_2_1_1
+x 20
+y 18
+end
+arch woodfloor
+x 20
+y 19
+end
+arch wall_2_1_1
+x 20
+y 19
+end
+arch woodfloor
+x 20
+y 20
+end
+arch wall_2_2_4
+x 20
+y 20
+end

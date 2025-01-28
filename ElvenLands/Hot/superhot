@@ -1,0 +1,7977 @@
+arch map
+name superhot
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Mon Jun 11 00:04:04 2001
+endmsg
+width 21
+height 21
+end
+arch medium_stones
+end
+arch rough_wall_1_1
+end
+arch medium_stones
+y 1
+end
+arch rough_wall_2_1_1
+y 1
+end
+arch medium_stones
+y 2
+end
+arch rough_wall_2_1_1
+y 2
+end
+arch medium_stones
+y 3
+end
+arch rough_wall_2_1_1
+y 3
+end
+arch medium_stones
+y 4
+end
+arch rough_wall_2_1_1
+y 4
+end
+arch medium_stones
+y 5
+end
+arch rough_wall_2_1_1
+y 5
+end
+arch medium_stones
+y 6
+end
+arch rough_wall_2_1_1
+y 6
+end
+arch medium_stones
+y 7
+end
+arch rough_wall_2_1_1
+y 7
+end
+arch medium_stones
+y 8
+end
+arch rough_wall_2_1_1
+y 8
+end
+arch medium_stones
+y 9
+end
+arch rough_wall_2_1_1
+y 9
+end
+arch medium_stones
+y 10
+end
+arch rough_wall_2_1_1
+y 10
+end
+arch medium_stones
+y 11
+end
+arch rough_wall_2_1_1
+y 11
+end
+arch medium_stones
+y 12
+end
+arch rough_wall_2_1_1
+y 12
+end
+arch medium_stones
+y 13
+end
+arch rough_wall_2_1_1
+y 13
+end
+arch medium_stones
+y 14
+end
+arch rough_wall_2_2_1
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+y 18
+end
+arch blocked
+y 19
+end
+arch blocked
+y 20
+end
+arch medium_stones
+x 1
+end
+arch invis_exit
+slaying temple
+hp 16
+sp 30
+x 1
+end
+arch permanent_lava
+x 1
+y 1
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 2
+connected 1
+end
+arch detector
+x 1
+y 2
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 2
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 2
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 3
+connected 1
+end
+arch detector
+x 1
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 3
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 4
+connected 1
+end
+arch detector
+x 1
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 4
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 1
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 6
+connected 1
+end
+arch detector
+x 1
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 6
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 7
+connected 1
+end
+arch detector
+x 1
+y 7
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 7
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 7
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 1
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 9
+connected 1
+end
+arch detector
+x 1
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 1
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 11
+connected 1
+end
+arch detector
+x 1
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 1
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 1
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 1
+y 13
+connected 1
+end
+arch detector
+x 1
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 1
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 1
+y 13
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 1
+y 14
+end
+arch rough_wall_2_1_2
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
+x 1
+y 20
+end
+arch medium_stones
+x 2
+end
+arch rough_wall_2_2_1
+x 2
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 1
+connected 1
+end
+arch detector
+x 2
+y 1
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 1
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 1
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 2
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 3
+connected 1
+end
+arch detector
+x 2
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 3
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 4
+end
+arch permanent_lava
+x 2
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 6
+connected 1
+end
+arch detector
+x 2
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 6
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 8
+connected 1
+end
+arch detector
+x 2
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 8
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 10
+connected 1
+end
+arch detector
+x 2
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 11
+end
+arch creator
+other_arch firebullet_l
+x 2
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 2
+y 12
+connected 1
+end
+arch detector
+x 2
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 2
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 2
+y 12
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 2
+y 13
+end
+arch medium_stones
+x 2
+y 14
+end
+arch rough_wall_2_2_3
+x 2
+y 14
+end
+arch medium_stones
+x 2
+y 15
+end
+arch rough_wall_2_2_1
+x 2
+y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch blocked
+x 2
+y 18
+end
+arch blocked
+x 2
+y 19
+end
+arch blocked
+x 2
+y 20
+end
+arch medium_stones
+x 3
+end
+arch rough_wall_2_1_2
+x 3
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 1
+connected 1
+end
+arch detector
+x 3
+y 1
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 1
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 1
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 2
+connected 1
+end
+arch detector
+x 3
+y 2
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 2
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 2
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 3
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 4
+connected 1
+end
+arch detector
+x 3
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 4
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 5
+connected 1
+end
+arch detector
+x 3
+y 5
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 5
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 5
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 6
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 7
+connected 1
+end
+arch detector
+x 3
+y 7
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 7
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 7
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 9
+connected 1
+end
+arch detector
+x 3
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 11
+connected 1
+end
+arch detector
+x 3
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 3
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 3
+y 13
+connected 1
+end
+arch detector
+x 3
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 3
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 3
+y 13
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 3
+y 14
+end
+arch medium_stones
+x 3
+y 15
+end
+arch rough_wall_2_1_2
+x 3
+y 15
+end
+arch blocked
+x 3
+y 16
+end
+arch blocked
+x 3
+y 17
+end
+arch blocked
+x 3
+y 18
+end
+arch blocked
+x 3
+y 19
+end
+arch blocked
+x 3
+y 20
+end
+arch medium_stones
+x 4
+end
+arch rough_wall_2_1_2
+x 4
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 1
+connected 1
+end
+arch detector
+x 4
+y 1
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 1
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 1
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 2
+connected 1
+end
+arch detector
+x 4
+y 2
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 2
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 2
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 3
+connected 1
+end
+arch detector
+x 4
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 3
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 4
+connected 1
+end
+arch detector
+x 4
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 4
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 4
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 6
+connected 1
+end
+arch detector
+x 4
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 6
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 4
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 8
+connected 1
+end
+arch detector
+x 4
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 8
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 4
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 10
+connected 1
+end
+arch detector
+x 4
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 4
+y 11
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 12
+connected 1
+end
+arch detector
+x 4
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 12
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 13
+connected 1
+end
+arch detector
+x 4
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 13
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 4
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 4
+y 14
+connected 1
+end
+arch detector
+x 4
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 4
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 4
+y 14
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 4
+y 15
+end
+arch rough_wall_2_2_3
+x 4
+y 15
+end
+arch medium_stones
+x 4
+y 16
+end
+arch rough_wall_2_2_1
+x 4
+y 16
+end
+arch blocked
+x 4
+y 17
+end
+arch blocked
+x 4
+y 18
+end
+arch blocked
+x 4
+y 19
+end
+arch blocked
+x 4
+y 20
+end
+arch medium_stones
+x 5
+end
+arch rough_wall_2_1_2
+x 5
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 1
+connected 1
+end
+arch detector
+x 5
+y 1
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 1
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 1
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 5
+y 2
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 3
+connected 1
+end
+arch detector
+x 5
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 3
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 4
+connected 1
+end
+arch detector
+x 5
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 4
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 5
+connected 1
+end
+arch detector
+x 5
+y 5
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 5
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 5
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 6
+connected 1
+end
+arch detector
+x 5
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 6
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 7
+connected 1
+end
+arch detector
+x 5
+y 7
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 7
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 7
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 5
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 9
+connected 1
+end
+arch detector
+x 5
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 5
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 11
+connected 1
+end
+arch detector
+x 5
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 5
+y 12
+end
+arch permanent_lava
+x 5
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 5
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 5
+y 14
+connected 1
+end
+arch detector
+x 5
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 5
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 5
+y 14
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 5
+y 15
+end
+arch medium_stones
+x 5
+y 16
+end
+arch rough_wall_2_2_3
+x 5
+y 16
+end
+arch medium_stones
+x 5
+y 17
+end
+arch rough_wall_2_1_1
+x 5
+y 17
+end
+arch medium_stones
+x 5
+y 18
+end
+arch rough_wall_2_2_1
+x 5
+y 18
+end
+arch blocked
+x 5
+y 19
+end
+arch blocked
+x 5
+y 20
+end
+arch medium_stones
+x 6
+end
+arch rough_wall_2_1_2
+x 6
+end
+arch permanent_lava
+x 6
+y 1
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 2
+connected 1
+end
+arch detector
+x 6
+y 2
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 2
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 2
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 6
+y 3
+end
+arch permanent_lava
+x 6
+y 4
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 5
+connected 1
+end
+arch detector
+x 6
+y 5
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 5
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 5
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 6
+y 6
+end
+arch permanent_lava
+x 6
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 8
+connected 1
+end
+arch detector
+x 6
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 8
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 9
+connected 1
+end
+arch detector
+x 6
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 9
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 10
+connected 1
+end
+arch detector
+x 6
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 6
+y 11
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 12
+connected 1
+end
+arch detector
+x 6
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 12
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 13
+connected 1
+end
+arch detector
+x 6
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 13
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 6
+y 14
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 15
+connected 1
+end
+arch detector
+x 6
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 6
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 6
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 6
+y 17
+connected 1
+end
+arch detector
+x 6
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 6
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 6
+y 17
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 6
+y 18
+end
+arch rough_wall_2_1_2
+x 6
+y 18
+end
+arch blocked
+x 6
+y 19
+end
+arch blocked
+x 6
+y 20
+end
+arch medium_stones
+x 7
+end
+arch rough_wall_2_1_2
+x 7
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 1
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 1
+connected 1
+end
+arch detector
+x 7
+y 1
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 1
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 1
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 2
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 3
+connected 1
+end
+arch detector
+x 7
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 3
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 4
+connected 1
+end
+arch detector
+x 7
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 4
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 6
+connected 1
+end
+arch detector
+x 7
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 6
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 7
+end
+arch permanent_lava
+x 7
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 9
+connected 1
+end
+arch detector
+x 7
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 11
+connected 1
+end
+arch detector
+x 7
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 11
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 12
+connected 1
+end
+arch detector
+x 7
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 12
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 14
+connected 1
+end
+arch detector
+x 7
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 14
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 15
+end
+arch creator
+other_arch firebullet_l
+x 7
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 7
+y 16
+connected 1
+end
+arch detector
+x 7
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 7
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 7
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 7
+y 17
+end
+arch medium_stones
+x 7
+y 18
+end
+arch rough_wall_2_2_3
+x 7
+y 18
+end
+arch medium_stones
+x 7
+y 19
+end
+arch rough_wall_2_1_1
+x 7
+y 19
+end
+arch medium_stones
+x 7
+y 20
+end
+arch rough_wall_2_2_1
+x 7
+y 20
+end
+arch medium_stones
+x 8
+end
+arch rough_wall_2_1_2
+x 8
+end
+arch permanent_lava
+x 8
+y 1
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 2
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 2
+connected 1
+end
+arch detector
+x 8
+y 2
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 2
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 2
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 3
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 3
+connected 1
+end
+arch detector
+x 8
+y 3
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 3
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 3
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 4
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 4
+connected 1
+end
+arch detector
+x 8
+y 4
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 4
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 4
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 6
+connected 1
+end
+arch detector
+x 8
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 6
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 8
+connected 1
+end
+arch detector
+x 8
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 8
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 10
+connected 1
+end
+arch detector
+x 8
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 11
+end
+arch permanent_lava
+x 8
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 13
+connected 1
+end
+arch detector
+x 8
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 13
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 14
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 15
+connected 1
+end
+arch detector
+x 8
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 8
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 17
+connected 1
+end
+arch detector
+x 8
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 17
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 18
+connected 1
+end
+arch detector
+x 8
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 18
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 8
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 8
+y 19
+connected 1
+end
+arch detector
+x 8
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 8
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 8
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 8
+y 20
+end
+arch rough_wall_2_1_2
+x 8
+y 20
+end
+arch medium_stones
+x 9
+end
+arch rough_wall_2_2_3
+x 9
+end
+arch medium_stones
+x 9
+y 1
+end
+arch rough_wall_2_1_1
+x 9
+y 1
+end
+arch medium_stones
+x 9
+y 2
+end
+arch rough_wall_2_1_1
+x 9
+y 2
+end
+arch medium_stones
+x 9
+y 3
+end
+arch rough_wall_2_1_1
+x 9
+y 3
+end
+arch medium_stones
+x 9
+y 4
+end
+arch rough_wall_2_2_1
+x 9
+y 4
+end
+arch permanent_lava
+x 9
+y 5
+end
+arch permanent_lava
+x 9
+y 6
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 7
+connected 1
+end
+arch detector
+x 9
+y 7
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 7
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 7
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 9
+connected 1
+end
+arch detector
+x 9
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 11
+connected 1
+end
+arch detector
+x 9
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 13
+connected 1
+end
+arch detector
+x 9
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 13
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 14
+connected 1
+end
+arch detector
+x 9
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 14
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 15
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 16
+connected 1
+end
+arch detector
+x 9
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 17
+end
+arch creator
+other_arch firebullet_l
+x 9
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 9
+y 18
+connected 1
+end
+arch detector
+x 9
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 9
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 9
+y 18
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 9
+y 19
+end
+arch medium_stones
+x 9
+y 20
+end
+arch rough_wall_2_1_2
+x 9
+y 20
+end
+arch blocked
+x 10
+end
+arch blocked
+x 10
+y 1
+end
+arch blocked
+x 10
+y 2
+end
+arch blocked
+x 10
+y 3
+end
+arch medium_stones
+x 10
+y 4
+end
+arch rough_wall_2_1_2
+x 10
+y 4
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 5
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 5
+connected 1
+end
+arch detector
+x 10
+y 5
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 5
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 5
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 6
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 7
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 7
+connected 1
+end
+arch detector
+x 10
+y 7
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 7
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 7
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 9
+connected 1
+end
+arch detector
+x 10
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 11
+connected 1
+end
+arch detector
+x 10
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 11
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 12
+connected 1
+end
+arch detector
+x 10
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 12
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 14
+connected 1
+end
+arch detector
+x 10
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 14
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 15
+connected 1
+end
+arch detector
+x 10
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 17
+connected 1
+end
+arch detector
+x 10
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 17
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 10
+y 18
+end
+arch creator
+other_arch firebullet_l
+x 10
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 10
+y 19
+connected 1
+end
+arch detector
+x 10
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 10
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 10
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 10
+y 20
+end
+arch rough_wall_2_1_2
+x 10
+y 20
+end
+arch blocked
+x 11
+end
+arch blocked
+x 11
+y 1
+end
+arch blocked
+x 11
+y 2
+end
+arch blocked
+x 11
+y 3
+end
+arch medium_stones
+x 11
+y 4
+end
+arch rough_wall_2_2_3
+x 11
+y 4
+end
+arch medium_stones
+x 11
+y 5
+end
+arch rough_wall_2_2_1
+x 11
+y 5
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 6
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 6
+connected 1
+end
+arch detector
+x 11
+y 6
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 6
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 6
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 11
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 8
+connected 1
+end
+arch detector
+x 11
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 8
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 11
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 10
+connected 1
+end
+arch detector
+x 11
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 11
+y 11
+end
+arch permanent_lava
+x 11
+y 12
+end
+arch permanent_lava
+x 11
+y 13
+end
+arch permanent_lava
+x 11
+y 14
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 15
+connected 1
+end
+arch detector
+x 11
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 15
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 16
+connected 1
+end
+arch detector
+x 11
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 11
+y 17
+end
+arch creator
+other_arch firebullet_l
+x 11
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 11
+y 18
+connected 1
+end
+arch detector
+x 11
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 11
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 11
+y 18
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 11
+y 19
+end
+arch medium_stones
+x 11
+y 20
+end
+arch rough_wall_2_1_2
+x 11
+y 20
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
+end
+arch blocked
+x 12
+y 2
+end
+arch blocked
+x 12
+y 3
+end
+arch blocked
+x 12
+y 4
+end
+arch medium_stones
+x 12
+y 5
+end
+arch rough_wall_2_2_3
+x 12
+y 5
+end
+arch medium_stones
+x 12
+y 6
+end
+arch rough_wall_2_1_1
+x 12
+y 6
+end
+arch medium_stones
+x 12
+y 7
+end
+arch rough_wall_2_2_1
+x 12
+y 7
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 8
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 8
+connected 1
+end
+arch detector
+x 12
+y 8
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 8
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 8
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 9
+connected 1
+end
+arch detector
+x 12
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 9
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 12
+y 10
+end
+arch permanent_lava
+x 12
+y 11
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 12
+connected 1
+end
+arch detector
+x 12
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 12
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 13
+connected 1
+end
+arch detector
+x 12
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 13
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 14
+connected 1
+end
+arch detector
+x 12
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 14
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 15
+connected 1
+end
+arch detector
+x 12
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 12
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 17
+connected 1
+end
+arch detector
+x 12
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 17
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 12
+y 18
+end
+arch creator
+other_arch firebullet_l
+x 12
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 12
+y 19
+connected 1
+end
+arch detector
+x 12
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 12
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 12
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 12
+y 20
+end
+arch rough_wall_2_1_2
+x 12
+y 20
+end
+arch blocked
+x 13
+end
+arch blocked
+x 13
+y 1
+end
+arch blocked
+x 13
+y 2
+end
+arch blocked
+x 13
+y 3
+end
+arch blocked
+x 13
+y 4
+end
+arch blocked
+x 13
+y 5
+end
+arch blocked
+x 13
+y 6
+end
+arch medium_stones
+x 13
+y 7
+end
+arch rough_wall_2_2_3
+x 13
+y 7
+end
+arch medium_stones
+x 13
+y 8
+end
+arch rough_wall_2_2_1
+x 13
+y 8
+end
+arch permanent_lava
+x 13
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 13
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 10
+connected 1
+end
+arch detector
+x 13
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 13
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 13
+y 10
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 13
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 11
+connected 1
+end
+arch detector
+x 13
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 13
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 13
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 13
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 13
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 13
+connected 1
+end
+arch detector
+x 13
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 13
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 13
+y 13
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 13
+y 14
+end
+arch permanent_lava
+x 13
+y 15
+end
+arch creator
+other_arch firebullet_l
+x 13
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 13
+y 16
+connected 1
+end
+arch detector
+x 13
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 13
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 13
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 13
+y 17
+end
+arch permanent_lava
+x 13
+y 18
+end
+arch permanent_lava
+x 13
+y 19
+end
+arch medium_stones
+x 13
+y 20
+end
+arch rough_wall_2_1_2
+x 13
+y 20
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
+x 14
+y 3
+end
+arch blocked
+x 14
+y 4
+end
+arch blocked
+x 14
+y 5
+end
+arch blocked
+x 14
+y 6
+end
+arch blocked
+x 14
+y 7
+end
+arch medium_stones
+x 14
+y 8
+end
+arch rough_wall_2_1_2
+x 14
+y 8
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 9
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 9
+connected 1
+end
+arch detector
+x 14
+y 9
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 9
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 9
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 10
+connected 1
+end
+arch detector
+x 14
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 10
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 11
+connected 1
+end
+arch detector
+x 14
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 11
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 12
+connected 1
+end
+arch detector
+x 14
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 12
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 14
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 14
+connected 1
+end
+arch detector
+x 14
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 14
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 15
+connected 1
+end
+arch detector
+x 14
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 14
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 17
+connected 1
+end
+arch detector
+x 14
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 17
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 14
+y 18
+end
+arch creator
+other_arch firebullet_l
+x 14
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 14
+y 19
+connected 1
+end
+arch detector
+x 14
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 14
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 14
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 14
+y 20
+end
+arch rough_wall_2_1_2
+x 14
+y 20
+end
+arch blocked
+x 15
+end
+arch blocked
+x 15
+y 1
+end
+arch blocked
+x 15
+y 2
+end
+arch blocked
+x 15
+y 3
+end
+arch blocked
+x 15
+y 4
+end
+arch blocked
+x 15
+y 5
+end
+arch blocked
+x 15
+y 6
+end
+arch blocked
+x 15
+y 7
+end
+arch medium_stones
+x 15
+y 8
+end
+arch rough_wall_2_2_3
+x 15
+y 8
+end
+arch medium_stones
+x 15
+y 9
+end
+arch rough_wall_2_2_1
+x 15
+y 9
+end
+arch creator
+other_arch firebullet_l
+x 15
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 10
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 10
+connected 1
+end
+arch detector
+x 15
+y 10
+invisible 1
+connected 1
+end
+arch medium_stones
+x 15
+y 10
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 15
+y 10
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 15
+y 11
+end
+arch creator
+other_arch firebullet_l
+x 15
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 12
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 12
+connected 1
+end
+arch detector
+x 15
+y 12
+invisible 1
+connected 1
+end
+arch medium_stones
+x 15
+y 12
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 15
+y 12
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 15
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 13
+connected 1
+end
+arch detector
+x 15
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 15
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 15
+y 13
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 15
+y 14
+end
+arch permanent_lava
+x 15
+y 15
+end
+arch creator
+other_arch firebullet_l
+x 15
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 15
+y 16
+connected 1
+end
+arch detector
+x 15
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 15
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 15
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 15
+y 17
+end
+arch permanent_lava
+x 15
+y 18
+end
+arch permanent_lava
+x 15
+y 19
+end
+arch medium_stones
+x 15
+y 20
+end
+arch rough_wall_2_1_2
+x 15
+y 20
+end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch blocked
+x 16
+y 3
+end
+arch blocked
+x 16
+y 4
+end
+arch blocked
+x 16
+y 5
+end
+arch blocked
+x 16
+y 6
+end
+arch blocked
+x 16
+y 7
+end
+arch blocked
+x 16
+y 8
+end
+arch medium_stones
+x 16
+y 9
+end
+arch rough_wall_2_2_3
+x 16
+y 9
+end
+arch medium_stones
+x 16
+y 10
+end
+arch rough_wall_2_2_1
+x 16
+y 10
+end
+arch creator
+other_arch firebullet_l
+x 16
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 11
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 11
+connected 1
+end
+arch detector
+x 16
+y 11
+invisible 1
+connected 1
+end
+arch medium_stones
+x 16
+y 11
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 16
+y 11
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 16
+y 12
+end
+arch permanent_lava
+x 16
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 16
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 14
+connected 1
+end
+arch detector
+x 16
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 16
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 16
+y 14
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 16
+y 15
+end
+arch permanent_lava
+x 16
+y 16
+end
+arch permanent_lava
+x 16
+y 17
+end
+arch creator
+other_arch firebullet_l
+x 16
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 16
+y 18
+connected 1
+end
+arch detector
+x 16
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 16
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 16
+y 18
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 16
+y 19
+end
+arch medium_stones
+x 16
+y 20
+end
+arch rough_wall_2_1_2
+x 16
+y 20
+end
+arch blocked
+x 17
+end
+arch blocked
+x 17
+y 1
+end
+arch blocked
+x 17
+y 2
+end
+arch blocked
+x 17
+y 3
+end
+arch blocked
+x 17
+y 4
+end
+arch blocked
+x 17
+y 5
+end
+arch blocked
+x 17
+y 6
+end
+arch blocked
+x 17
+y 7
+end
+arch blocked
+x 17
+y 8
+end
+arch blocked
+x 17
+y 9
+end
+arch medium_stones
+x 17
+y 10
+end
+arch rough_wall_2_2_3
+x 17
+y 10
+end
+arch medium_stones
+x 17
+y 11
+end
+arch rough_wall_2_1_1
+x 17
+y 11
+end
+arch medium_stones
+x 17
+y 12
+end
+arch rough_wall_2_2_1
+x 17
+y 12
+end
+arch creator
+other_arch firebullet_l
+x 17
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 13
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 13
+connected 1
+end
+arch detector
+x 17
+y 13
+invisible 1
+connected 1
+end
+arch medium_stones
+x 17
+y 13
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 17
+y 13
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 17
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 14
+connected 1
+end
+arch detector
+x 17
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 17
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 17
+y 14
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 17
+y 15
+end
+arch creator
+other_arch firebullet_l
+x 17
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 16
+connected 1
+end
+arch detector
+x 17
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 17
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 17
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 17
+y 17
+end
+arch creator
+other_arch firebullet_l
+x 17
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 18
+connected 1
+end
+arch detector
+x 17
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 17
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 17
+y 18
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 17
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 17
+y 19
+connected 1
+end
+arch detector
+x 17
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 17
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 17
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 17
+y 20
+end
+arch rough_wall_2_1_2
+x 17
+y 20
+end
+arch blocked
+x 18
+end
+arch blocked
+x 18
+y 1
+end
+arch blocked
+x 18
+y 2
+end
+arch blocked
+x 18
+y 3
+end
+arch blocked
+x 18
+y 4
+end
+arch blocked
+x 18
+y 5
+end
+arch blocked
+x 18
+y 6
+end
+arch blocked
+x 18
+y 7
+end
+arch blocked
+x 18
+y 8
+end
+arch blocked
+x 18
+y 9
+end
+arch blocked
+x 18
+y 10
+end
+arch blocked
+x 18
+y 11
+end
+arch medium_stones
+x 18
+y 12
+end
+arch rough_wall_2_2_3
+x 18
+y 12
+end
+arch medium_stones
+x 18
+y 13
+end
+arch rough_wall_2_2_1
+x 18
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 18
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 14
+connected 1
+end
+arch detector
+x 18
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 18
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 18
+y 14
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 18
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 15
+connected 1
+end
+arch detector
+x 18
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 18
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 18
+y 15
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 18
+y 16
+end
+arch creator
+other_arch firebullet_l
+x 18
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 17
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 17
+connected 1
+end
+arch detector
+x 18
+y 17
+invisible 1
+connected 1
+end
+arch medium_stones
+x 18
+y 17
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 18
+y 17
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 18
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 18
+connected 1
+end
+arch creator
+other_arch firebreath
+x 18
+y 18
+connected 1
+end
+arch detector
+x 18
+y 18
+invisible 1
+connected 1
+end
+arch medium_stones
+x 18
+y 18
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 18
+y 18
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 18
+y 19
+end
+arch stair_down_1
+slaying evenhotter
+hp 33
+sp 38
+x 18
+y 19
+end
+arch medium_stones
+x 18
+y 20
+end
+arch rough_wall_2_1_2
+x 18
+y 20
+end
+arch blocked
+x 19
+end
+arch blocked
+x 19
+y 1
+end
+arch blocked
+x 19
+y 2
+end
+arch blocked
+x 19
+y 3
+end
+arch blocked
+x 19
+y 4
+end
+arch blocked
+x 19
+y 5
+end
+arch blocked
+x 19
+y 6
+end
+arch blocked
+x 19
+y 7
+end
+arch blocked
+x 19
+y 8
+end
+arch blocked
+x 19
+y 9
+end
+arch blocked
+x 19
+y 10
+end
+arch blocked
+x 19
+y 11
+end
+arch blocked
+x 19
+y 12
+end
+arch medium_stones
+x 19
+y 13
+end
+arch rough_wall_2_1_2
+x 19
+y 13
+end
+arch creator
+other_arch firebullet_l
+x 19
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 14
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 14
+connected 1
+end
+arch detector
+x 19
+y 14
+invisible 1
+connected 1
+end
+arch medium_stones
+x 19
+y 14
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 19
+y 14
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 19
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 15
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 15
+connected 1
+end
+arch detector
+x 19
+y 15
+invisible 1
+connected 1
+end
+arch medium_stones
+x 19
+y 15
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 19
+y 15
+speed -0.010000
+invisible 0
+end
+arch creator
+other_arch firebullet_l
+x 19
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 16
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 16
+connected 1
+end
+arch detector
+x 19
+y 16
+invisible 1
+connected 1
+end
+arch medium_stones
+x 19
+y 16
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 19
+y 16
+speed -0.010000
+invisible 0
+end
+arch permanent_lava
+x 19
+y 17
+end
+arch permanent_lava
+x 19
+y 18
+end
+arch creator
+other_arch firebullet_l
+x 19
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 19
+connected 1
+end
+arch creator
+other_arch firebreath
+x 19
+y 19
+connected 1
+end
+arch detector
+x 19
+y 19
+invisible 1
+connected 1
+end
+arch medium_stones
+x 19
+y 19
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 19
+y 19
+speed -0.010000
+invisible 0
+end
+arch medium_stones
+x 19
+y 20
+end
+arch rough_wall_2_1_2
+x 19
+y 20
+end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 3
+end
+arch blocked
+x 20
+y 4
+end
+arch blocked
+x 20
+y 5
+end
+arch blocked
+x 20
+y 6
+end
+arch blocked
+x 20
+y 7
+end
+arch blocked
+x 20
+y 8
+end
+arch blocked
+x 20
+y 9
+end
+arch blocked
+x 20
+y 10
+end
+arch blocked
+x 20
+y 11
+end
+arch blocked
+x 20
+y 12
+end
+arch medium_stones
+x 20
+y 13
+end
+arch rough_wall_2_2_3
+x 20
+y 13
+end
+arch medium_stones
+x 20
+y 14
+end
+arch rough_wall_2_1_1
+x 20
+y 14
+end
+arch medium_stones
+x 20
+y 15
+end
+arch rough_wall_2_1_1
+x 20
+y 15
+end
+arch medium_stones
+x 20
+y 16
+end
+arch rough_wall_2_1_1
+x 20
+y 16
+end
+arch medium_stones
+x 20
+y 17
+end
+arch rough_wall_2_1_1
+x 20
+y 17
+end
+arch medium_stones
+x 20
+y 18
+end
+arch rough_wall_2_1_1
+x 20
+y 18
+end
+arch medium_stones
+x 20
+y 19
+end
+arch rough_wall_2_1_1
+x 20
+y 19
+end
+arch medium_stones
+x 20
+y 20
+end
+arch rough_wall_2_2_4
+x 20
+y 20
+end

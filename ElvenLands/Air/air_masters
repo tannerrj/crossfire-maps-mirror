@@ -1,0 +1,1802 @@
+arch map
+name air_masters
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Dec  9 17:36:15 1999
+endmsg
+width 16
+height 16
+darkness 1
+end
+arch mountain4
+end
+arch mountain4
+y 1
+end
+arch mountain4
+y 2
+end
+arch mountain4
+y 3
+end
+arch mountain4
+y 4
+end
+arch mountain4
+y 5
+end
+arch mountain4
+y 6
+end
+arch mountain4
+y 7
+end
+arch mountain4
+y 8
+end
+arch mountain4
+y 9
+end
+arch mountain4
+y 10
+end
+arch mountain4
+y 11
+end
+arch mountain4
+y 12
+end
+arch mountain4
+y 13
+end
+arch mountain4
+y 14
+end
+arch mountain4
+y 15
+end
+arch mountain4
+x 1
+end
+arch mountain
+x 1
+y 1
+end
+arch mountain
+x 1
+y 2
+end
+arch mountain
+x 1
+y 3
+end
+arch pstone_1
+x 1
+y 4
+end
+arch random_spells
+x 1
+y 4
+end
+arch pstone_1
+x 1
+y 5
+end
+arch pstone_2
+x 1
+y 5
+end
+arch random_spells
+x 1
+y 5
+end
+arch pstone_1
+x 1
+y 6
+end
+arch random_potion
+x 1
+y 6
+end
+arch pstone_1
+x 1
+y 7
+end
+arch pstone_2
+x 1
+y 7
+end
+arch random_potion
+x 1
+y 7
+end
+arch pstone_1
+x 1
+y 8
+end
+arch pstone_2
+x 1
+y 8
+end
+arch random_potion
+x 1
+y 8
+end
+arch pstone_1
+x 1
+y 9
+end
+arch random_potion
+x 1
+y 9
+end
+arch pstone_1
+x 1
+y 10
+end
+arch random_spells
+x 1
+y 10
+end
+arch pstone_1
+x 1
+y 11
+end
+arch random_spells
+x 1
+y 11
+end
+arch mountain
+x 1
+y 12
+end
+arch mountain
+x 1
+y 13
+end
+arch mountain
+x 1
+y 14
+end
+arch mountain4
+x 1
+y 15
+end
+arch mountain4
+x 2
+end
+arch mountain
+x 2
+y 1
+end
+arch mountain
+x 2
+y 2
+end
+arch mountain
+x 2
+y 3
+end
+arch pstone_1
+x 2
+y 4
+end
+arch random_wealth
+x 2
+y 4
+end
+arch pstone_2
+x 2
+y 5
+end
+arch random_talisman
+x 2
+y 5
+end
+arch pstone_1
+x 2
+y 6
+end
+arch pstone_2
+x 2
+y 6
+end
+arch random_talisman
+x 2
+y 6
+end
+arch pstone_1
+x 2
+y 7
+end
+arch pstone_2
+x 2
+y 7
+end
+arch random_talisman
+x 2
+y 7
+end
+arch pstone_1
+x 2
+y 8
+end
+arch pstone_2
+x 2
+y 8
+end
+arch random_talisman
+x 2
+y 8
+end
+arch pstone_1
+x 2
+y 9
+end
+arch pstone_2
+x 2
+y 9
+end
+arch random_talisman
+x 2
+y 9
+end
+arch pstone_1
+x 2
+y 10
+end
+arch pstone_2
+x 2
+y 10
+end
+arch random_talisman
+x 2
+y 10
+end
+arch pstone_1
+x 2
+y 11
+end
+arch random_wealth
+x 2
+y 11
+end
+arch mountain
+x 2
+y 12
+end
+arch mountain
+x 2
+y 13
+end
+arch mountain
+x 2
+y 14
+end
+arch mountain4
+x 2
+y 15
+end
+arch mountain4
+x 3
+end
+arch mountain
+x 3
+y 1
+end
+arch mountain
+x 3
+y 2
+end
+arch mountain
+x 3
+y 3
+end
+arch pstone_1
+x 3
+y 4
+end
+arch random_wealth
+x 3
+y 4
+end
+arch pstone_1
+x 3
+y 5
+end
+arch pstone_2
+x 3
+y 5
+end
+arch random_wealth
+x 3
+y 5
+end
+arch pstone_2
+x 3
+y 6
+end
+arch random_wealth
+x 3
+y 6
+end
+arch pstone_1
+x 3
+y 7
+end
+arch random_wealth
+x 3
+y 7
+end
+arch pstone_1
+x 3
+y 8
+end
+arch random_wealth
+x 3
+y 8
+end
+arch pstone_1
+x 3
+y 9
+end
+arch random_wealth
+x 3
+y 9
+end
+arch pstone_1
+x 3
+y 10
+end
+arch pstone_2
+x 3
+y 10
+end
+arch random_wealth
+x 3
+y 10
+end
+arch pstone_1
+x 3
+y 11
+end
+arch random_wealth
+x 3
+y 11
+end
+arch mountain
+x 3
+y 12
+end
+arch mountain
+x 3
+y 13
+end
+arch mountain
+x 3
+y 14
+end
+arch mountain4
+x 3
+y 15
+end
+arch mountain4
+x 4
+end
+arch mountain4
+x 4
+y 1
+end
+arch mountain4
+x 4
+y 2
+end
+arch mountain4
+x 4
+y 3
+end
+arch pstone_1
+x 4
+y 4
+end
+arch random_scroll
+x 4
+y 4
+end
+arch pstone_1
+x 4
+y 5
+end
+arch pstone_2
+x 4
+y 5
+end
+arch random_scroll
+x 4
+y 5
+end
+arch pstone_1
+x 4
+y 6
+end
+arch random_scroll
+x 4
+y 6
+end
+arch pstone_2
+x 4
+y 7
+end
+arch random_scroll
+x 4
+y 7
+end
+arch pstone_1
+x 4
+y 8
+end
+arch pstone_2
+x 4
+y 8
+end
+arch random_scroll
+x 4
+y 8
+end
+arch pstone_1
+x 4
+y 9
+end
+arch pstone_2
+x 4
+y 9
+end
+arch random_scroll
+x 4
+y 9
+end
+arch pstone_1
+x 4
+y 10
+end
+arch random_scroll
+x 4
+y 10
+end
+arch pstone_1
+x 4
+y 11
+end
+arch random_scroll
+x 4
+y 11
+end
+arch mountain4
+x 4
+y 12
+end
+arch mountain4
+x 4
+y 13
+end
+arch mountain4
+x 4
+y 14
+end
+arch mountain4
+x 4
+y 15
+end
+arch mountain4
+x 5
+end
+arch mountain4
+x 5
+y 1
+end
+arch mountain4
+x 5
+y 2
+end
+arch mountain4
+x 5
+y 3
+end
+arch pstone_1
+x 5
+y 4
+end
+arch random_scroll
+x 5
+y 4
+end
+arch pstone_1
+x 5
+y 5
+end
+arch pstone_2
+x 5
+y 5
+end
+arch random_scroll
+x 5
+y 5
+end
+arch pstone_1
+x 5
+y 6
+end
+arch random_scroll
+x 5
+y 6
+end
+arch pstone_1
+x 5
+y 7
+end
+arch pstone_2
+x 5
+y 7
+end
+arch random_scroll
+x 5
+y 7
+end
+arch pstone_2
+x 5
+y 8
+end
+arch random_scroll
+x 5
+y 8
+end
+arch pstone_1
+x 5
+y 9
+end
+arch random_scroll
+x 5
+y 9
+end
+arch pstone_1
+x 5
+y 10
+end
+arch random_scroll
+x 5
+y 10
+end
+arch pstone_1
+x 5
+y 11
+end
+arch random_scroll
+x 5
+y 11
+end
+arch mountain4
+x 5
+y 12
+end
+arch mountain4
+x 5
+y 13
+end
+arch mountain4
+x 5
+y 14
+end
+arch mountain4
+x 5
+y 15
+end
+arch mountain4
+x 6
+end
+arch pstone_1
+x 6
+y 1
+end
+arch book
+slaying ball lightning
+x 6
+y 1
+end
+arch pstone_1
+x 6
+y 2
+end
+arch random_potion
+x 6
+y 2
+end
+arch random_spells
+x 6
+y 2
+end
+arch random_scroll
+x 6
+y 2
+end
+arch random_wealth
+x 6
+y 2
+end
+arch pstone_1
+x 6
+y 3
+end
+arch locked_door1
+slaying airboss
+x 6
+y 3
+end
+arch pstone_1
+x 6
+y 4
+end
+arch pstone_1
+x 6
+y 5
+end
+arch pstone_2
+x 6
+y 5
+end
+arch pstone_1
+x 6
+y 6
+end
+arch pstone_2
+x 6
+y 6
+end
+arch pstone_1
+x 6
+y 7
+end
+arch pstone_2
+x 6
+y 8
+end
+arch pstone_1
+x 6
+y 9
+end
+arch pstone_1
+x 6
+y 10
+end
+arch pstone_1
+x 6
+y 11
+end
+arch pstone_1
+x 6
+y 12
+end
+arch pstone_1
+x 6
+y 13
+end
+arch pstone_1
+x 6
+y 14
+end
+arch mountain4
+x 6
+y 15
+end
+arch mountain4
+x 7
+end
+arch pstone_1
+x 7
+y 1
+end
+arch excalibur
+name Electroblade
+title of Thunder
+Str 2
+Dex 2
+Cha 0
+dam 30
+attacktype 8
+resist_magic 0
+resist_electricity 60
+resist_drain 0
+magic 6
+last_sp 6
+x 7
+y 1
+end
+arch pstone_1
+x 7
+y 2
+end
+arch pstone_2
+x 7
+y 2
+end
+arch random_potion
+x 7
+y 2
+end
+arch random_spells
+x 7
+y 2
+end
+arch random_scroll
+x 7
+y 2
+end
+arch random_wealth
+x 7
+y 2
+end
+arch pstone_1
+x 7
+y 3
+end
+arch locked_door1
+slaying airboss
+x 7
+y 3
+end
+arch pstone_1
+x 7
+y 4
+end
+arch pstone_2
+x 7
+y 4
+end
+arch pstone_1
+x 7
+y 5
+end
+arch pstone_2
+x 7
+y 5
+end
+arch pstone_1
+x 7
+y 6
+end
+arch pstone_1
+x 7
+y 7
+end
+arch pstone_2
+x 7
+y 7
+end
+arch pstone_1
+x 7
+y 8
+end
+arch pstone_1
+x 7
+y 9
+end
+arch pstone_2
+x 7
+y 9
+end
+arch pstone_1
+x 7
+y 10
+end
+arch pstone_2
+x 7
+y 10
+end
+arch pstone_1
+x 7
+y 11
+end
+arch pstone_2
+x 7
+y 11
+end
+arch pstone_1
+x 7
+y 12
+end
+arch pstone_2
+x 7
+y 12
+end
+arch pstone_1
+x 7
+y 13
+end
+arch pstone_1
+x 7
+y 14
+end
+arch mountain4
+x 7
+y 15
+end
+arch mountain4
+x 8
+end
+arch pstone_1
+x 8
+y 1
+end
+arch bighorned_helmet
+name Winged helmet
+msg
+The wings upon this helmet are not
+powerful enough to make the wearer
+fly,however they greatly increase his
+speed.
+endmsg
+title of the Sky
+exp 6
+ac 2
+speed 0.300000
+resist_physical 10
+resist_electricity 20
+resist_cold 20
+material 0
+value 8000
+weight 6000
+magic 5
+last_heal 0
+x 8
+y 1
+end
+arch pstone_1
+x 8
+y 2
+end
+arch random_potion
+x 8
+y 2
+end
+arch random_spells
+x 8
+y 2
+end
+arch random_scroll
+x 8
+y 2
+end
+arch random_wealth
+x 8
+y 2
+end
+arch pstone_1
+x 8
+y 3
+end
+arch locked_door1
+slaying airboss
+x 8
+y 3
+end
+arch pstone_1
+x 8
+y 4
+end
+arch pstone_1
+x 8
+y 5
+end
+arch pstone_2
+x 8
+y 5
+end
+arch pstone_1
+x 8
+y 6
+end
+arch pstone_2
+x 8
+y 6
+end
+arch pstone_1
+x 8
+y 7
+end
+arch pstone_2
+x 8
+y 7
+end
+arch pstone_1
+x 8
+y 8
+end
+arch pstone_1
+x 8
+y 9
+end
+arch pstone_2
+x 8
+y 9
+end
+arch pstone_1
+x 8
+y 10
+end
+arch pstone_1
+x 8
+y 11
+end
+arch pstone_1
+x 8
+y 12
+end
+arch pstone_2
+x 8
+y 12
+end
+arch pstone_1
+x 8
+y 13
+end
+arch pstone_2
+x 8
+y 13
+end
+arch stair_up_3
+slaying /ElvenLands/Air/airplane
+hp 5
+x 8
+y 13
+end
+arch pstone_1
+x 8
+y 14
+end
+arch mountain4
+x 8
+y 15
+end
+arch mountain4
+x 9
+end
+arch pstone_1
+x 9
+y 1
+end
+arch icecube
+name stone of air
+exp 0
+material 2
+weight 100
+x 9
+y 1
+end
+arch pstone_1
+x 9
+y 2
+end
+arch random_potion
+x 9
+y 2
+end
+arch random_spells
+x 9
+y 2
+end
+arch random_scroll
+x 9
+y 2
+end
+arch random_wealth
+x 9
+y 2
+end
+arch pstone_1
+x 9
+y 3
+end
+arch locked_door1
+slaying airboss
+x 9
+y 3
+end
+arch pstone_1
+x 9
+y 4
+end
+arch pstone_1
+x 9
+y 5
+end
+arch pstone_2
+x 9
+y 5
+end
+arch pstone_1
+x 9
+y 6
+end
+arch pstone_2
+x 9
+y 6
+end
+arch pstone_1
+x 9
+y 7
+end
+arch pstone_1
+x 9
+y 8
+end
+arch pstone_1
+x 9
+y 9
+end
+arch pstone_2
+x 9
+y 9
+end
+arch pstone_1
+x 9
+y 10
+end
+arch pstone_1
+x 9
+y 11
+end
+arch pstone_1
+x 9
+y 12
+end
+arch pstone_1
+x 9
+y 13
+end
+arch pstone_1
+x 9
+y 14
+end
+arch mountain4
+x 9
+y 15
+end
+arch mountain4
+x 10
+end
+arch mountain4
+x 10
+y 1
+end
+arch mountain4
+x 10
+y 2
+end
+arch mountain4
+x 10
+y 3
+end
+arch pstone_1
+x 10
+y 4
+end
+arch random_scroll
+x 10
+y 4
+end
+arch pstone_1
+x 10
+y 5
+end
+arch random_scroll
+x 10
+y 5
+end
+arch pstone_1
+x 10
+y 6
+end
+arch pstone_2
+x 10
+y 6
+end
+arch random_scroll
+x 10
+y 6
+end
+arch pstone_1
+x 10
+y 7
+end
+arch pstone_2
+x 10
+y 7
+end
+arch random_scroll
+x 10
+y 7
+end
+arch pstone_1
+x 10
+y 8
+end
+arch random_scroll
+x 10
+y 8
+end
+arch pstone_1
+x 10
+y 9
+end
+arch pstone_2
+x 10
+y 9
+end
+arch random_scroll
+x 10
+y 9
+end
+arch pstone_1
+x 10
+y 10
+end
+arch random_scroll
+x 10
+y 10
+end
+arch pstone_1
+x 10
+y 11
+end
+arch random_scroll
+x 10
+y 11
+end
+arch mountain4
+x 10
+y 12
+end
+arch mountain4
+x 10
+y 13
+end
+arch mountain4
+x 10
+y 14
+end
+arch mountain4
+x 10
+y 15
+end
+arch mountain4
+x 11
+end
+arch mountain4
+x 11
+y 1
+end
+arch mountain4
+x 11
+y 2
+end
+arch mountain4
+x 11
+y 3
+end
+arch pstone_1
+x 11
+y 4
+end
+arch random_scroll
+x 11
+y 4
+end
+arch pstone_1
+x 11
+y 5
+end
+arch random_scroll
+x 11
+y 5
+end
+arch pstone_1
+x 11
+y 6
+end
+arch random_scroll
+x 11
+y 6
+end
+arch pstone_1
+x 11
+y 7
+end
+arch pstone_2
+x 11
+y 7
+end
+arch random_scroll
+x 11
+y 7
+end
+arch pstone_1
+x 11
+y 8
+end
+arch pstone_2
+x 11
+y 8
+end
+arch random_scroll
+x 11
+y 8
+end
+arch pstone_1
+x 11
+y 9
+end
+arch pstone_2
+x 11
+y 9
+end
+arch random_scroll
+x 11
+y 9
+end
+arch pstone_1
+x 11
+y 10
+end
+arch pstone_2
+x 11
+y 10
+end
+arch random_scroll
+x 11
+y 10
+end
+arch pstone_1
+x 11
+y 11
+end
+arch random_scroll
+x 11
+y 11
+end
+arch mountain4
+x 11
+y 12
+end
+arch mountain4
+x 11
+y 13
+end
+arch mountain4
+x 11
+y 14
+end
+arch mountain4
+x 11
+y 15
+end
+arch mountain4
+x 12
+end
+arch mountain
+x 12
+y 1
+end
+arch mountain
+x 12
+y 2
+end
+arch mountain
+x 12
+y 3
+end
+arch pstone_1
+x 12
+y 4
+end
+arch random_wealth
+x 12
+y 4
+end
+arch pstone_1
+x 12
+y 5
+end
+arch random_wealth
+x 12
+y 5
+end
+arch pstone_1
+x 12
+y 6
+end
+arch random_wealth
+x 12
+y 6
+end
+arch pstone_1
+x 12
+y 7
+end
+arch random_wealth
+x 12
+y 7
+end
+arch pstone_1
+x 12
+y 8
+end
+arch random_wealth
+x 12
+y 8
+end
+arch pstone_1
+x 12
+y 9
+end
+arch pstone_2
+x 12
+y 9
+end
+arch random_wealth
+x 12
+y 9
+end
+arch pstone_1
+x 12
+y 10
+end
+arch pstone_2
+x 12
+y 10
+end
+arch random_wealth
+x 12
+y 10
+end
+arch pstone_1
+x 12
+y 11
+end
+arch random_wealth
+x 12
+y 11
+end
+arch mountain
+x 12
+y 12
+end
+arch mountain
+x 12
+y 13
+end
+arch mountain
+x 12
+y 14
+end
+arch mountain4
+x 12
+y 15
+end
+arch mountain4
+x 13
+end
+arch mountain
+x 13
+y 1
+end
+arch mountain
+x 13
+y 2
+end
+arch mountain
+x 13
+y 3
+end
+arch pstone_1
+x 13
+y 4
+end
+arch random_wealth
+x 13
+y 4
+end
+arch pstone_1
+x 13
+y 5
+end
+arch random_talisman
+x 13
+y 5
+end
+arch pstone_1
+x 13
+y 6
+end
+arch random_talisman
+x 13
+y 6
+end
+arch pstone_1
+x 13
+y 7
+end
+arch random_talisman
+x 13
+y 7
+end
+arch pstone_1
+x 13
+y 8
+end
+arch random_talisman
+x 13
+y 8
+end
+arch pstone_1
+x 13
+y 9
+end
+arch random_talisman
+x 13
+y 9
+end
+arch pstone_1
+x 13
+y 10
+end
+arch random_talisman
+x 13
+y 10
+end
+arch pstone_1
+x 13
+y 11
+end
+arch random_wealth
+x 13
+y 11
+end
+arch mountain
+x 13
+y 12
+end
+arch mountain
+x 13
+y 13
+end
+arch mountain
+x 13
+y 14
+end
+arch mountain4
+x 13
+y 15
+end
+arch mountain4
+x 14
+end
+arch mountain
+x 14
+y 1
+end
+arch mountain
+x 14
+y 2
+end
+arch mountain
+x 14
+y 3
+end
+arch pstone_1
+x 14
+y 4
+end
+arch random_spells
+x 14
+y 4
+end
+arch pstone_1
+x 14
+y 5
+end
+arch random_spells
+x 14
+y 5
+end
+arch pstone_1
+x 14
+y 6
+end
+arch random_potion
+x 14
+y 6
+end
+arch pstone_1
+x 14
+y 7
+end
+arch pstone_2
+x 14
+y 7
+end
+arch random_potion
+x 14
+y 7
+end
+arch pstone_1
+x 14
+y 8
+end
+arch random_potion
+x 14
+y 8
+end
+arch pstone_1
+x 14
+y 9
+end
+arch random_potion
+x 14
+y 9
+end
+arch pstone_1
+x 14
+y 10
+end
+arch random_spells
+x 14
+y 10
+end
+arch pstone_1
+x 14
+y 11
+end
+arch random_spells
+x 14
+y 11
+end
+arch mountain
+x 14
+y 12
+end
+arch mountain
+x 14
+y 13
+end
+arch mountain
+x 14
+y 14
+end
+arch mountain4
+x 14
+y 15
+end
+arch mountain4
+x 15
+end
+arch mountain4
+x 15
+y 1
+end
+arch mountain4
+x 15
+y 2
+end
+arch mountain4
+x 15
+y 3
+end
+arch mountain4
+x 15
+y 4
+end
+arch mountain4
+x 15
+y 5
+end
+arch mountain4
+x 15
+y 6
+end
+arch mountain4
+x 15
+y 7
+end
+arch mountain4
+x 15
+y 8
+end
+arch mountain4
+x 15
+y 9
+end
+arch mountain4
+x 15
+y 10
+end
+arch mountain4
+x 15
+y 11
+end
+arch mountain4
+x 15
+y 12
+end
+arch mountain4
+x 15
+y 13
+end
+arch mountain4
+x 15
+y 14
+end
+arch mountain4
+x 15
+y 15
+end
+arch big_elec
+name Guardian of Air
+Str 25
+hp 7000
+maxhp 9000
+sp 150
+maxsp 150
+exp 900000
+dam 60
+wc -80
+ac -48
+speed -0.500000
+level 100
+carrying 22000
+x 1
+y 12
+arch ability_coldspell
+end
+arch ability_coldspell
+end
+arch frostbrand
+end
+end
+arch titan
+name Guardian of Air
+hp 9000
+maxhp 9000
+exp 800000
+dam 70
+wc -70
+ac -50
+level 100
+carrying 22000
+x 2
+y 2
+arch ability_coldspell
+end
+arch ability_coldspell
+end
+arch frostbrand
+end
+end
+arch dragonman
+name Lord of Air
+level 110
+exp 1000000
+randomitems acdc
+carrying 45100
+attacktype 25
+dam 100
+wc -50
+hp 9000
+maxhp 9000
+ac -40
+Con 40
+sp 400
+maxsp 400
+Pow 40
+can_see_in_dark 1
+can_use_weapon 1
+can_use_armour 1
+resist_physical 70
+resist_magic 70
+resist_fire -50
+resist_cold 100
+resist_confusion 80
+resist_acid 95
+x 7
+y 7
+arch key2
+slaying airboss
+end
+arch mithril_chainmail
+resist_physical 25
+resist_electricity 10
+resist_cold 10
+end
+arch mjoellnir
+name Air Mallet
+Str 0
+attacktype 24
+resist_electricity 20
+resist_cold 20
+end
+arch blindness
+name forked lightning
+type 110
+sp 195
+speed 0.000000
+is_blind 0
+end
+arch blindness
+name windstorm
+type 110
+sp 189
+speed 0.000000
+is_blind 0
+end
+arch blindness
+name large snowstorm
+type 110
+sp 170
+speed 0.000000
+is_blind 0
+end
+arch blindness
+name summon air elemental
+type 110
+sp 13
+speed 0.000000
+is_blind 0
+end
+arch blindness
+name large icestorm
+type 110
+sp 59
+speed 0.000000
+is_blind 0
+end
+end
+arch chinese_dragon
+name Guardian of Air
+hp 9000
+maxhp 9000
+sp 100
+maxsp 100
+exp 800000
+dam 60
+wc -80
+ac -48
+speed -0.300000
+level 100
+carrying 22000
+x 12
+y 1
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch frostbrand
+end
+end
+arch titan
+name Guardian of Air
+hp 9000
+maxhp 9000
+exp 800000
+dam 70
+wc -60
+ac -50
+level 100
+carrying 22000
+x 12
+y 13
+arch ability_coldspell
+end
+arch ability_coldspell
+end
+arch frostbrand
+end
+end

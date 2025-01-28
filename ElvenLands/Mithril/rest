@@ -1,0 +1,2647 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun Jul 30 21:28:07 2000
+endmsg
+width 21
+height 21
+end
+arch grass
+end
+arch tree5
+end
+arch grass
+y 1
+end
+arch grass
+y 2
+end
+arch dirtfloor
+y 3
+end
+arch invis_exit
+slaying /ElvenLands/Erthos/erthos
+hp 29
+sp 6
+y 3
+end
+arch dirtfloor
+y 4
+end
+arch invis_exit
+slaying /ElvenLands/Erthos/erthos
+hp 29
+sp 6
+y 4
+end
+arch grass
+y 5
+end
+arch grass
+y 6
+end
+arch grass
+y 7
+end
+arch grass
+y 8
+end
+arch woodfloor
+y 9
+end
+arch wwall_2_2_2
+y 9
+end
+arch woodfloor
+y 10
+end
+arch wwall_2_1_1
+y 10
+end
+arch woodfloor
+y 11
+end
+arch wwall_2_1_1
+y 11
+end
+arch woodfloor
+y 12
+end
+arch wwall_2_1_1
+y 12
+end
+arch woodfloor
+y 13
+end
+arch wwall_3_2
+y 13
+end
+arch woodfloor
+y 14
+end
+arch wwall_2_1_1
+y 14
+end
+arch woodfloor
+y 15
+end
+arch wwall_2_1_1
+y 15
+end
+arch woodfloor
+y 16
+end
+arch wwall_2_1_1
+y 16
+end
+arch woodfloor
+y 17
+end
+arch wwall_2_1_1
+y 17
+end
+arch woodfloor
+y 18
+end
+arch wwall_2_1_1
+y 18
+end
+arch woodfloor
+y 19
+end
+arch wwall_2_1_1
+y 19
+end
+arch woodfloor
+y 20
+end
+arch wwall_2_2_1
+y 20
+end
+arch grass
+x 1
+end
+arch grass
+x 1
+y 1
+end
+arch grass
+x 1
+y 2
+end
+arch dirtfloor
+x 1
+y 3
+end
+arch dirtfloor
+x 1
+y 4
+end
+arch grass
+x 1
+y 5
+end
+arch brush
+x 1
+y 5
+end
+arch grass
+x 1
+y 6
+end
+arch brush
+x 1
+y 6
+end
+arch grass
+x 1
+y 7
+end
+arch brush
+x 1
+y 7
+end
+arch grass
+x 1
+y 8
+end
+arch brush
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
+end
+arch wwall_win2
+x 1
+y 9
+end
+arch woodfloor
+x 1
+y 10
+end
+arch bed_1
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 11
+end
+arch chest_2
+x 1
+y 11
+carrying 81500
+arch chain_mail
+end
+arch axe_4
+end
+arch cloak
+name dwarven cloak
+end
+arch high_boots
+name dwarven boots
+end
+end
+arch woodfloor
+x 1
+y 12
+end
+arch chair_1.4
+x 1
+y 12
+end
+arch woodfloor
+x 1
+y 13
+end
+arch wwall_2_1_2
+x 1
+y 13
+end
+arch woodfloor
+x 1
+y 14
+end
+arch woodfloor
+x 1
+y 15
+end
+arch dragon_steak_table
+x 1
+y 15
+end
+arch woodfloor
+x 1
+y 16
+end
+arch woodfloor
+x 1
+y 17
+end
+arch door_look_1
+x 1
+y 17
+no_pass 0
+end
+arch woodfloor
+x 1
+y 18
+end
+arch woodfloor
+x 1
+y 19
+end
+arch woodfloor
+x 1
+y 20
+end
+arch wwall_2_1_2
+x 1
+y 20
+end
+arch grass
+x 2
+end
+arch brush
+x 2
+end
+arch grass
+x 2
+y 1
+end
+arch brush
+x 2
+y 1
+end
+arch grass
+x 2
+y 2
+end
+arch dirtfloor
+x 2
+y 3
+end
+arch dirtfloor
+x 2
+y 4
+end
+arch grass
+x 2
+y 5
+end
+arch grass
+x 2
+y 6
+end
+arch brush
+x 2
+y 6
+end
+arch grass
+x 2
+y 7
+end
+arch grass
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 9
+end
+arch wwall_2_1_2
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 12
+end
+arch table_4
+x 2
+y 12
+end
+arch woodfloor
+x 2
+y 13
+end
+arch wwall_2_1_2
+x 2
+y 13
+end
+arch woodfloor
+x 2
+y 14
+end
+arch fireplace
+x 2
+y 14
+end
+arch woodfloor
+x 2
+y 15
+end
+arch waybread_table
+x 2
+y 15
+end
+arch woodfloor
+x 2
+y 16
+end
+arch woodfloor
+x 2
+y 17
+end
+arch wwall_1_4
+x 2
+y 17
+end
+arch woodfloor
+x 2
+y 18
+end
+arch bed_save
+x 2
+y 18
+end
+arch woodfloor
+x 2
+y 19
+end
+arch chair
+x 2
+y 19
+end
+arch woodfloor
+x 2
+y 20
+end
+arch wwall_2_1_2
+x 2
+y 20
+end
+arch grass
+x 3
+end
+arch brush
+x 3
+end
+arch grass
+x 3
+y 1
+end
+arch grass
+x 3
+y 2
+end
+arch dirtfloor
+x 3
+y 3
+end
+arch dirtfloor
+x 3
+y 4
+end
+arch grass
+x 3
+y 5
+end
+arch grass
+x 3
+y 6
+end
+arch brush
+x 3
+y 6
+end
+arch grass
+x 3
+y 7
+end
+arch tree5
+x 3
+y 7
+end
+arch grass
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 9
+end
+arch wwall_2_1_2
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 12
+end
+arch chair_1.2
+x 3
+y 12
+end
+arch woodfloor
+x 3
+y 13
+end
+arch wwall_2_1_2
+x 3
+y 13
+end
+arch woodfloor
+x 3
+y 14
+end
+arch woodfloor
+x 3
+y 15
+end
+arch booze_table
+x 3
+y 15
+end
+arch woodfloor
+x 3
+y 16
+end
+arch woodfloor
+x 3
+y 17
+end
+arch wwall_3_3
+x 3
+y 17
+end
+arch woodfloor
+x 3
+y 18
+end
+arch wwall_2_1_1
+x 3
+y 18
+end
+arch woodfloor
+x 3
+y 19
+end
+arch wwall_2_1_1
+x 3
+y 19
+end
+arch woodfloor
+x 3
+y 20
+end
+arch wwall_3_1
+x 3
+y 20
+end
+arch grass
+x 4
+end
+arch brush
+x 4
+end
+arch grass
+x 4
+y 1
+end
+arch grass
+x 4
+y 2
+end
+arch tree5
+x 4
+y 2
+end
+arch dirtfloor
+x 4
+y 3
+end
+arch dirtfloor
+x 4
+y 4
+end
+arch grass
+x 4
+y 5
+end
+arch grass
+x 4
+y 6
+end
+arch brush
+x 4
+y 6
+end
+arch grass
+x 4
+y 7
+end
+arch brush
+x 4
+y 7
+end
+arch grass
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 9
+end
+arch wwall_2_1_2
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 10
+end
+arch door_look_2
+x 4
+y 10
+no_pass 0
+end
+arch woodfloor
+x 4
+y 11
+end
+arch wwall_1_1
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 12
+end
+arch wwall_2_1_1
+x 4
+y 12
+end
+arch woodfloor
+x 4
+y 13
+end
+arch wwall_3_4
+x 4
+y 13
+end
+arch woodfloor
+x 4
+y 14
+end
+arch wwall_2_1_1
+x 4
+y 14
+end
+arch woodfloor
+x 4
+y 15
+end
+arch wwall_2_2_1
+x 4
+y 15
+end
+arch woodfloor
+x 4
+y 16
+end
+arch woodfloor
+x 4
+y 17
+end
+arch wwall_1_3
+x 4
+y 17
+end
+arch woodfloor
+x 4
+y 18
+end
+arch bed_save
+x 4
+y 18
+end
+arch woodfloor
+x 4
+y 19
+end
+arch chair
+x 4
+y 19
+end
+arch woodfloor
+x 4
+y 20
+end
+arch wwall_2_1_2
+x 4
+y 20
+end
+arch grass
+x 5
+end
+arch brush
+x 5
+end
+arch grass
+x 5
+y 1
+end
+arch grass
+x 5
+y 2
+end
+arch dirtfloor
+x 5
+y 3
+end
+arch dirtfloor
+x 5
+y 4
+end
+arch grass
+x 5
+y 5
+end
+arch grass
+x 5
+y 6
+end
+arch brush
+x 5
+y 6
+end
+arch grass
+x 5
+y 7
+end
+arch grass
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 9
+end
+arch wwall_2_1_2
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 11
+end
+arch chair_2.4
+x 5
+y 11
+end
+arch dwarf_wiz
+name Dormir
+msg
+@match hi|hello
+Aye,sonny! This is the best inn this
+side of the mithril trail! You may buy
+food or use the rooms down there. (He
+points at the southern door.)
+
+
+endmsg
+x 5
+y 11
+carrying 81500
+arch cloak
+name dwarven cloak
+end
+arch high_boots
+name dwarven boots
+ac 2
+resist_physical 5
+end
+arch robe
+end
+arch chain_mail
+end
+end
+arch woodfloor
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 13
+end
+arch woodfloor
+x 5
+y 14
+end
+arch chair_1.4
+x 5
+y 14
+end
+arch dwarf
+name Boremior the Dwarf
+msg
+@match *
+*grunt* What'cha want,laddy? I'm
+trying to drink me ale in peace.
+
+
+
+
+endmsg
+x 5
+y 14
+end
+arch woodfloor
+x 5
+y 15
+end
+arch wwall_2_1_2
+x 5
+y 15
+end
+arch woodfloor
+x 5
+y 16
+end
+arch woodfloor
+x 5
+y 17
+end
+arch door_look_1
+x 5
+y 17
+no_pass 0
+end
+arch woodfloor
+x 5
+y 18
+end
+arch woodfloor
+x 5
+y 19
+end
+arch woodfloor
+x 5
+y 20
+end
+arch wwall_2_1_2
+x 5
+y 20
+end
+arch grass
+x 6
+end
+arch brush
+x 6
+end
+arch grass
+x 6
+y 1
+end
+arch brush
+x 6
+y 1
+end
+arch grass
+x 6
+y 2
+end
+arch dirtfloor
+x 6
+y 3
+end
+arch dirtfloor
+x 6
+y 4
+end
+arch grass
+x 6
+y 5
+end
+arch grass
+x 6
+y 6
+end
+arch brush
+x 6
+y 6
+end
+arch grass
+x 6
+y 7
+end
+arch brush
+x 6
+y 7
+end
+arch grass
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 9
+end
+arch wwall_win2
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch table_4
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 13
+end
+arch chair_1.1
+x 6
+y 13
+end
+arch dwarf
+name Fwerdnir the dwarf
+msg
+@match caves
+Aye,we're looking for the hideout of
+the Mithril Gang. I heard they and
+their leader amassed a fortune from
+stealing from travellers. That was
+before the competition. Now it is
+impossible to travel that road,there's
+so many bandits.
+endmsg
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 14
+end
+arch table_4
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 15
+end
+arch wwall_2_1_2
+x 6
+y 15
+end
+arch woodfloor
+x 6
+y 16
+end
+arch woodfloor
+x 6
+y 17
+end
+arch wwall_1_1
+x 6
+y 17
+end
+arch woodfloor
+x 6
+y 18
+end
+arch wwall_2_1_1
+x 6
+y 18
+end
+arch woodfloor
+x 6
+y 19
+end
+arch wwall_2_1_1
+x 6
+y 19
+end
+arch woodfloor
+x 6
+y 20
+end
+arch wwall_3_1
+x 6
+y 20
+end
+arch grass
+x 7
+end
+arch brush
+x 7
+end
+arch grass
+x 7
+y 1
+end
+arch brush
+x 7
+y 1
+end
+arch grass
+x 7
+y 2
+end
+arch dirtfloor
+x 7
+y 3
+end
+arch dirtfloor
+x 7
+y 4
+end
+arch grass
+x 7
+y 5
+end
+arch grass
+x 7
+y 6
+end
+arch brush
+x 7
+y 6
+end
+arch grass
+x 7
+y 7
+end
+arch grass
+x 7
+y 8
+end
+arch brush
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 9
+end
+arch wwall_2_1_2
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 14
+end
+arch chair_1.2
+x 7
+y 14
+end
+arch dwarf_priest
+name Weavos the dwarf
+msg
+@match hi|hello
+Greetings. I can tell you are a
+stranger. Come in from the elvish
+kingdom of Yoer did ye? Wasn't that
+road dangerous? Did you happen to see
+any of the caves that are along the
+way?
+endmsg
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 15
+end
+arch wwall_2_1_2
+x 7
+y 15
+end
+arch woodfloor
+x 7
+y 16
+end
+arch woodfloor
+x 7
+y 17
+end
+arch door_look_1
+x 7
+y 17
+no_pass 0
+end
+arch woodfloor
+x 7
+y 18
+end
+arch woodfloor
+x 7
+y 19
+end
+arch woodfloor
+x 7
+y 20
+end
+arch wwall_2_1_2
+x 7
+y 20
+end
+arch grass
+x 8
+end
+arch grass
+x 8
+y 1
+end
+arch brush
+x 8
+y 1
+end
+arch grass
+x 8
+y 2
+end
+arch dirtfloor
+x 8
+y 3
+end
+arch dirtfloor
+x 8
+y 4
+end
+arch grass
+x 8
+y 5
+end
+arch tree5
+x 8
+y 5
+end
+arch grass
+x 8
+y 6
+end
+arch grass
+x 8
+y 7
+end
+arch brush
+x 8
+y 7
+end
+arch grass
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 9
+end
+arch wwall_2_1_2
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 12
+end
+arch woodfloor
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 15
+end
+arch wwall_2_1_2
+x 8
+y 15
+end
+arch woodfloor
+x 8
+y 16
+end
+arch woodfloor
+x 8
+y 17
+end
+arch wwall_1_4
+x 8
+y 17
+end
+arch woodfloor
+x 8
+y 18
+end
+arch bed_save
+x 8
+y 18
+end
+arch woodfloor
+x 8
+y 19
+end
+arch chair
+x 8
+y 19
+end
+arch woodfloor
+x 8
+y 20
+end
+arch wwall_2_1_2
+x 8
+y 20
+end
+arch grass
+x 9
+end
+arch grass
+x 9
+y 1
+end
+arch brush
+x 9
+y 1
+end
+arch grass
+x 9
+y 2
+end
+arch brush
+x 9
+y 2
+end
+arch dirtfloor
+x 9
+y 3
+end
+arch dirtfloor
+x 9
+y 4
+end
+arch grass
+x 9
+y 5
+end
+arch grass
+x 9
+y 6
+end
+arch grass
+x 9
+y 7
+end
+arch brush
+x 9
+y 7
+end
+arch grass
+x 9
+y 8
+end
+arch woodfloor
+x 9
+y 9
+end
+arch wwall_win2
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 13
+end
+arch woodfloor
+x 9
+y 14
+end
+arch woodfloor
+x 9
+y 15
+end
+arch wwall_1_3
+x 9
+y 15
+end
+arch woodfloor
+x 9
+y 16
+end
+arch woodfloor
+x 9
+y 17
+end
+arch wwall_3_3
+x 9
+y 17
+end
+arch woodfloor
+x 9
+y 18
+end
+arch wwall_2_1_1
+x 9
+y 18
+end
+arch woodfloor
+x 9
+y 19
+end
+arch wwall_2_1_1
+x 9
+y 19
+end
+arch woodfloor
+x 9
+y 20
+end
+arch wwall_3_1
+x 9
+y 20
+end
+arch grass
+x 10
+end
+arch tree5
+x 10
+end
+arch grass
+x 10
+y 1
+end
+arch brush
+x 10
+y 1
+end
+arch grass
+x 10
+y 2
+end
+arch dirtfloor
+x 10
+y 3
+end
+arch dirtfloor
+x 10
+y 4
+end
+arch grass
+x 10
+y 5
+end
+arch grass
+x 10
+y 6
+end
+arch grass
+x 10
+y 7
+end
+arch brush
+x 10
+y 7
+end
+arch grass
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 9
+end
+arch wwall_2_1_2
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 11
+end
+arch woodfloor
+x 10
+y 12
+end
+arch woodfloor
+x 10
+y 13
+end
+arch woodfloor
+x 10
+y 14
+end
+arch woodfloor
+x 10
+y 15
+end
+arch door_look_1
+x 10
+y 15
+no_pass 0
+end
+arch woodfloor
+x 10
+y 16
+end
+arch woodfloor
+x 10
+y 17
+end
+arch wwall_1_3
+x 10
+y 17
+end
+arch woodfloor
+x 10
+y 18
+end
+arch bed_save
+x 10
+y 18
+end
+arch woodfloor
+x 10
+y 19
+end
+arch chair
+x 10
+y 19
+end
+arch woodfloor
+x 10
+y 20
+end
+arch wwall_2_1_2
+x 10
+y 20
+end
+arch grass
+x 11
+end
+arch grass
+x 11
+y 1
+end
+arch brush
+x 11
+y 1
+end
+arch grass
+x 11
+y 2
+end
+arch dirtfloor
+x 11
+y 3
+end
+arch dirtfloor
+x 11
+y 4
+end
+arch grass
+x 11
+y 5
+end
+arch grass
+x 11
+y 6
+end
+arch grass
+x 11
+y 7
+end
+arch brush
+x 11
+y 7
+end
+arch grass
+x 11
+y 8
+end
+arch woodfloor
+x 11
+y 9
+end
+arch wwall_2_1_2
+x 11
+y 9
+end
+arch woodfloor
+x 11
+y 10
+end
+arch woodfloor
+x 11
+y 11
+end
+arch woodfloor
+x 11
+y 12
+end
+arch chair_1.1
+x 11
+y 12
+end
+arch lesser_dwarven_guard
+name Fwermir the Dwarven Guard
+msg
+@match hi|hello
+Hello sonny.
+I happen to work for the dwarven
+military. It's a very boring job. All I
+do is wait to be attacked,wait for
+dragons,or stop robbers. I never have a
+real adventure. So I come here to
+gossip about my old adventures. 
+@match old adventures
+Aye,I have had many adventures. Once
+when i had only a scruff of a
+beard,I lay hiding twenty,no ten paces
+I say,away from one of the great
+dragon lords. He was terrible to
+behold,his great stature twelve feet
+tall,magnificent wings upon his
+back,red scales glistening in the
+sunlight,claws and teeth like spears
+and swords,his breath uttered forth
+great flames. And even tho I am known
+for stoutness of heart and great
+courage,I cowered in the ditch till
+the wyrm lord left.
+
+
+
+endmsg
+x 11
+y 12
+unaggressive 1
+end
+arch woodfloor
+x 11
+y 13
+end
+arch table_4
+x 11
+y 13
+end
+arch woodfloor
+x 11
+y 14
+end
+arch chair_1.3
+x 11
+y 14
+end
+arch woodfloor
+x 11
+y 15
+end
+arch wwall_1_4
+x 11
+y 15
+end
+arch woodfloor
+x 11
+y 16
+end
+arch woodfloor
+x 11
+y 17
+end
+arch door_look_1
+x 11
+y 17
+no_pass 0
+end
+arch woodfloor
+x 11
+y 18
+end
+arch woodfloor
+x 11
+y 19
+end
+arch woodfloor
+x 11
+y 20
+end
+arch wwall_2_1_2
+x 11
+y 20
+end
+arch grass
+x 12
+end
+arch brush
+x 12
+end
+arch grass
+x 12
+y 1
+end
+arch grass
+x 12
+y 2
+end
+arch dirtfloor
+x 12
+y 3
+end
+arch dirtfloor
+x 12
+y 4
+end
+arch grass
+x 12
+y 5
+end
+arch grass
+x 12
+y 6
+end
+arch brush
+x 12
+y 6
+end
+arch grass
+x 12
+y 7
+end
+arch brush
+x 12
+y 7
+end
+arch grass
+x 12
+y 8
+end
+arch woodfloor
+x 12
+y 9
+end
+arch wwall_2_2_3
+x 12
+y 9
+end
+arch woodfloor
+x 12
+y 10
+end
+arch wwall_1_2
+x 12
+y 10
+end
+arch woodfloor
+x 12
+y 11
+end
+arch door_look_2
+x 12
+y 11
+no_pass 0
+end
+arch woodfloor
+x 12
+y 12
+end
+arch wwall_1_1
+x 12
+y 12
+end
+arch woodfloor
+x 12
+y 13
+end
+arch wwall_win1
+x 12
+y 13
+end
+arch woodfloor
+x 12
+y 14
+end
+arch wwall_2_1_1
+x 12
+y 14
+end
+arch woodfloor
+x 12
+y 15
+end
+arch wwall_3_4
+x 12
+y 15
+end
+arch woodfloor
+x 12
+y 16
+end
+arch wwall_2_1_1
+x 12
+y 16
+end
+arch woodfloor
+x 12
+y 17
+end
+arch wwall_2_1_1
+x 12
+y 17
+end
+arch woodfloor
+x 12
+y 18
+end
+arch wwall_2_1_1
+x 12
+y 18
+end
+arch woodfloor
+x 12
+y 19
+end
+arch wwall_2_1_1
+x 12
+y 19
+end
+arch woodfloor
+x 12
+y 20
+end
+arch wwall_2_2_4
+x 12
+y 20
+end
+arch grass
+x 13
+end
+arch brush
+x 13
+end
+arch grass
+x 13
+y 1
+end
+arch grass
+x 13
+y 2
+end
+arch dirtfloor
+x 13
+y 3
+end
+arch dirtfloor
+x 13
+y 4
+end
+arch grass
+x 13
+y 5
+end
+arch grass
+x 13
+y 6
+end
+arch grass
+x 13
+y 7
+end
+arch grass
+x 13
+y 8
+end
+arch tree5
+x 13
+y 8
+end
+arch grass
+x 13
+y 9
+end
+arch grass
+x 13
+y 10
+end
+arch dirtfloor
+x 13
+y 11
+end
+arch grass
+x 13
+y 12
+end
+arch grass
+x 13
+y 13
+end
+arch grass
+x 13
+y 14
+end
+arch grass
+x 13
+y 15
+end
+arch grass
+x 13
+y 16
+end
+arch grass
+x 13
+y 17
+end
+arch grass
+x 13
+y 18
+end
+arch brush
+x 13
+y 18
+end
+arch grass
+x 13
+y 19
+end
+arch grass
+x 13
+y 20
+end
+arch grass
+x 14
+end
+arch brush
+x 14
+end
+arch grass
+x 14
+y 1
+end
+arch grass
+x 14
+y 2
+end
+arch dirtfloor
+x 14
+y 3
+end
+arch dirtfloor
+x 14
+y 4
+end
+arch grass
+x 14
+y 5
+end
+arch grass
+x 14
+y 6
+end
+arch grass
+x 14
+y 7
+end
+arch grass
+x 14
+y 8
+end
+arch grass
+x 14
+y 9
+end
+arch grass
+x 14
+y 10
+end
+arch dirtfloor
+x 14
+y 11
+end
+arch grass
+x 14
+y 12
+end
+arch grass
+x 14
+y 13
+end
+arch tree5
+x 14
+y 13
+end
+arch grass
+x 14
+y 14
+end
+arch grass
+x 14
+y 15
+end
+arch brush
+x 14
+y 15
+end
+arch grass
+x 14
+y 16
+end
+arch brush
+x 14
+y 16
+end
+arch grass
+x 14
+y 17
+end
+arch brush
+x 14
+y 17
+end
+arch grass
+x 14
+y 18
+end
+arch grass
+x 14
+y 19
+end
+arch brush
+x 14
+y 19
+end
+arch grass
+x 14
+y 20
+end
+arch grass
+x 15
+end
+arch brush
+x 15
+end
+arch grass
+x 15
+y 1
+end
+arch grass
+x 15
+y 2
+end
+arch dirtfloor
+x 15
+y 3
+end
+arch dirtfloor
+x 15
+y 4
+end
+arch dirtfloor
+x 15
+y 5
+end
+arch dirtfloor
+x 15
+y 6
+end
+arch dirtfloor
+x 15
+y 7
+end
+arch dirtfloor
+x 15
+y 8
+end
+arch dirtfloor
+x 15
+y 9
+end
+arch dirtfloor
+x 15
+y 10
+end
+arch dirtfloor
+x 15
+y 11
+end
+arch grass
+x 15
+y 12
+end
+arch grass
+x 15
+y 13
+end
+arch grass
+x 15
+y 14
+end
+arch brush
+x 15
+y 14
+end
+arch grass
+x 15
+y 15
+end
+arch brush
+x 15
+y 15
+end
+arch grass
+x 15
+y 16
+end
+arch grass
+x 15
+y 17
+end
+arch brush
+x 15
+y 17
+end
+arch grass
+x 15
+y 18
+end
+arch grass
+x 15
+y 19
+end
+arch brush
+x 15
+y 19
+end
+arch grass
+x 15
+y 20
+end
+arch tree5
+x 15
+y 20
+end
+arch grass
+x 16
+end
+arch brush
+x 16
+end
+arch grass
+x 16
+y 1
+end
+arch tree5
+x 16
+y 1
+end
+arch grass
+x 16
+y 2
+end
+arch dirtfloor
+x 16
+y 3
+end
+arch sign
+name Dormir's Inn
+msg
+  Welcome to Dormir's Inn,best
+traveller's stop this side of the
+Mithril Trail!
+
+
+endmsg
+x 16
+y 3
+end
+arch dirtfloor
+x 16
+y 4
+end
+arch grass
+x 16
+y 5
+end
+arch grass
+x 16
+y 6
+end
+arch grass
+x 16
+y 7
+end
+arch grass
+x 16
+y 8
+end
+arch grass
+x 16
+y 9
+end
+arch grass
+x 16
+y 10
+end
+arch grass
+x 16
+y 11
+end
+arch grass
+x 16
+y 12
+end
+arch grass
+x 16
+y 13
+end
+arch grass
+x 16
+y 14
+end
+arch brush
+x 16
+y 14
+end
+arch grass
+x 16
+y 15
+end
+arch brush
+x 16
+y 15
+end
+arch grass
+x 16
+y 16
+end
+arch brush
+x 16
+y 16
+end
+arch grass
+x 16
+y 17
+end
+arch brush
+x 16
+y 17
+end
+arch grass
+x 16
+y 18
+end
+arch brush
+x 16
+y 18
+end
+arch grass
+x 16
+y 19
+end
+arch brush
+x 16
+y 19
+end
+arch grass
+x 16
+y 20
+end
+arch grass
+x 17
+end
+arch brush
+x 17
+end
+arch grass
+x 17
+y 1
+end
+arch grass
+x 17
+y 2
+end
+arch dirtfloor
+x 17
+y 3
+end
+arch dirtfloor
+x 17
+y 4
+end
+arch grass
+x 17
+y 5
+end
+arch tree5
+x 17
+y 5
+end
+arch grass
+x 17
+y 6
+end
+arch grass
+x 17
+y 7
+end
+arch grass
+x 17
+y 8
+end
+arch brush
+x 17
+y 8
+end
+arch grass
+x 17
+y 9
+end
+arch brush
+x 17
+y 9
+end
+arch grass
+x 17
+y 10
+end
+arch brush
+x 17
+y 10
+end
+arch grass
+x 17
+y 11
+end
+arch grass
+x 17
+y 12
+end
+arch tree5
+x 17
+y 12
+end
+arch grass
+x 17
+y 13
+end
+arch grass
+x 17
+y 14
+end
+arch grass
+x 17
+y 15
+end
+arch brush
+x 17
+y 15
+end
+arch grass
+x 17
+y 16
+end
+arch brush
+x 17
+y 16
+end
+arch grass
+x 17
+y 17
+end
+arch grass
+x 17
+y 18
+end
+arch brush
+x 17
+y 18
+end
+arch grass
+x 17
+y 19
+end
+arch brush
+x 17
+y 19
+end
+arch grass
+x 17
+y 20
+end
+arch grass
+x 18
+end
+arch brush
+x 18
+end
+arch grass
+x 18
+y 1
+end
+arch grass
+x 18
+y 2
+end
+arch dirtfloor
+x 18
+y 3
+end
+arch dirtfloor
+x 18
+y 4
+end
+arch grass
+x 18
+y 5
+end
+arch grass
+x 18
+y 6
+end
+arch grass
+x 18
+y 7
+end
+arch grass
+x 18
+y 8
+end
+arch brush
+x 18
+y 8
+end
+arch grass
+x 18
+y 9
+end
+arch tree5
+x 18
+y 9
+end
+arch grass
+x 18
+y 10
+end
+arch grass
+x 18
+y 11
+end
+arch brush
+x 18
+y 11
+end
+arch grass
+x 18
+y 12
+end
+arch grass
+x 18
+y 13
+end
+arch grass
+x 18
+y 14
+end
+arch grass
+x 18
+y 15
+end
+arch brush
+x 18
+y 15
+end
+arch grass
+x 18
+y 16
+end
+arch grass
+x 18
+y 17
+end
+arch tree5
+x 18
+y 17
+end
+arch grass
+x 18
+y 18
+end
+arch grass
+x 18
+y 19
+end
+arch brush
+x 18
+y 19
+end
+arch grass
+x 18
+y 20
+end
+arch grass
+x 19
+end
+arch grass
+x 19
+y 1
+end
+arch brush
+x 19
+y 1
+end
+arch grass
+x 19
+y 2
+end
+arch brush
+x 19
+y 2
+end
+arch dirtfloor
+x 19
+y 3
+end
+arch dirtfloor
+x 19
+y 4
+end
+arch grass
+x 19
+y 5
+end
+arch grass
+x 19
+y 6
+end
+arch grass
+x 19
+y 7
+end
+arch grass
+x 19
+y 8
+end
+arch brush
+x 19
+y 8
+end
+arch grass
+x 19
+y 9
+end
+arch brush
+x 19
+y 9
+end
+arch grass
+x 19
+y 10
+end
+arch grass
+x 19
+y 11
+end
+arch grass
+x 19
+y 12
+end
+arch brush
+x 19
+y 12
+end
+arch grass
+x 19
+y 13
+end
+arch grass
+x 19
+y 14
+end
+arch grass
+x 19
+y 15
+end
+arch brush
+x 19
+y 15
+end
+arch grass
+x 19
+y 16
+end
+arch brush
+x 19
+y 16
+end
+arch grass
+x 19
+y 17
+end
+arch grass
+x 19
+y 18
+end
+arch brush
+x 19
+y 18
+end
+arch grass
+x 19
+y 19
+end
+arch grass
+x 19
+y 20
+end
+arch grass
+x 20
+end
+arch grass
+x 20
+y 1
+end
+arch grass
+x 20
+y 2
+end
+arch dirtfloor
+x 20
+y 3
+end
+arch invis_exit
+slaying /ElvenLands/Mithril/6
+hp 2
+sp 13
+x 20
+y 3
+end
+arch dirtfloor
+x 20
+y 4
+end
+arch invis_exit
+slaying /ElvenLands/Mithril/6
+hp 2
+sp 13
+x 20
+y 4
+end
+arch grass
+x 20
+y 5
+end
+arch grass
+x 20
+y 6
+end
+arch grass
+x 20
+y 7
+end
+arch grass
+x 20
+y 8
+end
+arch grass
+x 20
+y 9
+end
+arch grass
+x 20
+y 10
+end
+arch brush
+x 20
+y 10
+end
+arch grass
+x 20
+y 11
+end
+arch grass
+x 20
+y 12
+end
+arch grass
+x 20
+y 13
+end
+arch brush
+x 20
+y 13
+end
+arch grass
+x 20
+y 14
+end
+arch brush
+x 20
+y 14
+end
+arch grass
+x 20
+y 15
+end
+arch grass
+x 20
+y 16
+end
+arch brush
+x 20
+y 16
+end
+arch grass
+x 20
+y 17
+end
+arch grass
+x 20
+y 18
+end
+arch grass
+x 20
+y 19
+end
+arch grass
+x 20
+y 20
+end

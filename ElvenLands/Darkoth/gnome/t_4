@@ -1,0 +1,2719 @@
+arch map
+name t_4
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Aug 30 06:49:07 2002
+endmsg
+width 20
+height 20
+end
+arch cobblestones2
+end
+arch cwall_2_2_2
+end
+arch cobblestones2
+y 1
+end
+arch cwall_3_2
+y 1
+end
+arch cobblestones2
+y 2
+end
+arch cwall_3_2
+y 2
+end
+arch cobblestones2
+y 3
+end
+arch cwall_3_2
+y 3
+end
+arch cobblestones2
+y 4
+end
+arch cwall_3_2
+y 4
+end
+arch cobblestones2
+y 5
+end
+arch cwall_3_2
+y 5
+end
+arch cobblestones2
+y 6
+end
+arch cwall_3_2
+y 6
+end
+arch cobblestones2
+y 7
+end
+arch cwall_3_2
+y 7
+end
+arch cobblestones2
+y 8
+end
+arch cwall_3_2
+y 8
+end
+arch cobblestones2
+y 9
+end
+arch cwall_3_2
+y 9
+end
+arch cobblestones2
+y 10
+end
+arch cwall_3_2
+y 10
+end
+arch cobblestones2
+y 11
+end
+arch cwall_3_2
+y 11
+end
+arch cobblestones2
+y 12
+end
+arch cwall_3_2
+y 12
+end
+arch cobblestones2
+y 13
+end
+arch cwall_3_2
+y 13
+end
+arch cobblestones2
+y 14
+end
+arch cwall_3_2
+y 14
+end
+arch cobblestones2
+y 15
+end
+arch cwall_3_2
+y 15
+end
+arch cobblestones2
+y 16
+end
+arch cwall_3_2
+y 16
+end
+arch cobblestones2
+y 17
+end
+arch cwall_3_2
+y 17
+end
+arch cobblestones2
+y 18
+end
+arch cwall_3_2
+y 18
+end
+arch cobblestones2
+y 19
+end
+arch cwall_2_2_1
+y 19
+end
+arch cobblestones2
+x 1
+end
+arch cwall_3_3
+x 1
+end
+arch cobblestones2
+x 1
+y 1
+end
+arch cwall_4
+x 1
+y 1
+end
+arch cobblestones2
+x 1
+y 2
+end
+arch cwall_3_4
+x 1
+y 2
+end
+arch cobblestones2
+x 1
+y 3
+end
+arch cwall_3_4
+x 1
+y 3
+end
+arch cobblestones2
+x 1
+y 4
+end
+arch cwall_3_4
+x 1
+y 4
+end
+arch cobblestones2
+x 1
+y 5
+end
+arch cwall_3_4
+x 1
+y 5
+end
+arch cobblestones2
+x 1
+y 6
+end
+arch cwall_3_4
+x 1
+y 6
+end
+arch cobblestones2
+x 1
+y 7
+end
+arch cwall_3_4
+x 1
+y 7
+end
+arch cobblestones2
+x 1
+y 8
+end
+arch cwall_3_4
+x 1
+y 8
+end
+arch cobblestones2
+x 1
+y 9
+end
+arch cwall_4
+x 1
+y 9
+end
+arch cobblestones2
+x 1
+y 10
+end
+arch cwall_4
+x 1
+y 10
+end
+arch cobblestones2
+x 1
+y 11
+end
+arch cwall_3_4
+x 1
+y 11
+end
+arch cobblestones2
+x 1
+y 12
+end
+arch cwall_3_4
+x 1
+y 12
+end
+arch cobblestones2
+x 1
+y 13
+end
+arch cwall_3_4
+x 1
+y 13
+end
+arch cobblestones2
+x 1
+y 14
+end
+arch cwall_3_4
+x 1
+y 14
+end
+arch cobblestones2
+x 1
+y 15
+end
+arch cwall_3_4
+x 1
+y 15
+end
+arch cobblestones2
+x 1
+y 16
+end
+arch cwall_3_4
+x 1
+y 16
+end
+arch cobblestones2
+x 1
+y 17
+end
+arch cwall_3_4
+x 1
+y 17
+end
+arch cobblestones2
+x 1
+y 18
+end
+arch cwall_4
+x 1
+y 18
+end
+arch cobblestones2
+x 1
+y 19
+end
+arch cwall_3_1
+x 1
+y 19
+end
+arch cobblestones2
+x 2
+end
+arch cwall_3_3
+x 2
+end
+arch cobblestones2
+x 2
+y 1
+end
+arch cwall_3_1
+x 2
+y 1
+end
+arch flagstone
+x 2
+y 2
+end
+arch flagstone
+x 2
+y 3
+end
+arch flagstone
+x 2
+y 4
+end
+arch flagstone
+x 2
+y 5
+end
+arch flagstone
+x 2
+y 6
+end
+arch flagstone
+x 2
+y 7
+end
+arch flagstone
+x 2
+y 8
+end
+arch cobblestones2
+x 2
+y 9
+end
+arch cwall_3_3
+x 2
+y 9
+end
+arch cobblestones2
+x 2
+y 10
+end
+arch cwall_3_1
+x 2
+y 10
+end
+arch flagstone
+x 2
+y 11
+end
+arch diamond_converter
+name drop platinum to buy keys
+slaying platinacoin
+other_arch key
+food 1
+x 2
+y 11
+end
+arch flagstone
+x 2
+y 12
+end
+arch diamond_converter
+name drop platinum to buy pyrite
+slaying platinacoin
+other_arch pyrite
+food 4
+x 2
+y 12
+end
+arch flagstone
+x 2
+y 13
+end
+arch diamond_converter
+name drop platinum to buy gypsum
+slaying platinacoin
+other_arch gypsum
+food 4
+x 2
+y 13
+end
+arch flagstone
+x 2
+y 14
+end
+arch diamond_converter
+name drop platinum to buy phosphorus
+slaying platinacoin
+other_arch phosphorus
+food 16
+x 2
+y 14
+end
+arch flagstone
+x 2
+y 15
+end
+arch diamond_converter
+name drop platinum to buy salt
+slaying platinacoin
+other_arch salt
+food 5
+x 2
+y 15
+end
+arch flagstone
+x 2
+y 16
+end
+arch flagstone
+x 2
+y 17
+end
+arch cobblestones2
+x 2
+y 18
+end
+arch cwall_3_3
+x 2
+y 18
+end
+arch cobblestones2
+x 2
+y 19
+end
+arch cwall_3_1
+x 2
+y 19
+end
+arch cobblestones2
+x 3
+end
+arch cwall_3_3
+x 3
+end
+arch cobblestones2
+x 3
+y 1
+end
+arch cwall_3_1
+x 3
+y 1
+end
+arch flagstone
+x 3
+y 2
+end
+arch stair2_up
+slaying t_5
+hp 3
+sp 3
+x 3
+y 2
+end
+arch flagstone
+x 3
+y 3
+end
+arch stair2_down
+slaying t_3
+hp 3
+sp 2
+x 3
+y 3
+end
+arch flagstone
+x 3
+y 4
+end
+arch flagstone
+x 3
+y 5
+end
+arch flagstone
+x 3
+y 6
+end
+arch flagstone
+x 3
+y 7
+end
+arch flagstone
+x 3
+y 8
+end
+arch guard
+name guard
+x 3
+y 8
+end
+arch cobblestones2
+x 3
+y 9
+end
+arch cwall_3_3
+x 3
+y 9
+end
+arch cobblestones2
+x 3
+y 10
+end
+arch cwall_3_1
+x 3
+y 10
+end
+arch flagstone
+x 3
+y 11
+end
+arch diamond_converter
+name drop platinum to buy water
+slaying platinacoin
+other_arch water
+food 1
+x 3
+y 11
+end
+arch flagstone
+x 3
+y 12
+end
+arch diamond_converter
+name drop platinum to buy lead
+slaying platinacoin
+other_arch lead
+food 36
+x 3
+y 12
+end
+arch flagstone
+x 3
+y 13
+end
+arch diamond_converter
+name drop platinum to buy mineral oil
+slaying platinacoin
+other_arch min_oil
+food 4
+x 3
+y 13
+end
+arch flagstone
+x 3
+y 14
+end
+arch diamond_converter
+name drop platinum to buy cinnabar
+slaying platinacoin
+other_arch cinnabar
+food 24
+x 3
+y 14
+end
+arch flagstone
+x 3
+y 15
+end
+arch diamond_converter
+name drop platinum to buy sulphur
+slaying platinacoin
+other_arch sulphur
+food 8
+x 3
+y 15
+end
+arch flagstone
+x 3
+y 16
+end
+arch flagstone
+x 3
+y 17
+end
+arch cobblestones2
+x 3
+y 18
+end
+arch cwall_3_3
+x 3
+y 18
+end
+arch cobblestones2
+x 3
+y 19
+end
+arch cwall_3_1
+x 3
+y 19
+end
+arch cobblestones2
+x 4
+end
+arch cwall_3_3
+x 4
+end
+arch cobblestones2
+x 4
+y 1
+end
+arch cwall_3_1
+x 4
+y 1
+end
+arch flagstone
+x 4
+y 2
+end
+arch flagstone
+x 4
+y 3
+end
+arch flagstone
+x 4
+y 4
+end
+arch flagstone
+x 4
+y 5
+end
+arch flagstone
+x 4
+y 6
+end
+arch flagstone
+x 4
+y 7
+end
+arch flagstone
+x 4
+y 8
+end
+arch cobblestones2
+x 4
+y 9
+end
+arch cwall_3_3
+x 4
+y 9
+end
+arch cobblestones2
+x 4
+y 10
+end
+arch cwall_3_1
+x 4
+y 10
+end
+arch flagstone
+x 4
+y 11
+end
+arch flagstone
+x 4
+y 12
+end
+arch flagstone
+x 4
+y 13
+end
+arch flagstone
+x 4
+y 14
+end
+arch flagstone
+x 4
+y 15
+end
+arch flagstone
+x 4
+y 16
+end
+arch flagstone
+x 4
+y 17
+end
+arch shop_mat
+x 4
+y 17
+end
+arch cobblestones2
+x 4
+y 18
+end
+arch cwall_3_3
+x 4
+y 18
+end
+arch cobblestones2
+x 4
+y 19
+end
+arch cwall_3_1
+x 4
+y 19
+end
+arch cobblestones2
+x 5
+end
+arch cwall_3_3
+x 5
+end
+arch cobblestones2
+x 5
+y 1
+end
+arch cwall_4
+x 5
+y 1
+end
+arch cobblestones2
+x 5
+y 2
+end
+arch cwall_3_2
+x 5
+y 2
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch cwall_3_2
+x 5
+y 3
+end
+arch cobblestones2
+x 5
+y 4
+end
+arch cwall_3_2
+x 5
+y 4
+end
+arch cobblestones2
+x 5
+y 5
+end
+arch cwall_3_2
+x 5
+y 5
+end
+arch cobblestones2
+x 5
+y 6
+end
+arch cwall_2_2_1
+x 5
+y 6
+end
+arch flagstone
+x 5
+y 7
+end
+arch flagstone
+x 5
+y 8
+end
+arch cobblestones2
+x 5
+y 9
+end
+arch cwall_3_3
+x 5
+y 9
+end
+arch cobblestones2
+x 5
+y 10
+end
+arch cwall_3_1
+x 5
+y 10
+end
+arch flagstone
+x 5
+y 11
+end
+arch cauldron
+x 5
+y 11
+no_pick 1
+end
+arch flagstone
+x 5
+y 12
+end
+arch shop_empty
+x 5
+y 13
+end
+arch swall_2_2_2
+x 5
+y 13
+end
+arch shop_empty
+x 5
+y 14
+end
+arch swall_2_1_1
+x 5
+y 14
+end
+arch shop_empty
+x 5
+y 15
+end
+arch swall_2_1_1
+x 5
+y 15
+end
+arch shop_empty
+x 5
+y 16
+end
+arch swall_2_1_1
+x 5
+y 16
+end
+arch shop_empty
+x 5
+y 17
+end
+arch swall_1_2
+x 5
+y 17
+end
+arch cobblestones2
+x 5
+y 18
+end
+arch cwall_3_3
+x 5
+y 18
+end
+arch cobblestones2
+x 5
+y 19
+end
+arch cwall_3_1
+x 5
+y 19
+end
+arch cobblestones2
+x 6
+end
+arch cwall_3_3
+x 6
+end
+arch cobblestones2
+x 6
+y 1
+end
+arch cwall_4
+x 6
+y 1
+end
+arch cobblestones2
+x 6
+y 2
+end
+arch cwall_3_4
+x 6
+y 2
+end
+arch cobblestones2
+x 6
+y 3
+end
+arch cwall_3_4
+x 6
+y 3
+end
+arch cobblestones2
+x 6
+y 4
+end
+arch cwall_3_4
+x 6
+y 4
+end
+arch cobblestones2
+x 6
+y 5
+end
+arch cwall_4
+x 6
+y 5
+end
+arch cobblestones2
+x 6
+y 6
+end
+arch cwall_3_1
+x 6
+y 6
+end
+arch flagstone
+x 6
+y 7
+end
+arch flagstone
+x 6
+y 8
+end
+arch cobblestones2
+x 6
+y 9
+end
+arch cwall_3_3
+x 6
+y 9
+end
+arch cobblestones2
+x 6
+y 10
+end
+arch cwall_3_1
+x 6
+y 10
+end
+arch flagstone
+x 6
+y 11
+end
+arch dwarf_wiz
+name gnomish alchemist
+x 6
+y 11
+end
+arch flagstone
+x 6
+y 12
+end
+arch shop_empty
+x 6
+y 13
+end
+arch swall_2_1_2
+x 6
+y 13
+end
+arch shop_alchemy
+x 6
+y 14
+end
+arch shop_minerals
+x 6
+y 15
+end
+arch shop_alchemy
+x 6
+y 16
+end
+arch shop_empty
+x 6
+y 17
+end
+arch shop_mat
+x 6
+y 17
+end
+arch cobblestones2
+x 6
+y 18
+end
+arch cwall_3_3
+x 6
+y 18
+end
+arch cobblestones2
+x 6
+y 19
+end
+arch cwall_3_1
+x 6
+y 19
+end
+arch cobblestones2
+x 7
+end
+arch cwall_3_3
+x 7
+end
+arch cobblestones2
+x 7
+y 1
+end
+arch cwall_3_1
+x 7
+y 1
+end
+arch flagstone
+x 7
+y 2
+end
+arch statue2
+name statue of a master alchemist
+x 7
+y 2
+end
+arch flagstone
+x 7
+y 3
+end
+arch flagstone
+x 7
+y 4
+end
+arch cobblestones2
+x 7
+y 5
+end
+arch cwall_2_2_3
+x 7
+y 5
+end
+arch cobblestones2
+x 7
+y 6
+end
+arch cwall_2_2_4
+x 7
+y 6
+end
+arch flagstone
+x 7
+y 7
+end
+arch flagstone
+x 7
+y 8
+end
+arch cobblestones2
+x 7
+y 9
+end
+arch cwall_3_3
+x 7
+y 9
+end
+arch cobblestones2
+x 7
+y 10
+end
+arch cwall_3_1
+x 7
+y 10
+end
+arch flagstone
+x 7
+y 11
+end
+arch cauldron
+x 7
+y 11
+no_pick 1
+end
+arch flagstone
+x 7
+y 12
+end
+arch shop_empty
+x 7
+y 13
+end
+arch swall_2_1_2
+x 7
+y 13
+end
+arch shop_alchemy
+x 7
+y 14
+end
+arch shop_minerals
+x 7
+y 15
+end
+arch shop_potions
+x 7
+y 16
+end
+arch shop_potions
+x 7
+y 17
+end
+arch cobblestones2
+x 7
+y 18
+end
+arch cwall_3_3
+x 7
+y 18
+end
+arch cobblestones2
+x 7
+y 19
+end
+arch cwall_3_1
+x 7
+y 19
+end
+arch cobblestones2
+x 8
+end
+arch cwall_3_3
+x 8
+end
+arch cobblestones2
+x 8
+y 1
+end
+arch cwall_3_1
+x 8
+y 1
+end
+arch flagstone
+x 8
+y 2
+end
+arch flagstone
+x 8
+y 3
+end
+arch chair_1.4
+x 8
+y 3
+end
+arch flagstone
+x 8
+y 4
+end
+arch flagstone
+x 8
+y 5
+end
+arch flagstone
+x 8
+y 6
+end
+arch flagstone
+x 8
+y 7
+end
+arch flagstone
+x 8
+y 8
+end
+arch cobblestones2
+x 8
+y 9
+end
+arch cwall_3_3
+x 8
+y 9
+end
+arch cobblestones2
+x 8
+y 10
+end
+arch cwall_3_1
+x 8
+y 10
+end
+arch flagstone
+x 8
+y 11
+end
+arch flagstone
+x 8
+y 12
+end
+arch shop_empty
+x 8
+y 13
+end
+arch swall_2_1_2
+x 8
+y 13
+end
+arch shop_alchemy
+x 8
+y 14
+end
+arch shop_minerals
+x 8
+y 15
+end
+arch shop_potions
+x 8
+y 16
+end
+arch shop_potions
+x 8
+y 17
+end
+arch cobblestones2
+x 8
+y 18
+end
+arch cwall_3_3
+x 8
+y 18
+end
+arch cobblestones2
+x 8
+y 19
+end
+arch cwall_3_1
+x 8
+y 19
+end
+arch cobblestones2
+x 9
+end
+arch cwall_3_3
+x 9
+end
+arch cobblestones2
+x 9
+y 1
+end
+arch cwall_3_1
+x 9
+y 1
+end
+arch flagstone
+x 9
+y 2
+end
+arch chair_1.1
+x 9
+y 2
+end
+arch flagstone
+x 9
+y 3
+end
+arch table_3
+x 9
+y 3
+end
+arch flagstone
+x 9
+y 4
+end
+arch chair_1.3
+x 9
+y 4
+end
+arch cobblestones2
+x 9
+y 5
+end
+arch cwall_2_2_2
+x 9
+y 5
+end
+arch cobblestones2
+x 9
+y 6
+end
+arch cwall_2_2_1
+x 9
+y 6
+end
+arch flagstone
+x 9
+y 7
+end
+arch flagstone
+x 9
+y 8
+end
+arch cobblestones2
+x 9
+y 9
+end
+arch cwall_3_3
+x 9
+y 9
+end
+arch cobblestones2
+x 9
+y 10
+end
+arch cwall_3_1
+x 9
+y 10
+end
+arch flagstone
+x 9
+y 11
+end
+arch cauldron
+x 9
+y 11
+no_pick 1
+end
+arch flagstone
+x 9
+y 12
+end
+arch shop_empty
+x 9
+y 13
+end
+arch swall_2_1_2
+x 9
+y 13
+end
+arch shop_alchemy
+x 9
+y 14
+end
+arch shop_minerals
+x 9
+y 15
+end
+arch shop_empty
+x 9
+y 16
+end
+arch cauldron
+x 9
+y 16
+value 60000
+magic 5
+unpaid 1
+identified 1
+end
+arch shop_empty
+x 9
+y 17
+end
+arch scroll_alchemy
+x 9
+y 17
+value 35000
+unpaid 1
+end
+arch cobblestones2
+x 9
+y 18
+end
+arch cwall_3_3
+x 9
+y 18
+end
+arch cobblestones2
+x 9
+y 19
+end
+arch cwall_3_1
+x 9
+y 19
+end
+arch cobblestones2
+x 10
+end
+arch cwall_3_3
+x 10
+end
+arch cobblestones2
+x 10
+y 1
+end
+arch cwall_3_1
+x 10
+y 1
+end
+arch flagstone
+x 10
+y 2
+end
+arch flagstone
+x 10
+y 3
+end
+arch chair_1.2
+x 10
+y 3
+end
+arch flagstone
+x 10
+y 4
+end
+arch cobblestones2
+x 10
+y 5
+end
+arch cwall_3_3
+x 10
+y 5
+end
+arch cobblestones2
+x 10
+y 6
+end
+arch cwall_3_1
+x 10
+y 6
+end
+arch flagstone
+x 10
+y 7
+end
+arch flagstone
+x 10
+y 8
+end
+arch cobblestones2
+x 10
+y 9
+end
+arch cwall_3_3
+x 10
+y 9
+end
+arch cobblestones2
+x 10
+y 10
+end
+arch cwall_3_1
+x 10
+y 10
+end
+arch flagstone
+x 10
+y 11
+end
+arch dwarf_wiz
+name gnomish alchemist
+x 10
+y 11
+end
+arch flagstone
+x 10
+y 12
+end
+arch shop_empty
+x 10
+y 13
+end
+arch swall_2_2_3
+x 10
+y 13
+end
+arch shop_empty
+x 10
+y 14
+end
+arch swall_2_1_1
+x 10
+y 14
+end
+arch shop_empty
+x 10
+y 15
+end
+arch swall_2_1_1
+x 10
+y 15
+end
+arch shop_empty
+x 10
+y 16
+end
+arch swall_2_1_1
+x 10
+y 16
+end
+arch shop_empty
+x 10
+y 17
+end
+arch swall_1_2
+x 10
+y 17
+end
+arch cobblestones2
+x 10
+y 18
+end
+arch cwall_3_3
+x 10
+y 18
+end
+arch cobblestones2
+x 10
+y 19
+end
+arch cwall_3_1
+x 10
+y 19
+end
+arch cobblestones2
+x 11
+end
+arch cwall_3_3
+x 11
+end
+arch cobblestones2
+x 11
+y 1
+end
+arch cwall_4
+x 11
+y 1
+end
+arch cobblestones2
+x 11
+y 2
+end
+arch cwall_3_2
+x 11
+y 2
+end
+arch cobblestones2
+x 11
+y 3
+end
+arch cwall_3_2
+x 11
+y 3
+end
+arch cobblestones2
+x 11
+y 4
+end
+arch cwall_3_2
+x 11
+y 4
+end
+arch cobblestones2
+x 11
+y 5
+end
+arch cwall_4
+x 11
+y 5
+end
+arch cobblestones2
+x 11
+y 6
+end
+arch cwall_3_1
+x 11
+y 6
+end
+arch flagstone
+x 11
+y 7
+end
+arch flagstone
+x 11
+y 8
+end
+arch cobblestones2
+x 11
+y 9
+end
+arch cwall_3_3
+x 11
+y 9
+end
+arch cobblestones2
+x 11
+y 10
+end
+arch cwall_3_1
+x 11
+y 10
+end
+arch flagstone
+x 11
+y 11
+end
+arch flagstone
+x 11
+y 12
+end
+arch flagstone
+x 11
+y 13
+end
+arch flagstone
+x 11
+y 14
+end
+arch flagstone
+x 11
+y 15
+end
+arch flagstone
+x 11
+y 16
+end
+arch flagstone
+x 11
+y 17
+end
+arch cobblestones2
+x 11
+y 18
+end
+arch cwall_3_3
+x 11
+y 18
+end
+arch cobblestones2
+x 11
+y 19
+end
+arch cwall_3_1
+x 11
+y 19
+end
+arch cobblestones2
+x 12
+end
+arch cwall_3_3
+x 12
+end
+arch cobblestones2
+x 12
+y 1
+end
+arch cwall_4
+x 12
+y 1
+end
+arch cobblestones2
+x 12
+y 2
+end
+arch cwall_3_4
+x 12
+y 2
+end
+arch cobblestones2
+x 12
+y 3
+end
+arch cwall_3_4
+x 12
+y 3
+end
+arch cobblestones2
+x 12
+y 4
+end
+arch cwall_3_4
+x 12
+y 4
+end
+arch cobblestones2
+x 12
+y 5
+end
+arch cwall_4
+x 12
+y 5
+end
+arch cobblestones2
+x 12
+y 6
+end
+arch cwall_3_1
+x 12
+y 6
+end
+arch flagstone
+x 12
+y 7
+end
+arch flagstone
+x 12
+y 8
+end
+arch cobblestones2
+x 12
+y 9
+end
+arch cwall_3_3
+x 12
+y 9
+end
+arch cobblestones2
+x 12
+y 10
+end
+arch cwall_3_1
+x 12
+y 10
+end
+arch flagstone
+x 12
+y 11
+end
+arch alchemy_ruby_converter
+x 12
+y 12
+end
+arch slevel_2_2_2
+x 12
+y 12
+end
+arch alchemy_ruby_converter
+x 12
+y 13
+end
+arch slevel_2_2_1
+x 12
+y 13
+end
+arch flagstone
+x 12
+y 14
+end
+arch dwarf_wiz
+name gnomish alchemist
+x 12
+y 14
+end
+arch alchemy_diamond_converter
+x 12
+y 15
+end
+arch slevel_2_2_2
+x 12
+y 15
+end
+arch alchemy_diamond_converter
+x 12
+y 16
+end
+arch slevel_2_2_1
+x 12
+y 16
+end
+arch flagstone
+x 12
+y 17
+end
+arch cobblestones2
+x 12
+y 18
+end
+arch cwall_3_3
+x 12
+y 18
+end
+arch cobblestones2
+x 12
+y 19
+end
+arch cwall_3_1
+x 12
+y 19
+end
+arch cobblestones2
+x 13
+end
+arch cwall_3_3
+x 13
+end
+arch cobblestones2
+x 13
+y 1
+end
+arch cwall_3_1
+x 13
+y 1
+end
+arch flagstone
+x 13
+y 2
+end
+arch bookshelf
+x 13
+y 2
+end
+arch flagstone
+x 13
+y 3
+end
+arch flagstone
+x 13
+y 4
+end
+arch table_4
+x 13
+y 4
+end
+arch cobblestones2
+x 13
+y 5
+end
+arch cwall_3_3
+x 13
+y 5
+end
+arch cobblestones2
+x 13
+y 6
+end
+arch cwall_3_1
+x 13
+y 6
+end
+arch flagstone
+x 13
+y 7
+end
+arch flagstone
+x 13
+y 8
+end
+arch cobblestones2
+x 13
+y 9
+end
+arch cwall_3_3
+x 13
+y 9
+end
+arch cobblestones2
+x 13
+y 10
+end
+arch cwall_3_1
+x 13
+y 10
+end
+arch flagstone
+x 13
+y 11
+end
+arch alchemy_ruby_converter
+x 13
+y 12
+end
+arch slevel_2_2_3
+x 13
+y 12
+end
+arch alchemy_ruby_converter
+x 13
+y 13
+end
+arch slevel_2_2_4
+x 13
+y 13
+end
+arch flagstone
+x 13
+y 14
+end
+arch alchemy_diamond_converter
+x 13
+y 15
+end
+arch slevel_2_2_3
+x 13
+y 15
+end
+arch alchemy_diamond_converter
+x 13
+y 16
+end
+arch slevel_2_2_4
+x 13
+y 16
+end
+arch flagstone
+x 13
+y 17
+end
+arch cobblestones2
+x 13
+y 18
+end
+arch cwall_3_3
+x 13
+y 18
+end
+arch cobblestones2
+x 13
+y 19
+end
+arch cwall_3_1
+x 13
+y 19
+end
+arch cobblestones2
+x 14
+end
+arch cwall_3_3
+x 14
+end
+arch cobblestones2
+x 14
+y 1
+end
+arch cwall_3_1
+x 14
+y 1
+end
+arch flagstone
+x 14
+y 2
+end
+arch bookshelf
+x 14
+y 2
+end
+arch flagstone
+x 14
+y 3
+end
+arch flagstone
+x 14
+y 4
+end
+arch chair_1.2
+x 14
+y 4
+end
+arch cobblestones2
+x 14
+y 5
+end
+arch cwall_2_2_3
+x 14
+y 5
+end
+arch cobblestones2
+x 14
+y 6
+end
+arch cwall_2_2_4
+x 14
+y 6
+end
+arch flagstone
+x 14
+y 7
+end
+arch flagstone
+x 14
+y 8
+end
+arch cobblestones2
+x 14
+y 9
+end
+arch cwall_2_2_3
+x 14
+y 9
+end
+arch cobblestones2
+x 14
+y 10
+end
+arch cwall_2_2_4
+x 14
+y 10
+end
+arch flagstone
+x 14
+y 11
+end
+arch flagstone
+x 14
+y 12
+end
+arch flagstone
+x 14
+y 13
+end
+arch flagstone
+x 14
+y 14
+end
+arch statue
+name statue of a master alchemist
+x 14
+y 14
+end
+arch flagstone
+x 14
+y 15
+end
+arch flagstone
+x 14
+y 16
+end
+arch flagstone
+x 14
+y 17
+end
+arch cobblestones2
+x 14
+y 18
+end
+arch cwall_3_3
+x 14
+y 18
+end
+arch cobblestones2
+x 14
+y 19
+end
+arch cwall_3_1
+x 14
+y 19
+end
+arch cobblestones2
+x 15
+end
+arch cwall_3_3
+x 15
+end
+arch cobblestones2
+x 15
+y 1
+end
+arch cwall_3_1
+x 15
+y 1
+end
+arch flagstone
+x 15
+y 2
+end
+arch bookshelf
+x 15
+y 2
+end
+arch flagstone
+x 15
+y 3
+end
+arch cauldron
+x 15
+y 3
+magic 1
+no_pick 1
+end
+arch flagstone
+x 15
+y 4
+end
+arch flagstone
+x 15
+y 5
+end
+arch flagstone
+x 15
+y 6
+end
+arch flagstone
+x 15
+y 7
+end
+arch flagstone
+x 15
+y 8
+end
+arch flagstone
+x 15
+y 9
+end
+arch flagstone
+x 15
+y 10
+end
+arch flagstone
+x 15
+y 11
+end
+arch alchemy_pearl_converter
+x 15
+y 12
+end
+arch slevel_2_2_2
+x 15
+y 12
+end
+arch alchemy_pearl_converter
+x 15
+y 13
+end
+arch slevel_2_2_1
+x 15
+y 13
+end
+arch flagstone
+x 15
+y 14
+end
+arch sea1
+name water
+x 15
+y 15
+end
+arch slevel_2_2_2
+x 15
+y 15
+end
+arch sea1
+name water
+x 15
+y 16
+end
+arch slevel_2_2_1
+x 15
+y 16
+end
+arch flagstone
+x 15
+y 17
+end
+arch cobblestones2
+x 15
+y 18
+end
+arch cwall_3_3
+x 15
+y 18
+end
+arch cobblestones2
+x 15
+y 19
+end
+arch cwall_3_1
+x 15
+y 19
+end
+arch cobblestones2
+x 16
+end
+arch cwall_3_3
+x 16
+end
+arch cobblestones2
+x 16
+y 1
+end
+arch cwall_3_1
+x 16
+y 1
+end
+arch flagstone
+x 16
+y 2
+end
+arch bookshelf
+x 16
+y 2
+end
+arch flagstone
+x 16
+y 3
+end
+arch flagstone
+x 16
+y 4
+end
+arch chair_1.4
+x 16
+y 4
+end
+arch cobblestones2
+x 16
+y 5
+end
+arch cwall_2_2_2
+x 16
+y 5
+end
+arch cobblestones2
+x 16
+y 6
+end
+arch cwall_2_2_1
+x 16
+y 6
+end
+arch flagstone
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 8
+end
+arch cobblestones2
+x 16
+y 9
+end
+arch cwall_2_2_2
+x 16
+y 9
+end
+arch cobblestones2
+x 16
+y 10
+end
+arch cwall_2_2_1
+x 16
+y 10
+end
+arch flagstone
+x 16
+y 11
+end
+arch alchemy_pearl_converter
+x 16
+y 12
+end
+arch slevel_2_2_3
+x 16
+y 12
+end
+arch alchemy_pearl_converter
+x 16
+y 13
+end
+arch slevel_2_2_4
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 14
+end
+arch sea1
+name water
+x 16
+y 15
+end
+arch slevel_2_2_3
+x 16
+y 15
+end
+arch sea1
+name water
+x 16
+y 16
+end
+arch slevel_2_2_4
+x 16
+y 16
+end
+arch flagstone
+x 16
+y 17
+end
+arch dwarf_wiz
+name gnomish alchemist
+x 16
+y 17
+end
+arch cobblestones2
+x 16
+y 18
+end
+arch cwall_3_3
+x 16
+y 18
+end
+arch cobblestones2
+x 16
+y 19
+end
+arch cwall_3_1
+x 16
+y 19
+end
+arch cobblestones2
+x 17
+end
+arch cwall_3_3
+x 17
+end
+arch cobblestones2
+x 17
+y 1
+end
+arch cwall_3_1
+x 17
+y 1
+end
+arch flagstone
+x 17
+y 2
+end
+arch bookshelf
+x 17
+y 2
+end
+arch flagstone
+x 17
+y 3
+end
+arch flagstone
+x 17
+y 4
+end
+arch table_4
+x 17
+y 4
+end
+arch cobblestones2
+x 17
+y 5
+end
+arch cwall_3_3
+x 17
+y 5
+end
+arch cobblestones2
+x 17
+y 6
+end
+arch cwall_3_1
+x 17
+y 6
+end
+arch flagstone
+x 17
+y 7
+end
+arch guard
+name guard
+x 17
+y 7
+end
+arch flagstone
+x 17
+y 8
+end
+arch cobblestones2
+x 17
+y 9
+end
+arch cwall_3_3
+x 17
+y 9
+end
+arch cobblestones2
+x 17
+y 10
+end
+arch cwall_3_1
+x 17
+y 10
+end
+arch flagstone
+x 17
+y 11
+end
+arch flagstone
+x 17
+y 12
+end
+arch flagstone
+x 17
+y 13
+end
+arch flagstone
+x 17
+y 14
+end
+arch flagstone
+x 17
+y 15
+end
+arch flagstone
+x 17
+y 16
+end
+arch flagstone
+x 17
+y 17
+end
+arch cobblestones2
+x 17
+y 18
+end
+arch cwall_3_3
+x 17
+y 18
+end
+arch cobblestones2
+x 17
+y 19
+end
+arch cwall_3_1
+x 17
+y 19
+end
+arch cobblestones2
+x 18
+end
+arch cwall_3_3
+x 18
+end
+arch cobblestones2
+x 18
+y 1
+end
+arch cwall_4
+x 18
+y 1
+end
+arch cobblestones2
+x 18
+y 2
+end
+arch cwall_3_2
+x 18
+y 2
+end
+arch cobblestones2
+x 18
+y 3
+end
+arch cwall_3_2
+x 18
+y 3
+end
+arch cobblestones2
+x 18
+y 4
+end
+arch cwall_3_2
+x 18
+y 4
+end
+arch cobblestones2
+x 18
+y 5
+end
+arch cwall_4
+x 18
+y 5
+end
+arch cobblestones2
+x 18
+y 6
+end
+arch cwall_4
+x 18
+y 6
+end
+arch cobblestones2
+x 18
+y 7
+end
+arch cwall_3_2
+x 18
+y 7
+end
+arch cobblestones2
+x 18
+y 8
+end
+arch cwall_3_2
+x 18
+y 8
+end
+arch cobblestones2
+x 18
+y 9
+end
+arch cwall_4
+x 18
+y 9
+end
+arch cobblestones2
+x 18
+y 10
+end
+arch cwall_4
+x 18
+y 10
+end
+arch cobblestones2
+x 18
+y 11
+end
+arch cwall_3_2
+x 18
+y 11
+end
+arch cobblestones2
+x 18
+y 12
+end
+arch cwall_3_2
+x 18
+y 12
+end
+arch cobblestones2
+x 18
+y 13
+end
+arch cwall_3_2
+x 18
+y 13
+end
+arch cobblestones2
+x 18
+y 14
+end
+arch cwall_3_2
+x 18
+y 14
+end
+arch cobblestones2
+x 18
+y 15
+end
+arch cwall_3_2
+x 18
+y 15
+end
+arch cobblestones2
+x 18
+y 16
+end
+arch cwall_3_2
+x 18
+y 16
+end
+arch cobblestones2
+x 18
+y 17
+end
+arch cwall_3_2
+x 18
+y 17
+end
+arch cobblestones2
+x 18
+y 18
+end
+arch cwall_4
+x 18
+y 18
+end
+arch cobblestones2
+x 18
+y 19
+end
+arch cwall_3_1
+x 18
+y 19
+end
+arch cobblestones2
+x 19
+end
+arch cwall_2_2_3
+x 19
+end
+arch cobblestones2
+x 19
+y 1
+end
+arch cwall_3_4
+x 19
+y 1
+end
+arch cobblestones2
+x 19
+y 2
+end
+arch cwall_3_4
+x 19
+y 2
+end
+arch cobblestones2
+x 19
+y 3
+end
+arch cwall_3_4
+x 19
+y 3
+end
+arch cobblestones2
+x 19
+y 4
+end
+arch cwall_3_4
+x 19
+y 4
+end
+arch cobblestones2
+x 19
+y 5
+end
+arch cwall_3_4
+x 19
+y 5
+end
+arch cobblestones2
+x 19
+y 6
+end
+arch cwall_3_4
+x 19
+y 6
+end
+arch cobblestones2
+x 19
+y 7
+end
+arch cwall_3_4
+x 19
+y 7
+end
+arch cobblestones2
+x 19
+y 8
+end
+arch cwall_3_4
+x 19
+y 8
+end
+arch cobblestones2
+x 19
+y 9
+end
+arch cwall_3_4
+x 19
+y 9
+end
+arch cobblestones2
+x 19
+y 10
+end
+arch cwall_3_4
+x 19
+y 10
+end
+arch cobblestones2
+x 19
+y 11
+end
+arch cwall_3_4
+x 19
+y 11
+end
+arch cobblestones2
+x 19
+y 12
+end
+arch cwall_3_4
+x 19
+y 12
+end
+arch cobblestones2
+x 19
+y 13
+end
+arch cwall_3_4
+x 19
+y 13
+end
+arch cobblestones2
+x 19
+y 14
+end
+arch cwall_3_4
+x 19
+y 14
+end
+arch cobblestones2
+x 19
+y 15
+end
+arch cwall_3_4
+x 19
+y 15
+end
+arch cobblestones2
+x 19
+y 16
+end
+arch cwall_3_4
+x 19
+y 16
+end
+arch cobblestones2
+x 19
+y 17
+end
+arch cwall_3_4
+x 19
+y 17
+end
+arch cobblestones2
+x 19
+y 18
+end
+arch cwall_3_4
+x 19
+y 18
+end
+arch cobblestones2
+x 19
+y 19
+end
+arch cwall_2_2_4
+x 19
+y 19
+end

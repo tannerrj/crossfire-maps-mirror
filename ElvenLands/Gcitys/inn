@@ -1,0 +1,317 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Nov 20 14:50:08 1999
+endmsg
+width 7
+height 6
+end
+arch woodfloor
+end
+arch wwall_2_2_2
+end
+arch woodfloor
+y 1
+end
+arch wwall_2_1_1
+y 1
+end
+arch woodfloor
+y 2
+end
+arch wwall_2_1_1
+y 2
+end
+arch woodfloor
+y 3
+end
+arch wwall_2_1_1
+y 3
+end
+arch woodfloor
+y 4
+end
+arch wwall_2_1_1
+y 4
+end
+arch woodfloor
+y 5
+end
+arch wwall_2_2_1
+y 5
+end
+arch woodfloor
+x 1
+end
+arch wwall_2_1_2
+x 1
+end
+arch woodfloor
+x 1
+y 1
+end
+arch bed_save
+x 1
+y 1
+end
+arch woodfloor
+x 1
+y 2
+end
+arch grate_closed_1
+x 1
+y 2
+connected 1
+end
+arch woodfloor
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
+arch booze_table
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch wwall_2_1_2
+x 1
+y 5
+end
+arch woodfloor
+x 2
+end
+arch wwall_3_3
+x 2
+end
+arch woodfloor
+x 2
+y 1
+end
+arch wwall_2_1_1
+x 2
+y 1
+end
+arch woodfloor
+x 2
+y 2
+end
+arch wwall_1_2
+x 2
+y 2
+end
+arch woodfloor
+x 2
+y 3
+end
+arch woodfloor
+x 2
+y 4
+end
+arch dragon_steak_table
+x 2
+y 4
+end
+arch woodfloor
+x 2
+y 5
+end
+arch wwall_1_3
+x 2
+y 5
+end
+arch woodfloor
+x 3
+end
+arch wwall_2_1_2
+x 3
+end
+arch woodfloor
+x 3
+y 1
+end
+arch goblin
+name innkeeper
+msg
+@match hi
+Welcome to my inn! Would you like a
+room,some food,or information?
+@match room
+drop 10 gold to sleep here! 
+@match food
+Go to the tables!
+@match information
+Us Glovarites are at peace with the
+Ritharians. But we were once at war
+with them! You should visit Rithar
+sometime!
+endmsg
+x 3
+y 1
+end
+arch woodfloor
+x 3
+y 2
+end
+arch table
+x 3
+y 2
+no_pass 1
+end
+arch goldfloor
+x 3
+y 3
+connected 1
+end
+arch woodfloor
+x 3
+y 4
+end
+arch woodfloor
+x 3
+y 5
+end
+arch invis_exit
+slaying /ElvenLands/Gcitys/city1
+hp 5
+sp 1
+x 3
+y 5
+end
+arch woodfloor
+x 4
+end
+arch wwall_3_3
+x 4
+end
+arch woodfloor
+x 4
+y 1
+end
+arch wwall_2_1_1
+x 4
+y 1
+end
+arch woodfloor
+x 4
+y 2
+end
+arch wwall_1_2
+x 4
+y 2
+end
+arch woodfloor
+x 4
+y 3
+end
+arch woodfloor
+x 4
+y 4
+end
+arch waybread_table
+x 4
+y 4
+end
+arch woodfloor
+x 4
+y 5
+end
+arch wwall_1_4
+x 4
+y 5
+end
+arch woodfloor
+x 5
+end
+arch wwall_2_1_2
+x 5
+end
+arch woodfloor
+x 5
+y 1
+end
+arch bed_save
+x 5
+y 1
+end
+arch woodfloor
+x 5
+y 2
+end
+arch grate_closed_1
+x 5
+y 2
+connected 1
+end
+arch woodfloor
+x 5
+y 3
+end
+arch woodfloor
+x 5
+y 4
+end
+arch food_table
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch wwall_2_1_2
+x 5
+y 5
+end
+arch woodfloor
+x 6
+end
+arch wwall_2_2_3
+x 6
+end
+arch woodfloor
+x 6
+y 1
+end
+arch wwall_2_1_1
+x 6
+y 1
+end
+arch woodfloor
+x 6
+y 2
+end
+arch wwall_2_1_1
+x 6
+y 2
+end
+arch woodfloor
+x 6
+y 3
+end
+arch wwall_2_1_1
+x 6
+y 3
+end
+arch woodfloor
+x 6
+y 4
+end
+arch wwall_2_1_1
+x 6
+y 4
+end
+arch woodfloor
+x 6
+y 5
+end
+arch wwall_2_2_4
+x 6
+y 5
+end

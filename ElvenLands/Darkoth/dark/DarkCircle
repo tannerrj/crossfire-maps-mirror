@@ -1,0 +1,989 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Mon Feb  4 00:18:34 2002
+endmsg
+width 9
+height 16
+end
+arch blackmarble
+end
+arch flagstone_2_2_2
+end
+arch blackmarble
+y 1
+end
+arch flagstone_2_1_1
+y 1
+end
+arch blackmarble
+y 2
+end
+arch flagstone_2_1_1
+y 2
+end
+arch blackmarble
+y 3
+end
+arch flagstone_2_1_1
+y 3
+end
+arch blackmarble
+y 4
+end
+arch flagstone_2_1_1
+y 4
+end
+arch blackmarble
+y 5
+end
+arch flagstone_2_1_1
+y 5
+end
+arch blackmarble
+y 6
+end
+arch flagstone_2_1_1
+y 6
+end
+arch blackmarble
+y 7
+end
+arch flagstone_2_1_1
+y 7
+end
+arch blackmarble
+y 8
+end
+arch flagstone_2_1_1
+y 8
+end
+arch blackmarble
+y 9
+end
+arch flagstone_2_1_1
+y 9
+end
+arch blackmarble
+y 10
+end
+arch flagstone_2_1_1
+y 10
+end
+arch blackmarble
+y 11
+end
+arch flagstone_3_2
+y 11
+end
+arch blackmarble
+y 12
+unique 1
+end
+arch flagstone_2_1_1
+y 12
+end
+arch blackmarble
+y 13
+unique 1
+end
+arch flagstone_2_1_1
+y 13
+end
+arch blackmarble
+y 14
+unique 1
+end
+arch flagstone_2_1_1
+y 14
+end
+arch blackmarble
+y 15
+unique 1
+end
+arch flagstone_2_2_1
+y 15
+end
+arch blackmarble
+x 1
+end
+arch flagstone_2_1_2
+x 1
+end
+arch blackmarble
+x 1
+y 1
+end
+arch stair_up_1
+x 1
+y 1
+end
+arch blackmarble
+x 1
+y 2
+end
+arch blackmarble
+x 1
+y 3
+end
+arch blackmarble
+x 1
+y 4
+end
+arch igate_closed_1
+x 1
+y 4
+connected 1
+end
+arch blackmarble
+x 1
+y 5
+end
+arch blackmarble
+x 1
+y 6
+end
+arch blackmarble
+x 1
+y 7
+end
+arch chair_1.4
+x 1
+y 7
+end
+arch blackmarble
+x 1
+y 8
+end
+arch chair_1.4
+x 1
+y 8
+end
+arch blackmarble
+x 1
+y 9
+end
+arch chair_1.4
+x 1
+y 9
+end
+arch blackmarble
+x 1
+y 10
+end
+arch knight
+x 1
+y 10
+end
+arch blackmarble
+x 1
+y 11
+end
+arch flagstone_1_3
+x 1
+y 11
+end
+arch blackmarble
+x 1
+y 12
+unique 1
+end
+arch knight
+x 1
+y 12
+end
+arch blackmarble
+x 1
+y 13
+unique 1
+end
+arch blackmarble
+x 1
+y 14
+unique 1
+end
+arch blackmarble
+x 1
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 1
+y 15
+end
+arch blackmarble
+x 2
+end
+arch flagstone_3_3
+x 2
+end
+arch blackmarble
+x 2
+y 1
+end
+arch flagstone_2_1_1
+x 2
+y 1
+end
+arch blackmarble
+x 2
+y 2
+end
+arch flagstone_2_1_1
+x 2
+y 2
+end
+arch blackmarble
+x 2
+y 3
+end
+arch flagstone_2_1_1
+x 2
+y 3
+end
+arch blackmarble
+x 2
+y 4
+end
+arch flagstone_2_2_1
+x 2
+y 4
+end
+arch blackmarble
+x 2
+y 5
+end
+arch knight
+x 2
+y 5
+end
+arch blackmarble
+x 2
+y 6
+end
+arch blackmarble
+x 2
+y 7
+end
+arch blackmarble
+x 2
+y 8
+end
+arch blackmarble
+x 2
+y 9
+end
+arch blackmarble
+x 2
+y 10
+end
+arch blackmarble
+x 2
+y 11
+end
+arch door_look_1
+x 2
+y 11
+no_pass 0
+end
+arch blackmarble
+x 2
+y 12
+unique 1
+end
+arch blackmarble
+x 2
+y 13
+unique 1
+end
+arch blackmarble
+x 2
+y 14
+unique 1
+end
+arch blackmarble
+x 2
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 2
+y 15
+end
+arch blackmarble
+x 3
+end
+arch flagstone_2_1_2
+x 3
+end
+arch blackmarble
+x 3
+y 1
+end
+arch magic_ear
+msg
+@match yes
+Click.
+
+endmsg
+x 3
+y 2
+connected 1
+end
+arch blackmarble
+x 3
+y 2
+end
+arch chair_2.4
+x 3
+y 2
+end
+arch wizard
+msg
+@match hi|hello
+You wish to join the Dark Circle of
+magic?
+@match yes
+ Good. However,you must first pass a
+test. I have opened the gate to the
+stairs which lead to your test. If you
+pass,we shall tell you the location of
+the Circle's headquarters.
+endmsg
+face wizard.131
+Con 5
+Wis 15
+Int 7
+hp 320
+maxsp 80
+exp 2500
+x 3
+y 2
+speed 0.300000
+attack_movement 7
+level 20
+type 0
+monster 1
+unaggressive 1
+can_cast_spell 1
+end
+arch blackmarble
+x 3
+y 3
+end
+arch blackmarble
+x 3
+y 4
+end
+arch flagstone_2_1_2
+x 3
+y 4
+end
+arch blackmarble
+x 3
+y 5
+end
+arch chair_1.1
+x 3
+y 5
+end
+arch blackmarble
+x 3
+y 6
+end
+arch blackmarble
+x 3
+y 7
+end
+arch blackmarble
+x 3
+y 8
+end
+arch blackmarble
+x 3
+y 9
+end
+arch blackmarble
+x 3
+y 10
+end
+arch knight
+x 3
+y 10
+end
+arch blackmarble
+x 3
+y 11
+end
+arch flagstone_1_4
+x 3
+y 11
+end
+arch blackmarble
+x 3
+y 12
+unique 1
+end
+arch knight
+x 3
+y 12
+end
+arch blackmarble
+x 3
+y 13
+unique 1
+end
+arch blackmarble
+x 3
+y 14
+unique 1
+end
+arch blackmarble
+x 3
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 3
+y 15
+end
+arch blackmarble
+x 4
+end
+arch flagstone_2_1_2
+x 4
+end
+arch blackmarble
+x 4
+y 1
+end
+arch blackmarble
+x 4
+y 2
+end
+arch table_4
+x 4
+y 2
+end
+arch blackmarble
+x 4
+y 3
+end
+arch blackmarble
+x 4
+y 4
+end
+arch flagstone_2_1_2
+x 4
+y 4
+end
+arch blackmarble
+x 4
+y 5
+end
+arch chair_1.1
+x 4
+y 5
+end
+arch blackmarble
+x 4
+y 6
+end
+arch blackmarble
+x 4
+y 7
+end
+arch blackmarble
+x 4
+y 8
+end
+arch blackmarble
+x 4
+y 9
+end
+arch blackmarble
+x 4
+y 10
+end
+arch chair_1.3
+x 4
+y 10
+end
+arch blackmarble
+x 4
+y 11
+end
+arch flagstone_3_3
+x 4
+y 11
+end
+arch blackmarble
+x 4
+y 12
+unique 1
+end
+arch flagstone_2_1_1
+x 4
+y 12
+end
+arch blackmarble
+x 4
+y 13
+unique 1
+end
+arch flagstone_2_1_1
+x 4
+y 13
+end
+arch blackmarble
+x 4
+y 14
+unique 1
+end
+arch flagstone_2_1_1
+x 4
+y 14
+end
+arch blackmarble
+x 4
+y 15
+unique 1
+end
+arch flagstone_3_1
+x 4
+y 15
+end
+arch blackmarble
+x 5
+end
+arch flagstone_2_1_2
+x 5
+end
+arch blackmarble
+x 5
+y 1
+end
+arch blackmarble
+x 5
+y 2
+end
+arch chair_1.2
+x 5
+y 2
+end
+arch blackmarble
+x 5
+y 3
+end
+arch blackmarble
+x 5
+y 4
+end
+arch flagstone_1_3
+x 5
+y 4
+end
+arch blackmarble
+x 5
+y 5
+end
+arch knight
+x 5
+y 5
+end
+arch blackmarble
+x 5
+y 6
+end
+arch blackmarble
+x 5
+y 7
+end
+arch blackmarble
+x 5
+y 8
+end
+arch blackmarble
+x 5
+y 9
+end
+arch blackmarble
+x 5
+y 10
+end
+arch chair_1.3
+x 5
+y 10
+end
+arch blackmarble
+x 5
+y 11
+end
+arch flagstone_2_1_2
+x 5
+y 11
+end
+arch blackmarble
+x 5
+y 12
+unique 1
+end
+arch blackmarble
+x 5
+y 13
+unique 1
+end
+arch blackmarble
+x 5
+y 14
+unique 1
+end
+arch blackmarble
+x 5
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 5
+y 15
+end
+arch blackmarble
+x 6
+end
+arch flagstone_2_1_2
+x 6
+end
+arch blackmarble
+x 6
+y 1
+end
+arch blackmarble
+x 6
+y 2
+end
+arch blackmarble
+x 6
+y 3
+end
+arch blackmarble
+x 6
+y 4
+end
+arch door_look_1
+x 6
+y 4
+no_pass 0
+end
+arch blackmarble
+x 6
+y 5
+end
+arch blackmarble
+x 6
+y 6
+end
+arch blackmarble
+x 6
+y 7
+end
+arch blackmarble
+x 6
+y 8
+end
+arch blackmarble
+x 6
+y 9
+end
+arch blackmarble
+x 6
+y 10
+end
+arch chair_1.3
+x 6
+y 10
+end
+arch blackmarble
+x 6
+y 11
+end
+arch flagstone_2_1_2
+x 6
+y 11
+end
+arch blackmarble
+x 6
+y 12
+unique 1
+end
+arch blackmarble
+x 6
+y 13
+unique 1
+end
+arch blackmarble
+x 6
+y 14
+unique 1
+end
+arch blackmarble
+x 6
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 6
+y 15
+end
+arch blackmarble
+x 7
+end
+arch flagstone_2_1_2
+x 7
+end
+arch blackmarble
+x 7
+y 1
+end
+arch blackmarble
+x 7
+y 2
+end
+arch blackmarble
+x 7
+y 3
+end
+arch knight
+x 7
+y 3
+end
+arch blackmarble
+x 7
+y 4
+end
+arch flagstone_1_4
+x 7
+y 4
+end
+arch blackmarble
+x 7
+y 5
+end
+arch chair_1.2
+x 7
+y 5
+end
+arch blackmarble
+x 7
+y 6
+end
+arch chair_1.2
+x 7
+y 6
+end
+arch blackmarble
+x 7
+y 7
+end
+arch chair_1.2
+x 7
+y 7
+end
+arch blackmarble
+x 7
+y 8
+end
+arch chair_1.2
+x 7
+y 8
+end
+arch blackmarble
+x 7
+y 9
+end
+arch chair_1.2
+x 7
+y 9
+end
+arch blackmarble
+x 7
+y 10
+end
+arch chair_1.2
+x 7
+y 10
+end
+arch blackmarble
+x 7
+y 11
+end
+arch flagstone_2_1_2
+x 7
+y 11
+end
+arch blackmarble
+x 7
+y 12
+unique 1
+end
+arch blackmarble
+x 7
+y 13
+unique 1
+end
+arch blackmarble
+x 7
+y 14
+unique 1
+end
+arch blackmarble
+x 7
+y 15
+unique 1
+end
+arch flagstone_2_1_2
+x 7
+y 15
+end
+arch blackmarble
+x 8
+unique 1
+end
+arch flagstone_2_2_3
+x 8
+end
+arch blackmarble
+x 8
+y 1
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 1
+end
+arch blackmarble
+x 8
+y 2
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 2
+end
+arch blackmarble
+x 8
+y 3
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 3
+end
+arch blackmarble
+x 8
+y 4
+unique 1
+end
+arch flagstone_3_4
+x 8
+y 4
+end
+arch blackmarble
+x 8
+y 5
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 5
+end
+arch blackmarble
+x 8
+y 6
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 6
+end
+arch blackmarble
+x 8
+y 7
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 7
+end
+arch blackmarble
+x 8
+y 8
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 8
+end
+arch blackmarble
+x 8
+y 9
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 9
+end
+arch blackmarble
+x 8
+y 10
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 10
+end
+arch blackmarble
+x 8
+y 11
+unique 1
+end
+arch flagstone_3_4
+x 8
+y 11
+end
+arch blackmarble
+x 8
+y 12
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 12
+end
+arch blackmarble
+x 8
+y 13
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 13
+end
+arch blackmarble
+x 8
+y 14
+unique 1
+end
+arch flagstone_2_1_1
+x 8
+y 14
+end
+arch blackmarble
+x 8
+y 15
+unique 1
+end
+arch flagstone_2_2_4
+x 8
+y 15
+end

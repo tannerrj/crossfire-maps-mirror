@@ -1,0 +1,1354 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Mon Dec  6 22:51:02 1999
+endmsg
+width 16
+height 16
+end
+arch dungeon_floor
+end
+arch dwall_2_2_2
+end
+arch dungeon_floor
+y 1
+end
+arch dwall_2_1_1
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch dwall_2_1_1
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch dwall_2_1_1
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch dwall_2_1_1
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch dwall_2_1_1
+y 5
+end
+arch dungeon_floor
+y 6
+end
+arch dwall_2_1_1
+y 6
+end
+arch sea1
+y 7
+end
+arch invis_exit
+slaying /ElvenLands/Yoer/city/ter_2
+hp 28
+sp 19
+y 7
+end
+arch cityport_b
+y 7
+end
+arch dungeon_floor
+y 8
+end
+arch dwall_2_1_1
+y 8
+end
+arch dungeon_floor
+y 9
+end
+arch dwall_2_1_1
+y 9
+end
+arch dungeon_floor
+y 10
+end
+arch dwall_2_1_1
+y 10
+end
+arch dungeon_floor
+y 11
+end
+arch dwall_2_1_1
+y 11
+end
+arch dungeon_floor
+y 12
+end
+arch dwall_2_1_1
+y 12
+end
+arch dungeon_floor
+y 13
+end
+arch dwall_2_1_1
+y 13
+end
+arch dungeon_floor
+y 14
+end
+arch dwall_2_1_1
+y 14
+end
+arch dungeon_floor
+y 15
+end
+arch dwall_2_2_1
+y 15
+end
+arch dungeon_floor
+x 1
+end
+arch dwall_2_1_2
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch key2
+name key to thief city
+slaying ThiefCity
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch sea1
+x 1
+y 6
+end
+arch sea1
+x 1
+y 7
+end
+arch sea1
+x 1
+y 8
+end
+arch dungeon_floor
+x 1
+y 9
+end
+arch dungeon_floor
+x 1
+y 10
+end
+arch sailor
+x 1
+y 10
+unaggressive 0
+end
+arch dungeon_floor
+x 1
+y 11
+end
+arch dungeon_floor
+x 1
+y 12
+end
+arch dungeon_floor
+x 1
+y 13
+end
+arch dungeon_floor
+x 1
+y 14
+end
+arch dungeon_floor
+x 1
+y 15
+end
+arch dwall_2_1_2
+x 1
+y 15
+end
+arch dungeon_floor
+x 2
+end
+arch dwall_2_1_2
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch ninja_1
+name terrorist
+x 2
+y 1
+unaggressive 0
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch sailor
+x 2
+y 3
+unaggressive 0
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch dungeon_floor
+x 2
+y 6
+end
+arch dungeon_floor
+x 2
+y 7
+end
+arch dungeon_floor
+x 2
+y 8
+end
+arch dungeon_floor
+x 2
+y 9
+end
+arch dungeon_floor
+x 2
+y 10
+end
+arch dungeon_floor
+x 2
+y 11
+end
+arch ninja_1
+name terrorist
+x 2
+y 11
+unaggressive 0
+end
+arch dungeon_floor
+x 2
+y 12
+end
+arch dungeon_floor
+x 2
+y 13
+end
+arch siegfried
+name Terrorist
+x 2
+y 13
+end
+arch dungeon_floor
+x 2
+y 14
+end
+arch dungeon_floor
+x 2
+y 15
+end
+arch dwall_2_1_2
+x 2
+y 15
+end
+arch dungeon_floor
+x 3
+end
+arch dwall_2_1_2
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch pirate
+x 3
+y 5
+end
+arch dungeon_floor
+x 3
+y 6
+end
+arch dungeon_floor
+x 3
+y 7
+end
+arch dungeon_floor
+x 3
+y 8
+end
+arch ninja_1
+name terrorist
+x 3
+y 8
+unaggressive 0
+end
+arch dungeon_floor
+x 3
+y 9
+end
+arch dungeon_floor
+x 3
+y 10
+end
+arch dungeon_floor
+x 3
+y 11
+end
+arch dungeon_floor
+x 3
+y 12
+end
+arch dungeon_floor
+x 3
+y 13
+end
+arch dungeon_floor
+x 3
+y 14
+end
+arch northman
+x 3
+y 14
+end
+arch dungeon_floor
+x 3
+y 15
+end
+arch dwall_2_1_2
+x 3
+y 15
+end
+arch dungeon_floor
+x 4
+end
+arch dwall_2_1_2
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch siegfried
+name Terrorist
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch pirate
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch dungeon_floor
+x 4
+y 6
+end
+arch dungeon_floor
+x 4
+y 7
+end
+arch dungeon_floor
+x 4
+y 8
+end
+arch dungeon_floor
+x 4
+y 9
+end
+arch northman
+x 4
+y 9
+end
+arch dungeon_floor
+x 4
+y 10
+end
+arch dungeon_floor
+x 4
+y 11
+end
+arch dungeon_floor
+x 4
+y 12
+end
+arch ninja_1
+name terrorist
+x 4
+y 12
+unaggressive 0
+end
+arch dungeon_floor
+x 4
+y 13
+end
+arch sailor
+x 4
+y 13
+unaggressive 0
+end
+arch dungeon_floor
+x 4
+y 14
+end
+arch dungeon_floor
+x 4
+y 15
+end
+arch dwall_2_1_2
+x 4
+y 15
+end
+arch dungeon_floor
+x 5
+end
+arch dwall_2_1_2
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch sailor
+x 5
+y 4
+unaggressive 0
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch dungeon_floor
+x 5
+y 6
+end
+arch dungeon_floor
+x 5
+y 7
+end
+arch siegfried
+name Terrorist
+x 5
+y 7
+end
+arch dungeon_floor
+x 5
+y 8
+end
+arch dungeon_floor
+x 5
+y 9
+end
+arch dungeon_floor
+x 5
+y 10
+end
+arch key2
+x 5
+y 11
+end
+arch dungeon_floor
+x 5
+y 11
+end
+arch dungeon_floor
+x 5
+y 12
+end
+arch pirate
+x 5
+y 12
+end
+arch dungeon_floor
+x 5
+y 13
+end
+arch dungeon_floor
+x 5
+y 14
+end
+arch ninja_1
+name terrorist
+x 5
+y 14
+unaggressive 0
+end
+arch dungeon_floor
+x 5
+y 15
+end
+arch dwall_2_1_2
+x 5
+y 15
+end
+arch dungeon_floor
+x 6
+end
+arch dwall_1_3
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch ninja_1
+name terrorist
+x 6
+y 1
+unaggressive 0
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch ninja_1
+name terrorist
+x 6
+y 5
+unaggressive 0
+end
+arch dungeon_floor
+x 6
+y 6
+end
+arch greater_dwarven_guard
+name terrorist
+x 6
+y 6
+end
+arch dungeon_floor
+x 6
+y 7
+end
+arch dungeon_floor
+x 6
+y 8
+end
+arch dungeon_floor
+x 6
+y 9
+end
+arch sailor
+x 6
+y 9
+unaggressive 0
+end
+arch dungeon_floor
+x 6
+y 10
+end
+arch dungeon_floor
+x 6
+y 11
+end
+arch dungeon_floor
+x 6
+y 12
+end
+arch dungeon_floor
+x 6
+y 13
+end
+arch dungeon_floor
+x 6
+y 14
+end
+arch dungeon_floor
+x 6
+y 15
+end
+arch dwall_1_3
+x 6
+y 15
+end
+arch sea1
+x 7
+end
+arch pier_2_2_2
+x 7
+end
+arch sea1
+x 7
+y 1
+end
+arch pier_2_1_1
+x 7
+y 1
+end
+arch sea1
+x 7
+y 2
+end
+arch pier_2_1_1
+x 7
+y 2
+end
+arch northman
+x 7
+y 2
+end
+arch sea1
+x 7
+y 3
+end
+arch pier_3_2
+x 7
+y 3
+end
+arch sea1
+x 7
+y 4
+end
+arch pier_2_1_1
+x 7
+y 4
+end
+arch sea1
+x 7
+y 5
+end
+arch pier_2_1_1
+x 7
+y 5
+end
+arch sea1
+x 7
+y 6
+end
+arch pier_3_2
+x 7
+y 6
+end
+arch sea1
+x 7
+y 7
+end
+arch pier_2_1_1
+x 7
+y 7
+end
+arch sea1
+x 7
+y 8
+end
+arch pier_2_1_1
+x 7
+y 8
+end
+arch pirate
+x 7
+y 8
+end
+arch sea1
+x 7
+y 9
+end
+arch pier_3_2
+x 7
+y 9
+end
+arch sea1
+x 7
+y 10
+end
+arch pier_2_1_1
+x 7
+y 10
+end
+arch sea1
+x 7
+y 11
+end
+arch pier_2_1_1
+x 7
+y 11
+end
+arch sea1
+x 7
+y 12
+end
+arch pier_3_2
+x 7
+y 12
+end
+arch sea1
+x 7
+y 13
+end
+arch pier_2_1_1
+x 7
+y 13
+end
+arch sea1
+x 7
+y 14
+end
+arch pier_2_1_1
+x 7
+y 14
+end
+arch pirate
+x 7
+y 14
+end
+arch sea1
+x 7
+y 15
+end
+arch pier_2_2_1
+x 7
+y 15
+end
+arch sea1
+x 8
+end
+arch pier_2_1_2
+x 8
+end
+arch sea1
+x 8
+y 1
+end
+arch sea1
+x 8
+y 2
+end
+arch sea1
+x 8
+y 3
+end
+arch pier_2_1_2
+x 8
+y 3
+end
+arch sea1
+x 8
+y 4
+end
+arch sea1
+x 8
+y 5
+end
+arch sea1
+x 8
+y 6
+end
+arch pier_2_1_2
+x 8
+y 6
+end
+arch sea1
+x 8
+y 7
+end
+arch sea1
+x 8
+y 8
+end
+arch sea1
+x 8
+y 9
+end
+arch pier_2_1_2
+x 8
+y 9
+end
+arch sea1
+x 8
+y 10
+end
+arch sea1
+x 8
+y 11
+end
+arch sea1
+x 8
+y 12
+end
+arch pier_2_1_2
+x 8
+y 12
+end
+arch sea1
+x 8
+y 13
+end
+arch sea1
+x 8
+y 14
+end
+arch sea1
+x 8
+y 15
+end
+arch pier_2_1_2
+x 8
+y 15
+end
+arch sea1
+x 9
+end
+arch pier_1_3
+x 9
+end
+arch sea1
+x 9
+y 1
+end
+arch sea1
+x 9
+y 2
+end
+arch sea1
+x 9
+y 3
+end
+arch pier_1_3
+x 9
+y 3
+end
+arch sea1
+x 9
+y 4
+end
+arch sea1
+x 9
+y 5
+end
+arch sea1
+x 9
+y 6
+end
+arch pier_1_3
+x 9
+y 6
+end
+arch sea1
+x 9
+y 7
+end
+arch sea1
+x 9
+y 8
+end
+arch sea1
+x 9
+y 9
+end
+arch pier_1_3
+x 9
+y 9
+end
+arch sea1
+x 9
+y 10
+end
+arch sea1
+x 9
+y 11
+end
+arch sea1
+x 9
+y 12
+end
+arch pier_1_3
+x 9
+y 12
+end
+arch sea1
+x 9
+y 13
+end
+arch sea1
+x 9
+y 14
+end
+arch sea1
+x 9
+y 15
+end
+arch pier_1_3
+x 9
+y 15
+end
+arch sea1
+x 10
+end
+arch sea1
+x 10
+y 1
+end
+arch sea1
+x 10
+y 2
+end
+arch sea1
+x 10
+y 3
+end
+arch sea1
+x 10
+y 4
+end
+arch sea1
+x 10
+y 5
+end
+arch sea1
+x 10
+y 6
+end
+arch sea1
+x 10
+y 7
+end
+arch sea1
+x 10
+y 8
+end
+arch sea1
+x 10
+y 9
+end
+arch sea1
+x 10
+y 10
+end
+arch sea1
+x 10
+y 11
+end
+arch sea1
+x 10
+y 12
+end
+arch sea1
+x 10
+y 13
+end
+arch sea1
+x 10
+y 14
+end
+arch sea1
+x 10
+y 15
+end
+arch sea1
+x 11
+end
+arch sea1
+x 11
+y 1
+end
+arch sea1
+x 11
+y 2
+end
+arch sea1
+x 11
+y 3
+end
+arch sea1
+x 11
+y 4
+end
+arch sea1
+x 11
+y 5
+end
+arch sea1
+x 11
+y 6
+end
+arch sea1
+x 11
+y 7
+end
+arch sea1
+x 11
+y 8
+end
+arch sea1
+x 11
+y 9
+end
+arch sea1
+x 11
+y 10
+end
+arch sea1
+x 11
+y 11
+end
+arch sea1
+x 11
+y 12
+end
+arch sea1
+x 11
+y 13
+end
+arch sea1
+x 11
+y 14
+end
+arch sea1
+x 11
+y 15
+end
+arch sea
+x 12
+end
+arch sea
+x 12
+y 1
+end
+arch sea
+x 12
+y 2
+end
+arch sea
+x 12
+y 3
+end
+arch sea
+x 12
+y 4
+end
+arch sea
+x 12
+y 5
+end
+arch sea
+x 12
+y 6
+end
+arch sea
+x 12
+y 7
+end
+arch sea
+x 12
+y 8
+end
+arch sea
+x 12
+y 9
+end
+arch sea
+x 12
+y 10
+end
+arch sea
+x 12
+y 11
+end
+arch sea
+x 12
+y 12
+end
+arch sea
+x 12
+y 13
+end
+arch sea
+x 12
+y 14
+end
+arch sea
+x 12
+y 15
+end
+arch sea
+x 13
+end
+arch sea
+x 13
+y 1
+end
+arch sea
+x 13
+y 2
+end
+arch sea
+x 13
+y 3
+end
+arch sea
+x 13
+y 4
+end
+arch sea
+x 13
+y 5
+end
+arch sea
+x 13
+y 6
+end
+arch sea
+x 13
+y 7
+end
+arch sea
+x 13
+y 8
+end
+arch sea
+x 13
+y 9
+end
+arch sea
+x 13
+y 10
+end
+arch sea
+x 13
+y 11
+end
+arch sea
+x 13
+y 12
+end
+arch sea
+x 13
+y 13
+end
+arch sea
+x 13
+y 14
+end
+arch sea
+x 13
+y 15
+end
+arch sea
+x 14
+end
+arch sea
+x 14
+y 1
+end
+arch sea
+x 14
+y 2
+end
+arch sea
+x 14
+y 3
+end
+arch sea
+x 14
+y 4
+end
+arch sea
+x 14
+y 5
+end
+arch sea
+x 14
+y 6
+end
+arch sea
+x 14
+y 7
+end
+arch sea
+x 14
+y 8
+end
+arch sea
+x 14
+y 9
+end
+arch sea
+x 14
+y 10
+end
+arch sea
+x 14
+y 11
+end
+arch sea
+x 14
+y 12
+end
+arch sea
+x 14
+y 13
+end
+arch sea
+x 14
+y 14
+end
+arch sea
+x 14
+y 15
+end
+arch sea
+x 15
+end
+arch sea
+x 15
+y 1
+end
+arch sea
+x 15
+y 2
+end
+arch sea
+x 15
+y 3
+end
+arch sea
+x 15
+y 4
+end
+arch sea
+x 15
+y 5
+end
+arch sea
+x 15
+y 6
+end
+arch sea
+x 15
+y 7
+end
+arch sea
+x 15
+y 8
+end
+arch sea
+x 15
+y 9
+end
+arch sea
+x 15
+y 10
+end
+arch sea
+x 15
+y 11
+end
+arch sea
+x 15
+y 12
+end
+arch sea
+x 15
+y 13
+end
+arch sea
+x 15
+y 14
+end
+arch sea
+x 15
+y 15
+end
+arch big_galleon
+x 8
+y 1
+end
+arch big_galleon
+x 8
+y 4
+end
+arch big_galleon
+x 8
+y 7
+end
+arch big_galleon
+x 8
+y 10
+end
+arch big_galleon
+x 8
+y 13
+end

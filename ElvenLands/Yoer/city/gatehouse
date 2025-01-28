@@ -1,0 +1,2252 @@
+arch map
+name gatehouse
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri May 18 11:59:35 2001
+endmsg
+width 21
+height 17
+difficulty 1
+end
+arch blocked
+y 2
+end
+arch cobblestones2
+y 3
+end
+arch mine6
+y 3
+end
+arch cobblestones2
+y 4
+end
+arch invis_exit
+y 4
+end
+arch cobblestones2
+y 5
+end
+arch invis_exit
+y 5
+end
+arch cobblestones2
+y 6
+end
+arch invis_exit
+y 6
+end
+arch cobblestones2
+y 7
+end
+arch invis_exit
+y 7
+end
+arch cobblestones2
+y 8
+end
+arch invis_exit
+y 8
+end
+arch cobblestones2
+y 9
+end
+arch invis_exit
+y 9
+end
+arch cobblestones2
+y 10
+end
+arch invis_exit
+y 10
+end
+arch cobblestones2
+y 11
+end
+arch invis_exit
+y 11
+end
+arch cobblestones2
+y 12
+end
+arch invis_exit
+y 12
+end
+arch cobblestones2
+y 13
+end
+arch invis_exit
+y 13
+end
+arch cobblestones2
+y 14
+end
+arch invis_exit
+y 14
+end
+arch cobblestones2
+y 15
+end
+arch invis_exit
+y 15
+end
+arch cobblestones2
+y 16
+end
+arch mine6
+y 16
+end
+arch magic_mouth
+msg
+You may pass,elven brother...
+endmsg
+connected 1
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch cobblestones2
+x 1
+y 3
+end
+arch mine2
+x 1
+y 3
+end
+arch cobblestones2
+x 1
+y 4
+end
+arch cobblestones2
+x 1
+y 5
+end
+arch cobblestones2
+x 1
+y 6
+end
+arch cobblestones2
+x 1
+y 7
+end
+arch cobblestones2
+x 1
+y 8
+end
+arch cobblestones2
+x 1
+y 9
+end
+arch cobblestones2
+x 1
+y 10
+end
+arch cobblestones2
+x 1
+y 11
+end
+arch cobblestones2
+x 1
+y 12
+end
+arch cobblestones2
+x 1
+y 13
+end
+arch cobblestones2
+x 1
+y 14
+end
+arch cobblestones2
+x 1
+y 15
+end
+arch cobblestones2
+x 1
+y 16
+end
+arch mine2
+x 1
+y 16
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch cobblestones2
+x 2
+y 3
+end
+arch mine2
+x 2
+y 3
+end
+arch cobblestones2
+x 2
+y 4
+end
+arch cobblestones2
+x 2
+y 5
+end
+arch cobblestones2
+x 2
+y 6
+end
+arch a_guard_h
+race faerie
+x 2
+y 6
+end
+arch cobblestones2
+x 2
+y 7
+end
+arch cobblestones2
+x 2
+y 8
+end
+arch cobblestones2
+x 2
+y 9
+end
+arch cobblestones2
+x 2
+y 10
+end
+arch cobblestones2
+x 2
+y 11
+end
+arch a_guard_h
+race faerie
+x 2
+y 11
+end
+arch cobblestones2
+x 2
+y 12
+end
+arch cobblestones2
+x 2
+y 13
+end
+arch cobblestones2
+x 2
+y 14
+end
+arch cobblestones2
+x 2
+y 15
+end
+arch cobblestones2
+x 2
+y 16
+end
+arch mine2
+x 2
+y 16
+end
+arch cobblestones2
+x 3
+end
+arch mine10
+x 3
+end
+arch cobblestones2
+x 3
+y 1
+end
+arch mine3
+x 3
+y 1
+end
+arch cobblestones2
+x 3
+y 2
+end
+arch mine3
+x 3
+y 2
+end
+arch cobblestones2
+x 3
+y 3
+end
+arch mine14
+x 3
+y 3
+end
+arch cobblestones2
+x 3
+y 4
+end
+arch mine3
+x 3
+y 4
+end
+arch cobblestones2
+x 3
+y 5
+end
+arch mine3
+x 3
+y 5
+end
+arch cobblestones2
+x 3
+y 6
+end
+arch mine4
+x 3
+y 6
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 3
+y 7
+end
+arch cobblestones2
+x 3
+y 7
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 3
+y 8
+end
+arch cobblestones2
+x 3
+y 8
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 3
+y 9
+end
+arch cobblestones2
+x 3
+y 9
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 3
+y 10
+end
+arch cobblestones2
+x 3
+y 10
+end
+arch cobblestones2
+x 3
+y 11
+end
+arch mine10
+x 3
+y 11
+end
+arch cobblestones2
+x 3
+y 12
+end
+arch mine3
+x 3
+y 12
+end
+arch cobblestones2
+x 3
+y 13
+end
+arch swall_2_1_1
+x 3
+y 13
+end
+arch cobblestones2
+x 3
+y 14
+end
+arch swall_2_1_1
+x 3
+y 14
+end
+arch cobblestones2
+x 3
+y 15
+end
+arch mine3
+x 3
+y 15
+end
+arch cobblestones2
+x 3
+y 16
+end
+arch mine13
+x 3
+y 16
+end
+arch cobblestones2
+x 4
+end
+arch mine2
+x 4
+end
+arch cobblestones2
+x 4
+y 1
+end
+arch random_weapon
+x 4
+y 1
+end
+arch cobblestones2
+x 4
+y 2
+end
+arch cobblestones2
+x 4
+y 3
+end
+arch cobblestones2
+x 4
+y 4
+end
+arch cobblestones2
+x 4
+y 5
+end
+arch cobblestones2
+x 4
+y 6
+end
+arch mine2
+x 4
+y 6
+end
+arch cobblestones2
+x 4
+y 7
+end
+arch grate_closed_2
+connected 1
+x 4
+y 7
+end
+arch cobblestones2
+x 4
+y 8
+end
+arch grate_closed_2
+connected 1
+x 4
+y 8
+end
+arch cobblestones2
+x 4
+y 9
+end
+arch grate_closed_2
+connected 1
+x 4
+y 9
+end
+arch cobblestones2
+x 4
+y 10
+end
+arch grate_closed_2
+connected 1
+x 4
+y 10
+end
+arch cobblestones2
+x 4
+y 11
+end
+arch mine2
+x 4
+y 11
+end
+arch cobblestones2
+x 4
+y 12
+end
+arch cobblestones2
+x 4
+y 13
+end
+arch cobblestones2
+x 4
+y 14
+end
+arch a_guard_h
+msg
+@match *
+Sorry,if you don't have permission to
+enter,i can't let you by. Uggilly's
+trolls constantly try to get in.
+endmsg
+x 4
+y 14
+end
+arch cobblestones2
+x 4
+y 15
+end
+arch cobblestones2
+x 4
+y 16
+end
+arch mine2
+x 4
+y 16
+end
+arch cobblestones2
+x 5
+end
+arch mine2
+x 5
+end
+arch cobblestones2
+x 5
+y 1
+end
+arch random_shield
+x 5
+y 1
+end
+arch cobblestones2
+x 5
+y 2
+end
+arch random_bow
+x 5
+y 2
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch mine6
+x 5
+y 3
+end
+arch cobblestones2
+x 5
+y 4
+end
+arch cobblestones2
+x 5
+y 5
+end
+arch cobblestones2
+x 5
+y 6
+end
+arch mine2
+x 5
+y 6
+end
+arch cobblestones2
+x 5
+y 7
+end
+arch button_lever
+connected 1
+x 5
+y 7
+end
+arch a_guard_h
+msg
+@match *
+Greetings.
+endmsg
+race faerie
+x 5
+y 7
+end
+arch cobblestones2
+x 5
+y 8
+end
+arch cobblestones2
+x 5
+y 9
+end
+arch cobblestones2
+x 5
+y 10
+end
+arch a_guard_h
+race faerie
+x 5
+y 10
+end
+arch cobblestones2
+x 5
+y 11
+end
+arch mine2
+x 5
+y 11
+end
+arch cobblestones2
+x 5
+y 12
+end
+arch cobblestones2
+x 5
+y 13
+end
+arch cobblestones2
+x 5
+y 14
+end
+arch cobblestones2
+x 5
+y 15
+end
+arch cobblestones2
+x 5
+y 16
+end
+arch mine2
+x 5
+y 16
+end
+arch cobblestones2
+x 6
+end
+arch mine16
+x 6
+end
+arch cobblestones2
+x 6
+y 1
+end
+arch mine3
+x 6
+y 1
+end
+arch cobblestones2
+x 6
+y 2
+end
+arch mine3
+x 6
+y 2
+end
+arch cobblestones2
+x 6
+y 3
+end
+arch mine13
+x 6
+y 3
+end
+arch cobblestones2
+x 6
+y 4
+end
+arch cobblestones2
+x 6
+y 5
+end
+arch cobblestones2
+x 6
+y 6
+end
+arch mine2
+x 6
+y 6
+end
+arch cobblestones2
+x 6
+y 7
+end
+arch cobblestones2
+x 6
+y 8
+end
+arch cobblestones2
+x 6
+y 9
+end
+arch cobblestones2
+x 6
+y 10
+end
+arch cobblestones2
+x 6
+y 11
+end
+arch mine2
+x 6
+y 11
+end
+arch cobblestones2
+x 6
+y 12
+end
+arch door_look_2
+no_pass 0
+x 6
+y 12
+end
+arch cobblestones2
+x 6
+y 13
+end
+arch mine10
+x 6
+y 13
+end
+arch cobblestones2
+x 6
+y 14
+end
+arch mine3
+x 6
+y 14
+end
+arch cobblestones2
+x 6
+y 15
+end
+arch mine3
+x 6
+y 15
+end
+arch cobblestones2
+x 6
+y 16
+end
+arch mine13
+x 6
+y 16
+end
+arch cobblestones2
+x 7
+end
+arch mine2
+x 7
+end
+arch cobblestones2
+x 7
+y 1
+end
+arch bed_1
+x 7
+y 1
+end
+arch elf_1
+name sleeping guard
+msg
+@match *
+Zzzzzzzzzzz.....
+endmsg
+x 7
+y 1
+end
+arch cobblestones2
+x 7
+y 2
+end
+arch cobblestones2
+x 7
+y 3
+end
+arch mine2
+x 7
+y 3
+end
+arch cobblestones2
+x 7
+y 4
+end
+arch cobblestones2
+x 7
+y 5
+end
+arch cobblestones2
+x 7
+y 6
+end
+arch mine7
+x 7
+y 6
+end
+arch cobblestones2
+x 7
+y 7
+end
+arch cobblestones2
+x 7
+y 8
+end
+arch cobblestones2
+x 7
+y 9
+end
+arch cobblestones2
+x 7
+y 10
+end
+arch cobblestones2
+x 7
+y 11
+end
+arch mine7
+x 7
+y 11
+end
+arch cobblestones2
+x 7
+y 12
+end
+arch cobblestones2
+x 7
+y 13
+end
+arch mine2
+x 7
+y 13
+end
+arch cobblestones2
+x 7
+y 14
+end
+arch random_food
+x 7
+y 14
+end
+arch cobblestones2
+x 7
+y 15
+end
+arch random_food
+x 7
+y 15
+end
+arch cobblestones2
+x 7
+y 16
+end
+arch mine2
+x 7
+y 16
+end
+arch cobblestones2
+x 8
+end
+arch mine2
+x 8
+end
+arch cobblestones2
+x 8
+y 1
+end
+arch cobblestones2
+x 8
+y 2
+end
+arch cobblestones2
+x 8
+y 3
+end
+arch mine2
+x 8
+y 3
+end
+arch cobblestones2
+x 8
+y 4
+end
+arch chair_1.4
+x 8
+y 4
+end
+arch elf_1
+name off-duty guard
+msg
+@match *
+Hey,which way you going,out or in.
+If you're going out,beware of those
+trolls. I hear that one of their
+leaders,Uggilly, has a large hut out
+there somewhere.
+endmsg
+x 8
+y 4
+end
+arch cobblestones2
+x 8
+y 5
+end
+arch cobblestones2
+x 8
+y 6
+end
+arch cobblestones2
+x 8
+y 7
+end
+arch cobblestones2
+x 8
+y 8
+end
+arch cobblestones2
+x 8
+y 9
+end
+arch cobblestones2
+x 8
+y 10
+end
+arch cobblestones2
+x 8
+y 11
+end
+arch door_look_1
+no_pass 0
+x 8
+y 11
+end
+arch cobblestones2
+x 8
+y 12
+end
+arch cobblestones2
+x 8
+y 13
+end
+arch mine2
+x 8
+y 13
+end
+arch cobblestones2
+x 8
+y 14
+end
+arch random_food
+x 8
+y 14
+end
+arch cobblestones2
+x 8
+y 15
+end
+arch random_food
+x 8
+y 15
+end
+arch cobblestones2
+x 8
+y 16
+end
+arch mine2
+x 8
+y 16
+end
+arch cobblestones2
+x 9
+end
+arch mine2
+x 9
+end
+arch cobblestones2
+x 9
+y 1
+end
+arch bed_1
+x 9
+y 1
+end
+arch cobblestones2
+x 9
+y 2
+end
+arch cobblestones2
+x 9
+y 3
+end
+arch mine2
+x 9
+y 3
+end
+arch cobblestones2
+x 9
+y 4
+end
+arch table_4
+x 9
+y 4
+end
+arch cobblestones2
+x 9
+y 5
+end
+arch cobblestones2
+x 9
+y 6
+end
+arch mine6
+x 9
+y 6
+end
+arch cobblestones2
+x 9
+y 7
+end
+arch cobblestones2
+x 9
+y 8
+end
+arch cobblestones2
+x 9
+y 9
+end
+arch cobblestones2
+x 9
+y 10
+end
+arch cobblestones2
+x 9
+y 11
+end
+arch mine6
+x 9
+y 11
+end
+arch cobblestones2
+x 9
+y 12
+end
+arch cobblestones2
+x 9
+y 13
+end
+arch mine9
+x 9
+y 13
+end
+arch cobblestones2
+x 9
+y 14
+end
+arch mine5
+x 9
+y 14
+end
+arch cobblestones2
+x 9
+y 15
+end
+arch cobblestones2
+x 9
+y 16
+end
+arch mine2
+x 9
+y 16
+end
+arch cobblestones2
+x 10
+end
+arch mine2
+x 10
+end
+arch cobblestones2
+x 10
+y 1
+end
+arch cobblestones2
+x 10
+y 2
+end
+arch cobblestones2
+x 10
+y 3
+end
+arch mine2
+x 10
+y 3
+end
+arch cobblestones2
+x 10
+y 4
+end
+arch chair_1.2
+x 10
+y 4
+end
+arch cobblestones2
+x 10
+y 5
+end
+arch cobblestones2
+x 10
+y 6
+end
+arch mine2
+x 10
+y 6
+end
+arch cobblestones2
+x 10
+y 7
+end
+arch cobblestones2
+x 10
+y 8
+end
+arch cobblestones2
+x 10
+y 9
+end
+arch cobblestones2
+x 10
+y 10
+end
+arch cobblestones2
+x 10
+y 11
+end
+arch mine2
+x 10
+y 11
+end
+arch cobblestones2
+x 10
+y 12
+end
+arch cobblestones2
+x 10
+y 13
+end
+arch cobblestones2
+x 10
+y 14
+end
+arch cobblestones2
+x 10
+y 15
+end
+arch cobblestones2
+x 10
+y 16
+end
+arch mine2
+x 10
+y 16
+end
+arch cobblestones2
+x 11
+end
+arch mine2
+x 11
+end
+arch cobblestones2
+x 11
+y 1
+end
+arch bed_1
+x 11
+y 1
+end
+arch elf_1
+name sleeping guard
+msg
+@match *
+Zzzzzzzzzzzzzzzzz...
+endmsg
+x 11
+y 1
+end
+arch cobblestones2
+x 11
+y 2
+end
+arch cobblestones2
+x 11
+y 3
+end
+arch mine7
+x 11
+y 3
+end
+arch cobblestones2
+x 11
+y 4
+end
+arch cobblestones2
+x 11
+y 5
+end
+arch cobblestones2
+x 11
+y 6
+end
+arch mine2
+x 11
+y 6
+end
+arch cobblestones2
+x 11
+y 7
+end
+arch cobblestones2
+x 11
+y 8
+end
+arch cobblestones2
+x 11
+y 9
+end
+arch cobblestones2
+x 11
+y 10
+end
+arch cobblestones2
+x 11
+y 11
+end
+arch mine7
+x 11
+y 11
+end
+arch cobblestones2
+x 11
+y 12
+end
+arch cobblestones2
+x 11
+y 13
+end
+arch cobblestones2
+x 11
+y 14
+end
+arch chair_1.4
+x 11
+y 14
+end
+arch cobblestones2
+x 11
+y 15
+end
+arch cobblestones2
+x 11
+y 16
+end
+arch mine2
+x 11
+y 16
+end
+arch cobblestones2
+x 12
+end
+arch mine2
+x 12
+end
+arch cobblestones2
+x 12
+y 1
+end
+arch cobblestones2
+x 12
+y 2
+end
+arch cobblestones2
+x 12
+y 3
+end
+arch door_look_1
+no_pass 0
+x 12
+y 3
+end
+arch cobblestones2
+x 12
+y 4
+end
+arch cobblestones2
+x 12
+y 5
+end
+arch cobblestones2
+x 12
+y 6
+end
+arch mine2
+x 12
+y 6
+end
+arch cobblestones2
+x 12
+y 7
+end
+arch cobblestones2
+x 12
+y 8
+end
+arch cobblestones2
+x 12
+y 9
+end
+arch cobblestones2
+x 12
+y 10
+end
+arch cobblestones2
+x 12
+y 11
+end
+arch door_look_1
+no_pass 0
+x 12
+y 11
+end
+arch cobblestones2
+x 12
+y 12
+end
+arch cobblestones2
+x 12
+y 13
+end
+arch chair_1.1
+x 12
+y 13
+end
+arch cobblestones2
+x 12
+y 14
+end
+arch table_4
+x 12
+y 14
+end
+arch cobblestones2
+x 12
+y 15
+end
+arch chair_1.3
+x 12
+y 15
+end
+arch fighter
+name off-duty guard
+msg
+@match *
+I sure wish i could get that Reward,
+Banapi offers to the one who can beat
+him.
+@match Reward|reward
+He keeps a braclet that makes the
+wearer stronger. However,he is so
+strong with it or without it,that no
+one can defeat him.
+@match Banapi|banapi
+Banapi is a legendary troll slayer.
+I hear he is stronger than a troll,he
+can even lift heavy boulders.
+endmsg
+race faerie
+x 12
+y 15
+end
+arch cobblestones2
+x 12
+y 16
+end
+arch mine2
+x 12
+y 16
+end
+arch cobblestones2
+x 13
+end
+arch mine2
+x 13
+end
+arch cobblestones2
+x 13
+y 1
+end
+arch bed_1
+x 13
+y 1
+end
+arch cobblestones2
+x 13
+y 2
+end
+arch cobblestones2
+x 13
+y 3
+end
+arch mine6
+x 13
+y 3
+end
+arch cobblestones2
+x 13
+y 4
+end
+arch cobblestones2
+x 13
+y 5
+end
+arch cobblestones2
+x 13
+y 6
+end
+arch mine2
+x 13
+y 6
+end
+arch cobblestones2
+x 13
+y 7
+end
+arch cobblestones2
+x 13
+y 8
+end
+arch cobblestones2
+x 13
+y 9
+end
+arch cobblestones2
+x 13
+y 10
+end
+arch cobblestones2
+x 13
+y 11
+end
+arch mine6
+x 13
+y 11
+end
+arch cobblestones2
+x 13
+y 12
+end
+arch cobblestones2
+x 13
+y 13
+end
+arch cobblestones2
+x 13
+y 14
+end
+arch chair_1.2
+x 13
+y 14
+end
+arch warrior_1
+name off duty guard
+msg
+@match *
+Greetings. I hear Banupi the warrior
+is looking for someone to fight him.
+If someone defeats him,they get a nice
+reward. Banupi lives in the town of
+Pinth.
+endmsg
+race faerie
+x 13
+y 14
+end
+arch cobblestones2
+x 13
+y 15
+end
+arch cobblestones2
+x 13
+y 16
+end
+arch mine2
+x 13
+y 16
+end
+arch cobblestones2
+x 14
+end
+arch mine16
+x 14
+end
+arch cobblestones2
+x 14
+y 1
+end
+arch mine3
+x 14
+y 1
+end
+arch cobblestones2
+x 14
+y 2
+end
+arch mine3
+x 14
+y 2
+end
+arch cobblestones2
+x 14
+y 3
+end
+arch mine13
+x 14
+y 3
+end
+arch cobblestones2
+x 14
+y 4
+end
+arch cobblestones2
+x 14
+y 5
+end
+arch cobblestones2
+x 14
+y 6
+end
+arch mine2
+x 14
+y 6
+end
+arch cobblestones2
+x 14
+y 7
+end
+arch cobblestones2
+x 14
+y 8
+end
+arch cobblestones2
+x 14
+y 9
+end
+arch cobblestones2
+x 14
+y 10
+end
+arch cobblestones2
+x 14
+y 11
+end
+arch mine2
+x 14
+y 11
+end
+arch cobblestones2
+x 14
+y 12
+end
+arch door_look_2
+no_pass 0
+x 14
+y 12
+end
+arch cobblestones2
+x 14
+y 13
+end
+arch mine8
+x 14
+y 13
+end
+arch cobblestones2
+x 14
+y 14
+end
+arch mine3
+x 14
+y 14
+end
+arch cobblestones2
+x 14
+y 15
+end
+arch mine3
+x 14
+y 15
+end
+arch cobblestones2
+x 14
+y 16
+end
+arch mine13
+x 14
+y 16
+end
+arch cobblestones2
+x 15
+end
+arch mine2
+x 15
+end
+arch cobblestones2
+x 15
+y 1
+end
+arch random_weapon
+x 15
+y 1
+end
+arch cobblestones2
+x 15
+y 2
+end
+arch random_bow
+x 15
+y 2
+end
+arch cobblestones2
+x 15
+y 3
+end
+arch mine7
+x 15
+y 3
+end
+arch cobblestones2
+x 15
+y 4
+end
+arch cobblestones2
+x 15
+y 5
+end
+arch cobblestones2
+x 15
+y 6
+end
+arch mine2
+x 15
+y 6
+end
+arch cobblestones2
+x 15
+y 7
+end
+arch a_guard_h
+race faerie
+x 15
+y 7
+end
+arch cobblestones2
+x 15
+y 8
+end
+arch cobblestones2
+x 15
+y 9
+end
+arch cobblestones2
+x 15
+y 10
+end
+arch button_lever
+connected 1
+x 15
+y 10
+end
+arch a_guard_h
+msg
+@match *
+Greetings,do you seek the blood of
+those foul trolls?
+@match trolls|Trolls
+I hear they have plans to get into our
+city,but with us on guard,they don't
+stand a chance!
+endmsg
+race faerie
+x 15
+y 10
+end
+arch cobblestones2
+x 15
+y 11
+end
+arch mine2
+x 15
+y 11
+end
+arch cobblestones2
+x 15
+y 12
+end
+arch cobblestones2
+x 15
+y 13
+end
+arch cobblestones2
+x 15
+y 14
+end
+arch cobblestones2
+x 15
+y 15
+end
+arch cobblestones2
+x 15
+y 16
+end
+arch mine2
+x 15
+y 16
+end
+arch cobblestones2
+x 16
+end
+arch mine2
+x 16
+end
+arch cobblestones2
+x 16
+y 1
+end
+arch random_shield
+x 16
+y 1
+end
+arch cobblestones2
+x 16
+y 2
+end
+arch cobblestones2
+x 16
+y 3
+end
+arch cobblestones2
+x 16
+y 4
+end
+arch cobblestones2
+x 16
+y 5
+end
+arch cobblestones2
+x 16
+y 6
+end
+arch mine2
+x 16
+y 6
+end
+arch cobblestones2
+x 16
+y 7
+end
+arch grate_closed_2
+connected 1
+x 16
+y 7
+end
+arch cobblestones2
+x 16
+y 8
+end
+arch grate_closed_2
+connected 1
+x 16
+y 8
+end
+arch cobblestones2
+x 16
+y 9
+end
+arch grate_closed_2
+connected 1
+x 16
+y 9
+end
+arch cobblestones2
+x 16
+y 10
+end
+arch grate_closed_2
+connected 1
+x 16
+y 10
+end
+arch cobblestones2
+x 16
+y 11
+end
+arch mine2
+x 16
+y 11
+end
+arch cobblestones2
+x 16
+y 12
+end
+arch cobblestones2
+x 16
+y 13
+end
+arch cobblestones2
+x 16
+y 14
+end
+arch a_guard_h
+msg
+@match *
+Sorry,with all those monsters out
+there,we can't let anyone out without
+special permision.
+endmsg
+x 16
+y 14
+end
+arch cobblestones2
+x 16
+y 15
+end
+arch cobblestones2
+x 16
+y 16
+end
+arch mine2
+x 16
+y 16
+end
+arch cobblestones2
+x 17
+end
+arch mine9
+x 17
+end
+arch cobblestones2
+x 17
+y 1
+end
+arch mine3
+x 17
+y 1
+end
+arch cobblestones2
+x 17
+y 2
+end
+arch mine3
+x 17
+y 2
+end
+arch cobblestones2
+x 17
+y 3
+end
+arch mine11
+x 17
+y 3
+end
+arch cobblestones2
+x 17
+y 4
+end
+arch mine3
+x 17
+y 4
+end
+arch cobblestones2
+x 17
+y 5
+end
+arch mine3
+x 17
+y 5
+end
+arch cobblestones2
+x 17
+y 6
+end
+arch mine12
+x 17
+y 6
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 17
+y 7
+end
+arch cobblestones2
+x 17
+y 7
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 17
+y 8
+end
+arch cobblestones2
+x 17
+y 8
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 17
+y 9
+end
+arch cobblestones2
+x 17
+y 9
+end
+arch detector
+slaying faerie
+invisible 1
+connected 1
+x 17
+y 10
+end
+arch cobblestones2
+x 17
+y 10
+end
+arch cobblestones2
+x 17
+y 11
+end
+arch mine9
+x 17
+y 11
+end
+arch cobblestones2
+x 17
+y 12
+end
+arch mine3
+x 17
+y 12
+end
+arch cobblestones2
+x 17
+y 13
+end
+arch swall_2_1_1
+x 17
+y 13
+end
+arch cobblestones2
+x 17
+y 14
+end
+arch swall_2_1_1
+x 17
+y 14
+end
+arch cobblestones2
+x 17
+y 15
+end
+arch mine3
+x 17
+y 15
+end
+arch cobblestones2
+x 17
+y 16
+end
+arch mine13
+x 17
+y 16
+end
+arch blocked
+x 18
+end
+arch blocked
+x 18
+y 1
+end
+arch blocked
+x 18
+y 2
+end
+arch cobblestones2
+x 18
+y 3
+end
+arch mine2
+x 18
+y 3
+end
+arch cobblestones2
+x 18
+y 4
+end
+arch cobblestones2
+x 18
+y 5
+end
+arch cobblestones2
+x 18
+y 6
+end
+arch a_guard_h
+race faerie
+x 18
+y 6
+end
+arch cobblestones2
+x 18
+y 7
+end
+arch cobblestones2
+x 18
+y 8
+end
+arch cobblestones2
+x 18
+y 9
+end
+arch cobblestones2
+x 18
+y 10
+end
+arch cobblestones2
+x 18
+y 11
+end
+arch a_guard_h
+race faerie
+x 18
+y 11
+end
+arch cobblestones2
+x 18
+y 12
+end
+arch cobblestones2
+x 18
+y 13
+end
+arch cobblestones2
+x 18
+y 14
+end
+arch cobblestones2
+x 18
+y 15
+end
+arch cobblestones2
+x 18
+y 16
+end
+arch mine2
+x 18
+y 16
+end
+arch blocked
+x 19
+y 2
+end
+arch cobblestones2
+x 19
+y 3
+end
+arch mine2
+x 19
+y 3
+end
+arch cobblestones2
+x 19
+y 4
+end
+arch cobblestones2
+x 19
+y 5
+end
+arch cobblestones2
+x 19
+y 6
+end
+arch cobblestones2
+x 19
+y 7
+end
+arch cobblestones2
+x 19
+y 8
+end
+arch cobblestones2
+x 19
+y 9
+end
+arch cobblestones2
+x 19
+y 10
+end
+arch cobblestones2
+x 19
+y 11
+end
+arch cobblestones2
+x 19
+y 12
+end
+arch cobblestones2
+x 19
+y 13
+end
+arch cobblestones2
+x 19
+y 14
+end
+arch cobblestones2
+x 19
+y 15
+end
+arch cobblestones2
+x 19
+y 16
+end
+arch mine2
+x 19
+y 16
+end
+arch blocked
+x 20
+y 2
+end
+arch cobblestones2
+x 20
+y 3
+end
+arch mine7
+x 20
+y 3
+end
+arch cobblestones2
+x 20
+y 4
+end
+arch invis_exit
+x 20
+y 4
+end
+arch cobblestones2
+x 20
+y 5
+end
+arch invis_exit
+x 20
+y 5
+end
+arch cobblestones2
+x 20
+y 6
+end
+arch invis_exit
+x 20
+y 6
+end
+arch cobblestones2
+x 20
+y 7
+end
+arch invis_exit
+x 20
+y 7
+end
+arch cobblestones2
+x 20
+y 8
+end
+arch invis_exit
+x 20
+y 8
+end
+arch cobblestones2
+x 20
+y 9
+end
+arch invis_exit
+x 20
+y 9
+end
+arch cobblestones2
+x 20
+y 10
+end
+arch invis_exit
+x 20
+y 10
+end
+arch cobblestones2
+x 20
+y 11
+end
+arch invis_exit
+x 20
+y 11
+end
+arch cobblestones2
+x 20
+y 12
+end
+arch invis_exit
+x 20
+y 12
+end
+arch cobblestones2
+x 20
+y 13
+end
+arch invis_exit
+x 20
+y 13
+end
+arch cobblestones2
+x 20
+y 14
+end
+arch invis_exit
+x 20
+y 14
+end
+arch cobblestones2
+x 20
+y 15
+end
+arch invis_exit
+x 20
+y 15
+end
+arch cobblestones2
+x 20
+y 16
+end
+arch mine7
+x 20
+y 16
+end

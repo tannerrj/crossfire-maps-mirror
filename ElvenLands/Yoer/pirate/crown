@@ -1,0 +1,475 @@
+arch map
+name crown
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Dec 23 01:14:33 1999
+endmsg
+width 15
+height 15
+end
+arch dwall_2_2_2
+end
+arch dwall_2_1_1
+y 1
+end
+arch dwall_2_1_1
+y 2
+end
+arch dwall_3_2
+y 3
+end
+arch dwall_2_1_1
+y 4
+end
+arch dwall_2_1_1
+y 5
+end
+arch dwall_2_1_1
+y 6
+end
+arch dwall_2_1_1
+y 7
+end
+arch dwall_2_2_1
+y 8
+end
+arch blocked
+y 9
+end
+arch dwall_1_1
+y 10
+end
+arch dwall_2_1_1
+y 11
+end
+arch dwall_2_1_1
+y 12
+end
+arch dwall_2_1_1
+y 13
+end
+arch dwall_2_2_1
+y 14
+end
+arch dwall_2_1_2
+x 1
+end
+arch oakdoor
+slaying /ElvenLands/Yoer/city/pirate
+hp 16
+sp 4
+x 1
+y 1
+end
+arch dwall_2_1_2
+x 1
+y 3
+end
+arch dwall_2_1_2
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
+end
+arch green_slime
+x 1
+y 13
+end
+arch dwall_2_1_2
+x 1
+y 14
+end
+arch dwall_2_1_2
+x 2
+end
+arch menu
+x 2
+y 1
+end
+arch shop_mat
+x 2
+y 2
+end
+arch dwall_2_1_2
+x 2
+y 3
+end
+arch dwall_2_1_2
+x 2
+y 8
+end
+arch blocked
+x 2
+y 9
+end
+arch dwall_2_1_2
+x 2
+y 14
+end
+arch dwall3_3
+x 3
+end
+arch dwall_2_1_1
+x 3
+y 1
+end
+arch dwall_2_1_1
+x 3
+y 2
+end
+arch dwall_2_2_4
+x 3
+y 3
+end
+arch dwall_2_1_2
+x 3
+y 8
+end
+arch blocked
+x 3
+y 9
+end
+arch dwall_2_1_2
+x 3
+y 14
+end
+arch dwall_2_1_2
+x 4
+end
+arch crown
+x 4
+y 1
+protected 4576
+value 50
+unpaid 1
+end
+arch shop_mat
+x 4
+y 4
+end
+arch dwall_2_1_2
+x 4
+y 8
+end
+arch blocked
+x 4
+y 9
+end
+arch dwall_2_1_2
+x 4
+y 14
+end
+arch dwall_2_1_2
+x 5
+end
+arch crown
+x 5
+y 1
+protected 383
+unpaid 1
+end
+arch crown
+x 5
+y 7
+protected 3269
+end
+arch dwall_2_1_2
+x 5
+y 8
+end
+arch blocked
+x 5
+y 9
+end
+arch dwall_2_1_2
+x 5
+y 14
+end
+arch dwall_2_1_2
+x 6
+end
+arch crown
+x 6
+y 1
+protected 627
+end
+arch crown
+x 6
+y 7
+protected 67
+end
+arch dwall_2_1_2
+x 6
+y 8
+end
+arch blocked
+x 6
+y 9
+end
+arch dwall_2_1_2
+x 6
+y 14
+end
+arch dwall_2_1_2
+x 7
+end
+arch crown
+x 7
+y 1
+protected 234
+unpaid 1
+end
+arch crown
+x 7
+y 7
+protected 2
+end
+arch dwall_2_1_2
+x 7
+y 8
+end
+arch blocked
+x 7
+y 9
+end
+arch k_dagger
+name Toad's Tongue
+dam 20
+x 7
+y 11
+immune 64
+attacktype 67
+magic 7
+end
+arch dwall_2_1_2
+x 7
+y 14
+end
+arch dwall_2_1_2
+x 8
+end
+arch crown
+x 8
+y 1
+protected 555
+unpaid 1
+end
+arch crown
+x 8
+y 2
+protected 777
+end
+arch crown
+x 8
+y 3
+protected 2468
+end
+arch crown
+x 8
+y 4
+protected 989
+unpaid 1
+end
+arch crown
+x 8
+y 5
+protected 371
+unpaid 1
+end
+arch crown
+x 8
+y 6
+protected 239
+unpaid 1
+end
+arch crown
+x 8
+y 7
+protected 3758
+unpaid 1
+end
+arch dwall_2_1_2
+x 8
+y 8
+end
+arch blocked
+x 8
+y 9
+end
+arch dwall_2_1_2
+x 8
+y 14
+end
+arch dwall_2_2_3
+x 9
+end
+arch dwall_2_1_1
+x 9
+y 1
+end
+arch dwall_2_1_1
+x 9
+y 2
+end
+arch dwall_2_1_1
+x 9
+y 3
+end
+arch dwall_2_1_1
+x 9
+y 4
+end
+arch dwall_2_1_1
+x 9
+y 5
+end
+arch dwall_2_1_1
+x 9
+y 6
+end
+arch dwall_2_1_1
+x 9
+y 7
+end
+arch dwall_2_2_4
+x 9
+y 8
+end
+arch blocked
+x 9
+y 9
+end
+arch dwall_2_1_2
+x 9
+y 14
+end
+arch blocked
+x 10
+end
+arch blocked
+x 10
+y 1
+end
+arch blocked
+x 10
+y 2
+end
+arch blocked
+x 10
+y 3
+end
+arch blocked
+x 10
+y 4
+end
+arch blocked
+x 10
+y 5
+end
+arch blocked
+x 10
+y 6
+end
+arch blocked
+x 10
+y 7
+end
+arch blocked
+x 10
+y 8
+end
+arch blocked
+x 10
+y 9
+end
+arch dwall_2_1_2
+x 10
+y 14
+end
+arch dwall_1_4
+x 11
+end
+arch dwall_2_1_2
+x 11
+y 14
+end
+arch dwall_2_1_2
+x 12
+end
+arch dwall_2_1_2
+x 12
+y 14
+end
+arch dwall_2_1_2
+x 13
+end
+arch dwall_2_1_2
+x 13
+y 14
+end
+arch dwall_2_2_3
+x 14
+end
+arch dwall_2_1_1
+x 14
+y 1
+end
+arch dwall_2_1_1
+x 14
+y 2
+end
+arch dwall_2_1_1
+x 14
+y 3
+end
+arch dwall_2_1_1
+x 14
+y 4
+end
+arch dwall_2_1_1
+x 14
+y 5
+end
+arch dwall_2_1_1
+x 14
+y 6
+end
+arch dwall_2_1_1
+x 14
+y 7
+end
+arch dwall_2_1_1
+x 14
+y 8
+end
+arch dwall_2_1_1
+x 14
+y 9
+end
+arch dwall_2_1_1
+x 14
+y 10
+end
+arch dwall_2_1_1
+x 14
+y 11
+end
+arch dwall_2_1_1
+x 14
+y 12
+end
+arch dwall_2_1_1
+x 14
+y 13
+end
+arch dwall_2_2_4
+x 14
+y 14
+end
+arch gaelotroll
+x 9
+y 11
+end

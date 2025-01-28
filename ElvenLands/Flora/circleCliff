@@ -1,0 +1,2934 @@
+arch map
+name circleCliff
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Jan  5 15:48:23 2001
+endmsg
+width 25
+height 20
+end
+arch blocked
+msg
+endmsg
+y 1
+end
+arch blocked
+msg
+endmsg
+y 2
+end
+arch blocked
+msg
+endmsg
+y 3
+end
+arch blocked
+msg
+endmsg
+y 4
+end
+arch blocked
+msg
+endmsg
+y 5
+end
+arch blocked
+msg
+endmsg
+y 6
+end
+arch blocked
+msg
+endmsg
+y 7
+end
+arch blocked
+msg
+endmsg
+y 8
+end
+arch blocked
+msg
+endmsg
+y 9
+end
+arch blocked
+msg
+endmsg
+y 10
+end
+arch blocked
+msg
+endmsg
+y 11
+end
+arch blocked
+msg
+endmsg
+y 12
+end
+arch blocked
+msg
+endmsg
+y 13
+end
+arch blocked
+msg
+endmsg
+y 14
+end
+arch blocked
+msg
+endmsg
+y 15
+end
+arch blocked
+msg
+endmsg
+y 16
+end
+arch blocked
+msg
+endmsg
+y 17
+end
+arch blocked
+msg
+endmsg
+y 18
+end
+arch blocked
+msg
+endmsg
+y 19
+end
+arch blocked
+msg
+endmsg
+x 1
+end
+arch blocked
+msg
+endmsg
+x 1
+y 1
+end
+arch blocked
+msg
+endmsg
+x 1
+y 2
+end
+arch blocked
+msg
+endmsg
+x 1
+y 3
+end
+arch blocked
+msg
+endmsg
+x 1
+y 4
+end
+arch blocked
+msg
+endmsg
+x 1
+y 5
+end
+arch blocked
+msg
+endmsg
+x 1
+y 6
+end
+arch blocked
+msg
+endmsg
+x 1
+y 7
+end
+arch blocked
+msg
+endmsg
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
+msg
+endmsg
+x 2
+end
+arch blocked
+msg
+endmsg
+x 2
+y 1
+end
+arch teleporter
+name 16
+hp 21
+sp 9
+x 2
+y 2
+speed 0.000000
+resist_cold 30
+connected 16
+end
+arch veiled_woman
+name Flora
+msg
+@match *
+The Green Circle of Wizards was
+developed to protect my forest. If it
+weren't for my Green Circle,the Black
+Alliance would overrun my kingdom. And
+the White Circle? Ha! What have they
+ever done. They are to busy squabbling
+with the Black Circle. *sigh* Ever
+since King Yoer disappeared things
+haven't been right.
+His son isn't ready for the throne. I
+refuse to help their kingdom,those
+advisors really rule that kingdom,not
+the Prince.
+At this you say,"How can you desert
+your allies;if it weren't for the
+kingdom of Yoer,your kingdom would be
+invaded by the Forces of Darkoth.
+Flora:I refuse to help them,they can
+fight their own petty war. It was
+those advisors fault Yoer disapeared.
+(At this,Flora breaks down weaping.)
+Flora:I must leave now...
+(Flora flees the room.)
+You think to yourself,"What could have
+possibly happened to King Yoer."
+
+endmsg
+Str 23
+Dex 23
+Con 23
+hp 1500
+dam 23
+wc 2
+ac 2
+x 2
+y 2
+sleep 1
+end
+arch blocked
+msg
+endmsg
+x 2
+y 3
+end
+arch blocked
+msg
+endmsg
+x 2
+y 4
+end
+arch blocked
+msg
+endmsg
+x 2
+y 6
+end
+arch blocked
+msg
+endmsg
+x 2
+y 7
+end
+arch blocked
+msg
+endmsg
+x 2
+y 8
+end
+arch mover_5
+x 2
+y 9
+end
+arch mover_5
+x 2
+y 10
+end
+arch mover_5
+x 2
+y 11
+end
+arch kobold
+name dummy
+Con 30
+hp 2000
+maxhp 2000
+x 2
+y 11
+unaggressive 1
+end
+arch mover_5
+x 2
+y 12
+end
+arch grate_closed_1
+name 16
+x 2
+y 12
+resist_cold 30
+connected 16
+end
+arch button_small
+name 12
+x 2
+y 13
+resist_fire 30
+resist_electricity 30
+connected 12
+end
+arch mover_3
+x 2
+y 13
+end
+arch blocked
+msg
+endmsg
+x 2
+y 14
+end
+arch blocked
+msg
+endmsg
+x 2
+y 15
+end
+arch blocked
+msg
+endmsg
+x 2
+y 16
+end
+arch blocked
+msg
+endmsg
+x 2
+y 17
+end
+arch blocked
+msg
+endmsg
+x 2
+y 18
+end
+arch blocked
+x 2
+y 19
+end
+arch blocked
+msg
+endmsg
+x 3
+end
+arch blocked
+msg
+endmsg
+x 3
+y 1
+end
+arch blocked
+msg
+endmsg
+x 3
+y 2
+end
+arch blocked
+msg
+endmsg
+x 3
+y 3
+end
+arch blocked
+msg
+endmsg
+x 3
+y 4
+end
+arch blocked
+msg
+endmsg
+x 3
+y 5
+end
+arch blocked
+msg
+endmsg
+x 3
+y 6
+end
+arch blocked
+msg
+endmsg
+x 3
+y 7
+end
+arch blocked
+msg
+endmsg
+x 3
+y 8
+end
+arch mover_7
+x 3
+y 9
+end
+arch mover_3
+x 3
+y 10
+end
+arch mover_3
+x 3
+y 11
+end
+arch mover_1
+x 3
+y 12
+end
+arch mover_1
+x 3
+y 13
+end
+arch blocked
+msg
+endmsg
+x 3
+y 14
+end
+arch blocked
+msg
+endmsg
+x 3
+y 15
+end
+arch blocked
+msg
+endmsg
+x 3
+y 16
+end
+arch blocked
+msg
+endmsg
+x 3
+y 17
+end
+arch blocked
+msg
+endmsg
+x 3
+y 18
+end
+arch blocked
+x 3
+y 19
+end
+arch blocked
+msg
+endmsg
+x 4
+end
+arch blocked
+msg
+endmsg
+x 4
+y 1
+end
+arch blocked
+msg
+endmsg
+x 4
+y 2
+end
+arch blocked
+msg
+endmsg
+x 4
+y 3
+end
+arch blocked
+msg
+endmsg
+x 4
+y 4
+end
+arch blocked
+msg
+endmsg
+x 4
+y 5
+end
+arch blocked
+msg
+endmsg
+x 4
+y 6
+end
+arch blocked
+msg
+endmsg
+x 4
+y 7
+end
+arch blocked
+msg
+endmsg
+x 4
+y 8
+end
+arch detector
+slaying dummy
+x 4
+y 9
+connected 17
+end
+arch mover_7
+x 4
+y 9
+end
+arch mover_3
+x 4
+y 10
+end
+arch mover_turn
+x 4
+y 11
+end
+arch blocked
+msg
+endmsg
+x 4
+y 12
+end
+arch blocked
+msg
+endmsg
+x 4
+y 13
+end
+arch blocked
+msg
+endmsg
+x 4
+y 14
+end
+arch blocked
+msg
+endmsg
+x 4
+y 15
+end
+arch blocked
+msg
+endmsg
+x 4
+y 16
+end
+arch blocked
+msg
+endmsg
+x 4
+y 17
+end
+arch blocked
+msg
+endmsg
+x 4
+y 18
+end
+arch blocked
+x 4
+y 19
+end
+arch blocked
+msg
+endmsg
+x 5
+end
+arch blocked
+msg
+endmsg
+x 5
+y 1
+end
+arch blocked
+msg
+endmsg
+x 5
+y 5
+end
+arch blocked
+msg
+endmsg
+x 5
+y 6
+end
+arch blocked
+msg
+endmsg
+x 5
+y 7
+end
+arch blocked
+msg
+endmsg
+x 5
+y 8
+end
+arch mover_7
+x 5
+y 9
+end
+arch mover_3
+x 5
+y 10
+end
+arch blocked
+msg
+endmsg
+x 5
+y 11
+end
+arch blocked
+msg
+endmsg
+x 5
+y 12
+end
+arch blocked
+msg
+endmsg
+x 5
+y 13
+end
+arch blocked
+msg
+endmsg
+x 5
+y 14
+end
+arch blocked
+msg
+endmsg
+x 5
+y 15
+end
+arch blocked
+msg
+endmsg
+x 5
+y 16
+end
+arch blocked
+msg
+endmsg
+x 5
+y 17
+end
+arch blocked
+msg
+endmsg
+x 5
+y 18
+end
+arch blocked
+x 5
+y 19
+end
+arch blocked
+msg
+endmsg
+x 6
+end
+arch blocked
+msg
+endmsg
+x 6
+y 1
+end
+arch blocked
+msg
+endmsg
+x 6
+y 2
+end
+arch blocked
+msg
+endmsg
+x 6
+y 3
+end
+arch blocked
+msg
+endmsg
+x 6
+y 4
+end
+arch blocked
+msg
+endmsg
+x 6
+y 5
+end
+arch blocked
+msg
+endmsg
+x 6
+y 6
+end
+arch blocked
+msg
+endmsg
+x 6
+y 7
+end
+arch blocked
+msg
+endmsg
+x 6
+y 8
+end
+arch mover_7
+x 6
+y 9
+end
+arch mover_1
+x 6
+y 10
+end
+arch blocked
+msg
+endmsg
+x 6
+y 11
+end
+arch blocked
+msg
+endmsg
+x 6
+y 12
+end
+arch blocked
+msg
+endmsg
+x 6
+y 13
+end
+arch blocked
+msg
+endmsg
+x 6
+y 14
+end
+arch blocked
+msg
+endmsg
+x 6
+y 15
+end
+arch blocked
+msg
+endmsg
+x 6
+y 16
+end
+arch blocked
+msg
+endmsg
+x 6
+y 17
+end
+arch blocked
+msg
+endmsg
+x 6
+y 18
+end
+arch blocked
+x 6
+y 19
+end
+arch blocked
+msg
+endmsg
+x 7
+end
+arch blocked
+msg
+endmsg
+x 7
+y 1
+end
+arch blocked
+msg
+endmsg
+x 7
+y 2
+end
+arch blocked
+msg
+endmsg
+x 7
+y 3
+end
+arch blocked
+msg
+endmsg
+x 7
+y 4
+end
+arch blocked
+msg
+endmsg
+x 7
+y 5
+end
+arch blocked
+msg
+endmsg
+x 7
+y 6
+end
+arch blocked
+msg
+endmsg
+x 7
+y 7
+end
+arch blocked
+msg
+endmsg
+x 7
+y 8
+end
+arch blocked
+msg
+endmsg
+x 7
+y 9
+end
+arch blocked
+msg
+endmsg
+x 7
+y 10
+end
+arch blocked
+msg
+endmsg
+x 7
+y 11
+end
+arch blocked
+msg
+endmsg
+x 7
+y 12
+end
+arch blocked
+msg
+endmsg
+x 7
+y 13
+end
+arch blocked
+msg
+endmsg
+x 7
+y 14
+end
+arch blocked
+msg
+endmsg
+x 7
+y 15
+end
+arch blocked
+msg
+endmsg
+x 7
+y 16
+end
+arch blocked
+msg
+endmsg
+x 7
+y 17
+end
+arch blocked
+msg
+endmsg
+x 7
+y 18
+end
+arch blocked
+x 7
+y 19
+end
+arch blocked
+msg
+endmsg
+x 8
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+msg
+endmsg
+x 8
+y 3
+end
+arch blocked
+msg
+endmsg
+x 8
+y 4
+end
+arch blocked
+msg
+endmsg
+x 8
+y 5
+end
+arch blocked
+msg
+endmsg
+x 8
+y 6
+end
+arch blocked
+msg
+endmsg
+x 8
+y 7
+end
+arch blocked
+msg
+endmsg
+x 8
+y 8
+end
+arch blocked
+msg
+endmsg
+x 8
+y 9
+end
+arch blocked
+msg
+endmsg
+x 8
+y 10
+end
+arch blocked
+msg
+endmsg
+x 8
+y 11
+end
+arch blocked
+msg
+endmsg
+x 8
+y 12
+end
+arch blocked
+msg
+endmsg
+x 8
+y 13
+end
+arch blocked
+msg
+endmsg
+x 8
+y 14
+end
+arch blocked
+msg
+endmsg
+x 8
+y 15
+end
+arch blocked
+msg
+endmsg
+x 8
+y 16
+end
+arch blocked
+msg
+endmsg
+x 8
+y 17
+end
+arch blocked
+msg
+endmsg
+x 8
+y 18
+end
+arch blocked
+x 8
+y 19
+end
+arch blocked
+msg
+endmsg
+x 9
+end
+arch blocked
+msg
+endmsg
+x 9
+y 1
+end
+arch blocked
+msg
+endmsg
+x 9
+y 2
+end
+arch blocked
+msg
+endmsg
+x 9
+y 3
+end
+arch blocked
+msg
+endmsg
+x 9
+y 4
+end
+arch blocked
+msg
+endmsg
+x 9
+y 5
+end
+arch blocked
+msg
+endmsg
+x 9
+y 6
+end
+arch mountain
+x 9
+y 7
+end
+arch mountain
+x 9
+y 8
+end
+arch mountain
+x 9
+y 9
+end
+arch mountain
+x 9
+y 10
+end
+arch mountain
+x 9
+y 11
+end
+arch mountain
+x 9
+y 12
+end
+arch mountain
+x 9
+y 13
+end
+arch mountain
+x 9
+y 14
+end
+arch mountain
+x 9
+y 15
+end
+arch mountain
+x 9
+y 16
+end
+arch mountain
+x 9
+y 17
+end
+arch blocked
+msg
+endmsg
+x 9
+y 18
+end
+arch blocked
+x 9
+y 19
+end
+arch blocked
+msg
+endmsg
+x 10
+end
+arch blocked
+msg
+endmsg
+x 10
+y 1
+end
+arch blocked
+msg
+endmsg
+x 10
+y 2
+end
+arch blocked
+msg
+endmsg
+x 10
+y 3
+end
+arch blocked
+msg
+endmsg
+x 10
+y 4
+end
+arch mountain
+x 10
+y 5
+end
+arch mountain
+x 10
+y 6
+end
+arch mountain
+x 10
+y 7
+end
+arch mountain
+x 10
+y 8
+end
+arch mountain
+x 10
+y 9
+end
+arch mountain
+x 10
+y 10
+end
+arch mountain
+x 10
+y 11
+end
+arch mountain
+x 10
+y 12
+end
+arch mountain
+x 10
+y 13
+end
+arch mountain
+x 10
+y 14
+end
+arch mountain
+x 10
+y 15
+end
+arch mountain
+x 10
+y 16
+end
+arch mountain
+x 10
+y 17
+end
+arch mountain
+x 10
+y 18
+end
+arch blocked
+x 10
+y 19
+end
+arch blocked
+msg
+endmsg
+x 11
+end
+arch blocked
+msg
+endmsg
+x 11
+y 1
+end
+arch blocked
+msg
+endmsg
+x 11
+y 3
+end
+arch mountain
+x 11
+y 4
+end
+arch mountain
+x 11
+y 5
+end
+arch mountain
+x 11
+y 6
+end
+arch mountain
+x 11
+y 7
+end
+arch mountain
+x 11
+y 8
+end
+arch mountain
+x 11
+y 9
+end
+arch mountain
+x 11
+y 10
+end
+arch mountain
+x 11
+y 11
+end
+arch mountain
+x 11
+y 12
+end
+arch mountain
+x 11
+y 13
+end
+arch mountain
+x 11
+y 14
+end
+arch mountain
+x 11
+y 15
+end
+arch mountain
+x 11
+y 16
+end
+arch mountain
+x 11
+y 17
+end
+arch mountain
+x 11
+y 18
+end
+arch blocked
+x 11
+y 19
+end
+arch blocked
+msg
+endmsg
+x 12
+end
+arch blocked
+msg
+endmsg
+x 12
+y 1
+end
+arch blocked
+msg
+endmsg
+x 12
+y 2
+end
+arch blocked
+msg
+endmsg
+x 12
+y 3
+end
+arch mountain
+x 12
+y 4
+end
+arch mountain
+x 12
+y 5
+end
+arch grass
+x 12
+y 6
+end
+arch grass
+x 12
+y 7
+end
+arch grass
+x 12
+y 8
+end
+arch fernssparse
+x 12
+y 8
+end
+arch grass
+x 12
+y 9
+end
+arch fernsdense
+x 12
+y 9
+end
+arch grass
+x 12
+y 10
+end
+arch fernssparse
+x 12
+y 10
+end
+arch grass
+x 12
+y 11
+end
+arch fernssparse
+x 12
+y 11
+end
+arch grass
+x 12
+y 12
+end
+arch fernssparse
+x 12
+y 12
+end
+arch mountain
+x 12
+y 13
+end
+arch grass
+x 12
+y 14
+end
+arch grass
+x 12
+y 15
+end
+arch mountain
+x 12
+y 16
+end
+arch mountain
+x 12
+y 17
+end
+arch mountain
+x 12
+y 18
+end
+arch blocked
+x 12
+y 19
+end
+arch blocked
+msg
+endmsg
+x 13
+y 1
+end
+arch mountain
+x 13
+y 2
+end
+arch mountain
+x 13
+y 3
+end
+arch mountain
+x 13
+y 4
+end
+arch mountain
+x 13
+y 5
+end
+arch grass
+x 13
+y 6
+end
+arch grass
+x 13
+y 7
+end
+arch fernssparse
+x 13
+y 7
+end
+arch grass
+x 13
+y 8
+end
+arch biglake_nw
+x 13
+y 8
+end
+arch grass
+x 13
+y 9
+end
+arch biglake_w
+x 13
+y 9
+end
+arch grass
+x 13
+y 10
+end
+arch biglake_sw
+x 13
+y 10
+end
+arch grass
+x 13
+y 11
+end
+arch fernsdense
+x 13
+y 11
+end
+arch grass
+x 13
+y 12
+end
+arch fernsdense
+x 13
+y 12
+end
+arch grass
+x 13
+y 13
+end
+arch fernssparse
+x 13
+y 13
+end
+arch grass
+x 13
+y 14
+end
+arch fernssparse
+x 13
+y 14
+end
+arch grass
+x 13
+y 15
+end
+arch grass
+x 13
+y 16
+end
+arch mountain
+x 13
+y 17
+end
+arch mountain
+x 13
+y 18
+end
+arch blocked
+x 13
+y 19
+end
+arch blocked
+msg
+endmsg
+x 14
+end
+arch blocked
+msg
+endmsg
+x 14
+y 1
+end
+arch mountain
+x 14
+y 2
+end
+arch mountain
+x 14
+y 3
+end
+arch mountain
+x 14
+y 4
+end
+arch grass
+x 14
+y 5
+end
+arch grass
+x 14
+y 6
+end
+arch fernssparse
+x 14
+y 6
+end
+arch grass
+x 14
+y 7
+end
+arch fernsdense
+x 14
+y 7
+end
+arch grass
+x 14
+y 8
+end
+arch biglake_ne
+x 14
+y 8
+end
+arch grass
+x 14
+y 9
+end
+arch biglake_center
+x 14
+y 9
+end
+arch grass
+x 14
+y 10
+end
+arch biglake_center
+x 14
+y 10
+end
+arch grass
+x 14
+y 11
+end
+arch biglake_sw
+x 14
+y 11
+end
+arch grass
+x 14
+y 12
+end
+arch fernsdense
+x 14
+y 12
+end
+arch grass
+x 14
+y 13
+end
+arch fernsdense
+x 14
+y 13
+end
+arch grass
+x 14
+y 14
+end
+arch fernssparse
+x 14
+y 14
+end
+arch grass
+x 14
+y 15
+end
+arch fernssparse
+x 14
+y 15
+end
+arch grass
+x 14
+y 16
+end
+arch mountain
+x 14
+y 17
+end
+arch mountain
+x 14
+y 18
+end
+arch blocked
+x 14
+y 19
+end
+arch blocked
+msg
+endmsg
+x 15
+end
+arch mountain
+x 15
+y 1
+end
+arch mountain
+x 15
+y 2
+end
+arch mountain
+x 15
+y 3
+end
+arch mountain
+x 15
+y 4
+end
+arch grass
+x 15
+y 5
+end
+arch fernssparse
+x 15
+y 5
+end
+arch grass
+x 15
+y 6
+end
+arch fernsdense
+x 15
+y 6
+end
+arch grass
+x 15
+y 7
+end
+arch fernsdense
+x 15
+y 7
+end
+arch grass
+x 15
+y 8
+end
+arch fernsdense
+x 15
+y 8
+end
+arch grass
+x 15
+y 9
+end
+arch biglake_ne
+x 15
+y 9
+end
+arch grass
+x 15
+y 10
+end
+arch biglake_center
+x 15
+y 10
+end
+arch grass
+x 15
+y 11
+end
+arch biglake_s
+x 15
+y 11
+end
+arch grass
+x 15
+y 12
+end
+arch fernsdense
+x 15
+y 12
+end
+arch grass
+x 15
+y 13
+end
+arch fernsdense
+x 15
+y 13
+end
+arch grass
+x 15
+y 14
+end
+arch fernsdense
+x 15
+y 14
+end
+arch grass
+x 15
+y 15
+end
+arch fernssparse
+x 15
+y 15
+end
+arch mountain
+x 15
+y 16
+end
+arch mountain
+x 15
+y 17
+end
+arch mountain
+x 15
+y 18
+end
+arch blocked
+x 15
+y 19
+end
+arch blocked
+msg
+endmsg
+x 16
+end
+arch mountain
+x 16
+y 1
+end
+arch mountain
+x 16
+y 2
+end
+arch mountain
+x 16
+y 3
+end
+arch grass
+x 16
+y 4
+end
+arch fernssparse
+x 16
+y 4
+end
+arch grass
+x 16
+y 5
+end
+arch fernsdense
+x 16
+y 5
+end
+arch grass
+x 16
+y 6
+end
+arch fernsdense
+x 16
+y 6
+end
+arch grass
+x 16
+y 7
+end
+arch fernsdense
+x 16
+y 7
+end
+arch grass
+x 16
+y 8
+end
+arch fernsdense
+x 16
+y 8
+end
+arch grass
+x 16
+y 9
+end
+arch fernssparse
+x 16
+y 9
+end
+arch grass
+x 16
+y 10
+end
+arch biglake_ne
+x 16
+y 10
+end
+arch grass
+x 16
+y 11
+end
+arch biglake_se
+x 16
+y 11
+end
+arch grass
+x 16
+y 12
+end
+arch fernsdense
+x 16
+y 12
+end
+arch grass
+x 16
+y 13
+end
+arch fernsdense
+x 16
+y 13
+end
+arch grass
+x 16
+y 14
+end
+arch fernsdense
+x 16
+y 14
+end
+arch grass
+x 16
+y 15
+end
+arch fernssparse
+x 16
+y 15
+end
+arch mountain
+x 16
+y 16
+end
+arch mountain
+x 16
+y 17
+end
+arch mountain
+x 16
+y 18
+end
+arch blocked
+x 16
+y 19
+end
+arch mountain
+x 17
+end
+arch mountain
+x 17
+y 1
+end
+arch mountain
+x 17
+y 2
+end
+arch grass
+x 17
+y 3
+end
+arch biglake_nw
+x 17
+y 3
+end
+arch grass
+x 17
+y 4
+end
+arch biglake_sw
+x 17
+y 4
+end
+arch grass
+x 17
+y 5
+end
+arch fernsdense
+x 17
+y 5
+end
+arch grass
+x 17
+y 6
+end
+arch fernsdense
+x 17
+y 6
+end
+arch grasspond
+x 17
+y 7
+end
+arch grass
+x 17
+y 8
+end
+arch fernsdense
+x 17
+y 8
+end
+arch grass
+x 17
+y 9
+end
+arch grass
+x 17
+y 10
+end
+arch grass
+x 17
+y 11
+end
+arch fernssparse
+x 17
+y 11
+end
+arch grass
+x 17
+y 12
+end
+arch fernssparse
+x 17
+y 12
+end
+arch grass
+x 17
+y 13
+end
+arch fernsdense
+x 17
+y 13
+end
+arch grass
+x 17
+y 14
+end
+arch fernsdense
+x 17
+y 14
+end
+arch grass
+x 17
+y 15
+end
+arch fernsdense
+x 17
+y 15
+end
+arch grass
+x 17
+y 16
+end
+arch fernssparse
+x 17
+y 16
+end
+arch mountain
+x 17
+y 17
+end
+arch mountain
+x 17
+y 18
+end
+arch blocked
+x 17
+y 19
+end
+arch mountain
+x 18
+end
+arch mountain
+x 18
+y 1
+end
+arch falls
+x 18
+y 2
+end
+arch grass
+x 18
+y 3
+end
+arch biglake_n
+x 18
+y 3
+end
+arch grass
+x 18
+y 4
+end
+arch biglake_s
+x 18
+y 4
+end
+arch grass
+x 18
+y 5
+end
+arch fernsdense
+x 18
+y 5
+end
+arch grass
+x 18
+y 6
+end
+arch fernsdense
+x 18
+y 6
+end
+arch grass
+x 18
+y 7
+walk_on 0
+no_pass 1
+end
+arch grass
+x 18
+y 8
+walk_on 0
+no_pass 1
+end
+arch grass
+x 18
+y 9
+walk_on 0
+no_pass 1
+end
+arch grass
+x 18
+y 10
+walk_on 0
+no_pass 1
+end
+arch grass
+x 18
+y 11
+walk_on 0
+no_pass 1
+end
+arch grass
+x 18
+y 12
+end
+arch fernssparse
+x 18
+y 12
+end
+arch grass
+x 18
+y 13
+end
+arch fernsdense
+x 18
+y 13
+end
+arch grass
+x 18
+y 14
+end
+arch fernsdense
+x 18
+y 14
+end
+arch grass
+x 18
+y 15
+end
+arch fernsdense
+x 18
+y 15
+end
+arch grass
+x 18
+y 16
+end
+arch fernssparse
+x 18
+y 16
+end
+arch grass
+x 18
+y 17
+end
+arch mountain
+x 18
+y 18
+end
+arch blocked
+x 18
+y 19
+end
+arch mountain
+x 19
+end
+arch mountain
+x 19
+y 1
+end
+arch mountain
+x 19
+y 2
+end
+arch grass
+x 19
+y 3
+end
+arch biglake_ne
+x 19
+y 3
+end
+arch grass
+x 19
+y 4
+end
+arch biglake_se
+x 19
+y 4
+end
+arch grass
+x 19
+y 5
+end
+arch fernsdense
+x 19
+y 5
+end
+arch grass
+x 19
+y 6
+walk_on 0
+no_pass 1
+end
+arch grass
+x 19
+y 7
+walk_on 0
+no_pass 1
+end
+arch earth
+x 19
+y 8
+end
+arch cave21
+name stalagmite
+x 19
+y 8
+blocksview 0
+end
+arch pedestal
+name 16
+x 19
+y 9
+resist_cold 30
+invisible 1
+connected 16
+end
+arch earth
+x 19
+y 9
+end
+arch magic_mouth
+msg
+You look down into the beautiful
+valley below you... 
+Behind you a voice
+says,"Beautiful,isn't it... ...The
+the Green Circle was created to
+protect this." 
+endmsg
+x 19
+y 9
+end
+arch earth
+x 19
+y 10
+end
+arch cave21
+name stalagmite
+x 19
+y 10
+blocksview 0
+end
+arch grass
+x 19
+y 11
+walk_on 0
+no_pass 1
+end
+arch grass
+x 19
+y 12
+walk_on 0
+no_pass 1
+end
+arch grass
+x 19
+y 13
+end
+arch fernssparse
+x 19
+y 13
+end
+arch grass
+x 19
+y 14
+end
+arch fernsdense
+x 19
+y 14
+end
+arch grass
+x 19
+y 15
+end
+arch fernsdense
+x 19
+y 15
+end
+arch grass
+x 19
+y 16
+end
+arch fernssparse
+x 19
+y 16
+end
+arch grass
+x 19
+y 17
+end
+arch mountain
+x 19
+y 18
+end
+arch blocked
+x 19
+y 19
+end
+arch mountain
+x 20
+end
+arch mountain
+x 20
+y 1
+end
+arch mountain
+x 20
+y 2
+end
+arch grass
+x 20
+y 3
+end
+arch fernsdense
+x 20
+y 3
+end
+arch grass
+x 20
+y 4
+end
+arch fernsdense
+x 20
+y 4
+end
+arch grass
+x 20
+y 5
+walk_on 0
+no_pass 1
+end
+arch grass
+x 20
+y 6
+walk_on 0
+no_pass 1
+end
+arch earth
+x 20
+y 7
+end
+arch cave21
+name stalagmite
+x 20
+y 7
+blocksview 0
+end
+arch earth
+x 20
+y 8
+end
+arch earth
+x 20
+y 9
+end
+arch earth
+x 20
+y 10
+end
+arch earth
+x 20
+y 11
+end
+arch cave21
+name stalagmite
+x 20
+y 11
+blocksview 0
+end
+arch grass
+x 20
+y 12
+walk_on 0
+no_pass 1
+end
+arch grass
+x 20
+y 13
+walk_on 0
+no_pass 1
+end
+arch grass
+x 20
+y 14
+end
+arch fernsdense
+x 20
+y 14
+end
+arch grass
+x 20
+y 15
+end
+arch fernsdense
+x 20
+y 15
+end
+arch grass
+x 20
+y 16
+end
+arch fernssparse
+x 20
+y 16
+end
+arch grass
+x 20
+y 17
+end
+arch mountain
+x 20
+y 18
+end
+arch blocked
+x 20
+y 19
+end
+arch mountain
+x 21
+end
+arch mountain
+x 21
+y 1
+end
+arch grass
+x 21
+y 2
+end
+arch fernssparse
+x 21
+y 2
+end
+arch grass
+x 21
+y 3
+end
+arch fernsdense
+x 21
+y 3
+end
+arch grass
+x 21
+y 4
+walk_on 0
+no_pass 1
+end
+arch grass
+x 21
+y 5
+walk_on 0
+no_pass 1
+end
+arch earth
+x 21
+y 6
+end
+arch cave21
+name stalagmite
+x 21
+y 6
+blocksview 0
+end
+arch earth
+x 21
+y 7
+end
+arch earth
+x 21
+y 8
+end
+arch creator
+other_arch mover_3
+x 21
+y 9
+resist_physical 30
+resist_cold 30
+connected 17
+end
+arch earth
+x 21
+y 9
+end
+arch earth
+x 21
+y 10
+end
+arch earth
+x 21
+y 11
+end
+arch earth
+x 21
+y 12
+end
+arch cave21
+name stalagmite
+x 21
+y 12
+blocksview 0
+end
+arch grass
+x 21
+y 13
+walk_on 0
+no_pass 1
+end
+arch grass
+x 21
+y 14
+walk_on 0
+no_pass 1
+end
+arch grass
+x 21
+y 15
+end
+arch fernssparse
+x 21
+y 15
+end
+arch grass
+x 21
+y 16
+end
+arch fernssparse
+x 21
+y 16
+end
+arch grass
+x 21
+y 17
+end
+arch mountain
+x 21
+y 18
+end
+arch blocked
+x 21
+y 19
+end
+arch mountain
+x 22
+end
+arch mountain
+x 22
+y 1
+walk_on 0
+no_pass 1
+end
+arch grass
+x 22
+y 2
+walk_on 0
+no_pass 1
+end
+arch grass
+x 22
+y 3
+walk_on 0
+no_pass 1
+end
+arch grass
+x 22
+y 4
+walk_on 0
+no_pass 1
+end
+arch earth
+x 22
+y 5
+end
+arch earth
+x 22
+y 6
+end
+arch earth
+x 22
+y 7
+end
+arch earth
+x 22
+y 8
+end
+arch cave21
+name stalagmite
+x 22
+y 8
+blocksview 0
+end
+arch creator
+other_arch mover_3
+x 22
+y 9
+resist_physical 30
+resist_cold 30
+connected 17
+end
+arch earth
+x 22
+y 9
+end
+arch earth
+x 22
+y 10
+end
+arch cave21
+name stalagmite
+x 22
+y 10
+blocksview 0
+end
+arch earth
+x 22
+y 11
+end
+arch earth
+x 22
+y 12
+end
+arch earth
+x 22
+y 13
+end
+arch grass
+x 22
+y 14
+walk_on 0
+no_pass 1
+end
+arch grass
+x 22
+y 15
+walk_on 0
+no_pass 1
+end
+arch grass
+x 22
+y 16
+walk_on 0
+no_pass 1
+end
+arch mountain
+x 22
+y 17
+walk_on 0
+no_pass 1
+end
+arch mountain
+x 22
+y 18
+walk_on 0
+no_pass 1
+end
+arch mountain
+x 22
+y 19
+walk_on 0
+no_pass 1
+end
+arch mountain
+x 23
+walk_on 0
+no_pass 1
+end
+arch earth
+x 23
+y 1
+end
+arch earth
+x 23
+y 2
+end
+arch earth
+x 23
+y 3
+end
+arch earth
+x 23
+y 4
+end
+arch earth
+x 23
+y 5
+end
+arch earth
+x 23
+y 6
+end
+arch cave11
+x 23
+y 6
+end
+arch earth
+x 23
+y 7
+end
+arch cave1
+x 23
+y 7
+end
+arch earth
+x 23
+y 8
+end
+arch cave10
+x 23
+y 8
+end
+arch earth
+x 23
+y 9
+end
+arch detector
+name 22
+slaying Flora
+x 23
+y 9
+resist_magic 30
+resist_fire 30
+resist_cold 30
+invisible 1
+connected 22
+end
+arch teleporter
+name 22
+hp 2
+sp 5
+x 23
+y 9
+speed 0.000000
+resist_magic 30
+resist_fire 30
+resist_cold 30
+invisible 1
+connected 22
+end
+arch earth
+x 23
+y 10
+end
+arch cave11
+x 23
+y 10
+end
+arch earth
+x 23
+y 11
+end
+arch cave1
+x 23
+y 11
+end
+arch earth
+x 23
+y 12
+end
+arch cave10
+x 23
+y 12
+end
+arch earth
+x 23
+y 13
+end
+arch earth
+x 23
+y 14
+end
+arch earth
+x 23
+y 15
+end
+arch earth
+x 23
+y 16
+end
+arch earth
+x 23
+y 17
+end
+arch earth
+x 23
+y 18
+end
+arch mountain
+x 23
+y 19
+walk_on 0
+no_pass 1
+end
+arch earth
+x 24
+end
+arch cave1
+x 24
+end
+arch earth
+x 24
+y 1
+end
+arch cave1
+x 24
+y 1
+end
+arch earth
+x 24
+y 2
+end
+arch cave1
+x 24
+y 2
+end
+arch earth
+x 24
+y 3
+end
+arch cave1
+x 24
+y 3
+end
+arch earth
+x 24
+y 4
+end
+arch cave1
+x 24
+y 4
+end
+arch earth
+x 24
+y 5
+end
+arch cave1
+x 24
+y 5
+end
+arch earth
+x 24
+y 6
+end
+arch cave22
+x 24
+y 6
+end
+arch blocked
+msg
+endmsg
+x 24
+y 7
+end
+arch earth
+x 24
+y 8
+end
+arch cave4
+x 24
+y 8
+end
+arch invis_exit
+slaying /ElvenLands/Flora/circle2
+hp 3
+sp 7
+x 24
+y 9
+end
+arch earth
+x 24
+y 9
+end
+arch earth
+x 24
+y 10
+end
+arch cave2
+x 24
+y 10
+end
+arch blocked
+msg
+endmsg
+x 24
+y 11
+end
+arch earth
+x 24
+y 12
+end
+arch cave25
+x 24
+y 12
+end
+arch earth
+x 24
+y 13
+end
+arch cave1
+x 24
+y 13
+end
+arch earth
+x 24
+y 14
+end
+arch cave1
+x 24
+y 14
+end
+arch earth
+x 24
+y 15
+end
+arch cave1
+x 24
+y 15
+end
+arch earth
+x 24
+y 16
+end
+arch cave1
+x 24
+y 16
+end
+arch earth
+x 24
+y 17
+end
+arch cave1
+x 24
+y 17
+end
+arch earth
+x 24
+y 18
+end
+arch cave1
+x 24
+y 18
+end
+arch earth
+x 24
+y 19
+end
+arch cave1
+x 24
+y 19
+end

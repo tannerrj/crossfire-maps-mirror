@@ -1,0 +1,1732 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Dec 23 18:20:40 1999
+endmsg
+width 20
+height 16
+end
+arch medium_stones
+end
+arch medium_stones
+y 1
+end
+arch medium_stones
+y 2
+end
+arch medium_stones
+y 3
+end
+arch medium_stones
+y 4
+end
+arch medium_stones
+y 5
+end
+arch medium_stones
+y 6
+end
+arch medium_stones
+y 7
+end
+arch medium_stones
+y 8
+end
+arch medium_stones
+y 9
+end
+arch medium_stones
+y 10
+end
+arch medium_stones
+y 11
+end
+arch medium_stones
+y 12
+end
+arch medium_stones
+y 13
+end
+arch medium_stones
+y 14
+end
+arch medium_stones
+y 15
+end
+arch medium_stones
+x 1
+end
+arch medium_stones
+x 1
+y 1
+end
+arch medium_stones
+x 1
+y 2
+end
+arch medium_stones
+x 1
+y 3
+end
+arch medium_stones
+x 1
+y 4
+end
+arch ogre
+x 1
+y 4
+speed_left -0.180000
+end
+arch medium_stones
+x 1
+y 5
+end
+arch medium_stones
+x 1
+y 6
+end
+arch medium_stones
+x 1
+y 7
+end
+arch medium_stones
+x 1
+y 8
+end
+arch medium_stones
+x 1
+y 9
+end
+arch dark_elf
+x 1
+y 9
+speed_left -0.600000
+end
+arch medium_stones
+x 1
+y 10
+end
+arch medium_stones
+x 1
+y 11
+end
+arch medium_stones
+x 1
+y 12
+end
+arch medium_stones
+x 1
+y 13
+end
+arch medium_stones
+x 1
+y 14
+end
+arch medium_stones
+x 1
+y 15
+end
+arch medium_stones
+x 2
+end
+arch medium_stones
+x 2
+y 1
+end
+arch medium_stones
+x 2
+y 2
+end
+arch dark_elf
+x 2
+y 2
+speed_left -0.600000
+end
+arch medium_stones
+x 2
+y 3
+end
+arch crater
+x 2
+y 3
+end
+arch medium_stones
+x 2
+y 4
+end
+arch small_troll
+x 2
+y 4
+speed_left -0.220000
+end
+arch medium_stones
+x 2
+y 5
+end
+arch pstone_3
+x 2
+y 6
+end
+arch ytree_2
+x 2
+y 6
+end
+arch pstone_3
+x 2
+y 7
+end
+arch broo
+name troll elf
+x 2
+y 7
+end
+arch pstone_3
+x 2
+y 8
+end
+arch medium_stones
+x 2
+y 9
+end
+arch crater
+x 2
+y 10
+end
+arch medium_stones
+x 2
+y 11
+end
+arch medium_stones
+x 2
+y 12
+end
+arch medium_stones
+x 2
+y 13
+end
+arch ogre
+x 2
+y 13
+speed_left -0.180000
+end
+arch medium_stones
+x 2
+y 14
+end
+arch medium_stones
+x 2
+y 15
+end
+arch permanent_lava
+x 3
+end
+arch medium_stones
+x 3
+y 1
+end
+arch medium_stones
+x 3
+y 2
+end
+arch permanent_lava
+x 3
+y 3
+end
+arch permanent_lava
+x 3
+y 4
+end
+arch medium_stones
+x 3
+y 5
+end
+arch small_troll
+x 3
+y 5
+speed_left -0.220000
+end
+arch medium_stones
+x 3
+y 6
+end
+arch medium_stones
+x 3
+y 7
+end
+arch medium_stones
+x 3
+y 8
+end
+arch medium_stones
+x 3
+y 9
+end
+arch medium_stones
+x 3
+y 10
+end
+arch small_troll
+x 3
+y 10
+speed_left -0.220000
+end
+arch medium_stones
+x 3
+y 11
+end
+arch medium_stones
+x 3
+y 12
+end
+arch medium_stones
+x 3
+y 13
+end
+arch medium_stones
+x 3
+y 14
+end
+arch medium_stones
+x 3
+y 15
+end
+arch medium_stones
+x 4
+end
+arch lava
+x 4
+speed_left -0.300000
+end
+arch permanent_lava
+x 4
+speed_left -0.300000
+end
+arch medium_stones
+x 4
+y 1
+end
+arch lava
+x 4
+y 1
+speed_left -0.300000
+end
+arch permanent_lava
+x 4
+y 1
+speed_left -0.300000
+end
+arch permanent_lava
+x 4
+y 2
+end
+arch permanent_lava
+x 4
+y 3
+end
+arch permanent_lava
+x 4
+y 4
+end
+arch permanent_lava
+x 4
+y 5
+end
+arch medium_stones
+x 4
+y 6
+end
+arch medium_stones
+x 4
+y 7
+end
+arch ogre
+x 4
+y 7
+speed_left -0.180000
+end
+arch medium_stones
+x 4
+y 8
+end
+arch medium_stones
+x 4
+y 9
+end
+arch small_troll
+x 4
+y 9
+speed_left -0.220000
+end
+arch medium_stones
+x 4
+y 10
+end
+arch small_troll
+x 4
+y 10
+speed_left -0.220000
+end
+arch medium_stones
+x 4
+y 11
+end
+arch medium_stones
+x 4
+y 12
+end
+arch pstone_3
+x 4
+y 13
+end
+arch ytree_2
+x 4
+y 13
+end
+arch medium_stones
+x 4
+y 14
+end
+arch medium_stones
+x 4
+y 15
+end
+arch medium_stones
+x 5
+end
+arch lava
+x 5
+speed_left -0.300000
+end
+arch permanent_lava
+x 5
+speed_left -0.300000
+end
+arch ogre
+x 5
+speed_left -0.180000
+end
+arch medium_stones
+x 5
+y 1
+end
+arch lava
+x 5
+y 1
+speed_left -0.300000
+end
+arch permanent_lava
+x 5
+y 1
+speed_left -0.300000
+end
+arch medium_stones
+x 5
+y 2
+end
+arch lava
+x 5
+y 2
+speed_left -0.300000
+end
+arch permanent_lava
+x 5
+y 2
+speed_left -0.300000
+end
+arch permanent_lava
+x 5
+y 3
+end
+arch permanent_lava
+x 5
+y 4
+end
+arch permanent_lava
+x 5
+y 5
+end
+arch permanent_lava
+x 5
+y 6
+end
+arch medium_stones
+x 5
+y 7
+end
+arch medium_stones
+x 5
+y 8
+end
+arch medium_stones
+x 5
+y 9
+end
+arch small_troll
+x 5
+y 9
+speed_left -0.220000
+end
+arch medium_stones
+x 5
+y 10
+end
+arch small_troll
+x 5
+y 10
+speed_left -0.220000
+end
+arch medium_stones
+x 5
+y 11
+end
+arch medium_stones
+x 5
+y 12
+end
+arch dark_elf
+x 5
+y 12
+speed_left -0.600000
+end
+arch medium_stones
+x 5
+y 13
+end
+arch medium_stones
+x 5
+y 14
+end
+arch medium_stones
+x 5
+y 15
+end
+arch medium_stones
+x 6
+end
+arch medium_stones
+x 6
+y 1
+end
+arch lava
+x 6
+y 1
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 1
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 2
+end
+arch lava
+x 6
+y 2
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 2
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 5
+end
+arch medium_stones
+x 6
+y 6
+end
+arch lava
+x 6
+y 6
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 6
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 7
+end
+arch lava
+x 6
+y 7
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 7
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 8
+end
+arch lava
+x 6
+y 8
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 8
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 9
+end
+arch lava
+x 6
+y 9
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 9
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 10
+end
+arch lava
+x 6
+y 10
+speed_left -0.300000
+end
+arch permanent_lava
+x 6
+y 10
+speed_left -0.300000
+end
+arch medium_stones
+x 6
+y 11
+end
+arch medium_stones
+x 6
+y 12
+end
+arch medium_stones
+x 6
+y 13
+end
+arch medium_stones
+x 6
+y 14
+end
+arch medium_stones
+x 6
+y 15
+end
+arch medium_stones
+x 7
+end
+arch medium_stones
+x 7
+y 1
+end
+arch dark_elf
+x 7
+y 1
+speed_left -0.600000
+end
+arch medium_stones
+x 7
+y 2
+end
+arch lava
+x 7
+y 2
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 2
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 3
+end
+arch lava
+x 7
+y 3
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 3
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 4
+end
+arch lava
+x 7
+y 4
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 4
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 5
+end
+arch lava
+x 7
+y 5
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 5
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 6
+end
+arch lava
+x 7
+y 6
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 6
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 7
+end
+arch lava
+x 7
+y 7
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 7
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 8
+end
+arch lava
+x 7
+y 8
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 8
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 9
+end
+arch lava
+x 7
+y 9
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 9
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 10
+end
+arch lava
+x 7
+y 10
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 10
+speed_left -0.300000
+end
+arch small_troll
+x 7
+y 10
+speed_left -0.220000
+end
+arch medium_stones
+x 7
+y 11
+end
+arch lava
+x 7
+y 11
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 11
+speed_left -0.300000
+end
+arch ogre
+x 7
+y 11
+speed_left -0.180000
+end
+arch medium_stones
+x 7
+y 12
+end
+arch lava
+x 7
+y 12
+speed_left -0.300000
+end
+arch permanent_lava
+x 7
+y 12
+speed_left -0.300000
+end
+arch medium_stones
+x 7
+y 13
+end
+arch medium_stones
+x 7
+y 14
+end
+arch medium_stones
+x 7
+y 15
+end
+arch medium_stones
+x 8
+end
+arch medium_stones
+x 8
+y 1
+end
+arch permanent_lava
+x 8
+y 2
+end
+arch medium_stones
+x 8
+y 5
+end
+arch lava
+x 8
+y 5
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 5
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 6
+end
+arch lava
+x 8
+y 6
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 6
+speed_left -0.300000
+end
+arch gargolye
+name winged troll
+x 8
+y 6
+end
+arch medium_stones
+x 8
+y 7
+end
+arch medium_stones
+x 8
+y 8
+end
+arch medium_stones
+x 8
+y 9
+end
+arch medium_stones
+x 8
+y 10
+end
+arch lava
+x 8
+y 10
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 10
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 11
+end
+arch lava
+x 8
+y 11
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 11
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 12
+end
+arch lava
+x 8
+y 12
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 12
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 13
+end
+arch lava
+x 8
+y 13
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 13
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 14
+end
+arch lava
+x 8
+y 14
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 14
+speed_left -0.300000
+end
+arch medium_stones
+x 8
+y 15
+end
+arch lava
+x 8
+y 15
+speed_left -0.300000
+end
+arch permanent_lava
+x 8
+y 15
+speed_left -0.300000
+end
+arch medium_stones
+x 9
+end
+arch medium_stones
+x 9
+y 1
+end
+arch small_troll
+x 9
+y 1
+speed_left -0.220000
+end
+arch permanent_lava
+x 9
+y 2
+end
+arch permanent_lava
+x 9
+y 3
+end
+arch permanent_lava
+x 9
+y 4
+end
+arch permanent_lava
+x 9
+y 5
+end
+arch medium_stones
+x 9
+y 6
+end
+arch medium_stones
+x 9
+y 7
+end
+arch pstone_3
+x 9
+y 8
+end
+arch pstone_3
+x 9
+y 9
+end
+arch pstone_3
+x 9
+y 10
+end
+arch ytree_2
+x 9
+y 10
+end
+arch medium_stones
+x 9
+y 11
+end
+arch medium_stones
+x 9
+y 12
+end
+arch lava
+x 9
+y 12
+speed_left -0.300000
+end
+arch permanent_lava
+x 9
+y 12
+speed_left -0.300000
+end
+arch medium_stones
+x 9
+y 13
+end
+arch lava
+x 9
+y 13
+speed_left -0.300000
+end
+arch permanent_lava
+x 9
+y 13
+speed_left -0.300000
+end
+arch medium_stones
+x 9
+y 14
+end
+arch lava
+x 9
+y 14
+speed_left -0.300000
+end
+arch permanent_lava
+x 9
+y 14
+speed_left -0.300000
+end
+arch medium_stones
+x 9
+y 15
+end
+arch lava
+x 9
+y 15
+speed_left -0.300000
+end
+arch permanent_lava
+x 9
+y 15
+speed_left -0.300000
+end
+arch medium_stones
+x 10
+end
+arch medium_stones
+x 10
+y 1
+end
+arch medium_stones
+x 10
+y 2
+end
+arch small_troll
+x 10
+y 2
+speed_left -0.220000
+end
+arch permanent_lava
+x 10
+y 3
+end
+arch permanent_lava
+x 10
+y 4
+end
+arch medium_stones
+x 10
+y 5
+end
+arch vampire
+name midnight elf
+hp 300
+x 10
+y 5
+immune 0
+end
+arch medium_stones
+x 10
+y 6
+end
+arch medium_stones
+x 10
+y 7
+end
+arch medium_stones
+x 10
+y 8
+end
+arch small_troll
+x 10
+y 8
+speed_left -0.220000
+end
+arch medium_stones
+x 10
+y 9
+end
+arch pstone_3
+x 10
+y 10
+end
+arch pstone_3
+x 10
+y 11
+end
+arch medium_stones
+x 10
+y 12
+end
+arch medium_stones
+x 10
+y 13
+end
+arch medium_stones
+x 10
+y 14
+end
+arch medium_stones
+x 10
+y 15
+end
+arch medium_stones
+x 11
+end
+arch crater
+x 11
+y 1
+end
+arch medium_stones
+x 11
+y 2
+end
+arch permanent_lava
+x 11
+y 3
+end
+arch medium_stones
+x 11
+y 4
+end
+arch small_troll
+x 11
+y 4
+speed_left -0.220000
+end
+arch medium_stones
+x 11
+y 5
+end
+arch medium_stones
+x 11
+y 6
+end
+arch medium_stones
+x 11
+y 7
+end
+arch medium_stones
+x 11
+y 8
+end
+arch medium_stones
+x 11
+y 9
+end
+arch medium_stones
+x 11
+y 10
+end
+arch medium_stones
+x 11
+y 11
+end
+arch medium_stones
+x 11
+y 12
+end
+arch small_troll
+x 11
+y 12
+speed_left -0.220000
+end
+arch medium_stones
+x 11
+y 13
+end
+arch crater
+x 11
+y 14
+end
+arch medium_stones
+x 11
+y 15
+end
+arch medium_stones
+x 12
+end
+arch ogre
+x 12
+speed_left -0.180000
+end
+arch medium_stones
+x 12
+y 1
+end
+arch medium_stones
+x 12
+y 2
+end
+arch medium_stones
+x 12
+y 3
+end
+arch ytree_2
+x 12
+y 3
+end
+arch medium_stones
+x 12
+y 4
+end
+arch medium_stones
+x 12
+y 5
+end
+arch medium_stones
+x 12
+y 6
+end
+arch ogre
+x 12
+y 6
+speed_left -0.180000
+end
+arch medium_stones
+x 12
+y 7
+end
+arch medium_stones
+x 12
+y 8
+end
+arch medium_stones
+x 12
+y 9
+end
+arch medium_stones
+x 12
+y 10
+end
+arch medium_stones
+x 12
+y 11
+end
+arch medium_stones
+x 12
+y 12
+end
+arch medium_stones
+x 12
+y 13
+end
+arch medium_stones
+x 12
+y 14
+end
+arch medium_stones
+x 12
+y 15
+end
+arch permanent_lava
+x 13
+end
+arch lava
+x 13
+y 1
+end
+arch permanent_lava
+x 13
+y 1
+end
+arch lava
+x 13
+y 2
+end
+arch permanent_lava
+x 13
+y 2
+end
+arch medium_stones
+x 13
+y 3
+end
+arch medium_stones
+x 13
+y 4
+end
+arch medium_stones
+x 13
+y 5
+end
+arch medium_stones
+x 13
+y 6
+end
+arch crater
+x 13
+y 7
+end
+arch medium_stones
+x 13
+y 8
+end
+arch dark_elf
+x 13
+y 8
+speed_left -0.600000
+end
+arch medium_stones
+x 13
+y 9
+end
+arch medium_stones
+x 13
+y 10
+end
+arch medium_stones
+x 13
+y 11
+end
+arch medium_stones
+x 13
+y 12
+end
+arch medium_stones
+x 13
+y 13
+end
+arch ogre
+x 13
+y 13
+speed_left -0.180000
+end
+arch medium_stones
+x 13
+y 14
+end
+arch medium_stones
+x 13
+y 15
+end
+arch lava
+x 14
+end
+arch permanent_lava
+x 14
+end
+arch lava
+x 14
+y 1
+end
+arch permanent_lava
+x 14
+y 1
+end
+arch lava
+x 14
+y 2
+end
+arch permanent_lava
+x 14
+y 2
+end
+arch lava
+x 14
+y 3
+end
+arch permanent_lava
+x 14
+y 3
+end
+arch medium_stones
+x 14
+y 4
+end
+arch broo
+name troll elf
+x 14
+y 4
+end
+arch medium_stones
+x 14
+y 5
+end
+arch medium_stones
+x 14
+y 6
+end
+arch medium_stones
+x 14
+y 7
+end
+arch medium_stones
+x 14
+y 8
+end
+arch medium_stones
+x 14
+y 9
+end
+arch medium_stones
+x 14
+y 10
+end
+arch medium_stones
+x 14
+y 11
+end
+arch crater
+x 14
+y 12
+end
+arch medium_stones
+x 14
+y 13
+end
+arch medium_stones
+x 14
+y 14
+end
+arch medium_stones
+x 14
+y 15
+end
+arch lava
+x 15
+end
+arch permanent_lava
+x 15
+end
+arch lava
+x 15
+y 1
+end
+arch permanent_lava
+x 15
+y 1
+end
+arch lava
+x 15
+y 2
+end
+arch permanent_lava
+x 15
+y 2
+end
+arch lava
+x 15
+y 3
+end
+arch permanent_lava
+x 15
+y 3
+end
+arch medium_stones
+x 15
+y 4
+end
+arch medium_stones
+x 15
+y 5
+end
+arch medium_stones
+x 15
+y 6
+end
+arch medium_stones
+x 15
+y 7
+end
+arch medium_stones
+x 15
+y 8
+end
+arch medium_stones
+x 15
+y 9
+end
+arch medium_stones
+x 15
+y 10
+end
+arch medium_stones
+x 15
+y 11
+end
+arch medium_stones
+x 15
+y 12
+end
+arch medium_stones
+x 15
+y 13
+end
+arch medium_stones
+x 15
+y 14
+end
+arch medium_stones
+x 15
+y 15
+end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch blocked
+x 16
+y 3
+end
+arch blocked
+x 16
+y 4
+end
+arch blocked
+x 16
+y 5
+end
+arch blocked
+x 16
+y 6
+end
+arch blocked
+x 16
+y 7
+end
+arch blocked
+x 16
+y 8
+end
+arch blocked
+x 16
+y 9
+end
+arch blocked
+x 16
+y 10
+end
+arch blocked
+x 16
+y 11
+end
+arch blocked
+x 16
+y 12
+end
+arch blocked
+x 16
+y 13
+end
+arch blocked
+x 16
+y 14
+end
+arch blocked
+x 16
+y 15
+end
+arch blocked
+x 17
+end
+arch blocked
+x 17
+y 1
+end
+arch blocked
+x 17
+y 2
+end
+arch blocked
+x 17
+y 3
+end
+arch blocked
+x 17
+y 4
+end
+arch blocked
+x 17
+y 5
+end
+arch blocked
+x 17
+y 6
+end
+arch blocked
+x 17
+y 7
+end
+arch blocked
+x 17
+y 8
+end
+arch blocked
+x 17
+y 9
+end
+arch blocked
+x 17
+y 10
+end
+arch blocked
+x 17
+y 11
+end
+arch blocked
+x 17
+y 12
+end
+arch blocked
+x 17
+y 13
+end
+arch blocked
+x 17
+y 14
+end
+arch blocked
+x 17
+y 15
+end
+arch blocked
+x 18
+y 1
+end
+arch generate_kobold
+other_arch small_troll
+x 18
+y 2
+end
+arch generate_serp_man
+other_arch dark_elf
+sp 30
+maxsp 5
+x 18
+y 3
+end
+arch generate_postman
+other_arch ogre
+x 18
+y 4
+end
+arch blocked
+x 18
+y 5
+end
+arch blocked
+x 19
+y 1
+end
+arch pit_open
+hp 10
+sp 6
+x 19
+y 2
+end
+arch pit_open
+hp 12
+sp 9
+x 19
+y 3
+end
+arch pit_open
+hp 3
+sp 1
+x 19
+y 4
+end
+arch blocked
+x 19
+y 5
+end
+arch active_volcano
+x 5
+y 3
+end
+arch active_volcano
+x 5
+y 4
+end
+arch active_volcano
+x 7
+y 3
+end
+arch active_volcano
+x 7
+y 4
+end

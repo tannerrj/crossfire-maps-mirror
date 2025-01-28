@@ -1,0 +1,1915 @@
+arch map
+name <untitled>
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Mar 16 23:48:19 2002
+endmsg
+width 21
+height 16
+end
+arch dungeon_floor
+end
+arch cwall_2_2_2
+end
+arch dungeon_floor
+y 1
+end
+arch cwall_3_2
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch cwall_3_2
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch cwall_3_2
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch cwall_3_2
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch cwall_3_2
+y 5
+end
+arch dungeon_floor
+y 6
+end
+arch cwall_3_2
+y 6
+end
+arch dungeon_floor
+y 7
+end
+arch cwall_2_2_1
+y 7
+end
+arch sea
+y 8
+end
+arch sea
+y 9
+end
+arch sea
+y 10
+end
+arch sea
+y 11
+end
+arch sea
+y 12
+end
+arch sea
+y 13
+end
+arch sea
+y 14
+end
+arch sea
+y 15
+end
+arch dungeon_floor
+x 1
+end
+arch cwall_3_3
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch cwall_4
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch cwall_4
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch cwall_4
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch cwall_4
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch cwall_4
+x 1
+y 5
+end
+arch dungeon_floor
+x 1
+y 6
+end
+arch cwall_4
+x 1
+y 6
+end
+arch dungeon_floor
+x 1
+y 7
+end
+arch cwall_3_1
+x 1
+y 7
+end
+arch sea
+x 1
+y 8
+end
+arch sea
+x 1
+y 9
+end
+arch sea
+x 1
+y 10
+end
+arch sea
+x 1
+y 11
+end
+arch sea
+x 1
+y 12
+end
+arch sea
+x 1
+y 13
+end
+arch sea
+x 1
+y 14
+end
+arch sea
+x 1
+y 15
+end
+arch dungeon_floor
+x 2
+end
+arch cwall_3_3
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch cwall_4
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch cwall_3_4
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch cwall_3_4
+x 2
+y 3
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch cwall_3_4
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch cwall_3_4
+x 2
+y 5
+end
+arch dungeon_floor
+x 2
+y 6
+end
+arch cwall_4
+x 2
+y 6
+end
+arch dungeon_floor
+x 2
+y 7
+end
+arch cwall_3_1
+x 2
+y 7
+end
+arch sea
+x 2
+y 8
+end
+arch sea
+x 2
+y 9
+end
+arch sea
+x 2
+y 10
+end
+arch sea
+x 2
+y 11
+end
+arch sea
+x 2
+y 12
+end
+arch sea
+x 2
+y 13
+end
+arch sea
+x 2
+y 14
+end
+arch sea
+x 2
+y 15
+end
+arch dungeon_floor
+x 3
+end
+arch cwall_3_3
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch cwall_3_1
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch barrel
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch barrel
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch barrel
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch barrel
+x 3
+y 5
+end
+arch dungeon_floor
+x 3
+y 6
+end
+arch cwall_3_3
+x 3
+y 6
+end
+arch dungeon_floor
+x 3
+y 7
+end
+arch cwall_3_1
+x 3
+y 7
+end
+arch sea
+x 3
+y 8
+end
+arch sea
+x 3
+y 9
+end
+arch sea
+x 3
+y 10
+end
+arch sea
+x 3
+y 11
+end
+arch sea
+x 3
+y 12
+end
+arch sea
+x 3
+y 13
+end
+arch sea
+x 3
+y 14
+end
+arch sea
+x 3
+y 15
+end
+arch dungeon_floor
+x 4
+end
+arch cwall_3_3
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch cwall_3_1
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch dwarf
+name dwarven sailor
+msg
+@match *
+Ah... Now for a break.
+endmsg
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch dungeon_floor
+x 4
+y 6
+end
+arch cwall_2_2_3
+x 4
+y 6
+end
+arch dungeon_floor
+x 4
+y 7
+end
+arch cwall_2_2_4
+x 4
+y 7
+end
+arch sea1
+x 4
+y 8
+end
+arch pier_2_2_2
+x 4
+y 8
+end
+arch sea1
+x 4
+y 9
+end
+arch pier_2_1_1
+x 4
+y 9
+end
+arch sea1
+x 4
+y 10
+end
+arch pier_2_1_1
+x 4
+y 10
+end
+arch sea1
+x 4
+y 11
+end
+arch pier_1_2
+x 4
+y 11
+end
+arch sea1
+x 4
+y 12
+end
+arch sea
+x 4
+y 13
+end
+arch sea
+x 4
+y 14
+end
+arch sea
+x 4
+y 15
+end
+arch dungeon_floor
+x 5
+end
+arch cwall_3_3
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch cwall_3_1
+x 5
+y 1
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch dungeon_floor
+x 5
+y 6
+end
+arch lesser_dwarven_guard
+msg
+@match *
+This is the prison isle of Dun Agol.
+endmsg
+unaggressive 1
+x 5
+y 6
+end
+arch dungeon_floor
+x 5
+y 7
+end
+arch sea1
+x 5
+y 8
+end
+arch pier_2_1_2
+x 5
+y 8
+end
+arch sea
+x 5
+y 9
+end
+arch sea1
+x 5
+y 10
+end
+arch sea1
+x 5
+y 11
+end
+arch sea1
+x 5
+y 12
+end
+arch dwarf
+name dwarfish sailor
+msg
+@match hi|hello
+I'm eager to get away from this
+island. Even if the great frost
+giant,Reguir,doesn't escape,one of the
+lesser prisoners might. And they
+are undoubtably dangerous aswell.
+@match Reguir|frost giant
+Reguir is very powerful. He was one of
+the most powerful warriors of the
+storm giant lord,Regathu.
+endmsg
+x 5
+y 12
+end
+arch sea
+x 5
+y 13
+end
+arch sea
+x 5
+y 14
+end
+arch sea
+x 5
+y 15
+end
+arch dungeon_floor
+x 6
+end
+arch cwall_3_3
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch cwall_3_1
+x 6
+y 1
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch dungeon_floor
+x 6
+y 6
+end
+arch dungeon_floor
+x 6
+y 7
+end
+arch sea1
+x 6
+y 8
+end
+arch pier_2_1_2
+x 6
+y 8
+end
+arch sea
+x 6
+y 9
+end
+arch sea1
+x 6
+y 10
+end
+arch sea1
+x 6
+y 11
+end
+arch sea
+x 6
+y 12
+end
+arch sea
+x 6
+y 13
+end
+arch sea
+x 6
+y 14
+end
+arch sea
+x 6
+y 15
+end
+arch dungeon_floor
+x 7
+end
+arch cwall_3_3
+x 7
+end
+arch dungeon_floor
+x 7
+y 1
+end
+arch cwall_3_1
+x 7
+y 1
+end
+arch dungeon_floor
+x 7
+y 2
+end
+arch dungeon_floor
+x 7
+y 3
+end
+arch dungeon_floor
+x 7
+y 4
+end
+arch barrel
+x 7
+y 4
+end
+arch dungeon_floor
+x 7
+y 5
+end
+arch barrel
+x 7
+y 5
+end
+arch dungeon_floor
+x 7
+y 6
+end
+arch dungeon_floor
+x 7
+y 7
+end
+arch sea1
+x 7
+y 8
+end
+arch pier_2_1_2
+x 7
+y 8
+end
+arch sea
+x 7
+y 9
+end
+arch sea
+x 7
+y 10
+end
+arch sea
+x 7
+y 11
+end
+arch sea1
+x 7
+y 12
+end
+arch sea
+x 7
+y 13
+end
+arch sea
+x 7
+y 14
+end
+arch sea
+x 7
+y 15
+end
+arch dungeon_floor
+x 8
+end
+arch cwall_3_3
+x 8
+end
+arch dungeon_floor
+x 8
+y 1
+end
+arch cwall_3_1
+x 8
+y 1
+end
+arch dungeon_floor
+x 8
+y 2
+end
+arch dungeon_floor
+x 8
+y 3
+end
+arch dungeon_floor
+x 8
+y 4
+end
+arch barrel
+x 8
+y 4
+end
+arch dungeon_floor
+x 8
+y 5
+end
+arch barrel
+x 8
+y 5
+end
+arch dungeon_floor
+x 8
+y 6
+end
+arch dungeon_floor
+x 8
+y 7
+end
+arch dwarf
+name dwarfish sailor
+msg
+@match *
+Arrr. I hope none of the prisoners
+escape. They are extremely
+dangerous,I heard there is a powerful
+demon lord locked in the deepest part
+of the fortress's dungeon. Magic runes
+and spells keep him from
+escaping,along with a great wall of
+steel. And he is chained to the wall
+with great chains of adamant.
+endmsg
+x 8
+y 7
+end
+arch sea1
+x 8
+y 8
+end
+arch pier_3_3
+x 8
+y 8
+end
+arch barrel
+x 8
+y 8
+end
+arch sea1
+x 8
+y 9
+end
+arch pier_2_1_1
+x 8
+y 9
+end
+arch sea1
+x 8
+y 10
+end
+arch pier_2_1_1
+x 8
+y 10
+end
+arch sea1
+x 8
+y 11
+end
+arch pier_1_2
+x 8
+y 11
+end
+arch sea1
+x 8
+y 12
+end
+arch sea
+x 8
+y 13
+end
+arch sea
+x 8
+y 14
+end
+arch sea
+x 8
+y 15
+end
+arch dungeon_floor
+x 9
+end
+arch cwall_2_2_3
+x 9
+end
+arch dungeon_floor
+x 9
+y 1
+end
+arch cwall_2_2_4
+x 9
+y 1
+end
+arch dungeon_floor
+x 9
+y 2
+end
+arch lesser_dwarven_guard
+msg
+@match *
+Arrrr.
+The prison fortress is ahead,but don't
+stray from the path,laddie.
+endmsg
+unaggressive 1
+x 9
+y 2
+end
+arch dungeon_floor
+x 9
+y 3
+end
+arch dungeon_floor
+x 9
+y 4
+end
+arch dungeon_floor
+x 9
+y 5
+end
+arch dungeon_floor
+x 9
+y 6
+end
+arch dungeon_floor
+x 9
+y 7
+end
+arch sea1
+x 9
+y 8
+end
+arch pier_2_1_2
+x 9
+y 8
+end
+arch sea1
+x 9
+y 9
+end
+arch sea1
+x 9
+y 10
+end
+arch sea
+x 9
+y 11
+end
+arch sea
+x 9
+y 12
+end
+arch sea
+x 9
+y 13
+end
+arch sea
+x 9
+y 14
+end
+arch sea
+x 9
+y 15
+end
+arch dungeon_floor
+x 10
+end
+arch invis_exit
+slaying path
+hp 14
+sp 41
+x 10
+end
+arch dungeon_floor
+x 10
+y 1
+end
+arch dungeon_floor
+x 10
+y 2
+end
+arch dungeon_floor
+x 10
+y 3
+end
+arch dungeon_floor
+x 10
+y 4
+end
+arch dungeon_floor
+x 10
+y 5
+end
+arch dungeon_floor
+x 10
+y 6
+end
+arch dungeon_floor
+x 10
+y 7
+end
+arch sea1
+x 10
+y 8
+end
+arch pier_2_1_2
+x 10
+y 8
+end
+arch sea1
+x 10
+y 9
+end
+arch sea1
+x 10
+y 10
+end
+arch sea1
+x 10
+y 11
+end
+arch sea
+x 10
+y 12
+end
+arch sea
+x 10
+y 13
+end
+arch sea
+x 10
+y 14
+end
+arch sea
+x 10
+y 15
+end
+arch dungeon_floor
+x 11
+end
+arch cwall_2_2_2
+x 11
+end
+arch dungeon_floor
+x 11
+y 1
+end
+arch cwall_2_2_1
+x 11
+y 1
+end
+arch dungeon_floor
+x 11
+y 2
+end
+arch dungeon_floor
+x 11
+y 3
+end
+arch dungeon_floor
+x 11
+y 4
+end
+arch dungeon_floor
+x 11
+y 5
+end
+arch dwarf
+name dwarfish sailor
+msg
+@match *
+*grunt* Must get these supplies sorted
+out.
+endmsg
+x 11
+y 5
+end
+arch dungeon_floor
+x 11
+y 6
+end
+arch barrel
+x 11
+y 6
+end
+arch dungeon_floor
+x 11
+y 7
+end
+arch sea1
+x 11
+y 8
+end
+arch pier_2_1_2
+x 11
+y 8
+end
+arch sea
+x 11
+y 9
+end
+arch sea
+x 11
+y 10
+end
+arch sea1
+x 11
+y 11
+end
+arch sea
+x 11
+y 12
+end
+arch sea
+x 11
+y 13
+end
+arch sea
+x 11
+y 14
+end
+arch sea
+x 11
+y 15
+end
+arch dungeon_floor
+x 12
+end
+arch cwall_3_3
+x 12
+end
+arch dungeon_floor
+x 12
+y 1
+end
+arch cwall_3_1
+x 12
+y 1
+end
+arch dungeon_floor
+x 12
+y 2
+end
+arch dungeon_floor
+x 12
+y 3
+end
+arch dungeon_floor
+x 12
+y 4
+end
+arch dungeon_floor
+x 12
+y 5
+end
+arch dungeon_floor
+x 12
+y 6
+end
+arch dungeon_floor
+x 12
+y 7
+end
+arch sea1
+x 12
+y 8
+end
+arch pier_3_3
+x 12
+y 8
+end
+arch sea1
+x 12
+y 9
+end
+arch pier_2_1_1
+x 12
+y 9
+end
+arch sea1
+x 12
+y 10
+end
+arch pier_2_1_1
+x 12
+y 10
+end
+arch sea1
+x 12
+y 11
+end
+arch pier_1_2
+x 12
+y 11
+end
+arch sea
+x 12
+y 12
+end
+arch sea
+x 12
+y 13
+end
+arch sea
+x 12
+y 14
+end
+arch sea
+x 12
+y 15
+end
+arch dungeon_floor
+x 13
+end
+arch cwall_3_3
+x 13
+end
+arch dungeon_floor
+x 13
+y 1
+end
+arch cwall_3_1
+x 13
+y 1
+end
+arch dungeon_floor
+x 13
+y 2
+end
+arch dungeon_floor
+x 13
+y 3
+end
+arch dungeon_floor
+x 13
+y 4
+end
+arch dungeon_floor
+x 13
+y 5
+end
+arch dungeon_floor
+x 13
+y 6
+end
+arch dungeon_floor
+x 13
+y 7
+end
+arch sea1
+x 13
+y 8
+end
+arch pier_2_1_2
+x 13
+y 8
+end
+arch sea
+x 13
+y 9
+end
+arch sea
+x 13
+y 10
+end
+arch sea1
+x 13
+y 11
+end
+arch sea
+x 13
+y 12
+end
+arch sea
+x 13
+y 13
+end
+arch sea
+x 13
+y 14
+end
+arch sea
+x 13
+y 15
+end
+arch dungeon_floor
+x 14
+end
+arch cwall_3_3
+x 14
+end
+arch dungeon_floor
+x 14
+y 1
+end
+arch cwall_3_1
+x 14
+y 1
+end
+arch dungeon_floor
+x 14
+y 2
+end
+arch dungeon_floor
+x 14
+y 3
+end
+arch dungeon_floor
+x 14
+y 4
+end
+arch dungeon_floor
+x 14
+y 5
+end
+arch dungeon_floor
+x 14
+y 6
+end
+arch dungeon_floor
+x 14
+y 7
+end
+arch sea1
+x 14
+y 8
+end
+arch pier_2_1_2
+x 14
+y 8
+end
+arch sea1
+x 14
+y 9
+end
+arch sea1
+x 14
+y 10
+end
+arch sea1
+x 14
+y 11
+end
+arch sea
+x 14
+y 12
+end
+arch sea
+x 14
+y 13
+end
+arch sea
+x 14
+y 14
+end
+arch sea
+x 14
+y 15
+end
+arch dungeon_floor
+x 15
+end
+arch cwall_3_3
+x 15
+end
+arch dungeon_floor
+x 15
+y 1
+end
+arch cwall_3_1
+x 15
+y 1
+end
+arch dungeon_floor
+x 15
+y 2
+end
+arch dungeon_floor
+x 15
+y 3
+end
+arch dungeon_floor
+x 15
+y 4
+end
+arch dungeon_floor
+x 15
+y 5
+end
+arch dungeon_floor
+x 15
+y 6
+end
+arch lesser_dwarven_guard
+msg
+@match *
+This is the prison isle of Dun Agol.
+endmsg
+unaggressive 1
+x 15
+y 6
+end
+arch dungeon_floor
+x 15
+y 7
+end
+arch sea1
+x 15
+y 8
+end
+arch pier_2_1_2
+x 15
+y 8
+end
+arch sea1
+x 15
+y 9
+end
+arch sea1
+x 15
+y 10
+end
+arch sea
+x 15
+y 11
+end
+arch sea1
+x 15
+y 12
+end
+arch sea
+x 15
+y 13
+end
+arch sea
+x 15
+y 14
+end
+arch sea
+x 15
+y 15
+end
+arch dungeon_floor
+x 16
+end
+arch cwall_3_3
+x 16
+end
+arch dungeon_floor
+x 16
+y 1
+end
+arch cwall_3_1
+x 16
+y 1
+end
+arch dungeon_floor
+x 16
+y 2
+end
+arch dungeon_floor
+x 16
+y 3
+end
+arch dungeon_floor
+x 16
+y 4
+end
+arch dwarf
+name dwarfish sailor
+x 16
+y 4
+end
+arch dungeon_floor
+x 16
+y 5
+end
+arch barrel
+x 16
+y 5
+end
+arch dungeon_floor
+x 16
+y 6
+end
+arch cwall_2_2_2
+x 16
+y 6
+end
+arch dungeon_floor
+x 16
+y 7
+end
+arch cwall_2_2_1
+x 16
+y 7
+end
+arch sea1
+x 16
+y 8
+end
+arch pier_2_2_3
+x 16
+y 8
+end
+arch dwarf
+name dwarfish sailor
+x 16
+y 8
+end
+arch sea1
+x 16
+y 9
+end
+arch pier_2_1_1
+x 16
+y 9
+end
+arch sea1
+x 16
+y 10
+end
+arch pier_2_1_1
+x 16
+y 10
+end
+arch sea1
+x 16
+y 11
+end
+arch pier_1_2
+x 16
+y 11
+end
+arch sea1
+x 16
+y 12
+end
+arch sea
+x 16
+y 13
+end
+arch sea
+x 16
+y 14
+end
+arch sea
+x 16
+y 15
+end
+arch dungeon_floor
+x 17
+end
+arch cwall_3_3
+x 17
+end
+arch dungeon_floor
+x 17
+y 1
+end
+arch cwall_3_1
+x 17
+y 1
+end
+arch dungeon_floor
+x 17
+y 2
+end
+arch barrel
+x 17
+y 2
+end
+arch dungeon_floor
+x 17
+y 3
+end
+arch barrel
+x 17
+y 3
+end
+arch dungeon_floor
+x 17
+y 4
+end
+arch barrel
+x 17
+y 4
+end
+arch dungeon_floor
+x 17
+y 5
+end
+arch barrel
+x 17
+y 5
+end
+arch dungeon_floor
+x 17
+y 6
+end
+arch cwall_3_3
+x 17
+y 6
+end
+arch dungeon_floor
+x 17
+y 7
+end
+arch cwall_3_1
+x 17
+y 7
+end
+arch sea
+x 17
+y 8
+end
+arch sea
+x 17
+y 9
+end
+arch sea
+x 17
+y 10
+end
+arch sea
+x 17
+y 11
+end
+arch sea
+x 17
+y 12
+end
+arch sea
+x 17
+y 13
+end
+arch sea
+x 17
+y 14
+end
+arch sea
+x 17
+y 15
+end
+arch dungeon_floor
+x 18
+end
+arch cwall_3_3
+x 18
+end
+arch dungeon_floor
+x 18
+y 1
+end
+arch cwall_4
+x 18
+y 1
+end
+arch dungeon_floor
+x 18
+y 2
+end
+arch cwall_3_2
+x 18
+y 2
+end
+arch dungeon_floor
+x 18
+y 3
+end
+arch cwall_3_2
+x 18
+y 3
+end
+arch dungeon_floor
+x 18
+y 4
+end
+arch cwall_3_2
+x 18
+y 4
+end
+arch dungeon_floor
+x 18
+y 5
+end
+arch cwall_3_2
+x 18
+y 5
+end
+arch dungeon_floor
+x 18
+y 6
+end
+arch cwall_4
+x 18
+y 6
+end
+arch dungeon_floor
+x 18
+y 7
+end
+arch cwall_3_1
+x 18
+y 7
+end
+arch sea
+x 18
+y 8
+end
+arch sea
+x 18
+y 9
+end
+arch sea
+x 18
+y 10
+end
+arch sea
+x 18
+y 11
+end
+arch sea
+x 18
+y 12
+end
+arch sea
+x 18
+y 13
+end
+arch sea
+x 18
+y 14
+end
+arch sea
+x 18
+y 15
+end
+arch dungeon_floor
+x 19
+end
+arch cwall_3_3
+x 19
+end
+arch dungeon_floor
+x 19
+y 1
+end
+arch cwall_4
+x 19
+y 1
+end
+arch dungeon_floor
+x 19
+y 2
+end
+arch cwall_4
+x 19
+y 2
+end
+arch dungeon_floor
+x 19
+y 3
+end
+arch cwall_4
+x 19
+y 3
+end
+arch dungeon_floor
+x 19
+y 4
+end
+arch cwall_4
+x 19
+y 4
+end
+arch dungeon_floor
+x 19
+y 5
+end
+arch cwall_4
+x 19
+y 5
+end
+arch dungeon_floor
+x 19
+y 6
+end
+arch cwall_4
+x 19
+y 6
+end
+arch dungeon_floor
+x 19
+y 7
+end
+arch cwall_3_1
+x 19
+y 7
+end
+arch sea
+x 19
+y 8
+end
+arch sea
+x 19
+y 9
+end
+arch sea
+x 19
+y 10
+end
+arch sea
+x 19
+y 11
+end
+arch sea
+x 19
+y 12
+end
+arch sea
+x 19
+y 13
+end
+arch sea
+x 19
+y 14
+end
+arch sea
+x 19
+y 15
+end
+arch dungeon_floor
+x 20
+end
+arch cwall_2_2_3
+x 20
+end
+arch dungeon_floor
+x 20
+y 1
+end
+arch cwall_3_4
+x 20
+y 1
+end
+arch dungeon_floor
+x 20
+y 2
+end
+arch cwall_3_4
+x 20
+y 2
+end
+arch dungeon_floor
+x 20
+y 3
+end
+arch cwall_3_4
+x 20
+y 3
+end
+arch dungeon_floor
+x 20
+y 4
+end
+arch cwall_3_4
+x 20
+y 4
+end
+arch dungeon_floor
+x 20
+y 5
+end
+arch cwall_3_4
+x 20
+y 5
+end
+arch dungeon_floor
+x 20
+y 6
+end
+arch cwall_3_4
+x 20
+y 6
+end
+arch dungeon_floor
+x 20
+y 7
+end
+arch cwall_2_2_4
+x 20
+y 7
+end
+arch sea
+x 20
+y 8
+end
+arch sea
+x 20
+y 9
+end
+arch sea
+x 20
+y 10
+end
+arch sea
+x 20
+y 11
+end
+arch sea
+x 20
+y 12
+end
+arch sea
+x 20
+y 13
+end
+arch sea
+x 20
+y 14
+end
+arch sea
+x 20
+y 15
+end
+arch rowboat
+x 4
+y 12
+end
+arch s_ship
+x 5
+y 10
+end
+arch rowboat
+x 7
+y 12
+end
+arch s_ship
+x 9
+y 9
+end
+arch rowboat
+x 10
+y 11
+end
+arch rowboat
+x 13
+y 11
+end
+arch s_ship
+x 14
+y 9
+end
+arch rowboat
+x 15
+y 12
+end

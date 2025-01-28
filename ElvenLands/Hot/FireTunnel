@@ -1,0 +1,4442 @@
+arch map
+name FireTunnel
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Oct 28 23:23:11 1999
+endmsg
+height 40
+darkness 5
+width 16
+end
+arch blackmarble
+end
+arch flagstone_2_2_2
+end
+arch blackmarble
+y 1
+end
+arch flagstone_2_1_1
+y 1
+end
+arch blackmarble
+y 2
+end
+arch flagstone_2_1_1
+y 2
+end
+arch blackmarble
+y 3
+end
+arch flagstone_2_1_1
+y 3
+end
+arch blackmarble
+y 4
+end
+arch flagstone_2_1_1
+y 4
+end
+arch blackmarble
+y 5
+end
+arch flagstone_3_2
+y 5
+end
+arch blackmarble
+y 6
+end
+arch flagstone_2_1_1
+y 6
+end
+arch blackmarble
+y 7
+end
+arch flagstone_2_1_1
+y 7
+end
+arch blackmarble
+y 8
+end
+arch flagstone_2_1_1
+y 8
+end
+arch blackmarble
+y 9
+end
+arch flagstone_2_1_1
+y 9
+end
+arch blackmarble
+y 10
+end
+arch flagstone_2_1_1
+y 10
+end
+arch blackmarble
+y 11
+end
+arch flagstone_2_1_1
+y 11
+end
+arch blackmarble
+y 12
+end
+arch flagstone_2_1_1
+y 12
+end
+arch blackmarble
+y 13
+end
+arch flagstone_2_1_1
+y 13
+end
+arch blackmarble
+y 14
+end
+arch flagstone_2_1_1
+y 14
+end
+arch blackmarble
+y 15
+end
+arch flagstone_3_2
+y 15
+end
+arch blackmarble
+y 16
+end
+arch flagstone_2_1_1
+y 16
+end
+arch blackmarble
+y 17
+end
+arch flagstone_2_1_1
+y 17
+end
+arch blackmarble
+y 18
+end
+arch flagstone_2_1_1
+y 18
+end
+arch blackmarble
+y 19
+end
+arch flagstone_2_1_1
+y 19
+end
+arch blackmarble
+y 20
+end
+arch flagstone_2_1_1
+y 20
+end
+arch blackmarble
+y 21
+end
+arch flagstone_2_1_1
+y 21
+end
+arch blackmarble
+y 22
+end
+arch flagstone_2_1_1
+y 22
+end
+arch blackmarble
+y 23
+end
+arch flagstone_2_1_1
+y 23
+end
+arch blackmarble
+y 24
+end
+arch flagstone_2_1_1
+y 24
+end
+arch blackmarble
+y 25
+end
+arch flagstone_2_1_1
+y 25
+end
+arch blackmarble
+y 26
+end
+arch flagstone_2_1_1
+y 26
+end
+arch blackmarble
+y 27
+end
+arch flagstone_3_2
+y 27
+end
+arch blackmarble
+y 28
+end
+arch flagstone_2_1_1
+y 28
+end
+arch blackmarble
+y 29
+end
+arch flagstone_2_1_1
+y 29
+end
+arch blackmarble
+y 30
+end
+arch flagstone_2_1_1
+y 30
+end
+arch blackmarble
+y 31
+end
+arch flagstone_2_1_1
+y 31
+end
+arch blackmarble
+y 32
+end
+arch flagstone_2_1_1
+y 32
+end
+arch blackmarble
+y 33
+end
+arch flagstone_2_1_1
+y 33
+end
+arch blackmarble
+y 34
+end
+arch flagstone_2_1_1
+y 34
+end
+arch blackmarble
+y 35
+end
+arch flagstone_2_1_1
+y 35
+end
+arch blackmarble
+y 36
+end
+arch flagstone_2_1_1
+y 36
+end
+arch blackmarble
+y 37
+end
+arch flagstone_2_1_1
+y 37
+end
+arch blackmarble
+y 38
+end
+arch flagstone_2_1_1
+y 38
+end
+arch blackmarble
+y 39
+end
+arch flagstone_2_2_1
+y 39
+end
+arch blackmarble
+x 1
+end
+arch flagstone_2_1_2
+x 1
+end
+arch permanent_lava
+x 1
+y 1
+end
+arch perm_magic_portal
+name portal
+slaying /ElvenLands/Darkoth/darkland
+hp 3
+sp 9
+x 1
+y 1
+end
+arch permanent_lava
+x 1
+y 2
+end
+arch permanent_lava
+x 1
+y 3
+end
+arch permanent_lava
+x 1
+y 4
+end
+arch permanent_lava
+x 1
+y 5
+end
+arch flagstone_2_1_2
+x 1
+y 5
+end
+arch permanent_lava
+x 1
+y 6
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 6
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 1
+y 7
+end
+arch permanent_lava
+x 1
+y 8
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 8
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 1
+y 9
+end
+arch permanent_lava
+x 1
+y 10
+end
+arch permanent_lava
+x 1
+y 11
+end
+arch permanent_lava
+x 1
+y 12
+end
+arch permanent_lava
+x 1
+y 13
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 13
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 1
+y 14
+end
+arch blackmarble
+x 1
+y 15
+end
+arch flagstone_2_1_2
+x 1
+y 15
+end
+arch blackmarble
+x 1
+y 16
+end
+arch blackmarble
+x 1
+y 17
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 17
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 1
+y 18
+end
+arch blackmarble
+x 1
+y 19
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 19
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 1
+y 20
+end
+arch blackmarble
+x 1
+y 21
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 21
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 1
+y 22
+end
+arch blackmarble
+x 1
+y 23
+end
+arch blackmarble
+x 1
+y 24
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 1
+y 24
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 1
+y 25
+end
+arch blackmarble
+x 1
+y 26
+end
+arch blackmarble
+x 1
+y 27
+end
+arch flagstone_2_1_2
+x 1
+y 27
+end
+arch blackmarble
+x 1
+y 28
+end
+arch blackmarble
+x 1
+y 29
+end
+arch blackmarble
+x 1
+y 30
+end
+arch permanent_lava
+x 1
+y 31
+end
+arch permanent_lava
+x 1
+y 32
+end
+arch permanent_lava
+x 1
+y 33
+end
+arch permanent_lava
+x 1
+y 34
+end
+arch permanent_lava
+x 1
+y 35
+end
+arch permanent_lava
+x 1
+y 36
+end
+arch permanent_lava
+x 1
+y 37
+end
+arch permanent_lava
+x 1
+y 38
+end
+arch blackmarble
+x 1
+y 39
+end
+arch flagstone_2_1_2
+x 1
+y 39
+end
+arch blackmarble
+x 2
+end
+arch flagstone_2_1_2
+x 2
+end
+arch permanent_lava
+x 2
+y 1
+end
+arch permanent_lava
+x 2
+y 2
+end
+arch permanent_lava
+x 2
+y 3
+end
+arch permanent_lava
+x 2
+y 4
+end
+arch permanent_lava
+x 2
+y 5
+end
+arch flagstone_2_1_2
+x 2
+y 5
+end
+arch permanent_lava
+x 2
+y 6
+end
+arch permanent_lava
+x 2
+y 7
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 7
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 2
+y 8
+end
+arch permanent_lava
+x 2
+y 9
+end
+arch permanent_lava
+x 2
+y 10
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 10
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 2
+y 11
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 11
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 2
+y 12
+end
+arch permanent_lava
+x 2
+y 13
+end
+arch permanent_lava
+x 2
+y 14
+end
+arch blackmarble
+x 2
+y 15
+end
+arch flagstone_2_1_2
+x 2
+y 15
+end
+arch blackmarble
+x 2
+y 16
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 16
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 2
+y 17
+end
+arch blackmarble
+x 2
+y 18
+end
+arch blackmarble
+x 2
+y 19
+end
+arch blackmarble
+x 2
+y 20
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 20
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 2
+y 21
+end
+arch blackmarble
+x 2
+y 22
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 2
+y 22
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 2
+y 23
+end
+arch blackmarble
+x 2
+y 24
+end
+arch blackmarble
+x 2
+y 25
+end
+arch blackmarble
+x 2
+y 26
+end
+arch blackmarble
+x 2
+y 27
+end
+arch flagstone_2_1_2
+x 2
+y 27
+end
+arch blackmarble
+x 2
+y 28
+end
+arch permanent_lava
+x 2
+y 29
+end
+arch permanent_lava
+x 2
+y 30
+end
+arch fire_dragon
+name small dragon
+x 2
+y 30
+level 100
+end
+arch permanent_lava
+x 2
+y 31
+end
+arch permanent_lava
+x 2
+y 32
+end
+arch permanent_lava
+x 2
+y 33
+end
+arch permanent_lava
+x 2
+y 34
+end
+arch permanent_lava
+x 2
+y 35
+end
+arch permanent_lava
+x 2
+y 36
+end
+arch fire_dragon
+name small dragon
+x 2
+y 36
+level 100
+end
+arch permanent_lava
+x 2
+y 37
+end
+arch permanent_lava
+x 2
+y 38
+end
+arch blackmarble
+x 2
+y 39
+end
+arch flagstone_2_1_2
+x 2
+y 39
+end
+arch blackmarble
+x 3
+end
+arch flagstone_2_1_2
+x 3
+end
+arch permanent_lava
+x 3
+y 1
+end
+arch permanent_lava
+x 3
+y 2
+end
+arch permanent_lava
+x 3
+y 3
+end
+arch permanent_lava
+x 3
+y 4
+end
+arch permanent_lava
+x 3
+y 5
+end
+arch flagstone_2_1_2
+x 3
+y 5
+end
+arch permanent_lava
+x 3
+y 6
+end
+arch permanent_lava
+x 3
+y 7
+end
+arch permanent_lava
+x 3
+y 8
+end
+arch permanent_lava
+x 3
+y 9
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 3
+y 9
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 3
+y 10
+end
+arch permanent_lava
+x 3
+y 11
+end
+arch permanent_lava
+x 3
+y 12
+end
+arch permanent_lava
+x 3
+y 13
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 3
+y 13
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 3
+y 14
+end
+arch blackmarble
+x 3
+y 15
+end
+arch flagstone_2_1_2
+x 3
+y 15
+end
+arch blackmarble
+x 3
+y 16
+end
+arch blackmarble
+x 3
+y 17
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 3
+y 17
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 3
+y 18
+end
+arch blackmarble
+x 3
+y 19
+end
+arch blackmarble
+x 3
+y 20
+end
+arch blackmarble
+x 3
+y 21
+end
+arch blackmarble
+x 3
+y 22
+end
+arch blackmarble
+x 3
+y 23
+end
+arch blackmarble
+x 3
+y 24
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 3
+y 24
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 3
+y 25
+end
+arch blackmarble
+x 3
+y 26
+end
+arch blackmarble
+x 3
+y 27
+end
+arch flagstone_2_1_2
+x 3
+y 27
+end
+arch permanent_lava
+x 3
+y 28
+end
+arch permanent_lava
+x 3
+y 29
+end
+arch permanent_lava
+x 3
+y 30
+end
+arch permanent_lava
+x 3
+y 31
+end
+arch permanent_lava
+x 3
+y 32
+end
+arch permanent_lava
+x 3
+y 33
+end
+arch permanent_lava
+x 3
+y 34
+end
+arch permanent_lava
+x 3
+y 35
+end
+arch permanent_lava
+x 3
+y 36
+end
+arch permanent_lava
+x 3
+y 37
+end
+arch permanent_lava
+x 3
+y 38
+end
+arch blackmarble
+x 3
+y 39
+end
+arch flagstone_2_1_2
+x 3
+y 39
+end
+arch blackmarble
+x 4
+end
+arch flagstone_2_1_2
+x 4
+end
+arch permanent_lava
+x 4
+y 1
+end
+arch permanent_lava
+x 4
+y 2
+end
+arch blackmarble
+x 4
+y 3
+end
+arch random_potion
+x 4
+y 3
+end
+arch random_wealth
+x 4
+y 3
+end
+arch random_talisman
+x 4
+y 3
+end
+arch blackmarble
+x 4
+y 4
+end
+arch random_potion
+x 4
+y 4
+end
+arch random_wealth
+x 4
+y 4
+end
+arch random_talisman
+x 4
+y 4
+end
+arch permanent_lava
+x 4
+y 5
+end
+arch flagstone_2_1_2
+x 4
+y 5
+end
+arch permanent_lava
+x 4
+y 6
+end
+arch permanent_lava
+x 4
+y 7
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 4
+y 7
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 4
+y 8
+end
+arch permanent_lava
+x 4
+y 9
+end
+arch permanent_lava
+x 4
+y 10
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 4
+y 10
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 4
+y 11
+end
+arch permanent_lava
+x 4
+y 12
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 4
+y 12
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 4
+y 13
+end
+arch permanent_lava
+x 4
+y 14
+end
+arch blackmarble
+x 4
+y 15
+end
+arch flagstone_2_1_2
+x 4
+y 15
+end
+arch blackmarble
+x 4
+y 16
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 4
+y 16
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 4
+y 17
+end
+arch blackmarble
+x 4
+y 18
+end
+arch blackmarble
+x 4
+y 19
+end
+arch blackmarble
+x 4
+y 20
+end
+arch blackmarble
+x 4
+y 21
+end
+arch blackmarble
+x 4
+y 22
+end
+arch blackmarble
+x 4
+y 23
+end
+arch blackmarble
+x 4
+y 24
+end
+arch blackmarble
+x 4
+y 25
+end
+arch blackmarble
+x 4
+y 26
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 4
+y 26
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 4
+y 27
+end
+arch flagstone_2_1_2
+x 4
+y 27
+end
+arch permanent_lava
+x 4
+y 28
+end
+arch blackmarble
+x 4
+y 29
+end
+arch blackmarble
+x 4
+y 30
+end
+arch permanent_lava
+x 4
+y 31
+end
+arch permanent_lava
+x 4
+y 32
+end
+arch permanent_lava
+x 4
+y 33
+end
+arch permanent_lava
+x 4
+y 34
+end
+arch fire_dragon
+name small dragon
+x 4
+y 34
+level 100
+end
+arch permanent_lava
+x 4
+y 35
+end
+arch permanent_lava
+x 4
+y 36
+end
+arch permanent_lava
+x 4
+y 37
+end
+arch blackmarble
+x 4
+y 38
+end
+arch blackmarble
+x 4
+y 39
+end
+arch flagstone_2_1_2
+x 4
+y 39
+end
+arch blackmarble
+x 5
+end
+arch flagstone_2_1_2
+x 5
+end
+arch permanent_lava
+x 5
+y 1
+end
+arch permanent_lava
+x 5
+y 2
+end
+arch blackmarble
+x 5
+y 3
+end
+arch random_potion
+x 5
+y 3
+end
+arch random_wealth
+x 5
+y 3
+end
+arch random_talisman
+x 5
+y 3
+end
+arch blackmarble
+x 5
+y 4
+end
+arch random_potion
+x 5
+y 4
+end
+arch random_wealth
+x 5
+y 4
+end
+arch random_talisman
+x 5
+y 4
+end
+arch blackmarble
+x 5
+y 5
+end
+arch flagstone_2_1_2
+x 5
+y 5
+end
+arch permanent_lava
+x 5
+y 6
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 5
+y 6
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 5
+y 7
+end
+arch permanent_lava
+x 5
+y 8
+end
+arch permanent_lava
+x 5
+y 9
+end
+arch permanent_lava
+x 5
+y 10
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 5
+y 10
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 5
+y 11
+end
+arch permanent_lava
+x 5
+y 12
+end
+arch blackmarble
+x 5
+y 13
+end
+arch blackmarble
+x 5
+y 14
+end
+arch blackmarble
+x 5
+y 15
+end
+arch flagstone_2_1_2
+x 5
+y 15
+end
+arch blackmarble
+x 5
+y 16
+end
+arch blackmarble
+x 5
+y 17
+end
+arch blackmarble
+x 5
+y 18
+end
+arch blackmarble
+x 5
+y 19
+end
+arch blackmarble
+x 5
+y 20
+end
+arch blackmarble
+x 5
+y 21
+end
+arch blackmarble
+x 5
+y 22
+end
+arch blackmarble
+x 5
+y 23
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 5
+y 23
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 5
+y 24
+end
+arch blackmarble
+x 5
+y 25
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 5
+y 25
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 5
+y 26
+end
+arch blackmarble
+x 5
+y 27
+end
+arch flagstone_1_3
+x 5
+y 27
+end
+arch blackmarble
+x 5
+y 28
+end
+arch blackmarble
+x 5
+y 29
+end
+arch blackmarble
+x 5
+y 30
+end
+arch blackmarble
+x 5
+y 31
+end
+arch permanent_lava
+x 5
+y 32
+end
+arch fire_dragon
+name small dragon
+x 5
+y 32
+level 100
+end
+arch permanent_lava
+x 5
+y 33
+end
+arch permanent_lava
+x 5
+y 34
+end
+arch permanent_lava
+x 5
+y 35
+end
+arch permanent_lava
+x 5
+y 36
+end
+arch permanent_lava
+x 5
+y 37
+end
+arch fire_dragon
+name small dragon
+x 5
+y 37
+level 100
+end
+arch blackmarble
+x 5
+y 38
+end
+arch blackmarble
+x 5
+y 39
+end
+arch flagstone_2_1_2
+x 5
+y 39
+end
+arch blackmarble
+x 6
+end
+arch flagstone_2_1_2
+x 6
+end
+arch blackmarble
+x 6
+y 1
+end
+arch random_potion
+x 6
+y 1
+end
+arch random_wealth
+x 6
+y 1
+end
+arch random_talisman
+x 6
+y 1
+end
+arch blackmarble
+x 6
+y 2
+end
+arch random_potion
+x 6
+y 2
+end
+arch random_wealth
+x 6
+y 2
+end
+arch random_talisman
+x 6
+y 2
+end
+arch blackmarble
+x 6
+y 3
+end
+arch random_potion
+x 6
+y 3
+end
+arch random_wealth
+x 6
+y 3
+end
+arch random_scroll
+x 6
+y 3
+end
+arch blackmarble
+x 6
+y 4
+end
+arch random_potion
+x 6
+y 4
+end
+arch random_wealth
+x 6
+y 4
+end
+arch random_scroll
+x 6
+y 4
+end
+arch blackmarble
+x 6
+y 5
+end
+arch flagstone_2_1_2
+x 6
+y 5
+end
+arch blackmarble
+x 6
+y 6
+end
+arch permanent_lava
+x 6
+y 7
+end
+arch permanent_lava
+x 6
+y 8
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 6
+y 8
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 6
+y 9
+end
+arch permanent_lava
+x 6
+y 10
+end
+arch permanent_lava
+x 6
+y 11
+end
+arch blackmarble
+x 6
+y 12
+end
+arch blackmarble
+x 6
+y 13
+end
+arch igate_closed_1
+name flames
+face fireball.111
+x 6
+y 13
+connected 1
+end
+arch blackmarble
+x 6
+y 14
+end
+arch igate_closed_1
+name flames
+face fireball.111
+x 6
+y 14
+connected 1
+end
+arch blackmarble
+x 6
+y 15
+end
+arch flagstone_1_3
+x 6
+y 15
+end
+arch blackmarble
+x 6
+y 16
+end
+arch blackmarble
+x 6
+y 17
+end
+arch blackmarble
+x 6
+y 18
+end
+arch blackmarble
+x 6
+y 19
+end
+arch blackmarble
+x 6
+y 20
+end
+arch blackmarble
+x 6
+y 21
+end
+arch blackmarble
+x 6
+y 22
+end
+arch blackmarble
+x 6
+y 23
+end
+arch blackmarble
+x 6
+y 24
+end
+arch blackmarble
+x 6
+y 25
+end
+arch blackmarble
+x 6
+y 26
+end
+arch blackmarble
+x 6
+y 27
+end
+arch door_2
+x 6
+y 27
+end
+arch blackmarble
+x 6
+y 28
+end
+arch blackmarble
+x 6
+y 29
+end
+arch blackmarble
+x 6
+y 30
+end
+arch blackmarble
+x 6
+y 31
+end
+arch blackmarble
+x 6
+y 32
+end
+arch blackmarble
+x 6
+y 33
+end
+arch blackmarble
+x 6
+y 34
+end
+arch blackmarble
+x 6
+y 35
+end
+arch blackmarble
+x 6
+y 36
+end
+arch blackmarble
+x 6
+y 37
+end
+arch blackmarble
+x 6
+y 38
+end
+arch blackmarble
+x 6
+y 39
+end
+arch flagstone_2_1_2
+x 6
+y 39
+end
+arch blackmarble
+x 7
+end
+arch flagstone_2_1_2
+x 7
+end
+arch blackmarble
+x 7
+y 1
+end
+arch lava_s
+name Burning Tail
+title of Fire
+msg
+This whip burns with a searing flame.
+endmsg
+Str 0
+Dex 4
+Con 0
+dam 15
+x 7
+y 1
+resist_fire 30
+resist_cold 30
+last_sp 4
+end
+arch blackmarble
+x 7
+y 2
+end
+arch random_potion
+x 7
+y 2
+end
+arch random_wealth
+x 7
+y 2
+end
+arch random_talisman
+x 7
+y 2
+end
+arch blackmarble
+x 7
+y 3
+end
+arch random_potion
+x 7
+y 3
+end
+arch random_wealth
+x 7
+y 3
+end
+arch random_scroll
+x 7
+y 3
+end
+arch blackmarble
+x 7
+y 4
+end
+arch random_potion
+x 7
+y 4
+end
+arch random_wealth
+x 7
+y 4
+end
+arch random_scroll
+x 7
+y 4
+end
+arch blackmarble
+x 7
+y 5
+end
+arch flagstone_1_3
+x 7
+y 5
+end
+arch blackmarble
+x 7
+y 6
+end
+arch blackmarble
+x 7
+y 7
+end
+arch permanent_lava
+x 7
+y 8
+end
+arch permanent_lava
+x 7
+y 9
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 7
+y 9
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 7
+y 10
+end
+arch permanent_lava
+x 7
+y 11
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 7
+y 11
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 7
+y 12
+end
+arch blackmarble
+x 7
+y 13
+end
+arch igate_closed_1
+name flames
+face fireball.111
+x 7
+y 13
+connected 1
+end
+arch blackmarble
+x 7
+y 14
+end
+arch button_lever
+x 7
+y 14
+connected 1
+end
+arch blackmarble
+x 7
+y 15
+end
+arch igate_open_1
+x 7
+y 15
+end
+arch blackmarble
+x 7
+y 16
+end
+arch blackmarble
+x 7
+y 17
+end
+arch blackmarble
+x 7
+y 18
+end
+arch blackmarble
+x 7
+y 19
+end
+arch blackmarble
+x 7
+y 20
+end
+arch blackmarble
+x 7
+y 21
+end
+arch blackmarble
+x 7
+y 22
+end
+arch blackmarble
+x 7
+y 23
+end
+arch blackmarble
+x 7
+y 24
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 7
+y 24
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 7
+y 25
+end
+arch blackmarble
+x 7
+y 26
+end
+arch blackmarble
+x 7
+y 27
+end
+arch door_2
+x 7
+y 27
+end
+arch blackmarble
+x 7
+y 28
+end
+arch blackmarble
+x 7
+y 29
+end
+arch blackmarble
+x 7
+y 30
+end
+arch blackmarble
+x 7
+y 31
+end
+arch blackmarble
+x 7
+y 32
+end
+arch blackmarble
+x 7
+y 33
+end
+arch blackmarble
+x 7
+y 34
+end
+arch blackmarble
+x 7
+y 35
+end
+arch blackmarble
+x 7
+y 36
+end
+arch blackmarble
+x 7
+y 37
+end
+arch blackmarble
+x 7
+y 38
+end
+arch stair_3_down
+slaying uppertemple
+hp 1
+sp 1
+x 7
+y 38
+end
+arch blackmarble
+x 7
+y 39
+end
+arch flagstone_2_1_2
+x 7
+y 39
+end
+arch blackmarble
+x 8
+end
+arch flagstone_2_1_2
+x 8
+end
+arch blackmarble
+x 8
+y 1
+end
+arch hugenugget
+name Stone of Fire
+x 8
+y 1
+value 1000
+weight 10000
+end
+arch blackmarble
+x 8
+y 2
+end
+arch random_potion
+x 8
+y 2
+end
+arch random_wealth
+x 8
+y 2
+end
+arch random_talisman
+x 8
+y 2
+end
+arch blackmarble
+x 8
+y 3
+end
+arch random_potion
+x 8
+y 3
+end
+arch random_wealth
+x 8
+y 3
+end
+arch blackmarble
+x 8
+y 4
+end
+arch random_potion
+x 8
+y 4
+end
+arch random_wealth
+x 8
+y 4
+end
+arch random_scroll
+x 8
+y 4
+end
+arch blackmarble
+x 8
+y 5
+end
+arch locked_door1
+slaying Stone of Fire
+x 8
+y 5
+end
+arch blackmarble
+x 8
+y 6
+end
+arch blackmarble
+x 8
+y 7
+end
+arch blackmarble
+x 8
+y 8
+end
+arch blackmarble
+x 8
+y 9
+end
+arch blackmarble
+x 8
+y 10
+end
+arch blackmarble
+x 8
+y 11
+end
+arch blackmarble
+x 8
+y 12
+end
+arch blackmarble
+x 8
+y 13
+end
+arch igate_closed_1
+name flames
+face fireball.111
+x 8
+y 13
+connected 1
+end
+arch blackmarble
+x 8
+y 14
+end
+arch igate_closed_1
+name flames
+face fireball.111
+x 8
+y 14
+connected 1
+end
+arch blackmarble
+x 8
+y 15
+end
+arch flagstone_1_4
+x 8
+y 15
+end
+arch blackmarble
+x 8
+y 16
+end
+arch blackmarble
+x 8
+y 17
+end
+arch blackmarble
+x 8
+y 18
+end
+arch blackmarble
+x 8
+y 19
+end
+arch blackmarble
+x 8
+y 20
+end
+arch blackmarble
+x 8
+y 21
+end
+arch blackmarble
+x 8
+y 22
+end
+arch blackmarble
+x 8
+y 23
+end
+arch blackmarble
+x 8
+y 24
+end
+arch blackmarble
+x 8
+y 25
+end
+arch blackmarble
+x 8
+y 26
+end
+arch blackmarble
+x 8
+y 27
+end
+arch door_2
+x 8
+y 27
+end
+arch blackmarble
+x 8
+y 28
+end
+arch blackmarble
+x 8
+y 29
+end
+arch blackmarble
+x 8
+y 30
+end
+arch blackmarble
+x 8
+y 31
+end
+arch blackmarble
+x 8
+y 32
+end
+arch blackmarble
+x 8
+y 33
+end
+arch blackmarble
+x 8
+y 34
+end
+arch blackmarble
+x 8
+y 35
+end
+arch blackmarble
+x 8
+y 36
+end
+arch blackmarble
+x 8
+y 37
+end
+arch blackmarble
+x 8
+y 38
+end
+arch blackmarble
+x 8
+y 39
+end
+arch flagstone_2_1_2
+x 8
+y 39
+end
+arch blackmarble
+x 9
+end
+arch flagstone_2_1_2
+x 9
+end
+arch blackmarble
+x 9
+y 1
+end
+arch magic_resist
+name Flaming Cloak
+msg
+This cloak burns with a searing flame.
+endmsg
+dam 4
+ac 2
+x 9
+y 1
+attacktype 4
+resist_magic 0
+resist_fire 30
+resist_cold 40
+startequip 0
+no_steal 0
+end
+arch blackmarble
+x 9
+y 2
+end
+arch random_potion
+x 9
+y 2
+end
+arch random_wealth
+x 9
+y 2
+end
+arch random_talisman
+x 9
+y 2
+end
+arch blackmarble
+x 9
+y 3
+end
+arch random_potion
+x 9
+y 3
+end
+arch random_wealth
+x 9
+y 3
+end
+arch random_scroll
+x 9
+y 3
+end
+arch blackmarble
+x 9
+y 4
+end
+arch random_potion
+x 9
+y 4
+end
+arch random_wealth
+x 9
+y 4
+end
+arch blackmarble
+x 9
+y 5
+end
+arch flagstone_1_4
+x 9
+y 5
+end
+arch blackmarble
+x 9
+y 6
+end
+arch blackmarble
+x 9
+y 7
+end
+arch blackmarble
+x 9
+y 8
+end
+arch blackmarble
+x 9
+y 9
+end
+arch blackmarble
+x 9
+y 10
+end
+arch blackmarble
+x 9
+y 11
+end
+arch blackmarble
+x 9
+y 12
+end
+arch blackmarble
+x 9
+y 13
+end
+arch blackmarble
+x 9
+y 14
+end
+arch blackmarble
+x 9
+y 15
+end
+arch flagstone_2_1_2
+x 9
+y 15
+end
+arch blackmarble
+x 9
+y 16
+end
+arch blackmarble
+x 9
+y 17
+end
+arch blackmarble
+x 9
+y 18
+end
+arch blackmarble
+x 9
+y 19
+end
+arch blackmarble
+x 9
+y 20
+end
+arch blackmarble
+x 9
+y 21
+end
+arch blackmarble
+x 9
+y 22
+end
+arch blackmarble
+x 9
+y 23
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 9
+y 23
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 9
+y 24
+end
+arch blackmarble
+x 9
+y 25
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 9
+y 25
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 9
+y 26
+end
+arch blackmarble
+x 9
+y 27
+end
+arch flagstone_1_4
+x 9
+y 27
+end
+arch blackmarble
+x 9
+y 28
+end
+arch blackmarble
+x 9
+y 29
+end
+arch blackmarble
+x 9
+y 30
+end
+arch blackmarble
+x 9
+y 31
+end
+arch permanent_lava
+x 9
+y 32
+end
+arch permanent_lava
+x 9
+y 33
+end
+arch permanent_lava
+x 9
+y 34
+end
+arch fire_dragon
+name small dragon
+x 9
+y 34
+level 100
+end
+arch permanent_lava
+x 9
+y 35
+end
+arch permanent_lava
+x 9
+y 36
+end
+arch permanent_lava
+x 9
+y 37
+end
+arch fire_dragon
+name small dragon
+x 9
+y 37
+level 100
+end
+arch blackmarble
+x 9
+y 38
+end
+arch blackmarble
+x 9
+y 39
+end
+arch flagstone_2_1_2
+x 9
+y 39
+end
+arch blackmarble
+x 10
+end
+arch flagstone_2_1_2
+x 10
+end
+arch blackmarble
+x 10
+y 1
+end
+arch random_potion
+x 10
+y 1
+end
+arch random_wealth
+x 10
+y 1
+end
+arch random_talisman
+x 10
+y 1
+end
+arch blackmarble
+x 10
+y 2
+end
+arch random_potion
+x 10
+y 2
+end
+arch random_wealth
+x 10
+y 2
+end
+arch random_talisman
+x 10
+y 2
+end
+arch blackmarble
+x 10
+y 3
+end
+arch random_potion
+x 10
+y 3
+end
+arch random_wealth
+x 10
+y 3
+end
+arch random_scroll
+x 10
+y 3
+end
+arch blackmarble
+x 10
+y 4
+end
+arch random_potion
+x 10
+y 4
+end
+arch random_wealth
+x 10
+y 4
+end
+arch random_scroll
+x 10
+y 4
+end
+arch blackmarble
+x 10
+y 5
+end
+arch flagstone_2_1_2
+x 10
+y 5
+end
+arch blackmarble
+x 10
+y 6
+end
+arch permanent_lava
+x 10
+y 7
+end
+arch permanent_lava
+x 10
+y 8
+end
+arch permanent_lava
+x 10
+y 9
+end
+arch permanent_lava
+x 10
+y 10
+end
+arch permanent_lava
+x 10
+y 11
+end
+arch blackmarble
+x 10
+y 12
+end
+arch blackmarble
+x 10
+y 13
+end
+arch permanent_lava
+x 10
+y 14
+end
+arch blackmarble
+x 10
+y 15
+end
+arch flagstone_2_1_2
+x 10
+y 15
+end
+arch blackmarble
+x 10
+y 16
+end
+arch blackmarble
+x 10
+y 17
+end
+arch blackmarble
+x 10
+y 18
+end
+arch blackmarble
+x 10
+y 19
+end
+arch blackmarble
+x 10
+y 20
+end
+arch blackmarble
+x 10
+y 21
+end
+arch blackmarble
+x 10
+y 22
+end
+arch blackmarble
+x 10
+y 23
+end
+arch blackmarble
+x 10
+y 24
+end
+arch blackmarble
+x 10
+y 25
+end
+arch blackmarble
+x 10
+y 26
+end
+arch blackmarble
+x 10
+y 27
+end
+arch flagstone_2_1_2
+x 10
+y 27
+end
+arch blackmarble
+x 10
+y 28
+end
+arch blackmarble
+x 10
+y 29
+end
+arch permanent_lava
+x 10
+y 30
+end
+arch permanent_lava
+x 10
+y 31
+end
+arch permanent_lava
+x 10
+y 32
+end
+arch permanent_lava
+x 10
+y 33
+end
+arch fire_dragon
+name small dragon
+x 10
+y 33
+level 100
+end
+arch permanent_lava
+x 10
+y 34
+end
+arch permanent_lava
+x 10
+y 35
+end
+arch fire_dragon
+name small dragon
+x 10
+y 35
+level 100
+end
+arch permanent_lava
+x 10
+y 36
+end
+arch permanent_lava
+x 10
+y 37
+end
+arch blackmarble
+x 10
+y 38
+end
+arch blackmarble
+x 10
+y 39
+end
+arch flagstone_2_1_2
+x 10
+y 39
+end
+arch blackmarble
+x 11
+end
+arch flagstone_2_1_2
+x 11
+end
+arch permanent_lava
+x 11
+y 1
+end
+arch blackmarble
+x 11
+y 2
+end
+arch random_potion
+x 11
+y 2
+end
+arch random_wealth
+x 11
+y 2
+end
+arch random_talisman
+x 11
+y 2
+end
+arch blackmarble
+x 11
+y 3
+end
+arch random_potion
+x 11
+y 3
+end
+arch random_wealth
+x 11
+y 3
+end
+arch random_scroll
+x 11
+y 3
+end
+arch blackmarble
+x 11
+y 4
+end
+arch random_potion
+x 11
+y 4
+end
+arch random_wealth
+x 11
+y 4
+end
+arch random_talisman
+x 11
+y 4
+end
+arch blackmarble
+x 11
+y 5
+end
+arch flagstone_2_1_2
+x 11
+y 5
+end
+arch permanent_lava
+x 11
+y 6
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 11
+y 6
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 11
+y 7
+end
+arch permanent_lava
+x 11
+y 8
+end
+arch permanent_lava
+x 11
+y 9
+end
+arch permanent_lava
+x 11
+y 10
+end
+arch permanent_lava
+x 11
+y 11
+end
+arch permanent_lava
+x 11
+y 12
+end
+arch permanent_lava
+x 11
+y 13
+end
+arch permanent_lava
+x 11
+y 14
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 11
+y 14
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 11
+y 15
+end
+arch flagstone_2_1_2
+x 11
+y 15
+end
+arch blackmarble
+x 11
+y 16
+end
+arch blackmarble
+x 11
+y 17
+end
+arch blackmarble
+x 11
+y 18
+end
+arch blackmarble
+x 11
+y 19
+end
+arch blackmarble
+x 11
+y 20
+end
+arch blackmarble
+x 11
+y 21
+end
+arch blackmarble
+x 11
+y 22
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 11
+y 22
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 11
+y 23
+end
+arch blackmarble
+x 11
+y 24
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 11
+y 24
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 11
+y 25
+end
+arch blackmarble
+x 11
+y 26
+end
+arch blackmarble
+x 11
+y 27
+end
+arch flagstone_2_1_2
+x 11
+y 27
+end
+arch permanent_lava
+x 11
+y 28
+end
+arch permanent_lava
+x 11
+y 29
+end
+arch permanent_lava
+x 11
+y 30
+end
+arch permanent_lava
+x 11
+y 31
+end
+arch fire_dragon
+name small dragon
+x 11
+y 31
+level 100
+end
+arch permanent_lava
+x 11
+y 32
+end
+arch permanent_lava
+x 11
+y 33
+end
+arch permanent_lava
+x 11
+y 34
+end
+arch permanent_lava
+x 11
+y 35
+end
+arch permanent_lava
+x 11
+y 36
+end
+arch permanent_lava
+x 11
+y 37
+end
+arch permanent_lava
+x 11
+y 38
+end
+arch blackmarble
+x 11
+y 39
+end
+arch flagstone_2_1_2
+x 11
+y 39
+end
+arch blackmarble
+x 12
+end
+arch flagstone_2_1_2
+x 12
+end
+arch permanent_lava
+x 12
+y 1
+end
+arch permanent_lava
+x 12
+y 2
+end
+arch blackmarble
+x 12
+y 3
+end
+arch random_potion
+x 12
+y 3
+end
+arch random_wealth
+x 12
+y 3
+end
+arch random_scroll
+x 12
+y 3
+end
+arch blackmarble
+x 12
+y 4
+end
+arch random_potion
+x 12
+y 4
+end
+arch random_wealth
+x 12
+y 4
+end
+arch random_talisman
+x 12
+y 4
+end
+arch permanent_lava
+x 12
+y 5
+end
+arch flagstone_2_1_2
+x 12
+y 5
+end
+arch permanent_lava
+x 12
+y 6
+end
+arch permanent_lava
+x 12
+y 7
+end
+arch permanent_lava
+x 12
+y 8
+end
+arch permanent_lava
+x 12
+y 9
+end
+arch permanent_lava
+x 12
+y 10
+end
+arch permanent_lava
+x 12
+y 11
+end
+arch permanent_lava
+x 12
+y 12
+end
+arch permanent_lava
+x 12
+y 13
+end
+arch permanent_lava
+x 12
+y 14
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 12
+y 14
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 12
+y 15
+end
+arch flagstone_2_1_2
+x 12
+y 15
+end
+arch blackmarble
+x 12
+y 16
+end
+arch blackmarble
+x 12
+y 17
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 12
+y 17
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 12
+y 18
+end
+arch blackmarble
+x 12
+y 19
+end
+arch blackmarble
+x 12
+y 20
+end
+arch blackmarble
+x 12
+y 21
+end
+arch blackmarble
+x 12
+y 22
+end
+arch blackmarble
+x 12
+y 23
+end
+arch blackmarble
+x 12
+y 24
+end
+arch blackmarble
+x 12
+y 25
+end
+arch blackmarble
+x 12
+y 26
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 12
+y 26
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 12
+y 27
+end
+arch flagstone_2_1_2
+x 12
+y 27
+end
+arch permanent_lava
+x 12
+y 28
+end
+arch permanent_lava
+x 12
+y 29
+end
+arch blackmarble
+x 12
+y 30
+end
+arch permanent_lava
+x 12
+y 31
+end
+arch permanent_lava
+x 12
+y 32
+end
+arch permanent_lava
+x 12
+y 33
+end
+arch permanent_lava
+x 12
+y 34
+end
+arch permanent_lava
+x 12
+y 35
+end
+arch fire_dragon
+name small dragon
+x 12
+y 35
+level 100
+end
+arch permanent_lava
+x 12
+y 36
+end
+arch permanent_lava
+x 12
+y 37
+end
+arch permanent_lava
+x 12
+y 38
+end
+arch blackmarble
+x 12
+y 39
+end
+arch flagstone_2_1_2
+x 12
+y 39
+end
+arch blackmarble
+x 13
+end
+arch flagstone_2_1_2
+x 13
+end
+arch permanent_lava
+x 13
+y 1
+end
+arch permanent_lava
+x 13
+y 2
+end
+arch blackmarble
+x 13
+y 3
+end
+arch random_potion
+x 13
+y 3
+end
+arch random_wealth
+x 13
+y 3
+end
+arch random_scroll
+x 13
+y 3
+end
+arch permanent_lava
+x 13
+y 4
+end
+arch permanent_lava
+x 13
+y 5
+end
+arch flagstone_2_1_2
+x 13
+y 5
+end
+arch permanent_lava
+x 13
+y 6
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 13
+y 6
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 13
+y 7
+end
+arch permanent_lava
+x 13
+y 8
+end
+arch permanent_lava
+x 13
+y 9
+end
+arch permanent_lava
+x 13
+y 10
+end
+arch permanent_lava
+x 13
+y 11
+end
+arch permanent_lava
+x 13
+y 12
+end
+arch permanent_lava
+x 13
+y 13
+end
+arch permanent_lava
+x 13
+y 14
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 13
+y 14
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 13
+y 15
+end
+arch flagstone_2_1_2
+x 13
+y 15
+end
+arch blackmarble
+x 13
+y 16
+end
+arch blackmarble
+x 13
+y 17
+end
+arch blackmarble
+x 13
+y 18
+end
+arch blackmarble
+x 13
+y 19
+end
+arch blackmarble
+x 13
+y 20
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 13
+y 20
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 13
+y 21
+end
+arch blackmarble
+x 13
+y 22
+end
+arch blackmarble
+x 13
+y 23
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 13
+y 23
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 13
+y 24
+end
+arch blackmarble
+x 13
+y 25
+end
+arch blackmarble
+x 13
+y 26
+end
+arch blackmarble
+x 13
+y 27
+end
+arch flagstone_2_1_2
+x 13
+y 27
+end
+arch permanent_lava
+x 13
+y 28
+end
+arch permanent_lava
+x 13
+y 29
+end
+arch blackmarble
+x 13
+y 30
+end
+arch blackmarble
+x 13
+y 31
+end
+arch blackmarble
+x 13
+y 32
+end
+arch permanent_lava
+x 13
+y 33
+end
+arch permanent_lava
+x 13
+y 34
+end
+arch permanent_lava
+x 13
+y 35
+end
+arch permanent_lava
+x 13
+y 36
+end
+arch permanent_lava
+x 13
+y 37
+end
+arch permanent_lava
+x 13
+y 38
+end
+arch blackmarble
+x 13
+y 39
+end
+arch flagstone_2_1_2
+x 13
+y 39
+end
+arch blackmarble
+x 14
+end
+arch flagstone_2_1_2
+x 14
+end
+arch permanent_lava
+x 14
+y 1
+end
+arch permanent_lava
+x 14
+y 2
+end
+arch permanent_lava
+x 14
+y 3
+end
+arch permanent_lava
+x 14
+y 4
+end
+arch permanent_lava
+x 14
+y 5
+end
+arch flagstone_2_1_2
+x 14
+y 5
+end
+arch permanent_lava
+x 14
+y 6
+end
+arch permanent_lava
+x 14
+y 7
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 14
+y 7
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 14
+y 8
+end
+arch permanent_lava
+x 14
+y 9
+end
+arch permanent_lava
+x 14
+y 10
+end
+arch permanent_lava
+x 14
+y 11
+end
+arch permanent_lava
+x 14
+y 12
+end
+arch permanent_lava
+x 14
+y 13
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 14
+y 13
+level 100
+randomitems para_elemental
+end
+arch permanent_lava
+x 14
+y 14
+end
+arch blackmarble
+x 14
+y 15
+end
+arch flagstone_2_1_2
+x 14
+y 15
+end
+arch blackmarble
+x 14
+y 16
+end
+arch blackmarble
+x 14
+y 17
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 14
+y 17
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 14
+y 18
+end
+arch blackmarble
+x 14
+y 19
+end
+arch blackmarble
+x 14
+y 20
+end
+arch blackmarble
+x 14
+y 21
+end
+arch fire_elemental
+name black fire
+animation elem_fire_black
+hp 10000
+maxhp 10000
+exp 400000
+dam 30
+wc -70
+ac -48
+x 14
+y 21
+level 100
+randomitems para_elemental
+end
+arch blackmarble
+x 14
+y 22
+end
+arch blackmarble
+x 14
+y 23
+end
+arch blackmarble
+x 14
+y 24
+end
+arch blackmarble
+x 14
+y 25
+end
+arch blackmarble
+x 14
+y 26
+end
+arch blackmarble
+x 14
+y 27
+end
+arch flagstone_2_1_2
+x 14
+y 27
+end
+arch permanent_lava
+x 14
+y 28
+end
+arch permanent_lava
+x 14
+y 29
+end
+arch fire_dragon
+name small dragon
+x 14
+y 29
+level 100
+end
+arch blackmarble
+x 14
+y 30
+end
+arch blackmarble
+x 14
+y 31
+end
+arch blackmarble
+x 14
+y 32
+end
+arch blackmarble
+x 14
+y 33
+end
+arch blackmarble
+x 14
+y 34
+end
+arch blackmarble
+x 14
+y 35
+end
+arch permanent_lava
+x 14
+y 36
+end
+arch permanent_lava
+x 14
+y 37
+end
+arch fire_dragon
+name small dragon
+x 14
+y 37
+level 100
+end
+arch permanent_lava
+x 14
+y 38
+end
+arch blackmarble
+x 14
+y 39
+end
+arch flagstone_2_1_2
+x 14
+y 39
+end
+arch blackmarble
+x 15
+end
+arch flagstone_2_2_3
+x 15
+end
+arch blackmarble
+x 15
+y 1
+end
+arch flagstone_2_1_1
+x 15
+y 1
+end
+arch blackmarble
+x 15
+y 2
+end
+arch flagstone_2_1_1
+x 15
+y 2
+end
+arch blackmarble
+x 15
+y 3
+end
+arch flagstone_2_1_1
+x 15
+y 3
+end
+arch blackmarble
+x 15
+y 4
+end
+arch flagstone_2_1_1
+x 15
+y 4
+end
+arch blackmarble
+x 15
+y 5
+end
+arch flagstone_3_4
+x 15
+y 5
+end
+arch blackmarble
+x 15
+y 6
+end
+arch flagstone_2_1_1
+x 15
+y 6
+end
+arch blackmarble
+x 15
+y 7
+end
+arch flagstone_2_1_1
+x 15
+y 7
+end
+arch blackmarble
+x 15
+y 8
+end
+arch flagstone_2_1_1
+x 15
+y 8
+end
+arch blackmarble
+x 15
+y 9
+end
+arch flagstone_2_1_1
+x 15
+y 9
+end
+arch blackmarble
+x 15
+y 10
+end
+arch flagstone_2_1_1
+x 15
+y 10
+end
+arch blackmarble
+x 15
+y 11
+end
+arch flagstone_2_1_1
+x 15
+y 11
+end
+arch blackmarble
+x 15
+y 12
+end
+arch flagstone_2_1_1
+x 15
+y 12
+end
+arch blackmarble
+x 15
+y 13
+end
+arch flagstone_2_1_1
+x 15
+y 13
+end
+arch blackmarble
+x 15
+y 14
+end
+arch flagstone_2_1_1
+x 15
+y 14
+end
+arch blackmarble
+x 15
+y 15
+end
+arch flagstone_3_4
+x 15
+y 15
+end
+arch blackmarble
+x 15
+y 16
+end
+arch flagstone_2_1_1
+x 15
+y 16
+end
+arch blackmarble
+x 15
+y 17
+end
+arch flagstone_2_1_1
+x 15
+y 17
+end
+arch blackmarble
+x 15
+y 18
+end
+arch flagstone_2_1_1
+x 15
+y 18
+end
+arch blackmarble
+x 15
+y 19
+end
+arch flagstone_2_1_1
+x 15
+y 19
+end
+arch blackmarble
+x 15
+y 20
+end
+arch flagstone_2_1_1
+x 15
+y 20
+end
+arch blackmarble
+x 15
+y 21
+end
+arch flagstone_2_1_1
+x 15
+y 21
+end
+arch blackmarble
+x 15
+y 22
+end
+arch flagstone_2_1_1
+x 15
+y 22
+end
+arch blackmarble
+x 15
+y 23
+end
+arch flagstone_2_1_1
+x 15
+y 23
+end
+arch blackmarble
+x 15
+y 24
+end
+arch flagstone_2_1_1
+x 15
+y 24
+end
+arch blackmarble
+x 15
+y 25
+end
+arch flagstone_2_1_1
+x 15
+y 25
+end
+arch blackmarble
+x 15
+y 26
+end
+arch flagstone_2_1_1
+x 15
+y 26
+end
+arch blackmarble
+x 15
+y 27
+end
+arch flagstone_3_4
+x 15
+y 27
+end
+arch blackmarble
+x 15
+y 28
+end
+arch flagstone_2_1_1
+x 15
+y 28
+end
+arch blackmarble
+x 15
+y 29
+end
+arch flagstone_2_1_1
+x 15
+y 29
+end
+arch blackmarble
+x 15
+y 30
+end
+arch flagstone_2_1_1
+x 15
+y 30
+end
+arch blackmarble
+x 15
+y 31
+end
+arch flagstone_2_1_1
+x 15
+y 31
+end
+arch blackmarble
+x 15
+y 32
+end
+arch flagstone_2_1_1
+x 15
+y 32
+end
+arch blackmarble
+x 15
+y 33
+end
+arch flagstone_2_1_1
+x 15
+y 33
+end
+arch blackmarble
+x 15
+y 34
+end
+arch flagstone_2_1_1
+x 15
+y 34
+end
+arch blackmarble
+x 15
+y 35
+end
+arch flagstone_2_1_1
+x 15
+y 35
+end
+arch blackmarble
+x 15
+y 36
+end
+arch flagstone_2_1_1
+x 15
+y 36
+end
+arch blackmarble
+x 15
+y 37
+end
+arch flagstone_2_1_1
+x 15
+y 37
+end
+arch blackmarble
+x 15
+y 38
+end
+arch flagstone_2_1_1
+x 15
+y 38
+end
+arch blackmarble
+x 15
+y 39
+end
+arch flagstone_2_2_4
+x 15
+y 39
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 1
+y 32
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 2
+y 28
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 2
+y 37
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
+arch Greater_Demon
+x 5
+y 16
+level 80
+end
+arch Balrog
+name Great Demon of Fire
+Pow 50
+hp 12000
+maxhp 12000
+sp 550
+maxsp 550
+exp 1200000
+x 10
+y 8
+level 100
+resist_physical 95
+resist_magic 95
+resist_electricity 50
+resist_cold 50
+resist_acid 70
+resist_drain 100
+resist_weaponmagic 45
+resist_paralyze 95
+resist_deplete 100
+resist_godpower 95
+carrying 100
+arch blindness
+name aura of fire
+sp 197
+speed 0.000000
+type 110
+is_blind 0
+end
+arch key2
+slaying Stone of Fire
+end
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 11
+y 28
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 11
+y 37
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 12
+y 32
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end

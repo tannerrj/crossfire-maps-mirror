@@ -1,0 +1,1580 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Jun  3 21:09:48 2000
+endmsg
+width 17
+darkness 1
+height 16
+end
+arch dungeon_floor
+end
+arch mine10
+end
+arch dungeon_floor
+y 1
+end
+arch mine3
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch mine3
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch mine3
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch mine3
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch mine3
+y 5
+end
+arch dungeon_floor
+y 6
+end
+arch mine3
+y 6
+end
+arch dungeon_floor
+y 7
+end
+arch mine3
+y 7
+end
+arch dungeon_floor
+y 8
+end
+arch mine3
+y 8
+end
+arch dungeon_floor
+y 9
+end
+arch mine3
+y 9
+end
+arch dungeon_floor
+y 10
+end
+arch mine3
+y 10
+end
+arch dungeon_floor
+y 11
+end
+arch mine3
+y 11
+end
+arch dungeon_floor
+y 12
+end
+arch mine3
+y 12
+end
+arch dungeon_floor
+y 13
+end
+arch mine3
+y 13
+end
+arch dungeon_floor
+y 14
+end
+arch mine3
+y 14
+end
+arch dungeon_floor
+y 15
+end
+arch mine4
+y 15
+end
+arch dungeon_floor
+x 1
+end
+arch mine2
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch dungeon_floor
+x 1
+y 6
+end
+arch dungeon_floor
+x 1
+y 7
+end
+arch dungeon_floor
+x 1
+y 8
+end
+arch dungeon_floor
+x 1
+y 9
+end
+arch dungeon_floor
+x 1
+y 10
+end
+arch dungeon_floor
+x 1
+y 11
+end
+arch dungeon_floor
+x 1
+y 12
+end
+arch dungeon_floor
+x 1
+y 13
+end
+arch dungeon_floor
+x 1
+y 14
+end
+arch dungeon_floor
+x 1
+y 15
+end
+arch mine2
+x 1
+y 15
+end
+arch dungeon_floor
+x 2
+end
+arch mine2
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch dungeon_floor
+x 2
+y 6
+end
+arch dungeon_floor
+x 2
+y 7
+end
+arch dungeon_floor
+x 2
+y 8
+end
+arch dungeon_floor
+x 2
+y 9
+end
+arch dungeon_floor
+x 2
+y 10
+end
+arch dungeon_floor
+x 2
+y 11
+end
+arch dungeon_floor
+x 2
+y 12
+end
+arch dungeon_floor
+x 2
+y 13
+end
+arch dungeon_floor
+x 2
+y 14
+end
+arch dungeon_floor
+x 2
+y 15
+end
+arch mine2
+x 2
+y 15
+end
+arch dungeon_floor
+x 3
+end
+arch mine2
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch dungeon_floor
+x 3
+y 6
+end
+arch dungeon_floor
+x 3
+y 7
+end
+arch dungeon_floor
+x 3
+y 8
+end
+arch dungeon_floor
+x 3
+y 9
+end
+arch dungeon_floor
+x 3
+y 10
+end
+arch dungeon_floor
+x 3
+y 11
+end
+arch dungeon_floor
+x 3
+y 12
+end
+arch dungeon_floor
+x 3
+y 13
+end
+arch dungeon_floor
+x 3
+y 14
+end
+arch dungeon_floor
+x 3
+y 15
+end
+arch mine2
+x 3
+y 15
+end
+arch dungeon_floor
+x 4
+end
+arch mine16
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch mine3
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch mine3
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch mine3
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch mine4
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch dungeon_floor
+x 4
+y 6
+end
+arch dungeon_floor
+x 4
+y 7
+end
+arch dungeon_floor
+x 4
+y 8
+end
+arch dungeon_floor
+x 4
+y 9
+end
+arch dungeon_floor
+x 4
+y 10
+end
+arch dungeon_floor
+x 4
+y 11
+end
+arch dungeon_floor
+x 4
+y 12
+end
+arch dungeon_floor
+x 4
+y 13
+end
+arch dungeon_floor
+x 4
+y 14
+end
+arch dungeon_floor
+x 4
+y 15
+end
+arch mine2
+x 4
+y 15
+end
+arch dungeon_floor
+x 5
+end
+arch mine2
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch gem
+x 5
+y 1
+nrof 200
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch mithril_chainmail
+name Dwarven Mithril Coat
+msg
+  This coat of mithril was fasioned by
+the dwarves of Morgria,the greatest
+smiths in Erthos!
+endmsg
+Str 1
+Dex 1
+ac 5
+x 5
+y 2
+resist_physical 50
+magic 4
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch ruby
+x 5
+y 3
+nrof 200
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch mine2
+x 5
+y 4
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch dungeon_floor
+x 5
+y 6
+end
+arch dungeon_floor
+x 5
+y 7
+end
+arch dungeon_floor
+x 5
+y 8
+end
+arch dungeon_floor
+x 5
+y 9
+end
+arch dungeon_floor
+x 5
+y 10
+end
+arch dungeon_floor
+x 5
+y 11
+end
+arch dungeon_floor
+x 5
+y 12
+end
+arch dungeon_floor
+x 5
+y 13
+end
+arch dungeon_floor
+x 5
+y 14
+end
+arch dungeon_floor
+x 5
+y 15
+end
+arch mine2
+x 5
+y 15
+end
+arch dungeon_floor
+x 6
+end
+arch mine16
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch mine5
+x 6
+y 1
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch grate_closed_2
+x 6
+y 2
+connected 1
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch mine8
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch mine12
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch calm_floor
+x 6
+y 5
+end
+arch greater_dwarven_guard
+x 6
+y 5
+unaggressive 1
+end
+arch dungeon_floor
+x 6
+y 6
+end
+arch dungeon_floor
+x 6
+y 7
+end
+arch calm_floor
+x 6
+y 7
+end
+arch greater_dwarven_guard
+x 6
+y 7
+unaggressive 1
+end
+arch dungeon_floor
+x 6
+y 8
+end
+arch dungeon_floor
+x 6
+y 9
+end
+arch calm_floor
+x 6
+y 9
+end
+arch greater_dwarven_guard
+x 6
+y 9
+unaggressive 1
+end
+arch dungeon_floor
+x 6
+y 10
+end
+arch dungeon_floor
+x 6
+y 11
+end
+arch calm_floor
+x 6
+y 11
+end
+arch greater_dwarven_guard
+x 6
+y 11
+unaggressive 1
+end
+arch dungeon_floor
+x 6
+y 12
+end
+arch dungeon_floor
+x 6
+y 13
+end
+arch calm_floor
+x 6
+y 13
+end
+arch greater_dwarven_guard
+x 6
+y 13
+unaggressive 1
+end
+arch dungeon_floor
+x 6
+y 14
+end
+arch dungeon_floor
+x 6
+y 15
+end
+arch mine7
+x 6
+y 15
+end
+arch dungeon_floor
+x 7
+end
+arch mine2
+x 7
+end
+arch flagstone
+x 7
+y 1
+end
+arch calm_floor
+x 7
+y 1
+end
+arch greater_dwarven_guard
+x 7
+y 1
+unaggressive 1
+end
+arch flagstone
+x 7
+y 2
+end
+arch flagstone
+x 7
+y 3
+end
+arch flagstone
+x 7
+y 4
+end
+arch flagstone
+x 7
+y 5
+end
+arch flagstone
+x 7
+y 6
+end
+arch flagstone
+x 7
+y 7
+end
+arch flagstone
+x 7
+y 8
+end
+arch flagstone
+x 7
+y 9
+end
+arch flagstone
+x 7
+y 10
+end
+arch flagstone
+x 7
+y 11
+end
+arch flagstone
+x 7
+y 12
+end
+arch flagstone
+x 7
+y 13
+end
+arch flagstone
+x 7
+y 14
+end
+arch flagstone
+x 7
+y 15
+end
+arch invis_exit
+slaying /ElvenLands/Erthos/Dmines/pa
+hp 9
+sp 1
+x 7
+y 15
+end
+arch locked_door1
+name door
+x 7
+y 15
+no_pass 0
+pass_thru 1
+end
+arch dungeon_floor
+x 8
+end
+arch mine2
+x 8
+end
+arch flagstone
+x 8
+y 1
+end
+arch stol_king_2
+x 8
+y 1
+end
+arch calm_floor
+x 8
+y 1
+end
+arch dwarf_priest
+name Lord Dunnas
+msg
+@match hi|hello
+Welcome to my mines. As you must
+know,some of my dwarves have gone mad.
+We need as much help as we can get. My
+old castle,Dorn Bulgoth,was taken by
+unknown intruders. They had masks and
+cloaks. My soldiers fought bravely,but
+we lost. The indruders had magic. I
+think they are causing my subjects to
+go mad. If you can kill their leader
+and bring back his head as proof. I
+will reward you.
+endmsg
+hp 280
+wc 1
+ac 1
+x 8
+y 1
+carrying 150000
+arch greater_dwarven_guard
+end
+arch greater_dwarven_guard
+end
+arch greater_dwarven_guard
+end
+end
+arch flagstone
+x 8
+y 2
+end
+arch flagstone
+x 8
+y 3
+end
+arch flagstone
+x 8
+y 4
+end
+arch flagstone
+x 8
+y 5
+end
+arch flagstone
+x 8
+y 6
+end
+arch flagstone
+x 8
+y 7
+end
+arch flagstone
+x 8
+y 8
+end
+arch flagstone
+x 8
+y 9
+end
+arch flagstone
+x 8
+y 10
+end
+arch flagstone
+x 8
+y 11
+end
+arch flagstone
+x 8
+y 12
+end
+arch flagstone
+x 8
+y 13
+end
+arch flagstone
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch invis_exit
+slaying /ElvenLands/Erthos/Dmines/pa
+hp 9
+sp 1
+x 8
+y 15
+end
+arch locked_door1
+name door
+x 8
+y 15
+no_pass 0
+pass_thru 1
+end
+arch dungeon_floor
+x 9
+end
+arch mine2
+x 9
+end
+arch flagstone
+x 9
+y 1
+end
+arch calm_floor
+x 9
+y 1
+end
+arch greater_dwarven_guard
+x 9
+y 1
+unaggressive 1
+end
+arch flagstone
+x 9
+y 2
+end
+arch flagstone
+x 9
+y 3
+end
+arch flagstone
+x 9
+y 4
+end
+arch flagstone
+x 9
+y 5
+end
+arch flagstone
+x 9
+y 6
+end
+arch flagstone
+x 9
+y 7
+end
+arch flagstone
+x 9
+y 8
+end
+arch flagstone
+x 9
+y 9
+end
+arch flagstone
+x 9
+y 10
+end
+arch flagstone
+x 9
+y 11
+end
+arch flagstone
+x 9
+y 12
+end
+arch flagstone
+x 9
+y 13
+end
+arch flagstone
+x 9
+y 14
+end
+arch flagstone
+x 9
+y 15
+end
+arch invis_exit
+slaying /ElvenLands/Erthos/Dmines/pa
+hp 9
+sp 1
+x 9
+y 15
+end
+arch locked_door1
+name door
+x 9
+y 15
+no_pass 0
+pass_thru 1
+end
+arch dungeon_floor
+x 10
+end
+arch mine16
+x 10
+end
+arch dungeon_floor
+x 10
+y 1
+end
+arch mine5
+x 10
+y 1
+end
+arch dungeon_floor
+x 10
+y 2
+end
+arch grate_closed_2
+x 10
+y 2
+connected 1
+end
+arch dungeon_floor
+x 10
+y 3
+end
+arch mine8
+x 10
+y 3
+end
+arch dungeon_floor
+x 10
+y 4
+end
+arch mine4
+x 10
+y 4
+end
+arch dungeon_floor
+x 10
+y 5
+end
+arch calm_floor
+x 10
+y 5
+end
+arch greater_dwarven_guard
+x 10
+y 5
+unaggressive 1
+end
+arch dungeon_floor
+x 10
+y 6
+end
+arch dungeon_floor
+x 10
+y 7
+end
+arch calm_floor
+x 10
+y 7
+end
+arch greater_dwarven_guard
+x 10
+y 7
+unaggressive 1
+end
+arch dungeon_floor
+x 10
+y 8
+end
+arch dungeon_floor
+x 10
+y 9
+end
+arch calm_floor
+x 10
+y 9
+end
+arch greater_dwarven_guard
+x 10
+y 9
+unaggressive 1
+end
+arch dungeon_floor
+x 10
+y 10
+end
+arch dungeon_floor
+x 10
+y 11
+end
+arch calm_floor
+x 10
+y 11
+end
+arch greater_dwarven_guard
+x 10
+y 11
+unaggressive 1
+end
+arch dungeon_floor
+x 10
+y 12
+end
+arch dungeon_floor
+x 10
+y 13
+end
+arch calm_floor
+x 10
+y 13
+end
+arch greater_dwarven_guard
+x 10
+y 13
+unaggressive 1
+end
+arch dungeon_floor
+x 10
+y 14
+end
+arch dungeon_floor
+x 10
+y 15
+end
+arch mine6
+x 10
+y 15
+end
+arch dungeon_floor
+x 11
+end
+arch mine2
+x 11
+end
+arch dungeon_floor
+x 11
+y 1
+end
+arch mithril
+x 11
+y 1
+nrof 200
+end
+arch dungeon_floor
+x 11
+y 2
+end
+arch battle_axe
+name Great Dwarven Axe
+slaying giant
+msg
+  This great axe was made by the
+dwarvish smiths of Morgria.
+endmsg
+Str 2
+dam 60
+wc 2
+x 11
+y 2
+attacktype 256
+material 256
+magic 5
+end
+arch dungeon_floor
+x 11
+y 3
+end
+arch sapphire
+x 11
+y 3
+nrof 200
+end
+arch dungeon_floor
+x 11
+y 4
+end
+arch mine2
+x 11
+y 4
+end
+arch dungeon_floor
+x 11
+y 5
+end
+arch dungeon_floor
+x 11
+y 6
+end
+arch dungeon_floor
+x 11
+y 7
+end
+arch dungeon_floor
+x 11
+y 8
+end
+arch dungeon_floor
+x 11
+y 9
+end
+arch dungeon_floor
+x 11
+y 10
+end
+arch dungeon_floor
+x 11
+y 11
+end
+arch dungeon_floor
+x 11
+y 12
+end
+arch dungeon_floor
+x 11
+y 13
+end
+arch dungeon_floor
+x 11
+y 14
+end
+arch dungeon_floor
+x 11
+y 15
+end
+arch mine2
+x 11
+y 15
+end
+arch dungeon_floor
+x 12
+end
+arch mine16
+x 12
+end
+arch dungeon_floor
+x 12
+y 1
+end
+arch mine3
+x 12
+y 1
+end
+arch dungeon_floor
+x 12
+y 2
+end
+arch mine3
+x 12
+y 2
+end
+arch dungeon_floor
+x 12
+y 3
+end
+arch mine3
+x 12
+y 3
+end
+arch dungeon_floor
+x 12
+y 4
+end
+arch mine12
+x 12
+y 4
+end
+arch dungeon_floor
+x 12
+y 5
+end
+arch dungeon_floor
+x 12
+y 6
+end
+arch dungeon_floor
+x 12
+y 7
+end
+arch dungeon_floor
+x 12
+y 8
+end
+arch dungeon_floor
+x 12
+y 9
+end
+arch dungeon_floor
+x 12
+y 10
+end
+arch dungeon_floor
+x 12
+y 11
+end
+arch dungeon_floor
+x 12
+y 12
+end
+arch dungeon_floor
+x 12
+y 13
+end
+arch dungeon_floor
+x 12
+y 14
+end
+arch dungeon_floor
+x 12
+y 15
+end
+arch mine2
+x 12
+y 15
+end
+arch dungeon_floor
+x 13
+end
+arch mine2
+x 13
+end
+arch dungeon_floor
+x 13
+y 1
+end
+arch dungeon_floor
+x 13
+y 2
+end
+arch dungeon_floor
+x 13
+y 3
+end
+arch dungeon_floor
+x 13
+y 4
+end
+arch dungeon_floor
+x 13
+y 5
+end
+arch dungeon_floor
+x 13
+y 6
+end
+arch dungeon_floor
+x 13
+y 7
+end
+arch dungeon_floor
+x 13
+y 8
+end
+arch dungeon_floor
+x 13
+y 9
+end
+arch dungeon_floor
+x 13
+y 10
+end
+arch dungeon_floor
+x 13
+y 11
+end
+arch dungeon_floor
+x 13
+y 12
+end
+arch dungeon_floor
+x 13
+y 13
+end
+arch dungeon_floor
+x 13
+y 14
+end
+arch dungeon_floor
+x 13
+y 15
+end
+arch mine2
+x 13
+y 15
+end
+arch dungeon_floor
+x 14
+end
+arch mine2
+x 14
+end
+arch dungeon_floor
+x 14
+y 1
+end
+arch dungeon_floor
+x 14
+y 2
+end
+arch dungeon_floor
+x 14
+y 3
+end
+arch dungeon_floor
+x 14
+y 4
+end
+arch dungeon_floor
+x 14
+y 5
+end
+arch dungeon_floor
+x 14
+y 6
+end
+arch dungeon_floor
+x 14
+y 7
+end
+arch dungeon_floor
+x 14
+y 8
+end
+arch dungeon_floor
+x 14
+y 9
+end
+arch dungeon_floor
+x 14
+y 10
+end
+arch dungeon_floor
+x 14
+y 11
+end
+arch dungeon_floor
+x 14
+y 12
+end
+arch dungeon_floor
+x 14
+y 13
+end
+arch dungeon_floor
+x 14
+y 14
+end
+arch dungeon_floor
+x 14
+y 15
+end
+arch mine2
+x 14
+y 15
+end
+arch dungeon_floor
+x 15
+end
+arch mine2
+x 15
+end
+arch dungeon_floor
+x 15
+y 1
+end
+arch dungeon_floor
+x 15
+y 2
+end
+arch dungeon_floor
+x 15
+y 3
+end
+arch dungeon_floor
+x 15
+y 4
+end
+arch dungeon_floor
+x 15
+y 5
+end
+arch dungeon_floor
+x 15
+y 6
+end
+arch dungeon_floor
+x 15
+y 7
+end
+arch dungeon_floor
+x 15
+y 8
+end
+arch dungeon_floor
+x 15
+y 9
+end
+arch dungeon_floor
+x 15
+y 10
+end
+arch dungeon_floor
+x 15
+y 11
+end
+arch dungeon_floor
+x 15
+y 12
+end
+arch dungeon_floor
+x 15
+y 13
+end
+arch dungeon_floor
+x 15
+y 14
+end
+arch dungeon_floor
+x 15
+y 15
+end
+arch mine2
+x 15
+y 15
+end
+arch dungeon_floor
+x 16
+end
+arch mine9
+x 16
+end
+arch dungeon_floor
+x 16
+y 1
+end
+arch mine3
+x 16
+y 1
+end
+arch dungeon_floor
+x 16
+y 2
+end
+arch mine3
+x 16
+y 2
+end
+arch dungeon_floor
+x 16
+y 3
+end
+arch mine3
+x 16
+y 3
+end
+arch dungeon_floor
+x 16
+y 4
+end
+arch mine3
+x 16
+y 4
+end
+arch dungeon_floor
+x 16
+y 5
+end
+arch mine3
+x 16
+y 5
+end
+arch dungeon_floor
+x 16
+y 6
+end
+arch mine3
+x 16
+y 6
+end
+arch dungeon_floor
+x 16
+y 7
+end
+arch mine3
+x 16
+y 7
+end
+arch dungeon_floor
+x 16
+y 8
+end
+arch mine3
+x 16
+y 8
+end
+arch dungeon_floor
+x 16
+y 9
+end
+arch mine3
+x 16
+y 9
+end
+arch dungeon_floor
+x 16
+y 10
+end
+arch mine3
+x 16
+y 10
+end
+arch dungeon_floor
+x 16
+y 11
+end
+arch mine3
+x 16
+y 11
+end
+arch dungeon_floor
+x 16
+y 12
+end
+arch mine3
+x 16
+y 12
+end
+arch dungeon_floor
+x 16
+y 13
+end
+arch mine3
+x 16
+y 13
+end
+arch dungeon_floor
+x 16
+y 14
+end
+arch mine3
+x 16
+y 14
+end
+arch dungeon_floor
+x 16
+y 15
+end
+arch mine12
+x 16
+y 15
+end

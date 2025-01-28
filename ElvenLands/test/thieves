@@ -1,0 +1,1647 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Tue Apr 16 21:30:58 2002
+
+endmsg
+width 16
+height 16
+end
+arch cobblestones2
+end
+arch stwall_2_2_2
+end
+arch cobblestones2
+y 1
+end
+arch stwall_2_1_1
+y 1
+end
+arch cobblestones2
+y 2
+end
+arch stwall_2_1_1
+y 2
+end
+arch cobblestones2
+y 3
+end
+arch stwall_2_1_1
+y 3
+end
+arch cobblestones2
+y 4
+end
+arch stwall_2_2_1
+y 4
+end
+arch woodfloor
+y 5
+end
+arch woodwall_3_2
+y 5
+end
+arch woodfloor
+y 6
+end
+arch woodwall_2_1_1
+y 6
+end
+arch woodfloor
+y 7
+end
+arch woodwall_3_2
+y 7
+end
+arch woodfloor
+y 8
+end
+arch woodwall_2_1_1
+y 8
+end
+arch woodfloor
+y 9
+end
+arch woodwall_3_2
+y 9
+end
+arch woodfloor
+y 10
+end
+arch woodwall_2_1_1
+y 10
+end
+arch woodfloor
+y 11
+end
+arch woodwall_3_2
+y 11
+end
+arch woodfloor
+y 12
+end
+arch woodwall_2_1_1
+y 12
+end
+arch woodfloor
+y 13
+end
+arch woodwall_2_1_1
+y 13
+end
+arch woodfloor
+y 14
+end
+arch woodwall_2_1_1
+y 14
+end
+arch woodfloor
+y 15
+end
+arch woodwall_2_2_1
+y 15
+end
+arch cobblestones2
+x 1
+end
+arch stwall_2_1_2
+x 1
+end
+arch cobblestones2
+x 1
+y 1
+end
+arch cobblestones2
+x 1
+y 2
+end
+arch cobblestones2
+x 1
+y 3
+end
+arch cobblestones2
+x 1
+y 4
+end
+arch stwall_2_1_2
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch woodwall_2_1_2
+x 1
+y 5
+end
+arch woodfloor
+x 1
+y 6
+end
+arch pit_open
+hp 1
+sp 1
+x 1
+y 6
+end
+arch woodfloor
+x 1
+y 7
+end
+arch woodwall_2_1_2
+x 1
+y 7
+end
+arch woodfloor
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
+end
+arch woodwall_2_1_2
+x 1
+y 9
+end
+arch woodfloor
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 11
+end
+arch woodwall_2_1_2
+x 1
+y 11
+end
+arch woodfloor
+x 1
+y 12
+end
+arch woodfloor
+x 1
+y 13
+end
+arch woodfloor
+x 1
+y 14
+end
+arch woodfloor
+x 1
+y 15
+end
+arch woodwall_2_1_2
+x 1
+y 15
+end
+arch cobblestones2
+x 2
+end
+arch stwall_2_1_2
+x 2
+end
+arch cobblestones2
+x 2
+y 1
+end
+arch cobblestones2
+x 2
+y 2
+end
+arch cobblestones2
+x 2
+y 3
+end
+arch cobblestones2
+x 2
+y 4
+end
+arch stwall_2_1_2
+x 2
+y 4
+end
+arch woodfloor
+x 2
+y 5
+end
+arch woodwall_4
+x 2
+y 5
+end
+arch woodfloor
+x 2
+y 6
+end
+arch woodwall_2_1_1
+name false wall
+x 2
+y 6
+no_pass 0
+pass_thru 1
+end
+arch mover_7
+x 2
+y 6
+end
+arch woodfloor
+x 2
+y 7
+end
+arch woodwall_3_4
+x 2
+y 7
+end
+arch woodfloor
+x 2
+y 8
+end
+arch woodwall_2_1_1
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 9
+end
+arch woodwall_3_4
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 10
+end
+arch woodwall_2_1_1
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 11
+end
+arch woodwall_3_4
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 12
+end
+arch woodwall_2_2_1
+x 2
+y 12
+end
+arch woodfloor
+x 2
+y 13
+end
+arch woodfloor
+x 2
+y 14
+end
+arch woodfloor
+x 2
+y 15
+end
+arch woodwall_2_1_2
+x 2
+y 15
+end
+arch cobblestones2
+x 3
+end
+arch stwall_2_1_2
+x 3
+end
+arch cobblestones2
+x 3
+y 1
+end
+arch cobblestones2
+x 3
+y 2
+end
+arch cobblestones2
+x 3
+y 3
+end
+arch cobblestones2
+x 3
+y 4
+end
+arch stwall_2_1_2
+x 3
+y 4
+end
+arch woodfloor
+x 3
+y 5
+end
+arch woodwall_2_1_2
+x 3
+y 5
+end
+arch woodfloor
+x 3
+y 6
+end
+arch woodfloor
+x 3
+y 7
+end
+arch mover_8
+x 3
+y 7
+end
+arch woodfloor
+x 3
+y 8
+end
+arch mover_1
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 9
+end
+arch mover_1
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 10
+end
+arch mover_1
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 11
+end
+arch mover_1
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 12
+end
+arch woodwall_3_3
+x 3
+y 12
+end
+arch woodfloor
+x 3
+y 13
+end
+arch woodwall_2_1_1
+x 3
+y 13
+end
+arch woodfloor
+x 3
+y 14
+end
+arch woodwall_2_1_1
+x 3
+y 14
+end
+arch woodfloor
+x 3
+y 15
+end
+arch woodwall_3_1
+x 3
+y 15
+end
+arch cobblestones2
+x 4
+end
+arch stwall_2_1_2
+x 4
+end
+arch cobblestones2
+x 4
+y 1
+end
+arch cobblestones2
+x 4
+y 2
+end
+arch cobblestones2
+x 4
+y 3
+end
+arch cobblestones2
+x 4
+y 4
+end
+arch stwall_2_1_2
+x 4
+y 4
+end
+arch woodfloor
+x 4
+y 5
+end
+arch woodwall_3_1
+x 4
+y 5
+end
+arch woodfloor
+x 4
+y 6
+end
+arch woodfloor
+x 4
+y 7
+end
+arch woodfloor
+x 4
+y 8
+end
+arch mover_8
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 9
+end
+arch chair_1.3
+x 4
+y 9
+end
+arch mover_8
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 10
+end
+arch chair_1.3
+x 4
+y 10
+end
+arch mover_1
+x 4
+y 10
+end
+arch woodfloor
+x 4
+y 11
+end
+arch mover_1
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 12
+end
+arch grate_closed_1
+x 4
+y 12
+invisible 1
+connected 1
+end
+arch woodwall_2_1_2
+name false wall
+x 4
+y 12
+no_pass 0
+pass_thru 1
+end
+arch mover_1
+x 4
+y 12
+end
+arch woodfloor
+x 4
+y 13
+end
+arch mover_1
+x 4
+y 13
+end
+arch thief_1
+name thief
+x 4
+y 13
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 4
+y 14
+end
+arch mover_1
+x 4
+y 14
+end
+arch thief_1
+name thief
+x 4
+y 14
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 4
+y 15
+end
+arch woodwall_2_1_2
+x 4
+y 15
+end
+arch cobblestones2
+x 5
+end
+arch stwall_2_2_3
+x 5
+end
+arch cobblestones2
+x 5
+y 1
+end
+arch stwall_2_1_1
+x 5
+y 1
+end
+arch cobblestones2
+x 5
+y 2
+end
+arch stwall_2_1_1
+x 5
+y 2
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch stwall_2_1_1
+x 5
+y 3
+end
+arch cobblestones2
+x 5
+y 4
+end
+arch stwall_2_2_4
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch woodwall_2_1_2
+x 5
+y 5
+end
+arch woodfloor2
+x 5
+y 6
+no_pass 1
+end
+arch slevel_3_2
+x 5
+y 6
+end
+arch woodfloor2
+x 5
+y 7
+no_pass 1
+end
+arch slevel_3_2
+x 5
+y 7
+end
+arch woodfloor2
+x 5
+y 8
+no_pass 1
+end
+arch slevel_2_2_1
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 9
+end
+arch button_lever
+x 5
+y 9
+connected 1
+end
+arch mover_8
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 10
+end
+arch chair_1.3
+x 5
+y 10
+end
+arch mover_1
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 11
+end
+arch mover_1
+x 5
+y 11
+end
+arch woodfloor
+x 5
+y 12
+end
+arch woodwall_2_1_2
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 13
+end
+arch mover_8
+x 5
+y 13
+end
+arch thief_1
+name thief
+x 5
+y 13
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 5
+y 14
+end
+arch mover_1
+x 5
+y 14
+end
+arch thief_1
+name thief
+x 5
+y 14
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 5
+y 15
+end
+arch woodwall_2_1_2
+x 5
+y 15
+end
+arch blocked
+x 6
+end
+arch blocked
+x 6
+y 1
+end
+arch blocked
+x 6
+y 2
+end
+arch blocked
+x 6
+y 3
+end
+arch blocked
+x 6
+y 4
+end
+arch woodfloor
+x 6
+y 5
+end
+arch woodwall_3_1
+x 6
+y 5
+end
+arch woodfloor2
+x 6
+y 6
+end
+arch creator
+other_arch fog
+x 6
+y 6
+connected 1
+end
+arch woodfloor2
+x 6
+y 7
+end
+arch creator
+other_arch fog
+x 6
+y 7
+connected 1
+end
+arch woodfloor2
+x 6
+y 8
+no_pass 1
+end
+arch slevel_3_1
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 9
+end
+arch chair_1.3
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 10
+end
+arch chair_1.3
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
+end
+arch woodwall_2_2_3
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 13
+end
+arch woodwall_2_1_1
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 14
+end
+arch woodwall_2_1_1
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 15
+end
+arch woodwall_2_2_4
+x 6
+y 15
+end
+arch blocked
+x 7
+y 4
+end
+arch woodfloor
+x 7
+y 5
+end
+arch woodwall_2_1_2
+x 7
+y 5
+end
+arch woodfloor2
+x 7
+y 6
+end
+arch teleporter
+slaying thieves
+hp 4
+sp 3
+x 7
+y 6
+invisible 1
+connected 1
+end
+arch conjurer2
+name The Great Grendrich
+x 7
+y 6
+unaggressive 1
+end
+arch woodfloor2
+x 7
+y 7
+end
+arch creator
+other_arch fog
+x 7
+y 7
+connected 1
+end
+arch woodfloor2
+x 7
+y 8
+no_pass 1
+end
+arch slevel_3_1
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 15
+end
+arch blocked
+x 8
+y 4
+end
+arch woodfloor
+x 8
+y 5
+end
+arch woodwall_3_1
+x 8
+y 5
+end
+arch woodfloor2
+x 8
+y 6
+end
+arch creator
+other_arch fog
+x 8
+y 6
+connected 1
+end
+arch woodfloor2
+x 8
+y 7
+end
+arch creator
+other_arch fog
+x 8
+y 7
+connected 1
+end
+arch woodfloor2
+x 8
+y 8
+no_pass 1
+end
+arch slevel_3_1
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 9
+end
+arch chair_1.3
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 10
+end
+arch chair_1.3
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 12
+end
+arch woodwall_2_2_2
+x 8
+y 12
+end
+arch woodfloor
+x 8
+y 13
+end
+arch woodwall_2_1_1
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 14
+end
+arch woodwall_2_1_1
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 15
+end
+arch woodwall_2_2_1
+x 8
+y 15
+end
+arch thief_1
+name thief
+x 9
+y 2
+level 30
+invisible 1
+stand_still 1
+end
+arch blocked
+x 9
+y 4
+end
+arch woodfloor
+x 9
+y 5
+end
+arch woodwall_2_1_2
+x 9
+y 5
+end
+arch woodfloor2
+x 9
+y 6
+no_pass 1
+end
+arch slevel_3_4
+x 9
+y 6
+end
+arch woodfloor2
+x 9
+y 7
+no_pass 1
+end
+arch slevel_3_4
+x 9
+y 7
+end
+arch woodfloor2
+x 9
+y 8
+no_pass 1
+end
+arch slevel_2_2_4
+x 9
+y 8
+end
+arch woodfloor
+x 9
+y 9
+end
+arch chair_1.3
+x 9
+y 9
+end
+arch mover_2
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 10
+end
+arch chair_1.3
+x 9
+y 10
+end
+arch mover_1
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 11
+end
+arch mover_1
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 12
+end
+arch woodwall_2_1_2
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 13
+end
+arch mover_2
+x 9
+y 13
+end
+arch thief_1
+name thief
+x 9
+y 13
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 9
+y 14
+end
+arch mover_1
+x 9
+y 14
+end
+arch thief_1
+name thief
+x 9
+y 14
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 9
+y 15
+end
+arch woodwall_2_1_2
+x 9
+y 15
+end
+arch blocked
+x 10
+y 4
+end
+arch woodfloor
+x 10
+y 5
+end
+arch woodwall_3_1
+x 10
+y 5
+end
+arch woodfloor
+x 10
+y 6
+end
+arch woodfloor
+x 10
+y 7
+end
+arch woodfloor
+x 10
+y 8
+end
+arch mover_2
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 9
+end
+arch chair_1.3
+x 10
+y 9
+end
+arch mover_2
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 10
+end
+arch chair_1.3
+x 10
+y 10
+end
+arch mover_1
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 11
+end
+arch mover_1
+x 10
+y 11
+end
+arch woodfloor
+x 10
+y 12
+end
+arch grate_closed_1
+x 10
+y 12
+invisible 1
+connected 1
+end
+arch woodwall_2_1_2
+name false wall
+x 10
+y 12
+no_pass 0
+pass_thru 1
+end
+arch mover_1
+x 10
+y 12
+end
+arch woodfloor
+x 10
+y 13
+end
+arch mover_1
+x 10
+y 13
+end
+arch thief_1
+name thief
+x 10
+y 13
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 10
+y 14
+end
+arch mover_1
+x 10
+y 14
+end
+arch thief_1
+name thief
+x 10
+y 14
+level 30
+invisible 1
+stand_still 1
+end
+arch woodfloor
+x 10
+y 15
+end
+arch woodwall_2_1_2
+x 10
+y 15
+end
+arch blocked
+x 11
+y 4
+end
+arch woodfloor
+x 11
+y 5
+end
+arch woodwall_2_1_2
+x 11
+y 5
+end
+arch woodfloor
+x 11
+y 6
+end
+arch woodfloor
+x 11
+y 7
+end
+arch mover_2
+x 11
+y 7
+end
+arch woodfloor
+x 11
+y 8
+end
+arch mover_1
+x 11
+y 8
+end
+arch woodfloor
+x 11
+y 9
+end
+arch mover_1
+x 11
+y 9
+end
+arch woodfloor
+x 11
+y 10
+end
+arch mover_1
+x 11
+y 10
+end
+arch woodfloor
+x 11
+y 11
+end
+arch mover_1
+x 11
+y 11
+end
+arch woodfloor
+x 11
+y 12
+end
+arch woodwall_3_3
+x 11
+y 12
+end
+arch woodfloor
+x 11
+y 13
+end
+arch woodwall_2_1_1
+x 11
+y 13
+end
+arch woodfloor
+x 11
+y 14
+end
+arch woodwall_2_1_1
+x 11
+y 14
+end
+arch woodfloor
+x 11
+y 15
+end
+arch woodwall_3_1
+x 11
+y 15
+end
+arch blocked
+x 12
+y 4
+end
+arch woodfloor
+x 12
+y 5
+end
+arch woodwall_4
+x 12
+y 5
+end
+arch woodfloor
+x 12
+y 6
+end
+arch woodwall_2_1_1
+name false wall
+x 12
+y 6
+no_pass 0
+pass_thru 1
+end
+arch mover_3
+x 12
+y 6
+end
+arch woodfloor
+x 12
+y 7
+end
+arch woodwall_3_2
+x 12
+y 7
+end
+arch woodfloor
+x 12
+y 8
+end
+arch woodwall_2_1_1
+x 12
+y 8
+end
+arch woodfloor
+x 12
+y 9
+end
+arch woodwall_3_2
+x 12
+y 9
+end
+arch woodfloor
+x 12
+y 10
+end
+arch woodwall_2_1_1
+x 12
+y 10
+end
+arch woodfloor
+x 12
+y 11
+end
+arch woodwall_3_2
+x 12
+y 11
+end
+arch woodfloor
+x 12
+y 12
+end
+arch woodwall_2_2_4
+x 12
+y 12
+end
+arch woodfloor
+x 12
+y 13
+end
+arch woodfloor
+x 12
+y 14
+end
+arch woodfloor
+x 12
+y 15
+end
+arch woodwall_2_1_2
+x 12
+y 15
+end
+arch blocked
+x 13
+y 4
+end
+arch woodfloor
+x 13
+y 5
+end
+arch woodwall_2_1_2
+x 13
+y 5
+end
+arch woodfloor
+x 13
+y 6
+end
+arch pit_open
+hp 4
+sp 1
+x 13
+y 6
+end
+arch woodfloor
+x 13
+y 7
+end
+arch woodwall_2_1_2
+x 13
+y 7
+end
+arch woodfloor
+x 13
+y 8
+end
+arch woodfloor
+x 13
+y 9
+end
+arch woodwall_2_1_2
+x 13
+y 9
+end
+arch woodfloor
+x 13
+y 10
+end
+arch woodfloor
+x 13
+y 11
+end
+arch woodwall_2_1_2
+x 13
+y 11
+end
+arch woodfloor
+x 13
+y 12
+end
+arch woodfloor
+x 13
+y 13
+end
+arch woodfloor
+x 13
+y 14
+end
+arch woodfloor
+x 13
+y 15
+end
+arch woodwall_2_1_2
+x 13
+y 15
+end
+arch blocked
+x 14
+y 4
+end
+arch woodfloor
+x 14
+y 5
+end
+arch woodwall_3_4
+x 14
+y 5
+end
+arch woodfloor
+x 14
+y 6
+end
+arch woodwall_2_1_1
+x 14
+y 6
+end
+arch woodfloor
+x 14
+y 7
+end
+arch woodwall_3_4
+x 14
+y 7
+end
+arch woodfloor
+x 14
+y 8
+end
+arch woodwall_2_1_1
+x 14
+y 8
+end
+arch woodfloor
+x 14
+y 9
+end
+arch woodwall_3_4
+x 14
+y 9
+end
+arch woodfloor
+x 14
+y 10
+end
+arch woodwall_2_1_1
+x 14
+y 10
+end
+arch woodfloor
+x 14
+y 11
+end
+arch woodwall_3_4
+x 14
+y 11
+end
+arch woodfloor
+x 14
+y 12
+end
+arch woodwall_2_1_1
+x 14
+y 12
+end
+arch woodfloor
+x 14
+y 13
+end
+arch woodwall_2_1_1
+x 14
+y 13
+end
+arch woodfloor
+x 14
+y 14
+end
+arch woodwall_2_1_1
+x 14
+y 14
+end
+arch woodfloor
+x 14
+y 15
+end
+arch woodwall_2_2_4
+x 14
+y 15
+end
+arch magic_mouth
+msg
+And now for my greatest trick!
+endmsg
+x 15
+connected 1
+end
+arch blocked
+x 15
+y 4
+end
+arch woodfloor
+x 15
+y 5
+end
+arch woodfloor
+x 15
+y 6
+end
+arch woodfloor
+x 15
+y 7
+end
+arch woodfloor
+x 15
+y 8
+end
+arch woodfloor
+x 15
+y 9
+end
+arch woodfloor
+x 15
+y 10
+end
+arch woodfloor
+x 15
+y 11
+end
+arch woodfloor
+x 15
+y 12
+end
+arch woodfloor
+x 15
+y 13
+end
+arch woodfloor
+x 15
+y 14
+end
+arch woodfloor
+x 15
+y 15
+end

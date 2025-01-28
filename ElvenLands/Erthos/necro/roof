@@ -1,0 +1,2500 @@
+arch map
+name roof
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat May  5 18:27:08 2001
+endmsg
+width 32
+height 32
+darkness 1
+end
+arch blocked
+y 2
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch stonefloor2
+name wall
+x 6
+y 6
+no_pass 1
+end
+arch slevel_2_2_2
+x 6
+y 6
+end
+arch stonefloor2
+name wall
+x 6
+y 7
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 7
+end
+arch stonefloor2
+name wall
+x 6
+y 8
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 8
+end
+arch stonefloor2
+name wall
+x 6
+y 9
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 9
+end
+arch stonefloor2
+name wall
+x 6
+y 10
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 10
+end
+arch stonefloor2
+name wall
+x 6
+y 11
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 11
+end
+arch stonefloor2
+name wall
+x 6
+y 12
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 12
+end
+arch stonefloor2
+name wall
+x 6
+y 13
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 13
+end
+arch stonefloor2
+name wall
+x 6
+y 14
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 14
+end
+arch stonefloor2
+name wall
+x 6
+y 15
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 15
+end
+arch stonefloor2
+name wall
+x 6
+y 16
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 16
+end
+arch stonefloor2
+name wall
+x 6
+y 17
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 17
+end
+arch stonefloor2
+name wall
+x 6
+y 18
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 18
+end
+arch stonefloor2
+name wall
+x 6
+y 19
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 19
+end
+arch stonefloor2
+name wall
+x 6
+y 20
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 20
+end
+arch stonefloor2
+name wall
+x 6
+y 21
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 21
+end
+arch stonefloor2
+name wall
+x 6
+y 22
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 22
+end
+arch stonefloor2
+name wall
+x 6
+y 23
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 23
+end
+arch stonefloor2
+name wall
+x 6
+y 24
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 24
+end
+arch stonefloor2
+name wall
+x 6
+y 25
+no_pass 1
+end
+arch slevel_3_2
+x 6
+y 25
+end
+arch stonefloor2
+name wall
+x 6
+y 26
+no_pass 1
+end
+arch slevel_2_2_1
+x 6
+y 26
+end
+arch stonefloor2
+name wall
+x 7
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 7
+y 6
+end
+arch cobblestones2
+x 7
+y 7
+end
+arch statue
+x 7
+y 7
+end
+arch cobblestones2
+x 7
+y 8
+end
+arch cobblestones2
+x 7
+y 9
+end
+arch cobblestones2
+x 7
+y 10
+end
+arch cobblestones2
+x 7
+y 11
+end
+arch cobblestones2
+x 7
+y 12
+end
+arch cobblestones2
+x 7
+y 13
+end
+arch cobblestones2
+x 7
+y 14
+end
+arch flagstone
+x 7
+y 15
+end
+arch stair_down_2
+x 7
+y 15
+end
+arch cobblestones2
+x 7
+y 16
+end
+arch cobblestones2
+x 7
+y 17
+end
+arch cobblestones2
+x 7
+y 18
+end
+arch cobblestones2
+x 7
+y 19
+end
+arch cobblestones2
+x 7
+y 20
+end
+arch cobblestones2
+x 7
+y 21
+end
+arch cobblestones2
+x 7
+y 22
+end
+arch cobblestones2
+x 7
+y 23
+end
+arch cobblestones2
+x 7
+y 24
+end
+arch cobblestones2
+x 7
+y 25
+end
+arch statue
+x 7
+y 25
+end
+arch stonefloor2
+name wall
+x 7
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 7
+y 26
+end
+arch stonefloor2
+name wall
+x 8
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 8
+y 6
+end
+arch cobblestones2
+x 8
+y 7
+end
+arch cobblestones2
+x 8
+y 8
+end
+arch cobblestones2
+x 8
+y 9
+end
+arch cobblestones2
+x 8
+y 10
+end
+arch cobblestones2
+x 8
+y 11
+end
+arch cobblestones2
+x 8
+y 12
+end
+arch cobblestones2
+x 8
+y 13
+end
+arch cobblestones2
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch cobblestones2
+x 8
+y 16
+end
+arch cobblestones2
+x 8
+y 17
+end
+arch cobblestones2
+x 8
+y 18
+end
+arch cobblestones2
+x 8
+y 19
+end
+arch cobblestones2
+x 8
+y 20
+end
+arch cobblestones2
+x 8
+y 21
+end
+arch cobblestones2
+x 8
+y 22
+end
+arch cobblestones2
+x 8
+y 23
+end
+arch cobblestones2
+x 8
+y 24
+end
+arch cobblestones2
+x 8
+y 25
+end
+arch stonefloor2
+name wall
+x 8
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 8
+y 26
+end
+arch stonefloor2
+name wall
+x 9
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 9
+y 6
+end
+arch cobblestones2
+x 9
+y 7
+end
+arch cobblestones2
+x 9
+y 8
+end
+arch cobblestones2
+x 9
+y 9
+end
+arch cobblestones2
+x 9
+y 10
+end
+arch cobblestones2
+x 9
+y 11
+end
+arch cobblestones2
+x 9
+y 12
+end
+arch cobblestones2
+x 9
+y 13
+end
+arch cobblestones2
+x 9
+y 14
+end
+arch flagstone
+x 9
+y 15
+end
+arch cobblestones2
+x 9
+y 16
+end
+arch cobblestones2
+x 9
+y 17
+end
+arch cobblestones2
+x 9
+y 18
+end
+arch cobblestones2
+x 9
+y 19
+end
+arch cobblestones2
+x 9
+y 20
+end
+arch cobblestones2
+x 9
+y 21
+end
+arch cobblestones2
+x 9
+y 22
+end
+arch cobblestones2
+x 9
+y 23
+end
+arch cobblestones2
+x 9
+y 24
+end
+arch cobblestones2
+x 9
+y 25
+end
+arch stonefloor2
+name wall
+x 9
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 9
+y 26
+end
+arch stonefloor2
+name wall
+x 10
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 10
+y 6
+end
+arch cobblestones2
+x 10
+y 7
+end
+arch cobblestones2
+x 10
+y 8
+end
+arch cobblestones2
+x 10
+y 9
+end
+arch cobblestones2
+x 10
+y 10
+end
+arch cobblestones2
+x 10
+y 11
+end
+arch cobblestones2
+x 10
+y 12
+end
+arch cobblestones2
+x 10
+y 13
+end
+arch cobblestones2
+x 10
+y 14
+end
+arch flagstone
+x 10
+y 15
+end
+arch cobblestones2
+x 10
+y 16
+end
+arch cobblestones2
+x 10
+y 17
+end
+arch cobblestones2
+x 10
+y 18
+end
+arch cobblestones2
+x 10
+y 19
+end
+arch cobblestones2
+x 10
+y 20
+end
+arch cobblestones2
+x 10
+y 21
+end
+arch cobblestones2
+x 10
+y 22
+end
+arch cobblestones2
+x 10
+y 23
+end
+arch cobblestones2
+x 10
+y 24
+end
+arch cobblestones2
+x 10
+y 25
+end
+arch stonefloor2
+name wall
+x 10
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 10
+y 26
+end
+arch stonefloor2
+name wall
+x 11
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 11
+y 6
+end
+arch cobblestones2
+x 11
+y 7
+end
+arch cobblestones2
+x 11
+y 8
+end
+arch cobblestones2
+x 11
+y 9
+end
+arch cobblestones2
+x 11
+y 10
+end
+arch cobblestones2
+x 11
+y 11
+end
+arch cobblestones2
+x 11
+y 12
+end
+arch cobblestones2
+x 11
+y 13
+end
+arch cobblestones2
+x 11
+y 14
+end
+arch flagstone
+x 11
+y 15
+end
+arch cobblestones2
+x 11
+y 16
+end
+arch cobblestones2
+x 11
+y 17
+end
+arch cobblestones2
+x 11
+y 18
+end
+arch cobblestones2
+x 11
+y 19
+end
+arch cobblestones2
+x 11
+y 20
+end
+arch cobblestones2
+x 11
+y 21
+end
+arch cobblestones2
+x 11
+y 22
+end
+arch cobblestones2
+x 11
+y 23
+end
+arch cobblestones2
+x 11
+y 24
+end
+arch cobblestones2
+x 11
+y 25
+end
+arch stonefloor2
+name wall
+x 11
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 11
+y 26
+end
+arch stonefloor2
+name wall
+x 12
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 12
+y 6
+end
+arch cobblestones2
+x 12
+y 7
+end
+arch cobblestones2
+x 12
+y 8
+end
+arch cobblestones2
+x 12
+y 9
+end
+arch cobblestones2
+x 12
+y 10
+end
+arch cobblestones2
+x 12
+y 11
+end
+arch cobblestones2
+x 12
+y 12
+end
+arch cobblestones2
+x 12
+y 13
+end
+arch cobblestones2
+x 12
+y 14
+end
+arch flagstone
+x 12
+y 15
+end
+arch cobblestones2
+x 12
+y 16
+end
+arch cobblestones2
+x 12
+y 17
+end
+arch cobblestones2
+x 12
+y 18
+end
+arch cobblestones2
+x 12
+y 19
+end
+arch cobblestones2
+x 12
+y 20
+end
+arch cobblestones2
+x 12
+y 21
+end
+arch cobblestones2
+x 12
+y 22
+end
+arch cobblestones2
+x 12
+y 23
+end
+arch cobblestones2
+x 12
+y 24
+end
+arch cobblestones2
+x 12
+y 25
+end
+arch stonefloor2
+name wall
+x 12
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 12
+y 26
+end
+arch stonefloor2
+name wall
+x 13
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 13
+y 6
+end
+arch cobblestones2
+x 13
+y 7
+end
+arch cobblestones2
+x 13
+y 8
+end
+arch cobblestones2
+x 13
+y 9
+end
+arch cobblestones2
+x 13
+y 10
+end
+arch cobblestones2
+x 13
+y 11
+end
+arch cobblestones2
+x 13
+y 12
+end
+arch cobblestones2
+x 13
+y 13
+end
+arch cobblestones2
+x 13
+y 14
+end
+arch flagstone
+x 13
+y 15
+end
+arch cobblestones2
+x 13
+y 16
+end
+arch cobblestones2
+x 13
+y 17
+end
+arch cobblestones2
+x 13
+y 18
+end
+arch cobblestones2
+x 13
+y 19
+end
+arch cobblestones2
+x 13
+y 20
+end
+arch cobblestones2
+x 13
+y 21
+end
+arch cobblestones2
+x 13
+y 22
+end
+arch cobblestones2
+x 13
+y 23
+end
+arch cobblestones2
+x 13
+y 24
+end
+arch cobblestones2
+x 13
+y 25
+end
+arch stonefloor2
+name wall
+x 13
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 13
+y 26
+end
+arch stonefloor2
+name wall
+x 14
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 14
+y 6
+end
+arch cobblestones2
+x 14
+y 7
+end
+arch cobblestones2
+x 14
+y 8
+end
+arch cobblestones2
+x 14
+y 9
+end
+arch cobblestones2
+x 14
+y 10
+end
+arch cobblestones2
+x 14
+y 11
+end
+arch cobblestones2
+x 14
+y 12
+end
+arch cobblestones2
+x 14
+y 13
+end
+arch cobblestones2
+x 14
+y 14
+end
+arch flagstone
+x 14
+y 15
+end
+arch cobblestones2
+x 14
+y 16
+end
+arch cobblestones2
+x 14
+y 17
+end
+arch cobblestones2
+x 14
+y 18
+end
+arch cobblestones2
+x 14
+y 19
+end
+arch cobblestones2
+x 14
+y 20
+end
+arch cobblestones2
+x 14
+y 21
+end
+arch cobblestones2
+x 14
+y 22
+end
+arch cobblestones2
+x 14
+y 23
+end
+arch cobblestones2
+x 14
+y 24
+end
+arch cobblestones2
+x 14
+y 25
+end
+arch stonefloor2
+name wall
+x 14
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 14
+y 26
+end
+arch stonefloor2
+name wall
+x 15
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 15
+y 6
+end
+arch cobblestones2
+x 15
+y 7
+end
+arch cobblestones2
+x 15
+y 8
+end
+arch cobblestones2
+x 15
+y 9
+end
+arch cobblestones2
+x 15
+y 10
+end
+arch cobblestones2
+x 15
+y 11
+end
+arch cobblestones2
+x 15
+y 12
+end
+arch blackmarble
+x 15
+y 13
+end
+arch statue
+x 15
+y 13
+end
+arch blackmarble
+x 15
+y 14
+end
+arch flagstone
+x 15
+y 15
+end
+arch blackmarble
+x 15
+y 16
+end
+arch blackmarble
+x 15
+y 17
+end
+arch statue
+x 15
+y 17
+end
+arch cobblestones2
+x 15
+y 18
+end
+arch cobblestones2
+x 15
+y 19
+end
+arch cobblestones2
+x 15
+y 20
+end
+arch cobblestones2
+x 15
+y 21
+end
+arch cobblestones2
+x 15
+y 22
+end
+arch cobblestones2
+x 15
+y 23
+end
+arch cobblestones2
+x 15
+y 24
+end
+arch cobblestones2
+x 15
+y 25
+end
+arch stonefloor2
+name wall
+x 15
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 15
+y 26
+end
+arch stonefloor2
+name wall
+x 16
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 16
+y 6
+end
+arch cobblestones2
+x 16
+y 7
+end
+arch cobblestones2
+x 16
+y 8
+end
+arch cobblestones2
+x 16
+y 9
+end
+arch cobblestones2
+x 16
+y 10
+end
+arch cobblestones2
+x 16
+y 11
+end
+arch cobblestones2
+x 16
+y 12
+end
+arch blackmarble
+x 16
+y 13
+end
+arch blackmarble
+x 16
+y 14
+end
+arch blackmarble
+x 16
+y 15
+end
+arch necromancer
+msg
+@match hi|hello
+The unmitigated foolishness! How could
+you come here?! Here,where your doom
+is!!! I will crush you for
+interrupting me!!!   Doth'Engoloth
+Endurectar'felosth foth nuremuptra
+toomroth doth elendhe!!!  
+ ...Come my pet... ...destroy this
+fool...
+endmsg
+Str 15
+Dex 20
+Con 20
+Wis 25
+Pow 85
+sp 700
+maxsp 700
+dam 10
+wc -25
+ac -10
+x 16
+y 15
+resist_physical 95
+resist_magic 95
+resist_fire 80
+resist_electricity 80
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+resist_poison 100
+resist_paralyze 95
+resist_fear 100
+resist_cancellation 50
+resist_deplete 100
+resist_death 95
+resist_chaos 50
+resist_godpower 50
+reflect_missile 1
+reflect_spell 1
+end
+arch blackmarble
+x 16
+y 16
+end
+arch blackmarble
+x 16
+y 17
+end
+arch cobblestones2
+x 16
+y 18
+end
+arch cobblestones2
+x 16
+y 19
+end
+arch cobblestones2
+x 16
+y 20
+end
+arch cobblestones2
+x 16
+y 21
+end
+arch cobblestones2
+x 16
+y 22
+end
+arch cobblestones2
+x 16
+y 23
+end
+arch cobblestones2
+x 16
+y 24
+end
+arch cobblestones2
+x 16
+y 25
+end
+arch stonefloor2
+name wall
+x 16
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 16
+y 26
+end
+arch stonefloor2
+name wall
+x 17
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 17
+y 6
+end
+arch flagstone
+x 17
+y 7
+end
+arch stair_down_3
+x 17
+y 7
+end
+arch flagstone
+x 17
+y 8
+end
+arch flagstone
+x 17
+y 9
+end
+arch flagstone
+x 17
+y 10
+end
+arch flagstone
+x 17
+y 11
+end
+arch flagstone
+x 17
+y 12
+end
+arch flagstone
+x 17
+y 13
+end
+arch blackmarble
+x 17
+y 14
+end
+arch blackmarble
+x 17
+y 15
+end
+arch altar_devourers
+x 17
+y 15
+end
+arch blackmarble
+x 17
+y 16
+end
+arch flagstone
+x 17
+y 17
+end
+arch flagstone
+x 17
+y 18
+end
+arch flagstone
+x 17
+y 19
+end
+arch flagstone
+x 17
+y 20
+end
+arch flagstone
+x 17
+y 21
+end
+arch flagstone
+x 17
+y 22
+end
+arch flagstone
+x 17
+y 23
+end
+arch flagstone
+x 17
+y 24
+end
+arch flagstone
+x 17
+y 25
+end
+arch stair_down_1
+x 17
+y 25
+end
+arch stonefloor2
+name wall
+x 17
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 17
+y 26
+end
+arch stonefloor2
+name wall
+x 18
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 18
+y 6
+end
+arch cobblestones2
+x 18
+y 7
+end
+arch cobblestones2
+x 18
+y 8
+end
+arch cobblestones2
+x 18
+y 9
+end
+arch cobblestones2
+x 18
+y 10
+end
+arch cobblestones2
+x 18
+y 11
+end
+arch cobblestones2
+x 18
+y 12
+end
+arch blackmarble
+x 18
+y 13
+end
+arch blackmarble
+x 18
+y 14
+end
+arch blackmarble
+x 18
+y 15
+end
+arch blackmarble
+x 18
+y 16
+end
+arch blackmarble
+x 18
+y 17
+end
+arch cobblestones2
+x 18
+y 18
+end
+arch cobblestones2
+x 18
+y 19
+end
+arch cobblestones2
+x 18
+y 20
+end
+arch cobblestones2
+x 18
+y 21
+end
+arch cobblestones2
+x 18
+y 22
+end
+arch cobblestones2
+x 18
+y 23
+end
+arch cobblestones2
+x 18
+y 24
+end
+arch cobblestones2
+x 18
+y 25
+end
+arch stonefloor2
+name wall
+x 18
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 18
+y 26
+end
+arch stonefloor2
+name wall
+x 19
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 19
+y 6
+end
+arch cobblestones2
+x 19
+y 7
+end
+arch cobblestones2
+x 19
+y 8
+end
+arch cobblestones2
+x 19
+y 9
+end
+arch cobblestones2
+x 19
+y 10
+end
+arch cobblestones2
+x 19
+y 11
+end
+arch cobblestones2
+x 19
+y 12
+end
+arch blackmarble
+x 19
+y 13
+end
+arch statue
+x 19
+y 13
+end
+arch blackmarble
+x 19
+y 14
+end
+arch flagstone
+x 19
+y 15
+end
+arch blackmarble
+x 19
+y 16
+end
+arch blackmarble
+x 19
+y 17
+end
+arch statue
+x 19
+y 17
+end
+arch cobblestones2
+x 19
+y 18
+end
+arch cobblestones2
+x 19
+y 19
+end
+arch cobblestones2
+x 19
+y 20
+end
+arch cobblestones2
+x 19
+y 21
+end
+arch cobblestones2
+x 19
+y 22
+end
+arch cobblestones2
+x 19
+y 23
+end
+arch cobblestones2
+x 19
+y 24
+end
+arch cobblestones2
+x 19
+y 25
+end
+arch stonefloor2
+name wall
+x 19
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 19
+y 26
+end
+arch stonefloor2
+name wall
+x 20
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 20
+y 6
+end
+arch cobblestones2
+x 20
+y 7
+end
+arch cobblestones2
+x 20
+y 8
+end
+arch cobblestones2
+x 20
+y 9
+end
+arch cobblestones2
+x 20
+y 10
+end
+arch cobblestones2
+x 20
+y 11
+end
+arch cobblestones2
+x 20
+y 12
+end
+arch cobblestones2
+x 20
+y 13
+end
+arch cobblestones2
+x 20
+y 14
+end
+arch flagstone
+x 20
+y 15
+end
+arch cobblestones2
+x 20
+y 16
+end
+arch cobblestones2
+x 20
+y 17
+end
+arch cobblestones2
+x 20
+y 18
+end
+arch cobblestones2
+x 20
+y 19
+end
+arch cobblestones2
+x 20
+y 20
+end
+arch cobblestones2
+x 20
+y 21
+end
+arch cobblestones2
+x 20
+y 22
+end
+arch cobblestones2
+x 20
+y 23
+end
+arch cobblestones2
+x 20
+y 24
+end
+arch cobblestones2
+x 20
+y 25
+end
+arch stonefloor2
+name wall
+x 20
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 20
+y 26
+end
+arch stonefloor2
+name wall
+x 21
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 21
+y 6
+end
+arch cobblestones2
+x 21
+y 7
+end
+arch cobblestones2
+x 21
+y 8
+end
+arch cobblestones2
+x 21
+y 9
+end
+arch cobblestones2
+x 21
+y 10
+end
+arch cobblestones2
+x 21
+y 11
+end
+arch cobblestones2
+x 21
+y 12
+end
+arch cobblestones2
+x 21
+y 13
+end
+arch cobblestones2
+x 21
+y 14
+end
+arch flagstone
+x 21
+y 15
+end
+arch cobblestones2
+x 21
+y 16
+end
+arch cobblestones2
+x 21
+y 17
+end
+arch cobblestones2
+x 21
+y 18
+end
+arch cobblestones2
+x 21
+y 19
+end
+arch cobblestones2
+x 21
+y 20
+end
+arch cobblestones2
+x 21
+y 21
+end
+arch cobblestones2
+x 21
+y 22
+end
+arch cobblestones2
+x 21
+y 23
+end
+arch cobblestones2
+x 21
+y 24
+end
+arch cobblestones2
+x 21
+y 25
+end
+arch stonefloor2
+name wall
+x 21
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 21
+y 26
+end
+arch stonefloor2
+name wall
+x 22
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 22
+y 6
+end
+arch cobblestones2
+x 22
+y 7
+end
+arch cobblestones2
+x 22
+y 8
+end
+arch cobblestones2
+x 22
+y 9
+end
+arch cobblestones2
+x 22
+y 10
+end
+arch cobblestones2
+x 22
+y 11
+end
+arch cobblestones2
+x 22
+y 12
+end
+arch cobblestones2
+x 22
+y 13
+end
+arch cobblestones2
+x 22
+y 14
+end
+arch flagstone
+x 22
+y 15
+end
+arch cobblestones2
+x 22
+y 16
+end
+arch cobblestones2
+x 22
+y 17
+end
+arch cobblestones2
+x 22
+y 18
+end
+arch cobblestones2
+x 22
+y 19
+end
+arch cobblestones2
+x 22
+y 20
+end
+arch cobblestones2
+x 22
+y 21
+end
+arch cobblestones2
+x 22
+y 22
+end
+arch cobblestones2
+x 22
+y 23
+end
+arch cobblestones2
+x 22
+y 24
+end
+arch cobblestones2
+x 22
+y 25
+end
+arch stonefloor2
+name wall
+x 22
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 22
+y 26
+end
+arch stonefloor2
+name wall
+x 23
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 23
+y 6
+end
+arch cobblestones2
+x 23
+y 7
+end
+arch cobblestones2
+x 23
+y 8
+end
+arch cobblestones2
+x 23
+y 9
+end
+arch cobblestones2
+x 23
+y 10
+end
+arch cobblestones2
+x 23
+y 11
+end
+arch cobblestones2
+x 23
+y 12
+end
+arch cobblestones2
+x 23
+y 13
+end
+arch cobblestones2
+x 23
+y 14
+end
+arch flagstone
+x 23
+y 15
+end
+arch cobblestones2
+x 23
+y 16
+end
+arch cobblestones2
+x 23
+y 17
+end
+arch cobblestones2
+x 23
+y 18
+end
+arch cobblestones2
+x 23
+y 19
+end
+arch cobblestones2
+x 23
+y 20
+end
+arch cobblestones2
+x 23
+y 21
+end
+arch cobblestones2
+x 23
+y 22
+end
+arch cobblestones2
+x 23
+y 23
+end
+arch cobblestones2
+x 23
+y 24
+end
+arch cobblestones2
+x 23
+y 25
+end
+arch stonefloor2
+name wall
+x 23
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 23
+y 26
+end
+arch stonefloor2
+name wall
+x 24
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 24
+y 6
+end
+arch cobblestones2
+x 24
+y 7
+end
+arch cobblestones2
+x 24
+y 8
+end
+arch cobblestones2
+x 24
+y 9
+end
+arch cobblestones2
+x 24
+y 10
+end
+arch cobblestones2
+x 24
+y 11
+end
+arch cobblestones2
+x 24
+y 12
+end
+arch cobblestones2
+x 24
+y 13
+end
+arch cobblestones2
+x 24
+y 14
+end
+arch flagstone
+x 24
+y 15
+end
+arch cobblestones2
+x 24
+y 16
+end
+arch cobblestones2
+x 24
+y 17
+end
+arch cobblestones2
+x 24
+y 18
+end
+arch cobblestones2
+x 24
+y 19
+end
+arch cobblestones2
+x 24
+y 20
+end
+arch cobblestones2
+x 24
+y 21
+end
+arch cobblestones2
+x 24
+y 22
+end
+arch cobblestones2
+x 24
+y 23
+end
+arch cobblestones2
+x 24
+y 24
+end
+arch cobblestones2
+x 24
+y 25
+end
+arch stonefloor2
+name wall
+x 24
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 24
+y 26
+end
+arch stonefloor2
+name wall
+x 25
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 25
+y 6
+end
+arch cobblestones2
+x 25
+y 7
+end
+arch cobblestones2
+x 25
+y 8
+end
+arch cobblestones2
+x 25
+y 9
+end
+arch cobblestones2
+x 25
+y 10
+end
+arch cobblestones2
+x 25
+y 11
+end
+arch cobblestones2
+x 25
+y 12
+end
+arch cobblestones2
+x 25
+y 13
+end
+arch cobblestones2
+x 25
+y 14
+end
+arch flagstone
+x 25
+y 15
+end
+arch cobblestones2
+x 25
+y 16
+end
+arch cobblestones2
+x 25
+y 17
+end
+arch cobblestones2
+x 25
+y 18
+end
+arch cobblestones2
+x 25
+y 19
+end
+arch cobblestones2
+x 25
+y 20
+end
+arch cobblestones2
+x 25
+y 21
+end
+arch cobblestones2
+x 25
+y 22
+end
+arch cobblestones2
+x 25
+y 23
+end
+arch cobblestones2
+x 25
+y 24
+end
+arch cobblestones2
+x 25
+y 25
+end
+arch stonefloor2
+name wall
+x 25
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 25
+y 26
+end
+arch stonefloor2
+name wall
+x 26
+y 6
+no_pass 1
+end
+arch slevel_3_3
+x 26
+y 6
+end
+arch cobblestones2
+x 26
+y 7
+end
+arch statue
+x 26
+y 7
+end
+arch cobblestones2
+x 26
+y 8
+end
+arch cobblestones2
+x 26
+y 9
+end
+arch cobblestones2
+x 26
+y 10
+end
+arch cobblestones2
+x 26
+y 11
+end
+arch cobblestones2
+x 26
+y 12
+end
+arch cobblestones2
+x 26
+y 13
+end
+arch cobblestones2
+x 26
+y 14
+end
+arch flagstone
+x 26
+y 15
+end
+arch stair_down_4
+x 26
+y 15
+end
+arch cobblestones2
+x 26
+y 16
+end
+arch cobblestones2
+x 26
+y 17
+end
+arch cobblestones2
+x 26
+y 18
+end
+arch cobblestones2
+x 26
+y 19
+end
+arch cobblestones2
+x 26
+y 20
+end
+arch cobblestones2
+x 26
+y 21
+end
+arch cobblestones2
+x 26
+y 22
+end
+arch cobblestones2
+x 26
+y 23
+end
+arch cobblestones2
+x 26
+y 24
+end
+arch cobblestones2
+x 26
+y 25
+end
+arch statue
+x 26
+y 25
+end
+arch stonefloor2
+name wall
+x 26
+y 26
+no_pass 1
+end
+arch slevel_3_1
+x 26
+y 26
+end
+arch stonefloor2
+name wall
+x 27
+y 6
+no_pass 1
+end
+arch slevel_2_2_3
+x 27
+y 6
+end
+arch stonefloor2
+name wall
+x 27
+y 7
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 7
+end
+arch stonefloor2
+name wall
+x 27
+y 8
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 8
+end
+arch stonefloor2
+name wall
+x 27
+y 9
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 9
+end
+arch stonefloor2
+name wall
+x 27
+y 10
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 10
+end
+arch stonefloor2
+name wall
+x 27
+y 11
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 11
+end
+arch stonefloor2
+name wall
+x 27
+y 12
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 12
+end
+arch stonefloor2
+name wall
+x 27
+y 13
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 13
+end
+arch stonefloor2
+name wall
+x 27
+y 14
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 14
+end
+arch stonefloor2
+name wall
+x 27
+y 15
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 15
+end
+arch stonefloor2
+name wall
+x 27
+y 16
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 16
+end
+arch stonefloor2
+name wall
+x 27
+y 17
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 17
+end
+arch stonefloor2
+name wall
+x 27
+y 18
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 18
+end
+arch stonefloor2
+name wall
+x 27
+y 19
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 19
+end
+arch stonefloor2
+name wall
+x 27
+y 20
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 20
+end
+arch stonefloor2
+name wall
+x 27
+y 21
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 21
+end
+arch stonefloor2
+name wall
+x 27
+y 22
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 22
+end
+arch stonefloor2
+name wall
+x 27
+y 23
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 23
+end
+arch stonefloor2
+name wall
+x 27
+y 24
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 24
+end
+arch stonefloor2
+name wall
+x 27
+y 25
+no_pass 1
+end
+arch slevel_3_4
+x 27
+y 25
+end
+arch stonefloor2
+name wall
+x 27
+y 26
+no_pass 1
+end
+arch slevel_2_2_4
+x 27
+y 26
+end
+arch behemoth
+name Dark Behemoth
+race undead
+msg
+@match *
+GRRR GRRROOAAARRR!!! 
+endmsg
+Str 90
+Dex 50
+Con 50
+Wis 25
+Pow 25
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+dam 50
+wc -60
+ac -12
+level 70
+resist_physical 98
+resist_magic 85
+resist_fire -30
+resist_electricity 90
+resist_cold 100
+resist_confusion 100
+resist_acid 80
+resist_drain 100
+resist_weaponmagic 50
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 80
+resist_godpower 50
+resist_holyword 50
+end

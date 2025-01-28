@@ -1,0 +1,2602 @@
+arch map
+name city1
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Oct 29 22:11:04 1999
+endmsg
+width 21
+height 21
+end
+arch grassdark
+end
+arch cwall_2_2_2
+end
+arch grassdark
+y 1
+end
+arch cwall_2_1_1
+y 1
+end
+arch grassdark
+y 2
+end
+arch cwall_2_1_1
+y 2
+end
+arch grassdark
+y 3
+end
+arch cwall_2_1_1
+y 3
+end
+arch grassdark
+y 4
+end
+arch cwall_2_1_1
+y 4
+end
+arch grassdark
+y 5
+end
+arch cwall_2_1_1
+y 5
+end
+arch grassdark
+y 6
+end
+arch cwall_2_1_1
+y 6
+end
+arch grassdark
+y 7
+end
+arch cwall_2_1_1
+y 7
+end
+arch grassdark
+y 8
+end
+arch cwall_2_1_1
+y 8
+end
+arch grassdark
+y 9
+end
+arch cwall_2_1_1
+y 9
+end
+arch grassdark
+y 10
+end
+arch cwall_2_1_1
+y 10
+end
+arch grassdark
+y 11
+end
+arch cwall_2_1_1
+y 11
+end
+arch grassdark
+y 12
+end
+arch cwall_2_1_1
+y 12
+end
+arch grassdark
+y 13
+end
+arch cwall_2_1_1
+y 13
+end
+arch grassdark
+y 14
+end
+arch cwall_2_1_1
+y 14
+end
+arch grassdark
+y 15
+end
+arch cwall_2_1_1
+y 15
+end
+arch grassdark
+y 16
+end
+arch cwall_2_1_1
+y 16
+end
+arch grassdark
+y 17
+end
+arch cwall_2_1_1
+y 17
+end
+arch grassdark
+y 18
+end
+arch cwall_2_1_1
+y 18
+end
+arch grassdark
+y 19
+end
+arch river_w-e
+y 19
+end
+arch grassdark
+y 20
+end
+arch cwall_2_2_1
+y 20
+end
+arch grassdark
+x 1
+end
+arch cwall_2_1_2
+x 1
+end
+arch grassdark
+x 1
+y 1
+end
+arch grassdark
+x 1
+y 2
+end
+arch cobblestones2
+x 1
+y 3
+end
+arch grassdark
+x 1
+y 4
+end
+arch grassdark
+x 1
+y 5
+end
+arch grassdark
+x 1
+y 6
+end
+arch grassdark
+x 1
+y 7
+end
+arch grassdark
+x 1
+y 8
+end
+arch grassdark
+x 1
+y 9
+end
+arch grassdark
+x 1
+y 10
+end
+arch grassdark
+x 1
+y 11
+end
+arch grassdark
+x 1
+y 12
+end
+arch fernsdense
+x 1
+y 12
+end
+arch grassdark
+x 1
+y 13
+end
+arch fernsdense
+x 1
+y 13
+end
+arch grassdark
+x 1
+y 14
+end
+arch fernsdense
+x 1
+y 14
+end
+arch grassdark
+x 1
+y 15
+end
+arch grassdark
+x 1
+y 16
+end
+arch cobblestones2
+x 1
+y 17
+end
+arch cobblestones2
+x 1
+y 18
+end
+arch bungalow
+name slave raffle house
+slaying /ElvenLands/Gcitys/slave
+hp 14
+sp 6
+x 1
+y 18
+end
+arch grassdark
+x 1
+y 19
+end
+arch river_w-e
+x 1
+y 19
+end
+arch grassdark
+x 1
+y 20
+end
+arch cwall_2_1_2
+x 1
+y 20
+end
+arch grassdark
+x 2
+end
+arch cwall_2_1_2
+x 2
+end
+arch grassdark
+x 2
+y 1
+end
+arch cobblestones2
+x 2
+y 2
+end
+arch cobblestones2
+x 2
+y 3
+end
+arch grassdark
+x 2
+y 4
+end
+arch grassdark
+x 2
+y 5
+end
+arch grassdark
+x 2
+y 6
+end
+arch grassdark
+x 2
+y 7
+end
+arch grassdark
+x 2
+y 8
+end
+arch grassdark
+x 2
+y 9
+end
+arch grassdark
+x 2
+y 10
+end
+arch grassdark
+x 2
+y 11
+end
+arch grassdark
+x 2
+y 12
+end
+arch fernsdense
+x 2
+y 12
+end
+arch grassdark
+x 2
+y 13
+end
+arch fernsdense
+x 2
+y 13
+end
+arch grassdark
+x 2
+y 14
+end
+arch fernsdense
+x 2
+y 14
+end
+arch grassdark
+x 2
+y 15
+end
+arch grassdark
+x 2
+y 16
+end
+arch cobblestones2
+x 2
+y 17
+end
+arch cobblestones2
+x 2
+y 18
+end
+arch grassdark
+x 2
+y 19
+end
+arch river_w-e
+x 2
+y 19
+end
+arch grassdark
+x 2
+y 20
+end
+arch cwall_2_1_2
+x 2
+y 20
+end
+arch grassdark
+x 3
+end
+arch cwall_2_1_2
+x 3
+end
+arch grassdark
+x 3
+y 1
+end
+arch wagon
+x 3
+y 1
+end
+arch cobblestones2
+x 3
+y 2
+end
+arch cobblestones2
+x 3
+y 3
+end
+arch grassdark
+x 3
+y 4
+end
+arch grassdark
+x 3
+y 5
+end
+arch grassdark
+x 3
+y 6
+end
+arch s_house1
+x 3
+y 6
+end
+arch grassdark
+x 3
+y 7
+end
+arch grassdark
+x 3
+y 8
+end
+arch s_house1
+x 3
+y 8
+end
+arch grassdark
+x 3
+y 9
+end
+arch grassdark
+x 3
+y 10
+end
+arch s_house1
+x 3
+y 10
+end
+arch grassdark
+x 3
+y 11
+end
+arch grassdark
+x 3
+y 12
+end
+arch fernsdense
+x 3
+y 12
+end
+arch grassdark
+x 3
+y 13
+end
+arch fernsdense
+x 3
+y 13
+end
+arch grassdark
+x 3
+y 14
+end
+arch fernsdense
+x 3
+y 14
+end
+arch grassdark
+x 3
+y 15
+end
+arch grassdark
+x 3
+y 16
+end
+arch cobblestones2
+x 3
+y 17
+end
+arch cobblestones2
+x 3
+y 18
+end
+arch grassdark
+x 3
+y 19
+end
+arch river_w-e
+x 3
+y 19
+end
+arch grassdark
+x 3
+y 20
+end
+arch cwall_2_1_2
+x 3
+y 20
+end
+arch grassdark
+x 4
+end
+arch cwall_2_1_2
+x 4
+end
+arch grassdark
+x 4
+y 1
+end
+arch cobblestones2
+x 4
+y 2
+end
+arch cobblestones2
+x 4
+y 3
+end
+arch grassdark
+x 4
+y 4
+end
+arch grassdark
+x 4
+y 5
+end
+arch grassdark
+x 4
+y 6
+end
+arch grassdark
+x 4
+y 7
+end
+arch fountain
+x 4
+y 7
+speed_left -3.600000
+end
+arch grassdark
+x 4
+y 8
+end
+arch grassdark
+x 4
+y 9
+end
+arch fountain
+x 4
+y 9
+speed_left -3.600000
+end
+arch grassdark
+x 4
+y 10
+end
+arch grassdark
+x 4
+y 11
+end
+arch grassdark
+x 4
+y 12
+end
+arch fernsdense
+x 4
+y 12
+end
+arch grassdark
+x 4
+y 13
+end
+arch lake
+x 4
+y 13
+end
+arch grassdark
+x 4
+y 14
+end
+arch fernsdense
+x 4
+y 14
+end
+arch grassdark
+x 4
+y 15
+end
+arch grassdark
+x 4
+y 16
+end
+arch cobblestones2
+x 4
+y 17
+end
+arch cobblestones2
+x 4
+y 18
+end
+arch grassdark
+x 4
+y 19
+end
+arch river_w-e
+x 4
+y 19
+end
+arch grassdark
+x 4
+y 20
+end
+arch cwall_2_1_2
+x 4
+y 20
+end
+arch grassdark
+x 5
+end
+arch cwall_2_1_2
+x 5
+end
+arch grassdark
+x 5
+y 1
+end
+arch house_1
+name inn
+slaying /ElvenLands/Gcitys/inn
+hp 3
+sp 4
+x 5
+y 1
+end
+arch cobblestones2
+x 5
+y 2
+end
+arch cobblestones2
+x 5
+y 3
+end
+arch grassdark
+x 5
+y 4
+end
+arch hut
+x 5
+y 4
+end
+arch grassdark
+x 5
+y 5
+end
+arch grassdark
+x 5
+y 6
+end
+arch s_house1
+x 5
+y 6
+end
+arch grassdark
+x 5
+y 7
+end
+arch grassdark
+x 5
+y 8
+end
+arch s_house1
+x 5
+y 8
+end
+arch grassdark
+x 5
+y 9
+end
+arch grassdark
+x 5
+y 10
+end
+arch s_house1
+x 5
+y 10
+end
+arch grassdark
+x 5
+y 11
+end
+arch grassdark
+x 5
+y 12
+end
+arch fernsdense
+x 5
+y 12
+end
+arch grassdark
+x 5
+y 13
+end
+arch fernsdense
+x 5
+y 13
+end
+arch grassdark
+x 5
+y 14
+end
+arch fernsdense
+x 5
+y 14
+end
+arch grassdark
+x 5
+y 15
+end
+arch grassdark
+x 5
+y 16
+end
+arch cobblestones2
+x 5
+y 17
+end
+arch cobblestones2
+x 5
+y 18
+end
+arch grassdark
+x 5
+y 19
+end
+arch river_w-e
+x 5
+y 19
+end
+arch grassdark
+x 5
+y 20
+end
+arch cwall_2_1_2
+x 5
+y 20
+end
+arch grassdark
+x 6
+end
+arch cwall_2_1_2
+x 6
+end
+arch grassdark
+x 6
+y 1
+end
+arch cobblestones2
+x 6
+y 2
+end
+arch cobblestones2
+x 6
+y 3
+end
+arch grassdark
+x 6
+y 4
+end
+arch grassdark
+x 6
+y 5
+end
+arch grassdark
+x 6
+y 6
+end
+arch grassdark
+x 6
+y 7
+end
+arch fountain
+x 6
+y 7
+speed_left -3.600000
+end
+arch grassdark
+x 6
+y 8
+end
+arch grassdark
+x 6
+y 9
+end
+arch fountain
+x 6
+y 9
+speed_left -3.600000
+end
+arch grassdark
+x 6
+y 10
+end
+arch grassdark
+x 6
+y 11
+end
+arch grassdark
+x 6
+y 12
+end
+arch fernsdense
+x 6
+y 12
+end
+arch grassdark
+x 6
+y 13
+end
+arch fernsdense
+x 6
+y 13
+end
+arch grassdark
+x 6
+y 14
+end
+arch fernsdense
+x 6
+y 14
+end
+arch grassdark
+x 6
+y 15
+end
+arch grassdark
+x 6
+y 16
+end
+arch cobblestones2
+x 6
+y 17
+end
+arch cobblestones2
+x 6
+y 18
+end
+arch grassdark
+x 6
+y 19
+end
+arch river_w-e
+x 6
+y 19
+end
+arch grassdark
+x 6
+y 20
+end
+arch cwall_2_1_2
+x 6
+y 20
+end
+arch grassdark
+x 7
+end
+arch cwall_2_1_2
+x 7
+end
+arch grassdark
+x 7
+y 1
+end
+arch small_temple
+slaying /ElvenLands/Gcitys/templeG
+hp 4
+sp 8
+x 7
+y 1
+end
+arch cobblestones2
+x 7
+y 2
+end
+arch cobblestones2
+x 7
+y 3
+end
+arch grassdark
+x 7
+y 4
+end
+arch hut
+x 7
+y 4
+end
+arch grassdark
+x 7
+y 5
+end
+arch grassdark
+x 7
+y 6
+end
+arch s_house1
+x 7
+y 6
+end
+arch grassdark
+x 7
+y 7
+end
+arch grassdark
+x 7
+y 8
+end
+arch s_house1
+x 7
+y 8
+end
+arch grassdark
+x 7
+y 9
+end
+arch grassdark
+x 7
+y 10
+end
+arch s_house1
+x 7
+y 10
+end
+arch grassdark
+x 7
+y 11
+end
+arch grassdark
+x 7
+y 12
+end
+arch fernsdense
+x 7
+y 12
+end
+arch grassdark
+x 7
+y 13
+end
+arch fernsdense
+x 7
+y 13
+end
+arch grassdark
+x 7
+y 14
+end
+arch fernsdense
+x 7
+y 14
+end
+arch grassdark
+x 7
+y 15
+end
+arch grassdark
+x 7
+y 16
+end
+arch cobblestones2
+x 7
+y 17
+end
+arch cobblestones2
+x 7
+y 18
+end
+arch grassdark
+x 7
+y 19
+end
+arch river_w-e
+x 7
+y 19
+end
+arch grassdark
+x 7
+y 20
+end
+arch cwall_2_1_2
+x 7
+y 20
+end
+arch grassdark
+x 8
+end
+arch cwall_2_1_2
+x 8
+end
+arch grassdark
+x 8
+y 1
+end
+arch cobblestones2
+x 8
+y 2
+end
+arch cobblestones2
+x 8
+y 3
+end
+arch grassdark
+x 8
+y 4
+end
+arch grassdark
+x 8
+y 5
+end
+arch grassdark
+x 8
+y 6
+end
+arch grassdark
+x 8
+y 7
+end
+arch grassdark
+x 8
+y 8
+end
+arch grassdark
+x 8
+y 9
+end
+arch grassdark
+x 8
+y 10
+end
+arch grassdark
+x 8
+y 11
+end
+arch grassdark
+x 8
+y 12
+end
+arch fernsdense
+x 8
+y 12
+end
+arch grassdark
+x 8
+y 13
+end
+arch fernsdense
+x 8
+y 13
+end
+arch grassdark
+x 8
+y 14
+end
+arch fernsdense
+x 8
+y 14
+end
+arch grassdark
+x 8
+y 15
+end
+arch grassdark
+x 8
+y 16
+end
+arch cobblestones2
+x 8
+y 17
+end
+arch cobblestones2
+x 8
+y 18
+end
+arch grassdark
+x 8
+y 19
+end
+arch river_w-e
+x 8
+y 19
+end
+arch grassdark
+x 8
+y 20
+end
+arch cwall_2_1_2
+x 8
+y 20
+end
+arch grassdark
+x 9
+end
+arch cwall_2_1_2
+x 9
+end
+arch grassdark
+x 9
+y 1
+end
+arch s_shop1
+name luck house
+slaying /ElvenLands/Gcitys/luck
+hp 5
+sp 12
+x 9
+y 1
+end
+arch cobblestones2
+x 9
+y 2
+end
+arch cobblestones2
+x 9
+y 3
+end
+arch grassdark
+x 9
+y 4
+end
+arch hut
+x 9
+y 4
+end
+arch grassdark
+x 9
+y 5
+end
+arch grassdark
+x 9
+y 6
+end
+arch hut
+x 9
+y 6
+end
+arch grassdark
+x 9
+y 7
+end
+arch grassdark
+x 9
+y 8
+end
+arch hut
+x 9
+y 8
+end
+arch grassdark
+x 9
+y 9
+end
+arch grassdark
+x 9
+y 10
+end
+arch hut
+x 9
+y 10
+end
+arch grassdark
+x 9
+y 11
+end
+arch grassdark
+x 9
+y 12
+end
+arch fernsdense
+x 9
+y 12
+end
+arch grassdark
+x 9
+y 13
+end
+arch fernsdense
+x 9
+y 13
+end
+arch grassdark
+x 9
+y 14
+end
+arch fernsdense
+x 9
+y 14
+end
+arch grassdark
+x 9
+y 15
+end
+arch grassdark
+x 9
+y 16
+end
+arch cobblestones2
+x 9
+y 17
+end
+arch cobblestones2
+x 9
+y 18
+end
+arch grassdark
+x 9
+y 19
+end
+arch river_w-e
+x 9
+y 19
+end
+arch grassdark
+x 9
+y 20
+end
+arch cwall_2_1_2
+x 9
+y 20
+end
+arch grassdark
+x 10
+end
+arch cwall_2_1_2
+x 10
+end
+arch grassdark
+x 10
+y 1
+end
+arch cobblestones2
+x 10
+y 2
+end
+arch cobblestones2
+x 10
+y 3
+end
+arch cobblestones2
+x 10
+y 4
+end
+arch cobblestones2
+x 10
+y 5
+end
+arch cobblestones2
+x 10
+y 6
+end
+arch cobblestones2
+x 10
+y 7
+end
+arch cobblestones2
+x 10
+y 8
+end
+arch cobblestones2
+x 10
+y 9
+end
+arch cobblestones2
+x 10
+y 10
+end
+arch cobblestones2
+x 10
+y 11
+end
+arch cobblestones2
+x 10
+y 12
+end
+arch cobblestones2
+x 10
+y 13
+end
+arch cobblestones2
+x 10
+y 14
+end
+arch cobblestones2
+x 10
+y 15
+end
+arch cobblestones2
+x 10
+y 16
+end
+arch cobblestones2
+x 10
+y 17
+end
+arch cobblestones2
+x 10
+y 18
+end
+arch grassdark
+x 10
+y 19
+end
+arch river_w-e
+x 10
+y 19
+end
+arch grassdark
+x 10
+y 20
+end
+arch cwall_2_1_2
+x 10
+y 20
+end
+arch grassdark
+x 11
+end
+arch cwall_2_1_2
+x 11
+end
+arch grassdark
+x 11
+y 1
+end
+arch s_shop2
+slaying /ElvenLands/Gcitys/shop
+hp 1
+sp 1
+x 11
+y 1
+end
+arch cobblestones2
+x 11
+y 2
+end
+arch cobblestones2
+x 11
+y 3
+end
+arch cobblestones2
+x 11
+y 4
+end
+arch cobblestones2
+x 11
+y 5
+end
+arch cobblestones2
+x 11
+y 6
+end
+arch cobblestones2
+x 11
+y 7
+end
+arch cobblestones2
+x 11
+y 8
+end
+arch cobblestones2
+x 11
+y 9
+end
+arch cobblestones2
+x 11
+y 10
+end
+arch cobblestones2
+x 11
+y 11
+end
+arch cobblestones2
+x 11
+y 12
+end
+arch cobblestones2
+x 11
+y 13
+end
+arch cobblestones2
+x 11
+y 14
+end
+arch cobblestones2
+x 11
+y 15
+end
+arch cobblestones2
+x 11
+y 16
+end
+arch cobblestones2
+x 11
+y 17
+end
+arch cobblestones2
+x 11
+y 18
+end
+arch grassdark
+x 11
+y 19
+end
+arch river_w-e
+x 11
+y 19
+end
+arch grassdark
+x 11
+y 20
+end
+arch cwall_2_1_2
+x 11
+y 20
+end
+arch grassdark
+x 12
+end
+arch cwall_2_1_2
+x 12
+end
+arch grassdark
+x 12
+y 1
+end
+arch cobblestones2
+x 12
+y 2
+end
+arch cobblestones2
+x 12
+y 3
+end
+arch grassdark
+x 12
+y 4
+end
+arch hut
+x 12
+y 4
+end
+arch grassdark
+x 12
+y 5
+end
+arch grassdark
+x 12
+y 6
+end
+arch hut
+x 12
+y 6
+end
+arch grassdark
+x 12
+y 7
+end
+arch grassdark
+x 12
+y 8
+end
+arch hut
+x 12
+y 8
+end
+arch grassdark
+x 12
+y 9
+end
+arch grassdark
+x 12
+y 10
+end
+arch hut
+x 12
+y 10
+end
+arch grassdark
+x 12
+y 11
+end
+arch grassdark
+x 12
+y 12
+end
+arch fernsdense
+x 12
+y 12
+end
+arch grassdark
+x 12
+y 13
+end
+arch fernsdense
+x 12
+y 13
+end
+arch grassdark
+x 12
+y 14
+end
+arch fernsdense
+x 12
+y 14
+end
+arch grassdark
+x 12
+y 15
+end
+arch grassdark
+x 12
+y 16
+end
+arch cobblestones2
+x 12
+y 17
+end
+arch cobblestones2
+x 12
+y 18
+end
+arch grassdark
+x 12
+y 19
+end
+arch river_w-e
+x 12
+y 19
+end
+arch grassdark
+x 12
+y 20
+end
+arch cwall_2_1_2
+x 12
+y 20
+end
+arch grassdark
+x 13
+end
+arch cwall_2_1_2
+x 13
+end
+arch grassdark
+x 13
+y 1
+end
+arch hut
+x 13
+y 1
+end
+arch cobblestones2
+x 13
+y 2
+end
+arch cobblestones2
+x 13
+y 3
+end
+arch grassdark
+x 13
+y 4
+end
+arch grassdark
+x 13
+y 5
+end
+arch grassdark
+x 13
+y 6
+end
+arch grassdark
+x 13
+y 7
+end
+arch grassdark
+x 13
+y 8
+end
+arch grassdark
+x 13
+y 9
+end
+arch grassdark
+x 13
+y 10
+end
+arch grassdark
+x 13
+y 11
+end
+arch grassdark
+x 13
+y 12
+end
+arch fernsdense
+x 13
+y 12
+end
+arch grassdark
+x 13
+y 13
+end
+arch fernsdense
+x 13
+y 13
+end
+arch grassdark
+x 13
+y 14
+end
+arch fernsdense
+x 13
+y 14
+end
+arch grassdark
+x 13
+y 15
+end
+arch grassdark
+x 13
+y 16
+end
+arch cobblestones2
+x 13
+y 17
+end
+arch cobblestones2
+x 13
+y 18
+end
+arch grassdark
+x 13
+y 19
+end
+arch river_w-e
+x 13
+y 19
+end
+arch grassdark
+x 13
+y 20
+end
+arch cwall_2_1_2
+x 13
+y 20
+end
+arch grassdark
+x 14
+end
+arch cwall_2_1_2
+x 14
+end
+arch grassdark
+x 14
+y 1
+end
+arch cobblestones2
+x 14
+y 2
+end
+arch cobblestones2
+x 14
+y 3
+end
+arch grassdark
+x 14
+y 4
+end
+arch hut
+x 14
+y 4
+end
+arch grassdark
+x 14
+y 5
+end
+arch grassdark
+x 14
+y 6
+end
+arch s_house1
+x 14
+y 6
+end
+arch grassdark
+x 14
+y 7
+end
+arch grassdark
+x 14
+y 8
+end
+arch s_house1
+x 14
+y 8
+end
+arch grassdark
+x 14
+y 9
+end
+arch grassdark
+x 14
+y 10
+end
+arch s_house1
+x 14
+y 10
+end
+arch grassdark
+x 14
+y 11
+end
+arch grassdark
+x 14
+y 12
+end
+arch fernsdense
+x 14
+y 12
+end
+arch grassdark
+x 14
+y 13
+end
+arch fernsdense
+x 14
+y 13
+end
+arch grassdark
+x 14
+y 14
+end
+arch fernsdense
+x 14
+y 14
+end
+arch grassdark
+x 14
+y 15
+end
+arch grassdark
+x 14
+y 16
+end
+arch cobblestones2
+x 14
+y 17
+end
+arch cobblestones2
+x 14
+y 18
+end
+arch grassdark
+x 14
+y 19
+end
+arch river_w-e
+x 14
+y 19
+end
+arch grassdark
+x 14
+y 20
+end
+arch cwall_2_1_2
+x 14
+y 20
+end
+arch grassdark
+x 15
+end
+arch cwall_2_1_2
+x 15
+end
+arch grassdark
+x 15
+y 1
+end
+arch hut
+x 15
+y 1
+end
+arch cobblestones2
+x 15
+y 2
+end
+arch cobblestones2
+x 15
+y 3
+end
+arch grassdark
+x 15
+y 4
+end
+arch grassdark
+x 15
+y 5
+end
+arch grassdark
+x 15
+y 6
+end
+arch grassdark
+x 15
+y 7
+end
+arch fountain
+x 15
+y 7
+speed_left -3.600000
+end
+arch grassdark
+x 15
+y 8
+end
+arch grassdark
+x 15
+y 9
+end
+arch fountain
+x 15
+y 9
+speed_left -3.600000
+end
+arch grassdark
+x 15
+y 10
+end
+arch grassdark
+x 15
+y 11
+end
+arch grassdark
+x 15
+y 12
+end
+arch fernsdense
+x 15
+y 12
+end
+arch grassdark
+x 15
+y 13
+end
+arch fernsdense
+x 15
+y 13
+end
+arch grassdark
+x 15
+y 14
+end
+arch fernsdense
+x 15
+y 14
+end
+arch grassdark
+x 15
+y 15
+end
+arch grassdark
+x 15
+y 16
+end
+arch cobblestones2
+x 15
+y 17
+end
+arch cobblestones2
+x 15
+y 18
+end
+arch grassdark
+x 15
+y 19
+end
+arch river_w-e
+x 15
+y 19
+end
+arch grassdark
+x 15
+y 20
+end
+arch cwall_2_1_2
+x 15
+y 20
+end
+arch grassdark
+x 16
+end
+arch cwall_2_1_2
+x 16
+end
+arch grassdark
+x 16
+y 1
+end
+arch cobblestones2
+x 16
+y 2
+end
+arch cobblestones2
+x 16
+y 3
+end
+arch grassdark
+x 16
+y 4
+end
+arch hut
+x 16
+y 4
+end
+arch grassdark
+x 16
+y 5
+end
+arch grassdark
+x 16
+y 6
+end
+arch s_house1
+x 16
+y 6
+end
+arch grassdark
+x 16
+y 7
+end
+arch grassdark
+x 16
+y 8
+end
+arch s_house1
+x 16
+y 8
+end
+arch grassdark
+x 16
+y 9
+end
+arch grassdark
+x 16
+y 10
+end
+arch s_house1
+x 16
+y 10
+end
+arch grassdark
+x 16
+y 11
+end
+arch grassdark
+x 16
+y 12
+end
+arch fernsdense
+x 16
+y 12
+end
+arch grassdark
+x 16
+y 13
+end
+arch lake
+x 16
+y 13
+end
+arch grassdark
+x 16
+y 14
+end
+arch fernsdense
+x 16
+y 14
+end
+arch grassdark
+x 16
+y 15
+end
+arch grassdark
+x 16
+y 16
+end
+arch cobblestones2
+x 16
+y 17
+end
+arch cobblestones2
+x 16
+y 18
+end
+arch grassdark
+x 16
+y 19
+end
+arch river_w-e
+x 16
+y 19
+end
+arch grassdark
+x 16
+y 20
+end
+arch cwall_2_1_2
+x 16
+y 20
+end
+arch grassdark
+x 17
+end
+arch cwall_2_1_2
+x 17
+end
+arch grassdark
+x 17
+y 1
+end
+arch hut
+x 17
+y 1
+end
+arch cobblestones2
+x 17
+y 2
+end
+arch cobblestones2
+x 17
+y 3
+end
+arch grassdark
+x 17
+y 4
+end
+arch grassdark
+x 17
+y 5
+end
+arch grassdark
+x 17
+y 6
+end
+arch grassdark
+x 17
+y 7
+end
+arch fountain
+x 17
+y 7
+speed_left -3.600000
+end
+arch grassdark
+x 17
+y 8
+end
+arch grassdark
+x 17
+y 9
+end
+arch fountain
+x 17
+y 9
+speed_left -3.600000
+end
+arch grassdark
+x 17
+y 10
+end
+arch grassdark
+x 17
+y 11
+end
+arch grassdark
+x 17
+y 12
+end
+arch fernsdense
+x 17
+y 12
+end
+arch grassdark
+x 17
+y 13
+end
+arch fernsdense
+x 17
+y 13
+end
+arch grassdark
+x 17
+y 14
+end
+arch fernsdense
+x 17
+y 14
+end
+arch grassdark
+x 17
+y 15
+end
+arch grassdark
+x 17
+y 16
+end
+arch cobblestones2
+x 17
+y 17
+end
+arch cobblestones2
+x 17
+y 18
+end
+arch grassdark
+x 17
+y 19
+end
+arch river_w-e
+x 17
+y 19
+end
+arch grassdark
+x 17
+y 20
+end
+arch cwall_2_1_2
+x 17
+y 20
+end
+arch grassdark
+x 18
+end
+arch cwall_2_1_2
+x 18
+end
+arch grassdark
+x 18
+y 1
+end
+arch sign
+msg
+Welcome to the warrior city
+endmsg
+x 18
+y 1
+end
+arch cobblestones2
+x 18
+y 2
+end
+arch cobblestones2
+x 18
+y 3
+end
+arch grassdark
+x 18
+y 4
+end
+arch hut
+x 18
+y 4
+end
+arch grassdark
+x 18
+y 5
+end
+arch grassdark
+x 18
+y 6
+end
+arch s_house1
+x 18
+y 6
+end
+arch grassdark
+x 18
+y 7
+end
+arch grassdark
+x 18
+y 8
+end
+arch s_house1
+x 18
+y 8
+end
+arch grassdark
+x 18
+y 9
+end
+arch grassdark
+x 18
+y 10
+end
+arch s_house1
+x 18
+y 10
+end
+arch grassdark
+x 18
+y 11
+end
+arch grassdark
+x 18
+y 12
+end
+arch fernsdense
+x 18
+y 12
+end
+arch grassdark
+x 18
+y 13
+end
+arch fernsdense
+x 18
+y 13
+end
+arch grassdark
+x 18
+y 14
+end
+arch fernsdense
+x 18
+y 14
+end
+arch grassdark
+x 18
+y 15
+end
+arch grassdark
+x 18
+y 16
+end
+arch cobblestones2
+x 18
+y 17
+end
+arch cobblestones2
+x 18
+y 18
+end
+arch grassdark
+x 18
+y 19
+end
+arch river_w-e
+x 18
+y 19
+end
+arch grassdark
+x 18
+y 20
+end
+arch cwall_2_1_2
+x 18
+y 20
+end
+arch grassdark
+x 19
+end
+arch cwall_2_1_2
+x 19
+end
+arch grassdark
+x 19
+y 1
+end
+arch tower_tob
+x 19
+y 1
+end
+arch cobblestones2
+x 19
+y 2
+end
+arch cobblestones2
+x 19
+y 3
+end
+arch grassdark
+x 19
+y 4
+end
+arch tower_tob
+x 19
+y 4
+end
+arch grassdark
+x 19
+y 5
+end
+arch grassdark
+x 19
+y 6
+end
+arch grassdark
+x 19
+y 7
+end
+arch grassdark
+x 19
+y 8
+end
+arch grassdark
+x 19
+y 9
+end
+arch grassdark
+x 19
+y 10
+end
+arch grassdark
+x 19
+y 11
+end
+arch grassdark
+x 19
+y 12
+end
+arch fernsdense
+x 19
+y 12
+end
+arch grassdark
+x 19
+y 13
+end
+arch fernsdense
+x 19
+y 13
+end
+arch grassdark
+x 19
+y 14
+end
+arch fernsdense
+x 19
+y 14
+end
+arch grassdark
+x 19
+y 15
+end
+arch grassdark
+x 19
+y 16
+end
+arch cobblestones2
+x 19
+y 17
+end
+arch cobblestones2
+x 19
+y 18
+end
+arch small_temple2
+name bank
+slaying /ElvenLands/Gcitys/bank
+hp 3
+sp 5
+x 19
+y 18
+end
+arch grassdark
+x 19
+y 19
+end
+arch river_w-e
+x 19
+y 19
+end
+arch grassdark
+x 19
+y 20
+end
+arch cwall_2_1_2
+x 19
+y 20
+end
+arch grassdark
+x 20
+end
+arch cwall_2_2_3
+x 20
+end
+arch grassdark
+x 20
+y 1
+end
+arch cwall_1_2
+x 20
+y 1
+end
+arch cobblestones2
+x 20
+y 2
+end
+arch invis_exit
+slaying /ElvenLands/Darkoth/darkland
+hp 1
+sp 47
+x 20
+y 2
+end
+arch cobblestones2
+x 20
+y 3
+end
+arch grassdark
+x 20
+y 4
+end
+arch cwall_1_1
+x 20
+y 4
+end
+arch grassdark
+x 20
+y 5
+end
+arch cwall_2_1_1
+x 20
+y 5
+end
+arch grassdark
+x 20
+y 6
+end
+arch cwall_2_1_1
+x 20
+y 6
+end
+arch grassdark
+x 20
+y 7
+end
+arch cwall_2_1_1
+x 20
+y 7
+end
+arch grassdark
+x 20
+y 8
+end
+arch cwall_2_1_1
+x 20
+y 8
+end
+arch grassdark
+x 20
+y 9
+end
+arch cwall_2_1_1
+x 20
+y 9
+end
+arch grassdark
+x 20
+y 10
+end
+arch cwall_2_1_1
+x 20
+y 10
+end
+arch grassdark
+x 20
+y 11
+end
+arch cwall_2_1_1
+x 20
+y 11
+end
+arch grassdark
+x 20
+y 12
+end
+arch cwall_2_1_1
+x 20
+y 12
+end
+arch grassdark
+x 20
+y 13
+end
+arch cwall_2_1_1
+x 20
+y 13
+end
+arch grassdark
+x 20
+y 14
+end
+arch cwall_2_1_1
+x 20
+y 14
+end
+arch grassdark
+x 20
+y 15
+end
+arch cwall_2_1_1
+x 20
+y 15
+end
+arch grassdark
+x 20
+y 16
+end
+arch cwall_2_1_1
+x 20
+y 16
+end
+arch grassdark
+x 20
+y 17
+end
+arch cwall_2_1_1
+x 20
+y 17
+end
+arch grassdark
+x 20
+y 18
+end
+arch cwall_2_1_1
+x 20
+y 18
+end
+arch grassdark
+x 20
+y 19
+end
+arch river_w-e
+x 20
+y 19
+end
+arch grassdark
+x 20
+y 20
+end
+arch cwall_2_2_4
+x 20
+y 20
+end
+arch keep
+x 1
+y 1
+end
+arch barrack_up
+x 1
+y 15
+end
+arch barrack_up
+x 2
+y 15
+end
+arch barrack_up
+x 3
+y 15
+end
+arch barrack_up
+x 4
+y 15
+end
+arch barrack_up
+x 5
+y 15
+end
+arch barrack_up
+x 6
+y 15
+end
+arch barrack_up
+x 7
+y 15
+end
+arch barrack_up
+x 8
+y 15
+end
+arch barrack_up
+x 9
+y 15
+end
+arch barrack_up
+x 12
+y 15
+end
+arch barrack_up
+x 13
+y 15
+end
+arch barrack_up
+x 14
+y 15
+end
+arch barrack_up
+x 15
+y 15
+end
+arch barrack_up
+x 16
+y 15
+end
+arch barrack_up
+x 17
+y 15
+end
+arch barrack_up
+x 18
+y 15
+end
+arch barrack_up
+x 19
+y 15
+end

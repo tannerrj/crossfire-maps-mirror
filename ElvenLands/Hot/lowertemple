@@ -1,0 +1,2861 @@
+arch map
+name lowertemple
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Thu Oct 28 22:02:52 1999
+endmsg
+height 30
+width 16
+end
+arch cobblestones
+end
+arch bwall_2_2_2
+end
+arch cobblestones
+y 1
+end
+arch bwall_2_1_1
+y 1
+end
+arch cobblestones
+y 2
+end
+arch bwall_2_1_1
+y 2
+end
+arch cobblestones
+y 3
+end
+arch bwall_2_2_1
+y 3
+end
+arch cobblestones
+y 4
+end
+arch dun10
+y 4
+end
+arch cobblestones
+y 5
+end
+arch dun3
+y 5
+end
+arch cobblestones
+y 6
+end
+arch dun3
+y 6
+end
+arch cobblestones
+y 7
+end
+arch dun3
+y 7
+end
+arch cobblestones
+y 8
+end
+arch dun3
+y 8
+end
+arch cobblestones
+y 9
+end
+arch dun3
+y 9
+end
+arch cobblestones
+y 10
+end
+arch dun3
+y 10
+end
+arch cobblestones
+y 11
+end
+arch dun3
+y 11
+end
+arch cobblestones
+y 12
+end
+arch dun3
+y 12
+end
+arch cobblestones
+y 13
+end
+arch dun3
+y 13
+end
+arch cobblestones
+y 14
+end
+arch dun3
+y 14
+end
+arch cobblestones
+y 15
+end
+arch dun3
+y 15
+end
+arch cobblestones
+y 16
+end
+arch dun3
+y 16
+end
+arch cobblestones
+y 17
+end
+arch dun3
+y 17
+end
+arch cobblestones
+y 18
+end
+arch dun3
+y 18
+end
+arch cobblestones
+y 19
+end
+arch dun3
+y 19
+end
+arch cobblestones
+y 20
+end
+arch dun3
+y 20
+end
+arch cobblestones
+y 21
+end
+arch dun3
+y 21
+end
+arch cobblestones
+y 22
+end
+arch dun3
+y 22
+end
+arch cobblestones
+y 23
+end
+arch dun3
+y 23
+end
+arch cobblestones
+y 24
+end
+arch dun3
+y 24
+end
+arch cobblestones
+y 25
+end
+arch dun3
+y 25
+end
+arch cobblestones
+y 26
+end
+arch dun3
+y 26
+end
+arch cobblestones
+y 27
+end
+arch dun3
+y 27
+end
+arch cobblestones
+y 28
+end
+arch dun3
+y 28
+end
+arch cobblestones
+y 29
+end
+arch dun4
+y 29
+end
+arch cobblestones
+x 1
+end
+arch bwall_2_1_2
+x 1
+end
+arch cobblestones
+x 1
+y 1
+end
+arch random_wealth
+x 1
+y 1
+end
+arch cobblestones
+x 1
+y 2
+end
+arch random_wealth
+x 1
+y 2
+end
+arch cobblestones
+x 1
+y 3
+end
+arch bwall_2_1_2
+x 1
+y 3
+end
+arch cobblestones
+x 1
+y 4
+end
+arch dun2
+x 1
+y 4
+end
+arch cobblestones
+x 1
+y 5
+end
+arch firewall_3
+dam 4
+x 1
+y 5
+end
+arch cobblestones
+x 1
+y 6
+end
+arch firewall_3
+dam 4
+x 1
+y 6
+end
+arch cobblestones
+x 1
+y 7
+end
+arch firewall_3
+dam 4
+x 1
+y 7
+end
+arch cobblestones
+x 1
+y 8
+end
+arch firewall_3
+dam 4
+x 1
+y 8
+end
+arch cobblestones
+x 1
+y 9
+end
+arch firewall_3
+dam 4
+x 1
+y 9
+end
+arch cobblestones
+x 1
+y 10
+end
+arch firewall_3
+dam 4
+x 1
+y 10
+level 20
+end
+arch cobblestones
+x 1
+y 11
+end
+arch firewall_3
+dam 4
+x 1
+y 11
+end
+arch cobblestones
+x 1
+y 12
+end
+arch firewall_3
+dam 4
+x 1
+y 12
+end
+arch cobblestones
+x 1
+y 13
+end
+arch firewall_3
+dam 4
+x 1
+y 13
+end
+arch cobblestones
+x 1
+y 14
+end
+arch firewall_3
+dam 4
+x 1
+y 14
+end
+arch cobblestones
+x 1
+y 15
+end
+arch firewall_3
+dam 4
+x 1
+y 15
+level 20
+end
+arch cobblestones
+x 1
+y 16
+end
+arch firewall_3
+dam 4
+x 1
+y 16
+end
+arch cobblestones
+x 1
+y 17
+end
+arch firewall_3
+dam 4
+x 1
+y 17
+end
+arch cobblestones
+x 1
+y 18
+end
+arch firewall_3
+dam 4
+x 1
+y 18
+end
+arch cobblestones
+x 1
+y 19
+end
+arch firewall_3
+dam 4
+x 1
+y 19
+end
+arch cobblestones
+x 1
+y 20
+end
+arch firewall_3
+dam 4
+x 1
+y 20
+end
+arch cobblestones
+x 1
+y 21
+end
+arch firewall_3
+dam 4
+x 1
+y 21
+end
+arch cobblestones
+x 1
+y 22
+end
+arch firewall_3
+dam 4
+x 1
+y 22
+end
+arch cobblestones
+x 1
+y 23
+end
+arch firewall_3
+dam 4
+x 1
+y 23
+level 20
+end
+arch cobblestones
+x 1
+y 24
+end
+arch firewall_3
+dam 4
+x 1
+y 24
+end
+arch cobblestones
+x 1
+y 25
+end
+arch firewall_3
+dam 4
+x 1
+y 25
+end
+arch cobblestones
+x 1
+y 26
+end
+arch firewall_3
+dam 4
+x 1
+y 26
+end
+arch cobblestones
+x 1
+y 27
+end
+arch firewall_3
+dam 4
+x 1
+y 27
+end
+arch cobblestones
+x 1
+y 28
+end
+arch firewall_3
+dam 4
+x 1
+y 28
+end
+arch cobblestones
+x 1
+y 29
+end
+arch dun2
+x 1
+y 29
+end
+arch cobblestones
+x 2
+end
+arch bwall_2_1_2
+x 2
+end
+arch cobblestones
+x 2
+y 1
+end
+arch chest
+x 2
+y 1
+end
+arch cobblestones
+x 2
+y 2
+end
+arch chest
+x 2
+y 2
+end
+arch cobblestones
+x 2
+y 3
+end
+arch bwall_2_1_2
+x 2
+y 3
+end
+arch cobblestones
+x 2
+y 4
+end
+arch dun2
+x 2
+y 4
+end
+arch permanent_lava
+x 2
+y 5
+end
+arch permanent_lava
+x 2
+y 6
+end
+arch permanent_lava
+x 2
+y 7
+end
+arch permanent_lava
+x 2
+y 8
+end
+arch permanent_lava
+x 2
+y 9
+end
+arch permanent_lava
+x 2
+y 10
+end
+arch permanent_lava
+x 2
+y 11
+end
+arch permanent_lava
+x 2
+y 12
+end
+arch permanent_lava
+x 2
+y 13
+end
+arch permanent_lava
+x 2
+y 14
+end
+arch permanent_lava
+x 2
+y 15
+end
+arch permanent_lava
+x 2
+y 16
+end
+arch permanent_lava
+x 2
+y 17
+end
+arch permanent_lava
+x 2
+y 18
+end
+arch permanent_lava
+x 2
+y 19
+end
+arch permanent_lava
+x 2
+y 20
+end
+arch permanent_lava
+x 2
+y 21
+end
+arch permanent_lava
+x 2
+y 22
+end
+arch permanent_lava
+x 2
+y 23
+end
+arch permanent_lava
+x 2
+y 24
+end
+arch permanent_lava
+x 2
+y 25
+end
+arch permanent_lava
+x 2
+y 26
+end
+arch permanent_lava
+x 2
+y 27
+end
+arch permanent_lava
+x 2
+y 28
+end
+arch cobblestones
+x 2
+y 29
+end
+arch dun2
+x 2
+y 29
+end
+arch cobblestones
+x 3
+end
+arch bwall_2_1_2
+x 3
+end
+arch cobblestones
+x 3
+y 1
+end
+arch chest
+x 3
+y 1
+end
+arch cobblestones
+x 3
+y 2
+end
+arch chest
+x 3
+y 2
+end
+arch cobblestones
+x 3
+y 3
+end
+arch bwall_2_1_2
+x 3
+y 3
+end
+arch cobblestones
+x 3
+y 4
+end
+arch dun2
+x 3
+y 4
+end
+arch permanent_lava
+x 3
+y 5
+end
+arch permanent_lava
+x 3
+y 6
+end
+arch permanent_lava
+x 3
+y 7
+end
+arch permanent_lava
+x 3
+y 8
+end
+arch permanent_lava
+x 3
+y 9
+end
+arch permanent_lava
+x 3
+y 10
+end
+arch permanent_lava
+x 3
+y 11
+end
+arch permanent_lava
+x 3
+y 12
+end
+arch permanent_lava
+x 3
+y 13
+end
+arch permanent_lava
+x 3
+y 14
+end
+arch permanent_lava
+x 3
+y 15
+end
+arch permanent_lava
+x 3
+y 16
+end
+arch permanent_lava
+x 3
+y 17
+end
+arch permanent_lava
+x 3
+y 18
+end
+arch permanent_lava
+x 3
+y 19
+end
+arch permanent_lava
+x 3
+y 20
+end
+arch permanent_lava
+x 3
+y 21
+end
+arch permanent_lava
+x 3
+y 22
+end
+arch permanent_lava
+x 3
+y 23
+end
+arch permanent_lava
+x 3
+y 24
+end
+arch permanent_lava
+x 3
+y 25
+end
+arch permanent_lava
+x 3
+y 26
+end
+arch permanent_lava
+x 3
+y 27
+end
+arch permanent_lava
+x 3
+y 28
+end
+arch cobblestones
+x 3
+y 29
+end
+arch dun2
+x 3
+y 29
+end
+arch cobblestones
+x 4
+end
+arch bwall_2_1_2
+x 4
+end
+arch cobblestones
+x 4
+y 1
+end
+arch chest
+x 4
+y 1
+end
+arch cobblestones
+x 4
+y 2
+end
+arch chest
+x 4
+y 2
+end
+arch cobblestones
+x 4
+y 3
+end
+arch bwall_2_1_2
+x 4
+y 3
+end
+arch cobblestones
+x 4
+y 4
+end
+arch dun2
+x 4
+y 4
+end
+arch permanent_lava
+x 4
+y 5
+end
+arch permanent_lava
+x 4
+y 6
+end
+arch permanent_lava
+x 4
+y 7
+end
+arch permanent_lava
+x 4
+y 8
+end
+arch permanent_lava
+x 4
+y 9
+end
+arch permanent_lava
+x 4
+y 10
+end
+arch permanent_lava
+x 4
+y 11
+end
+arch permanent_lava
+x 4
+y 12
+end
+arch permanent_lava
+x 4
+y 13
+end
+arch permanent_lava
+x 4
+y 14
+end
+arch permanent_lava
+x 4
+y 15
+end
+arch permanent_lava
+x 4
+y 16
+end
+arch permanent_lava
+x 4
+y 17
+end
+arch permanent_lava
+x 4
+y 18
+end
+arch permanent_lava
+x 4
+y 19
+end
+arch permanent_lava
+x 4
+y 20
+end
+arch permanent_lava
+x 4
+y 21
+end
+arch permanent_lava
+x 4
+y 22
+end
+arch permanent_lava
+x 4
+y 23
+end
+arch permanent_lava
+x 4
+y 24
+end
+arch permanent_lava
+x 4
+y 25
+end
+arch cobblestones
+x 4
+y 26
+end
+arch dun10
+x 4
+y 26
+end
+arch cobblestones
+x 4
+y 27
+end
+arch dun3
+x 4
+y 27
+end
+arch cobblestones
+x 4
+y 28
+end
+arch dun3
+x 4
+y 28
+end
+arch cobblestones
+x 4
+y 29
+end
+arch dun13
+x 4
+y 29
+end
+arch cobblestones
+x 5
+end
+arch bwall_2_1_2
+x 5
+end
+arch cobblestones
+x 5
+y 1
+end
+arch random_weapon
+x 5
+y 1
+end
+arch cobblestones
+x 5
+y 2
+end
+arch random_weapon
+x 5
+y 2
+end
+arch cobblestones
+x 5
+y 3
+end
+arch bwall_2_1_2
+x 5
+y 3
+end
+arch cobblestones
+x 5
+y 4
+end
+arch dun2
+x 5
+y 4
+end
+arch cobblestones
+x 5
+y 5
+end
+arch firewall
+dam 10
+x 5
+y 5
+end
+arch permanent_lava
+x 5
+y 6
+end
+arch permanent_lava
+x 5
+y 7
+end
+arch cobblestones
+x 5
+y 8
+end
+arch firewall
+dam 10
+x 5
+y 8
+end
+arch permanent_lava
+x 5
+y 9
+end
+arch permanent_lava
+x 5
+y 10
+end
+arch permanent_lava
+x 5
+y 11
+end
+arch cobblestones
+x 5
+y 12
+end
+arch firewall
+dam 10
+x 5
+y 12
+end
+arch permanent_lava
+x 5
+y 13
+end
+arch permanent_lava
+x 5
+y 14
+end
+arch permanent_lava
+x 5
+y 15
+end
+arch cobblestones
+x 5
+y 16
+end
+arch firewall
+dam 10
+x 5
+y 16
+end
+arch permanent_lava
+x 5
+y 17
+end
+arch permanent_lava
+x 5
+y 18
+end
+arch permanent_lava
+x 5
+y 19
+end
+arch cobblestones
+x 5
+y 20
+end
+arch firewall
+dam 10
+x 5
+y 20
+end
+arch permanent_lava
+x 5
+y 21
+end
+arch permanent_lava
+x 5
+y 22
+end
+arch permanent_lava
+x 5
+y 23
+end
+arch cobblestones
+x 5
+y 24
+end
+arch firewall
+dam 10
+x 5
+y 24
+end
+arch permanent_lava
+x 5
+y 25
+end
+arch cobblestones
+x 5
+y 26
+end
+arch dun2
+x 5
+y 26
+end
+arch cobblestones
+x 5
+y 27
+end
+arch random_potion
+x 5
+y 27
+end
+arch cobblestones
+x 5
+y 28
+end
+arch random_potion
+x 5
+y 28
+end
+arch cobblestones
+x 5
+y 29
+end
+arch dun2
+x 5
+y 29
+end
+arch cobblestones
+x 6
+end
+arch bwall_1_3
+x 6
+end
+arch cobblestones
+x 6
+y 1
+end
+arch random_food
+x 6
+y 1
+end
+arch cobblestones
+x 6
+y 2
+end
+arch random_food
+x 6
+y 2
+end
+arch cobblestones
+x 6
+y 3
+end
+arch bwall_1_3
+x 6
+y 3
+end
+arch cobblestones
+x 6
+y 4
+end
+arch dun12
+x 6
+y 4
+end
+arch permanent_lava
+x 6
+y 5
+end
+arch permanent_lava
+x 6
+y 6
+end
+arch permanent_lava
+x 6
+y 7
+end
+arch permanent_lava
+x 6
+y 8
+end
+arch permanent_lava
+x 6
+y 9
+end
+arch permanent_lava
+x 6
+y 10
+end
+arch permanent_lava
+x 6
+y 11
+end
+arch permanent_lava
+x 6
+y 12
+end
+arch permanent_lava
+x 6
+y 13
+end
+arch permanent_lava
+x 6
+y 14
+end
+arch permanent_lava
+x 6
+y 15
+end
+arch permanent_lava
+x 6
+y 16
+end
+arch permanent_lava
+x 6
+y 17
+end
+arch permanent_lava
+x 6
+y 18
+end
+arch permanent_lava
+x 6
+y 19
+end
+arch permanent_lava
+x 6
+y 20
+end
+arch permanent_lava
+x 6
+y 21
+end
+arch permanent_lava
+x 6
+y 22
+end
+arch permanent_lava
+x 6
+y 23
+end
+arch permanent_lava
+x 6
+y 24
+end
+arch permanent_lava
+x 6
+y 25
+end
+arch cobblestones
+x 6
+y 26
+end
+arch dun12
+x 6
+y 26
+end
+arch cobblestones
+x 6
+y 27
+end
+arch random_talisman
+x 6
+y 27
+end
+arch cobblestones
+x 6
+y 28
+end
+arch random_talisman
+x 6
+y 28
+end
+arch cobblestones
+x 6
+y 29
+end
+arch dun12
+x 6
+y 29
+end
+arch cobblestones
+x 7
+end
+arch stair_up_1
+slaying /ElvenLands/Hot/uppertemple
+hp 3
+sp 38
+x 7
+end
+arch cobblestones
+x 7
+y 1
+end
+arch random_food
+x 7
+y 1
+end
+arch cobblestones
+x 7
+y 2
+end
+arch random_food
+x 7
+y 2
+end
+arch cobblestones
+x 7
+y 3
+end
+arch locked_door1
+x 7
+y 3
+end
+arch cobblestones
+x 7
+y 4
+end
+arch cobblestones
+x 7
+y 5
+end
+arch cobblestones
+x 7
+y 6
+end
+arch cobblestones
+x 7
+y 7
+end
+arch cobblestones
+x 7
+y 8
+end
+arch cobblestones
+x 7
+y 9
+end
+arch cobblestones
+x 7
+y 10
+end
+arch cobblestones
+x 7
+y 11
+end
+arch cobblestones
+x 7
+y 12
+end
+arch cobblestones
+x 7
+y 13
+end
+arch cobblestones
+x 7
+y 14
+end
+arch cobblestones
+x 7
+y 15
+end
+arch cobblestones
+x 7
+y 16
+end
+arch cobblestones
+x 7
+y 17
+end
+arch cobblestones
+x 7
+y 18
+end
+arch cobblestones
+x 7
+y 19
+end
+arch cobblestones
+x 7
+y 20
+end
+arch cobblestones
+x 7
+y 21
+end
+arch cobblestones
+x 7
+y 22
+end
+arch cobblestones
+x 7
+y 23
+end
+arch cobblestones
+x 7
+y 24
+end
+arch cobblestones
+x 7
+y 25
+end
+arch cobblestones
+x 7
+y 26
+end
+arch door_2
+x 7
+y 26
+end
+arch cobblestones
+x 7
+y 27
+end
+arch random_artifact
+x 7
+y 27
+end
+arch cobblestones
+x 7
+y 28
+end
+arch random_talisman
+x 7
+y 28
+end
+arch cobblestones
+x 7
+y 29
+end
+arch oakdoor
+slaying /ElvenLands/Hot/temple
+hp 27
+sp 8
+x 7
+y 29
+end
+arch cobblestones
+x 8
+end
+arch stair_up_1
+slaying /ElvenLands/Hot/uppertemple
+hp 4
+sp 38
+x 8
+end
+arch cobblestones
+x 8
+y 1
+end
+arch random_food
+x 8
+y 1
+end
+arch cobblestones
+x 8
+y 2
+end
+arch random_food
+x 8
+y 2
+end
+arch cobblestones
+x 8
+y 3
+end
+arch locked_door1
+slaying HotHotDragon
+msg
+You are nearly burn by the fantastic
+heat of the wall of flames! But there
+must be a way to pass through... 
+endmsg
+x 8
+y 3
+end
+arch cobblestones
+x 8
+y 4
+end
+arch cobblestones
+x 8
+y 5
+end
+arch cobblestones
+x 8
+y 6
+end
+arch cobblestones
+x 8
+y 7
+end
+arch cobblestones
+x 8
+y 8
+end
+arch cobblestones
+x 8
+y 9
+end
+arch cobblestones
+x 8
+y 10
+end
+arch cobblestones
+x 8
+y 11
+end
+arch cobblestones
+x 8
+y 12
+end
+arch cobblestones
+x 8
+y 13
+end
+arch cobblestones
+x 8
+y 14
+end
+arch cobblestones
+x 8
+y 15
+end
+arch cobblestones
+x 8
+y 16
+end
+arch cobblestones
+x 8
+y 17
+end
+arch cobblestones
+x 8
+y 18
+end
+arch cobblestones
+x 8
+y 19
+end
+arch cobblestones
+x 8
+y 20
+end
+arch cobblestones
+x 8
+y 21
+end
+arch cobblestones
+x 8
+y 22
+end
+arch cobblestones
+x 8
+y 23
+end
+arch cobblestones
+x 8
+y 24
+end
+arch cobblestones
+x 8
+y 25
+end
+arch cobblestones
+x 8
+y 26
+end
+arch door_2
+x 8
+y 26
+end
+arch cobblestones
+x 8
+y 27
+end
+arch random_talisman
+x 8
+y 27
+end
+arch cobblestones
+x 8
+y 28
+end
+arch random_talisman
+x 8
+y 28
+end
+arch cobblestones
+x 8
+y 29
+end
+arch oakdoor
+slaying /ElvenLands/Hot/temple
+hp 27
+sp 8
+x 8
+y 29
+end
+arch cobblestones
+x 9
+end
+arch bwall_1_4
+x 9
+end
+arch cobblestones
+x 9
+y 1
+end
+arch random_food
+x 9
+y 1
+end
+arch cobblestones
+x 9
+y 2
+end
+arch random_food
+x 9
+y 2
+end
+arch cobblestones
+x 9
+y 3
+end
+arch bwall_1_4
+x 9
+y 3
+end
+arch cobblestones
+x 9
+y 4
+end
+arch dun6
+x 9
+y 4
+end
+arch permanent_lava
+x 9
+y 5
+end
+arch permanent_lava
+x 9
+y 6
+end
+arch permanent_lava
+x 9
+y 7
+end
+arch permanent_lava
+x 9
+y 8
+end
+arch permanent_lava
+x 9
+y 9
+end
+arch permanent_lava
+x 9
+y 10
+end
+arch permanent_lava
+x 9
+y 11
+end
+arch permanent_lava
+x 9
+y 12
+end
+arch permanent_lava
+x 9
+y 13
+end
+arch permanent_lava
+x 9
+y 14
+end
+arch permanent_lava
+x 9
+y 15
+end
+arch permanent_lava
+x 9
+y 16
+end
+arch permanent_lava
+x 9
+y 17
+end
+arch permanent_lava
+x 9
+y 18
+end
+arch permanent_lava
+x 9
+y 19
+end
+arch permanent_lava
+x 9
+y 20
+end
+arch permanent_lava
+x 9
+y 21
+end
+arch permanent_lava
+x 9
+y 22
+end
+arch permanent_lava
+x 9
+y 23
+end
+arch permanent_lava
+x 9
+y 24
+end
+arch permanent_lava
+x 9
+y 25
+end
+arch cobblestones
+x 9
+y 26
+end
+arch dun6
+x 9
+y 26
+end
+arch cobblestones
+x 9
+y 27
+end
+arch random_talisman
+x 9
+y 27
+end
+arch cobblestones
+x 9
+y 28
+end
+arch random_talisman
+x 9
+y 28
+end
+arch cobblestones
+x 9
+y 29
+end
+arch dun6
+x 9
+y 29
+end
+arch cobblestones
+x 10
+end
+arch bwall_2_1_2
+x 10
+end
+arch cobblestones
+x 10
+y 1
+end
+arch random_weapon
+x 10
+y 1
+end
+arch cobblestones
+x 10
+y 2
+end
+arch random_weapon
+x 10
+y 2
+end
+arch cobblestones
+x 10
+y 3
+end
+arch bwall_2_1_2
+x 10
+y 3
+end
+arch cobblestones
+x 10
+y 4
+end
+arch dun2
+x 10
+y 4
+end
+arch cobblestones
+x 10
+y 5
+end
+arch firewall
+dam 10
+x 10
+y 5
+end
+arch permanent_lava
+x 10
+y 6
+end
+arch permanent_lava
+x 10
+y 7
+end
+arch cobblestones
+x 10
+y 8
+end
+arch firewall
+dam 10
+x 10
+y 8
+end
+arch permanent_lava
+x 10
+y 9
+end
+arch permanent_lava
+x 10
+y 10
+end
+arch permanent_lava
+x 10
+y 11
+end
+arch cobblestones
+x 10
+y 12
+end
+arch firewall
+dam 10
+x 10
+y 12
+end
+arch permanent_lava
+x 10
+y 13
+end
+arch permanent_lava
+x 10
+y 14
+end
+arch permanent_lava
+x 10
+y 15
+end
+arch cobblestones
+x 10
+y 16
+end
+arch firewall
+dam 10
+x 10
+y 16
+end
+arch permanent_lava
+x 10
+y 17
+end
+arch permanent_lava
+x 10
+y 18
+end
+arch permanent_lava
+x 10
+y 19
+end
+arch cobblestones
+x 10
+y 20
+end
+arch firewall
+dam 10
+x 10
+y 20
+end
+arch permanent_lava
+x 10
+y 21
+end
+arch permanent_lava
+x 10
+y 22
+end
+arch permanent_lava
+x 10
+y 23
+end
+arch cobblestones
+x 10
+y 24
+end
+arch firewall
+dam 10
+x 10
+y 24
+end
+arch permanent_lava
+x 10
+y 25
+end
+arch cobblestones
+x 10
+y 26
+end
+arch dun2
+x 10
+y 26
+end
+arch cobblestones
+x 10
+y 27
+end
+arch random_potion
+x 10
+y 27
+end
+arch cobblestones
+x 10
+y 28
+end
+arch random_potion
+x 10
+y 28
+end
+arch cobblestones
+x 10
+y 29
+end
+arch dun2
+x 10
+y 29
+end
+arch cobblestones
+x 11
+end
+arch bwall_2_1_2
+x 11
+end
+arch cobblestones
+x 11
+y 1
+end
+arch chest
+x 11
+y 1
+end
+arch cobblestones
+x 11
+y 2
+end
+arch chest
+x 11
+y 2
+end
+arch cobblestones
+x 11
+y 3
+end
+arch bwall_2_1_2
+x 11
+y 3
+end
+arch cobblestones
+x 11
+y 4
+end
+arch dun2
+x 11
+y 4
+end
+arch permanent_lava
+x 11
+y 5
+end
+arch permanent_lava
+x 11
+y 6
+end
+arch permanent_lava
+x 11
+y 7
+end
+arch permanent_lava
+x 11
+y 8
+end
+arch permanent_lava
+x 11
+y 9
+end
+arch permanent_lava
+x 11
+y 10
+end
+arch permanent_lava
+x 11
+y 11
+end
+arch permanent_lava
+x 11
+y 12
+end
+arch permanent_lava
+x 11
+y 13
+end
+arch permanent_lava
+x 11
+y 14
+end
+arch permanent_lava
+x 11
+y 15
+end
+arch permanent_lava
+x 11
+y 16
+end
+arch permanent_lava
+x 11
+y 17
+end
+arch permanent_lava
+x 11
+y 18
+end
+arch permanent_lava
+x 11
+y 19
+end
+arch permanent_lava
+x 11
+y 20
+end
+arch permanent_lava
+x 11
+y 21
+end
+arch permanent_lava
+x 11
+y 22
+end
+arch permanent_lava
+x 11
+y 23
+end
+arch permanent_lava
+x 11
+y 24
+end
+arch permanent_lava
+x 11
+y 25
+end
+arch cobblestones
+x 11
+y 26
+end
+arch dun9
+x 11
+y 26
+end
+arch cobblestones
+x 11
+y 27
+end
+arch dun3
+x 11
+y 27
+end
+arch cobblestones
+x 11
+y 28
+end
+arch dun3
+x 11
+y 28
+end
+arch cobblestones
+x 11
+y 29
+end
+arch dun13
+x 11
+y 29
+end
+arch cobblestones
+x 12
+end
+arch bwall_2_1_2
+x 12
+end
+arch cobblestones
+x 12
+y 1
+end
+arch chest
+x 12
+y 1
+end
+arch cobblestones
+x 12
+y 2
+end
+arch chest
+x 12
+y 2
+end
+arch cobblestones
+x 12
+y 3
+end
+arch bwall_2_1_2
+x 12
+y 3
+end
+arch cobblestones
+x 12
+y 4
+end
+arch dun2
+x 12
+y 4
+end
+arch permanent_lava
+x 12
+y 5
+end
+arch permanent_lava
+x 12
+y 6
+end
+arch permanent_lava
+x 12
+y 7
+end
+arch permanent_lava
+x 12
+y 8
+end
+arch permanent_lava
+x 12
+y 9
+end
+arch permanent_lava
+x 12
+y 10
+end
+arch permanent_lava
+x 12
+y 11
+end
+arch permanent_lava
+x 12
+y 12
+end
+arch permanent_lava
+x 12
+y 13
+end
+arch permanent_lava
+x 12
+y 14
+end
+arch permanent_lava
+x 12
+y 15
+end
+arch permanent_lava
+x 12
+y 16
+end
+arch permanent_lava
+x 12
+y 17
+end
+arch permanent_lava
+x 12
+y 18
+end
+arch permanent_lava
+x 12
+y 19
+end
+arch permanent_lava
+x 12
+y 20
+end
+arch permanent_lava
+x 12
+y 21
+end
+arch permanent_lava
+x 12
+y 22
+end
+arch permanent_lava
+x 12
+y 23
+end
+arch permanent_lava
+x 12
+y 24
+end
+arch permanent_lava
+x 12
+y 25
+end
+arch permanent_lava
+x 12
+y 26
+end
+arch permanent_lava
+x 12
+y 27
+end
+arch permanent_lava
+x 12
+y 28
+end
+arch cobblestones
+x 12
+y 29
+end
+arch dun2
+x 12
+y 29
+end
+arch cobblestones
+x 13
+end
+arch bwall_2_1_2
+x 13
+end
+arch cobblestones
+x 13
+y 1
+end
+arch chest
+x 13
+y 1
+end
+arch cobblestones
+x 13
+y 2
+end
+arch chest
+x 13
+y 2
+end
+arch cobblestones
+x 13
+y 3
+end
+arch bwall_2_1_2
+x 13
+y 3
+end
+arch cobblestones
+x 13
+y 4
+end
+arch dun2
+x 13
+y 4
+end
+arch permanent_lava
+x 13
+y 5
+end
+arch permanent_lava
+x 13
+y 6
+end
+arch permanent_lava
+x 13
+y 7
+end
+arch permanent_lava
+x 13
+y 8
+end
+arch permanent_lava
+x 13
+y 9
+end
+arch permanent_lava
+x 13
+y 10
+end
+arch permanent_lava
+x 13
+y 11
+end
+arch permanent_lava
+x 13
+y 12
+end
+arch permanent_lava
+x 13
+y 13
+end
+arch permanent_lava
+x 13
+y 14
+end
+arch permanent_lava
+x 13
+y 15
+end
+arch permanent_lava
+x 13
+y 16
+end
+arch permanent_lava
+x 13
+y 17
+end
+arch permanent_lava
+x 13
+y 18
+end
+arch permanent_lava
+x 13
+y 19
+end
+arch permanent_lava
+x 13
+y 20
+end
+arch permanent_lava
+x 13
+y 21
+end
+arch permanent_lava
+x 13
+y 22
+end
+arch permanent_lava
+x 13
+y 23
+end
+arch permanent_lava
+x 13
+y 24
+end
+arch permanent_lava
+x 13
+y 25
+end
+arch permanent_lava
+x 13
+y 26
+end
+arch permanent_lava
+x 13
+y 27
+end
+arch permanent_lava
+x 13
+y 28
+end
+arch cobblestones
+x 13
+y 29
+end
+arch dun2
+x 13
+y 29
+end
+arch cobblestones
+x 14
+end
+arch bwall_2_1_2
+x 14
+end
+arch cobblestones
+x 14
+y 1
+end
+arch random_wealth
+x 14
+y 1
+end
+arch cobblestones
+x 14
+y 2
+end
+arch random_wealth
+x 14
+y 2
+end
+arch cobblestones
+x 14
+y 3
+end
+arch bwall_2_1_2
+x 14
+y 3
+end
+arch cobblestones
+x 14
+y 4
+end
+arch dun2
+x 14
+y 4
+end
+arch cobblestones
+x 14
+y 5
+end
+arch firewall_7
+dam 4
+x 14
+y 5
+end
+arch cobblestones
+x 14
+y 6
+end
+arch firewall_7
+dam 4
+x 14
+y 6
+end
+arch cobblestones
+x 14
+y 7
+end
+arch firewall_7
+dam 4
+x 14
+y 7
+end
+arch cobblestones
+x 14
+y 8
+end
+arch firewall_7
+dam 4
+x 14
+y 8
+end
+arch cobblestones
+x 14
+y 9
+end
+arch firewall_7
+dam 4
+x 14
+y 9
+end
+arch cobblestones
+x 14
+y 10
+end
+arch firewall_7
+dam 4
+x 14
+y 10
+end
+arch cobblestones
+x 14
+y 11
+end
+arch firewall_7
+dam 4
+x 14
+y 11
+end
+arch cobblestones
+x 14
+y 12
+end
+arch firewall_7
+dam 4
+x 14
+y 12
+end
+arch cobblestones
+x 14
+y 13
+end
+arch firewall_7
+dam 4
+x 14
+y 13
+end
+arch cobblestones
+x 14
+y 14
+end
+arch firewall_7
+dam 4
+x 14
+y 14
+level 20
+end
+arch cobblestones
+x 14
+y 15
+end
+arch firewall_7
+dam 4
+x 14
+y 15
+end
+arch cobblestones
+x 14
+y 16
+end
+arch firewall_7
+dam 4
+x 14
+y 16
+end
+arch cobblestones
+x 14
+y 17
+end
+arch firewall_7
+dam 4
+x 14
+y 17
+end
+arch cobblestones
+x 14
+y 18
+end
+arch firewall_7
+dam 4
+x 14
+y 18
+end
+arch cobblestones
+x 14
+y 19
+end
+arch firewall_7
+dam 4
+x 14
+y 19
+end
+arch cobblestones
+x 14
+y 20
+end
+arch firewall_7
+dam 4
+x 14
+y 20
+end
+arch cobblestones
+x 14
+y 21
+end
+arch firewall_7
+dam 4
+x 14
+y 21
+level 20
+end
+arch cobblestones
+x 14
+y 22
+end
+arch firewall_7
+dam 4
+x 14
+y 22
+end
+arch cobblestones
+x 14
+y 23
+end
+arch firewall_7
+dam 4
+x 14
+y 23
+end
+arch cobblestones
+x 14
+y 24
+end
+arch firewall_7
+dam 4
+x 14
+y 24
+end
+arch cobblestones
+x 14
+y 25
+end
+arch firewall_7
+dam 4
+x 14
+y 25
+end
+arch cobblestones
+x 14
+y 26
+end
+arch firewall_7
+dam 4
+x 14
+y 26
+end
+arch cobblestones
+x 14
+y 27
+end
+arch firewall_7
+dam 4
+x 14
+y 27
+end
+arch cobblestones
+x 14
+y 28
+end
+arch firewall_7
+dam 4
+x 14
+y 28
+end
+arch cobblestones
+x 14
+y 29
+end
+arch dun2
+x 14
+y 29
+end
+arch cobblestones
+x 15
+end
+arch bwall_2_2_3
+x 15
+end
+arch cobblestones
+x 15
+y 1
+end
+arch bwall_2_1_1
+x 15
+y 1
+end
+arch cobblestones
+x 15
+y 2
+end
+arch bwall_2_1_1
+x 15
+y 2
+end
+arch cobblestones
+x 15
+y 3
+end
+arch bwall_2_2_4
+x 15
+y 3
+end
+arch cobblestones
+x 15
+y 4
+end
+arch dun9
+x 15
+y 4
+end
+arch cobblestones
+x 15
+y 5
+end
+arch dun3
+x 15
+y 5
+end
+arch cobblestones
+x 15
+y 6
+end
+arch dun3
+x 15
+y 6
+end
+arch cobblestones
+x 15
+y 7
+end
+arch dun3
+x 15
+y 7
+end
+arch cobblestones
+x 15
+y 8
+end
+arch dun3
+x 15
+y 8
+end
+arch cobblestones
+x 15
+y 9
+end
+arch dun3
+x 15
+y 9
+end
+arch cobblestones
+x 15
+y 10
+end
+arch dun3
+x 15
+y 10
+end
+arch cobblestones
+x 15
+y 11
+end
+arch dun3
+x 15
+y 11
+end
+arch cobblestones
+x 15
+y 12
+end
+arch dun3
+x 15
+y 12
+end
+arch cobblestones
+x 15
+y 13
+end
+arch dun3
+x 15
+y 13
+end
+arch cobblestones
+x 15
+y 14
+end
+arch dun3
+x 15
+y 14
+end
+arch cobblestones
+x 15
+y 15
+end
+arch dun3
+x 15
+y 15
+end
+arch cobblestones
+x 15
+y 16
+end
+arch dun3
+x 15
+y 16
+end
+arch cobblestones
+x 15
+y 17
+end
+arch dun3
+x 15
+y 17
+end
+arch cobblestones
+x 15
+y 18
+end
+arch dun3
+x 15
+y 18
+end
+arch cobblestones
+x 15
+y 19
+end
+arch dun3
+x 15
+y 19
+end
+arch cobblestones
+x 15
+y 20
+end
+arch dun3
+x 15
+y 20
+end
+arch cobblestones
+x 15
+y 21
+end
+arch dun3
+x 15
+y 21
+end
+arch cobblestones
+x 15
+y 22
+end
+arch dun3
+x 15
+y 22
+end
+arch cobblestones
+x 15
+y 23
+end
+arch dun3
+x 15
+y 23
+end
+arch cobblestones
+x 15
+y 24
+end
+arch dun3
+x 15
+y 24
+end
+arch cobblestones
+x 15
+y 25
+end
+arch dun3
+x 15
+y 25
+end
+arch cobblestones
+x 15
+y 26
+end
+arch dun3
+x 15
+y 26
+end
+arch cobblestones
+x 15
+y 27
+end
+arch dun3
+x 15
+y 27
+end
+arch cobblestones
+x 15
+y 28
+end
+arch dun3
+x 15
+y 28
+end
+arch cobblestones
+x 15
+y 29
+end
+arch dun7
+x 15
+y 29
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 7
+y 8
+level 21
+carrying 1350100
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch key2
+name Burning key
+slaying HotHotDragon
+msg
+The key,though it burns with
+flame,strangely does not hurt you.
+endmsg
+end
+end

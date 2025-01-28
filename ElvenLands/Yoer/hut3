@@ -1,0 +1,869 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Jun  1 16:21:57 2002
+endmsg
+width 12
+height 12
+darkness 5
+end
+arch dungeon_floor
+end
+arch mine10
+end
+arch dungeon_floor
+y 1
+end
+arch mine3
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch mine3
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch mine11
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch mine3
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch mine3
+y 5
+end
+arch dungeon_floor
+y 6
+end
+arch mine3
+y 6
+end
+arch dungeon_floor
+y 7
+end
+arch mine11
+y 7
+end
+arch dungeon_floor
+y 8
+end
+arch mine3
+y 8
+end
+arch dungeon_floor
+y 9
+end
+arch mine3
+y 9
+end
+arch dungeon_floor
+y 10
+end
+arch mine4
+y 10
+end
+arch dungeon_floor
+y 11
+end
+arch dungeon_floor
+x 1
+end
+arch mine2
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch prisoner
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch mine7
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch dungeon_floor
+x 1
+y 6
+end
+arch dungeon_floor
+x 1
+y 7
+end
+arch mine7
+x 1
+y 7
+end
+arch dungeon_floor
+x 1
+y 8
+end
+arch dungeon_floor
+x 1
+y 9
+end
+arch prisoner
+x 1
+y 9
+end
+arch dungeon_floor
+x 1
+y 10
+end
+arch mine2
+x 1
+y 10
+end
+arch dungeon_floor
+x 1
+y 11
+end
+arch dungeon_floor
+x 2
+end
+arch mine2
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch locked_door1
+x 2
+y 3
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch dungeon_floor
+x 2
+y 6
+end
+arch dungeon_floor
+x 2
+y 7
+end
+arch locked_door1
+x 2
+y 7
+end
+arch dungeon_floor
+x 2
+y 8
+end
+arch dungeon_floor
+x 2
+y 9
+end
+arch dungeon_floor
+x 2
+y 10
+end
+arch mine2
+x 2
+y 10
+end
+arch dungeon_floor
+x 2
+y 11
+end
+arch dungeon_floor
+x 3
+end
+arch mine16
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch mine3
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch mine3
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch mine4
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch dungeon_floor
+x 3
+y 6
+end
+arch dungeon_floor
+x 3
+y 7
+end
+arch mine10
+x 3
+y 7
+end
+arch dungeon_floor
+x 3
+y 8
+end
+arch mine3
+x 3
+y 8
+end
+arch dungeon_floor
+x 3
+y 9
+end
+arch mine3
+x 3
+y 9
+end
+arch dungeon_floor
+x 3
+y 10
+end
+arch mine13
+x 3
+y 10
+end
+arch dungeon_floor
+x 3
+y 11
+end
+arch dungeon_floor
+x 4
+end
+arch mine2
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch prisoner
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch mine7
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch dungeon_floor
+x 4
+y 6
+end
+arch dungeon_floor
+x 4
+y 7
+end
+arch mine7
+x 4
+y 7
+end
+arch dungeon_floor
+x 4
+y 8
+end
+arch dungeon_floor
+x 4
+y 9
+end
+arch prisoner
+x 4
+y 9
+end
+arch dungeon_floor
+x 4
+y 10
+end
+arch mine2
+x 4
+y 10
+end
+arch dungeon_floor
+x 4
+y 11
+end
+arch dungeon_floor
+x 5
+end
+arch mine2
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch locked_door1
+x 5
+y 3
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch dungeon_floor
+x 5
+y 6
+end
+arch dungeon_floor
+x 5
+y 7
+end
+arch locked_door1
+x 5
+y 7
+end
+arch dungeon_floor
+x 5
+y 8
+end
+arch dungeon_floor
+x 5
+y 9
+end
+arch dungeon_floor
+x 5
+y 10
+end
+arch mine2
+x 5
+y 10
+end
+arch dungeon_floor
+x 5
+y 11
+end
+arch dungeon_floor
+x 6
+end
+arch mine16
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch mine3
+x 6
+y 1
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch mine3
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch mine4
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch dungeon_floor
+x 6
+y 6
+end
+arch dungeon_floor
+x 6
+y 7
+end
+arch mine10
+x 6
+y 7
+end
+arch dungeon_floor
+x 6
+y 8
+end
+arch mine3
+x 6
+y 8
+end
+arch dungeon_floor
+x 6
+y 9
+end
+arch mine3
+x 6
+y 9
+end
+arch dungeon_floor
+x 6
+y 10
+end
+arch mine13
+x 6
+y 10
+end
+arch dungeon_floor
+x 6
+y 11
+end
+arch dungeon_floor
+x 7
+end
+arch mine2
+x 7
+end
+arch dungeon_floor
+x 7
+y 1
+end
+arch prisoner
+x 7
+y 1
+end
+arch dungeon_floor
+x 7
+y 2
+end
+arch dungeon_floor
+x 7
+y 3
+end
+arch mine7
+x 7
+y 3
+end
+arch dungeon_floor
+x 7
+y 4
+end
+arch dungeon_floor
+x 7
+y 5
+end
+arch dungeon_floor
+x 7
+y 6
+end
+arch dungeon_floor
+x 7
+y 7
+end
+arch mine7
+x 7
+y 7
+end
+arch dungeon_floor
+x 7
+y 8
+end
+arch dungeon_floor
+x 7
+y 9
+end
+arch prisoner
+x 7
+y 9
+end
+arch dungeon_floor
+x 7
+y 10
+end
+arch mine2
+x 7
+y 10
+end
+arch dungeon_floor
+x 7
+y 11
+end
+arch dungeon_floor
+x 8
+end
+arch mine2
+x 8
+end
+arch dungeon_floor
+x 8
+y 1
+end
+arch dungeon_floor
+x 8
+y 2
+end
+arch dungeon_floor
+x 8
+y 3
+end
+arch locked_door1
+x 8
+y 3
+end
+arch dungeon_floor
+x 8
+y 4
+end
+arch dungeon_floor
+x 8
+y 5
+end
+arch dungeon_floor
+x 8
+y 6
+end
+arch dungeon_floor
+x 8
+y 7
+end
+arch locked_door1
+x 8
+y 7
+end
+arch dungeon_floor
+x 8
+y 8
+end
+arch dungeon_floor
+x 8
+y 9
+end
+arch dungeon_floor
+x 8
+y 10
+end
+arch mine2
+x 8
+y 10
+end
+arch dungeon_floor
+x 8
+y 11
+end
+arch dungeon_floor
+x 9
+end
+arch mine9
+x 9
+end
+arch dungeon_floor
+x 9
+y 1
+end
+arch mine3
+x 9
+y 1
+end
+arch dungeon_floor
+x 9
+y 2
+end
+arch mine3
+x 9
+y 2
+end
+arch dungeon_floor
+x 9
+y 3
+end
+arch mine4
+x 9
+y 3
+end
+arch dungeon_floor
+x 9
+y 4
+end
+arch dungeon_floor
+x 9
+y 5
+end
+arch dungeon_floor
+x 9
+y 6
+end
+arch dungeon_floor
+x 9
+y 7
+end
+arch mine10
+x 9
+y 7
+end
+arch dungeon_floor
+x 9
+y 8
+end
+arch mine3
+x 9
+y 8
+end
+arch dungeon_floor
+x 9
+y 9
+end
+arch mine3
+x 9
+y 9
+end
+arch dungeon_floor
+x 9
+y 10
+end
+arch mine12
+x 9
+y 10
+end
+arch dungeon_floor
+x 9
+y 11
+end
+arch dungeon_floor
+x 10
+end
+arch dungeon_floor
+x 10
+y 1
+end
+arch dungeon_floor
+x 10
+y 2
+end
+arch dungeon_floor
+x 10
+y 3
+end
+arch mine2
+x 10
+y 3
+end
+arch dungeon_floor
+x 10
+y 4
+end
+arch dungeon_floor
+x 10
+y 5
+end
+arch ladder_up
+slaying hut2
+hp 2
+sp 17
+x 10
+y 5
+end
+arch dungeon_floor
+x 10
+y 6
+end
+arch dungeon_floor
+x 10
+y 7
+end
+arch mine2
+x 10
+y 7
+end
+arch dungeon_floor
+x 10
+y 8
+end
+arch dungeon_floor
+x 10
+y 9
+end
+arch dungeon_floor
+x 10
+y 10
+end
+arch dungeon_floor
+x 10
+y 11
+end
+arch dungeon_floor
+x 11
+end
+arch dungeon_floor
+x 11
+y 1
+end
+arch dungeon_floor
+x 11
+y 2
+end
+arch dungeon_floor
+x 11
+y 3
+end
+arch mine9
+x 11
+y 3
+end
+arch dungeon_floor
+x 11
+y 4
+end
+arch mine3
+x 11
+y 4
+end
+arch dungeon_floor
+x 11
+y 5
+end
+arch mine3
+x 11
+y 5
+end
+arch dungeon_floor
+x 11
+y 6
+end
+arch mine3
+x 11
+y 6
+end
+arch dungeon_floor
+x 11
+y 7
+end
+arch mine12
+x 11
+y 7
+end
+arch dungeon_floor
+x 11
+y 8
+end
+arch dungeon_floor
+x 11
+y 9
+end
+arch dungeon_floor
+x 11
+y 10
+end
+arch dungeon_floor
+x 11
+y 11
+end
+arch troll
+name troll guard
+msg
+@match *
+Grrrr...
+endmsg
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 7
+y 4
+level 16
+carrying 123250
+unaggressive 1
+arch full_helmet
+end
+arch plate_mail
+end
+arch spiked_shield
+end
+arch longbow
+end
+arch arrow
+nrof 30
+end
+arch torch_1
+end
+end

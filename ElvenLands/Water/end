@@ -1,0 +1,1854 @@
+arch map
+name end
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Fri Mar 31 15:54:44 2000
+endmsg
+width 16
+height 16
+end
+arch dungeon_floor
+end
+arch dun10
+end
+arch dungeon_floor
+y 1
+end
+arch dun3
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch dun3
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch dun3
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch dun3
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch dun3
+y 5
+end
+arch sea1
+y 6
+end
+arch dun11
+y 6
+end
+arch sea1
+y 7
+end
+arch dun3
+y 7
+end
+arch sea1
+y 8
+end
+arch dun3
+y 8
+end
+arch sea1
+y 9
+end
+arch dun3
+y 9
+end
+arch sea1
+y 10
+end
+arch dun3
+y 10
+end
+arch sea1
+y 11
+end
+arch dun3
+y 11
+end
+arch sea1
+y 12
+end
+arch dun3
+y 12
+end
+arch sea1
+y 13
+end
+arch dun3
+y 13
+end
+arch sea1
+y 14
+end
+arch dun3
+y 14
+end
+arch sea1
+y 15
+end
+arch dun4
+y 15
+end
+arch dungeon_floor
+x 1
+end
+arch dun2
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch random_potion
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch random_wealth
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch random_wealth
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch random_wealth
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch random_wealth
+x 1
+y 5
+end
+arch sea1
+x 1
+y 6
+end
+arch dun2
+x 1
+y 6
+end
+arch sea1
+x 1
+y 7
+end
+arch acid_pool
+x 1
+y 7
+end
+arch sea1
+x 1
+y 8
+end
+arch acid_pool
+x 1
+y 8
+end
+arch sea1
+x 1
+y 9
+end
+arch acid_pool
+x 1
+y 9
+end
+arch sea1
+x 1
+y 10
+end
+arch acid_pool
+x 1
+y 10
+end
+arch sea1
+x 1
+y 11
+end
+arch acid_pool
+x 1
+y 11
+end
+arch sea1
+x 1
+y 12
+end
+arch acid_pool
+x 1
+y 12
+end
+arch sea1
+x 1
+y 13
+end
+arch acid_pool
+x 1
+y 13
+end
+arch sea1
+x 1
+y 14
+end
+arch acid_pool
+x 1
+y 14
+end
+arch sea1
+x 1
+y 15
+end
+arch dun2
+x 1
+y 15
+end
+arch dungeon_floor
+x 2
+end
+arch dun2
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch random_potion
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch random_wealth
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch random_wealth
+x 2
+y 3
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch random_wealth
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch random_wealth
+x 2
+y 5
+end
+arch sea1
+x 2
+y 6
+end
+arch dun2
+x 2
+y 6
+end
+arch sea1
+x 2
+y 7
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 2
+y 7
+end
+arch sea1
+x 2
+y 8
+end
+arch sea1
+x 2
+y 9
+end
+arch acid_sphere
+x 2
+y 9
+end
+arch sea1
+x 2
+y 10
+end
+arch sea1
+x 2
+y 11
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 2
+y 11
+end
+arch sea1
+x 2
+y 12
+end
+arch water_elemental
+x 2
+y 12
+end
+arch sea1
+x 2
+y 13
+end
+arch sea1
+x 2
+y 14
+end
+arch acid_sphere
+x 2
+y 14
+end
+arch sea1
+x 2
+y 15
+end
+arch dun2
+x 2
+y 15
+end
+arch dungeon_floor
+x 3
+end
+arch dun2
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch random_potion
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch random_wealth
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch random_wealth
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch random_wealth
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch random_wealth
+x 3
+y 5
+end
+arch sea1
+x 3
+y 6
+end
+arch dun2
+x 3
+y 6
+end
+arch sea1
+x 3
+y 7
+end
+arch sea1
+x 3
+y 8
+end
+arch water_elemental
+x 3
+y 8
+end
+arch sea1
+x 3
+y 9
+end
+arch sea1
+x 3
+y 10
+end
+arch water_elemental
+x 3
+y 10
+end
+arch sea1
+x 3
+y 11
+end
+arch sea1
+x 3
+y 12
+end
+arch acid_sphere
+x 3
+y 12
+end
+arch sea1
+x 3
+y 13
+end
+arch water_elemental
+x 3
+y 13
+end
+arch sea1
+x 3
+y 14
+end
+arch acid_sphere
+x 3
+y 14
+end
+arch sea1
+x 3
+y 15
+end
+arch dun2
+x 3
+y 15
+end
+arch dungeon_floor
+x 4
+end
+arch dun2
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch random_spells
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch random_scroll
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch random_scroll
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch random_scroll
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch random_scroll
+x 4
+y 5
+end
+arch sea1
+x 4
+y 6
+end
+arch dun2
+x 4
+y 6
+end
+arch sea1
+x 4
+y 7
+end
+arch acid_sphere
+x 4
+y 7
+end
+arch sea1
+x 4
+y 8
+end
+arch sea1
+x 4
+y 9
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 4
+y 9
+end
+arch sea1
+x 4
+y 10
+end
+arch sea1
+x 4
+y 11
+end
+arch acid_sphere
+x 4
+y 11
+end
+arch sea1
+x 4
+y 12
+end
+arch water_elemental
+x 4
+y 12
+end
+arch sea1
+x 4
+y 13
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 4
+y 13
+end
+arch sea1
+x 4
+y 14
+end
+arch water_elemental
+x 4
+y 14
+end
+arch sea1
+x 4
+y 15
+end
+arch dun2
+x 4
+y 15
+end
+arch dungeon_floor
+x 5
+end
+arch dun2
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch random_spells
+x 5
+y 1
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch door_2_2_2
+x 5
+y 2
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch door_2_1_1
+x 5
+y 3
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch door_2_1_1
+x 5
+y 4
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch door_1_2
+x 5
+y 5
+end
+arch sea1
+x 5
+y 6
+end
+arch dun12
+x 5
+y 6
+end
+arch sea1
+x 5
+y 7
+end
+arch sea1
+x 5
+y 8
+end
+arch sea1
+x 5
+y 9
+end
+arch sea1
+x 5
+y 10
+end
+arch water_elemental
+x 5
+y 10
+end
+arch sea1
+x 5
+y 11
+end
+arch sea1
+x 5
+y 12
+end
+arch dun10
+x 5
+y 12
+end
+arch sea1
+x 5
+y 13
+end
+arch dun3
+x 5
+y 13
+end
+arch sea1
+x 5
+y 14
+end
+arch dun3
+x 5
+y 14
+end
+arch sea1
+x 5
+y 15
+end
+arch dun13
+x 5
+y 15
+end
+arch dungeon_floor
+x 6
+end
+arch dun2
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch random_artifact
+x 6
+y 1
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch door_2_1_2
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch sea1
+x 6
+y 6
+end
+arch door_2
+x 6
+y 6
+end
+arch sea1
+x 6
+y 7
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 6
+y 7
+end
+arch sea1
+x 6
+y 8
+end
+arch sea1
+x 6
+y 9
+end
+arch acid_sphere
+x 6
+y 9
+end
+arch sea1
+x 6
+y 10
+end
+arch sea1
+x 6
+y 11
+end
+arch water_elemental
+x 6
+y 11
+end
+arch sea1
+x 6
+y 12
+end
+arch dun12
+x 6
+y 12
+end
+arch sea1
+x 6
+y 13
+end
+arch sea1
+x 6
+y 14
+end
+arch sea1
+x 6
+y 15
+end
+arch dun2
+x 6
+y 15
+end
+arch dungeon_floor
+x 7
+end
+arch dun2
+x 7
+end
+arch dungeon_floor
+x 7
+y 1
+end
+arch magi_staff
+name Staff of the Sea
+Pow 2
+Int 0
+x 7
+y 1
+end
+arch dungeon_floor
+x 7
+y 2
+end
+arch door_2_1_2
+x 7
+y 2
+end
+arch dungeon_floor
+x 7
+y 3
+end
+arch dungeon_floor
+x 7
+y 4
+end
+arch dungeon_floor
+x 7
+y 5
+end
+arch sea1
+x 7
+y 6
+end
+arch door_2
+x 7
+y 6
+end
+arch sea1
+x 7
+y 7
+end
+arch sea1
+x 7
+y 8
+end
+arch water_elemental
+x 7
+y 8
+end
+arch sea1
+x 7
+y 9
+end
+arch sea1
+x 7
+y 10
+end
+arch sea1
+x 7
+y 11
+end
+arch water_elemental
+x 7
+y 11
+end
+arch sea1
+x 7
+y 12
+end
+arch sea1
+x 7
+y 13
+end
+arch sea1
+x 7
+y 14
+end
+arch sea1
+x 7
+y 15
+end
+arch dun2
+x 7
+y 15
+end
+arch dungeon_floor
+x 8
+end
+arch dun2
+x 8
+end
+arch dungeon_floor
+x 8
+y 1
+end
+arch water_scale_mail
+x 8
+y 1
+end
+arch dungeon_floor
+x 8
+y 2
+end
+arch door_2_1_2
+x 8
+y 2
+end
+arch dungeon_floor
+x 8
+y 3
+end
+arch dungeon_floor
+x 8
+y 4
+end
+arch dungeon_floor
+x 8
+y 5
+end
+arch sea1
+x 8
+y 6
+end
+arch door_2
+x 8
+y 6
+end
+arch sea1
+x 8
+y 7
+end
+arch sea1
+x 8
+y 8
+end
+arch acid_sphere
+x 8
+y 8
+end
+arch sea1
+x 8
+y 9
+end
+arch sea1
+x 8
+y 10
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 8
+y 10
+end
+arch sea1
+x 8
+y 11
+end
+arch sea1
+x 8
+y 12
+end
+arch sea1
+x 8
+y 13
+end
+arch sea1
+x 8
+y 14
+end
+arch sea1
+x 8
+y 15
+end
+arch dun2
+x 8
+y 15
+end
+arch dungeon_floor
+x 9
+end
+arch dun2
+x 9
+end
+arch dungeon_floor
+x 9
+y 1
+end
+arch icecube
+name Stone of Water
+race rock
+exp 0
+x 9
+y 1
+value 1
+end
+arch dungeon_floor
+x 9
+y 2
+end
+arch door_2_1_2
+x 9
+y 2
+end
+arch dungeon_floor
+x 9
+y 3
+end
+arch dungeon_floor
+x 9
+y 4
+end
+arch dungeon_floor
+x 9
+y 5
+end
+arch sea1
+x 9
+y 6
+end
+arch door_2
+x 9
+y 6
+end
+arch sea1
+x 9
+y 7
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 9
+y 7
+end
+arch sea1
+x 9
+y 8
+end
+arch sea1
+x 9
+y 9
+end
+arch water_elemental
+x 9
+y 9
+end
+arch sea1
+x 9
+y 10
+end
+arch sea1
+x 9
+y 11
+end
+arch water_elemental
+x 9
+y 11
+end
+arch sea1
+x 9
+y 12
+end
+arch dun6
+x 9
+y 12
+end
+arch sea1
+x 9
+y 13
+end
+arch sea1
+x 9
+y 14
+end
+arch sea1
+x 9
+y 15
+end
+arch dun2
+x 9
+y 15
+end
+arch dungeon_floor
+x 10
+end
+arch dun2
+x 10
+end
+arch dungeon_floor
+x 10
+y 1
+end
+arch random_spells
+x 10
+y 1
+end
+arch dungeon_floor
+x 10
+y 2
+end
+arch door_2_2_3
+x 10
+y 2
+end
+arch dungeon_floor
+x 10
+y 3
+end
+arch door_2_1_1
+x 10
+y 3
+end
+arch dungeon_floor
+x 10
+y 4
+end
+arch door_2_1_1
+x 10
+y 4
+end
+arch dungeon_floor
+x 10
+y 5
+end
+arch door_1_2
+x 10
+y 5
+end
+arch sea1
+x 10
+y 6
+end
+arch dun6
+x 10
+y 6
+end
+arch sea1
+x 10
+y 7
+end
+arch sea1
+x 10
+y 8
+end
+arch sea1
+x 10
+y 9
+end
+arch acid_sphere
+x 10
+y 9
+end
+arch sea1
+x 10
+y 10
+end
+arch sea1
+x 10
+y 11
+end
+arch sea1
+x 10
+y 12
+end
+arch dun9
+x 10
+y 12
+end
+arch sea1
+x 10
+y 13
+end
+arch dun3
+x 10
+y 13
+end
+arch sea1
+x 10
+y 14
+end
+arch dun3
+x 10
+y 14
+end
+arch sea1
+x 10
+y 15
+end
+arch dun13
+x 10
+y 15
+end
+arch dungeon_floor
+x 11
+end
+arch dun2
+x 11
+end
+arch dungeon_floor
+x 11
+y 1
+end
+arch random_spells
+x 11
+y 1
+end
+arch dungeon_floor
+x 11
+y 2
+end
+arch random_scroll
+x 11
+y 2
+end
+arch dungeon_floor
+x 11
+y 3
+end
+arch random_scroll
+x 11
+y 3
+end
+arch dungeon_floor
+x 11
+y 4
+end
+arch random_scroll
+x 11
+y 4
+end
+arch dungeon_floor
+x 11
+y 5
+end
+arch random_scroll
+x 11
+y 5
+end
+arch sea1
+x 11
+y 6
+end
+arch dun2
+x 11
+y 6
+end
+arch sea1
+x 11
+y 7
+end
+arch water_elemental
+x 11
+y 7
+end
+arch sea1
+x 11
+y 8
+end
+arch sea1
+x 11
+y 9
+end
+arch water_elemental
+x 11
+y 9
+end
+arch sea1
+x 11
+y 10
+end
+arch water_elemental
+x 11
+y 10
+end
+arch sea1
+x 11
+y 11
+end
+arch water_elemental
+x 11
+y 11
+end
+arch sea1
+x 11
+y 12
+end
+arch sea1
+x 11
+y 13
+end
+arch water_elemental
+x 11
+y 13
+end
+arch sea1
+x 11
+y 14
+end
+arch sea1
+x 11
+y 15
+end
+arch dun2
+x 11
+y 15
+end
+arch dungeon_floor
+x 12
+end
+arch dun2
+x 12
+end
+arch dungeon_floor
+x 12
+y 1
+end
+arch random_potion
+x 12
+y 1
+end
+arch dungeon_floor
+x 12
+y 2
+end
+arch random_wealth
+x 12
+y 2
+end
+arch dungeon_floor
+x 12
+y 3
+end
+arch random_wealth
+x 12
+y 3
+end
+arch dungeon_floor
+x 12
+y 4
+end
+arch random_wealth
+x 12
+y 4
+end
+arch dungeon_floor
+x 12
+y 5
+end
+arch random_wealth
+x 12
+y 5
+end
+arch sea1
+x 12
+y 6
+end
+arch dun2
+x 12
+y 6
+end
+arch sea1
+x 12
+y 7
+end
+arch sea1
+x 12
+y 8
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 12
+y 8
+end
+arch sea1
+x 12
+y 9
+end
+arch sea1
+x 12
+y 10
+end
+arch sea1
+x 12
+y 11
+end
+arch acid_sphere
+name water sphere
+animation bluesphere
+x 12
+y 11
+end
+arch sea1
+x 12
+y 12
+end
+arch sea1
+x 12
+y 13
+end
+arch acid_sphere
+x 12
+y 13
+end
+arch sea1
+x 12
+y 14
+end
+arch acid_sphere
+x 12
+y 14
+end
+arch sea1
+x 12
+y 15
+end
+arch dun2
+x 12
+y 15
+end
+arch dungeon_floor
+x 13
+end
+arch dun2
+x 13
+end
+arch dungeon_floor
+x 13
+y 1
+end
+arch random_potion
+x 13
+y 1
+end
+arch dungeon_floor
+x 13
+y 2
+end
+arch random_wealth
+x 13
+y 2
+end
+arch dungeon_floor
+x 13
+y 3
+end
+arch random_wealth
+x 13
+y 3
+end
+arch dungeon_floor
+x 13
+y 4
+end
+arch random_wealth
+x 13
+y 4
+end
+arch dungeon_floor
+x 13
+y 5
+end
+arch random_wealth
+x 13
+y 5
+end
+arch sea1
+x 13
+y 6
+end
+arch dun2
+x 13
+y 6
+end
+arch sea1
+x 13
+y 7
+end
+arch acid_sphere
+x 13
+y 7
+end
+arch sea1
+x 13
+y 8
+end
+arch water_elemental
+x 13
+y 8
+end
+arch sea1
+x 13
+y 9
+end
+arch acid_sphere
+x 13
+y 9
+end
+arch sea1
+x 13
+y 10
+end
+arch sea1
+x 13
+y 11
+end
+arch water_elemental
+x 13
+y 11
+end
+arch sea1
+x 13
+y 12
+end
+arch sea1
+x 13
+y 13
+end
+arch sea1
+x 13
+y 14
+end
+arch sea1
+x 13
+y 15
+end
+arch dun2
+x 13
+y 15
+end
+arch dungeon_floor
+x 14
+end
+arch dun2
+x 14
+end
+arch dungeon_floor
+x 14
+y 1
+end
+arch random_potion
+x 14
+y 1
+end
+arch dungeon_floor
+x 14
+y 2
+end
+arch random_wealth
+x 14
+y 2
+end
+arch dungeon_floor
+x 14
+y 3
+end
+arch random_wealth
+x 14
+y 3
+end
+arch dungeon_floor
+x 14
+y 4
+end
+arch random_wealth
+x 14
+y 4
+end
+arch dungeon_floor
+x 14
+y 5
+end
+arch random_wealth
+x 14
+y 5
+end
+arch sea1
+x 14
+y 6
+end
+arch dun2
+x 14
+y 6
+end
+arch sea1
+x 14
+y 7
+end
+arch acid_pool
+x 14
+y 7
+end
+arch sea1
+x 14
+y 8
+end
+arch acid_pool
+x 14
+y 8
+end
+arch sea1
+x 14
+y 9
+end
+arch acid_pool
+x 14
+y 9
+end
+arch sea1
+x 14
+y 10
+end
+arch acid_pool
+x 14
+y 10
+end
+arch sea1
+x 14
+y 11
+end
+arch acid_pool
+x 14
+y 11
+end
+arch sea1
+x 14
+y 12
+end
+arch acid_pool
+x 14
+y 12
+end
+arch sea1
+x 14
+y 13
+end
+arch acid_pool
+x 14
+y 13
+end
+arch sea1
+x 14
+y 14
+end
+arch acid_pool
+x 14
+y 14
+end
+arch sea1
+x 14
+y 15
+end
+arch dun2
+x 14
+y 15
+end
+arch dungeon_floor
+x 15
+end
+arch dun9
+x 15
+end
+arch dungeon_floor
+x 15
+y 1
+end
+arch dun3
+x 15
+y 1
+end
+arch dungeon_floor
+x 15
+y 2
+end
+arch dun3
+x 15
+y 2
+end
+arch dungeon_floor
+x 15
+y 3
+end
+arch dun3
+x 15
+y 3
+end
+arch dungeon_floor
+x 15
+y 4
+end
+arch dun3
+x 15
+y 4
+end
+arch dungeon_floor
+x 15
+y 5
+end
+arch dun3
+x 15
+y 5
+end
+arch sea1
+x 15
+y 6
+end
+arch dun14
+x 15
+y 6
+end
+arch sea1
+x 15
+y 7
+end
+arch dun3
+x 15
+y 7
+end
+arch sea1
+x 15
+y 8
+end
+arch dun3
+x 15
+y 8
+end
+arch sea1
+x 15
+y 9
+end
+arch dun3
+x 15
+y 9
+end
+arch sea1
+x 15
+y 10
+end
+arch dun3
+x 15
+y 10
+end
+arch sea1
+x 15
+y 11
+end
+arch dun3
+x 15
+y 11
+end
+arch sea1
+x 15
+y 12
+end
+arch dun3
+x 15
+y 12
+end
+arch sea1
+x 15
+y 13
+end
+arch dun3
+x 15
+y 13
+end
+arch sea1
+x 15
+y 14
+end
+arch dun3
+x 15
+y 14
+end
+arch sea1
+x 15
+y 15
+end
+arch dun7
+x 15
+y 15
+end
+arch baslic
+name Levithian
+race dragon
+Str 70
+Dex 40
+Con 70
+Pow 40
+hp 17000
+maxhp 17000
+sp 300
+maxsp 300
+dam 50
+wc -20
+ac -20
+x 6
+y 3
+attacktype 1
+resist_physical 95
+resist_fire 100
+resist_electricity 100
+resist_acid 95
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name steambolt
+sp 139
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison fog
+sp 196
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison cloud
+sp 21
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large lightning
+sp 6
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large icestorm
+sp 59
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name dragonbreath
+sp 58
+speed 0.000000
+type 110
+is_blind 0
+end
+end

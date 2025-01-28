@@ -1,0 +1,1612 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Mon Nov 29 21:47:57 1999
+endmsg
+width 17
+height 16
+end
+arch woodfloor
+end
+arch woodfloor
+y 1
+end
+arch woodfloor
+y 2
+end
+arch woodfloor
+y 3
+end
+arch woodfloor
+y 4
+end
+arch woodfloor
+y 5
+end
+arch woodfloor
+y 6
+end
+arch woodfloor
+y 7
+end
+arch woodfloor
+y 8
+end
+arch woodfloor
+y 9
+end
+arch woodfloor
+y 10
+end
+arch woodfloor
+y 11
+end
+arch woodfloor
+y 12
+end
+arch woodfloor
+y 13
+end
+arch woodfloor
+y 14
+end
+arch woodfloor
+y 15
+end
+arch woodfloor
+x 1
+end
+arch woodfloor
+x 1
+y 1
+end
+arch wwall_2_2_2
+x 1
+y 1
+end
+arch woodfloor
+x 1
+y 2
+end
+arch wwall_2_1_1
+x 1
+y 2
+end
+arch woodfloor
+x 1
+y 3
+end
+arch wwall_2_1_1
+x 1
+y 3
+end
+arch woodfloor
+x 1
+y 4
+end
+arch wwall_2_1_1
+x 1
+y 4
+end
+arch woodfloor
+x 1
+y 5
+end
+arch wwall_2_1_1
+x 1
+y 5
+end
+arch woodfloor
+x 1
+y 6
+end
+arch wwall_2_1_1
+x 1
+y 6
+end
+arch woodfloor
+x 1
+y 7
+end
+arch wwall_2_1_1
+x 1
+y 7
+end
+arch woodfloor
+x 1
+y 8
+end
+arch wwall_2_1_1
+x 1
+y 8
+end
+arch woodfloor
+x 1
+y 9
+end
+arch wwall_2_1_1
+x 1
+y 9
+end
+arch woodfloor
+x 1
+y 10
+end
+arch wwall_2_1_1
+x 1
+y 10
+end
+arch woodfloor
+x 1
+y 11
+end
+arch wwall_2_1_1
+x 1
+y 11
+end
+arch woodfloor
+x 1
+y 12
+end
+arch wwall_2_1_1
+x 1
+y 12
+end
+arch woodfloor
+x 1
+y 13
+end
+arch wwall_2_1_1
+x 1
+y 13
+end
+arch woodfloor
+x 1
+y 14
+end
+arch wwall_2_2_1
+x 1
+y 14
+end
+arch woodfloor
+x 1
+y 15
+end
+arch woodfloor
+x 2
+end
+arch woodfloor
+x 2
+y 1
+end
+arch wwall_2_1_2
+x 2
+y 1
+end
+arch woodfloor
+x 2
+y 2
+end
+arch woodfloor
+x 2
+y 3
+end
+arch igate_closed_1
+x 2
+y 3
+end
+arch woodfloor
+x 2
+y 4
+end
+arch woodfloor
+x 2
+y 5
+end
+arch woodfloor
+x 2
+y 6
+end
+arch woodfloor
+x 2
+y 7
+end
+arch guildmaster
+name keyman
+msg
+@match *
+Buy a key for a house in the elven
+lands
+endmsg
+x 2
+y 7
+end
+arch woodfloor
+x 2
+y 8
+end
+arch woodfloor
+x 2
+y 9
+end
+arch woodfloor
+x 2
+y 10
+end
+arch woodfloor
+x 2
+y 11
+end
+arch woodfloor
+x 2
+y 12
+end
+arch igate_closed_1
+x 2
+y 12
+end
+arch woodfloor
+x 2
+y 13
+end
+arch woodfloor
+x 2
+y 14
+end
+arch wwall_2_1_2
+x 2
+y 14
+end
+arch woodfloor
+x 2
+y 15
+end
+arch woodfloor
+x 3
+end
+arch woodfloor
+x 3
+y 1
+end
+arch wwall_3_3
+x 3
+y 1
+end
+arch woodfloor
+x 3
+y 2
+end
+arch wwall_2_1_1
+x 3
+y 2
+end
+arch woodfloor
+x 3
+y 3
+end
+arch wwall_2_1_1
+x 3
+y 3
+end
+arch woodfloor
+x 3
+y 4
+end
+arch wwall_1_2
+x 3
+y 4
+end
+arch woodfloor
+x 3
+y 5
+end
+arch woodfloor
+x 3
+y 6
+end
+arch woodfloor
+x 3
+y 7
+end
+arch woodfloor
+x 3
+y 8
+end
+arch woodfloor
+x 3
+y 9
+end
+arch woodfloor
+x 3
+y 10
+end
+arch woodfloor
+x 3
+y 11
+end
+arch wwall_1_1
+x 3
+y 11
+end
+arch woodfloor
+x 3
+y 12
+end
+arch wwall_2_1_1
+x 3
+y 12
+end
+arch woodfloor
+x 3
+y 13
+end
+arch wwall_2_1_1
+x 3
+y 13
+end
+arch woodfloor
+x 3
+y 14
+end
+arch wwall_3_1
+x 3
+y 14
+end
+arch woodfloor
+x 3
+y 15
+end
+arch woodfloor
+x 4
+end
+arch woodfloor
+x 4
+y 1
+end
+arch wwall_2_1_2
+x 4
+y 1
+end
+arch woodfloor
+x 4
+y 2
+end
+arch woodfloor
+x 4
+y 3
+end
+arch igate_closed_1
+x 4
+y 3
+end
+arch woodfloor
+x 4
+y 4
+end
+arch woodfloor
+x 4
+y 5
+end
+arch woodfloor
+x 4
+y 6
+end
+arch woodfloor
+x 4
+y 7
+end
+arch woodfloor
+x 4
+y 8
+end
+arch woodfloor
+x 4
+y 9
+end
+arch woodfloor
+x 4
+y 10
+end
+arch woodfloor
+x 4
+y 11
+end
+arch woodfloor
+x 4
+y 12
+end
+arch igate_closed_1
+x 4
+y 12
+end
+arch woodfloor
+x 4
+y 13
+end
+arch woodfloor
+x 4
+y 14
+end
+arch wwall_2_1_2
+x 4
+y 14
+end
+arch woodfloor
+x 4
+y 15
+end
+arch woodfloor
+x 5
+end
+arch woodfloor
+x 5
+y 1
+end
+arch wwall_3_3
+x 5
+y 1
+end
+arch woodfloor
+x 5
+y 2
+end
+arch wwall_2_1_1
+x 5
+y 2
+end
+arch woodfloor
+x 5
+y 3
+end
+arch wwall_2_1_1
+x 5
+y 3
+end
+arch woodfloor
+x 5
+y 4
+end
+arch wwall_1_2
+x 5
+y 4
+end
+arch woodfloor
+x 5
+y 5
+end
+arch woodfloor
+x 5
+y 6
+end
+arch woodfloor
+x 5
+y 7
+end
+arch woodfloor
+x 5
+y 8
+end
+arch woodfloor
+x 5
+y 9
+end
+arch woodfloor
+x 5
+y 10
+end
+arch woodfloor
+x 5
+y 11
+end
+arch wwall_1_1
+x 5
+y 11
+end
+arch woodfloor
+x 5
+y 12
+end
+arch wwall_2_1_1
+x 5
+y 12
+end
+arch woodfloor
+x 5
+y 13
+end
+arch wwall_2_1_1
+x 5
+y 13
+end
+arch woodfloor
+x 5
+y 14
+end
+arch wwall_3_1
+x 5
+y 14
+end
+arch woodfloor
+x 5
+y 15
+end
+arch woodfloor
+x 6
+end
+arch woodfloor
+x 6
+y 1
+end
+arch wwall_2_1_2
+x 6
+y 1
+end
+arch woodfloor
+x 6
+y 2
+end
+arch woodfloor
+x 6
+y 3
+end
+arch igate_closed_1
+x 6
+y 3
+end
+arch woodfloor
+x 6
+y 4
+end
+arch woodfloor
+x 6
+y 5
+end
+arch woodfloor
+x 6
+y 6
+end
+arch woodfloor
+x 6
+y 7
+end
+arch woodfloor
+x 6
+y 8
+end
+arch woodfloor
+x 6
+y 9
+end
+arch woodfloor
+x 6
+y 10
+end
+arch woodfloor
+x 6
+y 11
+end
+arch woodfloor
+x 6
+y 12
+end
+arch igate_closed_1
+x 6
+y 12
+end
+arch woodfloor
+x 6
+y 13
+end
+arch woodfloor
+x 6
+y 14
+end
+arch wwall_2_1_2
+x 6
+y 14
+end
+arch woodfloor
+x 6
+y 15
+end
+arch woodfloor
+x 7
+end
+arch woodfloor
+x 7
+y 1
+end
+arch wwall_3_3
+x 7
+y 1
+end
+arch woodfloor
+x 7
+y 2
+end
+arch wwall_2_1_1
+x 7
+y 2
+end
+arch woodfloor
+x 7
+y 3
+end
+arch wwall_2_1_1
+x 7
+y 3
+end
+arch woodfloor
+x 7
+y 4
+end
+arch wwall_1_2
+x 7
+y 4
+end
+arch woodfloor
+x 7
+y 5
+end
+arch woodfloor
+x 7
+y 6
+end
+arch woodfloor
+x 7
+y 7
+end
+arch woodfloor
+x 7
+y 8
+end
+arch woodfloor
+x 7
+y 9
+end
+arch woodfloor
+x 7
+y 10
+end
+arch woodfloor
+x 7
+y 11
+end
+arch wwall_1_1
+x 7
+y 11
+end
+arch woodfloor
+x 7
+y 12
+end
+arch wwall_2_1_1
+x 7
+y 12
+end
+arch woodfloor
+x 7
+y 13
+end
+arch wwall_2_1_1
+x 7
+y 13
+end
+arch woodfloor
+x 7
+y 14
+end
+arch wwall_3_1
+x 7
+y 14
+end
+arch woodfloor
+x 7
+y 15
+end
+arch woodfloor
+x 8
+end
+arch woodfloor
+x 8
+y 1
+end
+arch wwall_2_1_2
+x 8
+y 1
+end
+arch woodfloor
+x 8
+y 2
+end
+arch woodfloor
+x 8
+y 3
+end
+arch igate_closed_1
+x 8
+y 3
+end
+arch woodfloor
+x 8
+y 4
+end
+arch woodfloor
+x 8
+y 5
+end
+arch woodfloor
+x 8
+y 6
+end
+arch woodfloor
+x 8
+y 7
+end
+arch woodfloor
+x 8
+y 8
+end
+arch woodfloor
+x 8
+y 9
+end
+arch woodfloor
+x 8
+y 10
+end
+arch woodfloor
+x 8
+y 11
+end
+arch woodfloor
+x 8
+y 12
+end
+arch igate_closed_1
+x 8
+y 12
+end
+arch woodfloor
+x 8
+y 13
+end
+arch woodfloor
+x 8
+y 14
+end
+arch wwall_2_1_2
+x 8
+y 14
+end
+arch woodfloor
+x 8
+y 15
+end
+arch woodfloor
+x 9
+end
+arch woodfloor
+x 9
+y 1
+end
+arch wwall_3_3
+x 9
+y 1
+end
+arch woodfloor
+x 9
+y 2
+end
+arch wwall_2_1_1
+x 9
+y 2
+end
+arch woodfloor
+x 9
+y 3
+end
+arch wwall_2_1_1
+x 9
+y 3
+end
+arch woodfloor
+x 9
+y 4
+end
+arch wwall_1_2
+x 9
+y 4
+end
+arch woodfloor
+x 9
+y 5
+end
+arch woodfloor
+x 9
+y 6
+end
+arch woodfloor
+x 9
+y 7
+end
+arch woodfloor
+x 9
+y 8
+end
+arch woodfloor
+x 9
+y 9
+end
+arch woodfloor
+x 9
+y 10
+end
+arch woodfloor
+x 9
+y 11
+end
+arch wwall_1_1
+x 9
+y 11
+end
+arch woodfloor
+x 9
+y 12
+end
+arch wwall_2_1_1
+x 9
+y 12
+end
+arch woodfloor
+x 9
+y 13
+end
+arch wwall_2_1_1
+x 9
+y 13
+end
+arch woodfloor
+x 9
+y 14
+end
+arch wwall_3_1
+x 9
+y 14
+end
+arch woodfloor
+x 9
+y 15
+end
+arch woodfloor
+x 10
+end
+arch woodfloor
+x 10
+y 1
+end
+arch wwall_2_1_2
+x 10
+y 1
+end
+arch woodfloor
+x 10
+y 2
+end
+arch key2
+name key to house by a jungle
+slaying junelf
+x 10
+y 2
+unique 1
+end
+arch woodfloor
+x 10
+y 3
+end
+arch igate_closed_1
+x 10
+y 3
+connected 144
+blocksview 0
+end
+arch woodfloor
+x 10
+y 4
+end
+arch altar_trigger
+name 1200 diamonds
+slaying gems
+food 1200
+x 10
+y 4
+connected 144
+end
+arch woodfloor
+x 10
+y 5
+end
+arch woodfloor
+x 10
+y 6
+end
+arch woodfloor
+x 10
+y 7
+end
+arch woodfloor
+x 10
+y 8
+end
+arch woodfloor
+x 10
+y 9
+end
+arch woodfloor
+x 10
+y 10
+end
+arch woodfloor
+x 10
+y 11
+end
+arch altar_trigger
+name 700 food
+food 700
+x 10
+y 11
+connected 226
+end
+arch woodfloor
+x 10
+y 12
+end
+arch igate_closed_1
+x 10
+y 12
+connected 226
+blocksview 0
+end
+arch woodfloor
+x 10
+y 13
+end
+arch key2
+name Key to the Small House
+slaying small elf
+x 10
+y 13
+unique 1
+end
+arch woodfloor
+x 10
+y 14
+end
+arch wwall_2_1_2
+x 10
+y 14
+end
+arch woodfloor
+x 10
+y 15
+end
+arch woodfloor
+x 11
+end
+arch woodfloor
+x 11
+y 1
+end
+arch wwall_3_3
+x 11
+y 1
+end
+arch woodfloor
+x 11
+y 2
+end
+arch wwall_2_1_1
+x 11
+y 2
+end
+arch woodfloor
+x 11
+y 3
+end
+arch wwall_2_1_1
+x 11
+y 3
+end
+arch woodfloor
+x 11
+y 4
+end
+arch wwall_1_2
+x 11
+y 4
+end
+arch woodfloor
+x 11
+y 5
+end
+arch woodfloor
+x 11
+y 6
+end
+arch woodfloor
+x 11
+y 7
+end
+arch woodfloor
+x 11
+y 8
+end
+arch woodfloor
+x 11
+y 9
+end
+arch woodfloor
+x 11
+y 10
+end
+arch woodfloor
+x 11
+y 11
+end
+arch wwall_1_1
+x 11
+y 11
+end
+arch woodfloor
+x 11
+y 12
+end
+arch wwall_2_1_1
+x 11
+y 12
+end
+arch woodfloor
+x 11
+y 13
+end
+arch wwall_2_1_1
+x 11
+y 13
+end
+arch woodfloor
+x 11
+y 14
+end
+arch wwall_3_1
+x 11
+y 14
+end
+arch woodfloor
+x 11
+y 15
+end
+arch woodfloor
+x 12
+end
+arch woodfloor
+x 12
+y 1
+end
+arch wwall_2_1_2
+x 12
+y 1
+end
+arch woodfloor
+x 12
+y 2
+end
+arch key2
+name key to Color Tower
+slaying colorelf
+x 12
+y 2
+unique 1
+end
+arch woodfloor
+x 12
+y 3
+end
+arch igate_closed_1
+x 12
+y 3
+connected 31
+blocksview 0
+end
+arch woodfloor
+x 12
+y 4
+end
+arch altar
+name 2000 diamonds
+slaying gem
+food 2000
+x 12
+y 4
+connected 31
+end
+arch woodfloor
+x 12
+y 5
+end
+arch woodfloor
+x 12
+y 6
+end
+arch woodfloor
+x 12
+y 7
+end
+arch woodfloor
+x 12
+y 8
+end
+arch woodfloor
+x 12
+y 9
+end
+arch woodfloor
+x 12
+y 10
+end
+arch woodfloor
+x 12
+y 11
+end
+arch altar_trigger
+name 1000 diamonds
+slaying gem
+food 1000
+x 12
+y 11
+connected 3
+end
+arch woodfloor
+x 12
+y 12
+end
+arch igate_closed_1
+x 12
+y 12
+connected 3
+blocksview 0
+end
+arch woodfloor
+x 12
+y 13
+end
+arch key2
+name key to luxury house 2
+slaying richelf2
+x 12
+y 13
+unique 1
+end
+arch woodfloor
+x 12
+y 14
+end
+arch wwall_2_1_2
+x 12
+y 14
+end
+arch woodfloor
+x 12
+y 15
+end
+arch woodfloor
+x 13
+end
+arch woodfloor
+x 13
+y 1
+end
+arch wwall_3_3
+x 13
+y 1
+end
+arch woodfloor
+x 13
+y 2
+end
+arch wwall_2_1_1
+x 13
+y 2
+end
+arch woodfloor
+x 13
+y 3
+end
+arch wwall_2_1_1
+x 13
+y 3
+end
+arch woodfloor
+x 13
+y 4
+end
+arch wwall_1_2
+x 13
+y 4
+end
+arch woodfloor
+x 13
+y 5
+end
+arch woodfloor
+x 13
+y 6
+end
+arch woodfloor
+x 13
+y 7
+end
+arch woodfloor
+x 13
+y 8
+end
+arch woodfloor
+x 13
+y 9
+end
+arch woodfloor
+x 13
+y 10
+end
+arch woodfloor
+x 13
+y 11
+end
+arch wwall_1_1
+x 13
+y 11
+end
+arch woodfloor
+x 13
+y 12
+end
+arch wwall_2_1_1
+x 13
+y 12
+end
+arch woodfloor
+x 13
+y 13
+end
+arch wwall_2_1_1
+x 13
+y 13
+end
+arch woodfloor
+x 13
+y 14
+end
+arch wwall_3_1
+x 13
+y 14
+end
+arch woodfloor
+x 13
+y 15
+end
+arch woodfloor
+x 14
+end
+arch woodfloor
+x 14
+y 1
+end
+arch wwall_2_1_2
+x 14
+y 1
+end
+arch woodfloor
+x 14
+y 2
+end
+arch key2
+name key to house on the lake
+slaying lakeelf
+x 14
+y 2
+unique 1
+end
+arch woodfloor
+x 14
+y 3
+end
+arch igate_closed_1
+x 14
+y 3
+connected 1
+blocksview 0
+end
+arch woodfloor
+x 14
+y 4
+end
+arch altar_trigger
+name pay 1000 food
+food 1000
+x 14
+y 4
+connected 1
+end
+arch woodfloor
+x 14
+y 5
+end
+arch woodfloor
+x 14
+y 6
+end
+arch woodfloor
+x 14
+y 7
+end
+arch woodfloor
+x 14
+y 8
+end
+arch woodfloor
+x 14
+y 9
+end
+arch woodfloor
+x 14
+y 10
+end
+arch woodfloor
+x 14
+y 11
+end
+arch altar_trigger
+name 1000 diamonds
+slaying gem
+food 1000
+x 14
+y 11
+connected 2
+end
+arch woodfloor
+x 14
+y 12
+end
+arch igate_closed_1
+x 14
+y 12
+connected 2
+blocksview 0
+end
+arch woodfloor
+x 14
+y 13
+end
+arch key2
+name key to luxury house 1
+slaying richelf1
+x 14
+y 13
+unique 1
+end
+arch woodfloor
+x 14
+y 14
+end
+arch wwall_2_1_2
+x 14
+y 14
+end
+arch woodfloor
+x 14
+y 15
+end
+arch woodfloor
+x 15
+end
+arch woodfloor
+x 15
+y 1
+end
+arch wwall_2_2_3
+x 15
+y 1
+end
+arch woodfloor
+x 15
+y 2
+end
+arch wwall_2_1_1
+x 15
+y 2
+end
+arch woodfloor
+x 15
+y 3
+end
+arch wwall_2_1_1
+x 15
+y 3
+end
+arch woodfloor
+x 15
+y 4
+end
+arch wwall_2_1_1
+x 15
+y 4
+end
+arch woodfloor
+x 15
+y 5
+end
+arch wwall_2_1_1
+x 15
+y 5
+end
+arch woodfloor
+x 15
+y 6
+end
+arch wwall_2_2_1
+x 15
+y 6
+end
+arch woodfloor
+x 15
+y 7
+end
+arch oakdoor
+slaying /ElvenLands/Yoer/city/city
+hp 21
+sp 19
+x 15
+y 7
+end
+arch woodfloor
+x 15
+y 8
+end
+arch oakdoor
+slaying /ElvenLands/Yoer/city/city
+hp 21
+sp 19
+x 15
+y 8
+end
+arch woodfloor
+x 15
+y 9
+end
+arch wwall_2_2_2
+x 15
+y 9
+end
+arch woodfloor
+x 15
+y 10
+end
+arch wwall_2_1_1
+x 15
+y 10
+end
+arch woodfloor
+x 15
+y 11
+end
+arch wwall_2_1_1
+x 15
+y 11
+end
+arch woodfloor
+x 15
+y 12
+end
+arch wwall_2_1_1
+x 15
+y 12
+end
+arch woodfloor
+x 15
+y 13
+end
+arch wwall_2_1_1
+x 15
+y 13
+end
+arch woodfloor
+x 15
+y 14
+end
+arch wwall_2_2_4
+x 15
+y 14
+end
+arch woodfloor
+x 15
+y 15
+end
+arch woodfloor
+x 16
+end
+arch woodfloor
+x 16
+y 1
+end
+arch woodfloor
+x 16
+y 2
+end
+arch woodfloor
+x 16
+y 3
+end
+arch woodfloor
+x 16
+y 4
+end
+arch woodfloor
+x 16
+y 5
+end
+arch woodfloor
+x 16
+y 6
+end
+arch wwall_2_2_3
+x 16
+y 6
+end
+arch woodfloor
+x 16
+y 7
+end
+arch wwall_2_1_1
+x 16
+y 7
+end
+arch woodfloor
+x 16
+y 8
+end
+arch wwall_2_1_1
+x 16
+y 8
+end
+arch woodfloor
+x 16
+y 9
+end
+arch wwall_2_2_4
+x 16
+y 9
+end
+arch woodfloor
+x 16
+y 10
+end
+arch woodfloor
+x 16
+y 11
+end
+arch woodfloor
+x 16
+y 12
+end
+arch woodfloor
+x 16
+y 13
+end
+arch woodfloor
+x 16
+y 14
+end
+arch woodfloor
+x 16
+y 15
+end

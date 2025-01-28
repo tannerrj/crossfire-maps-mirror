@@ -1,0 +1,668 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Oct 30 16:15:00 1999
+endmsg
+width 10
+height 10
+darkness 3
+end
+arch para_ice
+end
+arch para_ice
+y 1
+end
+arch para_ice
+y 2
+end
+arch para_ice
+y 3
+end
+arch para_ice
+y 4
+end
+arch para_ice
+y 5
+end
+arch para_ice
+y 6
+end
+arch fire_elemental
+y 7
+end
+arch fire_elemental
+y 8
+end
+arch fire_elemental
+y 9
+end
+arch para_ice
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch dun10
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch dun3
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch dun3
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch dun3
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch dun3
+x 1
+y 5
+end
+arch dungeon_floor
+x 1
+y 6
+end
+arch dun3
+x 1
+y 6
+end
+arch dungeon_floor
+x 1
+y 7
+end
+arch dun3
+x 1
+y 7
+end
+arch dungeon_floor
+x 1
+y 8
+end
+arch dun4
+x 1
+y 8
+end
+arch fire_elemental
+x 1
+y 9
+end
+arch para_ice
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch dun2
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch calm_floor
+x 2
+y 2
+end
+arch charm_floor
+x 2
+y 2
+end
+arch c_knight
+x 2
+y 2
+end
+arch dungeon_floor
+x 2
+y 3
+end
+arch light2
+x 2
+y 3
+end
+arch cwall_0
+x 2
+y 3
+end
+arch dungeon_floor
+x 2
+y 4
+end
+arch calm_floor
+x 2
+y 4
+end
+arch charm_floor
+x 2
+y 4
+end
+arch small_troll
+name cave troll
+x 2
+y 4
+end
+arch dungeon_floor
+x 2
+y 5
+end
+arch light2
+x 2
+y 5
+end
+arch cwall_0
+x 2
+y 5
+end
+arch dungeon_floor
+x 2
+y 6
+end
+arch calm_floor
+x 2
+y 6
+end
+arch charm_floor
+x 2
+y 6
+end
+arch vampire
+name Midnight Elf
+x 2
+y 6
+end
+arch dungeon_floor
+x 2
+y 7
+end
+arch light2
+x 2
+y 7
+end
+arch cwall_0
+x 2
+y 7
+end
+arch dungeon_floor
+x 2
+y 8
+end
+arch dun2
+x 2
+y 8
+end
+arch fire_elemental
+x 2
+y 9
+end
+arch para_ice
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch dun2
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch altar_ruggilli
+x 3
+y 2
+end
+arch dungeon_floor
+x 3
+y 3
+end
+arch dungeon_floor
+x 3
+y 4
+end
+arch dungeon_floor
+x 3
+y 5
+end
+arch dungeon_floor
+x 3
+y 6
+end
+arch dungeon_floor
+x 3
+y 7
+end
+arch dungeon_floor
+x 3
+y 8
+end
+arch dun9
+x 3
+y 8
+end
+arch dun4
+x 3
+y 9
+end
+arch para_ice
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch light2
+x 4
+y 1
+end
+arch dun2
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
+arch altar_gnarg
+x 4
+y 2
+end
+arch dungeon_floor
+x 4
+y 3
+end
+arch calm_floor
+x 4
+y 3
+end
+arch c_priest
+name Priest of Glovin
+msg
+@match *
+Join Gnarg! Join Ruggillii! Join
+Devourers
+endmsg
+x 4
+y 3
+end
+arch dungeon_floor
+x 4
+y 4
+end
+arch rune_heal
+x 4
+y 4
+end
+arch dungeon_floor
+x 4
+y 5
+end
+arch rune_heal
+x 4
+y 5
+end
+arch dungeon_floor
+x 4
+y 6
+end
+arch rune_heal
+x 4
+y 6
+end
+arch dungeon_floor
+x 4
+y 7
+end
+arch rune_heal
+x 4
+y 7
+end
+arch dungeon_floor
+x 4
+y 8
+end
+arch oakdoor
+slaying /ElvenLands/Gcitys/city1
+hp 7
+sp 1
+x 4
+y 8
+end
+arch light2
+x 4
+y 9
+end
+arch dun2
+x 4
+y 9
+end
+arch para_ice
+x 5
+end
+arch dungeon_floor
+x 5
+y 1
+end
+arch dun2
+x 5
+y 1
+end
+arch dungeon_floor
+x 5
+y 2
+end
+arch altar_devourers
+x 5
+y 2
+end
+arch dungeon_floor
+x 5
+y 3
+end
+arch dungeon_floor
+x 5
+y 4
+end
+arch dungeon_floor
+x 5
+y 5
+end
+arch dungeon_floor
+x 5
+y 6
+end
+arch dungeon_floor
+x 5
+y 7
+end
+arch dungeon_floor
+x 5
+y 8
+end
+arch dun10
+x 5
+y 8
+end
+arch dun7
+x 5
+y 9
+end
+arch para_ice
+x 6
+end
+arch dungeon_floor
+x 6
+y 1
+end
+arch dun2
+x 6
+y 1
+end
+arch dungeon_floor
+x 6
+y 2
+end
+arch calm_floor
+x 6
+y 2
+end
+arch charm_floor
+x 6
+y 2
+end
+arch fire_elemental
+name spirit of fire
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch light2
+x 6
+y 3
+end
+arch cwall_0
+x 6
+y 3
+end
+arch dungeon_floor
+x 6
+y 4
+end
+arch calm_floor
+x 6
+y 4
+end
+arch charm_floor
+x 6
+y 4
+end
+arch lich
+name MoonLight Elf
+x 6
+y 4
+end
+arch dungeon_floor
+x 6
+y 5
+end
+arch light2
+x 6
+y 5
+end
+arch cwall_0
+x 6
+y 5
+end
+arch dungeon_floor
+x 6
+y 6
+end
+arch calm_floor
+x 6
+y 6
+end
+arch charm_floor
+x 6
+y 6
+end
+arch gargolye
+name winged troll
+x 6
+y 6
+end
+arch dungeon_floor
+x 6
+y 7
+end
+arch light2
+x 6
+y 7
+end
+arch cwall_0
+x 6
+y 7
+end
+arch dungeon_floor
+x 6
+y 8
+end
+arch dun2
+x 6
+y 8
+end
+arch fire_elemental
+x 6
+y 9
+end
+arch para_ice
+x 7
+end
+arch dungeon_floor
+x 7
+y 1
+end
+arch dun9
+x 7
+y 1
+end
+arch dun3
+x 7
+y 2
+end
+arch dungeon_floor
+x 7
+y 3
+end
+arch dun3
+x 7
+y 3
+end
+arch dungeon_floor
+x 7
+y 4
+end
+arch dun3
+x 7
+y 4
+end
+arch dungeon_floor
+x 7
+y 5
+end
+arch dun3
+x 7
+y 5
+end
+arch dungeon_floor
+x 7
+y 6
+end
+arch dun3
+x 7
+y 6
+end
+arch dungeon_floor
+x 7
+y 7
+end
+arch dun3
+x 7
+y 7
+end
+arch dungeon_floor
+x 7
+y 8
+end
+arch dun13
+x 7
+y 8
+end
+arch fire_elemental
+x 7
+y 9
+end
+arch para_ice
+x 8
+end
+arch para_ice
+x 8
+y 1
+end
+arch para_ice
+x 8
+y 2
+end
+arch para_ice
+x 8
+y 3
+end
+arch para_ice
+x 8
+y 4
+end
+arch para_ice
+x 8
+y 5
+end
+arch para_ice
+x 8
+y 6
+end
+arch fire_elemental
+x 8
+y 7
+end
+arch fire_elemental
+x 8
+y 8
+end
+arch fire_elemental
+x 8
+y 9
+end
+arch para_ice
+x 9
+end
+arch para_ice
+x 9
+y 1
+end
+arch para_ice
+x 9
+y 2
+end
+arch para_ice
+x 9
+y 3
+end
+arch para_ice
+x 9
+y 4
+end
+arch para_ice
+x 9
+y 5
+end
+arch para_ice
+x 9
+y 6
+end
+arch fire_elemental
+x 9
+y 7
+end
+arch fire_elemental
+x 9
+y 8
+end
+arch fire_elemental
+x 9
+y 9
+end

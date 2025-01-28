@@ -1,0 +1,2487 @@
+arch map
+name <untitled>
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sat Mar 17 16:17:41 2001
+endmsg
+width 21
+height 16
+end
+arch afloor_right
+end
+arch wall_2_2_2
+end
+arch afloor_right
+y 1
+end
+arch wall_2_1_1
+y 1
+end
+arch afloor_right
+y 2
+end
+arch wall_2_1_1
+y 2
+end
+arch afloor_right
+y 3
+end
+arch wall_2_1_1
+y 3
+end
+arch afloor_right
+y 4
+end
+arch wall_2_1_1
+y 4
+end
+arch afloor_right
+y 5
+end
+arch wall_2_2_1
+y 5
+end
+arch afloor_right
+y 6
+end
+arch afloor_right
+y 7
+end
+arch wall_2_2_2
+y 7
+end
+arch afloor_right
+y 8
+end
+arch wall_2_1_1
+y 8
+end
+arch afloor_right
+y 9
+end
+arch wall_2_1_1
+y 9
+end
+arch afloor_right
+y 10
+end
+arch wall_2_1_1
+y 10
+end
+arch afloor_right
+y 11
+end
+arch wall_2_1_1
+y 11
+end
+arch afloor_right
+y 12
+end
+arch wall_2_1_1
+y 12
+end
+arch afloor_right
+y 13
+end
+arch wall_2_1_1
+y 13
+end
+arch afloor_right
+y 14
+end
+arch wall_2_2_1
+y 14
+end
+arch spikes_open
+connected 10
+y 15
+end
+arch boulder
+y 15
+end
+arch afloor_right
+x 1
+end
+arch wall_2_1_2
+x 1
+end
+arch afloor_right
+x 1
+y 1
+end
+arch chair_1.4
+x 1
+y 1
+end
+arch dwarf_wiz
+name Baalgar,dwarven mage
+msg
+@match hi|hello
+Greetings,estimed stranger. What
+brings you to my table?
+@match information|info
+Ah,you desire information... but on
+what?
+@match necromancer
+Ah,the necromancer. His undead have
+been a plague to our land. I suppose
+you know of his foul pet,the Dark
+Behemoth?
+@match Dark Behemoth
+Ah,yes. That foul beast was a gift
+from the Devourers themselves. I do
+not see how it can be deafeated. One
+cannot even touch the thing without
+the chance of his very soul being
+sucked out of him. But of course,you
+will not be foolish to attempt to kill
+the thing,now will you?
+@match yes
+I can only hope your soul is prepared
+against such great darkness. I would
+try to convince you against such a
+foolish attempt,but i can see you are
+obstinate. May God protect you.
+@match the Balrog|Balrog
+Aye,the Great Balrog. I have heard
+tales about him,and how he was sealed
+in a great tomb under the earth. But
+foolish dwarves and gnomes,desiring
+more wealth and power,have delved into
+the depths of the earth,even unto his
+tomb. In the fabled mines of
+Morgria,the dwarves have touched upon
+the forbidden catacombs unto his tomb.
+Though,the Balrog is still in his
+chains. The great seal,blocking his
+power,has been broken. With his great
+power,he has taken the sanity of many
+dwarven miners. The goblins who have
+dwelled secretly in those ancient
+caves have been drawn to him,even now
+they seek to find the inner tomb and
+free him. I pray a hero will come and
+save our land from him.
+endmsg
+x 1
+y 1
+end
+arch afloor_right
+x 1
+y 2
+end
+arch afloor_right
+x 1
+y 3
+end
+arch afloor_right
+x 1
+y 4
+end
+arch afloor_right
+x 1
+y 5
+end
+arch wall_3_3
+x 1
+y 5
+end
+arch afloor_right
+x 1
+y 6
+end
+arch wall_2_1_1
+x 1
+y 6
+end
+arch afloor_right
+x 1
+y 7
+end
+arch wall_3_1
+x 1
+y 7
+end
+arch afloor_right
+x 1
+y 8
+end
+arch afloor_right
+x 1
+y 9
+end
+arch afloor_right
+x 1
+y 10
+end
+arch afloor_right
+x 1
+y 11
+end
+arch afloor_right
+x 1
+y 12
+end
+arch afloor_right
+x 1
+y 13
+end
+arch afloor_right
+x 1
+y 14
+end
+arch wall_2_1_2
+x 1
+y 14
+end
+arch button_plate
+connected 2
+x 1
+y 15
+end
+arch afloor_right
+x 2
+end
+arch wall_2_1_2
+x 2
+end
+arch afloor_right
+x 2
+y 1
+end
+arch table_4
+x 2
+y 1
+end
+arch afloor_right
+x 2
+y 2
+end
+arch afloor_right
+x 2
+y 3
+end
+arch afloor_right
+x 2
+y 4
+end
+arch afloor_right
+x 2
+y 5
+end
+arch wall_1_3
+x 2
+y 5
+end
+arch afloor_right
+x 2
+y 6
+end
+arch lesser_dwarven_guard
+name Hired Guard
+Str 30
+Dex 14
+hp 600
+maxhp 600
+dam 15
+wc 8
+ac -9
+unaggressive 1
+x 2
+y 6
+end
+arch afloor_right
+x 2
+y 7
+end
+arch wall_1_3
+x 2
+y 7
+end
+arch afloor_right
+x 2
+y 8
+end
+arch lesser_dwarven_guard
+name Hired Guard
+Str 30
+Dex 14
+hp 600
+maxhp 600
+dam 15
+wc 8
+ac -9
+unaggressive 1
+x 2
+y 8
+end
+arch afloor_right
+x 2
+y 9
+end
+arch afloor_right
+x 2
+y 10
+end
+arch afloor_right
+x 2
+y 11
+end
+arch chair_2.4
+x 2
+y 11
+end
+arch dwarf
+name Hhurak
+Str 28
+Dex 22
+hp 600
+maxhp 600
+dam 15
+wc -15
+ac -12
+level 12
+carrying 83500
+x 2
+y 11
+arch axe_5
+end
+arch high_boots
+end
+arch cloak
+end
+arch chain_mail
+end
+end
+arch afloor_right
+x 2
+y 12
+end
+arch chair_2.4
+x 2
+y 12
+end
+arch greater_dwarven_guard
+name Grendos
+unaggressive 1
+x 2
+y 12
+end
+arch afloor_right
+x 2
+y 13
+end
+arch afloor_right
+x 2
+y 14
+end
+arch wall_2_1_2
+x 2
+y 14
+end
+arch blocked
+x 2
+y 15
+end
+arch afloor_right
+x 3
+end
+arch wall_2_1_2
+x 3
+end
+arch afloor_right
+x 3
+y 1
+end
+arch afloor_right
+x 3
+y 2
+end
+arch afloor_right
+x 3
+y 3
+end
+arch afloor_right
+x 3
+y 4
+end
+arch afloor_right
+x 3
+y 5
+end
+arch magic_mouth
+msg
+Two burly dwarven guards stand beside
+the gate.
+Hired Guard says: Get away from the
+door, sonny. This is a private meeting.
+endmsg
+x 3
+y 5
+end
+arch altar
+slaying gem
+food 100
+invisible 1
+connected 1
+x 3
+y 6
+end
+arch afloor_right
+x 3
+y 6
+end
+arch afloor_right
+x 3
+y 7
+end
+arch igate_closed_1
+connected 1
+x 3
+y 7
+end
+arch afloor_right
+x 3
+y 8
+end
+arch afloor_right
+x 3
+y 9
+end
+arch afloor_right
+x 3
+y 10
+end
+arch chair_2.1
+x 3
+y 10
+end
+arch dwarf
+name Bundor
+Str 25
+Dex 22
+hp 500
+maxhp 500
+wc -5
+ac -6
+x 3
+y 10
+end
+arch afloor_right
+x 3
+y 11
+end
+arch table_3
+x 3
+y 11
+end
+arch afloor_right
+x 3
+y 12
+end
+arch table_3
+x 3
+y 12
+end
+arch afloor_right
+x 3
+y 13
+end
+arch chair_2.3
+x 3
+y 13
+end
+arch dwarf_p
+name Ouron the Mace
+type 0
+Str 35
+Dex 26
+Con 22
+Wis 17
+Pow 21
+Cha 10
+Int 21
+hp 800
+maxhp 800
+sp 80
+maxsp 80
+dam 10
+wc -21
+ac -20
+carrying 44000
+monster 1
+unaggressive 1
+can_use_rod 1
+x 3
+y 13
+arch high_boots
+end
+arch cloak
+end
+arch mithril_chainmail
+end
+arch mace_2
+name Ouron's Mace
+dam 20
+end
+end
+arch afloor_right
+x 3
+y 14
+end
+arch wall_2_1_2
+x 3
+y 14
+end
+arch blocked
+x 3
+y 15
+end
+arch afloor_right
+x 4
+end
+arch wall_1_3
+x 4
+end
+arch afloor_right
+x 4
+y 1
+end
+arch bench_0
+x 4
+y 1
+end
+arch fighter
+name strong looking fighter
+x 4
+y 1
+end
+arch afloor_right
+x 4
+y 2
+end
+arch afloor_right
+x 4
+y 3
+end
+arch afloor_right
+x 4
+y 4
+end
+arch afloor_right
+x 4
+y 5
+end
+arch magic_mouth
+msg
+Two burly dwarven guards stand beside
+the gate.
+Hired Guard says: Get away from the
+door, sonny. This is a private meeting.
+endmsg
+x 4
+y 5
+end
+arch altar
+slaying gem
+food 100
+invisible 1
+connected 1
+x 4
+y 6
+end
+arch afloor_right
+x 4
+y 6
+end
+arch afloor_right
+x 4
+y 7
+end
+arch igate_closed_1
+connected 1
+x 4
+y 7
+end
+arch afloor_right
+x 4
+y 8
+end
+arch afloor_right
+x 4
+y 9
+end
+arch afloor_right
+x 4
+y 10
+end
+arch magic_ear
+msg
+@match mace|Mace
+endmsg
+connected 10
+x 4
+y 10
+end
+arch chair_2.1
+x 4
+y 10
+end
+arch greater_dwarven_guard
+name Gwuron
+msg
+@match hi|hello
+What do you want? This is a private
+meeting of OURON the MACE's gang!
+@match Ouron
+He is our leader. Show no
+disrespect,or we'll smash,carve,and
+otherwise mutilate you to little bits!
+Now tell me... What have you come here
+for?
+@match mace|Mace
+You want Ouron's mace?! How dare you
+say such a thing!
+Ouron laughs:
+And how are you going to get my mace?
+HaHaHa! Arm yourself,foolish warrior.
+(Ouron draws his mace) (The rest of
+the gang pulls out their weapons)
+Uh,oh. What have you gotten yourself
+into?
+endmsg
+carrying 20000
+unaggressive 1
+x 4
+y 10
+arch mithril_chainmail
+end
+arch cloak
+end
+end
+arch afloor_right
+x 4
+y 11
+end
+arch table_3
+x 4
+y 11
+end
+arch afloor_right
+x 4
+y 12
+end
+arch table_3
+x 4
+y 12
+end
+arch afloor_right
+x 4
+y 13
+end
+arch chair_2.3
+x 4
+y 13
+end
+arch dwarf_wiz
+name Wharvik
+Pow 30
+Int 25
+hp 300
+maxhp 300
+x 4
+y 13
+end
+arch afloor_right
+x 4
+y 14
+end
+arch wall_2_1_2
+x 4
+y 14
+end
+arch blocked
+x 4
+y 15
+end
+arch afloor_right
+x 5
+end
+arch wall_3_3
+x 5
+end
+arch swall_3_3
+x 5
+end
+arch afloor_right
+x 5
+y 1
+end
+arch wall_2_1_1
+name bar
+blocksview 0
+x 5
+y 1
+end
+arch swall_2_1_1
+x 5
+y 1
+end
+arch afloor_right
+x 5
+y 2
+end
+arch wall_2_2_1
+name bar
+blocksview 0
+x 5
+y 2
+end
+arch swall_2_2_1
+x 5
+y 2
+end
+arch afloor_right
+x 5
+y 3
+end
+arch bench_0
+x 5
+y 3
+end
+arch afloor_right
+x 5
+y 4
+end
+arch afloor_right
+x 5
+y 5
+end
+arch wall_1_4
+x 5
+y 5
+end
+arch afloor_right
+x 5
+y 6
+end
+arch lesser_dwarven_guard
+name Hired Guard
+msg
+@match hi|hello
+What do you want? This is the private
+meeting place of Ouron's gang!
+@match Ouron|gang|Ouron's gang
+You cannot come in without a proper
+reason.
+@match bribe|Bribe
+It'll cost you 100 diamonds for me to
+open the door for you.
+endmsg
+Str 30
+Dex 14
+hp 600
+maxhp 600
+dam 15
+wc 8
+ac -9
+unaggressive 1
+x 5
+y 6
+end
+arch afloor_right
+x 5
+y 7
+end
+arch wall_1_4
+x 5
+y 7
+end
+arch afloor_right
+x 5
+y 8
+end
+arch lesser_dwarven_guard
+name Hired Guard
+Str 30
+Dex 14
+hp 600
+maxhp 600
+dam 15
+wc 8
+ac -9
+unaggressive 1
+x 5
+y 8
+end
+arch afloor_right
+x 5
+y 9
+end
+arch afloor_right
+x 5
+y 10
+end
+arch afloor_right
+x 5
+y 11
+end
+arch chair_2.2
+x 5
+y 11
+end
+arch dwarf_wiz
+name Sherak
+msg
+endmsg
+Pow 30
+hp 250
+maxhp 250
+sp 300
+maxsp 300
+dam 10
+x 5
+y 11
+end
+arch afloor_right
+x 5
+y 12
+end
+arch chair_2.2
+x 5
+y 12
+end
+arch dark_elf
+name Phithos
+Str 22
+Dex 30
+Pow 15
+hp 600
+maxhp 600
+exp 10000
+dam 10
+wc -15
+ac -10
+carrying 47625
+unaggressive 1
+can_use_horn 1
+x 5
+y 12
+arch arrow
+dam 10
+nrof 25
+end
+arch axe_5
+end
+arch elven_bow
+end
+arch leather_armour
+end
+end
+arch afloor_right
+x 5
+y 13
+end
+arch afloor_right
+x 5
+y 14
+end
+arch wall_2_1_2
+x 5
+y 14
+end
+arch blocked
+x 5
+y 15
+end
+arch afloor_right
+x 6
+end
+arch wall_1_4
+x 6
+end
+arch afloor_right
+x 6
+y 1
+end
+arch afloor_right
+x 6
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 6
+y 2
+end
+arch swall_2_1_2
+x 6
+y 2
+end
+arch afloor_right
+x 6
+y 3
+end
+arch afloor_right
+x 6
+y 4
+end
+arch afloor_right
+x 6
+y 5
+end
+arch wall_2_2_3
+x 6
+y 5
+end
+arch afloor_right
+x 6
+y 6
+end
+arch wall_2_1_1
+x 6
+y 6
+end
+arch afloor_right
+x 6
+y 7
+end
+arch wall_3_1
+x 6
+y 7
+end
+arch afloor_right
+x 6
+y 8
+end
+arch afloor_right
+x 6
+y 9
+end
+arch afloor_right
+x 6
+y 10
+end
+arch afloor_right
+x 6
+y 11
+end
+arch afloor_right
+x 6
+y 12
+end
+arch afloor_right
+x 6
+y 13
+end
+arch afloor_right
+x 6
+y 14
+end
+arch wall_2_1_2
+x 6
+y 14
+end
+arch blocked
+x 6
+y 15
+end
+arch afloor_right
+x 7
+end
+arch wall_2_1_2
+x 7
+end
+arch afloor_right
+x 7
+y 1
+end
+arch afloor_right
+x 7
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 7
+y 2
+end
+arch swall_2_1_2
+x 7
+y 2
+end
+arch afloor_right
+x 7
+y 3
+end
+arch bench_0
+x 7
+y 3
+end
+arch afloor_right
+x 7
+y 4
+end
+arch afloor_right
+x 7
+y 5
+end
+arch afloor_right
+x 7
+y 6
+end
+arch afloor_right
+x 7
+y 7
+end
+arch wall_2_2_3
+x 7
+y 7
+end
+arch afloor_right
+x 7
+y 8
+end
+arch wall_2_1_1
+x 7
+y 8
+end
+arch afloor_right
+x 7
+y 9
+end
+arch wall_2_1_1
+x 7
+y 9
+end
+arch afloor_right
+x 7
+y 10
+end
+arch wall_2_1_1
+x 7
+y 10
+end
+arch afloor_right
+x 7
+y 11
+end
+arch wall_2_1_1
+x 7
+y 11
+end
+arch afloor_right
+x 7
+y 12
+end
+arch wall_2_1_1
+x 7
+y 12
+end
+arch afloor_right
+x 7
+y 13
+end
+arch wall_2_1_1
+x 7
+y 13
+end
+arch afloor_right
+x 7
+y 14
+end
+arch wall_3_1
+x 7
+y 14
+end
+arch blocked
+x 7
+y 15
+end
+arch afloor_right
+x 8
+end
+arch wall_2_1_2
+x 8
+end
+arch afloor_right
+x 8
+y 1
+end
+arch afloor_right
+x 8
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 8
+y 2
+end
+arch swall_2_1_2
+x 8
+y 2
+end
+arch afloor_right
+x 8
+y 3
+end
+arch afloor_right
+x 8
+y 4
+end
+arch afloor_right
+x 8
+y 5
+end
+arch afloor_right
+x 8
+y 6
+end
+arch afloor_right
+x 8
+y 7
+end
+arch afloor_right
+x 8
+y 8
+end
+arch afloor_right
+x 8
+y 9
+end
+arch afloor_right
+x 8
+y 10
+end
+arch afloor_right
+x 8
+y 11
+end
+arch afloor_right
+x 8
+y 12
+end
+arch chair_1.4
+x 8
+y 12
+end
+arch afloor_right
+x 8
+y 13
+end
+arch afloor_right
+x 8
+y 14
+end
+arch wall_2_1_2
+x 8
+y 14
+end
+arch blocked
+x 8
+y 15
+end
+arch afloor_right
+x 9
+end
+arch wall_2_1_2
+x 9
+end
+arch afloor_right
+x 9
+y 1
+end
+arch afloor_right
+x 9
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 9
+y 2
+end
+arch swall_2_1_2
+x 9
+y 2
+end
+arch afloor_right
+x 9
+y 3
+end
+arch bench_0
+x 9
+y 3
+end
+arch greater_dwarven_guard
+name Captain Guulros
+msg
+@match *
+Hey,stranger. You aren't from around
+here are ye?
+@match no
+Aye,your dress and accent is that of
+an outsider. Like our merry dwarven
+land? We have been having many
+troubles,but in this great city we are
+surely safe.
+I've been gettin my ale from this
+good tavern for a long time. But I've
+never seen such nasty lookin
+characters in this tavern as those in
+that private room o'er there.
+endmsg
+friendly 1
+x 9
+y 3
+end
+arch afloor_right
+x 9
+y 4
+end
+arch afloor_right
+x 9
+y 5
+end
+arch afloor_right
+x 9
+y 6
+end
+arch afloor_right
+x 9
+y 7
+end
+arch afloor_right
+x 9
+y 8
+end
+arch afloor_right
+x 9
+y 9
+end
+arch afloor_right
+x 9
+y 10
+end
+arch afloor_right
+x 9
+y 11
+end
+arch chair_1.1
+x 9
+y 11
+end
+arch gnome
+name gnome
+msg
+@match *
+It is unthinkable. I only hope my good
+cousin is safe and still holds his
+sanity.
+endmsg
+friendly 1
+random_movement 0
+x 9
+y 11
+end
+arch afloor_right
+x 9
+y 12
+end
+arch table_3
+x 9
+y 12
+end
+arch afloor_right
+x 9
+y 13
+end
+arch chair_1.3
+x 9
+y 13
+end
+arch gnome
+name gnomish miner
+msg
+@match hi|hello
+Aye, have ye heard the latest tales of
+Morgria? A plague of goblins have
+been unleashed. They have taken many
+of the dwarven towns in the mines.
+Many fine dwarves have lost their
+wits. They run mad outside the towns.
+endmsg
+friendly 1
+random_movement 0
+x 9
+y 13
+end
+arch afloor_right
+x 9
+y 14
+end
+arch wall_2_1_2
+x 9
+y 14
+end
+arch blocked
+x 9
+y 15
+end
+arch afloor_right
+x 10
+end
+arch wall_2_1_2
+x 10
+end
+arch afloor_right
+x 10
+y 1
+end
+arch afloor_right
+x 10
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 10
+y 2
+end
+arch swall_2_1_2
+x 10
+y 2
+end
+arch afloor_right
+x 10
+y 3
+end
+arch afloor_right
+x 10
+y 4
+end
+arch magic_mouth
+msg
+This dwarf looks like a Captain in the
+Dwarven army.
+endmsg
+x 10
+y 4
+end
+arch afloor_right
+x 10
+y 5
+end
+arch afloor_right
+x 10
+y 6
+end
+arch afloor_right
+x 10
+y 7
+end
+arch afloor_right
+x 10
+y 8
+end
+arch chair_1.4
+x 10
+y 8
+end
+arch dwarf_priest
+msg
+@match *
+Do try some of this excellent port, my
+son.
+endmsg
+x 10
+y 8
+end
+arch afloor_right
+x 10
+y 9
+end
+arch afloor_right
+x 10
+y 10
+end
+arch afloor_right
+x 10
+y 11
+end
+arch afloor_right
+x 10
+y 12
+end
+arch chair_1.2
+x 10
+y 12
+end
+arch magic_mouth
+msg
+These gnomes are talking of trouble in
+the mines of Morgria.
+endmsg
+x 10
+y 12
+end
+arch afloor_right
+x 10
+y 13
+end
+arch afloor_right
+x 10
+y 14
+end
+arch wall_2_1_2
+x 10
+y 14
+end
+arch blocked
+x 10
+y 15
+end
+arch afloor_right
+x 11
+end
+arch wall_1_3
+x 11
+end
+arch afloor_right
+x 11
+y 1
+end
+arch afloor_right
+x 11
+y 2
+end
+arch wall_2_1_2
+name bar
+blocksview 0
+x 11
+y 2
+end
+arch swall_2_1_2
+x 11
+y 2
+end
+arch afloor_right
+x 11
+y 3
+end
+arch bench_0
+x 11
+y 3
+end
+arch afloor_right
+x 11
+y 4
+end
+arch afloor_right
+x 11
+y 5
+end
+arch afloor_right
+x 11
+y 6
+end
+arch chair_1.1
+x 11
+y 6
+end
+arch dwarf_priest
+name Father Grundorun
+msg
+@match *
+A fine cup of port this is.
+endmsg
+x 11
+y 6
+end
+arch afloor_right
+x 11
+y 7
+end
+arch table_3
+x 11
+y 7
+end
+arch afloor_right
+x 11
+y 8
+end
+arch afloor_right
+x 11
+y 9
+end
+arch afloor_right
+x 11
+y 10
+end
+arch afloor_right
+x 11
+y 11
+end
+arch afloor_right
+x 11
+y 12
+end
+arch afloor_right
+x 11
+y 13
+end
+arch afloor_right
+x 11
+y 14
+end
+arch wall_2_1_2
+x 11
+y 14
+end
+arch blocked
+x 11
+y 15
+end
+arch afloor_right
+x 12
+end
+arch wall_3_3
+x 12
+end
+arch swall_3_3
+x 12
+end
+arch afloor_right
+x 12
+y 1
+end
+arch wall_2_1_1
+name bar
+blocksview 0
+x 12
+y 1
+end
+arch swall_2_1_1
+x 12
+y 1
+end
+arch afloor_right
+x 12
+y 2
+end
+arch wall_2_2_4
+name bar
+blocksview 0
+x 12
+y 2
+end
+arch swall_2_2_4
+x 12
+y 2
+end
+arch afloor_right
+x 12
+y 3
+end
+arch afloor_right
+x 12
+y 4
+end
+arch afloor_right
+x 12
+y 5
+end
+arch afloor_right
+x 12
+y 6
+end
+arch afloor_right
+x 12
+y 7
+end
+arch chair_1.2
+x 12
+y 7
+end
+arch dwarf_priest
+msg
+@match *
+May Mostrai's favour be granted upon
+the owner of this fine tavern!
+endmsg
+x 12
+y 7
+end
+arch afloor_right
+x 12
+y 8
+end
+arch afloor_right
+x 12
+y 9
+end
+arch afloor_right
+x 12
+y 10
+end
+arch afloor_right
+x 12
+y 11
+end
+arch afloor_right
+x 12
+y 12
+end
+arch afloor_right
+x 12
+y 13
+end
+arch afloor_right
+x 12
+y 14
+end
+arch wall_2_1_2
+x 12
+y 14
+end
+arch blocked
+x 12
+y 15
+end
+arch afloor_right
+x 13
+end
+arch wall_1_4
+x 13
+end
+arch afloor_right
+x 13
+y 1
+end
+arch bench_0
+x 13
+y 1
+end
+arch afloor_right
+x 13
+y 2
+end
+arch afloor_right
+x 13
+y 3
+end
+arch afloor_right
+x 13
+y 4
+end
+arch chair_1.4
+x 13
+y 4
+end
+arch dwarf
+msg
+@match *
+I shall be sharpening my axe and
+polishing my armour. No enemy will
+bring Erthos to its knees!
+endmsg
+x 13
+y 4
+end
+arch afloor_right
+x 13
+y 5
+end
+arch afloor_right
+x 13
+y 6
+end
+arch afloor_right
+x 13
+y 7
+end
+arch afloor_right
+x 13
+y 8
+end
+arch afloor_right
+x 13
+y 9
+end
+arch afloor_right
+x 13
+y 10
+end
+arch afloor_right
+x 13
+y 11
+end
+arch chair_1.4
+x 13
+y 11
+end
+arch dwarf
+msg
+@match *
+Mighty good beer,aye laddie? A toast
+to the good owner of this
+establisment! May he live a long and
+prosperous life! And may his ale barrels
+continually flow with this good
+dwarvish ale!
+endmsg
+x 13
+y 11
+end
+arch afloor_right
+x 13
+y 12
+end
+arch afloor_right
+x 13
+y 13
+end
+arch afloor_right
+x 13
+y 14
+end
+arch wall_2_1_2
+x 13
+y 14
+end
+arch blocked
+x 13
+y 15
+end
+arch afloor_right
+x 14
+end
+arch wall_2_1_2
+x 14
+end
+arch afloor_right
+x 14
+y 1
+end
+arch afloor_right
+x 14
+y 2
+end
+arch afloor_right
+x 14
+y 3
+end
+arch chair_1.1
+x 14
+y 3
+end
+arch dwarf
+msg
+@match *
+I heard the draconians might be
+preparing for war. I reckon every able
+bodied dwarf will be ready to take his
+axe and defend his town.
+endmsg
+x 14
+y 3
+end
+arch afloor_right
+x 14
+y 4
+end
+arch table_3
+x 14
+y 4
+end
+arch afloor_right
+x 14
+y 5
+end
+arch chair_1.3
+x 14
+y 5
+end
+arch dwarf
+msg
+@match *
+Drink you beer, laddies. Us fine
+dwarves will defend our lands, our
+great country shall stand against its
+opponents and defeat them.
+endmsg
+x 14
+y 5
+end
+arch afloor_right
+x 14
+y 6
+end
+arch afloor_right
+x 14
+y 7
+end
+arch afloor_right
+x 14
+y 8
+end
+arch afloor_right
+x 14
+y 9
+end
+arch afloor_right
+x 14
+y 10
+end
+arch afloor_right
+x 14
+y 11
+end
+arch table_3
+x 14
+y 11
+end
+arch afloor_right
+x 14
+y 12
+end
+arch magic_mouth
+msg
+dwarf says :
+Aye,welcome,sonny,welcome. Enjoy a mug
+of fine ale with me.
+endmsg
+x 14
+y 12
+end
+arch afloor_right
+x 14
+y 13
+end
+arch afloor_right
+x 14
+y 14
+end
+arch wall_2_1_2
+x 14
+y 14
+end
+arch blocked
+x 14
+y 15
+end
+arch afloor_right
+x 15
+end
+arch wall_2_1_2
+x 15
+end
+arch afloor_right
+x 15
+y 1
+end
+arch afloor_right
+x 15
+y 2
+end
+arch afloor_right
+x 15
+y 3
+end
+arch afloor_right
+x 15
+y 4
+end
+arch chair_1.2
+x 15
+y 4
+end
+arch dwarf
+msg
+@match *
+Aye,that is dire news of Morgria. With
+the balrog,the necromancer,and the
+three lord dragonmen looming at us, I
+don't know what we shall do.
+endmsg
+x 15
+y 4
+end
+arch afloor_right
+x 15
+y 5
+end
+arch magic_mouth
+msg
+These dwarves seem to be discussing
+war.
+endmsg
+x 15
+y 5
+end
+arch afloor_right
+x 15
+y 6
+end
+arch afloor_right
+x 15
+y 7
+end
+arch afloor_right
+x 15
+y 8
+end
+arch afloor_right
+x 15
+y 9
+end
+arch afloor_right
+x 15
+y 10
+end
+arch afloor_right
+x 15
+y 11
+end
+arch afloor_right
+x 15
+y 12
+end
+arch afloor_right
+x 15
+y 13
+end
+arch afloor_right
+x 15
+y 14
+end
+arch wall_2_1_2
+x 15
+y 14
+end
+arch blocked
+x 15
+y 15
+end
+arch afloor_right
+x 16
+end
+arch wall_2_1_2
+x 16
+end
+arch afloor_right
+x 16
+y 1
+end
+arch afloor_right
+x 16
+y 2
+end
+arch afloor_right
+x 16
+y 3
+end
+arch afloor_right
+x 16
+y 4
+end
+arch afloor_right
+x 16
+y 5
+end
+arch afloor_right
+x 16
+y 6
+end
+arch afloor_right
+x 16
+y 7
+end
+arch afloor_right
+x 16
+y 8
+end
+arch chair_1.4
+x 16
+y 8
+end
+arch elf_1
+name elvish merchant
+msg
+@match *
+This kingdom boasts excellent
+resources and trade with them would be
+most profitable. But the route to get
+here is filled with bandits,so trade
+is next to impossible.
+endmsg
+x 16
+y 8
+end
+arch afloor_right
+x 16
+y 9
+end
+arch afloor_right
+x 16
+y 10
+end
+arch afloor_right
+x 16
+y 11
+end
+arch afloor_right
+x 16
+y 12
+end
+arch afloor_right
+x 16
+y 13
+end
+arch afloor_right
+x 16
+y 14
+end
+arch wall_2_2_3
+x 16
+y 14
+end
+arch afloor_right
+x 16
+y 15
+end
+arch wall_2_2_1
+x 16
+y 15
+end
+arch afloor_right
+x 17
+end
+arch wall_2_1_2
+x 17
+end
+arch afloor_right
+x 17
+y 1
+end
+arch afloor_right
+x 17
+y 2
+end
+arch afloor_right
+x 17
+y 3
+end
+arch afloor_right
+x 17
+y 4
+end
+arch afloor_right
+x 17
+y 5
+end
+arch afloor_right
+x 17
+y 6
+end
+arch afloor_right
+x 17
+y 7
+end
+arch chair_1.1
+x 17
+y 7
+end
+arch elf_1
+name elvish merchant
+x 17
+y 7
+end
+arch afloor_right
+x 17
+y 8
+end
+arch table_3
+x 17
+y 8
+end
+arch afloor_right
+x 17
+y 9
+end
+arch chair_1.3
+x 17
+y 9
+end
+arch magic_mouth
+msg
+A group of merchants. They are likely
+talking about trade.
+endmsg
+x 17
+y 9
+end
+arch afloor_right
+x 17
+y 10
+end
+arch afloor_right
+x 17
+y 11
+end
+arch afloor_right
+x 17
+y 12
+end
+arch afloor_right
+x 17
+y 13
+end
+arch magic_mouth
+msg
+As you enter the tavern,you are met
+with the delicious smell of roasting
+meat and sounds of laughter and mugs
+of beer clanging together in a toast.
+endmsg
+x 17
+y 13
+end
+arch afloor_right
+x 17
+y 14
+end
+arch oakdoor
+slaying /ElvenLands/Erthos/city/city
+x 17
+y 14
+end
+arch afloor_right
+x 17
+y 15
+end
+arch wall_2_1_2
+x 17
+y 15
+end
+arch afloor_right
+x 18
+end
+arch wall_2_1_2
+x 18
+end
+arch afloor_right
+x 18
+y 1
+end
+arch chair_1.1
+x 18
+y 1
+end
+arch lesser_dwarven_guard
+name tough looking mercenary
+friendly 1
+x 18
+y 1
+end
+arch afloor_right
+x 18
+y 2
+end
+arch table_3
+x 18
+y 2
+end
+arch afloor_right
+x 18
+y 3
+end
+arch magic_mouth
+msg
+The gnome seems to be discussing
+something with this tough looking
+dwarf, probably a mercenary. They are
+speaking in hushed tones.
+endmsg
+x 18
+y 3
+end
+arch afloor_right
+x 18
+y 4
+end
+arch afloor_right
+x 18
+y 5
+end
+arch afloor_right
+x 18
+y 6
+end
+arch afloor_right
+x 18
+y 7
+end
+arch afloor_right
+x 18
+y 8
+end
+arch chair_1.2
+x 18
+y 8
+end
+arch dwarf
+name dwarven merchant
+msg
+@match *
+Damned bandits ruin trade with the
+Elven Lands.
+endmsg
+x 18
+y 8
+end
+arch afloor_right
+x 18
+y 9
+end
+arch afloor_right
+x 18
+y 10
+end
+arch afloor_right
+x 18
+y 11
+end
+arch afloor_right
+x 18
+y 12
+end
+arch afloor_right
+x 18
+y 13
+end
+arch afloor_right
+x 18
+y 14
+end
+arch wall_2_2_2
+x 18
+y 14
+end
+arch afloor_right
+x 18
+y 15
+end
+arch wall_2_2_4
+x 18
+y 15
+end
+arch afloor_right
+x 19
+end
+arch wall_2_1_2
+x 19
+end
+arch afloor_right
+x 19
+y 1
+end
+arch afloor_right
+x 19
+y 2
+end
+arch chair_1.2
+x 19
+y 2
+end
+arch gnome
+name gnome
+msg
+@match *
+Hullo. Mighty good beer,eh?
+endmsg
+friendly 1
+random_movement 0
+x 19
+y 2
+end
+arch afloor_right
+x 19
+y 3
+end
+arch afloor_right
+x 19
+y 4
+end
+arch afloor_right
+x 19
+y 5
+end
+arch afloor_right
+x 19
+y 6
+end
+arch afloor_right
+x 19
+y 7
+end
+arch afloor_right
+x 19
+y 8
+end
+arch afloor_right
+x 19
+y 9
+end
+arch afloor_right
+x 19
+y 10
+end
+arch afloor_right
+x 19
+y 11
+end
+arch afloor_right
+x 19
+y 12
+end
+arch afloor_right
+x 19
+y 13
+end
+arch afloor_right
+x 19
+y 14
+end
+arch wall_2_1_2
+x 19
+y 14
+end
+arch blocked
+x 19
+y 15
+end
+arch afloor_right
+x 20
+end
+arch wall_2_2_3
+x 20
+end
+arch afloor_right
+x 20
+y 1
+end
+arch wall_2_1_1
+x 20
+y 1
+end
+arch afloor_right
+x 20
+y 2
+end
+arch wall_2_1_1
+x 20
+y 2
+end
+arch afloor_right
+x 20
+y 3
+end
+arch wall_2_1_1
+x 20
+y 3
+end
+arch afloor_right
+x 20
+y 4
+end
+arch wall_2_1_1
+x 20
+y 4
+end
+arch afloor_right
+x 20
+y 5
+end
+arch wall_2_1_1
+x 20
+y 5
+end
+arch afloor_right
+x 20
+y 6
+end
+arch wall_2_1_1
+x 20
+y 6
+end
+arch afloor_right
+x 20
+y 7
+end
+arch wall_2_1_1
+x 20
+y 7
+end
+arch afloor_right
+x 20
+y 8
+end
+arch wall_2_1_1
+x 20
+y 8
+end
+arch afloor_right
+x 20
+y 9
+end
+arch wall_2_1_1
+x 20
+y 9
+end
+arch afloor_right
+x 20
+y 10
+end
+arch wall_2_1_1
+x 20
+y 10
+end
+arch afloor_right
+x 20
+y 11
+end
+arch wall_2_1_1
+x 20
+y 11
+end
+arch afloor_right
+x 20
+y 12
+end
+arch wall_2_1_1
+x 20
+y 12
+end
+arch afloor_right
+x 20
+y 13
+end
+arch wall_2_1_1
+x 20
+y 13
+end
+arch afloor_right
+x 20
+y 14
+end
+arch wall_2_2_4
+x 20
+y 14
+end
+arch blocked
+x 20
+y 15
+end

@@ -1,0 +1,3665 @@
+arch map
+name guild
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Sun Dec  5 00:17:02 1999
+endmsg
+width 34
+height 16
+reset_timeout 5200
+end
+arch flagstone
+end
+arch dwall_2_2_2
+end
+arch flagstone
+y 1
+end
+arch dwall_2_1_1
+y 1
+end
+arch flagstone
+y 2
+end
+arch dwall_2_1_1
+y 2
+end
+arch flagstone
+y 3
+end
+arch dwall_2_2_1
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch pit_closed
+hp 12
+sp 7
+resist_cold 30
+resist_confusion 30
+resist_acid 30
+connected 112
+y 6
+end
+arch card
+name membership to Guild of Heroes
+msg
+This is certified that the one who
+carries this card is an official member
+of the Guild of Heroes.
+endmsg
+type 21
+slaying HeroGuild
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
+arch flagstone
+y 9
+end
+arch dwall_2_2_2
+y 9
+end
+arch flagstone
+y 10
+end
+arch dwall_2_1_1
+y 10
+end
+arch flagstone
+y 11
+end
+arch dwall_2_1_1
+y 11
+end
+arch flagstone
+y 12
+end
+arch dwall_2_1_1
+y 12
+end
+arch flagstone
+y 13
+end
+arch dwall_2_1_1
+y 13
+end
+arch flagstone
+y 14
+end
+arch dwall_2_1_1
+y 14
+end
+arch flagstone
+y 15
+end
+arch dwall_2_2_1
+y 15
+end
+arch flagstone
+x 1
+end
+arch dwall_2_1_2
+x 1
+end
+arch flagstone
+x 1
+y 1
+end
+arch flagstone
+x 1
+y 2
+end
+arch flagstone
+x 1
+y 3
+end
+arch dwall_2_1_2
+x 1
+y 3
+end
+arch grass
+x 1
+y 4
+end
+arch grass
+x 1
+y 5
+end
+arch grass
+x 1
+y 6
+end
+arch grass
+x 1
+y 7
+end
+arch grass
+x 1
+y 8
+end
+arch flagstone
+x 1
+y 9
+end
+arch dwall_2_1_2
+x 1
+y 9
+end
+arch flagstone
+x 1
+y 10
+end
+arch flagstone
+x 1
+y 11
+end
+arch flagstone
+x 1
+y 12
+end
+arch flagstone
+x 1
+y 13
+end
+arch flagstone
+x 1
+y 14
+end
+arch flagstone
+x 1
+y 15
+end
+arch dwall_2_1_2
+x 1
+y 15
+end
+arch flagstone
+x 2
+end
+arch dwall_2_1_2
+x 2
+end
+arch flagstone
+x 2
+y 1
+end
+arch flagstone
+x 2
+y 2
+end
+arch warrior_1
+face warrior.111
+x 2
+y 2
+end
+arch flagstone
+x 2
+y 3
+end
+arch dwall_2_1_2
+x 2
+y 3
+end
+arch grass
+x 2
+y 4
+end
+arch grass
+x 2
+y 5
+end
+arch grass
+x 2
+y 6
+end
+arch grass
+x 2
+y 7
+end
+arch grass
+x 2
+y 8
+end
+arch flagstone
+x 2
+y 9
+end
+arch dwall_2_1_2
+x 2
+y 9
+end
+arch flagstone
+x 2
+y 10
+end
+arch warrior_1
+face warrior.151
+x 2
+y 10
+end
+arch flagstone
+x 2
+y 11
+end
+arch flagstone
+x 2
+y 12
+end
+arch flagstone
+x 2
+y 13
+end
+arch flagstone
+x 2
+y 14
+end
+arch chair_2.4
+x 2
+y 14
+end
+arch flagstone
+x 2
+y 15
+end
+arch dwall_2_1_2
+x 2
+y 15
+end
+arch flagstone
+x 3
+end
+arch dwall_2_1_2
+x 3
+end
+arch flagstone
+x 3
+y 1
+end
+arch flagstone
+x 3
+y 2
+end
+arch warrior_1
+face warrior.111
+x 3
+y 2
+end
+arch flagstone
+x 3
+y 3
+end
+arch dwall_2_1_2
+x 3
+y 3
+end
+arch grass
+x 3
+y 4
+end
+arch grass
+x 3
+y 5
+end
+arch grass
+x 3
+y 6
+end
+arch grass
+x 3
+y 7
+end
+arch grass
+x 3
+y 8
+end
+arch flagstone
+x 3
+y 9
+end
+arch dwall_2_1_2
+x 3
+y 9
+end
+arch flagstone
+x 3
+y 10
+end
+arch warrior_1
+face warrior.151
+x 3
+y 10
+end
+arch flagstone
+x 3
+y 11
+end
+arch flagstone
+x 3
+y 12
+end
+arch flagstone
+x 3
+y 13
+end
+arch chair_2.1
+x 3
+y 13
+end
+arch flagstone
+x 3
+y 14
+end
+arch table_4
+x 3
+y 14
+end
+arch flagstone
+x 3
+y 15
+end
+arch dwall_2_1_2
+x 3
+y 15
+end
+arch flagstone
+x 4
+end
+arch dwall_2_1_2
+x 4
+end
+arch flagstone
+x 4
+y 1
+end
+arch flagstone
+x 4
+y 2
+end
+arch warrior_1
+face warrior.111
+x 4
+y 2
+end
+arch flagstone
+x 4
+y 3
+end
+arch dwall_2_1_2
+x 4
+y 3
+end
+arch grass
+x 4
+y 4
+end
+arch grass
+x 4
+y 5
+end
+arch medium_guard
+speed_left -1.060000
+x 4
+y 5
+end
+arch grass
+x 4
+y 6
+end
+arch grass
+x 4
+y 7
+end
+arch medium_guard
+speed_left -1.060000
+x 4
+y 7
+end
+arch grass
+x 4
+y 8
+end
+arch flagstone
+x 4
+y 9
+end
+arch dwall_2_1_2
+x 4
+y 9
+end
+arch flagstone
+x 4
+y 10
+end
+arch warrior_1
+face warrior.151
+x 4
+y 10
+end
+arch flagstone
+x 4
+y 11
+end
+arch flagstone
+x 4
+y 12
+end
+arch flagstone
+x 4
+y 13
+end
+arch flagstone
+x 4
+y 14
+end
+arch chair_2.2
+x 4
+y 14
+end
+arch flagstone
+x 4
+y 15
+end
+arch dwall_2_1_2
+x 4
+y 15
+end
+arch flagstone
+x 5
+end
+arch dwall_2_1_2
+x 5
+end
+arch flagstone
+x 5
+y 1
+end
+arch flagstone
+x 5
+y 2
+end
+arch flagstone
+x 5
+y 3
+end
+arch dwall_2_2_3
+x 5
+y 3
+end
+arch flagstone
+x 5
+y 4
+end
+arch dwall_2_1_1
+x 5
+y 4
+end
+arch flagstone
+x 5
+y 5
+end
+arch dwall_1_2
+x 5
+y 5
+end
+arch invis_exit
+slaying city
+hp 23
+sp 16
+x 5
+y 6
+end
+arch flagstone
+x 5
+y 6
+end
+arch door_look_2
+no_pass 0
+x 5
+y 6
+end
+arch flagstone
+x 5
+y 7
+end
+arch dwall_1_1
+x 5
+y 7
+end
+arch flagstone
+x 5
+y 8
+end
+arch dwall_2_1_1
+x 5
+y 8
+end
+arch flagstone
+x 5
+y 9
+end
+arch dwall_2_2_4
+x 5
+y 9
+end
+arch flagstone
+x 5
+y 10
+end
+arch flagstone
+x 5
+y 11
+end
+arch flagstone
+x 5
+y 12
+end
+arch flagstone
+x 5
+y 13
+end
+arch flagstone
+x 5
+y 14
+end
+arch flagstone
+x 5
+y 15
+end
+arch dwall_2_1_2
+x 5
+y 15
+end
+arch flagstone
+x 6
+end
+arch dwall_2_1_2
+x 6
+end
+arch flagstone
+x 6
+y 1
+end
+arch flagstone
+x 6
+y 2
+end
+arch flagstone
+x 6
+y 3
+end
+arch flagstone
+x 6
+y 4
+end
+arch flagstone
+x 6
+y 5
+end
+arch medium_guard
+x 6
+y 5
+end
+arch flagstone
+x 6
+y 6
+end
+arch flagstone
+x 6
+y 7
+end
+arch medium_guard
+x 6
+y 7
+end
+arch flagstone
+x 6
+y 8
+end
+arch flagstone
+x 6
+y 9
+end
+arch flagstone
+x 6
+y 10
+end
+arch flagstone
+x 6
+y 11
+end
+arch flagstone
+x 6
+y 12
+end
+arch flagstone
+x 6
+y 13
+end
+arch flagstone
+x 6
+y 14
+end
+arch flagstone
+x 6
+y 15
+end
+arch dwall_2_1_2
+x 6
+y 15
+end
+arch flagstone
+x 7
+end
+arch dwall_2_1_2
+x 7
+end
+arch flagstone
+x 7
+y 1
+end
+arch flagstone
+x 7
+y 2
+end
+arch flagstone
+x 7
+y 3
+end
+arch flagstone
+x 7
+y 4
+end
+arch flagstone
+x 7
+y 5
+end
+arch flagstone
+x 7
+y 6
+end
+arch flagstone
+x 7
+y 7
+end
+arch flagstone
+x 7
+y 8
+end
+arch flagstone
+x 7
+y 9
+end
+arch flagstone
+x 7
+y 10
+end
+arch flagstone
+x 7
+y 11
+end
+arch flagstone
+x 7
+y 12
+end
+arch flagstone
+x 7
+y 13
+end
+arch flagstone
+x 7
+y 14
+end
+arch flagstone
+x 7
+y 15
+end
+arch dwall_2_1_2
+x 7
+y 15
+end
+arch flagstone
+x 8
+end
+arch dwall_2_1_2
+x 8
+end
+arch flagstone
+x 8
+y 1
+end
+arch flagstone
+x 8
+y 2
+end
+arch flagstone
+x 8
+y 3
+end
+arch flagstone
+x 8
+y 4
+end
+arch flagstone
+x 8
+y 5
+end
+arch flagstone
+x 8
+y 6
+end
+arch sign
+msg
+---Adressed to all those who wish to join---
+So, you wish to join the guild of heroes and
+become a Champion of Yoer? Be warned,
+the path is long and narrow.  One does not
+become a champion overnight! But, try hard
+and be brave, would-be-hero, and then,
+perhaps, your name shall go down in
+history!
+endmsg
+x 8
+y 6
+end
+arch flagstone
+x 8
+y 7
+end
+arch flagstone
+x 8
+y 8
+end
+arch flagstone
+x 8
+y 9
+end
+arch flagstone
+x 8
+y 10
+end
+arch flagstone
+x 8
+y 11
+end
+arch flagstone
+x 8
+y 12
+end
+arch flagstone
+x 8
+y 13
+end
+arch flagstone
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
+end
+arch dwall_2_1_2
+x 8
+y 15
+end
+arch flagstone
+x 9
+end
+arch dwall_2_1_2
+x 9
+end
+arch flagstone
+x 9
+y 1
+end
+arch flagstone
+x 9
+y 2
+end
+arch flagstone
+x 9
+y 3
+end
+arch flagstone
+x 9
+y 4
+end
+arch flagstone
+x 9
+y 5
+end
+arch flagstone
+x 9
+y 6
+end
+arch flagstone
+x 9
+y 7
+end
+arch chair_1.4
+x 9
+y 7
+end
+arch flagstone
+x 9
+y 8
+end
+arch flagstone
+x 9
+y 9
+end
+arch flagstone
+x 9
+y 10
+end
+arch flagstone
+x 9
+y 11
+end
+arch flagstone
+x 9
+y 12
+end
+arch flagstone
+x 9
+y 13
+end
+arch flagstone
+x 9
+y 14
+end
+arch flagstone
+x 9
+y 15
+end
+arch dwall_2_1_2
+x 9
+y 15
+end
+arch flagstone
+x 10
+end
+arch dwall_2_1_2
+x 10
+end
+arch flagstone
+x 10
+y 1
+end
+arch elf_1
+name an elf
+msg
+@match *
+Did you hear about the terrorists! They
+captured the second in command. He is
+being held at Yoer Prison!
+endmsg
+x 10
+y 1
+end
+arch flagstone
+x 10
+y 2
+end
+arch flagstone
+x 10
+y 3
+end
+arch flagstone
+x 10
+y 4
+end
+arch flagstone
+x 10
+y 5
+end
+arch flagstone
+x 10
+y 6
+end
+arch altar_trigger
+slaying Scroll of Challenges
+food 1
+resist_cold 30
+resist_confusion 30
+resist_acid 30
+invisible 1
+connected 112
+x 10
+y 7
+end
+arch flagstone
+x 10
+y 7
+end
+arch table_4
+x 10
+y 7
+end
+arch flagstone
+x 10
+y 8
+end
+arch flagstone
+x 10
+y 9
+end
+arch flagstone
+x 10
+y 10
+end
+arch flagstone
+x 10
+y 11
+end
+arch flagstone
+x 10
+y 12
+end
+arch flagstone
+x 10
+y 13
+end
+arch flagstone
+x 10
+y 14
+end
+arch elf_1
+name an elf
+msg
+@match *
+Did you hear about the terrorists! They
+captured the second in command. He is
+being held at Yoer Prison!
+endmsg
+x 10
+y 14
+end
+arch flagstone
+x 10
+y 15
+end
+arch dwall_2_1_2
+x 10
+y 15
+end
+arch flagstone
+x 11
+end
+arch dwall_2_1_2
+x 11
+end
+arch flagstone
+x 11
+y 1
+end
+arch elf
+name Rgellomir
+msg
+@match terrorist|prison|Prison
+The terrorist was caught while trying
+to find some plans!
+@match plans|Plans
+He was trying to find the map of our
+city! The secret map. It shows secret
+tunnels and where all our guards are!
+endmsg
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 11
+y 1
+end
+arch flagstone
+x 11
+y 2
+end
+arch flagstone
+x 11
+y 3
+end
+arch flagstone
+x 11
+y 4
+end
+arch flagstone
+x 11
+y 5
+end
+arch flagstone
+x 11
+y 6
+end
+arch flagstone
+x 11
+y 7
+end
+arch magic_ear
+msg
+@match join|yes
+Click.
+endmsg
+resist_physical 30
+resist_fire 30
+resist_confusion 30
+resist_drain 30
+resist_ghosthit 30
+connected 677
+x 11
+y 7
+end
+arch c_sage
+name receptionist of the guild of heroes
+msg
+@match hi|hello
+Hello... what would you like?
+@match speak|guild|guild master|in
+You would like to speak to our guild
+master? Well... You need to join our
+guild. Would you like to?
+@match yes|join
+Good! But first I need you to pass a
+test. Go to the Castle of Challenge. I
+will give you the key! Bring back the
+scroll of Challenges that is in the
+castle.
+endmsg
+x 11
+y 7
+end
+arch flagstone
+x 11
+y 8
+end
+arch flagstone
+x 11
+y 9
+end
+arch flagstone
+x 11
+y 10
+end
+arch flagstone
+x 11
+y 11
+end
+arch flagstone
+x 11
+y 12
+end
+arch flagstone
+x 11
+y 13
+end
+arch flagstone
+x 11
+y 14
+end
+arch elf
+name Tyrmarll
+msg
+@match terrorist|prison|Prison
+The terrorist was caught while trying
+to find some plans!
+@match plans|Plans
+He was trying to find the map of our
+city! The secret map. It shows secret
+tunnels and where all our guards are!
+endmsg
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 11
+y 14
+end
+arch flagstone
+x 11
+y 15
+end
+arch dwall_2_1_2
+x 11
+y 15
+end
+arch flagstone
+x 12
+end
+arch dwall_2_1_2
+x 12
+end
+arch flagstone
+x 12
+y 1
+end
+arch flagstone
+x 12
+y 2
+end
+arch flagstone
+x 12
+y 3
+end
+arch flagstone
+x 12
+y 4
+end
+arch flagstone
+x 12
+y 5
+end
+arch flagstone
+x 12
+y 6
+end
+arch flagstone
+x 12
+y 7
+end
+arch flagstone
+x 12
+y 8
+end
+arch flagstone
+x 12
+y 9
+end
+arch flagstone
+x 12
+y 10
+end
+arch flagstone
+x 12
+y 11
+end
+arch flagstone
+x 12
+y 12
+end
+arch flagstone
+x 12
+y 13
+end
+arch flagstone
+x 12
+y 14
+end
+arch flagstone
+x 12
+y 15
+end
+arch dwall_2_1_2
+x 12
+y 15
+end
+arch flagstone
+x 13
+end
+arch dwall_2_1_2
+x 13
+end
+arch flagstone
+x 13
+y 1
+end
+arch flagstone
+x 13
+y 2
+end
+arch flagstone
+x 13
+y 3
+end
+arch flagstone
+x 13
+y 4
+end
+arch flagstone
+x 13
+y 5
+end
+arch cleric
+name guildsman
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 13
+y 5
+end
+arch flagstone
+x 13
+y 6
+end
+arch flagstone
+x 13
+y 7
+end
+arch cleric
+name guildsman
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 13
+y 7
+end
+arch flagstone
+x 13
+y 8
+end
+arch flagstone
+x 13
+y 9
+end
+arch cleric
+name guildsman
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 13
+y 9
+end
+arch flagstone
+x 13
+y 10
+end
+arch flagstone
+x 13
+y 11
+end
+arch flagstone
+x 13
+y 12
+end
+arch flagstone
+x 13
+y 13
+end
+arch flagstone
+x 13
+y 14
+end
+arch flagstone
+x 13
+y 15
+end
+arch dwall_2_1_2
+x 13
+y 15
+end
+arch flagstone
+x 14
+end
+arch dwall3_3
+x 14
+end
+arch flagstone
+x 14
+y 1
+end
+arch dwall_2_1_1
+x 14
+y 1
+end
+arch flagstone
+x 14
+y 2
+end
+arch dwall_1_2
+x 14
+y 2
+end
+arch flagstone
+x 14
+y 3
+end
+arch door_look_2
+no_pass 0
+x 14
+y 3
+end
+arch flagstone
+x 14
+y 4
+end
+arch dwall_1_1
+x 14
+y 4
+end
+arch flagstone
+x 14
+y 5
+end
+arch dwall_2_2_1
+x 14
+y 5
+end
+arch flagstone
+x 14
+y 6
+end
+arch flagstone
+x 14
+y 7
+end
+arch dwall_1_4
+x 14
+y 7
+end
+arch flagstone
+x 14
+y 8
+end
+arch flagstone
+x 14
+y 9
+end
+arch dwall_2_2_2
+x 14
+y 9
+end
+arch flagstone
+x 14
+y 10
+end
+arch dwall_1_2
+x 14
+y 10
+end
+arch flagstone
+x 14
+y 11
+end
+arch grate_closed_2
+resist_physical 30
+resist_fire 30
+resist_confusion 30
+resist_drain 30
+resist_ghosthit 30
+connected 677
+x 14
+y 11
+end
+arch flagstone
+x 14
+y 12
+end
+arch dwall_1_1
+x 14
+y 12
+end
+arch flagstone
+x 14
+y 13
+end
+arch dwall_2_2_1
+x 14
+y 13
+end
+arch flagstone
+x 14
+y 14
+end
+arch flagstone
+x 14
+y 15
+end
+arch dwall_2_1_2
+x 14
+y 15
+end
+arch flagstone
+x 15
+end
+arch dwall_2_1_2
+x 15
+end
+arch flagstone
+x 15
+y 1
+end
+arch clock
+x 15
+y 1
+end
+arch flagstone
+x 15
+y 2
+end
+arch flagstone
+x 15
+y 3
+end
+arch flagstone
+x 15
+y 4
+end
+arch flagstone
+x 15
+y 5
+end
+arch dwall_2_1_2
+x 15
+y 5
+end
+arch flagstone
+x 15
+y 6
+end
+arch flagstone
+x 15
+y 7
+end
+arch dwall_2_1_2
+x 15
+y 7
+end
+arch flagstone
+x 15
+y 8
+end
+arch check_inv
+slaying HeroGuild
+resist_physical 30
+connected 1
+x 15
+y 8
+end
+arch flagstone
+x 15
+y 9
+end
+arch dwall_2_1_2
+x 15
+y 9
+end
+arch flagstone
+x 15
+y 10
+end
+arch flagstone
+x 15
+y 11
+end
+arch key2
+name key to Castle of Challenge
+slaying elfCastle
+x 15
+y 11
+end
+arch flagstone
+x 15
+y 12
+end
+arch flagstone
+x 15
+y 13
+end
+arch dwall_2_1_2
+x 15
+y 13
+end
+arch flagstone
+x 15
+y 14
+end
+arch flagstone
+x 15
+y 15
+end
+arch dwall_2_1_2
+x 15
+y 15
+end
+arch flagstone
+x 16
+end
+arch dwall_2_1_2
+x 16
+end
+arch flagstone
+x 16
+y 1
+end
+arch man
+x 16
+y 1
+end
+arch flagstone
+x 16
+y 2
+end
+arch table_3
+x 16
+y 2
+end
+arch flagstone
+x 16
+y 3
+end
+arch chair_1.3
+x 16
+y 3
+end
+arch flagstone
+x 16
+y 4
+end
+arch flagstone
+x 16
+y 5
+end
+arch dwall_2_1_2
+x 16
+y 5
+end
+arch flagstone
+x 16
+y 6
+end
+arch igate_closed_2
+resist_physical 30
+connected 1
+x 16
+y 6
+end
+arch flagstone
+x 16
+y 7
+end
+arch dwall_2_1_2
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 8
+end
+arch igate_closed_2
+resist_physical 30
+connected 1
+x 16
+y 8
+end
+arch flagstone
+x 16
+y 9
+end
+arch dwall3_3
+x 16
+y 9
+end
+arch flagstone
+x 16
+y 10
+end
+arch dwall_2_1_1
+x 16
+y 10
+end
+arch flagstone
+x 16
+y 11
+end
+arch dwall_2_1_1
+x 16
+y 11
+end
+arch flagstone
+x 16
+y 12
+end
+arch dwall_2_1_1
+x 16
+y 12
+end
+arch flagstone
+x 16
+y 13
+end
+arch dwall_2_2_4
+x 16
+y 13
+end
+arch flagstone
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 15
+end
+arch dwall_2_1_2
+x 16
+y 15
+end
+arch flagstone
+x 17
+end
+arch dwall_2_1_2
+x 17
+end
+arch flagstone
+x 17
+y 1
+end
+arch chair_3.2
+x 17
+y 1
+end
+arch flagstone
+x 17
+y 2
+end
+arch flagstone
+x 17
+y 3
+end
+arch flagstone
+x 17
+y 4
+end
+arch flagstone
+x 17
+y 5
+end
+arch dwall_2_1_2
+x 17
+y 5
+end
+arch flagstone
+x 17
+y 6
+end
+arch check_inv
+slaying HeroGuild
+resist_physical 30
+connected 1
+x 17
+y 6
+end
+arch flagstone
+x 17
+y 7
+end
+arch dwall_2_1_2
+x 17
+y 7
+end
+arch flagstone
+x 17
+y 8
+end
+arch flagstone
+x 17
+y 9
+end
+arch dwall_2_1_2
+x 17
+y 9
+end
+arch flagstone
+x 17
+y 10
+end
+arch flagstone
+x 17
+y 11
+end
+arch flagstone
+x 17
+y 12
+end
+arch flagstone
+x 17
+y 13
+end
+arch flagstone
+x 17
+y 14
+end
+arch flagstone
+x 17
+y 15
+end
+arch dwall_2_1_2
+x 17
+y 15
+end
+arch flagstone
+x 18
+end
+arch dwall3_3
+x 18
+end
+arch flagstone
+x 18
+y 1
+end
+arch dwall_2_1_1
+x 18
+y 1
+end
+arch flagstone
+x 18
+y 2
+end
+arch dwall_2_1_1
+x 18
+y 2
+end
+arch flagstone
+x 18
+y 3
+end
+arch dwall_2_1_1
+x 18
+y 3
+end
+arch flagstone
+x 18
+y 4
+end
+arch dwall_2_1_1
+x 18
+y 4
+end
+arch flagstone
+x 18
+y 5
+end
+arch dwall_3_1
+x 18
+y 5
+end
+arch flagstone
+x 18
+y 6
+end
+arch flagstone
+x 18
+y 7
+end
+arch dwall_1_3
+x 18
+y 7
+end
+arch flagstone
+x 18
+y 8
+end
+arch flagstone
+x 18
+y 9
+end
+arch dwall_2_2_3
+x 18
+y 9
+end
+arch flagstone
+x 18
+y 10
+end
+arch dwall_2_1_1
+x 18
+y 10
+end
+arch flagstone
+x 18
+y 11
+end
+arch dwall_2_1_1
+x 18
+y 11
+end
+arch flagstone
+x 18
+y 12
+end
+arch dwall_2_1_1
+x 18
+y 12
+end
+arch flagstone
+x 18
+y 13
+end
+arch dwall_2_1_1
+x 18
+y 13
+end
+arch flagstone
+x 18
+y 14
+end
+arch dwall_2_1_1
+x 18
+y 14
+end
+arch flagstone
+x 18
+y 15
+end
+arch dwall_3_1
+x 18
+y 15
+end
+arch flagstone
+x 19
+end
+arch dwall_2_1_2
+x 19
+end
+arch flagstone
+x 19
+y 1
+end
+arch clock
+x 19
+y 1
+end
+arch flagstone
+x 19
+y 2
+end
+arch flagstone
+x 19
+y 3
+end
+arch flagstone
+x 19
+y 4
+end
+arch flagstone
+x 19
+y 5
+end
+arch dwall_1_3
+x 19
+y 5
+end
+arch flagstone
+x 19
+y 6
+end
+arch flagstone
+x 19
+y 7
+end
+arch flagstone
+x 19
+y 8
+end
+arch flagstone
+x 19
+y 9
+end
+arch flagstone
+x 19
+y 10
+end
+arch flagstone
+x 19
+y 11
+end
+arch flagstone
+x 19
+y 12
+end
+arch flagstone
+x 19
+y 13
+end
+arch grate_closed_1
+resist_physical 30
+resist_magic 30
+resist_electricity 30
+connected 11
+x 19
+y 13
+end
+arch random_talisman
+x 19
+y 14
+end
+arch flagstone
+x 19
+y 14
+end
+arch random_weapon
+x 19
+y 14
+end
+arch random_shield
+x 19
+y 14
+end
+arch random_wealth
+x 19
+y 14
+end
+arch random_wealth
+x 19
+y 14
+end
+arch scroll
+name mission briefing
+msg
+Your first mission is to find Uggilly's
+hideout. He is planning to destroy
+Fleabeon city. You must destroy him and
+bring back proof that you slew him. It
+would be wise to first go to fleabeon
+city and search there. Good luck!
+Fleabeon city is counting on you.
+Drop the proof in front of the guild
+master.
+endmsg
+food 1
+x 19
+y 14
+end
+arch marker
+slaying elfmission1
+food 0
+x 19
+y 14
+end
+arch flagstone
+x 19
+y 15
+end
+arch dwall_2_1_2
+x 19
+y 15
+end
+arch flagstone
+x 20
+end
+arch dwall_2_1_2
+x 20
+end
+arch flagstone
+x 20
+y 1
+end
+arch magic_ear
+msg
+@match clues
+We know something is up in the cafe, a
+strange looking character is always hanging
+about there.
+endmsg
+resist_electricity 30
+resist_acid 30
+resist_drain 30
+resist_weaponmagic 30
+connected 50
+x 20
+y 1
+end
+arch woman
+name secretary
+msg
+@match *
+The guild master is in the next room!
+endmsg
+x 20
+y 1
+end
+arch altar_trigger
+msg
+Secretary: Good job! I will show this
+to our guildmaster,meanwhile go get
+your next assignment.
+endmsg
+slaying note to Grubb
+food 1
+resist_physical 30
+resist_fire 30
+resist_electricity 30
+resist_acid 30
+resist_weaponmagic 30
+invisible 1
+connected 333
+x 20
+y 2
+end
+arch flagstone
+x 20
+y 2
+end
+arch table_3
+x 20
+y 2
+end
+arch flagstone
+x 20
+y 3
+end
+arch chair_1.3
+x 20
+y 3
+end
+arch flagstone
+x 20
+y 4
+end
+arch flagstone
+x 20
+y 5
+end
+arch door_look_1
+no_pass 0
+x 20
+y 5
+end
+arch flagstone
+x 20
+y 6
+end
+arch flagstone
+x 20
+y 7
+end
+arch flagstone
+x 20
+y 8
+end
+arch flagstone
+x 20
+y 9
+end
+arch flagstone
+x 20
+y 10
+end
+arch flagstone
+x 20
+y 11
+end
+arch flagstone
+x 20
+y 12
+end
+arch flagstone
+x 20
+y 13
+end
+arch dwall_1_1
+x 20
+y 13
+end
+arch flagstone
+x 20
+y 14
+end
+arch dwall_2_1_1
+x 20
+y 14
+end
+arch flagstone
+x 20
+y 15
+end
+arch dwall_3_1
+x 20
+y 15
+end
+arch flagstone
+x 21
+end
+arch dwall_2_1_2
+x 21
+end
+arch flagstone
+x 21
+y 1
+end
+arch chair_3.2
+x 21
+y 1
+end
+arch flagstone
+x 21
+y 2
+end
+arch flagstone
+x 21
+y 3
+end
+arch flagstone
+x 21
+y 4
+end
+arch flagstone
+x 21
+y 5
+end
+arch dwall_1_4
+x 21
+y 5
+end
+arch flagstone
+x 21
+y 6
+end
+arch flagstone
+x 21
+y 7
+end
+arch flagstone
+x 21
+y 8
+end
+arch flagstone
+x 21
+y 9
+end
+arch flagstone
+x 21
+y 10
+end
+arch flagstone
+x 21
+y 11
+end
+arch flagstone
+x 21
+y 12
+end
+arch flagstone
+x 21
+y 13
+end
+arch grate_closed_1
+resist_physical 30
+resist_fire 30
+resist_electricity 30
+resist_confusion 30
+resist_ghosthit 30
+connected 557
+x 21
+y 13
+end
+arch random_scroll
+x 21
+y 14
+end
+arch flagstone
+x 21
+y 14
+end
+arch random_scroll
+x 21
+y 14
+end
+arch random_talisman
+x 21
+y 14
+end
+arch random_talisman
+x 21
+y 14
+end
+arch random_wealth
+x 21
+y 14
+end
+arch random_wealth
+x 21
+y 14
+end
+arch scroll
+name mission briefing
+msg
+Good job on doing your first
+mission,now we do not need to worry
+about Uggilly. Our spies found out
+something... There is a secret city in
+the dark elf land. It connects to our
+land with some kind of tunnel. Our
+spies could not tell us anymore... They
+were murdered by some trolls! Your job
+is to find the town and kill the leader
+there. Bring back proof of a succesful
+mission. Good luck! The safety of our
+elves depends on you! Drop the proof in
+front of this gate.
+endmsg
+x 21
+y 14
+end
+arch flagstone
+x 21
+y 15
+end
+arch dwall_2_1_2
+x 21
+y 15
+end
+arch flagstone
+x 22
+end
+arch dwall3_3
+x 22
+end
+arch flagstone
+x 22
+y 1
+end
+arch dwall_2_1_1
+x 22
+y 1
+end
+arch flagstone
+x 22
+y 2
+end
+arch dwall_2_1_1
+x 22
+y 2
+end
+arch flagstone
+x 22
+y 3
+end
+arch dwall_2_1_1
+x 22
+y 3
+end
+arch flagstone
+x 22
+y 4
+end
+arch dwall_2_1_1
+x 22
+y 4
+end
+arch flagstone
+x 22
+y 5
+end
+arch dwall_3_1
+x 22
+y 5
+end
+arch flagstone
+x 22
+y 6
+end
+arch guard
+name knight
+face paladin.151
+x 22
+y 6
+end
+arch flagstone
+x 22
+y 7
+end
+arch flagstone
+x 22
+y 8
+end
+arch flagstone
+x 22
+y 9
+end
+arch fighter
+name Enduilk, champion of Yoer
+msg
+@match hi|hello
+Greetings,fellow guildsman.
+@match champion
+Yes,I am a champion of Yoer.
+endmsg
+hp 2000
+maxhp 2000
+sp 20
+maxsp 20
+exp 25000
+dam 30
+wc -20
+ac -12
+level 18
+carrying 96620
+x 22
+y 9
+arch broadsword
+name sword covered with various runes
+msg
+Swords such as these are often given
+to strong warriors by their guild.
+endmsg
+dam 20
+material 0
+magic 4
+end
+arch ring_mail
+magic 4
+end
+arch high_shield
+magic 4
+end
+arch high_boots
+magic 4
+end
+arch gloves
+magic 2
+end
+arch ring
+face ring.117
+msg
+This ring is not yours. You cannot use
+the power it holds within it.
+endmsg
+title of Champions
+startequip 1
+end
+end
+arch flagstone
+x 22
+y 10
+end
+arch flagstone
+x 22
+y 11
+end
+arch flagstone
+x 22
+y 12
+end
+arch flagstone
+x 22
+y 13
+end
+arch dwall_1_1
+x 22
+y 13
+end
+arch flagstone
+x 22
+y 14
+end
+arch dwall_2_1_1
+x 22
+y 14
+end
+arch flagstone
+x 22
+y 15
+end
+arch dwall_3_1
+x 22
+y 15
+end
+arch flagstone
+x 23
+end
+arch dwall_2_1_2
+x 23
+end
+arch flagstone
+x 23
+y 1
+end
+arch clock
+x 23
+y 1
+end
+arch flagstone
+x 23
+y 2
+end
+arch table_4
+x 23
+y 2
+end
+arch flagstone
+x 23
+y 3
+end
+arch chair_2.3
+x 23
+y 3
+end
+arch flagstone
+x 23
+y 4
+end
+arch flagstone
+x 23
+y 5
+end
+arch dwall_2_1_2
+x 23
+y 5
+end
+arch flagstone
+x 23
+y 6
+end
+arch flagstone
+x 23
+y 7
+end
+arch flagstone
+x 23
+y 8
+end
+arch flagstone
+x 23
+y 9
+end
+arch flagstone
+x 23
+y 10
+end
+arch flagstone
+x 23
+y 11
+end
+arch flagstone
+x 23
+y 12
+end
+arch flagstone
+x 23
+y 13
+end
+arch grate_closed_1
+resist_physical 30
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_acid 30
+resist_drain 30
+resist_weaponmagic 30
+resist_ghosthit 30
+connected 989
+x 23
+y 13
+end
+arch flagstone
+x 23
+y 14
+end
+arch random_scroll
+x 23
+y 14
+end
+arch random_scroll
+x 23
+y 14
+end
+arch random_talisman
+x 23
+y 14
+end
+arch random_talisman
+x 23
+y 14
+end
+arch random_talisman
+x 23
+y 14
+end
+arch random_talisman
+x 23
+y 14
+end
+arch scroll
+name mission briefing
+msg
+Congratulations on your succesful
+mission! But time for your next. Our
+spies have noticed trouble in our
+city. Dark Elves have established a
+hidden base in our city. We have very
+little clues on where they are,but ask
+the secretary about clues. She will
+give them to you. Find the base and
+bring back proof of your completed
+mission.
+endmsg
+x 23
+y 14
+end
+arch flagstone
+x 23
+y 15
+end
+arch dwall_2_1_2
+x 23
+y 15
+end
+arch flagstone
+x 24
+end
+arch dwall_2_1_2
+x 24
+end
+arch flagstone
+x 24
+y 1
+end
+arch clock
+x 24
+y 1
+end
+arch flagstone
+x 24
+y 2
+end
+arch table_4
+x 24
+y 2
+end
+arch flagstone
+x 24
+y 3
+end
+arch chair_2.3
+x 24
+y 3
+end
+arch flagstone
+x 24
+y 4
+end
+arch medium_guard
+name body guard
+x 24
+y 4
+end
+arch flagstone
+x 24
+y 5
+end
+arch dwall_1_3
+x 24
+y 5
+end
+arch flagstone
+x 24
+y 6
+end
+arch flagstone
+x 24
+y 7
+end
+arch flagstone
+x 24
+y 8
+end
+arch flagstone
+x 24
+y 9
+end
+arch flagstone
+x 24
+y 10
+end
+arch flagstone
+x 24
+y 11
+end
+arch flagstone
+x 24
+y 12
+end
+arch flagstone
+x 24
+y 13
+end
+arch dwall_1_1
+x 24
+y 13
+end
+arch flagstone
+x 24
+y 14
+end
+arch dwall_2_1_1
+x 24
+y 14
+end
+arch flagstone
+x 24
+y 15
+end
+arch dwall_3_1
+x 24
+y 15
+end
+arch flagstone
+x 25
+end
+arch dwall_2_1_2
+x 25
+end
+arch flagstone
+x 25
+y 1
+end
+arch magic_ear
+msg
+@match yes
+Good! Go and get your mission from the
+first room south!
+endmsg
+food 1
+connected 11
+x 25
+y 1
+end
+arch guildmaster
+msg
+@match hi|hello
+Why hello! Welcome to my guild! You
+will be glad you joined. Now shall I
+give you your first mission?
+endmsg
+x 25
+y 1
+end
+arch altar_trigger
+msg
+The Guild Master says:
+Good Job,get
+your next mission!
+endmsg
+slaying Uggilly's Heart
+food 1
+resist_physical 30
+resist_fire 30
+resist_electricity 30
+resist_confusion 30
+resist_ghosthit 30
+connected 557
+x 25
+y 2
+end
+arch flagstone
+x 25
+y 2
+end
+arch table_4
+x 25
+y 2
+end
+arch flagstone
+x 25
+y 3
+end
+arch chair_2.3
+x 25
+y 3
+end
+arch flagstone
+x 25
+y 4
+end
+arch flagstone
+x 25
+y 5
+end
+arch door_look_1
+no_pass 0
+x 25
+y 5
+end
+arch flagstone
+x 25
+y 6
+end
+arch flagstone
+x 25
+y 7
+end
+arch flagstone
+x 25
+y 8
+end
+arch flagstone
+x 25
+y 9
+end
+arch flagstone
+x 25
+y 10
+end
+arch flagstone
+x 25
+y 11
+end
+arch flagstone
+x 25
+y 12
+end
+arch flagstone
+x 25
+y 13
+end
+arch grate_closed_1
+resist_physical 30
+resist_fire 30
+resist_electricity 30
+resist_acid 30
+resist_weaponmagic 30
+connected 333
+x 25
+y 13
+end
+arch flagstone
+x 25
+y 14
+end
+arch random_potion
+x 25
+y 14
+end
+arch random_potion
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch random_talisman
+x 25
+y 14
+end
+arch scroll
+name mission briefing
+msg
+Good job on your completed mission. We
+caught one of the dark elves,he is in
+the prison. Ask him about where the
+remaining dark elves are hiding. Find
+where there new hideout is and bring
+back proof of your completed mission.
+endmsg
+x 25
+y 14
+end
+arch flagstone
+x 25
+y 15
+end
+arch dwall_2_1_2
+x 25
+y 15
+end
+arch flagstone
+x 26
+end
+arch dwall_2_1_2
+x 26
+end
+arch flagstone
+x 26
+y 1
+end
+arch clock
+x 26
+y 1
+end
+arch flagstone
+x 26
+y 2
+end
+arch table_4
+x 26
+y 2
+end
+arch flagstone
+x 26
+y 3
+end
+arch chair_2.3
+x 26
+y 3
+end
+arch flagstone
+x 26
+y 4
+end
+arch medium_guard
+name body guard
+x 26
+y 4
+end
+arch flagstone
+x 26
+y 5
+end
+arch dwall_1_4
+x 26
+y 5
+end
+arch flagstone
+x 26
+y 6
+end
+arch flagstone
+x 26
+y 7
+end
+arch flagstone
+x 26
+y 8
+end
+arch flagstone
+x 26
+y 9
+end
+arch flagstone
+x 26
+y 10
+end
+arch flagstone
+x 26
+y 11
+end
+arch cleric
+name guildsman
+face cleric.111
+type 0
+hp 100
+randomitems none
+monster 1
+friendly 1
+x 26
+y 11
+end
+arch flagstone
+x 26
+y 12
+end
+arch flagstone
+x 26
+y 13
+end
+arch dwall_1_1
+x 26
+y 13
+end
+arch flagstone
+x 26
+y 14
+end
+arch dwall_2_1_1
+x 26
+y 14
+end
+arch flagstone
+x 26
+y 15
+end
+arch dwall_3_1
+x 26
+y 15
+end
+arch flagstone
+x 27
+end
+arch dwall_2_1_2
+x 27
+end
+arch flagstone
+x 27
+y 1
+end
+arch clock
+x 27
+y 1
+end
+arch flagstone
+x 27
+y 2
+end
+arch table_4
+x 27
+y 2
+end
+arch flagstone
+x 27
+y 3
+end
+arch chair_2.3
+x 27
+y 3
+end
+arch flagstone
+x 27
+y 4
+end
+arch flagstone
+x 27
+y 5
+end
+arch dwall_2_1_2
+x 27
+y 5
+end
+arch flagstone
+x 27
+y 6
+end
+arch flagstone
+x 27
+y 7
+end
+arch flagstone
+x 27
+y 8
+end
+arch flagstone
+x 27
+y 9
+end
+arch flagstone
+x 27
+y 10
+end
+arch warrior_1
+x 27
+y 10
+end
+arch flagstone
+x 27
+y 11
+end
+arch flagstone
+x 27
+y 12
+end
+arch flagstone
+x 27
+y 13
+end
+arch grate_closed_1
+resist_physical 30
+resist_magic 30
+resist_confusion 30
+resist_ghosthit 30
+connected 547
+x 27
+y 13
+end
+arch flagstone
+x 27
+y 14
+end
+arch random_potion
+x 27
+y 14
+end
+arch random_potion
+x 27
+y 14
+end
+arch random_spells
+x 27
+y 14
+end
+arch random_spells
+x 27
+y 14
+end
+arch random_talisman
+x 27
+y 14
+end
+arch random_talisman
+x 27
+y 14
+end
+arch random_talisman
+x 27
+y 14
+end
+arch random_talisman
+x 27
+y 14
+end
+arch random_talisman
+x 27
+y 14
+end
+arch scroll
+name mission briefing
+msg
+Your next mission is to slay their
+leader,Khaluk. Beware,he is strong and
+a user of magic. It is said he is
+hiding in our sewers. Bring back proof
+of your copleted mission.
+endmsg
+x 27
+y 14
+end
+arch flagstone
+x 27
+y 15
+end
+arch dwall_2_1_2
+x 27
+y 15
+end
+arch flagstone
+x 28
+end
+arch dwall_2_2_3
+x 28
+end
+arch flagstone
+x 28
+y 1
+end
+arch dwall_2_1_1
+x 28
+y 1
+end
+arch flagstone
+x 28
+y 2
+end
+arch dwall_2_1_1
+x 28
+y 2
+end
+arch flagstone
+x 28
+y 3
+end
+arch dwall_2_1_1
+x 28
+y 3
+end
+arch flagstone
+x 28
+y 4
+end
+arch dwall_2_1_1
+x 28
+y 4
+end
+arch flagstone
+x 28
+y 5
+end
+arch dwall_3_1
+x 28
+y 5
+end
+arch flagstone
+x 28
+y 6
+end
+arch flagstone
+x 28
+y 7
+end
+arch sign_e
+name Archives
+x 28
+y 7
+end
+arch flagstone
+x 28
+y 8
+end
+arch flagstone
+x 28
+y 9
+end
+arch flagstone
+x 28
+y 10
+end
+arch flagstone
+x 28
+y 11
+end
+arch flagstone
+x 28
+y 12
+end
+arch flagstone
+x 28
+y 13
+end
+arch dwall_1_1
+x 28
+y 13
+end
+arch flagstone
+x 28
+y 14
+end
+arch dwall_2_1_1
+x 28
+y 14
+end
+arch flagstone
+x 28
+y 15
+end
+arch dwall_3_1
+x 28
+y 15
+end
+arch blocked
+x 29
+end
+arch blocked
+x 29
+y 1
+end
+arch blocked
+x 29
+y 2
+end
+arch blocked
+x 29
+y 3
+end
+arch blocked
+x 29
+y 4
+end
+arch flagstone
+x 29
+y 5
+end
+arch dwall_2_1_2
+x 29
+y 5
+end
+arch flagstone
+x 29
+y 6
+end
+arch flagstone
+x 29
+y 7
+end
+arch stair_up_2
+x 29
+y 7
+end
+arch flagstone
+x 29
+y 8
+end
+arch flagstone
+x 29
+y 9
+end
+arch flagstone
+x 29
+y 10
+end
+arch flagstone
+x 29
+y 11
+end
+arch flagstone
+x 29
+y 12
+end
+arch flagstone
+x 29
+y 13
+end
+arch grate_closed_1
+connected 663
+x 29
+y 13
+end
+arch flagstone
+x 29
+y 14
+end
+arch random_potion
+x 29
+y 14
+end
+arch random_potion
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch random_talisman
+x 29
+y 14
+end
+arch diploma
+name Champion of Yoer
+msg
+The possesor of this diploma and
+the ring of Champions is a champion of
+Yoer.
+endmsg
+x 29
+y 14
+end
+arch ring
+face ring.117
+msg
+This mighty ring is given to the
+Champions of the king of Yoer.
+endmsg
+title of Champions
+Str 2
+Dex 2
+Con 2
+Wis -1
+Pow -1
+Cha 2
+hp 2
+wc 3
+ac 2
+speed 0.050000
+resist_physical 20
+resist_fire 15
+resist_electricity 15
+resist_cold 15
+value 100000
+x 29
+y 14
+end
+arch scroll
+msg
+Congratulations,you are a champion of
+Yoer. Take your ring,hero.
+endmsg
+x 29
+y 14
+end
+arch flagstone
+x 29
+y 15
+end
+arch dwall_2_1_2
+x 29
+y 15
+end
+arch woodfloor
+x 30
+end
+arch woodfloor
+x 30
+y 1
+end
+arch woodfloor
+x 30
+y 2
+end
+arch woodfloor
+x 30
+y 3
+end
+arch blocked
+x 30
+y 4
+end
+arch flagstone
+x 30
+y 5
+end
+arch dwall_2_2_3
+x 30
+y 5
+end
+arch flagstone
+x 30
+y 6
+end
+arch dwall_2_1_1
+x 30
+y 6
+end
+arch flagstone
+x 30
+y 7
+end
+arch dwall_2_1_1
+x 30
+y 7
+end
+arch flagstone
+x 30
+y 8
+end
+arch dwall_2_1_1
+x 30
+y 8
+end
+arch flagstone
+x 30
+y 9
+end
+arch dwall_2_1_1
+x 30
+y 9
+end
+arch flagstone
+x 30
+y 10
+end
+arch dwall_2_1_1
+x 30
+y 10
+end
+arch flagstone
+x 30
+y 11
+end
+arch dwall_2_1_1
+x 30
+y 11
+end
+arch flagstone
+x 30
+y 12
+end
+arch dwall_2_1_1
+x 30
+y 12
+end
+arch flagstone
+x 30
+y 13
+end
+arch dwall_2_1_1
+x 30
+y 13
+end
+arch flagstone
+x 30
+y 14
+end
+arch dwall_2_1_1
+x 30
+y 14
+end
+arch flagstone
+x 30
+y 15
+end
+arch dwall_2_2_4
+x 30
+y 15
+end
+arch woodfloor
+x 31
+end
+arch woodfloor
+x 31
+y 1
+end
+arch woodfloor
+x 31
+y 2
+end
+arch woodfloor
+x 31
+y 3
+end
+arch blocked
+x 31
+y 4
+end
+arch blocked
+x 31
+y 5
+end
+arch blocked
+x 31
+y 6
+end
+arch blocked
+x 31
+y 7
+end
+arch blocked
+x 31
+y 8
+end
+arch blocked
+x 31
+y 9
+end
+arch blocked
+x 31
+y 10
+end
+arch blocked
+x 31
+y 11
+end
+arch blocked
+x 31
+y 12
+end
+arch blocked
+x 31
+y 13
+end
+arch blocked
+x 31
+y 14
+end
+arch blocked
+x 31
+y 15
+end
+arch woodfloor
+x 32
+end
+arch woodfloor
+x 32
+y 1
+end
+arch woodfloor
+x 32
+y 2
+end
+arch woodfloor
+x 32
+y 3
+end
+arch woodfloor
+x 32
+y 4
+end
+arch woodfloor
+x 32
+y 5
+end
+arch woodfloor
+x 32
+y 6
+end
+arch woodfloor
+x 32
+y 7
+end
+arch woodfloor
+x 32
+y 8
+end
+arch woodfloor
+x 32
+y 9
+end
+arch blocked
+x 32
+y 10
+end
+arch teleporter
+hp 20
+sp 4
+connected 50
+speed 0.0
+x 32
+y 11
+end
+arch map
+name map of the criminal underworld
+msg
+The map of the Yoer city and all the
+secret entrences to the criminal
+underworld.
+_______________________
+|well             well  |
+|                       |
+|      cafe             |
+|                       |
+|                       |
+| barn                  |
+-------------------------
+endmsg
+type 8
+x 32
+y 11
+end
+arch blocked
+x 32
+y 12
+end
+arch woodfloor
+x 32
+y 13
+end
+arch woodfloor
+x 32
+y 14
+end
+arch woodfloor
+x 32
+y 15
+end
+arch woodfloor
+x 33
+end
+arch woodfloor
+x 33
+y 1
+end
+arch woodfloor
+x 33
+y 2
+end
+arch woodfloor
+x 33
+y 3
+end
+arch woodfloor
+x 33
+y 4
+end
+arch woodfloor
+x 33
+y 5
+end
+arch woodfloor
+x 33
+y 6
+end
+arch woodfloor
+x 33
+y 7
+end
+arch woodfloor
+x 33
+y 8
+end
+arch woodfloor
+x 33
+y 9
+end
+arch blocked
+x 33
+y 10
+end
+arch blocked
+x 33
+y 11
+end
+arch blocked
+x 33
+y 12
+end
+arch woodfloor
+x 33
+y 13
+end
+arch woodfloor
+x 33
+y 14
+end
+arch woodfloor
+x 33
+y 15
+end

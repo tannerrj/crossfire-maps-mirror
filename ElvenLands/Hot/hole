@@ -1,0 +1,317 @@
+arch map
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Wed Oct 27 21:53:22 1999
+endmsg
+width 6
+height 6
+end
+arch blocked
+msg
+endmsg
+end
+arch permanent_lava
+y 1
+end
+arch cave18
+y 1
+end
+arch permanent_lava
+y 2
+end
+arch cave3
+y 2
+end
+arch permanent_lava
+y 3
+end
+arch cave3
+y 3
+end
+arch permanent_lava
+y 4
+end
+arch cave17
+y 4
+end
+arch blocked
+msg
+endmsg
+y 5
+end
+arch permanent_lava
+x 1
+end
+arch cave18
+x 1
+end
+arch permanent_lava
+x 1
+y 1
+end
+arch cave13
+x 1
+y 1
+end
+arch permanent_lava
+x 1
+y 2
+end
+arch ladder_up
+slaying /ElvenLands/Hot/hot
+hp 19
+sp 28
+x 1
+y 2
+end
+arch permanent_lava
+x 1
+y 3
+end
+arch permanent_lava
+x 1
+y 4
+end
+arch cave16
+x 1
+y 4
+end
+arch permanent_lava
+x 1
+y 5
+end
+arch cave17
+x 1
+y 5
+end
+arch medium_stones
+x 2
+end
+arch cave4
+x 2
+end
+arch medium_stones
+x 2
+y 1
+end
+arch barrel
+x 2
+y 1
+end
+arch medium_stones
+x 2
+y 2
+end
+arch medium_stones
+x 2
+y 3
+end
+arch food
+x 2
+y 3
+nrof 5
+end
+arch medium_stones
+x 2
+y 4
+end
+arch bookshelf
+x 2
+y 4
+carrying 23225
+arch poison
+end
+arch book_read
+end
+arch book_clasp
+end
+arch tome
+end
+arch note
+end
+arch quarto
+end
+arch scroll_2
+end
+arch scroll
+end
+end
+arch medium_stones
+x 2
+y 5
+end
+arch cave2
+x 2
+y 5
+end
+arch medium_stones
+x 3
+end
+arch cave4
+x 3
+end
+arch medium_stones
+x 3
+y 1
+end
+arch book_clasp
+name Book of Elements
+msg
+There are 4 powerful stones in the
+Elven Lands! The Stone of Earth,the
+Stone of Fire,the Stone of Water,and
+the Stone of Air!
+endmsg
+x 3
+y 1
+end
+arch medium_stones
+x 3
+y 2
+end
+arch medium_stones
+x 3
+y 3
+end
+arch booze
+x 3
+y 3
+nrof 5
+end
+arch medium_stones
+x 3
+y 4
+end
+arch clock
+x 3
+y 4
+end
+arch medium_stones
+x 3
+y 5
+end
+arch cave2
+x 3
+y 5
+end
+arch medium_stones
+x 4
+end
+arch cave4
+x 4
+end
+arch medium_stones
+x 4
+y 1
+end
+arch bed_1
+x 4
+y 1
+end
+arch calm_floor
+x 4
+y 2
+end
+arch charm_floor
+x 4
+y 2
+end
+arch medium_stones
+x 4
+y 2
+end
+arch chair_1.1
+x 4
+y 2
+end
+arch chess_bishop
+name stranger
+msg
+@match hi
+Hello! I haven't see a friendly face
+since I was sent down here by King
+Darkoth!
+@match Darkoth|darkoth|king
+He sent me down here,because I refused
+to join him against the light elves!
+He acused me of treason!
+@match treason
+I have done nothing wrong! But I would
+love if he got his just punishment!
+
+endmsg
+x 4
+y 2
+speed_left -0.600000
+end
+arch medium_stones
+x 4
+y 3
+end
+arch table
+x 4
+y 3
+end
+arch medium_stones
+x 4
+y 4
+end
+arch chair_1.3
+x 4
+y 4
+end
+arch medium_stones
+x 4
+y 5
+end
+arch cave2
+x 4
+y 5
+end
+arch medium_stones
+x 5
+end
+arch cave25
+x 5
+end
+arch medium_stones
+x 5
+y 1
+end
+arch cave1
+x 5
+y 1
+end
+arch medium_stones
+x 5
+y 2
+end
+arch cave1
+x 5
+y 2
+end
+arch medium_stones
+x 5
+y 3
+end
+arch cave1
+x 5
+y 3
+end
+arch medium_stones
+x 5
+y 4
+end
+arch cave1
+x 5
+y 4
+end
+arch medium_stones
+x 5
+y 5
+end
+arch cave22
+x 5
+y 5
+end

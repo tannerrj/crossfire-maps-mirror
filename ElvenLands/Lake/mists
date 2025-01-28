@@ -1,0 +1,1547 @@
+arch map
+name mists
+msg
+Creator: Joel Southall
+Email: joel@prninfo.com
+Date: Tue Nov 23 23:33:12 1999
+endmsg
+width 16
+height 16
+end
+arch grassdark
+end
+arch biglake_nw
+end
+arch grassdark
+y 1
+end
+arch biglake_ew
+y 1
+end
+arch grassdark
+y 2
+end
+arch biglake_ew
+y 2
+end
+arch grassdark
+y 3
+end
+arch biglake_ew
+y 3
+end
+arch grassdark
+y 4
+end
+arch biglake_ew
+y 4
+end
+arch grassdark
+y 5
+end
+arch biglake_ew
+y 5
+end
+arch grassdark
+y 6
+end
+arch biglake_ew
+y 6
+end
+arch grassdark
+y 7
+end
+arch biglake_ew
+y 7
+end
+arch grassdark
+y 8
+end
+arch biglake_ew
+y 8
+end
+arch grassdark
+y 9
+end
+arch biglake_ew
+y 9
+end
+arch grassdark
+y 10
+end
+arch biglake_ew
+y 10
+end
+arch grassdark
+y 11
+end
+arch biglake_ew
+y 11
+end
+arch grassdark
+y 12
+end
+arch biglake_ew
+y 12
+end
+arch grassdark
+y 13
+end
+arch biglake_ew
+y 13
+end
+arch grassdark
+y 14
+end
+arch biglake_ew
+y 14
+end
+arch grassdark
+y 15
+end
+arch biglake_sw
+y 15
+end
+arch grassdark
+x 1
+end
+arch biglake_sn
+x 1
+end
+arch grassdark
+x 1
+y 1
+end
+arch statue
+x 1
+y 1
+end
+arch grassdark
+x 1
+y 2
+end
+arch swamp
+x 1
+y 3
+end
+arch grassdark
+x 1
+y 4
+end
+arch grassdark
+x 1
+y 5
+end
+arch grassdark
+x 1
+y 6
+end
+arch grassdark
+x 1
+y 7
+end
+arch water_elemental
+x 1
+y 7
+end
+arch grassdark
+x 1
+y 8
+end
+arch grassdark
+x 1
+y 9
+end
+arch grassdark
+x 1
+y 10
+end
+arch grassdark
+x 1
+y 11
+end
+arch grassdark
+x 1
+y 12
+end
+arch grassdark
+x 1
+y 13
+end
+arch grassdark
+x 1
+y 14
+end
+arch statue
+x 1
+y 14
+end
+arch grassdark
+x 1
+y 15
+end
+arch biglake_sn
+x 1
+y 15
+end
+arch grassdark
+x 2
+end
+arch biglake_sn
+x 2
+end
+arch grassdark
+x 2
+y 1
+end
+arch grassdark
+x 2
+y 2
+end
+arch fog
+x 2
+y 2
+end
+arch grassdark
+x 2
+y 3
+end
+arch grassdark
+x 2
+y 4
+end
+arch grassdark
+x 2
+y 5
+end
+arch grassdark
+x 2
+y 6
+end
+arch grassdark
+x 2
+y 7
+end
+arch grassdark
+x 2
+y 8
+end
+arch grassdark
+x 2
+y 9
+end
+arch grassdark
+x 2
+y 10
+end
+arch grassdark
+x 2
+y 11
+end
+arch grassdark
+x 2
+y 12
+end
+arch grassdark
+x 2
+y 13
+end
+arch grassdark
+x 2
+y 14
+end
+arch grassdark
+x 2
+y 15
+end
+arch biglake_sn
+x 2
+y 15
+end
+arch grassdark
+x 3
+end
+arch biglake_sn
+x 3
+end
+arch grassdark
+x 3
+y 1
+end
+arch grassdark
+x 3
+y 2
+end
+arch grassdark
+x 3
+y 3
+end
+arch grassdark
+x 3
+y 4
+end
+arch grassdark
+x 3
+y 5
+end
+arch fog
+x 3
+y 5
+end
+arch grassdark
+x 3
+y 6
+end
+arch fog
+x 3
+y 6
+end
+arch grassdark
+x 3
+y 7
+end
+arch fog
+x 3
+y 7
+end
+arch grassdark
+x 3
+y 8
+end
+arch grassdark
+x 3
+y 9
+end
+arch fog
+x 3
+y 9
+end
+arch grassdark
+x 3
+y 10
+end
+arch grassdark
+x 3
+y 11
+end
+arch fog
+x 3
+y 11
+end
+arch grassdark
+x 3
+y 12
+end
+arch grassdark
+x 3
+y 13
+end
+arch fog
+x 3
+y 13
+end
+arch grassdark
+x 3
+y 14
+end
+arch grassdark
+x 3
+y 15
+end
+arch biglake_sn
+x 3
+y 15
+end
+arch grassdark
+x 4
+end
+arch biglake_sn
+x 4
+end
+arch grassdark
+x 4
+y 1
+end
+arch grassdark
+x 4
+y 2
+end
+arch water_elemental
+x 4
+y 2
+end
+arch grassdark
+x 4
+y 3
+end
+arch fog
+x 4
+y 3
+end
+arch grassdark
+x 4
+y 4
+end
+arch grassdark
+x 4
+y 5
+end
+arch grassdark
+x 4
+y 6
+end
+arch fog
+x 4
+y 6
+end
+arch grassdark
+x 4
+y 7
+end
+arch grassdark
+x 4
+y 8
+end
+arch grassdark
+x 4
+y 9
+end
+arch grassdark
+x 4
+y 10
+end
+arch fog
+x 4
+y 10
+end
+arch grassdark
+x 4
+y 11
+end
+arch grassdark
+x 4
+y 12
+end
+arch fog
+x 4
+y 12
+end
+arch grassdark
+x 4
+y 13
+end
+arch grassdark
+x 4
+y 14
+end
+arch grassdark
+x 4
+y 15
+end
+arch biglake_sn
+x 4
+y 15
+end
+arch grassdark
+x 5
+end
+arch biglake_sn
+x 5
+end
+arch grassdark
+x 5
+y 1
+end
+arch grassdark
+x 5
+y 2
+end
+arch grassdark
+x 5
+y 3
+end
+arch grassdark
+x 5
+y 4
+end
+arch grassdark
+x 5
+y 5
+end
+arch grassdark
+x 5
+y 6
+end
+arch grassdark
+x 5
+y 7
+end
+arch fog
+x 5
+y 7
+end
+arch grassdark
+x 5
+y 8
+end
+arch grassdark
+x 5
+y 9
+end
+arch fog
+x 5
+y 9
+end
+arch grassdark
+x 5
+y 10
+end
+arch fog
+x 5
+y 10
+end
+arch biglake_new
+x 5
+y 10
+end
+arch grassdark
+x 5
+y 11
+end
+arch fog
+x 5
+y 11
+end
+arch biglake_ew
+x 5
+y 11
+end
+arch grassdark
+x 5
+y 12
+end
+arch biglake_ew
+x 5
+y 12
+end
+arch swamp
+x 5
+y 13
+end
+arch biglake_sw
+x 5
+y 13
+end
+arch swamp
+x 5
+y 14
+end
+arch grassdark
+x 5
+y 15
+end
+arch biglake_sn
+x 5
+y 15
+end
+arch grassdark
+x 6
+end
+arch biglake_sn
+x 6
+end
+arch grassdark
+x 6
+y 1
+end
+arch grassdark
+x 6
+y 2
+end
+arch grassdark
+x 6
+y 3
+end
+arch pillars
+x 6
+y 3
+end
+arch grassdark
+x 6
+y 4
+end
+arch grassdark
+x 6
+y 5
+end
+arch fog
+x 6
+y 5
+end
+arch grassdark
+x 6
+y 6
+end
+arch water_elemental
+x 6
+y 6
+end
+arch grassdark
+x 6
+y 7
+end
+arch fog
+x 6
+y 7
+end
+arch grassdark
+x 6
+y 8
+end
+arch fog
+x 6
+y 8
+end
+arch swamp
+x 6
+y 9
+end
+arch swamp
+x 6
+y 10
+end
+arch swamp
+x 6
+y 11
+end
+arch locked_door1
+name watery door
+slaying Water1
+msg
+No mater how hard you try,you can not
+open this door! It must need a key!.
+endmsg
+x 6
+y 11
+end
+arch swamp
+x 6
+y 12
+end
+arch swamp
+x 6
+y 13
+end
+arch biglake_ne
+x 6
+y 13
+end
+arch swamp
+x 6
+y 14
+end
+arch biglake_ew
+x 6
+y 14
+end
+arch grassdark
+x 6
+y 15
+end
+arch biglake_se
+x 6
+y 15
+end
+arch grassdark
+x 7
+end
+arch biglake_sn
+x 7
+end
+arch grassdark
+x 7
+y 1
+end
+arch grassdark
+x 7
+y 2
+end
+arch swamp
+x 7
+y 3
+end
+arch perm_magic_portal
+slaying /ElvenLands/Water/country
+sp 3
+x 7
+y 3
+speed_left -1.000000
+end
+arch swamp
+x 7
+y 4
+end
+arch grassdark
+x 7
+y 5
+end
+arch grassdark
+x 7
+y 6
+end
+arch fog
+x 7
+y 6
+end
+arch swamp
+x 7
+y 7
+end
+arch swamp
+x 7
+y 8
+end
+arch swamp
+x 7
+y 9
+end
+arch fog
+x 7
+y 9
+end
+arch grassdark
+x 7
+y 10
+end
+arch biglake_new
+x 7
+y 10
+end
+arch grassdark
+x 7
+y 11
+end
+arch fog
+x 7
+y 11
+end
+arch biglake_ew
+x 7
+y 11
+end
+arch grassdark
+x 7
+y 12
+end
+arch biglake_sw
+x 7
+y 12
+end
+arch swamp
+x 7
+y 13
+end
+arch fog
+x 7
+y 13
+end
+arch swamp
+x 7
+y 14
+end
+arch magic_mouth
+msg
+Wow! were is this! 
+endmsg
+x 7
+y 14
+end
+arch swamp
+x 7
+y 15
+end
+arch invis_exit
+slaying /ElvenLands/Lake/island
+hp 14
+sp 11
+x 7
+y 15
+end
+arch grassdark
+x 8
+end
+arch biglake_sn
+x 8
+end
+arch grassdark
+x 8
+y 1
+end
+arch grassdark
+x 8
+y 2
+end
+arch grassdark
+x 8
+y 3
+end
+arch pillars
+x 8
+y 3
+end
+arch swamp
+x 8
+y 4
+end
+arch swamp
+x 8
+y 5
+end
+arch swamp
+x 8
+y 6
+end
+arch swamp
+x 8
+y 7
+end
+arch grassdark
+x 8
+y 8
+end
+arch grassdark
+x 8
+y 9
+end
+arch grassdark
+x 8
+y 10
+end
+arch fog
+x 8
+y 10
+end
+arch grassdark
+x 8
+y 11
+end
+arch grassdark
+x 8
+y 12
+end
+arch biglake_ne
+x 8
+y 12
+end
+arch grassdark
+x 8
+y 13
+end
+arch biglake_ew
+x 8
+y 13
+end
+arch grassdark
+x 8
+y 14
+end
+arch biglake_ew
+x 8
+y 14
+end
+arch grassdark
+x 8
+y 15
+end
+arch biglake_sw
+x 8
+y 15
+end
+arch grassdark
+x 9
+end
+arch biglake_sn
+x 9
+end
+arch grassdark
+x 9
+y 1
+end
+arch para_water
+name water guardian
+Wis 10
+Pow 20
+Int 10
+hp 3000
+maxhp 1000
+sp 50
+maxsp 30
+x 9
+y 1
+immune 9
+can_cast_spell 1
+arch ability_summon_water
+end
+arch ability_coldspell
+end
+end
+arch grassdark
+x 9
+y 2
+end
+arch grassdark
+x 9
+y 3
+end
+arch grassdark
+x 9
+y 4
+end
+arch fog
+x 9
+y 4
+end
+arch slevel_4
+x 9
+y 5
+end
+arch grassdark
+x 9
+y 5
+end
+arch slevel_4
+x 9
+y 6
+end
+arch grassdark
+x 9
+y 6
+end
+arch grassdark
+x 9
+y 7
+end
+arch grassdark
+x 9
+y 8
+end
+arch fog
+x 9
+y 8
+end
+arch grassdark
+x 9
+y 9
+end
+arch grassdark
+x 9
+y 10
+end
+arch fog
+x 9
+y 10
+end
+arch grassdark
+x 9
+y 11
+end
+arch fog
+x 9
+y 11
+end
+arch grassdark
+x 9
+y 12
+end
+arch fog
+x 9
+y 12
+end
+arch grassdark
+x 9
+y 13
+end
+arch grassdark
+x 9
+y 14
+end
+arch grassdark
+x 9
+y 15
+end
+arch biglake_sn
+x 9
+y 15
+end
+arch grassdark
+x 10
+end
+arch biglake_sn
+x 10
+end
+arch grassdark
+x 10
+y 1
+end
+arch grassdark
+x 10
+y 2
+end
+arch grassdark
+x 10
+y 3
+end
+arch grassdark
+x 10
+y 4
+end
+arch fog
+x 10
+y 4
+end
+arch slevel_4
+x 10
+y 5
+end
+arch grassdark
+x 10
+y 5
+end
+arch slevel_4
+x 10
+y 6
+end
+arch grassdark
+x 10
+y 6
+end
+arch grassdark
+x 10
+y 7
+end
+arch grassdark
+x 10
+y 8
+end
+arch grassdark
+x 10
+y 9
+end
+arch fog
+x 10
+y 9
+end
+arch grassdark
+x 10
+y 10
+end
+arch grassdark
+x 10
+y 11
+end
+arch grassdark
+x 10
+y 12
+end
+arch fog
+x 10
+y 12
+end
+arch grassdark
+x 10
+y 13
+end
+arch fog
+x 10
+y 13
+end
+arch grassdark
+x 10
+y 14
+end
+arch grassdark
+x 10
+y 15
+end
+arch biglake_sn
+x 10
+y 15
+end
+arch grassdark
+x 11
+end
+arch biglake_sn
+x 11
+end
+arch grassdark
+x 11
+y 1
+end
+arch fog
+x 11
+y 1
+end
+arch grassdark
+x 11
+y 2
+end
+arch grassdark
+x 11
+y 3
+end
+arch fog
+x 11
+y 3
+end
+arch grassdark
+x 11
+y 4
+end
+arch grassdark
+x 11
+y 5
+end
+arch grassdark
+x 11
+y 6
+end
+arch grassdark
+x 11
+y 7
+end
+arch grassdark
+x 11
+y 8
+end
+arch water_elemental
+x 11
+y 8
+end
+arch grassdark
+x 11
+y 9
+end
+arch fog
+x 11
+y 9
+end
+arch grassdark
+x 11
+y 10
+end
+arch fog
+x 11
+y 10
+end
+arch grassdark
+x 11
+y 11
+end
+arch grassdark
+x 11
+y 12
+end
+arch fog
+x 11
+y 12
+end
+arch grassdark
+x 11
+y 13
+end
+arch fog
+x 11
+y 13
+end
+arch grassdark
+x 11
+y 14
+end
+arch grassdark
+x 11
+y 15
+end
+arch biglake_sn
+x 11
+y 15
+end
+arch grassdark
+x 12
+end
+arch biglake_sn
+x 12
+end
+arch grassdark
+x 12
+y 1
+end
+arch grassdark
+x 12
+y 2
+end
+arch grassdark
+x 12
+y 3
+end
+arch fog
+x 12
+y 3
+end
+arch grassdark
+x 12
+y 4
+end
+arch fog
+x 12
+y 4
+end
+arch grassdark
+x 12
+y 5
+end
+arch fog
+x 12
+y 5
+end
+arch grassdark
+x 12
+y 6
+end
+arch fog
+x 12
+y 6
+end
+arch grassdark
+x 12
+y 7
+end
+arch grassdark
+x 12
+y 8
+end
+arch fog
+x 12
+y 8
+end
+arch grassdark
+x 12
+y 9
+end
+arch fog
+x 12
+y 9
+end
+arch grassdark
+x 12
+y 10
+end
+arch grassdark
+x 12
+y 11
+end
+arch fog
+x 12
+y 11
+end
+arch grassdark
+x 12
+y 12
+end
+arch grassdark
+x 12
+y 13
+end
+arch grassdark
+x 12
+y 14
+end
+arch water_elemental
+x 12
+y 14
+end
+arch grassdark
+x 12
+y 15
+end
+arch biglake_sn
+x 12
+y 15
+end
+arch grassdark
+x 13
+end
+arch biglake_sn
+x 13
+end
+arch grassdark
+x 13
+y 1
+end
+arch grassdark
+x 13
+y 2
+end
+arch grassdark
+x 13
+y 3
+end
+arch grassdark
+x 13
+y 4
+end
+arch grassdark
+x 13
+y 5
+end
+arch grassdark
+x 13
+y 6
+end
+arch grassdark
+x 13
+y 7
+end
+arch grassdark
+x 13
+y 8
+end
+arch grassdark
+x 13
+y 9
+end
+arch grassdark
+x 13
+y 10
+end
+arch grassdark
+x 13
+y 11
+end
+arch grassdark
+x 13
+y 12
+end
+arch grassdark
+x 13
+y 13
+end
+arch grassdark
+x 13
+y 14
+end
+arch grassdark
+x 13
+y 15
+end
+arch biglake_sn
+x 13
+y 15
+end
+arch grassdark
+x 14
+end
+arch biglake_sn
+x 14
+end
+arch grassdark
+x 14
+y 1
+end
+arch statue
+x 14
+y 1
+end
+arch grassdark
+x 14
+y 2
+end
+arch grassdark
+x 14
+y 3
+end
+arch water_elemental
+x 14
+y 3
+end
+arch grassdark
+x 14
+y 4
+end
+arch grassdark
+x 14
+y 5
+end
+arch grassdark
+x 14
+y 6
+end
+arch grassdark
+x 14
+y 7
+end
+arch grassdark
+x 14
+y 8
+end
+arch grassdark
+x 14
+y 9
+end
+arch grassdark
+x 14
+y 10
+end
+arch grassdark
+x 14
+y 11
+end
+arch grassdark
+x 14
+y 12
+end
+arch grassdark
+x 14
+y 13
+end
+arch grassdark
+x 14
+y 14
+end
+arch statue
+x 14
+y 14
+end
+arch grassdark
+x 14
+y 15
+end
+arch biglake_sn
+x 14
+y 15
+end
+arch grassdark
+x 15
+end
+arch biglake_ne
+x 15
+end
+arch grassdark
+x 15
+y 1
+end
+arch biglake_ew
+x 15
+y 1
+end
+arch grassdark
+x 15
+y 2
+end
+arch biglake_ew
+x 15
+y 2
+end
+arch grassdark
+x 15
+y 3
+end
+arch biglake_ew
+x 15
+y 3
+end
+arch grassdark
+x 15
+y 4
+end
+arch biglake_ew
+x 15
+y 4
+end
+arch grassdark
+x 15
+y 5
+end
+arch biglake_ew
+x 15
+y 5
+end
+arch grassdark
+x 15
+y 6
+end
+arch biglake_ew
+x 15
+y 6
+end
+arch grassdark
+x 15
+y 7
+end
+arch biglake_ew
+x 15
+y 7
+end
+arch grassdark
+x 15
+y 8
+end
+arch biglake_ew
+x 15
+y 8
+end
+arch grassdark
+x 15
+y 9
+end
+arch biglake_ew
+x 15
+y 9
+end
+arch grassdark
+x 15
+y 10
+end
+arch biglake_ew
+x 15
+y 10
+end
+arch grassdark
+x 15
+y 11
+end
+arch biglake_ew
+x 15
+y 11
+end
+arch grassdark
+x 15
+y 12
+end
+arch biglake_ew
+x 15
+y 12
+end
+arch grassdark
+x 15
+y 13
+end
+arch biglake_ew
+x 15
+y 13
+end
+arch grassdark
+x 15
+y 14
+end
+arch biglake_ew
+x 15
+y 14
+end
+arch grassdark
+x 15
+y 15
+end
+arch biglake_se
+x 15
+y 15
+end

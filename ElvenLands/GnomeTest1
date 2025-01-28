@@ -1,0 +1,1882 @@
+arch map
+name dtower
+msg
+Creator: CF Java Map Editor
+Date:    9/26/2002
+endmsg
+width 20
+height 20
+end
+arch blocked
+x 1
+y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
+x 2
+y 9
+end
+arch medium_stones
+x 2
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 10
+end
+arch medium_stones
+x 2
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 11
+end
+arch medium_stones
+x 2
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 12
+end
+arch medium_stones
+x 2
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 13
+end
+arch medium_stones
+x 2
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 14
+end
+arch medium_stones
+x 2
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 15
+end
+arch medium_stones
+x 2
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 16
+end
+arch medium_stones
+x 2
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 17
+end
+arch medium_stones
+x 2
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 18
+end
+arch medium_stones
+x 2
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 2
+y 19
+end
+arch blocked
+x 3
+y 9
+end
+arch medium_stones
+x 3
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 10
+end
+arch medium_stones
+x 3
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 11
+end
+arch medium_stones
+x 3
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 12
+end
+arch medium_stones
+x 3
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 13
+end
+arch medium_stones
+x 3
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 14
+end
+arch medium_stones
+x 3
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 15
+end
+arch medium_stones
+x 3
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 16
+end
+arch medium_stones
+x 3
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 17
+end
+arch medium_stones
+x 3
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 18
+end
+arch medium_stones
+x 3
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 3
+y 19
+end
+arch blocked
+x 4
+y 9
+end
+arch medium_stones
+x 4
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 10
+end
+arch medium_stones
+x 4
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 11
+end
+arch medium_stones
+x 4
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 12
+end
+arch medium_stones
+x 4
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 13
+end
+arch medium_stones
+x 4
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 14
+end
+arch medium_stones
+x 4
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 15
+end
+arch medium_stones
+x 4
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 16
+end
+arch medium_stones
+x 4
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 17
+end
+arch medium_stones
+x 4
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 18
+end
+arch medium_stones
+x 4
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 4
+y 19
+end
+arch teleporter
+hp 6
+sp 14
+x 5
+y 2
+end
+arch teleporter
+invisible 1
+hp 18
+sp 8
+connected 85
+speed 0.0
+x 5
+y 2
+end
+arch stoneblock
+name flame
+face ruggilli.111
+speed 1.1
+type 0
+animation Ruggilli
+is_animated 1
+x 5
+y 2
+end
+arch blocked
+x 5
+y 9
+end
+arch medium_stones
+x 5
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 10
+end
+arch medium_stones
+x 5
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 11
+end
+arch medium_stones
+x 5
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 12
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 5
+y 13
+end
+arch medium_stones
+x 5
+y 13
+end
+arch creator
+other_arch enchantment
+connected 95
+slaying fallen debri
+x 5
+y 13
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 5
+y 14
+end
+arch medium_stones
+x 5
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 14
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 5
+y 15
+end
+arch medium_stones
+x 5
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 15
+end
+arch medium_stones
+x 5
+y 16
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 5
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 16
+end
+arch creator
+other_arch enchantment
+connected 95
+slaying fallen debri
+x 5
+y 16
+end
+arch medium_stones
+x 5
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 17
+end
+arch medium_stones
+x 5
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 18
+end
+arch medium_stones
+x 5
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 5
+y 19
+end
+arch blocked
+x 6
+y 9
+end
+arch medium_stones
+x 6
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 10
+end
+arch medium_stones
+x 6
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 11
+end
+arch medium_stones
+x 6
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 12
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 6
+y 13
+end
+arch medium_stones
+x 6
+y 13
+end
+arch creator
+other_arch enchantment
+connected 95
+slaying fallen debri
+x 6
+y 13
+end
+arch medium_stones
+x 6
+y 14
+end
+arch medium_stones
+x 6
+y 15
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 6
+y 16
+end
+arch medium_stones
+x 6
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 16
+end
+arch medium_stones
+x 6
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 17
+end
+arch medium_stones
+x 6
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 18
+end
+arch medium_stones
+x 6
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 6
+y 19
+end
+arch blocked
+x 7
+y 9
+end
+arch medium_stones
+x 7
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 10
+end
+arch medium_stones
+x 7
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 11
+end
+arch medium_stones
+x 7
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 12
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+invisible 1
+x 7
+y 13
+end
+arch medium_stones
+x 7
+y 13
+end
+arch creator
+other_arch wall_1_1
+connected 95
+slaying fallen debri
+x 7
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 13
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 7
+y 14
+end
+arch medium_stones
+x 7
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 14
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 7
+y 15
+end
+arch medium_stones
+x 7
+y 15
+end
+arch creator
+other_arch enchantment
+connected 95
+slaying fallen debri
+x 7
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 15
+end
+arch medium_stones
+x 7
+y 16
+end
+arch pedestal_trigger
+walk_off 0
+connected 5
+invisible 1
+x 7
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 16
+end
+arch medium_stones
+x 7
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 17
+end
+arch medium_stones
+x 7
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 18
+end
+arch medium_stones
+x 7
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 7
+y 19
+end
+arch blocked
+x 8
+y 9
+end
+arch medium_stones
+x 8
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 10
+end
+arch medium_stones
+x 8
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 11
+end
+arch medium_stones
+x 8
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 12
+end
+arch medium_stones
+x 8
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 13
+end
+arch medium_stones
+x 8
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 14
+end
+arch medium_stones
+x 8
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 15
+end
+arch medium_stones
+x 8
+y 16
+end
+arch creator
+other_arch wall_1_1
+connected 95
+slaying fallen debri
+x 8
+y 16
+end
+arch medium_stones
+x 8
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 17
+end
+arch medium_stones
+x 8
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 18
+end
+arch medium_stones
+x 8
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 8
+y 19
+end
+arch blocked
+x 9
+y 9
+end
+arch medium_stones
+x 9
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 10
+end
+arch medium_stones
+x 9
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 11
+end
+arch medium_stones
+x 9
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 12
+end
+arch medium_stones
+x 9
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 13
+end
+arch medium_stones
+x 9
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 14
+end
+arch medium_stones
+x 9
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 15
+end
+arch medium_stones
+x 9
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 16
+end
+arch medium_stones
+x 9
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 17
+end
+arch medium_stones
+x 9
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 18
+end
+arch medium_stones
+x 9
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 9
+y 19
+end
+arch shrine
+face ruined_tower.111
+x 10
+y 2
+end
+arch blocked
+x 10
+y 9
+end
+arch medium_stones
+x 10
+y 10
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 10
+end
+arch medium_stones
+x 10
+y 11
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 11
+end
+arch medium_stones
+x 10
+y 12
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 12
+end
+arch medium_stones
+x 10
+y 13
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 13
+end
+arch medium_stones
+x 10
+y 14
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 14
+end
+arch medium_stones
+x 10
+y 15
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 15
+end
+arch medium_stones
+x 10
+y 16
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 16
+end
+arch medium_stones
+x 10
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 17
+end
+arch medium_stones
+x 10
+y 18
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 18
+end
+arch medium_stones
+x 10
+y 19
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 10
+y 19
+end
+arch blocked
+x 11
+y 9
+end
+arch medium_stones
+x 11
+y 10
+end
+arch medium_stones
+x 11
+y 11
+end
+arch medium_stones
+x 11
+y 12
+end
+arch medium_stones
+x 11
+y 13
+end
+arch medium_stones
+x 11
+y 14
+end
+arch medium_stones
+x 11
+y 15
+end
+arch medium_stones
+x 11
+y 16
+end
+arch medium_stones
+x 11
+y 17
+end
+arch medium_stones
+x 11
+y 18
+end
+arch medium_stones
+x 11
+y 19
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
+end
+arch blocked
+x 12
+y 2
+end
+arch blocked
+x 12
+y 3
+end
+arch blocked
+x 12
+y 4
+end
+arch blocked
+x 12
+y 5
+end
+arch blocked
+x 12
+y 6
+end
+arch blocked
+x 12
+y 7
+end
+arch blocked
+x 12
+y 8
+end
+arch blocked
+x 12
+y 9
+end
+arch blocked
+x 12
+y 10
+end
+arch blocked
+x 12
+y 11
+end
+arch blocked
+x 12
+y 12
+end
+arch blocked
+x 12
+y 13
+end
+arch blocked
+x 12
+y 14
+end
+arch blocked
+x 12
+y 15
+end
+arch blocked
+x 12
+y 16
+end
+arch blocked
+x 12
+y 17
+end
+arch blocked
+x 12
+y 18
+end
+arch blocked
+x 12
+y 19
+end
+arch spikes_open
+connected 25
+no_pass 0
+x 13
+end
+arch boulder
+x 13
+end
+arch button_plate
+connected 30
+walk_off 0
+x 13
+y 1
+end
+arch spikes_open
+connected 30
+no_pass 0
+x 13
+y 1
+end
+arch button_plate
+connected 35
+walk_off 0
+x 13
+y 2
+end
+arch spikes_open
+connected 35
+no_pass 0
+x 13
+y 2
+end
+arch button_plate
+connected 40
+walk_off 0
+x 13
+y 3
+end
+arch spikes_open
+connected 40
+no_pass 0
+x 13
+y 3
+end
+arch button_plate
+connected 45
+walk_off 0
+x 13
+y 4
+end
+arch spikes_open
+connected 45
+no_pass 0
+x 13
+y 4
+end
+arch button_plate
+connected 50
+walk_off 0
+x 13
+y 5
+end
+arch spikes_open
+connected 50
+no_pass 0
+x 13
+y 5
+end
+arch button_plate
+connected 55
+walk_off 0
+x 13
+y 6
+end
+arch spikes_open
+connected 55
+no_pass 0
+x 13
+y 6
+end
+arch button_plate
+connected 60
+walk_off 0
+x 13
+y 7
+end
+arch spikes_open
+connected 60
+no_pass 0
+x 13
+y 7
+end
+arch button_plate
+connected 65
+walk_off 0
+x 13
+y 8
+end
+arch spikes_open
+connected 65
+no_pass 0
+x 13
+y 8
+end
+arch button_plate
+connected 70
+walk_off 0
+x 13
+y 9
+end
+arch spikes_open
+connected 70
+no_pass 0
+x 13
+y 9
+end
+arch button_plate
+connected 75
+walk_off 0
+x 13
+y 10
+end
+arch spikes_open
+connected 75
+no_pass 0
+x 13
+y 10
+end
+arch button_plate
+connected 80
+walk_off 0
+x 13
+y 11
+end
+arch spikes_open
+connected 80
+no_pass 0
+x 13
+y 11
+end
+arch button_plate
+connected 85
+walk_off 0
+x 13
+y 12
+end
+arch spikes_open
+connected 85
+no_pass 0
+x 13
+y 12
+end
+arch blocked
+x 13
+y 13
+end
+arch blocked
+x 13
+y 16
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
+x 14
+y 3
+end
+arch blocked
+x 14
+y 4
+end
+arch blocked
+x 14
+y 5
+end
+arch blocked
+x 14
+y 6
+end
+arch blocked
+x 14
+y 7
+end
+arch blocked
+x 14
+y 8
+end
+arch blocked
+x 14
+y 9
+end
+arch blocked
+x 14
+y 10
+end
+arch blocked
+x 14
+y 11
+end
+arch button_plate
+connected 90
+walk_off 0
+x 14
+y 12
+end
+arch spikes_open
+connected 90
+no_pass 0
+x 14
+y 12
+end
+arch blocked
+x 14
+y 13
+end
+arch blocked
+x 14
+y 14
+end
+arch blocked
+x 14
+y 15
+end
+arch blocked
+x 14
+y 16
+end
+arch blocked
+x 14
+y 17
+end
+arch button_plate
+connected 95
+walk_off 0
+x 15
+y 12
+end
+arch spikes_open
+connected 95
+no_pass 0
+x 15
+y 12
+end
+arch blocked
+x 15
+y 13
+end
+arch spikes_open
+connected 5
+no_pass 0
+x 15
+y 14
+end
+arch boulder
+x 15
+y 14
+end
+arch button_plate
+connected 10
+x 15
+y 15
+end
+arch spikes_open
+connected 10
+no_pass 0
+x 15
+y 15
+end
+arch button_small
+connected 15
+x 15
+y 16
+end
+arch magic_mouth
+msg
+The Dark Gnome Tower is burning!
+endmsg
+connected 15
+walk_on 0
+fly_on 0
+x 15
+y 16
+end
+arch blocked
+x 15
+y 17
+end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch blocked
+x 16
+y 3
+end
+arch blocked
+x 16
+y 4
+end
+arch blocked
+x 16
+y 5
+end
+arch blocked
+x 16
+y 6
+end
+arch blocked
+x 16
+y 7
+end
+arch blocked
+x 16
+y 8
+end
+arch blocked
+x 16
+y 9
+end
+arch blocked
+x 16
+y 10
+end
+arch blocked
+x 16
+y 11
+end
+arch blocked
+x 16
+y 12
+end
+arch blocked
+x 16
+y 13
+end
+arch blocked
+x 16
+y 14
+end
+arch blocked
+x 16
+y 15
+end
+arch blocked
+x 16
+y 16
+end
+arch blocked
+x 16
+y 17
+end
+arch creator
+other_arch explosion
+connected 85
+hp 4
+slaying explosion
+x 16
+y 19
+end
+arch blocked
+x 17
+y 13
+end
+arch spikes_open
+connected 15
+no_pass 0
+x 17
+y 14
+end
+arch boulder
+x 17
+y 14
+end
+arch button_plate
+connected 20
+x 17
+y 15
+end
+arch spikes_open
+connected 20
+no_pass 0
+x 17
+y 15
+end
+arch button_small
+msg
+The tower is going to blow!
+endmsg
+connected 25
+x 17
+y 16
+end
+arch magic_mouth
+msg
+Run!! The tower is going to expload!
+endmsg
+connected 25
+walk_on 0
+fly_on 0
+x 17
+y 16
+end
+arch blocked
+x 17
+y 17
+end
+arch blocked
+x 18
+y 13
+end
+arch blocked
+x 18
+y 14
+end
+arch blocked
+x 18
+y 15
+end
+arch blocked
+x 18
+y 16
+end
+arch blocked
+x 18
+y 17
+end
+arch pentagram_111
+invisible 1
+hp 18
+sp 4
+connected 85
+end
+arch ruined_tower
+x 1
+y 1
+end
+arch pentagram_111
+invisible 1
+hp 18
+sp 4
+connected 85
+x 4
+y 6
+end
+arch ruined_tower
+x 5
+y 7
+end
+arch pentagram_111
+invisible 1
+hp 18
+sp 4
+connected 80
+x 5
+y 13
+end
+arch city_tower
+x 6
+y 14
+end
+arch ruined_tower
+x 9
+y 5
+end
