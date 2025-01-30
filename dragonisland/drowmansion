@@ -408,8 +408,10 @@ x 3
 y 13
 end
 arch wand
+food 10
 x 3
 y 13
+level 3
 randomitems none
 arch spell_magic_bullet
 end
@@ -926,8 +928,10 @@ x 7
 y 13
 end
 arch wand
+food 10
 x 7
 y 13
+level 3
 randomitems none
 arch spell_magic_bullet
 end
