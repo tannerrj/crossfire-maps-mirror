@@ -8,7 +8,7 @@ enter_x 3
 enter_y 10
 msg
 Created:  1997-06-18 Viola Krings
-Modified: 2014-10-04 Kevin Zheng
+Modified: 2025-01-30 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -171,7 +171,7 @@ arch grass_only
 x 2
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 2
 end
@@ -179,7 +179,7 @@ arch bwall_2_2_2
 x 2
 y 2
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 3
 end
@@ -187,7 +187,7 @@ arch bwall_2_1_1
 x 2
 y 3
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 4
 end
@@ -195,7 +195,7 @@ arch bwall_2_1_1
 x 2
 y 4
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 5
 end
@@ -203,7 +203,7 @@ arch bwall_2_1_1
 x 2
 y 5
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 6
 end
@@ -211,7 +211,7 @@ arch bwall_2_1_1
 x 2
 y 6
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 7
 end
@@ -219,7 +219,7 @@ arch bwall_2_1_1
 x 2
 y 7
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 8
 end
@@ -227,7 +227,7 @@ arch bwall_2_1_1
 x 2
 y 8
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 9
 end
@@ -235,7 +235,7 @@ arch bwall_1_2
 x 2
 y 9
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 10
 end
@@ -247,7 +247,7 @@ x 2
 y 10
 move_on all
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 11
 end
@@ -255,7 +255,7 @@ arch bwall_1_1
 x 2
 y 11
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 12
 end
@@ -263,7 +263,7 @@ arch bwall_2_1_1
 x 2
 y 12
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 13
 end
@@ -271,7 +271,7 @@ arch bwall_2_1_1
 x 2
 y 13
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 14
 end
@@ -279,7 +279,7 @@ arch bwall_2_1_1
 x 2
 y 14
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 15
 end
@@ -287,7 +287,7 @@ arch bwall_2_1_1
 x 2
 y 15
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 16
 end
@@ -295,7 +295,7 @@ arch bwall_2_1_1
 x 2
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 2
 y 17
 end
@@ -318,7 +318,7 @@ arch grass_only
 x 3
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 3
 y 2
 end
@@ -450,7 +450,7 @@ arch generate_beholder
 x 3
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 3
 y 17
 end
@@ -473,7 +473,7 @@ arch grass_only
 x 4
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 4
 y 2
 end
@@ -577,7 +577,7 @@ arch random_treasure
 x 4
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 4
 y 17
 end
@@ -600,7 +600,7 @@ arch grass_only
 x 5
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 5
 y 2
 end
@@ -696,7 +696,7 @@ arch chest
 x 5
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 5
 y 17
 end
@@ -719,7 +719,7 @@ arch grass_only
 x 6
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 6
 y 2
 end
@@ -823,7 +823,7 @@ arch chest
 x 6
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 6
 y 17
 end
@@ -846,7 +846,7 @@ arch grass_only
 x 7
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 7
 y 2
 end
@@ -956,7 +956,7 @@ arch chest
 x 7
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 7
 y 17
 end
@@ -979,7 +979,7 @@ arch grass_only
 x 8
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 8
 y 2
 end
@@ -1097,7 +1097,7 @@ arch bwall_0
 x 8
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 8
 y 17
 end
@@ -1120,7 +1120,7 @@ arch grass_only
 x 9
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 9
 y 2
 end
@@ -1220,7 +1220,7 @@ arch random_shield
 x 9
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 9
 y 17
 end
@@ -1243,7 +1243,7 @@ arch grass_only
 x 10
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 10
 y 2
 end
@@ -1365,7 +1365,7 @@ arch mouse
 x 10
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 10
 y 17
 end
@@ -1388,7 +1388,7 @@ arch grass_only
 x 11
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 11
 y 2
 end
@@ -1510,7 +1510,7 @@ arch mouse
 x 11
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 11
 y 17
 end
@@ -1533,7 +1533,7 @@ arch grass_only
 x 12
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 12
 y 2
 end
@@ -1647,7 +1647,7 @@ arch mouse
 x 12
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 12
 y 17
 end
@@ -1670,7 +1670,7 @@ arch grass_only
 x 13
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 13
 y 2
 end
@@ -1792,7 +1792,7 @@ arch bwall_0
 x 13
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 13
 y 17
 end
@@ -1815,7 +1815,7 @@ arch grass_only
 x 14
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 14
 y 2
 end
@@ -1907,7 +1907,7 @@ arch generate_gnoll
 x 14
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 14
 y 17
 end
@@ -1930,7 +1930,7 @@ arch grass_only
 x 15
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 15
 y 2
 end
@@ -2026,7 +2026,7 @@ arch ogre
 x 15
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 15
 y 17
 end
@@ -2049,7 +2049,7 @@ arch grass_only
 x 16
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 16
 y 2
 end
@@ -2141,7 +2141,7 @@ arch generate_ogre
 x 16
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 16
 y 17
 end
@@ -2164,7 +2164,7 @@ arch grass_only
 x 17
 y 1
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 2
 end
@@ -2172,7 +2172,7 @@ arch bwall_2_2_3
 x 17
 y 2
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 3
 end
@@ -2180,7 +2180,7 @@ arch bwall_2_1_1
 x 17
 y 3
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 4
 end
@@ -2188,7 +2188,7 @@ arch bwall_2_1_1
 x 17
 y 4
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 5
 end
@@ -2196,7 +2196,7 @@ arch bwall_2_1_1
 x 17
 y 5
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 6
 end
@@ -2204,7 +2204,7 @@ arch bwall_2_1_1
 x 17
 y 6
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 7
 end
@@ -2212,7 +2212,7 @@ arch bwall_2_1_1
 x 17
 y 7
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 8
 end
@@ -2220,7 +2220,7 @@ arch bwall_2_1_1
 x 17
 y 8
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 9
 end
@@ -2228,7 +2228,7 @@ arch bwall_2_1_1
 x 17
 y 9
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 10
 end
@@ -2236,7 +2236,7 @@ arch bwall_2_1_1
 x 17
 y 10
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 11
 end
@@ -2244,7 +2244,7 @@ arch bwall_2_1_1
 x 17
 y 11
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 12
 end
@@ -2252,7 +2252,7 @@ arch bwall_2_1_1
 x 17
 y 12
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 13
 end
@@ -2260,7 +2260,7 @@ arch bwall_2_1_1
 x 17
 y 13
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 14
 end
@@ -2268,7 +2268,7 @@ arch bwall_2_1_1
 x 17
 y 14
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 15
 end
@@ -2276,7 +2276,7 @@ arch bwall_2_1_1
 x 17
 y 15
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 16
 end
@@ -2284,7 +2284,7 @@ arch bwall_2_1_1
 x 17
 y 16
 end
-arch dirtfloor
+arch flagstone
 x 17
 y 17
 end
