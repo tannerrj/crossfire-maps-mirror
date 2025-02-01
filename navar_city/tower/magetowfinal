@@ -8,7 +8,7 @@ enter_x 4
 enter_y 2
 msg
 Created: 1993-11-01
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-02-01 Kevin Zheng
 endmsg
 reset_group navar_spiral-tower
 end
@@ -4210,6 +4210,11 @@ y 4
 level 15
 carrying 20000
 arch darkblade
+end
+arch event_death
+name navar/morkov 0-50>60
+title Python
+slaying /python/quests/QuestAdvance.py
 end
 end
 arch cobblestones

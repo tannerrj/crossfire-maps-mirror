@@ -207,3 +207,38 @@ end_description
 end_step
 end_quest
 
+quest navar/morkov
+title Morkov's Tower
+face wizard_tower.x13
+step 10
+description
+Morkov, the former Wizard of Navar, has been causing problems. I should talk to the Navar City Council and offer to deal with Markov.
+end_description
+end_step
+step 20
+description
+Kurte, the Court Master, tells me to talk to Wizzo.
+end_description
+end_step
+step 30
+description
+Wizzo told me to go find Markov in Navar's prison.
+end_description
+end_step
+step 40
+description
+I found Morkov's body in an unnatural state and a note promising vengance against Kurte. Perhaps I should now investigate the tower.
+end_description
+end_step
+step 50
+description
+I answered all three questions to gain entrance to Markov's Tower.
+end_description
+end_step
+step 60
+finishes_quest
+description
+I killed Markov and retrieved his sword.
+end_description
+end_step
+end_quest
