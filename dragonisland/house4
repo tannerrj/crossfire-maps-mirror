@@ -8,7 +8,7 @@ enter_x 4
 enter_y 4
 msg
 Created:  1997-06-17
-Modified: 2023-11-23 Rick Tanner
+Modified: 2025-02-01 Rick Tanner
 endmsg
 end
 arch grass
@@ -343,7 +343,7 @@ arch grass
 x 3
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 3
 end
@@ -351,7 +351,7 @@ arch wall_2_2_2
 x 3
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 4
 end
@@ -359,7 +359,7 @@ arch wall_2_1_1
 x 3
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 5
 end
@@ -367,7 +367,7 @@ arch wall_2_1_1
 x 3
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 6
 end
@@ -375,7 +375,7 @@ arch wall_2_1_1
 x 3
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 7
 end
@@ -383,7 +383,7 @@ arch wall_2_1_1
 x 3
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 8
 end
@@ -391,7 +391,7 @@ arch wall_2_1_1
 x 3
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 9
 end
@@ -399,7 +399,7 @@ arch wall_2_1_1
 x 3
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 10
 end
@@ -407,7 +407,7 @@ arch wall_2_1_1
 x 3
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 11
 end
@@ -415,7 +415,7 @@ arch wall_2_1_1
 x 3
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 12
 end
@@ -423,7 +423,7 @@ arch wall_2_1_1
 x 3
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 13
 end
@@ -431,7 +431,7 @@ arch wall_2_1_1
 x 3
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 14
 end
@@ -439,7 +439,7 @@ arch wall_2_1_1
 x 3
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 15
 end
@@ -447,7 +447,7 @@ arch wall_2_1_1
 x 3
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 16
 end
@@ -489,7 +489,7 @@ arch grass
 x 4
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 3
 end
@@ -545,7 +545,7 @@ arch cobblestones2
 x 4
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 16
 end
@@ -587,7 +587,7 @@ arch grass
 x 5
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 3
 end
@@ -643,7 +643,7 @@ arch cobblestones2
 x 5
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 16
 end
@@ -685,7 +685,7 @@ arch tree3
 x 6
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 3
 end
@@ -741,7 +741,7 @@ arch cobblestones2
 x 6
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 16
 end
@@ -779,7 +779,7 @@ arch grass
 x 7
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 3
 end
@@ -855,7 +855,7 @@ arch cobblestones2
 x 7
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 16
 end
@@ -901,7 +901,7 @@ arch flowers_permanent
 x 8
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 3
 end
@@ -1005,7 +1005,7 @@ arch cobblestones2
 x 8
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 16
 end
@@ -1046,7 +1046,7 @@ arch flagstone
 x 9
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 3
 end
@@ -1115,7 +1115,7 @@ arch cobblestones2
 x 9
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 16
 end
@@ -1161,7 +1161,7 @@ arch flowers_permanent
 x 10
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 3
 end
@@ -1225,7 +1225,7 @@ arch cobblestones2
 x 10
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 16
 end
@@ -1263,7 +1263,7 @@ arch grass
 x 11
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 3
 end
@@ -1367,7 +1367,7 @@ arch wall_1_1
 x 11
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 16
 end
@@ -1409,7 +1409,7 @@ arch tree3
 x 12
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 3
 end
@@ -1465,7 +1465,7 @@ arch cobblestones2
 x 12
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 16
 end
@@ -1507,7 +1507,7 @@ arch grass
 x 13
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 3
 end
@@ -1563,7 +1563,7 @@ arch cobblestones2
 x 13
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 16
 end
@@ -1605,7 +1605,7 @@ arch grass
 x 14
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 3
 end
@@ -1661,7 +1661,7 @@ arch cobblestones2
 x 14
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 16
 end
@@ -1703,7 +1703,7 @@ arch grass
 x 15
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 3
 end
@@ -1759,7 +1759,7 @@ arch cobblestones2
 x 15
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 16
 end
@@ -1801,7 +1801,7 @@ arch grass
 x 16
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 3
 end
@@ -1809,7 +1809,7 @@ arch wall_2_2_3
 x 16
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 4
 end
@@ -1817,7 +1817,7 @@ arch wall_2_1_1
 x 16
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 5
 end
@@ -1825,7 +1825,7 @@ arch wall_2_1_1
 x 16
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 6
 end
@@ -1833,7 +1833,7 @@ arch wall_2_1_1
 x 16
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 7
 end
@@ -1841,7 +1841,7 @@ arch wall_2_1_1
 x 16
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 8
 end
@@ -1849,7 +1849,7 @@ arch wall_2_1_1
 x 16
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 9
 end
@@ -1857,7 +1857,7 @@ arch wall_2_1_1
 x 16
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 10
 end
@@ -1865,7 +1865,7 @@ arch wall_2_1_1
 x 16
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 11
 end
@@ -1873,7 +1873,7 @@ arch wall_2_1_1
 x 16
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 12
 end
@@ -1881,7 +1881,7 @@ arch wall_2_1_1
 x 16
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 13
 end
@@ -1889,7 +1889,7 @@ arch wall_2_1_1
 x 16
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 14
 end
@@ -1897,7 +1897,7 @@ arch wall_2_1_1
 x 16
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 15
 end
@@ -1905,7 +1905,7 @@ arch wall_2_1_1
 x 16
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 16
 end
