@@ -15,7 +15,7 @@ enter_x 38
 enter_y 22
 msg
 Created:  1993-11-02
-Modified: 2012-05-20 Rick Tanner
+Modified: 2025-02-01 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -1585,6 +1585,17 @@ x 10
 y 13
 end
 arch sage
+name Wizzo
+msg
+@match dead|morkov|quest
+Oh, you are taking on that quest, well good luck adventurer, you will need your wits and sword behind you all the way.  All I really know is that strange things have been happening in the tower. I have seen lights flicker from the windows.
+@match tower
+Yes, well it is susposed to be my tower, but I do not use it.  It belonged to the old High Wizard, but he was chained in the Prison, I do not know where he lies within.
+@match light
+Yes, strange lights have been seen from the tower, this might be of some importance, but I do not visit the tower at all.
+@match *
+Sorry I am a little busy with my inventory, if you will give me a moment I will be right with you.
+endmsg
 x 10
 y 13
 end
