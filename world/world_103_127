@@ -4,7 +4,7 @@ region stoneville
 width 50
 height 50
 msg
-Modified: 2024-12-31 Rick Tanner
+Modified: 2025-02-01 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_103_126
@@ -570,6 +570,7 @@ arch house_small
 name Myrnek's house
 slaying /dragonisland/house4
 hp 9
+sp 1
 x 2
 y 18
 end
