@@ -7,7 +7,7 @@ enter_x 29
 enter_y 22
 msg
 Created: 2012-04-12 Rick Tanner
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-02-03 Rick Tanner
 endmsg
 reset_group navar_church_of_valkyrie
 end
@@ -5759,10 +5759,6 @@ arch flagstone
 x 23
 y 11
 end
-arch behemoth
-x 23
-y 11
-end
 arch flagstone
 x 23
 y 12
@@ -5975,6 +5971,10 @@ x 24
 y 10
 end
 arch flagstone
+x 24
+y 11
+end
+arch sphinx
 x 24
 y 11
 end
