@@ -48,18 +48,42 @@ import random
 
 location = "defaultdialognamespace"
 
-def parseJSON(filename, relpath):
+def parseJSONstr(s, relpath=''):
     global location
+    params = cjson.decode(s)
     parameters = []
+    if "location" in params:
+        location = params["location"]
+    for jsonRule in params["rules"]:
+        if "include" in jsonRule:
+            shouldinclude = 0
+            if "pre" in jsonRule:
+                incldialog = Dialog(player, npc, location)
+                inclrule = IncludeRule(jsonRule["pre"])
+                # There will only ever be one 'pre' block for an include
+                shouldinclude = incldialog.matchConditions(inclrule)
+            else:
+                shouldinclude =1
+            newfiles = jsonRule["include"]
+            if shouldinclude == 1:
+                # this isn't a 'real' rule, so we don't include it, but we do
+                # include the results of parsing it.
+                parameters.extend(parseJSON(newfiles, relpath))
+            else:
+                Crossfire.Log(Crossfire.LogDebug, "Ignoring NPC dialog from %s, conditions not met" % newfiles)
+        else:
+            parameters.append(jsonRule)
+    return parameters
+
+def parseJSON(filename, relpath):
     for filenm in filename:
         if filenm[0] == "/":
-            filepath = os.path.join(Crossfire.DataDirectory(),
-                            Crossfire.MapDirectory(), filenm[1:])
+            filepath = os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), filenm[1:])
         elif relpath != '':
             filepath = os.path.join(relpath, filenm)
         else:
-            filepath = os.path.join(Crossfire.DataDirectory(),
-                            Crossfire.MapDirectory(), relpath, filenm)
+            filepath = os.path.join(Crossfire.DataDirectory(), Crossfire.MapDirectory(), filenm)
+
         try:
             f = open(filepath,'rb')
         except:
@@ -67,37 +91,20 @@ def parseJSON(filename, relpath):
             raise
         else:
             Crossfire.Log(Crossfire.LogDebug, "Loading NPC dialog %s" % filepath)
-            params = cjson.decode(f.read())
+            params = parseJSONstr(f.read(), relpath=os.path.dirname(filepath))
             f.close()
-        if "location" in params:
-            location = params["location"]
-        for jsonRule in params["rules"]:
-            if "include" in jsonRule:
-                shouldinclude = 0
-                if "pre" in jsonRule:
-                    incldialog = Dialog(player, npc, location)
-                    inclrule = IncludeRule(jsonRule["pre"])
-                    # There will only ever be one 'pre' block for an include
-                    shouldinclude = incldialog.matchConditions(inclrule)
-                else:
-                    shouldinclude =1
-                newfiles = jsonRule["include"]
-                if shouldinclude == 1:
-                    # this isn't a 'real' rule, so we don't include it, but we do
-                    # include the results of parsing it.
-                    parameters.extend(parseJSON(newfiles, os.path.dirname(filepath)))
-                else:
-                    Crossfire.Log(Crossfire.LogDebug, "Ignoring NPC dialog from %s, conditions not met" % newfiles)
-            else:
-                parameters.append(jsonRule)
-    return parameters
+            return params
 
 npc = Crossfire.WhoAmI()
 #event = Crossfire.WhatIsEvent()
 player = Crossfire.WhoIsActivator()
-if (Crossfire.ScriptParameters() != None):
-    filename = Crossfire.ScriptParameters()
-    dialogs = parseJSON([filename], '')
+params = Crossfire.ScriptParameters()
+if params != 'npc_dialog': # when script option is blank, it takes the arch name
+    # parse dialog from file path
+    dialogs = parseJSON([params], '')
+else:
+    # parse dialog from message field
+    dialogs = parseJSONstr(npc.Message)
 speech = Dialog(player, npc, location)
 index = 0
 
