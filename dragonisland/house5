@@ -8,7 +8,7 @@ enter_x 14
 enter_y 16
 msg
 Created:  1997-06-17 Viola Krings
-Modified: 2012-06-04 Rick Tanner
+Modified: 2025-02-03 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1086,8 +1086,10 @@ x 9
 y 3
 end
 arch staff
+food 12
 x 9
 y 3
+level 1
 randomitems none
 arch spell_magic_bullet
 end
