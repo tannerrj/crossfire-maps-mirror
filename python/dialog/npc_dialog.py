@@ -109,14 +109,11 @@ speech = Dialog(player, npc, location)
 index = 0
 
 for jsonRule in dialogs:
-    replies = None
-    if 'replies' in jsonRule:
-        replies = jsonRule['replies']
     rule = DialogRule(jsonRule["match"],
-                      jsonRule["pre"],
+                      jsonRule.get("pre", []),
                       jsonRule["msg"],
-                      jsonRule["post"],
-                      replies)
+                      jsonRule.get("post", []),
+                      jsonRule.get("replies", None))
     speech.addRule(rule, index)
     index = index + 1
 
