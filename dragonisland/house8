@@ -8,7 +8,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  1997-09-12
-Modified: 2023-12-03 Rick Tanner
+Modified: 2025-02-06 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -270,6 +270,7 @@ x 3
 y 10
 end
 arch bad_cauldron
+Str 0
 x 3
 y 10
 end
