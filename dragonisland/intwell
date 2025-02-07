@@ -8,7 +8,7 @@ enter_x 2
 enter_y 22
 msg
 Created:  1997-06-17 Viola Krings
-Modified: 2023-05-31 Rick Tanner
+Modified: 2025-02-07 Rick Tanner
 endmsg
 end
 arch cave_15
@@ -4574,8 +4574,10 @@ x 23
 y 22
 end
 arch wand
+food 15
 x 23
 y 22
+level 5
 randomitems none
 arch spell_magic_bullet
 end
@@ -5380,10 +5382,6 @@ end
 arch dirtfloor
 x 28
 y 2
-end
-arch dirtfloor
-x 28
-y 3
 end
 arch dirtfloor
 x 28
