@@ -8,7 +8,7 @@ enter_x 7
 enter_y 8
 msg
 Created:  2013-03-19 Kevin Zheng
-Modified: 2021-08-01 Andreas Kirschbaum
+Modified: 2025-02-09 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -17,55 +17,55 @@ end
 arch cobblestones2
 y 1
 end
-arch woodfloor
+arch flagstone
 y 2
 end
 arch wwall_2_2_2
 y 2
 end
-arch woodfloor
+arch flagstone
 y 3
 end
 arch wwall_2_1_1
 y 3
 end
-arch woodfloor
+arch flagstone
 y 4
 end
 arch wwall_3_2
 y 4
 end
-arch woodfloor
+arch flagstone
 y 5
 end
 arch wwall_2_1_1
 y 5
 end
-arch woodfloor
+arch flagstone
 y 6
 end
 arch wwall_3_2
 y 6
 end
-arch woodfloor
+arch flagstone
 y 7
 end
 arch wwall_2_1_1
 y 7
 end
-arch woodfloor
+arch flagstone
 y 8
 end
 arch wwall_3_2
 y 8
 end
-arch woodfloor
+arch flagstone
 y 9
 end
 arch wwall_2_1_1
 y 9
 end
-arch woodfloor
+arch flagstone
 y 10
 end
 arch wwall_2_2_1
@@ -81,7 +81,7 @@ arch cobblestones2
 x 1
 y 1
 end
-arch woodfloor
+arch flagstone
 x 1
 y 2
 end
@@ -137,7 +137,7 @@ y 9
 connected 3
 lifesave 1
 end
-arch woodfloor
+arch flagstone
 x 1
 y 10
 end
@@ -156,7 +156,7 @@ arch cobblestones2
 x 2
 y 1
 end
-arch woodfloor
+arch flagstone
 x 2
 y 2
 end
@@ -228,7 +228,7 @@ y 9
 last_sp 1
 connected 3
 end
-arch woodfloor
+arch flagstone
 x 2
 y 10
 end
@@ -247,7 +247,7 @@ arch cobblestones2
 x 3
 y 1
 end
-arch woodfloor
+arch flagstone
 x 3
 y 2
 end
@@ -315,7 +315,7 @@ endmsg
 x 3
 y 9
 end
-arch woodfloor
+arch flagstone
 x 3
 y 10
 end
@@ -334,7 +334,7 @@ arch cobblestones2
 x 4
 y 1
 end
-arch woodfloor
+arch flagstone
 x 4
 y 2
 end
@@ -370,7 +370,7 @@ arch woodfloor
 x 4
 y 9
 end
-arch woodfloor
+arch flagstone
 x 4
 y 10
 end
@@ -389,7 +389,7 @@ arch cobblestones2
 x 5
 y 1
 end
-arch woodfloor
+arch flagstone
 x 5
 y 2
 end
@@ -443,7 +443,7 @@ arch woodfloor
 x 5
 y 9
 end
-arch woodfloor
+arch flagstone
 x 5
 y 10
 end
@@ -462,7 +462,7 @@ arch cobblestones2
 x 6
 y 1
 end
-arch woodfloor
+arch flagstone
 x 6
 y 2
 end
@@ -517,7 +517,7 @@ arch woodfloor
 x 6
 y 9
 end
-arch woodfloor
+arch flagstone
 x 6
 y 10
 end
@@ -543,7 +543,7 @@ arch cobblestones2
 x 7
 y 1
 end
-arch woodfloor
+arch flagstone
 x 7
 y 2
 end
@@ -598,7 +598,7 @@ arch woodfloor
 x 7
 y 9
 end
-arch woodfloor
+arch flagstone
 x 7
 y 10
 end
@@ -631,7 +631,7 @@ arch cobblestones2
 x 8
 y 1
 end
-arch woodfloor
+arch flagstone
 x 8
 y 2
 end
@@ -691,7 +691,7 @@ x 8
 y 9
 move_block all
 end
-arch woodfloor
+arch flagstone
 x 8
 y 10
 end
@@ -717,7 +717,7 @@ arch cobblestones2
 x 9
 y 1
 end
-arch woodfloor
+arch flagstone
 x 9
 y 2
 end
@@ -782,7 +782,7 @@ arch woodfloor
 x 9
 y 9
 end
-arch woodfloor
+arch flagstone
 x 9
 y 10
 end
@@ -801,7 +801,7 @@ arch cobblestones2
 x 10
 y 1
 end
-arch woodfloor
+arch flagstone
 x 10
 y 2
 end
@@ -809,7 +809,7 @@ arch wwall_2_2_3
 x 10
 y 2
 end
-arch woodfloor
+arch flagstone
 x 10
 y 3
 end
@@ -817,7 +817,7 @@ arch wwall_2_1_1
 x 10
 y 3
 end
-arch woodfloor
+arch flagstone
 x 10
 y 4
 end
@@ -825,7 +825,7 @@ arch wwall_2_1_1
 x 10
 y 4
 end
-arch woodfloor
+arch flagstone
 x 10
 y 5
 end
@@ -833,7 +833,7 @@ arch wwall_2_1_1
 x 10
 y 5
 end
-arch woodfloor
+arch flagstone
 x 10
 y 6
 end
@@ -841,7 +841,7 @@ arch wwall_2_1_1
 x 10
 y 6
 end
-arch woodfloor
+arch flagstone
 x 10
 y 7
 end
@@ -849,7 +849,7 @@ arch wwall_win1
 x 10
 y 7
 end
-arch woodfloor
+arch flagstone
 x 10
 y 8
 end
@@ -857,7 +857,7 @@ arch wwall_2_1_1
 x 10
 y 8
 end
-arch woodfloor
+arch flagstone
 x 10
 y 9
 end
@@ -865,7 +865,7 @@ arch wwall_2_1_1
 x 10
 y 9
 end
-arch woodfloor
+arch flagstone
 x 10
 y 10
 end
