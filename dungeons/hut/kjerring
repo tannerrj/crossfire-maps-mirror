@@ -9,7 +9,7 @@ enter_x 2
 enter_y 9
 msg
 Created:  1994-05-17
-Modified: 2022-07-19 Rick Tanner
+Modified: 2025-02-11 Rick Tanner
 endmsg
 reset_group wilderness_kjerring
 end
@@ -5866,10 +5866,6 @@ arch mouse
 x 50
 y 7
 end
-arch kobold
-x 50
-y 7
-end
 arch dungeon_floor
 x 50
 y 8
@@ -5879,6 +5875,10 @@ x 50
 y 8
 end
 arch dungeon_floor
+x 50
+y 9
+end
+arch kobold
 x 50
 y 9
 end
@@ -7098,10 +7098,6 @@ arch mouse
 x 60
 y 11
 end
-arch kobold
-x 60
-y 11
-end
 arch dungeon_floor
 x 60
 y 12
@@ -7111,6 +7107,10 @@ x 60
 y 12
 end
 arch dungeon_floor
+x 60
+y 13
+end
+arch kobold
 x 60
 y 13
 end
@@ -8046,6 +8046,10 @@ arch dungeon_floor
 x 68
 y 10
 end
+arch kobold
+x 68
+y 10
+end
 arch dungeon_floor
 x 68
 y 11
@@ -8311,10 +8315,6 @@ x 70
 y 11
 end
 arch mouse
-x 70
-y 11
-end
-arch kobold
 x 70
 y 11
 end
