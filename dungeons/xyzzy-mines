@@ -50712,11 +50712,6 @@ arch generate_ghost
 x 93
 y 10
 end
-arch block_door_closed
-x 93
-y 10
-connected 96
-end
 arch medium_stones
 x 93
 y 11
@@ -56993,11 +56988,6 @@ end
 arch generate_ghost
 x 104
 y 8
-end
-arch block_door_closed
-x 104
-y 8
-connected 96
 end
 arch medium_stones
 x 104
