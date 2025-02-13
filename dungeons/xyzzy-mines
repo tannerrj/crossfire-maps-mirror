@@ -9,7 +9,7 @@ enter_x 9
 enter_y 10
 msg
 Created:  1994-12-28 Morten Hanshaugen
-Modified: 2023-06-02 Rick Tanner
+Modified: 2025-02-13 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -65909,6 +65909,10 @@ arch medium_stones
 x 119
 y 36
 end
+arch ghost
+x 119
+y 36
+end
 arch medium_stones
 x 119
 y 37
@@ -65942,10 +65946,6 @@ x 119
 y 40
 end
 arch generate_giant
-x 119
-y 40
-end
-arch ghost
 x 119
 y 40
 end
