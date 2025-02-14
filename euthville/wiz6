@@ -2,13 +2,13 @@ arch map
 name Abyss, Level 6
 difficulty 15
 region euthville
-width 20
-height 18
+width 21
+height 19
 enter_x 19
 enter_y 17
 msg
 Created:  1993-11-09
-Modified: 2022-07-20 Rick Tanner
+Modified: 2025-02-13 Rick Tanner
 endmsg
 reset_group euthville_abyss
 end
@@ -117,6 +117,9 @@ y 17
 end
 arch rough_wall_2_2_1
 y 17
+end
+arch blocked
+y 18
 end
 arch marble
 x 1
@@ -235,6 +238,10 @@ arch rough_wall_3_1
 x 1
 y 17
 end
+arch blocked
+x 1
+y 18
+end
 arch marble
 x 2
 end
@@ -312,6 +319,10 @@ end
 arch rough_wall_2_1_2
 x 2
 y 17
+end
+arch blocked
+x 2
+y 18
 end
 arch marble
 x 3
@@ -399,6 +410,10 @@ arch rough_wall_2_1_2
 x 3
 y 17
 end
+arch blocked
+x 3
+y 18
+end
 arch marble
 x 4
 end
@@ -480,6 +495,10 @@ end
 arch rough_wall_2_1_2
 x 4
 y 17
+end
+arch blocked
+x 4
+y 18
 end
 arch marble
 x 5
@@ -571,6 +590,10 @@ arch rough_wall_2_1_2
 x 5
 y 17
 end
+arch blocked
+x 5
+y 18
+end
 arch marble
 x 6
 end
@@ -653,6 +676,10 @@ arch rough_wall_2_1_2
 x 6
 y 17
 end
+arch blocked
+x 6
+y 18
+end
 arch marble
 x 7
 end
@@ -734,6 +761,10 @@ end
 arch rough_wall_2_1_2
 x 7
 y 17
+end
+arch blocked
+x 7
+y 18
 end
 arch marble
 x 8
@@ -817,6 +848,10 @@ arch rough_wall_2_1_2
 x 8
 y 17
 end
+arch blocked
+x 8
+y 18
+end
 arch marble
 x 9
 end
@@ -894,6 +929,10 @@ end
 arch rough_wall_2_1_2
 x 9
 y 17
+end
+arch blocked
+x 9
+y 18
 end
 arch marble
 x 10
@@ -985,6 +1024,10 @@ arch rough_wall_3_1
 x 10
 y 17
 end
+arch blocked
+x 10
+y 18
+end
 arch marble
 x 11
 end
@@ -1071,6 +1114,10 @@ arch rough_wall_3_1
 x 11
 y 17
 end
+arch blocked
+x 11
+y 18
+end
 arch marble
 x 12
 end
@@ -1153,6 +1200,10 @@ arch rough_wall_2_1_2
 x 12
 y 17
 end
+arch blocked
+x 12
+y 18
+end
 arch marble
 x 13
 end
@@ -1230,6 +1281,10 @@ end
 arch rough_wall_2_1_2
 x 13
 y 17
+end
+arch blocked
+x 13
+y 18
 end
 arch marble
 x 14
@@ -1321,6 +1376,10 @@ arch rough_wall_2_2_4
 x 14
 y 17
 end
+arch blocked
+x 14
+y 18
+end
 arch marble
 x 15
 end
@@ -1402,6 +1461,14 @@ end
 arch marble
 x 15
 y 17
+end
+arch blocked
+x 15
+y 17
+end
+arch blocked
+x 15
+y 18
 end
 arch marble
 x 16
@@ -1489,6 +1556,10 @@ arch rough_wall_2_2_1
 x 16
 y 17
 end
+arch blocked
+x 16
+y 18
+end
 arch marble
 x 17
 end
@@ -1567,9 +1638,17 @@ arch marble
 x 17
 y 17
 end
-arch rough_wall_1_3
+arch rough_wall_2_2_3
 x 17
 y 17
+end
+arch marble
+x 17
+y 18
+end
+arch rough_wall_2_2_1
+x 17
+y 18
 end
 arch marble
 x 18
@@ -1700,11 +1779,26 @@ end
 arch marble
 x 18
 y 17
+end
+arch marble
+x 18
+y 18
+end
+arch rough_wall_2_1_2
+x 18
+y 18
 end
 arch marble
 x 19
 end
+arch blocked
+x 19
+end
 arch marble
+x 19
+y 1
+end
+arch blocked
 x 19
 y 1
 end
@@ -1733,6 +1827,10 @@ x 19
 y 4
 end
 arch marble
+x 19
+y 5
+end
+arch blocked
 x 19
 y 5
 end
@@ -1772,6 +1870,10 @@ arch marble
 x 19
 y 10
 end
+arch blocked
+x 19
+y 10
+end
 arch marble
 x 19
 y 11
@@ -1792,6 +1894,10 @@ arch marble
 x 19
 y 13
 end
+arch blocked
+x 19
+y 13
+end
 arch marble
 x 19
 y 14
@@ -1804,7 +1910,7 @@ arch marble
 x 19
 y 15
 end
-arch rough_wall_1_2
+arch rough_wall_2_2_1
 x 19
 y 15
 end
@@ -1822,4 +1928,103 @@ hp 19
 sp 17
 x 19
 y 17
+end
+arch marble
+x 19
+y 18
+end
+arch rough_wall_2_1_2
+x 19
+y 18
+end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 3
+end
+arch blocked
+x 20
+y 4
+end
+arch blocked
+x 20
+y 5
+end
+arch blocked
+x 20
+y 6
+end
+arch blocked
+x 20
+y 7
+end
+arch blocked
+x 20
+y 8
+end
+arch blocked
+x 20
+y 9
+end
+arch blocked
+x 20
+y 10
+end
+arch blocked
+x 20
+y 11
+end
+arch blocked
+x 20
+y 12
+end
+arch blocked
+x 20
+y 13
+end
+arch blocked
+x 20
+y 14
+end
+arch marble
+x 20
+y 15
+end
+arch rough_wall_2_2_3
+x 20
+y 15
+end
+arch marble
+x 20
+y 16
+end
+arch rough_wall_2_1_1
+x 20
+y 16
+end
+arch marble
+x 20
+y 17
+end
+arch rough_wall_2_1_1
+x 20
+y 17
+end
+arch marble
+x 20
+y 18
+end
+arch rough_wall_2_2_4
+x 20
+y 18
 end
