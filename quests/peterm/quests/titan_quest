@@ -7,7 +7,7 @@ height 35
 enter_x 35
 enter_y 33
 msg
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2025-02-17 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -5695,6 +5695,7 @@ x 25
 y 25
 end
 arch rune_regenerate_spellpoints
+Cha 5
 x 25
 y 25
 end
@@ -6141,6 +6142,7 @@ x 27
 y 23
 end
 arch rune_regenerate_spellpoints
+Cha 5
 x 27
 y 23
 end
