@@ -1,11 +1,12 @@
 arch map
 name temple_2
-msg
-Created:  1999-12-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-03 Rick Tanner
-endmsg
+region elvenlands
 width 27
 height 25
+msg
+Created:  1999-12-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-22 Rick Tanner
+endmsg
 end
 arch marble
 face marble_blgr.111
@@ -258,6 +259,30 @@ arch marble
 face marble_blgr.111
 x 1
 y 1
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 1
+y 1
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 face marble_blgr.111
@@ -1934,6 +1959,50 @@ face marble_blgr.111
 x 7
 y 14
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 7
+y 14
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 7
@@ -2305,6 +2374,50 @@ face marble_blgr.111
 x 9
 y 12
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 9
+y 12
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 9
@@ -2467,6 +2580,71 @@ arch marble
 face marble_blgr.111
 x 10
 y 2
+end
+arch dragonman
+name Ice Dragonpriest
+Int 7
+hp 5500
+maxhp 5500
+maxsp 70
+exp 200000
+dam 20
+x 10
+y 2
+level 25
+attacktype 17
+resist_magic 30
+resist_fire -100
+resist_cold 100
+carrying 100
+unaggressive 1
+arch key2
+slaying air
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -2639,6 +2817,50 @@ arch marble
 face marble_blgr.111
 x 10
 y 17
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 10
+y 17
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -3207,6 +3429,72 @@ face marble_blgr.111
 x 14
 y 2
 end
+arch dragonman
+name Blue Dragonpriest
+Int 5
+hp 7000
+maxhp 7000
+maxsp 50
+exp 200000
+dam 40
+wc -12
+ac -15
+x 14
+y 2
+level 30
+resist_magic 30
+carrying 17100
+unaggressive 1
+arch key2
+slaying air
+end
+arch mjoellnir
+name ThunderMallet
+dam 22
+attacktype 264
+path_attuned 8
+material 0
+value 250000
+weight 17000
+magic 2
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+end
 arch marble
 face marble_blgr.111
 x 14
@@ -3403,6 +3691,50 @@ arch marble
 face marble_blgr.111
 x 15
 y 12
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 15
+y 12
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -3801,6 +4133,50 @@ arch marble
 face marble_blgr.111
 x 17
 y 11
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 17
+y 11
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -4300,6 +4676,50 @@ arch marble
 face marble_blgr.111
 x 19
 y 17
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 19
+y 17
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -5264,6 +5684,23 @@ face marble_blgr.111
 x 24
 y 1
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -30
+ac -24
+x 24
+y 1
+speed -0.300000
+level 60
+end
 arch marble
 face marble_blgr.111
 x 24
@@ -6077,440 +6514,4 @@ type 0
 attacktype 0
 flying 0
 fly_on 0
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-x 1
-y 1
-speed -0.500000
-level 70
-carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 7
-y 14
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 9
-y 12
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch dragonman
-name Ice Dragonpriest
-Int 7
-hp 5500
-maxhp 5500
-maxsp 70
-exp 200000
-dam 20
-x 10
-y 2
-level 25
-attacktype 17
-resist_magic 30
-resist_fire -100
-resist_cold 100
-carrying 100
-unaggressive 1
-arch key2
-slaying air
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 10
-y 17
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch dragonman
-name Blue Dragonpriest
-Int 5
-hp 7000
-maxhp 7000
-maxsp 50
-exp 200000
-dam 40
-wc -12
-ac -15
-x 14
-y 2
-level 30
-resist_magic 30
-carrying 17100
-unaggressive 1
-arch key2
-slaying air
-end
-arch mjoellnir
-name ThunderMallet
-dam 22
-attacktype 264
-path_attuned 8
-material 0
-value 250000
-weight 17000
-magic 2
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 15
-y 12
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 17
-y 11
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 19
-y 17
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -30
-ac -24
-x 24
-y 1
-speed -0.300000
-level 60
 end

@@ -1,11 +1,12 @@
 arch map
 name temple_1
-msg
-Created:  1999-12-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-03 Rick Tanner
-endmsg
+region elvenlands
 width 29
 height 29
+msg
+Created:  1999-12-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-22 Rick Tanner
+endmsg
 end
 arch marble
 face marble_blgr.111
@@ -249,6 +250,19 @@ face marble_blgr.111
 x 1
 y 5
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 1
+y 5
+speed -0.300000
+level 20
+end
 arch marble
 face marble_blgr.111
 x 1
@@ -263,6 +277,19 @@ arch marble
 face marble_blgr.111
 x 1
 y 8
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 1
+y 8
+speed -0.300000
+level 20
 end
 arch marble
 face marble_blgr.111
@@ -287,6 +314,18 @@ arch marble
 face marble_blgr.111
 x 1
 y 12
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 1
+y 12
+speed -0.500000
+level 25
 end
 arch marble
 face marble_blgr.111
@@ -529,6 +568,18 @@ face marble_blgr.111
 x 2
 y 19
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 2
+y 19
+speed -0.500000
+level 25
+end
 arch marble
 face marble_blgr.111
 x 2
@@ -730,6 +781,18 @@ face marble_blgr.111
 x 3
 y 16
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 3
+y 16
+speed -0.500000
+level 25
+end
 arch marble
 face marble_blgr.111
 x 3
@@ -871,6 +934,19 @@ face marble_blgr.111
 x 4
 y 6
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 4
+y 6
+speed -0.300000
+level 20
+end
 arch marble
 face marble_blgr.111
 x 4
@@ -899,6 +975,18 @@ arch marble
 face marble_blgr.111
 x 4
 y 11
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 4
+y 11
+speed -0.500000
+level 25
 end
 arch marble
 face marble_blgr.111
@@ -1080,6 +1168,19 @@ arch marble
 face marble_blgr.111
 x 5
 y 8
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 5
+y 8
+speed -0.300000
+level 20
 end
 arch marble
 face marble_blgr.111
@@ -1330,6 +1431,18 @@ face marble_blgr.111
 x 6
 y 17
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 6
+y 17
+speed -0.500000
+level 25
+end
 arch marble
 face marble_blgr.111
 x 6
@@ -1461,6 +1574,19 @@ face marble_blgr.111
 x 7
 y 5
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 7
+y 5
+speed -0.300000
+level 20
+end
 arch marble
 face marble_blgr.111
 x 7
@@ -1504,6 +1630,18 @@ arch marble
 face marble_blgr.111
 x 7
 y 13
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 7
+y 13
+speed -0.500000
+level 25
 end
 arch marble
 face marble_blgr.111
@@ -1660,6 +1798,19 @@ arch marble
 face marble_blgr.111
 x 8
 y 7
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 8
+y 7
+speed -0.300000
+level 20
 end
 arch marble
 face marble_blgr.111
@@ -1725,6 +1876,18 @@ face marble_blgr.111
 x 8
 y 19
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 8
+y 19
+speed -0.500000
+level 25
+end
 arch marble
 face marble_blgr.111
 x 8
@@ -2071,6 +2234,19 @@ face marble_blgr.111
 x 10
 y 6
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 10
+y 6
+speed -0.300000
+level 20
+end
 arch marble
 face marble_blgr.111
 x 10
@@ -2100,6 +2276,18 @@ face marble_blgr.111
 x 10
 y 11
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 10
+y 11
+speed -0.500000
+level 25
+end
 arch marble
 face marble_blgr.111
 x 10
@@ -2124,6 +2312,18 @@ arch marble
 face marble_blgr.111
 x 10
 y 16
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 10
+y 16
+speed -0.500000
+level 25
 end
 arch marble
 face marble_blgr.111
@@ -2264,6 +2464,19 @@ arch marble
 face marble_blgr.111
 x 11
 y 8
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 11
+y 8
+speed -0.300000
+level 20
 end
 arch marble
 face marble_blgr.111
@@ -2958,6 +3171,19 @@ face marble_blgr.111
 x 14
 y 5
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 14
+y 5
+speed -0.300000
+level 20
+end
 arch marble
 face marble_blgr.111
 x 14
@@ -2972,6 +3198,19 @@ arch marble
 face marble_blgr.111
 x 14
 y 8
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 14
+y 8
+speed -0.300000
+level 20
 end
 arch marble
 face marble_blgr.111
@@ -4763,6 +5002,50 @@ face marble_blgr.111
 x 21
 y 2
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 21
+y 2
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 21
@@ -4809,6 +5092,50 @@ arch marble
 face marble_blgr.111
 x 21
 y 9
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 21
+y 9
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_cold
+end
+arch ability_fear
+end
+arch ability_heal
+end
+arch ability_lightning
+end
+arch ability_paralyze
+end
+arch ability_poison
+end
+arch ability_mass_confusion
+end
+arch ability_paralyze
+end
+arch ability_speedball
+end
 end
 arch marble
 face marble_blgr.111
@@ -4965,6 +5292,50 @@ face marble_blgr.111
 x 22
 y 1
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 22
+y 1
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 22
@@ -4984,6 +5355,50 @@ arch marble
 face marble_blgr.111
 x 22
 y 5
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 22
+y 5
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -5144,6 +5559,50 @@ face marble_blgr.111
 x 23
 y 4
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 23
+y 4
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 23
@@ -5177,6 +5636,50 @@ arch marble
 face marble_blgr.111
 x 23
 y 10
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 23
+y 10
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_cold
+end
+arch ability_fear
+end
+arch ability_heal
+end
+arch ability_lightning
+end
+arch ability_paralyze
+end
+arch ability_poison
+end
+arch ability_mass_confusion
+end
+arch ability_paralyze
+end
+arch ability_speedball
+end
 end
 arch marble
 face marble_blgr.111
@@ -5297,6 +5800,50 @@ arch marble
 face marble_blgr.111
 x 24
 y 1
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 24
+y 1
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -5499,6 +6046,50 @@ face marble_blgr.111
 x 25
 y 5
 end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 25
+y 5
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
+end
 arch marble
 face marble_blgr.111
 x 25
@@ -5522,6 +6113,50 @@ arch marble
 face marble_blgr.111
 x 25
 y 9
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 25
+y 9
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_cold
+end
+arch ability_fear
+end
+arch ability_heal
+end
+arch ability_lightning
+end
+arch ability_paralyze
+end
+arch ability_poison
+end
+arch ability_mass_confusion
+end
+arch ability_paralyze
+end
+arch ability_speedball
+end
 end
 arch marble
 face marble_blgr.111
@@ -5667,6 +6302,50 @@ arch marble
 face marble_blgr.111
 x 26
 y 3
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 26
+y 3
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_speedball
+end
+arch ability_paralyze
+end
+arch ability_mass_confusion
+end
+arch ability_poison
+end
+arch ability_paralyze
+end
+arch ability_lightning
+end
+arch ability_heal
+end
+arch ability_fear
+end
+arch ability_cold
+end
 end
 arch marble
 face marble_blgr.111
@@ -5900,6 +6579,52 @@ arch marble
 face marble_blgr.111
 x 27
 y 10
+end
+arch djinn
+name air spirit
+Str 75
+Dex 60
+Con 90
+Wis 30
+Pow 127
+Int 75
+hp 8000
+maxhp 8000
+sp 500
+maxsp 500
+exp 120000
+dam 40
+wc -45
+ac -30
+x 27
+y 10
+speed 0.900000
+resist_magic 80
+resist_fire 0
+resist_confusion 100
+resist_acid 0
+resist_paralyze 100
+resist_death 100
+arch ability_cold
+end
+arch ability_fire
+end
+arch ability_fear
+end
+arch ability_heal
+end
+arch ability_lightning
+end
+arch ability_paralyze
+end
+arch ability_poison
+end
+arch ability_mass_confusion
+end
+arch ability_paralyze
+end
+arch ability_speedball
+end
 end
 arch marble
 face marble_blgr.111
@@ -6292,728 +7017,4 @@ end
 arch flagstone_2_2_4
 x 28
 y 28
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 1
-y 5
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 1
-y 8
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 1
-y 12
-speed -0.500000
-level 25
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 2
-y 19
-speed -0.500000
-level 25
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 3
-y 16
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 4
-y 6
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 4
-y 11
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 5
-y 8
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 6
-y 17
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 7
-y 5
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 7
-y 13
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 8
-y 7
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 8
-y 19
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 10
-y 6
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 10
-y 11
-speed -0.500000
-level 25
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 10
-y 16
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 11
-y 8
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 14
-y 5
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 14
-y 8
-speed -0.300000
-level 20
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 21
-y 2
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 21
-y 9
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_cold
-end
-arch ability_fear
-end
-arch ability_heal
-end
-arch ability_lightning
-end
-arch ability_paralyze
-end
-arch ability_poison
-end
-arch ability_mass_confusion
-end
-arch ability_paralyze
-end
-arch ability_speedball
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 22
-y 1
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 22
-y 5
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 23
-y 4
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 23
-y 10
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_cold
-end
-arch ability_fear
-end
-arch ability_heal
-end
-arch ability_lightning
-end
-arch ability_paralyze
-end
-arch ability_poison
-end
-arch ability_mass_confusion
-end
-arch ability_paralyze
-end
-arch ability_speedball
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 24
-y 1
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 25
-y 5
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 25
-y 9
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_cold
-end
-arch ability_fear
-end
-arch ability_heal
-end
-arch ability_lightning
-end
-arch ability_paralyze
-end
-arch ability_poison
-end
-arch ability_mass_confusion
-end
-arch ability_paralyze
-end
-arch ability_speedball
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 26
-y 3
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_speedball
-end
-arch ability_paralyze
-end
-arch ability_mass_confusion
-end
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_lightning
-end
-arch ability_heal
-end
-arch ability_fear
-end
-arch ability_cold
-end
-end
-arch djinn
-name air spirit
-Str 75
-Dex 60
-Con 90
-Wis 30
-Pow 127
-Int 75
-hp 8000
-maxhp 8000
-sp 500
-maxsp 500
-exp 120000
-dam 40
-wc -45
-ac -30
-x 27
-y 10
-speed 0.900000
-resist_magic 80
-resist_fire 0
-resist_confusion 100
-resist_acid 0
-resist_paralyze 100
-resist_death 100
-arch ability_cold
-end
-arch ability_fire
-end
-arch ability_fear
-end
-arch ability_heal
-end
-arch ability_lightning
-end
-arch ability_paralyze
-end
-arch ability_poison
-end
-arch ability_mass_confusion
-end
-arch ability_paralyze
-end
-arch ability_speedball
-end
 end

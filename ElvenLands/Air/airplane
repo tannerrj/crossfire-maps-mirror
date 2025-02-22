@@ -1,11 +1,12 @@
 arch map
 name airplane
-msg
-Created:  1999-12-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-03 Rick Tanner
-endmsg
+region elvenlands
 width 41
 height 41
+msg
+Created:  1999-12-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-22 Rick Tanner
+endmsg
 end
 arch marble
 name ice
@@ -179,6 +180,36 @@ end
 arch mountain
 y 20
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+y 20
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -361,9 +392,9 @@ x 1
 y 4
 end
 arch cold_dragon
-level 100
 x 1
 y 4
+level 100
 end
 arch snow
 x 1
@@ -390,9 +421,9 @@ x 1
 y 8
 end
 arch cold_dragon
-level 100
 x 1
 y 8
+level 100
 end
 arch snow
 x 1
@@ -413,6 +444,37 @@ name ice
 face icestorm.111
 x 1
 y 11
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 1
+y 11
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -719,9 +781,9 @@ x 2
 y 3
 end
 arch cold_dragon
-level 100
 x 2
 y 3
+level 100
 end
 arch snow
 x 2
@@ -734,6 +796,23 @@ end
 arch snow
 x 2
 y 6
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 2
+y 6
+speed -0.300000
+level 70
 end
 arch snow
 x 2
@@ -953,6 +1032,23 @@ face icestorm.111
 x 2
 y 30
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 2
+y 30
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -966,9 +1062,9 @@ x 2
 y 32
 end
 arch cold_dragon
-level 100
 x 2
 y 32
+level 100
 end
 arch marble
 name ice
@@ -1054,6 +1150,37 @@ arch snow
 x 3
 y 2
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 3
+y 2
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch snow
 x 3
 y 3
@@ -1083,9 +1210,9 @@ x 3
 y 9
 end
 arch cold_dragon
-level 100
 x 3
 y 9
+level 100
 end
 arch marble
 name ice
@@ -1206,9 +1333,9 @@ x 3
 y 22
 end
 arch cold_dragon
-level 100
 x 3
 y 22
+level 100
 end
 arch marble
 name ice
@@ -1217,9 +1344,9 @@ x 3
 y 23
 end
 arch elec_dragon
-level 100
 x 3
 y 23
+level 100
 end
 arch marble
 name ice
@@ -1246,9 +1373,9 @@ x 3
 y 27
 end
 arch cold_dragon
-level 100
 x 3
 y 27
+level 100
 end
 arch marble
 name ice
@@ -1299,9 +1426,9 @@ x 3
 y 35
 end
 arch elec_dragon
-level 100
 x 3
 y 35
+level 100
 end
 arch marble
 name ice
@@ -1366,9 +1493,9 @@ x 4
 y 1
 end
 arch elec_dragon
-level 100
 x 4
 y 1
+level 100
 end
 arch snow
 x 4
@@ -1395,9 +1522,9 @@ x 4
 y 7
 end
 arch cold_dragon
-level 100
 x 4
 y 7
+level 100
 end
 arch snow
 x 4
@@ -1522,9 +1649,9 @@ x 4
 y 20
 end
 arch cold_dragon
-level 100
 x 4
 y 20
+level 100
 end
 arch marble
 name ice
@@ -1533,9 +1660,9 @@ x 4
 y 21
 end
 arch elec_dragon
-level 100
 x 4
 y 21
+level 100
 end
 arch marble
 name ice
@@ -1562,15 +1689,39 @@ x 4
 y 25
 end
 arch elec_dragon
-level 100
 x 4
 y 25
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 4
 y 26
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 4
+y 26
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -1625,9 +1776,9 @@ x 4
 y 34
 end
 arch elec_dragon
-level 100
 x 4
 y 34
+level 100
 end
 arch marble
 name ice
@@ -1696,9 +1847,9 @@ x 5
 y 2
 end
 arch cold_dragon
-level 100
 x 5
 y 2
+level 100
 end
 arch snow
 x 5
@@ -1719,9 +1870,9 @@ x 5
 y 5
 end
 arch cold_dragon
-level 100
 x 5
 y 5
+level 100
 end
 arch snow
 x 5
@@ -1764,6 +1915,30 @@ name ice
 face icestorm.111
 x 5
 y 11
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 5
+y 11
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -1824,9 +1999,9 @@ x 5
 y 18
 end
 arch cold_dragon
-level 100
 x 5
 y 18
+level 100
 end
 arch marble
 name ice
@@ -1929,9 +2104,9 @@ x 5
 y 30
 end
 arch elec_dragon
-level 100
 x 5
 y 30
+level 100
 end
 arch marble
 name ice
@@ -2018,9 +2193,9 @@ x 6
 y 1
 end
 arch cold_dragon
-level 100
 x 6
 y 1
+level 100
 end
 arch snow
 x 6
@@ -2073,9 +2248,9 @@ x 6
 y 10
 end
 arch elec_dragon
-level 100
 x 6
 y 10
+level 100
 end
 arch sea1
 x 6
@@ -2140,6 +2315,23 @@ name ice
 face icestorm.111
 x 6
 y 16
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 6
+y 16
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -2210,9 +2402,9 @@ x 6
 y 24
 end
 arch elec_dragon
-level 100
 x 6
 y 24
+level 100
 end
 arch marble
 name ice
@@ -2221,9 +2413,9 @@ x 6
 y 25
 end
 arch elec_dragon
-level 100
 x 6
 y 25
+level 100
 end
 arch marble
 name ice
@@ -2274,9 +2466,9 @@ x 6
 y 31
 end
 arch cold_dragon
-level 100
 x 6
 y 31
+level 100
 end
 arch marble
 name ice
@@ -2291,9 +2483,9 @@ x 6
 y 33
 end
 arch elec_dragon
-level 100
 x 6
 y 33
+level 100
 end
 arch marble
 name ice
@@ -2320,9 +2512,9 @@ x 6
 y 37
 end
 arch elec_dragon
-level 100
 x 6
 y 37
+level 100
 end
 arch marble
 name ice
@@ -2390,6 +2582,23 @@ arch snow
 x 7
 y 7
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 7
+y 7
+speed -0.300000
+level 70
+end
 arch snow
 x 7
 y 8
@@ -2527,9 +2736,9 @@ x 7
 y 23
 end
 arch cold_dragon
-level 100
 x 7
 y 23
+level 100
 end
 arch marble
 name ice
@@ -2634,9 +2843,9 @@ x 7
 y 36
 end
 arch cold_dragon
-level 100
 x 7
 y 36
+level 100
 end
 arch marble
 name ice
@@ -2687,9 +2896,9 @@ x 8
 y 2
 end
 arch cold_dragon
-level 100
 x 8
 y 2
+level 100
 end
 arch snow
 x 8
@@ -2732,9 +2941,9 @@ x 8
 y 10
 end
 arch elec_dragon
-level 100
 x 8
 y 10
+level 100
 end
 arch sea1
 x 8
@@ -2771,9 +2980,9 @@ x 8
 y 13
 end
 arch elec_dragon
-level 100
 x 8
 y 13
+level 100
 end
 arch sea1
 x 8
@@ -2853,6 +3062,37 @@ face icestorm.111
 x 8
 y 22
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 8
+y 22
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -2910,6 +3150,30 @@ name ice
 face icestorm.111
 x 8
 y 29
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 8
+y 29
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -2996,9 +3260,9 @@ x 9
 y 1
 end
 arch elec_dragon
-level 100
 x 9
 y 1
+level 100
 end
 arch snow
 x 9
@@ -3112,6 +3376,37 @@ face icestorm.111
 x 9
 y 16
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 9
+y 16
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -3155,9 +3450,9 @@ x 9
 y 21
 end
 arch cold_dragon
-level 100
 x 9
 y 21
+level 100
 end
 arch marble
 name ice
@@ -3250,6 +3545,23 @@ name ice
 face icestorm.111
 x 9
 y 33
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 9
+y 33
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -3331,6 +3643,37 @@ arch snow
 x 10
 y 2
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 10
+y 2
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch snow
 x 10
 y 3
@@ -3358,9 +3701,9 @@ x 10
 y 7
 end
 arch cold_dragon
-level 100
 x 10
 y 7
+level 100
 end
 arch snow
 x 10
@@ -3381,6 +3724,37 @@ name ice
 face icestorm.111
 x 10
 y 10
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 10
+y 10
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch sea1
 x 10
@@ -3480,6 +3854,37 @@ face icestorm.111
 x 10
 y 21
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 10
+y 21
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -3547,6 +3952,37 @@ name ice
 face icestorm.111
 x 10
 y 29
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 10
+y 29
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -3645,9 +4081,9 @@ x 11
 y 4
 end
 arch cold_dragon
-level 100
 x 11
 y 4
+level 100
 end
 arch snow
 x 11
@@ -3809,6 +4245,37 @@ arch mountain
 x 11
 y 25
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 11
+y 25
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -3836,9 +4303,9 @@ x 11
 y 28
 end
 arch elec_dragon
-level 100
 x 11
 y 28
+level 100
 end
 arch marble
 name ice
@@ -3859,9 +4326,9 @@ x 11
 y 31
 end
 arch elec_dragon
-level 100
 x 11
 y 31
+level 100
 end
 arch marble
 name ice
@@ -3971,6 +4438,37 @@ arch snow
 x 12
 y 7
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 12
+y 7
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch snow
 x 12
 y 8
@@ -4002,9 +4500,9 @@ x 12
 y 11
 end
 arch elec_dragon
-level 100
 x 12
 y 11
+level 100
 end
 arch sea1
 x 12
@@ -4047,9 +4545,9 @@ x 12
 y 15
 end
 arch elec_dragon
-level 100
 x 12
 y 15
+level 100
 end
 arch marble
 name ice
@@ -4082,9 +4580,9 @@ x 12
 y 20
 end
 arch cold_dragon
-level 100
 x 12
 y 20
+level 100
 end
 arch marble
 name ice
@@ -4170,6 +4668,23 @@ face icestorm.111
 x 12
 y 30
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 12
+y 30
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -4187,6 +4702,30 @@ name ice
 face icestorm.111
 x 12
 y 33
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 12
+y 33
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -4207,9 +4746,9 @@ x 12
 y 36
 end
 arch elec_dragon
-level 100
 x 12
 y 36
+level 100
 end
 arch marble
 name ice
@@ -4264,9 +4803,9 @@ x 13
 y 5
 end
 arch elec_dragon
-level 100
 x 13
 y 5
+level 100
 end
 arch snow
 x 13
@@ -4327,9 +4866,9 @@ x 13
 y 13
 end
 arch elec_dragon
-level 100
 x 13
 y 13
+level 100
 end
 arch sea1
 x 13
@@ -4363,6 +4902,30 @@ face icestorm.111
 x 13
 y 17
 end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 13
+y 17
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -4388,9 +4951,9 @@ x 13
 y 21
 end
 arch cold_dragon
-level 100
 x 13
 y 21
+level 100
 end
 arch marble
 name ice
@@ -4523,9 +5086,9 @@ x 13
 y 38
 end
 arch cold_dragon
-level 100
 x 13
 y 38
+level 100
 end
 arch marble
 name ice
@@ -4624,9 +5187,9 @@ x 14
 y 9
 end
 arch elec_dragon
-level 100
 x 14
 y 9
+level 100
 end
 arch biglake_n
 x 14
@@ -4671,6 +5234,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 14
+y 15
+end
+arch mountain_2
 x 14
 y 15
 end
@@ -4795,9 +5362,9 @@ x 14
 y 31
 end
 arch elec_dragon
-level 100
 x 14
 y 31
+level 100
 end
 arch marble
 name ice
@@ -4956,9 +5523,9 @@ x 15
 y 14
 end
 arch elec_dragon
-level 100
 x 15
 y 14
+level 100
 end
 arch sea1
 x 15
@@ -4995,9 +5562,9 @@ x 15
 y 19
 end
 arch cold_dragon
-level 100
 x 15
 y 19
+level 100
 end
 arch marble
 name ice
@@ -5034,6 +5601,30 @@ name ice
 face icestorm.111
 x 15
 y 25
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 15
+y 25
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -5092,9 +5683,9 @@ x 15
 y 33
 end
 arch cold_dragon
-level 100
 x 15
 y 33
+level 100
 end
 arch marble
 name ice
@@ -5115,9 +5706,9 @@ x 15
 y 36
 end
 arch elec_dragon
-level 100
 x 15
 y 36
+level 100
 end
 arch marble
 name ice
@@ -5126,9 +5717,9 @@ x 15
 y 37
 end
 arch elec_dragon
-level 100
 x 15
 y 37
+level 100
 end
 arch marble
 name ice
@@ -5168,15 +5759,39 @@ x 16
 y 2
 end
 arch cold_dragon
-level 100
 x 16
 y 2
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 16
 y 3
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 16
+y 3
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -5199,9 +5814,9 @@ x 16
 y 7
 end
 arch cold_dragon
-level 100
 x 16
 y 7
+level 100
 end
 arch snow
 x 16
@@ -5226,9 +5841,9 @@ x 16
 y 11
 end
 arch cold_dragon
-level 100
 x 16
 y 11
+level 100
 end
 arch sea1
 x 16
@@ -5282,6 +5897,10 @@ face icestorm.111
 x 16
 y 17
 end
+arch mountain_2
+x 16
+y 17
+end
 arch marble
 name ice
 face icestorm.111
@@ -5319,9 +5938,9 @@ x 16
 y 23
 end
 arch cold_dragon
-level 100
 x 16
 y 23
+level 100
 end
 arch marble
 name ice
@@ -5364,9 +5983,9 @@ x 16
 y 29
 end
 arch elec_dragon
-level 100
 x 16
 y 29
+level 100
 end
 arch marble
 name ice
@@ -5468,9 +6087,9 @@ x 17
 y 1
 end
 arch cold_dragon
-level 100
 x 17
 y 1
+level 100
 end
 arch snow
 x 17
@@ -5499,9 +6118,9 @@ x 17
 y 6
 end
 arch elec_dragon
-level 100
 x 17
 y 6
+level 100
 end
 arch snow
 x 17
@@ -5516,9 +6135,9 @@ x 17
 y 9
 end
 arch elec_dragon
-level 100
 x 17
 y 9
+level 100
 end
 arch snow
 x 17
@@ -5535,9 +6154,9 @@ x 17
 y 11
 end
 arch elec_dragon
-level 100
 x 17
 y 11
+level 100
 end
 arch sea1
 x 17
@@ -5674,9 +6293,9 @@ x 17
 y 28
 end
 arch cold_dragon
-level 100
 x 17
 y 28
+level 100
 end
 arch marble
 name ice
@@ -5685,9 +6304,9 @@ x 17
 y 29
 end
 arch elec_dragon
-level 100
 x 17
 y 29
+level 100
 end
 arch marble
 name ice
@@ -5704,6 +6323,37 @@ end
 arch mountain
 x 17
 y 31
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 17
+y 31
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -5756,6 +6406,23 @@ name ice
 face icestorm.111
 x 17
 y 37
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 17
+y 37
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -5810,9 +6477,9 @@ x 18
 y 4
 end
 arch elec_dragon
-level 100
 x 18
 y 4
+level 100
 end
 arch snow
 x 18
@@ -5823,6 +6490,23 @@ name ice
 face icestorm.111
 x 18
 y 6
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 18
+y 6
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -5849,9 +6533,9 @@ x 18
 y 11
 end
 arch elec_dragon
-level 100
 x 18
 y 11
+level 100
 end
 arch marble
 name ice
@@ -5860,9 +6544,9 @@ x 18
 y 12
 end
 arch cold_dragon
-level 100
 x 18
 y 12
+level 100
 end
 arch marble
 name ice
@@ -5891,15 +6575,46 @@ x 18
 y 15
 end
 arch elec_dragon
-level 100
 x 18
 y 15
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 18
 y 16
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 18
+y 16
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -5925,6 +6640,10 @@ face icestorm.111
 x 18
 y 20
 end
+arch mountain_2
+x 18
+y 20
+end
 arch marble
 name ice
 face icestorm.111
@@ -5938,9 +6657,9 @@ x 18
 y 22
 end
 arch cold_dragon
-level 100
 x 18
 y 22
+level 100
 end
 arch marble
 name ice
@@ -6051,9 +6770,9 @@ x 18
 y 36
 end
 arch elec_dragon
-level 100
 x 18
 y 36
+level 100
 end
 arch marble
 name ice
@@ -6091,9 +6810,9 @@ x 19
 y 1
 end
 arch elec_dragon
-level 100
 x 19
 y 1
+level 100
 end
 arch marble
 name ice
@@ -6114,6 +6833,37 @@ name ice
 face icestorm.111
 x 19
 y 4
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 19
+y 4
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -6146,6 +6896,30 @@ name ice
 face icestorm.111
 x 19
 y 10
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 19
+y 10
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -6210,9 +6984,9 @@ x 19
 y 19
 end
 arch cold_dragon
-level 100
 x 19
 y 19
+level 100
 end
 arch marble
 name ice
@@ -6237,6 +7011,37 @@ name ice
 face icestorm.111
 x 19
 y 23
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 19
+y 23
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -6271,6 +7076,23 @@ name ice
 face icestorm.111
 x 19
 y 28
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 19
+y 28
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -6377,9 +7199,9 @@ x 20
 y 2
 end
 arch cold_dragon
-level 100
 x 20
 y 2
+level 100
 end
 arch marble
 name ice
@@ -6584,9 +7406,9 @@ x 20
 y 25
 end
 arch elec_dragon
-level 100
 x 20
 y 25
+level 100
 end
 arch sea1
 x 20
@@ -6639,9 +7461,9 @@ x 20
 y 30
 end
 arch elec_dragon
-level 100
 x 20
 y 30
+level 100
 end
 arch marble
 name ice
@@ -6668,9 +7490,9 @@ x 20
 y 34
 end
 arch cold_dragon
-level 100
 x 20
 y 34
+level 100
 end
 arch marble
 name ice
@@ -6691,9 +7513,9 @@ x 20
 y 37
 end
 arch elec_dragon
-level 100
 x 20
 y 37
+level 100
 end
 arch marble
 name ice
@@ -6776,9 +7598,9 @@ x 21
 y 7
 end
 arch cold_dragon
-level 100
 x 21
 y 7
+level 100
 end
 arch marble
 name ice
@@ -6787,9 +7609,9 @@ x 21
 y 8
 end
 arch cold_dragon
-level 100
 x 21
 y 8
+level 100
 end
 arch snow
 x 21
@@ -6806,9 +7628,9 @@ x 21
 y 10
 end
 arch elec_dragon
-level 100
 x 21
 y 10
+level 100
 end
 arch snow
 x 21
@@ -6835,9 +7657,9 @@ x 21
 y 13
 end
 arch elec_dragon
-level 100
 x 21
 y 13
+level 100
 end
 arch sea1
 x 21
@@ -6884,9 +7706,9 @@ x 21
 y 17
 end
 arch elec_dragon
-level 100
 x 21
 y 17
+level 100
 end
 arch sea1
 x 21
@@ -6915,6 +7737,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 21
+y 20
+end
+arch mountain_2
 x 21
 y 20
 end
@@ -6959,9 +7785,9 @@ x 21
 y 24
 end
 arch elec_dragon
-level 100
 x 21
 y 24
+level 100
 end
 arch sea1
 x 21
@@ -6974,9 +7800,9 @@ x 21
 y 25
 end
 arch elec_dragon
-level 100
 x 21
 y 25
+level 100
 end
 arch sea1
 x 21
@@ -6989,9 +7815,9 @@ x 21
 y 26
 end
 arch elec_dragon
-level 100
 x 21
 y 26
+level 100
 end
 arch sea1
 x 21
@@ -7052,9 +7878,9 @@ x 21
 y 33
 end
 arch cold_dragon
-level 100
 x 21
 y 33
+level 100
 end
 arch marble
 name ice
@@ -7069,9 +7895,9 @@ x 21
 y 35
 end
 arch cold_dragon
-level 100
 x 21
 y 35
+level 100
 end
 arch marble
 name ice
@@ -7139,9 +7965,9 @@ x 22
 y 3
 end
 arch elec_dragon
-level 100
 x 22
 y 3
+level 100
 end
 arch snow
 x 22
@@ -7188,9 +8014,9 @@ x 22
 y 11
 end
 arch elec_dragon
-level 100
 x 22
 y 11
+level 100
 end
 arch sea1
 x 22
@@ -7223,9 +8049,9 @@ x 22
 y 14
 end
 arch elec_dragon
-level 100
 x 22
 y 14
+level 100
 end
 arch sea1
 x 22
@@ -7335,6 +8161,10 @@ face icestorm.111
 x 22
 y 24
 end
+arch mountain_2
+x 22
+y 24
+end
 arch sea1
 x 22
 y 25
@@ -7366,9 +8196,9 @@ x 22
 y 27
 end
 arch elec_dragon
-level 100
 x 22
 y 27
+level 100
 end
 arch sea1
 x 22
@@ -7401,9 +8231,9 @@ x 22
 y 30
 end
 arch cold_dragon
-level 100
 x 22
 y 30
+level 100
 end
 arch marble
 name ice
@@ -7446,6 +8276,23 @@ name ice
 face icestorm.111
 x 22
 y 37
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 22
+y 37
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -7491,9 +8338,9 @@ x 23
 y 3
 end
 arch elec_dragon
-level 100
 x 23
 y 3
+level 100
 end
 arch snow
 x 23
@@ -7506,9 +8353,9 @@ x 23
 y 5
 end
 arch cold_dragon
-level 100
 x 23
 y 5
+level 100
 end
 arch marble
 name ice
@@ -7527,9 +8374,9 @@ x 23
 y 7
 end
 arch elec_dragon
-level 100
 x 23
 y 7
+level 100
 end
 arch snow
 x 23
@@ -7540,6 +8387,23 @@ name ice
 face icestorm.111
 x 23
 y 9
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 23
+y 9
+speed -0.300000
+level 70
 end
 arch sea1
 x 23
@@ -7576,9 +8440,9 @@ x 23
 y 13
 end
 arch elec_dragon
-level 100
 x 23
 y 13
+level 100
 end
 arch sea1
 x 23
@@ -7635,9 +8499,9 @@ x 23
 y 18
 end
 arch cold_dragon
-level 100
 x 23
 y 18
+level 100
 end
 arch sea1
 x 23
@@ -7680,9 +8544,9 @@ x 23
 y 22
 end
 arch cold_dragon
-level 100
 x 23
 y 22
+level 100
 end
 arch sea1
 x 23
@@ -7755,9 +8619,9 @@ x 23
 y 29
 end
 arch cold_dragon
-level 100
 x 23
 y 29
+level 100
 end
 arch sea1
 x 23
@@ -7780,6 +8644,30 @@ name ice
 face icestorm.111
 x 23
 y 32
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 23
+y 32
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -7864,6 +8752,23 @@ face icestorm.111
 x 24
 y 4
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 24
+y 4
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -7919,9 +8824,9 @@ x 24
 y 12
 end
 arch elec_dragon
-level 100
 x 24
 y 12
+level 100
 end
 arch sea1
 x 24
@@ -8072,9 +8977,9 @@ x 24
 y 26
 end
 arch cold_dragon
-level 100
 x 24
 y 26
+level 100
 end
 arch sea1
 x 24
@@ -8093,6 +8998,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 24
+y 28
+end
+arch mountain_2
 x 24
 y 28
 end
@@ -8390,9 +9299,9 @@ x 25
 y 25
 end
 arch cold_dragon
-level 100
 x 25
 y 25
+level 100
 end
 arch sea1
 x 25
@@ -8415,9 +9324,9 @@ x 25
 y 27
 end
 arch cold_dragon
-level 100
 x 25
 y 27
+level 100
 end
 arch sea1
 x 25
@@ -8448,6 +9357,37 @@ name ice
 face icestorm.111
 x 25
 y 30
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 25
+y 30
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -8503,6 +9443,37 @@ arch mountain
 x 25
 y 37
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 25
+y 37
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -8543,9 +9514,9 @@ x 26
 y 2
 end
 arch elec_dragon
-level 100
 x 26
 y 2
+level 100
 end
 arch snow
 x 26
@@ -8591,6 +9562,37 @@ face icestorm.111
 x 26
 y 10
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 26
+y 10
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch sea1
 x 26
 y 11
@@ -8612,9 +9614,9 @@ x 26
 y 12
 end
 arch elec_dragon
-level 100
 x 26
 y 12
+level 100
 end
 arch snow
 x 26
@@ -8745,9 +9747,9 @@ x 26
 y 26
 end
 arch cold_dragon
-level 100
 x 26
 y 26
+level 100
 end
 arch sea1
 x 26
@@ -8887,6 +9889,37 @@ face icestorm.111
 x 27
 y 2
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 27
+y 2
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -8900,9 +9933,9 @@ x 27
 y 4
 end
 arch elec_dragon
-level 100
 x 27
 y 4
+level 100
 end
 arch snow
 x 27
@@ -8919,9 +9952,9 @@ x 27
 y 7
 end
 arch elec_dragon
-level 100
 x 27
 y 7
+level 100
 end
 arch snow
 x 27
@@ -8986,9 +10019,9 @@ x 27
 y 18
 end
 arch cold_dragon
-level 100
 x 27
 y 18
+level 100
 end
 arch snow
 x 27
@@ -9129,9 +10162,9 @@ x 27
 y 30
 end
 arch elec_dragon
-level 100
 x 27
 y 30
+level 100
 end
 arch marble
 name ice
@@ -9196,9 +10229,9 @@ x 27
 y 37
 end
 arch elec_dragon
-level 100
 x 27
 y 37
+level 100
 end
 arch marble
 name ice
@@ -9258,9 +10291,9 @@ x 28
 y 5
 end
 arch cold_dragon
-level 100
 x 28
 y 5
+level 100
 end
 arch snow
 x 28
@@ -9289,9 +10322,9 @@ x 28
 y 10
 end
 arch cold_dragon
-level 100
 x 28
 y 10
+level 100
 end
 arch snow
 x 28
@@ -9306,6 +10339,23 @@ name ice
 face icestorm.111
 x 28
 y 12
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 28
+y 12
+speed -0.300000
+level 70
 end
 arch sea1
 x 28
@@ -9336,9 +10386,9 @@ x 28
 y 16
 end
 arch elec_dragon
-level 100
 x 28
 y 16
+level 100
 end
 arch snow
 x 28
@@ -9355,9 +10405,9 @@ x 28
 y 18
 end
 arch elec_dragon
-level 100
 x 28
 y 18
+level 100
 end
 arch snow
 x 28
@@ -9374,9 +10424,9 @@ x 28
 y 20
 end
 arch elec_dragon
-level 100
 x 28
 y 20
+level 100
 end
 arch snow
 x 28
@@ -9550,6 +10600,30 @@ face icestorm.111
 x 28
 y 36
 end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 28
+y 36
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
+end
 arch marble
 name ice
 face icestorm.111
@@ -9593,9 +10667,9 @@ x 29
 y 1
 end
 arch elec_dragon
-level 100
 x 29
 y 1
+level 100
 end
 arch snow
 x 29
@@ -9612,9 +10686,9 @@ x 29
 y 4
 end
 arch cold_dragon
-level 100
 x 29
 y 4
+level 100
 end
 arch snow
 x 29
@@ -9629,6 +10703,30 @@ name ice
 face icestorm.111
 x 29
 y 7
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 29
+y 7
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -9684,6 +10782,37 @@ face icestorm.111
 x 29
 y 15
 end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 29
+y 15
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
+end
 arch sea1
 x 29
 y 16
@@ -9709,9 +10838,9 @@ x 29
 y 18
 end
 arch cold_dragon
-level 100
 x 29
 y 18
+level 100
 end
 arch sea1
 x 29
@@ -9724,15 +10853,39 @@ x 29
 y 19
 end
 arch elec_dragon
-level 100
 x 29
 y 19
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 29
 y 20
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 29
+y 20
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -9915,9 +11068,9 @@ x 30
 y 3
 end
 arch cold_dragon
-level 100
 x 30
 y 3
+level 100
 end
 arch snow
 x 30
@@ -9956,9 +11109,9 @@ x 30
 y 10
 end
 arch elec_dragon
-level 100
 x 30
 y 10
+level 100
 end
 arch snow
 x 30
@@ -9975,9 +11128,9 @@ x 30
 y 13
 end
 arch cold_dragon
-level 100
 x 30
 y 13
+level 100
 end
 arch snow
 x 30
@@ -10042,9 +11195,9 @@ x 30
 y 24
 end
 arch elec_dragon
-level 100
 x 30
 y 24
+level 100
 end
 arch snow
 x 30
@@ -10057,9 +11210,9 @@ x 30
 y 26
 end
 arch cold_dragon
-level 100
 x 30
 y 26
+level 100
 end
 arch snow
 x 30
@@ -10083,6 +11236,23 @@ face icestorm.111
 x 30
 y 31
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 30
+y 31
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -10102,9 +11272,9 @@ x 30
 y 34
 end
 arch elec_dragon
-level 100
 x 30
 y 34
+level 100
 end
 arch marble
 name ice
@@ -10169,9 +11339,9 @@ x 31
 y 2
 end
 arch cold_dragon
-level 100
 x 31
 y 2
+level 100
 end
 arch snow
 x 31
@@ -10182,6 +11352,37 @@ name ice
 face icestorm.111
 x 31
 y 4
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 31
+y 4
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -10196,9 +11397,9 @@ x 31
 y 6
 end
 arch cold_dragon
-level 100
 x 31
 y 6
+level 100
 end
 arch marble
 name ice
@@ -10207,9 +11408,9 @@ x 31
 y 7
 end
 arch elec_dragon
-level 100
 x 31
 y 7
+level 100
 end
 arch snow
 x 31
@@ -10230,9 +11431,9 @@ x 31
 y 11
 end
 arch elec_dragon
-level 100
 x 31
 y 11
+level 100
 end
 arch snow
 x 31
@@ -10305,9 +11506,9 @@ x 31
 y 22
 end
 arch elec_dragon
-level 100
 x 31
 y 22
+level 100
 end
 arch snow
 x 31
@@ -10330,6 +11531,30 @@ name ice
 face icestorm.111
 x 31
 y 27
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 31
+y 27
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -10377,6 +11602,23 @@ face icestorm.111
 x 31
 y 35
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 31
+y 35
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -10390,9 +11632,9 @@ x 31
 y 37
 end
 arch elec_dragon
-level 100
 x 31
 y 37
+level 100
 end
 arch marble
 name ice
@@ -10429,6 +11671,23 @@ face icestorm.111
 x 32
 y 1
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 32
+y 1
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -10462,9 +11721,9 @@ x 32
 y 7
 end
 arch cold_dragon
-level 100
 x 32
 y 7
+level 100
 end
 arch snow
 x 32
@@ -10481,9 +11740,9 @@ x 32
 y 10
 end
 arch elec_dragon
-level 100
 x 32
 y 10
+level 100
 end
 arch snow
 x 32
@@ -10500,9 +11759,9 @@ x 32
 y 13
 end
 arch elec_dragon
-level 100
 x 32
 y 13
+level 100
 end
 arch snow
 x 32
@@ -10570,6 +11829,23 @@ face icestorm.111
 x 32
 y 23
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 32
+y 23
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -10625,9 +11901,9 @@ x 32
 y 33
 end
 arch elec_dragon
-level 100
 x 32
 y 33
+level 100
 end
 arch marble
 name ice
@@ -10660,9 +11936,9 @@ x 32
 y 38
 end
 arch elec_dragon
-level 100
 x 32
 y 38
+level 100
 end
 arch marble
 name ice
@@ -10715,9 +11991,9 @@ x 33
 y 4
 end
 arch elec_dragon
-level 100
 x 33
 y 4
+level 100
 end
 arch marble
 name ice
@@ -10726,9 +12002,9 @@ x 33
 y 5
 end
 arch cold_dragon
-level 100
 x 33
 y 5
+level 100
 end
 arch snow
 x 33
@@ -10745,9 +12021,9 @@ x 33
 y 8
 end
 arch cold_dragon
-level 100
 x 33
 y 8
+level 100
 end
 arch snow
 x 33
@@ -10787,6 +12063,23 @@ face icestorm.111
 x 33
 y 14
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 33
+y 14
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -10804,9 +12097,9 @@ x 33
 y 17
 end
 arch cold_dragon
-level 100
 x 33
 y 17
+level 100
 end
 arch snow
 x 33
@@ -10873,9 +12166,9 @@ x 33
 y 27
 end
 arch elec_dragon
-level 100
 x 33
 y 27
+level 100
 end
 arch snow
 x 33
@@ -10988,9 +12281,9 @@ x 34
 y 5
 end
 arch cold_dragon
-level 100
 x 34
 y 5
+level 100
 end
 arch snow
 x 34
@@ -11065,9 +12358,9 @@ x 34
 y 17
 end
 arch elec_dragon
-level 100
 x 34
 y 17
+level 100
 end
 arch snow
 x 34
@@ -11138,15 +12431,46 @@ x 34
 y 26
 end
 arch elec_dragon
-level 100
 x 34
 y 26
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 34
 y 27
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 34
+y 27
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -11163,6 +12487,23 @@ name ice
 face icestorm.111
 x 34
 y 30
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 34
+y 30
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -11183,9 +12524,9 @@ x 34
 y 33
 end
 arch cold_dragon
-level 100
 x 34
 y 33
+level 100
 end
 arch marble
 name ice
@@ -11194,9 +12535,9 @@ x 34
 y 34
 end
 arch cold_dragon
-level 100
 x 34
 y 34
+level 100
 end
 arch marble
 name ice
@@ -11261,9 +12602,9 @@ x 35
 y 1
 end
 arch cold_dragon
-level 100
 x 35
 y 1
+level 100
 end
 arch marble
 name ice
@@ -11272,9 +12613,9 @@ x 35
 y 2
 end
 arch elec_dragon
-level 100
 x 35
 y 2
+level 100
 end
 arch snow
 x 35
@@ -11289,6 +12630,37 @@ name ice
 face icestorm.111
 x 35
 y 5
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 35
+y 5
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -11357,9 +12729,9 @@ x 35
 y 16
 end
 arch elec_dragon
-level 100
 x 35
 y 16
+level 100
 end
 arch snow
 x 35
@@ -11372,9 +12744,9 @@ x 35
 y 18
 end
 arch elec_dragon
-level 100
 x 35
 y 18
+level 100
 end
 arch snow
 x 35
@@ -11497,9 +12869,9 @@ x 35
 y 35
 end
 arch elec_dragon
-level 100
 x 35
 y 35
+level 100
 end
 arch marble
 name ice
@@ -11561,9 +12933,9 @@ x 36
 y 2
 end
 arch cold_dragon
-level 100
 x 36
 y 2
+level 100
 end
 arch snow
 x 36
@@ -11609,6 +12981,23 @@ face icestorm.111
 x 36
 y 9
 end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 36
+y 9
+speed -0.300000
+level 70
+end
 arch marble
 name ice
 face icestorm.111
@@ -11622,9 +13011,9 @@ x 36
 y 11
 end
 arch cold_dragon
-level 100
 x 36
 y 11
+level 100
 end
 arch marble
 name ice
@@ -11633,9 +13022,9 @@ x 36
 y 12
 end
 arch cold_dragon
-level 100
 x 36
 y 12
+level 100
 end
 arch snow
 x 36
@@ -11658,6 +13047,30 @@ name ice
 face icestorm.111
 x 36
 y 17
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 36
+y 17
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -11752,9 +13165,9 @@ x 36
 y 31
 end
 arch elec_dragon
-level 100
 x 36
 y 31
+level 100
 end
 arch marble
 name ice
@@ -11767,6 +13180,30 @@ name ice
 face icestorm.111
 x 36
 y 33
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 36
+y 33
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -11837,9 +13274,9 @@ x 37
 y 1
 end
 arch elec_dragon
-level 100
 x 37
 y 1
+level 100
 end
 arch marble
 name ice
@@ -11886,9 +13323,9 @@ x 37
 y 7
 end
 arch elec_dragon
-level 100
 x 37
 y 7
+level 100
 end
 arch snow
 x 37
@@ -11941,9 +13378,9 @@ x 37
 y 15
 end
 arch cold_dragon
-level 100
 x 37
 y 15
+level 100
 end
 arch snow
 x 37
@@ -11978,9 +13415,9 @@ x 37
 y 21
 end
 arch cold_dragon
-level 100
 x 37
 y 21
+level 100
 end
 arch snow
 x 37
@@ -12047,9 +13484,9 @@ x 37
 y 29
 end
 arch elec_dragon
-level 100
 x 37
 y 29
+level 100
 end
 arch marble
 name ice
@@ -12058,15 +13495,46 @@ x 37
 y 30
 end
 arch elec_dragon
-level 100
 x 37
 y 30
+level 100
 end
 arch marble
 name ice
 face icestorm.111
 x 37
 y 31
+end
+arch byakie
+name cave byakie
+Str 90
+Dex 65
+Con 90
+Wis 20
+Pow 75
+Int 30
+hp 10000
+maxhp 8000
+sp 200
+maxsp 200
+exp 700000
+dam 60
+wc -50
+ac -40
+x 37
+y 31
+speed -0.700000
+level 50
+resist_confusion 100
+resist_paralyze 100
+carrying 25000
+arch gem
+nrof 500
+end
+arch ability_cold
+end
+arch ability_slow
+end
 end
 arch marble
 name ice
@@ -12105,9 +13573,9 @@ x 37
 y 37
 end
 arch elec_dragon
-level 100
 x 37
 y 37
+level 100
 end
 arch marble
 name ice
@@ -12160,9 +13628,9 @@ x 38
 y 2
 end
 arch elec_dragon
-level 100
 x 38
 y 2
+level 100
 end
 arch snow
 x 38
@@ -12177,6 +13645,30 @@ name ice
 face icestorm.111
 x 38
 y 5
+end
+arch big_elec
+name Legendary Blue Dragon
+Con 22
+Pow 46
+hp 12000
+maxhp 12000
+sp 100
+maxsp 150
+exp 740000
+dam 80
+wc -70
+ac -35
+x 38
+y 5
+speed -0.500000
+level 70
+carrying 5000
+arch book
+name marble
+slaying ball lightning
+face marble_blgr.111
+invisible 1
+end
 end
 arch marble
 name ice
@@ -12243,9 +13735,9 @@ x 38
 y 15
 end
 arch cold_dragon
-level 100
 x 38
 y 15
+level 100
 end
 arch snow
 x 38
@@ -12258,9 +13750,9 @@ x 38
 y 17
 end
 arch elec_dragon
-level 100
 x 38
 y 17
+level 100
 end
 arch snow
 x 38
@@ -12283,6 +13775,23 @@ name ice
 face icestorm.111
 x 38
 y 22
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 38
+y 22
+speed -0.300000
+level 70
 end
 arch marble
 name ice
@@ -12455,9 +13964,9 @@ x 39
 y 4
 end
 arch elec_dragon
-level 100
 x 39
 y 4
+level 100
 end
 arch marble
 name ice
@@ -12488,9 +13997,9 @@ x 39
 y 9
 end
 arch elec_dragon
-level 100
 x 39
 y 9
+level 100
 end
 arch marble
 name ice
@@ -12553,9 +14062,9 @@ x 39
 y 19
 end
 arch elec_dragon
-level 100
 x 39
 y 19
+level 100
 end
 arch snow
 x 39
@@ -12568,9 +14077,9 @@ x 39
 y 21
 end
 arch elec_dragon
-level 100
 x 39
 y 21
+level 100
 end
 arch marble
 name ice
@@ -12595,9 +14104,9 @@ x 39
 y 25
 end
 arch cold_dragon
-level 100
 x 39
 y 25
+level 100
 end
 arch marble
 name ice
@@ -12606,9 +14115,9 @@ x 39
 y 26
 end
 arch elec_dragon
-level 100
 x 39
 y 26
+level 100
 end
 arch marble
 name ice
@@ -12689,9 +14198,9 @@ x 39
 y 35
 end
 arch elec_dragon
-level 100
 x 39
 y 35
+level 100
 end
 arch marble
 name ice
@@ -12706,9 +14215,9 @@ x 39
 y 37
 end
 arch cold_dragon
-level 100
 x 39
 y 37
+level 100
 end
 arch marble
 name ice
@@ -13119,1512 +14628,4 @@ end
 arch mountain4
 x 40
 y 40
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-y 20
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 1
-y 11
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 2
-y 6
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 2
-y 30
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 3
-y 2
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 4
-y 26
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 5
-y 11
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 6
-y 16
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 7
-y 7
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 8
-y 22
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 8
-y 29
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 9
-y 16
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 9
-y 33
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 10
-y 2
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 10
-y 10
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 10
-y 21
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 10
-y 29
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 11
-y 25
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 12
-y 7
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 12
-y 30
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 12
-y 33
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 13
-y 17
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch mountain_2
-x 14
-y 15
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 15
-y 25
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 16
-y 3
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch mountain_2
-x 16
-y 17
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 17
-y 31
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 17
-y 37
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 18
-y 6
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 18
-y 16
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch mountain_2
-x 18
-y 20
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 19
-y 4
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 19
-y 10
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 19
-y 23
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 19
-y 28
-end
-arch mountain_2
-x 21
-y 20
-end
-arch mountain_2
-x 22
-y 24
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 22
-y 37
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 23
-y 9
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 23
-y 32
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 24
-y 4
-end
-arch mountain_2
-x 24
-y 28
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 25
-y 30
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 25
-y 37
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 26
-y 10
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 27
-y 2
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 28
-y 12
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 28
-y 36
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 29
-y 7
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 29
-y 15
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 29
-y 20
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 30
-y 31
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 31
-y 4
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 31
-y 27
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 31
-y 35
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 32
-y 1
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 32
-y 23
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 33
-y 14
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 34
-y 27
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 34
-y 30
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 35
-y 5
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 36
-y 9
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 36
-y 17
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 36
-y 33
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch byakie
-name cave byakie
-Str 90
-Dex 65
-Con 90
-Wis 20
-Pow 75
-Int 30
-hp 10000
-maxhp 8000
-sp 200
-maxsp 200
-exp 700000
-dam 60
-wc -50
-ac -40
-speed -0.700000
-level 50
-resist_confusion 100
-resist_paralyze 100
-carrying 25000
-x 37
-y 31
-arch gem
-nrof 500
-end
-arch ability_cold
-end
-arch ability_slow
-end
-end
-arch big_elec
-name Legendary Blue Dragon
-Con 22
-Pow 46
-hp 12000
-maxhp 12000
-sp 100
-maxsp 150
-exp 740000
-dam 80
-wc -70
-ac -35
-speed -0.500000
-level 70
-carrying 5000
-x 38
-y 5
-arch book
-name marble
-face marble_blgr.111
-slaying ball lightning
-invisible 1
-end
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-speed -0.300000
-level 70
-x 38
-y 22
 end

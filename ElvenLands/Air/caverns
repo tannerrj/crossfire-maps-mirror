@@ -1,11 +1,12 @@
 arch map
 name caverns
-msg
-Created:  1999-12-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-03 Rick Tanner
-endmsg
+region elvenlands
 width 39
 height 39
+msg
+Created:  1999-12-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-22 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -190,6 +191,10 @@ arch medium_stones
 x 1
 y 3
 end
+arch big_elec
+x 1
+y 3
+end
 arch medium_stones
 x 1
 y 4
@@ -401,6 +406,10 @@ arch medium_stones
 x 2
 y 8
 end
+arch chinese_dragon
+x 2
+y 8
+end
 arch medium_stones
 x 2
 y 9
@@ -473,6 +482,10 @@ arch medium_stones
 x 2
 y 23
 end
+arch big_elec
+x 2
+y 23
+end
 arch medium_stones
 x 2
 y 24
@@ -482,6 +495,10 @@ x 2
 y 25
 end
 arch medium_stones
+x 2
+y 26
+end
+arch chinese_dragon
 x 2
 y 26
 end
@@ -597,6 +614,10 @@ x 3
 y 12
 end
 arch medium_stones
+x 3
+y 13
+end
+arch big_elec
 x 3
 y 13
 end
@@ -827,6 +848,10 @@ arch medium_stones
 x 4
 y 21
 end
+arch chinese_dragon
+x 4
+y 21
+end
 arch medium_stones
 x 4
 y 22
@@ -982,6 +1007,10 @@ arch medium_stones
 x 5
 y 18
 end
+arch chinese_dragon
+x 5
+y 18
+end
 arch medium_stones
 x 5
 y 19
@@ -1097,11 +1126,19 @@ arch medium_stones
 x 6
 y 5
 end
+arch chinese_dragon
+x 6
+y 5
+end
 arch medium_stones
 x 6
 y 6
 end
 arch medium_stones
+x 6
+y 7
+end
+arch big_elec
 x 6
 y 7
 end
@@ -1130,6 +1167,10 @@ x 6
 y 13
 end
 arch medium_stones
+x 6
+y 14
+end
+arch chinese_dragon
 x 6
 y 14
 end
@@ -1177,6 +1218,10 @@ arch medium_stones
 x 6
 y 25
 end
+arch big_elec
+x 6
+y 25
+end
 arch medium_stones
 x 6
 y 26
@@ -1194,6 +1239,10 @@ x 6
 y 29
 end
 arch medium_stones
+x 6
+y 30
+end
+arch chinese_dragon
 x 6
 y 30
 end
@@ -1523,6 +1572,10 @@ arch medium_stones
 x 8
 y 23
 end
+arch chinese_dragon
+x 8
+y 23
+end
 arch medium_stones
 x 8
 y 24
@@ -1539,11 +1592,19 @@ arch medium_stones
 x 8
 y 27
 end
+arch chinese_dragon
+x 8
+y 27
+end
 arch medium_stones
 x 8
 y 28
 end
 arch medium_stones
+x 8
+y 29
+end
+arch big_elec
 x 8
 y 29
 end
@@ -1614,6 +1675,10 @@ arch medium_stones
 x 9
 y 4
 end
+arch big_elec
+x 9
+y 4
+end
 arch medium_stones
 x 9
 y 5
@@ -1634,11 +1699,19 @@ arch medium_stones
 x 9
 y 9
 end
+arch chinese_dragon
+x 9
+y 9
+end
 arch medium_stones
 x 9
 y 10
 end
 arch medium_stones
+x 9
+y 11
+end
+arch big_elec
 x 9
 y 11
 end
@@ -1877,6 +1950,10 @@ arch medium_stones
 x 10
 y 24
 end
+arch big_elec
+x 10
+y 24
+end
 arch medium_stones
 x 10
 y 25
@@ -1910,6 +1987,10 @@ x 10
 y 32
 end
 arch medium_stones
+x 10
+y 33
+end
+arch chinese_dragon
 x 10
 y 33
 end
@@ -2005,6 +2086,10 @@ x 11
 y 14
 end
 arch medium_stones
+x 11
+y 15
+end
+arch chinese_dragon
 x 11
 y 15
 end
@@ -2151,6 +2236,10 @@ arch medium_stones
 x 12
 y 7
 end
+arch big_elec
+x 12
+y 7
+end
 arch medium_stones
 x 12
 y 8
@@ -2240,6 +2329,10 @@ x 12
 y 27
 end
 arch medium_stones
+x 12
+y 28
+end
+arch chinese_dragon
 x 12
 y 28
 end
@@ -2394,6 +2487,10 @@ arch medium_stones
 x 13
 y 22
 end
+arch chinese_dragon
+x 13
+y 22
+end
 arch medium_stones
 x 13
 y 23
@@ -2443,6 +2540,10 @@ x 13
 y 34
 end
 arch medium_stones
+x 13
+y 35
+end
+arch big_elec
 x 13
 y 35
 end
@@ -2541,6 +2642,10 @@ arch medium_stones
 x 14
 y 15
 end
+arch chinese_dragon
+x 14
+y 15
+end
 arch medium_stones
 x 14
 y 16
@@ -2606,6 +2711,10 @@ x 14
 y 29
 end
 arch medium_stones
+x 14
+y 30
+end
+arch big_elec
 x 14
 y 30
 end
@@ -2773,6 +2882,10 @@ x 15
 y 24
 end
 arch medium_stones
+x 15
+y 25
+end
+arch big_elec
 x 15
 y 25
 end
@@ -3182,6 +3295,10 @@ arch medium_stones
 x 17
 y 31
 end
+arch chinese_dragon
+x 17
+y 31
+end
 arch medium_stones
 x 17
 y 32
@@ -3195,6 +3312,10 @@ x 17
 y 34
 end
 arch medium_stones
+x 17
+y 35
+end
+arch chinese_dragon
 x 17
 y 35
 end
@@ -3278,6 +3399,10 @@ x 18
 y 14
 end
 arch medium_stones
+x 18
+y 15
+end
+arch chinese_dragon
 x 18
 y 15
 end
@@ -3520,6 +3645,10 @@ arch medium_stones
 x 19
 y 20
 end
+arch big_elec
+x 19
+y 20
+end
 arch medium_stones
 x 19
 y 21
@@ -3545,6 +3674,10 @@ x 19
 y 26
 end
 arch medium_stones
+x 19
+y 27
+end
+arch big_elec
 x 19
 y 27
 end
@@ -3627,6 +3760,10 @@ arch medium_stones
 x 20
 y 6
 end
+arch big_elec
+x 20
+y 6
+end
 arch medium_stones
 x 20
 y 7
@@ -3640,6 +3777,10 @@ x 20
 y 9
 end
 arch medium_stones
+x 20
+y 10
+end
+arch chinese_dragon
 x 20
 y 10
 end
@@ -3715,6 +3856,10 @@ arch medium_stones
 x 20
 y 24
 end
+arch chinese_dragon
+x 20
+y 24
+end
 arch medium_stones
 x 20
 y 25
@@ -3748,6 +3893,10 @@ x 20
 y 32
 end
 arch medium_stones
+x 20
+y 33
+end
+arch big_elec
 x 20
 y 33
 end
@@ -3835,6 +3984,10 @@ x 21
 y 13
 end
 arch medium_stones
+x 21
+y 14
+end
+arch big_elec
 x 21
 y 14
 end
@@ -3970,6 +4123,10 @@ x 22
 y 4
 end
 arch medium_stones
+x 22
+y 5
+end
+arch chinese_dragon
 x 22
 y 5
 end
@@ -4164,6 +4321,10 @@ arch medium_stones
 x 23
 y 9
 end
+arch chinese_dragon
+x 23
+y 9
+end
 arch medium_stones
 x 23
 y 10
@@ -4173,6 +4334,10 @@ x 23
 y 11
 end
 arch medium_stones
+x 23
+y 12
+end
+arch big_elec
 x 23
 y 12
 end
@@ -4249,6 +4414,10 @@ x 23
 y 28
 end
 arch medium_stones
+x 23
+y 29
+end
+arch chinese_dragon
 x 23
 y 29
 end
@@ -4410,6 +4579,10 @@ arch medium_stones
 x 24
 y 20
 end
+arch chinese_dragon
+x 24
+y 20
+end
 arch medium_stones
 x 24
 y 21
@@ -4419,6 +4592,10 @@ x 24
 y 22
 end
 arch medium_stones
+x 24
+y 23
+end
+arch big_elec
 x 24
 y 23
 end
@@ -4524,6 +4701,10 @@ arch medium_stones
 x 25
 y 8
 end
+arch big_elec
+x 25
+y 8
+end
 arch medium_stones
 x 25
 y 9
@@ -4533,6 +4714,10 @@ x 25
 y 10
 end
 arch medium_stones
+x 25
+y 11
+end
+arch chinese_dragon
 x 25
 y 11
 end
@@ -4620,6 +4805,10 @@ arch medium_stones
 x 25
 y 29
 end
+arch big_elec
+x 25
+y 29
+end
 arch medium_stones
 x 25
 y 30
@@ -4637,6 +4826,10 @@ x 25
 y 33
 end
 arch medium_stones
+x 25
+y 34
+end
+arch chinese_dragon
 x 25
 y 34
 end
@@ -4674,6 +4867,10 @@ arch medium_stones
 x 26
 y 2
 end
+arch big_elec
+x 26
+y 2
+end
 arch medium_stones
 x 26
 y 3
@@ -4683,6 +4880,10 @@ x 26
 y 4
 end
 arch medium_stones
+x 26
+y 5
+end
+arch chinese_dragon
 x 26
 y 5
 end
@@ -4932,6 +5133,10 @@ arch medium_stones
 x 27
 y 20
 end
+arch big_elec
+x 27
+y 20
+end
 arch medium_stones
 x 27
 y 21
@@ -4957,6 +5162,10 @@ x 27
 y 26
 end
 arch medium_stones
+x 27
+y 27
+end
+arch chinese_dragon
 x 27
 y 27
 end
@@ -5018,6 +5227,10 @@ arch medium_stones
 x 28
 y 1
 end
+arch chinese_dragon
+x 28
+y 1
+end
 arch medium_stones
 x 28
 y 2
@@ -5043,6 +5256,10 @@ x 28
 y 7
 end
 arch medium_stones
+x 28
+y 8
+end
+arch chinese_dragon
 x 28
 y 8
 end
@@ -5391,6 +5608,10 @@ x 30
 y 5
 end
 arch medium_stones
+x 30
+y 6
+end
+arch chinese_dragon
 x 30
 y 6
 end
@@ -5582,6 +5803,18 @@ arch medium_stones
 x 30
 y 35
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 30
+y 35
+speed -0.500000
+level 25
+end
 arch medium_stones
 x 30
 y 36
@@ -5613,6 +5846,10 @@ x 31
 y 2
 end
 arch medium_stones
+x 31
+y 3
+end
+arch big_elec
 x 31
 y 3
 end
@@ -5934,6 +6171,19 @@ arch medium_stones
 x 32
 y 17
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 32
+y 17
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 32
 y 18
@@ -5949,6 +6199,18 @@ end
 arch medium_stones
 x 32
 y 21
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 32
+y 21
+speed -0.500000
+level 25
 end
 arch medium_stones
 x 32
@@ -5985,6 +6247,19 @@ end
 arch medium_stones
 x 32
 y 30
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 32
+y 30
+speed -0.300000
+level 20
 end
 arch medium_stones
 x 32
@@ -6140,6 +6415,19 @@ arch medium_stones
 x 33
 y 24
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 33
+y 24
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 33
 y 25
@@ -6175,6 +6463,18 @@ end
 arch medium_stones
 x 33
 y 33
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 33
+y 33
+speed -0.500000
+level 25
 end
 arch medium_stones
 x 33
@@ -6215,6 +6515,10 @@ x 34
 y 2
 end
 arch medium_stones
+x 34
+y 3
+end
+arch chinese_dragon
 x 34
 y 3
 end
@@ -6286,6 +6590,18 @@ arch medium_stones
 x 34
 y 16
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 34
+y 16
+speed -0.500000
+level 25
+end
 arch medium_stones
 x 34
 y 17
@@ -6334,6 +6650,19 @@ arch medium_stones
 x 34
 y 28
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 34
+y 28
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 34
 y 29
@@ -6365,6 +6694,19 @@ end
 arch medium_stones
 x 34
 y 36
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 34
+y 36
+speed -0.300000
+level 20
 end
 arch medium_stones
 x 34
@@ -6483,6 +6825,19 @@ arch medium_stones
 x 35
 y 20
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 35
+y 20
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 35
 y 21
@@ -6498,6 +6853,18 @@ end
 arch medium_stones
 x 35
 y 24
+end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 35
+y 24
+speed -0.500000
+level 25
 end
 arch medium_stones
 x 35
@@ -6530,6 +6897,19 @@ end
 arch medium_stones
 x 35
 y 32
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 35
+y 32
+speed -0.300000
+level 20
 end
 arch medium_stones
 x 35
@@ -7179,383 +7559,4 @@ end
 arch blocked
 x 38
 y 38
-end
-arch big_elec
-x 1
-y 3
-end
-arch chinese_dragon
-x 2
-y 8
-end
-arch big_elec
-x 2
-y 23
-end
-arch chinese_dragon
-x 2
-y 26
-end
-arch big_elec
-x 3
-y 13
-end
-arch chinese_dragon
-x 4
-y 21
-end
-arch chinese_dragon
-x 5
-y 18
-end
-arch chinese_dragon
-x 6
-y 5
-end
-arch big_elec
-x 6
-y 7
-end
-arch chinese_dragon
-x 6
-y 14
-end
-arch big_elec
-x 6
-y 25
-end
-arch chinese_dragon
-x 6
-y 30
-end
-arch chinese_dragon
-x 8
-y 23
-end
-arch chinese_dragon
-x 8
-y 27
-end
-arch big_elec
-x 8
-y 29
-end
-arch big_elec
-x 9
-y 4
-end
-arch chinese_dragon
-x 9
-y 9
-end
-arch big_elec
-x 9
-y 11
-end
-arch big_elec
-x 10
-y 24
-end
-arch chinese_dragon
-x 10
-y 33
-end
-arch chinese_dragon
-x 11
-y 15
-end
-arch big_elec
-x 12
-y 7
-end
-arch chinese_dragon
-x 12
-y 28
-end
-arch chinese_dragon
-x 13
-y 22
-end
-arch big_elec
-x 13
-y 35
-end
-arch chinese_dragon
-x 14
-y 15
-end
-arch big_elec
-x 14
-y 30
-end
-arch big_elec
-x 15
-y 25
-end
-arch chinese_dragon
-x 17
-y 31
-end
-arch chinese_dragon
-x 17
-y 35
-end
-arch chinese_dragon
-x 18
-y 15
-end
-arch big_elec
-x 19
-y 20
-end
-arch big_elec
-x 19
-y 27
-end
-arch big_elec
-x 20
-y 6
-end
-arch chinese_dragon
-x 20
-y 10
-end
-arch chinese_dragon
-x 20
-y 24
-end
-arch big_elec
-x 20
-y 33
-end
-arch big_elec
-x 21
-y 14
-end
-arch chinese_dragon
-x 22
-y 5
-end
-arch chinese_dragon
-x 23
-y 9
-end
-arch big_elec
-x 23
-y 12
-end
-arch chinese_dragon
-x 23
-y 29
-end
-arch chinese_dragon
-x 24
-y 20
-end
-arch big_elec
-x 24
-y 23
-end
-arch big_elec
-x 25
-y 8
-end
-arch chinese_dragon
-x 25
-y 11
-end
-arch big_elec
-x 25
-y 29
-end
-arch chinese_dragon
-x 25
-y 34
-end
-arch big_elec
-x 26
-y 2
-end
-arch chinese_dragon
-x 26
-y 5
-end
-arch big_elec
-x 27
-y 20
-end
-arch chinese_dragon
-x 27
-y 27
-end
-arch chinese_dragon
-x 28
-y 1
-end
-arch chinese_dragon
-x 28
-y 8
-end
-arch chinese_dragon
-x 30
-y 6
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 30
-y 35
-speed -0.500000
-level 25
-end
-arch big_elec
-x 31
-y 3
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 32
-y 17
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 32
-y 21
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 32
-y 30
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 33
-y 24
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 33
-y 33
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-x 34
-y 3
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 34
-y 16
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 34
-y 28
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 34
-y 36
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 35
-y 20
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 35
-y 24
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 35
-y 32
-speed -0.300000
-level 20
 end
