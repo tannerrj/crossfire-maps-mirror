@@ -8,7 +8,7 @@ enter_x 27
 enter_y 2
 msg
 Created:  1995-04-26
-Modified: 2022-07-16 Nicolas Weeger
+Modified: 2025-02-22 Rick Tanner
 endmsg
 reset_group lake_country-tower_sorcery
 end
@@ -4653,6 +4653,10 @@ arch flagstone
 x 24
 y 4
 end
+arch beholder
+x 24
+y 4
+end
 arch flagstone
 x 24
 y 5
@@ -4742,10 +4746,6 @@ x 24
 y 15
 end
 arch flagstone
-x 24
-y 16
-end
-arch beholder
 x 24
 y 16
 end
