@@ -1,33 +1,25 @@
 arch map
 name monsters
+width 24
+height 24
 msg
 Created:  2001-05-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 25
-height 25
 end
 arch necromancer
 race dwarf
-exp 500000
-undead 1
-attacktype 88224
-dam 10
-wc -25
-hp 3600
-ac -30
 Con 20
-reflect_missile 1
+Wis 25
+Pow 85
+hp 3600
 sp 350
 maxsp 350
-Pow 85
-reflect_spell 1
-path_attuned 393216
-path_repelled 256
-path_denied 524288
-can_see_in_dark 1
-sleep 0
-Wis 25
+exp 500000
+dam 10
+wc -25
+ac -30
+attacktype 88224
 resist_physical 95
 resist_magic 95
 resist_fire 80
@@ -43,6 +35,14 @@ resist_deplete 100
 resist_death 100
 resist_chaos 50
 resist_godpower 50
+path_attuned 393216
+path_repelled 256
+path_denied 524288
+undead 1
+reflect_missile 1
+reflect_spell 1
+sleep 0
+can_see_in_dark 1
 arch ability_paralyze
 end
 arch ability_mass_confusion
@@ -50,15 +50,15 @@ end
 arch ability_coldspell
 arch ability_bullet
 name finger of death
-sp 152
 hp 0
+sp 152
 maxsp 5
 end
 end
 arch ability_bullet
 name cause serious wounds
-sp 131
 hp 0
+sp 131
 end
 end
 arch angel
@@ -74,6 +74,7 @@ sp 500
 maxsp 700
 exp 1000000
 dam 50
+y 5
 level 50
 attacktype 4194560
 resist_physical 100
@@ -96,40 +97,128 @@ resist_godpower 50
 resist_blind 100
 reflect_missile 1
 reflect_spell 1
-y 5
 end
 arch blindness
-is_blind 0
 y 18
+is_blind 0
+end
+arch behemoth
+name Dark Behemoth
+race undead
+Con 50
+Wis 25
+Pow 25
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+dam 100
+wc -70
+ac -40
+x 1
+level 50
+attacktype 196784
+resist_physical 98
+resist_magic 98
+resist_fire -30
+resist_electricity 90
+resist_cold 100
+resist_confusion 100
+resist_acid 80
+resist_drain 100
+resist_weaponmagic 50
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 80
+resist_deplete 100
+resist_death 100
+resist_godpower 50
+resist_holyword 50
+path_attuned 262144
+path_denied 524288
+see_invisible 1
+blocksview 1
+undead 1
+can_cast_spell 1
+sleep 0
+can_see_in_dark 1
+arch ability_mass_confusion
+end
+end
+arch demon_lord
+name Demon Lord,Baruk
+Str 25
+Con 35
+hp 13000
+maxhp 13000
+sp 250
+maxsp 250
+x 1
+y 10
+resist_physical 95
+resist_magic 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 95
+carrying 100000
+reflect_missile 1
+reflect_spell 1
+arch firestar
+end
+arch dragon_mail
+end
+end
+arch Balrog
+name Great Demon of Fire
+Pow 50
+hp 12000
+maxhp 12000
+sp 550
+maxsp 550
+exp 600000
+x 1
+y 20
+level 100
+resist_physical 95
+resist_magic 95
+resist_electricity 50
+resist_cold 50
+resist_acid 70
+resist_drain 100
+resist_weaponmagic 45
+resist_paralyze 95
+resist_deplete 100
+resist_godpower 95
+arch ability_bullet
+name flaming aura
+hp 0
+sp 197
+end
 end
 arch grimreaper
 name Avatar of Devourers
+race divine
 msg
 @match *
 Graaahhhh... Death...decay...skreeee!!! we shall feast...
 upon your soul...graahhhhh...
 endmsg
-type 0
-level 90
-race divine
-exp 1500000
-attacktype 1048721
-dam 30
-wc -40
+Con 50
+Wis 50
+Pow 50
 hp 12000
 maxhp 12000
-ac -40
-Con 50
-reflect_missile 1
-can_cast_spell 1
 sp 600
 maxsp 600
-Pow 50
-reflect_spell 1
-path_attuned 393216
-path_denied 524544
-see_invisible 1
-Wis 50
+exp 1500000
+dam 30
+wc -40
+ac -40
+x 3
+level 90
+type 0
+attacktype 1048721
 resist_magic 100
 resist_fire 90
 resist_electricity 100
@@ -144,13 +233,206 @@ resist_paralyze 100
 resist_deplete 100
 resist_death 100
 resist_chaos 90
-resist_blind -100
-resist_holyword 100
 resist_godpower 95
-x 3
+resist_holyword 100
+resist_blind -100
+path_attuned 393216
+path_denied 524544
+see_invisible 1
+reflect_missile 1
+reflect_spell 1
+can_cast_spell 1
+end
+arch golem_necro
+race undead
+hp 8000
+maxhp 8000
+exp 500000
+x 4
+attacktype 65680
+resist_physical 100
+resist_magic 100
+resist_fire -100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+resist_weaponmagic 100
+resist_ghosthit 100
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 100
+resist_deplete 100
+resist_death 100
+resist_chaos 100
+resist_godpower 100
+resist_holyword 100
+resist_blind 100
+end
+arch demon_lord
+name Demon Lord,Rakuth
+Str 25
+Con 35
+hp 13000
+maxhp 13000
+sp 250
+maxsp 250
+x 5
+y 10
+resist_physical 95
+resist_magic 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 95
+resist_godpower 95
+resist_holyword 95
+carrying 100000
+reflect_missile 1
+reflect_spell 1
+arch dragon_mail
+end
+arch firestar
+end
+end
+arch golem_necro
+race undead
+hp 8000
+maxhp 8000
+exp 500000
+x 6
+attacktype 65665
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_electricity -100
+resist_cold 100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+resist_weaponmagic 100
+resist_ghosthit 100
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 100
+resist_deplete 100
+resist_death 100
+resist_chaos 100
+resist_godpower 100
+resist_holyword 100
+resist_blind 100
+end
+arch dragonman
+name Lord of Air
+Str 50
+Dex 40
+Con 40
+Pow 40
+hp 9000
+maxhp 9000
+sp 400
+maxsp 400
+dam 30
+wc -20
+ac -20
+x 6
+y 21
+attacktype 1
+resist_physical 70
+resist_magic 70
+resist_fire -50
+resist_cold 100
+resist_confusion 80
+resist_acid 95
+carrying 45000
+randomitems acdc
+can_use_armour 1
+can_use_weapon 1
+arch mjoellnir
+name Air Mallet
+Str 0
+attacktype 24
+resist_electricity 20
+resist_cold 20
+end
+arch mithril_chainmail
+resist_physical 25
+resist_electricity 10
+resist_cold 10
+end
+end
+arch golem_necro
+race undead
+hp 0
+maxhp 8000
+exp 500000
+x 8
+attacktype 65668
+resist_physical 100
+resist_magic 100
+resist_fire 100
+resist_cold -100
+resist_confusion 100
+resist_acid 100
+resist_drain 100
+resist_weaponmagic 100
+resist_ghosthit 100
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 100
+resist_deplete 100
+resist_death 100
+resist_chaos 100
+resist_godpower 100
+resist_holyword 100
+resist_blind 100
+end
+arch titan
+name Earth Master
+Str 80
+Dex 35
+Con 70
+Pow 35
+hp 18000
+maxhp 18000
+sp 200
+maxsp 200
+dam 80
+x 9
+y 22
+resist_physical 95
+resist_magic -20
+resist_fire 80
+resist_electricity 95
+resist_cold 60
+resist_confusion -50
+resist_acid 95
+resist_holyword 50
+carrying 165000
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch bonecrusher
+name Earth Crusher
+slaying earth elemental
+dam 120
+magic 5
+end
+arch mithril_chainmail
+resist_physical 45
+resist_electricity 5
+end
 end
 arch c_knight
 name Necromancer's Guards
+x 10
+y 2
 attacktype 1
 resist_physical 50
 resist_drain 100
@@ -158,41 +440,130 @@ resist_deplete 100
 resist_death 100
 resist_chaos 0
 unaggressive 1
-x 10
-y 2
+end
+arch medium_demon
+name servant of Spec
+Con 25
+hp 9000
+maxhp 9000
+exp 500000
+dam 100
+wc -40
+ac -30
+x 11
+level 40
+attacktype 292
+resist_physical 80
+resist_magic 80
+resist_weaponmagic 50
+resist_death 100
+path_attuned 131072
+arch ability_hellfire
+end
+end
+arch baslic
+name Levithian
+race dragon
+Str 70
+Dex 40
+Con 70
+Pow 40
+hp 17000
+maxhp 17000
+sp 300
+maxsp 300
+dam 50
+wc -20
+ac -20
+x 12
+y 22
+attacktype 1
+resist_physical 95
+resist_fire 100
+resist_electricity 100
+resist_acid 95
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name steambolt
+sp 139
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison fog
+sp 196
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison cloud
+sp 21
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large lightning
+sp 6
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large icestorm
+sp 59
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name dragonbreath
+sp 58
+speed 0.000000
+type 110
+is_blind 0
+end
 end
 arch imp
 name Spec
 title the Imp
-level 40
-exp 80000
-speed 1.0
-dam 40
-wc 20
+Con 5
+Wis 4
+Pow 5
 hp 1000
 maxhp 1000
-ac 15
-Con 5
 sp 50
 maxsp 50
-Pow 5
-path_attuned 2
-path_denied 260
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-Wis 4
+exp 80000
+dam 40
+wc 20
+ac 15
+x 13
+y 1
+speed 1.0
+level 40
 resist_physical 95
 resist_magic 95
 resist_confusion 100
 resist_fear 100
-x 13
-y 1
+path_attuned 2
+path_denied 260
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch skill_stealing
 end
 arch skill_flame_touch
@@ -202,24 +573,106 @@ end
 arch glovesofsun
 name fiery gloves of the quick-handed
 msg
-These gloves, originally crafted by ancient dwarves of 
-Morgria, were enchanted to the forces of flame and 
+These gloves, originally crafted by ancient dwarves of
+Morgria, were enchanted to the forces of flame and
 darkness by powerful demons of flame.
 endmsg
-value 9000
-material 264
-identified 1
-damned 1
-startequip 0
+Dex 1
 resist_physical 2
 resist_fire 15
 resist_fear 50
-Dex 1
+material 264
+value 9000
+identified 1
+startequip 0
 stealth 1
+damned 1
 end
 arch ability_mass_confusion
 end
 arch ability_firespell
+end
+end
+arch Balrog
+name Gua'thruuk
+sp 100
+maxsp 150
+exp 1200000
+dam 120
+wc -70
+ac -50
+x 14
+level 80
+attacktype 1061
+resist_physical 99
+resist_magic 99
+resist_electricity 80
+resist_weaponmagic 50
+resist_death 100
+path_attuned 131074
+can_see_in_dark 1
+arch ability_mass_confusion
+end
+end
+arch gaelotroll
+name Ruggilly troll
+Str 60
+Con 50
+Wis 80
+hp 10000
+maxhp 10000
+sp 700
+maxsp 700
+dam 50
+ac -30
+x 22
+y 1
+attacktype 262149
+resist_physical 95
+resist_magic 95
+resist_fire 100
+resist_electricity 95
+resist_cold -50
+resist_confusion 100
+resist_drain 100
+resist_weaponmagic 50
+resist_ghosthit 100
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_fear 100
+resist_death 50
+resist_chaos 100
+resist_godpower 100
+resist_holyword 50
+resist_blind 50
+carrying 45000
+arch firestar
+title of Chaos
+msg
+This firestar burns with chaotic energy. Your head begins
+to spin as you touch it... Are you strong enough to weild it
+without the dark energy destroying your mind?
+endmsg
+dam 50
+attacktype 262148
+resist_fire 0
+resist_drain 0
+resist_fear 0
+material 256
+weapontype 8
+identified 1
+end
+arch holy_symbol
+name Symbol
+title of Chaos
+face burnout.114
+Wis 1
+sp 40
+resist_fire 20
+resist_chaos 20
+path_attuned 2
+material 64
 end
 end
 arch dark_elf
@@ -237,46 +690,40 @@ exp 50000
 dam 15
 wc -25
 ac -20
-level 15
-carrying 15000
 x 22
 y 14
+level 15
+carrying 15000
 arch mithril_chainmail
 end
 end
 arch wizard
 name Ugathu Toom
+race goblin
 msg
 @match *
 Die,in the name of the black
 alliance!!!
 endmsg
-type 0
-level 40
-race goblin
-exp 250000
-speed 0.32
-carrying 6700
-attacktype 1025
-dam 10
-wc -20
+Con 20
+Wis 20
+Pow 25
+Int 9
 hp 2500
 maxhp 2500
-ac -15
-Con 20
-reflect_missile 1
-can_cast_spell 1
 sp 100
 maxsp 100
-Pow 25
-reflect_spell 1
-Int 9
-can_use_scroll 1
-can_use_skill 1
-unaggressive 1
-Wis 20
+exp 250000
+dam 10
+wc -20
+ac -15
+x 23
+y 7
+speed 0.32
 attack_movement 7
-run_away 5
+level 40
+type 0
+attacktype 1025
 resist_physical 50
 resist_magic 90
 resist_fire 50
@@ -286,13 +733,19 @@ resist_confusion 50
 resist_poison 50
 resist_slow 50
 resist_paralyze 100
-x 23
-y 7
+carrying 6700
+unaggressive 1
+reflect_missile 1
+reflect_spell 1
+run_away 5
+can_cast_spell 1
+can_use_scroll 1
+can_use_skill 1
 arch blindness
 name rune of death
-type 110
 sp 110
 speed 0.000000
+type 110
 is_blind 0
 end
 arch ability_bomb
@@ -314,458 +767,5 @@ arch ability_bomb
 name rune of magic drain
 sp 118
 end
-end
-end
-arch behemoth
-name Dark Behemoth
-blocksview 1
-level 50
-race undead
-undead 1
-attacktype 196784
-dam 100
-wc -70
-hp 10000
-maxhp 10000
-ac -40
-Con 50
-can_cast_spell 1
-sp 300
-maxsp 300
-Pow 25
-path_attuned 262144
-path_denied 524288
-see_invisible 1
-can_see_in_dark 1
-sleep 0
-Wis 25
-resist_physical 98
-resist_magic 98
-resist_fire -30
-resist_electricity 90
-resist_cold 100
-resist_confusion 100
-resist_acid 80
-resist_drain 100
-resist_weaponmagic 50
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_deplete 100
-resist_turn_undead 80
-resist_death 100
-resist_holyword 50
-resist_godpower 50
-x 1
-arch ability_mass_confusion
-end
-end
-arch demon_lord
-name Demon Lord,Baruk
-Str 25
-Con 35
-hp 13000
-maxhp 13000
-sp 250
-maxsp 250
-resist_physical 95
-resist_magic 100
-resist_electricity 100
-resist_cold 100
-resist_weaponmagic 95
-carrying 100000
-reflect_missile 1
-reflect_spell 1
-x 1
-y 10
-arch firestar
-end
-arch dragon_mail
-end
-end
-arch Balrog
-name Great Demon of Fire
-level 100
-exp 600000
-hp 12000
-maxhp 12000
-sp 550
-maxsp 550
-Pow 50
-resist_physical 95
-resist_magic 95
-resist_electricity 50
-resist_cold 50
-resist_acid 70
-resist_drain 100
-resist_weaponmagic 45
-resist_paralyze 95
-resist_deplete 100
-resist_godpower 95
-x 1
-y 20
-arch ability_bullet
-name flaming aura
-sp 197
-hp 0
-end
-end
-arch golem_necro
-race undead
-exp 500000
-attacktype 65680
-hp 8000
-maxhp 8000
-resist_physical 100
-resist_magic 100
-resist_fire -100
-resist_cold 100
-resist_confusion 100
-resist_acid 100
-resist_drain 100
-resist_weaponmagic 100
-resist_ghosthit 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_deplete 100
-resist_turn_undead 100
-resist_death 100
-resist_chaos 100
-resist_blind 100
-resist_holyword 100
-resist_godpower 100
-x 4
-end
-arch demon_lord
-name Demon Lord,Rakuth
-Str 25
-Con 35
-hp 13000
-maxhp 13000
-sp 250
-maxsp 250
-resist_physical 95
-resist_magic 100
-resist_electricity 100
-resist_cold 100
-resist_weaponmagic 95
-resist_godpower 95
-resist_holyword 95
-carrying 100000
-reflect_missile 1
-reflect_spell 1
-x 5
-y 10
-arch dragon_mail
-end
-arch firestar
-end
-end
-arch golem_necro
-race undead
-exp 500000
-attacktype 65665
-hp 8000
-maxhp 8000
-resist_physical 100
-resist_magic 100
-resist_fire 100
-resist_electricity -100
-resist_cold 100
-resist_confusion 100
-resist_acid 100
-resist_drain 100
-resist_weaponmagic 100
-resist_ghosthit 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_deplete 100
-resist_turn_undead 100
-resist_death 100
-resist_chaos 100
-resist_blind 100
-resist_holyword 100
-resist_godpower 100
-x 6
-end
-arch dragonman
-name Lord of Air
-Str 50
-Dex 40
-Con 40
-Pow 40
-hp 9000
-maxhp 9000
-sp 400
-maxsp 400
-dam 30
-wc -20
-ac -20
-attacktype 1
-resist_physical 70
-resist_magic 70
-resist_fire -50
-resist_cold 100
-resist_confusion 80
-resist_acid 95
-carrying 45000
-randomitems acdc
-can_use_armour 1
-can_use_weapon 1
-x 6
-y 21
-arch mjoellnir
-name Air Mallet
-Str 0
-attacktype 24
-resist_electricity 20
-resist_cold 20
-end
-arch mithril_chainmail
-resist_physical 25
-resist_electricity 10
-resist_cold 10
-end
-end
-arch golem_necro
-race undead
-exp 500000
-attacktype 65668
-hp 0
-maxhp 8000
-resist_physical 100
-resist_magic 100
-resist_fire 100
-resist_cold -100
-resist_confusion 100
-resist_acid 100
-resist_drain 100
-resist_weaponmagic 100
-resist_ghosthit 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_deplete 100
-resist_turn_undead 100
-resist_death 100
-resist_chaos 100
-resist_blind 100
-resist_holyword 100
-resist_godpower 100
-x 8
-end
-arch titan
-name Earth Master
-Str 80
-Dex 35
-Con 70
-Pow 35
-hp 18000
-maxhp 18000
-sp 200
-maxsp 200
-dam 80
-resist_physical 95
-resist_magic -20
-resist_fire 80
-resist_electricity 95
-resist_cold 60
-resist_confusion -50
-resist_acid 95
-resist_holyword 50
-carrying 165000
-x 9
-y 22
-arch blindness
-name shockwave
-type 110
-sp 84
-speed 0.000000
-is_blind 0
-end
-arch bonecrusher
-name Earth Crusher
-slaying earth elemental
-dam 120
-magic 5
-end
-arch mithril_chainmail
-resist_physical 45
-resist_electricity 5
-end
-end
-arch medium_demon
-name servant of Spec
-level 40
-exp 500000
-attacktype 292
-dam 100
-wc -40
-hp 9000
-maxhp 9000
-ac -30
-Con 25
-path_attuned 131072
-resist_physical 80
-resist_magic 80
-resist_weaponmagic 50
-resist_death 100
-x 11
-arch ability_hellfire
-end
-end
-arch baslic
-name Levithian
-race dragon
-Str 70
-Dex 40
-Con 70
-Pow 40
-hp 17000
-maxhp 17000
-sp 300
-maxsp 300
-dam 50
-wc -20
-ac -20
-attacktype 1
-resist_physical 95
-resist_fire 100
-resist_electricity 100
-resist_acid 95
-x 12
-y 22
-arch blindness
-name shockwave
-type 110
-sp 84
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name steambolt
-type 110
-sp 139
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name poison fog
-type 110
-sp 196
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name poison cloud
-type 110
-sp 21
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name large lightning
-type 110
-sp 6
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name large icestorm
-type 110
-sp 59
-speed 0.000000
-is_blind 0
-end
-arch blindness
-name dragonbreath
-type 110
-sp 58
-speed 0.000000
-is_blind 0
-end
-end
-arch Balrog
-name Gua'thruuk
-level 80
-exp 1200000
-attacktype 1061
-dam 120
-wc -70
-ac -50
-sp 100
-maxsp 150
-path_attuned 131074
-can_see_in_dark 1
-resist_physical 99
-resist_magic 99
-resist_electricity 80
-resist_weaponmagic 50
-resist_death 100
-x 14
-arch ability_mass_confusion
-end
-end
-arch gaelotroll
-name Ruggilly troll
-Str 60
-Con 50
-Wis 80
-hp 10000
-maxhp 10000
-sp 700
-maxsp 700
-dam 50
-ac -30
-attacktype 262149
-resist_physical 95
-resist_magic 95
-resist_fire 100
-resist_electricity 95
-resist_cold -50
-resist_confusion 100
-resist_drain 100
-resist_weaponmagic 50
-resist_ghosthit 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_fear 100
-resist_death 50
-resist_chaos 100
-resist_godpower 100
-resist_holyword 50
-resist_blind 50
-carrying 45000
-x 22
-y 1
-arch firestar
-msg
-This firestar burns with chaotic energy. Your head begins 
-to spin as you touch it... Are you strong enough to weild it
-without the dark energy destroying your mind?
-endmsg
-title of Chaos
-material 256
-identified 1
-attacktype 262148
-weapontype 8
-dam 50
-resist_fire 0
-resist_drain 0
-resist_fear 0
-end
-arch holy_symbol
-name Symbol
-face burnout.114
-title of Chaos
-material 64
-Wis 1
-sp 40
-resist_fire 20
-resist_chaos 20
-path_attuned 2
 end
 end

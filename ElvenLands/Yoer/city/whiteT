@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-05-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
 width 45
 height 45
+msg
+Created:  2001-05-12 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -348,6 +349,10 @@ arch dungeon_floor
 x 1
 y 9
 end
+arch troll
+x 1
+y 9
+end
 arch dungeon_floor
 x 1
 y 10
@@ -369,6 +374,10 @@ x 1
 y 14
 end
 arch dungeon_floor
+x 1
+y 15
+end
+arch troll
 x 1
 y 15
 end
@@ -416,6 +425,27 @@ arch random_spells
 x 1
 y 24
 end
+arch Greater_Demon
+name Mega Demon
+Con 100
+Wis 25
+Pow 100
+hp 20000
+maxhp 20000
+sp 250
+maxsp 250
+exp 1000000
+dam 100
+wc -60
+ac -20
+x 1
+y 24
+level 60
+resist_physical 80
+resist_magic 100
+resist_electricity 100
+resist_cold 100
+end
 arch dungeon_floor
 x 1
 y 25
@@ -456,6 +486,10 @@ arch dungeon_floor
 x 1
 y 31
 end
+arch Greater_Demon
+x 1
+y 31
+end
 arch dungeon_floor
 x 1
 y 32
@@ -481,6 +515,10 @@ x 1
 y 37
 end
 arch dungeon_floor
+x 1
+y 38
+end
+arch Balrog
 x 1
 y 38
 end
@@ -598,6 +636,10 @@ arch dungeon_floor
 x 2
 y 12
 end
+arch troll
+x 2
+y 12
+end
 arch dungeon_floor
 x 2
 y 13
@@ -622,6 +664,10 @@ arch dungeon_floor
 x 2
 y 18
 end
+arch behemoth
+x 2
+y 18
+end
 arch dungeon_floor
 x 2
 y 19
@@ -631,6 +677,10 @@ x 2
 y 20
 end
 arch dungeon_floor
+x 2
+y 21
+end
+arch dread
 x 2
 y 21
 end
@@ -846,6 +896,10 @@ arch dungeon_floor
 x 3
 y 9
 end
+arch troll
+x 3
+y 9
+end
 arch dungeon_floor
 x 3
 y 10
@@ -863,6 +917,10 @@ x 3
 y 13
 end
 arch dungeon_floor
+x 3
+y 14
+end
+arch troll
 x 3
 y 14
 end
@@ -1112,6 +1170,10 @@ arch dungeon_floor
 x 4
 y 16
 end
+arch behemoth
+x 4
+y 16
+end
 arch dungeon_floor
 x 4
 y 17
@@ -1121,6 +1183,10 @@ x 4
 y 18
 end
 arch dungeon_floor
+x 4
+y 19
+end
+arch dread
 x 4
 y 19
 end
@@ -1322,6 +1388,10 @@ arch dungeon_floor
 x 5
 y 9
 end
+arch troll
+x 5
+y 9
+end
 arch dungeon_floor
 x 5
 y 10
@@ -1334,6 +1404,10 @@ arch dungeon_floor
 x 5
 y 12
 end
+arch troll
+x 5
+y 12
+end
 arch dungeon_floor
 x 5
 y 13
@@ -1343,6 +1417,10 @@ x 5
 y 14
 end
 arch dungeon_floor
+x 5
+y 15
+end
+arch troll
 x 5
 y 15
 end
@@ -1367,6 +1445,10 @@ x 5
 y 20
 end
 arch dungeon_floor
+x 5
+y 21
+end
+arch behemoth
 x 5
 y 21
 end
@@ -1455,6 +1537,10 @@ x 5
 y 37
 end
 arch dungeon_floor
+x 5
+y 38
+end
+arch Balrog
 x 5
 y 38
 end
@@ -1618,6 +1704,10 @@ arch dungeon_floor
 x 6
 y 17
 end
+arch behemoth
+x 6
+y 17
+end
 arch dungeon_floor
 x 6
 y 18
@@ -1870,6 +1960,10 @@ arch dungeon_floor
 x 7
 y 14
 end
+arch troll
+x 7
+y 14
+end
 arch dungeon_floor
 x 7
 y 15
@@ -1887,6 +1981,10 @@ x 7
 y 18
 end
 arch dungeon_floor
+x 7
+y 19
+end
+arch behemoth
 x 7
 y 19
 end
@@ -1918,6 +2016,10 @@ arch random_artifact
 x 7
 y 24
 end
+arch Greater_Demon
+x 7
+y 24
+end
 arch dungeon_floor
 x 7
 y 25
@@ -1955,6 +2057,10 @@ x 7
 y 30
 end
 arch dungeon_floor
+x 7
+y 31
+end
+arch Balrog
 x 7
 y 31
 end
@@ -2114,6 +2220,10 @@ arch dungeon_floor
 x 8
 y 9
 end
+arch troll
+x 8
+y 9
+end
 arch dungeon_floor
 x 8
 y 10
@@ -2159,6 +2269,10 @@ x 8
 y 20
 end
 arch dungeon_floor
+x 8
+y 21
+end
+arch dread
 x 8
 y 21
 end
@@ -2402,6 +2516,10 @@ arch dungeon_floor
 x 9
 y 15
 end
+arch troll
+x 9
+y 15
+end
 arch dungeon_floor
 x 9
 y 16
@@ -2411,6 +2529,10 @@ x 9
 y 17
 end
 arch dungeon_floor
+x 9
+y 18
+end
+arch troll
 x 9
 y 18
 end
@@ -2628,6 +2750,10 @@ arch dungeon_floor
 x 10
 y 12
 end
+arch troll
+x 10
+y 12
+end
 arch dungeon_floor
 x 10
 y 13
@@ -2661,6 +2787,10 @@ x 10
 y 20
 end
 arch dungeon_floor
+x 10
+y 21
+end
+arch behemoth
 x 10
 y 21
 end
@@ -2753,6 +2883,10 @@ x 10
 y 38
 end
 arch dungeon_floor
+x 10
+y 39
+end
+arch demon_lord
 x 10
 y 39
 end
@@ -2854,6 +2988,10 @@ arch dungeon_floor
 x 11
 y 9
 end
+arch troll
+x 11
+y 9
+end
 arch dungeon_floor
 x 11
 y 10
@@ -2875,6 +3013,10 @@ x 11
 y 14
 end
 arch dungeon_floor
+x 11
+y 15
+end
+arch troll
 x 11
 y 15
 end
@@ -3134,6 +3276,10 @@ arch dungeon_floor
 x 12
 y 13
 end
+arch troll
+x 12
+y 13
+end
 arch dungeon_floor
 x 12
 y 14
@@ -3154,11 +3300,19 @@ arch dungeon_floor
 x 12
 y 18
 end
+arch behemoth
+x 12
+y 18
+end
 arch dungeon_floor
 x 12
 y 19
 end
 arch dungeon_floor
+x 12
+y 20
+end
+arch behemoth
 x 12
 y 20
 end
@@ -3794,6 +3948,10 @@ arch dungeon_floor
 x 14
 y 30
 end
+arch demon_lord
+x 14
+y 30
+end
 arch dungeon_floor
 x 14
 y 31
@@ -3827,6 +3985,10 @@ x 14
 y 38
 end
 arch dungeon_floor
+x 14
+y 39
+end
+arch demon_lord
 x 14
 y 39
 end
@@ -3904,6 +4066,10 @@ arch dungeon_floor
 x 15
 y 6
 end
+arch giant
+x 15
+y 6
+end
 arch dungeon_floor
 x 15
 y 7
@@ -3969,6 +4135,10 @@ x 15
 y 16
 end
 arch dungeon_floor
+x 15
+y 17
+end
+arch gaelotroll
 x 15
 y 17
 end
@@ -4168,6 +4338,10 @@ arch dungeon_floor
 x 16
 y 7
 end
+arch giant
+x 16
+y 7
+end
 arch dungeon_floor
 x 16
 y 8
@@ -4245,6 +4419,10 @@ x 16
 y 21
 end
 arch dungeon_floor
+x 16
+y 22
+end
+arch titan
 x 16
 y 22
 end
@@ -4420,6 +4598,10 @@ arch dungeon_floor
 x 17
 y 6
 end
+arch giant
+x 17
+y 6
+end
 arch dungeon_floor
 x 17
 y 7
@@ -4456,11 +4638,19 @@ arch dungeon_floor
 x 17
 y 12
 end
+arch dragon
+x 17
+y 12
+end
 arch dungeon_floor
 x 17
 y 13
 end
 arch dungeon_floor
+x 17
+y 14
+end
+arch dragon
 x 17
 y 14
 end
@@ -4712,6 +4902,10 @@ arch dungeon_floor
 x 18
 y 7
 end
+arch giant
+x 18
+y 7
+end
 arch dungeon_floor
 x 18
 y 8
@@ -4769,6 +4963,10 @@ x 18
 y 16
 end
 arch dungeon_floor
+x 18
+y 17
+end
+arch gaelotroll
 x 18
 y 17
 end
@@ -4920,7 +5118,15 @@ arch dungeon_floor
 x 18
 y 39
 end
+arch Cwyvern
+x 18
+y 39
+end
 arch dungeon_floor
+x 18
+y 40
+end
+arch Cwyvern
 x 18
 y 40
 end
@@ -4928,11 +5134,23 @@ arch dungeon_floor
 x 18
 y 41
 end
+arch Cwyvern
+x 18
+y 41
+end
 arch dungeon_floor
 x 18
 y 42
 end
+arch Cwyvern
+x 18
+y 42
+end
 arch dungeon_floor
+x 18
+y 43
+end
+arch Cwyvern
 x 18
 y 43
 end
@@ -4994,6 +5212,10 @@ arch dungeon_floor
 x 19
 y 6
 end
+arch giant
+x 19
+y 6
+end
 arch dungeon_floor
 x 19
 y 7
@@ -5031,6 +5253,10 @@ x 19
 y 12
 end
 arch dungeon_floor
+x 19
+y 13
+end
+arch dragon
 x 19
 y 13
 end
@@ -5107,6 +5333,10 @@ x 19
 y 28
 end
 arch dungeon_floor
+x 19
+y 29
+end
+arch EDK
 x 19
 y 29
 end
@@ -5248,6 +5478,10 @@ arch dungeon_floor
 x 20
 y 7
 end
+arch giant
+x 20
+y 7
+end
 arch dungeon_floor
 x 20
 y 8
@@ -5288,6 +5522,10 @@ arch dungeon_floor
 x 20
 y 14
 end
+arch dragon
+x 20
+y 14
+end
 arch dungeon_floor
 x 20
 y 15
@@ -5308,6 +5546,10 @@ arch dungeon_floor
 x 20
 y 17
 end
+arch gaelotroll
+x 20
+y 17
+end
 arch dungeon_floor
 x 20
 y 18
@@ -5321,6 +5563,10 @@ x 20
 y 20
 end
 arch dungeon_floor
+x 20
+y 21
+end
+arch titan
 x 20
 y 21
 end
@@ -5341,6 +5587,10 @@ x 20
 y 24
 end
 arch dungeon_floor
+x 20
+y 25
+end
+arch EDK
 x 20
 y 25
 end
@@ -5420,7 +5670,15 @@ arch dungeon_floor
 x 20
 y 39
 end
+arch Cwyvern
+x 20
+y 39
+end
 arch dungeon_floor
+x 20
+y 40
+end
+arch Cwyvern
 x 20
 y 40
 end
@@ -5428,11 +5686,23 @@ arch dungeon_floor
 x 20
 y 41
 end
+arch Cwyvern
+x 20
+y 41
+end
 arch dungeon_floor
 x 20
 y 42
 end
+arch Cwyvern
+x 20
+y 42
+end
 arch dungeon_floor
+x 20
+y 43
+end
+arch Cwyvern
 x 20
 y 43
 end
@@ -5534,6 +5804,10 @@ arch dungeon_floor
 x 21
 y 13
 end
+arch dragon
+x 21
+y 13
+end
 arch dungeon_floor
 x 21
 y 14
@@ -5606,6 +5880,10 @@ arch dungeon_floor
 x 21
 y 28
 end
+arch cyclops
+x 21
+y 28
+end
 arch dungeon_floor
 x 21
 y 29
@@ -5615,6 +5893,10 @@ x 21
 y 30
 end
 arch dungeon_floor
+x 21
+y 31
+end
+arch big_wiz
 x 21
 y 31
 end
@@ -5744,6 +6026,10 @@ arch dungeon_floor
 x 22
 y 6
 end
+arch giant
+x 22
+y 6
+end
 arch dungeon_floor
 x 22
 y 7
@@ -5841,6 +6127,10 @@ x 22
 y 24
 end
 arch dungeon_floor
+x 22
+y 25
+end
+arch cyclops
 x 22
 y 25
 end
@@ -6050,11 +6340,23 @@ arch dungeon_floor
 x 23
 y 12
 end
+arch dragon
+x 23
+y 12
+end
 arch dungeon_floor
 x 23
 y 13
 end
+arch dragon
+x 23
+y 13
+end
 arch dungeon_floor
+x 23
+y 14
+end
+arch dragon
 x 23
 y 14
 end
@@ -6075,6 +6377,10 @@ x 23
 y 16
 end
 arch dungeon_floor
+x 23
+y 17
+end
+arch gaelotroll
 x 23
 y 17
 end
@@ -6252,6 +6558,10 @@ arch dungeon_floor
 x 24
 y 7
 end
+arch giant
+x 24
+y 7
+end
 arch dungeon_floor
 x 24
 y 8
@@ -6328,6 +6638,10 @@ arch dungeon_floor
 x 24
 y 21
 end
+arch titan
+x 24
+y 21
+end
 arch dungeon_floor
 x 24
 y 22
@@ -6352,6 +6666,10 @@ arch dungeon_floor
 x 24
 y 26
 end
+arch EDK
+x 24
+y 26
+end
 arch dungeon_floor
 x 24
 y 27
@@ -6365,6 +6683,10 @@ x 24
 y 29
 end
 arch dungeon_floor
+x 24
+y 30
+end
+arch cyclops
 x 24
 y 30
 end
@@ -6392,6 +6714,10 @@ arch dungeon_floor
 x 24
 y 35
 end
+arch big_elec
+x 24
+y 35
+end
 arch dungeon_floor
 x 24
 y 36
@@ -6401,6 +6727,10 @@ x 24
 y 37
 end
 arch dungeon_floor
+x 24
+y 38
+end
+arch big_elec
 x 24
 y 38
 end
@@ -6518,11 +6848,23 @@ arch dungeon_floor
 x 25
 y 12
 end
+arch dragon
+x 25
+y 12
+end
 arch dungeon_floor
 x 25
 y 13
 end
+arch dragon
+x 25
+y 13
+end
 arch dungeon_floor
+x 25
+y 14
+end
+arch dragon
 x 25
 y 14
 end
@@ -6650,6 +6992,10 @@ arch dungeon_floor
 x 25
 y 41
 end
+arch big_elec
+x 25
+y 41
+end
 arch dungeon_floor
 x 25
 y 42
@@ -6713,6 +7059,10 @@ x 26
 y 5
 end
 arch dungeon_floor
+x 26
+y 6
+end
+arch giant
 x 26
 y 6
 end
@@ -6784,6 +7134,10 @@ arch dungeon_floor
 x 26
 y 18
 end
+arch titan
+x 26
+y 18
+end
 arch dungeon_floor
 x 26
 y 19
@@ -6816,6 +7170,10 @@ arch dungeon_floor
 x 26
 y 25
 end
+arch big_wiz
+x 26
+y 25
+end
 arch dungeon_floor
 x 26
 y 26
@@ -6833,6 +7191,10 @@ x 26
 y 29
 end
 arch dungeon_floor
+x 26
+y 30
+end
+arch cyclops
 x 26
 y 30
 end
@@ -6954,6 +7316,10 @@ arch dungeon_floor
 x 27
 y 7
 end
+arch giant
+x 27
+y 7
+end
 arch dungeon_floor
 x 27
 y 8
@@ -7030,6 +7396,10 @@ arch dungeon_floor
 x 27
 y 21
 end
+arch gaelotroll
+x 27
+y 21
+end
 arch dungeon_floor
 x 27
 y 22
@@ -7095,6 +7465,10 @@ x 27
 y 35
 end
 arch dungeon_floor
+x 27
+y 36
+end
+arch big_elec
 x 27
 y 36
 end
@@ -7184,6 +7558,10 @@ arch dungeon_floor
 x 28
 y 6
 end
+arch giant
+x 28
+y 6
+end
 arch dungeon_floor
 x 28
 y 7
@@ -7220,11 +7598,23 @@ arch dungeon_floor
 x 28
 y 12
 end
+arch dragon
+x 28
+y 12
+end
 arch dungeon_floor
 x 28
 y 13
 end
+arch dragon
+x 28
+y 13
+end
 arch dungeon_floor
+x 28
+y 14
+end
+arch dragon
 x 28
 y 14
 end
@@ -7305,6 +7695,10 @@ x 28
 y 30
 end
 arch dungeon_floor
+x 28
+y 31
+end
+arch big_wiz
 x 28
 y 31
 end
@@ -7486,11 +7880,19 @@ arch dungeon_floor
 x 29
 y 18
 end
+arch titan
+x 29
+y 18
+end
 arch dungeon_floor
 x 29
 y 19
 end
 arch dungeon_floor
+x 29
+y 20
+end
+arch gaelotroll
 x 29
 y 20
 end
@@ -7519,6 +7921,10 @@ x 29
 y 25
 end
 arch dungeon_floor
+x 29
+y 26
+end
+arch EDK
 x 29
 y 26
 end
@@ -7570,6 +7976,10 @@ arch dungeon_floor
 x 29
 y 37
 end
+arch big_elec
+x 29
+y 37
+end
 arch dungeon_floor
 x 29
 y 38
@@ -7579,6 +7989,10 @@ x 29
 y 39
 end
 arch dungeon_floor
+x 29
+y 40
+end
+arch big_elec
 x 29
 y 40
 end
@@ -7656,6 +8070,10 @@ arch dungeon_floor
 x 30
 y 7
 end
+arch giant
+x 30
+y 7
+end
 arch dungeon_floor
 x 30
 y 8
@@ -7689,6 +8107,10 @@ x 30
 y 12
 end
 arch dungeon_floor
+x 30
+y 13
+end
+arch dragon
 x 30
 y 13
 end
@@ -7886,6 +8308,10 @@ arch dungeon_floor
 x 31
 y 6
 end
+arch giant
+x 31
+y 6
+end
 arch dungeon_floor
 x 31
 y 7
@@ -7922,11 +8348,19 @@ arch dungeon_floor
 x 31
 y 12
 end
+arch dragon
+x 31
+y 12
+end
 arch dungeon_floor
 x 31
 y 13
 end
 arch dungeon_floor
+x 31
+y 14
+end
+arch dragon
 x 31
 y 14
 end
@@ -8204,6 +8638,10 @@ arch dungeon_floor
 x 32
 y 6
 end
+arch giant
+x 32
+y 6
+end
 arch dungeon_floor
 x 32
 y 7
@@ -8268,6 +8706,10 @@ arch dungeon_floor
 x 32
 y 17
 end
+arch chinese_dragon
+x 32
+y 17
+end
 arch dungeon_floor
 x 32
 y 18
@@ -8324,6 +8766,10 @@ arch dungeon_floor
 x 32
 y 30
 end
+arch big_dragon
+x 32
+y 30
+end
 arch dungeon_floor
 x 32
 y 31
@@ -8365,6 +8811,10 @@ x 32
 y 39
 end
 arch dungeon_floor
+x 32
+y 40
+end
+arch big_elec
 x 32
 y 40
 end
@@ -8474,11 +8924,23 @@ arch dungeon_floor
 x 33
 y 12
 end
+arch dragon
+x 33
+y 12
+end
 arch dungeon_floor
 x 33
 y 13
 end
+arch dragon
+x 33
+y 13
+end
 arch dungeon_floor
+x 33
+y 14
+end
+arch dragon
 x 33
 y 14
 end
@@ -8514,6 +8976,10 @@ arch dungeon_floor
 x 33
 y 20
 end
+arch chinese_dragon
+x 33
+y 20
+end
 arch dungeon_floor
 x 33
 y 21
@@ -8526,11 +8992,19 @@ arch dungeon_floor
 x 33
 y 23
 end
+arch chinese_dragon
+x 33
+y 23
+end
 arch dungeon_floor
 x 33
 y 24
 end
 arch dungeon_floor
+x 33
+y 25
+end
+arch chinese_dragon
 x 33
 y 25
 end
@@ -8575,6 +9049,10 @@ x 33
 y 34
 end
 arch dungeon_floor
+x 33
+y 35
+end
+arch big_dragon
 x 33
 y 35
 end
@@ -8676,6 +9154,10 @@ arch dungeon_floor
 x 34
 y 7
 end
+arch giant
+x 34
+y 7
+end
 arch dungeon_floor
 x 34
 y 8
@@ -8733,6 +9215,10 @@ x 34
 y 16
 end
 arch dungeon_floor
+x 34
+y 17
+end
+arch chinese_dragon
 x 34
 y 17
 end
@@ -8804,6 +9290,10 @@ arch dungeon_floor
 x 34
 y 33
 end
+arch big_dragon
+x 34
+y 33
+end
 arch dungeon_floor
 x 34
 y 34
@@ -8837,6 +9327,10 @@ x 34
 y 40
 end
 arch dungeon_floor
+x 34
+y 41
+end
+arch big_elec
 x 34
 y 41
 end
@@ -8906,6 +9400,10 @@ arch dungeon_floor
 x 35
 y 6
 end
+arch giant
+x 35
+y 6
+end
 arch dungeon_floor
 x 35
 y 7
@@ -8946,6 +9444,10 @@ arch dungeon_floor
 x 35
 y 13
 end
+arch dragon
+x 35
+y 13
+end
 arch dungeon_floor
 x 35
 y 14
@@ -8982,6 +9484,10 @@ arch dungeon_floor
 x 35
 y 20
 end
+arch chinese_dragon
+x 35
+y 20
+end
 arch dungeon_floor
 x 35
 y 21
@@ -8991,6 +9497,10 @@ x 35
 y 22
 end
 arch dungeon_floor
+x 35
+y 23
+end
+arch chinese_dragon
 x 35
 y 23
 end
@@ -9144,6 +9654,10 @@ arch dungeon_floor
 x 36
 y 7
 end
+arch giant
+x 36
+y 7
+end
 arch dungeon_floor
 x 36
 y 8
@@ -9176,11 +9690,19 @@ arch dungeon_floor
 x 36
 y 12
 end
+arch dragon
+x 36
+y 12
+end
 arch dungeon_floor
 x 36
 y 13
 end
 arch dungeon_floor
+x 36
+y 14
+end
+arch dragon
 x 36
 y 14
 end
@@ -9240,6 +9762,10 @@ arch dungeon_floor
 x 36
 y 26
 end
+arch chinese_dragon
+x 36
+y 26
+end
 arch dungeon_floor
 x 36
 y 27
@@ -9264,6 +9790,10 @@ arch dungeon_floor
 x 36
 y 31
 end
+arch big_dragon
+x 36
+y 31
+end
 arch dungeon_floor
 x 36
 y 32
@@ -9281,6 +9811,10 @@ x 36
 y 35
 end
 arch dungeon_floor
+x 36
+y 36
+end
+arch big_dragon
 x 36
 y 36
 end
@@ -9305,6 +9839,10 @@ x 36
 y 40
 end
 arch dungeon_floor
+x 36
+y 41
+end
+arch big_elec
 x 36
 y 41
 end
@@ -9371,6 +9909,10 @@ x 37
 y 5
 end
 arch dungeon_floor
+x 37
+y 6
+end
+arch giant
 x 37
 y 6
 end
@@ -9612,6 +10154,10 @@ arch dungeon_floor
 x 38
 y 7
 end
+arch giant
+x 38
+y 7
+end
 arch dungeon_floor
 x 38
 y 8
@@ -9644,7 +10190,15 @@ arch dungeon_floor
 x 38
 y 12
 end
+arch dragon
+x 38
+y 12
+end
 arch dungeon_floor
+x 38
+y 13
+end
+arch dragon
 x 38
 y 13
 end
@@ -9676,11 +10230,19 @@ arch dungeon_floor
 x 38
 y 18
 end
+arch chinese_dragon
+x 38
+y 18
+end
 arch dungeon_floor
 x 38
 y 19
 end
 arch dungeon_floor
+x 38
+y 20
+end
+arch chinese_dragon
 x 38
 y 20
 end
@@ -9741,6 +10303,10 @@ x 38
 y 33
 end
 arch dungeon_floor
+x 38
+y 34
+end
+arch big_dragon
 x 38
 y 34
 end
@@ -9839,6 +10405,10 @@ x 39
 y 5
 end
 arch dungeon_floor
+x 39
+y 6
+end
+arch giant
 x 39
 y 6
 end
@@ -9926,11 +10496,19 @@ arch dungeon_floor
 x 39
 y 22
 end
+arch chinese_dragon
+x 39
+y 22
+end
 arch dungeon_floor
 x 39
 y 23
 end
 arch dungeon_floor
+x 39
+y 24
+end
+arch chinese_dragon
 x 39
 y 24
 end
@@ -9962,6 +10540,10 @@ arch dungeon_floor
 x 39
 y 30
 end
+arch big_dragon
+x 39
+y 30
+end
 arch dungeon_floor
 x 39
 y 31
@@ -10003,6 +10585,10 @@ x 39
 y 39
 end
 arch dungeon_floor
+x 39
+y 40
+end
+arch big_elec
 x 39
 y 40
 end
@@ -10076,6 +10662,10 @@ arch dungeon_floor
 x 40
 y 6
 end
+arch giant
+x 40
+y 6
+end
 arch dungeon_floor
 x 40
 y 7
@@ -10116,7 +10706,15 @@ arch dungeon_floor
 x 40
 y 13
 end
+arch dragon
+x 40
+y 13
+end
 arch dungeon_floor
+x 40
+y 14
+end
+arch dragon
 x 40
 y 14
 end
@@ -10201,6 +10799,10 @@ x 40
 y 31
 end
 arch dungeon_floor
+x 40
+y 32
+end
+arch big_dragon
 x 40
 y 32
 end
@@ -10298,6 +10900,10 @@ arch dungeon_floor
 x 41
 y 6
 end
+arch giant
+x 41
+y 6
+end
 arch dungeon_floor
 x 41
 y 7
@@ -10327,6 +10933,10 @@ x 41
 y 11
 end
 arch dungeon_floor
+x 41
+y 12
+end
+arch dragon
 x 41
 y 12
 end
@@ -10362,11 +10972,19 @@ arch dungeon_floor
 x 41
 y 18
 end
+arch chinese_dragon
+x 41
+y 18
+end
 arch dungeon_floor
 x 41
 y 19
 end
 arch dungeon_floor
+x 41
+y 20
+end
+arch chinese_dragon
 x 41
 y 20
 end
@@ -10435,6 +11053,10 @@ x 41
 y 35
 end
 arch dungeon_floor
+x 41
+y 36
+end
+arch big_dragon
 x 41
 y 36
 end
@@ -10462,6 +11084,10 @@ arch dungeon_floor
 x 41
 y 41
 end
+arch big_elec
+x 41
+y 41
+end
 arch dungeon_floor
 x 41
 y 42
@@ -10517,6 +11143,10 @@ x 42
 y 6
 end
 arch dungeon_floor
+x 42
+y 7
+end
+arch giant
 x 42
 y 7
 end
@@ -10605,6 +11235,10 @@ x 42
 y 23
 end
 arch dungeon_floor
+x 42
+y 24
+end
+arch chinese_dragon
 x 42
 y 24
 end
@@ -11310,638 +11944,4 @@ end
 arch stwall_2_2_4
 x 44
 y 44
-end
-arch troll
-x 1
-y 9
-end
-arch troll
-x 1
-y 15
-end
-arch Greater_Demon
-name Mega Demon
-Con 100
-Wis 25
-Pow 100
-hp 20000
-maxhp 20000
-sp 250
-maxsp 250
-exp 1000000
-dam 100
-wc -60
-ac -20
-x 1
-y 24
-level 60
-resist_physical 80
-resist_magic 100
-resist_electricity 100
-resist_cold 100
-resist_paralyze 100
-end
-arch Greater_Demon
-x 1
-y 31
-end
-arch Balrog
-x 1
-y 38
-end
-arch troll
-x 2
-y 12
-end
-arch behemoth
-x 2
-y 18
-end
-arch dread
-x 2
-y 21
-end
-arch troll
-x 3
-y 9
-end
-arch troll
-x 3
-y 14
-end
-arch behemoth
-x 4
-y 16
-end
-arch dread
-x 4
-y 19
-end
-arch troll
-x 5
-y 9
-end
-arch troll
-x 5
-y 12
-end
-arch troll
-x 5
-y 15
-end
-arch behemoth
-x 5
-y 21
-end
-arch Balrog
-x 5
-y 38
-end
-arch behemoth
-x 6
-y 17
-end
-arch troll
-x 7
-y 14
-end
-arch behemoth
-x 7
-y 19
-end
-arch Greater_Demon
-x 7
-y 24
-end
-arch Balrog
-x 7
-y 31
-end
-arch troll
-x 8
-y 9
-end
-arch dread
-x 8
-y 21
-end
-arch troll
-x 9
-y 15
-end
-arch troll
-x 9
-y 18
-end
-arch troll
-x 10
-y 12
-end
-arch behemoth
-x 10
-y 21
-end
-arch demon_lord
-x 10
-y 39
-end
-arch troll
-x 11
-y 9
-end
-arch troll
-x 11
-y 15
-end
-arch troll
-x 12
-y 13
-end
-arch behemoth
-x 12
-y 18
-end
-arch behemoth
-x 12
-y 20
-end
-arch demon_lord
-x 14
-y 30
-end
-arch demon_lord
-x 14
-y 39
-end
-arch giant
-x 15
-y 6
-end
-arch gaelotroll
-x 15
-y 17
-end
-arch giant
-x 16
-y 7
-end
-arch titan
-x 16
-y 22
-end
-arch giant
-x 17
-y 6
-end
-arch dragon
-x 17
-y 12
-end
-arch dragon
-x 17
-y 14
-end
-arch giant
-x 18
-y 7
-end
-arch gaelotroll
-x 18
-y 17
-end
-arch Cwyvern
-x 18
-y 39
-end
-arch Cwyvern
-x 18
-y 40
-end
-arch Cwyvern
-x 18
-y 41
-end
-arch Cwyvern
-x 18
-y 42
-end
-arch Cwyvern
-x 18
-y 43
-end
-arch giant
-x 19
-y 6
-end
-arch dragon
-x 19
-y 13
-end
-arch EDK
-x 19
-y 29
-end
-arch giant
-x 20
-y 7
-end
-arch dragon
-x 20
-y 14
-end
-arch gaelotroll
-x 20
-y 17
-end
-arch titan
-x 20
-y 21
-end
-arch EDK
-x 20
-y 25
-end
-arch Cwyvern
-x 20
-y 39
-end
-arch Cwyvern
-x 20
-y 40
-end
-arch Cwyvern
-x 20
-y 41
-end
-arch Cwyvern
-x 20
-y 42
-end
-arch Cwyvern
-x 20
-y 43
-end
-arch dragon
-x 21
-y 13
-end
-arch cyclops
-x 21
-y 28
-end
-arch big_wiz
-x 21
-y 31
-end
-arch giant
-x 22
-y 6
-end
-arch cyclops
-x 22
-y 25
-end
-arch dragon
-x 23
-y 12
-end
-arch dragon
-x 23
-y 13
-end
-arch dragon
-x 23
-y 14
-end
-arch gaelotroll
-x 23
-y 17
-end
-arch giant
-x 24
-y 7
-end
-arch titan
-x 24
-y 21
-end
-arch EDK
-x 24
-y 26
-end
-arch cyclops
-x 24
-y 30
-end
-arch big_elec
-x 24
-y 35
-end
-arch big_elec
-x 24
-y 38
-end
-arch dragon
-x 25
-y 12
-end
-arch dragon
-x 25
-y 13
-end
-arch dragon
-x 25
-y 14
-end
-arch big_elec
-x 25
-y 41
-end
-arch giant
-x 26
-y 6
-end
-arch titan
-x 26
-y 18
-end
-arch big_wiz
-x 26
-y 25
-end
-arch cyclops
-x 26
-y 30
-end
-arch giant
-x 27
-y 7
-end
-arch gaelotroll
-x 27
-y 21
-end
-arch big_elec
-x 27
-y 36
-end
-arch giant
-x 28
-y 6
-end
-arch dragon
-x 28
-y 12
-end
-arch dragon
-x 28
-y 13
-end
-arch dragon
-x 28
-y 14
-end
-arch big_wiz
-x 28
-y 31
-end
-arch titan
-x 29
-y 18
-end
-arch gaelotroll
-x 29
-y 20
-end
-arch EDK
-x 29
-y 26
-end
-arch big_elec
-x 29
-y 37
-end
-arch big_elec
-x 29
-y 40
-end
-arch giant
-x 30
-y 7
-end
-arch dragon
-x 30
-y 13
-end
-arch giant
-x 31
-y 6
-end
-arch dragon
-x 31
-y 12
-end
-arch dragon
-x 31
-y 14
-end
-arch giant
-x 32
-y 6
-end
-arch chinese_dragon
-x 32
-y 17
-end
-arch big_dragon
-x 32
-y 30
-end
-arch big_elec
-x 32
-y 40
-end
-arch dragon
-x 33
-y 12
-end
-arch dragon
-x 33
-y 13
-end
-arch dragon
-x 33
-y 14
-end
-arch chinese_dragon
-x 33
-y 20
-end
-arch chinese_dragon
-x 33
-y 23
-end
-arch chinese_dragon
-x 33
-y 25
-end
-arch big_dragon
-x 33
-y 35
-end
-arch giant
-x 34
-y 7
-end
-arch chinese_dragon
-x 34
-y 17
-end
-arch big_dragon
-x 34
-y 33
-end
-arch big_elec
-x 34
-y 41
-end
-arch giant
-x 35
-y 6
-end
-arch dragon
-x 35
-y 13
-end
-arch chinese_dragon
-x 35
-y 20
-end
-arch chinese_dragon
-x 35
-y 23
-end
-arch giant
-x 36
-y 7
-end
-arch dragon
-x 36
-y 12
-end
-arch dragon
-x 36
-y 14
-end
-arch chinese_dragon
-x 36
-y 26
-end
-arch big_dragon
-x 36
-y 31
-end
-arch big_dragon
-x 36
-y 36
-end
-arch big_elec
-x 36
-y 41
-end
-arch giant
-x 37
-y 6
-end
-arch giant
-x 38
-y 7
-end
-arch dragon
-x 38
-y 12
-end
-arch dragon
-x 38
-y 13
-end
-arch chinese_dragon
-x 38
-y 18
-end
-arch chinese_dragon
-x 38
-y 20
-end
-arch big_dragon
-x 38
-y 34
-end
-arch giant
-x 39
-y 6
-end
-arch chinese_dragon
-x 39
-y 22
-end
-arch chinese_dragon
-x 39
-y 24
-end
-arch big_dragon
-x 39
-y 30
-end
-arch big_elec
-x 39
-y 40
-end
-arch giant
-x 40
-y 6
-end
-arch dragon
-x 40
-y 13
-end
-arch dragon
-x 40
-y 14
-end
-arch big_dragon
-x 40
-y 32
-end
-arch giant
-x 41
-y 6
-end
-arch dragon
-x 41
-y 12
-end
-arch chinese_dragon
-x 41
-y 18
-end
-arch chinese_dragon
-x 41
-y 20
-end
-arch big_dragon
-x 41
-y 36
-end
-arch big_elec
-x 41
-y 41
-end
-arch giant
-x 42
-y 7
-end
-arch chinese_dragon
-x 42
-y 24
 end

@@ -1,10 +1,11 @@
 arch map
+name <unnamed>
+width 41
+height 24
 msg
 Created:  2000-01-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 41
-height 35
 end
 arch dwall_2_2_2
 y 3
@@ -770,6 +771,10 @@ arch ghost
 x 18
 y 1
 end
+arch gaelotroll
+x 18
+y 2
+end
 arch ghost
 x 18
 y 5
@@ -813,6 +818,10 @@ end
 arch dwall_2_1_2
 x 18
 y 15
+end
+arch troll
+x 18
+y 16
 end
 arch dwall_2_1_2
 x 18
@@ -1062,6 +1071,10 @@ arch dwall_2_1_2
 x 22
 y 15
 end
+arch troll
+x 22
+y 17
+end
 arch dwall_2_1_2
 x 22
 y 19
@@ -1203,6 +1216,10 @@ arch dwall_2_1_2
 x 25
 y 15
 end
+arch troll
+x 25
+y 17
+end
 arch dwall_2_1_2
 x 25
 y 19
@@ -1299,7 +1316,7 @@ y 15
 end
 arch scroll
 msg
-be careful 
+be careful
 endmsg
 x 27
 y 16
@@ -2006,20 +2023,4 @@ end
 arch dwall_2_2_4
 x 40
 y 22
-end
-arch gaelotroll
-x 18
-y 2
-end
-arch troll
-x 18
-y 16
-end
-arch troll
-x 22
-y 17
-end
-arch troll
-x 25
-y 17
 end

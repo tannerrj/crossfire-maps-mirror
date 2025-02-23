@@ -1,11 +1,11 @@
 arch map
 name palace
-msg
-Created:  2000-04-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
 width 41
 height 71
+msg
+Created:  2000-04-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -656,11 +656,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 1
+y 51
 level 30
 resist_physical 80
 carrying 32125
-x 1
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -726,11 +726,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 1
+y 56
 level 30
 resist_physical 80
 carrying 32125
-x 1
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -3021,6 +3021,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 8
 level 40
 resist_physical 99
 resist_magic 99
@@ -3029,8 +3031,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 8
 arch arrow
 name sharp arrow
 dam 12
@@ -3043,7 +3043,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3137,6 +3136,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 26
 level 40
 resist_physical 99
 resist_magic 99
@@ -3145,8 +3146,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 26
 arch arrow
 name sharp arrow
 dam 12
@@ -3159,7 +3158,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3193,6 +3191,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 28
 level 40
 resist_physical 99
 resist_magic 99
@@ -3201,8 +3201,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 28
 arch arrow
 name sharp arrow
 dam 12
@@ -3215,7 +3213,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3273,6 +3270,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 37
 level 40
 resist_physical 99
 resist_magic 99
@@ -3281,8 +3280,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 37
 arch arrow
 name sharp arrow
 dam 12
@@ -3295,7 +3292,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3329,6 +3325,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 40
 level 40
 resist_physical 99
 resist_magic 99
@@ -3337,8 +3335,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 40
 arch arrow
 name sharp arrow
 dam 12
@@ -3351,7 +3347,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3409,6 +3404,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 8
+y 49
 level 40
 resist_physical 99
 resist_magic 99
@@ -3417,8 +3414,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 8
-y 49
 arch arrow
 name sharp arrow
 dam 12
@@ -3431,7 +3426,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -3466,12 +3460,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 8
+y 51
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 8
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -3515,9 +3509,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 8
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 8
@@ -3534,12 +3528,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 8
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 8
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -3583,9 +3577,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 8
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 8
@@ -3606,12 +3600,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 8
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 8
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -3717,18 +3711,18 @@ x 9
 y 1
 end
 arch spikes_open
-connected 22
 x 9
 y 2
+connected 22
 end
 arch scroll
 x 9
 y 2
 end
 arch button_small
-connected 2
 x 9
 y 3
+connected 2
 end
 arch blocked
 x 9
@@ -3939,9 +3933,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 9
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 9
@@ -3958,12 +3952,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 9
+y 52
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 9
-y 52
 arch arrow
 name sharp arrow
 dam 10
@@ -4007,9 +4001,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 9
 y 53
+resist_physical 50
 end
 arch cobblestones2
 x 9
@@ -4026,12 +4020,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 9
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 9
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -4075,9 +4069,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 9
 y 55
+resist_physical 50
 end
 arch cobblestones2
 x 9
@@ -4236,11 +4230,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -4290,11 +4284,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -4344,11 +4338,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -4398,11 +4392,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -4452,11 +4446,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -4506,11 +4500,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 10
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -4571,9 +4565,9 @@ y 30
 end
 arch dancing_girl
 name beautiful girl
-random_movement 0
 x 10
 y 30
+random_movement 0
 end
 arch marble
 x 10
@@ -4686,12 +4680,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
-level 30
-resist_physical 80
-carrying 32125
-unaggressive 0
 x 10
 y 51
+level 30
+resist_physical 80
+carrying 32125
+unaggressive 0
 arch arrow
 name sharp arrow
 dam 10
@@ -4735,9 +4729,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 10
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 10
@@ -4754,12 +4748,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 10
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -4803,9 +4797,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 10
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 10
@@ -4822,12 +4816,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 10
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 10
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -4871,9 +4865,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 10
 y 56
+resist_physical 50
 end
 arch cobblestones2
 x 10
@@ -4950,9 +4944,9 @@ msg
 The guards shouts:
 Open the gates for a Champion of Yoer!
 endmsg
-connected 10
 x 11
 y 1
+connected 10
 end
 arch blocked
 x 11
@@ -5005,11 +4999,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -5059,11 +5053,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -5113,11 +5107,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -5167,11 +5161,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -5221,11 +5215,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -5275,11 +5269,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 11
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -5343,10 +5337,10 @@ name knight-errant
 face paladin.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems throw_stnd
 x 11
 y 30
+randomitems throw_stnd
+pick_up 0
 end
 arch marble
 x 11
@@ -5394,9 +5388,9 @@ y 39
 end
 arch sailor
 name man
-sleep 1
 x 11
 y 39
+sleep 1
 end
 arch marble
 x 11
@@ -5476,9 +5470,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 11
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 11
@@ -5495,12 +5489,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 11
+y 52
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 11
-y 52
 arch arrow
 name sharp arrow
 dam 10
@@ -5544,9 +5538,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 11
 y 53
+resist_physical 50
 end
 arch cobblestones2
 x 11
@@ -5561,9 +5555,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 11
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 11
@@ -5677,9 +5671,9 @@ The guard shouts:
 It is one of the high wizards! Open
 the gates quickly!
 endmsg
-connected 11
 x 12
 y 1
+connected 11
 end
 arch blocked
 x 12
@@ -5725,14 +5719,14 @@ exp 20000
 dam 25
 wc -45
 ac -35
+x 12
+y 12
 speed 0.250000
 level 30
 resist_physical 99
 resist_holyword 50
 carrying 108800
 unaggressive 0
-x 12
-y 12
 arch girdle_con
 name belt
 title of honor
@@ -5807,11 +5801,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -5861,11 +5855,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -5915,11 +5909,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -5969,11 +5963,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -6023,11 +6017,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -6077,11 +6071,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 12
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -6267,12 +6261,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
-level 30
-resist_physical 80
-carrying 32125
-unaggressive 0
 x 12
 y 51
+level 30
+resist_physical 80
+carrying 32125
+unaggressive 0
 arch arrow
 name sharp arrow
 dam 10
@@ -6316,9 +6310,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 12
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 12
@@ -6335,12 +6329,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 12
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -6386,12 +6380,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 12
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -6435,9 +6429,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 12
 y 55
+resist_physical 50
 end
 arch cobblestones2
 x 12
@@ -6454,12 +6448,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 12
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 12
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -6497,9 +6491,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 12
 y 57
+connected 2
 end
 arch grass
 x 12
@@ -6569,9 +6563,9 @@ The guard says:
 Welcome,sir! We shall open the gates
 right away.
 endmsg
-connected 12
 x 13
 y 1
+connected 12
 end
 arch blocked
 x 13
@@ -6624,11 +6618,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -6678,11 +6672,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -6732,11 +6726,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -6786,11 +6780,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -6840,11 +6834,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -6894,11 +6888,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 13
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -6970,10 +6964,10 @@ name halfling
 face halfling.111
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 13
 y 32
+randomitems standard
+pick_up 0
 end
 arch marble
 x 13
@@ -7090,12 +7084,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 13
+y 51
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 13
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -7139,9 +7133,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 13
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 13
@@ -7156,9 +7150,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 13
 y 53
+resist_physical 50
 end
 arch cobblestones2
 x 13
@@ -7177,9 +7171,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 13
 y 55
+resist_physical 50
 end
 arch cobblestones2
 x 13
@@ -7194,9 +7188,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 13
 y 56
+resist_physical 50
 end
 arch cobblestones2
 x 13
@@ -7205,9 +7199,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 13
 y 57
+connected 2
 end
 arch grass
 x 13
@@ -7293,9 +7287,9 @@ The guard says:
 Welcome,sir! The gates shall be
 opened right away!
 endmsg
-connected 13
 x 14
 y 1
+connected 13
 end
 arch blocked
 x 14
@@ -7348,11 +7342,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -7402,11 +7396,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -7456,11 +7450,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -7510,11 +7504,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -7564,11 +7558,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -7618,11 +7612,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 14
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -7764,7 +7758,6 @@ y 43
 end
 arch wizard
 face wizard_yellow.111
-type 0
 animation wizard_yellow
 Con 2
 Wis 15
@@ -7772,15 +7765,16 @@ Int 4
 hp 240
 maxsp 50
 exp 1700
+x 14
+y 43
 speed 0.210000
 attack_movement 7
 level 11
+type 0
 is_animated 1
 monster 1
 see_invisible 1
 can_cast_spell 1
-x 14
-y 43
 end
 arch marble
 x 14
@@ -7835,9 +7829,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 14
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 14
@@ -7854,12 +7848,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 52
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 14
-y 52
 arch arrow
 name sharp arrow
 dam 10
@@ -7909,12 +7903,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 14
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -7960,12 +7954,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 14
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 14
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -8009,9 +8003,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 14
 y 56
+resist_physical 50
 end
 arch cobblestones2
 x 14
@@ -8020,9 +8014,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 14
 y 57
+connected 2
 end
 arch grass
 x 14
@@ -8157,11 +8151,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -8211,11 +8205,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -8265,11 +8259,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -8319,11 +8313,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -8373,11 +8367,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -8427,11 +8421,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 15
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -8499,10 +8493,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 15
 y 31
+randomitems standard
+pick_up 0
 end
 arch marble
 x 15
@@ -8629,12 +8623,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 51
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 15
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -8678,9 +8672,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 15
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 15
@@ -8695,9 +8689,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 15
 y 53
+resist_physical 50
 end
 arch cobblestones2
 x 15
@@ -8712,9 +8706,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 15
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 15
@@ -8735,12 +8729,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 15
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 15
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -9071,9 +9065,9 @@ x 16
 y 38
 end
 arch fatman
-sleep 1
 x 16
 y 38
+sleep 1
 end
 arch marble
 x 16
@@ -9122,10 +9116,10 @@ name yellow robed man
 face wizard_yellow.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 16
 y 45
+randomitems standard
+pick_up 0
 end
 arch marble
 x 16
@@ -9430,9 +9424,9 @@ x 17
 y 32
 end
 arch sailor
-random_movement 0
 x 17
 y 32
+random_movement 0
 end
 arch marble
 x 17
@@ -9471,9 +9465,9 @@ x 17
 y 39
 end
 arch lesser_dwarven_guard
-friendly 1
 x 17
 y 39
+friendly 1
 end
 arch marble
 x 17
@@ -9483,8 +9477,8 @@ arch dwarf_priest
 name dwarven ambassador
 msg
 @match *
-This is an insult to Erthos! I wish to speak to 
-his majesty now! 
+This is an insult to Erthos! I wish to speak to
+his majesty now!
 endmsg
 x 17
 y 40
@@ -9500,9 +9494,9 @@ x 17
 y 41
 end
 arch lesser_dwarven_guard
-friendly 1
 x 17
 y 41
+friendly 1
 end
 arch marble
 x 17
@@ -9510,10 +9504,10 @@ y 42
 end
 arch gnome
 name gnome
-unaggressive 1
-sleep 1
 x 17
 y 42
+unaggressive 1
+sleep 1
 end
 arch marble
 x 17
@@ -9701,6 +9695,8 @@ exp 50000
 dam 30
 wc -50
 ac -40
+x 18
+y 8
 level 50
 resist_physical 99
 resist_magic 99
@@ -9709,8 +9705,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 99
 carrying 111000
-x 18
-y 8
 arch dragon_mail
 end
 arch dragon_shield
@@ -9754,6 +9748,8 @@ exp 50000
 dam 30
 wc -50
 ac -40
+x 18
+y 10
 level 50
 resist_physical 99
 resist_magic 99
@@ -9762,8 +9758,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 99
 carrying 101000
-x 18
-y 10
 arch axe_4
 name ivory axe
 dam 15
@@ -9808,6 +9802,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 18
+y 12
 level 40
 resist_physical 99
 resist_magic 99
@@ -9816,8 +9812,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 18
-y 12
 arch arrow
 name sharp arrow
 dam 12
@@ -9830,7 +9824,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -9880,6 +9873,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 18
+y 19
 level 40
 resist_physical 99
 resist_magic 99
@@ -9888,8 +9883,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 18
-y 19
 arch arrow
 name sharp arrow
 dam 12
@@ -9902,7 +9895,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -9952,6 +9944,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 18
+y 26
 level 40
 resist_physical 99
 resist_magic 99
@@ -9960,8 +9954,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 18
-y 26
 arch arrow
 name sharp arrow
 dam 12
@@ -9974,7 +9966,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -10008,6 +9999,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 18
+y 28
 level 40
 resist_physical 99
 resist_magic 99
@@ -10016,8 +10009,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 18
-y 28
 arch arrow
 name sharp arrow
 dam 12
@@ -10030,7 +10021,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -10136,6 +10126,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 18
+y 49
 level 40
 resist_physical 99
 resist_magic 99
@@ -10144,8 +10136,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 18
-y 49
 arch arrow
 name sharp arrow
 dam 12
@@ -10158,7 +10148,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -10193,11 +10182,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 18
+y 51
 level 30
 resist_physical 80
 carrying 32125
-x 18
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -10259,11 +10248,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 18
+y 56
 level 30
 resist_physical 80
 carrying 32125
-x 18
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -10438,9 +10427,9 @@ y 12
 end
 arch stair_up_1
 name stairs
-type 0
 x 19
 y 12
+type 0
 end
 arch flagstone
 x 19
@@ -10624,27 +10613,27 @@ y 55
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 19
 y 56
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 19
 y 56
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 19
 y 56
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 19
 y 56
+connected 10
 end
 arch flagstone
 x 19
@@ -10655,33 +10644,33 @@ x 19
 y 57
 end
 arch grate_closed_1
-connected 1
 x 19
 y 57
+connected 1
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 19
 y 58
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 19
 y 58
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 19
 y 58
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 19
 y 58
+connected 10
 end
 arch flagstone
 x 19
@@ -10826,9 +10815,9 @@ y 12
 end
 arch stair_up_1
 name stairs
-type 0
 x 20
 y 12
+type 0
 end
 arch flagstone
 x 20
@@ -11012,27 +11001,27 @@ y 55
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 20
 y 56
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 20
 y 56
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 20
 y 56
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 20
 y 56
+connected 10
 end
 arch flagstone
 x 20
@@ -11042,42 +11031,42 @@ arch magic_ear
 msg
 @match cowards
 endmsg
-connected 22
 x 20
 y 57
+connected 22
 end
 arch flagstone
 x 20
 y 57
 end
 arch grate_closed_1
-connected 1
 x 20
 y 57
+connected 1
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 20
 y 58
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 20
 y 58
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 20
 y 58
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 20
 y 58
+connected 10
 end
 arch flagstone
 x 20
@@ -11230,9 +11219,9 @@ y 12
 end
 arch stair_up_1
 name stairs
-type 0
 x 21
 y 12
+type 0
 end
 arch flagstone
 x 21
@@ -11416,27 +11405,27 @@ y 55
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 21
 y 56
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 21
 y 56
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 21
 y 56
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 21
 y 56
+connected 10
 end
 arch flagstone
 x 21
@@ -11447,33 +11436,33 @@ x 21
 y 57
 end
 arch grate_closed_1
-connected 1
 x 21
 y 57
+connected 1
 end
 arch check_inv
 slaying Ambassador_erthos
-connected 13
 x 21
 y 58
+connected 13
 end
 arch check_inv
 slaying Ambassador_flora
-connected 12
 x 21
 y 58
+connected 12
 end
 arch check_inv
 slaying White_Council
-connected 11
 x 21
 y 58
+connected 11
 end
 arch check_inv
 slaying Champion_Yoer
-connected 10
 x 21
 y 58
+connected 10
 end
 arch flagstone
 x 21
@@ -11604,6 +11593,8 @@ exp 50000
 dam 30
 wc -50
 ac -40
+x 22
+y 8
 level 50
 resist_physical 99
 resist_magic 99
@@ -11612,8 +11603,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 99
 carrying 101000
-x 22
-y 8
 arch axe_4
 name ivory axe
 dam 15
@@ -11656,6 +11645,8 @@ exp 50000
 dam 30
 wc -50
 ac -40
+x 22
+y 10
 level 50
 resist_physical 99
 resist_magic 99
@@ -11664,8 +11655,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 99
 carrying 111000
-x 22
-y 10
 arch dragon_mail
 end
 arch dragon_shield
@@ -11711,6 +11700,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 22
+y 12
 level 40
 resist_physical 99
 resist_magic 99
@@ -11719,8 +11710,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 22
-y 12
 arch arrow
 name sharp arrow
 dam 12
@@ -11733,7 +11722,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -11787,6 +11775,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 22
+y 19
 level 40
 resist_physical 99
 resist_magic 99
@@ -11795,8 +11785,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 22
-y 19
 arch arrow
 name sharp arrow
 dam 12
@@ -11809,7 +11797,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -11859,6 +11846,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 22
+y 26
 level 40
 resist_physical 99
 resist_magic 99
@@ -11867,8 +11856,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 22
-y 26
 arch arrow
 name sharp arrow
 dam 12
@@ -11881,7 +11868,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -11915,6 +11901,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 22
+y 28
 level 40
 resist_physical 99
 resist_magic 99
@@ -11923,8 +11911,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 22
-y 28
 arch arrow
 name sharp arrow
 dam 12
@@ -11937,7 +11923,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -12043,6 +12028,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 22
+y 49
 level 40
 resist_physical 99
 resist_magic 99
@@ -12051,8 +12038,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 22
-y 49
 arch arrow
 name sharp arrow
 dam 12
@@ -12065,7 +12050,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -12100,11 +12084,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 22
+y 51
 level 30
 resist_physical 80
 carrying 32125
-x 22
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -12180,11 +12164,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 22
+y 56
 level 30
 resist_physical 80
 carrying 32125
-x 22
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -12486,7 +12470,7 @@ name pretty woman
 msg
 @match *
 Hey, darlin' . I've been waitin' here all day!
-This don't seem like much of a justice system 
+This don't seem like much of a justice system
 to me.
 endmsg
 x 23
@@ -12517,10 +12501,10 @@ name wizard
 face wizard.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 23
 y 44
+randomitems standard
+pick_up 0
 end
 arch marble
 x 23
@@ -13101,11 +13085,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -13155,11 +13139,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -13209,11 +13193,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -13263,11 +13247,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -13317,11 +13301,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -13371,11 +13355,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 25
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -13479,10 +13463,10 @@ name human
 face human.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 25
 y 37
+randomitems standard
+pick_up 0
 end
 arch marble
 x 25
@@ -13567,12 +13551,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 51
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 25
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -13616,9 +13600,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 25
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 25
@@ -13643,12 +13627,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 25
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -13694,12 +13678,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 25
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 25
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -13833,15 +13817,15 @@ x 26
 y 1
 end
 arch grate_closed_1
-connected 10
 x 26
 y 2
+connected 10
 end
 arch detector
 slaying lightning
-connected 1
 x 26
 y 3
+connected 1
 end
 arch blocked
 x 26
@@ -13902,11 +13886,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -13956,11 +13940,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -14010,11 +13994,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -14064,11 +14048,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -14118,11 +14102,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -14172,11 +14156,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 26
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -14252,10 +14236,10 @@ name warrior
 face warrior.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems throw_stnd
 x 26
 y 32
+randomitems throw_stnd
+pick_up 0
 end
 arch marble
 x 26
@@ -14286,9 +14270,9 @@ x 26
 y 38
 end
 arch fatwoman
-random_movement 0
 x 26
 y 38
+random_movement 0
 end
 arch marble
 x 26
@@ -14307,10 +14291,10 @@ name warrior
 face warrior.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems throw_stnd
 x 26
 y 41
+randomitems throw_stnd
+pick_up 0
 end
 arch marble
 x 26
@@ -14369,9 +14353,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 26
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 26
@@ -14388,12 +14372,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 52
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 26
-y 52
 arch arrow
 name sharp arrow
 dam 10
@@ -14437,9 +14421,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 26
 y 53
+resist_physical 50
 end
 arch cobblestones2
 x 26
@@ -14454,9 +14438,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 26
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 26
@@ -14473,12 +14457,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 26
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -14524,12 +14508,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 26
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 26
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -14567,9 +14551,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 26
 y 57
+connected 2
 end
 arch grass
 x 26
@@ -14650,9 +14634,9 @@ x 27
 y 4
 end
 arch grate_closed_2
-connected 13
 x 27
 y 5
+connected 13
 end
 arch blocked
 x 27
@@ -14705,11 +14689,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -14759,11 +14743,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -14813,11 +14797,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -14867,11 +14851,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -14921,11 +14905,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -14975,11 +14959,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 27
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -15071,10 +15055,10 @@ x 27
 y 36
 end
 arch gnome
-type 0
-unaggressive 1
 x 27
 y 36
+type 0
+unaggressive 1
 end
 arch marble
 x 27
@@ -15117,10 +15101,10 @@ name cleric
 face cleric.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems throw_stnd
 x 27
 y 43
+randomitems throw_stnd
+pick_up 0
 end
 arch marble
 x 27
@@ -15175,9 +15159,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 27
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 27
@@ -15192,9 +15176,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 27
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 27
@@ -15211,12 +15195,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 27
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -15260,9 +15244,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 27
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 27
@@ -15277,9 +15261,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 27
 y 55
+resist_physical 50
 end
 arch cobblestones2
 x 27
@@ -15296,12 +15280,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 27
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 27
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -15339,9 +15323,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 27
 y 57
+connected 2
 end
 arch grass
 x 27
@@ -15426,15 +15410,15 @@ x 28
 y 1
 end
 arch grate_closed_1
-connected 11
 x 28
 y 2
+connected 11
 end
 arch detector
 slaying lightning
-connected 1
 x 28
 y 3
+connected 1
 end
 arch blocked
 x 28
@@ -15442,9 +15426,9 @@ y 4
 end
 arch detector
 slaying lightning
-connected 1
 x 28
 y 5
+connected 1
 end
 arch blocked
 x 28
@@ -15490,14 +15474,14 @@ exp 20000
 dam 25
 wc -45
 ac -35
+x 28
+y 12
 speed 0.250000
 level 30
 resist_physical 99
 resist_holyword 50
 carrying 108800
 unaggressive 0
-x 28
-y 12
 arch girdle_con
 name belt
 title of honor
@@ -15572,11 +15556,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -15626,11 +15610,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -15680,11 +15664,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -15734,11 +15718,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -15788,11 +15772,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -15842,11 +15826,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 28
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -15914,10 +15898,10 @@ name blue robed one
 face evoker.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 28
 y 31
+randomitems standard
+pick_up 0
 end
 arch marble
 x 28
@@ -15932,10 +15916,10 @@ name elf
 face elf.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 28
 y 33
+randomitems standard
+pick_up 0
 end
 arch marble
 x 28
@@ -15971,17 +15955,17 @@ y 40
 end
 arch guildmaster
 name dwarf
-face dwarf_p.111
 msg
 @match *
 *grumble* How long is it going to take anyway!
 endmsg
+face dwarf_p.111
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 28
 y 40
+randomitems standard
+pick_up 0
 end
 arch marble
 x 28
@@ -15996,11 +15980,11 @@ x 28
 y 42
 end
 arch gnome
+x 28
+y 42
 type 0
 unaggressive 1
 random_movement 0
-x 28
-y 42
 end
 arch marble
 x 28
@@ -16057,12 +16041,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
-level 30
-resist_physical 80
-carrying 32125
-unaggressive 0
 x 28
 y 51
+level 30
+resist_physical 80
+carrying 32125
+unaggressive 0
 arch arrow
 name sharp arrow
 dam 10
@@ -16108,12 +16092,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
-level 30
-resist_physical 80
-carrying 32125
-unaggressive 0
 x 28
 y 52
+level 30
+resist_physical 80
+carrying 32125
+unaggressive 0
 arch arrow
 name sharp arrow
 dam 10
@@ -16159,12 +16143,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
-level 30
-resist_physical 80
-carrying 32125
-unaggressive 0
 x 28
 y 53
+level 30
+resist_physical 80
+carrying 32125
+unaggressive 0
 arch arrow
 name sharp arrow
 dam 10
@@ -16210,12 +16194,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 28
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -16261,12 +16245,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 28
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 28
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -16308,9 +16292,9 @@ end
 arch igate_closed_1
 name wall
 face cwall_A.111
-connected 2
 x 28
 y 57
+connected 2
 end
 arch grass
 x 28
@@ -16445,11 +16429,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -16499,11 +16483,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -16553,11 +16537,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -16607,11 +16591,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -16661,11 +16645,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -16715,11 +16699,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 29
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -16783,10 +16767,10 @@ name mage
 face mage.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 29
 y 30
+randomitems standard
+pick_up 0
 end
 arch marble
 x 29
@@ -16822,10 +16806,10 @@ name elf
 face elf.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 29
 y 35
+randomitems standard
+pick_up 0
 end
 arch marble
 x 29
@@ -16926,12 +16910,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 51
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 29
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -16975,9 +16959,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 29
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 29
@@ -16996,9 +16980,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 29
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 29
@@ -17019,12 +17003,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 29
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 29
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -17158,15 +17142,15 @@ x 30
 y 1
 end
 arch grate_closed_1
-connected 12
 x 30
 y 2
+connected 12
 end
 arch detector
 slaying lightning
-connected 1
 x 30
 y 3
+connected 1
 end
 arch blocked
 x 30
@@ -17227,11 +17211,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 14
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 14
 arch arrow
 name sharp arrow
 dam 10
@@ -17281,11 +17265,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 16
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 16
 arch arrow
 name sharp arrow
 dam 10
@@ -17335,11 +17319,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 18
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 18
 arch arrow
 name sharp arrow
 dam 10
@@ -17389,11 +17373,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 20
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 20
 arch arrow
 name sharp arrow
 dam 10
@@ -17443,11 +17427,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 22
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 22
 arch arrow
 name sharp arrow
 dam 10
@@ -17497,11 +17481,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 24
 level 30
 resist_physical 80
 carrying 32125
-x 30
-y 24
 arch arrow
 name sharp arrow
 dam 10
@@ -17685,9 +17669,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 30
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 30
@@ -17704,12 +17688,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 30
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -17753,9 +17737,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 30
 y 54
+resist_physical 50
 end
 arch cobblestones2
 x 30
@@ -17772,12 +17756,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 30
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 30
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -18111,9 +18095,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 31
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 31
@@ -18130,12 +18114,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 31
+y 52
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 31
-y 52
 arch arrow
 name sharp arrow
 dam 10
@@ -18181,12 +18165,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 31
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 31
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -18232,12 +18216,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 31
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 31
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -18281,9 +18265,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 31
 y 55
+resist_physical 50
 end
 arch cobblestones2
 x 31
@@ -18300,12 +18284,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 31
+y 56
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 31
-y 56
 arch arrow
 name sharp arrow
 dam 10
@@ -18456,6 +18440,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 8
 level 40
 resist_physical 99
 resist_magic 99
@@ -18464,8 +18450,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 8
 arch arrow
 name sharp arrow
 dam 12
@@ -18478,7 +18462,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18572,6 +18555,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 26
 level 40
 resist_physical 99
 resist_magic 99
@@ -18580,8 +18565,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 26
 arch arrow
 name sharp arrow
 dam 12
@@ -18594,7 +18577,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18628,6 +18610,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 28
 level 40
 resist_physical 99
 resist_magic 99
@@ -18636,8 +18620,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 28
 arch arrow
 name sharp arrow
 dam 12
@@ -18650,7 +18632,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18708,6 +18689,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 37
 level 40
 resist_physical 99
 resist_magic 99
@@ -18716,8 +18699,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 37
 arch arrow
 name sharp arrow
 dam 12
@@ -18730,7 +18711,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18764,6 +18744,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 40
 level 40
 resist_physical 99
 resist_magic 99
@@ -18772,8 +18754,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 40
 arch arrow
 name sharp arrow
 dam 12
@@ -18786,7 +18766,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18844,6 +18823,8 @@ exp 35000
 dam 20
 wc -40
 ac -40
+x 32
+y 49
 level 40
 resist_physical 99
 resist_magic 99
@@ -18852,8 +18833,6 @@ resist_electricity 80
 resist_cold 80
 resist_holyword 80
 carrying 150525
-x 32
-y 49
 arch arrow
 name sharp arrow
 dam 12
@@ -18866,7 +18845,6 @@ end
 arch poleaxe
 dam 20
 magic 4
-last_sp 11
 end
 arch plate_mail
 name heavy mail
@@ -18899,9 +18877,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 32
 y 51
+resist_physical 50
 end
 arch cobblestones2
 x 32
@@ -18916,9 +18894,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 32
 y 52
+resist_physical 50
 end
 arch cobblestones2
 x 32
@@ -18935,12 +18913,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 32
+y 53
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 32
-y 53
 arch arrow
 name sharp arrow
 dam 10
@@ -18986,12 +18964,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 32
+y 54
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 32
-y 54
 arch arrow
 name sharp arrow
 dam 10
@@ -19037,12 +19015,12 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 32
+y 55
 level 30
 resist_physical 80
 carrying 32125
 unaggressive 0
-x 32
-y 55
 arch arrow
 name sharp arrow
 dam 10
@@ -19086,9 +19064,9 @@ exp 12000
 dam 30
 wc -35
 ac -25
-resist_physical 50
 x 32
 y 56
+resist_physical 50
 end
 arch cobblestones2
 x 32
@@ -21523,11 +21501,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 39
+y 51
 level 30
 resist_physical 80
 carrying 32125
-x 39
-y 51
 arch arrow
 name sharp arrow
 dam 10
@@ -21593,11 +21571,11 @@ exp 25000
 dam 25
 wc -40
 ac -30
+x 39
+y 56
 level 30
 resist_physical 80
 carrying 32125
-x 39
-y 56
 arch arrow
 name sharp arrow
 dam 10

@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-06-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
 width 32
 height 32
+msg
+Created:  2001-06-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -481,6 +482,10 @@ x 2
 y 3
 end
 arch dungeon_floor
+x 2
+y 4
+end
+arch gaelotroll
 x 2
 y 4
 end
@@ -1190,6 +1195,10 @@ arch dungeon_floor
 x 5
 y 4
 end
+arch gaelotroll
+x 5
+y 4
+end
 arch dungeon_floor
 x 5
 y 5
@@ -1913,6 +1922,10 @@ x 8
 y 3
 end
 arch dungeon_floor
+x 8
+y 4
+end
+arch gaelotroll
 x 8
 y 4
 end
@@ -2649,6 +2662,10 @@ x 11
 y 3
 end
 arch dungeon_floor
+x 11
+y 4
+end
+arch gaelotroll
 x 11
 y 4
 end
@@ -3455,7 +3472,6 @@ y 8
 end
 arch ologhi
 wc -50
-ac -50
 x 14
 y 8
 resist_poison 100
@@ -3938,6 +3954,10 @@ x 16
 y 3
 end
 arch dungeon_floor
+x 16
+y 4
+end
+arch gaelotroll
 x 16
 y 4
 end
@@ -4700,6 +4720,10 @@ arch dungeon_floor
 x 19
 y 4
 end
+arch gaelotroll
+x 19
+y 4
+end
 arch dungeon_floor
 x 19
 y 5
@@ -5430,6 +5454,10 @@ arch dungeon_floor
 x 22
 y 4
 end
+arch gaelotroll
+x 22
+y 4
+end
 arch dungeon_floor
 x 22
 y 5
@@ -5792,6 +5820,10 @@ arch dungeon_floor
 x 23
 y 23
 end
+arch gaelotroll
+x 23
+y 23
+end
 arch dungeon_floor
 x 23
 y 24
@@ -5805,6 +5837,10 @@ x 23
 y 26
 end
 arch dungeon_floor
+x 23
+y 27
+end
+arch gaelotroll
 x 23
 y 27
 end
@@ -6085,6 +6121,10 @@ x 25
 y 3
 end
 arch dungeon_floor
+x 25
+y 4
+end
+arch gaelotroll
 x 25
 y 4
 end
@@ -6418,6 +6458,10 @@ arch dungeon_floor
 x 26
 y 23
 end
+arch gaelotroll
+x 26
+y 23
+end
 arch dungeon_floor
 x 26
 y 24
@@ -6431,6 +6475,10 @@ x 26
 y 26
 end
 arch dungeon_floor
+x 26
+y 27
+end
+arch gaelotroll
 x 26
 y 27
 end
@@ -6612,6 +6660,20 @@ arch dungeon_floor
 x 27
 y 18
 end
+arch gaelotroll
+name mountain troll
+Str 60
+Con 30
+hp 6000
+maxhp 6000
+exp 200000
+dam 80
+wc -60
+ac -30
+x 27
+y 18
+speed -0.300000
+end
 arch dungeon_floor
 x 27
 y 19
@@ -6719,6 +6781,10 @@ x 28
 y 3
 end
 arch dungeon_floor
+x 28
+y 4
+end
+arch gaelotroll
 x 28
 y 4
 end
@@ -6831,6 +6897,10 @@ x 28
 y 22
 end
 arch dungeon_floor
+x 28
+y 23
+end
+arch gaelotroll
 x 28
 y 23
 end
@@ -7575,74 +7645,4 @@ end
 arch cwall_2_2_4
 x 31
 y 31
-end
-arch gaelotroll
-x 2
-y 4
-end
-arch gaelotroll
-x 5
-y 4
-end
-arch gaelotroll
-x 8
-y 4
-end
-arch gaelotroll
-x 11
-y 4
-end
-arch gaelotroll
-x 16
-y 4
-end
-arch gaelotroll
-x 19
-y 4
-end
-arch gaelotroll
-x 22
-y 4
-end
-arch gaelotroll
-x 23
-y 23
-end
-arch gaelotroll
-x 23
-y 27
-end
-arch gaelotroll
-x 25
-y 4
-end
-arch gaelotroll
-x 26
-y 23
-end
-arch gaelotroll
-x 26
-y 27
-end
-arch gaelotroll
-name mountain troll
-Str 60
-Con 30
-hp 6000
-maxhp 6000
-exp 200000
-dam 80
-wc -60
-ac -30
-x 27
-y 18
-speed -0.300000
-end
-arch gaelotroll
-x 28
-y 4
-end
-arch gaelotroll
-x 28
-y 23
 end

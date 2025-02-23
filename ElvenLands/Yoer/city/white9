@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-05-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
 width 35
 height 30
+msg
+Created:  2001-05-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -3455,7 +3456,6 @@ attacktype 4194560
 resist_magic 50
 resist_confusion 0
 resist_drain 0
-material 256
 magic 10
 glow_radius 3
 reflect_spell 1
@@ -3471,7 +3471,7 @@ msg
   This ring was forged by the great
 elven wizard,Ylendruil. The gem on the
 ring is made of a shard of a glowing
-crystal. 
+crystal.
 endmsg
 face ring.117
 Dex 2

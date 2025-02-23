@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-05-14 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+name <unnamed>
 width 16
 height 16
+msg
+Created:  2001-05-14 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch grass
 end
@@ -397,6 +398,10 @@ arch grass
 x 3
 y 7
 end
+arch unicorn
+x 3
+y 7
+end
 arch grass
 x 3
 y 8
@@ -406,6 +411,10 @@ x 3
 y 9
 end
 arch grass
+x 3
+y 10
+end
+arch unicorn
 x 3
 y 10
 end
@@ -699,7 +708,6 @@ y 7
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -711,7 +719,6 @@ y 7
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -749,7 +756,6 @@ y 10
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -761,7 +767,6 @@ y 10
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -784,6 +789,10 @@ x 6
 y 11
 end
 arch grass
+x 6
+y 12
+end
+arch unicorn
 x 6
 y 12
 end
@@ -937,6 +946,10 @@ arch grass
 x 8
 y 5
 end
+arch unicorn
+x 8
+y 5
+end
 arch grass
 x 8
 y 6
@@ -1040,7 +1053,6 @@ y 7
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -1051,7 +1063,6 @@ y 7
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -1093,7 +1104,6 @@ y 10
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -1105,7 +1115,6 @@ y 10
 speed -0.100000
 level 99
 invisible 1
-no_pick 1
 no_pass 0
 blocksview 0
 end
@@ -1283,6 +1292,10 @@ arch grass
 x 11
 y 6
 end
+arch unicorn
+x 11
+y 6
+end
 arch grass
 x 11
 y 7
@@ -1296,6 +1309,10 @@ x 11
 y 9
 end
 arch grass
+x 11
+y 10
+end
+arch unicorn
 x 11
 y 10
 end
@@ -1793,28 +1810,4 @@ end
 arch biglake_se
 x 15
 y 15
-end
-arch unicorn
-x 3
-y 7
-end
-arch unicorn
-x 3
-y 10
-end
-arch unicorn
-x 6
-y 12
-end
-arch unicorn
-x 8
-y 5
-end
-arch unicorn
-x 11
-y 6
-end
-arch unicorn
-x 11
-y 10
 end

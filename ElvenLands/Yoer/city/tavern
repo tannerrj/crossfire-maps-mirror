@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-03-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
 width 22
 height 20
+msg
+Created:  2001-03-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -168,7 +169,7 @@ name Wizard
 msg
 @match hi|hello
 Ah,an adventuerer... Have you heard of
-the mithril trail? 
+the mithril trail?
 @match no|No
 It is the road connecting to the
 Dwarven kingdom of Erthos. It is vary
@@ -180,12 +181,12 @@ used his skill to help him in robbing
 merchants and travelers. This made him
 very successful,but it is said a more
 powerful wizard defeated him. And made
-the trail safe from his magiks. 
-                          
-                                      
-                                      
-                                      
-               
+the trail safe from his magiks.
+
+
+
+
+
 endmsg
 Str 0
 Con 6
@@ -2121,7 +2122,6 @@ x 18
 y 15
 end
 arch thief_1
-name thief
 x 18
 y 15
 unaggressive 1

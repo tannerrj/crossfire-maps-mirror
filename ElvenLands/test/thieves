@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2002-04-16 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-10 Rick Tanner
-endmsg
+name <unnamed>
 width 16
 height 16
+msg
+Created:  2002-04-16 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -531,7 +532,6 @@ x 4
 y 13
 end
 arch thief_1
-name thief
 x 4
 y 13
 level 30
@@ -547,7 +547,6 @@ x 4
 y 14
 end
 arch thief_1
-name thief
 x 4
 y 14
 level 30
@@ -685,7 +684,6 @@ x 5
 y 13
 end
 arch thief_1
-name thief
 x 5
 y 13
 level 30
@@ -701,7 +699,6 @@ x 5
 y 14
 end
 arch thief_1
-name thief
 x 5
 y 14
 level 30
@@ -996,7 +993,6 @@ x 8
 y 15
 end
 arch thief_1
-name thief
 x 9
 y 2
 level 30
@@ -1091,7 +1087,6 @@ x 9
 y 13
 end
 arch thief_1
-name thief
 x 9
 y 13
 level 30
@@ -1107,7 +1102,6 @@ x 9
 y 14
 end
 arch thief_1
-name thief
 x 9
 y 14
 level 30
@@ -1212,7 +1206,6 @@ x 10
 y 13
 end
 arch thief_1
-name thief
 x 10
 y 13
 level 30
@@ -1228,7 +1221,6 @@ x 10
 y 14
 end
 arch thief_1
-name thief
 x 10
 y 14
 level 30

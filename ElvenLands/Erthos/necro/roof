@@ -1,12 +1,48 @@
 arch map
 name roof
+darkness 1
+width 28
+height 27
 msg
 Created:  2001-05-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 32
-height 32
-darkness 1
+end
+arch behemoth
+name Dark Behemoth
+race undead
+msg
+@match *
+GRRR GRRROOAAARRR!!!
+endmsg
+Str 90
+Dex 50
+Con 50
+Wis 25
+Pow 25
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+dam 50
+wc -60
+ac -12
+level 70
+resist_physical 98
+resist_magic 85
+resist_fire -30
+resist_electricity 90
+resist_cold 100
+resist_confusion 100
+resist_acid 80
+resist_drain 100
+resist_weaponmagic 50
+resist_poison 100
+resist_slow 100
+resist_paralyze 100
+resist_turn_undead 80
+resist_godpower 50
+resist_holyword 50
 end
 arch blocked
 y 2
@@ -1174,7 +1210,7 @@ you come here?! Here,where your doom
 is!!! I will crush you for
 interrupting me!!!   Doth'Engoloth
 Endurectar'felosth foth nuremuptra
-toomroth doth elendhe!!!  
+toomroth doth elendhe!!!
  ...Come my pet... ...destroy this
 fool...
 endmsg
@@ -2460,40 +2496,4 @@ end
 arch slevel_2_2_4
 x 27
 y 26
-end
-arch behemoth
-name Dark Behemoth
-race undead
-msg
-@match *
-GRRR GRRROOAAARRR!!! 
-endmsg
-Str 90
-Dex 50
-Con 50
-Wis 25
-Pow 25
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-dam 50
-wc -60
-ac -12
-level 70
-resist_physical 98
-resist_magic 85
-resist_fire -30
-resist_electricity 90
-resist_cold 100
-resist_confusion 100
-resist_acid 80
-resist_drain 100
-resist_weaponmagic 50
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_turn_undead 80
-resist_godpower 50
-resist_holyword 50
 end

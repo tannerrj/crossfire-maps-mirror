@@ -1,11 +1,11 @@
 arch map
 name tow1
+width 37
+height 31
 msg
 Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 41
-height 41
 end
 arch dwall_2_2_2
 y 9
@@ -4432,6 +4432,13 @@ arch dwall_2_1_2
 x 33
 y 13
 end
+arch big_elec
+name Weak Dragon
+hp 1
+maxhp 1
+x 33
+y 19
+end
 arch raas
 name weak
 hp 0
@@ -4536,11 +4543,4 @@ end
 arch dwall_2_2_4
 x 36
 y 28
-end
-arch big_elec
-name Weak Dragon
-hp 1
-maxhp 1
-x 33
-y 19
 end

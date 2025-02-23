@@ -1,11 +1,11 @@
 arch map
 name upper temple
+width 20
+height 19
 msg
 Created:  2002-10-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 20
-height 20
 end
 arch flagstone
 end
@@ -134,29 +134,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 1
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -165,8 +155,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 1
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -198,29 +198,19 @@ y 7
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 1
+y 7
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -229,8 +219,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 1
-y 7
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -258,29 +258,19 @@ y 11
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 1
+y 11
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -289,8 +279,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 1
-y 11
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -322,29 +322,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 1
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -353,8 +343,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 1
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -522,18 +522,18 @@ y 7
 end
 arch guildmaster
 name devotee
-face wizard_white.151
 msg
 @match hi|hello
-Greetings, our high priest is in the tower, if you 
+Greetings, our high priest is in the tower, if you
 need him.
 endmsg
+face wizard_white.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 3
 y 7
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 3
@@ -666,10 +666,10 @@ name elf
 face elf.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 4
 y 10
+randomitems standard
+pick_up 0
 end
 arch marble
 x 4
@@ -727,29 +727,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 5
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -758,8 +748,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 5
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -835,29 +835,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 5
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -866,8 +856,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 5
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -893,29 +893,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 6
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -924,8 +914,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 6
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1000,10 +1000,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 6
 y 14
+randomitems standard
+pick_up 0
 end
 arch marble
 x 6
@@ -1019,29 +1019,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 6
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1050,8 +1040,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 6
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1148,10 +1148,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 7
 y 15
+randomitems standard
+pick_up 0
 end
 arch marble
 x 7
@@ -1224,10 +1224,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 8
 y 8
+randomitems standard
+pick_up 0
 end
 arch marble
 x 8
@@ -1297,29 +1297,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 9
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1328,8 +1318,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 9
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1349,12 +1349,12 @@ y 3
 end
 arch magic_mouth
 msg
-The steps of the stairs are painted with 
-various pictures of the elements: clouds, 
+The steps of the stairs are painted with
+various pictures of the elements: clouds,
 great storms, fierce lightning bolts, plants in
-abundance, brown earth, mountains, 
+abundance, brown earth, mountains,
 rushing waters, vast oceans, bright flames,
-choking ash, and flowing lava. 
+choking ash, and flowing lava.
 endmsg
 x 9
 y 3
@@ -1380,10 +1380,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 9
 y 7
+randomitems standard
+pick_up 0
 end
 arch marble
 x 9
@@ -1447,29 +1447,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 9
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1478,8 +1468,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 9
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1505,29 +1505,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 10
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1536,8 +1526,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 10
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1557,12 +1557,12 @@ y 3
 end
 arch magic_mouth
 msg
-The steps of the stairs are painted with 
-various pictures of the elements: clouds, 
+The steps of the stairs are painted with
+various pictures of the elements: clouds,
 great storms, fierce lightning bolts, plants in
-abundance, brown earth, mountains, 
+abundance, brown earth, mountains,
 rushing waters, vast oceans, bright flames,
-choking ash, and flowing lava. 
+choking ash, and flowing lava.
 endmsg
 x 10
 y 3
@@ -1624,10 +1624,10 @@ name elf
 face elf.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 10
 y 13
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 10
@@ -1655,29 +1655,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 10
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1686,8 +1676,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 10
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1768,10 +1768,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 11
 y 11
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 11
@@ -1923,29 +1923,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 13
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1954,8 +1944,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 13
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2039,29 +2039,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 13
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2070,8 +2060,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 13
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2097,29 +2097,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 14
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2128,8 +2118,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 14
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2205,29 +2205,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 14
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2236,8 +2226,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 14
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2278,10 +2278,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 15
 y 3
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 15
@@ -2442,10 +2442,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 16
 y 12
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 16
@@ -2605,29 +2605,19 @@ y 1
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 18
+y 1
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2636,8 +2626,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 18
-y 1
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2669,29 +2669,19 @@ y 7
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 18
+y 7
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2700,8 +2690,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 18
-y 7
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2729,29 +2729,19 @@ y 11
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 18
+y 11
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2760,8 +2750,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 18
-y 11
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2793,29 +2793,19 @@ y 17
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 18
+y 17
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2824,8 +2814,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 18
-y 17
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound

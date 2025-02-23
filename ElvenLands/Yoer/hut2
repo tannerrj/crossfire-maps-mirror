@@ -1,12 +1,12 @@
 arch map
 name hut2
-msg
-Created:  1999-11-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+darkness 3
 width 32
 height 32
-darkness 3
+msg
+Created:  1999-11-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -268,6 +268,15 @@ arch bed_1
 x 1
 y 9
 end
+arch troll
+msg
+@match *
+ZZZZZZZzzzzzzz
+endmsg
+x 1
+y 9
+unaggressive 1
+end
 arch dungeon_floor
 x 1
 y 10
@@ -323,7 +332,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 1
@@ -937,6 +945,11 @@ arch dungeon_floor
 x 4
 y 28
 end
+arch g_worm
+name Great Worm
+x 4
+y 28
+end
 arch dungeon_floor
 x 4
 y 29
@@ -1093,6 +1106,10 @@ x 5
 y 20
 end
 arch dungeon_floor
+x 5
+y 21
+end
+arch bone_drake
 x 5
 y 21
 end
@@ -1647,6 +1664,10 @@ arch dungeon_floor
 x 8
 y 20
 end
+arch baslic
+x 8
+y 20
+end
 arch dungeon_floor
 x 8
 y 21
@@ -2055,7 +2076,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 11
@@ -2101,7 +2121,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 11
@@ -2143,7 +2162,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 11
@@ -2278,6 +2296,45 @@ end
 arch dungeon_floor
 x 11
 y 27
+end
+arch troll
+name monster keeper
+msg
+@match *
+Giant worm there,it not like other giant
+worm. This one more strong.
+It not have the burn juice like others.
+It skin glow like lighting.
+Me tamed it.  We ride it in tunnel
+fast. Me has seen more worm like this.
+Me saw it when we capture this one.
+endmsg
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 11
+y 27
+level 16
+carrying 123250
+unaggressive 1
+arch torch_1
+end
+arch arrow
+nrof 30
+end
+arch longbow
+end
+arch spiked_shield
+end
+arch plate_mail
+end
+arch full_helmet
+end
 end
 arch dungeon_floor
 x 11
@@ -2487,6 +2544,35 @@ arch dungeon_floor
 x 13
 y 1
 end
+arch troll
+name troll guard
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 13
+y 1
+level 16
+carrying 123250
+unaggressive 1
+arch torch_1
+end
+arch arrow
+nrof 30
+end
+arch longbow
+end
+arch spiked_shield
+end
+arch plate_mail
+end
+arch full_helmet
+end
+end
 arch dungeon_floor
 x 13
 y 2
@@ -2582,7 +2668,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 13
@@ -2624,7 +2709,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 13
@@ -2936,7 +3020,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 15
@@ -3047,6 +3130,35 @@ arch dungeon_floor
 x 15
 y 17
 end
+arch troll
+name troll guard
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 15
+y 17
+level 16
+carrying 123250
+unaggressive 1
+arch torch_1
+end
+arch arrow
+nrof 30
+end
+arch longbow
+end
+arch spiked_shield
+end
+arch plate_mail
+end
+arch full_helmet
+end
+end
 arch dungeon_floor
 x 15
 y 18
@@ -3071,6 +3183,38 @@ arch dungeon_floor
 x 15
 y 22
 end
+arch gaelotroll
+name troll guard
+Str 66
+Con 35
+hp 9000
+maxhp 9000
+exp 120000
+dam 80
+wc -70
+ac -20
+x 15
+y 22
+level 20
+carrying 123250
+unaggressive 1
+can_use_bow 1
+can_use_armour 1
+can_use_ring 1
+arch plate_mail
+end
+arch full_helmet
+end
+arch spiked_shield
+end
+arch longbow
+end
+arch arrow
+nrof 30
+end
+arch torch_1
+end
+end
 arch dungeon_floor
 x 15
 y 23
@@ -3083,6 +3227,38 @@ arch dungeon_floor
 x 15
 y 25
 end
+arch gaelotroll
+name troll guard
+Str 66
+Con 35
+hp 9000
+maxhp 9000
+exp 120000
+dam 80
+wc -70
+ac -20
+x 15
+y 25
+level 20
+carrying 123250
+unaggressive 1
+can_use_bow 1
+can_use_armour 1
+can_use_ring 1
+arch plate_mail
+end
+arch full_helmet
+end
+arch spiked_shield
+end
+arch longbow
+end
+arch arrow
+nrof 30
+end
+arch torch_1
+end
+end
 arch dungeon_floor
 x 15
 y 26
@@ -3094,6 +3270,38 @@ end
 arch dungeon_floor
 x 15
 y 28
+end
+arch gaelotroll
+name troll guard
+Str 66
+Con 35
+hp 9000
+maxhp 9000
+exp 120000
+dam 80
+wc -70
+ac -20
+x 15
+y 28
+level 20
+carrying 123250
+unaggressive 1
+can_use_bow 1
+can_use_armour 1
+can_use_ring 1
+arch plate_mail
+end
+arch full_helmet
+end
+arch spiked_shield
+end
+arch longbow
+end
+arch arrow
+nrof 30
+end
+arch torch_1
+end
 end
 arch dungeon_floor
 x 15
@@ -3153,7 +3361,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 16
@@ -3370,7 +3577,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 17
@@ -3500,7 +3706,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 17
@@ -3604,7 +3809,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3740,7 +3944,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3802,7 +4005,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3836,7 +4038,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3870,7 +4071,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3904,7 +4104,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 18
@@ -3944,6 +4143,35 @@ end
 arch dungeon_floor
 x 19
 y 1
+end
+arch troll
+name troll guard
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 19
+y 1
+level 16
+carrying 123250
+unaggressive 1
+arch torch_1
+end
+arch arrow
+nrof 30
+end
+arch longbow
+end
+arch spiked_shield
+end
+arch plate_mail
+end
+arch full_helmet
+end
 end
 arch dungeon_floor
 x 19
@@ -4054,7 +4282,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 19
@@ -4300,7 +4527,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 20
@@ -4516,6 +4742,35 @@ end
 arch dungeon_floor
 x 21
 y 17
+end
+arch troll
+name troll guard
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 21
+y 17
+level 16
+carrying 123250
+unaggressive 1
+arch torch_1
+end
+arch arrow
+nrof 30
+end
+arch longbow
+end
+arch spiked_shield
+end
+arch plate_mail
+end
+arch full_helmet
+end
 end
 arch dungeon_floor
 x 21
@@ -4814,7 +5069,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 23
@@ -4864,7 +5118,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 23
@@ -4914,7 +5167,6 @@ Con 14
 hp 150
 maxhp 150
 exp 900
-dam 15
 wc -2
 ac -5
 x 23
@@ -7059,277 +7311,4 @@ end
 arch mine12
 x 31
 y 31
-end
-arch troll
-msg
-@match *
-ZZZZZZZzzzzzzz
-endmsg
-x 1
-y 9
-unaggressive 1
-end
-arch g_worm
-name Great Worm
-x 4
-y 28
-end
-arch bone_drake
-x 5
-y 21
-end
-arch baslic
-x 8
-y 20
-end
-arch troll
-name monster keeper
-msg
-@match *
-Giant worm there,it not like other giant
-worm. This one more strong.
-It not have the burn juice like others.
-It skin glow like lighting. 
-Me tamed it.  We ride it in tunnel
-fast. Me has seen more worm like this.  
-Me saw it when we capture this one.   
-endmsg
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 11
-y 27
-level 16
-carrying 123250
-unaggressive 1
-arch torch_1
-end
-arch arrow
-nrof 30
-end
-arch longbow
-end
-arch spiked_shield
-end
-arch plate_mail
-end
-arch full_helmet
-end
-end
-arch troll
-name troll guard
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 13
-y 1
-level 16
-carrying 123250
-unaggressive 1
-arch torch_1
-end
-arch arrow
-nrof 30
-end
-arch longbow
-end
-arch spiked_shield
-end
-arch plate_mail
-end
-arch full_helmet
-end
-end
-arch troll
-name troll guard
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 15
-y 17
-level 16
-carrying 123250
-unaggressive 1
-arch torch_1
-end
-arch arrow
-nrof 30
-end
-arch longbow
-end
-arch spiked_shield
-end
-arch plate_mail
-end
-arch full_helmet
-end
-end
-arch gaelotroll
-name troll guard
-Str 66
-Con 35
-hp 9000
-maxhp 9000
-exp 120000
-dam 80
-wc -70
-ac -20
-x 15
-y 22
-level 20
-carrying 123250
-unaggressive 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-arch plate_mail
-end
-arch full_helmet
-end
-arch spiked_shield
-end
-arch longbow
-end
-arch arrow
-nrof 30
-end
-arch torch_1
-end
-end
-arch gaelotroll
-name troll guard
-Str 66
-Con 35
-hp 9000
-maxhp 9000
-exp 120000
-dam 80
-wc -70
-ac -20
-x 15
-y 25
-level 20
-carrying 123250
-unaggressive 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-arch plate_mail
-end
-arch full_helmet
-end
-arch spiked_shield
-end
-arch longbow
-end
-arch arrow
-nrof 30
-end
-arch torch_1
-end
-end
-arch gaelotroll
-name troll guard
-Str 66
-Con 35
-hp 9000
-maxhp 9000
-exp 120000
-dam 80
-wc -70
-ac -20
-x 15
-y 28
-level 20
-carrying 123250
-unaggressive 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-arch plate_mail
-end
-arch full_helmet
-end
-arch spiked_shield
-end
-arch longbow
-end
-arch arrow
-nrof 30
-end
-arch torch_1
-end
-end
-arch troll
-name troll guard
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 19
-y 1
-level 16
-carrying 123250
-unaggressive 1
-arch torch_1
-end
-arch arrow
-nrof 30
-end
-arch longbow
-end
-arch spiked_shield
-end
-arch plate_mail
-end
-arch full_helmet
-end
-end
-arch troll
-name troll guard
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 21
-y 17
-level 16
-carrying 123250
-unaggressive 1
-arch torch_1
-end
-arch arrow
-nrof 30
-end
-arch longbow
-end
-arch spiked_shield
-end
-arch plate_mail
-end
-arch full_helmet
-end
 end

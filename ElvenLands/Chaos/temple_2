@@ -1,11 +1,11 @@
 arch map
 name temple_2
+width 32
+height 29
 msg
 Created:  2000-03-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-02 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 35
-height 29
 end
 arch marble
 end
@@ -2110,6 +2110,10 @@ arch marble
 x 8
 y 13
 end
+arch big_dragon
+x 8
+y 13
+end
 arch marble
 x 8
 y 14
@@ -2139,6 +2143,10 @@ x 8
 y 20
 end
 arch marble
+x 8
+y 21
+end
+arch big_dragon
 x 8
 y 21
 end
@@ -2281,6 +2289,10 @@ arch marble
 x 9
 y 17
 end
+arch big_dragon
+x 9
+y 17
+end
 arch marble
 x 9
 y 18
@@ -2454,6 +2466,10 @@ x 10
 y 8
 end
 arch marble
+x 10
+y 9
+end
+arch big_dragon
 x 10
 y 9
 end
@@ -7011,6 +7027,10 @@ arch marble
 x 28
 y 22
 end
+arch big_dragon
+x 28
+y 22
+end
 arch marble
 x 28
 y 23
@@ -7020,6 +7040,10 @@ x 28
 y 24
 end
 arch marble
+x 28
+y 25
+end
+arch big_dragon
 x 28
 y 25
 end
@@ -7886,28 +7910,4 @@ end
 arch dun7
 x 31
 y 28
-end
-arch big_dragon
-x 8
-y 13
-end
-arch big_dragon
-x 8
-y 21
-end
-arch big_dragon
-x 9
-y 17
-end
-arch big_dragon
-x 10
-y 9
-end
-arch big_dragon
-x 28
-y 22
-end
-arch big_dragon
-x 28
-y 25
 end

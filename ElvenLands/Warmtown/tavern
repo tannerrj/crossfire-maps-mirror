@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  1999-11-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
 width 16
 height 16
+msg
+Created:  1999-11-22 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -1225,11 +1226,10 @@ x 13
 y 5
 end
 arch thief_1
-name thief
 msg
 @match hi
 ppppssst... password.. pppsssst
-(whisper) (whisper) 
+(whisper) (whisper)
 @match password
 Shhhhh! ppppssst... pppssst...
 Uggilly... pssstt... (whisper) (whisper)

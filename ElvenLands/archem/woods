@@ -1,11 +1,12 @@
 arch map
-msg
-Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+darkness 4
 width 45
 height 45
-darkness 4
+msg
+Created:  2000-01-02 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch jungle_2
 end
@@ -546,6 +547,13 @@ x 2
 y 32
 end
 arch grass
+x 2
+y 33
+end
+arch store_weapons
+slaying /ElvenLands/archem/wood/bow
+hp 1
+sp 1
 x 2
 y 33
 end
@@ -4892,7 +4900,6 @@ end
 arch chicken
 name wild turkey
 Str 5
-hp 10
 exp 10
 dam 5
 x 27
@@ -5286,7 +5293,6 @@ end
 arch chicken
 name wild turkey
 Str 5
-hp 10
 exp 10
 dam 5
 x 30
@@ -5356,6 +5362,10 @@ x 30
 y 13
 end
 arch brush
+x 30
+y 14
+end
+arch house_long
 x 30
 y 14
 end
@@ -7209,15 +7219,4 @@ arch jungle_2
 name woods
 x 44
 y 24
-end
-arch store_weapons
-slaying /ElvenLands/archem/wood/bow
-hp 1
-sp 1
-x 2
-y 33
-end
-arch house_long
-x 30
-y 14
 end

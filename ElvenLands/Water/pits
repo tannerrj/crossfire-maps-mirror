@@ -1,13 +1,15 @@
 arch map
 name pits
+width 30
+height 30
 msg
 Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 31
-height 31
 end
 arch pstone_2
+end
+arch dread
 end
 arch pstone_2
 y 1
@@ -64,20 +66,22 @@ end
 arch pstone_2
 y 11
 end
+arch dread
+y 11
+end
 arch pstone_2
 y 12
 end
 arch blocked
-msg
-endmsg
 y 13
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch pstone_2
+y 15
+end
+arch dread
 y 15
 end
 arch pstone_2
@@ -133,6 +137,9 @@ arch pstone_2
 y 25
 end
 arch pstone_2
+y 26
+end
+arch dread
 y 26
 end
 arch pstone_2
@@ -235,14 +242,10 @@ x 1
 y 12
 end
 arch blocked
-msg
-endmsg
 x 1
 y 13
 end
 arch blocked
-msg
-endmsg
 x 1
 y 14
 end
@@ -448,14 +451,10 @@ x 2
 y 12
 end
 arch blocked
-msg
-endmsg
 x 2
 y 13
 end
 arch blocked
-msg
-endmsg
 x 2
 y 14
 end
@@ -686,14 +685,10 @@ x 3
 y 12
 end
 arch blocked
-msg
-endmsg
 x 3
 y 13
 end
 arch blocked
-msg
-endmsg
 x 3
 y 14
 end
@@ -947,14 +942,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 4
 y 13
 end
 arch blocked
-msg
-endmsg
 x 4
 y 14
 end
@@ -1221,14 +1212,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 5
 y 13
 end
 arch blocked
-msg
-endmsg
 x 5
 y 14
 end
@@ -1498,14 +1485,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 6
 y 13
 end
 arch blocked
-msg
-endmsg
 x 6
 y 14
 end
@@ -1776,14 +1759,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 7
 y 13
 end
 arch blocked
-msg
-endmsg
 x 7
 y 14
 end
@@ -2054,14 +2033,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 8
 y 13
 end
 arch blocked
-msg
-endmsg
 x 8
 y 14
 end
@@ -2321,14 +2296,10 @@ x 9
 y 12
 end
 arch blocked
-msg
-endmsg
 x 9
 y 13
 end
 arch blocked
-msg
-endmsg
 x 9
 y 14
 end
@@ -2564,14 +2535,10 @@ x 10
 y 12
 end
 arch blocked
-msg
-endmsg
 x 10
 y 13
 end
 arch blocked
-msg
-endmsg
 x 10
 y 14
 end
@@ -2692,6 +2659,9 @@ end
 arch pstone_2
 x 11
 end
+arch dread
+x 11
+end
 arch pstone_2
 x 11
 y 1
@@ -2778,23 +2748,27 @@ arch pstone_2
 x 11
 y 11
 end
+arch dread
+x 11
+y 11
+end
 arch pstone_2
 x 11
 y 12
 end
 arch blocked
-msg
-endmsg
 x 11
 y 13
 end
 arch blocked
-msg
-endmsg
 x 11
 y 14
 end
 arch pstone_2
+x 11
+y 15
+end
+arch dread
 x 11
 y 15
 end
@@ -2884,6 +2858,10 @@ arch pstone_2
 x 11
 y 26
 end
+arch dread
+x 11
+y 26
+end
 arch pstone_2
 x 11
 y 27
@@ -2978,14 +2956,10 @@ x 12
 y 12
 end
 arch blocked
-msg
-endmsg
 x 12
 y 13
 end
 arch blocked
-msg
-endmsg
 x 12
 y 14
 end
@@ -3080,91 +3054,61 @@ x 12
 y 29
 end
 arch blocked
-msg
-endmsg
 x 13
 end
 arch blocked
-msg
-endmsg
 x 13
 y 1
 end
 arch blocked
-msg
-endmsg
 x 13
 y 2
 end
 arch blocked
-msg
-endmsg
 x 13
 y 3
 end
 arch blocked
-msg
-endmsg
 x 13
 y 4
 end
 arch blocked
-msg
-endmsg
 x 13
 y 5
 end
 arch blocked
-msg
-endmsg
 x 13
 y 6
 end
 arch blocked
-msg
-endmsg
 x 13
 y 7
 end
 arch blocked
-msg
-endmsg
 x 13
 y 8
 end
 arch blocked
-msg
-endmsg
 x 13
 y 9
 end
 arch blocked
-msg
-endmsg
 x 13
 y 10
 end
 arch blocked
-msg
-endmsg
 x 13
 y 11
 end
 arch blocked
-msg
-endmsg
 x 13
 y 12
 end
 arch blocked
-msg
-endmsg
 x 13
 y 13
 end
 arch blocked
-msg
-endmsg
 x 13
 y 14
 end
@@ -3229,91 +3173,61 @@ x 13
 y 29
 end
 arch blocked
-msg
-endmsg
 x 14
 end
 arch blocked
-msg
-endmsg
 x 14
 y 1
 end
 arch blocked
-msg
-endmsg
 x 14
 y 2
 end
 arch blocked
-msg
-endmsg
 x 14
 y 3
 end
 arch blocked
-msg
-endmsg
 x 14
 y 4
 end
 arch blocked
-msg
-endmsg
 x 14
 y 5
 end
 arch blocked
-msg
-endmsg
 x 14
 y 6
 end
 arch blocked
-msg
-endmsg
 x 14
 y 7
 end
 arch blocked
-msg
-endmsg
 x 14
 y 8
 end
 arch blocked
-msg
-endmsg
 x 14
 y 9
 end
 arch blocked
-msg
-endmsg
 x 14
 y 10
 end
 arch blocked
-msg
-endmsg
 x 14
 y 11
 end
 arch blocked
-msg
-endmsg
 x 14
 y 12
 end
 arch blocked
-msg
-endmsg
 x 14
 y 13
 end
 arch blocked
-msg
-endmsg
 x 14
 y 14
 end
@@ -3380,6 +3294,9 @@ end
 arch pstone_2
 x 15
 end
+arch dread
+x 15
+end
 arch pstone_2
 x 15
 y 1
@@ -3451,23 +3368,27 @@ arch pstone_2
 x 15
 y 11
 end
+arch dread
+x 15
+y 11
+end
 arch pstone_2
 x 15
 y 12
 end
 arch blocked
-msg
-endmsg
 x 15
 y 13
 end
 arch blocked
-msg
-endmsg
 x 15
 y 14
 end
 arch pstone_2
+x 15
+y 15
+end
+arch dread
 x 15
 y 15
 end
@@ -3539,6 +3460,10 @@ x 15
 y 25
 end
 arch pstone_2
+x 15
+y 26
+end
+arch dread
 x 15
 y 26
 end
@@ -3645,14 +3570,10 @@ x 16
 y 12
 end
 arch blocked
-msg
-endmsg
 x 16
 y 13
 end
 arch blocked
-msg
-endmsg
 x 16
 y 14
 end
@@ -3858,14 +3779,10 @@ x 17
 y 12
 end
 arch blocked
-msg
-endmsg
 x 17
 y 13
 end
 arch blocked
-msg
-endmsg
 x 17
 y 14
 end
@@ -4096,14 +4013,10 @@ x 18
 y 12
 end
 arch blocked
-msg
-endmsg
 x 18
 y 13
 end
 arch blocked
-msg
-endmsg
 x 18
 y 14
 end
@@ -4357,14 +4270,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 19
 y 13
 end
 arch blocked
-msg
-endmsg
 x 19
 y 14
 end
@@ -4631,14 +4540,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 20
 y 13
 end
 arch blocked
-msg
-endmsg
 x 20
 y 14
 end
@@ -4908,14 +4813,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 21
 y 13
 end
 arch blocked
-msg
-endmsg
 x 21
 y 14
 end
@@ -5187,14 +5088,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 22
 y 13
 end
 arch blocked
-msg
-endmsg
 x 22
 y 14
 end
@@ -5465,14 +5362,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 23
 y 13
 end
 arch blocked
-msg
-endmsg
 x 23
 y 14
 end
@@ -5732,14 +5625,10 @@ x 24
 y 12
 end
 arch blocked
-msg
-endmsg
 x 24
 y 13
 end
 arch blocked
-msg
-endmsg
 x 24
 y 14
 end
@@ -5975,14 +5864,10 @@ x 25
 y 12
 end
 arch blocked
-msg
-endmsg
 x 25
 y 13
 end
 arch blocked
-msg
-endmsg
 x 25
 y 14
 end
@@ -6103,6 +5988,9 @@ end
 arch pstone_2
 x 26
 end
+arch dread
+x 26
+end
 arch pstone_2
 x 26
 y 1
@@ -6189,23 +6077,27 @@ arch pstone_2
 x 26
 y 11
 end
+arch dread
+x 26
+y 11
+end
 arch pstone_2
 x 26
 y 12
 end
 arch blocked
-msg
-endmsg
 x 26
 y 13
 end
 arch blocked
-msg
-endmsg
 x 26
 y 14
 end
 arch pstone_2
+x 26
+y 15
+end
+arch dread
 x 26
 y 15
 end
@@ -6295,6 +6187,10 @@ arch pstone_2
 x 26
 y 26
 end
+arch dread
+x 26
+y 26
+end
 arch pstone_2
 x 26
 y 27
@@ -6389,14 +6285,10 @@ x 27
 y 12
 end
 arch blocked
-msg
-endmsg
 x 27
 y 13
 end
 arch blocked
-msg
-endmsg
 x 27
 y 14
 end
@@ -6491,91 +6383,61 @@ x 27
 y 29
 end
 arch blocked
-msg
-endmsg
 x 28
 end
 arch blocked
-msg
-endmsg
 x 28
 y 1
 end
 arch blocked
-msg
-endmsg
 x 28
 y 2
 end
 arch blocked
-msg
-endmsg
 x 28
 y 3
 end
 arch blocked
-msg
-endmsg
 x 28
 y 4
 end
 arch blocked
-msg
-endmsg
 x 28
 y 5
 end
 arch blocked
-msg
-endmsg
 x 28
 y 6
 end
 arch blocked
-msg
-endmsg
 x 28
 y 7
 end
 arch blocked
-msg
-endmsg
 x 28
 y 8
 end
 arch blocked
-msg
-endmsg
 x 28
 y 9
 end
 arch blocked
-msg
-endmsg
 x 28
 y 10
 end
 arch blocked
-msg
-endmsg
 x 28
 y 11
 end
 arch blocked
-msg
-endmsg
 x 28
 y 12
 end
 arch blocked
-msg
-endmsg
 x 28
 y 13
 end
 arch blocked
-msg
-endmsg
 x 28
 y 14
 end
@@ -6640,91 +6502,61 @@ x 28
 y 29
 end
 arch blocked
-msg
-endmsg
 x 29
 end
 arch blocked
-msg
-endmsg
 x 29
 y 1
 end
 arch blocked
-msg
-endmsg
 x 29
 y 2
 end
 arch blocked
-msg
-endmsg
 x 29
 y 3
 end
 arch blocked
-msg
-endmsg
 x 29
 y 4
 end
 arch blocked
-msg
-endmsg
 x 29
 y 5
 end
 arch blocked
-msg
-endmsg
 x 29
 y 6
 end
 arch blocked
-msg
-endmsg
 x 29
 y 7
 end
 arch blocked
-msg
-endmsg
 x 29
 y 8
 end
 arch blocked
-msg
-endmsg
 x 29
 y 9
 end
 arch blocked
-msg
-endmsg
 x 29
 y 10
 end
 arch blocked
-msg
-endmsg
 x 29
 y 11
 end
 arch blocked
-msg
-endmsg
 x 29
 y 12
 end
 arch blocked
-msg
-endmsg
 x 29
 y 13
 end
 arch blocked
-msg
-endmsg
 x 29
 y 14
 end
@@ -6787,60 +6619,4 @@ end
 arch blocked
 x 29
 y 29
-end
-arch dread
-end
-arch dread
-y 11
-end
-arch dread
-y 15
-end
-arch dread
-y 26
-end
-arch dread
-x 11
-end
-arch dread
-x 11
-y 11
-end
-arch dread
-x 11
-y 15
-end
-arch dread
-x 11
-y 26
-end
-arch dread
-x 15
-end
-arch dread
-x 15
-y 11
-end
-arch dread
-x 15
-y 15
-end
-arch dread
-x 15
-y 26
-end
-arch dread
-x 26
-end
-arch dread
-x 26
-y 11
-end
-arch dread
-x 26
-y 15
-end
-arch dread
-x 26
-y 26
 end

@@ -1,11 +1,11 @@
 arch map
 name Mygol1
-msg
-Created:  2001-06-29 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
 width 16
 height 16
+msg
+Created:  2001-06-29 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -221,39 +221,38 @@ x 2
 y 2
 end
 arch cauldron
-material 2
-no_pick 1
-identified 1
-magic 3
 x 2
 y 2
+magic 3
+no_pick 1
+identified 1
 end
 arch dungeon_floor
 x 2
 y 3
 end
 arch button_lever
-connected 3
 x 2
 y 3
+connected 3
 end
 arch dungeon_floor
 x 2
 y 4
 end
 arch igate_closed_1
-connected 3
 x 2
 y 4
+connected 3
 end
 arch dungeon_floor
 x 2
 y 5
 end
 arch button_lever
-connected 3
 x 2
 y 5
+connected 3
 end
 arch dungeon_floor
 x 2
@@ -732,18 +731,18 @@ y 9
 end
 arch check_inv
 slaying Mygol_1
-connected 1
 x 7
 y 9
+connected 1
 end
 arch dungeon_floor
 x 7
 y 10
 end
 arch igate_closed_1
-connected 1
 x 7
 y 10
+connected 1
 end
 arch dungeon_floor
 x 7
@@ -751,9 +750,9 @@ y 11
 end
 arch check_inv
 slaying Mygol_1
-connected 1
 x 7
 y 11
+connected 1
 end
 arch dungeon_floor
 x 7
@@ -795,9 +794,9 @@ x 8
 y 3
 end
 arch button_lever
-connected 2
 x 8
 y 3
+connected 2
 end
 arch dungeon_floor
 x 8
@@ -887,9 +886,9 @@ x 9
 y 3
 end
 arch grate_closed_2
-connected 2
 x 9
 y 3
+connected 2
 end
 arch dungeon_floor
 x 9
@@ -988,19 +987,19 @@ y 2
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 2
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
 y 3
 end
 arch button_lever
-connected 2
 x 10
 y 3
+connected 2
 end
 arch dungeon_floor
 x 10
@@ -1012,10 +1011,10 @@ y 4
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 4
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1027,10 +1026,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 5
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1042,10 +1041,10 @@ y 6
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 6
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1057,10 +1056,10 @@ y 7
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 7
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1072,10 +1071,10 @@ y 8
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 10
 y 8
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1159,10 +1158,10 @@ y 2
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 11
 y 2
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 11
@@ -1214,10 +1213,10 @@ y 8
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 11
 y 8
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 11
@@ -1228,19 +1227,19 @@ x 11
 y 9
 end
 arch dungeon_floor
-unique 1
 x 11
 y 10
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 11
 y 11
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 11
 y 12
+unique 1
 end
 arch dungeon_floor
 x 11
@@ -1283,10 +1282,10 @@ y 2
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 12
 y 2
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 12
@@ -1338,10 +1337,10 @@ y 8
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 12
 y 8
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 12
@@ -1352,42 +1351,42 @@ x 12
 y 9
 end
 arch dungeon_floor
-unique 1
 x 12
 y 10
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 12
 y 11
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 12
 y 12
+unique 1
 end
 arch button_lever
-connected 4
 x 12
 y 12
+connected 4
 end
 arch dungeon_floor
 x 12
 y 13
 end
 arch igate_closed_1
-connected 4
 x 12
 y 13
+connected 4
 end
 arch dungeon_floor
 x 12
 y 14
 end
 arch button_lever
-connected 4
 x 12
 y 14
+connected 4
 end
 arch dungeon_floor
 x 12
@@ -1418,10 +1417,10 @@ y 2
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 2
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1433,10 +1432,10 @@ y 3
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 3
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1448,10 +1447,10 @@ y 4
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 4
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1463,10 +1462,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 5
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1478,10 +1477,10 @@ y 6
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 6
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1493,10 +1492,10 @@ y 7
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 7
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1508,10 +1507,10 @@ y 8
 end
 arch random_reading
 slaying library
-level 30
-no_pick 1
 x 13
 y 8
+level 30
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1522,19 +1521,19 @@ x 13
 y 9
 end
 arch dungeon_floor
-unique 1
 x 13
 y 10
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 13
 y 11
+unique 1
 end
 arch dungeon_floor
-unique 1
 x 13
 y 12
+unique 1
 end
 arch dungeon_floor
 x 13

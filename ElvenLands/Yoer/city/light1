@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-06-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
 width 32
 height 23
+msg
+Created:  2001-06-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -448,10 +449,10 @@ arch cobblestones2
 x 5
 end
 arch invis_exit
-x 5
 slaying /ElvenLands/Yoer/city/city
 hp 38
 sp 2
+x 5
 end
 arch cobblestones2
 x 5
@@ -2027,7 +2028,6 @@ x 21
 y 9
 invisible 0
 glow_radius 8
-no_pick 1
 no_pass 1
 end
 arch cobblestones2

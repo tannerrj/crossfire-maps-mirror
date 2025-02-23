@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-06-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
 width 18
 height 16
+msg
+Created:  2001-06-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -312,7 +313,6 @@ maxhp 50
 exp 100
 dam 9
 wc 8
-ac 8
 x 3
 y 1
 end
@@ -452,8 +452,6 @@ y 9
 end
 arch goblin
 name hobogoblin
-hp 20
-maxhp 20
 exp 100
 dam 5
 wc 5
@@ -2002,7 +2000,7 @@ msg
    Hey! You can't go in there! Get
 em',Garunuk!
   *A big goblin charges you*
- 
+
   *Looks like others are getting in as
    well*
 

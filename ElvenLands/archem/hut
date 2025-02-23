@@ -1,11 +1,11 @@
 arch map
 name Farin's Hut
+width 28
+height 31
 msg
 Created:  2000-01-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 31
-height 31
 end
 arch bwall_2_2_2
 end
@@ -2118,7 +2118,7 @@ arch wizard
 name Regitirius
 msg
 @match hi|hello
-Hello. 
+Hello.
 I am very busy right now. I am going
 over my notes about the portals and
 magic properties of this island. If you
@@ -2174,8 +2174,6 @@ x 17
 y 7
 end
 arch mage
-msg
-endmsg
 hp 200
 x 17
 y 7
@@ -2855,8 +2853,6 @@ x 23
 y 10
 end
 arch priest
-msg
-endmsg
 hp 200
 x 23
 y 10

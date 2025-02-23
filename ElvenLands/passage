@@ -1,13 +1,13 @@
 arch map
 name passage
-msg
-Created:  1999-11-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
-width 100
-height 100
 difficulty 18
 darkness 5
+width 100
+height 100
+msg
+Created:  1999-11-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -827,15 +827,60 @@ arch medium_stones
 x 1
 y 39
 end
+arch Cwyvern
+x 1
+y 39
+end
 arch large_stones
 x 1
 y 40
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 1
+y 40
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 1
 y 41
 end
 arch medium_stones
+x 1
+y 42
+end
+arch Cwyvern
 x 1
 y 42
 end
@@ -852,7 +897,15 @@ arch medium_stones
 x 1
 y 44
 end
+arch Cwyvern
+x 1
+y 44
+end
 arch medium_stones
+x 1
+y 45
+end
+arch Cwyvern
 x 1
 y 45
 end
@@ -860,11 +913,23 @@ arch medium_stones
 x 1
 y 46
 end
+arch Cwyvern
+x 1
+y 46
+end
 arch medium_stones
 x 1
 y 47
 end
+arch Cwyvern
+x 1
+y 47
+end
 arch medium_stones
+x 1
+y 48
+end
+arch Cwyvern
 x 1
 y 48
 end
@@ -881,7 +946,15 @@ arch medium_stones
 x 1
 y 50
 end
+arch Cwyvern
+x 1
+y 50
+end
 arch medium_stones
+x 1
+y 51
+end
+arch Cwyvern
 x 1
 y 51
 end
@@ -893,7 +966,15 @@ arch medium_stones
 x 1
 y 53
 end
+arch Cwyvern
+x 1
+y 53
+end
 arch medium_stones
+x 1
+y 54
+end
+arch Cwyvern
 x 1
 y 54
 end
@@ -901,7 +982,15 @@ arch medium_stones
 x 1
 y 55
 end
+arch Cwyvern
+x 1
+y 55
+end
 arch medium_stones
+x 1
+y 56
+end
+arch Cwyvern
 x 1
 y 56
 end
@@ -979,10 +1068,10 @@ x 1
 y 69
 end
 arch cave1
-no_pass 0
-pass_thru 1
 x 1
 y 69
+no_pass 0
+pass_thru 1
 end
 arch medium_stones
 x 1
@@ -1252,6 +1341,10 @@ arch medium_stones
 x 2
 y 5
 end
+arch big_dragon
+x 2
+y 5
+end
 arch medium_stones
 x 2
 y 6
@@ -1261,6 +1354,10 @@ x 2
 y 7
 end
 arch medium_stones
+x 2
+y 8
+end
+arch big_dragon
 x 2
 y 8
 end
@@ -1276,6 +1373,10 @@ arch medium_stones
 x 2
 y 11
 end
+arch big_dragon
+x 2
+y 11
+end
 arch medium_stones
 x 2
 y 12
@@ -1285,6 +1386,10 @@ x 2
 y 13
 end
 arch medium_stones
+x 2
+y 14
+end
+arch big_dragon
 x 2
 y 14
 end
@@ -1320,6 +1425,10 @@ arch medium_stones
 x 2
 y 20
 end
+arch dragon
+x 2
+y 20
+end
 arch medium_stones
 x 2
 y 21
@@ -1332,11 +1441,19 @@ arch medium_stones
 x 2
 y 22
 end
+arch dragon
+x 2
+y 22
+end
 arch medium_stones
 x 2
 y 23
 end
 arch fire_dragon
+x 2
+y 23
+end
+arch dragon
 x 2
 y 23
 end
@@ -1364,6 +1481,10 @@ arch medium_stones
 x 2
 y 27
 end
+arch dragon
+x 2
+y 27
+end
 arch medium_stones
 x 2
 y 28
@@ -1373,6 +1494,10 @@ x 2
 y 28
 end
 arch medium_stones
+x 2
+y 29
+end
+arch dragon
 x 2
 y 29
 end
@@ -1485,6 +1610,10 @@ x 2
 y 51
 end
 arch medium_stones
+x 2
+y 52
+end
+arch Cwyvern
 x 2
 y 52
 end
@@ -1601,10 +1730,10 @@ x 2
 y 69
 end
 arch cave3
-no_pass 0
-pass_thru 1
 x 2
 y 69
+no_pass 0
+pass_thru 1
 end
 arch medium_stones
 x 2
@@ -1894,6 +2023,10 @@ arch medium_stones
 x 3
 y 21
 end
+arch dragon
+x 3
+y 21
+end
 arch medium_stones
 x 3
 y 22
@@ -1906,11 +2039,23 @@ arch medium_stones
 x 3
 y 24
 end
+arch dragon
+x 3
+y 24
+end
 arch medium_stones
 x 3
 y 25
 end
+arch dragon
+x 3
+y 25
+end
 arch medium_stones
+x 3
+y 26
+end
+arch dragon
 x 3
 y 26
 end
@@ -1958,6 +2103,10 @@ arch medium_stones
 x 3
 y 33
 end
+arch big_elec
+x 3
+y 33
+end
 arch medium_stones
 x 3
 y 34
@@ -1990,6 +2139,10 @@ arch medium_stones
 x 3
 y 39
 end
+arch Cwyvern
+x 3
+y 39
+end
 arch large_stones
 x 3
 y 40
@@ -2002,7 +2155,15 @@ arch medium_stones
 x 3
 y 42
 end
+arch Cwyvern
+x 3
+y 42
+end
 arch medium_stones
+x 3
+y 43
+end
+arch Cwyvern
 x 3
 y 43
 end
@@ -2010,9 +2171,50 @@ arch medium_stones
 x 3
 y 44
 end
+arch Cwyvern
+x 3
+y 44
+end
 arch large_stones
 x 3
 y 45
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 3
+y 45
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 3
@@ -2022,6 +2224,43 @@ arch large_stones
 x 3
 y 47
 end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 3
+y 47
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch gem
+nrof 600
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch ability_lightning
+end
+arch ability_cold
+end
+arch ability_mass_confusion
+end
+end
 arch large_stones
 x 3
 y 48
@@ -2030,7 +2269,15 @@ arch medium_stones
 x 3
 y 49
 end
+arch Cwyvern
+x 3
+y 49
+end
 arch medium_stones
+x 3
+y 50
+end
+arch Cwyvern
 x 3
 y 50
 end
@@ -2055,7 +2302,15 @@ arch medium_stones
 x 3
 y 54
 end
+arch Cwyvern
+x 3
+y 54
+end
 arch medium_stones
+x 3
+y 55
+end
+arch Cwyvern
 x 3
 y 55
 end
@@ -2063,7 +2318,15 @@ arch medium_stones
 x 3
 y 56
 end
+arch Cwyvern
+x 3
+y 56
+end
 arch medium_stones
+x 3
+y 57
+end
+arch Cwyvern
 x 3
 y 57
 end
@@ -2423,6 +2686,10 @@ arch medium_stones
 x 4
 y 17
 end
+arch big_dragon
+x 4
+y 17
+end
 arch medium_stones
 x 4
 y 18
@@ -2471,11 +2738,23 @@ arch medium_stones
 x 4
 y 27
 end
+arch dragon
+x 4
+y 27
+end
 arch medium_stones
 x 4
 y 28
 end
+arch dragon
+x 4
+y 28
+end
 arch medium_stones
+x 4
+y 29
+end
+arch dragon
 x 4
 y 29
 end
@@ -2543,6 +2822,10 @@ arch medium_stones
 x 4
 y 40
 end
+arch Cwyvern
+x 4
+y 40
+end
 arch medium_stones
 x 4
 y 41
@@ -2587,11 +2870,19 @@ arch medium_stones
 x 4
 y 51
 end
+arch Cwyvern
+x 4
+y 51
+end
 arch medium_stones
 x 4
 y 52
 end
 arch medium_stones
+x 4
+y 53
+end
+arch Cwyvern
 x 4
 y 53
 end
@@ -2962,7 +3253,15 @@ arch medium_stones
 x 5
 y 21
 end
+arch dragon
+x 5
+y 21
+end
 arch medium_stones
+x 5
+y 22
+end
+arch big_dragon
 x 5
 y 22
 end
@@ -2982,7 +3281,15 @@ arch medium_stones
 x 5
 y 25
 end
+arch dragon
+x 5
+y 25
+end
 arch medium_stones
+x 5
+y 26
+end
+arch dragon
 x 5
 y 26
 end
@@ -3071,15 +3378,60 @@ arch medium_stones
 x 5
 y 41
 end
+arch Cwyvern
+x 5
+y 41
+end
 arch large_stones
 x 5
 y 42
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 5
+y 42
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 5
 y 43
 end
 arch medium_stones
+x 5
+y 44
+end
+arch Cwyvern
 x 5
 y 44
 end
@@ -3103,7 +3455,15 @@ arch medium_stones
 x 5
 y 49
 end
+arch Cwyvern
+x 5
+y 49
+end
 arch medium_stones
+x 5
+y 50
+end
+arch Cwyvern
 x 5
 y 50
 end
@@ -3115,6 +3475,10 @@ arch medium_stones
 x 5
 y 52
 end
+arch Cwyvern
+x 5
+y 52
+end
 arch medium_stones
 x 5
 y 53
@@ -3123,7 +3487,15 @@ arch medium_stones
 x 5
 y 54
 end
+arch Cwyvern
+x 5
+y 54
+end
 arch medium_stones
+x 5
+y 55
+end
+arch Cwyvern
 x 5
 y 55
 end
@@ -3131,7 +3503,15 @@ arch medium_stones
 x 5
 y 56
 end
+arch Cwyvern
+x 5
+y 56
+end
 arch medium_stones
+x 5
+y 57
+end
+arch Cwyvern
 x 5
 y 57
 end
@@ -3381,6 +3761,21 @@ arch medium_stones
 x 6
 y 5
 end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 6
+y 5
+speed -0.500000
+level 24
+end
 arch medium_stones
 x 6
 y 6
@@ -3392,6 +3787,21 @@ end
 arch medium_stones
 x 6
 y 8
+end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 6
+y 8
+speed -0.500000
+level 24
 end
 arch medium_stones
 x 6
@@ -3405,6 +3815,10 @@ arch medium_stones
 x 6
 y 11
 end
+arch big_dragon
+x 6
+y 11
+end
 arch medium_stones
 x 6
 y 12
@@ -3414,6 +3828,10 @@ x 6
 y 13
 end
 arch medium_stones
+x 6
+y 14
+end
+arch big_dragon
 x 6
 y 14
 end
@@ -3469,6 +3887,10 @@ arch medium_stones
 x 6
 y 24
 end
+arch dragon
+x 6
+y 24
+end
 arch medium_stones
 x 6
 y 25
@@ -3481,7 +3903,15 @@ arch medium_stones
 x 6
 y 27
 end
+arch dragon
+x 6
+y 27
+end
 arch medium_stones
+x 6
+y 28
+end
+arch dragon
 x 6
 y 28
 end
@@ -3489,7 +3919,15 @@ arch medium_stones
 x 6
 y 29
 end
+arch dragon
+x 6
+y 29
+end
 arch medium_stones
+x 6
+y 30
+end
+arch dragon
 x 6
 y 30
 end
@@ -3549,6 +3987,10 @@ arch medium_stones
 x 6
 y 40
 end
+arch Cwyvern
+x 6
+y 40
+end
 arch medium_stones
 x 6
 y 41
@@ -3569,7 +4011,15 @@ arch medium_stones
 x 6
 y 45
 end
+arch Cwyvern
+x 6
+y 45
+end
 arch medium_stones
+x 6
+y 46
+end
+arch Cwyvern
 x 6
 y 46
 end
@@ -3577,7 +4027,15 @@ arch medium_stones
 x 6
 y 47
 end
+arch Cwyvern
+x 6
+y 47
+end
 arch medium_stones
+x 6
+y 48
+end
+arch Cwyvern
 x 6
 y 48
 end
@@ -3598,6 +4056,10 @@ x 6
 y 52
 end
 arch medium_stones
+x 6
+y 53
+end
+arch Cwyvern
 x 6
 y 53
 end
@@ -3995,6 +4457,10 @@ arch medium_stones
 x 7
 y 21
 end
+arch dragon
+x 7
+y 21
+end
 arch medium_stones
 x 7
 y 22
@@ -4008,6 +4474,10 @@ x 7
 y 24
 end
 arch medium_stones
+x 7
+y 25
+end
+arch dragon
 x 7
 y 25
 end
@@ -4087,11 +4557,19 @@ arch medium_stones
 x 7
 y 39
 end
+arch Cwyvern
+x 7
+y 39
+end
 arch medium_stones
 x 7
 y 40
 end
 arch medium_stones
+x 7
+y 41
+end
+arch Cwyvern
 x 7
 y 41
 end
@@ -4104,6 +4582,10 @@ x 7
 y 43
 end
 arch medium_stones
+x 7
+y 44
+end
+arch Cwyvern
 x 7
 y 44
 end
@@ -4127,7 +4609,15 @@ arch medium_stones
 x 7
 y 49
 end
+arch Cwyvern
+x 7
+y 49
+end
 arch medium_stones
+x 7
+y 50
+end
+arch Cwyvern
 x 7
 y 50
 end
@@ -4135,7 +4625,15 @@ arch medium_stones
 x 7
 y 51
 end
+arch Cwyvern
+x 7
+y 51
+end
 arch medium_stones
+x 7
+y 52
+end
+arch Cwyvern
 x 7
 y 52
 end
@@ -4151,7 +4649,15 @@ arch medium_stones
 x 7
 y 55
 end
+arch Cwyvern
+x 7
+y 55
+end
 arch medium_stones
+x 7
+y 56
+end
+arch Cwyvern
 x 7
 y 56
 end
@@ -4541,11 +5047,23 @@ arch medium_stones
 x 8
 y 22
 end
+arch dragon
+x 8
+y 22
+end
 arch medium_stones
 x 8
 y 23
 end
+arch dragon
+x 8
+y 23
+end
 arch medium_stones
+x 8
+y 24
+end
+arch dragon
 x 8
 y 24
 end
@@ -4554,6 +5072,10 @@ x 8
 y 25
 end
 arch medium_stones
+x 8
+y 26
+end
+arch dragon
 x 8
 y 26
 end
@@ -4641,6 +5163,10 @@ arch medium_stones
 x 8
 y 40
 end
+arch Cwyvern
+x 8
+y 40
+end
 arch medium_stones
 x 8
 y 41
@@ -4670,9 +5196,50 @@ arch medium_stones
 x 8
 y 46
 end
+arch Cwyvern
+x 8
+y 46
+end
 arch large_stones
 x 8
 y 47
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 8
+y 47
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch gem
+nrof 600
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch ability_lightning
+end
+arch ability_cold
+end
+arch ability_mass_confusion
+end
 end
 arch large_stones
 x 8
@@ -4698,7 +5265,15 @@ arch medium_stones
 x 8
 y 53
 end
+arch Cwyvern
+x 8
+y 53
+end
 arch medium_stones
+x 8
+y 54
+end
+arch Cwyvern
 x 8
 y 54
 end
@@ -4885,10 +5460,10 @@ end
 arch pit_closed
 hp 22
 sp 88
-resist_physical 30
-connected 1
 x 8
 y 84
+resist_physical 30
+connected 1
 end
 arch medium_stones
 x 8
@@ -5118,6 +5693,10 @@ arch medium_stones
 x 9
 y 21
 end
+arch dragon
+x 9
+y 21
+end
 arch medium_stones
 x 9
 y 22
@@ -5131,6 +5710,10 @@ x 9
 y 24
 end
 arch medium_stones
+x 9
+y 25
+end
+arch dragon
 x 9
 y 25
 end
@@ -5231,6 +5814,10 @@ arch medium_stones
 x 9
 y 39
 end
+arch Cwyvern
+x 9
+y 39
+end
 arch medium_stones
 x 9
 y 40
@@ -5238,6 +5825,43 @@ end
 arch large_stones
 x 9
 y 41
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 9
+y 41
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 9
@@ -5247,9 +5871,50 @@ arch medium_stones
 x 9
 y 43
 end
+arch Cwyvern
+x 9
+y 43
+end
 arch large_stones
 x 9
 y 44
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 9
+y 44
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 9
@@ -5271,6 +5936,10 @@ arch medium_stones
 x 9
 y 49
 end
+arch Cwyvern
+x 9
+y 49
+end
 arch medium_stones
 x 9
 y 50
@@ -5279,7 +5948,15 @@ arch medium_stones
 x 9
 y 51
 end
+arch Cwyvern
+x 9
+y 51
+end
 arch medium_stones
+x 9
+y 52
+end
+arch Cwyvern
 x 9
 y 52
 end
@@ -5352,6 +6029,10 @@ x 9
 y 63
 end
 arch medium_stones
+x 9
+y 64
+end
+arch chinese_dragon
 x 9
 y 64
 end
@@ -5464,10 +6145,10 @@ x 9
 y 83
 end
 arch button_lever
-resist_physical 30
-connected 1
 x 9
 y 83
+resist_physical 30
+connected 1
 end
 arch medium_stones
 x 9
@@ -5593,6 +6274,21 @@ arch medium_stones
 x 10
 y 5
 end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 10
+y 5
+speed -0.500000
+level 24
+end
 arch medium_stones
 x 10
 y 6
@@ -5604,6 +6300,21 @@ end
 arch medium_stones
 x 10
 y 8
+end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 10
+y 8
+speed -0.500000
+level 24
 end
 arch medium_stones
 x 10
@@ -5617,6 +6328,10 @@ arch medium_stones
 x 10
 y 11
 end
+arch big_dragon
+x 10
+y 11
+end
 arch medium_stones
 x 10
 y 12
@@ -5626,6 +6341,10 @@ x 10
 y 13
 end
 arch medium_stones
+x 10
+y 14
+end
+arch big_dragon
 x 10
 y 14
 end
@@ -5681,11 +6400,23 @@ arch medium_stones
 x 10
 y 22
 end
+arch dragon
+x 10
+y 22
+end
 arch medium_stones
 x 10
 y 23
 end
+arch dragon
+x 10
+y 23
+end
 arch medium_stones
+x 10
+y 24
+end
+arch dragon
 x 10
 y 24
 end
@@ -5785,6 +6516,10 @@ arch medium_stones
 x 10
 y 40
 end
+arch Cwyvern
+x 10
+y 40
+end
 arch large_stones
 x 10
 y 41
@@ -5809,6 +6544,10 @@ arch medium_stones
 x 10
 y 46
 end
+arch Cwyvern
+x 10
+y 46
+end
 arch large_stones
 x 10
 y 47
@@ -5825,6 +6564,10 @@ arch medium_stones
 x 10
 y 50
 end
+arch Cwyvern
+x 10
+y 50
+end
 arch medium_stones
 x 10
 y 51
@@ -5834,6 +6577,10 @@ x 10
 y 52
 end
 arch medium_stones
+x 10
+y 53
+end
+arch Cwyvern
 x 10
 y 53
 end
@@ -6261,6 +7008,10 @@ arch medium_stones
 x 11
 y 21
 end
+arch dragon
+x 11
+y 21
+end
 arch medium_stones
 x 11
 y 22
@@ -6277,7 +7028,15 @@ arch medium_stones
 x 11
 y 25
 end
+arch dragon
+x 11
+y 25
+end
 arch medium_stones
+x 11
+y 26
+end
+arch dragon
 x 11
 y 26
 end
@@ -6293,6 +7052,10 @@ arch medium_stones
 x 11
 y 28
 end
+arch dragon
+x 11
+y 28
+end
 arch medium_stones
 x 11
 y 29
@@ -6302,6 +7065,10 @@ x 11
 y 29
 end
 arch medium_stones
+x 11
+y 30
+end
+arch dragon
 x 11
 y 30
 end
@@ -6398,7 +7165,15 @@ arch medium_stones
 x 11
 y 48
 end
+arch Cwyvern
+x 11
+y 48
+end
 arch medium_stones
+x 11
+y 49
+end
+arch Cwyvern
 x 11
 y 49
 end
@@ -6410,7 +7185,15 @@ arch medium_stones
 x 11
 y 51
 end
+arch Cwyvern
+x 11
+y 51
+end
 arch medium_stones
+x 11
+y 52
+end
+arch Cwyvern
 x 11
 y 52
 end
@@ -6764,6 +7547,10 @@ arch medium_stones
 x 12
 y 17
 end
+arch big_dragon
+x 12
+y 17
+end
 arch medium_stones
 x 12
 y 18
@@ -6792,11 +7579,19 @@ arch medium_stones
 x 12
 y 22
 end
+arch big_dragon
+x 12
+y 22
+end
 arch medium_stones
 x 12
 y 23
 end
 arch medium_stones
+x 12
+y 24
+end
+arch dragon
 x 12
 y 24
 end
@@ -6812,11 +7607,19 @@ arch medium_stones
 x 12
 y 27
 end
+arch dragon
+x 12
+y 27
+end
 arch medium_stones
 x 12
 y 28
 end
 arch medium_stones
+x 12
+y 29
+end
+arch dragon
 x 12
 y 29
 end
@@ -6841,6 +7644,10 @@ x 12
 y 32
 end
 arch medium_stones
+x 12
+y 33
+end
+arch big_elec
 x 12
 y 33
 end
@@ -6876,6 +7683,43 @@ arch large_stones
 x 12
 y 39
 end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 12
+y 39
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch gem
+nrof 600
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch ability_lightning
+end
+arch ability_cold
+end
+arch ability_mass_confusion
+end
+end
 arch large_stones
 x 12
 y 40
@@ -6884,7 +7728,15 @@ arch medium_stones
 x 12
 y 41
 end
+arch Cwyvern
+x 12
+y 41
+end
 arch medium_stones
+x 12
+y 42
+end
+arch Cwyvern
 x 12
 y 42
 end
@@ -6908,6 +7760,43 @@ end
 arch large_stones
 x 12
 y 46
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 12
+y 46
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch gem
+nrof 600
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch ability_lightning
+end
+arch ability_cold
+end
+arch ability_mass_confusion
+end
 end
 arch large_stones
 x 12
@@ -6942,7 +7831,15 @@ arch medium_stones
 x 12
 y 53
 end
+arch Cwyvern
+x 12
+y 53
+end
 arch medium_stones
+x 12
+y 54
+end
+arch Cwyvern
 x 12
 y 54
 end
@@ -6950,7 +7847,15 @@ arch medium_stones
 x 12
 y 55
 end
+arch Cwyvern
+x 12
+y 55
+end
 arch medium_stones
+x 12
+y 56
+end
+arch Cwyvern
 x 12
 y 56
 end
@@ -7335,6 +8240,10 @@ arch medium_stones
 x 13
 y 21
 end
+arch dragon
+x 13
+y 21
+end
 arch medium_stones
 x 13
 y 22
@@ -7351,6 +8260,10 @@ arch medium_stones
 x 13
 y 25
 end
+arch dragon
+x 13
+y 25
+end
 arch medium_stones
 x 13
 y 26
@@ -7364,6 +8277,10 @@ x 13
 y 27
 end
 arch medium_stones
+x 13
+y 28
+end
+arch dragon
 x 13
 y 28
 end
@@ -7447,9 +8364,50 @@ arch medium_stones
 x 13
 y 43
 end
+arch Cwyvern
+x 13
+y 43
+end
 arch large_stones
 x 13
 y 44
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 13
+y 44
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
 end
 arch large_stones
 x 13
@@ -7467,9 +8425,50 @@ arch medium_stones
 x 13
 y 48
 end
+arch Cwyvern
+x 13
+y 48
+end
 arch large_stones
 x 13
 y 49
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 13
+y 49
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch gem
+nrof 600
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch ability_lightning
+end
+arch ability_cold
+end
+arch ability_mass_confusion
+end
 end
 arch large_stones
 x 13
@@ -7479,7 +8478,15 @@ arch medium_stones
 x 13
 y 51
 end
+arch Cwyvern
+x 13
+y 51
+end
 arch medium_stones
+x 13
+y 52
+end
+arch Cwyvern
 x 13
 y 52
 end
@@ -7724,66 +8731,66 @@ x 13
 y 94
 end
 arch spikes_open
+x 13
+y 95
 resist_magic 30
 connected 2
-x 13
-y 95
 end
 arch spikes_open
+x 13
+y 96
 resist_fire 30
 resist_confusion 30
 resist_acid 30
 connected 100
-x 13
-y 96
 end
 arch button_small
+x 13
+y 96
 resist_fire 30
 resist_confusion 30
 resist_acid 30
 connected 100
-x 13
-y 96
 end
 arch spikes_open
+x 13
+y 97
 resist_electricity 30
 resist_acid 30
 resist_drain 30
 connected 200
-x 13
-y 97
 end
 arch button_small
+x 13
+y 97
 resist_electricity 30
 resist_acid 30
 resist_drain 30
 connected 200
-x 13
-y 97
 end
 arch spikes_open
+x 13
+y 98
 resist_fire 30
 resist_electricity 30
 resist_confusion 30
 resist_weaponmagic 30
 connected 300
-x 13
-y 98
 end
 arch button_small
+x 13
+y 98
 resist_fire 30
 resist_electricity 30
 resist_confusion 30
 resist_weaponmagic 30
 connected 300
-x 13
-y 98
 end
 arch button_plate
-resist_physical 30
-connected 1
 x 13
 y 99
+resist_physical 30
+connected 1
 end
 arch medium_stones
 x 14
@@ -7823,6 +8830,10 @@ arch medium_stones
 x 14
 y 5
 end
+arch big_dragon
+x 14
+y 5
+end
 arch medium_stones
 x 14
 y 6
@@ -7832,6 +8843,10 @@ x 14
 y 7
 end
 arch medium_stones
+x 14
+y 8
+end
+arch big_dragon
 x 14
 y 8
 end
@@ -7847,6 +8862,10 @@ arch medium_stones
 x 14
 y 11
 end
+arch big_dragon
+x 14
+y 11
+end
 arch medium_stones
 x 14
 y 12
@@ -7856,6 +8875,10 @@ x 14
 y 13
 end
 arch medium_stones
+x 14
+y 14
+end
+arch big_dragon
 x 14
 y 14
 end
@@ -7911,6 +8934,10 @@ arch medium_stones
 x 14
 y 24
 end
+arch dragon
+x 14
+y 24
+end
 arch medium_stones
 x 14
 y 25
@@ -7924,6 +8951,10 @@ x 14
 y 26
 end
 arch medium_stones
+x 14
+y 27
+end
+arch dragon
 x 14
 y 27
 end
@@ -8007,6 +9038,43 @@ arch large_stones
 x 14
 y 41
 end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+sp 100
+maxsp 300
+exp 300000
+x 14
+y 41
+speed 0.400000
+speed_left -1.710000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 35000
+flying 1
+arch ability_mass_confusion
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch book
+name stones
+face largestone.111
+sp 85
+no_pick 1
+end
+arch gem
+nrof 600
+end
+end
 arch large_stones
 x 14
 y 42
@@ -8055,7 +9123,15 @@ arch medium_stones
 x 14
 y 53
 end
+arch Cwyvern
+x 14
+y 53
+end
 arch medium_stones
+x 14
+y 54
+end
+arch Cwyvern
 x 14
 y 54
 end
@@ -8063,11 +9139,23 @@ arch medium_stones
 x 14
 y 55
 end
+arch Cwyvern
+x 14
+y 55
+end
 arch medium_stones
 x 14
 y 56
 end
+arch Cwyvern
+x 14
+y 56
+end
 arch medium_stones
+x 14
+y 57
+end
+arch Cwyvern
 x 14
 y 57
 end
@@ -8437,11 +9525,23 @@ arch medium_stones
 x 15
 y 21
 end
+arch dragon
+x 15
+y 21
+end
 arch medium_stones
 x 15
 y 22
 end
+arch dragon
+x 15
+y 22
+end
 arch medium_stones
+x 15
+y 23
+end
+arch dragon
 x 15
 y 23
 end
@@ -8450,6 +9550,10 @@ x 15
 y 24
 end
 arch medium_stones
+x 15
+y 25
+end
+arch dragon
 x 15
 y 25
 end
@@ -8469,7 +9573,15 @@ arch medium_stones
 x 15
 y 28
 end
+arch dragon
+x 15
+y 28
+end
 arch medium_stones
+x 15
+y 29
+end
+arch dragon
 x 15
 y 29
 end
@@ -8537,6 +9649,10 @@ arch medium_stones
 x 15
 y 40
 end
+arch Cwyvern
+x 15
+y 40
+end
 arch large_stones
 x 15
 y 41
@@ -8561,6 +9677,10 @@ arch medium_stones
 x 15
 y 46
 end
+arch Cwyvern
+x 15
+y 46
+end
 arch medium_stones
 x 15
 y 47
@@ -8582,6 +9702,10 @@ x 15
 y 51
 end
 arch medium_stones
+x 15
+y 52
+end
+arch Cwyvern
 x 15
 y 52
 end
@@ -9063,6 +10187,10 @@ arch medium_stones
 x 16
 y 39
 end
+arch Cwyvern
+x 16
+y 39
+end
 arch medium_stones
 x 16
 y 40
@@ -9079,11 +10207,23 @@ arch medium_stones
 x 16
 y 43
 end
+arch Cwyvern
+x 16
+y 43
+end
 arch medium_stones
 x 16
 y 44
 end
+arch Cwyvern
+x 16
+y 44
+end
 arch medium_stones
+x 16
+y 45
+end
+arch Cwyvern
 x 16
 y 45
 end
@@ -9095,11 +10235,23 @@ arch medium_stones
 x 16
 y 47
 end
+arch Cwyvern
+x 16
+y 47
+end
 arch medium_stones
 x 16
 y 48
 end
+arch Cwyvern
+x 16
+y 48
+end
 arch medium_stones
+x 16
+y 49
+end
+arch Cwyvern
 x 16
 y 49
 end
@@ -9111,6 +10263,10 @@ arch medium_stones
 x 16
 y 51
 end
+arch Cwyvern
+x 16
+y 51
+end
 arch medium_stones
 x 16
 y 52
@@ -9119,7 +10275,15 @@ arch medium_stones
 x 16
 y 53
 end
+arch Cwyvern
+x 16
+y 53
+end
 arch medium_stones
+x 16
+y 54
+end
+arch Cwyvern
 x 16
 y 54
 end
@@ -9127,11 +10291,23 @@ arch medium_stones
 x 16
 y 55
 end
+arch Cwyvern
+x 16
+y 55
+end
 arch medium_stones
 x 16
 y 56
 end
+arch Cwyvern
+x 16
+y 56
+end
 arch medium_stones
+x 16
+y 57
+end
+arch Cwyvern
 x 16
 y 57
 end
@@ -12068,36 +13244,36 @@ x 20
 y 95
 end
 arch torch_1
-speed_left -1.450000
 x 20
 y 95
+speed_left -1.450000
 end
 arch medium_stones
 x 20
 y 96
 end
 arch torch_1
-speed_left -1.450000
 x 20
 y 96
+speed_left -1.450000
 end
 arch medium_stones
 x 20
 y 97
 end
 arch torch_1
-speed_left -1.450000
 x 20
 y 97
+speed_left -1.450000
 end
 arch medium_stones
 x 20
 y 98
 end
 arch torch_1
-speed_left -1.450000
 x 20
 y 98
+speed_left -1.450000
 end
 arch medium_stones
 x 20
@@ -12274,6 +13450,10 @@ x 21
 y 36
 end
 arch medium_stones
+x 21
+y 37
+end
+arch big_elec
 x 21
 y 37
 end
@@ -12662,9 +13842,9 @@ x 21
 y 95
 end
 arch torch_1
-speed_left -1.450000
 x 21
 y 95
+speed_left -1.450000
 end
 arch medium_stones
 x 21
@@ -13414,6 +14594,10 @@ arch medium_stones
 x 23
 y 50
 end
+arch big_elec
+x 23
+y 50
+end
 arch medium_stones
 x 23
 y 51
@@ -14265,9 +15449,9 @@ x 24
 y 95
 end
 arch torch_1
-speed_left -1.450000
 x 24
 y 95
+speed_left -1.450000
 end
 arch medium_stones
 x 24
@@ -14924,36 +16108,36 @@ x 25
 y 95
 end
 arch torch_1
-speed_left -1.450000
 x 25
 y 95
+speed_left -1.450000
 end
 arch medium_stones
 x 25
 y 96
 end
 arch torch_1
-speed_left -1.450000
 x 25
 y 96
+speed_left -1.450000
 end
 arch medium_stones
 x 25
 y 97
 end
 arch torch_1
-speed_left -1.450000
 x 25
 y 97
+speed_left -1.450000
 end
 arch medium_stones
 x 25
 y 98
 end
 arch torch_1
-speed_left -1.450000
 x 25
 y 98
+speed_left -1.450000
 end
 arch medium_stones
 x 25
@@ -15679,6 +16863,10 @@ arch medium_stones
 x 27
 y 29
 end
+arch big_elec
+x 27
+y 29
+end
 arch medium_stones
 x 27
 y 30
@@ -15756,6 +16944,10 @@ x 27
 y 41
 end
 arch medium_stones
+x 27
+y 42
+end
+arch big_elec
 x 27
 y 42
 end
@@ -17801,6 +18993,12 @@ arch medium_stones
 x 30
 y 81
 end
+arch giant
+name cave giant
+hp 100
+x 30
+y 81
+end
 arch medium_stones
 x 30
 y 82
@@ -19652,6 +20850,12 @@ x 33
 y 59
 end
 arch medium_stones
+x 33
+y 60
+end
+arch giant
+name cave giant
+hp 150
 x 33
 y 60
 end
@@ -21730,6 +22934,12 @@ x 36
 y 89
 end
 arch medium_stones
+x 36
+y 90
+end
+arch giant
+name cave giant
+hp 100
 x 36
 y 90
 end
@@ -22585,6 +23795,10 @@ arch medium_stones
 x 38
 y 29
 end
+arch big_elec
+x 38
+y 29
+end
 arch medium_stones
 x 38
 y 30
@@ -23232,6 +24446,10 @@ x 39
 y 44
 end
 arch medium_stones
+x 39
+y 45
+end
+arch big_elec
 x 39
 y 45
 end
@@ -24343,6 +25561,10 @@ arch medium_stones
 x 41
 y 36
 end
+arch big_elec
+x 41
+y 36
+end
 arch medium_stones
 x 41
 y 37
@@ -24644,6 +25866,11 @@ x 41
 y 82
 end
 arch medium_stones
+x 41
+y 83
+end
+arch giant
+name cave giant
 x 41
 y 83
 end
@@ -25548,6 +26775,10 @@ x 43
 y 44
 end
 arch medium_stones
+x 43
+y 45
+end
+arch big_elec
 x 43
 y 45
 end
@@ -27297,6 +28528,10 @@ arch medium_stones
 x 46
 y 54
 end
+arch big_elec
+x 46
+y 54
+end
 arch medium_stones
 x 46
 y 55
@@ -28143,7 +29378,15 @@ arch medium_stones
 x 47
 y 97
 end
+arch dragon
+x 47
+y 97
+end
 arch medium_stones
+x 47
+y 98
+end
+arch dragon
 x 47
 y 98
 end
@@ -28643,10 +29886,9 @@ Str 15
 hp 500
 dam 10
 wc 5
-ac 5
-speed_left -2.340000
 x 48
 y 87
+speed_left -2.340000
 end
 arch medium_stones
 x 48
@@ -28677,10 +29919,10 @@ name Drakar's bodyguard
 Str 10
 hp 60
 ac 5
-speed 2.252367
-speed_left -18.118935
 x 48
 y 93
+speed 2.252367
+speed_left -18.118935
 end
 arch medium_stones
 x 48
@@ -28688,9 +29930,9 @@ y 94
 end
 arch chest
 name Drakar's chest
-carrying 2300
 x 48
 y 94
+carrying 2300
 arch mithril
 nrof 5
 end
@@ -30823,6 +32065,10 @@ x 52
 y 41
 end
 arch medium_stones
+x 52
+y 42
+end
+arch big_elec
 x 52
 y 42
 end
@@ -33516,9 +34762,9 @@ arch teleporter
 slaying /ElvenLands/passage
 hp 35
 sp 35
-speed_left -0.200000
 x 57
 y 4
+speed_left -0.200000
 end
 arch medium_stones
 x 57
@@ -34522,6 +35768,10 @@ arch chest
 x 58
 y 55
 end
+arch chinese_dragon
+x 58
+y 55
+end
 arch medium_stones
 x 58
 y 56
@@ -35072,11 +36322,19 @@ arch medium_stones
 x 59
 y 30
 end
+arch chinese_dragon
+x 59
+y 30
+end
 arch medium_stones
 x 59
 y 31
 end
 arch medium_stones
+x 59
+y 32
+end
+arch big_elec
 x 59
 y 32
 end
@@ -35360,6 +36618,10 @@ arch random_wealth
 x 59
 y 71
 end
+arch bone_drake
+x 59
+y 71
+end
 arch medium_stones
 x 59
 y 72
@@ -35381,6 +36643,10 @@ x 59
 y 74
 end
 arch random_wealth
+x 59
+y 74
+end
+arch big_dragon
 x 59
 y 74
 end
@@ -35401,6 +36667,10 @@ x 59
 y 77
 end
 arch medium_stones
+x 59
+y 78
+end
+arch big_elec
 x 59
 y 78
 end
@@ -35425,6 +36695,10 @@ x 59
 y 82
 end
 arch medium_stones
+x 59
+y 83
+end
+arch chinese_dragon
 x 59
 y 83
 end
@@ -35658,6 +36932,10 @@ arch medium_stones
 x 60
 y 22
 end
+arch big_elec
+x 60
+y 22
+end
 arch medium_stones
 x 60
 y 23
@@ -35674,11 +36952,19 @@ arch medium_stones
 x 60
 y 26
 end
+arch chinese_dragon
+x 60
+y 26
+end
 arch medium_stones
 x 60
 y 27
 end
 arch medium_stones
+x 60
+y 28
+end
+arch chinese_dragon
 x 60
 y 28
 end
@@ -35846,6 +37132,10 @@ arch medium_stones
 x 60
 y 52
 end
+arch chinese_dragon
+x 60
+y 52
+end
 arch medium_stones
 x 60
 y 53
@@ -36003,6 +37293,10 @@ x 60
 y 75
 end
 arch medium_stones
+x 60
+y 76
+end
+arch big_dragon
 x 60
 y 76
 end
@@ -37290,6 +38584,10 @@ arch medium_stones
 x 62
 y 78
 end
+arch big_elec
+x 62
+y 78
+end
 arch medium_stones
 x 62
 y 79
@@ -37302,11 +38600,19 @@ arch medium_stones
 x 62
 y 81
 end
+arch chinese_dragon
+x 62
+y 81
+end
 arch medium_stones
 x 62
 y 82
 end
 arch medium_stones
+x 62
+y 83
+end
+arch chinese_dragon
 x 62
 y 83
 end
@@ -37319,6 +38625,10 @@ x 62
 y 85
 end
 arch medium_stones
+x 62
+y 86
+end
+arch chinese_dragon
 x 62
 y 86
 end
@@ -39164,11 +40474,19 @@ arch medium_stones
 x 65
 y 76
 end
+arch big_dragon
+x 65
+y 76
+end
 arch medium_stones
 x 65
 y 77
 end
 arch medium_stones
+x 65
+y 78
+end
+arch big_elec
 x 65
 y 78
 end
@@ -39192,6 +40510,10 @@ arch medium_stones
 x 65
 y 83
 end
+arch chinese_dragon
+x 65
+y 83
+end
 arch medium_stones
 x 65
 y 84
@@ -39201,6 +40523,10 @@ x 65
 y 85
 end
 arch medium_stones
+x 65
+y 86
+end
+arch chinese_dragon
 x 65
 y 86
 end
@@ -39838,6 +41164,10 @@ arch medium_stones
 x 66
 y 81
 end
+arch chinese_dragon
+x 66
+y 81
+end
 arch medium_stones
 x 66
 y 82
@@ -40458,6 +41788,10 @@ x 67
 y 82
 end
 arch medium_stones
+x 67
+y 83
+end
+arch chinese_dragon
 x 67
 y 83
 end
@@ -41091,11 +42425,19 @@ arch medium_stones
 x 68
 y 76
 end
+arch big_dragon
+x 68
+y 76
+end
 arch medium_stones
 x 68
 y 77
 end
 arch medium_stones
+x 68
+y 78
+end
+arch big_elec
 x 68
 y 78
 end
@@ -41194,9 +42536,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 68
 y 96
+randomitems chinese
 end
 arch medium_stones
 x 68
@@ -43167,9 +44509,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 71
 y 94
+randomitems chinese
 end
 arch medium_stones
 x 71
@@ -44060,6 +45402,10 @@ x 73
 y 47
 end
 arch medium_stones
+x 73
+y 48
+end
+arch chinese_dragon
 x 73
 y 48
 end
@@ -45125,6 +46471,18 @@ arch medium_stones
 x 75
 y 41
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 75
+y 41
+speed -0.500000
+level 25
+end
 arch medium_stones
 x 75
 y 42
@@ -45166,6 +46524,10 @@ x 75
 y 51
 end
 arch medium_stones
+x 75
+y 52
+end
+arch chinese_dragon
 x 75
 y 52
 end
@@ -45473,6 +46835,10 @@ arch medium_stones
 x 75
 y 94
 end
+arch dragon
+x 75
+y 94
+end
 arch medium_stones
 x 75
 y 95
@@ -45480,9 +46846,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 75
 y 95
+randomitems chinese
 end
 arch medium_stones
 x 75
@@ -45535,6 +46901,10 @@ x 76
 y 3
 end
 arch medium_stones
+x 76
+y 4
+end
+arch behemoth
 x 76
 y 4
 end
@@ -46056,6 +47426,10 @@ arch medium_stones
 x 77
 y 7
 end
+arch behemoth
+x 77
+y 7
+end
 arch medium_stones
 x 77
 y 8
@@ -46073,10 +47447,10 @@ x 77
 y 10
 end
 arch mine3
-no_pass 0
-pass_thru 1
 x 77
 y 10
+no_pass 0
+pass_thru 1
 end
 arch medium_stones
 x 77
@@ -46529,9 +47903,9 @@ x 77
 y 82
 end
 arch fighter
-speed_left -1.000000
 x 77
 y 82
+speed_left -1.000000
 end
 arch medium_stones
 x 77
@@ -46680,6 +48054,10 @@ x 78
 y 8
 end
 arch medium_stones
+x 78
+y 9
+end
+arch behemoth
 x 78
 y 9
 end
@@ -46868,6 +48246,10 @@ x 78
 y 47
 end
 arch medium_stones
+x 78
+y 48
+end
+arch chinese_dragon
 x 78
 y 48
 end
@@ -47605,9 +48987,9 @@ x 79
 y 78
 end
 arch fighter
-speed_left -1.000000
 x 79
 y 78
+speed_left -1.000000
 end
 arch medium_stones
 x 79
@@ -48112,6 +49494,10 @@ x 80
 y 51
 end
 arch medium_stones
+x 80
+y 52
+end
+arch chinese_dragon
 x 80
 y 52
 end
@@ -48923,6 +50309,13 @@ arch medium_stones
 x 81
 y 71
 end
+arch Cwyvern
+name wounded wyvern of chaos
+hp 50
+maxhp 50
+x 81
+y 71
+end
 arch medium_stones
 x 81
 y 72
@@ -49062,9 +50455,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 81
 y 95
+randomitems chinese
 end
 arch medium_stones
 x 81
@@ -49969,6 +51362,10 @@ arch medium_stones
 x 83
 y 48
 end
+arch chinese_dragon
+x 83
+y 48
+end
 arch medium_stones
 x 83
 y 49
@@ -50178,9 +51575,9 @@ x 83
 y 78
 end
 arch fighter
-speed_left -1.000000
 x 83
 y 78
+speed_left -1.000000
 end
 arch medium_stones
 x 83
@@ -50203,9 +51600,9 @@ x 83
 y 83
 end
 arch fighter
-speed_left -1.000000
 x 83
 y 83
+speed_left -1.000000
 end
 arch medium_stones
 x 83
@@ -50965,6 +52362,10 @@ arch medium_stones
 x 84
 y 96
 end
+arch dragon
+x 84
+y 96
+end
 arch medium_stones
 x 84
 y 97
@@ -51132,72 +52533,72 @@ x 85
 y 33
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 33
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 34
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 34
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 35
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 35
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 36
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 36
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 37
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 37
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 38
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 38
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 39
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 39
+speed_left -0.740000
 end
 arch medium_stones
 x 85
 y 40
 end
 arch ogre
-speed_left -0.740000
 x 85
 y 40
+speed_left -0.740000
 end
 arch medium_stones
 x 85
@@ -51558,9 +52959,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 85
 y 94
+randomitems chinese
 end
 arch medium_stones
 x 85
@@ -51737,72 +53138,72 @@ x 86
 y 33
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 33
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 34
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 34
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 35
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 35
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 36
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 36
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 37
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 37
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 38
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 38
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 39
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 39
+speed_left -0.740000
 end
 arch medium_stones
 x 86
 y 40
 end
 arch ogre
-speed_left -0.740000
 x 86
 y 40
+speed_left -0.740000
 end
 arch medium_stones
 x 86
@@ -53618,9 +55019,9 @@ end
 arch baby_dragon
 hp 1
 maxhp 1
-randomitems chinese
 x 88
 y 96
+randomitems chinese
 end
 arch medium_stones
 x 88
@@ -53789,72 +55190,72 @@ x 89
 y 33
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 33
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 34
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 34
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 35
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 35
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 36
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 36
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 37
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 37
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 38
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 38
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 39
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 39
+speed_left -0.740000
 end
 arch medium_stones
 x 89
 y 40
 end
 arch ogre
-speed_left -0.740000
 x 89
 y 40
+speed_left -0.740000
 end
 arch medium_stones
 x 89
@@ -54383,72 +55784,72 @@ x 90
 y 33
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 33
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 34
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 34
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 35
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 35
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 36
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 36
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 37
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 37
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 38
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 38
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 39
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 39
+speed_left -0.740000
 end
 arch medium_stones
 x 90
 y 40
 end
 arch ogre
-speed_left -0.740000
 x 90
 y 40
+speed_left -0.740000
 end
 arch medium_stones
 x 90
@@ -56409,6 +57810,10 @@ x 93
 y 29
 end
 arch medium_stones
+x 93
+y 30
+end
+arch ent
 x 93
 y 30
 end
@@ -60423,1410 +61828,4 @@ end
 arch medium_stones
 x 99
 y 99
-end
-arch Cwyvern
-x 1
-y 39
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 1
-y 40
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 1
-y 42
-end
-arch Cwyvern
-x 1
-y 44
-end
-arch Cwyvern
-x 1
-y 45
-end
-arch Cwyvern
-x 1
-y 46
-end
-arch Cwyvern
-x 1
-y 47
-end
-arch Cwyvern
-x 1
-y 48
-end
-arch Cwyvern
-x 1
-y 50
-end
-arch Cwyvern
-x 1
-y 51
-end
-arch Cwyvern
-x 1
-y 53
-end
-arch Cwyvern
-x 1
-y 54
-end
-arch Cwyvern
-x 1
-y 55
-end
-arch Cwyvern
-x 1
-y 56
-end
-arch big_dragon
-x 2
-y 5
-end
-arch big_dragon
-x 2
-y 8
-end
-arch big_dragon
-x 2
-y 11
-end
-arch big_dragon
-x 2
-y 14
-end
-arch dragon
-x 2
-y 20
-end
-arch dragon
-x 2
-y 22
-end
-arch dragon
-x 2
-y 23
-end
-arch dragon
-x 2
-y 27
-end
-arch dragon
-x 2
-y 29
-end
-arch Cwyvern
-x 2
-y 52
-end
-arch dragon
-x 3
-y 21
-end
-arch dragon
-x 3
-y 24
-end
-arch dragon
-x 3
-y 25
-end
-arch dragon
-x 3
-y 26
-end
-arch big_elec
-x 3
-y 33
-end
-arch Cwyvern
-x 3
-y 39
-end
-arch Cwyvern
-x 3
-y 42
-end
-arch Cwyvern
-x 3
-y 43
-end
-arch Cwyvern
-x 3
-y 44
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 3
-y 45
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 3
-y 47
-arch gem
-nrof 600
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch ability_lightning
-end
-arch ability_cold
-end
-arch ability_mass_confusion
-end
-end
-arch Cwyvern
-x 3
-y 49
-end
-arch Cwyvern
-x 3
-y 50
-end
-arch Cwyvern
-x 3
-y 54
-end
-arch Cwyvern
-x 3
-y 55
-end
-arch Cwyvern
-x 3
-y 56
-end
-arch Cwyvern
-x 3
-y 57
-end
-arch big_dragon
-x 4
-y 17
-end
-arch dragon
-x 4
-y 27
-end
-arch dragon
-x 4
-y 28
-end
-arch dragon
-x 4
-y 29
-end
-arch Cwyvern
-x 4
-y 40
-end
-arch Cwyvern
-x 4
-y 51
-end
-arch Cwyvern
-x 4
-y 53
-end
-arch dragon
-x 5
-y 21
-end
-arch big_dragon
-x 5
-y 22
-end
-arch dragon
-x 5
-y 25
-end
-arch dragon
-x 5
-y 26
-end
-arch Cwyvern
-x 5
-y 41
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 5
-y 42
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 5
-y 44
-end
-arch Cwyvern
-x 5
-y 49
-end
-arch Cwyvern
-x 5
-y 50
-end
-arch Cwyvern
-x 5
-y 52
-end
-arch Cwyvern
-x 5
-y 54
-end
-arch Cwyvern
-x 5
-y 55
-end
-arch Cwyvern
-x 5
-y 56
-end
-arch Cwyvern
-x 5
-y 57
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-speed -0.500000
-level 24
-x 6
-y 5
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-speed -0.500000
-level 24
-x 6
-y 8
-end
-arch big_dragon
-x 6
-y 11
-end
-arch big_dragon
-x 6
-y 14
-end
-arch dragon
-x 6
-y 24
-end
-arch dragon
-x 6
-y 27
-end
-arch dragon
-x 6
-y 28
-end
-arch dragon
-x 6
-y 29
-end
-arch dragon
-x 6
-y 30
-end
-arch Cwyvern
-x 6
-y 40
-end
-arch Cwyvern
-x 6
-y 45
-end
-arch Cwyvern
-x 6
-y 46
-end
-arch Cwyvern
-x 6
-y 47
-end
-arch Cwyvern
-x 6
-y 48
-end
-arch Cwyvern
-x 6
-y 53
-end
-arch dragon
-x 7
-y 21
-end
-arch dragon
-x 7
-y 25
-end
-arch Cwyvern
-x 7
-y 39
-end
-arch Cwyvern
-x 7
-y 41
-end
-arch Cwyvern
-x 7
-y 44
-end
-arch Cwyvern
-x 7
-y 49
-end
-arch Cwyvern
-x 7
-y 50
-end
-arch Cwyvern
-x 7
-y 51
-end
-arch Cwyvern
-x 7
-y 52
-end
-arch Cwyvern
-x 7
-y 55
-end
-arch Cwyvern
-x 7
-y 56
-end
-arch dragon
-x 8
-y 22
-end
-arch dragon
-x 8
-y 23
-end
-arch dragon
-x 8
-y 24
-end
-arch dragon
-x 8
-y 26
-end
-arch Cwyvern
-x 8
-y 40
-end
-arch Cwyvern
-x 8
-y 46
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 8
-y 47
-arch gem
-nrof 600
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch ability_lightning
-end
-arch ability_cold
-end
-arch ability_mass_confusion
-end
-end
-arch Cwyvern
-x 8
-y 53
-end
-arch Cwyvern
-x 8
-y 54
-end
-arch dragon
-x 9
-y 21
-end
-arch dragon
-x 9
-y 25
-end
-arch Cwyvern
-x 9
-y 39
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 9
-y 41
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 9
-y 43
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 9
-y 44
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 9
-y 49
-end
-arch Cwyvern
-x 9
-y 51
-end
-arch Cwyvern
-x 9
-y 52
-end
-arch chinese_dragon
-x 9
-y 64
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-speed -0.500000
-level 24
-x 10
-y 5
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-speed -0.500000
-level 24
-x 10
-y 8
-end
-arch big_dragon
-x 10
-y 11
-end
-arch big_dragon
-x 10
-y 14
-end
-arch dragon
-x 10
-y 22
-end
-arch dragon
-x 10
-y 23
-end
-arch dragon
-x 10
-y 24
-end
-arch Cwyvern
-x 10
-y 40
-end
-arch Cwyvern
-x 10
-y 46
-end
-arch Cwyvern
-x 10
-y 50
-end
-arch Cwyvern
-x 10
-y 53
-end
-arch dragon
-x 11
-y 21
-end
-arch dragon
-x 11
-y 25
-end
-arch dragon
-x 11
-y 26
-end
-arch dragon
-x 11
-y 28
-end
-arch dragon
-x 11
-y 30
-end
-arch Cwyvern
-x 11
-y 48
-end
-arch Cwyvern
-x 11
-y 49
-end
-arch Cwyvern
-x 11
-y 51
-end
-arch Cwyvern
-x 11
-y 52
-end
-arch big_dragon
-x 12
-y 17
-end
-arch big_dragon
-x 12
-y 22
-end
-arch dragon
-x 12
-y 24
-end
-arch dragon
-x 12
-y 27
-end
-arch dragon
-x 12
-y 29
-end
-arch big_elec
-x 12
-y 33
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 12
-y 39
-arch gem
-nrof 600
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch ability_lightning
-end
-arch ability_cold
-end
-arch ability_mass_confusion
-end
-end
-arch Cwyvern
-x 12
-y 41
-end
-arch Cwyvern
-x 12
-y 42
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 12
-y 46
-arch gem
-nrof 600
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch ability_lightning
-end
-arch ability_cold
-end
-arch ability_mass_confusion
-end
-end
-arch Cwyvern
-x 12
-y 53
-end
-arch Cwyvern
-x 12
-y 54
-end
-arch Cwyvern
-x 12
-y 55
-end
-arch Cwyvern
-x 12
-y 56
-end
-arch dragon
-x 13
-y 21
-end
-arch dragon
-x 13
-y 25
-end
-arch dragon
-x 13
-y 28
-end
-arch Cwyvern
-x 13
-y 43
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 13
-y 44
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 13
-y 48
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 13
-y 49
-arch gem
-nrof 600
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch ability_lightning
-end
-arch ability_cold
-end
-arch ability_mass_confusion
-end
-end
-arch Cwyvern
-x 13
-y 51
-end
-arch Cwyvern
-x 13
-y 52
-end
-arch big_dragon
-x 14
-y 5
-end
-arch big_dragon
-x 14
-y 8
-end
-arch big_dragon
-x 14
-y 11
-end
-arch big_dragon
-x 14
-y 14
-end
-arch dragon
-x 14
-y 24
-end
-arch dragon
-x 14
-y 27
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-sp 100
-maxsp 300
-exp 300000
-speed 0.400000
-speed_left -1.710000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 35000
-flying 1
-x 14
-y 41
-arch ability_mass_confusion
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch book
-name stones
-face largestone.111
-sp 85
-no_pick 1
-end
-arch gem
-nrof 600
-end
-end
-arch Cwyvern
-x 14
-y 53
-end
-arch Cwyvern
-x 14
-y 54
-end
-arch Cwyvern
-x 14
-y 55
-end
-arch Cwyvern
-x 14
-y 56
-end
-arch Cwyvern
-x 14
-y 57
-end
-arch dragon
-x 15
-y 21
-end
-arch dragon
-x 15
-y 22
-end
-arch dragon
-x 15
-y 23
-end
-arch dragon
-x 15
-y 25
-end
-arch dragon
-x 15
-y 28
-end
-arch dragon
-x 15
-y 29
-end
-arch Cwyvern
-x 15
-y 40
-end
-arch Cwyvern
-x 15
-y 46
-end
-arch Cwyvern
-x 15
-y 52
-end
-arch Cwyvern
-x 16
-y 39
-end
-arch Cwyvern
-x 16
-y 43
-end
-arch Cwyvern
-x 16
-y 44
-end
-arch Cwyvern
-x 16
-y 45
-end
-arch Cwyvern
-x 16
-y 47
-end
-arch Cwyvern
-x 16
-y 48
-end
-arch Cwyvern
-x 16
-y 49
-end
-arch Cwyvern
-x 16
-y 51
-end
-arch Cwyvern
-x 16
-y 53
-end
-arch Cwyvern
-x 16
-y 54
-end
-arch Cwyvern
-x 16
-y 55
-end
-arch Cwyvern
-x 16
-y 56
-end
-arch Cwyvern
-x 16
-y 57
-end
-arch big_elec
-x 21
-y 37
-end
-arch big_elec
-x 23
-y 50
-end
-arch big_elec
-x 27
-y 29
-end
-arch big_elec
-x 27
-y 42
-end
-arch giant
-name cave giant
-hp 100
-x 30
-y 81
-end
-arch giant
-name cave giant
-hp 150
-x 33
-y 60
-end
-arch giant
-name cave giant
-hp 100
-x 36
-y 90
-end
-arch big_elec
-x 38
-y 29
-end
-arch big_elec
-x 39
-y 45
-end
-arch big_elec
-x 41
-y 36
-end
-arch giant
-name cave giant
-x 41
-y 83
-end
-arch big_elec
-x 43
-y 45
-end
-arch big_elec
-x 46
-y 54
-end
-arch dragon
-x 47
-y 97
-end
-arch dragon
-x 47
-y 98
-end
-arch big_elec
-x 52
-y 42
-end
-arch chinese_dragon
-x 58
-y 55
-end
-arch chinese_dragon
-x 59
-y 30
-end
-arch big_elec
-x 59
-y 32
-end
-arch bone_drake
-x 59
-y 71
-end
-arch big_dragon
-x 59
-y 74
-end
-arch big_elec
-x 59
-y 78
-end
-arch chinese_dragon
-x 59
-y 83
-end
-arch big_elec
-x 60
-y 22
-end
-arch chinese_dragon
-x 60
-y 26
-end
-arch chinese_dragon
-x 60
-y 28
-end
-arch chinese_dragon
-x 60
-y 52
-end
-arch big_dragon
-x 60
-y 76
-end
-arch big_elec
-x 62
-y 78
-end
-arch chinese_dragon
-x 62
-y 81
-end
-arch chinese_dragon
-x 62
-y 83
-end
-arch chinese_dragon
-x 62
-y 86
-end
-arch big_dragon
-x 65
-y 76
-end
-arch big_elec
-x 65
-y 78
-end
-arch chinese_dragon
-x 65
-y 83
-end
-arch chinese_dragon
-x 65
-y 86
-end
-arch chinese_dragon
-x 66
-y 81
-end
-arch chinese_dragon
-x 67
-y 83
-end
-arch big_dragon
-x 68
-y 76
-end
-arch big_elec
-x 68
-y 78
-end
-arch chinese_dragon
-x 73
-y 48
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-speed -0.500000
-level 25
-x 75
-y 41
-end
-arch chinese_dragon
-x 75
-y 52
-end
-arch dragon
-x 75
-y 94
-end
-arch behemoth
-x 76
-y 4
-end
-arch behemoth
-x 77
-y 7
-end
-arch behemoth
-x 78
-y 9
-end
-arch chinese_dragon
-x 78
-y 48
-end
-arch chinese_dragon
-x 80
-y 52
-end
-arch Cwyvern
-name wounded wyvern of chaos
-hp 50
-maxhp 50
-x 81
-y 71
-end
-arch chinese_dragon
-x 83
-y 48
-end
-arch dragon
-x 84
-y 96
-end
-arch ent
-x 93
-y 30
 end

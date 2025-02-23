@@ -1,11 +1,11 @@
 arch map
 name Ruined Fort
-msg
-Created:  2000-07-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
 width 41
 height 41
+msg
+Created:  2000-07-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -5535,17 +5535,17 @@ King Yoer says: I remember now. The one
 who stole my memory was that dark
 necromancer. He must be planning
 something terrible. But why have you
-come to this horrible place?  
+come to this horrible place?
  You reply:
    I wanted your help to kill the
   necromancer. Will you help?
  King Yoer:
    Of course. Let us go to his tower
-  now.  
+  now.
    (At this,Yoer's blade glows
 brightly and produces a strange
 humming sound.) (Yoer gets up and
-followes you.) 
+followes you.)
 endmsg
 food 1
 x 26
@@ -5780,7 +5780,7 @@ msg
 King Yoer says:
 I can't remember my past. I wonder if
 there is something that can jog my
-memory.   
+memory.
 endmsg
 x 27
 y 14
@@ -5896,7 +5896,6 @@ carrying 27202
 arch cake
 name elven cake
 Str 1
-food 200
 nrof 5
 been_applied 1
 end

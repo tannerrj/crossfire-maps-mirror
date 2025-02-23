@@ -1,11 +1,11 @@
 arch map
 name slum_e
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
 width 25
 height 16
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1014,7 +1014,7 @@ name dirty man
 msg
 @match spoils
 Yes! Spoils. We got em for helpin those
-ugly trolls! Trolls! Trolls! 
+ugly trolls! Trolls! Trolls!
 @match password
 It is "dragon"
 endmsg
@@ -1154,7 +1154,6 @@ x 13
 y 4
 end
 arch thief_1
-name thief
 msg
 @match hi|hello
 Ahhh... Yes! We got the spoils..

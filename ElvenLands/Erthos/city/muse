@@ -1,10 +1,11 @@
 arch map
-msg
-Created:  2001-05-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
 width 21
 height 21
+msg
+Created:  2001-05-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -1101,8 +1102,8 @@ resist_confusion -5
 resist_slow -5
 value 2500
 weight 500
-need_an 0
 lifesave 0
+need_an 0
 end
 arch marble
 x 8
@@ -1718,7 +1719,6 @@ name Gauntlets
 title given by Mostrai
 x 12
 y 8
-resist_physical 5
 resist_fire 10
 resist_slow -5
 magic 4

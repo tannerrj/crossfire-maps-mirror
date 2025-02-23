@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2000-01-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 5
 width 35
 height 39
-darkness 5
+msg
+Created:  2000-01-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-22 Rick Tanner
+endmsg
 end
 arch small_stones
 end
@@ -55,93 +57,57 @@ arch small_stones
 y 16
 end
 arch blocked
-msg
-endmsg
 y 17
 end
 arch blocked
-msg
-endmsg
 y 18
 end
 arch blocked
-msg
-endmsg
 y 19
 end
 arch blocked
-msg
-endmsg
 y 20
 end
 arch blocked
-msg
-endmsg
 y 21
 end
 arch blocked
-msg
-endmsg
 y 22
 end
 arch blocked
-msg
-endmsg
 y 23
 end
 arch blocked
-msg
-endmsg
 y 24
 end
 arch blocked
-msg
-endmsg
 y 25
 end
 arch blocked
-msg
-endmsg
 y 26
 end
 arch blocked
-msg
-endmsg
 y 27
 end
 arch blocked
-msg
-endmsg
 y 28
 end
 arch blocked
-msg
-endmsg
 y 29
 end
 arch blocked
-msg
-endmsg
 y 30
 end
 arch blocked
-msg
-endmsg
 y 31
 end
 arch blocked
-msg
-endmsg
 y 32
 end
 arch blocked
-msg
-endmsg
 y 33
 end
 arch blocked
-msg
-endmsg
 y 34
 end
 arch pstone_1
@@ -226,50 +192,34 @@ x 1
 y 16
 end
 arch blocked
-msg
-endmsg
 x 1
 y 17
 end
 arch blocked
-msg
-endmsg
 x 1
 y 18
 end
 arch blocked
-msg
-endmsg
 x 1
 y 19
 end
 arch blocked
-msg
-endmsg
 x 1
 y 20
 end
 arch blocked
-msg
-endmsg
 x 1
 y 21
 end
 arch blocked
-msg
-endmsg
 x 1
 y 22
 end
 arch blocked
-msg
-endmsg
 x 1
 y 23
 end
 arch blocked
-msg
-endmsg
 x 1
 y 24
 end
@@ -306,38 +256,26 @@ x 1
 y 28
 end
 arch blocked
-msg
-endmsg
 x 1
 y 29
 end
 arch blocked
-msg
-endmsg
 x 1
 y 30
 end
 arch blocked
-msg
-endmsg
 x 1
 y 31
 end
 arch blocked
-msg
-endmsg
 x 1
 y 32
 end
 arch blocked
-msg
-endmsg
 x 1
 y 33
 end
 arch blocked
-msg
-endmsg
 x 1
 y 34
 end
@@ -473,14 +411,10 @@ x 2
 y 22
 end
 arch blocked
-msg
-endmsg
 x 2
 y 23
 end
 arch blocked
-msg
-endmsg
 x 2
 y 24
 end
@@ -509,20 +443,14 @@ x 2
 y 28
 end
 arch blocked
-msg
-endmsg
 x 2
 y 29
 end
 arch blocked
-msg
-endmsg
 x 2
 y 30
 end
 arch blocked
-msg
-endmsg
 x 2
 y 31
 end
@@ -1100,8 +1028,6 @@ x 5
 y 37
 end
 arch blocked
-msg
-endmsg
 x 5
 y 38
 end
@@ -1301,8 +1227,6 @@ x 6
 y 37
 end
 arch blocked
-msg
-endmsg
 x 6
 y 38
 end
@@ -1402,8 +1326,6 @@ x 7
 y 22
 end
 arch blocked
-msg
-endmsg
 x 7
 y 23
 end
@@ -1436,26 +1358,18 @@ x 7
 y 27
 end
 arch blocked
-msg
-endmsg
 x 7
 y 28
 end
 arch blocked
-msg
-endmsg
 x 7
 y 29
 end
 arch blocked
-msg
-endmsg
 x 7
 y 30
 end
 arch blocked
-msg
-endmsg
 x 7
 y 31
 end
@@ -1496,8 +1410,6 @@ x 7
 y 37
 end
 arch blocked
-msg
-endmsg
 x 7
 y 38
 end
@@ -1629,8 +1541,6 @@ x 8
 y 27
 end
 arch blocked
-msg
-endmsg
 x 8
 y 28
 end
@@ -1699,8 +1609,6 @@ x 8
 y 37
 end
 arch blocked
-msg
-endmsg
 x 8
 y 38
 end
@@ -1828,8 +1736,6 @@ x 9
 y 27
 end
 arch blocked
-msg
-endmsg
 x 9
 y 28
 end
@@ -1898,8 +1804,6 @@ x 9
 y 37
 end
 arch blocked
-msg
-endmsg
 x 9
 y 38
 end
@@ -2035,8 +1939,6 @@ x 10
 y 27
 end
 arch blocked
-msg
-endmsg
 x 10
 y 28
 end
@@ -2093,8 +1995,6 @@ x 10
 y 37
 end
 arch blocked
-msg
-endmsg
 x 10
 y 38
 end
@@ -2230,14 +2130,10 @@ x 11
 y 26
 end
 arch blocked
-msg
-endmsg
 x 11
 y 27
 end
 arch blocked
-msg
-endmsg
 x 11
 y 28
 end
@@ -2294,8 +2190,6 @@ x 11
 y 37
 end
 arch blocked
-msg
-endmsg
 x 11
 y 38
 end
@@ -2423,20 +2317,14 @@ x 12
 y 25
 end
 arch blocked
-msg
-endmsg
 x 12
 y 26
 end
 arch blocked
-msg
-endmsg
 x 12
 y 27
 end
 arch blocked
-msg
-endmsg
 x 12
 y 28
 end
@@ -2493,8 +2381,6 @@ x 12
 y 37
 end
 arch blocked
-msg
-endmsg
 x 12
 y 38
 end
@@ -2698,8 +2584,6 @@ x 13
 y 37
 end
 arch blocked
-msg
-endmsg
 x 13
 y 38
 end

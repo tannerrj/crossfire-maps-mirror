@@ -1,13 +1,13 @@
 arch map
 name orcshaman
-msg
-Created:  2001-05-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
-enter_x 12
-enter_y 23
 width 24
 height 24
+enter_x 12
+enter_y 23
+msg
+Created:  2001-05-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -2067,7 +2067,6 @@ hp 150
 maxhp 150
 sp 25
 maxsp 25
-exp 1000
 dam 12
 wc -5
 ac -2
@@ -2079,8 +2078,8 @@ resist_magic 0
 resist_electricity 0
 carrying 25020
 can_cast_spell 1
-can_use_wand 1
 can_use_ring 1
+can_use_wand 1
 arch book
 sp 4
 end
