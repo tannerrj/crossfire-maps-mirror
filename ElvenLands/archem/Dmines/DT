@@ -1,12 +1,13 @@
 arch map
 name Dwarf Town
-msg
-Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+region elvenlands
+darkness 1
 width 31
 height 31
-darkness 1
+msg
+Created:  2000-06-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -561,7 +562,7 @@ arch dwarf_wiz
 msg
 @match *
 Ha! Su'batuoy will make all the dwarves
-go mad but us! 
+go mad but us!
 endmsg
 x 2
 y 28
@@ -657,12 +658,12 @@ arch dwarf_p
 name dwarf smith
 msg
 @match hi|hello
-Aye laddie! Welcome to my smithery. 
+Aye laddie! Welcome to my smithery.
 What do ya want?
 @match armour
 Drop 10 dragon scales on my first anvil
 or drop 5 dragon scales on second anvil.
-@match weapon 
+@match weapon
 Drop 20 dragon scales on third anvil to
 get a dragonslayer.
 endmsg
@@ -2658,7 +2659,7 @@ arch dwarf
 name dwarf worker
 msg
 @match *
-Can't you see I am busy?! 
+Can't you see I am busy?!
 endmsg
 x 12
 y 25
@@ -2965,7 +2966,7 @@ arch greater_dwarven_guard
 msg
 @match *
 Better watch out! Many of the miners
-ahead have gone mad. 
+ahead have gone mad.
 endmsg
 x 14
 y 9
@@ -3100,7 +3101,7 @@ end
 arch lesser_dwarven_guard
 msg
 @match *
-Aye ladie! 
+Aye ladie!
 This ere's the alchemist.
 endmsg
 x 15
@@ -3689,7 +3690,7 @@ arch greater_dwarven_guard
 name big dwarven guard
 msg
 @match hi
-Grrrr,Can't ya see i'm tired! 
+Grrrr,Can't ya see i'm tired!
 endmsg
 x 18
 y 2
@@ -4530,7 +4531,7 @@ arch dwarf_p
 msg
 @match hi|hello
 Welcome to my home,ladie!  Have a cup
-of coffee! Good,aye ladie! 
+of coffee! Good,aye ladie!
 endmsg
 Str 10
 Dex 10

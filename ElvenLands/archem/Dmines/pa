@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 1
 width 25
 height 25
-darkness 1
+msg
+Created:  2000-06-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1898,7 +1900,7 @@ of our world. They hate elves and all
 elf friends. Although sunlight is not
 dangerous to them,they hide in caves
 and abandoned mines during the day.
-Some orcs live in forests and woods. 
+Some orcs live in forests and woods.
 endmsg
 end
 end

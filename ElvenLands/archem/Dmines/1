@@ -1,12 +1,13 @@
 arch map
 name 1
-msg
-Created:  2000-06-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+region elvenlands
+darkness 5
 width 28
 height 28
-darkness 5
+msg
+Created:  2000-06-02 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch mine10
 end
@@ -709,7 +710,7 @@ y 9
 end
 arch magic_mouth
 msg
-*rumble* *rumble* CRASH!!! 
+*rumble* *rumble* CRASH!!!
 endmsg
 x 5
 y 9
@@ -1145,7 +1146,7 @@ end
 arch magic_mouth
 msg
 looks like the mad dwarves caused a
-cave in! 
+cave in!
 endmsg
 x 8
 y 7
@@ -1702,7 +1703,7 @@ end
 arch dwarf
 msg
 @match *
-You are not allowed to open the gate! 
+You are not allowed to open the gate!
 endmsg
 x 12
 y 1
@@ -2681,7 +2682,7 @@ msg
 Too hurt... Mad dwarf tried to kill
 me... Did not finish job... soon I will
 die... must help us... go to Dwarf
-Town... *gasp* 
+Town... *gasp*
 endmsg
 x 18
 y 8
@@ -2691,7 +2692,7 @@ msg
 *gasp* Mad dwarf tried to kill me...
 Did not finish... but did enough...
 Soon I will die... *gasp* Must help
-us... go to dwarven city... *gasp* 
+us... go to dwarven city... *gasp*
 endmsg
 x 18
 y 8

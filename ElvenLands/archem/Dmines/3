@@ -1,12 +1,13 @@
 arch map
 name 3
-msg
-Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+region elvenlands
+darkness 5
 width 31
 height 31
-darkness 5
+msg
+Created:  2000-06-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-23 Rick Tanner
+endmsg
 end
 arch large_stones
 end
@@ -1383,17 +1384,41 @@ arch large_stones
 x 8
 y 4
 end
+arch mine_secret_1_1
+x 8
+y 4
+speed_left -1.500000
+connected 4
+end
 arch large_stones
 x 8
 y 5
+end
+arch mine_secret_1_1
+x 8
+y 5
+speed_left -1.500000
+connected 3
 end
 arch large_stones
 x 8
 y 6
 end
+arch mine_secret_1_1
+x 8
+y 6
+speed_left -1.500000
+connected 2
+end
 arch large_stones
 x 8
 y 7
+end
+arch mine_secret_1_1
+x 8
+y 7
+speed_left -1.500000
+connected 1
 end
 arch large_stones
 x 8
@@ -3046,7 +3071,7 @@ name dwarf miner
 msg
 @match hi|hello
 As much as I hate fighting fellow
-dwarves,I have to! 
+dwarves,I have to!
 endmsg
 x 17
 y 10
@@ -3280,7 +3305,7 @@ end
 arch magic_mouth
 msg
 You here someone fighting.
-Take that! Arrrg! *grunt* Arrrgg! 
+Take that! Arrrg! *grunt* Arrrgg!
 endmsg
 x 18
 y 13
@@ -5705,28 +5730,4 @@ end
 arch mine12
 x 30
 y 30
-end
-arch mine_secret_1_1
-x 8
-y 4
-speed_left -1.500000
-connected 4
-end
-arch mine_secret_1_1
-x 8
-y 5
-speed_left -1.500000
-connected 3
-end
-arch mine_secret_1_1
-x 8
-y 6
-speed_left -1.500000
-connected 2
-end
-arch mine_secret_1_1
-x 8
-y 7
-speed_left -1.500000
-connected 1
 end

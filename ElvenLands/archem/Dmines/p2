@@ -1,11 +1,13 @@
 arch map
+name <unnamed>
+region elvenlands
+darkness 1
+width 17
+height 16
 msg
 Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
+Modified: 2025-02-23 Rick Tanner
 endmsg
-width 17
-darkness 1
-height 16
 end
 arch dungeon_floor
 end
@@ -421,10 +423,10 @@ name Dwarven Mithril Coat
 Str 1
 Dex 1
 ac 5
-armour 50
 x 5
 y 2
 magic 4
+armour 50
 end
 arch dungeon_floor
 x 5
