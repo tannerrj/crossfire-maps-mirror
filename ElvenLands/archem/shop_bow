@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-01-01 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -704,10 +706,10 @@ Welcome to my shop. Would you like some
 high quality missile goods?
 @match yes
 Good! Look all you want! My store is
-full of goodies! 
+full of goodies!
 @match no
 Well,you should check another store for
-what you want. 
+what you want.
 endmsg
 hp 300
 dam 15

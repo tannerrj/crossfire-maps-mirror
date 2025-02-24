@@ -1,12 +1,14 @@
 arch map
-msg
-Created:  2000-01-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
-enter_x 5
-enter_y 14
+name <unnamed>
+region elvenlands
 width 31
 height 25
+enter_x 5
+enter_y 14
+msg
+Created:  2000-01-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch grass
 end
@@ -2749,6 +2751,18 @@ x 17
 y 1
 connected 3
 end
+arch big_dragon
+name dragon from other dimension
+hp 4000
+dam 26
+x 17
+y 1
+carrying 100
+arch key2
+name key from other dimension
+slaying joel
+end
+end
 arch pit_closed
 hp 7
 sp 6
@@ -3353,6 +3367,13 @@ arch grass
 x 20
 y 16
 end
+arch giant
+name giant of other dimension
+hp 280
+dam 25
+x 20
+y 16
+end
 arch grass
 x 20
 y 17
@@ -3525,6 +3546,16 @@ sp 11
 x 22
 y 1
 connected 4
+end
+arch titan
+name titan from other dimension
+x 22
+y 1
+carrying 100
+arch key2
+name key from other dimension
+slaying joel
+end
 end
 arch pit_closed
 hp 22
@@ -4593,33 +4624,4 @@ end
 arch awall_2_2_4
 x 30
 y 24
-end
-arch big_dragon
-name dragon from other dimension
-hp 4000
-dam 26
-x 17
-y 1
-carrying 100
-arch key2
-name key from other dimension
-slaying joel
-end
-end
-arch giant
-name giant of other dimension
-hp 280
-dam 25
-x 20
-y 16
-end
-arch titan
-name titan from other dimension
-x 22
-y 1
-carrying 100
-arch key2
-name key from other dimension
-slaying joel
-end
 end

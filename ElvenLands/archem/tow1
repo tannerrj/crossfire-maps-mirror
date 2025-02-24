@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 37
 height 39
+msg
+Created:  2000-01-02 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch bwall_2_2_2
 end
@@ -663,6 +665,10 @@ x 3
 y 25
 end
 arch woodfloor
+x 3
+y 26
+end
+arch dragon
 x 3
 y 26
 end
@@ -1382,6 +1388,10 @@ arch woodfloor
 x 7
 y 20
 end
+arch dragon
+x 7
+y 20
+end
 arch woodfloor
 x 7
 y 21
@@ -2008,6 +2018,10 @@ x 10
 y 24
 end
 arch woodfloor
+x 10
+y 25
+end
+arch dragon
 x 10
 y 25
 end
@@ -3894,6 +3908,10 @@ arch random_food
 x 19
 y 36
 end
+arch troll
+x 19
+y 36
+end
 arch woodfloor
 x 19
 y 37
@@ -4255,6 +4273,10 @@ arch woodfloor
 x 22
 y 5
 end
+arch giant
+x 22
+y 5
+end
 arch woodfloor
 x 22
 y 6
@@ -4324,6 +4346,10 @@ x 22
 y 20
 end
 arch woodfloor
+x 22
+y 21
+end
+arch dragon
 x 22
 y 21
 end
@@ -4431,6 +4457,10 @@ x 23
 y 4
 end
 arch woodfloor
+x 23
+y 5
+end
+arch giant
 x 23
 y 5
 end
@@ -5007,6 +5037,10 @@ arch woodfloor
 x 26
 y 21
 end
+arch dragon
+x 26
+y 21
+end
 arch woodfloor
 x 26
 y 22
@@ -5115,6 +5149,10 @@ x 27
 y 5
 end
 arch random_food
+x 27
+y 5
+end
+arch titan
 x 27
 y 5
 end
@@ -5369,6 +5407,10 @@ arch chest
 x 28
 y 25
 end
+arch dread
+x 28
+y 25
+end
 arch woodfloor
 x 28
 y 26
@@ -5390,6 +5432,10 @@ x 28
 y 28
 end
 arch chest
+x 28
+y 28
+end
+arch dread
 x 28
 y 28
 end
@@ -5815,6 +5861,10 @@ arch bwall_2_1_2
 x 31
 end
 arch woodfloor
+x 31
+y 1
+end
+arch troll
 x 31
 y 1
 end
@@ -6459,6 +6509,10 @@ arch woodfloor
 x 34
 y 36
 end
+arch troll
+x 34
+y 36
+end
 arch woodfloor
 x 34
 y 37
@@ -6800,56 +6854,4 @@ end
 arch bwall_2_2_4
 x 36
 y 38
-end
-arch dragon
-x 3
-y 26
-end
-arch dragon
-x 7
-y 20
-end
-arch dragon
-x 10
-y 25
-end
-arch troll
-x 19
-y 36
-end
-arch giant
-x 22
-y 5
-end
-arch dragon
-x 22
-y 21
-end
-arch giant
-x 23
-y 5
-end
-arch dragon
-x 26
-y 21
-end
-arch titan
-x 27
-y 5
-end
-arch dread
-x 28
-y 25
-end
-arch dread
-x 28
-y 28
-end
-arch troll
-x 31
-y 1
-end
-arch troll
-x 34
-y 36
 end

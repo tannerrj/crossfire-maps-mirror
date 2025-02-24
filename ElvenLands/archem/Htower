@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-04-24 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 41
 height 41
+msg
+Created:  2000-04-24 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -348,6 +350,10 @@ arch random_wealth
 x 1
 y 19
 end
+arch Greater_Demon
+x 1
+y 19
+end
 arch cobblestones2
 x 1
 y 20
@@ -522,6 +528,10 @@ arch cobblestones2
 x 2
 y 12
 end
+arch giant
+x 2
+y 12
+end
 arch cobblestones2
 x 2
 y 13
@@ -654,6 +664,10 @@ arch cobblestones2
 x 2
 y 35
 end
+arch demon_lord
+x 2
+y 35
+end
 arch cobblestones2
 x 2
 y 36
@@ -721,6 +735,10 @@ x 3
 y 9
 end
 arch cobblestones2
+x 3
+y 10
+end
+arch giant
 x 3
 y 10
 end
@@ -955,6 +973,10 @@ arch cobblestones2
 x 4
 y 12
 end
+arch giant
+x 4
+y 12
+end
 arch cobblestones2
 x 4
 y 13
@@ -1176,6 +1198,10 @@ x 5
 y 10
 end
 arch cobblestones2
+x 5
+y 11
+end
+arch giant
 x 5
 y 11
 end
@@ -1402,6 +1428,10 @@ x 6
 y 8
 end
 arch cobblestones2
+x 6
+y 9
+end
+arch giant
 x 6
 y 9
 end
@@ -1970,6 +2000,10 @@ arch cobblestones2
 x 8
 y 9
 end
+arch giant
+x 8
+y 9
+end
 arch cobblestones2
 x 8
 y 10
@@ -2094,6 +2128,10 @@ arch cobblestones2
 x 8
 y 32
 end
+arch big_demon
+x 8
+y 32
+end
 arch cobblestones2
 x 8
 y 33
@@ -2107,6 +2145,10 @@ x 8
 y 35
 end
 arch cobblestones2
+x 8
+y 36
+end
+arch big_wiz
 x 8
 y 36
 end
@@ -2169,6 +2211,10 @@ x 9
 y 5
 end
 arch cobblestones2
+x 9
+y 6
+end
+arch giant
 x 9
 y 6
 end
@@ -2260,6 +2306,10 @@ arch cobblestones2
 x 9
 y 22
 end
+arch titan
+x 9
+y 22
+end
 arch cobblestones2
 x 9
 y 23
@@ -2281,6 +2331,10 @@ x 9
 y 27
 end
 arch cobblestones2
+x 9
+y 28
+end
+arch titan
 x 9
 y 28
 end
@@ -2502,6 +2556,10 @@ arch cobblestones2
 x 10
 y 25
 end
+arch titan
+x 10
+y 25
+end
 arch cobblestones2
 x 10
 y 26
@@ -2620,6 +2678,10 @@ arch cobblestones2
 x 11
 y 7
 end
+arch giant
+x 11
+y 7
+end
 arch cobblestones2
 x 11
 y 8
@@ -2692,6 +2754,10 @@ arch cobblestones2
 x 11
 y 19
 end
+arch titan
+x 11
+y 19
+end
 arch cobblestones2
 x 11
 y 20
@@ -2745,6 +2811,10 @@ x 11
 y 31
 end
 arch cobblestones2
+x 11
+y 32
+end
+arch big_wiz
 x 11
 y 32
 end
@@ -2811,6 +2881,10 @@ x 12
 y 3
 end
 arch cobblestones2
+x 12
+y 4
+end
+arch giant
 x 12
 y 4
 end
@@ -2914,6 +2988,10 @@ arch cobblestones2
 x 12
 y 22
 end
+arch titan
+x 12
+y 22
+end
 arch cobblestones2
 x 12
 y 23
@@ -2935,6 +3013,10 @@ x 12
 y 27
 end
 arch cobblestones2
+x 12
+y 28
+end
+arch titan
 x 12
 y 28
 end
@@ -3017,6 +3099,10 @@ x 13
 y 2
 end
 arch cobblestones2
+x 13
+y 3
+end
+arch giant
 x 13
 y 3
 end
@@ -3140,6 +3226,10 @@ arch cobblestones2
 x 13
 y 25
 end
+arch titan
+x 13
+y 25
+end
 arch cobblestones2
 x 13
 y 26
@@ -3185,6 +3275,10 @@ x 13
 y 35
 end
 arch cobblestones2
+x 13
+y 36
+end
+arch big_demon
 x 13
 y 36
 end
@@ -3247,6 +3341,10 @@ x 14
 y 4
 end
 arch cobblestones2
+x 14
+y 5
+end
+arch giant
 x 14
 y 5
 end
@@ -3331,6 +3429,10 @@ x 14
 y 18
 end
 arch cobblestones2
+x 14
+y 19
+end
+arch titan
 x 14
 y 19
 end
@@ -3453,6 +3555,10 @@ x 15
 y 2
 end
 arch cobblestones2
+x 15
+y 3
+end
+arch giant
 x 15
 y 3
 end
@@ -3926,6 +4032,10 @@ arch cobblestones2
 x 17
 y 2
 end
+arch troll
+x 17
+y 2
+end
 arch cobblestones2
 x 17
 y 3
@@ -4059,6 +4169,10 @@ x 17
 y 22
 end
 arch cobblestones2
+x 17
+y 23
+end
+arch big_elec
 x 17
 y 23
 end
@@ -4483,6 +4597,10 @@ arch cobblestones2
 x 19
 y 8
 end
+arch gaelotroll
+x 19
+y 8
+end
 arch cobblestones2
 x 19
 y 9
@@ -4524,6 +4642,10 @@ x 19
 y 18
 end
 arch cobblestones2
+x 19
+y 19
+end
+arch big_elec
 x 19
 y 19
 end
@@ -4654,6 +4776,10 @@ arch dwall_2_1_2
 x 20
 end
 arch cobblestones2
+x 20
+y 1
+end
+arch troll
 x 20
 y 1
 end
@@ -4927,6 +5053,10 @@ arch cobblestones2
 x 21
 y 13
 end
+arch gaelotroll
+x 21
+y 13
+end
 arch cobblestones2
 x 21
 y 14
@@ -4952,6 +5082,10 @@ x 21
 y 19
 end
 arch cobblestones2
+x 21
+y 20
+end
+arch big_elec
 x 21
 y 20
 end
@@ -5067,6 +5201,10 @@ arch cobblestones2
 x 21
 y 38
 end
+arch behemoth
+x 21
+y 38
+end
 arch cobblestones2
 x 21
 y 39
@@ -5125,6 +5263,10 @@ arch cobblestones2
 x 22
 y 8
 end
+arch gaelotroll
+x 22
+y 8
+end
 arch cobblestones2
 x 22
 y 9
@@ -5158,6 +5300,10 @@ x 22
 y 16
 end
 arch cobblestones2
+x 22
+y 17
+end
+arch big_elec
 x 22
 y 17
 end
@@ -5311,6 +5457,10 @@ arch cobblestones2
 x 23
 y 3
 end
+arch troll
+x 23
+y 3
+end
 arch cobblestones2
 x 23
 y 4
@@ -5384,6 +5534,10 @@ x 23
 y 19
 end
 arch cobblestones2
+x 23
+y 20
+end
+arch big_elec
 x 23
 y 20
 end
@@ -5521,6 +5675,10 @@ arch cobblestones2
 x 24
 y 1
 end
+arch troll
+x 24
+y 1
+end
 arch cobblestones2
 x 24
 y 2
@@ -5750,6 +5908,10 @@ x 24
 y 36
 end
 arch cobblestones2
+x 24
+y 37
+end
+arch behemoth
 x 24
 y 37
 end
@@ -6077,6 +6239,10 @@ arch random_wealth
 x 26
 y 7
 end
+arch dread
+x 26
+y 7
+end
 arch cobblestones2
 x 26
 y 8
@@ -6130,6 +6296,10 @@ x 26
 y 14
 end
 arch random_wealth
+x 26
+y 14
+end
+arch chinese_dragon
 x 26
 y 14
 end
@@ -6339,11 +6509,19 @@ arch cobblestones2
 x 27
 y 1
 end
+arch troll
+x 27
+y 1
+end
 arch cobblestones2
 x 27
 y 2
 end
 arch cobblestones2
+x 27
+y 3
+end
+arch troll
 x 27
 y 3
 end
@@ -6375,6 +6553,10 @@ arch cobblestones2
 x 27
 y 9
 end
+arch dread
+x 27
+y 9
+end
 arch cobblestones2
 x 27
 y 10
@@ -6384,6 +6566,10 @@ x 27
 y 11
 end
 arch cobblestones2
+x 27
+y 12
+end
+arch dread
 x 27
 y 12
 end
@@ -6427,11 +6613,19 @@ arch cobblestones2
 x 27
 y 21
 end
+arch big_dragon
+x 27
+y 21
+end
 arch cobblestones2
 x 27
 y 22
 end
 arch cobblestones2
+x 27
+y 23
+end
+arch big_dragon
 x 27
 y 23
 end
@@ -6448,6 +6642,10 @@ x 27
 y 26
 end
 arch cobblestones2
+x 27
+y 27
+end
+arch big_dragon
 x 27
 y 27
 end
@@ -6523,6 +6721,10 @@ arch cobblestones2
 x 27
 y 38
 end
+arch behemoth
+x 27
+y 38
+end
 arch cobblestones2
 x 27
 y 39
@@ -6569,6 +6771,10 @@ arch cobblestones2
 x 28
 y 6
 end
+arch dread
+x 28
+y 6
+end
 arch cobblestones2
 x 28
 y 7
@@ -6605,6 +6811,10 @@ arch cobblestones2
 x 28
 y 15
 end
+arch dread
+x 28
+y 15
+end
 arch cobblestones2
 x 28
 y 16
@@ -6622,6 +6832,10 @@ x 28
 y 18
 end
 arch cobblestones2
+x 28
+y 19
+end
+arch big_dragon
 x 28
 y 19
 end
@@ -6646,6 +6860,10 @@ x 28
 y 24
 end
 arch cobblestones2
+x 28
+y 25
+end
+arch big_dragon
 x 28
 y 25
 end
@@ -6783,11 +7001,19 @@ arch cobblestones2
 x 29
 y 8
 end
+arch chinese_dragon
+x 29
+y 8
+end
 arch cobblestones2
 x 29
 y 9
 end
 arch cobblestones2
+x 29
+y 10
+end
+arch dread
 x 29
 y 10
 end
@@ -6957,11 +7183,19 @@ arch cobblestones2
 x 30
 y 1
 end
+arch troll
+x 30
+y 1
+end
 arch cobblestones2
 x 30
 y 2
 end
 arch cobblestones2
+x 30
+y 3
+end
+arch troll
 x 30
 y 3
 end
@@ -6978,6 +7212,10 @@ x 30
 y 5
 end
 arch cobblestones2
+x 30
+y 6
+end
+arch dread
 x 30
 y 6
 end
@@ -7009,11 +7247,19 @@ arch cobblestones2
 x 30
 y 13
 end
+arch chinese_dragon
+x 30
+y 13
+end
 arch cobblestones2
 x 30
 y 14
 end
 arch cobblestones2
+x 30
+y 15
+end
+arch chinese_dragon
 x 30
 y 15
 end
@@ -7137,6 +7383,10 @@ arch cobblestones2
 x 30
 y 37
 end
+arch behemoth
+x 30
+y 37
+end
 arch cobblestones2
 x 30
 y 38
@@ -7199,11 +7449,19 @@ arch cobblestones2
 x 31
 y 9
 end
+arch chinese_dragon
+x 31
+y 9
+end
 arch cobblestones2
 x 31
 y 10
 end
 arch cobblestones2
+x 31
+y 11
+end
+arch dread
 x 31
 y 11
 end
@@ -7251,6 +7509,10 @@ arch cobblestones2
 x 31
 y 21
 end
+arch big_dragon
+x 31
+y 21
+end
 arch cobblestones2
 x 31
 y 22
@@ -7260,6 +7522,10 @@ x 31
 y 23
 end
 arch cobblestones2
+x 31
+y 24
+end
+arch big_dragon
 x 31
 y 24
 end
@@ -7393,6 +7659,10 @@ arch cobblestones2
 x 32
 y 6
 end
+arch dread
+x 32
+y 6
+end
 arch cobblestones2
 x 32
 y 7
@@ -7418,6 +7688,10 @@ x 32
 y 12
 end
 arch cobblestones2
+x 32
+y 13
+end
+arch chinese_dragon
 x 32
 y 13
 end
@@ -7478,6 +7752,10 @@ x 32
 y 26
 end
 arch cobblestones2
+x 32
+y 27
+end
+arch big_dragon
 x 32
 y 27
 end
@@ -7587,11 +7865,19 @@ arch cobblestones2
 x 33
 y 1
 end
+arch troll
+x 33
+y 1
+end
 arch cobblestones2
 x 33
 y 2
 end
 arch cobblestones2
+x 33
+y 3
+end
+arch troll
 x 33
 y 3
 end
@@ -7623,11 +7909,19 @@ arch cobblestones2
 x 33
 y 9
 end
+arch chinese_dragon
+x 33
+y 9
+end
 arch cobblestones2
 x 33
 y 10
 end
 arch cobblestones2
+x 33
+y 11
+end
+arch chinese_dragon
 x 33
 y 11
 end
@@ -7647,6 +7941,10 @@ arch cobblestones2
 x 33
 y 15
 end
+arch chinese_dragon
+x 33
+y 15
+end
 arch cobblestones2
 x 33
 y 16
@@ -7660,6 +7958,10 @@ x 33
 y 17
 end
 arch cobblestones2
+x 33
+y 18
+end
+arch big_dragon
 x 33
 y 18
 end
@@ -7905,6 +8207,10 @@ arch cobblestones2
 x 34
 y 23
 end
+arch big_dragon
+x 34
+y 23
+end
 arch cobblestones2
 x 34
 y 24
@@ -8067,6 +8373,10 @@ arch cobblestones2
 x 35
 y 9
 end
+arch chinese_dragon
+x 35
+y 9
+end
 arch cobblestones2
 x 35
 y 10
@@ -8075,11 +8385,19 @@ arch cobblestones2
 x 35
 y 11
 end
+arch chinese_dragon
+x 35
+y 11
+end
 arch cobblestones2
 x 35
 y 12
 end
 arch cobblestones2
+x 35
+y 13
+end
+arch chinese_dragon
 x 35
 y 13
 end
@@ -8249,6 +8567,10 @@ arch cobblestones2
 x 36
 y 3
 end
+arch troll
+x 36
+y 3
+end
 arch cobblestones2
 x 36
 y 4
@@ -8313,6 +8635,10 @@ arch cobblestones2
 x 36
 y 15
 end
+arch chinese_dragon
+x 36
+y 15
+end
 arch cobblestones2
 x 36
 y 16
@@ -8341,6 +8667,10 @@ arch cobblestones2
 x 36
 y 21
 end
+arch big_dragon
+x 36
+y 21
+end
 arch cobblestones2
 x 36
 y 22
@@ -8362,6 +8692,10 @@ x 36
 y 26
 end
 arch cobblestones2
+x 36
+y 27
+end
+arch big_dragon
 x 36
 y 27
 end
@@ -8567,6 +8901,10 @@ arch cobblestones2
 x 37
 y 18
 end
+arch big_dragon
+x 37
+y 18
+end
 arch cobblestones2
 x 37
 y 19
@@ -8588,6 +8926,10 @@ x 37
 y 23
 end
 arch cobblestones2
+x 37
+y 24
+end
+arch big_dragon
 x 37
 y 24
 end
@@ -9513,344 +9855,4 @@ end
 arch dwall_2_2_4
 x 40
 y 40
-end
-arch Greater_Demon
-x 1
-y 19
-end
-arch giant
-x 2
-y 12
-end
-arch demon_lord
-x 2
-y 35
-end
-arch giant
-x 3
-y 10
-end
-arch giant
-x 4
-y 12
-end
-arch giant
-x 5
-y 11
-end
-arch giant
-x 6
-y 9
-end
-arch giant
-x 8
-y 9
-end
-arch big_demon
-x 8
-y 32
-end
-arch big_wiz
-x 8
-y 36
-end
-arch giant
-x 9
-y 6
-end
-arch titan
-x 9
-y 22
-end
-arch titan
-x 9
-y 28
-end
-arch titan
-x 10
-y 25
-end
-arch giant
-x 11
-y 7
-end
-arch titan
-x 11
-y 19
-end
-arch big_wiz
-x 11
-y 32
-end
-arch giant
-x 12
-y 4
-end
-arch titan
-x 12
-y 22
-end
-arch titan
-x 12
-y 28
-end
-arch giant
-x 13
-y 3
-end
-arch titan
-x 13
-y 25
-end
-arch big_demon
-x 13
-y 36
-end
-arch giant
-x 14
-y 5
-end
-arch titan
-x 14
-y 19
-end
-arch giant
-x 15
-y 3
-end
-arch troll
-x 17
-y 2
-end
-arch big_elec
-x 17
-y 23
-end
-arch gaelotroll
-x 19
-y 8
-end
-arch big_elec
-x 19
-y 19
-end
-arch troll
-x 20
-y 1
-end
-arch gaelotroll
-x 21
-y 13
-end
-arch big_elec
-x 21
-y 20
-end
-arch behemoth
-x 21
-y 38
-end
-arch gaelotroll
-x 22
-y 8
-end
-arch big_elec
-x 22
-y 17
-end
-arch troll
-x 23
-y 3
-end
-arch big_elec
-x 23
-y 20
-end
-arch troll
-x 24
-y 1
-end
-arch behemoth
-x 24
-y 37
-end
-arch dread
-x 26
-y 7
-end
-arch chinese_dragon
-x 26
-y 14
-end
-arch troll
-x 27
-y 1
-end
-arch troll
-x 27
-y 3
-end
-arch dread
-x 27
-y 9
-end
-arch dread
-x 27
-y 12
-end
-arch big_dragon
-x 27
-y 21
-end
-arch big_dragon
-x 27
-y 23
-end
-arch big_dragon
-x 27
-y 27
-end
-arch behemoth
-x 27
-y 38
-end
-arch dread
-x 28
-y 6
-end
-arch dread
-x 28
-y 15
-end
-arch big_dragon
-x 28
-y 19
-end
-arch big_dragon
-x 28
-y 25
-end
-arch chinese_dragon
-x 29
-y 8
-end
-arch dread
-x 29
-y 10
-end
-arch troll
-x 30
-y 1
-end
-arch troll
-x 30
-y 3
-end
-arch dread
-x 30
-y 6
-end
-arch chinese_dragon
-x 30
-y 13
-end
-arch chinese_dragon
-x 30
-y 15
-end
-arch behemoth
-x 30
-y 37
-end
-arch chinese_dragon
-x 31
-y 9
-end
-arch dread
-x 31
-y 11
-end
-arch big_dragon
-x 31
-y 21
-end
-arch big_dragon
-x 31
-y 24
-end
-arch dread
-x 32
-y 6
-end
-arch chinese_dragon
-x 32
-y 13
-end
-arch big_dragon
-x 32
-y 27
-end
-arch troll
-x 33
-y 1
-end
-arch troll
-x 33
-y 3
-end
-arch chinese_dragon
-x 33
-y 9
-end
-arch chinese_dragon
-x 33
-y 11
-end
-arch chinese_dragon
-x 33
-y 15
-end
-arch big_dragon
-x 33
-y 18
-end
-arch big_dragon
-x 34
-y 23
-end
-arch chinese_dragon
-x 35
-y 9
-end
-arch chinese_dragon
-x 35
-y 11
-end
-arch chinese_dragon
-x 35
-y 13
-end
-arch troll
-x 36
-y 3
-end
-arch chinese_dragon
-x 36
-y 15
-end
-arch big_dragon
-x 36
-y 21
-end
-arch big_dragon
-x 36
-y 27
-end
-arch big_dragon
-x 37
-y 18
-end
-arch big_dragon
-x 37
-y 24
 end

@@ -1,11 +1,12 @@
 arch map
 name land
-msg
-Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+region elvenlands
 width 51
 height 39
+msg
+Created:  2000-01-02 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -807,6 +808,14 @@ x 5
 y 15
 end
 arch grass
+x 5
+y 16
+end
+arch town_4
+name Archam
+slaying /ElvenLands/archem/town
+hp 22
+sp 9
 x 5
 y 16
 end
@@ -1161,7 +1170,7 @@ arch grass
 x 7
 y 22
 end
-arch farmland 
+arch farmland
 x 7
 y 23
 end
@@ -1501,7 +1510,7 @@ arch grass
 x 9
 y 19
 end
-arch farmland 
+arch farmland
 x 9
 y 20
 end
@@ -1652,7 +1661,7 @@ arch grass
 x 10
 y 14
 end
-arch farmland 
+arch farmland
 x 10
 y 15
 end
@@ -1881,7 +1890,7 @@ arch dirtroad_3_1
 x 11
 y 21
 end
-arch farmland 
+arch farmland
 x 11
 y 22
 end
@@ -2024,7 +2033,7 @@ arch dirtroad_2_1_2
 x 12
 y 17
 end
-arch farmland 
+arch farmland
 x 12
 y 18
 end
@@ -2208,7 +2217,7 @@ arch grass
 x 13
 y 20
 end
-arch farmland 
+arch farmland
 x 13
 y 21
 end
@@ -8512,12 +8521,4 @@ end
 arch sea
 x 50
 y 38
-end
-arch town_4
-name Archam
-slaying /ElvenLands/archem/town
-hp 22
-sp 9
-x 5
-y 16
 end

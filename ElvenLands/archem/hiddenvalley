@@ -1,11 +1,15 @@
 arch map
-msg
-Created:  2000-06-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 darkness 1
 width 16
 height 16
+msg
+Created:  2000-06-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
+end
+arch mountain_2
 end
 arch mountain
 y 2
@@ -786,6 +790,10 @@ arch fernssparse
 x 8
 y 13
 end
+arch mountain_2
+x 8
+y 14
+end
 arch mountain
 x 9
 end
@@ -1097,6 +1105,10 @@ y 6
 walk_on 1
 no_pass 0
 end
+arch rowboat
+x 12
+y 6
+end
 arch grassmedium
 x 12
 y 7
@@ -1279,6 +1291,10 @@ arch biglake_se
 x 14
 y 6
 end
+arch mountain_2
+x 14
+y 7
+end
 arch mountain
 x 14
 y 9
@@ -1380,18 +1396,4 @@ end
 arch mountain
 x 15
 y 15
-end
-arch mountain_2
-end
-arch mountain_2
-x 8
-y 14
-end
-arch rowboat
-x 12
-y 6
-end
-arch mountain_2
-x 14
-y 7
 end
