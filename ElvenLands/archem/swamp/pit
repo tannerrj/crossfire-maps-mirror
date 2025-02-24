@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-01-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch rough_wall_2_2_2
 end
@@ -314,6 +316,10 @@ arch large_stones
 x 3
 y 9
 end
+arch big_dragon
+x 3
+y 9
+end
 arch large_stones
 x 3
 y 10
@@ -389,6 +395,10 @@ x 4
 y 4
 end
 arch large_stones
+x 4
+y 5
+end
+arch big_dragon
 x 4
 y 5
 end
@@ -1598,12 +1608,4 @@ end
 arch rough_wall_2_2_4
 x 15
 y 15
-end
-arch big_dragon
-x 3
-y 9
-end
-arch big_dragon
-x 4
-y 5
 end

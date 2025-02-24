@@ -1,11 +1,12 @@
 arch map
 name towP
-msg
-Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-01-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch cobblestones
 end
@@ -183,6 +184,10 @@ arch cobblestones
 x 1
 y 10
 end
+arch chinese_dragon
+x 1
+y 10
+end
 arch cobblestones
 x 1
 y 11
@@ -196,6 +201,10 @@ x 1
 y 12
 end
 arch cobblestones
+x 1
+y 13
+end
+arch chinese_dragon
 x 1
 y 13
 end
@@ -481,6 +490,10 @@ arch cobblestones
 x 4
 y 4
 end
+arch dread
+x 4
+y 4
+end
 arch cobblestones
 x 4
 y 5
@@ -542,6 +555,10 @@ x 4
 y 12
 end
 arch cobblestones
+x 4
+y 13
+end
+arch chinese_dragon
 x 4
 y 13
 end
@@ -840,6 +857,10 @@ x 7
 y 6
 end
 arch cobblestones
+x 7
+y 7
+end
+arch troll
 x 7
 y 7
 end
@@ -1227,6 +1248,10 @@ arch cobblestones
 x 10
 y 10
 end
+arch chinese_dragon
+x 10
+y 10
+end
 arch cobblestones
 x 10
 y 11
@@ -1522,6 +1547,10 @@ x 13
 y 3
 end
 arch cobblestones
+x 13
+y 4
+end
+arch chinese_dragon
 x 13
 y 4
 end
@@ -1849,32 +1878,4 @@ end
 arch dwall_2_2_4
 x 15
 y 15
-end
-arch chinese_dragon
-x 1
-y 10
-end
-arch chinese_dragon
-x 1
-y 13
-end
-arch dread
-x 4
-y 4
-end
-arch chinese_dragon
-x 4
-y 13
-end
-arch troll
-x 7
-y 7
-end
-arch chinese_dragon
-x 10
-y 10
-end
-arch chinese_dragon
-x 13
-y 4
 end

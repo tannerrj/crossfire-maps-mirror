@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 41
 height 35
+msg
+Created:  2000-01-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch dwall_2_2_2
 y 5
@@ -51,6 +53,10 @@ end
 arch dwall_2_1_2
 x 1
 y 5
+end
+arch dread
+x 1
+y 6
 end
 arch nazgul
 x 1
@@ -408,6 +414,38 @@ arch dwall_1_2
 x 4
 y 14
 end
+arch troll
+x 4
+y 17
+end
+arch troll
+x 4
+y 19
+end
+arch troll
+x 4
+y 21
+end
+arch troll
+x 4
+y 23
+end
+arch troll
+x 4
+y 25
+end
+arch troll
+x 4
+y 27
+end
+arch troll
+x 4
+y 29
+end
+arch troll
+x 4
+y 31
+end
 arch dwall_2_1_2
 x 4
 y 34
@@ -415,6 +453,10 @@ end
 arch dwall_2_1_2
 x 5
 y 5
+end
+arch dread
+x 5
+y 6
 end
 arch dwall_2_1_2
 x 5
@@ -556,6 +598,10 @@ arch dwall_2_2_1
 x 6
 y 31
 end
+arch troll
+x 6
+y 32
+end
 arch dwall_2_1_2
 x 6
 y 34
@@ -764,6 +810,10 @@ arch dwall_2_1_2
 x 8
 y 31
 end
+arch troll
+x 8
+y 32
+end
 arch dwall_2_1_2
 x 8
 y 34
@@ -876,6 +926,10 @@ arch dwall_2_1_2
 x 10
 y 5
 end
+arch dread
+x 10
+y 6
+end
 arch dwall_2_1_2
 x 10
 y 8
@@ -971,6 +1025,10 @@ end
 arch dwall_2_1_2
 x 10
 y 31
+end
+arch troll
+x 10
+y 32
 end
 arch dwall_2_1_2
 x 10
@@ -1180,6 +1238,10 @@ arch dwall_2_1_2
 x 12
 y 31
 end
+arch troll
+x 12
+y 32
+end
 arch dwall_2_1_2
 x 12
 y 34
@@ -1291,6 +1353,10 @@ end
 arch dwall_2_1_2
 x 14
 y 5
+end
+arch dread
+x 14
+y 6
 end
 arch dwall_2_1_2
 x 14
@@ -1387,6 +1453,10 @@ end
 arch dwall_2_1_2
 x 14
 y 31
+end
+arch troll
+x 14
+y 32
 end
 arch dwall_2_1_2
 x 14
@@ -1547,6 +1617,12 @@ arch random_treasure
 x 16
 y 21
 end
+arch dragon
+name green dragon
+hp 500
+x 16
+y 21
+end
 arch random_weapon
 x 16
 y 22
@@ -1586,6 +1662,10 @@ end
 arch dwall_2_1_2
 x 16
 y 31
+end
+arch troll
+x 16
+y 32
 end
 arch dwall_2_1_2
 x 16
@@ -1777,6 +1857,10 @@ arch dwall_2_1_2
 x 18
 y 31
 end
+arch troll
+x 18
+y 32
+end
 arch dwall_2_1_2
 x 18
 y 34
@@ -1784,6 +1868,10 @@ end
 arch dwall_2_1_2
 x 19
 y 5
+end
+arch dread
+x 19
+y 6
 end
 arch dwall_2_1_2
 x 19
@@ -1985,6 +2073,10 @@ arch dwall_2_1_2
 x 20
 y 31
 end
+arch troll
+x 20
+y 32
+end
 arch dwall_2_1_2
 x 20
 y 34
@@ -2193,6 +2285,10 @@ arch dwall_2_1_2
 x 22
 y 31
 end
+arch troll
+x 22
+y 32
+end
 arch dwall_2_1_2
 x 22
 y 34
@@ -2200,6 +2296,10 @@ end
 arch dwall_2_1_2
 x 23
 y 5
+end
+arch dread
+x 23
+y 6
 end
 arch dwall_2_1_2
 x 23
@@ -2401,6 +2501,10 @@ arch dwall_2_1_2
 x 24
 y 31
 end
+arch troll
+x 24
+y 32
+end
 arch dwall_2_1_2
 x 24
 y 34
@@ -2608,6 +2712,10 @@ end
 arch dwall_2_1_2
 x 26
 y 31
+end
+arch troll
+x 26
+y 32
 end
 arch dwall_2_1_2
 x 26
@@ -2636,6 +2744,10 @@ arch dwall_3_1
 x 27
 y 5
 end
+arch dread
+x 27
+y 6
+end
 arch dwall_2_1_2
 x 27
 y 8
@@ -2847,6 +2959,10 @@ arch dwall_2_1_2
 x 28
 y 31
 end
+arch troll
+x 28
+y 32
+end
 arch dwall_2_1_2
 x 28
 y 34
@@ -2972,6 +3088,42 @@ end
 arch dwall_2_1_2
 x 30
 y 5
+end
+arch dread
+x 30
+y 8
+end
+arch dread
+x 30
+y 12
+end
+arch dread
+x 30
+y 16
+end
+arch dread
+x 30
+y 19
+end
+arch troll
+x 30
+y 22
+end
+arch troll
+x 30
+y 24
+end
+arch troll
+x 30
+y 27
+end
+arch troll
+x 30
+y 30
+end
+arch troll
+x 30
+y 32
 end
 arch dwall_2_1_2
 x 30
@@ -3709,154 +3861,4 @@ end
 arch dwall_2_2_4
 x 40
 y 34
-end
-arch dread
-x 1
-y 6
-end
-arch troll
-x 4
-y 17
-end
-arch troll
-x 4
-y 19
-end
-arch troll
-x 4
-y 21
-end
-arch troll
-x 4
-y 23
-end
-arch troll
-x 4
-y 25
-end
-arch troll
-x 4
-y 27
-end
-arch troll
-x 4
-y 29
-end
-arch troll
-x 4
-y 31
-end
-arch dread
-x 5
-y 6
-end
-arch troll
-x 6
-y 32
-end
-arch troll
-x 8
-y 32
-end
-arch dread
-x 10
-y 6
-end
-arch troll
-x 10
-y 32
-end
-arch troll
-x 12
-y 32
-end
-arch dread
-x 14
-y 6
-end
-arch troll
-x 14
-y 32
-end
-arch dragon
-name green dragon
-hp 500
-x 16
-y 21
-end
-arch troll
-x 16
-y 32
-end
-arch troll
-x 18
-y 32
-end
-arch dread
-x 19
-y 6
-end
-arch troll
-x 20
-y 32
-end
-arch troll
-x 22
-y 32
-end
-arch dread
-x 23
-y 6
-end
-arch troll
-x 24
-y 32
-end
-arch troll
-x 26
-y 32
-end
-arch dread
-x 27
-y 6
-end
-arch troll
-x 28
-y 32
-end
-arch dread
-x 30
-y 8
-end
-arch dread
-x 30
-y 12
-end
-arch dread
-x 30
-y 16
-end
-arch dread
-x 30
-y 19
-end
-arch troll
-x 30
-y 22
-end
-arch troll
-x 30
-y 24
-end
-arch troll
-x 30
-y 27
-end
-arch troll
-x 30
-y 30
-end
-arch troll
-x 30
-y 32
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-03 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-01-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-24 Rick Tanner
+endmsg
 end
 arch swamp
 end
@@ -740,6 +742,10 @@ arch swamp
 x 6
 y 8
 end
+arch cobra
+x 6
+y 8
+end
 arch swamp
 x 6
 y 9
@@ -1055,6 +1061,10 @@ x 9
 y 5
 end
 arch swamp
+x 9
+y 6
+end
+arch cobra
 x 9
 y 6
 end
@@ -1831,12 +1841,4 @@ end
 arch biglake_se
 x 15
 y 15
-end
-arch cobra
-x 6
-y 8
-end
-arch cobra
-x 9
-y 6
 end
