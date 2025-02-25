@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-02-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-02 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-02-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-25 Rick Tanner
+endmsg
 end
 arch cobblestones
 end
@@ -241,14 +243,14 @@ end
 arch cloak
 name warm winter cloak
 ac 1
-armour 3
 x 2
 y 6
-protected 16
 value 500
 magic 2
 unpaid 1
 identified 1
+armour 3
+protected 16
 end
 arch shop_empty
 x 2
@@ -1143,14 +1145,14 @@ name Aserll the Elf
 msg
 @match hi|hello
 Hello. Are you one of those
-mountaineers? 
+mountaineers?
 @match no
 Thought you wouldn't be. You don't look
-very adventureous. 
+very adventureous.
 @match yes
 Ah yes! Well you look like a
 adventureous type. Would you like to by
-some equiptment? 
+some equiptment?
 endmsg
 x 13
 y 7

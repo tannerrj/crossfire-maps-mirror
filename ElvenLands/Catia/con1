@@ -1,11 +1,12 @@
 arch map
 name con1
-msg
-Created:  2000-02-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-02 Rick Tanner
-endmsg
+region elvenlands
 width 51
 height 51
+msg
+Created:  2000-02-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-25 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -920,7 +921,7 @@ x 4
 y 31
 end
 arch keep_sym
-name fort 
+name fort
 x 4
 y 31
 end
@@ -6214,6 +6215,11 @@ arch jungle_1
 x 27
 y 21
 end
+arch mountain_2
+name Mt. Brewrejak
+x 27
+y 22
+end
 arch town_1
 name Westragll
 slaying /ElvenLands/Catia/Westragll
@@ -6788,6 +6794,11 @@ y 47
 blocksview 0
 end
 arch pstone_1
+x 29
+y 48
+end
+arch town_2
+name Seselia
 x 29
 y 48
 end
@@ -8274,6 +8285,10 @@ arch sea
 x 36
 y 50
 end
+arch mountain_2
+name Lone mountain
+x 37
+end
 arch mountain
 x 37
 y 2
@@ -9075,6 +9090,10 @@ end
 arch grassmedium
 x 41
 end
+arch mountain_2
+name Mt. Moon
+x 41
+end
 arch grassmedium
 x 41
 y 1
@@ -9084,6 +9103,11 @@ x 41
 y 2
 end
 arch grassmedium
+x 41
+y 3
+end
+arch mountain_2
+name Mount Rain
 x 41
 y 3
 end
@@ -9099,6 +9123,11 @@ arch grassmedium
 x 41
 y 6
 end
+arch mountain_2
+name Mountain of Grizzleys
+x 41
+y 6
+end
 arch grassmedium
 x 41
 y 7
@@ -9111,6 +9140,11 @@ arch grassmedium
 x 41
 y 9
 end
+arch mountain_2
+name Mt. Fist
+x 41
+y 9
+end
 arch grassmedium
 x 41
 y 10
@@ -9120,6 +9154,11 @@ x 41
 y 11
 end
 arch grassmedium
+x 41
+y 12
+end
+arch mountain_2
+name Billy's Mountain
 x 41
 y 12
 end
@@ -9135,6 +9174,11 @@ arch grassmedium
 x 41
 y 15
 end
+arch mountain_2
+name Mount Rques
+x 41
+y 15
+end
 arch grassmedium
 x 41
 y 16
@@ -9144,6 +9188,11 @@ x 41
 y 17
 end
 arch grassmedium
+x 41
+y 18
+end
+arch mountain_2
+name mount Xerxaz
 x 41
 y 18
 end
@@ -9159,6 +9208,11 @@ arch grassmedium
 x 41
 y 21
 end
+arch mountain_2
+name Old Cold Mountain
+x 41
+y 21
+end
 arch grassmedium
 x 41
 y 22
@@ -9168,6 +9222,11 @@ x 41
 y 23
 end
 arch grassmedium
+x 41
+y 24
+end
+arch mountain_2
+name Gengar Mountain
 x 41
 y 24
 end
@@ -9183,6 +9242,11 @@ arch grassmedium
 x 41
 y 27
 end
+arch mountain_2
+name Bird Mountain
+x 41
+y 27
+end
 arch grassmedium
 x 41
 y 28
@@ -9192,6 +9256,11 @@ x 41
 y 29
 end
 arch grassmedium
+x 41
+y 30
+end
+arch mountain_2
+name Mount Ice I
 x 41
 y 30
 end
@@ -9207,6 +9276,11 @@ arch grassmedium
 x 41
 y 33
 end
+arch mountain_2
+name Mount Ice II
+x 41
+y 33
+end
 arch grassmedium
 x 41
 y 34
@@ -9216,6 +9290,11 @@ x 41
 y 35
 end
 arch grassmedium
+x 41
+y 36
+end
+arch mountain_2
+name Stone's Mountain
 x 41
 y 36
 end
@@ -9231,6 +9310,11 @@ arch grassmedium
 x 41
 y 39
 end
+arch mountain_2
+name Articuno Mountain
+x 41
+y 39
+end
 arch grassmedium
 x 41
 y 40
@@ -9240,6 +9324,11 @@ x 41
 y 41
 end
 arch grassmedium
+x 41
+y 42
+end
+arch mountain_2
+name Mew Mountain
 x 41
 y 42
 end
@@ -9488,6 +9577,11 @@ end
 arch mountain
 x 43
 y 4
+end
+arch mountain_2
+name Mountain of the Sword
+x 43
+y 5
 end
 arch mountain
 x 43
@@ -9688,9 +9782,19 @@ arch mountain
 x 44
 y 7
 end
+arch mountain_2
+name Mt. Teapot
+x 44
+y 8
+end
 arch mountain
 x 44
 y 10
+end
+arch mountain_2
+name Valkerie Mountain
+x 44
+y 11
 end
 arch mountain
 x 44
@@ -9699,6 +9803,11 @@ end
 arch mountain
 x 44
 y 14
+end
+arch mountain_2
+name Panther Cliff
+x 44
+y 15
 end
 arch mountain
 x 44
@@ -9711,6 +9820,11 @@ end
 arch mountain
 x 44
 y 19
+end
+arch mountain_2
+name Mountain of Blizzards
+x 44
+y 20
 end
 arch mountain
 x 44
@@ -9744,6 +9858,11 @@ arch mountain
 x 44
 y 29
 end
+arch mountain_2
+name Sernak Mountain
+x 44
+y 30
+end
 arch mountain
 x 44
 y 32
@@ -9775,6 +9894,11 @@ end
 arch mountain
 x 44
 y 39
+end
+arch mountain_2
+name Dragonite Mountain
+x 44
+y 40
 end
 arch mountain
 x 44
@@ -9875,6 +9999,11 @@ arch mountain
 x 45
 y 23
 end
+arch tower_a
+name ancient tower
+x 45
+y 23
+end
 arch mountain
 x 45
 y 24
@@ -9886,6 +10015,11 @@ end
 arch mountain
 x 45
 y 26
+end
+arch mountain_2
+name Mount Redvyvern
+x 45
+y 27
 end
 arch mountain
 x 45
@@ -9902,6 +10036,11 @@ end
 arch mountain
 x 45
 y 34
+end
+arch mountain_2
+name Grey Mountain
+x 45
+y 35
 end
 arch mountain
 x 45
@@ -9985,6 +10124,11 @@ end
 arch mountain
 x 46
 y 8
+end
+arch mountain_2
+name Eye Mountain
+x 46
+y 9
 end
 arch mountain
 x 46
@@ -10062,6 +10206,11 @@ arch mountain
 x 46
 y 31
 end
+arch mountain_2
+name Mount Ice III
+x 46
+y 32
+end
 arch mountain
 x 46
 y 34
@@ -10137,6 +10286,11 @@ arch mountain
 x 47
 y 3
 end
+arch mountain_2
+name Key mountain
+x 47
+y 4
+end
 arch mountain
 x 47
 y 6
@@ -10157,6 +10311,11 @@ arch mountain
 x 47
 y 12
 end
+arch mountain_2
+name Rock Mountain
+x 47
+y 13
+end
 arch mountain
 x 47
 y 15
@@ -10164,6 +10323,11 @@ end
 arch mountain
 x 47
 y 16
+end
+arch mountain_2
+name Blue mountain
+x 47
+y 17
 end
 arch mountain
 x 47
@@ -10348,6 +10512,11 @@ arch mountain
 x 48
 y 21
 end
+arch mountain_2
+name Whale Cliff
+x 48
+y 22
+end
 arch mountain
 x 48
 y 24
@@ -10355,6 +10524,11 @@ end
 arch mountain
 x 48
 y 25
+end
+arch mountain_2
+name Grim Mountain
+x 48
+y 26
 end
 arch mountain
 x 48
@@ -10396,6 +10570,11 @@ arch mountain
 x 48
 y 37
 end
+arch mountain_2
+name Mount Cloyster
+x 48
+y 38
+end
 arch mountain
 x 48
 y 40
@@ -10411,6 +10590,11 @@ end
 arch mountain
 x 48
 y 43
+end
+arch mountain_2
+name Cat Skull Mountain
+x 48
+y 44
 end
 arch mountain
 x 48
@@ -10810,187 +10994,4 @@ end
 arch sea
 x 50
 y 50
-end
-arch mountain_2
-name Mt. Brewrejak
-x 27
-y 22
-end
-arch town_2
-name Seselia
-x 29
-y 48
-end
-arch mountain_2
-name Lone mountain
-x 37
-end
-arch mountain_2
-name Mt. Moon
-x 41
-end
-arch mountain_2
-name Mount Rain
-x 41
-y 3
-end
-arch mountain_2
-name Mountain of Grizzleys
-x 41
-y 6
-end
-arch mountain_2
-name Mt. Fist
-x 41
-y 9
-end
-arch mountain_2
-name Billy's Mountain
-x 41
-y 12
-end
-arch mountain_2
-name Mount Rques
-x 41
-y 15
-end
-arch mountain_2
-name mount Xerxaz 
-x 41
-y 18
-end
-arch mountain_2
-name Old Cold Mountain
-x 41
-y 21
-end
-arch mountain_2
-name Gengar Mountain
-x 41
-y 24
-end
-arch mountain_2
-name Bird Mountain
-x 41
-y 27
-end
-arch mountain_2
-name Mount Ice I
-x 41
-y 30
-end
-arch mountain_2
-name Mount Ice II
-x 41
-y 33
-end
-arch mountain_2
-name Stone's Mountain
-x 41
-y 36
-end
-arch mountain_2
-name Articuno Mountain
-x 41
-y 39
-end
-arch mountain_2
-name Mew Mountain
-x 41
-y 42
-end
-arch mountain_2
-name Mountain of the Sword
-x 43
-y 5
-end
-arch mountain_2
-name Mt. Teapot
-x 44
-y 8
-end
-arch mountain_2
-name Valkerie Mountain
-x 44
-y 11
-end
-arch mountain_2
-name Panther Cliff
-x 44
-y 15
-end
-arch mountain_2
-name Mountain of Blizzards
-x 44
-y 20
-end
-arch mountain_2
-name Sernak Mountain
-x 44
-y 30
-end
-arch mountain_2
-name Dragonite Mountain
-x 44
-y 40
-end
-arch tower_a
-name ancient tower
-x 45
-y 23
-end
-arch mountain_2
-name Mount Redvyvern
-x 45
-y 27
-end
-arch mountain_2
-name Grey Mountain
-x 45
-y 35
-end
-arch mountain_2
-name Eye Mountain
-x 46
-y 9
-end
-arch mountain_2
-name Mount Ice III
-x 46
-y 32
-end
-arch mountain_2
-name Key mountain
-x 47
-y 4
-end
-arch mountain_2
-name Rock Mountain
-x 47
-y 13
-end
-arch mountain_2
-name Blue mountain
-x 47
-y 17
-end
-arch mountain_2
-name Whale Cliff
-x 48
-y 22
-end
-arch mountain_2
-name Grim Mountain
-x 48
-y 26
-end
-arch mountain_2
-name Mount Cloyster
-x 48
-y 38
-end
-arch mountain_2
-name Cat Skull Mountain
-x 48
-y 44
 end
