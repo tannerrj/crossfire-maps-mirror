@@ -8,7 +8,7 @@ enter_x 12
 enter_y 12
 msg
 Created: 1995-04-04 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2023-06-05 Rick Tanner
+Modified: 2025-02-25 Rick Tanner
 endmsg
 reset_group lakecountry_elite-training-tower
 end
@@ -2461,101 +2461,201 @@ arch dwall_3_1
 x 8
 y 7
 end
+arch flagstone
+x 8
+y 8
+end
 arch gwall_2_2_2
 x 8
 y 8
 end
-arch gwall_2_1_1
+arch flagstone
 x 8
 y 9
 end
 arch gwall_2_1_1
 x 8
+y 9
+end
+arch flagstone
+x 8
 y 10
 end
 arch gwall_2_1_1
+x 8
+y 10
+end
+arch flagstone
 x 8
 y 11
 end
 arch gwall_2_1_1
 x 8
+y 11
+end
+arch flagstone
+x 8
 y 12
 end
 arch gwall_2_1_1
+x 8
+y 12
+end
+arch flagstone
 x 8
 y 13
 end
 arch gwall_2_1_1
 x 8
+y 13
+end
+arch flagstone
+x 8
 y 14
+end
+arch gwall_2_1_1
+x 8
+y 14
+end
+arch flagstone
+x 8
+y 15
 end
 arch gwall_3_2
 x 8
 y 15
 end
-arch gwall_2_1_1
+arch flagstone
 x 8
 y 16
 end
 arch gwall_2_1_1
 x 8
+y 16
+end
+arch flagstone
+x 8
 y 17
+end
+arch gwall_2_1_1
+x 8
+y 17
+end
+arch flagstone
+x 8
+y 18
 end
 arch gwall_2_1_1
 x 8
 y 18
 end
+arch flagstone
+x 8
+y 19
+end
 arch gwall_3_2
 x 8
 y 19
 end
-arch gwall_2_1_1
+arch flagstone
 x 8
 y 20
 end
 arch gwall_2_1_1
 x 8
+y 20
+end
+arch flagstone
+x 8
 y 21
 end
 arch gwall_2_1_1
+x 8
+y 21
+end
+arch flagstone
 x 8
 y 22
 end
 arch gwall_2_1_1
 x 8
+y 22
+end
+arch flagstone
+x 8
 y 23
+end
+arch gwall_2_1_1
+x 8
+y 23
+end
+arch flagstone
+x 8
+y 24
 end
 arch gwall_3_2
 x 8
 y 24
 end
-arch gwall_2_1_1
+arch flagstone
 x 8
 y 25
 end
 arch gwall_2_1_1
 x 8
+y 25
+end
+arch flagstone
+x 8
 y 26
+end
+arch gwall_2_1_1
+x 8
+y 26
+end
+arch flagstone
+x 8
+y 27
 end
 arch gwall_3_2
 x 8
 y 27
 end
-arch gwall_2_1_1
+arch flagstone
 x 8
 y 28
 end
 arch gwall_2_1_1
 x 8
+y 28
+end
+arch flagstone
+x 8
 y 29
 end
 arch gwall_2_1_1
+x 8
+y 29
+end
+arch flagstone
 x 8
 y 30
 end
 arch gwall_2_1_1
 x 8
+y 30
+end
+arch flagstone
+x 8
 y 31
+end
+arch gwall_2_1_1
+x 8
+y 31
+end
+arch flagstone
+x 8
+y 32
 end
 arch gwall_2_2_1
 x 8
@@ -2678,6 +2778,10 @@ end
 arch dwall_3_1
 x 9
 y 7
+end
+arch flagstone
+x 9
+y 8
 end
 arch gwall_2_1_2
 x 9
@@ -2928,6 +3032,10 @@ arch zombie
 x 9
 y 31
 end
+arch flagstone
+x 9
+y 32
+end
 arch gwall_2_1_2
 x 9
 y 32
@@ -3051,6 +3159,10 @@ end
 arch dwall_3_1
 x 10
 y 7
+end
+arch flagstone
+x 10
+y 8
 end
 arch gwall_2_1_2
 x 10
@@ -3260,6 +3372,10 @@ arch zombie
 x 10
 y 31
 end
+arch flagstone
+x 10
+y 32
+end
 arch gwall_2_1_2
 x 10
 y 32
@@ -3385,6 +3501,10 @@ end
 arch dwall_3_1
 x 11
 y 7
+end
+arch flagstone
+x 11
+y 8
 end
 arch gwall_2_1_2
 x 11
@@ -3580,6 +3700,10 @@ arch wraith
 x 11
 y 31
 end
+arch flagstone
+x 11
+y 32
+end
 arch gwall_2_1_2
 x 11
 y 32
@@ -3706,6 +3830,10 @@ end
 arch dwall_3_1
 x 12
 y 7
+end
+arch flagstone
+x 12
+y 8
 end
 arch gwall_3_3
 x 12
@@ -3945,6 +4073,10 @@ arch zombie
 x 12
 y 31
 end
+arch flagstone
+x 12
+y 32
+end
 arch gwall_2_1_2
 x 12
 y 32
@@ -4071,6 +4203,10 @@ end
 arch dwall_3_1
 x 13
 y 7
+end
+arch flagstone
+x 13
+y 8
 end
 arch gwall_2_1_2
 x 13
@@ -4292,6 +4428,10 @@ x 13
 y 31
 move_block 0
 end
+arch flagstone
+x 13
+y 32
+end
 arch gwall_3_1
 x 13
 y 32
@@ -4418,6 +4558,10 @@ end
 arch dwall_3_1
 x 14
 y 7
+end
+arch flagstone
+x 14
+y 8
 end
 arch gwall_2_1_2
 x 14
@@ -4627,6 +4771,10 @@ arch skeleton
 x 14
 y 31
 end
+arch flagstone
+x 14
+y 32
+end
 arch gwall_2_1_2
 x 14
 y 32
@@ -4753,6 +4901,10 @@ end
 arch dwall_3_1
 x 15
 y 7
+end
+arch flagstone
+x 15
+y 8
 end
 arch gwall_2_1_2
 x 15
@@ -4943,6 +5095,10 @@ arch skeleton
 x 15
 y 31
 end
+arch flagstone
+x 15
+y 32
+end
 arch gwall_2_1_2
 x 15
 y 32
@@ -5069,6 +5225,10 @@ end
 arch dwall_3_1
 x 16
 y 7
+end
+arch flagstone
+x 16
+y 8
 end
 arch gwall_3_3
 x 16
@@ -5268,6 +5428,10 @@ arch skeleton
 x 16
 y 31
 end
+arch flagstone
+x 16
+y 32
+end
 arch gwall_2_1_2
 x 16
 y 32
@@ -5394,6 +5558,10 @@ end
 arch dwall_3_1
 x 17
 y 7
+end
+arch flagstone
+x 17
+y 8
 end
 arch gwall_2_1_2
 x 17
@@ -5611,6 +5779,10 @@ arch generate_skeleton
 x 17
 y 31
 end
+arch flagstone
+x 17
+y 32
+end
 arch gwall_2_1_2
 x 17
 y 32
@@ -5737,6 +5909,10 @@ end
 arch dwall_3_1
 x 18
 y 7
+end
+arch flagstone
+x 18
+y 8
 end
 arch gwall_2_1_2
 x 18
@@ -5948,6 +6124,10 @@ arch gwall_2_1_1
 x 18
 y 31
 end
+arch flagstone
+x 18
+y 32
+end
 arch gwall_3_1
 x 18
 y 32
@@ -6074,6 +6254,10 @@ end
 arch dwall_3_1
 x 19
 y 7
+end
+arch flagstone
+x 19
+y 8
 end
 arch gwall_2_1_2
 x 19
@@ -6300,6 +6484,10 @@ arch wight
 x 19
 y 31
 end
+arch flagstone
+x 19
+y 32
+end
 arch gwall_2_1_2
 x 19
 y 32
@@ -6426,6 +6614,10 @@ end
 arch dwall_3_1
 x 20
 y 7
+end
+arch flagstone
+x 20
+y 8
 end
 arch gwall_2_1_2
 x 20
@@ -6625,6 +6817,10 @@ arch wight
 x 20
 y 31
 end
+arch flagstone
+x 20
+y 32
+end
 arch gwall_2_1_2
 x 20
 y 32
@@ -6751,6 +6947,10 @@ end
 arch dwall_3_1
 x 21
 y 7
+end
+arch flagstone
+x 21
+y 8
 end
 arch gwall_2_1_2
 x 21
@@ -6964,6 +7164,10 @@ arch wight
 x 21
 y 31
 end
+arch flagstone
+x 21
+y 32
+end
 arch gwall_2_1_2
 x 21
 y 32
@@ -7090,6 +7294,10 @@ end
 arch dwall_3_1
 x 22
 y 7
+end
+arch flagstone
+x 22
+y 8
 end
 arch gwall_2_1_2
 x 22
@@ -7277,6 +7485,10 @@ arch wight
 x 22
 y 31
 end
+arch flagstone
+x 22
+y 32
+end
 arch gwall_2_1_2
 x 22
 y 32
@@ -7403,6 +7615,10 @@ end
 arch dwall_3_1
 x 23
 y 7
+end
+arch flagstone
+x 23
+y 8
 end
 arch gwall_2_1_2
 x 23
@@ -7601,6 +7817,10 @@ arch wight
 x 23
 y 31
 end
+arch flagstone
+x 23
+y 32
+end
 arch gwall_2_1_2
 x 23
 y 32
@@ -7727,6 +7947,10 @@ end
 arch dwall_3_1
 x 24
 y 7
+end
+arch flagstone
+x 24
+y 8
 end
 arch gwall_2_1_2
 x 24
@@ -7943,6 +8167,10 @@ arch wight
 x 24
 y 31
 end
+arch flagstone
+x 24
+y 32
+end
 arch gwall_2_1_2
 x 24
 y 32
@@ -8069,6 +8297,10 @@ end
 arch dwall_3_1
 x 25
 y 7
+end
+arch flagstone
+x 25
+y 8
 end
 arch gwall_2_1_2
 x 25
@@ -8270,6 +8502,10 @@ arch wight
 x 25
 y 31
 end
+arch flagstone
+x 25
+y 32
+end
 arch gwall_2_1_2
 x 25
 y 32
@@ -8396,6 +8632,10 @@ end
 arch dwall_3_1
 x 26
 y 7
+end
+arch flagstone
+x 26
+y 8
 end
 arch gwall_2_1_2
 x 26
@@ -8685,6 +8925,10 @@ arch ghast
 x 26
 y 31
 end
+arch flagstone
+x 26
+y 32
+end
 arch gwall_2_1_2
 x 26
 y 32
@@ -8811,6 +9055,10 @@ end
 arch dwall_3_1
 x 27
 y 7
+end
+arch flagstone
+x 27
+y 8
 end
 arch gwall_3_3
 x 27
@@ -9027,6 +9275,10 @@ arch ghast
 x 27
 y 31
 end
+arch flagstone
+x 27
+y 32
+end
 arch gwall_2_1_2
 x 27
 y 32
@@ -9153,6 +9405,10 @@ end
 arch dwall_3_1
 x 28
 y 7
+end
+arch flagstone
+x 28
+y 8
 end
 arch gwall_2_1_2
 x 28
@@ -9342,6 +9598,10 @@ arch gwall_2_1_1
 x 28
 y 31
 end
+arch flagstone
+x 28
+y 32
+end
 arch gwall_3_1
 x 28
 y 32
@@ -9468,6 +9728,10 @@ end
 arch dwall_3_1
 x 29
 y 7
+end
+arch flagstone
+x 29
+y 8
 end
 arch gwall_2_1_2
 x 29
@@ -9678,6 +9942,10 @@ face paralyse.111
 nrof 7
 end
 end
+arch flagstone
+x 29
+y 32
+end
 arch gwall_2_1_2
 x 29
 y 32
@@ -9803,6 +10071,10 @@ end
 arch dwall_3_1
 x 30
 y 7
+end
+arch flagstone
+x 30
+y 8
 end
 arch gwall_2_1_2
 x 30
@@ -10001,6 +10273,10 @@ arch wraith
 x 30
 y 31
 end
+arch flagstone
+x 30
+y 32
+end
 arch gwall_2_1_2
 x 30
 y 32
@@ -10124,6 +10400,10 @@ end
 arch dwall_3_1
 x 31
 y 7
+end
+arch flagstone
+x 31
+y 8
 end
 arch gwall_2_1_2
 x 31
@@ -10352,6 +10632,10 @@ arch nightmare
 x 31
 y 31
 end
+arch flagstone
+x 31
+y 32
+end
 arch gwall_2_1_2
 x 31
 y 32
@@ -10474,101 +10758,201 @@ arch dwall_3_1
 x 32
 y 7
 end
+arch flagstone
+x 32
+y 8
+end
 arch gwall_2_2_3
 x 32
 y 8
 end
-arch gwall_2_1_1
+arch flagstone
 x 32
 y 9
 end
 arch gwall_2_1_1
 x 32
+y 9
+end
+arch flagstone
+x 32
 y 10
 end
 arch gwall_2_1_1
+x 32
+y 10
+end
+arch flagstone
 x 32
 y 11
 end
 arch gwall_2_1_1
 x 32
+y 11
+end
+arch flagstone
+x 32
 y 12
 end
 arch gwall_2_1_1
+x 32
+y 12
+end
+arch flagstone
 x 32
 y 13
 end
 arch gwall_2_1_1
 x 32
+y 13
+end
+arch flagstone
+x 32
 y 14
+end
+arch gwall_2_1_1
+x 32
+y 14
+end
+arch flagstone
+x 32
+y 15
 end
 arch gwall_3_4
 x 32
 y 15
 end
+arch flagstone
+x 32
+y 16
+end
 arch gwall_2_1_1
 x 32
 y 16
+end
+arch flagstone
+x 32
+y 17
 end
 arch gwall_3_4
 x 32
 y 17
 end
-arch gwall_2_1_1
+arch flagstone
 x 32
 y 18
 end
 arch gwall_2_1_1
 x 32
+y 18
+end
+arch flagstone
+x 32
 y 19
 end
 arch gwall_2_1_1
+x 32
+y 19
+end
+arch flagstone
 x 32
 y 20
 end
 arch gwall_2_1_1
 x 32
+y 20
+end
+arch flagstone
+x 32
 y 21
+end
+arch gwall_2_1_1
+x 32
+y 21
+end
+arch flagstone
+x 32
+y 22
 end
 arch gwall_2_1_1
 x 32
 y 22
 end
+arch flagstone
+x 32
+y 23
+end
 arch gwall_3_4
 x 32
 y 23
 end
-arch gwall_2_1_1
+arch flagstone
 x 32
 y 24
 end
 arch gwall_2_1_1
 x 32
+y 24
+end
+arch flagstone
+x 32
 y 25
 end
 arch gwall_2_1_1
+x 32
+y 25
+end
+arch flagstone
 x 32
 y 26
 end
 arch gwall_2_1_1
 x 32
+y 26
+end
+arch flagstone
+x 32
 y 27
+end
+arch gwall_2_1_1
+x 32
+y 27
+end
+arch flagstone
+x 32
+y 28
 end
 arch gwall_2_1_1
 x 32
 y 28
 end
+arch flagstone
+x 32
+y 29
+end
 arch gwall_3_4
 x 32
 y 29
 end
-arch gwall_2_1_1
+arch flagstone
 x 32
 y 30
 end
 arch gwall_2_1_1
 x 32
+y 30
+end
+arch flagstone
+x 32
 y 31
+end
+arch gwall_2_1_1
+x 32
+y 31
+end
+arch flagstone
+x 32
+y 32
 end
 arch gwall_2_2_4
 x 32
