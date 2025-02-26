@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2000-06-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 3
 width 25
 height 25
-darkness 3
+msg
+Created:  2000-06-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1811,7 +1813,7 @@ arch magic_ear
 msg
 @match friend
 Can you prove this? Do you swear by
-your honor? 
+your honor?
 endmsg
 x 12
 y 20

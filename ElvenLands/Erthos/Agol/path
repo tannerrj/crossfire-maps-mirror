@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-03-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 1
 width 32
 height 42
-darkness 1
+msg
+Created:  2002-03-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch jungle_2
 end
@@ -342,6 +344,11 @@ name rocks
 x 1
 y 37
 end
+arch mountain_2
+name high rocks
+x 1
+y 38
+end
 arch mountain
 name rocks
 x 1
@@ -372,6 +379,11 @@ end
 arch trap_rocks
 x 2
 y 2
+end
+arch mountain_2
+name high rocks
+x 2
+y 3
 end
 arch mountain
 name rocks
@@ -589,6 +601,11 @@ name high rocks
 x 3
 y 8
 end
+arch mountain_2
+name high rocks
+x 3
+y 9
+end
 arch jungle_2
 x 3
 y 11
@@ -757,6 +774,10 @@ arch trap_rocks
 x 3
 y 41
 end
+arch mountain_2
+name high rocks
+x 4
+end
 arch mountain
 name rocks
 x 4
@@ -819,6 +840,10 @@ name rocks
 x 4
 y 15
 end
+arch mountain_2
+x 4
+y 16
+end
 arch mountain
 name rocks
 x 4
@@ -828,6 +853,10 @@ arch mountain
 name rocks
 x 4
 y 19
+end
+arch mountain_2
+x 4
+y 20
 end
 arch jungle_2
 x 4
@@ -863,6 +892,11 @@ arch mountain
 name rocks
 x 4
 y 28
+end
+arch mountain_2
+name high rocks
+x 4
+y 29
 end
 arch mountain
 name rocks
@@ -1023,6 +1057,11 @@ arch mountain
 name rocks
 x 5
 y 26
+end
+arch mountain_2
+name high rocks
+x 5
+y 27
 end
 arch jungle_2
 x 5
@@ -1213,6 +1252,11 @@ arch mountain
 name rocks
 x 6
 y 26
+end
+arch mountain_2
+name high rocks
+x 6
+y 29
 end
 arch mountain
 name rocks
@@ -1563,6 +1607,10 @@ name high rocks
 x 8
 y 20
 end
+arch mountain_2
+x 8
+y 21
+end
 arch jungle_2
 x 8
 y 23
@@ -1640,6 +1688,11 @@ arch mountain
 name rocks
 x 8
 y 36
+end
+arch mountain_2
+name high rocks
+x 8
+y 37
 end
 arch jungle_2
 x 8
@@ -2065,6 +2118,11 @@ name rocks
 x 11
 y 4
 end
+arch mountain_2
+name high rocks
+x 11
+y 5
+end
 arch jungle_2
 x 11
 y 7
@@ -2101,6 +2159,11 @@ arch mountain2
 name high rocks
 x 11
 y 13
+end
+arch mountain_2
+name high rocks
+x 11
+y 14
 end
 arch jungle_2
 x 11
@@ -2636,6 +2699,11 @@ arch mountain2
 name high rocks
 x 14
 y 14
+end
+arch mountain_2
+name high rocks
+x 14
+y 15
 end
 arch earth
 x 14
@@ -3380,6 +3448,10 @@ name rocks
 x 18
 y 21
 end
+arch mountain_2
+x 18
+y 22
+end
 arch mountain
 name rocks
 x 18
@@ -3553,6 +3625,11 @@ arch trap_rocks
 x 19
 y 16
 end
+arch mountain_2
+name high rocks
+x 19
+y 17
+end
 arch jungle_2
 x 19
 y 19
@@ -3716,6 +3793,11 @@ name high rocks
 x 20
 y 10
 end
+arch mountain_2
+name high rocks
+x 20
+y 11
+end
 arch mountain
 name rocks
 x 20
@@ -3812,6 +3894,11 @@ arch mountain2
 name high rocks
 x 20
 y 32
+end
+arch mountain_2
+name high rocks
+x 20
+y 33
 end
 arch jungle_2
 x 20
@@ -4068,6 +4155,11 @@ name rocks
 x 22
 y 2
 end
+arch mountain_2
+name high rocks
+x 22
+y 3
+end
 arch mountain2
 name high rocks
 x 22
@@ -4570,6 +4662,11 @@ name rocks
 x 24
 y 23
 end
+arch mountain_2
+name high rocks
+x 24
+y 24
+end
 arch jungle_2
 x 24
 y 26
@@ -4789,6 +4886,11 @@ arch trap_rocks
 x 25
 y 29
 end
+arch mountain_2
+name high rocks
+x 25
+y 30
+end
 arch mountain
 name rocks
 x 25
@@ -4862,6 +4964,11 @@ name rocks
 x 26
 y 5
 end
+arch mountain_2
+name high rocks
+x 26
+y 6
+end
 arch mountain2
 name high rocks
 x 26
@@ -4910,6 +5017,11 @@ end
 arch trap_rocks
 x 26
 y 17
+end
+arch mountain_2
+name high rocks
+x 26
+y 18
 end
 arch mountain
 name rocks
@@ -5219,6 +5331,11 @@ name rocks
 x 28
 y 3
 end
+arch mountain_2
+name high rocks
+x 28
+y 4
+end
 arch mountain
 name rocks
 x 28
@@ -5256,6 +5373,11 @@ arch mountain
 name rocks
 x 28
 y 11
+end
+arch mountain_2
+name high rocks
+x 28
+y 12
 end
 arch mountain
 name rocks
@@ -5564,6 +5686,11 @@ name rocks
 x 29
 y 38
 end
+arch mountain_2
+name high rocks
+x 29
+y 39
+end
 arch mountain
 name rocks
 x 29
@@ -5678,6 +5805,11 @@ end
 arch trap_rocks
 x 30
 y 20
+end
+arch mountain_2
+name high rocks
+x 30
+y 21
 end
 arch mountain
 name rocks
@@ -5942,134 +6074,4 @@ arch mountain2
 name high rocks
 x 31
 y 41
-end
-arch mountain_2
-name high rocks
-x 1
-y 38
-end
-arch mountain_2
-name high rocks
-x 2
-y 3
-end
-arch mountain_2
-name high rocks
-x 3
-y 9
-end
-arch mountain_2
-name high rocks
-x 4
-end
-arch mountain_2
-x 4
-y 16
-end
-arch mountain_2
-x 4
-y 20
-end
-arch mountain_2
-name high rocks
-x 4
-y 29
-end
-arch mountain_2
-name high rocks
-x 5
-y 27
-end
-arch mountain_2
-name high rocks
-x 6
-y 29
-end
-arch mountain_2
-x 8
-y 21
-end
-arch mountain_2
-name high rocks
-x 8
-y 37
-end
-arch mountain_2
-name high rocks
-x 11
-y 5
-end
-arch mountain_2
-name high rocks
-x 11
-y 14
-end
-arch mountain_2
-name high rocks
-x 14
-y 15
-end
-arch mountain_2
-x 18
-y 22
-end
-arch mountain_2
-name high rocks
-x 19
-y 17
-end
-arch mountain_2
-name high rocks
-x 20
-y 11
-end
-arch mountain_2
-name high rocks
-x 20
-y 33
-end
-arch mountain_2
-name high rocks
-x 22
-y 3
-end
-arch mountain_2
-name high rocks
-x 24
-y 24
-end
-arch mountain_2
-name high rocks
-x 25
-y 30
-end
-arch mountain_2
-name high rocks
-x 26
-y 6
-end
-arch mountain_2
-name high rocks
-x 26
-y 18
-end
-arch mountain_2
-name high rocks
-x 28
-y 4
-end
-arch mountain_2
-name high rocks
-x 28
-y 12
-end
-arch mountain_2
-name high rocks
-x 29
-y 39
-end
-arch mountain_2
-name high rocks
-x 30
-y 21
 end

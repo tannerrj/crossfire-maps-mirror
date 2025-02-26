@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-04-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 24
 height 24
+msg
+Created:  2001-04-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch mountain
 end
@@ -174,6 +176,10 @@ arch cobblestones2
 x 1
 y 9
 end
+arch keep
+x 1
+y 9
+end
 arch cobblestones2
 x 1
 y 10
@@ -183,6 +189,10 @@ x 1
 y 11
 end
 arch dungeon_floor
+x 1
+y 12
+end
+arch keep
 x 1
 y 12
 end
@@ -211,6 +221,11 @@ x 1
 y 17
 end
 arch cobblestones2
+x 1
+y 18
+end
+arch temple1
+name aged temple
 x 1
 y 18
 end
@@ -266,6 +281,10 @@ x 2
 y 4
 end
 arch cobblestones2
+x 2
+y 5
+end
+arch t_house1
 x 2
 y 5
 end
@@ -598,6 +617,10 @@ arch cobblestones2
 x 5
 y 5
 end
+arch t_house1
+x 5
+y 5
+end
 arch cobblestones2
 x 5
 y 6
@@ -607,6 +630,10 @@ x 5
 y 7
 end
 arch cobblestones2
+x 5
+y 8
+end
+arch t_house1
 x 5
 y 8
 end
@@ -630,6 +657,10 @@ arch dungeon_floor
 x 5
 y 13
 end
+arch t_house1
+x 5
+y 13
+end
 arch dungeon_floor
 x 5
 y 14
@@ -639,6 +670,10 @@ x 5
 y 15
 end
 arch dungeon_floor
+x 5
+y 16
+end
+arch t_house1
 x 5
 y 16
 end
@@ -911,6 +946,11 @@ arch cobblestones2
 x 8
 y 5
 end
+arch l_shop1
+name Buthron's Tavern
+x 8
+y 5
+end
 arch cobblestones2
 x 8
 y 6
@@ -920,6 +960,11 @@ x 8
 y 7
 end
 arch cobblestones2
+x 8
+y 8
+end
+arch l_shop1
+name Gundun's General Store
 x 8
 y 8
 end
@@ -943,6 +988,10 @@ arch dungeon_floor
 x 8
 y 13
 end
+arch t_house1
+x 8
+y 13
+end
 arch dungeon_floor
 x 8
 y 14
@@ -952,6 +1001,10 @@ x 8
 y 15
 end
 arch dungeon_floor
+x 8
+y 16
+end
+arch t_house1
 x 8
 y 16
 end
@@ -1236,6 +1289,11 @@ arch cobblestones2
 x 11
 y 6
 end
+arch guild
+name Baddon's Inn
+x 11
+y 6
+end
 arch cobblestones2
 x 11
 y 7
@@ -1268,6 +1326,11 @@ arch cobblestones2
 x 11
 y 13
 end
+arch guild
+name Bank of Tillok
+x 11
+y 13
+end
 arch cobblestones2
 x 11
 y 14
@@ -1277,6 +1340,10 @@ x 11
 y 15
 end
 arch cobblestones2
+x 11
+y 16
+end
+arch t_house1
 x 11
 y 16
 end
@@ -1586,6 +1653,10 @@ x 14
 y 13
 end
 arch cobblestones2
+x 14
+y 14
+end
+arch t_house1
 x 14
 y 14
 end
@@ -1779,6 +1850,10 @@ arch cobblestones2
 x 16
 y 4
 end
+arch prison
+x 16
+y 4
+end
 arch cobblestones2
 x 16
 y 5
@@ -1804,6 +1879,11 @@ x 16
 y 9
 end
 arch flagstone
+x 16
+y 10
+end
+arch courthouse
+name town hall
 x 16
 y 10
 end
@@ -2628,82 +2708,4 @@ end
 arch mountain
 x 23
 y 23
-end
-arch keep
-x 1
-y 9
-end
-arch keep
-x 1
-y 12
-end
-arch temple1
-name aged temple
-x 1
-y 18
-end
-arch t_house1
-x 2
-y 5
-end
-arch t_house1
-x 5
-y 5
-end
-arch t_house1
-x 5
-y 8
-end
-arch t_house1
-x 5
-y 13
-end
-arch t_house1
-x 5
-y 16
-end
-arch l_shop1
-name Buthron's Tavern
-x 8
-y 5
-end
-arch l_shop1
-name Gundun's General Store
-x 8
-y 8
-end
-arch t_house1
-x 8
-y 13
-end
-arch t_house1
-x 8
-y 16
-end
-arch guild
-name Baddon's Inn
-x 11
-y 6
-end
-arch guild
-name Bank of Tillok
-x 11
-y 13
-end
-arch t_house1
-x 11
-y 16
-end
-arch t_house1
-x 14
-y 14
-end
-arch prison
-x 16
-y 4
-end
-arch courthouse
-name town hall
-x 16
-y 10
 end

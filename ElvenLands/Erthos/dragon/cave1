@@ -1,30 +1,23 @@
 arch map
 name cave1
-msg
-Created:  2002-04-15 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
-height 32
+region elvenlands
 darkness 3
 width 16
-end
-arch blocked
+height 32
 msg
+Created:  2002-04-15 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
 endmsg
 end
 arch blocked
-msg
-endmsg
+end
+arch blocked
 y 1
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch medium_stones
@@ -52,43 +45,27 @@ arch cave23
 y 7
 end
 arch blocked
-msg
-endmsg
 y 8
 end
 arch blocked
-msg
-endmsg
 y 9
 end
 arch blocked
-msg
-endmsg
 y 10
 end
 arch blocked
-msg
-endmsg
 y 11
 end
 arch blocked
-msg
-endmsg
 y 12
 end
 arch blocked
-msg
-endmsg
 y 13
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch blocked
-msg
-endmsg
 y 15
 end
 arch medium_stones
@@ -122,28 +99,18 @@ arch cave17
 y 20
 end
 arch blocked
-msg
-endmsg
 y 21
 end
 arch blocked
-msg
-endmsg
 y 22
 end
 arch blocked
-msg
-endmsg
 y 23
 end
 arch blocked
-msg
-endmsg
 y 24
 end
 arch blocked
-msg
-endmsg
 y 25
 end
 arch medium_stones
@@ -177,24 +144,16 @@ arch cave23
 y 30
 end
 arch blocked
-msg
-endmsg
 y 31
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
@@ -231,14 +190,10 @@ x 1
 y 7
 end
 arch blocked
-msg
-endmsg
 x 1
 y 8
 end
 arch blocked
-msg
-endmsg
 x 1
 y 9
 end
@@ -331,26 +286,18 @@ x 1
 y 21
 end
 arch blocked
-msg
-endmsg
 x 1
 y 22
 end
 arch blocked
-msg
-endmsg
 x 1
 y 23
 end
 arch blocked
-msg
-endmsg
 x 1
 y 24
 end
 arch blocked
-msg
-endmsg
 x 1
 y 25
 end
@@ -395,8 +342,6 @@ x 1
 y 30
 end
 arch blocked
-msg
-endmsg
 x 1
 y 31
 end
@@ -669,6 +614,10 @@ arch medium_stones
 x 3
 y 15
 end
+arch dragon
+x 3
+y 15
+end
 arch medium_stones
 x 3
 y 16
@@ -820,6 +769,10 @@ arch medium_stones
 x 4
 y 19
 end
+arch dragon
+x 4
+y 19
+end
 arch medium_stones
 x 4
 y 20
@@ -1054,6 +1007,10 @@ arch medium_stones
 x 6
 y 12
 end
+arch dragon
+x 6
+y 12
+end
 arch medium_stones
 x 6
 y 13
@@ -1091,6 +1048,10 @@ x 6
 y 21
 end
 arch medium_stones
+x 6
+y 22
+end
+arch dragon
 x 6
 y 22
 end
@@ -1357,14 +1318,10 @@ x 8
 y 6
 end
 arch blocked
-msg
-endmsg
 x 8
 y 7
 end
 arch blocked
-msg
-endmsg
 x 8
 y 8
 end
@@ -1517,8 +1474,6 @@ x 8
 y 27
 end
 arch blocked
-msg
-endmsg
 x 8
 y 28
 end
@@ -1539,8 +1494,6 @@ x 8
 y 30
 end
 arch blocked
-msg
-endmsg
 x 8
 y 31
 end
@@ -1559,8 +1512,6 @@ x 9
 y 1
 end
 arch blocked
-msg
-endmsg
 x 9
 y 2
 end
@@ -1589,26 +1540,18 @@ x 9
 y 5
 end
 arch blocked
-msg
-endmsg
 x 9
 y 6
 end
 arch blocked
-msg
-endmsg
 x 9
 y 7
 end
 arch blocked
-msg
-endmsg
 x 9
 y 8
 end
 arch blocked
-msg
-endmsg
 x 9
 y 9
 end
@@ -1645,38 +1588,26 @@ x 9
 y 13
 end
 arch blocked
-msg
-endmsg
 x 9
 y 14
 end
 arch blocked
-msg
-endmsg
 x 9
 y 15
 end
 arch blocked
-msg
-endmsg
 x 9
 y 16
 end
 arch blocked
-msg
-endmsg
 x 9
 y 17
 end
 arch blocked
-msg
-endmsg
 x 9
 y 18
 end
 arch blocked
-msg
-endmsg
 x 9
 y 19
 end
@@ -1713,91 +1644,61 @@ x 9
 y 23
 end
 arch blocked
-msg
-endmsg
 x 9
 y 24
 end
 arch blocked
-msg
-endmsg
 x 9
 y 25
 end
 arch blocked
-msg
-endmsg
 x 9
 y 26
 end
 arch blocked
-msg
-endmsg
 x 9
 y 27
 end
 arch blocked
-msg
-endmsg
 x 9
 y 28
 end
 arch blocked
-msg
-endmsg
 x 9
 y 29
 end
 arch blocked
-msg
-endmsg
 x 9
 y 30
 end
 arch blocked
-msg
-endmsg
 x 9
 y 31
 end
 arch blocked
-msg
-endmsg
 x 10
 end
 arch blocked
-msg
-endmsg
 x 10
 y 1
 end
 arch blocked
-msg
-endmsg
 x 10
 y 2
 end
 arch blocked
-msg
-endmsg
 x 10
 y 3
 end
 arch blocked
-msg
-endmsg
 x 10
 y 4
 end
 arch blocked
-msg
-endmsg
 x 10
 y 5
 end
 arch blocked
-msg
-endmsg
 x 10
 y 6
 end
@@ -1810,38 +1711,26 @@ x 10
 y 8
 end
 arch blocked
-msg
-endmsg
 x 10
 y 9
 end
 arch blocked
-msg
-endmsg
 x 10
 y 10
 end
 arch blocked
-msg
-endmsg
 x 10
 y 11
 end
 arch blocked
-msg
-endmsg
 x 10
 y 12
 end
 arch blocked
-msg
-endmsg
 x 10
 y 13
 end
 arch blocked
-msg
-endmsg
 x 10
 y 14
 end
@@ -1862,14 +1751,10 @@ x 10
 y 18
 end
 arch blocked
-msg
-endmsg
 x 10
 y 19
 end
 arch blocked
-msg
-endmsg
 x 10
 y 20
 end
@@ -1890,14 +1775,10 @@ x 10
 y 22
 end
 arch blocked
-msg
-endmsg
 x 10
 y 23
 end
 arch blocked
-msg
-endmsg
 x 10
 y 24
 end
@@ -2009,26 +1890,18 @@ x 11
 y 19
 end
 arch blocked
-msg
-endmsg
 x 11
 y 20
 end
 arch blocked
-msg
-endmsg
 x 11
 y 21
 end
 arch blocked
-msg
-endmsg
 x 11
 y 22
 end
 arch blocked
-msg
-endmsg
 x 11
 y 23
 end
@@ -2571,20 +2444,4 @@ end
 arch medium_stones
 x 15
 y 31
-end
-arch dragon
-x 3
-y 15
-end
-arch dragon
-x 4
-y 19
-end
-arch dragon
-x 6
-y 12
-end
-arch dragon
-x 6
-y 22
 end

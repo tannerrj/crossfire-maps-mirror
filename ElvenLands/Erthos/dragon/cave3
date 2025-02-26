@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-07-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 3
 width 32
 height 32
-darkness 3
+msg
+Created:  2002-07-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -2923,6 +2925,21 @@ arch medium_stones
 x 19
 y 3
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 19
+y 3
+level 12
+end
 arch medium_stones
 x 19
 y 4
@@ -3812,7 +3829,7 @@ arch locked_door2
 name large red door
 slaying dragon_wing
 msg
-You need the key with the 
+You need the key with the
 gilded dragon wings.
 endmsg
 x 24
@@ -3826,7 +3843,7 @@ arch locked_door2
 name large red door
 slaying dragon_wing
 msg
-You need the key with the 
+You need the key with the
 gilded dragon wings.
 endmsg
 x 24
@@ -5106,19 +5123,4 @@ end
 arch medium_stones
 x 31
 y 31
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 19
-y 3
-level 12
 end

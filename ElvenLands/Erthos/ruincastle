@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2002-02-08 Meegwun Southall (meeg@@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2002-02-08 Meegwun Southall (meeg@@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -485,6 +487,10 @@ x 6
 y 1
 end
 arch cobblestones2
+x 6
+y 2
+end
+arch stronghold
 x 6
 y 2
 end
@@ -1318,8 +1324,4 @@ end
 arch earth
 x 15
 y 15
-end
-arch stronghold
-x 6
-y 2
 end

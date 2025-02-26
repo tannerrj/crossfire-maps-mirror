@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-07-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 3
 width 32
 height 32
-darkness 3
+msg
+Created:  2002-07-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -5387,19 +5389,13 @@ x 28
 y 31
 end
 arch blocked
-msg
-endmsg
 x 29
 end
 arch blocked
-msg
-endmsg
 x 29
 y 1
 end
 arch blocked
-msg
-endmsg
 x 29
 y 2
 end
@@ -5565,8 +5561,6 @@ x 29
 y 31
 end
 arch blocked
-msg
-endmsg
 x 30
 end
 arch teleporter
@@ -5583,8 +5577,6 @@ x 30
 y 1
 end
 arch blocked
-msg
-endmsg
 x 30
 y 2
 end
@@ -5813,19 +5805,13 @@ x 30
 y 31
 end
 arch blocked
-msg
-endmsg
 x 31
 end
 arch blocked
-msg
-endmsg
 x 31
 y 1
 end
 arch blocked
-msg
-endmsg
 x 31
 y 2
 end

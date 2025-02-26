@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-02-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 1
 width 33
 height 32
-darkness 1
+msg
+Created:  2002-02-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -3758,12 +3760,12 @@ arch magic_mouth
 msg
 A deep gutteral voice with an orcish
 accent grunts:
-   Who goes there? 
+   Who goes there?
 Another voice says:
    Ark! It's not one of our men,we'd
 better not let him in!
 The first voice grunts:
-   Go away,before I crush you! 
+   Go away,before I crush you!
 endmsg
 x 16
 y 28

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2001-05-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -1084,10 +1086,10 @@ by ruggilli,these weapons are said to
 be so powerful,that no normal being
 may use them. But,fortunatly,they
 carry other rewards that they achieved
-by themselves. 
+by themselves.
 
   The high dragon lords dwell in the
-mountain of Gondoria.  
+mountain of Gondoria.
 endmsg
 x 10
 y 9
@@ -1326,12 +1328,12 @@ Behemoth. The Dark Behemoth is a
 powerful beast,impervious to most
 attacks. The necromancer is part of
 the Black Alliance,as he believes that
-this will help him in his quest. 
+this will help him in his quest.
 @match weakness|Weakness
   I have not found out the Dark
 Behemoth's weakness yet. But I hear
 there is a sage somewhere who knows
-the behemoth's weakness. 
+the behemoth's weakness.
 @match Balrog|balrog|dragon|Dragon
 I have done some research on that
 subject,you may look at some of my
@@ -1367,7 +1369,7 @@ the Black Alliance. The leader of this
 alliance is Lord Darkoth,ruler of the
 dark elves. Also in this group must be
 that foul necromancer,perhaps even the
-balrog... 
+balrog...
 endmsg
 x 12
 y 9

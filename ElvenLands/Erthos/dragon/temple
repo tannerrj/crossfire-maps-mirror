@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-07-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 3
 width 42
 height 32
-darkness 3
+msg
+Created:  2002-07-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -336,6 +338,22 @@ arch permanent_lava
 x 2
 y 6
 end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 2
+y 6
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
+end
 arch permanent_lava
 x 2
 y 7
@@ -360,6 +378,22 @@ arch permanent_lava
 x 2
 y 12
 end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 2
+y 12
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
+end
 arch permanent_lava
 x 2
 y 13
@@ -383,6 +417,22 @@ end
 arch permanent_lava
 x 2
 y 18
+end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 2
+y 18
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
 end
 arch permanent_lava
 x 2
@@ -1715,6 +1765,22 @@ arch permanent_lava
 x 10
 y 6
 end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 10
+y 6
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
+end
 arch permanent_lava
 x 10
 y 7
@@ -1739,6 +1805,22 @@ arch permanent_lava
 x 10
 y 12
 end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 10
+y 12
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
+end
 arch permanent_lava
 x 10
 y 13
@@ -1762,6 +1844,22 @@ end
 arch permanent_lava
 x 10
 y 18
+end
+arch big_dragon
+name dragon of ruggilli
+hp 5000
+maxhp 5000
+sp 200
+maxsp 200
+exp 120000
+wc -40
+ac -35
+x 10
+y 18
+level 35
+resist_physical 100
+resist_magic 80
+friendly 1
 end
 arch permanent_lava
 x 10
@@ -2757,6 +2855,10 @@ arch flagstone
 x 16
 y 9
 end
+arch Cwyvern
+x 16
+y 9
+end
 arch flagstone
 x 16
 y 10
@@ -2766,6 +2868,10 @@ x 16
 y 11
 end
 arch flagstone
+x 16
+y 12
+end
+arch Cwyvern
 x 16
 y 12
 end
@@ -2952,6 +3058,10 @@ arch flagstone
 x 17
 y 16
 end
+arch Cwyvern
+x 17
+y 16
+end
 arch flagstone
 x 17
 y 17
@@ -3066,6 +3176,11 @@ arch flagstone
 x 18
 y 5
 end
+arch dragonman
+name Great Dragon Lord of Storm
+x 18
+y 5
+end
 arch flagstone
 x 18
 y 6
@@ -3105,6 +3220,37 @@ end
 arch flagstone
 x 18
 y 13
+end
+arch big_dragon
+name chaos dragon
+Wis 30
+Int 18
+hp 6500
+maxhp 6500
+sp 100
+maxsp 300
+exp 300000
+x 18
+y 13
+speed 0.400000
+speed_left -1.310000
+level 30
+resist_physical 100
+resist_magic 100
+resist_fire 30
+resist_electricity 30
+resist_cold 30
+resist_paralyze 100
+carrying 90000
+arch gem
+nrof 600
+end
+arch ability_cold
+end
+arch ability_lightning
+end
+arch ability_mass_confusion
+end
 end
 arch flagstone
 x 18
@@ -3213,6 +3359,11 @@ x 19
 y 3
 end
 arch flagstone
+x 19
+y 4
+end
+arch dragonman
+name Great Dragon Lord of Fire
 x 19
 y 4
 end
@@ -3374,6 +3525,11 @@ arch flagstone
 x 20
 y 5
 end
+arch dragonman
+name Great Dragon Lord of Winter
+x 20
+y 5
+end
 arch flagstone
 x 20
 y 6
@@ -3423,6 +3579,10 @@ x 20
 y 15
 end
 arch flagstone
+x 20
+y 16
+end
+arch Cwyvern
 x 20
 y 16
 end
@@ -3557,6 +3717,10 @@ arch flagstone
 x 21
 y 9
 end
+arch Cwyvern
+x 21
+y 9
+end
 arch flagstone
 x 21
 y 10
@@ -3566,6 +3730,10 @@ x 21
 y 11
 end
 arch flagstone
+x 21
+y 12
+end
+arch Cwyvern
 x 21
 y 12
 end
@@ -4516,32 +4684,22 @@ x 27
 y 3
 end
 arch blocked
-msg
-endmsg
 x 27
 y 4
 end
 arch blocked
-msg
-endmsg
 x 27
 y 5
 end
 arch blocked
-msg
-endmsg
 x 27
 y 6
 end
 arch blocked
-msg
-endmsg
 x 27
 y 7
 end
 arch blocked
-msg
-endmsg
 x 27
 y 8
 end
@@ -4669,8 +4827,6 @@ x 28
 y 3
 end
 arch blocked
-msg
-endmsg
 x 28
 y 4
 end
@@ -4693,8 +4849,6 @@ x 28
 y 7
 end
 arch blocked
-msg
-endmsg
 x 28
 y 8
 end
@@ -4822,8 +4976,6 @@ x 29
 y 3
 end
 arch blocked
-msg
-endmsg
 x 29
 y 4
 end
@@ -4846,8 +4998,6 @@ x 29
 y 7
 end
 arch blocked
-msg
-endmsg
 x 29
 y 8
 end
@@ -4991,8 +5141,6 @@ x 30
 y 3
 end
 arch blocked
-msg
-endmsg
 x 30
 y 4
 end
@@ -5015,8 +5163,6 @@ x 30
 y 7
 end
 arch blocked
-msg
-endmsg
 x 30
 y 8
 end
@@ -5152,32 +5298,22 @@ x 31
 y 3
 end
 arch blocked
-msg
-endmsg
 x 31
 y 4
 end
 arch blocked
-msg
-endmsg
 x 31
 y 5
 end
 arch blocked
-msg
-endmsg
 x 31
 y 6
 end
 arch blocked
-msg
-endmsg
 x 31
 y 7
 end
 arch blocked
-msg
-endmsg
 x 31
 y 8
 end
@@ -5210,6 +5346,11 @@ x 31
 y 14
 end
 arch mountain
+x 31
+y 15
+end
+arch dragonman
+name Great Dragon Lord of Storm
 x 31
 y 15
 end
@@ -5553,6 +5694,11 @@ arch medium_stones
 x 33
 y 19
 end
+arch dragonman
+name Great Dragon Lord of Winter
+x 33
+y 19
+end
 arch medium_stones
 x 33
 y 20
@@ -5818,6 +5964,11 @@ x 35
 y 14
 end
 arch permanent_lava
+x 35
+y 15
+end
+arch dragonman
+name Great Dragon Lord of Fire
 x 35
 y 15
 end
@@ -6848,185 +6999,4 @@ end
 arch flagstone
 x 41
 y 31
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 2
-y 6
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 2
-y 12
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 2
-y 18
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 10
-y 6
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 10
-y 12
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch big_dragon
-name dragon of ruggilli
-hp 5000
-maxhp 5000
-sp 200
-maxsp 200
-exp 120000
-wc -40
-ac -35
-x 10
-y 18
-level 35
-resist_physical 100
-resist_magic 80
-friendly 1
-end
-arch Cwyvern
-x 16
-y 9
-end
-arch Cwyvern
-x 16
-y 12
-end
-arch Cwyvern
-x 17
-y 16
-end
-arch dragonman
-name Great Dragon Lord of Storm
-x 18
-y 5
-end
-arch big_dragon
-name chaos dragon
-Wis 30
-Int 18
-hp 6500
-maxhp 6500
-sp 100
-maxsp 300
-exp 300000
-x 18
-y 13
-speed 0.400000
-speed_left -1.310000
-level 30
-resist_physical 100
-resist_magic 100
-resist_fire 30
-resist_electricity 30
-resist_cold 30
-resist_paralyze 100
-carrying 90000
-arch gem
-nrof 600
-end
-arch ability_cold
-end
-arch ability_lightning
-end
-arch ability_mass_confusion
-end
-end
-arch dragonman
-name Great Dragon Lord of Fire
-x 19
-y 4
-end
-arch dragonman
-name Great Dragon Lord of Winter
-x 20
-y 5
-end
-arch Cwyvern
-x 20
-y 16
-end
-arch Cwyvern
-x 21
-y 9
-end
-arch Cwyvern
-x 21
-y 12
-end
-arch dragonman
-name Great Dragon Lord of Storm
-x 31
-y 15
-end
-arch dragonman
-name Great Dragon Lord of Winter
-x 33
-y 19
-end
-arch dragonman
-name Great Dragon Lord of Fire
-x 35
-y 15
 end

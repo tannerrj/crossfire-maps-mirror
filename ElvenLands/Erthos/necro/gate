@@ -1,11 +1,12 @@
 arch map
 name gate
-msg
-Created:  2001-05-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 24
 height 28
+msg
+Created:  2001-05-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -2540,6 +2541,17 @@ arch blocked
 x 13
 y 23
 end
+arch pentagram_111
+hp 16
+sp 12
+x 13
+y 24
+connected 100
+end
+arch skree
+x 13
+y 24
+end
 arch blocked
 x 13
 y 26
@@ -4070,15 +4082,4 @@ end
 arch blocked
 x 23
 y 23
-end
-arch pentagram_111
-hp 16
-sp 12
-x 13
-y 24
-connected 100
-end
-arch skree
-x 13
-y 24
 end

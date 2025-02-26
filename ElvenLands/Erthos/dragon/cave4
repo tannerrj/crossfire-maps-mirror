@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-07-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 3
 width 32
 height 32
-darkness 3
+msg
+Created:  2002-07-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -467,6 +469,21 @@ arch medium_stones
 x 3
 y 13
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 3
+y 13
+level 12
+end
 arch medium_stones
 x 3
 y 14
@@ -476,6 +493,10 @@ x 3
 y 15
 end
 arch medium_stones
+x 3
+y 16
+end
+arch big_dragon
 x 3
 y 16
 end
@@ -1407,6 +1428,21 @@ arch medium_stones
 x 9
 y 21
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 9
+y 21
+level 12
+end
 arch medium_stones
 x 9
 y 22
@@ -1713,6 +1749,10 @@ arch medium_stones
 x 11
 y 17
 end
+arch big_dragon
+x 11
+y 17
+end
 arch medium_stones
 x 11
 y 18
@@ -2254,6 +2294,10 @@ x 15
 y 4
 end
 arch medium_stones
+x 15
+y 5
+end
+arch big_dragon
 x 15
 y 5
 end
@@ -2763,6 +2807,10 @@ x 18
 y 19
 end
 arch medium_stones
+x 18
+y 20
+end
+arch big_dragon
 x 18
 y 20
 end
@@ -3139,6 +3187,21 @@ arch medium_stones
 x 21
 y 5
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 21
+y 5
+level 12
+end
 arch medium_stones
 x 21
 y 6
@@ -3604,6 +3667,10 @@ arch medium_stones
 x 24
 y 11
 end
+arch big_dragon
+x 24
+y 11
+end
 arch medium_stones
 x 24
 y 12
@@ -3723,6 +3790,21 @@ arch medium_stones
 x 25
 y 6
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 25
+y 6
+level 12
+end
 arch medium_stones
 x 25
 y 7
@@ -4036,6 +4118,21 @@ end
 arch medium_stones
 x 27
 y 13
+end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Hissss...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 27
+y 13
+level 12
 end
 arch medium_stones
 x 27
@@ -4692,99 +4789,4 @@ end
 arch medium_stones
 x 31
 y 31
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 3
-y 13
-level 12
-end
-arch big_dragon
-x 3
-y 16
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 9
-y 21
-level 12
-end
-arch big_dragon
-x 11
-y 17
-end
-arch big_dragon
-x 15
-y 5
-end
-arch big_dragon
-x 18
-y 20
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 21
-y 5
-level 12
-end
-arch big_dragon
-x 24
-y 11
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 25
-y 6
-level 12
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Hissss...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 27
-y 13
-level 12
 end

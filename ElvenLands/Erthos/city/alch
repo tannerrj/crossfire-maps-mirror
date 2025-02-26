@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  2001-05-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2001-05-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -908,46 +909,46 @@ x 11
 y 1
 end
 arch random_reading
-no_pick 1
 x 11
 y 1
+no_pick 1
 end
 arch flagstone
 x 11
 y 2
 end
 arch random_reading
-no_pick 1
 x 11
 y 2
+no_pick 1
 end
 arch flagstone
 x 11
 y 3
 end
 arch random_reading
-no_pick 1
 x 11
 y 3
+no_pick 1
 end
 arch flagstone
 x 11
 y 4
 end
 arch random_reading
-no_pick 1
 x 11
 y 4
+no_pick 1
 end
 arch flagstone
 x 11
 y 5
 end
 arch random_reading
+x 11
+y 5
 level 30
 no_pick 1
-x 11
-y 5
 end
 arch dungeon_floor
 x 11
@@ -1012,10 +1013,10 @@ x 12
 y 1
 end
 arch random_reading
-level 10
-no_pick 1
 x 12
 y 1
+level 10
+no_pick 1
 end
 arch flagstone
 x 12
@@ -1038,9 +1039,9 @@ x 12
 y 6
 end
 arch grate_closed_1
-connected 1
 x 12
 y 6
+connected 1
 end
 arch flagstone
 x 12
@@ -1050,9 +1051,9 @@ arch altar
 name pay 100 platinum
 slaying platinacoin
 food 100
-connected 1
 x 12
 y 7
+connected 1
 end
 arch flagstone
 x 12
@@ -1085,7 +1086,7 @@ msg
 Welcome to my alchemy shop! If you want
 to use the cauldron,you must pay 100
 platinum. Please try not to burn any
-books in there, I put them there for practicing 
+books in there, I put them there for practicing
 alchemists to use.
 endmsg
 x 12
@@ -1114,10 +1115,10 @@ x 13
 y 1
 end
 arch random_reading
-level 20
-no_pick 1
 x 13
 y 1
+level 20
+no_pick 1
 end
 arch flagstone
 x 13
@@ -1128,9 +1129,9 @@ x 13
 y 3
 end
 arch cauldron
-no_pick 1
 x 13
 y 3
+no_pick 1
 end
 arch flagstone
 x 13
@@ -1141,9 +1142,9 @@ x 13
 y 5
 end
 arch random_reading
-no_pick 1
 x 13
 y 5
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1204,10 +1205,10 @@ x 14
 y 1
 end
 arch random_reading
-level 30
-no_pick 1
 x 14
 y 1
+level 30
+no_pick 1
 end
 arch flagstone
 x 14
@@ -1226,10 +1227,10 @@ x 14
 y 5
 end
 arch random_reading
-level 20
-no_pick 1
 x 14
 y 5
+level 20
+no_pick 1
 end
 arch dungeon_floor
 x 14
@@ -1283,9 +1284,9 @@ x 14
 y 15
 end
 arch door_look_1
-no_pass 0
 x 14
 y 15
+no_pass 0
 end
 arch dungeon_floor
 x 15

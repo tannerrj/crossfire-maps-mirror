@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2002-04293 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 24
 height 24
+msg
+Created:  2002-04293 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch blackmarble
 end
@@ -2022,8 +2024,6 @@ y 9
 end
 arch blocked
 name pit
-msg
-endmsg
 x 12
 y 10
 walk_on 1
@@ -2210,8 +2210,6 @@ y 9
 end
 arch blocked
 name pit
-msg
-endmsg
 x 13
 y 10
 walk_on 1

@@ -1,12 +1,13 @@
 arch map
 name 4
-msg
-Created:  2000-06-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 darkness 5
 width 16
 height 16
+msg
+Created:  2000-06-04 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -518,14 +519,14 @@ arch vampire
 msg
 @match hi|hello
 Go away,before I cannot control my
-hunger any longer. 
+hunger any longer.
 @match dwarf|mad dwarf|miner
 I could not control myself. My hunger
 is a power that I cannot control. My
 master has many vampires under his
 control,he creates more and more. You
 must leave this place! For cannot
-possibly help! 
+possibly help!
 @match help|Help|master
 I would not suggest trying to slay my
 master! He is very strong and his
@@ -729,6 +730,13 @@ arch large_stones
 x 6
 y 7
 end
+arch stronghold
+slaying /ElvenLands/Erthos/Dmines/dorn1
+hp 16
+sp 30
+x 6
+y 7
+end
 arch large_stones
 x 6
 y 8
@@ -795,6 +803,13 @@ arch mine2
 x 7
 end
 arch cobblestones2
+x 7
+y 1
+end
+arch church
+slaying /ElvenLands/Erthos/Dmines/ch
+hp 12
+sp 23
 x 7
 y 1
 end
@@ -1751,18 +1766,4 @@ end
 arch mine12
 x 15
 y 15
-end
-arch stronghold
-slaying /ElvenLands/Erthos/Dmines/dorn1
-hp 16
-sp 30
-x 6
-y 7
-end
-arch church
-slaying /ElvenLands/Erthos/Dmines/ch
-hp 12
-sp 23
-x 7
-y 1
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-04-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 21
 height 21
+msg
+Created:  2001-04-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -923,9 +925,9 @@ arch woman
 name receptionist
 msg
 @match hi|hello
- Hello.  
+ Hello.
  I'm sorry,but Mr. Gundraff isn't
-accepting any visitors right now. 
+accepting any visitors right now.
 endmsg
 x 9
 y 1
@@ -1380,14 +1382,14 @@ y 3
 end
 arch magic_mouth
 msg
-You step inside the mayor's office. 
+You step inside the mayor's office.
  The mayor, a fat,arrogant looking
-dwarf,says: 
+dwarf,says:
   What are you doing in here?! I said
 no visitors! Can't you read the sign?!
  You good for nothing
 receptionist,why did you let this
-person in?! 
+person in?!
 
 endmsg
 x 12

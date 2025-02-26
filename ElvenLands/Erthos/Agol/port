@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  2002-03-16 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 16
+msg
+Created:  2002-03-16 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -450,6 +451,10 @@ arch sea1
 x 4
 y 12
 end
+arch rowboat
+x 4
+y 12
+end
 arch sea
 x 4
 y 13
@@ -501,9 +506,9 @@ msg
 @match *
 This is the prison isle of Dun Agol.
 endmsg
-unaggressive 1
 x 5
 y 6
+unaggressive 1
 end
 arch dungeon_floor
 x 5
@@ -522,6 +527,10 @@ x 5
 y 9
 end
 arch sea1
+x 5
+y 10
+end
+arch s_ship
 x 5
 y 10
 end
@@ -706,6 +715,10 @@ arch sea1
 x 7
 y 12
 end
+arch rowboat
+x 7
+y 12
+end
 arch sea
 x 7
 y 13
@@ -858,9 +871,9 @@ Arrrr.
 The prison fortress is ahead,but don't
 stray from the path,laddie.
 endmsg
-unaggressive 1
 x 9
 y 2
+unaggressive 1
 end
 arch dungeon_floor
 x 9
@@ -891,6 +904,10 @@ x 9
 y 8
 end
 arch sea1
+x 9
+y 9
+end
+arch s_ship
 x 9
 y 9
 end
@@ -972,6 +989,10 @@ x 10
 y 10
 end
 arch sea1
+x 10
+y 11
+end
+arch rowboat
 x 10
 y 11
 end
@@ -1223,6 +1244,10 @@ arch sea1
 x 13
 y 11
 end
+arch rowboat
+x 13
+y 11
+end
 arch sea
 x 13
 y 12
@@ -1286,6 +1311,10 @@ x 14
 y 8
 end
 arch sea1
+x 14
+y 9
+end
+arch s_ship
 x 14
 y 9
 end
@@ -1352,9 +1381,9 @@ msg
 @match *
 This is the prison isle of Dun Agol.
 endmsg
-unaggressive 1
 x 15
 y 6
+unaggressive 1
 end
 arch dungeon_floor
 x 15
@@ -1381,6 +1410,10 @@ x 15
 y 11
 end
 arch sea1
+x 15
+y 12
+end
+arch rowboat
 x 15
 y 12
 end
@@ -1879,36 +1912,4 @@ end
 arch sea
 x 20
 y 15
-end
-arch rowboat
-x 4
-y 12
-end
-arch s_ship
-x 5
-y 10
-end
-arch rowboat
-x 7
-y 12
-end
-arch s_ship
-x 9
-y 9
-end
-arch rowboat
-x 10
-y 11
-end
-arch rowboat
-x 13
-y 11
-end
-arch s_ship
-x 14
-y 9
-end
-arch rowboat
-x 15
-y 12
 end

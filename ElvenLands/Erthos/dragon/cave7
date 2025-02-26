@@ -1,12 +1,13 @@
 arch map
 name cave7
-msg
-Created:  2002-07-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
+darkness 3
 width 32
 height 32
-darkness 3
+msg
+Created:  2002-07-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -50,8 +51,6 @@ arch medium_stones
 y 13
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch medium_stones
@@ -76,8 +75,6 @@ arch cave2
 y 19
 end
 arch blocked
-msg
-endmsg
 y 20
 end
 arch medium_stones
@@ -169,8 +166,6 @@ x 1
 y 13
 end
 arch blocked
-msg
-endmsg
 x 1
 y 14
 end
@@ -203,8 +198,6 @@ x 1
 y 19
 end
 arch blocked
-msg
-endmsg
 x 1
 y 20
 end
@@ -304,14 +297,10 @@ x 2
 y 12
 end
 arch blocked
-msg
-endmsg
 x 2
 y 13
 end
 arch blocked
-msg
-endmsg
 x 2
 y 14
 end
@@ -344,14 +333,10 @@ x 2
 y 19
 end
 arch blocked
-msg
-endmsg
 x 2
 y 20
 end
 arch blocked
-msg
-endmsg
 x 2
 y 21
 end
@@ -443,14 +428,10 @@ x 3
 y 11
 end
 arch blocked
-msg
-endmsg
 x 3
 y 12
 end
 arch blocked
-msg
-endmsg
 x 3
 y 13
 end
@@ -499,14 +480,10 @@ x 3
 y 20
 end
 arch blocked
-msg
-endmsg
 x 3
 y 21
 end
 arch blocked
-msg
-endmsg
 x 3
 y 22
 end
@@ -590,14 +567,10 @@ x 4
 y 10
 end
 arch blocked
-msg
-endmsg
 x 4
 y 11
 end
 arch blocked
-msg
-endmsg
 x 4
 y 12
 end
@@ -654,14 +627,10 @@ x 4
 y 21
 end
 arch blocked
-msg
-endmsg
 x 4
 y 22
 end
 arch blocked
-msg
-endmsg
 x 4
 y 23
 end
@@ -737,14 +706,10 @@ x 5
 y 9
 end
 arch blocked
-msg
-endmsg
 x 5
 y 10
 end
 arch blocked
-msg
-endmsg
 x 5
 y 11
 end
@@ -809,14 +774,10 @@ x 5
 y 22
 end
 arch blocked
-msg
-endmsg
 x 5
 y 23
 end
 arch blocked
-msg
-endmsg
 x 5
 y 24
 end
@@ -884,14 +845,10 @@ x 6
 y 8
 end
 arch blocked
-msg
-endmsg
 x 6
 y 9
 end
 arch blocked
-msg
-endmsg
 x 6
 y 10
 end
@@ -931,6 +888,18 @@ arch medium_stones
 x 6
 y 17
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 6
+y 17
+speed -0.500000
+level 25
+end
 arch medium_stones
 x 6
 y 18
@@ -964,14 +933,10 @@ x 6
 y 23
 end
 arch blocked
-msg
-endmsg
 x 6
 y 24
 end
 arch blocked
-msg
-endmsg
 x 6
 y 25
 end
@@ -1031,14 +996,10 @@ x 7
 y 7
 end
 arch blocked
-msg
-endmsg
 x 7
 y 8
 end
 arch blocked
-msg
-endmsg
 x 7
 y 9
 end
@@ -1070,6 +1031,19 @@ arch medium_stones
 x 7
 y 13
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 7
+y 13
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 7
 y 14
@@ -1123,14 +1097,10 @@ x 7
 y 24
 end
 arch blocked
-msg
-endmsg
 x 7
 y 25
 end
 arch blocked
-msg
-endmsg
 x 7
 y 26
 end
@@ -1186,8 +1156,6 @@ x 8
 y 7
 end
 arch blocked
-msg
-endmsg
 x 8
 y 8
 end
@@ -1255,6 +1223,19 @@ arch medium_stones
 x 8
 y 20
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 8
+y 20
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 8
 y 21
@@ -1284,20 +1265,14 @@ x 8
 y 25
 end
 arch blocked
-msg
-endmsg
 x 8
 y 26
 end
 arch blocked
-msg
-endmsg
 x 8
 y 27
 end
 arch blocked
-msg
-endmsg
 x 8
 y 28
 end
@@ -1345,8 +1320,6 @@ x 9
 y 7
 end
 arch blocked
-msg
-endmsg
 x 9
 y 8
 end
@@ -1463,8 +1436,6 @@ x 9
 y 27
 end
 arch blocked
-msg
-endmsg
 x 9
 y 28
 end
@@ -1512,8 +1483,6 @@ x 10
 y 7
 end
 arch blocked
-msg
-endmsg
 x 10
 y 8
 end
@@ -1626,8 +1595,6 @@ x 10
 y 27
 end
 arch blocked
-msg
-endmsg
 x 10
 y 28
 end
@@ -1675,8 +1642,6 @@ x 11
 y 7
 end
 arch blocked
-msg
-endmsg
 x 11
 y 8
 end
@@ -1744,6 +1709,18 @@ arch medium_stones
 x 11
 y 19
 end
+arch big_elec
+name Ancient Blue Dragon
+hp 7000
+maxhp 7000
+exp 140000
+dam 40
+ac -15
+x 11
+y 19
+speed -0.500000
+level 25
+end
 arch medium_stones
 x 11
 y 20
@@ -1789,8 +1766,6 @@ x 11
 y 27
 end
 arch blocked
-msg
-endmsg
 x 11
 y 28
 end
@@ -1838,8 +1813,6 @@ x 12
 y 7
 end
 arch blocked
-msg
-endmsg
 x 12
 y 8
 end
@@ -1891,6 +1864,19 @@ arch medium_stones
 x 12
 y 16
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 12
+y 16
+speed -0.300000
+level 20
+end
 arch medium_stones
 x 12
 y 17
@@ -1936,20 +1922,14 @@ x 12
 y 25
 end
 arch blocked
-msg
-endmsg
 x 12
 y 26
 end
 arch blocked
-msg
-endmsg
 x 12
 y 27
 end
 arch blocked
-msg
-endmsg
 x 12
 y 28
 end
@@ -1997,14 +1977,10 @@ x 13
 y 7
 end
 arch blocked
-msg
-endmsg
 x 13
 y 8
 end
 arch blocked
-msg
-endmsg
 x 13
 y 9
 end
@@ -2101,14 +2077,10 @@ x 13
 y 25
 end
 arch blocked
-msg
-endmsg
 x 13
 y 26
 end
 arch blocked
-msg
-endmsg
 x 13
 y 27
 end
@@ -2164,14 +2136,10 @@ x 14
 y 8
 end
 arch blocked
-msg
-endmsg
 x 14
 y 9
 end
 arch blocked
-msg
-endmsg
 x 14
 y 10
 end
@@ -2272,14 +2240,10 @@ x 14
 y 26
 end
 arch blocked
-msg
-endmsg
 x 14
 y 27
 end
 arch blocked
-msg
-endmsg
 x 14
 y 28
 end
@@ -2331,14 +2295,10 @@ x 15
 y 8
 end
 arch blocked
-msg
-endmsg
 x 15
 y 9
 end
 arch blocked
-msg
-endmsg
 x 15
 y 10
 end
@@ -2399,14 +2359,10 @@ x 15
 y 20
 end
 arch blocked
-msg
-endmsg
 x 15
 y 21
 end
 arch blocked
-msg
-endmsg
 x 15
 y 22
 end
@@ -2447,14 +2403,10 @@ x 15
 y 27
 end
 arch blocked
-msg
-endmsg
 x 15
 y 28
 end
 arch blocked
-msg
-endmsg
 x 15
 y 29
 end
@@ -2498,14 +2450,10 @@ x 16
 y 7
 end
 arch blocked
-msg
-endmsg
 x 16
 y 8
 end
 arch blocked
-msg
-endmsg
 x 16
 y 9
 end
@@ -2584,20 +2532,14 @@ x 16
 y 19
 end
 arch blocked
-msg
-endmsg
 x 16
 y 20
 end
 arch blocked
-msg
-endmsg
 x 16
 y 21
 end
 arch blocked
-msg
-endmsg
 x 16
 y 22
 end
@@ -2642,8 +2584,6 @@ x 16
 y 28
 end
 arch blocked
-msg
-endmsg
 x 16
 y 29
 end
@@ -2687,8 +2627,6 @@ x 17
 y 7
 end
 arch blocked
-msg
-endmsg
 x 17
 y 8
 end
@@ -2857,8 +2795,6 @@ x 17
 y 28
 end
 arch blocked
-msg
-endmsg
 x 17
 y 29
 end
@@ -2894,20 +2830,14 @@ x 18
 y 5
 end
 arch blocked
-msg
-endmsg
 x 18
 y 6
 end
 arch blocked
-msg
-endmsg
 x 18
 y 7
 end
 arch blocked
-msg
-endmsg
 x 18
 y 8
 end
@@ -3044,14 +2974,10 @@ x 18
 y 27
 end
 arch blocked
-msg
-endmsg
 x 18
 y 28
 end
 arch blocked
-msg
-endmsg
 x 18
 y 29
 end
@@ -3095,14 +3021,10 @@ x 19
 y 5
 end
 arch blocked
-msg
-endmsg
 x 19
 y 6
 end
 arch blocked
-msg
-endmsg
 x 19
 y 7
 end
@@ -3219,8 +3141,6 @@ x 19
 y 27
 end
 arch blocked
-msg
-endmsg
 x 19
 y 28
 end
@@ -3256,14 +3176,10 @@ x 20
 y 4
 end
 arch blocked
-msg
-endmsg
 x 20
 y 5
 end
 arch blocked
-msg
-endmsg
 x 20
 y 6
 end
@@ -3306,6 +3222,23 @@ end
 arch flagstone
 x 20
 y 13
+end
+arch dragonman
+name greater draconian guard
+msg
+@match *
+How dare you intrude upon this
+place,worm!
+endmsg
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 20
+y 13
+level 25
+unaggressive 1
 end
 arch flagstone
 x 20
@@ -3384,8 +3317,6 @@ x 20
 y 27
 end
 arch blocked
-msg
-endmsg
 x 20
 y 28
 end
@@ -3421,8 +3352,6 @@ x 21
 y 4
 end
 arch blocked
-msg
-endmsg
 x 21
 y 5
 end
@@ -3499,8 +3428,6 @@ x 21
 y 18
 end
 arch blocked
-msg
-endmsg
 x 21
 y 19
 end
@@ -3549,14 +3476,10 @@ x 21
 y 26
 end
 arch blocked
-msg
-endmsg
 x 21
 y 27
 end
 arch blocked
-msg
-endmsg
 x 21
 y 28
 end
@@ -3592,8 +3515,6 @@ x 22
 y 4
 end
 arch blocked
-msg
-endmsg
 x 22
 y 5
 end
@@ -3658,14 +3579,10 @@ x 22
 y 18
 end
 arch blocked
-msg
-endmsg
 x 22
 y 19
 end
 arch blocked
-msg
-endmsg
 x 22
 y 20
 end
@@ -3702,14 +3619,10 @@ x 22
 y 25
 end
 arch blocked
-msg
-endmsg
 x 22
 y 26
 end
 arch blocked
-msg
-endmsg
 x 22
 y 27
 end
@@ -3749,8 +3662,6 @@ x 23
 y 4
 end
 arch blocked
-msg
-endmsg
 x 23
 y 5
 end
@@ -3777,6 +3688,18 @@ end
 arch flagstone
 x 23
 y 9
+end
+arch dragonman
+name greater draconian guard
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 23
+y 9
+level 25
+unaggressive 1
 end
 arch flagstone
 x 23
@@ -3819,14 +3742,10 @@ x 23
 y 18
 end
 arch blocked
-msg
-endmsg
 x 23
 y 19
 end
 arch blocked
-msg
-endmsg
 x 23
 y 20
 end
@@ -3863,14 +3782,10 @@ x 23
 y 25
 end
 arch blocked
-msg
-endmsg
 x 23
 y 26
 end
 arch blocked
-msg
-endmsg
 x 23
 y 27
 end
@@ -3891,43 +3806,29 @@ x 23
 y 31
 end
 arch blocked
-msg
-endmsg
 x 24
 end
 arch blocked
-msg
-endmsg
 x 24
 y 1
 end
 arch blocked
-msg
-endmsg
 x 24
 y 2
 end
 arch blocked
-msg
-endmsg
 x 24
 y 3
 end
 arch blocked
-msg
-endmsg
 x 24
 y 4
 end
 arch blocked
-msg
-endmsg
 x 24
 y 5
 end
 arch blocked
-msg
-endmsg
 x 24
 y 6
 end
@@ -3992,14 +3893,10 @@ x 24
 y 18
 end
 arch blocked
-msg
-endmsg
 x 24
 y 19
 end
 arch blocked
-msg
-endmsg
 x 24
 y 20
 end
@@ -4040,14 +3937,10 @@ x 24
 y 26
 end
 arch blocked
-msg
-endmsg
 x 24
 y 27
 end
 arch blocked
-msg
-endmsg
 x 24
 y 28
 end
@@ -4182,14 +4075,10 @@ x 25
 y 18
 end
 arch blocked
-msg
-endmsg
 x 25
 y 19
 end
 arch blocked
-msg
-endmsg
 x 25
 y 20
 end
@@ -4208,6 +4097,18 @@ end
 arch flagstone
 x 25
 y 23
+end
+arch dragonman
+name greater draconian guard
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 25
+y 23
+level 25
+unaggressive 1
 end
 arch flagstone
 x 25
@@ -4234,26 +4135,18 @@ x 25
 y 27
 end
 arch blocked
-msg
-endmsg
 x 25
 y 28
 end
 arch blocked
-msg
-endmsg
 x 25
 y 29
 end
 arch blocked
-msg
-endmsg
 x 25
 y 30
 end
 arch blocked
-msg
-endmsg
 x 25
 y 31
 end
@@ -4332,6 +4225,18 @@ arch flagstone
 x 26
 y 14
 end
+arch dragonman
+name greater draconian guard
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 26
+y 14
+level 25
+unaggressive 1
+end
 arch flagstone
 x 26
 y 15
@@ -4353,8 +4258,6 @@ x 26
 y 18
 end
 arch blocked
-msg
-endmsg
 x 26
 y 19
 end
@@ -4636,6 +4539,18 @@ arch flagstone
 x 28
 y 7
 end
+arch dragonman
+name greater draconian guard
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 28
+y 7
+level 25
+unaggressive 1
+end
 arch flagstone
 x 28
 y 8
@@ -4947,37 +4862,25 @@ x 29
 y 31
 end
 arch blocked
-msg
-endmsg
 x 30
 end
 arch blocked
-msg
-endmsg
 x 30
 y 1
 end
 arch blocked
-msg
-endmsg
 x 30
 y 2
 end
 arch blocked
-msg
-endmsg
 x 30
 y 3
 end
 arch blocked
-msg
-endmsg
 x 30
 y 4
 end
 arch blocked
-msg
-endmsg
 x 30
 y 5
 end
@@ -5033,6 +4936,18 @@ arch flagstone
 x 30
 y 16
 end
+arch dragonman
+name greater draconian guard
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 30
+y 16
+level 25
+unaggressive 1
+end
 arch flagstone
 x 30
 y 17
@@ -5070,14 +4985,10 @@ x 30
 y 23
 end
 arch blocked
-msg
-endmsg
 x 30
 y 24
 end
 arch blocked
-msg
-endmsg
 x 30
 y 25
 end
@@ -5149,14 +5060,10 @@ x 31
 y 4
 end
 arch blocked
-msg
-endmsg
 x 31
 y 5
 end
 arch blocked
-msg
-endmsg
 x 31
 y 6
 end
@@ -5289,206 +5196,38 @@ x 31
 y 22
 end
 arch blocked
-msg
-endmsg
 x 31
 y 23
 end
 arch blocked
-msg
-endmsg
 x 31
 y 24
 end
 arch blocked
-msg
-endmsg
 x 31
 y 25
 end
 arch blocked
-msg
-endmsg
 x 31
 y 26
 end
 arch blocked
-msg
-endmsg
 x 31
 y 27
 end
 arch blocked
-msg
-endmsg
 x 31
 y 28
 end
 arch blocked
-msg
-endmsg
 x 31
 y 29
 end
 arch blocked
-msg
-endmsg
 x 31
 y 30
 end
 arch blocked
-msg
-endmsg
 x 31
 y 31
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 6
-y 17
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 7
-y 13
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 8
-y 20
-speed -0.300000
-level 20
-end
-arch big_elec
-name Ancient Blue Dragon
-hp 7000
-maxhp 7000
-exp 140000
-dam 40
-ac -15
-x 11
-y 19
-speed -0.500000
-level 25
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 12
-y 16
-speed -0.300000
-level 20
-end
-arch dragonman
-name greater draconian guard
-msg
-@match *
-How dare you intrude upon this
-place,worm!
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 20
-y 13
-level 25
-unaggressive 1
-end
-arch dragonman
-name greater draconian guard
-msg
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 23
-y 9
-level 25
-unaggressive 1
-end
-arch dragonman
-name greater draconian guard
-msg
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 25
-y 23
-level 25
-unaggressive 1
-end
-arch dragonman
-name greater draconian guard
-msg
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 26
-y 14
-level 25
-unaggressive 1
-end
-arch dragonman
-name greater draconian guard
-msg
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 28
-y 7
-level 25
-unaggressive 1
-end
-arch dragonman
-name greater draconian guard
-msg
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 30
-y 16
-level 25
-unaggressive 1
 end

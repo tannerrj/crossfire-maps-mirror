@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2002-04-29 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 24
 height 24
+msg
+Created:  2002-04-29 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch blackmarble
 end
@@ -1626,6 +1628,10 @@ arch blackmarble
 x 11
 y 8
 end
+arch skree
+x 11
+y 8
+end
 arch blackmarble
 x 11
 y 9
@@ -1760,6 +1766,10 @@ arch blackmarble
 x 12
 y 4
 end
+arch skree
+x 12
+y 4
+end
 arch blackmarble
 x 12
 y 5
@@ -1790,8 +1800,6 @@ y 10
 end
 arch blocked
 name pit
-msg
-endmsg
 x 12
 y 11
 walk_on 1
@@ -1896,6 +1904,10 @@ arch blackmarble
 x 13
 y 1
 end
+arch skree
+x 13
+y 1
+end
 arch blackmarble
 x 13
 y 2
@@ -1938,8 +1950,6 @@ y 10
 end
 arch blocked
 name pit
-msg
-endmsg
 x 13
 y 11
 walk_on 1
@@ -3505,16 +3515,4 @@ end
 arch flagstone_2_2_4
 x 23
 y 23
-end
-arch skree
-x 11
-y 8
-end
-arch skree
-x 12
-y 4
-end
-arch skree
-x 13
-y 1
 end

@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-07-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 1
 width 42
 height 42
-darkness 1
+msg
+Created:  2002-07-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -1282,6 +1284,22 @@ arch flagstone
 x 6
 y 12
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Move along,puny creature...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 6
+y 12
+level 12
+unaggressive 1
+end
 arch flagstone
 x 6
 y 13
@@ -1463,6 +1481,22 @@ end
 arch medium_stones
 x 7
 y 4
+end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+This is our city,worm.
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 7
+y 4
+level 12
+unaggressive 1
 end
 arch medium_stones
 x 7
@@ -1758,6 +1792,22 @@ end
 arch flagstone
 x 8
 y 20
+end
+arch dragonman
+name draconian
+msg
+@match *
+Hisss...
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 8
+y 20
+level 12
+unaggressive 1
 end
 arch flagstone
 x 8
@@ -2076,6 +2126,23 @@ arch medium_stones
 x 10
 y 6
 end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Do you wish to enter our great
+city,worm?
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 10
+y 6
+level 12
+unaggressive 1
+end
 arch medium_stones
 x 10
 y 7
@@ -2223,6 +2290,22 @@ end
 arch flagstone
 x 10
 y 37
+end
+arch dragonman
+name higher draconian guard
+msg
+@match *
+Move along,tiny creature.
+endmsg
+hp 5000
+maxhp 5000
+exp 100000
+wc -20
+ac -18
+x 10
+y 37
+level 25
+unaggressive 1
 end
 arch flagstone
 x 10
@@ -2533,6 +2616,22 @@ end
 arch flagstone
 x 12
 y 12
+end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Move along,puny creature...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 12
+y 12
+level 12
+unaggressive 1
 end
 arch flagstone
 x 12
@@ -2849,6 +2948,22 @@ arch flagstone
 x 13
 y 31
 end
+arch dragonman
+name draconian
+msg
+@match *
+Hisss...
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 13
+y 31
+level 12
+unaggressive 1
+end
 arch flagstone
 x 13
 y 32
@@ -2991,6 +3106,22 @@ end
 arch flagstone
 x 14
 y 22
+end
+arch dragonman
+name draconian
+msg
+@match *
+Hisss...
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 14
+y 22
+level 12
+unaggressive 1
 end
 arch flagstone
 x 14
@@ -4528,8 +4659,6 @@ x 21
 y 21
 end
 arch blocked
-msg
-endmsg
 x 21
 y 22
 end
@@ -4788,8 +4917,6 @@ x 22
 y 21
 end
 arch blocked
-msg
-endmsg
 x 22
 y 22
 end
@@ -4990,6 +5117,24 @@ end
 arch shop_empty
 x 23
 y 17
+end
+arch dragonman
+name Zhithlarath
+msg
+@match *
+Ahh... Welcome to my shop,little one...
+Do look around,you just might see
+something your size...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 23
+y 17
+level 12
+unaggressive 1
 end
 arch shop_empty
 x 23
@@ -5225,6 +5370,22 @@ end
 arch flagstone
 x 24
 y 23
+end
+arch dragonman
+name lesser draconian guard
+msg
+@match *
+Move along,puny creature...
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 24
+y 23
+level 12
+unaggressive 1
 end
 arch flagstone
 x 24
@@ -5538,8 +5699,6 @@ x 25
 y 33
 end
 arch blocked
-msg
-endmsg
 x 25
 y 34
 end
@@ -5671,8 +5830,6 @@ x 26
 y 20
 end
 arch blocked
-msg
-endmsg
 x 26
 y 21
 end
@@ -5712,11 +5869,11 @@ crunching sound,and then a great thud
 as a huge body crashes to the ground...
  ...The room reverbates with the
 voices of cheering draconians,as the
-crowd roars its approval.    
+crowd roars its approval.
  "Who wishes to challenge the
-  mighty Bhakarak,let them battle! 
-  Who desires the prize for slaying 
-  Bhrakarak,the blood stone?  
+  mighty Bhakarak,let them battle!
+  Who desires the prize for slaying
+  Bhrakarak,the blood stone?
 endmsg
 x 26
 y 27
@@ -5897,8 +6054,6 @@ x 27
 y 19
 end
 arch blocked
-msg
-endmsg
 x 27
 y 20
 end
@@ -5942,11 +6097,11 @@ crunching sound,and then a great thud
 as a huge body crashes to the ground...
  ...The room reverbates with the
 voices of cheering draconians,as the
-crowd roars its approval.    
+crowd roars its approval.
  "Who wishes to challenge the
-  mighty Bhakarak,let them battle! 
-  Who desires the prize for slaying 
-  Bhrakarak,the blood stone?  
+  mighty Bhakarak,let them battle!
+  Who desires the prize for slaying
+  Bhrakarak,the blood stone?
 endmsg
 x 27
 y 26
@@ -5966,6 +6121,22 @@ end
 arch flagstone
 x 27
 y 30
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 27
+y 30
+level 12
+unaggressive 1
 end
 arch flagstone
 x 27
@@ -6107,8 +6278,6 @@ x 28
 y 18
 end
 arch blocked
-msg
-endmsg
 x 28
 y 19
 end
@@ -6164,11 +6333,11 @@ crunching sound,and then a great thud
 as a huge body crashes to the ground...
  ...The room reverbates with the
 voices of cheering draconians,as the
-crowd roars its approval.    
+crowd roars its approval.
  "Who wishes to challenge the
-  mighty Bhakarak,let them battle! 
-  Who desires the prize for slaying 
-  Bhrakarak,the blood stone?  
+  mighty Bhakarak,let them battle!
+  Who desires the prize for slaying
+  Bhrakarak,the blood stone?
 endmsg
 x 28
 y 26
@@ -6212,6 +6381,22 @@ end
 arch flagstone
 x 28
 y 36
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 28
+y 36
+level 12
+unaggressive 1
 end
 arch flagstone
 x 28
@@ -6329,8 +6514,6 @@ x 29
 y 17
 end
 arch blocked
-msg
-endmsg
 x 29
 y 18
 end
@@ -6417,6 +6600,22 @@ end
 arch flagstone
 x 29
 y 33
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 29
+y 33
+level 12
+unaggressive 1
 end
 arch flagstone
 x 29
@@ -6582,14 +6781,10 @@ x 30
 y 16
 end
 arch blocked
-msg
-endmsg
 x 30
 y 17
 end
 arch blocked
-msg
-endmsg
 x 30
 y 18
 end
@@ -6648,6 +6843,22 @@ end
 arch flagstone
 x 30
 y 28
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 30
+y 28
+level 12
+unaggressive 1
 end
 arch flagstone
 x 30
@@ -6847,14 +7058,10 @@ x 31
 y 16
 end
 arch blocked
-msg
-endmsg
 x 31
 y 17
 end
 arch blocked
-msg
-endmsg
 x 31
 y 18
 end
@@ -6994,6 +7201,22 @@ arch flagstone
 x 31
 y 38
 end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 31
+y 38
+level 12
+unaggressive 1
+end
 arch flagstone
 x 31
 y 39
@@ -7106,8 +7329,6 @@ x 32
 y 17
 end
 arch blocked
-msg
-endmsg
 x 32
 y 18
 end
@@ -7229,6 +7450,17 @@ end
 arch dragon_steak
 x 32
 y 34
+end
+arch Cwyvern
+name Bhrakarak
+x 32
+y 34
+carrying 100
+arch key2
+name Blood Stone
+slaying blood_stone
+face pretty_ruby.111
+end
 end
 arch detector
 slaying blood stone
@@ -7559,6 +7791,22 @@ arch flagstone
 x 33
 y 39
 end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 33
+y 39
+level 12
+unaggressive 1
+end
 arch flagstone
 x 33
 y 40
@@ -7740,6 +7988,22 @@ end
 arch flagstone
 x 34
 y 27
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 34
+y 27
+level 12
+unaggressive 1
 end
 arch flagstone
 x 34
@@ -8262,6 +8526,30 @@ arch flagstone
 x 36
 y 16
 end
+arch dragonman
+name Hhraknarak
+msg
+@match hi|hello
+Ahh... Welcome to my shop,small one...
+I keep much tasty flesh here,buy some
+and be made stronger. However,you need
+a blood stone to be able to buy the
+really good flesh.
+@match flesh|food|steaks|meat
+I get my good meat from the bodies of
+unfortunate creatures who were killed
+in our battle pit.
+endmsg
+hp 1500
+maxhp 1500
+exp 80000
+wc -8
+ac -7
+x 36
+y 16
+level 12
+unaggressive 1
+end
 arch flagstone
 x 36
 y 17
@@ -8370,6 +8658,22 @@ end
 arch flagstone
 x 36
 y 37
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 36
+y 37
+level 12
+unaggressive 1
 end
 arch flagstone
 x 36
@@ -8672,6 +8976,22 @@ end
 arch flagstone
 x 37
 y 31
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 37
+y 31
+level 12
+unaggressive 1
 end
 arch flagstone
 x 37
@@ -9006,6 +9326,22 @@ end
 arch flagstone
 x 38
 y 34
+end
+arch dragonman
+name draconian
+msg
+@match *
+Fight! Fight!
+endmsg
+hp 1000
+maxhp 1000
+exp 80000
+wc -8
+ac -7
+x 38
+y 34
+level 12
+unaggressive 1
 end
 arch flagstone
 x 38
@@ -9825,362 +10161,4 @@ end
 arch flagstone
 x 41
 y 41
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Move along,puny creature...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 6
-y 12
-level 12
-unaggressive 1
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-This is our city,worm.
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 7
-y 4
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Hisss...
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 8
-y 20
-level 12
-unaggressive 1
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Do you wish to enter our great
-city,worm?
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 10
-y 6
-level 12
-unaggressive 1
-end
-arch dragonman
-name higher draconian guard
-msg
-@match *
-Move along,tiny creature.
-endmsg
-hp 5000
-maxhp 5000
-exp 100000
-wc -20
-ac -18
-x 10
-y 37
-level 25
-unaggressive 1
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Move along,puny creature...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 12
-y 12
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Hisss...
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 13
-y 31
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Hisss...
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 14
-y 22
-level 12
-unaggressive 1
-end
-arch dragonman
-name Zhithlarath
-msg
-@match *
-Ahh... Welcome to my shop,little one...
-Do look around,you just might see
-something your size...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 23
-y 17
-level 12
-unaggressive 1
-end
-arch dragonman
-name lesser draconian guard
-msg
-@match *
-Move along,puny creature...
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 24
-y 23
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 27
-y 30
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 28
-y 36
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 29
-y 33
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 30
-y 28
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 31
-y 38
-level 12
-unaggressive 1
-end
-arch Cwyvern
-name Bhrakarak
-x 32
-y 34
-carrying 100
-arch key2
-name Blood Stone
-slaying blood_stone
-face pretty_ruby.111
-end
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 33
-y 39
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 34
-y 27
-level 12
-unaggressive 1
-end
-arch dragonman
-name Hhraknarak
-msg
-@match hi|hello
-Ahh... Welcome to my shop,small one...
-I keep much tasty flesh here,buy some
-and be made stronger. However,you need
-a blood stone to be able to buy the
-really good flesh.
-@match flesh|food|steaks|meat
-I get my good meat from the bodies of
-unfortunate creatures who were killed
-in our battle pit.
-endmsg
-hp 1500
-maxhp 1500
-exp 80000
-wc -8
-ac -7
-x 36
-y 16
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 36
-y 37
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 37
-y 31
-level 12
-unaggressive 1
-end
-arch dragonman
-name draconian
-msg
-@match *
-Fight! Fight!
-endmsg
-hp 1000
-maxhp 1000
-exp 80000
-wc -8
-ac -7
-x 38
-y 34
-level 12
-unaggressive 1
 end

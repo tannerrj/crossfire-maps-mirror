@@ -1,11 +1,12 @@
 arch map
 name king
-msg
-Created:  2000-07-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 26
+msg
+Created:  2000-07-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -1413,9 +1414,9 @@ name the Dwarven King
 msg
 @match *
 Welcome to my Kingdom!
-What is your desire? 
+What is your desire?
 @match treasure|adventure|quest
-Ahhh... 
+Ahhh...
 You wish for an adventure. Well you've
 come to the right place! My kingdom is
 under threat because of the Necromancer
@@ -1594,7 +1595,7 @@ of the Skulls,the necromancer had to
 build a new tower. He named it the Dark
 Tower. The necromancer has enormous
 skill at the black arts of death,so it
-shall be hard to defeat him. 
+shall be hard to defeat him.
 endmsg
 Pow 22
 hp 380
@@ -1606,12 +1607,12 @@ y 3
 speed 0.400000
 carrying 19000
 will_apply 1
-can_apply 1
 can_use_scroll 1
-can_use_wand 1
 can_use_armour 1
 can_use_weapon 1
 can_use_rod 1
+can_apply 1
+can_use_wand 1
 arch cloak
 name dwarven cloak
 resist_physical 1

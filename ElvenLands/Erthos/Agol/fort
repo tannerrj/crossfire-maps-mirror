@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2002-03-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 16
+msg
+Created:  2002-03-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1387,7 +1389,7 @@ Agol! The greatest and deadliest
 prisoners and captives are kept
 here,where they shall stay for the
 rest of their lives. There is no
-escape!   
+escape!
 endmsg
 x 14
 y 4
@@ -1707,7 +1709,7 @@ Agol! The greatest and deadliest
 prisoners and captives are kept
 here,where they shall stay for the
 rest of their lives. There is no
-escape!   
+escape!
 endmsg
 x 17
 y 4

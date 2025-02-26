@@ -1,13 +1,14 @@
 arch map
 name <untitled>
-msg
-Created:  2002-02-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+difficulty 15
+region elvenlands
+darkness 1
 width 33
 height 33
-difficulty 15
-darkness 1
+msg
+Created:  2002-02-08 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -765,9 +766,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 3
 y 3
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -821,9 +822,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 3
 y 8
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -913,9 +914,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 3
 y 18
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -969,9 +970,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 3
 y 23
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -1025,9 +1026,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 3
 y 28
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -1171,9 +1172,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 4
 y 13
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -1841,9 +1842,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8750
 x 7
 y 6
+carrying 8750
 arch torch_1
 end
 arch longbow
@@ -1887,9 +1888,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 7
 y 12
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -1939,9 +1940,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 7
 y 20
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -1991,9 +1992,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 7
 y 28
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -2210,9 +2211,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 9
 y 3
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -2254,9 +2255,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 9
 y 9
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -2302,9 +2303,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8750
 x 9
 y 16
+carrying 8750
 arch torch_1
 end
 arch longbow
@@ -2356,9 +2357,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8750
 x 9
 y 24
+carrying 8750
 arch torch_1
 end
 arch longbow
@@ -2858,9 +2859,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 11
 y 29
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -2960,9 +2961,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 12
 y 8
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3174,9 +3175,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 13
 y 3
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3266,9 +3267,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 13
 y 13
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3322,9 +3323,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 13
 y 18
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3378,9 +3379,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 13
 y 23
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3680,9 +3681,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 14
 y 28
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -3958,9 +3959,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 15
 y 30
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -4218,10 +4219,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 16
 y 28
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 16
@@ -4603,10 +4604,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 18
 y 24
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 18
@@ -4640,10 +4641,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 18
 y 30
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 18
@@ -4761,10 +4762,10 @@ Wis 10
 exp 10000
 wc -50
 ac -40
-carrying 8600
-unaggressive 1
 x 19
 y 15
+carrying 8600
+unaggressive 1
 arch key2
 slaying BlackOrc1
 end
@@ -4835,10 +4836,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 19
 y 22
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 19
@@ -4943,34 +4944,34 @@ x 20
 y 8
 end
 arch locked_door1
+slaying BlackOrc1
 msg
 This door has three locks upon it
 endmsg
-slaying BlackOrc1
 x 20
 y 8
 end
 arch locked_door1
+slaying BlackOrc1
 msg
 This door has three locks upon it
 endmsg
-slaying BlackOrc1
 x 20
 y 8
 end
 arch locked_door1
+slaying BlackOrc1
 msg
 This door has three locks upon it
 endmsg
-slaying BlackOrc1
 x 20
 y 8
 end
 arch locked_door1
+slaying BlackOrc1
 msg
 This door has three locks upon it
 endmsg
-slaying BlackOrc1
 x 20
 y 8
 end
@@ -5100,9 +5101,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 20
 y 28
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -5434,10 +5435,10 @@ msg
 endmsg
 Wis 10
 wc -50
-carrying 8600
-unaggressive 1
 x 22
 y 12
+carrying 8600
+unaggressive 1
 arch key2
 slaying BlackOrc1
 end
@@ -5472,18 +5473,18 @@ x 22
 y 17
 end
 arch spikes_closed
-connected 1
 x 22
 y 17
+connected 1
 end
 arch dungeon_floor
 x 22
 y 18
 end
 arch spikes_closed
-connected 1
 x 22
 y 18
+connected 1
 end
 arch dungeon_floor
 x 22
@@ -5573,10 +5574,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 22
 y 29
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 22
@@ -5709,9 +5710,9 @@ x 23
 y 17
 end
 arch spikes_closed
-connected 1
 x 23
 y 17
+connected 1
 end
 arch dungeon_floor
 x 23
@@ -5722,9 +5723,9 @@ x 23
 y 19
 end
 arch igate_open_1
-connected 1
 x 23
 y 19
+connected 1
 end
 arch dungeon_floor
 x 23
@@ -5758,10 +5759,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 23
 y 25
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 23
@@ -5906,27 +5907,27 @@ x 24
 y 17
 end
 arch spikes_closed
-connected 1
 x 24
 y 17
+connected 1
 end
 arch dungeon_floor
 x 24
 y 18
 end
 arch button_handle
-connected 1
 x 24
 y 18
+connected 1
 end
 arch dungeon_floor
 x 24
 y 19
 end
 arch igate_open_1
-connected 1
 x 24
 y 19
+connected 1
 end
 arch dungeon_floor
 x 24
@@ -5948,10 +5949,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 24
 y 22
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 24
@@ -5985,10 +5986,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 24
 y 28
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 24
@@ -6096,10 +6097,10 @@ We will crush you.
 endmsg
 Wis 10
 wc -50
-carrying 6100
-unaggressive 1
 x 25
 y 12
+carrying 6100
+unaggressive 1
 arch key2
 slaying BlackOrc1
 end
@@ -6132,18 +6133,18 @@ x 25
 y 17
 end
 arch spikes_closed
-connected 1
 x 25
 y 17
+connected 1
 end
 arch dungeon_floor
 x 25
 y 18
 end
 arch spikes_closed
-connected 1
 x 25
 y 18
+connected 1
 end
 arch dungeon_floor
 x 25
@@ -6433,9 +6434,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 26
 y 29
+carrying 8250
 arch longbow
 end
 arch arrow
@@ -6713,11 +6714,11 @@ exp 8000
 dam 25
 wc -20
 ac -20
+x 28
+y 5
 level 20
 carrying 36675
 unaggressive 1
-x 28
-y 5
 arch note
 msg
 F: Spec T: Graalork
@@ -6733,13 +6734,13 @@ slaying REDKEY1
 end
 arch broadsword_2
 name DragonSmasher
+slaying dragon
 msg
 This sword has runes on it.
 Made by the ancient dwarves of
 Morgria. This sword shall smash and
 crush dragons.
 endmsg
-slaying dragon
 dam 12
 material 64
 magic 4
@@ -6805,10 +6806,10 @@ Prepare for oblivion!
 endmsg
 Wis 10
 wc -50
-carrying 15600
-unaggressive 1
 x 28
 y 15
+carrying 15600
+unaggressive 1
 arch key2
 slaying BlackOrc1
 end
@@ -6869,10 +6870,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 28
 y 23
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 28
@@ -6918,10 +6919,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 28
 y 30
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 28
@@ -7073,10 +7074,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 29
 y 22
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 29
@@ -7102,10 +7103,10 @@ exp 5000
 dam 8
 wc -15
 ac -15
-speed 1.500000
-level 20
 x 29
 y 26
+speed 1.500000
+level 20
 end
 arch dungeon_floor
 x 29
@@ -7327,9 +7328,9 @@ exp 5000
 dam 15
 wc -20
 ac -16
-carrying 8250
 x 30
 y 28
+carrying 8250
 arch longbow
 end
 arch arrow

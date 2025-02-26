@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  2001-05-24 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2001-05-24 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -530,7 +531,7 @@ msg
 @match *
 Welcome to my armour emporium. If you
 can't find what you what you want in the shop,
-you might do well to visit my brother's smith 
+you might do well to visit my brother's smith
 shop nearby.
 endmsg
 x 6

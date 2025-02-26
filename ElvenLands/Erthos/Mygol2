@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  2001-06-29 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2001-06-29 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -115,9 +116,9 @@ x 1
 y 2
 end
 arch bookshelf
-no_pick 1
 x 1
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 1
@@ -140,9 +141,9 @@ x 1
 y 4
 end
 arch figurine_generic
-level 20
 x 1
 y 4
+level 20
 end
 arch dungeon_floor
 x 1
@@ -153,9 +154,9 @@ x 1
 y 5
 end
 arch largenugget
-nrof 5
 x 1
 y 5
+nrof 5
 end
 arch dungeon_floor
 x 1
@@ -226,9 +227,9 @@ x 2
 y 2
 end
 arch bookshelf
-no_pick 1
 x 2
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 2
@@ -302,9 +303,9 @@ x 3
 y 2
 end
 arch bookshelf
-no_pick 1
 x 3
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 3
@@ -331,9 +332,9 @@ x 3
 y 5
 end
 arch potion_fire2
-no_pick 1
 x 3
 y 5
+no_pick 1
 end
 arch dungeon_floor
 x 3
@@ -399,9 +400,9 @@ x 4
 y 2
 end
 arch bookshelf
-no_pick 1
 x 4
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 4
@@ -492,9 +493,9 @@ x 5
 y 2
 end
 arch bookshelf
-no_pick 1
 x 5
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 5
@@ -596,9 +597,9 @@ x 6
 y 2
 end
 arch bookshelf
-no_pick 1
 x 6
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 6
@@ -734,14 +735,14 @@ maxsp 150
 dam 15
 wc -40
 ac -25
+x 7
+y 4
 resist_physical 95
 resist_magic 90
 resist_fire 95
 resist_electricity 95
 resist_cold 95
 resist_poison 95
-x 7
-y 4
 arch magnifier
 end
 arch claypipe
@@ -753,14 +754,14 @@ y 5
 end
 arch cauldron
 name Mygol's cauldron
-material 256
-no_pick 1
-identified 1
 slaying mygol_cauldron_key
-container 1000000
-magic 10
 x 7
 y 5
+material 256
+magic 10
+container 1000000
+no_pick 1
+identified 1
 end
 arch dungeon_floor
 x 7
@@ -830,9 +831,9 @@ x 8
 y 2
 end
 arch bookshelf
-no_pick 1
 x 8
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 8
@@ -859,11 +860,11 @@ x 8
 y 5
 end
 arch potion_generic
-glow_radius 3
-level 30
 sp 201
 x 8
 y 5
+level 30
+glow_radius 3
 end
 arch dungeon_floor
 x 8
@@ -933,9 +934,9 @@ x 9
 y 2
 end
 arch bookshelf
-no_pick 1
 x 9
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 9
@@ -1037,9 +1038,9 @@ x 10
 y 2
 end
 arch bookshelf
-no_pick 1
 x 10
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 10
@@ -1130,9 +1131,9 @@ x 11
 y 2
 end
 arch bookshelf
-no_pick 1
 x 11
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 11
@@ -1222,9 +1223,9 @@ x 12
 y 2
 end
 arch bookshelf
-no_pick 1
 x 12
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 12
@@ -1298,9 +1299,9 @@ x 13
 y 2
 end
 arch bookshelf
-no_pick 1
 x 13
 y 2
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1311,9 +1312,9 @@ x 13
 y 3
 end
 arch min_oil
-nrof 3
 x 13
 y 3
+nrof 3
 end
 arch dungeon_floor
 x 13
@@ -1324,9 +1325,9 @@ x 13
 y 4
 end
 arch potion_cold2
-no_pick 1
 x 13
 y 4
+no_pick 1
 end
 arch dungeon_floor
 x 13
@@ -1337,9 +1338,9 @@ x 13
 y 5
 end
 arch water
-nrof 10
 x 13
 y 5
+nrof 10
 end
 arch dungeon_floor
 x 13

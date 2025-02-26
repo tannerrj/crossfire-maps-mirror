@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  2001-03-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 16
+msg
+Created:  2001-03-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch afloor_right
 end
@@ -93,8 +94,8 @@ arch wall_2_2_1
 y 14
 end
 arch spikes_open
-connected 10
 y 15
+connected 10
 end
 arch boulder
 y 15
@@ -235,9 +236,9 @@ x 1
 y 14
 end
 arch button_plate
-connected 2
 x 1
 y 15
+connected 2
 end
 arch afloor_right
 x 2
@@ -286,9 +287,9 @@ maxhp 600
 dam 15
 wc 8
 ac -9
-unaggressive 1
 x 2
 y 6
+unaggressive 1
 end
 arch afloor_right
 x 2
@@ -311,9 +312,9 @@ maxhp 600
 dam 15
 wc 8
 ac -9
-unaggressive 1
 x 2
 y 8
+unaggressive 1
 end
 arch afloor_right
 x 2
@@ -340,10 +341,10 @@ maxhp 600
 dam 15
 wc -15
 ac -12
-level 12
-carrying 83500
 x 2
 y 11
+level 12
+carrying 83500
 arch axe_5
 end
 arch high_boots
@@ -363,9 +364,9 @@ y 12
 end
 arch greater_dwarven_guard
 name Grendos
-unaggressive 1
 x 2
 y 12
+unaggressive 1
 end
 arch afloor_right
 x 2
@@ -422,10 +423,10 @@ end
 arch altar
 slaying gem
 food 100
-invisible 1
-connected 1
 x 3
 y 6
+invisible 1
+connected 1
 end
 arch afloor_right
 x 3
@@ -436,9 +437,9 @@ x 3
 y 7
 end
 arch igate_closed_1
-connected 1
 x 3
 y 7
+connected 1
 end
 arch afloor_right
 x 3
@@ -493,7 +494,6 @@ y 13
 end
 arch dwarf_p
 name Ouron the Mace
-type 0
 Str 35
 Dex 26
 Con 22
@@ -508,12 +508,13 @@ maxsp 80
 dam 10
 wc -21
 ac -20
+x 3
+y 13
+type 0
 carrying 44000
 monster 1
 unaggressive 1
 can_use_rod 1
-x 3
-y 13
 arch high_boots
 end
 arch cloak
@@ -585,10 +586,10 @@ end
 arch altar
 slaying gem
 food 100
-invisible 1
-connected 1
 x 4
 y 6
+invisible 1
+connected 1
 end
 arch afloor_right
 x 4
@@ -599,9 +600,9 @@ x 4
 y 7
 end
 arch igate_closed_1
-connected 1
 x 4
 y 7
+connected 1
 end
 arch afloor_right
 x 4
@@ -619,9 +620,9 @@ arch magic_ear
 msg
 @match mace|Mace
 endmsg
-connected 10
 x 4
 y 10
+connected 10
 end
 arch chair_2.1
 x 4
@@ -650,10 +651,10 @@ the gang pulls out their weapons)
 Uh,oh. What have you gotten yourself
 into?
 endmsg
-carrying 20000
-unaggressive 1
 x 4
 y 10
+carrying 20000
+unaggressive 1
 arch mithril_chainmail
 end
 arch cloak
@@ -719,9 +720,9 @@ y 1
 end
 arch wall_2_1_1
 name bar
-blocksview 0
 x 5
 y 1
+blocksview 0
 end
 arch swall_2_1_1
 x 5
@@ -733,9 +734,9 @@ y 2
 end
 arch wall_2_2_1
 name bar
-blocksview 0
 x 5
 y 2
+blocksview 0
 end
 arch swall_2_2_1
 x 5
@@ -785,9 +786,9 @@ maxhp 600
 dam 15
 wc 8
 ac -9
-unaggressive 1
 x 5
 y 6
+unaggressive 1
 end
 arch afloor_right
 x 5
@@ -810,9 +811,9 @@ maxhp 600
 dam 15
 wc 8
 ac -9
-unaggressive 1
 x 5
 y 8
+unaggressive 1
 end
 arch afloor_right
 x 5
@@ -862,11 +863,11 @@ exp 10000
 dam 10
 wc -15
 ac -10
+x 5
+y 12
 carrying 47625
 unaggressive 1
 can_use_horn 1
-x 5
-y 12
 arch arrow
 dam 10
 nrof 25
@@ -910,9 +911,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 6
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 6
@@ -1002,9 +1003,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 7
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 7
@@ -1114,9 +1115,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 8
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 8
@@ -1198,9 +1199,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 9
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 9
@@ -1232,9 +1233,9 @@ never seen such nasty lookin
 characters in this tavern as those in
 that private room o'er there.
 endmsg
-friendly 1
 x 9
 y 3
+friendly 1
 end
 arch afloor_right
 x 9
@@ -1280,10 +1281,10 @@ It is unthinkable. I only hope my good
 cousin is safe and still holds his
 sanity.
 endmsg
-friendly 1
-random_movement 0
 x 9
 y 11
+friendly 1
+random_movement 0
 end
 arch afloor_right
 x 9
@@ -1312,10 +1313,10 @@ of the dwarven towns in the mines.
 Many fine dwarves have lost their
 wits. They run mad outside the towns.
 endmsg
-friendly 1
-random_movement 0
 x 9
 y 13
+friendly 1
+random_movement 0
 end
 arch afloor_right
 x 9
@@ -1345,9 +1346,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 10
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 10
@@ -1458,9 +1459,9 @@ y 2
 end
 arch wall_2_1_2
 name bar
-blocksview 0
 x 11
 y 2
+blocksview 0
 end
 arch swall_2_1_2
 x 11
@@ -1558,9 +1559,9 @@ y 1
 end
 arch wall_2_1_1
 name bar
-blocksview 0
 x 12
 y 1
+blocksview 0
 end
 arch swall_2_1_1
 x 12
@@ -1572,9 +1573,9 @@ y 2
 end
 arch wall_2_2_4
 name bar
-blocksview 0
 x 12
 y 2
+blocksview 0
 end
 arch swall_2_2_4
 x 12
@@ -2181,9 +2182,9 @@ y 1
 end
 arch lesser_dwarven_guard
 name tough looking mercenary
-friendly 1
 x 18
 y 1
+friendly 1
 end
 arch afloor_right
 x 18
@@ -2301,10 +2302,10 @@ msg
 @match *
 Hullo. Mighty good beer,eh?
 endmsg
-friendly 1
-random_movement 0
 x 19
 y 2
+friendly 1
+random_movement 0
 end
 arch afloor_right
 x 19

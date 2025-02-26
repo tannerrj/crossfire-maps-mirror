@@ -1,11 +1,12 @@
 arch map
 name city
-msg
-Created:  2001-07-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 61
 height 44
+msg
+Created:  2001-07-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -861,7 +862,15 @@ arch sea
 x 5
 y 5
 end
+arch fishboat
+x 5
+y 5
+end
 arch sea
+x 5
+y 6
+end
+arch s_ship
 x 5
 y 6
 end
@@ -873,7 +882,15 @@ arch sea
 x 5
 y 8
 end
+arch fishboat
+x 5
+y 8
+end
 arch sea
+x 5
+y 9
+end
+arch s_ship
 x 5
 y 9
 end
@@ -885,11 +902,19 @@ arch sea
 x 5
 y 11
 end
+arch s_ship
+x 5
+y 11
+end
 arch sea
 x 5
 y 12
 end
 arch sea
+x 5
+y 13
+end
+arch fishboat
 x 5
 y 13
 end
@@ -953,11 +978,23 @@ arch sea
 x 5
 y 28
 end
+arch fishboat
+x 5
+y 28
+end
 arch sea
 x 5
 y 29
 end
+arch fishboat
+x 5
+y 29
+end
 arch sea
+x 5
+y 30
+end
+arch s_ship
 x 5
 y 30
 end
@@ -1028,6 +1065,10 @@ arch sea
 x 6
 y 3
 end
+arch s_ship
+x 6
+y 3
+end
 arch sea
 x 6
 y 4
@@ -1072,11 +1113,19 @@ arch sea
 x 6
 y 14
 end
+arch s_ship
+x 6
+y 14
+end
 arch sea
 x 6
 y 15
 end
 arch sea
+x 6
+y 16
+end
+arch fishboat
 x 6
 y 16
 end
@@ -1088,11 +1137,19 @@ arch sea
 x 6
 y 18
 end
+arch s_ship
+x 6
+y 18
+end
 arch sea
 x 6
 y 19
 end
 arch sea
+x 6
+y 20
+end
+arch fishboat
 x 6
 y 20
 end
@@ -1117,6 +1174,10 @@ x 6
 y 25
 end
 arch sea
+x 6
+y 26
+end
+arch s_ship
 x 6
 y 26
 end
@@ -1315,11 +1376,19 @@ arch sea
 x 7
 y 22
 end
+arch s_ship
+x 7
+y 22
+end
 arch sea
 x 7
 y 23
 end
 arch sea
+x 7
+y 24
+end
+arch fishboat
 x 7
 y 24
 end
@@ -1823,6 +1892,10 @@ arch dungeon_floor
 x 9
 y 8
 end
+arch barn
+x 9
+y 8
+end
 arch dungeon_floor
 x 9
 y 9
@@ -1832,6 +1905,10 @@ x 9
 y 10
 end
 arch dungeon_floor
+x 9
+y 11
+end
+arch barn
 x 9
 y 11
 end
@@ -1847,6 +1924,10 @@ arch cobblestones2
 x 9
 y 14
 end
+arch city_tower
+x 9
+y 14
+end
 arch dungeon_floor
 x 9
 y 15
@@ -1856,6 +1937,10 @@ x 9
 y 16
 end
 arch dungeon_floor
+x 9
+y 17
+end
+arch inn
 x 9
 y 17
 end
@@ -1928,6 +2013,10 @@ x 9
 y 29
 end
 arch dungeon_floor
+x 9
+y 30
+end
+arch barn
 x 9
 y 30
 end
@@ -2153,6 +2242,10 @@ x 10
 y 22
 end
 arch dungeon_floor
+x 10
+y 23
+end
+arch barrack_up
 x 10
 y 23
 end
@@ -2560,6 +2653,10 @@ arch dungeon_floor
 x 12
 y 8
 end
+arch barn
+x 12
+y 8
+end
 arch dungeon_floor
 x 12
 y 9
@@ -2569,6 +2666,10 @@ x 12
 y 10
 end
 arch dungeon_floor
+x 12
+y 11
+end
+arch barn
 x 12
 y 11
 end
@@ -2584,6 +2685,10 @@ arch dungeon_floor
 x 12
 y 14
 end
+arch barn
+x 12
+y 14
+end
 arch dungeon_floor
 x 12
 y 15
@@ -2596,6 +2701,10 @@ arch dungeon_floor
 x 12
 y 17
 end
+arch barn
+x 12
+y 17
+end
 arch dungeon_floor
 x 12
 y 18
@@ -2605,6 +2714,10 @@ x 12
 y 19
 end
 arch dungeon_floor
+x 12
+y 20
+end
+arch barn
 x 12
 y 20
 end
@@ -2624,6 +2737,10 @@ arch dungeon_floor
 x 12
 y 24
 end
+arch barn
+x 12
+y 24
+end
 arch dungeon_floor
 x 12
 y 25
@@ -2636,6 +2753,10 @@ arch dungeon_floor
 x 12
 y 27
 end
+arch barn
+x 12
+y 27
+end
 arch dungeon_floor
 x 12
 y 28
@@ -2645,6 +2766,10 @@ x 12
 y 29
 end
 arch dungeon_floor
+x 12
+y 30
+end
+arch barn
 x 12
 y 30
 end
@@ -3270,6 +3395,10 @@ arch flagstone
 x 14
 y 38
 end
+arch s_tower1
+x 14
+y 38
+end
 arch flagstone
 x 14
 y 39
@@ -3968,6 +4097,11 @@ x 17
 y 14
 end
 arch dungeon_floor
+x 17
+y 15
+end
+arch courthouse
+name royal resting
 x 17
 y 15
 end
@@ -4253,6 +4387,11 @@ x 18
 y 17
 end
 arch dungeon_floor
+x 18
+y 18
+end
+arch courthouse
+name Great Library of Erthos
 x 18
 y 18
 end
@@ -4798,6 +4937,11 @@ arch dungeon_floor
 x 20
 y 15
 end
+arch t_house2
+name Grand Museum of Erthos
+x 20
+y 15
+end
 arch dungeon_floor
 x 20
 y 16
@@ -5112,6 +5256,11 @@ x 21
 y 25
 end
 arch flagstone
+x 21
+y 26
+end
+arch s_tower2
+name golden tower
 x 21
 y 26
 end
@@ -5723,6 +5872,11 @@ arch dungeon_floor
 x 24
 y 14
 end
+arch a_civic
+name Dwarven Council Building
+x 24
+y 14
+end
 arch dungeon_floor
 x 24
 y 15
@@ -5740,6 +5894,11 @@ x 24
 y 18
 end
 arch dungeon_floor
+x 24
+y 19
+end
+arch a_civic
+name great dwarven bank
 x 24
 y 19
 end
@@ -5776,6 +5935,11 @@ x 24
 y 25
 end
 arch flagstone
+x 24
+y 26
+end
+arch s_tower2
+name golden tower
 x 24
 y 26
 end
@@ -9774,6 +9938,10 @@ arch dungeon_floor
 x 39
 y 4
 end
+arch collesium
+x 39
+y 4
+end
 arch dungeon_floor
 x 39
 y 5
@@ -10223,6 +10391,10 @@ arch dungeon_floor
 x 40
 y 37
 end
+arch slum1
+x 40
+y 37
+end
 arch dungeon_floor
 x 40
 y 38
@@ -10232,6 +10404,10 @@ x 40
 y 39
 end
 arch dungeon_floor
+x 40
+y 40
+end
+arch slum1
 x 40
 y 40
 end
@@ -10478,6 +10654,10 @@ arch dungeon_floor
 x 41
 y 37
 end
+arch slum2
+x 41
+y 37
+end
 arch dungeon_floor
 x 41
 y 38
@@ -10487,6 +10667,10 @@ x 41
 y 39
 end
 arch dungeon_floor
+x 41
+y 40
+end
+arch slum2
 x 41
 y 40
 end
@@ -10737,6 +10921,10 @@ arch dungeon_floor
 x 42
 y 37
 end
+arch slum2
+x 42
+y 37
+end
 arch dungeon_floor
 x 42
 y 38
@@ -10746,6 +10934,10 @@ x 42
 y 39
 end
 arch dungeon_floor
+x 42
+y 40
+end
+arch slum2
 x 42
 y 40
 end
@@ -10986,6 +11178,10 @@ arch dungeon_floor
 x 43
 y 37
 end
+arch slum3
+x 43
+y 37
+end
 arch dungeon_floor
 x 43
 y 38
@@ -10995,6 +11191,10 @@ x 43
 y 39
 end
 arch dungeon_floor
+x 43
+y 40
+end
+arch slum3
 x 43
 y 40
 end
@@ -11214,6 +11414,10 @@ x 44
 y 39
 end
 arch dungeon_floor
+x 44
+y 40
+end
+arch slum1
 x 44
 y 40
 end
@@ -11478,6 +11682,10 @@ x 45
 y 39
 end
 arch dungeon_floor
+x 45
+y 40
+end
+arch slum2
 x 45
 y 40
 end
@@ -11728,6 +11936,10 @@ arch dungeon_floor
 x 46
 y 37
 end
+arch slum1
+x 46
+y 37
+end
 arch dungeon_floor
 x 46
 y 38
@@ -11737,6 +11949,10 @@ x 46
 y 39
 end
 arch dungeon_floor
+x 46
+y 40
+end
+arch slum2
 x 46
 y 40
 end
@@ -12001,6 +12217,10 @@ arch dungeon_floor
 x 47
 y 37
 end
+arch slum2
+x 47
+y 37
+end
 arch dungeon_floor
 x 47
 y 38
@@ -12010,6 +12230,10 @@ x 47
 y 39
 end
 arch dungeon_floor
+x 47
+y 40
+end
+arch slum3
 x 47
 y 40
 end
@@ -12225,6 +12449,10 @@ arch dungeon_floor
 x 48
 y 37
 end
+arch slum2
+x 48
+y 37
+end
 arch dungeon_floor
 x 48
 y 38
@@ -12383,6 +12611,10 @@ arch cobblestones2
 x 49
 y 14
 end
+arch keep
+x 49
+y 14
+end
 arch cobblestones2
 x 49
 y 15
@@ -12404,6 +12636,10 @@ x 49
 y 19
 end
 arch cobblestones2
+x 49
+y 20
+end
+arch keep
 x 49
 y 20
 end
@@ -12541,6 +12777,10 @@ x 49
 y 36
 end
 arch dungeon_floor
+x 49
+y 37
+end
+arch slum3
 x 49
 y 37
 end
@@ -13419,20 +13659,14 @@ x 52
 y 10
 end
 arch blocked
-msg
-endmsg
 x 52
 y 11
 end
 arch blocked
-msg
-endmsg
 x 52
 y 12
 end
 arch blocked
-msg
-endmsg
 x 52
 y 13
 end
@@ -13477,26 +13711,18 @@ x 52
 y 21
 end
 arch blocked
-msg
-endmsg
 x 52
 y 22
 end
 arch blocked
-msg
-endmsg
 x 52
 y 23
 end
 arch blocked
-msg
-endmsg
 x 52
 y 24
 end
 arch blocked
-msg
-endmsg
 x 52
 y 25
 end
@@ -13635,11 +13861,18 @@ end
 arch cobblestones2
 x 53
 end
+arch mountain_2
+x 53
+end
 arch cobblestones2
 x 53
 y 1
 end
 arch cobblestones2
+x 53
+y 2
+end
+arch mountain_2
 x 53
 y 2
 end
@@ -13651,11 +13884,19 @@ arch cobblestones2
 x 53
 y 4
 end
+arch mountain_2
+x 53
+y 4
+end
 arch cobblestones2
 x 53
 y 5
 end
 arch cobblestones2
+x 53
+y 6
+end
+arch mountain_2
 x 53
 y 6
 end
@@ -13667,6 +13908,10 @@ arch cobblestones2
 x 53
 y 8
 end
+arch mountain_2
+x 53
+y 8
+end
 arch cobblestones2
 x 53
 y 9
@@ -13675,11 +13920,19 @@ arch cobblestones2
 x 53
 y 10
 end
+arch mountain_2
+x 53
+y 10
+end
 arch cobblestones2
 x 53
 y 11
 end
 arch cobblestones2
+x 53
+y 12
+end
+arch mountain_2
 x 53
 y 12
 end
@@ -13731,11 +13984,19 @@ arch cobblestones2
 x 53
 y 22
 end
+arch mountain_2
+x 53
+y 22
+end
 arch cobblestones2
 x 53
 y 23
 end
 arch cobblestones2
+x 53
+y 24
+end
+arch mountain_2
 x 53
 y 24
 end
@@ -14017,11 +14278,18 @@ end
 arch cobblestones2
 x 55
 end
+arch mountain_2
+x 55
+end
 arch cobblestones2
 x 55
 y 1
 end
 arch cobblestones2
+x 55
+y 2
+end
+arch mountain_2
 x 55
 y 2
 end
@@ -14033,11 +14301,19 @@ arch cobblestones2
 x 55
 y 4
 end
+arch mountain_2
+x 55
+y 4
+end
 arch cobblestones2
 x 55
 y 5
 end
 arch cobblestones2
+x 55
+y 6
+end
+arch mountain_2
 x 55
 y 6
 end
@@ -14049,6 +14325,10 @@ arch cobblestones2
 x 55
 y 8
 end
+arch mountain_2
+x 55
+y 8
+end
 arch cobblestones2
 x 55
 y 9
@@ -14057,11 +14337,19 @@ arch cobblestones2
 x 55
 y 10
 end
+arch mountain_2
+x 55
+y 10
+end
 arch cobblestones2
 x 55
 y 11
 end
 arch cobblestones2
+x 55
+y 12
+end
+arch mountain_2
 x 55
 y 12
 end
@@ -14113,11 +14401,19 @@ arch cobblestones2
 x 55
 y 22
 end
+arch mountain_2
+x 55
+y 22
+end
 arch cobblestones2
 x 55
 y 23
 end
 arch cobblestones2
+x 55
+y 24
+end
+arch mountain_2
 x 55
 y 24
 end
@@ -14383,11 +14679,18 @@ end
 arch cobblestones2
 x 57
 end
+arch mountain_2
+x 57
+end
 arch cobblestones2
 x 57
 y 1
 end
 arch cobblestones2
+x 57
+y 2
+end
+arch mountain_2
 x 57
 y 2
 end
@@ -14399,11 +14702,19 @@ arch cobblestones2
 x 57
 y 4
 end
+arch mountain_2
+x 57
+y 4
+end
 arch cobblestones2
 x 57
 y 5
 end
 arch cobblestones2
+x 57
+y 6
+end
+arch mountain_2
 x 57
 y 6
 end
@@ -14415,6 +14726,10 @@ arch cobblestones2
 x 57
 y 8
 end
+arch mountain_2
+x 57
+y 8
+end
 arch cobblestones2
 x 57
 y 9
@@ -14423,11 +14738,19 @@ arch cobblestones2
 x 57
 y 10
 end
+arch mountain_2
+x 57
+y 10
+end
 arch cobblestones2
 x 57
 y 11
 end
 arch cobblestones2
+x 57
+y 12
+end
+arch mountain_2
 x 57
 y 12
 end
@@ -14479,11 +14802,19 @@ arch cobblestones2
 x 57
 y 22
 end
+arch mountain_2
+x 57
+y 22
+end
 arch cobblestones2
 x 57
 y 23
 end
 arch cobblestones2
+x 57
+y 24
+end
+arch mountain_2
 x 57
 y 24
 end
@@ -14749,11 +15080,18 @@ end
 arch cobblestones2
 x 59
 end
+arch mountain_2
+x 59
+end
 arch cobblestones2
 x 59
 y 1
 end
 arch cobblestones2
+x 59
+y 2
+end
+arch mountain_2
 x 59
 y 2
 end
@@ -14765,11 +15103,19 @@ arch cobblestones2
 x 59
 y 4
 end
+arch mountain_2
+x 59
+y 4
+end
 arch cobblestones2
 x 59
 y 5
 end
 arch cobblestones2
+x 59
+y 6
+end
+arch mountain_2
 x 59
 y 6
 end
@@ -14781,6 +15127,10 @@ arch cobblestones2
 x 59
 y 8
 end
+arch mountain_2
+x 59
+y 8
+end
 arch cobblestones2
 x 59
 y 9
@@ -14789,11 +15139,19 @@ arch cobblestones2
 x 59
 y 10
 end
+arch mountain_2
+x 59
+y 10
+end
 arch cobblestones2
 x 59
 y 11
 end
 arch cobblestones2
+x 59
+y 12
+end
+arch mountain_2
 x 59
 y 12
 end
@@ -14845,11 +15203,19 @@ arch cobblestones2
 x 59
 y 22
 end
+arch mountain_2
+x 59
+y 22
+end
 arch cobblestones2
 x 59
 y 23
 end
 arch cobblestones2
+x 59
+y 24
+end
+arch mountain_2
 x 59
 y 24
 end
@@ -15153,383 +15519,4 @@ end
 arch cobblestones2
 x 60
 y 43
-end
-arch fishboat
-x 5
-y 5
-end
-arch s_ship
-x 5
-y 6
-end
-arch fishboat
-x 5
-y 8
-end
-arch s_ship
-x 5
-y 9
-end
-arch s_ship
-x 5
-y 11
-end
-arch fishboat
-x 5
-y 13
-end
-arch fishboat
-x 5
-y 28
-end
-arch fishboat
-x 5
-y 29
-end
-arch s_ship
-x 5
-y 30
-end
-arch s_ship
-x 6
-y 3
-end
-arch s_ship
-x 6
-y 14
-end
-arch fishboat
-x 6
-y 16
-end
-arch s_ship
-x 6
-y 18
-end
-arch fishboat
-x 6
-y 20
-end
-arch s_ship
-x 6
-y 26
-end
-arch s_ship
-x 7
-y 22
-end
-arch fishboat
-x 7
-y 24
-end
-arch barn
-x 9
-y 8
-end
-arch barn
-x 9
-y 11
-end
-arch city_tower
-x 9
-y 14
-end
-arch inn
-x 9
-y 17
-end
-arch barn
-x 9
-y 30
-end
-arch barrack_up
-x 10
-y 23
-end
-arch barn
-x 12
-y 8
-end
-arch barn
-x 12
-y 11
-end
-arch barn
-x 12
-y 14
-end
-arch barn
-x 12
-y 17
-end
-arch barn
-x 12
-y 20
-end
-arch barn
-x 12
-y 24
-end
-arch barn
-x 12
-y 27
-end
-arch barn
-x 12
-y 30
-end
-arch s_tower1
-x 14
-y 38
-end
-arch courthouse
-name royal resting
-x 17
-y 15
-end
-arch courthouse
-name Great Library of Erthos
-x 18
-y 18
-end
-arch t_house2
-name Grand Museum of Erthos
-x 20
-y 15
-end
-arch s_tower2
-name golden tower
-x 21
-y 26
-end
-arch a_civic
-name Dwarven Council Building
-x 24
-y 14
-end
-arch a_civic
-name great dwarven bank
-x 24
-y 19
-end
-arch s_tower2
-name golden tower
-x 24
-y 26
-end
-arch collesium
-x 39
-y 4
-end
-arch slum1
-x 40
-y 37
-end
-arch slum1
-x 40
-y 40
-end
-arch slum2
-x 41
-y 37
-end
-arch slum2
-x 41
-y 40
-end
-arch slum2
-x 42
-y 37
-end
-arch slum2
-x 42
-y 40
-end
-arch slum3
-x 43
-y 37
-end
-arch slum3
-x 43
-y 40
-end
-arch slum1
-x 44
-y 40
-end
-arch slum2
-x 45
-y 40
-end
-arch slum1
-x 46
-y 37
-end
-arch slum2
-x 46
-y 40
-end
-arch slum2
-x 47
-y 37
-end
-arch slum3
-x 47
-y 40
-end
-arch slum2
-x 48
-y 37
-end
-arch keep
-x 49
-y 14
-end
-arch keep
-x 49
-y 20
-end
-arch slum3
-x 49
-y 37
-end
-arch mountain_2
-x 53
-end
-arch mountain_2
-x 53
-y 2
-end
-arch mountain_2
-x 53
-y 4
-end
-arch mountain_2
-x 53
-y 6
-end
-arch mountain_2
-x 53
-y 8
-end
-arch mountain_2
-x 53
-y 10
-end
-arch mountain_2
-x 53
-y 12
-end
-arch mountain_2
-x 53
-y 22
-end
-arch mountain_2
-x 53
-y 24
-end
-arch mountain_2
-x 55
-end
-arch mountain_2
-x 55
-y 2
-end
-arch mountain_2
-x 55
-y 4
-end
-arch mountain_2
-x 55
-y 6
-end
-arch mountain_2
-x 55
-y 8
-end
-arch mountain_2
-x 55
-y 10
-end
-arch mountain_2
-x 55
-y 12
-end
-arch mountain_2
-x 55
-y 22
-end
-arch mountain_2
-x 55
-y 24
-end
-arch mountain_2
-x 57
-end
-arch mountain_2
-x 57
-y 2
-end
-arch mountain_2
-x 57
-y 4
-end
-arch mountain_2
-x 57
-y 6
-end
-arch mountain_2
-x 57
-y 8
-end
-arch mountain_2
-x 57
-y 10
-end
-arch mountain_2
-x 57
-y 12
-end
-arch mountain_2
-x 57
-y 22
-end
-arch mountain_2
-x 57
-y 24
-end
-arch mountain_2
-x 59
-end
-arch mountain_2
-x 59
-y 2
-end
-arch mountain_2
-x 59
-y 4
-end
-arch mountain_2
-x 59
-y 6
-end
-arch mountain_2
-x 59
-y 8
-end
-arch mountain_2
-x 59
-y 10
-end
-arch mountain_2
-x 59
-y 12
-end
-arch mountain_2
-x 59
-y 22
-end
-arch mountain_2
-x 59
-y 24
 end
