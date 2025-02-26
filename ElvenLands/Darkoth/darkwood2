@@ -1,12 +1,13 @@
 arch map
 name darkwood2
-msg
-Created:  1999-12-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
+darkness 2
 width 32
 height 31
-darkness 2
+msg
+Created:  1999-12-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dirtfloor
 end
@@ -1074,6 +1075,10 @@ arch dirtfloor
 x 5
 y 25
 end
+arch giant
+x 5
+y 25
+end
 arch dirtfloor
 x 5
 y 26
@@ -1422,6 +1427,10 @@ arch dirtfloor
 x 7
 y 22
 end
+arch giant
+x 7
+y 22
+end
 arch dirtfloor
 x 7
 y 23
@@ -1676,6 +1685,10 @@ arch dirtfloor
 x 9
 y 3
 end
+arch giant
+x 9
+y 3
+end
 arch dirtfloor
 x 9
 y 4
@@ -1792,6 +1805,10 @@ arch dirtfloor
 x 9
 y 25
 end
+arch giant
+x 9
+y 25
+end
 arch dirtfloor
 x 9
 y 26
@@ -1854,6 +1871,10 @@ x 10
 y 5
 end
 arch dirtfloor
+x 10
+y 6
+end
+arch giant
 x 10
 y 6
 end
@@ -2512,6 +2533,10 @@ arch dirtfloor
 x 13
 y 23
 end
+arch giant
+x 13
+y 23
+end
 arch dirtfloor
 x 13
 y 24
@@ -2568,6 +2593,10 @@ x 14
 y 3
 end
 arch dirtfloor
+x 14
+y 4
+end
+arch giant
 x 14
 y 4
 end
@@ -2773,6 +2802,10 @@ x 15
 y 9
 end
 arch dirtfloor
+x 15
+y 10
+end
+arch giant
 x 15
 y 10
 end
@@ -3154,6 +3187,10 @@ arch dirtfloor
 x 17
 y 11
 end
+arch giant
+x 17
+y 11
+end
 arch dirtfloor
 x 17
 y 12
@@ -3679,6 +3716,10 @@ arch dirtfloor
 x 20
 y 4
 end
+arch giant
+x 20
+y 4
+end
 arch dirtfloor
 x 20
 y 5
@@ -3977,6 +4018,10 @@ x 21
 y 24
 end
 arch dirtfloor
+x 21
+y 25
+end
+arch giant
 x 21
 y 25
 end
@@ -4334,6 +4379,10 @@ arch dirtfloor
 x 23
 y 22
 end
+arch giant
+x 23
+y 22
+end
 arch dirtfloor
 x 23
 y 23
@@ -4418,6 +4467,10 @@ x 24
 y 6
 end
 arch dirtfloor
+x 24
+y 7
+end
+arch giant
 x 24
 y 7
 end
@@ -4524,6 +4577,10 @@ x 24
 y 25
 end
 arch dirtfloor
+x 24
+y 26
+end
+arch giant
 x 24
 y 26
 end
@@ -4904,6 +4961,11 @@ end
 arch dirtfloor
 x 26
 y 25
+end
+arch mine_secret_2_1
+x 26
+y 25
+connected 1
 end
 arch dirtfloor
 x 26
@@ -5704,6 +5766,10 @@ arch dirtfloor
 x 30
 y 3
 end
+arch giant
+x 30
+y 3
+end
 arch dirtfloor
 x 30
 y 4
@@ -5792,7 +5858,7 @@ arch faerie_dragon
 name peaceful dragon
 msg
 @match hi|hello
-You deserve a rest... 
+You deserve a rest...
 endmsg
 dam 30
 x 30
@@ -6078,69 +6144,4 @@ x 31
 y 30
 walk_on 0
 no_pass 1
-end
-arch giant
-x 5
-y 25
-end
-arch giant
-x 7
-y 22
-end
-arch giant
-x 9
-y 3
-end
-arch giant
-x 9
-y 25
-end
-arch giant
-x 10
-y 6
-end
-arch giant
-x 13
-y 23
-end
-arch giant
-x 14
-y 4
-end
-arch giant
-x 15
-y 10
-end
-arch giant
-x 17
-y 11
-end
-arch giant
-x 20
-y 4
-end
-arch giant
-x 21
-y 25
-end
-arch giant
-x 23
-y 22
-end
-arch giant
-x 24
-y 7
-end
-arch giant
-x 24
-y 26
-end
-arch mine_secret_2_1
-x 26
-y 25
-connected 1
-end
-arch giant
-x 30
-y 3
 end

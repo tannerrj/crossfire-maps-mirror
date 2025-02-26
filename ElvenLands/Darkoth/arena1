@@ -1,11 +1,12 @@
 arch map
 name arena1
-msg
-Created:  1999-12-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 57
 height 56
+msg
+Created:  1999-12-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -358,6 +359,13 @@ x 1
 y 1
 connected 1
 end
+arch baslic
+x 1
+y 1
+carrying 500
+arch elvenboots
+end
+end
 arch cobblestones2
 x 1
 y 2
@@ -416,6 +424,13 @@ x 1
 y 8
 connected 1
 end
+arch gaelotroll
+x 1
+y 8
+carrying 500
+arch elvenboots
+end
+end
 arch cobblestones2
 x 1
 y 9
@@ -447,6 +462,13 @@ x 1
 y 12
 connected 1
 end
+arch big_dragon
+x 1
+y 12
+carrying 500
+arch elvenboots
+end
+end
 arch cobblestones2
 x 1
 y 13
@@ -473,6 +495,13 @@ sp 14
 x 1
 y 15
 connected 1
+end
+arch big_elec
+x 1
+y 15
+carrying 500
+arch elvenboots
+end
 end
 arch cobblestones2
 x 1
@@ -504,6 +533,10 @@ sp 40
 x 1
 y 19
 connected 1
+end
+arch chinese_dragon
+x 1
+y 19
 end
 arch cobblestones2
 x 1
@@ -727,6 +760,13 @@ end
 arch cobblestones2
 x 2
 y 5
+end
+arch titan
+x 2
+y 5
+carrying 500
+arch elvenboots
+end
 end
 arch cobblestones2
 x 2
@@ -7650,6 +7690,10 @@ arch dirtfloor
 x 25
 y 19
 end
+arch big_elec
+x 25
+y 19
+end
 arch dirtfloor
 x 25
 y 20
@@ -7659,6 +7703,10 @@ x 25
 y 21
 end
 arch dirtfloor
+x 25
+y 22
+end
+arch big_elec
 x 25
 y 22
 end
@@ -7674,6 +7722,10 @@ arch dirtfloor
 x 25
 y 25
 end
+arch big_elec
+x 25
+y 25
+end
 arch dirtfloor
 x 25
 y 26
@@ -7683,6 +7735,10 @@ x 25
 y 27
 end
 arch dirtfloor
+x 25
+y 28
+end
+arch big_elec
 x 25
 y 28
 end
@@ -7698,6 +7754,10 @@ arch dirtfloor
 x 25
 y 31
 end
+arch big_elec
+x 25
+y 31
+end
 arch dirtfloor
 x 25
 y 32
@@ -7707,6 +7767,10 @@ x 25
 y 33
 end
 arch dirtfloor
+x 25
+y 34
+end
+arch big_elec
 x 25
 y 34
 end
@@ -8170,6 +8234,10 @@ arch dirtfloor
 x 27
 y 19
 end
+arch big_elec
+x 27
+y 19
+end
 arch dirtfloor
 x 27
 y 20
@@ -8179,6 +8247,10 @@ x 27
 y 21
 end
 arch dirtfloor
+x 27
+y 22
+end
+arch big_elec
 x 27
 y 22
 end
@@ -8194,6 +8266,10 @@ arch dirtfloor
 x 27
 y 25
 end
+arch big_elec
+x 27
+y 25
+end
 arch dirtfloor
 x 27
 y 26
@@ -8203,6 +8279,10 @@ x 27
 y 27
 end
 arch dirtfloor
+x 27
+y 28
+end
+arch big_elec
 x 27
 y 28
 end
@@ -8218,6 +8298,10 @@ arch dirtfloor
 x 27
 y 31
 end
+arch big_elec
+x 27
+y 31
+end
 arch dirtfloor
 x 27
 y 32
@@ -8227,6 +8311,10 @@ x 27
 y 33
 end
 arch dirtfloor
+x 27
+y 34
+end
+arch big_elec
 x 27
 y 34
 end
@@ -8673,6 +8761,10 @@ arch dirtfloor
 x 29
 y 19
 end
+arch big_elec
+x 29
+y 19
+end
 arch dirtfloor
 x 29
 y 20
@@ -8682,6 +8774,10 @@ x 29
 y 21
 end
 arch dirtfloor
+x 29
+y 22
+end
+arch big_elec
 x 29
 y 22
 end
@@ -8697,6 +8793,10 @@ arch dirtfloor
 x 29
 y 25
 end
+arch big_elec
+x 29
+y 25
+end
 arch dirtfloor
 x 29
 y 26
@@ -8706,6 +8806,10 @@ x 29
 y 27
 end
 arch dirtfloor
+x 29
+y 28
+end
+arch big_elec
 x 29
 y 28
 end
@@ -8721,6 +8825,10 @@ arch dirtfloor
 x 29
 y 31
 end
+arch big_elec
+x 29
+y 31
+end
 arch dirtfloor
 x 29
 y 32
@@ -8730,6 +8838,10 @@ x 29
 y 33
 end
 arch dirtfloor
+x 29
+y 34
+end
+arch big_elec
 x 29
 y 34
 end
@@ -9197,6 +9309,10 @@ arch dirtfloor
 x 31
 y 19
 end
+arch big_elec
+x 31
+y 19
+end
 arch dirtfloor
 x 31
 y 20
@@ -9206,6 +9322,10 @@ x 31
 y 21
 end
 arch dirtfloor
+x 31
+y 22
+end
+arch big_elec
 x 31
 y 22
 end
@@ -9221,6 +9341,10 @@ arch dirtfloor
 x 31
 y 25
 end
+arch big_elec
+x 31
+y 25
+end
 arch dirtfloor
 x 31
 y 26
@@ -9230,6 +9354,10 @@ x 31
 y 27
 end
 arch dirtfloor
+x 31
+y 28
+end
+arch big_elec
 x 31
 y 28
 end
@@ -9245,6 +9373,10 @@ arch dirtfloor
 x 31
 y 31
 end
+arch big_elec
+x 31
+y 31
+end
 arch dirtfloor
 x 31
 y 32
@@ -9254,6 +9386,10 @@ x 31
 y 33
 end
 arch dirtfloor
+x 31
+y 34
+end
+arch big_elec
 x 31
 y 34
 end
@@ -9718,6 +9854,10 @@ arch dirtfloor
 x 33
 y 19
 end
+arch big_elec
+x 33
+y 19
+end
 arch dirtfloor
 x 33
 y 20
@@ -9727,6 +9867,10 @@ x 33
 y 21
 end
 arch dirtfloor
+x 33
+y 22
+end
+arch big_elec
 x 33
 y 22
 end
@@ -9742,6 +9886,10 @@ arch dirtfloor
 x 33
 y 25
 end
+arch big_elec
+x 33
+y 25
+end
 arch dirtfloor
 x 33
 y 26
@@ -9751,6 +9899,10 @@ x 33
 y 27
 end
 arch dirtfloor
+x 33
+y 28
+end
+arch big_elec
 x 33
 y 28
 end
@@ -9766,6 +9918,10 @@ arch dirtfloor
 x 33
 y 31
 end
+arch big_elec
+x 33
+y 31
+end
 arch dirtfloor
 x 33
 y 32
@@ -9775,6 +9931,10 @@ x 33
 y 33
 end
 arch dirtfloor
+x 33
+y 34
+end
+arch big_elec
 x 33
 y 34
 end
@@ -16211,163 +16371,4 @@ end
 arch cwall_2_2_4
 x 56
 y 55
-end
-arch baslic
-x 1
-y 1
-carrying 500
-arch elvenboots
-end
-end
-arch gaelotroll
-x 1
-y 8
-carrying 500
-arch elvenboots
-end
-end
-arch big_dragon
-x 1
-y 12
-carrying 500
-arch elvenboots
-end
-end
-arch big_elec
-x 1
-y 15
-carrying 500
-arch elvenboots
-end
-end
-arch chinese_dragon
-x 1
-y 19
-end
-arch titan
-x 2
-y 5
-carrying 500
-arch elvenboots
-end
-end
-arch big_elec
-x 25
-y 19
-end
-arch big_elec
-x 25
-y 22
-end
-arch big_elec
-x 25
-y 25
-end
-arch big_elec
-x 25
-y 28
-end
-arch big_elec
-x 25
-y 31
-end
-arch big_elec
-x 25
-y 34
-end
-arch big_elec
-x 27
-y 19
-end
-arch big_elec
-x 27
-y 22
-end
-arch big_elec
-x 27
-y 25
-end
-arch big_elec
-x 27
-y 28
-end
-arch big_elec
-x 27
-y 31
-end
-arch big_elec
-x 27
-y 34
-end
-arch big_elec
-x 29
-y 19
-end
-arch big_elec
-x 29
-y 22
-end
-arch big_elec
-x 29
-y 25
-end
-arch big_elec
-x 29
-y 28
-end
-arch big_elec
-x 29
-y 31
-end
-arch big_elec
-x 29
-y 34
-end
-arch big_elec
-x 31
-y 19
-end
-arch big_elec
-x 31
-y 22
-end
-arch big_elec
-x 31
-y 25
-end
-arch big_elec
-x 31
-y 28
-end
-arch big_elec
-x 31
-y 31
-end
-arch big_elec
-x 31
-y 34
-end
-arch big_elec
-x 33
-y 19
-end
-arch big_elec
-x 33
-y 22
-end
-arch big_elec
-x 33
-y 25
-end
-arch big_elec
-x 33
-y 28
-end
-arch big_elec
-x 33
-y 31
-end
-arch big_elec
-x 33
-y 34
 end

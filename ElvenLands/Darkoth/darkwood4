@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 32
+msg
+Created:  2001-05-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch magic_mouth
 msg
@@ -647,6 +649,10 @@ arch dungeon_floor
 x 3
 y 5
 end
+arch giant
+x 3
+y 5
+end
 arch dungeon_floor
 x 3
 y 6
@@ -660,6 +666,10 @@ x 3
 y 8
 end
 arch dungeon_floor
+x 3
+y 9
+end
+arch giant
 x 3
 y 9
 end
@@ -679,11 +689,19 @@ arch dungeon_floor
 x 3
 y 13
 end
+arch giant
+x 3
+y 13
+end
 arch dungeon_floor
 x 3
 y 14
 end
 arch dungeon_floor
+x 3
+y 15
+end
+arch giant
 x 3
 y 15
 end
@@ -825,6 +843,10 @@ arch dungeon_floor
 x 4
 y 4
 end
+arch giant
+x 4
+y 4
+end
 arch dungeon_floor
 x 4
 y 5
@@ -837,11 +859,19 @@ arch dungeon_floor
 x 4
 y 7
 end
+arch giant
+x 4
+y 7
+end
 arch dungeon_floor
 x 4
 y 8
 end
 arch dungeon_floor
+x 4
+y 9
+end
+arch giant
 x 4
 y 9
 end
@@ -854,6 +884,10 @@ x 4
 y 11
 end
 arch dungeon_floor
+x 4
+y 12
+end
+arch giant
 x 4
 y 12
 end
@@ -983,6 +1017,10 @@ arch dungeon_floor
 x 5
 y 4
 end
+arch giant
+x 5
+y 4
+end
 arch dungeon_floor
 x 5
 y 5
@@ -1019,11 +1057,19 @@ arch dungeon_floor
 x 5
 y 13
 end
+arch giant
+x 5
+y 13
+end
 arch dungeon_floor
 x 5
 y 14
 end
 arch dungeon_floor
+x 5
+y 15
+end
+arch giant
 x 5
 y 15
 end
@@ -1181,6 +1227,10 @@ arch dungeon_floor
 x 6
 y 8
 end
+arch giant
+x 6
+y 8
+end
 arch dungeon_floor
 x 6
 y 9
@@ -1190,6 +1240,10 @@ x 6
 y 10
 end
 arch dungeon_floor
+x 6
+y 11
+end
+arch giant
 x 6
 y 11
 end
@@ -1331,6 +1385,10 @@ arch dungeon_floor
 x 7
 y 6
 end
+arch giant
+x 7
+y 6
+end
 arch dungeon_floor
 x 7
 y 7
@@ -1351,6 +1409,10 @@ arch dungeon_floor
 x 7
 y 11
 end
+arch giant
+x 7
+y 11
+end
 arch dungeon_floor
 x 7
 y 12
@@ -1360,6 +1422,10 @@ x 7
 y 13
 end
 arch dungeon_floor
+x 7
+y 14
+end
+arch giant
 x 7
 y 14
 end
@@ -1525,6 +1591,10 @@ arch dungeon_floor
 x 8
 y 9
 end
+arch giant
+x 8
+y 9
+end
 arch dungeon_floor
 x 8
 y 10
@@ -1667,6 +1737,10 @@ arch dungeon_floor
 x 9
 y 5
 end
+arch giant
+x 9
+y 5
+end
 arch dungeon_floor
 x 9
 y 6
@@ -1691,11 +1765,19 @@ arch dungeon_floor
 x 9
 y 11
 end
+arch giant
+x 9
+y 11
+end
 arch dungeon_floor
 x 9
 y 12
 end
 arch dungeon_floor
+x 9
+y 13
+end
+arch giant
 x 9
 y 13
 end
@@ -1857,11 +1939,19 @@ arch dungeon_floor
 x 10
 y 7
 end
+arch giant
+x 10
+y 7
+end
 arch dungeon_floor
 x 10
 y 8
 end
 arch dungeon_floor
+x 10
+y 9
+end
+arch troll
 x 10
 y 9
 end
@@ -1877,6 +1967,10 @@ arch dungeon_floor
 x 10
 y 12
 end
+arch troll
+x 10
+y 12
+end
 arch dungeon_floor
 x 10
 y 13
@@ -1886,6 +1980,10 @@ x 10
 y 14
 end
 arch dungeon_floor
+x 10
+y 15
+end
+arch troll
 x 10
 y 15
 end
@@ -2447,6 +2545,10 @@ arch dungeon_floor
 x 13
 y 9
 end
+arch troll
+x 13
+y 9
+end
 arch dungeon_floor
 x 13
 y 10
@@ -2459,6 +2561,10 @@ arch dungeon_floor
 x 13
 y 12
 end
+arch troll
+x 13
+y 12
+end
 arch dungeon_floor
 x 13
 y 13
@@ -2468,6 +2574,10 @@ x 13
 y 14
 end
 arch dungeon_floor
+x 13
+y 15
+end
+arch troll
 x 13
 y 15
 end
@@ -3018,6 +3128,10 @@ arch dungeon_floor
 x 16
 y 9
 end
+arch troll
+x 16
+y 9
+end
 arch dungeon_floor
 x 16
 y 10
@@ -3030,6 +3144,10 @@ arch dungeon_floor
 x 16
 y 12
 end
+arch troll
+x 16
+y 12
+end
 arch dungeon_floor
 x 16
 y 13
@@ -3039,6 +3157,10 @@ x 16
 y 14
 end
 arch dungeon_floor
+x 16
+y 15
+end
+arch troll
 x 16
 y 15
 end
@@ -3103,7 +3225,7 @@ slaying chocolate
 msg
 *Rumble* *Rumble*
   The door lifts open.
-   YUM,hmmm,*crunch* *chew* *chew* 
+   YUM,hmmm,*crunch* *chew* *chew*
  Delicious!
 endmsg
 food 1
@@ -3121,7 +3243,7 @@ slaying chocolate
 msg
 *Rumble* *Rumble*
   The door lifts open.
-   YUM,hmmm,*crunch* *chew* *chew* 
+   YUM,hmmm,*crunch* *chew* *chew*
  Delicious!
 endmsg
 food 1
@@ -3320,13 +3442,13 @@ arch kobold
 msg
 @match *
 HeeHee,you can't get me to open the
-door! 
+door!
 @match i can|I can
 No you can't! HeeHee!
 @match bribe|Bribe
 You bum! I won't accept
 anything,besides,you don't have
-anything that i would like. 
+anything that i would like.
 @match gold|treasure|gems|money
 Bah! I don't need your stinkin money.
 @match chocolate|Chocolate
@@ -3334,7 +3456,7 @@ Hmmmm. Did you say chocolate!?
 I LOVE chocolate!
 @match yes|Yes
 Yes! YES!! YES!!! YES!!! YES!!!
-PLEASE!!! 
+PLEASE!!!
    *His mouth is watering*
 
 
@@ -3351,7 +3473,7 @@ slaying chocolate
 msg
 *Rumble* *Rumble*
   The door lifts open.
-   YUM,hmmm,*crunch* *chew* *chew* 
+   YUM,hmmm,*crunch* *chew* *chew*
  Delicious!
 endmsg
 food 1
@@ -3664,6 +3786,10 @@ arch dungeon_floor
 x 19
 y 9
 end
+arch troll
+x 19
+y 9
+end
 arch dungeon_floor
 x 19
 y 10
@@ -3676,6 +3802,10 @@ arch dungeon_floor
 x 19
 y 12
 end
+arch troll
+x 19
+y 12
+end
 arch dungeon_floor
 x 19
 y 13
@@ -3685,6 +3815,10 @@ x 19
 y 14
 end
 arch dungeon_floor
+x 19
+y 15
+end
+arch troll
 x 19
 y 15
 end
@@ -4178,6 +4312,10 @@ arch dungeon_floor
 x 22
 y 4
 end
+arch giant
+x 22
+y 4
+end
 arch dungeon_floor
 x 22
 y 5
@@ -4187,6 +4325,10 @@ x 22
 y 6
 end
 arch dungeon_floor
+x 22
+y 7
+end
+arch giant
 x 22
 y 7
 end
@@ -4206,6 +4348,10 @@ arch dungeon_floor
 x 22
 y 11
 end
+arch giant
+x 22
+y 11
+end
 arch dungeon_floor
 x 22
 y 12
@@ -4215,6 +4361,10 @@ x 22
 y 13
 end
 arch dungeon_floor
+x 22
+y 14
+end
+arch giant
 x 22
 y 14
 end
@@ -4356,6 +4506,10 @@ arch dungeon_floor
 x 23
 y 9
 end
+arch giant
+x 23
+y 9
+end
 arch dungeon_floor
 x 23
 y 10
@@ -4550,6 +4704,10 @@ arch dungeon_floor
 x 24
 y 12
 end
+arch giant
+x 24
+y 12
+end
 arch dungeon_floor
 x 24
 y 13
@@ -4559,6 +4717,10 @@ x 24
 y 14
 end
 arch dungeon_floor
+x 24
+y 15
+end
+arch giant
 x 24
 y 15
 end
@@ -4680,11 +4842,19 @@ arch dungeon_floor
 x 25
 y 5
 end
+arch giant
+x 25
+y 5
+end
 arch dungeon_floor
 x 25
 y 6
 end
 arch dungeon_floor
+x 25
+y 7
+end
+arch giant
 x 25
 y 7
 end
@@ -4713,6 +4883,10 @@ x 25
 y 13
 end
 arch dungeon_floor
+x 25
+y 14
+end
+arch giant
 x 25
 y 14
 end
@@ -4875,6 +5049,10 @@ x 26
 y 9
 end
 arch dungeon_floor
+x 26
+y 10
+end
+arch giant
 x 26
 y 10
 end
@@ -5021,6 +5199,10 @@ arch dungeon_floor
 x 27
 y 7
 end
+arch giant
+x 27
+y 7
+end
 arch dungeon_floor
 x 27
 y 8
@@ -5042,6 +5224,10 @@ x 27
 y 12
 end
 arch dungeon_floor
+x 27
+y 13
+end
+arch giant
 x 27
 y 13
 end
@@ -5188,6 +5374,10 @@ arch dungeon_floor
 x 28
 y 4
 end
+arch giant
+x 28
+y 4
+end
 arch dungeon_floor
 x 28
 y 5
@@ -5212,6 +5402,10 @@ arch dungeon_floor
 x 28
 y 10
 end
+arch giant
+x 28
+y 10
+end
 arch dungeon_floor
 x 28
 y 11
@@ -5229,6 +5423,10 @@ x 28
 y 14
 end
 arch dungeon_floor
+x 28
+y 15
+end
+arch giant
 x 28
 y 15
 end
@@ -5375,6 +5573,10 @@ x 29
 y 11
 end
 arch dungeon_floor
+x 29
+y 12
+end
+arch giant
 x 29
 y 12
 end
@@ -5997,204 +6199,4 @@ end
 arch cwall_2_2_4
 x 31
 y 31
-end
-arch giant
-x 3
-y 5
-end
-arch giant
-x 3
-y 9
-end
-arch giant
-x 3
-y 13
-end
-arch giant
-x 3
-y 15
-end
-arch giant
-x 4
-y 4
-end
-arch giant
-x 4
-y 7
-end
-arch giant
-x 4
-y 9
-end
-arch giant
-x 4
-y 12
-end
-arch giant
-x 5
-y 4
-end
-arch giant
-x 5
-y 13
-end
-arch giant
-x 5
-y 15
-end
-arch giant
-x 6
-y 8
-end
-arch giant
-x 6
-y 11
-end
-arch giant
-x 7
-y 6
-end
-arch giant
-x 7
-y 11
-end
-arch giant
-x 7
-y 14
-end
-arch giant
-x 8
-y 9
-end
-arch giant
-x 9
-y 5
-end
-arch giant
-x 9
-y 11
-end
-arch giant
-x 9
-y 13
-end
-arch giant
-x 10
-y 7
-end
-arch troll
-x 10
-y 9
-end
-arch troll
-x 10
-y 12
-end
-arch troll
-x 10
-y 15
-end
-arch troll
-x 13
-y 9
-end
-arch troll
-x 13
-y 12
-end
-arch troll
-x 13
-y 15
-end
-arch troll
-x 16
-y 9
-end
-arch troll
-x 16
-y 12
-end
-arch troll
-x 16
-y 15
-end
-arch troll
-x 19
-y 9
-end
-arch troll
-x 19
-y 12
-end
-arch troll
-x 19
-y 15
-end
-arch giant
-x 22
-y 4
-end
-arch giant
-x 22
-y 7
-end
-arch giant
-x 22
-y 11
-end
-arch giant
-x 22
-y 14
-end
-arch giant
-x 23
-y 9
-end
-arch giant
-x 24
-y 12
-end
-arch giant
-x 24
-y 15
-end
-arch giant
-x 25
-y 5
-end
-arch giant
-x 25
-y 7
-end
-arch giant
-x 25
-y 14
-end
-arch giant
-x 26
-y 10
-end
-arch giant
-x 27
-y 7
-end
-arch giant
-x 27
-y 13
-end
-arch giant
-x 28
-y 4
-end
-arch giant
-x 28
-y 10
-end
-arch giant
-x 28
-y 15
-end
-arch giant
-x 29
-y 12
 end

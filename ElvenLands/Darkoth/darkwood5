@@ -1,11 +1,12 @@
 arch map
 name darkwood5
-msg
-Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 32
 height 32
+msg
+Created:  2001-05-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -513,6 +514,10 @@ arch dungeon_floor
 x 2
 y 4
 end
+arch gaelotroll
+x 2
+y 4
+end
 arch dungeon_floor
 x 2
 y 5
@@ -522,6 +527,10 @@ x 2
 y 6
 end
 arch dungeon_floor
+x 2
+y 7
+end
+arch gaelotroll
 x 2
 y 7
 end
@@ -538,6 +547,10 @@ x 2
 y 10
 end
 arch dungeon_floor
+x 2
+y 11
+end
+arch gaelotroll
 x 2
 y 11
 end
@@ -715,6 +728,10 @@ arch dungeon_floor
 x 3
 y 15
 end
+arch troll
+x 3
+y 15
+end
 arch dungeon_floor
 x 3
 y 16
@@ -760,6 +777,10 @@ x 3
 y 24
 end
 arch dungeon_floor
+x 3
+y 25
+end
+arch troll
 x 3
 y 25
 end
@@ -826,6 +847,10 @@ x 4
 y 3
 end
 arch dungeon_floor
+x 4
+y 4
+end
+arch gaelotroll
 x 4
 y 4
 end
@@ -999,6 +1024,10 @@ arch dungeon_floor
 x 5
 y 7
 end
+arch gaelotroll
+x 5
+y 7
+end
 arch dungeon_floor
 x 5
 y 8
@@ -1015,6 +1044,10 @@ arch dungeon_floor
 x 5
 y 11
 end
+arch troll
+x 5
+y 11
+end
 arch dungeon_floor
 x 5
 y 12
@@ -1023,11 +1056,19 @@ arch dungeon_floor
 x 5
 y 13
 end
+arch troll
+x 5
+y 13
+end
 arch dungeon_floor
 x 5
 y 14
 end
 arch dungeon_floor
+x 5
+y 15
+end
+arch troll
 x 5
 y 15
 end
@@ -1056,6 +1097,10 @@ x 5
 y 19
 end
 arch dungeon_floor
+x 5
+y 20
+end
+arch troll
 x 5
 y 20
 end
@@ -1142,6 +1187,10 @@ x 6
 y 3
 end
 arch dungeon_floor
+x 6
+y 4
+end
+arch gaelotroll
 x 6
 y 4
 end
@@ -1315,6 +1364,10 @@ arch dungeon_floor
 x 7
 y 7
 end
+arch gaelotroll
+x 7
+y 7
+end
 arch dungeon_floor
 x 7
 y 8
@@ -1324,6 +1377,10 @@ x 7
 y 9
 end
 arch dungeon_floor
+x 7
+y 10
+end
+arch troll
 x 7
 y 10
 end
@@ -1339,11 +1396,19 @@ arch dungeon_floor
 x 7
 y 13
 end
+arch troll
+x 7
+y 13
+end
 arch dungeon_floor
 x 7
 y 14
 end
 arch dungeon_floor
+x 7
+y 15
+end
+arch troll
 x 7
 y 15
 end
@@ -1553,6 +1618,10 @@ arch dungeon_floor
 x 8
 y 25
 end
+arch troll
+x 8
+y 25
+end
 arch dungeon_floor
 x 8
 y 26
@@ -1619,6 +1688,10 @@ arch dungeon_floor
 x 9
 y 4
 end
+arch gaelotroll
+x 9
+y 4
+end
 arch dungeon_floor
 x 9
 y 5
@@ -1628,6 +1701,10 @@ x 9
 y 6
 end
 arch dungeon_floor
+x 9
+y 7
+end
+arch gaelotroll
 x 9
 y 7
 end
@@ -1647,6 +1724,10 @@ arch dungeon_floor
 x 9
 y 11
 end
+arch troll
+x 9
+y 11
+end
 arch dungeon_floor
 x 9
 y 12
@@ -1656,6 +1737,10 @@ x 9
 y 13
 end
 arch dungeon_floor
+x 9
+y 14
+end
+arch troll
 x 9
 y 14
 end
@@ -1842,6 +1927,10 @@ x 10
 y 18
 end
 arch dungeon_floor
+x 10
+y 19
+end
+arch troll
 x 10
 y 19
 end
@@ -2289,6 +2378,10 @@ arch dungeon_floor
 x 12
 y 22
 end
+arch troll
+x 12
+y 22
+end
 arch dungeon_floor
 x 12
 y 23
@@ -2590,6 +2683,10 @@ x 14
 y 8
 end
 arch dungeon_floor
+x 14
+y 9
+end
+arch gaelotroll
 x 14
 y 9
 end
@@ -2965,11 +3062,19 @@ arch dungeon_floor
 x 16
 y 8
 end
+arch troll
+x 16
+y 8
+end
 arch dungeon_floor
 x 16
 y 9
 end
 arch dungeon_floor
+x 16
+y 10
+end
+arch troll
 x 16
 y 10
 end
@@ -3244,6 +3349,10 @@ x 17
 y 21
 end
 arch dungeon_floor
+x 17
+y 22
+end
+arch troll
 x 17
 y 22
 end
@@ -3785,6 +3894,10 @@ arch dungeon_floor
 x 20
 y 4
 end
+arch gaelotroll
+x 20
+y 4
+end
 arch dungeon_floor
 x 20
 y 5
@@ -3797,6 +3910,10 @@ arch dungeon_floor
 x 20
 y 7
 end
+arch gaelotroll
+x 20
+y 7
+end
 arch dungeon_floor
 x 20
 y 8
@@ -3806,6 +3923,10 @@ x 20
 y 9
 end
 arch dungeon_floor
+x 20
+y 10
+end
+arch troll
 x 20
 y 10
 end
@@ -3850,6 +3971,10 @@ x 20
 y 18
 end
 arch dungeon_floor
+x 20
+y 19
+end
+arch troll
 x 20
 y 19
 end
@@ -3983,6 +4108,10 @@ arch dungeon_floor
 x 21
 y 14
 end
+arch troll
+x 21
+y 14
+end
 arch dungeon_floor
 x 21
 y 15
@@ -4101,6 +4230,10 @@ arch dungeon_floor
 x 22
 y 4
 end
+arch gaelotroll
+x 22
+y 4
+end
 arch dungeon_floor
 x 22
 y 5
@@ -4110,6 +4243,10 @@ x 22
 y 6
 end
 arch dungeon_floor
+x 22
+y 7
+end
+arch gaelotroll
 x 22
 y 7
 end
@@ -4130,6 +4267,10 @@ x 22
 y 11
 end
 arch dungeon_floor
+x 22
+y 12
+end
+arch troll
 x 22
 y 12
 end
@@ -4190,6 +4331,10 @@ x 22
 y 24
 end
 arch dungeon_floor
+x 22
+y 25
+end
+arch troll
 x 22
 y 25
 end
@@ -4283,6 +4428,10 @@ arch dungeon_floor
 x 23
 y 10
 end
+arch troll
+x 23
+y 10
+end
 arch dungeon_floor
 x 23
 y 11
@@ -4300,6 +4449,10 @@ x 23
 y 14
 end
 arch dungeon_floor
+x 23
+y 15
+end
+arch troll
 x 23
 y 15
 end
@@ -4417,6 +4570,10 @@ arch dungeon_floor
 x 24
 y 4
 end
+arch gaelotroll
+x 24
+y 4
+end
 arch dungeon_floor
 x 24
 y 5
@@ -4426,6 +4583,10 @@ x 24
 y 6
 end
 arch dungeon_floor
+x 24
+y 7
+end
+arch gaelotroll
 x 24
 y 7
 end
@@ -4611,6 +4772,10 @@ arch dungeon_floor
 x 25
 y 13
 end
+arch troll
+x 25
+y 13
+end
 arch dungeon_floor
 x 25
 y 14
@@ -4733,6 +4898,10 @@ arch dungeon_floor
 x 26
 y 4
 end
+arch gaelotroll
+x 26
+y 4
+end
 arch dungeon_floor
 x 26
 y 5
@@ -4742,6 +4911,10 @@ x 26
 y 6
 end
 arch dungeon_floor
+x 26
+y 7
+end
+arch gaelotroll
 x 26
 y 7
 end
@@ -4758,6 +4931,10 @@ x 26
 y 10
 end
 arch dungeon_floor
+x 26
+y 11
+end
+arch troll
 x 26
 y 11
 end
@@ -4802,6 +4979,10 @@ x 26
 y 19
 end
 arch dungeon_floor
+x 26
+y 20
+end
+arch troll
 x 26
 y 20
 end
@@ -4987,6 +5168,10 @@ arch dungeon_floor
 x 27
 y 26
 end
+arch troll
+x 27
+y 26
+end
 arch dungeon_floor
 x 27
 y 27
@@ -5049,6 +5234,10 @@ arch dungeon_floor
 x 28
 y 4
 end
+arch gaelotroll
+x 28
+y 4
+end
 arch dungeon_floor
 x 28
 y 5
@@ -5058,6 +5247,10 @@ x 28
 y 6
 end
 arch dungeon_floor
+x 28
+y 7
+end
+arch gaelotroll
 x 28
 y 7
 end
@@ -5090,6 +5283,10 @@ x 28
 y 14
 end
 arch dungeon_floor
+x 28
+y 15
+end
+arch troll
 x 28
 y 15
 end
@@ -5838,200 +6035,4 @@ end
 arch cwall_2_2_4
 x 31
 y 31
-end
-arch gaelotroll
-x 2
-y 4
-end
-arch gaelotroll
-x 2
-y 7
-end
-arch gaelotroll
-x 2
-y 11
-end
-arch troll
-x 3
-y 15
-end
-arch troll
-x 3
-y 25
-end
-arch gaelotroll
-x 4
-y 4
-end
-arch gaelotroll
-x 5
-y 7
-end
-arch troll
-x 5
-y 11
-end
-arch troll
-x 5
-y 13
-end
-arch troll
-x 5
-y 15
-end
-arch troll
-x 5
-y 20
-end
-arch gaelotroll
-x 6
-y 4
-end
-arch gaelotroll
-x 7
-y 7
-end
-arch troll
-x 7
-y 10
-end
-arch troll
-x 7
-y 13
-end
-arch troll
-x 7
-y 15
-end
-arch troll
-x 8
-y 25
-end
-arch gaelotroll
-x 9
-y 4
-end
-arch gaelotroll
-x 9
-y 7
-end
-arch troll
-x 9
-y 11
-end
-arch troll
-x 9
-y 14
-end
-arch troll
-x 10
-y 19
-end
-arch troll
-x 12
-y 22
-end
-arch gaelotroll
-x 14
-y 9
-end
-arch troll
-x 16
-y 8
-end
-arch troll
-x 16
-y 10
-end
-arch troll
-x 17
-y 22
-end
-arch gaelotroll
-x 20
-y 4
-end
-arch gaelotroll
-x 20
-y 7
-end
-arch troll
-x 20
-y 10
-end
-arch troll
-x 20
-y 19
-end
-arch troll
-x 21
-y 14
-end
-arch gaelotroll
-x 22
-y 4
-end
-arch gaelotroll
-x 22
-y 7
-end
-arch troll
-x 22
-y 12
-end
-arch troll
-x 22
-y 25
-end
-arch troll
-x 23
-y 10
-end
-arch troll
-x 23
-y 15
-end
-arch gaelotroll
-x 24
-y 4
-end
-arch gaelotroll
-x 24
-y 7
-end
-arch troll
-x 25
-y 13
-end
-arch gaelotroll
-x 26
-y 4
-end
-arch gaelotroll
-x 26
-y 7
-end
-arch troll
-x 26
-y 11
-end
-arch troll
-x 26
-y 20
-end
-arch troll
-x 27
-y 26
-end
-arch gaelotroll
-x 28
-y 4
-end
-arch gaelotroll
-x 28
-y 7
-end
-arch troll
-x 28
-y 15
 end

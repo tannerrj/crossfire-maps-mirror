@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  1999-12-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 2
 width 31
 height 31
-darkness 2
+msg
+Created:  1999-12-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch jungle_1
 walk_on 0
@@ -2053,6 +2055,39 @@ end
 arch dirtfloor
 x 12
 y 17
+end
+arch troll
+name Barguk the Ugly
+msg
+@match hi|hello|Hi|Hello
+What are you doing here? Do you want to
+steal my treasure?
+@match yes
+Oh,you do. Well you can not. Someperson
+already stole it from me. I fought a
+battle with this thief! He was a strong
+fighter and summoned creatures to
+destroy me! I killed all his
+creatures,but I was weak and could not
+fight him. His energy was sapped
+also,so he ran to the deapest part of
+the woods where there was a magnificent
+castle.
+@match castle|Castle
+It was a magnificent castle! Huge
+towers rose into the clouds. The castle
+was decorated with flags and banners of
+the elements. There was a stone keep in
+the center. The castle was equipted
+with many defences such as
+cannons,firewalls,lightningwalls,and
+hordes of soldiers.
+@match no
+Liar!!!!
+endmsg
+x 12
+y 17
+unaggressive 1
 end
 arch dirtfloor
 x 12
@@ -5265,37 +5300,4 @@ x 30
 y 30
 walk_on 0
 no_pass 1
-end
-arch troll
-name Barguk the Ugly
-msg
-@match hi|hello|Hi|Hello
-What are you doing here? Do you want to
-steal my treasure?
-@match yes
-Oh,you do. Well you can not. Someperson
-already stole it from me. I fought a
-battle with this thief! He was a strong
-fighter and summoned creatures to
-destroy me! I killed all his
-creatures,but I was weak and could not
-fight him. His energy was sapped
-also,so he ran to the deapest part of
-the woods where there was a magnificent
-castle.
-@match castle|Castle
-It was a magnificent castle! Huge
-towers rose into the clouds. The castle
-was decorated with flags and banners of
-the elements. There was a stone keep in
-the center. The castle was equipted
-with many defences such as
-cannons,firewalls,lightningwalls,and
-hordes of soldiers. 
-@match no
-Liar!!!!
-endmsg
-x 12
-y 17
-unaggressive 1
 end

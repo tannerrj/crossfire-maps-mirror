@@ -1,11 +1,12 @@
 arch map
 name darkland
-msg
-Created:  1999-10-26 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 50
 height 50
+msg
+Created:  1999-10-26 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -418,6 +419,14 @@ arch grassdark
 x 1
 y 47
 end
+arch town_4
+name Glovarit
+slaying /ElvenLands/Gcitys/city1
+hp 19
+sp 2
+x 1
+y 47
+end
 arch grassdark
 x 1
 y 48
@@ -485,6 +494,13 @@ x 2
 y 8
 end
 arch permanent_lava
+x 2
+y 9
+end
+arch volcano_high
+slaying /ElvenLands/Hot/warm
+hp 12
+sp 28
 x 2
 y 9
 end
@@ -914,6 +930,14 @@ arch medium_stones
 x 4
 y 3
 end
+arch town_2
+name warm town
+slaying /ElvenLands/Warmtown/town
+hp 3
+sp 14
+x 4
+y 3
+end
 arch medium_stones
 x 4
 y 4
@@ -1142,9 +1166,9 @@ msg
 @match Uggilly
 Click.
 endmsg
-connected 1
 x 5
 y 3
+connected 1
 end
 arch magic_mouth
 msg
@@ -1159,9 +1183,9 @@ y 4
 end
 arch ggate_closed
 name gate
-connected 1
 x 5
 y 4
+connected 1
 end
 arch medium_stones
 x 5
@@ -1339,6 +1363,14 @@ arch grassdark
 x 5
 y 47
 end
+arch town_4
+name Rithar
+slaying /ElvenLands/Gcitys/city2
+hp 19
+sp 2
+x 5
+y 47
+end
 arch grassdark
 x 5
 y 48
@@ -1470,6 +1502,10 @@ x 6
 y 23
 end
 arch permanent_lava
+x 6
+y 24
+end
+arch active_volcano
 x 6
 y 24
 end
@@ -1679,6 +1715,10 @@ arch permanent_lava
 x 7
 y 18
 end
+arch active_volcano
+x 7
+y 18
+end
 arch permanent_lava
 x 7
 y 19
@@ -1744,6 +1784,10 @@ x 7
 y 34
 end
 arch medium_stones
+x 7
+y 35
+end
+arch active_volcano
 x 7
 y 35
 end
@@ -3496,10 +3540,10 @@ x 15
 y 9
 end
 arch wasteland
-no_pass 0
-pass_thru 1
 x 15
 y 10
+no_pass 0
+pass_thru 1
 end
 arch wasteland
 x 15
@@ -8495,6 +8539,14 @@ arch grassdark
 x 37
 y 10
 end
+arch town_5
+name City of Darkoth
+slaying /ElvenLands/Darkoth/shadow/city
+hp 11
+sp 32
+x 37
+y 10
+end
 arch grassdark
 x 37
 y 11
@@ -8850,6 +8902,10 @@ x 38
 y 36
 end
 arch grassdark
+x 38
+y 37
+end
+arch tower_a
 x 38
 y 37
 end
@@ -11563,59 +11619,4 @@ end
 arch cwall_1_2
 x 49
 y 49
-end
-arch town_4
-name Glovarit
-slaying /ElvenLands/Gcitys/city1
-hp 19
-sp 2
-x 1
-y 47
-end
-arch volcano_high
-slaying /ElvenLands/Hot/warm
-hp 12
-sp 28
-x 2
-y 9
-end
-arch town_2
-name warm town
-slaying /ElvenLands/Warmtown/town
-hp 3
-sp 14
-x 4
-y 3
-end
-arch town_4
-name Rithar
-slaying /ElvenLands/Gcitys/city2
-hp 19
-sp 2
-x 5
-y 47
-end
-arch active_volcano
-x 6
-y 24
-end
-arch active_volcano
-x 7
-y 18
-end
-arch active_volcano
-x 7
-y 35
-end
-arch town_5
-name City of Darkoth
-slaying /ElvenLands/Darkoth/shadow/city
-hp 11
-sp 32
-x 37
-y 10
-end
-arch tower_a
-x 38
-y 37
 end

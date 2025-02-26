@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 32
+msg
+Created:  2001-05-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -694,6 +696,12 @@ end
 arch cwall_2_2_3
 x 3
 end
+arch pentagram_111
+hp 15
+sp 18
+x 3
+connected 1
+end
 arch dungeon_floor
 x 3
 y 1
@@ -923,6 +931,9 @@ x 3
 y 31
 end
 arch dungeon_floor
+x 4
+end
+arch gaelotroll
 x 4
 end
 arch dungeon_floor
@@ -1651,6 +1662,14 @@ x 6
 y 31
 end
 arch dungeon_floor
+x 7
+end
+arch pentagram_111
+hp 13
+sp 20
+x 7
+end
+arch gaelotroll
 x 7
 end
 arch dungeon_floor
@@ -2539,6 +2558,15 @@ end
 arch dungeon_floor
 x 11
 end
+arch pentagram_111
+hp 18
+sp 20
+x 11
+connected 1
+end
+arch gaelotroll
+x 11
+end
 arch dungeon_floor
 x 11
 y 1
@@ -3291,6 +3319,15 @@ x 14
 y 31
 end
 arch dungeon_floor
+x 15
+end
+arch pentagram_111
+hp 18
+sp 16
+x 15
+connected 1
+end
+arch gaelotroll
 x 15
 end
 arch dungeon_floor
@@ -7080,39 +7117,4 @@ end
 arch cwall_2_2_4
 x 31
 y 31
-end
-arch pentagram_111
-hp 15
-sp 18
-x 3
-connected 1
-end
-arch gaelotroll
-x 4
-end
-arch pentagram_111
-hp 13
-sp 20
-x 7
-end
-arch gaelotroll
-x 7
-end
-arch pentagram_111
-hp 18
-sp 20
-x 11
-connected 1
-end
-arch gaelotroll
-x 11
-end
-arch pentagram_111
-hp 18
-sp 16
-x 15
-connected 1
-end
-arch gaelotroll
-x 15
 end

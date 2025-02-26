@@ -1,11 +1,12 @@
 arch map
 name tavern
-msg
-Created:  2000-04-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 25
 height 24
+msg
+Created:  2000-04-12 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -643,7 +644,7 @@ arch goblin
 msg
 @match *
 Gnarg will wipe out those pesky light
-elves! 
+elves!
 endmsg
 x 4
 y 8
@@ -2568,7 +2569,7 @@ arch chess_pawn
 name servent of the palace
 msg
 @match *
-I work at the Palace of Darkoth. 
+I work at the Palace of Darkoth.
 endmsg
 x 17
 y 20
@@ -2818,7 +2819,7 @@ msg
 @match hi|hello
 Greetingss, I ussually work at the Dark
 Temple of Devourers,but sssometimess I
-go to the temple of Ruggilly. 
+go to the temple of Ruggilly.
 endmsg
 x 19
 y 12
@@ -2977,7 +2978,7 @@ arch chess_knight
 msg
 @match hi|hello
 I serve King Darkoth as one of his
-knights. 
+knights.
 endmsg
 hp 250
 x 20
@@ -3440,7 +3441,7 @@ arch knight
 name Dark Guard
 msg
 @match *
-Now don't get too rowdy! 
+Now don't get too rowdy!
 endmsg
 x 23
 y 7
@@ -3521,7 +3522,7 @@ arch dark_elf
 msg
 @match *
 I lost too much money at that "Boulder
-Betting". 
+Betting".
 endmsg
 x 23
 y 21

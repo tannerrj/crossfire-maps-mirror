@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-04-11 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-04-11 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 end
 arch blackmarble
 end
@@ -741,8 +743,8 @@ arch c_priest
 name High Priest of Death
 msg
 @match hi|hello
-Silence! 
- Do not disturb us! 
+Silence!
+ Do not disturb us!
 
 endmsg
 x 8

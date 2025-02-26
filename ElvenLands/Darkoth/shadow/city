@@ -1,11 +1,12 @@
 arch map
 name City of the Shadows
-msg
-Created:  2002-09-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 38
 height 36
+msg
+Created:  2002-09-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-26 Rick Tanner
+endmsg
 outdoor 1
 end
 arch sea
@@ -239,6 +240,10 @@ arch cobblestones2
 x 1
 y 7
 end
+arch city_tower
+x 1
+y 7
+end
 arch cobblestones2
 x 1
 y 8
@@ -248,6 +253,11 @@ x 1
 y 9
 end
 arch cobblestones2
+x 1
+y 10
+end
+arch barn
+name warehouse
 x 1
 y 10
 end
@@ -280,6 +290,10 @@ x 1
 y 14
 end
 arch grassdark
+x 1
+y 15
+end
+arch temple1
 x 1
 y 15
 end
@@ -327,6 +341,11 @@ arch grassdark
 x 1
 y 23
 end
+arch guild
+name bank of Darkoth
+x 1
+y 23
+end
 arch grassdark
 x 1
 y 24
@@ -348,6 +367,10 @@ x 1
 y 26
 end
 arch grassdark
+x 1
+y 27
+end
+arch house_up
 x 1
 y 27
 end
@@ -391,6 +414,10 @@ arch grassdark
 x 1
 y 33
 end
+arch city_tower
+x 1
+y 33
+end
 arch grassdark
 x 1
 y 34
@@ -419,6 +446,10 @@ x 2
 y 3
 end
 arch sea
+x 2
+y 4
+end
+arch s_ship
 x 2
 y 4
 end
@@ -463,6 +494,10 @@ x 2
 y 12
 end
 arch grassdark
+x 2
+y 13
+end
+arch temple1
 x 2
 y 13
 end
@@ -531,6 +566,10 @@ arch grassdark
 x 2
 y 26
 end
+arch store_alchemy
+x 2
+y 26
+end
 arch grassdark
 x 2
 y 27
@@ -540,6 +579,11 @@ x 2
 y 28
 end
 arch grassdark
+x 2
+y 29
+end
+arch guild
+name Ka'larak's tavern
 x 2
 y 29
 end
@@ -688,6 +732,10 @@ arch grassdark
 x 3
 y 20
 end
+arch city_tower
+x 3
+y 20
+end
 arch grassdark
 x 3
 y 21
@@ -809,6 +857,11 @@ arch cobblestones2
 x 4
 y 10
 end
+arch barn
+name warehouse
+x 4
+y 10
+end
 arch cobblestones2
 x 4
 y 11
@@ -879,6 +932,10 @@ arch grassdark
 x 4
 y 23
 end
+arch store_armour
+x 4
+y 23
+end
 arch grassdark
 x 4
 y 24
@@ -916,6 +973,10 @@ x 4
 y 32
 end
 arch grassdark
+x 4
+y 33
+end
+arch inn
 x 4
 y 33
 end
@@ -995,6 +1056,10 @@ x 5
 y 12
 end
 arch grassdark
+x 5
+y 13
+end
+arch temple1
 x 5
 y 13
 end
@@ -1162,6 +1227,11 @@ arch cobblestones2
 x 6
 y 9
 end
+arch barn
+name warehouse
+x 6
+y 9
+end
 arch cobblestones2
 x 6
 y 10
@@ -1244,6 +1314,10 @@ arch grassdark
 x 6
 y 23
 end
+arch store_magic
+x 6
+y 23
+end
 arch grassdark
 x 6
 y 24
@@ -1256,6 +1330,10 @@ arch grassdark
 x 6
 y 26
 end
+arch store_general
+x 6
+y 26
+end
 arch grassdark
 x 6
 y 27
@@ -1265,6 +1343,10 @@ x 6
 y 28
 end
 arch grassdark
+x 6
+y 29
+end
+arch store_weapons
 x 6
 y 29
 end
@@ -1317,6 +1399,10 @@ x 7
 y 3
 end
 arch sea1
+x 7
+y 4
+end
+arch fishboat
 x 7
 y 4
 end
@@ -1472,6 +1558,10 @@ arch cobblestones2
 x 7
 y 33
 end
+arch keep
+x 7
+y 33
+end
 arch grassdark
 x 7
 y 34
@@ -1524,6 +1614,11 @@ x 8
 y 8
 end
 arch cobblestones2
+x 8
+y 9
+end
+arch barn
+name warehouse
 x 8
 y 9
 end
@@ -1662,6 +1757,10 @@ arch sea
 x 9
 y 3
 end
+arch s_ship
+x 9
+y 3
+end
 arch sea1
 x 9
 y 4
@@ -1738,6 +1837,10 @@ arch grassdark
 x 9
 y 16
 end
+arch palace
+x 9
+y 16
+end
 arch grassdark
 x 9
 y 17
@@ -1792,6 +1895,10 @@ arch grassdark
 x 9
 y 24
 end
+arch courthouse
+x 9
+y 24
+end
 arch grassdark
 x 9
 y 25
@@ -1817,6 +1924,10 @@ x 9
 y 28
 end
 arch grassdark
+x 9
+y 29
+end
+arch courthouse
 x 9
 y 29
 end
@@ -1903,6 +2014,11 @@ arch cobblestones2
 x 10
 y 9
 end
+arch barn
+name warehouse
+x 10
+y 9
+end
 arch cobblestones2
 x 10
 y 10
@@ -1915,11 +2031,19 @@ arch cobblestones2
 x 10
 y 12
 end
+arch barrack_up
+x 10
+y 12
+end
 arch grassdark
 x 10
 y 13
 end
 arch grassdark
+x 10
+y 14
+end
+arch barrack_long
 x 10
 y 14
 end
@@ -2280,6 +2404,10 @@ arch grassdark
 x 12
 y 13
 end
+arch barrack_up
+x 12
+y 13
+end
 arch grassdark
 x 12
 y 14
@@ -2346,6 +2474,10 @@ arch grassdark
 x 12
 y 24
 end
+arch courthouse
+x 12
+y 24
+end
 arch grassdark
 x 12
 y 25
@@ -2363,6 +2495,10 @@ x 12
 y 28
 end
 arch grassdark
+x 12
+y 29
+end
+arch courthouse
 x 12
 y 29
 end
@@ -2415,6 +2551,10 @@ x 13
 y 2
 end
 arch sea
+x 13
+y 3
+end
+arch s_ship
 x 13
 y 3
 end
@@ -2756,6 +2896,10 @@ arch cobblestones2
 x 14
 y 33
 end
+arch keep
+x 14
+y 33
+end
 arch cobblestones2
 x 14
 y 34
@@ -3039,6 +3183,10 @@ arch grassdark
 x 16
 y 19
 end
+arch guild
+x 16
+y 19
+end
 arch grassdark
 x 16
 y 20
@@ -3052,6 +3200,10 @@ x 16
 y 22
 end
 arch grassdark
+x 16
+y 23
+end
+arch a_civic
 x 16
 y 23
 end
@@ -3076,6 +3228,10 @@ x 16
 y 28
 end
 arch grassdark
+x 16
+y 29
+end
+arch a_civic
 x 16
 y 29
 end
@@ -3115,6 +3271,10 @@ x 17
 y 1
 end
 arch sea
+x 17
+y 2
+end
+arch s_ship
 x 17
 y 2
 end
@@ -3351,6 +3511,10 @@ arch grassdark
 x 18
 y 14
 end
+arch barrack_long
+x 18
+y 14
+end
 arch cobblestones2
 x 18
 y 15
@@ -3372,6 +3536,11 @@ x 18
 y 17
 end
 arch grassdark
+x 18
+y 18
+end
+arch guild
+name Dark Circle of Magic
 x 18
 y 18
 end
@@ -3436,6 +3605,10 @@ x 18
 y 33
 end
 arch grassdark
+x 18
+y 34
+end
+arch house_long
 x 18
 y 34
 end
@@ -3638,6 +3811,10 @@ arch sea
 x 20
 y 2
 end
+arch s_ship
+x 20
+y 2
+end
 arch sea1
 x 20
 y 3
@@ -3679,6 +3856,11 @@ x 20
 y 9
 end
 arch cobblestones2
+x 20
+y 10
+end
+arch barn
+name warehouse
 x 20
 y 10
 end
@@ -3738,6 +3920,11 @@ arch grassdark
 x 20
 y 19
 end
+arch guild
+name guild of the Silent Hunter
+x 20
+y 19
+end
 arch grassdark
 x 20
 y 20
@@ -3794,6 +3981,10 @@ arch grassdark
 x 20
 y 33
 end
+arch guild
+x 20
+y 33
+end
 arch grassdark
 x 20
 y 34
@@ -3822,6 +4013,10 @@ x 21
 y 3
 end
 arch sea1
+x 21
+y 4
+end
+arch fishboat
 x 21
 y 4
 end
@@ -3874,6 +4069,10 @@ x 21
 y 13
 end
 arch grassdark
+x 21
+y 14
+end
+arch city_tower
 x 21
 y 14
 end
@@ -4044,6 +4243,11 @@ arch cobblestones2
 x 22
 y 10
 end
+arch barn
+name warehouse
+x 22
+y 10
+end
 arch cobblestones2
 x 22
 y 11
@@ -4180,6 +4384,10 @@ arch grassdark
 x 22
 y 34
 end
+arch house_largish
+x 22
+y 34
+end
 arch cobblestones2
 x 22
 y 35
@@ -4200,6 +4408,10 @@ x 23
 y 2
 end
 arch sea1
+x 23
+y 3
+end
+arch longship
 x 23
 y 3
 end
@@ -4264,6 +4476,10 @@ x 23
 y 14
 end
 arch grassdark
+x 23
+y 15
+end
+arch house_long
 x 23
 y 15
 end
@@ -4343,6 +4559,10 @@ arch grassdark
 x 23
 y 32
 end
+arch house_up
+x 23
+y 32
+end
 arch grassdark
 x 23
 y 33
@@ -4398,6 +4618,11 @@ arch cobblestones2
 x 24
 y 7
 end
+arch barn
+name warehouse
+x 24
+y 7
+end
 arch cobblestones2
 x 24
 y 8
@@ -4439,6 +4664,10 @@ x 24
 y 15
 end
 arch grassdark
+x 24
+y 16
+end
+arch l_shop1
 x 24
 y 16
 end
@@ -4554,6 +4783,10 @@ arch sea
 x 25
 y 2
 end
+arch s_ship
+x 25
+y 2
+end
 arch sea1
 x 25
 y 3
@@ -4599,6 +4832,10 @@ x 25
 y 11
 end
 arch grassdark
+x 25
+y 12
+end
+arch barrack_up
 x 25
 y 12
 end
@@ -4690,6 +4927,10 @@ arch grassdark
 x 25
 y 28
 end
+arch t_house1
+x 25
+y 28
+end
 arch grassdark
 x 25
 y 29
@@ -4703,6 +4944,10 @@ x 25
 y 31
 end
 arch grassdark
+x 25
+y 32
+end
+arch house_long
 x 25
 y 32
 end
@@ -4749,6 +4994,10 @@ arch sea1
 x 26
 y 4
 end
+arch fishboat
+x 26
+y 4
+end
 arch sea1
 x 26
 y 5
@@ -4782,6 +5031,10 @@ x 26
 y 11
 end
 arch grassdark
+x 26
+y 12
+end
+arch barrack_up
 x 26
 y 12
 end
@@ -4871,6 +5124,10 @@ arch grassdark
 x 26
 y 25
 end
+arch house_largish
+x 26
+y 25
+end
 arch cobblestones2
 x 26
 y 26
@@ -4978,11 +5235,23 @@ arch grassdark
 x 27
 y 11
 end
+arch barrack_long
+x 27
+y 11
+end
 arch grassdark
 x 27
 y 12
 end
+arch barrack_long
+x 27
+y 12
+end
 arch grassdark
+x 27
+y 13
+end
+arch barrack_long
 x 27
 y 13
 end
@@ -5014,6 +5283,10 @@ arch grassdark
 x 27
 y 19
 end
+arch city_tower
+x 27
+y 19
+end
 arch grassdark
 x 27
 y 20
@@ -5023,6 +5296,10 @@ x 27
 y 21
 end
 arch grassdark
+x 27
+y 22
+end
+arch house_up
 x 27
 y 22
 end
@@ -5157,6 +5434,11 @@ arch cobblestones2
 x 28
 y 9
 end
+arch barn
+name warehouse
+x 28
+y 9
+end
 arch cobblestones2
 x 28
 y 10
@@ -5185,6 +5467,10 @@ arch grassdark
 x 28
 y 15
 end
+arch prison
+x 28
+y 15
+end
 arch cobblestones2
 x 28
 y 16
@@ -5202,6 +5488,10 @@ x 28
 y 18
 end
 arch grassdark
+x 28
+y 19
+end
+arch city_tower
 x 28
 y 19
 end
@@ -5253,6 +5543,10 @@ arch grassdark
 x 28
 y 28
 end
+arch t_house2
+x 28
+y 28
+end
 arch grassdark
 x 28
 y 29
@@ -5274,6 +5568,10 @@ x 28
 y 32
 end
 arch grassdark
+x 28
+y 33
+end
+arch house_largish
 x 28
 y 33
 end
@@ -5316,6 +5614,10 @@ arch sea1
 x 29
 y 5
 end
+arch fishboat
+x 29
+y 5
+end
 arch sea1
 x 29
 y 6
@@ -5349,6 +5651,10 @@ x 29
 y 11
 end
 arch grassdark
+x 29
+y 12
+end
+arch barrack_long
 x 29
 y 12
 end
@@ -5421,6 +5727,10 @@ arch grassdark
 x 29
 y 23
 end
+arch house_up
+x 29
+y 23
+end
 arch grassdark
 x 29
 y 24
@@ -5500,6 +5810,10 @@ arch sea
 x 30
 y 3
 end
+arch big_galleon
+x 30
+y 3
+end
 arch sea1
 x 30
 y 4
@@ -5545,6 +5859,10 @@ x 30
 y 12
 end
 arch grassdark
+x 30
+y 13
+end
+arch barrack_long
 x 30
 y 13
 end
@@ -5624,11 +5942,19 @@ arch grassdark
 x 30
 y 26
 end
+arch t_house2
+x 30
+y 26
+end
 arch grassdark
 x 30
 y 27
 end
 arch grassdark
+x 30
+y 28
+end
+arch t_house1
 x 30
 y 28
 end
@@ -5723,6 +6049,11 @@ arch cobblestones2
 x 31
 y 9
 end
+arch barn
+name warehouse
+x 31
+y 9
+end
 arch cobblestones2
 x 31
 y 10
@@ -5748,6 +6079,10 @@ x 31
 y 14
 end
 arch cobblestones2
+x 31
+y 15
+end
+arch s_tower1
 x 31
 y 15
 end
@@ -5867,6 +6202,10 @@ arch sea
 x 32
 y 2
 end
+arch s_ship
+x 32
+y 2
+end
 arch sea1
 x 32
 y 3
@@ -5936,6 +6275,10 @@ arch cobblestones2
 x 32
 y 15
 end
+arch collesium
+x 32
+y 15
+end
 arch cobblestones2
 x 32
 y 16
@@ -5980,6 +6323,10 @@ arch grassdark
 x 32
 y 23
 end
+arch t_house1
+x 32
+y 23
+end
 arch grassdark
 x 32
 y 24
@@ -5993,6 +6340,10 @@ x 32
 y 25
 end
 arch grassdark
+x 32
+y 26
+end
+arch t_house2
 x 32
 y 26
 end
@@ -6243,6 +6594,10 @@ arch sea1
 x 34
 y 3
 end
+arch fishboat
+x 34
+y 3
+end
 arch sea1
 x 34
 y 4
@@ -6260,6 +6615,11 @@ x 34
 y 6
 end
 arch cobblestones2
+x 34
+y 7
+end
+arch barn
+name warehouse
 x 34
 y 7
 end
@@ -6458,11 +6818,19 @@ arch grassdark
 x 35
 y 10
 end
+arch barrack_up
+x 35
+y 10
+end
 arch grassdark
 x 35
 y 11
 end
 arch grassdark
+x 35
+y 12
+end
+arch barrack_up
 x 35
 y 12
 end
@@ -6646,6 +7014,10 @@ arch pier_1_3
 x 36
 y 5
 end
+arch city_tower
+x 36
+y 5
+end
 arch cobblestones2
 x 36
 y 6
@@ -6670,11 +7042,19 @@ arch grassdark
 x 36
 y 10
 end
+arch barrack_up
+x 36
+y 10
+end
 arch grassdark
 x 36
 y 11
 end
 arch grassdark
+x 36
+y 12
+end
+arch barrack_up
 x 36
 y 12
 end
@@ -7096,383 +7476,4 @@ end
 arch cwall_2_2_4
 x 37
 y 35
-end
-arch city_tower
-x 1
-y 7
-end
-arch barn
-name warehouse
-x 1
-y 10
-end
-arch temple1
-x 1
-y 15
-end
-arch guild
-name bank of Darkoth
-x 1
-y 23
-end
-arch house_up
-x 1
-y 27
-end
-arch city_tower
-x 1
-y 33
-end
-arch s_ship
-x 2
-y 4
-end
-arch temple1
-x 2
-y 13
-end
-arch store_alchemy
-x 2
-y 26
-end
-arch guild
-name Ka'larak's tavern
-x 2
-y 29
-end
-arch city_tower
-x 3
-y 20
-end
-arch barn
-name warehouse
-x 4
-y 10
-end
-arch store_armour
-x 4
-y 23
-end
-arch inn
-x 4
-y 33
-end
-arch temple1
-x 5
-y 13
-end
-arch barn
-name warehouse
-x 6
-y 9
-end
-arch store_magic
-x 6
-y 23
-end
-arch store_general
-x 6
-y 26
-end
-arch store_weapons
-x 6
-y 29
-end
-arch fishboat
-x 7
-y 4
-end
-arch keep
-x 7
-y 33
-end
-arch barn
-name warehouse
-x 8
-y 9
-end
-arch s_ship
-x 9
-y 3
-end
-arch palace
-x 9
-y 16
-end
-arch courthouse
-x 9
-y 24
-end
-arch courthouse
-x 9
-y 29
-end
-arch barn
-name warehouse
-x 10
-y 9
-end
-arch barrack_up
-x 10
-y 12
-end
-arch barrack_long
-x 10
-y 14
-end
-arch barrack_up
-x 12
-y 13
-end
-arch courthouse
-x 12
-y 24
-end
-arch courthouse
-x 12
-y 29
-end
-arch s_ship
-x 13
-y 3
-end
-arch keep
-x 14
-y 33
-end
-arch guild
-x 16
-y 19
-end
-arch a_civic
-x 16
-y 23
-end
-arch a_civic
-x 16
-y 29
-end
-arch s_ship
-x 17
-y 2
-end
-arch barrack_long
-x 18
-y 14
-end
-arch guild
-name Dark Circle of Magic
-x 18
-y 18
-end
-arch house_long
-x 18
-y 34
-end
-arch s_ship
-x 20
-y 2
-end
-arch barn
-name warehouse
-x 20
-y 10
-end
-arch guild
-name guild of the Silent Hunter
-x 20
-y 19
-end
-arch guild
-x 20
-y 33
-end
-arch fishboat
-x 21
-y 4
-end
-arch city_tower
-x 21
-y 14
-end
-arch barn
-name warehouse
-x 22
-y 10
-end
-arch house_largish
-x 22
-y 34
-end
-arch longship
-x 23
-y 3
-end
-arch house_long
-x 23
-y 15
-end
-arch house_up
-x 23
-y 32
-end
-arch barn
-name warehouse
-x 24
-y 7
-end
-arch l_shop1
-x 24
-y 16
-end
-arch s_ship
-x 25
-y 2
-end
-arch barrack_up
-x 25
-y 12
-end
-arch t_house1
-x 25
-y 28
-end
-arch house_long
-x 25
-y 32
-end
-arch fishboat
-x 26
-y 4
-end
-arch barrack_up
-x 26
-y 12
-end
-arch house_largish
-x 26
-y 25
-end
-arch barrack_long
-x 27
-y 11
-end
-arch barrack_long
-x 27
-y 12
-end
-arch barrack_long
-x 27
-y 13
-end
-arch city_tower
-x 27
-y 19
-end
-arch house_up
-x 27
-y 22
-end
-arch barn
-name warehouse
-x 28
-y 9
-end
-arch prison
-x 28
-y 15
-end
-arch city_tower
-x 28
-y 19
-end
-arch t_house2
-x 28
-y 28
-end
-arch house_largish
-x 28
-y 33
-end
-arch fishboat
-x 29
-y 5
-end
-arch barrack_long
-x 29
-y 12
-end
-arch house_up
-x 29
-y 23
-end
-arch big_galleon
-x 30
-y 3
-end
-arch barrack_long
-x 30
-y 13
-end
-arch t_house2
-x 30
-y 26
-end
-arch t_house1
-x 30
-y 28
-end
-arch barn
-name warehouse
-x 31
-y 9
-end
-arch s_tower1
-x 31
-y 15
-end
-arch s_ship
-x 32
-y 2
-end
-arch collesium
-x 32
-y 15
-end
-arch t_house1
-x 32
-y 23
-end
-arch t_house2
-x 32
-y 26
-end
-arch fishboat
-x 34
-y 3
-end
-arch barn
-name warehouse
-x 34
-y 7
-end
-arch barrack_up
-x 35
-y 10
-end
-arch barrack_up
-x 35
-y 12
-end
-arch city_tower
-x 36
-y 5
-end
-arch barrack_up
-x 36
-y 10
-end
-arch barrack_up
-x 36
-y 12
 end
