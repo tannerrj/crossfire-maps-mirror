@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-02 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 32
+msg
+Created:  2000-01-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-25 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -717,6 +719,18 @@ arch marble
 x 3
 y 27
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 3
+y 27
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 3
 y 28
@@ -871,6 +885,18 @@ end
 arch marble
 x 4
 y 23
+end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 4
+y 23
+resist_physical 100
+resist_magic 100
 end
 arch marble
 x 4
@@ -1201,6 +1227,18 @@ arch marble
 x 6
 y 21
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 6
+y 21
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 6
 y 22
@@ -1232,6 +1270,18 @@ end
 arch marble
 x 6
 y 29
+end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 6
+y 29
+resist_physical 100
+resist_magic 100
 end
 arch marble
 x 6
@@ -1399,6 +1449,18 @@ arch marble
 x 7
 y 26
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 7
+y 26
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 7
 y 27
@@ -1534,6 +1596,18 @@ end
 arch marble
 x 8
 y 23
+end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 8
+y 23
+resist_physical 100
+resist_magic 100
 end
 arch marble
 x 8
@@ -1752,6 +1826,18 @@ arch marble
 x 9
 y 19
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 9
+y 19
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 9
 y 20
@@ -1911,6 +1997,10 @@ arch marble
 x 10
 y 15
 end
+arch big_dragon
+x 10
+y 15
+end
 arch marble
 x 10
 y 16
@@ -1951,6 +2041,10 @@ arch marble
 x 10
 y 25
 end
+arch dragonman
+x 10
+y 25
+end
 arch marble
 x 10
 y 26
@@ -1959,11 +2053,19 @@ arch marble
 x 10
 y 27
 end
+arch dragonman
+x 10
+y 27
+end
 arch marble
 x 10
 y 28
 end
 arch marble
+x 10
+y 29
+end
+arch dragonman
 x 10
 y 29
 end
@@ -2091,6 +2193,10 @@ arch marble
 x 11
 y 23
 end
+arch dragonman
+x 11
+y 23
+end
 arch marble
 x 11
 y 24
@@ -2305,6 +2411,17 @@ arch marble
 x 12
 y 22
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 12
+y 22
+level 30
+end
 arch marble
 x 12
 y 23
@@ -2321,11 +2438,19 @@ arch marble
 x 12
 y 26
 end
+arch dragonman
+x 12
+y 26
+end
 arch marble
 x 12
 y 27
 end
 arch marble
+x 12
+y 28
+end
+arch dragonman
 x 12
 y 28
 end
@@ -2507,6 +2632,10 @@ arch marble
 x 13
 y 21
 end
+arch dragonman
+x 13
+y 21
+end
 arch marble
 x 13
 y 22
@@ -2548,6 +2677,10 @@ arch ability_pool_chaos
 end
 end
 arch marble
+x 13
+y 25
+end
+arch dragonman
 x 13
 y 25
 end
@@ -2737,6 +2870,17 @@ arch marble
 x 14
 y 20
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 14
+y 20
+level 30
+end
 arch marble
 x 14
 y 21
@@ -2792,6 +2936,10 @@ resist_physical 100
 resist_magic 100
 end
 arch marble
+x 14
+y 24
+end
+arch dragonman
 x 14
 y 24
 end
@@ -3024,6 +3172,10 @@ arch marble
 x 15
 y 19
 end
+arch dragonman
+x 15
+y 19
+end
 arch marble
 x 15
 y 20
@@ -3051,6 +3203,10 @@ x 15
 y 22
 end
 arch marble
+x 15
+y 23
+end
+arch dragonman
 x 15
 y 23
 end
@@ -3247,6 +3403,17 @@ end
 arch marble
 x 16
 y 18
+end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 16
+y 18
+level 30
 end
 arch marble
 x 16
@@ -3292,6 +3459,10 @@ arch marble
 x 16
 y 22
 end
+arch dragonman
+x 16
+y 22
+end
 arch marble
 x 16
 y 23
@@ -3479,6 +3650,17 @@ arch marble
 x 17
 y 18
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 17
+y 18
+level 30
+end
 arch marble
 x 17
 y 19
@@ -3488,6 +3670,10 @@ x 17
 y 20
 end
 arch marble
+x 17
+y 21
+end
+arch dragonman
 x 17
 y 21
 end
@@ -3747,6 +3933,17 @@ arch marble
 x 18
 y 18
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 18
+y 18
+level 30
+end
 arch marble
 x 18
 y 19
@@ -3802,6 +3999,10 @@ resist_physical 100
 resist_magic 100
 end
 arch marble
+x 18
+y 22
+end
+arch dragonman
 x 18
 y 22
 end
@@ -4051,6 +4252,17 @@ arch marble
 x 19
 y 19
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 19
+y 19
+level 30
+end
 arch marble
 x 19
 y 20
@@ -4092,6 +4304,10 @@ arch ability_pool_chaos
 end
 end
 arch marble
+x 19
+y 23
+end
+arch dragonman
 x 19
 y 23
 end
@@ -4365,6 +4581,10 @@ arch marble
 x 20
 y 20
 end
+arch dragonman
+x 20
+y 20
+end
 arch marble
 x 20
 y 21
@@ -4378,6 +4598,10 @@ x 20
 y 23
 end
 arch marble
+x 20
+y 24
+end
+arch dragonman
 x 20
 y 24
 end
@@ -4560,6 +4784,17 @@ arch marble
 x 21
 y 21
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 21
+y 21
+level 30
+end
 arch marble
 x 21
 y 22
@@ -4601,6 +4836,10 @@ x 21
 y 24
 end
 arch marble
+x 21
+y 25
+end
+arch dragonman
 x 21
 y 25
 end
@@ -4712,6 +4951,10 @@ arch marble
 x 22
 y 15
 end
+arch big_dragon
+x 22
+y 15
+end
 arch marble
 x 22
 y 16
@@ -4768,6 +5011,10 @@ arch marble
 x 22
 y 22
 end
+arch dragonman
+x 22
+y 22
+end
 arch marble
 x 22
 y 23
@@ -4812,11 +5059,19 @@ arch marble
 x 22
 y 26
 end
+arch dragonman
+x 22
+y 26
+end
 arch marble
 x 22
 y 27
 end
 arch marble
+x 22
+y 28
+end
+arch dragonman
 x 22
 y 28
 end
@@ -4975,6 +5230,17 @@ arch marble
 x 23
 y 23
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 23
+y 23
+level 30
+end
 arch marble
 x 23
 y 24
@@ -5145,6 +5411,10 @@ arch marble
 x 24
 y 25
 end
+arch dragonman
+x 24
+y 25
+end
 arch marble
 x 24
 y 26
@@ -5153,11 +5423,26 @@ arch marble
 x 24
 y 27
 end
+arch dragonman
+name dragonmaster
+Con 35
+hp 6000
+dam 30
+wc -30
+ac -20
+x 24
+y 27
+level 30
+end
 arch marble
 x 24
 y 28
 end
 arch marble
+x 24
+y 29
+end
+arch dragonman
 x 24
 y 29
 end
@@ -5292,6 +5577,18 @@ arch marble
 x 25
 y 19
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 25
+y 19
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 25
 y 20
@@ -5434,6 +5731,18 @@ arch marble
 x 26
 y 21
 end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 26
+y 21
+resist_physical 100
+resist_magic 100
+end
 arch marble
 x 26
 y 22
@@ -5463,6 +5772,18 @@ end
 arch marble
 x 26
 y 25
+end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 26
+y 25
+resist_physical 100
+resist_magic 100
 end
 arch marble
 x 26
@@ -5667,6 +5988,18 @@ end
 arch marble
 x 27
 y 28
+end
+arch lamia
+Con 40
+sp 100
+maxsp 100
+dam 30
+wc -20
+ac -15
+x 27
+y 28
+resist_physical 100
+resist_magic 100
 end
 arch marble
 x 27
@@ -6387,335 +6720,4 @@ end
 arch dun7
 x 31
 y 31
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 3
-y 27
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 4
-y 23
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 6
-y 21
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 6
-y 29
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 7
-y 26
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 8
-y 23
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 9
-y 19
-resist_physical 100
-resist_magic 100
-end
-arch big_dragon
-x 10
-y 15
-end
-arch dragonman
-x 10
-y 25
-end
-arch dragonman
-x 10
-y 27
-end
-arch dragonman
-x 10
-y 29
-end
-arch dragonman
-x 11
-y 23
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 12
-y 22
-level 30
-end
-arch dragonman
-x 12
-y 26
-end
-arch dragonman
-x 12
-y 28
-end
-arch dragonman
-x 13
-y 21
-end
-arch dragonman
-x 13
-y 25
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 14
-y 20
-level 30
-end
-arch dragonman
-x 14
-y 24
-end
-arch dragonman
-x 15
-y 19
-end
-arch dragonman
-x 15
-y 23
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 16
-y 18
-level 30
-end
-arch dragonman
-x 16
-y 22
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 17
-y 18
-level 30
-end
-arch dragonman
-x 17
-y 21
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 18
-y 18
-level 30
-end
-arch dragonman
-x 18
-y 22
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 19
-y 19
-level 30
-end
-arch dragonman
-x 19
-y 23
-end
-arch dragonman
-x 20
-y 20
-end
-arch dragonman
-x 20
-y 24
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 21
-y 21
-level 30
-end
-arch dragonman
-x 21
-y 25
-end
-arch big_dragon
-x 22
-y 15
-end
-arch dragonman
-x 22
-y 22
-end
-arch dragonman
-x 22
-y 26
-end
-arch dragonman
-x 22
-y 28
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 23
-y 23
-level 30
-end
-arch dragonman
-x 24
-y 25
-end
-arch dragonman
-name dragonmaster
-Con 35
-hp 6000
-dam 30
-wc -30
-ac -20
-x 24
-y 27
-level 30
-end
-arch dragonman
-x 24
-y 29
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 25
-y 19
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 26
-y 21
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 26
-y 25
-resist_physical 100
-resist_magic 100
-end
-arch lamia
-Con 40
-sp 100
-maxsp 100
-dam 30
-wc -20
-ac -15
-x 27
-y 28
-resist_physical 100
-resist_magic 100
 end

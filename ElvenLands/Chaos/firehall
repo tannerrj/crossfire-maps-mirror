@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-03-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-02 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 10
 height 51
+msg
+Created:  2000-03-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-25 Rick Tanner
+endmsg
 end
 arch permanent_lava
 end
@@ -396,6 +398,10 @@ arch permanent_lava
 x 1
 y 20
 end
+arch dragon
+x 1
+y 20
+end
 arch permanent_lava
 x 1
 y 21
@@ -424,6 +430,10 @@ arch permanent_lava
 x 1
 y 27
 end
+arch dragon
+x 1
+y 27
+end
 arch permanent_lava
 x 1
 y 28
@@ -440,11 +450,19 @@ arch permanent_lava
 x 1
 y 31
 end
+arch dragon
+x 1
+y 31
+end
 arch permanent_lava
 x 1
 y 32
 end
 arch permanent_lava
+x 1
+y 33
+end
+arch dragon
 x 1
 y 33
 end
@@ -476,6 +494,10 @@ arch permanent_lava
 x 1
 y 40
 end
+arch dragon
+x 1
+y 40
+end
 arch permanent_lava
 x 1
 y 41
@@ -485,6 +507,10 @@ x 1
 y 42
 end
 arch permanent_lava
+x 1
+y 43
+end
+arch dragon
 x 1
 y 43
 end
@@ -534,6 +560,10 @@ arch permanent_lava
 x 2
 y 2
 end
+arch dragon
+x 2
+y 2
+end
 arch cobblestones
 x 2
 y 3
@@ -558,6 +588,10 @@ arch permanent_lava
 x 2
 y 8
 end
+arch dragon
+x 2
+y 8
+end
 arch permanent_lava
 x 2
 y 9
@@ -578,6 +612,10 @@ arch cobblestones
 x 2
 y 13
 end
+arch dragon
+x 2
+y 13
+end
 arch cobblestones
 x 2
 y 14
@@ -591,6 +629,10 @@ x 2
 y 16
 end
 arch permanent_lava
+x 2
+y 17
+end
+arch dragon
 x 2
 y 17
 end
@@ -615,6 +657,10 @@ x 2
 y 22
 end
 arch cobblestones
+x 2
+y 23
+end
+arch dragon
 x 2
 y 23
 end
@@ -670,6 +716,10 @@ arch cobblestones
 x 2
 y 36
 end
+arch dragon
+x 2
+y 36
+end
 arch cobblestones
 x 2
 y 37
@@ -707,6 +757,10 @@ x 2
 y 45
 end
 arch cobblestones
+x 2
+y 46
+end
+arch dragon
 x 2
 y 46
 end
@@ -1216,6 +1270,10 @@ arch permanent_lava
 x 5
 y 12
 end
+arch dragon
+x 5
+y 12
+end
 arch cobblestones
 x 5
 y 13
@@ -1281,6 +1339,10 @@ x 5
 y 28
 end
 arch cobblestones
+x 5
+y 29
+end
+arch dragon
 x 5
 y 29
 end
@@ -1488,6 +1550,10 @@ arch permanent_lava
 x 6
 y 25
 end
+arch dragon
+x 6
+y 25
+end
 arch cobblestones
 x 6
 y 26
@@ -1630,6 +1696,10 @@ arch cobblestones
 x 7
 y 8
 end
+arch dragon
+x 7
+y 8
+end
 arch cobblestones
 x 7
 y 9
@@ -1662,6 +1732,10 @@ arch cobblestones
 x 7
 y 16
 end
+arch dragon
+x 7
+y 16
+end
 arch cobblestones
 x 7
 y 17
@@ -1683,6 +1757,10 @@ x 7
 y 21
 end
 arch permanent_lava
+x 7
+y 22
+end
+arch dragon
 x 7
 y 22
 end
@@ -1738,6 +1816,10 @@ arch permanent_lava
 x 7
 y 35
 end
+arch dragon
+x 7
+y 35
+end
 arch permanent_lava
 x 7
 y 36
@@ -1747,6 +1829,10 @@ x 7
 y 37
 end
 arch permanent_lava
+x 7
+y 38
+end
+arch dragon
 x 7
 y 38
 end
@@ -1762,6 +1848,10 @@ arch permanent_lava
 x 7
 y 41
 end
+arch dragon
+x 7
+y 41
+end
 arch permanent_lava
 x 7
 y 42
@@ -1771,6 +1861,10 @@ x 7
 y 43
 end
 arch permanent_lava
+x 7
+y 44
+end
+arch dragon
 x 7
 y 44
 end
@@ -1791,6 +1885,10 @@ x 7
 y 48
 end
 arch permanent_lava
+x 7
+y 49
+end
+arch dragon
 x 7
 y 49
 end
@@ -2417,100 +2515,4 @@ end
 arch bwall_2_2_4
 x 9
 y 50
-end
-arch dragon
-x 1
-y 20
-end
-arch dragon
-x 1
-y 27
-end
-arch dragon
-x 1
-y 31
-end
-arch dragon
-x 1
-y 33
-end
-arch dragon
-x 1
-y 40
-end
-arch dragon
-x 1
-y 43
-end
-arch dragon
-x 2
-y 2
-end
-arch dragon
-x 2
-y 8
-end
-arch dragon
-x 2
-y 13
-end
-arch dragon
-x 2
-y 17
-end
-arch dragon
-x 2
-y 23
-end
-arch dragon
-x 2
-y 36
-end
-arch dragon
-x 2
-y 46
-end
-arch dragon
-x 5
-y 12
-end
-arch dragon
-x 5
-y 29
-end
-arch dragon
-x 6
-y 25
-end
-arch dragon
-x 7
-y 8
-end
-arch dragon
-x 7
-y 16
-end
-arch dragon
-x 7
-y 22
-end
-arch dragon
-x 7
-y 35
-end
-arch dragon
-x 7
-y 38
-end
-arch dragon
-x 7
-y 41
-end
-arch dragon
-x 7
-y 44
-end
-arch dragon
-x 7
-y 49
 end
