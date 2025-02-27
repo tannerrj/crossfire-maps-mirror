@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-11-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 7
 height 6
+msg
+Created:  1999-11-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -142,7 +144,7 @@ msg
 Welcome to my inn! Would you like a
 room,some food,or information?
 @match room
-drop 10 gold to sleep here! 
+drop 10 gold to sleep here!
 @match food
 Go to the tables!
 @match information

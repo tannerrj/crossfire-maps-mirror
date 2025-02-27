@@ -1,11 +1,12 @@
 arch map
 name inn2
-msg
-Created:  1999-11-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 12
 height 12
+msg
+Created:  1999-11-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -195,7 +196,7 @@ arch magic_ear
 msg
 @match hello
 Let me tell you a story...
-Boom! You are jolted from your sleep! 
+Boom! You are jolted from your sleep!
 What! You look around. Where are you...
 Commander! A warrior calls you. I need
 to tell you something!

@@ -1,11 +1,12 @@
 arch map
 name city2
-msg
-Created:  1999-11-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 21
+msg
+Created:  1999-11-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch grassdark
 end
@@ -132,6 +133,10 @@ arch grassdark
 x 1
 y 1
 end
+arch courthouse
+x 1
+y 1
+end
 arch grassdark
 x 1
 y 2
@@ -417,6 +422,10 @@ x 3
 y 16
 end
 arch flagstone
+x 3
+y 17
+end
+arch s_ship
 x 3
 y 17
 end
@@ -470,7 +479,15 @@ arch flagstone
 x 4
 y 6
 end
+arch barrack_long
+x 4
+y 6
+end
 arch flagstone
+x 4
+y 7
+end
+arch barrack_long
 x 4
 y 7
 end
@@ -479,6 +496,10 @@ x 4
 y 8
 end
 arch grassdark
+x 4
+y 9
+end
+arch t_house2
 x 4
 y 9
 end
@@ -716,6 +737,10 @@ x 6
 y 16
 end
 arch flagstone
+x 6
+y 17
+end
+arch s_ship
 x 6
 y 17
 end
@@ -1019,6 +1044,10 @@ arch flagstone
 x 9
 y 17
 end
+arch s_ship
+x 9
+y 17
+end
 arch sea
 x 9
 y 18
@@ -1247,6 +1276,13 @@ end
 arch flagstone_2_1_2
 x 12
 end
+arch city_tower
+name battle tower
+slaying /ElvenLands/Gcitys/battleT
+hp 8
+sp 14
+x 12
+end
 arch grassdark
 x 12
 y 1
@@ -1316,6 +1352,10 @@ x 12
 y 16
 end
 arch flagstone
+x 12
+y 17
+end
+arch s_ship
 x 12
 y 17
 end
@@ -1467,7 +1507,15 @@ arch flagstone
 x 14
 y 6
 end
+arch barrack_long
+x 14
+y 6
+end
 arch flagstone
+x 14
+y 7
+end
+arch barrack_long
 x 14
 y 7
 end
@@ -1586,6 +1634,10 @@ arch grassdark
 x 15
 y 9
 end
+arch t_house1
+x 15
+y 9
+end
 arch grassdark
 x 15
 y 10
@@ -1623,6 +1675,10 @@ x 15
 y 16
 end
 arch flagstone
+x 15
+y 17
+end
+arch s_ship
 x 15
 y 17
 end
@@ -1917,6 +1973,10 @@ x 18
 y 16
 end
 arch flagstone
+x 18
+y 17
+end
+arch s_ship
 x 18
 y 17
 end
@@ -2221,63 +2281,4 @@ end
 arch sea
 x 20
 y 20
-end
-arch courthouse
-x 1
-y 1
-end
-arch s_ship
-x 3
-y 17
-end
-arch barrack_long
-x 4
-y 6
-end
-arch barrack_long
-x 4
-y 7
-end
-arch t_house2
-x 4
-y 9
-end
-arch s_ship
-x 6
-y 17
-end
-arch s_ship
-x 9
-y 17
-end
-arch city_tower
-name battle tower
-slaying /ElvenLands/Gcitys/battleT
-hp 8
-sp 14
-x 12
-end
-arch s_ship
-x 12
-y 17
-end
-arch barrack_long
-x 14
-y 6
-end
-arch barrack_long
-x 14
-y 7
-end
-arch t_house1
-x 15
-y 9
-end
-arch s_ship
-x 15
-y 17
-end
-arch s_ship
-x 18
-y 17
 end

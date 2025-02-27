@@ -1,11 +1,12 @@
 arch map
 name fort1
-msg
-Created:  1999-10-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-10-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch grassdark
 end
@@ -123,6 +124,10 @@ x 1
 y 9
 end
 arch grassdark
+x 1
+y 10
+end
+arch shadowtiger
 x 1
 y 10
 end
@@ -1275,6 +1280,10 @@ arch grassdark
 x 14
 y 2
 end
+arch shadowtiger
+x 14
+y 2
+end
 arch grassdark
 x 14
 y 3
@@ -1420,12 +1429,4 @@ end
 arch cobblestones2
 x 15
 y 15
-end
-arch shadowtiger
-x 1
-y 10
-end
-arch shadowtiger
-x 14
-y 2
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-11-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 31
 height 30
+msg
+Created:  1999-11-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch small_stones
 end
@@ -374,11 +376,19 @@ arch small_stones
 x 1
 y 22
 end
+arch barrack_long
+x 1
+y 22
+end
 arch small_stones
 x 1
 y 23
 end
 arch small_stones
+x 1
+y 24
+end
+arch barrack_long
 x 1
 y 24
 end
@@ -390,11 +400,19 @@ arch small_stones
 x 1
 y 26
 end
+arch barrack_long
+x 1
+y 26
+end
 arch small_stones
 x 1
 y 27
 end
 arch small_stones
+x 1
+y 28
+end
+arch barrack_long
 x 1
 y 28
 end
@@ -866,6 +884,10 @@ arch small_stones
 x 3
 y 27
 end
+arch fort
+x 3
+y 27
+end
 arch small_stones
 x 3
 y 28
@@ -1306,6 +1328,10 @@ arch small_stones
 x 5
 y 22
 end
+arch barrack_long
+x 5
+y 22
+end
 arch small_stones
 x 5
 y 23
@@ -1318,6 +1344,10 @@ arch small_stones
 x 5
 y 24
 end
+arch barrack_long
+x 5
+y 24
+end
 arch small_stones
 x 5
 y 25
@@ -1326,11 +1356,19 @@ arch small_stones
 x 5
 y 26
 end
+arch barrack_long
+x 5
+y 26
+end
 arch small_stones
 x 5
 y 27
 end
 arch small_stones
+x 5
+y 28
+end
+arch barrack_long
 x 5
 y 28
 end
@@ -7428,40 +7466,4 @@ end
 arch dark_elf
 x 30
 y 29
-end
-arch barrack_long
-x 1
-y 22
-end
-arch barrack_long
-x 1
-y 24
-end
-arch barrack_long
-x 1
-y 26
-end
-arch barrack_long
-x 1
-y 28
-end
-arch fort
-x 3
-y 27
-end
-arch barrack_long
-x 5
-y 22
-end
-arch barrack_long
-x 5
-y 24
-end
-arch barrack_long
-x 5
-y 26
-end
-arch barrack_long
-x 5
-y 28
 end
