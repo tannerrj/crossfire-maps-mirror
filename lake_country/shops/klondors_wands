@@ -11,7 +11,7 @@ enter_x 15
 enter_y 15
 msg
 Created: 1995-03-23
-Modified: 2023-06-05 Rick Tanner
+Modified: 2025-02-27 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -160,7 +160,7 @@ arch grass_only
 x 2
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 2
 end
@@ -168,7 +168,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 3
 end
@@ -176,7 +176,7 @@ arch wall_3_2
 x 2
 y 3
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 4
 end
@@ -184,7 +184,7 @@ arch wall_2_1_1
 x 2
 y 4
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 5
 end
@@ -192,7 +192,7 @@ arch wall_2_1_1
 x 2
 y 5
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 6
 end
@@ -204,7 +204,7 @@ arch light2
 x 2
 y 7
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 7
 end
@@ -212,7 +212,7 @@ arch window_win1
 x 2
 y 7
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 8
 end
@@ -220,7 +220,7 @@ arch wall_2_1_1
 x 2
 y 8
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 9
 end
@@ -228,7 +228,7 @@ arch wall_2_1_1
 x 2
 y 9
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 10
 end
@@ -236,7 +236,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 11
 end
@@ -248,7 +248,7 @@ arch light2
 x 2
 y 12
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 12
 end
@@ -256,7 +256,7 @@ arch window_win1
 x 2
 y 12
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 13
 end
@@ -264,7 +264,7 @@ arch wall_2_1_1
 x 2
 y 13
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 14
 end
@@ -272,7 +272,7 @@ arch wall_2_1_1
 x 2
 y 14
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 15
 end
@@ -280,7 +280,7 @@ arch wall_2_1_1
 x 2
 y 15
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 16
 end
@@ -288,7 +288,7 @@ arch wall_3_2
 x 2
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 2
 y 17
 end
@@ -311,7 +311,7 @@ arch grass_only
 x 3
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 3
 y 2
 end
@@ -387,7 +387,7 @@ arch wall_2_2_3
 x 3
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 3
 y 17
 end
@@ -410,7 +410,7 @@ arch grass_only
 x 4
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 4
 y 2
 end
@@ -482,7 +482,7 @@ arch shop_gems
 x 4
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 4
 y 17
 end
@@ -505,7 +505,7 @@ arch grass_only
 x 5
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 5
 y 2
 end
@@ -569,7 +569,7 @@ arch shop_gems
 x 5
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 5
 y 17
 end
@@ -596,7 +596,7 @@ arch light2
 x 6
 y 2
 end
-arch shop_empty
+arch cobblestones2
 x 6
 y 2
 end
@@ -676,7 +676,7 @@ arch light2
 x 6
 y 17
 end
-arch shop_empty
+arch cobblestones2
 x 6
 y 17
 end
@@ -699,7 +699,7 @@ arch grass_only
 x 7
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 7
 y 2
 end
@@ -763,7 +763,7 @@ arch shop_gems
 x 7
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 7
 y 17
 end
@@ -786,7 +786,7 @@ arch grass_only
 x 8
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 8
 y 2
 end
@@ -850,7 +850,7 @@ arch shop_gems
 x 8
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 8
 y 17
 end
@@ -873,7 +873,7 @@ arch grass_only
 x 9
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 9
 y 2
 end
@@ -953,7 +953,7 @@ arch shop_gems
 x 9
 y 16
 end
-arch shop_empty
+arch cobblestones2
 x 9
 y 17
 end
@@ -980,7 +980,7 @@ arch light2
 x 10
 y 2
 end
-arch shop_empty
+arch cobblestones2
 x 10
 y 2
 end
@@ -1052,7 +1052,7 @@ arch swall_2_1_1
 x 10
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 10
 y 17
 end
@@ -1075,7 +1075,7 @@ arch grass_only
 x 11
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 11
 y 2
 end
@@ -1162,7 +1162,7 @@ arch light2
 x 11
 y 17
 end
-arch woodfloor
+arch cobblestones2
 x 11
 y 17
 end
@@ -1185,7 +1185,7 @@ arch grass_only
 x 12
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 12
 y 2
 end
@@ -1290,7 +1290,7 @@ name drop 20 gold to identify an item
 x 12
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 12
 y 17
 end
@@ -1313,7 +1313,7 @@ arch grass_only
 x 13
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 13
 y 2
 end
@@ -1381,7 +1381,7 @@ arch woodfloor
 x 13
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 13
 y 17
 end
@@ -1408,7 +1408,7 @@ arch light2
 x 14
 y 2
 end
-arch shop_empty
+arch cobblestones2
 x 14
 y 2
 end
@@ -1481,7 +1481,7 @@ arch woodfloor
 x 14
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 14
 y 17
 end
@@ -1512,7 +1512,7 @@ arch grass_only
 x 15
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 15
 y 2
 end
@@ -1610,7 +1610,7 @@ x 15
 y 17
 connected 1
 end
-arch woodfloor
+arch cobblestones2
 x 15
 y 17
 end
@@ -1642,7 +1642,7 @@ arch grass_only
 x 16
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 16
 y 2
 end
@@ -1727,7 +1727,7 @@ arch woodfloor
 x 16
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 16
 y 17
 end
@@ -1758,7 +1758,7 @@ arch grass_only
 x 17
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 17
 y 2
 end
@@ -1857,7 +1857,7 @@ arch wall_2_2_2
 x 17
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 17
 y 17
 end
@@ -1880,7 +1880,7 @@ arch grass_only
 x 18
 y 1
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 2
 end
@@ -1888,7 +1888,7 @@ arch wall_2_2_3
 x 18
 y 2
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 3
 end
@@ -1896,7 +1896,7 @@ arch wall_3_4
 x 18
 y 3
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 4
 end
@@ -1904,7 +1904,7 @@ arch wall_2_1_1
 x 18
 y 4
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 5
 end
@@ -1916,7 +1916,7 @@ arch light2
 x 18
 y 6
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 6
 end
@@ -1924,7 +1924,7 @@ arch window_win1
 x 18
 y 6
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 7
 end
@@ -1932,7 +1932,7 @@ arch wall_2_1_1
 x 18
 y 7
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 8
 end
@@ -1940,7 +1940,7 @@ arch wall_2_1_1
 x 18
 y 8
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 9
 end
@@ -1948,7 +1948,7 @@ arch wall_2_1_1
 x 18
 y 9
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 10
 end
@@ -1956,7 +1956,7 @@ arch wall_2_1_1
 x 18
 y 10
 end
-arch shop_empty
+arch cobblestones2
 x 18
 y 11
 end
@@ -1964,7 +1964,7 @@ arch wall_2_1_1
 x 18
 y 11
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 12
 end
@@ -1980,7 +1980,7 @@ arch light2
 x 18
 y 13
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 13
 end
@@ -1988,7 +1988,7 @@ arch window_win1
 x 18
 y 13
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 14
 end
@@ -1996,7 +1996,7 @@ arch wall_2_1_1
 x 18
 y 14
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 15
 end
@@ -2004,7 +2004,7 @@ arch wall_2_1_1
 x 18
 y 15
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 16
 end
@@ -2012,7 +2012,7 @@ arch wall_3_4
 x 18
 y 16
 end
-arch woodfloor
+arch cobblestones2
 x 18
 y 17
 end
