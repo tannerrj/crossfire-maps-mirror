@@ -1,11 +1,12 @@
 arch map
 name circle0
-msg
-Created:  2001-01-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 21
+msg
+Created:  2001-01-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -884,8 +885,8 @@ the woods...
 endmsg
 x 7
 y 17
-protected 12
 connected 12
+protected 12
 end
 arch magic_mouth
 msg
@@ -901,9 +902,9 @@ sp 18
 x 7
 y 17
 speed 0.000000
-protected 12
 invisible 1
 connected 12
+protected 12
 end
 arch earth
 x 7
@@ -1638,9 +1639,9 @@ arch button_small
 name 20
 x 13
 y 18
-protected 20
 invisible 1
 connected 20
+protected 20
 end
 arch flagstone
 name darkness
@@ -1655,9 +1656,9 @@ sp 20
 x 13
 y 18
 speed 0.000000
-protected 20
 invisible 1
 connected 20
+protected 20
 end
 arch blocked
 x 13

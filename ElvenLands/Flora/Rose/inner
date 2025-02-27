@@ -1,12 +1,14 @@
 arch map
 name inner
+region elvenlands
+width 31
+height 27
 msg
 Creator: Joel Southall
 Email: joel@prninfo.com
 Date: Sat Apr  1 21:47:38 2000
+Modified: 2025-02-27 Rick Tanner
 endmsg
-width 31
-height 27
 end
 arch grass
 end
@@ -1404,6 +1406,10 @@ arch flagstone
 x 9
 y 4
 end
+arch city_tower
+x 9
+y 4
+end
 arch grass
 x 9
 y 5
@@ -1413,6 +1419,10 @@ x 9
 y 6
 end
 arch flagstone
+x 9
+y 7
+end
+arch city_tower
 x 9
 y 7
 end
@@ -1611,6 +1621,14 @@ arch grass
 x 10
 y 17
 end
+arch inn
+name Inn of Earth and Wood
+slaying /ElvenLands/Flora/Rose/inn
+hp 14
+sp 23
+x 10
+y 17
+end
 arch grass
 x 10
 y 18
@@ -1685,6 +1703,10 @@ arch flagstone
 x 11
 y 4
 end
+arch city_tower
+x 11
+y 4
+end
 arch grass
 x 11
 y 5
@@ -1697,6 +1719,10 @@ arch flagstone
 x 11
 y 7
 end
+arch city_tower
+x 11
+y 7
+end
 arch grass
 x 11
 y 8
@@ -1706,6 +1732,10 @@ x 11
 y 9
 end
 arch grass
+x 11
+y 10
+end
+arch store_armour
 x 11
 y 10
 end
@@ -1722,6 +1752,10 @@ x 11
 y 13
 end
 arch grass
+x 11
+y 14
+end
+arch store_weapons
 x 11
 y 14
 end
@@ -2484,6 +2518,10 @@ arch flagstone
 x 16
 y 1
 end
+arch church
+x 16
+y 1
+end
 arch flagstone
 x 16
 y 2
@@ -2525,6 +2563,14 @@ x 16
 y 11
 end
 arch flagstone
+x 16
+y 12
+end
+arch courthouse
+name shrine of the rose
+slaying /ElvenLands/Flora/Rose/rose
+hp 12
+sp 22
 x 16
 y 12
 end
@@ -2573,6 +2619,11 @@ x 16
 y 23
 end
 arch flagstone
+x 16
+y 24
+end
+arch t_house2
+name Governor's House
 x 16
 y 24
 end
@@ -3225,6 +3276,10 @@ arch grass
 x 20
 y 22
 end
+arch rl_house2
+x 20
+y 22
+end
 arch grass
 x 20
 y 23
@@ -3312,6 +3367,10 @@ arch grass
 x 21
 y 10
 end
+arch store_magic
+x 21
+y 10
+end
 arch grass
 x 21
 y 11
@@ -3325,6 +3384,14 @@ x 21
 y 13
 end
 arch grass
+x 21
+y 14
+end
+arch store_general
+name Food Shop
+slaying /ElvenLands/Flora/Rose/fshop
+hp 14
+sp 14
 x 21
 y 14
 end
@@ -3347,6 +3414,14 @@ end
 arch grass
 x 21
 y 18
+end
+arch dragon_exit
+slaying /ElvenLands/Flora/Rose/dragon
+hp 8
+sp 8
+x 21
+y 18
+speed_left -3.300000
 end
 arch grass
 x 21
@@ -3403,6 +3478,10 @@ arch cwall_2_1_2
 x 22
 end
 arch grass
+x 22
+y 1
+end
+arch prison
 x 22
 y 1
 end
@@ -3503,6 +3582,10 @@ x 22
 y 21
 end
 arch grass
+x 22
+y 22
+end
+arch rl_house2
 x 22
 y 22
 end
@@ -3722,6 +3805,10 @@ arch grass
 x 24
 y 10
 end
+arch rl_house3
+x 24
+y 10
+end
 arch grass
 x 24
 y 11
@@ -3735,6 +3822,10 @@ x 24
 y 13
 end
 arch grass
+x 24
+y 14
+end
+arch rl_house3
 x 24
 y 14
 end
@@ -3788,6 +3879,10 @@ x 24
 y 21
 end
 arch grass
+x 24
+y 22
+end
+arch rl_house2
 x 24
 y 22
 end
@@ -4297,6 +4392,10 @@ arch flagstone
 x 28
 y 14
 end
+arch keep
+x 28
+y 14
+end
 arch flagstone
 x 28
 y 15
@@ -4306,6 +4405,10 @@ x 28
 y 16
 end
 arch grass
+x 28
+y 17
+end
+arch barrack_up
 x 28
 y 17
 end
@@ -4321,6 +4424,10 @@ arch grass
 x 28
 y 20
 end
+arch barrack_up
+x 28
+y 20
+end
 arch grass
 x 28
 y 21
@@ -4330,6 +4437,10 @@ x 28
 y 22
 end
 arch grass
+x 28
+y 23
+end
+arch barrack_up
 x 28
 y 23
 end
@@ -4443,6 +4554,10 @@ arch grass
 x 29
 y 17
 end
+arch barrack_up
+x 29
+y 17
+end
 arch grass
 x 29
 y 18
@@ -4459,6 +4574,10 @@ arch grass
 x 29
 y 20
 end
+arch barrack_up
+x 29
+y 20
+end
 arch grass
 x 29
 y 21
@@ -4472,6 +4591,10 @@ x 29
 y 22
 end
 arch grass
+x 29
+y 23
+end
+arch barrack_up
 x 29
 y 23
 end
@@ -4714,125 +4837,4 @@ end
 arch cwall_2_2_4
 x 30
 y 26
-end
-arch city_tower
-x 9
-y 4
-end
-arch city_tower
-x 9
-y 7
-end
-arch inn
-name Inn of Earth and Wood
-slaying /ElvenLands/Flora/Rose/inn
-hp 14
-sp 23
-x 10
-y 17
-end
-arch city_tower
-x 11
-y 4
-end
-arch city_tower
-x 11
-y 7
-end
-arch store_armour
-x 11
-y 10
-end
-arch store_weapons
-x 11
-y 14
-end
-arch church
-x 16
-y 1
-end
-arch courthouse
-name shrine of the rose
-slaying /ElvenLands/Flora/Rose/rose
-hp 12
-sp 22
-x 16
-y 12
-end
-arch t_house2
-name Governor's House
-x 16
-y 24
-end
-arch rl_house2
-x 20
-y 22
-end
-arch store_magic
-x 21
-y 10
-end
-arch store_general
-name Food Shop
-slaying /ElvenLands/Flora/Rose/fshop
-hp 14
-sp 14
-x 21
-y 14
-end
-arch dragon_exit
-slaying /ElvenLands/Flora/Rose/dragon
-hp 8
-sp 8
-x 21
-y 18
-speed_left -3.300000
-end
-arch prison
-x 22
-y 1
-end
-arch rl_house2
-x 22
-y 22
-end
-arch rl_house3
-x 24
-y 10
-end
-arch rl_house3
-x 24
-y 14
-end
-arch rl_house2
-x 24
-y 22
-end
-arch keep
-x 28
-y 14
-end
-arch barrack_up
-x 28
-y 17
-end
-arch barrack_up
-x 28
-y 20
-end
-arch barrack_up
-x 28
-y 23
-end
-arch barrack_up
-x 29
-y 17
-end
-arch barrack_up
-x 29
-y 20
-end
-arch barrack_up
-x 29
-y 23
 end

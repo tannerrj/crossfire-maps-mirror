@@ -1,11 +1,14 @@
 arch map
+name <unnamed>
+region elvenlands
+width 42
+height 26
 msg
 Creator: Joel Southall
 Email: joel@prninfo.com
 Date: Sat Apr  1 14:49:23 2000
+Modified: 2025-02-27 Rick Tanner
 endmsg
-width 42
-height 26
 end
 arch grass
 end
@@ -1012,6 +1015,10 @@ arch dirtfloor
 x 7
 y 18
 end
+arch barn
+x 7
+y 18
+end
 arch dirtfloor
 x 7
 y 19
@@ -1249,6 +1256,10 @@ x 9
 y 14
 end
 arch dirtfloor
+x 9
+y 15
+end
+arch farmhouse
 x 9
 y 15
 end
@@ -1820,6 +1831,10 @@ x 13
 y 3
 end
 arch dirtfloor
+x 13
+y 4
+end
+arch barn
 x 13
 y 4
 end
@@ -2509,6 +2524,10 @@ arch dirtroad_0
 x 17
 y 9
 end
+arch farmhouse
+x 17
+y 9
+end
 arch grass
 x 17
 y 10
@@ -3049,6 +3068,10 @@ x 20
 y 14
 end
 arch dirtfloor
+x 20
+y 15
+end
+arch farmhouse
 x 20
 y 15
 end
@@ -3911,6 +3934,10 @@ arch dirtfloor
 x 26
 y 18
 end
+arch barn
+x 26
+y 18
+end
 arch dirtfloor
 x 26
 y 19
@@ -4322,6 +4349,10 @@ arch dirtfloor
 x 29
 y 6
 end
+arch barn
+x 29
+y 6
+end
 arch dirtfloor
 x 29
 y 7
@@ -4524,6 +4555,10 @@ x 30
 y 15
 end
 arch dirtfloor
+x 30
+y 16
+end
+arch farmhouse
 x 30
 y 16
 end
@@ -4771,6 +4806,10 @@ x 32
 y 10
 end
 arch dirtroad_0
+x 32
+y 10
+end
+arch farmhouse
 x 32
 y 10
 end
@@ -5239,6 +5278,10 @@ x 35
 y 17
 end
 arch dirtfloor
+x 35
+y 18
+end
+arch barn
 x 35
 y 18
 end
@@ -6151,44 +6194,4 @@ x 41
 y 25
 walk_on 0
 no_pass 1
-end
-arch barn
-x 7
-y 18
-end
-arch farmhouse
-x 9
-y 15
-end
-arch barn
-x 13
-y 4
-end
-arch farmhouse
-x 17
-y 9
-end
-arch farmhouse
-x 20
-y 15
-end
-arch barn
-x 26
-y 18
-end
-arch barn
-x 29
-y 6
-end
-arch farmhouse
-x 30
-y 16
-end
-arch farmhouse
-x 32
-y 10
-end
-arch barn
-x 35
-y 18
 end

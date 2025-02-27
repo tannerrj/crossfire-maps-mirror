@@ -1,11 +1,14 @@
 arch map
+name <unnamed>
+region elvenlands
+width 16
+height 16
 msg
 Creator: Neebin Southall
 Email: neeb@prninfo.com
 Date: Thu Apr 13 13:19:54 2000
+Modified: 2025-02-27 Rick Tanner
 endmsg
-width 16
-height 16
 end
 arch flagstone
 end
@@ -605,6 +608,13 @@ end
 arch earth
 x 4
 y 2
+end
+arch ent
+name tree
+x 4
+y 2
+alive 0
+monster 0
 end
 arch shop_empty
 x 4
@@ -2363,11 +2373,4 @@ end
 arch flagstone_2_2_4
 x 15
 y 15
-end
-arch ent
-name tree
-x 4
-y 2
-alive 0
-monster 0
 end

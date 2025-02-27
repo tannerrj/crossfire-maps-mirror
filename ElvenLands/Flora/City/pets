@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-04-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 41
 height 16
+msg
+Created:  2000-04-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -218,6 +220,10 @@ arch charm_floor
 x 2
 y 1
 connected 16
+end
+arch big_elec
+x 2
+y 1
 end
 arch cobblestones2
 x 2
@@ -561,6 +567,10 @@ x 5
 y 1
 connected 15
 end
+arch big_elec
+x 5
+y 1
+end
 arch cobblestones2
 x 5
 y 2
@@ -886,6 +896,10 @@ arch charm_floor
 x 8
 y 1
 connected 14
+end
+arch big_elec
+x 8
+y 1
 end
 arch cobblestones2
 x 8
@@ -2012,7 +2026,7 @@ name shopkeeper
 msg
 @match *
 Hello! Welcome to my pet store!
- Look around! 
+ Look around!
 endmsg
 x 18
 y 7
@@ -2488,6 +2502,10 @@ x 22
 y 12
 connected 26
 end
+arch behemoth
+x 22
+y 12
+end
 arch cobblestones2
 x 22
 y 13
@@ -2735,6 +2753,10 @@ arch charm_floor
 x 25
 y 1
 connected 7
+end
+arch dread
+x 25
+y 1
 end
 arch cobblestones2
 x 25
@@ -3035,6 +3057,10 @@ arch charm_floor
 x 28
 y 1
 connected 6
+end
+arch cobra
+x 28
+y 1
 end
 arch cobblestones2
 x 28
@@ -3933,6 +3959,16 @@ x 36
 y 14
 connected 32
 end
+arch dragon
+name trained dragon
+msg
+@match *
+Roooaaarrr!
+endmsg
+x 36
+y 14
+unaggressive 1
+end
 arch cobblestones2
 x 36
 y 15
@@ -4388,38 +4424,4 @@ end
 arch dwall_2_2_4
 x 40
 y 15
-end
-arch big_elec
-x 2
-y 1
-end
-arch big_elec
-x 5
-y 1
-end
-arch big_elec
-x 8
-y 1
-end
-arch behemoth
-x 22
-y 12
-end
-arch dread
-x 25
-y 1
-end
-arch cobra
-x 28
-y 1
-end
-arch dragon
-name trained dragon
-msg
-@match *
-Roooaaarrr! 
-endmsg
-x 36
-y 14
-unaggressive 1
 end

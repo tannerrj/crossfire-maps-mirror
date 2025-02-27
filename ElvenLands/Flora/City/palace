@@ -1,11 +1,12 @@
 arch map
 name palace
-msg
-Created:  2000-04-16 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 31
 height 31
+msg
+Created:  2000-04-16 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -3916,7 +3917,7 @@ Ahh yes,King Yoer. Emperess Flora was
 engaged to marry King Yoer. But
 then... He never came back from his
 journey to the Dwarven Kingdom of
-Erthos. 
+Erthos.
 @match Dwarves|Dwarven Kingdom|Erthos
 Yes,the kingdom of the dwarves. He
 went there,beleiving he would find the
@@ -3945,7 +3946,7 @@ Alliance is an alliance of several
 factions that have turned to evil. If
 you are a magic user yourself,you
 should see our own circle. The Green
-Circle. 
+Circle.
 @match the Green Circle|Green Circle
 Their meeting place can be found west
 of the ancient oak. The password to

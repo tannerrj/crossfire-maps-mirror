@@ -1,11 +1,12 @@
 arch map
 name city
-msg
-Created:  2000-02-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 51
 height 51
+msg
+Created:  2000-02-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch jungle_1
 name woods
@@ -2991,6 +2992,10 @@ arch grass
 x 11
 y 37
 end
+arch t_house1
+x 11
+y 37
+end
 arch grass
 x 11
 y 38
@@ -3000,6 +3005,10 @@ x 11
 y 39
 end
 arch grass
+x 11
+y 40
+end
+arch t_house1
 x 11
 y 40
 end
@@ -3016,6 +3025,14 @@ x 11
 y 43
 end
 arch grass
+x 11
+y 44
+end
+arch university
+msg
+This university is open to Florians
+only!
+endmsg
 x 11
 y 44
 end
@@ -3751,6 +3768,10 @@ arch grass
 x 14
 y 29
 end
+arch prison
+x 14
+y 29
+end
 arch grass
 x 14
 y 30
@@ -3787,6 +3808,10 @@ arch grass
 x 14
 y 37
 end
+arch t_house1
+x 14
+y 37
+end
 arch grass
 x 14
 y 38
@@ -3796,6 +3821,10 @@ x 14
 y 39
 end
 arch grass
+x 14
+y 40
+end
+arch t_house1
 x 14
 y 40
 end
@@ -4826,7 +4855,7 @@ end
 arch magic_ear
 msg
 @match Gaia's Defenders
-"Enter,friend..." 
+"Enter,friend..."
 You are suddenly pulled underwater.
 But strangely,you do not drown. You
 appear in a strange place...
@@ -6190,6 +6219,10 @@ arch grass
 x 22
 y 24
 end
+arch s_tower1
+x 22
+y 24
+end
 arch grass
 x 22
 y 25
@@ -6278,6 +6311,10 @@ x 22
 y 36
 end
 arch grass
+x 22
+y 37
+end
+arch church
 x 22
 y 37
 end
@@ -7071,6 +7108,10 @@ arch grass
 x 25
 y 29
 end
+arch stronghold
+x 25
+y 29
+end
 arch grass
 x 25
 y 30
@@ -7092,6 +7133,10 @@ x 25
 y 33
 end
 arch grass
+x 25
+y 34
+end
+arch barrack_up
 x 25
 y 34
 end
@@ -7323,6 +7368,10 @@ x 26
 y 33
 end
 arch grass
+x 26
+y 34
+end
+arch barrack_up
 x 26
 y 34
 end
@@ -7362,6 +7411,14 @@ arch grass
 x 26
 y 40
 end
+arch l_shop1
+name Food shop
+slaying /ElvenLands/Flora/City/food
+hp 2
+sp 14
+x 26
+y 40
+end
 arch grass
 x 26
 y 41
@@ -7374,6 +7431,10 @@ arch grass
 x 26
 y 43
 end
+arch l_shop1
+x 26
+y 43
+end
 arch grass
 x 26
 y 44
@@ -7383,6 +7444,10 @@ x 26
 y 45
 end
 arch grass
+x 26
+y 46
+end
+arch l_shop1
 x 26
 y 46
 end
@@ -7586,6 +7651,10 @@ x 27
 y 33
 end
 arch grass
+x 27
+y 34
+end
+arch barrack_up
 x 27
 y 34
 end
@@ -7832,6 +7901,10 @@ x 28
 y 29
 end
 arch grass
+x 28
+y 30
+end
+arch keep
 x 28
 y 30
 end
@@ -8315,6 +8388,10 @@ arch grass
 x 30
 y 29
 end
+arch stronghold
+x 30
+y 29
+end
 arch grass
 x 30
 y 30
@@ -8336,6 +8413,10 @@ x 30
 y 33
 end
 arch grass
+x 30
+y 34
+end
+arch barrack_up
 x 30
 y 34
 end
@@ -8372,6 +8453,14 @@ arch grass
 x 30
 y 40
 end
+arch l_shop1
+name Tailor Shop
+slaying /ElvenLands/Flora/City/tailor
+hp 1
+sp 14
+x 30
+y 40
+end
 arch grass
 x 30
 y 41
@@ -8384,6 +8473,10 @@ arch grass
 x 30
 y 43
 end
+arch l_shop1
+x 30
+y 43
+end
 arch grass
 x 30
 y 44
@@ -8393,6 +8486,10 @@ x 30
 y 45
 end
 arch grass
+x 30
+y 46
+end
+arch l_shop1
 x 30
 y 46
 end
@@ -8663,6 +8760,10 @@ arch grass
 x 31
 y 34
 end
+arch barrack_up
+x 31
+y 34
+end
 arch grass
 x 31
 y 35
@@ -8745,6 +8846,11 @@ arch grass
 x 32
 y 1
 end
+arch collesium
+name Dragon Races
+x 32
+y 1
+end
 arch grass
 x 32
 y 2
@@ -8761,6 +8867,11 @@ arch grass
 x 32
 y 5
 end
+arch barn
+name dragon barn
+x 32
+y 5
+end
 arch grass
 x 32
 y 6
@@ -8774,6 +8885,11 @@ x 32
 y 8
 end
 arch grass
+x 32
+y 9
+end
+arch barn
+name Dragon Barn
 x 32
 y 9
 end
@@ -8937,6 +9053,10 @@ arch grass
 x 32
 y 34
 end
+arch barrack_up
+x 32
+y 34
+end
 arch grass
 x 32
 y 35
@@ -8954,6 +9074,14 @@ x 32
 y 37
 end
 arch grass
+x 32
+y 38
+end
+arch house_largish
+name Smithery
+slaying /ElvenLands/Flora/City/smith
+hp 8
+sp 14
 x 32
 y 38
 end
@@ -9264,6 +9392,10 @@ arch grass
 x 33
 y 40
 end
+arch l_shop1
+x 33
+y 40
+end
 arch grass
 x 33
 y 41
@@ -9276,6 +9408,10 @@ arch grass
 x 33
 y 43
 end
+arch l_shop1
+x 33
+y 43
+end
 arch grass
 x 33
 y 44
@@ -9285,6 +9421,10 @@ x 33
 y 45
 end
 arch grass
+x 33
+y 46
+end
+arch l_shop1
 x 33
 y 46
 end
@@ -9479,6 +9619,10 @@ arch grass
 x 34
 y 30
 end
+arch house_up
+x 34
+y 30
+end
 arch grass
 x 34
 y 31
@@ -9488,6 +9632,10 @@ x 34
 y 32
 end
 arch grass
+x 34
+y 33
+end
+arch house_up
 x 34
 y 33
 end
@@ -9593,6 +9741,11 @@ arch grass
 x 35
 y 5
 end
+arch barn
+name dragon barn
+x 35
+y 5
+end
 arch grass
 x 35
 y 6
@@ -9606,6 +9759,11 @@ x 35
 y 8
 end
 arch grass
+x 35
+y 9
+end
+arch barn
+name dragon barn
 x 35
 y 9
 end
@@ -9969,6 +10127,10 @@ arch grass
 x 36
 y 30
 end
+arch house_up
+x 36
+y 30
+end
 arch grass
 x 36
 y 31
@@ -9978,6 +10140,10 @@ x 36
 y 32
 end
 arch grass
+x 36
+y 33
+end
+arch house_up
 x 36
 y 33
 end
@@ -10499,6 +10665,10 @@ arch grass
 x 38
 y 30
 end
+arch house_up
+x 38
+y 30
+end
 arch grass
 x 38
 y 31
@@ -10508,6 +10678,10 @@ x 38
 y 32
 end
 arch grass
+x 38
+y 33
+end
+arch house_up
 x 38
 y 33
 end
@@ -10832,6 +11006,10 @@ arch grass
 x 39
 y 37
 end
+arch courthouse
+x 39
+y 37
+end
 arch grass
 x 39
 y 38
@@ -10928,6 +11106,11 @@ arch cwall_2_1_2
 x 40
 end
 arch grass
+x 40
+y 1
+end
+arch collesium
+name Sports Stadium
 x 40
 y 1
 end
@@ -11086,6 +11269,10 @@ arch grass
 x 40
 y 30
 end
+arch house_up
+x 40
+y 30
+end
 arch grass
 x 40
 y 31
@@ -11095,6 +11282,10 @@ x 40
 y 32
 end
 arch grass
+x 40
+y 33
+end
+arch house_up
 x 40
 y 33
 end
@@ -11147,6 +11338,10 @@ x 40
 y 43
 end
 arch grass
+x 40
+y 44
+end
+arch cathedral
 x 40
 y 44
 end
@@ -11645,6 +11840,13 @@ arch grass
 x 42
 y 31
 end
+arch inn
+slaying /ElvenLands/Flora/City/inn
+hp 8
+sp 14
+x 42
+y 31
+end
 arch cobblestones2
 x 42
 y 32
@@ -11678,6 +11880,10 @@ x 42
 y 36
 end
 arch grass
+x 42
+y 37
+end
+arch courthouse
 x 42
 y 37
 end
@@ -12502,6 +12708,13 @@ arch cobblestones2
 x 45
 y 39
 end
+arch palace
+slaying /ElvenLands/Flora/City/palace
+hp 2
+sp 14
+x 45
+y 39
+end
 arch cobblestones2
 x 45
 y 40
@@ -12527,6 +12740,11 @@ arch grass
 x 45
 y 44
 end
+arch t_house2
+name Shrine
+x 45
+y 44
+end
 arch grass
 x 45
 y 45
@@ -12536,6 +12754,11 @@ x 45
 y 46
 end
 arch grass
+x 45
+y 47
+end
+arch t_house2
+name Shrine
 x 45
 y 47
 end
@@ -12582,6 +12805,11 @@ x 46
 y 3
 end
 arch grass
+x 46
+y 4
+end
+arch city_tower
+name tower by the lake
 x 46
 y 4
 end
@@ -13071,6 +13299,10 @@ arch grass
 x 48
 y 1
 end
+arch church
+x 48
+y 1
+end
 arch grass
 x 48
 y 2
@@ -13100,6 +13332,11 @@ x 48
 y 6
 end
 arch grass
+x 48
+y 7
+end
+arch rl_house2
+name Runsley Manor
 x 48
 y 7
 end
@@ -13199,6 +13436,10 @@ arch grass
 x 48
 y 29
 end
+arch guild
+x 48
+y 29
+end
 arch grass
 x 48
 y 30
@@ -13271,6 +13512,11 @@ arch grass
 x 48
 y 44
 end
+arch t_house2
+name Shrine
+x 48
+y 44
+end
 arch grass
 x 48
 y 45
@@ -13280,6 +13526,11 @@ x 48
 y 46
 end
 arch grass
+x 48
+y 47
+end
+arch t_house2
+name Shrine
 x 48
 y 47
 end
@@ -13962,254 +14213,4 @@ end
 arch cwall_2_2_4
 x 50
 y 50
-end
-arch t_house1
-x 11
-y 37
-end
-arch t_house1
-x 11
-y 40
-end
-arch university
-msg
-This university is open to Florians
-only!
-endmsg
-x 11
-y 44
-end
-arch prison
-x 14
-y 29
-end
-arch t_house1
-x 14
-y 37
-end
-arch t_house1
-x 14
-y 40
-end
-arch s_tower1
-x 22
-y 24
-end
-arch church
-x 22
-y 37
-end
-arch stronghold
-x 25
-y 29
-end
-arch barrack_up
-x 25
-y 34
-end
-arch barrack_up
-x 26
-y 34
-end
-arch l_shop1
-name Food shop
-slaying /ElvenLands/Flora/City/food
-hp 2
-sp 14
-x 26
-y 40
-end
-arch l_shop1
-x 26
-y 43
-end
-arch l_shop1
-x 26
-y 46
-end
-arch barrack_up
-x 27
-y 34
-end
-arch keep
-x 28
-y 30
-end
-arch stronghold
-x 30
-y 29
-end
-arch barrack_up
-x 30
-y 34
-end
-arch l_shop1
-name Tailor Shop
-slaying /ElvenLands/Flora/City/tailor
-hp 1
-sp 14
-x 30
-y 40
-end
-arch l_shop1
-x 30
-y 43
-end
-arch l_shop1
-x 30
-y 46
-end
-arch barrack_up
-x 31
-y 34
-end
-arch collesium
-name Dragon Races
-x 32
-y 1
-end
-arch barn
-name dragon barn
-x 32
-y 5
-end
-arch barn
-name Dragon Barn
-x 32
-y 9
-end
-arch barrack_up
-x 32
-y 34
-end
-arch house_largish
-name Smithery
-slaying /ElvenLands/Flora/City/smith
-hp 8
-sp 14
-x 32
-y 38
-end
-arch l_shop1
-x 33
-y 40
-end
-arch l_shop1
-x 33
-y 43
-end
-arch l_shop1
-x 33
-y 46
-end
-arch house_up
-x 34
-y 30
-end
-arch house_up
-x 34
-y 33
-end
-arch barn
-name dragon barn
-x 35
-y 5
-end
-arch barn
-name dragon barn
-x 35
-y 9
-end
-arch house_up
-x 36
-y 30
-end
-arch house_up
-x 36
-y 33
-end
-arch house_up
-x 38
-y 30
-end
-arch house_up
-x 38
-y 33
-end
-arch courthouse
-x 39
-y 37
-end
-arch collesium
-name Sports Stadium
-x 40
-y 1
-end
-arch house_up
-x 40
-y 30
-end
-arch house_up
-x 40
-y 33
-end
-arch cathedral
-x 40
-y 44
-end
-arch inn
-slaying /ElvenLands/Flora/City/inn
-hp 8
-sp 14
-x 42
-y 31
-end
-arch courthouse
-x 42
-y 37
-end
-arch palace
-slaying /ElvenLands/Flora/City/palace
-hp 2
-sp 14
-x 45
-y 39
-end
-arch t_house2
-name Shrine
-x 45
-y 44
-end
-arch t_house2
-name Shrine
-x 45
-y 47
-end
-arch city_tower
-name tower by the lake
-x 46
-y 4
-end
-arch church
-x 48
-y 1
-end
-arch rl_house2
-name Runsley Manor
-x 48
-y 7
-end
-arch guild
-x 48
-y 29
-end
-arch t_house2
-name Shrine
-x 48
-y 44
-end
-arch t_house2
-name Shrine
-x 48
-y 47
 end

@@ -1,11 +1,14 @@
 arch map
+name <unnamed>
+region elvenlands
+width 32
+height 32
 msg
 Creator: Joel Southall
 Email: joel@prninfo.com
 Date: Wed Feb 28 13:49:09 2001
+Modified: 2025-02-27 Rick Tanner
 endmsg
-width 32
-height 32
 end
 arch jungle_1
 name woods
@@ -4914,6 +4917,10 @@ arch dirtfloor
 x 30
 y 26
 end
+arch barn
+x 30
+y 26
+end
 arch dirtfloor
 x 30
 y 27
@@ -5128,8 +5135,4 @@ end
 arch tree5
 x 31
 y 31
-end
-arch barn
-x 30
-y 26
 end

@@ -1,157 +1,102 @@
 arch map
 name circleCliff
-msg
-Created:  2001-01-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
 width 25
 height 20
+msg
+Created:  2001-01-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch blocked
-msg
-endmsg
 y 1
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch blocked
-msg
-endmsg
 y 4
 end
 arch blocked
-msg
-endmsg
 y 5
 end
 arch blocked
-msg
-endmsg
 y 6
 end
 arch blocked
-msg
-endmsg
 y 7
 end
 arch blocked
-msg
-endmsg
 y 8
 end
 arch blocked
-msg
-endmsg
 y 9
 end
 arch blocked
-msg
-endmsg
 y 10
 end
 arch blocked
-msg
-endmsg
 y 11
 end
 arch blocked
-msg
-endmsg
 y 12
 end
 arch blocked
-msg
-endmsg
 y 13
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch blocked
-msg
-endmsg
 y 15
 end
 arch blocked
-msg
-endmsg
 y 16
 end
 arch blocked
-msg
-endmsg
 y 17
 end
 arch blocked
-msg
-endmsg
 y 18
 end
 arch blocked
-msg
-endmsg
 y 19
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
 arch blocked
-msg
-endmsg
 x 1
 y 3
 end
 arch blocked
-msg
-endmsg
 x 1
 y 4
 end
 arch blocked
-msg
-endmsg
 x 1
 y 5
 end
 arch blocked
-msg
-endmsg
 x 1
 y 6
 end
 arch blocked
-msg
-endmsg
 x 1
 y 7
 end
 arch blocked
-msg
-endmsg
 x 1
 y 8
 end
@@ -200,13 +145,9 @@ x 1
 y 19
 end
 arch blocked
-msg
-endmsg
 x 2
 end
 arch blocked
-msg
-endmsg
 x 2
 y 1
 end
@@ -263,32 +204,22 @@ y 2
 sleep 1
 end
 arch blocked
-msg
-endmsg
 x 2
 y 3
 end
 arch blocked
-msg
-endmsg
 x 2
 y 4
 end
 arch blocked
-msg
-endmsg
 x 2
 y 6
 end
 arch blocked
-msg
-endmsg
 x 2
 y 7
 end
 arch blocked
-msg
-endmsg
 x 2
 y 8
 end
@@ -337,32 +268,22 @@ x 2
 y 13
 end
 arch blocked
-msg
-endmsg
 x 2
 y 14
 end
 arch blocked
-msg
-endmsg
 x 2
 y 15
 end
 arch blocked
-msg
-endmsg
 x 2
 y 16
 end
 arch blocked
-msg
-endmsg
 x 2
 y 17
 end
 arch blocked
-msg
-endmsg
 x 2
 y 18
 end
@@ -371,55 +292,37 @@ x 2
 y 19
 end
 arch blocked
-msg
-endmsg
 x 3
 end
 arch blocked
-msg
-endmsg
 x 3
 y 1
 end
 arch blocked
-msg
-endmsg
 x 3
 y 2
 end
 arch blocked
-msg
-endmsg
 x 3
 y 3
 end
 arch blocked
-msg
-endmsg
 x 3
 y 4
 end
 arch blocked
-msg
-endmsg
 x 3
 y 5
 end
 arch blocked
-msg
-endmsg
 x 3
 y 6
 end
 arch blocked
-msg
-endmsg
 x 3
 y 7
 end
 arch blocked
-msg
-endmsg
 x 3
 y 8
 end
@@ -444,32 +347,22 @@ x 3
 y 13
 end
 arch blocked
-msg
-endmsg
 x 3
 y 14
 end
 arch blocked
-msg
-endmsg
 x 3
 y 15
 end
 arch blocked
-msg
-endmsg
 x 3
 y 16
 end
 arch blocked
-msg
-endmsg
 x 3
 y 17
 end
 arch blocked
-msg
-endmsg
 x 3
 y 18
 end
@@ -478,55 +371,37 @@ x 3
 y 19
 end
 arch blocked
-msg
-endmsg
 x 4
 end
 arch blocked
-msg
-endmsg
 x 4
 y 1
 end
 arch blocked
-msg
-endmsg
 x 4
 y 2
 end
 arch blocked
-msg
-endmsg
 x 4
 y 3
 end
 arch blocked
-msg
-endmsg
 x 4
 y 4
 end
 arch blocked
-msg
-endmsg
 x 4
 y 5
 end
 arch blocked
-msg
-endmsg
 x 4
 y 6
 end
 arch blocked
-msg
-endmsg
 x 4
 y 7
 end
 arch blocked
-msg
-endmsg
 x 4
 y 8
 end
@@ -549,44 +424,30 @@ x 4
 y 11
 end
 arch blocked
-msg
-endmsg
 x 4
 y 12
 end
 arch blocked
-msg
-endmsg
 x 4
 y 13
 end
 arch blocked
-msg
-endmsg
 x 4
 y 14
 end
 arch blocked
-msg
-endmsg
 x 4
 y 15
 end
 arch blocked
-msg
-endmsg
 x 4
 y 16
 end
 arch blocked
-msg
-endmsg
 x 4
 y 17
 end
 arch blocked
-msg
-endmsg
 x 4
 y 18
 end
@@ -595,37 +456,25 @@ x 4
 y 19
 end
 arch blocked
-msg
-endmsg
 x 5
 end
 arch blocked
-msg
-endmsg
 x 5
 y 1
 end
 arch blocked
-msg
-endmsg
 x 5
 y 5
 end
 arch blocked
-msg
-endmsg
 x 5
 y 6
 end
 arch blocked
-msg
-endmsg
 x 5
 y 7
 end
 arch blocked
-msg
-endmsg
 x 5
 y 8
 end
@@ -638,50 +487,34 @@ x 5
 y 10
 end
 arch blocked
-msg
-endmsg
 x 5
 y 11
 end
 arch blocked
-msg
-endmsg
 x 5
 y 12
 end
 arch blocked
-msg
-endmsg
 x 5
 y 13
 end
 arch blocked
-msg
-endmsg
 x 5
 y 14
 end
 arch blocked
-msg
-endmsg
 x 5
 y 15
 end
 arch blocked
-msg
-endmsg
 x 5
 y 16
 end
 arch blocked
-msg
-endmsg
 x 5
 y 17
 end
 arch blocked
-msg
-endmsg
 x 5
 y 18
 end
@@ -690,55 +523,37 @@ x 5
 y 19
 end
 arch blocked
-msg
-endmsg
 x 6
 end
 arch blocked
-msg
-endmsg
 x 6
 y 1
 end
 arch blocked
-msg
-endmsg
 x 6
 y 2
 end
 arch blocked
-msg
-endmsg
 x 6
 y 3
 end
 arch blocked
-msg
-endmsg
 x 6
 y 4
 end
 arch blocked
-msg
-endmsg
 x 6
 y 5
 end
 arch blocked
-msg
-endmsg
 x 6
 y 6
 end
 arch blocked
-msg
-endmsg
 x 6
 y 7
 end
 arch blocked
-msg
-endmsg
 x 6
 y 8
 end
@@ -751,50 +566,34 @@ x 6
 y 10
 end
 arch blocked
-msg
-endmsg
 x 6
 y 11
 end
 arch blocked
-msg
-endmsg
 x 6
 y 12
 end
 arch blocked
-msg
-endmsg
 x 6
 y 13
 end
 arch blocked
-msg
-endmsg
 x 6
 y 14
 end
 arch blocked
-msg
-endmsg
 x 6
 y 15
 end
 arch blocked
-msg
-endmsg
 x 6
 y 16
 end
 arch blocked
-msg
-endmsg
 x 6
 y 17
 end
 arch blocked
-msg
-endmsg
 x 6
 y 18
 end
@@ -803,115 +602,77 @@ x 6
 y 19
 end
 arch blocked
-msg
-endmsg
 x 7
 end
 arch blocked
-msg
-endmsg
 x 7
 y 1
 end
 arch blocked
-msg
-endmsg
 x 7
 y 2
 end
 arch blocked
-msg
-endmsg
 x 7
 y 3
 end
 arch blocked
-msg
-endmsg
 x 7
 y 4
 end
 arch blocked
-msg
-endmsg
 x 7
 y 5
 end
 arch blocked
-msg
-endmsg
 x 7
 y 6
 end
 arch blocked
-msg
-endmsg
 x 7
 y 7
 end
 arch blocked
-msg
-endmsg
 x 7
 y 8
 end
 arch blocked
-msg
-endmsg
 x 7
 y 9
 end
 arch blocked
-msg
-endmsg
 x 7
 y 10
 end
 arch blocked
-msg
-endmsg
 x 7
 y 11
 end
 arch blocked
-msg
-endmsg
 x 7
 y 12
 end
 arch blocked
-msg
-endmsg
 x 7
 y 13
 end
 arch blocked
-msg
-endmsg
 x 7
 y 14
 end
 arch blocked
-msg
-endmsg
 x 7
 y 15
 end
 arch blocked
-msg
-endmsg
 x 7
 y 16
 end
 arch blocked
-msg
-endmsg
 x 7
 y 17
 end
 arch blocked
-msg
-endmsg
 x 7
 y 18
 end
@@ -920,8 +681,6 @@ x 7
 y 19
 end
 arch blocked
-msg
-endmsg
 x 8
 end
 arch blocked
@@ -929,98 +688,66 @@ x 8
 y 2
 end
 arch blocked
-msg
-endmsg
 x 8
 y 3
 end
 arch blocked
-msg
-endmsg
 x 8
 y 4
 end
 arch blocked
-msg
-endmsg
 x 8
 y 5
 end
 arch blocked
-msg
-endmsg
 x 8
 y 6
 end
 arch blocked
-msg
-endmsg
 x 8
 y 7
 end
 arch blocked
-msg
-endmsg
 x 8
 y 8
 end
 arch blocked
-msg
-endmsg
 x 8
 y 9
 end
 arch blocked
-msg
-endmsg
 x 8
 y 10
 end
 arch blocked
-msg
-endmsg
 x 8
 y 11
 end
 arch blocked
-msg
-endmsg
 x 8
 y 12
 end
 arch blocked
-msg
-endmsg
 x 8
 y 13
 end
 arch blocked
-msg
-endmsg
 x 8
 y 14
 end
 arch blocked
-msg
-endmsg
 x 8
 y 15
 end
 arch blocked
-msg
-endmsg
 x 8
 y 16
 end
 arch blocked
-msg
-endmsg
 x 8
 y 17
 end
 arch blocked
-msg
-endmsg
 x 8
 y 18
 end
@@ -1029,43 +756,29 @@ x 8
 y 19
 end
 arch blocked
-msg
-endmsg
 x 9
 end
 arch blocked
-msg
-endmsg
 x 9
 y 1
 end
 arch blocked
-msg
-endmsg
 x 9
 y 2
 end
 arch blocked
-msg
-endmsg
 x 9
 y 3
 end
 arch blocked
-msg
-endmsg
 x 9
 y 4
 end
 arch blocked
-msg
-endmsg
 x 9
 y 5
 end
 arch blocked
-msg
-endmsg
 x 9
 y 6
 end
@@ -1114,8 +827,6 @@ x 9
 y 17
 end
 arch blocked
-msg
-endmsg
 x 9
 y 18
 end
@@ -1124,31 +835,21 @@ x 9
 y 19
 end
 arch blocked
-msg
-endmsg
 x 10
 end
 arch blocked
-msg
-endmsg
 x 10
 y 1
 end
 arch blocked
-msg
-endmsg
 x 10
 y 2
 end
 arch blocked
-msg
-endmsg
 x 10
 y 3
 end
 arch blocked
-msg
-endmsg
 x 10
 y 4
 end
@@ -1213,19 +914,13 @@ x 10
 y 19
 end
 arch blocked
-msg
-endmsg
 x 11
 end
 arch blocked
-msg
-endmsg
 x 11
 y 1
 end
 arch blocked
-msg
-endmsg
 x 11
 y 3
 end
@@ -1294,25 +989,17 @@ x 11
 y 19
 end
 arch blocked
-msg
-endmsg
 x 12
 end
 arch blocked
-msg
-endmsg
 x 12
 y 1
 end
 arch blocked
-msg
-endmsg
 x 12
 y 2
 end
 arch blocked
-msg
-endmsg
 x 12
 y 3
 end
@@ -1401,8 +1088,6 @@ x 12
 y 19
 end
 arch blocked
-msg
-endmsg
 x 13
 y 1
 end
@@ -1511,13 +1196,9 @@ x 13
 y 19
 end
 arch blocked
-msg
-endmsg
 x 14
 end
 arch blocked
-msg
-endmsg
 x 14
 y 1
 end
@@ -1634,8 +1315,6 @@ x 14
 y 19
 end
 arch blocked
-msg
-endmsg
 x 15
 end
 arch mountain
@@ -1759,8 +1438,6 @@ x 15
 y 19
 end
 arch blocked
-msg
-endmsg
 x 16
 end
 arch mountain
@@ -2207,11 +1884,11 @@ end
 arch magic_mouth
 msg
 You look down into the beautiful
-valley below you... 
+valley below you...
 Behind you a voice
 says,"Beautiful,isn't it... ...The
 the Green Circle was created to
-protect this." 
+protect this."
 endmsg
 x 19
 y 9
@@ -2829,8 +2506,6 @@ x 24
 y 6
 end
 arch blocked
-msg
-endmsg
 x 24
 y 7
 end
@@ -2862,8 +2537,6 @@ x 24
 y 10
 end
 arch blocked
-msg
-endmsg
 x 24
 y 11
 end
