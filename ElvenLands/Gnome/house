@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-11-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 30
 height 40
+msg
+Created:  1999-11-22 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch grassdark
 end
@@ -4467,6 +4469,10 @@ arch woodfloor
 x 16
 y 26
 end
+arch slug
+x 16
+y 26
+end
 arch woodfloor
 x 16
 y 27
@@ -7918,8 +7924,4 @@ end
 arch wwall_2_2_4
 x 29
 y 39
-end
-arch slug
-x 16
-y 26
 end

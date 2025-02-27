@@ -1,12 +1,13 @@
 arch map
 name hole
-msg
-Created:  1999-11-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+region elvenlands
+darkness 1
 width 15
 height 15
-darkness 1
+msg
+Created:  1999-11-22 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -323,7 +324,7 @@ y 13
 end
 arch magic_mouth
 msg
-yrev  
+yrev
 endmsg
 x 3
 y 13
@@ -632,7 +633,7 @@ arch gnome
 msg
 @match hi
 HaHa! The password is hidden somewhere
-in this cave! Search well! 
+in this cave! Search well!
 endmsg
 x 7
 y 6
@@ -880,7 +881,7 @@ y 1
 end
 arch magic_mouth
 msg
-era   
+era
 endmsg
 x 10
 y 1

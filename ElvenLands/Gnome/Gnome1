@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  1999-11-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
-height 30
+name <unnamed>
+region elvenlands
 darkness 1
 width 16
+height 30
+msg
+Created:  1999-11-22 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -647,6 +649,10 @@ arch dungeon_floor
 x 3
 y 16
 end
+arch troll
+x 3
+y 16
+end
 arch dungeon_floor
 x 3
 y 17
@@ -722,6 +728,10 @@ arch mine2
 x 4
 end
 arch dungeon_floor
+x 4
+y 1
+end
+arch troll
 x 4
 y 1
 end
@@ -1954,6 +1964,10 @@ arch dungeon_floor
 x 11
 y 1
 end
+arch troll
+x 11
+y 1
+end
 arch dungeon_floor
 x 11
 y 2
@@ -2023,6 +2037,10 @@ x 11
 y 15
 end
 arch dungeon_floor
+x 11
+y 16
+end
+arch troll
 x 11
 y 16
 end
@@ -2861,20 +2879,4 @@ end
 arch mine12
 x 15
 y 29
-end
-arch troll
-x 3
-y 16
-end
-arch troll
-x 4
-y 1
-end
-arch troll
-x 11
-y 1
-end
-arch troll
-x 11
-y 16
 end
