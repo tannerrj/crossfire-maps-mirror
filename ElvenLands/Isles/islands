@@ -1,13 +1,14 @@
 arch map
 name city
-msg
-Created:  1999-11-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
-enter_x 59
-enter_y 19
+region elvenlands
 width 46
 height 60
+enter_x 59
+enter_y 19
+msg
+Created:  1999-11-28 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -2131,6 +2132,15 @@ arch pstone_4
 x 9
 y 6
 end
+arch town_6
+x 9
+y 6
+end
+arch volcano_high
+name volcano of fireborn
+x 9
+y 6
+end
 arch pstone_4
 x 9
 y 7
@@ -2869,6 +2879,10 @@ arch grass
 x 11
 y 52
 end
+arch town_7
+x 11
+y 52
+end
 arch grass
 x 11
 y 53
@@ -3514,6 +3528,11 @@ x 14
 y 30
 end
 arch grass
+x 14
+y 31
+end
+arch tower_a
+name strange tower
 x 14
 y 31
 end
@@ -11656,22 +11675,4 @@ end
 arch blocked
 x 45
 y 59
-end
-arch town_6
-x 9
-y 6
-end
-arch volcano_high
-name volcano of fireborn
-x 9
-y 6
-end
-arch town_7
-x 11
-y 52
-end
-arch tower_a
-name strange tower
-x 14
-y 31
 end
