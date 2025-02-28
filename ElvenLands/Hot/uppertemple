@@ -1,11 +1,12 @@
 arch map
 name uppertemple
+region elvenlands
+width 16
+height 40
 msg
 Created:  1999-10-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
+Modified: 2025-02-27 Rick Tanner
 endmsg
-height 40
-width 16
 end
 arch cobblestones
 end
@@ -541,6 +542,22 @@ arch cobblestones
 x 2
 y 8
 end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 2
+y 8
+level 30
+can_use_armour 1
+can_use_weapon 1
+end
 arch cobblestones
 x 2
 y 9
@@ -564,6 +581,34 @@ end
 arch cobblestones
 x 2
 y 13
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 2
+y 13
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch cobblestones
 x 2
@@ -620,6 +665,34 @@ end
 arch permanent_lava
 x 2
 y 24
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 2
+y 24
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch permanent_lava
 x 2
@@ -678,6 +751,34 @@ end
 arch cobblestones
 x 2
 y 36
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 2
+y 36
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch cobblestones
 x 2
@@ -806,6 +907,34 @@ arch cobblestones
 x 3
 y 17
 end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 3
+y 17
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch cobblestones
 x 3
 y 18
@@ -877,6 +1006,34 @@ end
 arch cobblestones
 x 3
 y 31
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 3
+y 31
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch cobblestones
 x 3
@@ -967,6 +1124,22 @@ end
 arch cobblestones
 x 4
 y 8
+end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 4
+y 8
+level 30
+can_use_armour 1
+can_use_weapon 1
 end
 arch cobblestones
 x 4
@@ -1145,6 +1318,22 @@ end
 arch cobblestones
 x 5
 y 3
+end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 5
+y 3
+level 30
+can_use_armour 1
+can_use_weapon 1
 end
 arch cobblestones
 x 5
@@ -1608,6 +1797,22 @@ arch cobblestones
 x 7
 y 2
 end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 7
+y 2
+level 30
+can_use_armour 1
+can_use_weapon 1
+end
 arch cobblestones
 x 7
 y 3
@@ -1737,6 +1942,34 @@ arch cobblestones
 x 7
 y 22
 end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 7
+y 22
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch cobblestones
 x 7
 y 23
@@ -1807,6 +2040,34 @@ arch cobblestones
 x 7
 y 37
 end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 7
+y 37
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch cobblestones
 x 7
 y 38
@@ -1826,6 +2087,10 @@ arch bwall_2_1_2
 x 8
 end
 arch permanent_lava
+x 8
+y 1
+end
+arch Balrog
 x 8
 y 1
 end
@@ -1858,6 +2123,22 @@ end
 arch cobblestones
 x 8
 y 7
+end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 8
+y 7
+level 30
+can_use_armour 1
+can_use_weapon 1
 end
 arch cobblestones
 x 8
@@ -2594,6 +2875,10 @@ arch permanent_lava
 x 11
 y 12
 end
+arch Balrog
+x 11
+y 12
+end
 arch cobblestones
 x 11
 y 13
@@ -2648,6 +2933,34 @@ end
 arch permanent_lava
 x 11
 y 21
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 11
+y 21
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch cobblestones
 x 11
@@ -2911,6 +3224,34 @@ arch permanent_lava
 x 12
 y 29
 end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 12
+y 29
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch permanent_lava
 x 12
 y 30
@@ -2948,6 +3289,34 @@ end
 arch cobblestones
 x 12
 y 37
+end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 12
+y 37
+level 21
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch cobblestones
 x 12
@@ -3035,6 +3404,22 @@ end
 arch cobblestones
 x 13
 y 9
+end
+arch dragonman
+name drakken
+hp 8000
+maxhp 8000
+sp 100
+maxsp 100
+exp 300000
+dam 30
+wc -45
+ac -24
+x 13
+y 9
+level 30
+can_use_armour 1
+can_use_weapon 1
 end
 arch cobblestones
 x 13
@@ -3739,388 +4124,4 @@ end
 arch bwall_2_2_4
 x 15
 y 39
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 2
-y 8
-level 30
-can_use_armour 1
-can_use_weapon 1
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 2
-y 13
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 2
-y 24
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 2
-y 36
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 3
-y 17
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 3
-y 31
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 4
-y 8
-level 30
-can_use_armour 1
-can_use_weapon 1
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 5
-y 3
-level 30
-can_use_armour 1
-can_use_weapon 1
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 7
-y 2
-level 30
-can_use_armour 1
-can_use_weapon 1
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 7
-y 22
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 7
-y 37
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch Balrog
-x 8
-y 1
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 8
-y 7
-level 30
-can_use_armour 1
-can_use_weapon 1
-end
-arch Balrog
-x 11
-y 12
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 11
-y 21
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 12
-y 29
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 12
-y 37
-level 21
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch dragonman
-name drakken
-hp 8000
-maxhp 8000
-sp 100
-maxsp 100
-exp 300000
-dam 30
-wc -45
-ac -24
-x 13
-y 9
-level 30
-can_use_armour 1
-can_use_weapon 1
 end

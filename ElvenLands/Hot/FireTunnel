@@ -1,12 +1,13 @@
 arch map
 name FireTunnel
-msg
-Created:  1999-10-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
-height 40
+region elvenlands
 darkness 5
 width 16
+height 40
+msg
+Created:  1999-10-28 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch blackmarble
 end
@@ -498,6 +499,39 @@ arch permanent_lava
 x 1
 y 32
 end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 1
+y 32
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch permanent_lava
 x 1
 y 33
@@ -744,6 +778,39 @@ arch blackmarble
 x 2
 y 28
 end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 2
+y 28
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch permanent_lava
 x 2
 y 29
@@ -791,6 +858,39 @@ end
 arch permanent_lava
 x 2
 y 37
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 2
+y 37
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch permanent_lava
 x 2
@@ -1445,6 +1545,11 @@ end
 arch blackmarble
 x 5
 y 16
+end
+arch Greater_Demon
+x 5
+y 16
+level 80
 end
 arch blackmarble
 x 5
@@ -2719,6 +2824,39 @@ arch permanent_lava
 x 10
 y 8
 end
+arch Balrog
+name Great Demon of Fire
+Pow 50
+hp 12000
+maxhp 12000
+sp 550
+maxsp 550
+exp 1200000
+x 10
+y 8
+level 100
+resist_physical 95
+resist_magic 95
+resist_electricity 50
+resist_cold 50
+resist_acid 70
+resist_drain 100
+resist_weaponmagic 45
+resist_paralyze 95
+resist_deplete 100
+resist_godpower 95
+carrying 100
+arch blindness
+name aura of fire
+sp 197
+speed 0.000000
+type 110
+is_blind 0
+end
+arch key2
+slaying Stone of Fire
+end
+end
 arch permanent_lava
 x 10
 y 9
@@ -3089,6 +3227,39 @@ arch permanent_lava
 x 11
 y 28
 end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 11
+y 28
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+end
 arch permanent_lava
 x 11
 y 29
@@ -3130,6 +3301,39 @@ end
 arch permanent_lava
 x 11
 y 37
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 11
+y 37
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch permanent_lava
 x 11
@@ -3354,6 +3558,39 @@ end
 arch permanent_lava
 x 12
 y 32
+end
+arch big_dragon
+name legendary dragon
+other_arch baby_dragon
+Con 30
+Pow 40
+hp 10000
+maxhp 10000
+sp 300
+maxsp 300
+exp 700000
+dam 80
+wc -60
+ac -30
+x 12
+y 32
+level 70
+resist_physical 97
+resist_magic 95
+carrying 1350000
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
 end
 arch permanent_lava
 x 12
@@ -4202,240 +4439,4 @@ end
 arch flagstone_2_2_4
 x 15
 y 39
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 1
-y 32
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 2
-y 28
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 2
-y 37
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch Greater_Demon
-x 5
-y 16
-level 80
-end
-arch Balrog
-name Great Demon of Fire
-Pow 50
-hp 12000
-maxhp 12000
-sp 550
-maxsp 550
-exp 1200000
-x 10
-y 8
-level 100
-resist_physical 95
-resist_magic 95
-resist_electricity 50
-resist_cold 50
-resist_acid 70
-resist_drain 100
-resist_weaponmagic 45
-resist_paralyze 95
-resist_deplete 100
-resist_godpower 95
-carrying 100
-arch blindness
-name aura of fire
-sp 197
-speed 0.000000
-type 110
-is_blind 0
-end
-arch key2
-slaying Stone of Fire
-end
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 11
-y 28
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 11
-y 37
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-end
-arch big_dragon
-name legendary dragon
-other_arch baby_dragon
-Con 30
-Pow 40
-hp 10000
-maxhp 10000
-sp 300
-maxsp 300
-exp 700000
-dam 80
-wc -60
-ac -30
-x 12
-y 32
-level 70
-resist_physical 97
-resist_magic 95
-carrying 1350000
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
 end

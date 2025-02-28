@@ -1,12 +1,14 @@
 arch map
-msg
-Created:  1999-10-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+difficulty 10
+region elvenlands
+darkness 5
 width 24
 height 24
-difficulty 10
-darkness 5
+msg
+Created:  1999-10-28 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch cobblestones
 end
@@ -422,6 +424,10 @@ arch cobblestones
 x 2
 y 15
 end
+arch dragonman
+x 2
+y 15
+end
 arch cobblestones
 x 2
 y 16
@@ -434,11 +440,19 @@ arch cobblestones
 x 2
 y 18
 end
+arch dragonman
+x 2
+y 18
+end
 arch cobblestones
 x 2
 y 19
 end
 arch cobblestones
+x 2
+y 20
+end
+arch dragonman
 x 2
 y 20
 end
@@ -618,6 +632,10 @@ arch cobblestones
 x 4
 y 6
 end
+arch demon_lord
+x 4
+y 6
+end
 arch cobblestones
 x 4
 y 7
@@ -674,6 +692,10 @@ arch cobblestones
 x 4
 y 17
 end
+arch dragonman
+x 4
+y 17
+end
 arch cobblestones
 x 4
 y 18
@@ -683,6 +705,10 @@ x 4
 y 19
 end
 arch cobblestones
+x 4
+y 20
+end
+arch dragonman
 x 4
 y 20
 end
@@ -788,6 +814,10 @@ arch cobblestones
 x 5
 y 15
 end
+arch dragonman
+x 5
+y 15
+end
 arch cobblestones
 x 5
 y 16
@@ -797,6 +827,10 @@ x 5
 y 17
 end
 arch cobblestones
+x 5
+y 18
+end
+arch dragonman
 x 5
 y 18
 end
@@ -917,6 +951,10 @@ arch cobblestones
 x 6
 y 15
 end
+arch dragonman
+x 6
+y 15
+end
 arch cobblestones
 x 6
 y 16
@@ -929,11 +967,19 @@ arch cobblestones
 x 6
 y 18
 end
+arch dragonman
+x 6
+y 18
+end
 arch cobblestones
 x 6
 y 19
 end
 arch cobblestones
+x 6
+y 20
+end
+arch dragonman
 x 6
 y 20
 end
@@ -1044,6 +1090,10 @@ x 7
 y 16
 end
 arch cobblestones
+x 7
+y 17
+end
+arch dragonman
 x 7
 y 17
 end
@@ -1326,6 +1376,10 @@ arch cobblestones
 x 9
 y 15
 end
+arch dragonman
+x 9
+y 15
+end
 arch cobblestones
 x 9
 y 16
@@ -1338,11 +1392,19 @@ arch cobblestones
 x 9
 y 18
 end
+arch dragonman
+x 9
+y 18
+end
 arch cobblestones
 x 9
 y 19
 end
 arch cobblestones
+x 9
+y 20
+end
+arch dragonman
 x 9
 y 20
 end
@@ -1776,6 +1838,21 @@ arch cobblestones
 x 12
 y 2
 end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 12
+y 2
+speed -0.500000
+level 24
+end
 arch cobblestones
 x 12
 y 3
@@ -1803,6 +1880,21 @@ end
 arch cobblestones
 x 12
 y 9
+end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 12
+y 9
+speed -0.500000
+level 24
 end
 arch cobblestones
 x 12
@@ -2302,6 +2394,21 @@ arch cobblestones
 x 16
 y 5
 end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 16
+y 5
+speed -0.500000
+level 24
+end
 arch cobblestones
 x 16
 y 6
@@ -2381,6 +2488,23 @@ end
 arch cobblestones
 x 16
 y 18
+end
+arch dragon
+name wyrm
+Con 15
+Pow 20
+hp 3000
+maxhp 3000
+sp 100
+maxsp 100
+exp 100000
+dam 40
+wc -15
+ac -15
+x 16
+y 18
+speed -0.100000
+level 20
 end
 arch cobblestones
 x 16
@@ -2574,6 +2698,21 @@ end
 arch cobblestones
 x 18
 y 2
+end
+arch big_dragon
+name Ancient Dragon
+Int 5
+hp 7500
+maxhp 7500
+maxsp 80
+exp 200000
+dam 40
+wc -25
+ac -16
+x 18
+y 2
+speed -0.500000
+level 24
 end
 arch cobblestones
 x 18
@@ -3459,141 +3598,4 @@ end
 arch swall_1_3
 x 23
 y 23
-end
-arch dragonman
-x 2
-y 15
-end
-arch dragonman
-x 2
-y 18
-end
-arch dragonman
-x 2
-y 20
-end
-arch demon_lord
-x 4
-y 6
-end
-arch dragonman
-x 4
-y 17
-end
-arch dragonman
-x 4
-y 20
-end
-arch dragonman
-x 5
-y 15
-end
-arch dragonman
-x 5
-y 18
-end
-arch dragonman
-x 6
-y 15
-end
-arch dragonman
-x 6
-y 18
-end
-arch dragonman
-x 6
-y 20
-end
-arch dragonman
-x 7
-y 17
-end
-arch dragonman
-x 9
-y 15
-end
-arch dragonman
-x 9
-y 18
-end
-arch dragonman
-x 9
-y 20
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-x 12
-y 2
-speed -0.500000
-level 24
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-x 12
-y 9
-speed -0.500000
-level 24
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-x 16
-y 5
-speed -0.500000
-level 24
-end
-arch dragon
-name wyrm
-Con 15
-Pow 20
-hp 3000
-maxhp 3000
-sp 100
-maxsp 100
-exp 100000
-dam 40
-wc -15
-ac -15
-x 16
-y 18
-speed -0.100000
-level 20
-end
-arch big_dragon
-name Ancient Dragon
-Int 5
-hp 7500
-maxhp 7500
-maxsp 80
-exp 200000
-dam 40
-wc -25
-ac -16
-x 18
-y 2
-speed -0.500000
-level 24
 end

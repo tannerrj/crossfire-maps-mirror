@@ -1,14 +1,14 @@
 arch map
-msg
-Created:  1999-10-27 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 6
 height 6
+msg
+Created:  1999-10-27 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch blocked
-msg
-endmsg
 end
 arch permanent_lava
 y 1
@@ -35,8 +35,6 @@ arch cave17
 y 4
 end
 arch blocked
-msg
-endmsg
 y 5
 end
 arch permanent_lava

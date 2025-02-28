@@ -1,71 +1,57 @@
 arch map
-msg
-Created:  1999-10-26 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-10-26 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
 arch blocked
-msg
-endmsg
 end
 arch medium_stones
 y 1
 end
 arch blocked
-msg
-endmsg
 y 1
 end
 arch medium_stones
 y 2
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch medium_stones
 y 3
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch medium_stones
 y 4
 end
 arch blocked
-msg
-endmsg
 y 4
 end
 arch medium_stones
 y 5
 end
 arch blocked
-msg
-endmsg
 y 5
 end
 arch medium_stones
 y 6
 end
 arch blocked
-msg
-endmsg
 y 6
 end
 arch medium_stones
 y 7
 end
 arch blocked
-msg
-endmsg
 y 7
 end
 arch medium_stones
@@ -84,24 +70,18 @@ arch medium_stones
 y 10
 end
 arch blocked
-msg
-endmsg
 y 10
 end
 arch medium_stones
 y 11
 end
 arch blocked
-msg
-endmsg
 y 11
 end
 arch medium_stones
 y 12
 end
 arch blocked
-msg
-endmsg
 y 12
 end
 arch medium_stones
@@ -132,8 +112,6 @@ arch medium_stones
 y 17
 end
 arch blocked
-msg
-endmsg
 y 17
 end
 arch medium_stones
@@ -215,8 +193,6 @@ arch medium_stones
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch medium_stones
@@ -224,8 +200,6 @@ x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
@@ -234,8 +208,6 @@ x 1
 y 2
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
@@ -244,8 +216,6 @@ x 1
 y 3
 end
 arch blocked
-msg
-endmsg
 x 1
 y 3
 end
@@ -254,8 +224,6 @@ x 1
 y 4
 end
 arch blocked
-msg
-endmsg
 x 1
 y 4
 end
@@ -264,8 +232,6 @@ x 1
 y 5
 end
 arch blocked
-msg
-endmsg
 x 1
 y 5
 end
@@ -274,8 +240,6 @@ x 1
 y 6
 end
 arch blocked
-msg
-endmsg
 x 1
 y 6
 end
@@ -304,20 +268,14 @@ x 1
 y 9
 end
 arch blocked
-msg
-endmsg
 x 1
 y 10
 end
 arch blocked
-msg
-endmsg
 x 1
 y 11
 end
 arch blocked
-msg
-endmsg
 x 1
 y 12
 end
@@ -459,8 +417,6 @@ arch medium_stones
 x 2
 end
 arch blocked
-msg
-endmsg
 x 2
 end
 arch medium_stones
@@ -468,8 +424,6 @@ x 2
 y 1
 end
 arch blocked
-msg
-endmsg
 x 2
 y 1
 end
@@ -478,8 +432,6 @@ x 2
 y 2
 end
 arch blocked
-msg
-endmsg
 x 2
 y 2
 end
@@ -488,8 +440,6 @@ x 2
 y 3
 end
 arch blocked
-msg
-endmsg
 x 2
 y 3
 end
@@ -498,8 +448,6 @@ x 2
 y 4
 end
 arch blocked
-msg
-endmsg
 x 2
 y 4
 end
@@ -508,8 +456,6 @@ x 2
 y 5
 end
 arch blocked
-msg
-endmsg
 x 2
 y 5
 end
@@ -551,20 +497,14 @@ x 2
 y 9
 end
 arch blocked
-msg
-endmsg
 x 2
 y 10
 end
 arch blocked
-msg
-endmsg
 x 2
 y 11
 end
 arch blocked
-msg
-endmsg
 x 2
 y 12
 end
@@ -664,8 +604,6 @@ arch medium_stones
 x 3
 end
 arch blocked
-msg
-endmsg
 x 3
 end
 arch medium_stones
@@ -673,8 +611,6 @@ x 3
 y 1
 end
 arch blocked
-msg
-endmsg
 x 3
 y 1
 end
@@ -683,8 +619,6 @@ x 3
 y 2
 end
 arch blocked
-msg
-endmsg
 x 3
 y 2
 end
@@ -693,8 +627,6 @@ x 3
 y 3
 end
 arch blocked
-msg
-endmsg
 x 3
 y 3
 end
@@ -703,8 +635,6 @@ x 3
 y 4
 end
 arch blocked
-msg
-endmsg
 x 3
 y 4
 end
@@ -741,20 +671,14 @@ x 3
 y 9
 end
 arch blocked
-msg
-endmsg
 x 3
 y 10
 end
 arch blocked
-msg
-endmsg
 x 3
 y 11
 end
 arch blocked
-msg
-endmsg
 x 3
 y 12
 end
@@ -858,8 +782,6 @@ arch medium_stones
 x 4
 end
 arch blocked
-msg
-endmsg
 x 4
 end
 arch medium_stones
@@ -867,8 +789,6 @@ x 4
 y 1
 end
 arch blocked
-msg
-endmsg
 x 4
 y 1
 end
@@ -877,8 +797,6 @@ x 4
 y 2
 end
 arch blocked
-msg
-endmsg
 x 4
 y 2
 end
@@ -887,8 +805,6 @@ x 4
 y 3
 end
 arch blocked
-msg
-endmsg
 x 4
 y 3
 end
@@ -929,20 +845,14 @@ x 4
 y 9
 end
 arch blocked
-msg
-endmsg
 x 4
 y 10
 end
 arch blocked
-msg
-endmsg
 x 4
 y 11
 end
 arch blocked
-msg
-endmsg
 x 4
 y 12
 end
@@ -1046,8 +956,6 @@ arch medium_stones
 x 5
 end
 arch blocked
-msg
-endmsg
 x 5
 end
 arch medium_stones
@@ -1055,8 +963,6 @@ x 5
 y 1
 end
 arch blocked
-msg
-endmsg
 x 5
 y 1
 end
@@ -1065,8 +971,6 @@ x 5
 y 2
 end
 arch blocked
-msg
-endmsg
 x 5
 y 2
 end
@@ -1111,20 +1015,14 @@ x 5
 y 9
 end
 arch blocked
-msg
-endmsg
 x 5
 y 10
 end
 arch blocked
-msg
-endmsg
 x 5
 y 11
 end
 arch blocked
-msg
-endmsg
 x 5
 y 12
 end
@@ -1224,8 +1122,6 @@ arch medium_stones
 x 6
 end
 arch blocked
-msg
-endmsg
 x 6
 end
 arch medium_stones
@@ -1233,8 +1129,6 @@ x 6
 y 1
 end
 arch blocked
-msg
-endmsg
 x 6
 y 1
 end
@@ -1283,20 +1177,14 @@ x 6
 y 9
 end
 arch blocked
-msg
-endmsg
 x 6
 y 10
 end
 arch blocked
-msg
-endmsg
 x 6
 y 11
 end
 arch blocked
-msg
-endmsg
 x 6
 y 12
 end
@@ -1385,8 +1273,6 @@ arch medium_stones
 x 7
 end
 arch blocked
-msg
-endmsg
 x 7
 end
 arch medium_stones
@@ -1455,14 +1341,10 @@ x 7
 y 10
 end
 arch blocked
-msg
-endmsg
 x 7
 y 11
 end
 arch blocked
-msg
-endmsg
 x 7
 y 12
 end
@@ -1627,8 +1509,6 @@ x 8
 y 11
 end
 arch blocked
-msg
-endmsg
 x 8
 y 12
 end
@@ -2033,6 +1913,10 @@ arch medium_stones
 x 11
 y 7
 end
+arch dragon
+x 11
+y 7
+end
 arch medium_stones
 x 11
 y 8
@@ -2245,6 +2129,10 @@ x 12
 y 25
 end
 arch medium_stones
+x 12
+y 26
+end
+arch dragon
 x 12
 y 26
 end
@@ -2888,6 +2776,10 @@ arch medium_stones
 x 17
 y 14
 end
+arch dragon
+x 17
+y 14
+end
 arch medium_stones
 x 17
 y 15
@@ -3215,6 +3107,10 @@ arch medium_stones
 x 19
 y 26
 end
+arch dragon
+x 19
+y 26
+end
 arch medium_stones
 x 19
 y 27
@@ -3467,6 +3363,10 @@ arch medium_stones
 x 21
 y 20
 end
+arch dragon
+x 21
+y 20
+end
 arch medium_stones
 x 21
 y 21
@@ -3687,6 +3587,10 @@ x 23
 y 8
 end
 arch medium_stones
+x 23
+y 9
+end
+arch dragon
 x 23
 y 9
 end
@@ -4732,28 +4636,4 @@ end
 arch cave22
 x 29
 y 29
-end
-arch dragon
-x 11
-y 7
-end
-arch dragon
-x 12
-y 26
-end
-arch dragon
-x 17
-y 14
-end
-arch dragon
-x 19
-y 26
-end
-arch dragon
-x 21
-y 20
-end
-arch dragon
-x 23
-y 9
 end

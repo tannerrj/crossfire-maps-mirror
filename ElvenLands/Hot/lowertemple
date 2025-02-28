@@ -1,11 +1,12 @@
 arch map
 name lowertemple
+region elvenlands
+width 16
+height 30
 msg
 Created:  1999-10-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
+Modified: 2025-02-27 Rick Tanner
 endmsg
-height 30
-width 16
 end
 arch cobblestones
 end
@@ -1279,6 +1280,42 @@ arch cobblestones
 x 7
 y 8
 end
+arch big_dragon
+name ancient dragon
+other_arch baby_dragon
+maxhp 5000
+sp 150
+maxsp 150
+exp 150000
+dam 30
+wc -22
+ac -15
+x 7
+y 8
+level 21
+carrying 1350100
+generator 1
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch baby_dragon
+end
+arch key2
+name Burning key
+slaying HotHotDragon
+msg
+The key,though it burns with
+flame,strangely does not hurt you.
+endmsg
+end
+end
 arch cobblestones
 x 7
 y 9
@@ -1416,7 +1453,7 @@ slaying HotHotDragon
 msg
 You are nearly burn by the fantastic
 heat of the wall of flames! But there
-must be a way to pass through... 
+must be a way to pass through...
 endmsg
 x 8
 y 3
@@ -2821,40 +2858,4 @@ end
 arch dun7
 x 15
 y 29
-end
-arch big_dragon
-name ancient dragon
-other_arch baby_dragon
-maxhp 5000
-sp 150
-maxsp 150
-exp 150000
-dam 30
-wc -22
-ac -15
-x 7
-y 8
-level 21
-carrying 1350100
-generator 1
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch baby_dragon
-end
-arch key2
-name Burning key
-slaying HotHotDragon
-msg
-The key,though it burns with
-flame,strangely does not hurt you.
-endmsg
-end
 end

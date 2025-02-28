@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-10-26 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-05 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 40
 height 30
+msg
+Created:  1999-10-26 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-27 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -3743,8 +3745,6 @@ x 24
 y 12
 end
 arch blocked
-msg
-endmsg
 x 24
 y 12
 end
@@ -3753,8 +3753,6 @@ x 24
 y 13
 end
 arch blocked
-msg
-endmsg
 x 24
 y 13
 end
@@ -3893,8 +3891,6 @@ x 25
 y 12
 end
 arch blocked
-msg
-endmsg
 x 25
 y 12
 end
@@ -3903,8 +3899,6 @@ x 25
 y 13
 end
 arch blocked
-msg
-endmsg
 x 25
 y 13
 end
@@ -4051,8 +4045,6 @@ x 26
 y 12
 end
 arch blocked
-msg
-endmsg
 x 26
 y 12
 end
@@ -4061,8 +4053,6 @@ x 26
 y 13
 end
 arch blocked
-msg
-endmsg
 x 26
 y 13
 end
