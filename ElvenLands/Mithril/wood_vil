@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 31
 height 31
+msg
+Created:  2000-07-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch jungle_1
 name woods
@@ -3108,7 +3110,7 @@ arch elf_1
 name wood elf
 msg
 @match hi|hello
-Hey friend. 
+Hey friend.
 I'm just getting my self a drink of
 elven moon wine.
 endmsg

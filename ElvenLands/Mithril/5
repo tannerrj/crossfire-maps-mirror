@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 81
 height 31
+msg
+Created:  2000-07-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch mountain
 end
@@ -145,6 +147,10 @@ arch mountain
 x 1
 y 6
 end
+arch mountain_2
+x 1
+y 6
+end
 arch mountain
 x 1
 y 7
@@ -368,6 +374,10 @@ arch mountain
 x 2
 y 19
 end
+arch mountain_2
+x 2
+y 19
+end
 arch mountain
 x 2
 y 20
@@ -388,6 +398,10 @@ arch mountain
 x 2
 y 24
 end
+arch mountain_2
+x 2
+y 24
+end
 arch mountain
 x 2
 y 25
@@ -427,6 +441,10 @@ arch mountain
 x 3
 y 2
 end
+arch mountain_2
+x 3
+y 2
+end
 arch mountain
 x 3
 y 3
@@ -578,6 +596,10 @@ arch mountain
 x 3
 y 29
 end
+arch mountain_2
+x 3
+y 29
+end
 arch mountain
 x 3
 y 30
@@ -1188,6 +1210,10 @@ arch mountain
 x 7
 y 22
 end
+arch mountain_2
+x 7
+y 22
+end
 arch mountain
 x 7
 y 23
@@ -1209,6 +1235,10 @@ x 7
 y 27
 end
 arch mountain
+x 7
+y 28
+end
+arch troll
 x 7
 y 28
 end
@@ -1392,6 +1422,10 @@ arch mountain
 x 9
 y 4
 end
+arch mountain_2
+x 9
+y 4
+end
 arch mountain
 x 9
 y 5
@@ -1514,6 +1548,10 @@ x 9
 y 27
 end
 arch mountain
+x 9
+y 28
+end
+arch mountain_2
 x 9
 y 28
 end
@@ -1859,6 +1897,10 @@ arch mountain
 x 12
 y 2
 end
+arch mountain_2
+x 12
+y 2
+end
 arch mountain
 x 12
 y 3
@@ -1960,6 +2002,10 @@ arch mountain
 x 12
 y 23
 end
+arch mountain_2
+x 12
+y 23
+end
 arch mountain
 x 12
 y 24
@@ -2238,6 +2284,10 @@ arch mountain
 x 14
 y 20
 end
+arch mountain_2
+x 14
+y 20
+end
 arch mountain
 x 14
 y 21
@@ -2276,6 +2326,10 @@ x 14
 y 28
 end
 arch mountain
+x 14
+y 29
+end
+arch mountain_2
 x 14
 y 29
 end
@@ -2585,6 +2639,10 @@ arch mountain
 x 17
 y 3
 end
+arch mountain_2
+x 17
+y 3
+end
 arch mountain
 x 17
 y 4
@@ -2674,6 +2732,10 @@ x 17
 y 23
 end
 arch mountain
+x 17
+y 24
+end
+arch mountain_2
 x 17
 y 24
 end
@@ -3155,6 +3217,10 @@ arch mountain
 x 21
 y 5
 end
+arch mountain_2
+x 21
+y 5
+end
 arch mountain
 x 21
 y 6
@@ -3232,6 +3298,10 @@ x 21
 y 20
 end
 arch mountain
+x 21
+y 21
+end
+arch mountain_2
 x 21
 y 21
 end
@@ -3440,6 +3510,10 @@ arch mountain
 x 23
 y 2
 end
+arch mountain_2
+x 23
+y 2
+end
 arch mountain
 x 23
 y 3
@@ -3553,6 +3627,10 @@ x 23
 y 27
 end
 arch mountain
+x 23
+y 28
+end
+arch mountain_2
 x 23
 y 28
 end
@@ -4091,6 +4169,10 @@ x 27
 y 18
 end
 arch mountain
+x 27
+y 19
+end
+arch mountain_2
 x 27
 y 19
 end
@@ -4272,6 +4354,10 @@ arch mountain
 x 28
 y 24
 end
+arch mountain_2
+x 28
+y 24
+end
 arch mountain
 x 28
 y 25
@@ -4308,6 +4394,10 @@ arch mountain
 x 29
 y 1
 end
+arch mountain_2
+x 29
+y 1
+end
 arch mountain
 x 29
 y 2
@@ -4764,6 +4854,10 @@ arch mountain
 x 32
 y 5
 end
+arch mountain_2
+x 32
+y 5
+end
 arch mountain
 x 32
 y 6
@@ -4976,6 +5070,10 @@ x 33
 y 19
 end
 arch mountain
+x 33
+y 20
+end
+arch mountain_2
 x 33
 y 20
 end
@@ -5020,6 +5118,10 @@ arch mountain
 x 33
 y 29
 end
+arch mountain_2
+x 33
+y 29
+end
 arch mountain
 x 33
 y 30
@@ -5280,6 +5382,10 @@ x 35
 y 24
 end
 arch mountain
+x 35
+y 25
+end
+arch mountain_2
 x 35
 y 25
 end
@@ -5914,6 +6020,10 @@ arch mountain
 x 40
 y 3
 end
+arch mountain_2
+x 40
+y 3
+end
 arch mountain
 x 40
 y 4
@@ -6204,6 +6314,10 @@ arch mountain
 x 42
 y 6
 end
+arch mountain_2
+x 42
+y 6
+end
 arch mountain
 x 42
 y 7
@@ -6460,6 +6574,10 @@ x 43
 y 28
 end
 arch mountain
+x 43
+y 29
+end
+arch mountain_2
 x 43
 y 29
 end
@@ -6831,6 +6949,10 @@ arch mountain
 x 46
 y 7
 end
+arch mountain_2
+x 46
+y 7
+end
 arch mountain
 x 46
 y 8
@@ -6999,6 +7121,10 @@ x 47
 y 12
 end
 arch mountain
+x 47
+y 13
+end
+arch mountain_2
 x 47
 y 13
 end
@@ -7114,6 +7240,10 @@ x 48
 y 3
 end
 arch mountain
+x 48
+y 4
+end
+arch mountain_2
 x 48
 y 4
 end
@@ -7291,6 +7421,10 @@ arch mountain
 x 49
 y 10
 end
+arch mountain_2
+x 49
+y 10
+end
 arch mountain
 x 49
 y 11
@@ -7517,6 +7651,10 @@ x 50
 y 27
 end
 arch mountain
+x 50
+y 28
+end
+arch mountain_2
 x 50
 y 28
 end
@@ -7792,6 +7930,10 @@ x 52
 y 14
 speed_left -0.700000
 end
+arch mountain_2
+x 52
+y 15
+end
 arch mountain
 x 52
 y 17
@@ -8090,6 +8232,10 @@ x 54
 y 11
 speed_left -0.850000
 end
+arch mountain_2
+x 54
+y 12
+end
 arch mountain
 x 54
 y 14
@@ -8194,6 +8340,10 @@ arch mountain
 x 55
 y 2
 end
+arch mountain_2
+x 55
+y 2
+end
 arch mountain
 x 55
 y 3
@@ -8207,6 +8357,10 @@ x 55
 y 5
 end
 arch mountain
+x 55
+y 6
+end
+arch mountain_2
 x 55
 y 6
 end
@@ -8413,6 +8567,10 @@ arch mountain
 x 56
 y 18
 end
+arch mountain_2
+x 56
+y 19
+end
 arch grass
 x 56
 y 21
@@ -8541,6 +8699,14 @@ end
 arch mountain
 x 57
 y 14
+end
+arch mountain_2
+x 57
+y 15
+end
+arch mountain_2
+x 57
+y 17
 end
 arch grass
 x 57
@@ -8655,6 +8821,10 @@ arch mountain
 x 58
 y 12
 end
+arch mountain_2
+x 58
+y 13
+end
 arch mountain
 x 58
 y 19
@@ -8704,6 +8874,10 @@ x 58
 y 28
 end
 arch mountain
+x 58
+y 29
+end
+arch mountain_2
 x 58
 y 29
 end
@@ -9014,6 +9188,10 @@ arch mountain
 x 61
 end
 arch mountain
+x 61
+y 1
+end
+arch mountain_2
 x 61
 y 1
 end
@@ -9186,6 +9364,10 @@ x 62
 y 5
 end
 arch mountain
+x 62
+y 6
+end
+arch mountain_2
 x 62
 y 6
 end
@@ -9608,6 +9790,10 @@ arch mountain
 x 65
 y 2
 end
+arch mountain_2
+x 65
+y 2
+end
 arch mountain
 x 65
 y 3
@@ -9876,6 +10062,10 @@ x 66
 y 26
 end
 arch mountain
+x 66
+y 27
+end
+arch mountain_2
 x 66
 y 27
 end
@@ -10059,6 +10249,10 @@ arch mountain
 x 68
 y 6
 end
+arch mountain_2
+x 68
+y 6
+end
 arch mountain
 x 68
 y 7
@@ -10400,6 +10594,10 @@ arch mountain
 x 70
 y 20
 end
+arch mountain_2
+x 70
+y 20
+end
 arch mountain
 x 70
 y 21
@@ -10441,6 +10639,10 @@ arch mountain
 x 70
 y 29
 end
+arch mountain_2
+x 70
+y 29
+end
 arch mountain
 x 70
 y 30
@@ -10453,6 +10655,10 @@ x 71
 y 1
 end
 arch mountain
+x 71
+y 2
+end
+arch mountain_2
 x 71
 y 2
 end
@@ -10725,6 +10931,10 @@ arch mountain
 x 72
 y 25
 end
+arch mountain_2
+x 72
+y 25
+end
 arch mountain
 x 72
 y 26
@@ -11285,6 +11495,10 @@ arch mountain
 x 76
 y 21
 end
+arch mountain_2
+x 76
+y 21
+end
 arch mountain
 x 76
 y 22
@@ -11346,6 +11560,10 @@ x 77
 y 4
 end
 arch mountain
+x 77
+y 5
+end
+arch mountain_2
 x 77
 y 5
 end
@@ -11443,6 +11661,10 @@ x 77
 y 26
 end
 arch mountain
+x 77
+y 27
+end
+arch mountain_2
 x 77
 y 27
 end
@@ -11599,6 +11821,9 @@ x 78
 y 30
 end
 arch mountain
+x 79
+end
+arch mountain_2
 x 79
 end
 arch mountain
@@ -11875,227 +12100,4 @@ end
 arch mountain
 x 80
 y 30
-end
-arch mountain_2
-x 1
-y 6
-end
-arch mountain_2
-x 2
-y 19
-end
-arch mountain_2
-x 2
-y 24
-end
-arch mountain_2
-x 3
-y 2
-end
-arch mountain_2
-x 3
-y 29
-end
-arch mountain_2
-x 7
-y 22
-end
-arch troll
-x 7
-y 28
-end
-arch mountain_2
-x 9
-y 4
-end
-arch mountain_2
-x 9
-y 28
-end
-arch mountain_2
-x 12
-y 2
-end
-arch mountain_2
-x 12
-y 23
-end
-arch mountain_2
-x 14
-y 20
-end
-arch mountain_2
-x 14
-y 29
-end
-arch mountain_2
-x 17
-y 3
-end
-arch mountain_2
-x 17
-y 24
-end
-arch mountain_2
-x 21
-y 5
-end
-arch mountain_2
-x 21
-y 21
-end
-arch mountain_2
-x 23
-y 2
-end
-arch mountain_2
-x 23
-y 28
-end
-arch mountain_2
-x 27
-y 19
-end
-arch mountain_2
-x 28
-y 24
-end
-arch mountain_2
-x 29
-y 1
-end
-arch mountain_2
-x 32
-y 5
-end
-arch mountain_2
-x 33
-y 20
-end
-arch mountain_2
-x 33
-y 29
-end
-arch mountain_2
-x 35
-y 25
-end
-arch mountain_2
-x 40
-y 3
-end
-arch mountain_2
-x 42
-y 6
-end
-arch mountain_2
-x 43
-y 29
-end
-arch mountain_2
-x 46
-y 7
-end
-arch mountain_2
-x 47
-y 13
-end
-arch mountain_2
-x 48
-y 4
-end
-arch mountain_2
-x 49
-y 10
-end
-arch mountain_2
-x 50
-y 28
-end
-arch mountain_2
-x 52
-y 15
-end
-arch mountain_2
-x 54
-y 12
-end
-arch mountain_2
-x 55
-y 2
-end
-arch mountain_2
-x 55
-y 6
-end
-arch mountain_2
-x 56
-y 19
-end
-arch mountain_2
-x 57
-y 15
-end
-arch mountain_2
-x 57
-y 17
-end
-arch mountain_2
-x 58
-y 13
-end
-arch mountain_2
-x 58
-y 29
-end
-arch mountain_2
-x 61
-y 1
-end
-arch mountain_2
-x 62
-y 6
-end
-arch mountain_2
-x 65
-y 2
-end
-arch mountain_2
-x 66
-y 27
-end
-arch mountain_2
-x 68
-y 6
-end
-arch mountain_2
-x 70
-y 20
-end
-arch mountain_2
-x 70
-y 29
-end
-arch mountain_2
-x 71
-y 2
-end
-arch mountain_2
-x 72
-y 25
-end
-arch mountain_2
-x 76
-y 21
-end
-arch mountain_2
-x 77
-y 5
-end
-arch mountain_2
-x 77
-y 27
-end
-arch mountain_2
-x 79
 end

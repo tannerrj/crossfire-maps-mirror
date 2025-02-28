@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 25
 height 25
+msg
+Created:  2000-07-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch jungle_1
 end
@@ -2088,7 +2090,7 @@ msg
 @match hi|hello
 Hello. Have you met King Armewir? He's
 hosting a feast right now. You are
-welcome to join in. 
+welcome to join in.
 endmsg
 x 16
 y 18

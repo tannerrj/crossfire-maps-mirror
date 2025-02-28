@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2000-07-29 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 2
 width 81
 height 31
-darkness 2
+msg
+Created:  2000-07-29 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch jungle_1
 end
@@ -6498,6 +6500,10 @@ arch mountain
 x 50
 y 1
 end
+arch mountain_2
+x 50
+y 2
+end
 arch jungle_1
 x 50
 y 4
@@ -7147,6 +7153,10 @@ arch mountain
 x 55
 y 6
 end
+arch mountain_2
+x 55
+y 6
+end
 arch mountain
 x 55
 y 7
@@ -7723,6 +7733,10 @@ arch mountain
 x 59
 y 15
 end
+arch mountain_2
+x 59
+y 15
+end
 arch mountain
 x 59
 y 16
@@ -7907,6 +7921,10 @@ x 60
 y 21
 end
 arch mountain
+x 60
+y 22
+end
+arch mountain_2
 x 60
 y 22
 end
@@ -8135,6 +8153,10 @@ arch mountain
 x 62
 y 1
 end
+arch mountain_2
+x 62
+y 1
+end
 arch mountain
 x 62
 y 2
@@ -8361,6 +8383,10 @@ arch mountain
 x 63
 y 9
 end
+arch mountain_2
+x 63
+y 9
+end
 arch light4
 x 63
 y 10
@@ -8414,6 +8440,10 @@ x 63
 y 18
 end
 arch mountain
+x 63
+y 19
+end
+arch mountain_2
 x 63
 y 19
 end
@@ -8663,6 +8693,10 @@ arch mountain
 x 64
 y 27
 end
+arch mountain_2
+x 64
+y 27
+end
 arch light4
 x 64
 y 28
@@ -8999,6 +9033,10 @@ arch mountain
 x 66
 y 25
 end
+arch mountain_2
+x 66
+y 25
+end
 arch mountain
 x 66
 y 26
@@ -9244,6 +9282,10 @@ arch mountain
 x 68
 y 4
 end
+arch mountain_2
+x 68
+y 4
+end
 arch light4
 x 68
 y 5
@@ -9333,6 +9375,10 @@ x 68
 y 19
 end
 arch mountain
+x 68
+y 19
+end
+arch mountain_2
 x 68
 y 19
 end
@@ -9450,6 +9496,10 @@ arch mountain
 x 69
 y 9
 end
+arch mountain_2
+x 69
+y 9
+end
 arch mountain
 x 69
 y 10
@@ -9756,6 +9806,10 @@ arch mountain
 x 71
 y 1
 end
+arch mountain_2
+x 71
+y 1
+end
 arch mountain
 x 71
 y 2
@@ -9916,6 +9970,10 @@ arch mountain
 x 71
 y 27
 end
+arch mountain_2
+x 71
+y 27
+end
 arch light4
 x 71
 y 28
@@ -9967,6 +10025,10 @@ x 72
 y 4
 end
 arch mountain
+x 72
+y 5
+end
+arch mountain_2
 x 72
 y 5
 end
@@ -10046,6 +10108,10 @@ arch mountain
 x 72
 y 17
 end
+arch mountain_2
+x 72
+y 17
+end
 arch light4
 x 72
 y 18
@@ -10075,6 +10141,10 @@ x 72
 y 21
 end
 arch mountain
+x 72
+y 22
+end
+arch mountain_2
 x 72
 y 22
 end
@@ -10547,6 +10617,10 @@ arch mountain
 x 75
 y 8
 end
+arch mountain_2
+x 75
+y 8
+end
 arch mountain
 x 75
 y 9
@@ -10686,6 +10760,10 @@ arch mountain
 x 76
 y 2
 end
+arch mountain_2
+x 76
+y 2
+end
 arch light4
 x 76
 y 3
@@ -11119,6 +11197,10 @@ arch mountain
 x 78
 y 18
 end
+arch mountain_2
+x 78
+y 18
+end
 arch mountain
 x 78
 y 19
@@ -11156,6 +11238,10 @@ x 78
 y 26
 end
 arch mountain
+x 78
+y 26
+end
+arch mountain_2
 x 78
 y 26
 end
@@ -11510,88 +11596,4 @@ end
 arch mountain
 x 80
 y 30
-end
-arch mountain_2
-x 50
-y 2
-end
-arch mountain_2
-x 55
-y 6
-end
-arch mountain_2
-x 59
-y 15
-end
-arch mountain_2
-x 60
-y 22
-end
-arch mountain_2
-x 62
-y 1
-end
-arch mountain_2
-x 63
-y 9
-end
-arch mountain_2
-x 63
-y 19
-end
-arch mountain_2
-x 64
-y 27
-end
-arch mountain_2
-x 66
-y 25
-end
-arch mountain_2
-x 68
-y 4
-end
-arch mountain_2
-x 68
-y 19
-end
-arch mountain_2
-x 69
-y 9
-end
-arch mountain_2
-x 71
-y 1
-end
-arch mountain_2
-x 71
-y 27
-end
-arch mountain_2
-x 72
-y 5
-end
-arch mountain_2
-x 72
-y 17
-end
-arch mountain_2
-x 72
-y 22
-end
-arch mountain_2
-x 75
-y 8
-end
-arch mountain_2
-x 76
-y 2
-end
-arch mountain_2
-x 78
-y 18
-end
-arch mountain_2
-x 78
-y 26
 end

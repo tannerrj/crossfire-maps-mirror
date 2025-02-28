@@ -1,144 +1,112 @@
 arch map
-msg
-Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-07 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 darkness 2
 width 16
 height 16
+msg
+Created:  2000-07-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
 arch blocked
-msg
-endmsg
 end
 arch medium_stones
 y 1
 end
 arch blocked
-msg
-endmsg
 y 1
 end
 arch medium_stones
 y 2
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch medium_stones
 y 3
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch medium_stones
 y 4
 end
 arch blocked
-msg
-endmsg
 y 4
 end
 arch medium_stones
 y 5
 end
 arch blocked
-msg
-endmsg
 y 5
 end
 arch medium_stones
 y 6
 end
 arch blocked
-msg
-endmsg
 y 6
 end
 arch medium_stones
 y 7
 end
 arch blocked
-msg
-endmsg
 y 7
 end
 arch medium_stones
 y 8
 end
 arch blocked
-msg
-endmsg
 y 8
 end
 arch medium_stones
 y 9
 end
 arch blocked
-msg
-endmsg
 y 9
 end
 arch medium_stones
 y 10
 end
 arch blocked
-msg
-endmsg
 y 10
 end
 arch medium_stones
 y 11
 end
 arch blocked
-msg
-endmsg
 y 11
 end
 arch medium_stones
 y 12
 end
 arch blocked
-msg
-endmsg
 y 12
 end
 arch medium_stones
 y 13
 end
 arch blocked
-msg
-endmsg
 y 13
 end
 arch medium_stones
 y 14
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch medium_stones
 y 15
 end
 arch blocked
-msg
-endmsg
 y 15
 end
 arch medium_stones
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch medium_stones
@@ -146,8 +114,6 @@ x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
@@ -156,8 +122,6 @@ x 1
 y 2
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
@@ -254,8 +218,6 @@ x 1
 y 14
 end
 arch blocked
-msg
-endmsg
 x 1
 y 14
 end
@@ -264,8 +226,6 @@ x 1
 y 15
 end
 arch blocked
-msg
-endmsg
 x 1
 y 15
 end
@@ -273,8 +233,6 @@ arch medium_stones
 x 2
 end
 arch blocked
-msg
-endmsg
 x 2
 end
 arch medium_stones
@@ -282,8 +240,6 @@ x 2
 y 1
 end
 arch blocked
-msg
-endmsg
 x 2
 y 1
 end
@@ -372,8 +328,6 @@ x 2
 y 15
 end
 arch blocked
-msg
-endmsg
 x 2
 y 15
 end
@@ -381,8 +335,6 @@ arch medium_stones
 x 3
 end
 arch blocked
-msg
-endmsg
 x 3
 end
 arch medium_stones
@@ -470,8 +422,6 @@ x 3
 y 15
 end
 arch blocked
-msg
-endmsg
 x 3
 y 15
 end
@@ -479,8 +429,6 @@ arch medium_stones
 x 4
 end
 arch blocked
-msg
-endmsg
 x 4
 end
 arch medium_stones
@@ -584,8 +532,6 @@ x 4
 y 15
 end
 arch blocked
-msg
-endmsg
 x 4
 y 15
 end
@@ -593,8 +539,6 @@ arch medium_stones
 x 5
 end
 arch blocked
-msg
-endmsg
 x 5
 end
 arch medium_stones
@@ -694,8 +638,6 @@ x 5
 y 15
 end
 arch blocked
-msg
-endmsg
 x 5
 y 15
 end
@@ -703,8 +645,6 @@ arch medium_stones
 x 6
 end
 arch blocked
-msg
-endmsg
 x 6
 end
 arch medium_stones
@@ -811,8 +751,6 @@ arch medium_stones
 x 7
 end
 arch blocked
-msg
-endmsg
 x 7
 end
 arch medium_stones
@@ -868,8 +806,6 @@ x 7
 y 8
 end
 arch blocked
-msg
-endmsg
 x 7
 y 8
 end
@@ -924,8 +860,6 @@ arch medium_stones
 x 8
 end
 arch blocked
-msg
-endmsg
 x 8
 end
 arch medium_stones
@@ -981,8 +915,6 @@ x 8
 y 7
 end
 arch blocked
-msg
-endmsg
 x 8
 y 7
 end
@@ -1046,8 +978,6 @@ arch medium_stones
 x 9
 end
 arch blocked
-msg
-endmsg
 x 9
 end
 arch medium_stones
@@ -1091,8 +1021,6 @@ x 9
 y 6
 end
 arch blocked
-msg
-endmsg
 x 9
 y 6
 end
@@ -1153,8 +1081,6 @@ x 9
 y 15
 end
 arch blocked
-msg
-endmsg
 x 9
 y 15
 end
@@ -1162,8 +1088,6 @@ arch medium_stones
 x 10
 end
 arch blocked
-msg
-endmsg
 x 10
 end
 arch medium_stones
@@ -1271,8 +1195,6 @@ x 10
 y 15
 end
 arch blocked
-msg
-endmsg
 x 10
 y 15
 end
@@ -1280,8 +1202,6 @@ arch medium_stones
 x 11
 end
 arch blocked
-msg
-endmsg
 x 11
 end
 arch medium_stones
@@ -1373,8 +1293,6 @@ x 11
 y 14
 end
 arch blocked
-msg
-endmsg
 x 11
 y 14
 end
@@ -1383,8 +1301,6 @@ x 11
 y 15
 end
 arch blocked
-msg
-endmsg
 x 11
 y 15
 end
@@ -1392,8 +1308,6 @@ arch medium_stones
 x 12
 end
 arch blocked
-msg
-endmsg
 x 12
 end
 arch medium_stones
@@ -1473,8 +1387,6 @@ x 12
 y 13
 end
 arch blocked
-msg
-endmsg
 x 12
 y 13
 end
@@ -1483,8 +1395,6 @@ x 12
 y 14
 end
 arch blocked
-msg
-endmsg
 x 12
 y 14
 end
@@ -1493,8 +1403,6 @@ x 12
 y 15
 end
 arch blocked
-msg
-endmsg
 x 12
 y 15
 end
@@ -1502,8 +1410,6 @@ arch medium_stones
 x 13
 end
 arch blocked
-msg
-endmsg
 x 13
 end
 arch medium_stones
@@ -1587,8 +1493,6 @@ x 13
 y 12
 end
 arch blocked
-msg
-endmsg
 x 13
 y 12
 end
@@ -1597,8 +1501,6 @@ x 13
 y 13
 end
 arch blocked
-msg
-endmsg
 x 13
 y 13
 end
@@ -1607,8 +1509,6 @@ x 13
 y 14
 end
 arch blocked
-msg
-endmsg
 x 13
 y 14
 end
@@ -1617,8 +1517,6 @@ x 13
 y 15
 end
 arch blocked
-msg
-endmsg
 x 13
 y 15
 end
@@ -1626,8 +1524,6 @@ arch medium_stones
 x 14
 end
 arch blocked
-msg
-endmsg
 x 14
 end
 arch medium_stones
@@ -1715,8 +1611,6 @@ x 14
 y 11
 end
 arch blocked
-msg
-endmsg
 x 14
 y 11
 end
@@ -1725,8 +1619,6 @@ x 14
 y 12
 end
 arch blocked
-msg
-endmsg
 x 14
 y 12
 end
@@ -1735,8 +1627,6 @@ x 14
 y 13
 end
 arch blocked
-msg
-endmsg
 x 14
 y 13
 end
@@ -1745,8 +1635,6 @@ x 14
 y 14
 end
 arch blocked
-msg
-endmsg
 x 14
 y 14
 end
@@ -1755,8 +1643,6 @@ x 14
 y 15
 end
 arch blocked
-msg
-endmsg
 x 14
 y 15
 end
@@ -1764,8 +1650,6 @@ arch medium_stones
 x 15
 end
 arch blocked
-msg
-endmsg
 x 15
 end
 arch medium_stones
@@ -1773,8 +1657,6 @@ x 15
 y 1
 end
 arch blocked
-msg
-endmsg
 x 15
 y 1
 end
@@ -1783,8 +1665,6 @@ x 15
 y 2
 end
 arch blocked
-msg
-endmsg
 x 15
 y 2
 end
@@ -1793,8 +1673,6 @@ x 15
 y 3
 end
 arch blocked
-msg
-endmsg
 x 15
 y 3
 end
@@ -1803,8 +1681,6 @@ x 15
 y 4
 end
 arch blocked
-msg
-endmsg
 x 15
 y 4
 end
@@ -1813,8 +1689,6 @@ x 15
 y 5
 end
 arch blocked
-msg
-endmsg
 x 15
 y 5
 end
@@ -1823,8 +1697,6 @@ x 15
 y 6
 end
 arch blocked
-msg
-endmsg
 x 15
 y 6
 end
@@ -1833,8 +1705,6 @@ x 15
 y 7
 end
 arch blocked
-msg
-endmsg
 x 15
 y 7
 end
@@ -1843,8 +1713,6 @@ x 15
 y 8
 end
 arch blocked
-msg
-endmsg
 x 15
 y 8
 end
@@ -1853,8 +1721,6 @@ x 15
 y 9
 end
 arch blocked
-msg
-endmsg
 x 15
 y 9
 end
@@ -1863,8 +1729,6 @@ x 15
 y 10
 end
 arch blocked
-msg
-endmsg
 x 15
 y 10
 end
@@ -1873,8 +1737,6 @@ x 15
 y 11
 end
 arch blocked
-msg
-endmsg
 x 15
 y 11
 end
@@ -1883,8 +1745,6 @@ x 15
 y 12
 end
 arch blocked
-msg
-endmsg
 x 15
 y 12
 end
@@ -1893,8 +1753,6 @@ x 15
 y 13
 end
 arch blocked
-msg
-endmsg
 x 15
 y 13
 end
@@ -1903,8 +1761,6 @@ x 15
 y 14
 end
 arch blocked
-msg
-endmsg
 x 15
 y 14
 end
@@ -1913,8 +1769,6 @@ x 15
 y 15
 end
 arch blocked
-msg
-endmsg
 x 15
 y 15
 end
