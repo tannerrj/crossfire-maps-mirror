@@ -1,11 +1,12 @@
 arch map
 name mists
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-06 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch grassdark
 end
@@ -750,7 +751,7 @@ y 14
 end
 arch magic_mouth
 msg
-Wow! were is this! 
+Wow! were is this!
 endmsg
 x 7
 y 14
@@ -877,8 +878,8 @@ sp 50
 maxsp 30
 x 9
 y 1
-immune 9
 can_cast_spell 1
+immune 9
 arch ability_summon_water
 end
 arch ability_coldspell

@@ -1,11 +1,12 @@
 arch map
 name Hold1
-msg
-Created:  1999-11-24 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-06 Rick Tanner
-endmsg
+region elvenlands
 width 50
 height 50
+msg
+Created:  1999-11-24 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch grassdark
 end
@@ -4758,7 +4759,7 @@ msg
 @match hi
 What are you doing in my castle?
 Are you with me or against me? Friend
-of Foe? 
+of Foe?
 @match friend
 Good... Several of my warriors were
 lost in the dense fog. I sent more
@@ -4767,7 +4768,7 @@ warriors got lost too. One came back
 and told us of a portal. Which all the
 warriors but him went in. They said
 they saw a beautiful land. The soldier
-didn't want to go. 
+didn't want to go.
 endmsg
 Pow 15
 x 20

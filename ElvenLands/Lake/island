@@ -1,11 +1,12 @@
 arch map
 name island
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-06 Rick Tanner
-endmsg
+region elvenlands
 width 31
 height 31
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -844,6 +845,13 @@ x 5
 y 24
 end
 arch grassdark
+x 5
+y 25
+end
+arch big_galleon
+slaying /ElvenLands/Darkoth/darkland
+hp 38
+sp 14
 x 5
 y 25
 end
@@ -2442,6 +2450,10 @@ arch jungle_1
 x 13
 y 6
 end
+arch darkhold
+x 13
+y 6
+end
 arch grassdark
 x 13
 y 7
@@ -3634,6 +3646,13 @@ x 18
 y 25
 end
 arch grassdark
+x 18
+y 26
+end
+arch s_tower2
+slaying /ElvenLands/Lake/tower
+hp 8
+sp 15
 x 18
 y 26
 end
@@ -5564,22 +5583,4 @@ end
 arch sea
 x 30
 y 30
-end
-arch big_galleon
-slaying /ElvenLands/Darkoth/darkland
-hp 38
-sp 14
-x 5
-y 25
-end
-arch darkhold
-x 13
-y 6
-end
-arch s_tower2
-slaying /ElvenLands/Lake/tower
-hp 8
-sp 15
-x 18
-y 26
 end
