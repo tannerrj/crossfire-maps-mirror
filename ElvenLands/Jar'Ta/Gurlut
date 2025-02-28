@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-02-07 Meegwun Southall (meeg@prninfo.com)
-Modified: 2025-02-06 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 25
 height 25
+msg
+Created:  2000-02-07 Meegwun Southall (meeg@prninfo.com)
+Modified: 2025-02-28 Rick Tanner
+endmsg
 end
 arch pstone_1
 end
@@ -160,6 +162,9 @@ end
 arch gwall_2_1_2
 x 1
 end
+arch city_tower
+x 1
+end
 arch pstone_1
 x 1
 y 1
@@ -332,6 +337,10 @@ arch dwall_2_2_1
 x 1
 y 22
 end
+arch city_tower
+x 1
+y 22
+end
 arch pstone_1
 x 1
 y 23
@@ -382,6 +391,10 @@ arch cobblestones2
 x 2
 y 5
 end
+arch rl_house3
+x 2
+y 5
+end
 arch cobblestones2
 x 2
 y 6
@@ -391,6 +404,10 @@ x 2
 y 7
 end
 arch dwall_2_1_2
+x 2
+y 7
+end
+arch city_tower
 x 2
 y 7
 end
@@ -458,6 +475,10 @@ arch dwall_2_2_4
 x 2
 y 15
 end
+arch city_tower
+x 2
+y 15
+end
 arch pstone_1
 x 2
 y 16
@@ -475,6 +496,10 @@ x 2
 y 17
 end
 arch cobblestones2
+x 2
+y 18
+end
+arch rl_house3
 x 2
 y 18
 end
@@ -828,6 +853,10 @@ arch cobblestones2
 x 5
 y 2
 end
+arch rl_house3
+x 5
+y 2
+end
 arch cobblestones2
 x 5
 y 3
@@ -837,6 +866,10 @@ x 5
 y 4
 end
 arch cobblestones2
+x 5
+y 5
+end
+arch rl_house3
 x 5
 y 5
 end
@@ -861,6 +894,10 @@ x 5
 y 8
 end
 arch cobblestones2
+x 5
+y 9
+end
+arch stronghold
 x 5
 y 9
 end
@@ -908,6 +945,10 @@ arch cobblestones2
 x 5
 y 18
 end
+arch rl_house3
+x 5
+y 18
+end
 arch cobblestones2
 x 5
 y 19
@@ -917,6 +958,10 @@ x 5
 y 20
 end
 arch cobblestones2
+x 5
+y 21
+end
+arch rl_house3
 x 5
 y 21
 end
@@ -1108,7 +1153,15 @@ arch pstone_1
 x 7
 y 5
 end
+arch house_largish
+x 7
+y 5
+end
 arch pstone_1
+x 7
+y 6
+end
+arch house_largish
 x 7
 y 6
 end
@@ -1384,7 +1437,15 @@ arch pstone_1
 x 9
 y 5
 end
+arch house_largish
+x 9
+y 5
+end
 arch grass
+x 9
+y 6
+end
+arch house_largish
 x 9
 y 6
 end
@@ -1660,7 +1721,15 @@ arch pstone_1
 x 11
 y 5
 end
+arch house_largish
+x 11
+y 5
+end
 arch pstone_1
+x 11
+y 6
+end
+arch house_largish
 x 11
 y 6
 end
@@ -1669,6 +1738,10 @@ x 11
 y 7
 end
 arch dwall_2_1_2
+x 11
+y 7
+end
+arch city_tower
 x 11
 y 7
 end
@@ -1729,6 +1802,10 @@ x 11
 y 15
 end
 arch dwall_2_2_1
+x 11
+y 15
+end
+arch city_tower
 x 11
 y 15
 end
@@ -2004,6 +2081,10 @@ arch pstone_1
 x 13
 y 8
 end
+arch house_largish
+x 13
+y 8
+end
 arch pstone_1
 x 13
 y 9
@@ -2045,6 +2126,10 @@ x 13
 y 14
 end
 arch pstone_1
+x 13
+y 15
+end
+arch house_largish
 x 13
 y 15
 end
@@ -2458,6 +2543,10 @@ arch pstone_1
 x 16
 y 8
 end
+arch house_largish
+x 16
+y 8
+end
 arch grass
 x 16
 y 9
@@ -2467,6 +2556,10 @@ x 16
 y 9
 end
 arch grass
+x 16
+y 10
+end
+arch house_largish
 x 16
 y 10
 end
@@ -2482,6 +2575,10 @@ arch pstone_1
 x 16
 y 13
 end
+arch house_largish
+x 16
+y 13
+end
 arch grass
 x 16
 y 14
@@ -2491,6 +2588,10 @@ x 16
 y 15
 end
 arch grass
+x 16
+y 16
+end
+arch house_largish
 x 16
 y 16
 end
@@ -2672,9 +2773,9 @@ arch monument
 name Gravestone
 msg
                  RIP
-               
+
       Here lies General Arkalrad
-      
+
  --@He died fighting for our freedom@--
         *May he rest in peace*
 endmsg
@@ -2865,6 +2966,10 @@ arch cobblestones2
 x 19
 y 2
 end
+arch house_largish
+x 19
+y 2
+end
 arch cobblestones2
 x 19
 y 3
@@ -2873,11 +2978,19 @@ arch cobblestones2
 x 19
 y 4
 end
+arch house_largish
+x 19
+y 4
+end
 arch cobblestones2
 x 19
 y 5
 end
 arch cobblestones2
+x 19
+y 6
+end
+arch house_largish
 x 19
 y 6
 end
@@ -3076,6 +3189,10 @@ arch cobblestones2
 x 20
 y 20
 end
+arch church
+x 20
+y 20
+end
 arch cobblestones2
 x 20
 y 21
@@ -3146,11 +3263,19 @@ arch pstone_1
 x 21
 y 8
 end
+arch house_largish
+x 21
+y 8
+end
 arch pstone_1
 x 21
 y 9
 end
 arch grass
+x 21
+y 10
+end
+arch house_largish
 x 21
 y 10
 end
@@ -3394,6 +3519,9 @@ end
 arch gwall_2_1_2
 x 23
 end
+arch city_tower
+x 23
+end
 arch pstone_1
 x 23
 y 1
@@ -3567,6 +3695,10 @@ x 23
 y 22
 end
 arch dwall_2_2_4
+x 23
+y 22
+end
+arch city_tower
 x 23
 y 22
 end
@@ -3779,134 +3911,4 @@ end
 arch gwall_2_2_4
 x 24
 y 24
-end
-arch city_tower
-x 1
-end
-arch city_tower
-x 1
-y 22
-end
-arch rl_house3
-x 2
-y 5
-end
-arch city_tower
-x 2
-y 7
-end
-arch city_tower
-x 2
-y 15
-end
-arch rl_house3
-x 2
-y 18
-end
-arch rl_house3
-x 5
-y 2
-end
-arch rl_house3
-x 5
-y 5
-end
-arch stronghold
-x 5
-y 9
-end
-arch rl_house3
-x 5
-y 18
-end
-arch rl_house3
-x 5
-y 21
-end
-arch house_largish
-x 7
-y 5
-end
-arch house_largish
-x 7
-y 6
-end
-arch house_largish
-x 9
-y 5
-end
-arch house_largish
-x 9
-y 6
-end
-arch house_largish
-x 11
-y 5
-end
-arch house_largish
-x 11
-y 6
-end
-arch city_tower
-x 11
-y 7
-end
-arch city_tower
-x 11
-y 15
-end
-arch house_largish
-x 13
-y 8
-end
-arch house_largish
-x 13
-y 15
-end
-arch house_largish
-x 16
-y 8
-end
-arch house_largish
-x 16
-y 10
-end
-arch house_largish
-x 16
-y 13
-end
-arch house_largish
-x 16
-y 16
-end
-arch house_largish
-x 19
-y 2
-end
-arch house_largish
-x 19
-y 4
-end
-arch house_largish
-x 19
-y 6
-end
-arch church
-x 20
-y 20
-end
-arch house_largish
-x 21
-y 8
-end
-arch house_largish
-x 21
-y 10
-end
-arch city_tower
-x 23
-end
-arch city_tower
-x 23
-y 22
 end
