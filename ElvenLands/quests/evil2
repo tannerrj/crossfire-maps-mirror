@@ -1,12 +1,13 @@
 arch map
 name evil2
-msg
-Created:  2001-05-14 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
+darkness 2
 width 32
 height 32
-darkness 2
+msg
+Created:  2001-05-14 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-01 Rick Tanner
+endmsg
 end
 arch blocked
 name void
@@ -15,6 +16,8 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
 end
 arch blocked
 name void
@@ -88,6 +91,9 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+y 8
+end
 arch blocked
 name void
 y 9
@@ -150,6 +156,9 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+y 15
 end
 arch blocked
 name void
@@ -222,6 +231,9 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+y 23
 end
 arch blocked
 name void
@@ -1263,8 +1275,8 @@ is_floor 1
 end
 arch magic_mouth
 msg
-Demon Master shouts: 
-   DIE!!!   DIE!!!  
+Demon Master shouts:
+   DIE!!!   DIE!!!
 <incoherent mutterings>
       DIE!!!
 endmsg
@@ -2159,6 +2171,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 6
+y 22
+end
 arch blocked
 name void
 x 6
@@ -2602,6 +2618,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 8
+y 1
+end
 arch blocked
 name void
 x 8
@@ -3076,6 +3096,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 9
+y 15
+end
 arch blocked
 name void
 x 9
@@ -3324,6 +3348,10 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+x 10
+y 8
 end
 arch blocked
 name void
@@ -5918,6 +5946,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 17
+y 8
+end
 arch blocked
 name void
 x 17
@@ -5987,6 +6019,10 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+x 17
+y 15
 end
 arch blocked
 name void
@@ -6544,6 +6580,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 19
+y 1
+end
 arch creator
 hp 99
 x 19
@@ -6758,6 +6798,10 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+x 19
+y 22
 end
 arch blocked
 name void
@@ -8795,6 +8839,9 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 26
+end
 arch blocked
 name void
 x 26
@@ -8865,6 +8912,10 @@ fly_on 1
 blocksview 0
 is_floor 1
 end
+arch Greater_Demon
+x 26
+y 7
+end
 arch blocked
 name void
 x 26
@@ -8934,6 +8985,10 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+x 26
+y 14
 end
 arch blocked
 name void
@@ -9024,6 +9079,10 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
+end
+arch Greater_Demon
+x 26
+y 23
 end
 arch blocked
 name void
@@ -10719,62 +10778,4 @@ no_pass 0
 fly_on 1
 blocksview 0
 is_floor 1
-end
-arch Greater_Demon
-end
-arch Greater_Demon
-y 8
-end
-arch Greater_Demon
-y 15
-end
-arch Greater_Demon
-y 23
-end
-arch Greater_Demon
-x 6
-y 22
-end
-arch Greater_Demon
-x 8
-y 1
-end
-arch Greater_Demon
-x 9
-y 15
-end
-arch Greater_Demon
-x 10
-y 8
-end
-arch Greater_Demon
-x 17
-y 8
-end
-arch Greater_Demon
-x 17
-y 15
-end
-arch Greater_Demon
-x 19
-y 1
-end
-arch Greater_Demon
-x 19
-y 22
-end
-arch Greater_Demon
-x 26
-end
-arch Greater_Demon
-x 26
-y 7
-end
-arch Greater_Demon
-x 26
-y 14
-end
-arch Greater_Demon
-x 26
-y 23
 end

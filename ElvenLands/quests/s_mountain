@@ -1,11 +1,12 @@
 arch map
 name mountains
-msg
-Created:  2002-10-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 30
+msg
+Created:  2002-10-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-01 Rick Tanner
+endmsg
 outdoor 1
 end
 arch mountain4
@@ -2681,6 +2682,7 @@ x 22
 y 1
 end
 arch mountain_cave
+slaying /!
 msg
 floorstyle stones2
 wallstyle cave2
@@ -2691,7 +2693,6 @@ monsterstyle dragon
 final_map /ElvenLands/quests/Sthrithlar
 dungeon_depth 12
 endmsg
-slaying /!
 x 22
 y 2
 end
@@ -2736,6 +2737,11 @@ x 22
 y 11
 end
 arch snow
+x 22
+y 12
+end
+arch temple1
+name Temple of Sorig, Lord of the Winds
 x 22
 y 12
 end
@@ -3538,9 +3544,4 @@ end
 arch mountain4
 x 29
 y 23
-end
-arch temple1
-name Temple of Sorig, Lord of the Winds
-x 22
-y 12
 end

@@ -1,13 +1,14 @@
 arch map
 name Sthrithlar
-msg
-Created:  2001-05-14 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
-enter_x 24
-enter_y 23
+region elvenlands
 width 32
 height 32
+enter_x 24
+enter_y 23
+msg
+Created:  2001-05-14 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-01 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -500,6 +501,32 @@ end
 arch medium_stones
 x 3
 y 8
+end
+arch Cwyvern
+name Black Dragon
+Con 5
+Wis 5
+Pow 7
+Int 19
+hp 1300
+maxhp 1000
+sp 1
+maxsp 100
+exp 12000
+x 3
+y 8
+level 10
+resist_physical 50
+resist_cold -100
+carrying 999
+randomitems chinese
+arch ability_summon_fire
+end
+arch dragon_scale
+name Black Dragon Scale
+face liver.111
+weight 999
+end
 end
 arch medium_stones
 x 3
@@ -680,6 +707,10 @@ arch medium_stones
 x 4
 y 15
 end
+arch big_elec
+x 4
+y 15
+end
 arch medium_stones
 x 4
 y 16
@@ -693,6 +724,10 @@ x 4
 y 18
 end
 arch medium_stones
+x 4
+y 19
+end
+arch big_elec
 x 4
 y 19
 end
@@ -942,6 +977,46 @@ arch medium_stones
 x 6
 y 6
 end
+arch big_dragon
+name Sthrithlar
+Con 20
+hp 10000
+maxhp 10000
+sp 120
+maxsp 120
+exp 200000
+dam 40
+wc -35
+ac -25
+x 6
+y 6
+resist_electricity 50
+carrying 4
+arch blindness
+name large icestorm
+sp 59
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large lightning
+sp 6
+speed 0.000000
+type 110
+is_blind 0
+end
+arch swarm_spell
+name heart of Sthrithlar
+type 72
+material 32
+value 400
+weight 4
+invisible 0
+no_pick 0
+flying 0
+end
+end
 arch medium_stones
 x 6
 y 7
@@ -1137,6 +1212,10 @@ arch medium_stones
 x 7
 y 17
 end
+arch big_elec
+x 7
+y 17
+end
 arch medium_stones
 x 7
 y 18
@@ -1228,6 +1307,32 @@ arch medium_stones
 x 8
 y 4
 end
+arch Cwyvern
+name Black Dragon
+Con 5
+Wis 5
+Pow 7
+Int 19
+hp 1300
+maxhp 1000
+sp 1
+maxsp 100
+exp 12000
+x 8
+y 4
+level 10
+resist_physical 50
+resist_cold -100
+carrying 999
+randomitems chinese
+arch ability_summon_fire
+end
+arch dragon_scale
+name Black Dragon Scale
+face liver.111
+weight 999
+end
+end
 arch medium_stones
 x 8
 y 5
@@ -1257,6 +1362,10 @@ x 8
 y 11
 end
 arch medium_stones
+x 8
+y 12
+end
+arch big_elec
 x 8
 y 12
 end
@@ -1386,6 +1495,32 @@ end
 arch medium_stones
 x 9
 y 8
+end
+arch Cwyvern
+name Black Dragon
+Con 5
+Wis 5
+Pow 7
+Int 19
+hp 1300
+maxhp 1000
+sp 1
+maxsp 100
+exp 12000
+x 9
+y 8
+level 10
+resist_physical 50
+resist_cold -100
+carrying 999
+randomitems chinese
+arch ability_summon_fire
+end
+arch dragon_scale
+name Black Dragon Scale
+face liver.111
+weight 999
+end
 end
 arch medium_stones
 x 9
@@ -1701,6 +1836,10 @@ arch medium_stones
 x 11
 y 13
 end
+arch big_elec
+x 11
+y 13
+end
 arch medium_stones
 x 11
 y 14
@@ -1717,6 +1856,10 @@ arch medium_stones
 x 11
 y 17
 end
+arch big_dragon
+x 11
+y 17
+end
 arch medium_stones
 x 11
 y 18
@@ -1726,6 +1869,10 @@ x 11
 y 19
 end
 arch medium_stones
+x 11
+y 20
+end
+arch big_dragon
 x 11
 y 20
 end
@@ -1876,6 +2023,10 @@ arch medium_stones
 x 12
 y 22
 end
+arch big_dragon
+x 12
+y 22
+end
 arch medium_stones
 x 12
 y 23
@@ -1956,6 +2107,10 @@ x 13
 y 7
 end
 arch medium_stones
+x 13
+y 8
+end
+arch big_elec
 x 13
 y 8
 end
@@ -2277,6 +2432,10 @@ arch medium_stones
 x 15
 y 16
 end
+arch big_dragon
+x 15
+y 16
+end
 arch medium_stones
 x 15
 y 17
@@ -2384,6 +2543,10 @@ arch medium_stones
 x 16
 y 8
 end
+arch big_elec
+x 16
+y 8
+end
 arch medium_stones
 x 16
 y 9
@@ -2428,6 +2591,10 @@ arch medium_stones
 x 16
 y 19
 end
+arch big_dragon
+x 16
+y 19
+end
 arch medium_stones
 x 16
 y 20
@@ -2436,11 +2603,19 @@ arch medium_stones
 x 16
 y 21
 end
+arch chinese_dragon
+x 16
+y 21
+end
 arch medium_stones
 x 16
 y 22
 end
 arch medium_stones
+x 16
+y 23
+end
+arch chinese_dragon
 x 16
 y 23
 end
@@ -2682,6 +2857,10 @@ arch medium_stones
 x 18
 y 14
 end
+arch big_dragon
+x 18
+y 14
+end
 arch medium_stones
 x 18
 y 15
@@ -2789,6 +2968,10 @@ arch medium_stones
 x 19
 y 5
 end
+arch big_elec
+x 19
+y 5
+end
 arch medium_stones
 x 19
 y 6
@@ -2988,6 +3171,10 @@ arch medium_stones
 x 20
 y 18
 end
+arch chinese_dragon
+x 20
+y 18
+end
 arch medium_stones
 x 20
 y 19
@@ -3005,6 +3192,10 @@ x 20
 y 22
 end
 arch medium_stones
+x 20
+y 23
+end
+arch chinese_dragon
 x 20
 y 23
 end
@@ -3104,6 +3295,10 @@ x 21
 y 12
 end
 arch medium_stones
+x 21
+y 13
+end
+arch big_dragon
 x 21
 y 13
 end
@@ -3274,6 +3469,10 @@ arch medium_stones
 x 22
 y 17
 end
+arch chinese_dragon
+x 22
+y 17
+end
 arch medium_stones
 x 22
 y 18
@@ -3283,6 +3482,10 @@ x 22
 y 19
 end
 arch medium_stones
+x 22
+y 20
+end
+arch chinese_dragon
 x 22
 y 20
 end
@@ -3406,6 +3609,10 @@ x 23
 y 14
 end
 arch medium_stones
+x 23
+y 15
+end
+arch chinese_dragon
 x 23
 y 15
 end
@@ -3549,6 +3756,10 @@ x 24
 y 10
 end
 arch medium_stones
+x 24
+y 11
+end
+arch big_dragon
 x 24
 y 11
 end
@@ -3869,6 +4080,10 @@ arch medium_stones
 x 26
 y 14
 end
+arch chinese_dragon
+x 26
+y 14
+end
 arch medium_stones
 x 26
 y 15
@@ -3882,6 +4097,10 @@ x 26
 y 17
 end
 arch medium_stones
+x 26
+y 18
+end
+arch chinese_dragon
 x 26
 y 18
 end
@@ -4647,222 +4866,4 @@ end
 arch medium_stones
 x 31
 y 31
-end
-arch Cwyvern
-name Black Dragon
-Con 5
-Wis 5
-Pow 7
-Int 19
-hp 1300
-maxhp 1000
-sp 1
-maxsp 100
-exp 12000
-x 3
-y 8
-level 10
-resist_physical 50
-resist_cold -100
-carrying 999
-randomitems chinese
-arch ability_summon_fire
-end
-arch dragon_scale
-name Black Dragon Scale
-face liver.111
-weight 999
-end
-end
-arch big_elec
-x 4
-y 15
-end
-arch big_elec
-x 4
-y 19
-end
-arch big_dragon
-name Sthrithlar
-Con 20
-hp 10000
-maxhp 10000
-sp 120
-maxsp 120
-exp 200000
-dam 40
-wc -35
-ac -25
-x 6
-y 6
-resist_electricity 50
-carrying 4
-arch blindness
-name large icestorm
-sp 59
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name large lightning
-sp 6
-speed 0.000000
-type 110
-is_blind 0
-end
-arch swarm_spell
-name heart of Sthrithlar
-type 72
-material 32
-value 400
-weight 4
-invisible 0
-no_pick 0
-flying 0
-end
-end
-arch big_elec
-x 7
-y 17
-end
-arch Cwyvern
-name Black Dragon
-Con 5
-Wis 5
-Pow 7
-Int 19
-hp 1300
-maxhp 1000
-sp 1
-maxsp 100
-exp 12000
-x 8
-y 4
-level 10
-resist_physical 50
-resist_cold -100
-carrying 999
-randomitems chinese
-arch ability_summon_fire
-end
-arch dragon_scale
-name Black Dragon Scale
-face liver.111
-weight 999
-end
-end
-arch big_elec
-x 8
-y 12
-end
-arch Cwyvern
-name Black Dragon
-Con 5
-Wis 5
-Pow 7
-Int 19
-hp 1300
-maxhp 1000
-sp 1
-maxsp 100
-exp 12000
-x 9
-y 8
-level 10
-resist_physical 50
-resist_cold -100
-carrying 999
-randomitems chinese
-arch ability_summon_fire
-end
-arch dragon_scale
-name Black Dragon Scale
-face liver.111
-weight 999
-end
-end
-arch big_elec
-x 11
-y 13
-end
-arch big_dragon
-x 11
-y 17
-end
-arch big_dragon
-x 11
-y 20
-end
-arch big_dragon
-x 12
-y 22
-end
-arch big_elec
-x 13
-y 8
-end
-arch big_dragon
-x 15
-y 16
-end
-arch big_elec
-x 16
-y 8
-end
-arch big_dragon
-x 16
-y 19
-end
-arch chinese_dragon
-x 16
-y 21
-end
-arch chinese_dragon
-x 16
-y 23
-end
-arch big_dragon
-x 18
-y 14
-end
-arch big_elec
-x 19
-y 5
-end
-arch chinese_dragon
-x 20
-y 18
-end
-arch chinese_dragon
-x 20
-y 23
-end
-arch big_dragon
-x 21
-y 13
-end
-arch chinese_dragon
-x 22
-y 17
-end
-arch chinese_dragon
-x 22
-y 20
-end
-arch chinese_dragon
-x 23
-y 15
-end
-arch big_dragon
-x 24
-y 11
-end
-arch chinese_dragon
-x 26
-y 14
-end
-arch chinese_dragon
-x 26
-y 18
 end

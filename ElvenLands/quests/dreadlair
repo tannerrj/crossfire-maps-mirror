@@ -1,12 +1,13 @@
 arch map
 name dreadlair
-msg
-Created:  2001-05-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
 width 43
 height 43
 enter_y 2
+msg
+Created:  2001-05-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-01 Rick Tanner
+endmsg
 end
 arch pstone_1
 end
@@ -2727,6 +2728,10 @@ arch pstone_1
 x 10
 y 13
 end
+arch dread
+x 10
+y 13
+end
 arch pstone_1
 x 10
 y 14
@@ -4931,6 +4936,10 @@ arch pstone_1
 x 18
 y 25
 end
+arch dread
+x 18
+y 25
+end
 arch pstone_1
 x 18
 y 26
@@ -5653,6 +5662,10 @@ arch pstone_1
 x 21
 y 2
 end
+arch dread
+x 21
+y 2
+end
 arch pstone_1
 x 21
 y 3
@@ -5774,6 +5787,10 @@ x 21
 y 24
 end
 arch pstone_1
+x 21
+y 25
+end
+arch dread
 x 21
 y 25
 end
@@ -7274,6 +7291,10 @@ x 27
 y 9
 end
 arch pstone_1
+x 27
+y 10
+end
+arch dread
 x 27
 y 10
 end
@@ -8401,6 +8422,10 @@ arch pstone_1
 x 31
 y 30
 end
+arch dread
+x 31
+y 30
+end
 arch pstone_1
 x 31
 y 31
@@ -8410,6 +8435,10 @@ x 31
 y 32
 end
 arch pstone_1
+x 31
+y 33
+end
+arch dread
 x 31
 y 33
 end
@@ -8425,6 +8454,10 @@ arch pstone_1
 x 31
 y 36
 end
+arch dread
+x 31
+y 36
+end
 arch pstone_1
 x 31
 y 37
@@ -8434,6 +8467,10 @@ x 31
 y 38
 end
 arch pstone_1
+x 31
+y 39
+end
+arch dread
 x 31
 y 39
 end
@@ -8523,6 +8560,10 @@ arch pstone_1
 x 32
 y 13
 end
+arch dread
+x 32
+y 13
+end
 arch pstone_1
 x 32
 y 14
@@ -8547,6 +8588,10 @@ arch pstone_1
 x 32
 y 19
 end
+arch dread
+x 32
+y 19
+end
 arch pstone_1
 x 32
 y 20
@@ -8568,6 +8613,10 @@ x 32
 y 24
 end
 arch pstone_1
+x 32
+y 25
+end
+arch dread
 x 32
 y 25
 end
@@ -8983,6 +9032,10 @@ arch pstone_1
 x 34
 y 30
 end
+arch dread
+x 34
+y 30
+end
 arch pstone_1
 x 34
 y 31
@@ -8992,6 +9045,10 @@ x 34
 y 32
 end
 arch pstone_1
+x 34
+y 33
+end
+arch dread
 x 34
 y 33
 end
@@ -9007,6 +9064,10 @@ arch pstone_1
 x 34
 y 36
 end
+arch dread
+x 34
+y 36
+end
 arch pstone_1
 x 34
 y 37
@@ -9018,6 +9079,14 @@ end
 arch pstone_1
 x 34
 y 39
+end
+arch dread
+x 34
+y 39
+carrying 25000
+arch gem
+nrof 500
+end
 end
 arch pstone_1
 x 34
@@ -9355,6 +9424,30 @@ arch pstone_1
 x 36
 y 27
 end
+arch dread
+name master dread
+Con 8
+Wis 25
+Pow 20
+hp 3000
+maxhp 3000
+sp 50
+maxsp 50
+exp 100000
+dam 30
+wc -25
+ac -15
+x 36
+y 27
+speed -0.100000
+carrying 25001
+arch big_eye
+name master dread's eye
+end
+arch gem
+nrof 500
+end
+end
 arch pstone_1
 x 36
 y 28
@@ -9565,6 +9658,10 @@ arch pstone_1
 x 37
 y 30
 end
+arch dread
+x 37
+y 30
+end
 arch pstone_1
 x 37
 y 31
@@ -9574,6 +9671,10 @@ x 37
 y 32
 end
 arch pstone_1
+x 37
+y 33
+end
+arch dread
 x 37
 y 33
 end
@@ -9589,6 +9690,10 @@ arch pstone_1
 x 37
 y 36
 end
+arch dread
+x 37
+y 36
+end
 arch pstone_1
 x 37
 y 37
@@ -9598,6 +9703,10 @@ x 37
 y 38
 end
 arch pstone_1
+x 37
+y 39
+end
+arch dread
 x 37
 y 39
 end
@@ -9873,6 +9982,10 @@ arch pstone_1
 x 39
 y 13
 end
+arch dread
+x 39
+y 13
+end
 arch pstone_1
 x 39
 y 14
@@ -9897,6 +10010,10 @@ arch pstone_1
 x 39
 y 19
 end
+arch dread
+x 39
+y 19
+end
 arch pstone_1
 x 39
 y 20
@@ -9918,6 +10035,10 @@ x 39
 y 24
 end
 arch pstone_1
+x 39
+y 25
+end
+arch dread
 x 39
 y 25
 end
@@ -10012,6 +10133,10 @@ x 40
 y 1
 end
 arch pstone_1
+x 40
+y 2
+end
+arch dread
 x 40
 y 2
 end
@@ -10135,6 +10260,10 @@ arch pstone_1
 x 40
 y 30
 end
+arch dread
+x 40
+y 30
+end
 arch pstone_1
 x 40
 y 31
@@ -10146,6 +10275,14 @@ end
 arch pstone_1
 x 40
 y 33
+end
+arch dread
+x 40
+y 33
+carrying 25000
+arch gem
+nrof 500
+end
 end
 arch pstone_1
 x 40
@@ -10159,6 +10296,10 @@ arch pstone_1
 x 40
 y 36
 end
+arch dread
+x 40
+y 36
+end
 arch pstone_1
 x 40
 y 37
@@ -10168,6 +10309,10 @@ x 40
 y 38
 end
 arch pstone_1
+x 40
+y 39
+end
+arch dread
 x 40
 y 39
 end
@@ -10718,148 +10863,4 @@ end
 arch bwall_2_2_4
 x 42
 y 42
-end
-arch dread
-x 10
-y 13
-end
-arch dread
-x 18
-y 25
-end
-arch dread
-x 21
-y 2
-end
-arch dread
-x 21
-y 25
-end
-arch dread
-x 27
-y 10
-end
-arch dread
-x 31
-y 30
-end
-arch dread
-x 31
-y 33
-end
-arch dread
-x 31
-y 36
-end
-arch dread
-x 31
-y 39
-end
-arch dread
-x 32
-y 13
-end
-arch dread
-x 32
-y 19
-end
-arch dread
-x 32
-y 25
-end
-arch dread
-x 34
-y 30
-end
-arch dread
-x 34
-y 33
-end
-arch dread
-x 34
-y 36
-end
-arch dread
-carrying 25000
-x 34
-y 39
-arch gem
-nrof 500
-end
-end
-arch dread
-name master dread
-Con 8
-Wis 25
-Pow 20
-hp 3000
-maxhp 3000
-sp 50
-maxsp 50
-exp 100000
-dam 30
-wc -25
-ac -15
-speed -0.100000
-carrying 25001
-x 36
-y 27
-arch big_eye
-name master dread's eye
-end
-arch gem
-nrof 500
-end
-end
-arch dread
-x 37
-y 30
-end
-arch dread
-x 37
-y 33
-end
-arch dread
-x 37
-y 36
-end
-arch dread
-x 37
-y 39
-end
-arch dread
-x 39
-y 13
-end
-arch dread
-x 39
-y 19
-end
-arch dread
-x 39
-y 25
-end
-arch dread
-x 40
-y 2
-end
-arch dread
-x 40
-y 30
-end
-arch dread
-carrying 25000
-x 40
-y 33
-arch gem
-nrof 500
-end
-end
-arch dread
-x 40
-y 36
-end
-arch dread
-x 40
-y 39
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 32
+msg
+Created:  2001-05-17 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-01 Rick Tanner
+endmsg
 end
 arch dirtfloor
 end
@@ -210,6 +212,10 @@ arch random_wealth
 x 1
 y 1
 end
+arch DK
+x 1
+y 1
+end
 arch dirtfloor
 x 1
 y 2
@@ -271,6 +277,10 @@ x 1
 y 11
 end
 arch dirtfloor
+x 1
+y 12
+end
+arch cyclops
 x 1
 y 12
 end
@@ -428,6 +438,10 @@ arch dirtfloor
 x 2
 y 9
 end
+arch titan
+x 2
+y 9
+end
 arch dirtfloor
 x 2
 y 10
@@ -456,6 +470,10 @@ arch dirtfloor
 x 2
 y 16
 end
+arch titan
+x 2
+y 16
+end
 arch dirtfloor
 x 2
 y 17
@@ -476,6 +494,10 @@ arch dirtfloor
 x 2
 y 20
 end
+arch titan
+x 2
+y 20
+end
 arch dirtfloor
 x 2
 y 21
@@ -485,6 +507,10 @@ x 2
 y 22
 end
 arch dirtfloor
+x 2
+y 23
+end
+arch titan
 x 2
 y 23
 end
@@ -613,6 +639,10 @@ arch dirtfloor
 x 3
 y 12
 end
+arch cyclops
+x 3
+y 12
+end
 arch dirtfloor
 x 3
 y 13
@@ -712,6 +742,10 @@ x 4
 y 1
 end
 arch random_wealth
+x 4
+y 1
+end
+arch DK
 x 4
 y 1
 end
@@ -933,6 +967,10 @@ arch dirtfloor
 x 5
 y 9
 end
+arch titan
+x 5
+y 9
+end
 arch dirtfloor
 x 5
 y 10
@@ -942,6 +980,10 @@ x 5
 y 11
 end
 arch dirtfloor
+x 5
+y 12
+end
+arch cyclops
 x 5
 y 12
 end
@@ -958,6 +1000,10 @@ x 5
 y 15
 end
 arch dirtfloor
+x 5
+y 16
+end
+arch titan
 x 5
 y 16
 end
@@ -981,6 +1027,10 @@ arch dirtfloor
 x 5
 y 20
 end
+arch titan
+x 5
+y 20
+end
 arch dirtfloor
 x 5
 y 21
@@ -990,6 +1040,10 @@ x 5
 y 22
 end
 arch dirtfloor
+x 5
+y 23
+end
+arch titan
 x 5
 y 23
 end
@@ -1273,6 +1327,10 @@ arch dirtfloor
 x 7
 y 12
 end
+arch cyclops
+x 7
+y 12
+end
 arch dirtfloor
 x 7
 y 13
@@ -1427,6 +1485,10 @@ arch dirtfloor
 x 8
 y 9
 end
+arch titan
+x 8
+y 9
+end
 arch dirtfloor
 x 8
 y 10
@@ -1455,6 +1517,10 @@ arch dirtfloor
 x 8
 y 16
 end
+arch titan
+x 8
+y 16
+end
 arch dirtfloor
 x 8
 y 17
@@ -1475,6 +1541,10 @@ arch dirtfloor
 x 8
 y 20
 end
+arch titan
+x 8
+y 20
+end
 arch dirtfloor
 x 8
 y 21
@@ -1484,6 +1554,10 @@ x 8
 y 22
 end
 arch dirtfloor
+x 8
+y 23
+end
+arch titan
 x 8
 y 23
 end
@@ -1553,6 +1627,10 @@ arch random_wealth
 x 9
 y 1
 end
+arch DK
+x 9
+y 1
+end
 arch dirtfloor
 x 9
 y 2
@@ -1614,6 +1692,10 @@ x 9
 y 11
 end
 arch dirtfloor
+x 9
+y 12
+end
+arch cyclops
 x 9
 y 12
 end
@@ -1993,6 +2075,10 @@ arch dirtfloor
 x 11
 y 9
 end
+arch titan
+x 11
+y 9
+end
 arch dirtfloor
 x 11
 y 10
@@ -2002,6 +2088,10 @@ x 11
 y 11
 end
 arch dirtfloor
+x 11
+y 12
+end
+arch cyclops
 x 11
 y 12
 end
@@ -2018,6 +2108,10 @@ x 11
 y 15
 end
 arch dirtfloor
+x 11
+y 16
+end
+arch titan
 x 11
 y 16
 end
@@ -2038,6 +2132,10 @@ x 11
 y 19
 end
 arch random_wealth
+x 11
+y 19
+end
+arch cyclops
 x 11
 y 19
 end
@@ -2101,6 +2199,10 @@ arch random_wealth
 x 11
 y 28
 end
+arch cyclops
+x 11
+y 28
+end
 arch dirtfloor
 x 11
 y 29
@@ -2136,6 +2238,10 @@ x 12
 y 1
 end
 arch random_wealth
+x 12
+y 1
+end
+arch DK
 x 12
 y 1
 end
@@ -2797,6 +2903,10 @@ arch random_wealth
 x 15
 y 2
 end
+arch EDK
+x 15
+y 2
+end
 arch dirtfloor
 x 15
 y 3
@@ -2873,6 +2983,10 @@ arch dirtfloor
 x 15
 y 17
 end
+arch cyclops
+x 15
+y 17
+end
 arch dirtfloor
 x 15
 y 18
@@ -2882,6 +2996,10 @@ x 15
 y 19
 end
 arch dirtfloor
+x 15
+y 20
+end
+arch cyclops
 x 15
 y 20
 end
@@ -2914,6 +3032,10 @@ x 15
 y 26
 end
 arch random_wealth
+x 15
+y 26
+end
+arch EDK
 x 15
 y 26
 end
@@ -3161,6 +3283,10 @@ arch random_wealth
 x 17
 y 2
 end
+arch EDK
+x 17
+y 2
+end
 arch dirtfloor
 x 17
 y 3
@@ -3205,6 +3331,10 @@ arch dirtfloor
 x 17
 y 9
 end
+arch titan
+x 17
+y 9
+end
 arch dirtfloor
 x 17
 y 10
@@ -3214,6 +3344,10 @@ x 17
 y 11
 end
 arch dirtfloor
+x 17
+y 12
+end
+arch titan
 x 17
 y 12
 end
@@ -3229,11 +3363,19 @@ arch dirtfloor
 x 17
 y 15
 end
+arch titan
+x 17
+y 15
+end
 arch dirtfloor
 x 17
 y 16
 end
 arch dirtfloor
+x 17
+y 17
+end
+arch cyclops
 x 17
 y 17
 end
@@ -3246,6 +3388,10 @@ x 17
 y 19
 end
 arch dirtfloor
+x 17
+y 20
+end
+arch cyclops
 x 17
 y 20
 end
@@ -3278,6 +3424,10 @@ x 17
 y 26
 end
 arch random_wealth
+x 17
+y 26
+end
+arch EDK
 x 17
 y 26
 end
@@ -3525,6 +3675,10 @@ arch random_wealth
 x 19
 y 2
 end
+arch EDK
+x 19
+y 2
+end
 arch dirtfloor
 x 19
 y 3
@@ -3617,6 +3771,10 @@ arch dirtfloor
 x 19
 y 21
 end
+arch DK
+x 19
+y 21
+end
 arch dirtfloor
 x 19
 y 22
@@ -3642,6 +3800,10 @@ x 19
 y 26
 end
 arch random_wealth
+x 19
+y 26
+end
+arch EDK
 x 19
 y 26
 end
@@ -3751,6 +3913,10 @@ arch dirtfloor
 x 20
 y 9
 end
+arch titan
+x 20
+y 9
+end
 arch dirtfloor
 x 20
 y 10
@@ -3760,6 +3926,10 @@ x 20
 y 11
 end
 arch dirtfloor
+x 20
+y 12
+end
+arch titan
 x 20
 y 12
 end
@@ -3775,6 +3945,10 @@ arch dirtfloor
 x 20
 y 15
 end
+arch titan
+x 20
+y 15
+end
 arch dirtfloor
 x 20
 y 16
@@ -3784,6 +3958,10 @@ x 20
 y 17
 end
 arch dirtfloor
+x 20
+y 18
+end
+arch big_wiz
 x 20
 y 18
 end
@@ -3886,6 +4064,10 @@ x 21
 y 2
 end
 arch random_wealth
+x 21
+y 2
+end
+arch EDK
 x 21
 y 2
 end
@@ -3981,6 +4163,10 @@ arch dirtfloor
 x 21
 y 21
 end
+arch DK
+x 21
+y 21
+end
 arch dirtfloor
 x 21
 y 22
@@ -4006,6 +4192,10 @@ x 21
 y 26
 end
 arch random_wealth
+x 21
+y 26
+end
+arch EDK
 x 21
 y 26
 end
@@ -4253,6 +4443,10 @@ arch random_wealth
 x 23
 y 2
 end
+arch EDK
+x 23
+y 2
+end
 arch dirtfloor
 x 23
 y 3
@@ -4297,6 +4491,10 @@ arch dirtfloor
 x 23
 y 9
 end
+arch titan
+x 23
+y 9
+end
 arch dirtfloor
 x 23
 y 10
@@ -4306,6 +4504,10 @@ x 23
 y 11
 end
 arch dirtfloor
+x 23
+y 12
+end
+arch titan
 x 23
 y 12
 end
@@ -4321,11 +4523,19 @@ arch dirtfloor
 x 23
 y 15
 end
+arch titan
+x 23
+y 15
+end
 arch dirtfloor
 x 23
 y 16
 end
 arch dirtfloor
+x 23
+y 17
+end
+arch cyclops
 x 23
 y 17
 end
@@ -4342,6 +4552,10 @@ x 23
 y 20
 end
 arch dirtfloor
+x 23
+y 21
+end
+arch DK
 x 23
 y 21
 end
@@ -4378,6 +4592,10 @@ x 23
 y 27
 end
 arch random_wealth
+x 23
+y 27
+end
+arch big_wiz
 x 23
 y 27
 end
@@ -4617,6 +4835,10 @@ arch random_wealth
 x 25
 y 2
 end
+arch EDK
+x 25
+y 2
+end
 arch dirtfloor
 x 25
 y 3
@@ -4653,6 +4875,10 @@ arch dirtfloor
 x 25
 y 7
 end
+arch cyclops
+x 25
+y 7
+end
 arch dirtfloor
 x 25
 y 8
@@ -4677,6 +4903,10 @@ arch dirtfloor
 x 25
 y 13
 end
+arch cyclops
+x 25
+y 13
+end
 arch dirtfloor
 x 25
 y 14
@@ -4693,6 +4923,10 @@ arch dirtfloor
 x 25
 y 17
 end
+arch cyclops
+x 25
+y 17
+end
 arch dirtfloor
 x 25
 y 18
@@ -4706,6 +4940,10 @@ x 25
 y 20
 end
 arch dirtfloor
+x 25
+y 21
+end
+arch DK
 x 25
 y 21
 end
@@ -4847,6 +5085,10 @@ arch dirtfloor
 x 26
 y 10
 end
+arch big_wiz
+x 26
+y 10
+end
 arch dirtfloor
 x 26
 y 11
@@ -4927,6 +5169,10 @@ arch random_wealth
 x 26
 y 27
 end
+arch big_wiz
+x 26
+y 27
+end
 arch dirtfloor
 x 26
 y 28
@@ -4978,6 +5224,10 @@ x 27
 y 2
 end
 arch random_wealth
+x 27
+y 2
+end
+arch EDK
 x 27
 y 2
 end
@@ -5017,6 +5267,10 @@ arch dirtfloor
 x 27
 y 7
 end
+arch cyclops
+x 27
+y 7
+end
 arch dirtfloor
 x 27
 y 8
@@ -5041,6 +5295,10 @@ arch dirtfloor
 x 27
 y 13
 end
+arch cyclops
+x 27
+y 13
+end
 arch dirtfloor
 x 27
 y 14
@@ -5057,6 +5315,10 @@ arch dirtfloor
 x 27
 y 17
 end
+arch big_wiz
+x 27
+y 17
+end
 arch dirtfloor
 x 27
 y 18
@@ -5070,6 +5332,10 @@ x 27
 y 20
 end
 arch dirtfloor
+x 27
+y 21
+end
+arch DK
 x 27
 y 21
 end
@@ -5345,6 +5611,10 @@ arch random_wealth
 x 29
 y 2
 end
+arch EDK
+x 29
+y 2
+end
 arch dirtfloor
 x 29
 y 3
@@ -5381,6 +5651,10 @@ arch dirtfloor
 x 29
 y 7
 end
+arch cyclops
+x 29
+y 7
+end
 arch dirtfloor
 x 29
 y 8
@@ -5393,6 +5667,10 @@ arch dirtfloor
 x 29
 y 10
 end
+arch cyclops
+x 29
+y 10
+end
 arch dirtfloor
 x 29
 y 11
@@ -5402,6 +5680,10 @@ x 29
 y 12
 end
 arch dirtfloor
+x 29
+y 13
+end
+arch cyclops
 x 29
 y 13
 end
@@ -5434,6 +5716,10 @@ x 29
 y 20
 end
 arch dirtfloor
+x 29
+y 21
+end
+arch DK
 x 29
 y 21
 end
@@ -5470,6 +5756,10 @@ x 29
 y 27
 end
 arch random_potion
+x 29
+y 27
+end
+arch belzebub
 x 29
 y 27
 end
@@ -5940,292 +6230,4 @@ end
 arch bwall_2_2_4
 x 31
 y 31
-end
-arch DK
-x 1
-y 1
-end
-arch cyclops
-x 1
-y 12
-end
-arch titan
-x 2
-y 9
-end
-arch titan
-x 2
-y 16
-end
-arch titan
-x 2
-y 20
-end
-arch titan
-x 2
-y 23
-end
-arch cyclops
-x 3
-y 12
-end
-arch DK
-x 4
-y 1
-end
-arch titan
-x 5
-y 9
-end
-arch cyclops
-x 5
-y 12
-end
-arch titan
-x 5
-y 16
-end
-arch titan
-x 5
-y 20
-end
-arch titan
-x 5
-y 23
-end
-arch cyclops
-x 7
-y 12
-end
-arch titan
-x 8
-y 9
-end
-arch titan
-x 8
-y 16
-end
-arch titan
-x 8
-y 20
-end
-arch titan
-x 8
-y 23
-end
-arch DK
-x 9
-y 1
-end
-arch cyclops
-x 9
-y 12
-end
-arch titan
-x 11
-y 9
-end
-arch cyclops
-x 11
-y 12
-end
-arch titan
-x 11
-y 16
-end
-arch cyclops
-x 11
-y 19
-end
-arch cyclops
-x 11
-y 28
-end
-arch DK
-x 12
-y 1
-end
-arch EDK
-x 15
-y 2
-end
-arch cyclops
-x 15
-y 17
-end
-arch cyclops
-x 15
-y 20
-end
-arch EDK
-x 15
-y 26
-end
-arch EDK
-x 17
-y 2
-end
-arch titan
-x 17
-y 9
-end
-arch titan
-x 17
-y 12
-end
-arch titan
-x 17
-y 15
-end
-arch cyclops
-x 17
-y 17
-end
-arch cyclops
-x 17
-y 20
-end
-arch EDK
-x 17
-y 26
-end
-arch EDK
-x 19
-y 2
-end
-arch DK
-x 19
-y 21
-end
-arch EDK
-x 19
-y 26
-end
-arch titan
-x 20
-y 9
-end
-arch titan
-x 20
-y 12
-end
-arch titan
-x 20
-y 15
-end
-arch big_wiz
-x 20
-y 18
-end
-arch EDK
-x 21
-y 2
-end
-arch DK
-x 21
-y 21
-end
-arch EDK
-x 21
-y 26
-end
-arch EDK
-x 23
-y 2
-end
-arch titan
-x 23
-y 9
-end
-arch titan
-x 23
-y 12
-end
-arch titan
-x 23
-y 15
-end
-arch cyclops
-x 23
-y 17
-end
-arch DK
-x 23
-y 21
-end
-arch big_wiz
-x 23
-y 27
-end
-arch EDK
-x 25
-y 2
-end
-arch cyclops
-x 25
-y 7
-end
-arch cyclops
-x 25
-y 13
-end
-arch cyclops
-x 25
-y 17
-end
-arch DK
-x 25
-y 21
-end
-arch big_wiz
-x 26
-y 10
-end
-arch big_wiz
-x 26
-y 27
-end
-arch EDK
-x 27
-y 2
-end
-arch cyclops
-x 27
-y 7
-end
-arch cyclops
-x 27
-y 13
-end
-arch big_wiz
-x 27
-y 17
-end
-arch DK
-x 27
-y 21
-end
-arch EDK
-x 29
-y 2
-end
-arch cyclops
-x 29
-y 7
-end
-arch cyclops
-x 29
-y 10
-end
-arch cyclops
-x 29
-y 13
-end
-arch DK
-x 29
-y 21
-end
-arch belzebub
-x 29
-y 27
 end
