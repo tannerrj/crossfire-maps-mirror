@@ -1,29 +1,22 @@
 arch map
 name ship to the elven lands
-msg
-Created:  2001-03-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
 width 32
 height 32
-end
-arch blocked
 msg
+Created:  2001-03-04 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
 endmsg
 end
 arch blocked
-msg
-endmsg
+end
+arch blocked
 y 1
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch mover_5
@@ -85,13 +78,9 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 y 12
 end
 arch blocked
-msg
-endmsg
 y 13
 end
 arch sea1
@@ -149,25 +138,17 @@ arch sea1
 y 31
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
 arch blocked
-msg
-endmsg
 x 1
 y 3
 end
@@ -220,14 +201,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 12
 end
 arch blocked
-msg
-endmsg
 x 1
 y 13
 end
@@ -304,25 +281,17 @@ x 1
 y 31
 end
 arch blocked
-msg
-endmsg
 x 2
 end
 arch blocked
-msg
-endmsg
 x 2
 y 1
 end
 arch blocked
-msg
-endmsg
 x 2
 y 2
 end
 arch blocked
-msg
-endmsg
 x 2
 y 3
 end
@@ -367,14 +336,10 @@ level 1
 attacktype 1
 end
 arch blocked
-msg
-endmsg
 x 2
 y 12
 end
 arch blocked
-msg
-endmsg
 x 2
 y 13
 end
@@ -454,7 +419,7 @@ arch magic_mouth
 msg
  The captain says:
 Ok. You'd better get to your cabin
-now. It's over there. 
+now. It's over there.
 (He points toward the room by the
 enterance.) We're leaving now.
 You only leave if you are in your room.
@@ -463,80 +428,54 @@ x 3
 connected 1
 end
 arch blocked
-msg
-endmsg
 x 3
 y 1
 end
 arch blocked
-msg
-endmsg
 x 3
 y 2
 end
 arch blocked
-msg
-endmsg
 x 3
 y 3
 end
 arch blocked
-msg
-endmsg
 x 3
 y 4
 end
 arch blocked
-msg
-endmsg
 x 3
 y 5
 end
 arch blocked
-msg
-endmsg
 x 3
 y 6
 end
 arch blocked
-msg
-endmsg
 x 3
 y 7
 end
 arch blocked
-msg
-endmsg
 x 3
 y 8
 end
 arch blocked
-msg
-endmsg
 x 3
 y 9
 end
 arch blocked
-msg
-endmsg
 x 3
 y 10
 end
 arch blocked
-msg
-endmsg
 x 3
 y 11
 end
 arch blocked
-msg
-endmsg
 x 3
 y 12
 end
 arch blocked
-msg
-endmsg
 x 3
 y 13
 end
@@ -613,19 +552,13 @@ x 3
 y 31
 end
 arch blocked
-msg
-endmsg
 x 4
 end
 arch blocked
-msg
-endmsg
 x 4
 y 1
 end
 arch blocked
-msg
-endmsg
 x 4
 y 2
 end
@@ -702,14 +635,10 @@ x 4
 y 11
 end
 arch blocked
-msg
-endmsg
 x 4
 y 12
 end
 arch blocked
-msg
-endmsg
 x 4
 y 13
 end
@@ -786,13 +715,9 @@ x 4
 y 31
 end
 arch blocked
-msg
-endmsg
 x 5
 end
 arch blocked
-msg
-endmsg
 x 5
 y 1
 end
@@ -813,8 +738,6 @@ x 5
 y 3
 end
 arch blocked
-msg
-endmsg
 x 5
 y 4
 end
@@ -859,7 +782,7 @@ name captain
 msg
 @match hi|hello
 This ship goes to the Elven City of
-Yoer in the Elven Lands. 
+Yoer in the Elven Lands.
  We're going to leave port soon,so you'd
 better get off the ship or pay 500
 gold. (He gesters to the table.)
@@ -939,8 +862,6 @@ x 5
 y 12
 end
 arch blocked
-msg
-endmsg
 x 5
 y 13
 end
@@ -1045,13 +966,9 @@ x 5
 y 31
 end
 arch blocked
-msg
-endmsg
 x 6
 end
 arch blocked
-msg
-endmsg
 x 6
 y 1
 end
@@ -1064,14 +981,10 @@ x 6
 y 2
 end
 arch blocked
-msg
-endmsg
 x 6
 y 3
 end
 arch blocked
-msg
-endmsg
 x 6
 y 4
 end
@@ -1205,8 +1118,6 @@ x 6
 y 12
 end
 arch blocked
-msg
-endmsg
 x 6
 y 13
 end
@@ -1243,32 +1154,22 @@ x 6
 y 19
 end
 arch blocked
-msg
-endmsg
 x 6
 y 20
 end
 arch blocked
-msg
-endmsg
 x 6
 y 21
 end
 arch blocked
-msg
-endmsg
 x 6
 y 22
 end
 arch blocked
-msg
-endmsg
 x 6
 y 23
 end
 arch blocked
-msg
-endmsg
 x 6
 y 24
 end
@@ -1309,16 +1210,12 @@ x 6
 y 31
 end
 arch blocked
-msg
-endmsg
 x 7
 end
 arch gratedoor_1
 x 7
 end
 arch blocked
-msg
-endmsg
 x 7
 y 1
 end
@@ -1331,14 +1228,10 @@ x 7
 y 2
 end
 arch blocked
-msg
-endmsg
 x 7
 y 3
 end
 arch blocked
-msg
-endmsg
 x 7
 y 4
 end
@@ -1459,8 +1352,6 @@ x 7
 y 12
 end
 arch blocked
-msg
-endmsg
 x 7
 y 13
 end
@@ -1489,44 +1380,30 @@ x 7
 y 18
 end
 arch blocked
-msg
-endmsg
 x 7
 y 19
 end
 arch blocked
-msg
-endmsg
 x 7
 y 20
 end
 arch blocked
-msg
-endmsg
 x 7
 y 21
 end
 arch blocked
-msg
-endmsg
 x 7
 y 22
 end
 arch blocked
-msg
-endmsg
 x 7
 y 23
 end
 arch blocked
-msg
-endmsg
 x 7
 y 24
 end
 arch blocked
-msg
-endmsg
 x 7
 y 25
 end
@@ -1559,13 +1436,9 @@ x 7
 y 31
 end
 arch blocked
-msg
-endmsg
 x 8
 end
 arch blocked
-msg
-endmsg
 x 8
 y 1
 end
@@ -1692,8 +1565,6 @@ x 8
 y 12
 end
 arch blocked
-msg
-endmsg
 x 8
 y 13
 end
@@ -1722,44 +1593,30 @@ x 8
 y 18
 end
 arch blocked
-msg
-endmsg
 x 8
 y 19
 end
 arch blocked
-msg
-endmsg
 x 8
 y 20
 end
 arch blocked
-msg
-endmsg
 x 8
 y 21
 end
 arch blocked
-msg
-endmsg
 x 8
 y 22
 end
 arch blocked
-msg
-endmsg
 x 8
 y 23
 end
 arch blocked
-msg
-endmsg
 x 8
 y 24
 end
 arch blocked
-msg
-endmsg
 x 8
 y 25
 end
@@ -1792,13 +1649,9 @@ x 8
 y 31
 end
 arch blocked
-msg
-endmsg
 x 9
 end
 arch blocked
-msg
-endmsg
 x 9
 y 1
 end
@@ -1924,8 +1777,6 @@ x 9
 y 12
 end
 arch blocked
-msg
-endmsg
 x 9
 y 13
 end
@@ -2046,13 +1897,9 @@ x 9
 y 31
 end
 arch blocked
-msg
-endmsg
 x 10
 end
 arch blocked
-msg
-endmsg
 x 10
 y 1
 end
@@ -2193,8 +2040,6 @@ x 10
 y 12
 end
 arch blocked
-msg
-endmsg
 x 10
 y 13
 end
@@ -2373,13 +2218,9 @@ x 10
 y 31
 end
 arch blocked
-msg
-endmsg
 x 11
 end
 arch blocked
-msg
-endmsg
 x 11
 y 1
 end
@@ -2510,8 +2351,6 @@ x 11
 y 12
 end
 arch blocked
-msg
-endmsg
 x 11
 y 13
 end
@@ -2693,13 +2532,9 @@ x 11
 y 31
 end
 arch blocked
-msg
-endmsg
 x 12
 end
 arch blocked
-msg
-endmsg
 x 12
 y 1
 end
@@ -2800,8 +2635,6 @@ x 12
 y 12
 end
 arch blocked
-msg
-endmsg
 x 12
 y 13
 end
@@ -2966,85 +2799,57 @@ x 12
 y 31
 end
 arch blocked
-msg
-endmsg
 x 13
 end
 arch blocked
-msg
-endmsg
 x 13
 y 1
 end
 arch blocked
-msg
-endmsg
 x 13
 y 2
 end
 arch blocked
-msg
-endmsg
 x 13
 y 3
 end
 arch blocked
-msg
-endmsg
 x 13
 y 4
 end
 arch blocked
-msg
-endmsg
 x 13
 y 5
 end
 arch blocked
-msg
-endmsg
 x 13
 y 6
 end
 arch blocked
-msg
-endmsg
 x 13
 y 7
 end
 arch blocked
-msg
-endmsg
 x 13
 y 8
 end
 arch blocked
-msg
-endmsg
 x 13
 y 9
 end
 arch blocked
-msg
-endmsg
 x 13
 y 10
 end
 arch blocked
-msg
-endmsg
 x 13
 y 11
 end
 arch blocked
-msg
-endmsg
 x 13
 y 12
 end
 arch blocked
-msg
-endmsg
 x 13
 y 13
 end
@@ -3216,25 +3021,17 @@ x 13
 y 31
 end
 arch blocked
-msg
-endmsg
 x 14
 end
 arch blocked
-msg
-endmsg
 x 14
 y 1
 end
 arch blocked
-msg
-endmsg
 x 14
 y 2
 end
 arch blocked
-msg
-endmsg
 x 14
 y 3
 end
@@ -3303,14 +3100,10 @@ x 14
 y 11
 end
 arch blocked
-msg
-endmsg
 x 14
 y 12
 end
 arch blocked
-msg
-endmsg
 x 14
 y 13
 end
@@ -3489,19 +3282,13 @@ x 14
 y 31
 end
 arch blocked
-msg
-endmsg
 x 15
 end
 arch blocked
-msg
-endmsg
 x 15
 y 1
 end
 arch blocked
-msg
-endmsg
 x 15
 y 2
 end
@@ -3609,8 +3396,6 @@ x 15
 y 12
 end
 arch blocked
-msg
-endmsg
 x 15
 y 13
 end
@@ -3784,19 +3569,13 @@ x 15
 y 31
 end
 arch blocked
-msg
-endmsg
 x 16
 end
 arch blocked
-msg
-endmsg
 x 16
 y 1
 end
 arch blocked
-msg
-endmsg
 x 16
 y 2
 end
@@ -3893,8 +3672,6 @@ x 16
 y 12
 end
 arch blocked
-msg
-endmsg
 x 16
 y 13
 end
@@ -4084,14 +3861,10 @@ arch lightningwall_3
 x 17
 end
 arch blocked
-msg
-endmsg
 x 17
 y 1
 end
 arch blocked
-msg
-endmsg
 x 17
 y 2
 end
@@ -4181,8 +3954,6 @@ x 17
 y 12
 end
 arch blocked
-msg
-endmsg
 x 17
 y 13
 end
@@ -4358,14 +4129,10 @@ x 18
 connected 1
 end
 arch blocked
-msg
-endmsg
 x 18
 y 1
 end
 arch blocked
-msg
-endmsg
 x 18
 y 2
 end
@@ -4462,8 +4229,6 @@ x 18
 y 12
 end
 arch blocked
-msg
-endmsg
 x 18
 y 13
 end
@@ -4649,14 +4414,10 @@ x 19
 connected 3
 end
 arch blocked
-msg
-endmsg
 x 19
 y 1
 end
 arch blocked
-msg
-endmsg
 x 19
 y 2
 end
@@ -4753,8 +4514,6 @@ x 19
 y 12
 end
 arch blocked
-msg
-endmsg
 x 19
 y 13
 end
@@ -4941,19 +4700,13 @@ x 19
 y 31
 end
 arch blocked
-msg
-endmsg
 x 20
 end
 arch blocked
-msg
-endmsg
 x 20
 y 1
 end
 arch blocked
-msg
-endmsg
 x 20
 y 2
 end
@@ -5043,8 +4796,6 @@ x 20
 y 12
 end
 arch blocked
-msg
-endmsg
 x 20
 y 13
 end
@@ -5218,19 +4969,13 @@ x 20
 y 31
 end
 arch blocked
-msg
-endmsg
 x 21
 end
 arch blocked
-msg
-endmsg
 x 21
 y 1
 end
 arch blocked
-msg
-endmsg
 x 21
 y 2
 end
@@ -5327,8 +5072,6 @@ x 21
 y 12
 end
 arch blocked
-msg
-endmsg
 x 21
 y 13
 end
@@ -5485,19 +5228,13 @@ x 21
 y 31
 end
 arch blocked
-msg
-endmsg
 x 22
 end
 arch blocked
-msg
-endmsg
 x 22
 y 1
 end
 arch blocked
-msg
-endmsg
 x 22
 y 2
 end
@@ -5621,8 +5358,6 @@ x 22
 y 12
 end
 arch blocked
-msg
-endmsg
 x 22
 y 13
 end
@@ -5755,19 +5490,13 @@ x 22
 y 31
 end
 arch blocked
-msg
-endmsg
 x 23
 end
 arch blocked
-msg
-endmsg
 x 23
 y 1
 end
 arch blocked
-msg
-endmsg
 x 23
 y 2
 end
@@ -5864,8 +5593,6 @@ x 23
 y 12
 end
 arch blocked
-msg
-endmsg
 x 23
 y 13
 end
@@ -5977,19 +5704,13 @@ x 23
 y 31
 end
 arch blocked
-msg
-endmsg
 x 24
 end
 arch blocked
-msg
-endmsg
 x 24
 y 1
 end
 arch blocked
-msg
-endmsg
 x 24
 y 2
 end
@@ -6079,8 +5800,6 @@ x 24
 y 12
 end
 arch blocked
-msg
-endmsg
 x 24
 y 13
 end
@@ -6165,19 +5884,13 @@ x 24
 y 31
 end
 arch blocked
-msg
-endmsg
 x 25
 end
 arch blocked
-msg
-endmsg
 x 25
 y 1
 end
 arch blocked
-msg
-endmsg
 x 25
 y 2
 end
@@ -6279,8 +5992,6 @@ x 25
 y 12
 end
 arch blocked
-msg
-endmsg
 x 25
 y 13
 end
@@ -6365,19 +6076,13 @@ x 25
 y 31
 end
 arch blocked
-msg
-endmsg
 x 26
 end
 arch blocked
-msg
-endmsg
 x 26
 y 1
 end
 arch blocked
-msg
-endmsg
 x 26
 y 2
 end
@@ -6474,8 +6179,6 @@ x 26
 y 12
 end
 arch blocked
-msg
-endmsg
 x 26
 y 13
 end
@@ -6572,19 +6275,13 @@ x 26
 y 31
 end
 arch blocked
-msg
-endmsg
 x 27
 end
 arch blocked
-msg
-endmsg
 x 27
 y 1
 end
 arch blocked
-msg
-endmsg
 x 27
 y 2
 end
@@ -6677,8 +6374,6 @@ x 27
 y 12
 end
 arch blocked
-msg
-endmsg
 x 27
 y 13
 end
@@ -6775,19 +6470,13 @@ x 27
 y 31
 end
 arch blocked
-msg
-endmsg
 x 28
 end
 arch blocked
-msg
-endmsg
 x 28
 y 1
 end
 arch blocked
-msg
-endmsg
 x 28
 y 2
 end
@@ -6807,7 +6496,7 @@ arch man
 name cook
 msg
 @match hi|hello
-Shoo! I"m making breakfast. 
+Shoo! I"m making breakfast.
 There's some food in that sack if you
 like.
 endmsg
@@ -6903,8 +6592,6 @@ x 28
 y 12
 end
 arch blocked
-msg
-endmsg
 x 28
 y 13
 end
@@ -6981,19 +6668,13 @@ x 28
 y 31
 end
 arch blocked
-msg
-endmsg
 x 29
 end
 arch blocked
-msg
-endmsg
 x 29
 y 1
 end
 arch blocked
-msg
-endmsg
 x 29
 y 2
 end
@@ -7114,8 +6795,6 @@ x 29
 y 12
 end
 arch blocked
-msg
-endmsg
 x 29
 y 13
 end
@@ -7192,19 +6871,13 @@ x 29
 y 31
 end
 arch blocked
-msg
-endmsg
 x 30
 end
 arch blocked
-msg
-endmsg
 x 30
 y 1
 end
 arch blocked
-msg
-endmsg
 x 30
 y 2
 end
@@ -7322,8 +6995,6 @@ x 30
 y 12
 end
 arch blocked
-msg
-endmsg
 x 30
 y 13
 end
@@ -7400,25 +7071,17 @@ x 30
 y 31
 end
 arch blocked
-msg
-endmsg
 x 31
 end
 arch blocked
-msg
-endmsg
 x 31
 y 1
 end
 arch blocked
-msg
-endmsg
 x 31
 y 2
 end
 arch blocked
-msg
-endmsg
 x 31
 y 3
 end
@@ -7487,14 +7150,10 @@ x 31
 y 11
 end
 arch blocked
-msg
-endmsg
 x 31
 y 12
 end
 arch blocked
-msg
-endmsg
 x 31
 y 13
 end
