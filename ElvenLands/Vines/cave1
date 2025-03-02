@@ -1,11 +1,12 @@
 arch map
 name cave1
-msg
-Created:  2000-04-18 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
 width 31
 height 31
+msg
+Created:  2000-04-18 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -37,8 +38,6 @@ arch earth
 y 9
 end
 arch blocked
-msg
-endmsg
 y 9
 end
 arch earth
@@ -99,8 +98,6 @@ arch earth
 y 19
 end
 arch blocked
-msg
-endmsg
 y 19
 end
 arch earth
@@ -176,8 +173,6 @@ x 1
 y 9
 end
 arch blocked
-msg
-endmsg
 x 1
 y 9
 end
@@ -232,6 +227,10 @@ arch earth
 x 1
 y 16
 end
+arch giant
+x 1
+y 16
+end
 arch earth
 x 1
 y 17
@@ -249,8 +248,6 @@ x 1
 y 19
 end
 arch blocked
-msg
-endmsg
 x 1
 y 19
 end
@@ -314,8 +311,6 @@ x 2
 y 3
 end
 arch blocked
-msg
-endmsg
 x 2
 y 3
 end
@@ -324,8 +319,6 @@ x 2
 y 4
 end
 arch blocked
-msg
-endmsg
 x 2
 y 4
 end
@@ -334,8 +327,6 @@ x 2
 y 5
 end
 arch blocked
-msg
-endmsg
 x 2
 y 5
 end
@@ -344,8 +335,6 @@ x 2
 y 6
 end
 arch blocked
-msg
-endmsg
 x 2
 y 6
 end
@@ -354,8 +343,6 @@ x 2
 y 7
 end
 arch blocked
-msg
-endmsg
 x 2
 y 7
 end
@@ -364,8 +351,6 @@ x 2
 y 8
 end
 arch blocked
-msg
-endmsg
 x 2
 y 8
 end
@@ -374,8 +359,6 @@ x 2
 y 9
 end
 arch blocked
-msg
-endmsg
 x 2
 y 9
 end
@@ -434,8 +417,6 @@ x 2
 y 19
 end
 arch blocked
-msg
-endmsg
 x 2
 y 19
 end
@@ -499,8 +480,6 @@ x 3
 y 3
 end
 arch blocked
-msg
-endmsg
 x 3
 y 3
 end
@@ -533,8 +512,6 @@ x 3
 y 7
 end
 arch blocked
-msg
-endmsg
 x 3
 y 7
 end
@@ -543,8 +520,6 @@ x 3
 y 8
 end
 arch blocked
-msg
-endmsg
 x 3
 y 8
 end
@@ -553,8 +528,6 @@ x 3
 y 9
 end
 arch blocked
-msg
-endmsg
 x 3
 y 9
 end
@@ -617,8 +590,6 @@ x 3
 y 19
 end
 arch blocked
-msg
-endmsg
 x 3
 y 19
 end
@@ -682,8 +653,6 @@ x 4
 y 3
 end
 arch blocked
-msg
-endmsg
 x 4
 y 3
 end
@@ -765,6 +734,10 @@ arch earth
 x 4
 y 14
 end
+arch giant
+x 4
+y 14
+end
 arch earth
 x 4
 y 15
@@ -790,8 +763,6 @@ x 4
 y 19
 end
 arch blocked
-msg
-endmsg
 x 4
 y 19
 end
@@ -855,8 +826,6 @@ x 5
 y 3
 end
 arch blocked
-msg
-endmsg
 x 5
 y 3
 end
@@ -910,6 +879,10 @@ arch earth
 x 5
 y 10
 end
+arch giant
+x 5
+y 10
+end
 arch earth
 x 5
 y 11
@@ -955,8 +928,6 @@ x 5
 y 19
 end
 arch blocked
-msg
-endmsg
 x 5
 y 19
 end
@@ -1020,8 +991,6 @@ x 6
 y 3
 end
 arch blocked
-msg
-endmsg
 x 6
 y 3
 end
@@ -1122,8 +1091,6 @@ x 6
 y 19
 end
 arch blocked
-msg
-endmsg
 x 6
 y 19
 end
@@ -1140,8 +1107,6 @@ x 6
 y 22
 end
 arch blocked
-msg
-endmsg
 x 6
 y 22
 end
@@ -1150,8 +1115,6 @@ x 6
 y 23
 end
 arch blocked
-msg
-endmsg
 x 6
 y 23
 end
@@ -1160,8 +1123,6 @@ x 6
 y 24
 end
 arch blocked
-msg
-endmsg
 x 6
 y 24
 end
@@ -1170,8 +1131,6 @@ x 6
 y 25
 end
 arch blocked
-msg
-endmsg
 x 6
 y 25
 end
@@ -1180,8 +1139,6 @@ x 6
 y 26
 end
 arch blocked
-msg
-endmsg
 x 6
 y 26
 end
@@ -1190,8 +1147,6 @@ x 6
 y 27
 end
 arch blocked
-msg
-endmsg
 x 6
 y 27
 end
@@ -1200,8 +1155,6 @@ x 6
 y 28
 end
 arch blocked
-msg
-endmsg
 x 6
 y 28
 end
@@ -1210,8 +1163,6 @@ x 6
 y 29
 end
 arch blocked
-msg
-endmsg
 x 6
 y 29
 end
@@ -1220,8 +1171,6 @@ x 6
 y 30
 end
 arch blocked
-msg
-endmsg
 x 6
 y 30
 end
@@ -1241,8 +1190,6 @@ x 7
 y 3
 end
 arch blocked
-msg
-endmsg
 x 7
 y 3
 end
@@ -1271,8 +1218,6 @@ x 7
 y 7
 end
 arch blocked
-msg
-endmsg
 x 7
 y 7
 end
@@ -1281,8 +1226,6 @@ x 7
 y 8
 end
 arch blocked
-msg
-endmsg
 x 7
 y 8
 end
@@ -1291,8 +1234,6 @@ x 7
 y 9
 end
 arch blocked
-msg
-endmsg
 x 7
 y 9
 end
@@ -1359,8 +1300,6 @@ x 7
 y 19
 end
 arch blocked
-msg
-endmsg
 x 7
 y 19
 end
@@ -1373,8 +1312,6 @@ x 7
 y 21
 end
 arch blocked
-msg
-endmsg
 x 7
 y 21
 end
@@ -1383,8 +1320,6 @@ x 7
 y 22
 end
 arch blocked
-msg
-endmsg
 x 7
 y 22
 end
@@ -1433,8 +1368,6 @@ x 7
 y 28
 end
 arch blocked
-msg
-endmsg
 x 7
 y 29
 end
@@ -1443,8 +1376,6 @@ x 7
 y 30
 end
 arch blocked
-msg
-endmsg
 x 7
 y 30
 end
@@ -1464,8 +1395,6 @@ x 8
 y 3
 end
 arch blocked
-msg
-endmsg
 x 8
 y 3
 end
@@ -1494,8 +1423,6 @@ x 8
 y 7
 end
 arch blocked
-msg
-endmsg
 x 8
 y 7
 end
@@ -1504,8 +1431,6 @@ x 8
 y 8
 end
 arch blocked
-msg
-endmsg
 x 8
 y 8
 end
@@ -1514,8 +1439,6 @@ x 8
 y 9
 end
 arch blocked
-msg
-endmsg
 x 8
 y 9
 end
@@ -1546,6 +1469,10 @@ x 8
 y 13
 end
 arch earth
+x 8
+y 14
+end
+arch giant
 x 8
 y 14
 end
@@ -1578,8 +1505,6 @@ x 8
 y 19
 end
 arch blocked
-msg
-endmsg
 x 8
 y 19
 end
@@ -1588,8 +1513,6 @@ x 8
 y 20
 end
 arch blocked
-msg
-endmsg
 x 8
 y 20
 end
@@ -1598,8 +1521,6 @@ x 8
 y 21
 end
 arch blocked
-msg
-endmsg
 x 8
 y 21
 end
@@ -1623,11 +1544,19 @@ arch earth
 x 8
 y 24
 end
+arch giant
+x 8
+y 24
+end
 arch earth
 x 8
 y 25
 end
 arch earth
+x 8
+y 26
+end
+arch giant
 x 8
 y 26
 end
@@ -1652,8 +1581,6 @@ x 8
 y 29
 end
 arch blocked
-msg
-endmsg
 x 8
 y 30
 end
@@ -1673,8 +1600,6 @@ x 9
 y 3
 end
 arch blocked
-msg
-endmsg
 x 9
 y 3
 end
@@ -1703,8 +1628,6 @@ x 9
 y 7
 end
 arch blocked
-msg
-endmsg
 x 9
 y 7
 end
@@ -1713,8 +1636,6 @@ x 9
 y 8
 end
 arch blocked
-msg
-endmsg
 x 9
 y 8
 end
@@ -1723,8 +1644,6 @@ x 9
 y 9
 end
 arch blocked
-msg
-endmsg
 x 9
 y 9
 end
@@ -1886,8 +1805,6 @@ x 10
 y 3
 end
 arch blocked
-msg
-endmsg
 x 10
 y 3
 end
@@ -1916,8 +1833,6 @@ x 10
 y 7
 end
 arch blocked
-msg
-endmsg
 x 10
 y 7
 end
@@ -1926,8 +1841,6 @@ x 10
 y 8
 end
 arch blocked
-msg
-endmsg
 x 10
 y 8
 end
@@ -1936,8 +1849,6 @@ x 10
 y 9
 end
 arch blocked
-msg
-endmsg
 x 10
 y 9
 end
@@ -2081,8 +1992,6 @@ x 11
 y 3
 end
 arch blocked
-msg
-endmsg
 x 11
 y 3
 end
@@ -2111,8 +2020,6 @@ x 11
 y 7
 end
 arch blocked
-msg
-endmsg
 x 11
 y 7
 end
@@ -2121,8 +2028,6 @@ x 11
 y 8
 end
 arch blocked
-msg
-endmsg
 x 11
 y 8
 end
@@ -2131,8 +2036,6 @@ x 11
 y 9
 end
 arch blocked
-msg
-endmsg
 x 11
 y 9
 end
@@ -2286,8 +2189,6 @@ arch earth
 x 12
 end
 arch blocked
-msg
-endmsg
 x 12
 end
 arch earth
@@ -2295,8 +2196,6 @@ x 12
 y 1
 end
 arch blocked
-msg
-endmsg
 x 12
 y 1
 end
@@ -2305,8 +2204,6 @@ x 12
 y 2
 end
 arch blocked
-msg
-endmsg
 x 12
 y 2
 end
@@ -2315,8 +2212,6 @@ x 12
 y 3
 end
 arch blocked
-msg
-endmsg
 x 12
 y 3
 end
@@ -2384,6 +2279,10 @@ arch earth
 x 12
 y 13
 end
+arch giant
+x 12
+y 13
+end
 arch earth
 x 12
 y 14
@@ -2409,8 +2308,6 @@ x 12
 y 18
 end
 arch blocked
-msg
-endmsg
 x 12
 y 18
 end
@@ -2419,8 +2316,6 @@ x 12
 y 19
 end
 arch blocked
-msg
-endmsg
 x 12
 y 19
 end
@@ -2429,8 +2324,6 @@ x 12
 y 20
 end
 arch blocked
-msg
-endmsg
 x 12
 y 20
 end
@@ -2439,8 +2332,6 @@ x 12
 y 21
 end
 arch blocked
-msg
-endmsg
 x 12
 y 21
 end
@@ -2464,11 +2355,19 @@ arch earth
 x 12
 y 24
 end
+arch giant
+x 12
+y 24
+end
 arch earth
 x 12
 y 25
 end
 arch earth
+x 12
+y 26
+end
+arch giant
 x 12
 y 26
 end
@@ -2493,8 +2392,6 @@ x 12
 y 29
 end
 arch blocked
-msg
-endmsg
 x 12
 y 30
 end
@@ -2625,8 +2522,6 @@ x 13
 y 18
 end
 arch blocked
-msg
-endmsg
 x 13
 y 18
 end
@@ -2635,8 +2530,6 @@ x 13
 y 19
 end
 arch blocked
-msg
-endmsg
 x 13
 y 19
 end
@@ -2645,8 +2538,6 @@ x 13
 y 20
 end
 arch blocked
-msg
-endmsg
 x 13
 y 20
 end
@@ -2655,8 +2546,6 @@ x 13
 y 21
 end
 arch blocked
-msg
-endmsg
 x 13
 y 21
 end
@@ -2665,8 +2554,6 @@ x 13
 y 22
 end
 arch blocked
-msg
-endmsg
 x 13
 y 22
 end
@@ -2719,14 +2606,10 @@ x 13
 y 28
 end
 arch blocked
-msg
-endmsg
 x 13
 y 29
 end
 arch blocked
-msg
-endmsg
 x 13
 y 30
 end
@@ -2863,8 +2746,6 @@ x 14
 y 18
 end
 arch blocked
-msg
-endmsg
 x 14
 y 18
 end
@@ -2873,8 +2754,6 @@ x 14
 y 19
 end
 arch blocked
-msg
-endmsg
 x 14
 y 19
 end
@@ -2883,8 +2762,6 @@ x 14
 y 20
 end
 arch blocked
-msg
-endmsg
 x 14
 y 20
 end
@@ -2893,8 +2770,6 @@ x 14
 y 21
 end
 arch blocked
-msg
-endmsg
 x 14
 y 21
 end
@@ -2903,8 +2778,6 @@ x 14
 y 22
 end
 arch blocked
-msg
-endmsg
 x 14
 y 22
 end
@@ -2913,8 +2786,6 @@ x 14
 y 23
 end
 arch blocked
-msg
-endmsg
 x 14
 y 23
 end
@@ -2923,8 +2794,6 @@ x 14
 y 24
 end
 arch blocked
-msg
-endmsg
 x 14
 y 24
 end
@@ -2933,8 +2802,6 @@ x 14
 y 25
 end
 arch blocked
-msg
-endmsg
 x 14
 y 25
 end
@@ -2943,8 +2810,6 @@ x 14
 y 26
 end
 arch blocked
-msg
-endmsg
 x 14
 y 26
 end
@@ -2953,8 +2818,6 @@ x 14
 y 27
 end
 arch blocked
-msg
-endmsg
 x 14
 y 27
 end
@@ -2963,8 +2826,6 @@ x 14
 y 28
 end
 arch blocked
-msg
-endmsg
 x 14
 y 28
 end
@@ -2973,8 +2834,6 @@ x 14
 y 29
 end
 arch blocked
-msg
-endmsg
 x 14
 y 29
 end
@@ -2983,8 +2842,6 @@ x 14
 y 30
 end
 arch blocked
-msg
-endmsg
 x 14
 y 30
 end
@@ -3082,6 +2939,10 @@ arch earth
 x 15
 y 11
 end
+arch giant
+x 15
+y 11
+end
 arch earth
 x 15
 y 12
@@ -3119,8 +2980,6 @@ x 15
 y 18
 end
 arch blocked
-msg
-endmsg
 x 15
 y 18
 end
@@ -3129,8 +2988,6 @@ x 15
 y 19
 end
 arch blocked
-msg
-endmsg
 x 15
 y 19
 end
@@ -3139,8 +2996,6 @@ x 15
 y 20
 end
 arch blocked
-msg
-endmsg
 x 15
 y 20
 end
@@ -3149,8 +3004,6 @@ x 15
 y 21
 end
 arch blocked
-msg
-endmsg
 x 15
 y 21
 end
@@ -3159,8 +3012,6 @@ x 15
 y 22
 end
 arch blocked
-msg
-endmsg
 x 15
 y 22
 end
@@ -3169,8 +3020,6 @@ x 15
 y 23
 end
 arch blocked
-msg
-endmsg
 x 15
 y 23
 end
@@ -3179,8 +3028,6 @@ x 15
 y 24
 end
 arch blocked
-msg
-endmsg
 x 15
 y 24
 end
@@ -3189,8 +3036,6 @@ x 15
 y 25
 end
 arch blocked
-msg
-endmsg
 x 15
 y 25
 end
@@ -3199,8 +3044,6 @@ x 15
 y 26
 end
 arch blocked
-msg
-endmsg
 x 15
 y 26
 end
@@ -3345,8 +3188,6 @@ x 16
 y 18
 end
 arch blocked
-msg
-endmsg
 x 16
 y 18
 end
@@ -3355,8 +3196,6 @@ x 16
 y 19
 end
 arch blocked
-msg
-endmsg
 x 16
 y 19
 end
@@ -3365,8 +3204,6 @@ x 16
 y 20
 end
 arch blocked
-msg
-endmsg
 x 16
 y 20
 end
@@ -3375,8 +3212,6 @@ x 16
 y 21
 end
 arch blocked
-msg
-endmsg
 x 16
 y 21
 end
@@ -3385,8 +3220,6 @@ x 16
 y 22
 end
 arch blocked
-msg
-endmsg
 x 16
 y 22
 end
@@ -3395,8 +3228,6 @@ x 16
 y 23
 end
 arch blocked
-msg
-endmsg
 x 16
 y 23
 end
@@ -3405,8 +3236,6 @@ x 16
 y 24
 end
 arch blocked
-msg
-endmsg
 x 16
 y 24
 end
@@ -3415,8 +3244,6 @@ x 16
 y 25
 end
 arch blocked
-msg
-endmsg
 x 16
 y 25
 end
@@ -3425,8 +3252,6 @@ x 16
 y 26
 end
 arch blocked
-msg
-endmsg
 x 16
 y 26
 end
@@ -3435,8 +3260,6 @@ x 16
 y 27
 end
 arch blocked
-msg
-endmsg
 x 16
 y 27
 end
@@ -3445,8 +3268,6 @@ x 16
 y 28
 end
 arch blocked
-msg
-endmsg
 x 16
 y 28
 end
@@ -3455,8 +3276,6 @@ x 16
 y 29
 end
 arch blocked
-msg
-endmsg
 x 16
 y 29
 end
@@ -3465,8 +3284,6 @@ x 16
 y 30
 end
 arch blocked
-msg
-endmsg
 x 16
 y 30
 end
@@ -3587,8 +3404,6 @@ x 17
 y 18
 end
 arch blocked
-msg
-endmsg
 x 17
 y 18
 end
@@ -3685,8 +3500,6 @@ x 17
 y 30
 end
 arch blocked
-msg
-endmsg
 x 17
 y 30
 end
@@ -3829,6 +3642,10 @@ arch earth
 x 18
 y 21
 end
+arch troll
+x 18
+y 21
+end
 arch earth
 x 18
 y 22
@@ -3853,11 +3670,19 @@ arch earth
 x 18
 y 25
 end
+arch troll
+x 18
+y 25
+end
 arch earth
 x 18
 y 26
 end
 arch earth
+x 18
+y 27
+end
+arch troll
 x 18
 y 27
 end
@@ -3878,8 +3703,6 @@ x 18
 y 30
 end
 arch blocked
-msg
-endmsg
 x 18
 y 30
 end
@@ -3933,6 +3756,10 @@ arch earth
 x 19
 y 7
 end
+arch troll
+x 19
+y 7
+end
 arch earth
 x 19
 y 8
@@ -3975,6 +3802,10 @@ arch earth
 x 19
 y 14
 end
+arch giant
+x 19
+y 14
+end
 arch earth
 x 19
 y 15
@@ -4000,6 +3831,10 @@ x 19
 y 18
 end
 arch earth
+x 19
+y 19
+end
+arch troll
 x 19
 y 19
 end
@@ -4061,8 +3896,6 @@ x 19
 y 30
 end
 arch blocked
-msg
-endmsg
 x 19
 y 30
 end
@@ -4226,6 +4059,10 @@ arch earth
 x 20
 y 22
 end
+arch troll
+x 20
+y 22
+end
 arch earth
 x 20
 y 23
@@ -4239,6 +4076,10 @@ x 20
 y 24
 end
 arch earth
+x 20
+y 25
+end
+arch troll
 x 20
 y 25
 end
@@ -4276,8 +4117,6 @@ x 20
 y 30
 end
 arch blocked
-msg
-endmsg
 x 20
 y 30
 end
@@ -4470,6 +4309,10 @@ arch earth
 x 21
 y 27
 end
+arch troll
+x 21
+y 27
+end
 arch earth
 x 21
 y 28
@@ -4487,8 +4330,6 @@ x 21
 y 30
 end
 arch blocked
-msg
-endmsg
 x 21
 y 30
 end
@@ -4638,6 +4479,10 @@ arch earth
 x 22
 y 20
 end
+arch troll
+x 22
+y 20
+end
 arch earth
 x 22
 y 21
@@ -4659,6 +4504,10 @@ x 22
 y 23
 end
 arch earth
+x 22
+y 24
+end
+arch troll
 x 22
 y 24
 end
@@ -4695,8 +4544,6 @@ x 22
 y 30
 end
 arch blocked
-msg
-endmsg
 x 22
 y 30
 end
@@ -4783,6 +4630,10 @@ arch earth
 x 23
 y 12
 end
+arch troll
+x 23
+y 12
+end
 arch earth
 x 23
 y 13
@@ -4799,6 +4650,10 @@ arch earth
 x 23
 y 15
 end
+arch troll
+x 23
+y 15
+end
 arch earth
 x 23
 y 16
@@ -4812,6 +4667,10 @@ x 23
 y 17
 end
 arch earth
+x 23
+y 18
+end
+arch troll
 x 23
 y 18
 end
@@ -4890,8 +4749,6 @@ x 23
 y 30
 end
 arch blocked
-msg
-endmsg
 x 23
 y 30
 end
@@ -5042,6 +4899,10 @@ arch earth
 x 24
 y 23
 end
+arch troll
+x 24
+y 23
+end
 arch earth
 x 24
 y 24
@@ -5092,8 +4953,6 @@ x 24
 y 30
 end
 arch blocked
-msg
-endmsg
 x 24
 y 30
 end
@@ -5259,6 +5118,10 @@ arch earth
 x 25
 y 21
 end
+arch troll
+x 25
+y 21
+end
 arch earth
 x 25
 y 22
@@ -5275,11 +5138,19 @@ arch earth
 x 25
 y 25
 end
+arch troll
+x 25
+y 25
+end
 arch earth
 x 25
 y 26
 end
 arch earth
+x 25
+y 27
+end
+arch troll
 x 25
 y 27
 end
@@ -5300,8 +5171,6 @@ x 25
 y 30
 end
 arch blocked
-msg
-endmsg
 x 25
 y 30
 end
@@ -5524,8 +5393,6 @@ x 26
 y 30
 end
 arch blocked
-msg
-endmsg
 x 26
 y 30
 end
@@ -5671,6 +5538,10 @@ arch random_gem
 x 27
 y 17
 end
+arch troll
+x 27
+y 17
+end
 arch earth
 x 27
 y 18
@@ -5697,11 +5568,19 @@ arch earth
 x 27
 y 21
 end
+arch troll
+x 27
+y 21
+end
 arch earth
 x 27
 y 22
 end
 arch earth
+x 27
+y 23
+end
+arch troll
 x 27
 y 23
 end
@@ -5718,6 +5597,10 @@ x 27
 y 25
 end
 arch earth
+x 27
+y 26
+end
+arch troll
 x 27
 y 26
 end
@@ -5746,8 +5629,6 @@ x 27
 y 30
 end
 arch blocked
-msg
-endmsg
 x 27
 y 30
 end
@@ -5989,8 +5870,6 @@ x 28
 y 30
 end
 arch blocked
-msg
-endmsg
 x 28
 y 30
 end
@@ -6237,8 +6116,6 @@ x 29
 y 30
 end
 arch blocked
-msg
-endmsg
 x 29
 y 30
 end
@@ -6246,8 +6123,6 @@ arch earth
 x 30
 end
 arch blocked
-msg
-endmsg
 x 30
 end
 arch earth
@@ -6255,8 +6130,6 @@ x 30
 y 1
 end
 arch blocked
-msg
-endmsg
 x 30
 y 1
 end
@@ -6265,8 +6138,6 @@ x 30
 y 2
 end
 arch blocked
-msg
-endmsg
 x 30
 y 2
 end
@@ -6275,8 +6146,6 @@ x 30
 y 3
 end
 arch blocked
-msg
-endmsg
 x 30
 y 3
 end
@@ -6285,8 +6154,6 @@ x 30
 y 4
 end
 arch blocked
-msg
-endmsg
 x 30
 y 4
 end
@@ -6295,8 +6162,6 @@ x 30
 y 5
 end
 arch blocked
-msg
-endmsg
 x 30
 y 5
 end
@@ -6305,8 +6170,6 @@ x 30
 y 6
 end
 arch blocked
-msg
-endmsg
 x 30
 y 6
 end
@@ -6315,8 +6178,6 @@ x 30
 y 7
 end
 arch blocked
-msg
-endmsg
 x 30
 y 7
 end
@@ -6325,8 +6186,6 @@ x 30
 y 8
 end
 arch blocked
-msg
-endmsg
 x 30
 y 8
 end
@@ -6335,8 +6194,6 @@ x 30
 y 9
 end
 arch blocked
-msg
-endmsg
 x 30
 y 9
 end
@@ -6345,8 +6202,6 @@ x 30
 y 10
 end
 arch blocked
-msg
-endmsg
 x 30
 y 10
 end
@@ -6355,8 +6210,6 @@ x 30
 y 11
 end
 arch blocked
-msg
-endmsg
 x 30
 y 11
 end
@@ -6365,8 +6218,6 @@ x 30
 y 12
 end
 arch blocked
-msg
-endmsg
 x 30
 y 12
 end
@@ -6375,8 +6226,6 @@ x 30
 y 13
 end
 arch blocked
-msg
-endmsg
 x 30
 y 13
 end
@@ -6385,8 +6234,6 @@ x 30
 y 14
 end
 arch blocked
-msg
-endmsg
 x 30
 y 14
 end
@@ -6395,8 +6242,6 @@ x 30
 y 15
 end
 arch blocked
-msg
-endmsg
 x 30
 y 15
 end
@@ -6405,8 +6250,6 @@ x 30
 y 16
 end
 arch blocked
-msg
-endmsg
 x 30
 y 16
 end
@@ -6415,8 +6258,6 @@ x 30
 y 17
 end
 arch blocked
-msg
-endmsg
 x 30
 y 17
 end
@@ -6425,8 +6266,6 @@ x 30
 y 18
 end
 arch blocked
-msg
-endmsg
 x 30
 y 18
 end
@@ -6435,8 +6274,6 @@ x 30
 y 19
 end
 arch blocked
-msg
-endmsg
 x 30
 y 19
 end
@@ -6445,8 +6282,6 @@ x 30
 y 20
 end
 arch blocked
-msg
-endmsg
 x 30
 y 20
 end
@@ -6455,8 +6290,6 @@ x 30
 y 21
 end
 arch blocked
-msg
-endmsg
 x 30
 y 21
 end
@@ -6465,8 +6298,6 @@ x 30
 y 22
 end
 arch blocked
-msg
-endmsg
 x 30
 y 22
 end
@@ -6475,8 +6306,6 @@ x 30
 y 23
 end
 arch blocked
-msg
-endmsg
 x 30
 y 23
 end
@@ -6485,8 +6314,6 @@ x 30
 y 24
 end
 arch blocked
-msg
-endmsg
 x 30
 y 24
 end
@@ -6495,8 +6322,6 @@ x 30
 y 25
 end
 arch blocked
-msg
-endmsg
 x 30
 y 25
 end
@@ -6505,8 +6330,6 @@ x 30
 y 26
 end
 arch blocked
-msg
-endmsg
 x 30
 y 26
 end
@@ -6515,8 +6338,6 @@ x 30
 y 27
 end
 arch blocked
-msg
-endmsg
 x 30
 y 27
 end
@@ -6525,8 +6346,6 @@ x 30
 y 28
 end
 arch blocked
-msg
-endmsg
 x 30
 y 28
 end
@@ -6535,8 +6354,6 @@ x 30
 y 29
 end
 arch blocked
-msg
-endmsg
 x 30
 y 29
 end
@@ -6545,136 +6362,6 @@ x 30
 y 30
 end
 arch blocked
-msg
-endmsg
 x 30
 y 30
-end
-arch giant
-x 1
-y 16
-end
-arch giant
-x 4
-y 14
-end
-arch giant
-x 5
-y 10
-end
-arch giant
-x 8
-y 14
-end
-arch giant
-x 8
-y 24
-end
-arch giant
-x 8
-y 26
-end
-arch giant
-x 12
-y 13
-end
-arch giant
-x 12
-y 24
-end
-arch giant
-x 12
-y 26
-end
-arch giant
-x 15
-y 11
-end
-arch troll
-x 18
-y 21
-end
-arch troll
-x 18
-y 25
-end
-arch troll
-x 18
-y 27
-end
-arch troll
-x 19
-y 7
-end
-arch giant
-x 19
-y 14
-end
-arch troll
-x 19
-y 19
-end
-arch troll
-x 20
-y 22
-end
-arch troll
-x 20
-y 25
-end
-arch troll
-x 21
-y 27
-end
-arch troll
-x 22
-y 20
-end
-arch troll
-x 22
-y 24
-end
-arch troll
-x 23
-y 12
-end
-arch troll
-x 23
-y 15
-end
-arch troll
-x 23
-y 18
-end
-arch troll
-x 24
-y 23
-end
-arch troll
-x 25
-y 21
-end
-arch troll
-x 25
-y 25
-end
-arch troll
-x 25
-y 27
-end
-arch troll
-x 27
-y 17
-end
-arch troll
-x 27
-y 21
-end
-arch troll
-x 27
-y 23
-end
-arch troll
-x 27
-y 26
 end

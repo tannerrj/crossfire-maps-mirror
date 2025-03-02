@@ -1,12 +1,13 @@
 arch map
 name cave6
-msg
-Created:  2001-07-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
-enter_y 10
+region elvenlands
 width 32
 height 22
+enter_y 10
+msg
+Created:  2001-07-12 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -3514,6 +3515,56 @@ arch earth
 x 19
 y 10
 end
+arch titan
+name Earth Master
+Str 80
+Dex 35
+Con 70
+Pow 35
+hp 18000
+maxhp 18000
+sp 300
+maxsp 300
+exp 1000000
+dam 80
+wc -80
+ac -50
+x 19
+y 10
+speed -0.500000
+level 80
+resist_physical 95
+resist_magic -20
+resist_fire 80
+resist_electricity 95
+resist_cold 60
+resist_confusion -50
+resist_acid 95
+resist_godpower -30
+resist_holyword 50
+carrying 815100
+arch key2
+slaying CaveofVines
+end
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch bonecrusher
+name Earth Crusher
+slaying earth elemental
+dam 150
+weight 800000
+magic 5
+end
+arch mithril_chainmail
+resist_physical 45
+resist_electricity 5
+end
+end
 arch earth
 x 19
 y 11
@@ -5346,54 +5397,4 @@ end
 arch cave22
 x 31
 y 21
-end
-arch titan
-name Earth Master
-Str 80
-Dex 35
-Con 70
-Pow 35
-hp 18000
-maxhp 18000
-sp 300
-maxsp 300
-exp 1000000
-dam 80
-wc -80
-ac -50
-x 19
-y 10
-speed -0.500000
-level 80
-resist_physical 95
-resist_magic -20
-resist_fire 80
-resist_electricity 95
-resist_cold 60
-resist_confusion -50
-resist_acid 95
-resist_godpower -30
-resist_holyword 50
-carrying 815100
-arch key2
-slaying CaveofVines
-end
-arch blindness
-name shockwave
-sp 84
-speed 0.000000
-type 110
-is_blind 0
-end
-arch bonecrusher
-name Earth Crusher
-slaying earth elemental
-dam 150
-weight 800000
-magic 5
-end
-arch mithril_chainmail
-resist_physical 45
-resist_electricity 5
-end
 end

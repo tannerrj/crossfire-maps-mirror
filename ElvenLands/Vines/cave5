@@ -1,12 +1,13 @@
 arch map
 name end
-msg
-Created:  2000-04-18 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
+darkness 1
 width 39
 height 39
-darkness 1
+msg
+Created:  2000-04-18 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -1136,6 +1137,29 @@ arch earth
 x 5
 y 9
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 5
+y 9
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 5
 y 10
@@ -1649,6 +1673,19 @@ arch earth
 x 7
 y 3
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 7
+y 3
+speed -0.300000
+level 40
+end
 arch earth
 x 7
 y 4
@@ -1864,6 +1901,19 @@ arch earth
 x 8
 y 8
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 8
+y 8
+speed -0.300000
+level 40
+end
 arch earth
 x 8
 y 9
@@ -1879,6 +1929,19 @@ end
 arch earth
 x 8
 y 12
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 8
+y 12
+speed -0.300000
+level 40
 end
 arch earth
 x 8
@@ -2414,6 +2477,10 @@ x 10
 y 19
 end
 arch earth
+x 10
+y 20
+end
+arch g_worm
 x 10
 y 20
 end
@@ -2883,6 +2950,29 @@ arch earth
 x 12
 y 14
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 12
+y 14
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 12
 y 15
@@ -2923,11 +3013,19 @@ arch earth
 x 12
 y 20
 end
+arch g_worm
+x 12
+y 20
+end
 arch earth
 x 12
 y 21
 end
 arch earth
+x 12
+y 22
+end
+arch g_worm
 x 12
 y 22
 end
@@ -3265,6 +3363,29 @@ arch earth
 x 14
 y 7
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 14
+y 7
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 14
 y 8
@@ -3333,6 +3454,10 @@ arch earth
 x 14
 y 20
 end
+arch g_worm
+x 14
+y 20
+end
 arch earth
 x 14
 y 21
@@ -3341,11 +3466,19 @@ arch earth
 x 14
 y 22
 end
+arch g_worm
+x 14
+y 22
+end
 arch earth
 x 14
 y 23
 end
 arch earth
+x 14
+y 24
+end
+arch g_worm
 x 14
 y 24
 end
@@ -3485,6 +3618,19 @@ arch earth
 x 15
 y 2
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 15
+y 2
+speed -0.300000
+level 40
+end
 arch earth
 x 15
 y 3
@@ -3520,6 +3666,19 @@ end
 arch earth
 x 15
 y 11
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 15
+y 11
+speed -0.300000
+level 40
 end
 arch earth
 x 15
@@ -3776,6 +3935,10 @@ arch earth
 x 16
 y 22
 end
+arch g_worm
+x 16
+y 22
+end
 arch earth
 x 16
 y 23
@@ -3784,11 +3947,19 @@ arch earth
 x 16
 y 24
 end
+arch g_worm
+x 16
+y 24
+end
 arch earth
 x 16
 y 25
 end
 arch earth
+x 16
+y 26
+end
+arch g_worm
 x 16
 y 26
 end
@@ -4115,6 +4286,19 @@ end
 arch earth
 x 18
 y 2
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 18
+y 2
+speed -0.300000
+level 40
 end
 arch earth
 x 18
@@ -4461,6 +4645,10 @@ arch earth
 x 19
 y 9
 end
+arch g_worm
+x 19
+y 9
+end
 arch earth
 x 19
 y 10
@@ -4667,6 +4855,19 @@ arch earth
 x 20
 y 2
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 20
+y 2
+speed -0.300000
+level 40
+end
 arch earth
 x 20
 y 3
@@ -4784,6 +4985,22 @@ end
 arch earth
 x 20
 y 22
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 20
+y 22
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 20
@@ -4920,6 +5137,10 @@ arch earth
 x 21
 y 7
 end
+arch g_worm
+x 21
+y 7
+end
 arch earth
 x 21
 y 8
@@ -5028,6 +5249,29 @@ arch earth
 x 21
 y 26
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 21
+y 26
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 21
 y 27
@@ -5039,6 +5283,29 @@ end
 arch earth
 x 21
 y 29
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 21
+y 29
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 21
@@ -5381,6 +5648,10 @@ arch earth
 x 23
 y 7
 end
+arch g_worm
+x 23
+y 7
+end
 arch earth
 x 23
 y 8
@@ -5473,6 +5744,19 @@ end
 arch earth
 x 23
 y 23
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 23
+y 23
+speed -0.300000
+level 40
 end
 arch earth
 x 23
@@ -5585,6 +5869,29 @@ end
 arch earth
 x 24
 y 3
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 24
+y 3
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 24
@@ -5723,6 +6030,19 @@ end
 arch earth
 x 24
 y 28
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 24
+y 28
+speed -0.300000
+level 40
 end
 arch earth
 x 24
@@ -5838,11 +6158,47 @@ arch earth
 x 25
 y 7
 end
+arch g_worm
+name Great Worm
+hp 10000
+maxhp 10000
+sp 100
+maxsp 100
+exp 300000
+dam 100
+wc -50
+ac -25
+x 25
+y 7
+level 50
+attacktype 8
+resist_physical 98
+resist_electricity 100
+carrying 10000
+randomitems none
+can_use_scroll 1
+arch book
+name earth
+slaying ball lightning
+face earth.111
+invisible 1
+end
+arch book
+name earth
+face earth.111
+sp 84
+invisible 1
+end
+end
 arch earth
 x 25
 y 8
 end
 arch earth
+x 25
+y 9
+end
+arch g_worm
 x 25
 y 9
 end
@@ -5932,6 +6288,19 @@ end
 arch earth
 x 25
 y 25
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 25
+y 25
+speed -0.300000
+level 40
 end
 arch earth
 x 25
@@ -6142,6 +6511,29 @@ arch earth
 x 26
 y 23
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 26
+y 23
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 26
 y 24
@@ -6161,6 +6553,22 @@ end
 arch earth
 x 26
 y 28
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 26
+y 28
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 26
@@ -6224,6 +6632,22 @@ end
 arch earth
 x 27
 y 2
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 27
+y 2
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 27
@@ -6269,6 +6693,10 @@ arch earth
 x 27
 y 10
 end
+arch g_worm
+x 27
+y 10
+end
 arch earth
 x 27
 y 11
@@ -6366,6 +6794,22 @@ arch earth
 x 27
 y 25
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 27
+y 25
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 27
 y 26
@@ -6389,6 +6833,22 @@ end
 arch earth
 x 27
 y 31
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 27
+y 31
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 27
@@ -6497,6 +6957,10 @@ arch earth
 x 28
 y 12
 end
+arch g_worm
+x 28
+y 12
+end
 arch earth
 x 28
 y 13
@@ -6548,6 +7012,22 @@ arch earth
 x 28
 y 19
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 28
+y 19
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 28
 y 20
@@ -6583,6 +7063,22 @@ end
 arch earth
 x 28
 y 28
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 28
+y 28
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 28
@@ -6646,6 +7142,22 @@ end
 arch earth
 x 29
 y 2
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 29
+y 2
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 29
@@ -6771,6 +7283,22 @@ arch earth
 x 29
 y 25
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 29
+y 25
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 29
 y 26
@@ -6962,6 +7490,29 @@ arch earth
 x 30
 y 23
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 30
+y 23
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 30
 y 24
@@ -7005,6 +7556,29 @@ end
 arch earth
 x 30
 y 34
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 30
+y 34
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 30
@@ -7041,6 +7615,22 @@ arch earth
 x 31
 y 2
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 31
+y 2
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 31
 y 3
@@ -7052,6 +7642,22 @@ end
 arch earth
 x 31
 y 5
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 31
+y 5
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 31
@@ -7129,6 +7735,22 @@ arch earth
 x 31
 y 16
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 31
+y 16
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 31
 y 17
@@ -7184,6 +7806,29 @@ end
 arch earth
 x 31
 y 30
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 31
+y 30
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 31
@@ -7328,6 +7973,19 @@ arch earth
 x 32
 y 19
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 32
+y 19
+speed -0.300000
+level 40
+end
 arch earth
 x 32
 y 20
@@ -7340,6 +7998,22 @@ arch earth
 x 32
 y 22
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 32
+y 22
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 32
 y 23
@@ -7351,6 +8025,19 @@ end
 arch earth
 x 32
 y 25
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 32
+y 25
+speed -0.300000
+level 40
 end
 arch earth
 x 32
@@ -7379,6 +8066,22 @@ end
 arch earth
 x 32
 y 32
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 32
+y 32
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 32
@@ -7431,6 +8134,22 @@ arch earth
 x 33
 y 3
 end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 33
+y 3
+speed -0.100000
+level 40
+resist_physical 70
+end
 arch earth
 x 33
 y 4
@@ -7443,6 +8162,19 @@ arch earth
 x 33
 y 6
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 33
+y 6
+speed -0.300000
+level 40
+end
 arch earth
 x 33
 y 7
@@ -7454,6 +8186,22 @@ end
 arch earth
 x 33
 y 9
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 33
+y 9
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 33
@@ -7478,6 +8226,19 @@ end
 arch earth
 x 33
 y 15
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 33
+y 15
+speed -0.300000
+level 40
 end
 arch earth
 x 33
@@ -7530,6 +8291,22 @@ end
 arch earth
 x 33
 y 28
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 33
+y 28
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 33
@@ -7690,6 +8467,19 @@ arch earth
 x 34
 y 25
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 34
+y 25
+speed -0.300000
+level 40
+end
 arch earth
 x 34
 y 26
@@ -7785,6 +8575,19 @@ arch earth
 x 35
 y 6
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 35
+y 6
+speed -0.300000
+level 40
+end
 arch earth
 x 35
 y 7
@@ -7812,6 +8615,29 @@ end
 arch earth
 x 35
 y 13
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 35
+y 13
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 35
@@ -7849,6 +8675,29 @@ arch earth
 x 35
 y 22
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 35
+y 22
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 35
 y 23
@@ -7876,6 +8725,19 @@ end
 arch earth
 x 35
 y 29
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 35
+y 29
+speed -0.300000
+level 40
 end
 arch earth
 x 35
@@ -7968,6 +8830,19 @@ arch earth
 x 36
 y 9
 end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 36
+y 9
+speed -0.300000
+level 40
+end
 arch earth
 x 36
 y 10
@@ -7996,6 +8871,29 @@ arch earth
 x 36
 y 16
 end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 36
+y 16
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
+end
 arch earth
 x 36
 y 17
@@ -8003,6 +8901,19 @@ end
 arch earth
 x 36
 y 18
+end
+arch cyclops
+name large cyclops
+hp 10000
+maxhp 10000
+exp 1000000
+dam 90
+wc -50
+ac -22
+x 36
+y 18
+speed -0.300000
+level 40
 end
 arch earth
 x 36
@@ -8031,6 +8942,22 @@ end
 arch earth
 x 36
 y 25
+end
+arch gaelotroll
+name earth troll
+Str 60
+Con 30
+hp 5000
+maxhp 5000
+exp 200000
+dam 60
+wc -70
+ac -25
+x 36
+y 25
+speed -0.100000
+level 40
+resist_physical 70
 end
 arch earth
 x 36
@@ -8525,930 +9452,4 @@ end
 arch earth
 x 38
 y 38
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 5
-y 9
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 7
-y 3
-speed -0.300000
-level 40
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 8
-y 8
-speed -0.300000
-level 40
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 8
-y 12
-speed -0.300000
-level 40
-end
-arch g_worm
-x 10
-y 20
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 12
-y 14
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch g_worm
-x 12
-y 20
-end
-arch g_worm
-x 12
-y 22
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 14
-y 7
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch g_worm
-x 14
-y 20
-end
-arch g_worm
-x 14
-y 22
-end
-arch g_worm
-x 14
-y 24
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 15
-y 2
-speed -0.300000
-level 40
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 15
-y 11
-speed -0.300000
-level 40
-end
-arch g_worm
-x 16
-y 22
-end
-arch g_worm
-x 16
-y 24
-end
-arch g_worm
-x 16
-y 26
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 18
-y 2
-speed -0.300000
-level 40
-end
-arch g_worm
-x 19
-y 9
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 20
-y 2
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 20
-y 22
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch g_worm
-x 21
-y 7
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 21
-y 26
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 21
-y 29
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch g_worm
-x 23
-y 7
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 23
-y 23
-speed -0.300000
-level 40
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 24
-y 3
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 24
-y 28
-speed -0.300000
-level 40
-end
-arch g_worm
-name Great Worm
-hp 10000
-maxhp 10000
-sp 100
-maxsp 100
-exp 300000
-dam 100
-wc -50
-ac -25
-x 25
-y 7
-level 50
-attacktype 8
-resist_physical 98
-resist_electricity 100
-carrying 10000
-randomitems none
-can_use_scroll 1
-arch book
-name earth
-slaying ball lightning
-face earth.111
-invisible 1
-end
-arch book
-name earth
-face earth.111
-sp 84
-invisible 1
-end
-end
-arch g_worm
-x 25
-y 9
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 25
-y 25
-speed -0.300000
-level 40
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 26
-y 23
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 26
-y 28
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 27
-y 2
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch g_worm
-x 27
-y 10
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 27
-y 25
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 27
-y 31
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch g_worm
-x 28
-y 12
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 28
-y 19
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 28
-y 28
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 29
-y 2
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 29
-y 25
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 30
-y 23
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 30
-y 34
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 31
-y 2
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 31
-y 5
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 31
-y 16
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 31
-y 30
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 32
-y 19
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 32
-y 22
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 32
-y 25
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 32
-y 32
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 33
-y 3
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 33
-y 6
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 33
-y 9
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 33
-y 15
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 33
-y 28
-speed -0.100000
-level 40
-resist_physical 70
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 34
-y 25
-speed -0.300000
-level 40
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 35
-y 6
-speed -0.300000
-level 40
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 35
-y 13
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 35
-y 22
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 35
-y 29
-speed -0.300000
-level 40
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 36
-y 9
-speed -0.300000
-level 40
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 36
-y 16
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
-end
-arch cyclops
-name large cyclops
-hp 10000
-maxhp 10000
-exp 1000000
-dam 90
-wc -50
-ac -22
-x 36
-y 18
-speed -0.300000
-level 40
-end
-arch gaelotroll
-name earth troll
-Str 60
-Con 30
-hp 5000
-maxhp 5000
-exp 200000
-dam 60
-wc -70
-ac -25
-x 36
-y 25
-speed -0.100000
-level 40
-resist_physical 70
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-04-18 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 29
 height 29
+msg
+Created:  2000-04-18 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -318,6 +320,10 @@ arch earth
 x 2
 y 8
 end
+arch gaelotroll
+x 2
+y 8
+end
 arch earth
 x 2
 y 9
@@ -449,6 +455,10 @@ arch earth
 x 3
 y 6
 end
+arch titan
+x 3
+y 6
+end
 arch earth
 x 3
 y 7
@@ -493,6 +503,10 @@ arch earth
 x 3
 y 15
 end
+arch cyclops
+x 3
+y 15
+end
 arch earth
 x 3
 y 16
@@ -506,6 +520,10 @@ x 3
 y 18
 end
 arch earth
+x 3
+y 19
+end
+arch cyclops
 x 3
 y 19
 end
@@ -719,6 +737,10 @@ arch earth
 x 5
 y 5
 end
+arch gaelotroll
+x 5
+y 5
+end
 arch earth
 x 5
 y 6
@@ -850,6 +872,10 @@ arch earth
 x 6
 y 3
 end
+arch titan
+x 6
+y 3
+end
 arch earth
 x 6
 y 4
@@ -871,6 +897,10 @@ x 6
 y 8
 end
 arch earth
+x 6
+y 9
+end
+arch titan
 x 6
 y 9
 end
@@ -939,6 +969,10 @@ x 6
 y 21
 end
 arch earth
+x 6
+y 22
+end
+arch cyclops
 x 6
 y 22
 end
@@ -1066,6 +1100,10 @@ x 7
 y 17
 end
 arch earth
+x 7
+y 18
+end
+arch cyclops
 x 7
 y 18
 end
@@ -1148,6 +1186,10 @@ arch earth
 x 8
 y 7
 end
+arch gaelotroll
+x 8
+y 7
+end
 arch earth
 x 8
 y 8
@@ -1157,6 +1199,10 @@ x 8
 y 9
 end
 arch earth
+x 8
+y 10
+end
+arch gaelotroll
 x 8
 y 10
 end
@@ -1276,6 +1322,10 @@ x 9
 y 4
 end
 arch earth
+x 9
+y 5
+end
+arch titan
 x 9
 y 5
 end
@@ -1502,6 +1552,10 @@ arch earth
 x 10
 y 23
 end
+arch cyclops
+x 10
+y 23
+end
 arch earth
 x 10
 y 24
@@ -1565,6 +1619,10 @@ arch earth
 x 11
 y 7
 end
+arch gaelotroll
+x 11
+y 7
+end
 arch earth
 x 11
 y 8
@@ -1578,6 +1636,10 @@ x 11
 y 10
 end
 arch earth
+x 11
+y 11
+end
+arch titan
 x 11
 y 11
 end
@@ -1622,6 +1684,10 @@ x 11
 y 19
 end
 arch earth
+x 11
+y 20
+end
+arch cyclops
 x 11
 y 20
 end
@@ -1831,6 +1897,10 @@ arch earth
 x 13
 y 5
 end
+arch gaelotroll
+x 13
+y 5
+end
 arch earth
 x 13
 y 6
@@ -1848,6 +1918,10 @@ x 13
 y 9
 end
 arch earth
+x 13
+y 10
+end
+arch gaelotroll
 x 13
 y 10
 end
@@ -2014,6 +2088,10 @@ arch earth
 x 14
 y 14
 end
+arch titan
+x 14
+y 14
+end
 arch earth
 x 14
 y 15
@@ -2050,6 +2128,10 @@ arch earth
 x 14
 y 20
 end
+arch cyclops
+x 14
+y 20
+end
 arch earth
 x 14
 y 21
@@ -2059,6 +2141,10 @@ x 14
 y 22
 end
 arch earth
+x 14
+y 23
+end
+arch cyclops
 x 14
 y 23
 end
@@ -2264,6 +2350,10 @@ arch earth
 x 16
 y 5
 end
+arch gaelotroll
+x 16
+y 5
+end
 arch earth
 x 16
 y 6
@@ -2478,6 +2568,10 @@ arch earth
 x 17
 y 19
 end
+arch cyclops
+x 17
+y 19
+end
 arch earth
 x 17
 y 20
@@ -2491,6 +2585,10 @@ x 17
 y 22
 end
 arch earth
+x 17
+y 23
+end
+arch cyclops
 x 17
 y 23
 end
@@ -2528,6 +2626,10 @@ arch earth
 x 18
 y 1
 end
+arch gaelotroll
+x 18
+y 1
+end
 arch earth
 x 18
 y 2
@@ -2549,6 +2651,10 @@ x 18
 y 6
 end
 arch earth
+x 18
+y 7
+end
+arch gaelotroll
 x 18
 y 7
 end
@@ -2601,6 +2707,10 @@ x 18
 y 15
 end
 arch earth
+x 18
+y 16
+end
+arch titan
 x 18
 y 16
 end
@@ -2675,6 +2785,10 @@ x 19
 y 3
 end
 arch earth
+x 19
+y 4
+end
+arch gaelotroll
 x 19
 y 4
 end
@@ -2832,6 +2946,10 @@ arch earth
 x 20
 y 9
 end
+arch gaelotroll
+x 20
+y 9
+end
 arch earth
 x 20
 y 10
@@ -2885,6 +3003,10 @@ x 20
 y 20
 end
 arch earth
+x 20
+y 21
+end
+arch cyclops
 x 20
 y 21
 end
@@ -2963,6 +3085,10 @@ x 21
 y 5
 end
 arch earth
+x 21
+y 6
+end
+arch gaelotroll
 x 21
 y 6
 end
@@ -3150,6 +3276,10 @@ x 22
 y 16
 end
 arch earth
+x 22
+y 17
+end
+arch titan
 x 22
 y 17
 end
@@ -3249,6 +3379,10 @@ x 23
 y 8
 end
 arch earth
+x 23
+y 9
+end
+arch gaelotroll
 x 23
 y 9
 end
@@ -4033,136 +4167,4 @@ end
 arch earth
 x 28
 y 28
-end
-arch gaelotroll
-x 2
-y 8
-end
-arch titan
-x 3
-y 6
-end
-arch cyclops
-x 3
-y 15
-end
-arch cyclops
-x 3
-y 19
-end
-arch gaelotroll
-x 5
-y 5
-end
-arch titan
-x 6
-y 3
-end
-arch titan
-x 6
-y 9
-end
-arch cyclops
-x 6
-y 22
-end
-arch cyclops
-x 7
-y 18
-end
-arch gaelotroll
-x 8
-y 7
-end
-arch gaelotroll
-x 8
-y 10
-end
-arch titan
-x 9
-y 5
-end
-arch cyclops
-x 10
-y 23
-end
-arch gaelotroll
-x 11
-y 7
-end
-arch titan
-x 11
-y 11
-end
-arch cyclops
-x 11
-y 20
-end
-arch gaelotroll
-x 13
-y 5
-end
-arch gaelotroll
-x 13
-y 10
-end
-arch titan
-x 14
-y 14
-end
-arch cyclops
-x 14
-y 20
-end
-arch cyclops
-x 14
-y 23
-end
-arch gaelotroll
-x 16
-y 5
-end
-arch cyclops
-x 17
-y 19
-end
-arch cyclops
-x 17
-y 23
-end
-arch gaelotroll
-x 18
-y 1
-end
-arch gaelotroll
-x 18
-y 7
-end
-arch titan
-x 18
-y 16
-end
-arch gaelotroll
-x 19
-y 4
-end
-arch gaelotroll
-x 20
-y 9
-end
-arch cyclops
-x 20
-y 21
-end
-arch gaelotroll
-x 21
-y 6
-end
-arch titan
-x 22
-y 17
-end
-arch gaelotroll
-x 23
-y 9
 end

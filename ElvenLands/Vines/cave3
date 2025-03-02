@@ -1,11 +1,12 @@
 arch map
 name tree1
-msg
-Created:  2000-04-18 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
 width 22
 height 16
+msg
+Created:  2000-04-18 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -482,6 +483,29 @@ end
 arch earth
 x 6
 y 5
+end
+arch titan
+name Grand Titan
+Con 40
+Pow 35
+hp 8000
+maxhp 8000
+dam 25
+x 6
+y 5
+speed -0.400000
+level 30
+carrying 70000
+arch bonecrusher
+name Smasher
+Str 5
+dam 70
+attacktype 256
+material 256
+value 700000
+weight 70000
+magic 6
+end
 end
 arch earth
 x 6
@@ -1787,27 +1811,4 @@ end
 arch earth
 x 21
 y 15
-end
-arch titan
-name Grand Titan
-Con 40
-Pow 35
-hp 8000
-maxhp 8000
-dam 25
-x 6
-y 5
-speed -0.400000
-level 30
-carrying 70000
-arch bonecrusher
-name Smasher
-Str 5
-dam 70
-attacktype 256
-material 256
-value 700000
-weight 70000
-magic 6
-end
 end
