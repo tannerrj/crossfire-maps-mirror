@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-01-17 Neebin Southall (neeb@prninfo.com)
-Modified: 2025-02-10 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 23
 height 30
+msg
+Created:  2000-01-17 Neebin Southall (neeb@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch sea
 end
@@ -2037,7 +2039,7 @@ name Bessy
 msg
 @match hi|hello
 Long Tom, ours "catch" was GREAT!
-@match catch|"catch" 
+@match catch|"catch"
 Bess, some fool child is evesdroppin!
 endmsg
 x 15
@@ -2168,12 +2170,7 @@ x 16
 y 23
 end
 arch pirate
-name Long Tom 
-Bessy,I thinks the last time wes sailed
-would do the old rouge proud.Plundering
-the tourist ships were mighty fun.
-@match old rouge|rouge
-Long Tom
+name Long Tom
 msg
 @match hi|hello
 Bessy, I thinks the last time wes sailed
@@ -2185,6 +2182,11 @@ endmsg
 x 16
 y 23
 unaggressive 1
+@match old rouge|rouge
+Bessy,I thinks the last time wes sailed
+Long Tom
+the tourist ships were mighty fun.
+would do the old rouge proud.Plundering
 end
 arch pstone_1
 x 16
@@ -2571,481 +2573,481 @@ arch sea1
 x 19
 y 13
 end
-arch sea1
-x 19
-y 14
-end
-arch sea1
-x 19
-y 15
-end
-arch pier_2_1_2
-x 19
-y 15
-end
-arch sea1
-x 19
-y 16
-end
-arch sea1
-x 19
-y 17
-end
-arch sea1
-x 19
-y 18
-end
-arch pier_2_1_2
-x 19
-y 18
-end
-arch sea1
-x 19
-y 19
-end
-arch sea1
-x 19
-y 20
-end
-arch sea1
-x 19
-y 21
-end
-arch pier_2_1_2
-x 19
-y 21
-end
-arch sea1
-x 19
-y 22
-end
-arch sea1
-x 19
-y 23
-end
-arch pier_2_1_2
-x 19
-y 23
-end
-arch sea
-x 19
-y 24
-end
-arch sea
-x 19
-y 25
-end
-arch sea
-x 19
-y 26
-end
-arch sea
-x 19
-y 27
-end
-arch sea
-x 19
-y 28
-end
-arch sea
-x 19
-y 29
-end
-arch sea
-x 20
-end
-arch sea
-x 20
-y 1
-end
-arch sea
-x 20
-y 2
-end
-arch sea
-x 20
-y 3
-end
-arch sea
-x 20
-y 4
-end
-arch sea
-x 20
-y 5
-end
-arch sea
-x 20
-y 6
-end
-arch sea
-x 20
-y 7
-end
-arch sea
-x 20
-y 8
-end
-arch sea
-x 20
-y 9
-end
-arch sea
-x 20
-y 10
-end
-arch sea
-x 20
-y 11
-end
-arch sea1
-x 20
-y 12
-end
-arch pier_1_3
-x 20
-y 12
-end
-arch sea1
-x 20
-y 13
-end
-arch sea1
-x 20
-y 14
-end
-arch sea1
-x 20
-y 15
-end
-arch pier_1_3
-x 20
-y 15
-end
-arch sea1
-x 20
-y 16
-end
-arch sea1
-x 20
-y 17
-end
-arch sea1
-x 20
-y 18
-end
-arch pier_1_3
-x 20
-y 18
-end
-arch sea1
-x 20
-y 19
-end
-arch sea1
-x 20
-y 20
-end
-arch sea1
-x 20
-y 21
-end
-arch pier_1_3
-x 20
-y 21
-end
-arch sea1
-x 20
-y 22
-end
-arch sea1
-x 20
-y 23
-end
-arch pier_1_3
-x 20
-y 23
-end
-arch sea
-x 20
-y 24
-end
-arch sea
-x 20
-y 25
-end
-arch sea
-x 20
-y 26
-end
-arch sea
-x 20
-y 27
-end
-arch sea
-x 20
-y 28
-end
-arch sea
-x 20
-y 29
-end
-arch sea
-x 21
-end
-arch sea
-x 21
-y 1
-end
-arch sea
-x 21
-y 2
-end
-arch sea
-x 21
-y 3
-end
-arch sea
-x 21
-y 4
-end
-arch sea
-x 21
-y 5
-end
-arch sea
-x 21
-y 6
-end
-arch sea
-x 21
-y 7
-end
-arch sea
-x 21
-y 8
-end
-arch sea
-x 21
-y 9
-end
-arch sea
-x 21
-y 10
-end
-arch sea
-x 21
-y 11
-end
-arch sea
-x 21
-y 12
-end
-arch sea
-x 21
-y 13
-end
-arch sea
-x 21
-y 14
-end
-arch sea
-x 21
-y 15
-end
-arch sea
-x 21
-y 16
-end
-arch sea
-x 21
-y 17
-end
-arch sea
-x 21
-y 18
-end
-arch sea
-x 21
-y 19
-end
-arch sea
-x 21
-y 20
-end
-arch sea
-x 21
-y 21
-end
-arch sea
-x 21
-y 22
-end
-arch sea
-x 21
-y 23
-end
-arch sea
-x 21
-y 24
-end
-arch sea
-x 21
-y 25
-end
-arch sea
-x 21
-y 26
-end
-arch sea
-x 21
-y 27
-end
-arch sea
-x 21
-y 28
-end
-arch sea
-x 21
-y 29
-end
-arch sea
-x 22
-end
-arch sea
-x 22
-y 1
-end
-arch sea
-x 22
-y 2
-end
-arch sea
-x 22
-y 3
-end
-arch sea
-x 22
-y 4
-end
-arch sea
-x 22
-y 5
-end
-arch sea
-x 22
-y 6
-end
-arch sea
-x 22
-y 7
-end
-arch sea
-x 22
-y 8
-end
-arch sea
-x 22
-y 9
-end
-arch sea
-x 22
-y 10
-end
-arch sea
-x 22
-y 11
-end
-arch sea
-x 22
-y 12
-end
-arch sea
-x 22
-y 13
-end
-arch sea
-x 22
-y 14
-end
-arch sea
-x 22
-y 15
-end
-arch sea
-x 22
-y 16
-end
-arch sea
-x 22
-y 17
-end
-arch sea
-x 22
-y 18
-end
-arch sea
-x 22
-y 19
-end
-arch sea
-x 22
-y 20
-end
-arch sea
-x 22
-y 21
-end
-arch sea
-x 22
-y 22
-end
-arch sea
-x 22
-y 23
-end
-arch sea
-x 22
-y 24
-end
-arch sea
-x 22
-y 25
-end
-arch sea
-x 22
-y 26
-end
-arch sea
-x 22
-y 27
-end
-arch sea
-x 22
-y 28
-end
-arch sea
-x 22
-y 29
-end
 arch s_ship
 name Long Tom and Bessy's Ship
 x 19
 y 13
 end
-arch s_ship
+arch sea1
+x 19
+y 14
+end
+arch sea1
+x 19
+y 15
+end
+arch pier_2_1_2
+x 19
+y 15
+end
+arch sea1
 x 19
 y 16
 end
 arch s_ship
 x 19
+y 16
+end
+arch sea1
+x 19
+y 17
+end
+arch sea1
+x 19
+y 18
+end
+arch pier_2_1_2
+x 19
+y 18
+end
+arch sea1
+x 19
 y 19
+end
+arch s_ship
+x 19
+y 19
+end
+arch sea1
+x 19
+y 20
+end
+arch sea1
+x 19
+y 21
+end
+arch pier_2_1_2
+x 19
+y 21
+end
+arch sea1
+x 19
+y 22
 end
 arch fishboat
 x 19
 y 22
 end
+arch sea1
+x 19
+y 23
+end
+arch pier_2_1_2
+x 19
+y 23
+end
+arch sea
+x 19
+y 24
+end
+arch sea
+x 19
+y 25
+end
+arch sea
+x 19
+y 26
+end
+arch sea
+x 19
+y 27
+end
 arch lamia
 x 19
 y 27
+end
+arch sea
+x 19
+y 28
+end
+arch sea
+x 19
+y 29
+end
+arch sea
+x 20
+end
+arch sea
+x 20
+y 1
+end
+arch sea
+x 20
+y 2
+end
+arch sea
+x 20
+y 3
+end
+arch sea
+x 20
+y 4
+end
+arch sea
+x 20
+y 5
+end
+arch sea
+x 20
+y 6
+end
+arch sea
+x 20
+y 7
+end
+arch sea
+x 20
+y 8
+end
+arch sea
+x 20
+y 9
+end
+arch sea
+x 20
+y 10
+end
+arch sea
+x 20
+y 11
+end
+arch sea1
+x 20
+y 12
+end
+arch pier_1_3
+x 20
+y 12
+end
+arch sea1
+x 20
+y 13
+end
+arch sea1
+x 20
+y 14
+end
+arch sea1
+x 20
+y 15
+end
+arch pier_1_3
+x 20
+y 15
+end
+arch sea1
+x 20
+y 16
+end
+arch sea1
+x 20
+y 17
+end
+arch sea1
+x 20
+y 18
+end
+arch pier_1_3
+x 20
+y 18
+end
+arch sea1
+x 20
+y 19
+end
+arch sea1
+x 20
+y 20
+end
+arch sea1
+x 20
+y 21
+end
+arch pier_1_3
+x 20
+y 21
+end
+arch sea1
+x 20
+y 22
+end
+arch sea1
+x 20
+y 23
+end
+arch pier_1_3
+x 20
+y 23
+end
+arch sea
+x 20
+y 24
+end
+arch sea
+x 20
+y 25
+end
+arch sea
+x 20
+y 26
+end
+arch sea
+x 20
+y 27
+end
+arch sea
+x 20
+y 28
+end
+arch sea
+x 20
+y 29
+end
+arch sea
+x 21
+end
+arch sea
+x 21
+y 1
+end
+arch sea
+x 21
+y 2
+end
+arch sea
+x 21
+y 3
+end
+arch sea
+x 21
+y 4
+end
+arch sea
+x 21
+y 5
+end
+arch sea
+x 21
+y 6
+end
+arch sea
+x 21
+y 7
+end
+arch sea
+x 21
+y 8
+end
+arch sea
+x 21
+y 9
+end
+arch sea
+x 21
+y 10
+end
+arch sea
+x 21
+y 11
+end
+arch sea
+x 21
+y 12
+end
+arch sea
+x 21
+y 13
+end
+arch sea
+x 21
+y 14
+end
+arch sea
+x 21
+y 15
+end
+arch sea
+x 21
+y 16
+end
+arch sea
+x 21
+y 17
+end
+arch sea
+x 21
+y 18
+end
+arch sea
+x 21
+y 19
+end
+arch sea
+x 21
+y 20
+end
+arch sea
+x 21
+y 21
+end
+arch sea
+x 21
+y 22
+end
+arch sea
+x 21
+y 23
+end
+arch sea
+x 21
+y 24
+end
+arch sea
+x 21
+y 25
+end
+arch sea
+x 21
+y 26
+end
+arch sea
+x 21
+y 27
+end
+arch sea
+x 21
+y 28
+end
+arch sea
+x 21
+y 29
+end
+arch sea
+x 22
+end
+arch sea
+x 22
+y 1
+end
+arch sea
+x 22
+y 2
+end
+arch sea
+x 22
+y 3
+end
+arch sea
+x 22
+y 4
+end
+arch sea
+x 22
+y 5
+end
+arch sea
+x 22
+y 6
+end
+arch sea
+x 22
+y 7
+end
+arch sea
+x 22
+y 8
+end
+arch sea
+x 22
+y 9
+end
+arch sea
+x 22
+y 10
+end
+arch sea
+x 22
+y 11
+end
+arch sea
+x 22
+y 12
+end
+arch sea
+x 22
+y 13
+end
+arch sea
+x 22
+y 14
+end
+arch sea
+x 22
+y 15
+end
+arch sea
+x 22
+y 16
+end
+arch sea
+x 22
+y 17
+end
+arch sea
+x 22
+y 18
+end
+arch sea
+x 22
+y 19
+end
+arch sea
+x 22
+y 20
+end
+arch sea
+x 22
+y 21
+end
+arch sea
+x 22
+y 22
+end
+arch sea
+x 22
+y 23
+end
+arch sea
+x 22
+y 24
+end
+arch sea
+x 22
+y 25
+end
+arch sea
+x 22
+y 26
+end
+arch sea
+x 22
+y 27
+end
+arch sea
+x 22
+y 28
+end
+arch sea
+x 22
+y 29
 end
