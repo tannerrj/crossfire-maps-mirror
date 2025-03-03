@@ -1,11 +1,12 @@
 arch map
 name Spec test
-msg
-Created:  2002-09-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2002-09-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch roughwall_2_2_2
 end
@@ -58,10 +59,10 @@ arch roughwall_2_1_2
 x 1
 end
 arch grate_open_2
-connected 5
-no_pass 1
 x 1
 y 1
+connected 5
+no_pass 1
 end
 arch boulder
 x 1
@@ -72,10 +73,10 @@ x 1
 y 2
 end
 arch grate_open_2
-connected 25
-no_pass 1
 x 1
 y 3
+connected 25
+no_pass 1
 end
 arch boulder
 x 1
@@ -133,9 +134,9 @@ arch roughwall_2_1_2
 x 2
 end
 arch button_plate
-connected 10
 x 2
 y 1
+connected 10
 end
 arch grate_open_2
 x 2
@@ -146,15 +147,15 @@ x 2
 y 2
 end
 arch button_plate
-connected 30
 x 2
 y 3
+connected 30
 end
 arch grate_open_2
-connected 30
-no_pass 1
 x 2
 y 3
+connected 30
+no_pass 1
 end
 arch roughwall_2_1_2
 x 2
@@ -208,9 +209,9 @@ arch roughwall_2_1_2
 x 3
 end
 arch button_small
-connected 15
 x 3
 y 1
+connected 15
 end
 arch magic_mouth
 msg
@@ -224,9 +225,9 @@ x 3
 y 2
 end
 arch button_small
-connected 35
 x 3
 y 3
+connected 35
 end
 arch roughwall_2_1_2
 x 3
@@ -343,10 +344,10 @@ arch roughwall_2_1_2
 x 5
 end
 arch grate_open_2
-connected 15
-no_pass 1
 x 5
 y 1
+connected 15
+no_pass 1
 end
 arch boulder
 x 5
@@ -408,15 +409,15 @@ arch roughwall_2_1_2
 x 6
 end
 arch button_plate
-connected 20
 x 6
 y 1
+connected 20
 end
 arch grate_open_2
-connected 20
-no_pass 1
 x 6
 y 1
+connected 20
+no_pass 1
 end
 arch roughwall_3_3
 x 6
@@ -478,9 +479,9 @@ arch roughwall_2_1_2
 x 7
 end
 arch button_small
-connected 25
 x 7
 y 1
+connected 25
 end
 arch magic_mouth
 msg
@@ -496,17 +497,16 @@ end
 arch teleporter
 hp 9
 sp 13
-connected 35
 x 7
 y 3
+connected 35
 end
 arch perm_magic_portal
-type 41
-slaying 
 sp 0
-connected 40
 x 7
 y 3
+type 41
+connected 40
 end
 arch roughwall_2_1_2
 x 7
@@ -660,10 +660,10 @@ x 9
 y 13
 end
 arch button_small
-weight 200000
-connected 40
 x 9
 y 13
+weight 200000
+connected 40
 end
 arch pstone_4
 x 9
@@ -714,44 +714,44 @@ x 10
 y 13
 end
 arch mover_7
-speed -2.2
-lifesave 1
 hp 1
 x 10
 y 13
+speed -2.2
+lifesave 1
 end
 arch imp
 name Spec
 title the Imp
-level 40
-exp 80000
-speed 1.0
-dam 40
-wc 20
+Con 5
+Wis 4
+Pow 5
 hp 1000
 maxhp 1000
-ac 15
-Con 5
 sp 50
 maxsp 50
-Pow 5
-path_attuned 2
-path_denied 260
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-Wis 4
+exp 80000
+dam 40
+wc 20
+ac 15
+x 10
+y 13
+speed 1.0
+level 40
 resist_physical 95
 resist_magic 95
 resist_confusion 100
 resist_fear 100
-x 10
-y 13
+path_attuned 2
+path_denied 260
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch skill_stealing
 end
 arch skill_flame_touch
@@ -761,20 +761,20 @@ end
 arch glovesofsun
 name fiery gloves of the quick-handed
 msg
-These gloves, originally crafted by ancient dwarves of 
-Morgria, were enchanted to the forces of flame and 
+These gloves, originally crafted by ancient dwarves of
+Morgria, were enchanted to the forces of flame and
 darkness by powerful demons of flame.
 endmsg
-value 9000
-material 264
-identified 1
-damned 1
-startequip 0
+Dex 1
 resist_physical 2
 resist_fire 15
 resist_fear 50
-Dex 1
+material 264
+value 9000
+identified 1
+startequip 0
 stealth 1
+damned 1
 end
 arch ability_mass_confusion
 end

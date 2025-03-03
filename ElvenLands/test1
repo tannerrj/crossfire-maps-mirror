@@ -1,13 +1,14 @@
 arch map
 name test1
-msg
-Created:  2001-7-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
-enter_x 10
-enter_y 48
+region elvenlands
 width 50
 height 50
+enter_x 10
+enter_y 48
+msg
+Created:  2001-7-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -2604,6 +2605,10 @@ end
 arch battleground
 hp 10
 sp 47
+x 10
+y 30
+end
+arch chinese_dragon
 x 10
 y 30
 end
@@ -8004,6 +8009,10 @@ end
 arch dun2
 x 36
 end
+arch big_dragon
+x 36
+y 1
+end
 arch swall_2_1_2
 x 36
 y 6
@@ -8015,6 +8024,10 @@ end
 arch swall_2_1_2
 x 36
 y 8
+end
+arch big_elec
+x 36
+y 11
 end
 arch blocked
 x 36
@@ -9905,6 +9918,10 @@ end
 arch dun2
 x 47
 end
+arch bone_drake
+x 47
+y 1
+end
 arch swall_2_1_2
 x 47
 y 6
@@ -9916,6 +9933,10 @@ end
 arch swall_2_1_2
 x 47
 y 8
+end
+arch chinese_dragon
+x 47
+y 12
 end
 arch blocked
 x 47
@@ -10488,24 +10509,4 @@ end
 arch blocked
 x 49
 y 49
-end
-arch chinese_dragon
-x 10
-y 30
-end
-arch big_dragon
-x 36
-y 1
-end
-arch big_elec
-x 36
-y 11
-end
-arch bone_drake
-x 47
-y 1
-end
-arch chinese_dragon
-x 47
-y 12
 end

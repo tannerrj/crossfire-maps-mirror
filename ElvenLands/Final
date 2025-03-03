@@ -1,11 +1,12 @@
 arch map
 name Final
-msg
-Created:  2001-04-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-04 Rick Tanner
-endmsg
+region elvenlands
 width 32
 height 32
+msg
+Created:  2001-04-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch blocked
 end
@@ -1559,6 +1560,29 @@ arch blackmarble
 x 11
 y 17
 end
+arch demon_lord
+name Demon Lord,Baruk
+Str 25
+Con 35
+hp 13000
+maxhp 13000
+sp 250
+maxsp 250
+x 11
+y 17
+resist_physical 95
+resist_magic 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 95
+carrying 100000
+reflect_missile 1
+reflect_spell 1
+arch dragon_mail
+end
+arch firestar
+end
+end
 arch blackmarble
 x 11
 y 18
@@ -2698,6 +2722,31 @@ end
 arch blackmarble
 x 19
 y 17
+end
+arch demon_lord
+name Demon Lord,Rakuth
+Str 25
+Con 35
+hp 13000
+maxhp 13000
+sp 250
+maxsp 250
+x 19
+y 17
+resist_physical 95
+resist_magic 100
+resist_electricity 100
+resist_cold 100
+resist_weaponmagic 95
+resist_godpower 95
+resist_holyword 95
+carrying 100000
+reflect_missile 1
+reflect_spell 1
+arch dragon_mail
+end
+arch firestar
+end
 end
 arch blackmarble
 x 19
@@ -4402,52 +4451,4 @@ end
 arch blocked
 x 31
 y 31
-end
-arch demon_lord
-name Demon Lord,Baruk
-Str 25
-Con 35
-hp 13000
-maxhp 13000
-sp 250
-maxsp 250
-x 11
-y 17
-resist_physical 95
-resist_magic 100
-resist_electricity 100
-resist_cold 100
-resist_weaponmagic 95
-carrying 100000
-reflect_missile 1
-reflect_spell 1
-arch dragon_mail
-end
-arch firestar
-end
-end
-arch demon_lord
-name Demon Lord,Rakuth
-Str 25
-Con 35
-hp 13000
-maxhp 13000
-sp 250
-maxsp 250
-x 19
-y 17
-resist_physical 95
-resist_magic 100
-resist_electricity 100
-resist_cold 100
-resist_weaponmagic 95
-resist_godpower 95
-resist_holyword 95
-carrying 100000
-reflect_missile 1
-reflect_spell 1
-arch dragon_mail
-end
-arch firestar
-end
 end

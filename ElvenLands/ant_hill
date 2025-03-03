@@ -1,11 +1,12 @@
 arch map
 name ant_hill
-msg
-Created:  1999-12-06 Meeg Southall (meeg@prninfo.com)
-Modified: 2025-01-30 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-12-06 Meeg Southall (meeg@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -5901,6 +5902,19 @@ arch calm_floor
 x 28
 y 3
 end
+arch breeder_ant
+name Queen Antler
+msg
+@match hi/hello
+would you like to get an artifact?
+@match yes
+Ask king anted.
+endmsg
+hp 10000
+x 28
+y 3
+has_ready_skill 1
+end
 arch blackmarble
 x 28
 y 4
@@ -6230,9 +6244,9 @@ There base is in a hole outside of yoer
 city
 endmsg
 hp 10176
-armour 79
 x 29
 y 4
+armour 79
 end
 arch charm_floor
 x 29
@@ -6473,17 +6487,4 @@ end
 arch generate_ant
 x 29
 y 29
-end
-arch breeder_ant
-name Queen Antler
-msg
-@match hi/hello
-would you like to get an artifact?
-@match yes
-Ask king anted.
-endmsg
-hp 10000
-x 28
-y 3
-has_ready_skill 1
 end

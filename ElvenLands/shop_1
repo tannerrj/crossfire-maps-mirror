@@ -1,11 +1,12 @@
 arch map
 name shop_1
-msg
-Created:  1999-12-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-09 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 21
+msg
+Created:  1999-12-22 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -1435,7 +1436,7 @@ name xray glasses
 msg
 These eye glasses give the wearer the
 ability to see thru walls,but they give
-him low strength and charisma. 
+him low strength and charisma.
 endmsg
 Str -3
 x 6
@@ -2168,7 +2169,6 @@ value 10000
 weight 100
 magic 2
 randomitems none
-run_away 0
 alive 0
 unpaid 1
 no_pick 0
@@ -2176,6 +2176,7 @@ flying 0
 monster 0
 identified 1
 undead 0
+run_away 0
 can_cast_spell 0
 sleep 0
 can_see_in_dark 0
@@ -2822,11 +2823,11 @@ path_attuned 4
 value 600
 weight 30000
 unpaid 1
-need_an 1
 no_pick 0
 no_pass 0
 can_roll 0
 identified 1
+need_an 1
 end
 arch woodfloor
 x 12
@@ -2869,7 +2870,7 @@ Friend Twenster,
 not be able to collect the sword I let
 you borrow in case I could not pay my
 debt.  You may sell it to any costomer.
-         
+
                     Yours Truly,
                     Gert the Warrior
 endmsg
@@ -4054,6 +4055,15 @@ end
 arch wall_2_1_2
 x 19
 end
+arch map
+hp 16
+sp 21
+x 19
+type 66
+value 20000
+pick_up 1
+unpaid 1
+end
 arch woodfloor
 x 19
 y 1
@@ -4207,15 +4217,6 @@ end
 arch woodfloor
 x 19
 y 16
-end
-arch map
-hp 16
-sp 21
-x 19
-type 66
-value 20000
-pick_up 1
-unpaid 1
 end
 arch shop_empty
 x 19
