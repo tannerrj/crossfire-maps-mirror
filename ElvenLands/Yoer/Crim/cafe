@@ -1,11 +1,12 @@
 arch map
 name cafe
-msg
-Created:  2000-02-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 21
+msg
+Created:  2000-02-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1086,7 +1087,7 @@ Library. Our men will steal the books
 and King Slugg will have them for his
 collection! Our tunnel will be closed
 off before they can find us or our
-hideout. Haha! 
+hideout. Haha!
          Your friend, Stealer.
 endmsg
 x 9
@@ -2212,15 +2213,15 @@ name Grubb
 msg
 @match hi|hello
 So you have found me out! Well,you
-won't live to tell about it! 
+won't live to tell about it!
 endmsg
 hp 500
 x 18
 y 2
 carrying 77525
 will_apply 1
-can_apply 1
 unaggressive 1
+can_apply 1
 arch goblin_head
 name Grubb's head
 end
@@ -2388,8 +2389,8 @@ To:King Slug
 hideout,but they have not found my
 inner room. I am plotting my revenge
 upon the one who did this to me. He
-shall wish that he had never been born. 
-   From:Grubb 
+shall wish that he had never been born.
+   From:Grubb
 endmsg
 x 19
 y 8

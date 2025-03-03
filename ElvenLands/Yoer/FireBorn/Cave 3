@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-07-30 Meegwun Southall (meeg@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 37
 height 37
+msg
+Created:  2000-07-30 Meegwun Southall (meeg@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch pstone_4
 end
@@ -689,6 +691,10 @@ arch pstone_4
 x 2
 y 28
 end
+arch active_volcano
+x 2
+y 28
+end
 arch pstone_4
 x 2
 y 29
@@ -697,11 +703,19 @@ arch pstone_4
 x 2
 y 30
 end
+arch active_volcano
+x 2
+y 30
+end
 arch pstone_4
 x 2
 y 31
 end
 arch pstone_4
+x 2
+y 32
+end
+arch active_volcano
 x 2
 y 32
 end
@@ -714,6 +728,10 @@ x 2
 y 34
 end
 arch pstone_4
+x 2
+y 35
+end
+arch active_volcano
 x 2
 y 35
 end
@@ -1452,6 +1470,10 @@ arch pstone_4
 x 5
 y 31
 end
+arch active_volcano
+x 5
+y 31
+end
 arch pstone_4
 x 5
 y 32
@@ -1700,6 +1722,10 @@ arch pstone_4
 x 6
 y 28
 end
+arch active_volcano
+x 6
+y 28
+end
 arch pstone_4
 x 6
 y 29
@@ -1721,6 +1747,10 @@ x 6
 y 33
 end
 arch pstone_4
+x 6
+y 34
+end
+arch active_volcano
 x 6
 y 34
 end
@@ -1775,6 +1805,10 @@ x 7
 y 5
 end
 arch pstone_4
+x 7
+y 6
+end
+arch dragon
 x 7
 y 6
 end
@@ -2056,6 +2090,10 @@ arch pstone_4
 x 8
 y 13
 end
+arch dragon
+x 8
+y 13
+end
 arch pstone_4
 x 8
 y 14
@@ -2157,6 +2195,10 @@ x 8
 y 33
 end
 arch pstone_4
+x 8
+y 34
+end
+arch active_volcano
 x 8
 y 34
 end
@@ -2334,11 +2376,19 @@ arch pstone_4
 x 9
 y 28
 end
+arch active_volcano
+x 9
+y 28
+end
 arch pstone_4
 x 9
 y 29
 end
 arch pstone_4
+x 9
+y 30
+end
+arch active_volcano
 x 9
 y 30
 end
@@ -3775,6 +3825,10 @@ x 16
 y 1
 end
 arch pstone_4
+x 16
+y 2
+end
+arch dragon
 x 16
 y 2
 end
@@ -7911,56 +7965,4 @@ end
 arch pstone_4
 x 36
 y 36
-end
-arch active_volcano
-x 2
-y 28
-end
-arch active_volcano
-x 2
-y 30
-end
-arch active_volcano
-x 2
-y 32
-end
-arch active_volcano
-x 2
-y 35
-end
-arch active_volcano
-x 5
-y 31
-end
-arch active_volcano
-x 6
-y 28
-end
-arch active_volcano
-x 6
-y 34
-end
-arch dragon
-x 7
-y 6
-end
-arch dragon
-x 8
-y 13
-end
-arch active_volcano
-x 8
-y 34
-end
-arch active_volcano
-x 9
-y 28
-end
-arch active_volcano
-x 9
-y 30
-end
-arch dragon
-x 16
-y 2
 end

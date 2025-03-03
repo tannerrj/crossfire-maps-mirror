@@ -1,11 +1,12 @@
 arch map
 name ordeal
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 50
 height 50
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch stonefloor2
 end
@@ -6932,6 +6933,10 @@ arch stonefloor2
 x 24
 y 8
 end
+arch giant
+x 24
+y 8
+end
 arch stonefloor2
 x 24
 y 9
@@ -7456,6 +7461,10 @@ arch stonefloor2
 x 26
 y 6
 end
+arch giant
+x 26
+y 6
+end
 arch stonefloor2
 x 26
 y 7
@@ -7747,6 +7756,10 @@ x 27
 y 8
 end
 arch stonefloor2
+x 27
+y 9
+end
+arch giant
 x 27
 y 9
 end
@@ -8620,6 +8633,10 @@ arch stonefloor2
 x 30
 y 3
 end
+arch dragon
+x 30
+y 3
+end
 arch stonefloor2
 x 30
 y 4
@@ -8633,6 +8650,10 @@ x 30
 y 6
 end
 arch stonefloor2
+x 30
+y 7
+end
+arch dragon
 x 30
 y 7
 end
@@ -10093,6 +10114,10 @@ arch awall_2_1_2
 x 35
 end
 arch stonefloor2
+x 35
+y 1
+end
+arch dragon
 x 35
 y 1
 end
@@ -14803,28 +14828,4 @@ end
 arch awall_1_2
 x 49
 y 49
-end
-arch giant
-x 24
-y 8
-end
-arch giant
-x 26
-y 6
-end
-arch giant
-x 27
-y 9
-end
-arch dragon
-x 30
-y 3
-end
-arch dragon
-x 30
-y 7
-end
-arch dragon
-x 35
-y 1
 end

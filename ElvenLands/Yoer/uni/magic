@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-12-18 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-20 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 35
 height 30
+msg
+Created:  2000-12-18 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -292,11 +294,19 @@ arch dungeon_floor
 x 1
 y 21
 end
+arch big_dragon
+x 1
+y 21
+end
 arch dungeon_floor
 x 1
 y 22
 end
 arch dungeon_floor
+x 1
+y 23
+end
+arch gaelotroll
 x 1
 y 23
 end
@@ -309,6 +319,10 @@ x 1
 y 25
 end
 arch dungeon_floor
+x 1
+y 26
+end
+arch big_elec
 x 1
 y 26
 end
@@ -618,6 +632,10 @@ arch dungeon_floor
 x 3
 y 27
 end
+arch big_dragon
+x 3
+y 27
+end
 arch dungeon_floor
 x 3
 y 28
@@ -709,7 +727,7 @@ hello
 What would you like.
 @match gate|Gate
 Oh! You want to Practice. You need to
-ask Master Duthor about that. 
+ask Master Duthor about that.
 @match red gate
 Oh you want to go in there!
 You'll need to think of the appropriet
@@ -783,6 +801,10 @@ x 4
 y 24
 end
 arch dungeon_floor
+x 4
+y 25
+end
+arch titan
 x 4
 y 25
 end
@@ -869,8 +891,8 @@ arch grate_closed_2
 name gate
 x 5
 y 12
-protected 100
 connected 100
+protected 100
 end
 arch woodfloor
 x 5
@@ -1075,6 +1097,10 @@ arch dungeon_floor
 x 6
 y 22
 end
+arch titan
+x 6
+y 22
+end
 arch dungeon_floor
 x 6
 y 23
@@ -1083,11 +1109,23 @@ arch dungeon_floor
 x 6
 y 24
 end
+arch dread
+name Evil Dread
+hp 5000
+sp 70
+maxsp 70
+x 6
+y 24
+end
 arch dungeon_floor
 x 6
 y 25
 end
 arch dungeon_floor
+x 6
+y 26
+end
+arch gaelotroll
 x 6
 y 26
 end
@@ -1642,6 +1680,12 @@ arch woodfloor
 x 9
 y 27
 end
+arch big_dragon
+name father dragon
+hp 8000
+x 9
+y 27
+end
 arch woodfloor
 x 9
 y 28
@@ -1802,6 +1846,12 @@ x 10
 y 18
 end
 arch woodfloor
+x 10
+y 19
+end
+arch big_dragon
+name mother dragon
+hp 5000
 x 10
 y 19
 end
@@ -5615,52 +5665,4 @@ end
 arch woodfloor
 x 34
 y 29
-end
-arch big_dragon
-x 1
-y 21
-end
-arch gaelotroll
-x 1
-y 23
-end
-arch big_elec
-x 1
-y 26
-end
-arch big_dragon
-x 3
-y 27
-end
-arch titan
-x 4
-y 25
-end
-arch titan
-x 6
-y 22
-end
-arch dread
-name Evil Dread
-hp 5000
-sp 70
-maxsp 70
-x 6
-y 24
-end
-arch gaelotroll
-x 6
-y 26
-end
-arch big_dragon
-name father dragon
-hp 8000
-x 9
-y 27
-end
-arch big_dragon
-name mother dragon
-hp 5000
-x 10
-y 19
 end

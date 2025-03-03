@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-12-19 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-12-19 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -257,9 +259,9 @@ attack_movement 0
 level 0
 type 37
 weight 0
-run_away 0
 alive 0
 monster 0
+run_away 0
 sleep 0
 end
 arch woodfloor
@@ -301,9 +303,9 @@ level 0
 type 37
 carrying 500
 weight 0
-run_away 0
 alive 0
 monster 0
+run_away 0
 sleep 0
 arch skill_jumping
 end
@@ -563,9 +565,9 @@ attack_movement 0
 level 0
 type 37
 weight 0
-run_away 0
 alive 0
 monster 0
+run_away 0
 end
 arch woodfloor
 x 4
@@ -602,9 +604,9 @@ attack_movement 0
 level 0
 type 37
 weight 0
-run_away 0
 alive 0
 monster 0
+run_away 0
 end
 end
 arch woodfloor
@@ -1156,9 +1158,9 @@ attack_movement 0
 level 0
 type 37
 weight 0
-run_away 0
 alive 0
 monster 0
+run_away 0
 sleep 0
 arch skill_clawing
 end
@@ -1224,7 +1226,7 @@ arch wizard
 name Dellgur
 msg
 @match hi|hello
-Ah,welcome! 
+Ah,welcome!
 I am the owner of this fine
 establishment. Do you like so many
 others wish to change your true form.
@@ -1431,10 +1433,10 @@ attack_movement 0
 level 0
 type 37
 weight 0
-run_away 0
 alive 0
 no_pick 0
 monster 0
+run_away 0
 sleep 0
 arch skill_levitate
 end

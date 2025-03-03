@@ -1,11 +1,12 @@
 arch map
 name Bushop
-msg
-Created:  2000-04-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 41
 height 41
+msg
+Created:  2000-04-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -1052,7 +1053,7 @@ msg
 Hello,are you here to buy your own shop?
 @match yes
 Then choose the hallway going north.
-@match no 
+@match no
 Then choose the hallway going east.
 endmsg
 x 4
@@ -1073,7 +1074,7 @@ msg
 Put an item behind grate. Make sure the
 item is worth as much as the gold floor
 says. The floor which says 10000
-platinum should hold an artifact. 
+platinum should hold an artifact.
 The small room in the back of your shop
 is for storage and sleeping. You
 recieve your money back there. The

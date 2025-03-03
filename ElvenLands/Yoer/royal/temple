@@ -1,11 +1,12 @@
 arch map
 name temple
-msg
-Created:  2001-04-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
+region elvenlands
 width 20
 height 32
+msg
+Created:  2001-04-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -1423,9 +1424,9 @@ y 2
 end
 arch a_priest
 name priest of Lythander
-randomitems priest
 x 8
 y 2
+randomitems priest
 end
 arch flagstone
 x 8
@@ -1449,29 +1450,19 @@ y 6
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 8
+y 6
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1480,8 +1471,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 8
-y 6
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1565,29 +1566,19 @@ y 25
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 8
+y 25
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1596,8 +1587,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 8
-y 25
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1671,9 +1672,9 @@ y 4
 end
 arch a_priest
 name priest of Lythander
-randomitems priest
 x 9
 y 4
+randomitems priest
 end
 arch flagstone
 x 9
@@ -1756,10 +1757,10 @@ x 9
 y 24
 end
 arch button_small
-invisible 1
-connected 1
 x 9
 y 25
+invisible 1
+connected 1
 end
 arch flagstone
 x 9
@@ -1770,15 +1771,15 @@ x 9
 y 26
 end
 arch igate_closed_1
-connected 1
 x 9
 y 26
+connected 1
 end
 arch button_small
-invisible 1
-connected 1
 x 9
 y 27
+invisible 1
+connected 1
 end
 arch cobblestones2
 x 9
@@ -1819,9 +1820,9 @@ y 1
 end
 arch a_priest
 name priest of Lythander
-randomitems priest
 x 10
 y 1
+randomitems priest
 end
 arch flagstone
 x 10
@@ -1924,10 +1925,10 @@ x 10
 y 24
 end
 arch button_small
-invisible 1
-connected 1
 x 10
 y 25
+invisible 1
+connected 1
 end
 arch flagstone
 x 10
@@ -1938,15 +1939,15 @@ x 10
 y 26
 end
 arch igate_closed_1
-connected 1
 x 10
 y 26
+connected 1
 end
 arch button_small
-invisible 1
-connected 1
 x 10
 y 27
+invisible 1
+connected 1
 end
 arch cobblestones2
 x 10
@@ -1999,9 +2000,9 @@ y 3
 end
 arch a_priest
 name priest of Lythander
-randomitems priest
 x 11
 y 3
+randomitems priest
 end
 arch flagstone
 x 11
@@ -2021,29 +2022,19 @@ y 6
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 11
+y 6
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2052,8 +2043,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 11
-y 6
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -2137,29 +2138,19 @@ y 25
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 11
+y 25
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -2168,8 +2159,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 11
-y 25
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound

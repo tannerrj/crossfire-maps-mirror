@@ -1,11 +1,12 @@
 arch map
 name temple basement
-msg
-Created:  2002-10-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
+region elvenlands
 width 20
 height 20
+msg
+Created:  2002-10-09 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -483,29 +484,19 @@ y 6
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 4
+y 6
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -514,8 +505,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 4
-y 6
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -547,29 +548,19 @@ y 12
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 4
+y 12
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -578,8 +569,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 4
-y 12
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -778,10 +779,10 @@ name devotee
 face wizard_white.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 6
 y 11
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 6
@@ -874,9 +875,9 @@ x 7
 y 6
 end
 arch bookshelf
-no_pick 1
 x 7
 y 6
+no_pick 1
 end
 arch flagstone
 x 7
@@ -891,10 +892,10 @@ name devotee
 face wizard_white.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 7
 y 7
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 7
@@ -925,9 +926,9 @@ x 7
 y 12
 end
 arch bookshelf
-no_pick 1
 x 7
 y 12
+no_pick 1
 end
 arch flagstone
 x 7
@@ -1004,9 +1005,9 @@ x 8
 y 6
 end
 arch bookshelf
-no_pick 1
 x 8
 y 6
+no_pick 1
 end
 arch flagstone
 x 8
@@ -1037,9 +1038,9 @@ x 8
 y 12
 end
 arch bookshelf
-no_pick 1
 x 8
 y 12
+no_pick 1
 end
 arch flagstone
 x 8
@@ -1116,9 +1117,9 @@ x 9
 y 6
 end
 arch bookshelf
-no_pick 1
 x 9
 y 6
+no_pick 1
 end
 arch flagstone
 x 9
@@ -1145,10 +1146,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 9
 y 10
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 9
@@ -1159,9 +1160,9 @@ x 9
 y 12
 end
 arch bookshelf
-no_pick 1
 x 9
 y 12
+no_pick 1
 end
 arch flagstone
 x 9
@@ -1234,9 +1235,9 @@ x 10
 y 6
 end
 arch bookshelf
-no_pick 1
 x 10
 y 6
+no_pick 1
 end
 arch flagstone
 x 10
@@ -1251,10 +1252,10 @@ name devotee
 face wizard_white.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 10
 y 7
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 10
@@ -1273,10 +1274,10 @@ name devotee
 face wizard_white.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 10
 y 9
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 10
@@ -1299,19 +1300,19 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 10
 y 11
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 10
 y 12
 end
 arch bookshelf
-no_pick 1
 x 10
 y 12
+no_pick 1
 end
 arch flagstone
 x 10
@@ -1388,9 +1389,9 @@ x 11
 y 6
 end
 arch bookshelf
-no_pick 1
 x 11
 y 6
+no_pick 1
 end
 arch flagstone
 x 11
@@ -1421,10 +1422,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 11
 y 10
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 11
@@ -1435,9 +1436,9 @@ x 11
 y 12
 end
 arch bookshelf
-no_pick 1
 x 11
 y 12
+no_pick 1
 end
 arch flagstone
 x 11
@@ -1514,9 +1515,9 @@ x 12
 y 6
 end
 arch bookshelf
-no_pick 1
 x 12
 y 6
+no_pick 1
 end
 arch flagstone
 x 12
@@ -1543,9 +1544,9 @@ x 12
 y 12
 end
 arch bookshelf
-no_pick 1
 x 12
 y 12
+no_pick 1
 end
 arch flagstone
 x 12
@@ -1650,10 +1651,10 @@ name priest
 face priestnew.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 13
 y 8
+randomitems standard
+pick_up 0
 end
 arch flagstone
 x 13
@@ -1841,29 +1842,19 @@ y 6
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 15
+y 6
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1872,8 +1863,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 15
-y 6
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound
@@ -1905,29 +1906,19 @@ y 12
 end
 arch guildmaster
 name temple guard
-face paladin.151
-level 20
 race faerie
-exp 40000
-randomitems throw_stnd
-speed 0.3
-attacktype 33
-wc -10
+face paladin.151
+Con 3
 hp 900
 maxhp 900
+exp 40000
+wc -10
 ac -5
-Con 3
-path_attuned 1
-path_denied 512
-can_use_weapon 1
-can_use_bow 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
+x 15
+y 12
+speed 0.3
+level 20
+attacktype 33
 resist_physical 60
 resist_magic 40
 resist_fire 30
@@ -1936,8 +1927,18 @@ resist_cold 30
 resist_confusion 100
 resist_acid -30
 resist_poison -30
-x 15
-y 12
+path_attuned 1
+path_denied 512
+randomitems throw_stnd
+pick_up 0
+can_use_scroll 1
+can_use_bow 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_use_wand 1
 arch ability_mass_confusion
 end
 arch ability_cause_med_wound

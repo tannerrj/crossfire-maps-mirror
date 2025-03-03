@@ -1,11 +1,12 @@
 arch map
 name gnarg_4
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 27
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -178,6 +179,10 @@ x 1
 y 1
 end
 arch altar_gnarg
+x 1
+y 1
+end
+arch troll
 x 1
 y 1
 end
@@ -1723,6 +1728,29 @@ end
 arch random_spells
 x 12
 y 8
+end
+arch gaelotroll
+name Uggilly
+hp 500
+sp 50
+maxsp 50
+wc 3
+ac 1
+x 12
+y 8
+carrying 4
+can_cast_spell 1
+arch heart
+name Uggilly's Heart
+end
+arch ability_cause_med_wound
+end
+arch ability_cause_lig_wound
+end
+arch ability_bullet
+end
+arch ability_poison
+end
 end
 arch marble
 x 12
@@ -3340,6 +3368,10 @@ arch medium_stones
 x 23
 y 15
 end
+arch troll
+x 23
+y 15
+end
 arch marble
 x 23
 y 16
@@ -4165,35 +4197,4 @@ end
 arch blocked
 x 29
 y 26
-end
-arch troll
-x 1
-y 1
-end
-arch gaelotroll
-name Uggilly
-hp 500
-sp 50
-maxsp 50
-wc 3
-ac 1
-x 12
-y 8
-carrying 4
-can_cast_spell 1
-arch heart
-name Uggilly's Heart
-end
-arch ability_cause_med_wound
-end
-arch ability_cause_lig_wound
-end
-arch ability_bullet
-end
-arch ability_poison
-end
-end
-arch troll
-x 23
-y 15
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-06-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 31
 height 31
+msg
+Created:  2000-06-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dirtfloor
 end
@@ -4406,7 +4408,7 @@ You are not allowed here! Leave right
 away or else I will be forced to fight
 you. And beleave me,I won't lose.
  (The mercenary rubs the head of his
-poleaxe.) 
+poleaxe.)
 endmsg
 hp 500
 wc 1

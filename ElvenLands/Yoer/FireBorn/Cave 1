@@ -1,13 +1,14 @@
 arch map
-msg
-Created:  2000-07-29 Meegwun Southall (meeg@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
-enter_x 0
-enter_y 8
+name <unnamed>
+region elvenlands
+darkness 3
 width 40
 height 40
-darkness 3
+enter_y 8
+msg
+Created:  2000-07-29 Meegwun Southall (meeg@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch large_stones
 end
@@ -1195,6 +1196,10 @@ y 18
 speed_left -0.700000
 end
 arch large_stones
+x 5
+y 19
+end
+arch active_volcano
 x 5
 y 19
 end
@@ -3616,6 +3621,10 @@ arch large_stones
 x 15
 y 25
 end
+arch giant
+x 15
+y 25
+end
 arch large_stones
 x 15
 y 26
@@ -3624,7 +3633,15 @@ arch large_stones
 x 15
 y 27
 end
+arch dragon
+x 15
+y 27
+end
 arch large_stones
+x 15
+y 28
+end
+arch dragon
 x 15
 y 28
 end
@@ -3632,7 +3649,15 @@ arch large_stones
 x 15
 y 29
 end
+arch dragon
+x 15
+y 29
+end
 arch large_stones
+x 15
+y 30
+end
+arch dragon
 x 15
 y 30
 end
@@ -3826,6 +3851,10 @@ arch large_stones
 x 16
 y 25
 end
+arch giant
+x 16
+y 25
+end
 arch large_stones
 x 16
 y 26
@@ -4031,6 +4060,10 @@ arch large_stones
 x 17
 y 25
 end
+arch giant
+x 17
+y 25
+end
 arch large_stones
 x 17
 y 26
@@ -4039,7 +4072,15 @@ arch large_stones
 x 17
 y 27
 end
+arch dragon
+x 17
+y 27
+end
 arch large_stones
+x 17
+y 28
+end
+arch dragon
 x 17
 y 28
 end
@@ -4047,7 +4088,15 @@ arch large_stones
 x 17
 y 29
 end
+arch dragon
+x 17
+y 29
+end
 arch large_stones
+x 17
+y 30
+end
+arch dragon
 x 17
 y 30
 end
@@ -7107,6 +7156,10 @@ arch large_stones
 x 31
 y 29
 end
+arch dragon
+x 31
+y 29
+end
 arch large_stones
 x 31
 y 30
@@ -7836,6 +7889,10 @@ x 35
 y 26
 end
 arch large_stones
+x 35
+y 27
+end
+arch dragon
 x 35
 y 27
 end
@@ -8571,60 +8628,4 @@ end
 arch large_stones
 x 39
 y 39
-end
-arch active_volcano
-x 5
-y 19
-end
-arch giant
-x 15
-y 25
-end
-arch dragon
-x 15
-y 27
-end
-arch dragon
-x 15
-y 28
-end
-arch dragon
-x 15
-y 29
-end
-arch dragon
-x 15
-y 30
-end
-arch giant
-x 16
-y 25
-end
-arch giant
-x 17
-y 25
-end
-arch dragon
-x 17
-y 27
-end
-arch dragon
-x 17
-y 28
-end
-arch dragon
-x 17
-y 29
-end
-arch dragon
-x 17
-y 30
-end
-arch dragon
-x 31
-y 29
-end
-arch dragon
-x 35
-y 27
 end

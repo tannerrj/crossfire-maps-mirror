@@ -1,11 +1,12 @@
 arch map
 name lib1
-msg
-Created:  2000-03-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
+region elvenlands
 width 25
 height 21
+msg
+Created:  2000-03-30 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -372,9 +373,9 @@ The magical troll slaying sword was
 lost in a dark forest filled with
 savage gnarg worshipers.
 endmsg
-no_pick 1
 x 2
 y 19
+no_pick 1
 end
 arch flagstone
 x 2
@@ -774,10 +775,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 6
-no_pick 1
 x 6
 y 5
+level 6
+no_pick 1
 end
 arch flagstone
 x 6
@@ -818,9 +819,9 @@ for capturing and making slaves of
 people.
 continued in volume 3
 endmsg
-no_pick 1
 x 6
 y 9
+no_pick 1
 end
 arch marble
 x 6
@@ -882,9 +883,9 @@ worship evil gods such as
 Ruggilly,Devourers,and Gnarg.
 End..
 endmsg
-no_pick 1
 x 6
 y 19
+no_pick 1
 end
 arch flagstone
 x 6
@@ -928,10 +929,10 @@ arch random_reading
 name mon_reading
 slaying library
 sp 1
-level 5
-no_pick 1
 x 7
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 7
@@ -1043,10 +1044,10 @@ arch random_reading
 name mon_reading
 slaying library
 sp 1
-level 5
-no_pick 1
 x 8
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 8
@@ -1182,10 +1183,10 @@ arch random_reading
 name mon_reading
 slaying library
 sp 1
-level 5
-no_pick 1
 x 9
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 9
@@ -1325,10 +1326,10 @@ arch random_reading
 name spell_reading
 slaying library
 sp 3
-level 5
-no_pick 1
 x 10
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 10
@@ -1455,10 +1456,10 @@ arch random_reading
 name spell_reading
 slaying library
 sp 3
-level 5
-no_pick 1
 x 11
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 11
@@ -1590,10 +1591,10 @@ arch random_reading
 name spell_reading
 slaying library
 sp 3
-level 5
-no_pick 1
 x 12
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 12
@@ -1736,10 +1737,10 @@ arch random_reading
 name gods_reading
 slaying library
 sp 5
-level 5
-no_pick 1
 x 13
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 13
@@ -1871,10 +1872,10 @@ arch random_reading
 name gods_reading
 slaying library
 sp 5
-level 5
-no_pick 1
 x 14
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 14
@@ -1994,10 +1995,10 @@ arch random_reading
 name gods_reading
 slaying library
 sp 5
-level 5
-no_pick 1
 x 15
 y 5
+level 5
+no_pick 1
 end
 arch flagstone
 x 15
@@ -2135,10 +2136,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 6
-no_pick 1
 x 16
 y 5
+level 6
+no_pick 1
 end
 arch flagstone
 x 16
@@ -2272,10 +2273,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 6
-no_pick 1
 x 17
 y 5
+level 6
+no_pick 1
 end
 arch flagstone
 x 17
@@ -2385,10 +2386,10 @@ y 5
 end
 arch random_reading
 slaying library
-level 6
-no_pick 1
 x 18
 y 5
+level 6
+no_pick 1
 end
 arch flagstone
 x 18
@@ -2424,9 +2425,9 @@ time at his capital. Instead he resides
 on an island.
 Continued in volume 2
 endmsg
-no_pick 1
 x 18
 y 8
+no_pick 1
 end
 arch marble
 x 18
@@ -2451,9 +2452,9 @@ stones and will give an ancient
 artifact for them. There is said to be
 an ancient scroll about the stones.
 endmsg
-no_pick 1
 x 18
 y 10
+no_pick 1
 end
 arch marble
 x 18
@@ -2941,9 +2942,9 @@ small town ruled by Fleabolt. Fleabeon
 was founded by King Fleabeon. Fleabolt
 is Fleabeon's grandson.
 endmsg
-no_pick 1
 x 22
 y 8
+no_pick 1
 end
 arch marble
 x 22

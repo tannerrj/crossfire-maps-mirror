@@ -1,11 +1,12 @@
 arch map
 name arena
-msg
-Created:  1999-08-13 Meegwun Southall (meeg@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+region elvenlands
 width 70
 height 29
+msg
+Created:  1999-08-13 Meegwun Southall (meeg@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch pstone_2
 end
@@ -1598,7 +1599,7 @@ end
 arch sign_e
 name Flara
 msg
-Opponent: Flara 
+Opponent: Flara
   Flara is a caster of fire.
 endmsg
 x 10

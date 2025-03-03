@@ -1,12 +1,13 @@
 arch map
 name city
-msg
-Created:  1999-08-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+reset_timeout 6000
+region elvenlands
 width 50
 height 40
-reset_timeout 6000
+msg
+Created:  1999-08-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch grass
 end
@@ -263,6 +264,7 @@ x 1
 y 1
 end
 arch well
+slaying /!
 msg
 wallstyle dungeon
 monsterstyle subterranean
@@ -272,7 +274,6 @@ dungeon_depth 1
 decorstyle fireproof-gems
 layoutstyle onion
 endmsg
-slaying /!
 x 1
 y 1
 end
@@ -300,11 +301,19 @@ arch grass
 x 1
 y 7
 end
+arch barrack_up
+x 1
+y 7
+end
 arch grass
 x 1
 y 8
 end
 arch grass
+x 1
+y 9
+end
+arch barrack_up
 x 1
 y 9
 end
@@ -316,7 +325,15 @@ arch grass
 x 1
 y 11
 end
+arch barrack_long
+x 1
+y 11
+end
 arch grass
+x 1
+y 12
+end
+arch barrack_long
 x 1
 y 12
 end
@@ -498,11 +515,19 @@ arch grass
 x 2
 y 7
 end
+arch barrack_up
+x 2
+y 7
+end
 arch grass
 x 2
 y 8
 end
 arch grass
+x 2
+y 9
+end
+arch barrack_up
 x 2
 y 9
 end
@@ -527,6 +552,14 @@ x 2
 y 14
 end
 arch grass
+x 2
+y 15
+end
+arch rl_house3
+name house next to jungle
+slaying /ElvenLands/Yoer/city/Jhome
+hp 6
+sp 25
 x 2
 y 15
 end
@@ -550,11 +583,19 @@ arch grass
 x 2
 y 19
 end
+arch house_largish
+x 2
+y 19
+end
 arch grass
 x 2
 y 20
 end
 arch grass
+x 2
+y 21
+end
+arch house_largish
 x 2
 y 21
 end
@@ -583,9 +624,9 @@ x 2
 y 27
 end
 arch a_guard_l
-speed_left -4.060000
 x 2
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 2
@@ -596,9 +637,9 @@ x 2
 y 29
 end
 arch a_guard_l
-speed_left -4.060000
 x 2
 y 29
+speed_left -4.060000
 end
 arch grass
 x 2
@@ -648,6 +689,14 @@ arch grass
 x 2
 y 37
 end
+arch barn
+name warehouse
+slaying /ElvenLands/Yoer/Crim/Dwarf
+hp 19
+sp 30
+x 2
+y 37
+end
 arch grass
 x 2
 y 38
@@ -694,11 +743,19 @@ arch grass
 x 3
 y 7
 end
+arch barrack_up
+x 3
+y 7
+end
 arch grass
 x 3
 y 8
 end
 arch grass
+x 3
+y 9
+end
+arch barrack_up
 x 3
 y 9
 end
@@ -710,7 +767,15 @@ arch grass
 x 3
 y 11
 end
+arch barrack_long
+x 3
+y 11
+end
 arch grass
+x 3
+y 12
+end
+arch barrack_long
 x 3
 y 12
 end
@@ -884,6 +949,10 @@ arch grass
 x 4
 y 1
 end
+arch university
+x 4
+y 1
+end
 arch grass
 x 4
 y 2
@@ -908,11 +977,19 @@ arch grass
 x 4
 y 7
 end
+arch barrack_up
+x 4
+y 7
+end
 arch grass
 x 4
 y 8
 end
 arch grass
+x 4
+y 9
+end
+arch barrack_up
 x 4
 y 9
 end
@@ -972,11 +1049,19 @@ arch grass
 x 4
 y 19
 end
+arch house_largish
+x 4
+y 19
+end
 arch grass
 x 4
 y 20
 end
 arch grass
+x 4
+y 21
+end
+arch house_largish
 x 4
 y 21
 end
@@ -1123,9 +1208,9 @@ x 5
 y 5
 end
 arch fountain
-speed_left -33.599998
 x 5
 y 5
+speed_left -33.599998
 end
 arch grass
 x 5
@@ -1135,11 +1220,19 @@ arch grass
 x 5
 y 7
 end
+arch barrack_up
+x 5
+y 7
+end
 arch grass
 x 5
 y 8
 end
 arch grass
+x 5
+y 9
+end
+arch barrack_up
 x 5
 y 9
 end
@@ -1216,9 +1309,9 @@ x 5
 y 22
 end
 arch a_guard_l
-speed_left -4.060000
 x 5
 y 22
+speed_left -4.060000
 end
 arch grass
 x 5
@@ -1235,6 +1328,16 @@ end
 arch grass
 x 5
 y 25
+end
+arch cathedral
+name high temple
+slaying /ElvenLands/Yoer/royal/temple
+hp 9
+sp 30
+x 5
+y 25
+no_pass 0
+pass_thru 1
 end
 arch grass
 x 5
@@ -1265,9 +1368,9 @@ x 5
 y 31
 end
 arch a_guard_l
-speed_left -4.060000
 x 5
 y 31
+speed_left -4.060000
 end
 arch grass
 x 5
@@ -1518,9 +1621,9 @@ x 7
 y 5
 end
 arch fountain
-speed_left -33.599998
 x 7
 y 5
+speed_left -33.599998
 end
 arch grass
 x 7
@@ -1538,11 +1641,20 @@ arch grass
 x 7
 y 9
 end
+arch slum1
+name training
+x 7
+y 9
+end
 arch grass
 x 7
 y 10
 end
 arch grass
+x 7
+y 11
+end
+arch house_up
 x 7
 y 11
 end
@@ -1562,11 +1674,19 @@ arch grass
 x 7
 y 15
 end
+arch house_largish
+x 7
+y 15
+end
 arch grass
 x 7
 y 16
 end
 arch grass
+x 7
+y 17
+end
+arch house_largish
 x 7
 y 17
 end
@@ -1578,6 +1698,10 @@ arch grass
 x 7
 y 19
 end
+arch house_largish
+x 7
+y 19
+end
 arch grass
 x 7
 y 20
@@ -1586,14 +1710,18 @@ arch grass
 x 7
 y 21
 end
+arch house_largish
+x 7
+y 21
+end
 arch grass
 x 7
 y 22
 end
 arch a_guard_l
-speed_left -4.060000
 x 7
 y 22
+speed_left -4.060000
 end
 arch grass
 x 7
@@ -1640,9 +1768,9 @@ x 7
 y 31
 end
 arch a_guard_l
-speed_left -4.060000
 x 7
 y 31
+speed_left -4.060000
 end
 arch grass
 x 7
@@ -1669,6 +1797,14 @@ x 7
 y 35
 end
 arch grass
+x 7
+y 36
+end
+arch rl_house2
+name rich house
+slaying /ElvenLands/Yoer/city/rich1
+hp 16
+sp 25
 x 7
 y 36
 end
@@ -1730,11 +1866,20 @@ arch grass
 x 8
 y 9
 end
+arch slum3
+name training
+x 8
+y 9
+end
 arch grass
 x 8
 y 10
 end
 arch grass
+x 8
+y 11
+end
+arch house_up
 x 8
 y 11
 end
@@ -1924,11 +2069,23 @@ arch grass
 x 9
 y 9
 end
+arch house_long
+x 9
+y 9
+end
 arch grass
 x 9
 y 10
 end
+arch house_long
+x 9
+y 10
+end
 arch grass
+x 9
+y 11
+end
+arch house_long
 x 9
 y 11
 end
@@ -1941,9 +2098,9 @@ name permanent apartments
 slaying /ElvenLands/Yoer/city/apartment
 hp 2
 sp 10
-unique 1
 x 9
 y 12
+unique 1
 end
 arch cobblestones2
 x 9
@@ -1957,11 +2114,19 @@ arch grass
 x 9
 y 15
 end
+arch house_largish
+x 9
+y 15
+end
 arch grass
 x 9
 y 16
 end
 arch grass
+x 9
+y 17
+end
+arch house_largish
 x 9
 y 17
 end
@@ -1973,11 +2138,19 @@ arch grass
 x 9
 y 19
 end
+arch house_largish
+x 9
+y 19
+end
 arch grass
 x 9
 y 20
 end
 arch grass
+x 9
+y 21
+end
+arch house_largish
 x 9
 y 21
 end
@@ -2077,6 +2250,14 @@ arch grass
 x 9
 y 36
 end
+arch rl_house2
+name rich house
+slaying /ElvenLands/Yoer/city/rich2
+hp 16
+sp 25
+x 9
+y 36
+end
 arch grass
 x 9
 y 37
@@ -2152,9 +2333,9 @@ name permanent arpartments
 slaying /ElvenLands/Yoer/city/apartment
 hp 2
 sp 10
-unique 1
 x 10
 y 12
+unique 1
 end
 arch cobblestones2
 x 10
@@ -2217,9 +2398,9 @@ x 10
 y 27
 end
 arch a_guard_l
-speed_left -4.060000
 x 10
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 10
@@ -2230,15 +2411,23 @@ x 10
 y 29
 end
 arch a_guard_l
-speed_left -4.060000
 x 10
 y 29
+speed_left -4.060000
 end
 arch cobblestones2
 x 10
 y 30
 end
 arch grass
+x 10
+y 31
+end
+arch courthouse
+name the Royal Library
+slaying /ElvenLands/Yoer/royal/lib0
+hp 12
+sp 22
 x 10
 y 31
 end
@@ -2376,6 +2565,14 @@ arch grass
 x 11
 y 18
 end
+arch keep
+name Goons for hire!
+slaying /ElvenLands/Yoer/city/merc
+hp 5
+sp 19
+x 11
+y 18
+end
 arch grass
 x 11
 y 19
@@ -2395,6 +2592,15 @@ end
 arch grass
 x 11
 y 23
+end
+arch castle_a
+name castle of challenge
+slaying /ElvenLands/Yoer/city/ordeal
+hp 17
+sp 48
+x 11
+y 23
+speed_left -0.606000
 end
 arch grass
 x 11
@@ -2453,6 +2659,14 @@ x 11
 y 35
 end
 arch grass
+x 11
+y 36
+end
+arch rl_house2
+name rich house
+slaying /ElvenLands/Yoer/city/rich3
+hp 16
+sp 25
 x 11
 y 36
 end
@@ -2526,6 +2740,14 @@ arch grass
 x 12
 y 8
 end
+arch guild
+name the cafe
+slaying /ElvenLands/Yoer/city/cafe
+hp 14
+sp 28
+x 12
+y 8
+end
 arch grass
 x 12
 y 9
@@ -2535,6 +2757,14 @@ x 12
 y 10
 end
 arch grass
+x 12
+y 11
+end
+arch store_alchemy
+name Potion Shop
+slaying /ElvenLands/Yoer/city/potion
+hp 18
+sp 18
 x 12
 y 11
 end
@@ -2551,6 +2781,14 @@ x 12
 y 14
 end
 arch grass
+x 12
+y 15
+end
+arch store_general
+name Pawn Shop
+slaying /ElvenLands/Yoer/city/pawn
+hp 1
+sp 14
 x 12
 y 15
 end
@@ -2607,9 +2845,9 @@ x 12
 y 27
 end
 arch a_guard_m
-speed_left -4.060000
 x 12
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 12
@@ -2620,9 +2858,9 @@ x 12
 y 29
 end
 arch a_guard_m
-speed_left -4.060000
 x 12
 y 29
+speed_left -4.060000
 end
 arch cobblestones2
 x 12
@@ -2766,6 +3004,14 @@ arch grass
 x 13
 y 18
 end
+arch s_tower2
+name Color Tower
+slaying /ElvenLands/Yoer/city/ColorT
+hp 8
+sp 14
+x 13
+y 18
+end
 arch grass
 x 13
 y 19
@@ -2803,9 +3049,9 @@ x 13
 y 27
 end
 arch a_guard_m
-speed_left -4.060000
 x 13
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 13
@@ -2816,9 +3062,9 @@ x 13
 y 29
 end
 arch a_guard_m
-speed_left -4.060000
 x 13
 y 29
+speed_left -4.060000
 end
 arch grass
 x 13
@@ -2853,6 +3099,14 @@ x 13
 y 35
 end
 arch grass
+x 13
+y 36
+end
+arch rl_house2
+name rich house
+slaying /ElvenLands/Yoer/city/rich4
+hp 16
+sp 25
 x 13
 y 36
 end
@@ -2914,6 +3168,14 @@ arch grass
 x 14
 y 8
 end
+arch t_house2
+name special house
+slaying /ElvenLands/Yoer/city/specia
+hp 1
+sp 13
+x 14
+y 8
+end
 arch grass
 x 14
 y 9
@@ -2959,6 +3221,14 @@ x 14
 y 17
 end
 arch grass
+x 14
+y 18
+end
+arch a_civic
+name Heroes of the Elven Lands
+slaying /ElvenLands/Yoer/city/heros
+hp 9
+sp 26
 x 14
 y 18
 end
@@ -3201,11 +3471,19 @@ x 15
 y 26
 end
 arch fountain
-speed_left -33.599998
 x 15
 y 26
+speed_left -33.599998
 end
 arch grass
+x 15
+y 27
+end
+arch palace
+name Royal Palace
+slaying /ElvenLands/Yoer/royal/palace
+hp 20
+sp 69
 x 15
 y 27
 end
@@ -3222,9 +3500,9 @@ x 15
 y 30
 end
 arch fountain
-speed_left -33.599998
 x 15
 y 30
+speed_left -33.599998
 end
 arch grass
 x 15
@@ -3280,6 +3558,11 @@ arch grass
 x 16
 y 1
 end
+arch collesium
+name Yoer Stadium
+x 16
+y 1
+end
 arch grass
 x 16
 y 2
@@ -3320,6 +3603,14 @@ arch grass
 x 16
 y 11
 end
+arch store_armour
+name Armour Shop
+slaying /ElvenLands/Yoer/city/armor
+hp 1
+sp 1
+x 16
+y 11
+end
 arch grass
 x 16
 y 12
@@ -3333,6 +3624,14 @@ x 16
 y 14
 end
 arch grass
+x 16
+y 15
+end
+arch store_magic
+name Magic Shop
+slaying /ElvenLands/Yoer/city/magic
+hp 14
+sp 14
 x 16
 y 15
 end
@@ -3369,18 +3668,18 @@ x 16
 y 23
 end
 arch a_guard_m
-speed_left -4.060000
 x 16
 y 23
+speed_left -4.060000
 end
 arch grass
 x 16
 y 24
 end
 arch a_guard_m
-speed_left -4.060000
 x 16
 y 24
+speed_left -4.060000
 end
 arch grass
 x 16
@@ -3423,18 +3722,18 @@ x 16
 y 32
 end
 arch a_guard_m
-speed_left -4.060000
 x 16
 y 32
+speed_left -4.060000
 end
 arch grass
 x 16
 y 33
 end
 arch a_guard_m
-speed_left -4.060000
 x 16
 y 33
+speed_left -4.060000
 end
 arch grass
 x 16
@@ -3745,6 +4044,14 @@ arch grass
 x 18
 y 18
 end
+arch rl_house1
+name house of healing
+slaying /ElvenLands/Yoer/city/heal
+hp 8
+sp 14
+x 18
+y 18
+end
 arch grass
 x 18
 y 19
@@ -3766,18 +4073,18 @@ x 18
 y 23
 end
 arch a_guard_m
-speed_left -4.060000
 x 18
 y 23
+speed_left -4.060000
 end
 arch grass
 x 18
 y 24
 end
 arch a_guard_m
-speed_left -4.060000
 x 18
 y 24
+speed_left -4.060000
 end
 arch grass
 x 18
@@ -3820,18 +4127,18 @@ x 18
 y 32
 end
 arch a_guard_m
-speed_left -4.060000
 x 18
 y 32
+speed_left -4.060000
 end
 arch grass
 x 18
 y 33
 end
 arch a_guard_m
-speed_left -4.060000
 x 18
 y 33
+speed_left -4.060000
 end
 arch cobblestones2
 x 18
@@ -3996,9 +4303,9 @@ x 19
 y 26
 end
 arch fountain
-speed_left -33.599998
 x 19
 y 26
+speed_left -33.599998
 end
 arch grass
 x 19
@@ -4017,9 +4324,9 @@ x 19
 y 30
 end
 arch fountain
-speed_left -33.599998
 x 19
 y 30
+speed_left -33.599998
 end
 arch grass
 x 19
@@ -4155,6 +4462,14 @@ arch grass
 x 20
 y 11
 end
+arch store_weapons
+name Weapon Shop
+slaying /ElvenLands/Yoer/city/weapon
+hp 2
+sp 2
+x 20
+y 11
+end
 arch grass
 x 20
 y 12
@@ -4171,6 +4486,14 @@ arch grass
 x 20
 y 15
 end
+arch store_general
+name Food shop
+slaying /ElvenLands/Yoer/city/food
+hp 14
+sp 14
+x 20
+y 15
+end
 arch grass
 x 20
 y 16
@@ -4180,6 +4503,14 @@ x 20
 y 17
 end
 arch grass
+x 20
+y 18
+end
+arch l_shop1
+name key sale
+slaying /ElvenLands/Yoer/city/key
+hp 15
+sp 7
 x 20
 y 18
 end
@@ -4305,6 +4636,10 @@ arch grass
 x 20
 y 37
 end
+arch barn
+x 20
+y 37
+end
 arch grass
 x 20
 y 38
@@ -4360,6 +4695,14 @@ x 21
 y 7
 end
 arch grass
+x 21
+y 8
+end
+arch t_house1
+name Bank of Yoer
+slaying /ElvenLands/Yoer/city/bank
+hp 8
+sp 14
 x 21
 y 8
 end
@@ -4440,9 +4783,9 @@ x 21
 y 27
 end
 arch a_guard_m
-speed_left -4.060000
 x 21
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 21
@@ -4453,9 +4796,9 @@ x 21
 y 29
 end
 arch a_guard_m
-speed_left -4.060000
 x 21
 y 29
+speed_left -4.060000
 end
 arch grass
 x 21
@@ -4486,10 +4829,10 @@ msg
 @match work
 Open the gate for the worker
 endmsg
-resist_physical 30
-connected 1
 x 21
 y 35
+resist_physical 30
+connected 1
 end
 arch market2
 slaying /ElvenLands/Yoer/city/BShop
@@ -4506,10 +4849,10 @@ x 21
 y 36
 end
 arch ggate_closed
-resist_physical 30
-connected 1
 x 21
 y 36
+resist_physical 30
+connected 1
 end
 arch grass
 x 21
@@ -4658,9 +5001,9 @@ x 22
 y 27
 end
 arch a_guard_m
-speed_left -4.060000
 x 22
 y 27
+speed_left -4.060000
 end
 arch cobblestones2
 x 22
@@ -4671,9 +5014,9 @@ x 22
 y 29
 end
 arch a_guard_m
-speed_left -4.060000
 x 22
 y 29
+speed_left -4.060000
 end
 arch grass
 x 22
@@ -4684,6 +5027,10 @@ x 22
 y 31
 end
 arch grass
+x 22
+y 32
+end
+arch guild
 x 22
 y 32
 end
@@ -4704,10 +5051,10 @@ msg
 @match more work
 more work?!
 endmsg
-resist_magic 30
-connected 2
 x 22
 y 35
+resist_magic 30
+connected 2
 end
 arch market2
 slaying /ElvenLands/Yoer/city/BShop
@@ -4724,16 +5071,20 @@ x 22
 y 36
 end
 arch ggate_closed
-resist_magic 30
-connected 2
 x 22
 y 36
+resist_magic 30
+connected 2
 end
 arch grass
 x 22
 y 37
 end
 arch dirtroad_3_1
+x 22
+y 37
+end
+arch barn
 x 22
 y 37
 end
@@ -4768,10 +5119,10 @@ x 23
 y 1
 end
 arch well
+slaying /ElvenLands/Yoer/city/ter_1
 msg
 You fall into the well! Splash
 endmsg
-slaying /ElvenLands/Yoer/city/ter_1
 hp 9
 sp 7
 x 23
@@ -4782,17 +5133,25 @@ x 23
 y 2
 end
 arch sign
-x 23
-y 2
 msg
 Do not go down well, extremely dangerous!
 endmsg
+x 23
+y 2
 end
 arch grass
 x 23
 y 3
 end
 arch grass
+x 23
+y 4
+end
+arch s_tower1
+name White Tower
+slaying /ElvenLands/Yoer/city/white1
+hp 7
+sp 14
 x 23
 y 4
 end
@@ -4832,6 +5191,13 @@ arch grass
 x 23
 y 12
 end
+arch inn
+slaying /ElvenLands/Yoer/city/inn
+hp 7
+sp 14
+x 23
+y 12
+end
 arch cobblestones2
 x 23
 y 13
@@ -4841,6 +5207,14 @@ x 23
 y 14
 end
 arch grass
+x 23
+y 15
+end
+arch guild
+name guild of heroes
+slaying /ElvenLands/Yoer/city/guild
+hp 6
+sp 6
 x 23
 y 15
 end
@@ -4984,6 +5358,14 @@ arch grass
 x 24
 y 1
 end
+arch prison
+name the prison
+slaying /ElvenLands/Yoer/city/prison
+hp 10
+sp 38
+x 24
+y 1
+end
 arch grass
 x 24
 y 2
@@ -5057,54 +5439,54 @@ x 24
 y 19
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 19
+speed_left -4.060000
 end
 arch grass
 x 24
 y 20
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 20
+speed_left -4.060000
 end
 arch grass
 x 24
 y 21
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 21
+speed_left -4.060000
 end
 arch grass
 x 24
 y 22
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 22
+speed_left -4.060000
 end
 arch grass
 x 24
 y 23
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 23
+speed_left -4.060000
 end
 arch grass
 x 24
 y 24
 end
 arch a_guard_l
-speed_left -4.060000
 x 24
 y 24
+speed_left -4.060000
 end
 arch grass
 x 24
@@ -5132,6 +5514,7 @@ y 29
 end
 arch minihouse
 name elf house
+slaying /!
 msg
 layoutstyle onion
 floorstyle indoor
@@ -5144,7 +5527,6 @@ difficulty 1
 dungeon_depth 1
 orientation 1
 endmsg
-slaying /!
 x 24
 y 29
 end
@@ -5154,6 +5536,7 @@ y 30
 end
 arch minihouse
 name dwarf house
+slaying /!
 msg
 layoutstyle onion
 floorstyle indoor
@@ -5166,7 +5549,6 @@ difficulty 6
 dungeon_depth 1
 orientation 1
 endmsg
-slaying /!
 x 24
 y 30
 end
@@ -5297,6 +5679,14 @@ x 25
 y 10
 end
 arch grass
+x 25
+y 11
+end
+arch house_up
+name newbie house
+slaying /ElvenLands/Yoer/newbie/Tow1
+hp 13
+sp 28
 x 25
 y 11
 end
@@ -5772,6 +6162,10 @@ arch cobblestones2
 x 27
 y 4
 end
+arch barn
+x 27
+y 4
+end
 arch cobblestones2
 x 27
 y 5
@@ -5781,6 +6175,10 @@ x 27
 y 6
 end
 arch cobblestones2
+x 27
+y 7
+end
+arch barn
 x 27
 y 7
 end
@@ -5840,6 +6238,10 @@ arch cobblestones2
 x 27
 y 17
 end
+arch barn
+x 27
+y 17
+end
 arch cobblestones2
 x 27
 y 18
@@ -5849,6 +6251,10 @@ x 27
 y 19
 end
 arch cobblestones2
+x 27
+y 20
+end
+arch barn
 x 27
 y 20
 end
@@ -5864,6 +6270,10 @@ arch cobblestones2
 x 27
 y 23
 end
+arch barn
+x 27
+y 23
+end
 arch cobblestones2
 x 27
 y 24
@@ -5873,6 +6283,10 @@ x 27
 y 25
 end
 arch cobblestones2
+x 27
+y 26
+end
+arch barn
 x 27
 y 26
 end
@@ -6091,6 +6505,10 @@ x 28
 y 34
 end
 arch cobblestones2
+x 28
+y 35
+end
+arch guild
 x 28
 y 35
 end
@@ -6332,6 +6750,11 @@ arch cobblestones2
 x 30
 y 4
 end
+arch barn
+slaying /Broken house
+x 30
+y 4
+end
 arch cobblestones2
 x 30
 y 5
@@ -6341,6 +6764,10 @@ x 30
 y 6
 end
 arch cobblestones2
+x 30
+y 7
+end
+arch barn
 x 30
 y 7
 end
@@ -6392,6 +6819,11 @@ arch cobblestones2
 x 30
 y 17
 end
+arch barn
+name Store rooms
+x 30
+y 17
+end
 arch cobblestones2
 x 30
 y 18
@@ -6401,6 +6833,10 @@ x 30
 y 19
 end
 arch cobblestones2
+x 30
+y 20
+end
+arch barn
 x 30
 y 20
 end
@@ -6416,6 +6852,10 @@ arch cobblestones2
 x 30
 y 23
 end
+arch barn
+x 30
+y 23
+end
 arch cobblestones2
 x 30
 y 24
@@ -6425,6 +6865,10 @@ x 30
 y 25
 end
 arch cobblestones2
+x 30
+y 26
+end
+arch barn
 x 30
 y 26
 end
@@ -7424,6 +7868,11 @@ arch grass
 x 35
 y 32
 end
+arch store_general
+name Todd's fish and bread
+x 35
+y 32
+end
 arch grass
 x 35
 y 33
@@ -7475,6 +7924,10 @@ arch sea1
 x 36
 y 5
 end
+arch s_ship
+x 36
+y 5
+end
 arch sea1
 x 36
 y 6
@@ -7491,6 +7944,10 @@ arch sea1
 x 36
 y 8
 end
+arch s_ship
+x 36
+y 8
+end
 arch sea1
 x 36
 y 9
@@ -7500,6 +7957,14 @@ x 36
 y 10
 end
 arch sea1
+x 36
+y 11
+end
+arch s_ship
+name Ship to Archam
+slaying /ElvenLands/archem/town
+hp 6
+sp 7
 x 36
 y 11
 end
@@ -7519,6 +7984,14 @@ arch sea1
 x 36
 y 14
 end
+arch s_ship
+name Ship to Scorn
+slaying /world/world_104_115
+hp 43
+sp 19
+x 36
+y 14
+end
 arch sea1
 x 36
 y 15
@@ -7528,6 +8001,10 @@ x 36
 y 16
 end
 arch sea1
+x 36
+y 17
+end
+arch s_ship
 x 36
 y 17
 end
@@ -7547,6 +8024,10 @@ arch sea1
 x 36
 y 20
 end
+arch s_ship
+x 36
+y 20
+end
 arch sea1
 x 36
 y 21
@@ -7556,6 +8037,10 @@ x 36
 y 22
 end
 arch sea1
+x 36
+y 23
+end
+arch s_ship
 x 36
 y 23
 end
@@ -7588,6 +8073,13 @@ x 36
 y 29
 end
 arch sea1
+x 36
+y 30
+end
+arch fishboat
+name Todd's boat to FireBorn city(closed)
+hp 9
+sp 32
 x 36
 y 30
 end
@@ -7810,6 +8302,14 @@ arch mountain
 x 38
 end
 arch cobblestones2
+x 38
+y 1
+end
+arch city_tower
+name the lighthouse
+slaying /ElvenLands/Yoer/city/light1
+hp 5
+sp 1
 x 38
 y 1
 end
@@ -9791,6 +10291,11 @@ arch sea1
 x 48
 y 18
 end
+arch s_ship
+x 48
+y 18
+alive 1
+end
 arch director_1
 x 48
 y 19
@@ -9818,6 +10323,10 @@ x 48
 y 22
 end
 arch sea
+x 48
+y 23
+end
+arch s_ship
 x 48
 y 23
 end
@@ -10217,512 +10726,4 @@ end
 arch sea1
 x 49
 y 39
-end
-arch barrack_up
-x 1
-y 7
-end
-arch barrack_up
-x 1
-y 9
-end
-arch barrack_long
-x 1
-y 11
-end
-arch barrack_long
-x 1
-y 12
-end
-arch barrack_up
-x 2
-y 7
-end
-arch barrack_up
-x 2
-y 9
-end
-arch rl_house3
-name house next to jungle
-slaying /ElvenLands/Yoer/city/Jhome
-hp 6
-sp 25
-x 2
-y 15
-end
-arch house_largish
-x 2
-y 19
-end
-arch house_largish
-x 2
-y 21
-end
-arch barn
-name warehouse
-slaying /ElvenLands/Yoer/Crim/Dwarf
-hp 19
-sp 30
-x 2
-y 37
-end
-arch barrack_up
-x 3
-y 7
-end
-arch barrack_up
-x 3
-y 9
-end
-arch barrack_long
-x 3
-y 11
-end
-arch barrack_long
-x 3
-y 12
-end
-arch university
-x 4
-y 1
-end
-arch barrack_up
-x 4
-y 7
-end
-arch barrack_up
-x 4
-y 9
-end
-arch house_largish
-x 4
-y 19
-end
-arch house_largish
-x 4
-y 21
-end
-arch barrack_up
-x 5
-y 7
-end
-arch barrack_up
-x 5
-y 9
-end
-arch cathedral
-name high temple
-slaying /ElvenLands/Yoer/royal/temple
-hp 9
-sp 30
-no_pass 0
-pass_thru 1
-x 5
-y 25
-end
-arch slum1
-name training
-x 7
-y 9
-end
-arch house_up
-x 7
-y 11
-end
-arch house_largish
-x 7
-y 15
-end
-arch house_largish
-x 7
-y 17
-end
-arch house_largish
-x 7
-y 19
-end
-arch house_largish
-x 7
-y 21
-end
-arch rl_house2
-name rich house
-slaying /ElvenLands/Yoer/city/rich1
-hp 16
-sp 25
-x 7
-y 36
-end
-arch slum3
-name training
-x 8
-y 9
-end
-arch house_up
-x 8
-y 11
-end
-arch house_long
-x 9
-y 9
-end
-arch house_long
-x 9
-y 10
-end
-arch house_long
-x 9
-y 11
-end
-arch house_largish
-x 9
-y 15
-end
-arch house_largish
-x 9
-y 17
-end
-arch house_largish
-x 9
-y 19
-end
-arch house_largish
-x 9
-y 21
-end
-arch rl_house2
-name rich house
-slaying /ElvenLands/Yoer/city/rich2
-hp 16
-sp 25
-x 9
-y 36
-end
-arch courthouse
-name the Royal Library
-slaying /ElvenLands/Yoer/royal/lib0
-hp 12
-sp 22
-x 10
-y 31
-end
-arch keep
-name Goons for hire!
-slaying /ElvenLands/Yoer/city/merc
-hp 5
-sp 19
-x 11
-y 18
-end
-arch castle_a
-name castle of challenge
-slaying /ElvenLands/Yoer/city/ordeal
-hp 17
-sp 48
-speed_left -0.606000
-x 11
-y 23
-end
-arch rl_house2
-name rich house
-slaying /ElvenLands/Yoer/city/rich3
-hp 16
-sp 25
-x 11
-y 36
-end
-arch guild
-name the cafe
-slaying /ElvenLands/Yoer/city/cafe
-hp 14
-sp 28
-x 12
-y 8
-end
-arch store_alchemy
-name Potion Shop
-slaying /ElvenLands/Yoer/city/potion
-hp 18
-sp 18
-x 12
-y 11
-end
-arch store_general
-name Pawn Shop
-slaying /ElvenLands/Yoer/city/pawn
-hp 1
-sp 14
-x 12
-y 15
-end
-arch s_tower2
-name Color Tower
-slaying /ElvenLands/Yoer/city/ColorT
-hp 8
-sp 14
-x 13
-y 18
-end
-arch rl_house2
-name rich house
-slaying /ElvenLands/Yoer/city/rich4
-hp 16
-sp 25
-x 13
-y 36
-end
-arch t_house2
-name special house
-slaying /ElvenLands/Yoer/city/specia
-hp 1
-sp 13
-x 14
-y 8
-end
-arch a_civic
-name Heroes of the Elven Lands
-slaying /ElvenLands/Yoer/city/heros
-hp 9
-sp 26
-x 14
-y 18
-end
-arch palace
-name Royal Palace
-slaying /ElvenLands/Yoer/royal/palace
-hp 20
-sp 69
-x 15
-y 27
-end
-arch collesium
-name Yoer Stadium
-x 16
-y 1
-end
-arch store_armour
-name Armour Shop
-slaying /ElvenLands/Yoer/city/armor
-hp 1
-sp 1
-x 16
-y 11
-end
-arch store_magic
-name Magic Shop
-slaying /ElvenLands/Yoer/city/magic
-hp 14
-sp 14
-x 16
-y 15
-end
-arch rl_house1
-name house of healing
-slaying /ElvenLands/Yoer/city/heal
-hp 8
-sp 14
-x 18
-y 18
-end
-arch store_weapons
-name Weapon Shop
-slaying /ElvenLands/Yoer/city/weapon
-hp 2
-sp 2
-x 20
-y 11
-end
-arch store_general
-name Food shop
-slaying /ElvenLands/Yoer/city/food
-hp 14
-sp 14
-x 20
-y 15
-end
-arch l_shop1
-name key sale
-slaying /ElvenLands/Yoer/city/key
-hp 15
-sp 7
-x 20
-y 18
-end
-arch barn
-x 20
-y 37
-end
-arch t_house1
-name Bank of Yoer
-slaying /ElvenLands/Yoer/city/bank
-hp 8
-sp 14
-x 21
-y 8
-end
-arch guild
-x 22
-y 32
-end
-arch barn
-x 22
-y 37
-end
-arch s_tower1
-name White Tower
-slaying /ElvenLands/Yoer/city/white1
-hp 7
-sp 14
-x 23
-y 4
-end
-arch inn
-slaying /ElvenLands/Yoer/city/inn
-hp 7
-sp 14
-x 23
-y 12
-end
-arch guild
-name guild of heroes
-slaying /ElvenLands/Yoer/city/guild
-hp 6
-sp 6
-x 23
-y 15
-end
-arch prison
-name the prison
-slaying /ElvenLands/Yoer/city/prison
-hp 10
-sp 38
-x 24
-y 1
-end
-arch house_up
-name newbie house
-slaying /ElvenLands/Yoer/newbie/Tow1
-hp 13
-sp 28
-x 25
-y 11
-end
-arch barn
-x 27
-y 4
-end
-arch barn
-x 27
-y 7
-end
-arch barn
-x 27
-y 17
-end
-arch barn
-x 27
-y 20
-end
-arch barn
-x 27
-y 23
-end
-arch barn
-x 27
-y 26
-end
-arch guild
-x 28
-y 35
-end
-arch barn
-slaying /Broken house
-x 30
-y 4
-end
-arch barn
-x 30
-y 7
-end
-arch barn
-name Store rooms
-x 30
-y 17
-end
-arch barn
-x 30
-y 20
-end
-arch barn
-x 30
-y 23
-end
-arch barn
-x 30
-y 26
-end
-arch store_general
-name Todd's fish and bread
-x 35
-y 32
-end
-arch s_ship
-x 36
-y 5
-end
-arch s_ship
-x 36
-y 8
-end
-arch s_ship
-name Ship to Archam
-slaying /ElvenLands/archem/town
-hp 6
-sp 7
-x 36
-y 11
-end
-arch s_ship
-name Ship to Scorn
-slaying /world/world_104_115
-hp 43
-sp 19
-x 36
-y 14
-end
-arch s_ship
-x 36
-y 17
-end
-arch s_ship
-x 36
-y 20
-end
-arch s_ship
-x 36
-y 23
-end
-arch fishboat
-name Todd's boat to FireBorn city(closed)
-hp 9
-sp 32
-x 36
-y 30
-end
-arch city_tower
-name the lighthouse
-slaying /ElvenLands/Yoer/city/light1
-hp 5
-sp 1
-x 38
-y 1
-end
-arch s_ship
-alive 1
-x 48
-y 18
-end
-arch s_ship
-x 48
-y 23
 end

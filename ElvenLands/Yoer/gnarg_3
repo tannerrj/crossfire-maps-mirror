@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 27
 height 27
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch medium_stones
 end
@@ -258,6 +260,19 @@ y 10
 connected 1
 end
 arch temp_fog
+x 1
+y 10
+end
+arch troll
+name Avatar of Gnarg
+Dex 23
+Con 15
+hp 10000
+maxhp 10000
+exp 15000
+dam 30
+wc -10
+ac -10
 x 1
 y 10
 end
@@ -3349,6 +3364,19 @@ arch temp_fog
 x 24
 y 10
 end
+arch troll
+name Avatar of Gnarg
+Dex 23
+Con 18
+hp 10000
+maxhp 10000
+exp 15000
+dam 30
+wc -10
+ac -10
+x 24
+y 10
+end
 arch marble
 x 24
 y 11
@@ -3844,30 +3872,4 @@ end
 arch flagstone_2_2_4
 x 26
 y 26
-end
-arch troll
-name Avatar of Gnarg
-Dex 23
-Con 15
-hp 10000
-maxhp 10000
-exp 15000
-dam 30
-wc -10
-ac -10
-x 1
-y 10
-end
-arch troll
-name Avatar of Gnarg
-Dex 23
-Con 18
-hp 10000
-maxhp 10000
-exp 15000
-dam 30
-wc -10
-ac -10
-x 24
-y 10
 end

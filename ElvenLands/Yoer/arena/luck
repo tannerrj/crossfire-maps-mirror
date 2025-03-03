@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-12-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 30
 height 26
+msg
+Created:  2000-12-20 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -214,6 +216,10 @@ arch woodfloor
 x 1
 y 5
 end
+arch chinese_dragon
+x 1
+y 5
+end
 arch woodfloor
 x 1
 y 6
@@ -227,6 +233,10 @@ x 1
 y 7
 end
 arch woodfloor
+x 1
+y 8
+end
+arch chinese_dragon
 x 1
 y 8
 end
@@ -255,6 +265,10 @@ x 1
 y 13
 end
 arch woodfloor
+x 1
+y 14
+end
+arch troll
 x 1
 y 14
 end
@@ -317,9 +331,9 @@ This ring was enchanted to the earth.
 endmsg
 Str 1
 dam 2
-armour 5
 x 1
 y 19
+armour 5
 end
 arch woodfloor
 x 1
@@ -424,6 +438,10 @@ x 2
 y 11
 end
 arch woodfloor
+x 2
+y 12
+end
+arch titan
 x 2
 y 12
 end
@@ -541,6 +559,10 @@ arch woodfloor
 x 3
 y 5
 end
+arch chinese_dragon
+x 3
+y 5
+end
 arch woodfloor
 x 3
 y 6
@@ -590,6 +612,10 @@ x 3
 y 13
 end
 arch woodfloor
+x 3
+y 14
+end
+arch troll
 x 3
 y 14
 end
@@ -1309,6 +1335,10 @@ arch woodfloor
 x 7
 y 17
 end
+arch giant
+x 7
+y 17
+end
 arch woodfloor
 x 7
 y 18
@@ -1483,6 +1513,10 @@ arch woodfloor
 x 8
 y 17
 end
+arch giant
+x 8
+y 17
+end
 arch woodfloor
 x 8
 y 18
@@ -1580,8 +1614,8 @@ end
 arch spikes_closed
 x 9
 y 8
-protected 10
 connected 10
+protected 10
 end
 arch woodfloor
 x 9
@@ -1614,8 +1648,8 @@ end
 arch spikes_closed
 x 9
 y 12
-protected 40
 connected 40
+protected 40
 end
 arch woodfloor
 x 9
@@ -1650,6 +1684,10 @@ x 9
 y 16
 end
 arch woodfloor
+x 9
+y 17
+end
+arch giant
 x 9
 y 17
 end
@@ -1943,8 +1981,8 @@ slaying gem
 food 100
 x 11
 y 9
-protected 2
 connected 2
+protected 2
 end
 arch woodfloor
 x 11
@@ -1960,8 +1998,8 @@ slaying gem
 food 100
 x 11
 y 11
-protected 1
 connected 1
+protected 1
 end
 arch woodfloor
 x 11
@@ -2278,8 +2316,8 @@ end
 arch spikes_closed
 x 13
 y 8
-protected 20
 connected 20
+protected 20
 end
 arch woodfloor
 x 13
@@ -2312,8 +2350,8 @@ end
 arch spikes_closed
 x 13
 y 12
-protected 30
 connected 30
+protected 30
 end
 arch woodfloor
 x 13
@@ -3141,6 +3179,10 @@ arch woodfloor
 x 18
 y 5
 end
+arch big_elec
+x 18
+y 5
+end
 arch woodfloor
 x 18
 y 6
@@ -3359,6 +3401,10 @@ arch woodfloor
 x 19
 y 13
 end
+arch big_dragon
+x 19
+y 13
+end
 arch woodfloor
 x 19
 y 14
@@ -3486,6 +3532,10 @@ x 20
 y 6
 end
 arch woodfloor
+x 20
+y 7
+end
+arch big_elec
 x 20
 y 7
 end
@@ -4115,8 +4165,8 @@ end
 arch button_plate
 x 24
 y 3
-protected 10
 connected 10
+protected 10
 end
 arch blocked
 x 24
@@ -4125,8 +4175,8 @@ end
 arch button_plate
 x 24
 y 5
-protected 30
 connected 30
+protected 30
 end
 arch blocked
 x 24
@@ -4135,8 +4185,8 @@ end
 arch button_plate
 x 24
 y 7
-protected 10
 connected 10
+protected 10
 end
 arch blocked
 x 24
@@ -4145,8 +4195,8 @@ end
 arch button_plate
 x 24
 y 9
-protected 30
 connected 30
+protected 30
 end
 arch blocked
 x 24
@@ -4230,8 +4280,8 @@ end
 arch spikes_open
 x 25
 y 4
-protected 1
 connected 1
+protected 1
 end
 arch blocked
 x 25
@@ -4248,8 +4298,8 @@ end
 arch spikes_open
 x 25
 y 8
-protected 2
 connected 2
+protected 2
 end
 arch blocked
 x 25
@@ -4333,38 +4383,38 @@ end
 arch button_plate
 x 26
 y 3
-protected 20
 connected 20
-end
-arch blocked
-x 26
-y 4
-end
-arch button_plate
-x 26
-y 5
-protected 40
-connected 40
-end
-arch blocked
-x 26
-y 6
-end
-arch button_plate
-x 26
-y 7
 protected 20
-connected 20
 end
 arch blocked
 x 26
-y 8
+y 4
 end
 arch button_plate
 x 26
-y 9
-protected 40
+y 5
 connected 40
+protected 40
+end
+arch blocked
+x 26
+y 6
+end
+arch button_plate
+x 26
+y 7
+connected 20
+protected 20
+end
+arch blocked
+x 26
+y 8
+end
+arch button_plate
+x 26
+y 9
+connected 40
+protected 40
 end
 arch blocked
 x 26
@@ -4738,52 +4788,4 @@ end
 arch blocked
 x 29
 y 25
-end
-arch chinese_dragon
-x 1
-y 5
-end
-arch chinese_dragon
-x 1
-y 8
-end
-arch troll
-x 1
-y 14
-end
-arch titan
-x 2
-y 12
-end
-arch chinese_dragon
-x 3
-y 5
-end
-arch troll
-x 3
-y 14
-end
-arch giant
-x 7
-y 17
-end
-arch giant
-x 8
-y 17
-end
-arch giant
-x 9
-y 17
-end
-arch big_elec
-x 18
-y 5
-end
-arch big_dragon
-x 19
-y 13
-end
-arch big_elec
-x 20
-y 7
 end

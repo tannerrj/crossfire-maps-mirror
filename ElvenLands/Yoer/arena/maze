@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-08-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 90
 height 90
+msg
+Created:  1999-08-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -1891,6 +1893,14 @@ x 3
 y 61
 end
 arch dungeon_floor
+x 3
+y 62
+end
+arch behemoth
+name the Great Behemoth
+hp 14464
+maxhp 10000
+dam 30
 x 3
 y 62
 end
@@ -6088,6 +6098,10 @@ arch dungeon_floor
 x 12
 y 84
 end
+arch gaelotroll
+x 12
+y 84
+end
 arch dungeon_floor
 x 12
 y 85
@@ -6475,6 +6489,10 @@ x 13
 y 76
 end
 arch dungeon_floor
+x 13
+y 77
+end
+arch troll
 x 13
 y 77
 end
@@ -6949,6 +6967,10 @@ x 14
 y 79
 end
 arch dungeon_floor
+x 14
+y 80
+end
+arch troll
 x 14
 y 80
 end
@@ -7440,6 +7462,10 @@ x 15
 y 83
 end
 arch dungeon_floor
+x 15
+y 84
+end
+arch gaelotroll
 x 15
 y 84
 end
@@ -8384,6 +8410,10 @@ arch dungeon_floor
 x 17
 y 77
 end
+arch troll
+x 17
+y 77
+end
 arch dungeon_floor
 x 17
 y 78
@@ -8401,6 +8431,10 @@ x 17
 y 81
 end
 arch dungeon_floor
+x 17
+y 82
+end
+arch troll
 x 17
 y 82
 end
@@ -8883,6 +8917,10 @@ arch dungeon_floor
 x 18
 y 80
 end
+arch troll
+x 18
+y 80
+end
 arch dungeon_floor
 x 18
 y 81
@@ -9320,6 +9358,10 @@ arch random_gem
 x 19
 y 63
 end
+arch troll
+x 19
+y 63
+end
 arch dungeon_floor
 x 19
 y 64
@@ -9714,6 +9756,10 @@ arch random_scroll
 x 20
 y 49
 end
+arch troll
+x 20
+y 49
+end
 arch dungeon_floor
 x 20
 y 50
@@ -9735,6 +9781,10 @@ x 20
 y 52
 end
 arch random_potion
+x 20
+y 52
+end
+arch ent
 x 20
 y 52
 end
@@ -9908,6 +9958,10 @@ arch dungeon_floor
 x 20
 y 77
 end
+arch troll
+x 20
+y 77
+end
 arch dungeon_floor
 x 20
 y 78
@@ -9933,6 +9987,10 @@ x 20
 y 83
 end
 arch dungeon_floor
+x 20
+y 84
+end
+arch gaelotroll
 x 20
 y 84
 end
@@ -10171,6 +10229,10 @@ x 21
 y 42
 end
 arch dungeon_floor
+x 21
+y 43
+end
+arch slug
 x 21
 y 43
 end
@@ -10455,6 +10517,10 @@ x 21
 y 79
 end
 arch dungeon_floor
+x 21
+y 80
+end
+arch troll
 x 21
 y 80
 end
@@ -10967,6 +11033,10 @@ arch dungeon_floor
 x 22
 y 77
 end
+arch troll
+x 22
+y 77
+end
 arch dungeon_floor
 x 22
 y 78
@@ -10984,6 +11054,10 @@ x 22
 y 81
 end
 arch dungeon_floor
+x 22
+y 82
+end
+arch troll
 x 22
 y 82
 end
@@ -11229,6 +11303,10 @@ arch dungeon_floor
 x 23
 y 43
 end
+arch slug
+x 23
+y 43
+end
 arch dungeon_floor
 x 23
 y 44
@@ -11374,6 +11452,10 @@ x 23
 y 63
 end
 arch random_gem
+x 23
+y 63
+end
+arch troll
 x 23
 y 63
 end
@@ -11961,6 +12043,10 @@ arch dungeon_floor
 x 24
 y 80
 end
+arch troll
+x 24
+y 80
+end
 arch dungeon_floor
 x 24
 y 81
@@ -11974,6 +12060,10 @@ x 24
 y 83
 end
 arch dungeon_floor
+x 24
+y 84
+end
+arch gaelotroll
 x 24
 y 84
 end
@@ -12212,6 +12302,10 @@ x 25
 y 42
 end
 arch dungeon_floor
+x 25
+y 43
+end
+arch slug
 x 25
 y 43
 end
@@ -16401,6 +16495,10 @@ arch dungeon_floor
 x 33
 y 39
 end
+arch dread
+x 33
+y 39
+end
 arch dungeon_floor
 x 33
 y 40
@@ -17384,6 +17482,19 @@ end
 arch mover_5
 x 35
 y 29
+end
+arch big_dragon
+hp 1
+maxhp 1
+sp 10
+maxsp 20
+exp 1000
+dam 1
+wc 10
+ac 10
+x 35
+y 29
+can_cast_spell 0
 end
 arch dungeon_floor
 x 35
@@ -23279,6 +23390,10 @@ arch dungeon_floor
 x 45
 y 37
 end
+arch big_elec
+x 45
+y 37
+end
 arch dungeon_floor
 x 45
 y 38
@@ -23288,6 +23403,10 @@ x 45
 y 39
 end
 arch dungeon_floor
+x 45
+y 40
+end
+arch big_elec
 x 45
 y 40
 end
@@ -23303,6 +23422,10 @@ arch dungeon_floor
 x 45
 y 43
 end
+arch big_elec
+x 45
+y 43
+end
 arch dungeon_floor
 x 45
 y 44
@@ -23312,6 +23435,10 @@ x 45
 y 45
 end
 arch dungeon_floor
+x 45
+y 46
+end
+arch big_elec
 x 45
 y 46
 end
@@ -24295,6 +24422,10 @@ arch dungeon_floor
 x 47
 y 37
 end
+arch big_elec
+x 47
+y 37
+end
 arch dungeon_floor
 x 47
 y 38
@@ -24304,6 +24435,10 @@ x 47
 y 39
 end
 arch dungeon_floor
+x 47
+y 40
+end
+arch big_elec
 x 47
 y 40
 end
@@ -24319,6 +24454,10 @@ arch dungeon_floor
 x 47
 y 43
 end
+arch big_elec
+x 47
+y 43
+end
 arch dungeon_floor
 x 47
 y 44
@@ -24328,6 +24467,10 @@ x 47
 y 45
 end
 arch dungeon_floor
+x 47
+y 46
+end
+arch big_elec
 x 47
 y 46
 end
@@ -26237,6 +26380,10 @@ arch dungeon_floor
 x 51
 y 14
 end
+arch DK
+x 51
+y 14
+end
 arch dungeon_floor
 x 51
 y 15
@@ -26254,6 +26401,10 @@ x 51
 y 18
 end
 arch dungeon_floor
+x 51
+y 19
+end
+arch DK
 x 51
 y 19
 end
@@ -26975,6 +27126,10 @@ arch dungeon_floor
 x 52
 y 43
 end
+arch baslic
+x 52
+y 43
+end
 arch dungeon_floor
 x 52
 y 44
@@ -27406,6 +27561,10 @@ x 53
 y 46
 end
 arch dungeon_floor
+x 53
+y 47
+end
+arch baslic
 x 53
 y 47
 end
@@ -29955,6 +30114,10 @@ arch dungeon_floor
 x 58
 y 43
 end
+arch baslic
+x 58
+y 43
+end
 arch dungeon_floor
 x 58
 y 44
@@ -29964,6 +30127,10 @@ x 58
 y 45
 end
 arch dungeon_floor
+x 58
+y 46
+end
+arch baslic
 x 58
 y 46
 end
@@ -30820,6 +30987,10 @@ x 60
 y 14
 end
 arch dungeon_floor
+x 60
+y 15
+end
+arch DK
 x 60
 y 15
 end
@@ -33013,6 +33184,10 @@ arch dungeon_floor
 x 64
 y 42
 end
+arch baslic
+x 64
+y 42
+end
 arch dungeon_floor
 x 64
 y 43
@@ -33022,6 +33197,10 @@ x 64
 y 44
 end
 arch dungeon_floor
+x 64
+y 45
+end
+arch baslic
 x 64
 y 45
 end
@@ -33866,6 +34045,10 @@ x 66
 y 13
 end
 arch dungeon_floor
+x 66
+y 14
+end
+arch DK
 x 66
 y 14
 end
@@ -35567,6 +35750,10 @@ arch dungeon_floor
 x 69
 y 42
 end
+arch baslic
+x 69
+y 42
+end
 arch dungeon_floor
 x 69
 y 43
@@ -35584,6 +35771,10 @@ x 69
 y 46
 end
 arch dungeon_floor
+x 69
+y 47
+end
+arch baslic
 x 69
 y 47
 end
@@ -36464,6 +36655,10 @@ x 71
 y 18
 end
 arch dungeon_floor
+x 71
+y 19
+end
+arch DK
 x 71
 y 19
 end
@@ -37607,6 +37802,10 @@ arch dungeon_floor
 x 73
 y 46
 end
+arch baslic
+x 73
+y 46
+end
 arch dungeon_floor
 x 73
 y 47
@@ -38066,6 +38265,10 @@ x 74
 y 41
 end
 arch dungeon_floor
+x 74
+y 42
+end
+arch baslic
 x 74
 y 42
 end
@@ -38917,6 +39120,10 @@ arch dungeon_floor
 x 76
 y 16
 end
+arch DK
+x 76
+y 16
+end
 arch dungeon_floor
 x 76
 y 17
@@ -40006,6 +40213,10 @@ x 78
 y 43
 end
 arch dungeon_floor
+x 78
+y 44
+end
+arch baslic
 x 78
 y 44
 end
@@ -40970,6 +41181,10 @@ x 80
 y 46
 end
 arch dungeon_floor
+x 80
+y 47
+end
+arch baslic
 x 80
 y 47
 end
@@ -42260,6 +42475,10 @@ x 83
 y 18
 end
 arch dungeon_floor
+x 83
+y 19
+end
+arch DK
 x 83
 y 19
 end
@@ -45890,221 +46109,4 @@ end
 arch dungeon_floor
 x 89
 y 89
-end
-arch behemoth
-name the Great Behemoth
-hp 14464
-maxhp 10000
-dam 30
-x 3
-y 62
-end
-arch gaelotroll
-x 12
-y 84
-end
-arch troll
-x 13
-y 77
-end
-arch troll
-x 14
-y 80
-end
-arch gaelotroll
-x 15
-y 84
-end
-arch troll
-x 17
-y 77
-end
-arch troll
-x 17
-y 82
-end
-arch troll
-x 18
-y 80
-end
-arch troll
-x 19
-y 63
-end
-arch troll
-x 20
-y 49
-end
-arch ent
-x 20
-y 52
-end
-arch troll
-x 20
-y 77
-end
-arch gaelotroll
-x 20
-y 84
-end
-arch slug
-x 21
-y 43
-end
-arch troll
-x 21
-y 80
-end
-arch troll
-x 22
-y 77
-end
-arch troll
-x 22
-y 82
-end
-arch slug
-x 23
-y 43
-end
-arch troll
-x 23
-y 63
-end
-arch troll
-x 24
-y 80
-end
-arch gaelotroll
-x 24
-y 84
-end
-arch slug
-x 25
-y 43
-end
-arch dread
-x 33
-y 39
-end
-arch big_dragon
-hp 1
-maxhp 1
-sp 10
-maxsp 20
-exp 1000
-dam 1
-wc 10
-ac 10
-x 35
-y 29
-can_cast_spell 0
-end
-arch big_elec
-x 45
-y 37
-end
-arch big_elec
-x 45
-y 40
-end
-arch big_elec
-x 45
-y 43
-end
-arch big_elec
-x 45
-y 46
-end
-arch big_elec
-x 47
-y 37
-end
-arch big_elec
-x 47
-y 40
-end
-arch big_elec
-x 47
-y 43
-end
-arch big_elec
-x 47
-y 46
-end
-arch DK
-x 51
-y 14
-end
-arch DK
-x 51
-y 19
-end
-arch baslic
-x 52
-y 43
-end
-arch baslic
-x 53
-y 47
-end
-arch baslic
-x 58
-y 43
-end
-arch baslic
-x 58
-y 46
-end
-arch DK
-x 60
-y 15
-end
-arch baslic
-x 64
-y 42
-end
-arch baslic
-x 64
-y 45
-end
-arch DK
-x 66
-y 14
-end
-arch baslic
-x 69
-y 42
-end
-arch baslic
-x 69
-y 47
-end
-arch DK
-x 71
-y 19
-end
-arch baslic
-x 73
-y 46
-end
-arch baslic
-x 74
-y 42
-end
-arch DK
-x 76
-y 16
-end
-arch baslic
-x 78
-y 44
-end
-arch baslic
-x 80
-y 47
-end
-arch DK
-x 83
-y 19
 end

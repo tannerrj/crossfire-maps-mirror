@@ -1,11 +1,12 @@
 arch map
 name <untitled>
-msg
-Created:  1999-12-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 40
 height 40
+msg
+Created:  1999-12-04 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -1315,11 +1316,19 @@ arch cobblestones2
 x 5
 y 17
 end
+arch giant
+x 5
+y 17
+end
 arch cobblestones2
 x 5
 y 18
 end
 arch cobblestones2
+x 5
+y 19
+end
+arch giant
 x 5
 y 19
 end
@@ -1565,11 +1574,19 @@ arch cobblestones2
 x 6
 y 17
 end
+arch giant
+x 6
+y 17
+end
 arch cobblestones2
 x 6
 y 18
 end
 arch cobblestones2
+x 6
+y 19
+end
+arch giant
 x 6
 y 19
 end
@@ -1815,11 +1832,19 @@ arch cobblestones2
 x 7
 y 17
 end
+arch giant
+x 7
+y 17
+end
 arch cobblestones2
 x 7
 y 18
 end
 arch cobblestones2
+x 7
+y 19
+end
+arch giant
 x 7
 y 19
 end
@@ -1965,6 +1990,10 @@ arch cobblestones2
 x 8
 y 5
 end
+arch troll
+x 8
+y 5
+end
 arch cobblestones2
 x 8
 y 6
@@ -1978,6 +2007,10 @@ x 8
 y 7
 end
 arch cobblestones2
+x 8
+y 8
+end
+arch troll
 x 8
 y 8
 end
@@ -2045,11 +2078,19 @@ arch cobblestones2
 x 8
 y 17
 end
+arch giant
+x 8
+y 17
+end
 arch cobblestones2
 x 8
 y 18
 end
 arch cobblestones2
+x 8
+y 19
+end
+arch giant
 x 8
 y 19
 end
@@ -2312,6 +2353,10 @@ x 9
 y 17
 end
 arch cobblestones2
+x 9
+y 18
+end
+arch giant
 x 9
 y 18
 end
@@ -2826,6 +2871,10 @@ arch cobblestones2
 x 11
 y 23
 end
+arch gaelotroll
+x 11
+y 23
+end
 arch cobblestones2
 x 11
 y 24
@@ -4461,6 +4510,10 @@ x 18
 y 22
 end
 arch cobblestones2
+x 18
+y 23
+end
+arch gaelotroll
 x 18
 y 23
 end
@@ -5460,7 +5513,6 @@ y 37
 end
 arch guildmaster
 name spy from Darkoth
-face thief.151
 msg
 @match hi|hello
 Bah! We will kill your people, but I shall make
@@ -5470,15 +5522,16 @@ As if I would tell you...  ...however...
 @match free
 I'll tell you what I know if you free me, will you free me?
 @match yes
-Ok, we have a dwarven merchant on our side. He's in the 
+Ok, we have a dwarven merchant on our side. He's in the
 warehouse in the southern part of the city.
 endmsg
-randomitems thief_1
+face thief.151
 hp 100
 maxhp 100
-pick_up 0
 x 22
 y 37
+randomitems thief_1
+pick_up 0
 end
 arch cobblestones2
 x 22
@@ -6836,6 +6889,10 @@ arch cobblestones2
 x 28
 y 4
 end
+arch titan
+x 28
+y 4
+end
 arch cobblestones2
 x 28
 y 5
@@ -6849,6 +6906,10 @@ x 28
 y 7
 end
 arch cobblestones2
+x 28
+y 8
+end
+arch titan
 x 28
 y 8
 end
@@ -6869,6 +6930,10 @@ x 28
 y 12
 end
 arch cobblestones2
+x 28
+y 13
+end
+arch titan
 x 28
 y 13
 end
@@ -7482,6 +7547,10 @@ arch cobblestones2
 x 31
 y 7
 end
+arch titan
+x 31
+y 7
+end
 arch cobblestones2
 x 31
 y 8
@@ -7705,6 +7774,10 @@ x 32
 y 13
 end
 arch cobblestones2
+x 32
+y 14
+end
+arch titan
 x 32
 y 14
 end
@@ -8089,6 +8162,10 @@ x 34
 y 8
 end
 arch cobblestones2
+x 34
+y 9
+end
+arch titan
 x 34
 y 9
 end
@@ -9397,80 +9474,4 @@ end
 arch cwall_2_2_4
 x 39
 y 39
-end
-arch giant
-x 5
-y 17
-end
-arch giant
-x 5
-y 19
-end
-arch giant
-x 6
-y 17
-end
-arch giant
-x 6
-y 19
-end
-arch giant
-x 7
-y 17
-end
-arch giant
-x 7
-y 19
-end
-arch troll
-x 8
-y 5
-end
-arch troll
-x 8
-y 8
-end
-arch giant
-x 8
-y 17
-end
-arch giant
-x 8
-y 19
-end
-arch giant
-x 9
-y 18
-end
-arch gaelotroll
-x 11
-y 23
-end
-arch gaelotroll
-x 18
-y 23
-end
-arch titan
-x 28
-y 4
-end
-arch titan
-x 28
-y 8
-end
-arch titan
-x 28
-y 13
-end
-arch titan
-x 31
-y 7
-end
-arch titan
-x 32
-y 14
-end
-arch titan
-x 34
-y 9
 end

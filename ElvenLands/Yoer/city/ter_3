@@ -1,11 +1,12 @@
 arch map
 name ter_3
-msg
-Created:  1999-12-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 35
 height 35
+msg
+Created:  1999-12-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -701,6 +702,10 @@ arch dungeon_floor
 x 3
 y 31
 end
+arch cobra
+x 3
+y 31
+end
 arch dungeon_floor
 x 3
 y 32
@@ -890,6 +895,10 @@ x 4
 y 30
 end
 arch dungeon_floor
+x 4
+y 31
+end
+arch cobra
 x 4
 y 31
 end
@@ -1655,6 +1664,10 @@ arch dungeon_floor
 x 9
 y 18
 end
+arch cobra
+x 9
+y 18
+end
 arch sea1
 x 9
 y 19
@@ -1692,6 +1705,10 @@ x 9
 y 26
 end
 arch dungeon_floor
+x 9
+y 27
+end
+arch cobra
 x 9
 y 27
 end
@@ -1830,6 +1847,10 @@ x 10
 y 19
 end
 arch sea1
+x 10
+y 20
+end
+arch cobra
 x 10
 y 20
 end
@@ -2442,6 +2463,10 @@ arch dungeon_floor
 x 13
 y 31
 end
+arch cobra
+x 13
+y 31
+end
 arch dungeon_floor
 x 13
 y 32
@@ -2707,6 +2732,11 @@ x 15
 y 18
 end
 arch sea1
+x 15
+y 19
+end
+arch behemoth
+name Water Creature
 x 15
 y 19
 end
@@ -3636,6 +3666,10 @@ arch dungeon_floor
 x 20
 y 28
 end
+arch cobra
+x 20
+y 28
+end
 arch dungeon_floor
 x 20
 y 29
@@ -3822,6 +3856,10 @@ arch dungeon_floor
 x 21
 y 28
 end
+arch cobra
+x 21
+y 28
+end
 arch dungeon_floor
 x 21
 y 29
@@ -3989,6 +4027,10 @@ x 22
 y 27
 end
 arch dungeon_floor
+x 22
+y 28
+end
+arch cobra
 x 22
 y 28
 end
@@ -4814,6 +4856,10 @@ arch dungeon_floor
 x 27
 y 17
 end
+arch cobra
+x 27
+y 17
+end
 arch dungeon_floor
 x 27
 y 18
@@ -5471,6 +5517,10 @@ x 31
 y 16
 end
 arch dungeon_floor
+x 31
+y 17
+end
+arch cobra
 x 31
 y 17
 end
@@ -6158,53 +6208,4 @@ end
 arch dwall_2_2_4
 x 34
 y 34
-end
-arch cobra
-x 3
-y 31
-end
-arch cobra
-x 4
-y 31
-end
-arch cobra
-x 9
-y 18
-end
-arch cobra
-x 9
-y 27
-end
-arch cobra
-x 10
-y 20
-end
-arch cobra
-x 13
-y 31
-end
-arch behemoth
-name Water Creature
-x 15
-y 19
-end
-arch cobra
-x 20
-y 28
-end
-arch cobra
-x 21
-y 28
-end
-arch cobra
-x 22
-y 28
-end
-arch cobra
-x 27
-y 17
-end
-arch cobra
-x 31
-y 17
 end

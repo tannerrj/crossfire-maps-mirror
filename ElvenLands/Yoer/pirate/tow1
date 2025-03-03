@@ -1,12 +1,13 @@
 arch map
 name tow1
-msg
-Created:  1999-10-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-18 Rick Tanner
-endmsg
+difficulty 5
+region elvenlands
 width 30
 height 30
-difficulty 5
+msg
+Created:  1999-10-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -1716,6 +1717,10 @@ arch cobblestones2
 x 8
 y 23
 end
+arch dread
+x 8
+y 23
+end
 arch cobblestones2
 x 8
 y 24
@@ -1729,6 +1734,10 @@ x 8
 y 26
 end
 arch cobblestones2
+x 8
+y 27
+end
+arch dread
 x 8
 y 27
 end
@@ -4640,11 +4649,19 @@ arch cobblestones2
 x 23
 y 12
 end
+arch giant
+x 23
+y 12
+end
 arch cobblestones2
 x 23
 y 13
 end
 arch cobblestones2
+x 23
+y 14
+end
+arch giant
 x 23
 y 14
 end
@@ -4841,8 +4858,8 @@ end
 arch grate_closed_2
 x 24
 y 11
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4851,8 +4868,8 @@ end
 arch grate_closed_2
 x 24
 y 12
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4861,8 +4878,8 @@ end
 arch grate_closed_2
 x 24
 y 13
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4871,8 +4888,8 @@ end
 arch grate_closed_2
 x 24
 y 14
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4881,8 +4898,8 @@ end
 arch grate_closed_2
 x 24
 y 15
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4891,8 +4908,8 @@ end
 arch grate_closed_2
 x 24
 y 16
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -4901,8 +4918,8 @@ end
 arch grate_closed_2
 x 24
 y 17
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 24
@@ -5087,8 +5104,8 @@ end
 arch button_plate
 x 25
 y 13
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 25
@@ -5558,8 +5575,8 @@ end
 arch grate_closed_2
 x 27
 y 13
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5568,8 +5585,8 @@ end
 arch grate_closed_2
 x 27
 y 14
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5578,8 +5595,8 @@ end
 arch grate_closed_2
 x 27
 y 15
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5588,8 +5605,8 @@ end
 arch grate_closed_2
 x 27
 y 16
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5598,8 +5615,8 @@ end
 arch grate_closed_2
 x 27
 y 17
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5608,8 +5625,8 @@ end
 arch grate_closed_2
 x 27
 y 18
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5618,8 +5635,8 @@ end
 arch grate_closed_2
 x 27
 y 19
-protected 1
 connected 1
+protected 1
 end
 arch cobblestones2
 x 27
@@ -5796,6 +5813,10 @@ arch cobblestones2
 x 28
 y 14
 end
+arch giant
+x 28
+y 14
+end
 arch cobblestones2
 x 28
 y 15
@@ -5805,6 +5826,10 @@ x 28
 y 16
 end
 arch cobblestones2
+x 28
+y 17
+end
+arch giant
 x 28
 y 17
 end
@@ -6129,28 +6154,4 @@ end
 arch dwall_2_2_4
 x 29
 y 29
-end
-arch dread
-x 8
-y 23
-end
-arch dread
-x 8
-y 27
-end
-arch giant
-x 23
-y 12
-end
-arch giant
-x 23
-y 14
-end
-arch giant
-x 28
-y 14
-end
-arch giant
-x 28
-y 17
 end

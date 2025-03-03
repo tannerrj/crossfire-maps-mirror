@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 27
 height 27
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch marble
 end
@@ -1318,6 +1320,10 @@ arch medium_stones
 x 9
 y 14
 end
+arch troll
+x 9
+y 14
+end
 arch medium_stones
 x 9
 y 15
@@ -1744,6 +1750,10 @@ x 12
 y 13
 end
 arch marble
+x 12
+y 14
+end
+arch troll
 x 12
 y 14
 end
@@ -3885,12 +3895,4 @@ end
 arch flagstone_2_2_4
 x 26
 y 26
-end
-arch troll
-x 9
-y 14
-end
-arch troll
-x 12
-y 14
 end

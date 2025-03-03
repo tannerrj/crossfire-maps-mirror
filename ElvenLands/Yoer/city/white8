@@ -1,12 +1,13 @@
 arch map
 name 7th circle of magic
-msg
-Created:  2001-05-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+difficulty 35
+region elvenlands
 width 30
 height 30
-difficulty 35
+msg
+Created:  2001-05-12 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -193,35 +194,35 @@ arch dwall_2_1_2
 x 1
 end
 arch cobblestones2
-unique 1
 x 1
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 1
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 1
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 1
 y 3
+unique 1
 end
 arch cobblestones2
-unique 1
 x 1
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 1
 y 5
+unique 1
 end
 arch cobblestones2
 x 1
@@ -235,6 +236,10 @@ arch cobblestones2
 x 1
 y 7
 end
+arch cyclops
+x 1
+y 7
+end
 arch cobblestones2
 x 1
 y 8
@@ -244,6 +249,10 @@ x 1
 y 9
 end
 arch cobblestones2
+x 1
+y 10
+end
+arch shadowtiger
 x 1
 y 10
 end
@@ -291,7 +300,15 @@ arch cobblestones2
 x 1
 y 18
 end
+arch Cwyvern
+x 1
+y 18
+end
 arch cobblestones2
+x 1
+y 19
+end
+arch big_wiz
 x 1
 y 19
 end
@@ -304,6 +321,10 @@ x 1
 y 21
 end
 arch cobblestones2
+x 1
+y 22
+end
+arch Cwyvern
 x 1
 y 22
 end
@@ -335,6 +356,10 @@ arch cobblestones2
 x 1
 y 27
 end
+arch Cwyvern
+x 1
+y 27
+end
 arch cobblestones2
 x 1
 y 28
@@ -354,35 +379,35 @@ arch dwall_2_1_2
 x 2
 end
 arch cobblestones2
-unique 1
 x 2
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 2
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 2
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 2
 y 3
+unique 1
 end
 arch cobblestones2
-unique 1
 x 2
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 2
 y 5
+unique 1
 end
 arch cobblestones2
 x 2
@@ -416,6 +441,10 @@ arch cobblestones2
 x 2
 y 12
 end
+arch DK
+x 2
+y 12
+end
 arch cobblestones2
 x 2
 y 13
@@ -425,6 +454,10 @@ x 2
 y 14
 end
 arch cobblestones2
+x 2
+y 15
+end
+arch EDK
 x 2
 y 15
 end
@@ -460,6 +493,10 @@ arch cobblestones2
 x 2
 y 23
 end
+arch Balrog
+x 2
+y 23
+end
 arch cobblestones2
 x 2
 y 24
@@ -499,35 +536,35 @@ arch dwall_2_1_2
 x 3
 end
 arch cobblestones2
-unique 1
 x 3
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 3
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 3
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 3
 y 3
+unique 1
 end
 arch cobblestones2
-unique 1
 x 3
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 3
 y 5
+unique 1
 end
 arch cobblestones2
 x 3
@@ -542,6 +579,10 @@ x 3
 y 7
 end
 arch cobblestones2
+x 3
+y 8
+end
+arch cyclops
 x 3
 y 8
 end
@@ -629,6 +670,10 @@ arch cobblestones2
 x 3
 y 28
 end
+arch Cwyvern
+x 3
+y 28
+end
 arch cobblestones2
 x 3
 y 29
@@ -644,35 +689,35 @@ arch dwall_2_1_2
 x 4
 end
 arch cobblestones2
-unique 1
 x 4
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 4
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 4
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 4
 y 3
+unique 1
 end
 arch cobblestones2
-unique 1
 x 4
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 4
 y 5
+unique 1
 end
 arch cobblestones2
 x 4
@@ -714,11 +759,19 @@ arch cobblestones2
 x 4
 y 14
 end
+arch shadowtiger
+x 4
+y 14
+end
 arch cobblestones2
 x 4
 y 15
 end
 arch cobblestones2
+x 4
+y 16
+end
+arch EDK
 x 4
 y 16
 end
@@ -750,6 +803,10 @@ arch cobblestones2
 x 4
 y 22
 end
+arch Cwyvern
+x 4
+y 22
+end
 arch cobblestones2
 x 4
 y 23
@@ -767,6 +824,10 @@ x 4
 y 26
 end
 arch cobblestones2
+x 4
+y 27
+end
+arch Cwyvern
 x 4
 y 27
 end
@@ -789,35 +850,35 @@ arch dwall_2_1_2
 x 5
 end
 arch cobblestones2
-unique 1
 x 5
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 5
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 5
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 5
 y 3
+unique 1
 end
 arch cobblestones2
-unique 1
 x 5
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 5
 y 5
+unique 1
 end
 arch cobblestones2
 x 5
@@ -851,6 +912,10 @@ arch cobblestones2
 x 5
 y 12
 end
+arch titan
+x 5
+y 12
+end
 arch cobblestones2
 x 5
 y 13
@@ -876,6 +941,10 @@ x 5
 y 18
 end
 arch cobblestones2
+x 5
+y 19
+end
+arch big_wiz
 x 5
 y 19
 end
@@ -934,45 +1003,45 @@ arch dwall_2_1_2
 x 6
 end
 arch cobblestones2
-unique 1
 x 6
 y 1
+unique 1
 end
 arch bookshelf
-no_pick 1
-unique 1
 x 6
 y 1
+no_pick 1
+unique 1
 end
 arch cobblestones2
-unique 1
 x 6
 y 2
+unique 1
 end
 arch cobblestones2
-unique 1
 x 6
 y 3
+unique 1
 end
 arch button_lever
-connected 1
 x 6
 y 3
+connected 1
 end
 arch cobblestones2
-unique 1
 x 6
 y 4
+unique 1
 end
 arch cobblestones2
-unique 1
 x 6
 y 5
+unique 1
 end
 arch depositbox
-unique 1
 x 6
 y 5
+unique 1
 end
 arch cobblestones2
 x 6
@@ -987,6 +1056,10 @@ x 6
 y 7
 end
 arch cobblestones2
+x 6
+y 8
+end
+arch titan
 x 6
 y 8
 end
@@ -1018,6 +1091,10 @@ arch cobblestones2
 x 6
 y 15
 end
+arch EDK
+x 6
+y 15
+end
 arch cobblestones2
 x 6
 y 16
@@ -1027,6 +1104,10 @@ x 6
 y 17
 end
 arch cobblestones2
+x 6
+y 18
+end
+arch Cwyvern
 x 6
 y 18
 end
@@ -1121,9 +1202,9 @@ x 7
 y 3
 end
 arch grate_closed_2
-connected 1
 x 7
 y 3
+connected 1
 end
 arch cobblestones2
 x 7
@@ -1213,6 +1294,10 @@ arch cobblestones2
 x 7
 y 22
 end
+arch Greater_Demon
+x 7
+y 22
+end
 arch cobblestones2
 x 7
 y 23
@@ -1272,9 +1357,9 @@ x 8
 y 3
 end
 arch button_lever
-connected 1
 x 8
 y 3
+connected 1
 end
 arch cobblestones2
 x 8
@@ -1321,9 +1406,9 @@ x 8
 y 9
 end
 arch grate_closed_2
-connected 57
 x 8
 y 9
+connected 57
 end
 arch cobblestones2
 x 8
@@ -1406,6 +1491,10 @@ x 8
 y 20
 end
 arch cobblestones2
+x 8
+y 21
+end
+arch Cwyvern
 x 8
 y 21
 end
@@ -1472,9 +1561,9 @@ x 9
 y 3
 end
 arch door_look_2
-no_pass 0
 x 9
 y 3
+no_pass 0
 end
 arch cobblestones2
 x 9
@@ -1517,9 +1606,9 @@ x 9
 y 9
 end
 arch button_lever
-connected 57
 x 9
 y 9
+connected 57
 end
 arch cobblestones2
 x 9
@@ -1554,6 +1643,10 @@ x 9
 y 16
 end
 arch cobblestones2
+x 9
+y 17
+end
+arch Balrog
 x 9
 y 17
 end
@@ -1644,12 +1737,11 @@ x 10
 y 7
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -1660,15 +1752,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 10
+y 7
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 10
-y 7
 end
 arch cobblestones2
 x 10
@@ -1747,6 +1840,10 @@ x 10
 y 20
 end
 arch cobblestones2
+x 10
+y 21
+end
+arch Cwyvern
 x 10
 y 21
 end
@@ -1857,12 +1954,11 @@ x 11
 y 12
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -1873,15 +1969,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 11
+y 12
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 11
-y 12
 end
 arch cobblestones2
 x 11
@@ -1974,12 +2071,11 @@ x 12
 y 1
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -1990,15 +2086,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 12
+y 1
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 12
-y 1
 end
 arch cobblestones2
 x 12
@@ -2061,9 +2158,9 @@ x 12
 y 15
 end
 arch spikes_open
-connected 57
 x 12
 y 15
+connected 57
 end
 arch cobblestones2
 x 12
@@ -2338,27 +2435,27 @@ x 14
 y 1
 end
 arch random_reading
-no_pick 1
 x 14
 y 1
+no_pick 1
 end
 arch cobblestones2
 x 14
 y 2
 end
 arch random_reading
-no_pick 1
 x 14
 y 2
+no_pick 1
 end
 arch cobblestones2
 x 14
 y 3
 end
 arch random_reading
-no_pick 1
 x 14
 y 3
+no_pick 1
 end
 arch cobblestones2
 x 14
@@ -2503,9 +2600,9 @@ x 15
 y 4
 end
 arch door_look_1
-no_pass 0
 x 15
 y 4
+no_pass 0
 end
 arch cobblestones2
 x 15
@@ -2626,27 +2723,27 @@ x 16
 y 1
 end
 arch random_reading
-no_pick 1
 x 16
 y 1
+no_pick 1
 end
 arch cobblestones2
 x 16
 y 2
 end
 arch random_reading
-no_pick 1
 x 16
 y 2
+no_pick 1
 end
 arch cobblestones2
 x 16
 y 3
 end
 arch random_reading
-no_pick 1
 x 16
 y 3
+no_pick 1
 end
 arch cobblestones2
 x 16
@@ -2677,12 +2774,11 @@ x 16
 y 9
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -2693,15 +2789,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 16
+y 9
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 16
-y 9
 end
 arch cobblestones2
 x 16
@@ -2949,10 +3046,10 @@ y 1
 end
 arch perm_magic_portal
 name Scorn
-walk_on 0
-fly_on 0
 x 18
 y 1
+walk_on 0
+fly_on 0
 end
 arch cobblestones2
 x 18
@@ -2963,18 +3060,18 @@ x 18
 y 3
 end
 arch trigger
-connected 267
 x 18
 y 3
+connected 267
 end
 arch cobblestones2
 x 18
 y 4
 end
 arch grate_closed_1
-connected 267
 x 18
 y 4
+connected 267
 end
 arch cobblestones2
 x 18
@@ -2984,9 +3081,9 @@ arch altar_trigger
 name pay 150 platinum coins
 slaying platinacoin
 food 150
-connected 267
 x 18
 y 5
+connected 267
 end
 arch check_inv
 x 18
@@ -2994,9 +3091,9 @@ y 5
 end
 arch check_inv
 slaying WhiteCirclePpass
-connected 267
 x 18
 y 5
+connected 267
 end
 arch cobblestones2
 x 18
@@ -3559,12 +3656,11 @@ x 22
 y 10
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -3575,15 +3671,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 22
+y 10
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 22
-y 10
 end
 arch cobblestones2
 x 22
@@ -3789,14 +3886,13 @@ y 15
 end
 arch wizard
 name wizard shopkeeper
-face wizard_blue.151
 msg
 @match hi|hello
 Hello,as you can see we have a nice
 collection of magical items. Feel free
 to look around.
 endmsg
-type 0
+face wizard_blue.151
 Str 0
 Con 6
 Wis 20
@@ -3806,15 +3902,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 23
+y 15
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 23
-y 15
 end
 arch cobblestones2
 x 23
@@ -4056,18 +4153,18 @@ y 2
 end
 arch check_inv
 slaying WhiteCircle7
-connected 59
 x 25
 y 2
+connected 59
 end
 arch cobblestones2
 x 25
 y 3
 end
 arch igate_closed_1
-connected 59
 x 25
 y 3
+connected 59
 end
 arch cobblestones2
 x 25
@@ -4075,9 +4172,9 @@ y 4
 end
 arch check_inv
 slaying WhiteCircle7
-connected 59
 x 25
 y 4
+connected 59
 end
 arch cobblestones2
 x 25
@@ -4105,15 +4202,15 @@ y 8
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
 dam 121
-speed 0
 x 25
 y 8
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 25
@@ -4125,16 +4222,16 @@ y 9
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 3
+dam 121
 x 25
 y 9
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 25
@@ -4146,16 +4243,16 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 2
+dam 121
 x 25
 y 10
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 25
@@ -4313,16 +4410,16 @@ y 8
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 5
+dam 121
 x 26
 y 8
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch magic_mouth
 msg
@@ -4343,9 +4440,9 @@ arch button_lever
 name Vibrantly Flashing Crystal
 face power_crystal.111
 animation power_crystal
-connected 2
 x 26
 y 9
+connected 2
 end
 arch cobblestones2
 x 26
@@ -4357,16 +4454,16 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 1
+dam 121
 x 26
 y 10
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 26
@@ -4377,9 +4474,9 @@ x 26
 y 12
 end
 arch door_look_1
-no_pass 0
 x 26
 y 12
+no_pass 0
 end
 arch cobblestones2
 x 26
@@ -4502,16 +4599,16 @@ y 8
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 6
+dam 121
 x 27
 y 8
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 27
@@ -4523,16 +4620,16 @@ y 9
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 7
+dam 121
 x 27
 y 9
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 27
@@ -4544,16 +4641,16 @@ y 10
 end
 arch lbulletwall_4
 name Vibrantly Glowing Crystal
-level 107
-connected 2
-invisible 1
-no_pass 0
-blocksview 0
-dam 121
-speed 0
 sp 8
+dam 121
 x 27
 y 10
+speed 0
+level 107
+invisible 1
+connected 2
+no_pass 0
+blocksview 0
 end
 arch cobblestones2
 x 27
@@ -4715,12 +4812,11 @@ x 28
 y 15
 end
 arch wizard
-face wizard.151
 msg
 @match hi|hello
 Hello.
 endmsg
-type 0
+face wizard.151
 Str 0
 Con 6
 Wis 20
@@ -4731,15 +4827,16 @@ maxsp 90
 exp 3000
 dam 20
 ac 2
+x 28
+y 15
 speed 0.310000
 attack_movement 7
 level 22
+type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
-x 28
-y 15
 end
 arch cobblestones2
 x 28
@@ -5019,100 +5116,4 @@ end
 arch dwall_2_2_4
 x 29
 y 29
-end
-arch cyclops
-x 1
-y 7
-end
-arch shadowtiger
-x 1
-y 10
-end
-arch Cwyvern
-x 1
-y 18
-end
-arch big_wiz
-x 1
-y 19
-end
-arch Cwyvern
-x 1
-y 22
-end
-arch Cwyvern
-x 1
-y 27
-end
-arch DK
-x 2
-y 12
-end
-arch EDK
-x 2
-y 15
-end
-arch Balrog
-x 2
-y 23
-end
-arch cyclops
-x 3
-y 8
-end
-arch Cwyvern
-x 3
-y 28
-end
-arch shadowtiger
-x 4
-y 14
-end
-arch EDK
-x 4
-y 16
-end
-arch Cwyvern
-x 4
-y 22
-end
-arch Cwyvern
-x 4
-y 27
-end
-arch titan
-x 5
-y 12
-end
-arch big_wiz
-x 5
-y 19
-end
-arch titan
-x 6
-y 8
-end
-arch EDK
-x 6
-y 15
-end
-arch Cwyvern
-x 6
-y 18
-end
-arch Greater_Demon
-x 7
-y 22
-end
-arch Cwyvern
-x 8
-y 21
-end
-arch Balrog
-x 9
-y 17
-end
-arch Cwyvern
-x 10
-y 21
 end

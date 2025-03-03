@@ -1,12 +1,13 @@
 arch map
 name guild
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+reset_timeout 5200
+region elvenlands
 width 34
 height 16
-reset_timeout 5200
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -39,22 +40,22 @@ end
 arch pit_closed
 hp 12
 sp 7
+y 6
 resist_cold 30
 resist_confusion 30
 resist_acid 30
 connected 112
-y 6
 end
 arch card
 name membership to Guild of Heroes
+slaying HeroGuild
 msg
 This is certified that the one who
 carries this card is an official member
 of the Guild of Heroes.
 endmsg
-type 21
-slaying HeroGuild
 y 6
+type 21
 end
 arch blocked
 y 7
@@ -406,9 +407,9 @@ x 4
 y 5
 end
 arch medium_guard
-speed_left -1.060000
 x 4
 y 5
+speed_left -1.060000
 end
 arch grass
 x 4
@@ -419,9 +420,9 @@ x 4
 y 7
 end
 arch medium_guard
-speed_left -1.060000
 x 4
 y 7
+speed_left -1.060000
 end
 arch grass
 x 4
@@ -522,9 +523,9 @@ x 5
 y 6
 end
 arch door_look_2
-no_pass 0
 x 5
 y 6
+no_pass 0
 end
 arch flagstone
 x 5
@@ -928,13 +929,13 @@ end
 arch altar_trigger
 slaying Scroll of Challenges
 food 1
+x 10
+y 7
 resist_cold 30
 resist_confusion 30
 resist_acid 30
 invisible 1
 connected 112
-x 10
-y 7
 end
 arch flagstone
 x 10
@@ -1012,13 +1013,13 @@ He was trying to find the map of our
 city! The secret map. It shows secret
 tunnels and where all our guards are!
 endmsg
-type 0
 hp 100
+x 11
+y 1
+type 0
 randomitems none
 monster 1
 friendly 1
-x 11
-y 1
 end
 arch flagstone
 x 11
@@ -1049,14 +1050,14 @@ msg
 @match join|yes
 Click.
 endmsg
+x 11
+y 7
 resist_physical 30
 resist_fire 30
 resist_confusion 30
 resist_drain 30
 resist_ghosthit 30
 connected 677
-x 11
-y 7
 end
 arch c_sage
 name receptionist of the guild of heroes
@@ -1116,13 +1117,13 @@ He was trying to find the map of our
 city! The secret map. It shows secret
 tunnels and where all our guards are!
 endmsg
-type 0
 hp 100
+x 11
+y 14
+type 0
 randomitems none
 monster 1
 friendly 1
-x 11
-y 14
 end
 arch flagstone
 x 11
@@ -1230,13 +1231,13 @@ y 5
 end
 arch cleric
 name guildsman
-type 0
 hp 100
+x 13
+y 5
+type 0
 randomitems none
 monster 1
 friendly 1
-x 13
-y 5
 end
 arch flagstone
 x 13
@@ -1248,13 +1249,13 @@ y 7
 end
 arch cleric
 name guildsman
-type 0
 hp 100
+x 13
+y 7
+type 0
 randomitems none
 monster 1
 friendly 1
-x 13
-y 7
 end
 arch flagstone
 x 13
@@ -1266,13 +1267,13 @@ y 9
 end
 arch cleric
 name guildsman
-type 0
 hp 100
+x 13
+y 9
+type 0
 randomitems none
 monster 1
 friendly 1
-x 13
-y 9
 end
 arch flagstone
 x 13
@@ -1329,9 +1330,9 @@ x 14
 y 3
 end
 arch door_look_2
-no_pass 0
 x 14
 y 3
+no_pass 0
 end
 arch flagstone
 x 14
@@ -1386,14 +1387,14 @@ x 14
 y 11
 end
 arch grate_closed_2
+x 14
+y 11
 resist_physical 30
 resist_fire 30
 resist_confusion 30
 resist_drain 30
 resist_ghosthit 30
 connected 677
-x 14
-y 11
 end
 arch flagstone
 x 14
@@ -1475,10 +1476,10 @@ y 8
 end
 arch check_inv
 slaying HeroGuild
-resist_physical 30
-connected 1
 x 15
 y 8
+resist_physical 30
+connected 1
 end
 arch flagstone
 x 15
@@ -1573,10 +1574,10 @@ x 16
 y 6
 end
 arch igate_closed_2
-resist_physical 30
-connected 1
 x 16
 y 6
+resist_physical 30
+connected 1
 end
 arch flagstone
 x 16
@@ -1591,10 +1592,10 @@ x 16
 y 8
 end
 arch igate_closed_2
-resist_physical 30
-connected 1
 x 16
 y 8
+resist_physical 30
+connected 1
 end
 arch flagstone
 x 16
@@ -1688,10 +1689,10 @@ y 6
 end
 arch check_inv
 slaying HeroGuild
-resist_physical 30
-connected 1
 x 17
 y 6
+resist_physical 30
+connected 1
 end
 arch flagstone
 x 17
@@ -1926,12 +1927,12 @@ x 19
 y 13
 end
 arch grate_closed_1
+x 19
+y 13
 resist_physical 30
 resist_magic 30
 resist_electricity 30
 connected 11
-x 19
-y 13
 end
 arch random_talisman
 x 19
@@ -2005,13 +2006,13 @@ We know something is up in the cafe, a
 strange looking character is always hanging
 about there.
 endmsg
+x 20
+y 1
 resist_electricity 30
 resist_acid 30
 resist_drain 30
 resist_weaponmagic 30
 connected 50
-x 20
-y 1
 end
 arch woman
 name secretary
@@ -2023,13 +2024,15 @@ x 20
 y 1
 end
 arch altar_trigger
+slaying note to Grubb
 msg
 Secretary: Good job! I will show this
 to our guildmaster,meanwhile go get
 your next assignment.
 endmsg
-slaying note to Grubb
 food 1
+x 20
+y 2
 resist_physical 30
 resist_fire 30
 resist_electricity 30
@@ -2037,8 +2040,6 @@ resist_acid 30
 resist_weaponmagic 30
 invisible 1
 connected 333
-x 20
-y 2
 end
 arch flagstone
 x 20
@@ -2065,9 +2066,9 @@ x 20
 y 5
 end
 arch door_look_1
-no_pass 0
 x 20
 y 5
+no_pass 0
 end
 arch flagstone
 x 20
@@ -2188,14 +2189,14 @@ x 21
 y 13
 end
 arch grate_closed_1
+x 21
+y 13
 resist_physical 30
 resist_fire 30
 resist_electricity 30
 resist_confusion 30
 resist_ghosthit 30
 connected 557
-x 21
-y 13
 end
 arch random_scroll
 x 21
@@ -2337,10 +2338,10 @@ exp 25000
 dam 30
 wc -20
 ac -12
-level 18
-carrying 96620
 x 22
 y 9
+level 18
+carrying 96620
 arch broadsword
 name sword covered with various runes
 msg
@@ -2364,12 +2365,12 @@ arch gloves
 magic 2
 end
 arch ring
-face ring.117
+title of Champions
 msg
 This ring is not yours. You cannot use
 the power it holds within it.
 endmsg
-title of Champions
+face ring.117
 startequip 1
 end
 end
@@ -2484,6 +2485,8 @@ x 23
 y 13
 end
 arch grate_closed_1
+x 23
+y 13
 resist_physical 30
 resist_fire 30
 resist_electricity 30
@@ -2493,8 +2496,6 @@ resist_drain 30
 resist_weaponmagic 30
 resist_ghosthit 30
 connected 989
-x 23
-y 13
 end
 arch flagstone
 x 23
@@ -2665,9 +2666,9 @@ Good! Go and get your mission from the
 first room south!
 endmsg
 food 1
-connected 11
 x 25
 y 1
+connected 11
 end
 arch guildmaster
 msg
@@ -2680,21 +2681,21 @@ x 25
 y 1
 end
 arch altar_trigger
+slaying Uggilly's Heart
 msg
 The Guild Master says:
 Good Job,get
 your next mission!
 endmsg
-slaying Uggilly's Heart
 food 1
+x 25
+y 2
 resist_physical 30
 resist_fire 30
 resist_electricity 30
 resist_confusion 30
 resist_ghosthit 30
 connected 557
-x 25
-y 2
 end
 arch flagstone
 x 25
@@ -2721,9 +2722,9 @@ x 25
 y 5
 end
 arch door_look_1
-no_pass 0
 x 25
 y 5
+no_pass 0
 end
 arch flagstone
 x 25
@@ -2758,14 +2759,14 @@ x 25
 y 13
 end
 arch grate_closed_1
+x 25
+y 13
 resist_physical 30
 resist_fire 30
 resist_electricity 30
 resist_acid 30
 resist_weaponmagic 30
 connected 333
-x 25
-y 13
 end
 arch flagstone
 x 25
@@ -2898,13 +2899,13 @@ end
 arch cleric
 name guildsman
 face cleric.111
-type 0
 hp 100
+x 26
+y 11
+type 0
 randomitems none
 monster 1
 friendly 1
-x 26
-y 11
 end
 arch flagstone
 x 26
@@ -3013,13 +3014,13 @@ x 27
 y 13
 end
 arch grate_closed_1
+x 27
+y 13
 resist_physical 30
 resist_magic 30
 resist_confusion 30
 resist_ghosthit 30
 connected 547
-x 27
-y 13
 end
 arch flagstone
 x 27
@@ -3248,9 +3249,9 @@ x 29
 y 13
 end
 arch grate_closed_1
-connected 663
 x 29
 y 13
+connected 663
 end
 arch flagstone
 x 29
@@ -3303,12 +3304,12 @@ x 29
 y 14
 end
 arch ring
-face ring.117
+title of Champions
 msg
 This mighty ring is given to the
 Champions of the king of Yoer.
 endmsg
-title of Champions
+face ring.117
 Str 2
 Dex 2
 Con 2
@@ -3318,14 +3319,14 @@ Cha 2
 hp 2
 wc 3
 ac 2
+x 29
+y 14
 speed 0.050000
 resist_physical 20
 resist_fire 15
 resist_electricity 15
 resist_cold 15
 value 100000
-x 29
-y 14
 end
 arch scroll
 msg
@@ -3559,10 +3560,10 @@ end
 arch teleporter
 hp 20
 sp 4
-connected 50
-speed 0.0
 x 32
 y 11
+speed 0.0
+connected 50
 end
 arch map
 name map of the criminal underworld
@@ -3579,9 +3580,9 @@ _______________________
 | barn                  |
 -------------------------
 endmsg
-type 8
 x 32
 y 11
+type 8
 end
 arch blocked
 x 32

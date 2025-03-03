@@ -1,11 +1,12 @@
 arch map
 name yoer_a1
-msg
-Created:  2001-05-16 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+region elvenlands
 width 42
 height 34
+msg
+Created:  2001-05-16 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 outdoor 1
 tile_path_2 yoer_b1
 tile_path_3 yoer_a2
@@ -54,6 +55,9 @@ end
 arch mountain
 y 13
 end
+arch mountain_2
+y 14
+end
 arch mountain
 y 16
 end
@@ -71,6 +75,9 @@ y 20
 end
 arch mountain
 y 21
+end
+arch mountain_2
+y 22
 end
 arch mountain
 y 24
@@ -93,6 +100,9 @@ end
 arch mountain
 y 30
 end
+arch mountain_2
+y 31
+end
 arch mountain4
 y 33
 end
@@ -114,6 +124,10 @@ end
 arch mountain
 x 1
 y 4
+end
+arch mountain_2
+x 1
+y 5
 end
 arch mountain
 x 1
@@ -187,6 +201,10 @@ arch mountain
 x 1
 y 27
 end
+arch mountain_2
+x 1
+y 28
+end
 arch mountain
 x 1
 y 30
@@ -230,6 +248,10 @@ arch mountain
 x 2
 y 9
 end
+arch mountain_2
+x 2
+y 10
+end
 arch mountain
 x 2
 y 12
@@ -253,6 +275,10 @@ end
 arch mountain
 x 2
 y 17
+end
+arch mountain_2
+x 2
+y 18
 end
 arch mountain
 x 2
@@ -278,6 +304,10 @@ arch mountain
 x 2
 y 25
 end
+arch mountain_2
+x 2
+y 26
+end
 arch mountain
 x 2
 y 30
@@ -300,6 +330,10 @@ end
 arch mountain
 x 3
 y 1
+end
+arch mountain_2
+x 3
+y 2
 end
 arch mountain
 x 3
@@ -1084,6 +1118,9 @@ arch grass
 x 8
 y 33
 end
+arch mountain_2
+x 9
+end
 arch mountain
 x 9
 y 2
@@ -1620,6 +1657,10 @@ end
 arch mountain
 x 13
 y 2
+end
+arch mountain_2
+x 13
+y 3
 end
 arch mountain
 x 13
@@ -2001,6 +2042,10 @@ y 33
 end
 arch mountain
 x 16
+end
+arch mountain_2
+x 16
+y 1
 end
 arch mountain
 x 16
@@ -2541,6 +2586,10 @@ end
 arch mountain
 x 20
 y 3
+end
+arch mountain_2
+x 20
+y 4
 end
 arch woods
 x 20
@@ -3053,6 +3102,10 @@ y 33
 end
 arch mountain
 x 24
+end
+arch mountain_2
+x 24
+y 1
 end
 arch mountain
 x 24
@@ -3454,6 +3507,10 @@ arch mountain
 x 27
 y 1
 end
+arch mountain_2
+x 27
+y 2
+end
 arch mountain
 x 27
 y 4
@@ -3843,6 +3900,10 @@ arch mountain
 x 30
 y 1
 end
+arch mountain_2
+x 30
+y 2
+end
 arch mountain
 x 30
 y 4
@@ -4498,6 +4559,10 @@ end
 arch mountain
 x 35
 end
+arch mountain_2
+x 35
+y 1
+end
 arch mountain
 x 35
 y 3
@@ -4895,6 +4960,10 @@ arch mountain
 x 38
 y 2
 end
+arch mountain_2
+x 38
+y 3
+end
 arch mountain
 x 38
 y 5
@@ -5407,72 +5476,4 @@ end
 arch brush
 x 41
 y 33
-end
-arch mountain_2
-y 14
-end
-arch mountain_2
-y 22
-end
-arch mountain_2
-y 31
-end
-arch mountain_2
-x 1
-y 5
-end
-arch mountain_2
-x 1
-y 28
-end
-arch mountain_2
-x 2
-y 10
-end
-arch mountain_2
-x 2
-y 18
-end
-arch mountain_2
-x 2
-y 26
-end
-arch mountain_2
-x 3
-y 2
-end
-arch mountain_2
-x 9
-end
-arch mountain_2
-x 13
-y 3
-end
-arch mountain_2
-x 16
-y 1
-end
-arch mountain_2
-x 20
-y 4
-end
-arch mountain_2
-x 24
-y 1
-end
-arch mountain_2
-x 27
-y 2
-end
-arch mountain_2
-x 30
-y 2
-end
-arch mountain_2
-x 35
-y 1
-end
-arch mountain_2
-x 38
-y 3
 end

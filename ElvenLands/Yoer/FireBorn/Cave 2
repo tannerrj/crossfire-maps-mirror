@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-07-30 Meegwun Southall (meeg@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 31
 height 31
+msg
+Created:  2000-07-30 Meegwun Southall (meeg@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch earth
 end
@@ -2949,6 +2951,11 @@ arch earth
 x 15
 y 17
 end
+arch slug
+hp 50
+x 15
+y 17
+end
 arch earth
 x 15
 y 18
@@ -3030,6 +3037,9 @@ x 15
 y 30
 end
 arch earth
+x 16
+end
+arch active_volcano
 x 16
 end
 arch earth
@@ -3177,6 +3187,9 @@ x 16
 y 30
 end
 arch earth
+x 17
+end
+arch active_volcano
 x 17
 end
 arch earth
@@ -4433,6 +4446,11 @@ arch deep_swamp
 x 25
 y 19
 end
+arch slug
+hp 50
+x 25
+y 19
+end
 arch deep_swamp
 x 25
 y 20
@@ -5209,20 +5227,4 @@ end
 arch earth
 x 30
 y 30
-end
-arch slug
-hp 50
-x 15
-y 17
-end
-arch active_volcano
-x 16
-end
-arch active_volcano
-x 17
-end
-arch slug
-hp 50
-x 25
-y 19
 end

@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-18 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-12-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch stonefloor2
 end
@@ -533,10 +535,10 @@ constitution.
 endmsg
 Str 1
 Con 1
-armour 10
 x 6
 y 6
 value 2222
+armour 10
 end
 arch shop_empty
 x 6
@@ -558,10 +560,10 @@ used by the viking warriors and helped
 them in battle.
 endmsg
 ac 2
-armour 30
 x 6
 y 8
 value 5000
+armour 30
 end
 arch shop_empty
 x 6

@@ -1,11 +1,12 @@
 arch map
 name kill
-msg
-Created:  2000-12-19 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+region elvenlands
 width 28
 height 21
+msg
+Created:  2000-12-19 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch woodfloor
 end
@@ -270,9 +271,9 @@ end
 arch button_trigger
 x 2
 y 8
-protected 208
 invisible 1
 connected 208
+protected 208
 end
 arch guard
 name armour man
@@ -488,9 +489,9 @@ end
 arch button_trigger
 x 4
 y 14
-protected 207
 invisible 1
 connected 207
+protected 207
 end
 arch guard
 name armour man
@@ -638,9 +639,9 @@ end
 arch button_trigger
 x 6
 y 3
-protected 201
 invisible 1
 connected 201
+protected 201
 end
 arch guard
 name armour man
@@ -762,8 +763,8 @@ end
 arch grate_closed_2
 x 7
 y 7
-protected 200
 connected 200
+protected 200
 end
 arch woodfloor
 x 7
@@ -980,8 +981,8 @@ end
 arch grate_open_2
 x 9
 y 7
-protected 41
 connected 41
+protected 41
 end
 arch woodfloor
 x 9
@@ -1163,8 +1164,8 @@ end
 arch grate_closed_1
 x 10
 y 16
-protected 1
 connected 1
+protected 1
 end
 arch woodfloor
 x 10
@@ -1175,8 +1176,8 @@ name drop 50 goldcoins
 food 50
 x 10
 y 17
-protected 1
 connected 1
+protected 1
 end
 arch woodfloor
 x 10
@@ -1302,9 +1303,9 @@ end
 arch button_trigger
 x 11
 y 11
-protected 206
 invisible 1
 connected 206
+protected 206
 end
 arch guard
 name armour man
@@ -1348,7 +1349,7 @@ end
 arch warrior_1
 msg
 @match hi|hello
-Welcome. 
+Welcome.
 Do you want to try my game?
 @match yes
 All you have to do is kill all the
@@ -1387,9 +1388,9 @@ end
 arch button_trigger
 x 12
 y 2
-protected 202
 invisible 1
 connected 202
+protected 202
 end
 arch guard
 name armour man
@@ -1853,9 +1854,9 @@ end
 arch button_trigger
 x 16
 y 17
-protected 205
 invisible 1
 connected 205
+protected 205
 end
 arch guard
 name armour man
@@ -1913,9 +1914,9 @@ end
 arch button_trigger
 x 17
 y 6
-protected 203
 invisible 1
 connected 203
+protected 203
 end
 arch guard
 name armour man
@@ -1955,9 +1956,9 @@ end
 arch button_trigger
 x 17
 y 13
-protected 204
 invisible 1
 connected 204
+protected 204
 end
 arch guard
 name armour man
@@ -2530,13 +2531,13 @@ msg
 Time's up!
 endmsg
 x 23
-protected 41
 connected 41
+protected 41
 end
 arch button_plate
 x 23
-protected 41
 connected 41
+protected 41
 end
 arch magic_mouth
 msg
@@ -2544,26 +2545,26 @@ msg
 endmsg
 x 23
 y 1
-protected 40
 connected 40
+protected 40
 end
 arch button_small
 x 23
 y 1
-protected 39
 connected 39
+protected 39
 end
 arch button_trigger
 x 23
 y 1
-protected 40
 connected 40
+protected 40
 end
 arch spikes_open
 x 23
 y 1
-protected 40
 connected 40
+protected 40
 end
 arch magic_mouth
 msg
@@ -2571,26 +2572,26 @@ msg
 endmsg
 x 23
 y 2
-protected 39
 connected 39
+protected 39
 end
 arch button_small
 x 23
 y 2
-protected 38
 connected 38
+protected 38
 end
 arch button_trigger
 x 23
 y 2
-protected 39
 connected 39
+protected 39
 end
 arch spikes_open
 x 23
 y 2
-protected 39
 connected 39
+protected 39
 end
 arch magic_mouth
 msg
@@ -2598,26 +2599,26 @@ msg
 endmsg
 x 23
 y 3
-protected 37
 connected 37
+protected 37
 end
 arch button_small
 x 23
 y 3
-protected 37
 connected 37
+protected 37
 end
 arch button_trigger
 x 23
 y 3
-protected 38
 connected 38
+protected 38
 end
 arch spikes_open
 x 23
 y 3
-protected 38
 connected 38
+protected 38
 end
 arch magic_mouth
 msg
@@ -2625,26 +2626,26 @@ msg
 endmsg
 x 23
 y 4
-protected 36
 connected 36
+protected 36
 end
 arch button_small
 x 23
 y 4
-protected 36
 connected 36
+protected 36
 end
 arch button_trigger
 x 23
 y 4
-protected 37
 connected 37
+protected 37
 end
 arch spikes_open
 x 23
 y 4
-protected 37
 connected 37
+protected 37
 end
 arch magic_mouth
 msg
@@ -2652,26 +2653,26 @@ msg
 endmsg
 x 23
 y 5
-protected 35
 connected 35
+protected 35
 end
 arch button_small
 x 23
 y 5
-protected 35
 connected 35
+protected 35
 end
 arch button_trigger
 x 23
 y 5
-protected 36
 connected 36
+protected 36
 end
 arch spikes_open
 x 23
 y 5
-protected 36
 connected 36
+protected 36
 end
 arch magic_mouth
 msg
@@ -2679,26 +2680,26 @@ msg
 endmsg
 x 23
 y 6
-protected 34
 connected 34
+protected 34
 end
 arch button_small
 x 23
 y 6
-protected 34
 connected 34
+protected 34
 end
 arch button_trigger
 x 23
 y 6
-protected 35
 connected 35
+protected 35
 end
 arch spikes_open
 x 23
 y 6
-protected 35
 connected 35
+protected 35
 end
 arch magic_mouth
 msg
@@ -2706,26 +2707,26 @@ msg
 endmsg
 x 23
 y 7
-protected 33
 connected 33
+protected 33
 end
 arch button_small
 x 23
 y 7
-protected 33
 connected 33
+protected 33
 end
 arch button_trigger
 x 23
 y 7
-protected 34
 connected 34
+protected 34
 end
 arch spikes_open
 x 23
 y 7
-protected 34
 connected 34
+protected 34
 end
 arch magic_mouth
 msg
@@ -2733,26 +2734,26 @@ msg
 endmsg
 x 23
 y 8
-protected 32
 connected 32
+protected 32
 end
 arch button_small
 x 23
 y 8
-protected 32
 connected 32
+protected 32
 end
 arch button_trigger
 x 23
 y 8
-protected 33
 connected 33
+protected 33
 end
 arch spikes_open
 x 23
 y 8
-protected 33
 connected 33
+protected 33
 end
 arch magic_mouth
 msg
@@ -2760,26 +2761,26 @@ msg
 endmsg
 x 23
 y 9
-protected 31
 connected 31
+protected 31
 end
 arch button_small
 x 23
 y 9
-protected 31
 connected 31
+protected 31
 end
 arch button_trigger
 x 23
 y 9
-protected 32
 connected 32
+protected 32
 end
 arch spikes_open
 x 23
 y 9
-protected 32
 connected 32
+protected 32
 end
 arch magic_mouth
 msg
@@ -2787,26 +2788,26 @@ msg
 endmsg
 x 23
 y 10
-protected 30
 connected 30
+protected 30
 end
 arch button_small
 x 23
 y 10
-protected 30
 connected 30
+protected 30
 end
 arch button_trigger
 x 23
 y 10
-protected 31
 connected 31
+protected 31
 end
 arch spikes_open
 x 23
 y 10
-protected 31
 connected 31
+protected 31
 end
 arch magic_mouth
 msg
@@ -2814,26 +2815,26 @@ msg
 endmsg
 x 23
 y 11
-protected 29
 connected 29
+protected 29
 end
 arch button_small
 x 23
 y 11
-protected 29
 connected 29
+protected 29
 end
 arch button_trigger
 x 23
 y 11
-protected 30
 connected 30
+protected 30
 end
 arch spikes_open
 x 23
 y 11
-protected 30
 connected 30
+protected 30
 end
 arch magic_mouth
 msg
@@ -2841,26 +2842,26 @@ msg
 endmsg
 x 23
 y 12
-protected 28
 connected 28
+protected 28
 end
 arch button_small
 x 23
 y 12
-protected 28
 connected 28
+protected 28
 end
 arch button_trigger
 x 23
 y 12
-protected 29
 connected 29
+protected 29
 end
 arch spikes_open
 x 23
 y 12
-protected 29
 connected 29
+protected 29
 end
 arch magic_mouth
 msg
@@ -2868,26 +2869,26 @@ msg
 endmsg
 x 23
 y 13
-protected 27
 connected 27
+protected 27
 end
 arch button_small
 x 23
 y 13
-protected 27
 connected 27
+protected 27
 end
 arch button_trigger
 x 23
 y 13
-protected 28
 connected 28
+protected 28
 end
 arch spikes_open
 x 23
 y 13
-protected 28
 connected 28
+protected 28
 end
 arch magic_mouth
 msg
@@ -2895,26 +2896,26 @@ msg
 endmsg
 x 23
 y 14
-protected 26
 connected 26
+protected 26
 end
 arch button_small
 x 23
 y 14
-protected 26
 connected 26
+protected 26
 end
 arch button_trigger
 x 23
 y 14
-protected 27
 connected 27
+protected 27
 end
 arch spikes_open
 x 23
 y 14
-protected 27
 connected 27
+protected 27
 end
 arch magic_mouth
 msg
@@ -2922,26 +2923,26 @@ msg
 endmsg
 x 23
 y 15
-protected 25
 connected 25
+protected 25
 end
 arch button_small
 x 23
 y 15
-protected 25
 connected 25
+protected 25
 end
 arch button_trigger
 x 23
 y 15
-protected 26
 connected 26
+protected 26
 end
 arch spikes_open
 x 23
 y 15
-protected 26
 connected 26
+protected 26
 end
 arch magic_mouth
 msg
@@ -2949,26 +2950,26 @@ msg
 endmsg
 x 23
 y 16
-protected 24
 connected 24
+protected 24
 end
 arch button_small
 x 23
 y 16
-protected 24
 connected 24
+protected 24
 end
 arch button_trigger
 x 23
 y 16
-protected 25
 connected 25
+protected 25
 end
 arch spikes_open
 x 23
 y 16
-protected 25
 connected 25
+protected 25
 end
 arch magic_mouth
 msg
@@ -2976,26 +2977,26 @@ msg
 endmsg
 x 23
 y 17
-protected 23
 connected 23
+protected 23
 end
 arch button_small
 x 23
 y 17
-protected 23
 connected 23
+protected 23
 end
 arch button_trigger
 x 23
 y 17
-protected 24
 connected 24
+protected 24
 end
 arch spikes_open
 x 23
 y 17
-protected 24
 connected 24
+protected 24
 end
 arch magic_mouth
 msg
@@ -3003,26 +3004,26 @@ msg
 endmsg
 x 23
 y 18
-protected 22
 connected 22
+protected 22
 end
 arch button_small
 x 23
 y 18
-protected 22
 connected 22
+protected 22
 end
 arch button_trigger
 x 23
 y 18
-protected 23
 connected 23
+protected 23
 end
 arch spikes_open
 x 23
 y 18
-protected 23
 connected 23
+protected 23
 end
 arch magic_mouth
 msg
@@ -3030,26 +3031,26 @@ msg
 endmsg
 x 23
 y 19
-protected 21
 connected 21
+protected 21
 end
 arch button_small
 x 23
 y 19
-protected 21
 connected 21
+protected 21
 end
 arch button_trigger
 x 23
 y 19
-protected 22
 connected 22
+protected 22
 end
 arch spikes_open
 x 23
 y 19
-protected 22
 connected 22
+protected 22
 end
 arch blocked
 x 23
@@ -3140,39 +3141,39 @@ msg
 endmsg
 x 24
 y 20
-protected 20
 connected 20
+protected 20
 end
 arch button_small
 x 24
 y 20
-protected 20
 connected 20
+protected 20
 end
 arch button_trigger
 x 24
 y 20
-protected 21
 connected 21
+protected 21
 end
 arch spikes_open
 x 24
 y 20
-protected 21
 connected 21
+protected 21
 end
 arch magic_mouth
 msg
 1
 endmsg
 x 25
-protected 1
 connected 1
+protected 1
 end
 arch spikes_open
 x 25
-protected 1
 connected 1
+protected 1
 end
 arch boulder
 x 25
@@ -3183,20 +3184,20 @@ msg
 endmsg
 x 25
 y 1
-protected 2
 connected 2
+protected 2
 end
 arch button_trigger
 x 25
 y 1
-protected 2
 connected 2
+protected 2
 end
 arch spikes_open
 x 25
 y 1
-protected 2
 connected 2
+protected 2
 end
 arch magic_mouth
 msg
@@ -3204,26 +3205,26 @@ msg
 endmsg
 x 25
 y 2
-protected 3
 connected 3
+protected 3
 end
 arch button_small
 x 25
 y 2
-protected 2
 connected 2
+protected 2
 end
 arch button_trigger
 x 25
 y 2
-protected 3
 connected 3
+protected 3
 end
 arch spikes_open
 x 25
 y 2
-protected 3
 connected 3
+protected 3
 end
 arch magic_mouth
 msg
@@ -3231,26 +3232,26 @@ msg
 endmsg
 x 25
 y 3
-protected 4
 connected 4
+protected 4
 end
 arch button_small
 x 25
 y 3
-protected 3
 connected 3
+protected 3
 end
 arch button_trigger
 x 25
 y 3
-protected 4
 connected 4
+protected 4
 end
 arch spikes_open
 x 25
 y 3
-protected 4
 connected 4
+protected 4
 end
 arch magic_mouth
 msg
@@ -3258,26 +3259,26 @@ msg
 endmsg
 x 25
 y 4
-protected 5
 connected 5
+protected 5
 end
 arch button_trigger
 x 25
 y 4
-protected 5
 connected 5
+protected 5
 end
 arch button_small
 x 25
 y 4
-protected 4
 connected 4
+protected 4
 end
 arch spikes_open
 x 25
 y 4
-protected 5
 connected 5
+protected 5
 end
 arch magic_mouth
 msg
@@ -3285,26 +3286,26 @@ msg
 endmsg
 x 25
 y 5
-protected 6
 connected 6
+protected 6
 end
 arch button_small
 x 25
 y 5
-protected 5
 connected 5
+protected 5
 end
 arch button_trigger
 x 25
 y 5
-protected 6
 connected 6
+protected 6
 end
 arch spikes_open
 x 25
 y 5
-protected 6
 connected 6
+protected 6
 end
 arch magic_mouth
 msg
@@ -3312,26 +3313,26 @@ msg
 endmsg
 x 25
 y 6
-protected 7
 connected 7
+protected 7
 end
 arch button_small
 x 25
 y 6
-protected 6
 connected 6
+protected 6
 end
 arch button_trigger
 x 25
 y 6
-protected 7
 connected 7
+protected 7
 end
 arch spikes_open
 x 25
 y 6
-protected 7
 connected 7
+protected 7
 end
 arch magic_mouth
 msg
@@ -3339,26 +3340,26 @@ msg
 endmsg
 x 25
 y 7
-protected 8
 connected 8
+protected 8
 end
 arch button_small
 x 25
 y 7
-protected 7
 connected 7
+protected 7
 end
 arch button_trigger
 x 25
 y 7
-protected 8
 connected 8
+protected 8
 end
 arch spikes_open
 x 25
 y 7
-protected 8
 connected 8
+protected 8
 end
 arch magic_mouth
 msg
@@ -3366,26 +3367,26 @@ msg
 endmsg
 x 25
 y 8
-protected 9
 connected 9
+protected 9
 end
 arch button_small
 x 25
 y 8
-protected 8
 connected 8
+protected 8
 end
 arch button_trigger
 x 25
 y 8
-protected 9
 connected 9
+protected 9
 end
 arch spikes_open
 x 25
 y 8
-protected 9
 connected 9
+protected 9
 end
 arch magic_mouth
 msg
@@ -3393,26 +3394,26 @@ msg
 endmsg
 x 25
 y 9
-protected 10
 connected 10
+protected 10
 end
 arch button_small
 x 25
 y 9
-protected 9
 connected 9
+protected 9
 end
 arch button_trigger
 x 25
 y 9
-protected 10
 connected 10
+protected 10
 end
 arch spikes_open
 x 25
 y 9
-protected 10
 connected 10
+protected 10
 end
 arch magic_mouth
 msg
@@ -3420,26 +3421,26 @@ msg
 endmsg
 x 25
 y 10
-protected 11
 connected 11
+protected 11
 end
 arch button_small
 x 25
 y 10
-protected 10
 connected 10
+protected 10
 end
 arch button_trigger
 x 25
 y 10
-protected 11
 connected 11
+protected 11
 end
 arch spikes_open
 x 25
 y 10
-protected 11
 connected 11
+protected 11
 end
 arch magic_mouth
 msg
@@ -3447,26 +3448,26 @@ msg
 endmsg
 x 25
 y 11
-protected 12
 connected 12
+protected 12
 end
 arch button_small
 x 25
 y 11
-protected 11
 connected 11
+protected 11
 end
 arch button_trigger
 x 25
 y 11
-protected 12
 connected 12
+protected 12
 end
 arch spikes_open
 x 25
 y 11
-protected 12
 connected 12
+protected 12
 end
 arch magic_mouth
 msg
@@ -3474,26 +3475,26 @@ msg
 endmsg
 x 25
 y 12
-protected 13
 connected 13
+protected 13
 end
 arch button_small
 x 25
 y 12
-protected 12
 connected 12
+protected 12
 end
 arch button_trigger
 x 25
 y 12
-protected 13
 connected 13
+protected 13
 end
 arch spikes_open
 x 25
 y 12
-protected 13
 connected 13
+protected 13
 end
 arch magic_mouth
 msg
@@ -3501,26 +3502,26 @@ msg
 endmsg
 x 25
 y 13
-protected 14
 connected 14
+protected 14
 end
 arch button_small
 x 25
 y 13
-protected 13
 connected 13
+protected 13
 end
 arch button_trigger
 x 25
 y 13
-protected 14
 connected 14
+protected 14
 end
 arch spikes_open
 x 25
 y 13
-protected 14
 connected 14
+protected 14
 end
 arch magic_mouth
 msg
@@ -3528,26 +3529,26 @@ msg
 endmsg
 x 25
 y 14
-protected 15
 connected 15
+protected 15
 end
 arch button_small
 x 25
 y 14
-protected 14
 connected 14
+protected 14
 end
 arch button_trigger
 x 25
 y 14
-protected 15
 connected 15
+protected 15
 end
 arch spikes_open
 x 25
 y 14
-protected 15
 connected 15
+protected 15
 end
 arch magic_mouth
 msg
@@ -3555,26 +3556,26 @@ msg
 endmsg
 x 25
 y 15
-protected 16
 connected 16
+protected 16
 end
 arch button_small
 x 25
 y 15
-protected 15
 connected 15
+protected 15
 end
 arch button_trigger
 x 25
 y 15
-protected 16
 connected 16
+protected 16
 end
 arch spikes_open
 x 25
 y 15
-protected 16
 connected 16
+protected 16
 end
 arch magic_mouth
 msg
@@ -3582,26 +3583,26 @@ msg
 endmsg
 x 25
 y 16
-protected 17
 connected 17
+protected 17
 end
 arch button_small
 x 25
 y 16
-protected 16
 connected 16
+protected 16
 end
 arch button_trigger
 x 25
 y 16
-protected 17
 connected 17
+protected 17
 end
 arch spikes_open
 x 25
 y 16
-protected 17
 connected 17
+protected 17
 end
 arch magic_mouth
 msg
@@ -3609,26 +3610,26 @@ msg
 endmsg
 x 25
 y 17
-protected 18
 connected 18
+protected 18
 end
 arch button_small
 x 25
 y 17
-protected 17
 connected 17
+protected 17
 end
 arch button_trigger
 x 25
 y 17
-protected 18
 connected 18
+protected 18
 end
 arch spikes_open
 x 25
 y 17
-protected 18
 connected 18
+protected 18
 end
 arch magic_mouth
 msg
@@ -3636,44 +3637,44 @@ msg
 endmsg
 x 25
 y 18
-protected 19
 connected 19
+protected 19
 end
 arch button_small
 x 25
 y 18
-protected 18
 connected 18
+protected 18
 end
 arch button_trigger
 x 25
 y 18
-protected 19
 connected 19
+protected 19
 end
 arch spikes_open
 x 25
 y 18
-protected 19
 connected 19
+protected 19
 end
 arch button_small
 x 25
 y 19
-protected 19
 connected 19
+protected 19
 end
 arch button_trigger
 x 25
 y 19
-protected 20
 connected 20
+protected 20
 end
 arch spikes_open
 x 25
 y 19
-protected 20
 connected 20
+protected 20
 end
 arch blocked
 x 25
@@ -3775,8 +3776,8 @@ end
 arch grate_closed_1
 x 27
 y 1
-protected 1
 connected 1
+protected 1
 end
 arch mover_5
 x 27
@@ -3785,8 +3786,8 @@ end
 arch spikes_open
 x 27
 y 2
-protected 201
 connected 201
+protected 201
 end
 arch mover_5
 x 27
@@ -3795,8 +3796,8 @@ end
 arch spikes_open
 x 27
 y 3
-protected 202
 connected 202
+protected 202
 end
 arch mover_5
 x 27
@@ -3805,8 +3806,8 @@ end
 arch spikes_open
 x 27
 y 4
-protected 203
 connected 203
+protected 203
 end
 arch mover_5
 x 27
@@ -3815,8 +3816,8 @@ end
 arch spikes_open
 x 27
 y 5
-protected 204
 connected 204
+protected 204
 end
 arch mover_5
 x 27
@@ -3825,8 +3826,8 @@ end
 arch spikes_open
 x 27
 y 6
-protected 205
 connected 205
+protected 205
 end
 arch mover_5
 x 27
@@ -3835,8 +3836,8 @@ end
 arch spikes_open
 x 27
 y 7
-protected 206
 connected 206
+protected 206
 end
 arch mover_5
 x 27
@@ -3845,8 +3846,8 @@ end
 arch spikes_open
 x 27
 y 8
-protected 207
 connected 207
+protected 207
 end
 arch mover_5
 x 27
@@ -3855,14 +3856,14 @@ end
 arch spikes_open
 x 27
 y 9
-protected 208
 connected 208
+protected 208
 end
 arch button_small
 x 27
 y 10
-protected 200
 connected 200
+protected 200
 end
 arch blocked
 x 27

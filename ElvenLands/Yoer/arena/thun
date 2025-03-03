@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 39
 height 39
+msg
+Created:  1999-12-04 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch marble
 name ice
@@ -241,6 +243,10 @@ face icestorm.111
 x 1
 y 6
 end
+arch big_elec
+x 1
+y 6
+end
 arch marble
 name ice
 face icestorm.111
@@ -280,6 +286,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 1
+y 13
+end
+arch big_elec
 x 1
 y 13
 end
@@ -325,6 +335,10 @@ face icestorm.111
 x 1
 y 20
 end
+arch big_elec
+x 1
+y 20
+end
 arch marble
 name ice
 face icestorm.111
@@ -367,6 +381,10 @@ face icestorm.111
 x 1
 y 27
 end
+arch big_elec
+x 1
+y 27
+end
 arch marble
 name ice
 face icestorm.111
@@ -406,6 +424,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 1
+y 34
+end
+arch big_elec
 x 1
 y 34
 end
@@ -907,6 +929,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 4
+y 1
+end
+arch big_elec
 x 4
 y 1
 end
@@ -1289,6 +1315,10 @@ arch flagstone
 x 5
 y 16
 end
+arch big_elec
+x 5
+y 16
+end
 arch flagstone
 x 5
 y 17
@@ -1306,6 +1336,10 @@ x 5
 y 19
 end
 arch flagstone
+x 5
+y 20
+end
+arch big_elec
 x 5
 y 20
 end
@@ -2184,6 +2218,10 @@ face icestorm.111
 x 8
 y 36
 end
+arch big_elec
+x 8
+y 36
+end
 arch marble
 name ice
 face icestorm.111
@@ -2320,6 +2358,10 @@ x 9
 y 19
 end
 arch flagstone
+x 9
+y 20
+end
+arch big_elec
 x 9
 y 20
 end
@@ -2691,6 +2733,10 @@ face icestorm.111
 x 11
 y 1
 end
+arch big_elec
+x 11
+y 1
+end
 arch marble
 name ice
 face icestorm.111
@@ -2730,6 +2776,10 @@ x 11
 y 7
 end
 arch flagstone
+x 11
+y 8
+end
+arch big_elec
 x 11
 y 8
 end
@@ -3749,6 +3799,11 @@ arch flagstone
 x 15
 y 8
 end
+arch big_elec
+Con 18
+x 15
+y 8
+end
 arch flagstone
 x 15
 y 9
@@ -3965,6 +4020,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 16
+y 1
+end
+arch big_elec
 x 16
 y 1
 end
@@ -4374,6 +4433,10 @@ arch flagstone
 x 17
 y 26
 end
+arch big_elec
+x 17
+y 26
+end
 arch flagstone
 x 17
 y 27
@@ -4502,6 +4565,10 @@ x 18
 y 7
 end
 arch flagstone
+x 18
+y 8
+end
+arch big_elec
 x 18
 y 8
 end
@@ -4681,6 +4748,58 @@ end
 arch flagstone
 x 18
 y 36
+end
+arch dragonman
+name Master of Lightning
+Int 5
+hp 7000
+maxhp 7000
+maxsp 50
+exp 200000
+dam 40
+wc -12
+ac -15
+x 18
+y 36
+level 30
+immune 8
+protected 2
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
+arch ability_lightning
+end
 end
 arch flagstone
 x 18
@@ -5214,6 +5333,10 @@ face icestorm.111
 x 21
 y 1
 end
+arch big_elec
+x 21
+y 1
+end
 arch marble
 name ice
 face icestorm.111
@@ -5510,6 +5633,10 @@ x 22
 y 7
 end
 arch flagstone
+x 22
+y 8
+end
+arch big_elec
 x 22
 y 8
 end
@@ -5960,6 +6087,10 @@ face icestorm.111
 x 23
 y 35
 end
+arch big_elec
+x 23
+y 35
+end
 arch marble
 name ice
 face icestorm.111
@@ -6348,6 +6479,10 @@ arch flagstone
 x 25
 y 20
 end
+arch big_elec
+x 25
+y 20
+end
 arch flagstone
 x 25
 y 21
@@ -6522,6 +6657,10 @@ x 26
 y 7
 end
 arch flagstone
+x 26
+y 8
+end
+arch big_elec
 x 26
 y 8
 end
@@ -7221,6 +7360,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 29
+y 1
+end
+arch big_elec
 x 29
 y 1
 end
@@ -7366,6 +7509,10 @@ arch flagstone
 x 29
 y 20
 end
+arch big_elec
+x 29
+y 20
+end
 arch flagstone
 x 29
 y 21
@@ -7719,6 +7866,10 @@ face icestorm.111
 x 30
 y 36
 end
+arch big_elec
+x 30
+y 36
+end
 arch marble
 name ice
 face icestorm.111
@@ -7833,6 +7984,10 @@ x 31
 y 15
 end
 arch flagstone
+x 31
+y 16
+end
+arch big_elec
 x 31
 y 16
 end
@@ -8525,6 +8680,10 @@ face icestorm.111
 x 34
 y 1
 end
+arch big_elec
+x 34
+y 1
+end
 arch marble
 name ice
 face icestorm.111
@@ -8806,6 +8965,10 @@ face icestorm.111
 x 35
 y 9
 end
+arch big_elec
+x 35
+y 9
+end
 arch marble
 name ice
 face icestorm.111
@@ -8827,6 +8990,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 35
+y 13
+end
+arch big_elec
 x 35
 y 13
 end
@@ -8893,6 +9060,10 @@ end
 arch marble
 name ice
 face icestorm.111
+x 35
+y 24
+end
+arch big_elec
 x 35
 y 24
 end
@@ -9195,6 +9366,10 @@ face icestorm.111
 x 36
 y 35
 end
+arch big_elec
+x 36
+y 35
+end
 arch marble
 name ice
 face icestorm.111
@@ -9678,177 +9853,4 @@ name ice
 face icestorm.111
 x 38
 y 38
-end
-arch big_elec
-x 1
-y 6
-end
-arch big_elec
-x 1
-y 13
-end
-arch big_elec
-x 1
-y 20
-end
-arch big_elec
-x 1
-y 27
-end
-arch big_elec
-x 1
-y 34
-end
-arch big_elec
-x 4
-y 1
-end
-arch big_elec
-x 5
-y 16
-end
-arch big_elec
-x 5
-y 20
-end
-arch big_elec
-x 8
-y 36
-end
-arch big_elec
-x 9
-y 20
-end
-arch big_elec
-x 11
-y 1
-end
-arch big_elec
-x 11
-y 8
-end
-arch big_elec
-Con 18
-x 15
-y 8
-end
-arch big_elec
-x 16
-y 1
-end
-arch big_elec
-x 17
-y 26
-end
-arch big_elec
-x 18
-y 8
-end
-arch dragonman
-name Master of Lightning
-Int 5
-hp 7000
-maxhp 7000
-maxsp 50
-exp 200000
-dam 40
-wc -12
-ac -15
-x 18
-y 36
-level 30
-immune 8
-protected 2
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-end
-arch big_elec
-x 21
-y 1
-end
-arch big_elec
-x 22
-y 8
-end
-arch big_elec
-x 23
-y 35
-end
-arch big_elec
-x 25
-y 20
-end
-arch big_elec
-x 26
-y 8
-end
-arch big_elec
-x 29
-y 1
-end
-arch big_elec
-x 29
-y 20
-end
-arch big_elec
-x 30
-y 36
-end
-arch big_elec
-x 31
-y 16
-end
-arch big_elec
-x 34
-y 1
-end
-arch big_elec
-x 35
-y 9
-end
-arch big_elec
-x 35
-y 13
-end
-arch big_elec
-x 35
-y 24
-end
-arch big_elec
-x 36
-y 35
 end

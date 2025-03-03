@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch blackmarble
 end
@@ -6329,6 +6331,11 @@ arch blackmarble
 x 23
 y 19
 end
+arch big_wiz
+name Advanced Wizard Master
+x 23
+y 19
+end
 arch blackmarble
 x 23
 y 20
@@ -6342,6 +6349,11 @@ x 23
 y 22
 end
 arch blackmarble
+x 23
+y 23
+end
+arch big_wiz
+name Advanced Wizard Master
 x 23
 y 23
 end
@@ -7258,14 +7270,4 @@ end
 arch blackmarble
 x 29
 y 29
-end
-arch big_wiz
-name Advanced Wizard Master
-x 23
-y 19
-end
-arch big_wiz
-name Advanced Wizard Master
-x 23
-y 23
 end

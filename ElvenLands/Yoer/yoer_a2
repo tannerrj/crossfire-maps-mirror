@@ -1,11 +1,12 @@
 arch map
 name country side
-msg
-Created:  2001-05-16 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+region elvenlands
 width 42
 height 34
+msg
+Created:  2001-05-16 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 outdoor 1
 tile_path_1 yoer_a1
 tile_path_2 yoer_b2
@@ -76,6 +77,9 @@ end
 arch mountain
 y 21
 end
+arch mountain_2
+y 22
+end
 arch mountain
 y 24
 end
@@ -124,6 +128,10 @@ end
 arch mountain
 x 1
 y 4
+end
+arch mountain_2
+x 1
+y 5
 end
 arch mountain
 x 1
@@ -276,6 +284,10 @@ arch mountain2
 x 2
 y 14
 end
+arch mountain_2
+x 2
+y 15
+end
 arch dirtroad_1_1
 x 2
 y 16
@@ -289,6 +301,7 @@ x 2
 y 17
 end
 arch invis_exit
+slaying /!
 msg
 floorstyle outdoor
 wallstyle valley
@@ -300,7 +313,6 @@ dungeon_level 10
 final_map
 /ElvenLands/quests/giant_regathu
 endmsg
-slaying /!
 x 2
 y 17
 end
@@ -466,6 +478,10 @@ end
 arch mountain
 x 3
 y 25
+end
+arch mountain_2
+x 3
+y 26
 end
 arch mountain
 x 3
@@ -2808,6 +2824,7 @@ x 19
 y 19
 end
 arch phole_1
+slaying /!
 msg
 floorstyle lightdirt
 wallstyle earthen
@@ -2817,7 +2834,6 @@ orientation 1
 dungeon_depth 6
 final_map /ElvenLands/quests/dreadlair
 endmsg
-slaying /!
 x 19
 y 19
 end
@@ -5896,19 +5912,4 @@ end
 arch grass
 x 41
 y 33
-end
-arch mountain_2
-y 22
-end
-arch mountain_2
-x 1
-y 5
-end
-arch mountain_2
-x 2
-y 15
-end
-arch mountain_2
-x 3
-y 26
 end

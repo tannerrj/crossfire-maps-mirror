@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-12-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -791,6 +793,10 @@ arch sea1
 x 8
 y 1
 end
+arch big_galleon
+x 8
+y 1
+end
 arch sea1
 x 8
 y 2
@@ -807,6 +813,10 @@ arch sea1
 x 8
 y 4
 end
+arch big_galleon
+x 8
+y 4
+end
 arch sea1
 x 8
 y 5
@@ -823,6 +833,10 @@ arch sea1
 x 8
 y 7
 end
+arch big_galleon
+x 8
+y 7
+end
 arch sea1
 x 8
 y 8
@@ -839,6 +853,10 @@ arch sea1
 x 8
 y 10
 end
+arch big_galleon
+x 8
+y 10
+end
 arch sea1
 x 8
 y 11
@@ -855,6 +873,10 @@ arch sea1
 x 8
 y 13
 end
+arch big_galleon
+x 8
+y 13
+end
 arch sea1
 x 8
 y 14
@@ -1330,24 +1352,4 @@ end
 arch sea
 x 15
 y 15
-end
-arch big_galleon
-x 8
-y 1
-end
-arch big_galleon
-x 8
-y 4
-end
-arch big_galleon
-x 8
-y 7
-end
-arch big_galleon
-x 8
-y 10
-end
-arch big_galleon
-x 8
-y 13
 end

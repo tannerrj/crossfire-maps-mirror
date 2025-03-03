@@ -1,11 +1,12 @@
 arch map
 name Council of the Grey Mantle
-msg
-Created:  2002-10-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
+region elvenlands
 width 32
 height 32
+msg
+Created:  2002-10-13 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch marble
 face marble_blgr.111
@@ -1092,7 +1093,7 @@ y 28
 end
 arch guildmaster
 name blue robed mystic
-face evoker.151
+race faerie
 msg
 @match hi|hello
 Welcome to the tower of the council of the blue mantle...
@@ -1110,34 +1111,34 @@ level of the tower is denied to you. That is where the Inner
 Council talks of matters beyond the ken of lowly ones such
 as ourselves.
 endmsg
-race faerie
-exp 1000
-randomitems standard
-speed 0.5
-attacktype 4113
-wc 1
+face evoker.151
+Con 7
 hp 300
 maxhp 300
-ac 1
-Con 7
 sp 60
 maxsp 60
-path_attuned 4
-path_repelled 2
-see_invisible 1
-can_see_in_dark 1
-can_use_weapon 1
-can_use_armour 1
-can_use_ring 1
-can_use_wand 1
-can_use_rod 1
-can_use_scroll 1
-can_use_skill 1
-pick_up 0
-resist_magic 50
-resist_cold 80
+exp 1000
+wc 1
+ac 1
 x 5
 y 28
+speed 0.5
+attacktype 4113
+resist_magic 50
+resist_cold 80
+path_attuned 4
+path_repelled 2
+randomitems standard
+pick_up 0
+see_invisible 1
+can_use_scroll 1
+can_use_armour 1
+can_use_weapon 1
+can_use_ring 1
+can_use_skill 1
+can_use_rod 1
+can_see_in_dark 1
+can_use_wand 1
 end
 arch marble
 face marble_blgr.111
@@ -2831,10 +2832,10 @@ name mystic
 face evoker.151
 hp 100
 maxhp 100
-pick_up 0
-randomitems standard
 x 14
 y 26
+randomitems standard
+pick_up 0
 end
 arch sea
 x 14

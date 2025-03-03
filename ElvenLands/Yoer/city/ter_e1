@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-12-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -206,7 +208,7 @@ name drunken pirate
 msg
 @match *
 *hic* Go to pirate bay and have a good
-time! *hic* *hic* 
+time! *hic* *hic*
 endmsg
 x 2
 y 2
@@ -918,6 +920,10 @@ arch sea1
 x 10
 y 1
 end
+arch big_galleon
+x 10
+y 1
+end
 arch sea1
 x 10
 y 2
@@ -931,6 +937,10 @@ x 10
 y 3
 end
 arch sea1
+x 10
+y 4
+end
+arch big_galleon
 x 10
 y 4
 end
@@ -950,6 +960,10 @@ arch sea1
 x 10
 y 7
 end
+arch big_galleon
+x 10
+y 7
+end
 arch sea1
 x 10
 y 8
@@ -966,6 +980,10 @@ arch sea1
 x 10
 y 10
 end
+arch big_galleon
+x 10
+y 10
+end
 arch sea1
 x 10
 y 11
@@ -979,6 +997,10 @@ x 10
 y 12
 end
 arch sea1
+x 10
+y 13
+end
+arch big_galleon
 x 10
 y 13
 end
@@ -1409,24 +1431,4 @@ end
 arch sea
 x 15
 y 15
-end
-arch big_galleon
-x 10
-y 1
-end
-arch big_galleon
-x 10
-y 4
-end
-arch big_galleon
-x 10
-y 7
-end
-arch big_galleon
-x 10
-y 10
-end
-arch big_galleon
-x 10
-y 13
 end

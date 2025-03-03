@@ -1,11 +1,12 @@
 arch map
 name white1
-msg
-Created:  2001-05-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 44
 height 32
+msg
+Created:  2001-05-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -1146,7 +1147,7 @@ What brings you to the white tower?
 @match join|Join
 We don't just let any stranger in,you
 know. You must be able to prove
-yourself. 
+yourself.
 @match council|grand high mages|Council
 The 6 grand high mages meet in the
 highest floor of the tower,only a
@@ -5497,7 +5498,7 @@ What brings you to the white tower?
 @match join|Join
 We don't just let any stranger in,you
 know. You must be able to prove
-yourself. 
+yourself.
 @match council|grand high mages|Council
 The 6 grand high mages meet in the
 highest floor of the tower,only a

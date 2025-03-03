@@ -1,11 +1,12 @@
 arch map
 name pirate
-msg
-Created:  1999-12-07 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-12-07 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -216,6 +217,10 @@ x 1
 y 6
 end
 arch dungeon_floor
+x 1
+y 7
+end
+arch barn
 x 1
 y 7
 end
@@ -333,11 +338,29 @@ arch dungeon_floor
 x 2
 y 1
 end
+arch inn
+name Sharks Hovel
+slaying /ElvenLands/Yoer/pirate/shar
+msg
+You enter the inn and see the
+innkeeper,his son,and many rowdy
+sailors. They seem to have hurt the
+innkeeper. The child is crying!
+endmsg
+hp 14
+sp 14
+x 2
+y 1
+end
 arch cobblestones2
 x 2
 y 2
 end
 arch dungeon_floor
+x 2
+y 3
+end
+arch slum1
 x 2
 y 3
 end
@@ -491,6 +514,10 @@ arch dungeon_floor
 x 3
 y 3
 end
+arch slum2
+x 3
+y 3
+end
 arch dungeon_floor
 x 3
 y 4
@@ -536,6 +563,10 @@ x 3
 y 12
 end
 arch dungeon_floor
+x 3
+y 13
+end
+arch stronghold
 x 3
 y 13
 end
@@ -633,6 +664,10 @@ arch dungeon_floor
 x 4
 y 3
 end
+arch slum2
+x 4
+y 3
+end
 arch dungeon_floor
 x 4
 y 4
@@ -646,6 +681,10 @@ x 4
 y 6
 end
 arch dungeon_floor
+x 4
+y 7
+end
+arch barn
 x 4
 y 7
 end
@@ -775,6 +814,10 @@ arch dungeon_floor
 x 5
 y 3
 end
+arch slum2
+x 5
+y 3
+end
 arch dungeon_floor
 x 5
 y 4
@@ -930,6 +973,10 @@ x 6
 y 2
 end
 arch dungeon_floor
+x 6
+y 3
+end
+arch slum2
 x 6
 y 3
 end
@@ -1072,6 +1119,10 @@ x 7
 y 2
 end
 arch dungeon_floor
+x 7
+y 3
+end
+arch slum2
 x 7
 y 3
 end
@@ -1233,6 +1284,10 @@ arch dungeon_floor
 x 8
 y 3
 end
+arch slum2
+x 8
+y 3
+end
 arch dungeon_floor
 x 8
 y 4
@@ -1270,6 +1325,14 @@ x 8
 y 12
 end
 arch dungeon_floor
+x 8
+y 13
+end
+arch farmhouse
+name Wehldo's appartments
+slaying /ElvenLands/Yoer/pirate/apt
+hp 2
+sp 14
 x 8
 y 13
 end
@@ -1367,6 +1430,10 @@ arch dungeon_floor
 x 9
 y 3
 end
+arch slum2
+x 9
+y 3
+end
 arch dungeon_floor
 x 9
 y 4
@@ -1420,6 +1487,14 @@ x 9
 y 15
 end
 arch dungeon_floor
+x 9
+y 16
+end
+arch house_long
+name inn
+slaying /ElvenLands/Yoer/pirate/inn4
+hp 4
+sp 1
 x 9
 y 16
 end
@@ -1510,6 +1585,10 @@ x 10
 y 2
 end
 arch dungeon_floor
+x 10
+y 3
+end
+arch slum2
 x 10
 y 3
 end
@@ -1636,6 +1715,10 @@ x 11
 y 2
 end
 arch dungeon_floor
+x 11
+y 3
+end
+arch slum3
 x 11
 y 3
 end
@@ -1913,6 +1996,10 @@ arch dungeon_floor
 x 13
 y 1
 end
+arch house_up
+x 13
+y 1
+end
 arch dungeon_floor
 x 13
 y 2
@@ -2064,6 +2151,10 @@ arch dwall_2_1_2
 x 14
 end
 arch dungeon_floor
+x 14
+y 1
+end
+arch barrack_up
 x 14
 y 1
 end
@@ -2217,6 +2308,10 @@ arch dungeon_floor
 x 15
 y 1
 end
+arch barrack_up
+x 15
+y 1
+end
 arch dungeon_floor
 x 15
 y 2
@@ -2250,6 +2345,10 @@ x 15
 y 9
 end
 arch dungeon_floor
+x 15
+y 10
+end
+arch house_up
 x 15
 y 10
 end
@@ -2340,6 +2439,10 @@ arch dwall_2_1_2
 x 16
 end
 arch dungeon_floor
+x 16
+y 1
+end
+arch barrack_up
 x 16
 y 1
 end
@@ -2371,6 +2474,10 @@ arch dungeon_floor
 x 16
 y 6
 end
+arch prison
+x 16
+y 6
+end
 arch dungeon_floor
 x 16
 y 7
@@ -2455,6 +2562,14 @@ arch dungeon_floor
 x 16
 y 27
 end
+arch house_largish
+name Viking Arms for sale
+slaying /ElvenLands/Yoer/pirate/vike
+hp 1
+sp 1
+x 16
+y 27
+end
 arch dungeon_floor
 x 16
 y 28
@@ -2474,6 +2589,10 @@ arch dwall_2_1_2
 x 17
 end
 arch dungeon_floor
+x 17
+y 1
+end
+arch barrack_up
 x 17
 y 1
 end
@@ -2509,6 +2628,10 @@ arch dungeon_floor
 x 17
 y 9
 end
+arch keep
+x 17
+y 9
+end
 arch dungeon_floor
 x 17
 y 10
@@ -2530,6 +2653,14 @@ x 17
 y 14
 end
 arch dungeon_floor
+x 17
+y 15
+end
+arch house_largish
+name Buldsa's wine emporium
+slaying /ElvenLands/Yoer/pirate/wine
+hp 1
+sp 1
 x 17
 y 15
 end
@@ -2871,11 +3002,37 @@ arch dungeon_floor
 x 20
 y 4
 end
+arch inn
+name the Singing Whale
+slaying /ElvenLands/Yoer/pirate/whale
+msg
+You see brutal sailors beating the
+innkeeper. Maybe you can save him! They
+are trying to get his key.
+endmsg
+hp 1
+sp 14
+x 20
+y 4
+end
 arch cobblestones2
 x 20
 y 5
 end
 arch dungeon_floor
+x 20
+y 6
+end
+arch house_long
+name Boff's Inn
+slaying /ElvenLands/Yoer/pirate/tav
+msg
+The drunken sailors have started a
+fight! The frightened innkeeper has
+fled the inn.
+endmsg
+hp 4
+sp 7
 x 20
 y 6
 end
@@ -3081,6 +3238,10 @@ arch sea1
 x 21
 y 21
 end
+arch rowboat
+x 21
+y 21
+end
 arch sea1
 x 21
 y 22
@@ -3094,6 +3255,10 @@ x 21
 y 23
 end
 arch dungeon_floor
+x 21
+y 24
+end
+arch barn
 x 21
 y 24
 end
@@ -3175,6 +3340,10 @@ arch dungeon_floor
 x 22
 y 12
 end
+arch barn
+x 22
+y 12
+end
 arch dungeon_floor
 x 22
 y 13
@@ -3184,6 +3353,10 @@ x 22
 y 14
 end
 arch dungeon_floor
+x 22
+y 15
+end
+arch barn
 x 22
 y 15
 end
@@ -3247,6 +3420,10 @@ arch dungeon_floor
 x 22
 y 27
 end
+arch barn
+x 22
+y 27
+end
 arch dungeon_floor
 x 22
 y 28
@@ -3362,6 +3539,10 @@ x 23
 y 19
 end
 arch sea1
+x 23
+y 20
+end
+arch rowboat
 x 23
 y 20
 end
@@ -3475,6 +3656,10 @@ arch sea1
 x 24
 y 9
 end
+arch s_ship
+x 24
+y 9
+end
 arch sea1
 x 24
 y 10
@@ -3625,6 +3810,10 @@ arch sea1
 x 25
 y 6
 end
+arch s_ship
+x 25
+y 6
+end
 arch sea1
 x 25
 y 7
@@ -3709,6 +3898,10 @@ arch sea1
 x 25
 y 19
 end
+arch s_ship
+x 25
+y 19
+end
 arch sea1
 x 25
 y 20
@@ -3718,6 +3911,10 @@ x 25
 y 21
 end
 arch sea1
+x 25
+y 22
+end
+arch longship
 x 25
 y 22
 end
@@ -3771,6 +3968,10 @@ arch dungeon_floor
 x 26
 y 1
 end
+arch city_tower
+x 26
+y 1
+end
 arch dungeon_floor
 x 26
 y 2
@@ -3784,6 +3985,10 @@ x 26
 y 3
 end
 arch sea1
+x 26
+y 4
+end
+arch s_ship
 x 26
 y 4
 end
@@ -3819,6 +4024,10 @@ arch sea1
 x 26
 y 12
 end
+arch big_galleon
+x 26
+y 12
+end
 arch sea1
 x 26
 y 13
@@ -3828,6 +4037,10 @@ x 26
 y 14
 end
 arch sea1
+x 26
+y 15
+end
+arch big_galleon
 x 26
 y 15
 end
@@ -3864,6 +4077,10 @@ x 26
 y 23
 end
 arch sea1
+x 26
+y 24
+end
+arch s_ship
 x 26
 y 24
 end
@@ -4041,6 +4258,18 @@ arch sea1
 x 28
 y 2
 end
+arch big_galleon
+name a red ship
+slaying /navar_city/city1
+msg
+You are knocked over the head and find
+yourself in a totally different ship!
+endmsg
+hp 36
+sp 11
+x 28
+y 2
+end
 arch sea1
 x 28
 y 3
@@ -4267,232 +4496,4 @@ end
 arch sea1
 x 29
 y 29
-end
-arch barn
-x 1
-y 7
-end
-arch inn
-name Sharks Hovel
-slaying /ElvenLands/Yoer/pirate/shar
-msg
-You enter the inn and see the
-innkeeper,his son,and many rowdy
-sailors. They seem to have hurt the
-innkeeper. The child is crying!
-endmsg
-hp 14
-sp 14
-x 2
-y 1
-end
-arch slum1
-x 2
-y 3
-end
-arch slum2
-x 3
-y 3
-end
-arch stronghold
-x 3
-y 13
-end
-arch slum2
-x 4
-y 3
-end
-arch barn
-x 4
-y 7
-end
-arch slum2
-x 5
-y 3
-end
-arch slum2
-x 6
-y 3
-end
-arch slum2
-x 7
-y 3
-end
-arch slum2
-x 8
-y 3
-end
-arch farmhouse
-name Wehldo's appartments
-slaying /ElvenLands/Yoer/pirate/apt
-hp 2
-sp 14
-x 8
-y 13
-end
-arch slum2
-x 9
-y 3
-end
-arch house_long
-name inn
-slaying /ElvenLands/Yoer/pirate/inn4
-hp 4
-sp 1
-x 9
-y 16
-end
-arch slum2
-x 10
-y 3
-end
-arch slum3
-x 11
-y 3
-end
-arch house_up
-x 13
-y 1
-end
-arch barrack_up
-x 14
-y 1
-end
-arch barrack_up
-x 15
-y 1
-end
-arch house_up
-x 15
-y 10
-end
-arch barrack_up
-x 16
-y 1
-end
-arch prison
-x 16
-y 6
-end
-arch house_largish
-name Viking Arms for sale
-slaying /ElvenLands/Yoer/pirate/vike
-hp 1
-sp 1
-x 16
-y 27
-end
-arch barrack_up
-x 17
-y 1
-end
-arch keep
-x 17
-y 9
-end
-arch house_largish
-name Buldsa's wine emporium
-slaying /ElvenLands/Yoer/pirate/wine
-hp 1
-sp 1
-x 17
-y 15
-end
-arch inn
-name the Singing Whale
-slaying /ElvenLands/Yoer/pirate/whale
-msg
-You see brutal sailors beating the
-innkeeper. Maybe you can save him! They
-are trying to get his key.
-endmsg
-hp 1
-sp 14
-x 20
-y 4
-end
-arch house_long
-name Boff's Inn
-slaying /ElvenLands/Yoer/pirate/tav
-msg
-The drunken sailors have started a
-fight! The frightened innkeeper has
-fled the inn.
-endmsg
-hp 4
-sp 7
-x 20
-y 6
-end
-arch rowboat
-x 21
-y 21
-end
-arch barn
-x 21
-y 24
-end
-arch barn
-x 22
-y 12
-end
-arch barn
-x 22
-y 15
-end
-arch barn
-x 22
-y 27
-end
-arch rowboat
-x 23
-y 20
-end
-arch s_ship
-x 24
-y 9
-end
-arch s_ship
-x 25
-y 6
-end
-arch s_ship
-x 25
-y 19
-end
-arch longship
-x 25
-y 22
-end
-arch city_tower
-x 26
-y 1
-end
-arch s_ship
-x 26
-y 4
-end
-arch big_galleon
-x 26
-y 12
-end
-arch big_galleon
-x 26
-y 15
-end
-arch s_ship
-x 26
-y 24
-end
-arch big_galleon
-name a red ship
-slaying /navar_city/city1
-msg
-You are knocked over the head and find
-yourself in a totally different ship!
-endmsg
-hp 36
-sp 11
-x 28
-y 2
 end

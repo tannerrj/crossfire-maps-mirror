@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 28
 height 28
+msg
+Created:  2001-05-12 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -241,6 +243,10 @@ arch cobblestones2
 x 1
 y 12
 end
+arch chinese_dragon
+x 1
+y 12
+end
 arch cobblestones2
 x 1
 y 13
@@ -250,6 +256,10 @@ x 1
 y 14
 end
 arch cobblestones2
+x 1
+y 15
+end
+arch big_dragon
 x 1
 y 15
 end
@@ -354,6 +364,10 @@ arch cobblestones2
 x 2
 y 7
 end
+arch chinese_dragon
+x 2
+y 7
+end
 arch cobblestones2
 x 2
 y 8
@@ -363,6 +377,10 @@ x 2
 y 9
 end
 arch cobblestones2
+x 2
+y 10
+end
+arch chinese_dragon
 x 2
 y 10
 end
@@ -402,6 +420,10 @@ arch cobblestones2
 x 2
 y 19
 end
+arch big_dragon
+x 2
+y 19
+end
 arch cobblestones2
 x 2
 y 20
@@ -414,11 +436,19 @@ arch cobblestones2
 x 2
 y 22
 end
+arch big_dragon
+x 2
+y 22
+end
 arch cobblestones2
 x 2
 y 23
 end
 arch cobblestones2
+x 2
+y 24
+end
+arch big_elec
 x 2
 y 24
 end
@@ -644,6 +674,10 @@ arch cobblestones2
 x 4
 y 13
 end
+arch chinese_dragon
+x 4
+y 13
+end
 arch cobblestones2
 x 4
 y 14
@@ -657,6 +691,10 @@ x 4
 y 16
 end
 arch cobblestones2
+x 4
+y 17
+end
+arch big_dragon
 x 4
 y 17
 end
@@ -753,6 +791,10 @@ arch cobblestones2
 x 5
 y 7
 end
+arch chinese_dragon
+x 5
+y 7
+end
 arch cobblestones2
 x 5
 y 8
@@ -762,6 +804,10 @@ x 5
 y 9
 end
 arch cobblestones2
+x 5
+y 10
+end
+arch chinese_dragon
 x 5
 y 10
 end
@@ -818,6 +864,10 @@ x 5
 y 23
 end
 arch cobblestones2
+x 5
+y 24
+end
+arch big_dragon
 x 5
 y 24
 end
@@ -1353,6 +1403,10 @@ arch cobblestones2
 x 8
 y 24
 end
+arch big_elec
+x 8
+y 24
+end
 arch cobblestones2
 x 8
 y 25
@@ -1505,6 +1559,10 @@ arch cobblestones2
 x 9
 y 18
 end
+arch big_elec
+x 9
+y 18
+end
 arch cobblestones2
 x 9
 y 19
@@ -1650,6 +1708,10 @@ x 10
 y 20
 end
 arch cobblestones2
+x 10
+y 21
+end
+arch big_elec
 x 10
 y 21
 end
@@ -3011,7 +3073,7 @@ Congratulations,you have proved your
 worthiness. You have now proceeded to
 the 7th circle of the White Circle.
 Your circle meets upstairs.
- 
+
 endmsg
 x 19
 y 2
@@ -4702,64 +4764,4 @@ end
 arch dwall_2_2_4
 x 27
 y 27
-end
-arch chinese_dragon
-x 1
-y 12
-end
-arch big_dragon
-x 1
-y 15
-end
-arch chinese_dragon
-x 2
-y 7
-end
-arch chinese_dragon
-x 2
-y 10
-end
-arch big_dragon
-x 2
-y 19
-end
-arch big_dragon
-x 2
-y 22
-end
-arch big_elec
-x 2
-y 24
-end
-arch chinese_dragon
-x 4
-y 13
-end
-arch big_dragon
-x 4
-y 17
-end
-arch chinese_dragon
-x 5
-y 7
-end
-arch chinese_dragon
-x 5
-y 10
-end
-arch big_dragon
-x 5
-y 24
-end
-arch big_elec
-x 8
-y 24
-end
-arch big_elec
-x 9
-y 18
-end
-arch big_elec
-x 10
-y 21
 end

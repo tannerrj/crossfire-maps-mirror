@@ -1,11 +1,12 @@
 arch map
 name ter_2
-msg
-Created:  1999-12-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-12-06 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -2570,6 +2571,10 @@ arch dungeon_floor
 x 14
 y 16
 end
+arch cobra
+x 14
+y 16
+end
 arch dungeon_floor
 x 14
 y 17
@@ -2886,6 +2891,10 @@ arch dungeon_floor
 x 16
 y 26
 end
+arch cobra
+x 16
+y 26
+end
 arch sea1
 x 16
 y 27
@@ -3654,6 +3663,10 @@ arch dungeon_floor
 x 22
 y 16
 end
+arch cobra
+x 22
+y 16
+end
 arch sea1
 x 22
 y 17
@@ -3943,6 +3956,10 @@ x 24
 y 17
 end
 arch sea1
+x 24
+y 18
+end
+arch cobra
 x 24
 y 18
 end
@@ -4838,20 +4855,4 @@ end
 arch dwall_2_2_4
 x 29
 y 29
-end
-arch cobra
-x 14
-y 16
-end
-arch cobra
-x 16
-y 26
-end
-arch cobra
-x 22
-y 16
-end
-arch cobra
-x 24
-y 18
 end

@@ -1,12 +1,13 @@
 arch map
 name specia
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+difficulty 5
+region elvenlands
 width 35
 height 35
-difficulty 5
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -3187,6 +3188,10 @@ arch flagstone
 x 12
 y 29
 end
+arch Balrog
+x 12
+y 29
+end
 arch flagstone
 x 12
 y 30
@@ -3364,6 +3369,14 @@ end
 arch flagstone
 x 13
 y 19
+end
+arch giant
+x 13
+y 19
+carrying 100
+arch key2
+slaying specia1
+end
 end
 arch flagstone
 x 13
@@ -3678,6 +3691,10 @@ arch flagstone
 x 15
 y 1
 end
+arch DK
+x 15
+y 1
+end
 arch flagstone
 x 15
 y 2
@@ -3841,6 +3858,10 @@ x 15
 y 23
 end
 arch flagstone
+x 15
+y 24
+end
+arch big_dragon
 x 15
 y 24
 end
@@ -4761,6 +4782,10 @@ arch flagstone
 x 19
 y 31
 end
+arch baslic
+x 19
+y 31
+end
 arch flagstone
 x 19
 y 32
@@ -4916,6 +4941,10 @@ arch flagstone
 x 20
 y 23
 end
+arch chinese_dragon
+x 20
+y 23
+end
 arch flagstone
 x 20
 y 24
@@ -4937,6 +4966,10 @@ x 20
 y 27
 end
 arch flagstone
+x 20
+y 28
+end
+arch dread
 x 20
 y 28
 end
@@ -5923,6 +5956,10 @@ x 24
 y 31
 end
 arch flagstone
+x 24
+y 32
+end
+arch ent
 x 24
 y 32
 end
@@ -8465,40 +8502,4 @@ end
 arch dwall_2_2_4
 x 34
 y 34
-end
-arch Balrog
-x 12
-y 29
-end
-arch giant
-x 13
-y 19
-carrying 100
-arch key2
-slaying specia1
-end
-end
-arch DK
-x 15
-y 1
-end
-arch big_dragon
-x 15
-y 24
-end
-arch baslic
-x 19
-y 31
-end
-arch chinese_dragon
-x 20
-y 23
-end
-arch dread
-x 20
-y 28
-end
-arch ent
-x 24
-y 32
 end

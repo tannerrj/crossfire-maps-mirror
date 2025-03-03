@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-06-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 5
 width 12
 height 12
-darkness 5
+msg
+Created:  2002-06-01 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -523,6 +525,39 @@ end
 arch dungeon_floor
 x 7
 y 4
+end
+arch troll
+name troll guard
+msg
+@match *
+Grrrr...
+endmsg
+Str 50
+Con 25
+hp 2000
+maxhp 2000
+exp 17000
+dam 30
+wc -10
+ac -6
+x 7
+y 4
+level 16
+carrying 123250
+unaggressive 1
+arch full_helmet
+end
+arch plate_mail
+end
+arch spiked_shield
+end
+arch longbow
+end
+arch arrow
+nrof 30
+end
+arch torch_1
+end
 end
 arch dungeon_floor
 x 7
@@ -832,37 +867,4 @@ end
 arch dungeon_floor
 x 11
 y 11
-end
-arch troll
-name troll guard
-msg
-@match *
-Grrrr...
-endmsg
-Str 50
-Con 25
-hp 2000
-maxhp 2000
-exp 17000
-dam 30
-wc -10
-ac -6
-x 7
-y 4
-level 16
-carrying 123250
-unaggressive 1
-arch full_helmet
-end
-arch plate_mail
-end
-arch spiked_shield
-end
-arch longbow
-end
-arch arrow
-nrof 30
-end
-arch torch_1
-end
 end

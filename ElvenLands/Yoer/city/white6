@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-11 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 26
 height 26
+msg
+Created:  2001-05-11 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -252,6 +254,10 @@ arch cobblestones2
 x 1
 y 14
 end
+arch troll
+x 1
+y 14
+end
 arch cobblestones2
 x 1
 y 15
@@ -260,11 +266,19 @@ arch cobblestones2
 x 1
 y 16
 end
+arch troll
+x 1
+y 16
+end
 arch cobblestones2
 x 1
 y 17
 end
 arch cobblestones2
+x 1
+y 18
+end
+arch troll
 x 1
 y 18
 end
@@ -456,11 +470,19 @@ arch cobblestones2
 x 2
 y 21
 end
+arch dread
+x 2
+y 21
+end
 arch cobblestones2
 x 2
 y 22
 end
 arch cobblestones2
+x 2
+y 23
+end
+arch dread
 x 2
 y 23
 end
@@ -549,11 +571,19 @@ arch cobblestones2
 x 3
 y 12
 end
+arch troll
+x 3
+y 12
+end
 arch cobblestones2
 x 3
 y 13
 end
 arch cobblestones2
+x 3
+y 14
+end
+arch troll
 x 3
 y 14
 end
@@ -565,11 +595,19 @@ arch cobblestones2
 x 3
 y 16
 end
+arch troll
+x 3
+y 16
+end
 arch cobblestones2
 x 3
 y 17
 end
 arch cobblestones2
+x 3
+y 18
+end
+arch troll
 x 3
 y 18
 end
@@ -727,6 +765,10 @@ x 4
 y 22
 end
 arch cobblestones2
+x 4
+y 23
+end
+arch dread
 x 4
 y 23
 end
@@ -824,11 +866,19 @@ arch cobblestones2
 x 5
 y 12
 end
+arch troll
+x 5
+y 12
+end
 arch cobblestones2
 x 5
 y 13
 end
 arch cobblestones2
+x 5
+y 14
+end
+arch troll
 x 5
 y 14
 end
@@ -840,11 +890,19 @@ arch cobblestones2
 x 5
 y 16
 end
+arch troll
+x 5
+y 16
+end
 arch cobblestones2
 x 5
 y 17
 end
 arch cobblestones2
+x 5
+y 18
+end
+arch troll
 x 5
 y 18
 end
@@ -861,6 +919,10 @@ x 5
 y 20
 end
 arch cobblestones2
+x 5
+y 21
+end
+arch dread
 x 5
 y 21
 end
@@ -1106,11 +1168,19 @@ arch cobblestones2
 x 7
 y 12
 end
+arch troll
+x 7
+y 12
+end
 arch cobblestones2
 x 7
 y 13
 end
 arch cobblestones2
+x 7
+y 14
+end
+arch troll
 x 7
 y 14
 end
@@ -1122,6 +1192,10 @@ arch cobblestones2
 x 7
 y 16
 end
+arch troll
+x 7
+y 16
+end
 arch cobblestones2
 x 7
 y 17
@@ -1130,11 +1204,19 @@ arch cobblestones2
 x 7
 y 18
 end
+arch troll
+x 7
+y 18
+end
 arch cobblestones2
 x 7
 y 19
 end
 arch cobblestones2
+x 7
+y 20
+end
+arch dread
 x 7
 y 20
 end
@@ -1147,6 +1229,10 @@ x 7
 y 22
 end
 arch cobblestones2
+x 7
+y 23
+end
+arch dread
 x 7
 y 23
 end
@@ -2508,7 +2594,7 @@ arch rod_light
 name whining rod
 msg
 This weapon is extremely fast and does
-a fair amount of damage. 
+a fair amount of damage.
 endmsg
 Dex 3
 Pow 1
@@ -2534,7 +2620,7 @@ Congratulations,you have proved your
 worthiness. You have now proceeded to
 the 6th circle of the White Circle.
 Your circle meets upstairs.
- 
+
 endmsg
 x 16
 y 2
@@ -4120,88 +4206,4 @@ end
 arch dwall_2_2_4
 x 25
 y 25
-end
-arch troll
-x 1
-y 14
-end
-arch troll
-x 1
-y 16
-end
-arch troll
-x 1
-y 18
-end
-arch dread
-x 2
-y 21
-end
-arch dread
-x 2
-y 23
-end
-arch troll
-x 3
-y 12
-end
-arch troll
-x 3
-y 14
-end
-arch troll
-x 3
-y 16
-end
-arch troll
-x 3
-y 18
-end
-arch dread
-x 4
-y 23
-end
-arch troll
-x 5
-y 12
-end
-arch troll
-x 5
-y 14
-end
-arch troll
-x 5
-y 16
-end
-arch troll
-x 5
-y 18
-end
-arch dread
-x 5
-y 21
-end
-arch troll
-x 7
-y 12
-end
-arch troll
-x 7
-y 14
-end
-arch troll
-x 7
-y 16
-end
-arch troll
-x 7
-y 18
-end
-arch dread
-x 7
-y 20
-end
-arch dread
-x 7
-y 23
 end

@@ -1,11 +1,12 @@
 arch map
 name high elf village
-msg
-Created:  2002-10-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-19 Rick Tanner
-endmsg
+region elvenlands
 width 50
 height 50
+msg
+Created:  2002-10-10 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 outdoor 1
 end
 arch mountain
@@ -2242,6 +2243,10 @@ arch snow
 x 11
 y 13
 end
+arch s_inn
+x 11
+y 13
+end
 arch istone
 x 11
 y 14
@@ -5686,6 +5691,10 @@ x 28
 y 6
 end
 arch drifts
+x 28
+y 7
+end
+arch s_tower1
 x 28
 y 7
 end
@@ -6633,6 +6642,10 @@ arch mountain4
 x 32
 y 43
 end
+arch mountain_2
+x 32
+y 44
+end
 arch mountain
 x 32
 y 46
@@ -6994,6 +7007,14 @@ end
 arch mountain4
 x 34
 y 39
+end
+arch mountain_2
+x 34
+y 40
+end
+arch mountain_2
+x 34
+y 42
 end
 arch mountain4
 x 34
@@ -7966,6 +7987,10 @@ arch mountain4
 x 39
 y 37
 end
+arch mountain_2
+x 39
+y 38
+end
 arch mountain4
 x 39
 y 40
@@ -8012,6 +8037,10 @@ end
 arch blocked
 x 40
 y 1
+end
+arch bear
+x 40
+y 2
 end
 arch blocked
 x 40
@@ -8164,6 +8193,10 @@ end
 arch mountain4
 x 40
 y 43
+end
+arch mountain_2
+x 40
+y 44
 end
 arch mountain
 x 40
@@ -8380,9 +8413,9 @@ x 42
 y 1
 end
 arch button_plate
-connected 1
 x 42
 y 3
+connected 1
 end
 arch blocked
 x 42
@@ -8391,10 +8424,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 42
 y 6
+speed 0.0
+connected 1
 end
 arch wolf
 x 42
@@ -8403,10 +8436,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 42
 y 7
+speed 0.0
+connected 1
 end
 arch wolf
 x 42
@@ -8415,10 +8448,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 42
 y 8
+speed 0.0
+connected 1
 end
 arch wolf
 x 42
@@ -8596,18 +8629,18 @@ x 43
 y 1
 end
 arch button_plate
-connected 2
 x 43
 y 2
+connected 2
 end
 arch igate_open_1
 x 43
 y 3
 end
 arch button_plate
-connected 4
 x 43
 y 4
+connected 4
 end
 arch blocked
 x 43
@@ -8616,10 +8649,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 43
 y 6
+speed 0.0
+connected 1
 end
 arch wolf
 x 43
@@ -8628,10 +8661,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 43
 y 7
+speed 0.0
+connected 1
 end
 arch wolf
 x 43
@@ -8640,10 +8673,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 43
 y 8
+speed 0.0
+connected 1
 end
 arch wolf
 x 43
@@ -8821,9 +8854,9 @@ x 44
 y 1
 end
 arch button_plate
-connected 3
 x 44
 y 3
+connected 3
 end
 arch blocked
 x 44
@@ -8832,10 +8865,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 44
 y 6
+speed 0.0
+connected 1
 end
 arch wolf
 x 44
@@ -8844,10 +8877,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 44
 y 7
+speed 0.0
+connected 1
 end
 arch wolf
 x 44
@@ -8856,10 +8889,10 @@ end
 arch teleporter
 hp 30
 sp 19
-connected 1
-speed 0.0
 x 44
 y 8
+speed 0.0
+connected 1
 end
 arch wolf
 x 44
@@ -9254,10 +9287,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 46
 y 6
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 46
@@ -9266,10 +9299,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 46
 y 7
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 46
@@ -9278,10 +9311,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 46
 y 8
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 46
@@ -9462,6 +9495,10 @@ arch blocked
 x 47
 y 2
 end
+arch polarbear
+x 47
+y 3
+end
 arch blocked
 x 47
 y 5
@@ -9469,10 +9506,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 47
 y 6
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 47
@@ -9481,10 +9518,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 47
 y 7
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 47
@@ -9493,10 +9530,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 47
 y 8
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 47
@@ -9692,10 +9729,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 48
 y 6
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 48
@@ -9704,10 +9741,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 48
 y 7
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 48
@@ -9716,10 +9753,10 @@ end
 arch teleporter
 hp 30
 sp 23
-connected 2
-speed 0.0
 x 48
 y 8
+speed 0.0
+connected 2
 end
 arch dire_wolf
 x 48
@@ -10067,40 +10104,4 @@ end
 arch mountain
 x 49
 y 49
-end
-arch s_inn
-x 11
-y 13
-end
-arch s_tower1
-x 28
-y 7
-end
-arch mountain_2
-x 32
-y 44
-end
-arch mountain_2
-x 34
-y 40
-end
-arch mountain_2
-x 34
-y 42
-end
-arch mountain_2
-x 39
-y 38
-end
-arch bear
-x 40
-y 2
-end
-arch mountain_2
-x 40
-y 44
-end
-arch polarbear
-x 47
-y 3
 end

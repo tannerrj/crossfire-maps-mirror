@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2001-05-11 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-14 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 26
 height 26
+msg
+Created:  2001-05-11 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -458,6 +460,10 @@ arch cobblestones2
 x 2
 y 17
 end
+arch giant
+x 2
+y 17
+end
 arch cobblestones2
 x 2
 y 18
@@ -598,6 +604,10 @@ arch cobblestones2
 x 3
 y 15
 end
+arch giant
+x 3
+y 15
+end
 arch cobblestones2
 x 3
 y 16
@@ -614,6 +624,10 @@ arch cobblestones2
 x 3
 y 19
 end
+arch giant
+x 3
+y 19
+end
 arch cobblestones2
 x 3
 y 20
@@ -622,11 +636,19 @@ arch cobblestones2
 x 3
 y 21
 end
+arch dragon
+x 3
+y 21
+end
 arch cobblestones2
 x 3
 y 22
 end
 arch cobblestones2
+x 3
+y 23
+end
+arch dragon
 x 3
 y 23
 end
@@ -743,6 +765,10 @@ arch cobblestones2
 x 4
 y 14
 end
+arch giant
+x 4
+y 14
+end
 arch cobblestones2
 x 4
 y 15
@@ -752,6 +778,10 @@ x 4
 y 16
 end
 arch cobblestones2
+x 4
+y 17
+end
+arch giant
 x 4
 y 17
 end
@@ -772,6 +802,10 @@ x 4
 y 21
 end
 arch cobblestones2
+x 4
+y 22
+end
+arch dragon
 x 4
 y 22
 end
@@ -901,6 +935,10 @@ arch cobblestones2
 x 5
 y 15
 end
+arch giant
+x 5
+y 15
+end
 arch cobblestones2
 x 5
 y 16
@@ -909,11 +947,19 @@ arch cobblestones2
 x 5
 y 17
 end
+arch giant
+x 5
+y 17
+end
 arch cobblestones2
 x 5
 y 18
 end
 arch cobblestones2
+x 5
+y 19
+end
+arch giant
 x 5
 y 19
 end
@@ -1087,6 +1133,10 @@ arch cobblestones2
 x 6
 y 15
 end
+arch giant
+x 6
+y 15
+end
 arch cobblestones2
 x 6
 y 16
@@ -1111,11 +1161,23 @@ arch cobblestones2
 x 6
 y 21
 end
+arch dragon
+x 6
+y 21
+end
 arch cobblestones2
 x 6
 y 22
 end
+arch dragon
+x 6
+y 22
+end
 arch cobblestones2
+x 6
+y 23
+end
+arch dragon
 x 6
 y 23
 end
@@ -1252,6 +1314,10 @@ x 7
 y 15
 end
 arch cobblestones2
+x 7
+y 16
+end
+arch giant
 x 7
 y 16
 end
@@ -1471,7 +1537,15 @@ arch cobblestones2
 x 8
 y 22
 end
+arch dragon
+x 8
+y 22
+end
 arch cobblestones2
+x 8
+y 23
+end
+arch dragon
 x 8
 y 23
 end
@@ -1799,7 +1873,15 @@ arch cobblestones2
 x 10
 y 22
 end
+arch dragon
+x 10
+y 22
+end
 arch cobblestones2
+x 10
+y 23
+end
+arch dragon
 x 10
 y 23
 end
@@ -2825,7 +2907,7 @@ Congratulations,you have proved your
 worthiness. You have now proceeded to
 the 4th circle of the White Circle.
 Your circle meets upstairs.
- 
+
 endmsg
 x 16
 y 2
@@ -4390,84 +4472,4 @@ end
 arch dwall_2_2_4
 x 25
 y 25
-end
-arch giant
-x 2
-y 17
-end
-arch giant
-x 3
-y 15
-end
-arch giant
-x 3
-y 19
-end
-arch dragon
-x 3
-y 21
-end
-arch dragon
-x 3
-y 23
-end
-arch giant
-x 4
-y 14
-end
-arch giant
-x 4
-y 17
-end
-arch dragon
-x 4
-y 22
-end
-arch giant
-x 5
-y 15
-end
-arch giant
-x 5
-y 17
-end
-arch giant
-x 5
-y 19
-end
-arch giant
-x 6
-y 15
-end
-arch dragon
-x 6
-y 21
-end
-arch dragon
-x 6
-y 22
-end
-arch dragon
-x 6
-y 23
-end
-arch giant
-x 7
-y 16
-end
-arch dragon
-x 8
-y 22
-end
-arch dragon
-x 8
-y 23
-end
-arch dragon
-x 10
-y 22
-end
-arch dragon
-x 10
-y 23
 end

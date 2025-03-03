@@ -1,11 +1,12 @@
 arch map
 name Malwe's house
-msg
-Created:  2002-10-24 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-16 Rick Tanner
-endmsg
+region elvenlands
 width 20
 height 20
+msg
+Created:  2002-10-24 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 outdoor 1
 end
 arch grass
@@ -649,9 +650,9 @@ x 7
 y 5
 end
 arch bookshelf
-no_pick 1
 x 7
 y 5
+no_pick 1
 end
 arch afloor_right
 x 7
@@ -745,9 +746,9 @@ x 8
 y 5
 end
 arch bookshelf
-no_pick 1
 x 8
 y 5
+no_pick 1
 end
 arch afloor_right
 x 8
@@ -759,7 +760,7 @@ y 6
 end
 arch guildmaster
 name Malwe
-face elf.151
+race faerie
 msg
 @match hi|hello
 Greetings, friend. What brings you to my humble abode?
@@ -772,15 +773,15 @@ lair of Sthrithlar.
 
 
 endmsg
-level 15
-race faerie
-randomitems standard
+face elf.151
 hp 100
 maxhp 100
-friendly 1
-pick_up 0
 x 8
 y 6
+level 15
+randomitems standard
+pick_up 0
+friendly 1
 end
 arch afloor_right
 x 8
@@ -877,9 +878,9 @@ x 9
 y 5
 end
 arch bookshelf
-no_pick 1
 x 9
 y 5
+no_pick 1
 end
 arch afloor_right
 x 9
