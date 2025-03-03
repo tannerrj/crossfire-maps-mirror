@@ -1,11 +1,12 @@
 arch map
 name city
-msg
-Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-13 Rick Tanner
-endmsg
+region elvenlands
 width 35
 height 25
+msg
+Created:  2000-06-03 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch grass
 end
@@ -96,19 +97,19 @@ end
 arch grass
 y 19
 end
-arch farmland 
+arch farmland
 y 19
 end
 arch grass
 y 20
 end
-arch farmland 
+arch farmland
 y 20
 end
 arch grass
 y 21
 end
-arch farmland 
+arch farmland
 y 21
 end
 arch grass
@@ -195,6 +196,10 @@ arch grass
 x 1
 y 13
 end
+arch house_long
+x 1
+y 13
+end
 arch grass
 x 1
 y 14
@@ -235,7 +240,7 @@ arch grass
 x 1
 y 19
 end
-arch farmland 
+arch farmland
 x 1
 y 19
 end
@@ -243,7 +248,7 @@ arch grass
 x 1
 y 20
 end
-arch farmland 
+arch farmland
 x 1
 y 20
 end
@@ -251,7 +256,7 @@ arch grass
 x 1
 y 21
 end
-arch farmland 
+arch farmland
 x 1
 y 21
 end
@@ -260,6 +265,10 @@ x 1
 y 22
 end
 arch grass
+x 1
+y 23
+end
+arch farmhouse
 x 1
 y 23
 end
@@ -282,6 +291,10 @@ arch grass
 x 2
 y 3
 end
+arch guild
+x 2
+y 3
+end
 arch grass
 x 2
 y 4
@@ -291,6 +304,10 @@ x 2
 y 5
 end
 arch grass
+x 2
+y 6
+end
+arch church
 x 2
 y 6
 end
@@ -378,7 +395,7 @@ arch grass
 x 2
 y 19
 end
-arch farmland 
+arch farmland
 x 2
 y 19
 end
@@ -386,7 +403,7 @@ arch grass
 x 2
 y 20
 end
-arch farmland 
+arch farmland
 x 2
 y 20
 end
@@ -394,7 +411,7 @@ arch grass
 x 2
 y 21
 end
-arch farmland 
+arch farmland
 x 2
 y 21
 end
@@ -415,6 +432,9 @@ x 2
 y 24
 end
 arch grass
+x 3
+end
+arch store_alchemy
 x 3
 end
 arch grass
@@ -690,6 +710,10 @@ arch grass
 x 4
 y 19
 end
+arch barn
+x 4
+y 19
+end
 arch grass
 x 4
 y 20
@@ -858,6 +882,9 @@ x 5
 y 24
 end
 arch grass
+x 6
+end
+arch store_weapons
 x 6
 end
 arch grass
@@ -1261,6 +1288,9 @@ end
 arch grass
 x 9
 end
+arch store_armour
+x 9
+end
 arch grass
 x 9
 y 1
@@ -1282,6 +1312,10 @@ x 9
 y 4
 end
 arch grass
+x 9
+y 5
+end
+arch t_house1
 x 9
 y 5
 end
@@ -1592,6 +1626,9 @@ x 11
 y 24
 end
 arch grass
+x 12
+end
+arch store_magic
 x 12
 end
 arch grass
@@ -1927,6 +1964,10 @@ x 14
 y 18
 speed_left -0.500000
 end
+arch fishboat
+x 14
+y 18
+end
 arch grass
 x 14
 y 19
@@ -2095,6 +2136,10 @@ arch grass
 x 16
 y 3
 end
+arch rl_house3
+x 16
+y 3
+end
 arch grass
 x 16
 y 4
@@ -2128,6 +2173,10 @@ x 16
 y 11
 end
 arch grass
+x 16
+y 12
+end
+arch slum1
 x 16
 y 12
 end
@@ -2194,6 +2243,9 @@ end
 arch grass
 x 17
 end
+arch store_general
+x 17
+end
 arch grass
 x 17
 y 1
@@ -2230,6 +2282,10 @@ arch grass
 x 17
 y 9
 end
+arch rl_house1
+x 17
+y 9
+end
 arch grass
 x 17
 y 10
@@ -2239,6 +2295,11 @@ x 17
 y 11
 end
 arch grass
+x 17
+y 12
+end
+arch slum2
+name Orphanage
 x 17
 y 12
 end
@@ -2341,6 +2402,11 @@ arch grass
 x 18
 y 12
 end
+arch slum2
+name White Tiger Orphanage
+x 18
+y 12
+end
 arch grass
 x 18
 y 13
@@ -2437,6 +2503,11 @@ x 19
 y 11
 end
 arch grass
+x 19
+y 12
+end
+arch slum3
+name White Tiger Orphanage
 x 19
 y 12
 end
@@ -2773,6 +2844,10 @@ arch grass
 x 22
 y 16
 end
+arch t_house1
+x 22
+y 16
+end
 arch grass
 x 22
 y 17
@@ -2821,6 +2896,10 @@ arch dungeon_floor
 x 23
 end
 arch grass
+x 23
+y 1
+end
+arch t_house2
 x 23
 y 1
 end
@@ -3162,6 +3241,10 @@ x 26
 y 4
 end
 arch grass
+x 26
+y 5
+end
+arch rl_house2
 x 26
 y 5
 end
@@ -4068,86 +4151,4 @@ end
 arch grass
 x 34
 y 24
-end
-arch house_long
-x 1
-y 13
-end
-arch farmhouse
-x 1
-y 23
-end
-arch guild
-x 2
-y 3
-end
-arch church
-x 2
-y 6
-end
-arch store_alchemy
-x 3
-end
-arch barn
-x 4
-y 19
-end
-arch store_weapons
-x 6
-end
-arch store_armour
-x 9
-end
-arch t_house1
-x 9
-y 5
-end
-arch store_magic
-x 12
-end
-arch fishboat
-x 14
-y 18
-end
-arch rl_house3
-x 16
-y 3
-end
-arch slum1
-x 16
-y 12
-end
-arch store_general
-x 17
-end
-arch rl_house1
-x 17
-y 9
-end
-arch slum2
-name Orphanage
-x 17
-y 12
-end
-arch slum2
-name White Tiger Orphanage
-x 18
-y 12
-end
-arch slum3
-name White Tiger Orphanage 
-x 19
-y 12
-end
-arch t_house1
-x 22
-y 16
-end
-arch t_house2
-x 23
-y 1
-end
-arch rl_house2
-x 26
-y 5
 end
