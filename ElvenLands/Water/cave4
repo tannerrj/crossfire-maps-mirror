@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2002-06-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 32
 height 32
+msg
+Created:  2002-06-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch small_stones
 end
@@ -187,7 +189,26 @@ arch sea1
 x 1
 y 6
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 1
+y 6
+level 30
+attacktype 1
+end
 arch sea1
+x 1
+y 7
+end
+arch lamia
 x 1
 y 7
 end
@@ -291,6 +312,10 @@ arch swamp
 x 1
 y 25
 end
+arch lamia
+x 1
+y 25
+end
 arch swamp
 x 1
 y 26
@@ -348,6 +373,21 @@ end
 arch small_stones
 x 2
 y 1
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 2
+y 1
+speed 1.100000
+level 35
 end
 arch small_stones
 x 2
@@ -444,6 +484,10 @@ arch sea1
 x 2
 y 19
 end
+arch lamia
+x 2
+y 19
+end
 arch swamp
 x 2
 y 20
@@ -460,6 +504,21 @@ arch fog
 x 2
 y 21
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 2
+y 21
+speed 1.100000
+level 35
+end
 arch small_stones
 x 2
 y 22
@@ -473,6 +532,10 @@ x 2
 y 23
 end
 arch fog
+x 2
+y 23
+end
+arch lamia
 x 2
 y 23
 end
@@ -596,6 +659,21 @@ end
 arch fog
 x 3
 y 4
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 3
+y 4
+speed 1.100000
+level 35
 end
 arch small_stones
 x 3
@@ -734,6 +812,10 @@ arch sea1
 x 3
 y 26
 end
+arch lamia
+x 3
+y 26
+end
 arch sea1
 x 3
 y 27
@@ -910,6 +992,21 @@ arch sea1
 x 4
 y 18
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 4
+y 18
+level 30
+attacktype 1
+end
 arch deep_swamp
 x 4
 y 19
@@ -926,6 +1023,21 @@ arch small_stones
 x 4
 y 21
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 4
+y 21
+speed 1.100000
+level 35
+end
 arch small_stones
 x 4
 y 22
@@ -937,6 +1049,16 @@ end
 arch fog
 x 4
 y 23
+end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 4
+y 23
+level 25
 end
 arch small_stones
 x 4
@@ -953,6 +1075,21 @@ end
 arch sea1
 x 4
 y 27
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 4
+y 27
+level 30
+attacktype 1
 end
 arch sea1
 x 4
@@ -1004,6 +1141,21 @@ arch small_stones
 x 5
 y 3
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 5
+y 3
+speed 1.100000
+level 35
+end
 arch small_stones
 x 5
 y 4
@@ -1027,6 +1179,21 @@ end
 arch fog
 x 5
 y 6
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 5
+y 6
+speed 1.100000
+level 35
 end
 arch small_stones
 x 5
@@ -1193,6 +1360,10 @@ arch fog
 x 5
 y 28
 end
+arch lamia
+x 5
+y 28
+end
 arch sea1
 x 5
 y 29
@@ -1265,6 +1436,16 @@ end
 arch fog
 x 6
 y 4
+end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 6
+y 4
+level 25
 end
 arch small_stones
 x 6
@@ -1384,6 +1565,21 @@ arch fog
 x 6
 y 18
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 6
+y 18
+speed 1.100000
+level 35
+end
 arch small_stones
 x 6
 y 19
@@ -1417,6 +1613,21 @@ end
 arch fog
 x 6
 y 21
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 6
+y 21
+speed 1.100000
+level 35
 end
 arch small_stones
 x 6
@@ -1485,6 +1696,21 @@ arch fog
 x 6
 y 30
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 6
+y 30
+level 30
+attacktype 1
+end
 arch sea1
 x 6
 y 31
@@ -1502,6 +1728,21 @@ end
 arch sea1
 x 7
 y 1
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 7
+y 1
+level 30
+attacktype 1
 end
 arch small_stones
 x 7
@@ -1549,6 +1790,16 @@ end
 arch fog
 x 7
 y 7
+end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 7
+y 7
+level 25
 end
 arch small_stones
 x 7
@@ -1658,6 +1909,16 @@ arch fog
 x 7
 y 18
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 7
+y 18
+level 25
+end
 arch small_stones
 x 7
 y 19
@@ -1671,6 +1932,10 @@ x 7
 y 20
 end
 arch small_stones
+x 7
+y 21
+end
+arch lamia
 x 7
 y 21
 end
@@ -1701,6 +1966,21 @@ arch small_stones
 x 7
 y 24
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 7
+y 24
+speed 1.100000
+level 35
+end
 arch small_stones
 x 7
 y 25
@@ -1724,6 +2004,21 @@ end
 arch fog
 x 7
 y 27
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 7
+y 27
+level 30
+attacktype 1
 end
 arch sea1
 x 7
@@ -1775,6 +2070,21 @@ arch small_stones
 x 8
 y 3
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 8
+y 3
+speed 1.100000
+level 35
+end
 arch small_stones
 x 8
 y 4
@@ -1784,6 +2094,10 @@ x 8
 y 4
 end
 arch small_stones
+x 8
+y 5
+end
+arch lamia
 x 8
 y 5
 end
@@ -1887,6 +2201,16 @@ arch fog
 x 8
 y 15
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 8
+y 15
+level 25
+end
 arch small_stones
 x 8
 y 16
@@ -1926,6 +2250,21 @@ end
 arch fog
 x 8
 y 22
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 8
+y 22
+speed 1.100000
+level 35
 end
 arch small_stones
 x 8
@@ -1992,6 +2331,10 @@ arch sea1
 x 8
 y 29
 end
+arch lamia
+x 8
+y 29
+end
 arch sea1
 x 8
 y 30
@@ -2018,9 +2361,28 @@ arch sea1
 x 9
 y 1
 end
+arch lamia
+x 9
+y 1
+end
 arch sea1
 x 9
 y 2
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 9
+y 2
+level 30
+attacktype 1
 end
 arch swamp
 x 9
@@ -2064,6 +2426,21 @@ arch fog
 x 9
 y 6
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 9
+y 6
+speed 1.100000
+level 35
+end
 arch small_stones
 x 9
 y 7
@@ -2090,6 +2467,21 @@ end
 arch small_stones
 x 9
 y 9
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 9
+y 9
+speed 1.100000
+level 35
 end
 arch small_stones
 x 9
@@ -2139,6 +2531,10 @@ arch small_stones
 x 9
 y 17
 end
+arch lamia
+x 9
+y 17
+end
 arch small_stones
 x 9
 y 18
@@ -2160,6 +2556,21 @@ end
 arch small_stones
 x 9
 y 19
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 9
+y 19
+speed 1.100000
+level 35
 end
 arch small_stones
 x 9
@@ -2188,6 +2599,21 @@ end
 arch fog
 x 9
 y 23
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 9
+y 23
+speed 1.100000
+level 35
 end
 arch small_stones
 x 9
@@ -2259,6 +2685,21 @@ arch sea1
 x 10
 y 3
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 10
+y 3
+level 30
+attacktype 1
+end
 arch swamp
 x 10
 y 4
@@ -2275,6 +2716,16 @@ arch fog
 x 10
 y 5
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 10
+y 5
+level 25
+end
 arch small_stones
 x 10
 y 6
@@ -2287,6 +2738,21 @@ arch small_stones
 x 10
 y 7
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 10
+y 7
+speed 1.100000
+level 35
+end
 arch small_stones
 x 10
 y 8
@@ -2296,6 +2762,10 @@ x 10
 y 8
 end
 arch small_stones
+x 10
+y 9
+end
+arch lamia
 x 10
 y 9
 end
@@ -2355,6 +2825,21 @@ end
 arch small_stones
 x 10
 y 15
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 10
+y 15
+speed 1.100000
+level 35
 end
 arch small_stones
 x 10
@@ -2485,6 +2970,16 @@ arch fog
 x 10
 y 26
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 10
+y 26
+level 25
+end
 arch small_stones
 x 10
 y 27
@@ -2513,6 +3008,21 @@ arch fog
 x 10
 y 29
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 10
+y 29
+level 30
+attacktype 1
+end
 arch sea1
 x 10
 y 30
@@ -2536,6 +3046,10 @@ x 11
 y 1
 end
 arch sea1
+x 11
+y 2
+end
+arch lamia
 x 11
 y 2
 end
@@ -2611,6 +3125,16 @@ arch fog
 x 11
 y 11
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 11
+y 11
+level 25
+end
 arch small_stones
 x 11
 y 12
@@ -2695,6 +3219,16 @@ arch small_stones
 x 11
 y 21
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 11
+y 21
+level 25
+end
 arch small_stones
 x 11
 y 22
@@ -2711,6 +3245,21 @@ arch fog
 x 11
 y 23
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 11
+y 23
+speed 1.100000
+level 35
+end
 arch small_stones
 x 11
 y 24
@@ -2720,6 +3269,10 @@ x 11
 y 24
 end
 arch small_stones
+x 11
+y 25
+end
+arch lamia
 x 11
 y 25
 end
@@ -2785,6 +3338,16 @@ arch fog
 x 12
 y 3
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 12
+y 3
+level 25
+end
 arch sea1
 x 12
 y 4
@@ -2812,6 +3375,21 @@ end
 arch sea1
 x 12
 y 8
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 12
+y 8
+level 30
+attacktype 1
 end
 arch sea1
 x 12
@@ -2849,6 +3427,21 @@ arch small_stones
 x 12
 y 13
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 12
+y 13
+speed 1.100000
+level 35
+end
 arch small_stones
 x 12
 y 14
@@ -2877,6 +3470,21 @@ arch fog
 x 12
 y 17
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 12
+y 17
+level 30
+attacktype 1
+end
 arch swamp
 x 12
 y 18
@@ -2892,6 +3500,21 @@ end
 arch fog
 x 12
 y 19
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 12
+y 19
+speed 1.100000
+level 35
 end
 arch small_stones
 x 12
@@ -2947,6 +3570,21 @@ end
 arch small_stones
 x 12
 y 26
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 12
+y 26
+speed 1.100000
+level 35
 end
 arch small_stones
 x 12
@@ -3064,6 +3702,10 @@ arch fog
 x 13
 y 9
 end
+arch lamia
+x 13
+y 9
+end
 arch deep_swamp
 x 13
 y 10
@@ -3134,6 +3776,21 @@ arch sea1
 x 13
 y 16
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 13
+y 16
+level 30
+attacktype 1
+end
 arch sea1
 x 13
 y 17
@@ -3158,6 +3815,10 @@ arch fog
 x 13
 y 19
 end
+arch lamia
+x 13
+y 19
+end
 arch swamp
 x 13
 y 20
@@ -3177,6 +3838,21 @@ end
 arch fog
 x 13
 y 22
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 13
+y 22
+speed 1.100000
+level 35
 end
 arch small_stones
 x 13
@@ -3209,6 +3885,21 @@ arch fog
 x 13
 y 25
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 13
+y 25
+speed 1.100000
+level 35
+end
 arch small_stones
 x 13
 y 26
@@ -3222,6 +3913,10 @@ x 13
 y 27
 end
 arch fog
+x 13
+y 27
+end
+arch lamia
 x 13
 y 27
 end
@@ -3302,6 +3997,21 @@ arch fog
 x 14
 y 4
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 14
+y 4
+level 30
+attacktype 1
+end
 arch sea1
 x 14
 y 5
@@ -3310,6 +4020,21 @@ arch fog
 x 14
 y 5
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 14
+y 5
+level 30
+attacktype 1
+end
 arch small_stones
 x 14
 y 6
@@ -3317,6 +4042,21 @@ end
 arch fog
 x 14
 y 6
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 14
+y 6
+speed 1.100000
+level 35
 end
 arch small_stones
 x 14
@@ -3346,6 +4086,21 @@ arch fog
 x 14
 y 10
 end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 14
+y 10
+level 30
+attacktype 1
+end
 arch sea1
 x 14
 y 11
@@ -3361,6 +4116,21 @@ end
 arch fog
 x 14
 y 12
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 14
+y 12
+speed 1.100000
+level 35
 end
 arch small_stones
 x 14
@@ -3375,6 +4145,10 @@ x 14
 y 14
 end
 arch sea1
+x 14
+y 15
+end
+arch lamia
 x 14
 y 15
 end
@@ -3414,6 +4188,16 @@ arch small_stones
 x 14
 y 23
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 14
+y 23
+level 25
+end
 arch small_stones
 x 14
 y 24
@@ -3425,6 +4209,21 @@ end
 arch small_stones
 x 14
 y 25
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 14
+y 25
+speed 1.100000
+level 35
 end
 arch small_stones
 x 14
@@ -3509,6 +4308,21 @@ arch fog
 x 15
 y 7
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 15
+y 7
+speed 1.100000
+level 35
+end
 arch small_stones
 x 15
 y 8
@@ -3563,6 +4377,21 @@ end
 arch sea1
 x 15
 y 14
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 15
+y 14
+level 30
+attacktype 1
 end
 arch sea1
 x 15
@@ -3721,6 +4550,10 @@ arch sea1
 x 16
 y 5
 end
+arch lamia
+x 16
+y 5
+end
 arch swamp
 x 16
 y 6
@@ -3816,6 +4649,21 @@ end
 arch fog
 x 16
 y 13
+end
+arch serpent
+name massive jade serpent
+Str 45
+Con 30
+hp 10000
+maxhp 10000
+exp 120000
+dam 150
+wc -50
+ac -20
+x 16
+y 13
+level 30
+attacktype 1
 end
 arch sea1
 x 16
@@ -3992,6 +4840,16 @@ end
 arch fog
 x 17
 y 9
+end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 17
+y 9
+level 25
 end
 arch small_stones
 x 17
@@ -4186,6 +5044,10 @@ arch small_stones
 x 18
 y 8
 end
+arch lamia
+x 18
+y 8
+end
 arch small_stones
 x 18
 y 9
@@ -4375,6 +5237,21 @@ arch fog
 x 19
 y 6
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 19
+y 6
+speed 1.100000
+level 35
+end
 arch small_stones
 x 19
 y 7
@@ -4398,6 +5275,21 @@ end
 arch fog
 x 19
 y 9
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 19
+y 9
+speed 1.100000
+level 35
 end
 arch small_stones
 x 19
@@ -4553,6 +5445,21 @@ end
 arch fog
 x 20
 y 7
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 20
+y 7
+speed 1.100000
+level 35
 end
 arch small_stones
 x 20
@@ -4754,6 +5661,16 @@ arch small_stones
 x 21
 y 6
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 21
+y 6
+level 25
+end
 arch small_stones
 x 21
 y 7
@@ -4921,6 +5838,10 @@ x 22
 y 4
 end
 arch small_stones
+x 22
+y 5
+end
+arch lamia
 x 22
 y 5
 end
@@ -5128,6 +6049,21 @@ arch small_stones
 x 23
 y 6
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 23
+y 6
+speed 1.100000
+level 35
+end
 arch small_stones
 x 23
 y 7
@@ -5215,6 +6151,21 @@ arch small_stones
 x 23
 y 21
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 23
+y 21
+speed 1.100000
+level 35
+end
 arch small_stones
 x 23
 y 22
@@ -5224,6 +6175,10 @@ x 23
 y 22
 end
 arch small_stones
+x 23
+y 23
+end
+arch lamia
 x 23
 y 23
 end
@@ -5312,6 +6267,21 @@ arch small_stones
 x 24
 y 3
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 24
+y 3
+speed 1.100000
+level 35
+end
 arch small_stones
 x 24
 y 4
@@ -5392,6 +6362,21 @@ arch small_stones
 x 24
 y 19
 end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 24
+y 19
+speed 1.100000
+level 35
+end
 arch small_stones
 x 24
 y 20
@@ -5424,6 +6409,16 @@ arch fog
 x 24
 y 25
 end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 24
+y 25
+level 25
+end
 arch small_stones
 x 24
 y 26
@@ -5439,6 +6434,21 @@ end
 arch fog
 x 24
 y 27
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 24
+y 27
+speed 1.100000
+level 35
 end
 arch small_stones
 x 24
@@ -5592,9 +6602,23 @@ arch small_stones
 x 25
 y 19
 end
+arch lamia
+x 25
+y 19
+end
 arch small_stones
 x 25
 y 20
+end
+arch behemoth
+name large black beast
+hp 6000
+maxhp 6000
+exp 60000
+dam 35
+x 25
+y 20
+level 25
 end
 arch small_stones
 x 25
@@ -5611,6 +6635,21 @@ end
 arch fog
 x 25
 y 23
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 25
+y 23
+speed 1.100000
+level 35
 end
 arch small_stones
 x 25
@@ -5785,6 +6824,21 @@ end
 arch fog
 x 26
 y 22
+end
+arch cobra
+name massive fearsome serpent
+Str 30
+Con 15
+hp 10000
+maxhp 10000
+exp 150000
+dam 60
+wc -48
+ac -25
+x 26
+y 22
+speed 1.100000
+level 35
 end
 arch small_stones
 x 26
@@ -5995,6 +7049,10 @@ arch deep_swamp
 x 27
 y 23
 end
+arch lamia
+x 27
+y 23
+end
 arch sea1
 x 27
 y 24
@@ -6322,6 +7380,10 @@ x 29
 y 20
 end
 arch fog
+x 29
+y 20
+end
+arch lamia
 x 29
 y 20
 end
@@ -6749,1064 +7811,4 @@ end
 arch small_stones
 x 31
 y 31
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 1
-y 6
-level 30
-attacktype 1
-end
-arch lamia
-x 1
-y 7
-end
-arch lamia
-x 1
-y 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 2
-y 1
-speed 1.100000
-level 35
-end
-arch lamia
-x 2
-y 19
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 2
-y 21
-speed 1.100000
-level 35
-end
-arch lamia
-x 2
-y 23
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 3
-y 4
-speed 1.100000
-level 35
-end
-arch lamia
-x 3
-y 26
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 4
-y 18
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 4
-y 21
-speed 1.100000
-level 35
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 4
-y 23
-level 25
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 4
-y 27
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 5
-y 3
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 5
-y 6
-speed 1.100000
-level 35
-end
-arch lamia
-x 5
-y 28
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 6
-y 4
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 6
-y 18
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 6
-y 21
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 6
-y 30
-level 30
-attacktype 1
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 7
-y 1
-level 30
-attacktype 1
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 7
-y 7
-level 25
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 7
-y 18
-level 25
-end
-arch lamia
-x 7
-y 21
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 7
-y 24
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 7
-y 27
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 8
-y 3
-speed 1.100000
-level 35
-end
-arch lamia
-x 8
-y 5
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 8
-y 15
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 8
-y 22
-speed 1.100000
-level 35
-end
-arch lamia
-x 8
-y 29
-end
-arch lamia
-x 9
-y 1
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 9
-y 2
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 9
-y 6
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 9
-y 9
-speed 1.100000
-level 35
-end
-arch lamia
-x 9
-y 17
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 9
-y 19
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 9
-y 23
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 10
-y 3
-level 30
-attacktype 1
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 10
-y 5
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 10
-y 7
-speed 1.100000
-level 35
-end
-arch lamia
-x 10
-y 9
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 10
-y 15
-speed 1.100000
-level 35
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 10
-y 26
-level 25
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 10
-y 29
-level 30
-attacktype 1
-end
-arch lamia
-x 11
-y 2
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 11
-y 11
-level 25
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 11
-y 21
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 11
-y 23
-speed 1.100000
-level 35
-end
-arch lamia
-x 11
-y 25
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 12
-y 3
-level 25
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 12
-y 8
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 12
-y 13
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 12
-y 17
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 12
-y 19
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 12
-y 26
-speed 1.100000
-level 35
-end
-arch lamia
-x 13
-y 9
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 13
-y 16
-level 30
-attacktype 1
-end
-arch lamia
-x 13
-y 19
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 13
-y 22
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 13
-y 25
-speed 1.100000
-level 35
-end
-arch lamia
-x 13
-y 27
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 14
-y 4
-level 30
-attacktype 1
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 14
-y 5
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 14
-y 6
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 14
-y 10
-level 30
-attacktype 1
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 14
-y 12
-speed 1.100000
-level 35
-end
-arch lamia
-x 14
-y 15
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 14
-y 23
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 14
-y 25
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 15
-y 7
-speed 1.100000
-level 35
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 15
-y 14
-level 30
-attacktype 1
-end
-arch lamia
-x 16
-y 5
-end
-arch serpent
-name massive jade serpent
-Str 45
-Con 30
-hp 10000
-maxhp 10000
-exp 120000
-dam 150
-wc -50
-ac -20
-x 16
-y 13
-level 30
-attacktype 1
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 17
-y 9
-level 25
-end
-arch lamia
-x 18
-y 8
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 19
-y 6
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 19
-y 9
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 20
-y 7
-speed 1.100000
-level 35
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 21
-y 6
-level 25
-end
-arch lamia
-x 22
-y 5
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 23
-y 6
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 23
-y 21
-speed 1.100000
-level 35
-end
-arch lamia
-x 23
-y 23
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 24
-y 3
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 24
-y 19
-speed 1.100000
-level 35
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 24
-y 25
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 24
-y 27
-speed 1.100000
-level 35
-end
-arch lamia
-x 25
-y 19
-end
-arch behemoth
-name large black beast
-hp 6000
-maxhp 6000
-exp 60000
-dam 35
-x 25
-y 20
-level 25
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 25
-y 23
-speed 1.100000
-level 35
-end
-arch cobra
-name massive fearsome serpent
-Str 30
-Con 15
-hp 10000
-maxhp 10000
-exp 150000
-dam 60
-wc -48
-ac -25
-x 26
-y 22
-speed 1.100000
-level 35
-end
-arch lamia
-x 27
-y 23
-end
-arch lamia
-x 29
-y 20
 end

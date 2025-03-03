@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  2002-06-27 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 2
 width 32
 height 32
-darkness 2
+msg
+Created:  2002-06-27 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch small_stones
 end
@@ -894,6 +896,10 @@ x 5
 y 19
 end
 arch small_stones
+x 5
+y 20
+end
+arch chinese_dragon
 x 5
 y 20
 end
@@ -913,6 +919,10 @@ arch small_stones
 x 5
 y 23
 end
+arch chinese_dragon
+x 5
+y 23
+end
 arch small_stones
 x 5
 y 24
@@ -974,6 +984,23 @@ end
 arch small_stones
 x 6
 y 3
+end
+arch chinese_dragon
+name Legendary dragon
+Con 12
+Pow 45
+hp 8000
+maxhp 8000
+sp 120
+maxsp 120
+exp 600000
+dam 60
+wc -70
+ac -30
+x 6
+y 3
+speed -0.300000
+level 70
 end
 arch small_stones
 x 6
@@ -1226,6 +1253,10 @@ x 7
 y 17
 end
 arch small_stones
+x 7
+y 18
+end
+arch chinese_dragon
 x 7
 y 18
 end
@@ -1621,6 +1652,10 @@ arch small_stones
 x 9
 y 23
 end
+arch chinese_dragon
+x 9
+y 23
+end
 arch small_stones
 x 9
 y 24
@@ -1672,6 +1707,10 @@ x 10
 y 2
 end
 arch small_stones
+x 10
+y 3
+end
+arch chinese_dragon
 x 10
 y 3
 end
@@ -1760,6 +1799,10 @@ x 10
 y 18
 end
 arch small_stones
+x 10
+y 19
+end
+arch chinese_dragon
 x 10
 y 19
 end
@@ -2134,6 +2177,10 @@ x 12
 y 22
 end
 arch small_stones
+x 12
+y 23
+end
+arch chinese_dragon
 x 12
 y 23
 end
@@ -2375,6 +2422,19 @@ arch small_stones
 x 14
 y 2
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 14
+y 2
+speed -0.300000
+level 20
+end
 arch small_stones
 x 14
 y 3
@@ -2910,6 +2970,10 @@ x 17
 y 2
 end
 arch small_stones
+x 17
+y 3
+end
+arch chinese_dragon
 x 17
 y 3
 end
@@ -3128,6 +3192,19 @@ arch small_stones
 x 18
 y 14
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 18
+y 14
+speed -0.300000
+level 20
+end
 arch small_stones
 x 18
 y 15
@@ -3238,6 +3315,10 @@ arch small_stones
 x 19
 y 8
 end
+arch chinese_dragon
+x 19
+y 8
+end
 arch small_stones
 x 19
 y 9
@@ -3341,6 +3422,10 @@ arch cave4
 x 20
 end
 arch small_stones
+x 20
+y 1
+end
+arch chinese_dragon
 x 20
 y 1
 end
@@ -3692,6 +3777,10 @@ arch small_stones
 x 22
 y 4
 end
+arch chinese_dragon
+x 22
+y 4
+end
 arch small_stones
 x 22
 y 5
@@ -3723,6 +3812,19 @@ end
 arch small_stones
 x 22
 y 11
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 22
+y 11
+speed -0.300000
+level 20
 end
 arch small_stones
 x 22
@@ -4089,6 +4191,19 @@ arch small_stones
 x 24
 y 19
 end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 24
+y 19
+speed -0.300000
+level 20
+end
 arch small_stones
 x 24
 y 20
@@ -4159,6 +4274,10 @@ arch small_stones
 x 25
 y 1
 end
+arch chinese_dragon
+x 25
+y 1
+end
 arch small_stones
 x 25
 y 2
@@ -4170,6 +4289,19 @@ end
 arch small_stones
 x 25
 y 4
+end
+arch chinese_dragon
+name Ancient dragon
+hp 4000
+maxhp 4000
+maxsp 60
+exp 100000
+dam 30
+ac -12
+x 25
+y 4
+speed -0.300000
+level 20
 end
 arch small_stones
 x 25
@@ -4264,6 +4396,10 @@ x 25
 y 21
 end
 arch small_stones
+x 25
+y 22
+end
+arch chinese_dragon
 x 25
 y 22
 end
@@ -4394,6 +4530,10 @@ x 26
 y 14
 end
 arch small_stones
+x 26
+y 15
+end
+arch chinese_dragon
 x 26
 y 15
 end
@@ -5367,142 +5507,4 @@ end
 arch small_stones
 x 31
 y 31
-end
-arch chinese_dragon
-x 5
-y 20
-end
-arch chinese_dragon
-x 5
-y 23
-end
-arch chinese_dragon
-name Legendary dragon
-Con 12
-Pow 45
-hp 8000
-maxhp 8000
-sp 120
-maxsp 120
-exp 600000
-dam 60
-wc -70
-ac -30
-x 6
-y 3
-speed -0.300000
-level 70
-end
-arch chinese_dragon
-x 7
-y 18
-end
-arch chinese_dragon
-x 9
-y 23
-end
-arch chinese_dragon
-x 10
-y 3
-end
-arch chinese_dragon
-x 10
-y 19
-end
-arch chinese_dragon
-x 12
-y 23
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 14
-y 2
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-x 17
-y 3
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 18
-y 14
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-x 19
-y 8
-end
-arch chinese_dragon
-x 20
-y 1
-end
-arch chinese_dragon
-x 22
-y 4
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 22
-y 11
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 24
-y 19
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-x 25
-y 1
-end
-arch chinese_dragon
-name Ancient dragon
-hp 4000
-maxhp 4000
-maxsp 60
-exp 100000
-dam 30
-ac -12
-x 25
-y 4
-speed -0.300000
-level 20
-end
-arch chinese_dragon
-x 25
-y 22
-end
-arch chinese_dragon
-x 26
-y 15
 end

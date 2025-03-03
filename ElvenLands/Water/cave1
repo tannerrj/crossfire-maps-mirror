@@ -1,29 +1,22 @@
 arch map
 name cave1
-msg
-Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+region elvenlands
 width 26
 height 26
-end
-arch blocked
 msg
+Created:  2000-03-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
 endmsg
 end
 arch blocked
-msg
-endmsg
+end
+arch blocked
 y 1
 end
 arch blocked
-msg
-endmsg
 y 2
 end
 arch blocked
-msg
-endmsg
 y 3
 end
 arch small_stones
@@ -87,79 +80,49 @@ arch cave23
 y 13
 end
 arch blocked
-msg
-endmsg
 y 14
 end
 arch blocked
-msg
-endmsg
 y 15
 end
 arch blocked
-msg
-endmsg
 y 16
 end
 arch blocked
-msg
-endmsg
 y 17
 end
 arch blocked
-msg
-endmsg
 y 18
 end
 arch blocked
-msg
-endmsg
 y 19
 end
 arch blocked
-msg
-endmsg
 y 20
 end
 arch blocked
-msg
-endmsg
 y 21
 end
 arch blocked
-msg
-endmsg
 y 22
 end
 arch blocked
-msg
-endmsg
 y 23
 end
 arch blocked
-msg
-endmsg
 y 24
 end
 arch blocked
-msg
-endmsg
 y 25
 end
 arch blocked
-msg
-endmsg
 x 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 1
 end
 arch blocked
-msg
-endmsg
 x 1
 y 2
 end
@@ -228,38 +191,26 @@ x 1
 y 13
 end
 arch blocked
-msg
-endmsg
 x 1
 y 14
 end
 arch blocked
-msg
-endmsg
 x 1
 y 15
 end
 arch blocked
-msg
-endmsg
 x 1
 y 16
 end
 arch blocked
-msg
-endmsg
 x 1
 y 17
 end
 arch blocked
-msg
-endmsg
 x 1
 y 18
 end
 arch blocked
-msg
-endmsg
 x 1
 y 19
 end
@@ -312,13 +263,9 @@ x 1
 y 25
 end
 arch blocked
-msg
-endmsg
 x 2
 end
 arch blocked
-msg
-endmsg
 x 2
 y 1
 end
@@ -387,32 +334,22 @@ x 2
 y 13
 end
 arch blocked
-msg
-endmsg
 x 2
 y 14
 end
 arch blocked
-msg
-endmsg
 x 2
 y 15
 end
 arch blocked
-msg
-endmsg
 x 2
 y 16
 end
 arch blocked
-msg
-endmsg
 x 2
 y 17
 end
 arch blocked
-msg
-endmsg
 x 2
 y 18
 end
@@ -469,8 +406,6 @@ x 2
 y 25
 end
 arch blocked
-msg
-endmsg
 x 3
 end
 arch small_stones
@@ -550,26 +485,18 @@ x 3
 y 13
 end
 arch blocked
-msg
-endmsg
 x 3
 y 14
 end
 arch blocked
-msg
-endmsg
 x 3
 y 15
 end
 arch blocked
-msg
-endmsg
 x 3
 y 16
 end
 arch blocked
-msg
-endmsg
 x 3
 y 17
 end
@@ -708,20 +635,14 @@ x 4
 y 13
 end
 arch blocked
-msg
-endmsg
 x 4
 y 14
 end
 arch blocked
-msg
-endmsg
 x 4
 y 15
 end
 arch blocked
-msg
-endmsg
 x 4
 y 16
 end
@@ -868,14 +789,10 @@ x 5
 y 13
 end
 arch blocked
-msg
-endmsg
 x 5
 y 14
 end
 arch blocked
-msg
-endmsg
 x 5
 y 15
 end
@@ -1030,14 +947,10 @@ x 6
 y 13
 end
 arch blocked
-msg
-endmsg
 x 6
 y 14
 end
 arch blocked
-msg
-endmsg
 x 6
 y 15
 end
@@ -1184,14 +1097,10 @@ x 7
 y 13
 end
 arch blocked
-msg
-endmsg
 x 7
 y 14
 end
 arch blocked
-msg
-endmsg
 x 7
 y 15
 end
@@ -1338,14 +1247,10 @@ x 8
 y 13
 end
 arch blocked
-msg
-endmsg
 x 8
 y 14
 end
 arch blocked
-msg
-endmsg
 x 8
 y 15
 end
@@ -1516,14 +1421,10 @@ x 9
 y 13
 end
 arch blocked
-msg
-endmsg
 x 9
 y 14
 end
 arch blocked
-msg
-endmsg
 x 9
 y 15
 end
@@ -1536,6 +1437,10 @@ x 9
 y 16
 end
 arch swamp
+x 9
+y 17
+end
+arch cobra
 x 9
 y 17
 end
@@ -1698,14 +1603,10 @@ x 10
 y 13
 end
 arch blocked
-msg
-endmsg
 x 10
 y 14
 end
 arch blocked
-msg
-endmsg
 x 10
 y 15
 end
@@ -1816,14 +1717,10 @@ x 11
 y 3
 end
 arch blocked
-msg
-endmsg
 x 11
 y 4
 end
 arch blocked
-msg
-endmsg
 x 11
 y 5
 end
@@ -1888,14 +1785,10 @@ x 11
 y 13
 end
 arch blocked
-msg
-endmsg
 x 11
 y 14
 end
 arch blocked
-msg
-endmsg
 x 11
 y 15
 end
@@ -2002,26 +1895,18 @@ x 12
 y 2
 end
 arch blocked
-msg
-endmsg
 x 12
 y 3
 end
 arch blocked
-msg
-endmsg
 x 12
 y 4
 end
 arch blocked
-msg
-endmsg
 x 12
 y 5
 end
 arch blocked
-msg
-endmsg
 x 12
 y 6
 end
@@ -2078,14 +1963,10 @@ x 12
 y 13
 end
 arch blocked
-msg
-endmsg
 x 12
 y 14
 end
 arch blocked
-msg
-endmsg
 x 12
 y 15
 end
@@ -2184,32 +2065,22 @@ x 13
 y 1
 end
 arch blocked
-msg
-endmsg
 x 13
 y 2
 end
 arch blocked
-msg
-endmsg
 x 13
 y 3
 end
 arch blocked
-msg
-endmsg
 x 13
 y 4
 end
 arch blocked
-msg
-endmsg
 x 13
 y 5
 end
 arch blocked
-msg
-endmsg
 x 13
 y 6
 end
@@ -2270,8 +2141,6 @@ x 13
 y 14
 end
 arch blocked
-msg
-endmsg
 x 13
 y 15
 end
@@ -2356,37 +2225,25 @@ x 13
 y 25
 end
 arch blocked
-msg
-endmsg
 x 14
 end
 arch blocked
-msg
-endmsg
 x 14
 y 1
 end
 arch blocked
-msg
-endmsg
 x 14
 y 2
 end
 arch blocked
-msg
-endmsg
 x 14
 y 3
 end
 arch blocked
-msg
-endmsg
 x 14
 y 4
 end
 arch blocked
-msg
-endmsg
 x 14
 y 5
 end
@@ -2498,6 +2355,10 @@ arch small_stones
 x 14
 y 20
 end
+arch cobra
+x 14
+y 20
+end
 arch small_stones
 x 14
 y 21
@@ -2531,31 +2392,21 @@ x 14
 y 25
 end
 arch blocked
-msg
-endmsg
 x 15
 end
 arch blocked
-msg
-endmsg
 x 15
 y 1
 end
 arch blocked
-msg
-endmsg
 x 15
 y 2
 end
 arch blocked
-msg
-endmsg
 x 15
 y 3
 end
 arch blocked
-msg
-endmsg
 x 15
 y 4
 end
@@ -2712,25 +2563,17 @@ x 15
 y 25
 end
 arch blocked
-msg
-endmsg
 x 16
 end
 arch blocked
-msg
-endmsg
 x 16
 y 1
 end
 arch blocked
-msg
-endmsg
 x 16
 y 2
 end
 arch blocked
-msg
-endmsg
 x 16
 y 3
 end
@@ -2891,19 +2734,13 @@ x 16
 y 25
 end
 arch blocked
-msg
-endmsg
 x 17
 end
 arch blocked
-msg
-endmsg
 x 17
 y 1
 end
 arch blocked
-msg
-endmsg
 x 17
 y 2
 end
@@ -2964,6 +2801,10 @@ x 17
 y 9
 end
 arch small_stones
+x 17
+y 10
+end
+arch cobra
 x 17
 y 10
 end
@@ -3031,6 +2872,10 @@ arch small_stones
 x 17
 y 21
 end
+arch cobra
+x 17
+y 21
+end
 arch small_stones
 x 17
 y 22
@@ -3064,13 +2909,9 @@ x 17
 y 25
 end
 arch blocked
-msg
-endmsg
 x 18
 end
 arch blocked
-msg
-endmsg
 x 18
 y 1
 end
@@ -3243,8 +3084,6 @@ x 18
 y 25
 end
 arch blocked
-msg
-endmsg
 x 19
 end
 arch small_stones
@@ -3416,8 +3255,6 @@ x 19
 y 25
 end
 arch blocked
-msg
-endmsg
 x 20
 end
 arch small_stones
@@ -3597,8 +3434,6 @@ x 20
 y 25
 end
 arch blocked
-msg
-endmsg
 x 21
 end
 arch small_stones
@@ -3782,8 +3617,6 @@ x 21
 y 25
 end
 arch blocked
-msg
-endmsg
 x 22
 end
 arch small_stones
@@ -3971,8 +3804,6 @@ x 22
 y 25
 end
 arch blocked
-msg
-endmsg
 x 23
 end
 arch small_stones
@@ -4087,6 +3918,10 @@ arch small_stones
 x 23
 y 16
 end
+arch cobra
+x 23
+y 16
+end
 arch small_stones
 x 23
 y 17
@@ -4108,6 +3943,10 @@ x 23
 y 19
 end
 arch small_stones
+x 23
+y 20
+end
+arch cobra
 x 23
 y 20
 end
@@ -4148,8 +3987,6 @@ x 23
 y 25
 end
 arch blocked
-msg
-endmsg
 x 24
 end
 arch small_stones
@@ -4353,8 +4190,6 @@ x 24
 y 25
 end
 arch blocked
-msg
-endmsg
 x 25
 end
 arch small_stones
@@ -4406,140 +4241,78 @@ x 25
 y 6
 end
 arch blocked
-msg
-endmsg
 x 25
 y 7
 end
 arch blocked
-msg
-endmsg
 x 25
 y 8
 end
 arch blocked
-msg
-endmsg
 x 25
 y 9
 end
 arch blocked
-msg
-endmsg
 x 25
 y 10
 end
 arch blocked
-msg
-endmsg
 x 25
 y 11
 end
 arch blocked
-msg
-endmsg
 x 25
 y 12
 end
 arch blocked
-msg
-endmsg
 x 25
 y 13
 end
 arch blocked
-msg
-endmsg
 x 25
 y 14
 end
 arch blocked
-msg
-endmsg
 x 25
 y 15
 end
 arch blocked
-msg
-endmsg
 x 25
 y 16
 end
 arch blocked
-msg
-endmsg
 x 25
 y 17
 end
 arch blocked
-msg
-endmsg
 x 25
 y 18
 end
 arch blocked
-msg
-endmsg
 x 25
 y 19
 end
 arch blocked
-msg
-endmsg
 x 25
 y 20
 end
 arch blocked
-msg
-endmsg
 x 25
 y 21
 end
 arch blocked
-msg
-endmsg
 x 25
 y 22
 end
 arch blocked
-msg
-endmsg
 x 25
 y 23
 end
 arch blocked
-msg
-endmsg
 x 25
 y 24
 end
 arch blocked
-msg
-endmsg
 x 25
 y 25
-end
-arch cobra
-x 9
-y 17
-end
-arch cobra
-x 14
-y 20
-end
-arch cobra
-x 17
-y 10
-end
-arch cobra
-x 17
-y 21
-end
-arch cobra
-x 23
-y 16
-end
-arch cobra
-x 23
-y 20
 end

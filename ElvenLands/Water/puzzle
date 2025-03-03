@@ -1,11 +1,12 @@
 arch map
 name puzzle
-msg
-Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-03-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -203,8 +204,8 @@ end
 arch button_lever
 x 2
 y 1
-protected 250
 connected 250
+protected 250
 end
 arch generate_panther
 x 2
@@ -217,8 +218,8 @@ end
 arch button_lever
 x 2
 y 2
-protected 200
 connected 200
+protected 200
 end
 arch generate_panther
 x 2
@@ -231,8 +232,8 @@ end
 arch button_lever
 x 2
 y 3
-protected 150
 connected 150
+protected 150
 end
 arch generate_panther
 x 2
@@ -245,8 +246,8 @@ end
 arch button_lever
 x 2
 y 4
-protected 100
 connected 100
+protected 100
 end
 arch generate_panther
 x 2
@@ -361,8 +362,8 @@ end
 arch grate_open_2
 x 3
 y 6
-protected 1
 connected 1
+protected 1
 end
 arch sea1
 x 3
@@ -379,8 +380,8 @@ end
 arch grate_open_2
 x 3
 y 8
-protected 2
 connected 2
+protected 2
 end
 arch dungeon_floor
 x 3
@@ -389,8 +390,8 @@ end
 arch grate_open_2
 x 3
 y 9
-protected 2
 connected 2
+protected 2
 end
 arch sea1
 x 3
@@ -502,6 +503,10 @@ arch dungeon_floor
 x 4
 y 8
 end
+arch chinese_dragon
+x 4
+y 8
+end
 arch dungeon_floor
 x 4
 y 9
@@ -522,9 +527,9 @@ arch button_small
 face button_sma.112
 x 4
 y 11
-protected 1
 value 1
 connected 1
+protected 1
 end
 arch arrow
 x 4
@@ -546,9 +551,9 @@ arch button_small
 face button_sma.112
 x 4
 y 13
-protected 2
 value 1
 connected 2
+protected 2
 end
 arch arrow
 x 4
@@ -579,8 +584,8 @@ end
 arch igate_closed_2
 x 5
 y 1
-protected 250
 connected 250
+protected 250
 end
 arch sea1
 x 5
@@ -589,8 +594,8 @@ end
 arch igate_closed_2
 x 5
 y 2
-protected 200
 connected 200
+protected 200
 end
 arch sea1
 x 5
@@ -599,8 +604,8 @@ end
 arch igate_closed_2
 x 5
 y 3
-protected 150
 connected 150
+protected 150
 end
 arch sea1
 x 5
@@ -609,8 +614,8 @@ end
 arch igate_closed_2
 x 5
 y 4
-protected 100
 connected 100
+protected 100
 end
 arch sea1
 x 5
@@ -722,6 +727,10 @@ arch dungeon_floor
 x 6
 y 8
 end
+arch chinese_dragon
+x 6
+y 8
+end
 arch dungeon_floor
 x 6
 y 9
@@ -887,6 +896,10 @@ x 8
 y 7
 end
 arch dungeon_floor
+x 8
+y 8
+end
+arch chinese_dragon
 x 8
 y 8
 end
@@ -1565,16 +1578,4 @@ end
 arch dwall_1_3
 x 15
 y 15
-end
-arch chinese_dragon
-x 4
-y 8
-end
-arch chinese_dragon
-x 6
-y 8
-end
-arch chinese_dragon
-x 8
-y 8
 end

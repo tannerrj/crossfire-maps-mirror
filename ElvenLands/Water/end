@@ -1,11 +1,12 @@
 arch map
 name end
-msg
-Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  2000-03-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -716,6 +717,77 @@ end
 arch dungeon_floor
 x 6
 y 3
+end
+arch baslic
+name Levithian
+race dragon
+Str 70
+Dex 40
+Con 70
+Pow 40
+hp 17000
+maxhp 17000
+sp 300
+maxsp 300
+dam 50
+wc -20
+ac -20
+x 6
+y 3
+attacktype 1
+resist_physical 95
+resist_fire 100
+resist_electricity 100
+resist_acid 95
+arch blindness
+name shockwave
+sp 84
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name steambolt
+sp 139
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison fog
+sp 196
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name poison cloud
+sp 21
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large lightning
+sp 6
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name large icestorm
+sp 59
+speed 0.000000
+type 110
+is_blind 0
+end
+arch blindness
+name dragonbreath
+sp 58
+speed 0.000000
+type 110
+is_blind 0
+end
 end
 arch dungeon_floor
 x 6
@@ -1779,75 +1851,4 @@ end
 arch dun7
 x 15
 y 15
-end
-arch baslic
-name Levithian
-race dragon
-Str 70
-Dex 40
-Con 70
-Pow 40
-hp 17000
-maxhp 17000
-sp 300
-maxsp 300
-dam 50
-wc -20
-ac -20
-x 6
-y 3
-attacktype 1
-resist_physical 95
-resist_fire 100
-resist_electricity 100
-resist_acid 95
-arch blindness
-name shockwave
-sp 84
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name steambolt
-sp 139
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name poison fog
-sp 196
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name poison cloud
-sp 21
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name large lightning
-sp 6
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name large icestorm
-sp 59
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name dragonbreath
-sp 58
-speed 0.000000
-type 110
-is_blind 0
-end
 end

@@ -1,18 +1,24 @@
 arch map
 name country
-msg
-Created:  1999-11-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+region elvenlands
 width 30
 height 30
+msg
+Created:  1999-11-25 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch sea1
+end
+arch mountain_2
 end
 arch sea1
 y 1
 end
 arch sea1
+y 2
+end
+arch mountain_2
 y 2
 end
 arch sea1
@@ -21,10 +27,16 @@ end
 arch sea1
 y 4
 end
+arch mountain_2
+y 4
+end
 arch sea1
 y 5
 end
 arch sea1
+y 6
+end
+arch mountain_2
 y 6
 end
 arch sea1
@@ -33,10 +45,16 @@ end
 arch sea1
 y 8
 end
+arch mountain_2
+y 8
+end
 arch sea1
 y 9
 end
 arch sea1
+y 10
+end
+arch mountain_2
 y 10
 end
 arch sea1
@@ -45,10 +63,16 @@ end
 arch sea1
 y 12
 end
+arch mountain_2
+y 12
+end
 arch sea1
 y 13
 end
 arch sea1
+y 14
+end
+arch mountain_2
 y 14
 end
 arch sea1
@@ -57,10 +81,16 @@ end
 arch sea1
 y 16
 end
+arch mountain_2
+y 16
+end
 arch sea1
 y 17
 end
 arch sea1
+y 18
+end
+arch mountain_2
 y 18
 end
 arch sea1
@@ -69,10 +99,16 @@ end
 arch sea1
 y 20
 end
+arch mountain_2
+y 20
+end
 arch sea1
 y 21
 end
 arch sea1
+y 22
+end
+arch mountain_2
 y 22
 end
 arch sea1
@@ -81,16 +117,25 @@ end
 arch sea1
 y 24
 end
+arch mountain_2
+y 24
+end
 arch sea1
 y 25
 end
 arch sea1
 y 26
 end
+arch mountain_2
+y 26
+end
 arch sea1
 y 27
 end
 arch sea1
+y 28
+end
+arch mountain_2
 y 28
 end
 arch sea1
@@ -224,6 +269,9 @@ x 1
 y 29
 end
 arch sea1
+x 2
+end
+arch mountain_2
 x 2
 end
 arch sea1
@@ -374,6 +422,10 @@ arch sea1
 x 2
 y 28
 end
+arch mountain_2
+x 2
+y 28
+end
 arch sea1
 x 2
 y 29
@@ -534,6 +586,9 @@ x 3
 y 29
 end
 arch sea1
+x 4
+end
+arch mountain_2
 x 4
 end
 arch sea1
@@ -701,6 +756,10 @@ x 4
 y 28
 end
 arch temp_fog
+x 4
+y 28
+end
+arch mountain_2
 x 4
 y 28
 end
@@ -866,6 +925,9 @@ end
 arch sea1
 x 6
 end
+arch mountain_2
+x 6
+end
 arch sea1
 x 6
 y 1
@@ -1030,6 +1092,10 @@ arch temp_fog
 x 6
 y 28
 end
+arch mountain_2
+x 6
+y 28
+end
 arch sea1
 x 6
 y 29
@@ -1178,6 +1244,9 @@ x 7
 y 29
 end
 arch sea1
+x 8
+end
+arch mountain_2
 x 8
 end
 arch sea1
@@ -1332,6 +1401,10 @@ arch temp_fog
 x 8
 y 28
 end
+arch mountain_2
+x 8
+y 28
+end
 arch sea1
 x 8
 y 29
@@ -1488,6 +1561,9 @@ x 9
 y 29
 end
 arch sea1
+x 10
+end
+arch mountain_2
 x 10
 end
 arch sea1
@@ -1642,6 +1718,10 @@ arch temp_fog
 x 10
 y 28
 end
+arch mountain_2
+x 10
+y 28
+end
 arch sea1
 x 10
 y 29
@@ -1822,6 +1902,9 @@ x 11
 y 29
 end
 arch sea1
+x 12
+end
+arch mountain_2
 x 12
 end
 arch sea1
@@ -2571,6 +2654,9 @@ end
 arch sea1
 x 16
 end
+arch mountain_2
+x 16
+end
 arch sea1
 x 16
 y 1
@@ -2937,6 +3023,9 @@ end
 arch sea1
 x 18
 end
+arch mountain_2
+x 18
+end
 arch sea1
 x 18
 y 1
@@ -3125,6 +3214,10 @@ arch sea1
 x 18
 y 28
 end
+arch mountain_2
+x 18
+y 28
+end
 arch sea1
 x 18
 y 29
@@ -3303,6 +3396,9 @@ end
 arch sea1
 x 20
 end
+arch mountain_2
+x 20
+end
 arch sea1
 x 20
 y 1
@@ -3447,6 +3543,10 @@ arch sea1
 x 20
 y 28
 end
+arch mountain_2
+x 20
+y 28
+end
 arch sea1
 x 20
 y 29
@@ -3589,6 +3689,9 @@ end
 arch sea1
 x 22
 end
+arch mountain_2
+x 22
+end
 arch sea1
 x 22
 y 1
@@ -3729,6 +3832,10 @@ arch temp_fog
 x 22
 y 28
 end
+arch mountain_2
+x 22
+y 28
+end
 arch sea1
 x 22
 y 29
@@ -3903,6 +4010,9 @@ end
 arch sea1
 x 24
 end
+arch mountain_2
+x 24
+end
 arch sea1
 x 24
 y 1
@@ -4044,6 +4154,10 @@ x 24
 y 27
 end
 arch sea1
+x 24
+y 28
+end
+arch mountain_2
 x 24
 y 28
 end
@@ -4205,6 +4319,9 @@ end
 arch sea1
 x 26
 end
+arch mountain_2
+x 26
+end
 arch sea1
 x 26
 y 1
@@ -4341,6 +4458,10 @@ arch sea1
 x 26
 y 28
 end
+arch mountain_2
+x 26
+y 28
+end
 arch sea1
 x 26
 y 29
@@ -4507,11 +4628,18 @@ end
 arch sea1
 x 28
 end
+arch mountain_2
+x 28
+end
 arch sea1
 x 28
 y 1
 end
 arch sea1
+x 28
+y 2
+end
+arch mountain_2
 x 28
 y 2
 end
@@ -4523,11 +4651,19 @@ arch sea1
 x 28
 y 4
 end
+arch mountain_2
+x 28
+y 4
+end
 arch sea1
 x 28
 y 5
 end
 arch sea1
+x 28
+y 6
+end
+arch mountain_2
 x 28
 y 6
 end
@@ -4539,11 +4675,19 @@ arch sea1
 x 28
 y 8
 end
+arch mountain_2
+x 28
+y 8
+end
 arch sea1
 x 28
 y 9
 end
 arch sea1
+x 28
+y 10
+end
+arch mountain_2
 x 28
 y 10
 end
@@ -4555,11 +4699,19 @@ arch sea1
 x 28
 y 12
 end
+arch mountain_2
+x 28
+y 12
+end
 arch sea1
 x 28
 y 13
 end
 arch sea1
+x 28
+y 14
+end
+arch mountain_2
 x 28
 y 14
 end
@@ -4571,11 +4723,19 @@ arch sea1
 x 28
 y 16
 end
+arch mountain_2
+x 28
+y 16
+end
 arch sea1
 x 28
 y 17
 end
 arch sea1
+x 28
+y 18
+end
+arch mountain_2
 x 28
 y 18
 end
@@ -4587,11 +4747,19 @@ arch sea1
 x 28
 y 20
 end
+arch mountain_2
+x 28
+y 20
+end
 arch sea1
 x 28
 y 21
 end
 arch sea1
+x 28
+y 22
+end
+arch mountain_2
 x 28
 y 22
 end
@@ -4603,6 +4771,10 @@ arch sea1
 x 28
 y 24
 end
+arch mountain_2
+x 28
+y 24
+end
 arch sea1
 x 28
 y 25
@@ -4611,11 +4783,19 @@ arch sea1
 x 28
 y 26
 end
+arch mountain_2
+x 28
+y 26
+end
 arch sea1
 x 28
 y 27
 end
 arch sea1
+x 28
+y 28
+end
+arch mountain_2
 x 28
 y 28
 end
@@ -4741,183 +4921,4 @@ end
 arch sea1
 x 29
 y 29
-end
-arch mountain_2
-end
-arch mountain_2
-y 2
-end
-arch mountain_2
-y 4
-end
-arch mountain_2
-y 6
-end
-arch mountain_2
-y 8
-end
-arch mountain_2
-y 10
-end
-arch mountain_2
-y 12
-end
-arch mountain_2
-y 14
-end
-arch mountain_2
-y 16
-end
-arch mountain_2
-y 18
-end
-arch mountain_2
-y 20
-end
-arch mountain_2
-y 22
-end
-arch mountain_2
-y 24
-end
-arch mountain_2
-y 26
-end
-arch mountain_2
-y 28
-end
-arch mountain_2
-x 2
-end
-arch mountain_2
-x 2
-y 28
-end
-arch mountain_2
-x 4
-end
-arch mountain_2
-x 4
-y 28
-end
-arch mountain_2
-x 6
-end
-arch mountain_2
-x 6
-y 28
-end
-arch mountain_2
-x 8
-end
-arch mountain_2
-x 8
-y 28
-end
-arch mountain_2
-x 10
-end
-arch mountain_2
-x 10
-y 28
-end
-arch mountain_2
-x 12
-end
-arch mountain_2
-x 16
-end
-arch mountain_2
-x 18
-end
-arch mountain_2
-x 18
-y 28
-end
-arch mountain_2
-x 20
-end
-arch mountain_2
-x 20
-y 28
-end
-arch mountain_2
-x 22
-end
-arch mountain_2
-x 22
-y 28
-end
-arch mountain_2
-x 24
-end
-arch mountain_2
-x 24
-y 28
-end
-arch mountain_2
-x 26
-end
-arch mountain_2
-x 26
-y 28
-end
-arch mountain_2
-x 28
-end
-arch mountain_2
-x 28
-y 2
-end
-arch mountain_2
-x 28
-y 4
-end
-arch mountain_2
-x 28
-y 6
-end
-arch mountain_2
-x 28
-y 8
-end
-arch mountain_2
-x 28
-y 10
-end
-arch mountain_2
-x 28
-y 12
-end
-arch mountain_2
-x 28
-y 14
-end
-arch mountain_2
-x 28
-y 16
-end
-arch mountain_2
-x 28
-y 18
-end
-arch mountain_2
-x 28
-y 20
-end
-arch mountain_2
-x 28
-y 22
-end
-arch mountain_2
-x 28
-y 24
-end
-arch mountain_2
-x 28
-y 26
-end
-arch mountain_2
-x 28
-y 28
 end

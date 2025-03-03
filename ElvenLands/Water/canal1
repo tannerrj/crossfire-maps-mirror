@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-12 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 51
 height 13
+msg
+Created:  2000-03-31 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -634,6 +636,10 @@ x 8
 y 5
 end
 arch sea
+x 8
+y 6
+end
+arch big_galleon
 x 8
 y 6
 end
@@ -1868,6 +1874,10 @@ arch sea
 x 25
 y 5
 end
+arch big_galleon
+x 25
+y 5
+end
 arch sea
 x 25
 y 6
@@ -2269,6 +2279,10 @@ arch mine2
 x 31
 end
 arch pstone_2
+x 31
+y 1
+end
+arch dread
 x 31
 y 1
 end
@@ -2572,6 +2586,10 @@ arch pstone_2
 x 35
 y 10
 end
+arch chinese_dragon
+x 35
+y 10
+end
 arch pstone_2
 x 35
 y 11
@@ -2714,6 +2732,10 @@ arch pstone_2
 x 38
 y 1
 end
+arch dread
+x 38
+y 1
+end
 arch pstone_2
 x 38
 y 2
@@ -2801,6 +2823,10 @@ x 39
 y 8
 end
 arch pstone_2
+x 39
+y 9
+end
+arch chinese_dragon
 x 39
 y 9
 end
@@ -3076,6 +3102,10 @@ arch pstone_2
 x 43
 y 10
 end
+arch baslic
+x 43
+y 10
+end
 arch pstone_2
 x 43
 y 11
@@ -3153,6 +3183,10 @@ arch mine2
 x 45
 end
 arch pstone_2
+x 45
+y 1
+end
+arch dread
 x 45
 y 1
 end
@@ -3305,6 +3339,10 @@ x 47
 y 8
 end
 arch pstone_2
+x 47
+y 9
+end
+arch baslic
 x 47
 y 9
 end
@@ -3540,40 +3578,4 @@ end
 arch mine12
 x 50
 y 12
-end
-arch big_galleon
-x 8
-y 6
-end
-arch big_galleon
-x 25
-y 5
-end
-arch dread
-x 31
-y 1
-end
-arch chinese_dragon
-x 35
-y 10
-end
-arch dread
-x 38
-y 1
-end
-arch chinese_dragon
-x 39
-y 9
-end
-arch baslic
-x 43
-y 10
-end
-arch dread
-x 45
-y 1
-end
-arch baslic
-x 47
-y 9
 end
