@@ -1,11 +1,12 @@
 arch map
 name town
-msg
-Created:  1999-11-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-11-21 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch mountain4
 end
@@ -53,6 +54,9 @@ y 14
 end
 arch wasteland
 y 15
+end
+arch mountain_2
+x 1
 end
 arch mountain
 x 1
@@ -1339,7 +1343,4 @@ end
 arch wasteland
 x 15
 y 15
-end
-arch mountain_2
-x 1
 end

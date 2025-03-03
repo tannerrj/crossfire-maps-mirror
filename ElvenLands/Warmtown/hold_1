@@ -1,11 +1,12 @@
 arch map
 name hold_1
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -112,6 +113,10 @@ x 1
 y 1
 end
 arch cobblestones2
+x 1
+y 2
+end
+arch troll
 x 1
 y 2
 end
@@ -977,6 +982,10 @@ arch cobblestones2
 x 11
 y 2
 end
+arch troll
+x 11
+y 2
+end
 arch cobblestones2
 x 11
 y 3
@@ -1392,12 +1401,4 @@ end
 arch cwall_1_2
 x 15
 y 15
-end
-arch troll
-x 1
-y 2
-end
-arch troll
-x 11
-y 2
 end

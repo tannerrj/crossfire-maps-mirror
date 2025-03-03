@@ -1,11 +1,13 @@
 arch map
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
+darkness 2
 width 15
 height 15
-darkness 2
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch permanent_lava
 end

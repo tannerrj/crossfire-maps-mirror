@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 21
 height 21
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch cobblestones2
 end
@@ -1000,6 +1002,10 @@ arch cwall_2_1_2
 x 7
 end
 arch cobblestones2
+x 7
+y 1
+end
+arch troll
 x 7
 y 1
 end
@@ -2440,6 +2446,10 @@ arch cobblestones2
 x 18
 y 2
 end
+arch troll
+x 18
+y 2
+end
 arch cobblestones2
 x 18
 y 3
@@ -2823,12 +2833,4 @@ end
 arch cwall_2_2_4
 x 20
 y 20
-end
-arch troll
-x 7
-y 1
-end
-arch troll
-x 18
-y 2
 end

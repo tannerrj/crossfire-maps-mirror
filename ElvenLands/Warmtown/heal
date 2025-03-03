@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 15
 height 15
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch flagstone
 end
@@ -966,7 +968,7 @@ msg
 @match *
 I am from Gnome village! You should
 journey there! It is a nice place! We
-even have a tower! 
+even have a tower!
 endmsg
 x 9
 y 5

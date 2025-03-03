@@ -1,11 +1,12 @@
 arch map
 name hold_b
-msg
-Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+region elvenlands
 width 21
 height 21
+msg
+Created:  1999-12-05 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch dungeon_floor
 end
@@ -306,6 +307,10 @@ x 2
 y 6
 end
 arch dungeon_floor
+x 2
+y 7
+end
+arch baslic
 x 2
 y 7
 end
@@ -654,6 +659,10 @@ x 5
 y 6
 end
 arch dungeon_floor
+x 5
+y 7
+end
+arch baslic
 x 5
 y 7
 end
@@ -1908,6 +1917,12 @@ slaying woblin
 x 16
 y 10
 end
+arch giant
+name master torturer
+x 16
+y 10
+unaggressive 1
+end
 arch dungeon_floor
 x 16
 y 11
@@ -2464,18 +2479,4 @@ end
 arch dun7
 x 20
 y 20
-end
-arch baslic
-x 2
-y 7
-end
-arch baslic
-x 5
-y 7
-end
-arch giant
-name master torturer
-x 16
-y 10
-unaggressive 1
 end

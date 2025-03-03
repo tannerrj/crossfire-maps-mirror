@@ -1,10 +1,12 @@
 arch map
-msg
-Created:  1999-11-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-11 Rick Tanner
-endmsg
+name <unnamed>
+region elvenlands
 width 16
 height 16
+msg
+Created:  1999-11-23 Joel Southall (joel@prninfo.com)
+Modified: 2025-03-02 Rick Tanner
+endmsg
 end
 arch small_stones
 end
@@ -499,7 +501,7 @@ arch greater_dwarven_guard
 name dragon tamer
 msg
 @match hi|hello
-Go away! 
+Go away!
 @match volcano,fire
 You can't go in that volcano. You
 don't have the Key.
