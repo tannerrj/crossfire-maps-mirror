@@ -170,11 +170,11 @@ y 12
 speed -0.500000
 level 100
 carrying 22000
-arch ability_coldspell
-end
-arch ability_coldspell
-end
 arch frostbrand
+end
+arch spell_medium_snowstorm
+end
+arch spell_frostbolt
 end
 end
 arch mountain
@@ -212,11 +212,11 @@ x 2
 y 2
 level 100
 carrying 22000
-arch ability_coldspell
-end
-arch ability_coldspell
-end
 arch frostbrand
+end
+arch spell_large_icestorm
+end
+arch spell_medium_snowstorm
 end
 end
 arch mountain
@@ -1401,11 +1401,11 @@ y 1
 speed -0.300000
 level 100
 carrying 22000
-arch ability_lightning
-end
-arch ability_lightning
-end
 arch frostbrand
+end
+arch spell_large_lightning
+end
+arch spell_forked_lightning
 end
 end
 arch mountain
@@ -1508,11 +1508,11 @@ x 12
 y 13
 level 100
 carrying 22000
-arch ability_coldspell
-end
-arch ability_coldspell
-end
 arch frostbrand
+end
+arch spell_large_icestorm
+end
+arch spell_medium_snowstorm
 end
 end
 arch mountain
