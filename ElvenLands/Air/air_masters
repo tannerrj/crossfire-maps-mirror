@@ -643,10 +643,11 @@ arch pstone_1
 x 6
 y 1
 end
-arch book
-slaying ball lightning
+arch evoker_book
 x 6
 y 1
+arch spell_ball_lightning
+end
 end
 arch pstone_1
 x 6
