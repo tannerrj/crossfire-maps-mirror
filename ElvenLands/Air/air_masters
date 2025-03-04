@@ -860,40 +860,15 @@ attacktype 24
 resist_electricity 20
 resist_cold 20
 end
-arch blindness
-name forked lightning
-sp 195
-speed 0.000000
-type 110
-is_blind 0
+arch spell_large_icestorm
 end
-arch blindness
-name windstorm
-sp 189
-speed 0.000000
-type 110
-is_blind 0
+arch spell_summon_air_elemental
 end
-arch blindness
-name large snowstorm
-sp 170
-speed 0.000000
-type 110
-is_blind 0
+arch spell_windstorm
 end
-arch blindness
-name summon air elemental
-sp 13
-speed 0.000000
-type 110
-is_blind 0
+arch spell_large_snowstorm
 end
-arch blindness
-name large icestorm
-sp 59
-speed 0.000000
-type 110
-is_blind 0
+arch spell_forked_lightning
 end
 end
 arch pstone_1
