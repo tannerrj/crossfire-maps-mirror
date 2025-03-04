@@ -3,6 +3,8 @@ name airplane
 region elvenlands
 width 41
 height 41
+enter_x 4
+enter_y 36
 msg
 Created:  1999-12-09 Joel Southall (joel@prninfo.com)
 Modified: 2025-03-04 Rick Tanner
@@ -1717,12 +1719,6 @@ y 26
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -1938,12 +1934,6 @@ y 11
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -3173,12 +3163,6 @@ y 29
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -4725,12 +4709,6 @@ y 33
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -4924,12 +4902,6 @@ y 17
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -5624,12 +5596,6 @@ y 25
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -5791,12 +5757,6 @@ y 3
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -6919,12 +6879,6 @@ y 10
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -8667,12 +8621,6 @@ y 32
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -10622,12 +10570,6 @@ y 36
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -10726,12 +10668,6 @@ y 7
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -10885,12 +10821,6 @@ y 20
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -11554,12 +11484,6 @@ y 27
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -13070,12 +12994,6 @@ y 17
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -13203,12 +13121,6 @@ y 33
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
@@ -13668,12 +13580,6 @@ y 5
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
-end
 end
 arch marble
 name ice
