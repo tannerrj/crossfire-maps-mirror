@@ -4476,7 +4476,9 @@ arch biglake_ne
 x 12
 y 9
 end
-arch sea1
+arch marble
+name ice
+face icestorm.111
 x 12
 y 10
 end
@@ -7151,7 +7153,7 @@ arch mountain4
 x 19
 y 39
 end
-arch sea
+arch biglake_sn
 x 19
 y 40
 end
@@ -13882,7 +13884,13 @@ end
 arch biglake_n
 x 39
 end
-arch sea
+arch marble
+name ice
+face icestorm.111
+x 39
+y 1
+end
+arch biglake_e
 x 39
 y 1
 end
@@ -14192,10 +14200,12 @@ arch mountain4
 x 39
 y 40
 end
-arch sea
+arch marble
+name ice
+face icestorm.111
 x 40
 end
-arch biglake_ne
+arch biglake_e
 x 40
 end
 arch marble
@@ -14544,11 +14554,7 @@ arch biglake_ew
 x 40
 y 37
 end
-arch sea
-x 40
-y 38
-end
-arch biglake_se
+arch biglake_sn
 x 40
 y 38
 end
