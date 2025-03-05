@@ -4804,10 +4804,6 @@ face marble_blgr.111
 x 20
 y 6
 end
-arch door_2
-x 20
-y 6
-end
 arch marble
 face marble_blgr.111
 x 20
@@ -5028,23 +5024,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -5119,23 +5113,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_cold
+arch spell_fear
 end
-arch ability_fear
+arch spell_heal
 end
-arch ability_heal
+arch spell_paralyze
 end
-arch ability_lightning
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_poison
+arch spell_large_speedball
 end
-arch ability_mass_confusion
+arch spell_large_lightning
 end
-arch ability_paralyze
-end
-arch ability_speedball
+arch spell_icestorm
 end
 end
 arch marble
@@ -5318,23 +5310,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -5382,23 +5372,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -5585,23 +5573,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -5663,23 +5649,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_cold
+arch spell_fear
 end
-arch ability_fear
+arch spell_heal
 end
-arch ability_heal
+arch spell_paralyze
 end
-arch ability_lightning
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_poison
+arch spell_large_speedball
 end
-arch ability_mass_confusion
+arch spell_large_lightning
 end
-arch ability_paralyze
-end
-arch ability_speedball
+arch spell_icestorm
 end
 end
 arch marble
@@ -5827,23 +5811,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -6072,23 +6054,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -6140,23 +6120,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_cold
+arch spell_fear
 end
-arch ability_fear
+arch spell_heal
 end
-arch ability_heal
+arch spell_paralyze
 end
-arch ability_lightning
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_poison
+arch spell_large_speedball
 end
-arch ability_mass_confusion
+arch spell_large_lightning
 end
-arch ability_paralyze
-end
-arch ability_speedball
+arch spell_icestorm
 end
 end
 arch marble
@@ -6329,23 +6307,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -6606,25 +6582,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_cold
+arch spell_fear
 end
-arch ability_fire
+arch spell_heal
 end
-arch ability_fear
+arch spell_paralyze
 end
-arch ability_heal
+arch spell_mass_confusion
 end
-arch ability_lightning
+arch spell_poison_cloud
 end
-arch ability_paralyze
+arch spell_large_speedball
 end
-arch ability_poison
+arch spell_large_lightning
 end
-arch ability_mass_confusion
-end
-arch ability_paralyze
-end
-arch ability_speedball
+arch spell_icestorm
 end
 end
 arch marble
