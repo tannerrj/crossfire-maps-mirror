@@ -7,7 +7,7 @@ enter_x 12
 enter_y 22
 msg
 Created:  1999-12-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-05 Rick Tanner
+Modified: 2025-03-06 Rick Tanner
 endmsg
 reset_group elvenlands_air
 end
@@ -1965,7 +1965,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -1987,23 +1986,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -2380,7 +2377,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -2402,23 +2398,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -2824,7 +2818,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -2846,23 +2839,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -3698,7 +3689,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -3720,23 +3710,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -4140,7 +4128,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -4162,23 +4149,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
@@ -4683,7 +4668,6 @@ end
 arch djinn
 name air spirit
 Str 75
-Dex 60
 Con 90
 Wis 30
 Pow 127
@@ -4705,23 +4689,21 @@ resist_confusion 100
 resist_acid 0
 resist_paralyze 100
 resist_death 100
-arch ability_speedball
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_heal
 end
-arch ability_mass_confusion
+arch spell_paralyze
 end
-arch ability_poison
+arch spell_mass_confusion
 end
-arch ability_paralyze
+arch spell_poison_cloud
 end
-arch ability_lightning
+arch spell_large_speedball
 end
-arch ability_heal
+arch spell_large_lightning
 end
-arch ability_fear
-end
-arch ability_cold
+arch spell_icestorm
 end
 end
 arch marble
