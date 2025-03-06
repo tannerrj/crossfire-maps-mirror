@@ -258,11 +258,6 @@ face marble_blgr.111
 x 1
 y 1
 end
-arch marble
-face marble_blgr.111
-x 1
-y 1
-end
 arch big_elec
 name Legendary Blue Dragon
 Con 22
@@ -280,11 +275,7 @@ y 1
 speed -0.500000
 level 70
 carrying 5000
-arch book
-name marble
-slaying ball lightning
-face marble_blgr.111
-invisible 1
+arch spell_ball_lightning
 end
 end
 arch marble
