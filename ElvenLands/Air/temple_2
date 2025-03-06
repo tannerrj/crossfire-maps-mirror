@@ -140,40 +140,19 @@ arch sea
 y 17
 end
 arch paralyze
-dam 0
-wc 0
 y 17
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 y 18
 end
 arch paralyze
-dam 0
-wc 0
 y 18
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 y 19
 end
 arch paralyze
-dam 0
-wc 0
 y 19
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 y 20
@@ -219,14 +198,7 @@ arch sea
 y 23
 end
 arch paralyze
-dam 0
-wc 0
 y 23
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 y 24
@@ -476,15 +448,8 @@ x 1
 y 17
 end
 arch paralyze
-dam 0
-wc 0
 x 1
 y 17
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 1
@@ -520,30 +485,16 @@ x 1
 y 20
 end
 arch paralyze
-dam 0
-wc 0
 x 1
 y 20
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 1
 y 21
 end
 arch paralyze
-dam 0
-wc 0
 x 1
 y 21
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 1
@@ -814,15 +765,8 @@ x 2
 y 17
 end
 arch paralyze
-dam 0
-wc 0
 x 2
 y 17
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 2
@@ -846,15 +790,8 @@ x 2
 y 19
 end
 arch paralyze
-dam 0
-wc 0
 x 2
 y 19
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 2
@@ -890,15 +827,8 @@ x 2
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 2
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 2
@@ -1040,35 +970,18 @@ y 11
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 3
 y 11
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 11
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
-food 0
 x 3
 y 11
 is_used_up 0
-see_anywhere 0
 end
 arch marble
 face marble_blgr.111
@@ -1134,15 +1047,8 @@ x 3
 y 19
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 19
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 3
@@ -1166,45 +1072,24 @@ x 3
 y 21
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 21
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 3
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 3
 y 23
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 23
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 3
@@ -1304,37 +1189,20 @@ arch sea
 x 4
 y 11
 end
-arch paralyze
-dam 0
-wc 0
-x 4
-y 11
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
-end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 4
 y 11
-type 0
-attacktype 0
-flying 0
-reflecting 0
+end
+arch paralyze
+x 4
+y 11
 end
 arch healing
 name Shining star
-food 0
 x 4
 y 11
 is_used_up 0
-see_anywhere 0
 end
 arch marble
 face marble_blgr.111
@@ -1434,15 +1302,8 @@ x 4
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 4
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 4
@@ -1466,15 +1327,8 @@ x 4
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 4
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -1615,15 +1469,8 @@ x 5
 y 20
 end
 arch paralyze
-dam 0
-wc 0
 x 5
 y 20
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 5
@@ -1647,30 +1494,16 @@ x 5
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 5
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 5
 y 23
 end
 arch paralyze
-dam 0
-wc 0
 x 5
 y 23
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 5
@@ -1830,15 +1663,8 @@ x 6
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 6
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 6
@@ -1862,15 +1688,8 @@ x 6
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 6
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -4511,15 +4330,8 @@ x 18
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 18
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -4735,15 +4547,8 @@ x 19
 y 23
 end
 arch paralyze
-dam 0
-wc 0
 x 19
 y 23
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 19
@@ -4822,37 +4627,20 @@ arch sea
 x 20
 y 11
 end
-arch paralyze
-dam 0
-wc 0
-x 20
-y 11
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
-end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 20
 y 11
-type 0
-attacktype 0
-flying 0
-reflecting 0
+end
+arch paralyze
+x 20
+y 11
 end
 arch healing
 name Shining star
-food 0
 x 20
 y 11
 is_used_up 0
-see_anywhere 0
 end
 arch marble
 face marble_blgr.111
@@ -4921,15 +4709,8 @@ x 20
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 20
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 20
@@ -4948,15 +4729,8 @@ x 20
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 20
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -5025,35 +4799,18 @@ y 11
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 21
 y 11
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch paralyze
-dam 0
-wc 0
 x 21
 y 11
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
-food 0
 x 21
 y 11
 is_used_up 0
-see_anywhere 0
 end
 arch marble
 face marble_blgr.111
@@ -5117,15 +4874,8 @@ x 21
 y 21
 end
 arch paralyze
-dam 0
-wc 0
 x 21
 y 21
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 21
@@ -5321,15 +5071,8 @@ x 22
 y 20
 end
 arch paralyze
-dam 0
-wc 0
 x 22
 y 20
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 22
@@ -5560,15 +5303,8 @@ x 23
 y 19
 end
 arch paralyze
-dam 0
-wc 0
 x 23
 y 19
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 23
@@ -5638,15 +5374,8 @@ x 23
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 23
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -5882,15 +5611,8 @@ x 24
 y 22
 end
 arch paralyze
-dam 0
-wc 0
 x 24
 y 22
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 24
@@ -6101,15 +5823,8 @@ x 25
 y 18
 end
 arch paralyze
-dam 0
-wc 0
 x 25
 y 18
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 25
@@ -6201,15 +5916,8 @@ x 25
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 25
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -6358,15 +6066,8 @@ x 26
 y 16
 end
 arch paralyze
-dam 0
-wc 0
 x 26
 y 16
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 26
@@ -6402,45 +6103,24 @@ x 26
 y 19
 end
 arch paralyze
-dam 0
-wc 0
 x 26
 y 19
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 26
 y 20
 end
 arch paralyze
-dam 0
-wc 0
 x 26
 y 20
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 26
 y 21
 end
 arch paralyze
-dam 0
-wc 0
 x 26
 y 21
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 26
@@ -6481,13 +6161,6 @@ x 26
 y 24
 end
 arch paralyze
-dam 0
-wc 0
 x 26
 y 24
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
