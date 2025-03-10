@@ -7,7 +7,7 @@ enter_x 12
 enter_y 22
 msg
 Created:  1999-12-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-06 Rick Tanner
+Modified: 2025-03-10 Rick Tanner
 endmsg
 reset_group elvenlands_air
 end
@@ -126,15 +126,7 @@ y 16
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 y 16
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 y 17
@@ -159,15 +151,7 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 y 21
@@ -184,15 +168,7 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 y 23
@@ -308,35 +284,17 @@ arch sea
 x 1
 y 7
 end
-arch sunspear
-name Stars
-hp 0
-exp 0
-dam 0
-wc 0
+arch paralyze
 x 1
 y 7
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 1
 y 8
 end
-arch sunspear
-name Stars
-hp 0
-exp 0
-dam 0
-wc 0
+arch paralyze
 x 1
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch healing
 name Shining star
@@ -351,15 +309,8 @@ x 1
 y 9
 end
 arch paralyze
-dam 0
-wc 0
 x 1
 y 9
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -469,16 +420,8 @@ y 19
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 1
 y 19
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 1
@@ -502,16 +445,8 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 1
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 1
@@ -519,16 +454,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 1
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 1
@@ -536,16 +463,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 1
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -622,15 +541,8 @@ x 2
 y 7
 end
 arch paralyze
-dam 0
-wc 0
 x 2
 y 7
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
@@ -646,16 +558,8 @@ y 8
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 2
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 2
@@ -663,16 +567,8 @@ y 9
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 2
 y 9
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -774,16 +670,8 @@ y 18
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 2
 y 18
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 2
@@ -799,16 +687,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 2
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 2
@@ -848,16 +728,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 2
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -905,15 +777,8 @@ x 3
 y 7
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 7
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 3
@@ -921,31 +786,16 @@ y 8
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 3
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 3
 y 9
 end
 arch paralyze
-dam 0
-wc 0
 x 3
 y 9
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
@@ -1031,16 +881,8 @@ y 18
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 3
 y 18
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 3
@@ -1056,16 +898,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 3
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 3
@@ -1097,16 +931,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 3
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -1257,16 +1083,8 @@ y 19
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 4
 y 19
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 4
@@ -1274,16 +1092,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 4
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 4
@@ -1311,16 +1121,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 4
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 4
@@ -1478,16 +1280,8 @@ y 21
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 5
 y 21
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 5
@@ -1511,16 +1305,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 5
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -1647,16 +1433,8 @@ y 21
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 6
 y 21
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 6
@@ -1672,16 +1450,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 6
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 6
@@ -1892,16 +1662,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 7
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -2408,49 +2170,17 @@ unaggressive 1
 arch key2
 slaying air
 end
-arch ability_cold
+arch spell_icestorm
 end
-arch ability_cold
+arch spell_large_icestorm
 end
-arch ability_cold
+arch spell_small_snowstorm
 end
-arch ability_cold
+arch spell_large_snowstorm
 end
-arch ability_cold
+arch spell_create_frost_wall
 end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
-end
-arch ability_cold
+arch spell_frostbolt
 end
 end
 arch marble
@@ -3262,41 +2992,15 @@ value 250000
 weight 17000
 magic 2
 end
-arch ability_lightning
+arch spell_large_lightning
 end
-arch ability_lightning
+arch spell_sm_lightning
 end
-arch ability_lightning
+arch spell_forked_lightning
 end
-arch ability_lightning
+arch spell_build_lightning_wall
 end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
-end
-arch ability_lightning
+arch spell_ball_lightning
 end
 end
 arch marble
@@ -4113,16 +3817,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 17
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -4883,16 +4579,8 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 21
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 21
@@ -4900,16 +4588,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 21
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 21
@@ -4917,16 +4597,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 21
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -5080,16 +4752,8 @@ y 21
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 22
 y 21
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 22
@@ -5109,16 +4773,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 22
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 22
@@ -5126,16 +4782,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 22
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -5183,15 +4831,8 @@ x 23
 y 7
 end
 arch paralyze
-dam 0
-wc 0
 x 23
 y 7
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch sea
 x 23
@@ -5199,31 +4840,16 @@ y 8
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 23
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 23
 y 9
 end
 arch paralyze
-dam 0
-wc 0
 x 23
 y 9
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
@@ -5312,16 +4938,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 23
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 23
@@ -5341,16 +4959,8 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 23
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 23
@@ -5358,16 +4968,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 23
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 23
@@ -5440,15 +5042,8 @@ x 24
 y 7
 end
 arch paralyze
-dam 0
-wc 0
 x 24
 y 7
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch healing
 name Shining star
@@ -5464,16 +5059,8 @@ y 8
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 24
@@ -5481,16 +5068,8 @@ y 9
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 9
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -5554,16 +5133,8 @@ y 18
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 18
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 24
@@ -5583,16 +5154,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 24
@@ -5620,16 +5183,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 24
@@ -5637,16 +5192,8 @@ y 24
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 24
 y 24
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch marble
 face marble_blgr.111
@@ -5695,33 +5242,16 @@ y 7
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 7
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
 y 8
 end
-arch sunspear
-name Stars
-hp 0
-exp 0
-dam 0
-wc 0
+arch paralyze
 x 25
 y 8
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch healing
 name Shining star
@@ -5736,15 +5266,8 @@ x 25
 y 9
 end
 arch paralyze
-dam 0
-wc 0
 x 25
 y 9
-level 0
-type 0
-attacktype 0
-flying 0
-fly_on 0
 end
 arch marble
 face marble_blgr.111
@@ -5832,16 +5355,8 @@ y 19
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 19
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
@@ -5849,16 +5364,8 @@ y 20
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 20
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
@@ -5866,16 +5373,8 @@ y 21
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 21
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
@@ -5883,16 +5382,8 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
@@ -5900,16 +5391,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 25
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 25
@@ -6075,16 +5558,8 @@ y 17
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 26
 y 17
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 26
@@ -6128,16 +5603,8 @@ y 22
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 26
 y 22
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 26
@@ -6145,16 +5612,8 @@ y 23
 end
 arch sunspear
 name Stars
-hp 0
-exp 0
-dam 0
-wc 0
 x 26
 y 23
-type 0
-attacktype 0
-flying 0
-reflecting 0
 end
 arch sea
 x 26
