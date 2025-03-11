@@ -193,14 +193,6 @@ arch marble
 face marble_blgr.111
 x 1
 end
-arch marble
-face marble_blgr.111
-x 1
-end
-arch marble
-face marble_blgr.111
-x 1
-end
 arch flagstone_2_1_2
 x 1
 end
@@ -237,16 +229,6 @@ end
 arch marble
 face marble_blgr.111
 x 1
-y 2
-end
-arch marble
-face marble_blgr.111
-x 1
-y 3
-end
-arch marble
-face marble_blgr.111
-x 1
 y 3
 end
 arch marble
@@ -257,22 +239,7 @@ end
 arch marble
 face marble_blgr.111
 x 1
-y 4
-end
-arch marble
-face marble_blgr.111
-x 1
 y 5
-end
-arch marble
-face marble_blgr.111
-x 1
-y 5
-end
-arch marble
-face marble_blgr.111
-x 1
-y 6
 end
 arch marble
 face marble_blgr.111
@@ -320,11 +287,6 @@ face marble_blgr.111
 x 1
 y 10
 end
-arch marble
-face marble_blgr.111
-x 1
-y 10
-end
 arch flagstone_2_1_2
 x 1
 y 10
@@ -337,16 +299,6 @@ end
 arch marble
 face marble_blgr.111
 x 1
-y 11
-end
-arch marble
-face marble_blgr.111
-x 1
-y 12
-end
-arch marble
-face marble_blgr.111
-x 1
 y 12
 end
 arch marble
@@ -357,22 +309,7 @@ end
 arch marble
 face marble_blgr.111
 x 1
-y 13
-end
-arch marble
-face marble_blgr.111
-x 1
 y 14
-end
-arch marble
-face marble_blgr.111
-x 1
-y 14
-end
-arch marble
-face marble_blgr.111
-x 1
-y 15
 end
 arch marble
 face marble_blgr.111
@@ -472,17 +409,8 @@ arch marble
 face marble_blgr.111
 x 2
 end
-arch marble
-face marble_blgr.111
-x 2
-end
 arch flagstone_2_1_2
 x 2
-end
-arch marble
-face marble_blgr.111
-x 2
-y 1
 end
 arch marble
 face marble_blgr.111
@@ -502,32 +430,12 @@ end
 arch marble
 face marble_blgr.111
 x 2
-y 3
-end
-arch marble
-face marble_blgr.111
-x 2
-y 4
-end
-arch marble
-face marble_blgr.111
-x 2
 y 4
 end
 arch marble
 face marble_blgr.111
 x 2
 y 5
-end
-arch marble
-face marble_blgr.111
-x 2
-y 5
-end
-arch marble
-face marble_blgr.111
-x 2
-y 6
 end
 arch marble
 face marble_blgr.111
@@ -577,11 +485,6 @@ face marble_blgr.111
 x 2
 y 10
 end
-arch marble
-face marble_blgr.111
-x 2
-y 10
-end
 arch flagstone_2_1_2
 x 2
 y 10
@@ -604,11 +507,6 @@ face marble_blgr.111
 x 2
 y 12
 end
-arch marble
-face marble_blgr.111
-x 2
-y 12
-end
 arch swall_2_2_1
 x 2
 y 12
@@ -621,32 +519,12 @@ end
 arch marble
 face marble_blgr.111
 x 2
-y 13
-end
-arch marble
-face marble_blgr.111
-x 2
-y 14
-end
-arch marble
-face marble_blgr.111
-x 2
 y 14
 end
 arch marble
 face marble_blgr.111
 x 2
 y 15
-end
-arch marble
-face marble_blgr.111
-x 2
-y 15
-end
-arch marble
-face marble_blgr.111
-x 2
-y 16
 end
 arch marble
 face marble_blgr.111
@@ -1012,7 +890,7 @@ arch swall_1_2_half
 x 4
 y 10
 end
-arch flagstone_3_1
+arch flagstone_2_1_2
 x 4
 y 10
 end
