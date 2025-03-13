@@ -1887,18 +1887,12 @@ arch fatman
 name the Baker
 msg
 @match *
-Hello!
-Care to try some of my bread?
+Hello! Care to try some of my bread?
 @match yes
-Go to one of the tables and drop money
-on it.
+Go to one of the tables and drop money on it.
 endmsg
-hp 100
 x 9
 y 12
-carrying 500
-arch torch_1
-end
 end
 arch dungeon_floor
 x 9
