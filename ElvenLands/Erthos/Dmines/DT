@@ -5500,7 +5500,7 @@ arch chair_1.1
 x 27
 y 9
 end
-arch dwarf_p
+arch dwarf
 msg
 @match hi|hello
 Welcome to my home. Have a cup of
@@ -5509,23 +5509,8 @@ coffee before you leave.
 I lost my key somewhere. If you find it
 you may have whatever is in the chest
 endmsg
-Str 10
-Dex 10
-Con 10
-Wis 10
-Pow 10
-Cha 10
-Int 10
-hp 500
-maxhp 500
-dam 3
-wc 5
-ac 5
 x 27
 y 9
-type 0
-monster 1
-unaggressive 1
 end
 arch dungeon_floor
 x 27
