@@ -6,7 +6,7 @@ width 31
 height 31
 msg
 Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-03-13 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -210,9 +210,8 @@ x 1
 end
 arch locked_door1
 name door
+slaying dwarftown_01
 x 1
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 1
@@ -394,9 +393,8 @@ x 2
 end
 arch locked_door1
 name door
+slaying dwarftown_01
 x 2
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 2
@@ -590,9 +588,8 @@ x 3
 end
 arch locked_door1
 name door
+slaying dwarftown_01
 x 3
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 3
