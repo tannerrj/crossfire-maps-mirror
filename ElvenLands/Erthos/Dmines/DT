@@ -5502,11 +5502,9 @@ end
 arch dwarf
 msg
 @match hi|hello
-Welcome to my home. Have a cup of
-coffee before you leave.
+Welcome to my home. Have a cup of coffee before you leave.
 @match chest|key
-I lost my key somewhere. If you find it
-you may have whatever is in the chest
+I lost my key somewhere. If you find it you may have whatever is in the chest.
 endmsg
 x 27
 y 9
