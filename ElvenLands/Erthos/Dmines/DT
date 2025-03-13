@@ -646,7 +646,7 @@ arch chair_1.1
 x 3
 y 12
 end
-arch dwarf_p
+arch dwarf
 name dwarf smith
 msg
 @match hi|hello
@@ -659,26 +659,8 @@ or drop 5 dragon scales on second anvil.
 Drop 20 dragon scales on third anvil to
 get a dragonslayer.
 endmsg
-Str 10
-Dex 10
-Con 10
-Wis 10
-Pow 10
-Cha 10
-Int 10
-hp 500
-maxhp 500
-dam 3
-wc 5
-ac 5
 x 3
 y 12
-type 0
-carrying 500
-monster 1
-unaggressive 1
-arch torch_1
-end
 end
 arch dungeon_floor
 x 3
