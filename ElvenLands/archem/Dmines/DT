@@ -8,7 +8,7 @@ enter_x 29
 enter_y 15
 msg
 Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-11 Rick Tanner
+Modified: 2025-03-13 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -272,14 +272,9 @@ arch dungeon_floor
 x 1
 y 12
 end
-arch fireball
-name flames
+arch campfire
 x 1
 y 12
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dungeon_floor
 x 1
@@ -1115,14 +1110,9 @@ arch dungeon_floor
 x 5
 y 12
 end
-arch fireball
-name flames
+arch campfire
 x 5
 y 12
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dungeon_floor
 x 5
@@ -2330,14 +2320,9 @@ arch dungeon_floor
 x 11
 y 12
 end
-arch fireball
-name flames
+arch campfire
 x 11
 y 12
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dungeon_floor
 x 11
@@ -4402,14 +4387,9 @@ arch medium_stones
 x 21
 y 22
 end
-arch fireball
-name flames
+arch campfire
 x 21
 y 22
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dungeon_floor
 x 21
@@ -5484,14 +5464,9 @@ arch medium_stones
 x 26
 y 27
 end
-arch fireball
-name flames
+arch campfire
 x 26
 y 27
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dungeon_floor
 x 26
