@@ -1886,10 +1886,10 @@ end
 arch fatman
 name the Baker
 msg
-@match *
-Hello! Care to try some of my bread?
 @match yes
 Go to one of the tables and drop money on it.
+@match *
+Hello! Care to try some of my bread?
 endmsg
 x 9
 y 12
