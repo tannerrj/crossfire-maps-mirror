@@ -4478,33 +4478,14 @@ arch chair_1.1
 x 22
 y 10
 end
-arch dwarf_p
+arch dwarf
 msg
 @match hi|hello
 Welcome to my home,ladie!  Have a cup
 of coffee! Good,aye ladie!
 endmsg
-Str 10
-Dex 10
-Con 10
-Wis 10
-Pow 10
-Cha 10
-Int 10
-hp 500
-maxhp 500
-dam 3
-wc 5
-ac 5
 x 22
 y 10
-type 0
-carrying 100
-monster 1
-unaggressive 1
-arch key2
-slaying dwarf3
-end
 end
 arch dungeon_floor
 x 22
