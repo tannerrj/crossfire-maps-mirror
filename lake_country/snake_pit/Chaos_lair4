@@ -9,7 +9,7 @@ enter_x 9
 enter_y 20
 msg
 Created: 1995-06-06 Kundi, Xue (xkd@soda.berkeley.edu)
-Modified: 2023-06-05 Rick Tanner
+Modified: 2025-03-14 Rick Tanner
 endmsg
 reset_group lakecountry_chaos-lair
 end
@@ -1016,13 +1016,25 @@ arch cave_15
 x 5
 y 21
 end
+arch medium_stones
+x 5
+y 22
+end
 arch cave24
 x 5
 y 22
 end
+arch medium_stones
+x 5
+y 23
+end
 arch cave3
 x 5
 y 23
+end
+arch medium_stones
+x 5
+y 24
 end
 arch cave23
 x 5
@@ -1154,6 +1166,10 @@ end
 arch cave_15
 x 6
 y 21
+end
+arch medium_stones
+x 6
+y 22
 end
 arch cave4
 x 6
