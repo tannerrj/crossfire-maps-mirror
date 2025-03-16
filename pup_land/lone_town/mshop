@@ -3,13 +3,14 @@ name Lown Town Magic Shop
 difficulty 25
 region lonetown
 shopitems book:85;spellbook:90;potion:75;rod:70;wand:75;amulet:15;gem:10;*:-90
+shopmax 100000
 width 28
 height 28
 enter_x 4
 enter_y 1
 msg
 Created:  1996-01-29
-Modified: 2023-11-23 Rick Tanner
+Modified: 2025-03-11 Kevin Zheng
 endmsg
 end
 arch grass
