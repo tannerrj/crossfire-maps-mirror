@@ -1690,29 +1690,15 @@ arch dwarf_priest
 name Father Dunadin
 msg
 @match hi|hello
-Sorry about the closed gate,but many of
-those unholy apparitions have tried to
-kill us. Poor Brother Gummor was already
-slain. Can you help us?
+Sorry about the closed gate,but many of those unholy apparitions have tried to kill us. Poor Brother Gummor was already slain. Can you help us?
 @match yes
-Thank you! You surely will be blessed.
-We need to get into the castle. Though
-the balrog himself isn't there,much of
-his minions are there. They may have
-something that will enable us to go
-deeper in the mines and caverns.
-But how will you help? The Castle
-cannot be taken by force!
+Thank you! You surely will be blessed. We need to get into the castle. Though the balrog himself isn't there, much of his minions are there. They may have something that will enable us to go deeper in the mines and caverns. But how will you help? The Castle cannot be taken by force!
 @match force
 Impossible!
 @match sneak
-I know of a secret passage that enters
-the castle. But it takes a key that I
-do not have.
+I know of a secret passage that enters the castle. But it takes a key that I do not have.
 @match secret|passage
-The western well leads to the inside of
-the castle. If you need a map of the
-castle,one is down stairs.
+The western well leads to the inside of the castle. If you need a map of the castle, one is down stairs.
 endmsg
 x 12
 y 2
