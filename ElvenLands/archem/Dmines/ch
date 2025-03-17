@@ -127,10 +127,13 @@ end
 arch wall_2_2_1
 y 19
 end
+arch swall_1_1_half
+y 19
+end
 arch medium_stones
 y 20
 end
-arch swall_1_1
+arch swall_2_1_1
 y 20
 end
 arch medium_stones
@@ -3453,11 +3456,15 @@ arch wall_2_2_4
 x 24
 y 19
 end
+arch swall_1_1_half
+x 24
+y 19
+end
 arch medium_stones
 x 24
 y 20
 end
-arch swall_1_1
+arch swall_2_1_1
 x 24
 y 20
 end
