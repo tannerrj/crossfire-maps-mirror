@@ -6,7 +6,7 @@ width 16
 height 16
 msg
 Created:  2000-06-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-23 Rick Tanner
+Modified: 2025-03-17 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -515,29 +515,13 @@ end
 arch vampire
 msg
 @match hi|hello
-Go away,before I cannot control my
-hunger any longer.
+Go away, before I cannot control my hunger any longer.
 @match dwarf|mad dwarf|miner
-I could not control myself. My hunger
-is a power that I cannot control. My
-master has many vampires under his
-control,he creates more and more. You
-must leave this place! For cannot
-possibly help!
-@match help|Help|master
-I would not suggest trying to slay my
-master! He is very strong and his
-castle is filled with dangerous
-vampires and undead. He himself used to
-be a dark elf,but became a lich. He has
-many powers and he also found an
-ancient scroll contained a powerful
-spell of madness. He has been using it
-on the dwarven miners.
+I could not control myself. My hunger is a power that I cannot control. My master has many vampires under his control, he creates more and more. You must leave this place! For cannot possibly help!
+@match help|master
+I would not suggest trying to slay my master!  He is very strong and his castle is filled with dangerous vampires and undead. He himself used to be a dark elf, but became a lich. He has many powers and he also found an ancient scroll contained a powerful spell of madness. He has been using it on the dwarven miners.
 @match spell|scroll|ancient scroll
-You must get it away from him. If he
-uses it on you,you will become insane
-for life. You must destroy the scroll
+You must get it away from him. If he uses it on you, you will become insane for life. You must destroy the scroll!
 endmsg
 x 4
 y 14
