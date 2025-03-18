@@ -8,7 +8,7 @@ enter_x 5
 enter_y 10
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2021-10-17 Rick Tanner
+Modified: 2025-03-17 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -498,21 +498,25 @@ end
 arch random_scroll
 end
 arch staff
+level 10
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch staff
+level 10
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch wand
+level 10
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch wand
+level 10
 randomitems none
 arch spell_magic_bullet
 end
@@ -847,6 +851,7 @@ x 7
 y 11
 carrying 13900
 arch wand
+level 10
 randomitems none
 arch spell_magic_bullet
 end
