@@ -6,7 +6,7 @@ width 17
 height 16
 msg
 Created:  2000-06-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-23 Rick Tanner
+Modified: 2025-03-18 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -709,10 +709,9 @@ y 15
 end
 arch locked_door1
 name door
+slaying elvenlands-p2
 x 7
 y 15
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 8
@@ -826,10 +825,9 @@ y 15
 end
 arch locked_door1
 name door
+slaying elvenlands-p2
 x 8
 y 15
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 9
@@ -915,10 +913,9 @@ y 15
 end
 arch locked_door1
 name door
+slaying elvenlands-p2
 x 9
 y 15
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 10
