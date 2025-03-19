@@ -378,6 +378,10 @@ arch mine2
 x 2
 y 19
 end
+arch swall_1_1_half
+x 2
+y 19
+end
 arch dungeon_magic
 x 2
 y 20
@@ -386,7 +390,7 @@ arch dungeon_floor
 x 2
 y 20
 end
-arch swall_1_1
+arch swall_2_1_1
 x 2
 y 20
 end
@@ -422,11 +426,15 @@ arch dungeon_floor
 x 2
 y 23
 end
-arch swall_1_2
+arch swall_2_1_1
 x 2
 y 23
 end
 arch dungeon_floor
+x 2
+y 24
+end
+arch swall_1_2_half
 x 2
 y 24
 end
@@ -1032,6 +1040,10 @@ arch mine2
 x 6
 y 19
 end
+arch swall_1_1_half
+x 6
+y 19
+end
 arch dungeon_magic
 x 6
 y 20
@@ -1040,7 +1052,7 @@ arch dungeon_floor
 x 6
 y 20
 end
-arch swall_1_1
+arch swall_2_1_1
 x 6
 y 20
 end
@@ -1076,11 +1088,15 @@ arch dungeon_floor
 x 6
 y 23
 end
-arch swall_1_2
+arch swall_2_1_1
 x 6
 y 23
 end
 arch dungeon_floor
+x 6
+y 24
+end
+arch swall_1_2_half
 x 6
 y 24
 end
@@ -1543,11 +1559,15 @@ arch mine2
 x 9
 y 15
 end
+arch swall_1_1_half
+x 9
+y 15
+end
 arch dungeon_floor
 x 9
 y 16
 end
-arch swall_1_1
+arch swall_2_1_1
 x 9
 y 16
 end
@@ -1899,11 +1919,15 @@ arch mine2
 x 11
 y 15
 end
+arch swall_1_1_half
+x 11
+y 15
+end
 arch dungeon_floor
 x 11
 y 16
 end
-arch swall_1_1
+arch swall_2_1_1
 x 11
 y 16
 end
