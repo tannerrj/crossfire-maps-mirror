@@ -378,6 +378,10 @@ arch mine2
 x 2
 y 19
 end
+arch dungeon_magic
+x 2
+y 20
+end
 arch dungeon_floor
 x 2
 y 20
@@ -388,15 +392,7 @@ y 20
 end
 arch dungeon_magic
 x 2
-y 20
-end
-arch unholy_ground
-x 2
-y 20
-end
-arch magic_banned
-x 2
-y 20
+y 21
 end
 arch dungeon_floor
 x 2
@@ -408,15 +404,7 @@ y 21
 end
 arch dungeon_magic
 x 2
-y 21
-end
-arch unholy_ground
-x 2
-y 21
-end
-arch magic_banned
-x 2
-y 21
+y 22
 end
 arch dungeon_floor
 x 2
@@ -428,33 +416,13 @@ y 22
 end
 arch dungeon_magic
 x 2
-y 22
-end
-arch unholy_ground
-x 2
-y 22
-end
-arch magic_banned
-x 2
-y 22
+y 23
 end
 arch dungeon_floor
 x 2
 y 23
 end
 arch swall_1_2
-x 2
-y 23
-end
-arch dungeon_magic
-x 2
-y 23
-end
-arch unholy_ground
-x 2
-y 23
-end
-arch magic_banned
 x 2
 y 23
 end
@@ -1064,6 +1032,10 @@ arch mine2
 x 6
 y 19
 end
+arch dungeon_magic
+x 6
+y 20
+end
 arch dungeon_floor
 x 6
 y 20
@@ -1074,15 +1046,7 @@ y 20
 end
 arch dungeon_magic
 x 6
-y 20
-end
-arch unholy_ground
-x 6
-y 20
-end
-arch magic_banned
-x 6
-y 20
+y 21
 end
 arch dungeon_floor
 x 6
@@ -1094,15 +1058,7 @@ y 21
 end
 arch dungeon_magic
 x 6
-y 21
-end
-arch unholy_ground
-x 6
-y 21
-end
-arch magic_banned
-x 6
-y 21
+y 22
 end
 arch dungeon_floor
 x 6
@@ -1114,33 +1070,13 @@ y 22
 end
 arch dungeon_magic
 x 6
-y 22
-end
-arch unholy_ground
-x 6
-y 22
-end
-arch magic_banned
-x 6
-y 22
+y 23
 end
 arch dungeon_floor
 x 6
 y 23
 end
 arch swall_1_2
-x 6
-y 23
-end
-arch dungeon_magic
-x 6
-y 23
-end
-arch unholy_ground
-x 6
-y 23
-end
-arch magic_banned
 x 6
 y 23
 end
