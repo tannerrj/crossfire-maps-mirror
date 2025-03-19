@@ -8,7 +8,7 @@ enter_x 9
 enter_y 15
 msg
 Created: 2002-10-27 Todd Mitchell
-Modified: 2023-10-31 Rick Tanner
+Modified: 2025-03-18 Rick Tanner
 endmsg
 outdoor 1
 reset_group marksel_grumms-inn
@@ -167,7 +167,7 @@ arch grass_only
 x 2
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 2
 end
@@ -175,7 +175,7 @@ arch woodwall_2_2_2
 x 2
 y 2
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 3
 end
@@ -183,7 +183,7 @@ arch woodwall_2_1_1
 x 2
 y 3
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 4
 end
@@ -191,7 +191,7 @@ arch woodwall_2_1_1
 x 2
 y 4
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 5
 end
@@ -199,7 +199,7 @@ arch woodwall_2_1_1
 x 2
 y 5
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 6
 end
@@ -207,7 +207,7 @@ arch woodwall_2_1_1
 x 2
 y 6
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 7
 end
@@ -215,7 +215,7 @@ arch woodwall_win1
 x 2
 y 7
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 8
 end
@@ -223,7 +223,7 @@ arch woodwall_2_1_1
 x 2
 y 8
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 9
 end
@@ -231,7 +231,7 @@ arch woodwall_2_1_1
 x 2
 y 9
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 10
 end
@@ -239,7 +239,7 @@ arch woodwall_2_1_1
 x 2
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 2
 y 11
 end
@@ -309,7 +309,7 @@ arch grass_only
 x 3
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 3
 y 2
 end
@@ -382,7 +382,7 @@ arch barrel
 x 3
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 3
 y 11
 end
@@ -424,7 +424,7 @@ arch grass_only
 x 4
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 4
 y 2
 end
@@ -483,7 +483,7 @@ arch woodfloor2
 x 4
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 4
 y 11
 end
@@ -525,7 +525,7 @@ arch grass_only
 x 5
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 5
 y 2
 end
@@ -607,7 +607,7 @@ x 5
 y 10
 unaggressive 1
 end
-arch woodfloor2
+arch cobblestones2
 x 5
 y 11
 end
@@ -649,7 +649,7 @@ arch grass_only
 x 6
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 6
 y 2
 end
@@ -711,7 +711,7 @@ arch table_3
 x 6
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 6
 y 11
 end
@@ -767,7 +767,7 @@ arch grass_only
 x 7
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 7
 y 2
 end
@@ -848,7 +848,7 @@ arch chair_1.2
 x 7
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 7
 y 11
 end
@@ -894,7 +894,7 @@ arch grass_only
 x 8
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 8
 y 2
 end
@@ -949,7 +949,7 @@ name woodfloor
 x 8
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 8
 y 11
 end
@@ -991,7 +991,7 @@ arch grass_only
 x 9
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 9
 y 2
 end
@@ -1054,7 +1054,7 @@ x 9
 y 11
 connected 1
 end
-arch woodfloor2
+arch cobblestones2
 x 9
 y 11
 end
@@ -1102,7 +1102,7 @@ arch grass_only
 x 10
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 10
 y 2
 end
@@ -1156,7 +1156,7 @@ arch woodfloor2
 x 10
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 10
 y 11
 end
@@ -1198,7 +1198,7 @@ arch grass_only
 x 11
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 11
 y 2
 end
@@ -1255,7 +1255,7 @@ arch table_3
 x 11
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 11
 y 11
 end
@@ -1301,7 +1301,7 @@ arch grass_only
 x 12
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 12
 y 2
 end
@@ -1358,7 +1358,7 @@ arch chair_1.2
 x 12
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 12
 y 11
 end
@@ -1409,7 +1409,7 @@ arch grass_only
 x 13
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 13
 y 2
 end
@@ -1488,7 +1488,7 @@ arch woodfloor2
 x 13
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 13
 y 11
 end
@@ -1531,7 +1531,7 @@ arch grass_only
 x 14
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 14
 y 2
 end
@@ -1602,7 +1602,7 @@ y 10
 friendly 1
 stand_still 1
 end
-arch woodfloor2
+arch cobblestones2
 x 14
 y 11
 end
@@ -1649,7 +1649,7 @@ arch grass_only
 x 15
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 15
 y 2
 end
@@ -1722,7 +1722,7 @@ arch table_3
 x 15
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 15
 y 11
 end
@@ -1765,7 +1765,7 @@ arch grass_only
 x 16
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 16
 y 2
 end
@@ -1813,7 +1813,7 @@ arch woodfloor2
 x 16
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 16
 y 11
 end
@@ -1860,7 +1860,7 @@ arch grass_only
 x 17
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 17
 y 2
 end
@@ -1929,7 +1929,7 @@ arch table_3
 x 17
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 17
 y 11
 end
@@ -1972,7 +1972,7 @@ arch grass_only
 x 18
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 18
 y 2
 end
@@ -2031,7 +2031,7 @@ arch chair_1.2
 x 18
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 18
 y 11
 end
@@ -2074,7 +2074,7 @@ arch grass_only
 x 19
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 19
 y 2
 end
@@ -2152,7 +2152,7 @@ arch woodfloor2
 x 19
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 19
 y 11
 end
@@ -2195,7 +2195,7 @@ arch grass_only
 x 20
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 20
 y 2
 end
@@ -2261,7 +2261,7 @@ arch woodfloor2
 x 20
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 20
 y 11
 end
@@ -2304,7 +2304,7 @@ arch grass_only
 x 21
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 21
 y 2
 end
@@ -2368,7 +2368,7 @@ hp 48
 x 21
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 21
 y 11
 end
@@ -2411,7 +2411,7 @@ arch grass_only
 x 22
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 22
 y 2
 end
@@ -2508,7 +2508,7 @@ arch table_3
 x 22
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 22
 y 11
 end
@@ -2551,7 +2551,7 @@ arch grass_only
 x 23
 y 1
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 2
 end
@@ -2559,7 +2559,7 @@ arch woodwall_2_2_3
 x 23
 y 2
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 3
 end
@@ -2567,7 +2567,7 @@ arch woodwall_2_1_1
 x 23
 y 3
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 4
 end
@@ -2575,7 +2575,7 @@ arch woodwall_2_1_1
 x 23
 y 4
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 5
 end
@@ -2583,7 +2583,7 @@ arch woodwall_2_1_1
 x 23
 y 5
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 6
 end
@@ -2591,7 +2591,7 @@ arch woodwall_2_1_1
 x 23
 y 6
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 7
 end
@@ -2599,7 +2599,7 @@ arch woodwall_win1
 x 23
 y 7
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 8
 end
@@ -2607,7 +2607,7 @@ arch woodwall_2_1_1
 x 23
 y 8
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 9
 end
@@ -2615,7 +2615,7 @@ arch woodwall_2_1_1
 x 23
 y 9
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 10
 end
@@ -2623,7 +2623,7 @@ arch woodwall_2_1_1
 x 23
 y 10
 end
-arch woodfloor2
+arch cobblestones2
 x 23
 y 11
 end
