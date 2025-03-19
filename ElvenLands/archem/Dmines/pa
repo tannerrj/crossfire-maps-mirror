@@ -690,10 +690,9 @@ x 4
 y 12
 end
 arch locked_door2
+slaying elvenlands-pa-library
 x 4
 y 12
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 4
