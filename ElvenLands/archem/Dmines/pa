@@ -737,10 +737,9 @@ y 19
 end
 arch locked_door1
 name door
+slaying elvenlands-pa-blacksmith
 x 4
 y 19
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 4
