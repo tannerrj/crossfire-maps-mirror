@@ -1325,9 +1325,8 @@ x 8
 end
 arch locked_door1
 name door
+slaying elvenlands-pa2
 x 8
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 8
@@ -1501,9 +1500,8 @@ x 9
 end
 arch locked_door1
 name door
+slaying elvenlands-pa2
 x 9
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 9
@@ -1679,9 +1677,8 @@ x 10
 end
 arch locked_door1
 name door
+slaying elvenlands-pa2
 x 10
-no_pass 0
-pass_thru 1
 end
 arch dungeon_floor
 x 10
