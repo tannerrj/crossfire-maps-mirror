@@ -11,7 +11,7 @@ enter_x 10
 enter_y 16
 msg
 Created: 1999-02-03 King Zoobus
-Modified: 2023-11-27 Rick Tanner
+Modified: 2025-03-22 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -610,11 +610,15 @@ y 11
 carrying 32600
 unaggressive 1
 arch wand
+food 16
+level 15
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch staff
+food 16
+level 15
 randomitems none
 arch spell_magic_bullet
 end
@@ -762,16 +766,22 @@ end
 arch amulet
 end
 arch wand
+food 15
+level 16
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch wand
+food 15
+level 16
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch staff
+food 15
+level 16
 randomitems none
 arch spell_magic_bullet
 end
@@ -938,11 +948,15 @@ y 11
 carrying 19800
 unaggressive 1
 arch wand
+food 16
+level 15
 randomitems none
 arch spell_magic_bullet
 end
 end
 arch staff
+food 16
+level 15
 randomitems none
 arch spell_magic_bullet
 end
