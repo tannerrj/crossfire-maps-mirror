@@ -813,13 +813,23 @@ arch cwall_2_1_2
 x 7
 y 16
 end
-arch steppe
+arch dungeon_magic
 x 7
 y 17
 end
 arch steppe
 x 7
+y 17
+move_block all
+end
+arch dungeon_magic
+x 7
 y 18
+end
+arch steppe
+x 7
+y 18
+move_block all
 end
 arch steppe
 x 8
@@ -896,6 +906,11 @@ arch flagstone
 x 8
 y 14
 end
+arch button_small
+x 8
+y 15
+connected 10
+end
 arch flagstone
 x 8
 y 15
@@ -908,13 +923,25 @@ arch cwall_1_3
 x 8
 y 16
 end
-arch steppe
+arch invis_exit
+slaying /world/world_120_109
+hp 38
+sp 37
 x 8
 y 17
 end
 arch steppe
 x 8
+y 17
+end
+arch dungeon_magic
+x 8
 y 18
+end
+arch steppe
+x 8
+y 18
+move_block all
 end
 arch steppe
 x 9
@@ -1026,28 +1053,48 @@ arch flagstone
 x 9
 y 14
 end
+arch button_small
+x 9
+y 15
+connected 10
+end
 arch flagstone
 x 9
 y 15
+end
+arch button_small
+x 9
+y 16
+connected 10
 end
 arch cobblestones2
 x 9
 y 16
 end
-arch oakdoor_2
+arch odoorn2_closed_1
+x 9
+y 16
+connected 10
+end
+arch invis_exit
 slaying /world/world_120_109
 hp 38
 sp 37
-x 9
-y 16
-end
-arch steppe
 x 9
 y 17
 end
 arch steppe
 x 9
+y 17
+end
+arch dungeon_magic
+x 9
 y 18
+end
+arch steppe
+x 9
+y 18
+move_block all
 end
 arch steppe
 x 10
@@ -1164,6 +1211,11 @@ arch flagstone
 x 10
 y 14
 end
+arch button_small
+x 10
+y 15
+connected 10
+end
 arch flagstone
 x 10
 y 15
@@ -1176,13 +1228,25 @@ arch cwall_1_4
 x 10
 y 16
 end
-arch steppe
+arch invis_exit
+slaying /world/world_120_109
+hp 38
+sp 37
 x 10
 y 17
 end
 arch steppe
 x 10
+y 17
+end
+arch dungeon_magic
+x 10
 y 18
+end
+arch steppe
+x 10
+y 18
+move_block all
 end
 arch steppe
 x 11
@@ -1279,13 +1343,23 @@ arch cwall_2_1_2
 x 11
 y 16
 end
-arch steppe
+arch dungeon_magic
 x 11
 y 17
 end
 arch steppe
 x 11
+y 17
+move_block all
+end
+arch dungeon_magic
+x 11
 y 18
+end
+arch steppe
+x 11
+y 18
+move_block all
 end
 arch steppe
 x 12
