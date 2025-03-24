@@ -14,7 +14,7 @@ enter_x 6
 enter_y 14
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Modified: 2025-03-24 Rick Tanner
 endmsg
 reset_group scorn_west-scorn-trade-market
 end
@@ -349,10 +349,6 @@ name stonefloor
 x 1
 y 1
 end
-arch dungeon_magic
-x 1
-y 1
-end
 arch mine12
 x 1
 y 1
@@ -363,10 +359,6 @@ y 2
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 2
-end
-arch dungeon_magic
 x 1
 y 2
 end
@@ -382,10 +374,6 @@ y 3
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 3
-end
-arch dungeon_magic
 x 1
 y 3
 end
@@ -420,10 +408,6 @@ name stonefloor
 x 1
 y 4
 end
-arch dungeon_magic
-x 1
-y 4
-end
 arch igate_closed_1
 x 1
 y 4
@@ -436,10 +420,6 @@ y 5
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 5
-end
-arch dungeon_magic
 x 1
 y 5
 end
@@ -465,10 +445,6 @@ name stonefloor
 x 1
 y 6
 end
-arch dungeon_magic
-x 1
-y 6
-end
 arch spikes_closed
 x 1
 y 6
@@ -497,10 +473,6 @@ y 7
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 7
-end
-arch dungeon_magic
 x 1
 y 7
 end
@@ -519,10 +491,6 @@ name stonefloor
 x 1
 y 8
 end
-arch dungeon_magic
-x 1
-y 8
-end
 arch igate_closed_1
 x 1
 y 8
@@ -535,10 +503,6 @@ y 9
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 9
-end
-arch dungeon_magic
 x 1
 y 9
 end
@@ -573,10 +537,6 @@ name stonefloor
 x 1
 y 10
 end
-arch dungeon_magic
-x 1
-y 10
-end
 arch mine2
 x 1
 y 10
@@ -587,10 +547,6 @@ y 11
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 11
-end
-arch dungeon_magic
 x 1
 y 11
 end
@@ -626,10 +582,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 1
-y 12
-end
-arch dungeon_magic
 x 1
 y 12
 end
@@ -887,10 +839,6 @@ name stonefloor
 x 2
 y 1
 end
-arch dungeon_magic
-x 2
-y 1
-end
 arch igate_closed_1
 x 2
 y 1
@@ -903,10 +851,6 @@ y 2
 end
 arch stonefloor2
 name stonefloor
-x 2
-y 2
-end
-arch dungeon_magic
 x 2
 y 2
 end
@@ -923,10 +867,6 @@ name stonefloor
 x 2
 y 3
 end
-arch dungeon_magic
-x 2
-y 3
-end
 arch mine3
 x 2
 y 3
@@ -940,10 +880,6 @@ name stonefloor
 x 2
 y 4
 end
-arch dungeon_magic
-x 2
-y 4
-end
 arch mine3
 x 2
 y 4
@@ -957,10 +893,6 @@ name stonefloor
 x 2
 y 5
 end
-arch dungeon_magic
-x 2
-y 5
-end
 arch mine3
 x 2
 y 5
@@ -974,10 +906,6 @@ name stonefloor
 x 2
 y 6
 end
-arch dungeon_magic
-x 2
-y 6
-end
 arch mine3
 x 2
 y 6
@@ -991,10 +919,6 @@ name stonefloor
 x 2
 y 7
 end
-arch dungeon_magic
-x 2
-y 7
-end
 arch mine3
 x 2
 y 7
@@ -1008,10 +932,6 @@ name stonefloor
 x 2
 y 8
 end
-arch dungeon_magic
-x 2
-y 8
-end
 arch mine3
 x 2
 y 8
@@ -1025,10 +945,6 @@ name stonefloor
 x 2
 y 9
 end
-arch dungeon_magic
-x 2
-y 9
-end
 arch mine3
 x 2
 y 9
@@ -1039,10 +955,6 @@ y 10
 end
 arch stonefloor2
 name stonefloor
-x 2
-y 10
-end
-arch dungeon_magic
 x 2
 y 10
 end
@@ -1059,10 +971,6 @@ name stonefloor
 x 2
 y 11
 end
-arch dungeon_magic
-x 2
-y 11
-end
 arch mine4
 x 2
 y 11
@@ -1073,10 +981,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 2
-y 12
-end
-arch dungeon_magic
 x 2
 y 12
 end
@@ -1321,10 +1225,6 @@ name stonefloor
 x 3
 y 1
 end
-arch dungeon_magic
-x 3
-y 1
-end
 arch mine4
 x 3
 y 1
@@ -1338,10 +1238,6 @@ name stonefloor
 x 3
 y 2
 end
-arch dungeon_magic
-x 3
-y 2
-end
 arch spikes_closed
 x 3
 y 2
@@ -1373,10 +1269,6 @@ name stonefloor
 x 3
 y 3
 end
-arch dungeon_magic
-x 3
-y 3
-end
 arch igate_closed_1
 x 3
 y 3
@@ -1389,10 +1281,6 @@ y 4
 end
 arch stonefloor2
 name stonefloor
-x 3
-y 4
-end
-arch dungeon_magic
 x 3
 y 4
 end
@@ -1411,10 +1299,6 @@ name stonefloor
 x 3
 y 5
 end
-arch dungeon_magic
-x 3
-y 5
-end
 arch spikes_closed
 x 3
 y 5
@@ -1446,10 +1330,6 @@ name stonefloor
 x 3
 y 6
 end
-arch dungeon_magic
-x 3
-y 6
-end
 arch igate_closed_1
 x 3
 y 6
@@ -1462,10 +1342,6 @@ y 7
 end
 arch stonefloor2
 name stonefloor
-x 3
-y 7
-end
-arch dungeon_magic
 x 3
 y 7
 end
@@ -1484,10 +1360,6 @@ name stonefloor
 x 3
 y 8
 end
-arch dungeon_magic
-x 3
-y 8
-end
 arch spikes_closed
 x 3
 y 8
@@ -1519,10 +1391,6 @@ name stonefloor
 x 3
 y 9
 end
-arch dungeon_magic
-x 3
-y 9
-end
 arch igate_closed_1
 x 3
 y 9
@@ -1535,10 +1403,6 @@ y 10
 end
 arch stonefloor2
 name stonefloor
-x 3
-y 10
-end
-arch dungeon_magic
 x 3
 y 10
 end
@@ -1559,10 +1423,6 @@ name stonefloor
 x 3
 y 11
 end
-arch dungeon_magic
-x 3
-y 11
-end
 arch mine17
 x 3
 y 11
@@ -1573,10 +1433,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 3
-y 12
-end
-arch dungeon_magic
 x 3
 y 12
 end
@@ -1817,10 +1673,6 @@ name stonefloor
 x 4
 y 1
 end
-arch dungeon_magic
-x 4
-y 1
-end
 arch mine14
 x 4
 y 1
@@ -1834,10 +1686,6 @@ name stonefloor
 x 4
 y 2
 end
-arch dungeon_magic
-x 4
-y 2
-end
 arch mine3
 x 4
 y 2
@@ -1851,10 +1699,6 @@ name stonefloor
 x 4
 y 3
 end
-arch dungeon_magic
-x 4
-y 3
-end
 arch mine3
 x 4
 y 3
@@ -1868,10 +1712,6 @@ name stonefloor
 x 4
 y 4
 end
-arch dungeon_magic
-x 4
-y 4
-end
 arch mine3
 x 4
 y 4
@@ -1885,10 +1725,6 @@ name stonefloor
 x 4
 y 5
 end
-arch dungeon_magic
-x 4
-y 5
-end
 arch mine3
 x 4
 y 5
@@ -1902,10 +1738,6 @@ name stonefloor
 x 4
 y 6
 end
-arch dungeon_magic
-x 4
-y 6
-end
 arch mine3
 x 4
 y 6
@@ -1919,10 +1751,6 @@ name stonefloor
 x 4
 y 7
 end
-arch dungeon_magic
-x 4
-y 7
-end
 arch mine3
 x 4
 y 7
@@ -1936,10 +1764,6 @@ name stonefloor
 x 4
 y 8
 end
-arch dungeon_magic
-x 4
-y 8
-end
 arch mine3
 x 4
 y 8
@@ -1950,10 +1774,6 @@ y 9
 end
 arch stonefloor2
 name stonefloor
-x 4
-y 9
-end
-arch dungeon_magic
 x 4
 y 9
 end
@@ -1967,10 +1787,6 @@ y 10
 end
 arch stonefloor2
 name stonefloor
-x 4
-y 10
-end
-arch dungeon_magic
 x 4
 y 10
 end
@@ -1989,10 +1805,6 @@ name stonefloor
 x 4
 y 11
 end
-arch dungeon_magic
-x 4
-y 11
-end
 arch mine16
 x 4
 y 11
@@ -2007,10 +1819,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 4
-y 12
-end
-arch dungeon_magic
 x 4
 y 12
 end
@@ -2212,10 +2020,6 @@ name stonefloor
 x 5
 y 1
 end
-arch dungeon_magic
-x 5
-y 1
-end
 arch teleporter
 hp 7
 sp 4
@@ -2231,10 +2035,6 @@ name stonefloor
 x 5
 y 2
 end
-arch dungeon_magic
-x 5
-y 2
-end
 arch igate_closed_1
 x 5
 y 2
@@ -2247,10 +2047,6 @@ y 3
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 3
-end
-arch dungeon_magic
 x 5
 y 3
 end
@@ -2285,10 +2081,6 @@ name stonefloor
 x 5
 y 4
 end
-arch dungeon_magic
-x 5
-y 4
-end
 arch igate_closed_1
 x 5
 y 4
@@ -2304,10 +2096,6 @@ name stonefloor
 x 5
 y 5
 end
-arch dungeon_magic
-x 5
-y 5
-end
 arch igate_closed_1
 x 5
 y 5
@@ -2320,10 +2108,6 @@ y 6
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 6
-end
-arch dungeon_magic
 x 5
 y 6
 end
@@ -2358,10 +2142,6 @@ name stonefloor
 x 5
 y 7
 end
-arch dungeon_magic
-x 5
-y 7
-end
 arch igate_closed_1
 x 5
 y 7
@@ -2377,10 +2157,6 @@ name stonefloor
 x 5
 y 8
 end
-arch dungeon_magic
-x 5
-y 8
-end
 arch igate_closed_1
 x 5
 y 8
@@ -2393,10 +2169,6 @@ y 9
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 9
-end
-arch dungeon_magic
 x 5
 y 9
 end
@@ -2428,10 +2200,6 @@ y 10
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 10
-end
-arch dungeon_magic
 x 5
 y 10
 end
@@ -2445,10 +2213,6 @@ y 11
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 11
-end
-arch dungeon_magic
 x 5
 y 11
 end
@@ -2466,10 +2230,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 12
-end
-arch dungeon_magic
 x 5
 y 12
 end
@@ -2551,10 +2311,6 @@ y 17
 end
 arch stonefloor2
 name stonefloor
-x 5
-y 17
-end
-arch dungeon_magic
 x 5
 y 17
 end
@@ -2694,10 +2450,6 @@ name stonefloor
 x 6
 y 2
 end
-arch dungeon_magic
-x 6
-y 2
-end
 arch swall_1_1
 x 6
 y 2
@@ -2715,10 +2467,6 @@ name stonefloor
 x 6
 y 3
 end
-arch dungeon_magic
-x 6
-y 3
-end
 arch swall_2_1_1
 x 6
 y 3
@@ -2729,10 +2477,6 @@ y 4
 end
 arch stonefloor2
 name stonefloor
-x 6
-y 4
-end
-arch dungeon_magic
 x 6
 y 4
 end
@@ -2753,10 +2497,6 @@ name stonefloor
 x 6
 y 5
 end
-arch dungeon_magic
-x 6
-y 5
-end
 arch mine3
 x 6
 y 5
@@ -2796,10 +2536,6 @@ name stonefloor
 x 6
 y 8
 end
-arch dungeon_magic
-x 6
-y 8
-end
 arch swall_1_4
 x 6
 y 8
@@ -2817,10 +2553,6 @@ name stonefloor
 x 6
 y 9
 end
-arch dungeon_magic
-x 6
-y 9
-end
 arch mine3
 x 6
 y 9
@@ -2831,10 +2563,6 @@ y 10
 end
 arch stonefloor2
 name stonefloor
-x 6
-y 10
-end
-arch dungeon_magic
 x 6
 y 10
 end
@@ -2852,10 +2580,6 @@ y 11
 end
 arch stonefloor2
 name stonefloor
-x 6
-y 11
-end
-arch dungeon_magic
 x 6
 y 11
 end
@@ -2877,10 +2601,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 6
-y 12
-end
-arch dungeon_magic
 x 6
 y 12
 end
@@ -2959,12 +2679,6 @@ arch stonefloor2
 name stonefloor
 x 6
 y 17
-end
-arch check_inv
-slaying cdcvaulthall1k
-x 6
-y 17
-connected 10001
 end
 arch grate_closed_2
 x 6
@@ -3101,10 +2815,6 @@ name stonefloor
 x 7
 y 3
 end
-arch dungeon_magic
-x 7
-y 3
-end
 arch flagstone
 x 7
 y 3
@@ -3168,10 +2878,6 @@ name stonefloor
 x 7
 y 8
 end
-arch dungeon_magic
-x 7
-y 8
-end
 arch silver_converter
 name sell silver bar bullion (min: 10) for imperials
 slaying silverbar
@@ -3185,10 +2891,6 @@ y 9
 end
 arch stonefloor2
 name stonefloor
-x 7
-y 9
-end
-arch dungeon_magic
 x 7
 y 9
 end
@@ -3209,10 +2911,6 @@ name stonefloor
 x 7
 y 10
 end
-arch dungeon_magic
-x 7
-y 10
-end
 arch firepot
 x 7
 y 10
@@ -3223,10 +2921,6 @@ y 11
 end
 arch stonefloor2
 name stonefloor
-x 7
-y 11
-end
-arch dungeon_magic
 x 7
 y 11
 end
@@ -3248,10 +2942,6 @@ name stonefloor
 x 7
 y 12
 end
-arch dungeon_magic
-x 7
-y 12
-end
 arch longtable_1_4
 x 7
 y 12
@@ -3266,10 +2956,6 @@ y 13
 end
 arch stonefloor2
 name stonefloor
-x 7
-y 13
-end
-arch dungeon_magic
 x 7
 y 13
 end
@@ -3482,10 +3168,6 @@ name stonefloor
 x 8
 y 8
 end
-arch dungeon_magic
-x 8
-y 8
-end
 arch silver_converter
 name sell platinum bar bullion for imperials
 slaying platbar
@@ -3501,10 +3183,6 @@ y 9
 end
 arch stonefloor2
 name stonefloor
-x 8
-y 9
-end
-arch dungeon_magic
 x 8
 y 9
 end
@@ -3525,10 +3203,6 @@ name stonefloor
 x 8
 y 10
 end
-arch dungeon_magic
-x 8
-y 10
-end
 arch longtable_2_1_1
 x 8
 y 10
@@ -3546,10 +3220,6 @@ name stonefloor
 x 8
 y 11
 end
-arch dungeon_magic
-x 8
-y 11
-end
 arch longtable_2_1_1
 x 8
 y 11
@@ -3564,10 +3234,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 8
-y 12
-end
-arch dungeon_magic
 x 8
 y 12
 end
@@ -3585,10 +3251,6 @@ y 13
 end
 arch stonefloor2
 name stonefloor
-x 8
-y 13
-end
-arch dungeon_magic
 x 8
 y 13
 end
@@ -3733,10 +3395,6 @@ name stonefloor
 x 9
 y 2
 end
-arch dungeon_magic
-x 9
-y 2
-end
 arch locked_door1
 slaying fwb_2000_dia_note_1
 msg
@@ -3809,10 +3467,6 @@ name stonefloor
 x 9
 y 9
 end
-arch dungeon_magic
-x 9
-y 9
-end
 arch gold_converter
 x 9
 y 9
@@ -3826,10 +3480,6 @@ name stonefloor
 x 9
 y 10
 end
-arch dungeon_magic
-x 9
-y 10
-end
 arch platinum_converter
 x 9
 y 10
@@ -3840,10 +3490,6 @@ y 11
 end
 arch stonefloor2
 name stonefloor
-x 9
-y 11
-end
-arch dungeon_magic
 x 9
 y 11
 end
@@ -3862,10 +3508,6 @@ y 12
 end
 arch stonefloor2
 name stonefloor
-x 9
-y 12
-end
-arch dungeon_magic
 x 9
 y 12
 end
@@ -4899,10 +4541,6 @@ y 2
 end
 arch stonefloor2
 name stonefloor
-x 13
-y 2
-end
-arch dungeon_magic
 x 13
 y 2
 end
@@ -6117,10 +5755,6 @@ y 2
 end
 arch stonefloor2
 name stonefloor
-x 17
-y 2
-end
-arch dungeon_magic
 x 17
 y 2
 end
@@ -7338,10 +6972,6 @@ name stonefloor
 x 21
 y 2
 end
-arch dungeon_magic
-x 21
-y 2
-end
 arch locked_door1
 slaying fwb_2000_dia_note_1
 msg
@@ -7917,10 +7547,6 @@ name stonefloor
 x 23
 y 2
 end
-arch dungeon_magic
-x 23
-y 2
-end
 arch locked_door1
 slaying fwb_2000_dia_note_1
 msg
@@ -8162,10 +7788,6 @@ name stonefloor
 x 24
 y 3
 end
-arch dungeon_magic
-x 24
-y 3
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8197,10 +7819,6 @@ name stonefloor
 x 24
 y 5
 end
-arch dungeon_magic
-x 24
-y 5
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8232,10 +7850,6 @@ name stonefloor
 x 24
 y 7
 end
-arch dungeon_magic
-x 24
-y 7
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8267,10 +7881,6 @@ name stonefloor
 x 24
 y 9
 end
-arch dungeon_magic
-x 24
-y 9
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8302,10 +7912,6 @@ name stonefloor
 x 24
 y 11
 end
-arch dungeon_magic
-x 24
-y 11
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8337,10 +7943,6 @@ name stonefloor
 x 24
 y 13
 end
-arch dungeon_magic
-x 24
-y 13
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8372,10 +7974,6 @@ name stonefloor
 x 24
 y 15
 end
-arch dungeon_magic
-x 24
-y 15
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8407,10 +8005,6 @@ name stonefloor
 x 24
 y 17
 end
-arch dungeon_magic
-x 24
-y 17
-end
 arch locked_door2
 slaying fwb_2000_dia_note_1
 msg
@@ -8439,10 +8033,6 @@ y 19
 end
 arch stonefloor2
 name stonefloor
-x 24
-y 19
-end
-arch dungeon_magic
 x 24
 y 19
 end
@@ -8545,10 +8135,6 @@ name stonefloor
 x 25
 y 3
 end
-arch dungeon_magic
-x 25
-y 3
-end
 arch gem
 x 25
 y 3
@@ -8576,10 +8162,6 @@ name stonefloor
 x 25
 y 5
 end
-arch dungeon_magic
-x 25
-y 5
-end
 arch gem
 x 25
 y 5
@@ -8607,10 +8189,6 @@ name stonefloor
 x 25
 y 7
 end
-arch dungeon_magic
-x 25
-y 7
-end
 arch gem
 x 25
 y 7
@@ -8638,10 +8216,6 @@ name stonefloor
 x 25
 y 9
 end
-arch dungeon_magic
-x 25
-y 9
-end
 arch gem
 x 25
 y 9
@@ -8669,10 +8243,6 @@ name stonefloor
 x 25
 y 11
 end
-arch dungeon_magic
-x 25
-y 11
-end
 arch gem
 x 25
 y 11
@@ -8700,10 +8270,6 @@ name stonefloor
 x 25
 y 13
 end
-arch dungeon_magic
-x 25
-y 13
-end
 arch gem
 x 25
 y 13
@@ -8731,10 +8297,6 @@ name stonefloor
 x 25
 y 15
 end
-arch dungeon_magic
-x 25
-y 15
-end
 arch gem
 x 25
 y 15
@@ -8762,10 +8324,6 @@ name stonefloor
 x 25
 y 17
 end
-arch dungeon_magic
-x 25
-y 17
-end
 arch gem
 x 25
 y 17
@@ -8790,10 +8348,6 @@ y 19
 end
 arch stonefloor2
 name stonefloor
-x 25
-y 19
-end
-arch dungeon_magic
 x 25
 y 19
 end
