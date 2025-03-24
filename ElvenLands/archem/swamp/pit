@@ -95,10 +95,13 @@ end
 arch large_stones
 y 14
 end
-arch rough_wall_2_2_1
+arch rough_wall_3_2
 y 14
 end
 arch large_stones
+y 15
+end
+arch rough_wall_2_2_1
 y 15
 end
 arch large_stones
@@ -223,7 +226,7 @@ arch large_stones
 x 1
 y 15
 end
-arch rough_wall_2_2_1
+arch rough_wall_3_1
 x 1
 y 15
 end
