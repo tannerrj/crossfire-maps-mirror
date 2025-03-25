@@ -3,6 +3,8 @@ name tow1
 region elvenlands
 width 37
 height 31
+enter_x 21
+enter_y 1
 msg
 Created:  2000-01-10 Joel Southall (joel@prninfo.com)
 Modified: 2025-03-25 Rick Tanner
@@ -3829,6 +3831,12 @@ end
 arch yellow_0
 x 21
 end
+arch invis_exit
+slaying ../land
+hp 20
+sp 32
+x 21
+end
 arch yellow_0
 x 21
 y 1
@@ -4019,6 +4027,12 @@ x 21
 y 30
 end
 arch yellow_0
+x 22
+end
+arch invis_exit
+slaying ../land
+hp 20
+sp 32
 x 22
 end
 arch yellow_0

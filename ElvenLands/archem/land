@@ -5,7 +5,7 @@ width 51
 height 39
 msg
 Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-23 Rick Tanner
+Modified: 2025-03-25 Rick Tanner
 endmsg
 end
 arch sea
@@ -3495,6 +3495,7 @@ y 31
 end
 arch keep_sym
 name swamp castle
+slaying swamp/tow1
 x 20
 y 31
 end
