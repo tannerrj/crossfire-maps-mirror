@@ -10,6 +10,32 @@ Created:  2000-01-10 Joel Southall (joel@prninfo.com)
 Modified: 2025-03-25 Rick Tanner
 endmsg
 end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch blocked
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
 arch yellow_0
 y 9
 end
@@ -141,6 +167,41 @@ y 30
 end
 arch dwall_2_2_1
 y 30
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch blocked
+x 1
+y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
 end
 arch yellow_0
 x 1
@@ -293,6 +354,41 @@ end
 arch dwall_2_1_2
 x 1
 y 30
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch blocked
+x 2
+y 3
+end
+arch blocked
+x 2
+y 4
+end
+arch blocked
+x 2
+y 5
+end
+arch blocked
+x 2
+y 6
+end
+arch blocked
+x 2
+y 7
+end
+arch blocked
+x 2
+y 8
 end
 arch yellow_0
 x 2
@@ -445,6 +541,41 @@ end
 arch dwall_2_1_2
 x 2
 y 30
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
+end
+arch blocked
+x 3
+y 2
+end
+arch blocked
+x 3
+y 3
+end
+arch blocked
+x 3
+y 4
+end
+arch blocked
+x 3
+y 5
+end
+arch blocked
+x 3
+y 6
+end
+arch blocked
+x 3
+y 7
+end
+arch blocked
+x 3
+y 8
 end
 arch yellow_0
 x 3
@@ -609,6 +740,41 @@ arch dwall_2_1_2
 x 3
 y 30
 end
+arch blocked
+x 4
+end
+arch blocked
+x 4
+y 1
+end
+arch blocked
+x 4
+y 2
+end
+arch blocked
+x 4
+y 3
+end
+arch blocked
+x 4
+y 4
+end
+arch blocked
+x 4
+y 5
+end
+arch blocked
+x 4
+y 6
+end
+arch blocked
+x 4
+y 7
+end
+arch blocked
+x 4
+y 8
+end
 arch yellow_0
 x 4
 y 9
@@ -760,6 +926,33 @@ end
 arch dwall_2_1_2
 x 4
 y 30
+end
+arch blocked
+x 5
+end
+arch blocked
+x 5
+y 1
+end
+arch blocked
+x 5
+y 2
+end
+arch blocked
+x 5
+y 3
+end
+arch blocked
+x 5
+y 4
+end
+arch blocked
+x 5
+y 5
+end
+arch blocked
+x 5
+y 6
 end
 arch yellow_0
 x 5
@@ -932,6 +1125,33 @@ end
 arch dwall_2_1_2
 x 5
 y 30
+end
+arch blocked
+x 6
+end
+arch blocked
+x 6
+y 1
+end
+arch blocked
+x 6
+y 2
+end
+arch blocked
+x 6
+y 3
+end
+arch blocked
+x 6
+y 4
+end
+arch blocked
+x 6
+y 5
+end
+arch blocked
+x 6
+y 6
 end
 arch yellow_0
 x 6
@@ -1106,6 +1326,33 @@ end
 arch dwall_2_1_2
 x 6
 y 30
+end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
+arch blocked
+x 7
+y 3
+end
+arch blocked
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
+end
+arch blocked
+x 7
+y 6
 end
 arch yellow_0
 x 7
@@ -1282,6 +1529,33 @@ end
 arch dwall_3_1
 x 7
 y 30
+end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+x 8
+y 3
+end
+arch blocked
+x 8
+y 4
+end
+arch blocked
+x 8
+y 5
+end
+arch blocked
+x 8
+y 6
 end
 arch yellow_0
 x 8
@@ -6271,6 +6545,65 @@ arch dwall_2_1_2
 x 32
 y 28
 end
+arch blocked
+x 32
+y 29
+end
+arch blocked
+x 32
+y 30
+end
+arch blocked
+x 33
+end
+arch blocked
+x 33
+y 1
+end
+arch blocked
+x 33
+y 2
+end
+arch blocked
+x 33
+y 3
+end
+arch blocked
+x 33
+y 4
+end
+arch blocked
+x 33
+y 5
+end
+arch blocked
+x 33
+y 6
+end
+arch blocked
+x 33
+y 7
+end
+arch blocked
+x 33
+y 8
+end
+arch blocked
+x 33
+y 9
+end
+arch blocked
+x 33
+y 10
+end
+arch blocked
+x 33
+y 11
+end
+arch blocked
+x 33
+y 12
+end
 arch yellow_0
 x 33
 y 13
@@ -6364,6 +6697,65 @@ arch dwall_2_1_2
 x 33
 y 28
 end
+arch blocked
+x 33
+y 29
+end
+arch blocked
+x 33
+y 30
+end
+arch blocked
+x 34
+end
+arch blocked
+x 34
+y 1
+end
+arch blocked
+x 34
+y 2
+end
+arch blocked
+x 34
+y 3
+end
+arch blocked
+x 34
+y 4
+end
+arch blocked
+x 34
+y 5
+end
+arch blocked
+x 34
+y 6
+end
+arch blocked
+x 34
+y 7
+end
+arch blocked
+x 34
+y 8
+end
+arch blocked
+x 34
+y 9
+end
+arch blocked
+x 34
+y 10
+end
+arch blocked
+x 34
+y 11
+end
+arch blocked
+x 34
+y 12
+end
 arch yellow_0
 x 34
 y 13
@@ -6443,6 +6835,65 @@ arch dwall_2_1_2
 x 34
 y 28
 end
+arch blocked
+x 34
+y 29
+end
+arch blocked
+x 34
+y 30
+end
+arch blocked
+x 35
+end
+arch blocked
+x 35
+y 1
+end
+arch blocked
+x 35
+y 2
+end
+arch blocked
+x 35
+y 3
+end
+arch blocked
+x 35
+y 4
+end
+arch blocked
+x 35
+y 5
+end
+arch blocked
+x 35
+y 6
+end
+arch blocked
+x 35
+y 7
+end
+arch blocked
+x 35
+y 8
+end
+arch blocked
+x 35
+y 9
+end
+arch blocked
+x 35
+y 10
+end
+arch blocked
+x 35
+y 11
+end
+arch blocked
+x 35
+y 12
+end
 arch yellow_0
 x 35
 y 13
@@ -6514,6 +6965,65 @@ end
 arch dwall_2_1_2
 x 35
 y 28
+end
+arch blocked
+x 35
+y 29
+end
+arch blocked
+x 35
+y 30
+end
+arch blocked
+x 36
+end
+arch blocked
+x 36
+y 1
+end
+arch blocked
+x 36
+y 2
+end
+arch blocked
+x 36
+y 3
+end
+arch blocked
+x 36
+y 4
+end
+arch blocked
+x 36
+y 5
+end
+arch blocked
+x 36
+y 6
+end
+arch blocked
+x 36
+y 7
+end
+arch blocked
+x 36
+y 8
+end
+arch blocked
+x 36
+y 9
+end
+arch blocked
+x 36
+y 10
+end
+arch blocked
+x 36
+y 11
+end
+arch blocked
+x 36
+y 12
 end
 arch yellow_0
 x 36
@@ -6642,4 +7152,12 @@ end
 arch dwall_2_2_4
 x 36
 y 28
+end
+arch blocked
+x 36
+y 29
+end
+arch blocked
+x 36
+y 30
 end
