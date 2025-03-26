@@ -14,7 +14,7 @@ enter_x 6
 enter_y 14
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2025-03-24 Rick Tanner
+Modified: 2025-03-25 Rick Tanner
 endmsg
 reset_group scorn_west-scorn-trade-market
 end
@@ -2743,17 +2743,9 @@ arch blocked
 x 6
 y 21
 end
-arch dungeon_magic
-x 6
-y 22
-end
 arch blocked
 x 6
 y 22
-end
-arch dungeon_magic
-x 6
-y 23
 end
 arch blocked
 x 6
@@ -3058,17 +3050,9 @@ arch blocked
 x 7
 y 21
 end
-arch dungeon_magic
-x 7
-y 22
-end
 arch blocked
 x 7
 y 22
-end
-arch dungeon_magic
-x 7
-y 23
 end
 arch blocked
 x 7
@@ -3350,10 +3334,6 @@ arch blocked
 x 8
 y 21
 end
-arch dungeon_magic
-x 8
-y 22
-end
 arch blocked
 x 8
 y 22
@@ -3612,10 +3592,6 @@ arch blocked
 x 9
 y 21
 end
-arch dungeon_magic
-x 9
-y 22
-end
 arch blocked
 x 9
 y 22
@@ -3884,10 +3860,6 @@ end
 arch blocked
 x 10
 y 21
-end
-arch dungeon_magic
-x 10
-y 22
 end
 arch blocked
 x 10
@@ -4203,10 +4175,6 @@ arch blocked
 x 11
 y 21
 end
-arch dungeon_magic
-x 11
-y 22
-end
 arch blocked
 x 11
 y 22
@@ -4514,10 +4482,6 @@ end
 arch blocked
 x 12
 y 21
-end
-arch dungeon_magic
-x 12
-y 22
 end
 arch blocked
 x 12
@@ -4811,10 +4775,6 @@ end
 arch blocked
 x 13
 y 21
-end
-arch dungeon_magic
-x 13
-y 22
 end
 arch blocked
 x 13
