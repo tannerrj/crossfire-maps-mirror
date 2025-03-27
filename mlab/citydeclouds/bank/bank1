@@ -169,16 +169,10 @@ end
 arch flagstone
 y 26
 end
-arch swall_1_1
-y 26
-end
 arch cwall_3_2
 y 26
 end
 arch flagstone
-y 27
-end
-arch swall_2_2_1
 y 27
 end
 arch cwall_2_2_1
@@ -419,10 +413,6 @@ arch flagstone
 x 1
 y 27
 end
-arch swall_2_1_2
-x 1
-y 27
-end
 arch cwall_3_1
 x 1
 y 27
@@ -761,10 +751,6 @@ arch flagstone
 x 2
 y 27
 end
-arch swall_2_1_2
-x 2
-y 27
-end
 arch cwall_3_1
 x 2
 y 27
@@ -888,10 +874,6 @@ x 3
 y 12
 end
 arch longtable_1_4
-x 3
-y 12
-end
-arch swall_1_4
 x 3
 y 12
 end
@@ -1084,10 +1066,6 @@ x 3
 y 26
 end
 arch flagstone
-x 3
-y 27
-end
-arch swall_2_1_2
 x 3
 y 27
 end
@@ -1655,10 +1633,6 @@ arch flagstone
 x 5
 y 27
 end
-arch swall_2_1_2
-x 5
-y 27
-end
 arch cwall_2_2_1
 x 5
 y 27
@@ -1945,10 +1919,6 @@ x 6
 y 26
 end
 arch flagstone
-x 6
-y 27
-end
-arch swall_2_1_2
 x 6
 y 27
 end
@@ -2914,10 +2884,6 @@ arch flagstone
 x 10
 y 10
 end
-arch swall_2_2_2
-x 10
-y 10
-end
 arch cwall_3_1
 x 10
 y 10
@@ -3081,10 +3047,6 @@ arch flagstone
 x 10
 y 27
 end
-arch swall_2_1_2
-x 10
-y 27
-end
 arch cwall_2_2_1
 x 10
 y 27
@@ -3192,10 +3154,6 @@ x 11
 y 10
 end
 arch flagstone
-x 11
-y 10
-end
-arch swall_1_3
 x 11
 y 10
 end
@@ -3360,10 +3318,6 @@ x 11
 y 26
 end
 arch flagstone
-x 11
-y 27
-end
-arch swall_2_1_2
 x 11
 y 27
 end
@@ -3791,10 +3745,6 @@ arch longtable_1_3
 x 13
 y 12
 end
-arch swall_1_3
-x 13
-y 12
-end
 arch cwall_3_2
 x 13
 y 12
@@ -3987,10 +3937,6 @@ arch flagstone
 x 13
 y 27
 end
-arch swall_2_1_2
-x 13
-y 27
-end
 arch cwall_2_2_1
 x 13
 y 27
@@ -4329,10 +4275,6 @@ arch flagstone
 x 14
 y 27
 end
-arch swall_2_1_2
-x 14
-y 27
-end
 arch cwall_3_1
 x 14
 y 27
@@ -4572,10 +4514,6 @@ x 15
 y 26
 end
 arch flagstone
-x 15
-y 27
-end
-arch swall_2_1_2
 x 15
 y 27
 end
@@ -4813,19 +4751,11 @@ arch flagstone
 x 16
 y 26
 end
-arch swall_1_1
-x 16
-y 26
-end
 arch cwall_3_4
 x 16
 y 26
 end
 arch flagstone
-x 16
-y 27
-end
-arch swall_2_2_4
 x 16
 y 27
 end
