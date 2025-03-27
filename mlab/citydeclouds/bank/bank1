@@ -877,6 +877,10 @@ arch longtable_1_4
 x 3
 y 12
 end
+arch swall_1_4_half
+x 3
+y 12
+end
 arch cwall_3_4
 x 3
 y 12
@@ -1066,6 +1070,10 @@ x 3
 y 26
 end
 arch flagstone
+x 3
+y 27
+end
+arch swall_1_4_half
 x 3
 y 27
 end
@@ -1633,6 +1641,10 @@ arch flagstone
 x 5
 y 27
 end
+arch swall_1_3_half
+x 5
+y 27
+end
 arch cwall_2_2_1
 x 5
 y 27
@@ -1760,6 +1772,10 @@ x 6
 y 10
 end
 arch cwall_3_1
+x 6
+y 10
+end
+arch swall_1_1_half
 x 6
 y 10
 end
@@ -1919,6 +1935,10 @@ x 6
 y 26
 end
 arch flagstone
+x 6
+y 27
+end
+arch swall_1_4_half
 x 6
 y 27
 end
@@ -2888,6 +2908,10 @@ arch cwall_3_1
 x 10
 y 10
 end
+arch swall_1_1_half
+x 10
+y 10
+end
 arch dungeon_magic
 x 10
 y 11
@@ -3044,6 +3068,10 @@ x 10
 y 26
 end
 arch flagstone
+x 10
+y 27
+end
+arch swall_1_3_half
 x 10
 y 27
 end
@@ -3318,6 +3346,10 @@ x 11
 y 26
 end
 arch flagstone
+x 11
+y 27
+end
+arch swall_1_4_half
 x 11
 y 27
 end
@@ -3745,6 +3777,10 @@ arch longtable_1_3
 x 13
 y 12
 end
+arch swall_1_3_half
+x 13
+y 12
+end
 arch cwall_3_2
 x 13
 y 12
@@ -3934,6 +3970,10 @@ x 13
 y 26
 end
 arch flagstone
+x 13
+y 27
+end
+arch swall_1_3_half
 x 13
 y 27
 end
