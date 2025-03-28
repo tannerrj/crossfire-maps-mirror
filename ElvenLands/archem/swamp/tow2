@@ -5,112 +5,219 @@ width 31
 height 35
 msg
 Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-03-28 Rick Tanner
 endmsg
 end
+arch stonefloor2
+end
 arch dwall_2_2_2
+end
+arch stonefloor2
+y 1
 end
 arch dwall_2_1_1
 y 1
 end
+arch stonefloor2
+y 2
+end
 arch dwall_2_1_1
 y 2
+end
+arch stonefloor2
+y 3
 end
 arch dwall_2_1_1
 y 3
 end
+arch stonefloor2
+y 4
+end
 arch dwall_2_1_1
 y 4
+end
+arch stonefloor2
+y 5
 end
 arch dwall_2_1_1
 y 5
 end
+arch stonefloor2
+y 6
+end
 arch dwall_3_2
 y 6
+end
+arch stonefloor2
+y 7
 end
 arch dwall_2_1_1
 y 7
 end
+arch stonefloor2
+y 8
+end
 arch dwall_2_1_1
 y 8
+end
+arch stonefloor2
+y 9
 end
 arch dwall_2_1_1
 y 9
 end
+arch stonefloor2
+y 10
+end
 arch dwall_2_1_1
 y 10
+end
+arch stonefloor2
+y 11
 end
 arch dwall_2_1_1
 y 11
 end
+arch stonefloor2
+y 12
+end
 arch dwall_3_2
 y 12
+end
+arch stonefloor2
+y 13
 end
 arch dwall_2_1_1
 y 13
 end
+arch stonefloor2
+y 14
+end
 arch dwall_2_1_1
 y 14
+end
+arch stonefloor2
+y 15
 end
 arch dwall_2_1_1
 y 15
 end
+arch stonefloor2
+y 16
+end
 arch dwall_2_1_1
 y 16
+end
+arch stonefloor2
+y 17
 end
 arch dwall_2_1_1
 y 17
 end
+arch stonefloor2
+y 18
+end
 arch dwall_2_1_1
 y 18
+end
+arch stonefloor2
+y 19
 end
 arch dwall_2_1_1
 y 19
 end
+arch stonefloor2
+y 20
+end
 arch dwall_2_1_1
 y 20
+end
+arch stonefloor2
+y 21
 end
 arch dwall_2_1_1
 y 21
 end
+arch stonefloor2
+y 22
+end
 arch dwall_2_1_1
 y 22
+end
+arch stonefloor2
+y 23
 end
 arch dwall_2_1_1
 y 23
 end
+arch stonefloor2
+y 24
+end
 arch dwall_2_1_1
 y 24
+end
+arch stonefloor2
+y 25
 end
 arch dwall_2_1_1
 y 25
 end
+arch stonefloor2
+y 26
+end
 arch dwall_2_1_1
 y 26
+end
+arch stonefloor2
+y 27
 end
 arch dwall_2_1_1
 y 27
 end
+arch stonefloor2
+y 28
+end
 arch dwall_2_1_1
 y 28
+end
+arch stonefloor2
+y 29
 end
 arch dwall_2_1_1
 y 29
 end
+arch stonefloor2
+y 30
+end
 arch dwall_2_1_1
 y 30
+end
+arch stonefloor2
+y 31
 end
 arch dwall_2_1_1
 y 31
 end
+arch stonefloor2
+y 32
+end
 arch dwall_2_1_1
 y 32
+end
+arch stonefloor2
+y 33
 end
 arch dwall_2_1_1
 y 33
 end
+arch stonefloor2
+y 34
+end
 arch dwall_2_2_1
 y 34
+end
+arch stonefloor2
+x 1
 end
 arch dwall_2_1_2
 x 1
@@ -142,6 +249,10 @@ arch cobblestones
 x 1
 y 5
 end
+arch stonefloor2
+x 1
+y 6
+end
 arch dwall_2_1_2
 x 1
 y 6
@@ -173,6 +284,10 @@ end
 arch generate_goblin
 x 1
 y 11
+end
+arch stonefloor2
+x 1
+y 12
 end
 arch dwall_2_1_2
 x 1
@@ -282,9 +397,16 @@ arch generate_madman
 x 1
 y 33
 end
+arch stonefloor2
+x 1
+y 34
+end
 arch dwall_2_1_2
 x 1
 y 34
+end
+arch stonefloor2
+x 2
 end
 arch dwall_2_1_2
 x 2
@@ -308,6 +430,10 @@ end
 arch cobblestones
 x 2
 y 5
+end
+arch stonefloor2
+x 2
+y 6
 end
 arch dwall_1_3
 x 2
@@ -340,6 +466,10 @@ end
 arch cobblestones
 x 2
 y 11
+end
+arch stonefloor2
+x 2
+y 12
 end
 arch dwall_2_1_2
 x 2
@@ -482,9 +612,16 @@ arch generate_madman
 x 2
 y 33
 end
+arch stonefloor2
+x 2
+y 34
+end
 arch dwall_2_1_2
 x 2
 y 34
+end
+arch stonefloor2
+x 3
 end
 arch dwall_2_1_2
 x 3
@@ -544,6 +681,10 @@ end
 arch cobblestones
 x 3
 y 11
+end
+arch stonefloor2
+x 3
+y 12
 end
 arch dwall_2_1_2
 x 3
@@ -661,9 +802,16 @@ arch generate_madman
 x 3
 y 33
 end
+arch stonefloor2
+x 3
+y 34
+end
 arch dwall_2_1_2
 x 3
 y 34
+end
+arch stonefloor2
+x 4
 end
 arch dwall_2_1_2
 x 4
@@ -695,6 +843,10 @@ end
 arch key
 x 4
 y 5
+end
+arch stonefloor2
+x 4
+y 6
 end
 arch dwall_1_4
 x 4
@@ -724,6 +876,10 @@ arch cobblestones
 x 4
 y 11
 end
+arch stonefloor2
+x 4
+y 12
+end
 arch dwall_2_1_2
 x 4
 y 12
@@ -748,77 +904,152 @@ arch cobblestones
 x 4
 y 16
 end
+arch stonefloor2
+x 4
+y 17
+end
 arch dwall_2_2_2
 x 4
 y 17
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 4
 y 18
 end
 arch dwall_2_1_1
 x 4
+y 18
+end
+arch stonefloor2
+x 4
 y 19
 end
 arch dwall_2_1_1
+x 4
+y 19
+end
+arch stonefloor2
 x 4
 y 20
 end
 arch dwall_2_1_1
 x 4
+y 20
+end
+arch stonefloor2
+x 4
 y 21
 end
 arch dwall_2_1_1
+x 4
+y 21
+end
+arch stonefloor2
 x 4
 y 22
 end
 arch dwall_2_1_1
 x 4
+y 22
+end
+arch stonefloor2
+x 4
 y 23
 end
 arch dwall_2_1_1
+x 4
+y 23
+end
+arch stonefloor2
 x 4
 y 24
 end
 arch dwall_2_1_1
 x 4
+y 24
+end
+arch stonefloor2
+x 4
 y 25
 end
 arch dwall_2_1_1
+x 4
+y 25
+end
+arch stonefloor2
 x 4
 y 26
 end
 arch dwall_2_1_1
 x 4
+y 26
+end
+arch stonefloor2
+x 4
 y 27
 end
 arch dwall_2_1_1
+x 4
+y 27
+end
+arch stonefloor2
 x 4
 y 28
 end
 arch dwall_2_1_1
 x 4
+y 28
+end
+arch stonefloor2
+x 4
 y 29
 end
 arch dwall_2_1_1
+x 4
+y 29
+end
+arch stonefloor2
 x 4
 y 30
 end
 arch dwall_2_1_1
 x 4
+y 30
+end
+arch stonefloor2
+x 4
 y 31
 end
 arch dwall_2_1_1
+x 4
+y 31
+end
+arch stonefloor2
 x 4
 y 32
 end
 arch dwall_2_1_1
 x 4
+y 32
+end
+arch stonefloor2
+x 4
 y 33
+end
+arch dwall_2_1_1
+x 4
+y 33
+end
+arch stonefloor2
+x 4
+y 34
 end
 arch dwall_3_1
 x 4
 y 34
+end
+arch stonefloor2
+x 5
 end
 arch dwall_2_1_2
 x 5
@@ -850,6 +1081,10 @@ end
 arch key
 x 5
 y 5
+end
+arch stonefloor2
+x 5
+y 6
 end
 arch dwall_2_1_2
 x 5
@@ -883,6 +1118,10 @@ arch generate_goblin
 x 5
 y 11
 end
+arch stonefloor2
+x 5
+y 12
+end
 arch dwall_2_1_2
 x 5
 y 12
@@ -902,6 +1141,10 @@ end
 arch cobblestones
 x 5
 y 16
+end
+arch stonefloor2
+x 5
+y 17
 end
 arch dwall_1_3
 x 5
@@ -1027,16 +1270,31 @@ arch generate_ghost
 x 5
 y 33
 end
+arch stonefloor2
+x 5
+y 34
+end
 arch dwall_2_1_2
 x 5
 y 34
 end
+arch stonefloor2
+x 6
+end
 arch dwall_3_3
 x 6
+end
+arch stonefloor2
+x 6
+y 1
 end
 arch dwall_2_1_1
 x 6
 y 1
+end
+arch stonefloor2
+x 6
+y 2
 end
 arch dwall_1_2
 x 6
@@ -1050,21 +1308,41 @@ arch door_1
 x 6
 y 3
 end
+arch stonefloor2
+x 6
+y 4
+end
 arch dwall_1_1
 x 6
 y 4
+end
+arch stonefloor2
+x 6
+y 5
 end
 arch dwall_2_1_1
 x 6
 y 5
 end
+arch stonefloor2
+x 6
+y 6
+end
 arch dwall_4
 x 6
 y 6
 end
+arch stonefloor2
+x 6
+y 7
+end
 arch dwall_2_1_1
 x 6
 y 7
+end
+arch stonefloor2
+x 6
+y 8
 end
 arch dwall_1_2
 x 6
@@ -1078,13 +1356,25 @@ arch door_1
 x 6
 y 9
 end
+arch stonefloor2
+x 6
+y 10
+end
 arch dwall_1_1
 x 6
 y 10
 end
+arch stonefloor2
+x 6
+y 11
+end
 arch dwall_2_1_1
 x 6
 y 11
+end
+arch stonefloor2
+x 6
+y 12
 end
 arch dwall_3_1
 x 6
@@ -1190,11 +1480,18 @@ arch cobblestones
 x 6
 y 33
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 6
 y 34
 end
 arch dwall_2_1_2
+x 6
+y 34
+end
+arch stonefloor2
+x 7
+end
+arch dwall_2_1_2
 x 7
 end
 arch cobblestones
@@ -1236,6 +1533,10 @@ end
 arch ghost
 x 7
 y 5
+end
+arch stonefloor2
+x 7
+y 6
 end
 arch dwall_2_1_2
 x 7
@@ -1269,6 +1570,10 @@ arch generate_gnoll
 x 7
 y 11
 end
+arch stonefloor2
+x 7
+y 12
+end
 arch dwall_2_1_2
 x 7
 y 12
@@ -1288,6 +1593,10 @@ end
 arch cobblestones
 x 7
 y 16
+end
+arch stonefloor2
+x 7
+y 17
 end
 arch dwall_1_4
 x 7
@@ -1373,11 +1682,18 @@ arch cobblestones
 x 7
 y 33
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 7
 y 34
 end
 arch dwall_2_1_2
+x 7
+y 34
+end
+arch stonefloor2
+x 8
+end
+arch dwall_2_1_2
 x 8
 end
 arch cobblestones
@@ -1419,6 +1735,10 @@ end
 arch ghost
 x 8
 y 5
+end
+arch stonefloor2
+x 8
+y 6
 end
 arch dwall_2_1_2
 x 8
@@ -1452,6 +1772,10 @@ arch cobblestones
 x 8
 y 11
 end
+arch stonefloor2
+x 8
+y 12
+end
 arch dwall_2_1_2
 x 8
 y 12
@@ -1475,6 +1799,10 @@ end
 arch cobblestones
 x 8
 y 16
+end
+arch stonefloor2
+x 8
+y 17
 end
 arch dwall_2_1_2
 x 8
@@ -1564,11 +1892,18 @@ arch cobblestones
 x 8
 y 33
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 8
 y 34
 end
 arch dwall_2_1_2
+x 8
+y 34
+end
+arch stonefloor2
+x 9
+end
+arch dwall_2_1_2
 x 9
 end
 arch cobblestones
@@ -1610,6 +1945,10 @@ end
 arch ghost
 x 9
 y 5
+end
+arch stonefloor2
+x 9
+y 6
 end
 arch dwall_2_1_2
 x 9
@@ -1643,6 +1982,10 @@ arch cobblestones
 x 9
 y 11
 end
+arch stonefloor2
+x 9
+y 12
+end
 arch dwall_2_1_2
 x 9
 y 12
@@ -1666,6 +2009,10 @@ end
 arch cobblestones
 x 9
 y 16
+end
+arch stonefloor2
+x 9
+y 17
 end
 arch dwall_2_1_2
 x 9
@@ -1747,9 +2094,16 @@ arch cobblestones
 x 9
 y 33
 end
+arch stonefloor2
+x 9
+y 34
+end
 arch dwall_2_1_2
 x 9
 y 34
+end
+arch stonefloor2
+x 10
 end
 arch dwall_2_1_2
 x 10
@@ -1794,6 +2148,10 @@ arch ghost
 x 10
 y 5
 end
+arch stonefloor2
+x 10
+y 6
+end
 arch dwall_2_1_2
 x 10
 y 6
@@ -1826,6 +2184,10 @@ arch generate_gnoll
 x 10
 y 11
 end
+arch stonefloor2
+x 10
+y 12
+end
 arch dwall_2_1_2
 x 10
 y 12
@@ -1853,6 +2215,10 @@ end
 arch generate_ogre
 x 10
 y 16
+end
+arch stonefloor2
+x 10
+y 17
 end
 arch dwall_2_1_2
 x 10
@@ -1930,40 +2296,79 @@ arch cobblestones
 x 10
 y 33
 end
+arch stonefloor2
+x 10
+y 34
+end
 arch dwall_2_1_2
 x 10
 y 34
 end
+arch stonefloor2
+x 11
+end
 arch dwall_3_3
 x 11
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 11
 y 1
 end
 arch dwall_2_1_1
 x 11
+y 1
+end
+arch stonefloor2
+x 11
 y 2
 end
 arch dwall_2_1_1
+x 11
+y 2
+end
+arch stonefloor2
 x 11
 y 3
 end
 arch dwall_2_1_1
 x 11
+y 3
+end
+arch stonefloor2
+x 11
 y 4
+end
+arch dwall_2_1_1
+x 11
+y 4
+end
+arch stonefloor2
+x 11
+y 5
 end
 arch dwall_2_1_1
 x 11
 y 5
 end
+arch stonefloor2
+x 11
+y 6
+end
 arch dwall_3_4
 x 11
 y 6
 end
+arch stonefloor2
+x 11
+y 7
+end
 arch dwall_2_1_1
 x 11
 y 7
+end
+arch stonefloor2
+x 11
+y 8
 end
 arch dwall_1_2
 x 11
@@ -1977,33 +2382,65 @@ arch door_1
 x 11
 y 9
 end
+arch stonefloor2
+x 11
+y 10
+end
 arch dwall_1_1
 x 11
 y 10
+end
+arch stonefloor2
+x 11
+y 11
 end
 arch dwall_2_1_1
 x 11
 y 11
 end
+arch stonefloor2
+x 11
+y 12
+end
 arch dwall_4
 x 11
 y 12
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 11
 y 13
 end
 arch dwall_2_1_1
 x 11
+y 13
+end
+arch stonefloor2
+x 11
 y 14
 end
 arch dwall_2_1_1
+x 11
+y 14
+end
+arch stonefloor2
 x 11
 y 15
 end
 arch dwall_2_1_1
 x 11
+y 15
+end
+arch stonefloor2
+x 11
 y 16
+end
+arch dwall_2_1_1
+x 11
+y 16
+end
+arch stonefloor2
+x 11
+y 17
 end
 arch dwall_3_1
 x 11
@@ -2085,11 +2522,18 @@ arch cobblestones
 x 11
 y 33
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 11
 y 34
 end
 arch dwall_2_1_2
+x 11
+y 34
+end
+arch stonefloor2
+x 12
+end
+arch dwall_2_1_2
 x 12
 end
 arch cobblestones
@@ -2140,6 +2584,10 @@ arch cobblestones
 x 12
 y 11
 end
+arch stonefloor2
+x 12
+y 12
+end
 arch dwall_1_3
 x 12
 y 12
@@ -2159,6 +2607,10 @@ end
 arch cobblestones
 x 12
 y 16
+end
+arch stonefloor2
+x 12
+y 17
 end
 arch dwall_1_3
 x 12
@@ -2244,9 +2696,16 @@ arch cobblestones
 x 12
 y 33
 end
+arch stonefloor2
+x 12
+y 34
+end
 arch dwall_2_1_2
 x 12
 y 34
+end
+arch stonefloor2
+x 13
 end
 arch dwall_2_1_2
 x 13
@@ -2411,9 +2870,16 @@ arch cobblestones
 x 13
 y 33
 end
+arch stonefloor2
+x 13
+y 34
+end
 arch dwall_2_1_2
 x 13
 y 34
+end
+arch stonefloor2
+x 14
 end
 arch dwall_2_1_2
 x 14
@@ -2503,6 +2969,10 @@ arch cobblestones
 x 14
 y 16
 end
+arch stonefloor2
+x 14
+y 17
+end
 arch dwall_1_4
 x 14
 y 17
@@ -2575,9 +3045,16 @@ arch cobblestones
 x 14
 y 33
 end
+arch stonefloor2
+x 14
+y 34
+end
 arch dwall_2_1_2
 x 14
 y 34
+end
+arch stonefloor2
+x 15
 end
 arch dwall_2_1_2
 x 15
@@ -2630,6 +3107,10 @@ arch cobblestones
 x 15
 y 11
 end
+arch stonefloor2
+x 15
+y 12
+end
 arch dwall_1_4
 x 15
 y 12
@@ -2649,6 +3130,10 @@ end
 arch cobblestones
 x 15
 y 16
+end
+arch stonefloor2
+x 15
+y 17
 end
 arch dwall_2_1_2
 x 15
@@ -2774,28 +3259,55 @@ arch generate_ghost
 x 15
 y 33
 end
+arch stonefloor2
+x 15
+y 34
+end
 arch dwall_2_1_2
 x 15
 y 34
 end
+arch stonefloor2
+x 16
+end
 arch dwall_3_3
 x 16
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 16
 y 1
 end
 arch dwall_2_1_1
 x 16
+y 1
+end
+arch stonefloor2
+x 16
 y 2
 end
 arch dwall_2_1_1
+x 16
+y 2
+end
+arch stonefloor2
 x 16
 y 3
 end
 arch dwall_2_1_1
 x 16
+y 3
+end
+arch stonefloor2
+x 16
 y 4
+end
+arch dwall_2_1_1
+x 16
+y 4
+end
+arch stonefloor2
+x 16
+y 5
 end
 arch dwall_2_2_1
 x 16
@@ -2805,117 +3317,232 @@ arch cobblestones
 x 16
 y 6
 end
+arch stonefloor2
+x 16
+y 7
+end
 arch dwall_2_2_2
 x 16
 y 7
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 16
 y 8
 end
 arch dwall_2_1_1
 x 16
+y 8
+end
+arch stonefloor2
+x 16
 y 9
 end
 arch dwall_2_1_1
+x 16
+y 9
+end
+arch stonefloor2
 x 16
 y 10
 end
 arch dwall_2_1_1
 x 16
+y 10
+end
+arch stonefloor2
+x 16
 y 11
+end
+arch dwall_2_1_1
+x 16
+y 11
+end
+arch stonefloor2
+x 16
+y 12
 end
 arch dwall_3_4
 x 16
 y 12
 end
+arch stonefloor2
+x 16
+y 13
+end
 arch dwall_2_1_1
 x 16
 y 13
+end
+arch stonefloor2
+x 16
+y 14
 end
 arch dwall_3_2
 x 16
 y 14
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 16
 y 15
 end
 arch dwall_2_1_1
 x 16
+y 15
+end
+arch stonefloor2
+x 16
 y 16
+end
+arch dwall_2_1_1
+x 16
+y 16
+end
+arch stonefloor2
+x 16
+y 17
 end
 arch dwall_3_4
 x 16
 y 17
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 16
 y 18
 end
 arch dwall_2_1_1
 x 16
+y 18
+end
+arch stonefloor2
+x 16
 y 19
 end
 arch dwall_2_1_1
+x 16
+y 19
+end
+arch stonefloor2
 x 16
 y 20
 end
 arch dwall_2_1_1
 x 16
+y 20
+end
+arch stonefloor2
+x 16
 y 21
 end
 arch dwall_2_1_1
+x 16
+y 21
+end
+arch stonefloor2
 x 16
 y 22
 end
 arch dwall_2_1_1
 x 16
+y 22
+end
+arch stonefloor2
+x 16
 y 23
 end
 arch dwall_2_1_1
+x 16
+y 23
+end
+arch stonefloor2
 x 16
 y 24
 end
 arch dwall_2_1_1
 x 16
+y 24
+end
+arch stonefloor2
+x 16
 y 25
 end
 arch dwall_2_1_1
+x 16
+y 25
+end
+arch stonefloor2
 x 16
 y 26
 end
 arch dwall_2_1_1
 x 16
+y 26
+end
+arch stonefloor2
+x 16
 y 27
 end
 arch dwall_2_1_1
+x 16
+y 27
+end
+arch stonefloor2
 x 16
 y 28
 end
 arch dwall_2_1_1
 x 16
+y 28
+end
+arch stonefloor2
+x 16
 y 29
 end
 arch dwall_2_1_1
+x 16
+y 29
+end
+arch stonefloor2
 x 16
 y 30
 end
 arch dwall_2_1_1
 x 16
+y 30
+end
+arch stonefloor2
+x 16
 y 31
 end
 arch dwall_2_1_1
+x 16
+y 31
+end
+arch stonefloor2
 x 16
 y 32
 end
 arch dwall_2_1_1
 x 16
+y 32
+end
+arch stonefloor2
+x 16
 y 33
+end
+arch dwall_2_1_1
+x 16
+y 33
+end
+arch stonefloor2
+x 16
+y 34
 end
 arch dwall_3_1
 x 16
 y 34
+end
+arch stonefloor2
+x 17
 end
 arch dwall_2_1_2
 x 17
@@ -2940,6 +3567,10 @@ arch cobblestones
 x 17
 y 4
 end
+arch stonefloor2
+x 17
+y 5
+end
 arch dwall_2_1_2
 x 17
 y 5
@@ -2947,6 +3578,10 @@ end
 arch cobblestones
 x 17
 y 6
+end
+arch stonefloor2
+x 17
+y 7
 end
 arch dwall_2_1_2
 x 17
@@ -2987,6 +3622,10 @@ end
 arch cobblestones
 x 17
 y 13
+end
+arch stonefloor2
+x 17
+y 14
 end
 arch dwall_1_3
 x 17
@@ -3144,9 +3783,16 @@ arch beholder
 x 17
 y 33
 end
+arch stonefloor2
+x 17
+y 34
+end
 arch dwall_2_1_2
 x 17
 y 34
+end
+arch stonefloor2
+x 18
 end
 arch dwall_2_1_2
 x 18
@@ -3167,6 +3813,10 @@ arch cobblestones
 x 18
 y 4
 end
+arch stonefloor2
+x 18
+y 5
+end
 arch dwall_2_1_2
 x 18
 y 5
@@ -3179,6 +3829,10 @@ arch locked_door2
 slaying 1
 x 18
 y 6
+end
+arch stonefloor2
+x 18
+y 7
 end
 arch dwall_2_1_2
 x 18
@@ -3236,69 +3890,137 @@ arch beholder
 x 18
 y 15
 end
+arch stonefloor2
+x 18
+y 16
+end
 arch dwall_1_1
 x 18
 y 16
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 18
 y 17
 end
 arch dwall_2_1_1
 x 18
+y 17
+end
+arch stonefloor2
+x 18
 y 18
 end
 arch dwall_2_1_1
+x 18
+y 18
+end
+arch stonefloor2
 x 18
 y 19
 end
 arch dwall_2_1_1
 x 18
+y 19
+end
+arch stonefloor2
+x 18
 y 20
 end
 arch dwall_2_1_1
+x 18
+y 20
+end
+arch stonefloor2
 x 18
 y 21
 end
 arch dwall_2_1_1
 x 18
+y 21
+end
+arch stonefloor2
+x 18
 y 22
 end
 arch dwall_2_1_1
+x 18
+y 22
+end
+arch stonefloor2
 x 18
 y 23
 end
 arch dwall_2_1_1
 x 18
+y 23
+end
+arch stonefloor2
+x 18
 y 24
 end
 arch dwall_2_1_1
+x 18
+y 24
+end
+arch stonefloor2
 x 18
 y 25
 end
 arch dwall_2_1_1
 x 18
+y 25
+end
+arch stonefloor2
+x 18
 y 26
 end
 arch dwall_2_1_1
+x 18
+y 26
+end
+arch stonefloor2
 x 18
 y 27
 end
 arch dwall_2_1_1
 x 18
+y 27
+end
+arch stonefloor2
+x 18
 y 28
 end
 arch dwall_2_1_1
+x 18
+y 28
+end
+arch stonefloor2
 x 18
 y 29
 end
 arch dwall_2_1_1
 x 18
+y 29
+end
+arch stonefloor2
+x 18
 y 30
 end
 arch dwall_2_1_1
 x 18
+y 30
+end
+arch stonefloor2
+x 18
 y 31
+end
+arch dwall_2_1_1
+x 18
+y 31
+end
+arch stonefloor2
+x 18
+y 32
 end
 arch dwall_1_2
 x 18
@@ -3312,9 +4034,16 @@ arch beholder
 x 18
 y 33
 end
+arch stonefloor2
+x 18
+y 34
+end
 arch dwall_2_1_2
 x 18
 y 34
+end
+arch stonefloor2
+x 19
 end
 arch dwall_2_1_2
 x 19
@@ -3335,6 +4064,10 @@ arch cobblestones
 x 19
 y 4
 end
+arch stonefloor2
+x 19
+y 5
+end
 arch dwall_2_1_2
 x 19
 y 5
@@ -3342,6 +4075,10 @@ end
 arch cobblestones
 x 19
 y 6
+end
+arch stonefloor2
+x 19
+y 7
 end
 arch dwall_2_1_2
 x 19
@@ -3382,6 +4119,10 @@ end
 arch generate_ghost
 x 19
 y 13
+end
+arch stonefloor2
+x 19
+y 14
 end
 arch dwall_1_4
 x 19
@@ -3539,9 +4280,16 @@ arch beholder
 x 19
 y 33
 end
+arch stonefloor2
+x 19
+y 34
+end
 arch dwall_2_1_2
 x 19
 y 34
+end
+arch stonefloor2
+x 20
 end
 arch dwall_2_1_2
 x 20
@@ -3566,6 +4314,10 @@ arch cobblestones
 x 20
 y 4
 end
+arch stonefloor2
+x 20
+y 5
+end
 arch dwall_2_1_2
 x 20
 y 5
@@ -3573,6 +4325,10 @@ end
 arch cobblestones
 x 20
 y 6
+end
+arch stonefloor2
+x 20
+y 7
 end
 arch dwall_2_1_2
 x 20
@@ -3614,77 +4370,153 @@ arch cobblestones
 x 20
 y 13
 end
+arch stonefloor2
+x 20
+y 14
+end
 arch dwall_3_3
 x 20
 y 14
+end
+arch stonefloor2
+x 20
+y 15
 end
 arch dwall_2_1_1
 x 20
 y 15
 end
+arch stonefloor2
+x 20
+y 16
+end
 arch dwall_3_2
 x 20
 y 16
+end
+arch stonefloor2
+x 20
+y 17
 end
 arch dwall_2_1_1
 x 20
 y 17
 end
+arch stonefloor2
+x 20
+y 18
+end
 arch dwall_3_2
 x 20
 y 18
+end
+arch stonefloor2
+x 20
+y 19
 end
 arch dwall_2_1_1
 x 20
 y 19
 end
+arch stonefloor2
+x 20
+y 20
+end
 arch dwall_3_2
 x 20
 y 20
+end
+arch stonefloor2
+x 20
+y 21
 end
 arch dwall_2_1_1
 x 20
 y 21
 end
+arch stonefloor2
+x 20
+y 22
+end
 arch dwall_3_2
 x 20
 y 22
+end
+arch stonefloor2
+x 20
+y 23
 end
 arch dwall_2_1_1
 x 20
 y 23
 end
+arch stonefloor2
+x 20
+y 24
+end
 arch dwall_3_2
 x 20
 y 24
+end
+arch stonefloor2
+x 20
+y 25
 end
 arch dwall_2_1_1
 x 20
 y 25
 end
+arch stonefloor2
+x 20
+y 26
+end
 arch dwall_3_2
 x 20
 y 26
+end
+arch stonefloor2
+x 20
+y 27
 end
 arch dwall_2_1_1
 x 20
 y 27
 end
+arch stonefloor2
+x 20
+y 28
+end
 arch dwall_3_2
 x 20
 y 28
+end
+arch stonefloor2
+x 20
+y 29
 end
 arch dwall_2_1_1
 x 20
 y 29
 end
+arch stonefloor2
+x 20
+y 30
+end
 arch dwall_3_2
 x 20
 y 30
 end
+arch stonefloor2
+x 20
+y 31
+end
 arch dwall_2_1_1
 x 20
 y 31
+end
+arch stonefloor2
+x 20
+y 32
 end
 arch dwall_2_2_1
 x 20
@@ -3698,9 +4530,16 @@ arch door_1
 x 20
 y 33
 end
+arch stonefloor2
+x 20
+y 34
+end
 arch dwall_2_1_2
 x 20
 y 34
+end
+arch stonefloor2
+x 21
 end
 arch dwall_2_1_2
 x 21
@@ -3721,6 +4560,10 @@ arch cobblestones
 x 21
 y 4
 end
+arch stonefloor2
+x 21
+y 5
+end
 arch dwall_2_1_2
 x 21
 y 5
@@ -3728,6 +4571,10 @@ end
 arch cobblestones
 x 21
 y 6
+end
+arch stonefloor2
+x 21
+y 7
 end
 arch dwall_2_1_2
 x 21
@@ -3769,21 +4616,45 @@ arch cobblestones
 x 21
 y 13
 end
+arch stonefloor2
+x 21
+y 14
+end
 arch dwall_2_1_2
 x 21
 y 14
+end
+arch cobblestones
+x 21
+y 15
 end
 arch skull
 x 21
 y 15
 end
-arch weak_wall_4
+arch stonefloor2
 x 21
 y 16
 end
 arch weak_wall_4
 x 21
+y 16
+end
+arch cobblestones
+x 21
+y 17
+end
+arch stonefloor2
+x 21
 y 18
+end
+arch weak_wall_4
+x 21
+y 18
+end
+arch cobblestones
+x 21
+y 19
 end
 arch water_elemental
 x 21
@@ -3796,29 +4667,61 @@ end
 arch fire_elemental
 end
 end
-arch weak_wall_4
+arch stonefloor2
 x 21
 y 20
 end
 arch weak_wall_4
 x 21
+y 20
+end
+arch cobblestones
+x 21
+y 21
+end
+arch stonefloor2
+x 21
 y 22
+end
+arch weak_wall_4
+x 21
+y 22
+end
+arch cobblestones
+x 21
+y 23
 end
 arch raas
 x 21
 y 23
 end
+arch stonefloor2
+x 21
+y 24
+end
 arch dwall_2_1_2
 x 21
 y 24
+end
+arch cobblestones
+x 21
+y 25
 end
 arch rune_create_bomb
 x 21
 y 25
 end
+arch stonefloor2
+x 21
+y 26
+end
 arch weak_wall_4
 x 21
 y 26
+end
+arch cobblestones
+x 21
+y 27
 end
 arch earth_elemental
 x 21
@@ -3831,17 +4734,37 @@ end
 arch air_elemental
 end
 end
-arch weak_wall_4
+arch stonefloor2
 x 21
 y 28
 end
 arch weak_wall_4
 x 21
+y 28
+end
+arch cobblestones
+x 21
+y 29
+end
+arch stonefloor2
+x 21
 y 30
+end
+arch weak_wall_4
+x 21
+y 30
+end
+arch cobblestones
+x 21
+y 31
 end
 arch raas
 x 21
 y 31
+end
+arch stonefloor2
+x 21
+y 32
 end
 arch dwall_2_1_2
 x 21
@@ -3851,9 +4774,16 @@ arch cobblestones
 x 21
 y 33
 end
+arch stonefloor2
+x 21
+y 34
+end
 arch dwall_2_1_2
 x 21
 y 34
+end
+arch stonefloor2
+x 22
 end
 arch dwall_2_1_2
 x 22
@@ -3878,6 +4808,10 @@ arch cobblestones
 x 22
 y 4
 end
+arch stonefloor2
+x 22
+y 5
+end
 arch dwall_2_1_2
 x 22
 y 5
@@ -3885,6 +4819,10 @@ end
 arch cobblestones
 x 22
 y 6
+end
+arch stonefloor2
+x 22
+y 7
 end
 arch dwall_2_1_2
 x 22
@@ -3926,77 +4864,153 @@ arch generate_ghost
 x 22
 y 13
 end
+arch stonefloor2
+x 22
+y 14
+end
 arch dwall_3_3
 x 22
 y 14
+end
+arch stonefloor2
+x 22
+y 15
 end
 arch dwall_2_1_1
 x 22
 y 15
 end
+arch stonefloor2
+x 22
+y 16
+end
 arch dwall_4
 x 22
 y 16
+end
+arch stonefloor2
+x 22
+y 17
 end
 arch weak_wall_3
 x 22
 y 17
 end
+arch stonefloor2
+x 22
+y 18
+end
 arch dwall_4
 x 22
 y 18
+end
+arch stonefloor2
+x 22
+y 19
 end
 arch dwall_2_1_1
 x 22
 y 19
 end
+arch stonefloor2
+x 22
+y 20
+end
 arch dwall_4
 x 22
 y 20
+end
+arch stonefloor2
+x 22
+y 21
 end
 arch dwall_2_1_1
 x 22
 y 21
 end
+arch stonefloor2
+x 22
+y 22
+end
 arch dwall_4
 x 22
 y 22
+end
+arch stonefloor2
+x 22
+y 23
 end
 arch weak_wall_3
 x 22
 y 23
 end
+arch stonefloor2
+x 22
+y 24
+end
 arch dwall_4
 x 22
 y 24
+end
+arch stonefloor2
+x 22
+y 25
 end
 arch weak_wall_3
 x 22
 y 25
 end
+arch stonefloor2
+x 22
+y 26
+end
 arch dwall_4
 x 22
 y 26
+end
+arch stonefloor2
+x 22
+y 27
 end
 arch weak_wall_3
 x 22
 y 27
 end
+arch stonefloor2
+x 22
+y 28
+end
 arch dwall_4
 x 22
 y 28
+end
+arch stonefloor2
+x 22
+y 29
 end
 arch dwall_2_1_1
 x 22
 y 29
 end
+arch stonefloor2
+x 22
+y 30
+end
 arch dwall_4
 x 22
 y 30
 end
+arch stonefloor2
+x 22
+y 31
+end
 arch weak_wall_3
 x 22
 y 31
+end
+arch stonefloor2
+x 22
+y 32
 end
 arch dwall_3_1
 x 22
@@ -4006,9 +5020,16 @@ arch cobblestones
 x 22
 y 33
 end
+arch stonefloor2
+x 22
+y 34
+end
 arch dwall_2_1_2
 x 22
 y 34
+end
+arch stonefloor2
+x 23
 end
 arch dwall_2_1_2
 x 23
@@ -4029,6 +5050,10 @@ arch cobblestones
 x 23
 y 4
 end
+arch stonefloor2
+x 23
+y 5
+end
 arch dwall_1_3
 x 23
 y 5
@@ -4036,6 +5061,10 @@ end
 arch cobblestones
 x 23
 y 6
+end
+arch stonefloor2
+x 23
+y 7
 end
 arch dwall_1_3
 x 23
@@ -4077,49 +5106,125 @@ arch cobblestones
 x 23
 y 13
 end
+arch stonefloor2
+x 23
+y 14
+end
 arch dwall_2_1_2
 x 23
 y 14
 end
+arch cobblestones
+x 23
+y 15
+end
+arch stonefloor2
+x 23
+y 16
+end
 arch weak_wall_4
 x 23
 y 16
+end
+arch cobblestones
+x 23
+y 17
 end
 arch rune_ball_lightning
 x 23
 y 17
 end
-arch weak_wall_4
+arch stonefloor2
 x 23
 y 18
 end
 arch weak_wall_4
 x 23
+y 18
+end
+arch cobblestones
+x 23
+y 19
+end
+arch stonefloor2
+x 23
 y 20
+end
+arch weak_wall_4
+x 23
+y 20
+end
+arch cobblestones
+x 23
+y 21
 end
 arch trap_spike_pit
 x 23
 y 21
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 23
 y 22
 end
 arch dwall_2_1_2
 x 23
+y 22
+end
+arch cobblestones
+x 23
+y 23
+end
+arch stonefloor2
+x 23
 y 24
+end
+arch dwall_2_1_2
+x 23
+y 24
+end
+arch cobblestones
+x 23
+y 25
+end
+arch stonefloor2
+x 23
+y 26
 end
 arch dwall_2_1_2
 x 23
 y 26
 end
+arch cobblestones
+x 23
+y 27
+end
+arch stonefloor2
+x 23
+y 28
+end
 arch weak_wall_4
 x 23
 y 28
 end
+arch cobblestones
+x 23
+y 29
+end
+arch stonefloor2
+x 23
+y 30
+end
 arch dwall_2_1_2
 x 23
 y 30
+end
+arch cobblestones
+x 23
+y 31
+end
+arch stonefloor2
+x 23
+y 32
 end
 arch dwall_2_1_2
 x 23
@@ -4129,9 +5234,16 @@ arch cobblestones
 x 23
 y 33
 end
+arch stonefloor2
+x 23
+y 34
+end
 arch dwall_2_1_2
 x 23
 y 34
+end
+arch stonefloor2
+x 24
 end
 arch dwall_2_1_2
 x 24
@@ -4208,77 +5320,153 @@ arch cobblestones
 x 24
 y 13
 end
+arch stonefloor2
+x 24
+y 14
+end
 arch dwall_3_3
 x 24
 y 14
+end
+arch stonefloor2
+x 24
+y 15
 end
 arch weak_wall_3
 x 24
 y 15
 end
+arch stonefloor2
+x 24
+y 16
+end
 arch dwall_4
 x 24
 y 16
+end
+arch stonefloor2
+x 24
+y 17
 end
 arch dwall_2_1_1
 x 24
 y 17
 end
+arch stonefloor2
+x 24
+y 18
+end
 arch dwall_4
 x 24
 y 18
+end
+arch stonefloor2
+x 24
+y 19
 end
 arch weak_wall_3
 x 24
 y 19
 end
+arch stonefloor2
+x 24
+y 20
+end
 arch dwall_4
 x 24
 y 20
+end
+arch stonefloor2
+x 24
+y 21
 end
 arch weak_wall_3
 x 24
 y 21
 end
+arch stonefloor2
+x 24
+y 22
+end
 arch dwall_4
 x 24
 y 22
+end
+arch stonefloor2
+x 24
+y 23
 end
 arch weak_wall_3
 x 24
 y 23
 end
+arch stonefloor2
+x 24
+y 24
+end
 arch dwall_4
 x 24
 y 24
+end
+arch stonefloor2
+x 24
+y 25
 end
 arch weak_wall_3
 x 24
 y 25
 end
+arch stonefloor2
+x 24
+y 26
+end
 arch dwall_4
 x 24
 y 26
+end
+arch stonefloor2
+x 24
+y 27
 end
 arch weak_wall_3
 x 24
 y 27
 end
+arch stonefloor2
+x 24
+y 28
+end
 arch dwall_4
 x 24
 y 28
+end
+arch stonefloor2
+x 24
+y 29
 end
 arch weak_wall_3
 x 24
 y 29
 end
+arch stonefloor2
+x 24
+y 30
+end
 arch dwall_4
 x 24
 y 30
 end
+arch stonefloor2
+x 24
+y 31
+end
 arch weak_wall_3
 x 24
 y 31
+end
+arch stonefloor2
+x 24
+y 32
 end
 arch dwall_3_1
 x 24
@@ -4288,28 +5476,55 @@ arch cobblestones
 x 24
 y 33
 end
+arch stonefloor2
+x 24
+y 34
+end
 arch dwall_2_1_2
 x 24
 y 34
 end
+arch stonefloor2
+x 25
+end
 arch dwall_3_3
 x 25
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 25
 y 1
 end
 arch dwall_2_1_1
 x 25
+y 1
+end
+arch stonefloor2
+x 25
 y 2
 end
 arch dwall_2_1_1
+x 25
+y 2
+end
+arch stonefloor2
 x 25
 y 3
 end
 arch dwall_2_1_1
 x 25
+y 3
+end
+arch stonefloor2
+x 25
 y 4
+end
+arch dwall_2_1_1
+x 25
+y 4
+end
+arch stonefloor2
+x 25
+y 5
 end
 arch dwall_1_2
 x 25
@@ -4319,65 +5534,141 @@ arch cobblestones
 x 25
 y 6
 end
+arch stonefloor2
+x 25
+y 7
+end
 arch dwall_1_1
 x 25
 y 7
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 25
 y 8
 end
 arch dwall_2_1_1
 x 25
+y 8
+end
+arch stonefloor2
+x 25
 y 9
 end
 arch dwall_2_1_1
+x 25
+y 9
+end
+arch stonefloor2
 x 25
 y 10
 end
 arch dwall_2_1_1
 x 25
+y 10
+end
+arch stonefloor2
+x 25
 y 11
 end
 arch dwall_2_1_1
+x 25
+y 11
+end
+arch stonefloor2
 x 25
 y 12
 end
 arch dwall_2_1_1
 x 25
+y 12
+end
+arch stonefloor2
+x 25
 y 13
+end
+arch dwall_2_1_1
+x 25
+y 13
+end
+arch stonefloor2
+x 25
+y 14
 end
 arch dwall_3_1
 x 25
 y 14
 end
+arch cobblestones
+x 25
+y 15
+end
+arch stonefloor2
+x 25
+y 16
+end
 arch weak_wall_4
 x 25
 y 16
+end
+arch cobblestones
+x 25
+y 17
 end
 arch baby_dragon
 x 25
 y 17
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 25
 y 18
 end
 arch dwall_2_1_2
 x 25
+y 18
+end
+arch cobblestones
+x 25
+y 19
+end
+arch stonefloor2
+x 25
 y 20
+end
+arch dwall_2_1_2
+x 25
+y 20
+end
+arch cobblestones
+x 25
+y 21
+end
+arch stonefloor2
+x 25
+y 22
 end
 arch dwall_2_1_2
 x 25
 y 22
 end
+arch cobblestones
+x 25
+y 23
+end
 arch rune_death
 x 25
 y 23
 end
+arch stonefloor2
+x 25
+y 24
+end
 arch weak_wall_4
 x 25
 y 24
+end
+arch cobblestones
+x 25
+y 25
 end
 arch fire_elemental
 x 25
@@ -4390,21 +5681,49 @@ end
 arch water_elemental
 end
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 25
 y 26
 end
 arch dwall_2_1_2
 x 25
+y 26
+end
+arch cobblestones
+x 25
+y 27
+end
+arch stonefloor2
+x 25
 y 28
+end
+arch dwall_2_1_2
+x 25
+y 28
+end
+arch cobblestones
+x 25
+y 29
 end
 arch trap_spikes2
 x 25
 y 29
 end
+arch stonefloor2
+x 25
+y 30
+end
 arch dwall_2_1_2
 x 25
 y 30
+end
+arch cobblestones
+x 25
+y 31
+end
+arch stonefloor2
+x 25
+y 32
 end
 arch dwall_2_1_2
 x 25
@@ -4414,9 +5733,16 @@ arch cobblestones
 x 25
 y 33
 end
+arch stonefloor2
+x 25
+y 34
+end
 arch dwall_2_1_2
 x 25
 y 34
+end
+arch stonefloor2
+x 26
 end
 arch dwall_2_1_2
 x 26
@@ -4481,77 +5807,153 @@ arch cobblestones
 x 26
 y 13
 end
+arch stonefloor2
+x 26
+y 14
+end
 arch dwall_3_3
 x 26
 y 14
+end
+arch stonefloor2
+x 26
+y 15
 end
 arch weak_wall_3
 x 26
 y 15
 end
+arch stonefloor2
+x 26
+y 16
+end
 arch dwall_4
 x 26
 y 16
+end
+arch stonefloor2
+x 26
+y 17
 end
 arch dwall_2_1_1
 x 26
 y 17
 end
+arch stonefloor2
+x 26
+y 18
+end
 arch dwall_4
 x 26
 y 18
+end
+arch stonefloor2
+x 26
+y 19
 end
 arch weak_wall_3
 x 26
 y 19
 end
+arch stonefloor2
+x 26
+y 20
+end
 arch dwall_4
 x 26
 y 20
+end
+arch stonefloor2
+x 26
+y 21
 end
 arch weak_wall_3
 x 26
 y 21
 end
+arch stonefloor2
+x 26
+y 22
+end
 arch dwall_4
 x 26
 y 22
+end
+arch stonefloor2
+x 26
+y 23
 end
 arch dwall_2_1_1
 x 26
 y 23
 end
+arch stonefloor2
+x 26
+y 24
+end
 arch dwall_4
 x 26
 y 24
+end
+arch stonefloor2
+x 26
+y 25
 end
 arch weak_wall_3
 x 26
 y 25
 end
+arch stonefloor2
+x 26
+y 26
+end
 arch dwall_4
 x 26
 y 26
+end
+arch stonefloor2
+x 26
+y 27
 end
 arch dwall_2_1_1
 x 26
 y 27
 end
+arch stonefloor2
+x 26
+y 28
+end
 arch dwall_4
 x 26
 y 28
+end
+arch stonefloor2
+x 26
+y 29
 end
 arch weak_wall_3
 x 26
 y 29
 end
+arch stonefloor2
+x 26
+y 30
+end
 arch dwall_4
 x 26
 y 30
 end
+arch stonefloor2
+x 26
+y 31
+end
 arch weak_wall_3
 x 26
 y 31
+end
+arch stonefloor2
+x 26
+y 32
 end
 arch dwall_3_1
 x 26
@@ -4561,9 +5963,16 @@ arch cobblestones
 x 26
 y 33
 end
+arch stonefloor2
+x 26
+y 34
+end
 arch dwall_2_1_2
 x 26
 y 34
+end
+arch stonefloor2
+x 27
 end
 arch dwall_2_1_2
 x 27
@@ -4588,6 +5997,10 @@ arch cobblestones
 x 27
 y 4
 end
+arch stonefloor2
+x 27
+y 5
+end
 arch dwall_1_4
 x 27
 y 5
@@ -4595,6 +6008,10 @@ end
 arch cobblestones
 x 27
 y 6
+end
+arch stonefloor2
+x 27
+y 7
 end
 arch dwall_1_4
 x 27
@@ -4628,21 +6045,53 @@ arch cobblestones
 x 27
 y 13
 end
-arch weak_wall_4
+arch stonefloor2
 x 27
 y 14
 end
 arch weak_wall_4
 x 27
+y 14
+end
+arch cobblestones
+x 27
+y 15
+end
+arch stonefloor2
+x 27
 y 16
 end
-arch dwall_2_1_2
+arch weak_wall_4
+x 27
+y 16
+end
+arch cobblestones
+x 27
+y 17
+end
+arch stonefloor2
 x 27
 y 18
 end
 arch dwall_2_1_2
 x 27
+y 18
+end
+arch cobblestones
+x 27
+y 19
+end
+arch stonefloor2
+x 27
 y 20
+end
+arch dwall_2_1_2
+x 27
+y 20
+end
+arch cobblestones
+x 27
+y 21
 end
 arch air_elemental
 x 27
@@ -4655,33 +6104,77 @@ end
 arch earth_elemental
 end
 end
-arch weak_wall_4
+arch stonefloor2
 x 27
 y 22
 end
 arch weak_wall_4
 x 27
+y 22
+end
+arch cobblestones
+x 27
+y 23
+end
+arch stonefloor2
+x 27
 y 24
+end
+arch weak_wall_4
+x 27
+y 24
+end
+arch cobblestones
+x 27
+y 25
 end
 arch green_slime
 x 27
 y 25
 end
+arch stonefloor2
+x 27
+y 26
+end
 arch dwall_2_1_2
 x 27
 y 26
+end
+arch cobblestones
+x 27
+y 27
 end
 arch angel
 x 27
 y 27
 end
+arch stonefloor2
+x 27
+y 28
+end
 arch weak_wall_4
 x 27
 y 28
 end
+arch cobblestones
+x 27
+y 29
+end
+arch stonefloor2
+x 27
+y 30
+end
 arch dwall_2_1_2
 x 27
 y 30
+end
+arch cobblestones
+x 27
+y 31
+end
+arch stonefloor2
+x 27
+y 32
 end
 arch weak_wall_4
 x 27
@@ -4691,9 +6184,16 @@ arch cobblestones
 x 27
 y 33
 end
+arch stonefloor2
+x 27
+y 34
+end
 arch dwall_2_1_2
 x 27
 y 34
+end
+arch stonefloor2
+x 28
 end
 arch dwall_2_1_2
 x 28
@@ -4714,6 +6214,10 @@ arch cobblestones
 x 28
 y 4
 end
+arch stonefloor2
+x 28
+y 5
+end
 arch dwall_2_1_2
 x 28
 y 5
@@ -4721,6 +6225,10 @@ end
 arch cobblestones
 x 28
 y 6
+end
+arch stonefloor2
+x 28
+y 7
 end
 arch dwall_2_1_2
 x 28
@@ -4754,77 +6262,153 @@ arch cobblestones
 x 28
 y 13
 end
+arch stonefloor2
+x 28
+y 14
+end
 arch dwall_3_3
 x 28
 y 14
+end
+arch stonefloor2
+x 28
+y 15
 end
 arch weak_wall_3
 x 28
 y 15
 end
+arch stonefloor2
+x 28
+y 16
+end
 arch dwall_4
 x 28
 y 16
+end
+arch stonefloor2
+x 28
+y 17
 end
 arch weak_wall_3
 x 28
 y 17
 end
+arch stonefloor2
+x 28
+y 18
+end
 arch dwall_4
 x 28
 y 18
+end
+arch stonefloor2
+x 28
+y 19
 end
 arch weak_wall_3
 x 28
 y 19
 end
+arch stonefloor2
+x 28
+y 20
+end
 arch dwall_4
 x 28
 y 20
+end
+arch stonefloor2
+x 28
+y 21
 end
 arch dwall_2_1_1
 x 28
 y 21
 end
+arch stonefloor2
+x 28
+y 22
+end
 arch dwall_4
 x 28
 y 22
+end
+arch stonefloor2
+x 28
+y 23
 end
 arch weak_wall_3
 x 28
 y 23
 end
+arch stonefloor2
+x 28
+y 24
+end
 arch dwall_4
 x 28
 y 24
+end
+arch stonefloor2
+x 28
+y 25
 end
 arch weak_wall_3
 x 28
 y 25
 end
+arch stonefloor2
+x 28
+y 26
+end
 arch dwall_4
 x 28
 y 26
+end
+arch stonefloor2
+x 28
+y 27
 end
 arch weak_wall_3
 x 28
 y 27
 end
+arch stonefloor2
+x 28
+y 28
+end
 arch dwall_4
 x 28
 y 28
+end
+arch stonefloor2
+x 28
+y 29
 end
 arch dwall_2_1_1
 x 28
 y 29
 end
+arch stonefloor2
+x 28
+y 30
+end
 arch dwall_4
 x 28
 y 30
 end
+arch stonefloor2
+x 28
+y 31
+end
 arch weak_wall_3
 x 28
 y 31
+end
+arch stonefloor2
+x 28
+y 32
 end
 arch dwall_3_1
 x 28
@@ -4834,9 +6418,16 @@ arch cobblestones
 x 28
 y 33
 end
+arch stonefloor2
+x 28
+y 34
+end
 arch dwall_2_1_2
 x 28
 y 34
+end
+arch stonefloor2
+x 29
 end
 arch dwall_2_1_2
 x 29
@@ -4857,6 +6448,10 @@ arch cobblestones
 x 29
 y 4
 end
+arch stonefloor2
+x 29
+y 5
+end
 arch dwall_2_1_2
 x 29
 y 5
@@ -4864,6 +6459,10 @@ end
 arch cobblestones
 x 29
 y 6
+end
+arch stonefloor2
+x 29
+y 7
 end
 arch dwall_2_1_2
 x 29
@@ -4893,61 +6492,137 @@ arch cobblestones
 x 29
 y 13
 end
+arch stonefloor2
+x 29
+y 14
+end
 arch dwall_2_1_2
 x 29
 y 14
+end
+arch cobblestones
+x 29
+y 15
 end
 arch rune_blast
 x 29
 y 15
 end
+arch stonefloor2
+x 29
+y 16
+end
 arch dwall_2_1_2
 x 29
 y 16
+end
+arch cobblestones
+x 29
+y 17
+end
+arch stonefloor2
+x 29
+y 18
 end
 arch weak_wall_4
 x 29
 y 18
 end
+arch cobblestones
+x 29
+y 19
+end
 arch rune_confusion
 x 29
 y 19
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 29
 y 20
 end
 arch dwall_2_1_2
 x 29
+y 20
+end
+arch cobblestones
+x 29
+y 21
+end
+arch stonefloor2
+x 29
 y 22
+end
+arch dwall_2_1_2
+x 29
+y 22
+end
+arch cobblestones
+x 29
+y 23
 end
 arch devil
 x 29
 y 23
 end
+arch stonefloor2
+x 29
+y 24
+end
 arch dwall_2_1_2
 x 29
 y 24
+end
+arch cobblestones
+x 29
+y 25
 end
 arch rune_large_icestorm
 x 29
 y 25
 end
-arch dwall_2_1_2
+arch stonefloor2
 x 29
 y 26
 end
 arch dwall_2_1_2
 x 29
+y 26
+end
+arch cobblestones
+x 29
+y 27
+end
+arch stonefloor2
+x 29
 y 28
+end
+arch dwall_2_1_2
+x 29
+y 28
+end
+arch cobblestones
+x 29
+y 29
 end
 arch black_pudding
 x 29
 y 29
 end
+arch stonefloor2
+x 29
+y 30
+end
 arch weak_wall_4
 x 29
 y 30
+end
+arch cobblestones
+x 29
+y 31
+end
+arch stonefloor2
+x 29
+y 32
 end
 arch dwall_2_1_2
 x 29
@@ -4964,144 +6639,287 @@ sp 27
 x 29
 y 33
 end
+arch stonefloor2
+x 29
+y 34
+end
 arch dwall_2_1_2
 x 29
 y 34
 end
+arch stonefloor2
+x 30
+end
 arch dwall_2_2_3
 x 30
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 30
 y 1
 end
 arch dwall_2_1_1
 x 30
+y 1
+end
+arch stonefloor2
+x 30
 y 2
 end
 arch dwall_2_1_1
+x 30
+y 2
+end
+arch stonefloor2
 x 30
 y 3
 end
 arch dwall_2_1_1
 x 30
+y 3
+end
+arch stonefloor2
+x 30
 y 4
+end
+arch dwall_2_1_1
+x 30
+y 4
+end
+arch stonefloor2
+x 30
+y 5
 end
 arch dwall_3_4
 x 30
 y 5
 end
+arch stonefloor2
+x 30
+y 6
+end
 arch dwall_2_1_1
 x 30
 y 6
+end
+arch stonefloor2
+x 30
+y 7
 end
 arch dwall_3_4
 x 30
 y 7
 end
-arch dwall_2_1_1
+arch stonefloor2
 x 30
 y 8
 end
 arch dwall_2_1_1
 x 30
+y 8
+end
+arch stonefloor2
+x 30
 y 9
 end
 arch dwall_2_1_1
+x 30
+y 9
+end
+arch stonefloor2
 x 30
 y 10
 end
 arch dwall_2_1_1
 x 30
+y 10
+end
+arch stonefloor2
+x 30
 y 11
 end
 arch dwall_2_1_1
+x 30
+y 11
+end
+arch stonefloor2
 x 30
 y 12
 end
 arch dwall_2_1_1
 x 30
+y 12
+end
+arch stonefloor2
+x 30
 y 13
+end
+arch dwall_2_1_1
+x 30
+y 13
+end
+arch stonefloor2
+x 30
+y 14
 end
 arch dwall_3_4
 x 30
 y 14
 end
+arch stonefloor2
+x 30
+y 15
+end
 arch dwall_2_1_1
 x 30
 y 15
+end
+arch stonefloor2
+x 30
+y 16
 end
 arch dwall_3_4
 x 30
 y 16
 end
+arch stonefloor2
+x 30
+y 17
+end
 arch dwall_2_1_1
 x 30
 y 17
+end
+arch stonefloor2
+x 30
+y 18
 end
 arch dwall_3_4
 x 30
 y 18
 end
+arch stonefloor2
+x 30
+y 19
+end
 arch dwall_2_1_1
 x 30
 y 19
+end
+arch stonefloor2
+x 30
+y 20
 end
 arch dwall_3_4
 x 30
 y 20
 end
+arch stonefloor2
+x 30
+y 21
+end
 arch dwall_2_1_1
 x 30
 y 21
+end
+arch stonefloor2
+x 30
+y 22
 end
 arch dwall_3_4
 x 30
 y 22
 end
+arch stonefloor2
+x 30
+y 23
+end
 arch dwall_2_1_1
 x 30
 y 23
+end
+arch stonefloor2
+x 30
+y 24
 end
 arch dwall_3_4
 x 30
 y 24
 end
+arch stonefloor2
+x 30
+y 25
+end
 arch dwall_2_1_1
 x 30
 y 25
+end
+arch stonefloor2
+x 30
+y 26
 end
 arch dwall_3_4
 x 30
 y 26
 end
+arch stonefloor2
+x 30
+y 27
+end
 arch dwall_2_1_1
 x 30
 y 27
+end
+arch stonefloor2
+x 30
+y 28
 end
 arch dwall_3_4
 x 30
 y 28
 end
+arch stonefloor2
+x 30
+y 29
+end
 arch dwall_2_1_1
 x 30
 y 29
+end
+arch stonefloor2
+x 30
+y 30
 end
 arch dwall_3_4
 x 30
 y 30
 end
+arch stonefloor2
+x 30
+y 31
+end
 arch dwall_2_1_1
 x 30
 y 31
+end
+arch stonefloor2
+x 30
+y 32
 end
 arch dwall_3_4
 x 30
 y 32
 end
+arch stonefloor2
+x 30
+y 33
+end
 arch dwall_2_1_1
 x 30
 y 33
+end
+arch stonefloor2
+x 30
+y 34
 end
 arch dwall_2_2_4
 x 30
