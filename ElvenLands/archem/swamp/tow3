@@ -7,7 +7,7 @@ enter_x 17
 enter_y 19
 msg
 Created:  2000-01-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-26 Rick Tanner
+Modified: 2025-03-30 Rick Tanner
 endmsg
 end
 arch blocked
@@ -643,6 +643,13 @@ x 2
 y 32
 end
 arch yellow_0
+x 2
+y 33
+end
+arch stair2_up
+slaying tow4
+hp 1
+sp 4
 x 2
 y 33
 end
