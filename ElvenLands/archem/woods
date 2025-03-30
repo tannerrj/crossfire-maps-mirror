@@ -6,7 +6,7 @@ width 45
 height 45
 msg
 Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-03-30 Rick Tanner
 endmsg
 end
 arch jungle_2
@@ -553,8 +553,8 @@ y 33
 end
 arch store_weapons
 slaying /ElvenLands/archem/wood/bow
-hp 1
-sp 1
+hp 3
+sp 3
 x 2
 y 33
 end
