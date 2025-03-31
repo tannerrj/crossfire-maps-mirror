@@ -1,6 +1,8 @@
 arch map
 name archer1
 region elvenlands
+shopitems bow:80;arrow:80;weapon:15;*:-85
+shopmax 300000
 width 26
 height 26
 enter_x 8
