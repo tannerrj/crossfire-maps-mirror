@@ -178,14 +178,6 @@ end
 arch cwall_2_2_1
 y 27
 end
-arch key2
-name Master Key: Deposit Room 1 FWB - CDC Branch
-slaying mkcdcfwbdr1
-y 28
-value 550
-unpaid 1
-unique 1
-end
 arch flagstone
 x 1
 end
@@ -1027,12 +1019,6 @@ arch cwall_3_1
 x 3
 y 27
 end
-arch check_inv
-slaying mkcdcfwbdr1
-x 3
-y 28
-connected 1101
-end
 arch flagstone
 x 4
 end
@@ -1597,12 +1583,6 @@ end
 arch cwall_3_1
 x 5
 y 27
-end
-arch check_inv
-slaying mkcdcfwbdr1
-x 5
-y 28
-connected 1101
 end
 arch flagstone
 x 6
