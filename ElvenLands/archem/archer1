@@ -3241,6 +3241,7 @@ end
 arch elf_1
 x 17
 y 17
+monster 0
 end
 arch dirtfloor
 x 17
@@ -3253,6 +3254,7 @@ end
 arch elf_1
 x 17
 y 18
+monster 0
 end
 arch dirtfloor
 x 17
@@ -3265,6 +3267,7 @@ end
 arch elf_1
 x 17
 y 19
+monster 0
 end
 arch dirtfloor
 x 17
@@ -3277,6 +3280,7 @@ end
 arch elf_1
 x 17
 y 20
+monster 0
 end
 arch dirtfloor
 x 17
@@ -3289,6 +3293,8 @@ end
 arch pyromaniac
 x 17
 y 21
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 17
@@ -3301,6 +3307,8 @@ end
 arch pyromaniac
 x 17
 y 22
+monster 0
+unaggressive 1
 end
 arch flagstone
 x 17
@@ -3424,6 +3432,8 @@ end
 arch pyromaniac
 x 18
 y 22
+monster 0
+unaggressive 1
 end
 arch flagstone
 x 18
@@ -3491,6 +3501,8 @@ end
 arch goblin
 x 19
 y 6
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3503,6 +3515,8 @@ end
 arch goblin
 x 19
 y 7
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3515,6 +3529,8 @@ end
 arch goblin
 x 19
 y 8
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3527,6 +3543,8 @@ end
 arch goblin
 x 19
 y 9
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3539,6 +3557,8 @@ end
 arch madman
 x 19
 y 10
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3551,6 +3571,8 @@ end
 arch madman
 x 19
 y 11
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3563,6 +3585,8 @@ end
 arch madman
 x 19
 y 12
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3599,6 +3623,8 @@ end
 arch small_troll
 x 19
 y 16
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3611,6 +3637,8 @@ end
 arch small_troll
 x 19
 y 17
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3623,6 +3651,8 @@ end
 arch small_troll
 x 19
 y 18
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3651,6 +3681,8 @@ end
 arch pyromaniac
 x 19
 y 21
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 19
@@ -3663,6 +3695,8 @@ end
 arch pyromaniac
 x 19
 y 22
+monster 0
+unaggressive 1
 end
 arch flagstone
 x 19
@@ -3746,6 +3780,8 @@ end
 arch goblin
 x 20
 y 8
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3758,6 +3794,8 @@ end
 arch madman
 x 20
 y 9
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3770,6 +3808,8 @@ end
 arch madman
 x 20
 y 10
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3782,6 +3822,8 @@ end
 arch madman
 x 20
 y 11
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3794,6 +3836,8 @@ end
 arch madman
 x 20
 y 12
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3834,6 +3878,8 @@ end
 arch small_troll
 x 20
 y 16
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3846,6 +3892,8 @@ end
 arch small_troll
 x 20
 y 17
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3858,6 +3906,8 @@ end
 arch small_troll
 x 20
 y 18
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 20
@@ -3929,6 +3979,8 @@ end
 arch orc
 x 21
 y 3
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 21
@@ -4077,6 +4129,8 @@ end
 arch kobold
 x 21
 y 21
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 21
@@ -4124,6 +4178,8 @@ end
 arch orc
 x 22
 y 3
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4136,6 +4192,8 @@ end
 arch orc
 x 22
 y 4
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4156,6 +4214,8 @@ end
 arch ogre
 x 22
 y 6
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4168,6 +4228,8 @@ end
 arch ogre
 x 22
 y 7
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4180,6 +4242,8 @@ end
 arch ogre
 x 22
 y 8
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4192,6 +4256,8 @@ end
 arch ogre
 x 22
 y 9
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4228,6 +4294,8 @@ end
 arch ogre
 x 22
 y 12
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4240,6 +4308,8 @@ end
 arch ogre
 x 22
 y 13
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4252,6 +4322,8 @@ end
 arch ogre
 x 22
 y 14
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4264,6 +4336,8 @@ end
 arch ogre
 x 22
 y 15
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4276,6 +4350,8 @@ end
 arch orc
 x 22
 y 16
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4288,6 +4364,8 @@ end
 arch orc
 x 22
 y 17
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4300,6 +4378,8 @@ end
 arch orc
 x 22
 y 18
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4312,6 +4392,8 @@ end
 arch kobold
 x 22
 y 19
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4324,6 +4406,8 @@ end
 arch kobold
 x 22
 y 20
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
@@ -4336,6 +4420,8 @@ end
 arch kobold
 x 22
 y 21
+monster 0
+unaggressive 1
 end
 arch dirtfloor
 x 22
