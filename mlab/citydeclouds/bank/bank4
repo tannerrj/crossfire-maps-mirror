@@ -178,6 +178,9 @@ end
 arch cwall_2_2_1
 y 27
 end
+arch blocked
+y 28
+end
 arch flagstone
 x 1
 end
@@ -399,6 +402,10 @@ end
 arch cwall_3_1
 x 1
 y 27
+end
+arch blocked
+x 1
+y 28
 end
 arch flagstone
 x 2
@@ -717,6 +724,10 @@ arch cwall_3_1
 x 2
 y 27
 end
+arch blocked
+x 2
+y 28
+end
 arch flagstone
 x 3
 end
@@ -1019,6 +1030,10 @@ arch cwall_3_1
 x 3
 y 27
 end
+arch blocked
+x 3
+y 28
+end
 arch flagstone
 x 4
 end
@@ -1309,6 +1324,10 @@ arch cwall_3_1
 x 4
 y 27
 end
+arch blocked
+x 4
+y 28
+end
 arch flagstone
 x 5
 end
@@ -1584,6 +1603,10 @@ arch cwall_3_1
 x 5
 y 27
 end
+arch blocked
+x 5
+y 28
+end
 arch flagstone
 x 6
 end
@@ -1825,6 +1848,10 @@ end
 arch cwall_3_1
 x 6
 y 27
+end
+arch blocked
+x 6
+y 28
 end
 arch flagstone
 x 7
@@ -2209,6 +2236,10 @@ arch cwall_3_1
 x 7
 y 27
 end
+arch blocked
+x 7
+y 28
+end
 arch flagstone
 x 8
 end
@@ -2550,6 +2581,10 @@ arch cwall_3_1
 x 8
 y 27
 end
+arch blocked
+x 8
+y 28
+end
 arch flagstone
 x 9
 end
@@ -2854,6 +2889,10 @@ arch cwall_3_1
 x 9
 y 27
 end
+arch blocked
+x 9
+y 28
+end
 arch flagstone
 x 10
 end
@@ -3107,6 +3146,10 @@ end
 arch cwall_3_1
 x 10
 y 27
+end
+arch blocked
+x 10
+y 28
 end
 arch flagstone
 x 11
@@ -3420,6 +3463,10 @@ arch cwall_3_1
 x 11
 y 27
 end
+arch blocked
+x 11
+y 28
+end
 arch flagstone
 x 12
 end
@@ -3728,6 +3775,10 @@ end
 arch cwall_3_1
 x 12
 y 27
+end
+arch blocked
+x 12
+y 28
 end
 arch flagstone
 x 13
@@ -4046,6 +4097,10 @@ end
 arch cwall_3_1
 x 13
 y 27
+end
+arch blocked
+x 13
+y 28
 end
 arch flagstone
 x 14
@@ -4370,6 +4425,10 @@ arch cwall_3_1
 x 14
 y 27
 end
+arch blocked
+x 14
+y 28
+end
 arch flagstone
 x 15
 end
@@ -4596,6 +4655,10 @@ arch cwall_3_1
 x 15
 y 27
 end
+arch blocked
+x 15
+y 28
+end
 arch flagstone
 x 16
 end
@@ -4817,4 +4880,8 @@ end
 arch cwall_2_2_4
 x 16
 y 27
+end
+arch blocked
+x 16
+y 28
 end
