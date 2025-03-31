@@ -1529,11 +1529,15 @@ arch bwall_1_2
 x 11
 y 2
 end
+arch swall_1_1_half
+x 11
+y 2
+end
 arch dungeon_floor
 x 11
 y 3
 end
-arch swall_1_1
+arch swall_2_1_1
 x 11
 y 3
 end
@@ -1673,7 +1677,7 @@ arch dungeon_floor
 x 12
 y 4
 end
-arch swall_1_3
+arch swall_2_1_2
 x 12
 y 4
 end
@@ -1821,6 +1825,10 @@ x 13
 y 3
 end
 arch woodfloor
+x 13
+y 4
+end
+arch swall_1_3_half
 x 13
 y 4
 end
