@@ -2740,6 +2740,10 @@ arch flagstone
 x 10
 y 7
 end
+arch swall_1_4_half
+x 10
+y 7
+end
 arch cwall_1_2
 x 10
 y 7
@@ -3008,6 +3012,10 @@ name depository floor
 x 11
 y 9
 end
+arch swall_1_4_half
+x 11
+y 9
+end
 arch cwall_2_2_3
 x 11
 y 9
@@ -4229,6 +4237,10 @@ name depository floor
 x 14
 y 9
 end
+arch swall_1_3_half
+x 14
+y 9
+end
 arch cwall_2_2_2
 x 14
 y 9
@@ -4490,6 +4502,10 @@ x 15
 y 6
 end
 arch flagstone
+x 15
+y 7
+end
+arch swall_1_3_half
 x 15
 y 7
 end
