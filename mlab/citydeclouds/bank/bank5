@@ -8,27 +8,19 @@ enter_x 7
 enter_y 8
 msg
 Created:  2005-05-28 mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Modified: 2025-04-01 Rick Tanner
 endmsg
 reset_group citydeclouds_bank
-end
-arch dungeon_magic
 end
 arch flagstone
 end
 arch cwall_2_2_2
 end
-arch dungeon_magic
-y 1
-end
 arch flagstone
 y 1
 end
 arch cwall_3_2
 y 1
-end
-arch dungeon_magic
-y 2
 end
 arch flagstone
 y 2
@@ -36,17 +28,11 @@ end
 arch cwall_3_2
 y 2
 end
-arch dungeon_magic
-y 3
-end
 arch flagstone
 y 3
 end
 arch cwall_3_2
 y 3
-end
-arch dungeon_magic
-y 4
 end
 arch flagstone
 y 4
@@ -54,17 +40,11 @@ end
 arch cwall_3_2
 y 4
 end
-arch dungeon_magic
-y 5
-end
 arch flagstone
 y 5
 end
 arch cwall_3_2
 y 5
-end
-arch dungeon_magic
-y 6
 end
 arch flagstone
 y 6
@@ -72,17 +52,11 @@ end
 arch cwall_3_2
 y 6
 end
-arch dungeon_magic
-y 7
-end
 arch flagstone
 y 7
 end
 arch cwall_3_2
 y 7
-end
-arch dungeon_magic
-y 8
 end
 arch flagstone
 y 8
@@ -90,17 +64,11 @@ end
 arch cwall_3_2
 y 8
 end
-arch dungeon_magic
-y 9
-end
 arch flagstone
 y 9
 end
 arch cwall_3_2
 y 9
-end
-arch dungeon_magic
-y 10
 end
 arch flagstone
 y 10
@@ -108,17 +76,11 @@ end
 arch cwall_3_2
 y 10
 end
-arch dungeon_magic
-y 11
-end
 arch flagstone
 y 11
 end
 arch cwall_3_2
 y 11
-end
-arch dungeon_magic
-y 12
 end
 arch flagstone
 y 12
@@ -126,17 +88,11 @@ end
 arch cwall_3_2
 y 12
 end
-arch dungeon_magic
-y 13
-end
 arch flagstone
 y 13
 end
 arch cwall_3_2
 y 13
-end
-arch dungeon_magic
-y 14
 end
 arch flagstone
 y 14
@@ -144,17 +100,11 @@ end
 arch cwall_3_2
 y 14
 end
-arch dungeon_magic
-y 15
-end
 arch flagstone
 y 15
 end
 arch cwall_3_2
 y 15
-end
-arch dungeon_magic
-y 16
 end
 arch flagstone
 y 16
@@ -162,17 +112,11 @@ end
 arch cwall_3_2
 y 16
 end
-arch dungeon_magic
-y 17
-end
 arch flagstone
 y 17
 end
 arch cwall_3_2
 y 17
-end
-arch dungeon_magic
-y 18
 end
 arch flagstone
 y 18
@@ -180,17 +124,11 @@ end
 arch cwall_3_2
 y 18
 end
-arch dungeon_magic
-y 19
-end
 arch flagstone
 y 19
 end
 arch cwall_3_2
 y 19
-end
-arch dungeon_magic
-y 20
 end
 arch flagstone
 y 20
@@ -198,17 +136,11 @@ end
 arch cwall_3_2
 y 20
 end
-arch dungeon_magic
-y 21
-end
 arch flagstone
 y 21
 end
 arch cwall_3_2
 y 21
-end
-arch dungeon_magic
-y 22
 end
 arch flagstone
 y 22
@@ -216,17 +148,11 @@ end
 arch cwall_3_2
 y 22
 end
-arch dungeon_magic
-y 23
-end
 arch flagstone
 y 23
 end
 arch cwall_3_2
 y 23
-end
-arch dungeon_magic
-y 24
 end
 arch flagstone
 y 24
@@ -234,26 +160,17 @@ end
 arch cwall_3_2
 y 24
 end
-arch dungeon_magic
-y 25
-end
 arch flagstone
 y 25
 end
 arch cwall_3_2
 y 25
 end
-arch dungeon_magic
-y 26
-end
 arch flagstone
 y 26
 end
 arch cwall_3_2
 y 26
-end
-arch dungeon_magic
-y 27
 end
 arch flagstone
 y 27
@@ -264,19 +181,12 @@ end
 arch cwall_2_2_1
 y 27
 end
-arch dungeon_magic
-x 1
-end
 arch flagstone
 x 1
 end
 arch cwall_3_3
 x 1
 end
-arch dungeon_magic
-x 1
-y 1
-end
 arch flagstone
 x 1
 y 1
@@ -284,10 +194,6 @@ end
 arch cwall_4
 x 1
 y 1
-end
-arch dungeon_magic
-x 1
-y 2
 end
 arch flagstone
 x 1
@@ -297,10 +203,6 @@ arch cwall_3_4
 x 1
 y 2
 end
-arch dungeon_magic
-x 1
-y 3
-end
 arch flagstone
 x 1
 y 3
@@ -308,10 +210,6 @@ end
 arch cwall_3_4
 x 1
 y 3
-end
-arch dungeon_magic
-x 1
-y 4
 end
 arch flagstone
 x 1
@@ -321,10 +219,6 @@ arch cwall_3_4
 x 1
 y 4
 end
-arch dungeon_magic
-x 1
-y 5
-end
 arch flagstone
 x 1
 y 5
@@ -332,10 +226,6 @@ end
 arch cwall_3_4
 x 1
 y 5
-end
-arch dungeon_magic
-x 1
-y 6
 end
 arch flagstone
 x 1
@@ -345,10 +235,6 @@ arch cwall_3_4
 x 1
 y 6
 end
-arch dungeon_magic
-x 1
-y 7
-end
 arch flagstone
 x 1
 y 7
@@ -356,10 +242,6 @@ end
 arch cwall_3_4
 x 1
 y 7
-end
-arch dungeon_magic
-x 1
-y 8
 end
 arch flagstone
 x 1
@@ -369,10 +251,6 @@ arch cwall_3_4
 x 1
 y 8
 end
-arch dungeon_magic
-x 1
-y 9
-end
 arch flagstone
 x 1
 y 9
@@ -380,10 +258,6 @@ end
 arch cwall_4
 x 1
 y 9
-end
-arch dungeon_magic
-x 1
-y 10
 end
 arch flagstone
 x 1
@@ -393,10 +267,6 @@ arch cwall_4
 x 1
 y 10
 end
-arch dungeon_magic
-x 1
-y 11
-end
 arch flagstone
 x 1
 y 11
@@ -404,10 +274,6 @@ end
 arch cwall_3_4
 x 1
 y 11
-end
-arch dungeon_magic
-x 1
-y 12
 end
 arch flagstone
 x 1
@@ -417,10 +283,6 @@ arch cwall_3_4
 x 1
 y 12
 end
-arch dungeon_magic
-x 1
-y 13
-end
 arch flagstone
 x 1
 y 13
@@ -428,10 +290,6 @@ end
 arch cwall_3_4
 x 1
 y 13
-end
-arch dungeon_magic
-x 1
-y 14
 end
 arch flagstone
 x 1
@@ -441,10 +299,6 @@ arch cwall_4
 x 1
 y 14
 end
-arch dungeon_magic
-x 1
-y 15
-end
 arch flagstone
 x 1
 y 15
@@ -452,10 +306,6 @@ end
 arch cwall_4
 x 1
 y 15
-end
-arch dungeon_magic
-x 1
-y 16
 end
 arch flagstone
 x 1
@@ -465,10 +315,6 @@ arch cwall_3_4
 x 1
 y 16
 end
-arch dungeon_magic
-x 1
-y 17
-end
 arch flagstone
 x 1
 y 17
@@ -476,10 +322,6 @@ end
 arch cwall_3_4
 x 1
 y 17
-end
-arch dungeon_magic
-x 1
-y 18
 end
 arch flagstone
 x 1
@@ -489,10 +331,6 @@ arch cwall_3_4
 x 1
 y 18
 end
-arch dungeon_magic
-x 1
-y 19
-end
 arch flagstone
 x 1
 y 19
@@ -500,10 +338,6 @@ end
 arch cwall_4
 x 1
 y 19
-end
-arch dungeon_magic
-x 1
-y 20
 end
 arch flagstone
 x 1
@@ -513,10 +347,6 @@ arch cwall_4
 x 1
 y 20
 end
-arch dungeon_magic
-x 1
-y 21
-end
 arch flagstone
 x 1
 y 21
@@ -524,10 +354,6 @@ end
 arch cwall_3_4
 x 1
 y 21
-end
-arch dungeon_magic
-x 1
-y 22
 end
 arch flagstone
 x 1
@@ -537,10 +363,6 @@ arch cwall_3_4
 x 1
 y 22
 end
-arch dungeon_magic
-x 1
-y 23
-end
 arch flagstone
 x 1
 y 23
@@ -549,10 +371,6 @@ arch cwall_3_4
 x 1
 y 23
 end
-arch dungeon_magic
-x 1
-y 24
-end
 arch flagstone
 x 1
 y 24
@@ -560,10 +378,6 @@ end
 arch cwall_4
 x 1
 y 24
-end
-arch dungeon_magic
-x 1
-y 25
 end
 arch flagstone
 x 1
@@ -573,10 +387,6 @@ arch cwall_4
 x 1
 y 25
 end
-arch dungeon_magic
-x 1
-y 26
-end
 arch flagstone
 x 1
 y 26
@@ -584,10 +394,6 @@ end
 arch cwall_4
 x 1
 y 26
-end
-arch dungeon_magic
-x 1
-y 27
 end
 arch flagstone
 x 1
@@ -597,18 +403,11 @@ arch cwall_3_1
 x 1
 y 27
 end
-arch dungeon_magic
-x 2
-end
 arch flagstone
 x 2
 end
 arch cwall_3_3
 x 2
-end
-arch dungeon_magic
-x 2
-y 1
 end
 arch flagstone
 x 2
@@ -704,10 +503,6 @@ arch cobblestones2
 name depository floor
 x 2
 y 8
-end
-arch dungeon_magic
-x 2
-y 9
 end
 arch cobblestones2
 name depository floor
@@ -717,10 +512,6 @@ end
 arch cwall_2_2_3
 x 2
 y 9
-end
-arch dungeon_magic
-x 2
-y 10
 end
 arch cobblestones2
 name depository floor
@@ -770,10 +561,6 @@ arch silverbar
 x 2
 y 13
 end
-arch dungeon_magic
-x 2
-y 14
-end
 arch cobblestones2
 name depository floor
 x 2
@@ -782,10 +569,6 @@ end
 arch cwall_2_2_3
 x 2
 y 14
-end
-arch dungeon_magic
-x 2
-y 15
 end
 arch cobblestones2
 name depository floor
@@ -838,10 +621,6 @@ x 2
 y 18
 nrof 100000
 end
-arch dungeon_magic
-x 2
-y 19
-end
 arch cobblestones2
 name depository floor
 x 2
@@ -850,10 +629,6 @@ end
 arch cwall_2_2_3
 x 2
 y 19
-end
-arch dungeon_magic
-x 2
-y 20
 end
 arch cobblestones2
 name depository floor
@@ -903,10 +678,6 @@ arch goldbar
 x 2
 y 23
 end
-arch dungeon_magic
-x 2
-y 24
-end
 arch cobblestones2
 name depository floor
 x 2
@@ -915,10 +686,6 @@ end
 arch cwall_2_2_3
 x 2
 y 24
-end
-arch dungeon_magic
-x 2
-y 25
 end
 arch cobblestones2
 name depository floor
@@ -929,10 +696,6 @@ arch cwall_3_4
 x 2
 y 25
 end
-arch dungeon_magic
-x 2
-y 26
-end
 arch flagstone
 x 2
 y 26
@@ -941,10 +704,6 @@ arch cwall_4
 x 2
 y 26
 end
-arch dungeon_magic
-x 2
-y 27
-end
 arch flagstone
 x 2
 y 27
@@ -953,18 +712,11 @@ arch cwall_3_1
 x 2
 y 27
 end
-arch dungeon_magic
-x 3
-end
 arch flagstone
 x 3
 end
 arch cwall_3_3
 x 3
-end
-arch dungeon_magic
-x 3
-y 1
 end
 arch flagstone
 x 3
@@ -1277,10 +1029,6 @@ arch goldbar
 x 3
 y 25
 end
-arch dungeon_magic
-x 3
-y 26
-end
 arch flagstone
 x 3
 y 26
@@ -1288,10 +1036,6 @@ end
 arch cwall_3_3
 x 3
 y 26
-end
-arch dungeon_magic
-x 3
-y 27
 end
 arch flagstone
 x 3
@@ -1301,18 +1045,11 @@ arch cwall_3_1
 x 3
 y 27
 end
-arch dungeon_magic
-x 4
-end
 arch flagstone
 x 4
 end
 arch cwall_3_3
 x 4
-end
-arch dungeon_magic
-x 4
-y 1
 end
 arch flagstone
 x 4
@@ -1574,10 +1311,6 @@ arch goldbar
 x 4
 y 25
 end
-arch dungeon_magic
-x 4
-y 26
-end
 arch flagstone
 x 4
 y 26
@@ -1585,10 +1318,6 @@ end
 arch cwall_3_3
 x 4
 y 26
-end
-arch dungeon_magic
-x 4
-y 27
 end
 arch flagstone
 x 4
@@ -1598,18 +1327,11 @@ arch cwall_3_1
 x 4
 y 27
 end
-arch dungeon_magic
-x 5
-end
 arch flagstone
 x 5
 end
 arch cwall_3_3
 x 5
-end
-arch dungeon_magic
-x 5
-y 1
 end
 arch flagstone
 x 5
@@ -1681,10 +1403,6 @@ arch cobblestones2
 name depository floor
 x 5
 y 8
-end
-arch dungeon_magic
-x 5
-y 9
 end
 arch cobblestones2
 name depository floor
@@ -1694,10 +1412,6 @@ end
 arch cwall_2_2_2
 x 5
 y 9
-end
-arch dungeon_magic
-x 5
-y 10
 end
 arch cobblestones2
 name depository floor
@@ -1750,10 +1464,6 @@ x 5
 y 13
 nrof 300000
 end
-arch dungeon_magic
-x 5
-y 14
-end
 arch cobblestones2
 name depository floor
 x 5
@@ -1762,10 +1472,6 @@ end
 arch cwall_2_2_2
 x 5
 y 14
-end
-arch dungeon_magic
-x 5
-y 15
 end
 arch cobblestones2
 name depository floor
@@ -1818,10 +1524,6 @@ x 5
 y 18
 nrof 100000
 end
-arch dungeon_magic
-x 5
-y 19
-end
 arch cobblestones2
 name depository floor
 x 5
@@ -1830,10 +1532,6 @@ end
 arch cwall_2_2_2
 x 5
 y 19
-end
-arch dungeon_magic
-x 5
-y 20
 end
 arch cobblestones2
 name depository floor
@@ -1901,10 +1599,6 @@ arch goldbar
 x 5
 y 25
 end
-arch dungeon_magic
-x 5
-y 26
-end
 arch flagstone
 x 5
 y 26
@@ -1912,10 +1606,6 @@ end
 arch cwall_3_3
 x 5
 y 26
-end
-arch dungeon_magic
-x 5
-y 27
 end
 arch flagstone
 x 5
@@ -1925,18 +1615,11 @@ arch cwall_3_1
 x 5
 y 27
 end
-arch dungeon_magic
-x 6
-end
 arch flagstone
 x 6
 end
 arch cwall_3_3
 x 6
-end
-arch dungeon_magic
-x 6
-y 1
 end
 arch flagstone
 x 6
@@ -1945,10 +1628,6 @@ end
 arch cwall_4
 x 6
 y 1
-end
-arch dungeon_magic
-x 6
-y 2
 end
 arch cobblestones2
 name depository floor
@@ -1968,10 +1647,6 @@ name depository floor
 x 6
 y 3
 end
-arch dungeon_magic
-x 6
-y 4
-end
 arch cobblestones2
 name depository floor
 x 6
@@ -1990,10 +1665,6 @@ name depository floor
 x 6
 y 5
 end
-arch dungeon_magic
-x 6
-y 6
-end
 arch flagstone
 x 6
 y 6
@@ -2006,10 +1677,6 @@ arch cwall_2_2_2
 x 6
 y 6
 end
-arch dungeon_magic
-x 6
-y 7
-end
 arch flagstone
 x 6
 y 7
@@ -2022,10 +1689,6 @@ arch dwall_win1
 x 6
 y 7
 end
-arch dungeon_magic
-x 6
-y 8
-end
 arch flagstone
 x 6
 y 8
@@ -2037,10 +1700,6 @@ end
 arch dwall_win1
 x 6
 y 8
-end
-arch dungeon_magic
-x 6
-y 9
 end
 arch flagstone
 x 6
@@ -2054,10 +1713,6 @@ arch cwall_4
 x 6
 y 9
 end
-arch dungeon_magic
-x 6
-y 10
-end
 arch flagstone
 x 6
 y 10
@@ -2070,10 +1725,6 @@ arch cwall_4
 x 6
 y 10
 end
-arch dungeon_magic
-x 6
-y 11
-end
 arch flagstone
 x 6
 y 11
@@ -2085,10 +1736,6 @@ end
 arch dwall_win1
 x 6
 y 11
-end
-arch dungeon_magic
-x 6
-y 12
 end
 arch flagstone
 x 6
@@ -2102,10 +1749,6 @@ arch dwall_win1
 x 6
 y 12
 end
-arch dungeon_magic
-x 6
-y 13
-end
 arch flagstone
 x 6
 y 13
@@ -2117,10 +1760,6 @@ end
 arch dwall_win1
 x 6
 y 13
-end
-arch dungeon_magic
-x 6
-y 14
 end
 arch flagstone
 x 6
@@ -2130,10 +1769,6 @@ arch cwall_3_4
 x 6
 y 14
 end
-arch dungeon_magic
-x 6
-y 15
-end
 arch flagstone
 x 6
 y 15
@@ -2141,10 +1776,6 @@ end
 arch cwall_3_4
 x 6
 y 15
-end
-arch dungeon_magic
-x 6
-y 16
 end
 arch flagstone
 x 6
@@ -2158,10 +1789,6 @@ arch dwall_win1
 x 6
 y 16
 end
-arch dungeon_magic
-x 6
-y 17
-end
 arch flagstone
 x 6
 y 17
@@ -2173,10 +1800,6 @@ end
 arch dwall_win1
 x 6
 y 17
-end
-arch dungeon_magic
-x 6
-y 18
 end
 arch flagstone
 x 6
@@ -2190,10 +1813,6 @@ arch dwall_win1
 x 6
 y 18
 end
-arch dungeon_magic
-x 6
-y 19
-end
 arch flagstone
 x 6
 y 19
@@ -2202,10 +1821,6 @@ arch cwall_3_4
 x 6
 y 19
 end
-arch dungeon_magic
-x 6
-y 20
-end
 arch flagstone
 x 6
 y 20
@@ -2213,10 +1828,6 @@ end
 arch cwall_3_4
 x 6
 y 20
-end
-arch dungeon_magic
-x 6
-y 21
 end
 arch flagstone
 x 6
@@ -2261,10 +1872,6 @@ arch goldbar
 x 6
 y 24
 end
-arch dungeon_magic
-x 6
-y 25
-end
 arch cobblestones2
 name depository floor
 x 6
@@ -2274,10 +1881,6 @@ arch cwall_2_2_2
 x 6
 y 25
 end
-arch dungeon_magic
-x 6
-y 26
-end
 arch flagstone
 x 6
 y 26
@@ -2286,10 +1889,6 @@ arch cwall_4
 x 6
 y 26
 end
-arch dungeon_magic
-x 6
-y 27
-end
 arch flagstone
 x 6
 y 27
@@ -2297,9 +1896,6 @@ end
 arch cwall_3_1
 x 6
 y 27
-end
-arch dungeon_magic
-x 7
 end
 arch flagstone
 x 7
@@ -2307,10 +1903,6 @@ end
 arch cwall_3_3
 x 7
 end
-arch dungeon_magic
-x 7
-y 1
-end
 arch flagstone
 x 7
 y 1
@@ -2364,10 +1956,6 @@ arch cobblestones2
 name depository floor
 x 7
 y 5
-end
-arch dungeon_magic
-x 7
-y 6
 end
 arch flagstone
 x 7
@@ -2404,10 +1992,6 @@ sp 8
 x 7
 y 8
 end
-arch dungeon_magic
-x 7
-y 9
-end
 arch flagstone
 x 7
 y 9
@@ -2415,10 +1999,6 @@ end
 arch cwall_2_2_3
 x 7
 y 9
-end
-arch dungeon_magic
-x 7
-y 10
 end
 arch flagstone
 x 7
@@ -2515,10 +2095,6 @@ food 1000
 x 7
 y 20
 end
-arch dungeon_magic
-x 7
-y 21
-end
 arch flagstone
 x 7
 y 21
@@ -2566,10 +2142,6 @@ arch platbar
 x 7
 y 24
 end
-arch dungeon_magic
-x 7
-y 25
-end
 arch cobblestones2
 name depository floor
 x 7
@@ -2579,10 +2151,6 @@ arch cwall_2_2_3
 x 7
 y 25
 end
-arch dungeon_magic
-x 7
-y 26
-end
 arch flagstone
 x 7
 y 26
@@ -2591,10 +2159,6 @@ arch cwall_4
 x 7
 y 26
 end
-arch dungeon_magic
-x 7
-y 27
-end
 arch flagstone
 x 7
 y 27
@@ -2602,9 +2166,6 @@ end
 arch cwall_3_1
 x 7
 y 27
-end
-arch dungeon_magic
-x 8
 end
 arch flagstone
 x 8
@@ -2612,10 +2173,6 @@ end
 arch cwall_3_3
 x 8
 end
-arch dungeon_magic
-x 8
-y 1
-end
 arch flagstone
 x 8
 y 1
@@ -2651,10 +2208,6 @@ arch platinacoin
 x 8
 y 3
 nrof 100000
-end
-arch dungeon_magic
-x 8
-y 4
 end
 arch cobblestones2
 name depository floor
@@ -2673,10 +2226,6 @@ arch cobblestones2
 name depository floor
 x 8
 y 5
-end
-arch dungeon_magic
-x 8
-y 6
 end
 arch flagstone
 x 8
@@ -2810,10 +2359,6 @@ food 1000
 x 8
 y 20
 end
-arch dungeon_magic
-x 8
-y 21
-end
 arch flagstone
 x 8
 y 21
@@ -2874,10 +2419,6 @@ arch platbar
 x 8
 y 25
 end
-arch dungeon_magic
-x 8
-y 26
-end
 arch flagstone
 x 8
 y 26
@@ -2885,10 +2426,6 @@ end
 arch cwall_3_3
 x 8
 y 26
-end
-arch dungeon_magic
-x 8
-y 27
 end
 arch flagstone
 x 8
@@ -2898,18 +2435,11 @@ arch cwall_3_1
 x 8
 y 27
 end
-arch dungeon_magic
-x 9
-end
 arch flagstone
 x 9
 end
 arch cwall_3_3
 x 9
-end
-arch dungeon_magic
-x 9
-y 1
 end
 arch flagstone
 x 9
@@ -2964,10 +2494,6 @@ arch cobblestones2
 name depository floor
 x 9
 y 5
-end
-arch dungeon_magic
-x 9
-y 6
 end
 arch flagstone
 x 9
@@ -3043,10 +2569,6 @@ arch flagstone
 x 9
 y 8
 end
-arch dungeon_magic
-x 9
-y 9
-end
 arch flagstone
 x 9
 y 9
@@ -3054,10 +2576,6 @@ end
 arch cwall_2_2_2
 x 9
 y 9
-end
-arch dungeon_magic
-x 9
-y 10
 end
 arch flagstone
 x 9
@@ -3155,10 +2673,6 @@ food 1000
 x 9
 y 20
 end
-arch dungeon_magic
-x 9
-y 21
-end
 arch flagstone
 x 9
 y 21
@@ -3206,10 +2720,6 @@ arch platbar
 x 9
 y 24
 end
-arch dungeon_magic
-x 9
-y 25
-end
 arch cobblestones2
 name depository floor
 x 9
@@ -3219,10 +2729,6 @@ arch cwall_2_2_2
 x 9
 y 25
 end
-arch dungeon_magic
-x 9
-y 26
-end
 arch flagstone
 x 9
 y 26
@@ -3230,10 +2736,6 @@ end
 arch cwall_4
 x 9
 y 26
-end
-arch dungeon_magic
-x 9
-y 27
 end
 arch flagstone
 x 9
@@ -3243,18 +2745,11 @@ arch cwall_3_1
 x 9
 y 27
 end
-arch dungeon_magic
-x 10
-end
 arch flagstone
 x 10
 end
 arch cwall_3_3
 x 10
-end
-arch dungeon_magic
-x 10
-y 1
 end
 arch flagstone
 x 10
@@ -3263,10 +2758,6 @@ end
 arch cwall_4
 x 10
 y 1
-end
-arch dungeon_magic
-x 10
-y 2
 end
 arch cobblestones2
 name depository floor
@@ -3286,10 +2777,6 @@ name depository floor
 x 10
 y 3
 end
-arch dungeon_magic
-x 10
-y 4
-end
 arch cobblestones2
 name depository floor
 x 10
@@ -3308,10 +2795,6 @@ name depository floor
 x 10
 y 5
 end
-arch dungeon_magic
-x 10
-y 6
-end
 arch flagstone
 x 10
 y 6
@@ -3323,10 +2806,6 @@ end
 arch cwall_2_2_3
 x 10
 y 6
-end
-arch dungeon_magic
-x 10
-y 7
 end
 arch flagstone
 x 10
@@ -3354,10 +2833,6 @@ x 10
 y 8
 speed 0.500000
 end
-arch dungeon_magic
-x 10
-y 9
-end
 arch flagstone
 x 10
 y 9
@@ -3365,10 +2840,6 @@ end
 arch cwall_3_3
 x 10
 y 9
-end
-arch dungeon_magic
-x 10
-y 10
 end
 arch flagstone
 x 10
@@ -3382,10 +2853,6 @@ arch cwall_4
 x 10
 y 10
 end
-arch dungeon_magic
-x 10
-y 11
-end
 arch flagstone
 x 10
 y 11
@@ -3397,10 +2864,6 @@ end
 arch dwall_win1
 x 10
 y 11
-end
-arch dungeon_magic
-x 10
-y 12
 end
 arch flagstone
 x 10
@@ -3414,10 +2877,6 @@ arch dwall_win1
 x 10
 y 12
 end
-arch dungeon_magic
-x 10
-y 13
-end
 arch flagstone
 x 10
 y 13
@@ -3429,10 +2888,6 @@ end
 arch dwall_win1
 x 10
 y 13
-end
-arch dungeon_magic
-x 10
-y 14
 end
 arch flagstone
 x 10
@@ -3442,10 +2897,6 @@ arch cwall_3_2
 x 10
 y 14
 end
-arch dungeon_magic
-x 10
-y 15
-end
 arch flagstone
 x 10
 y 15
@@ -3453,10 +2904,6 @@ end
 arch cwall_3_2
 x 10
 y 15
-end
-arch dungeon_magic
-x 10
-y 16
 end
 arch flagstone
 x 10
@@ -3470,10 +2917,6 @@ arch dwall_win1
 x 10
 y 16
 end
-arch dungeon_magic
-x 10
-y 17
-end
 arch flagstone
 x 10
 y 17
@@ -3485,10 +2928,6 @@ end
 arch dwall_win1
 x 10
 y 17
-end
-arch dungeon_magic
-x 10
-y 18
 end
 arch flagstone
 x 10
@@ -3502,10 +2941,6 @@ arch dwall_win1
 x 10
 y 18
 end
-arch dungeon_magic
-x 10
-y 19
-end
 arch flagstone
 x 10
 y 19
@@ -3514,10 +2949,6 @@ arch cwall_3_2
 x 10
 y 19
 end
-arch dungeon_magic
-x 10
-y 20
-end
 arch flagstone
 x 10
 y 20
@@ -3525,10 +2956,6 @@ end
 arch cwall_3_2
 x 10
 y 20
-end
-arch dungeon_magic
-x 10
-y 21
 end
 arch flagstone
 x 10
@@ -3573,10 +3000,6 @@ arch silverbar
 x 10
 y 24
 end
-arch dungeon_magic
-x 10
-y 25
-end
 arch cobblestones2
 name depository floor
 x 10
@@ -3585,10 +3008,6 @@ end
 arch cwall_2_2_3
 x 10
 y 25
-end
-arch dungeon_magic
-x 10
-y 26
 end
 arch flagstone
 x 10
@@ -3598,10 +3017,6 @@ arch cwall_4
 x 10
 y 26
 end
-arch dungeon_magic
-x 10
-y 27
-end
 arch flagstone
 x 10
 y 27
@@ -3610,18 +3025,11 @@ arch cwall_3_1
 x 10
 y 27
 end
-arch dungeon_magic
-x 11
-end
 arch flagstone
 x 11
 end
 arch cwall_3_3
 x 11
-end
-arch dungeon_magic
-x 11
-y 1
 end
 arch flagstone
 x 11
@@ -3698,10 +3106,6 @@ name depository floor
 x 11
 y 8
 end
-arch dungeon_magic
-x 11
-y 9
-end
 arch cobblestones2
 name depository floor
 x 11
@@ -3715,10 +3119,6 @@ arch cwall_2_2_3
 x 11
 y 9
 end
-arch dungeon_magic
-x 11
-y 10
-end
 arch cobblestones2
 name depository floor
 x 11
@@ -3782,10 +3182,6 @@ x 11
 y 13
 nrof 1000000
 end
-arch dungeon_magic
-x 11
-y 14
-end
 arch cobblestones2
 name depository floor
 x 11
@@ -3794,10 +3190,6 @@ end
 arch cwall_2_2_3
 x 11
 y 14
-end
-arch dungeon_magic
-x 11
-y 15
 end
 arch cobblestones2
 name depository floor
@@ -3862,10 +3254,6 @@ x 11
 y 18
 nrof 1000000
 end
-arch dungeon_magic
-x 11
-y 19
-end
 arch cobblestones2
 name depository floor
 x 11
@@ -3874,10 +3262,6 @@ end
 arch cwall_2_2_3
 x 11
 y 19
-end
-arch dungeon_magic
-x 11
-y 20
 end
 arch cobblestones2
 name depository floor
@@ -3944,10 +3328,6 @@ end
 arch silverbar
 x 11
 y 25
-end
-arch dungeon_magic
-x 11
-y 26
 end
 arch flagstone
 x 11
@@ -3956,10 +3336,6 @@ end
 arch cwall_3_3
 x 11
 y 26
-end
-arch dungeon_magic
-x 11
-y 27
 end
 arch flagstone
 x 11
@@ -3969,18 +3345,11 @@ arch cwall_3_1
 x 11
 y 27
 end
-arch dungeon_magic
-x 12
-end
 arch flagstone
 x 12
 end
 arch cwall_3_3
 x 12
-end
-arch dungeon_magic
-x 12
-y 1
 end
 arch flagstone
 x 12
@@ -4306,10 +3675,6 @@ arch silverbar
 x 12
 y 25
 end
-arch dungeon_magic
-x 12
-y 26
-end
 arch flagstone
 x 12
 y 26
@@ -4317,10 +3682,6 @@ end
 arch cwall_3_3
 x 12
 y 26
-end
-arch dungeon_magic
-x 12
-y 27
 end
 arch flagstone
 x 12
@@ -4330,18 +3691,11 @@ arch cwall_3_1
 x 12
 y 27
 end
-arch dungeon_magic
-x 13
-end
 arch flagstone
 x 13
 end
 arch cwall_3_3
 x 13
-end
-arch dungeon_magic
-x 13
-y 1
 end
 arch flagstone
 x 13
@@ -4800,10 +4154,6 @@ arch silverbar
 x 13
 y 25
 end
-arch dungeon_magic
-x 13
-y 26
-end
 arch flagstone
 x 13
 y 26
@@ -4811,10 +4161,6 @@ end
 arch cwall_3_3
 x 13
 y 26
-end
-arch dungeon_magic
-x 13
-y 27
 end
 arch flagstone
 x 13
@@ -4824,18 +4170,11 @@ arch cwall_3_1
 x 13
 y 27
 end
-arch dungeon_magic
-x 14
-end
 arch flagstone
 x 14
 end
 arch cwall_3_3
 x 14
-end
-arch dungeon_magic
-x 14
-y 1
 end
 arch flagstone
 x 14
@@ -4991,10 +4330,6 @@ arch cobblestones2
 name depository floor
 x 14
 y 8
-end
-arch dungeon_magic
-x 14
-y 9
 end
 arch cobblestones2
 name depository floor
@@ -5008,10 +4343,6 @@ end
 arch cwall_2_2_2
 x 14
 y 9
-end
-arch dungeon_magic
-x 14
-y 10
 end
 arch cobblestones2
 name depository floor
@@ -5064,10 +4395,6 @@ x 14
 y 13
 nrof 200
 end
-arch dungeon_magic
-x 14
-y 14
-end
 arch cobblestones2
 name depository floor
 x 14
@@ -5076,10 +4403,6 @@ end
 arch cwall_2_2_2
 x 14
 y 14
-end
-arch dungeon_magic
-x 14
-y 15
 end
 arch cobblestones2
 name depository floor
@@ -5132,10 +4455,6 @@ x 14
 y 18
 nrof 200
 end
-arch dungeon_magic
-x 14
-y 19
-end
 arch cobblestones2
 name depository floor
 x 14
@@ -5144,10 +4463,6 @@ end
 arch cwall_2_2_2
 x 14
 y 19
-end
-arch dungeon_magic
-x 14
-y 20
 end
 arch cobblestones2
 name depository floor
@@ -5197,10 +4512,6 @@ arch silverbar
 x 14
 y 23
 end
-arch dungeon_magic
-x 14
-y 24
-end
 arch cobblestones2
 name depository floor
 x 14
@@ -5209,10 +4520,6 @@ end
 arch cwall_2_2_2
 x 14
 y 24
-end
-arch dungeon_magic
-x 14
-y 25
 end
 arch cobblestones2
 name depository floor
@@ -5222,10 +4529,6 @@ end
 arch cwall_3_2
 x 14
 y 25
-end
-arch dungeon_magic
-x 14
-y 26
 end
 arch flagstone
 x 14
@@ -5235,10 +4538,6 @@ arch cwall_4
 x 14
 y 26
 end
-arch dungeon_magic
-x 14
-y 27
-end
 arch flagstone
 x 14
 y 27
@@ -5247,18 +4546,11 @@ arch cwall_3_1
 x 14
 y 27
 end
-arch dungeon_magic
-x 15
-end
 arch flagstone
 x 15
 end
 arch cwall_3_3
 x 15
-end
-arch dungeon_magic
-x 15
-y 1
 end
 arch flagstone
 x 15
@@ -5268,10 +4560,6 @@ arch cwall_4
 x 15
 y 1
 end
-arch dungeon_magic
-x 15
-y 2
-end
 arch flagstone
 x 15
 y 2
@@ -5279,10 +4567,6 @@ end
 arch cwall_3_2
 x 15
 y 2
-end
-arch dungeon_magic
-x 15
-y 3
 end
 arch flagstone
 x 15
@@ -5292,10 +4576,6 @@ arch cwall_3_2
 x 15
 y 3
 end
-arch dungeon_magic
-x 15
-y 4
-end
 arch flagstone
 x 15
 y 4
@@ -5303,10 +4583,6 @@ end
 arch cwall_3_2
 x 15
 y 4
-end
-arch dungeon_magic
-x 15
-y 5
 end
 arch flagstone
 x 15
@@ -5316,10 +4592,6 @@ arch cwall_3_2
 x 15
 y 5
 end
-arch dungeon_magic
-x 15
-y 6
-end
 arch flagstone
 x 15
 y 6
@@ -5327,10 +4599,6 @@ end
 arch cwall_3_2
 x 15
 y 6
-end
-arch dungeon_magic
-x 15
-y 7
 end
 arch flagstone
 x 15
@@ -5344,10 +4612,6 @@ arch cwall_3_2
 x 15
 y 7
 end
-arch dungeon_magic
-x 15
-y 8
-end
 arch flagstone
 x 15
 y 8
@@ -5355,10 +4619,6 @@ end
 arch cwall_3_2
 x 15
 y 8
-end
-arch dungeon_magic
-x 15
-y 9
 end
 arch flagstone
 x 15
@@ -5368,10 +4628,6 @@ arch cwall_4
 x 15
 y 9
 end
-arch dungeon_magic
-x 15
-y 10
-end
 arch flagstone
 x 15
 y 10
@@ -5379,10 +4635,6 @@ end
 arch cwall_4
 x 15
 y 10
-end
-arch dungeon_magic
-x 15
-y 11
 end
 arch flagstone
 x 15
@@ -5392,10 +4644,6 @@ arch cwall_3_2
 x 15
 y 11
 end
-arch dungeon_magic
-x 15
-y 12
-end
 arch flagstone
 x 15
 y 12
@@ -5403,10 +4651,6 @@ end
 arch cwall_3_2
 x 15
 y 12
-end
-arch dungeon_magic
-x 15
-y 13
 end
 arch flagstone
 x 15
@@ -5416,10 +4660,6 @@ arch cwall_3_2
 x 15
 y 13
 end
-arch dungeon_magic
-x 15
-y 14
-end
 arch flagstone
 x 15
 y 14
@@ -5427,10 +4667,6 @@ end
 arch cwall_4
 x 15
 y 14
-end
-arch dungeon_magic
-x 15
-y 15
 end
 arch flagstone
 x 15
@@ -5440,10 +4676,6 @@ arch cwall_4
 x 15
 y 15
 end
-arch dungeon_magic
-x 15
-y 16
-end
 arch flagstone
 x 15
 y 16
@@ -5451,10 +4683,6 @@ end
 arch cwall_3_2
 x 15
 y 16
-end
-arch dungeon_magic
-x 15
-y 17
 end
 arch flagstone
 x 15
@@ -5464,10 +4692,6 @@ arch cwall_3_2
 x 15
 y 17
 end
-arch dungeon_magic
-x 15
-y 18
-end
 arch flagstone
 x 15
 y 18
@@ -5475,10 +4699,6 @@ end
 arch cwall_3_2
 x 15
 y 18
-end
-arch dungeon_magic
-x 15
-y 19
 end
 arch flagstone
 x 15
@@ -5488,10 +4708,6 @@ arch cwall_4
 x 15
 y 19
 end
-arch dungeon_magic
-x 15
-y 20
-end
 arch flagstone
 x 15
 y 20
@@ -5499,10 +4715,6 @@ end
 arch cwall_4
 x 15
 y 20
-end
-arch dungeon_magic
-x 15
-y 21
 end
 arch flagstone
 x 15
@@ -5512,10 +4724,6 @@ arch cwall_3_2
 x 15
 y 21
 end
-arch dungeon_magic
-x 15
-y 22
-end
 arch flagstone
 x 15
 y 22
@@ -5523,10 +4731,6 @@ end
 arch cwall_3_2
 x 15
 y 22
-end
-arch dungeon_magic
-x 15
-y 23
 end
 arch flagstone
 x 15
@@ -5536,10 +4740,6 @@ arch cwall_3_2
 x 15
 y 23
 end
-arch dungeon_magic
-x 15
-y 24
-end
 arch flagstone
 x 15
 y 24
@@ -5547,10 +4747,6 @@ end
 arch cwall_4
 x 15
 y 24
-end
-arch dungeon_magic
-x 15
-y 25
 end
 arch flagstone
 x 15
@@ -5560,10 +4756,6 @@ arch cwall_4
 x 15
 y 25
 end
-arch dungeon_magic
-x 15
-y 26
-end
 arch flagstone
 x 15
 y 26
@@ -5571,10 +4763,6 @@ end
 arch cwall_4
 x 15
 y 26
-end
-arch dungeon_magic
-x 15
-y 27
 end
 arch flagstone
 x 15
@@ -5584,19 +4772,12 @@ arch cwall_3_1
 x 15
 y 27
 end
-arch dungeon_magic
-x 16
-end
 arch flagstone
 x 16
 end
 arch cwall_2_2_3
 x 16
 end
-arch dungeon_magic
-x 16
-y 1
-end
 arch flagstone
 x 16
 y 1
@@ -5604,10 +4785,6 @@ end
 arch cwall_3_4
 x 16
 y 1
-end
-arch dungeon_magic
-x 16
-y 2
 end
 arch flagstone
 x 16
@@ -5617,10 +4794,6 @@ arch cwall_3_4
 x 16
 y 2
 end
-arch dungeon_magic
-x 16
-y 3
-end
 arch flagstone
 x 16
 y 3
@@ -5628,10 +4801,6 @@ end
 arch cwall_3_4
 x 16
 y 3
-end
-arch dungeon_magic
-x 16
-y 4
 end
 arch flagstone
 x 16
@@ -5641,10 +4810,6 @@ arch cwall_3_4
 x 16
 y 4
 end
-arch dungeon_magic
-x 16
-y 5
-end
 arch flagstone
 x 16
 y 5
@@ -5652,10 +4817,6 @@ end
 arch cwall_3_4
 x 16
 y 5
-end
-arch dungeon_magic
-x 16
-y 6
 end
 arch flagstone
 x 16
@@ -5665,10 +4826,6 @@ arch cwall_3_4
 x 16
 y 6
 end
-arch dungeon_magic
-x 16
-y 7
-end
 arch flagstone
 x 16
 y 7
@@ -5676,10 +4833,6 @@ end
 arch cwall_3_4
 x 16
 y 7
-end
-arch dungeon_magic
-x 16
-y 8
 end
 arch flagstone
 x 16
@@ -5689,10 +4842,6 @@ arch cwall_3_4
 x 16
 y 8
 end
-arch dungeon_magic
-x 16
-y 9
-end
 arch flagstone
 x 16
 y 9
@@ -5700,10 +4849,6 @@ end
 arch cwall_3_4
 x 16
 y 9
-end
-arch dungeon_magic
-x 16
-y 10
 end
 arch flagstone
 x 16
@@ -5713,10 +4858,6 @@ arch cwall_3_4
 x 16
 y 10
 end
-arch dungeon_magic
-x 16
-y 11
-end
 arch flagstone
 x 16
 y 11
@@ -5724,10 +4865,6 @@ end
 arch cwall_3_4
 x 16
 y 11
-end
-arch dungeon_magic
-x 16
-y 12
 end
 arch flagstone
 x 16
@@ -5737,10 +4874,6 @@ arch cwall_3_4
 x 16
 y 12
 end
-arch dungeon_magic
-x 16
-y 13
-end
 arch flagstone
 x 16
 y 13
@@ -5748,10 +4881,6 @@ end
 arch cwall_3_4
 x 16
 y 13
-end
-arch dungeon_magic
-x 16
-y 14
 end
 arch flagstone
 x 16
@@ -5761,10 +4890,6 @@ arch cwall_3_4
 x 16
 y 14
 end
-arch dungeon_magic
-x 16
-y 15
-end
 arch flagstone
 x 16
 y 15
@@ -5772,10 +4897,6 @@ end
 arch cwall_3_4
 x 16
 y 15
-end
-arch dungeon_magic
-x 16
-y 16
 end
 arch flagstone
 x 16
@@ -5785,10 +4906,6 @@ arch cwall_3_4
 x 16
 y 16
 end
-arch dungeon_magic
-x 16
-y 17
-end
 arch flagstone
 x 16
 y 17
@@ -5796,10 +4913,6 @@ end
 arch cwall_3_4
 x 16
 y 17
-end
-arch dungeon_magic
-x 16
-y 18
 end
 arch flagstone
 x 16
@@ -5809,10 +4922,6 @@ arch cwall_3_4
 x 16
 y 18
 end
-arch dungeon_magic
-x 16
-y 19
-end
 arch flagstone
 x 16
 y 19
@@ -5820,10 +4929,6 @@ end
 arch cwall_3_4
 x 16
 y 19
-end
-arch dungeon_magic
-x 16
-y 20
 end
 arch flagstone
 x 16
@@ -5833,10 +4938,6 @@ arch cwall_3_4
 x 16
 y 20
 end
-arch dungeon_magic
-x 16
-y 21
-end
 arch flagstone
 x 16
 y 21
@@ -5844,10 +4945,6 @@ end
 arch cwall_3_4
 x 16
 y 21
-end
-arch dungeon_magic
-x 16
-y 22
 end
 arch flagstone
 x 16
@@ -5857,10 +4954,6 @@ arch cwall_3_4
 x 16
 y 22
 end
-arch dungeon_magic
-x 16
-y 23
-end
 arch flagstone
 x 16
 y 23
@@ -5868,10 +4961,6 @@ end
 arch cwall_3_4
 x 16
 y 23
-end
-arch dungeon_magic
-x 16
-y 24
 end
 arch flagstone
 x 16
@@ -5881,10 +4970,6 @@ arch cwall_3_4
 x 16
 y 24
 end
-arch dungeon_magic
-x 16
-y 25
-end
 arch flagstone
 x 16
 y 25
@@ -5893,10 +4978,6 @@ arch cwall_3_4
 x 16
 y 25
 end
-arch dungeon_magic
-x 16
-y 26
-end
 arch flagstone
 x 16
 y 26
@@ -5904,10 +4985,6 @@ end
 arch cwall_3_4
 x 16
 y 26
-end
-arch dungeon_magic
-x 16
-y 27
 end
 arch flagstone
 x 16
