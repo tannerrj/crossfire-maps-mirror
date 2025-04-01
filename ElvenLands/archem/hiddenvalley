@@ -6,7 +6,7 @@ width 16
 height 16
 msg
 Created:  2000-06-08 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-04-01 Rick Tanner
 endmsg
 end
 arch mountain_2
@@ -51,6 +51,9 @@ arch mountain
 y 14
 end
 arch mountain
+y 15
+end
+arch mountain
 x 1
 y 2
 end
@@ -101,6 +104,10 @@ end
 arch mountain
 x 1
 y 14
+end
+arch mountain
+x 1
+y 15
 end
 arch mountain
 x 2
