@@ -175,9 +175,6 @@ end
 arch flagstone
 y 27
 end
-arch swall_2_2_1
-y 27
-end
 arch cwall_2_2_1
 y 27
 end
@@ -1669,10 +1666,6 @@ arch flagstone
 x 6
 y 6
 end
-arch swall_2_2_2
-x 6
-y 6
-end
 arch cwall_2_2_2
 x 6
 y 6
@@ -1681,19 +1674,11 @@ arch flagstone
 x 6
 y 7
 end
-arch swall_2_1_1
-x 6
-y 7
-end
 arch dwall_win1
 x 6
 y 7
 end
 arch flagstone
-x 6
-y 8
-end
-arch swall_2_1_1
 x 6
 y 8
 end
@@ -1717,10 +1702,6 @@ arch flagstone
 x 6
 y 10
 end
-arch swall_1_1
-x 6
-y 10
-end
 arch cwall_4
 x 6
 y 10
@@ -1729,10 +1710,6 @@ arch flagstone
 x 6
 y 11
 end
-arch swall_2_1_1
-x 6
-y 11
-end
 arch dwall_win1
 x 6
 y 11
@@ -1741,19 +1718,11 @@ arch flagstone
 x 6
 y 12
 end
-arch swall_2_1_1
-x 6
-y 12
-end
 arch dwall_win1
 x 6
 y 12
 end
 arch flagstone
-x 6
-y 13
-end
-arch swall_2_1_1
 x 6
 y 13
 end
@@ -1781,10 +1750,6 @@ arch flagstone
 x 6
 y 16
 end
-arch swall_2_1_1
-x 6
-y 16
-end
 arch dwall_win1
 x 6
 y 16
@@ -1793,19 +1758,11 @@ arch flagstone
 x 6
 y 17
 end
-arch swall_2_1_1
-x 6
-y 17
-end
 arch dwall_win1
 x 6
 y 17
 end
 arch flagstone
-x 6
-y 18
-end
-arch swall_2_1_1
 x 6
 y 18
 end
@@ -1961,10 +1918,6 @@ arch flagstone
 x 7
 y 6
 end
-arch swall_2_1_2
-x 7
-y 6
-end
 arch dwall_win2
 x 7
 y 6
@@ -2099,10 +2052,6 @@ arch flagstone
 x 7
 y 21
 end
-arch swall_2_1_2
-x 7
-y 21
-end
 arch dwall_win2
 x 7
 y 21
@@ -2228,10 +2177,6 @@ x 8
 y 5
 end
 arch flagstone
-x 8
-y 6
-end
-arch swall_2_1_2
 x 8
 y 6
 end
@@ -2363,10 +2308,6 @@ arch flagstone
 x 8
 y 21
 end
-arch swall_2_1_2
-x 8
-y 21
-end
 arch dwall_win2
 x 8
 y 21
@@ -2496,10 +2437,6 @@ x 9
 y 5
 end
 arch flagstone
-x 9
-y 6
-end
-arch swall_2_1_2
 x 9
 y 6
 end
@@ -2677,10 +2614,6 @@ arch flagstone
 x 9
 y 21
 end
-arch swall_2_1_2
-x 9
-y 21
-end
 arch dwall_win2
 x 9
 y 21
@@ -2799,19 +2732,11 @@ arch flagstone
 x 10
 y 6
 end
-arch swall_2_2_3
-x 10
-y 6
-end
 arch cwall_2_2_3
 x 10
 y 6
 end
 arch flagstone
-x 10
-y 7
-end
-arch swall_2_2_1
 x 10
 y 7
 end
@@ -2845,10 +2770,6 @@ arch flagstone
 x 10
 y 10
 end
-arch swall_1_1
-x 10
-y 10
-end
 arch cwall_4
 x 10
 y 10
@@ -2857,10 +2778,6 @@ arch flagstone
 x 10
 y 11
 end
-arch swall_2_1_1
-x 10
-y 11
-end
 arch dwall_win1
 x 10
 y 11
@@ -2869,19 +2786,11 @@ arch flagstone
 x 10
 y 12
 end
-arch swall_2_1_1
-x 10
-y 12
-end
 arch dwall_win1
 x 10
 y 12
 end
 arch flagstone
-x 10
-y 13
-end
-arch swall_2_1_1
 x 10
 y 13
 end
@@ -2909,10 +2818,6 @@ arch flagstone
 x 10
 y 16
 end
-arch swall_2_1_1
-x 10
-y 16
-end
 arch dwall_win1
 x 10
 y 16
@@ -2921,19 +2826,11 @@ arch flagstone
 x 10
 y 17
 end
-arch swall_2_1_1
-x 10
-y 17
-end
 arch dwall_win1
 x 10
 y 17
 end
 arch flagstone
-x 10
-y 18
-end
-arch swall_2_1_1
 x 10
 y 18
 end
@@ -3108,10 +3005,6 @@ y 8
 end
 arch cobblestones2
 name depository floor
-x 11
-y 9
-end
-arch swall_2_1_2
 x 11
 y 9
 end
@@ -4336,10 +4229,6 @@ name depository floor
 x 14
 y 9
 end
-arch swall_2_1_2
-x 14
-y 9
-end
 arch cwall_2_2_2
 x 14
 y 9
@@ -4601,10 +4490,6 @@ x 15
 y 6
 end
 arch flagstone
-x 15
-y 7
-end
-arch swall_1_3
 x 15
 y 7
 end
@@ -4987,10 +4872,6 @@ x 16
 y 26
 end
 arch flagstone
-x 16
-y 27
-end
-arch swall_2_2_4
 x 16
 y 27
 end
