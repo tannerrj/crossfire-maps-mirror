@@ -475,7 +475,6 @@ arch corpse
 name sleeping dwarf
 x 3
 y 11
-carrying 100
 no_pick 1
 arch key2
 slaying Dwarf
@@ -501,8 +500,7 @@ arch key_ring
 end
 arch scroll
 msg
-We need help in dwarf mines! Some of
-the dwarves have gone mad!
+We need help in dwarf mines! Some of the dwarves have gone mad!
 endmsg
 end
 end
@@ -707,9 +705,7 @@ y 12
 carrying 27775
 arch note
 msg
-My quests have continued.Here is how I
-have done Rock tunnel,fire blast,ice
-chill,waterfalls,air fair.And that's it
+My quests have continued. Here is how I have done: Rock tunnel, fire blast, ice chill, waterfalls, air fair. And that's it.
 endmsg
 end
 arch book_clasp
@@ -901,7 +897,7 @@ name sleeping elf
 food 0
 x 5
 y 11
-carrying 100
+level 1
 no_pick 1
 arch key2
 slaying Elf
