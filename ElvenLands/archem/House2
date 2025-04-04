@@ -4140,9 +4140,12 @@ arch woodfloorvert
 x 27
 y 15
 end
-arch scroll_new
+arch random_scroll
+hp 7
+exp 10
 x 27
 y 15
+blessed 1
 end
 arch woodfloorvert
 x 27
