@@ -5,52 +5,41 @@ width 15
 height 15
 msg
 Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-04-05 Rick Tanner
 endmsg
 end
 arch grass
 end
-arch grass
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
-end
-arch grass
-y 1
+hp 8
+sp 3
 end
 arch grass
 y 1
 end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 y 1
 end
 arch grass
 y 2
 end
-arch grass
-y 2
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 y 2
 end
 arch grass
 y 3
 end
-arch grass
-y 3
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 y 3
 end
 arch dungeon_floor
@@ -122,18 +111,11 @@ end
 arch grass
 x 1
 end
-arch grass
-x 1
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 1
-end
-arch grass
-x 1
-y 1
 end
 arch grass
 x 1
@@ -141,8 +123,8 @@ y 1
 end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 1
 y 1
 end
@@ -150,14 +132,10 @@ arch grass
 x 1
 y 2
 end
-arch grass
-x 1
-y 2
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 1
 y 2
 end
@@ -165,14 +143,10 @@ arch grass
 x 1
 y 3
 end
-arch grass
-x 1
-y 3
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 1
 y 3
 end
@@ -252,18 +226,11 @@ end
 arch grass
 x 2
 end
-arch grass
-x 2
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 2
-end
-arch grass
-x 2
-y 1
 end
 arch grass
 x 2
@@ -271,8 +238,8 @@ y 1
 end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 2
 y 1
 end
@@ -280,14 +247,10 @@ arch grass
 x 2
 y 2
 end
-arch grass
-x 2
-y 2
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 2
 y 2
 end
@@ -295,14 +258,10 @@ arch grass
 x 2
 y 3
 end
-arch grass
-x 2
-y 3
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 2
 y 3
 end
@@ -406,18 +365,11 @@ end
 arch grass
 x 3
 end
-arch grass
-x 3
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 3
-end
-arch grass
-x 3
-y 1
 end
 arch grass
 x 3
@@ -425,8 +377,8 @@ y 1
 end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 3
 y 1
 end
@@ -436,8 +388,8 @@ y 2
 end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 3
 y 2
 end
@@ -445,14 +397,10 @@ arch grass
 x 3
 y 3
 end
-arch grass
-x 3
-y 3
-end
 arch invis_exit
 slaying /ElvenLands/archem/town
-hp 3
-sp 2
+hp 8
+sp 3
 x 3
 y 3
 end
