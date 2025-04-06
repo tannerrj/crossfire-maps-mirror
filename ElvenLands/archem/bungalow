@@ -5,7 +5,7 @@ width 31
 height 31
 msg
 Created:  2000-04-24 Neebin Southall
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-04-06 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -203,8 +203,9 @@ x 1
 y 1
 end
 arch oakdoor
-hp 1
-sp 1
+slaying town
+hp 19
+sp 11
 x 1
 y 1
 end
