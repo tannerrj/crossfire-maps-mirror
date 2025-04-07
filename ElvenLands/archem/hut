@@ -3853,9 +3853,15 @@ is_animated 1
 monster 1
 unaggressive 1
 can_cast_spell 1
-arch ability_summon_fire
+arch spell_large_fireball
 end
-arch ability_summon_fire
+arch spell_medium_fireball
+end
+arch spell_small_fireball
+end
+arch spell_firebolt
+end
+arch spell_rune_of_fire
 end
 end
 arch woodfloor
