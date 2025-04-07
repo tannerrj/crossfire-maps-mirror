@@ -3798,11 +3798,7 @@ end
 arch book_clasp
 name pirates of the island
 msg
-Smugglers have been using the island
-for many years. But it is now very hard
-to smuggle goods here or use the island
-as a headquarters. There headquarters
-is still unknown.
+Smugglers have been using the island for many years. But it is now very hard to smuggle goods here or use the island as a headquarters. There headquarters is still unknown.
 endmsg
 x 19
 y 3
@@ -3832,27 +3828,11 @@ name Regitirius
 msg
 @match hi|hello
 Hello.
-I am very busy right now. I am going
-over my notes about the portals and
-magic properties of this island. If you
-have nothing important to say,please do
-not bother me. You may read some books
-I have out here.
+I am very busy right now. I am going over my notes about the portals and magic properties of this island. If you have nothing important to say, please do not bother me. You may read some books I have out here.
 @match portals
-I have been studying portals for many
-years. I know the location of many.
-There is a portal in the swamp. It is
-under one of the bogs. Watch out,there
-are some strange mud creatures in
-there. The swamp is the only way I know
-of into the castle. The bog will
-respond if you say 'swallow me'.
+I have been studying portals for many years. I know the location of many. There is a portal in the swamp. It is under one of the bogs. Watch out,there are some strange mud creatures in there. The swamp is the only way I know of into the castle. The bog will respond if you say 'swallow me'.
 @match more
-There is a summoner in Archam,he
-sometimes uses portals to summon
-creatures from other dimensions. I
-heard you may be able to get an
-artifact from him.
+There is a summoner in Archam, he sometimes uses portals to summon creatures from other dimensions. I heard you may be able to get an artifact from him.
 endmsg
 face wizard_blue.111
 animation wizard_blue
@@ -5057,10 +5037,7 @@ arch lich
 name Caster
 msg
 @match *
-You do not belong here! Go back or I
-shall be forced to deal with you
-accordingly.
-
+You do not belong here! Go back or I shall be forced to deal with you accordingly.
 endmsg
 x 25
 y 19
