@@ -5,7 +5,7 @@ width 28
 height 31
 msg
 Created:  2000-01-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-04-07 Rick Tanner
 endmsg
 end
 arch bwall_2_2_2
@@ -3018,6 +3018,9 @@ x 24
 y 18
 end
 arch perm_magic_portal
+slaying town
+hp 21
+sp 13
 x 24
 y 18
 end
