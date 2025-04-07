@@ -778,7 +778,7 @@ arch woodfloor
 x 4
 y 19
 end
-arch swall_1_4
+arch swall_2_1_2
 x 4
 y 19
 end
@@ -798,7 +798,7 @@ arch woodfloor
 x 4
 y 22
 end
-arch swall_1_4
+arch swall_2_1_2
 x 4
 y 22
 end
@@ -977,6 +977,10 @@ arch bwall_2_1_2
 x 5
 y 17
 end
+arch swall_1_1_half
+x 5
+y 17
+end
 arch dungeon_magic
 x 5
 y 18
@@ -985,7 +989,7 @@ arch woodfloor
 x 5
 y 18
 end
-arch swall_1_1
+arch swall_2_1_1
 x 5
 y 18
 end
@@ -1029,7 +1033,7 @@ arch woodfloor
 x 5
 y 23
 end
-arch swall_1_2
+arch swall_2_1_1
 x 5
 y 23
 end
@@ -1753,6 +1757,10 @@ arch bwall_2_1_2
 x 9
 y 17
 end
+arch swall_1_1_half
+x 9
+y 17
+end
 arch dungeon_magic
 x 9
 y 18
@@ -1761,7 +1769,7 @@ arch woodfloor
 x 9
 y 18
 end
-arch swall_1_1
+arch swall_2_1_1
 x 9
 y 18
 end
@@ -1805,7 +1813,7 @@ arch woodfloor
 x 9
 y 23
 end
-arch swall_1_2
+arch swall_2_1_1
 x 9
 y 23
 end
@@ -2013,7 +2021,7 @@ arch woodfloor
 x 10
 y 19
 end
-arch swall_1_3
+arch swall_2_1_2
 x 10
 y 19
 end
@@ -2033,7 +2041,7 @@ arch woodfloor
 x 10
 y 22
 end
-arch swall_1_3
+arch swall_2_1_2
 x 10
 y 22
 end
@@ -4615,7 +4623,7 @@ arch woodfloor
 x 23
 y 24
 end
-arch swall_1_2
+arch swall_2_1_1
 x 23
 y 24
 end
@@ -4975,7 +4983,7 @@ arch woodfloor
 x 25
 y 24
 end
-arch swall_1_2
+arch swall_2_1_1
 x 25
 y 24
 end
