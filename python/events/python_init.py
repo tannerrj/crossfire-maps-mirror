@@ -12,4 +12,7 @@ if os.path.exists(path):
 
 	for script in scripts:
 		if (script.endswith('.py')):
-			exec(open(os.path.join(path, script)).read())
+			try:
+				exec(open(os.path.join(path, script)).read())
+			except Exception as ex:
+				Crossfire.Log(Crossfire.LogError, 'Exception in init script {}: {}'.format(script, ex))
