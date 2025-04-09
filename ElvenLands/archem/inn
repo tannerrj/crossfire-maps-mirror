@@ -623,12 +623,11 @@ arch elf_1
 name innkeeper
 msg
 @match hi|hello
-Hello,sir! Would you like a room?
+Hello, sir! Would you like a room?
 @match yes
-Good,sir! Just drop 10 goldcoins on the
-floors in front of the rooms.
+Good, sir! Just drop 10 goldcoins on the floors in front of the rooms.
 @match no
-Goodbye,sir. Maybe someother time.
+Goodbye, sir. Maybe someother time.
 endmsg
 x 7
 y 10
