@@ -7,7 +7,7 @@ enter_x 12
 enter_y 10
 msg
 Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-04-08 Rick Tanner
+Modified: 2025-04-09 Rick Tanner
 endmsg
 end
 arch sea
@@ -2964,8 +2964,8 @@ end
 arch inn
 name Archem Inn
 slaying /ElvenLands/archem/inn
-hp 8
-sp 8
+hp 10
+sp 10
 x 21
 y 11
 end
