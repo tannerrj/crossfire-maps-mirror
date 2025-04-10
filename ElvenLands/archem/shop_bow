@@ -1019,14 +1019,11 @@ arch elf_1
 name Clarik the BowMaster
 msg
 @match hi|hello
-Welcome to my shop. Would you like some
-high quality missile goods?
+Welcome to my shop. Would you like some high quality missile goods?
 @match yes
-Good! Look all you want! My store is
-full of goodies!
+Good! Look around all you want! My store is full of goodies!
 @match no
-Well,you should check another store for
-what you want.
+Well, you should check another store for what you want.
 endmsg
 hp 300
 dam 15
