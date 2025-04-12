@@ -2759,11 +2759,15 @@ arch cobblestones
 x 16
 y 23
 end
-arch swall_1_2
+arch swall_2_1_1
 x 16
 y 23
 end
 arch cobblestones
+x 16
+y 24
+end
+arch swall_1_2_half
 x 16
 y 24
 end
@@ -2954,7 +2958,7 @@ arch cobblestones
 x 17
 y 22
 end
-arch swall_1_3
+arch swall_2_1_2
 x 17
 y 22
 end
@@ -3151,6 +3155,10 @@ x 18
 y 21
 end
 arch cobblestones
+x 18
+y 22
+end
+arch swall_1_3_half
 x 18
 y 22
 end
