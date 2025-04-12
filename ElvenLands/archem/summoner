@@ -1125,7 +1125,7 @@ y 2
 end
 arch magic_ear
 msg
-@match treasure|Treasure
+@match treasure
 Granted..
 endmsg
 x 7
@@ -1135,7 +1135,7 @@ end
 arch magic_ear
 msg
 @match monster
-
+List some monsters, and I might be able to bring them here.
 endmsg
 x 7
 y 2
@@ -1144,7 +1144,7 @@ end
 arch magic_ear
 msg
 @match titan
-
+That is going to be harder than you think!
 endmsg
 x 7
 y 2
@@ -1153,7 +1153,7 @@ end
 arch magic_ear
 msg
 @match dragon
-
+I see you are looking for a challenge!
 endmsg
 x 7
 y 2
@@ -1162,7 +1162,7 @@ end
 arch magic_ear
 msg
 @match goblin
-Thats a peice of cake!.
+Thats a peice of cake!
 endmsg
 x 7
 y 2
