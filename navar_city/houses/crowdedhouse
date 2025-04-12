@@ -8,7 +8,7 @@ enter_x 8
 enter_y 9
 msg
 Created:  2012-05-17 Rick Tanner
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-04-12 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -108,7 +108,7 @@ arch grass_only
 x 2
 y 1
 end
-arch woodfloor
+arch flagstone
 x 2
 y 2
 end
@@ -116,7 +116,7 @@ arch white_wall_2_2_2
 x 2
 y 2
 end
-arch woodfloor
+arch flagstone
 x 2
 y 3
 end
@@ -124,7 +124,7 @@ arch white_wall_2_1_1
 x 2
 y 3
 end
-arch woodfloor
+arch flagstone
 x 2
 y 4
 end
@@ -132,7 +132,7 @@ arch white_wall_2_1_1
 x 2
 y 4
 end
-arch woodfloor
+arch flagstone
 x 2
 y 5
 end
@@ -140,7 +140,7 @@ arch white_wall_2_1_1
 x 2
 y 5
 end
-arch woodfloor
+arch flagstone
 x 2
 y 6
 end
@@ -148,7 +148,7 @@ arch white_wall_win1
 x 2
 y 6
 end
-arch woodfloor
+arch flagstone
 x 2
 y 7
 end
@@ -156,7 +156,7 @@ arch white_wall_2_1_1
 x 2
 y 7
 end
-arch woodfloor
+arch flagstone
 x 2
 y 8
 end
@@ -164,7 +164,7 @@ arch white_wall_2_1_1
 x 2
 y 8
 end
-arch woodfloor
+arch flagstone
 x 2
 y 9
 end
@@ -172,7 +172,7 @@ arch white_wall_2_1_1
 x 2
 y 9
 end
-arch woodfloor
+arch flagstone
 x 2
 y 10
 end
@@ -195,7 +195,7 @@ arch grass_only
 x 3
 y 1
 end
-arch woodfloor
+arch flagstone
 x 3
 y 2
 end
@@ -255,7 +255,7 @@ arch chest
 x 3
 y 9
 end
-arch woodfloor
+arch flagstone
 x 3
 y 10
 end
@@ -278,7 +278,7 @@ arch grass_only
 x 4
 y 1
 end
-arch woodfloor
+arch flagstone
 x 4
 y 2
 end
@@ -330,7 +330,7 @@ arch random_treasure
 x 4
 y 9
 end
-arch woodfloor
+arch flagstone
 x 4
 y 10
 end
@@ -353,7 +353,7 @@ arch grass_only
 x 5
 y 1
 end
-arch woodfloor
+arch flagstone
 x 5
 y 2
 end
@@ -409,7 +409,7 @@ arch white_wall_2_1_1
 x 5
 y 9
 end
-arch woodfloor
+arch flagstone
 x 5
 y 10
 end
@@ -432,7 +432,7 @@ arch grass_only
 x 6
 y 1
 end
-arch woodfloor
+arch flagstone
 x 6
 y 2
 end
@@ -480,7 +480,7 @@ arch c_sage
 x 6
 y 9
 end
-arch woodfloor
+arch flagstone
 x 6
 y 10
 end
@@ -503,7 +503,7 @@ arch grass_only
 x 7
 y 1
 end
-arch woodfloor
+arch flagstone
 x 7
 y 2
 end
@@ -547,7 +547,7 @@ arch woodfloor
 x 7
 y 9
 end
-arch woodfloor
+arch flagstone
 x 7
 y 10
 end
@@ -575,7 +575,7 @@ arch grass_only
 x 8
 y 1
 end
-arch woodfloor
+arch flagstone
 x 8
 y 2
 end
@@ -619,7 +619,7 @@ arch woodfloor
 x 8
 y 9
 end
-arch woodfloor
+arch flagstone
 x 8
 y 10
 end
@@ -650,7 +650,7 @@ arch grass_only
 x 9
 y 1
 end
-arch woodfloor
+arch flagstone
 x 9
 y 2
 end
@@ -694,7 +694,7 @@ arch woodfloor
 x 9
 y 9
 end
-arch woodfloor
+arch flagstone
 x 9
 y 10
 end
@@ -722,7 +722,7 @@ arch grass_only
 x 10
 y 1
 end
-arch woodfloor
+arch flagstone
 x 10
 y 2
 end
@@ -730,7 +730,7 @@ arch white_wall_2_2_3
 x 10
 y 2
 end
-arch woodfloor
+arch flagstone
 x 10
 y 3
 end
@@ -738,7 +738,7 @@ arch white_wall_2_1_1
 x 10
 y 3
 end
-arch woodfloor
+arch flagstone
 x 10
 y 4
 end
@@ -746,7 +746,7 @@ arch white_wall_2_1_1
 x 10
 y 4
 end
-arch woodfloor
+arch flagstone
 x 10
 y 5
 end
@@ -754,7 +754,7 @@ arch white_wall_3_4
 x 10
 y 5
 end
-arch woodfloor
+arch flagstone
 x 10
 y 6
 end
@@ -762,7 +762,7 @@ arch white_wall_win1
 x 10
 y 6
 end
-arch woodfloor
+arch flagstone
 x 10
 y 7
 end
@@ -770,7 +770,7 @@ arch white_wall_2_1_1
 x 10
 y 7
 end
-arch woodfloor
+arch flagstone
 x 10
 y 8
 end
@@ -778,7 +778,7 @@ arch white_wall_2_1_1
 x 10
 y 8
 end
-arch woodfloor
+arch flagstone
 x 10
 y 9
 end
@@ -786,7 +786,7 @@ arch white_wall_2_1_1
 x 10
 y 9
 end
-arch woodfloor
+arch flagstone
 x 10
 y 10
 end
