@@ -2739,6 +2739,10 @@ arch cobblestones
 x 16
 y 21
 end
+arch magic_banned
+x 16
+y 22
+end
 arch cobblestones
 x 16
 y 22
@@ -2749,17 +2753,13 @@ y 22
 end
 arch magic_banned
 x 16
-y 22
+y 23
 end
 arch cobblestones
 x 16
 y 23
 end
 arch swall_1_2
-x 16
-y 23
-end
-arch magic_banned
 x 16
 y 23
 end
@@ -2946,15 +2946,15 @@ arch cobblestones
 x 17
 y 21
 end
+arch magic_banned
+x 17
+y 22
+end
 arch cobblestones
 x 17
 y 22
 end
 arch swall_1_3
-x 17
-y 22
-end
-arch magic_banned
 x 17
 y 22
 end
