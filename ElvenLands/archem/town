@@ -2508,11 +2508,15 @@ arch river_ne-s
 x 18
 y 13
 end
-arch cobblestones2
+arch pstone_1
 x 18
 y 14
 end
-arch bridge_we
+arch river_n-s
+x 18
+y 14
+end
+arch bridge_1
 x 18
 y 14
 end
@@ -2552,7 +2556,11 @@ arch pstone_1
 x 18
 y 19
 end
-arch rjunct_we-n
+arch river_w-e
+x 18
+y 19
+end
+arch river_ne-w
 x 18
 y 19
 end
@@ -2809,11 +2817,15 @@ arch cobblestones2
 x 20
 y 11
 end
-arch cobblestones2
+arch pstone_1
 x 20
 y 12
 end
-arch bridge_ns
+arch river_w-e
+x 20
+y 12
+end
+arch bridge_2
 x 20
 y 12
 end
@@ -2841,7 +2853,11 @@ arch grass
 x 20
 y 17
 end
-arch dwall_3_4
+arch swall_1_2_half
+x 20
+y 17
+end
+arch dwall_2_2_3
 x 20
 y 17
 end
@@ -3003,7 +3019,11 @@ arch grass
 x 21
 y 16
 end
-arch dwall_2_2_4
+arch swall_2_2_4
+x 21
+y 16
+end
+arch dwall_0
 x 21
 y 16
 end
@@ -3149,7 +3169,11 @@ arch grass
 x 22
 y 15
 end
-arch dwall_2_2_4
+arch swall_2_2_4
+x 22
+y 15
+end
+arch dwall_0
 x 22
 y 15
 end
@@ -3207,7 +3231,11 @@ arch grass
 x 23
 y 1
 end
-arch dwall_2_2_3
+arch dwall_1_3
+x 23
+y 1
+end
+arch swall_1_1_half
 x 23
 y 1
 end
@@ -3223,7 +3251,11 @@ arch grass
 x 23
 y 3
 end
-arch dwall_2_1_1
+arch swall_1_2_half
+x 23
+y 3
+end
+arch dwall_1_1
 x 23
 y 3
 end
@@ -3307,7 +3339,11 @@ arch grass
 x 23
 y 14
 end
-arch dwall_2_2_4
+arch dwall_1_2
+x 23
+y 14
+end
+arch swall_1_3_half
 x 23
 y 14
 end
