@@ -2788,7 +2788,7 @@ y 1
 carrying 100
 arch key2
 name key from other dimension
-slaying joel
+slaying summoner-dragon
 end
 end
 arch pit_closed
@@ -3344,7 +3344,7 @@ connected 6
 end
 arch key2
 name key of other dimension
-slaying joel
+slaying summoner-reward
 x 20
 y 5
 end
@@ -3587,7 +3587,7 @@ y 1
 carrying 100
 arch key2
 name key from other dimension
-slaying joel
+slaying summoner-titan
 end
 end
 arch pit_closed
@@ -4093,6 +4093,7 @@ x 26
 y 13
 end
 arch locked_door2
+slaying summoner-dragon
 x 26
 y 13
 end
@@ -4201,6 +4202,7 @@ x 27
 y 13
 end
 arch locked_door2
+slaying summonerer-titan
 x 27
 y 13
 end
@@ -4313,6 +4315,7 @@ x 28
 y 13
 end
 arch locked_door2
+slaying summoner-reward
 x 28
 y 13
 end
