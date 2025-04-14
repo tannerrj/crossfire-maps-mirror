@@ -525,8 +525,7 @@ arch siegfried
 name Instructor
 msg
 @match *
-1... 2... 3... 4... 5...
-Hey! Get in line!!!
+1... 2... 3... 4... 5... Hey! Get in line!!!
 endmsg
 x 3
 y 18
@@ -1906,8 +1905,7 @@ y 4
 end
 arch magic_mouth
 msg
-Drop an item you would like to give to
-another person in this room.
+Drop an item you would like to give to another person in this room.
 endmsg
 x 14
 y 4
@@ -2043,8 +2041,7 @@ arch merchant
 name Instructor
 msg
 @match *
-Shoot the chickens as they come past
-Its that easy...
+Shoot the chickens as they come past. It's that easy...
 endmsg
 hp 10000
 x 15
