@@ -3351,7 +3351,7 @@ arch dungeon_floor
 x 22
 y 2
 end
-arch dwall_2_2_3
+arch dwall_3_3
 x 22
 y 2
 end
@@ -3359,7 +3359,7 @@ arch cobblestones2
 x 22
 y 3
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 3
 end
@@ -3367,7 +3367,7 @@ arch cobblestones2
 x 22
 y 4
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 4
 end
@@ -3375,7 +3375,7 @@ arch cobblestones2
 x 22
 y 5
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 5
 end
@@ -3383,7 +3383,7 @@ arch cobblestones2
 x 22
 y 6
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 6
 end
@@ -3391,7 +3391,7 @@ arch cobblestones2
 x 22
 y 7
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 7
 end
@@ -3399,7 +3399,7 @@ arch cobblestones2
 x 22
 y 8
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 8
 end
@@ -3407,7 +3407,7 @@ arch cobblestones2
 x 22
 y 9
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 9
 end
@@ -3415,7 +3415,7 @@ arch cobblestones2
 x 22
 y 10
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 10
 end
@@ -3423,7 +3423,7 @@ arch cobblestones2
 x 22
 y 11
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 11
 end
@@ -3431,7 +3431,7 @@ arch cobblestones2
 x 22
 y 12
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 12
 end
@@ -3439,7 +3439,7 @@ arch cobblestones2
 x 22
 y 13
 end
-arch dwall_2_1_1
+arch dwall_3_2
 x 22
 y 13
 end
@@ -3498,11 +3498,59 @@ arch dungeon_floor
 x 23
 y 2
 end
+arch dwall_3_3
+x 23
+y 2
+end
+arch dwall_4
+x 23
+y 3
+end
+arch dwall_4
+x 23
+y 4
+end
+arch dwall_4
+x 23
+y 5
+end
+arch dwall_4
+x 23
+y 6
+end
+arch dwall_4
+x 23
+y 7
+end
+arch dwall_4
+x 23
+y 8
+end
+arch dwall_4
+x 23
+y 9
+end
+arch dwall_4
+x 23
+y 10
+end
+arch dwall_4
+x 23
+y 11
+end
+arch dwall_4
+x 23
+y 12
+end
+arch dwall_4
+x 23
+y 13
+end
 arch cobblestones2
 x 23
 y 14
 end
-arch dwall_2_1_2
+arch dwall_3_1
 x 23
 y 14
 end
@@ -3553,7 +3601,15 @@ arch dungeon_floor
 x 24
 y 2
 end
+arch dwall_2_2_3
+x 24
+y 2
+end
 arch dungeon_floor
+x 24
+y 3
+end
+arch dwall_3_4
 x 24
 y 3
 end
@@ -3561,7 +3617,15 @@ arch dungeon_floor
 x 24
 y 4
 end
+arch dwall_3_4
+x 24
+y 4
+end
 arch dungeon_floor
+x 24
+y 5
+end
+arch dwall_3_4
 x 24
 y 5
 end
@@ -3569,7 +3633,15 @@ arch dungeon_floor
 x 24
 y 6
 end
+arch dwall_3_4
+x 24
+y 6
+end
 arch dungeon_floor
+x 24
+y 7
+end
+arch dwall_3_4
 x 24
 y 7
 end
@@ -3577,7 +3649,15 @@ arch dungeon_floor
 x 24
 y 8
 end
+arch dwall_3_4
+x 24
+y 8
+end
 arch dungeon_floor
+x 24
+y 9
+end
+arch dwall_3_4
 x 24
 y 9
 end
@@ -3585,7 +3665,15 @@ arch dungeon_floor
 x 24
 y 10
 end
+arch dwall_3_4
+x 24
+y 10
+end
 arch dungeon_floor
+x 24
+y 11
+end
+arch dwall_3_4
 x 24
 y 11
 end
@@ -3593,7 +3681,15 @@ arch dungeon_floor
 x 24
 y 12
 end
+arch dwall_3_4
+x 24
+y 12
+end
 arch dungeon_floor
+x 24
+y 13
+end
+arch dwall_3_4
 x 24
 y 13
 end
@@ -3601,7 +3697,7 @@ arch dungeon_floor
 x 24
 y 14
 end
-arch dwall_2_2_3
+arch dwall_3_4
 x 24
 y 14
 end
