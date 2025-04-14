@@ -5,56 +5,56 @@ width 25
 height 25
 msg
 Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-24 Rick Tanner
+Modified: 2025-04-14 Rick Tanner
 endmsg
 end
-arch small_stones
+arch large_stones
 end
 arch awall_2_2_2
 end
-arch small_stones
+arch large_stones
 y 1
 end
 arch awall_2_1_1
 y 1
 end
-arch small_stones
+arch large_stones
 y 2
 end
 arch awall_2_1_1
 y 2
 end
-arch small_stones
+arch large_stones
 y 3
 end
 arch awall_2_1_1
 y 3
 end
-arch small_stones
+arch large_stones
 y 4
 end
 arch awall_2_1_1
 y 4
 end
-arch small_stones
+arch large_stones
 y 5
 end
 arch awall_2_1_1
 y 5
 end
-arch small_stones
+arch large_stones
 y 6
 end
 arch awall_2_1_1
 y 6
 end
-arch small_stones
+arch large_stones
 y 7
 end
 arch awall_2_1_1
 y 7
 end
-arch small_stones
+arch large_stones
 y 8
 end
 arch awall_2_2_1
@@ -83,32 +83,56 @@ y 15
 end
 arch blocked
 y 16
+end
+arch large_stones
+y 17
 end
 arch awall_2_2_2
 y 17
 end
+arch large_stones
+y 18
+end
 arch awall_2_1_1
 y 18
+end
+arch large_stones
+y 19
 end
 arch awall_2_1_1
 y 19
 end
+arch large_stones
+y 20
+end
 arch awall_2_1_1
 y 20
+end
+arch large_stones
+y 21
 end
 arch awall_2_1_1
 y 21
 end
+arch large_stones
+y 22
+end
 arch awall_2_1_1
 y 22
+end
+arch large_stones
+y 23
 end
 arch awall_2_1_1
 y 23
 end
+arch large_stones
+y 24
+end
 arch awall_2_2_1
 y 24
 end
-arch small_stones
+arch large_stones
 x 1
 end
 arch awall_2_1_2
@@ -142,7 +166,7 @@ arch sea
 x 1
 y 7
 end
-arch small_stones
+arch large_stones
 x 1
 y 8
 end
@@ -181,6 +205,10 @@ end
 arch blocked
 x 1
 y 16
+end
+arch large_stones
+x 1
+y 17
 end
 arch awall_2_1_2
 x 1
@@ -226,11 +254,15 @@ arch chest
 x 1
 y 23
 end
+arch large_stones
+x 1
+y 24
+end
 arch awall_2_1_2
 x 1
 y 24
 end
-arch small_stones
+arch large_stones
 x 2
 end
 arch awall_2_1_2
@@ -276,7 +308,7 @@ arch sea
 x 2
 y 7
 end
-arch small_stones
+arch large_stones
 x 2
 y 8
 end
@@ -315,6 +347,10 @@ end
 arch blocked
 x 2
 y 16
+end
+arch large_stones
+x 2
+y 17
 end
 arch awall_2_1_2
 x 2
@@ -367,11 +403,15 @@ arch chest
 x 2
 y 23
 end
+arch large_stones
+x 2
+y 24
+end
 arch awall_2_1_2
 x 2
 y 24
 end
-arch small_stones
+arch large_stones
 x 3
 end
 arch awall_2_1_2
@@ -405,7 +445,7 @@ arch sea
 x 3
 y 7
 end
-arch small_stones
+arch large_stones
 x 3
 y 8
 end
@@ -413,7 +453,7 @@ arch awall_2_2_3
 x 3
 y 8
 end
-arch small_stones
+arch large_stones
 x 3
 y 9
 end
@@ -449,6 +489,10 @@ arch blocked
 x 3
 y 16
 end
+arch large_stones
+x 3
+y 17
+end
 arch awall_2_1_2
 x 3
 y 17
@@ -477,11 +521,15 @@ arch small_stones
 x 3
 y 23
 end
+arch large_stones
+x 3
+y 24
+end
 arch awall_2_1_2
 x 3
 y 24
 end
-arch small_stones
+arch large_stones
 x 4
 end
 arch awall_2_1_2
@@ -523,7 +571,7 @@ arch sea
 x 4
 y 8
 end
-arch small_stones
+arch large_stones
 x 4
 y 9
 end
@@ -559,21 +607,41 @@ arch blocked
 x 4
 y 16
 end
+arch large_stones
+x 4
+y 17
+end
 arch awall_3_3
 x 4
 y 17
 end
-arch awall_2_1_1
+arch large_stones
 x 4
 y 18
 end
 arch awall_2_1_1
 x 4
+y 18
+end
+arch large_stones
+x 4
 y 19
 end
 arch awall_2_1_1
 x 4
+y 19
+end
+arch large_stones
+x 4
 y 20
+end
+arch awall_2_1_1
+x 4
+y 20
+end
+arch large_stones
+x 4
+y 21
 end
 arch awall_1_2
 x 4
@@ -587,17 +655,21 @@ arch small_stones
 x 4
 y 23
 end
+arch large_stones
+x 4
+y 24
+end
 arch awall_2_1_2
 x 4
 y 24
 end
-arch small_stones
+arch large_stones
 x 5
 end
 arch awall_2_2_3
 x 5
 end
-arch small_stones
+arch large_stones
 x 5
 y 1
 end
@@ -605,7 +677,7 @@ arch awall_2_1_1
 x 5
 y 1
 end
-arch small_stones
+arch large_stones
 x 5
 y 2
 end
@@ -650,7 +722,7 @@ arch sea
 x 5
 y 8
 end
-arch small_stones
+arch large_stones
 x 5
 y 9
 end
@@ -685,6 +757,10 @@ end
 arch blocked
 x 5
 y 16
+end
+arch large_stones
+x 5
+y 17
 end
 arch awall_2_1_2
 x 5
@@ -730,6 +806,10 @@ arch small_stones
 x 5
 y 23
 end
+arch large_stones
+x 5
+y 24
+end
 arch awall_2_1_2
 x 5
 y 24
@@ -741,7 +821,7 @@ arch sea
 x 6
 y 1
 end
-arch small_stones
+arch large_stones
 x 6
 y 2
 end
@@ -773,7 +853,7 @@ arch sea
 x 6
 y 8
 end
-arch small_stones
+arch large_stones
 x 6
 y 9
 end
@@ -808,6 +888,10 @@ end
 arch blocked
 x 6
 y 16
+end
+arch large_stones
+x 6
+y 17
 end
 arch awall_2_1_2
 x 6
@@ -853,6 +937,10 @@ arch small_stones
 x 6
 y 23
 end
+arch large_stones
+x 6
+y 24
+end
 arch awall_2_1_2
 x 6
 y 24
@@ -864,7 +952,7 @@ arch sea
 x 7
 y 1
 end
-arch small_stones
+arch large_stones
 x 7
 y 2
 end
@@ -872,7 +960,7 @@ arch awall_2_2_3
 x 7
 y 2
 end
-arch small_stones
+arch large_stones
 x 7
 y 3
 end
@@ -904,7 +992,7 @@ arch sea
 x 7
 y 8
 end
-arch small_stones
+arch large_stones
 x 7
 y 9
 end
@@ -940,9 +1028,17 @@ arch blocked
 x 7
 y 16
 end
+arch large_stones
+x 7
+y 17
+end
 arch awall_2_2_3
 x 7
 y 17
+end
+arch large_stones
+x 7
+y 18
 end
 arch awall_2_2_1
 x 7
@@ -960,6 +1056,10 @@ arch small_stones
 x 7
 y 21
 end
+arch large_stones
+x 7
+y 22
+end
 arch awall_1_4
 x 7
 y 22
@@ -967,6 +1067,10 @@ end
 arch small_stones
 x 7
 y 23
+end
+arch large_stones
+x 7
+y 24
 end
 arch awall_2_1_2
 x 7
@@ -983,7 +1087,7 @@ arch sea
 x 8
 y 2
 end
-arch small_stones
+arch large_stones
 x 8
 y 3
 end
@@ -991,7 +1095,7 @@ arch awall_2_2_3
 x 8
 y 3
 end
-arch small_stones
+arch large_stones
 x 8
 y 4
 end
@@ -1019,7 +1123,7 @@ arch sea
 x 8
 y 8
 end
-arch small_stones
+arch large_stones
 x 8
 y 9
 end
@@ -1059,21 +1163,41 @@ arch blocked
 x 8
 y 17
 end
+arch large_stones
+x 8
+y 18
+end
 arch awall_2_2_3
 x 8
 y 18
+end
+arch large_stones
+x 8
+y 19
 end
 arch awall_3_2
 x 8
 y 19
 end
-arch awall_2_1_1
+arch large_stones
 x 8
 y 20
 end
 arch awall_2_1_1
 x 8
+y 20
+end
+arch large_stones
+x 8
 y 21
+end
+arch awall_2_1_1
+x 8
+y 21
+end
+arch large_stones
+x 8
+y 22
 end
 arch awall_2_2_4
 x 8
@@ -1082,6 +1206,10 @@ end
 arch small_stones
 x 8
 y 23
+end
+arch large_stones
+x 8
+y 24
 end
 arch awall_2_1_2
 x 8
@@ -1198,6 +1326,10 @@ arch blocked
 x 9
 y 18
 end
+arch large_stones
+x 9
+y 19
+end
 arch awall_2_1_2
 x 9
 y 19
@@ -1217,6 +1349,10 @@ end
 arch small_stones
 x 9
 y 23
+end
+arch large_stones
+x 9
+y 24
 end
 arch awall_2_1_2
 x 9
@@ -1241,7 +1377,7 @@ arch sea
 x 10
 y 4
 end
-arch small_stones
+arch large_stones
 x 10
 y 5
 end
@@ -1249,7 +1385,7 @@ arch awall_2_2_3
 x 10
 y 5
 end
-arch small_stones
+arch large_stones
 x 10
 y 6
 end
@@ -1265,7 +1401,7 @@ arch door_look_2
 x 10
 y 7
 end
-arch small_stones
+arch large_stones
 x 10
 y 8
 end
@@ -1273,7 +1409,7 @@ arch awall_1_1
 x 10
 y 8
 end
-arch small_stones
+arch large_stones
 x 10
 y 9
 end
@@ -1316,26 +1452,50 @@ end
 arch blocked
 x 10
 y 18
+end
+arch large_stones
+x 10
+y 19
 end
 arch awall_2_2_3
 x 10
 y 19
 end
-arch awall_2_1_1
+arch large_stones
 x 10
 y 20
 end
 arch awall_2_1_1
 x 10
+y 20
+end
+arch large_stones
+x 10
 y 21
 end
 arch awall_2_1_1
+x 10
+y 21
+end
+arch large_stones
 x 10
 y 22
 end
 arch awall_2_1_1
 x 10
+y 22
+end
+arch large_stones
+x 10
 y 23
+end
+arch awall_2_1_1
+x 10
+y 23
+end
+arch large_stones
+x 10
+y 24
 end
 arch awall_2_2_4
 x 10
@@ -1515,29 +1675,57 @@ arch blocked
 x 12
 y 17
 end
+arch large_stones
+x 12
+y 18
+end
 arch awall_2_2_2
 x 12
 y 18
 end
-arch awall_2_1_1
+arch large_stones
 x 12
 y 19
 end
 arch awall_2_1_1
 x 12
+y 19
+end
+arch large_stones
+x 12
 y 20
 end
 arch awall_2_1_1
+x 12
+y 20
+end
+arch large_stones
 x 12
 y 21
 end
 arch awall_2_1_1
 x 12
+y 21
+end
+arch large_stones
+x 12
 y 22
 end
 arch awall_2_1_1
 x 12
+y 22
+end
+arch large_stones
+x 12
 y 23
+end
+arch awall_2_1_1
+x 12
+y 23
+end
+arch large_stones
+x 12
+y 24
 end
 arch awall_2_2_1
 x 12
@@ -1615,6 +1803,10 @@ end
 arch blocked
 x 13
 y 17
+end
+arch large_stones
+x 13
+y 18
 end
 arch awall_2_1_2
 x 13
@@ -1655,6 +1847,10 @@ arch small_stones
 x 13
 y 23
 end
+arch large_stones
+x 13
+y 24
+end
 arch awall_2_1_2
 x 13
 y 24
@@ -1670,7 +1866,7 @@ arch sea
 x 14
 y 2
 end
-arch small_stones
+arch large_stones
 x 14
 y 3
 end
@@ -1678,7 +1874,7 @@ arch awall_2_2_2
 x 14
 y 3
 end
-arch small_stones
+arch large_stones
 x 14
 y 4
 end
@@ -1686,7 +1882,7 @@ arch awall_2_1_1
 x 14
 y 4
 end
-arch small_stones
+arch large_stones
 x 14
 y 5
 end
@@ -1694,7 +1890,7 @@ arch awall_2_1_1
 x 14
 y 5
 end
-arch small_stones
+arch large_stones
 x 14
 y 6
 end
@@ -1710,7 +1906,7 @@ arch door_look_2
 x 14
 y 7
 end
-arch small_stones
+arch large_stones
 x 14
 y 8
 end
@@ -1718,7 +1914,7 @@ arch awall_1_1
 x 14
 y 8
 end
-arch small_stones
+arch large_stones
 x 14
 y 9
 end
@@ -1726,7 +1922,7 @@ arch awall_2_1_1
 x 14
 y 9
 end
-arch small_stones
+arch large_stones
 x 14
 y 10
 end
@@ -1762,6 +1958,10 @@ arch blocked
 x 14
 y 17
 end
+arch large_stones
+x 14
+y 18
+end
 arch awall_2_1_2
 x 14
 y 18
@@ -1794,6 +1994,10 @@ arch small_stones
 x 14
 y 23
 end
+arch large_stones
+x 14
+y 24
+end
 arch awall_2_1_2
 x 14
 y 24
@@ -1809,7 +2013,7 @@ arch sea
 x 15
 y 2
 end
-arch small_stones
+arch large_stones
 x 15
 y 3
 end
@@ -1841,7 +2045,7 @@ arch small_stones
 x 15
 y 9
 end
-arch small_stones
+arch large_stones
 x 15
 y 10
 end
@@ -1877,6 +2081,10 @@ arch blocked
 x 15
 y 17
 end
+arch large_stones
+x 15
+y 18
+end
 arch awall_2_1_2
 x 15
 y 18
@@ -1901,6 +2109,10 @@ arch small_stones
 x 15
 y 23
 end
+arch large_stones
+x 15
+y 24
+end
 arch awall_2_1_2
 x 15
 y 24
@@ -1916,7 +2128,7 @@ arch sea
 x 16
 y 2
 end
-arch small_stones
+arch large_stones
 x 16
 y 3
 end
@@ -1972,7 +2184,7 @@ arch ant
 x 16
 y 9
 end
-arch small_stones
+arch large_stones
 x 16
 y 10
 end
@@ -2008,21 +2220,41 @@ arch sea
 x 16
 y 17
 end
+arch large_stones
+x 16
+y 18
+end
 arch awall_3_3
 x 16
 y 18
 end
-arch awall_2_1_1
+arch large_stones
 x 16
 y 19
 end
 arch awall_2_1_1
 x 16
+y 19
+end
+arch large_stones
+x 16
 y 20
 end
 arch awall_2_1_1
 x 16
+y 20
+end
+arch large_stones
+x 16
 y 21
+end
+arch awall_2_1_1
+x 16
+y 21
+end
+arch large_stones
+x 16
+y 22
 end
 arch awall_1_2
 x 16
@@ -2032,6 +2264,10 @@ arch small_stones
 x 16
 y 23
 end
+arch large_stones
+x 16
+y 24
+end
 arch awall_2_1_2
 x 16
 y 24
@@ -2047,7 +2283,7 @@ arch sea
 x 17
 y 2
 end
-arch small_stones
+arch large_stones
 x 17
 y 3
 end
@@ -2103,7 +2339,7 @@ arch ant
 x 17
 y 9
 end
-arch small_stones
+arch large_stones
 x 17
 y 10
 end
@@ -2131,13 +2367,25 @@ arch sea
 x 17
 y 15
 end
+arch large_stones
+x 17
+y 16
+end
 arch awall_1_1
 x 17
 y 16
 end
+arch large_stones
+x 17
+y 17
+end
 arch awall_2_1_1
 x 17
 y 17
+end
+arch large_stones
+x 17
+y 18
 end
 arch awall_2_2_4
 x 17
@@ -2171,6 +2419,10 @@ arch small_stones
 x 17
 y 23
 end
+arch large_stones
+x 17
+y 24
+end
 arch awall_2_1_2
 x 17
 y 24
@@ -2186,7 +2438,7 @@ arch sea
 x 18
 y 2
 end
-arch small_stones
+arch large_stones
 x 18
 y 3
 end
@@ -2242,7 +2494,7 @@ arch ant
 x 18
 y 9
 end
-arch small_stones
+arch large_stones
 x 18
 y 10
 end
@@ -2314,6 +2566,10 @@ arch chest
 x 18
 y 23
 end
+arch large_stones
+x 18
+y 24
+end
 arch awall_2_1_2
 x 18
 y 24
@@ -2329,7 +2585,7 @@ arch sea
 x 19
 y 2
 end
-arch small_stones
+arch large_stones
 x 19
 y 3
 end
@@ -2377,7 +2633,7 @@ arch generate_ant
 x 19
 y 9
 end
-arch small_stones
+arch large_stones
 x 19
 y 10
 end
@@ -2449,6 +2705,10 @@ arch chest
 x 19
 y 23
 end
+arch large_stones
+x 19
+y 24
+end
 arch awall_2_1_2
 x 19
 y 24
@@ -2464,7 +2724,7 @@ arch sea
 x 20
 y 2
 end
-arch small_stones
+arch large_stones
 x 20
 y 3
 end
@@ -2472,7 +2732,7 @@ arch awall_2_2_3
 x 20
 y 3
 end
-arch small_stones
+arch large_stones
 x 20
 y 4
 end
@@ -2480,7 +2740,7 @@ arch awall_2_1_1
 x 20
 y 4
 end
-arch small_stones
+arch large_stones
 x 20
 y 5
 end
@@ -2488,7 +2748,7 @@ arch awall_2_1_1
 x 20
 y 5
 end
-arch small_stones
+arch large_stones
 x 20
 y 6
 end
@@ -2496,7 +2756,7 @@ arch awall_2_1_1
 x 20
 y 6
 end
-arch small_stones
+arch large_stones
 x 20
 y 7
 end
@@ -2505,7 +2765,7 @@ name weak wall
 x 20
 y 7
 end
-arch small_stones
+arch large_stones
 x 20
 y 8
 end
@@ -2513,7 +2773,7 @@ arch awall_2_1_1
 x 20
 y 8
 end
-arch small_stones
+arch large_stones
 x 20
 y 9
 end
@@ -2521,7 +2781,7 @@ arch awall_2_1_1
 x 20
 y 9
 end
-arch small_stones
+arch large_stones
 x 20
 y 10
 end
@@ -2549,13 +2809,25 @@ arch sea
 x 20
 y 15
 end
+arch large_stones
+x 20
+y 16
+end
 arch awall_1_1
 x 20
 y 16
 end
+arch large_stones
+x 20
+y 17
+end
 arch awall_2_1_1
 x 20
 y 17
+end
+arch large_stones
+x 20
+y 18
 end
 arch awall_2_2_1
 x 20
@@ -2589,6 +2861,10 @@ arch small_stones
 x 20
 y 23
 end
+arch large_stones
+x 20
+y 24
+end
 arch awall_2_1_2
 x 20
 y 24
@@ -2664,29 +2940,57 @@ arch sea
 x 21
 y 17
 end
+arch large_stones
+x 21
+y 18
+end
 arch awall_2_2_3
 x 21
 y 18
 end
-arch awall_2_1_1
+arch large_stones
 x 21
 y 19
 end
 arch awall_2_1_1
 x 21
+y 19
+end
+arch large_stones
+x 21
 y 20
 end
 arch awall_2_1_1
+x 21
+y 20
+end
+arch large_stones
 x 21
 y 21
 end
 arch awall_2_1_1
 x 21
+y 21
+end
+arch large_stones
+x 21
 y 22
 end
 arch awall_2_1_1
 x 21
+y 22
+end
+arch large_stones
+x 21
 y 23
+end
+arch awall_2_1_1
+x 21
+y 23
+end
+arch large_stones
+x 21
+y 24
 end
 arch awall_2_2_4
 x 21
