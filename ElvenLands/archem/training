@@ -2711,10 +2711,6 @@ arch cobblestones2
 x 19
 y 5
 end
-arch cobblestones2
-x 19
-y 5
-end
 arch mover_1
 x 19
 y 5
@@ -2726,10 +2722,6 @@ arch cobblestones2
 x 19
 y 6
 end
-arch cobblestones2
-x 19
-y 6
-end
 arch mover_1
 x 19
 y 6
@@ -2741,10 +2733,6 @@ arch cobblestones2
 x 19
 y 7
 end
-arch cobblestones2
-x 19
-y 7
-end
 arch mover_1
 x 19
 y 7
@@ -2756,10 +2744,6 @@ arch cobblestones2
 x 19
 y 8
 end
-arch cobblestones2
-x 19
-y 8
-end
 arch mover_1
 x 19
 y 8
@@ -2771,10 +2755,6 @@ arch cobblestones2
 x 19
 y 9
 end
-arch cobblestones2
-x 19
-y 9
-end
 arch mover_1
 x 19
 y 9
@@ -2786,10 +2766,6 @@ arch cobblestones2
 x 19
 y 10
 end
-arch cobblestones2
-x 19
-y 10
-end
 arch mover_1
 x 19
 y 10
@@ -2801,10 +2777,6 @@ arch cobblestones2
 x 19
 y 11
 end
-arch cobblestones2
-x 19
-y 11
-end
 arch mover_1
 x 19
 y 11
@@ -2816,20 +2788,12 @@ arch cobblestones2
 x 19
 y 12
 end
-arch cobblestones2
-x 19
-y 12
-end
 arch mover_1
 x 19
 y 12
 speed -1.000000
 level 1
 attacktype 1
-end
-arch cobblestones2
-x 19
-y 13
 end
 arch cobblestones2
 x 19
@@ -3018,10 +2982,6 @@ arch cobblestones2
 x 20
 y 13
 end
-arch cobblestones2
-x 20
-y 13
-end
 arch mover_7
 x 20
 y 13
@@ -3092,10 +3052,6 @@ arch cobblestones2
 x 21
 y 3
 end
-arch cobblestones2
-x 21
-y 3
-end
 arch generate_skeleton
 race chicken
 other_arch chicken
@@ -3105,14 +3061,6 @@ y 3
 speed 0.040000
 undead 0
 end
-arch cobblestones2
-x 21
-y 4
-end
-arch cobblestones2
-x 21
-y 4
-end
 arch pstone_1
 x 21
 y 4
@@ -3143,14 +3091,6 @@ arch chicken
 x 21
 y 5
 end
-arch cobblestones2
-x 21
-y 6
-end
-arch cobblestones2
-x 21
-y 6
-end
 arch pstone_1
 x 21
 y 6
@@ -3161,14 +3101,6 @@ y 6
 speed -1.000000
 level 1
 attacktype 1
-end
-arch cobblestones2
-x 21
-y 7
-end
-arch cobblestones2
-x 21
-y 7
 end
 arch pstone_1
 x 21
@@ -3187,14 +3119,6 @@ exp 2147483647
 x 21
 y 7
 end
-arch cobblestones2
-x 21
-y 8
-end
-arch cobblestones2
-x 21
-y 8
-end
 arch pstone_1
 x 21
 y 8
@@ -3205,14 +3129,6 @@ y 8
 speed -1.000000
 level 1
 attacktype 1
-end
-arch cobblestones2
-x 21
-y 9
-end
-arch cobblestones2
-x 21
-y 9
 end
 arch pstone_1
 x 21
@@ -3233,20 +3149,12 @@ arch cobblestones2
 x 21
 y 10
 end
-arch cobblestones2
-x 21
-y 10
-end
 arch mover_5
 x 21
 y 10
 speed -1.000000
 level 1
 attacktype 1
-end
-arch cobblestones2
-x 21
-y 11
 end
 arch cobblestones2
 x 21
@@ -3262,10 +3170,6 @@ end
 arch chicken
 x 21
 y 11
-end
-arch cobblestones2
-x 21
-y 12
 end
 arch cobblestones2
 x 21
@@ -3274,14 +3178,6 @@ end
 arch mover_6
 x 21
 y 12
-end
-arch cobblestones2
-x 21
-y 13
-end
-arch cobblestones2
-x 21
-y 13
 end
 arch cobblestones2
 x 21
