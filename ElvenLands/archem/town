@@ -7,7 +7,7 @@ enter_x 22
 enter_y 9
 msg
 Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-04-13 Rick Tanner
+Modified: 2025-04-14 Rick Tanner
 endmsg
 end
 arch sea
@@ -1684,8 +1684,8 @@ end
 arch guild
 name training
 slaying /ElvenLands/archem/training
-hp 9
-sp 17
+hp 11
+sp 18
 x 12
 y 15
 end
