@@ -5,7 +5,7 @@ width 26
 height 19
 msg
 Created:  1999-11-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-14 kettek
 endmsg
 end
 arch woodfloor
@@ -2695,6 +2695,12 @@ arch grass
 x 22
 end
 arch dirtroad_1_1
+x 22
+end
+arch invis_exit
+slaying yoer_a3
+hp 37
+sp 16
 x 22
 end
 arch grass
