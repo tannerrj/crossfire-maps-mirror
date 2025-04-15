@@ -5,7 +5,7 @@ width 44
 height 32
 msg
 Created:  2001-05-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-14 kettek
 endmsg
 end
 arch cobblestones2
@@ -704,20 +704,6 @@ end
 arch wizard
 name master tester
 msg
-@match hi|hello
-So,you want to join the white circle?
-First,you must prove yourself... As
-you might have heard,the grand high
-mages desire to have the 4 sacred
-stones of the elements. We are
-training wizards to be able to fight
-the monsters who guard the stones.
-They most probally are creatures of
-the elements,so we have devised a
-test. Inside the tower is a room
-filled with elementals. You must slay
-them all. Do you still want to take
-the test?
 @match yes|Yes
 Then I will open the door. Follow me...
 endmsg
@@ -733,14 +719,14 @@ dam 20
 ac 2
 x 4
 y 3
-speed 0.310000
+speed 0.31
 attack_movement 7
 level 22
-type 0
 monster 1
 friendly 1
 see_invisible 1
 can_cast_spell 1
+stand_still 1
 end
 arch blocked
 x 4
@@ -1120,6 +1106,19 @@ end
 arch magic_ear
 msg
 @match test|Test
+So, you want to take the test... The guard clicks an apparatus on hand and a wizard appears before you.
+
+
+The wizard speaks:
+
+
+So, you want to join the white circle?
+
+First, you must prove yourself... As you might have heard, the grand high mages desire to have the 4 sacred stones of the elements. We are training wizards to be able to fight the monsters who guard the stones. They most probably are creatures of the elements, so we have devised a test.
+
+Inside the tower is a room filled with elementals. You must slay them all.
+
+Do you still want to take the test?
 endmsg
 x 6
 y 6
@@ -1128,17 +1127,6 @@ end
 arch cobblestones2
 x 6
 y 6
-end
-arch teleporter
-name 1
-hp 15
-sp 3
-x 6
-y 6
-speed 0.000000
-resist_fire 30
-invisible 1
-connected 1
 end
 arch knight
 msg
@@ -1154,9 +1142,6 @@ highest floor of the tower,only a
 selected few of the strongest wizards
 are allowed to participate in the
 meetings.
-@match test|Test
-So,you want to take the test... Let me
-get the testing master. He'll test you.
 endmsg
 x 6
 y 6
@@ -1561,17 +1546,68 @@ end
 arch cobblestones2
 x 8
 end
-arch cobblestones2
+arch button_small
+x 8
+invisible 1
+connected 3
+end
+arch teleporter
+name 1
+hp 30
+sp 24
+x 8
+speed 0.000000
+resist_fire 30
+invisible 1
+connected 3
+end
+arch creator
+other_arch mover_1
 x 8
 y 1
+connected 2
 end
 arch cobblestones2
+slaying /ElvenLands/Yoer/city/white1
+hp 29
+sp 27
+x 8
+y 1
+type 66
+end
+arch creator
+other_arch mover_1
 x 8
 y 2
+connected 2
 end
 arch cobblestones2
+slaying /ElvenLands/Yoer/city/white1
+hp 29
+sp 27
+x 8
+y 2
+type 66
+end
+arch creator
+other_arch mover_1
 x 8
 y 3
+connected 2
+end
+arch cobblestones2
+slaying /ElvenLands/Yoer/city/white1
+hp 29
+sp 27
+x 8
+y 3
+type 66
+end
+arch creator
+other_arch mover_1
+x 8
+y 4
+connected 2
 end
 arch invis_exit
 slaying white1
@@ -1584,6 +1620,12 @@ arch cobblestones2
 x 8
 y 4
 end
+arch creator
+other_arch mover_1
+x 8
+y 5
+connected 2
+end
 arch cobblestones2
 x 8
 y 5
@@ -1592,6 +1634,12 @@ arch igate_closed_1
 face ldoor1.111
 x 8
 y 5
+connected 2
+end
+arch creator
+other_arch mover_1
+x 8
+y 6
 connected 2
 end
 arch cobblestones2
