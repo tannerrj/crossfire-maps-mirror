@@ -5,7 +5,7 @@ width 34
 height 24
 msg
 Created:  1999-12-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-11 Rick Tanner
+Modified: 2025-04-14 kettek
 endmsg
 reset_group elvenlands_air
 end
@@ -7196,6 +7196,7 @@ walk_on 1
 is_floor 0
 end
 arch ladder_down
+slaying windy
 hp 31
 sp 22
 x 20
@@ -8985,6 +8986,7 @@ x 31
 y 22
 end
 arch ladder_up
+slaying windy
 hp 21
 sp 22
 x 31
