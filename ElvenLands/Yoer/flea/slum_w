@@ -5,7 +5,7 @@ width 25
 height 16
 msg
 Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch dungeon_floor
@@ -562,10 +562,24 @@ arch dungeon_floor
 x 6
 y 6
 end
-arch gargolye
+arch armour_troll2
 name winged troll
+face gargoyle.111
+Str 25
+Con 7
+exp 3500
+dam 14
+wc 5
+ac 2
 x 6
 y 6
+speed 0.25
+resist_fire -30
+move_type walk fly_low
+can_use_shield 1
+can_use_range 1
+can_use_bow 1
+can_use_armour 1
 end
 arch dungeon_floor
 x 6
