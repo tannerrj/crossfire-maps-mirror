@@ -7,7 +7,7 @@ enter_x 14
 enter_y 34
 msg
 Created:  2001-05-13 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-01 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch mountain4
@@ -2362,9 +2362,9 @@ x 14
 y 35
 end
 arch invis_exit
-slaying ../../ElvenLands/Yoer/Yoer
-hp 2
-sp 13
+slaying ../Yoer/yoer_a2
+hp 3
+sp 17
 x 14
 y 35
 end
@@ -2540,9 +2540,9 @@ x 15
 y 35
 end
 arch invis_exit
-slaying ../../ElvenLands/Yoer/Yoer
-hp 2
-sp 13
+slaying ../Yoer/yoer_a2
+hp 3
+sp 17
 x 15
 y 35
 end
