@@ -428,24 +428,23 @@ y 24
 end
 arch Greater_Demon
 name Mega Demon
-Con 100
+Con 90
 Wis 25
-Pow 100
+Pow 90
 hp 20000
 maxhp 20000
 sp 250
 maxsp 250
 exp 1000000
 dam 100
-wc -60
-ac -20
+ac -15
 x 1
 y 24
 level 60
-resist_physical 80
-resist_magic 100
-resist_electricity 100
-resist_cold 100
+resist_physical 70
+resist_magic 60
+resist_electricity 60
+resist_cold 60
 end
 arch dungeon_floor
 x 1
