@@ -5,7 +5,7 @@ width 42
 height 34
 msg
 Created:  2001-05-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-04-14 kettek
+Modified: 2025-04-15 kettek
 endmsg
 outdoor 1
 tile_path_3 yoer_c2
@@ -3569,6 +3569,7 @@ x 24
 y 5
 end
 arch hole
+slaying /!
 msg
 floorstyle stones2
 wallstyle dungeon2
@@ -3579,623 +3580,604 @@ dungeon_level 1
 difficulty 1
 dungeon_depth 4
 orientation 1
-finalmap /ElvenLands/quests/orcshaman
-endmsg
-x 24
-y 6
-end
-arch woods_2
-x 24
-y 7
-end
-arch mountain
-x 24
-y 8
-end
-arch woods_2
-x 24
-y 9
-end
-arch woods_2
-x 24
-y 10
-end
-arch grass
-x 24
-y 11
-end
-arch grass
-x 24
-y 12
-end
-arch grass
-x 24
-y 13
-end
-arch grass
-x 24
-y 14
-end
-arch grass
-x 24
-y 15
-end
-arch grass
-x 24
-y 16
-end
-arch grass
-x 24
-y 17
-end
-arch grass
-x 24
-y 18
-end
-arch grass
-x 24
-y 19
-end
-arch dirtroad_2_1_2
-x 24
-y 19
-end
-arch grass
-x 24
-y 20
-end
-arch grass
-x 24
-y 21
-end
-arch grass
-x 24
-y 22
-end
-arch brush
-x 24
-y 23
-end
-arch brush
-x 24
-y 24
-end
-arch brush
-x 24
-y 25
-end
-arch brush
-x 24
-y 26
-end
-arch brush
-x 24
-y 27
-end
-arch grass
-x 24
-y 28
-end
-arch grass
-x 24
-y 29
-end
-arch grass
-x 24
-y 30
-end
-arch grass
-x 24
-y 31
-end
-arch grass
-x 24
-y 32
-end
-arch grass
-x 24
-y 33
-end
-arch mountain2
-x 25
-end
-arch mountain
-x 25
-y 1
-end
-arch mountain
-x 25
-y 2
-end
-arch dirtroad_2_2_3
-x 25
-y 2
-end
-arch mountain
-x 25
-y 3
-end
-arch dirtroad_2_1_1
-x 25
-y 3
-end
-arch mountain
-x 25
-y 4
-end
-arch dirtroad_2_1_1
-x 25
-y 4
-end
-arch mountain
-x 25
-y 5
-end
-arch dirtroad_2_1_1
-x 25
-y 5
-end
-arch grass
-x 25
-y 6
-end
-arch dirtroad_2_2_1
-x 25
-y 6
-end
-arch brush
-x 25
-y 7
-end
-arch woods_2
-x 25
-y 8
-end
-arch woods_2
-x 25
-y 9
-end
-arch brush
-x 25
-y 10
-end
-arch grass
-x 25
-y 11
-end
-arch grass
-x 25
-y 12
-end
-arch grass
-x 25
-y 13
-end
-arch grass
-x 25
-y 14
-end
-arch grass
-x 25
-y 15
-end
-arch grass
-x 25
-y 16
-end
-arch grass
-x 25
-y 17
-end
-arch grass
-x 25
-y 18
-end
-arch grass
-x 25
-y 19
-end
-arch dirtroad_2_1_2
-x 25
-y 19
-end
-arch grass
-x 25
-y 20
-end
-arch grass
-x 25
-y 21
-end
-arch grass
-x 25
-y 22
-end
-arch grass
-x 25
-y 23
-end
-arch grass
-x 25
-y 24
-end
-arch grass
-x 25
-y 25
-end
-arch grass
-x 25
-y 26
-end
-arch grass
-x 25
-y 27
-end
-arch grass
-x 25
-y 28
-end
-arch grass
-x 25
-y 29
-end
-arch grass
-x 25
-y 30
-end
-arch brush
-x 25
-y 31
-end
-arch grass
-x 25
-y 32
-end
-arch grass
-x 25
-y 33
-end
-arch mountain
-x 26
-end
-arch mountain
-x 26
-y 1
-end
-arch mountain
-x 26
-y 2
-end
-arch mountain
-x 26
-y 3
-end
-arch mountain
-x 26
-y 4
-end
-arch mountain
-x 26
-y 5
-end
-arch brush
-x 26
-y 6
-end
-arch dirtroad_2_2_3
-x 26
-y 6
-end
-arch grass
-x 26
-y 7
-end
-arch dirtroad_2_1_1
-x 26
-y 7
-end
-arch grass
-x 26
-y 8
-end
-arch dirtroad_2_2_1
-x 26
-y 8
-end
-arch brush
-x 26
-y 9
-end
-arch grass
-x 26
-y 10
-end
-arch grass
-x 26
-y 11
-end
-arch grass
-x 26
-y 12
-end
-arch grass
-x 26
-y 13
-end
-arch grass
-x 26
-y 14
-end
-arch grass
-x 26
-y 15
-end
-arch grass
-x 26
-y 16
-end
-arch grass
-x 26
-y 17
-end
-arch grass
-x 26
-y 18
-end
-arch grass
-x 26
-y 19
-end
-arch dirtroad_2_1_2
-x 26
-y 19
-end
-arch grass
-x 26
-y 20
-end
-arch grass
-x 26
-y 21
-end
-arch grass
-x 26
-y 22
-end
-arch grass
-x 26
-y 23
-end
-arch grass
-x 26
-y 24
-end
-arch grass
-x 26
-y 25
-end
-arch grass
-x 26
-y 26
-end
-arch grass
-x 26
-y 27
-end
-arch grass
-x 26
-y 28
-end
-arch grass
-x 26
-y 29
-end
-arch grass
-x 26
-y 30
-end
-arch grass
-x 26
-y 31
-end
-arch grass
-x 26
-y 32
-end
-arch grass
-x 26
-y 33
-end
-arch mountain
-x 27
-end
-arch mountain
-x 27
-y 1
-end
-arch mountain
-x 27
-y 2
-end
-arch mountain2
-x 27
-y 3
-end
-arch mountain
-x 27
-y 4
-end
-arch mountain
-x 27
-y 5
-end
-arch mountain
-x 27
-y 6
-end
-arch woods_2
-x 27
-y 7
-end
-arch grass
-x 27
-y 8
-end
-arch dirtroad_2_1_2
-x 27
-y 8
-end
-arch grass
-x 27
-y 9
-end
-arch grass
-x 27
-y 10
-end
-arch grass
-x 27
-y 11
-end
-arch grass
-x 27
-y 12
-end
-arch grass
-x 27
-y 13
-end
-arch grass
-x 27
-y 14
-end
-arch grass
-x 27
-y 15
-end
-arch grass
-x 27
-y 16
-end
-arch grass
-x 27
-y 17
-end
-arch grass
-x 27
-y 18
-end
-arch grass
-x 27
-y 19
-end
-arch dirtroad_2_1_2
-x 27
-y 19
-end
-arch grass
-x 27
-y 20
-end
-arch grass
-x 27
-y 21
-end
-arch grass
-x 27
-y 22
-end
-arch grass
-x 27
-y 23
-end
-arch grass
-x 27
-y 24
-end
-arch grass
-x 27
-y 25
-end
-arch grass
-x 27
-y 26
-end
-arch grass
-x 27
-y 27
-end
-arch grass
-x 27
-y 28
-end
-arch grass
-x 27
-y 29
-end
-arch grass
-x 27
-y 30
-end
-arch grass
-x 27
-y 31
-end
-arch grass
-x 27
-y 32
-end
-arch grass
-x 27
-y 33
-end
-arch mountain
-x 28
-end
-arch mountain
-x 28
-y 1
-end
-arch mountain
-x 28
-y 2
-end
-arch mountain
-x 28
-y 3
-end
-arch mountain
-x 28
-y 4
-end
-arch mountain
-x 28
-y 5
-end
-arch mountain
-x 28
-y 6
-end
-arch mountain
-x 28
-y 7
-end
-arch phole_1
-name hole
-slaying /!
-msg
-layoutstyle maze
-floorstyle stones2
-wallstyle dungeon2
-exitstyle sstair
-decorstyle goblinjunk
-monsterstyle humanoid
-dungeon_level 1
-difficulty 1
-dungeon_depth 5
-orientation 1
 final_map /ElvenLands/quests/orcshaman
 endmsg
+x 24
+y 6
+end
+arch woods_2
+x 24
+y 7
+end
+arch mountain
+x 24
+y 8
+end
+arch woods_2
+x 24
+y 9
+end
+arch woods_2
+x 24
+y 10
+end
+arch grass
+x 24
+y 11
+end
+arch grass
+x 24
+y 12
+end
+arch grass
+x 24
+y 13
+end
+arch grass
+x 24
+y 14
+end
+arch grass
+x 24
+y 15
+end
+arch grass
+x 24
+y 16
+end
+arch grass
+x 24
+y 17
+end
+arch grass
+x 24
+y 18
+end
+arch grass
+x 24
+y 19
+end
+arch dirtroad_2_1_2
+x 24
+y 19
+end
+arch grass
+x 24
+y 20
+end
+arch grass
+x 24
+y 21
+end
+arch grass
+x 24
+y 22
+end
+arch brush
+x 24
+y 23
+end
+arch brush
+x 24
+y 24
+end
+arch brush
+x 24
+y 25
+end
+arch brush
+x 24
+y 26
+end
+arch brush
+x 24
+y 27
+end
+arch grass
+x 24
+y 28
+end
+arch grass
+x 24
+y 29
+end
+arch grass
+x 24
+y 30
+end
+arch grass
+x 24
+y 31
+end
+arch grass
+x 24
+y 32
+end
+arch grass
+x 24
+y 33
+end
+arch mountain2
+x 25
+end
+arch mountain
+x 25
+y 1
+end
+arch mountain
+x 25
+y 2
+end
+arch dirtroad_2_2_3
+x 25
+y 2
+end
+arch mountain
+x 25
+y 3
+end
+arch dirtroad_2_1_1
+x 25
+y 3
+end
+arch mountain
+x 25
+y 4
+end
+arch dirtroad_2_1_1
+x 25
+y 4
+end
+arch mountain
+x 25
+y 5
+end
+arch dirtroad_2_1_1
+x 25
+y 5
+end
+arch grass
+x 25
+y 6
+end
+arch dirtroad_2_2_1
+x 25
+y 6
+end
+arch brush
+x 25
+y 7
+end
+arch woods_2
+x 25
+y 8
+end
+arch woods_2
+x 25
+y 9
+end
+arch brush
+x 25
+y 10
+end
+arch grass
+x 25
+y 11
+end
+arch grass
+x 25
+y 12
+end
+arch grass
+x 25
+y 13
+end
+arch grass
+x 25
+y 14
+end
+arch grass
+x 25
+y 15
+end
+arch grass
+x 25
+y 16
+end
+arch grass
+x 25
+y 17
+end
+arch grass
+x 25
+y 18
+end
+arch grass
+x 25
+y 19
+end
+arch dirtroad_2_1_2
+x 25
+y 19
+end
+arch grass
+x 25
+y 20
+end
+arch grass
+x 25
+y 21
+end
+arch grass
+x 25
+y 22
+end
+arch grass
+x 25
+y 23
+end
+arch grass
+x 25
+y 24
+end
+arch grass
+x 25
+y 25
+end
+arch grass
+x 25
+y 26
+end
+arch grass
+x 25
+y 27
+end
+arch grass
+x 25
+y 28
+end
+arch grass
+x 25
+y 29
+end
+arch grass
+x 25
+y 30
+end
+arch brush
+x 25
+y 31
+end
+arch grass
+x 25
+y 32
+end
+arch grass
+x 25
+y 33
+end
+arch mountain
+x 26
+end
+arch mountain
+x 26
+y 1
+end
+arch mountain
+x 26
+y 2
+end
+arch mountain
+x 26
+y 3
+end
+arch mountain
+x 26
+y 4
+end
+arch mountain
+x 26
+y 5
+end
+arch brush
+x 26
+y 6
+end
+arch dirtroad_2_2_3
+x 26
+y 6
+end
+arch grass
+x 26
+y 7
+end
+arch dirtroad_2_1_1
+x 26
+y 7
+end
+arch grass
+x 26
+y 8
+end
+arch dirtroad_2_2_1
+x 26
+y 8
+end
+arch brush
+x 26
+y 9
+end
+arch grass
+x 26
+y 10
+end
+arch grass
+x 26
+y 11
+end
+arch grass
+x 26
+y 12
+end
+arch grass
+x 26
+y 13
+end
+arch grass
+x 26
+y 14
+end
+arch grass
+x 26
+y 15
+end
+arch grass
+x 26
+y 16
+end
+arch grass
+x 26
+y 17
+end
+arch grass
+x 26
+y 18
+end
+arch grass
+x 26
+y 19
+end
+arch dirtroad_2_1_2
+x 26
+y 19
+end
+arch grass
+x 26
+y 20
+end
+arch grass
+x 26
+y 21
+end
+arch grass
+x 26
+y 22
+end
+arch grass
+x 26
+y 23
+end
+arch grass
+x 26
+y 24
+end
+arch grass
+x 26
+y 25
+end
+arch grass
+x 26
+y 26
+end
+arch grass
+x 26
+y 27
+end
+arch grass
+x 26
+y 28
+end
+arch grass
+x 26
+y 29
+end
+arch grass
+x 26
+y 30
+end
+arch grass
+x 26
+y 31
+end
+arch grass
+x 26
+y 32
+end
+arch grass
+x 26
+y 33
+end
+arch mountain
+x 27
+end
+arch mountain
+x 27
+y 1
+end
+arch mountain
+x 27
+y 2
+end
+arch mountain2
+x 27
+y 3
+end
+arch mountain
+x 27
+y 4
+end
+arch mountain
+x 27
+y 5
+end
+arch mountain
+x 27
+y 6
+end
+arch woods_2
+x 27
+y 7
+end
+arch grass
+x 27
+y 8
+end
+arch dirtroad_2_1_2
+x 27
+y 8
+end
+arch grass
+x 27
+y 9
+end
+arch grass
+x 27
+y 10
+end
+arch grass
+x 27
+y 11
+end
+arch grass
+x 27
+y 12
+end
+arch grass
+x 27
+y 13
+end
+arch grass
+x 27
+y 14
+end
+arch grass
+x 27
+y 15
+end
+arch grass
+x 27
+y 16
+end
+arch grass
+x 27
+y 17
+end
+arch grass
+x 27
+y 18
+end
+arch grass
+x 27
+y 19
+end
+arch dirtroad_2_1_2
+x 27
+y 19
+end
+arch grass
+x 27
+y 20
+end
+arch grass
+x 27
+y 21
+end
+arch grass
+x 27
+y 22
+end
+arch grass
+x 27
+y 23
+end
+arch grass
+x 27
+y 24
+end
+arch grass
+x 27
+y 25
+end
+arch grass
+x 27
+y 26
+end
+arch grass
+x 27
+y 27
+end
+arch grass
+x 27
+y 28
+end
+arch grass
+x 27
+y 29
+end
+arch grass
+x 27
+y 30
+end
+arch grass
+x 27
+y 31
+end
+arch grass
+x 27
+y 32
+end
+arch grass
+x 27
+y 33
+end
+arch mountain
+x 28
+end
+arch mountain
+x 28
+y 1
+end
+arch mountain
+x 28
+y 2
+end
+arch mountain
+x 28
+y 3
+end
+arch mountain
+x 28
+y 4
+end
+arch mountain
+x 28
+y 5
+end
+arch mountain
+x 28
+y 6
+end
+arch mountain
 x 28
 y 7
 end
