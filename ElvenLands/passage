@@ -7,7 +7,7 @@ width 100
 height 100
 msg
 Created:  1999-11-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-14 kettek
 endmsg
 end
 arch medium_stones
@@ -5742,13 +5742,6 @@ arch medium_stones
 x 9
 y 29
 end
-arch ladder_up
-slaying passage
-hp 59
-sp 87
-x 9
-y 29
-end
 arch magic_mouth
 msg
 Oh,my! It looks like you've stumbled
@@ -5756,6 +5749,13 @@ into a dragon lair. The heat is
 unbearable! Uh,oh. These hordes of
 dragons seem hungry.
 endmsg
+x 9
+y 29
+end
+arch ladder_up
+slaying passage
+hp 59
+sp 87
 x 9
 y 29
 end
@@ -36719,19 +36719,19 @@ arch medium_stones
 x 59
 y 87
 end
-arch chole_1
-slaying passage
-hp 9
-sp 29
-x 59
-y 87
-end
 arch magic_mouth
 msg
 An unbearable heat is radiating out of
 this hole. What could be causing this
 hellish heat?
 endmsg
+x 59
+y 87
+end
+arch chole_1
+slaying passage
+hp 9
+sp 29
 x 59
 y 87
 end
@@ -47450,8 +47450,8 @@ end
 arch mine3
 x 77
 y 10
-no_pass 0
-pass_thru 1
+move_type walk
+move_block 0
 end
 arch medium_stones
 x 77
