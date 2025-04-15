@@ -5,7 +5,7 @@ width 27
 height 27
 msg
 Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch marble
@@ -1313,8 +1313,7 @@ arch flagstone_2_1_1
 name false wall
 x 9
 y 13
-no_pass 0
-pass_thru 1
+move_block 0
 end
 arch flagstone
 x 9
