@@ -31,36 +31,19 @@ end
 arch dwall_2_2_1
 y 3
 end
-arch blocked
+arch grass
 y 4
 end
-arch blocked
+arch grass
 y 5
 end
-arch pit_closed
-hp 10
-sp 7
+arch grass
 y 6
-resist_cold 30
-resist_confusion 30
-resist_acid 30
-connected 112
 end
-arch card
-name membership to Guild of Heroes
-slaying HeroGuild
-msg
-This is certified that the one who
-carries this card is an official member
-of the Guild of Heroes.
-endmsg
-y 6
-type 21
-end
-arch blocked
+arch grass
 y 7
 end
-arch blocked
+arch grass
 y 8
 end
 arch flagstone
@@ -3533,15 +3516,15 @@ arch woodfloor
 x 32
 y 4
 end
-arch woodfloor
+arch blocked
 x 32
 y 5
 end
-arch woodfloor
+arch blocked
 x 32
 y 6
 end
-arch woodfloor
+arch blocked
 x 32
 y 7
 end
@@ -3615,23 +3598,41 @@ arch woodfloor
 x 33
 y 3
 end
-arch woodfloor
+arch blocked
 x 33
 y 4
 end
-arch woodfloor
+arch blocked
 x 33
 y 5
 end
-arch woodfloor
+arch pit_closed
+hp 10
+sp 7
 x 33
 y 6
+resist_cold 30
+resist_confusion 30
+resist_acid 30
+connected 112
 end
-arch woodfloor
+arch card
+name membership to Guild of Heroes
+slaying HeroGuild
+msg
+This is certified that the one who
+carries this card is an official member
+of the Guild of Heroes.
+endmsg
+x 33
+y 6
+type 21
+end
+arch blocked
 x 33
 y 7
 end
-arch woodfloor
+arch blocked
 x 33
 y 8
 end
