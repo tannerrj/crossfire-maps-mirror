@@ -1916,6 +1916,7 @@ resist_physical 30
 resist_magic 30
 resist_electricity 30
 connected 11
+activate_on_release 0
 end
 arch random_talisman
 x 19
@@ -2174,12 +2175,8 @@ end
 arch grate_closed_1
 x 21
 y 13
-resist_physical 30
-resist_fire 30
-resist_electricity 30
-resist_confusion 30
-resist_ghosthit 30
 connected 557
+activate_on_release 0
 end
 arch random_scroll
 x 21
@@ -2479,6 +2476,7 @@ resist_drain 30
 resist_weaponmagic 30
 resist_ghosthit 30
 connected 989
+activate_on_release 0
 end
 arch flagstone
 x 23
@@ -2750,6 +2748,7 @@ resist_electricity 30
 resist_acid 30
 resist_weaponmagic 30
 connected 333
+activate_on_release 0
 end
 arch flagstone
 x 25
@@ -3004,6 +3003,7 @@ resist_magic 30
 resist_confusion 30
 resist_ghosthit 30
 connected 547
+activate_on_release 0
 end
 arch flagstone
 x 27
@@ -3235,6 +3235,7 @@ arch grate_closed_1
 x 29
 y 13
 connected 663
+activate_on_release 0
 end
 arch flagstone
 x 29
