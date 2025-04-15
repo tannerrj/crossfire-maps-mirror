@@ -5,7 +5,7 @@ width 27
 height 27
 msg
 Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch medium_stones
@@ -265,10 +265,8 @@ y 10
 end
 arch troll
 name Avatar of Gnarg
-Dex 23
-Con 15
-hp 10000
-maxhp 10000
+hp 6000
+maxhp 6000
 exp 15000
 dam 30
 wc -10
@@ -2109,9 +2107,7 @@ y 22
 end
 arch magic_mouth
 msg
-You look and see the stupidity of the
-Trolls,in following there god,Gnarg.
- Maybe you should talk to that priest!
+You see in the distance a zealot of Gnarg... maybe he knows more of Uggilly.
 endmsg
 x 14
 y 22
@@ -3366,10 +3362,8 @@ y 10
 end
 arch troll
 name Avatar of Gnarg
-Dex 23
-Con 18
-hp 10000
-maxhp 10000
+hp 6000
+maxhp 6000
 exp 15000
 dam 30
 wc -10
