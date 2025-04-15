@@ -5,7 +5,7 @@ width 30
 height 27
 msg
 Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch marble
@@ -1508,27 +1508,7 @@ arch flagstone_2_1_2
 x 11
 y 4
 end
-arch flagstone
-x 11
-y 5
-end
-arch altar_gnarg
-x 11
-y 5
-end
-arch magic_ear
-msg
-@match open
-Click.
-endmsg
-x 11
-y 5
-connected 1
-end
-arch magic_mouth
-msg
-say "open"
-endmsg
+arch marble
 x 11
 y 5
 end
@@ -1731,13 +1711,16 @@ y 8
 end
 arch gaelotroll
 name Uggilly
-hp 500
+hp 5000
+maxhp 10000
 sp 50
 maxsp 50
-wc 3
-ac 1
+dam 45
+wc -3
+ac -3
 x 12
 y 8
+speed -0.4
 carrying 4
 can_cast_spell 1
 arch heart
@@ -1954,7 +1937,30 @@ arch marble
 x 13
 y 13
 end
-arch marble
+arch flagstone
+x 13
+y 14
+end
+arch magic_ear
+msg
+@match Uggilly|uggilly|ug|Ug
+You smell the presence of Uggilly.
+endmsg
+x 13
+y 14
+connected 1
+end
+arch magic_mouth
+msg
+Speak the name given to me and I shall be summoned.
+endmsg
+x 13
+y 14
+end
+arch altar_gnarg
+msg
+Etched in the altar are the words, "Speak my name and I will greet you."
+endmsg
 x 13
 y 14
 end
