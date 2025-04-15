@@ -153,6 +153,7 @@ carrying 100
 unaggressive 1
 arch key2
 name key to Uggilly's hideout
+name_pl keys to Uggilly's hideout
 slaying Ug
 end
 end
@@ -332,6 +333,13 @@ arch dungeon_floor
 x 3
 y 8
 end
+arch check_inv
+race key2
+slaying Ug
+x 3
+y 8
+connected 1
+end
 arch dungeon_floor
 x 3
 y 9
@@ -421,6 +429,14 @@ end
 arch dungeon_floor
 x 4
 y 8
+end
+arch magic_mouth
+msg
+With this key I should be able to investigate that dilapidated temple of Gnarg to the north!
+endmsg
+x 4
+y 8
+connected 1
 end
 arch dwall_2_1_1
 x 4
@@ -565,6 +581,7 @@ end
 arch armour_troll2
 name winged troll
 face gargoyle.111
+animation gargoyle
 Str 25
 Con 7
 exp 3500
