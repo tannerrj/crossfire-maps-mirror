@@ -5,7 +5,7 @@ width 31
 height 31
 msg
 Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch sea
@@ -631,7 +631,7 @@ end
 arch jcity_2_2_2
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
-hp 10
+hp 22
 sp 1
 x 5
 y 4
@@ -643,8 +643,8 @@ end
 arch jcity_3_2
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
-hp 9
-sp 40
+hp 15
+sp 42
 x 5
 y 5
 end
@@ -655,8 +655,8 @@ end
 arch jcity_2_2_1
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
-hp 9
-sp 40
+hp 15
+sp 42
 x 5
 y 6
 end
@@ -811,7 +811,7 @@ arch jcity_2_2_3
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
 hp 23
-sp 2
+sp 1
 x 6
 y 4
 end
@@ -822,8 +822,8 @@ end
 arch jcity_3_4
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
-hp 10
-sp 40
+hp 15
+sp 42
 x 6
 y 5
 end
@@ -834,8 +834,8 @@ end
 arch jcity_2_2_4
 name City of Erthos
 slaying /ElvenLands/Erthos/city/city
-hp 10
-sp 40
+hp 15
+sp 42
 x 6
 y 6
 end
@@ -3136,6 +3136,9 @@ y 6
 end
 arch tower_tob
 name tower of Mygol
+slaying Mygol0
+hp 7
+sp 14
 x 21
 y 6
 end

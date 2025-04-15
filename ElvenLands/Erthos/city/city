@@ -5,7 +5,7 @@ width 61
 height 44
 msg
 Created:  2001-07-06 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch sea
@@ -3749,6 +3749,9 @@ x 15
 y 43
 end
 arch guard_house_4
+slaying ../erthos
+hp 5
+sp 6
 x 15
 y 43
 end
@@ -4010,6 +4013,9 @@ x 16
 y 43
 end
 arch guard_house_4
+slaying ../erthos
+hp 5
+sp 6
 x 16
 y 43
 end
@@ -5380,6 +5386,9 @@ arch flagstone
 x 22
 end
 arch guard_house_3
+slaying ../erthos
+hp 5
+sp 4
 x 22
 end
 arch flagstone
@@ -5576,6 +5585,9 @@ arch flagstone
 x 23
 end
 arch guard_house_3
+slaying ../erthos
+hp 5
+sp 4
 x 23
 end
 arch flagstone

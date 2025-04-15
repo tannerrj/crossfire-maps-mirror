@@ -5,7 +5,7 @@ width 16
 height 16
 msg
 Created:  2001-06-29 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch blocked
@@ -780,6 +780,9 @@ x 7
 y 8
 end
 arch stair_3_down
+slaying Mygol1
+hp 7
+sp 7
 x 7
 y 8
 end

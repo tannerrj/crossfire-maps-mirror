@@ -5,7 +5,7 @@ width 16
 height 16
 msg
 Created:  2001-06-28 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch blocked
@@ -642,14 +642,11 @@ x 7
 y 7
 end
 arch stair2_up
+slaying Mygol1
 x 7
 y 7
 end
 arch dungeon_floor
-x 7
-y 8
-end
-arch stair2_down
 x 7
 y 8
 end
@@ -695,6 +692,13 @@ x 7
 y 14
 end
 arch dungeon_floor
+x 7
+y 15
+end
+arch invis_exit
+slaying erthos
+hp 21
+sp 6
 x 7
 y 15
 end
