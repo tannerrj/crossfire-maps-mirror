@@ -926,7 +926,7 @@ I didn't like that Uggilly at all
 endmsg
 x 11
 y 4
-sleep 1
+random_movement 0
 end
 arch dirtfloor
 x 11
@@ -1021,19 +1021,16 @@ It is "dragon"
 endmsg
 x 12
 y 3
+unaggressive 1
+sleep 0
 end
 arch dirtfloor
 x 12
 y 4
 end
-arch fireball
-name flames
+arch campfire
 x 12
 y 4
-speed -0.300000
-type 88
-flying 0
-lifesave 1
 end
 arch dirtfloor
 x 12
@@ -1060,10 +1057,9 @@ face swashbuckl.111
 hp 100
 x 12
 y 5
-type 0
 randomitems none
 monster 1
-friendly 1
+unaggressive 1
 end
 arch dungeon_floor
 x 12
@@ -1170,6 +1166,7 @@ temple of gnarg near the dark passage.
 endmsg
 x 13
 y 4
+unaggressive 1
 end
 arch dirtfloor
 x 13
