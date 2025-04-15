@@ -5,7 +5,7 @@ width 42
 height 34
 msg
 Created:  2001-05-17 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-14 kettek
 endmsg
 outdoor 1
 tile_path_3 yoer_c2
@@ -4177,6 +4177,25 @@ x 28
 y 6
 end
 arch mountain
+x 28
+y 7
+end
+arch phole_1
+name hole
+slaying /!
+msg
+layoutstyle maze
+floorstyle stones2
+wallstyle dungeon2
+exitstyle sstair
+decorstyle goblinjunk
+monsterstyle humanoid
+dungeon_level 1
+difficulty 1
+dungeon_depth 5
+orientation 1
+final_map /ElvenLands/quests/orcshaman
+endmsg
 x 28
 y 7
 end
