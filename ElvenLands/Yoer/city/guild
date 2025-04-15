@@ -6,7 +6,7 @@ width 34
 height 16
 msg
 Created:  1999-12-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch flagstone
@@ -38,7 +38,7 @@ arch blocked
 y 5
 end
 arch pit_closed
-hp 12
+hp 10
 sp 7
 y 6
 resist_cold 30
