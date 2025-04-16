@@ -18,7 +18,13 @@ end
 arch pstone_2
 y 2
 end
+arch mover_1
+y 2
+end
 arch pstone_2
+y 3
+end
+arch mover_1
 y 3
 end
 arch sea1
@@ -61,7 +67,13 @@ end
 arch pstone_2
 y 9
 end
+arch mover_5
+y 9
+end
 arch pstone_2
+y 10
+end
+arch mover_5
 y 10
 end
 arch pstone_2
@@ -91,7 +103,13 @@ end
 arch pstone_2
 y 17
 end
+arch mover_1
+y 17
+end
 arch pstone_2
+y 18
+end
+arch mover_1
 y 18
 end
 arch sea1
@@ -134,7 +152,13 @@ end
 arch pstone_2
 y 24
 end
+arch mover_5
+y 24
+end
 arch pstone_2
+y 25
+end
+arch mover_5
 y 25
 end
 arch pstone_2
@@ -163,6 +187,10 @@ arch pstone_2
 x 1
 y 2
 end
+arch mover_8
+x 1
+y 2
+end
 arch sea1
 x 1
 y 3
@@ -234,6 +262,10 @@ arch pstone_2
 x 1
 y 10
 end
+arch mover_6
+x 1
+y 10
+end
 arch pstone_2
 x 1
 y 11
@@ -259,6 +291,10 @@ x 1
 y 16
 end
 arch pstone_2
+x 1
+y 17
+end
+arch mover_8
 x 1
 y 17
 end
@@ -330,6 +366,10 @@ level 1
 attacktype 1
 end
 arch pstone_2
+x 1
+y 25
+end
+arch mover_6
 x 1
 y 25
 end
@@ -352,7 +392,14 @@ end
 arch pstone_2
 x 2
 end
+arch mover_7
+x 2
+end
 arch pstone_2
+x 2
+y 1
+end
+arch mover_8
 x 2
 y 1
 end
@@ -447,7 +494,15 @@ arch pstone_2
 x 2
 y 11
 end
+arch mover_6
+x 2
+y 11
+end
 arch pstone_2
+x 2
+y 12
+end
+arch mover_7
 x 2
 y 12
 end
@@ -463,7 +518,15 @@ arch pstone_2
 x 2
 y 15
 end
+arch mover_7
+x 2
+y 15
+end
 arch pstone_2
+x 2
+y 16
+end
+arch mover_8
 x 2
 y 16
 end
@@ -558,7 +621,15 @@ arch pstone_2
 x 2
 y 26
 end
+arch mover_6
+x 2
+y 26
+end
 arch pstone_2
+x 2
+y 27
+end
+arch mover_7
 x 2
 y 27
 end
@@ -573,6 +644,9 @@ end
 arch pstone_2
 x 3
 end
+arch mover_7
+x 3
+end
 arch sea1
 x 3
 y 1
@@ -685,6 +759,10 @@ arch pstone_2
 x 3
 y 12
 end
+arch mover_7
+x 3
+y 12
+end
 arch blocked
 x 3
 y 13
@@ -694,6 +772,10 @@ x 3
 y 14
 end
 arch pstone_2
+x 3
+y 15
+end
+arch mover_7
 x 3
 y 15
 end
@@ -806,6 +888,10 @@ level 1
 attacktype 1
 end
 arch pstone_2
+x 3
+y 27
+end
+arch mover_7
 x 3
 y 27
 end
@@ -2182,6 +2268,9 @@ end
 arch pstone_2
 x 9
 end
+arch mover_3
+x 9
+end
 arch sea1
 x 9
 y 1
@@ -2296,6 +2385,10 @@ arch pstone_2
 x 9
 y 12
 end
+arch mover_3
+x 9
+y 12
+end
 arch blocked
 x 9
 y 13
@@ -2305,6 +2398,10 @@ x 9
 y 14
 end
 arch pstone_2
+x 9
+y 15
+end
+arch mover_3
 x 9
 y 15
 end
@@ -2422,6 +2519,10 @@ arch pstone_2
 x 9
 y 27
 end
+arch mover_3
+x 9
+y 27
+end
 arch blocked
 x 9
 y 28
@@ -2433,7 +2534,14 @@ end
 arch pstone_2
 x 10
 end
+arch mover_3
+x 10
+end
 arch pstone_2
+x 10
+y 1
+end
+arch mover_2
 x 10
 y 1
 end
@@ -2531,7 +2639,15 @@ arch pstone_2
 x 10
 y 11
 end
+arch mover_4
+x 10
+y 11
+end
 arch pstone_2
+x 10
+y 12
+end
+arch mover_3
 x 10
 y 12
 end
@@ -2547,7 +2663,15 @@ arch pstone_2
 x 10
 y 15
 end
+arch mover_3
+x 10
+y 15
+end
 arch pstone_2
+x 10
+y 16
+end
+arch mover_2
 x 10
 y 16
 end
@@ -2645,7 +2769,15 @@ arch pstone_2
 x 10
 y 26
 end
+arch mover_4
+x 10
+y 26
+end
 arch pstone_2
+x 10
+y 27
+end
+arch mover_3
 x 10
 y 27
 end
@@ -2671,6 +2803,10 @@ arch pstone_2
 x 11
 y 2
 end
+arch mover_2
+x 11
+y 2
+end
 arch sea1
 x 11
 y 3
@@ -2745,6 +2881,10 @@ arch pstone_2
 x 11
 y 10
 end
+arch mover_4
+x 11
+y 10
+end
 arch pstone_2
 x 11
 y 11
@@ -2778,6 +2918,10 @@ x 11
 y 16
 end
 arch pstone_2
+x 11
+y 17
+end
+arch mover_2
 x 11
 y 17
 end
@@ -2855,6 +2999,10 @@ arch pstone_2
 x 11
 y 25
 end
+arch mover_4
+x 11
+y 25
+end
 arch pstone_2
 x 11
 y 26
@@ -2886,7 +3034,15 @@ arch pstone_2
 x 12
 y 2
 end
+arch mover_1
+x 12
+y 2
+end
 arch pstone_2
+x 12
+y 3
+end
+arch mover_1
 x 12
 y 3
 end
@@ -2944,7 +3100,15 @@ arch pstone_2
 x 12
 y 9
 end
+arch mover_5
+x 12
+y 9
+end
 arch pstone_2
+x 12
+y 10
+end
+arch mover_5
 x 12
 y 10
 end
@@ -2976,7 +3140,15 @@ arch pstone_2
 x 12
 y 17
 end
+arch mover_1
+x 12
+y 17
+end
 arch pstone_2
+x 12
+y 18
+end
+arch mover_1
 x 12
 y 18
 end
@@ -3306,7 +3478,15 @@ arch pstone_2
 x 15
 y 2
 end
+arch mover_1
+x 15
+y 2
+end
 arch pstone_2
+x 15
+y 3
+end
+arch mover_1
 x 15
 y 3
 end
@@ -3361,7 +3541,15 @@ arch pstone_2
 x 15
 y 9
 end
+arch mover_5
+x 15
+y 9
+end
 arch pstone_2
+x 15
+y 10
+end
+arch mover_5
 x 15
 y 10
 end
@@ -3401,7 +3589,15 @@ arch pstone_2
 x 15
 y 17
 end
+arch mover_1
+x 15
+y 17
+end
 arch pstone_2
+x 15
+y 18
+end
+arch mover_1
 x 15
 y 18
 end
@@ -3456,7 +3652,15 @@ arch pstone_2
 x 15
 y 24
 end
+arch mover_5
+x 15
+y 24
+end
 arch pstone_2
+x 15
+y 25
+end
+arch mover_5
 x 15
 y 25
 end
@@ -3491,6 +3695,10 @@ arch pstone_2
 x 16
 y 2
 end
+arch mover_8
+x 16
+y 2
+end
 arch sea1
 x 16
 y 3
@@ -3562,6 +3770,10 @@ arch pstone_2
 x 16
 y 10
 end
+arch mover_6
+x 16
+y 10
+end
 arch pstone_2
 x 16
 y 11
@@ -3587,6 +3799,10 @@ x 16
 y 16
 end
 arch pstone_2
+x 16
+y 17
+end
+arch mover_8
 x 16
 y 17
 end
@@ -3658,6 +3874,10 @@ level 1
 attacktype 1
 end
 arch pstone_2
+x 16
+y 25
+end
+arch mover_6
 x 16
 y 25
 end
@@ -3680,7 +3900,14 @@ end
 arch pstone_2
 x 17
 end
+arch mover_7
+x 17
+end
 arch pstone_2
+x 17
+y 1
+end
+arch mover_8
 x 17
 y 1
 end
@@ -3775,7 +4002,15 @@ arch pstone_2
 x 17
 y 11
 end
+arch mover_6
+x 17
+y 11
+end
 arch pstone_2
+x 17
+y 12
+end
+arch mover_7
 x 17
 y 12
 end
@@ -3791,7 +4026,15 @@ arch pstone_2
 x 17
 y 15
 end
+arch mover_7
+x 17
+y 15
+end
 arch pstone_2
+x 17
+y 16
+end
+arch mover_8
 x 17
 y 16
 end
@@ -3886,7 +4129,15 @@ arch pstone_2
 x 17
 y 26
 end
+arch mover_6
+x 17
+y 26
+end
 arch pstone_2
+x 17
+y 27
+end
+arch mover_7
 x 17
 y 27
 end
@@ -3901,6 +4152,9 @@ end
 arch pstone_2
 x 18
 end
+arch mover_7
+x 18
+end
 arch sea1
 x 18
 y 1
@@ -4013,6 +4267,10 @@ arch pstone_2
 x 18
 y 12
 end
+arch mover_7
+x 18
+y 12
+end
 arch blocked
 x 18
 y 13
@@ -4022,6 +4280,10 @@ x 18
 y 14
 end
 arch pstone_2
+x 18
+y 15
+end
+arch mover_7
 x 18
 y 15
 end
@@ -4134,6 +4396,10 @@ level 1
 attacktype 1
 end
 arch pstone_2
+x 18
+y 27
+end
+arch mover_7
 x 18
 y 27
 end
@@ -5511,6 +5777,9 @@ end
 arch pstone_2
 x 24
 end
+arch mover_3
+x 24
+end
 arch sea1
 x 24
 y 1
@@ -5625,6 +5894,10 @@ arch pstone_2
 x 24
 y 12
 end
+arch mover_3
+x 24
+y 12
+end
 arch blocked
 x 24
 y 13
@@ -5634,6 +5907,10 @@ x 24
 y 14
 end
 arch pstone_2
+x 24
+y 15
+end
+arch mover_3
 x 24
 y 15
 end
@@ -5751,6 +6028,10 @@ arch pstone_2
 x 24
 y 27
 end
+arch mover_3
+x 24
+y 27
+end
 arch blocked
 x 24
 y 28
@@ -5762,7 +6043,14 @@ end
 arch pstone_2
 x 25
 end
+arch mover_3
+x 25
+end
 arch pstone_2
+x 25
+y 1
+end
+arch mover_2
 x 25
 y 1
 end
@@ -5860,7 +6148,15 @@ arch pstone_2
 x 25
 y 11
 end
+arch mover_4
+x 25
+y 11
+end
 arch pstone_2
+x 25
+y 12
+end
+arch mover_3
 x 25
 y 12
 end
@@ -5876,7 +6172,15 @@ arch pstone_2
 x 25
 y 15
 end
+arch mover_3
+x 25
+y 15
+end
 arch pstone_2
+x 25
+y 16
+end
+arch mover_2
 x 25
 y 16
 end
@@ -5974,7 +6278,15 @@ arch pstone_2
 x 25
 y 26
 end
+arch mover_4
+x 25
+y 26
+end
 arch pstone_2
+x 25
+y 27
+end
+arch mover_3
 x 25
 y 27
 end
@@ -6000,6 +6312,10 @@ arch pstone_2
 x 26
 y 2
 end
+arch mover_2
+x 26
+y 2
+end
 arch sea1
 x 26
 y 3
@@ -6074,6 +6390,10 @@ arch pstone_2
 x 26
 y 10
 end
+arch mover_4
+x 26
+y 10
+end
 arch pstone_2
 x 26
 y 11
@@ -6107,6 +6427,10 @@ x 26
 y 16
 end
 arch pstone_2
+x 26
+y 17
+end
+arch mover_2
 x 26
 y 17
 end
@@ -6184,6 +6508,10 @@ arch pstone_2
 x 26
 y 25
 end
+arch mover_4
+x 26
+y 25
+end
 arch pstone_2
 x 26
 y 26
@@ -6215,7 +6543,15 @@ arch pstone_2
 x 27
 y 2
 end
+arch mover_1
+x 27
+y 2
+end
 arch pstone_2
+x 27
+y 3
+end
+arch mover_1
 x 27
 y 3
 end
@@ -6273,7 +6609,15 @@ arch pstone_2
 x 27
 y 9
 end
+arch mover_5
+x 27
+y 9
+end
 arch pstone_2
+x 27
+y 10
+end
+arch mover_5
 x 27
 y 10
 end
@@ -6305,7 +6649,15 @@ arch pstone_2
 x 27
 y 17
 end
+arch mover_1
+x 27
+y 17
+end
 arch pstone_2
+x 27
+y 18
+end
+arch mover_1
 x 27
 y 18
 end
@@ -6363,7 +6715,15 @@ arch pstone_2
 x 27
 y 24
 end
+arch mover_5
+x 27
+y 24
+end
 arch pstone_2
+x 27
+y 25
+end
+arch mover_5
 x 27
 y 25
 end
