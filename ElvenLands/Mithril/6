@@ -6,7 +6,7 @@ width 61
 height 31
 msg
 Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-28 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch mountain
@@ -3057,6 +3057,12 @@ end
 arch dirtfloor
 x 20
 end
+arch invis_exit
+slaying ruins
+hp 16
+sp 39
+x 20
+end
 arch dirtfloor
 x 20
 y 1
@@ -3194,6 +3200,12 @@ x 20
 y 30
 end
 arch dirtfloor
+x 21
+end
+arch invis_exit
+slaying ruins
+hp 17
+sp 39
 x 21
 end
 arch dirtfloor

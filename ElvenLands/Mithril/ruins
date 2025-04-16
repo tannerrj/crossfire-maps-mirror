@@ -6,7 +6,7 @@ width 31
 height 41
 msg
 Created:  2000-07-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-28 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch mountain
@@ -2846,9 +2846,9 @@ x 16
 y 40
 end
 arch invis_exit
-slaying /Elven Lands/Mithril/6
-hp 27
-sp 2
+slaying 6
+hp 20
+sp 1
 x 16
 y 40
 end
@@ -3020,9 +3020,9 @@ x 17
 y 40
 end
 arch invis_exit
-slaying /Elven Lands/Mithril/6
-hp 27
-sp 2
+slaying 6
+hp 21
+sp 1
 x 17
 y 40
 end
