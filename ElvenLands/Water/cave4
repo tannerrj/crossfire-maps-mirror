@@ -5,7 +5,7 @@ width 32
 height 32
 msg
 Created:  2002-06-21 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch small_stones
@@ -6903,7 +6903,7 @@ end
 arch small_stones
 x 27
 end
-arch cave13
+arch cave4
 x 27
 end
 arch small_stones
@@ -7096,6 +7096,9 @@ end
 arch small_stones
 x 28
 end
+arch cave4
+x 28
+end
 arch small_stones
 x 28
 y 1
@@ -7267,6 +7270,9 @@ end
 arch small_stones
 x 29
 end
+arch cave4
+x 29
+end
 arch small_stones
 x 29
 y 1
@@ -7320,6 +7326,13 @@ x 29
 y 10
 end
 arch small_stones
+x 29
+y 11
+end
+arch chole_1
+slaying canal1
+hp 9
+sp 11
 x 29
 y 11
 end
@@ -7462,7 +7475,7 @@ end
 arch small_stones
 x 30
 end
-arch cave1
+arch cave25
 x 30
 end
 arch small_stones

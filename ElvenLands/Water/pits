@@ -5,7 +5,7 @@ width 30
 height 30
 msg
 Created:  2000-03-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch pstone_2
@@ -4748,7 +4748,7 @@ x 21
 y 6
 end
 arch trapdoor_3
-hp 8
+hp 0
 sp 21
 x 21
 y 6
@@ -4887,7 +4887,7 @@ y 21
 end
 arch chole_1
 slaying /ElvenLands/Water/end
-hp 1
+hp 7
 sp 13
 x 21
 y 21
