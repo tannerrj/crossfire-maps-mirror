@@ -5,7 +5,7 @@ width 20
 height 17
 msg
 Created:  1999-11-24 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-28 Rick Tanner
+Modified: 2025-04-15 kettek
 endmsg
 end
 arch bwall_2_2_2
@@ -573,8 +573,7 @@ end
 arch bwall_2_1_2
 x 8
 y 3
-no_pass 0
-pass_thru 1
+move_block 0
 end
 arch cobblestones
 x 8
