@@ -340,6 +340,11 @@ arch woodfloor
 x 4
 y 7
 end
+arch door_2
+hp 100
+x 4
+y 7
+end
 arch woodfloor
 x 4
 y 8
@@ -838,6 +843,11 @@ x 10
 y 6
 end
 arch woodfloor
+x 10
+y 7
+end
+arch door_2
+hp 100
 x 10
 y 7
 end
