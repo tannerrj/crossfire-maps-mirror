@@ -966,9 +966,21 @@ arch dungeon_floor
 x 8
 y 1
 end
-arch water_scale_mail
+arch blue_dragon_mail
+name water scale mail
+name_pl water scale mails
+Dex 3
+hp 1
+luck 1
 x 8
 y 1
+resist_physical 60
+resist_magic 20
+resist_fire 30
+resist_cold 20
+resist_acid 100
+resist_poison 20
+value 300000
 end
 arch dungeon_floor
 x 8
