@@ -2375,6 +2375,10 @@ arch large_stones
 x 17
 y 16
 end
+arch swall_1_4_half
+x 17
+y 16
+end
 arch awall_1_1
 x 17
 y 16
@@ -2530,7 +2534,7 @@ arch small_stones
 x 18
 y 16
 end
-arch swall_1_4
+arch swall_2_1_2
 x 18
 y 16
 end
@@ -2814,6 +2818,10 @@ x 20
 y 15
 end
 arch large_stones
+x 20
+y 16
+end
+arch swall_1_3_half
 x 20
 y 16
 end
