@@ -5,7 +5,7 @@ width 51
 height 39
 msg
 Created:  2000-01-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-04-13 Rick Tanner
+Modified: 2025-04-20 kettek
 endmsg
 end
 arch sea
@@ -2886,6 +2886,13 @@ y 20
 end
 arch jungle_2
 name woods
+x 17
+y 20
+end
+arch invis_exit
+slaying woods
+hp 1
+sp 13
 x 17
 y 20
 end
