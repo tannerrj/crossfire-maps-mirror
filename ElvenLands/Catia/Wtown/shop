@@ -1550,15 +1550,11 @@ arch dark_elf
 name Aserll the Elf
 msg
 @match hi|hello
-Hello. Are you one of those
-mountaineers?
+Hello. Are you one of those mountaineers?
 @match no
-Thought you wouldn't be. You don't look
-very adventureous.
+Thought you wouldn't be. You don't look very adventureous.
 @match yes
-Ah yes! Well you look like a
-adventureous type. Would you like to by
-some equiptment?
+Ah yes! Well you look like a adventureous type. Would you like to by some equipment?
 endmsg
 x 15
 y 9
