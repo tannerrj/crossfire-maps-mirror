@@ -4146,19 +4146,17 @@ level 25
 resist_magic 100
 resist_fire 100
 stand_still 1
-arch ability_hellfire
+arch spell_create_pool_of_chaos
 end
-arch ability_hellfire
+arch spell_slow
 end
-arch ability_dragon
+arch spell_paralyze
 end
-arch ability_fear
+arch spell_fear
 end
-arch ability_paralyze
+arch spell_hellfire
 end
-arch ability_slow
-end
-arch ability_pool_chaos
+arch spell_dragonbreath
 end
 end
 arch flagstone
