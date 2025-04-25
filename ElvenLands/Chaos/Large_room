@@ -2955,13 +2955,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -3234,13 +3234,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -3267,13 +3267,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -3471,13 +3471,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -4000,13 +4000,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -4299,13 +4299,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -4332,13 +4332,13 @@ level 18
 resist_confusion 100
 resist_paralyze 100
 see_invisible 1
-arch ability_poison
+arch abil_fear
 end
-arch ability_paralyze
+arch abil_fear
 end
-arch ability_poison
+arch spell_paralyze
 end
-arch ability_fear
+arch abil_poison_cloud
 end
 end
 arch marble
@@ -4572,35 +4572,6 @@ end
 arch marble
 x 20
 y 27
-end
-arch lokanth
-Dex 0
-Con 20
-Wis 15
-Pow 30
-hp 3000
-maxhp 3000
-sp 300
-maxsp 300
-exp 25000
-dam 25
-wc -15
-ac -15
-x 20
-y 27
-speed -0.400000
-level 18
-resist_confusion 100
-resist_paralyze 100
-see_invisible 1
-arch ability_poison
-end
-arch ability_paralyze
-end
-arch ability_poison
-end
-arch ability_fear
-end
 end
 arch marble
 x 20
