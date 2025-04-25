@@ -5,7 +5,7 @@ width 32
 height 32
 msg
 Created:  2000-01-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-25 Rick Tanner
+Modified: 2025-04-25 Rick Tanner
 endmsg
 end
 arch marble
@@ -1196,11 +1196,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2226,11 +2224,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2262,11 +2258,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2298,11 +2292,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2547,11 +2539,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2669,11 +2659,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -2910,11 +2898,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3091,11 +3077,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3444,11 +3428,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3706,11 +3688,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3738,11 +3718,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3770,11 +3748,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -3973,11 +3949,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -4203,11 +4177,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -4296,11 +4268,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -4824,11 +4794,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
@@ -5048,11 +5016,9 @@ resist_confusion 100
 resist_paralyze 100
 see_invisible 1
 can_cast_spell 1
-arch ability_fear
+arch spell_create_pool_of_chaos
 end
-arch ability_fear
-end
-arch ability_pool_chaos
+arch spell_fear
 end
 end
 arch marble
