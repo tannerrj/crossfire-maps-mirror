@@ -648,9 +648,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1392,9 +1392,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1941,9 +1941,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -2801,9 +2801,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -3835,38 +3835,32 @@ arch marble
 x 18
 y 9
 end
-arch broo
-name Beast
-Str 30
+arch c_priest
+Str 25
 Dex 0
-Con 20
+Con 15
 Wis 15
-Pow 45
+Pow 30
 Int 0
-hp 3000
-maxhp 3000
-sp 150
-maxsp 150
-exp 15000
+hp 1500
+maxhp 1500
+sp 100
+maxsp 100
+exp 12000
 dam 20
-wc -14
-ac -15
+wc -8
+ac -6
 x 18
 y 9
 speed -0.400000
-level 15
+level 13
+resist_magic 100
 resist_fire 100
-resist_confusion 100
-resist_paralyze 100
 see_invisible 1
-can_cast_spell 1
-arch ability_fear
+stand_still 1
+arch spell_hellfire
 end
-arch ability_fire
-end
-arch ability_firespell
-end
-arch ability_paralyze
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -4458,9 +4452,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -4502,9 +4496,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5902,9 +5896,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_dragon
+arch spell_hellfire
 end
-arch ability_hellfire
+arch ability_dragonbreath
 end
 end
 arch marble
