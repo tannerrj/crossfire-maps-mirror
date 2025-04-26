@@ -46,7 +46,7 @@
   "match" : ["password"],
   "pre" : [["quest", "scorn/PortGate", "5"], ["quest", "scorn/GatePassword", "10"]],
   "post" : [],
-  "msg" : ["I am not allow to tell you the password."]
+  "msg" : ["I am not allowed to tell you the password."]
   },{
   "match" : ["password"],
   "pre" : [["quest", "scorn/PortGate", "5"]],
