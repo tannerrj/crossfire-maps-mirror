@@ -8,7 +8,7 @@ enter_x 29
 enter_y 29
 msg
 Created:  1994-12-28 Morten Hanshaugen
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-04-13 Kevin Bulgrien
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -8276,10 +8276,6 @@ end
 arch small_stones
 x 21
 y 51
-end
-arch medium_stones
-x 21
-y 52
 end
 arch pstone_5
 x 21
