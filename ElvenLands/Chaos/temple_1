@@ -552,13 +552,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -596,13 +598,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -640,13 +644,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -684,13 +690,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -819,13 +827,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -887,13 +897,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch dungeon_floor
@@ -1085,13 +1097,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch dungeon_floor
@@ -1229,13 +1243,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1273,13 +1289,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1317,13 +1335,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1361,13 +1381,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1529,13 +1551,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1577,13 +1601,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1749,13 +1775,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -1813,13 +1841,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -4745,13 +4775,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -4797,13 +4829,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch dungeon_floor
@@ -4961,13 +4995,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -5017,13 +5053,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -5325,13 +5363,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -5373,13 +5413,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -5421,13 +5463,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
@@ -5469,13 +5513,15 @@ speed 0.400000
 level 10
 see_invisible 1
 stand_still 1
-arch ability_firespell
+arch spell_burning_hands
 end
-arch ability_fire
+arch abil_create_fire_wall
 end
-arch ability_fire
+arch spell_firebolt
 end
-arch ability_summon_fire
+arch spell_firetrap
+end
+arch abil_medium_fireball
 end
 end
 arch marble
