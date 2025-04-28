@@ -9,7 +9,7 @@ enter_x 14
 enter_y 17
 msg
 Created:  2007-03-08 Gene Alexander (poof, Galahad)
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-04-27 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -190,19 +190,11 @@ arch wwall_win1
 x 2
 y 5
 end
-arch dungeon_magic
-x 2
-y 5
-end
 arch woodfloor
 x 2
 y 6
 end
 arch wwall_win1
-x 2
-y 6
-end
-arch dungeon_magic
 x 2
 y 6
 end
@@ -254,10 +246,6 @@ arch wwall_win1
 x 2
 y 12
 end
-arch dungeon_magic
-x 2
-y 12
-end
 arch woodfloor
 x 2
 y 13
@@ -266,19 +254,11 @@ arch wwall_win1
 x 2
 y 13
 end
-arch dungeon_magic
-x 2
-y 13
-end
 arch woodfloor
 x 2
 y 14
 end
 arch wwall_win1
-x 2
-y 14
-end
-arch dungeon_magic
 x 2
 y 14
 end
@@ -619,10 +599,6 @@ arch wwall_win2
 x 5
 y 17
 end
-arch dungeon_magic
-x 5
-y 17
-end
 arch grass
 x 5
 y 18
@@ -643,10 +619,6 @@ x 6
 y 2
 end
 arch wwall_win2
-x 6
-y 2
-end
-arch dungeon_magic
 x 6
 y 2
 end
@@ -726,10 +698,6 @@ arch wwall_win2
 x 6
 y 17
 end
-arch dungeon_magic
-x 6
-y 17
-end
 arch grass
 x 6
 y 18
@@ -750,10 +718,6 @@ x 7
 y 2
 end
 arch wwall_win2
-x 7
-y 2
-end
-arch dungeon_magic
 x 7
 y 2
 end
@@ -1452,10 +1416,6 @@ arch wwall_win2
 x 13
 y 2
 end
-arch dungeon_magic
-x 13
-y 2
-end
 arch woodfloor
 x 13
 y 3
@@ -1561,10 +1521,6 @@ x 14
 y 2
 end
 arch wwall_win2
-x 14
-y 2
-end
-arch dungeon_magic
 x 14
 y 2
 end
@@ -1917,19 +1873,11 @@ arch wwall_win1
 x 17
 y 5
 end
-arch dungeon_magic
-x 17
-y 5
-end
 arch woodfloor
 x 17
 y 6
 end
 arch wwall_win1
-x 17
-y 6
-end
-arch dungeon_magic
 x 17
 y 6
 end
@@ -1981,10 +1929,6 @@ arch wwall_win1
 x 17
 y 12
 end
-arch dungeon_magic
-x 17
-y 12
-end
 arch woodfloor
 x 17
 y 13
@@ -1993,19 +1937,11 @@ arch wwall_win1
 x 17
 y 13
 end
-arch dungeon_magic
-x 17
-y 13
-end
 arch woodfloor
 x 17
 y 14
 end
 arch wwall_win1
-x 17
-y 14
-end
-arch dungeon_magic
 x 17
 y 14
 end
