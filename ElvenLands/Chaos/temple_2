@@ -5,7 +5,7 @@ width 32
 height 29
 msg
 Created:  2000-03-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-25 Rick Tanner
+Modified: 2025-04-27 Rick Tanner
 endmsg
 end
 arch marble
@@ -213,9 +213,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -420,9 +420,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -535,9 +535,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -943,9 +943,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1087,9 +1087,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1402,9 +1402,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1528,9 +1528,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1657,9 +1657,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -1697,9 +1697,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -2030,9 +2030,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -3226,9 +3226,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -3712,9 +3712,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -3773,9 +3773,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -4458,9 +4458,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -4856,9 +4856,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5001,9 +5001,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5375,9 +5375,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5444,9 +5444,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5768,9 +5768,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -5903,9 +5903,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -6320,9 +6320,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -6694,9 +6694,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -7101,9 +7101,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
@@ -7305,9 +7305,9 @@ resist_magic 100
 resist_fire 100
 see_invisible 1
 stand_still 1
-arch ability_hellfire
+arch spell_hellfire
 end
-arch ability_dragon
+arch ability_dragonbreath
 end
 end
 arch marble
