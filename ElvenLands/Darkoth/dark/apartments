@@ -5,7 +5,7 @@ width 16
 height 16
 msg
 Created:  2002-02-02 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-04-29 Rick Tanner
 endmsg
 end
 arch blackmarble
@@ -87,7 +87,10 @@ end
 arch dungeon_floor
 y 13
 end
-arch flagstone_3_2
+arch swall_1_4_half
+y 13
+end
+arch flagstone_2_1_1
 y 13
 end
 arch dungeon_floor
@@ -319,7 +322,11 @@ arch dungeon_floor
 x 2
 y 15
 end
-arch flagstone_3_1
+arch swall_1_2_half
+x 2
+y 15
+end
+arch flagstone_2_1_2
 x 2
 y 15
 end
