@@ -8,7 +8,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  2012-05-19 Rick Tanner
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-05-08 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -108,7 +108,7 @@ arch grass_only
 x 2
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 2
 end
@@ -116,7 +116,7 @@ arch redcwall_2_2_2
 x 2
 y 2
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 3
 end
@@ -124,7 +124,7 @@ arch redcwall_2_1_1
 x 2
 y 3
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 4
 end
@@ -132,7 +132,7 @@ arch redcwall_2_1_1
 x 2
 y 4
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 5
 end
@@ -140,7 +140,7 @@ arch redcwall_2_1_1
 x 2
 y 5
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 6
 end
@@ -148,7 +148,7 @@ arch redcwall_2_1_1
 x 2
 y 6
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 7
 end
@@ -156,7 +156,7 @@ arch redcwall_win1
 x 2
 y 7
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 8
 end
@@ -164,7 +164,7 @@ arch redcwall_2_1_1
 x 2
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 2
 y 9
 end
@@ -191,7 +191,7 @@ arch grass_only
 x 3
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 3
 y 2
 end
@@ -233,7 +233,7 @@ arch woodfloor2
 x 3
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 3
 y 9
 end
@@ -260,7 +260,7 @@ arch grass_only
 x 4
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 4
 y 2
 end
@@ -296,7 +296,7 @@ arch woodfloor2
 x 4
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 4
 y 9
 end
@@ -324,7 +324,7 @@ arch grass_only
 x 5
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 5
 y 2
 end
@@ -364,7 +364,7 @@ arch woodfloor2
 x 5
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 5
 y 9
 end
@@ -391,7 +391,7 @@ arch grass_only
 x 6
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 6
 y 2
 end
@@ -438,7 +438,7 @@ arch woodfloor2
 x 6
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 6
 y 9
 end
@@ -476,7 +476,7 @@ arch grass_only
 x 7
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 7
 y 2
 end
@@ -518,7 +518,7 @@ x 7
 y 9
 connected 1
 end
-arch woodfloor2
+arch flagstone
 x 7
 y 9
 end
@@ -557,7 +557,7 @@ arch grass_only
 x 8
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 8
 y 2
 end
@@ -589,7 +589,7 @@ arch woodfloor2
 x 8
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 8
 y 9
 end
@@ -627,7 +627,7 @@ arch grass_only
 x 9
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 9
 y 2
 end
@@ -684,7 +684,7 @@ arch redcwall_2_1_1
 x 9
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 9
 y 9
 end
@@ -692,7 +692,7 @@ arch redcwall_3_4
 x 9
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 9
 y 10
 end
@@ -715,7 +715,7 @@ arch grass_only
 x 10
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 10
 y 2
 end
@@ -759,7 +759,7 @@ arch woodfloor2
 x 10
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 10
 y 10
 end
@@ -782,7 +782,7 @@ arch grass_only
 x 11
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 11
 y 2
 end
@@ -836,7 +836,7 @@ arch sailor
 x 11
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 11
 y 10
 end
@@ -859,7 +859,7 @@ arch grass_only
 x 12
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 12
 y 2
 end
@@ -911,7 +911,7 @@ arch water
 x 12
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 12
 y 10
 end
@@ -934,7 +934,7 @@ arch grass_only
 x 13
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 13
 y 2
 end
@@ -978,7 +978,7 @@ arch woodfloor2
 x 13
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 13
 y 10
 end
@@ -1001,7 +1001,7 @@ arch grass_only
 x 14
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 14
 y 2
 end
@@ -1041,7 +1041,7 @@ arch woodfloor2
 x 14
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 14
 y 10
 end
@@ -1064,7 +1064,7 @@ arch grass_only
 x 15
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 15
 y 2
 end
@@ -1105,7 +1105,7 @@ arch woodfloor2
 x 15
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 15
 y 10
 end
@@ -1128,7 +1128,7 @@ arch grass_only
 x 16
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 16
 y 2
 end
@@ -1182,7 +1182,7 @@ arch bed_1
 x 16
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 16
 y 10
 end
@@ -1205,7 +1205,7 @@ arch grass_only
 x 17
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 17
 y 2
 end
@@ -1245,7 +1245,7 @@ arch woodfloor2
 x 17
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 17
 y 10
 end
@@ -1268,7 +1268,7 @@ arch grass_only
 x 18
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 18
 y 2
 end
@@ -1312,7 +1312,7 @@ arch woodfloor2
 x 18
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 18
 y 10
 end
@@ -1335,7 +1335,7 @@ arch grass_only
 x 19
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 19
 y 2
 end
@@ -1397,7 +1397,7 @@ arch chest
 x 19
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 19
 y 10
 end
@@ -1420,7 +1420,7 @@ arch grass_only
 x 20
 y 1
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 2
 end
@@ -1428,7 +1428,7 @@ arch redcwall_2_2_3
 x 20
 y 2
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 3
 end
@@ -1436,7 +1436,7 @@ arch redcwall_2_1_1
 x 20
 y 3
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 4
 end
@@ -1444,7 +1444,7 @@ arch redcwall_win1
 x 20
 y 4
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 5
 end
@@ -1452,7 +1452,7 @@ arch redcwall_2_1_1
 x 20
 y 5
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 6
 end
@@ -1460,7 +1460,7 @@ arch redcwall_3_4
 x 20
 y 6
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 7
 end
@@ -1468,7 +1468,7 @@ arch redcwall_2_1_1
 x 20
 y 7
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 8
 end
@@ -1476,7 +1476,7 @@ arch redcwall_win1
 x 20
 y 8
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 9
 end
@@ -1484,7 +1484,7 @@ arch redcwall_2_1_1
 x 20
 y 9
 end
-arch woodfloor2
+arch flagstone
 x 20
 y 10
 end
