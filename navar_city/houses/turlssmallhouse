@@ -8,7 +8,7 @@ enter_x 4
 enter_y 9
 msg
 Created:  2012-03-20 Rick Tanner
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-05-09 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -115,7 +115,7 @@ arch grass_only
 x 2
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 2
 end
@@ -123,7 +123,7 @@ arch bwall_2_2_2
 x 2
 y 2
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 3
 end
@@ -131,7 +131,7 @@ arch bwall_2_1_1
 x 2
 y 3
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 4
 end
@@ -139,7 +139,7 @@ arch bwall_2_1_1
 x 2
 y 4
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 5
 end
@@ -147,7 +147,7 @@ arch bwall_2_1_1
 x 2
 y 5
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 6
 end
@@ -159,7 +159,7 @@ arch bwall_1_2
 x 2
 y 6
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 7
 end
@@ -167,7 +167,7 @@ arch window_win1
 x 2
 y 7
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 8
 end
@@ -179,7 +179,7 @@ arch bwall_2_2_2
 x 2
 y 8
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 9
 end
@@ -187,7 +187,7 @@ arch bwall_2_1_1
 x 2
 y 9
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 10
 end
@@ -195,7 +195,7 @@ arch bwall_2_1_1
 x 2
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 2
 y 11
 end
@@ -218,7 +218,7 @@ arch grass_only
 x 3
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 3
 y 2
 end
@@ -275,7 +275,7 @@ arch dungeon_floor
 x 3
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 3
 y 11
 end
@@ -309,7 +309,7 @@ arch grass_only
 x 4
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 4
 y 2
 end
@@ -383,7 +383,7 @@ x 4
 y 11
 connected 1
 end
-arch dungeon_floor
+arch cobblestones
 x 4
 y 11
 end
@@ -418,7 +418,7 @@ arch grass_only
 x 5
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 5
 y 2
 end
@@ -471,7 +471,7 @@ arch dungeon_floor
 x 5
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 5
 y 11
 end
@@ -505,7 +505,7 @@ arch grass_only
 x 6
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 6
 y 2
 end
@@ -561,7 +561,7 @@ arch dungeon_floor
 x 6
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 6
 y 11
 end
@@ -584,7 +584,7 @@ arch grass_only
 x 7
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 7
 y 2
 end
@@ -647,7 +647,7 @@ arch dungeon_floor
 x 7
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 7
 y 11
 end
@@ -674,7 +674,7 @@ arch grass_only
 x 8
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 8
 y 2
 end
@@ -738,7 +738,7 @@ arch dungeon_floor
 x 8
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 8
 y 11
 end
@@ -761,7 +761,7 @@ arch grass_only
 x 9
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 9
 y 2
 end
@@ -801,7 +801,7 @@ arch dungeon_floor
 x 9
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 9
 y 11
 end
@@ -828,7 +828,7 @@ arch grass_only
 x 10
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 10
 y 2
 end
@@ -868,7 +868,7 @@ arch dungeon_floor
 x 10
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 10
 y 11
 end
@@ -891,7 +891,7 @@ arch grass_only
 x 11
 y 1
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 2
 end
@@ -899,7 +899,7 @@ arch bwall_2_2_3
 x 11
 y 2
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 3
 end
@@ -907,7 +907,7 @@ arch bwall_2_1_1
 x 11
 y 3
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 4
 end
@@ -915,7 +915,7 @@ arch bwall_2_1_1
 x 11
 y 4
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 5
 end
@@ -923,7 +923,7 @@ arch bwall_2_1_1
 x 11
 y 5
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 6
 end
@@ -935,7 +935,7 @@ arch bwall_1_2
 x 11
 y 6
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 7
 end
@@ -943,7 +943,7 @@ arch window_win1
 x 11
 y 7
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 8
 end
@@ -955,7 +955,7 @@ arch bwall_1_1
 x 11
 y 8
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 9
 end
@@ -963,7 +963,7 @@ arch bwall_2_1_1
 x 11
 y 9
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 10
 end
@@ -971,7 +971,7 @@ arch bwall_2_1_1
 x 11
 y 10
 end
-arch dungeon_floor
+arch cobblestones
 x 11
 y 11
 end
