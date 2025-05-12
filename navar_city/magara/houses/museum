@@ -5021,7 +5021,7 @@ arch woodlarge
 x 17
 y 25
 end
-arch swall_2_1_1
+arch swall_3_2
 x 17
 y 25
 end
@@ -5364,6 +5364,10 @@ x 18
 y 24
 end
 arch woodfloor
+x 18
+y 25
+end
+arch swall_1_3_half
 x 18
 y 25
 end
@@ -6047,6 +6051,10 @@ arch woodfloor
 x 20
 y 25
 end
+arch swall_1_4_half
+x 20
+y 25
+end
 arch wall_1_3
 x 20
 y 25
@@ -6397,7 +6405,7 @@ arch woodlarge
 x 21
 y 25
 end
-arch swall_2_1_1
+arch swall_3_4
 x 21
 y 25
 end
