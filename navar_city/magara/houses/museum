@@ -2355,7 +2355,7 @@ arch woodfloor
 x 9
 y 16
 end
-arch swall_2_1_1
+arch swall_3_2
 x 9
 y 16
 end
@@ -2661,6 +2661,10 @@ x 10
 y 15
 end
 arch woodlarge
+x 10
+y 16
+end
+arch swall_1_3_half
 x 10
 y 16
 end
@@ -3039,7 +3043,7 @@ arch woodfloor
 x 11
 y 22
 end
-arch swall_2_1_2
+arch swall_3_3
 x 11
 y 22
 end
@@ -3048,6 +3052,10 @@ x 11
 y 22
 end
 arch woodlarge
+x 11
+y 23
+end
+arch swall_1_2_half
 x 11
 y 23
 end
@@ -3095,11 +3103,15 @@ arch wall_1_2
 x 11
 y 28
 end
+arch swall_1_1_half
+x 11
+y 28
+end
 arch woodlarge
 x 11
 y 29
 end
-arch swall_2_1_2
+arch swall_3_1
 x 11
 y 29
 end
@@ -5661,7 +5673,7 @@ arch woodlarge
 x 19
 y 21
 end
-arch swall_2_1_2
+arch swall_3_3
 x 19
 y 21
 end
@@ -5670,6 +5682,10 @@ x 19
 y 21
 end
 arch woodfloor
+x 19
+y 22
+end
+arch swall_1_2_half
 x 19
 y 22
 end
@@ -5725,11 +5741,15 @@ arch wall_1_2
 x 19
 y 28
 end
+arch swall_1_1_half
+x 19
+y 28
+end
 arch woodlarge
 x 19
 y 29
 end
-arch swall_2_1_2
+arch swall_3_1
 x 19
 y 29
 end
@@ -8365,7 +8385,7 @@ arch woodlarge
 x 27
 y 21
 end
-arch swall_2_1_2
+arch swall_3_3
 x 27
 y 21
 end
@@ -8374,6 +8394,10 @@ x 27
 y 21
 end
 arch woodfloor
+x 27
+y 22
+end
+arch swall_1_2_half
 x 27
 y 22
 end
@@ -8656,6 +8680,10 @@ x 28
 y 15
 end
 arch woodlarge
+x 28
+y 16
+end
+arch swall_1_4_half
 x 28
 y 16
 end
@@ -9009,7 +9037,7 @@ arch woodfloor
 x 29
 y 16
 end
-arch swall_2_1_1
+arch swall_3_4
 x 29
 y 16
 end
@@ -10936,7 +10964,7 @@ arch woodfloor
 x 35
 y 14
 end
-arch swall_2_1_2
+arch swall_3_3
 x 35
 y 14
 end
@@ -10945,6 +10973,10 @@ x 35
 y 14
 end
 arch woodlarge
+x 35
+y 15
+end
+arch swall_1_2_half
 x 35
 y 15
 end
@@ -11064,11 +11096,15 @@ arch wall_1_2
 x 35
 y 29
 end
+arch swall_1_1_half
+x 35
+y 29
+end
 arch woodfloor
 x 35
 y 30
 end
-arch swall_2_1_2
+arch swall_3_1
 x 35
 y 30
 end
