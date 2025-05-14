@@ -10,7 +10,7 @@ enter_x 9
 enter_y 8
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-05-14 Rick Tanner
 endmsg
 end
 arch cave_15
@@ -89,7 +89,7 @@ arch pstone_2
 x 1
 y 30
 end
-arch cave18
+arch cave24
 x 1
 y 30
 end
@@ -121,7 +121,7 @@ arch pstone_2
 x 1
 y 34
 end
-arch cave17
+arch cave23
 x 1
 y 34
 end
@@ -181,7 +181,7 @@ arch pstone_2
 x 2
 y 8
 end
-arch cave18
+arch cave24
 x 2
 y 8
 end
@@ -221,7 +221,7 @@ arch pstone_2
 x 2
 y 13
 end
-arch cave17
+arch cave23
 x 2
 y 13
 end
@@ -249,7 +249,7 @@ arch pstone_2
 x 2
 y 28
 end
-arch cave18
+arch cave24
 x 2
 y 28
 end
@@ -361,7 +361,7 @@ arch oil_sea
 x 2
 y 42
 end
-arch cave17
+arch cave23
 x 2
 y 42
 end
@@ -389,7 +389,7 @@ arch pstone_1
 x 3
 y 5
 end
-arch cave18
+arch cave24
 x 3
 y 5
 end
@@ -613,7 +613,7 @@ arch pstone_1
 x 4
 y 3
 end
-arch cave18
+arch cave24
 x 4
 y 3
 end
@@ -677,7 +677,7 @@ arch pstone_2
 x 4
 y 15
 end
-arch cave17
+arch cave23
 x 4
 y 15
 end
@@ -918,7 +918,7 @@ arch oil_sea
 x 5
 y 25
 end
-arch cave18
+arch cave24
 x 5
 y 25
 end
@@ -1032,7 +1032,7 @@ arch oil_sea
 x 5
 y 45
 end
-arch cave17
+arch cave23
 x 5
 y 45
 end
@@ -1048,7 +1048,7 @@ arch pstone_1
 x 6
 y 2
 end
-arch cave18
+arch cave24
 x 6
 y 2
 end
@@ -1337,7 +1337,7 @@ arch oil_sea
 x 7
 y 24
 end
-arch cave18
+arch cave24
 x 7
 y 24
 end
@@ -1457,7 +1457,7 @@ arch pstone_2
 x 7
 y 46
 end
-arch cave17
+arch cave23
 x 7
 y 46
 end
@@ -1553,7 +1553,7 @@ arch pstone_2
 x 8
 y 16
 end
-arch cave17
+arch cave23
 x 8
 y 16
 end
@@ -2460,7 +2460,7 @@ arch pstone_2
 x 12
 y 2
 end
-arch cave19
+arch cave25
 x 12
 y 2
 end
@@ -2778,7 +2778,7 @@ arch pstone_2
 x 13
 y 16
 end
-arch cave20
+arch cave22
 x 13
 y 16
 end
@@ -3190,7 +3190,7 @@ arch oil_sea
 x 14
 y 47
 end
-arch cave17
+arch cave23
 x 14
 y 47
 end
@@ -3206,7 +3206,7 @@ arch pstone_2
 x 15
 y 3
 end
-arch cave19
+arch cave25
 x 15
 y 3
 end
@@ -3503,7 +3503,7 @@ arch pstone_2
 x 16
 y 14
 end
-arch cave20
+arch cave22
 x 16
 y 14
 end
@@ -3667,7 +3667,7 @@ arch pstone_2
 x 17
 y 5
 end
-arch cave19
+arch cave25
 x 17
 y 5
 end
@@ -3715,7 +3715,7 @@ arch pstone_2
 x 17
 y 11
 end
-arch cave20
+arch cave22
 x 17
 y 11
 end
@@ -4019,7 +4019,7 @@ arch oil_sea
 x 18
 y 48
 end
-arch cave17
+arch cave23
 x 18
 y 48
 end
@@ -5115,7 +5115,7 @@ arch oil_sea
 x 25
 y 49
 end
-arch cave17
+arch cave23
 x 25
 y 49
 end
@@ -6365,7 +6365,7 @@ arch oil_sea
 x 34
 y 23
 end
-arch cave18
+arch cave24
 x 34
 y 23
 end
@@ -6521,7 +6521,7 @@ arch oil_sea
 x 34
 y 49
 end
-arch cave20
+arch cave22
 x 34
 y 49
 end
@@ -7377,7 +7377,7 @@ arch pstone_2
 x 39
 y 48
 end
-arch cave20
+arch cave22
 x 39
 y 48
 end
@@ -7665,7 +7665,7 @@ arch pstone_2
 x 41
 y 47
 end
-arch cave20
+arch cave22
 x 41
 y 47
 end
@@ -7925,7 +7925,7 @@ arch pstone_2
 x 43
 y 45
 end
-arch cave20
+arch cave22
 x 43
 y 45
 end
@@ -8305,7 +8305,7 @@ arch oil_sea
 x 47
 y 23
 end
-arch cave19
+arch cave25
 x 47
 y 23
 end
@@ -8536,7 +8536,7 @@ arch oil_sea_ultra_viscous
 x 48
 y 39
 end
-arch cave20
+arch cave22
 x 48
 y 39
 end
@@ -8560,7 +8560,7 @@ arch oil_sea
 x 49
 y 24
 end
-arch cave19
+arch cave25
 x 49
 y 24
 end
@@ -8695,7 +8695,7 @@ arch pstone_2
 x 50
 y 27
 end
-arch cave19
+arch cave25
 x 50
 y 27
 end
@@ -8800,7 +8800,7 @@ arch pstone_2
 x 51
 y 29
 end
-arch cave19
+arch cave25
 x 51
 y 29
 end
@@ -8848,7 +8848,7 @@ arch pstone_2
 x 51
 y 35
 end
-arch cave20
+arch cave22
 x 51
 y 35
 end
