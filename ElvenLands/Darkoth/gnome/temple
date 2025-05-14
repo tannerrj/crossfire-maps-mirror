@@ -1,304 +1,506 @@
 arch map
 name Chapel of Mostrai
 region elvenlands
-width 11
-height 11
+width 15
+height 15
 msg
 Created:  2002-08-30 Joel Southall (joel@prninfo.com)
 Modified: 2025-05-14 Rick Tanner
 endmsg
 end
+arch sea
+end
+arch grassdark
+y 1
+end
+arch grassdark
+y 2
+end
+arch grassdark
+y 3
+end
+arch grassdark
+y 4
+end
+arch grassdark
+y 5
+end
+arch grassdark
+y 6
+end
+arch grassdark
+y 7
+end
+arch grassdark
+y 8
+end
+arch grassdark
+y 9
+end
+arch grassdark
+y 10
+end
+arch grassdark
+y 11
+end
+arch grassdark
+y 12
+end
+arch grassdark
+y 13
+end
+arch grassdark
+y 14
+end
+arch sea
+x 1
+end
+arch grassdark
+x 1
+y 1
+end
+arch grassdark
+x 1
+y 2
+end
+arch grassdark
+x 1
+y 3
+end
+arch grassdark
+x 1
+y 4
+end
+arch grassdark
+x 1
+y 5
+end
+arch grassdark
+x 1
+y 6
+end
+arch grassdark
+x 1
+y 7
+end
+arch grassdark
+x 1
+y 8
+end
+arch grassdark
+x 1
+y 9
+end
+arch grassdark
+x 1
+y 10
+end
+arch grassdark
+x 1
+y 11
+end
+arch grassdark
+x 1
+y 12
+end
+arch grassdark
+x 1
+y 13
+end
+arch grassdark
+x 1
+y 14
+end
+arch sea
+x 2
+end
+arch grassdark
+x 2
+y 1
+end
 arch flagstone
+x 2
+y 2
 end
 arch cwall_2_2_2
-end
-arch flagstone
-y 1
-end
-arch cwall_3_2
-y 1
-end
-arch flagstone
-y 2
-end
-arch cwall_3_2
+x 2
 y 2
 end
 arch flagstone
+x 2
 y 3
 end
 arch cwall_3_2
+x 2
 y 3
 end
 arch flagstone
+x 2
 y 4
 end
 arch cwall_3_2
+x 2
 y 4
 end
 arch flagstone
+x 2
 y 5
 end
 arch cwall_3_2
+x 2
 y 5
 end
 arch flagstone
+x 2
 y 6
 end
 arch cwall_3_2
+x 2
 y 6
 end
 arch flagstone
+x 2
 y 7
 end
 arch cwall_3_2
+x 2
 y 7
 end
 arch flagstone
+x 2
 y 8
 end
 arch cwall_3_2
+x 2
 y 8
 end
 arch flagstone
+x 2
 y 9
 end
 arch cwall_3_2
+x 2
 y 9
 end
 arch flagstone
+x 2
 y 10
+end
+arch cwall_3_2
+x 2
+y 10
+end
+arch flagstone
+x 2
+y 11
+end
+arch cwall_3_2
+x 2
+y 11
+end
+arch flagstone
+x 2
+y 12
 end
 arch cwall_2_2_1
-y 10
+x 2
+y 12
+end
+arch grassdark
+x 2
+y 13
+end
+arch grassdark
+x 2
+y 14
+end
+arch sea
+x 3
+end
+arch grassdark
+x 3
+y 1
 end
 arch flagstone
-x 1
+x 3
+y 2
 end
 arch cwall_3_3
-x 1
+x 3
+y 2
 end
 arch flagstone
-x 1
-y 1
+x 3
+y 3
 end
 arch cwall_4
-x 1
-y 1
-end
-arch flagstone
-x 1
-y 2
-end
-arch cwall_3_4
-x 1
-y 2
-end
-arch flagstone
-x 1
-y 3
-end
-arch cwall_3_4
-x 1
+x 3
 y 3
 end
 arch flagstone
-x 1
+x 3
 y 4
 end
 arch cwall_3_4
-x 1
+x 3
 y 4
 end
 arch flagstone
-x 1
+x 3
 y 5
 end
 arch cwall_3_4
-x 1
+x 3
 y 5
 end
 arch flagstone
-x 1
+x 3
 y 6
 end
 arch cwall_3_4
-x 1
+x 3
 y 6
 end
 arch flagstone
-x 1
+x 3
 y 7
 end
 arch cwall_3_4
-x 1
+x 3
 y 7
 end
 arch flagstone
-x 1
+x 3
 y 8
 end
 arch cwall_3_4
-x 1
+x 3
 y 8
 end
 arch flagstone
-x 1
+x 3
 y 9
+end
+arch cwall_3_4
+x 3
+y 9
+end
+arch flagstone
+x 3
+y 10
+end
+arch cwall_3_4
+x 3
+y 10
+end
+arch flagstone
+x 3
+y 11
 end
 arch cwall_4
-x 1
-y 9
+x 3
+y 11
 end
 arch flagstone
-x 1
-y 10
+x 3
+y 12
 end
 arch cwall_3_1
-x 1
-y 10
+x 3
+y 12
 end
-arch flagstone
-x 2
+arch grassdark
+x 3
+y 13
 end
-arch cwall_3_3
-x 2
+arch grassdark
+x 3
+y 14
 end
-arch flagstone
-x 2
+arch sea
+x 4
+end
+arch grassdark
+x 4
 y 1
 end
-arch cwall_3_1
-x 2
-y 1
-end
-arch marble
-x 2
+arch flagstone
+x 4
 y 2
 end
-arch marble
-x 2
+arch cwall_3_3
+x 4
+y 2
+end
+arch flagstone
+x 4
+y 3
+end
+arch cwall_3_1
+x 4
 y 3
 end
 arch marble
-x 2
+x 4
 y 4
 end
 arch marble
-x 2
+x 4
 y 5
 end
 arch marble
-x 2
+x 4
 y 6
 end
 arch marble
-x 2
+x 4
 y 7
 end
 arch marble
-x 2
+x 4
 y 8
 end
-arch flagstone
-x 2
+arch marble
+x 4
 y 9
-end
-arch cwall_3_3
-x 2
-y 9
-end
-arch flagstone
-x 2
-y 10
-end
-arch cwall_3_1
-x 2
-y 10
-end
-arch flagstone
-x 3
-end
-arch cwall_3_3
-x 3
-end
-arch flagstone
-x 3
-y 1
-end
-arch cwall_3_1
-x 3
-y 1
 end
 arch marble
-x 3
+x 4
+y 10
+end
+arch flagstone
+x 4
+y 11
+end
+arch cwall_3_3
+x 4
+y 11
+end
+arch flagstone
+x 4
+y 12
+end
+arch cwall_3_1
+x 4
+y 12
+end
+arch grassdark
+x 4
+y 13
+end
+arch grassdark
+x 4
+y 14
+end
+arch sea
+x 5
+end
+arch grassdark
+x 5
+y 1
+end
+arch flagstone
+x 5
+y 2
+end
+arch cwall_3_3
+x 5
 y 2
 end
 arch flagstone
-x 3
+x 5
 y 3
 end
-arch cwall_0
-x 3
+arch cwall_3_1
+x 5
 y 3
 end
 arch marble
-x 3
+x 5
 y 4
 end
-arch marble
-x 3
+arch flagstone
+x 5
+y 5
+end
+arch cwall_0
+x 5
 y 5
 end
 arch marble
-x 3
+x 5
 y 6
 end
-arch flagstone
-x 3
-y 7
-end
-arch cwall_0
-x 3
+arch marble
+x 5
 y 7
 end
 arch marble
-x 3
+x 5
 y 8
 end
 arch flagstone
-x 3
+x 5
 y 9
 end
-arch cwall_3_3
-x 3
+arch cwall_0
+x 5
 y 9
 end
-arch flagstone
-x 3
-y 10
-end
-arch cwall_3_1
-x 3
+arch marble
+x 5
 y 10
 end
 arch flagstone
-x 4
+x 5
+y 11
 end
 arch cwall_3_3
-x 4
+x 5
+y 11
 end
 arch flagstone
-x 4
-y 1
+x 5
+y 12
 end
 arch cwall_3_1
-x 4
+x 5
+y 12
+end
+arch grassdark
+x 5
+y 13
+end
+arch grassdark
+x 5
+y 14
+end
+arch sea
+x 6
+end
+arch grassdark
+x 6
 y 1
 end
 arch flagstone
-x 4
+x 6
 y 2
+end
+arch cwall_3_3
+x 6
+y 2
+end
+arch flagstone
+x 6
+y 3
+end
+arch cwall_3_1
+x 6
+y 3
+end
+arch flagstone
+x 6
+y 4
 end
 arch dwarf_priest
 name gnomish priest
@@ -306,472 +508,740 @@ msg
 @match *
 Welcome to our humble shrine...
 endmsg
-x 4
-y 2
-end
-arch marble
-x 4
-y 3
-end
-arch marble
-x 4
+x 6
 y 4
 end
 arch marble
-x 4
+x 6
 y 5
 end
 arch marble
-x 4
+x 6
 y 6
+end
+arch marble
+x 6
+y 7
+end
+arch marble
+x 6
+y 8
 end
 arch gnome
 name gnome
-x 4
-y 6
+x 6
+y 8
 friendly 1
 random_movement 0
 end
 arch marble
-x 4
-y 7
+x 6
+y 9
 end
 arch marble
-x 4
-y 8
+x 6
+y 10
 end
 arch flagstone
-x 4
-y 9
+x 6
+y 11
 end
 arch cwall_2_2_3
-x 4
-y 9
+x 6
+y 11
 end
 arch flagstone
-x 4
-y 10
+x 6
+y 12
 end
 arch cwall_3_1
-x 4
-y 10
+x 6
+y 12
+end
+arch grassdark
+x 6
+y 13
+end
+arch grassdark
+x 6
+y 14
+end
+arch sea
+x 7
+end
+arch grassdark
+x 7
+y 1
 end
 arch flagstone
-x 5
+x 7
+y 2
 end
 arch cwall_3_3
-x 5
+x 7
+y 2
 end
 arch flagstone
-x 5
-y 1
+x 7
+y 3
 end
 arch cwall_3_1
-x 5
-y 1
-end
-arch flagstone
-x 5
-y 2
-end
-arch altar_mostrai
-x 5
-y 2
-end
-arch flagstone
-x 5
+x 7
 y 3
 end
 arch flagstone
-x 5
+x 7
+y 4
+end
+arch altar_mostrai
+x 7
 y 4
 end
 arch flagstone
-x 5
+x 7
 y 5
 end
 arch flagstone
-x 5
+x 7
 y 6
 end
 arch flagstone
-x 5
+x 7
 y 7
 end
 arch flagstone
-x 5
+x 7
 y 8
 end
 arch flagstone
-x 5
+x 7
 y 9
+end
+arch flagstone
+x 7
+y 10
+end
+arch flagstone
+x 7
+y 11
 end
 arch oakdoor
 slaying /ElvenLands/Darkoth/darkland
 hp 41
 sp 40
-x 5
-y 9
+x 7
+y 11
 end
 arch flagstone
-x 5
-y 10
+x 7
+y 12
 end
-arch cwall_3_3
-x 5
-y 10
+arch cwall_2_1_2
+x 7
+y 12
 end
-arch flagstone
-x 6
+arch grassdark
+x 7
+y 13
 end
-arch cwall_3_3
-x 6
+arch grassdark
+x 7
+y 14
 end
-arch flagstone
-x 6
+arch sea
+x 8
+end
+arch grassdark
+x 8
 y 1
 end
-arch cwall_3_1
-x 6
-y 1
-end
 arch flagstone
-x 6
+x 8
 y 2
 end
-arch marble
-x 6
+arch cwall_3_3
+x 8
+y 2
+end
+arch flagstone
+x 8
 y 3
 end
-arch marble
-x 6
+arch cwall_3_1
+x 8
+y 3
+end
+arch flagstone
+x 8
 y 4
 end
 arch marble
-x 6
+x 8
 y 5
 end
 arch marble
-x 6
+x 8
 y 6
 end
 arch marble
-x 6
+x 8
 y 7
 end
 arch marble
-x 6
+x 8
 y 8
 end
-arch flagstone
-x 6
+arch marble
+x 8
 y 9
+end
+arch marble
+x 8
+y 10
+end
+arch flagstone
+x 8
+y 11
 end
 arch cwall_2_2_2
-x 6
-y 9
+x 8
+y 11
 end
 arch flagstone
-x 6
-y 10
+x 8
+y 12
 end
 arch cwall_3_1
-x 6
-y 10
+x 8
+y 12
+end
+arch grassdark
+x 8
+y 13
+end
+arch grassdark
+x 8
+y 14
+end
+arch sea
+x 9
+end
+arch grassdark
+x 9
+y 1
 end
 arch flagstone
-x 7
+x 9
+y 2
 end
 arch cwall_3_3
-x 7
-end
-arch flagstone
-x 7
-y 1
-end
-arch cwall_3_1
-x 7
-y 1
-end
-arch marble
-x 7
+x 9
 y 2
 end
 arch flagstone
-x 7
+x 9
 y 3
+end
+arch cwall_3_1
+x 9
+y 3
+end
+arch marble
+x 9
+y 4
+end
+arch flagstone
+x 9
+y 5
 end
 arch cwall_0
-x 7
-y 3
-end
-arch marble
-x 7
-y 4
-end
-arch marble
-x 7
+x 9
 y 5
 end
 arch marble
-x 7
+x 9
 y 6
 end
-arch flagstone
-x 7
+arch marble
+x 9
 y 7
+end
+arch marble
+x 9
+y 8
+end
+arch flagstone
+x 9
+y 9
 end
 arch cwall_0
-x 7
-y 7
+x 9
+y 9
 end
 arch marble
-x 7
-y 8
-end
-arch flagstone
-x 7
-y 9
-end
-arch cwall_3_3
-x 7
-y 9
-end
-arch flagstone
-x 7
-y 10
-end
-arch cwall_3_1
-x 7
+x 9
 y 10
 end
 arch flagstone
-x 8
+x 9
+y 11
 end
 arch cwall_3_3
-x 8
+x 9
+y 11
 end
 arch flagstone
-x 8
-y 1
+x 9
+y 12
 end
 arch cwall_3_1
-x 8
+x 9
+y 12
+end
+arch grassdark
+x 9
+y 13
+end
+arch grassdark
+x 9
+y 14
+end
+arch sea
+x 10
+end
+arch grassdark
+x 10
 y 1
 end
-arch marble
-x 8
+arch flagstone
+x 10
 y 2
 end
-arch marble
-x 8
-y 3
-end
-arch marble
-x 8
-y 4
-end
-arch marble
-x 8
-y 5
-end
-arch marble
-x 8
-y 6
-end
-arch marble
-x 8
-y 7
-end
-arch marble
-x 8
-y 8
-end
-arch flagstone
-x 8
-y 9
-end
 arch cwall_3_3
-x 8
-y 9
-end
-arch flagstone
-x 8
-y 10
-end
-arch cwall_3_1
-x 8
-y 10
-end
-arch flagstone
-x 9
-end
-arch cwall_3_3
-x 9
-end
-arch flagstone
-x 9
-y 1
-end
-arch cwall_4
-x 9
-y 1
-end
-arch flagstone
-x 9
-y 2
-end
-arch cwall_3_2
-x 9
+x 10
 y 2
 end
 arch flagstone
-x 9
+x 10
 y 3
-end
-arch cwall_3_2
-x 9
-y 3
-end
-arch flagstone
-x 9
-y 4
-end
-arch cwall_3_2
-x 9
-y 4
-end
-arch flagstone
-x 9
-y 5
-end
-arch cwall_3_2
-x 9
-y 5
-end
-arch flagstone
-x 9
-y 6
-end
-arch cwall_3_2
-x 9
-y 6
-end
-arch flagstone
-x 9
-y 7
-end
-arch cwall_3_2
-x 9
-y 7
-end
-arch flagstone
-x 9
-y 8
-end
-arch cwall_3_2
-x 9
-y 8
-end
-arch flagstone
-x 9
-y 9
-end
-arch cwall_4
-x 9
-y 9
-end
-arch flagstone
-x 9
-y 10
 end
 arch cwall_3_1
-x 9
+x 10
+y 3
+end
+arch marble
+x 10
+y 4
+end
+arch marble
+x 10
+y 5
+end
+arch marble
+x 10
+y 6
+end
+arch marble
+x 10
+y 7
+end
+arch marble
+x 10
+y 8
+end
+arch marble
+x 10
+y 9
+end
+arch marble
+x 10
 y 10
 end
 arch flagstone
 x 10
+y 11
+end
+arch cwall_3_3
+x 10
+y 11
+end
+arch flagstone
+x 10
+y 12
+end
+arch cwall_3_1
+x 10
+y 12
+end
+arch grassdark
+x 10
+y 13
+end
+arch grassdark
+x 10
+y 14
+end
+arch sea
+x 11
+end
+arch grassdark
+x 11
+y 1
+end
+arch flagstone
+x 11
+y 2
+end
+arch cwall_3_3
+x 11
+y 2
+end
+arch flagstone
+x 11
+y 3
+end
+arch cwall_4
+x 11
+y 3
+end
+arch flagstone
+x 11
+y 4
+end
+arch cwall_3_2
+x 11
+y 4
+end
+arch flagstone
+x 11
+y 5
+end
+arch cwall_3_2
+x 11
+y 5
+end
+arch flagstone
+x 11
+y 6
+end
+arch cwall_3_2
+x 11
+y 6
+end
+arch flagstone
+x 11
+y 7
+end
+arch cwall_3_2
+x 11
+y 7
+end
+arch flagstone
+x 11
+y 8
+end
+arch cwall_3_2
+x 11
+y 8
+end
+arch flagstone
+x 11
+y 9
+end
+arch cwall_3_2
+x 11
+y 9
+end
+arch flagstone
+x 11
+y 10
+end
+arch cwall_3_2
+x 11
+y 10
+end
+arch flagstone
+x 11
+y 11
+end
+arch cwall_4
+x 11
+y 11
+end
+arch flagstone
+x 11
+y 12
+end
+arch cwall_3_1
+x 11
+y 12
+end
+arch grassdark
+x 11
+y 13
+end
+arch grassdark
+x 11
+y 14
+end
+arch sea
+x 12
+end
+arch grassdark
+x 12
+y 1
+end
+arch flagstone
+x 12
+y 2
 end
 arch cwall_2_2_3
-x 10
-end
-arch flagstone
-x 10
-y 1
-end
-arch cwall_3_4
-x 10
-y 1
-end
-arch flagstone
-x 10
-y 2
-end
-arch cwall_3_4
-x 10
+x 12
 y 2
 end
 arch flagstone
-x 10
+x 12
 y 3
 end
 arch cwall_3_4
-x 10
+x 12
 y 3
 end
 arch flagstone
-x 10
+x 12
 y 4
 end
 arch cwall_3_4
-x 10
+x 12
 y 4
 end
 arch flagstone
-x 10
+x 12
 y 5
 end
 arch cwall_3_4
-x 10
+x 12
 y 5
 end
 arch flagstone
-x 10
+x 12
 y 6
 end
 arch cwall_3_4
-x 10
+x 12
 y 6
 end
 arch flagstone
-x 10
+x 12
 y 7
 end
 arch cwall_3_4
-x 10
+x 12
 y 7
 end
 arch flagstone
-x 10
+x 12
 y 8
 end
 arch cwall_3_4
-x 10
+x 12
 y 8
 end
 arch flagstone
-x 10
+x 12
 y 9
 end
 arch cwall_3_4
-x 10
+x 12
 y 9
 end
 arch flagstone
-x 10
+x 12
 y 10
+end
+arch cwall_3_4
+x 12
+y 10
+end
+arch flagstone
+x 12
+y 11
+end
+arch cwall_3_4
+x 12
+y 11
+end
+arch flagstone
+x 12
+y 12
 end
 arch cwall_2_2_4
-x 10
+x 12
+y 12
+end
+arch grassdark
+x 12
+y 13
+end
+arch fernssparse
+x 12
+y 13
+end
+arch grassdark
+x 12
+y 14
+end
+arch fernssparse
+x 12
+y 14
+end
+arch sea
+x 13
+end
+arch grassdark
+x 13
+y 1
+end
+arch grassdark
+x 13
+y 2
+end
+arch grassdark
+x 13
+y 3
+end
+arch grassdark
+x 13
+y 4
+end
+arch grassdark
+x 13
+y 5
+end
+arch grassdark
+x 13
+y 6
+end
+arch grassdark
+x 13
+y 7
+end
+arch grassdark
+x 13
+y 8
+end
+arch grassdark
+x 13
+y 9
+end
+arch grassdark
+x 13
 y 10
+end
+arch grassdark
+x 13
+y 11
+end
+arch grassdark
+x 13
+y 12
+end
+arch fernssparse
+x 13
+y 12
+end
+arch grassdark
+x 13
+y 13
+end
+arch fernssparse
+x 13
+y 13
+end
+arch grassdark
+x 13
+y 14
+end
+arch fernssparse
+x 13
+y 14
+end
+arch sea
+x 14
+end
+arch grassdark
+x 14
+y 1
+end
+arch grassdark
+x 14
+y 2
+end
+arch grassdark
+x 14
+y 3
+end
+arch grassdark
+x 14
+y 4
+end
+arch grassdark
+x 14
+y 5
+end
+arch grassdark
+x 14
+y 6
+end
+arch grassdark
+x 14
+y 7
+end
+arch grassdark
+x 14
+y 8
+end
+arch grassdark
+x 14
+y 9
+end
+arch grassdark
+x 14
+y 10
+end
+arch fernssparse
+x 14
+y 10
+end
+arch grassdark
+x 14
+y 11
+end
+arch fernssparse
+x 14
+y 11
+end
+arch grassdark
+x 14
+y 12
+end
+arch fernssparse
+x 14
+y 12
+end
+arch grassdark
+x 14
+y 13
+end
+arch fernssparse
+x 14
+y 13
+end
+arch grassdark
+x 14
+y 14
+end
+arch fernssparse
+x 14
+y 14
 end
