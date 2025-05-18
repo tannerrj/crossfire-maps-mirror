@@ -10,7 +10,7 @@ enter_x 3
 enter_y 22
 msg
 Created:  2021-02-03 Nicolas Weeger
-Modified: 2025-05-17 Rick Tanner
+Modified: 2025-05-18 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -232,6 +232,10 @@ arch whiteslate
 x 1
 y 18
 end
+arch swall_1_4_half
+x 1
+y 18
+end
 arch stwallred_2_1_1
 x 1
 y 18
@@ -363,7 +367,7 @@ arch whiteslate
 x 2
 y 18
 end
-arch swall_1_4
+arch swall_2_1_2
 x 2
 y 18
 end
@@ -1932,7 +1936,7 @@ arch whiteslate
 x 15
 y 18
 end
-arch swall_1_3
+arch swall_2_1_2
 x 15
 y 18
 end
@@ -2077,6 +2081,10 @@ x 16
 y 17
 end
 arch whiteslate
+x 16
+y 18
+end
+arch swall_1_3_half
 x 16
 y 18
 end
