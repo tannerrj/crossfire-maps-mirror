@@ -12,7 +12,7 @@ enter_x 40
 enter_y 21
 msg
 Created: 2012-04-01 Rick Tanner
-Modified: 2025-05-22 Rick Tanner
+Modified: 2025-05-23 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -5346,6 +5346,7 @@ x 30
 y 8
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 30
 y 8
 end
@@ -5370,6 +5371,7 @@ x 30
 y 10
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 30
 y 10
 end
@@ -5394,6 +5396,7 @@ x 30
 y 12
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 30
 y 12
 end
@@ -5418,6 +5421,7 @@ x 30
 y 14
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 30
 y 14
 end
@@ -8029,6 +8033,7 @@ x 42
 y 8
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 42
 y 8
 end
@@ -8053,6 +8058,7 @@ x 42
 y 10
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 42
 y 10
 end
@@ -8077,6 +8083,7 @@ x 42
 y 12
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 42
 y 12
 end
@@ -8101,6 +8108,7 @@ x 42
 y 14
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 42
 y 14
 end
@@ -8125,6 +8133,7 @@ x 42
 y 16
 end
 arch rune_transferrence
+Cha 1
 x 42
 y 16
 end
