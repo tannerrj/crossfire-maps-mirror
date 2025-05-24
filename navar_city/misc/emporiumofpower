@@ -12,7 +12,7 @@ enter_x 40
 enter_y 21
 msg
 Created: 2012-04-01 Rick Tanner
-Modified: 2025-05-23 Rick Tanner
+Modified: 2025-05-24 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -6261,10 +6261,6 @@ arch light4
 x 34
 y 14
 end
-arch magic_banned
-x 34
-y 14
-end
 arch dungeon_magic
 x 34
 y 14
@@ -6277,10 +6273,6 @@ arch longtable_1_1
 x 34
 y 14
 move_block all
-end
-arch magic_banned
-x 34
-y 15
 end
 arch dungeon_magic
 x 34
@@ -6514,10 +6506,6 @@ arch woodfloor
 x 35
 y 14
 end
-arch magic_banned
-x 35
-y 15
-end
 arch dungeon_magic
 x 35
 y 15
@@ -6748,10 +6736,6 @@ x 36
 y 14
 level 50
 unaggressive 1
-end
-arch magic_banned
-x 36
-y 15
 end
 arch dungeon_magic
 x 36
@@ -7011,10 +6995,6 @@ arch woodfloor
 x 37
 y 14
 end
-arch magic_banned
-x 37
-y 15
-end
 arch dungeon_magic
 x 37
 y 15
@@ -7248,10 +7228,6 @@ arch light4
 x 38
 y 14
 end
-arch magic_banned
-x 38
-y 14
-end
 arch dungeon_magic
 x 38
 y 14
@@ -7264,10 +7240,6 @@ arch longtable_1_1
 x 38
 y 14
 move_block all
-end
-arch magic_banned
-x 38
-y 15
 end
 arch dungeon_magic
 x 38
