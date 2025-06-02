@@ -8,7 +8,7 @@ enter_x 6
 enter_y 2
 msg
 Created:  2007-04-16
-Modified: 2008-09-20 Rick Tanner
+Modified: 2025-06-02 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -86,7 +86,7 @@ end
 arch grass
 x 1
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 1
 end
@@ -94,7 +94,7 @@ arch woodwall_2_2_2
 x 1
 y 1
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 2
 end
@@ -102,7 +102,7 @@ arch woodwall_2_1_1
 x 1
 y 2
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 3
 end
@@ -110,7 +110,7 @@ arch woodwall_2_1_1
 x 1
 y 3
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 4
 end
@@ -118,7 +118,7 @@ arch woodwall_2_1_1
 x 1
 y 4
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 5
 end
@@ -126,7 +126,7 @@ arch woodwall_2_1_1
 x 1
 y 5
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 6
 end
@@ -134,7 +134,7 @@ arch woodwall_2_1_1
 x 1
 y 6
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 7
 end
@@ -146,7 +146,7 @@ arch woodwall_win1
 x 1
 y 7
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 8
 end
@@ -154,7 +154,7 @@ arch woodwall_2_1_1
 x 1
 y 8
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 9
 end
@@ -162,7 +162,7 @@ arch woodwall_2_1_1
 x 1
 y 9
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 10
 end
@@ -170,7 +170,7 @@ arch woodwall_2_1_1
 x 1
 y 10
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 11
 end
@@ -178,7 +178,7 @@ arch woodwall_2_1_1
 x 1
 y 11
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 12
 end
@@ -186,7 +186,7 @@ arch woodwall_2_1_1
 x 1
 y 12
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 13
 end
@@ -194,7 +194,7 @@ arch woodwall_2_1_1
 x 1
 y 13
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 14
 end
@@ -202,7 +202,7 @@ arch woodwall_2_1_1
 x 1
 y 14
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 15
 end
@@ -210,7 +210,7 @@ arch woodwall_3_2
 x 1
 y 15
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 16
 end
@@ -222,7 +222,7 @@ arch woodwall_win1
 x 1
 y 16
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 17
 end
@@ -230,7 +230,7 @@ arch woodwall_2_1_1
 x 1
 y 17
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 18
 end
@@ -238,7 +238,7 @@ arch woodwall_2_1_1
 x 1
 y 18
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 19
 end
@@ -246,7 +246,7 @@ arch woodwall_2_1_1
 x 1
 y 19
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 20
 end
@@ -254,7 +254,7 @@ arch woodwall_2_1_1
 x 1
 y 20
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 21
 end
@@ -262,7 +262,7 @@ arch woodwall_2_1_1
 x 1
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 1
 y 22
 end
@@ -277,7 +277,7 @@ end
 arch grass
 x 2
 end
-arch woodfloor
+arch stonefloor2
 x 2
 y 1
 end
@@ -383,7 +383,7 @@ arch tile_white_floor
 x 2
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 2
 y 22
 end
@@ -398,7 +398,7 @@ end
 arch grass
 x 3
 end
-arch woodfloor
+arch stonefloor2
 x 3
 y 1
 end
@@ -536,7 +536,7 @@ arch stove
 x 3
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 3
 y 22
 end
@@ -555,7 +555,7 @@ end
 arch grass
 x 4
 end
-arch woodfloor
+arch stonefloor2
 x 4
 y 1
 end
@@ -691,7 +691,7 @@ arch tile_white_floor
 x 4
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 4
 y 22
 end
@@ -713,7 +713,7 @@ sp 39
 x 5
 y 1
 end
-arch woodfloor
+arch stonefloor2
 x 5
 y 1
 end
@@ -878,7 +878,7 @@ arch woodwall_2_1_1
 x 5
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 5
 y 22
 end
@@ -900,7 +900,7 @@ sp 39
 x 6
 y 1
 end
-arch woodfloor
+arch stonefloor2
 x 6
 y 1
 end
@@ -1024,7 +1024,7 @@ arch woodfloor
 x 6
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 6
 y 22
 end
@@ -1039,7 +1039,7 @@ end
 arch grass
 x 7
 end
-arch woodfloor
+arch stonefloor2
 x 7
 y 1
 end
@@ -1183,7 +1183,7 @@ title Python
 slaying /python/maps/navar-midane_pickup.py
 end
 end
-arch woodfloor
+arch stonefloor2
 x 7
 y 22
 end
@@ -1198,7 +1198,7 @@ end
 arch grass
 x 8
 end
-arch woodfloor
+arch stonefloor2
 x 8
 y 1
 end
@@ -1328,7 +1328,7 @@ title Python
 slaying /python/maps/navar-midane_pickup.py
 end
 end
-arch woodfloor
+arch stonefloor2
 x 8
 y 22
 end
@@ -1347,7 +1347,7 @@ end
 arch grass
 x 9
 end
-arch woodfloor
+arch stonefloor2
 x 9
 y 1
 end
@@ -1466,7 +1466,7 @@ arch woodfloor
 x 9
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 9
 y 22
 end
@@ -1481,7 +1481,7 @@ end
 arch grass
 x 10
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 1
 end
@@ -1489,7 +1489,7 @@ arch woodwall_2_2_3
 x 10
 y 1
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 2
 end
@@ -1497,7 +1497,7 @@ arch woodwall_2_1_1
 x 10
 y 2
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 3
 end
@@ -1505,7 +1505,7 @@ arch woodwall_2_1_1
 x 10
 y 3
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 4
 end
@@ -1513,7 +1513,7 @@ arch woodwall_2_1_1
 x 10
 y 4
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 5
 end
@@ -1521,7 +1521,7 @@ arch woodwall_2_1_1
 x 10
 y 5
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 6
 end
@@ -1529,7 +1529,7 @@ arch woodwall_2_1_1
 x 10
 y 6
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 7
 end
@@ -1541,7 +1541,7 @@ arch woodwall_win1
 x 10
 y 7
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 8
 end
@@ -1549,7 +1549,7 @@ arch woodwall_2_1_1
 x 10
 y 8
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 9
 end
@@ -1557,7 +1557,7 @@ arch woodwall_3_4
 x 10
 y 9
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 10
 end
@@ -1565,7 +1565,7 @@ arch woodwall_2_1_1
 x 10
 y 10
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 11
 end
@@ -1573,7 +1573,7 @@ arch woodwall_2_1_1
 x 10
 y 11
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 12
 end
@@ -1581,7 +1581,7 @@ arch woodwall_2_1_1
 x 10
 y 12
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 13
 end
@@ -1589,7 +1589,7 @@ arch woodwall_2_1_1
 x 10
 y 13
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 14
 end
@@ -1597,7 +1597,7 @@ arch woodwall_2_1_1
 x 10
 y 14
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 15
 end
@@ -1605,7 +1605,7 @@ arch woodwall_2_1_1
 x 10
 y 15
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 16
 end
@@ -1617,7 +1617,7 @@ arch woodwall_win1
 x 10
 y 16
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 17
 end
@@ -1625,7 +1625,7 @@ arch woodwall_2_1_1
 x 10
 y 17
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 18
 end
@@ -1633,7 +1633,7 @@ arch woodwall_2_1_1
 x 10
 y 18
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 19
 end
@@ -1641,7 +1641,7 @@ arch woodwall_2_1_1
 x 10
 y 19
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 20
 end
@@ -1649,7 +1649,7 @@ arch woodwall_2_1_1
 x 10
 y 20
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 21
 end
@@ -1657,7 +1657,7 @@ arch woodwall_2_1_1
 x 10
 y 21
 end
-arch woodfloor
+arch stonefloor2
 x 10
 y 22
 end
