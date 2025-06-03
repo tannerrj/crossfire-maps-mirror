@@ -8,7 +8,7 @@ enter_x 10
 enter_y 10
 msg
 Created:  2002-12-29
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-06-03 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -122,7 +122,7 @@ arch grass_only
 x 2
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 2
 end
@@ -130,7 +130,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 3
 end
@@ -138,7 +138,7 @@ arch wall_2_1_1
 x 2
 y 3
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 4
 end
@@ -146,7 +146,7 @@ arch wall_2_1_1
 x 2
 y 4
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 5
 end
@@ -154,7 +154,7 @@ arch wall_2_1_1
 x 2
 y 5
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 6
 end
@@ -166,7 +166,7 @@ arch light2
 x 2
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 7
 end
@@ -174,7 +174,7 @@ arch window_win1
 x 2
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 8
 end
@@ -182,7 +182,7 @@ arch wall_2_1_1
 x 2
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 9
 end
@@ -190,7 +190,7 @@ arch wall_2_1_1
 x 2
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 10
 end
@@ -198,7 +198,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 11
 end
@@ -206,7 +206,7 @@ arch wall_2_1_1
 x 2
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 12
 end
@@ -229,7 +229,7 @@ arch grass_only
 x 3
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 2
 end
@@ -297,7 +297,7 @@ arch flagstone
 x 3
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 12
 end
@@ -320,7 +320,7 @@ arch grass_only
 x 4
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 2
 end
@@ -396,7 +396,7 @@ arch hide_black
 x 4
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 12
 end
@@ -419,7 +419,7 @@ arch grass_only
 x 5
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 2
 end
@@ -507,7 +507,7 @@ arch wall_1_1
 x 5
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 12
 end
@@ -530,7 +530,7 @@ arch grass_only
 x 6
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 2
 end
@@ -588,7 +588,7 @@ arch light2
 x 6
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 12
 end
@@ -611,7 +611,7 @@ arch grass_only
 x 7
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 2
 end
@@ -707,7 +707,7 @@ food 2
 x 7
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 12
 end
@@ -730,7 +730,7 @@ arch grass_only
 x 8
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 2
 end
@@ -806,11 +806,9 @@ arch wall_1_1
 x 8
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 12
-no_magic 1
-damned 1
 end
 arch wall_3_1
 x 8
@@ -831,7 +829,7 @@ arch grass_only
 x 9
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 2
 end
@@ -901,11 +899,9 @@ arch brazier
 x 9
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 12
-no_magic 1
-damned 1
 end
 arch wall_1_3
 x 9
@@ -937,7 +933,7 @@ arch grass_only
 x 10
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1044,11 +1040,9 @@ x 10
 y 12
 connected 1
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 12
-no_magic 1
-damned 1
 end
 arch odoorn2_closed_1
 x 10
@@ -1081,7 +1075,7 @@ arch grass_only
 x 11
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 2
 end
@@ -1151,11 +1145,9 @@ arch brazier
 x 11
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 12
-no_magic 1
-damned 1
 end
 arch wall_1_4
 x 11
@@ -1187,7 +1179,7 @@ arch grass_only
 x 12
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 2
 end
@@ -1195,7 +1187,7 @@ arch wall_2_2_3
 x 12
 y 2
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 3
 end
@@ -1203,7 +1195,7 @@ arch wall_2_1_1
 x 12
 y 3
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 4
 end
@@ -1211,7 +1203,7 @@ arch wall_2_1_1
 x 12
 y 4
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 5
 end
@@ -1219,7 +1211,7 @@ arch wall_2_1_1
 x 12
 y 5
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 6
 end
@@ -1235,7 +1227,7 @@ arch light2
 x 12
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 7
 end
@@ -1243,7 +1235,7 @@ arch window_win1
 x 12
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 8
 end
@@ -1251,7 +1243,7 @@ arch wall_2_1_1
 x 12
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 9
 end
@@ -1259,7 +1251,7 @@ arch wall_2_1_1
 x 12
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 10
 end
@@ -1267,7 +1259,7 @@ arch wall_2_1_1
 x 12
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 11
 end
@@ -1275,7 +1267,7 @@ arch wall_2_1_1
 x 12
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 12
 end
