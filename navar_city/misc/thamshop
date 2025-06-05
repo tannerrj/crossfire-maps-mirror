@@ -10,7 +10,7 @@ enter_x 8
 enter_y 13
 msg
 Created:  2004-22-02 Avion
-Modified: 2012-05-03 Rick Tanner
+Modified: 2025-06-05 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -145,7 +145,7 @@ arch grass_only
 x 2
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 2
 end
@@ -153,7 +153,7 @@ arch bwall_2_2_2
 x 2
 y 2
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 3
 end
@@ -161,7 +161,7 @@ arch bwall_2_1_1
 x 2
 y 3
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 4
 end
@@ -169,7 +169,7 @@ arch bwall_2_1_1
 x 2
 y 4
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 5
 end
@@ -177,7 +177,7 @@ arch bwall_2_1_1
 x 2
 y 5
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 6
 end
@@ -185,7 +185,7 @@ arch bwall_2_1_1
 x 2
 y 6
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 7
 end
@@ -193,7 +193,7 @@ arch bwall_2_1_1
 x 2
 y 7
 end
-arch tile_white_floor
+arch flagstone
 x 2
 y 8
 end
@@ -205,7 +205,7 @@ arch bwall_2_1_1
 x 2
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 9
 end
@@ -221,7 +221,7 @@ arch light2
 x 2
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 10
 end
@@ -229,7 +229,7 @@ arch woodwall_win1
 x 2
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 11
 end
@@ -241,7 +241,7 @@ arch bwall_1_1
 x 2
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 12
 end
@@ -249,7 +249,7 @@ arch bwall_2_1_1
 x 2
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 13
 end
@@ -257,7 +257,7 @@ arch bwall_2_1_1
 x 2
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 14
 end
@@ -265,7 +265,7 @@ arch bwall_2_1_1
 x 2
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 15
 end
@@ -288,7 +288,7 @@ arch grass_only
 x 3
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 3
 y 2
 end
@@ -383,7 +383,7 @@ arch cobblestones2
 x 3
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 15
 end
@@ -406,7 +406,7 @@ arch grass_only
 x 4
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 4
 y 2
 end
@@ -470,7 +470,7 @@ arch cobblestones2
 x 4
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 15
 end
@@ -497,7 +497,7 @@ arch grass_only
 x 5
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 5
 y 2
 end
@@ -581,7 +581,7 @@ arch light2
 x 5
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 15
 end
@@ -604,7 +604,7 @@ arch grass_only
 x 6
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 6
 y 2
 end
@@ -705,7 +705,7 @@ arch cobblestones2
 x 6
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 15
 end
@@ -732,7 +732,7 @@ arch grass_only
 x 7
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 7
 y 2
 end
@@ -817,7 +817,7 @@ arch cobblestones2
 x 7
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 15
 end
@@ -851,7 +851,7 @@ arch grass_only
 x 8
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 8
 y 2
 end
@@ -925,7 +925,7 @@ x 8
 y 15
 connected 1
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 15
 end
@@ -960,7 +960,7 @@ arch grass_only
 x 9
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 9
 y 2
 end
@@ -1049,7 +1049,7 @@ arch cobblestones2
 x 9
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 15
 end
@@ -1083,7 +1083,7 @@ arch grass_only
 x 10
 y 1
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 2
 end
@@ -1091,7 +1091,7 @@ arch bwall_2_2_3
 x 10
 y 2
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 3
 end
@@ -1099,7 +1099,7 @@ arch bwall_2_1_1
 x 10
 y 3
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 4
 end
@@ -1107,7 +1107,7 @@ arch bwall_2_1_1
 x 10
 y 4
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 5
 end
@@ -1115,7 +1115,7 @@ arch bwall_2_1_1
 x 10
 y 5
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 6
 end
@@ -1123,7 +1123,7 @@ arch bwall_2_1_1
 x 10
 y 6
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 7
 end
@@ -1131,7 +1131,7 @@ arch bwall_2_1_1
 x 10
 y 7
 end
-arch tile_white_floor
+arch flagstone
 x 10
 y 8
 end
@@ -1143,7 +1143,7 @@ arch bwall_2_1_1
 x 10
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 9
 end
@@ -1159,7 +1159,7 @@ arch light2
 x 10
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 10
 end
@@ -1167,7 +1167,7 @@ arch woodwall_win1
 x 10
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 11
 end
@@ -1179,7 +1179,7 @@ arch bwall_1_1
 x 10
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 12
 end
@@ -1187,7 +1187,7 @@ arch bwall_2_1_1
 x 10
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 13
 end
@@ -1195,7 +1195,7 @@ arch bwall_2_1_1
 x 10
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 14
 end
@@ -1203,7 +1203,7 @@ arch bwall_2_1_1
 x 10
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 15
 end
