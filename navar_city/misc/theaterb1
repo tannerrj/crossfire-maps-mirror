@@ -10,103 +10,141 @@ enter_x 2
 enter_y 29
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-11-17 Rick Tanner
+Modified: 2025-06-07 Rick Tanner
 endmsg
 end
-arch blocked
+arch marble
 end
-arch blocked
+arch cave24
+end
+arch marble
 y 1
 end
-arch blocked
+arch cave3
+y 1
+end
+arch marble
 y 2
 end
-arch blocked
+arch cave23
+y 2
+end
+arch marble
 y 3
 end
-arch blocked
+arch cave_15
+y 3
+end
+arch marble
 y 4
 end
-arch blocked
+arch cave_15
+y 4
+end
+arch cave_15
 y 5
 end
-arch blocked
+arch cave_15
 y 6
 end
-arch blocked
+arch cave_15
 y 7
 end
-arch blocked
+arch cave_15
 y 8
 end
-arch blocked
+arch cave_15
 y 9
 end
-arch blocked
+arch cave_15
 y 10
 end
-arch blocked
+arch cave_15
 y 11
 end
-arch blocked
+arch cave_15
 y 12
 end
-arch blocked
+arch cave_15
 y 13
 end
-arch blocked
+arch cave_15
 y 14
 end
 arch minor_djinn
 y 15
 resist_fire 100
 end
-arch blocked
+arch cave_15
 y 17
 end
-arch blocked
+arch cave_15
 y 18
 end
-arch blocked
+arch cave_15
 y 19
 end
-arch blocked
+arch cave_15
 y 20
 end
-arch blocked
+arch cave_15
 y 21
 end
-arch blocked
+arch cave_15
 y 22
 end
-arch blocked
+arch cave_15
 y 23
 end
-arch blocked
+arch cave_15
 y 24
 end
-arch blocked
+arch marble
 y 25
 end
-arch blocked
+arch cave24
+y 25
+end
+arch marble
 y 26
 end
-arch blocked
+arch cave3
+y 26
+end
+arch marble
 y 27
 end
-arch blocked
+arch cave3
+y 27
+end
+arch marble
 y 28
 end
-arch blocked
+arch cave3
+y 28
+end
+arch marble
 y 29
 end
-arch blocked
+arch cave3
+y 29
+end
+arch marble
 y 30
 end
-arch blocked
+arch cave3
+y 30
+end
+arch marble
 y 31
 end
-arch blocked
+arch cave23
+y 31
+end
+arch marble
+x 1
+end
+arch cave4
 x 1
 end
 arch marble
@@ -141,95 +179,95 @@ arch marble
 x 1
 y 4
 end
-arch blocked
+arch cave_15
 x 1
 y 4
 end
-arch marble
+arch cave_15
 x 1
 y 5
 end
-arch blocked
-x 1
-y 5
-end
-arch blocked
+arch cave_15
 x 1
 y 6
 end
-arch blocked
+arch cave_15
 x 1
 y 7
 end
-arch blocked
+arch cave_15
 x 1
 y 8
 end
-arch blocked
+arch cave_15
 x 1
 y 9
 end
-arch blocked
+arch cave_15
 x 1
 y 10
 end
-arch blocked
+arch cave_15
 x 1
 y 11
 end
-arch blocked
+arch cave_15
 x 1
 y 12
 end
-arch blocked
+arch cave_15
 x 1
 y 13
 end
-arch blocked
+arch cave_15
 x 1
 y 14
 end
-arch blocked
+arch cave_15
 x 1
 y 15
 end
-arch blocked
+arch cave_15
 x 1
 y 16
 end
-arch blocked
+arch cave_15
 x 1
 y 17
 end
-arch blocked
+arch cave_15
 x 1
 y 18
 end
-arch blocked
+arch cave_15
 x 1
 y 19
 end
-arch blocked
+arch cave_15
 x 1
 y 20
 end
-arch blocked
+arch cave_15
 x 1
 y 21
 end
-arch blocked
+arch cave_15
 x 1
 y 22
 end
-arch blocked
+arch cave_15
 x 1
 y 23
 end
-arch blocked
+arch cave_15
 x 1
 y 24
 end
-arch blocked
+arch marble
+x 1
+y 25
+end
+arch cave4
 x 1
 y 25
 end
@@ -273,11 +311,18 @@ arch westcwall_2_2_1
 x 1
 y 30
 end
-arch blocked
+arch marble
 x 1
 y 31
 end
-arch blocked
+arch cave2
+x 1
+y 31
+end
+arch marble
+x 2
+end
+arch cave4
 x 2
 end
 arch marble
@@ -300,7 +345,7 @@ arch cave16
 x 2
 y 3
 end
-arch permanent_lava
+arch marble
 x 2
 y 4
 end
@@ -320,83 +365,167 @@ arch cave3
 x 2
 y 5
 end
-arch blocked
+arch marble
 x 2
 y 6
 end
-arch blocked
+arch cave3
+x 2
+y 6
+end
+arch marble
 x 2
 y 7
 end
-arch blocked
+arch cave3
+x 2
+y 7
+end
+arch marble
 x 2
 y 8
 end
-arch blocked
+arch cave3
+x 2
+y 8
+end
+arch marble
 x 2
 y 9
 end
-arch blocked
+arch cave3
+x 2
+y 9
+end
+arch marble
 x 2
 y 10
 end
-arch blocked
+arch cave3
+x 2
+y 10
+end
+arch marble
 x 2
 y 11
 end
-arch blocked
+arch cave3
+x 2
+y 11
+end
+arch marble
 x 2
 y 12
 end
-arch blocked
+arch cave3
+x 2
+y 12
+end
+arch marble
 x 2
 y 13
 end
-arch blocked
+arch cave3
+x 2
+y 13
+end
+arch marble
 x 2
 y 14
 end
-arch blocked
+arch cave3
+x 2
+y 14
+end
+arch marble
 x 2
 y 15
 end
-arch blocked
+arch cave3
+x 2
+y 15
+end
+arch marble
 x 2
 y 16
 end
-arch blocked
+arch cave3
+x 2
+y 16
+end
+arch marble
 x 2
 y 17
 end
-arch blocked
+arch cave3
+x 2
+y 17
+end
+arch marble
 x 2
 y 18
 end
-arch blocked
+arch cave3
+x 2
+y 18
+end
+arch marble
 x 2
 y 19
 end
-arch blocked
+arch cave3
+x 2
+y 19
+end
+arch marble
 x 2
 y 20
 end
-arch blocked
+arch cave3
+x 2
+y 20
+end
+arch cave3
+x 2
+y 20
+end
+arch marble
 x 2
 y 21
 end
-arch blocked
+arch cave3
+x 2
+y 21
+end
+arch marble
 x 2
 y 22
 end
-arch blocked
+arch cave3
+x 2
+y 22
+end
+arch marble
 x 2
 y 23
 end
-arch blocked
+arch cave3
+x 2
+y 23
+end
+arch marble
 x 2
 y 24
 end
-arch blocked
+arch cave3
+x 2
+y 24
+end
+arch marble
+x 2
+y 25
+end
+arch cave9
 x 2
 y 25
 end
@@ -435,11 +564,18 @@ arch westcwall_2_1_2
 x 2
 y 30
 end
-arch blocked
+arch marble
 x 2
 y 31
 end
-arch blocked
+arch cave2
+x 2
+y 31
+end
+arch marble
+x 3
+end
+arch cave4
 x 3
 end
 arch marble
@@ -658,11 +794,18 @@ arch westcwall_2_1_2
 x 3
 y 30
 end
-arch blocked
+arch marble
 x 3
 y 31
 end
-arch blocked
+arch cave2
+x 3
+y 31
+end
+arch marble
+x 4
+end
+arch cave4
 x 4
 end
 arch marble
@@ -819,11 +962,18 @@ arch westcwall_2_1_2
 x 4
 y 30
 end
-arch blocked
+arch marble
 x 4
 y 31
 end
-arch blocked
+arch cave2
+x 4
+y 31
+end
+arch marble
+x 5
+end
+arch cave4
 x 5
 end
 arch marble
@@ -997,18 +1147,33 @@ arch westcwall_2_2_4
 x 5
 y 30
 end
-arch blocked
+arch marble
 x 5
 y 31
 end
-arch blocked
+arch cave2
+x 5
+y 31
+end
+arch marble
 x 6
 end
-arch blocked
+arch cave25
+x 6
+end
+arch marble
 x 6
 y 1
 end
-arch blocked
+arch cave1
+x 6
+y 1
+end
+arch marble
+x 6
+y 2
+end
+arch cave10
 x 6
 y 2
 end
@@ -1164,26 +1329,42 @@ arch westcwall_2_1_2
 x 6
 y 28
 end
-arch blocked
+arch marble
 x 6
 y 29
 end
-arch blocked
+arch cave11
+x 6
+y 29
+end
+arch marble
 x 6
 y 30
 end
-arch blocked
+arch cave1
+x 6
+y 30
+end
+arch marble
 x 6
 y 31
 end
-arch blocked
+arch cave22
+x 6
+y 31
+end
+arch cave_15
 x 7
 end
-arch blocked
+arch cave_15
 x 7
 y 1
 end
-arch blocked
+arch marble
+x 7
+y 2
+end
+arch cave4
 x 7
 y 2
 end
@@ -1331,29 +1512,33 @@ arch westcwall_2_1_2
 x 7
 y 28
 end
-arch blocked
+arch marble
 x 7
 y 29
 end
-arch blocked
+arch cave2
+x 7
+y 29
+end
+arch cave_15
 x 7
 y 30
 end
-arch blocked
+arch cave_15
 x 7
 y 31
 end
 arch marble
 x 8
 end
-arch blocked
+arch cave_15
 x 8
 end
 arch marble
 x 8
 y 1
 end
-arch blocked
+arch cave_15
 x 8
 y 1
 end
@@ -1361,7 +1546,7 @@ arch marble
 x 8
 y 2
 end
-arch blocked
+arch cave25
 x 8
 y 2
 end
@@ -1557,15 +1742,19 @@ arch westcwall_2_1_2
 x 8
 y 28
 end
-arch blocked
+arch marble
 x 8
 y 29
 end
-arch blocked
+arch cave2
+x 8
+y 29
+end
+arch cave_15
 x 8
 y 30
 end
-arch blocked
+arch cave_15
 x 8
 y 31
 end
@@ -1753,15 +1942,19 @@ arch westcwall_2_1_2
 x 9
 y 28
 end
-arch blocked
+arch marble
 x 9
 y 29
 end
-arch blocked
+arch cave2
+x 9
+y 29
+end
+arch cave_15
 x 9
 y 30
 end
-arch blocked
+arch cave_15
 x 9
 y 31
 end
@@ -1972,15 +2165,19 @@ arch westcwall_2_1_2
 x 10
 y 28
 end
-arch blocked
+arch marble
 x 10
 y 29
 end
-arch blocked
+arch cave2
+x 10
+y 29
+end
+arch cave_15
 x 10
 y 30
 end
-arch blocked
+arch cave_15
 x 10
 y 31
 end
@@ -2168,15 +2365,19 @@ arch westcwall_2_1_2
 x 11
 y 28
 end
-arch blocked
+arch marble
 x 11
 y 29
 end
-arch blocked
+arch cave2
+x 11
+y 29
+end
+arch cave_15
 x 11
 y 30
 end
-arch blocked
+arch cave_15
 x 11
 y 31
 end
@@ -2354,15 +2555,19 @@ arch westcwall_2_1_2
 x 12
 y 28
 end
-arch blocked
+arch marble
 x 12
 y 29
 end
-arch blocked
+arch cave2
+x 12
+y 29
+end
+arch cave_15
 x 12
 y 30
 end
-arch blocked
+arch cave_15
 x 12
 y 31
 end
@@ -2564,15 +2769,19 @@ arch westcwall_2_1_2
 x 13
 y 28
 end
-arch blocked
+arch marble
 x 13
 y 29
 end
-arch blocked
+arch cave2
+x 13
+y 29
+end
+arch cave_15
 x 13
 y 30
 end
-arch blocked
+arch cave_15
 x 13
 y 31
 end
@@ -2755,15 +2964,19 @@ arch cave15
 x 14
 y 28
 end
-arch blocked
+arch marble
 x 14
 y 29
 end
-arch blocked
+arch cave22
+x 14
+y 29
+end
+arch cave_15
 x 14
 y 30
 end
-arch blocked
+arch cave_15
 x 14
 y 31
 end
@@ -2939,15 +3152,15 @@ arch cave2
 x 15
 y 28
 end
-arch blocked
+arch cave_15
 x 15
 y 29
 end
-arch blocked
+arch cave_15
 x 15
 y 30
 end
-arch blocked
+arch cave_15
 x 15
 y 31
 end
@@ -3140,15 +3353,15 @@ arch cave2
 x 16
 y 28
 end
-arch blocked
+arch cave_15
 x 16
 y 29
 end
-arch blocked
+arch cave_15
 x 16
 y 30
 end
-arch blocked
+arch cave_15
 x 16
 y 31
 end
@@ -3326,15 +3539,15 @@ arch cave2
 x 17
 y 28
 end
-arch blocked
+arch cave_15
 x 17
 y 29
 end
-arch blocked
+arch cave_15
 x 17
 y 30
 end
-arch blocked
+arch cave_15
 x 17
 y 31
 end
@@ -3536,15 +3749,15 @@ arch cave2
 x 18
 y 28
 end
-arch blocked
+arch cave_15
 x 18
 y 29
 end
-arch blocked
+arch cave_15
 x 18
 y 30
 end
-arch blocked
+arch cave_15
 x 18
 y 31
 end
@@ -3718,15 +3931,15 @@ arch cave2
 x 19
 y 28
 end
-arch blocked
+arch cave_15
 x 19
 y 29
 end
-arch blocked
+arch cave_15
 x 19
 y 30
 end
-arch blocked
+arch cave_15
 x 19
 y 31
 end
@@ -3907,15 +4120,15 @@ arch cave2
 x 20
 y 28
 end
-arch blocked
+arch cave_15
 x 20
 y 29
 end
-arch blocked
+arch cave_15
 x 20
 y 30
 end
-arch blocked
+arch cave_15
 x 20
 y 31
 end
@@ -4106,15 +4319,15 @@ arch cave2
 x 21
 y 28
 end
-arch blocked
+arch cave_15
 x 21
 y 29
 end
-arch blocked
+arch cave_15
 x 21
 y 30
 end
-arch blocked
+arch cave_15
 x 21
 y 31
 end
@@ -4284,15 +4497,15 @@ arch cave2
 x 22
 y 28
 end
-arch blocked
+arch cave_15
 x 22
 y 29
 end
-arch blocked
+arch cave_15
 x 22
 y 30
 end
-arch blocked
+arch cave_15
 x 22
 y 31
 end
@@ -4498,22 +4711,22 @@ arch cave2
 x 23
 y 28
 end
-arch blocked
+arch cave_15
 x 23
 y 29
 end
-arch blocked
+arch cave_15
 x 23
 y 30
 end
-arch blocked
+arch cave_15
 x 23
 y 31
 end
 arch marble
 x 24
 end
-arch blocked
+arch cave_15
 x 24
 end
 arch marble
@@ -4685,22 +4898,29 @@ arch cave2
 x 24
 y 28
 end
-arch blocked
+arch cave_15
 x 24
 y 29
 end
-arch blocked
+arch cave_15
 x 24
 y 30
 end
-arch blocked
+arch cave_15
 x 24
 y 31
 end
-arch blocked
+arch marble
 x 25
 end
-arch blocked
+arch cave_15
+x 25
+end
+arch marble
+x 25
+y 1
+end
+arch cave3
 x 25
 y 1
 end
@@ -4708,7 +4928,7 @@ arch marble
 x 25
 y 2
 end
-arch cave4
+arch cave13
 x 25
 y 2
 end
@@ -4879,19 +5099,34 @@ arch cave16
 x 25
 y 28
 end
-arch blocked
+arch marble
 x 25
 y 29
 end
-arch blocked
+arch cave3
+x 25
+y 29
+end
+arch marble
 x 25
 y 30
 end
-arch blocked
+arch cave3
+x 25
+y 30
+end
+arch marble
 x 25
 y 31
 end
-arch blocked
+arch cave23
+x 25
+y 31
+end
+arch marble
+x 26
+end
+arch cave4
 x 26
 end
 arch marble
@@ -5078,11 +5313,18 @@ arch westcwall_2_2_1
 x 26
 y 30
 end
-arch blocked
+arch marble
 x 26
 y 31
 end
-arch blocked
+arch cave2
+x 26
+y 31
+end
+arch marble
+x 27
+end
+arch cave4
 x 27
 end
 arch marble
@@ -5250,11 +5492,18 @@ arch westcwall_2_1_2
 x 27
 y 30
 end
-arch blocked
+arch marble
 x 27
 y 31
 end
-arch blocked
+arch cave2
+x 27
+y 31
+end
+arch marble
+x 28
+end
+arch cave4
 x 28
 end
 arch marble
@@ -5385,19 +5634,11 @@ arch cave22
 x 28
 y 17
 end
-arch marble
+arch cave_15
 x 28
 y 18
 end
-arch blocked
-x 28
-y 18
-end
-arch marble
-x 28
-y 19
-end
-arch blocked
+arch cave_15
 x 28
 y 19
 end
@@ -5481,11 +5722,18 @@ arch westcwall_2_1_2
 x 28
 y 30
 end
-arch blocked
+arch marble
 x 28
 y 31
 end
-arch blocked
+arch cave2
+x 28
+y 31
+end
+arch marble
+x 29
+end
+arch cave4
 x 29
 end
 arch marble
@@ -5516,83 +5764,143 @@ arch westcwall_2_1_2
 x 29
 y 5
 end
-arch blocked
+arch marble
 x 29
 y 6
 end
-arch blocked
+arch cave11
+x 29
+y 6
+end
+arch marble
 x 29
 y 7
 end
-arch blocked
+arch cave1
+x 29
+y 7
+end
+arch cave1
+x 29
+y 7
+end
+arch marble
 x 29
 y 8
 end
-arch blocked
+arch cave1
+x 29
+y 8
+end
+arch marble
 x 29
 y 9
 end
-arch blocked
+arch cave1
+x 29
+y 9
+end
+arch marble
 x 29
 y 10
 end
-arch blocked
+arch cave1
+x 29
+y 10
+end
+arch marble
 x 29
 y 11
 end
-arch blocked
+arch cave1
+x 29
+y 11
+end
+arch marble
 x 29
 y 12
 end
-arch blocked
+arch cave1
+x 29
+y 12
+end
+arch marble
 x 29
 y 13
 end
-arch blocked
+arch cave1
+x 29
+y 13
+end
+arch marble
 x 29
 y 14
 end
-arch blocked
+arch cave22
+x 29
+y 14
+end
+arch cave_15
 x 29
 y 15
 end
-arch blocked
+arch cave_15
 x 29
 y 16
 end
-arch blocked
+arch cave_15
 x 29
 y 17
 end
-arch blocked
+arch cave_15
 x 29
 y 18
 end
-arch blocked
+arch cave_15
 x 29
 y 19
 end
-arch blocked
+arch cave_15
 x 29
 y 20
 end
-arch blocked
+arch marble
 x 29
 y 21
 end
-arch blocked
+arch cave25
+x 29
+y 21
+end
+arch marble
 x 29
 y 22
 end
-arch blocked
+arch cave1
+x 29
+y 22
+end
+arch marble
 x 29
 y 23
 end
-arch blocked
+arch cave1
+x 29
+y 23
+end
+arch marble
 x 29
 y 24
 end
-arch blocked
+arch cave1
+x 29
+y 24
+end
+arch marble
+x 29
+y 25
+end
+arch cave10
 x 29
 y 25
 end
@@ -5629,11 +5937,18 @@ arch westcwall_2_1_2
 x 29
 y 30
 end
-arch blocked
+arch marble
 x 29
 y 31
 end
-arch blocked
+arch cave2
+x 29
+y 31
+end
+arch marble
+x 30
+end
+arch cave4
 x 30
 end
 arch marble
@@ -5676,83 +5991,91 @@ arch westcwall_2_2_4
 x 30
 y 5
 end
-arch blocked
+arch marble
 x 30
 y 6
 end
-arch blocked
+arch cave2
+x 30
+y 6
+end
+arch cave_15
 x 30
 y 7
 end
-arch blocked
+arch cave_15
 x 30
 y 8
 end
-arch blocked
+arch cave_15
 x 30
 y 9
 end
-arch blocked
+arch cave_15
 x 30
 y 10
 end
-arch blocked
+arch cave_15
 x 30
 y 11
 end
-arch blocked
+arch cave_15
 x 30
 y 12
 end
-arch blocked
+arch cave_15
 x 30
 y 13
 end
-arch blocked
+arch cave_15
 x 30
 y 14
 end
-arch blocked
+arch cave_15
 x 30
 y 15
 end
-arch blocked
+arch cave_15
 x 30
 y 16
 end
-arch blocked
+arch cave_15
 x 30
 y 17
 end
-arch blocked
+arch cave_15
 x 30
 y 18
 end
-arch blocked
+arch cave_15
 x 30
 y 19
 end
-arch blocked
+arch cave_15
 x 30
 y 20
 end
-arch blocked
+arch cave_15
 x 30
 y 21
 end
-arch blocked
+arch cave_15
 x 30
 y 22
 end
-arch blocked
+arch cave_15
 x 30
 y 23
 end
-arch blocked
+arch cave_15
 x 30
 y 24
 end
-arch blocked
+arch marble
+x 30
+y 25
+end
+arch cave4
 x 30
 y 25
 end
@@ -5796,134 +6119,193 @@ arch westcwall_2_2_4
 x 30
 y 30
 end
-arch blocked
+arch marble
 x 30
 y 31
 end
-arch blocked
+arch cave2
+x 30
+y 31
+end
+arch marble
 x 31
 end
-arch blocked
+arch cave25
+x 31
+end
+arch marble
 x 31
 y 1
 end
-arch blocked
+arch cave1
+x 31
+y 1
+end
+arch marble
 x 31
 y 2
 end
-arch blocked
+arch cave1
+x 31
+y 2
+end
+arch marble
 x 31
 y 3
 end
-arch blocked
+arch cave1
+x 31
+y 3
+end
+arch marble
 x 31
 y 4
 end
-arch blocked
+arch cave1
+x 31
+y 4
+end
+arch marble
 x 31
 y 5
 end
-arch blocked
+arch cave1
+x 31
+y 5
+end
+arch marble
 x 31
 y 6
 end
-arch blocked
+arch cave22
+x 31
+y 6
+end
+arch cave_15
 x 31
 y 7
 end
-arch blocked
+arch cave_15
 x 31
 y 8
 end
-arch blocked
+arch cave_15
 x 31
 y 9
 end
-arch blocked
+arch cave_15
 x 31
 y 10
 end
-arch blocked
+arch cave_15
 x 31
 y 11
 end
-arch blocked
+arch cave_15
 x 31
 y 12
 end
-arch blocked
+arch cave_15
 x 31
 y 13
 end
-arch blocked
+arch cave_15
 x 31
 y 14
 end
-arch blocked
+arch cave_15
 x 31
 y 15
 end
-arch blocked
+arch cave_15
 x 31
 y 16
 end
-arch blocked
+arch cave_15
 x 31
 y 17
 end
-arch blocked
+arch cave_15
 x 31
 y 18
 end
-arch blocked
+arch cave_15
 x 31
 y 19
 end
-arch blocked
+arch cave_15
 x 31
 y 20
 end
-arch blocked
+arch cave_15
 x 31
 y 21
 end
-arch blocked
+arch cave_15
 x 31
 y 22
 end
-arch blocked
+arch cave_15
 x 31
 y 23
 end
-arch blocked
+arch cave_15
 x 31
 y 24
 end
-arch blocked
+arch marble
 x 31
 y 25
 end
-arch blocked
+arch cave25
+x 31
+y 25
+end
+arch marble
 x 31
 y 26
 end
-arch blocked
+arch cave1
+x 31
+y 26
+end
+arch marble
 x 31
 y 27
 end
-arch blocked
+arch cave1
+x 31
+y 27
+end
+arch marble
 x 31
 y 28
 end
-arch blocked
+arch cave1
+x 31
+y 28
+end
+arch marble
 x 31
 y 29
 end
-arch blocked
+arch cave1
+x 31
+y 29
+end
+arch marble
 x 31
 y 30
 end
-arch blocked
+arch cave1
+x 31
+y 30
+end
+arch marble
+x 31
+y 31
+end
+arch cave22
 x 31
 y 31
 end
