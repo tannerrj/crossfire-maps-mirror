@@ -9,7 +9,7 @@ enter_x 25
 enter_y 1
 msg
 Created: 2002-02-18 Mikeeusa
-Modified: 2023-12-05 Rick Tanner
+Modified: 2025-06-09 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -9019,6 +9019,10 @@ name floor
 x 17
 y 16
 end
+arch swall_1_4_half
+x 17
+y 16
+end
 arch bench_1_2
 x 17
 y 16
@@ -9608,7 +9612,7 @@ name floor
 x 18
 y 16
 end
-arch swall_1_4
+arch swall_2_1_2
 x 18
 y 16
 end
@@ -10179,7 +10183,7 @@ name floor
 x 19
 y 16
 end
-arch swall_1_3
+arch swall_2_1_2
 x 19
 y 16
 end
@@ -10721,6 +10725,10 @@ y 15
 end
 arch stonefloor2
 name stonefloor
+x 20
+y 16
+end
+arch swall_1_3_half
 x 20
 y 16
 end
@@ -17438,11 +17446,15 @@ arch awall_1_3
 x 32
 y 37
 end
+arch swall_1_1_half
+x 32
+y 37
+end
 arch dirtfloor
 x 32
 y 38
 end
-arch swall_1_1
+arch swall_2_1_1
 x 32
 y 38
 end
@@ -21303,11 +21315,15 @@ arch awall_1_4
 x 40
 y 37
 end
+arch swall_1_1_half
+x 40
+y 37
+end
 arch dirtfloor
 x 40
 y 38
 end
-arch swall_1_1
+arch swall_2_1_1
 x 40
 y 38
 end
