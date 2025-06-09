@@ -1360,15 +1360,6 @@ x 5
 y 5
 unique 1
 end
-arch button_lever
-name Prisoner release
-msg
-Pull to let unwanted guests out.
-endmsg
-x 5
-y 5
-connected 952
-end
 arch woodfloor
 x 5
 y 6
@@ -9630,64 +9621,9 @@ arch blocked
 x 31
 y 8
 end
-arch woodfloor2
-x 31
-y 9
-end
-arch lightningwall_5
-x 31
-y 9
-speed 100
-arch spell_sm_lightning
-end
-end
-arch woodfloor2
-x 31
-y 11
-unique 1
-end
-arch grate_closed_1
-x 31
-y 11
-connected 953
-end
-arch woodfloor2
-x 31
-y 12
-end
-arch detector
-slaying lightning
-x 31
-y 12
-speed 1.0
-connected 955
-end
-arch woodfloor2
-x 31
-y 13
-end
-arch detector
-slaying lightning
-x 31
-y 13
-speed 1.0
-connected 951
-end
 arch blocked
 x 31
 y 14
-end
-arch major_chaos
-x 31
-y 15
-end
-arch major_chaos
-x 31
-y 16
-end
-arch major_chaos
-x 31
-y 17
 end
 arch dungeon_magic
 x 31
@@ -9880,29 +9816,12 @@ arch blocked
 x 32
 y 14
 end
-arch major_chaos
-x 32
-y 15
-end
-arch dungeon_magic
-x 32
-y 16
-end
-arch flagstone
+arch sign
+msg
+This was the destination for the guild jail chaos limbo thing.
+endmsg
 x 32
 y 16
-end
-arch teleporter
-hp 15
-sp 29
-x 32
-y 16
-speed 0.0
-connected 951
-end
-arch major_chaos
-x 32
-y 17
 end
 arch dungeon_magic
 x 32
@@ -10103,63 +10022,9 @@ arch blocked
 x 33
 y 8
 end
-arch woodfloor2
-x 33
-y 9
-end
-arch lightningwall_5
-x 33
-y 9
-speed 100
-arch spell_sm_lightning
-end
-end
-arch grass
-x 33
-y 11
-unique 1
-end
-arch grate_open_1
-x 33
-y 11
-connected 955
-end
-arch woodfloor2
-x 33
-y 12
-unique 1
-end
-arch grate_closed_1
-x 33
-y 12
-connected 952
-end
-arch woodfloor2
-x 33
-y 13
-end
-arch detector
-slaying lightning
-x 33
-y 13
-speed 1.0
-connected 953
-end
 arch blocked
 x 33
 y 14
-end
-arch major_chaos
-x 33
-y 15
-end
-arch major_chaos
-x 33
-y 16
-end
-arch major_chaos
-x 33
-y 17
 end
 arch dungeon_magic
 x 33
@@ -10380,24 +10245,9 @@ arch blocked
 x 34
 y 15
 end
-arch dungeon_magic
+arch blocked
 x 34
 y 16
-end
-arch grass
-x 34
-y 16
-end
-arch exit
-slaying ./mainfloor
-msg
-Say Sorry!
-endmsg
-hp 32
-sp 16
-x 34
-y 16
-move_on all
 end
 arch blocked
 x 34

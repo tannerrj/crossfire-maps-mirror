@@ -13,7 +13,7 @@ Editor: CrossfireEditor
 Date:    3/17/2007
 Map finised by:  Alestan jehloq@yahoo.com
 Date:     8/27/2007
-Modified: 2024-03-29 Kevin Zheng
+Modified: 2024-08-10 Kevin Zheng
 endmsg
 end
 arch grass
@@ -2672,22 +2672,6 @@ end
 arch blocked
 x 21
 end
-arch dungeon_magic
-x 21
-end
-arch grass
-x 21
-end
-arch swall_2_1_2
-x 21
-end
-arch blocked
-x 21
-end
-arch button_small
-x 21
-connected 9991
-end
 arch blocked
 x 21
 y 1
@@ -2829,101 +2813,7 @@ x 22
 y 16
 unique 1
 end
-arch lightningwall_5
-x 23
-speed 0.0
-level 100
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_5
-x 23
-end
-arch detector
-slaying lightning
-x 23
-y 1
-speed 1.0
-connected 918
-end
-arch lightningwall_5
-x 23
-y 2
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 2
-end
-arch lightningwall_5
-x 23
-y 3
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 3
-end
-arch lightningwall_5
-x 23
-y 4
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 4
-end
-arch lightningwall_5
-x 23
-y 5
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 5
-end
 arch blocked
-x 23
-y 6
-end
-arch lightningwall_5
-x 23
-y 6
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
 x 23
 y 6
 end
@@ -2931,69 +2821,9 @@ arch blocked
 x 23
 y 7
 end
-arch lightningwall_5
-x 23
-y 7
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 7
-end
 arch blocked
 x 23
 y 8
-end
-arch lightningwall_5
-x 23
-y 8
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 8
-end
-arch lightningwall_5
-x 23
-y 9
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 9
-end
-arch lightningwall_5
-x 23
-y 10
-speed 0.0
-level 100
-direction 1
-connected 9991
-move_block 0
-arch spell_large_lightning
-end
-end
-arch director_1
-x 23
-y 10
 end
 arch button_small
 x 23

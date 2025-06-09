@@ -8,8 +8,8 @@ height 39
 enter_x 28
 enter_y 14
 msg
-Created:  2008-10-10 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2012-03-30 Rick Tanner
+Created: 2008-10-10 Chad Opperman | cromagic@sbcglobal.net
+Modified: 2023-06-14 Rick Tanner
 endmsg
 end
 arch blocked
@@ -6571,7 +6571,8 @@ end
 end
 arch magic_mouth
 msg
-Guardian says: If you are worthy to enter here, say enter. Be warned - if you are not welcome here you will suffer my wrath.
+Guardian says: If you are worthy to enter here, say enter.
+Be warned - if you are not welcome here you will suffer my wrath.
 endmsg
 x 27
 y 13
@@ -6916,7 +6917,8 @@ y 13
 end
 arch magic_mouth
 msg
-Guardian says: If you are worthy to enter here, say enter. Be warned - if you are not welcome here you will suffer my wrath.
+Guardian says: If you are worthy to enter here, say enter.
+Be warned - if you are not welcome here you will suffer my wrath.
 endmsg
 x 28
 y 13
