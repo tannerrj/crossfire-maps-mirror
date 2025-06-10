@@ -8,7 +8,7 @@ enter_x 8
 enter_y 11
 msg
 Created: 1998-12-28 Anthony Thyssen (anthony@cit.gu.edu.au)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-06-10 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_port-gate
@@ -21,7 +21,7 @@ end
 arch cobblestones2
 y 2
 end
-arch grass
+arch cobblestones2
 y 3
 end
 arch mine2
@@ -69,7 +69,7 @@ arch mine_nw
 x 1
 y 2
 end
-arch grass
+arch dungeon_floor
 x 1
 y 3
 end
@@ -77,7 +77,7 @@ arch mine14
 x 1
 y 3
 end
-arch grass
+arch dungeon_floor
 x 1
 y 4
 end
@@ -97,7 +97,7 @@ arch brush
 x 1
 y 7
 end
-arch grass
+arch dungeon_floor
 x 1
 y 8
 end
@@ -105,7 +105,7 @@ arch mine_nw
 x 1
 y 8
 end
-arch grass
+arch woodfloor
 x 1
 y 9
 end
@@ -113,7 +113,7 @@ arch mine3
 x 1
 y 9
 end
-arch grass
+arch dungeon_floor
 x 1
 y 10
 end
@@ -152,7 +152,7 @@ arch chest
 x 2
 y 3
 end
-arch grass
+arch dungeon_floor
 x 2
 y 4
 end
@@ -164,7 +164,7 @@ arch dungeon_magic
 x 2
 y 5
 end
-arch grass
+arch woodfloor
 x 2
 y 5
 end
@@ -176,7 +176,7 @@ arch dungeon_magic
 x 2
 y 6
 end
-arch grass
+arch woodfloor
 x 2
 y 6
 end
@@ -188,7 +188,7 @@ arch dungeon_magic
 x 2
 y 7
 end
-arch grass
+arch woodfloor
 x 2
 y 7
 end
@@ -218,7 +218,7 @@ y 9
 type 0
 smoothlevel 0
 end
-arch grass
+arch woodfloor
 x 2
 y 10
 end
@@ -344,7 +344,7 @@ arch mine10
 x 3
 y 9
 end
-arch grass
+arch dungeon_floor
 x 3
 y 10
 end
@@ -450,7 +450,7 @@ arch woodfloor
 x 4
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 10
 end
@@ -1342,7 +1342,7 @@ arch grass
 x 11
 y 9
 end
-arch dungeon_floor
+arch flagstone
 x 11
 y 9
 end
@@ -1454,7 +1454,7 @@ arch dungeon_magic
 x 12
 y 9
 end
-arch grass
+arch flagstone
 x 12
 y 9
 end
@@ -1571,7 +1571,7 @@ arch dungeon_magic
 x 13
 y 9
 end
-arch grass
+arch flagstone
 x 13
 y 9
 end
@@ -1669,7 +1669,7 @@ arch dungeon_magic
 x 14
 y 9
 end
-arch grass
+arch flagstone
 x 14
 y 9
 end
@@ -1677,7 +1677,7 @@ arch mine14
 x 14
 y 9
 end
-arch grass
+arch cobblestones2
 x 14
 y 10
 end
@@ -1716,6 +1716,10 @@ arch dungeon_floor
 x 15
 y 3
 end
+arch dungeon_floor
+x 15
+y 4
+end
 arch dungeon_magic
 x 15
 y 4
@@ -1723,6 +1727,10 @@ end
 arch mine3
 x 15
 y 4
+end
+arch dungeon_floor
+x 15
+y 5
 end
 arch dungeon_magic
 x 15
@@ -1732,6 +1740,10 @@ arch mine14
 x 15
 y 5
 end
+arch dungeon_floor
+x 15
+y 6
+end
 arch dungeon_magic
 x 15
 y 6
@@ -1740,6 +1752,10 @@ arch mine9
 x 15
 y 6
 end
+arch dungeon_floor
+x 15
+y 7
+end
 arch dungeon_magic
 x 15
 y 7
@@ -1747,6 +1763,10 @@ end
 arch mine3
 x 15
 y 7
+end
+arch cobblestones2
+x 15
+y 8
 end
 arch dungeon_magic
 x 15
@@ -1775,7 +1795,7 @@ arch ladder_bi_down
 x 15
 y 9
 end
-arch grass
+arch flagstone
 x 15
 y 10
 end
@@ -1824,7 +1844,7 @@ arch mine_ne
 x 16
 y 2
 end
-arch grass
+arch dungeon_floor
 x 16
 y 3
 end
@@ -1832,7 +1852,7 @@ arch mine11
 x 16
 y 3
 end
-arch brush
+arch dungeon_floor
 x 16
 y 4
 end
@@ -1852,7 +1872,7 @@ arch grass
 x 16
 y 7
 end
-arch grass
+arch cobblestones2
 x 16
 y 8
 end
@@ -1860,7 +1880,7 @@ arch mine_ne
 x 16
 y 8
 end
-arch grass
+arch cobblestones2
 x 16
 y 9
 end
@@ -1868,7 +1888,7 @@ arch mine11
 x 16
 y 9
 end
-arch brush
+arch cobblestones2
 x 16
 y 10
 end
@@ -1895,7 +1915,7 @@ arch cobblestones2
 x 17
 y 2
 end
-arch grass
+arch cobblestones2
 x 17
 y 3
 end
