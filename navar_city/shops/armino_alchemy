@@ -10,7 +10,7 @@ enter_x 3
 enter_y 22
 msg
 Created:  2021-02-03 Nicolas Weeger
-Modified: 2025-05-18 Rick Tanner
+Modified: 2025-06-10 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -91,16 +91,15 @@ end
 arch grass_only
 x 1
 end
-arch grass_only
+arch flagstone
 x 1
 y 1
-smoothlevel 0
 end
 arch stwallred_2_2_2
 x 1
 y 1
 end
-arch whiteslate
+arch flagstone
 x 1
 y 2
 end
@@ -108,7 +107,7 @@ arch stwallred_2_1_1
 x 1
 y 2
 end
-arch whiteslate
+arch flagstone
 x 1
 y 3
 end
@@ -116,7 +115,7 @@ arch stwallred_2_1_1
 x 1
 y 3
 end
-arch whiteslate
+arch flagstone
 x 1
 y 4
 end
@@ -124,7 +123,7 @@ arch stwindowred_win1
 x 1
 y 4
 end
-arch whiteslate
+arch flagstone
 x 1
 y 5
 end
@@ -132,7 +131,7 @@ arch stwallred_2_1_1
 x 1
 y 5
 end
-arch whiteslate
+arch flagstone
 x 1
 y 6
 end
@@ -140,7 +139,7 @@ arch stwallred_2_1_1
 x 1
 y 6
 end
-arch whiteslate
+arch flagstone
 x 1
 y 7
 end
@@ -148,7 +147,7 @@ arch stwallred_2_1_1
 x 1
 y 7
 end
-arch whiteslate
+arch flagstone
 x 1
 y 8
 end
@@ -156,7 +155,7 @@ arch stwallred_2_1_1
 x 1
 y 8
 end
-arch whiteslate
+arch flagstone
 x 1
 y 9
 end
@@ -164,7 +163,7 @@ arch stwallred_2_1_1
 x 1
 y 9
 end
-arch whiteslate
+arch flagstone
 x 1
 y 10
 end
@@ -172,7 +171,7 @@ arch stwallred_2_1_1
 x 1
 y 10
 end
-arch whiteslate
+arch flagstone
 x 1
 y 11
 end
@@ -180,7 +179,7 @@ arch stwindowred_win1
 x 1
 y 11
 end
-arch whiteslate
+arch flagstone
 x 1
 y 12
 end
@@ -188,7 +187,7 @@ arch stwallred_2_1_1
 x 1
 y 12
 end
-arch whiteslate
+arch flagstone
 x 1
 y 13
 end
@@ -196,7 +195,7 @@ arch stwallred_2_1_1
 x 1
 y 13
 end
-arch whiteslate
+arch flagstone
 x 1
 y 14
 end
@@ -204,7 +203,7 @@ arch stwallred_2_1_1
 x 1
 y 14
 end
-arch whiteslate
+arch flagstone
 x 1
 y 15
 end
@@ -212,7 +211,7 @@ arch stwallred_2_1_1
 x 1
 y 15
 end
-arch whiteslate
+arch flagstone
 x 1
 y 16
 end
@@ -220,7 +219,7 @@ arch stwallred_2_1_1
 x 1
 y 16
 end
-arch whiteslate
+arch flagstone
 x 1
 y 17
 end
@@ -228,7 +227,7 @@ arch stwindowred_win1
 x 1
 y 17
 end
-arch whiteslate
+arch flagstone
 x 1
 y 18
 end
@@ -240,7 +239,7 @@ arch stwallred_2_1_1
 x 1
 y 18
 end
-arch whiteslate
+arch flagstone
 x 1
 y 19
 end
@@ -248,7 +247,7 @@ arch stwallred_2_1_1
 x 1
 y 19
 end
-arch whiteslate
+arch flagstone
 x 1
 y 20
 end
@@ -256,7 +255,7 @@ arch stwallred_2_1_1
 x 1
 y 20
 end
-arch whiteslate
+arch flagstone
 x 1
 y 21
 end
@@ -264,7 +263,7 @@ arch stwallred_2_1_1
 x 1
 y 21
 end
-arch whiteslate
+arch flagstone
 x 1
 y 22
 end
@@ -272,7 +271,7 @@ arch stwallred_2_1_1
 x 1
 y 22
 end
-arch whiteslate
+arch flagstone
 x 1
 y 23
 end
@@ -287,7 +286,7 @@ end
 arch grass_only
 x 2
 end
-arch whiteslate
+arch flagstone
 x 2
 y 1
 end
@@ -391,7 +390,7 @@ arch whiteslate
 x 2
 y 22
 end
-arch whiteslate
+arch flagstone
 x 2
 y 23
 end
@@ -407,7 +406,7 @@ end
 arch grass_only
 x 3
 end
-arch whiteslate
+arch flagstone
 x 3
 y 1
 end
@@ -507,7 +506,7 @@ arch whiteslate
 x 3
 y 22
 end
-arch whiteslate
+arch flagstone
 x 3
 y 23
 end
@@ -530,7 +529,7 @@ end
 arch grass_only
 x 4
 end
-arch whiteslate
+arch flagstone
 x 4
 y 1
 end
@@ -638,7 +637,7 @@ arch whiteslate
 x 4
 y 22
 end
-arch whiteslate
+arch flagstone
 x 4
 y 23
 end
@@ -654,7 +653,7 @@ end
 arch grass_only
 x 5
 end
-arch whiteslate
+arch flagstone
 x 5
 y 1
 end
@@ -750,7 +749,7 @@ arch whiteslate
 x 5
 y 22
 end
-arch whiteslate
+arch flagstone
 x 5
 y 23
 end
@@ -765,7 +764,7 @@ end
 arch grass_only
 x 6
 end
-arch whiteslate
+arch flagstone
 x 6
 y 1
 end
@@ -861,7 +860,7 @@ arch whiteslate
 x 6
 y 22
 end
-arch whiteslate
+arch flagstone
 x 6
 y 23
 end
@@ -876,7 +875,7 @@ end
 arch grass_only
 x 7
 end
-arch whiteslate
+arch flagstone
 x 7
 y 1
 end
@@ -978,7 +977,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 7
 y 23
 end
@@ -993,7 +992,7 @@ end
 arch grass_only
 x 8
 end
-arch whiteslate
+arch flagstone
 x 8
 y 1
 end
@@ -1107,7 +1106,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 8
 y 23
 end
@@ -1122,7 +1121,7 @@ end
 arch grass_only
 x 9
 end
-arch whiteslate
+arch flagstone
 x 9
 y 1
 end
@@ -1248,7 +1247,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 9
 y 23
 end
@@ -1263,7 +1262,7 @@ end
 arch grass_only
 x 10
 end
-arch whiteslate
+arch flagstone
 x 10
 y 1
 end
@@ -1365,7 +1364,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 10
 y 23
 end
@@ -1380,7 +1379,7 @@ end
 arch grass_only
 x 11
 end
-arch whiteslate
+arch flagstone
 x 11
 y 1
 end
@@ -1482,7 +1481,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 11
 y 23
 end
@@ -1497,7 +1496,7 @@ end
 arch grass_only
 x 12
 end
-arch whiteslate
+arch flagstone
 x 12
 y 1
 end
@@ -1623,7 +1622,7 @@ y 22
 no_pick 1
 identified 1
 end
-arch whiteslate
+arch flagstone
 x 12
 y 23
 end
@@ -1638,7 +1637,7 @@ end
 arch grass_only
 x 13
 end
-arch whiteslate
+arch flagstone
 x 13
 y 1
 end
@@ -1734,7 +1733,7 @@ arch whiteslate
 x 13
 y 22
 end
-arch whiteslate
+arch flagstone
 x 13
 y 23
 end
@@ -1749,7 +1748,7 @@ end
 arch grass_only
 x 14
 end
-arch whiteslate
+arch flagstone
 x 14
 y 1
 end
@@ -1845,7 +1844,7 @@ arch whiteslate
 x 14
 y 22
 end
-arch whiteslate
+arch flagstone
 x 14
 y 23
 end
@@ -1860,7 +1859,7 @@ end
 arch grass_only
 x 15
 end
-arch whiteslate
+arch flagstone
 x 15
 y 1
 end
@@ -1981,7 +1980,7 @@ arch whiteslate
 x 15
 y 22
 end
-arch whiteslate
+arch flagstone
 x 15
 y 23
 end
@@ -1996,7 +1995,7 @@ end
 arch grass_only
 x 16
 end
-arch whiteslate
+arch flagstone
 x 16
 y 1
 end
@@ -2132,7 +2131,7 @@ arch stwallred_1_1
 x 16
 y 22
 end
-arch whiteslate
+arch flagstone
 x 16
 y 23
 end
@@ -2147,7 +2146,7 @@ end
 arch grass_only
 x 17
 end
-arch whiteslate
+arch flagstone
 x 17
 y 1
 end
@@ -2253,7 +2252,7 @@ arch whiteslate
 x 17
 y 22
 end
-arch whiteslate
+arch flagstone
 x 17
 y 23
 end
@@ -2268,7 +2267,7 @@ end
 arch grass_only
 x 18
 end
-arch whiteslate
+arch flagstone
 x 18
 y 1
 end
@@ -2380,7 +2379,7 @@ food 200
 x 18
 y 22
 end
-arch whiteslate
+arch flagstone
 x 18
 y 23
 end
@@ -2395,7 +2394,7 @@ end
 arch grass_only
 x 19
 end
-arch whiteslate
+arch flagstone
 x 19
 y 1
 end
@@ -2511,7 +2510,7 @@ food 200
 x 19
 y 22
 end
-arch whiteslate
+arch flagstone
 x 19
 y 23
 end
@@ -2526,7 +2525,7 @@ end
 arch grass_only
 x 20
 end
-arch whiteslate
+arch flagstone
 x 20
 y 1
 end
@@ -2650,7 +2649,7 @@ food 800
 x 20
 y 22
 end
-arch whiteslate
+arch flagstone
 x 20
 y 23
 end
@@ -2665,7 +2664,7 @@ end
 arch grass_only
 x 21
 end
-arch whiteslate
+arch flagstone
 x 21
 y 1
 end
@@ -2781,7 +2780,7 @@ food 250
 x 21
 y 22
 end
-arch whiteslate
+arch flagstone
 x 21
 y 23
 end
@@ -2796,7 +2795,7 @@ end
 arch grass_only
 x 22
 end
-arch whiteslate
+arch flagstone
 x 22
 y 1
 end
@@ -2908,7 +2907,7 @@ food 400
 x 22
 y 22
 end
-arch whiteslate
+arch flagstone
 x 22
 y 23
 end
@@ -2923,208 +2922,185 @@ end
 arch grass_only
 x 23
 end
-arch grass_only
+arch flagstone
 x 23
 y 1
-smoothlevel 0
 end
 arch stwallred_2_2_3
 x 23
 y 1
 end
-arch grass_only
+arch flagstone
 x 23
 y 2
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 2
 end
-arch grass_only
+arch flagstone
 x 23
 y 3
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 3
 end
-arch grass_only
+arch flagstone
 x 23
 y 4
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 4
 end
-arch grass_only
+arch flagstone
 x 23
 y 5
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 5
 end
-arch grass_only
+arch flagstone
 x 23
 y 6
-smoothlevel 0
 end
 arch stwindowred_win1
 x 23
 y 6
 end
-arch grass_only
+arch flagstone
 x 23
 y 7
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 7
 end
-arch grass_only
+arch flagstone
 x 23
 y 8
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 8
 end
-arch grass_only
+arch flagstone
 x 23
 y 9
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 9
 end
-arch grass_only
+arch flagstone
 x 23
 y 10
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 10
 end
-arch grass_only
+arch flagstone
 x 23
 y 11
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 11
 end
-arch grass_only
+arch flagstone
 x 23
 y 12
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 12
 end
-arch grass_only
+arch flagstone
 x 23
 y 13
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 13
 end
-arch grass_only
+arch flagstone
 x 23
 y 14
-smoothlevel 0
 end
 arch stwindowred_win1
 x 23
 y 14
 end
-arch grass_only
+arch flagstone
 x 23
 y 15
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 15
 end
-arch grass_only
+arch flagstone
 x 23
 y 16
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 16
 end
-arch grass_only
+arch flagstone
 x 23
 y 17
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 17
 end
-arch grass_only
+arch flagstone
 x 23
 y 18
-smoothlevel 0
 end
 arch stwallred_3_4
 x 23
 y 18
 end
-arch grass_only
+arch flagstone
 x 23
 y 19
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 19
 end
-arch grass_only
+arch flagstone
 x 23
 y 20
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 20
 end
-arch grass_only
+arch flagstone
 x 23
 y 21
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 21
 end
-arch grass_only
+arch flagstone
 x 23
 y 22
-smoothlevel 0
 end
 arch stwallred_2_1_1
 x 23
 y 22
 end
-arch grass_only
+arch flagstone
 x 23
 y 23
-smoothlevel 0
 end
 arch stwallred_2_2_4
 x 23
