@@ -5,7 +5,7 @@ width 38
 height 36
 msg
 Created:  2002-09-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-06-15 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -5050,11 +5050,15 @@ arch cwall_2_1_2
 x 26
 y 14
 end
+arch swall_1_1_half
+x 26
+y 14
+end
 arch grassdark
 x 26
 y 15
 end
-arch swall_1_1
+arch swall_2_1_1
 x 26
 y 15
 end
@@ -5874,11 +5878,15 @@ arch cwall_2_1_2
 x 30
 y 14
 end
+arch swall_1_1_half
+x 30
+y 14
+end
 arch grassdark
 x 30
 y 15
 end
-arch swall_1_1
+arch swall_2_1_1
 x 30
 y 15
 end
