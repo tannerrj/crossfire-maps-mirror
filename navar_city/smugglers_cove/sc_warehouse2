@@ -9,7 +9,7 @@ enter_x 13
 enter_y 1
 msg
 Created: 2003-04-10 Avion
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-06-15 Rick Tanner
 endmsg
 reset_group navar_smugglers-cove
 end
@@ -1865,11 +1865,11 @@ arch rubble
 x 14
 y 9
 end
-arch roughwall_1_2
+arch swall_2_1_2
 x 14
 y 9
 end
-arch swall_1_3_half
+arch roughwall_1_2
 x 14
 y 9
 end
@@ -1893,11 +1893,11 @@ arch rubble
 x 14
 y 12
 end
-arch roughwall_1_1
+arch swall_2_1_2
 x 14
 y 12
 end
-arch swall_1_3_half
+arch roughwall_1_1
 x 14
 y 12
 end
@@ -1957,7 +1957,65 @@ arch roughwall_2_2_4
 x 14
 y 19
 end
-arch cave_15
+arch dirtfloor
+x 15
+end
+arch cave1
+x 15
+end
+arch dirtfloor
+x 15
+y 1
+end
+arch cave1
+x 15
+y 1
+end
+arch dirtfloor
+x 15
+y 2
+end
+arch cave1
+x 15
+y 2
+end
+arch dirtfloor
+x 15
+y 3
+end
+arch cave1
+x 15
+y 3
+end
+arch dirtfloor
+x 15
+y 4
+end
+arch cave1
+x 15
+y 4
+end
+arch dirtfloor
+x 15
+y 5
+end
+arch cave1
+x 15
+y 5
+end
+arch dirtfloor
+x 15
+y 6
+end
+arch cave1
+x 15
+y 6
+end
+arch dirtfloor
+x 15
+y 7
+end
+arch cave1
 x 15
 y 7
 end
@@ -1974,6 +2032,10 @@ x 15
 y 9
 end
 arch cave10
+x 15
+y 9
+end
+arch swall_1_3_half
 x 15
 y 9
 end
@@ -2007,6 +2069,10 @@ arch dirtfloor
 x 15
 y 12
 end
+arch swall_1_3_half
+x 15
+y 12
+end
 arch cave11
 x 15
 y 12
@@ -2019,9 +2085,80 @@ arch cave1
 x 15
 y 13
 end
-arch cave_15
+arch dirtfloor
 x 15
 y 14
+end
+arch cave1
+x 15
+y 14
+end
+arch dirtfloor
+x 15
+y 15
+end
+arch cave1
+x 15
+y 15
+end
+arch dirtfloor
+x 15
+y 16
+end
+arch cave1
+x 15
+y 16
+end
+arch dirtfloor
+x 15
+y 17
+end
+arch cave1
+x 15
+y 17
+end
+arch dirtfloor
+x 15
+y 18
+end
+arch cave1
+x 15
+y 18
+end
+arch dirtfloor
+x 15
+y 19
+end
+arch cave1
+x 15
+y 19
+end
+arch cave_15
+x 16
+end
+arch cave_15
+x 16
+y 1
+end
+arch cave_15
+x 16
+y 2
+end
+arch cave_15
+x 16
+y 3
+end
+arch cave_15
+x 16
+y 4
+end
+arch cave_15
+x 16
+y 5
+end
+arch cave_15
+x 16
+y 6
 end
 arch cave_15
 x 16
@@ -2066,4 +2203,24 @@ end
 arch cave_15
 x 16
 y 14
+end
+arch cave_15
+x 16
+y 15
+end
+arch cave_15
+x 16
+y 16
+end
+arch cave_15
+x 16
+y 17
+end
+arch cave_15
+x 16
+y 18
+end
+arch cave_15
+x 16
+y 19
 end
