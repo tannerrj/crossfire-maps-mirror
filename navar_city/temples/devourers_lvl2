@@ -9,7 +9,7 @@ enter_x 27
 enter_y 19
 msg
 Created:  2020-12-12 Rick Tanner
-Modified: 2022-07-24 Rick Tanner
+Modified: 2025-06-17 Rick Tanner
 endmsg
 reset_group navar_sanctum-of-devourers
 end
@@ -437,10 +437,6 @@ arch zombie
 x 2
 y 21
 end
-arch zombie
-x 2
-y 21
-end
 arch pstone_1
 x 2
 y 22
@@ -457,15 +453,7 @@ arch zombie
 x 2
 y 23
 end
-arch zombie
-x 2
-y 23
-end
 arch pstone_1
-x 2
-y 24
-end
-arch zombie
 x 2
 y 24
 end
@@ -481,19 +469,7 @@ arch zombie
 x 2
 y 25
 end
-arch zombie
-x 2
-y 25
-end
 arch pstone_1
-x 2
-y 26
-end
-arch zombie
-x 2
-y 26
-end
-arch zombie
 x 2
 y 26
 end
@@ -663,10 +639,6 @@ arch zombie
 x 3
 y 20
 end
-arch zombie
-x 3
-y 20
-end
 arch pstone_1
 x 3
 y 21
@@ -699,10 +671,6 @@ arch zombie
 x 3
 y 24
 end
-arch zombie
-x 3
-y 24
-end
 arch pstone_1
 x 3
 y 25
@@ -720,10 +688,6 @@ x 3
 y 27
 end
 arch pstone_1
-x 3
-y 28
-end
-arch zombie
 x 3
 y 28
 end
@@ -881,10 +845,6 @@ arch zombie
 x 4
 y 20
 end
-arch zombie
-x 4
-y 20
-end
 arch pstone_1
 x 4
 y 21
@@ -934,10 +894,6 @@ x 4
 y 27
 end
 arch pstone_1
-x 4
-y 28
-end
-arch zombie
 x 4
 y 28
 end
@@ -1310,10 +1266,6 @@ arch zombie
 x 6
 y 25
 end
-arch zombie
-x 6
-y 25
-end
 arch pstone_1
 x 6
 y 26
@@ -1513,10 +1465,6 @@ x 7
 y 25
 end
 arch pstone_1
-x 7
-y 26
-end
-arch zombie
 x 7
 y 26
 end
@@ -2982,10 +2930,6 @@ x 15
 y 8
 end
 arch pstone_1
-x 15
-y 9
-end
-arch zombie
 x 15
 y 9
 end
