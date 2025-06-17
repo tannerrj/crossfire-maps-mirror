@@ -4,11 +4,9 @@ region elvenlands
 darkness 2
 width 32
 height 31
-enter_x 1
-enter_y 17
 msg
 Created:  1999-12-31 Joel Southall (joel@prninfo.com)
-Modified: 2025-06-16 Rick Tanner
+Modified: 2025-06-17 Rick Tanner
 endmsg
 end
 arch dirtfloor
@@ -5415,16 +5413,7 @@ end
 arch tome
 name book of the Elven Lands
 msg
-Yoer City is the capital of the Light
-Elves. Shadow City is the capital of
-the Dark Elves,it is also known as the
-City of Darkoth. King Yoer ruled over
-the Light Elves before he dissapeared.
-His loyal subjects still await his
-return. King Darkoth spends most of his
-time on his island,testing spells. He
-has left his steward to rule over his
-land.
+Yoer City is the capital of the Light Elves. Shadow City is the capital of the Dark Elves, it is also known as the City of Darkoth. King Yoer ruled over the Light Elves before he dissapeared. His loyal subjects still await his return. King Darkoth spends most of his time on his island, testing spells. He has left his steward to rule over his land.
 endmsg
 x 28
 y 25
