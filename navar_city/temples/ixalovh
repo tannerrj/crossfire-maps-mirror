@@ -9,7 +9,7 @@ enter_x 3
 enter_y 18
 msg
 Created:  2003-11 Avion
-Modified: 2022-07-24 Rick Tanner
+Modified: 2025-06-18 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_church-of-ixalovh
@@ -76,7 +76,7 @@ end
 arch grass
 x 1
 end
-arch woodfloor
+arch flagstone
 x 1
 y 1
 end
@@ -84,7 +84,7 @@ arch wwall_2_2_2
 x 1
 y 1
 end
-arch woodfloor
+arch flagstone
 x 1
 y 2
 end
@@ -92,7 +92,7 @@ arch wwall_2_1_1
 x 1
 y 2
 end
-arch woodfloor
+arch flagstone
 x 1
 y 3
 end
@@ -100,7 +100,7 @@ arch wwall_2_1_1
 x 1
 y 3
 end
-arch woodfloor
+arch flagstone
 x 1
 y 4
 end
@@ -108,7 +108,7 @@ arch wwall_2_1_1
 x 1
 y 4
 end
-arch woodfloor
+arch flagstone
 x 1
 y 5
 end
@@ -116,7 +116,7 @@ arch wwall_2_1_1
 x 1
 y 5
 end
-arch woodfloor
+arch flagstone
 x 1
 y 6
 end
@@ -124,7 +124,7 @@ arch wwall_win1
 x 1
 y 6
 end
-arch woodfloor
+arch flagstone
 x 1
 y 7
 end
@@ -132,7 +132,7 @@ arch wwall_2_1_1
 x 1
 y 7
 end
-arch woodfloor
+arch flagstone
 x 1
 y 8
 end
@@ -140,7 +140,7 @@ arch wwall_2_1_1
 x 1
 y 8
 end
-arch woodfloor
+arch flagstone
 x 1
 y 9
 end
@@ -148,7 +148,7 @@ arch wwall_2_1_1
 x 1
 y 9
 end
-arch woodfloor
+arch flagstone
 x 1
 y 10
 end
@@ -156,7 +156,7 @@ arch wwall_2_1_1
 x 1
 y 10
 end
-arch woodfloor
+arch flagstone
 x 1
 y 11
 end
@@ -164,7 +164,7 @@ arch wwall_2_1_1
 x 1
 y 11
 end
-arch woodfloor
+arch flagstone
 x 1
 y 12
 end
@@ -172,7 +172,7 @@ arch wwall_win1
 x 1
 y 12
 end
-arch woodfloor
+arch flagstone
 x 1
 y 13
 end
@@ -180,7 +180,7 @@ arch wwall_2_1_1
 x 1
 y 13
 end
-arch woodfloor
+arch flagstone
 x 1
 y 14
 end
@@ -188,7 +188,7 @@ arch wwall_2_1_1
 x 1
 y 14
 end
-arch woodfloor
+arch flagstone
 x 1
 y 15
 end
@@ -196,7 +196,7 @@ arch wwall_2_1_1
 x 1
 y 15
 end
-arch woodfloor
+arch flagstone
 x 1
 y 16
 end
@@ -204,7 +204,7 @@ arch wwall_2_1_1
 x 1
 y 16
 end
-arch woodfloor
+arch flagstone
 x 1
 y 17
 end
@@ -223,7 +223,7 @@ end
 arch grass
 x 2
 end
-arch woodfloor
+arch flagstone
 x 2
 y 1
 end
@@ -231,67 +231,75 @@ arch wwall_2_1_2
 x 2
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 2
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 3
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 4
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 5
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 13
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 2
+y 13
+end
+arch whiteslate
 x 2
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 2
 y 16
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 2
+y 16
+end
+arch flagstone
 x 2
 y 17
 end
@@ -310,7 +318,7 @@ end
 arch grass
 x 3
 end
-arch woodfloor
+arch flagstone
 x 3
 y 1
 end
@@ -318,67 +326,67 @@ arch wwall_2_1_2
 x 3
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 2
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 3
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 4
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 5
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 3
 y 16
 end
-arch woodfloor
+arch flagstone
 x 3
 y 17
 end
@@ -400,7 +408,7 @@ end
 arch grass
 x 4
 end
-arch woodfloor
+arch flagstone
 x 4
 y 1
 end
@@ -408,11 +416,15 @@ arch wwall_2_1_2
 x 4
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 2
 end
-arch woodfloor
+arch whiteslate
+x 4
+y 3
+end
+arch cwall_bluemarblemedium
 x 4
 y 3
 end
@@ -428,47 +440,51 @@ arch shallow_sea
 x 4
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 7
 end
-arch woodfloor
+arch cwall_bluemarblemedium
+x 4
+y 7
+end
+arch whiteslate
 x 4
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 4
 y 16
 end
-arch woodfloor
+arch flagstone
 x 4
 y 17
 end
@@ -490,7 +506,7 @@ end
 arch grass
 x 5
 end
-arch woodfloor
+arch flagstone
 x 5
 y 1
 end
@@ -498,7 +514,7 @@ arch wwall_2_1_2
 x 5
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 2
 end
@@ -522,43 +538,55 @@ arch shallow_sea
 x 5
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 8
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 5
+y 8
+end
+arch whiteslate
 x 5
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 13
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 5
+y 13
+end
+arch whiteslate
 x 5
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 5
 y 16
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 5
+y 16
+end
+arch flagstone
 x 5
 y 17
 end
@@ -577,7 +605,7 @@ end
 arch grass
 x 6
 end
-arch woodfloor
+arch flagstone
 x 6
 y 1
 end
@@ -585,7 +613,7 @@ arch wwall_2_1_2
 x 6
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 2
 end
@@ -617,19 +645,19 @@ arch shallow_sea
 x 6
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 12
 end
@@ -637,7 +665,7 @@ arch wwall_2_2_2
 x 6
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 13
 end
@@ -645,7 +673,7 @@ arch wwall_2_1_1
 x 6
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 14
 end
@@ -653,7 +681,7 @@ arch wwall_2_1_1
 x 6
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 15
 end
@@ -661,7 +689,7 @@ arch wwall_2_1_1
 x 6
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 6
 y 16
 end
@@ -669,7 +697,7 @@ arch wwall_2_1_1
 x 6
 y 16
 end
-arch woodfloor
+arch flagstone
 x 6
 y 17
 end
@@ -688,7 +716,7 @@ end
 arch grass
 x 7
 end
-arch woodfloor
+arch flagstone
 x 7
 y 1
 end
@@ -696,7 +724,7 @@ arch wwall_2_1_2
 x 7
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 2
 end
@@ -729,19 +757,19 @@ arch tile_white_floor
 x 7
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 12
 end
@@ -749,19 +777,23 @@ arch wwall_2_1_2
 x 7
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 13
 end
-arch woodfloor
+arch cwall_bluemarblemedium
+x 7
+y 13
+end
+arch whiteslate
 x 7
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 7
 y 16
 end
@@ -772,7 +804,7 @@ sp 18
 x 7
 y 16
 end
-arch woodfloor
+arch flagstone
 x 7
 y 17
 end
@@ -791,7 +823,7 @@ end
 arch grass
 x 8
 end
-arch woodfloor
+arch flagstone
 x 8
 y 1
 end
@@ -799,7 +831,7 @@ arch wwall_2_1_2
 x 8
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 2
 end
@@ -831,19 +863,19 @@ arch shallow_sea
 x 8
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 12
 end
@@ -851,23 +883,23 @@ arch wwall_2_1_2
 x 8
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 8
 y 16
 end
-arch woodfloor
+arch flagstone
 x 8
 y 17
 end
@@ -886,7 +918,7 @@ end
 arch grass
 x 9
 end
-arch woodfloor
+arch flagstone
 x 9
 y 1
 end
@@ -894,7 +926,7 @@ arch wwall_2_1_2
 x 9
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 2
 end
@@ -918,23 +950,27 @@ arch shallow_sea
 x 9
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 8
 end
-arch woodfloor
+arch cwall_cyanmarble
+x 9
+y 8
+end
+arch whiteslate
 x 9
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 12
 end
@@ -942,23 +978,23 @@ arch wwall_1_3
 x 9
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 9
 y 16
 end
-arch woodfloor
+arch flagstone
 x 9
 y 17
 end
@@ -977,7 +1013,7 @@ end
 arch grass
 x 10
 end
-arch woodfloor
+arch flagstone
 x 10
 y 1
 end
@@ -985,11 +1021,15 @@ arch wwall_2_1_2
 x 10
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 2
 end
-arch woodfloor
+arch whiteslate
+x 10
+y 3
+end
+arch cwall_bluemarblemedium
 x 10
 y 3
 end
@@ -1005,27 +1045,31 @@ arch shallow_sea
 x 10
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 7
 end
-arch woodfloor
+arch cwall_bluemarblemedium
+x 10
+y 7
+end
+arch whiteslate
 x 10
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 12
 end
@@ -1033,23 +1077,23 @@ arch mdoor_closed_1
 x 10
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 10
 y 16
 end
-arch woodfloor
+arch flagstone
 x 10
 y 17
 end
@@ -1068,7 +1112,7 @@ end
 arch grass
 x 11
 end
-arch woodfloor
+arch flagstone
 x 11
 y 1
 end
@@ -1076,47 +1120,47 @@ arch wwall_2_1_2
 x 11
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 2
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 3
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 4
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 5
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 12
 end
@@ -1124,23 +1168,23 @@ arch wwall_1_4
 x 11
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 13
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 11
 y 16
 end
-arch woodfloor
+arch flagstone
 x 11
 y 17
 end
@@ -1159,7 +1203,7 @@ end
 arch grass
 x 12
 end
-arch woodfloor
+arch flagstone
 x 12
 y 1
 end
@@ -1167,47 +1211,47 @@ arch wwall_2_1_2
 x 12
 y 1
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 2
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 3
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 4
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 5
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 6
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 7
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 8
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 9
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 10
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 11
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 12
 end
@@ -1215,23 +1259,31 @@ arch wwall_2_1_2
 x 12
 y 12
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 13
 end
-arch woodfloor
+arch cwall_bluemarblemedium
+x 12
+y 13
+end
+arch whiteslate
 x 12
 y 14
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 15
 end
-arch woodfloor
+arch whiteslate
 x 12
 y 16
 end
-arch woodfloor
+arch cwall_bluemarblemedium
+x 12
+y 16
+end
+arch flagstone
 x 12
 y 17
 end
@@ -1250,7 +1302,7 @@ end
 arch grass
 x 13
 end
-arch woodfloor
+arch flagstone
 x 13
 y 1
 end
@@ -1258,7 +1310,7 @@ arch wwall_2_2_3
 x 13
 y 1
 end
-arch woodfloor
+arch flagstone
 x 13
 y 2
 end
@@ -1266,7 +1318,7 @@ arch wwall_2_1_1
 x 13
 y 2
 end
-arch woodfloor
+arch flagstone
 x 13
 y 3
 end
@@ -1274,7 +1326,7 @@ arch wwall_2_1_1
 x 13
 y 3
 end
-arch woodfloor
+arch flagstone
 x 13
 y 4
 end
@@ -1282,7 +1334,7 @@ arch wwall_2_1_1
 x 13
 y 4
 end
-arch woodfloor
+arch flagstone
 x 13
 y 5
 end
@@ -1290,7 +1342,7 @@ arch wwall_2_1_1
 x 13
 y 5
 end
-arch woodfloor
+arch flagstone
 x 13
 y 6
 end
@@ -1298,7 +1350,7 @@ arch wwall_win1
 x 13
 y 6
 end
-arch woodfloor
+arch flagstone
 x 13
 y 7
 end
@@ -1306,7 +1358,7 @@ arch wwall_2_1_1
 x 13
 y 7
 end
-arch woodfloor
+arch flagstone
 x 13
 y 8
 end
@@ -1314,7 +1366,7 @@ arch wwall_2_1_1
 x 13
 y 8
 end
-arch woodfloor
+arch flagstone
 x 13
 y 9
 end
@@ -1322,7 +1374,7 @@ arch wwall_2_1_1
 x 13
 y 9
 end
-arch woodfloor
+arch flagstone
 x 13
 y 10
 end
@@ -1330,7 +1382,7 @@ arch wwall_2_1_1
 x 13
 y 10
 end
-arch woodfloor
+arch flagstone
 x 13
 y 11
 end
@@ -1338,7 +1390,7 @@ arch wwall_2_1_1
 x 13
 y 11
 end
-arch woodfloor
+arch flagstone
 x 13
 y 12
 end
@@ -1346,7 +1398,7 @@ arch wwall_3_4
 x 13
 y 12
 end
-arch woodfloor
+arch flagstone
 x 13
 y 13
 end
@@ -1354,7 +1406,7 @@ arch wwall_2_1_1
 x 13
 y 13
 end
-arch woodfloor
+arch flagstone
 x 13
 y 14
 end
@@ -1362,7 +1414,7 @@ arch wwall_win1
 x 13
 y 14
 end
-arch woodfloor
+arch flagstone
 x 13
 y 15
 end
@@ -1370,7 +1422,7 @@ arch wwall_2_1_1
 x 13
 y 15
 end
-arch woodfloor
+arch flagstone
 x 13
 y 16
 end
@@ -1378,7 +1430,7 @@ arch wwall_2_1_1
 x 13
 y 16
 end
-arch woodfloor
+arch flagstone
 x 13
 y 17
 end
