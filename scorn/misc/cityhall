@@ -9,7 +9,7 @@ enter_x 13
 enter_y 25
 msg
 Created:  1993-10-15
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-06-19 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -3768,6 +3768,7 @@ Frank Tore Johansen started writing Crossfire in March, 1992. Since then, many p
 endmsg
 x 17
 y 8
+no_pick 1
 identified 1
 end
 arch dungeon_magic
@@ -3785,6 +3786,7 @@ Crossfire is a multiplayer graphical arcade and adventure game made for the X-Wi
 endmsg
 x 17
 y 9
+no_pick 1
 identified 1
 end
 arch dungeon_magic
@@ -3802,6 +3804,7 @@ When you have rolled your stats and chosen a profession, you can type `?' at any
 endmsg
 x 17
 y 10
+no_pick 1
 identified 1
 end
 arch dungeon_magic
@@ -3819,6 +3822,7 @@ You can do several things by using only the mouse. In the inventory-window, you 
 endmsg
 x 17
 y 11
+no_pick 1
 identified 1
 end
 arch dungeon_magic
@@ -3844,6 +3848,7 @@ The development of Crossfire never stops. Keep your server and client up-to-date
 endmsg
 x 17
 y 13
+no_pick 1
 identified 1
 end
 arch woodfloor
