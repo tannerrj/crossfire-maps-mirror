@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-02-19
-Modified: 2024-12-31 Rick Tanner
+Modified: 2025-06-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_102_107
@@ -5023,7 +5023,15 @@ x 17
 y 21
 elevation 1804
 end
-arch woods_2
+arch store_general
+name The Hoarder's Hoard
+slaying ../santo_dominion/shops/furniture
+hp 16
+sp 16
+x 17
+y 21
+end
+arch grass_only
 x 17
 y 22
 elevation 2164
@@ -5344,12 +5352,12 @@ x 18
 y 20
 elevation 1433
 end
-arch woods_2
+arch grass_only
 x 18
 y 21
 elevation 1962
 end
-arch woods_2
+arch grass_only
 x 18
 y 22
 elevation 2452
