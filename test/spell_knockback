@@ -1,0 +1,82 @@
+arch map
+name Knockback Test
+width 5
+height 3
+msg
+Created:  2025-06-19 Kevin Zheng
+Modified: 2025-06-19 Kevin Zheng
+endmsg
+end
+arch dungeon_floor
+end
+arch dungeon_floor
+y 1
+end
+arch sign
+msg
+Stand here and cast icestorm to the east.
+endmsg
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch dungeon_floor
+x 1
+end
+arch blue_key
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch blue_key
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch blue_key
+x 1
+y 2
+end
+arch dungeon_floor
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch dungeon_floor
+x 2
+y 2
+end
+arch flagstone_0
+x 2
+y 2
+end
+arch dungeon_floor
+x 3
+end
+arch cobblestones
+x 3
+y 1
+end
+arch dungeon_floor
+x 3
+y 2
+end
+arch dungeon_floor
+x 4
+end
+arch dungeon_floor
+x 4
+y 1
+end
+arch dungeon_floor
+x 4
+y 2
+end
