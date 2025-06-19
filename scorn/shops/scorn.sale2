@@ -1553,7 +1553,7 @@ x 7
 y 13
 unique 1
 end
-arch dwall_3_1
+arch dwall_2_2_4
 x 7
 y 13
 end
@@ -1729,8 +1729,7 @@ arch tile_white_floor
 x 8
 y 9
 end
-arch palm
-name house plant
+arch menu
 x 8
 y 9
 end
@@ -1740,220 +1739,230 @@ y 10
 end
 arch tile_white_floor
 x 8
+y 10
+end
+arch dwall_2_1_2
+x 8
+y 10
+end
+arch dungeon_magic
+x 8
+y 11
+end
+arch tile_white_floor
+x 8
+y 11
+end
+arch shop_mat
+x 8
+y 11
+end
+arch dungeon_magic
+x 8
+y 12
+end
+arch tile_white_floor
+x 8
+y 12
+end
+arch swall_1_4
+x 8
+y 12
+end
+arch shop_empty
+x 8
+y 13
+end
+arch shop_mat
+x 8
+y 13
+end
+arch shop_empty
+x 8
+y 14
+unique 1
+end
+arch teleporter
+hp 16
+sp 8
+x 8
+y 14
+speed 0.000000
+invisible 1
+connected 1
+end
+arch shop_empty
+x 8
+y 15
+unique 1
+end
+arch teleporter
+hp 16
+sp 8
+x 8
+y 15
+speed 0.000000
+invisible 1
+connected 1
+end
+arch shop_empty
+x 8
+y 16
+unique 1
+end
+arch teleporter
+hp 16
+sp 8
+x 8
+y 16
+speed 0.000000
+invisible 1
+connected 1
+end
+arch shop_empty
+x 8
+y 17
+unique 1
+end
+arch teleporter
+hp 16
+sp 8
+x 8
+y 17
+speed 0.000000
+invisible 1
+connected 1
+end
+arch shop_empty
+x 8
+y 18
+unique 1
+end
+arch teleporter
+hp 16
+sp 8
+x 8
+y 18
+speed 0.000000
+invisible 1
+connected 1
+end
+arch shop_empty
+x 8
+y 19
+end
+arch dwall_2_1_2
+x 8
+y 19
+end
+arch shop_empty
+x 9
+end
+arch dwall_2_1_2
+x 9
+end
+arch dungeon_magic
+x 9
+y 1
+end
+arch tile_white_floor
+x 9
+y 1
+end
+arch dungeon_magic
+x 9
+y 2
+end
+arch tile_white_floor
+x 9
+y 2
+end
+arch dungeon_magic
+x 9
+y 3
+end
+arch tile_white_floor
+x 9
+y 3
+end
+arch dungeon_magic
+x 9
+y 4
+end
+arch tile_white_floor
+x 9
+y 4
+end
+arch dungeon_magic
+x 9
+y 5
+end
+arch tile_white_floor
+x 9
+y 5
+end
+arch dungeon_magic
+x 9
+y 6
+end
+arch tile_white_floor
+x 9
+y 6
+end
+arch dungeon_magic
+x 9
+y 7
+end
+arch tile_white_floor
+x 9
+y 7
+end
+arch dungeon_magic
+x 9
+y 8
+end
+arch tile_white_floor
+x 9
+y 8
+end
+arch dungeon_magic
+x 9
+y 9
+end
+arch trigger_marker
+slaying pawn_shop1
+msg
+You have one day's use of these facilities.
+endmsg
+food 504
+x 9
+y 9
+speed 1.0
+connected 88
+end
+arch tile_white_floor
+x 9
+y 9
+end
+arch altar_trigger
+name Drop 50 platinum for day pass
+slaying money
+food 2500
+x 9
+y 9
+connected 88
+end
+arch dungeon_magic
+x 9
+y 10
+end
+arch tile_white_floor
+x 9
 y 10
 end
 arch dwall_1_3
-x 8
-y 10
-end
-arch dungeon_magic
-x 8
-y 11
-end
-arch pedestal
-x 8
-y 11
-invisible 1
-connected 11
-end
-arch tile_white_floor
-x 8
-y 11
-end
-arch dungeon_magic
-x 8
-y 12
-end
-arch tile_white_floor
-x 8
-y 12
-end
-arch menu
-x 8
-y 12
-end
-arch shop_empty
-x 8
-y 13
-end
-arch dwall_win2
-x 8
-y 13
-end
-arch shop_empty
-x 8
-y 14
-unique 1
-end
-arch teleporter
-hp 16
-sp 8
-x 8
-y 14
-speed 0.000000
-invisible 1
-connected 1
-end
-arch shop_empty
-x 8
-y 15
-unique 1
-end
-arch teleporter
-hp 16
-sp 8
-x 8
-y 15
-speed 0.000000
-invisible 1
-connected 1
-end
-arch shop_empty
-x 8
-y 16
-unique 1
-end
-arch teleporter
-hp 16
-sp 8
-x 8
-y 16
-speed 0.000000
-invisible 1
-connected 1
-end
-arch shop_empty
-x 8
-y 17
-unique 1
-end
-arch teleporter
-hp 16
-sp 8
-x 8
-y 17
-speed 0.000000
-invisible 1
-connected 1
-end
-arch shop_empty
-x 8
-y 18
-unique 1
-end
-arch teleporter
-hp 16
-sp 8
-x 8
-y 18
-speed 0.000000
-invisible 1
-connected 1
-end
-arch shop_empty
-x 8
-y 19
-end
-arch dwall_2_1_2
-x 8
-y 19
-end
-arch shop_empty
-x 9
-end
-arch dwall_2_1_2
-x 9
-end
-arch dungeon_magic
-x 9
-y 1
-end
-arch tile_white_floor
-x 9
-y 1
-end
-arch dungeon_magic
-x 9
-y 2
-end
-arch tile_white_floor
-x 9
-y 2
-end
-arch dungeon_magic
-x 9
-y 3
-end
-arch tile_white_floor
-x 9
-y 3
-end
-arch dungeon_magic
-x 9
-y 4
-end
-arch tile_white_floor
-x 9
-y 4
-end
-arch dungeon_magic
-x 9
-y 5
-end
-arch tile_white_floor
-x 9
-y 5
-end
-arch dungeon_magic
-x 9
-y 6
-end
-arch tile_white_floor
-x 9
-y 6
-end
-arch dungeon_magic
-x 9
-y 7
-end
-arch tile_white_floor
-x 9
-y 7
-end
-arch dungeon_magic
-x 9
-y 8
-end
-arch tile_white_floor
-x 9
-y 8
-end
-arch check_inv
-slaying pawn_shop1
-x 9
-y 9
-connected 11
-end
-arch dungeon_magic
-x 9
-y 9
-end
-arch tile_white_floor
-x 9
-y 9
-end
-arch dungeon_magic
 x 9
 y 10
-end
-arch tile_white_floor
-x 9
-y 10
-end
-arch mdoor_closed_1
-x 9
-y 10
-connected 11
 end
 arch dungeon_magic
 x 9
@@ -1977,7 +1986,7 @@ arch tile_white_floor
 x 9
 y 12
 end
-arch shop_mat
+arch swall_2_2_3
 x 9
 y 12
 end
@@ -1985,7 +1994,7 @@ arch shop_empty
 x 9
 y 13
 end
-arch dwall_2_1_2
+arch dwall_1_4
 x 9
 y 13
 end
@@ -2145,32 +2154,19 @@ arch tile_white_floor
 x 10
 y 8
 end
-arch dungeon_magic
-x 10
-y 9
-end
-arch trigger_marker
+arch check_inv
 slaying pawn_shop1
-msg
-You have one day's use of these facilities.
-endmsg
-food 504
 x 10
 y 9
-speed 1.0
-connected 88
+connected 11
+end
+arch dungeon_magic
+x 10
+y 9
 end
 arch tile_white_floor
 x 10
 y 9
-end
-arch altar_trigger
-name Drop 50 platinum for day pass
-slaying money
-food 2500
-x 10
-y 9
-connected 88
 end
 arch dungeon_magic
 x 10
@@ -2180,19 +2176,22 @@ arch tile_white_floor
 x 10
 y 10
 end
-arch dwall_2_2_3
+arch mdoor_closed_1
 x 10
 y 10
+connected 11
 end
 arch dungeon_magic
 x 10
 y 11
 end
-arch tile_white_floor
+arch pedestal
 x 10
 y 11
+invisible 1
+connected 11
 end
-arch dwall_win1
+arch tile_white_floor
 x 10
 y 11
 end
@@ -2204,7 +2203,7 @@ arch tile_white_floor
 x 10
 y 12
 end
-arch dwall_2_2_1
+arch menu
 x 10
 y 12
 end
@@ -2221,7 +2220,7 @@ arch shop_empty
 x 10
 y 14
 end
-arch shop_mat
+arch dwall_0
 x 10
 y 14
 end
@@ -2375,7 +2374,7 @@ arch tile_white_floor
 x 11
 y 10
 end
-arch platinum_converter
+arch dwall_2_2_3
 x 11
 y 10
 end
@@ -2387,7 +2386,7 @@ arch tile_white_floor
 x 11
 y 11
 end
-arch pearl_converter
+arch dwall_win1
 x 11
 y 11
 end
@@ -2399,7 +2398,7 @@ arch tile_white_floor
 x 11
 y 12
 end
-arch dwall_2_2_3
+arch dwall_2_1_1
 x 11
 y 12
 end
@@ -2593,11 +2592,6 @@ arch tile_white_floor
 x 12
 y 9
 end
-arch palm
-name house plant
-x 12
-y 9
-end
 arch dungeon_magic
 x 12
 y 10
@@ -2606,19 +2600,11 @@ arch tile_white_floor
 x 12
 y 10
 end
-arch diamond_converter
-x 12
-y 10
-end
 arch dungeon_magic
 x 12
 y 11
 end
 arch tile_white_floor
-x 12
-y 11
-end
-arch ruby_converter
 x 12
 y 11
 end
@@ -2627,10 +2613,6 @@ x 12
 y 12
 end
 arch tile_white_floor
-x 12
-y 12
-end
-arch menu
 x 12
 y 12
 end
