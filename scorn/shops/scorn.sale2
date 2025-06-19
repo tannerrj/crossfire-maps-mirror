@@ -11,7 +11,7 @@ enter_x 10
 enter_y 1
 msg
 Created: 2004-07-01 Gene Alexander (gene@eracc.com)
-Modified: 2025-06-16 Kevin Zheng
+Modified: 2025-06-18 Kevin Zheng
 endmsg
 end
 arch shop_empty
@@ -850,18 +850,13 @@ arch dwall_2_1_2
 x 4
 y 1
 end
-arch shop_empty
+arch dungeon_magic
 x 4
 y 2
 end
-arch teleporter
-hp 2
-sp 2
+arch tile_white_floor
 x 4
 y 2
-speed 0.0
-invisible 1
-connected 44
 end
 arch shop_empty
 x 4
@@ -881,18 +876,13 @@ arch dwall_3_1
 x 4
 y 4
 end
-arch shop_empty
+arch dungeon_magic
 x 4
 y 5
 end
-arch teleporter
-hp 2
-sp 5
+arch tile_white_floor
 x 4
 y 5
-speed 0.0
-invisible 1
-connected 22
 end
 arch shop_empty
 x 4
@@ -1069,12 +1059,6 @@ arch tile_white_floor
 x 5
 y 2
 end
-arch pedestal
-x 5
-y 2
-invisible 1
-connected 44
-end
 arch shop_empty
 x 5
 y 3
@@ -1100,12 +1084,6 @@ end
 arch tile_white_floor
 x 5
 y 5
-end
-arch pedestal
-x 5
-y 5
-invisible 1
-connected 22
 end
 arch shop_empty
 x 5
@@ -1275,13 +1253,6 @@ arch tile_white_floor
 x 6
 y 2
 end
-arch gate_closed_2
-x 6
-y 2
-connected 44
-no_magic 1
-damned 1
-end
 arch shop_empty
 x 6
 y 3
@@ -1307,13 +1278,6 @@ end
 arch tile_white_floor
 x 6
 y 5
-end
-arch gate_closed_2
-x 6
-y 5
-connected 22
-no_magic 1
-damned 1
 end
 arch shop_empty
 x 6
@@ -1495,12 +1459,6 @@ arch tile_white_floor
 x 7
 y 2
 end
-arch pedestal
-x 7
-y 2
-invisible 1
-connected 44
-end
 arch shop_empty
 x 7
 y 3
@@ -1526,12 +1484,6 @@ end
 arch tile_white_floor
 x 7
 y 5
-end
-arch pedestal
-x 7
-y 5
-invisible 1
-connected 22
 end
 arch shop_empty
 x 7
@@ -1727,14 +1679,6 @@ arch tile_white_floor
 x 8
 y 4
 end
-arch sign_w
-name Pawn Booth
-msg
-Items sold in these booths will be moved to the pawn shop floor. Note if one picks up an item after dropping it in a booth one has to pay the purchase price to get the item back.
-endmsg
-x 8
-y 4
-end
 arch dungeon_magic
 x 8
 y 5
@@ -1756,7 +1700,7 @@ name Info
 msg
 Scorn Pawn Shop
 ---
-Items you sell here will stay roughly "forever" unless someone buys the item. If the shop gets too crowded with items a Proprietor will clear out the excess. You can sell items in the pawn booths or you can go and browse our inventory of items for a small fee.
+Items you sell here will stay roughly "forever" unless someone buys the item. If the shop gets too crowded with items a Proprietor will clear out the excess. You can sell items or browse our inventory of items for a small fee.
 endmsg
 x 8
 y 6
@@ -1920,9 +1864,6 @@ end
 arch dwall_2_1_2
 x 9
 end
-arch swall_1_1_half
-x 9
-end
 arch dungeon_magic
 x 9
 y 1
@@ -1931,19 +1872,11 @@ arch tile_white_floor
 x 9
 y 1
 end
-arch swall_2_1_1
-x 9
-y 1
-end
 arch dungeon_magic
 x 9
 y 2
 end
 arch tile_white_floor
-x 9
-y 2
-end
-arch swall_2_1_1
 x 9
 y 2
 end
@@ -1952,10 +1885,6 @@ x 9
 y 3
 end
 arch tile_white_floor
-x 9
-y 3
-end
-arch swall_2_2_1
 x 9
 y 3
 end
@@ -2168,10 +2097,6 @@ arch tile_white_floor
 x 10
 y 2
 end
-arch shop_mat
-x 10
-y 2
-end
 arch dungeon_magic
 x 10
 y 3
@@ -2180,19 +2105,11 @@ arch tile_white_floor
 x 10
 y 3
 end
-arch swall_2_1_2
-x 10
-y 3
-end
 arch dungeon_magic
 x 10
 y 4
 end
 arch tile_white_floor
-x 10
-y 4
-end
-arch shop_mat
 x 10
 y 4
 end
@@ -2243,27 +2160,17 @@ y 9
 speed 1.0
 connected 88
 end
-arch altar_trigger
-name Drop 500 gold for day pass
-slaying money
-face chalice.111
-food 5000
-x 10
-y 9
-connected 88
-end
 arch tile_white_floor
 x 10
 y 9
 end
-arch chalice
-name Drop 500 gold for day pass
+arch altar_trigger
+name Drop 50 platinum for day pass
+slaying money
+food 2500
 x 10
 y 9
-type 0
-value 0
-weight 0
-no_pick 1
+connected 88
 end
 arch dungeon_magic
 x 10
@@ -2388,9 +2295,6 @@ end
 arch dwall_2_1_2
 x 11
 end
-arch swall_1_1_half
-x 11
-end
 arch dungeon_magic
 x 11
 y 1
@@ -2399,19 +2303,11 @@ arch tile_white_floor
 x 11
 y 1
 end
-arch swall_2_1_1
-x 11
-y 1
-end
 arch dungeon_magic
 x 11
 y 2
 end
 arch tile_white_floor
-x 11
-y 2
-end
-arch swall_2_1_1
 x 11
 y 2
 end
@@ -2420,10 +2316,6 @@ x 11
 y 3
 end
 arch tile_white_floor
-x 11
-y 3
-end
-arch swall_2_2_4
 x 11
 y 3
 end
@@ -2641,14 +2533,6 @@ arch tile_white_floor
 x 12
 y 4
 end
-arch sign_e
-name Pawn Booth
-msg
-Items sold in these booths will be moved to the pawn shop floor. Note if one picks up an item after dropping it in a booth one has to pay the purchase price to get the item back.
-endmsg
-x 12
-y 4
-end
 arch dungeon_magic
 x 12
 y 5
@@ -2858,12 +2742,6 @@ arch tile_white_floor
 x 13
 y 2
 end
-arch pedestal
-x 13
-y 2
-invisible 1
-connected 55
-end
 arch shop_empty
 x 13
 y 3
@@ -2889,12 +2767,6 @@ end
 arch tile_white_floor
 x 13
 y 5
-end
-arch pedestal
-x 13
-y 5
-invisible 1
-connected 33
 end
 arch shop_empty
 x 13
@@ -3072,13 +2944,6 @@ arch tile_white_floor
 x 14
 y 2
 end
-arch gate_closed_2
-x 14
-y 2
-connected 55
-no_magic 1
-damned 1
-end
 arch shop_empty
 x 14
 y 3
@@ -3104,13 +2969,6 @@ end
 arch tile_white_floor
 x 14
 y 5
-end
-arch gate_closed_2
-x 14
-y 5
-connected 33
-no_magic 1
-damned 1
 end
 arch shop_empty
 x 14
@@ -3323,12 +3181,6 @@ arch tile_white_floor
 x 15
 y 2
 end
-arch pedestal
-x 15
-y 2
-invisible 1
-connected 55
-end
 arch shop_empty
 x 15
 y 3
@@ -3354,12 +3206,6 @@ end
 arch tile_white_floor
 x 15
 y 5
-end
-arch pedestal
-x 15
-y 5
-invisible 1
-connected 33
 end
 arch shop_empty
 x 15
@@ -3558,18 +3404,13 @@ arch dwall_2_1_2
 x 16
 y 1
 end
-arch shop_empty
+arch dungeon_magic
 x 16
 y 2
 end
-arch teleporter
-hp 18
-sp 2
+arch tile_white_floor
 x 16
 y 2
-speed 0.0
-invisible 1
-connected 55
 end
 arch shop_empty
 x 16
@@ -3589,18 +3430,13 @@ arch dwall_3_1
 x 16
 y 4
 end
-arch shop_empty
+arch dungeon_magic
 x 16
 y 5
 end
-arch teleporter
-hp 18
-sp 5
+arch tile_white_floor
 x 16
 y 5
-speed 0.0
-invisible 1
-connected 33
 end
 arch shop_empty
 x 16
