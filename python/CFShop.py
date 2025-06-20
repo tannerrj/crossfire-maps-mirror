@@ -5,7 +5,7 @@ def init():
     with cfdb.open() as db:
         db.execute("CREATE TABLE IF NOT EXISTS shop_transactions('shop' TEXT, 'time' DATE, 'player' TEXT, 'arch' TEXT, 'name' TEXT, 'quantity' INT, 'amount' INT);")
 
-def transact(sell):
+def transact(sell, seller=None):
     """
     sell is True when a player sells an item to a shop. Since transactions are
     recorded from a shop's perspective, a sell results in positive quantity
@@ -18,11 +18,13 @@ def transact(sell):
         player = Crossfire.WhoIsActivator()
         amount = Crossfire.WhoIsOther()
 
+        if seller is None:
+            seller = player.Name
+
         sign = 1
         if sell:
             sign = -1
 
         db.execute("INSERT INTO shop_transactions VALUES (?, datetime('now'), ?, ?, ?, ?, ?);",
-                   (player.Map.Path, player.Name, item.Archetype.Name, item.QueryName(), item.Quantity * -sign, amount * sign))
+                   (player.Map.Path, seller, item.Archetype.Name, item.QueryName(), item.Quantity * -sign, amount * sign))
         db.commit()
-
