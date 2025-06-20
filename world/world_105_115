@@ -3766,6 +3766,12 @@ x 8
 y 35
 elevation 528
 end
+arch market1
+name Scorn Public Market
+slaying /scorn/shops/market
+x 8
+y 35
+end
 arch dungeon_magic
 x 8
 y 36
@@ -4215,6 +4221,12 @@ x 9
 y 35
 elevation 528
 end
+arch market2
+name Scorn Public Market
+slaying /scorn/shops/market
+x 9
+y 35
+end
 arch dungeon_magic
 x 9
 y 36
@@ -4650,6 +4662,12 @@ arch grass
 x 10
 y 35
 elevation 3260
+end
+arch market2
+name Scorn Public Market
+slaying /scorn/shops/market
+x 10
+y 35
 end
 arch dungeon_magic
 x 10
@@ -5115,6 +5133,12 @@ arch grass
 x 11
 y 35
 elevation 3260
+end
+arch market3
+name Scorn Public Market
+slaying /scorn/shops/market
+x 11
+y 35
 end
 arch dungeon_magic
 x 11
