@@ -9,7 +9,7 @@ enter_x 11
 enter_y 22
 msg
 Created: 2003-11 Avion
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-06-21 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_temple_of_ruggilli
@@ -486,7 +486,7 @@ arch blackslate
 x 4
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 4
 end
@@ -494,7 +494,7 @@ arch awall_2_2_2
 x 4
 y 4
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 5
 end
@@ -502,7 +502,7 @@ arch awall_2_1_1
 x 4
 y 5
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 6
 end
@@ -510,7 +510,7 @@ arch awall_2_1_1
 x 4
 y 6
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 7
 end
@@ -518,7 +518,7 @@ arch awall_2_1_1
 x 4
 y 7
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 8
 end
@@ -526,7 +526,7 @@ arch awall_2_1_1
 x 4
 y 8
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 9
 end
@@ -534,7 +534,7 @@ arch awall_2_1_1
 x 4
 y 9
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 10
 end
@@ -542,7 +542,7 @@ arch awall_2_1_1
 x 4
 y 10
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 11
 end
@@ -550,7 +550,7 @@ arch awall_2_1_1
 x 4
 y 11
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 12
 end
@@ -558,7 +558,7 @@ arch awall_2_1_1
 x 4
 y 12
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 13
 end
@@ -566,7 +566,7 @@ arch awall_2_1_1
 x 4
 y 13
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 14
 end
@@ -574,7 +574,7 @@ arch awall_2_1_1
 x 4
 y 14
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 15
 end
@@ -582,7 +582,7 @@ arch awall_2_1_1
 x 4
 y 15
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 16
 end
@@ -590,7 +590,7 @@ arch awall_2_1_1
 x 4
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 4
 y 17
 end
@@ -657,7 +657,7 @@ arch cwall_graymarble
 x 5
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 5
 y 4
 end
@@ -728,7 +728,7 @@ arch permanent_lava
 x 5
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 5
 y 17
 end
@@ -795,7 +795,7 @@ arch blackslate
 x 6
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 6
 y 4
 end
@@ -873,7 +873,7 @@ arch permanent_lava
 x 6
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 6
 y 17
 end
@@ -944,7 +944,7 @@ arch cwall_graymarble
 x 7
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 7
 y 4
 end
@@ -1000,7 +1000,7 @@ arch permanent_lava
 x 7
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 7
 y 17
 end
@@ -1067,7 +1067,7 @@ arch blackslate
 x 8
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 8
 y 4
 end
@@ -1145,7 +1145,7 @@ arch flagstone
 x 8
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 8
 y 17
 end
@@ -1212,7 +1212,7 @@ arch cwall_graymarble
 x 9
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 9
 y 4
 end
@@ -1290,7 +1290,7 @@ arch brazier
 x 9
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 9
 y 17
 end
@@ -1403,7 +1403,7 @@ arch blackslate
 x 10
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 10
 y 4
 end
@@ -1568,7 +1568,7 @@ arch cwall_graymarble
 x 11
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 11
 y 4
 end
@@ -1741,7 +1741,7 @@ arch cwall_graymarble
 x 12
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 12
 y 4
 end
@@ -1926,7 +1926,7 @@ arch blackslate
 x 13
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 13
 y 4
 end
@@ -2099,7 +2099,7 @@ arch cwall_graymarble
 x 14
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 14
 y 4
 end
@@ -2179,7 +2179,7 @@ arch brazier
 x 14
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 14
 y 17
 end
@@ -2296,7 +2296,7 @@ arch blackslate
 x 15
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 15
 y 4
 end
@@ -2374,7 +2374,7 @@ arch permanent_lava
 x 15
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 15
 y 17
 end
@@ -2441,7 +2441,7 @@ arch cwall_graymarble
 x 16
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 16
 y 4
 end
@@ -2525,7 +2525,7 @@ arch permanent_lava
 x 16
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 16
 y 17
 end
@@ -2592,7 +2592,7 @@ arch blackslate
 x 17
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 17
 y 4
 end
@@ -2648,7 +2648,7 @@ arch permanent_lava
 x 17
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 17
 y 17
 end
@@ -2719,7 +2719,7 @@ arch cwall_graymarble
 x 18
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 18
 y 4
 end
@@ -2787,7 +2787,7 @@ arch permanent_lava
 x 18
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 18
 y 17
 end
@@ -2854,7 +2854,7 @@ arch blackslate
 x 19
 y 3
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 4
 end
@@ -2862,7 +2862,7 @@ arch awall_2_2_3
 x 19
 y 4
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 5
 end
@@ -2870,7 +2870,7 @@ arch awall_2_1_1
 x 19
 y 5
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 6
 end
@@ -2878,7 +2878,7 @@ arch awall_2_1_1
 x 19
 y 6
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 7
 end
@@ -2886,7 +2886,7 @@ arch awall_2_1_1
 x 19
 y 7
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 8
 end
@@ -2894,7 +2894,7 @@ arch awall_2_1_1
 x 19
 y 8
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 9
 end
@@ -2902,7 +2902,7 @@ arch awall_2_1_1
 x 19
 y 9
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 10
 end
@@ -2910,7 +2910,7 @@ arch awall_2_1_1
 x 19
 y 10
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 11
 end
@@ -2918,7 +2918,7 @@ arch awall_2_1_1
 x 19
 y 11
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 12
 end
@@ -2926,7 +2926,7 @@ arch awall_2_1_1
 x 19
 y 12
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 13
 end
@@ -2934,7 +2934,7 @@ arch awall_2_1_1
 x 19
 y 13
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 14
 end
@@ -2942,7 +2942,7 @@ arch awall_2_1_1
 x 19
 y 14
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 15
 end
@@ -2950,7 +2950,7 @@ arch awall_2_1_1
 x 19
 y 15
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 16
 end
@@ -2958,7 +2958,7 @@ arch awall_2_1_1
 x 19
 y 16
 end
-arch flagstone
+arch stonefloor2
 x 19
 y 17
 end
