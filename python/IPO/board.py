@@ -80,3 +80,5 @@ if boardname:
 
 else:
 	activator.Write('Board Error')
+
+board.close()

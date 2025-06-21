@@ -34,6 +34,15 @@ class CFBoard:
 	def __init__(self):
 		self.boarddb = shelve.open(self.boarddb_file)
 
+	def close(self):
+		self.boarddb.close()
+
+	def __enter__(self):
+		return self
+
+	def __exit__(self, exc_type, exc_value, traceback):
+		self.close()
+
 	def write(self, boardname, author, message):
 		if not boardname in self.boarddb:
 			self.boarddb[boardname]=[[author,message]]
