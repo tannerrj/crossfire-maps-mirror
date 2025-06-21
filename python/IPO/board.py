@@ -24,61 +24,65 @@
 
 import Crossfire
 import CFBoard
-import string
-
-board = CFBoard.CFBoard()
 
 activator = Crossfire.WhoIsActivator()
-activatorname = activator.Name
 whoami = Crossfire.WhoAmI()
 
-boardname = Crossfire.ScriptParameters()
-if boardname:
+boardname = Crossfire.ScriptParameters().strip()
 
-	text = Crossfire.WhatIsMessage().split(' ', 1)
+def board_list(board):
+    msgs = []
+    for i, e in enumerate(board.list(boardname)):
+        author, message = e
+        msgs.append('<%d> (%s) %s'%(i + 1, author, message))
+    if len(msgs) == 0:
+        return ["The board is empty."]
+    return msgs
 
-	if text[0] == 'help' or text[0] == 'yes':
-		message='Help for %s\nList of commands:\n\n- list\n- write <message>\n- remove <id>\n'%boardname
-		activator.Write(message)
+def handle_say(board):
+    text = Crossfire.WhatIsMessage().split(' ', 1)
 
-	elif text[0] == 'write':
-		if len(text) == 2:
-			board.write(boardname, activatorname, text[1])
-			activator.Write('Added to %s'%boardname)
-		else:
-			activator.Write('Usage "write <text>"')
+    if text[0] == 'help' or text[0] == 'yes':
+        return ['You can:\n- list\n- write <message>\n- remove <id>']
 
-	elif text[0] == 'list':
-		total = board.countmsg(boardname)
-		if total > 0:
-			activator.Write('Content of %s:'%boardname)
-			elements = board.list(boardname)
-			element = []
-			id = 1
-			for element in elements:
-				author, message = element
-				activator.Write('<%d> (%s) %s'%(id, author, message))
-				id = id+1
-		else:
-			activator.Write('%s is empty'%boardname)
+    elif text[0] == 'write':
+        if len(text) == 2:
+            board.write(boardname, activator.Name, text[1])
+            return ["You post a message to the board."]
+        else:
+            return ['Usage "write <text>"']
 
-	elif text[0] == 'remove':
-		if len(text) == 2:
-			index = int(text[1])
-			if board.getauthor(boardname, index) == activatorname or activator.DungeonMaster:
-				if board.delete(boardname, index):
-					activator.Write('Removed from %s'%boardname)
-				else:
-					activator.Write('Doesn\'t exist on %s'%boardname)
-			else:
-				activator.Write('Access denied')
-		else:
-			activator.Write('Usage "remove <id>"')
+    elif text[0] == 'list':
+        return board_list(board)
 
-	else:
-		activator.Write('Do you need help?')
+    elif text[0] == 'remove':
+        if len(text) != 2:
+            return ["Which post do you want to remove?"]
+        index = int(text[1])
+        if not (board.getauthor(boardname, index) == activator.Name or activator.DungeonMaster):
+            return ["You may not remove others' posts."]
+        if not board.delete(boardname, index):
+            return ["That post doesn't exist!"]
+        return ["You remove a post."]
 
-else:
-	activator.Write('Board Error')
+    else:
+        return ['Do you need help?']
 
-board.close()
+def main():
+    Crossfire.SetReturnValue(1)
+    if len(boardname) == 0:
+        activator.Write("This board is not set up correctly. Ask a dungeon master for help.")
+        return
+
+    with CFBoard.CFBoard() as board:
+        msg = []
+        if Crossfire.WhatIsEvent().Subtype == Crossfire.EventType.APPLY:
+            header = whoami.Message.strip()
+            if (len(header) > 0):
+                msg.append(header)
+            msg = msg + board_list(board)
+        else:
+            msg = handle_say(board)
+        activator.Write("\n".join(msg))
+
+main()

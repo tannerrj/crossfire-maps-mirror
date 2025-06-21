@@ -55,7 +55,7 @@ class CFBoard:
 		if boardname in self.boarddb:
 			elements=self.boarddb[boardname]
 			return elements
-
+		return []
 
 	def delete(self, boardname, id):
 		if boardname in self.boarddb:
@@ -65,12 +65,6 @@ class CFBoard:
 				self.boarddb[boardname]=temp
 				return 1
 		return 0
-
-	def countmsg(self, boardname):
-		if boardname in self.boarddb:
-			return len(self.boarddb[boardname])
-		else:
-			return 0
 
 	def getauthor(self, boardname, id):
 		if boardname in self.boarddb:
