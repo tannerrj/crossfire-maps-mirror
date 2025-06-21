@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2024-07-08 Rick Tanner
+Modified: 2025-06-21 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -2470,17 +2470,16 @@ x 5
 y 36
 elevation 9133
 end
-arch sign
-name Central Square of Scorn
-msg
-Read the signs to the right for information on where to go and what to do.
---oOo--
-WARNING: Magic is not permitted within Scorn city limits.
---oOo--
-Please do not litter.
-endmsg
+arch messageboard
+name Scorn Message Board
 x 5
 y 36
+arch messageboard_apply_event
+name Scorn board
+end
+arch messageboard_say_event
+name Scorn board
+end
 end
 arch dungeon_magic
 x 5
