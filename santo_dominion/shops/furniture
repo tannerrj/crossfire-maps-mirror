@@ -9,7 +9,7 @@ enter_x 16
 enter_y 16
 msg
 Created:  2025-06-18 Rick Tanner
-Modified: 2025-06-19 Rick Tanner
+Modified: 2025-06-22 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -551,6 +551,7 @@ end
 arch wall_0
 x 5
 y 5
+blocksview 0
 end
 arch light4
 x 5
@@ -589,6 +590,7 @@ end
 arch wall_0
 x 5
 y 8
+blocksview 0
 end
 arch light4
 x 5
@@ -626,6 +628,7 @@ end
 arch wall_0
 x 5
 y 12
+blocksview 0
 end
 arch shop_empty
 x 5
@@ -660,6 +663,7 @@ end
 arch wall_0
 x 5
 y 15
+blocksview 0
 end
 arch shop_empty
 x 5
@@ -732,6 +736,7 @@ end
 arch wall_0
 x 6
 y 5
+blocksview 0
 end
 arch light4
 x 6
@@ -770,6 +775,7 @@ end
 arch wall_0
 x 6
 y 8
+blocksview 0
 end
 arch shop_empty
 x 6
@@ -799,6 +805,7 @@ end
 arch wall_0
 x 6
 y 12
+blocksview 0
 end
 arch shop_empty
 x 6
@@ -833,6 +840,7 @@ end
 arch wall_0
 x 6
 y 15
+blocksview 0
 end
 arch shop_empty
 x 6
@@ -927,6 +935,7 @@ end
 arch wall_0
 x 7
 y 10
+blocksview 0
 end
 arch shop_empty
 x 7
@@ -1021,6 +1030,7 @@ end
 arch wall_0
 x 8
 y 5
+blocksview 0
 end
 arch light4
 x 8
@@ -1059,6 +1069,7 @@ end
 arch wall_0
 x 8
 y 8
+blocksview 0
 end
 arch shop_empty
 x 8
@@ -1088,6 +1099,7 @@ end
 arch wall_0
 x 8
 y 12
+blocksview 0
 end
 arch shop_empty
 x 8
@@ -1122,6 +1134,7 @@ end
 arch wall_0
 x 8
 y 15
+blocksview 0
 end
 arch shop_empty
 x 8
@@ -1200,6 +1213,7 @@ end
 arch wall_0
 x 9
 y 5
+blocksview 0
 end
 arch light4
 x 9
@@ -1238,6 +1252,7 @@ end
 arch wall_0
 x 9
 y 8
+blocksview 0
 end
 arch light4
 x 9
@@ -1275,6 +1290,7 @@ end
 arch wall_0
 x 9
 y 12
+blocksview 0
 end
 arch shop_empty
 x 9
@@ -1309,6 +1325,7 @@ end
 arch wall_0
 x 9
 y 15
+blocksview 0
 end
 arch shop_empty
 x 9
@@ -1535,6 +1552,7 @@ end
 arch wall_0
 x 11
 y 12
+blocksview 0
 end
 arch shop_empty
 x 11
@@ -1569,6 +1587,7 @@ end
 arch wall_0
 x 11
 y 15
+blocksview 0
 end
 arch shop_empty
 x 11
@@ -1643,6 +1662,7 @@ end
 arch wall_0
 x 12
 y 5
+blocksview 0
 end
 arch shop_empty
 x 12
@@ -1677,6 +1697,7 @@ end
 arch wall_0
 x 12
 y 8
+blocksview 0
 end
 arch light4
 x 12
@@ -1710,6 +1731,7 @@ end
 arch wall_0
 x 12
 y 12
+blocksview 0
 end
 arch shop_empty
 x 12
@@ -1744,6 +1766,7 @@ end
 arch wall_0
 x 12
 y 15
+blocksview 0
 end
 arch shop_empty
 x 12
@@ -1820,6 +1843,7 @@ end
 arch wall_0
 x 13
 y 5
+blocksview 0
 end
 arch shop_empty
 x 13
@@ -1850,6 +1874,7 @@ end
 arch wall_0
 x 13
 y 8
+blocksview 0
 end
 arch shop_empty
 x 13
@@ -1970,6 +1995,7 @@ end
 arch wall_0
 x 14
 y 10
+blocksview 0
 end
 arch shop_empty
 x 14
@@ -2100,6 +2126,7 @@ end
 arch wall_0
 x 15
 y 5
+blocksview 0
 end
 arch shop_empty
 x 15
@@ -2134,6 +2161,7 @@ end
 arch wall_0
 x 15
 y 8
+blocksview 0
 end
 arch light4
 x 15
@@ -2271,6 +2299,7 @@ end
 arch wall_0
 x 16
 y 5
+blocksview 0
 end
 arch shop_empty
 x 16
@@ -2301,6 +2330,7 @@ end
 arch wall_0
 x 16
 y 8
+blocksview 0
 end
 arch shop_empty
 x 16
