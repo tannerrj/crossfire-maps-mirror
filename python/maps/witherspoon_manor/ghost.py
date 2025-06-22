@@ -184,6 +184,12 @@ def do_disappear():
 
 if Crossfire.WhatIsEvent().Subtype == Crossfire.EventType.SAY:
 	Crossfire.SetReturnValue(1)
+	Crossfire.WhoAmI().Unaggressive = 1
 	do_dialog()
 elif Crossfire.WhatIsEvent().Subtype == Crossfire.EventType.TIMER:
 	do_timer()
+elif Crossfire.WhatIsEvent().Subtype == Crossfire.EventType.ATTACK:
+	if can_talk(None, None):
+		Crossfire.SetReturnValue(1)
+		Crossfire.WhoAmI().Say("Please, help me...")
+		Crossfire.WhoAmI().Unaggressive = 1

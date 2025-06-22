@@ -9,7 +9,7 @@ enter_x 16
 enter_y 5
 msg
 Creator: 2007-06-03 Nicolas Weeger
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-06-22 Nicolas Weeger
 endmsg
 reset_group scorn_witherspoon-manor
 end
@@ -159,67 +159,24 @@ y 4
 end
 arch ghost
 name tortured ghost
-Str 29
-Con 40
-Pow 60
-Int 25
-hp 16000
-maxhp 16000
 sp 100
 maxsp 200
-exp 500000
-dam 60
-wc -40
-ac -10
+exp 500
 x 6
 y 4
 speed 0.15
-level 50
-attacktype 20745
-resist_physical 75
-resist_magic 100
-resist_fire 75
-resist_electricity 100
-resist_cold 75
-resist_confusion 100
-resist_drain 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_godpower 80
-resist_holyword 30
-resist_blind 100
-weight 150000
-pick_up 24
-will_apply 2
-can_use_shield 1
 see_invisible 1
 unaggressive 1
 reflect_spell 1
-run_away 18
 can_cast_spell 1
-can_use_scroll 1
-can_use_range 1
-can_use_bow 1
-can_use_armour 1
-can_use_weapon 1
-can_use_ring 1
 sleep 0
-can_use_skill 1
 one_hit 0
 no_damage 1
-body_range 1
-body_arm 2
-body_torso 1
-body_head 1
-body_skill 1
-body_finger 2
-body_shoulder 1
-body_foot 2
-body_hand 2
-body_wrist 2
-body_waist 1
 random_movement 1
+arch event_attack
+title Python
+slaying /python/maps/witherspoon_manor/ghost.py
+end
 arch event_timer
 title Python
 slaying /python/maps/witherspoon_manor/ghost.py
@@ -228,21 +185,9 @@ arch event_say
 title Python
 slaying /python/maps/witherspoon_manor/ghost.py
 end
-arch spell_ball_lightning
-end
-arch spell_bullet_storm
-end
 arch spell_cause_cold
 end
-arch spell_cause_rabies
-end
-arch spell_cause_red_death
-end
-arch spell_cause_white_death
-end
-arch spell_color_spray
-end
-arch spell_dragonbreath
+arch spell_fear
 end
 end
 arch woodfloor

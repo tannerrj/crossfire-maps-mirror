@@ -8,7 +8,7 @@ enter_x 5
 enter_y 8
 msg
 Creator: 2007-06-03 Nicolas Weeger
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-06-22 Nicolas Weeger
 endmsg
 outdoor 1
 reset_group scorn_witherspoon-manor
@@ -1051,6 +1051,13 @@ end
 arch bluemarblemedium
 x 16
 y 4
+end
+arch magic_mouth
+msg
+You hear someone (or something?) moaning in the attic...
+endmsg
+x 16
+y 5
 end
 arch bluemarblemedium
 x 16
