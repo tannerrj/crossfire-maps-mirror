@@ -8,7 +8,7 @@ enter_x 7
 enter_y 16
 msg
 Created:  2003-01-11 Avion
-Modified: 2013-08-18 Kevin Zheng
+Modified: 2025-06-23 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -111,6 +111,10 @@ x 1
 y 5
 end
 arch dungeon_floor
+x 1
+y 6
+end
+arch swall_1_4_half
 x 1
 y 6
 end
@@ -256,7 +260,7 @@ arch dungeon_floor
 x 2
 y 6
 end
-arch swall_1_4
+arch swall_2_1_2
 x 2
 y 6
 end
@@ -459,11 +463,15 @@ arch westcwall_2_1_2
 x 4
 y 2
 end
+arch swall_1_1_half
+x 4
+y 2
+end
 arch dungeon_floor
 x 4
 y 3
 end
-arch swall_1_1
+arch swall_2_1_1
 x 4
 y 3
 end
@@ -1238,11 +1246,15 @@ arch westcwall_2_1_2
 x 10
 y 2
 end
+arch swall_1_1_half
+x 10
+y 2
+end
 arch dungeon_floor
 x 10
 y 3
 end
-arch swall_1_1
+arch swall_2_1_1
 x 10
 y 3
 end
@@ -1496,7 +1508,7 @@ arch dungeon_floor
 x 12
 y 6
 end
-arch swall_1_3
+arch swall_2_1_2
 x 12
 y 6
 end
@@ -1616,6 +1628,10 @@ x 13
 y 6
 end
 arch westcwall_2_1_1
+x 13
+y 6
+end
+arch swall_1_3_half
 x 13
 y 6
 end
