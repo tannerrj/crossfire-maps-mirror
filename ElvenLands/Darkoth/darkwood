@@ -6,7 +6,7 @@ width 31
 height 31
 msg
 Created:  1999-12-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-06-23 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -477,10 +477,6 @@ arch dirtfloor
 x 2
 y 28
 end
-arch ogre
-x 2
-y 28
-end
 arch dirtfloor
 x 2
 y 29
@@ -620,10 +616,6 @@ walk_on 0
 no_pass 1
 end
 arch dirtfloor
-x 3
-y 27
-end
-arch ogre
 x 3
 y 27
 end
@@ -811,10 +803,6 @@ x 4
 y 27
 end
 arch dirtfloor
-x 4
-y 28
-end
-arch ogre
 x 4
 y 28
 end
