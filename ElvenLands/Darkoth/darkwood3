@@ -5,7 +5,7 @@ width 31
 height 31
 msg
 Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-06-23 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -183,6 +183,18 @@ no_pass 1
 end
 arch jungle_1
 name woods
+y 29
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+y 30
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
 x 1
 walk_on 0
 no_pass 1
@@ -361,6 +373,13 @@ arch jungle_1
 name woods
 x 1
 y 29
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 1
+y 30
 walk_on 0
 no_pass 1
 end
@@ -1962,6 +1981,13 @@ no_pass 1
 end
 arch jungle_1
 name woods
+x 11
+y 30
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
 x 12
 walk_on 0
 no_pass 1
@@ -2115,6 +2141,20 @@ no_pass 1
 end
 arch jungle_1
 name woods
+x 12
+y 29
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 12
+y 30
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
 x 13
 walk_on 0
 no_pass 1
@@ -2246,6 +2286,27 @@ arch jungle_1
 name woods
 x 13
 y 27
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 13
+y 28
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 13
+y 29
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 13
+y 30
 walk_on 0
 no_pass 1
 end
@@ -2394,6 +2455,20 @@ arch jungle_1
 name woods
 x 14
 y 28
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 14
+y 29
+walk_on 0
+no_pass 1
+end
+arch jungle_1
+name woods
+x 14
+y 30
 walk_on 0
 no_pass 1
 end
