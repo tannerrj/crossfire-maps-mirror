@@ -3262,65 +3262,117 @@ x 12
 y 28
 elevation 981
 end
+arch cwall_2_2_2
+x 12
+y 28
+end
 arch grass
 x 12
 y 29
 elevation 544
+end
+arch cwall_2_1_1
+x 12
+y 29
 end
 arch grass
 x 12
 y 30
 elevation 213
 end
+arch cwall_2_1_1
+x 12
+y 30
+end
 arch grass
 x 12
 y 31
 elevation 377
+end
+arch cwall_2_1_1
+x 12
+y 31
 end
 arch brush
 x 12
 y 32
 elevation 12
 end
+arch cwall_2_1_1
+x 12
+y 32
+end
 arch grass
 x 12
 y 33
 elevation 801
+end
+arch cwall_2_1_1
+x 12
+y 33
 end
 arch brush
 x 12
 y 34
 elevation 835
 end
+arch cwall_2_1_1
+x 12
+y 34
+end
 arch brush
 x 12
 y 35
 elevation 471
+end
+arch cwall_2_1_1
+x 12
+y 35
 end
 arch grass
 x 12
 y 36
 elevation 26
 end
+arch cwall_2_1_1
+x 12
+y 36
+end
 arch brush
 x 12
 y 37
 elevation 0
+end
+arch cwall_2_1_1
+x 12
+y 37
 end
 arch brush
 x 12
 y 38
 elevation 219
 end
+arch cwall_2_1_1
+x 12
+y 38
+end
 arch grass
 x 12
 y 39
 elevation 154
 end
+arch cwall_2_1_1
+x 12
+y 39
+end
 arch brush
 x 12
 y 40
 elevation 411
+end
+arch cwall_2_2_1
+x 12
+y 40
 end
 arch grass_only
 x 12
@@ -3510,10 +3562,18 @@ x 13
 y 27
 elevation 626
 end
+arch cwall_2_2_2
+x 13
+y 27
+end
 arch grass
 x 13
 y 28
 elevation 525
+end
+arch cwall_2_2_4
+x 13
+y 28
 end
 arch brush
 x 13
@@ -3574,6 +3634,10 @@ arch grass
 x 13
 y 40
 elevation 964
+end
+arch cwall_2_1_2
+x 13
+y 40
 end
 arch grass_only
 x 13
@@ -3775,6 +3839,10 @@ x 14
 y 27
 elevation 80
 end
+arch cwall_2_1_2
+x 14
+y 27
+end
 arch grass
 x 14
 y 28
@@ -3839,6 +3907,10 @@ arch brush
 x 14
 y 40
 elevation 934
+end
+arch cwall_2_1_2
+x 14
+y 40
 end
 arch hills
 x 14
@@ -4035,6 +4107,10 @@ x 15
 y 27
 elevation 0
 end
+arch cwall_2_1_2
+x 15
+y 27
+end
 arch grass
 x 15
 y 28
@@ -4099,6 +4175,10 @@ arch brush
 x 15
 y 40
 elevation 374
+end
+arch cwall_2_1_2
+x 15
+y 40
 end
 arch woods_2
 x 15
@@ -4284,6 +4364,10 @@ x 16
 y 27
 elevation 0
 end
+arch cwall_2_1_2
+x 16
+y 27
+end
 arch brush
 x 16
 y 28
@@ -4348,6 +4432,10 @@ arch grass
 x 16
 y 40
 elevation 655
+end
+arch cwall_2_1_2
+x 16
+y 40
 end
 arch grass_only
 x 16
@@ -4549,6 +4637,10 @@ x 17
 y 27
 elevation 0
 end
+arch cwall_2_1_2
+x 17
+y 27
+end
 arch grass
 x 17
 y 28
@@ -4613,6 +4705,10 @@ arch brush
 x 17
 y 40
 elevation 620
+end
+arch cwall_2_1_2
+x 17
+y 40
 end
 arch hills
 x 17
@@ -4822,7 +4918,7 @@ x 18
 y 27
 elevation 0
 end
-arch dwall_2_1_1
+arch cwall_2_2_4
 x 18
 y 27
 end
@@ -4831,115 +4927,67 @@ x 18
 y 28
 elevation 0
 end
-arch dwall_2_1_1
-x 18
-y 28
-end
 arch grass
 x 18
 y 29
 elevation 0
-end
-arch dwall_2_1_1
-x 18
-y 29
 end
 arch grass
 x 18
 y 30
 elevation 0
 end
-arch dwall_2_1_1
-x 18
-y 30
-end
 arch grass
 x 18
 y 31
 elevation 0
-end
-arch dwall_2_1_1
-x 18
-y 31
 end
 arch grass
 x 18
 y 32
 elevation 0
 end
-arch dwall_2_1_1
-x 18
-y 32
-end
 arch grass
 x 18
 y 33
 elevation 0
-end
-arch dwall_2_1_1
-x 18
-y 33
 end
 arch grass
 x 18
 y 34
 elevation 0
 end
-arch dwall_2_1_1
-x 18
-y 34
-end
 arch grass
 x 18
 y 35
 elevation 0
-end
-arch cwall_2_1_1
-x 18
-y 35
 end
 arch grass
 x 18
 y 36
 elevation 0
 end
-arch cwall_2_1_1
-x 18
-y 36
-end
 arch grass
 x 18
 y 37
 elevation 0
-end
-arch dwall_2_1_1
-x 18
-y 37
 end
 arch grass
 x 18
 y 38
 elevation 0
 end
-arch dwall_2_1_1
-x 18
-y 38
-end
 arch grass
 x 18
 y 39
 elevation 0
-end
-arch dwall_2_1_1
-x 18
-y 39
 end
 arch grass
 x 18
 y 40
 elevation 0
 end
-arch dwall_2_1_1
+arch cwall_2_2_3
 x 18
 y 40
 end
