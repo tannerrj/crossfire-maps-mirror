@@ -8,7 +8,7 @@ enter_x 2
 enter_y 28
 msg
 Created:  1999-12-30 Joel Southall (joel@prninfo.com)
-Modified: 2025-06-23 Rick Tanner
+Modified: 2025-06-24 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -5112,14 +5112,14 @@ y 1
 walk_on 0
 no_pass 1
 end
+arch dirtfloor
+x 30
+y 2
+end
 arch invis_exit
 slaying darkwood2
 hp 1
 sp 17
-x 30
-y 2
-end
-arch dirtfloor
 x 30
 y 2
 end

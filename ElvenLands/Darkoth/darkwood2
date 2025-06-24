@@ -98,13 +98,13 @@ y 16
 walk_on 0
 no_pass 1
 end
+arch dirtfloor
+y 17
+end
 arch invis_exit
 slaying darkwood
 hp 29
 sp 2
-y 17
-end
-arch dirtfloor
 y 17
 end
 arch jungle_1
