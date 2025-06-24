@@ -5,7 +5,7 @@ width 32
 height 32
 msg
 Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-06-24 Rick Tanner
 endmsg
 end
 arch magic_mouth
@@ -2835,7 +2835,15 @@ arch dungeon_floor
 x 14
 y 28
 end
+arch cwall_1_1
+x 14
+y 28
+end
 arch dungeon_floor
+x 14
+y 29
+end
+arch cwall_2_1_1
 x 14
 y 29
 end
@@ -2843,7 +2851,7 @@ arch dungeon_floor
 x 14
 y 30
 end
-arch cwall_2_2_3
+arch cwall_3_4
 x 14
 y 30
 end
@@ -3037,10 +3045,6 @@ arch dungeon_floor
 x 15
 y 28
 end
-arch dungeon_floor
-x 15
-y 29
-end
 arch magic_mouth
 msg
 the kobold says,"Do you have any
@@ -3048,11 +3052,11 @@ chocolate,sir?"
 
 endmsg
 x 15
-y 29
+y 28
 end
 arch dungeon_floor
 x 15
-y 30
+y 29
 end
 arch magic_mouth
 msg
@@ -3060,9 +3064,20 @@ Hmmm. I wonder how to get in...
 
 endmsg
 x 15
+y 29
+end
+arch dungeon_floor
+x 15
 y 30
 end
 arch dungeon_floor
+x 15
+y 31
+end
+arch invis_exit
+slaying darkwood3
+hp 26
+sp 6
 x 15
 y 31
 end
@@ -3260,7 +3275,15 @@ arch dungeon_floor
 x 16
 y 28
 end
+arch cwall_1_1
+x 16
+y 28
+end
 arch dungeon_floor
+x 16
+y 29
+end
+arch cwall_2_1_1
 x 16
 y 29
 end
@@ -3268,7 +3291,7 @@ arch dungeon_floor
 x 16
 y 30
 end
-arch cwall_2_2_2
+arch cwall_3_2
 x 16
 y 30
 end
