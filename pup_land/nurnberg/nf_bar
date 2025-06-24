@@ -11,7 +11,7 @@ enter_x 12
 enter_y 1
 msg
 Created: 1996-02-10
-Modified: 2023-11-23 Rick Tanner
+Modified: 2025-06-22 DraugTheWhopper
 endmsg
 outdoor 1
 end
@@ -1506,10 +1506,6 @@ arch dungeon_magic
 x 10
 y 8
 end
-arch slevel_4
-x 10
-y 8
-end
 arch woodfloor2
 x 10
 y 8
@@ -1520,10 +1516,6 @@ y 8
 move_block all
 end
 arch dungeon_magic
-x 10
-y 9
-end
-arch slevel_4
 x 10
 y 9
 end
@@ -1653,14 +1645,6 @@ arch woodfloor2
 x 11
 y 7
 end
-arch mabu
-name nude dancing girl
-x 11
-y 7
-randomitems none
-friendly 1
-can_use_skill 0
-end
 arch light4
 x 11
 y 7
@@ -1669,19 +1653,17 @@ arch dungeon_magic
 x 11
 y 8
 end
-arch slevel_4
-x 11
-y 8
-end
 arch woodfloor2
 x 11
 y 8
 end
-arch dungeon_magic
+arch woman2
 x 11
-y 9
+y 8
+randomitems none
+random_movement 1
 end
-arch slevel_4
+arch dungeon_magic
 x 11
 y 9
 end
@@ -1818,13 +1800,11 @@ arch woodfloor2
 x 12
 y 7
 end
-arch mabu
-name nude dancing girl
+arch woman2
 x 12
 y 7
 randomitems none
-friendly 1
-can_use_skill 0
+random_movement 1
 end
 arch dungeon_magic
 x 12
