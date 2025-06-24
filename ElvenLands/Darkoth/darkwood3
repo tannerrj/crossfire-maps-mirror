@@ -5,7 +5,7 @@ width 31
 height 31
 msg
 Created:  2000-01-01 Joel Southall (joel@prninfo.com)
-Modified: 2025-06-23 Rick Tanner
+Modified: 2025-06-24 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -4516,6 +4516,13 @@ arch dirtfloor
 x 28
 y 25
 end
+arch jungle_1
+name woods
+x 28
+y 25
+walk_on 0
+no_pass 1
+end
 arch dirtfloor
 x 28
 y 26
@@ -4662,6 +4669,13 @@ arch dirtfloor
 x 29
 y 24
 end
+arch jungle_1
+name woods
+x 29
+y 24
+walk_on 0
+no_pass 1
+end
 arch dirtfloor
 x 29
 y 25
@@ -4669,9 +4683,13 @@ end
 arch jungle_1
 name woods
 x 29
-y 26
+y 25
 walk_on 0
 no_pass 1
+end
+arch dirtfloor
+x 29
+y 26
 end
 arch jungle_1
 name woods
@@ -4882,12 +4900,16 @@ y 25
 walk_on 0
 no_pass 1
 end
-arch jungle_1
-name woods
+arch dirtfloor
 x 30
 y 26
-walk_on 0
-no_pass 1
+end
+arch invis_exit
+slaying darkwood2
+hp 1
+sp 26
+x 30
+y 26
 end
 arch jungle_1
 name woods
