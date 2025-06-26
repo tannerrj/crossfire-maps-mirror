@@ -8,7 +8,7 @@ enter_x 14
 enter_y 18
 msg
 Created:  1994-04-05 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-06-25 Rick Tanner
 endmsg
 reset_group santodominion_the-golden-lion
 end
@@ -1478,6 +1478,22 @@ end
 arch chair_1.2
 x 10
 y 9
+end
+arch warrior_1
+name well-trained warrior
+msg
+@match artifact|hear
+A friend told me something about very powerful bracers... But he died in an attempt to get those. I believe he was killed by the... BELZEBUB!
+@match proving|tower|yes
+There's an ancient temple in the underground, beneath that tower. It is said that the most deadly creatures are lurking down there!
+@match *
+Go to the Warrior Proving Tower. It's on the northeast edge of the continent. I've heard about incredible artifacts in there.
+endmsg
+x 10
+y 9
+is_animated 0
+friendly 1
+unaggressive 0
 end
 arch woodfloor
 x 10
