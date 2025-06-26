@@ -8,7 +8,7 @@ enter_x 19
 enter_y 13
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2025-01-03 Rick Tanner
+Modified: 2025-06-25 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -1688,18 +1688,21 @@ x 13
 y 10
 end
 arch warrior_1
-name well-trained warrior
+name Adept Warrior
 msg
-@match artifact|hear
-A friend told me something about very powerful bracers... But he died in an attempt to get those. I believe he was killed by the... BELZEBUB!
-@match proving|tower|yes
-There's an ancient temple in the underground, beneath that tower. It is said that the most deadly creatures are lurking down there!
+@match slimey|critter|gear|expense
+Yeah, it's something I have never seen before. I kept my distance after I saw some poor blokes sword rust and crumble in to pieces after he took a swipe at that thing.
+@match exception|minor
+Some slimey, slow moving critter in their garden might give you a run for your money - or for the expense of your gear!
+@match easy|village|shabby
+Of course, with your apparent skill level and all decked out in that plundered loot, you should do fine - with a minor exception.
+@match adventurer
+Well then, go and rough up some denziens in a shabby village to the south by south east of here - near an open bay by the sea. It should be easy enough for you.
 @match *
-Go to the Warrior Proving Tower. It's on the northeast edge of the continent. I've heard about incredible artifacts in there.
+So you looking for an adventure or just want to bother me while I try to finish my drink?
 endmsg
 x 13
 y 10
-is_animated 0
 friendly 1
 unaggressive 0
 end
