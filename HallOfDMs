@@ -371,6 +371,7 @@ y 26
 end
 arch exit
 name Nexus
+label Nexus
 slaying start/Nexus
 hp 12
 sp 15
@@ -749,6 +750,7 @@ y 28
 end
 arch exit
 name Hall of Selection
+label Hall of Selection
 slaying HallOfSelection
 hp 7
 sp 18
@@ -1427,6 +1429,7 @@ y 24
 end
 arch exit
 name Pup Land
+label Pup Land
 slaying /pup_land/world
 hp 18
 sp 18
@@ -1828,6 +1831,7 @@ y 24
 end
 arch exit
 name Santo Domino
+label Santo Domino
 slaying /world/world_102_108
 hp 19
 sp 13
@@ -1860,6 +1864,7 @@ y 28
 end
 arch exit
 name Stoneville
+label Stoneville
 slaying /world/world_103_127
 hp 4
 sp 16
@@ -2020,6 +2025,7 @@ y 24
 end
 arch exit
 name Euthville
+label Euthville
 slaying /world/world_105_113
 hp 10
 sp 18
@@ -2052,6 +2058,7 @@ y 28
 end
 arch exit
 name Lake Country
+label Lake Country
 slaying /world/world_109_126
 hp 17
 sp 19
@@ -2223,6 +2230,7 @@ y 24
 end
 arch exit
 name Scorn
+label Scorn
 slaying /world/world_105_115
 hp 5
 sp 37
@@ -2255,6 +2263,7 @@ y 28
 end
 arch exit
 name Brest
+label Brest
 slaying /world/world_107_123
 hp 31
 sp 28
@@ -3065,6 +3074,7 @@ y 24
 end
 arch exit
 name Darcap
+label Darcap
 slaying /world/world_116_102
 hp 27
 sp 24
@@ -3097,6 +3107,7 @@ y 28
 end
 arch exit
 name Navar
+label Navar
 slaying /world/world_122_117
 hp 3
 sp 10
@@ -3253,6 +3264,7 @@ y 24
 end
 arch exit
 name Wolfsburg
+label Wolfsburg
 slaying /world/world_128_109
 hp 30
 sp 13
@@ -3490,6 +3502,7 @@ y 24
 end
 arch exit
 name Azumauindo
+label Azumauindo
 slaying /world/world_128_101
 hp 4
 sp 31
@@ -4547,6 +4560,7 @@ y 25
 end
 arch exit
 name Scorn Jail
+label Scorn Jail
 slaying /scorn/misc/jail
 hp 14
 sp 7
@@ -4564,6 +4578,7 @@ y 27
 end
 arch exit
 name Navar Jail
+label Navar Jail
 slaying /navar_city/jail/jail
 hp 15
 sp 7
