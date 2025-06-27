@@ -46,7 +46,7 @@ class CFBank:
             return 0
 
     def remove_account(self, user):
-        c.execute("DELETE FROM bank_accounts WHERE name=?", (user,))
+        self.bankdb.execute("DELETE FROM bank_accounts WHERE name=?", (user,))
 
     def close(self):
         self.bankdb.commit()
