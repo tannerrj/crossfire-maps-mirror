@@ -9,7 +9,7 @@ enter_x 14
 enter_y 28
 msg
 Created: 1993-10-15 Morten Hanshaugen
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-06-27 Rick Tanner
 endmsg
 reset_group scorn_beginners
 end
@@ -569,6 +569,10 @@ x 2
 y 25
 end
 arch ogre
+hp 40
+maxhp 40
+dam 8
+wc 15
 x 2
 y 25
 arch blue_key
