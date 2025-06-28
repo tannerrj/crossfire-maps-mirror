@@ -8,7 +8,7 @@ enter_x 10
 enter_y 18
 msg
 Created:  2004-03-07 Avion
-Modified: 2023-11-05 Rick Tanner
+Modified: 2025-06-27 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -508,10 +508,6 @@ x 3
 y 13
 end
 arch medium_guard
-msg
-@match *
-G'day to you.
-endmsg
 x 3
 y 13
 end
@@ -1224,10 +1220,6 @@ x 9
 y 5
 end
 arch medium_guard
-msg
-@match *
-G'day to you.
-endmsg
 x 9
 y 5
 end
@@ -1373,10 +1365,6 @@ x 10
 y 9
 end
 arch medium_guard
-msg
-@match *
-G'day to you.
-endmsg
 x 10
 y 9
 end
@@ -1962,10 +1950,6 @@ x 15
 y 5
 end
 arch medium_guard
-msg
-@match *
-G'day to you.
-endmsg
 x 15
 y 5
 end
