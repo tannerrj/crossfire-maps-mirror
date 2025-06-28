@@ -9,7 +9,7 @@ enter_x 33
 enter_y 33
 msg
 Created:  2000-06-08
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2025-06-28 Nicolas Weeger
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -4413,7 +4413,6 @@ y 18
 end
 arch generate_devil
 name Demon Gate
-face penta.111
 hp 10000
 maxhp 10000
 x 20
@@ -4421,13 +4420,14 @@ y 18
 speed 0.001000
 resist_physical 30
 carrying 100
+death_animation NONE
 arch key2
 name broken gateway
 slaying broken gateway
 msg
-This key was found in the filthy pit in Euthville.
+This Broken Demon Gate comes from the filthy pit in Euthville.
 endmsg
-face penta.111
+face broken_devil_gen.111
 arch quest_advance_pickup
 name scorn/DemonPit 30>40
 end
