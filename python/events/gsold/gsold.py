@@ -1,3 +1,4 @@
+import Crossfire
 import CFShop as shop
 import CFPShop as pshop
 
