@@ -2883,6 +2883,13 @@ arch dungeon_floor
 x 15
 y 2
 end
+arch stair_up_1
+slaying darkwood5
+hp 15
+sp 4
+x 15
+y 2
+end
 arch dungeon_floor
 x 15
 y 3

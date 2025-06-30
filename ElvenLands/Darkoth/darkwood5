@@ -3,6 +3,8 @@ name darkwood5
 region elvenlands
 width 32
 height 32
+enter_x 15
+enter_y 4
 msg
 Created:  2001-05-25 Joel Southall (joel@prninfo.com)
 Modified: 2025-06-30 Rick Tanner
@@ -2869,6 +2871,9 @@ x 15
 y 4
 end
 arch stair_down_1
+slaying darkwood4
+hp 15
+sp 2
 x 15
 y 4
 end
@@ -2981,6 +2986,7 @@ x 15
 y 26
 end
 arch stair_up_1
+slaying darkwood6
 x 15
 y 26
 end
