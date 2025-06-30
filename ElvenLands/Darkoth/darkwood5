@@ -5,7 +5,7 @@ width 32
 height 32
 msg
 Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-06-30 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -2868,7 +2868,7 @@ arch dungeon_floor
 x 15
 y 4
 end
-arch stair_up_1
+arch stair_down_1
 x 15
 y 4
 end
@@ -2980,7 +2980,7 @@ arch dungeon_floor
 x 15
 y 26
 end
-arch stair_down_3
+arch stair_up_1
 x 15
 y 26
 end
