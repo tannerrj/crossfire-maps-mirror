@@ -8,7 +8,7 @@ enter_x 4
 enter_y 2
 msg
 Created: 1993-11-01
-Modified: 2025-02-01 Kevin Zheng
+Modified: 2025-07-01 Rick Tanner
 endmsg
 reset_group navar_spiral-tower
 end
@@ -1774,6 +1774,11 @@ end
 arch pstone_3
 x 10
 y 30
+end
+arch gateTrg1
+x 10
+y 30
+connected 20
 end
 arch pstone_3
 x 10
@@ -4072,6 +4077,11 @@ arch pstone_3
 x 24
 y 9
 end
+arch gate_open_1
+x 24
+y 9
+connected 20
+end
 arch pstone_3
 x 24
 y 10
@@ -4246,6 +4256,11 @@ end
 arch pstone_3
 x 25
 y 9
+end
+arch gate_open_1
+x 25
+y 9
+connected 20
 end
 arch pstone_3
 x 25
