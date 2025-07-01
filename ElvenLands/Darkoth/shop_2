@@ -5,7 +5,7 @@ width 16
 height 16
 msg
 Created:  1999-12-10 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-07-01 Rick Tanner
 endmsg
 end
 arch flagstone
@@ -1048,22 +1048,16 @@ arch flagstone
 x 13
 y 14
 end
-arch invis_exit
-slaying /ElvenLands/Darkoth/city
-hp 19
-sp 20
-x 13
-y 15
-end
 arch flagstone
 x 13
 y 15
 end
 arch oakdoor
-slaying /ElvenLands/Darkoth/city
+slaying city
+hp 6
+sp 24
 x 13
 y 15
-type 0
 end
 arch flagstone
 x 14

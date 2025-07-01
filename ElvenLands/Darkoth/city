@@ -5,7 +5,7 @@ width 38
 height 36
 msg
 Created:  2002-09-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-07-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -864,6 +864,9 @@ x 4
 y 23
 end
 arch store_armour
+slaying shop_1
+hp 6
+sp 14
 x 4
 y 23
 end
@@ -1224,6 +1227,9 @@ x 6
 y 23
 end
 arch store_magic
+slaying shop_2
+hp 13
+sp 14
 x 6
 y 23
 end
@@ -1240,6 +1246,9 @@ x 6
 y 26
 end
 arch store_general
+slaying shop_3
+hp 13
+sp 14
 x 6
 y 26
 end
