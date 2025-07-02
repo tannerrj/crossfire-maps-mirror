@@ -84,7 +84,7 @@ def dist_fare(start, end):
 state = Crossfire.GetPrivateDictionary()
 
 def handle_say():
-    msg = Crossfire.WhatIsMessage()
+    msg = Crossfire.WhatIsMessage().lower()
     text = msg.split()
     if text[0] == "what":
         whoami.Say("Dragon Express can whisk you to one of %d locations for a small fee. Travel faster today!" % len(destinations))
