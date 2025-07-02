@@ -8,7 +8,7 @@ enter_x 4
 enter_y 2
 msg
 Created: 1993-11-01
-Modified: 2025-07-01 Rick Tanner
+Modified: 2025-07-02 Rick Tanner
 endmsg
 reset_group navar_spiral-tower
 end
@@ -181,8 +181,20 @@ end
 arch pstone_3
 y 30
 end
-arch rough_wall_2_2_1
+arch rough_wall_3_2
 y 30
+end
+arch pstone_3
+y 31
+end
+arch rough_wall_3_2
+y 31
+end
+arch pstone_3
+y 32
+end
+arch rough_wall_2_2_1
+y 32
 end
 arch cobblestones
 x 1
@@ -330,9 +342,25 @@ arch pstone_3
 x 1
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 1
 y 30
+end
+arch pstone_3
+x 1
+y 31
+end
+arch roughwall_0
+x 1
+y 31
+end
+arch pstone_3
+x 1
+y 32
+end
+arch rough_wall_3_1
+x 1
+y 32
 end
 arch cobblestones
 x 2
@@ -495,9 +523,25 @@ arch pstone_3
 x 2
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 2
 y 30
+end
+arch pstone_3
+x 2
+y 31
+end
+arch roughwall_0
+x 2
+y 31
+end
+arch pstone_3
+x 2
+y 32
+end
+arch rough_wall_3_1
+x 2
+y 32
 end
 arch cobblestones
 x 3
@@ -649,9 +693,25 @@ arch pstone_3
 x 3
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 3
 y 30
+end
+arch pstone_3
+x 3
+y 31
+end
+arch roughwall_0
+x 3
+y 31
+end
+arch pstone_3
+x 3
+y 32
+end
+arch rough_wall_3_1
+x 3
+y 32
 end
 arch cobblestones
 x 4
@@ -803,9 +863,25 @@ arch pstone_3
 x 4
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 4
 y 30
+end
+arch pstone_3
+x 4
+y 31
+end
+arch roughwall_0
+x 4
+y 31
+end
+arch pstone_3
+x 4
+y 32
+end
+arch rough_wall_3_1
+x 4
+y 32
 end
 arch cobblestones
 x 5
@@ -953,9 +1029,25 @@ arch pstone_3
 x 5
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 5
 y 30
+end
+arch pstone_3
+x 5
+y 31
+end
+arch roughwall_0
+x 5
+y 31
+end
+arch pstone_3
+x 5
+y 32
+end
+arch rough_wall_3_1
+x 5
+y 32
 end
 arch cobblestones
 x 6
@@ -1123,9 +1215,25 @@ arch pstone_3
 x 6
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 6
 y 30
+end
+arch pstone_3
+x 6
+y 31
+end
+arch roughwall_0
+x 6
+y 31
+end
+arch pstone_3
+x 6
+y 32
+end
+arch rough_wall_3_1
+x 6
+y 32
 end
 arch cobblestones
 x 7
@@ -1281,9 +1389,25 @@ arch pstone_3
 x 7
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 7
 y 30
+end
+arch pstone_3
+x 7
+y 31
+end
+arch roughwall_0
+x 7
+y 31
+end
+arch pstone_3
+x 7
+y 32
+end
+arch rough_wall_3_1
+x 7
+y 32
 end
 arch cobblestones
 x 8
@@ -1439,9 +1563,25 @@ arch pstone_3
 x 8
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 8
 y 30
+end
+arch pstone_3
+x 8
+y 31
+end
+arch roughwall_0
+x 8
+y 31
+end
+arch pstone_3
+x 8
+y 32
+end
+arch rough_wall_3_1
+x 8
+y 32
 end
 arch cobblestones
 x 9
@@ -1597,7 +1737,7 @@ arch pstone_3
 x 9
 y 31
 end
-arch rough_wall_2_1_1
+arch rough_wall_3_4
 x 9
 y 31
 end
@@ -1605,7 +1745,7 @@ arch pstone_3
 x 9
 y 32
 end
-arch rough_wall_2_2_1
+arch rough_wall_3_1
 x 9
 y 32
 end
@@ -1973,7 +2113,7 @@ arch pstone_3
 x 11
 y 31
 end
-arch rough_wall_2_1_1
+arch rough_wall_3_2
 x 11
 y 31
 end
@@ -1981,7 +2121,7 @@ arch pstone_3
 x 11
 y 32
 end
-arch rough_wall_2_2_4
+arch rough_wall_3_1
 x 11
 y 32
 end
@@ -2151,9 +2291,25 @@ arch pstone_3
 x 12
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 12
 y 30
+end
+arch pstone_3
+x 12
+y 31
+end
+arch roughwall_0
+x 12
+y 31
+end
+arch pstone_3
+x 12
+y 32
+end
+arch rough_wall_3_1
+x 12
+y 32
 end
 arch cobblestones
 x 13
@@ -2313,9 +2469,25 @@ arch pstone_3
 x 13
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 13
 y 30
+end
+arch pstone_3
+x 13
+y 31
+end
+arch roughwall_0
+x 13
+y 31
+end
+arch pstone_3
+x 13
+y 32
+end
+arch rough_wall_3_1
+x 13
+y 32
 end
 arch cobblestones
 x 14
@@ -2491,9 +2663,25 @@ arch pstone_3
 x 14
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 14
 y 30
+end
+arch pstone_3
+x 14
+y 31
+end
+arch roughwall_0
+x 14
+y 31
+end
+arch pstone_3
+x 14
+y 32
+end
+arch rough_wall_3_1
+x 14
+y 32
 end
 arch cobblestones
 x 15
@@ -2673,9 +2861,25 @@ arch pstone_3
 x 15
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 15
 y 30
+end
+arch pstone_3
+x 15
+y 31
+end
+arch roughwall_0
+x 15
+y 31
+end
+arch pstone_3
+x 15
+y 32
+end
+arch rough_wall_3_1
+x 15
+y 32
 end
 arch cobblestones
 x 16
@@ -2847,9 +3051,25 @@ arch pstone_3
 x 16
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 16
 y 30
+end
+arch pstone_3
+x 16
+y 31
+end
+arch roughwall_0
+x 16
+y 31
+end
+arch pstone_3
+x 16
+y 32
+end
+arch rough_wall_3_1
+x 16
+y 32
 end
 arch cobblestones
 x 17
@@ -3013,9 +3233,25 @@ arch pstone_3
 x 17
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 17
 y 30
+end
+arch pstone_3
+x 17
+y 31
+end
+arch roughwall_0
+x 17
+y 31
+end
+arch pstone_3
+x 17
+y 32
+end
+arch rough_wall_3_1
+x 17
+y 32
 end
 arch cobblestones
 x 18
@@ -3179,9 +3415,25 @@ arch pstone_3
 x 18
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 18
 y 30
+end
+arch pstone_3
+x 18
+y 31
+end
+arch roughwall_0
+x 18
+y 31
+end
+arch pstone_3
+x 18
+y 32
+end
+arch rough_wall_3_1
+x 18
+y 32
 end
 arch cobblestones
 x 19
@@ -3353,9 +3605,25 @@ arch pstone_3
 x 19
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 19
 y 30
+end
+arch pstone_3
+x 19
+y 31
+end
+arch roughwall_0
+x 19
+y 31
+end
+arch pstone_3
+x 19
+y 32
+end
+arch rough_wall_3_1
+x 19
+y 32
 end
 arch cobblestones
 x 20
@@ -3527,9 +3795,25 @@ arch pstone_3
 x 20
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 20
 y 30
+end
+arch pstone_3
+x 20
+y 31
+end
+arch roughwall_0
+x 20
+y 31
+end
+arch pstone_3
+x 20
+y 32
+end
+arch rough_wall_3_1
+x 20
+y 32
 end
 arch cobblestones
 x 21
@@ -3697,9 +3981,25 @@ arch pstone_3
 x 21
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 21
 y 30
+end
+arch pstone_3
+x 21
+y 31
+end
+arch roughwall_0
+x 21
+y 31
+end
+arch pstone_3
+x 21
+y 32
+end
+arch rough_wall_3_1
+x 21
+y 32
 end
 arch cobblestones
 x 22
@@ -3871,9 +4171,25 @@ arch pstone_3
 x 22
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 22
 y 30
+end
+arch pstone_3
+x 22
+y 31
+end
+arch roughwall_0
+x 22
+y 31
+end
+arch pstone_3
+x 22
+y 32
+end
+arch rough_wall_3_1
+x 22
+y 32
 end
 arch cobblestones
 x 23
@@ -4021,9 +4337,25 @@ arch pstone_3
 x 23
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 23
 y 30
+end
+arch pstone_3
+x 23
+y 31
+end
+arch roughwall_0
+x 23
+y 31
+end
+arch pstone_3
+x 23
+y 32
+end
+arch rough_wall_3_1
+x 23
+y 32
 end
 arch cobblestones
 x 24
@@ -4174,9 +4506,25 @@ arch pstone_3
 x 24
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 24
 y 30
+end
+arch pstone_3
+x 24
+y 31
+end
+arch roughwall_0
+x 24
+y 31
+end
+arch pstone_3
+x 24
+y 32
+end
+arch rough_wall_3_1
+x 24
+y 32
 end
 arch cobblestones
 x 25
@@ -4354,9 +4702,25 @@ arch pstone_3
 x 25
 y 30
 end
-arch rough_wall_2_1_2
+arch rough_wall_3_3
 x 25
 y 30
+end
+arch pstone_3
+x 25
+y 31
+end
+arch roughwall_0
+x 25
+y 31
+end
+arch pstone_3
+x 25
+y 32
+end
+arch rough_wall_3_1
+x 25
+y 32
 end
 arch cobblestones
 x 26
@@ -4600,7 +4964,23 @@ arch pstone_3
 x 26
 y 30
 end
-arch rough_wall_2_2_4
+arch rough_wall_3_4
 x 26
 y 30
+end
+arch pstone_3
+x 26
+y 31
+end
+arch rough_wall_3_4
+x 26
+y 31
+end
+arch pstone_3
+x 26
+y 32
+end
+arch rough_wall_2_2_4
+x 26
+y 32
 end
