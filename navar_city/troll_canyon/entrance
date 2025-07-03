@@ -8,7 +8,7 @@ enter_x 1
 enter_y 22
 msg
 Created: 2007-02-03 Brad Reilly
-Modified: 2023-06-07 Rick Tanner
+Modified: 2025-07-03 Rick Tanner
 endmsg
 reset_group navar_troll-canyon
 end
@@ -234,10 +234,6 @@ end
 arch pstone_2
 x 1
 y 21
-end
-arch pstone_2
-x 1
-y 22
 end
 arch pstone_1
 x 1
@@ -518,10 +514,6 @@ arch steppe
 x 3
 y 19
 end
-arch pstone_2
-x 3
-y 20
-end
 arch pstone_1
 x 3
 y 20
@@ -529,10 +521,6 @@ end
 arch pstone_2
 x 3
 y 21
-end
-arch pstone_2
-x 3
-y 22
 end
 arch pstone_1
 x 3
@@ -808,10 +796,6 @@ arch pstone_2
 x 5
 y 20
 end
-arch pstone_2
-x 5
-y 21
-end
 arch pstone_1
 x 5
 y 21
@@ -964,10 +948,6 @@ end
 arch pstone_2
 x 6
 y 21
-end
-arch pstone_2
-x 6
-y 22
 end
 arch pstone_1
 x 6
@@ -1261,10 +1241,6 @@ end
 arch pstone_2
 x 8
 y 22
-end
-arch pstone_2
-x 8
-y 23
 end
 arch pstone_1
 x 8
@@ -1709,10 +1685,6 @@ arch pstone_2
 x 11
 y 21
 end
-arch pstone_2
-x 11
-y 22
-end
 arch pstone_1
 x 11
 y 22
@@ -1876,10 +1848,6 @@ end
 arch pstone_2
 x 12
 y 21
-end
-arch pstone_2
-x 12
-y 22
 end
 arch pstone_1
 x 12
@@ -2171,10 +2139,6 @@ end
 arch pstone_2
 x 14
 y 22
-end
-arch pstone_2
-x 14
-y 23
 end
 arch pstone_1
 x 14
@@ -2494,10 +2458,6 @@ end
 arch pstone_2
 x 16
 y 23
-end
-arch pstone_2
-x 16
-y 24
 end
 arch pstone_1
 x 16
@@ -3054,10 +3014,6 @@ arch pstone_2
 x 20
 y 24
 end
-arch pstone_2
-x 20
-y 25
-end
 arch pstone_1
 x 20
 y 25
@@ -3194,10 +3150,6 @@ end
 arch pstone_2
 x 21
 y 25
-end
-arch pstone_2
-x 21
-y 26
 end
 arch pstone_1
 x 21
@@ -3344,10 +3296,6 @@ end
 arch pstone_2
 x 22
 y 26
-end
-arch pstone_2
-x 22
-y 27
 end
 arch pstone_1
 x 22
@@ -3486,10 +3434,6 @@ end
 arch pstone_2
 x 23
 y 25
-end
-arch pstone_2
-x 23
-y 26
 end
 arch pstone_1
 x 23
@@ -3626,10 +3570,6 @@ end
 arch pstone_2
 x 24
 y 25
-end
-arch pstone_2
-x 24
-y 26
 end
 arch pstone_1
 x 24
