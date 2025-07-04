@@ -7,7 +7,7 @@ enter_x 15
 enter_y 30
 msg
 Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-06-30 Rick Tanner
+Modified: 2025-07-04 Rick Tanner
 endmsg
 end
 arch magic_mouth
@@ -3472,26 +3472,18 @@ y 26
 end
 arch kobold
 msg
-@match *
-HeeHee,you can't get me to open the
-door!
-@match i can|I can
+@match can
 No you can't! HeeHee!
-@match bribe|Bribe
-You bum! I won't accept
-anything,besides,you don't have
-anything that i would like.
+@match bribe
+You bum! I won't accept anything, besides, you don't have anything that I would like.
 @match gold|treasure|gems|money
 Bah! I don't need your stinkin money.
-@match chocolate|Chocolate
-Hmmmm. Did you say chocolate!?
-I LOVE chocolate!
-@match yes|Yes
-Yes! YES!! YES!!! YES!!! YES!!!
-PLEASE!!!
-   *His mouth is watering*
-
-
+@match chocolate
+Hmmmm. Did you say chocolate!? I LOVE chocolate!
+@match yes
+Yes! YES!! YES!!! YES!!! YES!!! PLEASE!!! *His mouth is watering*
+@match *
+HeeHee, you can't get me to open the door!
 endmsg
 hp 100
 maxhp 100
