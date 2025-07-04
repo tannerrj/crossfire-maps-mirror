@@ -5,7 +5,7 @@ width 32
 height 32
 msg
 Created:  2001-05-25 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-07-04 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -3423,6 +3423,7 @@ x 15
 y 14
 end
 arch stair_up_1
+slaying darkwood7
 x 15
 y 14
 end
@@ -3615,10 +3616,6 @@ arch dungeon_floor
 x 16
 y 14
 end
-arch stair_up_1
-x 16
-y 14
-end
 arch dungeon_floor
 x 16
 y 15
@@ -3705,6 +3702,13 @@ x 16
 y 28
 end
 arch dungeon_floor
+x 16
+y 29
+end
+arch stair_down_3
+slaying darkwood5
+hp 15
+sp 26
 x 16
 y 29
 end
