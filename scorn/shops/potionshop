@@ -10,7 +10,7 @@ enter_x 6
 enter_y 16
 msg
 Created: 1996-05-02 bt (thomas@astro.psu.edu)
-Modified: 2025-06-29 Kevin Zheng
+Modified: 2025-07-08 Kevin Zheng
 endmsg
 outdoor 1
 reset_group scorn_scorn-alchemy-shop
@@ -2492,14 +2492,6 @@ arch woodfloor
 x 20
 y 17
 end
-arch diamond_converter
-name drop platinum to buy pyrite
-slaying money
-other_arch pyrite
-food 200
-x 20
-y 17
-end
 arch woodfloor
 x 20
 y 18
@@ -2617,14 +2609,6 @@ x 21
 y 16
 end
 arch woodfloor
-x 21
-y 17
-end
-arch diamond_converter
-name drop platinum to buy gypsum
-slaying money
-other_arch gypsum
-food 200
 x 21
 y 17
 end
@@ -2773,14 +2757,6 @@ arch woodfloor
 x 22
 y 17
 end
-arch diamond_converter
-name drop platinum to buy phosphorus
-slaying money
-other_arch phosphorus
-food 800
-x 22
-y 17
-end
 arch woodfloor
 x 22
 y 18
@@ -2877,14 +2853,6 @@ x 23
 y 16
 end
 arch woodfloor
-x 23
-y 17
-end
-arch diamond_converter
-name drop platinum to buy salt
-slaying money
-other_arch salt
-food 250
 x 23
 y 17
 end
@@ -2971,14 +2939,6 @@ arch woodfloor
 x 24
 y 12
 end
-arch diamond_converter
-name drop gold to buy keys
-slaying money
-other_arch key
-food 100
-x 24
-y 12
-end
 arch woodfloor
 x 24
 y 13
@@ -3019,23 +2979,14 @@ arch woodfloor
 x 24
 y 16
 end
-arch diamond_converter
-name drop platinum to buy cinnabar
-slaying money
-other_arch cinnabar
-food 1200
-x 24
-y 16
-end
 arch woodfloor
 x 24
 y 17
 end
-arch diamond_converter
-name drop platinum to buy sulphur
-slaying money
-other_arch sulphur
-food 400
+arch sign
+msg
+Minerals no longer sold here. Check the shop, or buy a pickaxe from a general store and mine them from the mountains.
+endmsg
 x 24
 y 17
 end

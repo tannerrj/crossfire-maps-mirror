@@ -8,7 +8,7 @@ enter_x 8
 enter_y 16
 msg
 Created:  2005-08-10
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-07-08 Kevin Zheng
 endmsg
 reset_group scorn_scorn-alchemy-shop
 end
@@ -172,10 +172,10 @@ y 6
 no_magic 1
 end
 arch diamond_converter
-name drop platinum to buy salt
+name drop platinum to buy water
 slaying money
-other_arch salt
-food 250
+other_arch water
+food 50
 x 1
 y 6
 end
@@ -185,10 +185,10 @@ y 7
 no_magic 1
 end
 arch diamond_converter
-name drop platinum to buy sulphur
+name drop platinum to buy lead
 slaying money
-other_arch sulphur
-food 400
+other_arch lead
+food 1800
 x 1
 y 7
 end
@@ -197,37 +197,20 @@ x 1
 y 8
 no_magic 1
 end
-arch diamond_converter
-name drop platinum to buy phosphorus
-slaying money
-other_arch phosphorus
-food 800
-x 1
-y 8
-end
 arch flagstone
 x 1
 y 9
 no_magic 1
-end
-arch diamond_converter
-name drop platinum to buy cinnabar
-slaying money
-other_arch cinnabar
-food 1200
-x 1
-y 9
 end
 arch flagstone
 x 1
 y 10
 no_magic 1
 end
-arch diamond_converter
-name drop platinum to buy water
-slaying money
-other_arch water
-food 50
+arch sign
+msg
+Minerals no longer sold here. Check the shop, or buy a pickaxe from a general store and mine them from the mountains.
+endmsg
 x 1
 y 10
 end
@@ -328,52 +311,20 @@ x 2
 y 7
 no_magic 1
 end
-arch diamond_converter
-name drop platinum to buy pyrite
-slaying money
-other_arch pyrite
-food 200
-x 2
-y 7
-end
 arch flagstone
 x 2
 y 8
 no_magic 1
-end
-arch diamond_converter
-name drop platinum to buy lead
-slaying money
-other_arch lead
-food 1800
-x 2
-y 8
 end
 arch flagstone
 x 2
 y 9
 no_magic 1
 end
-arch diamond_converter
-name drop platinum to buy salt
-slaying money
-other_arch salt
-food 2000
-x 2
-y 9
-end
 arch flagstone
 x 2
 y 10
 no_magic 1
-end
-arch diamond_converter
-name drop platinum to buy gypsum
-slaying money
-other_arch gypsum
-food 200
-x 2
-y 10
 end
 arch flagstone
 x 2

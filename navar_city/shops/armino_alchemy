@@ -10,7 +10,7 @@ enter_x 4
 enter_y 23
 msg
 Created:  2021-02-03 Nicolas Weeger
-Modified: 2025-06-10 Rick Tanner
+Modified: 2025-07-09 Kevin Zheng
 endmsg
 outdoor 1
 end
@@ -2604,14 +2604,6 @@ arch whiteslate
 x 19
 y 20
 end
-arch diamond_converter
-name drop gold to buy keys
-slaying money
-other_arch key
-food 100
-x 19
-y 20
-end
 arch whiteslate
 x 19
 y 21
@@ -2621,14 +2613,6 @@ x 19
 y 22
 end
 arch whiteslate
-x 19
-y 23
-end
-arch diamond_converter
-name drop platinum to buy pyrite
-slaying money
-other_arch pyrite
-food 200
 x 19
 y 23
 end
@@ -2760,14 +2744,6 @@ x 20
 y 22
 end
 arch whiteslate
-x 20
-y 23
-end
-arch diamond_converter
-name drop platinum to buy gypsum
-slaying money
-other_arch gypsum
-food 200
 x 20
 y 23
 end
@@ -2910,11 +2886,10 @@ arch whiteslate
 x 21
 y 23
 end
-arch diamond_converter
-name drop platinum to buy phosphorus
-slaying money
-other_arch phosphorus
-food 800
+arch sign
+msg
+Minerals no longer sold here. Check the shop, or buy a pickaxe from a general store and mine them from the mountains.
+endmsg
 x 21
 y 23
 end
@@ -3049,14 +3024,6 @@ arch whiteslate
 x 22
 y 23
 end
-arch diamond_converter
-name drop platinum to buy salt
-slaying money
-other_arch salt
-food 250
-x 22
-y 23
-end
 arch flagstone
 x 22
 y 24
@@ -3164,14 +3131,6 @@ arch whiteslate
 x 23
 y 20
 end
-arch diamond_converter
-name drop platinum to buy cinnabar
-slaying money
-other_arch cinnabar
-food 1200
-x 23
-y 20
-end
 arch whiteslate
 x 23
 y 21
@@ -3181,14 +3140,6 @@ x 23
 y 22
 end
 arch whiteslate
-x 23
-y 23
-end
-arch diamond_converter
-name drop platinum to buy sulphur
-slaying money
-other_arch sulphur
-food 400
 x 23
 y 23
 end
