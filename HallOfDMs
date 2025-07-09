@@ -8,7 +8,7 @@ enter_x 13
 enter_y 12
 msg
 Created:  2004-04-10 Avion
-Modified: 2023-06-04 Rick Tanner
+Modified: 2025-07-09 Rick Tanner
 endmsg
 end
 arch blocked
@@ -371,12 +371,12 @@ y 26
 end
 arch exit
 name Nexus
-label Nexus
 slaying start/Nexus
 hp 12
 sp 15
 x 1
 y 26
+label Nexus
 end
 arch blocked
 name Void
@@ -750,12 +750,12 @@ y 28
 end
 arch exit
 name Hall of Selection
-label Hall of Selection
 slaying HallOfSelection
 hp 7
 sp 18
 x 3
 y 28
+label Hall of Selection
 end
 arch blocked
 name Void
@@ -1081,18 +1081,18 @@ x 5
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 5
 y 24
-blocksview 0
 end
-arch firepot
-name Stars
-face sunspear.111
-animation sunspear
+arch exit
+name Pup Land
+slaying /pup_land/world
+hp 18
+sp 18
 x 5
 y 24
+label Pup Land
 end
 arch tile_white_floor
 x 5
@@ -1428,13 +1428,13 @@ x 7
 y 24
 end
 arch exit
-name Pup Land
-label Pup Land
-slaying /pup_land/world
-hp 18
-sp 18
+name Santo Domino
+slaying /world/world_102_108
+hp 19
+sp 13
 x 7
 y 24
+label Santo Domino
 end
 arch tile_white_floor
 x 7
@@ -1456,11 +1456,18 @@ x 7
 y 27
 unique 1
 end
-arch blocked
-name Void
+arch blackmarble
 x 7
 y 28
-blocksview 0
+end
+arch exit
+name Stoneville
+slaying /world/world_103_127
+hp 4
+sp 16
+x 7
+y 28
+label Stoneville
 end
 arch blocked
 name Void
@@ -1818,25 +1825,18 @@ x 9
 y 23
 blocksview 0
 end
-arch firepot
-name Stars
-face sunspear.111
-animation sunspear
-x 9
-y 23
-end
 arch blackmarble
 x 9
 y 24
 end
 arch exit
-name Santo Domino
-label Santo Domino
-slaying /world/world_102_108
-hp 19
-sp 13
+name Euthville
+slaying /world/world_105_113
+hp 10
+sp 18
 x 9
 y 24
+label Euthville
 end
 arch tile_white_floor
 x 9
@@ -1863,13 +1863,13 @@ x 9
 y 28
 end
 arch exit
-name Stoneville
-label Stoneville
-slaying /world/world_103_127
-hp 4
-sp 16
+name Lake Country
+slaying /world/world_109_126
+hp 17
+sp 19
 x 9
 y 28
+label Lake Country
 end
 arch blocked
 name Void
@@ -2019,18 +2019,11 @@ x 10
 y 23
 blocksview 0
 end
-arch blackmarble
+arch blocked
+name Void
 x 10
 y 24
-end
-arch exit
-name Euthville
-label Euthville
-slaying /world/world_105_113
-hp 10
-sp 18
-x 10
-y 24
+blocksview 0
 end
 arch tile_white_floor
 x 10
@@ -2052,18 +2045,11 @@ x 10
 y 27
 unique 1
 end
-arch blackmarble
+arch blocked
+name Void
 x 10
 y 28
-end
-arch exit
-name Lake Country
-label Lake Country
-slaying /world/world_109_126
-hp 17
-sp 19
-x 10
-y 28
+blocksview 0
 end
 arch blocked
 name Void
@@ -2230,12 +2216,12 @@ y 24
 end
 arch exit
 name Scorn
-label Scorn
 slaying /world/world_105_115
 hp 5
 sp 37
 x 11
 y 24
+label Scorn
 end
 arch tile_white_floor
 x 11
@@ -2263,12 +2249,12 @@ y 28
 end
 arch exit
 name Brest
-label Brest
 slaying /world/world_107_123
 hp 31
 sp 28
 x 11
 y 28
+label Brest
 end
 arch blocked
 name Void
@@ -3074,12 +3060,12 @@ y 24
 end
 arch exit
 name Darcap
-label Darcap
 slaying /world/world_116_102
 hp 27
 sp 24
 x 14
 y 24
+label Darcap
 end
 arch tile_white_floor
 x 14
@@ -3107,12 +3093,12 @@ y 28
 end
 arch exit
 name Navar
-label Navar
 slaying /world/world_122_117
 hp 3
 sp 10
 x 14
 y 28
+label Navar
 end
 arch blocked
 name Void
@@ -3258,18 +3244,11 @@ x 15
 y 23
 blocksview 0
 end
-arch blackmarble
+arch blocked
+name Void
 x 15
 y 24
-end
-arch exit
-name Wolfsburg
-label Wolfsburg
-slaying /world/world_128_109
-hp 30
-sp 13
-x 15
-y 24
+blocksview 0
 end
 arch tile_white_floor
 x 15
@@ -3501,13 +3480,13 @@ x 16
 y 24
 end
 arch exit
-name Azumauindo
-label Azumauindo
-slaying /world/world_128_101
-hp 4
-sp 31
+name Wolfsburg
+slaying /world/world_128_109
+hp 30
+sp 13
 x 16
 y 24
+label Wolfsburg
 end
 arch tile_white_floor
 x 16
@@ -3841,11 +3820,18 @@ x 18
 y 23
 blocksview 0
 end
-arch blocked
-name Void
+arch blackmarble
 x 18
 y 24
-blocksview 0
+end
+arch exit
+name Azumauindo
+slaying /world/world_128_101
+hp 4
+sp 31
+x 18
+y 24
+label Azumauindo
 end
 arch tile_white_floor
 x 18
@@ -4560,12 +4546,12 @@ y 25
 end
 arch exit
 name Scorn Jail
-label Scorn Jail
 slaying /scorn/misc/jail
 hp 14
 sp 7
 x 22
 y 25
+label Scorn Jail
 end
 arch tile_white_floor
 x 22
@@ -4578,12 +4564,12 @@ y 27
 end
 arch exit
 name Navar Jail
-label Navar Jail
 slaying /navar_city/jail/jail
 hp 15
 sp 7
 x 22
 y 27
+label Navar Jail
 end
 arch blocked
 name Void
