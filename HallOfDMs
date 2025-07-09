@@ -1109,11 +1109,18 @@ x 5
 y 27
 unique 1
 end
-arch blocked
-name Void
+arch blackmarble
 x 5
 y 28
-blocksview 0
+end
+arch exit
+name Port Joseph
+slaying /world/world_101_114
+hp 15
+sp 39
+x 5
+y 28
+label Port Joseph
 end
 arch blocked
 name Void
