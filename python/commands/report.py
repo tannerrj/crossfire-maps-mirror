@@ -10,12 +10,21 @@ usage = {
     'delete': lambda x: report_delete(x),
     'help': lambda x: report_help(x),
     'list': lambda x: report_list(x),
+    'open': lambda x: report_set_state(x, "open"),
+    'fix': lambda x: report_set_state(x, "fixed"),
+    'close': lambda x: report_set_state(x, "closed"),
 }
 
 pl = Crossfire.WhoAmI()
 
 def status(i):
     return status_codes[min(i, len(status_codes))]
+
+def status_code(state):
+    for i, s in enumerate(status_codes):
+        if s == state:
+            return i
+    return status_codes[-1]
 
 def make_report():
     desc = Crossfire.ScriptParameters()
@@ -80,6 +89,19 @@ def report_list(args):
             else:
                 msg.insert(0, "Use 'report list <SEARCH> to search your reports by text or ID.")
         Crossfire.WhoAmI().Message("\n".join(msg))
+
+def report_set_state(num, state):
+    if not pl.DungeonMaster:
+        pl.Message("Only Dungeon Masters may use this subcommand.")
+        return
+    s = status_code(state)
+    with cfdb.open() as db:
+        res = db.execute("UPDATE reports SET status=? WHERE id=? RETURNING id;", (s, num));
+        count = len(res.fetchall())
+        if count < 1:
+            pl.Message("No such report found.")
+        else:
+            pl.Message("Report %s set to %s." % (num, state))
 
 def report_delete(args):
     with cfdb.open() as db:
