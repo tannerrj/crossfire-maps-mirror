@@ -4,11 +4,11 @@ difficulty 9
 region navar
 width 22
 height 37
-enter_x 2
+enter_x 3
 enter_y 34
 msg
 Created:  1993-11-10
-Modified: 2021-07-21 Saiapatsu
+Modified: 2025-07-10 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -4207,10 +4207,6 @@ arch magic_mouth
 msg
 You hear some muffled voices.... "Now where did those drunken slobs get off too? What! Out drinking again??"
 endmsg
-x 18
-y 11
-end
-arch woodfloor
 x 18
 y 11
 end
