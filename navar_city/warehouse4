@@ -4,11 +4,11 @@ difficulty 3
 region navar
 width 32
 height 18
-enter_x 27
+enter_x 28
 enter_y 15
 msg
 Created:  1993-11-12
-Modified: 2023-12-05 Rick Tanner
+Modified: 2025-07-12 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -3179,7 +3179,7 @@ y 17
 end
 arch invis_exit
 slaying /world/world_122_116
-hp 17
+hp 16
 sp 41
 x 27
 y 17
