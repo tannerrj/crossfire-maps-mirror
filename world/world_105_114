@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2022-03-19 Rick Tanner
+Modified: 2025-07-13 DraugTheWhopper
 endmsg
 outdoor 1
 tile_path_1 world_105_113
@@ -3729,24 +3729,31 @@ x 14
 y 2
 elevation 927
 end
-arch grass_only
+arch beach
 x 14
 y 3
-elevation 1578
+elevation 517
 end
-arch evergreens2
+arch sign
+msg
+No loitering!
+endmsg
 x 14
 y 3
 end
-arch woods_3
+arch beach
 x 14
 y 4
-elevation 1981
+elevation 121
 end
-arch woods
+arch campfire_out
+x 14
+y 4
+end
+arch beach
 x 14
 y 5
-elevation 2250
+elevation 117
 end
 arch grass_only
 x 14
