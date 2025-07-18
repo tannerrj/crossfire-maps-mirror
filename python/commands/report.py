@@ -1,5 +1,9 @@
-from email.mime.text import MIMEText
+import configparser
+import json
+import os
+import requests
 import subprocess
+from email.mime.text import MIMEText
 
 import CFSqlDb as cfdb
 import Crossfire
@@ -16,6 +20,19 @@ usage = {
 }
 
 pl = Crossfire.WhoAmI()
+
+def send_webhook(text):
+    config = configparser.ConfigParser()
+    config.read(os.path.join(Crossfire.ConfigDirectory(), "report.ini"))
+    url = None
+    try:
+        url = config.get("discord", "webhook")
+    except (configparser.NoSectionError, configparser.NoOptionError):
+        return
+    data = {
+        "content": text,
+    }
+    requests.post(url, data=json.dumps(data).encode('utf-8'), headers={'Content-Type': 'application/json'})
 
 def status(i):
     return status_codes[min(i, len(status_codes))]
@@ -67,6 +84,8 @@ Report:     {DESC}
         subprocess.run(['sendmail', recipient], universal_newlines=True, input=msg.as_string(), timeout=2)
     except subprocess.TimeoutExpired:
         Crossfire.Log(Crossfire.LogError, "Timed out while reporting a problem")
+
+    send_webhook("Problem %d was reported:" % rid + report)
 
 def report_list(args):
     with cfdb.open() as db:
