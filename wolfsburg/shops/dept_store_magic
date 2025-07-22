@@ -11,7 +11,7 @@ height 16
 enter_x 15
 msg
 Created:  2005-09-18
-Modified: 2022-08-07 Rick Tanner
+Modified: 2025-07-22 Rick Tanner
 endmsg
 tile_path_1 dept_store_armour
 tile_path_2 dept_store_misc
@@ -1412,6 +1412,9 @@ x 18
 end
 arch sign_w
 name Magic Stuff
+msg
+Magic Stuff
+endmsg
 x 18
 end
 arch woodfloor

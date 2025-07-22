@@ -12,7 +12,7 @@ enter_x 16
 enter_y 1
 msg
 Created:  2005-09-18
-Modified: 2022-08-07 Rick Tanner
+Modified: 2025-07-22 Rick Tanner
 endmsg
 tile_path_2 dept_store_weapon
 tile_path_3 dept_store_magic
@@ -1390,6 +1390,9 @@ y 13
 end
 arch sign_w
 name Armor 'n Stuff
+msg
+Armor 'n Stuff
+endmsg
 x 17
 y 13
 end

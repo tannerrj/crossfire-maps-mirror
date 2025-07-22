@@ -12,7 +12,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-09-18
-Modified: 2022-08-07 Rick Tanner
+Modified: 2025-07-22 Rick Tanner
 endmsg
 tile_path_3 dept_store_misc
 tile_path_4 dept_store_armour
@@ -244,6 +244,9 @@ y 13
 end
 arch sign_e
 name Hurting Stuff
+msg
+Hurting Stuff - weapons
+endmsg
 x 2
 y 13
 end
