@@ -9,7 +9,7 @@ enter_x 1
 enter_y 5
 msg
 Created: 1994-08-27 langley (langley@fermat.dartmouth.edu)
-Modified: 2023-06-06 Rick Tanner
+Modified: 2025-07-21 Rick Tanner
 endmsg
 reset_group portjoseph_goblin-island
 end
@@ -3497,6 +3497,7 @@ x 31
 end
 arch exit
 slaying hole
+hp 1
 sp 1
 x 31
 y 1
@@ -3507,6 +3508,7 @@ y 1
 end
 arch exit
 slaying hole
+hp 1
 sp 2
 x 31
 y 2
