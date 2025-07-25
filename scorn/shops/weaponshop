@@ -6,12 +6,12 @@ region scorn
 shopitems weapon:80;*:-50
 shopmax 3000
 width 25
-height 25
-enter_x 11
-enter_y 19
+height 27
+enter_x 12
+enter_y 21
 msg
 Created:  1993-10-15
-Modified: 2016-06-25 Rick Tanner
+Modified: 2025-07-25 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -90,6 +90,12 @@ arch grass_only
 y 24
 end
 arch grass_only
+y 25
+end
+arch grass_only
+y 26
+end
+arch grass_only
 x 1
 end
 arch grass_only
@@ -189,6 +195,14 @@ x 1
 y 24
 end
 arch grass_only
+x 1
+y 25
+end
+arch grass_only
+x 1
+y 26
+end
+arch grass_only
 x 2
 end
 arch grass_only
@@ -286,6 +300,14 @@ end
 arch grass_only
 x 2
 y 24
+end
+arch grass_only
+x 2
+y 25
+end
+arch grass_only
+x 2
+y 26
 end
 arch grass_only
 x 3
@@ -463,26 +485,42 @@ arch shop_empty
 x 3
 y 21
 end
-arch wall_2_2_1
+arch wall_2_1_1
 x 3
 y 21
 end
+arch shop_empty
+x 3
+y 22
+end
+arch wall_2_1_1
+x 3
+y 22
+end
+arch shop_empty
+x 3
+y 23
+end
+arch wall_2_2_1
+x 3
+y 23
+end
 arch wall_0
 x 3
-y 21
+y 23
 blocksview 0
 end
 arch grass_only
 x 3
-y 22
-end
-arch grass_only
-x 3
-y 23
-end
-arch grass_only
-x 3
 y 24
+end
+arch grass_only
+x 3
+y 25
+end
+arch grass_only
+x 3
+y 26
 end
 arch grass_only
 x 4
@@ -571,25 +609,33 @@ arch shop_weapon
 x 4
 y 20
 end
-arch shop_empty
+arch shop_weapon
 x 4
 y 21
 end
-arch wall_2_1_2
-x 4
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 4
 y 22
 end
-arch grass_only
+arch shop_empty
+x 4
+y 23
+end
+arch wall_2_1_2
 x 4
 y 23
 end
 arch grass_only
 x 4
 y 24
+end
+arch grass_only
+x 4
+y 25
+end
+arch grass_only
+x 4
+y 26
 end
 arch grass_only
 x 5
@@ -674,7 +720,7 @@ arch shop_empty
 x 5
 y 19
 end
-arch shop_weapon
+arch shop_empty
 x 5
 y 20
 end
@@ -682,21 +728,29 @@ arch shop_empty
 x 5
 y 21
 end
-arch wall_2_1_2
-x 5
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 5
 y 22
 end
-arch grass_only
+arch shop_empty
+x 5
+y 23
+end
+arch wall_2_1_2
 x 5
 y 23
 end
 arch grass_only
 x 5
 y 24
+end
+arch grass_only
+x 5
+y 25
+end
+arch grass_only
+x 5
+y 26
 end
 arch grass_only
 x 6
@@ -857,11 +911,15 @@ arch shop_empty
 x 6
 y 19
 end
-arch shop_weapon
+arch light4
 x 6
 y 20
 end
-arch light2
+arch shop_empty
+x 6
+y 20
+end
+arch light4
 x 6
 y 21
 end
@@ -869,21 +927,33 @@ arch shop_empty
 x 6
 y 21
 end
-arch window_win2
-x 6
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 6
 y 22
 end
-arch grass_only
+arch light2
+x 6
+y 23
+end
+arch shop_empty
+x 6
+y 23
+end
+arch window_win2
 x 6
 y 23
 end
 arch grass_only
 x 6
 y 24
+end
+arch grass_only
+x 6
+y 25
+end
+arch grass_only
+x 6
+y 26
 end
 arch grass_only
 x 7
@@ -994,25 +1064,33 @@ arch shop_weapon
 x 7
 y 20
 end
-arch shop_empty
+arch shop_weapon
 x 7
 y 21
 end
-arch wall_2_1_2
-x 7
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 7
 y 22
 end
-arch grass_only
+arch shop_empty
+x 7
+y 23
+end
+arch wall_2_1_2
 x 7
 y 23
 end
 arch grass_only
 x 7
 y 24
+end
+arch grass_only
+x 7
+y 25
+end
+arch grass_only
+x 7
+y 26
 end
 arch grass_only
 x 8
@@ -1126,30 +1204,46 @@ arch woodfloor
 x 8
 y 21
 end
-arch swall_1_2_half
+arch swall_2_1_1
 x 8
 y 21
+end
+arch woodfloor
+x 8
+y 22
+end
+arch swall_2_1_1
+x 8
+y 22
+end
+arch woodfloor
+x 8
+y 23
+end
+arch swall_1_2_half
+x 8
+y 23
 end
 arch wall_2_1_2
 x 8
-y 21
+y 23
 end
 arch wall_0
 x 8
-y 21
+y 23
 blocksview 0
 end
 arch grass_only
 x 8
-y 22
-end
-arch grass_only
-x 8
-y 23
-end
-arch grass_only
-x 8
 y 24
+end
+arch grass_only
+x 8
+y 25
+end
+arch grass_only
+x 8
+y 26
 end
 arch grass_only
 x 9
@@ -1246,21 +1340,29 @@ arch woodfloor
 x 9
 y 21
 end
-arch wall_2_1_2
-x 9
-y 21
-end
-arch grass_only
+arch woodfloor
 x 9
 y 22
 end
-arch grass_only
+arch woodfloor
+x 9
+y 23
+end
+arch wall_2_1_2
 x 9
 y 23
 end
 arch grass_only
 x 9
 y 24
+end
+arch grass_only
+x 9
+y 25
+end
+arch grass_only
+x 9
+y 26
 end
 arch grass_only
 x 10
@@ -1388,21 +1490,29 @@ arch woodfloor
 x 10
 y 21
 end
-arch wall_2_1_2
-x 10
-y 21
-end
-arch grass_only
+arch woodfloor
 x 10
 y 22
 end
-arch grass_only
+arch woodfloor
+x 10
+y 23
+end
+arch wall_2_1_2
 x 10
 y 23
 end
 arch grass_only
 x 10
 y 24
+end
+arch grass_only
+x 10
+y 25
+end
+arch grass_only
+x 10
+y 26
 end
 arch grass_only
 x 11
@@ -1512,45 +1622,53 @@ arch woodfloor
 x 11
 y 19
 end
-arch button_small
+arch woodfloor
 x 11
 y 20
+end
+arch woodfloor
+x 11
+y 21
+end
+arch button_small
+x 11
+y 22
 connected 1
 end
 arch woodfloor
 x 11
-y 20
+y 22
 end
 arch woodfloor
 x 11
-y 21
+y 23
 end
 arch wall_1_3
 x 11
-y 21
+y 23
 end
 arch dungeon_magic
 x 11
-y 22
+y 24
 end
 arch invis_exit
 slaying /world/world_104_115
 hp 44
 sp 32
 x 11
-y 22
+y 24
 end
 arch cobblestones2
 x 11
-y 22
-end
-arch grass_only
-x 11
-y 23
-end
-arch grass_only
-x 11
 y 24
+end
+arch grass_only
+x 11
+y 25
+end
+arch grass_only
+x 11
+y 26
 end
 arch grass_only
 x 12
@@ -1690,55 +1808,63 @@ arch shop_mat
 x 12
 y 19
 end
-arch button_small
-x 12
-y 20
-connected 1
-end
 arch woodfloor
 x 12
 y 20
 end
-arch button_small
+arch woodfloor
 x 12
 y 21
+end
+arch button_small
+x 12
+y 22
 connected 1
 end
 arch woodfloor
 x 12
-y 21
+y 22
+end
+arch button_small
+x 12
+y 23
+connected 1
+end
+arch woodfloor
+x 12
+y 23
 end
 arch odoorn2_closed_1
 x 12
-y 21
+y 23
 connected 1
 end
 arch dungeon_magic
 x 12
-y 22
+y 24
 end
 arch light3
 x 12
-y 22
+y 24
 end
 arch invis_exit
 slaying /world/world_104_115
 hp 44
 sp 32
 x 12
-y 22
-end
-arch cobblestones2
-x 12
-y 22
-end
-arch cobblestones2
-x 12
-y 23
+y 24
 end
 arch cobblestones2
 x 12
 y 24
+end
+arch cobblestones2
+x 12
+y 25
+end
+arch cobblestones2
+x 12
+y 26
 end
 arch grass_only
 x 13
@@ -1835,7 +1961,7 @@ arch woodfloor
 x 13
 y 18
 end
-arch swall_2_1_2
+arch swall_3_3
 x 13
 y 18
 end
@@ -1848,45 +1974,65 @@ arch woodfloor
 x 13
 y 19
 end
-arch button_small
+arch swall_1_2_half
+x 13
+y 19
+end
+arch counter_1_1
+x 13
+y 19
+end
+arch woodfloor
 x 13
 y 20
+end
+arch counter_2_2_1
+x 13
+y 20
+end
+arch woodfloor
+x 13
+y 21
+end
+arch button_small
+x 13
+y 22
 connected 1
 end
 arch woodfloor
 x 13
-y 20
+y 22
 end
 arch woodfloor
 x 13
-y 21
+y 23
 end
 arch wall_1_4
 x 13
-y 21
+y 23
 end
 arch dungeon_magic
 x 13
-y 22
+y 24
 end
 arch invis_exit
 slaying /world/world_104_115
 hp 44
 sp 32
 x 13
-y 22
+y 24
 end
 arch cobblestones2
 x 13
-y 22
-end
-arch grass_only
-x 13
-y 23
-end
-arch grass_only
-x 13
 y 24
+end
+arch grass_only
+x 13
+y 25
+end
+arch grass_only
+x 13
+y 26
 end
 arch grass_only
 x 14
@@ -2027,25 +2173,37 @@ arch woodfloor
 x 14
 y 20
 end
+arch counter_2_1_2
+x 14
+y 20
+end
 arch woodfloor
 x 14
 y 21
 end
-arch wall_2_1_2
-x 14
-y 21
-end
-arch grass_only
+arch woodfloor
 x 14
 y 22
 end
-arch grass_only
+arch woodfloor
+x 14
+y 23
+end
+arch wall_2_1_2
 x 14
 y 23
 end
 arch grass_only
 x 14
 y 24
+end
+arch grass_only
+x 14
+y 25
+end
+arch grass_only
+x 14
+y 26
 end
 arch grass_only
 x 15
@@ -2138,25 +2296,41 @@ arch woodfloor
 x 15
 y 20
 end
+arch swall_1_4_half
+x 15
+y 20
+end
+arch counter_1_3
+x 15
+y 20
+end
 arch woodfloor
 x 15
 y 21
 end
-arch wall_2_1_2
-x 15
-y 21
-end
-arch grass_only
+arch woodfloor
 x 15
 y 22
 end
-arch grass_only
+arch woodfloor
+x 15
+y 23
+end
+arch wall_2_1_2
 x 15
 y 23
 end
 arch grass_only
 x 15
 y 24
+end
+arch grass_only
+x 15
+y 25
+end
+arch grass_only
+x 15
+y 26
 end
 arch grass_only
 x 16
@@ -2262,7 +2436,7 @@ arch woodfloor
 x 16
 y 20
 end
-arch swall_2_1_1
+arch swall_3_4
 x 16
 y 20
 end
@@ -2270,30 +2444,46 @@ arch woodfloor
 x 16
 y 21
 end
-arch swall_1_2_half
+arch swall_2_1_1
 x 16
 y 21
+end
+arch woodfloor
+x 16
+y 22
+end
+arch swall_2_1_1
+x 16
+y 22
+end
+arch woodfloor
+x 16
+y 23
+end
+arch swall_1_2_half
+x 16
+y 23
 end
 arch wall_2_1_2
 x 16
-y 21
+y 23
 end
 arch wall_0
 x 16
-y 21
+y 23
 blocksview 0
 end
 arch grass_only
 x 16
-y 22
-end
-arch grass_only
-x 16
-y 23
-end
-arch grass_only
-x 16
 y 24
+end
+arch grass_only
+x 16
+y 25
+end
+arch grass_only
+x 16
+y 26
 end
 arch grass_only
 x 17
@@ -2404,25 +2594,33 @@ arch shop_weapon
 x 17
 y 20
 end
-arch shop_empty
+arch shop_weapon
 x 17
 y 21
 end
-arch wall_2_1_2
-x 17
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 17
 y 22
 end
-arch grass_only
+arch shop_empty
+x 17
+y 23
+end
+arch wall_2_1_2
 x 17
 y 23
 end
 arch grass_only
 x 17
 y 24
+end
+arch grass_only
+x 17
+y 25
+end
+arch grass_only
+x 17
+y 26
 end
 arch grass_only
 x 18
@@ -2583,33 +2781,49 @@ arch shop_empty
 x 18
 y 19
 end
-arch shop_weapon
+arch light4
 x 18
 y 20
+end
+arch shop_empty
+x 18
+y 20
+end
+arch light4
+x 18
+y 21
+end
+arch shop_empty
+x 18
+y 21
+end
+arch shop_weapon
+x 18
+y 22
 end
 arch light2
 x 18
-y 21
+y 23
 end
 arch shop_empty
 x 18
-y 21
+y 23
 end
 arch window_win2
 x 18
-y 21
-end
-arch grass_only
-x 18
-y 22
-end
-arch grass_only
-x 18
 y 23
 end
 arch grass_only
 x 18
 y 24
+end
+arch grass_only
+x 18
+y 25
+end
+arch grass_only
+x 18
+y 26
 end
 arch grass_only
 x 19
@@ -2694,7 +2908,7 @@ arch shop_empty
 x 19
 y 19
 end
-arch shop_weapon
+arch shop_empty
 x 19
 y 20
 end
@@ -2702,21 +2916,29 @@ arch shop_empty
 x 19
 y 21
 end
-arch wall_2_1_2
-x 19
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 19
 y 22
 end
-arch grass_only
+arch shop_empty
+x 19
+y 23
+end
+arch wall_2_1_2
 x 19
 y 23
 end
 arch grass_only
 x 19
 y 24
+end
+arch grass_only
+x 19
+y 25
+end
+arch grass_only
+x 19
+y 26
 end
 arch grass_only
 x 20
@@ -2805,25 +3027,33 @@ arch shop_weapon
 x 20
 y 20
 end
-arch shop_empty
+arch shop_weapon
 x 20
 y 21
 end
-arch wall_2_1_2
-x 20
-y 21
-end
-arch grass_only
+arch shop_weapon
 x 20
 y 22
 end
-arch grass_only
+arch shop_empty
+x 20
+y 23
+end
+arch wall_2_1_2
 x 20
 y 23
 end
 arch grass_only
 x 20
 y 24
+end
+arch grass_only
+x 20
+y 25
+end
+arch grass_only
+x 20
+y 26
 end
 arch grass_only
 x 21
@@ -3001,26 +3231,42 @@ arch shop_empty
 x 21
 y 21
 end
-arch wall_2_2_4
+arch wall_2_1_1
 x 21
 y 21
 end
+arch shop_empty
+x 21
+y 22
+end
+arch wall_2_1_1
+x 21
+y 22
+end
+arch shop_empty
+x 21
+y 23
+end
+arch wall_2_2_4
+x 21
+y 23
+end
 arch wall_0
 x 21
-y 21
+y 23
 blocksview 0
 end
 arch grass_only
 x 21
-y 22
+y 24
 end
 arch grass_only
 x 21
-y 23
+y 25
 end
 arch grass_only
 x 21
-y 24
+y 26
 end
 arch grass_only
 x 22
@@ -3122,6 +3368,14 @@ x 22
 y 24
 end
 arch grass_only
+x 22
+y 25
+end
+arch grass_only
+x 22
+y 26
+end
+arch grass_only
 x 23
 end
 arch grass_only
@@ -3221,6 +3475,14 @@ x 23
 y 24
 end
 arch grass_only
+x 23
+y 25
+end
+arch grass_only
+x 23
+y 26
+end
+arch grass_only
 x 24
 end
 arch grass_only
@@ -3318,4 +3580,12 @@ end
 arch grass_only
 x 24
 y 24
+end
+arch grass_only
+x 24
+y 25
+end
+arch grass_only
+x 24
+y 26
 end
