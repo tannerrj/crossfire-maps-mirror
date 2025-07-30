@@ -10,7 +10,7 @@ enter_x 67
 enter_y 71
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Modified: 2025-07-23 Rick Tanner
 endmsg
 reset_group citydeclouds_castle-de-clouds
 end
@@ -80823,6 +80823,13 @@ x 59
 y 55
 end
 arch dirtfloor
+x 59
+y 56
+end
+arch stair3_ystone_do
+slaying cwdccastleb9
+hp 6
+sp 5
 x 59
 y 56
 end
