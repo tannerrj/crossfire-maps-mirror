@@ -5,7 +5,7 @@ difficulty 40
 region azumauindo
 shopitems potion:0;ring:5;book:10;spellbook:30;rod:10;wand:10;scroll:10;skillscroll:5;power_crystal:10;*:-95
 shopgreed 1.30000
-shopmin 200
+shopmin 80
 shopmax 100000
 shoprace human
 width 16
@@ -14,7 +14,7 @@ enter_x 3
 enter_y 12
 msg
 Created:  2005-03-18 MikeeUSA
-Modified: 2022-08-09 Rick Tanner
+Modified: 2025-07-30 Rick Tanner
 endmsg
 reset_group azumauindo_kijutsu-shijou
 end
