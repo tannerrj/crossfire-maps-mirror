@@ -5,7 +5,7 @@ difficulty 40
 region azumauindo
 shopitems building material:95;item builder:95;*:-100
 shopgreed 1.20000
-shopmin 100
+shopmin 50
 shopmax 100000
 shoprace human
 width 32
@@ -14,7 +14,7 @@ enter_x 15
 enter_y 26
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2011-10-25 Rick Tanner
+Modified: 2025-07-30 Rick Tanner
 endmsg
 outdoor 1
 end
