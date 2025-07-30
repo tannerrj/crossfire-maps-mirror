@@ -5,7 +5,6 @@ difficulty 40
 region azumauindo
 shopitems *:0
 shopgreed 1.20000
-shopmin 50
 shopmax 100000
 shoprace human
 width 16
@@ -14,7 +13,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  2005-03-19 MikeeUSA
-Modified: 2012-01-24 Rick Tanner
+Modified: 2025-07-30 Rick Tanner
 endmsg
 end
 arch dungeon_magic
