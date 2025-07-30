@@ -5,7 +5,7 @@ difficulty 40
 region azumauindo
 shopitems potion:20;ring:15;amulet:10;gem:0;*:-100
 shopgreed 1.20000
-shopmin 400
+shopmin 100
 shopmax 2000000
 width 32
 height 32
@@ -13,7 +13,7 @@ enter_x 16
 enter_y 26
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2012-01-24 Rick Tanner
+Modified: 2025-07-30 Rick Tanner
 endmsg
 outdoor 1
 end
