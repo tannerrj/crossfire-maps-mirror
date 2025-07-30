@@ -5,7 +5,7 @@ difficulty 40
 region azumauindo
 shopitems armour:10;helmet:11;shield:5;boots:0;cloak:0;gloves:0;bracers:0;girdle:2;armour improver:4;*:-98
 shopgreed 1.20000
-shopmin 200
+shopmin 5
 shopmax 100000
 shoprace human
 width 16
@@ -14,7 +14,7 @@ enter_x 8
 enter_y 14
 msg
 Created:  2005-03-12 MikeeUSA
-Modified: 2023-11-20 Rick Tanner
+Modified: 2025-07-30 Rick Tanner
 endmsg
 end
 arch dungeon_magic
