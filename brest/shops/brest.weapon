@@ -5,14 +5,14 @@ difficulty 9
 region brest
 shopitems weapon:40;weapon improver:20;*:-70
 shopgreed 1.00000
-shopmin 250
+shopmin 15
 shopmax 150000
 width 25
 height 24
 enter_x 15
 enter_y 17
 msg
-Modified: 2024-08-28 Rick Tanner
+Modified: 2025-07-31 Rick Tanner
 endmsg
 end
 arch grass
