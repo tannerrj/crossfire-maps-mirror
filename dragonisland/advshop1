@@ -3,7 +3,7 @@ name The Adventurous Shop, 1st Floor
 difficulty 20
 region stoneville
 shopitems book:70;spellbook:90;*:-100
-shopmin 600
+shopmin 75
 shopmax 15000
 width 16
 height 16
@@ -11,7 +11,7 @@ enter_x 7
 enter_y 7
 msg
 Created:  1997-07-22
-Modified: 2022-07-18 Rick Tanner
+Modified: 2025-08-01 Rick Tanner
 endmsg
 reset_group stoneville_the-adventurers-shop
 end
