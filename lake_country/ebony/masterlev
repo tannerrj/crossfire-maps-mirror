@@ -3,7 +3,7 @@ name Ebony Tiger Thief Guild, Master Level
 difficulty 1
 region lakecountry
 shopitems potion:95;gem:95;*:-100
-shopmin 2000
+shopmin 100
 shopmax 25000
 width 25
 height 25
@@ -11,7 +11,7 @@ enter_x 2
 enter_y 11
 msg
 Created: 1995-04-24 Kundi, Xue (xkd@soda.csua.berkeley.edu)
-Modified: 2025-02-20 Rick Tanner
+Modified: 2025-08-02 Rick Tanner
 endmsg
 reset_group lakecountry_ebony-tiger-thief-guild
 end
