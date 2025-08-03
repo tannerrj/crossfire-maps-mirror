@@ -5,7 +5,7 @@ difficulty 15
 region navar
 shopitems weapon:30;skill tool:0;weapon improver:40;treasure:-20;*:-45
 shopgreed 1.00000
-shopmin 20
+shopmin 10
 shopmax 10000
 shoprace human
 width 25
@@ -14,7 +14,7 @@ enter_x 12
 enter_y 18
 msg
 Created:  1993-10-27
-Modified: 2022-01-15 Kevin Zheng
+Modified: 2025-08-03 Rick Tanner
 endmsg
 outdoor 1
 end
