@@ -4,7 +4,7 @@ difficulty 15
 region navar
 shopitems weapon:50;armour:54;shield:52;helmet:33;*:-100
 shopgreed 2.20000
-shopmin 500
+shopmin 10
 shopmax 5000000
 shoprace dwarf
 darkness 1
@@ -14,7 +14,7 @@ enter_x 10
 enter_y 10
 msg
 Created:  1993-10-27
-Modified: 2025-05-21 Rick Tanner
+Modified: 2025-08-02 Rick Tanner
 endmsg
 outdoor 1
 end
