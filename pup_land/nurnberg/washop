@@ -3,7 +3,7 @@ name Wand Shop
 difficulty 50
 region nurnberg
 shopitems rod:95;wand:100;*:-100
-shopmin 250
+shopmin 125
 shopmax 50000
 width 25
 height 25
@@ -11,7 +11,7 @@ enter_x 23
 enter_y 7
 msg
 Created:  1996-02-23
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2025-08-04 Rick Tanner
 endmsg
 outdoor 1
 end
