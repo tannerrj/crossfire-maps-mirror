@@ -3,7 +3,7 @@ name Lord Byron's Castle, Magic
 difficulty 18
 region santodominion
 shopitems amulet:50;ring:50;potion:50;book:50;scroll:30;spellbook:30;skillscroll:20;wand:30;*:-80
-shopmin 100
+shopmin 25
 shopmax 8500
 width 19
 height 14
@@ -11,7 +11,7 @@ enter_x 15
 enter_y 6
 msg
 Created:  2009-01-22 Rick Tanner
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-08-05 Rick Tanner
 endmsg
 reset_group santodominion_lord-byrons-castle
 end
