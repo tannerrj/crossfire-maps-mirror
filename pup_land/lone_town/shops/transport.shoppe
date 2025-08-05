@@ -4,7 +4,7 @@ reset_timeout 1800
 difficulty 110
 region lonetown
 shopitems amulet:95;ring:90;potion:90;book:85;scroll:90;spellbook:90;skillscroll:90;wand:90;rod:90;*:0
-shopmin 100
+shopmin 50
 shopmax 2000000
 width 25
 height 25
@@ -12,7 +12,7 @@ enter_x 17
 enter_y 20
 msg
 Created: 2007-04-08 Gene Alexander
-Modified: 2023-06-09 Rick Tanner
+Modified: 2025-08-05 Rick Tanner
 endmsg
 outdoor 1
 end
