@@ -3,7 +3,7 @@ name Lord Byron's Castle, Weapons
 difficulty 18
 region santodominion
 shopitems armour:70;shield:70;helmet:40;cloak:40;boots:40;gloves:40;bracers:40;girdle:40;*:-90
-shopmin 60
+shopmin 20
 shopmax 7500
 width 19
 height 13
@@ -11,7 +11,7 @@ enter_x 15
 enter_y 7
 msg
 Created:  2009-01-22 Rick Tanner
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-08-05 Rick Tanner
 endmsg
 reset_group santodominion_lord-byrons-castle
 end
