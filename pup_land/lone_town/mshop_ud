@@ -11,7 +11,7 @@ enter_x 1
 enter_y 13
 msg
 Created:  1996-01-31
-Modified: 2022-02-13 Kevin Zheng
+Modified: 2025-08-05 Rick Tanner
 endmsg
 end
 arch shop_empty
@@ -714,6 +714,7 @@ arch scroll_oratory
 x 6
 y 2
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -723,6 +724,7 @@ arch scroll_stealing
 x 6
 y 3
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -732,15 +734,19 @@ arch scroll_singing
 x 6
 y 4
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
 y 5
 end
 arch scroll_literacy
+msg
+endmsg
 x 6
 y 5
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -754,6 +760,7 @@ arch scroll_punching
 x 6
 y 7
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -763,6 +770,7 @@ arch scroll_one_handed_weapons
 x 6
 y 8
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -772,6 +780,7 @@ arch scroll_karate
 x 6
 y 9
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -781,6 +790,7 @@ arch scroll_jumping
 x 6
 y 10
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -790,6 +800,7 @@ arch scroll_missile_weap
 x 6
 y 11
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 6
@@ -937,6 +948,7 @@ arch scroll_two_handed_weapons
 x 7
 y 14
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 7
@@ -964,6 +976,7 @@ arch scroll_bargaining
 x 8
 y 2
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -973,6 +986,7 @@ arch scroll_woodsman
 x 8
 y 3
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -982,6 +996,7 @@ arch scroll_thaumaturgy
 x 8
 y 4
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -991,6 +1006,7 @@ arch scroll_jewelry
 x 8
 y 5
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1000,6 +1016,7 @@ arch scroll_smithing
 x 8
 y 6
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1009,6 +1026,7 @@ arch scroll_bowyer
 x 8
 y 7
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1028,6 +1046,7 @@ arch scroll_pyromancy
 x 8
 y 9
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1037,6 +1056,7 @@ arch scroll_evocation
 x 8
 y 10
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1046,6 +1066,7 @@ arch scroll_sorcery
 x 8
 y 11
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 8
@@ -1155,6 +1176,7 @@ arch scroll_alchemy
 x 10
 y 2
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1164,6 +1186,7 @@ arch scroll_summoning
 x 10
 y 3
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1183,6 +1206,7 @@ arch scroll_disarm_traps
 x 10
 y 5
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1196,6 +1220,7 @@ arch scroll_hiding
 x 10
 y 7
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1205,6 +1230,7 @@ arch scroll_climbing
 x 10
 y 8
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1214,6 +1240,7 @@ arch scroll_sense_mag
 x 10
 y 9
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1223,6 +1250,7 @@ arch scroll_sense_curse
 x 10
 y 10
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1232,6 +1260,7 @@ arch scroll_use_magic_item
 x 10
 y 11
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1241,6 +1270,7 @@ arch scroll_find_traps
 x 10
 y 12
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1250,6 +1280,7 @@ arch scroll_praying
 x 10
 y 13
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 10
@@ -1399,6 +1430,7 @@ arch prepare_weapon
 x 12
 y 2
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1408,6 +1440,7 @@ arch improve_wis
 x 12
 y 3
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1417,6 +1450,7 @@ arch improve_weight
 x 12
 y 4
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1426,6 +1460,7 @@ arch improve_str
 x 12
 y 5
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1435,6 +1470,7 @@ arch improve_pow
 x 12
 y 6
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1444,6 +1480,7 @@ arch improve_int
 x 12
 y 7
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1453,6 +1490,7 @@ arch improve_enchantment
 x 12
 y 8
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1462,6 +1500,7 @@ arch improve_dex
 x 12
 y 9
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1471,6 +1510,7 @@ arch improve_damage
 x 12
 y 10
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1480,6 +1520,7 @@ arch improve_con
 x 12
 y 11
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1489,6 +1530,7 @@ arch improve_cha
 x 12
 y 12
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
@@ -1498,6 +1540,7 @@ arch ench_armour
 x 12
 y 13
 unpaid 1
+identified 1
 end
 arch shop_empty
 x 12
