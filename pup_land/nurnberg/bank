@@ -8,7 +8,7 @@ enter_x 23
 enter_y 7
 msg
 Created:  1996-02-09
-Modified: 2022-08-11 Rick Tanner
+Modified: 2025-08-06 Rick Tanner
 endmsg
 reset_group nurnberg_bank
 end
@@ -229,13 +229,13 @@ arch grass
 x 2
 y 19
 end
-arch woodfloor
+arch flagstone
 x 3
 end
 arch wwall_2_2_2
 x 3
 end
-arch woodfloor
+arch flagstone
 x 3
 y 1
 end
@@ -243,7 +243,7 @@ arch wwall_2_1_1
 x 3
 y 1
 end
-arch woodfloor
+arch flagstone
 x 3
 y 2
 end
@@ -251,7 +251,7 @@ arch wwall_win1
 x 3
 y 2
 end
-arch woodfloor
+arch flagstone
 x 3
 y 3
 end
@@ -259,7 +259,7 @@ arch wwall_2_1_1
 x 3
 y 3
 end
-arch woodfloor
+arch flagstone
 x 3
 y 4
 end
@@ -267,7 +267,7 @@ arch wwall_2_1_1
 x 3
 y 4
 end
-arch woodfloor
+arch flagstone
 x 3
 y 5
 end
@@ -275,7 +275,7 @@ arch wwall_win1
 x 3
 y 5
 end
-arch woodfloor
+arch flagstone
 x 3
 y 6
 end
@@ -283,7 +283,7 @@ arch wwall_2_1_1
 x 3
 y 6
 end
-arch woodfloor
+arch flagstone
 x 3
 y 7
 end
@@ -291,7 +291,7 @@ arch wwall_2_1_1
 x 3
 y 7
 end
-arch woodfloor
+arch flagstone
 x 3
 y 8
 end
@@ -299,7 +299,7 @@ arch wwall_win1
 x 3
 y 8
 end
-arch woodfloor
+arch flagstone
 x 3
 y 9
 end
@@ -307,7 +307,7 @@ arch wwall_2_1_1
 x 3
 y 9
 end
-arch woodfloor
+arch flagstone
 x 3
 y 10
 end
@@ -315,7 +315,7 @@ arch wwall_2_1_1
 x 3
 y 10
 end
-arch woodfloor
+arch flagstone
 x 3
 y 11
 end
@@ -323,7 +323,7 @@ arch wwall_win1
 x 3
 y 11
 end
-arch woodfloor
+arch flagstone
 x 3
 y 12
 end
@@ -331,7 +331,7 @@ arch wwall_2_1_1
 x 3
 y 12
 end
-arch woodfloor
+arch flagstone
 x 3
 y 13
 end
@@ -339,7 +339,7 @@ arch wwall_2_1_1
 x 3
 y 13
 end
-arch woodfloor
+arch flagstone
 x 3
 y 14
 end
@@ -347,7 +347,7 @@ arch wwall_win1
 x 3
 y 14
 end
-arch woodfloor
+arch flagstone
 x 3
 y 15
 end
@@ -371,7 +371,7 @@ arch evergreens
 x 3
 y 19
 end
-arch woodfloor
+arch flagstone
 x 4
 end
 arch wwall_2_1_2
@@ -440,7 +440,7 @@ arch woodfloor
 x 4
 y 14
 end
-arch woodfloor
+arch flagstone
 x 4
 y 15
 end
@@ -464,7 +464,7 @@ arch evergreens
 x 4
 y 19
 end
-arch woodfloor
+arch flagstone
 x 5
 end
 arch wwall_2_1_2
@@ -526,7 +526,7 @@ arch woodfloor
 x 5
 y 14
 end
-arch woodfloor
+arch flagstone
 x 5
 y 15
 end
@@ -550,7 +550,7 @@ arch evergreens
 x 5
 y 19
 end
-arch woodfloor
+arch flagstone
 x 6
 end
 arch wwall_2_1_2
@@ -612,7 +612,7 @@ arch woodfloor
 x 6
 y 14
 end
-arch woodfloor
+arch flagstone
 x 6
 y 15
 end
@@ -636,7 +636,7 @@ arch woods_2
 x 6
 y 19
 end
-arch woodfloor
+arch flagstone
 x 7
 end
 arch wwall_2_1_2
@@ -773,7 +773,7 @@ arch woodfloor
 x 7
 y 14
 end
-arch woodfloor
+arch flagstone
 x 7
 y 15
 end
@@ -797,7 +797,7 @@ arch woods_2
 x 7
 y 19
 end
-arch woodfloor
+arch flagstone
 x 8
 end
 arch wwall_2_1_2
@@ -947,7 +947,7 @@ arch woodfloor
 x 8
 y 14
 end
-arch woodfloor
+arch flagstone
 x 8
 y 15
 end
@@ -971,7 +971,7 @@ arch evergreens
 x 8
 y 19
 end
-arch woodfloor
+arch flagstone
 x 9
 end
 arch wwall_2_1_2
@@ -1053,7 +1053,7 @@ arch woodfloor
 x 9
 y 14
 end
-arch woodfloor
+arch flagstone
 x 9
 y 15
 end
@@ -1077,7 +1077,7 @@ arch evergreens
 x 9
 y 19
 end
-arch woodfloor
+arch flagstone
 x 10
 end
 arch wwall_2_1_2
@@ -1214,7 +1214,7 @@ arch woodfloor
 x 10
 y 14
 end
-arch woodfloor
+arch flagstone
 x 10
 y 15
 end
@@ -1238,7 +1238,7 @@ arch evergreens
 x 10
 y 19
 end
-arch woodfloor
+arch flagstone
 x 11
 end
 arch wwall_2_1_2
@@ -1332,7 +1332,7 @@ arch woodfloor
 x 11
 y 14
 end
-arch woodfloor
+arch flagstone
 x 11
 y 15
 end
@@ -1356,7 +1356,7 @@ arch evergreen
 x 11
 y 19
 end
-arch woodfloor
+arch flagstone
 x 12
 end
 arch wwall_2_1_2
@@ -1460,7 +1460,7 @@ arch woodfloor
 x 12
 y 14
 end
-arch woodfloor
+arch flagstone
 x 12
 y 15
 end
@@ -1484,7 +1484,7 @@ arch evergreens
 x 12
 y 19
 end
-arch woodfloor
+arch flagstone
 x 13
 end
 arch wwall_2_1_2
@@ -1602,7 +1602,7 @@ arch woodfloor
 x 13
 y 14
 end
-arch woodfloor
+arch flagstone
 x 13
 y 15
 end
@@ -1626,7 +1626,7 @@ arch evergreens
 x 13
 y 19
 end
-arch woodfloor
+arch flagstone
 x 14
 end
 arch wwall_2_1_2
@@ -1730,7 +1730,7 @@ arch woodfloor
 x 14
 y 14
 end
-arch woodfloor
+arch flagstone
 x 14
 y 15
 end
@@ -1754,7 +1754,7 @@ arch evergreens
 x 14
 y 19
 end
-arch woodfloor
+arch flagstone
 x 15
 end
 arch wwall_2_1_2
@@ -1848,7 +1848,7 @@ arch woodfloor
 x 15
 y 14
 end
-arch woodfloor
+arch flagstone
 x 15
 y 15
 end
@@ -1872,7 +1872,7 @@ arch evergreens
 x 15
 y 19
 end
-arch woodfloor
+arch flagstone
 x 16
 end
 arch wwall_2_1_2
@@ -1992,7 +1992,7 @@ arch woodfloor
 x 16
 y 14
 end
-arch woodfloor
+arch flagstone
 x 16
 y 15
 end
@@ -2016,7 +2016,7 @@ arch grass
 x 16
 y 19
 end
-arch woodfloor
+arch flagstone
 x 17
 end
 arch wwall_2_1_2
@@ -2117,7 +2117,7 @@ arch woodfloor
 x 17
 y 14
 end
-arch woodfloor
+arch flagstone
 x 17
 y 15
 end
@@ -2141,7 +2141,7 @@ arch grass
 x 17
 y 19
 end
-arch woodfloor
+arch flagstone
 x 18
 end
 arch wwall_2_1_2
@@ -2302,7 +2302,7 @@ arch woodfloor
 x 18
 y 14
 end
-arch woodfloor
+arch flagstone
 x 18
 y 15
 end
@@ -2330,7 +2330,7 @@ arch brush
 x 18
 y 19
 end
-arch woodfloor
+arch flagstone
 x 19
 end
 arch wwall_2_1_2
@@ -2471,7 +2471,7 @@ arch woodfloor
 x 19
 y 14
 end
-arch woodfloor
+arch flagstone
 x 19
 y 15
 end
@@ -2495,7 +2495,7 @@ arch evergreens
 x 19
 y 19
 end
-arch woodfloor
+arch flagstone
 x 20
 end
 arch wwall_2_1_2
@@ -2557,7 +2557,7 @@ arch woodfloor
 x 20
 y 14
 end
-arch woodfloor
+arch flagstone
 x 20
 y 15
 end
@@ -2581,7 +2581,7 @@ arch grass
 x 20
 y 19
 end
-arch woodfloor
+arch flagstone
 x 21
 end
 arch wwall_2_1_2
@@ -2650,7 +2650,7 @@ arch woodfloor
 x 21
 y 14
 end
-arch woodfloor
+arch flagstone
 x 21
 y 15
 end
@@ -2674,7 +2674,7 @@ arch grass
 x 21
 y 19
 end
-arch woodfloor
+arch flagstone
 x 22
 end
 arch wwall_2_1_2
@@ -2692,7 +2692,7 @@ arch woodfloor
 x 22
 y 3
 end
-arch woodfloor
+arch flagstone
 x 22
 y 4
 end
@@ -2700,7 +2700,7 @@ arch wwall_2_2_2
 x 22
 y 4
 end
-arch woodfloor
+arch flagstone
 x 22
 y 5
 end
@@ -2708,7 +2708,7 @@ arch wwall_2_1_1
 x 22
 y 5
 end
-arch woodfloor
+arch flagstone
 x 22
 y 6
 end
@@ -2716,7 +2716,7 @@ arch wwall_1_2
 x 22
 y 6
 end
-arch woodfloor
+arch flagstone
 x 22
 y 7
 end
@@ -2725,7 +2725,7 @@ x 22
 y 7
 move_block 0
 end
-arch woodfloor
+arch flagstone
 x 22
 y 8
 end
@@ -2734,7 +2734,7 @@ x 22
 y 8
 move_block 0
 end
-arch woodfloor
+arch flagstone
 x 22
 y 9
 end
@@ -2742,7 +2742,7 @@ arch wwall_1_1
 x 22
 y 9
 end
-arch woodfloor
+arch flagstone
 x 22
 y 10
 end
@@ -2750,7 +2750,7 @@ arch wwall_2_1_1
 x 22
 y 10
 end
-arch woodfloor
+arch flagstone
 x 22
 y 11
 end
@@ -2770,7 +2770,7 @@ arch woodfloor
 x 22
 y 14
 end
-arch woodfloor
+arch flagstone
 x 22
 y 15
 end
@@ -2794,13 +2794,13 @@ arch grass
 x 22
 y 19
 end
-arch woodfloor
+arch flagstone
 x 23
 end
 arch wwall_2_2_3
 x 23
 end
-arch woodfloor
+arch flagstone
 x 23
 y 1
 end
@@ -2808,7 +2808,7 @@ arch wwall_2_1_1
 x 23
 y 1
 end
-arch woodfloor
+arch flagstone
 x 23
 y 2
 end
@@ -2816,7 +2816,7 @@ arch wwall_win1
 x 23
 y 2
 end
-arch woodfloor
+arch flagstone
 x 23
 y 3
 end
@@ -2824,7 +2824,7 @@ arch wwall_2_1_1
 x 23
 y 3
 end
-arch woodfloor
+arch flagstone
 x 23
 y 4
 end
@@ -2856,7 +2856,7 @@ arch brush
 x 23
 y 10
 end
-arch woodfloor
+arch flagstone
 x 23
 y 11
 end
@@ -2864,7 +2864,7 @@ arch wwall_2_2_3
 x 23
 y 11
 end
-arch woodfloor
+arch flagstone
 x 23
 y 12
 end
@@ -2872,7 +2872,7 @@ arch wwall_2_1_1
 x 23
 y 12
 end
-arch woodfloor
+arch flagstone
 x 23
 y 13
 end
@@ -2880,7 +2880,7 @@ arch wwall_win1
 x 23
 y 13
 end
-arch woodfloor
+arch flagstone
 x 23
 y 14
 end
@@ -2888,7 +2888,7 @@ arch wwall_2_1_1
 x 23
 y 14
 end
-arch woodfloor
+arch flagstone
 x 23
 y 15
 end
