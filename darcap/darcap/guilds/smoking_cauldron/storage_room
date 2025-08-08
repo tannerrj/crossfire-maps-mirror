@@ -9,7 +9,7 @@ enter_x 28
 enter_y 14
 msg
 Created: 2008-10-10 Chad Opperman | cromagic@sbcglobal.net
-Modified: 2023-06-14 Rick Tanner
+Modified: 2025-08-08 Rick Tanner
 endmsg
 end
 arch blocked
@@ -11943,11 +11943,6 @@ arch dungeon_magic
 x 47
 y 22
 end
-arch brazier
-x 47
-y 22
-glow_radius 10
-end
 arch stonefloor2
 x 47
 y 23
@@ -12125,6 +12120,11 @@ end
 arch dungeon_magic
 x 48
 y 22
+end
+arch brazier
+x 48
+y 22
+glow_radius 10
 end
 arch stonefloor2
 x 48
