@@ -8,7 +8,7 @@ height 24
 enter_x 13
 enter_y 19
 msg
-Modified: 2024-08-28 Rick Tanner
+Modified: 2025-08-08 Rick Tanner
 endmsg
 reset_group brest_bank
 end
@@ -1464,6 +1464,9 @@ y 10
 end
 arch sign_w
 name Imperial Bank of Skud
+msg
+Imperial Bank of Skud
+endmsg
 x 10
 y 10
 end
@@ -1480,6 +1483,10 @@ x 10
 y 13
 end
 arch sign_w
+name Meeting Room
+msg
+Meeting Room
+endmsg
 x 10
 y 13
 end
@@ -2209,6 +2216,9 @@ y 10
 end
 arch sign_e
 name Brest Custom Armor
+msg
+Brest Custom Armor
+endmsg
 x 16
 y 10
 end
@@ -2225,6 +2235,10 @@ x 16
 y 13
 end
 arch sign_e
+name Presentation Room
+msg
+Presentation Room
+endmsg
 x 16
 y 13
 end
