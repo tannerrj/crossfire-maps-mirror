@@ -8,7 +8,7 @@ enter_x 12
 enter_y 15
 msg
 Created: 1996-03-02
-Modified: 2023-11-07 Rick Tanner
+Modified: 2025-08-07 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -536,6 +536,7 @@ end
 arch invis_exit
 slaying city
 hp 6
+sp 0
 x 3
 y 15
 end
@@ -2635,6 +2636,7 @@ end
 arch invis_exit
 slaying city
 hp 23
+sp 0
 x 20
 y 15
 end
