@@ -6,6 +6,7 @@ with cfdb.open() as db:
         id INTEGER PRIMARY KEY,
         reporter TEXT,
         date DATE,
+        client TEXT,
         status INT DEFAULT 0,
         map TEXT,
         mapX INT,

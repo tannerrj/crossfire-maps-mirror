@@ -47,20 +47,22 @@ def make_report():
     desc = Crossfire.ScriptParameters()
 
     reporter = pl.Name
+    client = pl.Client
     m = pl.Map.Path
     x = pl.X
     y = pl.Y
     rid = None
     with cfdb.open() as db:
         num = db.execute("""
-            INSERT INTO reports (reporter, date, map, mapX, mapY, info)
-            VALUES (?, unixepoch('now'), ?, ?, ?, ?)
-            RETURNING id;""", (reporter, m, x, y, desc))
+            INSERT INTO reports (reporter, date, client, map, mapX, mapY, info)
+            VALUES (?, unixepoch('now'), ?, ?, ?, ?, ?)
+            RETURNING id;""", (reporter, client, m, x, y, desc))
         rid = num.fetchone()[0]
         pl.Message("Thank you for your report. Your report was assigned an ID of %d. Use 'report list to check the status of your reports." % rid)
 
     details = {
         'PLAYER': reporter,
+        'CLIENT': client,
         'MAP': m,
         'X': x,
         'Y': y,
@@ -69,6 +71,7 @@ def make_report():
 
     report = """
 Reporter:   {PLAYER}
+Client:     {CLIENT}
 Map:        {MAP} ({X}, {Y})
 Report:     {DESC}
 """.format(**details)
