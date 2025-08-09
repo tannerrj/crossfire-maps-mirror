@@ -5,7 +5,7 @@ region wolfsburg
 width 50
 height 50
 msg
-Modified: 2024-07-10 Rick Tanner
+Modified: 2025-08-09 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_128_108
@@ -9017,6 +9017,7 @@ end
 arch cobblestones2
 x 34
 y 2
+move_block all
 end
 arch spikes_moving
 x 34
@@ -9025,6 +9026,7 @@ end
 arch cobblestones2
 x 34
 y 3
+move_block all
 end
 arch spikes_moving
 x 34
@@ -9033,6 +9035,7 @@ end
 arch cobblestones2
 x 34
 y 4
+move_block all
 end
 arch spikes_moving
 x 34
@@ -9565,6 +9568,7 @@ end
 arch cobblestones2
 x 36
 y 3
+move_block all
 end
 arch spikes_moving
 x 36
@@ -9573,6 +9577,7 @@ end
 arch cobblestones2
 x 36
 y 4
+move_block all
 end
 arch spikes_moving
 x 36
