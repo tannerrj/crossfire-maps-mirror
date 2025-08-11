@@ -4,7 +4,7 @@ region portjoseph
 width 50
 height 50
 msg
-Modified: 2025-07-22 Rick Tanner
+Modified: 2025-08-11 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_100_113
@@ -5984,6 +5984,7 @@ end
 arch shallow_sea
 x 24
 y 15
+move_block 0
 end
 arch pier_1_4
 x 24
@@ -6247,6 +6248,7 @@ end
 arch shallow_sea
 x 25
 y 15
+move_block 0
 end
 arch pier_3_3
 x 25
@@ -6255,6 +6257,7 @@ end
 arch shallow_sea
 x 25
 y 16
+move_block 0
 end
 arch pier_2_1_1
 x 25
@@ -6263,6 +6266,7 @@ end
 arch shallow_sea
 x 25
 y 17
+move_block 0
 end
 arch pier_2_1_1
 x 25
@@ -6498,6 +6502,7 @@ end
 arch shallow_sea
 x 26
 y 15
+move_block 0
 end
 arch pier_2_1_2
 x 26
@@ -6770,6 +6775,7 @@ end
 arch shallow_sea
 x 27
 y 15
+move_block 0
 end
 arch pier_1_3
 x 27
