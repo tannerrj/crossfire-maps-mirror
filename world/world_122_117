@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2025-06-30 Rick Tanner
+Modified: 2025-08-11 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_122_116
@@ -2246,6 +2246,9 @@ y 2
 end
 arch sign_w
 name Civic St.
+msg
+Civic St.
+endmsg
 x 6
 y 2
 end
@@ -5076,7 +5079,7 @@ end
 arch sign_w
 name Tavern St.
 msg
-Convivial Times for Scurvy Knaves!
+Tavern St. - Convivial Times for Scurvy Knaves!
 endmsg
 x 14
 end
