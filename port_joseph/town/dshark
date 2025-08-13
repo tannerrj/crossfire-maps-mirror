@@ -8,7 +8,7 @@ enter_x 16
 enter_y 6
 msg
 Created: 1994-05-17 langley (langley@fermat.dartmouth.edu)
-Modified: 2023-12-01 Rick Tanner
+Modified: 2025-08-13 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -154,7 +154,7 @@ arch grass_only
 x 2
 y 2
 end
-arch woodfloor
+arch flagstone
 x 2
 y 3
 end
@@ -162,7 +162,7 @@ arch wwall_2_2_2
 x 2
 y 3
 end
-arch woodfloor
+arch flagstone
 x 2
 y 4
 end
@@ -170,7 +170,7 @@ arch wwall_2_1_1
 x 2
 y 4
 end
-arch woodfloor
+arch flagstone
 x 2
 y 5
 end
@@ -178,7 +178,7 @@ arch wwall_2_1_1
 x 2
 y 5
 end
-arch woodfloor
+arch flagstone
 x 2
 y 6
 end
@@ -186,7 +186,7 @@ arch wwall_2_1_1
 x 2
 y 6
 end
-arch woodfloor
+arch flagstone
 x 2
 y 7
 end
@@ -194,7 +194,7 @@ arch wwall_2_1_1
 x 2
 y 7
 end
-arch woodfloor
+arch flagstone
 x 2
 y 8
 end
@@ -206,7 +206,7 @@ arch light2
 x 2
 y 9
 end
-arch woodfloor
+arch flagstone
 x 2
 y 9
 end
@@ -214,7 +214,7 @@ arch wwall_win1
 x 2
 y 9
 end
-arch woodfloor
+arch flagstone
 x 2
 y 10
 end
@@ -222,7 +222,7 @@ arch wwall_2_1_1
 x 2
 y 10
 end
-arch woodfloor
+arch flagstone
 x 2
 y 11
 end
@@ -230,7 +230,7 @@ arch wwall_2_1_1
 x 2
 y 11
 end
-arch woodfloor
+arch flagstone
 x 2
 y 12
 end
@@ -238,7 +238,7 @@ arch wwall_2_1_1
 x 2
 y 12
 end
-arch woodfloor
+arch flagstone
 x 2
 y 13
 end
@@ -246,7 +246,7 @@ arch wwall_2_1_1
 x 2
 y 13
 end
-arch woodfloor
+arch flagstone
 x 2
 y 14
 end
@@ -254,7 +254,7 @@ arch wwall_2_1_1
 x 2
 y 14
 end
-arch woodfloor
+arch flagstone
 x 2
 y 15
 end
@@ -262,7 +262,7 @@ arch wwall_2_1_1
 x 2
 y 15
 end
-arch woodfloor
+arch flagstone
 x 2
 y 16
 end
@@ -289,7 +289,7 @@ arch grass_only
 x 3
 y 2
 end
-arch woodfloor
+arch flagstone
 x 3
 y 3
 end
@@ -402,7 +402,7 @@ y 15
 level 5
 unaggressive 1
 end
-arch woodfloor
+arch flagstone
 x 3
 y 16
 end
@@ -433,7 +433,7 @@ arch light2
 x 4
 y 3
 end
-arch woodfloor
+arch flagstone
 x 4
 y 3
 end
@@ -522,7 +522,7 @@ arch table_4
 x 4
 y 15
 end
-arch woodfloor
+arch flagstone
 x 4
 y 16
 end
@@ -549,7 +549,7 @@ arch grass_only
 x 5
 y 2
 end
-arch woodfloor
+arch flagstone
 x 5
 y 3
 end
@@ -650,7 +650,7 @@ arch chair_1.2
 x 5
 y 15
 end
-arch woodfloor
+arch flagstone
 x 5
 y 16
 end
@@ -677,7 +677,7 @@ arch grass_only
 x 6
 y 2
 end
-arch woodfloor
+arch flagstone
 x 6
 y 3
 end
@@ -762,7 +762,7 @@ arch light2
 x 6
 y 16
 end
-arch woodfloor
+arch flagstone
 x 6
 y 16
 end
@@ -789,7 +789,7 @@ arch grass_only
 x 7
 y 2
 end
-arch woodfloor
+arch flagstone
 x 7
 y 3
 end
@@ -882,7 +882,7 @@ arch chair_1.1
 x 7
 y 15
 end
-arch woodfloor
+arch flagstone
 x 7
 y 16
 end
@@ -909,7 +909,7 @@ arch grass_only
 x 8
 y 2
 end
-arch woodfloor
+arch flagstone
 x 8
 y 3
 end
@@ -1012,7 +1012,7 @@ arch table_4
 x 8
 y 15
 end
-arch woodfloor
+arch flagstone
 x 8
 y 16
 end
@@ -1039,7 +1039,7 @@ arch grass_only
 x 9
 y 2
 end
-arch woodfloor
+arch flagstone
 x 9
 y 3
 end
@@ -1112,7 +1112,7 @@ arch chair_1.2
 x 9
 y 15
 end
-arch woodfloor
+arch flagstone
 x 9
 y 16
 end
@@ -1143,7 +1143,7 @@ arch light2
 x 10
 y 3
 end
-arch woodfloor
+arch flagstone
 x 10
 y 3
 end
@@ -1211,7 +1211,7 @@ arch woodfloor
 x 10
 y 15
 end
-arch woodfloor
+arch flagstone
 x 10
 y 16
 end
@@ -1238,7 +1238,7 @@ arch grass_only
 x 11
 y 2
 end
-arch woodfloor
+arch flagstone
 x 11
 y 3
 end
@@ -1334,7 +1334,7 @@ arch light2
 x 11
 y 16
 end
-arch woodfloor
+arch flagstone
 x 11
 y 16
 end
@@ -1361,7 +1361,7 @@ arch grass_only
 x 12
 y 2
 end
-arch woodfloor
+arch flagstone
 x 12
 y 3
 end
@@ -1442,7 +1442,7 @@ arch woodfloor
 x 12
 y 15
 end
-arch woodfloor
+arch flagstone
 x 12
 y 16
 end
@@ -1469,7 +1469,7 @@ arch grass_only
 x 13
 y 2
 end
-arch woodfloor
+arch flagstone
 x 13
 y 3
 end
@@ -1564,7 +1564,7 @@ arch woodfloor
 x 13
 y 15
 end
-arch woodfloor
+arch flagstone
 x 13
 y 16
 end
@@ -1598,7 +1598,7 @@ arch grass_only
 x 14
 y 2
 end
-arch woodfloor
+arch flagstone
 x 14
 y 3
 end
@@ -1716,7 +1716,7 @@ x 14
 y 16
 connected 1
 end
-arch woodfloor
+arch flagstone
 x 14
 y 16
 end
@@ -1751,7 +1751,7 @@ arch grass_only
 x 15
 y 2
 end
-arch woodfloor
+arch flagstone
 x 15
 y 3
 end
@@ -1845,7 +1845,7 @@ arch woodfloor
 x 15
 y 15
 end
-arch woodfloor
+arch flagstone
 x 15
 y 16
 end
@@ -1879,7 +1879,7 @@ arch grass_only
 x 16
 y 2
 end
-arch woodfloor
+arch flagstone
 x 16
 y 3
 end
@@ -1954,7 +1954,7 @@ arch woodfloor
 x 16
 y 15
 end
-arch woodfloor
+arch flagstone
 x 16
 y 16
 end
@@ -1981,7 +1981,7 @@ arch grass_only
 x 17
 y 2
 end
-arch woodfloor
+arch flagstone
 x 17
 y 3
 end
@@ -2084,7 +2084,7 @@ arch npc_dialog
 name /port_joseph/town/dshark_thief.msg
 end
 end
-arch woodfloor
+arch flagstone
 x 17
 y 16
 end
@@ -2111,7 +2111,7 @@ arch grass_only
 x 18
 y 2
 end
-arch woodfloor
+arch flagstone
 x 18
 y 3
 end
@@ -2231,7 +2231,7 @@ arch table_4
 x 18
 y 15
 end
-arch woodfloor
+arch flagstone
 x 18
 y 16
 end
@@ -2258,7 +2258,7 @@ arch grass_only
 x 19
 y 2
 end
-arch woodfloor
+arch flagstone
 x 19
 y 3
 end
@@ -2361,7 +2361,7 @@ x 19
 y 15
 unaggressive 1
 end
-arch woodfloor
+arch flagstone
 x 19
 y 16
 end
@@ -2388,7 +2388,7 @@ arch grass_only
 x 20
 y 2
 end
-arch woodfloor
+arch flagstone
 x 20
 y 3
 end
@@ -2396,7 +2396,7 @@ arch wwall_2_2_3
 x 20
 y 3
 end
-arch woodfloor
+arch flagstone
 x 20
 y 4
 end
@@ -2404,7 +2404,7 @@ arch wwall_2_1_1
 x 20
 y 4
 end
-arch woodfloor
+arch flagstone
 x 20
 y 5
 end
@@ -2412,7 +2412,7 @@ arch wwall_2_1_1
 x 20
 y 5
 end
-arch woodfloor
+arch flagstone
 x 20
 y 6
 end
@@ -2420,7 +2420,7 @@ arch wwall_2_1_1
 x 20
 y 6
 end
-arch woodfloor
+arch flagstone
 x 20
 y 7
 end
@@ -2428,7 +2428,7 @@ arch wwall_2_1_1
 x 20
 y 7
 end
-arch woodfloor
+arch flagstone
 x 20
 y 8
 end
@@ -2436,7 +2436,7 @@ arch wwall_2_1_1
 x 20
 y 8
 end
-arch woodfloor
+arch flagstone
 x 20
 y 9
 end
@@ -2444,7 +2444,7 @@ arch wwall_2_1_1
 x 20
 y 9
 end
-arch woodfloor
+arch flagstone
 x 20
 y 10
 end
@@ -2452,7 +2452,7 @@ arch wwall_2_1_1
 x 20
 y 10
 end
-arch woodfloor
+arch flagstone
 x 20
 y 11
 end
@@ -2460,7 +2460,7 @@ arch wwall_3_4
 x 20
 y 11
 end
-arch woodfloor
+arch flagstone
 x 20
 y 12
 end
@@ -2468,7 +2468,7 @@ arch wwall_2_1_1
 x 20
 y 12
 end
-arch woodfloor
+arch flagstone
 x 20
 y 13
 end
@@ -2476,7 +2476,7 @@ arch wwall_2_1_1
 x 20
 y 13
 end
-arch woodfloor
+arch flagstone
 x 20
 y 14
 end
@@ -2484,7 +2484,7 @@ arch wwall_2_1_1
 x 20
 y 14
 end
-arch woodfloor
+arch flagstone
 x 20
 y 15
 end
@@ -2492,7 +2492,7 @@ arch wwall_2_1_1
 x 20
 y 15
 end
-arch woodfloor
+arch flagstone
 x 20
 y 16
 end
