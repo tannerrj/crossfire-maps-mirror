@@ -8,7 +8,7 @@ enter_x 47
 enter_y 48
 msg
 Created:  1993-11-18
-Modified: 2011-10-01 Rick Tanner
+Modified: 2025-08-14 Rick Tanner
 endmsg
 end
 arch grass
@@ -573,7 +573,7 @@ arch grass
 x 3
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 4
 end
@@ -581,7 +581,7 @@ arch cwall_2_2_2
 x 3
 y 4
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 5
 end
@@ -589,7 +589,7 @@ arch cwall_2_1_1
 x 3
 y 5
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 6
 end
@@ -597,7 +597,7 @@ arch cwall_2_1_1
 x 3
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 7
 end
@@ -605,7 +605,7 @@ arch cwall_2_1_1
 x 3
 y 7
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 8
 end
@@ -613,7 +613,7 @@ arch cwall_2_1_1
 x 3
 y 8
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 9
 end
@@ -621,7 +621,7 @@ arch cwall_2_1_1
 x 3
 y 9
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 10
 end
@@ -629,7 +629,7 @@ arch cwall_2_1_1
 x 3
 y 10
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 11
 end
@@ -637,7 +637,7 @@ arch cwall_2_1_1
 x 3
 y 11
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 12
 end
@@ -645,7 +645,7 @@ arch cwall_2_1_1
 x 3
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 13
 end
@@ -741,7 +741,7 @@ arch grass
 x 3
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 36
 end
@@ -749,7 +749,7 @@ arch cwall_2_2_2
 x 3
 y 36
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 37
 end
@@ -757,7 +757,7 @@ arch cwall_2_1_1
 x 3
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 38
 end
@@ -765,7 +765,7 @@ arch cwall_2_1_1
 x 3
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 39
 end
@@ -773,7 +773,7 @@ arch cwall_2_1_1
 x 3
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 40
 end
@@ -781,7 +781,7 @@ arch cwall_2_1_1
 x 3
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 41
 end
@@ -789,7 +789,7 @@ arch cwall_2_1_1
 x 3
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 42
 end
@@ -797,7 +797,7 @@ arch cwall_2_1_1
 x 3
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 43
 end
@@ -805,7 +805,7 @@ arch cwall_2_1_1
 x 3
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 44
 end
@@ -813,7 +813,7 @@ arch cwall_2_1_1
 x 3
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 3
 y 45
 end
@@ -852,7 +852,7 @@ arch grass
 x 4
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 4
 y 4
 end
@@ -916,7 +916,7 @@ arch generate_goblin
 x 4
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 4
 y 13
 end
@@ -1012,7 +1012,7 @@ arch grass
 x 4
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 4
 y 36
 end
@@ -1076,7 +1076,7 @@ arch generate_bat
 x 4
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 4
 y 45
 end
@@ -1115,7 +1115,7 @@ arch grass
 x 5
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 5
 y 4
 end
@@ -1187,7 +1187,7 @@ arch goblin
 x 5
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 5
 y 13
 end
@@ -1283,7 +1283,7 @@ arch grass
 x 5
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 5
 y 36
 end
@@ -1355,7 +1355,7 @@ arch bat
 x 5
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 5
 y 45
 end
@@ -1394,7 +1394,7 @@ arch grass
 x 6
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 4
 end
@@ -1469,7 +1469,7 @@ arch goblin
 x 6
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 13
 end
@@ -1509,7 +1509,7 @@ arch cwall_2_1_1
 x 6
 y 17
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 18
 end
@@ -1517,7 +1517,7 @@ arch cwall_2_1_1
 x 6
 y 18
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 19
 end
@@ -1525,7 +1525,7 @@ arch cwall_2_1_1
 x 6
 y 19
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 20
 end
@@ -1533,7 +1533,7 @@ arch cwall_2_1_1
 x 6
 y 20
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 21
 end
@@ -1541,7 +1541,7 @@ arch cwall_2_1_1
 x 6
 y 21
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 22
 end
@@ -1549,7 +1549,7 @@ arch cwall_2_1_1
 x 6
 y 22
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 23
 end
@@ -1557,7 +1557,7 @@ arch cwall_2_1_1
 x 6
 y 23
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 24
 end
@@ -1565,7 +1565,7 @@ arch cwall_2_1_1
 x 6
 y 24
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 25
 end
@@ -1573,7 +1573,7 @@ arch cwall_2_1_1
 x 6
 y 25
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 26
 end
@@ -1581,7 +1581,7 @@ arch cwall_2_1_1
 x 6
 y 26
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 27
 end
@@ -1589,7 +1589,7 @@ arch cwall_2_1_1
 x 6
 y 27
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 28
 end
@@ -1597,7 +1597,7 @@ arch cwall_2_1_1
 x 6
 y 28
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 29
 end
@@ -1605,7 +1605,7 @@ arch cwall_2_1_1
 x 6
 y 29
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 30
 end
@@ -1613,7 +1613,7 @@ arch cwall_2_1_1
 x 6
 y 30
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 31
 end
@@ -1621,7 +1621,7 @@ arch cwall_2_1_1
 x 6
 y 31
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 32
 end
@@ -1629,7 +1629,7 @@ arch cwall_2_1_1
 x 6
 y 32
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 33
 end
@@ -1637,7 +1637,7 @@ arch cwall_2_1_1
 x 6
 y 33
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 34
 end
@@ -1645,7 +1645,7 @@ arch cwall_2_1_1
 x 6
 y 34
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 35
 end
@@ -1653,7 +1653,7 @@ arch cwall_2_1_1
 x 6
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 36
 end
@@ -1728,7 +1728,7 @@ arch bat
 x 6
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 6
 y 45
 end
@@ -1767,7 +1767,7 @@ arch grass
 x 7
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 7
 y 4
 end
@@ -1839,7 +1839,7 @@ arch goblin
 x 7
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 7
 y 13
 end
@@ -1959,7 +1959,7 @@ arch random_food
 x 7
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 7
 y 36
 end
@@ -2031,7 +2031,7 @@ arch bat
 x 7
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 7
 y 45
 end
@@ -2070,7 +2070,7 @@ arch grass
 x 8
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 8
 y 4
 end
@@ -2142,7 +2142,7 @@ arch goblin
 x 8
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 8
 y 13
 end
@@ -2238,7 +2238,7 @@ arch dungeon_floor
 x 8
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 8
 y 36
 end
@@ -2310,7 +2310,7 @@ arch bat
 x 8
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 8
 y 45
 end
@@ -2349,7 +2349,7 @@ arch grass
 x 9
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 9
 y 4
 end
@@ -2421,7 +2421,7 @@ arch generate_goblin
 x 9
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 9
 y 13
 end
@@ -2517,7 +2517,7 @@ arch dungeon_floor
 x 9
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 9
 y 36
 end
@@ -2589,7 +2589,7 @@ arch bat
 x 9
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 9
 y 45
 end
@@ -2628,7 +2628,7 @@ arch grass
 x 10
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 4
 end
@@ -2636,7 +2636,7 @@ arch cwall_2_2_3
 x 10
 y 4
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 5
 end
@@ -2644,7 +2644,7 @@ arch cwall_2_1_1
 x 10
 y 5
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 6
 end
@@ -2652,7 +2652,7 @@ arch cwall_2_1_1
 x 10
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 7
 end
@@ -2660,7 +2660,7 @@ arch cwall_3_2
 x 10
 y 7
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 8
 end
@@ -2668,7 +2668,7 @@ arch cwall_2_1_1
 x 10
 y 8
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 9
 end
@@ -2676,7 +2676,7 @@ arch cwall_1_2
 x 10
 y 9
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 10
 end
@@ -2684,7 +2684,7 @@ arch door_look_2
 x 10
 y 10
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 11
 end
@@ -2692,7 +2692,7 @@ arch cwall_1_1
 x 10
 y 11
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 12
 end
@@ -2700,7 +2700,7 @@ arch cwall_2_1_1
 x 10
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 13
 end
@@ -2796,7 +2796,7 @@ arch dungeon_floor
 x 10
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 36
 end
@@ -2804,7 +2804,7 @@ arch cwall_2_2_3
 x 10
 y 36
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 37
 end
@@ -2812,7 +2812,7 @@ arch cwall_2_1_1
 x 10
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 38
 end
@@ -2820,7 +2820,7 @@ arch cwall_1_2
 x 10
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 39
 end
@@ -2828,7 +2828,7 @@ arch door_look_2
 x 10
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 40
 end
@@ -2836,7 +2836,7 @@ arch cwall_1_1
 x 10
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 41
 end
@@ -2844,7 +2844,7 @@ arch cwall_2_1_1
 x 10
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 42
 end
@@ -2852,7 +2852,7 @@ arch cwall_3_2
 x 10
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 43
 end
@@ -2860,7 +2860,7 @@ arch cwall_2_1_1
 x 10
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 44
 end
@@ -2868,7 +2868,7 @@ arch cwall_2_1_1
 x 10
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 10
 y 45
 end
@@ -2919,7 +2919,7 @@ arch grass
 x 11
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 11
 y 7
 end
@@ -3063,7 +3063,7 @@ arch dungeon_floor
 x 11
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 11
 y 42
 end
@@ -3126,7 +3126,7 @@ arch grass
 x 12
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 12
 y 7
 end
@@ -3270,7 +3270,7 @@ arch dungeon_floor
 x 12
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 12
 y 42
 end
@@ -3333,7 +3333,7 @@ arch grass
 x 13
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 13
 y 7
 end
@@ -3477,7 +3477,7 @@ arch dungeon_floor
 x 13
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 13
 y 42
 end
@@ -3540,7 +3540,7 @@ arch grass
 x 14
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 14
 y 7
 end
@@ -3684,7 +3684,7 @@ arch dungeon_floor
 x 14
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 14
 y 42
 end
@@ -3747,7 +3747,7 @@ arch grass
 x 15
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 15
 y 7
 end
@@ -3895,7 +3895,7 @@ arch dungeon_floor
 x 15
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 15
 y 42
 end
@@ -3958,7 +3958,7 @@ arch grass
 x 16
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 16
 y 7
 end
@@ -4086,7 +4086,7 @@ arch dungeon_floor
 x 16
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 16
 y 38
 end
@@ -4114,7 +4114,7 @@ arch random_shield
 x 16
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 16
 y 42
 end
@@ -4177,7 +4177,7 @@ arch grass
 x 17
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 17
 y 7
 end
@@ -4312,7 +4312,7 @@ arch dungeon_floor
 x 17
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 17
 y 38
 end
@@ -4340,7 +4340,7 @@ arch random_shield
 x 17
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 17
 y 42
 end
@@ -4403,7 +4403,7 @@ arch grass
 x 18
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 18
 y 7
 end
@@ -4531,7 +4531,7 @@ arch dungeon_floor
 x 18
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 18
 y 38
 end
@@ -4556,7 +4556,7 @@ x 18
 y 41
 connected 2
 end
-arch dungeon_floor
+arch stonefloor2
 x 18
 y 42
 end
@@ -4619,7 +4619,7 @@ arch grass
 x 19
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 19
 y 7
 end
@@ -4747,7 +4747,7 @@ arch dungeon_floor
 x 19
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 19
 y 38
 end
@@ -4772,7 +4772,7 @@ x 19
 y 41
 connected 1
 end
-arch dungeon_floor
+arch stonefloor2
 x 19
 y 42
 end
@@ -4835,7 +4835,7 @@ arch grass
 x 20
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 7
 end
@@ -4967,7 +4967,7 @@ arch guard
 x 20
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 38
 end
@@ -4975,7 +4975,7 @@ arch cwall_2_2_3
 x 20
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 39
 end
@@ -4983,7 +4983,7 @@ arch cwall_2_1_1
 x 20
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 40
 end
@@ -4991,7 +4991,7 @@ arch cwall_2_1_1
 x 20
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 41
 end
@@ -4999,7 +4999,7 @@ arch cwall_2_1_1
 x 20
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 20
 y 42
 end
@@ -5066,7 +5066,7 @@ arch grass
 x 21
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 21
 y 7
 end
@@ -5302,7 +5302,7 @@ arch grass
 x 22
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 22
 y 7
 end
@@ -5551,7 +5551,7 @@ arch grass
 x 23
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 23
 y 7
 end
@@ -5780,7 +5780,7 @@ arch grass
 x 24
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 7
 end
@@ -5920,7 +5920,7 @@ arch guard
 x 24
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 38
 end
@@ -5928,7 +5928,7 @@ arch cwall_2_2_2
 x 24
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 39
 end
@@ -5936,7 +5936,7 @@ arch cwall_2_1_1
 x 24
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 40
 end
@@ -5944,7 +5944,7 @@ arch cwall_2_1_1
 x 24
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 41
 end
@@ -5952,7 +5952,7 @@ arch cwall_2_1_1
 x 24
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 24
 y 42
 end
@@ -6024,7 +6024,7 @@ arch grass
 x 25
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 25
 y 7
 end
@@ -6174,7 +6174,7 @@ arch dungeon_floor
 x 25
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 25
 y 38
 end
@@ -6199,7 +6199,7 @@ x 25
 y 41
 connected 1
 end
-arch dungeon_floor
+arch stonefloor2
 x 25
 y 42
 end
@@ -6262,7 +6262,7 @@ arch grass
 x 26
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 26
 y 7
 end
@@ -6398,7 +6398,7 @@ arch dungeon_floor
 x 26
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 26
 y 38
 end
@@ -6423,7 +6423,7 @@ x 26
 y 41
 connected 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 26
 y 42
 end
@@ -6486,7 +6486,7 @@ arch grass
 x 27
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 27
 y 7
 end
@@ -6614,7 +6614,7 @@ arch dungeon_floor
 x 27
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 27
 y 38
 end
@@ -6642,7 +6642,7 @@ arch random_shield
 x 27
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 27
 y 42
 end
@@ -6705,7 +6705,7 @@ arch grass
 x 28
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 28
 y 7
 end
@@ -6853,7 +6853,7 @@ arch dungeon_floor
 x 28
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 28
 y 38
 end
@@ -6881,7 +6881,7 @@ arch random_shield
 x 28
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 28
 y 42
 end
@@ -6944,7 +6944,7 @@ arch grass
 x 29
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 29
 y 7
 end
@@ -7092,7 +7092,7 @@ arch dungeon_floor
 x 29
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 29
 y 42
 end
@@ -7155,7 +7155,7 @@ arch grass
 x 30
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 30
 y 7
 end
@@ -7299,7 +7299,7 @@ arch dungeon_floor
 x 30
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 30
 y 42
 end
@@ -7362,7 +7362,7 @@ arch grass
 x 31
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 31
 y 7
 end
@@ -7506,7 +7506,7 @@ arch dungeon_floor
 x 31
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 31
 y 42
 end
@@ -7569,7 +7569,7 @@ arch grass
 x 32
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 32
 y 7
 end
@@ -7713,7 +7713,7 @@ arch dungeon_floor
 x 32
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 32
 y 42
 end
@@ -7776,7 +7776,7 @@ arch grass
 x 33
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 33
 y 7
 end
@@ -7920,7 +7920,7 @@ arch dungeon_floor
 x 33
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 33
 y 42
 end
@@ -7983,7 +7983,7 @@ arch grass
 x 34
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 34
 y 7
 end
@@ -8127,7 +8127,7 @@ arch dungeon_floor
 x 34
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 34
 y 42
 end
@@ -8190,7 +8190,7 @@ arch grass
 x 35
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 7
 end
@@ -8334,7 +8334,7 @@ arch dungeon_floor
 x 35
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 42
 end
@@ -8397,7 +8397,7 @@ arch grass
 x 36
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 7
 end
@@ -8541,7 +8541,7 @@ arch dungeon_floor
 x 36
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 42
 end
@@ -8592,7 +8592,7 @@ arch grass
 x 37
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 4
 end
@@ -8600,7 +8600,7 @@ arch cwall_2_2_2
 x 37
 y 4
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 5
 end
@@ -8608,7 +8608,7 @@ arch cwall_2_1_1
 x 37
 y 5
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 6
 end
@@ -8616,7 +8616,7 @@ arch cwall_2_1_1
 x 37
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 7
 end
@@ -8624,7 +8624,7 @@ arch cwall_3_4
 x 37
 y 7
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 8
 end
@@ -8632,7 +8632,7 @@ arch cwall_2_1_1
 x 37
 y 8
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 9
 end
@@ -8640,7 +8640,7 @@ arch cwall_1_2
 x 37
 y 9
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 10
 end
@@ -8648,7 +8648,7 @@ arch door_look_2
 x 37
 y 10
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 11
 end
@@ -8656,7 +8656,7 @@ arch cwall_1_1
 x 37
 y 11
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 12
 end
@@ -8664,7 +8664,7 @@ arch cwall_2_1_1
 x 37
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 13
 end
@@ -8760,7 +8760,7 @@ arch dungeon_floor
 x 37
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 36
 end
@@ -8768,7 +8768,7 @@ arch cwall_2_2_2
 x 37
 y 36
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 37
 end
@@ -8776,7 +8776,7 @@ arch cwall_2_1_1
 x 37
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 38
 end
@@ -8784,7 +8784,7 @@ arch cwall_1_2
 x 37
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 39
 end
@@ -8792,7 +8792,7 @@ arch door_look_2
 x 37
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 40
 end
@@ -8800,7 +8800,7 @@ arch cwall_1_1
 x 37
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 41
 end
@@ -8808,7 +8808,7 @@ arch cwall_2_1_1
 x 37
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 42
 end
@@ -8816,7 +8816,7 @@ arch cwall_3_4
 x 37
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 43
 end
@@ -8824,7 +8824,7 @@ arch cwall_2_1_1
 x 37
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 44
 end
@@ -8832,7 +8832,7 @@ arch cwall_2_1_1
 x 37
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 45
 end
@@ -8871,7 +8871,7 @@ arch grass
 x 38
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 4
 end
@@ -8943,7 +8943,7 @@ arch bee
 x 38
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 13
 end
@@ -9039,7 +9039,7 @@ arch dungeon_floor
 x 38
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 36
 end
@@ -9111,7 +9111,7 @@ arch bird
 x 38
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 45
 end
@@ -9150,7 +9150,7 @@ arch grass
 x 39
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 39
 y 4
 end
@@ -9222,7 +9222,7 @@ arch bee
 x 39
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 39
 y 13
 end
@@ -9318,7 +9318,7 @@ arch dungeon_floor
 x 39
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 39
 y 36
 end
@@ -9390,7 +9390,7 @@ arch bird
 x 39
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 39
 y 45
 end
@@ -9429,7 +9429,7 @@ arch grass
 x 40
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 40
 y 4
 end
@@ -9504,7 +9504,7 @@ arch bee
 x 40
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 40
 y 13
 end
@@ -9640,7 +9640,7 @@ arch random_food
 x 40
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 40
 y 36
 end
@@ -9715,7 +9715,7 @@ arch bird
 x 40
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 40
 y 45
 end
@@ -9754,7 +9754,7 @@ arch grass
 x 41
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 4
 end
@@ -9826,7 +9826,7 @@ arch bee
 x 41
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 13
 end
@@ -9834,7 +9834,7 @@ arch cwall_3_3
 x 41
 y 13
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 14
 end
@@ -9842,7 +9842,7 @@ arch cwall_2_1_1
 x 41
 y 14
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 15
 end
@@ -9850,7 +9850,7 @@ arch cwall_2_1_1
 x 41
 y 15
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 16
 end
@@ -9858,7 +9858,7 @@ arch cwall_2_1_1
 x 41
 y 16
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 17
 end
@@ -9866,7 +9866,7 @@ arch cwall_2_1_1
 x 41
 y 17
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 18
 end
@@ -9874,7 +9874,7 @@ arch cwall_2_1_1
 x 41
 y 18
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 19
 end
@@ -9882,7 +9882,7 @@ arch cwall_2_1_1
 x 41
 y 19
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 20
 end
@@ -9890,7 +9890,7 @@ arch cwall_2_1_1
 x 41
 y 20
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 21
 end
@@ -9898,7 +9898,7 @@ arch cwall_2_1_1
 x 41
 y 21
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 22
 end
@@ -9906,7 +9906,7 @@ arch cwall_2_1_1
 x 41
 y 22
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 23
 end
@@ -9914,7 +9914,7 @@ arch cwall_2_1_1
 x 41
 y 23
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 24
 end
@@ -9922,7 +9922,7 @@ arch cwall_2_1_1
 x 41
 y 24
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 25
 end
@@ -9930,7 +9930,7 @@ arch cwall_2_1_1
 x 41
 y 25
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 26
 end
@@ -9938,7 +9938,7 @@ arch cwall_2_1_1
 x 41
 y 26
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 27
 end
@@ -9946,7 +9946,7 @@ arch cwall_2_1_1
 x 41
 y 27
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 28
 end
@@ -9954,7 +9954,7 @@ arch cwall_2_1_1
 x 41
 y 28
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 29
 end
@@ -9962,7 +9962,7 @@ arch cwall_2_1_1
 x 41
 y 29
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 30
 end
@@ -9970,7 +9970,7 @@ arch cwall_2_1_1
 x 41
 y 30
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 31
 end
@@ -9978,7 +9978,7 @@ arch cwall_2_1_1
 x 41
 y 31
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 32
 end
@@ -9986,7 +9986,7 @@ arch cwall_2_1_1
 x 41
 y 32
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 33
 end
@@ -9994,7 +9994,7 @@ arch cwall_2_1_1
 x 41
 y 33
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 34
 end
@@ -10002,7 +10002,7 @@ arch cwall_2_1_1
 x 41
 y 34
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 35
 end
@@ -10010,7 +10010,7 @@ arch cwall_2_1_1
 x 41
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 36
 end
@@ -10082,7 +10082,7 @@ arch bird
 x 41
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 41
 y 45
 end
@@ -10121,7 +10121,7 @@ arch grass
 x 42
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 42
 y 4
 end
@@ -10193,7 +10193,7 @@ arch bee
 x 42
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 42
 y 13
 end
@@ -10323,7 +10323,7 @@ arch grass
 x 42
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 42
 y 36
 end
@@ -10395,7 +10395,7 @@ arch bird
 x 42
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 42
 y 45
 end
@@ -10434,7 +10434,7 @@ arch grass
 x 43
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 43
 y 4
 end
@@ -10498,7 +10498,7 @@ arch generate_bee
 x 43
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 43
 y 13
 end
@@ -10594,7 +10594,7 @@ arch grass
 x 43
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 43
 y 36
 end
@@ -10658,7 +10658,7 @@ arch generate_bird
 x 43
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 43
 y 45
 end
@@ -10697,7 +10697,7 @@ arch grass
 x 44
 y 3
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 4
 end
@@ -10705,7 +10705,7 @@ arch cwall_2_2_3
 x 44
 y 4
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 5
 end
@@ -10713,7 +10713,7 @@ arch cwall_2_1_1
 x 44
 y 5
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 6
 end
@@ -10721,7 +10721,7 @@ arch cwall_2_1_1
 x 44
 y 6
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 7
 end
@@ -10729,7 +10729,7 @@ arch cwall_2_1_1
 x 44
 y 7
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 8
 end
@@ -10737,7 +10737,7 @@ arch cwall_2_1_1
 x 44
 y 8
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 9
 end
@@ -10745,7 +10745,7 @@ arch cwall_2_1_1
 x 44
 y 9
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 10
 end
@@ -10753,7 +10753,7 @@ arch cwall_2_1_1
 x 44
 y 10
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 11
 end
@@ -10761,7 +10761,7 @@ arch cwall_2_1_1
 x 44
 y 11
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 12
 end
@@ -10769,7 +10769,7 @@ arch cwall_2_1_1
 x 44
 y 12
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 13
 end
@@ -10890,7 +10890,7 @@ arch grass
 x 44
 y 35
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 36
 end
@@ -10898,7 +10898,7 @@ arch cwall_2_2_3
 x 44
 y 36
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 37
 end
@@ -10906,7 +10906,7 @@ arch cwall_2_1_1
 x 44
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 38
 end
@@ -10914,7 +10914,7 @@ arch cwall_2_1_1
 x 44
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 39
 end
@@ -10922,7 +10922,7 @@ arch cwall_2_1_1
 x 44
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 40
 end
@@ -10930,7 +10930,7 @@ arch cwall_2_1_1
 x 44
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 41
 end
@@ -10938,7 +10938,7 @@ arch cwall_2_1_1
 x 44
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 42
 end
@@ -10946,7 +10946,7 @@ arch cwall_2_1_1
 x 44
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 43
 end
@@ -10954,7 +10954,7 @@ arch cwall_2_1_1
 x 44
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 44
 end
@@ -10962,7 +10962,7 @@ arch cwall_2_1_1
 x 44
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 44
 y 45
 end
