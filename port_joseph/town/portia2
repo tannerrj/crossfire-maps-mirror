@@ -8,7 +8,7 @@ enter_x 13
 enter_y 5
 msg
 Created: 1994-05-26 langley
-Modified: 2023-11-25 Rick Tanner
+Modified: 2025-08-19 Rick Tanner
 endmsg
 reset_group portjoseph_portias-house
 end
@@ -2135,6 +2135,8 @@ y 3
 carrying 2300
 unaggressive 1
 arch wand
+food 12
+level 6
 randomitems none
 arch spell_magic_bullet
 end
