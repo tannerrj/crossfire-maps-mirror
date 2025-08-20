@@ -8,7 +8,7 @@ enter_x 8
 enter_y 4
 msg
 Created:  2007-05-23 ryo
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2025-08-20 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -119,7 +119,7 @@ arch pstone_1
 x 2
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 2
 end
@@ -127,7 +127,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 3
 end
@@ -135,7 +135,7 @@ arch wall_2_1_1
 x 2
 y 3
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 4
 end
@@ -143,7 +143,7 @@ arch wall_2_1_1
 x 2
 y 4
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 5
 end
@@ -151,7 +151,7 @@ arch wall_2_1_1
 x 2
 y 5
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 6
 end
@@ -159,7 +159,7 @@ arch wall_2_1_1
 x 2
 y 6
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 7
 end
@@ -178,11 +178,11 @@ sp 32
 x 2
 y 8
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 8
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 9
 end
@@ -190,7 +190,7 @@ arch wall_1_1_ruin
 x 2
 y 9
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 10
 end
@@ -198,7 +198,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 2
 y 11
 end
@@ -221,7 +221,7 @@ arch pstone_1
 x 3
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 3
 y 2
 end
@@ -272,7 +272,7 @@ arch beigemarble
 x 3
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 3
 y 11
 end
@@ -295,7 +295,7 @@ arch pstone_1
 x 4
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 4
 y 2
 end
@@ -339,7 +339,7 @@ arch beigemarble
 x 4
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 4
 y 11
 end
@@ -362,7 +362,7 @@ arch pstone_1
 x 5
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 5
 y 2
 end
@@ -413,7 +413,7 @@ sp 32
 x 5
 y 11
 end
-arch beigemarble
+arch stonefloor2
 x 5
 y 11
 end
@@ -479,7 +479,7 @@ arch beigemarble
 x 6
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 6
 y 11
 end
@@ -502,7 +502,7 @@ arch pstone_1
 x 7
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 7
 y 2
 end
@@ -542,7 +542,7 @@ arch beigemarble
 x 7
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 7
 y 11
 end
@@ -565,7 +565,7 @@ arch pstone_1
 x 8
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 8
 y 2
 end
@@ -620,7 +620,7 @@ sp 32
 x 8
 y 11
 end
-arch beigemarble
+arch stonefloor2
 x 8
 y 11
 end
@@ -643,7 +643,7 @@ arch pstone_1
 x 9
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 9
 y 2
 end
@@ -683,7 +683,7 @@ arch beigemarble
 x 9
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 9
 y 11
 end
@@ -717,7 +717,7 @@ sp 32
 x 10
 y 2
 end
-arch beigemarble
+arch stonefloor2
 x 10
 y 2
 end
@@ -757,7 +757,7 @@ arch beigemarble
 x 10
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 10
 y 11
 end
@@ -780,7 +780,7 @@ arch pstone_1
 x 11
 y 1
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 2
 end
@@ -788,7 +788,7 @@ arch wall_1_1_ruin
 x 11
 y 2
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 3
 end
@@ -796,7 +796,7 @@ arch wall_2_1_1
 x 11
 y 3
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 4
 end
@@ -804,7 +804,7 @@ arch wall_2_1_1
 x 11
 y 4
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 5
 end
@@ -823,7 +823,7 @@ sp 32
 x 11
 y 6
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 6
 end
@@ -838,11 +838,11 @@ sp 32
 x 11
 y 7
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 7
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 8
 end
@@ -850,7 +850,7 @@ arch wall_1_1_ruin
 x 11
 y 8
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 9
 end
@@ -858,7 +858,7 @@ arch wall_2_1_1
 x 11
 y 9
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 10
 end
@@ -866,7 +866,7 @@ arch wall_2_1_1
 x 11
 y 10
 end
-arch beigemarble
+arch stonefloor2
 x 11
 y 11
 end
