@@ -8,7 +8,7 @@ enter_x 17
 enter_y 17
 msg
 Created: 2003-07-21
-Modified: 2023-06-06 Rick Tanner
+Modified: 2025-08-21 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -653,7 +653,7 @@ arch pstone_1
 x 5
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 9
 end
@@ -661,7 +661,7 @@ arch wall_2_2_2
 x 5
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 10
 end
@@ -669,7 +669,7 @@ arch wall_1_2
 x 5
 y 10
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 11
 end
@@ -678,7 +678,7 @@ x 5
 y 11
 move_block 0
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 12
 end
@@ -686,7 +686,7 @@ arch wall_1_1
 x 5
 y 12
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 13
 end
@@ -698,7 +698,7 @@ arch light2
 x 5
 y 14
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 14
 end
@@ -706,7 +706,7 @@ arch window_win1
 x 5
 y 14
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 15
 end
@@ -714,7 +714,7 @@ arch wall_2_1_1
 x 5
 y 15
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 16
 end
@@ -726,7 +726,7 @@ arch light2
 x 5
 y 17
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 17
 end
@@ -734,7 +734,7 @@ arch window_win1
 x 5
 y 17
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 18
 end
@@ -742,7 +742,7 @@ arch wall_2_1_1
 x 5
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 5
 y 19
 end
@@ -807,7 +807,7 @@ arch pstone_1
 x 6
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 6
 y 9
 end
@@ -867,7 +867,7 @@ arch barrel
 x 6
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 6
 y 19
 end
@@ -929,7 +929,7 @@ arch light2
 x 7
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 7
 y 9
 end
@@ -993,7 +993,7 @@ arch barrel
 x 7
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 7
 y 19
 end
@@ -1055,7 +1055,7 @@ arch light2
 x 8
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 8
 y 9
 end
@@ -1104,7 +1104,7 @@ arch woodfloor2
 x 8
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 8
 y 19
 end
@@ -1162,7 +1162,7 @@ arch pstone_1
 x 9
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 9
 y 9
 end
@@ -1218,7 +1218,7 @@ arch woodfloor2
 x 9
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 9
 y 19
 end
@@ -1276,7 +1276,7 @@ arch beach
 x 10
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 10
 y 9
 end
@@ -1357,7 +1357,7 @@ arch wall_1_1
 x 10
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 10
 y 19
 end
@@ -1422,7 +1422,7 @@ arch beach
 x 11
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 11
 y 9
 end
@@ -1485,7 +1485,7 @@ arch woodfloor2
 x 11
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 11
 y 19
 end
@@ -1554,7 +1554,7 @@ arch light2
 x 12
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 12
 y 9
 end
@@ -1614,7 +1614,7 @@ arch woodfloor2
 x 12
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 12
 y 19
 end
@@ -1683,7 +1683,7 @@ arch light2
 x 13
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 13
 y 9
 end
@@ -1727,7 +1727,7 @@ arch woodfloor2
 x 13
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 13
 y 19
 end
@@ -1796,7 +1796,7 @@ arch light2
 x 14
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 14
 y 9
 end
@@ -1849,7 +1849,7 @@ arch woodfloor2
 x 14
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 14
 y 19
 end
@@ -1914,7 +1914,7 @@ arch pstone_1
 x 15
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 15
 y 9
 end
@@ -1966,7 +1966,7 @@ arch woodfloor2
 x 15
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 15
 y 19
 end
@@ -2033,7 +2033,7 @@ arch pstone_1
 x 16
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 16
 y 9
 end
@@ -2106,7 +2106,7 @@ arch woodfloor2
 x 16
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 16
 y 19
 end
@@ -2176,7 +2176,7 @@ arch pstone_1
 x 17
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 17
 y 9
 end
@@ -2248,7 +2248,7 @@ x 17
 y 19
 connected 1
 end
-arch woodfloor2
+arch stonefloor2
 x 17
 y 19
 end
@@ -2316,7 +2316,7 @@ arch light2
 x 18
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 18
 y 9
 end
@@ -2377,7 +2377,7 @@ arch light4
 x 18
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 18
 y 19
 end
@@ -2440,7 +2440,7 @@ arch pstone_1
 x 19
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 19
 y 9
 end
@@ -2500,7 +2500,7 @@ arch table_4
 x 19
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 19
 y 19
 end
@@ -2553,7 +2553,7 @@ arch pstone_1
 x 20
 y 8
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 9
 end
@@ -2561,7 +2561,7 @@ arch wall_2_2_3
 x 20
 y 9
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 10
 end
@@ -2569,7 +2569,7 @@ arch wall_2_1_1
 x 20
 y 10
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 11
 end
@@ -2581,7 +2581,7 @@ arch light2
 x 20
 y 12
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 12
 end
@@ -2589,7 +2589,7 @@ arch window_win1
 x 20
 y 12
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 13
 end
@@ -2597,7 +2597,7 @@ arch wall_2_1_1
 x 20
 y 13
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 14
 end
@@ -2605,7 +2605,7 @@ arch wall_3_4
 x 20
 y 14
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 15
 end
@@ -2617,7 +2617,7 @@ arch light2
 x 20
 y 16
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 16
 end
@@ -2625,7 +2625,7 @@ arch window_win1
 x 20
 y 16
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 17
 end
@@ -2633,7 +2633,7 @@ arch wall_2_1_1
 x 20
 y 17
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 18
 end
@@ -2641,7 +2641,7 @@ arch wall_2_1_1
 x 20
 y 18
 end
-arch woodfloor2
+arch stonefloor2
 x 20
 y 19
 end
