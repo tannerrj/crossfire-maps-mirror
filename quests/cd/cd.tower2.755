@@ -8,7 +8,7 @@ enter_x 6
 enter_y 9
 msg
 Created:  1993-12-01
-Modified: 2024-01-24 Rick Tanner
+Modified: 2025-08-24 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -2434,6 +2434,7 @@ applied 1
 end
 arch wand
 food 7
+level 15
 value 1250
 randomitems none
 applied 1
