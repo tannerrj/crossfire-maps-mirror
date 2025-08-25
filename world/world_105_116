@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2023-03-15 Neila Hawkins
+Modified: 2024-03-21 Neila Hawkins
 endmsg
 outdoor 1
 tile_path_1 world_105_115
@@ -6766,7 +6766,15 @@ x 24
 y 24
 elevation 401
 end
-arch tree3
+arch barn2
+name Zel's Dungeon
+slaying /scorn/country/zel/zels_dun_1
+msg
+The front door is locked, but there seems to be a path leading to a door in the back on the west side.
+You enter there.
+endmsg
+hp 1
+sp 2
 x 24
 y 24
 end
@@ -6775,14 +6783,14 @@ x 24
 y 25
 elevation 2368
 end
-arch tree3
-x 24
-y 25
-end
 arch grass_only
 x 24
 y 26
 elevation 1126
+end
+arch dirtroad_2_052
+x 24
+y 26
 end
 arch tree3
 x 24
@@ -7068,14 +7076,14 @@ x 25
 y 25
 elevation 1199
 end
-arch tree3
-x 25
-y 25
-end
 arch grass
 x 25
 y 26
 elevation 2206
+end
+arch dirtroad_2_411
+x 25
+y 26
 end
 arch grass
 x 25
