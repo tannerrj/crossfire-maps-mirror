@@ -8,7 +8,7 @@ enter_x 15
 enter_y 30
 msg
 Created: 1996-09-24 Chris Jeske
-Modified: 2023-06-09 Rick Tanner
+Modified: 2025-08-27 Rick Tanner
 endmsg
 end
 arch marble
@@ -2695,6 +2695,13 @@ arch marble
 x 13
 y 31
 end
+arch exit
+slaying Cavern
+hp 15
+sp 7
+x 13
+y 31
+end
 arch marble
 x 14
 end
@@ -2908,6 +2915,13 @@ x 14
 y 30
 end
 arch marble
+x 14
+y 31
+end
+arch exit
+slaying Cavern
+hp 15
+sp 7
 x 14
 y 31
 end
@@ -3661,6 +3675,13 @@ x 17
 y 30
 end
 arch marble
+x 17
+y 31
+end
+arch exit
+slaying Cavern
+hp 15
+sp 7
 x 17
 y 31
 end
