@@ -8,16 +8,36 @@ enter_x 10
 enter_y 49
 msg
 Created:  1993-11-17 Chris Hendelberg (hendel@ecst.csuchico.edu)
-Modified: 2021-07-26 Saiapatsu
+Modified: 2025-08-29 Rick Tanner
 endmsg
 end
-arch blocked
+arch bwall_2_2_2
+end
+arch bwall_3_2
+y 1
+end
+arch bwall_3_2
+y 2
+end
+arch bwall_3_2
+y 3
+end
+arch bwall_3_2
+y 4
+end
+arch bwall_3_2
+y 5
+end
+arch bwall_3_2
+y 6
+end
+arch bwall_3_2
 y 7
 end
 arch cobblestones
 y 8
 end
-arch bwall_2_2_2
+arch bwall_3_2
 y 8
 end
 arch cobblestones
@@ -53,19 +73,28 @@ end
 arch cobblestones
 y 14
 end
-arch bwall_2_2_1
+arch bwall_3_2
 y 14
 end
-arch blocked
+arch bwall_3_2
 y 15
 end
-arch blocked
+arch bwall_3_2
+y 16
+end
+arch bwall_3_2
+y 17
+end
+arch bwall_3_2
+y 18
+end
+arch bwall_3_2
 y 19
 end
 arch cobblestones
 y 20
 end
-arch bwall_2_2_2
+arch bwall_3_2
 y 20
 end
 arch cobblestones
@@ -95,20 +124,38 @@ end
 arch cobblestones
 y 25
 end
-arch bwall_2_2_1
+arch bwall_3_2
 y 25
 end
-arch blocked
+arch bwall_3_2
 y 26
 end
-arch blocked
+arch bwall_3_2
+y 27
+end
+arch bwall_3_2
+y 28
+end
+arch bwall_3_2
+y 29
+end
+arch bwall_3_2
+y 30
+end
+arch bwall_3_2
+y 31
+end
+arch bwall_3_2
+y 32
+end
+arch bwall_3_2
 y 33
 end
 arch marble
 face marble_blgr.111
 y 34
 end
-arch bwall_2_2_2
+arch bwall_3_2
 y 34
 end
 arch marble
@@ -196,7 +243,34 @@ end
 arch pstone_1
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 1
+end
+arch bwall_4
+x 1
+y 1
+end
+arch bwall_4
+x 1
+y 2
+end
+arch bwall_4
+x 1
+y 3
+end
+arch bwall_4
+x 1
+y 4
+end
+arch bwall_4
+x 1
+y 5
+end
+arch bwall_4
+x 1
+y 6
+end
+arch bwall_4
 x 1
 y 7
 end
@@ -204,7 +278,7 @@ arch cobblestones
 x 1
 y 8
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 1
 y 8
 end
@@ -276,15 +350,27 @@ arch cobblestones
 x 1
 y 14
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 1
 y 14
 end
-arch blocked
+arch bwall_4
 x 1
 y 15
 end
-arch blocked
+arch bwall_4
+x 1
+y 16
+end
+arch bwall_4
+x 1
+y 17
+end
+arch bwall_4
+x 1
+y 18
+end
+arch bwall_4
 x 1
 y 19
 end
@@ -292,7 +378,7 @@ arch cobblestones
 x 1
 y 20
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 1
 y 20
 end
@@ -320,39 +406,39 @@ arch cobblestones
 x 1
 y 25
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 1
 y 25
 end
-arch blocked
+arch bwall_4
 x 1
 y 26
 end
-arch blocked
+arch bwall_4
 x 1
 y 27
 end
-arch blocked
+arch bwall_4
 x 1
 y 28
 end
-arch blocked
+arch bwall_4
 x 1
 y 29
 end
-arch blocked
+arch bwall_4
 x 1
 y 30
 end
-arch blocked
+arch bwall_4
 x 1
 y 31
 end
-arch blocked
+arch bwall_4
 x 1
 y 32
 end
-arch blocked
+arch bwall_4
 x 1
 y 33
 end
@@ -361,7 +447,7 @@ face marble_blgr.111
 x 1
 y 34
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 1
 y 34
 end
@@ -455,23 +541,34 @@ arch pstone_1
 x 1
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 2
+end
+arch bwall_4
+x 2
+y 1
+end
+arch bwall_4
+x 2
+y 2
+end
+arch bwall_4
 x 2
 y 3
 end
-arch blocked
+arch bwall_4
 x 2
 y 4
 end
-arch blocked
+arch bwall_4
 x 2
 y 5
 end
-arch blocked
+arch bwall_4
 x 2
 y 6
 end
-arch blocked
+arch bwall_4
 x 2
 y 7
 end
@@ -479,7 +576,7 @@ arch cobblestones
 x 2
 y 8
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 2
 y 8
 end
@@ -543,27 +640,27 @@ arch cobblestones
 x 2
 y 14
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 2
 y 14
 end
-arch blocked
+arch bwall_4
 x 2
 y 15
 end
-arch blocked
+arch bwall_4
 x 2
 y 16
 end
-arch blocked
+arch bwall_4
 x 2
 y 17
 end
-arch blocked
+arch bwall_4
 x 2
 y 18
 end
-arch blocked
+arch bwall_4
 x 2
 y 19
 end
@@ -571,7 +668,7 @@ arch cobblestones
 x 2
 y 20
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 2
 y 20
 end
@@ -623,7 +720,7 @@ face marble_blgr.111
 x 2
 y 26
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 26
 end
@@ -632,7 +729,7 @@ face marble_blgr.111
 x 2
 y 27
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 27
 end
@@ -641,7 +738,7 @@ face marble_blgr.111
 x 2
 y 28
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 28
 end
@@ -650,7 +747,7 @@ face marble_blgr.111
 x 2
 y 29
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 29
 end
@@ -659,7 +756,7 @@ face marble_blgr.111
 x 2
 y 30
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 30
 end
@@ -668,7 +765,7 @@ face marble_blgr.111
 x 2
 y 31
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 31
 end
@@ -677,7 +774,7 @@ face marble_blgr.111
 x 2
 y 32
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 32
 end
@@ -686,7 +783,7 @@ face marble_blgr.111
 x 2
 y 33
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 2
 y 33
 end
@@ -773,7 +870,18 @@ arch pstone_1
 x 2
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 3
+end
+arch bwall_4
+x 3
+y 1
+end
+arch bwall_4
+x 3
+y 2
+end
+arch bwall_4
 x 3
 y 3
 end
@@ -782,7 +890,7 @@ face marble_blgr.111
 x 3
 y 4
 end
-arch bwall_2_2_2
+arch bwall_4
 x 3
 y 4
 end
@@ -791,7 +899,7 @@ face marble_blgr.111
 x 3
 y 5
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 5
 end
@@ -800,7 +908,7 @@ face marble_blgr.111
 x 3
 y 6
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 6
 end
@@ -809,7 +917,7 @@ face marble_blgr.111
 x 3
 y 7
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 7
 end
@@ -879,7 +987,7 @@ face marble_blgr.111
 x 3
 y 15
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 15
 end
@@ -888,7 +996,7 @@ face marble_blgr.111
 x 3
 y 16
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 16
 end
@@ -897,7 +1005,7 @@ face marble_blgr.111
 x 3
 y 17
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 17
 end
@@ -906,7 +1014,7 @@ face marble_blgr.111
 x 3
 y 18
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 18
 end
@@ -915,7 +1023,7 @@ face marble_blgr.111
 x 3
 y 19
 end
-arch bwall_2_1_1
+arch bwall_3_4
 x 3
 y 19
 end
@@ -1108,7 +1216,18 @@ arch pstone_1
 x 3
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 4
+end
+arch bwall_4
+x 4
+y 1
+end
+arch bwall_4
+x 4
+y 2
+end
+arch bwall_4
 x 4
 y 3
 end
@@ -1117,7 +1236,7 @@ face marble_blgr.111
 x 4
 y 4
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 4
 y 4
 end
@@ -1423,18 +1542,18 @@ arch pstone_1
 x 4
 y 49
 end
-arch blocked
+arch bwall_3_3
 x 5
 end
-arch blocked
+arch bwall_4
 x 5
 y 1
 end
-arch blocked
+arch bwall_4
 x 5
 y 2
 end
-arch blocked
+arch bwall_4
 x 5
 y 3
 end
@@ -1443,7 +1562,7 @@ face marble_blgr.111
 x 5
 y 4
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 5
 y 4
 end
@@ -1718,18 +1837,33 @@ arch cobblestones2
 x 5
 y 49
 end
-arch bwall_2_2_2
+arch dungeon_floor
 x 6
 end
-arch bwall_2_1_1
+arch bwall_3_3
+x 6
+end
+arch dungeon_floor
 x 6
 y 1
 end
-arch bwall_2_1_1
+arch bwall_3_4
+x 6
+y 1
+end
+arch dungeon_floor
 x 6
 y 2
 end
-arch bwall_2_1_1
+arch bwall_3_4
+x 6
+y 2
+end
+arch dungeon_floor
+x 6
+y 3
+end
+arch bwall_3_4
 x 6
 y 3
 end
@@ -1995,6 +2129,9 @@ end
 arch cobblestones2
 x 6
 y 49
+end
+arch dungeon_floor
+x 7
 end
 arch bwall_2_1_2
 x 7
@@ -2293,6 +2430,9 @@ end
 arch cobblestones2
 x 7
 y 49
+end
+arch dungeon_floor
+x 8
 end
 arch bwall_2_1_2
 x 8
@@ -2624,6 +2764,9 @@ end
 arch cobblestones2
 x 8
 y 49
+end
+arch dungeon_floor
+x 9
 end
 arch bwall_2_1_2
 x 9
@@ -2979,6 +3122,9 @@ end
 arch cobblestones2
 x 9
 y 49
+end
+arch dungeon_floor
+x 10
 end
 arch bwall_2_1_2
 x 10
@@ -3388,6 +3534,9 @@ sp 1
 x 10
 y 49
 end
+arch dungeon_floor
+x 11
+end
 arch bwall_2_1_2
 x 11
 end
@@ -3730,6 +3879,9 @@ arch cobblestones2
 x 11
 y 49
 end
+arch dungeon_floor
+x 12
+end
 arch bwall_2_1_2
 x 12
 end
@@ -4031,6 +4183,9 @@ end
 arch cobblestones2
 x 12
 y 49
+end
+arch dungeon_floor
+x 13
 end
 arch bwall_2_1_2
 x 13
@@ -4334,18 +4489,33 @@ arch cobblestones2
 x 13
 y 49
 end
-arch bwall_2_2_3
+arch dungeon_floor
 x 14
 end
-arch bwall_2_1_1
+arch bwall_3_3
+x 14
+end
+arch dungeon_floor
 x 14
 y 1
 end
-arch bwall_2_1_1
+arch bwall_3_2
+x 14
+y 1
+end
+arch dungeon_floor
 x 14
 y 2
 end
-arch bwall_2_1_1
+arch bwall_3_2
+x 14
+y 2
+end
+arch dungeon_floor
+x 14
+y 3
+end
+arch bwall_3_2
 x 14
 y 3
 end
@@ -4612,18 +4782,18 @@ arch cobblestones2
 x 14
 y 49
 end
-arch blocked
+arch bwall_3_3
 x 15
 end
-arch blocked
+arch bwall_4
 x 15
 y 1
 end
-arch blocked
+arch bwall_4
 x 15
 y 2
 end
-arch blocked
+arch bwall_4
 x 15
 y 3
 end
@@ -4632,7 +4802,7 @@ face marble_blgr.111
 x 15
 y 4
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 15
 y 4
 end
@@ -4903,7 +5073,18 @@ arch cobblestones2
 x 15
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 16
+end
+arch bwall_4
+x 16
+y 1
+end
+arch bwall_4
+x 16
+y 2
+end
+arch bwall_4
 x 16
 y 3
 end
@@ -4912,7 +5093,7 @@ face marble_blgr.111
 x 16
 y 4
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 16
 y 4
 end
@@ -5218,7 +5399,18 @@ arch pstone_1
 x 16
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 17
+end
+arch bwall_4
+x 17
+y 1
+end
+arch bwall_4
+x 17
+y 2
+end
+arch bwall_4
 x 17
 y 3
 end
@@ -5227,7 +5419,7 @@ face marble_blgr.111
 x 17
 y 4
 end
-arch bwall_2_2_3
+arch bwall_4
 x 17
 y 4
 end
@@ -5236,7 +5428,7 @@ face marble_blgr.111
 x 17
 y 5
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 5
 end
@@ -5245,7 +5437,7 @@ face marble_blgr.111
 x 17
 y 6
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 6
 end
@@ -5254,7 +5446,7 @@ face marble_blgr.111
 x 17
 y 7
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 7
 end
@@ -5324,7 +5516,7 @@ face marble_blgr.111
 x 17
 y 15
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 15
 end
@@ -5333,7 +5525,7 @@ face marble_blgr.111
 x 17
 y 16
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 16
 end
@@ -5342,7 +5534,7 @@ face marble_blgr.111
 x 17
 y 17
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 17
 end
@@ -5351,7 +5543,7 @@ face marble_blgr.111
 x 17
 y 18
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 18
 end
@@ -5360,7 +5552,7 @@ face marble_blgr.111
 x 17
 y 19
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 17
 y 19
 end
@@ -5553,23 +5745,34 @@ arch pstone_1
 x 17
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 18
+end
+arch bwall_4
+x 18
+y 1
+end
+arch bwall_4
+x 18
+y 2
+end
+arch bwall_4
 x 18
 y 3
 end
-arch blocked
+arch bwall_4
 x 18
 y 4
 end
-arch blocked
+arch bwall_4
 x 18
 y 5
 end
-arch blocked
+arch bwall_4
 x 18
 y 6
 end
-arch blocked
+arch bwall_4
 x 18
 y 7
 end
@@ -5577,7 +5780,7 @@ arch cobblestones
 x 18
 y 8
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 18
 y 8
 end
@@ -5641,27 +5844,27 @@ arch cobblestones
 x 18
 y 14
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 18
 y 14
 end
-arch blocked
+arch bwall_4
 x 18
 y 15
 end
-arch blocked
+arch bwall_4
 x 18
 y 16
 end
-arch blocked
+arch bwall_4
 x 18
 y 17
 end
-arch blocked
+arch bwall_4
 x 18
 y 18
 end
-arch blocked
+arch bwall_4
 x 18
 y 19
 end
@@ -5669,7 +5872,7 @@ arch cobblestones
 x 18
 y 20
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 18
 y 20
 end
@@ -5721,7 +5924,7 @@ face marble_blgr.111
 x 18
 y 26
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 26
 end
@@ -5730,7 +5933,7 @@ face marble_blgr.111
 x 18
 y 27
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 27
 end
@@ -5739,7 +5942,7 @@ face marble_blgr.111
 x 18
 y 28
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 28
 end
@@ -5748,7 +5951,7 @@ face marble_blgr.111
 x 18
 y 29
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 29
 end
@@ -5757,7 +5960,7 @@ face marble_blgr.111
 x 18
 y 30
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 30
 end
@@ -5766,7 +5969,7 @@ face marble_blgr.111
 x 18
 y 31
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 31
 end
@@ -5775,7 +5978,7 @@ face marble_blgr.111
 x 18
 y 32
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 32
 end
@@ -5784,7 +5987,7 @@ face marble_blgr.111
 x 18
 y 33
 end
-arch bwall_2_1_1
+arch bwall_3_2
 x 18
 y 33
 end
@@ -5871,7 +6074,34 @@ arch pstone_1
 x 18
 y 49
 end
-arch blocked
+arch bwall_3_3
+x 19
+end
+arch bwall_4
+x 19
+y 1
+end
+arch bwall_4
+x 19
+y 2
+end
+arch bwall_4
+x 19
+y 3
+end
+arch bwall_4
+x 19
+y 4
+end
+arch bwall_4
+x 19
+y 5
+end
+arch bwall_4
+x 19
+y 6
+end
+arch bwall_4
 x 19
 y 7
 end
@@ -5879,7 +6109,7 @@ arch cobblestones
 x 19
 y 8
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 19
 y 8
 end
@@ -5951,15 +6181,27 @@ arch cobblestones
 x 19
 y 14
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 19
 y 14
 end
-arch blocked
+arch bwall_4
 x 19
 y 15
 end
-arch blocked
+arch bwall_4
+x 19
+y 16
+end
+arch bwall_4
+x 19
+y 17
+end
+arch bwall_4
+x 19
+y 18
+end
+arch bwall_4
 x 19
 y 19
 end
@@ -5967,7 +6209,7 @@ arch cobblestones
 x 19
 y 20
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 19
 y 20
 end
@@ -5995,39 +6237,39 @@ arch cobblestones
 x 19
 y 25
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 19
 y 25
 end
-arch blocked
+arch bwall_4
 x 19
 y 26
 end
-arch blocked
+arch bwall_4
 x 19
 y 27
 end
-arch blocked
+arch bwall_4
 x 19
 y 28
 end
-arch blocked
+arch bwall_4
 x 19
 y 29
 end
-arch blocked
+arch bwall_4
 x 19
 y 30
 end
-arch blocked
+arch bwall_4
 x 19
 y 31
 end
-arch blocked
+arch bwall_4
 x 19
 y 32
 end
-arch blocked
+arch bwall_4
 x 19
 y 33
 end
@@ -6036,7 +6278,7 @@ face marble_blgr.111
 x 19
 y 34
 end
-arch bwall_2_1_2
+arch bwall_3_1
 x 19
 y 34
 end
@@ -6130,7 +6372,34 @@ arch pstone_1
 x 19
 y 49
 end
-arch blocked
+arch bwall_2_2_3
+x 20
+end
+arch bwall_3_4
+x 20
+y 1
+end
+arch bwall_3_4
+x 20
+y 2
+end
+arch bwall_3_4
+x 20
+y 3
+end
+arch bwall_3_4
+x 20
+y 4
+end
+arch bwall_3_4
+x 20
+y 5
+end
+arch bwall_3_4
+x 20
+y 6
+end
+arch bwall_3_4
 x 20
 y 7
 end
@@ -6138,7 +6407,7 @@ arch cobblestones
 x 20
 y 8
 end
-arch bwall_2_2_3
+arch bwall_3_4
 x 20
 y 8
 end
@@ -6186,15 +6455,27 @@ arch cobblestones
 x 20
 y 14
 end
-arch bwall_2_2_4
+arch bwall_3_4
 x 20
 y 14
 end
-arch blocked
+arch bwall_3_4
 x 20
 y 15
 end
-arch blocked
+arch bwall_3_4
+x 20
+y 16
+end
+arch bwall_3_4
+x 20
+y 17
+end
+arch bwall_3_4
+x 20
+y 18
+end
+arch bwall_3_4
 x 20
 y 19
 end
@@ -6202,7 +6483,7 @@ arch cobblestones
 x 20
 y 20
 end
-arch bwall_2_2_3
+arch bwall_3_4
 x 20
 y 20
 end
@@ -6242,15 +6523,39 @@ arch cobblestones
 x 20
 y 25
 end
-arch bwall_2_2_4
+arch bwall_3_4
 x 20
 y 25
 end
-arch blocked
+arch bwall_3_4
 x 20
 y 26
 end
-arch blocked
+arch bwall_3_4
+x 20
+y 27
+end
+arch bwall_3_4
+x 20
+y 28
+end
+arch bwall_3_4
+x 20
+y 29
+end
+arch bwall_3_4
+x 20
+y 30
+end
+arch bwall_3_4
+x 20
+y 31
+end
+arch bwall_3_4
+x 20
+y 32
+end
+arch bwall_3_4
 x 20
 y 33
 end
@@ -6259,7 +6564,7 @@ face marble_blgr.111
 x 20
 y 34
 end
-arch bwall_2_2_3
+arch bwall_3_4
 x 20
 y 34
 end
