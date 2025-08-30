@@ -8,7 +8,7 @@ enter_x 6
 enter_y 33
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2012-03-09 Rick Tanner
+Modified: 2025-08-30 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -2698,6 +2698,10 @@ arch spell_sm_lightning
 end
 arch spell_mass_confusion
 end
+arch brown_key
+name chaos key
+slaying chaos-dragon-key
+end
 end
 arch dungeon_floor
 x 14
@@ -4009,6 +4013,8 @@ x 21
 y 16
 end
 arch locked_door1
+name chaos key door
+slaying chaos-dragon-key
 x 21
 y 16
 end
