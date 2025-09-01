@@ -8,7 +8,7 @@ enter_x 10
 enter_y 19
 msg
 Created:  2000-04-13 Magnus Kronhamn (mak@solace.mh.se)
-Modified: 2021-07-26 Saiapatsu
+Modified: 2025-08-31 Rick Tanner
 endmsg
 end
 arch marble
@@ -1322,7 +1322,10 @@ x 9
 y 19
 end
 arch sign_w
-name right
+name Right
+msg
+Right
+endmsg
 x 9
 y 19
 end
@@ -1543,7 +1546,10 @@ x 11
 y 19
 end
 arch sign_e
-name left
+name Left
+msg
+Left
+endmsg
 x 11
 y 19
 end
