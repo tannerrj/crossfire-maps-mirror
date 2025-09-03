@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1993-10-19
-Modified: 2023-06-09 Rick Tanner
+Modified: 2025-09-03 Rick Tanner
 endmsg
 end
 arch small_stones
@@ -318,10 +318,6 @@ arch small_stones
 x 1
 y 18
 end
-arch zombie
-x 1
-y 18
-end
 arch generate_ghost
 x 1
 y 18
@@ -512,6 +508,10 @@ x 2
 y 17
 end
 arch small_stones
+x 2
+y 18
+end
+arch zombie
 x 2
 y 18
 end
