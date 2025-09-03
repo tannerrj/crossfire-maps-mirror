@@ -9,7 +9,7 @@ enter_x 9
 enter_y 9
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-05 Rick Tanner
+Modified: 2025-09-03 Rick Tanner
 endmsg
 outdoor 1
 reset_group whalingoutpost_glacier-keep
@@ -2349,6 +2349,7 @@ arch door_2
 x 9
 y 16
 move_block 0
+alive 0
 end
 arch flagstone
 x 9
@@ -2846,6 +2847,7 @@ arch door_2
 x 10
 y 16
 move_block 0
+alive 0
 end
 arch flagstone
 x 10
@@ -4896,6 +4898,7 @@ arch door_1
 x 16
 y 9
 move_block 0
+alive 0
 end
 arch istone
 x 16
@@ -4905,6 +4908,7 @@ arch door_1
 x 16
 y 10
 move_block 0
+alive 0
 end
 arch istone
 x 16
@@ -6770,6 +6774,7 @@ arch door_1
 x 27
 y 53
 move_block 0
+alive 0
 end
 arch istone
 x 27
@@ -6779,6 +6784,7 @@ arch door_1
 x 27
 y 54
 move_block 0
+alive 0
 end
 arch istone
 x 27
@@ -9508,6 +9514,7 @@ arch door_1
 x 36
 y 53
 move_block 0
+alive 0
 end
 arch istone
 x 36
@@ -9517,6 +9524,7 @@ arch door_1
 x 36
 y 54
 move_block 0
+alive 0
 end
 arch istone
 x 36
@@ -11887,6 +11895,7 @@ arch door_1
 x 47
 y 9
 move_block 0
+alive 0
 end
 arch istone
 x 47
@@ -11896,6 +11905,7 @@ arch door_1
 x 47
 y 10
 move_block 0
+alive 0
 end
 arch istone
 x 47
@@ -12039,6 +12049,7 @@ arch door_1
 x 47
 y 53
 move_block 0
+alive 0
 end
 arch istone
 x 47
@@ -12048,6 +12059,7 @@ arch door_1
 x 47
 y 54
 move_block 0
+alive 0
 end
 arch istone
 x 47
@@ -13916,6 +13928,7 @@ arch door_2
 x 53
 y 16
 move_block 0
+alive 0
 end
 arch flagstone
 x 53
@@ -14165,6 +14178,7 @@ arch door_2
 x 53
 y 47
 move_block 0
+alive 0
 end
 arch woodfloor2
 name woodfloor
@@ -14411,6 +14425,7 @@ arch door_2
 x 54
 y 16
 move_block 0
+alive 0
 end
 arch flagstone
 x 54
@@ -14660,6 +14675,7 @@ arch door_2
 x 54
 y 47
 move_block 0
+alive 0
 end
 arch woodfloor2
 name woodfloor
