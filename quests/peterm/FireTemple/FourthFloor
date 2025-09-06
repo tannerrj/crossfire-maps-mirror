@@ -8,7 +8,7 @@ enter_x 13
 enter_y 10
 msg
 Created:  1997-05-23 PeterM (peterm@soda.csua.berkeley.edu)
-Modified: 2023-06-11 Rick Tanner
+Modified: 2025-09-06 Rick Tanner
 endmsg
 reset_group quests_fire-temple
 end
@@ -4222,6 +4222,7 @@ x 15
 y 23
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 15
 y 23
 end
@@ -5771,6 +5772,7 @@ x 20
 y 23
 end
 arch rune_regenerate_spellpoints
+Cha 1
 x 20
 y 23
 end
