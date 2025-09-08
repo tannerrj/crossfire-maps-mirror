@@ -8,7 +8,7 @@ enter_x 7
 enter_y 8
 msg
 Created:  1997-04-20 Peter Mardahl (peterm@soda.csua.berkeley.edu)
-Modified: 2023-06-11 Rick Tanner
+Modified: 2025-09-08 Rick Tanner
 endmsg
 reset_group quests_fire-temple
 end
@@ -1091,10 +1091,6 @@ arch cobblestones
 x 5
 y 4
 end
-arch cobblestones
-x 5
-y 4
-end
 arch locked_door1
 slaying door34
 x 5
@@ -1244,10 +1240,6 @@ end
 arch cobblestones
 x 6
 y 3
-end
-arch cobblestones
-x 6
-y 4
 end
 arch cobblestones
 x 6
@@ -3131,10 +3123,6 @@ end
 arch cobblestones
 x 16
 y 26
-end
-arch cobblestones
-x 16
-y 27
 end
 arch cobblestones
 x 16
