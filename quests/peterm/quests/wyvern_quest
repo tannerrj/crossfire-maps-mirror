@@ -8,7 +8,7 @@ enter_x 1
 enter_y 2
 msg
 Created:  2000-06-07
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2025-09-09 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -371,6 +371,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -401,6 +402,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -480,6 +482,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -576,6 +579,7 @@ carrying 37500
 arch dragon_wing
 name wyvern's wing
 food 5
+level 20
 resist_cold -100
 resist_confusion -100
 value 400
@@ -802,6 +806,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -1734,6 +1739,7 @@ carrying 37500
 arch dragon_wing
 name medium wyvern's wing
 food 3
+level 20
 resist_cold -100
 resist_confusion -100
 value 200
@@ -1796,6 +1802,7 @@ carrying 37500
 arch dragon_wing
 name wyvern's wing
 food 5
+level 20
 resist_cold -100
 resist_confusion -100
 value 400
@@ -1957,6 +1964,7 @@ carrying 7500
 arch dragon_steak
 name wyvern's steak
 food 405
+level 20
 resist_cold -100
 resist_confusion -100
 value 40
@@ -2348,6 +2356,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -2386,6 +2395,7 @@ carrying 37500
 arch dragon_wing
 name medium wyvern's wing
 food 3
+level 20
 resist_cold -100
 resist_confusion -100
 value 200
@@ -2755,6 +2765,7 @@ carrying 37500
 arch dragon_wing
 name medium wyvern's wing
 food 3
+level 20
 resist_cold -100
 resist_confusion -100
 value 200
@@ -3011,6 +3022,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -3077,6 +3089,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -3696,6 +3709,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
@@ -3887,6 +3901,7 @@ carrying 7500
 arch dragon_steak
 name medium wyvern's steak
 food 403
+level 20
 resist_cold -100
 resist_confusion -100
 value 20
