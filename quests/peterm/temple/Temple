@@ -9,7 +9,7 @@ enter_x 17
 enter_y 32
 msg
 Created:  1994-01-14 peterm (peterm@soda.berkeley.edu)
-Modified: 2023-06-11 Rick Tanner
+Modified: 2025-09-09 Rick Tanner
 endmsg
 reset_group quests_dark-forest
 end
@@ -455,10 +455,6 @@ arch mover_1
 x 1
 y 13
 end
-arch giant_bat
-x 1
-y 13
-end
 arch deathtree
 x 1
 y 13
@@ -673,6 +669,10 @@ x 2
 y 11
 end
 arch medium_stones
+x 2
+y 12
+end
+arch giant_bat
 x 2
 y 12
 end
@@ -2139,11 +2139,6 @@ arch mover_7
 x 7
 y 32
 end
-arch wraith
-x 7
-y 32
-speed_left -2.020000
-end
 arch deathtree
 x 7
 y 32
@@ -2909,6 +2904,11 @@ arch medium_stones
 x 10
 y 30
 end
+arch wraith
+x 10
+y 30
+speed_left -2.020000
+end
 arch medium_stones
 x 10
 y 31
@@ -4049,11 +4049,6 @@ arch mover_1
 x 14
 y 27
 end
-arch wraith
-x 14
-y 27
-speed_left -2.020000
-end
 arch deathtree
 x 14
 y 27
@@ -4145,10 +4140,6 @@ x 15
 y 1
 end
 arch mover_3
-x 15
-y 1
-end
-arch giant_bat
 x 15
 y 1
 end
@@ -4257,10 +4248,6 @@ x 15
 y 11
 end
 arch mover_3
-x 15
-y 11
-end
-arch giant_bat
 x 15
 y 11
 end
@@ -4398,6 +4385,11 @@ arch medium_stones
 x 15
 y 27
 end
+arch wraith
+x 15
+y 27
+speed_left -2.020000
+end
 arch medium_stones
 x 15
 y 28
@@ -4482,6 +4474,10 @@ arch medium_stones
 x 16
 y 2
 end
+arch giant_bat
+x 16
+y 2
+end
 arch medium_stones
 x 16
 y 3
@@ -4518,10 +4514,6 @@ arch mover_4
 x 16
 y 6
 end
-arch giant_bat
-x 16
-y 6
-end
 arch deathtree
 x 16
 y 6
@@ -4539,6 +4531,10 @@ x 16
 y 7
 end
 arch medium_stones
+x 16
+y 8
+end
+arch giant_bat
 x 16
 y 8
 end
@@ -4571,10 +4567,6 @@ x 16
 y 11
 end
 arch mover_5
-x 16
-y 11
-end
-arch giant_bat
 x 16
 y 11
 end
@@ -4810,10 +4802,6 @@ x 17
 y 6
 end
 arch mover_6
-x 17
-y 6
-end
-arch giant_bat
 x 17
 y 6
 end
@@ -5114,6 +5102,10 @@ arch medium_stones
 x 18
 y 7
 end
+arch giant_bat
+x 18
+y 7
+end
 arch medium_stones
 x 18
 y 8
@@ -5142,6 +5134,10 @@ arch medium_stones
 x 18
 y 10
 end
+arch giant_bat
+x 18
+y 10
+end
 arch medium_stones
 x 18
 y 11
@@ -5151,6 +5147,10 @@ x 18
 y 12
 end
 arch medium_stones
+x 18
+y 13
+end
+arch giant_bat
 x 18
 y 13
 end
@@ -5307,10 +5307,6 @@ x 19
 y 1
 end
 arch mover_5
-x 19
-y 1
-end
-arch giant_bat
 x 19
 y 1
 end
@@ -5494,10 +5490,6 @@ arch mover_1
 x 19
 y 26
 end
-arch giant_bat
-x 19
-y 26
-end
 arch deathtree
 x 19
 y 26
@@ -5577,6 +5569,10 @@ x 20
 y 1
 end
 arch medium_stones
+x 20
+y 2
+end
+arch giant_bat
 x 20
 y 2
 end
@@ -5738,6 +5734,10 @@ arch medium_stones
 x 20
 y 27
 end
+arch giant_bat
+x 20
+y 27
+end
 arch medium_stones
 x 20
 y 28
@@ -6491,6 +6491,10 @@ x 23
 y 19
 end
 arch medium_stones
+x 23
+y 20
+end
+arch giant_bat
 x 23
 y 20
 end
@@ -6971,6 +6975,10 @@ arch medium_stones
 x 25
 y 11
 end
+arch giant_bat
+x 25
+y 11
+end
 arch medium_stones
 x 25
 y 12
@@ -7040,10 +7048,6 @@ x 25
 y 21
 end
 arch mover_3
-x 25
-y 21
-end
-arch giant_bat
 x 25
 y 21
 end
@@ -7497,10 +7501,6 @@ arch mover_7
 x 27
 y 12
 end
-arch giant_bat
-x 27
-y 12
-end
 arch deathtree
 x 27
 y 12
@@ -7525,15 +7525,15 @@ arch mover_1
 x 27
 y 14
 end
-arch giant_bat
-x 27
-y 14
-end
 arch deathtree
 x 27
 y 14
 end
 arch medium_stones
+x 27
+y 15
+end
+arch giant_bat
 x 27
 y 15
 end
