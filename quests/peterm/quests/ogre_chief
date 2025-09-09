@@ -8,7 +8,7 @@ enter_x 6
 enter_y 6
 msg
 Created:  2000-06-17
-Modified: 2021-09-21 Nicolas Weeger
+Modified: 2025-09-09 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -3256,10 +3256,6 @@ arch skill_throwing
 end
 arch club
 end
-end
-arch ogre
-x 12
-y 18
 end
 arch large_stones
 x 12
