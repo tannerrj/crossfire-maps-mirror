@@ -8,7 +8,7 @@ enter_x 7
 enter_y 39
 msg
 Created:  1994-01-14 peterm (peterm@soda.berkeley.edu)
-Modified: 2023-11-10 Rick Tanner
+Modified: 2025-09-09 Rick Tanner
 endmsg
 reset_group quests_dark-forest
 end
@@ -2290,6 +2290,7 @@ end
 arch oakdoor_2
 slaying OuterTemple
 hp 7
+sp 1
 x 7
 y 39
 end
@@ -2579,6 +2580,7 @@ end
 arch oakdoor_2
 slaying OuterTemple
 hp 8
+sp 1
 x 8
 y 39
 end
