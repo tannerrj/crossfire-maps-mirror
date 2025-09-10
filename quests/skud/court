@@ -8,7 +8,7 @@ enter_x 19
 enter_y 39
 msg
 Created:  1993-11-13
-Modified: 2023-06-11 Rick Tanner
+Modified: 2025-09-10 Rick Tanner
 endmsg
 end
 arch marble
@@ -4025,6 +4025,7 @@ end
 arch exit
 slaying entrance
 hp 4
+sp 0
 x 18
 y 39
 end
@@ -4268,6 +4269,7 @@ end
 arch exit
 slaying entrance
 hp 5
+sp 0
 x 19
 y 39
 end
