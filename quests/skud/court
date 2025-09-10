@@ -36,12 +36,12 @@ end
 arch marble
 y 4
 end
-arch cwall_1_2
+arch cwall_2_2_1
 y 4
 end
 arch exit
 slaying west_1
-hp 29
+hp 28
 sp 4
 y 5
 end
@@ -51,7 +51,7 @@ end
 arch marble
 y 6
 end
-arch cwall_1_1
+arch cwall_2_2_2
 y 6
 end
 arch marble
@@ -274,11 +274,19 @@ arch marble
 x 1
 y 4
 end
+arch cwall_1_3
+x 1
+y 4
+end
 arch marble
 x 1
 y 5
 end
 arch marble
+x 1
+y 6
+end
+arch cwall_1_3
 x 1
 y 6
 end
@@ -3816,11 +3824,15 @@ arch marble
 x 17
 y 37
 end
+arch cwall_1_1
+x 17
+y 37
+end
 arch marble
 x 17
 y 38
 end
-arch cwall_1_1
+arch cwall_2_1_1
 x 17
 y 38
 end
@@ -3842,11 +3854,15 @@ arch marble
 x 18
 y 1
 end
-arch cwall_1_2
+arch cwall_2_1_1
 x 18
 y 1
 end
 arch marble
+x 18
+y 2
+end
+arch cwall_1_2
 x 18
 y 2
 end
@@ -4025,7 +4041,7 @@ end
 arch exit
 slaying entrance
 hp 4
-sp 0
+sp 1
 x 18
 y 39
 end
@@ -4035,8 +4051,8 @@ y 39
 end
 arch exit
 slaying north_1
-hp 15
-sp 39
+hp 14
+sp 38
 x 19
 end
 arch marble
@@ -4045,16 +4061,16 @@ end
 arch marble
 x 19
 y 1
+end
+arch marble
+x 19
+y 2
 end
 arch locked_door1
 slaying northwing
 msg
 The door to the north wing is locked.
 endmsg
-x 19
-y 1
-end
-arch marble
 x 19
 y 2
 end
@@ -4269,7 +4285,7 @@ end
 arch exit
 slaying entrance
 hp 5
-sp 0
+sp 1
 x 19
 y 39
 end
@@ -4279,8 +4295,8 @@ y 39
 end
 arch exit
 slaying north_1
-hp 16
-sp 39
+hp 15
+sp 38
 x 20
 end
 arch marble
@@ -4289,16 +4305,16 @@ end
 arch marble
 x 20
 y 1
+end
+arch marble
+x 20
+y 2
 end
 arch locked_door1
 slaying northwing
 msg
 The door to the north wing is locked.
 endmsg
-x 20
-y 1
-end
-arch marble
 x 20
 y 2
 end
@@ -4454,11 +4470,15 @@ arch marble
 x 20
 y 37
 end
+arch cwall_1_1
+x 20
+y 37
+end
 arch marble
 x 20
 y 38
 end
-arch cwall_1_1
+arch cwall_2_1_1
 x 20
 y 38
 end
@@ -4480,11 +4500,15 @@ arch marble
 x 21
 y 1
 end
-arch cwall_1_2
+arch cwall_2_1_1
 x 21
 y 1
 end
 arch marble
+x 21
+y 2
+end
+arch cwall_1_2
 x 21
 y 2
 end
@@ -8513,11 +8537,27 @@ arch marble
 x 37
 y 4
 end
+arch cwall_1_4
+x 37
+y 4
+end
 arch marble
 x 37
 y 5
 end
+arch locked_door2
+slaying eastwing
+msg
+The door to the east wing is locked.
+endmsg
+x 37
+y 5
+end
 arch marble
+x 37
+y 6
+end
+arch cwall_1_4
 x 37
 y 6
 end
@@ -8858,7 +8898,7 @@ arch marble
 x 38
 y 4
 end
-arch cwall_1_4
+arch cwall_2_1_2
 x 38
 y 4
 end
@@ -8866,19 +8906,11 @@ arch marble
 x 38
 y 5
 end
-arch locked_door2
-slaying eastwing
-msg
-The door to the east wing is locked.
-endmsg
-x 38
-y 5
-end
 arch marble
 x 38
 y 6
 end
-arch cwall_1_4
+arch cwall_2_1_2
 x 38
 y 6
 end
@@ -9187,7 +9219,7 @@ y 4
 end
 arch exit
 slaying east_1
-hp 0
+hp 1
 sp 5
 x 39
 y 5

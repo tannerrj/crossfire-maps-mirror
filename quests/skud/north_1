@@ -8,7 +8,7 @@ enter_x 15
 enter_y 38
 msg
 Created:  1993-11-16 Skud the Great (tvangod@ecst.csuchico.edu)
-Modified: 2023-11-29 Rick Tanner
+Modified: 2025-09-10 Rick Tanner
 endmsg
 end
 arch snow3
@@ -1178,11 +1178,11 @@ arch marble
 x 3
 y 15
 end
-arch cwall_2_2_1
+arch swall_1_1_half
 x 3
 y 15
 end
-arch swall_1_1_half
+arch cwall_1_2
 x 3
 y 15
 end
@@ -1867,7 +1867,7 @@ arch marble
 x 5
 y 15
 end
-arch cwall_4
+arch cwall_3_2
 x 5
 y 15
 end
@@ -5026,6 +5026,7 @@ end
 arch exit
 slaying court
 hp 19
+sp 1
 x 14
 y 39
 end
@@ -5347,6 +5348,7 @@ end
 arch exit
 slaying court
 hp 20
+sp 1
 x 15
 y 39
 end
