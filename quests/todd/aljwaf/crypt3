@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-10-20 Todd Mitchell
-Modified: 2008-10-28 Rick Tanner
+Modified: 2025-09-11 Rick Tanner
 endmsg
 end
 arch dirtfloor
@@ -499,6 +499,7 @@ endmsg
 food 5
 x 3
 y 18
+level 1
 end
 arch dirtfloor
 x 3
@@ -619,6 +620,7 @@ endmsg
 food 5
 x 4
 y 18
+level 1
 end
 arch dirtfloor
 x 4
@@ -1215,6 +1217,7 @@ endmsg
 food 5
 x 10
 y 3
+level 1
 end
 arch dirtfloor
 x 10
@@ -1423,6 +1426,7 @@ endmsg
 food 5
 x 12
 y 1
+level 1
 end
 arch dirtfloor
 x 12
@@ -1569,6 +1573,7 @@ endmsg
 food 5
 x 13
 y 6
+level 1
 end
 arch dirtfloor
 x 13
@@ -1645,6 +1650,7 @@ endmsg
 food 5
 x 13
 y 18
+level 1
 end
 arch dirtfloor
 x 13
