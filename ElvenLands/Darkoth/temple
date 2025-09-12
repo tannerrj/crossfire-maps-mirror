@@ -1,11 +1,11 @@
 arch map
-name <unnamed>
+name Darkoth Temple of Devourers
 region elvenlands
 width 16
 height 16
 msg
 Created:  2000-04-11 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-09-12 Rick Tanner
 endmsg
 end
 arch blackmarble
@@ -686,8 +686,8 @@ y 14
 end
 arch oakdoor
 slaying /ElvenLands/Darkoth/city
-hp 19
-sp 13
+hp 35
+sp 21
 x 7
 y 14
 end
@@ -794,8 +794,8 @@ y 14
 end
 arch oakdoor
 slaying /ElvenLands/Darkoth/city
-hp 20
-sp 13
+hp 35
+sp 21
 x 8
 y 14
 end
