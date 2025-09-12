@@ -5,7 +5,7 @@ width 38
 height 36
 msg
 Created:  2002-09-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-07-01 Rick Tanner
+Modified: 2025-09-12 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -864,6 +864,7 @@ x 4
 y 23
 end
 arch store_armour
+name Darkoth Armor Shop
 slaying shop_1
 hp 6
 sp 14
@@ -1227,6 +1228,7 @@ x 6
 y 23
 end
 arch store_magic
+name Darkoth Magic Shop
 slaying shop_2
 hp 13
 sp 14
@@ -1246,6 +1248,7 @@ x 6
 y 26
 end
 arch store_general
+name Darkoth General Store
 slaying shop_3
 hp 13
 sp 14
@@ -4093,6 +4096,10 @@ x 23
 y 20
 end
 arch house_small
+name Darkoth Tavern
+slaying tavern
+hp 5
+sp 21
 x 23
 y 20
 end
@@ -6132,6 +6139,14 @@ x 35
 y 20
 end
 arch grassdark
+x 35
+y 21
+end
+arch devourers_temple
+name Darkoth Temple of Devourers
+slaying temple
+hp 7
+sp 13
 x 35
 y 21
 end
