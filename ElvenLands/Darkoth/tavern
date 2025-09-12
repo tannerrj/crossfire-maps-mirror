@@ -1,11 +1,11 @@
 arch map
-name tavern
+name Darkoth Tavern
 region elvenlands
 width 25
 height 24
 msg
 Created:  2000-04-12 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-09-12 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -881,8 +881,8 @@ y 22
 end
 arch oakdoor
 slaying /ElvenLands/Darkoth/city
-hp 16
-sp 18
+hp 23
+sp 20
 x 5
 y 22
 end
