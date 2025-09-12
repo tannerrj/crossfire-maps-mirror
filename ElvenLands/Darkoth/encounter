@@ -5,7 +5,7 @@ width 20
 height 16
 msg
 Created:  1999-12-23 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-09-12 Rick Tanner
 endmsg
 end
 arch medium_stones
@@ -543,6 +543,14 @@ speed_left -0.300000
 end
 arch permanent_lava
 x 6
+y 3
+end
+arch permanent_lava
+x 6
+y 4
+end
+arch permanent_lava
+x 6
 y 5
 end
 arch medium_stones
@@ -842,6 +850,14 @@ arch permanent_lava
 x 8
 y 2
 end
+arch permanent_lava
+x 8
+y 3
+end
+arch permanent_lava
+x 8
+y 4
+end
 arch medium_stones
 x 8
 y 5
@@ -869,11 +885,6 @@ arch permanent_lava
 x 8
 y 6
 speed_left -0.300000
-end
-arch gargolye
-name winged troll
-x 8
-y 6
 end
 arch medium_stones
 x 8
