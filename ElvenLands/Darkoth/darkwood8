@@ -5,7 +5,7 @@ width 21
 height 16
 msg
 Created:  2001-06-09 Joel Southall (joel@prninfo.com)
-Modified: 2025-07-05 Rick Tanner
+Modified: 2025-09-12 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -305,20 +305,6 @@ unaggressive 1
 reflect_missile 1
 reflect_spell 1
 can_cast_spell 1
-arch blindness
-name icestorm
-sp 17
-speed 0.000000
-type 110
-is_blind 0
-end
-arch blindness
-name burning hands
-sp 4
-speed 0.000000
-type 110
-is_blind 0
-end
 arch talisman
 name medallion piece
 msg
@@ -337,47 +323,21 @@ ac 4
 resist_magic 15
 magic 6
 end
-arch blindness
-name large lightning
-sp 6
-speed 0.000000
-type 110
-is_blind 0
+arch spell_cause_light_wounds
 end
-arch blindness
-name paralyze
-sp 16
-speed 0.000000
-type 110
-is_blind 0
+arch spell_rune_of_death
 end
-arch blindness
-name mass confusion
-sp 64
-speed 0.000000
-type 110
-is_blind 0
+arch spell_summon_pet_monster
 end
-arch blindness
-name summon pet
-sp 65
-speed 0.000000
-type 110
-is_blind 0
+arch spell_mass_confusion
 end
-arch blindness
-name rune of death
-sp 110
-speed 0.000000
-type 110
-is_blind 0
+arch spell_paralyze
 end
-arch blindness
-name cause light wounds
-sp 129
-speed 0.000000
-type 110
-is_blind 0
+arch spell_large_lightning
+end
+arch spell_burning_hands
+end
+arch spell_large_icestorm
 end
 end
 arch dungeon_floor
