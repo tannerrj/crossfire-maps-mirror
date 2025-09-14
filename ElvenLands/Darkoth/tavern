@@ -3328,12 +3328,8 @@ savage trolls and orges. At the end of
 the forest is the castle of Ugathu
 Toom. He is a powerful wizard,and is
 part of the Black Alliance.
-
-
-
 endmsg
 face wizard_green.111
-animation wizard_green
 Con 3
 Wis 15
 Int 5
@@ -3346,14 +3342,13 @@ speed 0.220000
 attack_movement 7
 level 12
 type 0
-is_animated 1
 monster 1
 unaggressive 1
 can_cast_spell 1
 sleep 1
-arch ability_summon_water
+arch spell_summon_water_elemental
 end
-arch ability_summon_water
+arch spell_mystic_fist
 end
 end
 arch woodfloor
