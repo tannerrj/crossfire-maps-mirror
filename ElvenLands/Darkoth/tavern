@@ -376,17 +376,7 @@ arch vampire
 name Midnight elf
 msg
 @match hi|hello
-I am a spy for Darkoth. Sometimes I go
-to the light elves' land to spy on them.
-I stopped going because our leaders
-thought the risk was too great. Since
-that despicable Guild of Heroes was set
-up,many of our spies were found and
-executed! We have even found spies of
-their side in our noble city. Of course
-we executed them. Now I spend my time
-in this tavern,waiting till one of them
-is found.
+I am a spy for Darkoth. Sometimes I go to the light elves' land to spy on them. I stopped going because our leaders thought the risk was too great. Since that despicable Guild of Heroes was set up, many of our spies were found and executed! We have even found spies of their side in our noble city. Of course we executed them. Now I spend my time in this tavern, waiting till one of them is found.
 endmsg
 x 2
 y 12
@@ -645,8 +635,7 @@ end
 arch goblin
 msg
 @match *
-Gnarg will wipe out those pesky light
-elves!
+Gnarg will wipe out those pesky light elves!
 endmsg
 x 4
 y 8
@@ -680,8 +669,7 @@ arch crone
 name hunched crone
 msg
 @match *
-Arrrggg!  My back does not work as well
-as it used to.
+Arrrggg!  My back does not work as well as it used to.
 endmsg
 x 4
 y 13
@@ -1353,7 +1341,7 @@ end
 arch gnoll
 msg
 @match *
-Go away,human! You're bothering me.
+Go away, human! You're bothering me.
 endmsg
 x 9
 y 4
@@ -1559,13 +1547,7 @@ arch fighter
 name Dark elf Veteran
 msg
 @match hi|hello
-I have seen many a battle. I know of
-many wars. I know of the war between
-Glovarit and Rithar. I know of the war
-against the gnomes. I even know of the
-War againts the Light elves. Perhaps we
-will have another war against the light
-elves.
+I have seen many a battle. I know of many wars. I know of the war between Glovarit and Rithar. I know of the war against the gnomes. I even know of the War againts the Light elves. Perhaps we will have another war against the light elves.
 endmsg
 x 10
 y 15
@@ -1670,8 +1652,7 @@ name troll elf
 msg
 @match *
 HaHaHa
-I love scaring those gnomes south of
-here!
+I love scaring those gnomes south of here!
 HaHaHaa
 endmsg
 x 11
@@ -2820,9 +2801,7 @@ arch serp_priest
 name Priest of Death
 msg
 @match hi|hello
-Greetingss, I ussually work at the Dark
-Temple of Devourers,but sssometimess I
-go to the temple of Ruggilly.
+Greetingss, I ussually work at the Dark Temple of Devourers, but sssometimess I go to the temple of Ruggilly.
 endmsg
 x 19
 y 12
@@ -2980,8 +2959,7 @@ end
 arch chess_knight
 msg
 @match hi|hello
-I serve King Darkoth as one of his
-knights.
+I serve King Darkoth as one of his knights.
 endmsg
 hp 250
 x 20
@@ -3250,8 +3228,7 @@ arch dwarf_wiz
 msg
 @match hi|hello
 Hello!
-Would you like to try your luck at
-Boulder Betting?
+Would you like to try your luck at Boulder Betting?
 endmsg
 x 22
 y 9
@@ -3505,8 +3482,7 @@ end
 arch dark_elf
 msg
 @match *
-I lost too much money at that "Boulder
-Betting".
+I lost too much money at that "Boulder Betting."
 endmsg
 x 23
 y 21
