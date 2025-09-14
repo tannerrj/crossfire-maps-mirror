@@ -1050,9 +1050,8 @@ end
 arch warrior_1
 name Bar Tender
 msg
-@match [dD]rink|[bB]ooze|[bB]eer
-If you want something to drink, it will
-be 3 gp.
+@match drink|booze|beer
+If you want something to drink, it will be 3 gp.
 endmsg
 x 7
 y 2
