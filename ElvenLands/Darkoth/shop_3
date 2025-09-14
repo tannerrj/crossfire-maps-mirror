@@ -2,6 +2,9 @@ arch map
 name Darkoth General Store
 difficulty 15
 region elvenlands
+shopitems food:45;*:-100
+shopmin 1
+shopmax 1500
 width 16
 height 16
 enter_x 13
