@@ -802,7 +802,7 @@ arch chair_1.1
 x 5
 y 7
 end
-arch gargolye
+arch gargoyle
 name winged troll
 msg
 @match *
@@ -810,6 +810,8 @@ I like to kill light elves.
 endmsg
 x 5
 y 7
+monster 0
+friendly 1
 unaggressive 1
 sleep 1
 end
