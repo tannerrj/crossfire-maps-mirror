@@ -2,6 +2,9 @@ arch map
 name Darkoth Magic Shop
 difficulty 15
 region elvenlands
+shopitems cloak:5;spellbook:35;ring:15;book:28;scroll:25;wand:28;armour improver:2;weapon improver:2;rod:32;potion:10;amulet:17;power_crystal:25;gem:0;lamp:-10;*:-90
+shopmin 5
+shopmax 20000
 width 16
 height 16
 enter_x 13
