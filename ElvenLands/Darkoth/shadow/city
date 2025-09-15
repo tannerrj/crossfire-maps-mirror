@@ -5,7 +5,7 @@ width 38
 height 36
 msg
 Created:  2002-09-05 Joel Southall (joel@prninfo.com)
-Modified: 2025-06-16 Rick Tanner
+Modified: 2025-09-15 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -622,6 +622,9 @@ y 34
 end
 arch market1
 name permanent apartments
+slaying ../dark/apartments
+hp 14
+sp 14
 x 2
 y 34
 end
@@ -799,6 +802,9 @@ y 34
 end
 arch market3
 name permanent apartments
+slaying ../dark/apartments
+hp 14
+sp 14
 x 3
 y 34
 end
