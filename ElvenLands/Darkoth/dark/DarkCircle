@@ -331,7 +331,6 @@ arch magic_ear
 msg
 @match yes
 Click.
-
 endmsg
 x 3
 y 2
@@ -348,14 +347,9 @@ end
 arch wizard
 msg
 @match hi|hello
-You wish to join the Dark Circle of
-magic?
+You wish to join the Dark Circle of magic?
 @match yes
- Good. However,you must first pass a
-test. I have opened the gate to the
-stairs which lead to your test. If you
-pass,we shall tell you the location of
-the Circle's headquarters.
+Good. However, you must first pass a test. I have opened the gate to the stairs which lead to your test. If you pass, we shall tell you the location of the Circle's headquarters.
 endmsg
 face wizard.131
 Con 5
