@@ -1,11 +1,11 @@
 arch map
-name <unnamed>
+name Dark Circle of Magic
 region elvenlands
 width 9
 height 16
 msg
 Created:  2002-02-04 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-26 Rick Tanner
+Modified: 2025-09-15 Rick Tanner
 endmsg
 end
 arch blackmarble
@@ -209,7 +209,7 @@ x 1
 y 15
 unique 1
 end
-arch flagstone_2_1_2
+arch flagstone_1_3
 x 1
 y 15
 end
@@ -308,7 +308,10 @@ x 2
 y 15
 unique 1
 end
-arch flagstone_2_1_2
+arch look_door_exit_1
+slaying ../shadow/city
+hp 18
+sp 19
 x 2
 y 15
 end
@@ -445,7 +448,7 @@ x 3
 y 15
 unique 1
 end
-arch flagstone_2_1_2
+arch flagstone_1_4
 x 3
 y 15
 end
