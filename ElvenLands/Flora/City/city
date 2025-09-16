@@ -5,7 +5,7 @@ width 51
 height 51
 msg
 Created:  2000-02-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-27 Rick Tanner
+Modified: 2025-09-16 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -4846,24 +4846,20 @@ pass_thru 1
 end
 arch magic_mouth
 msg
-A musical voice wispers,"What is the
-password,friend."
+A musical voice wispers,"What is the password, friend."
 endmsg
 x 18
 y 21
 end
 arch magic_ear
 msg
-@match Gaia's Defenders
-"Enter,friend..."
+@match gaia's defenders
+"Enter, friend..."
 You are suddenly pulled underwater.
-But strangely,you do not drown. You
-appear in a strange place...
+But strangely, you do not drown. You appear in a strange place...
 endmsg
 x 18
 y 21
-resist_fire 30
-resist_electricity 30
 connected 12
 end
 arch teleporter
