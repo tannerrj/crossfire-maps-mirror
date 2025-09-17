@@ -1,6 +1,10 @@
 arch map
 name Flora Food Shop
 region elvenlands
+shopitems shopitems food:55;*:-100
+shopgreed 1.00000
+shopmin 1
+shopmax 1500
 width 16
 height 16
 enter_x 2
