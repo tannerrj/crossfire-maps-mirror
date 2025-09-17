@@ -5,7 +5,7 @@ width 51
 height 51
 msg
 Created:  2000-02-03 Joel Southall (joel@prninfo.com)
-Modified: 2025-09-16 Rick Tanner
+Modified: 2025-09-17 Rick Tanner
 endmsg
 end
 arch jungle_1
@@ -12664,7 +12664,6 @@ y 31
 end
 arch market1
 name permanent apartments
-slaying /ElvenLands/Flora/City/apart
 x 45
 y 31
 end
@@ -12959,7 +12958,6 @@ y 31
 end
 arch market3
 name permanent apartments
-slaying /ElvenLands/Flora/City/apart
 x 46
 y 31
 end
