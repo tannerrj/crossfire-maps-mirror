@@ -9,7 +9,7 @@ height 24
 enter_x 12
 enter_y 19
 msg
-Modified: 2011-10-09 Rick Tanner
+Modified: 2025-09-19 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1194,14 +1194,9 @@ arch flagstone
 x 9
 y 17
 end
-arch swall_1_4_half
+arch stwall_2_1_2
 x 9
 y 17
-end
-arch stwall_1_3
-x 9
-y 17
-blocksview 0
 end
 arch flagstone
 x 9
@@ -1228,6 +1223,10 @@ y 18
 move_block all
 end
 arch flagstone
+x 9
+y 19
+end
+arch bench_1_4
 x 9
 y 19
 end
@@ -1355,7 +1354,7 @@ arch flagstone
 x 10
 y 17
 end
-arch swall_2_1_2
+arch stwall_2_1_2
 x 10
 y 17
 end
@@ -1373,6 +1372,10 @@ x 10
 y 18
 end
 arch flagstone
+x 10
+y 19
+end
+arch bench_2_1_2
 x 10
 y 19
 end
@@ -1487,11 +1490,19 @@ arch flagstone
 x 11
 y 17
 end
-arch swall_2_1_2
+arch swall_1_4
+x 11
+y 17
+end
+arch stwall_2_1_2
 x 11
 y 17
 end
 arch flagstone
+x 11
+y 18
+end
+arch bench_2_1_1
 x 11
 y 18
 end
@@ -1500,6 +1511,10 @@ x 11
 y 19
 end
 arch flagstone
+x 11
+y 19
+end
+arch bench_2_2_4
 x 11
 y 19
 end
@@ -1631,6 +1646,10 @@ x 12
 y 17
 end
 arch swall_2_1_2
+x 12
+y 17
+end
+arch stwall_1_3
 x 12
 y 17
 end
