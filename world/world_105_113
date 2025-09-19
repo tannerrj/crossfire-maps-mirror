@@ -5,7 +5,7 @@ region euthville
 width 50
 height 50
 msg
-Modified: 2022-04-17 Rick Tanner
+Modified: 2025-09-19 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_112
@@ -882,8 +882,6 @@ end
 arch guild2storage_northwest
 name Green Goblin Storage Room
 slaying /euthville/green_goblin/storage_room
-hp -1
-sp -1
 x 3
 y 19
 end

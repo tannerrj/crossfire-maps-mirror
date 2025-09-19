@@ -6,7 +6,7 @@ width 30
 height 30
 msg
 Created:  1996-02-07
-Modified: 2025-01-01 Rick Tanner
+Modified: 2025-09-19 Rick Tanner
 endmsg
 outdoor 1
 background_music nurnberg
@@ -2704,8 +2704,6 @@ end
 arch guild2
 name Guild of the Laughing Skull
 slaying ../guilds/laughing_skull/mainfloor
-hp -1
-sp -1
 x 16
 y 9
 move_block 0

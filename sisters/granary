@@ -8,7 +8,7 @@ enter_x 8
 enter_y 12
 msg
 Created:  1994-12-28
-Modified: 2022-09-17 Rick Tanner
+Modified: 2025-09-19 Rick Tanner
 endmsg
 end
 arch farmland
@@ -204,7 +204,6 @@ arch carrot
 nrof 7
 end
 arch bolt_silk
-name_pl bolts of silk
 end
 end
 arch grass_only

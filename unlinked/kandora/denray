@@ -5,7 +5,7 @@ height 16
 enter_x 15
 msg
 Created:  1999-02-03 King Zoobus
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2025-09-19 Rick Tanner
 endmsg
 end
 arch cobblestones2
@@ -170,8 +170,6 @@ y 7
 end
 arch keep
 slaying dd_keep
-hp -1
-sp -1
 x 1
 y 7
 end
@@ -484,8 +482,6 @@ y 13
 end
 arch store_weapons
 slaying dd_shop
-hp -1
-sp -1
 x 4
 y 13
 end
@@ -533,8 +529,6 @@ y 4
 end
 arch church
 slaying dd_church
-hp -1
-sp -1
 x 5
 y 4
 end
@@ -666,8 +660,6 @@ y 13
 end
 arch guild
 slaying dd_alchemy
-hp -1
-sp -1
 x 6
 y 13
 end
@@ -807,8 +799,6 @@ y 5
 end
 arch inn
 slaying dd_inn
-hp -1
-sp -1
 x 8
 y 5
 end
@@ -897,8 +887,6 @@ y 4
 end
 arch tavern
 slaying dd_tavern
-hp -1
-sp -1
 x 9
 y 4
 end
@@ -956,8 +944,6 @@ y 14
 end
 arch market1
 slaying dd_market
-hp -1
-sp -1
 x 9
 y 14
 end
@@ -1070,8 +1056,6 @@ y 14
 end
 arch market2
 slaying dd_market
-hp -1
-sp -1
 x 10
 y 14
 end
@@ -1217,8 +1201,6 @@ y 14
 end
 arch market3
 slaying dd_market
-hp -1
-sp -1
 x 11
 y 14
 end

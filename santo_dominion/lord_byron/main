@@ -8,7 +8,7 @@ height 60
 enter_x 25
 enter_y 58
 msg
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-09-19 Rick Tanner
 endmsg
 reset_group santodominion_lord-byrons-castle
 end
@@ -6855,8 +6855,6 @@ y 25
 end
 arch stair2_down
 slaying dungeon
-hp -1
-sp -1
 x 23
 y 25
 end

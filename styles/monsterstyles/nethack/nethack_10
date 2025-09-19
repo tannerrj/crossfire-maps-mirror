@@ -4,7 +4,7 @@ width 13
 height 26
 msg
 Created:  2001-02-05
-Modified: 2009-07-12 Andreas Kirschbaum
+Modified: 2025-09-19 Rick Tanner
 endmsg
 end
 arch mabu
@@ -135,17 +135,17 @@ y 2
 end
 arch ape
 name carnivorous ape
+Str 20
+Dex 18
 Con 5
 Wis 10
-Str 20
 Int 5
-Dex 18
-exp 1350
-dam 20
 hp 350
 maxhp 350
-ac 6
+exp 1350
+dam 20
 wc 6
+ac 6
 x 1
 y 3
 attacktype 1
@@ -920,7 +920,6 @@ end
 arch gaelotroll
 name Ice Troll
 dam 45
-wc -15
 ac -8
 x 7
 y 21

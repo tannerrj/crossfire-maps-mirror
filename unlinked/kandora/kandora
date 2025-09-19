@@ -4,7 +4,7 @@ width 40
 height 28
 msg
 Created:  1999-02-26 King Zoobus
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2025-09-19 Rick Tanner
 endmsg
 end
 arch woods
@@ -26,8 +26,6 @@ y 5
 end
 arch stronghold_sym
 slaying dun_marksel
-hp -1
-sp -1
 y 5
 end
 arch woods
@@ -75,8 +73,6 @@ end
 arch fort
 name Dun Denray
 slaying denray
-hp -1
-sp -1
 y 17
 end
 arch grassmedium
@@ -311,8 +307,6 @@ end
 arch tower_tob
 name signal tower
 slaying signal
-hp -1
-sp -1
 x 2
 y 9
 end
@@ -837,8 +831,6 @@ y 2
 end
 arch mountain_cave2
 slaying cave/entrance
-hp -1
-sp -1
 x 6
 y 2
 end
@@ -1575,8 +1567,6 @@ y 18
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 11
 y 18
 end
@@ -1598,8 +1588,6 @@ y 22
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 11
 y 22
 end
@@ -1708,8 +1696,6 @@ y 17
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 12
 y 17
 end
@@ -1731,8 +1717,6 @@ y 21
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 12
 y 21
 end
@@ -1754,8 +1738,6 @@ y 25
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 12
 y 25
 end
@@ -1852,8 +1834,6 @@ y 19
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 13
 y 19
 end
@@ -1863,8 +1843,6 @@ y 20
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 13
 y 20
 end
@@ -1882,8 +1860,6 @@ y 23
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 13
 y 23
 end
@@ -1901,8 +1877,6 @@ y 26
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 13
 y 26
 end
@@ -2160,8 +2134,6 @@ y 27
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 15
 y 27
 end
@@ -2270,8 +2242,6 @@ y 24
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 16
 y 24
 end
@@ -2281,8 +2251,6 @@ y 25
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 16
 y 25
 end
@@ -2292,8 +2260,6 @@ y 26
 end
 arch invis_exit
 slaying ambush1
-hp -1
-sp -1
 x 16
 y 26
 end

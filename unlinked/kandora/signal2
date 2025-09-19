@@ -8,7 +8,7 @@ enter_x 6
 enter_y 6
 msg
 Created:  1999-02-28 King Zoobus
-Modified: 2013-11-23 SilverNexus
+Modified: 2025-09-19 Rick Tanner
 endmsg
 end
 arch afloor_right
@@ -593,8 +593,6 @@ y 5
 end
 arch stair2_up
 slaying signal3
-hp -1
-sp -1
 x 6
 y 5
 end
