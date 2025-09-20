@@ -9,7 +9,7 @@ enter_y 16
 msg
 Created:  1993-10-10 skud the great (tvangod@ecst.csuchico.edu)
 Idea credited to Eric Mehlhaff.
-Modified: 2022-08-11 Rick Tanner
+Modified: 2025-09-20 Rick Tanner
 endmsg
 reset_group santodominion_bank
 end
@@ -158,7 +158,7 @@ arch grass_only
 x 2
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 2
 end
@@ -166,7 +166,7 @@ arch dwall_2_2_2
 x 2
 y 2
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 3
 end
@@ -174,7 +174,7 @@ arch dwall_3_2
 x 2
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 4
 end
@@ -182,7 +182,7 @@ arch dwall_3_2
 x 2
 y 4
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 5
 end
@@ -190,7 +190,7 @@ arch dwall_2_1_1
 x 2
 y 5
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 6
 end
@@ -198,7 +198,7 @@ arch dwall_win1
 x 2
 y 6
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 7
 end
@@ -206,7 +206,7 @@ arch dwall_2_1_1
 x 2
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 8
 end
@@ -214,7 +214,7 @@ arch dwall_3_2
 x 2
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 9
 end
@@ -222,7 +222,7 @@ arch dwall_3_2
 x 2
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 10
 end
@@ -230,7 +230,7 @@ arch dwall_3_2
 x 2
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 11
 end
@@ -238,7 +238,7 @@ arch dwall_3_2
 x 2
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 12
 end
@@ -246,7 +246,7 @@ arch dwall_2_1_1
 x 2
 y 12
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 13
 end
@@ -254,7 +254,7 @@ arch dwall_win1
 x 2
 y 13
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 14
 end
@@ -262,7 +262,7 @@ arch dwall_2_1_1
 x 2
 y 14
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 15
 end
@@ -270,7 +270,7 @@ arch dwall_3_2
 x 2
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 16
 end
@@ -278,7 +278,7 @@ arch dwall_3_2
 x 2
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 2
 y 17
 end
@@ -301,7 +301,7 @@ arch grass_only
 x 3
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 2
 end
@@ -313,7 +313,7 @@ arch dungeon_magic
 x 3
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 3
 end
@@ -325,7 +325,7 @@ arch dungeon_magic
 x 3
 y 4
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 4
 end
@@ -375,7 +375,7 @@ arch dungeon_magic
 x 3
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 8
 end
@@ -387,7 +387,7 @@ arch dungeon_magic
 x 3
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 9
 end
@@ -399,7 +399,7 @@ arch dungeon_magic
 x 3
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 10
 end
@@ -411,7 +411,7 @@ arch dungeon_magic
 x 3
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 11
 end
@@ -459,7 +459,7 @@ arch dungeon_magic
 x 3
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 15
 end
@@ -471,7 +471,7 @@ arch dungeon_magic
 x 3
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 16
 end
@@ -483,7 +483,7 @@ arch dungeon_magic
 x 3
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 3
 y 17
 end
@@ -510,7 +510,7 @@ arch grass_only
 x 4
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 2
 end
@@ -522,7 +522,7 @@ arch dungeon_magic
 x 4
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 3
 end
@@ -534,7 +534,7 @@ arch dungeon_magic
 x 4
 y 4
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 4
 end
@@ -570,7 +570,7 @@ arch dungeon_magic
 x 4
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 8
 end
@@ -586,7 +586,7 @@ arch dungeon_magic
 x 4
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 9
 end
@@ -598,7 +598,7 @@ arch dungeon_magic
 x 4
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 10
 end
@@ -610,7 +610,7 @@ arch dungeon_magic
 x 4
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 11
 end
@@ -646,7 +646,7 @@ arch dungeon_magic
 x 4
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 15
 end
@@ -658,7 +658,7 @@ arch dungeon_magic
 x 4
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 16
 end
@@ -670,7 +670,7 @@ arch dungeon_magic
 x 4
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 4
 y 17
 end
@@ -697,7 +697,7 @@ arch grass_only
 x 5
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 5
 y 2
 end
@@ -777,7 +777,7 @@ arch dungeon_magic
 x 5
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 5
 y 10
 end
@@ -849,7 +849,7 @@ arch dungeon_magic
 x 5
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 5
 y 17
 end
@@ -876,7 +876,7 @@ arch grass_only
 x 6
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 6
 y 2
 end
@@ -1036,7 +1036,7 @@ arch dungeon_magic
 x 6
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 6
 y 17
 end
@@ -1063,7 +1063,7 @@ arch grass_only
 x 7
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 7
 y 2
 end
@@ -1222,7 +1222,7 @@ arch dungeon_magic
 x 7
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 7
 y 17
 end
@@ -1249,7 +1249,7 @@ arch grass_only
 x 8
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 8
 y 2
 end
@@ -1390,7 +1390,7 @@ arch dungeon_magic
 x 8
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 8
 y 17
 end
@@ -1417,7 +1417,7 @@ arch grass_only
 x 9
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 9
 y 2
 end
@@ -1551,7 +1551,7 @@ arch dungeon_magic
 x 9
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 9
 y 15
 end
@@ -1563,7 +1563,7 @@ arch dungeon_magic
 x 9
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 9
 y 16
 end
@@ -1575,7 +1575,7 @@ arch dungeon_magic
 x 9
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 9
 y 17
 end
@@ -1602,7 +1602,7 @@ arch grass_only
 x 10
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 10
 y 2
 end
@@ -1727,7 +1727,7 @@ arch dungeon_magic
 x 10
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 10
 y 15
 end
@@ -1739,7 +1739,7 @@ arch dungeon_magic
 x 10
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 10
 y 16
 end
@@ -1751,7 +1751,7 @@ arch dungeon_magic
 x 10
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 10
 y 17
 end
@@ -1778,7 +1778,7 @@ arch grass_only
 x 11
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 11
 y 2
 end
@@ -1946,7 +1946,7 @@ sp 21
 x 11
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 11
 y 17
 end
@@ -1969,7 +1969,7 @@ arch grass_only
 x 12
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 12
 y 2
 end
@@ -2121,7 +2121,7 @@ sp 21
 x 12
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 12
 y 17
 end
@@ -2144,7 +2144,7 @@ arch grass_only
 x 13
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 13
 y 2
 end
@@ -2300,7 +2300,7 @@ sp 21
 x 13
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 13
 y 17
 end
@@ -2323,7 +2323,7 @@ arch grass_only
 x 14
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 2
 end
@@ -2335,7 +2335,7 @@ arch dungeon_magic
 x 14
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 3
 end
@@ -2386,7 +2386,7 @@ arch dungeon_magic
 x 14
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 7
 end
@@ -2398,7 +2398,7 @@ arch dungeon_magic
 x 14
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 8
 end
@@ -2489,7 +2489,7 @@ arch dungeon_magic
 x 14
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 15
 end
@@ -2501,7 +2501,7 @@ arch dungeon_magic
 x 14
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 16
 end
@@ -2513,7 +2513,7 @@ arch dungeon_magic
 x 14
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 14
 y 17
 end
@@ -2540,7 +2540,7 @@ arch grass_only
 x 15
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 2
 end
@@ -2552,7 +2552,7 @@ arch dungeon_magic
 x 15
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 3
 end
@@ -2588,7 +2588,7 @@ arch dungeon_magic
 x 15
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 7
 end
@@ -2600,7 +2600,7 @@ arch dungeon_magic
 x 15
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 8
 end
@@ -2620,7 +2620,7 @@ arch dungeon_magic
 x 15
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 10
 end
@@ -2672,7 +2672,7 @@ arch dungeon_magic
 x 15
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 15
 end
@@ -2684,7 +2684,7 @@ arch dungeon_magic
 x 15
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 16
 end
@@ -2696,7 +2696,7 @@ arch dungeon_magic
 x 15
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 15
 y 17
 end
@@ -2723,7 +2723,7 @@ arch grass_only
 x 16
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 2
 end
@@ -2735,7 +2735,7 @@ arch dungeon_magic
 x 16
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 3
 end
@@ -2807,7 +2807,7 @@ arch dungeon_magic
 x 16
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 7
 end
@@ -2819,7 +2819,7 @@ arch dungeon_magic
 x 16
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 8
 end
@@ -2831,7 +2831,7 @@ arch dungeon_magic
 x 16
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 9
 end
@@ -2843,7 +2843,7 @@ arch dungeon_magic
 x 16
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 10
 end
@@ -2907,7 +2907,7 @@ arch dungeon_magic
 x 16
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 16
 y 17
 end
@@ -2934,7 +2934,7 @@ arch grass_only
 x 17
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 17
 y 2
 end
@@ -2946,7 +2946,7 @@ arch dungeon_magic
 x 17
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 17
 y 3
 end
@@ -3022,7 +3022,7 @@ arch dungeon_magic
 x 17
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 17
 y 7
 end
@@ -3034,7 +3034,7 @@ arch dungeon_magic
 x 17
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 17
 y 8
 end
@@ -3121,7 +3121,7 @@ arch dungeon_magic
 x 17
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 17
 y 17
 end
@@ -3148,7 +3148,7 @@ arch grass_only
 x 18
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 18
 y 2
 end
@@ -3160,7 +3160,7 @@ arch dungeon_magic
 x 18
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 18
 y 3
 end
@@ -3214,7 +3214,7 @@ arch dungeon_magic
 x 18
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 18
 y 7
 end
@@ -3226,7 +3226,7 @@ arch dungeon_magic
 x 18
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 18
 y 8
 end
@@ -3306,7 +3306,7 @@ arch dungeon_magic
 x 18
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 18
 y 17
 end
@@ -3333,7 +3333,7 @@ arch grass_only
 x 19
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 19
 y 2
 end
@@ -3345,7 +3345,7 @@ arch dungeon_magic
 x 19
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 19
 y 3
 end
@@ -3401,7 +3401,7 @@ arch dungeon_magic
 x 19
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 19
 y 7
 end
@@ -3413,7 +3413,7 @@ arch dungeon_magic
 x 19
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 19
 y 8
 end
@@ -3500,7 +3500,7 @@ arch dungeon_magic
 x 19
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 19
 y 17
 end
@@ -3527,7 +3527,7 @@ arch grass_only
 x 20
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 2
 end
@@ -3539,7 +3539,7 @@ arch dungeon_magic
 x 20
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 3
 end
@@ -3615,7 +3615,7 @@ arch dungeon_magic
 x 20
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 7
 end
@@ -3627,7 +3627,7 @@ arch dungeon_magic
 x 20
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 8
 end
@@ -3639,7 +3639,7 @@ arch dungeon_magic
 x 20
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 9
 end
@@ -3651,7 +3651,7 @@ arch dungeon_magic
 x 20
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 10
 end
@@ -3663,7 +3663,7 @@ arch dungeon_magic
 x 20
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 11
 end
@@ -3703,7 +3703,7 @@ arch dungeon_magic
 x 20
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 15
 end
@@ -3715,7 +3715,7 @@ arch dungeon_magic
 x 20
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 16
 end
@@ -3727,7 +3727,7 @@ arch dungeon_magic
 x 20
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 20
 y 17
 end
@@ -3754,7 +3754,7 @@ arch grass_only
 x 21
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 2
 end
@@ -3766,7 +3766,7 @@ arch dungeon_magic
 x 21
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 3
 end
@@ -3778,7 +3778,7 @@ arch dungeon_magic
 x 21
 y 4
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 4
 end
@@ -3790,7 +3790,7 @@ arch dungeon_magic
 x 21
 y 5
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 5
 end
@@ -3802,7 +3802,7 @@ arch dungeon_magic
 x 21
 y 6
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 6
 end
@@ -3814,7 +3814,7 @@ arch dungeon_magic
 x 21
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 7
 end
@@ -3826,7 +3826,7 @@ arch dungeon_magic
 x 21
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 8
 end
@@ -3838,7 +3838,7 @@ arch dungeon_magic
 x 21
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 9
 end
@@ -3850,7 +3850,7 @@ arch dungeon_magic
 x 21
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 10
 end
@@ -3862,7 +3862,7 @@ arch dungeon_magic
 x 21
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 11
 end
@@ -3918,7 +3918,7 @@ arch dungeon_magic
 x 21
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 15
 end
@@ -3930,7 +3930,7 @@ arch dungeon_magic
 x 21
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 16
 end
@@ -3942,7 +3942,7 @@ arch dungeon_magic
 x 21
 y 17
 end
-arch tile_shop
+arch cobblestones2
 x 21
 y 17
 end
@@ -3969,7 +3969,7 @@ arch grass_only
 x 22
 y 1
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 2
 end
@@ -3977,7 +3977,7 @@ arch dwall_2_2_3
 x 22
 y 2
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 3
 end
@@ -3985,7 +3985,7 @@ arch dwall_3_4
 x 22
 y 3
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 4
 end
@@ -3993,7 +3993,7 @@ arch dwall_3_4
 x 22
 y 4
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 5
 end
@@ -4001,7 +4001,7 @@ arch dwall_3_4
 x 22
 y 5
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 6
 end
@@ -4009,7 +4009,7 @@ arch dwall_3_4
 x 22
 y 6
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 7
 end
@@ -4017,7 +4017,7 @@ arch dwall_3_4
 x 22
 y 7
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 8
 end
@@ -4025,7 +4025,7 @@ arch dwall_3_4
 x 22
 y 8
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 9
 end
@@ -4033,7 +4033,7 @@ arch dwall_3_4
 x 22
 y 9
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 10
 end
@@ -4041,7 +4041,7 @@ arch dwall_3_4
 x 22
 y 10
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 11
 end
@@ -4049,7 +4049,7 @@ arch dwall_3_4
 x 22
 y 11
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 12
 end
@@ -4057,7 +4057,7 @@ arch dwall_2_1_1
 x 22
 y 12
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 13
 end
@@ -4065,7 +4065,7 @@ arch dwall_2_1_1
 x 22
 y 13
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 14
 end
@@ -4073,7 +4073,7 @@ arch dwall_2_1_1
 x 22
 y 14
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 15
 end
@@ -4081,7 +4081,7 @@ arch dwall_3_4
 x 22
 y 15
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 16
 end
@@ -4089,7 +4089,7 @@ arch dwall_3_4
 x 22
 y 16
 end
-arch tile_shop
+arch cobblestones2
 x 22
 y 17
 end
