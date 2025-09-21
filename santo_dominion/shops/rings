@@ -11,7 +11,7 @@ enter_x 7
 enter_y 9
 msg
 Created:  1994-05-12
-Modified: 2025-07-30 Rick Tanner
+Modified: 2025-09-21 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -118,7 +118,7 @@ arch grass_only
 x 2
 y 1
 end
-arch marble
+arch dungeon_floor
 x 2
 y 2
 end
@@ -126,7 +126,7 @@ arch stwall_2_2_2
 x 2
 y 2
 end
-arch marble
+arch dungeon_floor
 x 2
 y 3
 end
@@ -134,7 +134,7 @@ arch stwall_2_1_1
 x 2
 y 3
 end
-arch marble
+arch dungeon_floor
 x 2
 y 4
 end
@@ -142,7 +142,7 @@ arch stwall_2_1_1
 x 2
 y 4
 end
-arch marble
+arch dungeon_floor
 x 2
 y 5
 end
@@ -150,7 +150,7 @@ arch stwall_3_2
 x 2
 y 5
 end
-arch marble
+arch dungeon_floor
 x 2
 y 6
 end
@@ -162,7 +162,7 @@ arch light2
 x 2
 y 7
 end
-arch marble
+arch dungeon_floor
 x 2
 y 7
 end
@@ -170,7 +170,7 @@ arch stwindow_win1
 x 2
 y 7
 end
-arch marble
+arch dungeon_floor
 x 2
 y 8
 end
@@ -178,7 +178,7 @@ arch stwall_2_1_1
 x 2
 y 8
 end
-arch marble
+arch dungeon_floor
 x 2
 y 9
 end
@@ -186,7 +186,7 @@ arch stwall_2_1_1
 x 2
 y 9
 end
-arch marble
+arch dungeon_floor
 x 2
 y 10
 end
@@ -194,7 +194,7 @@ arch stwall_2_1_1
 x 2
 y 10
 end
-arch marble
+arch dungeon_floor
 x 2
 y 11
 end
@@ -217,7 +217,7 @@ arch grass_only
 x 3
 y 1
 end
-arch marble
+arch dungeon_floor
 x 3
 y 2
 end
@@ -281,7 +281,7 @@ arch light2
 x 3
 y 11
 end
-arch marble
+arch dungeon_floor
 x 3
 y 11
 end
@@ -304,7 +304,7 @@ arch grass_only
 x 4
 y 1
 end
-arch marble
+arch dungeon_floor
 x 4
 y 2
 end
@@ -354,7 +354,7 @@ arch marble
 x 4
 y 10
 end
-arch marble
+arch dungeon_floor
 x 4
 y 11
 end
@@ -377,7 +377,7 @@ arch grass_only
 x 5
 y 1
 end
-arch marble
+arch dungeon_floor
 x 5
 y 2
 end
@@ -455,7 +455,7 @@ arch light2
 x 5
 y 11
 end
-arch marble
+arch dungeon_floor
 x 5
 y 11
 end
@@ -478,7 +478,7 @@ arch grass_only
 x 6
 y 1
 end
-arch marble
+arch dungeon_floor
 x 6
 y 2
 end
@@ -535,7 +535,7 @@ arch marble
 x 6
 y 10
 end
-arch marble
+arch dungeon_floor
 x 6
 y 11
 end
@@ -569,7 +569,7 @@ arch grass_only
 x 7
 y 1
 end
-arch marble
+arch dungeon_floor
 x 7
 y 2
 end
@@ -645,7 +645,7 @@ x 7
 y 11
 connected 2
 end
-arch marble
+arch dungeon_floor
 x 7
 y 11
 end
@@ -680,7 +680,7 @@ arch grass_only
 x 8
 y 1
 end
-arch marble
+arch dungeon_floor
 x 8
 y 2
 end
@@ -757,7 +757,7 @@ arch marble
 x 8
 y 11
 end
-arch marble
+arch dungeon_floor
 x 8
 y 11
 end
@@ -791,7 +791,7 @@ arch grass_only
 x 9
 y 1
 end
-arch marble
+arch dungeon_floor
 x 9
 y 2
 end
@@ -887,7 +887,7 @@ arch stwall_2_1_1
 x 9
 y 10
 end
-arch marble
+arch dungeon_floor
 x 9
 y 11
 end
@@ -910,7 +910,7 @@ arch grass_only
 x 10
 y 1
 end
-arch marble
+arch dungeon_floor
 x 10
 y 2
 end
@@ -958,7 +958,7 @@ arch shop_empty
 x 10
 y 10
 end
-arch marble
+arch dungeon_floor
 x 10
 y 11
 end
@@ -985,7 +985,7 @@ arch light2
 x 11
 y 2
 end
-arch marble
+arch dungeon_floor
 x 11
 y 2
 end
@@ -1025,7 +1025,7 @@ arch shop_ring
 x 11
 y 10
 end
-arch marble
+arch dungeon_floor
 x 11
 y 11
 end
@@ -1048,7 +1048,7 @@ arch grass_only
 x 12
 y 1
 end
-arch marble
+arch dungeon_floor
 x 12
 y 2
 end
@@ -1096,7 +1096,7 @@ arch shop_ring
 x 12
 y 10
 end
-arch marble
+arch dungeon_floor
 x 12
 y 11
 end
@@ -1119,7 +1119,7 @@ arch grass_only
 x 13
 y 1
 end
-arch marble
+arch dungeon_floor
 x 13
 y 2
 end
@@ -1159,7 +1159,7 @@ arch shop_ring
 x 13
 y 10
 end
-arch marble
+arch dungeon_floor
 x 13
 y 11
 end
@@ -1182,7 +1182,7 @@ arch grass_only
 x 14
 y 1
 end
-arch marble
+arch dungeon_floor
 x 14
 y 2
 end
@@ -1222,7 +1222,7 @@ arch shop_ring
 x 14
 y 10
 end
-arch marble
+arch dungeon_floor
 x 14
 y 11
 end
@@ -1245,7 +1245,7 @@ arch grass_only
 x 15
 y 1
 end
-arch marble
+arch dungeon_floor
 x 15
 y 2
 end
@@ -1293,7 +1293,7 @@ arch shop_ring
 x 15
 y 10
 end
-arch marble
+arch dungeon_floor
 x 15
 y 11
 end
@@ -1316,7 +1316,7 @@ arch grass_only
 x 16
 y 1
 end
-arch marble
+arch dungeon_floor
 x 16
 y 2
 end
@@ -1360,7 +1360,7 @@ arch light2
 x 16
 y 11
 end
-arch marble
+arch dungeon_floor
 x 16
 y 11
 end
@@ -1387,7 +1387,7 @@ arch light2
 x 17
 y 2
 end
-arch marble
+arch dungeon_floor
 x 17
 y 2
 end
@@ -1427,7 +1427,7 @@ arch shop_ring
 x 17
 y 10
 end
-arch marble
+arch dungeon_floor
 x 17
 y 11
 end
@@ -1450,7 +1450,7 @@ arch grass_only
 x 18
 y 1
 end
-arch marble
+arch dungeon_floor
 x 18
 y 2
 end
@@ -1498,7 +1498,7 @@ arch shop_ring
 x 18
 y 10
 end
-arch marble
+arch dungeon_floor
 x 18
 y 11
 end
@@ -1521,7 +1521,7 @@ arch grass_only
 x 19
 y 1
 end
-arch marble
+arch dungeon_floor
 x 19
 y 2
 end
@@ -1565,7 +1565,7 @@ arch light2
 x 19
 y 11
 end
-arch marble
+arch dungeon_floor
 x 19
 y 11
 end
@@ -1588,7 +1588,7 @@ arch grass_only
 x 20
 y 1
 end
-arch marble
+arch dungeon_floor
 x 20
 y 2
 end
@@ -1628,7 +1628,7 @@ arch shop_ring
 x 20
 y 10
 end
-arch marble
+arch dungeon_floor
 x 20
 y 11
 end
@@ -1651,7 +1651,7 @@ arch grass_only
 x 21
 y 1
 end
-arch marble
+arch dungeon_floor
 x 21
 y 2
 end
@@ -1691,7 +1691,7 @@ arch shop_ring
 x 21
 y 10
 end
-arch marble
+arch dungeon_floor
 x 21
 y 11
 end
@@ -1714,7 +1714,7 @@ arch grass_only
 x 22
 y 1
 end
-arch marble
+arch dungeon_floor
 x 22
 y 2
 end
@@ -1762,7 +1762,7 @@ arch shop_ring
 x 22
 y 10
 end
-arch marble
+arch dungeon_floor
 x 22
 y 11
 end
@@ -1789,7 +1789,7 @@ arch light2
 x 23
 y 2
 end
-arch marble
+arch dungeon_floor
 x 23
 y 2
 end
@@ -1829,7 +1829,7 @@ arch shop_ring
 x 23
 y 10
 end
-arch marble
+arch dungeon_floor
 x 23
 y 11
 end
@@ -1852,7 +1852,7 @@ arch grass_only
 x 24
 y 1
 end
-arch marble
+arch dungeon_floor
 x 24
 y 2
 end
@@ -1892,7 +1892,7 @@ arch shop_ring
 x 24
 y 10
 end
-arch marble
+arch dungeon_floor
 x 24
 y 11
 end
@@ -1915,7 +1915,7 @@ arch grass_only
 x 25
 y 1
 end
-arch marble
+arch dungeon_floor
 x 25
 y 2
 end
@@ -1963,7 +1963,7 @@ arch shop_ring
 x 25
 y 10
 end
-arch marble
+arch dungeon_floor
 x 25
 y 11
 end
@@ -1986,7 +1986,7 @@ arch grass_only
 x 26
 y 1
 end
-arch marble
+arch dungeon_floor
 x 26
 y 2
 end
@@ -2026,7 +2026,7 @@ arch shop_ring
 x 26
 y 10
 end
-arch marble
+arch dungeon_floor
 x 26
 y 11
 end
@@ -2049,7 +2049,7 @@ arch grass_only
 x 27
 y 1
 end
-arch marble
+arch dungeon_floor
 x 27
 y 2
 end
@@ -2089,7 +2089,7 @@ arch shop_ring
 x 27
 y 10
 end
-arch marble
+arch dungeon_floor
 x 27
 y 11
 end
@@ -2112,7 +2112,7 @@ arch grass_only
 x 28
 y 1
 end
-arch marble
+arch dungeon_floor
 x 28
 y 2
 end
@@ -2160,7 +2160,7 @@ arch shop_ring
 x 28
 y 10
 end
-arch marble
+arch dungeon_floor
 x 28
 y 11
 end
@@ -2183,7 +2183,7 @@ arch grass_only
 x 29
 y 1
 end
-arch marble
+arch dungeon_floor
 x 29
 y 2
 end
@@ -2191,7 +2191,7 @@ arch stwall_2_2_3
 x 29
 y 2
 end
-arch marble
+arch dungeon_floor
 x 29
 y 3
 end
@@ -2203,7 +2203,7 @@ arch light2
 x 29
 y 4
 end
-arch marble
+arch dungeon_floor
 x 29
 y 4
 end
@@ -2211,7 +2211,7 @@ arch stwindow_win1
 x 29
 y 4
 end
-arch marble
+arch dungeon_floor
 x 29
 y 5
 end
@@ -2219,7 +2219,7 @@ arch stwall_2_1_1
 x 29
 y 5
 end
-arch marble
+arch dungeon_floor
 x 29
 y 6
 end
@@ -2227,7 +2227,7 @@ arch stwall_2_1_1
 x 29
 y 6
 end
-arch marble
+arch dungeon_floor
 x 29
 y 7
 end
@@ -2235,7 +2235,7 @@ arch stwall_2_1_1
 x 29
 y 7
 end
-arch marble
+arch dungeon_floor
 x 29
 y 8
 end
@@ -2247,7 +2247,7 @@ arch light2
 x 29
 y 9
 end
-arch marble
+arch dungeon_floor
 x 29
 y 9
 end
@@ -2255,7 +2255,7 @@ arch stwindow_win1
 x 29
 y 9
 end
-arch marble
+arch dungeon_floor
 x 29
 y 10
 end
@@ -2263,7 +2263,7 @@ arch stwall_2_1_1
 x 29
 y 10
 end
-arch marble
+arch dungeon_floor
 x 29
 y 11
 end
