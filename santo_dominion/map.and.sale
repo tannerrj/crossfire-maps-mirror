@@ -10,7 +10,7 @@ enter_x 7
 enter_y 14
 msg
 Created: Andreas Vogl (red.blaze@gmx.net)
-Modified: 2023-06-12 Rick Tanner
+Modified: 2025-09-22 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -144,7 +144,7 @@ arch grass_only
 x 2
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 2
 end
@@ -152,7 +152,7 @@ arch dwall_2_2_2
 x 2
 y 2
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 3
 end
@@ -160,7 +160,7 @@ arch dwall_2_1_1
 x 2
 y 3
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 4
 end
@@ -168,7 +168,7 @@ arch dwall_2_1_1
 x 2
 y 4
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 5
 end
@@ -176,7 +176,7 @@ arch dwall_win1
 x 2
 y 5
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 6
 end
@@ -184,7 +184,7 @@ arch dwall_2_1_1
 x 2
 y 6
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 7
 end
@@ -192,7 +192,7 @@ arch dwall_2_1_1
 x 2
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 8
 end
@@ -200,7 +200,7 @@ arch dwall_2_1_1
 x 2
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 9
 end
@@ -208,7 +208,7 @@ arch dwall_2_1_1
 x 2
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 10
 end
@@ -216,7 +216,7 @@ arch dwall_win1
 x 2
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 11
 end
@@ -224,7 +224,7 @@ arch dwall_3_2
 x 2
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 12
 end
@@ -232,7 +232,7 @@ arch dwall_2_1_1
 x 2
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 13
 end
@@ -240,7 +240,7 @@ arch dwall_2_1_1
 x 2
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 14
 end
@@ -248,7 +248,7 @@ arch dwall_2_1_1
 x 2
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 2
 y 15
 end
@@ -271,7 +271,7 @@ arch grass_only
 x 3
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 2
 end
@@ -391,7 +391,7 @@ speed 0.0
 invisible 1
 connected 1
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 11
 end
@@ -411,7 +411,7 @@ arch flagstone
 x 3
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 3
 y 15
 end
@@ -434,7 +434,7 @@ arch grass_only
 x 4
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 2
 end
@@ -554,7 +554,7 @@ speed 0.0
 invisible 1
 connected 1
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 11
 end
@@ -578,7 +578,7 @@ arch flagstone
 x 4
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 4
 y 15
 end
@@ -601,7 +601,7 @@ arch grass_only
 x 5
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 2
 end
@@ -744,7 +744,7 @@ arch flagstone
 x 5
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 5
 y 15
 end
@@ -767,7 +767,7 @@ arch grass_only
 x 6
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 2
 end
@@ -906,7 +906,7 @@ endmsg
 x 6
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 6
 y 15
 end
@@ -934,7 +934,7 @@ arch grass_only
 x 7
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 2
 end
@@ -1062,7 +1062,7 @@ arch flagstone
 x 7
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 7
 y 15
 end
@@ -1093,7 +1093,7 @@ arch grass_only
 x 8
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 2
 end
@@ -1223,7 +1223,7 @@ arch flagstone
 x 8
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 8
 y 15
 end
@@ -1251,7 +1251,7 @@ arch grass_only
 x 9
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 2
 end
@@ -1381,7 +1381,7 @@ arch flagstone
 x 9
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 9
 y 15
 end
@@ -1404,7 +1404,7 @@ arch grass_only
 x 10
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1524,7 +1524,7 @@ speed 0.0
 invisible 1
 connected 1
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 11
 end
@@ -1548,7 +1548,7 @@ arch flagstone
 x 10
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 10
 y 15
 end
@@ -1571,7 +1571,7 @@ arch grass_only
 x 11
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 2
 end
@@ -1691,7 +1691,7 @@ speed 0.0
 invisible 1
 connected 1
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 11
 end
@@ -1711,7 +1711,7 @@ arch flagstone
 x 11
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 11
 y 15
 end
@@ -1734,7 +1734,7 @@ arch grass_only
 x 12
 y 1
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 2
 end
@@ -1742,7 +1742,7 @@ arch dwall_2_2_3
 x 12
 y 2
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 3
 end
@@ -1750,7 +1750,7 @@ arch dwall_2_1_1
 x 12
 y 3
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 4
 end
@@ -1758,7 +1758,7 @@ arch dwall_2_1_1
 x 12
 y 4
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 5
 end
@@ -1766,7 +1766,7 @@ arch dwall_win1
 x 12
 y 5
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 6
 end
@@ -1774,7 +1774,7 @@ arch dwall_2_1_1
 x 12
 y 6
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 7
 end
@@ -1782,7 +1782,7 @@ arch dwall_2_1_1
 x 12
 y 7
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 8
 end
@@ -1790,7 +1790,7 @@ arch dwall_2_1_1
 x 12
 y 8
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 9
 end
@@ -1798,7 +1798,7 @@ arch dwall_2_1_1
 x 12
 y 9
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 10
 end
@@ -1806,7 +1806,7 @@ arch dwall_win1
 x 12
 y 10
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 11
 end
@@ -1814,7 +1814,7 @@ arch dwall_3_4
 x 12
 y 11
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 12
 end
@@ -1822,7 +1822,7 @@ arch dwall_2_1_1
 x 12
 y 12
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 13
 end
@@ -1830,7 +1830,7 @@ arch dwall_2_1_1
 x 12
 y 13
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 14
 end
@@ -1838,7 +1838,7 @@ arch dwall_2_1_1
 x 12
 y 14
 end
-arch flagstone
+arch dungeon_floor
 x 12
 y 15
 end
@@ -1996,13 +1996,13 @@ arch cobblestones
 x 14
 y 17
 end
-arch grass_only
+arch dungeon_floor
 x 15
 end
 arch dwall_2_2_2
 x 15
 end
-arch grass_only
+arch dungeon_floor
 x 15
 y 1
 end
@@ -2010,7 +2010,7 @@ arch dwall_2_1_1
 x 15
 y 1
 end
-arch grass_only
+arch dungeon_floor
 x 15
 y 2
 end
@@ -2018,7 +2018,7 @@ arch dwall_2_1_1
 x 15
 y 2
 end
-arch grass_only
+arch dungeon_floor
 x 15
 y 3
 end
@@ -2026,7 +2026,7 @@ arch dwall_2_1_1
 x 15
 y 3
 end
-arch grass_only
+arch dungeon_floor
 x 15
 y 4
 end
@@ -2034,7 +2034,7 @@ arch dwall_2_1_1
 x 15
 y 4
 end
-arch grass_only
+arch dungeon_floor
 x 15
 y 5
 end
@@ -2090,7 +2090,7 @@ arch cobblestones
 x 15
 y 17
 end
-arch grass_only
+arch dungeon_floor
 x 16
 end
 arch dwall_2_1_2
@@ -2112,7 +2112,7 @@ arch blocked
 x 16
 y 4
 end
-arch grass_only
+arch dungeon_floor
 x 16
 y 5
 end
@@ -2168,7 +2168,7 @@ arch cobblestones
 x 16
 y 17
 end
-arch grass_only
+arch dungeon_floor
 x 17
 end
 arch dwall_2_1_2
@@ -2199,7 +2199,7 @@ arch blocked
 x 17
 y 4
 end
-arch grass_only
+arch dungeon_floor
 x 17
 y 5
 end
@@ -2255,7 +2255,7 @@ arch cobblestones
 x 17
 y 17
 end
-arch grass_only
+arch dungeon_floor
 x 18
 end
 arch dwall_2_1_2
@@ -2277,7 +2277,7 @@ arch blocked
 x 18
 y 4
 end
-arch grass_only
+arch dungeon_floor
 x 18
 y 5
 end
@@ -2333,13 +2333,13 @@ arch cobblestones
 x 18
 y 17
 end
-arch grass_only
+arch dungeon_floor
 x 19
 end
 arch dwall_2_2_3
 x 19
 end
-arch grass_only
+arch dungeon_floor
 x 19
 y 1
 end
@@ -2347,7 +2347,7 @@ arch dwall_2_1_1
 x 19
 y 1
 end
-arch grass_only
+arch dungeon_floor
 x 19
 y 2
 end
@@ -2355,7 +2355,7 @@ arch dwall_2_1_1
 x 19
 y 2
 end
-arch grass_only
+arch dungeon_floor
 x 19
 y 3
 end
@@ -2363,7 +2363,7 @@ arch dwall_2_1_1
 x 19
 y 3
 end
-arch grass_only
+arch dungeon_floor
 x 19
 y 4
 end
@@ -2371,7 +2371,7 @@ arch dwall_2_1_1
 x 19
 y 4
 end
-arch grass_only
+arch dungeon_floor
 x 19
 y 5
 end
