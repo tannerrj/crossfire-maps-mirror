@@ -7,7 +7,7 @@ height 22
 enter_x 10
 enter_y 18
 msg
-Modified: 2023-06-12 Rick Tanner
+Modified: 2025-09-22 Rick Tanner
 endmsg
 outdoor 1
 reset_group santodominion_the-noble-resting
@@ -1295,13 +1295,23 @@ arch white_wall_2_2_1
 x 8
 y 19
 end
-arch grass_only
+arch dungeon_magic
 x 8
 y 20
 end
 arch grass_only
 x 8
+y 20
+move_block all
+end
+arch dungeon_magic
+x 8
 y 21
+end
+arch grass_only
+x 8
+y 21
+move_block all
 end
 arch grass_only
 x 9
@@ -1518,9 +1528,14 @@ arch grass_only
 x 9
 y 20
 end
+arch dungeon_magic
+x 9
+y 21
+end
 arch grass_only
 x 9
 y 21
+move_block all
 end
 arch grass_only
 x 10
@@ -1727,9 +1742,14 @@ arch grass_only
 x 10
 y 20
 end
+arch dungeon_magic
+x 10
+y 21
+end
 arch grass_only
 x 10
 y 21
+move_block all
 end
 arch grass_only
 x 11
@@ -1938,9 +1958,14 @@ arch grass_only
 x 11
 y 20
 end
+arch dungeon_magic
+x 11
+y 21
+end
 arch grass_only
 x 11
 y 21
+move_block all
 end
 arch grass_only
 x 12
@@ -2164,13 +2189,23 @@ arch white_wall_2_1_2
 x 12
 y 19
 end
-arch grass_only
+arch dungeon_magic
 x 12
 y 20
 end
 arch grass_only
 x 12
+y 20
+move_block all
+end
+arch dungeon_magic
+x 12
 y 21
+end
+arch grass_only
+x 12
+y 21
+move_block all
 end
 arch grass_only
 x 13
@@ -3971,13 +4006,23 @@ arch white_wall_2_1_2
 x 21
 y 18
 end
-arch grass_only
+arch dungeon_magic
 x 21
 y 19
 end
 arch grass_only
 x 21
+y 19
+move_block all
+end
+arch dungeon_magic
+x 21
 y 20
+end
+arch grass_only
+x 21
+y 20
+move_block all
 end
 arch grass_only
 x 21
@@ -4154,9 +4199,14 @@ arch grass_only
 x 22
 y 19
 end
+arch dungeon_magic
+x 22
+y 20
+end
 arch grass_only
 x 22
 y 20
+move_block all
 end
 arch grass_only
 x 22
@@ -4339,9 +4389,14 @@ arch grass_only
 x 23
 y 19
 end
+arch dungeon_magic
+x 23
+y 20
+end
 arch grass_only
 x 23
 y 20
+move_block all
 end
 arch grass_only
 x 23
@@ -4522,9 +4577,14 @@ arch grass_only
 x 24
 y 19
 end
+arch dungeon_magic
+x 24
+y 20
+end
 arch grass_only
 x 24
 y 20
+move_block all
 end
 arch grass_only
 x 24
@@ -4692,13 +4752,23 @@ arch white_wall_3_1
 x 25
 y 18
 end
-arch grass_only
+arch dungeon_magic
 x 25
 y 19
 end
 arch grass_only
 x 25
+y 19
+move_block all
+end
+arch dungeon_magic
+x 25
 y 20
+end
+arch grass_only
+x 25
+y 20
+move_block all
 end
 arch grass_only
 x 25
