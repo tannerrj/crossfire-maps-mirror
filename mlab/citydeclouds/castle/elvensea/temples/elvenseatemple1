@@ -1,0 +1,2049 @@
+arch map
+name Elven Sea Temple of Lythander, Nave
+reset_timeout 7200
+difficulty 1
+region citydeclouds
+width 20
+height 20
+enter_x 9
+enter_y 4
+msg
+Created:  2004-08-03 Mikeeusa
+Modified: 2025-09-25 Rick Tanner
+endmsg
+outdoor 1
+end
+arch woods
+end
+arch woods
+y 1
+end
+arch woods
+y 2
+end
+arch woods
+y 3
+end
+arch woods
+y 4
+end
+arch woods
+y 5
+end
+arch woods
+y 6
+end
+arch woods
+y 7
+end
+arch woods
+y 8
+end
+arch woods
+y 9
+end
+arch woods
+y 10
+end
+arch woods
+y 11
+end
+arch woods
+y 12
+end
+arch woods
+y 13
+end
+arch woods
+y 14
+end
+arch woods
+y 15
+end
+arch woods
+y 16
+end
+arch woods
+y 17
+end
+arch woods
+y 18
+end
+arch woods
+y 19
+end
+arch woods
+x 1
+end
+arch woods
+x 1
+y 1
+end
+arch woods
+x 1
+y 2
+end
+arch woods
+x 1
+y 3
+end
+arch woods
+x 1
+y 4
+end
+arch woods
+x 1
+y 5
+end
+arch woods
+x 1
+y 6
+end
+arch woods
+x 1
+y 7
+end
+arch woods
+x 1
+y 8
+end
+arch woods
+x 1
+y 9
+end
+arch woods
+x 1
+y 10
+end
+arch woods
+x 1
+y 11
+end
+arch woods
+x 1
+y 12
+end
+arch woods
+x 1
+y 13
+end
+arch woods
+x 1
+y 14
+end
+arch woods
+x 1
+y 15
+end
+arch woods
+x 1
+y 16
+end
+arch woods
+x 1
+y 17
+end
+arch woods
+x 1
+y 18
+end
+arch woods
+x 1
+y 19
+end
+arch woods
+x 2
+end
+arch woods
+x 2
+y 1
+end
+arch lightgreenmarble
+x 2
+y 2
+end
+arch dwall_2_2_2
+x 2
+y 2
+end
+arch lightgreenmarble
+x 2
+y 3
+end
+arch dwall_2_1_1
+x 2
+y 3
+end
+arch lightgreenmarble
+x 2
+y 4
+end
+arch dwall_2_1_1
+x 2
+y 4
+end
+arch lightgreenmarble
+x 2
+y 5
+end
+arch dwall_win1
+x 2
+y 5
+end
+arch lightgreenmarble
+x 2
+y 6
+end
+arch dwall_2_1_1
+x 2
+y 6
+end
+arch lightgreenmarble
+x 2
+y 7
+end
+arch dwall_2_2_1
+x 2
+y 7
+end
+arch woods
+x 2
+y 8
+end
+arch woods
+x 2
+y 9
+end
+arch woods
+x 2
+y 10
+end
+arch woods
+x 2
+y 11
+end
+arch lightgreenmarble
+x 2
+y 12
+end
+arch dwall_2_2_2
+x 2
+y 12
+end
+arch lightgreenmarble
+x 2
+y 13
+end
+arch dwall_2_1_1
+x 2
+y 13
+end
+arch lightgreenmarble
+x 2
+y 14
+end
+arch dwall_win1
+x 2
+y 14
+end
+arch lightgreenmarble
+x 2
+y 15
+end
+arch dwall_win1
+x 2
+y 15
+end
+arch lightgreenmarble
+x 2
+y 16
+end
+arch dwall_2_1_1
+x 2
+y 16
+end
+arch lightgreenmarble
+x 2
+y 17
+end
+arch dwall_2_2_1
+x 2
+y 17
+end
+arch woods
+x 2
+y 18
+end
+arch woods
+x 2
+y 19
+end
+arch woods
+x 3
+end
+arch woods
+x 3
+y 1
+end
+arch lightgreenmarble
+x 3
+y 2
+end
+arch dwall_2_1_2
+x 3
+y 2
+end
+arch greenmarblemedium
+x 3
+y 3
+end
+arch greenmarblelight
+x 3
+y 4
+end
+arch greenmarblemedium
+x 3
+y 5
+end
+arch greenmarblelight
+x 3
+y 6
+end
+arch lightgreenmarble
+x 3
+y 7
+end
+arch dwall_2_2_3
+x 3
+y 7
+end
+arch lightgreenmarble
+x 3
+y 8
+end
+arch dwall_2_1_1
+x 3
+y 8
+end
+arch lightgreenmarble
+x 3
+y 9
+end
+arch dwall_2_1_1
+x 3
+y 9
+end
+arch lightgreenmarble
+x 3
+y 10
+end
+arch dwall_2_1_1
+x 3
+y 10
+end
+arch lightgreenmarble
+x 3
+y 11
+end
+arch dwall_2_1_1
+x 3
+y 11
+end
+arch lightgreenmarble
+x 3
+y 12
+end
+arch dwall_2_2_4
+x 3
+y 12
+end
+arch greenmarblemedium
+x 3
+y 13
+end
+arch greenmarblelight
+x 3
+y 14
+end
+arch greenmarblemedium
+x 3
+y 15
+end
+arch greenmarblelight
+x 3
+y 16
+end
+arch lightgreenmarble
+x 3
+y 17
+end
+arch dwall_2_1_2
+x 3
+y 17
+end
+arch woods
+x 3
+y 18
+end
+arch woods
+x 3
+y 19
+end
+arch woods
+x 4
+end
+arch woods
+x 4
+y 1
+end
+arch lightgreenmarble
+x 4
+y 2
+end
+arch dwall_win2
+x 4
+y 2
+end
+arch greenmarblelight
+x 4
+y 3
+end
+arch greenmarblemedium
+x 4
+y 4
+end
+arch greenmarblelight
+x 4
+y 5
+end
+arch greenmarblemedium
+x 4
+y 6
+end
+arch greenmarblelight
+x 4
+y 7
+end
+arch clover
+x 4
+y 7
+end
+arch greenmarblemedium
+x 4
+y 8
+end
+arch clover
+x 4
+y 8
+end
+arch greenmarblelight
+x 4
+y 9
+end
+arch clover
+x 4
+y 9
+end
+arch greenmarblemedium
+x 4
+y 10
+end
+arch clover
+x 4
+y 10
+end
+arch greenmarblelight
+x 4
+y 11
+end
+arch clover
+x 4
+y 11
+end
+arch greenmarblemedium
+x 4
+y 12
+end
+arch clover
+x 4
+y 12
+end
+arch greenmarblelight
+x 4
+y 13
+end
+arch greenmarblemedium
+x 4
+y 14
+end
+arch greenmarblelight
+x 4
+y 15
+end
+arch greenmarblemedium
+x 4
+y 16
+end
+arch lightgreenmarble
+x 4
+y 17
+end
+arch dwall_win2
+x 4
+y 17
+end
+arch woods
+x 4
+y 18
+end
+arch woods
+x 4
+y 19
+end
+arch woods
+x 5
+end
+arch woods
+x 5
+y 1
+end
+arch lightgreenmarble
+x 5
+y 2
+end
+arch dwall_win2
+x 5
+y 2
+end
+arch greenmarblemedium
+x 5
+y 3
+end
+arch greenmarblelight
+x 5
+y 4
+end
+arch greenmarblemedium
+x 5
+y 5
+end
+arch greenmarblelight
+x 5
+y 6
+end
+arch greenmarblemedium
+x 5
+y 7
+end
+arch greenmarblelight
+x 5
+y 8
+end
+arch greenmarblemedium
+x 5
+y 9
+end
+arch greenmarblelight
+x 5
+y 10
+end
+arch greenmarblemedium
+x 5
+y 11
+end
+arch greenmarblelight
+x 5
+y 12
+end
+arch greenmarblemedium
+x 5
+y 13
+end
+arch greenmarblelight
+x 5
+y 14
+end
+arch greenmarblemedium
+x 5
+y 15
+end
+arch greenmarblelight
+x 5
+y 16
+end
+arch lightgreenmarble
+x 5
+y 17
+end
+arch dwall_win2
+x 5
+y 17
+end
+arch woods
+x 5
+y 18
+end
+arch woods
+x 5
+y 19
+end
+arch woods
+x 6
+end
+arch woods
+x 6
+y 1
+end
+arch lightgreenmarble
+x 6
+y 2
+end
+arch dwall_2_1_2
+x 6
+y 2
+end
+arch greenmarblelight
+x 6
+y 3
+end
+arch greenmarblemedium
+x 6
+y 4
+end
+arch greenmarblelight
+x 6
+y 5
+end
+arch greenmarblemedium
+x 6
+y 6
+end
+arch greenmarblelight
+x 6
+y 7
+end
+arch greenmarblemedium
+x 6
+y 8
+end
+arch greenmarblelight
+x 6
+y 9
+end
+arch greenmarblemedium
+x 6
+y 10
+end
+arch greenmarblelight
+x 6
+y 11
+end
+arch greenmarblemedium
+x 6
+y 12
+end
+arch greenmarblelight
+x 6
+y 13
+end
+arch greenmarblemedium
+x 6
+y 14
+end
+arch greenmarblelight
+x 6
+y 15
+end
+arch greenmarblemedium
+x 6
+y 16
+end
+arch lightgreenmarble
+x 6
+y 17
+end
+arch dwall_2_1_2
+x 6
+y 17
+end
+arch woods
+x 6
+y 18
+end
+arch woods
+x 6
+y 19
+end
+arch woods
+x 7
+end
+arch woods
+x 7
+y 1
+end
+arch lightgreenmarble
+x 7
+y 2
+end
+arch dwall_2_2_3
+x 7
+y 2
+end
+arch dungeon_magic
+x 7
+y 3
+end
+arch lightgreenmarble
+x 7
+y 3
+end
+arch dwall_2_2_1
+x 7
+y 3
+end
+arch greenmarblelight
+x 7
+y 4
+end
+arch clover
+x 7
+y 4
+end
+arch greenmarblemedium
+x 7
+y 5
+end
+arch greenmarblelight
+x 7
+y 6
+end
+arch greenmarblemedium
+x 7
+y 7
+end
+arch greenmarblelight
+x 7
+y 8
+end
+arch greenmarblemedium
+x 7
+y 9
+end
+arch greenmarblelight
+x 7
+y 10
+end
+arch greenmarblemedium
+x 7
+y 11
+end
+arch greenmarblelight
+x 7
+y 12
+end
+arch greenmarblemedium
+x 7
+y 13
+end
+arch greenmarblelight
+x 7
+y 14
+end
+arch greenmarblemedium
+x 7
+y 15
+end
+arch clover
+x 7
+y 15
+end
+arch lightgreenmarble
+x 7
+y 16
+end
+arch dwall_2_2_2
+x 7
+y 16
+end
+arch lightgreenmarble
+x 7
+y 17
+end
+arch dwall_2_2_4
+x 7
+y 17
+end
+arch woods
+x 7
+y 18
+end
+arch woods
+x 7
+y 19
+end
+arch woods
+x 8
+end
+arch woods
+x 8
+y 1
+end
+arch dungeon_magic
+x 8
+y 2
+end
+arch woods
+x 8
+y 2
+move_block all
+end
+arch dungeon_magic
+x 8
+y 3
+end
+arch lightgreenmarble
+x 8
+y 3
+end
+arch dwall_1_3
+x 8
+y 3
+end
+arch greenmarblemedium
+x 8
+y 4
+end
+arch clover
+x 8
+y 4
+end
+arch greenmarblelight
+x 8
+y 5
+end
+arch greenmarblemedium
+x 8
+y 6
+end
+arch greenmarblelight
+x 8
+y 7
+end
+arch greenmarblemedium
+x 8
+y 8
+end
+arch greenmarble
+x 8
+y 9
+end
+arch slevel_2_2_2
+x 8
+y 9
+end
+arch greenmarble
+x 8
+y 10
+end
+arch slevel_2_2_1
+x 8
+y 10
+end
+arch greenmarblelight
+x 8
+y 11
+end
+arch greenmarblemedium
+x 8
+y 12
+end
+arch greenmarblelight
+x 8
+y 13
+end
+arch greenmarblemedium
+x 8
+y 14
+end
+arch greenmarblelight
+x 8
+y 15
+end
+arch clover
+x 8
+y 15
+end
+arch lightgreenmarble
+x 8
+y 16
+end
+arch dwall_1_3
+x 8
+y 16
+end
+arch woods
+x 8
+y 17
+end
+arch woods
+x 8
+y 18
+end
+arch woods
+x 8
+y 19
+end
+arch woods
+x 9
+end
+arch woods
+x 9
+y 1
+end
+arch dungeon_magic
+x 9
+y 2
+end
+arch woods
+x 9
+y 2
+move_block all
+end
+arch dungeon_magic
+x 9
+y 3
+end
+arch invis_exit
+slaying ../elvensea_012_012
+hp 23
+sp 38
+x 9
+y 3
+end
+arch lightgreenmarble
+x 9
+y 3
+end
+arch mdoor_open_1
+x 9
+y 3
+end
+arch greenmarblelight
+x 9
+y 4
+end
+arch clover
+x 9
+y 4
+end
+arch greenmarblemedium
+x 9
+y 5
+end
+arch greenmarblelight
+x 9
+y 6
+end
+arch greenmarblemedium
+x 9
+y 7
+end
+arch greenmarble
+x 9
+y 8
+end
+arch slevel_2_2_2
+x 9
+y 8
+end
+arch greenmarble
+x 9
+y 9
+end
+arch altar_lythander
+x 9
+y 9
+end
+arch greenmarble
+x 9
+y 10
+end
+arch altar_lythander
+x 9
+y 10
+end
+arch greenmarble
+x 9
+y 11
+end
+arch slevel_2_2_1
+x 9
+y 11
+end
+arch greenmarblelight
+x 9
+y 12
+end
+arch greenmarblemedium
+x 9
+y 13
+end
+arch greenmarblelight
+x 9
+y 14
+end
+arch greenmarblemedium
+x 9
+y 15
+end
+arch clover
+x 9
+y 15
+end
+arch lightgreenmarble
+x 9
+y 16
+end
+arch mdoor_closed_1
+x 9
+y 16
+end
+arch woods
+x 9
+y 17
+end
+arch woods
+x 9
+y 18
+end
+arch woods
+x 9
+y 19
+end
+arch woods
+x 10
+end
+arch woods
+x 10
+y 1
+end
+arch dungeon_magic
+x 10
+y 2
+end
+arch woods
+x 10
+y 2
+move_block all
+end
+arch dungeon_magic
+x 10
+y 3
+end
+arch lightgreenmarble
+x 10
+y 3
+end
+arch mdoor_closed_1
+x 10
+y 3
+end
+arch greenmarblemedium
+x 10
+y 4
+end
+arch clover
+x 10
+y 4
+end
+arch greenmarblelight
+x 10
+y 5
+end
+arch greenmarblemedium
+x 10
+y 6
+end
+arch greenmarblelight
+x 10
+y 7
+end
+arch greenmarble
+x 10
+y 8
+end
+arch slevel_2_2_3
+x 10
+y 8
+end
+arch greenmarble
+x 10
+y 9
+end
+arch altar_lythander
+x 10
+y 9
+end
+arch greenmarble
+x 10
+y 10
+end
+arch altar_lythander
+x 10
+y 10
+end
+arch greenmarble
+x 10
+y 11
+end
+arch slevel_2_2_4
+x 10
+y 11
+end
+arch greenmarblemedium
+x 10
+y 12
+end
+arch greenmarblelight
+x 10
+y 13
+end
+arch greenmarblemedium
+x 10
+y 14
+end
+arch greenmarblelight
+x 10
+y 15
+end
+arch clover
+x 10
+y 15
+end
+arch lightgreenmarble
+x 10
+y 16
+end
+arch mdoor_closed_1
+x 10
+y 16
+end
+arch woods
+x 10
+y 17
+end
+arch woods
+x 10
+y 18
+end
+arch woods
+x 10
+y 19
+end
+arch woods
+x 11
+end
+arch woods
+x 11
+y 1
+end
+arch dungeon_magic
+x 11
+y 2
+end
+arch woods
+x 11
+y 2
+move_block all
+end
+arch dungeon_magic
+x 11
+y 3
+end
+arch lightgreenmarble
+x 11
+y 3
+end
+arch dwall_1_4
+x 11
+y 3
+end
+arch greenmarblelight
+x 11
+y 4
+end
+arch clover
+x 11
+y 4
+end
+arch greenmarblemedium
+x 11
+y 5
+end
+arch greenmarblelight
+x 11
+y 6
+end
+arch greenmarblemedium
+x 11
+y 7
+end
+arch greenmarblelight
+x 11
+y 8
+end
+arch greenmarble
+x 11
+y 9
+end
+arch slevel_2_2_3
+x 11
+y 9
+end
+arch greenmarble
+x 11
+y 10
+end
+arch slevel_2_2_4
+x 11
+y 10
+end
+arch greenmarblemedium
+x 11
+y 11
+end
+arch greenmarblelight
+x 11
+y 12
+end
+arch greenmarblemedium
+x 11
+y 13
+end
+arch greenmarblelight
+x 11
+y 14
+end
+arch greenmarblemedium
+x 11
+y 15
+end
+arch clover
+x 11
+y 15
+end
+arch lightgreenmarble
+x 11
+y 16
+end
+arch dwall_1_4
+x 11
+y 16
+end
+arch woods
+x 11
+y 17
+end
+arch woods
+x 11
+y 18
+end
+arch woods
+x 11
+y 19
+end
+arch woods
+x 12
+end
+arch woods
+x 12
+y 1
+end
+arch lightgreenmarble
+x 12
+y 2
+end
+arch dwall_2_2_2
+x 12
+y 2
+end
+arch dungeon_magic
+x 12
+y 3
+end
+arch lightgreenmarble
+x 12
+y 3
+end
+arch dwall_2_2_4
+x 12
+y 3
+end
+arch greenmarblemedium
+x 12
+y 4
+end
+arch clover
+x 12
+y 4
+end
+arch greenmarblelight
+x 12
+y 5
+end
+arch greenmarblemedium
+x 12
+y 6
+end
+arch greenmarblelight
+x 12
+y 7
+end
+arch greenmarblemedium
+x 12
+y 8
+end
+arch greenmarblelight
+x 12
+y 9
+end
+arch greenmarblemedium
+x 12
+y 10
+end
+arch greenmarblelight
+x 12
+y 11
+end
+arch greenmarblemedium
+x 12
+y 12
+end
+arch greenmarblelight
+x 12
+y 13
+end
+arch greenmarblemedium
+x 12
+y 14
+end
+arch greenmarblelight
+x 12
+y 15
+end
+arch clover
+x 12
+y 15
+end
+arch lightgreenmarble
+x 12
+y 16
+end
+arch dwall_2_2_3
+x 12
+y 16
+end
+arch lightgreenmarble
+x 12
+y 17
+end
+arch dwall_2_2_1
+x 12
+y 17
+end
+arch woods
+x 12
+y 18
+end
+arch woods
+x 12
+y 19
+end
+arch woods
+x 13
+end
+arch woods
+x 13
+y 1
+end
+arch lightgreenmarble
+x 13
+y 2
+end
+arch dwall_2_1_2
+x 13
+y 2
+end
+arch greenmarblemedium
+x 13
+y 3
+end
+arch greenmarblelight
+x 13
+y 4
+end
+arch greenmarblemedium
+x 13
+y 5
+end
+arch greenmarblelight
+x 13
+y 6
+end
+arch greenmarblemedium
+x 13
+y 7
+end
+arch greenmarblelight
+x 13
+y 8
+end
+arch greenmarblemedium
+x 13
+y 9
+end
+arch greenmarblelight
+x 13
+y 10
+end
+arch greenmarblemedium
+x 13
+y 11
+end
+arch greenmarblelight
+x 13
+y 12
+end
+arch greenmarblemedium
+x 13
+y 13
+end
+arch greenmarblelight
+x 13
+y 14
+end
+arch greenmarblemedium
+x 13
+y 15
+end
+arch greenmarblelight
+x 13
+y 16
+end
+arch lightgreenmarble
+x 13
+y 17
+end
+arch dwall_2_1_2
+x 13
+y 17
+end
+arch woods
+x 13
+y 18
+end
+arch woods
+x 13
+y 19
+end
+arch woods
+x 14
+end
+arch woods
+x 14
+y 1
+end
+arch lightgreenmarble
+x 14
+y 2
+end
+arch dwall_win2
+x 14
+y 2
+end
+arch greenmarblelight
+x 14
+y 3
+end
+arch greenmarblemedium
+x 14
+y 4
+end
+arch greenmarblelight
+x 14
+y 5
+end
+arch greenmarblemedium
+x 14
+y 6
+end
+arch greenmarblelight
+x 14
+y 7
+end
+arch greenmarblemedium
+x 14
+y 8
+end
+arch greenmarblelight
+x 14
+y 9
+end
+arch greenmarblemedium
+x 14
+y 10
+end
+arch greenmarblelight
+x 14
+y 11
+end
+arch greenmarblemedium
+x 14
+y 12
+end
+arch greenmarblelight
+x 14
+y 13
+end
+arch greenmarblemedium
+x 14
+y 14
+end
+arch greenmarblelight
+x 14
+y 15
+end
+arch greenmarblemedium
+x 14
+y 16
+end
+arch lightgreenmarble
+x 14
+y 17
+end
+arch dwall_win2
+x 14
+y 17
+end
+arch woods
+x 14
+y 18
+end
+arch woods
+x 14
+y 19
+end
+arch woods
+x 15
+end
+arch woods
+x 15
+y 1
+end
+arch lightgreenmarble
+x 15
+y 2
+end
+arch dwall_win2
+x 15
+y 2
+end
+arch greenmarblemedium
+x 15
+y 3
+end
+arch greenmarblelight
+x 15
+y 4
+end
+arch greenmarblemedium
+x 15
+y 5
+end
+arch greenmarblelight
+x 15
+y 6
+end
+arch greenmarblemedium
+x 15
+y 7
+end
+arch clover
+x 15
+y 7
+end
+arch greenmarblelight
+x 15
+y 8
+end
+arch clover
+x 15
+y 8
+end
+arch greenmarblemedium
+x 15
+y 9
+end
+arch clover
+x 15
+y 9
+end
+arch greenmarblelight
+x 15
+y 10
+end
+arch clover
+x 15
+y 10
+end
+arch greenmarblemedium
+x 15
+y 11
+end
+arch clover
+x 15
+y 11
+end
+arch greenmarblelight
+x 15
+y 12
+end
+arch clover
+x 15
+y 12
+end
+arch greenmarblemedium
+x 15
+y 13
+end
+arch greenmarblelight
+x 15
+y 14
+end
+arch greenmarblemedium
+x 15
+y 15
+end
+arch greenmarblelight
+x 15
+y 16
+end
+arch lightgreenmarble
+x 15
+y 17
+end
+arch dwall_win2
+x 15
+y 17
+end
+arch woods
+x 15
+y 18
+end
+arch woods
+x 15
+y 19
+end
+arch woods
+x 16
+end
+arch woods
+x 16
+y 1
+end
+arch lightgreenmarble
+x 16
+y 2
+end
+arch dwall_2_1_2
+x 16
+y 2
+end
+arch greenmarblelight
+x 16
+y 3
+end
+arch greenmarblemedium
+x 16
+y 4
+end
+arch greenmarblelight
+x 16
+y 5
+end
+arch greenmarblemedium
+x 16
+y 6
+end
+arch lightgreenmarble
+x 16
+y 7
+end
+arch dwall_2_2_2
+x 16
+y 7
+end
+arch lightgreenmarble
+x 16
+y 8
+end
+arch dwall_2_1_1
+x 16
+y 8
+end
+arch lightgreenmarble
+x 16
+y 9
+end
+arch dwall_2_1_1
+x 16
+y 9
+end
+arch lightgreenmarble
+x 16
+y 10
+end
+arch dwall_2_1_1
+x 16
+y 10
+end
+arch lightgreenmarble
+x 16
+y 11
+end
+arch dwall_2_1_1
+x 16
+y 11
+end
+arch lightgreenmarble
+x 16
+y 12
+end
+arch dwall_2_2_1
+x 16
+y 12
+end
+arch greenmarblelight
+x 16
+y 13
+end
+arch greenmarblemedium
+x 16
+y 14
+end
+arch greenmarblelight
+x 16
+y 15
+end
+arch greenmarblemedium
+x 16
+y 16
+end
+arch stair_3_up
+slaying elvenseatemple2
+hp 16
+sp 16
+x 16
+y 16
+end
+arch lightgreenmarble
+x 16
+y 17
+end
+arch dwall_2_1_2
+x 16
+y 17
+end
+arch woods
+x 16
+y 18
+end
+arch woods
+x 16
+y 19
+end
+arch woods
+x 17
+end
+arch woods
+x 17
+y 1
+end
+arch lightgreenmarble
+x 17
+y 2
+end
+arch dwall_2_2_3
+x 17
+y 2
+end
+arch lightgreenmarble
+x 17
+y 3
+end
+arch dwall_2_1_1
+x 17
+y 3
+end
+arch lightgreenmarble
+x 17
+y 4
+end
+arch dwall_2_1_1
+x 17
+y 4
+end
+arch lightgreenmarble
+x 17
+y 5
+end
+arch dwall_win1
+x 17
+y 5
+end
+arch lightgreenmarble
+x 17
+y 6
+end
+arch dwall_2_1_1
+x 17
+y 6
+end
+arch lightgreenmarble
+x 17
+y 7
+end
+arch dwall_2_2_4
+x 17
+y 7
+end
+arch woods
+x 17
+y 8
+end
+arch woods
+x 17
+y 9
+end
+arch woods
+x 17
+y 10
+end
+arch woods
+x 17
+y 11
+end
+arch lightgreenmarble
+x 17
+y 12
+end
+arch dwall_2_2_3
+x 17
+y 12
+end
+arch lightgreenmarble
+x 17
+y 13
+end
+arch dwall_2_1_1
+x 17
+y 13
+end
+arch lightgreenmarble
+x 17
+y 14
+end
+arch dwall_win1
+x 17
+y 14
+end
+arch lightgreenmarble
+x 17
+y 15
+end
+arch dwall_win1
+x 17
+y 15
+end
+arch lightgreenmarble
+x 17
+y 16
+end
+arch dwall_2_1_1
+x 17
+y 16
+end
+arch lightgreenmarble
+x 17
+y 17
+end
+arch dwall_2_2_4
+x 17
+y 17
+end
+arch woods
+x 17
+y 18
+end
+arch woods
+x 17
+y 19
+end
+arch woods
+x 18
+end
+arch woods
+x 18
+y 1
+end
+arch woods
+x 18
+y 2
+end
+arch woods
+x 18
+y 3
+end
+arch woods
+x 18
+y 4
+end
+arch woods
+x 18
+y 5
+end
+arch woods
+x 18
+y 6
+end
+arch woods
+x 18
+y 7
+end
+arch woods
+x 18
+y 8
+end
+arch woods
+x 18
+y 9
+end
+arch woods
+x 18
+y 10
+end
+arch woods
+x 18
+y 11
+end
+arch woods
+x 18
+y 12
+end
+arch woods
+x 18
+y 13
+end
+arch woods
+x 18
+y 14
+end
+arch woods
+x 18
+y 15
+end
+arch woods
+x 18
+y 16
+end
+arch woods
+x 18
+y 17
+end
+arch woods
+x 18
+y 18
+end
+arch woods
+x 18
+y 19
+end
+arch woods
+x 19
+end
+arch woods
+x 19
+y 1
+end
+arch woods
+x 19
+y 2
+end
+arch woods
+x 19
+y 3
+end
+arch woods
+x 19
+y 4
+end
+arch woods
+x 19
+y 5
+end
+arch woods
+x 19
+y 6
+end
+arch woods
+x 19
+y 7
+end
+arch woods
+x 19
+y 8
+end
+arch woods
+x 19
+y 9
+end
+arch woods
+x 19
+y 10
+end
+arch woods
+x 19
+y 11
+end
+arch woods
+x 19
+y 12
+end
+arch woods
+x 19
+y 13
+end
+arch woods
+x 19
+y 14
+end
+arch woods
+x 19
+y 15
+end
+arch woods
+x 19
+y 16
+end
+arch woods
+x 19
+y 17
+end
+arch woods
+x 19
+y 18
+end
+arch woods
+x 19
+y 19
+end
