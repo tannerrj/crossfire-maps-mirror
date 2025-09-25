@@ -10399,7 +10399,7 @@ arch dirtfloor
 x 46
 y 20
 end
-arch pedestal_trigger
+arch button_trigger
 x 46
 y 21
 connected 1
@@ -10409,8 +10409,10 @@ x 46
 y 21
 end
 arch check_inv
+slaying cwdccastlef1elvenseamark1
 x 46
 y 22
+connected 1
 end
 arch dirtfloor
 x 46
@@ -10419,7 +10421,6 @@ end
 arch grate_closed_1
 x 46
 y 22
-speed 0.500000
 connected 1
 end
 arch check_inv
