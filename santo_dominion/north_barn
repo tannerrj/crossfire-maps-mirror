@@ -7,7 +7,7 @@ height 40
 enter_x 1
 enter_y 2
 msg
-Modified: 2012-01-04 Rick Tanner
+Modified: 2025-09-26 Rick Tanner
 endmsg
 end
 arch woodfloor2
@@ -5266,10 +5266,6 @@ arch random_treasure
 x 16
 y 31
 end
-arch wraith
-x 16
-y 31
-end
 arch black_pudding
 x 16
 y 31
@@ -5581,6 +5577,10 @@ x 17
 y 33
 end
 arch random_treasure
+x 17
+y 33
+end
+arch wraith
 x 17
 y 33
 end
