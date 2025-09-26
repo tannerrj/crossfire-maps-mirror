@@ -3,7 +3,7 @@ name world_111_100
 width 50
 height 50
 msg
-Modified: 2025-09-25 Neila Hawkins
+Modified: 2025-09-26 Neila Hawkins
 endmsg
 outdoor 1
 tile_path_2 world_112_100
@@ -7101,6 +7101,7 @@ end
 arch mountain5
 x 28
 y 28
+elevation 2498
 end
 arch blackrock
 x 28
@@ -7109,6 +7110,7 @@ end
 arch mountain5
 x 28
 y 29
+elevation 2614
 end
 arch blackrock
 x 28
@@ -7117,6 +7119,7 @@ end
 arch mountain5
 x 28
 y 30
+elevation 2765
 end
 arch blackrock
 x 28
@@ -7125,6 +7128,7 @@ end
 arch mountain5
 x 28
 y 31
+elevation 2523
 end
 arch blackrock
 x 28
@@ -7133,6 +7137,7 @@ end
 arch mountain5
 x 28
 y 32
+elevation 2745
 end
 arch shallow_sea
 x 28
@@ -7355,6 +7360,7 @@ end
 arch mountain5
 x 29
 y 26
+elevation 2712
 end
 arch blackrock
 x 29
@@ -7363,6 +7369,7 @@ end
 arch mountain5
 x 29
 y 27
+elevation 2635
 end
 arch blackrock
 x 29
@@ -7371,18 +7378,22 @@ end
 arch mountain5
 x 29
 y 28
+elevation 2712
 end
 arch blackrock
 x 29
 y 29
+elevation 1920
 end
 arch blackrock
 x 29
 y 30
+elevation 1872
 end
 arch blackrock
 x 29
 y 31
+elevation 1843
 end
 arch blackrock
 x 29
@@ -7391,6 +7402,7 @@ end
 arch mountain5
 x 29
 y 32
+elevation 2676
 end
 arch blackrock
 x 29
@@ -7399,6 +7411,7 @@ end
 arch mountain5
 x 29
 y 33
+elevation 2654
 end
 arch blackrock
 x 29
@@ -7407,6 +7420,7 @@ end
 arch mountain5
 x 29
 y 34
+elevation 2654
 end
 arch shallow_sea
 x 29
@@ -7619,6 +7633,7 @@ end
 arch mountain5
 x 30
 y 26
+elevation 2657
 end
 arch blackrock
 x 30
@@ -7627,6 +7642,7 @@ end
 arch blackrock
 x 30
 y 28
+elevation 1802
 end
 arch volcano_high
 slaying ../quests/saromok/castlesaromok_volcano
@@ -7641,22 +7657,27 @@ end
 arch blackrock
 x 30
 y 29
+elevation 1921
 end
 arch permanent_lava
 x 30
 y 30
+elevation 1813
 end
 arch blackrock
 x 30
 y 31
+elevation 1820
 end
 arch blackrock
 x 30
 y 32
+elevation 1867
 end
 arch blackrock
 x 30
 y 33
+elevation 1832
 end
 arch blackrock
 x 30
@@ -7665,6 +7686,7 @@ end
 arch mountain5
 x 30
 y 34
+elevation 2564
 end
 arch blackrock
 x 30
@@ -7673,6 +7695,7 @@ end
 arch mountain5
 x 30
 y 35
+elevation 2598
 end
 arch shallow_sea
 x 30
@@ -7880,6 +7903,7 @@ end
 arch mountain5
 x 31
 y 26
+elevation 2734
 end
 arch blackrock
 x 31
@@ -7888,30 +7912,37 @@ end
 arch blackrock
 x 31
 y 28
+elevation 1862
 end
 arch blackrock
 x 31
 y 29
+elevation 1909
 end
 arch permanent_lava
 x 31
 y 30
+elevation 1812
 end
 arch permanent_lava
 x 31
 y 31
+elevation 1786
 end
 arch blackrock
 x 31
 y 32
+elevation 1823
 end
 arch blackrock
 x 31
 y 33
+elevation 1865
 end
 arch blackrock
 x 31
 y 34
+elevation 1621
 end
 arch blackrock
 x 31
@@ -7920,6 +7951,7 @@ end
 arch mountain5
 x 31
 y 35
+elevation 2626
 end
 arch blackrock
 x 31
@@ -7928,6 +7960,7 @@ end
 arch mountain5
 x 31
 y 36
+elevation 2765
 end
 arch shallow_sea
 x 31
@@ -8138,6 +8171,7 @@ end
 arch mountain5
 x 32
 y 26
+elevation 2656
 end
 arch blackrock
 x 32
@@ -8146,38 +8180,47 @@ end
 arch mountain5
 x 32
 y 27
+elevation 2598
 end
 arch blackrock
 x 32
 y 28
+elevation 1865
 end
 arch blackrock
 x 32
 y 29
+elevation 1902
 end
 arch blackrock
 x 32
 y 30
+elevation 1843
 end
 arch permanent_lava
 x 32
 y 31
+elevation 1765
 end
 arch permanent_lava
 x 32
 y 32
+elevation 1744
 end
 arch blackrock
 x 32
 y 33
+elevation 1754
 end
 arch blackrock
 x 32
 y 34
+elevation 1610
 end
 arch blackrock
 x 32
 y 35
+elevation 1612
 end
 arch blackrock
 x 32
@@ -8186,6 +8229,7 @@ end
 arch mountain5
 x 32
 y 36
+elevation 2547
 end
 arch shallow_sea
 x 32
@@ -8397,6 +8441,7 @@ end
 arch mountain5
 x 33
 y 27
+elevation 2519
 end
 arch blackrock
 x 33
@@ -8405,34 +8450,42 @@ end
 arch mountain5
 x 33
 y 28
+elevation 2657
 end
 arch blackrock
 x 33
 y 29
+elevation 1865
 end
 arch blackrock
 x 33
 y 30
+elevation 1796
 end
 arch blackrock
 x 33
 y 31
+elevation 1789
 end
 arch permanent_lava
 x 33
 y 32
+elevation 1722
 end
 arch blackrock
 x 33
 y 33
+elevation 1732
 end
 arch blackrock
 x 33
 y 34
+elevation 1576
 end
 arch blackrock
 x 33
 y 35
+elevation 1576
 end
 arch blackrock
 x 33
@@ -8441,6 +8494,7 @@ end
 arch mountain5
 x 33
 y 36
+elevation 2543
 end
 arch blackrock
 x 33
@@ -8449,10 +8503,12 @@ end
 arch mountain5
 x 33
 y 37
+elevation 2745
 end
 arch pstone_4
 x 33
 y 38
+elevation 483
 end
 arch tree6
 x 33
@@ -8461,6 +8517,7 @@ end
 arch beach
 x 33
 y 39
+elevation 4
 end
 arch beach
 x 33
@@ -8662,14 +8719,17 @@ end
 arch mountain5
 x 34
 y 28
+elevation 2544
 end
 arch blackrock
 x 34
 y 29
+elevation 1654
 end
 arch blackrock
 x 34
 y 30
+elevation 1675
 end
 arch bones3
 name Remains of a Dead Adventurer
@@ -8682,18 +8742,22 @@ end
 arch blackrock
 x 34
 y 31
+elevation 1650
 end
 arch permanent_lava
 x 34
 y 32
+elevation 1633
 end
 arch blackrock
 x 34
 y 33
+elevation 1676
 end
 arch blackrock
 x 34
 y 34
+elevation 1565
 end
 arch bones1
 name Remains of a Dead Adventurer
@@ -8706,10 +8770,12 @@ end
 arch blackrock
 x 34
 y 35
+elevation 1476
 end
 arch blackrock
 x 34
 y 36
+elevation 1587
 end
 arch blackrock
 x 34
@@ -8718,6 +8784,7 @@ end
 arch mountain5
 x 34
 y 37
+elevation 2543
 end
 arch blackrock
 x 34
@@ -8726,10 +8793,12 @@ end
 arch mountain5
 x 34
 y 38
+elevation 2432
 end
 arch pstone_4
 x 34
 y 39
+elevation 319
 end
 arch dunes
 x 34
@@ -8922,6 +8991,7 @@ end
 arch mountain5
 x 35
 y 27
+elevation 2610
 end
 arch blackrock
 x 35
@@ -8930,50 +9000,62 @@ end
 arch mountain5
 x 35
 y 28
+elevation 2543
 end
 arch blackrock
 x 35
 y 29
+elevation 1523
 end
 arch blackrock
 x 35
 y 30
+elevation 1602
 end
 arch blackrock
 x 35
 y 31
+elevation 1600
 end
 arch permanent_lava
 x 35
 y 32
+elevation 1532
 end
 arch blackrock
 x 35
 y 33
+elevation 1612
 end
 arch blackrock
 x 35
 y 34
+elevation 1532
 end
 arch blackrock
 x 35
 y 35
+elevation 1499
 end
 arch blackrock
 x 35
 y 36
+elevation 1521
 end
 arch blackrock
 x 35
 y 37
+elevation 1523
 end
 arch blackrock
 x 35
 y 38
+elevation 1043
 end
 arch pstone_4
 x 35
 y 39
+elevation 454
 end
 arch grassmedium
 x 35
@@ -9178,54 +9260,67 @@ end
 arch mountain5
 x 36
 y 27
+elevation 2712
 end
 arch blackrock
 x 36
 y 28
+elevation 1445
 end
 arch blackrock
 x 36
 y 29
+elevation 1456
 end
 arch blackrock
 x 36
 y 30
+elevation 1546
 end
 arch blackrock
 x 36
 y 31
+elevation 1532
 end
 arch permanent_lava
 x 36
 y 32
+elevation 1490
 end
 arch blackrock
 x 36
 y 33
+elevation 1543
 end
 arch blackrock
 x 36
 y 34
+elevation 1465
 end
 arch blackrock
 x 36
 y 35
+elevation 1546
 end
 arch blackrock
 x 36
 y 36
+elevation 1435
 end
 arch blackrock
 x 36
 y 37
+elevation 1410
 end
 arch blackrock
 x 36
 y 38
+elevation 1124
 end
 arch pstone_4
 x 36
 y 39
+elevation 657
 end
 arch tree6
 x 36
@@ -9425,6 +9520,7 @@ end
 arch mountain5
 x 37
 y 26
+elevation 2555
 end
 arch blackrock
 x 37
@@ -9433,50 +9529,62 @@ end
 arch mountain5
 x 37
 y 27
+elevation 2498
 end
 arch blackrock
 x 37
 y 28
+elevation 1444
 end
 arch permanent_lava
 x 37
 y 29
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 30
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 31
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 32
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 33
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 34
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 35
+elevation 1380
 end
 arch permanent_lava
 x 37
 y 36
+elevation 1380
 end
 arch blackrock
 x 37
 y 37
+elevation 1425
 end
 arch blackrock
 x 37
 y 38
+elevation 1165
 end
 arch bones2
 name Remains of a Dead Adventurer
@@ -9489,6 +9597,7 @@ end
 arch pstone_4
 x 37
 y 39
+elevation 765
 end
 arch grass
 x 37
@@ -9680,10 +9789,12 @@ end
 arch mountain5
 x 38
 y 26
+elevation 2599
 end
 arch blackrock
 x 38
 y 27
+elevation 1523
 end
 arch bones1
 name Remains of a Dead Adventurer
@@ -9696,10 +9807,12 @@ end
 arch blackrock
 x 38
 y 28
+elevation 1463
 end
 arch permanent_lava
 x 38
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 38
@@ -9708,6 +9821,7 @@ end
 arch blackrock
 x 38
 y 30
+elevation 1645
 end
 arch cwall_2_2_2
 x 38
@@ -9727,6 +9841,7 @@ end
 arch blackrock
 x 38
 y 31
+elevation 1645
 end
 arch cwall_2_1_1
 x 38
@@ -9740,6 +9855,7 @@ end
 arch blackrock
 x 38
 y 32
+elevation 1645
 end
 arch cwall_2_1_1
 x 38
@@ -9753,6 +9869,7 @@ end
 arch blackrock
 x 38
 y 33
+elevation 1645
 end
 arch cwall_2_1_1
 x 38
@@ -9766,6 +9883,7 @@ end
 arch blackrock
 x 38
 y 34
+elevation 1645
 end
 arch cwall_2_1_1
 x 38
@@ -9779,6 +9897,7 @@ end
 arch blackrock
 x 38
 y 35
+elevation 1645
 end
 arch cwall_2_2_1
 x 38
@@ -9794,22 +9913,27 @@ end
 arch permanent_lava
 x 38
 y 36
+elevation 1380
 end
 arch blackrock
 x 38
 y 37
+elevation 1439
 end
 arch blackrock
 x 38
 y 38
+elevation 1188
 end
 arch pstone_4
 x 38
 y 39
+elevation 896
 end
 arch pstone_4
 x 38
 y 40
+elevation 344
 end
 arch grass
 x 38
@@ -9995,6 +10119,7 @@ end
 arch mountain5
 x 39
 y 25
+elevation 2545
 end
 arch blackrock
 x 39
@@ -10003,18 +10128,22 @@ end
 arch mountain5
 x 39
 y 26
+elevation 2659
 end
 arch blackrock
 x 39
 y 27
+elevation 1409
 end
 arch blackrock
 x 39
 y 28
+elevation 1432
 end
 arch permanent_lava
 x 39
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 39
@@ -10023,6 +10152,7 @@ end
 arch blackrock
 x 39
 y 30
+elevation 1645
 end
 arch cwall_2_1_2
 x 39
@@ -10032,6 +10162,7 @@ end
 arch blackrock
 x 39
 y 31
+elevation 1645
 end
 arch barrack_up
 x 39
@@ -10040,14 +10171,17 @@ end
 arch blackrock
 x 39
 y 32
+elevation 1645
 end
 arch blackrock
 x 39
 y 33
+elevation 1645
 end
 arch blackrock
 x 39
 y 34
+elevation 1645
 end
 arch barrack_long
 x 39
@@ -10060,6 +10194,7 @@ end
 arch blackrock
 x 39
 y 35
+elevation 1645
 end
 arch cwall_2_1_2
 x 39
@@ -10069,26 +10204,32 @@ end
 arch permanent_lava
 x 39
 y 36
+elevation 1380
 end
 arch blackrock
 x 39
 y 37
+elevation 1460
 end
 arch blackrock
 x 39
 y 38
+elevation 1231
 end
 arch blackrock
 x 39
 y 39
+elevation 1098
 end
 arch pstone_4
 x 39
 y 40
+elevation 746
 end
 arch pstone_4
 x 39
 y 41
+elevation 352
 end
 arch tree6
 x 39
@@ -10276,6 +10417,7 @@ end
 arch mountain5
 x 40
 y 24
+elevation 2476
 end
 arch blackrock
 x 40
@@ -10284,22 +10426,27 @@ end
 arch mountain5
 x 40
 y 25
+elevation 2434
 end
 arch blackrock
 x 40
 y 26
+elevation 1354
 end
 arch blackrock
 x 40
 y 27
+elevation 1352
 end
 arch blackrock
 x 40
 y 28
+elevation 1412
 end
 arch permanent_lava
 x 40
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 40
@@ -10308,6 +10455,7 @@ end
 arch blackrock
 x 40
 y 30
+elevation 1645
 end
 arch cwall_3_3
 x 40
@@ -10327,6 +10475,7 @@ end
 arch blackrock
 x 40
 y 31
+elevation 1645
 end
 arch cwall_2_1_1
 x 40
@@ -10340,6 +10489,7 @@ end
 arch blackrock
 x 40
 y 32
+elevation 1645
 end
 arch cwall_2_2_1
 x 40
@@ -10355,10 +10505,12 @@ end
 arch blackrock
 x 40
 y 33
+elevation 1645
 end
 arch blackrock
 x 40
 y 34
+elevation 1645
 move_block all
 end
 arch dungeon_magic
@@ -10368,6 +10520,7 @@ end
 arch blackrock
 x 40
 y 35
+elevation 1645
 end
 arch cwall_2_1_2
 x 40
@@ -10376,30 +10529,37 @@ end
 arch permanent_lava
 x 40
 y 36
+elevation 1380
 end
 arch blackrock
 x 40
 y 37
+elevation 1465
 end
 arch blackrock
 x 40
 y 38
+elevation 1278
 end
 arch blackrock
 x 40
 y 39
+elevation 1129
 end
 arch blackrock
 x 40
 y 40
+elevation 1174
 end
 arch pstone_4
 x 40
 y 41
+elevation 759
 end
 arch pstone_4
 x 40
 y 42
+elevation 324
 end
 arch grass
 x 40
@@ -10574,26 +10734,32 @@ end
 arch mountain5
 x 41
 y 24
+elevation 2510
 end
 arch blackrock
 x 41
 y 25
+elevation 1090
 end
 arch blackrock
 x 41
 y 26
+elevation 1154
 end
 arch blackrock
 x 41
 y 27
+elevation 1286
 end
 arch blackrock
 x 41
 y 28
+elevation 1387
 end
 arch permanent_lava
 x 41
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 41
@@ -10602,6 +10768,7 @@ end
 arch blackrock
 x 41
 y 30
+elevation 1645
 end
 arch cwall_2_1_2
 x 41
@@ -10618,6 +10785,7 @@ end
 arch blackrock
 x 41
 y 31
+elevation 1645
 end
 arch dungeon_magic
 x 41
@@ -10626,6 +10794,7 @@ end
 arch blackrock
 x 41
 y 32
+elevation 1645
 end
 arch cityport_a
 name Tower Gate
@@ -10636,10 +10805,12 @@ end
 arch blackrock
 x 41
 y 33
+elevation 1645
 end
 arch blackrock
 x 41
 y 34
+elevation 1645
 move_block all
 end
 arch dungeon_magic
@@ -10649,6 +10820,7 @@ end
 arch blackrock
 x 41
 y 35
+elevation 1645
 end
 arch cityport_a
 name Front Gate
@@ -10667,6 +10839,7 @@ wc 0
 x 41
 y 36
 attacktype 0
+elevation 1380
 end
 arch a_bridge2
 x 41
@@ -10675,26 +10848,32 @@ end
 arch blackrock
 x 41
 y 37
+elevation 1476
 end
 arch blackrock
 x 41
 y 38
+elevation 1344
 end
 arch blackrock
 x 41
 y 39
+elevation 1243
 end
 arch blackrock
 x 41
 y 40
+elevation 1237
 end
 arch blackrock
 x 41
 y 41
+elevation 1121
 end
 arch pstone_4
 x 41
 y 42
+elevation 563
 end
 arch grass
 x 41
@@ -10881,26 +11060,32 @@ end
 arch permanent_lava
 x 42
 y 24
+elevation 711
 end
 arch permanent_lava
 x 42
 y 25
+elevation 765
 end
 arch blackrock
 x 42
 y 26
+elevation 1243
 end
 arch permanent_lava
 x 42
 y 27
+elevation 1198
 end
 arch permanent_lava
 x 42
 y 28
+elevation 1243
 end
 arch permanent_lava
 x 42
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 42
@@ -10909,6 +11094,7 @@ end
 arch blackrock
 x 42
 y 30
+elevation 1645
 end
 arch cwall_3_3
 x 42
@@ -10928,6 +11114,7 @@ end
 arch blackrock
 x 42
 y 31
+elevation 1645
 end
 arch cwall_2_1_1
 x 42
@@ -10941,6 +11128,7 @@ end
 arch blackrock
 x 42
 y 32
+elevation 1645
 end
 arch cwall_2_2_4
 x 42
@@ -10956,10 +11144,12 @@ end
 arch blackrock
 x 42
 y 33
+elevation 1645
 end
 arch blackrock
 x 42
 y 34
+elevation 1645
 move_block all
 end
 arch barrack_long
@@ -10973,6 +11163,7 @@ end
 arch blackrock
 x 42
 y 35
+elevation 1645
 end
 arch cwall_2_1_2
 x 42
@@ -10982,22 +11173,27 @@ end
 arch permanent_lava
 x 42
 y 36
+elevation 1380
 end
 arch blackrock
 x 42
 y 37
+elevation 1435
 end
 arch blackrock
 x 42
 y 38
+elevation 1375
 end
 arch blackrock
 x 42
 y 39
+elevation 1365
 end
 arch blackrock
 x 42
 y 40
+elevation 1342
 end
 arch bones1
 name Remains of a Dead Adventurer
@@ -11010,10 +11206,12 @@ end
 arch blackrock
 x 42
 y 41
+elevation 1423
 end
 arch pstone_4
 x 42
 y 42
+elevation 780
 end
 arch grass
 x 42
@@ -11191,6 +11389,7 @@ end
 arch mountain5
 x 43
 y 23
+elevation 2354
 end
 arch blackrock
 x 43
@@ -11199,22 +11398,27 @@ end
 arch mountain5
 x 43
 y 24
+elevation 2434
 end
 arch permanent_lava
 x 43
 y 25
+elevation 832
 end
 arch permanent_lava
 x 43
 y 26
+elevation 954
 end
 arch permanent_lava
 x 43
 y 27
+elevation 1034
 end
 arch blackrock
 x 43
 y 28
+elevation 1476
 end
 arch bones2
 name Remains of a Dead Adventurer
@@ -11227,6 +11431,7 @@ end
 arch permanent_lava
 x 43
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 43
@@ -11235,6 +11440,7 @@ end
 arch blackrock
 x 43
 y 30
+elevation 1645
 end
 arch cwall_2_1_2
 x 43
@@ -11244,6 +11450,7 @@ end
 arch blackrock
 x 43
 y 31
+elevation 1645
 end
 arch barrack_up
 x 43
@@ -11252,14 +11459,17 @@ end
 arch blackrock
 x 43
 y 32
+elevation 1645
 end
 arch blackrock
 x 43
 y 33
+elevation 1645
 end
 arch blackrock
 x 43
 y 34
+elevation 1645
 end
 arch dungeon_magic
 x 43
@@ -11268,6 +11478,7 @@ end
 arch blackrock
 x 43
 y 35
+elevation 1645
 end
 arch cwall_2_1_2
 x 43
@@ -11277,30 +11488,37 @@ end
 arch permanent_lava
 x 43
 y 36
+elevation 1380
 end
 arch blackrock
 x 43
 y 37
+elevation 1465
 end
 arch blackrock
 x 43
 y 38
+elevation 1434
 end
 arch blackrock
 x 43
 y 39
+elevation 1463
 end
 arch blackrock
 x 43
 y 40
+elevation 1464
 end
 arch pstone_4
 x 43
 y 41
+elevation 1213
 end
 arch pstone_4
 x 43
 y 42
+elevation 1023
 end
 arch tree6
 x 43
@@ -11482,30 +11700,37 @@ end
 arch permanent_lava
 x 44
 y 23
+elevation 702
 end
 arch permanent_lava
 x 44
 y 24
+elevation 733
 end
 arch permanent_lava
 x 44
 y 25
+elevation 786
 end
 arch blackrock
 x 44
 y 26
+elevation 1009
 end
 arch blackrock
 x 44
 y 27
+elevation 1276
 end
 arch blackrock
 x 44
 y 28
+elevation 1476
 end
 arch permanent_lava
 x 44
 y 29
+elevation 1380
 end
 arch dungeon_magic
 x 44
@@ -11514,6 +11739,7 @@ end
 arch blackrock
 x 44
 y 30
+elevation 1645
 end
 arch cwall_2_2_3
 x 44
@@ -11533,6 +11759,7 @@ end
 arch blackrock
 x 44
 y 31
+elevation 1645
 end
 arch cwall_2_1_1
 x 44
@@ -11546,6 +11773,7 @@ end
 arch blackrock
 x 44
 y 32
+elevation 1645
 end
 arch cwall_2_1_1
 x 44
@@ -11559,6 +11787,7 @@ end
 arch blackrock
 x 44
 y 33
+elevation 1645
 end
 arch cwall_2_1_1
 x 44
@@ -11572,6 +11801,7 @@ end
 arch blackrock
 x 44
 y 34
+elevation 1645
 end
 arch cwall_2_1_1
 x 44
@@ -11585,6 +11815,7 @@ end
 arch blackrock
 x 44
 y 35
+elevation 1645
 end
 arch cwall_2_2_4
 x 44
@@ -11600,26 +11831,32 @@ end
 arch permanent_lava
 x 44
 y 36
+elevation 1380
 end
 arch blackrock
 x 44
 y 37
+elevation 1473
 end
 arch blackrock
 x 44
 y 38
+elevation 1486
 end
 arch blackrock
 x 44
 y 39
+elevation 1465
 end
 arch pstone_4
 x 44
 y 40
+elevation 1313
 end
 arch pstone_4
 x 44
 y 41
+elevation 1127
 end
 arch evergreen
 x 44
@@ -11806,6 +12043,7 @@ end
 arch mountain5
 x 45
 y 23
+elevation 2343
 end
 arch blackrock
 x 45
@@ -11814,70 +12052,87 @@ end
 arch mountain5
 x 45
 y 24
+elevation 2456
 end
 arch blackrock
 x 45
 y 25
+elevation 986
 end
 arch blackrock
 x 45
 y 26
+elevation 1121
 end
 arch blackrock
 x 45
 y 27
+elevation 1312
 end
 arch blackrock
 x 45
 y 28
+elevation 1467
 end
 arch permanent_lava
 x 45
 y 29
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 30
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 31
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 32
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 33
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 34
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 35
+elevation 1380
 end
 arch permanent_lava
 x 45
 y 36
+elevation 1380
 end
 arch blackrock
 x 45
 y 37
+elevation 1495
 end
 arch blackrock
 x 45
 y 38
+elevation 1473
 end
 arch pstone_4
 x 45
 y 39
+elevation 1342
 end
 arch pstone_4
 x 45
 y 40
+elevation 1264
 end
 arch evergreen
 x 45
@@ -12074,6 +12329,7 @@ end
 arch mountain5
 x 46
 y 24
+elevation 2546
 end
 arch blackrock
 x 46
@@ -12082,6 +12338,7 @@ end
 arch mountain5
 x 46
 y 25
+elevation 2487
 end
 arch blackrock
 x 46
@@ -12090,58 +12347,72 @@ end
 arch mountain5
 x 46
 y 26
+elevation 2547
 end
 arch blackrock
 x 46
 y 27
+elevation 1354
 end
 arch blackrock
 x 46
 y 28
+elevation 1423
 end
 arch blackrock
 x 46
 y 29
+elevation 1465
 end
 arch blackrock
 x 46
 y 30
+elevation 1431
 end
 arch blackrock
 x 46
 y 31
+elevation 1423
 end
 arch blackrock
 x 46
 y 32
+elevation 1465
 end
 arch blackrock
 x 46
 y 33
+elevation 1452
 end
 arch blackrock
 x 46
 y 34
+elevation 1475
 end
 arch blackrock
 x 46
 y 35
+elevation 1453
 end
 arch blackrock
 x 46
 y 36
+elevation 1465
 end
 arch blackrock
 x 46
 y 37
+elevation 1485
 end
 arch blackrock
 x 46
 y 38
+elevation 1476
 end
 arch pstone_4
 x 46
 y 39
+elevation 1352
 end
 arch tree6
 x 46
@@ -12345,6 +12616,7 @@ end
 arch mountain5
 x 47
 y 26
+elevation 2546
 end
 arch blackrock
 x 47
@@ -12353,6 +12625,7 @@ end
 arch mountain5
 x 47
 y 27
+elevation 2693
 end
 arch blackrock
 x 47
@@ -12361,18 +12634,22 @@ end
 arch mountain5
 x 47
 y 28
+elevation 2654
 end
 arch blackrock
 x 47
 y 29
+elevation 1472
 end
 arch blackrock
 x 47
 y 30
+elevation 1432
 end
 arch blackrock
 x 47
 y 31
+elevation 1493
 end
 arch bones1
 name Remains of a Dead Adventurer
@@ -12385,26 +12662,32 @@ end
 arch blackrock
 x 47
 y 32
+elevation 1543
 end
 arch blackrock
 x 47
 y 33
+elevation 1497
 end
 arch blackrock
 x 47
 y 34
+elevation 1429
 end
 arch blackrock
 x 47
 y 35
+elevation 1456
 end
 arch blackrock
 x 47
 y 36
+elevation 1475
 end
 arch blackrock
 x 47
 y 37
+elevation 1465
 end
 arch bones3
 name Remains of a Dead Adventurer
@@ -12417,10 +12700,12 @@ end
 arch pstone_4
 x 47
 y 38
+elevation 1400
 end
 arch pstone_4
 x 47
 y 39
+elevation 1476
 end
 arch evergreen
 x 47
@@ -12609,6 +12894,7 @@ end
 arch pstone_4
 x 48
 y 27
+elevation 1403
 end
 arch tree6
 x 48
@@ -12621,6 +12907,7 @@ end
 arch mountain5
 x 48
 y 28
+elevation 2712
 end
 arch blackrock
 x 48
@@ -12629,42 +12916,52 @@ end
 arch mountain5
 x 48
 y 29
+elevation 2845
 end
 arch blackrock
 x 48
 y 30
+elevation 1421
 end
 arch blackrock
 x 48
 y 31
+elevation 1465
 end
 arch blackrock
 x 48
 y 32
+elevation 1476
 end
 arch blackrock
 x 48
 y 33
+elevation 1454
 end
 arch blackrock
 x 48
 y 34
+elevation 1453
 end
 arch blackrock
 x 48
 y 35
+elevation 1476
 end
 arch blackrock
 x 48
 y 36
+elevation 1543
 end
 arch pstone_4
 x 48
 y 37
+elevation 1324
 end
 arch pstone_4
 x 48
 y 38
+elevation 1654
 end
 arch evergreen
 x 48
@@ -12885,153 +13182,72 @@ x 49
 y 26
 elevation -8
 end
-arch grass
+arch pstone_4
 x 49
 y 27
 elevation 789
 end
 arch pstone_4
 x 49
-y 27
-end
-arch grass_only
-x 49
 y 28
 elevation 1564
 end
-arch tree5
-x 49
-y 28
-end
 arch pstone_4
-x 49
-y 28
-end
-arch grass_only
 x 49
 y 29
 elevation 1868
 end
-arch tree3
-x 49
-y 29
-end
 arch pstone_4
-x 49
-y 29
-end
-arch grass_only
 x 49
 y 30
 elevation 1811
-end
-arch tree5
-x 49
-y 30
-end
-arch pstone_4
-x 49
-y 30
 end
 arch tree6
 x 49
 y 30
 end
-arch jungle_1
+arch pstone_4
 x 49
 y 31
 elevation 1903
 end
 arch pstone_4
 x 49
-y 31
-end
-arch grass_only
-x 49
 y 32
 elevation 2257
 end
-arch tree5
-x 49
-y 32
-end
 arch pstone_4
-x 49
-y 32
-end
-arch grass_only
 x 49
 y 33
 elevation 2428
-end
-arch tree5
-x 49
-y 33
-end
-arch pstone_4
-x 49
-y 33
 end
 arch tree6
 x 49
 y 33
 end
-arch grass_only
+arch pstone_4
 x 49
 y 34
 elevation 1476
 end
-arch tree5
-x 49
-y 34
-end
 arch pstone_4
-x 49
-y 34
-end
-arch grass_only
 x 49
 y 35
 elevation 2030
 end
-arch tree5
-x 49
-y 35
-end
 arch pstone_4
-x 49
-y 35
-end
-arch hills_rocky
 x 49
 y 36
 elevation 3028
 end
 arch pstone_4
 x 49
-y 36
-end
-arch hills_rocky
-x 49
 y 37
-elevation 3272
-end
-arch pstone_4
-x 49
-y 37
+elevation 2272
 end
 arch tree6
 x 49
 y 37
-end
-arch grass_only
-x 49
-y 38
-elevation 2965
-end
-arch tree5
-x 49
-y 38
 end
 arch grass
 x 49
@@ -13047,39 +13263,15 @@ arch tree5
 x 49
 y 39
 end
-arch evergreen
-x 49
-y 39
-elevation 2409
-end
 arch grass_only
 x 49
 y 40
 elevation 1594
 end
-arch tree5
-x 49
-y 40
-end
-arch grass
-x 49
-y 40
-elevation 833
-end
 arch grass
 x 49
 y 41
 elevation 833
-end
-arch grass
-x 49
-y 41
-elevation 833
-end
-arch grass
-x 49
-y 42
-elevation 368
 end
 arch grass
 x 49
