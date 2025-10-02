@@ -8,7 +8,7 @@ enter_x 14
 enter_y 18
 msg
 Created:  1994-04-05 Andreas Vogl (red.blaze@gmx.net)
-Modified: 2025-09-30 Rick Tanner
+Modified: 2025-10-01 Rick Tanner
 endmsg
 reset_group santodominion_the-golden-lion
 end
@@ -1826,9 +1826,14 @@ arch statue2
 x 12
 y 20
 end
+arch dungeon_magic
+x 12
+y 21
+end
 arch cobblestones
 x 12
 y 21
+move_block all
 end
 arch cobblestones
 x 12
@@ -1952,9 +1957,14 @@ sp 7
 x 13
 y 20
 end
+arch dungeon_magic
+x 13
+y 21
+end
 arch cobblestones
 x 13
 y 21
+move_block all
 end
 arch cobblestones
 x 13
@@ -2102,9 +2112,14 @@ sp 7
 x 14
 y 20
 end
+arch dungeon_magic
+x 14
+y 21
+end
 arch cobblestones
 x 14
 y 21
+move_block all
 end
 arch cobblestones
 x 14
@@ -2261,9 +2276,14 @@ sp 7
 x 15
 y 20
 end
+arch dungeon_magic
+x 15
+y 21
+end
 arch cobblestones
 x 15
 y 21
+move_block all
 end
 arch cobblestones
 x 15
@@ -2417,9 +2437,14 @@ arch statue2
 x 16
 y 20
 end
+arch dungeon_magic
+x 16
+y 21
+end
 arch cobblestones
 x 16
 y 21
+move_block all
 end
 arch cobblestones
 x 16
