@@ -7,7 +7,7 @@ height 26
 enter_x 12
 enter_y 22
 msg
-Modified: 2012-06-20 Rick Tanner
+Modified: 2025-10-07 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -197,7 +197,7 @@ arch grass_only
 x 2
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 2
 end
@@ -205,7 +205,7 @@ arch wwall_2_2_2
 x 2
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 3
 end
@@ -213,7 +213,7 @@ arch wwall_2_1_1
 x 2
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 4
 end
@@ -221,7 +221,7 @@ arch wwall_2_1_1
 x 2
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 5
 end
@@ -229,7 +229,7 @@ arch wwall_win1
 x 2
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 6
 end
@@ -237,7 +237,7 @@ arch wwall_2_1_1
 x 2
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 7
 end
@@ -245,7 +245,7 @@ arch wwall_2_1_1
 x 2
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 8
 end
@@ -253,7 +253,7 @@ arch wwall_2_1_1
 x 2
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 9
 end
@@ -265,7 +265,7 @@ arch wwall_2_1_1
 x 2
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 10
 end
@@ -273,7 +273,7 @@ arch wwall_2_1_1
 x 2
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 11
 end
@@ -281,7 +281,7 @@ arch wwall_2_1_1
 x 2
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 12
 end
@@ -289,7 +289,7 @@ arch wwall_2_1_1
 x 2
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 13
 end
@@ -297,7 +297,7 @@ arch wwall_2_1_1
 x 2
 y 13
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 14
 end
@@ -305,7 +305,7 @@ arch wwall_2_1_1
 x 2
 y 14
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 15
 end
@@ -313,7 +313,7 @@ arch wwall_win1
 x 2
 y 15
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 16
 end
@@ -321,7 +321,7 @@ arch wwall_2_1_1
 x 2
 y 16
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 17
 end
@@ -329,7 +329,7 @@ arch wwall_2_1_1
 x 2
 y 17
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 18
 end
@@ -337,7 +337,7 @@ arch wwall_2_1_1
 x 2
 y 18
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 19
 end
@@ -345,7 +345,7 @@ arch wwall_2_1_1
 x 2
 y 19
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 20
 end
@@ -353,7 +353,7 @@ arch wwall_2_1_1
 x 2
 y 20
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 21
 end
@@ -361,7 +361,7 @@ arch wwall_2_1_1
 x 2
 y 21
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 22
 end
@@ -369,7 +369,7 @@ arch wwall_2_1_1
 x 2
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 2
 y 23
 end
@@ -392,7 +392,7 @@ arch grass_only
 x 3
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 2
 end
@@ -548,7 +548,7 @@ arch generate_gnoll
 x 3
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 23
 end
@@ -571,7 +571,7 @@ arch grass_only
 x 4
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 2
 end
@@ -675,7 +675,7 @@ arch dirtfloor
 x 4
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 23
 end
@@ -698,7 +698,7 @@ arch grass_only
 x 5
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 2
 end
@@ -814,7 +814,7 @@ arch dirtfloor
 x 5
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 23
 end
@@ -837,7 +837,7 @@ arch grass_only
 x 6
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 2
 end
@@ -957,7 +957,7 @@ arch dirtfloor
 x 6
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 23
 end
@@ -980,7 +980,7 @@ arch grass_only
 x 7
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 2
 end
@@ -1088,7 +1088,7 @@ arch dirtfloor
 x 7
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 23
 end
@@ -1111,7 +1111,7 @@ arch grass_only
 x 8
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 2
 end
@@ -1224,7 +1224,7 @@ arch random_wealth
 x 8
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 23
 end
@@ -1247,7 +1247,7 @@ arch grass_only
 x 9
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 2
 end
@@ -1405,7 +1405,7 @@ arch swall_2_1_1
 x 9
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 23
 end
@@ -1432,7 +1432,7 @@ arch grass_only
 x 10
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1575,7 +1575,7 @@ arch dirtfloor
 x 10
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 23
 end
@@ -1598,7 +1598,7 @@ arch grass_only
 x 11
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 2
 end
@@ -1738,7 +1738,7 @@ arch dirtfloor
 x 11
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 23
 end
@@ -1766,7 +1766,7 @@ arch grass_only
 x 12
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 12
 y 2
 end
@@ -1896,7 +1896,7 @@ arch dirtfloor
 x 12
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 12
 y 23
 end
@@ -1927,7 +1927,7 @@ arch grass_only
 x 13
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 13
 y 2
 end
@@ -2061,7 +2061,7 @@ arch dirtfloor
 x 13
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 13
 y 23
 end
@@ -2092,7 +2092,7 @@ arch grass_only
 x 14
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 14
 y 2
 end
@@ -2232,7 +2232,7 @@ arch dirtfloor
 x 14
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 14
 y 23
 end
@@ -2260,7 +2260,7 @@ arch grass_only
 x 15
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 15
 y 2
 end
@@ -2403,7 +2403,7 @@ arch dirtfloor
 x 15
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 15
 y 23
 end
@@ -2426,7 +2426,7 @@ arch grass_only
 x 16
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 16
 y 2
 end
@@ -2584,7 +2584,7 @@ arch swall_2_1_1
 x 16
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 16
 y 23
 end
@@ -2611,7 +2611,7 @@ arch grass_only
 x 17
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 17
 y 2
 end
@@ -2720,7 +2720,7 @@ arch random_wealth
 x 17
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 17
 y 23
 end
@@ -2743,7 +2743,7 @@ arch grass_only
 x 18
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 18
 y 2
 end
@@ -2867,7 +2867,7 @@ arch dirtfloor
 x 18
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 18
 y 23
 end
@@ -2890,7 +2890,7 @@ arch grass_only
 x 19
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 19
 y 2
 end
@@ -2998,7 +2998,7 @@ arch dirtfloor
 x 19
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 19
 y 23
 end
@@ -3021,7 +3021,7 @@ arch grass_only
 x 20
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 20
 y 2
 end
@@ -3141,7 +3141,7 @@ arch random_treasure
 x 20
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 20
 y 23
 end
@@ -3164,7 +3164,7 @@ arch grass_only
 x 21
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 21
 y 2
 end
@@ -3272,7 +3272,7 @@ arch dirtfloor
 x 21
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 21
 y 23
 end
@@ -3295,7 +3295,7 @@ arch grass_only
 x 22
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 22
 y 2
 end
@@ -3451,7 +3451,7 @@ arch generate_gnoll
 x 22
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 22
 y 23
 end
@@ -3474,7 +3474,7 @@ arch grass_only
 x 23
 y 1
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 2
 end
@@ -3482,7 +3482,7 @@ arch wwall_2_2_3
 x 23
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 3
 end
@@ -3490,7 +3490,7 @@ arch wwall_2_1_1
 x 23
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 4
 end
@@ -3498,7 +3498,7 @@ arch wwall_2_1_1
 x 23
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 5
 end
@@ -3506,7 +3506,7 @@ arch wwall_win1
 x 23
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 6
 end
@@ -3514,7 +3514,7 @@ arch wwall_2_1_1
 x 23
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 7
 end
@@ -3522,7 +3522,7 @@ arch wwall_2_1_1
 x 23
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 8
 end
@@ -3530,7 +3530,7 @@ arch wwall_2_1_1
 x 23
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 9
 end
@@ -3542,7 +3542,7 @@ arch swall_1_3_half
 x 23
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 10
 end
@@ -3550,7 +3550,7 @@ arch wwall_2_1_1
 x 23
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 11
 end
@@ -3558,7 +3558,7 @@ arch wwall_2_1_1
 x 23
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 12
 end
@@ -3566,7 +3566,7 @@ arch wwall_2_1_1
 x 23
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 13
 end
@@ -3574,7 +3574,7 @@ arch wwall_2_1_1
 x 23
 y 13
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 14
 end
@@ -3582,7 +3582,7 @@ arch wwall_2_1_1
 x 23
 y 14
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 15
 end
@@ -3590,7 +3590,7 @@ arch wwall_win1
 x 23
 y 15
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 16
 end
@@ -3598,7 +3598,7 @@ arch wwall_2_1_1
 x 23
 y 16
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 17
 end
@@ -3606,7 +3606,7 @@ arch wwall_2_1_1
 x 23
 y 17
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 18
 end
@@ -3614,7 +3614,7 @@ arch wwall_2_1_1
 x 23
 y 18
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 19
 end
@@ -3622,7 +3622,7 @@ arch wwall_2_1_1
 x 23
 y 19
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 20
 end
@@ -3630,7 +3630,7 @@ arch wwall_2_1_1
 x 23
 y 20
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 21
 end
@@ -3638,7 +3638,7 @@ arch wwall_2_1_1
 x 23
 y 21
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 22
 end
@@ -3646,7 +3646,7 @@ arch wwall_2_1_1
 x 23
 y 22
 end
-arch dirtfloor
+arch dungeon_floor
 x 23
 y 23
 end
