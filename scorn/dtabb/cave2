@@ -8,129 +8,186 @@ enter_x 22
 enter_y 18
 msg
 Created: dtabb@ecst.csuchico.edu
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-10-08 Rick Tanner
 endmsg
 reset_group scorn_gnolls-grotto-ogre-cave
 end
+arch dun_4
+end
+arch dun_4
+y 1
+end
+arch dun_4
+y 2
+end
+arch dun_4
+y 3
+end
+arch dun_4
+y 4
+end
+arch dun_4
+y 5
+end
+arch dun_4
+y 6
+end
+arch dun_4
+y 7
+end
+arch dun_4
+y 8
+end
 arch dirtfloor
 y 9
 end
-arch dun10
+arch dun_4
 y 9
 end
 arch dirtfloor
 y 10
 end
-arch dun3
+arch dun_4
 y 10
 end
 arch dirtfloor
 y 11
 end
-arch dun3
+arch dun_4
 y 11
 end
 arch dirtfloor
 y 12
 end
-arch dun3
+arch dun_4
 y 12
 end
 arch dirtfloor
 y 13
 end
-arch dun3
+arch dun_4
 y 13
 end
 arch dirtfloor
 y 14
 end
-arch dun11
+arch dun_4
 y 14
 end
 arch dirtfloor
 y 15
 end
-arch dun3
+arch dun_4
 y 15
 end
 arch dirtfloor
 y 16
 end
-arch dun3
+arch dun_4
 y 16
 end
 arch dirtfloor
 y 17
 end
-arch dun3
+arch dun_4
 y 17
 end
 arch dirtfloor
 y 18
 end
-arch dun3
+arch dun_4
 y 18
 end
 arch dirtfloor
 y 19
 end
-arch dun3
+arch dun_4
 y 19
 end
 arch dirtfloor
 y 20
 end
-arch dun3
+arch dun_4
 y 20
 end
 arch dirtfloor
 y 21
 end
-arch dun3
+arch dun_4
 y 21
 end
 arch dirtfloor
 y 22
 end
-arch dun3
+arch dun_4
 y 22
 end
 arch dirtfloor
 y 23
 end
-arch dun3
+arch dun_4
 y 23
 end
 arch dirtfloor
 y 24
 end
-arch dun3
+arch dun_4
 y 24
 end
 arch dirtfloor
 y 25
 end
-arch dun3
+arch dun_4
 y 25
 end
 arch dirtfloor
 y 26
 end
-arch dun3
+arch dun_4
 y 26
 end
 arch dirtfloor
 y 27
 end
-arch dun4
+arch dun_4
 y 27
+end
+arch dun_4
+y 28
+end
+arch dun_4
+y 29
+end
+arch dun_4
+y 30
+end
+arch dun_4
+y 31
+end
+arch dun_4
+y 32
+end
+arch dun_4
+y 33
+end
+arch dun_4
+y 34
+end
+arch dun_4
+y 35
+end
+arch dun_4
+x 1
+end
+arch dun_4
+x 1
+y 1
 end
 arch dirtfloor
 x 1
 y 2
 end
-arch dun10
+arch dun_4
 x 1
 y 2
 end
@@ -138,7 +195,7 @@ arch dirtfloor
 x 1
 y 3
 end
-arch dun3
+arch dun_4
 x 1
 y 3
 end
@@ -146,7 +203,7 @@ arch dirtfloor
 x 1
 y 4
 end
-arch dun3
+arch dun_4
 x 1
 y 4
 end
@@ -154,7 +211,7 @@ arch dirtfloor
 x 1
 y 5
 end
-arch dun3
+arch dun_4
 x 1
 y 5
 end
@@ -162,7 +219,7 @@ arch dirtfloor
 x 1
 y 6
 end
-arch dun3
+arch dun_4
 x 1
 y 6
 end
@@ -170,7 +227,7 @@ arch dirtfloor
 x 1
 y 7
 end
-arch dun11
+arch dun_4
 x 1
 y 7
 end
@@ -178,7 +235,7 @@ arch dirtfloor
 x 1
 y 8
 end
-arch dun3
+arch dun_4
 x 1
 y 8
 end
@@ -322,7 +379,7 @@ arch dirtfloor
 x 1
 y 28
 end
-arch dun3
+arch dun_4
 x 1
 y 28
 end
@@ -330,15 +387,42 @@ arch dirtfloor
 x 1
 y 29
 end
-arch dun4
+arch dun_4
 x 1
 y 29
+end
+arch dun_4
+x 1
+y 30
+end
+arch dun_4
+x 1
+y 31
+end
+arch dun_4
+x 1
+y 32
+end
+arch dun_4
+x 1
+y 33
+end
+arch dun_4
+x 1
+y 34
+end
+arch dun_4
+x 1
+y 35
+end
+arch dun_4
+x 2
 end
 arch dirtfloor
 x 2
 y 1
 end
-arch dun10
+arch dun_4
 x 2
 y 1
 end
@@ -522,7 +606,7 @@ arch dirtfloor
 x 2
 y 30
 end
-arch dun3
+arch dun_4
 x 2
 y 30
 end
@@ -530,9 +614,28 @@ arch dirtfloor
 x 2
 y 31
 end
-arch dun4
+arch dun_4
 x 2
 y 31
+end
+arch dun_4
+x 2
+y 32
+end
+arch dun_4
+x 2
+y 33
+end
+arch dun_4
+x 2
+y 34
+end
+arch dun_4
+x 2
+y 35
+end
+arch dun_4
+x 3
 end
 arch dirtfloor
 x 3
@@ -734,9 +837,24 @@ arch dirtfloor
 x 3
 y 32
 end
-arch dun4
+arch dun_4
 x 3
 y 32
+end
+arch dun_4
+x 3
+y 33
+end
+arch dun_4
+x 3
+y 34
+end
+arch dun_4
+x 3
+y 35
+end
+arch dun_4
+x 4
 end
 arch dirtfloor
 x 4
@@ -922,9 +1040,24 @@ arch dirtfloor
 x 4
 y 32
 end
-arch dun2
+arch dun_4
 x 4
 y 32
+end
+arch dun_4
+x 4
+y 33
+end
+arch dun_4
+x 4
+y 34
+end
+arch dun_4
+x 4
+y 35
+end
+arch dun_4
+x 5
 end
 arch dirtfloor
 x 5
@@ -1110,9 +1243,24 @@ arch dirtfloor
 x 5
 y 32
 end
-arch dun2
+arch dun_4
 x 5
 y 32
+end
+arch dun_4
+x 5
+y 33
+end
+arch dun_4
+x 5
+y 34
+end
+arch dun_4
+x 5
+y 35
+end
+arch dun_4
+x 6
 end
 arch dirtfloor
 x 6
@@ -1310,14 +1458,22 @@ arch dirtfloor
 x 6
 y 33
 end
-arch dun4
+arch dun_4
 x 6
 y 33
+end
+arch dun_4
+x 6
+y 34
+end
+arch dun_4
+x 6
+y 35
 end
 arch dirtfloor
 x 7
 end
-arch dun10
+arch dun_4
 x 7
 end
 arch dirtfloor
@@ -1532,9 +1688,17 @@ arch dirtfloor
 x 7
 y 33
 end
-arch dun2
+arch dun_4
 x 7
 y 33
+end
+arch dun_4
+x 7
+y 34
+end
+arch dun_4
+x 7
+y 35
 end
 arch dirtfloor
 x 8
@@ -1734,9 +1898,17 @@ arch dirtfloor
 x 8
 y 33
 end
-arch dun2
+arch dun_4
 x 8
 y 33
+end
+arch dun_4
+x 8
+y 34
+end
+arch dun_4
+x 8
+y 35
 end
 arch dirtfloor
 x 9
@@ -1952,9 +2124,17 @@ arch dirtfloor
 x 9
 y 33
 end
-arch dun2
+arch dun_4
 x 9
 y 33
+end
+arch dun_4
+x 9
+y 34
+end
+arch dun_4
+x 9
+y 35
 end
 arch dirtfloor
 x 10
@@ -2146,9 +2326,17 @@ arch dirtfloor
 x 10
 y 33
 end
-arch dun2
+arch dun_4
 x 10
 y 33
+end
+arch dun_4
+x 10
+y 34
+end
+arch dun_4
+x 10
+y 35
 end
 arch dirtfloor
 x 11
@@ -2352,7 +2540,7 @@ arch dirtfloor
 x 11
 y 33
 end
-arch dun9
+arch dun_4
 x 11
 y 33
 end
@@ -2360,9 +2548,13 @@ arch dirtfloor
 x 11
 y 34
 end
-arch dun4
+arch dun_4
 x 11
 y 34
+end
+arch dun_4
+x 11
+y 35
 end
 arch dirtfloor
 x 12
@@ -2542,9 +2734,13 @@ arch dirtfloor
 x 12
 y 34
 end
-arch dun2
+arch dun_4
 x 12
 y 34
+end
+arch dun_4
+x 12
+y 35
 end
 arch dirtfloor
 x 13
@@ -2740,10 +2936,17 @@ arch dirtfloor
 x 13
 y 34
 end
-arch dun2
+arch dun_4
 x 13
 y 34
 end
+arch dun_4
+x 13
+y 35
+end
+arch dun_4
+x 14
+end
 arch dirtfloor
 x 14
 y 1
@@ -2920,9 +3123,16 @@ arch dirtfloor
 x 14
 y 34
 end
-arch dun2
+arch dun_4
 x 14
 y 34
+end
+arch dun_4
+x 14
+y 35
+end
+arch dun_4
+x 15
 end
 arch dirtfloor
 x 15
@@ -3112,14 +3322,18 @@ arch dirtfloor
 x 15
 y 34
 end
-arch dun2
+arch dun_4
 x 15
 y 34
+end
+arch dun_4
+x 15
+y 35
 end
 arch dirtfloor
 x 16
 end
-arch dun10
+arch dun_4
 x 16
 end
 arch dirtfloor
@@ -3306,9 +3520,13 @@ arch dirtfloor
 x 16
 y 34
 end
-arch dun2
+arch dun_4
 x 16
 y 34
+end
+arch dun_4
+x 16
+y 35
 end
 arch dirtfloor
 x 17
@@ -3516,9 +3734,13 @@ arch dirtfloor
 x 17
 y 34
 end
-arch dun2
+arch dun_4
 x 17
 y 34
+end
+arch dun_4
+x 17
+y 35
 end
 arch dirtfloor
 x 18
@@ -3718,7 +3940,7 @@ arch dirtfloor
 x 18
 y 35
 end
-arch dun4
+arch dun_4
 x 18
 y 35
 end
@@ -3920,7 +4142,7 @@ arch dirtfloor
 x 19
 y 35
 end
-arch dun2
+arch dun_4
 x 19
 y 35
 end
@@ -4130,7 +4352,7 @@ arch dirtfloor
 x 20
 y 35
 end
-arch dun12
+arch dun_4
 x 20
 y 35
 end
@@ -4344,9 +4566,13 @@ arch dirtfloor
 x 21
 y 34
 end
-arch dun2
+arch dun_4
 x 21
 y 34
+end
+arch dun_4
+x 21
+y 35
 end
 arch dirtfloor
 x 22
@@ -4564,9 +4790,24 @@ arch dirtfloor
 x 22
 y 34
 end
-arch dun2
+arch dun_4
 x 22
 y 34
+end
+arch dun_4
+x 22
+y 35
+end
+arch dun_4
+x 23
+end
+arch dun_4
+x 23
+y 1
+end
+arch dun_4
+x 23
+y 2
 end
 arch dirtfloor
 x 23
@@ -4764,15 +5005,26 @@ arch dirtfloor
 x 23
 y 34
 end
-arch dun2
+arch dun_4
 x 23
 y 34
+end
+arch dun_4
+x 23
+y 35
+end
+arch dun_4
+x 24
+end
+arch dun_4
+x 24
+y 1
 end
 arch dirtfloor
 x 24
 y 2
 end
-arch dun10
+arch dun_4
 x 24
 y 2
 end
@@ -4960,9 +5212,20 @@ arch dirtfloor
 x 24
 y 34
 end
-arch dun2
+arch dun_4
 x 24
 y 34
+end
+arch dun_4
+x 24
+y 35
+end
+arch dun_4
+x 25
+end
+arch dun_4
+x 25
+y 1
 end
 arch dirtfloor
 x 25
@@ -5148,15 +5411,22 @@ arch dirtfloor
 x 25
 y 34
 end
-arch dun13
+arch dun_4
 x 25
 y 34
 end
+arch dun_4
+x 25
+y 35
+end
+arch dun_4
+x 26
+end
 arch dirtfloor
 x 26
 y 1
 end
-arch dun10
+arch dun_4
 x 26
 y 1
 end
@@ -5348,9 +5618,16 @@ arch dirtfloor
 x 26
 y 34
 end
-arch dun13
+arch dun_4
 x 26
 y 34
+end
+arch dun_4
+x 26
+y 35
+end
+arch dun_4
+x 27
 end
 arch dirtfloor
 x 27
@@ -5572,9 +5849,12 @@ arch dirtfloor
 x 27
 y 35
 end
-arch dun4
+arch dun_4
 x 27
 y 35
+end
+arch dun_4
+x 28
 end
 arch dirtfloor
 x 28
@@ -5800,14 +6080,14 @@ arch dirtfloor
 x 28
 y 35
 end
-arch dun2
+arch dun_4
 x 28
 y 35
 end
 arch dirtfloor
 x 29
 end
-arch dun8
+arch dun_4
 x 29
 end
 arch dirtfloor
@@ -6014,9 +6294,12 @@ arch dirtfloor
 x 29
 y 35
 end
-arch dun2
+arch dun_4
 x 29
 y 35
+end
+arch dun_4
+x 30
 end
 arch dirtfloor
 x 30
@@ -6214,9 +6497,16 @@ arch dirtfloor
 x 30
 y 35
 end
-arch dun2
+arch dun_4
 x 30
 y 35
+end
+arch dun_4
+x 31
+end
+arch dun_4
+x 31
+y 1
 end
 arch dirtfloor
 x 31
@@ -6422,9 +6712,16 @@ arch dirtfloor
 x 31
 y 35
 end
-arch dun2
+arch dun_4
 x 31
 y 35
+end
+arch dun_4
+x 32
+end
+arch dun_4
+x 32
+y 1
 end
 arch dirtfloor
 x 32
@@ -6614,9 +6911,16 @@ arch dirtfloor
 x 32
 y 35
 end
-arch dun2
+arch dun_4
 x 32
 y 35
+end
+arch dun_4
+x 33
+end
+arch dun_4
+x 33
+y 1
 end
 arch dirtfloor
 x 33
@@ -6714,9 +7018,17 @@ arch dirtfloor
 x 33
 y 15
 end
-arch dun2
+arch dun_4
 x 33
 y 15
+end
+arch dun_4
+x 33
+y 16
+end
+arch dun_4
+x 33
+y 17
 end
 arch dirtfloor
 x 33
@@ -6838,9 +7150,16 @@ arch dirtfloor
 x 33
 y 35
 end
-arch dun12
+arch dun_4
 x 33
 y 35
+end
+arch dun_4
+x 34
+end
+arch dun_4
+x 34
+y 1
 end
 arch dirtfloor
 x 34
@@ -6886,10 +7205,26 @@ arch dirtfloor
 x 34
 y 7
 end
-arch dun2
+arch dun_4
 x 34
 y 7
 end
+arch dun_4
+x 34
+y 8
+end
+arch dun_4
+x 34
+y 9
+end
+arch dun_4
+x 34
+y 10
+end
+arch dun_4
+x 34
+y 11
+end
 arch dirtfloor
 x 34
 y 12
@@ -6918,9 +7253,17 @@ arch dirtfloor
 x 34
 y 15
 end
-arch dun12
+arch dun_4
 x 34
 y 15
+end
+arch dun_4
+x 34
+y 16
+end
+arch dun_4
+x 34
+y 17
 end
 arch dirtfloor
 x 34
@@ -6958,9 +7301,21 @@ arch dirtfloor
 x 34
 y 22
 end
-arch dun12
+arch dun_4
 x 34
 y 22
+end
+arch dun_4
+x 34
+y 23
+end
+arch dun_4
+x 34
+y 24
+end
+arch dun_4
+x 34
+y 25
 end
 arch dirtfloor
 x 34
@@ -7030,10 +7385,25 @@ arch dirtfloor
 x 34
 y 34
 end
-arch dun12
+arch dun_4
 x 34
 y 34
 end
+arch dun_4
+x 34
+y 35
+end
+arch dun_4
+x 35
+end
+arch dun_4
+x 35
+y 1
+end
+arch dun_4
+x 35
+y 2
+end
 arch dirtfloor
 x 35
 y 3
@@ -7070,9 +7440,85 @@ arch dirtfloor
 x 35
 y 7
 end
-arch dun12
+arch dun_4
 x 35
 y 7
+end
+arch dun_4
+x 35
+y 8
+end
+arch dun_4
+x 35
+y 9
+end
+arch dun_4
+x 35
+y 10
+end
+arch dun_4
+x 35
+y 11
+end
+arch dun_4
+x 35
+y 12
+end
+arch dun_4
+x 35
+y 13
+end
+arch dun_4
+x 35
+y 14
+end
+arch dun_4
+x 35
+y 15
+end
+arch dun_4
+x 35
+y 16
+end
+arch dun_4
+x 35
+y 17
+end
+arch dun_4
+x 35
+y 18
+end
+arch dun_4
+x 35
+y 19
+end
+arch dun_4
+x 35
+y 20
+end
+arch dun_4
+x 35
+y 21
+end
+arch dun_4
+x 35
+y 22
+end
+arch dun_4
+x 35
+y 23
+end
+arch dun_4
+x 35
+y 24
+end
+arch dun_4
+x 35
+y 25
+end
+arch dun_4
+x 35
+y 26
 end
 arch dirtfloor
 x 35
@@ -7126,7 +7572,15 @@ arch dirtfloor
 x 35
 y 33
 end
-arch dun12
+arch dun_4
 x 35
 y 33
+end
+arch dun_4
+x 35
+y 34
+end
+arch dun_4
+x 35
+y 35
 end
