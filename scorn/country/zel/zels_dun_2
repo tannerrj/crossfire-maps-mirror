@@ -5,9 +5,11 @@ region scorncounty
 darkness 4
 width 30
 height 43
+enter_x 14
+enter_y 2
 msg
 Created:  2024-03-18 Neila Hawkins
-Modified: 2025-08-25 Neila Hawkins
+Modified: 2025-10-07 Rick Tanner
 endmsg
 reset_group zels_dun
 end
@@ -6248,11 +6250,11 @@ x 28
 y 16
 end
 arch rod_heavy
+hp 60
+maxhp 60
 x 28
 y 16
 level 10
-maxhp 60
-hp 60
 randomitems none
 arch spell_mass_confusion
 end
