@@ -8,7 +8,7 @@ enter_x 30
 enter_y 1
 msg
 Created:  1998-10-15 Cater & Wade (john_cater@yahoo.com)
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-10-08 Rick Tanner
 endmsg
 reset_group scorn_gnolls-grotto-ogre-cave
 end
@@ -624,7 +624,7 @@ arch dirtfloor
 x 3
 y 3
 end
-arch dun8
+arch dun_1_1
 x 3
 y 3
 end
@@ -1752,7 +1752,7 @@ arch dirtfloor
 x 9
 y 2
 end
-arch dun8
+arch dun_1_1
 x 9
 y 2
 end
@@ -1936,7 +1936,7 @@ arch dirtfloor
 x 9
 y 31
 end
-arch dun7
+arch dun2
 x 9
 y 31
 end
@@ -2114,9 +2114,17 @@ arch dirtfloor
 x 10
 y 30
 end
-arch dun2
+arch dun_4
 x 10
 y 30
+end
+arch dirtfloor
+x 10
+y 31
+end
+arch dun2
+x 10
+y 31
 end
 arch dirtfloor
 x 11
@@ -2180,7 +2188,7 @@ arch dirtfloor
 x 11
 y 11
 end
-arch dun8
+arch dun_1_1
 x 11
 y 11
 end
@@ -2308,9 +2316,17 @@ arch dirtfloor
 x 11
 y 30
 end
-arch dun2
+arch dun_4
 x 11
 y 30
+end
+arch dirtfloor
+x 11
+y 31
+end
+arch dun2
+x 11
+y 31
 end
 arch dirtfloor
 x 12
@@ -2502,7 +2518,7 @@ arch dirtfloor
 x 12
 y 31
 end
-arch dun4
+arch dun2
 x 12
 y 31
 end
@@ -3010,7 +3026,7 @@ arch dirtfloor
 x 16
 y 2
 end
-arch dun8
+arch dun_1_1
 x 16
 y 2
 end
@@ -3422,7 +3438,7 @@ arch dirtfloor
 x 18
 y 19
 end
-arch dun3
+arch dun_1_2
 x 18
 y 19
 end
@@ -3834,7 +3850,7 @@ arch dirtfloor
 x 20
 y 31
 end
-arch dun12
+arch dun2
 x 20
 y 31
 end
@@ -3968,7 +3984,7 @@ arch dirtfloor
 x 21
 y 20
 end
-arch dun3
+arch dun_1_1
 x 21
 y 20
 end
@@ -4028,9 +4044,17 @@ arch dirtfloor
 x 21
 y 30
 end
-arch dun2
+arch dun_4
 x 21
 y 30
+end
+arch dirtfloor
+x 21
+y 31
+end
+arch dun2
+x 21
+y 31
 end
 arch dirtfloor
 x 22
@@ -4210,9 +4234,17 @@ arch dirtfloor
 x 22
 y 30
 end
-arch dun2
+arch dun_4
 x 22
 y 30
+end
+arch dirtfloor
+x 22
+y 31
+end
+arch dun2
+x 22
+y 31
 end
 arch dirtfloor
 x 23
@@ -4392,9 +4424,17 @@ arch dirtfloor
 x 23
 y 30
 end
-arch dun2
+arch dun_4
 x 23
 y 30
+end
+arch dirtfloor
+x 23
+y 31
+end
+arch dun2
+x 23
+y 31
 end
 arch dirtfloor
 x 24
@@ -4566,9 +4606,17 @@ arch dirtfloor
 x 24
 y 30
 end
-arch dun2
+arch dun_4
 x 24
 y 30
+end
+arch dirtfloor
+x 24
+y 31
+end
+arch dun2
+x 24
+y 31
 end
 arch dirtfloor
 x 25
@@ -4760,9 +4808,17 @@ arch dirtfloor
 x 25
 y 30
 end
-arch dun2
+arch dun_4
 x 25
 y 30
+end
+arch dirtfloor
+x 25
+y 31
+end
+arch dun2
+x 25
+y 31
 end
 arch dirtfloor
 x 26
@@ -4866,9 +4922,17 @@ arch dirtfloor
 x 26
 y 21
 end
-arch dun2
+arch dun_4
 x 26
 y 21
+end
+arch dun_4
+x 26
+y 22
+end
+arch dun_4
+x 26
+y 23
 end
 arch dirtfloor
 x 26
@@ -4918,9 +4982,17 @@ arch dirtfloor
 x 26
 y 30
 end
-arch dun2
+arch dun_4
 x 26
 y 30
+end
+arch dirtfloor
+x 26
+y 31
+end
+arch dun2
+x 26
+y 31
 end
 arch dirtfloor
 x 27
@@ -5047,9 +5119,25 @@ arch dirtfloor
 x 27
 y 21
 end
-arch dun2
+arch dun_4
 x 27
 y 21
+end
+arch dun_4
+x 27
+y 22
+end
+arch dun_4
+x 27
+y 23
+end
+arch dun_4
+x 27
+y 24
+end
+arch dun_4
+x 27
+y 25
 end
 arch dirtfloor
 x 27
@@ -5087,9 +5175,17 @@ arch dirtfloor
 x 27
 y 30
 end
-arch dun12
+arch dun_4
 x 27
 y 30
+end
+arch dirtfloor
+x 27
+y 31
+end
+arch dun2
+x 27
+y 31
 end
 arch dirtfloor
 x 28
@@ -5168,7 +5264,7 @@ arch dirtfloor
 x 28
 y 13
 end
-arch dun8
+arch dun_1_1
 x 28
 y 13
 end
@@ -5228,9 +5324,29 @@ arch dirtfloor
 x 28
 y 21
 end
-arch dun2
+arch dun_4
 x 28
 y 21
+end
+arch dun_4
+x 28
+y 22
+end
+arch dun_4
+x 28
+y 23
+end
+arch dun_4
+x 28
+y 24
+end
+arch dun_4
+x 28
+y 25
+end
+arch dun_4
+x 28
+y 26
 end
 arch dirtfloor
 x 28
@@ -5252,9 +5368,21 @@ arch dirtfloor
 x 28
 y 29
 end
-arch dun12
+arch dun_4
 x 28
 y 29
+end
+arch dun_4
+x 28
+y 30
+end
+arch dirtfloor
+x 28
+y 31
+end
+arch dun2
+x 28
+y 31
 end
 arch dirtfloor
 x 29
@@ -5385,9 +5513,53 @@ arch dirtfloor
 x 29
 y 21
 end
-arch dun2
+arch dun_4
 x 29
 y 21
+end
+arch dun_4
+x 29
+y 22
+end
+arch dun_4
+x 29
+y 23
+end
+arch dun_4
+x 29
+y 24
+end
+arch dun_4
+x 29
+y 25
+end
+arch dun_4
+x 29
+y 26
+end
+arch dun_4
+x 29
+y 27
+end
+arch dun_4
+x 29
+y 28
+end
+arch dun_4
+x 29
+y 29
+end
+arch dun_4
+x 29
+y 30
+end
+arch dirtfloor
+x 29
+y 31
+end
+arch dun2
+x 29
+y 31
 end
 arch dirtfloor
 x 30
@@ -5514,9 +5686,53 @@ arch dirtfloor
 x 30
 y 21
 end
-arch dun2
+arch dun_4
 x 30
 y 21
+end
+arch dun_4
+x 30
+y 22
+end
+arch dun_4
+x 30
+y 23
+end
+arch dun_4
+x 30
+y 24
+end
+arch dun_4
+x 30
+y 25
+end
+arch dun_4
+x 30
+y 26
+end
+arch dun_4
+x 30
+y 27
+end
+arch dun_4
+x 30
+y 28
+end
+arch dun_4
+x 30
+y 29
+end
+arch dun_4
+x 30
+y 30
+end
+arch dirtfloor
+x 30
+y 31
+end
+arch dun2
+x 30
+y 31
 end
 arch dirtfloor
 x 31
@@ -5697,7 +5913,51 @@ arch dirtfloor
 x 31
 y 21
 end
-arch dun12
+arch dun_4
 x 31
 y 21
+end
+arch dun_4
+x 31
+y 22
+end
+arch dun_4
+x 31
+y 23
+end
+arch dun_4
+x 31
+y 24
+end
+arch dun_4
+x 31
+y 25
+end
+arch dun_4
+x 31
+y 26
+end
+arch dun_4
+x 31
+y 27
+end
+arch dun_4
+x 31
+y 28
+end
+arch dun_4
+x 31
+y 29
+end
+arch dun_4
+x 31
+y 30
+end
+arch dirtfloor
+x 31
+y 31
+end
+arch dun2
+x 31
+y 31
 end
