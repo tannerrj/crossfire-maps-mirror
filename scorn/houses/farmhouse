@@ -9,7 +9,7 @@ enter_x 11
 enter_y 9
 msg
 Created: 2003-05-03
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-10-19 Rick Tanner
 endmsg
 end
 arch grass
@@ -126,7 +126,7 @@ end
 arch unholy_ground
 x 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 1
 end
@@ -134,7 +134,7 @@ arch wwall_2_2_2
 x 1
 y 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 2
 end
@@ -142,7 +142,7 @@ arch wwall_2_1_1
 x 1
 y 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 3
 end
@@ -150,7 +150,7 @@ arch wwall_2_1_1
 x 1
 y 3
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 4
 end
@@ -158,7 +158,7 @@ arch wwall_2_1_1
 x 1
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 5
 end
@@ -166,7 +166,7 @@ arch wwall_3_2
 x 1
 y 5
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 6
 end
@@ -174,7 +174,7 @@ arch wwall_2_1_1
 x 1
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 7
 end
@@ -182,7 +182,7 @@ arch wwall_win1
 x 1
 y 7
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 8
 end
@@ -190,7 +190,7 @@ arch wwall_win1
 x 1
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 9
 end
@@ -198,7 +198,7 @@ arch wwall_2_1_1
 x 1
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 1
 y 10
 end
@@ -226,7 +226,7 @@ end
 arch unholy_ground
 x 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 1
 end
@@ -258,7 +258,7 @@ arch barrel
 x 2
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 5
 end
@@ -299,7 +299,7 @@ arch table_4
 x 2
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 10
 end
@@ -327,7 +327,7 @@ end
 arch unholy_ground
 x 3
 end
-arch woodfloor2
+arch dungeon_floor
 x 3
 y 1
 end
@@ -362,7 +362,7 @@ x 3
 y 5
 connected 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 3
 y 5
 end
@@ -416,7 +416,7 @@ arch woodfloor2
 x 3
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 3
 y 10
 end
@@ -444,7 +444,7 @@ end
 arch unholy_ground
 x 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 4
 y 1
 end
@@ -472,7 +472,7 @@ arch woodfloor2
 x 4
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 4
 y 5
 end
@@ -500,7 +500,7 @@ arch woodfloor2
 x 4
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 4
 y 10
 end
@@ -528,7 +528,7 @@ end
 arch unholy_ground
 x 5
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 1
 end
@@ -536,7 +536,7 @@ arch wwall_3_3
 x 5
 y 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 2
 end
@@ -544,7 +544,7 @@ arch wwall_2_1_1
 x 5
 y 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 3
 end
@@ -552,7 +552,7 @@ arch wwall_2_1_1
 x 5
 y 3
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 4
 end
@@ -560,7 +560,7 @@ arch wwall_2_1_1
 x 5
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 5
 end
@@ -600,7 +600,7 @@ arch chair_1.3
 x 5
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 10
 end
@@ -628,7 +628,7 @@ end
 arch unholy_ground
 x 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 6
 y 1
 end
@@ -656,7 +656,7 @@ arch bed_1
 x 6
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 6
 y 5
 end
@@ -684,7 +684,7 @@ arch woodfloor2
 x 6
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 6
 y 10
 end
@@ -712,7 +712,7 @@ end
 arch unholy_ground
 x 7
 end
-arch woodfloor2
+arch dungeon_floor
 x 7
 y 1
 end
@@ -736,7 +736,7 @@ arch bed_1
 x 7
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 7
 y 5
 end
@@ -760,7 +760,7 @@ arch woodfloor2
 x 7
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 7
 y 10
 end
@@ -788,7 +788,7 @@ end
 arch unholy_ground
 x 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 8
 y 1
 end
@@ -808,7 +808,7 @@ arch woodfloor2
 x 8
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 8
 y 5
 end
@@ -857,7 +857,7 @@ arch woodfloor2
 x 8
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 8
 y 10
 end
@@ -885,7 +885,7 @@ end
 arch unholy_ground
 x 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 9
 y 1
 end
@@ -909,7 +909,7 @@ arch woodfloor2
 x 9
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 9
 y 5
 end
@@ -943,7 +943,7 @@ arch table
 x 9
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 9
 y 10
 end
@@ -971,7 +971,7 @@ end
 arch unholy_ground
 x 10
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 1
 end
@@ -979,7 +979,7 @@ arch wwall_3_3
 x 10
 y 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 2
 end
@@ -987,7 +987,7 @@ arch wwall_1_2
 x 10
 y 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 3
 end
@@ -995,7 +995,7 @@ arch door_look_2
 x 10
 y 3
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 4
 end
@@ -1003,7 +1003,7 @@ arch wwall_1_1
 x 10
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 5
 end
@@ -1011,7 +1011,7 @@ arch wwall_3_4
 x 10
 y 5
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 6
 end
@@ -1019,7 +1019,7 @@ arch wwall_1_2
 x 10
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 7
 end
@@ -1028,7 +1028,7 @@ x 10
 y 7
 move_block 0
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 8
 end
@@ -1036,7 +1036,7 @@ arch wwall_1_1
 x 10
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 9
 end
@@ -1044,7 +1044,7 @@ arch wwall_2_1_1
 x 10
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 10
 end
@@ -1072,7 +1072,7 @@ end
 arch unholy_ground
 x 11
 end
-arch woodfloor2
+arch dungeon_floor
 x 11
 y 1
 end
@@ -1112,7 +1112,7 @@ arch woodfloor2
 x 11
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 11
 y 10
 end
@@ -1141,7 +1141,7 @@ end
 arch unholy_ground
 x 12
 end
-arch woodfloor2
+arch dungeon_floor
 x 12
 y 1
 end
@@ -1185,7 +1185,7 @@ arch woodfloor2
 x 12
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 12
 y 10
 end
@@ -1214,7 +1214,7 @@ end
 arch unholy_ground
 x 13
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 1
 end
@@ -1222,7 +1222,7 @@ arch wwall_2_1_2
 x 13
 y 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 2
 end
@@ -1234,7 +1234,7 @@ endmsg
 x 13
 y 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 3
 end
@@ -1246,7 +1246,7 @@ endmsg
 x 13
 y 3
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 4
 end
@@ -1254,7 +1254,7 @@ arch wwall_1_1
 x 13
 y 4
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 5
 end
@@ -1262,7 +1262,7 @@ arch wwall_2_1_1
 x 13
 y 5
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 6
 end
@@ -1270,7 +1270,7 @@ arch wwall_2_1_1
 x 13
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 7
 end
@@ -1278,7 +1278,7 @@ arch wwall_3_2
 x 13
 y 7
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 8
 end
@@ -1286,7 +1286,7 @@ arch wwall_2_1_1
 x 13
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 9
 end
@@ -1294,7 +1294,7 @@ arch wwall_2_1_1
 x 13
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 13
 y 10
 end
@@ -1322,7 +1322,7 @@ end
 arch unholy_ground
 x 14
 end
-arch pstone_1
+arch dungeon_floor
 x 14
 y 1
 end
@@ -1350,7 +1350,7 @@ arch pstone_1
 x 14
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 14
 y 7
 end
@@ -1374,7 +1374,7 @@ arch carrot
 x 14
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 14
 y 10
 end
@@ -1402,7 +1402,7 @@ end
 arch unholy_ground
 x 15
 end
-arch pstone_1
+arch dungeon_floor
 x 15
 y 1
 end
@@ -1435,7 +1435,7 @@ arch pstone_1
 x 15
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 15
 y 7
 end
@@ -1459,7 +1459,7 @@ arch carrot
 x 15
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 15
 y 10
 end
@@ -1487,7 +1487,7 @@ end
 arch unholy_ground
 x 16
 end
-arch pstone_1
+arch dungeon_floor
 x 16
 y 1
 end
@@ -1515,7 +1515,7 @@ arch pstone_1
 x 16
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 16
 y 7
 end
@@ -1539,7 +1539,7 @@ arch carrot
 x 16
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 16
 y 10
 end
@@ -1567,7 +1567,7 @@ end
 arch unholy_ground
 x 17
 end
-arch pstone_1
+arch dungeon_floor
 x 17
 y 1
 end
@@ -1611,7 +1611,7 @@ arch pstone_1
 x 17
 y 6
 end
-arch woodfloor2
+arch dungeon_floor
 x 17
 y 7
 end
@@ -1619,7 +1619,7 @@ arch wwall_2_2_3
 x 17
 y 7
 end
-arch woodfloor2
+arch dungeon_floor
 x 17
 y 8
 end
@@ -1627,7 +1627,7 @@ arch wwall_2_1_1
 x 17
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 17
 y 9
 end
@@ -1663,7 +1663,7 @@ end
 arch unholy_ground
 x 18
 end
-arch pstone_1
+arch dungeon_floor
 x 18
 y 1
 end
@@ -1719,7 +1719,7 @@ arch pstone_1
 x 18
 y 9
 end
-arch pstone_1
+arch dungeon_floor
 x 18
 y 10
 end
@@ -1747,7 +1747,7 @@ end
 arch unholy_ground
 x 19
 end
-arch pstone_1
+arch dungeon_floor
 x 19
 y 1
 end
@@ -1814,7 +1814,7 @@ endmsg
 x 19
 y 10
 end
-arch pstone_1
+arch dungeon_floor
 x 19
 y 10
 end
@@ -1844,7 +1844,7 @@ end
 arch unholy_ground
 x 20
 end
-arch pstone_1
+arch dungeon_floor
 x 20
 y 1
 end
@@ -1923,7 +1923,7 @@ endmsg
 x 20
 y 10
 end
-arch pstone_1
+arch dungeon_floor
 x 20
 y 10
 end
@@ -1953,7 +1953,7 @@ end
 arch unholy_ground
 x 21
 end
-arch pstone_1
+arch dungeon_floor
 x 21
 y 1
 end
@@ -2041,7 +2041,7 @@ endmsg
 x 21
 y 10
 end
-arch pstone_1
+arch dungeon_floor
 x 21
 y 10
 end
@@ -2071,7 +2071,7 @@ end
 arch unholy_ground
 x 22
 end
-arch pstone_1
+arch dungeon_floor
 x 22
 y 1
 end
@@ -2203,7 +2203,7 @@ arch quest_advance_death
 name scorn/TerrysFarm 30-40>50
 end
 end
-arch pstone_1
+arch dungeon_floor
 x 22
 y 10
 end
@@ -2231,7 +2231,7 @@ end
 arch unholy_ground
 x 23
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 1
 end
@@ -2239,7 +2239,7 @@ arch wwall_2_2_3
 x 23
 y 1
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 2
 end
@@ -2247,7 +2247,7 @@ arch wwall_2_1_1
 x 23
 y 2
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 3
 end
@@ -2255,7 +2255,7 @@ arch wwall_2_1_1
 x 23
 y 3
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 4
 end
@@ -2263,7 +2263,7 @@ arch wwall_2_1_1
 x 23
 y 4
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 5
 end
@@ -2271,7 +2271,7 @@ arch wwall_win1
 x 23
 y 5
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 6
 end
@@ -2279,7 +2279,7 @@ arch wwall_win1
 x 23
 y 6
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 7
 end
@@ -2287,7 +2287,7 @@ arch wwall_2_1_1
 x 23
 y 7
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 8
 end
@@ -2295,7 +2295,7 @@ arch wwall_2_1_1
 x 23
 y 8
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 9
 end
@@ -2303,7 +2303,7 @@ arch wwall_2_1_1
 x 23
 y 9
 end
-arch pstone_1
+arch dungeon_floor
 x 23
 y 10
 end
