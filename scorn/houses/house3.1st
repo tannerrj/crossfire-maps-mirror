@@ -8,7 +8,7 @@ enter_x 8
 enter_y 10
 msg
 Created: 2005-03-23 Huhanhi
-Modified: 2023-11-23 Rick Tanner
+Modified: 2025-10-26 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_mike-millers-house
@@ -116,7 +116,7 @@ arch grass_only
 x 2
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 2
 end
@@ -124,7 +124,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 3
 end
@@ -132,7 +132,7 @@ arch wall_2_1_1
 x 2
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 4
 end
@@ -140,7 +140,7 @@ arch wall_2_1_1
 x 2
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 5
 end
@@ -148,7 +148,7 @@ arch window_win1
 x 2
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 6
 end
@@ -156,7 +156,7 @@ arch wall_2_1_1
 x 2
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 7
 end
@@ -164,7 +164,7 @@ arch wall_3_2
 x 2
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 8
 end
@@ -172,7 +172,7 @@ arch wall_2_1_1
 x 2
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 9
 end
@@ -180,7 +180,7 @@ arch window_win1
 x 2
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 10
 end
@@ -188,7 +188,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 11
 end
@@ -211,7 +211,7 @@ arch grass_only
 x 3
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 y 2
 end
@@ -322,7 +322,7 @@ arch woodfloor
 x 3
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 y 11
 end
@@ -345,7 +345,7 @@ arch grass_only
 x 4
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 2
 end
@@ -581,7 +581,7 @@ arch potion_generic
 artifact cure poison
 end
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 11
 end
@@ -604,7 +604,7 @@ arch grass_only
 x 5
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 y 2
 end
@@ -720,7 +720,7 @@ arch bones5
 x 5
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 y 11
 end
@@ -743,7 +743,7 @@ arch grass_only
 x 6
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 y 2
 end
@@ -817,7 +817,7 @@ arch woodfloor
 x 6
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 y 11
 end
@@ -840,7 +840,7 @@ arch grass_only
 x 7
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 y 2
 end
@@ -912,7 +912,7 @@ arch wall_2_1_1
 x 7
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 y 11
 end
@@ -944,7 +944,7 @@ arch grass_only
 x 8
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 y 2
 end
@@ -997,7 +997,7 @@ arch woodfloor
 x 8
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 y 11
 end
@@ -1028,7 +1028,7 @@ arch grass_only
 x 9
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 2
 end
@@ -1085,7 +1085,7 @@ arch woodfloor
 x 9
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 11
 end
@@ -1113,7 +1113,7 @@ arch grass_only
 x 10
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1188,7 +1188,7 @@ arch woodfloor
 x 10
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 11
 end
@@ -1211,7 +1211,7 @@ arch grass_only
 x 11
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 2
 end
@@ -1219,7 +1219,7 @@ arch wall_2_2_3
 x 11
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 3
 end
@@ -1227,7 +1227,7 @@ arch wall_2_1_1
 x 11
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 4
 end
@@ -1235,7 +1235,7 @@ arch wall_2_1_1
 x 11
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 5
 end
@@ -1243,7 +1243,7 @@ arch window_win1
 x 11
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 6
 end
@@ -1251,7 +1251,7 @@ arch wall_2_1_1
 x 11
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 7
 end
@@ -1259,7 +1259,7 @@ arch wall_3_4
 x 11
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 8
 end
@@ -1267,7 +1267,7 @@ arch wall_2_1_1
 x 11
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 9
 end
@@ -1275,7 +1275,7 @@ arch window_win1
 x 11
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 10
 end
@@ -1283,7 +1283,7 @@ arch wall_2_1_1
 x 11
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 11
 end
