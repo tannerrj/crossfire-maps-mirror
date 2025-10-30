@@ -8,7 +8,7 @@ enter_x 6
 enter_y 11
 msg
 Created: 2002-12-29
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-10-29 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -129,7 +129,7 @@ arch grass_only
 x 2
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 2
 end
@@ -137,7 +137,7 @@ arch wwall_2_2_2
 x 2
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 3
 end
@@ -145,7 +145,7 @@ arch wwall_2_1_1
 x 2
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 4
 end
@@ -153,7 +153,7 @@ arch wwall_2_1_1
 x 2
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 5
 end
@@ -161,7 +161,7 @@ arch wwall_win1
 x 2
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 6
 end
@@ -169,7 +169,7 @@ arch wwall_2_1_1
 x 2
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 7
 end
@@ -181,7 +181,7 @@ arch dungeon_magic
 x 2
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 8
 end
@@ -189,7 +189,7 @@ arch wwall_3_2
 x 2
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 9
 end
@@ -197,7 +197,7 @@ arch wwall_2_1_1
 x 2
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 10
 end
@@ -205,7 +205,7 @@ arch wwall_win1
 x 2
 y 10
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 11
 end
@@ -213,7 +213,7 @@ arch wwall_2_1_1
 x 2
 y 11
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 12
 end
@@ -221,7 +221,7 @@ arch wwall_2_1_1
 x 2
 y 12
 end
-arch woodfloor2
+arch dungeon_floor
 x 2
 y 13
 end
@@ -244,7 +244,7 @@ arch grass_only
 x 3
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 y 2
 end
@@ -418,7 +418,7 @@ friendly 1
 stand_still 1
 one_hit 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 3
 y 13
 end
@@ -441,7 +441,7 @@ arch grass_only
 x 4
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 2
 end
@@ -559,7 +559,7 @@ arch table_2
 x 4
 y 12
 end
-arch woodfloor2
+arch dungeon_floor
 x 4
 y 13
 end
@@ -722,7 +722,7 @@ arch woodfloor2
 x 5
 y 13
 end
-arch woodfloor2
+arch dungeon_floor
 x 5
 y 13
 end
@@ -866,11 +866,9 @@ x 6
 y 13
 connected 2
 end
-arch woodfloor2
+arch dungeon_floor
 x 6
 y 13
-no_magic 1
-damned 1
 end
 arch odoorn2_closed_1
 x 6
@@ -1046,7 +1044,7 @@ arch woodfloor2
 x 7
 y 13
 end
-arch woodfloor2
+arch dungeon_floor
 x 7
 y 13
 end
@@ -1080,7 +1078,7 @@ arch grass_only
 x 8
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 y 2
 end
@@ -1211,7 +1209,7 @@ y 12
 map_layer item
 no_pick 1
 end
-arch woodfloor2
+arch dungeon_floor
 x 8
 y 13
 end
@@ -1234,7 +1232,7 @@ arch grass_only
 x 9
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 2
 end
@@ -1387,7 +1385,7 @@ x 9
 y 12
 map_layer item
 end
-arch woodfloor2
+arch dungeon_floor
 x 9
 y 13
 end
@@ -1410,7 +1408,7 @@ arch grass_only
 x 10
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1418,7 +1416,7 @@ arch wwall_2_2_3
 x 10
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 3
 end
@@ -1426,7 +1424,7 @@ arch wwall_2_1_1
 x 10
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 4
 end
@@ -1434,7 +1432,7 @@ arch wwall_2_1_1
 x 10
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 5
 end
@@ -1442,7 +1440,7 @@ arch wwall_win1
 x 10
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 6
 end
@@ -1450,7 +1448,7 @@ arch wwall_2_1_1
 x 10
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 7
 end
@@ -1462,7 +1460,7 @@ arch dungeon_magic
 x 10
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 8
 end
@@ -1470,7 +1468,7 @@ arch wwall_3_4
 x 10
 y 8
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 9
 end
@@ -1478,7 +1476,7 @@ arch wwall_2_1_1
 x 10
 y 9
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 10
 end
@@ -1486,7 +1484,7 @@ arch wwall_win1
 x 10
 y 10
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 11
 end
@@ -1494,7 +1492,7 @@ arch wwall_2_1_1
 x 10
 y 11
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 12
 end
@@ -1502,7 +1500,7 @@ arch wwall_2_1_1
 x 10
 y 12
 end
-arch woodfloor2
+arch dungeon_floor
 x 10
 y 13
 end
