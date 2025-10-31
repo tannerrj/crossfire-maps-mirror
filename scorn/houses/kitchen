@@ -8,7 +8,7 @@ enter_x 6
 enter_y 11
 msg
 Created: 2002-12-29
-Modified: 2025-10-29 Rick Tanner
+Modified: 2025-10-31 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1269,6 +1269,7 @@ name aging steak
 food 0
 x 9
 y 4
+level 1
 value 1
 map_layer item
 no_pick 1
@@ -1297,6 +1298,7 @@ arch dragon_steak_table
 x 9
 y 6
 arch dragon_steak
+level 1
 value 1
 weight 1000
 end
