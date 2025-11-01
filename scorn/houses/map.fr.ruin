@@ -7,7 +7,7 @@ height 20
 enter_x 1
 enter_y 19
 msg
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2025-11-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -280,7 +280,7 @@ arch pstone_1
 x 3
 y 3
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 4
 end
@@ -288,7 +288,7 @@ arch wall_2_2_2
 x 3
 y 4
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 5
 end
@@ -296,7 +296,7 @@ arch wall_2_1_1
 x 3
 y 5
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 6
 end
@@ -304,7 +304,7 @@ arch wall_2_1_1
 x 3
 y 6
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 7
 end
@@ -312,7 +312,7 @@ arch wall_2_1_1
 x 3
 y 7
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 8
 end
@@ -320,7 +320,7 @@ arch wall_2_1_1
 x 3
 y 8
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 9
 end
@@ -328,7 +328,7 @@ arch wall_3_2
 x 3
 y 9
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 10
 end
@@ -336,7 +336,7 @@ arch wall_2_1_1
 x 3
 y 10
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 11
 end
@@ -344,7 +344,7 @@ arch wall_2_1_1
 x 3
 y 11
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 12
 end
@@ -352,7 +352,7 @@ arch wall_3_2
 x 3
 y 12
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 13
 end
@@ -360,7 +360,7 @@ arch wall_2_1_1
 x 3
 y 13
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 14
 end
@@ -368,7 +368,7 @@ arch wall_2_1_1
 x 3
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 15
 end
@@ -376,7 +376,7 @@ arch wall_2_1_1
 x 3
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 3
 y 16
 end
@@ -416,7 +416,7 @@ arch pstone_1
 x 4
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 4
 y 3
 end
@@ -424,7 +424,7 @@ arch wall_2_2_2
 x 4
 y 3
 end
-arch cobblestones2
+arch dungeon_floor
 x 4
 y 4
 end
@@ -520,7 +520,7 @@ arch random_treasure
 x 4
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 4
 y 16
 end
@@ -528,7 +528,7 @@ arch wall_2_2_3
 x 4
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 4
 y 17
 end
@@ -556,7 +556,7 @@ arch pstone_1
 x 5
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 5
 y 3
 end
@@ -640,7 +640,7 @@ arch mouse
 x 5
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 5
 y 17
 end
@@ -670,7 +670,7 @@ y 2
 smoothlevel 30
 move_block swim boat
 end
-arch cobblestones2
+arch dungeon_floor
 x 6
 y 3
 end
@@ -742,7 +742,7 @@ arch cobblestones2
 x 6
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 6
 y 17
 end
@@ -779,7 +779,7 @@ y 2
 smoothlevel 30
 move_block swim boat
 end
-arch cobblestones2
+arch dungeon_floor
 x 7
 y 3
 end
@@ -859,7 +859,7 @@ arch mouse
 x 7
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 7
 y 17
 end
@@ -888,7 +888,7 @@ arch grass
 x 8
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 8
 y 3
 end
@@ -964,7 +964,7 @@ arch wall_1_1
 x 8
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 8
 y 15
 end
@@ -977,7 +977,7 @@ face wall_8_short.111
 x 8
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 8
 y 16
 end
@@ -985,7 +985,7 @@ arch wall_2_1_1
 x 8
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 8
 y 17
 end
@@ -1014,7 +1014,7 @@ arch grass
 x 9
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 9
 y 3
 end
@@ -1082,7 +1082,7 @@ arch cobblestones2
 x 9
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 9
 y 15
 end
@@ -1119,7 +1119,7 @@ arch grass
 x 10
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 10
 y 3
 end
@@ -1187,7 +1187,7 @@ arch cobblestones2
 x 10
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 10
 y 15
 end
@@ -1225,7 +1225,7 @@ arch grass
 x 11
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 11
 y 3
 end
@@ -1305,7 +1305,7 @@ arch wall_1_1
 x 11
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 11
 y 15
 end
@@ -1318,7 +1318,7 @@ face wall_2_short.111
 x 11
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 11
 y 16
 end
@@ -1326,7 +1326,7 @@ arch wall_2_1_1
 x 11
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 11
 y 17
 end
@@ -1355,7 +1355,7 @@ arch grass
 x 12
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 12
 y 3
 end
@@ -1481,7 +1481,7 @@ arch grass
 x 13
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 13
 y 3
 end
@@ -1581,7 +1581,7 @@ arch random_treasure
 x 13
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 13
 y 17
 end
@@ -1608,7 +1608,7 @@ arch grass
 x 14
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 14
 y 3
 end
@@ -1712,7 +1712,7 @@ arch poison
 x 14
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 14
 y 17
 end
@@ -1739,7 +1739,7 @@ arch grass
 x 15
 y 2
 end
-arch cobblestones2
+arch dungeon_floor
 x 15
 y 3
 end
@@ -1747,7 +1747,7 @@ arch wall_2_2_3
 x 15
 y 3
 end
-arch cobblestones2
+arch dungeon_floor
 x 15
 y 4
 end
@@ -1839,7 +1839,7 @@ arch poison
 x 15
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 15
 y 16
 end
@@ -1847,7 +1847,7 @@ arch wall_2_2_2
 x 15
 y 16
 end
-arch cobblestones2
+arch dungeon_floor
 x 15
 y 17
 end
@@ -1878,7 +1878,7 @@ arch brush
 x 16
 y 3
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 4
 end
@@ -1886,7 +1886,7 @@ arch wall_2_2_3
 x 16
 y 4
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 5
 end
@@ -1894,7 +1894,7 @@ arch wall_2_1_1
 x 16
 y 5
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 6
 end
@@ -1902,7 +1902,7 @@ arch wall_2_1_1
 x 16
 y 6
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 7
 end
@@ -1910,7 +1910,7 @@ arch wall_2_1_1
 x 16
 y 7
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 8
 end
@@ -1918,7 +1918,7 @@ arch wall_2_1_1
 x 16
 y 8
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 9
 end
@@ -1931,7 +1931,7 @@ face wall_2_short.111
 x 16
 y 9
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 10
 end
@@ -1939,7 +1939,7 @@ arch wall_2_1_1
 x 16
 y 10
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 11
 end
@@ -1947,7 +1947,7 @@ arch wall_2_1_1
 x 16
 y 11
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 12
 end
@@ -1955,7 +1955,7 @@ arch wall_3_4
 x 16
 y 12
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 13
 end
@@ -1963,7 +1963,7 @@ arch wall_2_1_1
 x 16
 y 13
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 14
 end
@@ -1971,7 +1971,7 @@ arch wall_2_1_1
 x 16
 y 14
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 15
 end
@@ -1979,7 +1979,7 @@ arch wall_2_1_1
 x 16
 y 15
 end
-arch cobblestones2
+arch dungeon_floor
 x 16
 y 16
 end
