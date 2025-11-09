@@ -925,6 +925,9 @@ y 12
 end
 arch sign_w
 name #3 Riverside Manor
+msg
+#3 Riverside Manor
+endmsg
 x 5
 y 12
 end
@@ -1736,6 +1739,9 @@ y 9
 end
 arch sign_w
 name #1 Riverside Manor
+msg
+#1 Riverside Manor
+endmsg
 x 10
 y 9
 end
@@ -2331,6 +2337,7 @@ end
 arch sign_e
 name #2 Riverside Manor
 msg
+#2 Riverside Manor
 For Rent
 See Amy in #4 Riverside Manor for details.
 endmsg
@@ -2360,6 +2367,7 @@ end
 arch sign_w
 name #4 Riverside Manor
 msg
+#4 Riverside Manor
 Amy Barrnes
 Caretaker
 Please knock
