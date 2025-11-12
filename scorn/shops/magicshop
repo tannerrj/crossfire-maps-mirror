@@ -11,7 +11,7 @@ enter_x 38
 enter_y 21
 msg
 Created: 1993-10-15
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-11-10 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -470,7 +470,7 @@ arch cwall_2_2_4
 x 3
 y 16
 end
-arch shop_empty
+arch shop_ring
 x 3
 y 17
 end
@@ -478,11 +478,11 @@ arch light4
 x 3
 y 18
 end
-arch shop_empty
+arch shop_ring
 x 3
 y 18
 end
-arch shop_empty
+arch shop_ring
 x 3
 y 19
 end
@@ -633,15 +633,15 @@ arch shop_books
 x 4
 y 16
 end
-arch shop_empty
+arch shop_ring
 x 4
 y 17
 end
-arch shop_empty
+arch shop_ring
 x 4
 y 18
 end
-arch shop_empty
+arch shop_ring
 x 4
 y 19
 end
@@ -772,15 +772,15 @@ arch shop_books
 x 5
 y 16
 end
-arch shop_empty
+arch shop_ring
 x 5
 y 17
 end
-arch shop_empty
+arch shop_ring
 x 5
 y 18
 end
-arch shop_empty
+arch shop_ring
 x 5
 y 19
 end
