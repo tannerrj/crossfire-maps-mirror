@@ -7,7 +7,7 @@ enter_x 3
 enter_y 9
 msg
 Created:  2009-12-05 Nicolas Weeger
-Modified: 2023-12-04 Rick Tanner
+Modified: 2025-11-17 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_tyls-house
@@ -403,12 +403,13 @@ Well, I'm not sure, they are precious ones...
 @match store
 I store them in this house, in the attic.
 @question see Could I see them?
-@match job
 @question store Where do you store all those books?
 I collect stories, books, and whatever I can find.
 @match hello
 Hello there!
 @question job What is your job?
+@match job
+Not really a job, more of a passion - I collect books.
 @match *
 *grumble*
 endmsg
