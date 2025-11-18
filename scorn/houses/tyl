@@ -158,7 +158,7 @@ arch flagstone
 x 2
 y 5
 end
-arch wall_2_1_1
+arch wall_3_2
 x 2
 y 5
 end
@@ -240,7 +240,15 @@ arch woodfloor
 x 3
 y 3
 end
+arch table_2x1
+x 3
+y 3
+end
 arch woodfloor
+x 3
+y 4
+end
+arch chair_2.3
 x 3
 y 4
 end
@@ -248,11 +256,23 @@ arch woodfloor
 x 3
 y 5
 end
+arch wall_2_1_2
+x 3
+y 5
+end
 arch woodfloor
 x 3
 y 6
 end
+arch table_3
+x 3
+y 6
+end
 arch woodfloor
+x 3
+y 7
+end
+arch chair_2.3
 x 3
 y 7
 end
@@ -311,6 +331,10 @@ arch woodfloor
 x 4
 y 5
 end
+arch wall_2_1_2
+x 4
+y 5
+end
 arch woodfloor
 x 4
 y 6
@@ -328,6 +352,10 @@ x 4
 y 9
 end
 arch woodfloor
+x 4
+y 10
+end
+arch chair_2.3
 x 4
 y 10
 end
@@ -371,6 +399,10 @@ x 5
 y 4
 end
 arch woodfloor
+x 5
+y 5
+end
+arch wall_1_3
 x 5
 y 5
 end
@@ -430,6 +462,10 @@ arch woodfloor
 x 5
 y 10
 end
+arch chair_2.3
+x 5
+y 10
+end
 arch flagstone
 x 5
 y 11
@@ -528,6 +564,10 @@ arch woodfloor
 x 7
 y 3
 end
+arch table_2x1
+x 7
+y 3
+end
 arch woodfloor
 x 7
 y 4
@@ -544,6 +584,10 @@ arch woodfloor
 x 7
 y 7
 end
+arch wall_1_4
+x 7
+y 7
+end
 arch woodfloor
 x 7
 y 8
@@ -552,7 +596,15 @@ arch woodfloor
 x 7
 y 9
 end
+arch wall_1_1
+x 7
+y 9
+end
 arch woodfloor
+x 7
+y 10
+end
+arch wall_2_1_1
 x 7
 y 10
 end
@@ -560,7 +612,7 @@ arch flagstone
 x 7
 y 11
 end
-arch wall_2_1_2
+arch wall_3_1
 x 7
 y 11
 end
@@ -595,7 +647,15 @@ arch woodfloor
 x 8
 y 4
 end
+arch chair_2.3
+x 8
+y 4
+end
 arch woodfloor
+x 8
+y 5
+end
+arch wall_1_4
 x 8
 y 5
 end
@@ -604,6 +664,10 @@ x 8
 y 6
 end
 arch woodfloor
+x 8
+y 7
+end
+arch wall_2_1_2
 x 8
 y 7
 end
@@ -662,11 +726,15 @@ arch woodfloor
 x 9
 y 4
 end
-arch wall_1_2
+arch wall_2_1_1
 x 9
 y 4
 end
 arch woodfloor
+x 9
+y 5
+end
+arch wall_2_2_4
 x 9
 y 5
 end
@@ -675,6 +743,10 @@ x 9
 y 6
 end
 arch woodfloor
+x 9
+y 7
+end
+arch wall_2_1_2
 x 9
 y 7
 end
@@ -687,6 +759,10 @@ x 9
 y 9
 end
 arch woodfloor
+x 9
+y 10
+end
+arch bed_1
 x 9
 y 10
 end
@@ -753,7 +829,15 @@ arch woodfloor
 x 10
 y 7
 end
+arch wall_2_1_2
+x 10
+y 7
+end
 arch woodfloor
+x 10
+y 8
+end
+arch chair_2.2
 x 10
 y 8
 end
@@ -762,6 +846,10 @@ x 10
 y 9
 end
 arch woodfloor
+x 10
+y 10
+end
+arch table
 x 10
 y 10
 end
@@ -832,7 +920,7 @@ arch flagstone
 x 11
 y 7
 end
-arch wall_2_1_1
+arch wall_3_4
 x 11
 y 7
 end
