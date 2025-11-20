@@ -9,7 +9,7 @@ enter_x 4
 enter_y 13
 msg
 Created:  2002-12-28
-Modified: 2017-07-28 Kevin Zheng
+Modified: 2025-11-19 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -144,8 +144,7 @@ arch grass_only
 x 2
 y 1
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 2
 end
@@ -153,8 +152,7 @@ arch awall_2_2_2
 x 2
 y 2
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 3
 end
@@ -162,8 +160,7 @@ arch awall_2_1_1
 x 2
 y 3
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 4
 end
@@ -171,8 +168,7 @@ arch awall_2_1_1
 x 2
 y 4
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 5
 end
@@ -180,8 +176,7 @@ arch awall_win1
 x 2
 y 5
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 6
 end
@@ -189,8 +184,7 @@ arch awall_2_1_1
 x 2
 y 6
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 7
 end
@@ -202,8 +196,7 @@ arch dungeon_magic
 x 2
 y 8
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 2
 y 8
 end
@@ -211,8 +204,7 @@ arch awall_3_2
 x 2
 y 8
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 9
 end
@@ -220,8 +212,7 @@ arch awall_2_1_1
 x 2
 y 9
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 10
 end
@@ -229,8 +220,7 @@ arch awall_win1
 x 2
 y 10
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 11
 end
@@ -238,8 +228,7 @@ arch awall_2_1_1
 x 2
 y 11
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 12
 end
@@ -247,8 +236,7 @@ arch awall_2_1_1
 x 2
 y 12
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 13
 end
@@ -256,8 +244,7 @@ arch awall_2_1_1
 x 2
 y 13
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 14
 end
@@ -265,8 +252,7 @@ arch awall_2_1_1
 x 2
 y 14
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 2
 y 15
 end
@@ -289,8 +275,7 @@ arch grass_only
 x 3
 y 1
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 3
 y 2
 end
@@ -421,8 +406,7 @@ arch brazier
 x 3
 y 14
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 3
 y 15
 end
@@ -445,7 +429,7 @@ arch grass_only
 x 4
 y 1
 end
-arch yellow_0
+arch dungeon_floor
 x 4
 y 2
 end
@@ -558,7 +542,7 @@ arch yellow_0
 x 4
 y 14
 end
-arch yellow_0
+arch dungeon_floor
 x 4
 y 15
 end
@@ -581,7 +565,7 @@ arch grass_only
 x 5
 y 1
 end
-arch yellow_0
+arch dungeon_floor
 x 5
 y 2
 end
@@ -692,7 +676,7 @@ arch yellow_0
 x 5
 y 14
 end
-arch yellow_0
+arch dungeon_floor
 x 5
 y 15
 end
@@ -726,7 +710,7 @@ arch grass_only
 x 6
 y 1
 end
-arch yellow_0
+arch dungeon_floor
 x 6
 y 2
 end
@@ -868,7 +852,7 @@ x 6
 y 15
 connected 1
 end
-arch yellow_0
+arch dungeon_floor
 x 6
 y 15
 end
@@ -903,7 +887,7 @@ arch grass_only
 x 7
 y 1
 end
-arch yellow_0
+arch dungeon_floor
 x 7
 y 2
 end
@@ -1014,7 +998,7 @@ arch yellow_0
 x 7
 y 14
 end
-arch yellow_0
+arch dungeon_floor
 x 7
 y 15
 end
@@ -1048,7 +1032,7 @@ arch grass_only
 x 8
 y 1
 end
-arch yellow_0
+arch dungeon_floor
 x 8
 y 2
 end
@@ -1161,7 +1145,7 @@ arch yellow_0
 x 8
 y 14
 end
-arch yellow_0
+arch dungeon_floor
 x 8
 y 15
 end
@@ -1184,8 +1168,7 @@ arch grass_only
 x 9
 y 1
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 9
 y 2
 end
@@ -1316,8 +1299,7 @@ arch brazier
 x 9
 y 14
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 9
 y 15
 end
@@ -1340,8 +1322,7 @@ arch grass_only
 x 10
 y 1
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 2
 end
@@ -1349,8 +1330,7 @@ arch awall_2_2_3
 x 10
 y 2
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 3
 end
@@ -1358,8 +1338,7 @@ arch awall_2_1_1
 x 10
 y 3
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 4
 end
@@ -1367,8 +1346,7 @@ arch awall_2_1_1
 x 10
 y 4
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 5
 end
@@ -1376,8 +1354,7 @@ arch awall_win1
 x 10
 y 5
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 6
 end
@@ -1385,8 +1362,7 @@ arch awall_2_1_1
 x 10
 y 6
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 7
 end
@@ -1398,8 +1374,7 @@ arch dungeon_magic
 x 10
 y 8
 end
-arch blackmarble
-name Fractured Obsidian
+arch dungeon_floor
 x 10
 y 8
 end
@@ -1407,8 +1382,7 @@ arch awall_3_4
 x 10
 y 8
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 9
 end
@@ -1416,8 +1390,7 @@ arch awall_2_1_1
 x 10
 y 9
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 10
 end
@@ -1425,8 +1398,7 @@ arch awall_win1
 x 10
 y 10
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 11
 end
@@ -1434,8 +1406,7 @@ arch awall_2_1_1
 x 10
 y 11
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 12
 end
@@ -1443,8 +1414,7 @@ arch awall_2_1_1
 x 10
 y 12
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 13
 end
@@ -1452,8 +1422,7 @@ arch awall_2_1_1
 x 10
 y 13
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 14
 end
@@ -1461,8 +1430,7 @@ arch awall_2_1_1
 x 10
 y 14
 end
-arch snow2
-name Ice Illusion
+arch dungeon_floor
 x 10
 y 15
 end
