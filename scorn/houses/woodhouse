@@ -8,7 +8,7 @@ enter_x 2
 enter_y 8
 msg
 Created:  2007-05-27 Nicolas Weeger
-Modified: 2022-07-27 Rick Tanner
+Modified: 2025-11-21 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -16,65 +16,65 @@ Hospital and entrance to the trappers.
 endmaplore
 reset_group scorn_wood-house-scorn-trappers
 end
-arch woodfloor
+arch dungeon_floor
 end
 arch woodwall_2_2_2
 end
-arch woodfloor
+arch dungeon_floor
 y 1
 end
 arch woodwall_2_1_1
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 y 2
 end
 arch woodwall_3_2
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 y 3
 end
 arch woodwall_2_1_1
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 y 4
 end
 arch woodwall_3_2
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 y 5
 end
 arch woodwall_2_1_1
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 y 6
 end
 arch woodwall_win1
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 y 7
 end
 arch woodwall_2_1_1
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 y 8
 end
 arch woodwall_2_1_1
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 y 9
 end
 arch woodwall_2_2_1
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 1
 end
 arch woodwall_2_1_2
@@ -143,7 +143,7 @@ arch woodfloor
 x 1
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 1
 y 9
 end
@@ -151,7 +151,7 @@ arch woodwall_1_3
 x 1
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 end
 arch woodwall_2_1_2
@@ -223,11 +223,11 @@ sp 29
 x 2
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 2
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 end
 arch woodwall_2_1_2
@@ -273,7 +273,7 @@ arch woodwall_2_1_1
 x 3
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 3
 y 9
 end
@@ -281,7 +281,7 @@ arch woodwall_2_2_1
 x 3
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 end
 arch woodwall_2_1_2
@@ -364,7 +364,7 @@ x 4
 y 8
 no_pick 1
 end
-arch woodfloor
+arch dungeon_floor
 x 4
 y 9
 end
@@ -372,7 +372,7 @@ arch woodwall_2_1_2
 x 4
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 end
 arch woodwall_3_3
@@ -435,7 +435,7 @@ arch woodfloor
 x 5
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 5
 y 9
 end
@@ -443,7 +443,7 @@ arch woodwall_2_1_2
 x 5
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 end
 arch woodwall_2_1_2
@@ -541,7 +541,7 @@ arch woodfloor
 x 6
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 6
 y 9
 end
@@ -549,7 +549,7 @@ arch woodwall_win2
 x 6
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 end
 arch woodwall_2_1_2
@@ -617,7 +617,7 @@ arch woodwall_1_1
 x 7
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 7
 y 9
 end
@@ -625,7 +625,7 @@ arch woodwall_3_1
 x 7
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 end
 arch woodwall_2_1_2
@@ -698,7 +698,7 @@ arch woodfloor
 x 8
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 8
 y 9
 end
@@ -706,13 +706,13 @@ arch woodwall_2_1_2
 x 8
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 end
 arch woodwall_2_2_3
 x 9
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 1
 end
@@ -720,7 +720,7 @@ arch woodwall_2_1_1
 x 9
 y 1
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 2
 end
@@ -728,7 +728,7 @@ arch woodwall_2_1_1
 x 9
 y 2
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 3
 end
@@ -736,7 +736,7 @@ arch woodwall_2_1_1
 x 9
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 4
 end
@@ -744,7 +744,7 @@ arch woodwall_win1
 x 9
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 5
 end
@@ -752,7 +752,7 @@ arch woodwall_2_1_1
 x 9
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 6
 end
@@ -760,7 +760,7 @@ arch woodwall_3_4
 x 9
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 7
 end
@@ -768,7 +768,7 @@ arch woodwall_2_1_1
 x 9
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 8
 end
@@ -776,7 +776,7 @@ arch woodwall_2_1_1
 x 9
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 9
 end
