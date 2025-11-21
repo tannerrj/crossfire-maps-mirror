@@ -5,7 +5,7 @@ width 21
 height 21
 msg
 Created:  1999-12-22 Joel Southall (joel@prninfo.com)
-Modified: 2025-03-02 Rick Tanner
+Modified: 2025-11-21 kettek
 endmsg
 end
 arch woodfloor
@@ -3890,11 +3890,19 @@ arch woodfloor
 x 18
 y 2
 end
+arch swall_2_2_2
+x 18
+y 2
+end
+arch magic_banned
+x 18
+y 2
+end
 arch woodfloor
 x 18
 y 3
 end
-arch swall_2_1_2
+arch swall_2_2_4
 x 18
 y 3
 end
@@ -4072,15 +4080,23 @@ arch woodfloor
 x 19
 y 2
 end
+arch swall_1_3
+x 19
+y 2
+end
+arch magic_banned
+x 19
+y 2
+end
 arch woodfloor
 x 19
 y 3
 end
-arch swall_1_3
-x 19
-y 3
-end
-arch magic_banned
+arch oakdoor
+name back door
+slaying /ElvenLands/Darkoth/darkland
+hp 48
+sp 49
 x 19
 y 3
 end
