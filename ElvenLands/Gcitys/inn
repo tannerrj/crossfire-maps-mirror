@@ -5,7 +5,7 @@ width 7
 height 6
 msg
 Created:  1999-11-20 Joel Southall (joel@prninfo.com)
-Modified: 2025-02-27 Rick Tanner
+Modified: 2025-11-21 kettek
 endmsg
 end
 arch woodfloor
@@ -52,6 +52,11 @@ arch woodfloor
 x 1
 y 1
 end
+arch detector
+x 1
+y 1
+connected 1
+end
 arch bed_save
 x 1
 y 1
@@ -65,9 +70,10 @@ x 1
 y 2
 connected 1
 end
-arch woodfloor
+arch goldfloor
 x 1
 y 3
+connected 1
 end
 arch woodfloor
 x 1
@@ -163,12 +169,11 @@ end
 arch table
 x 3
 y 2
-no_pass 1
+move_block all
 end
-arch goldfloor
+arch woodfloor
 x 3
 y 3
-connected 1
 end
 arch woodfloor
 x 3
@@ -237,6 +242,11 @@ arch woodfloor
 x 5
 y 1
 end
+arch detector
+x 5
+y 1
+connected 2
+end
 arch bed_save
 x 5
 y 1
@@ -248,11 +258,12 @@ end
 arch grate_closed_1
 x 5
 y 2
-connected 1
+connected 2
 end
-arch woodfloor
+arch goldfloor
 x 5
 y 3
+connected 2
 end
 arch woodfloor
 x 5
