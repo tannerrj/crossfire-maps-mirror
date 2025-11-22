@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2025-10-23 Rick Tanner
+Modified: 2025-11-22 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -5542,8 +5542,8 @@ end
 arch woodhouse
 name wood house
 slaying /scorn/houses/woodhouse
-hp 2
-sp 8
+hp 4
+sp 10
 x 12
 y 29
 end
