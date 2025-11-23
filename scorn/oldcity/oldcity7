@@ -9,7 +9,7 @@ enter_x 5
 enter_y 38
 msg
 Created: 1994-05-28
-Modified: 2024-05-31 Rick Tanner
+Modified: 2025-11-23 Rick Tanner
 endmsg
 tile_path_2 oldcity54
 tile_path_4 oldcity8
@@ -1197,6 +1197,9 @@ y 34
 end
 arch sign
 name Gumble's Maze
+msg
+Gumble's Maze
+endmsg
 x 4
 y 34
 end
