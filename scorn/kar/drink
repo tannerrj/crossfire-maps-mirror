@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created: 1993-10-05
-Modified: 2024-03-22 Kevin Zheng
+Modified: 2025-11-23 Rick Tanner
 endmsg
 end
 arch pstone_1
@@ -7810,6 +7810,7 @@ end
 arch exit
 slaying /scorn/oldcity/oldcity7
 hp 7
+sp 0
 x 34
 y 39
 end
