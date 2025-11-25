@@ -7,15 +7,142 @@ height 18
 enter_x 15
 enter_y 3
 msg
-Modified: 2024-02-25 nicolas
+Modified: 2025-11-25 Rick Tanner
 endmsg
 reset_group scorn_gorks-grovel
 end
-arch woodfloor
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch blocked
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
+arch blocked
+y 9
+end
+arch blocked
+y 10
+end
+arch blocked
+y 11
+end
+arch blocked
+y 12
+end
+arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch blocked
+x 1
+y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 2
+end
+arch blocked
 x 2
 y 1
 end
-arch woodfloor
+arch blocked
 x 2
 y 2
 end
@@ -123,15 +250,18 @@ arch dwall_2_2_1
 x 2
 y 15
 end
-arch woodfloor
+arch blocked
 x 2
 y 16
 end
-arch woodfloor
+arch blocked
 x 2
 y 17
 end
-arch woodfloor
+arch blocked
+x 3
+end
+arch blocked
 x 3
 y 1
 end
@@ -219,9 +349,12 @@ arch dwall_2_2_1
 x 3
 y 16
 end
-arch woodfloor
+arch blocked
 x 3
 y 17
+end
+arch blocked
+x 4
 end
 arch woodfloor
 x 4
@@ -319,6 +452,9 @@ arch dwall_2_2_1
 x 4
 y 17
 end
+arch blocked
+x 5
+end
 arch woodfloor
 x 5
 y 1
@@ -442,6 +578,9 @@ end
 arch dwall_2_1_2
 x 5
 y 17
+end
+arch blocked
+x 6
 end
 arch woodfloor
 x 6
@@ -538,6 +677,9 @@ end
 arch dwall_2_1_2
 x 6
 y 17
+end
+arch blocked
+x 7
 end
 arch woodfloor
 x 7
@@ -639,6 +781,9 @@ end
 arch dwall_2_1_2
 x 7
 y 17
+end
+arch blocked
+x 8
 end
 arch woodfloor
 x 8
@@ -764,6 +909,9 @@ arch dwall_2_1_2
 x 8
 y 17
 end
+arch blocked
+x 9
+end
 arch woodfloor
 x 9
 y 1
@@ -880,6 +1028,9 @@ arch dwall_2_1_2
 x 9
 y 17
 end
+arch blocked
+x 10
+end
 arch woodfloor
 x 10
 y 1
@@ -995,6 +1146,9 @@ arch dwall_2_1_2
 x 10
 y 17
 end
+arch blocked
+x 11
+end
 arch woodfloor
 x 11
 y 1
@@ -1111,6 +1265,9 @@ arch dwall_2_1_2
 x 11
 y 17
 end
+arch blocked
+x 12
+end
 arch woodfloor
 x 12
 y 1
@@ -1223,6 +1380,9 @@ arch dwall_2_1_2
 x 12
 y 17
 end
+arch blocked
+x 13
+end
 arch woodfloor
 x 13
 y 1
@@ -1318,6 +1478,9 @@ end
 arch dwall_2_1_2
 x 13
 y 17
+end
+arch blocked
+x 14
 end
 arch woodfloor
 x 14
@@ -1430,6 +1593,9 @@ end
 arch dwall_2_1_2
 x 14
 y 17
+end
+arch blocked
+x 15
 end
 arch woodfloor
 x 15
@@ -1538,7 +1704,10 @@ arch dwall_2_2_4
 x 15
 y 17
 end
-arch woodfloor
+arch blocked
+x 16
+end
+arch blocked
 x 16
 y 1
 end
@@ -1626,15 +1795,18 @@ arch dwall_2_2_4
 x 16
 y 16
 end
-arch woodfloor
+arch blocked
 x 16
 y 17
 end
-arch woodfloor
+arch blocked
+x 17
+end
+arch blocked
 x 17
 y 1
 end
-arch woodfloor
+arch blocked
 x 17
 y 2
 end
@@ -1742,11 +1914,11 @@ arch dwall_2_2_4
 x 17
 y 15
 end
-arch woodfloor
+arch blocked
 x 17
 y 16
 end
-arch woodfloor
+arch blocked
 x 17
 y 17
 end
