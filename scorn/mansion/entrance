@@ -7,7 +7,7 @@ height 50
 enter_x 14
 msg
 Created:  1994-12-27 Morten Hanshaugen
-Modified: 2025-11-27 Rick Tanner
+Modified: 2025-11-30 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -129,10 +129,13 @@ end
 arch wall_2_2_1
 y 19
 end
+arch swall_1_1_half
+y 19
+end
 arch woods
 y 20
 end
-arch swall_1_1
+arch swall_2_1_1
 y 20
 end
 arch woods
@@ -7495,7 +7498,15 @@ arch wall_2_2_4
 x 29
 y 19
 end
+arch swall_1_1_half
+x 29
+y 19
+end
 arch woods
+x 29
+y 20
+end
+arch swall_1_2
 x 29
 y 20
 end
