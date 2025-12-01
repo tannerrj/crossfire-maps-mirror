@@ -9,7 +9,7 @@ enter_x 25
 enter_y 1
 msg
 Created:  1994-12-28
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-12-01 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -1927,6 +1927,7 @@ magic 1
 end
 arch head
 name Filur's head
+level 1
 end
 arch goldcoin
 nrof 20
