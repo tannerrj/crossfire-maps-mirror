@@ -3766,8 +3766,10 @@ x 12
 y 27
 end
 arch brain
+food 1
 x 12
 y 27
+level 1
 end
 arch dragonclaw
 x 12
@@ -4001,6 +4003,7 @@ end
 arch fl_corpse
 x 13
 y 27
+level 1
 end
 arch dead_neko
 x 13
@@ -4238,14 +4241,17 @@ end
 arch fl_corpse
 x 14
 y 26
+level 1
 end
 arch green_dragon_scale
 x 14
 y 26
 end
 arch residue
+food 1
 x 14
 y 26
+level 1
 end
 arch dungeon_magic
 x 14
@@ -4258,6 +4264,7 @@ end
 arch arm
 x 14
 y 27
+level 1
 end
 arch dead_neko
 x 14
@@ -4266,6 +4273,7 @@ end
 arch liver
 x 14
 y 27
+level 1
 end
 arch dungeon_magic
 x 14
