@@ -8,52 +8,52 @@ enter_x 5
 enter_y 8
 msg
 Creator: 2007-06-03 Nicolas Weeger
-Modified: 2025-06-22 Nicolas Weeger
+Modified: 2025-12-05 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_witherspoon-manor
 end
-arch bluemarblemedium
+arch stonefloor2
 end
 arch flagstone_2_2_2
 end
-arch bluemarblemedium
+arch stonefloor2
 y 1
 end
 arch flagstone_2_1_1
 y 1
 end
-arch bluemarblemedium
+arch stonefloor2
 y 2
 end
 arch flagstone_2_1_1
 y 2
 end
-arch bluemarblemedium
+arch stonefloor2
 y 3
 end
 arch flagstone_2_1_1
 y 3
 end
-arch bluemarblemedium
+arch stonefloor2
 y 4
 end
 arch flagstone_2_1_1
 y 4
 end
-arch bluemarblemedium
+arch stonefloor2
 y 5
 end
 arch flagstone_2_1_1
 y 5
 end
-arch bluemarblemedium
+arch stonefloor2
 y 6
 end
 arch flagstone_2_1_1
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 y 7
 end
 arch flagstone_2_2_1
@@ -65,7 +65,7 @@ end
 arch grass
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 1
 end
 arch flagstone_2_1_2
@@ -116,7 +116,7 @@ arch bluemarblemedium
 x 1
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 1
 y 7
 end
@@ -132,7 +132,7 @@ arch grass
 x 1
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 2
 end
 arch flagstone_2_1_2
@@ -172,7 +172,7 @@ arch bluemarblemedium
 x 2
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 2
 y 7
 end
@@ -192,7 +192,7 @@ arch grass
 x 2
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 3
 end
 arch flagstone_2_1_2
@@ -236,7 +236,7 @@ arch chair_cw_1.2
 x 3
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 3
 y 7
 end
@@ -252,7 +252,7 @@ arch grass
 x 3
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 4
 end
 arch flagstone_3_3
@@ -309,7 +309,7 @@ arch flagstone_2_1_1
 x 4
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 4
 y 7
 end
@@ -329,7 +329,7 @@ arch grass
 x 4
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 5
 end
 arch flagstone_2_1_2
@@ -371,7 +371,7 @@ arch bluemarblemedium
 x 5
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 5
 y 7
 end
@@ -399,7 +399,7 @@ arch dirtroad_2_2_2
 x 5
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 6
 end
 arch flagstone_2_1_2
@@ -449,7 +449,7 @@ arch bluemarblemedium
 x 6
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 6
 y 7
 end
@@ -477,7 +477,7 @@ arch dirtroad_2_2_3
 x 6
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 7
 end
 arch flagstone_2_1_2
@@ -522,7 +522,7 @@ arch bluemarblemedium
 x 7
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 7
 y 7
 end
@@ -538,7 +538,7 @@ arch grass
 x 7
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 8
 end
 arch flagstone_2_1_2
@@ -576,7 +576,7 @@ arch bluemarblemedium
 x 8
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 8
 y 7
 end
@@ -596,7 +596,7 @@ arch grass
 x 8
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 9
 end
 arch flagstone_2_1_2
@@ -630,7 +630,7 @@ arch bluemarblemedium
 x 9
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 9
 y 7
 end
@@ -646,7 +646,7 @@ arch grass
 x 9
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 10
 end
 arch flagstone_3_3
@@ -692,7 +692,7 @@ arch bluemarblemedium
 x 10
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 10
 y 7
 end
@@ -708,7 +708,7 @@ arch grass
 x 10
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 11
 end
 arch flagstone_2_1_2
@@ -756,7 +756,7 @@ arch bluemarblemedium
 x 11
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 11
 y 7
 end
@@ -764,7 +764,7 @@ arch flagstone_3_3
 x 11
 y 7
 end
-arch bluemarblemedium
+arch stonefloor2
 x 11
 y 8
 end
@@ -772,7 +772,7 @@ arch flagstone_2_1_1
 x 11
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
 x 11
 y 9
 end
@@ -780,7 +780,7 @@ arch flagstone_2_2_1
 x 11
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 12
 end
 arch flagstone_2_1_2
@@ -832,7 +832,7 @@ arch bluemarblemedium
 x 12
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
 x 12
 y 9
 end
@@ -840,7 +840,7 @@ arch flagstone_2_1_2
 x 12
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 13
 end
 arch flagstone_2_1_2
@@ -893,7 +893,7 @@ arch bluemarblemedium
 x 13
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
 x 13
 y 9
 end
@@ -901,7 +901,7 @@ arch flagstone_win1
 x 13
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 14
 end
 arch flagstone_2_1_2
@@ -947,7 +947,7 @@ arch bluemarblemedium
 x 14
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
 x 14
 y 9
 end
@@ -955,7 +955,7 @@ arch flagstone_2_1_2
 x 14
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 15
 end
 arch flagstone_3_3
@@ -1022,7 +1022,7 @@ x 15
 y 8
 no_pick 1
 end
-arch bluemarblemedium
+arch stonefloor2
 x 15
 y 9
 end
@@ -1030,7 +1030,7 @@ arch flagstone_win1
 x 15
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 16
 end
 arch flagstone_2_1_2
@@ -1074,7 +1074,7 @@ arch bluemarblemedium
 x 16
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 16
 y 7
 end
@@ -1082,7 +1082,7 @@ arch flagstone_3_3
 x 16
 y 7
 end
-arch bluemarblemedium
+arch stonefloor2
 x 16
 y 8
 end
@@ -1090,7 +1090,7 @@ arch flagstone_2_1_1
 x 16
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
 x 16
 y 9
 end
@@ -1098,7 +1098,7 @@ arch flagstone_2_2_4
 x 16
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 17
 end
 arch flagstone_2_1_2
@@ -1152,7 +1152,7 @@ arch bookshelf_right
 x 17
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 17
 y 7
 end
@@ -1168,13 +1168,13 @@ arch grass
 x 17
 y 9
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 end
 arch flagstone_2_2_3
 x 18
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 1
 end
@@ -1182,7 +1182,7 @@ arch flagstone_2_1_1
 x 18
 y 1
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 2
 end
@@ -1190,7 +1190,7 @@ arch flagstone_2_1_1
 x 18
 y 2
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 3
 end
@@ -1198,7 +1198,7 @@ arch flagstone_2_1_1
 x 18
 y 3
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 4
 end
@@ -1206,7 +1206,7 @@ arch flagstone_2_1_1
 x 18
 y 4
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 5
 end
@@ -1214,7 +1214,7 @@ arch flagstone_2_1_1
 x 18
 y 5
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 6
 end
@@ -1222,7 +1222,7 @@ arch flagstone_2_1_1
 x 18
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
 x 18
 y 7
 end
