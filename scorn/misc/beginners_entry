@@ -8,7 +8,7 @@ enter_x 9
 enter_y 8
 msg
 Created:  2011-09-07 Rick Tanner
-Modified: 2023-06-13 Rick Tanner
+Modified: 2025-12-09 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_beginners
@@ -700,6 +700,7 @@ end
 arch invis_exit
 slaying /world/world_105_116
 hp 1
+sp 0
 x 8
 y 11
 end
@@ -804,6 +805,7 @@ end
 arch invis_exit
 slaying /world/world_105_116
 hp 1
+sp 0
 x 9
 y 11
 end
@@ -914,6 +916,7 @@ end
 arch invis_exit
 slaying /world/world_105_116
 hp 1
+sp 0
 x 10
 y 11
 end
