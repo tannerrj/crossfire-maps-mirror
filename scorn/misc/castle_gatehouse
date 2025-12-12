@@ -5,7 +5,7 @@ width 15
 height 19
 msg
 Created:  2018-12-29 Kevin Zheng
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-12-12 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_scorn-castle
@@ -26,6 +26,7 @@ y 4
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 45
 y 4
 end
@@ -34,6 +35,7 @@ y 5
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 45
 y 5
 end
@@ -42,6 +44,7 @@ y 6
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 45
 y 6
 end
@@ -50,6 +53,7 @@ y 7
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 45
 y 7
 end
@@ -67,6 +71,7 @@ y 11
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 46
 y 11
 end
@@ -75,6 +80,7 @@ y 12
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 46
 y 12
 end
@@ -83,6 +89,7 @@ y 13
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 46
 y 13
 end
@@ -91,6 +98,7 @@ y 14
 end
 arch invis_exit
 slaying /world/world_105_115
+hp 0
 sp 46
 y 14
 end
