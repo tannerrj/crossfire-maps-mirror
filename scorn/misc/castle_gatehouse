@@ -5,7 +5,7 @@ width 15
 height 19
 msg
 Created:  2018-12-29 Kevin Zheng
-Modified: 2025-12-12 Rick Tanner
+Modified: 2025-12-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_scorn-castle
@@ -19,6 +19,12 @@ arch grass
 y 2
 end
 arch cobblestones2
+y 3
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 45
 y 3
 end
 arch cobblestones2
@@ -60,10 +66,28 @@ end
 arch cobblestones2
 y 8
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 45
+y 8
+end
 arch cobblestones2
 y 9
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 46
+y 9
+end
 arch cobblestones2
+y 10
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 46
 y 10
 end
 arch cobblestones2
@@ -105,6 +129,12 @@ end
 arch cobblestones2
 y 15
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 46
+y 15
+end
 arch grass
 y 16
 end
@@ -126,6 +156,13 @@ x 1
 y 2
 end
 arch cobblestones2
+x 1
+y 3
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 45
 x 1
 y 3
 end
@@ -174,6 +211,13 @@ x 1
 y 14
 end
 arch cobblestones2
+x 1
+y 15
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 0
+sp 46
 x 1
 y 15
 end
@@ -1505,6 +1549,13 @@ arch cobblestones2
 x 13
 y 3
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 45
+x 13
+y 3
+end
 arch cobblestones2
 x 13
 y 4
@@ -1553,6 +1604,13 @@ arch cobblestones2
 x 13
 y 15
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 46
+x 13
+y 15
+end
 arch grass
 x 13
 y 16
@@ -1577,6 +1635,13 @@ x 14
 y 2
 end
 arch cobblestones2
+x 14
+y 3
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 45
 x 14
 y 3
 end
@@ -1628,11 +1693,32 @@ arch cobblestones2
 x 14
 y 8
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 45
+x 14
+y 8
+end
 arch cobblestones2
 x 14
 y 9
 end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 45
+x 14
+y 9
+end
 arch cobblestones2
+x 14
+y 10
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 46
 x 14
 y 10
 end
@@ -1681,6 +1767,13 @@ x 14
 y 14
 end
 arch cobblestones2
+x 14
+y 15
+end
+arch invis_exit
+slaying /world/world_105_115
+hp 3
+sp 46
 x 14
 y 15
 end
