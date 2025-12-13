@@ -15,6 +15,9 @@ end
 arch grass
 y 1
 end
+arch dungeon_magic
+y 2
+end
 arch grass
 y 2
 end
@@ -135,6 +138,9 @@ hp 0
 sp 46
 y 15
 end
+arch dungeon_magic
+y 16
+end
 arch grass
 y 16
 end
@@ -150,6 +156,10 @@ end
 arch grass
 x 1
 y 1
+end
+arch dungeon_magic
+x 1
+y 2
 end
 arch grass
 x 1
@@ -221,6 +231,10 @@ sp 46
 x 1
 y 15
 end
+arch dungeon_magic
+x 1
+y 16
+end
 arch grass
 x 1
 y 16
@@ -239,6 +253,10 @@ end
 arch grass
 x 2
 y 1
+end
+arch dungeon_magic
+x 2
+y 2
 end
 arch grass
 x 2
@@ -347,6 +365,10 @@ end
 arch stwall_2_2_1
 x 2
 y 15
+end
+arch dungeon_magic
+x 2
+y 16
 end
 arch grass
 x 2
@@ -1541,6 +1563,10 @@ arch grass
 x 13
 y 1
 end
+arch dungeon_magic
+x 13
+y 2
+end
 arch grass
 x 13
 y 2
@@ -1610,6 +1636,10 @@ hp 3
 sp 46
 x 13
 y 15
+end
+arch dungeon_magic
+x 13
+y 16
 end
 arch grass
 x 13
@@ -1630,6 +1660,10 @@ arch grass
 x 14
 y 1
 end
+arch dungeon_magic
+x 14
+y 2
+end
 arch grass
 x 14
 y 2
@@ -1776,6 +1810,10 @@ hp 3
 sp 46
 x 14
 y 15
+end
+arch dungeon_magic
+x 14
+y 16
 end
 arch grass
 x 14
