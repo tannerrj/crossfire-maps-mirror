@@ -8,7 +8,7 @@ enter_x 6
 enter_y 3
 msg
 Created:  2007-05-26 Nicolas Weeger
-Modified: 2022-07-28 Rick Tanner
+Modified: 2025-12-15 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -132,7 +132,7 @@ arch grass_only
 x 2
 y 1
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 2
 end
@@ -140,7 +140,7 @@ arch stwall_2_2_2
 x 2
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 3
 end
@@ -148,7 +148,7 @@ arch stwall_2_1_1
 x 2
 y 3
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 4
 end
@@ -156,7 +156,7 @@ arch stwall_2_1_1
 x 2
 y 4
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 5
 end
@@ -164,7 +164,7 @@ arch stwall_2_1_1
 x 2
 y 5
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 6
 end
@@ -176,7 +176,7 @@ arch dungeon_magic
 x 2
 y 7
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 7
 end
@@ -184,7 +184,7 @@ arch stwindow_win1
 x 2
 y 7
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 8
 end
@@ -192,7 +192,7 @@ arch stwall_2_1_1
 x 2
 y 8
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 9
 end
@@ -200,7 +200,7 @@ arch stwall_2_1_1
 x 2
 y 9
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 10
 end
@@ -208,7 +208,7 @@ arch stwall_2_1_1
 x 2
 y 10
 end
-arch cobblestones2
+arch stonefloor2
 x 2
 y 11
 end
@@ -235,7 +235,7 @@ arch dungeon_magic
 x 3
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 3
 y 2
 end
@@ -331,7 +331,7 @@ x 3
 y 10
 no_pick 1
 end
-arch cobblestones2
+arch stonefloor2
 x 3
 y 11
 end
@@ -354,7 +354,7 @@ arch grass_only
 x 4
 y 1
 end
-arch cobblestones2
+arch stonefloor2
 x 4
 y 2
 end
@@ -415,7 +415,7 @@ arch dungeon_magic
 x 4
 y 11
 end
-arch cobblestones2
+arch stonefloor2
 x 4
 y 11
 end
@@ -443,7 +443,7 @@ x 5
 y 1
 move_block all
 end
-arch cobblestones2
+arch stonefloor2
 x 5
 y 2
 end
@@ -451,7 +451,7 @@ arch stwall_2_2_3
 x 5
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 5
 y 3
 end
@@ -459,7 +459,7 @@ arch stwall_2_1_1
 x 5
 y 3
 end
-arch cobblestones2
+arch stonefloor2
 x 5
 y 4
 end
@@ -476,7 +476,7 @@ x 5
 y 5
 connected 1
 end
-arch cobblestones2
+arch stonefloor2
 x 5
 y 5
 end
@@ -513,7 +513,7 @@ title Python
 slaying /python/monsters/farnass.py
 end
 end
-arch cobblestones2
+arch stonefloor2
 x 5
 y 11
 end
@@ -645,7 +645,7 @@ x 6
 y 10
 is_cauldron 0
 end
-arch cobblestones2
+arch stonefloor2
 x 6
 y 11
 end
@@ -738,7 +738,7 @@ x 7
 y 10
 is_cauldron 0
 end
-arch cobblestones2
+arch stonefloor2
 x 7
 y 11
 end
@@ -766,7 +766,7 @@ x 8
 y 1
 move_block all
 end
-arch cobblestones2
+arch stonefloor2
 x 8
 y 2
 end
@@ -774,7 +774,7 @@ arch stwall_2_2_2
 x 8
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 8
 y 3
 end
@@ -782,7 +782,7 @@ arch stwall_2_1_1
 x 8
 y 3
 end
-arch cobblestones2
+arch stonefloor2
 x 8
 y 4
 end
@@ -790,7 +790,7 @@ arch stwall_2_1_1
 x 8
 y 4
 end
-arch cobblestones2
+arch stonefloor2
 x 8
 y 5
 end
@@ -827,7 +827,7 @@ x 8
 y 10
 no_pick 1
 end
-arch cobblestones2
+arch stonefloor2
 x 8
 y 11
 end
@@ -850,7 +850,7 @@ arch grass_only
 x 9
 y 1
 end
-arch cobblestones2
+arch stonefloor2
 x 9
 y 2
 end
@@ -907,7 +907,7 @@ arch dungeon_magic
 x 9
 y 11
 end
-arch cobblestones2
+arch stonefloor2
 x 9
 y 11
 end
@@ -934,7 +934,7 @@ arch dungeon_magic
 x 10
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 10
 y 2
 end
@@ -1030,7 +1030,7 @@ x 10
 y 10
 no_pick 1
 end
-arch cobblestones2
+arch stonefloor2
 x 10
 y 11
 end
@@ -1053,7 +1053,7 @@ arch grass_only
 x 11
 y 1
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 2
 end
@@ -1061,7 +1061,7 @@ arch stwall_2_2_3
 x 11
 y 2
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 3
 end
@@ -1069,7 +1069,7 @@ arch stwall_2_1_1
 x 11
 y 3
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 4
 end
@@ -1077,7 +1077,7 @@ arch stwall_2_1_1
 x 11
 y 4
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 5
 end
@@ -1085,7 +1085,7 @@ arch stwall_2_1_1
 x 11
 y 5
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 6
 end
@@ -1097,7 +1097,7 @@ arch dungeon_magic
 x 11
 y 7
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 7
 end
@@ -1105,7 +1105,7 @@ arch stwindow_win1
 x 11
 y 7
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 8
 end
@@ -1113,7 +1113,7 @@ arch stwall_2_1_1
 x 11
 y 8
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 9
 end
@@ -1121,7 +1121,7 @@ arch stwall_2_1_1
 x 11
 y 9
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 10
 end
@@ -1129,7 +1129,7 @@ arch stwall_2_1_1
 x 11
 y 10
 end
-arch cobblestones2
+arch stonefloor2
 x 11
 y 11
 end
