@@ -5,8 +5,8 @@ region scorn
 darkness 4
 width 20
 height 20
-enter_x 10
-enter_y 15
+enter_x 12
+enter_y 16
 msg
 Created:  1993-10-15
 Modified: 2025-12-16 Rick Tanner
@@ -1330,6 +1330,10 @@ arch dwall_1_3
 x 10
 y 17
 end
+arch dungeon_magic
+x 10
+y 18
+end
 arch grass
 x 10
 y 18
@@ -1451,6 +1455,10 @@ end
 arch woodfloor
 x 11
 y 17
+end
+arch dungeon_magic
+x 11
+y 18
 end
 arch grass
 x 11
@@ -1586,6 +1594,10 @@ arch woodfloor
 x 12
 y 17
 end
+arch dungeon_magic
+x 12
+y 18
+end
 arch grass
 x 12
 y 18
@@ -1716,6 +1728,10 @@ arch woodfloor
 x 13
 y 17
 end
+arch dungeon_magic
+x 13
+y 18
+end
 arch grass
 x 13
 y 18
@@ -1838,6 +1854,10 @@ end
 arch dwall_1_4
 x 14
 y 17
+end
+arch dungeon_magic
+x 14
+y 18
 end
 arch grass
 x 14
