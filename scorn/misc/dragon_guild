@@ -11,7 +11,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  2002-02-28
-Modified: 2025-12-24 Rick Tanner
+Modified: 2025-12-25 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -862,6 +862,7 @@ arch residue
 name ancient poison elemental's residue
 x 7
 y 3
+level 1
 last_eat 10
 unpaid 1
 end
@@ -873,6 +874,7 @@ arch residue
 name ancient poison elemental's residue
 x 7
 y 4
+level 1
 last_eat 10
 unpaid 1
 end
@@ -888,6 +890,7 @@ arch residue
 name ancient poison elemental's residue
 x 7
 y 5
+level 1
 last_eat 10
 unpaid 1
 end
@@ -899,6 +902,7 @@ arch residue
 name ancient poison elemental's residue
 x 7
 y 6
+level 1
 last_eat 10
 unpaid 1
 end
