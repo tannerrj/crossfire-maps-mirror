@@ -11,7 +11,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  2002-02-28
-Modified: 2025-12-25 Rick Tanner
+Modified: 2025-12-26 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -965,6 +965,8 @@ Only dragons may enter here.
 Welcome to the Dragon Guild.
 endmsg
 face pl_dragon_r.171
+Wis 2
+Int 1
 x 7
 y 14
 type 0
