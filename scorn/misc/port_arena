@@ -8,7 +8,7 @@ enter_x 38
 enter_y 6
 msg
 Created:  1993-10-07 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2026-01-05 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -250,6 +250,27 @@ end
 arch bwall_2_2_1
 y 39
 end
+arch blocked
+y 40
+end
+arch blocked
+y 41
+end
+arch blocked
+y 42
+end
+arch blocked
+y 43
+end
+arch blocked
+y 44
+end
+arch blocked
+y 45
+end
+arch blocked
+y 46
+end
 arch dungeon_floor
 x 1
 end
@@ -567,6 +588,34 @@ end
 arch bwall_2_1_2
 x 1
 y 39
+end
+arch blocked
+x 1
+y 40
+end
+arch blocked
+x 1
+y 41
+end
+arch blocked
+x 1
+y 42
+end
+arch blocked
+x 1
+y 43
+end
+arch blocked
+x 1
+y 44
+end
+arch blocked
+x 1
+y 45
+end
+arch blocked
+x 1
+y 46
 end
 arch dungeon_floor
 x 2
@@ -887,6 +936,34 @@ arch bwall_2_1_2
 x 2
 y 39
 end
+arch blocked
+x 2
+y 40
+end
+arch blocked
+x 2
+y 41
+end
+arch blocked
+x 2
+y 42
+end
+arch blocked
+x 2
+y 43
+end
+arch blocked
+x 2
+y 44
+end
+arch blocked
+x 2
+y 45
+end
+arch blocked
+x 2
+y 46
+end
 arch dungeon_floor
 x 3
 end
@@ -1129,6 +1206,34 @@ end
 arch bwall_2_1_2
 x 3
 y 39
+end
+arch blocked
+x 3
+y 40
+end
+arch blocked
+x 3
+y 41
+end
+arch blocked
+x 3
+y 42
+end
+arch blocked
+x 3
+y 43
+end
+arch blocked
+x 3
+y 44
+end
+arch blocked
+x 3
+y 45
+end
+arch blocked
+x 3
+y 46
 end
 arch dungeon_floor
 x 4
@@ -1412,6 +1517,34 @@ arch bwall_2_1_2
 x 4
 y 39
 end
+arch blocked
+x 4
+y 40
+end
+arch blocked
+x 4
+y 41
+end
+arch blocked
+x 4
+y 42
+end
+arch blocked
+x 4
+y 43
+end
+arch blocked
+x 4
+y 44
+end
+arch blocked
+x 4
+y 45
+end
+arch blocked
+x 4
+y 46
+end
 arch dungeon_floor
 x 5
 end
@@ -1683,6 +1816,34 @@ end
 arch bwall_2_1_2
 x 5
 y 39
+end
+arch blocked
+x 5
+y 40
+end
+arch blocked
+x 5
+y 41
+end
+arch blocked
+x 5
+y 42
+end
+arch blocked
+x 5
+y 43
+end
+arch blocked
+x 5
+y 44
+end
+arch blocked
+x 5
+y 45
+end
+arch blocked
+x 5
+y 46
 end
 arch dungeon_floor
 x 6
@@ -1952,6 +2113,34 @@ end
 arch bwall_2_1_2
 x 6
 y 39
+end
+arch blocked
+x 6
+y 40
+end
+arch blocked
+x 6
+y 41
+end
+arch blocked
+x 6
+y 42
+end
+arch blocked
+x 6
+y 43
+end
+arch blocked
+x 6
+y 44
+end
+arch blocked
+x 6
+y 45
+end
+arch blocked
+x 6
+y 46
 end
 arch dungeon_floor
 x 7
@@ -2228,6 +2417,34 @@ arch bwall_2_1_2
 x 7
 y 39
 end
+arch blocked
+x 7
+y 40
+end
+arch blocked
+x 7
+y 41
+end
+arch blocked
+x 7
+y 42
+end
+arch blocked
+x 7
+y 43
+end
+arch blocked
+x 7
+y 44
+end
+arch blocked
+x 7
+y 45
+end
+arch blocked
+x 7
+y 46
+end
 arch dungeon_floor
 x 8
 end
@@ -2498,6 +2715,34 @@ arch bwall_2_1_2
 x 8
 y 39
 end
+arch blocked
+x 8
+y 40
+end
+arch blocked
+x 8
+y 41
+end
+arch blocked
+x 8
+y 42
+end
+arch blocked
+x 8
+y 43
+end
+arch blocked
+x 8
+y 44
+end
+arch blocked
+x 8
+y 45
+end
+arch blocked
+x 8
+y 46
+end
 arch dungeon_floor
 x 9
 end
@@ -2758,6 +3003,34 @@ arch bwall_2_1_2
 x 9
 y 39
 end
+arch blocked
+x 9
+y 40
+end
+arch blocked
+x 9
+y 41
+end
+arch blocked
+x 9
+y 42
+end
+arch blocked
+x 9
+y 43
+end
+arch blocked
+x 9
+y 44
+end
+arch blocked
+x 9
+y 45
+end
+arch blocked
+x 9
+y 46
+end
 arch dungeon_floor
 x 10
 end
@@ -3007,6 +3280,10 @@ end
 arch bwall_2_1_2
 x 10
 y 39
+end
+arch blocked
+x 10
+y 40
 end
 arch dungeon_floor
 x 10
@@ -3314,6 +3591,10 @@ end
 arch bwall_2_1_2
 x 11
 y 39
+end
+arch blocked
+x 11
+y 40
 end
 arch dungeon_floor
 x 11
@@ -3677,6 +3958,10 @@ end
 arch bwall_2_1_2
 x 12
 y 39
+end
+arch blocked
+x 12
+y 40
 end
 arch dungeon_floor
 x 12
@@ -4044,6 +4329,10 @@ arch bwall_2_1_2
 x 13
 y 39
 end
+arch blocked
+x 13
+y 40
+end
 arch dungeon_floor
 x 13
 y 41
@@ -4398,6 +4687,10 @@ arch bwall_2_1_2
 x 14
 y 39
 end
+arch blocked
+x 14
+y 40
+end
 arch dungeon_floor
 x 14
 y 41
@@ -4683,6 +4976,10 @@ end
 arch bwall_2_1_2
 x 15
 y 39
+end
+arch blocked
+x 15
+y 40
 end
 arch dungeon_floor
 x 15
@@ -4977,6 +5274,10 @@ end
 arch bwall_2_1_2
 x 16
 y 39
+end
+arch blocked
+x 16
+y 40
 end
 arch dungeon_floor
 x 16
@@ -6248,6 +6549,10 @@ arch bwall_2_1_2
 x 20
 y 39
 end
+arch blocked
+x 20
+y 40
+end
 arch dungeon_floor
 x 20
 y 41
@@ -6578,6 +6883,10 @@ arch bwall_2_1_2
 x 21
 y 39
 end
+arch blocked
+x 21
+y 40
+end
 arch dungeon_floor
 x 21
 y 41
@@ -6902,6 +7211,10 @@ end
 arch bwall_2_1_2
 x 22
 y 39
+end
+arch blocked
+x 22
+y 40
 end
 arch dungeon_floor
 x 22
@@ -7233,6 +7546,10 @@ arch bwall_2_1_2
 x 23
 y 39
 end
+arch blocked
+x 23
+y 40
+end
 arch dungeon_floor
 x 23
 y 41
@@ -7531,6 +7848,10 @@ arch bwall_2_1_2
 x 24
 y 39
 end
+arch blocked
+x 24
+y 40
+end
 arch dungeon_floor
 x 24
 y 41
@@ -7723,10 +8044,6 @@ y 21
 end
 arch cobblestones2
 x 25
-y 22
-end
-arch cobblestones2
-x 25
 y 23
 end
 arch cobblestones2
@@ -7808,6 +8125,34 @@ end
 arch bwall_2_1_2
 x 25
 y 39
+end
+arch blocked
+x 25
+y 40
+end
+arch blocked
+x 25
+y 41
+end
+arch blocked
+x 25
+y 42
+end
+arch blocked
+x 25
+y 43
+end
+arch blocked
+x 25
+y 44
+end
+arch blocked
+x 25
+y 45
+end
+arch blocked
+x 25
+y 46
 end
 arch dungeon_floor
 x 26
@@ -8060,6 +8405,34 @@ arch bwall_2_1_2
 x 26
 y 39
 end
+arch blocked
+x 26
+y 40
+end
+arch blocked
+x 26
+y 41
+end
+arch blocked
+x 26
+y 42
+end
+arch blocked
+x 26
+y 43
+end
+arch blocked
+x 26
+y 44
+end
+arch blocked
+x 26
+y 45
+end
+arch blocked
+x 26
+y 46
+end
 arch dungeon_floor
 x 27
 end
@@ -8305,6 +8678,34 @@ end
 arch bwall_2_1_2
 x 27
 y 39
+end
+arch blocked
+x 27
+y 40
+end
+arch blocked
+x 27
+y 41
+end
+arch blocked
+x 27
+y 42
+end
+arch blocked
+x 27
+y 43
+end
+arch blocked
+x 27
+y 44
+end
+arch blocked
+x 27
+y 45
+end
+arch blocked
+x 27
+y 46
 end
 arch dungeon_floor
 x 28
@@ -8559,6 +8960,34 @@ end
 arch bwall_2_1_2
 x 28
 y 39
+end
+arch blocked
+x 28
+y 40
+end
+arch blocked
+x 28
+y 41
+end
+arch blocked
+x 28
+y 42
+end
+arch blocked
+x 28
+y 43
+end
+arch blocked
+x 28
+y 44
+end
+arch blocked
+x 28
+y 45
+end
+arch blocked
+x 28
+y 46
 end
 arch dungeon_floor
 x 29
@@ -8827,6 +9256,34 @@ arch bwall_2_1_2
 x 29
 y 39
 end
+arch blocked
+x 29
+y 40
+end
+arch blocked
+x 29
+y 41
+end
+arch blocked
+x 29
+y 42
+end
+arch blocked
+x 29
+y 43
+end
+arch blocked
+x 29
+y 44
+end
+arch blocked
+x 29
+y 45
+end
+arch blocked
+x 29
+y 46
+end
 arch dungeon_floor
 x 30
 end
@@ -9088,6 +9545,34 @@ end
 arch bwall_2_1_2
 x 30
 y 39
+end
+arch blocked
+x 30
+y 40
+end
+arch blocked
+x 30
+y 41
+end
+arch blocked
+x 30
+y 42
+end
+arch blocked
+x 30
+y 43
+end
+arch blocked
+x 30
+y 44
+end
+arch blocked
+x 30
+y 45
+end
+arch blocked
+x 30
+y 46
 end
 arch dungeon_floor
 x 31
@@ -9367,6 +9852,34 @@ end
 arch bwall_2_1_2
 x 31
 y 39
+end
+arch blocked
+x 31
+y 40
+end
+arch blocked
+x 31
+y 41
+end
+arch blocked
+x 31
+y 42
+end
+arch blocked
+x 31
+y 43
+end
+arch blocked
+x 31
+y 44
+end
+arch blocked
+x 31
+y 45
+end
+arch blocked
+x 31
+y 46
 end
 arch dungeon_floor
 x 32
@@ -9652,6 +10165,34 @@ arch bwall_2_1_2
 x 32
 y 39
 end
+arch blocked
+x 32
+y 40
+end
+arch blocked
+x 32
+y 41
+end
+arch blocked
+x 32
+y 42
+end
+arch blocked
+x 32
+y 43
+end
+arch blocked
+x 32
+y 44
+end
+arch blocked
+x 32
+y 45
+end
+arch blocked
+x 32
+y 46
+end
 arch dungeon_floor
 x 33
 end
@@ -9921,6 +10462,34 @@ end
 arch bwall_2_1_2
 x 33
 y 39
+end
+arch blocked
+x 33
+y 40
+end
+arch blocked
+x 33
+y 41
+end
+arch blocked
+x 33
+y 42
+end
+arch blocked
+x 33
+y 43
+end
+arch blocked
+x 33
+y 44
+end
+arch blocked
+x 33
+y 45
+end
+arch blocked
+x 33
+y 46
 end
 arch dungeon_floor
 x 34
@@ -10192,6 +10761,34 @@ arch bwall_2_1_2
 x 34
 y 39
 end
+arch blocked
+x 34
+y 40
+end
+arch blocked
+x 34
+y 41
+end
+arch blocked
+x 34
+y 42
+end
+arch blocked
+x 34
+y 43
+end
+arch blocked
+x 34
+y 44
+end
+arch blocked
+x 34
+y 45
+end
+arch blocked
+x 34
+y 46
+end
 arch dungeon_floor
 x 35
 end
@@ -10442,6 +11039,34 @@ end
 arch bwall_2_1_2
 x 35
 y 39
+end
+arch blocked
+x 35
+y 40
+end
+arch blocked
+x 35
+y 41
+end
+arch blocked
+x 35
+y 42
+end
+arch blocked
+x 35
+y 43
+end
+arch blocked
+x 35
+y 44
+end
+arch blocked
+x 35
+y 45
+end
+arch blocked
+x 35
+y 46
 end
 arch dungeon_floor
 x 36
@@ -10760,6 +11385,34 @@ end
 arch bwall_2_1_2
 x 36
 y 39
+end
+arch blocked
+x 36
+y 40
+end
+arch blocked
+x 36
+y 41
+end
+arch blocked
+x 36
+y 42
+end
+arch blocked
+x 36
+y 43
+end
+arch blocked
+x 36
+y 44
+end
+arch blocked
+x 36
+y 45
+end
+arch blocked
+x 36
+y 46
 end
 arch dungeon_floor
 x 37
@@ -11090,6 +11743,34 @@ arch bwall_2_1_2
 x 37
 y 39
 end
+arch blocked
+x 37
+y 40
+end
+arch blocked
+x 37
+y 41
+end
+arch blocked
+x 37
+y 42
+end
+arch blocked
+x 37
+y 43
+end
+arch blocked
+x 37
+y 44
+end
+arch blocked
+x 37
+y 45
+end
+arch blocked
+x 37
+y 46
+end
 arch dungeon_floor
 x 38
 end
@@ -11407,6 +12088,34 @@ end
 arch bwall_3_1
 x 38
 y 39
+end
+arch blocked
+x 38
+y 40
+end
+arch blocked
+x 38
+y 41
+end
+arch blocked
+x 38
+y 42
+end
+arch blocked
+x 38
+y 43
+end
+arch blocked
+x 38
+y 44
+end
+arch blocked
+x 38
+y 45
+end
+arch blocked
+x 38
+y 46
 end
 arch dungeon_floor
 x 39
@@ -11728,4 +12437,32 @@ end
 arch bwall_2_2_4
 x 39
 y 39
+end
+arch blocked
+x 39
+y 40
+end
+arch blocked
+x 39
+y 41
+end
+arch blocked
+x 39
+y 42
+end
+arch blocked
+x 39
+y 43
+end
+arch blocked
+x 39
+y 44
+end
+arch blocked
+x 39
+y 45
+end
+arch blocked
+x 39
+y 46
 end
