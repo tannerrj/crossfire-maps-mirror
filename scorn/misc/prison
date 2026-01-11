@@ -8,7 +8,7 @@ enter_x 1
 enter_y 52
 msg
 Created: 1994-02-14
-Modified: 2023-11-27 Rick Tanner
+Modified: 2026-01-10 Rick Tanner
 endmsg
 reset_group scorn_scorn-prison
 end
@@ -12706,7 +12706,7 @@ end
 arch awall_2_2_3
 x 39
 end
-arch grass
+arch flagstone
 x 39
 y 1
 end
@@ -12714,7 +12714,7 @@ arch awall_2_1_1
 x 39
 y 1
 end
-arch grass
+arch flagstone
 x 39
 y 2
 end
@@ -12722,7 +12722,7 @@ arch awall_2_1_1
 x 39
 y 2
 end
-arch grass
+arch flagstone
 x 39
 y 3
 end
@@ -12730,7 +12730,7 @@ arch awall_2_1_1
 x 39
 y 3
 end
-arch grass
+arch flagstone
 x 39
 y 4
 end
@@ -12738,7 +12738,7 @@ arch awall_2_1_1
 x 39
 y 4
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 5
 end
@@ -12750,7 +12750,7 @@ arch swall_1_3_half
 x 39
 y 5
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 6
 end
@@ -12758,7 +12758,7 @@ arch awall_2_1_1
 x 39
 y 6
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 7
 end
@@ -12766,7 +12766,7 @@ arch awall_2_1_1
 x 39
 y 7
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 8
 end
@@ -12774,7 +12774,7 @@ arch awall_2_1_1
 x 39
 y 8
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 9
 end
@@ -12782,7 +12782,7 @@ arch awall_2_1_1
 x 39
 y 9
 end
-arch dirtfloor
+arch flagstone
 x 39
 y 10
 end
@@ -12790,7 +12790,7 @@ arch awall_2_1_1
 x 39
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 11
 end
@@ -12802,7 +12802,7 @@ arch swall_1_3_half
 x 39
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 12
 end
@@ -12810,7 +12810,7 @@ arch awall_2_1_1
 x 39
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 13
 end
@@ -12818,7 +12818,7 @@ arch awall_2_1_1
 x 39
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 14
 end
@@ -12826,7 +12826,7 @@ arch awall_2_1_1
 x 39
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 15
 end
@@ -12834,7 +12834,7 @@ arch awall_2_1_1
 x 39
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 16
 end
@@ -12842,7 +12842,7 @@ arch awall_2_1_1
 x 39
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 17
 end
@@ -12850,7 +12850,7 @@ arch awall_2_1_1
 x 39
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 18
 end
@@ -12858,7 +12858,7 @@ arch awall_2_1_1
 x 39
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 19
 end
@@ -12866,7 +12866,7 @@ arch awall_2_1_1
 x 39
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 20
 end
@@ -12874,7 +12874,7 @@ arch awall_2_1_1
 x 39
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 21
 end
@@ -12882,7 +12882,7 @@ arch awall_2_1_1
 x 39
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 22
 end
@@ -12890,7 +12890,7 @@ arch awall_2_1_1
 x 39
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 23
 end
@@ -12898,7 +12898,7 @@ arch awall_2_1_1
 x 39
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 24
 end
@@ -12906,7 +12906,7 @@ arch awall_2_1_1
 x 39
 y 24
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 25
 end
@@ -12914,7 +12914,7 @@ arch awall_2_1_1
 x 39
 y 25
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 26
 end
@@ -12922,7 +12922,7 @@ arch awall_2_1_1
 x 39
 y 26
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 27
 end
@@ -12930,7 +12930,7 @@ arch awall_2_1_1
 x 39
 y 27
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 28
 end
@@ -12938,7 +12938,7 @@ arch awall_2_1_1
 x 39
 y 28
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 29
 end
@@ -12946,7 +12946,7 @@ arch awall_2_1_1
 x 39
 y 29
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 30
 end
@@ -12954,7 +12954,7 @@ arch awall_2_1_1
 x 39
 y 30
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 31
 end
@@ -12962,7 +12962,7 @@ arch awall_2_1_1
 x 39
 y 31
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 32
 end
@@ -12970,7 +12970,7 @@ arch awall_2_1_1
 x 39
 y 32
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 33
 end
@@ -12978,7 +12978,7 @@ arch awall_2_1_1
 x 39
 y 33
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 34
 end
@@ -12986,7 +12986,7 @@ arch awall_2_1_1
 x 39
 y 34
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 35
 end
@@ -12994,7 +12994,7 @@ arch awall_2_1_1
 x 39
 y 35
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 36
 end
@@ -13002,7 +13002,7 @@ arch awall_2_1_1
 x 39
 y 36
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 37
 end
@@ -13010,7 +13010,7 @@ arch awall_3_4
 x 39
 y 37
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 38
 end
@@ -13018,7 +13018,7 @@ arch awall_2_1_1
 x 39
 y 38
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 39
 end
@@ -13026,7 +13026,7 @@ arch awall_2_1_1
 x 39
 y 39
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 40
 end
@@ -13034,7 +13034,7 @@ arch awall_2_1_1
 x 39
 y 40
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 41
 end
@@ -13042,7 +13042,7 @@ arch awall_2_1_1
 x 39
 y 41
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 42
 end
@@ -13050,7 +13050,7 @@ arch awall_2_1_1
 x 39
 y 42
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 43
 end
@@ -13058,7 +13058,7 @@ arch awall_2_1_1
 x 39
 y 43
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 44
 end
@@ -13066,7 +13066,7 @@ arch awall_2_1_1
 x 39
 y 44
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 45
 end
@@ -13074,7 +13074,7 @@ arch awall_2_1_1
 x 39
 y 45
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 46
 end
@@ -13082,7 +13082,7 @@ arch awall_2_1_1
 x 39
 y 46
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 47
 end
@@ -13090,7 +13090,7 @@ arch awall_2_1_1
 x 39
 y 47
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 48
 end
@@ -13098,7 +13098,7 @@ arch awall_2_1_1
 x 39
 y 48
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 49
 end
@@ -13106,7 +13106,7 @@ arch awall_2_1_1
 x 39
 y 49
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 50
 end
@@ -13114,7 +13114,7 @@ arch awall_3_4
 x 39
 y 50
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 51
 end
@@ -13122,7 +13122,7 @@ arch awall_2_1_1
 x 39
 y 51
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 52
 end
@@ -13130,7 +13130,7 @@ arch awall_2_1_1
 x 39
 y 52
 end
-arch cobblestones2
+arch flagstone
 x 39
 y 53
 end
