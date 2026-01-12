@@ -3681,9 +3681,14 @@ arch bwall_1_3
 x 23
 y 25
 end
+arch dungeon_magic
+x 23
+y 26
+end
 arch cobblestones2
 x 23
 y 26
+move_block all
 end
 arch cobblestones2
 x 23
@@ -3843,9 +3848,14 @@ sp 27
 x 24
 y 25
 end
+arch dungeon_magic
+x 24
+y 26
+end
 arch cobblestones2
 x 24
 y 26
+move_block all
 end
 arch cobblestones2
 x 24
@@ -4050,9 +4060,14 @@ arch bwall_1_2
 x 25
 y 25
 end
+arch dungeon_magic
+x 25
+y 26
+end
 arch cobblestones2
 x 25
 y 26
+move_block all
 end
 arch cobblestones2
 x 25
