@@ -8,7 +8,7 @@ enter_x 4
 enter_y 4
 msg
 Created:  2001-03-13
-Modified: 2026-01-15 Rick Tanner
+Modified: 2026-01-16 Rick Tanner
 endmsg
 reset_group scorn_zoo
 end
@@ -9424,7 +9424,11 @@ arch dirtfloor
 x 19
 y 34
 end
-arch swall_2_1_1
+arch awall_1_2
+x 19
+y 34
+end
+arch swall_1_1
 x 19
 y 34
 end
@@ -9988,10 +9992,6 @@ x 20
 y 35
 end
 arch dirtfloor
-x 20
-y 35
-end
-arch generate_devil
 x 20
 y 35
 end
@@ -23592,11 +23592,7 @@ arch dirtfloor
 x 47
 y 3
 end
-arch awall_2_1_2
-x 47
-y 3
-end
-arch swall_1_1_half
+arch awall_3_3
 x 47
 y 3
 end
@@ -23608,7 +23604,11 @@ arch dirtfloor
 x 47
 y 4
 end
-arch swall_2_1_1
+arch awall_1_2
+x 47
+y 4
+end
+arch swall_1_1
 x 47
 y 4
 end
