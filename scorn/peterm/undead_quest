@@ -8,7 +8,7 @@ enter_x 23
 enter_y 19
 msg
 Created:  2000-06-05
-Modified: 2025-12-16 Rick Tanner
+Modified: 2026-01-18 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -573,10 +573,6 @@ arch generate_zombie
 x 4
 y 1
 end
-arch skeleton
-x 4
-y 1
-end
 arch pstone_1
 x 4
 y 2
@@ -590,10 +586,6 @@ x 4
 y 3
 end
 arch generate_zombie
-x 4
-y 3
-end
-arch skeleton
 x 4
 y 3
 end
@@ -1167,6 +1159,10 @@ arch pstone_1
 x 7
 y 17
 end
+arch wraith
+x 7
+y 17
+end
 arch pstone_1
 x 7
 y 18
@@ -1317,10 +1313,6 @@ arch generate_zombie
 x 8
 y 19
 end
-arch ghost
-x 8
-y 19
-end
 arch pstone_1
 x 8
 y 20
@@ -1467,6 +1459,10 @@ arch pstone_1
 x 9
 y 17
 end
+arch wraith
+x 9
+y 17
+end
 arch pstone_1
 x 9
 y 18
@@ -1583,6 +1579,10 @@ arch pstone_1
 x 10
 y 11
 end
+arch ghost
+x 10
+y 11
+end
 arch pstone_1
 x 10
 y 12
@@ -1616,10 +1616,6 @@ x 10
 y 17
 end
 arch generate_zombie
-x 10
-y 17
-end
-arch wraith
 x 10
 y 17
 end
@@ -1739,10 +1735,6 @@ x 11
 y 10
 end
 arch generate_ghost
-x 11
-y 10
-end
-arch wraith
 x 11
 y 10
 end
@@ -2182,10 +2174,6 @@ arch generate_zombie
 x 14
 y 3
 end
-arch skeleton
-x 14
-y 3
-end
 arch pstone_1
 x 14
 y 4
@@ -2455,10 +2443,6 @@ x 15
 y 17
 end
 arch generate_zombie
-x 15
-y 17
-end
-arch wraith
 x 15
 y 17
 end
@@ -2994,10 +2978,6 @@ arch generate_zombie
 x 19
 y 1
 end
-arch skeleton
-x 19
-y 1
-end
 arch pstone_1
 x 19
 y 2
@@ -3126,6 +3106,10 @@ arch pstone_1
 x 19
 y 19
 end
+arch ghost
+x 19
+y 19
+end
 arch pstone_1
 x 19
 y 20
@@ -3161,10 +3145,6 @@ x 20
 y 3
 end
 arch generate_zombie
-x 20
-y 3
-end
-arch skeleton
 x 20
 y 3
 end
@@ -3474,10 +3454,6 @@ x 22
 y 3
 end
 arch ghost
-x 22
-y 3
-end
-arch skeleton
 x 22
 y 3
 end
