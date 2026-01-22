@@ -22,12 +22,12 @@ import Crossfire
 
 class CFDataFile:
     '''Plain text storage for Crossfire data'''
+    datafiledir = os.path.join((Crossfire.LocalDirectory()), 'datafiles')
 
     def __init__(self, datafile_name):
-        '''make datafile paths for datafile 'object'
-        - these all go in ../var/crossfire/datafiles to keep the local dir clean'''
+        '''make datafile paths for datafile 'object'''
         self.datafile_name = datafile_name
-        self.filename = os.path.join((Crossfire.LocalDirectory()),'datafiles',datafile_name)
+        self.filename = os.path.join(self.datafiledir, datafile_name)
 
     def exists(self):
         '''checks for datafile - no need to load it yet'''
@@ -38,6 +38,7 @@ class CFDataFile:
 
     def make_file(self, header):
         '''creates a datafile, making the column header from a list passed in'''
+        os.makedirs(self.datafiledir, exist_ok=True)
         try:
             file = open(self.filename,'wt')
         except:
