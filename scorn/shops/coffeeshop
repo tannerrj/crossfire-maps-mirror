@@ -685,10 +685,12 @@ end
 arch grass_only
 x 7
 y 12
+move_block all
 end
 arch cobblestones2
 x 7
 y 13
+move_block all
 end
 arch grass_only
 x 8
@@ -742,6 +744,11 @@ arch woodfloor2
 x 8
 y 9
 end
+arch button_small
+x 8
+y 10
+connected 11
+end
 arch woodfloor2
 x 8
 y 10
@@ -754,6 +761,20 @@ arch wwall_1_3
 x 8
 y 11
 end
+arch dungeon_magic
+x 8
+y 12
+end
+arch invis_exit
+slaying /world/world_105_116
+msg
+Ding!
+endmsg
+hp 9
+sp 2
+x 8
+y 12
+end
 arch grass_only
 x 8
 y 12
@@ -761,6 +782,7 @@ end
 arch cobblestones2
 x 8
 y 13
+move_block all
 end
 arch grass_only
 x 9
@@ -830,9 +852,32 @@ food 1
 x 9
 y 10
 end
+arch button_small
+x 9
+y 10
+connected 11
+end
 arch woodfloor2
 x 9
 y 10
+end
+arch button_small
+x 9
+y 11
+connected 11
+end
+arch stonefloor2
+x 9
+y 11
+end
+arch odoorn2_closed_1
+x 9
+y 11
+connected 11
+end
+arch dungeon_magic
+x 9
+y 12
 end
 arch invis_exit
 slaying /world/world_105_116
@@ -842,11 +887,7 @@ endmsg
 hp 9
 sp 2
 x 9
-y 11
-end
-arch stonefloor2
-x 9
-y 11
+y 12
 end
 arch grass_only
 x 9
@@ -855,6 +896,7 @@ end
 arch cobblestones2
 x 9
 y 13
+move_block all
 end
 arch grass_only
 x 10
@@ -912,6 +954,11 @@ arch woodfloor2
 x 10
 y 9
 end
+arch button_small
+x 10
+y 10
+connected 11
+end
 arch woodfloor2
 x 10
 y 10
@@ -924,6 +971,20 @@ arch wwall_1_4
 x 10
 y 11
 end
+arch dungeon_magic
+x 10
+y 12
+end
+arch invis_exit
+slaying /world/world_105_116
+msg
+Ding!
+endmsg
+hp 9
+sp 2
+x 10
+y 12
+end
 arch grass_only
 x 10
 y 12
@@ -931,6 +992,7 @@ end
 arch cobblestones2
 x 10
 y 13
+move_block all
 end
 arch grass_only
 x 11
@@ -1014,6 +1076,7 @@ end
 arch grass_only
 x 11
 y 12
+move_block all
 end
 arch cobblestones2
 x 11
