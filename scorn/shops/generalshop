@@ -1709,10 +1709,12 @@ end
 arch grass_only
 x 14
 y 19
+move_block all
 end
 arch grass_only
 x 14
 y 20
+move_block all
 end
 arch grass_only
 x 14
@@ -1867,6 +1869,7 @@ end
 arch grass_only
 x 15
 y 20
+move_block all
 end
 arch grass_only
 x 15
@@ -2008,6 +2011,7 @@ end
 arch grass_only
 x 16
 y 20
+move_block all
 end
 arch grass_only
 x 16
@@ -2147,6 +2151,7 @@ end
 arch grass_only
 x 17
 y 20
+move_block all
 end
 arch grass_only
 x 17
@@ -2322,10 +2327,12 @@ end
 arch grass_only
 x 18
 y 19
+move_block all
 end
 arch grass_only
 x 18
 y 20
+move_block all
 end
 arch grass_only
 x 18
