@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2026-01-25 Rick Tanner
+Modified: 2026-01-28 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_115
@@ -3217,10 +3217,11 @@ arch dungeon_magic
 x 11
 y 2
 end
-arch grass
+arch cobblestones2
 x 11
 y 2
 elevation 4160
+move_block swim boat
 end
 arch dungeon_magic
 x 11
@@ -3496,10 +3497,11 @@ arch dungeon_magic
 x 12
 y 2
 end
-arch grass
+arch cobblestones2
 x 12
 y 2
 elevation 5205
+move_block swim boat
 end
 arch dungeon_magic
 x 12
