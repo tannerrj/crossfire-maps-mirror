@@ -6,7 +6,7 @@ region scorn
 shopitems *:0
 shopmax 2000
 width 23
-height 22
+height 23
 enter_x 16
 enter_y 16
 msg
@@ -81,6 +81,9 @@ arch grass_only
 y 21
 end
 arch grass_only
+y 22
+end
+arch grass_only
 x 1
 end
 arch grass_only
@@ -168,6 +171,10 @@ x 1
 y 21
 end
 arch grass_only
+x 1
+y 22
+end
+arch grass_only
 x 2
 end
 arch grass_only
@@ -253,6 +260,10 @@ end
 arch grass_only
 x 2
 y 21
+end
+arch grass_only
+x 2
+y 22
 end
 arch grass_only
 x 3
@@ -426,6 +437,10 @@ x 3
 y 21
 end
 arch grass_only
+x 3
+y 22
+end
+arch grass_only
 x 4
 end
 arch grass_only
@@ -529,6 +544,10 @@ x 4
 y 21
 end
 arch grass_only
+x 4
+y 22
+end
+arch grass_only
 x 5
 end
 arch grass_only
@@ -654,6 +673,10 @@ end
 arch grass_only
 x 5
 y 21
+end
+arch grass_only
+x 5
+y 22
 end
 arch grass_only
 x 6
@@ -773,6 +796,10 @@ x 6
 y 21
 end
 arch grass_only
+x 6
+y 22
+end
+arch grass_only
 x 7
 end
 arch grass_only
@@ -870,6 +897,10 @@ end
 arch grass_only
 x 7
 y 21
+end
+arch grass_only
+x 7
+y 22
 end
 arch grass_only
 x 8
@@ -985,6 +1016,10 @@ end
 arch grass_only
 x 8
 y 21
+end
+arch grass_only
+x 8
+y 22
 end
 arch grass_only
 x 9
@@ -1086,6 +1121,10 @@ x 9
 y 21
 end
 arch grass_only
+x 9
+y 22
+end
+arch grass_only
 x 10
 end
 arch grass_only
@@ -1195,6 +1234,10 @@ end
 arch grass_only
 x 10
 y 21
+end
+arch grass_only
+x 10
+y 22
 end
 arch grass_only
 x 11
@@ -1296,6 +1339,10 @@ x 11
 y 21
 end
 arch grass_only
+x 11
+y 22
+end
+arch grass_only
 x 12
 end
 arch grass_only
@@ -1409,6 +1456,10 @@ end
 arch grass_only
 x 12
 y 21
+end
+arch grass_only
+x 12
+y 22
 end
 arch grass_only
 x 13
@@ -1512,6 +1563,10 @@ end
 arch grass_only
 x 13
 y 21
+end
+arch grass_only
+x 13
+y 22
 end
 arch grass_only
 x 14
@@ -1664,6 +1719,10 @@ x 14
 y 21
 end
 arch grass_only
+x 14
+y 22
+end
+arch grass_only
 x 15
 end
 arch grass_only
@@ -1814,6 +1873,10 @@ x 15
 y 21
 end
 arch grass_only
+x 15
+y 22
+end
+arch grass_only
 x 16
 end
 arch grass_only
@@ -1951,6 +2014,10 @@ x 16
 y 21
 end
 arch grass_only
+x 16
+y 22
+end
+arch grass_only
 x 17
 end
 arch grass_only
@@ -2084,6 +2151,10 @@ end
 arch grass_only
 x 17
 y 21
+end
+arch grass_only
+x 17
+y 22
 end
 arch grass_only
 x 18
@@ -2261,6 +2332,10 @@ x 18
 y 21
 end
 arch grass_only
+x 18
+y 22
+end
+arch grass_only
 x 19
 end
 arch grass_only
@@ -2348,6 +2423,10 @@ x 19
 y 21
 end
 arch grass_only
+x 19
+y 22
+end
+arch grass_only
 x 20
 end
 arch grass_only
@@ -2435,6 +2514,10 @@ x 20
 y 21
 end
 arch grass_only
+x 20
+y 22
+end
+arch grass_only
 x 21
 end
 arch grass_only
@@ -2522,6 +2605,10 @@ x 21
 y 21
 end
 arch grass_only
+x 21
+y 22
+end
+arch grass_only
 x 22
 end
 arch grass_only
@@ -2607,4 +2694,8 @@ end
 arch grass_only
 x 22
 y 21
+end
+arch grass_only
+x 22
+y 22
 end
