@@ -11,43 +11,43 @@ enter_x 16
 enter_y 16
 msg
 Created:  1993-10-16
-Modified: 2025-06-19 Kevin Zheng
+Modified: 2026-01-28 Rick Tanner
 endmsg
 outdoor 1
 end
-arch grass_only
+arch cobblestones2
 end
-arch grass_only
+arch cobblestones2
 y 1
 end
-arch grass_only
+arch cobblestones2
 y 2
 end
-arch grass_only
+arch cobblestones2
 y 3
 end
-arch grass_only
+arch cobblestones2
 y 4
 end
-arch grass_only
+arch cobblestones2
 y 5
 end
-arch grass_only
+arch cobblestones2
 y 6
 end
-arch grass_only
+arch cobblestones2
 y 7
 end
-arch grass_only
+arch cobblestones2
 y 8
 end
-arch grass_only
+arch cobblestones2
 y 9
 end
-arch grass_only
+arch cobblestones2
 y 10
 end
-arch grass_only
+arch cobblestones2
 y 11
 end
 arch grass_only
@@ -265,7 +265,7 @@ arch grass_only
 x 3
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 3
 end
@@ -273,7 +273,7 @@ arch wall_2_2_2
 x 3
 y 3
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 4
 end
@@ -285,7 +285,7 @@ arch light3
 x 3
 y 5
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 5
 end
@@ -293,7 +293,7 @@ arch window_win1
 x 3
 y 5
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 6
 end
@@ -301,7 +301,7 @@ arch wall_2_1_1
 x 3
 y 6
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 7
 end
@@ -309,7 +309,7 @@ arch wall_2_1_1
 x 3
 y 7
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 8
 end
@@ -317,7 +317,7 @@ arch wall_2_1_1
 x 3
 y 8
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 9
 end
@@ -325,7 +325,7 @@ arch wall_2_1_1
 x 3
 y 9
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 10
 end
@@ -341,7 +341,7 @@ arch light3
 x 3
 y 11
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 11
 end
@@ -349,7 +349,7 @@ arch window_win1
 x 3
 y 11
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 12
 end
@@ -357,7 +357,7 @@ arch wall_2_1_1
 x 3
 y 12
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 13
 end
@@ -365,7 +365,7 @@ arch wall_2_1_1
 x 3
 y 13
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 14
 end
@@ -377,7 +377,7 @@ arch wall_2_1_1
 x 3
 y 14
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 15
 end
@@ -389,7 +389,7 @@ arch light3
 x 3
 y 16
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 16
 end
@@ -397,7 +397,7 @@ arch window_win1
 x 3
 y 16
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 17
 end
@@ -405,7 +405,7 @@ arch wall_2_1_1
 x 3
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 3
 y 18
 end
@@ -436,7 +436,7 @@ arch grass_only
 x 4
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 4
 y 3
 end
@@ -508,7 +508,7 @@ arch shop_special
 x 4
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 4
 y 18
 end
@@ -539,7 +539,7 @@ arch grass_only
 x 5
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 5
 y 3
 end
@@ -635,7 +635,7 @@ arch shop_special
 x 5
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 5
 y 18
 end
@@ -666,7 +666,7 @@ arch grass_only
 x 6
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 6
 y 3
 end
@@ -752,7 +752,7 @@ arch light3
 x 6
 y 18
 end
-arch shop_empty
+arch stonefloor2
 x 6
 y 18
 end
@@ -787,7 +787,7 @@ arch light3
 x 7
 y 3
 end
-arch shop_empty
+arch stonefloor2
 x 7
 y 3
 end
@@ -851,7 +851,7 @@ arch shop_empty
 x 7
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 7
 y 18
 end
@@ -882,7 +882,7 @@ arch grass_only
 x 8
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 8
 y 3
 end
@@ -966,7 +966,7 @@ arch shop_scrolls
 x 8
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 8
 y 18
 end
@@ -997,7 +997,7 @@ arch grass_only
 x 9
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 9
 y 3
 end
@@ -1065,7 +1065,7 @@ arch shop_special
 x 9
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 9
 y 18
 end
@@ -1096,7 +1096,7 @@ arch grass_only
 x 10
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 10
 y 3
 end
@@ -1176,7 +1176,7 @@ arch shop_scrolls
 x 10
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 10
 y 18
 end
@@ -1207,7 +1207,7 @@ arch grass_only
 x 11
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 11
 y 3
 end
@@ -1275,7 +1275,7 @@ arch shop_potions
 x 11
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 11
 y 18
 end
@@ -1306,7 +1306,7 @@ arch grass_only
 x 12
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 12
 y 3
 end
@@ -1390,7 +1390,7 @@ arch light3
 x 12
 y 18
 end
-arch shop_empty
+arch stonefloor2
 x 12
 y 18
 end
@@ -1421,7 +1421,7 @@ arch grass_only
 x 13
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 13
 y 3
 end
@@ -1489,7 +1489,7 @@ arch shop_potions
 x 13
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 13
 y 18
 end
@@ -1528,7 +1528,7 @@ arch light3
 x 14
 y 3
 end
-arch shop_empty
+arch stonefloor2
 x 14
 y 3
 end
@@ -1639,7 +1639,7 @@ arch swall_2_1_1
 x 14
 y 17
 end
-arch shop_empty
+arch stonefloor2
 x 14
 y 18
 end
@@ -1674,7 +1674,7 @@ arch grass_only
 x 15
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 15
 y 3
 end
@@ -1786,7 +1786,7 @@ arch light2
 x 15
 y 18
 end
-arch woodfloor
+arch stonefloor2
 x 15
 y 18
 end
@@ -1824,7 +1824,7 @@ arch grass_only
 x 16
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 16
 y 3
 end
@@ -1922,7 +1922,7 @@ x 16
 y 18
 connected 1
 end
-arch woodfloor
+arch stonefloor2
 x 16
 y 18
 end
@@ -1961,7 +1961,7 @@ arch grass_only
 x 17
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 17
 y 3
 end
@@ -2058,7 +2058,7 @@ arch light2
 x 17
 y 18
 end
-arch woodfloor
+arch stonefloor2
 x 17
 y 18
 end
@@ -2096,7 +2096,7 @@ arch grass_only
 x 18
 y 2
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 3
 end
@@ -2104,7 +2104,7 @@ arch wall_2_2_3
 x 18
 y 3
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 4
 end
@@ -2116,7 +2116,7 @@ arch light3
 x 18
 y 5
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 5
 end
@@ -2124,7 +2124,7 @@ arch window_win1
 x 18
 y 5
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 6
 end
@@ -2132,7 +2132,7 @@ arch wall_2_1_1
 x 18
 y 6
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 7
 end
@@ -2144,7 +2144,7 @@ arch swall_1_3_half
 x 18
 y 7
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 8
 end
@@ -2156,7 +2156,7 @@ arch light3
 x 18
 y 9
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 9
 end
@@ -2164,7 +2164,7 @@ arch window_win1
 x 18
 y 9
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 10
 end
@@ -2172,7 +2172,7 @@ arch wall_2_1_1
 x 18
 y 10
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 11
 end
@@ -2184,7 +2184,7 @@ arch wall_2_1_1
 x 18
 y 11
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 12
 end
@@ -2196,7 +2196,7 @@ arch light3
 x 18
 y 13
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 13
 end
@@ -2204,7 +2204,7 @@ arch window_win1
 x 18
 y 13
 end
-arch shop_empty
+arch stonefloor2
 x 18
 y 14
 end
@@ -2216,7 +2216,7 @@ arch swall_1_3_half
 x 18
 y 14
 end
-arch woodfloor
+arch stonefloor2
 x 18
 y 15
 end
@@ -2224,7 +2224,7 @@ arch wall_2_1_1
 x 18
 y 15
 end
-arch woodfloor
+arch stonefloor2
 x 18
 y 16
 end
@@ -2232,7 +2232,7 @@ arch wall_2_1_1
 x 18
 y 16
 end
-arch woodfloor
+arch stonefloor2
 x 18
 y 17
 end
@@ -2240,7 +2240,7 @@ arch wall_2_1_1
 x 18
 y 17
 end
-arch woodfloor
+arch stonefloor2
 x 18
 y 18
 end
