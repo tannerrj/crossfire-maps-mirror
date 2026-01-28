@@ -1798,6 +1798,10 @@ arch grass_only
 x 15
 y 1
 end
+arch woods5
+x 15
+y 1
+end
 arch grass_only
 x 15
 y 2
@@ -1957,7 +1961,14 @@ end
 arch grass_only
 x 16
 end
+arch woods5
+x 16
+end
 arch grass_only
+x 16
+y 1
+end
+arch woods5
 x 16
 y 1
 end
@@ -2111,6 +2122,10 @@ arch grass_only
 x 17
 y 1
 end
+arch woods5
+x 17
+y 1
+end
 arch grass_only
 x 17
 y 2
@@ -2255,7 +2270,14 @@ end
 arch grass_only
 x 18
 end
+arch woods5
+x 18
+end
 arch grass_only
+x 18
+y 1
+end
+arch woods5
 x 18
 y 1
 end
@@ -2448,7 +2470,14 @@ end
 arch grass_only
 x 19
 end
+arch woods5
+x 19
+end
 arch grass_only
+x 19
+y 1
+end
+arch woods5
 x 19
 y 1
 end
@@ -2543,11 +2572,18 @@ end
 arch grass_only
 x 20
 end
+arch woods5
+x 20
+end
 arch grass_only
 x 20
 y 1
 end
 arch grass_only
+x 20
+y 2
+end
+arch woods5
 x 20
 y 2
 end
