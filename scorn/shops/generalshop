@@ -1706,10 +1706,18 @@ arch wall_2_1_2
 x 14
 y 18
 end
+arch dungeon_magic
+x 14
+y 19
+end
 arch grass_only
 x 14
 y 19
 move_block all
+end
+arch dungeon_magic
+x 14
+y 20
 end
 arch grass_only
 x 14
@@ -1866,6 +1874,10 @@ arch grass_only
 x 15
 y 19
 end
+arch dungeon_magic
+x 15
+y 20
+end
 arch grass_only
 x 15
 y 20
@@ -2008,6 +2020,10 @@ arch grass_only
 x 16
 y 19
 end
+arch dungeon_magic
+x 16
+y 20
+end
 arch grass_only
 x 16
 y 20
@@ -2147,6 +2163,10 @@ end
 arch grass_only
 x 17
 y 19
+end
+arch dungeon_magic
+x 17
+y 20
 end
 arch grass_only
 x 17
@@ -2324,10 +2344,18 @@ arch wall_2_2_4
 x 18
 y 18
 end
+arch dungeon_magic
+x 18
+y 19
+end
 arch grass_only
 x 18
 y 19
 move_block all
+end
+arch dungeon_magic
+x 18
+y 20
 end
 arch grass_only
 x 18
