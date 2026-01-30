@@ -9,7 +9,7 @@ enter_y 9
 msg
 Created: 2001-09-05 Commander Gros (yann.chachkoff@mailandnews.com)
 Following a Lord MiDS idea
-Modified: 2025-06-20 Kevin Zheng
+Modified: 2026-01-29 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -116,7 +116,7 @@ arch grass_only
 x 2
 y 1
 end
-arch marble
+arch stonefloor2
 x 2
 y 2
 end
@@ -124,7 +124,7 @@ arch awall_2_2_2
 x 2
 y 2
 end
-arch marble
+arch stonefloor2
 x 2
 y 3
 end
@@ -132,7 +132,7 @@ arch awall_2_1_1
 x 2
 y 3
 end
-arch marble
+arch stonefloor2
 x 2
 y 4
 end
@@ -144,7 +144,7 @@ arch dungeon_magic
 x 2
 y 5
 end
-arch marble
+arch stonefloor2
 x 2
 y 5
 end
@@ -152,7 +152,7 @@ arch awall_3_2
 x 2
 y 5
 end
-arch marble
+arch stonefloor2
 x 2
 y 6
 end
@@ -164,7 +164,7 @@ arch light3
 x 2
 y 7
 end
-arch marble
+arch stonefloor2
 x 2
 y 7
 end
@@ -172,7 +172,7 @@ arch awall_win1
 x 2
 y 7
 end
-arch marble
+arch stonefloor2
 x 2
 y 8
 end
@@ -180,7 +180,7 @@ arch awall_2_1_1
 x 2
 y 8
 end
-arch marble
+arch stonefloor2
 x 2
 y 9
 end
@@ -188,7 +188,7 @@ arch awall_2_1_1
 x 2
 y 9
 end
-arch marble
+arch stonefloor2
 x 2
 y 10
 end
@@ -196,7 +196,7 @@ arch awall_2_1_1
 x 2
 y 10
 end
-arch marble
+arch stonefloor2
 x 2
 y 11
 end
@@ -219,7 +219,7 @@ arch grass_only
 x 3
 y 1
 end
-arch marble
+arch stonefloor2
 x 3
 y 2
 end
@@ -298,7 +298,7 @@ arch marble
 x 3
 y 10
 end
-arch marble
+arch stonefloor2
 x 3
 y 11
 end
@@ -325,7 +325,7 @@ arch light4
 x 4
 y 2
 end
-arch marble
+arch stonefloor2
 x 4
 y 2
 end
@@ -446,7 +446,7 @@ arch chair_2.3
 x 4
 y 10
 end
-arch marble
+arch stonefloor2
 x 4
 y 11
 end
@@ -469,7 +469,7 @@ arch grass_only
 x 5
 y 1
 end
-arch marble
+arch stonefloor2
 x 5
 y 2
 end
@@ -537,7 +537,7 @@ arch light3
 x 5
 y 11
 end
-arch marble
+arch stonefloor2
 x 5
 y 11
 end
@@ -560,7 +560,7 @@ arch grass_only
 x 6
 y 1
 end
-arch marble
+arch stonefloor2
 x 6
 y 2
 end
@@ -612,7 +612,7 @@ arch marble
 x 6
 y 10
 end
-arch marble
+arch stonefloor2
 x 6
 y 11
 end
@@ -635,7 +635,7 @@ arch grass_only
 x 7
 y 1
 end
-arch marble
+arch stonefloor2
 x 7
 y 2
 end
@@ -696,7 +696,7 @@ arch dungeon_magic
 x 7
 y 11
 end
-arch marble
+arch stonefloor2
 x 7
 y 11
 end
@@ -730,7 +730,7 @@ arch grass_only
 x 8
 y 1
 end
-arch marble
+arch stonefloor2
 x 8
 y 2
 end
@@ -805,7 +805,7 @@ x 8
 y 11
 connected 1
 end
-arch marble
+arch stonefloor2
 x 8
 y 11
 end
@@ -844,7 +844,7 @@ arch light4
 x 9
 y 2
 end
-arch marble
+arch stonefloor2
 x 9
 y 2
 end
@@ -931,7 +931,7 @@ arch dungeon_magic
 x 9
 y 11
 end
-arch marble
+arch stonefloor2
 x 9
 y 11
 end
@@ -965,7 +965,7 @@ arch grass_only
 x 10
 y 1
 end
-arch marble
+arch stonefloor2
 x 10
 y 2
 end
@@ -1041,7 +1041,7 @@ level 20
 randomitems jail
 sleep 0
 end
-arch marble
+arch stonefloor2
 x 10
 y 11
 end
@@ -1064,7 +1064,7 @@ arch grass_only
 x 11
 y 1
 end
-arch marble
+arch stonefloor2
 x 11
 y 2
 end
@@ -1072,7 +1072,7 @@ arch awall_2_2_3
 x 11
 y 2
 end
-arch marble
+arch stonefloor2
 x 11
 y 3
 end
@@ -1080,7 +1080,7 @@ arch awall_2_1_1
 x 11
 y 3
 end
-arch marble
+arch stonefloor2
 x 11
 y 4
 end
@@ -1092,7 +1092,7 @@ arch dungeon_magic
 x 11
 y 5
 end
-arch marble
+arch stonefloor2
 x 11
 y 5
 end
@@ -1100,7 +1100,7 @@ arch awall_3_4
 x 11
 y 5
 end
-arch marble
+arch stonefloor2
 x 11
 y 6
 end
@@ -1112,7 +1112,7 @@ arch light3
 x 11
 y 7
 end
-arch marble
+arch stonefloor2
 x 11
 y 7
 end
@@ -1120,7 +1120,7 @@ arch awall_win1
 x 11
 y 7
 end
-arch marble
+arch stonefloor2
 x 11
 y 8
 end
@@ -1128,7 +1128,7 @@ arch awall_2_1_1
 x 11
 y 8
 end
-arch marble
+arch stonefloor2
 x 11
 y 9
 end
@@ -1136,7 +1136,7 @@ arch awall_2_1_1
 x 11
 y 9
 end
-arch marble
+arch stonefloor2
 x 11
 y 10
 end
@@ -1144,7 +1144,7 @@ arch awall_2_1_1
 x 11
 y 10
 end
-arch marble
+arch stonefloor2
 x 11
 y 11
 end
