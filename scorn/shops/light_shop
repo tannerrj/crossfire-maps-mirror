@@ -10,7 +10,7 @@ enter_x 17
 enter_y 17
 msg
 Created: 2002-12-28
-Modified: 2026-01-31 Rick Tanner
+Modified: 2026-02-01 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1794,13 +1794,23 @@ arch wwall_2_1_2
 x 15
 y 19
 end
-arch grass_only
+arch dungeon_magic
 x 15
 y 20
 end
 arch grass_only
 x 15
+y 20
+move_block all
+end
+arch dungeon_magic
+x 15
 y 21
+end
+arch grass_only
+x 15
+y 21
+move_block all
 end
 arch cobblestones2
 x 16
@@ -1917,9 +1927,14 @@ arch grass_only
 x 16
 y 20
 end
+arch dungeon_magic
+x 16
+y 21
+end
 arch grass_only
 x 16
 y 21
+move_block all
 end
 arch cobblestones2
 x 17
@@ -2058,9 +2073,14 @@ arch grass_only
 x 17
 y 20
 end
+arch dungeon_magic
+x 17
+y 21
+end
 arch grass_only
 x 17
 y 21
+move_block all
 end
 arch cobblestones2
 x 18
@@ -2169,9 +2189,14 @@ arch grass_only
 x 18
 y 20
 end
+arch dungeon_magic
+x 18
+y 21
+end
 arch grass_only
 x 18
 y 21
+move_block all
 end
 arch cobblestones2
 x 19
@@ -2344,13 +2369,23 @@ arch wwall_0
 x 19
 y 19
 end
-arch grass_only
+arch dungeon_magic
 x 19
 y 20
 end
 arch grass_only
 x 19
+y 20
+move_block all
+end
+arch dungeon_magic
+x 19
 y 21
+end
+arch grass_only
+x 19
+y 21
+move_block all
 end
 arch cobblestones2
 x 20
