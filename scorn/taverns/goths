@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2025-01-11 Kevin Zheng
+Modified: 2026-02-06 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -7471,7 +7471,6 @@ name slightly drunken apprentice conjurer
 msg
 @match name
 Awiergan Cynricson at your service!
-@identify
 @match hello|hi
 Hi! I'm studying Summoning at the Tower of Demonology and Summoning up north. Are you interested in studying Summoning also?
 @match yes
