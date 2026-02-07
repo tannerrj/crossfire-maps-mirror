@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2026-02-06 Rick Tanner
+Modified: 2026-02-07 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -2546,7 +2546,6 @@ name lumberjack
 msg
 @match name
 Limyat.
-@identify
 @match hi|hello|job
 I chop down trees in the forest.
 @reply forest Where is this forest?
