@@ -9,7 +9,7 @@ enter_x 5
 enter_y 32
 msg
 Created: 1993-10-15
-Modified: 2026-02-07 Rick Tanner
+Modified: 2026-02-09 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -606,6 +606,7 @@ name drunk
 msg
 @match name
 My name is Dilek.
+@identify
 @match job
 Oh... I just sit here and watch.
 @reply watch What do you watch?
@@ -2546,6 +2547,7 @@ name lumberjack
 msg
 @match name
 Limyat.
+@identify
 @match hi|hello|job
 I chop down trees in the forest.
 @reply forest Where is this forest?
@@ -3019,6 +3021,7 @@ arch elf_1
 msg
 @match name
 My name is Silinar.
+@identify
 @match hi|hello
 Greetings. Just having a drink after I visited the Valley of the Three Sisters.
 @reply valley The Valley of the Three Sisters?
@@ -4699,6 +4702,7 @@ I'll be with you in a sec.
 I'm really busy here...
 @match name
 Samantha. (wink)
+@identify
 @match *
 Have a seat anywhere...
 endmsg
@@ -4953,6 +4957,7 @@ arch dwarf
 msg
 @match name
 Darag... And yours?
+@identify
 @match hi|hello
 Yes? What do you want?
 Have you nothing better to do than molest an old dwarf who's been driven from his mines?
@@ -5930,6 +5935,7 @@ arch beholder
 msg
 @match name
 Atxtoc... (smile)
+@identify
 @match who|here|what
 I am a beholder. I came here because I was tired of being cooped up in Barad Dur with all the other beholders.
 @reply barad What is Barad Dur?
@@ -7465,6 +7471,7 @@ name slightly drunken apprentice conjurer
 msg
 @match name
 Awiergan Cynricson at your service!
+@identify
 @match hello|hi
 Hi! I'm studying Summoning at the Tower of Demonology and Summoning up north. Are you interested in studying Summoning also?
 @match yes
