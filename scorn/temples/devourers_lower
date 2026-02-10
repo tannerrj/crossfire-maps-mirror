@@ -8,7 +8,7 @@ enter_x 6
 enter_y 13
 msg
 Created:  1997-04-23
-Modified: 2022-07-29 Rick Tanner
+Modified: 2026-02-10 Rick Tanner
 endmsg
 reset_group scorn_temple-of-the-devourers
 end
@@ -431,8 +431,8 @@ y 13
 end
 arch stair_up_4
 slaying devourers
-hp 6
-sp 14
+hp 8
+sp 16
 x 6
 y 13
 end
