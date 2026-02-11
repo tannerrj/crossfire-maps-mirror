@@ -8,9 +8,14 @@ enter_x 6
 enter_y 13
 msg
 Created:  1997-04-23
-Modified: 2026-02-10 Rick Tanner
+Modified: 2026-02-11 Rick Tanner
 endmsg
 reset_group scorn_temple-of-the-devourers
+end
+arch blocked
+end
+arch blocked
+y 1
 end
 arch cobblestones2
 y 2
@@ -59,6 +64,28 @@ y 9
 end
 arch stwall_2_2_1
 y 9
+end
+arch blocked
+y 10
+end
+arch blocked
+y 11
+end
+arch blocked
+y 12
+end
+arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
 end
 arch cobblestones2
 x 1
@@ -123,6 +150,33 @@ end
 arch stwall_2_1_2
 x 1
 y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
 end
 arch cobblestones2
 x 2
@@ -189,6 +243,33 @@ arch stwall_2_1_2
 x 2
 y 9
 end
+arch blocked
+x 2
+y 10
+end
+arch blocked
+x 2
+y 11
+end
+arch blocked
+x 2
+y 12
+end
+arch blocked
+x 2
+y 13
+end
+arch blocked
+x 2
+y 14
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
+end
 arch cobblestones2
 x 3
 y 2
@@ -253,6 +334,33 @@ arch stwall_2_1_2
 x 3
 y 9
 end
+arch blocked
+x 3
+y 10
+end
+arch blocked
+x 3
+y 11
+end
+arch blocked
+x 3
+y 12
+end
+arch blocked
+x 3
+y 13
+end
+arch blocked
+x 3
+y 14
+end
+arch blocked
+x 4
+end
+arch blocked
+x 4
+y 1
+end
 arch cobblestones2
 x 4
 y 2
@@ -309,6 +417,10 @@ arch stwall_2_1_2
 x 4
 y 9
 end
+arch blocked
+x 4
+y 10
+end
 arch cobblestones2
 x 4
 y 11
@@ -341,6 +453,29 @@ arch stwall_2_2_1
 x 4
 y 14
 end
+arch blocked
+x 5
+end
+arch blocked
+x 5
+y 1
+end
+arch blocked
+x 5
+y 2
+end
+arch blocked
+x 5
+y 3
+end
+arch blocked
+x 5
+y 4
+end
+arch blocked
+x 5
+y 5
+end
 arch cobblestones2
 x 5
 y 6
@@ -364,6 +499,10 @@ end
 arch stwall_2_1_2
 x 5
 y 9
+end
+arch blocked
+x 5
+y 10
 end
 arch cobblestones2
 x 5
@@ -389,6 +528,29 @@ arch stwall_2_1_2
 x 5
 y 14
 end
+arch blocked
+x 6
+end
+arch blocked
+x 6
+y 1
+end
+arch blocked
+x 6
+y 2
+end
+arch blocked
+x 6
+y 3
+end
+arch blocked
+x 6
+y 4
+end
+arch blocked
+x 6
+y 5
+end
 arch cobblestones2
 x 6
 y 6
@@ -412,6 +574,10 @@ end
 arch stwall_2_1_2
 x 6
 y 9
+end
+arch blocked
+x 6
+y 10
 end
 arch cobblestones2
 x 6
@@ -443,6 +609,29 @@ end
 arch stwall_2_1_2
 x 6
 y 14
+end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
+arch blocked
+x 7
+y 3
+end
+arch blocked
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
 end
 arch cobblestones2
 x 7
@@ -500,6 +689,29 @@ arch stwall_2_1_2
 x 7
 y 14
 end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+x 8
+y 3
+end
+arch blocked
+x 8
+y 4
+end
+arch blocked
+x 8
+y 5
+end
 arch cobblestones2
 x 8
 y 6
@@ -581,6 +793,10 @@ end
 arch stwall_2_2_1
 x 9
 y 4
+end
+arch blocked
+x 9
+y 5
 end
 arch cobblestones2
 x 9
@@ -696,6 +912,18 @@ arch stwall_2_2_1
 x 10
 y 5
 end
+arch blocked
+x 10
+y 6
+end
+arch blocked
+x 10
+y 7
+end
+arch blocked
+x 10
+y 8
+end
 arch cobblestones2
 x 10
 y 9
@@ -720,11 +948,23 @@ arch cobblestones2
 x 10
 y 12
 end
+arch blocked
+x 10
+y 12
+end
 arch cobblestones2
 x 10
 y 13
 end
+arch blocked
+x 10
+y 13
+end
 arch cobblestones2
+x 10
+y 14
+end
+arch blocked
 x 10
 y 14
 end
@@ -1063,6 +1303,18 @@ arch stwall_2_2_4
 x 14
 y 5
 end
+arch blocked
+x 14
+y 6
+end
+arch blocked
+x 14
+y 7
+end
+arch blocked
+x 14
+y 8
+end
 arch cobblestones2
 x 14
 y 9
@@ -1148,4 +1400,44 @@ end
 arch stwall_2_2_4
 x 15
 y 4
+end
+arch blocked
+x 15
+y 5
+end
+arch blocked
+x 15
+y 6
+end
+arch blocked
+x 15
+y 7
+end
+arch blocked
+x 15
+y 8
+end
+arch blocked
+x 15
+y 9
+end
+arch blocked
+x 15
+y 10
+end
+arch blocked
+x 15
+y 11
+end
+arch blocked
+x 15
+y 12
+end
+arch blocked
+x 15
+y 13
+end
+arch blocked
+x 15
+y 14
 end
