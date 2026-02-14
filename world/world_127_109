@@ -4,7 +4,7 @@ region wolfsburg
 width 50
 height 50
 msg
-Modified: 2022-06-01 Kevin Zheng
+Modified: 2026-02-13 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_127_108
@@ -10955,6 +10955,14 @@ arch desert
 x 44
 elevation 670
 end
+arch bones4
+msg
+Some fragmented bones, probably one pile of many.
+endmsg
+x 44
+no_pick 1
+identified 1
+end
 arch desert
 x 44
 y 1
@@ -11457,6 +11465,15 @@ arch desert
 x 46
 y 1
 elevation 404
+end
+arch bones4
+msg
+A pile of bones - their origin must be nearby.
+endmsg
+x 46
+y 1
+no_pick 1
+identified 1
 end
 arch jungle_1
 x 46
