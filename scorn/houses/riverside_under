@@ -9,7 +9,7 @@ enter_x 23
 enter_y 4
 msg
 Created:  2003-04-27
-Modified: 2022-07-17 Nicolas Weeger
+Modified: 2026-02-14 Rick Tanner
 endmsg
 reset_group scorn_riverside-manor
 end
@@ -3418,10 +3418,6 @@ x 21
 y 18
 end
 arch dirtfloor
-x 21
-y 19
-end
-arch orc
 x 21
 y 19
 end
