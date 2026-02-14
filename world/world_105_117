@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2022-03-19 Rick Tanner
+Modified: 2026-02-14 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_116
@@ -2221,6 +2221,10 @@ x 9
 y 2
 elevation 4928
 end
+arch well
+x 9
+y 2
+end
 arch mountain
 x 9
 y 3
@@ -2460,15 +2464,26 @@ arch steppe
 x 10
 elevation 4897
 end
+arch dirtroad_2_1_1
+x 10
+end
 arch steppe
 x 10
 y 1
 elevation 3960
 end
+arch dirtroad_3_2
+x 10
+y 1
+end
 arch steppe
 x 10
 y 2
 elevation 3745
+end
+arch dirtroad_2_2_4
+x 10
+y 2
 end
 arch mountain
 x 10
@@ -2713,6 +2728,10 @@ arch steppe
 x 11
 y 1
 elevation 3791
+end
+arch dirtroad_2_1_2
+x 11
+y 1
 end
 arch mountain
 x 11
@@ -2963,10 +2982,18 @@ x 12
 y 1
 elevation 4974
 end
+arch dirtroad_2_2_3
+x 12
+y 1
+end
 arch steppe
 x 12
 y 2
 elevation 4120
+end
+arch dirtroad_2_2_1
+x 12
+y 2
 end
 arch mountain
 x 12
@@ -3216,6 +3243,10 @@ arch steppe
 x 13
 y 2
 elevation 4283
+end
+arch well
+x 13
+y 2
 end
 arch mountain
 x 13
@@ -3723,6 +3754,9 @@ end
 arch steppe
 x 15
 elevation 4395
+end
+arch well
+x 15
 end
 arch mountain
 x 15
@@ -4490,35 +4524,62 @@ arch mountain
 x 18
 elevation 5223
 end
+arch dirtroad_2_1_1
+x 18
+end
 arch mountain
 x 18
 y 1
 elevation 5150
+end
+arch dirtroad_2_1_1
+x 18
+y 1
 end
 arch steppe
 x 18
 y 2
 elevation 3651
 end
+arch dirtroad_2_1_1
+x 18
+y 2
+end
 arch mountain
 x 18
 y 3
 elevation 5285
+end
+arch dirtroad_2_1_1
+x 18
+y 3
 end
 arch mountain
 x 18
 y 4
 elevation 5137
 end
+arch dirtroad_2_2_1
+x 18
+y 4
+end
 arch steppe
 x 18
 y 5
 elevation 4271
 end
+arch dirtroad_2_2_2
+x 18
+y 5
+end
 arch steppe
 x 18
 y 6
 elevation 4228
+end
+arch dirtroad_2_2_1
+x 18
+y 6
 end
 arch mountain
 x 18
@@ -4759,20 +4820,36 @@ x 19
 y 4
 elevation 4328
 end
+arch dirtroad_2_2_3
+x 19
+y 4
+end
 arch woods_2
 x 19
 y 5
 elevation 2838
+end
+arch dirtroad_2_2_4
+x 19
+y 5
 end
 arch woods_2
 x 19
 y 6
 elevation 2712
 end
+arch dirtroad_2_2_3
+x 19
+y 6
+end
 arch steppe
 x 19
 y 7
 elevation 3473
+end
+arch dirtroad_2_2_1
+x 19
+y 7
 end
 arch steppe
 x 19
@@ -4793,6 +4870,10 @@ arch steppe
 x 19
 y 11
 elevation 4644
+end
+arch well
+x 19
+y 11
 end
 arch mountain
 x 19
@@ -5023,25 +5104,45 @@ x 20
 y 7
 elevation 3789
 end
+arch dirtroad_3_3
+x 20
+y 7
+end
 arch steppe
 x 20
 y 8
 elevation 4613
+end
+arch dirtroad_2_1_1
+x 20
+y 8
 end
 arch steppe
 x 20
 y 9
 elevation 4892
 end
+arch dirtroad_2_1_1
+x 20
+y 9
+end
 arch steppe
 x 20
 y 10
 elevation 4435
 end
+arch dirtroad_2_1_1
+x 20
+y 10
+end
 arch steppe
 x 20
 y 11
 elevation 4721
+end
+arch dirtroad_2_2_4
+x 20
+y 11
 end
 arch mountain
 x 20
@@ -5271,6 +5372,10 @@ arch steppe
 x 21
 y 7
 elevation 4438
+end
+arch dirtroad_2_1_2
+x 21
+y 7
 end
 arch mountain
 x 21
@@ -5521,10 +5626,18 @@ x 22
 y 7
 elevation 4864
 end
+arch dirtroad_2_2_3
+x 22
+y 7
+end
 arch steppe
 x 22
 y 8
 elevation 4979
+end
+arch dirtroad_2_2_1
+x 22
+y 8
 end
 arch mountain
 x 22
@@ -5779,15 +5892,27 @@ x 23
 y 8
 elevation 3740
 end
+arch dirtroad_2_2_3
+x 23
+y 8
+end
 arch steppe
 x 23
 y 9
 elevation 4527
 end
+arch dirtroad_2_2_1
+x 23
+y 9
+end
 arch steppe
 x 23
 y 10
 elevation 4324
+end
+arch well
+x 23
+y 10
 end
 arch mountain
 x 23
@@ -6052,6 +6177,10 @@ x 24
 y 9
 elevation 3945
 end
+arch dirtroad_1_3
+x 24
+y 9
+end
 arch mountain
 x 24
 y 10
@@ -6305,6 +6434,10 @@ x 25
 y 9
 elevation 3319
 end
+arch dirtroad_1_3
+x 25
+y 9
+end
 arch mountain
 x 25
 y 10
@@ -6553,6 +6686,10 @@ arch woods_2
 x 26
 y 9
 elevation 2543
+end
+arch dirtroad_1_3
+x 26
+y 9
 end
 arch mountain
 x 26
@@ -6807,6 +6944,10 @@ x 27
 y 9
 elevation 3919
 end
+arch dirtroad_1_3
+x 27
+y 9
+end
 arch mountain
 x 27
 y 10
@@ -7051,10 +7192,21 @@ x 28
 y 8
 elevation 2623
 end
+arch sign_w
+msg
+Irrigate Road - South
+endmsg
+x 28
+y 8
+end
 arch hills
 x 28
 y 9
 elevation 3812
+end
+arch dirtroad_1_3
+x 28
+y 9
 end
 arch mountain
 x 28
