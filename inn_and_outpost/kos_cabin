@@ -1,119 +1,413 @@
 arch map
 name Ko's cabin
 region wilderness
-width 15
-height 15
-enter_x 7
-enter_y 13
+width 19
+height 19
+enter_x 9
+enter_y 14
 msg
 Created:  2021-12-18 DraugTheWhopper
-Modified: 2023-11-20 Rick Tanner
+Modified: 2026-02-14 Rick Tanner
 endmsg
 end
-arch woodlarge
+arch grass_only
+end
+arch tree5
+end
+arch grass_only
+y 1
+end
+arch tree3
+y 1
+end
+arch grass_only
+y 2
+end
+arch tree3
+y 2
+end
+arch grass_only
+y 3
+end
+arch tree5
+y 3
+end
+arch grass_only
+y 4
+end
+arch grass_only
+y 5
+end
+arch tree5
+y 5
+end
+arch grass_only
+y 6
+end
+arch tree5
+y 6
+end
+arch grass_only
+y 7
+end
+arch tree5
+y 7
+end
+arch grass_only
+y 8
+end
+arch tree5
+y 8
+end
+arch grass_only
+y 9
+end
+arch tree5
+y 9
+end
+arch grass_only
+y 10
+end
+arch tree3
+y 10
+end
+arch grass_only
+y 11
+end
+arch tree5
+y 11
+end
+arch grass_only
+y 12
+end
+arch tree5
+y 12
+end
+arch grass_only
+y 13
+end
+arch tree5
+y 13
+end
+arch grass_only
+y 14
+end
+arch tree5
+y 14
+end
+arch grass_only
+y 15
+end
+arch tree5
+y 15
+end
+arch grass_only
+y 16
+end
+arch grass_only
+y 17
+end
+arch grass_only
+y 18
+end
+arch grass_only
+x 1
+end
+arch tree5
+x 1
+end
+arch grass_only
+x 1
+y 1
+end
+arch tree5
+x 1
+y 1
+end
+arch grass_only
+x 1
+y 2
+end
+arch tree5
+x 1
+y 2
+end
+arch grass_only
+x 1
+y 3
+end
+arch tree5
+x 1
+y 3
+end
+arch grass_only
+x 1
+y 4
+end
+arch tree5
+x 1
+y 4
+end
+arch grass_only
+x 1
+y 5
+end
+arch tree5
+x 1
+y 5
+end
+arch grass_only
+x 1
+y 6
+end
+arch tree3
+x 1
+y 6
+end
+arch grass_only
+x 1
+y 7
+end
+arch grass_only
+x 1
+y 8
+end
+arch grass_only
+x 1
+y 9
+end
+arch tree5
+x 1
+y 9
+end
+arch grass_only
+x 1
+y 10
+end
+arch tree5
+x 1
+y 10
+end
+arch grass_only
+x 1
+y 11
+end
+arch tree5
+x 1
+y 11
+end
+arch grass_only
+x 1
+y 12
+end
+arch tree3
+x 1
+y 12
+end
+arch grass_only
+x 1
+y 13
+end
+arch tree5
+x 1
+y 13
+end
+arch grass_only
+x 1
+y 14
+end
+arch grass_only
+x 1
+y 15
+end
+arch tree5
+x 1
+y 15
+end
+arch grass_only
+x 1
+y 16
+end
+arch grass_only
+x 1
+y 17
+end
+arch grass_only
+x 1
+y 18
+end
+arch grass_only
+x 2
+end
+arch grass_only
+x 2
+y 1
+end
+arch tree5
+x 2
+y 1
+end
+arch flagstone
+x 2
+y 2
 end
 arch woodwall_2_2_2
-end
-arch woodlarge
-y 1
-end
-arch woodwall_2_1_1
-y 1
-end
-arch woodlarge
+x 2
 y 2
 end
-arch woodwall_2_1_1
-y 2
-end
-arch woodlarge
+arch flagstone
+x 2
 y 3
 end
 arch woodwall_2_1_1
+x 2
 y 3
 end
-arch woodlarge
+arch flagstone
+x 2
 y 4
 end
 arch woodwall_2_1_1
+x 2
 y 4
 end
-arch woodlarge
+arch flagstone
+x 2
 y 5
 end
-arch woodwall_2_1_1
+arch woodwall_win1
+x 2
 y 5
 end
-arch woodlarge
+arch flagstone
+x 2
 y 6
 end
 arch woodwall_2_1_1
+x 2
 y 6
+end
+arch flagstone
+x 2
+y 7
+end
+arch woodwall_2_1_1
+x 2
+y 7
+end
+arch flagstone
+x 2
+y 8
+end
+arch woodwall_2_1_1
+x 2
+y 8
 end
 arch woodwall_3_2
-y 6
-end
-arch woodlarge
-y 7
-end
-arch woodwall_2_1_1
-y 7
-end
-arch woodlarge
+x 2
 y 8
 end
-arch woodwall_2_1_1
-y 8
-end
-arch woodlarge
+arch flagstone
+x 2
 y 9
 end
 arch woodwall_2_1_1
+x 2
 y 9
 end
-arch woodlarge
+arch flagstone
+x 2
 y 10
 end
 arch woodwall_2_1_1
+x 2
 y 10
 end
-arch woodlarge
+arch flagstone
+x 2
 y 11
 end
 arch woodwall_2_1_1
+x 2
 y 11
 end
-arch woodlarge
+arch flagstone
+x 2
 y 12
 end
-arch woodwall_2_1_1
+arch woodwall_win1
+x 2
 y 12
 end
-arch woodlarge
+arch flagstone
+x 2
 y 13
 end
 arch woodwall_2_1_1
+x 2
 y 13
 end
-arch woodlarge
+arch flagstone
+x 2
 y 14
+end
+arch woodwall_2_1_1
+x 2
+y 14
+end
+arch flagstone
+x 2
+y 15
+end
+arch woodwall_2_1_1
+x 2
+y 15
+end
+arch flagstone
+x 2
+y 16
 end
 arch woodwall_2_2_1
-y 14
+x 2
+y 16
 end
-arch woodlarge
-x 1
+arch grass_only
+x 2
+y 17
+end
+arch grass_only
+x 2
+y 18
+end
+arch grass_only
+x 3
+end
+arch tree5
+x 3
+end
+arch grass_only
+x 3
+y 1
+end
+arch tree5
+x 3
+y 1
+end
+arch flagstone
+x 3
+y 2
 end
 arch woodwall_2_1_2
-x 1
+x 3
+y 2
 end
 arch woodlarge
-x 1
-y 1
+x 3
+y 3
 end
 arch chest_2
-x 1
-y 1
+x 3
+y 3
 arch bolt_silk
 nrof 5
 end
@@ -131,783 +425,1070 @@ arch random_talisman
 end
 end
 arch woodlarge
-x 1
-y 2
-end
-arch woodlarge
-x 1
-y 3
-end
-arch woodlarge
-x 1
-y 4
-end
-arch barrel
-x 1
+x 3
 y 4
 end
 arch woodlarge
-x 1
+x 3
 y 5
+end
+arch woodlarge
+x 3
+y 6
 end
 arch barrel
-x 1
-y 5
-end
-arch woodlarge
-x 1
-y 6
-end
-arch ewall_2_1_2
-x 1
+x 3
 y 6
 end
 arch woodlarge
-x 1
+x 3
+y 7
+end
+arch barrel
+x 3
 y 7
 end
 arch woodlarge
-x 1
+x 3
+y 8
+end
+arch ewall_2_1_2
+x 3
 y 8
 end
 arch woodlarge
-x 1
+x 3
 y 9
 end
 arch woodlarge
-x 1
+x 3
 y 10
 end
 arch woodlarge
-x 1
+x 3
 y 11
 end
 arch woodlarge
-x 1
+x 3
 y 12
 end
 arch woodlarge
-x 1
+x 3
 y 13
 end
 arch woodlarge
-x 1
-y 14
-end
-arch woodwall_2_1_2
-x 1
+x 3
 y 14
 end
 arch woodlarge
-x 2
+x 3
+y 15
+end
+arch flagstone
+x 3
+y 16
 end
 arch woodwall_2_1_2
-x 2
+x 3
+y 16
 end
-arch woodlarge
-x 2
+arch grass_only
+x 3
+y 17
+end
+arch grass_only
+x 3
+y 18
+end
+arch grass_only
+x 4
+end
+arch tree5
+x 4
+end
+arch grass_only
+x 4
 y 1
 end
-arch barrel
-x 2
+arch tree3
+x 4
 y 1
-can_roll 0
 end
-arch woodlarge
-x 2
+arch flagstone
+x 4
 y 2
 end
-arch barrel
-x 2
+arch woodwall_win2
+x 4
 y 2
-can_roll 0
 end
 arch woodlarge
-x 2
+x 4
 y 3
 end
+arch barrel
+x 4
+y 3
+can_roll 0
+end
 arch woodlarge
-x 2
+x 4
 y 4
 end
 arch barrel
-x 2
+x 4
 y 4
+can_roll 0
 end
 arch woodlarge
-x 2
+x 4
 y 5
+end
+arch woodlarge
+x 4
+y 6
 end
 arch barrel
-x 2
-y 5
-end
-arch woodlarge
-x 2
-y 6
-end
-arch ewall_2_1_2
-x 2
+x 4
 y 6
 end
 arch woodlarge
-x 2
+x 4
+y 7
+end
+arch barrel
+x 4
 y 7
 end
 arch woodlarge
-x 2
+x 4
+y 8
+end
+arch ewall_2_1_2
+x 4
 y 8
 end
 arch woodlarge
-x 2
+x 4
 y 9
 end
 arch woodlarge
-x 2
+x 4
 y 10
 end
 arch woodlarge
-x 2
+x 4
 y 11
 end
 arch woodlarge
-x 2
+x 4
 y 12
 end
 arch woodlarge
-x 2
+x 4
 y 13
 end
 arch woodlarge
-x 2
-y 14
-end
-arch woodwall_2_1_2
-x 2
+x 4
 y 14
 end
 arch woodlarge
-x 3
+x 4
+y 15
+end
+arch flagstone
+x 4
+y 16
 end
 arch woodwall_2_1_2
-x 3
+x 4
+y 16
 end
-arch woodlarge
-x 3
+arch grass_only
+x 4
+y 17
+end
+arch grass_only
+x 4
+y 18
+end
+arch grass_only
+x 5
+end
+arch tree5
+x 5
+end
+arch grass_only
+x 5
 y 1
 end
-arch woodlarge
-x 3
+arch tree5
+x 5
+y 1
+end
+arch flagstone
+x 5
 y 2
 end
-arch barrel
-x 3
+arch woodwall_2_1_2
+x 5
 y 2
 end
 arch woodlarge
-x 3
-y 3
-end
-arch barrel
-x 3
+x 5
 y 3
 end
 arch woodlarge
-x 3
+x 5
+y 4
+end
+arch barrel
+x 5
 y 4
 end
 arch woodlarge
-x 3
+x 5
+y 5
+end
+arch barrel
+x 5
 y 5
 end
 arch woodlarge
-x 3
-y 6
-end
-arch ewall_2_1_2
-x 3
+x 5
 y 6
 end
 arch woodlarge
-x 3
+x 5
 y 7
+end
+arch woodlarge
+x 5
+y 8
+end
+arch ewall_2_1_2
+x 5
+y 8
+end
+arch woodlarge
+x 5
+y 9
 end
 arch fireplace
-x 3
-y 7
-end
-arch woodlarge
-x 3
-y 8
-end
-arch woodlarge
-x 3
+x 5
 y 9
 end
 arch woodlarge
-x 3
+x 5
 y 10
 end
 arch woodlarge
-x 3
+x 5
 y 11
 end
 arch woodlarge
-x 3
+x 5
 y 12
 end
 arch woodlarge
-x 3
+x 5
 y 13
 end
 arch woodlarge
-x 3
-y 14
-end
-arch woodwall_2_1_2
-x 3
+x 5
 y 14
 end
 arch woodlarge
-x 4
+x 5
+y 15
 end
-arch woodwall_2_1_2
-x 4
+arch flagstone
+x 5
+y 16
 end
-arch woodlarge
-x 4
+arch woodwall_win2
+x 5
+y 16
+end
+arch grass_only
+x 5
+y 17
+end
+arch grass_only
+x 5
+y 18
+end
+arch grass_only
+x 6
+end
+arch grass_only
+x 6
 y 1
 end
-arch woodlarge
-x 4
+arch tree5
+x 6
+y 1
+end
+arch flagstone
+x 6
+y 2
+end
+arch woodwall_2_1_2
+x 6
 y 2
 end
 arch woodlarge
-x 4
-y 3
-end
-arch barrel
-x 4
+x 6
 y 3
 end
 arch woodlarge
-x 4
+x 6
 y 4
-end
-arch barrel
-x 4
-y 4
-can_roll 0
 end
 arch woodlarge
-x 4
+x 6
 y 5
 end
 arch barrel
-x 4
+x 6
 y 5
-can_roll 0
 end
 arch woodlarge
-x 4
+x 6
 y 6
+end
+arch barrel
+x 6
+y 6
+can_roll 0
+end
+arch woodlarge
+x 6
+y 7
+end
+arch barrel
+x 6
+y 7
+can_roll 0
+end
+arch woodlarge
+x 6
+y 8
 end
 arch ewall_2_1_2
-x 4
-y 6
-end
-arch woodlarge
-x 4
-y 7
-end
-arch woodlarge
-x 4
+x 6
 y 8
 end
 arch woodlarge
-x 4
+x 6
 y 9
 end
 arch woodlarge
-x 4
+x 6
 y 10
 end
 arch woodlarge
-x 4
+x 6
 y 11
 end
 arch woodlarge
-x 4
+x 6
 y 12
 end
 arch woodlarge
-x 4
+x 6
 y 13
 end
 arch woodlarge
-x 4
-y 14
-end
-arch woodwall_2_1_2
-x 4
+x 6
 y 14
 end
 arch woodlarge
-x 5
+x 6
+y 15
+end
+arch flagstone
+x 6
+y 16
 end
 arch woodwall_2_1_2
-x 5
+x 6
+y 16
 end
-arch woodlarge
-x 5
+arch grass_only
+x 6
+y 17
+end
+arch grass_only
+x 6
+y 18
+end
+arch grass_only
+x 7
+end
+arch tree3
+x 7
+end
+arch grass_only
+x 7
 y 1
 end
-arch barrel
-x 5
+arch tree5
+x 7
 y 1
 end
-arch woodlarge
-x 5
+arch flagstone
+x 7
+y 2
+end
+arch woodwall_win2
+x 7
 y 2
 end
 arch woodlarge
-x 5
+x 7
+y 3
+end
+arch barrel
+x 7
 y 3
 end
 arch woodlarge
-x 5
+x 7
 y 4
 end
 arch woodlarge
-x 5
-y 5
-end
-arch random_food
-x 5
+x 7
 y 5
 end
 arch woodlarge
-x 5
+x 7
 y 6
+end
+arch woodlarge
+x 7
+y 7
+end
+arch random_food
+x 7
+y 7
+end
+arch woodlarge
+x 7
+y 8
 end
 arch ewall_1_3
-x 5
-y 6
-end
-arch woodlarge
-x 5
-y 7
-end
-arch woodlarge
-x 5
+x 7
 y 8
 end
 arch woodlarge
-x 5
+x 7
 y 9
 end
 arch woodlarge
-x 5
+x 7
 y 10
 end
 arch woodlarge
-x 5
+x 7
 y 11
 end
 arch woodlarge
-x 5
+x 7
 y 12
 end
 arch woodlarge
-x 5
+x 7
 y 13
 end
 arch woodlarge
-x 5
-y 14
-end
-arch woodwall_2_1_2
-x 5
+x 7
 y 14
 end
 arch woodlarge
-x 6
+x 7
+y 15
+end
+arch flagstone
+x 7
+y 16
 end
 arch woodwall_2_1_2
-x 6
+x 7
+y 16
 end
-arch woodlarge
-x 6
+arch dungeon_magic
+x 7
+y 17
+move_block all
+end
+arch grass_only
+x 7
+y 17
+end
+arch dungeon_magic
+x 7
+y 18
+move_block all
+end
+arch grass_only
+x 7
+y 18
+end
+arch grass_only
+x 8
+end
+arch tree5
+x 8
+end
+arch grass_only
+x 8
 y 1
 end
-arch random_food
-x 6
+arch tree5
+x 8
 y 1
 end
-arch woodlarge
-x 6
+arch flagstone
+x 8
 y 2
+end
+arch woodwall_2_1_2
+x 8
+y 2
+end
+arch woodlarge
+x 8
+y 3
 end
 arch random_food
-x 6
-y 2
-end
-arch woodlarge
-x 6
-y 3
-end
-arch barrel
-x 6
+x 8
 y 3
 end
 arch woodlarge
-x 6
+x 8
 y 4
 end
-arch barrel
-x 6
+arch random_food
+x 8
 y 4
 end
 arch woodlarge
-x 6
+x 8
+y 5
+end
+arch barrel
+x 8
 y 5
 end
 arch woodlarge
-x 6
+x 8
 y 6
 end
-arch door_2
-x 6
+arch barrel
+x 8
 y 6
+end
+arch woodlarge
+x 8
+y 7
+end
+arch woodlarge
+x 8
+y 8
+end
+arch door_2
+x 8
+y 8
 move_block 0
 end
 arch woodlarge
-x 6
-y 7
-end
-arch woodlarge
-x 6
-y 8
-end
-arch woodlarge
-x 6
+x 8
 y 9
 end
 arch woodlarge
-x 6
+x 8
 y 10
 end
 arch woodlarge
-x 6
+x 8
 y 11
 end
 arch woodlarge
-x 6
+x 8
 y 12
 end
 arch woodlarge
-x 6
+x 8
 y 13
 end
 arch woodlarge
-x 6
+x 8
 y 14
+end
+arch button_trigger
+x 8
+y 15
+connected 1
+end
+arch woodlarge
+x 8
+y 15
+end
+arch flagstone
+x 8
+y 16
 end
 arch woodwall_1_3
-x 6
-y 14
-end
-arch woodlarge
-x 7
-end
-arch woodwall_3_3
-x 7
-end
-arch woodlarge
-x 7
-y 1
-end
-arch ewall_2_1_1
-x 7
-y 1
-end
-arch woodlarge
-x 7
-y 2
-end
-arch ewall_2_1_1
-x 7
-y 2
-end
-arch woodlarge
-x 7
-y 3
-end
-arch ewall_2_1_1
-x 7
-y 3
-end
-arch woodlarge
-x 7
-y 4
-end
-arch ewall_2_1_1
-x 7
-y 4
-end
-arch woodlarge
-x 7
-y 5
-end
-arch ewall_2_1_1
-x 7
-y 5
-end
-arch woodlarge
-x 7
-y 6
-end
-arch ewall_1_2
-x 7
-y 6
-end
-arch woodlarge
-x 7
-y 7
-end
-arch woodlarge
-x 7
-y 8
-end
-arch woodlarge
-x 7
-y 9
-end
-arch woodlarge
-x 7
-y 10
-end
-arch woodlarge
-x 7
-y 11
-end
-arch woodlarge
-x 7
-y 12
-end
-arch woodlarge
-x 7
-y 13
-end
-arch woodlarge
-x 7
-y 14
+x 8
+y 16
 end
 arch exit
 slaying /world/world_121_105
 hp 12
 sp 40
-x 7
-y 14
-end
-arch woodlarge
 x 8
+y 17
 end
-arch woodwall_2_1_2
+arch grass_only
 x 8
+y 17
 end
-arch woodlarge
+arch dungeon_magic
 x 8
+y 18
+move_block all
+end
+arch grass_only
+x 8
+y 18
+end
+arch grass_only
+x 9
+end
+arch tree5
+x 9
+end
+arch grass_only
+x 9
 y 1
 end
-arch woodlarge
-x 8
+arch tree3
+x 9
+y 1
+end
+arch flagstone
+x 9
+y 2
+end
+arch woodwall_3_3
+x 9
 y 2
 end
 arch woodlarge
-x 8
+x 9
+y 3
+end
+arch ewall_2_1_1
+x 9
 y 3
 end
 arch woodlarge
-x 8
+x 9
+y 4
+end
+arch ewall_2_1_1
+x 9
 y 4
 end
 arch woodlarge
-x 8
+x 9
+y 5
+end
+arch ewall_2_1_1
+x 9
 y 5
 end
 arch woodlarge
-x 8
+x 9
 y 6
 end
-arch door_2
-x 8
+arch ewall_2_1_1
+x 9
 y 6
+end
+arch woodlarge
+x 9
+y 7
+end
+arch ewall_2_1_1
+x 9
+y 7
+end
+arch woodlarge
+x 9
+y 8
+end
+arch ewall_1_2
+x 9
+y 8
+end
+arch woodlarge
+x 9
+y 9
+end
+arch woodlarge
+x 9
+y 10
+end
+arch woodlarge
+x 9
+y 11
+end
+arch woodlarge
+x 9
+y 12
+end
+arch woodlarge
+x 9
+y 13
+end
+arch woodlarge
+x 9
+y 14
+end
+arch button_trigger
+x 9
+y 15
+connected 1
+end
+arch woodlarge
+x 9
+y 15
+end
+arch button_trigger
+x 9
+y 16
+connected 1
+end
+arch flagstone
+x 9
+y 16
+end
+arch odoorn2_closed_1
+x 9
+y 16
+connected 1
+end
+arch exit
+slaying /world/world_121_105
+hp 12
+sp 40
+x 9
+y 17
+end
+arch grass_only
+x 9
+y 17
+end
+arch dungeon_magic
+x 9
+y 18
+move_block all
+end
+arch grass_only
+x 9
+y 18
+end
+arch grass_only
+x 10
+end
+arch tree5
+x 10
+end
+arch grass_only
+x 10
+y 1
+end
+arch tree3
+x 10
+y 1
+end
+arch flagstone
+x 10
+y 2
+end
+arch woodwall_2_1_2
+x 10
+y 2
+end
+arch woodlarge
+x 10
+y 3
+end
+arch woodlarge
+x 10
+y 4
+end
+arch woodlarge
+x 10
+y 5
+end
+arch woodlarge
+x 10
+y 6
+end
+arch woodlarge
+x 10
+y 7
+end
+arch woodlarge
+x 10
+y 8
+end
+arch door_2
+x 10
+y 8
 move_block 0
 end
 arch woodlarge
-x 8
-y 7
-end
-arch woodlarge
-x 8
-y 8
-end
-arch woodlarge
-x 8
+x 10
 y 9
 end
 arch woodlarge
-x 8
+x 10
 y 10
 end
 arch woodlarge
-x 8
+x 10
 y 11
 end
 arch woodlarge
-x 8
+x 10
 y 12
 end
 arch woodlarge
-x 8
+x 10
 y 13
 end
 arch woodlarge
-x 8
+x 10
 y 14
+end
+arch button_trigger
+x 10
+y 15
+connected 1
+end
+arch woodlarge
+x 10
+y 15
+end
+arch flagstone
+x 10
+y 16
 end
 arch woodwall_1_4
-x 8
-y 14
+x 10
+y 16
 end
-arch woodlarge
-x 9
+arch exit
+slaying /world/world_121_105
+hp 12
+sp 40
+x 10
+y 17
 end
-arch woodwall_2_1_2
-x 9
+arch grass_only
+x 10
+y 17
 end
-arch woodlarge
-x 9
+arch dungeon_magic
+x 10
+y 18
+move_block all
+end
+arch grass_only
+x 10
+y 18
+end
+arch grass_only
+x 11
+end
+arch tree5
+x 11
+end
+arch grass_only
+x 11
 y 1
 end
-arch dresser
-x 9
+arch tree5
+x 11
 y 1
-arch random_wealth
 end
-arch random_wealth
+arch flagstone
+x 11
+y 2
 end
-end
-arch woodlarge
-x 9
+arch woodwall_win2
+x 11
 y 2
 end
 arch woodlarge
-x 9
+x 11
 y 3
 end
+arch dresser
+x 11
+y 3
+arch random_wealth
+end
+arch random_wealth
+end
+end
 arch woodlarge
-x 9
+x 11
 y 4
 end
 arch woodlarge
-x 9
+x 11
 y 5
 end
 arch woodlarge
-x 9
-y 6
-end
-arch ewall_1_4
-x 9
+x 11
 y 6
 end
 arch woodlarge
-x 9
+x 11
 y 7
 end
 arch woodlarge
-x 9
+x 11
+y 8
+end
+arch ewall_1_4
+x 11
 y 8
 end
 arch woodlarge
-x 9
+x 11
 y 9
 end
 arch woodlarge
-x 9
-y 10
-end
-arch chair_1.4
-x 9
+x 11
 y 10
 end
 arch woodlarge
-x 9
+x 11
 y 11
 end
 arch woodlarge
-x 9
+x 11
+y 12
+end
+arch chair_1.4
+x 11
 y 12
 end
 arch woodlarge
-x 9
+x 11
 y 13
 end
 arch woodlarge
-x 9
-y 14
-end
-arch woodwall_2_1_2
-x 9
+x 11
 y 14
 end
 arch woodlarge
-x 10
+x 11
+y 15
+end
+arch flagstone
+x 11
+y 16
 end
 arch woodwall_2_1_2
-x 10
+x 11
+y 16
 end
-arch woodlarge
-x 10
+arch dungeon_magic
+x 11
+y 17
+move_block all
+end
+arch grass_only
+x 11
+y 17
+end
+arch dungeon_magic
+x 11
+y 18
+move_block all
+end
+arch grass_only
+x 11
+y 18
+end
+arch grass_only
+x 12
+end
+arch tree3
+x 12
+end
+arch grass_only
+x 12
 y 1
 end
-arch woodlarge
-x 10
+arch tree5
+x 12
+y 1
+end
+arch flagstone
+x 12
+y 2
+end
+arch woodwall_2_1_2
+x 12
 y 2
 end
 arch woodlarge
-x 10
+x 12
 y 3
 end
 arch woodlarge
-x 10
+x 12
 y 4
 end
 arch woodlarge
-x 10
+x 12
 y 5
 end
 arch woodlarge
-x 10
-y 6
-end
-arch ewall_2_1_2
-x 10
+x 12
 y 6
 end
 arch woodlarge
-x 10
+x 12
 y 7
 end
 arch woodlarge
-x 10
+x 12
+y 8
+end
+arch ewall_2_1_2
+x 12
 y 8
 end
 arch woodlarge
-x 10
+x 12
 y 9
+end
+arch woodlarge
+x 12
+y 10
+end
+arch woodlarge
+x 12
+y 11
 end
 arch sage
 name Ko
@@ -918,262 +1499,313 @@ Well, to my cabin, I guess. Long ago there was a thriving kingdom west of here, 
 Another lost traveler? I'm afraid there's not much out this way anymore.
 @reply road But where does this road go?
 endmsg
-x 10
-y 9
+x 12
+y 11
 stand_still 1
 end
 arch woodlarge
-x 10
-y 10
+x 12
+y 12
 end
 arch table_4
-x 10
-y 10
-end
-arch woodlarge
-x 10
-y 11
-end
-arch woodlarge
-x 10
+x 12
 y 12
 end
 arch woodlarge
-x 10
+x 12
 y 13
 end
 arch woodlarge
-x 10
-y 14
-end
-arch woodwall_2_1_2
-x 10
+x 12
 y 14
 end
 arch woodlarge
-x 11
+x 12
+y 15
+end
+arch flagstone
+x 12
+y 16
 end
 arch woodwall_2_1_2
-x 11
+x 12
+y 16
 end
-arch woodlarge
-x 11
+arch grass_only
+x 12
+y 17
+end
+arch grass_only
+x 12
+y 18
+end
+arch grass_only
+x 13
+end
+arch tree5
+x 13
+end
+arch grass_only
+x 13
 y 1
+end
+arch tree5
+x 13
+y 1
+end
+arch flagstone
+x 13
+y 2
+end
+arch woodwall_2_1_2
+x 13
+y 2
+end
+arch woodlarge
+x 13
+y 3
 end
 arch bed_1
-x 11
-y 1
-end
-arch woodlarge
-x 11
-y 2
-end
-arch woodlarge
-x 11
+x 13
 y 3
 end
 arch woodlarge
-x 11
+x 13
 y 4
 end
 arch woodlarge
-x 11
+x 13
 y 5
 end
 arch woodlarge
-x 11
-y 6
-end
-arch ewall_2_1_2
-x 11
+x 13
 y 6
 end
 arch woodlarge
-x 11
+x 13
 y 7
+end
+arch woodlarge
+x 13
+y 8
+end
+arch ewall_2_1_2
+x 13
+y 8
+end
+arch woodlarge
+x 13
+y 9
 end
 arch clock
-x 11
-y 7
-end
-arch woodlarge
-x 11
-y 8
-end
-arch woodlarge
-x 11
+x 13
 y 9
 end
 arch woodlarge
-x 11
+x 13
 y 10
+end
+arch woodlarge
+x 13
+y 11
+end
+arch woodlarge
+x 13
+y 12
 end
 arch chair_1.2
-x 11
-y 10
-end
-arch woodlarge
-x 11
-y 11
-end
-arch woodlarge
-x 11
+x 13
 y 12
 end
 arch woodlarge
-x 11
+x 13
 y 13
 end
 arch woodlarge
-x 11
-y 14
-end
-arch woodwall_2_1_2
-x 11
+x 13
 y 14
 end
 arch woodlarge
-x 12
+x 13
+y 15
 end
-arch woodwall_2_1_2
-x 12
+arch flagstone
+x 13
+y 16
 end
-arch woodlarge
-x 12
+arch woodwall_win2
+x 13
+y 16
+end
+arch grass_only
+x 13
+y 17
+end
+arch grass_only
+x 13
+y 18
+end
+arch grass_only
+x 14
+end
+arch tree5
+x 14
+end
+arch tree5
+x 14
+end
+arch grass_only
+x 14
 y 1
 end
-arch woodlarge
-x 12
+arch tree5
+x 14
+y 1
+end
+arch flagstone
+x 14
+y 2
+end
+arch woodwall_win2
+x 14
 y 2
 end
 arch woodlarge
-x 12
+x 14
 y 3
 end
 arch woodlarge
-x 12
+x 14
 y 4
 end
 arch woodlarge
-x 12
+x 14
 y 5
 end
 arch woodlarge
-x 12
-y 6
-end
-arch ewall_2_1_2
-x 12
+x 14
 y 6
 end
 arch woodlarge
-x 12
+x 14
 y 7
 end
 arch woodlarge
-x 12
+x 14
+y 8
+end
+arch ewall_2_1_2
+x 14
 y 8
 end
 arch woodlarge
-x 12
+x 14
 y 9
 end
 arch woodlarge
-x 12
+x 14
 y 10
 end
 arch woodlarge
-x 12
+x 14
 y 11
 end
 arch woodlarge
-x 12
+x 14
 y 12
 end
 arch woodlarge
-x 12
+x 14
 y 13
 end
 arch woodlarge
-x 12
-y 14
-end
-arch woodwall_2_1_2
-x 12
+x 14
 y 14
 end
 arch woodlarge
-x 13
+x 14
+y 15
+end
+arch flagstone
+x 14
+y 16
 end
 arch woodwall_2_1_2
-x 13
+x 14
+y 16
 end
-arch woodlarge
-x 13
+arch grass_only
+x 14
+y 17
+end
+arch grass_only
+x 14
+y 18
+end
+arch grass_only
+x 15
+end
+arch tree5
+x 15
+end
+arch grass_only
+x 15
 y 1
 end
-arch woodlarge
-x 13
+arch tree3
+x 15
+y 1
+end
+arch flagstone
+x 15
+y 2
+end
+arch woodwall_2_1_2
+x 15
 y 2
 end
 arch woodlarge
-x 13
+x 15
 y 3
+end
+arch woodlarge
+x 15
+y 4
+end
+arch woodlarge
+x 15
+y 5
 end
 arch desk
-x 13
-y 3
+x 15
+y 5
 end
 arch woodlarge
-x 13
-y 4
+x 15
+y 6
 end
 arch chair_1.3
-x 13
-y 4
-end
-arch woodlarge
-x 13
-y 5
-end
-arch woodlarge
-x 13
+x 15
 y 6
+end
+arch woodlarge
+x 15
+y 7
+end
+arch woodlarge
+x 15
+y 8
 end
 arch ewall_2_1_2
-x 13
-y 6
-end
-arch woodlarge
-x 13
-y 7
-end
-arch bookshelf_right
-x 13
-y 7
-arch random_reading
-end
-arch random_reading
-end
-end
-arch woodlarge
-x 13
+x 15
 y 8
 end
-arch bookshelf_right
-x 13
-y 8
-arch random_reading
-end
-arch random_reading
-end
-end
 arch woodlarge
-x 13
+x 15
 y 9
 end
 arch bookshelf_right
-x 13
+x 15
 y 9
 arch random_reading
 end
@@ -1181,148 +1813,478 @@ arch random_reading
 end
 end
 arch woodlarge
-x 13
+x 15
 y 10
 end
-arch woodlarge
-x 13
-y 11
+arch bookshelf_right
+x 15
+y 10
+arch random_reading
+end
+arch random_reading
+end
 end
 arch woodlarge
-x 13
+x 15
+y 11
+end
+arch bookshelf_right
+x 15
+y 11
+arch random_reading
+end
+arch random_reading
+end
+end
+arch woodlarge
+x 15
 y 12
 end
 arch woodlarge
-x 13
+x 15
 y 13
 end
 arch woodlarge
-x 13
+x 15
 y 14
+end
+arch woodlarge
+x 15
+y 15
+end
+arch flagstone
+x 15
+y 16
 end
 arch woodwall_2_1_2
-x 13
-y 14
+x 15
+y 16
 end
-arch woodlarge
-x 14
+arch grass_only
+x 15
+y 17
+end
+arch grass_only
+x 15
+y 18
+end
+arch grass_only
+x 16
+end
+arch tree5
+x 16
+end
+arch grass_only
+x 16
+y 1
+end
+arch tree5
+x 16
+y 1
+end
+arch flagstone
+x 16
+y 2
 end
 arch woodwall_2_2_3
-x 14
-end
-arch woodlarge
-x 14
-y 1
-end
-arch woodwall_2_1_1
-x 14
-y 1
-end
-arch woodlarge
-x 14
+x 16
 y 2
 end
-arch woodwall_2_1_1
-x 14
-y 2
-end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 3
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 3
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 4
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 4
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 5
 end
-arch woodwall_2_1_1
-x 14
+arch woodwall_win1
+x 16
 y 5
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 6
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 6
+end
+arch flagstone
+x 16
+y 7
+end
+arch woodwall_2_1_1
+x 16
+y 7
+end
+arch flagstone
+x 16
+y 8
+end
+arch woodwall_2_1_1
+x 16
+y 8
 end
 arch woodwall_3_4
-x 14
-y 6
-end
-arch woodlarge
-x 14
-y 7
-end
-arch woodwall_2_1_1
-x 14
-y 7
-end
-arch woodlarge
-x 14
+x 16
 y 8
 end
-arch woodwall_2_1_1
-x 14
-y 8
-end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 9
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 9
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 10
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 10
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 11
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 11
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 12
 end
-arch woodwall_2_1_1
-x 14
+arch woodwall_win1
+x 16
 y 12
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 13
 end
 arch woodwall_2_1_1
-x 14
+x 16
 y 13
 end
-arch woodlarge
-x 14
+arch flagstone
+x 16
 y 14
+end
+arch woodwall_2_1_1
+x 16
+y 14
+end
+arch flagstone
+x 16
+y 15
+end
+arch woodwall_2_1_1
+x 16
+y 15
+end
+arch flagstone
+x 16
+y 16
 end
 arch woodwall_2_2_4
-x 14
+x 16
+y 16
+end
+arch grass_only
+x 16
+y 17
+end
+arch grass_only
+x 16
+y 18
+end
+arch grass_only
+x 17
+end
+arch grass_only
+x 17
+y 1
+end
+arch tree5
+x 17
+y 1
+end
+arch grass_only
+x 17
+y 2
+end
+arch tree3
+x 17
+y 2
+end
+arch grass_only
+x 17
+y 3
+end
+arch tree5
+x 17
+y 3
+end
+arch grass_only
+x 17
+y 4
+end
+arch tree5
+x 17
+y 4
+end
+arch grass_only
+x 17
+y 5
+end
+arch tree5
+x 17
+y 5
+end
+arch grass_only
+x 17
+y 6
+end
+arch tree3
+x 17
+y 6
+end
+arch grass_only
+x 17
+y 7
+end
+arch tree3
+x 17
+y 7
+end
+arch grass_only
+x 17
+y 8
+end
+arch tree5
+x 17
+y 8
+end
+arch grass_only
+x 17
+y 9
+end
+arch tree5
+x 17
+y 9
+end
+arch grass_only
+x 17
+y 10
+end
+arch tree5
+x 17
+y 10
+end
+arch grass_only
+x 17
+y 11
+end
+arch tree3
+x 17
+y 11
+end
+arch grass_only
+x 17
+y 12
+end
+arch tree5
+x 17
+y 12
+end
+arch grass_only
+x 17
+y 13
+end
+arch tree5
+x 17
+y 13
+end
+arch grass_only
+x 17
 y 14
+end
+arch tree3
+x 17
+y 14
+end
+arch grass_only
+x 17
+y 15
+end
+arch tree5
+x 17
+y 15
+end
+arch grass_only
+x 17
+y 16
+end
+arch grass_only
+x 17
+y 17
+end
+arch grass_only
+x 17
+y 18
+end
+arch grass_only
+x 18
+end
+arch grass_only
+x 18
+y 1
+end
+arch tree5
+x 18
+y 1
+end
+arch grass_only
+x 18
+y 2
+end
+arch tree5
+x 18
+y 2
+end
+arch grass_only
+x 18
+y 3
+end
+arch tree5
+x 18
+y 3
+end
+arch tree5
+x 18
+y 3
+end
+arch grass_only
+x 18
+y 4
+end
+arch tree5
+x 18
+y 4
+end
+arch grass_only
+x 18
+y 5
+end
+arch tree5
+x 18
+y 5
+end
+arch grass_only
+x 18
+y 6
+end
+arch tree5
+x 18
+y 6
+end
+arch grass_only
+x 18
+y 7
+end
+arch tree5
+x 18
+y 7
+end
+arch grass_only
+x 18
+y 8
+end
+arch tree5
+x 18
+y 8
+end
+arch grass_only
+x 18
+y 9
+end
+arch tree3
+x 18
+y 9
+end
+arch grass_only
+x 18
+y 10
+end
+arch tree5
+x 18
+y 10
+end
+arch grass_only
+x 18
+y 11
+end
+arch tree5
+x 18
+y 11
+end
+arch grass_only
+x 18
+y 12
+end
+arch tree5
+x 18
+y 12
+end
+arch grass_only
+x 18
+y 13
+end
+arch tree5
+x 18
+y 13
+end
+arch grass_only
+x 18
+y 14
+end
+arch tree5
+x 18
+y 14
+end
+arch grass_only
+x 18
+y 15
+end
+arch tree5
+x 18
+y 15
+end
+arch grass_only
+x 18
+y 16
+end
+arch grass_only
+x 18
+y 17
+end
+arch grass_only
+x 18
+y 18
 end
