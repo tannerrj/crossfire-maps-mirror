@@ -12,78 +12,149 @@ Modified: 2026-02-17 Rick Tanner
 endmsg
 outdoor 1
 end
-arch cobblestones2
+arch grass_only
+end
+arch cwall_1_1
 end
 arch grass_only
+y 1
+end
+arch cwall_2_1_1
 y 1
 end
 arch grass_only
 y 2
 end
+arch cwall_2_1_1
+y 2
+end
 arch grass_only
+y 3
+end
+arch cwall_2_1_1
 y 3
 end
 arch grass_only
 y 4
 end
+arch cwall_2_1_1
+y 4
+end
 arch grass_only
+y 5
+end
+arch cwall_2_1_1
 y 5
 end
 arch grass_only
 y 6
 end
+arch cwall_2_1_1
+y 6
+end
 arch grass_only
+y 7
+end
+arch cwall_2_1_1
 y 7
 end
 arch grass_only
 y 8
 end
+arch cwall_2_1_1
+y 8
+end
 arch grass_only
+y 9
+end
+arch cwall_2_1_1
 y 9
 end
 arch grass_only
 y 10
 end
+arch cwall_2_1_1
+y 10
+end
 arch grass_only
+y 11
+end
+arch cwall_2_1_1
 y 11
 end
 arch grass_only
 y 12
 end
+arch cwall_2_1_1
+y 12
+end
 arch grass_only
+y 13
+end
+arch cwall_2_1_1
 y 13
 end
 arch grass_only
 y 14
 end
+arch cwall_2_1_1
+y 14
+end
 arch grass_only
+y 15
+end
+arch cwall_2_1_1
 y 15
 end
 arch grass_only
 y 16
 end
+arch cwall_2_1_1
+y 16
+end
 arch grass_only
+y 17
+end
+arch cwall_2_1_1
 y 17
 end
 arch grass_only
 y 18
 end
+arch cwall_2_1_1
+y 18
+end
 arch grass_only
+y 19
+end
+arch cwall_2_1_1
 y 19
 end
 arch grass_only
 y 20
 end
+arch cwall_2_1_1
+y 20
+end
 arch grass_only
+y 21
+end
+arch cwall_2_1_1
 y 21
 end
 arch grass_only
 y 22
 end
+arch cwall_2_1_1
+y 22
+end
 arch grass_only
 y 23
 end
-arch cobblestones2
+arch cwall_1_2
+y 23
+end
+arch grass_only
 x 1
 end
 arch grass_only
@@ -727,27 +798,27 @@ arch stwall_2_1_2
 x 5
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 14
 end
@@ -851,19 +922,19 @@ arch stwall_2_1_2
 x 6
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 12
 end
@@ -871,7 +942,7 @@ arch stwall_1_4
 x 6
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 13
 end
@@ -885,7 +956,7 @@ Lythander is the guide of elves, giving them luck.
 endmsg
 end
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 14
 end
@@ -994,7 +1065,7 @@ arch stwall_2_1_2
 x 7
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 9
 end
@@ -1002,15 +1073,15 @@ arch brazier
 x 7
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 12
 end
@@ -1018,7 +1089,7 @@ arch stwall_2_2_3
 x 7
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 13
 end
@@ -1026,7 +1097,7 @@ arch stwall_2_1_1
 x 7
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 14
 end
@@ -1034,7 +1105,7 @@ arch stwall_2_1_1
 x 7
 y 14
 end
-arch stonefloor2
+arch flagstone
 x 7
 y 15
 end
@@ -1140,31 +1211,31 @@ arch stwall_2_1_2
 x 8
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 14
 end
-arch stonefloor2
+arch flagstone
 x 8
 y 15
 end
@@ -1172,23 +1243,23 @@ arch stwall_1_3
 x 8
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 20
 end
@@ -1199,7 +1270,7 @@ sp 39
 x 8
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 21
 end
@@ -1265,7 +1336,7 @@ arch stwall_2_1_2
 x 9
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 9
 end
@@ -1274,47 +1345,47 @@ x 9
 y 9
 level 120
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 14
 end
-arch stonefloor2
+arch flagstone
 x 9
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 20
 end
@@ -1325,7 +1396,7 @@ sp 39
 x 9
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 21
 end
@@ -1391,11 +1462,11 @@ arch stwall_2_1_2
 x 10
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 10
 end
@@ -1409,23 +1480,23 @@ endmsg
 x 10
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 14
 end
-arch stonefloor2
+arch flagstone
 x 10
 y 15
 end
@@ -1433,23 +1504,23 @@ arch stwall_1_4
 x 10
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 20
 end
@@ -1460,7 +1531,7 @@ sp 39
 x 10
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 21
 end
@@ -1526,7 +1597,7 @@ arch stwall_2_1_2
 x 11
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 9
 end
@@ -1534,15 +1605,15 @@ arch brazier
 x 11
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 12
 end
@@ -1550,7 +1621,7 @@ arch stwall_2_2_2
 x 11
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 13
 end
@@ -1558,7 +1629,7 @@ arch stwall_2_1_1
 x 11
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 14
 end
@@ -1672,19 +1743,19 @@ arch stwall_2_1_2
 x 12
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 12
 end
@@ -1692,7 +1763,7 @@ arch stwall_1_3
 x 12
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 13
 end
@@ -1700,7 +1771,7 @@ arch bookshelf
 x 12
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 14
 end
@@ -1809,27 +1880,27 @@ arch stwall_2_1_2
 x 13
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 14
 end
