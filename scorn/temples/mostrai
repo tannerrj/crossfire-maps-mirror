@@ -8,7 +8,7 @@ enter_x 15
 enter_y 17
 msg
 Created:  1999-01-22 Raphaël Quinet (raphael@gimp.org)
-Modified: 2026-02-19 Rick Tanner
+Modified: 2026-02-20 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_temple-of-mostrai
@@ -460,8 +460,8 @@ end
 arch phole_2
 name hole in the grass
 slaying mostrai2
-hp 12
-sp 3
+hp 13
+sp 2
 x 4
 y 8
 end

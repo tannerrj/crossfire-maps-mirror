@@ -9,7 +9,7 @@ enter_x 13
 enter_y 2
 msg
 Created: 1999-01-22 Raphaël Quinet (raphael@gimp.org)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2026-02-20 Rick Tanner
 endmsg
 reset_group scorn_temple-of-mostrai
 end
@@ -1257,8 +1257,8 @@ y 2
 end
 arch ladder_up
 slaying mostrai
-hp 2
-sp 7
+hp 4
+sp 8
 x 13
 y 2
 end
