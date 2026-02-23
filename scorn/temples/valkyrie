@@ -10,7 +10,7 @@ enter_x 7
 enter_y 17
 msg
 Created: 2003-08-17 Lalo Martins
-Modified: 2023-11-08 Rick Tanner
+Modified: 2026-02-22 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valkyrie
 end
@@ -633,6 +633,7 @@ name demon's head
 name_pl demon heads
 x 3
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
@@ -866,6 +867,7 @@ name goblin's head
 name_pl goblin heads
 x 4
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
@@ -1092,6 +1094,7 @@ name troll's head
 name_pl troll heads
 x 5
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
@@ -2573,6 +2576,7 @@ name titan's head
 name_pl titan heads
 x 11
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
@@ -2809,6 +2813,7 @@ name dragon's heart
 name_pl dragon hearts
 x 12
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
@@ -3035,6 +3040,7 @@ name dread's eye
 name_pl dread eyes
 x 13
 y 4
+level 1
 no_pick 1
 end
 arch dungeon_magic
