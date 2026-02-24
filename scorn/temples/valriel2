@@ -8,7 +8,7 @@ enter_x 1
 enter_y 10
 msg
 Created: 1999-01-18 Raphaël Quinet (raphael@gimp.org)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2026-02-23 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valriel
 end
@@ -143,8 +143,8 @@ y 10
 end
 arch stair_3_down
 slaying valriel
-hp 4
-sp 22
+hp 6
+sp 24
 x 1
 y 10
 end
@@ -892,8 +892,8 @@ y 10
 end
 arch stair_3_down
 slaying valriel
-hp 14
-sp 22
+hp 16
+sp 24
 x 11
 y 10
 end
