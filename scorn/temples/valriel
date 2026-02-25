@@ -8,7 +8,7 @@ enter_x 11
 enter_y 30
 msg
 Created: 1999-01-18 Raphaël Quinet (raphael@gimp.org)
-Modified: 2026-02-23 Rick Tanner
+Modified: 2026-02-25 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_chapel-of-valriel
@@ -1084,7 +1084,7 @@ arch dwall_1_3
 x 6
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 10
 end
@@ -1093,15 +1093,15 @@ name statue of St John
 x 6
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 13
 end
@@ -1109,15 +1109,15 @@ arch statue
 x 6
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 16
 end
@@ -1125,15 +1125,15 @@ arch statue
 x 6
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 19
 end
@@ -1141,15 +1141,15 @@ arch statue
 x 6
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 22
 end
@@ -1157,11 +1157,11 @@ arch statue
 x 6
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 24
 end
@@ -1279,19 +1279,19 @@ arch swall_2_1_2
 x 7
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 13
 end
@@ -1299,11 +1299,11 @@ arch chair_1.3
 x 7
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 15
 end
@@ -1311,11 +1311,11 @@ arch chair_1.3
 x 7
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 17
 end
@@ -1323,11 +1323,11 @@ arch chair_1.3
 x 7
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 19
 end
@@ -1335,11 +1335,11 @@ arch chair_1.3
 x 7
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 21
 end
@@ -1347,11 +1347,11 @@ arch chair_1.3
 x 7
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 23
 end
@@ -1359,7 +1359,7 @@ arch chair_1.3
 x 7
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 24
 end
@@ -1474,11 +1474,11 @@ arch dwall_1_4
 x 8
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 11
 end
@@ -1486,11 +1486,11 @@ arch chair_2.3
 x 8
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 13
 end
@@ -1498,11 +1498,11 @@ arch chair_1.3
 x 8
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 15
 end
@@ -1510,11 +1510,11 @@ arch chair_1.3
 x 8
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 17
 end
@@ -1522,11 +1522,11 @@ arch chair_1.3
 x 8
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 19
 end
@@ -1534,11 +1534,11 @@ arch chair_1.3
 x 8
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 21
 end
@@ -1546,11 +1546,11 @@ arch chair_1.3
 x 8
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 23
 end
@@ -1558,7 +1558,7 @@ arch chair_1.3
 x 8
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 24
 end
@@ -1677,11 +1677,11 @@ arch cwall_2_2_4
 x 9
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 11
 end
@@ -1689,11 +1689,11 @@ arch chair_2.3
 x 9
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 13
 end
@@ -1701,11 +1701,11 @@ arch cwall_0
 x 9
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 15
 end
@@ -1713,7 +1713,7 @@ arch chair_1.3
 x 9
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 16
 end
@@ -1721,7 +1721,7 @@ arch cwall_0
 x 9
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 17
 end
@@ -1729,11 +1729,11 @@ arch chair_1.3
 x 9
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 19
 end
@@ -1741,11 +1741,11 @@ arch cwall_0
 x 9
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 21
 end
@@ -1753,7 +1753,7 @@ arch chair_1.3
 x 9
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 22
 end
@@ -1761,7 +1761,7 @@ arch cwall_0
 x 9
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 23
 end
@@ -1769,7 +1769,7 @@ arch chair_1.3
 x 9
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 24
 end
@@ -1869,11 +1869,11 @@ arch cwall_2_1_2
 x 10
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 7
 end
@@ -1887,11 +1887,11 @@ x 10
 y 7
 unaggressive 1
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 9
 end
@@ -1899,11 +1899,11 @@ arch brazier
 x 10
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 11
 end
@@ -1911,11 +1911,11 @@ arch chair_2.3
 x 10
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 13
 end
@@ -1923,11 +1923,11 @@ arch chair_1.3
 x 10
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 15
 end
@@ -1935,11 +1935,11 @@ arch chair_1.3
 x 10
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 17
 end
@@ -1947,11 +1947,11 @@ arch chair_1.3
 x 10
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 19
 end
@@ -1959,11 +1959,11 @@ arch chair_1.3
 x 10
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 21
 end
@@ -1971,11 +1971,11 @@ arch chair_1.3
 x 10
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 23
 end
@@ -1983,11 +1983,11 @@ arch chair_1.3
 x 10
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 24
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 25
 end
@@ -2066,7 +2066,7 @@ arch cwall_2_1_2
 x 11
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 6
 end
@@ -2075,15 +2075,15 @@ name Son of Valriel
 x 11
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 9
 end
@@ -2092,67 +2092,67 @@ x 11
 y 9
 level 120
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 24
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 25
 end
@@ -2231,19 +2231,19 @@ arch cwall_2_1_2
 x 12
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 9
 end
@@ -2251,11 +2251,11 @@ arch brazier
 x 12
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 11
 end
@@ -2263,11 +2263,11 @@ arch chair_2.3
 x 12
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 13
 end
@@ -2275,11 +2275,11 @@ arch chair_1.3
 x 12
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 15
 end
@@ -2287,11 +2287,11 @@ arch chair_1.3
 x 12
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 17
 end
@@ -2299,11 +2299,11 @@ arch chair_1.3
 x 12
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 19
 end
@@ -2311,11 +2311,11 @@ arch chair_1.3
 x 12
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 21
 end
@@ -2323,11 +2323,11 @@ arch chair_1.3
 x 12
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 23
 end
@@ -2335,11 +2335,11 @@ arch chair_1.3
 x 12
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 24
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 25
 end
@@ -2450,11 +2450,11 @@ arch cwall_2_2_1
 x 13
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 11
 end
@@ -2462,11 +2462,11 @@ arch chair_2.3
 x 13
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 13
 end
@@ -2474,11 +2474,11 @@ arch cwall_0
 x 13
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 15
 end
@@ -2486,7 +2486,7 @@ arch chair_1.3
 x 13
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 16
 end
@@ -2494,7 +2494,7 @@ arch cwall_0
 x 13
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 17
 end
@@ -2502,11 +2502,11 @@ arch chair_1.3
 x 13
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 19
 end
@@ -2514,11 +2514,11 @@ arch cwall_0
 x 13
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 21
 end
@@ -2526,7 +2526,7 @@ arch chair_1.3
 x 13
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 22
 end
@@ -2534,7 +2534,7 @@ arch cwall_0
 x 13
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 23
 end
@@ -2542,7 +2542,7 @@ arch chair_1.3
 x 13
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 24
 end
@@ -2674,11 +2674,11 @@ arch dwall_1_3
 x 14
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 11
 end
@@ -2686,11 +2686,11 @@ arch chair_2.3
 x 14
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 13
 end
@@ -2698,11 +2698,11 @@ arch chair_1.3
 x 14
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 15
 end
@@ -2710,11 +2710,11 @@ arch chair_1.3
 x 14
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 17
 end
@@ -2722,11 +2722,11 @@ arch chair_1.3
 x 14
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 19
 end
@@ -2734,11 +2734,11 @@ arch chair_1.3
 x 14
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 21
 end
@@ -2746,11 +2746,11 @@ arch chair_1.3
 x 14
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 23
 end
@@ -2758,7 +2758,7 @@ arch chair_1.3
 x 14
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 24
 end
@@ -2869,19 +2869,19 @@ arch swall_2_1_2
 x 15
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 13
 end
@@ -2889,11 +2889,11 @@ arch chair_1.3
 x 15
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 15
 end
@@ -2901,11 +2901,11 @@ arch chair_1.3
 x 15
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 17
 end
@@ -2913,11 +2913,11 @@ arch chair_1.3
 x 15
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 19
 end
@@ -2925,11 +2925,11 @@ arch chair_1.3
 x 15
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 21
 end
@@ -2937,11 +2937,11 @@ arch chair_1.3
 x 15
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 23
 end
@@ -2949,7 +2949,7 @@ arch chair_1.3
 x 15
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 24
 end
@@ -3068,7 +3068,7 @@ arch dwall_1_4
 x 16
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 10
 end
@@ -3077,15 +3077,15 @@ name statue of St Matthew
 x 16
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 13
 end
@@ -3093,15 +3093,15 @@ arch statue
 x 16
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 16
 end
@@ -3109,15 +3109,15 @@ arch statue
 x 16
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 19
 end
@@ -3125,15 +3125,15 @@ arch statue
 x 16
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 22
 end
@@ -3141,11 +3141,11 @@ arch statue
 x 16
 y 22
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 23
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 24
 end
