@@ -9,7 +9,7 @@ enter_x 2
 enter_y 3
 msg
 Created: 1999-01-22 Raphaël Quinet (raphael@gimp.org)
-Modified: 2023-06-13 Rick Tanner
+Modified: 2026-02-25 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valriel
 end
@@ -46,6 +46,12 @@ y 5
 end
 arch blocked
 y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
 end
 arch blocked
 y 9
@@ -116,6 +122,14 @@ end
 arch blocked
 x 1
 y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
 end
 arch blocked
 x 1
@@ -228,6 +242,14 @@ y 6
 end
 arch blocked
 x 2
+y 7
+end
+arch blocked
+x 2
+y 8
+end
+arch blocked
+x 2
 y 9
 end
 arch blocked
@@ -333,6 +355,14 @@ y 6
 end
 arch blocked
 x 3
+y 7
+end
+arch blocked
+x 3
+y 8
+end
+arch blocked
+x 3
 y 9
 end
 arch blocked
@@ -435,6 +465,14 @@ y 6
 end
 arch blocked
 x 4
+y 7
+end
+arch blocked
+x 4
+y 8
+end
+arch blocked
+x 4
 y 9
 end
 arch blocked
@@ -510,6 +548,14 @@ y 6
 end
 arch blocked
 x 5
+y 7
+end
+arch blocked
+x 5
+y 8
+end
+arch blocked
+x 5
 y 9
 end
 arch blocked
@@ -565,6 +611,14 @@ y 6
 end
 arch blocked
 x 6
+y 7
+end
+arch blocked
+x 6
+y 8
+end
+arch blocked
+x 6
 y 9
 end
 arch blocked
@@ -589,6 +643,132 @@ y 14
 end
 arch blocked
 x 6
+y 15
+end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
+arch blocked
+x 7
+y 3
+end
+arch blocked
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
+end
+arch blocked
+x 7
+y 6
+end
+arch blocked
+x 7
+y 7
+end
+arch blocked
+x 7
+y 8
+end
+arch blocked
+x 7
+y 9
+end
+arch blocked
+x 7
+y 10
+end
+arch blocked
+x 7
+y 11
+end
+arch blocked
+x 7
+y 12
+end
+arch blocked
+x 7
+y 13
+end
+arch blocked
+x 7
+y 14
+end
+arch blocked
+x 7
+y 15
+end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+x 8
+y 3
+end
+arch blocked
+x 8
+y 4
+end
+arch blocked
+x 8
+y 5
+end
+arch blocked
+x 8
+y 6
+end
+arch blocked
+x 8
+y 7
+end
+arch blocked
+x 8
+y 8
+end
+arch blocked
+x 8
+y 9
+end
+arch blocked
+x 8
+y 10
+end
+arch blocked
+x 8
+y 11
+end
+arch blocked
+x 8
+y 12
+end
+arch blocked
+x 8
+y 13
+end
+arch blocked
+x 8
+y 14
+end
+arch blocked
+x 8
 y 15
 end
 arch blocked
@@ -619,6 +799,42 @@ x 9
 y 6
 end
 arch blocked
+x 9
+y 7
+end
+arch blocked
+x 9
+y 8
+end
+arch blocked
+x 9
+y 9
+end
+arch blocked
+x 9
+y 10
+end
+arch blocked
+x 9
+y 11
+end
+arch blocked
+x 9
+y 12
+end
+arch blocked
+x 9
+y 13
+end
+arch blocked
+x 9
+y 14
+end
+arch blocked
+x 9
+y 15
+end
+arch blocked
 x 10
 end
 arch blocked
@@ -644,6 +860,42 @@ end
 arch blocked
 x 10
 y 6
+end
+arch blocked
+x 10
+y 7
+end
+arch blocked
+x 10
+y 8
+end
+arch blocked
+x 10
+y 9
+end
+arch blocked
+x 10
+y 10
+end
+arch blocked
+x 10
+y 11
+end
+arch blocked
+x 10
+y 12
+end
+arch blocked
+x 10
+y 13
+end
+arch blocked
+x 10
+y 14
+end
+arch blocked
+x 10
+y 15
 end
 arch woodfloor
 x 11
@@ -691,6 +943,42 @@ arch blocked
 x 11
 y 6
 end
+arch blocked
+x 11
+y 7
+end
+arch blocked
+x 11
+y 8
+end
+arch blocked
+x 11
+y 9
+end
+arch blocked
+x 11
+y 10
+end
+arch blocked
+x 11
+y 11
+end
+arch blocked
+x 11
+y 12
+end
+arch blocked
+x 11
+y 13
+end
+arch blocked
+x 11
+y 14
+end
+arch blocked
+x 11
+y 15
+end
 arch woodfloor
 x 12
 end
@@ -728,6 +1016,42 @@ end
 arch blocked
 x 12
 y 6
+end
+arch blocked
+x 12
+y 7
+end
+arch blocked
+x 12
+y 8
+end
+arch blocked
+x 12
+y 9
+end
+arch blocked
+x 12
+y 10
+end
+arch blocked
+x 12
+y 11
+end
+arch blocked
+x 12
+y 12
+end
+arch blocked
+x 12
+y 13
+end
+arch blocked
+x 12
+y 14
+end
+arch blocked
+x 12
+y 15
 end
 arch woodfloor
 x 13
@@ -781,6 +1105,42 @@ arch blocked
 x 13
 y 6
 end
+arch blocked
+x 13
+y 7
+end
+arch blocked
+x 13
+y 8
+end
+arch blocked
+x 13
+y 9
+end
+arch blocked
+x 13
+y 10
+end
+arch blocked
+x 13
+y 11
+end
+arch blocked
+x 13
+y 12
+end
+arch blocked
+x 13
+y 13
+end
+arch blocked
+x 13
+y 14
+end
+arch blocked
+x 13
+y 15
+end
 arch woodfloor
 x 14
 end
@@ -818,6 +1178,42 @@ end
 arch blocked
 x 14
 y 6
+end
+arch blocked
+x 14
+y 7
+end
+arch blocked
+x 14
+y 8
+end
+arch blocked
+x 14
+y 9
+end
+arch blocked
+x 14
+y 10
+end
+arch blocked
+x 14
+y 11
+end
+arch blocked
+x 14
+y 12
+end
+arch blocked
+x 14
+y 13
+end
+arch blocked
+x 14
+y 14
+end
+arch blocked
+x 14
+y 15
 end
 arch woodfloor
 x 15
@@ -864,4 +1260,40 @@ end
 arch blocked
 x 15
 y 6
+end
+arch blocked
+x 15
+y 7
+end
+arch blocked
+x 15
+y 8
+end
+arch blocked
+x 15
+y 9
+end
+arch blocked
+x 15
+y 10
+end
+arch blocked
+x 15
+y 11
+end
+arch blocked
+x 15
+y 12
+end
+arch blocked
+x 15
+y 13
+end
+arch blocked
+x 15
+y 14
+end
+arch blocked
+x 15
+y 15
 end
