@@ -8,7 +8,7 @@ enter_x 1
 enter_y 10
 msg
 Created: 1999-01-18 Raphaël Quinet (raphael@gimp.org)
-Modified: 2026-02-23 Rick Tanner
+Modified: 2026-02-25 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valriel
 end
@@ -82,14 +82,14 @@ end
 arch cwall_2_2_1
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 1
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 2
 end
@@ -97,15 +97,15 @@ arch statue
 x 1
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 5
 end
@@ -113,7 +113,7 @@ arch statue
 x 1
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 1
 y 6
 end
@@ -156,10 +156,10 @@ arch cwall_2_1_2
 x 1
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 2
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 1
 end
@@ -167,11 +167,11 @@ arch chair_1.3
 x 2
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 3
 end
@@ -179,11 +179,11 @@ arch chair_1.3
 x 2
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 5
 end
@@ -191,7 +191,7 @@ arch chair_1.3
 x 2
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 6
 end
@@ -227,10 +227,10 @@ arch cwall_2_1_2
 x 2
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 3
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 1
 end
@@ -238,11 +238,11 @@ arch chair_1.3
 x 3
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 3
 end
@@ -250,11 +250,11 @@ arch chair_1.3
 x 3
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 5
 end
@@ -262,7 +262,7 @@ arch chair_1.3
 x 3
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 6
 end
@@ -306,10 +306,10 @@ arch cwall_2_1_2
 x 3
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 4
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 1
 end
@@ -317,7 +317,7 @@ arch chair_1.3
 x 4
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 2
 end
@@ -325,7 +325,7 @@ arch cwall_0
 x 4
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 3
 end
@@ -333,11 +333,11 @@ arch chair_1.3
 x 4
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 5
 end
@@ -345,7 +345,7 @@ arch cwall_0
 x 4
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 6
 end
@@ -381,10 +381,10 @@ arch cwall_2_1_2
 x 4
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 5
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 1
 end
@@ -392,11 +392,11 @@ arch chair_1.3
 x 5
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 3
 end
@@ -404,11 +404,11 @@ arch chair_1.3
 x 5
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 5
 end
@@ -416,7 +416,7 @@ arch chair_1.3
 x 5
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 6
 end
@@ -452,30 +452,30 @@ arch cwall_2_1_2
 x 5
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 6
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 6
 end
@@ -518,10 +518,10 @@ arch cwall_2_1_2
 x 6
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 7
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 1
 end
@@ -529,11 +529,11 @@ arch chair_1.3
 x 7
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 3
 end
@@ -541,11 +541,11 @@ arch chair_1.3
 x 7
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 5
 end
@@ -553,7 +553,7 @@ arch chair_1.3
 x 7
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 6
 end
@@ -606,10 +606,10 @@ arch cwall_2_1_2
 x 7
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 8
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 1
 end
@@ -617,7 +617,7 @@ arch chair_1.3
 x 8
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 2
 end
@@ -625,7 +625,7 @@ arch cwall_0
 x 8
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 3
 end
@@ -633,11 +633,11 @@ arch chair_1.3
 x 8
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 5
 end
@@ -645,7 +645,7 @@ arch cwall_0
 x 8
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 6
 end
@@ -681,10 +681,10 @@ arch cwall_2_1_2
 x 8
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 9
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 1
 end
@@ -692,11 +692,11 @@ arch chair_1.3
 x 9
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 3
 end
@@ -704,11 +704,11 @@ arch chair_1.3
 x 9
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 5
 end
@@ -716,7 +716,7 @@ arch chair_1.3
 x 9
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 6
 end
@@ -760,10 +760,10 @@ arch cwall_2_1_2
 x 9
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 10
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 1
 end
@@ -771,11 +771,11 @@ arch chair_1.3
 x 10
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 3
 end
@@ -783,11 +783,11 @@ arch chair_1.3
 x 10
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 5
 end
@@ -795,7 +795,7 @@ arch chair_1.3
 x 10
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 6
 end
@@ -831,14 +831,14 @@ arch cwall_2_1_2
 x 10
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 11
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 2
 end
@@ -846,15 +846,15 @@ arch statue
 x 11
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 5
 end
@@ -862,7 +862,7 @@ arch statue
 x 11
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 6
 end
