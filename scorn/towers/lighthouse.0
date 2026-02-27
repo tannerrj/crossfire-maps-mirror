@@ -8,7 +8,7 @@ enter_x 7
 enter_y 13
 msg
 Created:  1993-10-15
-Modified: 2022-07-29 Rick Tanner
+Modified: 2026-02-27 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_lighthouse
@@ -174,7 +174,7 @@ arch grass
 x 1
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 2
 end
 arch awall_2_2_2
@@ -183,7 +183,7 @@ end
 arch swall_1_3_half
 x 2
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 1
 end
@@ -191,7 +191,7 @@ arch awall_2_1_1
 x 2
 y 1
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 2
 end
@@ -199,7 +199,7 @@ arch awall_2_1_1
 x 2
 y 2
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 3
 end
@@ -207,7 +207,7 @@ arch awall_2_1_1
 x 2
 y 3
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 4
 end
@@ -215,7 +215,7 @@ arch awall_2_1_1
 x 2
 y 4
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 5
 end
@@ -223,7 +223,7 @@ arch awall_2_1_1
 x 2
 y 5
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 6
 end
@@ -231,7 +231,7 @@ arch awall_2_1_1
 x 2
 y 6
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 7
 end
@@ -239,7 +239,7 @@ arch awall_2_1_1
 x 2
 y 7
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 8
 end
@@ -247,7 +247,7 @@ arch awall_2_1_1
 x 2
 y 8
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 9
 end
@@ -255,7 +255,7 @@ arch awall_2_1_1
 x 2
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 2
 y 10
 end
@@ -287,7 +287,7 @@ arch grass
 x 2
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 3
 end
 arch awall_2_1_2
@@ -368,7 +368,7 @@ sp 13
 x 3
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 3
 y 10
 end
@@ -400,7 +400,7 @@ arch grass
 x 3
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 4
 end
 arch awall_2_1_2
@@ -477,7 +477,7 @@ sp 14
 x 4
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 4
 y 10
 end
@@ -509,7 +509,7 @@ arch grass
 x 4
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 5
 end
 arch awall_2_1_2
@@ -583,7 +583,7 @@ arch awall_3_2
 x 5
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 5
 y 10
 end
@@ -615,7 +615,7 @@ arch grass
 x 5
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 6
 end
 arch awall_2_1_2
@@ -693,7 +693,7 @@ arch awall_3_4
 x 6
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 6
 y 10
 end
@@ -729,7 +729,7 @@ arch grass
 x 6
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 7
 end
 arch awall_2_1_2
@@ -779,7 +779,7 @@ arch stonefloor2
 x 7
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 7
 y 10
 end
@@ -815,7 +815,7 @@ arch grass
 x 7
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 8
 end
 arch awall_2_1_2
@@ -865,7 +865,7 @@ arch stonefloor2
 x 8
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 8
 y 10
 end
@@ -901,7 +901,7 @@ arch grass
 x 8
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 9
 end
 arch awall_2_1_2
@@ -963,7 +963,7 @@ arch stonefloor2
 x 9
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 9
 y 10
 end
@@ -995,7 +995,7 @@ arch grass
 x 9
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 10
 end
 arch awall_2_1_2
@@ -1073,7 +1073,7 @@ arch stonefloor2
 x 10
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 10
 y 10
 end
@@ -1105,7 +1105,7 @@ arch grass
 x 10
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 11
 end
 arch awall_2_1_2
@@ -1183,7 +1183,7 @@ arch stonefloor2
 x 11
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 11
 y 10
 end
@@ -1215,7 +1215,7 @@ arch grass
 x 11
 y 15
 end
-arch stonefloor2
+arch flagstone
 x 12
 end
 arch swall_1_4_half
@@ -1224,7 +1224,7 @@ end
 arch awall_2_2_3
 x 12
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 1
 end
@@ -1232,7 +1232,7 @@ arch awall_2_1_1
 x 12
 y 1
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 2
 end
@@ -1240,7 +1240,7 @@ arch awall_2_1_1
 x 12
 y 2
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 3
 end
@@ -1248,7 +1248,7 @@ arch awall_3_4
 x 12
 y 3
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 4
 end
@@ -1256,7 +1256,7 @@ arch awall_2_1_1
 x 12
 y 4
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 5
 end
@@ -1264,7 +1264,7 @@ arch awall_2_1_1
 x 12
 y 5
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 6
 end
@@ -1272,7 +1272,7 @@ arch awall_2_1_1
 x 12
 y 6
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 7
 end
@@ -1280,7 +1280,7 @@ arch awall_3_4
 x 12
 y 7
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 8
 end
@@ -1288,7 +1288,7 @@ arch awall_2_1_1
 x 12
 y 8
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 9
 end
@@ -1296,7 +1296,7 @@ arch awall_2_1_1
 x 12
 y 9
 end
-arch stonefloor2
+arch flagstone
 x 12
 y 10
 end
