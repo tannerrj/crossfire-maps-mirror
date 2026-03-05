@@ -8,7 +8,7 @@ enter_x 14
 enter_y 30
 msg
 Created:  1994-12-26 bt (thomas@nomad.astro.psu.edu)
-Modified: 2022-08-03 Rick Tanner
+Modified: 2026-03-05 Rick Tanner
 endmsg
 reset_group sisters_large-compound
 end
@@ -1599,7 +1599,7 @@ arch pstone_1
 x 9
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 9
 end
@@ -1607,7 +1607,7 @@ arch wwall_2_2_2
 x 9
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 10
 end
@@ -1615,7 +1615,7 @@ arch wwall_2_1_1
 x 9
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 11
 end
@@ -1623,7 +1623,7 @@ arch wwall_2_1_1
 x 9
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 12
 end
@@ -1631,7 +1631,7 @@ arch wwall_3_2
 x 9
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 13
 end
@@ -1639,7 +1639,7 @@ arch wwall_2_1_1
 x 9
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 9
 y 14
 end
@@ -1767,7 +1767,7 @@ arch pstone_1
 x 10
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 8
 end
@@ -1775,7 +1775,7 @@ arch wwall_2_2_2
 x 10
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 9
 end
@@ -1805,7 +1805,7 @@ sp 7
 x 10
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 12
 end
@@ -1813,7 +1813,7 @@ arch wwall_2_1_2
 x 10
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 13
 end
@@ -1822,7 +1822,7 @@ hp 3
 x 10
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 14
 end
@@ -1830,7 +1830,7 @@ arch wwall_3_3
 x 10
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 10
 y 15
 end
@@ -1966,7 +1966,7 @@ arch pstone_1
 x 11
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 6
 end
@@ -1974,7 +1974,7 @@ arch wwall_2_2_2
 x 11
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 7
 end
@@ -1982,7 +1982,7 @@ arch wwall_2_1_1
 x 11
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 8
 end
@@ -1990,7 +1990,7 @@ arch wwall_3_4
 x 11
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 9
 end
@@ -2014,7 +2014,7 @@ arch door_look_2
 x 11
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 12
 end
@@ -2022,7 +2022,7 @@ arch wwall_3_3
 x 11
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 13
 end
@@ -2031,7 +2031,7 @@ x 11
 y 13
 move_block 0
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 14
 end
@@ -2039,7 +2039,7 @@ arch wwall_3_4
 x 11
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 15
 end
@@ -2047,7 +2047,7 @@ arch wwall_4
 x 11
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 16
 end
@@ -2055,7 +2055,7 @@ arch wwall_2_1_1
 x 11
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 17
 end
@@ -2063,7 +2063,7 @@ arch wwall_2_1_1
 x 11
 y 17
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 18
 end
@@ -2071,7 +2071,7 @@ arch wwall_2_1_1
 x 11
 y 18
 end
-arch woodfloor
+arch dungeon_floor
 x 11
 y 19
 end
@@ -2154,7 +2154,7 @@ arch generate_giant
 x 12
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 4
 end
@@ -2162,7 +2162,7 @@ arch wwall_2_2_2
 x 12
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 5
 end
@@ -2170,7 +2170,7 @@ arch wwall_2_1_1
 x 12
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 6
 end
@@ -2210,7 +2210,7 @@ arch woodfloor
 x 12
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 12
 end
@@ -2264,7 +2264,7 @@ x 12
 y 18
 connected 2
 end
-arch woodfloor
+arch dungeon_floor
 x 12
 y 19
 end
@@ -2351,7 +2351,7 @@ arch pstone_1
 x 13
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 4
 end
@@ -2444,7 +2444,7 @@ x 13
 y 18
 connected 5
 end
-arch woodfloor
+arch dungeon_floor
 x 13
 y 19
 end
@@ -2541,7 +2541,7 @@ arch pstone_1
 x 14
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 14
 y 4
 end
@@ -2631,7 +2631,7 @@ x 14
 y 18
 connected 4
 end
-arch woodfloor
+arch dungeon_floor
 x 14
 y 19
 end
@@ -2725,7 +2725,7 @@ arch pstone_1
 x 15
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 4
 end
@@ -2765,7 +2765,7 @@ arch woodfloor
 x 15
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 12
 end
@@ -2773,7 +2773,7 @@ arch wwall_1_1
 x 15
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 13
 end
@@ -2781,7 +2781,7 @@ arch wwall_2_1_1
 x 15
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 14
 end
@@ -2789,7 +2789,7 @@ arch wwall_2_1_1
 x 15
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 15
 end
@@ -2797,7 +2797,7 @@ arch wwall_2_1_1
 x 15
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 16
 end
@@ -2805,7 +2805,7 @@ arch wwall_2_1_1
 x 15
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 17
 end
@@ -2813,7 +2813,7 @@ arch wwall_2_1_1
 x 15
 y 17
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 18
 end
@@ -2821,7 +2821,7 @@ arch wwall_2_1_1
 x 15
 y 18
 end
-arch woodfloor
+arch dungeon_floor
 x 15
 y 19
 end
@@ -2911,7 +2911,7 @@ arch generate_ogre
 x 16
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 16
 y 4
 end
@@ -3132,7 +3132,7 @@ arch generate_ogre
 x 17
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 17
 y 4
 end
@@ -3340,7 +3340,7 @@ arch pstone_1
 x 18
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 4
 end
@@ -3380,7 +3380,7 @@ arch woodfloor
 x 18
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 12
 end
@@ -3388,7 +3388,7 @@ arch wwall_2_2_2
 x 18
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 13
 end
@@ -3396,7 +3396,7 @@ arch wwall_2_1_1
 x 18
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 14
 end
@@ -3404,7 +3404,7 @@ arch wwall_2_1_1
 x 18
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 15
 end
@@ -3412,7 +3412,7 @@ arch wwall_2_1_1
 x 18
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 16
 end
@@ -3420,7 +3420,7 @@ arch wwall_2_1_1
 x 18
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 17
 end
@@ -3428,7 +3428,7 @@ arch wwall_2_1_1
 x 18
 y 17
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 18
 end
@@ -3436,7 +3436,7 @@ arch wwall_2_1_1
 x 18
 y 18
 end
-arch woodfloor
+arch dungeon_floor
 x 18
 y 19
 end
@@ -3524,7 +3524,7 @@ arch pstone_1
 x 19
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 19
 y 4
 end
@@ -3564,7 +3564,7 @@ arch woodfloor
 x 19
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 19
 y 12
 end
@@ -3634,7 +3634,7 @@ name cooking pit
 x 19
 y 18
 end
-arch woodfloor
+arch dungeon_floor
 x 19
 y 19
 end
@@ -3721,7 +3721,7 @@ arch pstone_1
 x 20
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 20
 y 4
 end
@@ -3816,7 +3816,7 @@ x 20
 y 18
 nrof 30
 end
-arch woodfloor
+arch dungeon_floor
 x 20
 y 19
 end
@@ -3908,7 +3908,7 @@ arch generate_giant
 x 21
 y 3
 end
-arch woodfloor
+arch dungeon_floor
 x 21
 y 4
 end
@@ -3916,7 +3916,7 @@ arch wwall_2_2_3
 x 21
 y 4
 end
-arch woodfloor
+arch dungeon_floor
 x 21
 y 5
 end
@@ -3924,7 +3924,7 @@ arch wwall_2_1_1
 x 21
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 21
 y 6
 end
@@ -4060,7 +4060,7 @@ x 21
 y 18
 nrof 20
 end
-arch woodfloor
+arch dungeon_floor
 x 21
 y 19
 end
@@ -4166,7 +4166,7 @@ arch pstone_1
 x 22
 y 5
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 6
 end
@@ -4174,7 +4174,7 @@ arch wwall_2_2_3
 x 22
 y 6
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 7
 end
@@ -4182,7 +4182,7 @@ arch wwall_2_1_1
 x 22
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 8
 end
@@ -4190,7 +4190,7 @@ arch wwall_3_2
 x 22
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 9
 end
@@ -4228,7 +4228,7 @@ arch dungeon_magic
 x 22
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 12
 end
@@ -4236,7 +4236,7 @@ arch wwall_1_1
 x 22
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 13
 end
@@ -4244,7 +4244,7 @@ arch wwall_2_1_1
 x 22
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 14
 end
@@ -4252,7 +4252,7 @@ arch wwall_3_2
 x 22
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 15
 end
@@ -4260,7 +4260,7 @@ arch wwall_3_2
 x 22
 y 15
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 16
 end
@@ -4268,7 +4268,7 @@ arch wwall_2_1_1
 x 22
 y 16
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 17
 end
@@ -4276,7 +4276,7 @@ arch wwall_2_1_1
 x 22
 y 17
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 18
 end
@@ -4284,7 +4284,7 @@ arch wwall_2_1_1
 x 22
 y 18
 end
-arch woodfloor
+arch dungeon_floor
 x 22
 y 19
 end
@@ -4379,7 +4379,7 @@ arch pstone_1
 x 23
 y 7
 end
-arch woodfloor
+arch dungeon_floor
 x 23
 y 8
 end
@@ -4387,7 +4387,7 @@ arch wwall_2_2_3
 x 23
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 23
 y 9
 end
@@ -4441,7 +4441,7 @@ hp 5
 x 23
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 23
 y 14
 end
@@ -4449,7 +4449,7 @@ arch wwall_3_3
 x 23
 y 14
 end
-arch woodfloor
+arch dungeon_floor
 x 23
 y 15
 end
@@ -4588,7 +4588,7 @@ arch pstone_1
 x 24
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 24
 y 9
 end
@@ -4622,7 +4622,7 @@ hp 5
 x 24
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 24
 y 14
 end
@@ -4771,7 +4771,7 @@ arch pstone_1
 x 25
 y 8
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 9
 end
@@ -4779,7 +4779,7 @@ arch wwall_2_2_3
 x 25
 y 9
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 10
 end
@@ -4787,7 +4787,7 @@ arch wwall_2_1_1
 x 25
 y 10
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 11
 end
@@ -4795,7 +4795,7 @@ arch wwall_2_1_1
 x 25
 y 11
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 12
 end
@@ -4803,7 +4803,7 @@ arch wwall_2_1_1
 x 25
 y 12
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 13
 end
@@ -4811,7 +4811,7 @@ arch wwall_2_1_1
 x 25
 y 13
 end
-arch woodfloor
+arch dungeon_floor
 x 25
 y 14
 end
