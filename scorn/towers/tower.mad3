@@ -7,7 +7,7 @@ height 15
 enter_x 11
 enter_y 7
 msg
-Modified: 2026-03-02 Rick Tanner
+Modified: 2026-03-05 Rick Tanner
 endmsg
 reset_group scorn_mad-mages-tower
 end
@@ -1151,8 +1151,8 @@ y 7
 end
 arch stair_down_4
 slaying tower.mad2
-hp 7
-sp 4
+hp 12
+sp 7
 x 11
 y 7
 end

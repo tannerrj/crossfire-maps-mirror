@@ -7,7 +7,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  2010-06-06 Nicolas Weeger
-Modified: 2026-02-28 Rick Tanner
+Modified: 2026-03-05 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_mad-mages-tower
@@ -699,7 +699,7 @@ end
 arch stair_up_1
 slaying tower.mad1
 hp 7
-sp 4
+sp 3
 x 7
 y 3
 arch quest_apply_if
@@ -792,7 +792,7 @@ end
 arch stair_up_1
 slaying tower.mad1
 hp 8
-sp 4
+sp 3
 x 8
 y 3
 arch quest_apply_if
