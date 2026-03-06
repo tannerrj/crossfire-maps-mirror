@@ -9,9 +9,23 @@ enter_x 7
 enter_y 14
 msg
 Created: 1994-12-29 bt (thomas@Nomad.astro.psu.edu)
-Modified: 2023-12-02 Rick Tanner
+Modified: 2026-03-06 Rick Tanner
 endmsg
 reset_group sisters_necropolis-of-gax
+end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
 end
 arch blocked
 y 5
@@ -38,6 +52,45 @@ arch blocked
 y 12
 end
 arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+y 18
+end
+arch blocked
+y 19
+end
+arch blocked
+y 20
+end
+arch blocked
+y 21
+end
+arch blocked
+y 22
+end
+arch blocked
+y 23
+end
+arch blocked
+y 24
+end
+arch blocked
+y 25
+end
+arch blocked
 y 26
 end
 arch blocked
@@ -60,6 +113,12 @@ y 32
 end
 arch blocked
 y 33
+end
+arch blocked
+y 34
+end
+arch blocked
+y 35
 end
 arch blocked
 x 1
@@ -171,6 +230,22 @@ end
 arch blocked
 x 1
 y 21
+end
+arch blocked
+x 1
+y 22
+end
+arch blocked
+x 1
+y 23
+end
+arch blocked
+x 1
+y 24
+end
+arch blocked
+x 1
+y 25
 end
 arch blocked
 x 1
@@ -396,6 +471,18 @@ y 22
 end
 arch blocked
 x 2
+y 23
+end
+arch blocked
+x 2
+y 24
+end
+arch blocked
+x 2
+y 25
+end
+arch blocked
+x 2
 y 26
 end
 arch dungeon_floor
@@ -613,6 +700,18 @@ end
 arch blocked
 x 3
 y 22
+end
+arch blocked
+x 3
+y 23
+end
+arch blocked
+x 3
+y 24
+end
+arch blocked
+x 3
+y 25
 end
 arch blocked
 x 3
@@ -1108,6 +1207,10 @@ y 28
 end
 arch blocked
 x 5
+y 29
+end
+arch blocked
+x 5
 y 30
 end
 arch dungeon_floor
@@ -1340,6 +1443,10 @@ y 28
 end
 arch blocked
 x 6
+y 29
+end
+arch blocked
+x 6
 y 30
 end
 arch blocked
@@ -1373,6 +1480,9 @@ end
 arch blocked
 x 6
 y 35
+end
+arch blocked
+x 7
 end
 arch blocked
 x 7
@@ -1571,6 +1681,14 @@ arch blocked
 x 7
 y 28
 end
+arch blocked
+x 7
+y 29
+end
+arch blocked
+x 7
+y 30
+end
 arch dungeon_floor
 x 7
 y 31
@@ -1607,6 +1725,9 @@ end
 arch blocked
 x 7
 y 35
+end
+arch blocked
+x 8
 end
 arch blocked
 x 8
@@ -1796,6 +1917,14 @@ arch blocked
 x 8
 y 28
 end
+arch blocked
+x 8
+y 29
+end
+arch blocked
+x 8
+y 30
+end
 arch dungeon_floor
 x 8
 y 31
@@ -1823,6 +1952,9 @@ end
 arch blocked
 x 8
 y 35
+end
+arch blocked
+x 9
 end
 arch blocked
 x 9
@@ -1988,6 +2120,14 @@ arch blocked
 x 9
 y 28
 end
+arch blocked
+x 9
+y 29
+end
+arch blocked
+x 9
+y 30
+end
 arch dungeon_floor
 x 9
 y 31
@@ -2019,6 +2159,9 @@ end
 arch blocked
 x 9
 y 35
+end
+arch blocked
+x 10
 end
 arch blocked
 x 10
@@ -2216,6 +2359,18 @@ arch blocked
 x 10
 y 27
 end
+arch blocked
+x 10
+y 28
+end
+arch blocked
+x 10
+y 29
+end
+arch blocked
+x 10
+y 30
+end
 arch dungeon_floor
 x 10
 y 31
@@ -2256,6 +2411,9 @@ end
 arch blocked
 x 10
 y 35
+end
+arch blocked
+x 11
 end
 arch blocked
 x 11
@@ -2462,6 +2620,9 @@ end
 arch blocked
 x 11
 y 35
+end
+arch blocked
+x 12
 end
 arch blocked
 x 12
@@ -2699,6 +2860,9 @@ y 35
 end
 arch blocked
 x 13
+end
+arch blocked
+x 13
 y 1
 end
 arch dungeon_floor
@@ -2915,6 +3079,9 @@ end
 arch blocked
 x 13
 y 35
+end
+arch blocked
+x 14
 end
 arch blocked
 x 14
@@ -3175,6 +3342,9 @@ y 35
 end
 arch blocked
 x 15
+end
+arch blocked
+x 15
 y 1
 end
 arch dungeon_floor
@@ -3387,6 +3557,9 @@ y 35
 end
 arch blocked
 x 16
+end
+arch blocked
+x 16
 y 1
 end
 arch dungeon_floor
@@ -3420,6 +3593,14 @@ end
 arch blocked
 x 16
 y 7
+end
+arch blocked
+x 16
+y 8
+end
+arch blocked
+x 16
+y 9
 end
 arch blocked
 x 16
@@ -3590,6 +3771,9 @@ y 35
 end
 arch blocked
 x 17
+end
+arch blocked
+x 17
 y 1
 end
 arch dungeon_floor
@@ -3635,6 +3819,10 @@ end
 arch blocked
 x 17
 y 8
+end
+arch blocked
+x 17
+y 9
 end
 arch blocked
 x 17
@@ -3796,6 +3984,9 @@ y 35
 end
 arch blocked
 x 18
+end
+arch blocked
+x 18
 y 1
 end
 arch blocked
@@ -3837,6 +4028,14 @@ end
 arch blocked
 x 18
 y 8
+end
+arch blocked
+x 18
+y 9
+end
+arch blocked
+x 18
+y 10
 end
 arch blocked
 x 18
@@ -3980,6 +4179,25 @@ x 18
 y 32
 end
 arch blocked
+x 18
+y 33
+end
+arch blocked
+x 18
+y 34
+end
+arch blocked
+x 18
+y 35
+end
+arch blocked
+x 19
+end
+arch blocked
+x 19
+y 1
+end
+arch blocked
 x 19
 y 2
 end
@@ -4022,6 +4240,14 @@ end
 arch blocked
 x 19
 y 8
+end
+arch blocked
+x 19
+y 9
+end
+arch blocked
+x 19
+y 10
 end
 arch blocked
 x 19
@@ -4160,6 +4386,25 @@ x 19
 y 32
 end
 arch blocked
+x 19
+y 33
+end
+arch blocked
+x 19
+y 34
+end
+arch blocked
+x 19
+y 35
+end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
 x 20
 y 2
 end
@@ -4198,6 +4443,14 @@ end
 arch blocked
 x 20
 y 8
+end
+arch blocked
+x 20
+y 9
+end
+arch blocked
+x 20
+y 10
 end
 arch blocked
 x 20
@@ -4332,6 +4585,25 @@ x 20
 y 32
 end
 arch blocked
+x 20
+y 33
+end
+arch blocked
+x 20
+y 34
+end
+arch blocked
+x 20
+y 35
+end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
 x 21
 y 2
 end
@@ -4378,6 +4650,14 @@ end
 arch blocked
 x 21
 y 8
+end
+arch blocked
+x 21
+y 9
+end
+arch blocked
+x 21
+y 10
 end
 arch blocked
 x 21
@@ -4530,6 +4810,25 @@ x 21
 y 32
 end
 arch blocked
+x 21
+y 33
+end
+arch blocked
+x 21
+y 34
+end
+arch blocked
+x 21
+y 35
+end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
 x 22
 y 2
 end
@@ -4572,6 +4871,14 @@ end
 arch blocked
 x 22
 y 8
+end
+arch blocked
+x 22
+y 9
+end
+arch blocked
+x 22
+y 10
 end
 arch blocked
 x 22
@@ -4698,6 +5005,25 @@ x 22
 y 32
 end
 arch blocked
+x 22
+y 33
+end
+arch blocked
+x 22
+y 34
+end
+arch blocked
+x 22
+y 35
+end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
+arch blocked
 x 23
 y 2
 end
@@ -4732,6 +5058,22 @@ end
 arch blocked
 x 23
 y 7
+end
+arch blocked
+x 23
+y 8
+end
+arch blocked
+x 23
+y 9
+end
+arch blocked
+x 23
+y 10
+end
+arch blocked
+x 23
+y 11
 end
 arch blocked
 x 23
@@ -4882,6 +5224,29 @@ x 23
 y 32
 end
 arch blocked
+x 23
+y 33
+end
+arch blocked
+x 23
+y 34
+end
+arch blocked
+x 23
+y 35
+end
+arch blocked
+x 24
+end
+arch blocked
+x 24
+y 1
+end
+arch blocked
+x 24
+y 2
+end
+arch blocked
 x 24
 y 3
 end
@@ -4912,6 +5277,22 @@ end
 arch blocked
 x 24
 y 7
+end
+arch blocked
+x 24
+y 8
+end
+arch blocked
+x 24
+y 9
+end
+arch blocked
+x 24
+y 10
+end
+arch blocked
+x 24
+y 11
 end
 arch blocked
 x 24
@@ -5028,6 +5409,25 @@ x 24
 y 33
 end
 arch blocked
+x 24
+y 34
+end
+arch blocked
+x 24
+y 35
+end
+arch blocked
+x 25
+end
+arch blocked
+x 25
+y 1
+end
+arch blocked
+x 25
+y 2
+end
+arch blocked
 x 25
 y 3
 end
@@ -5046,6 +5446,22 @@ end
 arch blocked
 x 25
 y 7
+end
+arch blocked
+x 25
+y 8
+end
+arch blocked
+x 25
+y 9
+end
+arch blocked
+x 25
+y 10
+end
+arch blocked
+x 25
+y 11
 end
 arch blocked
 x 25
@@ -5087,6 +5503,46 @@ end
 arch blocked
 x 25
 y 17
+end
+arch blocked
+x 25
+y 18
+end
+arch blocked
+x 25
+y 19
+end
+arch blocked
+x 25
+y 20
+end
+arch blocked
+x 25
+y 21
+end
+arch blocked
+x 25
+y 22
+end
+arch blocked
+x 25
+y 23
+end
+arch blocked
+x 25
+y 24
+end
+arch blocked
+x 25
+y 25
+end
+arch blocked
+x 25
+y 26
+end
+arch blocked
+x 25
+y 27
 end
 arch blocked
 x 25
@@ -5133,6 +5589,25 @@ x 25
 y 34
 end
 arch blocked
+x 25
+y 35
+end
+arch blocked
+x 26
+end
+arch blocked
+x 26
+y 1
+end
+arch blocked
+x 26
+y 2
+end
+arch blocked
+x 26
+y 3
+end
+arch blocked
 x 26
 y 4
 end
@@ -5151,6 +5626,18 @@ end
 arch blocked
 x 26
 y 8
+end
+arch blocked
+x 26
+y 9
+end
+arch blocked
+x 26
+y 10
+end
+arch blocked
+x 26
+y 11
 end
 arch blocked
 x 26
@@ -5190,6 +5677,14 @@ y 17
 end
 arch blocked
 x 26
+y 18
+end
+arch blocked
+x 26
+y 19
+end
+arch blocked
+x 26
 y 20
 end
 arch blocked
@@ -5215,6 +5710,10 @@ end
 arch blocked
 x 26
 y 26
+end
+arch blocked
+x 26
+y 27
 end
 arch blocked
 x 26
@@ -5266,6 +5765,17 @@ end
 arch blocked
 x 26
 y 34
+end
+arch blocked
+x 26
+y 35
+end
+arch blocked
+x 27
+end
+arch blocked
+x 27
+y 1
 end
 arch blocked
 x 27
@@ -5401,6 +5911,10 @@ y 26
 end
 arch blocked
 x 27
+y 27
+end
+arch blocked
+x 27
 y 28
 end
 arch dungeon_floor
@@ -5434,6 +5948,17 @@ end
 arch blocked
 x 27
 y 34
+end
+arch blocked
+x 27
+y 35
+end
+arch blocked
+x 28
+end
+arch blocked
+x 28
+y 1
 end
 arch blocked
 x 28
@@ -5597,6 +6122,10 @@ y 26
 end
 arch blocked
 x 28
+y 27
+end
+arch blocked
+x 28
 y 28
 end
 arch cobblestones2
@@ -5643,6 +6172,13 @@ end
 arch blocked
 x 28
 y 34
+end
+arch blocked
+x 28
+y 35
+end
+arch blocked
+x 29
 end
 arch blocked
 x 29
@@ -5861,6 +6397,13 @@ x 29
 y 34
 end
 arch blocked
+x 29
+y 35
+end
+arch blocked
+x 30
+end
+arch blocked
 x 30
 y 1
 end
@@ -6030,6 +6573,14 @@ y 27
 end
 arch blocked
 x 30
+y 28
+end
+arch blocked
+x 30
+y 29
+end
+arch blocked
+x 30
 y 30
 end
 arch dungeon_floor
@@ -6059,6 +6610,13 @@ end
 arch blocked
 x 30
 y 34
+end
+arch blocked
+x 30
+y 35
+end
+arch blocked
+x 31
 end
 arch blocked
 x 31
@@ -6225,6 +6783,10 @@ y 28
 end
 arch blocked
 x 31
+y 29
+end
+arch blocked
+x 31
 y 30
 end
 arch blocked
@@ -6242,6 +6804,13 @@ end
 arch blocked
 x 31
 y 34
+end
+arch blocked
+x 31
+y 35
+end
+arch blocked
+x 32
 end
 arch blocked
 x 32
@@ -6424,6 +6993,37 @@ end
 arch blocked
 x 32
 y 28
+end
+arch blocked
+x 32
+y 29
+end
+arch blocked
+x 32
+y 30
+end
+arch blocked
+x 32
+y 31
+end
+arch blocked
+x 32
+y 32
+end
+arch blocked
+x 32
+y 33
+end
+arch blocked
+x 32
+y 34
+end
+arch blocked
+x 32
+y 35
+end
+arch blocked
+x 33
 end
 arch blocked
 x 33
@@ -6617,6 +7217,49 @@ x 33
 y 28
 end
 arch blocked
+x 33
+y 29
+end
+arch blocked
+x 33
+y 30
+end
+arch blocked
+x 33
+y 31
+end
+arch blocked
+x 33
+y 32
+end
+arch blocked
+x 33
+y 33
+end
+arch blocked
+x 33
+y 34
+end
+arch blocked
+x 33
+y 35
+end
+arch blocked
+x 34
+end
+arch blocked
+x 34
+y 1
+end
+arch blocked
+x 34
+y 2
+end
+arch blocked
+x 34
+y 3
+end
+arch blocked
 x 34
 y 4
 end
@@ -6773,6 +7416,57 @@ x 34
 y 28
 end
 arch blocked
+x 34
+y 29
+end
+arch blocked
+x 34
+y 30
+end
+arch blocked
+x 34
+y 31
+end
+arch blocked
+x 34
+y 32
+end
+arch blocked
+x 34
+y 33
+end
+arch blocked
+x 34
+y 34
+end
+arch blocked
+x 34
+y 35
+end
+arch blocked
+x 35
+end
+arch blocked
+x 35
+y 1
+end
+arch blocked
+x 35
+y 2
+end
+arch blocked
+x 35
+y 3
+end
+arch blocked
+x 35
+y 4
+end
+arch blocked
+x 35
+y 5
+end
+arch blocked
 x 35
 y 6
 end
@@ -6791,6 +7485,14 @@ end
 arch blocked
 x 35
 y 10
+end
+arch blocked
+x 35
+y 11
+end
+arch blocked
+x 35
+y 12
 end
 arch blocked
 x 35
@@ -6855,4 +7557,32 @@ end
 arch blocked
 x 35
 y 28
+end
+arch blocked
+x 35
+y 29
+end
+arch blocked
+x 35
+y 30
+end
+arch blocked
+x 35
+y 31
+end
+arch blocked
+x 35
+y 32
+end
+arch blocked
+x 35
+y 33
+end
+arch blocked
+x 35
+y 34
+end
+arch blocked
+x 35
+y 35
 end
