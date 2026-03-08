@@ -9,9 +9,102 @@ enter_x 6
 enter_y 5
 msg
 Created:  1995-02-02
-Modified: 2022-08-03 Rick Tanner
+Modified: 2026-03-06 Rick Tanner
 endmsg
 reset_group sisters_necropolis-of-gax
+end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch blocked
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
+arch blocked
+y 9
+end
+arch blocked
+y 10
+end
+arch blocked
+y 11
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch blocked
+x 1
+y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
 end
 arch blocked
 x 2
@@ -40,6 +133,14 @@ end
 arch blocked
 x 2
 y 9
+end
+arch blocked
+x 2
+y 10
+end
+arch blocked
+x 2
+y 11
 end
 arch blocked
 x 3
@@ -645,6 +746,21 @@ x 10
 y 10
 end
 arch blocked
+x 10
+y 11
+end
+arch blocked
+x 11
+end
+arch blocked
+x 11
+y 1
+end
+arch blocked
+x 11
+y 2
+end
+arch blocked
 x 11
 y 3
 end
@@ -689,6 +805,25 @@ x 11
 y 9
 end
 arch blocked
+x 11
+y 10
+end
+arch blocked
+x 11
+y 11
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
+end
+arch blocked
+x 12
+y 2
+end
+arch blocked
 x 12
 y 3
 end
@@ -711,4 +846,16 @@ end
 arch blocked
 x 12
 y 8
+end
+arch blocked
+x 12
+y 9
+end
+arch blocked
+x 12
+y 10
+end
+arch blocked
+x 12
+y 11
 end
