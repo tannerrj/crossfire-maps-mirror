@@ -9,9 +9,68 @@ enter_x 17
 enter_y 33
 msg
 Created:  1994-12-20 bt (thomas@Nomad.astro.psu.edu)
-Modified: 2022-08-03 Rick Tanner
+Modified: 2026-03-06 Rick Tanner
 endmsg
 reset_group sisters_evil-shrine
+end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch blocked
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
+arch blocked
+y 9
+end
+arch blocked
+y 10
+end
+arch blocked
+y 11
+end
+arch blocked
+y 12
+end
+arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+y 18
+end
+arch blocked
+y 19
 end
 arch blocked
 y 20
@@ -50,6 +109,166 @@ arch blocked
 y 27
 end
 arch blocked
+y 28
+end
+arch blocked
+y 29
+end
+arch blocked
+y 30
+end
+arch blocked
+y 31
+end
+arch blocked
+y 32
+end
+arch blocked
+y 33
+end
+arch blocked
+y 34
+end
+arch blocked
+y 35
+end
+arch blocked
+y 36
+end
+arch blocked
+y 37
+end
+arch blocked
+y 38
+end
+arch blocked
+y 39
+end
+arch blocked
+y 40
+end
+arch blocked
+y 41
+end
+arch blocked
+y 42
+end
+arch blocked
+y 43
+end
+arch blocked
+y 44
+end
+arch blocked
+y 45
+end
+arch blocked
+y 46
+end
+arch blocked
+y 47
+end
+arch blocked
+y 48
+end
+arch blocked
+y 49
+end
+arch blocked
+y 50
+end
+arch blocked
+y 51
+end
+arch blocked
+y 52
+end
+arch blocked
+y 53
+end
+arch blocked
+y 54
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch blocked
+x 1
+y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
+end
+arch blocked
+x 1
+y 10
+end
+arch blocked
+x 1
+y 11
+end
+arch blocked
+x 1
+y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
 x 1
 y 20
 end
@@ -98,6 +317,193 @@ end
 arch blocked
 x 1
 y 27
+end
+arch blocked
+x 1
+y 28
+end
+arch blocked
+x 1
+y 29
+end
+arch blocked
+x 1
+y 30
+end
+arch blocked
+x 1
+y 31
+end
+arch blocked
+x 1
+y 32
+end
+arch blocked
+x 1
+y 33
+end
+arch blocked
+x 1
+y 34
+end
+arch blocked
+x 1
+y 35
+end
+arch blocked
+x 1
+y 36
+end
+arch blocked
+x 1
+y 37
+end
+arch blocked
+x 1
+y 38
+end
+arch blocked
+x 1
+y 39
+end
+arch blocked
+x 1
+y 40
+end
+arch blocked
+x 1
+y 41
+end
+arch blocked
+x 1
+y 42
+end
+arch blocked
+x 1
+y 43
+end
+arch blocked
+x 1
+y 44
+end
+arch blocked
+x 1
+y 45
+end
+arch blocked
+x 1
+y 46
+end
+arch blocked
+x 1
+y 47
+end
+arch blocked
+x 1
+y 48
+end
+arch blocked
+x 1
+y 49
+end
+arch blocked
+x 1
+y 50
+end
+arch blocked
+x 1
+y 51
+end
+arch blocked
+x 1
+y 52
+end
+arch blocked
+x 1
+y 53
+end
+arch blocked
+x 1
+y 54
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch blocked
+x 2
+y 3
+end
+arch blocked
+x 2
+y 4
+end
+arch blocked
+x 2
+y 5
+end
+arch blocked
+x 2
+y 6
+end
+arch blocked
+x 2
+y 7
+end
+arch blocked
+x 2
+y 8
+end
+arch blocked
+x 2
+y 9
+end
+arch blocked
+x 2
+y 10
+end
+arch blocked
+x 2
+y 11
+end
+arch blocked
+x 2
+y 12
+end
+arch blocked
+x 2
+y 13
+end
+arch blocked
+x 2
+y 14
+end
+arch blocked
+x 2
+y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch blocked
+x 2
+y 18
+end
+arch blocked
+x 2
+y 19
 end
 arch blocked
 x 2
@@ -148,6 +554,193 @@ x 2
 y 27
 end
 arch blocked
+x 2
+y 28
+end
+arch blocked
+x 2
+y 29
+end
+arch blocked
+x 2
+y 30
+end
+arch blocked
+x 2
+y 31
+end
+arch blocked
+x 2
+y 32
+end
+arch blocked
+x 2
+y 33
+end
+arch blocked
+x 2
+y 34
+end
+arch blocked
+x 2
+y 35
+end
+arch blocked
+x 2
+y 36
+end
+arch blocked
+x 2
+y 37
+end
+arch blocked
+x 2
+y 38
+end
+arch blocked
+x 2
+y 39
+end
+arch blocked
+x 2
+y 40
+end
+arch blocked
+x 2
+y 41
+end
+arch blocked
+x 2
+y 42
+end
+arch blocked
+x 2
+y 43
+end
+arch blocked
+x 2
+y 44
+end
+arch blocked
+x 2
+y 45
+end
+arch blocked
+x 2
+y 46
+end
+arch blocked
+x 2
+y 47
+end
+arch blocked
+x 2
+y 48
+end
+arch blocked
+x 2
+y 49
+end
+arch blocked
+x 2
+y 50
+end
+arch blocked
+x 2
+y 51
+end
+arch blocked
+x 2
+y 52
+end
+arch blocked
+x 2
+y 53
+end
+arch blocked
+x 2
+y 54
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
+end
+arch blocked
+x 3
+y 2
+end
+arch blocked
+x 3
+y 3
+end
+arch blocked
+x 3
+y 4
+end
+arch blocked
+x 3
+y 5
+end
+arch blocked
+x 3
+y 6
+end
+arch blocked
+x 3
+y 7
+end
+arch blocked
+x 3
+y 8
+end
+arch blocked
+x 3
+y 9
+end
+arch blocked
+x 3
+y 10
+end
+arch blocked
+x 3
+y 11
+end
+arch blocked
+x 3
+y 12
+end
+arch blocked
+x 3
+y 13
+end
+arch blocked
+x 3
+y 14
+end
+arch blocked
+x 3
+y 15
+end
+arch blocked
+x 3
+y 16
+end
+arch blocked
+x 3
+y 17
+end
+arch blocked
+x 3
+y 18
+end
+arch blocked
+x 3
+y 19
+end
+arch blocked
 x 3
 y 20
 end
@@ -198,6 +791,193 @@ end
 arch blocked
 x 3
 y 27
+end
+arch blocked
+x 3
+y 28
+end
+arch blocked
+x 3
+y 29
+end
+arch blocked
+x 3
+y 30
+end
+arch blocked
+x 3
+y 31
+end
+arch blocked
+x 3
+y 32
+end
+arch blocked
+x 3
+y 33
+end
+arch blocked
+x 3
+y 34
+end
+arch blocked
+x 3
+y 35
+end
+arch blocked
+x 3
+y 36
+end
+arch blocked
+x 3
+y 37
+end
+arch blocked
+x 3
+y 38
+end
+arch blocked
+x 3
+y 39
+end
+arch blocked
+x 3
+y 40
+end
+arch blocked
+x 3
+y 41
+end
+arch blocked
+x 3
+y 42
+end
+arch blocked
+x 3
+y 43
+end
+arch blocked
+x 3
+y 44
+end
+arch blocked
+x 3
+y 45
+end
+arch blocked
+x 3
+y 46
+end
+arch blocked
+x 3
+y 47
+end
+arch blocked
+x 3
+y 48
+end
+arch blocked
+x 3
+y 49
+end
+arch blocked
+x 3
+y 50
+end
+arch blocked
+x 3
+y 51
+end
+arch blocked
+x 3
+y 52
+end
+arch blocked
+x 3
+y 53
+end
+arch blocked
+x 3
+y 54
+end
+arch blocked
+x 4
+end
+arch blocked
+x 4
+y 1
+end
+arch blocked
+x 4
+y 2
+end
+arch blocked
+x 4
+y 3
+end
+arch blocked
+x 4
+y 4
+end
+arch blocked
+x 4
+y 5
+end
+arch blocked
+x 4
+y 6
+end
+arch blocked
+x 4
+y 7
+end
+arch blocked
+x 4
+y 8
+end
+arch blocked
+x 4
+y 9
+end
+arch blocked
+x 4
+y 10
+end
+arch blocked
+x 4
+y 11
+end
+arch blocked
+x 4
+y 12
+end
+arch blocked
+x 4
+y 13
+end
+arch blocked
+x 4
+y 14
+end
+arch blocked
+x 4
+y 15
+end
+arch blocked
+x 4
+y 16
+end
+arch blocked
+x 4
+y 17
+end
+arch blocked
+x 4
+y 18
+end
+arch blocked
+x 4
+y 19
 end
 arch blocked
 x 4
@@ -262,6 +1042,193 @@ x 4
 y 27
 end
 arch blocked
+x 4
+y 28
+end
+arch blocked
+x 4
+y 29
+end
+arch blocked
+x 4
+y 30
+end
+arch blocked
+x 4
+y 31
+end
+arch blocked
+x 4
+y 32
+end
+arch blocked
+x 4
+y 33
+end
+arch blocked
+x 4
+y 34
+end
+arch blocked
+x 4
+y 35
+end
+arch blocked
+x 4
+y 36
+end
+arch blocked
+x 4
+y 37
+end
+arch blocked
+x 4
+y 38
+end
+arch blocked
+x 4
+y 39
+end
+arch blocked
+x 4
+y 40
+end
+arch blocked
+x 4
+y 41
+end
+arch blocked
+x 4
+y 42
+end
+arch blocked
+x 4
+y 43
+end
+arch blocked
+x 4
+y 44
+end
+arch blocked
+x 4
+y 45
+end
+arch blocked
+x 4
+y 46
+end
+arch blocked
+x 4
+y 47
+end
+arch blocked
+x 4
+y 48
+end
+arch blocked
+x 4
+y 49
+end
+arch blocked
+x 4
+y 50
+end
+arch blocked
+x 4
+y 51
+end
+arch blocked
+x 4
+y 52
+end
+arch blocked
+x 4
+y 53
+end
+arch blocked
+x 4
+y 54
+end
+arch blocked
+x 5
+end
+arch blocked
+x 5
+y 1
+end
+arch blocked
+x 5
+y 2
+end
+arch blocked
+x 5
+y 3
+end
+arch blocked
+x 5
+y 4
+end
+arch blocked
+x 5
+y 5
+end
+arch blocked
+x 5
+y 6
+end
+arch blocked
+x 5
+y 7
+end
+arch blocked
+x 5
+y 8
+end
+arch blocked
+x 5
+y 9
+end
+arch blocked
+x 5
+y 10
+end
+arch blocked
+x 5
+y 11
+end
+arch blocked
+x 5
+y 12
+end
+arch blocked
+x 5
+y 13
+end
+arch blocked
+x 5
+y 14
+end
+arch blocked
+x 5
+y 15
+end
+arch blocked
+x 5
+y 16
+end
+arch blocked
+x 5
+y 17
+end
+arch blocked
+x 5
+y 18
+end
+arch blocked
+x 5
+y 19
+end
+arch blocked
 x 5
 y 20
 end
@@ -310,6 +1277,193 @@ end
 arch blocked
 x 5
 y 27
+end
+arch blocked
+x 5
+y 28
+end
+arch blocked
+x 5
+y 29
+end
+arch blocked
+x 5
+y 30
+end
+arch blocked
+x 5
+y 31
+end
+arch blocked
+x 5
+y 32
+end
+arch blocked
+x 5
+y 33
+end
+arch blocked
+x 5
+y 34
+end
+arch blocked
+x 5
+y 35
+end
+arch blocked
+x 5
+y 36
+end
+arch blocked
+x 5
+y 37
+end
+arch blocked
+x 5
+y 38
+end
+arch blocked
+x 5
+y 39
+end
+arch blocked
+x 5
+y 40
+end
+arch blocked
+x 5
+y 41
+end
+arch blocked
+x 5
+y 42
+end
+arch blocked
+x 5
+y 43
+end
+arch blocked
+x 5
+y 44
+end
+arch blocked
+x 5
+y 45
+end
+arch blocked
+x 5
+y 46
+end
+arch blocked
+x 5
+y 47
+end
+arch blocked
+x 5
+y 48
+end
+arch blocked
+x 5
+y 49
+end
+arch blocked
+x 5
+y 50
+end
+arch blocked
+x 5
+y 51
+end
+arch blocked
+x 5
+y 52
+end
+arch blocked
+x 5
+y 53
+end
+arch blocked
+x 5
+y 54
+end
+arch blocked
+x 6
+end
+arch blocked
+x 6
+y 1
+end
+arch blocked
+x 6
+y 2
+end
+arch blocked
+x 6
+y 3
+end
+arch blocked
+x 6
+y 4
+end
+arch blocked
+x 6
+y 5
+end
+arch blocked
+x 6
+y 6
+end
+arch blocked
+x 6
+y 7
+end
+arch blocked
+x 6
+y 8
+end
+arch blocked
+x 6
+y 9
+end
+arch blocked
+x 6
+y 10
+end
+arch blocked
+x 6
+y 11
+end
+arch blocked
+x 6
+y 12
+end
+arch blocked
+x 6
+y 13
+end
+arch blocked
+x 6
+y 14
+end
+arch blocked
+x 6
+y 15
+end
+arch blocked
+x 6
+y 16
+end
+arch blocked
+x 6
+y 17
+end
+arch blocked
+x 6
+y 18
+end
+arch blocked
+x 6
+y 19
 end
 arch blocked
 x 6
@@ -360,6 +1514,193 @@ x 6
 y 27
 end
 arch blocked
+x 6
+y 28
+end
+arch blocked
+x 6
+y 29
+end
+arch blocked
+x 6
+y 30
+end
+arch blocked
+x 6
+y 31
+end
+arch blocked
+x 6
+y 32
+end
+arch blocked
+x 6
+y 33
+end
+arch blocked
+x 6
+y 34
+end
+arch blocked
+x 6
+y 35
+end
+arch blocked
+x 6
+y 36
+end
+arch blocked
+x 6
+y 37
+end
+arch blocked
+x 6
+y 38
+end
+arch blocked
+x 6
+y 39
+end
+arch blocked
+x 6
+y 40
+end
+arch blocked
+x 6
+y 41
+end
+arch blocked
+x 6
+y 42
+end
+arch blocked
+x 6
+y 43
+end
+arch blocked
+x 6
+y 44
+end
+arch blocked
+x 6
+y 45
+end
+arch blocked
+x 6
+y 46
+end
+arch blocked
+x 6
+y 47
+end
+arch blocked
+x 6
+y 48
+end
+arch blocked
+x 6
+y 49
+end
+arch blocked
+x 6
+y 50
+end
+arch blocked
+x 6
+y 51
+end
+arch blocked
+x 6
+y 52
+end
+arch blocked
+x 6
+y 53
+end
+arch blocked
+x 6
+y 54
+end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
+arch blocked
+x 7
+y 3
+end
+arch blocked
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
+end
+arch blocked
+x 7
+y 6
+end
+arch blocked
+x 7
+y 7
+end
+arch blocked
+x 7
+y 8
+end
+arch blocked
+x 7
+y 9
+end
+arch blocked
+x 7
+y 10
+end
+arch blocked
+x 7
+y 11
+end
+arch blocked
+x 7
+y 12
+end
+arch blocked
+x 7
+y 13
+end
+arch blocked
+x 7
+y 14
+end
+arch blocked
+x 7
+y 15
+end
+arch blocked
+x 7
+y 16
+end
+arch blocked
+x 7
+y 17
+end
+arch blocked
+x 7
+y 18
+end
+arch blocked
+x 7
+y 19
+end
+arch blocked
 x 7
 y 20
 end
@@ -408,6 +1749,193 @@ end
 arch blocked
 x 7
 y 27
+end
+arch blocked
+x 7
+y 28
+end
+arch blocked
+x 7
+y 29
+end
+arch blocked
+x 7
+y 30
+end
+arch blocked
+x 7
+y 31
+end
+arch blocked
+x 7
+y 32
+end
+arch blocked
+x 7
+y 33
+end
+arch blocked
+x 7
+y 34
+end
+arch blocked
+x 7
+y 35
+end
+arch blocked
+x 7
+y 36
+end
+arch blocked
+x 7
+y 37
+end
+arch blocked
+x 7
+y 38
+end
+arch blocked
+x 7
+y 39
+end
+arch blocked
+x 7
+y 40
+end
+arch blocked
+x 7
+y 41
+end
+arch blocked
+x 7
+y 42
+end
+arch blocked
+x 7
+y 43
+end
+arch blocked
+x 7
+y 44
+end
+arch blocked
+x 7
+y 45
+end
+arch blocked
+x 7
+y 46
+end
+arch blocked
+x 7
+y 47
+end
+arch blocked
+x 7
+y 48
+end
+arch blocked
+x 7
+y 49
+end
+arch blocked
+x 7
+y 50
+end
+arch blocked
+x 7
+y 51
+end
+arch blocked
+x 7
+y 52
+end
+arch blocked
+x 7
+y 53
+end
+arch blocked
+x 7
+y 54
+end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+x 8
+y 3
+end
+arch blocked
+x 8
+y 4
+end
+arch blocked
+x 8
+y 5
+end
+arch blocked
+x 8
+y 6
+end
+arch blocked
+x 8
+y 7
+end
+arch blocked
+x 8
+y 8
+end
+arch blocked
+x 8
+y 9
+end
+arch blocked
+x 8
+y 10
+end
+arch blocked
+x 8
+y 11
+end
+arch blocked
+x 8
+y 12
+end
+arch blocked
+x 8
+y 13
+end
+arch blocked
+x 8
+y 14
+end
+arch blocked
+x 8
+y 15
+end
+arch blocked
+x 8
+y 16
+end
+arch blocked
+x 8
+y 17
+end
+arch blocked
+x 8
+y 18
+end
+arch blocked
+x 8
+y 19
 end
 arch blocked
 x 8
@@ -456,6 +1984,114 @@ end
 arch blocked
 x 8
 y 27
+end
+arch blocked
+x 8
+y 28
+end
+arch blocked
+x 8
+y 29
+end
+arch blocked
+x 8
+y 30
+end
+arch blocked
+x 8
+y 31
+end
+arch blocked
+x 8
+y 32
+end
+arch blocked
+x 8
+y 33
+end
+arch blocked
+x 8
+y 34
+end
+arch blocked
+x 8
+y 35
+end
+arch blocked
+x 8
+y 36
+end
+arch blocked
+x 8
+y 37
+end
+arch blocked
+x 8
+y 38
+end
+arch blocked
+x 8
+y 39
+end
+arch blocked
+x 8
+y 40
+end
+arch blocked
+x 8
+y 41
+end
+arch blocked
+x 8
+y 42
+end
+arch blocked
+x 8
+y 43
+end
+arch blocked
+x 8
+y 44
+end
+arch blocked
+x 8
+y 45
+end
+arch blocked
+x 8
+y 46
+end
+arch blocked
+x 8
+y 47
+end
+arch blocked
+x 8
+y 48
+end
+arch blocked
+x 8
+y 49
+end
+arch blocked
+x 8
+y 50
+end
+arch blocked
+x 8
+y 51
+end
+arch blocked
+x 8
+y 52
+end
+arch blocked
+x 8
+y 53
+end
+arch blocked
+x 8
+y 54
 end
 arch blocked
 x 9
@@ -510,6 +2146,30 @@ y 12
 end
 arch blocked
 x 9
+y 13
+end
+arch blocked
+x 9
+y 14
+end
+arch blocked
+x 9
+y 15
+end
+arch blocked
+x 9
+y 16
+end
+arch blocked
+x 9
+y 17
+end
+arch blocked
+x 9
+y 18
+end
+arch blocked
+x 9
 y 19
 end
 arch blocked
@@ -556,6 +2216,110 @@ arch blocked
 x 9
 y 28
 end
+arch blocked
+x 9
+y 29
+end
+arch blocked
+x 9
+y 30
+end
+arch blocked
+x 9
+y 31
+end
+arch blocked
+x 9
+y 32
+end
+arch blocked
+x 9
+y 33
+end
+arch blocked
+x 9
+y 34
+end
+arch blocked
+x 9
+y 35
+end
+arch blocked
+x 9
+y 36
+end
+arch blocked
+x 9
+y 37
+end
+arch blocked
+x 9
+y 38
+end
+arch blocked
+x 9
+y 39
+end
+arch blocked
+x 9
+y 40
+end
+arch blocked
+x 9
+y 41
+end
+arch blocked
+x 9
+y 42
+end
+arch blocked
+x 9
+y 43
+end
+arch blocked
+x 9
+y 44
+end
+arch blocked
+x 9
+y 45
+end
+arch blocked
+x 9
+y 46
+end
+arch blocked
+x 9
+y 47
+end
+arch blocked
+x 9
+y 48
+end
+arch blocked
+x 9
+y 49
+end
+arch blocked
+x 9
+y 50
+end
+arch blocked
+x 9
+y 51
+end
+arch blocked
+x 9
+y 52
+end
+arch blocked
+x 9
+y 53
+end
+arch blocked
+x 9
+y 54
+end
 arch generate_kobold
 name viper generator
 other_arch cobra
@@ -589,6 +2353,30 @@ end
 arch blocked
 x 10
 y 12
+end
+arch blocked
+x 10
+y 13
+end
+arch blocked
+x 10
+y 14
+end
+arch blocked
+x 10
+y 15
+end
+arch blocked
+x 10
+y 16
+end
+arch blocked
+x 10
+y 17
+end
+arch blocked
+x 10
+y 18
 end
 arch blocked
 x 10
@@ -654,6 +2442,110 @@ arch blocked
 x 10
 y 28
 end
+arch blocked
+x 10
+y 29
+end
+arch blocked
+x 10
+y 30
+end
+arch blocked
+x 10
+y 31
+end
+arch blocked
+x 10
+y 32
+end
+arch blocked
+x 10
+y 33
+end
+arch blocked
+x 10
+y 34
+end
+arch blocked
+x 10
+y 35
+end
+arch blocked
+x 10
+y 36
+end
+arch blocked
+x 10
+y 37
+end
+arch blocked
+x 10
+y 38
+end
+arch blocked
+x 10
+y 39
+end
+arch blocked
+x 10
+y 40
+end
+arch blocked
+x 10
+y 41
+end
+arch blocked
+x 10
+y 42
+end
+arch blocked
+x 10
+y 43
+end
+arch blocked
+x 10
+y 44
+end
+arch blocked
+x 10
+y 45
+end
+arch blocked
+x 10
+y 46
+end
+arch blocked
+x 10
+y 47
+end
+arch blocked
+x 10
+y 48
+end
+arch blocked
+x 10
+y 49
+end
+arch blocked
+x 10
+y 50
+end
+arch blocked
+x 10
+y 51
+end
+arch blocked
+x 10
+y 52
+end
+arch blocked
+x 10
+y 53
+end
+arch blocked
+x 10
+y 54
+end
 arch generate_kobold
 name viper generator
 other_arch cobra
@@ -687,6 +2579,18 @@ end
 arch blocked
 x 11
 y 12
+end
+arch blocked
+x 11
+y 13
+end
+arch blocked
+x 11
+y 14
+end
+arch blocked
+x 11
+y 15
 end
 arch blocked
 x 11
@@ -773,6 +2677,102 @@ end
 arch blocked
 x 11
 y 30
+end
+arch blocked
+x 11
+y 31
+end
+arch blocked
+x 11
+y 32
+end
+arch blocked
+x 11
+y 33
+end
+arch blocked
+x 11
+y 34
+end
+arch blocked
+x 11
+y 35
+end
+arch blocked
+x 11
+y 36
+end
+arch blocked
+x 11
+y 37
+end
+arch blocked
+x 11
+y 38
+end
+arch blocked
+x 11
+y 39
+end
+arch blocked
+x 11
+y 40
+end
+arch blocked
+x 11
+y 41
+end
+arch blocked
+x 11
+y 42
+end
+arch blocked
+x 11
+y 43
+end
+arch blocked
+x 11
+y 44
+end
+arch blocked
+x 11
+y 45
+end
+arch blocked
+x 11
+y 46
+end
+arch blocked
+x 11
+y 47
+end
+arch blocked
+x 11
+y 48
+end
+arch blocked
+x 11
+y 49
+end
+arch blocked
+x 11
+y 50
+end
+arch blocked
+x 11
+y 51
+end
+arch blocked
+x 11
+y 52
+end
+arch blocked
+x 11
+y 53
+end
+arch blocked
+x 11
+y 54
 end
 arch blocked
 x 12
@@ -940,6 +2940,137 @@ end
 arch blocked
 x 12
 y 30
+end
+arch blocked
+x 12
+y 31
+end
+arch blocked
+x 12
+y 32
+end
+arch blocked
+x 12
+y 33
+end
+arch blocked
+x 12
+y 34
+end
+arch blocked
+x 12
+y 35
+end
+arch blocked
+x 12
+y 36
+end
+arch blocked
+x 12
+y 37
+end
+arch blocked
+x 12
+y 38
+end
+arch blocked
+x 12
+y 39
+end
+arch blocked
+x 12
+y 40
+end
+arch blocked
+x 12
+y 41
+end
+arch blocked
+x 12
+y 42
+end
+arch blocked
+x 12
+y 43
+end
+arch blocked
+x 12
+y 44
+end
+arch blocked
+x 12
+y 45
+end
+arch blocked
+x 12
+y 46
+end
+arch blocked
+x 12
+y 47
+end
+arch blocked
+x 12
+y 48
+end
+arch blocked
+x 12
+y 49
+end
+arch blocked
+x 12
+y 50
+end
+arch blocked
+x 12
+y 51
+end
+arch blocked
+x 12
+y 52
+end
+arch blocked
+x 12
+y 53
+end
+arch blocked
+x 12
+y 54
+end
+arch blocked
+x 13
+end
+arch blocked
+x 13
+y 1
+end
+arch blocked
+x 13
+y 2
+end
+arch blocked
+x 13
+y 3
+end
+arch blocked
+x 13
+y 4
+end
+arch blocked
+x 13
+y 5
+end
+arch blocked
+x 13
+y 6
+end
+arch blocked
+x 13
+y 7
+end
+arch blocked
+x 13
+y 8
 end
 arch blocked
 x 13
@@ -1077,6 +3208,38 @@ y 30
 end
 arch blocked
 x 13
+y 31
+end
+arch blocked
+x 13
+y 32
+end
+arch blocked
+x 13
+y 33
+end
+arch blocked
+x 13
+y 34
+end
+arch blocked
+x 13
+y 35
+end
+arch blocked
+x 13
+y 36
+end
+arch blocked
+x 13
+y 37
+end
+arch blocked
+x 13
+y 38
+end
+arch blocked
+x 13
 y 39
 end
 arch blocked
@@ -1094,6 +3257,10 @@ end
 arch blocked
 x 13
 y 43
+end
+arch blocked
+x 13
+y 44
 end
 arch blocked
 x 13
@@ -1122,6 +3289,41 @@ end
 arch blocked
 x 13
 y 51
+end
+arch blocked
+x 13
+y 52
+end
+arch blocked
+x 13
+y 53
+end
+arch blocked
+x 13
+y 54
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
+x 14
+y 3
+end
+arch blocked
+x 14
+y 4
+end
+arch blocked
+x 14
+y 5
 end
 arch blocked
 x 14
@@ -1287,6 +3489,38 @@ end
 arch blocked
 x 14
 y 30
+end
+arch blocked
+x 14
+y 31
+end
+arch blocked
+x 14
+y 32
+end
+arch blocked
+x 14
+y 33
+end
+arch blocked
+x 14
+y 34
+end
+arch blocked
+x 14
+y 35
+end
+arch blocked
+x 14
+y 36
+end
+arch blocked
+x 14
+y 37
+end
+arch blocked
+x 14
+y 38
 end
 arch blocked
 x 14
@@ -3455,6 +5689,29 @@ x 19
 y 53
 end
 arch blocked
+x 19
+y 54
+end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 3
+end
+arch blocked
+x 20
+y 4
+end
+arch blocked
 x 20
 y 5
 end
@@ -3765,6 +6022,45 @@ x 20
 y 50
 end
 arch blocked
+x 20
+y 51
+end
+arch blocked
+x 20
+y 52
+end
+arch blocked
+x 20
+y 53
+end
+arch blocked
+x 20
+y 54
+end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
+x 21
+y 2
+end
+arch blocked
+x 21
+y 3
+end
+arch blocked
+x 21
+y 4
+end
+arch blocked
+x 21
+y 5
+end
+arch blocked
 x 21
 y 6
 end
@@ -3931,6 +6227,50 @@ y 30
 end
 arch blocked
 x 21
+y 31
+end
+arch blocked
+x 21
+y 32
+end
+arch blocked
+x 21
+y 33
+end
+arch blocked
+x 21
+y 34
+end
+arch blocked
+x 21
+y 35
+end
+arch blocked
+x 21
+y 36
+end
+arch blocked
+x 21
+y 37
+end
+arch blocked
+x 21
+y 38
+end
+arch blocked
+x 21
+y 39
+end
+arch blocked
+x 21
+y 40
+end
+arch blocked
+x 21
+y 41
+end
+arch blocked
+x 21
 y 42
 end
 arch blocked
@@ -3948,6 +6288,73 @@ end
 arch blocked
 x 21
 y 46
+end
+arch blocked
+x 21
+y 47
+end
+arch blocked
+x 21
+y 48
+end
+arch blocked
+x 21
+y 49
+end
+arch blocked
+x 21
+y 50
+end
+arch blocked
+x 21
+y 51
+end
+arch blocked
+x 21
+y 52
+end
+arch blocked
+x 21
+y 53
+end
+arch blocked
+x 21
+y 54
+end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
+x 22
+y 2
+end
+arch blocked
+x 22
+y 3
+end
+arch blocked
+x 22
+y 4
+end
+arch blocked
+x 22
+y 5
+end
+arch blocked
+x 22
+y 6
+end
+arch blocked
+x 22
+y 7
+end
+arch blocked
+x 22
+y 8
 end
 arch blocked
 x 22
@@ -4084,6 +6491,102 @@ x 22
 y 30
 end
 arch blocked
+x 22
+y 31
+end
+arch blocked
+x 22
+y 32
+end
+arch blocked
+x 22
+y 33
+end
+arch blocked
+x 22
+y 34
+end
+arch blocked
+x 22
+y 35
+end
+arch blocked
+x 22
+y 36
+end
+arch blocked
+x 22
+y 37
+end
+arch blocked
+x 22
+y 38
+end
+arch blocked
+x 22
+y 39
+end
+arch blocked
+x 22
+y 40
+end
+arch blocked
+x 22
+y 41
+end
+arch blocked
+x 22
+y 42
+end
+arch blocked
+x 22
+y 43
+end
+arch blocked
+x 22
+y 44
+end
+arch blocked
+x 22
+y 45
+end
+arch blocked
+x 22
+y 46
+end
+arch blocked
+x 22
+y 47
+end
+arch blocked
+x 22
+y 48
+end
+arch blocked
+x 22
+y 49
+end
+arch blocked
+x 22
+y 50
+end
+arch blocked
+x 22
+y 51
+end
+arch blocked
+x 22
+y 52
+end
+arch blocked
+x 22
+y 53
+end
+arch blocked
+x 22
+y 54
+end
+arch blocked
 x 23
 end
 arch blocked
@@ -4250,6 +6753,102 @@ arch blocked
 x 23
 y 30
 end
+arch blocked
+x 23
+y 31
+end
+arch blocked
+x 23
+y 32
+end
+arch blocked
+x 23
+y 33
+end
+arch blocked
+x 23
+y 34
+end
+arch blocked
+x 23
+y 35
+end
+arch blocked
+x 23
+y 36
+end
+arch blocked
+x 23
+y 37
+end
+arch blocked
+x 23
+y 38
+end
+arch blocked
+x 23
+y 39
+end
+arch blocked
+x 23
+y 40
+end
+arch blocked
+x 23
+y 41
+end
+arch blocked
+x 23
+y 42
+end
+arch blocked
+x 23
+y 43
+end
+arch blocked
+x 23
+y 44
+end
+arch blocked
+x 23
+y 45
+end
+arch blocked
+x 23
+y 46
+end
+arch blocked
+x 23
+y 47
+end
+arch blocked
+x 23
+y 48
+end
+arch blocked
+x 23
+y 49
+end
+arch blocked
+x 23
+y 50
+end
+arch blocked
+x 23
+y 51
+end
+arch blocked
+x 23
+y 52
+end
+arch blocked
+x 23
+y 53
+end
+arch blocked
+x 23
+y 54
+end
 arch generate_kobold
 name viper generator
 other_arch cobra
@@ -4283,6 +6882,18 @@ end
 arch blocked
 x 24
 y 12
+end
+arch blocked
+x 24
+y 13
+end
+arch blocked
+x 24
+y 14
+end
+arch blocked
+x 24
+y 15
 end
 arch blocked
 x 24
@@ -4434,6 +7045,38 @@ arch blocked
 x 24
 y 46
 end
+arch blocked
+x 24
+y 47
+end
+arch blocked
+x 24
+y 48
+end
+arch blocked
+x 24
+y 49
+end
+arch blocked
+x 24
+y 50
+end
+arch blocked
+x 24
+y 51
+end
+arch blocked
+x 24
+y 52
+end
+arch blocked
+x 24
+y 53
+end
+arch blocked
+x 24
+y 54
+end
 arch generate_kobold
 name viper generator
 other_arch cobra
@@ -4467,6 +7110,30 @@ end
 arch blocked
 x 25
 y 12
+end
+arch blocked
+x 25
+y 13
+end
+arch blocked
+x 25
+y 14
+end
+arch blocked
+x 25
+y 15
+end
+arch blocked
+x 25
+y 16
+end
+arch blocked
+x 25
+y 17
+end
+arch blocked
+x 25
+y 18
 end
 arch blocked
 x 25
@@ -4531,6 +7198,10 @@ end
 arch blocked
 x 25
 y 28
+end
+arch blocked
+x 25
+y 29
 end
 arch blocked
 x 25
@@ -4611,6 +7282,38 @@ x 25
 y 46
 end
 arch blocked
+x 25
+y 47
+end
+arch blocked
+x 25
+y 48
+end
+arch blocked
+x 25
+y 49
+end
+arch blocked
+x 25
+y 50
+end
+arch blocked
+x 25
+y 51
+end
+arch blocked
+x 25
+y 52
+end
+arch blocked
+x 25
+y 53
+end
+arch blocked
+x 25
+y 54
+end
+arch blocked
 x 26
 end
 arch blocked
@@ -4663,6 +7366,30 @@ y 12
 end
 arch blocked
 x 26
+y 13
+end
+arch blocked
+x 26
+y 14
+end
+arch blocked
+x 26
+y 15
+end
+arch blocked
+x 26
+y 16
+end
+arch blocked
+x 26
+y 17
+end
+arch blocked
+x 26
+y 18
+end
+arch blocked
+x 26
 y 19
 end
 arch blocked
@@ -4708,6 +7435,10 @@ end
 arch blocked
 x 26
 y 28
+end
+arch blocked
+x 26
+y 29
 end
 arch blocked
 x 26
@@ -4782,6 +7513,117 @@ x 26
 y 46
 end
 arch blocked
+x 26
+y 47
+end
+arch blocked
+x 26
+y 48
+end
+arch blocked
+x 26
+y 49
+end
+arch blocked
+x 26
+y 50
+end
+arch blocked
+x 26
+y 51
+end
+arch blocked
+x 26
+y 52
+end
+arch blocked
+x 26
+y 53
+end
+arch blocked
+x 26
+y 54
+end
+arch blocked
+x 27
+end
+arch blocked
+x 27
+y 1
+end
+arch blocked
+x 27
+y 2
+end
+arch blocked
+x 27
+y 3
+end
+arch blocked
+x 27
+y 4
+end
+arch blocked
+x 27
+y 5
+end
+arch blocked
+x 27
+y 6
+end
+arch blocked
+x 27
+y 7
+end
+arch blocked
+x 27
+y 8
+end
+arch blocked
+x 27
+y 9
+end
+arch blocked
+x 27
+y 10
+end
+arch blocked
+x 27
+y 11
+end
+arch blocked
+x 27
+y 12
+end
+arch blocked
+x 27
+y 13
+end
+arch blocked
+x 27
+y 14
+end
+arch blocked
+x 27
+y 15
+end
+arch blocked
+x 27
+y 16
+end
+arch blocked
+x 27
+y 17
+end
+arch blocked
+x 27
+y 18
+end
+arch blocked
+x 27
+y 19
+end
+arch blocked
 x 27
 y 20
 end
@@ -4828,6 +7670,14 @@ end
 arch blocked
 x 27
 y 27
+end
+arch blocked
+x 27
+y 28
+end
+arch blocked
+x 27
+y 29
 end
 arch blocked
 x 27
@@ -4898,6 +7748,117 @@ x 27
 y 46
 end
 arch blocked
+x 27
+y 47
+end
+arch blocked
+x 27
+y 48
+end
+arch blocked
+x 27
+y 49
+end
+arch blocked
+x 27
+y 50
+end
+arch blocked
+x 27
+y 51
+end
+arch blocked
+x 27
+y 52
+end
+arch blocked
+x 27
+y 53
+end
+arch blocked
+x 27
+y 54
+end
+arch blocked
+x 28
+end
+arch blocked
+x 28
+y 1
+end
+arch blocked
+x 28
+y 2
+end
+arch blocked
+x 28
+y 3
+end
+arch blocked
+x 28
+y 4
+end
+arch blocked
+x 28
+y 5
+end
+arch blocked
+x 28
+y 6
+end
+arch blocked
+x 28
+y 7
+end
+arch blocked
+x 28
+y 8
+end
+arch blocked
+x 28
+y 9
+end
+arch blocked
+x 28
+y 10
+end
+arch blocked
+x 28
+y 11
+end
+arch blocked
+x 28
+y 12
+end
+arch blocked
+x 28
+y 13
+end
+arch blocked
+x 28
+y 14
+end
+arch blocked
+x 28
+y 15
+end
+arch blocked
+x 28
+y 16
+end
+arch blocked
+x 28
+y 17
+end
+arch blocked
+x 28
+y 18
+end
+arch blocked
+x 28
+y 19
+end
+arch blocked
 x 28
 y 20
 end
@@ -4946,6 +7907,193 @@ end
 arch blocked
 x 28
 y 27
+end
+arch blocked
+x 28
+y 28
+end
+arch blocked
+x 28
+y 29
+end
+arch blocked
+x 28
+y 30
+end
+arch blocked
+x 28
+y 31
+end
+arch blocked
+x 28
+y 32
+end
+arch blocked
+x 28
+y 33
+end
+arch blocked
+x 28
+y 34
+end
+arch blocked
+x 28
+y 35
+end
+arch blocked
+x 28
+y 36
+end
+arch blocked
+x 28
+y 37
+end
+arch blocked
+x 28
+y 38
+end
+arch blocked
+x 28
+y 39
+end
+arch blocked
+x 28
+y 40
+end
+arch blocked
+x 28
+y 41
+end
+arch blocked
+x 28
+y 42
+end
+arch blocked
+x 28
+y 43
+end
+arch blocked
+x 28
+y 44
+end
+arch blocked
+x 28
+y 45
+end
+arch blocked
+x 28
+y 46
+end
+arch blocked
+x 28
+y 47
+end
+arch blocked
+x 28
+y 48
+end
+arch blocked
+x 28
+y 49
+end
+arch blocked
+x 28
+y 50
+end
+arch blocked
+x 28
+y 51
+end
+arch blocked
+x 28
+y 52
+end
+arch blocked
+x 28
+y 53
+end
+arch blocked
+x 28
+y 54
+end
+arch blocked
+x 29
+end
+arch blocked
+x 29
+y 1
+end
+arch blocked
+x 29
+y 2
+end
+arch blocked
+x 29
+y 3
+end
+arch blocked
+x 29
+y 4
+end
+arch blocked
+x 29
+y 5
+end
+arch blocked
+x 29
+y 6
+end
+arch blocked
+x 29
+y 7
+end
+arch blocked
+x 29
+y 8
+end
+arch blocked
+x 29
+y 9
+end
+arch blocked
+x 29
+y 10
+end
+arch blocked
+x 29
+y 11
+end
+arch blocked
+x 29
+y 12
+end
+arch blocked
+x 29
+y 13
+end
+arch blocked
+x 29
+y 14
+end
+arch blocked
+x 29
+y 15
+end
+arch blocked
+x 29
+y 16
+end
+arch blocked
+x 29
+y 17
+end
+arch blocked
+x 29
+y 18
+end
+arch blocked
+x 29
+y 19
 end
 arch blocked
 x 29
@@ -4996,6 +8144,193 @@ x 29
 y 27
 end
 arch blocked
+x 29
+y 28
+end
+arch blocked
+x 29
+y 29
+end
+arch blocked
+x 29
+y 30
+end
+arch blocked
+x 29
+y 31
+end
+arch blocked
+x 29
+y 32
+end
+arch blocked
+x 29
+y 33
+end
+arch blocked
+x 29
+y 34
+end
+arch blocked
+x 29
+y 35
+end
+arch blocked
+x 29
+y 36
+end
+arch blocked
+x 29
+y 37
+end
+arch blocked
+x 29
+y 38
+end
+arch blocked
+x 29
+y 39
+end
+arch blocked
+x 29
+y 40
+end
+arch blocked
+x 29
+y 41
+end
+arch blocked
+x 29
+y 42
+end
+arch blocked
+x 29
+y 43
+end
+arch blocked
+x 29
+y 44
+end
+arch blocked
+x 29
+y 45
+end
+arch blocked
+x 29
+y 46
+end
+arch blocked
+x 29
+y 47
+end
+arch blocked
+x 29
+y 48
+end
+arch blocked
+x 29
+y 49
+end
+arch blocked
+x 29
+y 50
+end
+arch blocked
+x 29
+y 51
+end
+arch blocked
+x 29
+y 52
+end
+arch blocked
+x 29
+y 53
+end
+arch blocked
+x 29
+y 54
+end
+arch blocked
+x 30
+end
+arch blocked
+x 30
+y 1
+end
+arch blocked
+x 30
+y 2
+end
+arch blocked
+x 30
+y 3
+end
+arch blocked
+x 30
+y 4
+end
+arch blocked
+x 30
+y 5
+end
+arch blocked
+x 30
+y 6
+end
+arch blocked
+x 30
+y 7
+end
+arch blocked
+x 30
+y 8
+end
+arch blocked
+x 30
+y 9
+end
+arch blocked
+x 30
+y 10
+end
+arch blocked
+x 30
+y 11
+end
+arch blocked
+x 30
+y 12
+end
+arch blocked
+x 30
+y 13
+end
+arch blocked
+x 30
+y 14
+end
+arch blocked
+x 30
+y 15
+end
+arch blocked
+x 30
+y 16
+end
+arch blocked
+x 30
+y 17
+end
+arch blocked
+x 30
+y 18
+end
+arch blocked
+x 30
+y 19
+end
+arch blocked
 x 30
 y 20
 end
@@ -5044,6 +8379,193 @@ end
 arch blocked
 x 30
 y 27
+end
+arch blocked
+x 30
+y 28
+end
+arch blocked
+x 30
+y 29
+end
+arch blocked
+x 30
+y 30
+end
+arch blocked
+x 30
+y 31
+end
+arch blocked
+x 30
+y 32
+end
+arch blocked
+x 30
+y 33
+end
+arch blocked
+x 30
+y 34
+end
+arch blocked
+x 30
+y 35
+end
+arch blocked
+x 30
+y 36
+end
+arch blocked
+x 30
+y 37
+end
+arch blocked
+x 30
+y 38
+end
+arch blocked
+x 30
+y 39
+end
+arch blocked
+x 30
+y 40
+end
+arch blocked
+x 30
+y 41
+end
+arch blocked
+x 30
+y 42
+end
+arch blocked
+x 30
+y 43
+end
+arch blocked
+x 30
+y 44
+end
+arch blocked
+x 30
+y 45
+end
+arch blocked
+x 30
+y 46
+end
+arch blocked
+x 30
+y 47
+end
+arch blocked
+x 30
+y 48
+end
+arch blocked
+x 30
+y 49
+end
+arch blocked
+x 30
+y 50
+end
+arch blocked
+x 30
+y 51
+end
+arch blocked
+x 30
+y 52
+end
+arch blocked
+x 30
+y 53
+end
+arch blocked
+x 30
+y 54
+end
+arch blocked
+x 31
+end
+arch blocked
+x 31
+y 1
+end
+arch blocked
+x 31
+y 2
+end
+arch blocked
+x 31
+y 3
+end
+arch blocked
+x 31
+y 4
+end
+arch blocked
+x 31
+y 5
+end
+arch blocked
+x 31
+y 6
+end
+arch blocked
+x 31
+y 7
+end
+arch blocked
+x 31
+y 8
+end
+arch blocked
+x 31
+y 9
+end
+arch blocked
+x 31
+y 10
+end
+arch blocked
+x 31
+y 11
+end
+arch blocked
+x 31
+y 12
+end
+arch blocked
+x 31
+y 13
+end
+arch blocked
+x 31
+y 14
+end
+arch blocked
+x 31
+y 15
+end
+arch blocked
+x 31
+y 16
+end
+arch blocked
+x 31
+y 17
+end
+arch blocked
+x 31
+y 18
+end
+arch blocked
+x 31
+y 19
 end
 arch blocked
 x 31
@@ -5108,6 +8630,193 @@ x 31
 y 27
 end
 arch blocked
+x 31
+y 28
+end
+arch blocked
+x 31
+y 29
+end
+arch blocked
+x 31
+y 30
+end
+arch blocked
+x 31
+y 31
+end
+arch blocked
+x 31
+y 32
+end
+arch blocked
+x 31
+y 33
+end
+arch blocked
+x 31
+y 34
+end
+arch blocked
+x 31
+y 35
+end
+arch blocked
+x 31
+y 36
+end
+arch blocked
+x 31
+y 37
+end
+arch blocked
+x 31
+y 38
+end
+arch blocked
+x 31
+y 39
+end
+arch blocked
+x 31
+y 40
+end
+arch blocked
+x 31
+y 41
+end
+arch blocked
+x 31
+y 42
+end
+arch blocked
+x 31
+y 43
+end
+arch blocked
+x 31
+y 44
+end
+arch blocked
+x 31
+y 45
+end
+arch blocked
+x 31
+y 46
+end
+arch blocked
+x 31
+y 47
+end
+arch blocked
+x 31
+y 48
+end
+arch blocked
+x 31
+y 49
+end
+arch blocked
+x 31
+y 50
+end
+arch blocked
+x 31
+y 51
+end
+arch blocked
+x 31
+y 52
+end
+arch blocked
+x 31
+y 53
+end
+arch blocked
+x 31
+y 54
+end
+arch blocked
+x 32
+end
+arch blocked
+x 32
+y 1
+end
+arch blocked
+x 32
+y 2
+end
+arch blocked
+x 32
+y 3
+end
+arch blocked
+x 32
+y 4
+end
+arch blocked
+x 32
+y 5
+end
+arch blocked
+x 32
+y 6
+end
+arch blocked
+x 32
+y 7
+end
+arch blocked
+x 32
+y 8
+end
+arch blocked
+x 32
+y 9
+end
+arch blocked
+x 32
+y 10
+end
+arch blocked
+x 32
+y 11
+end
+arch blocked
+x 32
+y 12
+end
+arch blocked
+x 32
+y 13
+end
+arch blocked
+x 32
+y 14
+end
+arch blocked
+x 32
+y 15
+end
+arch blocked
+x 32
+y 16
+end
+arch blocked
+x 32
+y 17
+end
+arch blocked
+x 32
+y 18
+end
+arch blocked
+x 32
+y 19
+end
+arch blocked
 x 32
 y 20
 end
@@ -5158,6 +8867,193 @@ end
 arch blocked
 x 32
 y 27
+end
+arch blocked
+x 32
+y 28
+end
+arch blocked
+x 32
+y 29
+end
+arch blocked
+x 32
+y 30
+end
+arch blocked
+x 32
+y 31
+end
+arch blocked
+x 32
+y 32
+end
+arch blocked
+x 32
+y 33
+end
+arch blocked
+x 32
+y 34
+end
+arch blocked
+x 32
+y 35
+end
+arch blocked
+x 32
+y 36
+end
+arch blocked
+x 32
+y 37
+end
+arch blocked
+x 32
+y 38
+end
+arch blocked
+x 32
+y 39
+end
+arch blocked
+x 32
+y 40
+end
+arch blocked
+x 32
+y 41
+end
+arch blocked
+x 32
+y 42
+end
+arch blocked
+x 32
+y 43
+end
+arch blocked
+x 32
+y 44
+end
+arch blocked
+x 32
+y 45
+end
+arch blocked
+x 32
+y 46
+end
+arch blocked
+x 32
+y 47
+end
+arch blocked
+x 32
+y 48
+end
+arch blocked
+x 32
+y 49
+end
+arch blocked
+x 32
+y 50
+end
+arch blocked
+x 32
+y 51
+end
+arch blocked
+x 32
+y 52
+end
+arch blocked
+x 32
+y 53
+end
+arch blocked
+x 32
+y 54
+end
+arch blocked
+x 33
+end
+arch blocked
+x 33
+y 1
+end
+arch blocked
+x 33
+y 2
+end
+arch blocked
+x 33
+y 3
+end
+arch blocked
+x 33
+y 4
+end
+arch blocked
+x 33
+y 5
+end
+arch blocked
+x 33
+y 6
+end
+arch blocked
+x 33
+y 7
+end
+arch blocked
+x 33
+y 8
+end
+arch blocked
+x 33
+y 9
+end
+arch blocked
+x 33
+y 10
+end
+arch blocked
+x 33
+y 11
+end
+arch blocked
+x 33
+y 12
+end
+arch blocked
+x 33
+y 13
+end
+arch blocked
+x 33
+y 14
+end
+arch blocked
+x 33
+y 15
+end
+arch blocked
+x 33
+y 16
+end
+arch blocked
+x 33
+y 17
+end
+arch blocked
+x 33
+y 18
+end
+arch blocked
+x 33
+y 19
 end
 arch blocked
 x 33
@@ -5208,6 +9104,193 @@ x 33
 y 27
 end
 arch blocked
+x 33
+y 28
+end
+arch blocked
+x 33
+y 29
+end
+arch blocked
+x 33
+y 30
+end
+arch blocked
+x 33
+y 31
+end
+arch blocked
+x 33
+y 32
+end
+arch blocked
+x 33
+y 33
+end
+arch blocked
+x 33
+y 34
+end
+arch blocked
+x 33
+y 35
+end
+arch blocked
+x 33
+y 36
+end
+arch blocked
+x 33
+y 37
+end
+arch blocked
+x 33
+y 38
+end
+arch blocked
+x 33
+y 39
+end
+arch blocked
+x 33
+y 40
+end
+arch blocked
+x 33
+y 41
+end
+arch blocked
+x 33
+y 42
+end
+arch blocked
+x 33
+y 43
+end
+arch blocked
+x 33
+y 44
+end
+arch blocked
+x 33
+y 45
+end
+arch blocked
+x 33
+y 46
+end
+arch blocked
+x 33
+y 47
+end
+arch blocked
+x 33
+y 48
+end
+arch blocked
+x 33
+y 49
+end
+arch blocked
+x 33
+y 50
+end
+arch blocked
+x 33
+y 51
+end
+arch blocked
+x 33
+y 52
+end
+arch blocked
+x 33
+y 53
+end
+arch blocked
+x 33
+y 54
+end
+arch blocked
+x 34
+end
+arch blocked
+x 34
+y 1
+end
+arch blocked
+x 34
+y 2
+end
+arch blocked
+x 34
+y 3
+end
+arch blocked
+x 34
+y 4
+end
+arch blocked
+x 34
+y 5
+end
+arch blocked
+x 34
+y 6
+end
+arch blocked
+x 34
+y 7
+end
+arch blocked
+x 34
+y 8
+end
+arch blocked
+x 34
+y 9
+end
+arch blocked
+x 34
+y 10
+end
+arch blocked
+x 34
+y 11
+end
+arch blocked
+x 34
+y 12
+end
+arch blocked
+x 34
+y 13
+end
+arch blocked
+x 34
+y 14
+end
+arch blocked
+x 34
+y 15
+end
+arch blocked
+x 34
+y 16
+end
+arch blocked
+x 34
+y 17
+end
+arch blocked
+x 34
+y 18
+end
+arch blocked
+x 34
+y 19
+end
+arch blocked
 x 34
 y 20
 end
@@ -5256,6 +9339,193 @@ end
 arch blocked
 x 34
 y 27
+end
+arch blocked
+x 34
+y 28
+end
+arch blocked
+x 34
+y 29
+end
+arch blocked
+x 34
+y 30
+end
+arch blocked
+x 34
+y 31
+end
+arch blocked
+x 34
+y 32
+end
+arch blocked
+x 34
+y 33
+end
+arch blocked
+x 34
+y 34
+end
+arch blocked
+x 34
+y 35
+end
+arch blocked
+x 34
+y 36
+end
+arch blocked
+x 34
+y 37
+end
+arch blocked
+x 34
+y 38
+end
+arch blocked
+x 34
+y 39
+end
+arch blocked
+x 34
+y 40
+end
+arch blocked
+x 34
+y 41
+end
+arch blocked
+x 34
+y 42
+end
+arch blocked
+x 34
+y 43
+end
+arch blocked
+x 34
+y 44
+end
+arch blocked
+x 34
+y 45
+end
+arch blocked
+x 34
+y 46
+end
+arch blocked
+x 34
+y 47
+end
+arch blocked
+x 34
+y 48
+end
+arch blocked
+x 34
+y 49
+end
+arch blocked
+x 34
+y 50
+end
+arch blocked
+x 34
+y 51
+end
+arch blocked
+x 34
+y 52
+end
+arch blocked
+x 34
+y 53
+end
+arch blocked
+x 34
+y 54
+end
+arch blocked
+x 35
+end
+arch blocked
+x 35
+y 1
+end
+arch blocked
+x 35
+y 2
+end
+arch blocked
+x 35
+y 3
+end
+arch blocked
+x 35
+y 4
+end
+arch blocked
+x 35
+y 5
+end
+arch blocked
+x 35
+y 6
+end
+arch blocked
+x 35
+y 7
+end
+arch blocked
+x 35
+y 8
+end
+arch blocked
+x 35
+y 9
+end
+arch blocked
+x 35
+y 10
+end
+arch blocked
+x 35
+y 11
+end
+arch blocked
+x 35
+y 12
+end
+arch blocked
+x 35
+y 13
+end
+arch blocked
+x 35
+y 14
+end
+arch blocked
+x 35
+y 15
+end
+arch blocked
+x 35
+y 16
+end
+arch blocked
+x 35
+y 17
+end
+arch blocked
+x 35
+y 18
+end
+arch blocked
+x 35
+y 19
 end
 arch blocked
 x 35
@@ -5304,4 +9574,112 @@ end
 arch blocked
 x 35
 y 27
+end
+arch blocked
+x 35
+y 28
+end
+arch blocked
+x 35
+y 29
+end
+arch blocked
+x 35
+y 30
+end
+arch blocked
+x 35
+y 31
+end
+arch blocked
+x 35
+y 32
+end
+arch blocked
+x 35
+y 33
+end
+arch blocked
+x 35
+y 34
+end
+arch blocked
+x 35
+y 35
+end
+arch blocked
+x 35
+y 36
+end
+arch blocked
+x 35
+y 37
+end
+arch blocked
+x 35
+y 38
+end
+arch blocked
+x 35
+y 39
+end
+arch blocked
+x 35
+y 40
+end
+arch blocked
+x 35
+y 41
+end
+arch blocked
+x 35
+y 42
+end
+arch blocked
+x 35
+y 43
+end
+arch blocked
+x 35
+y 44
+end
+arch blocked
+x 35
+y 45
+end
+arch blocked
+x 35
+y 46
+end
+arch blocked
+x 35
+y 47
+end
+arch blocked
+x 35
+y 48
+end
+arch blocked
+x 35
+y 49
+end
+arch blocked
+x 35
+y 50
+end
+arch blocked
+x 35
+y 51
+end
+arch blocked
+x 35
+y 52
+end
+arch blocked
+x 35
+y 53
+end
+arch blocked
+x 35
+y 54
 end
