@@ -9,9 +9,23 @@ enter_x 15
 enter_y 32
 msg
 Created:  1994-12-19 bt (thomas@nomad.astro.psu.edu)
-Modified: 2022-08-03 Rick Tanner
+Modified: 2026-03-07 Rick Tanner
 endmsg
 reset_group sisters_evil-shrine
+end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
 end
 arch blocked
 y 5
@@ -145,6 +159,43 @@ y 27
 speed -0.050000
 arch spell_comet
 end
+end
+arch blocked
+y 28
+end
+arch blocked
+y 29
+end
+arch blocked
+y 30
+end
+arch blocked
+y 31
+end
+arch blocked
+y 32
+end
+arch blocked
+y 33
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
 end
 arch blocked
 x 1
@@ -298,6 +349,49 @@ x 1
 y 26
 end
 arch blocked
+x 1
+y 28
+end
+arch blocked
+x 1
+y 29
+end
+arch blocked
+x 1
+y 30
+end
+arch blocked
+x 1
+y 31
+end
+arch blocked
+x 1
+y 32
+end
+arch blocked
+x 1
+y 33
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch blocked
+x 2
+y 3
+end
+arch blocked
+x 2
+y 4
+end
+arch blocked
 x 2
 y 5
 end
@@ -436,6 +530,49 @@ arch igate_closed_2
 x 2
 y 27
 connected 13
+end
+arch blocked
+x 2
+y 28
+end
+arch blocked
+x 2
+y 29
+end
+arch blocked
+x 2
+y 30
+end
+arch blocked
+x 2
+y 31
+end
+arch blocked
+x 2
+y 32
+end
+arch blocked
+x 2
+y 33
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
+end
+arch blocked
+x 3
+y 2
+end
+arch blocked
+x 3
+y 3
+end
+arch blocked
+x 3
+y 4
 end
 arch blocked
 x 3
@@ -589,6 +726,30 @@ end
 arch blocked
 x 3
 y 26
+end
+arch blocked
+x 3
+y 28
+end
+arch blocked
+x 3
+y 29
+end
+arch blocked
+x 3
+y 30
+end
+arch blocked
+x 3
+y 31
+end
+arch blocked
+x 3
+y 32
+end
+arch blocked
+x 3
+y 33
 end
 arch blocked
 x 4
@@ -755,6 +916,30 @@ end
 arch blocked
 x 4
 y 26
+end
+arch blocked
+x 4
+y 28
+end
+arch blocked
+x 4
+y 29
+end
+arch blocked
+x 4
+y 30
+end
+arch blocked
+x 4
+y 31
+end
+arch blocked
+x 4
+y 32
+end
+arch blocked
+x 4
+y 33
 end
 arch cobblestones2
 x 5
@@ -952,6 +1137,30 @@ arch blocked
 x 5
 y 26
 end
+arch blocked
+x 5
+y 28
+end
+arch blocked
+x 5
+y 29
+end
+arch blocked
+x 5
+y 30
+end
+arch blocked
+x 5
+y 31
+end
+arch blocked
+x 5
+y 32
+end
+arch blocked
+x 5
+y 33
+end
 arch cobblestones2
 x 6
 end
@@ -1131,6 +1340,30 @@ end
 arch blocked
 x 6
 y 26
+end
+arch blocked
+x 6
+y 28
+end
+arch blocked
+x 6
+y 29
+end
+arch blocked
+x 6
+y 30
+end
+arch blocked
+x 6
+y 31
+end
+arch blocked
+x 6
+y 32
+end
+arch blocked
+x 6
+y 33
 end
 arch cobblestones2
 x 7
@@ -1289,6 +1522,30 @@ end
 arch blocked
 x 7
 y 26
+end
+arch blocked
+x 7
+y 28
+end
+arch blocked
+x 7
+y 29
+end
+arch blocked
+x 7
+y 30
+end
+arch blocked
+x 7
+y 31
+end
+arch blocked
+x 7
+y 32
+end
+arch blocked
+x 7
+y 33
 end
 arch cobblestones2
 x 8
@@ -1513,6 +1770,30 @@ arch blocked
 x 8
 y 26
 end
+arch blocked
+x 8
+y 28
+end
+arch blocked
+x 8
+y 29
+end
+arch blocked
+x 8
+y 30
+end
+arch blocked
+x 8
+y 31
+end
+arch blocked
+x 8
+y 32
+end
+arch blocked
+x 8
+y 33
+end
 arch cobblestones2
 x 9
 end
@@ -1664,6 +1945,30 @@ sp 24
 x 9
 y 27
 speed 1.000000
+end
+arch blocked
+x 9
+y 28
+end
+arch blocked
+x 9
+y 29
+end
+arch blocked
+x 9
+y 30
+end
+arch blocked
+x 9
+y 31
+end
+arch blocked
+x 9
+y 32
+end
+arch blocked
+x 9
+y 33
 end
 arch cobblestones2
 x 10
@@ -1832,6 +2137,30 @@ end
 arch blocked
 x 10
 y 26
+end
+arch blocked
+x 10
+y 28
+end
+arch blocked
+x 10
+y 29
+end
+arch blocked
+x 10
+y 30
+end
+arch blocked
+x 10
+y 31
+end
+arch blocked
+x 10
+y 32
+end
+arch blocked
+x 10
+y 33
 end
 arch cobblestones2
 x 11
@@ -2028,6 +2357,14 @@ end
 arch blocked
 x 11
 y 31
+end
+arch blocked
+x 11
+y 32
+end
+arch blocked
+x 11
+y 33
 end
 arch cobblestones2
 x 12
@@ -2239,6 +2576,10 @@ arch blocked
 x 12
 y 32
 end
+arch blocked
+x 12
+y 33
+end
 arch cobblestones2
 x 13
 end
@@ -2691,6 +3032,9 @@ end
 arch blocked
 x 14
 y 33
+end
+arch blocked
+x 15
 end
 arch blocked
 x 15
@@ -2901,6 +3245,9 @@ is_floor 1
 end
 arch blocked
 x 16
+end
+arch blocked
+x 16
 y 1
 end
 arch cobblestones2
@@ -3518,6 +3865,10 @@ arch blocked
 x 18
 y 32
 end
+arch blocked
+x 18
+y 33
+end
 arch cobblestones2
 x 19
 end
@@ -3728,6 +4079,10 @@ arch blocked
 x 19
 y 32
 end
+arch blocked
+x 19
+y 33
+end
 arch cobblestones2
 x 20
 end
@@ -3924,6 +4279,14 @@ arch blocked
 x 20
 y 31
 end
+arch blocked
+x 20
+y 32
+end
+arch blocked
+x 20
+y 33
+end
 arch cobblestones2
 x 21
 end
@@ -4091,6 +4454,30 @@ end
 arch blocked
 x 21
 y 26
+end
+arch blocked
+x 21
+y 28
+end
+arch blocked
+x 21
+y 29
+end
+arch blocked
+x 21
+y 30
+end
+arch blocked
+x 21
+y 31
+end
+arch blocked
+x 21
+y 32
+end
+arch blocked
+x 21
+y 33
 end
 arch cobblestones2
 x 22
@@ -4289,6 +4676,30 @@ x 22
 y 27
 speed 1.000000
 end
+arch blocked
+x 22
+y 28
+end
+arch blocked
+x 22
+y 29
+end
+arch blocked
+x 22
+y 30
+end
+arch blocked
+x 22
+y 31
+end
+arch blocked
+x 22
+y 32
+end
+arch blocked
+x 22
+y 33
+end
 arch cobblestones2
 x 23
 end
@@ -4440,6 +4851,30 @@ end
 arch blocked
 x 23
 y 26
+end
+arch blocked
+x 23
+y 28
+end
+arch blocked
+x 23
+y 29
+end
+arch blocked
+x 23
+y 30
+end
+arch blocked
+x 23
+y 31
+end
+arch blocked
+x 23
+y 32
+end
+arch blocked
+x 23
+y 33
 end
 arch cobblestones2
 x 24
@@ -4603,6 +5038,30 @@ arch blocked
 x 24
 y 26
 end
+arch blocked
+x 24
+y 28
+end
+arch blocked
+x 24
+y 29
+end
+arch blocked
+x 24
+y 30
+end
+arch blocked
+x 24
+y 31
+end
+arch blocked
+x 24
+y 32
+end
+arch blocked
+x 24
+y 33
+end
 arch cobblestones2
 x 25
 end
@@ -4746,6 +5205,30 @@ end
 arch blocked
 x 25
 y 26
+end
+arch blocked
+x 25
+y 28
+end
+arch blocked
+x 25
+y 29
+end
+arch blocked
+x 25
+y 30
+end
+arch blocked
+x 25
+y 31
+end
+arch blocked
+x 25
+y 32
+end
+arch blocked
+x 25
+y 33
 end
 arch cobblestones2
 x 26
@@ -4951,6 +5434,30 @@ x 26
 y 26
 end
 arch blocked
+x 26
+y 28
+end
+arch blocked
+x 26
+y 29
+end
+arch blocked
+x 26
+y 30
+end
+arch blocked
+x 26
+y 31
+end
+arch blocked
+x 26
+y 32
+end
+arch blocked
+x 26
+y 33
+end
+arch blocked
 x 27
 end
 arch blocked
@@ -5088,6 +5595,49 @@ y 27
 connected 14
 end
 arch blocked
+x 27
+y 28
+end
+arch blocked
+x 27
+y 29
+end
+arch blocked
+x 27
+y 30
+end
+arch blocked
+x 27
+y 31
+end
+arch blocked
+x 27
+y 32
+end
+arch blocked
+x 27
+y 33
+end
+arch blocked
+x 28
+end
+arch blocked
+x 28
+y 1
+end
+arch blocked
+x 28
+y 2
+end
+arch blocked
+x 28
+y 3
+end
+arch blocked
+x 28
+y 4
+end
+arch blocked
 x 28
 y 5
 end
@@ -5210,6 +5760,49 @@ end
 arch blocked
 x 28
 y 26
+end
+arch blocked
+x 28
+y 28
+end
+arch blocked
+x 28
+y 29
+end
+arch blocked
+x 28
+y 30
+end
+arch blocked
+x 28
+y 31
+end
+arch blocked
+x 28
+y 32
+end
+arch blocked
+x 28
+y 33
+end
+arch blocked
+x 29
+end
+arch blocked
+x 29
+y 1
+end
+arch blocked
+x 29
+y 2
+end
+arch blocked
+x 29
+y 3
+end
+arch blocked
+x 29
+y 4
 end
 arch blocked
 x 29
@@ -5338,6 +5931,49 @@ end
 arch blocked
 x 29
 y 26
+end
+arch blocked
+x 29
+y 28
+end
+arch blocked
+x 29
+y 29
+end
+arch blocked
+x 29
+y 30
+end
+arch blocked
+x 29
+y 31
+end
+arch blocked
+x 29
+y 32
+end
+arch blocked
+x 29
+y 33
+end
+arch blocked
+x 30
+end
+arch blocked
+x 30
+y 1
+end
+arch blocked
+x 30
+y 2
+end
+arch blocked
+x 30
+y 3
+end
+arch blocked
+x 30
+y 4
 end
 arch blocked
 x 30
@@ -5480,6 +6116,49 @@ end
 arch blocked
 x 30
 y 26
+end
+arch blocked
+x 30
+y 28
+end
+arch blocked
+x 30
+y 29
+end
+arch blocked
+x 30
+y 30
+end
+arch blocked
+x 30
+y 31
+end
+arch blocked
+x 30
+y 32
+end
+arch blocked
+x 30
+y 33
+end
+arch blocked
+x 31
+end
+arch blocked
+x 31
+y 1
+end
+arch blocked
+x 31
+y 2
+end
+arch blocked
+x 31
+y 3
+end
+arch blocked
+x 31
+y 4
 end
 arch blocked
 x 31
@@ -5655,4 +6334,28 @@ y 27
 speed -0.050000
 arch spell_comet
 end
+end
+arch blocked
+x 31
+y 28
+end
+arch blocked
+x 31
+y 29
+end
+arch blocked
+x 31
+y 30
+end
+arch blocked
+x 31
+y 31
+end
+arch blocked
+x 31
+y 32
+end
+arch blocked
+x 31
+y 33
 end
