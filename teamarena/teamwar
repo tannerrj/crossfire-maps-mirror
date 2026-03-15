@@ -8,7 +8,7 @@ enter_x 19
 enter_y 24
 msg
 Created:  2005-03-19 josh@woosworld.net
-Modified: 2023-06-14 Rick Tanner
+Modified: 2026-03-08 Rick Tanner
 endmsg
 reset_group firevolcano_teamwar
 end
@@ -216,6 +216,15 @@ end
 arch wasteland
 y 22
 end
+arch wasteland
+y 23
+end
+arch wasteland
+y 24
+end
+arch wasteland
+y 25
+end
 arch dungeon_magic
 x 1
 end
@@ -417,6 +426,14 @@ arch wasteland
 x 1
 y 23
 end
+arch wasteland
+x 1
+y 24
+end
+arch wasteland
+x 1
+y 25
+end
 arch dungeon_magic
 x 2
 end
@@ -614,6 +631,14 @@ arch wasteland
 x 2
 y 23
 end
+arch wasteland
+x 2
+y 24
+end
+arch wasteland
+x 2
+y 25
+end
 arch dungeon_magic
 x 3
 end
@@ -838,6 +863,14 @@ end
 arch wasteland
 x 3
 y 23
+end
+arch wasteland
+x 3
+y 24
+end
+arch wasteland
+x 3
+y 25
 end
 arch dungeon_magic
 x 4
@@ -1130,6 +1163,14 @@ arch wasteland
 x 4
 y 23
 end
+arch wasteland
+x 4
+y 24
+end
+arch wasteland
+x 4
+y 25
+end
 arch dungeon_magic
 x 5
 end
@@ -1377,6 +1418,14 @@ end
 arch wasteland
 x 5
 y 23
+end
+arch wasteland
+x 5
+y 24
+end
+arch wasteland
+x 5
+y 25
 end
 arch dungeon_magic
 x 6
@@ -1639,6 +1688,14 @@ end
 arch wasteland
 x 6
 y 23
+end
+arch wasteland
+x 6
+y 24
+end
+arch wasteland
+x 6
+y 25
 end
 arch dungeon_magic
 x 7
@@ -1925,6 +1982,14 @@ arch wasteland
 x 7
 y 23
 end
+arch wasteland
+x 7
+y 24
+end
+arch wasteland
+x 7
+y 25
+end
 arch dungeon_magic
 x 8
 end
@@ -2148,6 +2213,14 @@ arch wasteland
 x 8
 y 23
 end
+arch wasteland
+x 8
+y 24
+end
+arch wasteland
+x 8
+y 25
+end
 arch dungeon_magic
 x 9
 end
@@ -2364,6 +2437,14 @@ arch wasteland
 x 9
 y 23
 end
+arch wasteland
+x 9
+y 24
+end
+arch wasteland
+x 9
+y 25
+end
 arch dungeon_magic
 x 10
 end
@@ -2572,6 +2653,10 @@ arch wasteland
 x 10
 y 24
 end
+arch wasteland
+x 10
+y 25
+end
 arch dungeon_magic
 x 11
 end
@@ -2786,6 +2871,10 @@ arch wasteland
 x 11
 y 24
 end
+arch wasteland
+x 11
+y 25
+end
 arch dungeon_magic
 x 12
 end
@@ -3011,6 +3100,10 @@ end
 arch wasteland
 x 12
 y 24
+end
+arch wasteland
+x 12
+y 25
 end
 arch dungeon_magic
 x 13
@@ -6490,6 +6583,10 @@ arch wasteland
 x 26
 y 24
 end
+arch wasteland
+x 26
+y 25
+end
 arch dungeon_magic
 x 27
 end
@@ -6704,6 +6801,10 @@ arch wasteland
 x 27
 y 24
 end
+arch wasteland
+x 27
+y 25
+end
 arch dungeon_magic
 x 28
 end
@@ -6908,6 +7009,10 @@ arch wasteland
 x 28
 y 24
 end
+arch wasteland
+x 28
+y 25
+end
 arch dungeon_magic
 x 29
 end
@@ -7136,6 +7241,10 @@ arch wasteland
 x 29
 y 24
 end
+arch wasteland
+x 29
+y 25
+end
 arch dungeon_magic
 x 30
 end
@@ -7358,6 +7467,14 @@ end
 arch wasteland
 x 30
 y 23
+end
+arch wasteland
+x 30
+y 24
+end
+arch wasteland
+x 30
+y 25
 end
 arch dungeon_magic
 x 31
@@ -7645,6 +7762,14 @@ arch wasteland
 x 31
 y 23
 end
+arch wasteland
+x 31
+y 24
+end
+arch wasteland
+x 31
+y 25
+end
 arch dungeon_magic
 x 32
 end
@@ -7907,6 +8032,14 @@ arch wasteland
 x 32
 y 23
 end
+arch wasteland
+x 32
+y 24
+end
+arch wasteland
+x 32
+y 25
+end
 arch dungeon_magic
 x 33
 end
@@ -8163,6 +8296,14 @@ end
 arch wasteland
 x 33
 y 23
+end
+arch wasteland
+x 33
+y 24
+end
+arch wasteland
+x 33
+y 25
 end
 arch dungeon_magic
 x 34
@@ -8455,6 +8596,14 @@ arch wasteland
 x 34
 y 23
 end
+arch wasteland
+x 34
+y 24
+end
+arch wasteland
+x 34
+y 25
+end
 arch dungeon_magic
 x 35
 end
@@ -8679,6 +8828,14 @@ end
 arch wasteland
 x 35
 y 23
+end
+arch wasteland
+x 35
+y 24
+end
+arch wasteland
+x 35
+y 25
 end
 arch dungeon_magic
 x 36
@@ -8884,6 +9041,14 @@ end
 arch wasteland
 x 36
 y 23
+end
+arch wasteland
+x 36
+y 24
+end
+arch wasteland
+x 36
+y 25
 end
 arch dungeon_magic
 x 37
@@ -9093,6 +9258,14 @@ arch wasteland
 x 37
 y 23
 end
+arch wasteland
+x 37
+y 24
+end
+arch wasteland
+x 37
+y 25
+end
 arch dungeon_magic
 x 38
 end
@@ -9365,4 +9538,16 @@ end
 arch wasteland
 x 38
 y 22
+end
+arch wasteland
+x 38
+y 23
+end
+arch wasteland
+x 38
+y 24
+end
+arch wasteland
+x 38
+y 25
 end
