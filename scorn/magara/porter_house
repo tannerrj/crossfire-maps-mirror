@@ -869,10 +869,6 @@ arch dirtfloor
 x 7
 y 3
 end
-arch generate_gnoll
-x 7
-y 3
-end
 arch dirtfloor
 x 7
 y 4
@@ -1214,6 +1210,10 @@ x 10
 y 2
 end
 arch dirtfloor
+x 10
+y 3
+end
+arch generate_gnoll
 x 10
 y 3
 end
