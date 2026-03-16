@@ -2134,6 +2134,10 @@ arch dirtfloor
 x 17
 y 7
 end
+arch generate_zombie
+x 17
+y 7
+end
 arch dirtfloor
 x 17
 y 8
@@ -2367,6 +2371,10 @@ x 19
 y 5
 end
 arch dirtfloor
+x 19
+y 6
+end
+arch zombie
 x 19
 y 6
 end
@@ -2492,6 +2500,10 @@ x 20
 y 5
 end
 arch dirtfloor
+x 20
+y 6
+end
+arch zombie
 x 20
 y 6
 end
