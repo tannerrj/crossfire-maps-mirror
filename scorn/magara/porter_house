@@ -8,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1994-10-11
-Modified: 2012-03-26 Rick Tanner
+Modified: 2026-03-16 Rick Tanner
 endmsg
 end
 arch dirtfloor
@@ -865,15 +865,11 @@ arch dirtfloor
 x 7
 y 2
 end
-arch slime
-x 7
-y 2
-end
 arch dirtfloor
 x 7
 y 3
 end
-arch slime
+arch generate_gnoll
 x 7
 y 3
 end
@@ -986,15 +982,11 @@ arch dirtfloor
 x 8
 y 2
 end
-arch slime
+arch gnoll
 x 8
 y 2
 end
 arch dirtfloor
-x 8
-y 3
-end
-arch slime
 x 8
 y 3
 end
@@ -1104,15 +1096,11 @@ arch dirtfloor
 x 9
 y 2
 end
-arch slime
+arch gnoll
 x 9
 y 2
 end
 arch dirtfloor
-x 9
-y 3
-end
-arch slime
 x 9
 y 3
 end
@@ -1225,15 +1213,7 @@ arch dirtfloor
 x 10
 y 2
 end
-arch slime
-x 10
-y 2
-end
 arch dirtfloor
-x 10
-y 3
-end
-arch slime
 x 10
 y 3
 end
@@ -2150,15 +2130,7 @@ arch dirtfloor
 x 17
 y 6
 end
-arch gnoll
-x 17
-y 6
-end
 arch dirtfloor
-x 17
-y 7
-end
-arch generate_gnoll
 x 17
 y 7
 end
@@ -2273,10 +2245,6 @@ x 18
 y 5
 end
 arch dirtfloor
-x 18
-y 6
-end
-arch gnoll
 x 18
 y 6
 end
