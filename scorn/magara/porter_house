@@ -3,12 +3,12 @@ name House of Porters
 difficulty 11
 region scorn
 width 25
-height 16
+height 20
 enter_x 1
 enter_y 1
 msg
 Created:  1994-10-11
-Modified: 2026-03-16 Rick Tanner
+Modified: 2026-03-17 Rick Tanner
 endmsg
 end
 arch dirtfloor
@@ -102,8 +102,32 @@ end
 arch dirtfloor
 y 15
 end
-arch bwall_2_2_1
+arch bwall_3_2
 y 15
+end
+arch dirtfloor
+y 16
+end
+arch bwall_2_1_1
+y 16
+end
+arch dirtfloor
+y 17
+end
+arch bwall_3_2
+y 17
+end
+arch dirtfloor
+y 18
+end
+arch bwall_2_1_1
+y 18
+end
+arch dirtfloor
+y 19
+end
+arch bwall_2_2_1
+y 19
 end
 arch dirtfloor
 x 1
@@ -214,6 +238,61 @@ x 1
 y 15
 end
 arch dirtfloor
+x 1
+y 16
+end
+arch potion_heal
+x 1
+y 16
+arch spell_heal
+end
+end
+arch potion_magic
+x 1
+y 16
+arch spell_regenerate_spellpoints
+end
+end
+arch minor_potion_restoration
+x 1
+y 16
+end
+arch random_gem
+x 1
+y 16
+end
+arch random_wealth
+x 1
+y 16
+end
+arch dirtfloor
+x 1
+y 17
+end
+arch bwall_2_1_2
+x 1
+y 17
+end
+arch dirtfloor
+x 1
+y 18
+end
+arch teleporter
+slaying porter_house
+hp 1
+sp 3
+x 1
+y 18
+end
+arch dirtfloor
+x 1
+y 19
+end
+arch bwall_2_1_2
+x 1
+y 19
+end
+arch dirtfloor
 x 2
 end
 arch bwall_2_1_2
@@ -318,6 +397,35 @@ x 2
 y 15
 end
 arch dirtfloor
+x 2
+y 16
+end
+arch door_1
+hp 50
+x 2
+y 16
+end
+arch dirtfloor
+x 2
+y 17
+end
+arch bwall_1_3
+x 2
+y 17
+end
+arch dirtfloor
+x 2
+y 18
+end
+arch dirtfloor
+x 2
+y 19
+end
+arch bwall_2_1_2
+x 2
+y 19
+end
+arch dirtfloor
 x 3
 end
 arch bwall_2_1_2
@@ -416,6 +524,30 @@ x 3
 y 15
 end
 arch dirtfloor
+x 3
+y 16
+end
+arch dirtfloor
+x 3
+y 17
+end
+arch dirtfloor
+x 3
+y 18
+end
+arch imp
+x 3
+y 18
+end
+arch dirtfloor
+x 3
+y 19
+end
+arch bwall_2_1_2
+x 3
+y 19
+end
+arch dirtfloor
 x 4
 end
 arch bwall_2_1_2
@@ -500,6 +632,34 @@ end
 arch bwall_2_1_2
 x 4
 y 15
+end
+arch dirtfloor
+x 4
+y 16
+end
+arch imp
+x 4
+y 16
+end
+arch dirtfloor
+x 4
+y 17
+end
+arch dirtfloor
+x 4
+y 18
+end
+arch bwall_1_1
+x 4
+y 18
+end
+arch dirtfloor
+x 4
+y 19
+end
+arch bwall_3_1
+x 4
+y 19
 end
 arch dirtfloor
 x 5
@@ -626,6 +786,26 @@ x 5
 y 15
 end
 arch dirtfloor
+x 5
+y 16
+end
+arch dirtfloor
+x 5
+y 17
+end
+arch dirtfloor
+x 5
+y 18
+end
+arch dirtfloor
+x 5
+y 19
+end
+arch bwall_2_1_2
+x 5
+y 19
+end
+arch dirtfloor
 x 6
 end
 arch bwall_3_3
@@ -747,9 +927,41 @@ arch dirtfloor
 x 6
 y 15
 end
-arch bwall_3_1
+arch bwall_4
 x 6
 y 15
+end
+arch dirtfloor
+x 6
+y 16
+end
+arch bwall_2_1_1
+x 6
+y 16
+end
+arch dirtfloor
+x 6
+y 17
+end
+arch bwall_2_1_1
+x 6
+y 17
+end
+arch dirtfloor
+x 6
+y 18
+end
+arch bwall_2_1_1
+x 6
+y 18
+end
+arch dirtfloor
+x 6
+y 19
+end
+arch bwall_3_1
+x 6
+y 19
 end
 arch dirtfloor
 x 7
@@ -865,6 +1077,37 @@ x 7
 y 15
 end
 arch dirtfloor
+x 7
+y 16
+end
+arch teleporter
+slaying porter_house
+hp 5
+sp 18
+x 7
+y 16
+end
+arch dirtfloor
+x 7
+y 17
+end
+arch dirtfloor
+x 7
+y 18
+end
+arch small_troll
+x 7
+y 18
+end
+arch dirtfloor
+x 7
+y 19
+end
+arch bwall_2_1_2
+x 7
+y 19
+end
+arch dirtfloor
 x 8
 end
 arch bwall_2_1_2
@@ -974,9 +1217,33 @@ arch dirtfloor
 x 8
 y 15
 end
-arch bwall_2_1_2
+arch bwall_3_3
 x 8
 y 15
+end
+arch dirtfloor
+x 8
+y 16
+end
+arch bwall_1_2
+x 8
+y 16
+end
+arch dirtfloor
+x 8
+y 17
+end
+arch dirtfloor
+x 8
+y 18
+end
+arch dirtfloor
+x 8
+y 19
+end
+arch bwall_2_1_2
+x 8
+y 19
 end
 arch dirtfloor
 x 9
@@ -1091,6 +1358,26 @@ end
 arch bwall_2_1_2
 x 9
 y 15
+end
+arch dirtfloor
+x 9
+y 16
+end
+arch dirtfloor
+x 9
+y 17
+end
+arch dirtfloor
+x 9
+y 18
+end
+arch dirtfloor
+x 9
+y 19
+end
+arch bwall_2_1_2
+x 9
+y 19
 end
 arch dirtfloor
 x 10
@@ -1217,6 +1504,26 @@ x 10
 y 15
 end
 arch dirtfloor
+x 10
+y 16
+end
+arch dirtfloor
+x 10
+y 17
+end
+arch dirtfloor
+x 10
+y 18
+end
+arch dirtfloor
+x 10
+y 19
+end
+arch bwall_2_1_2
+x 10
+y 19
+end
+arch dirtfloor
 x 11
 end
 arch bwall_3_3
@@ -1338,9 +1645,41 @@ arch dirtfloor
 x 11
 y 15
 end
-arch bwall_3_1
+arch bwall_4
 x 11
 y 15
+end
+arch dirtfloor
+x 11
+y 16
+end
+arch bwall_2_1_1
+x 11
+y 16
+end
+arch dirtfloor
+x 11
+y 17
+end
+arch bwall_2_1_1
+x 11
+y 17
+end
+arch dirtfloor
+x 11
+y 18
+end
+arch bwall_2_1_1
+x 11
+y 18
+end
+arch dirtfloor
+x 11
+y 19
+end
+arch bwall_3_1
+x 11
+y 19
 end
 arch dirtfloor
 x 12
@@ -1472,6 +1811,37 @@ x 12
 y 15
 end
 arch dirtfloor
+x 12
+y 16
+end
+arch teleporter
+slaying porter_house
+hp 10
+sp 18
+x 12
+y 16
+end
+arch dirtfloor
+x 12
+y 17
+end
+arch dirtfloor
+x 12
+y 18
+end
+arch madman
+x 12
+y 18
+end
+arch dirtfloor
+x 12
+y 19
+end
+arch bwall_2_1_2
+x 12
+y 19
+end
+arch dirtfloor
 x 13
 end
 arch bwall_2_1_2
@@ -1598,6 +1968,30 @@ x 13
 y 15
 end
 arch dirtfloor
+x 13
+y 16
+end
+arch dirtfloor
+x 13
+y 17
+end
+arch dirtfloor
+x 13
+y 18
+end
+arch bwall_1_1
+x 13
+y 18
+end
+arch dirtfloor
+x 13
+y 19
+end
+arch bwall_3_1
+x 13
+y 19
+end
+arch dirtfloor
 x 14
 end
 arch bwall_2_1_2
@@ -1722,6 +2116,30 @@ end
 arch bwall_2_1_2
 x 14
 y 15
+end
+arch dirtfloor
+x 14
+y 16
+end
+arch dirtfloor
+x 14
+y 17
+end
+arch dirtfloor
+x 14
+y 18
+end
+arch madman
+x 14
+y 18
+end
+arch dirtfloor
+x 14
+y 19
+end
+arch bwall_2_1_2
+x 14
+y 19
 end
 arch dirtfloor
 x 15
@@ -1856,6 +2274,26 @@ x 15
 y 15
 end
 arch dirtfloor
+x 15
+y 16
+end
+arch dirtfloor
+x 15
+y 17
+end
+arch dirtfloor
+x 15
+y 18
+end
+arch dirtfloor
+x 15
+y 19
+end
+arch bwall_2_1_2
+x 15
+y 19
+end
+arch dirtfloor
 x 16
 end
 arch bwall_3_3
@@ -1977,9 +2415,41 @@ arch dirtfloor
 x 16
 y 15
 end
-arch bwall_3_1
+arch bwall_4
 x 16
 y 15
+end
+arch dirtfloor
+x 16
+y 16
+end
+arch bwall_2_1_1
+x 16
+y 16
+end
+arch dirtfloor
+x 16
+y 17
+end
+arch bwall_2_1_1
+x 16
+y 17
+end
+arch dirtfloor
+x 16
+y 18
+end
+arch bwall_2_1_1
+x 16
+y 18
+end
+arch dirtfloor
+x 16
+y 19
+end
+arch bwall_3_1
+x 16
+y 19
 end
 arch dirtfloor
 x 17
@@ -2107,6 +2577,34 @@ x 17
 y 15
 end
 arch dirtfloor
+x 17
+y 16
+end
+arch generate_zombie
+x 17
+y 16
+end
+arch dirtfloor
+x 17
+y 17
+end
+arch dirtfloor
+x 17
+y 18
+end
+arch zombie
+x 17
+y 18
+end
+arch dirtfloor
+x 17
+y 19
+end
+arch bwall_2_1_2
+x 17
+y 19
+end
+arch dirtfloor
 x 18
 end
 arch bwall_2_1_2
@@ -2227,6 +2725,37 @@ end
 arch bwall_2_1_2
 x 18
 y 15
+end
+arch dirtfloor
+x 18
+y 16
+end
+arch dirtfloor
+x 18
+y 17
+end
+arch zombie
+x 18
+y 17
+end
+arch dirtfloor
+x 18
+y 18
+end
+arch teleporter
+slaying porter_house
+hp 15
+sp 16
+x 18
+y 18
+end
+arch dirtfloor
+x 18
+y 19
+end
+arch bwall_2_1_2
+x 18
+y 19
 end
 arch dirtfloor
 x 19
@@ -2353,6 +2882,34 @@ end
 arch bwall_2_1_2
 x 19
 y 15
+end
+arch dirtfloor
+x 19
+y 16
+end
+arch zombie
+x 19
+y 16
+end
+arch dirtfloor
+x 19
+y 17
+end
+arch dirtfloor
+x 19
+y 18
+end
+arch bwall_1_1
+x 19
+y 18
+end
+arch dirtfloor
+x 19
+y 19
+end
+arch bwall_3_1
+x 19
+y 19
 end
 arch dirtfloor
 x 20
@@ -2487,6 +3044,30 @@ x 20
 y 15
 end
 arch dirtfloor
+x 20
+y 16
+end
+arch dirtfloor
+x 20
+y 17
+end
+arch zombie
+x 20
+y 17
+end
+arch dirtfloor
+x 20
+y 18
+end
+arch dirtfloor
+x 20
+y 19
+end
+arch bwall_2_1_2
+x 20
+y 19
+end
+arch dirtfloor
 x 21
 end
 arch bwall_3_3
@@ -2613,6 +3194,30 @@ x 21
 y 15
 end
 arch dirtfloor
+x 21
+y 16
+end
+arch dirtfloor
+x 21
+y 17
+end
+arch dirtfloor
+x 21
+y 18
+end
+arch zombie
+x 21
+y 18
+end
+arch dirtfloor
+x 21
+y 19
+end
+arch bwall_2_1_2
+x 21
+y 19
+end
+arch dirtfloor
 x 22
 end
 arch bwall_2_1_2
@@ -2726,6 +3331,30 @@ x 22
 y 15
 end
 arch dirtfloor
+x 22
+y 16
+end
+arch dirtfloor
+x 22
+y 17
+end
+arch zombie
+x 22
+y 17
+end
+arch dirtfloor
+x 22
+y 18
+end
+arch dirtfloor
+x 22
+y 19
+end
+arch bwall_2_1_2
+x 22
+y 19
+end
+arch dirtfloor
 x 23
 end
 arch bwall_2_1_2
@@ -2821,8 +3450,8 @@ y 14
 end
 arch teleporter
 slaying porter_house
-hp 1
-sp 3
+hp 23
+sp 16
 x 23
 y 14
 end
@@ -2833,6 +3462,30 @@ end
 arch bwall_2_1_2
 x 23
 y 15
+end
+arch dirtfloor
+x 23
+y 16
+end
+arch dirtfloor
+x 23
+y 17
+end
+arch dirtfloor
+x 23
+y 18
+end
+arch generate_zombie
+x 23
+y 18
+end
+arch dirtfloor
+x 23
+y 19
+end
+arch bwall_2_1_2
+x 23
+y 19
 end
 arch dirtfloor
 x 24
@@ -2956,7 +3609,39 @@ arch dirtfloor
 x 24
 y 15
 end
-arch bwall_2_2_4
+arch bwall_3_4
 x 24
 y 15
+end
+arch dirtfloor
+x 24
+y 16
+end
+arch bwall_2_1_1
+x 24
+y 16
+end
+arch dirtfloor
+x 24
+y 17
+end
+arch bwall_2_1_1
+x 24
+y 17
+end
+arch dirtfloor
+x 24
+y 18
+end
+arch bwall_2_1_1
+x 24
+y 18
+end
+arch dirtfloor
+x 24
+y 19
+end
+arch bwall_2_2_4
+x 24
+y 19
 end
