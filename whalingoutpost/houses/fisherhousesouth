@@ -8,7 +8,7 @@ enter_x 1
 enter_y 8
 msg
 Created:  2008-11-23
-Modified: 2012-05-31 Rick Tanner
+Modified: 2026-03-15 Rick Tanner
 endmsg
 end
 arch invis_exit
@@ -339,7 +339,7 @@ arch grass_only
 x 3
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 3
 end
@@ -347,7 +347,7 @@ arch woodwall_2_2_2
 x 3
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 4
 end
@@ -355,7 +355,7 @@ arch woodwall_2_1_1
 x 3
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 5
 end
@@ -363,7 +363,7 @@ arch woodwall_2_1_1
 x 3
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 6
 end
@@ -371,7 +371,7 @@ arch woodwall_win1
 x 3
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 7
 end
@@ -379,7 +379,7 @@ arch woodwall_1_2
 x 3
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 8
 end
@@ -387,7 +387,7 @@ arch door_1
 x 3
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 9
 end
@@ -395,7 +395,7 @@ arch woodwall_1_1
 x 3
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 10
 end
@@ -403,7 +403,7 @@ arch woodwall_2_1_1
 x 3
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 11
 end
@@ -411,7 +411,7 @@ arch woodwall_2_1_1
 x 3
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 12
 end
@@ -419,7 +419,7 @@ arch woodwall_2_1_1
 x 3
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 3
 y 13
 end
@@ -463,7 +463,7 @@ arch grass_only
 x 4
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 3
 end
@@ -519,7 +519,7 @@ arch fishfood
 x 4
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 4
 y 13
 end
@@ -563,7 +563,7 @@ arch grass_only
 x 5
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 3
 end
@@ -630,7 +630,7 @@ arch fishfood
 x 5
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 5
 y 13
 end
@@ -674,7 +674,7 @@ arch grass_only
 x 6
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 3
 end
@@ -726,7 +726,7 @@ arch fishfood
 x 6
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 6
 y 13
 end
@@ -770,7 +770,7 @@ arch grass_only
 x 7
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 3
 end
@@ -818,7 +818,7 @@ arch fishfood
 x 7
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 7
 y 13
 end
@@ -862,7 +862,7 @@ arch grass_only
 x 8
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 3
 end
@@ -926,7 +926,7 @@ arch dirtfloor
 x 8
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 8
 y 13
 end
@@ -970,7 +970,7 @@ arch grass_only
 x 9
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 3
 end
@@ -1031,7 +1031,7 @@ name fish in a barrel
 x 9
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 9
 y 13
 end
@@ -1075,7 +1075,7 @@ arch grass_only
 x 10
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 3
 end
@@ -1145,7 +1145,7 @@ name fish in a barrel
 x 10
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 10
 y 13
 end
@@ -1189,7 +1189,7 @@ arch grass_only
 x 11
 y 2
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 3
 end
@@ -1197,7 +1197,7 @@ arch woodwall_2_2_3
 x 11
 y 3
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 4
 end
@@ -1205,7 +1205,7 @@ arch woodwall_2_1_1
 x 11
 y 4
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 5
 end
@@ -1213,7 +1213,7 @@ arch woodwall_win1
 x 11
 y 5
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 6
 end
@@ -1221,7 +1221,7 @@ arch woodwall_2_1_1
 x 11
 y 6
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 7
 end
@@ -1229,7 +1229,7 @@ arch woodwall_2_1_1
 x 11
 y 7
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 8
 end
@@ -1237,7 +1237,7 @@ arch woodwall_3_4
 x 11
 y 8
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 9
 end
@@ -1245,7 +1245,7 @@ arch woodwall_2_1_1
 x 11
 y 9
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 10
 end
@@ -1253,7 +1253,7 @@ arch woodwall_2_1_1
 x 11
 y 10
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 11
 end
@@ -1261,7 +1261,7 @@ arch woodwall_win1
 x 11
 y 11
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 12
 end
@@ -1269,7 +1269,7 @@ arch woodwall_2_1_1
 x 11
 y 12
 end
-arch dirtfloor
+arch dungeon_floor
 x 11
 y 13
 end
