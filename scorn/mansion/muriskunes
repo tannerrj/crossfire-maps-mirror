@@ -83,6 +83,15 @@ end
 arch blocked
 y 22
 end
+arch blocked
+y 23
+end
+arch blocked
+y 24
+end
+arch blocked
+y 25
+end
 arch dirtfloor
 y 26
 end
@@ -328,6 +337,18 @@ end
 arch blocked
 x 1
 y 22
+end
+arch blocked
+x 1
+y 23
+end
+arch blocked
+x 1
+y 24
+end
+arch blocked
+x 1
+y 25
 end
 arch dirtfloor
 x 1
@@ -618,6 +639,18 @@ arch blocked
 x 2
 y 22
 end
+arch blocked
+x 2
+y 23
+end
+arch blocked
+x 2
+y 24
+end
+arch blocked
+x 2
+y 25
+end
 arch dirtfloor
 x 2
 y 26
@@ -880,6 +913,18 @@ end
 arch blocked
 x 3
 y 22
+end
+arch blocked
+x 3
+y 23
+end
+arch blocked
+x 3
+y 24
+end
+arch blocked
+x 3
+y 25
 end
 arch dirtfloor
 x 3
@@ -1153,6 +1198,18 @@ arch blocked
 x 4
 y 22
 end
+arch blocked
+x 4
+y 23
+end
+arch blocked
+x 4
+y 24
+end
+arch blocked
+x 4
+y 25
+end
 arch dirtfloor
 x 4
 y 26
@@ -1406,6 +1463,18 @@ arch blocked
 x 5
 y 22
 end
+arch blocked
+x 5
+y 23
+end
+arch blocked
+x 5
+y 24
+end
+arch blocked
+x 5
+y 25
+end
 arch dirtfloor
 x 5
 y 26
@@ -1645,6 +1714,18 @@ end
 arch blocked
 x 6
 y 22
+end
+arch blocked
+x 6
+y 23
+end
+arch blocked
+x 6
+y 24
+end
+arch blocked
+x 6
+y 25
 end
 arch dirtfloor
 x 6
@@ -1887,6 +1968,10 @@ y 9
 end
 arch blocked
 x 7
+y 10
+end
+arch blocked
+x 7
 y 11
 end
 arch Nimground3_purple
@@ -1951,6 +2036,18 @@ end
 arch blocked
 x 7
 y 22
+end
+arch blocked
+x 7
+y 23
+end
+arch blocked
+x 7
+y 24
+end
+arch blocked
+x 7
+y 25
 end
 arch dirtfloor
 x 7
@@ -2124,6 +2221,10 @@ y 9
 end
 arch blocked
 x 8
+y 10
+end
+arch blocked
+x 8
 y 11
 end
 arch Nimground3_purple
@@ -2201,6 +2302,18 @@ end
 arch blocked
 x 8
 y 22
+end
+arch blocked
+x 8
+y 23
+end
+arch blocked
+x 8
+y 24
+end
+arch blocked
+x 8
+y 25
 end
 arch dirtfloor
 x 8
@@ -2430,6 +2543,10 @@ y 9
 end
 arch blocked
 x 9
+y 10
+end
+arch blocked
+x 9
 y 11
 end
 arch Nimground3_purple
@@ -2483,6 +2600,18 @@ end
 arch blocked
 x 9
 y 22
+end
+arch blocked
+x 9
+y 23
+end
+arch blocked
+x 9
+y 24
+end
+arch blocked
+x 9
+y 25
 end
 arch dirtfloor
 x 9
@@ -2712,6 +2841,10 @@ y 9
 end
 arch blocked
 x 10
+y 10
+end
+arch blocked
+x 10
 y 11
 end
 arch Nimground3_purple
@@ -2771,6 +2904,18 @@ end
 arch blocked
 x 10
 y 22
+end
+arch blocked
+x 10
+y 23
+end
+arch blocked
+x 10
+y 24
+end
+arch blocked
+x 10
+y 25
 end
 arch dirtfloor
 x 10
@@ -2990,6 +3135,10 @@ y 9
 end
 arch blocked
 x 11
+y 10
+end
+arch blocked
+x 11
 y 11
 end
 arch blocked
@@ -3081,6 +3230,18 @@ end
 arch blocked
 x 11
 y 22
+end
+arch blocked
+x 11
+y 23
+end
+arch blocked
+x 11
+y 24
+end
+arch blocked
+x 11
+y 25
 end
 arch dirtfloor
 x 11
@@ -3309,6 +3470,26 @@ y 9
 end
 arch blocked
 x 12
+y 10
+end
+arch blocked
+x 12
+y 11
+end
+arch blocked
+x 12
+y 12
+end
+arch blocked
+x 12
+y 13
+end
+arch blocked
+x 12
+y 14
+end
+arch blocked
+x 12
 y 15
 end
 arch blocked
@@ -3318,6 +3499,38 @@ end
 arch blocked
 x 12
 y 17
+end
+arch blocked
+x 12
+y 18
+end
+arch blocked
+x 12
+y 19
+end
+arch blocked
+x 12
+y 20
+end
+arch blocked
+x 12
+y 21
+end
+arch blocked
+x 12
+y 22
+end
+arch blocked
+x 12
+y 23
+end
+arch blocked
+x 12
+y 24
+end
+arch blocked
+x 12
+y 25
 end
 arch dirtfloor
 x 12
@@ -3533,6 +3746,18 @@ arch bwall_2_1_2
 x 13
 y 9
 end
+arch blocked
+x 13
+y 10
+end
+arch blocked
+x 13
+y 11
+end
+arch blocked
+x 13
+y 12
+end
 arch dirtfloor
 x 13
 y 13
@@ -3564,6 +3789,42 @@ end
 arch bwall_2_2_1
 x 13
 y 16
+end
+arch blocked
+x 13
+y 17
+end
+arch blocked
+x 13
+y 18
+end
+arch blocked
+x 13
+y 19
+end
+arch blocked
+x 13
+y 20
+end
+arch blocked
+x 13
+y 21
+end
+arch blocked
+x 13
+y 22
+end
+arch blocked
+x 13
+y 23
+end
+arch blocked
+x 13
+y 24
+end
+arch blocked
+x 13
+y 25
 end
 arch dirtfloor
 x 13
@@ -3787,6 +4048,18 @@ arch bwall_2_1_2
 x 14
 y 9
 end
+arch blocked
+x 14
+y 10
+end
+arch blocked
+x 14
+y 11
+end
+arch blocked
+x 14
+y 12
+end
 arch dirtfloor
 x 14
 y 13
@@ -3822,6 +4095,42 @@ end
 arch bwall_2_1_2
 x 14
 y 16
+end
+arch blocked
+x 14
+y 17
+end
+arch blocked
+x 14
+y 18
+end
+arch blocked
+x 14
+y 19
+end
+arch blocked
+x 14
+y 20
+end
+arch blocked
+x 14
+y 21
+end
+arch blocked
+x 14
+y 22
+end
+arch blocked
+x 14
+y 23
+end
+arch blocked
+x 14
+y 24
+end
+arch blocked
+x 14
+y 25
 end
 arch dirtfloor
 x 14
@@ -4029,6 +4338,18 @@ arch bwall_2_1_2
 x 15
 y 9
 end
+arch blocked
+x 15
+y 10
+end
+arch blocked
+x 15
+y 11
+end
+arch blocked
+x 15
+y 12
+end
 arch dirtfloor
 x 15
 y 13
@@ -4052,6 +4373,30 @@ end
 arch bwall_2_1_2
 x 15
 y 16
+end
+arch blocked
+x 15
+y 17
+end
+arch blocked
+x 15
+y 18
+end
+arch blocked
+x 15
+y 19
+end
+arch blocked
+x 15
+y 20
+end
+arch blocked
+x 15
+y 21
+end
+arch blocked
+x 15
+y 22
 end
 arch dirtfloor
 x 15
@@ -5335,6 +5680,18 @@ arch bwall_2_1_2
 x 19
 y 9
 end
+arch blocked
+x 19
+y 10
+end
+arch blocked
+x 19
+y 11
+end
+arch blocked
+x 19
+y 12
+end
 arch dirtfloor
 x 19
 y 13
@@ -5358,6 +5715,30 @@ end
 arch bwall_2_1_2
 x 19
 y 16
+end
+arch blocked
+x 19
+y 17
+end
+arch blocked
+x 19
+y 18
+end
+arch blocked
+x 19
+y 19
+end
+arch blocked
+x 19
+y 20
+end
+arch blocked
+x 19
+y 21
+end
+arch blocked
+x 19
+y 22
 end
 arch dirtfloor
 x 19
@@ -5601,6 +5982,18 @@ arch bwall_2_1_2
 x 20
 y 9
 end
+arch blocked
+x 20
+y 10
+end
+arch blocked
+x 20
+y 11
+end
+arch blocked
+x 20
+y 12
+end
 arch dirtfloor
 x 20
 y 13
@@ -5636,6 +6029,42 @@ end
 arch bwall_2_1_2
 x 20
 y 16
+end
+arch blocked
+x 20
+y 17
+end
+arch blocked
+x 20
+y 18
+end
+arch blocked
+x 20
+y 19
+end
+arch blocked
+x 20
+y 20
+end
+arch blocked
+x 20
+y 21
+end
+arch blocked
+x 20
+y 22
+end
+arch blocked
+x 20
+y 23
+end
+arch blocked
+x 20
+y 24
+end
+arch blocked
+x 20
+y 25
 end
 arch dirtfloor
 x 20
@@ -5871,6 +6300,18 @@ arch bwall_2_1_2
 x 21
 y 9
 end
+arch blocked
+x 21
+y 10
+end
+arch blocked
+x 21
+y 11
+end
+arch blocked
+x 21
+y 12
+end
 arch dirtfloor
 x 21
 y 13
@@ -5902,6 +6343,42 @@ end
 arch bwall_2_2_4
 x 21
 y 16
+end
+arch blocked
+x 21
+y 17
+end
+arch blocked
+x 21
+y 18
+end
+arch blocked
+x 21
+y 19
+end
+arch blocked
+x 21
+y 20
+end
+arch blocked
+x 21
+y 21
+end
+arch blocked
+x 21
+y 22
+end
+arch blocked
+x 21
+y 23
+end
+arch blocked
+x 21
+y 24
+end
+arch blocked
+x 21
+y 25
 end
 arch dirtfloor
 x 21
@@ -6155,6 +6632,70 @@ arch bwall_2_1_2
 x 22
 y 9
 end
+arch blocked
+x 22
+y 10
+end
+arch blocked
+x 22
+y 11
+end
+arch blocked
+x 22
+y 12
+end
+arch blocked
+x 22
+y 13
+end
+arch blocked
+x 22
+y 14
+end
+arch blocked
+x 22
+y 15
+end
+arch blocked
+x 22
+y 16
+end
+arch blocked
+x 22
+y 17
+end
+arch blocked
+x 22
+y 18
+end
+arch blocked
+x 22
+y 19
+end
+arch blocked
+x 22
+y 20
+end
+arch blocked
+x 22
+y 21
+end
+arch blocked
+x 22
+y 22
+end
+arch blocked
+x 22
+y 23
+end
+arch blocked
+x 22
+y 24
+end
+arch blocked
+x 22
+y 25
+end
 arch dirtfloor
 x 22
 y 26
@@ -6400,6 +6941,70 @@ arch bwall_2_1_2
 x 23
 y 9
 end
+arch blocked
+x 23
+y 10
+end
+arch blocked
+x 23
+y 11
+end
+arch blocked
+x 23
+y 12
+end
+arch blocked
+x 23
+y 13
+end
+arch blocked
+x 23
+y 14
+end
+arch blocked
+x 23
+y 15
+end
+arch blocked
+x 23
+y 16
+end
+arch blocked
+x 23
+y 17
+end
+arch blocked
+x 23
+y 18
+end
+arch blocked
+x 23
+y 19
+end
+arch blocked
+x 23
+y 20
+end
+arch blocked
+x 23
+y 21
+end
+arch blocked
+x 23
+y 22
+end
+arch blocked
+x 23
+y 23
+end
+arch blocked
+x 23
+y 24
+end
+arch blocked
+x 23
+y 25
+end
 arch dirtfloor
 x 23
 y 26
@@ -6627,6 +7232,70 @@ arch bwall_2_1_2
 x 24
 y 9
 end
+arch blocked
+x 24
+y 10
+end
+arch blocked
+x 24
+y 11
+end
+arch blocked
+x 24
+y 12
+end
+arch blocked
+x 24
+y 13
+end
+arch blocked
+x 24
+y 14
+end
+arch blocked
+x 24
+y 15
+end
+arch blocked
+x 24
+y 16
+end
+arch blocked
+x 24
+y 17
+end
+arch blocked
+x 24
+y 18
+end
+arch blocked
+x 24
+y 19
+end
+arch blocked
+x 24
+y 20
+end
+arch blocked
+x 24
+y 21
+end
+arch blocked
+x 24
+y 22
+end
+arch blocked
+x 24
+y 23
+end
+arch blocked
+x 24
+y 24
+end
+arch blocked
+x 24
+y 25
+end
 arch dirtfloor
 x 24
 y 26
@@ -6845,6 +7514,70 @@ end
 arch bwall_2_1_2
 x 25
 y 9
+end
+arch blocked
+x 25
+y 10
+end
+arch blocked
+x 25
+y 11
+end
+arch blocked
+x 25
+y 12
+end
+arch blocked
+x 25
+y 13
+end
+arch blocked
+x 25
+y 14
+end
+arch blocked
+x 25
+y 15
+end
+arch blocked
+x 25
+y 16
+end
+arch blocked
+x 25
+y 17
+end
+arch blocked
+x 25
+y 18
+end
+arch blocked
+x 25
+y 19
+end
+arch blocked
+x 25
+y 20
+end
+arch blocked
+x 25
+y 21
+end
+arch blocked
+x 25
+y 22
+end
+arch blocked
+x 25
+y 23
+end
+arch blocked
+x 25
+y 24
+end
+arch blocked
+x 25
+y 25
 end
 arch dirtfloor
 x 25
@@ -7076,6 +7809,70 @@ arch bwall_2_2_4
 x 26
 y 9
 end
+arch blocked
+x 26
+y 10
+end
+arch blocked
+x 26
+y 11
+end
+arch blocked
+x 26
+y 12
+end
+arch blocked
+x 26
+y 13
+end
+arch blocked
+x 26
+y 14
+end
+arch blocked
+x 26
+y 15
+end
+arch blocked
+x 26
+y 16
+end
+arch blocked
+x 26
+y 17
+end
+arch blocked
+x 26
+y 18
+end
+arch blocked
+x 26
+y 19
+end
+arch blocked
+x 26
+y 20
+end
+arch blocked
+x 26
+y 21
+end
+arch blocked
+x 26
+y 22
+end
+arch blocked
+x 26
+y 23
+end
+arch blocked
+x 26
+y 24
+end
+arch blocked
+x 26
+y 25
+end
 arch dirtfloor
 x 26
 y 26
@@ -7236,6 +8033,109 @@ arch bwall_2_1_2
 x 26
 y 47
 end
+arch blocked
+x 27
+end
+arch blocked
+x 27
+y 1
+end
+arch blocked
+x 27
+y 2
+end
+arch blocked
+x 27
+y 3
+end
+arch blocked
+x 27
+y 4
+end
+arch blocked
+x 27
+y 5
+end
+arch blocked
+x 27
+y 6
+end
+arch blocked
+x 27
+y 7
+end
+arch blocked
+x 27
+y 8
+end
+arch blocked
+x 27
+y 9
+end
+arch blocked
+x 27
+y 10
+end
+arch blocked
+x 27
+y 11
+end
+arch blocked
+x 27
+y 12
+end
+arch blocked
+x 27
+y 13
+end
+arch blocked
+x 27
+y 14
+end
+arch blocked
+x 27
+y 15
+end
+arch blocked
+x 27
+y 16
+end
+arch blocked
+x 27
+y 17
+end
+arch blocked
+x 27
+y 18
+end
+arch blocked
+x 27
+y 19
+end
+arch blocked
+x 27
+y 20
+end
+arch blocked
+x 27
+y 21
+end
+arch blocked
+x 27
+y 22
+end
+arch blocked
+x 27
+y 23
+end
+arch blocked
+x 27
+y 24
+end
+arch blocked
+x 27
+y 25
+end
 arch dirtfloor
 x 27
 y 26
@@ -7367,6 +8267,109 @@ end
 arch bwall_2_1_2
 x 27
 y 47
+end
+arch blocked
+x 28
+end
+arch blocked
+x 28
+y 1
+end
+arch blocked
+x 28
+y 2
+end
+arch blocked
+x 28
+y 3
+end
+arch blocked
+x 28
+y 4
+end
+arch blocked
+x 28
+y 5
+end
+arch blocked
+x 28
+y 6
+end
+arch blocked
+x 28
+y 7
+end
+arch blocked
+x 28
+y 8
+end
+arch blocked
+x 28
+y 9
+end
+arch blocked
+x 28
+y 10
+end
+arch blocked
+x 28
+y 11
+end
+arch blocked
+x 28
+y 12
+end
+arch blocked
+x 28
+y 13
+end
+arch blocked
+x 28
+y 14
+end
+arch blocked
+x 28
+y 15
+end
+arch blocked
+x 28
+y 16
+end
+arch blocked
+x 28
+y 17
+end
+arch blocked
+x 28
+y 18
+end
+arch blocked
+x 28
+y 19
+end
+arch blocked
+x 28
+y 20
+end
+arch blocked
+x 28
+y 21
+end
+arch blocked
+x 28
+y 22
+end
+arch blocked
+x 28
+y 23
+end
+arch blocked
+x 28
+y 24
+end
+arch blocked
+x 28
+y 25
 end
 arch dirtfloor
 x 28
@@ -7516,6 +8519,109 @@ arch bwall_2_1_2
 x 28
 y 47
 end
+arch blocked
+x 29
+end
+arch blocked
+x 29
+y 1
+end
+arch blocked
+x 29
+y 2
+end
+arch blocked
+x 29
+y 3
+end
+arch blocked
+x 29
+y 4
+end
+arch blocked
+x 29
+y 5
+end
+arch blocked
+x 29
+y 6
+end
+arch blocked
+x 29
+y 7
+end
+arch blocked
+x 29
+y 8
+end
+arch blocked
+x 29
+y 9
+end
+arch blocked
+x 29
+y 10
+end
+arch blocked
+x 29
+y 11
+end
+arch blocked
+x 29
+y 12
+end
+arch blocked
+x 29
+y 13
+end
+arch blocked
+x 29
+y 14
+end
+arch blocked
+x 29
+y 15
+end
+arch blocked
+x 29
+y 16
+end
+arch blocked
+x 29
+y 17
+end
+arch blocked
+x 29
+y 18
+end
+arch blocked
+x 29
+y 19
+end
+arch blocked
+x 29
+y 20
+end
+arch blocked
+x 29
+y 21
+end
+arch blocked
+x 29
+y 22
+end
+arch blocked
+x 29
+y 23
+end
+arch blocked
+x 29
+y 24
+end
+arch blocked
+x 29
+y 25
+end
 arch dirtfloor
 x 29
 y 26
@@ -7656,6 +8762,109 @@ arch bwall_2_1_2
 x 29
 y 47
 end
+arch blocked
+x 30
+end
+arch blocked
+x 30
+y 1
+end
+arch blocked
+x 30
+y 2
+end
+arch blocked
+x 30
+y 3
+end
+arch blocked
+x 30
+y 4
+end
+arch blocked
+x 30
+y 5
+end
+arch blocked
+x 30
+y 6
+end
+arch blocked
+x 30
+y 7
+end
+arch blocked
+x 30
+y 8
+end
+arch blocked
+x 30
+y 9
+end
+arch blocked
+x 30
+y 10
+end
+arch blocked
+x 30
+y 11
+end
+arch blocked
+x 30
+y 12
+end
+arch blocked
+x 30
+y 13
+end
+arch blocked
+x 30
+y 14
+end
+arch blocked
+x 30
+y 15
+end
+arch blocked
+x 30
+y 16
+end
+arch blocked
+x 30
+y 17
+end
+arch blocked
+x 30
+y 18
+end
+arch blocked
+x 30
+y 19
+end
+arch blocked
+x 30
+y 20
+end
+arch blocked
+x 30
+y 21
+end
+arch blocked
+x 30
+y 22
+end
+arch blocked
+x 30
+y 23
+end
+arch blocked
+x 30
+y 24
+end
+arch blocked
+x 30
+y 25
+end
 arch dirtfloor
 x 30
 y 26
@@ -7791,6 +9000,109 @@ end
 arch bwall_2_1_2
 x 30
 y 47
+end
+arch blocked
+x 31
+end
+arch blocked
+x 31
+y 1
+end
+arch blocked
+x 31
+y 2
+end
+arch blocked
+x 31
+y 3
+end
+arch blocked
+x 31
+y 4
+end
+arch blocked
+x 31
+y 5
+end
+arch blocked
+x 31
+y 6
+end
+arch blocked
+x 31
+y 7
+end
+arch blocked
+x 31
+y 8
+end
+arch blocked
+x 31
+y 9
+end
+arch blocked
+x 31
+y 10
+end
+arch blocked
+x 31
+y 11
+end
+arch blocked
+x 31
+y 12
+end
+arch blocked
+x 31
+y 13
+end
+arch blocked
+x 31
+y 14
+end
+arch blocked
+x 31
+y 15
+end
+arch blocked
+x 31
+y 16
+end
+arch blocked
+x 31
+y 17
+end
+arch blocked
+x 31
+y 18
+end
+arch blocked
+x 31
+y 19
+end
+arch blocked
+x 31
+y 20
+end
+arch blocked
+x 31
+y 21
+end
+arch blocked
+x 31
+y 22
+end
+arch blocked
+x 31
+y 23
+end
+arch blocked
+x 31
+y 24
+end
+arch blocked
+x 31
+y 25
 end
 arch dirtfloor
 x 31
