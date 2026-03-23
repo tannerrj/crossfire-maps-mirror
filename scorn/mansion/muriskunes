@@ -8,7 +8,7 @@ height 48
 enter_x 15
 enter_y 46
 msg
-Modified: 2022-07-28 Rick Tanner
+Modified: 2026-03-23 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -3956,6 +3956,13 @@ arch dirtfloor
 x 14
 y 46
 end
+arch sign
+msg
+Proceed at your own risk! Powerful and dangerous foes await beyond these stairs!
+endmsg
+x 14
+y 46
+end
 arch dirtfloor
 x 14
 y 47
@@ -4127,10 +4134,6 @@ x 15
 y 34
 end
 arch dirtfloor
-x 15
-y 35
-end
-arch earthwall
 x 15
 y 35
 end
@@ -4543,7 +4546,10 @@ arch dirtfloor
 x 16
 y 46
 end
-arch food
+arch sign
+msg
+Death and certain doom await beyond these walls!
+endmsg
 x 16
 y 46
 end
