@@ -10,7 +10,7 @@ enter_x 21
 enter_y 6
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2026-03-25 Rick Tanner
+Modified: 2026-03-27 Rick Tanner
 endmsg
 reset_group whalingoutpost_caverns
 end
@@ -4874,7 +4874,7 @@ arch snow
 x 5
 y 9
 end
-arch cave19
+arch cave25
 x 5
 y 9
 end
@@ -5902,7 +5902,7 @@ arch snow
 x 6
 y 5
 end
-arch cave18
+arch cave24
 x 6
 y 5
 end
@@ -5926,7 +5926,7 @@ arch snow
 x 6
 y 8
 end
-arch cave17
+arch cave23
 x 6
 y 8
 end
@@ -5950,7 +5950,7 @@ arch snow
 x 6
 y 11
 end
-arch cave19
+arch cave25
 x 6
 y 11
 end
@@ -7005,7 +7005,7 @@ arch snow
 x 7
 y 2
 end
-arch cave18
+arch cave24
 x 7
 y 2
 end
@@ -7061,7 +7061,7 @@ arch snow
 x 7
 y 10
 end
-arch cave17
+arch cave23
 x 7
 y 10
 end
@@ -7165,7 +7165,7 @@ arch snow
 x 7
 y 25
 end
-arch cave20
+arch cave22
 x 7
 y 25
 end
@@ -8183,7 +8183,7 @@ arch snow
 x 8
 y 1
 end
-arch cave18
+arch cave24
 x 8
 y 1
 end
@@ -8319,7 +8319,7 @@ arch snow
 x 8
 y 22
 end
-arch cave20
+arch cave22
 x 8
 y 22
 end
@@ -9475,7 +9475,7 @@ arch snow
 x 9
 y 11
 end
-arch cave17
+arch cave23
 x 9
 y 11
 end
@@ -9619,7 +9619,7 @@ arch snow
 x 9
 y 30
 end
-arch cave19
+arch cave25
 x 9
 y 30
 end
@@ -10811,7 +10811,7 @@ arch snow
 x 10
 y 13
 end
-arch cave18
+arch cave24
 x 10
 y 13
 end
@@ -10871,7 +10871,7 @@ arch snow
 x 10
 y 23
 end
-arch cave17
+arch cave23
 x 10
 y 23
 end
@@ -10943,7 +10943,7 @@ arch snow
 x 10
 y 32
 end
-arch cave19
+arch cave25
 x 10
 y 32
 end
@@ -12155,7 +12155,7 @@ arch snow
 x 11
 y 26
 end
-arch cave17
+arch cave23
 x 11
 y 26
 end
@@ -12219,7 +12219,7 @@ arch snow
 x 11
 y 34
 end
-arch cave19
+arch cave25
 x 11
 y 34
 end
@@ -14264,7 +14264,7 @@ arch snow
 x 13
 y 1
 end
-arch cave19
+arch cave25
 x 13
 y 1
 end
@@ -14328,7 +14328,7 @@ arch snow
 x 13
 y 11
 end
-arch cave20
+arch cave22
 x 13
 y 11
 end
@@ -14336,7 +14336,7 @@ arch snow
 x 13
 y 12
 end
-arch cave18
+arch cave24
 x 13
 y 12
 end
@@ -14508,7 +14508,7 @@ arch snow
 x 13
 y 38
 end
-arch cave19
+arch cave25
 x 13
 y 38
 end
@@ -15498,7 +15498,7 @@ arch snow
 x 14
 y 29
 end
-arch cave17
+arch cave23
 x 14
 y 29
 end
@@ -16394,7 +16394,7 @@ arch snow
 x 15
 y 2
 end
-arch cave19
+arch cave25
 x 15
 y 2
 end
@@ -16438,7 +16438,7 @@ arch snow
 x 15
 y 10
 end
-arch cave20
+arch cave22
 x 15
 y 10
 end
@@ -16486,7 +16486,7 @@ arch snow
 x 15
 y 17
 end
-arch cave18
+arch cave24
 x 15
 y 17
 end
@@ -16570,7 +16570,7 @@ arch snow
 x 15
 y 32
 end
-arch cave17
+arch cave23
 x 15
 y 32
 end
@@ -16618,7 +16618,7 @@ arch snow
 x 15
 y 38
 end
-arch cave18
+arch cave24
 x 15
 y 38
 end
@@ -17452,7 +17452,7 @@ arch snow
 x 16
 y 3
 end
-arch cave19
+arch cave25
 x 16
 y 3
 end
@@ -17552,7 +17552,7 @@ arch snow
 x 16
 y 16
 end
-arch cave18
+arch cave24
 x 16
 y 16
 end
@@ -17652,7 +17652,7 @@ arch snow
 x 16
 y 34
 end
-arch cave17
+arch cave23
 x 16
 y 34
 end
@@ -17668,7 +17668,7 @@ arch snow
 x 16
 y 36
 end
-arch cave18
+arch cave24
 x 16
 y 36
 end
@@ -18538,11 +18538,7 @@ arch snow
 x 17
 y 4
 end
-arch snow5
-x 17
-y 4
-end
-arch cave18
+arch cave24
 x 17
 y 4
 end
@@ -18622,7 +18618,7 @@ arch snow
 x 17
 y 15
 end
-arch cave20
+arch cave22
 x 17
 y 15
 end
@@ -18666,7 +18662,7 @@ arch snow
 x 17
 y 23
 end
-arch cave17
+arch cave23
 x 17
 y 23
 end
@@ -18674,7 +18670,7 @@ arch snow
 x 17
 y 24
 end
-arch cave19
+arch cave25
 x 17
 y 24
 end
@@ -19596,7 +19592,7 @@ arch snow5
 x 18
 y 3
 end
-arch cave18
+arch cave24
 x 18
 y 3
 end
@@ -20725,7 +20721,7 @@ arch snow
 x 19
 y 13
 end
-arch cave17
+arch cave23
 x 19
 y 13
 end
@@ -21855,7 +21851,7 @@ arch snow
 x 20
 y 24
 end
-arch cave17
+arch cave23
 x 20
 y 24
 end
@@ -22869,7 +22865,7 @@ arch snow
 x 21
 y 16
 end
-arch cave19
+arch cave25
 x 21
 y 16
 end
@@ -22925,7 +22921,7 @@ arch snow
 x 21
 y 26
 end
-arch cave19
+arch cave25
 x 21
 y 26
 end
@@ -23999,7 +23995,7 @@ arch snow
 x 22
 y 27
 end
-arch cave19
+arch cave25
 x 22
 y 27
 end
@@ -24047,7 +24043,7 @@ arch snow
 x 22
 y 34
 end
-arch cave20
+arch cave22
 x 22
 y 34
 end
@@ -24995,7 +24991,7 @@ arch snow
 x 23
 y 13
 end
-arch cave20
+arch cave22
 x 23
 y 13
 end
@@ -25003,7 +24999,7 @@ arch snow
 x 23
 y 14
 end
-arch cave18
+arch cave24
 x 23
 y 14
 end
@@ -25059,7 +25055,7 @@ arch snow
 x 23
 y 24
 end
-arch cave20
+arch cave22
 x 23
 y 24
 end
@@ -26004,7 +26000,7 @@ arch snow5
 x 24
 y 3
 end
-arch cave19
+arch cave25
 x 24
 y 3
 end
@@ -26136,7 +26132,7 @@ arch snow
 x 24
 y 23
 end
-arch cave20
+arch cave22
 x 24
 y 23
 end
@@ -26176,7 +26172,7 @@ arch snow
 x 24
 y 28
 end
-arch cave18
+arch cave24
 x 24
 y 28
 end
@@ -26240,7 +26236,7 @@ arch snow
 x 24
 y 37
 end
-arch cave19
+arch cave25
 x 24
 y 37
 end
@@ -27207,7 +27203,7 @@ arch snow
 x 25
 y 22
 end
-arch cave20
+arch cave22
 x 25
 y 22
 end
@@ -27279,7 +27275,7 @@ arch snow
 x 25
 y 32
 end
-arch cave20
+arch cave22
 x 25
 y 32
 end
@@ -28182,7 +28178,7 @@ arch snow5
 x 26
 y 5
 end
-arch cave19
+arch cave25
 x 26
 y 5
 end
@@ -28282,7 +28278,7 @@ arch snow
 x 26
 y 19
 end
-arch cave20
+arch cave22
 x 26
 y 19
 end
@@ -28338,7 +28334,7 @@ arch snow
 x 26
 y 26
 end
-arch cave18
+arch cave24
 x 26
 y 26
 end
@@ -29309,7 +29305,7 @@ arch snow
 x 27
 y 8
 end
-arch cave19
+arch cave25
 x 27
 y 8
 end
@@ -29361,7 +29357,7 @@ arch snow
 x 27
 y 16
 end
-arch cave20
+arch cave22
 x 27
 y 16
 end
@@ -29489,7 +29485,7 @@ arch snow
 x 27
 y 34
 end
-arch cave17
+arch cave23
 x 27
 y 34
 end
@@ -30458,7 +30454,7 @@ arch snow
 x 28
 y 15
 end
-arch cave17
+arch cave23
 x 28
 y 15
 end
@@ -30598,7 +30594,7 @@ arch snow
 x 28
 y 36
 end
-arch cave17
+arch cave23
 x 28
 y 36
 end
@@ -31450,7 +31446,7 @@ arch snow
 x 29
 y 7
 end
-arch cave18
+arch cave24
 x 29
 y 7
 end
@@ -31526,7 +31522,7 @@ arch snow
 x 29
 y 19
 end
-arch cave18
+arch cave24
 x 29
 y 19
 end
@@ -39723,7 +39719,7 @@ arch snow
 x 35
 y 17
 end
-arch cave20
+arch cave22
 x 35
 y 17
 end
@@ -39763,7 +39759,7 @@ arch snow
 x 35
 y 22
 end
-arch cave19
+arch cave25
 x 35
 y 22
 end
@@ -40870,7 +40866,7 @@ arch snow
 x 36
 y 34
 end
-arch cave20
+arch cave22
 x 36
 y 34
 end
@@ -40902,7 +40898,7 @@ arch snow
 x 36
 y 38
 end
-arch cave19
+arch cave25
 x 36
 y 38
 end
@@ -41769,7 +41765,7 @@ arch snow
 x 37
 y 8
 end
-arch cave19
+arch cave25
 x 37
 y 8
 end
@@ -41933,7 +41929,7 @@ arch snow
 x 37
 y 31
 end
-arch cave20
+arch cave22
 x 37
 y 31
 end
@@ -42866,7 +42862,7 @@ arch snow
 x 38
 y 10
 end
-arch cave19
+arch cave25
 x 38
 y 10
 end
@@ -42890,7 +42886,7 @@ arch snow
 x 38
 y 13
 end
-arch cave20
+arch cave22
 x 38
 y 13
 end
@@ -42986,7 +42982,7 @@ arch snow
 x 38
 y 25
 end
-arch cave19
+arch cave25
 x 38
 y 25
 end
@@ -44100,7 +44096,7 @@ arch snow
 x 39
 y 26
 end
-arch cave19
+arch cave25
 x 39
 y 26
 end
@@ -44116,7 +44112,7 @@ arch snow
 x 39
 y 28
 end
-arch cave20
+arch cave22
 x 39
 y 28
 end
@@ -44236,7 +44232,7 @@ arch snow
 x 39
 y 43
 end
-arch cave19
+arch cave25
 x 39
 y 43
 end
@@ -46459,7 +46455,7 @@ arch snow
 x 41
 y 44
 end
-arch cave19
+arch cave25
 x 41
 y 44
 end
@@ -49857,7 +49853,7 @@ arch snow
 x 44
 y 46
 end
-arch cave19
+arch cave25
 x 44
 y 46
 end
@@ -51011,7 +51007,7 @@ arch snow
 x 45
 y 48
 end
-arch cave19
+arch cave25
 x 45
 y 48
 end
@@ -52133,7 +52129,7 @@ arch snow
 x 46
 y 52
 end
-arch cave19
+arch cave25
 x 46
 y 52
 end
@@ -53282,7 +53278,7 @@ arch snow
 x 47
 y 58
 end
-arch cave19
+arch cave25
 x 47
 y 58
 end
@@ -56442,7 +56438,7 @@ arch snow
 x 50
 y 65
 end
-arch cave19
+arch cave25
 x 50
 y 65
 end
@@ -62883,7 +62879,7 @@ arch snow
 x 56
 y 66
 end
-arch cave19
+arch cave25
 x 56
 y 66
 end
@@ -63795,7 +63791,7 @@ arch snow
 x 57
 y 46
 end
-arch cave18
+arch cave24
 x 57
 y 46
 end
@@ -63843,7 +63839,7 @@ arch snow
 x 57
 y 52
 end
-arch cave17
+arch cave23
 x 57
 y 52
 end
@@ -65063,7 +65059,7 @@ arch snow
 x 58
 y 54
 end
-arch cave17
+arch cave23
 x 58
 y 54
 end
@@ -65854,7 +65850,7 @@ arch snow
 x 59
 y 6
 end
-arch cave18
+arch cave24
 x 59
 y 6
 end
@@ -65902,7 +65898,7 @@ arch snow
 x 59
 y 12
 end
-arch cave17
+arch cave23
 x 59
 y 12
 end
@@ -67042,7 +67038,7 @@ arch snow
 x 60
 y 2
 end
-arch cave18
+arch cave24
 x 60
 y 2
 end
@@ -67146,7 +67142,7 @@ arch snow
 x 60
 y 16
 end
-arch cave17
+arch cave23
 x 60
 y 16
 end
@@ -67178,7 +67174,7 @@ arch snow
 x 60
 y 20
 end
-arch cave18
+arch cave24
 x 60
 y 20
 end
@@ -67210,7 +67206,7 @@ arch snow
 x 60
 y 24
 end
-arch cave17
+arch cave23
 x 60
 y 24
 end
@@ -67362,7 +67358,7 @@ arch snow
 x 60
 y 43
 end
-arch cave18
+arch cave24
 x 60
 y 43
 end
@@ -68244,7 +68240,7 @@ arch snow
 x 61
 y 1
 end
-arch cave18
+arch cave24
 x 61
 y 1
 end
@@ -68348,7 +68344,7 @@ arch snow
 x 61
 y 17
 end
-arch cave17
+arch cave23
 x 61
 y 17
 end
@@ -68416,7 +68412,7 @@ arch snow
 x 61
 y 25
 end
-arch cave17
+arch cave23
 x 61
 y 25
 end
@@ -68717,7 +68713,7 @@ arch snow
 x 61
 y 57
 end
-arch cave17
+arch cave23
 x 61
 y 57
 end
@@ -69932,7 +69928,7 @@ arch snow
 x 62
 y 62
 end
-arch cave18
+arch cave24
 x 62
 y 62
 end
@@ -70891,7 +70887,7 @@ arch snow
 x 63
 y 42
 end
-arch cave18
+arch cave24
 x 63
 y 42
 end
@@ -71066,7 +71062,7 @@ arch snow
 x 63
 y 59
 end
-arch cave18
+arch cave24
 x 63
 y 59
 end
@@ -73278,7 +73274,7 @@ arch snow
 x 65
 y 25
 end
-arch cave20
+arch cave22
 x 65
 y 25
 end
@@ -73342,7 +73338,7 @@ arch snow
 x 65
 y 33
 end
-arch cave18
+arch cave24
 x 65
 y 33
 end
@@ -73374,7 +73370,7 @@ arch snow
 x 65
 y 37
 end
-arch cave17
+arch cave23
 x 65
 y 37
 end
@@ -74494,7 +74490,7 @@ arch snow
 x 66
 y 1
 end
-arch cave19
+arch cave25
 x 66
 y 1
 end
@@ -74698,7 +74694,7 @@ arch snow
 x 66
 y 30
 end
-arch cave18
+arch cave24
 x 66
 y 30
 end
@@ -74758,7 +74754,7 @@ arch snow
 x 66
 y 39
 end
-arch cave17
+arch cave23
 x 66
 y 39
 end
@@ -74766,7 +74762,7 @@ arch snow
 x 66
 y 40
 end
-arch cave18
+arch cave24
 x 66
 y 40
 end
@@ -75864,7 +75860,7 @@ arch snow
 x 67
 y 2
 end
-arch cave19
+arch cave25
 x 67
 y 2
 end
@@ -76044,7 +76040,7 @@ arch snow
 x 67
 y 28
 end
-arch cave18
+arch cave24
 x 67
 y 28
 end
@@ -76481,7 +76477,7 @@ arch snow
 x 67
 y 63
 end
-arch cave20
+arch cave22
 x 67
 y 63
 end
@@ -77254,7 +77250,7 @@ arch snow
 x 68
 y 4
 end
-arch cave19
+arch cave25
 x 68
 y 4
 end
@@ -77334,7 +77330,7 @@ arch snow
 x 68
 y 15
 end
-arch cave20
+arch cave22
 x 68
 y 15
 end
@@ -77406,7 +77402,7 @@ arch snow
 x 68
 y 24
 end
-arch cave20
+arch cave22
 x 68
 y 24
 end
@@ -77820,7 +77816,7 @@ arch snow
 x 68
 y 60
 end
-arch cave20
+arch cave22
 x 68
 y 60
 end
@@ -78691,7 +78687,7 @@ arch snow
 x 69
 y 18
 end
-arch cave19
+arch cave25
 x 69
 y 18
 end
@@ -78731,7 +78727,7 @@ arch snow
 x 69
 y 23
 end
-arch cave20
+arch cave22
 x 69
 y 23
 end
@@ -79178,7 +79174,7 @@ arch snow
 x 69
 y 67
 end
-arch cave19
+arch cave25
 x 69
 y 67
 end
@@ -79940,7 +79936,7 @@ arch snow
 x 70
 y 13
 end
-arch cave17
+arch cave23
 x 70
 y 13
 end
@@ -80028,7 +80024,7 @@ arch snow
 x 70
 y 24
 end
-arch cave18
+arch cave24
 x 70
 y 24
 end
@@ -80419,7 +80415,7 @@ arch snow
 x 70
 y 56
 end
-arch cave20
+arch cave22
 x 70
 y 56
 end
@@ -81208,7 +81204,7 @@ arch snow
 x 71
 y 6
 end
-arch cave18
+arch cave24
 x 71
 y 6
 end
@@ -81284,7 +81280,7 @@ arch snow
 x 71
 y 17
 end
-arch cave17
+arch cave23
 x 71
 y 17
 end
@@ -81316,7 +81312,7 @@ arch snow
 x 71
 y 21
 end
-arch cave18
+arch cave24
 x 71
 y 21
 end
@@ -81594,7 +81590,7 @@ arch snow
 x 71
 y 41
 end
-arch cave20
+arch cave22
 x 71
 y 41
 end
@@ -82488,7 +82484,7 @@ arch snow
 x 72
 y 3
 end
-arch cave18
+arch cave24
 x 72
 y 3
 end
@@ -82858,7 +82854,7 @@ arch snow
 x 72
 y 38
 end
-arch cave20
+arch cave22
 x 72
 y 38
 end
@@ -83064,7 +83060,7 @@ arch snow
 x 72
 y 58
 end
-arch cave17
+arch cave23
 x 72
 y 58
 end
@@ -84103,7 +84099,7 @@ arch snow
 x 73
 y 34
 end
-arch cave20
+arch cave22
 x 73
 y 34
 end
@@ -84175,7 +84171,7 @@ arch snow
 x 73
 y 43
 end
-arch cave19
+arch cave25
 x 73
 y 43
 end
@@ -84370,7 +84366,7 @@ arch snow
 x 73
 y 62
 end
-arch cave17
+arch cave23
 x 73
 y 62
 end
@@ -85063,7 +85059,7 @@ arch snow
 x 74
 y 2
 end
-arch cave18
+arch cave24
 x 74
 y 2
 end
@@ -85439,7 +85435,7 @@ arch snow
 x 74
 y 44
 end
-arch cave19
+arch cave25
 x 74
 y 44
 end
@@ -85665,7 +85661,7 @@ arch snow
 x 74
 y 66
 end
-arch cave17
+arch cave23
 x 74
 y 66
 end
@@ -86607,7 +86603,7 @@ arch snow
 x 75
 y 31
 end
-arch cave20
+arch cave22
 x 75
 y 31
 end
@@ -86735,7 +86731,7 @@ arch snow
 x 75
 y 47
 end
-arch cave19
+arch cave25
 x 75
 y 47
 end
@@ -88051,7 +88047,7 @@ arch snow
 x 76
 y 53
 end
-arch cave19
+arch cave25
 x 76
 y 53
 end
@@ -89328,7 +89324,7 @@ arch snow
 x 77
 y 57
 end
-arch cave19
+arch cave25
 x 77
 y 57
 end
@@ -90398,7 +90394,7 @@ arch snow
 x 78
 y 28
 end
-arch cave20
+arch cave22
 x 78
 y 28
 end
@@ -90662,7 +90658,7 @@ arch snow
 x 78
 y 61
 end
-arch cave19
+arch cave25
 x 78
 y 61
 end
@@ -91911,7 +91907,7 @@ arch snow
 x 79
 y 65
 end
-arch cave19
+arch cave25
 x 79
 y 65
 end
@@ -92824,7 +92820,7 @@ arch snow
 x 80
 y 26
 end
-arch cave20
+arch cave22
 x 80
 y 26
 end
@@ -94902,7 +94898,7 @@ arch snow
 x 82
 y 8
 end
-arch cave19
+arch cave25
 x 82
 y 8
 end
@@ -95002,7 +94998,7 @@ arch snow
 x 82
 y 24
 end
-arch cave20
+arch cave22
 x 82
 y 24
 end
@@ -95922,7 +95918,7 @@ arch snow
 x 83
 y 10
 end
-arch cave19
+arch cave25
 x 83
 y 10
 end
@@ -96954,7 +96950,7 @@ arch snow
 x 84
 y 13
 end
-arch cave19
+arch cave25
 x 84
 y 13
 end
@@ -97022,7 +97018,7 @@ arch snow
 x 84
 y 22
 end
-arch cave20
+arch cave22
 x 84
 y 22
 end
@@ -98032,7 +98028,7 @@ arch snow
 x 85
 y 17
 end
-arch cave19
+arch cave25
 x 85
 y 17
 end
@@ -98056,7 +98052,7 @@ arch snow
 x 85
 y 20
 end
-arch cave20
+arch cave22
 x 85
 y 20
 end
