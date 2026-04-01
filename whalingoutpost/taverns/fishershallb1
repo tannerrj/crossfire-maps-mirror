@@ -10,7 +10,7 @@ enter_x 19
 enter_y 9
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-05 Rick Tanner
+Modified: 2026-03-31 Rick Tanner
 endmsg
 reset_group whalingoutpost_fishers-hall
 end
@@ -137,305 +137,152 @@ end
 arch blocked
 y 13
 end
-arch medium_stones
-y 14
-end
-arch bwall_2_2_2
-y 14
-end
 arch blocked
 y 14
 end
-arch medium_stones
-y 15
-end
 arch cave_15
 y 15
-end
-arch medium_stones
-y 16
 end
 arch cave_15
 y 16
 end
-arch medium_stones
-y 17
-end
 arch cave_15
 y 17
-end
-arch medium_stones
-y 18
 end
 arch cave_15
 y 18
 end
-arch medium_stones
-y 19
-end
 arch cave_15
 y 19
-end
-arch medium_stones
-y 20
 end
 arch cave_15
 y 20
 end
-arch medium_stones
-y 21
-end
 arch cave_15
 y 21
-end
-arch medium_stones
-y 22
 end
 arch cave_15
 y 22
 end
-arch medium_stones
-y 23
-end
 arch cave_15
 y 23
-end
-arch medium_stones
-y 24
 end
 arch cave_15
 y 24
 end
-arch medium_stones
-y 25
-end
 arch cave_15
 y 25
-end
-arch medium_stones
-y 26
 end
 arch cave_15
 y 26
 end
-arch medium_stones
-y 27
-end
 arch cave_15
 y 27
-end
-arch medium_stones
-y 28
 end
 arch cave_15
 y 28
 end
-arch medium_stones
-y 29
-end
 arch cave_15
 y 29
-end
-arch medium_stones
-y 30
 end
 arch cave_15
 y 30
 end
-arch medium_stones
-y 31
-end
 arch cave_15
 y 31
-end
-arch medium_stones
-y 32
 end
 arch cave_15
 y 32
 end
-arch medium_stones
-y 33
-end
 arch cave_15
 y 33
-end
-arch medium_stones
-y 34
 end
 arch cave_15
 y 34
 end
-arch medium_stones
-y 35
-end
 arch cave_15
 y 35
-end
-arch medium_stones
-y 36
 end
 arch cave_15
 y 36
 end
-arch medium_stones
-y 37
-end
 arch cave_15
 y 37
-end
-arch medium_stones
-y 38
 end
 arch cave_15
 y 38
 end
-arch medium_stones
-y 39
-end
 arch cave_15
 y 39
-end
-arch medium_stones
-y 40
 end
 arch cave_15
 y 40
 end
-arch medium_stones
-y 41
-end
 arch cave_15
 y 41
-end
-arch medium_stones
-y 42
 end
 arch cave_15
 y 42
 end
-arch medium_stones
-y 43
-end
 arch cave_15
 y 43
-end
-arch medium_stones
-y 44
 end
 arch cave_15
 y 44
 end
-arch medium_stones
-y 45
-end
 arch cave_15
 y 45
-end
-arch medium_stones
-y 46
 end
 arch cave_15
 y 46
 end
-arch medium_stones
-y 47
-end
 arch cave_15
 y 47
-end
-arch medium_stones
-y 48
 end
 arch cave_15
 y 48
 end
-arch medium_stones
-y 49
-end
 arch cave_15
 y 49
-end
-arch medium_stones
-y 50
 end
 arch cave_15
 y 50
 end
-arch medium_stones
-y 51
-end
 arch cave_15
 y 51
-end
-arch medium_stones
-y 52
 end
 arch cave_15
 y 52
 end
-arch medium_stones
-y 53
-end
 arch cave_15
 y 53
-end
-arch medium_stones
-y 54
 end
 arch cave_15
 y 54
 end
-arch medium_stones
-y 55
-end
 arch cave_15
 y 55
-end
-arch medium_stones
-y 56
 end
 arch cave_15
 y 56
 end
-arch medium_stones
-y 57
-end
 arch cave_15
 y 57
-end
-arch medium_stones
-y 58
 end
 arch cave_15
 y 58
 end
-arch medium_stones
-y 59
-end
 arch cave_15
 y 59
-end
-arch medium_stones
-y 60
 end
 arch cave_15
 y 60
 end
-arch medium_stones
-y 61
-end
 arch cave_15
 y 61
 end
-arch medium_stones
-y 62
-end
 arch cave_15
 y 62
-end
-arch medium_stones
-y 63
 end
 arch cave_15
 y 63
@@ -538,85 +385,41 @@ arch blocked
 x 1
 y 13
 end
-arch medium_stones
-x 1
-y 14
-end
-arch bwall_3_3
-x 1
-y 14
-end
 arch blocked
 x 1
 y 14
 end
-arch medium_stones
-x 1
-y 15
-end
 arch cave_15
 x 1
 y 15
 end
-arch medium_stones
+arch cave_15
 x 1
 y 16
 end
 arch cave_15
 x 1
-y 16
-end
-arch medium_stones
-x 1
 y 17
 end
 arch cave_15
-x 1
-y 17
-end
-arch medium_stones
 x 1
 y 18
 end
 arch cave_15
 x 1
-y 18
-end
-arch medium_stones
-x 1
 y 19
 end
 arch cave_15
-x 1
-y 19
-end
-arch medium_stones
 x 1
 y 20
 end
 arch cave_15
 x 1
-y 20
-end
-arch medium_stones
-x 1
 y 21
 end
 arch cave_15
 x 1
-y 21
-end
-arch medium_stones
-x 1
 y 22
-end
-arch cave_15
-x 1
-y 22
-end
-arch medium_stones
-x 1
-y 23
 end
 arch cave_15
 x 1
@@ -678,41 +481,21 @@ arch cave23
 x 1
 y 30
 end
-arch medium_stones
-x 1
-y 31
-end
 arch cave_15
 x 1
 y 31
 end
-arch medium_stones
+arch cave_15
 x 1
 y 32
 end
 arch cave_15
 x 1
-y 32
-end
-arch medium_stones
-x 1
 y 33
 end
 arch cave_15
 x 1
-y 33
-end
-arch medium_stones
-x 1
 y 34
-end
-arch cave_15
-x 1
-y 34
-end
-arch medium_stones
-x 1
-y 35
 end
 arch cave_15
 x 1
@@ -782,73 +565,37 @@ arch cave23
 x 1
 y 43
 end
-arch medium_stones
-x 1
-y 44
-end
 arch cave_15
 x 1
 y 44
 end
-arch medium_stones
+arch cave_15
 x 1
 y 45
 end
 arch cave_15
 x 1
-y 45
-end
-arch medium_stones
-x 1
 y 46
 end
 arch cave_15
-x 1
-y 46
-end
-arch medium_stones
 x 1
 y 47
 end
 arch cave_15
 x 1
-y 47
-end
-arch medium_stones
-x 1
 y 48
 end
 arch cave_15
-x 1
-y 48
-end
-arch medium_stones
 x 1
 y 49
 end
 arch cave_15
 x 1
-y 49
-end
-arch medium_stones
-x 1
 y 50
 end
 arch cave_15
 x 1
-y 50
-end
-arch medium_stones
-x 1
 y 51
-end
-arch cave_15
-x 1
-y 51
-end
-arch medium_stones
-x 1
-y 52
 end
 arch cave_15
 x 1
@@ -902,41 +649,21 @@ arch cave23
 x 1
 y 58
 end
-arch medium_stones
-x 1
-y 59
-end
 arch cave_15
 x 1
 y 59
 end
-arch medium_stones
+arch cave_15
 x 1
 y 60
 end
 arch cave_15
 x 1
-y 60
-end
-arch medium_stones
-x 1
 y 61
 end
 arch cave_15
 x 1
-y 61
-end
-arch medium_stones
-x 1
 y 62
-end
-arch cave_15
-x 1
-y 62
-end
-arch medium_stones
-x 1
-y 63
 end
 arch cave_15
 x 1
@@ -1052,29 +779,13 @@ arch blocked
 x 2
 y 13
 end
-arch medium_stones
-x 2
-y 14
-end
-arch bwall_3_3
-x 2
-y 14
-end
 arch blocked
 x 2
 y 14
 end
-arch medium_stones
-x 2
-y 15
-end
 arch cave_15
 x 2
 y 15
-end
-arch medium_stones
-x 2
-y 16
 end
 arch cave_15
 x 2
@@ -1112,25 +823,13 @@ arch cave23
 x 2
 y 20
 end
-arch medium_stones
+arch cave_15
 x 2
 y 21
 end
 arch cave_15
 x 2
-y 21
-end
-arch medium_stones
-x 2
 y 22
-end
-arch cave_15
-x 2
-y 22
-end
-arch medium_stones
-x 2
-y 23
 end
 arch cave_15
 x 2
@@ -1184,25 +883,13 @@ arch cave23
 x 2
 y 31
 end
-arch medium_stones
+arch cave_15
 x 2
 y 32
 end
 arch cave_15
 x 2
-y 32
-end
-arch medium_stones
-x 2
 y 33
-end
-arch cave_15
-x 2
-y 33
-end
-arch medium_stones
-x 2
-y 34
 end
 arch cave_15
 x 2
@@ -1276,41 +963,21 @@ arch cave23
 x 2
 y 44
 end
-arch medium_stones
-x 2
-y 45
-end
 arch cave_15
 x 2
 y 45
 end
-arch medium_stones
+arch cave_15
 x 2
 y 46
 end
 arch cave_15
 x 2
-y 46
-end
-arch medium_stones
-x 2
 y 47
 end
 arch cave_15
 x 2
-y 47
-end
-arch medium_stones
-x 2
 y 48
-end
-arch cave_15
-x 2
-y 48
-end
-arch medium_stones
-x 2
-y 49
 end
 arch cave_15
 x 2
@@ -1419,10 +1086,6 @@ end
 arch cave23
 x 2
 y 62
-end
-arch medium_stones
-x 2
-y 63
 end
 arch cave_15
 x 2
@@ -1602,10 +1265,6 @@ arch cave23
 x 3
 y 22
 end
-arch medium_stones
-x 3
-y 23
-end
 arch cave_15
 x 3
 y 23
@@ -1658,25 +1317,13 @@ arch cave2
 x 3
 y 31
 end
-arch medium_stones
+arch cave_15
 x 3
 y 32
 end
 arch cave_15
 x 3
-y 32
-end
-arch medium_stones
-x 3
 y 33
-end
-arch cave_15
-x 3
-y 33
-end
-arch medium_stones
-x 3
-y 34
 end
 arch cave_15
 x 3
@@ -1738,33 +1385,17 @@ arch cave2
 x 3
 y 44
 end
-arch medium_stones
-x 3
-y 45
-end
 arch cave_15
 x 3
 y 45
 end
-arch medium_stones
+arch cave_15
 x 3
 y 46
 end
 arch cave_15
 x 3
-y 46
-end
-arch medium_stones
-x 3
 y 47
-end
-arch cave_15
-x 3
-y 47
-end
-arch medium_stones
-x 3
-y 48
 end
 arch cave_15
 x 3
@@ -1853,10 +1484,6 @@ end
 arch cave2
 x 3
 y 62
-end
-arch medium_stones
-x 3
-y 63
 end
 arch cave_15
 x 3
@@ -1984,10 +1611,6 @@ arch cave2
 x 4
 y 22
 end
-arch medium_stones
-x 4
-y 23
-end
 arch cave_15
 x 4
 y 23
@@ -2040,25 +1663,13 @@ arch cave2
 x 4
 y 31
 end
-arch medium_stones
+arch cave_15
 x 4
 y 32
 end
 arch cave_15
 x 4
-y 32
-end
-arch medium_stones
-x 4
 y 33
-end
-arch cave_15
-x 4
-y 33
-end
-arch medium_stones
-x 4
-y 34
 end
 arch cave_15
 x 4
@@ -2244,10 +1855,6 @@ arch cave2
 x 4
 y 62
 end
-arch medium_stones
-x 4
-y 63
-end
 arch cave_15
 x 4
 y 63
@@ -2430,25 +2037,13 @@ arch cave2
 x 5
 y 31
 end
-arch medium_stones
+arch cave_15
 x 5
 y 32
 end
 arch cave_15
 x 5
-y 32
-end
-arch medium_stones
-x 5
 y 33
-end
-arch cave_15
-x 5
-y 33
-end
-arch medium_stones
-x 5
-y 34
 end
 arch cave_15
 x 5
@@ -2625,10 +2220,6 @@ end
 arch cave2
 x 5
 y 62
-end
-arch medium_stones
-x 5
-y 63
 end
 arch cave_15
 x 5
@@ -2816,25 +2407,13 @@ arch cave22
 x 6
 y 31
 end
-arch medium_stones
+arch cave_15
 x 6
 y 32
 end
 arch cave_15
 x 6
-y 32
-end
-arch medium_stones
-x 6
 y 33
-end
-arch cave_15
-x 6
-y 33
-end
-arch medium_stones
-x 6
-y 34
 end
 arch cave_15
 x 6
@@ -2999,10 +2578,6 @@ end
 arch cave2
 x 6
 y 62
-end
-arch medium_stones
-x 6
-y 63
 end
 arch cave_15
 x 6
@@ -3226,33 +2801,17 @@ arch cave23
 x 7
 y 31
 end
-arch medium_stones
-x 7
-y 32
-end
 arch cave_15
 x 7
 y 32
 end
-arch medium_stones
+arch cave_15
 x 7
 y 33
 end
 arch cave_15
 x 7
-y 33
-end
-arch medium_stones
-x 7
 y 34
-end
-arch cave_15
-x 7
-y 34
-end
-arch medium_stones
-x 7
-y 35
 end
 arch cave_15
 x 7
@@ -3401,10 +2960,6 @@ end
 arch cave2
 x 7
 y 62
-end
-arch medium_stones
-x 7
-y 63
 end
 arch cave_15
 x 7
@@ -3500,21 +3055,9 @@ arch blocked
 x 8
 y 13
 end
-arch medium_stones
-x 8
-y 14
-end
-arch bwall_3_3
-x 8
-y 14
-end
 arch blocked
 x 8
 y 14
-end
-arch medium_stones
-x 8
-y 15
 end
 arch cave_15
 x 8
@@ -3620,33 +3163,17 @@ arch cave23
 x 8
 y 32
 end
-arch medium_stones
-x 8
-y 33
-end
 arch cave_15
 x 8
 y 33
 end
-arch medium_stones
+arch cave_15
 x 8
 y 34
 end
 arch cave_15
 x 8
-y 34
-end
-arch medium_stones
-x 8
 y 35
-end
-arch cave_15
-x 8
-y 35
-end
-arch medium_stones
-x 8
-y 36
 end
 arch cave_15
 x 8
@@ -3796,10 +3323,6 @@ arch cave2
 x 8
 y 62
 end
-arch medium_stones
-x 8
-y 63
-end
 arch cave_15
 x 8
 y 63
@@ -3890,29 +3413,13 @@ arch blocked
 x 9
 y 13
 end
-arch medium_stones
-x 9
-y 14
-end
-arch bwall_3_3
-x 9
-y 14
-end
 arch blocked
 x 9
 y 14
 end
-arch medium_stones
-x 9
-y 15
-end
 arch cave_15
 x 9
 y 15
-end
-arch medium_stones
-x 9
-y 16
 end
 arch cave_15
 x 9
@@ -4014,33 +3521,17 @@ arch cave2
 x 9
 y 32
 end
-arch medium_stones
-x 9
-y 33
-end
 arch cave_15
 x 9
 y 33
 end
-arch medium_stones
+arch cave_15
 x 9
 y 34
 end
 arch cave_15
 x 9
-y 34
-end
-arch medium_stones
-x 9
 y 35
-end
-arch cave_15
-x 9
-y 35
-end
-arch medium_stones
-x 9
-y 36
 end
 arch cave_15
 x 9
@@ -4206,10 +3697,6 @@ arch cave2
 x 9
 y 62
 end
-arch medium_stones
-x 9
-y 63
-end
 arch cave_15
 x 9
 y 63
@@ -4316,37 +3803,17 @@ arch blocked
 x 10
 y 13
 end
-arch medium_stones
-x 10
-y 14
-end
-arch bwall_3_3
-x 10
-y 14
-end
 arch blocked
 x 10
 y 14
 end
-arch medium_stones
+arch cave_15
 x 10
 y 15
 end
 arch cave_15
 x 10
-y 15
-end
-arch medium_stones
-x 10
 y 16
-end
-arch cave_15
-x 10
-y 16
-end
-arch medium_stones
-x 10
-y 17
 end
 arch cave_15
 x 10
@@ -4456,25 +3923,13 @@ arch cave23
 x 10
 y 33
 end
-arch medium_stones
+arch cave_15
 x 10
 y 34
 end
 arch cave_15
 x 10
-y 34
-end
-arch medium_stones
-x 10
 y 35
-end
-arch cave_15
-x 10
-y 35
-end
-arch medium_stones
-x 10
-y 36
 end
 arch cave_15
 x 10
@@ -4660,10 +4115,6 @@ arch cave2
 x 10
 y 62
 end
-arch medium_stones
-x 10
-y 63
-end
 arch cave_15
 x 10
 y 63
@@ -4770,29 +4221,13 @@ arch blocked
 x 11
 y 13
 end
-arch medium_stones
-x 11
-y 14
-end
-arch bwall_3_3
-x 11
-y 14
-end
 arch blocked
 x 11
 y 14
 end
-arch medium_stones
-x 11
-y 15
-end
 arch cave_15
 x 11
 y 15
-end
-arch medium_stones
-x 11
-y 16
 end
 arch cave_15
 x 11
@@ -4898,25 +4333,13 @@ arch cave2
 x 11
 y 33
 end
-arch medium_stones
+arch cave_15
 x 11
 y 34
 end
 arch cave_15
 x 11
-y 34
-end
-arch medium_stones
-x 11
 y 35
-end
-arch cave_15
-x 11
-y 35
-end
-arch medium_stones
-x 11
-y 36
 end
 arch cave_15
 x 11
@@ -5106,10 +4529,6 @@ arch cave22
 x 11
 y 62
 end
-arch medium_stones
-x 11
-y 63
-end
 arch cave_15
 x 11
 y 63
@@ -5204,29 +4623,13 @@ arch blocked
 x 12
 y 13
 end
-arch medium_stones
-x 12
-y 14
-end
-arch bwall_3_3
-x 12
-y 14
-end
 arch blocked
 x 12
 y 14
 end
-arch medium_stones
-x 12
-y 15
-end
 arch cave_15
 x 12
 y 15
-end
-arch medium_stones
-x 12
-y 16
 end
 arch cave_15
 x 12
@@ -5348,17 +4751,9 @@ arch cave23
 x 12
 y 34
 end
-arch medium_stones
-x 12
-y 35
-end
 arch cave_15
 x 12
 y 35
-end
-arch medium_stones
-x 12
-y 36
 end
 arch cave_15
 x 12
@@ -5508,33 +4903,17 @@ arch cave2
 x 12
 y 59
 end
-arch medium_stones
-x 12
-y 60
-end
 arch cave_15
 x 12
 y 60
 end
-arch medium_stones
+arch cave_15
 x 12
 y 61
 end
 arch cave_15
 x 12
-y 61
-end
-arch medium_stones
-x 12
 y 62
-end
-arch cave_15
-x 12
-y 62
-end
-arch medium_stones
-x 12
-y 63
 end
 arch cave_15
 x 12
@@ -5625,14 +5004,6 @@ end
 arch blocked
 x 13
 y 13
-end
-arch medium_stones
-x 13
-y 14
-end
-arch bwall_3_3
-x 13
-y 14
 end
 arch blocked
 x 13
@@ -5774,17 +5145,9 @@ arch cave2
 x 13
 y 34
 end
-arch medium_stones
-x 13
-y 35
-end
 arch cave_15
 x 13
 y 35
-end
-arch medium_stones
-x 13
-y 36
 end
 arch cave_15
 x 13
@@ -5922,33 +5285,17 @@ arch cave2
 x 13
 y 59
 end
-arch medium_stones
-x 13
-y 60
-end
 arch cave_15
 x 13
 y 60
 end
-arch medium_stones
+arch cave_15
 x 13
 y 61
 end
 arch cave_15
 x 13
-y 61
-end
-arch medium_stones
-x 13
 y 62
-end
-arch cave_15
-x 13
-y 62
-end
-arch medium_stones
-x 13
-y 63
 end
 arch cave_15
 x 13
@@ -6040,14 +5387,6 @@ arch blocked
 x 14
 y 13
 end
-arch medium_stones
-x 14
-y 14
-end
-arch bwall_3_3
-x 14
-y 14
-end
 arch blocked
 x 14
 y 14
@@ -6120,10 +5459,6 @@ arch cave22
 x 14
 y 25
 end
-arch medium_stones
-x 14
-y 26
-end
 arch cave_15
 x 14
 y 26
@@ -6180,17 +5515,9 @@ arch cave2
 x 14
 y 34
 end
-arch medium_stones
-x 14
-y 35
-end
 arch cave_15
 x 14
 y 35
-end
-arch medium_stones
-x 14
-y 36
 end
 arch cave_15
 x 14
@@ -6336,33 +5663,17 @@ arch cave2
 x 14
 y 59
 end
-arch medium_stones
-x 14
-y 60
-end
 arch cave_15
 x 14
 y 60
 end
-arch medium_stones
+arch cave_15
 x 14
 y 61
 end
 arch cave_15
 x 14
-y 61
-end
-arch medium_stones
-x 14
 y 62
-end
-arch cave_15
-x 14
-y 62
-end
-arch medium_stones
-x 14
-y 63
 end
 arch cave_15
 x 14
@@ -6462,14 +5773,6 @@ arch blocked
 x 15
 y 13
 end
-arch medium_stones
-x 15
-y 14
-end
-arch bwall_3_3
-x 15
-y 14
-end
 arch blocked
 x 15
 y 14
@@ -6766,33 +6069,17 @@ arch cave22
 x 15
 y 59
 end
-arch medium_stones
-x 15
-y 60
-end
 arch cave_15
 x 15
 y 60
 end
-arch medium_stones
+arch cave_15
 x 15
 y 61
 end
 arch cave_15
 x 15
-y 61
-end
-arch medium_stones
-x 15
 y 62
-end
-arch cave_15
-x 15
-y 62
-end
-arch medium_stones
-x 15
-y 63
 end
 arch cave_15
 x 15
@@ -6883,14 +6170,6 @@ end
 arch blocked
 x 16
 y 13
-end
-arch medium_stones
-x 16
-y 14
-end
-arch bwall_3_3
-x 16
-y 14
 end
 arch blocked
 x 16
@@ -7108,41 +6387,21 @@ arch cave2
 x 16
 y 58
 end
-arch medium_stones
-x 16
-y 59
-end
 arch cave_15
 x 16
 y 59
 end
-arch medium_stones
+arch cave_15
 x 16
 y 60
 end
 arch cave_15
 x 16
-y 60
-end
-arch medium_stones
-x 16
 y 61
 end
 arch cave_15
 x 16
-y 61
-end
-arch medium_stones
-x 16
 y 62
-end
-arch cave_15
-x 16
-y 62
-end
-arch medium_stones
-x 16
-y 63
 end
 arch cave_15
 x 16
@@ -7237,14 +6496,6 @@ end
 arch blocked
 x 17
 y 13
-end
-arch medium_stones
-x 17
-y 14
-end
-arch bwall_3_3
-x 17
-y 14
 end
 arch blocked
 x 17
@@ -7490,25 +6741,13 @@ arch cave23
 x 17
 y 60
 end
-arch medium_stones
+arch cave_15
 x 17
 y 61
 end
 arch cave_15
 x 17
-y 61
-end
-arch medium_stones
-x 17
 y 62
-end
-arch cave_15
-x 17
-y 62
-end
-arch medium_stones
-x 17
-y 63
 end
 arch cave_15
 x 17
@@ -7615,14 +6854,6 @@ end
 arch blocked
 x 18
 y 13
-end
-arch medium_stones
-x 18
-y 14
-end
-arch bwall_3_3
-x 18
-y 14
 end
 arch blocked
 x 18
@@ -7891,10 +7122,6 @@ end
 arch cave23
 x 18
 y 62
-end
-arch medium_stones
-x 18
-y 63
 end
 arch cave_15
 x 18
@@ -7993,21 +7220,9 @@ arch blocked
 x 19
 y 13
 end
-arch medium_stones
-x 19
-y 14
-end
-arch bwall_3_3
-x 19
-y 14
-end
 arch blocked
 x 19
 y 14
-end
-arch medium_stones
-x 19
-y 15
 end
 arch cave_15
 x 19
@@ -8285,10 +7500,6 @@ arch cave2
 x 19
 y 62
 end
-arch medium_stones
-x 19
-y 63
-end
 arch cave_15
 x 19
 y 63
@@ -8391,29 +7602,13 @@ arch blocked
 x 20
 y 13
 end
-arch medium_stones
-x 20
-y 14
-end
-arch bwall_3_3
-x 20
-y 14
-end
 arch blocked
 x 20
 y 14
 end
-arch medium_stones
-x 20
-y 15
-end
 arch cave_15
 x 20
 y 15
-end
-arch medium_stones
-x 20
-y 16
 end
 arch cave_15
 x 20
@@ -8639,10 +7834,6 @@ arch cave2
 x 20
 y 51
 end
-arch medium_stones
-x 20
-y 52
-end
 arch cave_15
 x 20
 y 52
@@ -8714,10 +7905,6 @@ end
 arch cave2
 x 20
 y 62
-end
-arch medium_stones
-x 20
-y 63
 end
 arch cave_15
 x 20
@@ -8837,37 +8024,17 @@ arch blocked
 x 21
 y 13
 end
-arch medium_stones
-x 21
-y 14
-end
-arch bwall_2_2_3
-x 21
-y 14
-end
 arch blocked
 x 21
 y 14
 end
-arch medium_stones
+arch cave_15
 x 21
 y 15
 end
 arch cave_15
 x 21
-y 15
-end
-arch medium_stones
-x 21
 y 16
-end
-arch cave_15
-x 21
-y 16
-end
-arch medium_stones
-x 21
-y 17
 end
 arch cave_15
 x 21
@@ -8953,17 +8120,9 @@ arch cave22
 x 21
 y 29
 end
-arch medium_stones
-x 21
-y 30
-end
 arch cave_15
 x 21
 y 30
-end
-arch medium_stones
-x 21
-y 31
 end
 arch cave_15
 x 21
@@ -9137,10 +8296,6 @@ arch cave2
 x 21
 y 57
 end
-arch medium_stones
-x 21
-y 58
-end
 arch cave_15
 x 21
 y 58
@@ -9169,183 +8324,92 @@ arch cave2
 x 21
 y 62
 end
-arch medium_stones
-x 21
-y 63
-end
 arch cave_15
 x 21
 y 63
 end
-arch medium_stones
-x 22
-end
 arch blocked
 x 22
 end
-arch medium_stones
+arch blocked
 x 22
 y 1
 end
 arch blocked
 x 22
-y 1
-end
-arch medium_stones
-x 22
 y 2
 end
 arch blocked
-x 22
-y 2
-end
-arch medium_stones
 x 22
 y 3
 end
 arch blocked
 x 22
-y 3
-end
-arch medium_stones
-x 22
 y 4
 end
 arch blocked
-x 22
-y 4
-end
-arch medium_stones
 x 22
 y 5
 end
 arch blocked
 x 22
-y 5
-end
-arch medium_stones
-x 22
 y 6
 end
 arch blocked
-x 22
-y 6
-end
-arch medium_stones
 x 22
 y 7
 end
 arch blocked
 x 22
-y 7
-end
-arch medium_stones
-x 22
 y 8
 end
 arch blocked
-x 22
-y 8
-end
-arch medium_stones
 x 22
 y 9
 end
 arch blocked
 x 22
-y 9
-end
-arch medium_stones
-x 22
 y 10
 end
 arch blocked
-x 22
-y 10
-end
-arch medium_stones
 x 22
 y 11
 end
 arch blocked
 x 22
-y 11
-end
-arch medium_stones
-x 22
 y 12
 end
 arch blocked
-x 22
-y 12
-end
-arch medium_stones
 x 22
 y 13
 end
 arch blocked
 x 22
-y 13
-end
-arch medium_stones
-x 22
 y 14
 end
-arch blocked
-x 22
-y 14
-end
-arch medium_stones
+arch cave_15
 x 22
 y 15
 end
 arch cave_15
 x 22
-y 15
-end
-arch medium_stones
-x 22
 y 16
 end
 arch cave_15
-x 22
-y 16
-end
-arch medium_stones
 x 22
 y 17
 end
 arch cave_15
 x 22
-y 17
-end
-arch medium_stones
-x 22
 y 18
 end
 arch cave_15
-x 22
-y 18
-end
-arch medium_stones
 x 22
 y 19
 end
 arch cave_15
 x 22
-y 19
-end
-arch medium_stones
-x 22
 y 20
-end
-arch cave_15
-x 22
-y 20
-end
-arch medium_stones
-x 22
-y 21
 end
 arch cave_15
 x 22
@@ -9595,10 +8659,6 @@ arch cave2
 x 22
 y 57
 end
-arch medium_stones
-x 22
-y 58
-end
 arch cave_15
 x 22
 y 58
@@ -9627,151 +8687,76 @@ arch cave2
 x 22
 y 62
 end
-arch medium_stones
-x 22
-y 63
-end
 arch cave_15
 x 22
 y 63
 end
-arch medium_stones
-x 23
-end
 arch cave_15
 x 23
 end
-arch medium_stones
+arch cave_15
 x 23
 y 1
 end
 arch cave_15
 x 23
-y 1
-end
-arch medium_stones
-x 23
 y 2
 end
 arch cave_15
-x 23
-y 2
-end
-arch medium_stones
 x 23
 y 3
 end
 arch cave_15
 x 23
-y 3
-end
-arch medium_stones
-x 23
 y 4
 end
 arch cave_15
-x 23
-y 4
-end
-arch medium_stones
 x 23
 y 5
 end
 arch cave_15
 x 23
-y 5
-end
-arch medium_stones
-x 23
 y 6
 end
 arch cave_15
-x 23
-y 6
-end
-arch medium_stones
 x 23
 y 7
 end
 arch cave_15
 x 23
-y 7
-end
-arch medium_stones
-x 23
 y 8
 end
 arch cave_15
-x 23
-y 8
-end
-arch medium_stones
 x 23
 y 9
 end
 arch cave_15
 x 23
-y 9
-end
-arch medium_stones
-x 23
 y 10
 end
 arch cave_15
-x 23
-y 10
-end
-arch medium_stones
 x 23
 y 11
 end
 arch cave_15
 x 23
-y 11
-end
-arch medium_stones
-x 23
 y 12
 end
 arch cave_15
-x 23
-y 12
-end
-arch medium_stones
 x 23
 y 13
 end
 arch cave_15
 x 23
-y 13
-end
-arch medium_stones
-x 23
 y 14
 end
 arch cave_15
-x 23
-y 14
-end
-arch medium_stones
 x 23
 y 15
 end
 arch cave_15
 x 23
-y 15
-end
-arch medium_stones
-x 23
 y 16
-end
-arch cave_15
-x 23
-y 16
-end
-arch medium_stones
-x 23
-y 17
 end
 arch cave_15
 x 23
@@ -10025,10 +9010,6 @@ arch cave2
 x 23
 y 57
 end
-arch medium_stones
-x 23
-y 58
-end
 arch cave_15
 x 23
 y 58
@@ -10057,16 +9038,9 @@ arch cave2
 x 23
 y 62
 end
-arch medium_stones
-x 23
-y 63
-end
 arch cave_15
 x 23
 y 63
-end
-arch medium_stones
-x 24
 end
 arch cave_15
 x 24
@@ -10471,10 +9445,6 @@ arch cave2
 x 24
 y 57
 end
-arch medium_stones
-x 24
-y 58
-end
 arch cave_15
 x 24
 y 58
@@ -10503,16 +9473,9 @@ arch cave2
 x 24
 y 62
 end
-arch medium_stones
-x 24
-y 63
-end
 arch cave_15
 x 24
 y 63
-end
-arch medium_stones
-x 25
 end
 arch cave_15
 x 25
@@ -10749,10 +9712,6 @@ arch cave23
 x 25
 y 38
 end
-arch medium_stones
-x 25
-y 39
-end
 arch cave_15
 x 25
 y 39
@@ -10873,10 +9832,6 @@ arch cave22
 x 25
 y 57
 end
-arch medium_stones
-x 25
-y 58
-end
 arch cave_15
 x 25
 y 58
@@ -10905,16 +9860,9 @@ arch cave2
 x 25
 y 62
 end
-arch medium_stones
-x 25
-y 63
-end
 arch cave_15
 x 25
 y 63
-end
-arch medium_stones
-x 26
 end
 arch cave_15
 x 26
@@ -11070,10 +10018,6 @@ end
 arch cave2
 x 26
 y 26
-end
-arch medium_stones
-x 26
-y 27
 end
 arch cave_15
 x 26
@@ -11295,31 +10239,16 @@ arch cave2
 x 26
 y 62
 end
-arch medium_stones
-x 26
-y 63
-end
 arch cave_15
 x 26
 y 63
 end
-arch medium_stones
+arch cave_15
 x 27
 end
 arch cave_15
 x 27
-end
-arch medium_stones
-x 27
 y 1
-end
-arch cave_15
-x 27
-y 1
-end
-arch medium_stones
-x 27
-y 2
 end
 arch cave_15
 x 27
@@ -11705,23 +10634,12 @@ arch cave22
 x 27
 y 62
 end
-arch medium_stones
-x 27
-y 63
-end
 arch cave_15
 x 27
 y 63
 end
-arch medium_stones
-x 28
-end
 arch cave_15
 x 28
-end
-arch medium_stones
-x 28
-y 1
 end
 arch cave_15
 x 28
@@ -12103,31 +11021,16 @@ arch cave22
 x 28
 y 61
 end
-arch medium_stones
-x 28
-y 62
-end
 arch cave_15
 x 28
 y 62
-end
-arch medium_stones
-x 28
-y 63
 end
 arch cave_15
 x 28
 y 63
 end
-arch medium_stones
-x 29
-end
 arch cave_15
 x 29
-end
-arch medium_stones
-x 29
-y 1
 end
 arch cave_15
 x 29
@@ -12237,25 +11140,13 @@ arch cave22
 x 29
 y 21
 end
-arch medium_stones
+arch cave_15
 x 29
 y 22
 end
 arch cave_15
 x 29
-y 22
-end
-arch medium_stones
-x 29
 y 23
-end
-arch cave_15
-x 29
-y 23
-end
-arch medium_stones
-x 29
-y 24
 end
 arch cave_15
 x 29
@@ -12513,23 +11404,12 @@ arch cave23
 x 29
 y 62
 end
-arch medium_stones
-x 29
-y 63
-end
 arch cave_15
 x 29
 y 63
 end
-arch medium_stones
-x 30
-end
 arch cave_15
 x 30
-end
-arch medium_stones
-x 30
-y 1
 end
 arch cave_15
 x 30
@@ -12647,33 +11527,17 @@ arch cave2
 x 30
 y 20
 end
-arch medium_stones
-x 30
-y 21
-end
 arch cave_15
 x 30
 y 21
 end
-arch medium_stones
+arch cave_15
 x 30
 y 22
 end
 arch cave_15
 x 30
-y 22
-end
-arch medium_stones
-x 30
 y 23
-end
-arch cave_15
-x 30
-y 23
-end
-arch medium_stones
-x 30
-y 24
 end
 arch cave_15
 x 30
@@ -12715,17 +11579,9 @@ arch cave2
 x 30
 y 31
 end
-arch medium_stones
-x 30
-y 32
-end
 arch cave_15
 x 30
 y 32
-end
-arch medium_stones
-x 30
-y 33
 end
 arch cave_15
 x 30
@@ -12855,10 +11711,6 @@ arch cave2
 x 30
 y 51
 end
-arch medium_stones
-x 30
-y 52
-end
 arch cave_15
 x 30
 y 52
@@ -12923,23 +11775,12 @@ arch cave2
 x 30
 y 62
 end
-arch medium_stones
-x 30
-y 63
-end
 arch cave_15
 x 30
 y 63
 end
-arch medium_stones
-x 31
-end
 arch cave_15
 x 31
-end
-arch medium_stones
-x 31
-y 1
 end
 arch cave_15
 x 31
@@ -13005,17 +11846,9 @@ arch cave22
 x 31
 y 12
 end
-arch medium_stones
-x 31
-y 13
-end
 arch cave_15
 x 31
 y 13
-end
-arch medium_stones
-x 31
-y 14
 end
 arch cave_15
 x 31
@@ -13065,33 +11898,17 @@ arch cave2
 x 31
 y 20
 end
-arch medium_stones
-x 31
-y 21
-end
 arch cave_15
 x 31
 y 21
 end
-arch medium_stones
+arch cave_15
 x 31
 y 22
 end
 arch cave_15
 x 31
-y 22
-end
-arch medium_stones
-x 31
 y 23
-end
-arch cave_15
-x 31
-y 23
-end
-arch medium_stones
-x 31
-y 24
 end
 arch cave_15
 x 31
@@ -13265,10 +12082,6 @@ arch cave2
 x 31
 y 51
 end
-arch medium_stones
-x 31
-y 52
-end
 arch cave_15
 x 31
 y 52
@@ -13337,23 +12150,12 @@ arch cave2
 x 31
 y 62
 end
-arch medium_stones
-x 31
-y 63
-end
 arch cave_15
 x 31
 y 63
 end
-arch medium_stones
-x 32
-end
 arch cave_15
 x 32
-end
-arch medium_stones
-x 32
-y 1
 end
 arch cave_15
 x 32
@@ -13415,10 +12217,6 @@ arch cave2
 x 32
 y 11
 end
-arch medium_stones
-x 32
-y 12
-end
 arch cave_15
 x 32
 y 12
@@ -13430,10 +12228,6 @@ end
 arch cave_15
 x 32
 y 13
-end
-arch medium_stones
-x 32
-y 14
 end
 arch cave_15
 x 32
@@ -13474,10 +12268,6 @@ end
 arch cave2
 x 32
 y 20
-end
-arch medium_stones
-x 32
-y 21
 end
 arch cave_15
 x 32
@@ -13687,10 +12477,6 @@ arch cave22
 x 32
 y 51
 end
-arch medium_stones
-x 32
-y 52
-end
 arch cave_15
 x 32
 y 52
@@ -13759,23 +12545,12 @@ arch cave2
 x 32
 y 62
 end
-arch medium_stones
-x 32
-y 63
-end
 arch cave_15
 x 32
 y 63
 end
-arch medium_stones
-x 33
-end
 arch cave_15
 x 33
-end
-arch medium_stones
-x 33
-y 1
 end
 arch cave_15
 x 33
@@ -13828,10 +12603,6 @@ end
 arch cave2
 x 33
 y 11
-end
-arch medium_stones
-x 33
-y 12
 end
 arch cave_15
 x 33
@@ -13888,10 +12659,6 @@ end
 arch cave22
 x 33
 y 20
-end
-arch medium_stones
-x 33
-y 21
 end
 arch cave_15
 x 33
@@ -13980,10 +12747,6 @@ end
 arch cave22
 x 33
 y 35
-end
-arch medium_stones
-x 33
-y 36
 end
 arch cave_15
 x 33
@@ -14161,23 +12924,12 @@ arch cave2
 x 33
 y 62
 end
-arch medium_stones
-x 33
-y 63
-end
 arch cave_15
 x 33
 y 63
 end
-arch medium_stones
-x 34
-end
 arch cave_15
 x 34
-end
-arch medium_stones
-x 34
-y 1
 end
 arch cave_15
 x 34
@@ -14234,10 +12986,6 @@ end
 arch cave22
 x 34
 y 11
-end
-arch medium_stones
-x 34
-y 12
 end
 arch cave_15
 x 34
@@ -14283,17 +13031,9 @@ arch cave2
 x 34
 y 19
 end
-arch medium_stones
-x 34
-y 20
-end
 arch cave_15
 x 34
 y 20
-end
-arch medium_stones
-x 34
-y 21
 end
 arch cave_15
 x 34
@@ -14419,17 +13159,9 @@ arch cave23
 x 34
 y 39
 end
-arch medium_stones
-x 34
-y 40
-end
 arch cave_15
 x 34
 y 40
-end
-arch medium_stones
-x 34
-y 41
 end
 arch cave_15
 x 34
@@ -14583,23 +13315,12 @@ arch cave2
 x 34
 y 62
 end
-arch medium_stones
-x 34
-y 63
-end
 arch cave_15
 x 34
 y 63
 end
-arch medium_stones
-x 35
-end
 arch cave_15
 x 35
-end
-arch medium_stones
-x 35
-y 1
 end
 arch cave_15
 x 35
@@ -14649,17 +13370,9 @@ arch cave2
 x 35
 y 10
 end
-arch medium_stones
-x 35
-y 11
-end
 arch cave_15
 x 35
 y 11
-end
-arch medium_stones
-x 35
-y 12
 end
 arch cave_15
 x 35
@@ -14700,10 +13413,6 @@ end
 arch cave2
 x 35
 y 19
-end
-arch medium_stones
-x 35
-y 20
 end
 arch cave_15
 x 35
@@ -14997,23 +13706,12 @@ arch cave2
 x 35
 y 62
 end
-arch medium_stones
-x 35
-y 63
-end
 arch cave_15
 x 35
 y 63
 end
-arch medium_stones
-x 36
-end
 arch cave_15
 x 36
-end
-arch medium_stones
-x 36
-y 1
 end
 arch cave_15
 x 36
@@ -15072,17 +13770,9 @@ arch cave2
 x 36
 y 10
 end
-arch medium_stones
-x 36
-y 11
-end
 arch cave_15
 x 36
 y 11
-end
-arch medium_stones
-x 36
-y 12
 end
 arch cave_15
 x 36
@@ -15123,10 +13813,6 @@ end
 arch cave2
 x 36
 y 19
-end
-arch medium_stones
-x 36
-y 20
 end
 arch cave_15
 x 36
@@ -15388,31 +14074,16 @@ arch cave22
 x 36
 y 62
 end
-arch medium_stones
-x 36
-y 63
-end
 arch cave_15
 x 36
 y 63
 end
-arch medium_stones
+arch cave_15
 x 37
 end
 arch cave_15
 x 37
-end
-arch medium_stones
-x 37
 y 1
-end
-arch cave_15
-x 37
-y 1
-end
-arch medium_stones
-x 37
-y 2
 end
 arch cave_15
 x 37
@@ -15486,17 +14157,9 @@ arch cave22
 x 37
 y 10
 end
-arch medium_stones
-x 37
-y 11
-end
 arch cave_15
 x 37
 y 11
-end
-arch medium_stones
-x 37
-y 12
 end
 arch cave_15
 x 37
@@ -15798,51 +14461,24 @@ arch cave22
 x 37
 y 61
 end
-arch medium_stones
-x 37
-y 62
-end
 arch cave_15
 x 37
 y 62
-end
-arch medium_stones
-x 37
-y 63
 end
 arch cave_15
 x 37
 y 63
 end
-arch medium_stones
+arch cave_15
 x 38
 end
 arch cave_15
 x 38
-end
-arch medium_stones
-x 38
 y 1
-end
-arch cave_15
-x 38
-y 1
-end
-arch cave_15
-x 38
-y 1
-end
-arch medium_stones
-x 38
-y 2
 end
 arch cave_15
 x 38
 y 2
-end
-arch medium_stones
-x 38
-y 3
 end
 arch cave_15
 x 38
@@ -15908,17 +14544,9 @@ arch cave23
 x 38
 y 10
 end
-arch medium_stones
-x 38
-y 11
-end
 arch cave_15
 x 38
 y 11
-end
-arch medium_stones
-x 38
-y 12
 end
 arch cave_15
 x 38
@@ -15959,10 +14587,6 @@ end
 arch cave2
 x 38
 y 18
-end
-arch medium_stones
-x 38
-y 19
 end
 arch cave_15
 x 38
@@ -16196,63 +14820,32 @@ arch cave2
 x 38
 y 59
 end
-arch medium_stones
-x 38
-y 60
-end
 arch cave_15
 x 38
 y 60
 end
-arch medium_stones
+arch cave_15
 x 38
 y 61
 end
 arch cave_15
 x 38
-y 61
-end
-arch medium_stones
-x 38
 y 62
-end
-arch cave_15
-x 38
-y 62
-end
-arch medium_stones
-x 38
-y 63
 end
 arch cave_15
 x 38
 y 63
 end
-arch medium_stones
-x 39
-end
 arch cave_15
 x 39
-end
-arch medium_stones
-x 39
-y 1
 end
 arch cave_15
 x 39
 y 1
 end
-arch medium_stones
-x 39
-y 2
-end
 arch cave_15
 x 39
 y 2
-end
-arch medium_stones
-x 39
-y 3
 end
 arch cave_15
 x 39
@@ -16294,17 +14887,9 @@ arch cave2
 x 39
 y 10
 end
-arch medium_stones
-x 39
-y 11
-end
 arch cave_15
 x 39
 y 11
-end
-arch medium_stones
-x 39
-y 12
 end
 arch cave_15
 x 39
@@ -16454,10 +15039,6 @@ arch cave2
 x 39
 y 34
 end
-arch medium_stones
-x 39
-y 35
-end
 arch cave_15
 x 39
 y 35
@@ -16626,47 +15207,24 @@ arch cave22
 x 39
 y 59
 end
-arch medium_stones
-x 39
-y 60
-end
 arch cave_15
 x 39
 y 60
 end
-arch medium_stones
+arch cave_15
 x 39
 y 61
 end
 arch cave_15
 x 39
-y 61
-end
-arch medium_stones
-x 39
 y 62
-end
-arch cave_15
-x 39
-y 62
-end
-arch medium_stones
-x 39
-y 63
 end
 arch cave_15
 x 39
 y 63
 end
-arch medium_stones
-x 40
-end
 arch cave_15
 x 40
-end
-arch medium_stones
-x 40
-y 1
 end
 arch cave_15
 x 40
@@ -16731,10 +15289,6 @@ end
 arch cave23
 x 40
 y 11
-end
-arch medium_stones
-x 40
-y 12
 end
 arch cave_15
 x 40
@@ -17076,23 +15630,12 @@ arch cave23
 x 40
 y 62
 end
-arch medium_stones
-x 40
-y 63
-end
 arch cave_15
 x 40
 y 63
 end
-arch medium_stones
-x 41
-end
 arch cave_15
 x 41
-end
-arch medium_stones
-x 41
-y 1
 end
 arch cave_15
 x 41
@@ -17159,10 +15702,6 @@ arch cave2
 x 41
 y 11
 end
-arch medium_stones
-x 41
-y 12
-end
 arch cave_15
 x 41
 y 12
@@ -17503,16 +16042,9 @@ arch cave2
 x 41
 y 62
 end
-arch medium_stones
-x 41
-y 63
-end
 arch cave_15
 x 41
 y 63
-end
-arch medium_stones
-x 42
 end
 arch cave_15
 x 42
@@ -17580,10 +16112,6 @@ end
 arch cave23
 x 42
 y 12
-end
-arch medium_stones
-x 42
-y 13
 end
 arch cave_15
 x 42
@@ -17817,17 +16345,9 @@ arch cave2
 x 42
 y 51
 end
-arch medium_stones
-x 42
-y 52
-end
 arch cave_15
 x 42
 y 52
-end
-arch medium_stones
-x 42
-y 53
 end
 arch cave_15
 x 42
@@ -17889,16 +16409,9 @@ arch cave22
 x 42
 y 62
 end
-arch medium_stones
-x 42
-y 63
-end
 arch cave_15
 x 42
 y 63
-end
-arch medium_stones
-x 43
 end
 arch cave_15
 x 43
@@ -17962,10 +16475,6 @@ end
 arch cave2
 x 43
 y 12
-end
-arch medium_stones
-x 43
-y 13
 end
 arch cave_15
 x 43
@@ -18127,10 +16636,6 @@ arch cave23
 x 43
 y 39
 end
-arch medium_stones
-x 43
-y 40
-end
 arch cave_15
 x 43
 y 40
@@ -18215,10 +16720,6 @@ arch cave23
 x 43
 y 52
 end
-arch medium_stones
-x 43
-y 53
-end
 arch cave_15
 x 43
 y 53
@@ -18275,16 +16776,9 @@ arch cave23
 x 43
 y 62
 end
-arch medium_stones
-x 43
-y 63
-end
 arch cave_15
 x 43
 y 63
-end
-arch medium_stones
-x 44
 end
 arch cave_15
 x 44
@@ -18360,10 +16854,6 @@ end
 arch cave2
 x 44
 y 12
-end
-arch medium_stones
-x 44
-y 13
 end
 arch cave_15
 x 44
@@ -18533,10 +17023,6 @@ arch cave2
 x 44
 y 39
 end
-arch medium_stones
-x 44
-y 40
-end
 arch cave_15
 x 44
 y 40
@@ -18673,16 +17159,9 @@ arch cave2
 x 44
 y 62
 end
-arch medium_stones
-x 44
-y 63
-end
 arch cave_15
 x 44
 y 63
-end
-arch medium_stones
-x 45
 end
 arch cave_15
 x 45
@@ -18754,10 +17233,6 @@ end
 arch cave2
 x 45
 y 12
-end
-arch medium_stones
-x 45
-y 13
 end
 arch cave_15
 x 45
@@ -18931,10 +17406,6 @@ arch cave2
 x 45
 y 39
 end
-arch medium_stones
-x 45
-y 40
-end
 arch cave_15
 x 45
 y 40
@@ -19087,16 +17558,9 @@ arch cave2
 x 45
 y 62
 end
-arch medium_stones
-x 45
-y 63
-end
 arch cave_15
 x 45
 y 63
-end
-arch medium_stones
-x 46
 end
 arch cave_15
 x 46
@@ -19170,10 +17634,6 @@ arch cave2
 x 46
 y 12
 end
-arch medium_stones
-x 46
-y 13
-end
 arch cave_15
 x 46
 y 13
@@ -19450,16 +17910,9 @@ arch cave2
 x 46
 y 62
 end
-arch medium_stones
-x 46
-y 63
-end
 arch cave_15
 x 46
 y 63
-end
-arch medium_stones
-x 47
 end
 arch cave_15
 x 47
@@ -19523,10 +17976,6 @@ end
 arch cave2
 x 47
 y 12
-end
-arch medium_stones
-x 47
-y 13
 end
 arch cave_15
 x 47
@@ -19820,16 +18269,9 @@ arch cave2
 x 47
 y 62
 end
-arch medium_stones
-x 47
-y 63
-end
 arch cave_15
 x 47
 y 63
-end
-arch medium_stones
-x 48
 end
 arch cave_15
 x 48
@@ -19901,10 +18343,6 @@ end
 arch cave2
 x 48
 y 12
-end
-arch medium_stones
-x 48
-y 13
 end
 arch cave_15
 x 48
@@ -20182,23 +18620,12 @@ arch cave2
 x 48
 y 62
 end
-arch medium_stones
-x 48
-y 63
-end
 arch cave_15
 x 48
 y 63
 end
-arch medium_stones
-x 49
-end
 arch cave_15
 x 49
-end
-arch medium_stones
-x 49
-y 1
 end
 arch cave_15
 x 49
@@ -20283,10 +18710,6 @@ end
 arch cave22
 x 49
 y 12
-end
-arch medium_stones
-x 49
-y 13
 end
 arch cave_15
 x 49
@@ -20596,39 +19019,20 @@ arch cave2
 x 49
 y 62
 end
-arch medium_stones
-x 49
-y 63
-end
 arch cave_15
 x 49
 y 63
 end
-arch medium_stones
-x 50
-end
 arch cave_15
 x 50
 end
-arch medium_stones
+arch cave_15
 x 50
 y 1
 end
 arch cave_15
 x 50
-y 1
-end
-arch medium_stones
-x 50
 y 2
-end
-arch cave_15
-x 50
-y 2
-end
-arch medium_stones
-x 50
-y 3
 end
 arch cave_15
 x 50
@@ -20698,17 +19102,9 @@ arch cave22
 x 50
 y 11
 end
-arch medium_stones
-x 50
-y 12
-end
 arch cave_15
 x 50
 y 12
-end
-arch medium_stones
-x 50
-y 13
 end
 arch cave_15
 x 50
@@ -20806,25 +19202,13 @@ arch cave23
 x 50
 y 29
 end
-arch medium_stones
+arch cave_15
 x 50
 y 30
 end
 arch cave_15
 x 50
-y 30
-end
-arch medium_stones
-x 50
 y 31
-end
-arch cave_15
-x 50
-y 31
-end
-arch medium_stones
-x 50
-y 32
 end
 arch cave_15
 x 50
@@ -20873,10 +19257,6 @@ end
 arch cave2
 x 50
 y 39
-end
-arch medium_stones
-x 50
-y 40
 end
 arch cave_15
 x 50
@@ -21018,55 +19398,28 @@ arch cave2
 x 50
 y 62
 end
-arch medium_stones
-x 50
-y 63
-end
 arch cave_15
 x 50
 y 63
 end
-arch medium_stones
-x 51
-end
 arch cave_15
 x 51
 end
-arch medium_stones
+arch cave_15
 x 51
 y 1
 end
 arch cave_15
 x 51
-y 1
-end
-arch medium_stones
-x 51
 y 2
 end
 arch cave_15
-x 51
-y 2
-end
-arch medium_stones
 x 51
 y 3
 end
 arch cave_15
 x 51
-y 3
-end
-arch medium_stones
-x 51
 y 4
-end
-arch cave_15
-x 51
-y 4
-end
-arch medium_stones
-x 51
-y 5
 end
 arch cave_15
 x 51
@@ -21112,25 +19465,13 @@ arch cave22
 x 51
 y 10
 end
-arch medium_stones
+arch cave_15
 x 51
 y 11
 end
 arch cave_15
 x 51
-y 11
-end
-arch medium_stones
-x 51
 y 12
-end
-arch cave_15
-x 51
-y 12
-end
-arch medium_stones
-x 51
-y 13
 end
 arch cave_15
 x 51
@@ -21235,10 +19576,6 @@ end
 arch cave23
 x 51
 y 30
-end
-arch medium_stones
-x 51
-y 31
 end
 arch cave_15
 x 51
@@ -21460,63 +19797,32 @@ arch cave22
 x 51
 y 62
 end
-arch medium_stones
-x 51
-y 63
-end
 arch cave_15
 x 51
 y 63
 end
-arch medium_stones
-x 52
-end
 arch cave_15
 x 52
 end
-arch medium_stones
+arch cave_15
 x 52
 y 1
 end
 arch cave_15
 x 52
-y 1
-end
-arch medium_stones
-x 52
 y 2
 end
 arch cave_15
-x 52
-y 2
-end
-arch medium_stones
 x 52
 y 3
 end
 arch cave_15
 x 52
-y 3
-end
-arch medium_stones
-x 52
 y 4
 end
 arch cave_15
 x 52
-y 4
-end
-arch medium_stones
-x 52
 y 5
-end
-arch cave_15
-x 52
-y 5
-end
-arch medium_stones
-x 52
-y 6
 end
 arch cave_15
 x 52
@@ -21593,10 +19899,6 @@ end
 arch cave23
 x 52
 y 15
-end
-arch medium_stones
-x 52
-y 16
 end
 arch cave_15
 x 52
@@ -21886,71 +20188,36 @@ arch cave22
 x 52
 y 60
 end
-arch medium_stones
-x 52
-y 61
-end
 arch cave_15
 x 52
 y 61
 end
-arch medium_stones
+arch cave_15
 x 52
 y 62
 end
 arch cave_15
 x 52
-y 62
-end
-arch medium_stones
-x 52
 y 63
-end
-arch cave_15
-x 52
-y 63
-end
-arch medium_stones
-x 53
 end
 arch cave_15
 x 53
 end
-arch medium_stones
+arch cave_15
 x 53
 y 1
 end
 arch cave_15
 x 53
-y 1
-end
-arch medium_stones
-x 53
 y 2
 end
 arch cave_15
-x 53
-y 2
-end
-arch medium_stones
 x 53
 y 3
 end
 arch cave_15
 x 53
-y 3
-end
-arch medium_stones
-x 53
 y 4
-end
-arch cave_15
-x 53
-y 4
-end
-arch medium_stones
-x 53
-y 5
 end
 arch cave_15
 x 53
@@ -22276,79 +20543,40 @@ arch cave23
 x 53
 y 58
 end
-arch medium_stones
-x 53
-y 59
-end
 arch cave_15
 x 53
 y 59
 end
-arch medium_stones
+arch cave_15
 x 53
 y 60
 end
 arch cave_15
 x 53
-y 60
-end
-arch medium_stones
-x 53
 y 61
 end
 arch cave_15
-x 53
-y 61
-end
-arch medium_stones
 x 53
 y 62
 end
 arch cave_15
 x 53
-y 62
-end
-arch medium_stones
-x 53
 y 63
-end
-arch cave_15
-x 53
-y 63
-end
-arch medium_stones
-x 54
 end
 arch cave_15
 x 54
 end
-arch medium_stones
+arch cave_15
 x 54
 y 1
 end
 arch cave_15
 x 54
-y 1
-end
-arch medium_stones
-x 54
 y 2
 end
 arch cave_15
 x 54
-y 2
-end
-arch medium_stones
-x 54
 y 3
-end
-arch cave_15
-x 54
-y 3
-end
-arch medium_stones
-x 54
-y 4
 end
 arch cave_15
 x 54
@@ -22638,71 +20866,36 @@ arch cave2
 x 54
 y 58
 end
-arch medium_stones
-x 54
-y 59
-end
 arch cave_15
 x 54
 y 59
 end
-arch medium_stones
+arch cave_15
 x 54
 y 60
 end
 arch cave_15
 x 54
-y 60
-end
-arch medium_stones
-x 54
 y 61
 end
 arch cave_15
-x 54
-y 61
-end
-arch medium_stones
 x 54
 y 62
 end
 arch cave_15
 x 54
-y 62
-end
-arch medium_stones
-x 54
 y 63
-end
-arch cave_15
-x 54
-y 63
-end
-arch medium_stones
-x 55
 end
 arch cave_15
 x 55
 end
-arch medium_stones
+arch cave_15
 x 55
 y 1
 end
 arch cave_15
 x 55
-y 1
-end
-arch medium_stones
-x 55
 y 2
-end
-arch cave_15
-x 55
-y 2
-end
-arch medium_stones
-x 55
-y 3
 end
 arch cave_15
 x 55
@@ -23024,31 +21217,16 @@ arch cave23
 x 55
 y 62
 end
-arch medium_stones
-x 55
-y 63
-end
 arch cave_15
 x 55
 y 63
 end
-arch medium_stones
+arch cave_15
 x 56
 end
 arch cave_15
 x 56
-end
-arch medium_stones
-x 56
 y 1
-end
-arch cave_15
-x 56
-y 1
-end
-arch medium_stones
-x 56
-y 2
 end
 arch cave_15
 x 56
@@ -23338,31 +21516,16 @@ arch cave2
 x 56
 y 62
 end
-arch medium_stones
-x 56
-y 63
-end
 arch cave_15
 x 56
 y 63
 end
-arch medium_stones
+arch cave_15
 x 57
 end
 arch cave_15
 x 57
-end
-arch medium_stones
-x 57
 y 1
-end
-arch cave_15
-x 57
-y 1
-end
-arch medium_stones
-x 57
-y 2
 end
 arch cave_15
 x 57
@@ -23668,31 +21831,16 @@ arch cave2
 x 57
 y 62
 end
-arch medium_stones
-x 57
-y 63
-end
 arch cave_15
 x 57
 y 63
 end
-arch medium_stones
+arch cave_15
 x 58
 end
 arch cave_15
 x 58
-end
-arch medium_stones
-x 58
 y 1
-end
-arch cave_15
-x 58
-y 1
-end
-arch medium_stones
-x 58
-y 2
 end
 arch cave_15
 x 58
@@ -24042,31 +22190,16 @@ arch cave2
 x 58
 y 62
 end
-arch medium_stones
-x 58
-y 63
-end
 arch cave_15
 x 58
 y 63
 end
-arch medium_stones
+arch cave_15
 x 59
 end
 arch cave_15
 x 59
-end
-arch medium_stones
-x 59
 y 1
-end
-arch cave_15
-x 59
-y 1
-end
-arch medium_stones
-x 59
-y 2
 end
 arch cave_15
 x 59
@@ -24428,31 +22561,16 @@ arch cave2
 x 59
 y 62
 end
-arch medium_stones
-x 59
-y 63
-end
 arch cave_15
 x 59
 y 63
 end
-arch medium_stones
+arch cave_15
 x 60
 end
 arch cave_15
 x 60
-end
-arch medium_stones
-x 60
 y 1
-end
-arch cave_15
-x 60
-y 1
-end
-arch medium_stones
-x 60
-y 2
 end
 arch cave_15
 x 60
@@ -24569,10 +22687,6 @@ end
 arch cave22
 x 60
 y 23
-end
-arch medium_stones
-x 60
-y 24
 end
 arch cave_15
 x 60
@@ -24810,39 +22924,20 @@ arch cave2
 x 60
 y 62
 end
-arch medium_stones
-x 60
-y 63
-end
 arch cave_15
 x 60
 y 63
 end
-arch medium_stones
-x 61
-end
 arch cave_15
 x 61
 end
-arch medium_stones
+arch cave_15
 x 61
 y 1
 end
 arch cave_15
 x 61
-y 1
-end
-arch medium_stones
-x 61
 y 2
-end
-arch cave_15
-x 61
-y 2
-end
-arch medium_stones
-x 61
-y 3
 end
 arch cave_15
 x 61
@@ -24960,17 +23055,9 @@ arch cave2
 x 61
 y 22
 end
-arch medium_stones
-x 61
-y 23
-end
 arch cave_15
 x 61
 y 23
-end
-arch medium_stones
-x 61
-y 24
 end
 arch cave_15
 x 61
@@ -25128,10 +23215,6 @@ arch cave22
 x 61
 y 45
 end
-arch medium_stones
-x 61
-y 46
-end
 arch cave_15
 x 61
 y 46
@@ -25244,47 +23327,24 @@ arch cave22
 x 61
 y 62
 end
-arch medium_stones
-x 61
-y 63
-end
 arch cave_15
 x 61
 y 63
 end
-arch medium_stones
-x 62
-end
 arch cave_15
 x 62
-end
-arch medium_stones
-x 62
-y 1
 end
 arch cave_15
 x 62
 y 1
 end
-arch medium_stones
+arch cave_15
 x 62
 y 2
 end
 arch cave_15
 x 62
-y 2
-end
-arch medium_stones
-x 62
 y 3
-end
-arch cave_15
-x 62
-y 3
-end
-arch medium_stones
-x 62
-y 4
 end
 arch cave_15
 x 62
@@ -25378,10 +23438,6 @@ arch cave22
 x 62
 y 15
 end
-arch medium_stones
-x 62
-y 16
-end
 arch cave_15
 x 62
 y 16
@@ -25434,17 +23490,9 @@ arch cave22
 x 62
 y 22
 end
-arch medium_stones
-x 62
-y 23
-end
 arch cave_15
 x 62
 y 23
-end
-arch medium_stones
-x 62
-y 24
 end
 arch cave_15
 x 62
@@ -25570,10 +23618,6 @@ arch cave22
 x 62
 y 39
 end
-arch medium_stones
-x 62
-y 40
-end
 arch cave_15
 x 62
 y 40
@@ -25602,33 +23646,17 @@ arch cave1
 x 62
 y 43
 end
-arch medium_stones
-x 62
-y 44
-end
 arch cave22
 x 62
 y 44
 end
-arch medium_stones
+arch cave_15
 x 62
 y 45
 end
 arch cave_15
 x 62
-y 45
-end
-arch medium_stones
-x 62
 y 46
-end
-arch cave_15
-x 62
-y 46
-end
-arch medium_stones
-x 62
-y 47
 end
 arch cave_15
 x 62
@@ -25690,33 +23718,17 @@ arch cave22
 x 62
 y 54
 end
-arch medium_stones
-x 62
-y 55
-end
 arch cave_15
 x 62
 y 55
 end
-arch medium_stones
+arch cave_15
 x 62
 y 56
 end
 arch cave_15
 x 62
-y 56
-end
-arch medium_stones
-x 62
 y 57
-end
-arch cave_15
-x 62
-y 57
-end
-arch medium_stones
-x 62
-y 58
 end
 arch cave_15
 x 62
@@ -25746,399 +23758,200 @@ arch cave22
 x 62
 y 61
 end
-arch medium_stones
-x 62
-y 62
-end
 arch cave_15
 x 62
 y 62
-end
-arch medium_stones
-x 62
-y 63
 end
 arch cave_15
 x 62
 y 63
 end
-arch medium_stones
-x 63
-end
 arch cave_15
 x 63
-end
-arch medium_stones
-x 63
-y 1
 end
 arch cave_15
 x 63
 y 1
 end
-arch medium_stones
-x 63
-y 2
-end
 arch cave_15
 x 63
 y 2
 end
-arch medium_stones
+arch cave_15
 x 63
 y 3
 end
 arch cave_15
 x 63
-y 3
-end
-arch medium_stones
-x 63
 y 4
 end
 arch cave_15
-x 63
-y 4
-end
-arch medium_stones
 x 63
 y 5
 end
 arch cave_15
 x 63
-y 5
-end
-arch medium_stones
-x 63
 y 6
 end
 arch cave_15
-x 63
-y 6
-end
-arch medium_stones
 x 63
 y 7
 end
 arch cave_15
 x 63
-y 7
-end
-arch medium_stones
-x 63
 y 8
 end
 arch cave_15
-x 63
-y 8
-end
-arch medium_stones
 x 63
 y 9
 end
 arch cave_15
 x 63
-y 9
-end
-arch medium_stones
-x 63
 y 10
 end
 arch cave_15
-x 63
-y 10
-end
-arch medium_stones
 x 63
 y 11
 end
 arch cave_15
 x 63
-y 11
-end
-arch medium_stones
-x 63
 y 12
 end
 arch cave_15
-x 63
-y 12
-end
-arch medium_stones
 x 63
 y 13
 end
 arch cave_15
 x 63
-y 13
-end
-arch medium_stones
-x 63
 y 14
 end
 arch cave_15
-x 63
-y 14
-end
-arch medium_stones
 x 63
 y 15
 end
 arch cave_15
 x 63
-y 15
-end
-arch medium_stones
-x 63
 y 16
 end
 arch cave_15
-x 63
-y 16
-end
-arch medium_stones
 x 63
 y 17
 end
 arch cave_15
 x 63
-y 17
-end
-arch medium_stones
-x 63
 y 18
 end
 arch cave_15
-x 63
-y 18
-end
-arch medium_stones
 x 63
 y 19
 end
 arch cave_15
 x 63
-y 19
-end
-arch medium_stones
-x 63
 y 20
 end
 arch cave_15
-x 63
-y 20
-end
-arch medium_stones
 x 63
 y 21
 end
 arch cave_15
 x 63
-y 21
-end
-arch medium_stones
-x 63
 y 22
 end
 arch cave_15
-x 63
-y 22
-end
-arch medium_stones
 x 63
 y 23
 end
 arch cave_15
 x 63
-y 23
-end
-arch medium_stones
-x 63
 y 24
 end
 arch cave_15
-x 63
-y 24
-end
-arch medium_stones
 x 63
 y 25
 end
 arch cave_15
 x 63
-y 25
-end
-arch medium_stones
-x 63
 y 26
 end
 arch cave_15
-x 63
-y 26
-end
-arch medium_stones
 x 63
 y 27
 end
 arch cave_15
 x 63
-y 27
-end
-arch medium_stones
-x 63
 y 28
 end
 arch cave_15
-x 63
-y 28
-end
-arch medium_stones
 x 63
 y 29
 end
 arch cave_15
 x 63
-y 29
-end
-arch medium_stones
-x 63
 y 30
 end
 arch cave_15
-x 63
-y 30
-end
-arch medium_stones
 x 63
 y 31
 end
 arch cave_15
 x 63
-y 31
-end
-arch medium_stones
-x 63
 y 32
 end
 arch cave_15
-x 63
-y 32
-end
-arch medium_stones
 x 63
 y 33
 end
 arch cave_15
 x 63
-y 33
-end
-arch medium_stones
-x 63
 y 34
 end
 arch cave_15
-x 63
-y 34
-end
-arch medium_stones
 x 63
 y 35
 end
 arch cave_15
 x 63
-y 35
-end
-arch medium_stones
-x 63
 y 36
 end
 arch cave_15
-x 63
-y 36
-end
-arch medium_stones
 x 63
 y 37
 end
 arch cave_15
 x 63
-y 37
-end
-arch medium_stones
-x 63
 y 38
 end
 arch cave_15
-x 63
-y 38
-end
-arch medium_stones
 x 63
 y 39
 end
 arch cave_15
 x 63
-y 39
-end
-arch medium_stones
-x 63
 y 40
 end
 arch cave_15
-x 63
-y 40
-end
-arch medium_stones
 x 63
 y 41
 end
 arch cave_15
 x 63
-y 41
-end
-arch medium_stones
-x 63
 y 42
 end
 arch cave_15
-x 63
-y 42
-end
-arch medium_stones
 x 63
 y 43
 end
 arch cave_15
 x 63
-y 43
-end
-arch medium_stones
-x 63
 y 44
 end
 arch cave_15
-x 63
-y 44
-end
-arch medium_stones
 x 63
 y 45
 end
 arch cave_15
 x 63
-y 45
-end
-arch medium_stones
-x 63
 y 46
-end
-arch cave_15
-x 63
-y 46
-end
-arch medium_stones
-x 63
-y 47
 end
 arch cave_15
 x 63
@@ -26148,129 +23961,65 @@ arch medium_stones
 x 63
 y 48
 end
-arch bwall_3_4
-x 63
-y 48
-end
 arch cave_15
 x 63
 y 48
 end
-arch medium_stones
+arch cave_15
 x 63
 y 49
 end
 arch cave_15
 x 63
-y 49
-end
-arch medium_stones
-x 63
 y 50
 end
 arch cave_15
-x 63
-y 50
-end
-arch medium_stones
 x 63
 y 51
 end
 arch cave_15
 x 63
-y 51
-end
-arch medium_stones
-x 63
 y 52
 end
 arch cave_15
-x 63
-y 52
-end
-arch medium_stones
 x 63
 y 53
 end
 arch cave_15
 x 63
-y 53
-end
-arch medium_stones
-x 63
 y 54
 end
 arch cave_15
-x 63
-y 54
-end
-arch medium_stones
 x 63
 y 55
 end
 arch cave_15
 x 63
-y 55
-end
-arch medium_stones
-x 63
 y 56
 end
 arch cave_15
-x 63
-y 56
-end
-arch medium_stones
 x 63
 y 57
 end
 arch cave_15
 x 63
-y 57
-end
-arch medium_stones
-x 63
 y 58
 end
 arch cave_15
-x 63
-y 58
-end
-arch medium_stones
 x 63
 y 59
 end
 arch cave_15
 x 63
-y 59
-end
-arch medium_stones
-x 63
 y 60
 end
 arch cave_15
-x 63
-y 60
-end
-arch medium_stones
 x 63
 y 61
 end
 arch cave_15
 x 63
-y 61
-end
-arch medium_stones
-x 63
 y 62
-end
-arch cave_15
-x 63
-y 62
-end
-arch medium_stones
-x 63
-y 63
 end
 arch cave_15
 x 63
