@@ -3,8 +3,8 @@ name Storehouse
 reset_timeout 7200
 difficulty 5
 region whalingoutpost
-width 14
-height 14
+width 15
+height 15
 enter_x 7
 enter_y 11
 msg
@@ -13,47 +13,121 @@ Modified: 2026-04-02 Rick Tanner
 endmsg
 outdoor 1
 end
-arch blocked
+arch woods
+end
+arch woods
+y 1
+end
+arch woods
+y 2
+end
+arch woods
+y 3
+end
+arch woods
+y 4
+end
+arch woods
+y 5
+end
+arch woods
+y 6
+end
+arch woods
+y 7
+end
+arch woods
+y 8
+end
+arch woods
+y 9
+end
+arch woods
+y 10
+end
+arch woods
+y 11
+end
+arch grass_only
+y 12
+end
+arch woods
+y 13
+end
+arch woods
+y 14
+end
+arch woods
+x 1
+end
+arch woods
+x 1
+y 1
+end
+arch woods
+x 1
+y 2
+end
+arch woods
 x 1
 y 3
 end
-arch blocked
+arch woods
 x 1
 y 4
 end
-arch blocked
+arch woods
 x 1
 y 5
 end
-arch blocked
+arch woods
 x 1
 y 6
 end
-arch blocked
+arch woods
 x 1
 y 7
 end
-arch blocked
+arch woods
 x 1
 y 8
 end
-arch blocked
+arch woods
 x 1
 y 9
 end
-arch blocked
+arch woods
 x 1
 y 10
 end
-arch blocked
+arch woods
 x 1
 y 11
 end
-arch blocked
+arch grass_only
+x 1
+y 12
+end
+arch woods
+x 1
+y 13
+end
+arch woods
+x 1
+y 14
+end
+arch woods
+x 2
+end
+arch woods
+x 2
+y 1
+end
+arch woods
 x 2
 y 2
 end
-arch blocked
+arch woods
 x 2
 y 3
 end
@@ -113,19 +187,30 @@ arch dwall_2_2_1
 x 2
 y 10
 end
-arch blocked
+arch grass_only
 x 2
 y 11
 end
-arch blocked
+arch grass_only
 x 2
 y 12
 end
-arch blocked
+arch grass_only
+x 2
+y 13
+end
+arch grass_only
+x 2
+y 14
+end
+arch woods
+x 3
+end
+arch woods
 x 3
 y 1
 end
-arch blocked
+arch woods
 x 3
 y 2
 end
@@ -181,15 +266,22 @@ arch dwall_2_2_1
 x 3
 y 11
 end
-arch blocked
+arch woods
 x 3
 y 12
 end
-arch blocked
+arch grass_only
 x 3
 y 13
 end
-arch blocked
+arch grass_only
+x 3
+y 14
+end
+arch woods
+x 4
+end
+arch woods
 x 4
 y 1
 end
@@ -279,11 +371,18 @@ arch dwall_2_2_1
 x 4
 y 12
 end
-arch blocked
+arch grass_only
 x 4
 y 13
 end
-arch blocked
+arch grass_only
+x 4
+y 14
+end
+arch woods
+x 5
+end
+arch woods
 x 5
 y 1
 end
@@ -372,11 +471,18 @@ arch dwall_2_1_2
 x 5
 y 12
 end
-arch blocked
+arch grass_only
 x 5
 y 13
 end
-arch blocked
+arch grass_only
+x 5
+y 14
+end
+arch woods
+x 6
+end
+arch woods
 x 6
 y 1
 end
@@ -465,11 +571,18 @@ arch dwall_1_3
 x 6
 y 12
 end
-arch blocked
+arch grass_only
 x 6
 y 13
 end
-arch blocked
+arch grass_only
+x 6
+y 14
+end
+arch woods
+x 7
+end
+arch woods
 x 7
 y 1
 end
@@ -575,11 +688,18 @@ x 7
 y 12
 move_block 0
 end
-arch blocked
+arch grass_only
 x 7
 y 13
 end
-arch blocked
+arch grass_only
+x 7
+y 14
+end
+arch woods
+x 8
+end
+arch woods
 x 8
 y 1
 end
@@ -667,11 +787,18 @@ arch dwall_1_4
 x 8
 y 12
 end
-arch blocked
+arch grass_only
 x 8
 y 13
 end
-arch blocked
+arch grass_only
+x 8
+y 14
+end
+arch woods
+x 9
+end
+arch woods
 x 9
 y 1
 end
@@ -783,11 +910,18 @@ arch dwall_2_1_2
 x 9
 y 12
 end
-arch blocked
+arch grass_only
 x 9
 y 13
 end
-arch blocked
+arch grass_only
+x 9
+y 14
+end
+arch woods
+x 10
+end
+arch woods
 x 10
 y 1
 end
@@ -877,15 +1011,22 @@ arch dwall_2_2_4
 x 10
 y 12
 end
-arch blocked
+arch grass_only
 x 10
 y 13
 end
-arch blocked
+arch grass_only
+x 10
+y 14
+end
+arch woods
+x 11
+end
+arch woods
 x 11
 y 1
 end
-arch blocked
+arch steppe
 x 11
 y 2
 end
@@ -941,19 +1082,30 @@ arch dwall_2_2_4
 x 11
 y 11
 end
-arch blocked
+arch woods
 x 11
 y 12
 end
-arch blocked
+arch grass_only
 x 11
 y 13
 end
-arch blocked
+arch grass_only
+x 11
+y 14
+end
+arch woods
+x 12
+end
+arch woods
+x 12
+y 1
+end
+arch steppe
 x 12
 y 2
 end
-arch blocked
+arch steppe
 x 12
 y 3
 end
@@ -1013,47 +1165,137 @@ arch dwall_2_2_4
 x 12
 y 10
 end
-arch blocked
+arch woods
 x 12
 y 11
 end
-arch blocked
+arch steppe
 x 12
 y 12
 end
-arch blocked
+arch grass_only
+x 12
+y 13
+end
+arch grass_only
+x 12
+y 14
+end
+arch woods
+x 13
+end
+arch steppe
+x 13
+y 1
+end
+arch steppe
+x 13
+y 2
+end
+arch steppe
 x 13
 y 3
 end
-arch blocked
+arch steppe
 x 13
 y 4
 end
-arch blocked
+arch steppe
 x 13
 y 5
 end
-arch blocked
+arch steppe
 x 13
 y 6
 end
-arch blocked
+arch steppe
 x 13
 y 7
 end
-arch blocked
+arch steppe
 x 13
 y 8
 end
-arch blocked
+arch steppe
 x 13
 y 9
 end
-arch blocked
+arch steppe
 x 13
 y 10
 end
-arch blocked
+arch steppe
 x 13
 y 11
+end
+arch steppe
+x 13
+y 12
+end
+arch grass_only
+x 13
+y 13
+end
+arch grass_only
+x 13
+y 14
+end
+arch steppe
+x 14
+end
+arch steppe
+x 14
+y 1
+end
+arch steppe
+x 14
+y 2
+end
+arch steppe
+x 14
+y 3
+end
+arch steppe
+x 14
+y 4
+end
+arch steppe
+x 14
+y 5
+end
+arch steppe
+x 14
+y 6
+end
+arch steppe
+x 14
+y 7
+end
+arch steppe
+x 14
+y 8
+end
+arch steppe
+x 14
+y 9
+end
+arch steppe
+x 14
+y 10
+end
+arch steppe
+x 14
+y 11
+end
+arch steppe
+x 14
+y 12
+end
+arch steppe
+x 14
+y 13
+end
+arch steppe
+x 14
+y 14
 end
