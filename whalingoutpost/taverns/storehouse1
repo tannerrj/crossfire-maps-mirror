@@ -571,9 +571,14 @@ arch dwall_1_3
 x 6
 y 12
 end
+arch dungeon_magic
+x 6
+y 13
+end
 arch grass_only
 x 6
 y 13
+move_block all
 end
 arch grass_only
 x 6
@@ -688,9 +693,14 @@ x 7
 y 12
 move_block 0
 end
+arch dungeon_magic
+x 7
+y 13
+end
 arch grass_only
 x 7
 y 13
+move_block all
 end
 arch grass_only
 x 7
@@ -787,9 +797,14 @@ arch dwall_1_4
 x 8
 y 12
 end
+arch dungeon_magic
+x 8
+y 13
+end
 arch grass_only
 x 8
 y 13
+move_block all
 end
 arch grass_only
 x 8
