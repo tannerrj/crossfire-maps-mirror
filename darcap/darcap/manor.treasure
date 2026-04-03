@@ -1,5 +1,6 @@
 arch map
 name Darcap's Manor - treasure room
+difficulty 10
 region darcap
 width 13
 height 21
@@ -7,7 +8,7 @@ enter_x 4
 enter_y 1
 msg
 Created:  2010-10-10 Nicolas Weeger
-Modified: 2023-05-29 Rick Tanner
+Modified: 2026-04-03 Rick Tanner
 endmsg
 end
 arch tile_shop
