@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2026-03-15 Rick Tanner
+Modified: 2026-04-05 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -1655,7 +1655,6 @@ end
 arch fountain
 x 3
 y 43
-speed_left -94.099998
 end
 arch dungeon_magic
 x 3
@@ -1719,7 +1718,6 @@ end
 arch fountain
 x 3
 y 48
-speed_left -94.099998
 end
 arch dungeon_magic
 x 3
@@ -2459,7 +2457,6 @@ end
 arch fountain
 x 5
 y 35
-speed_left -41.599998
 end
 arch dungeon_magic
 x 5
@@ -3729,7 +3726,6 @@ end
 arch fountain
 x 8
 y 32
-speed_left -41.599998
 end
 arch dungeon_magic
 x 8
@@ -4956,7 +4952,6 @@ hp 5
 sp 10
 x 11
 y 19
-passenger_limit 2
 end
 arch dungeon_magic
 x 11
@@ -5490,8 +5485,6 @@ end
 arch guildstorage
 name Mailed Fist's storage room
 slaying /scorn/guilds/mailed_fist/storage_room
-hp -1
-sp -1
 x 12
 y 25
 end
@@ -7340,8 +7333,6 @@ end
 arch guild2
 name Guild of the Mailed Fist
 slaying /scorn/guilds/mailed_fist/mainfloor
-hp -1
-sp -1
 x 16
 y 31
 end
@@ -12195,13 +12186,12 @@ connected 5000
 elevation 1888
 lifesave 1
 arch wagon
-name wagon
-speed 3.0
+passenger_limit 2
+speed 3
 type 2
 container 5000000
 move_type walk
 move_allow walk
-passenger_limit 2
 arch event_say
 title Python
 slaying /python/items/roll-o-matic.py
