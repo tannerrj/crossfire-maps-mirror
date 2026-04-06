@@ -1,5 +1,6 @@
 arch map
 name Darcap's Manor - brown zone
+difficulty 10
 region darcap
 width 30
 height 30
@@ -7,7 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2010-10-17 Nicolas Weeger
-Modified: 2026-04-03 Rick Tanner
+Modified: 2026-04-06 Rick Tanner
 endmsg
 end
 arch afloor_left
