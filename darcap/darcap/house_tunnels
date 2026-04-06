@@ -6,7 +6,7 @@ width 8
 height 11
 msg
 Created:  2010-03-13 Nicolas Weeger
-Modified: 2013-08-17 Kevin Zheng
+Modified: 2026-04-06 Rick Tanner
 endmsg
 end
 arch pstone_3
@@ -166,6 +166,9 @@ y 1
 end
 arch sign_w
 name Fire House
+msg
+Fire House
+endmsg
 x 2
 y 1
 end
@@ -195,6 +198,9 @@ y 5
 end
 arch sign_w
 name Water House
+msg
+Water House
+endmsg
 x 2
 y 5
 end
@@ -224,6 +230,9 @@ y 9
 end
 arch sign_w
 name Air House
+msg
+Air House
+endmsg
 x 2
 y 9
 end
@@ -391,6 +400,9 @@ y 1
 end
 arch sign_e
 name Water House
+msg
+Water House
+endmsg
 x 5
 y 1
 end
@@ -420,6 +432,9 @@ y 5
 end
 arch sign_e
 name Air House
+msg
+Air House
+endmsg
 x 5
 y 5
 end
@@ -449,6 +464,9 @@ y 9
 end
 arch sign_e
 name Earth House
+msg
+Earth House
+endmsg
 x 5
 y 9
 end
