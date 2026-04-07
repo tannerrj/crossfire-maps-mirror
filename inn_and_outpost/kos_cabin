@@ -7,7 +7,7 @@ enter_x 9
 enter_y 14
 msg
 Created:  2021-12-18 DraugTheWhopper
-Modified: 2026-02-14 Rick Tanner
+Modified: 2026-04-07 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -1494,7 +1494,7 @@ arch sage
 name Ko
 msg
 @match road
-Well, to my cabin, I guess. Long ago there was a thriving kingdom west of here, but I haven't heard news from that way for many years.
+Well, to my cabin, I guess. Long ago there was a thriving kingdom northeast of here, but I haven't heard news from that way for many years.
 @match *
 Another lost traveler? I'm afraid there's not much out this way anymore.
 @reply road But where does this road go?
