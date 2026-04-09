@@ -1,5 +1,6 @@
 arch map
 name Castle Gatehouse
+difficulty 10
 region scorn
 width 15
 height 19
@@ -7,7 +8,7 @@ enter_x 13
 enter_y 5
 msg
 Created:  2018-12-29 Kevin Zheng
-Modified: 2025-12-14 Rick Tanner
+Modified: 2026-04-09 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_scorn-castle
