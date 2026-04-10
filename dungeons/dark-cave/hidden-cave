@@ -1,5 +1,6 @@
 arch map
 name Dark Cave, Secret Hideout
+difficulty 10
 region wilderness
 width 20
 height 14
@@ -8,7 +9,7 @@ enter_y 8
 msg
 Creator: jesse
 Date:    2008-01-31
-Modified: 2022-07-19 Rick Tanner
+Modified: 2026-04-10 Rick Tanner
 endmsg
 reset_group wilderness_dark-cave
 end
