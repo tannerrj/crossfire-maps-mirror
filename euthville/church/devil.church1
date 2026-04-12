@@ -9,7 +9,7 @@ enter_x 1
 enter_y 14
 msg
 Created:  1993-11-02
-Modified: 2022-07-20 Rick Tanner
+Modified: 2026-04-12 Rick Tanner
 endmsg
 reset_group euthville_valriels-church
 end
@@ -182,8 +182,8 @@ y 14
 end
 arch stair2_up
 slaying valriel
-hp 1
-sp 1
+hp 3
+sp 3
 x 1
 y 14
 end
@@ -1199,8 +1199,8 @@ y 14
 end
 arch stair2_up
 slaying valriel
-hp 16
-sp 1
+hp 18
+sp 3
 x 14
 y 14
 end
