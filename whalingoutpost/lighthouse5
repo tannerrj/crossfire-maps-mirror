@@ -9,12 +9,26 @@ enter_x 8
 enter_y 9
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-05 Rick Tanner
+Modified: 2026-04-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group whalingoutpost_frozen-lighthouse
 end
 arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
 y 5
 end
 arch blocked
@@ -40,6 +54,33 @@ y 12
 end
 arch blocked
 y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
 end
 arch blocked
 x 1
@@ -112,6 +153,29 @@ end
 arch blocked
 x 1
 y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
 end
 arch blocked
 x 2
@@ -203,6 +267,21 @@ end
 arch blocked
 x 2
 y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
 end
 arch blocked
 x 3
@@ -304,6 +383,13 @@ end
 arch blocked
 x 3
 y 16
+end
+arch blocked
+x 3
+y 17
+end
+arch blocked
+x 4
 end
 arch blocked
 x 4
@@ -410,6 +496,9 @@ y 17
 end
 arch blocked
 x 5
+end
+arch blocked
+x 5
 y 1
 end
 arch dungeon_floor
@@ -503,6 +592,9 @@ y 17
 end
 arch blocked
 x 6
+end
+arch blocked
+x 6
 y 1
 end
 arch dungeon_floor
@@ -595,6 +687,9 @@ y 17
 end
 arch blocked
 x 7
+end
+arch blocked
+x 7
 y 1
 end
 arch dungeon_floor
@@ -703,6 +798,9 @@ end
 arch blocked
 x 7
 y 17
+end
+arch blocked
+x 8
 end
 arch blocked
 x 8
@@ -831,6 +929,9 @@ y 17
 end
 arch blocked
 x 9
+end
+arch blocked
+x 9
 y 1
 end
 arch dungeon_floor
@@ -942,6 +1043,9 @@ y 17
 end
 arch blocked
 x 10
+end
+arch blocked
+x 10
 y 1
 end
 arch dungeon_floor
@@ -1031,6 +1135,9 @@ end
 arch blocked
 x 10
 y 17
+end
+arch blocked
+x 11
 end
 arch blocked
 x 11
@@ -1124,6 +1231,9 @@ end
 arch blocked
 x 11
 y 17
+end
+arch blocked
+x 12
 end
 arch blocked
 x 12
@@ -1241,6 +1351,13 @@ y 17
 end
 arch blocked
 x 13
+end
+arch blocked
+x 13
+y 1
+end
+arch blocked
+x 13
 y 2
 end
 arch blocked
@@ -1341,6 +1458,21 @@ x 13
 y 16
 end
 arch blocked
+x 13
+y 17
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
 x 14
 y 3
 end
@@ -1432,6 +1564,29 @@ x 14
 y 15
 end
 arch blocked
+x 14
+y 16
+end
+arch blocked
+x 14
+y 17
+end
+arch blocked
+x 15
+end
+arch blocked
+x 15
+y 1
+end
+arch blocked
+x 15
+y 2
+end
+arch blocked
+x 15
+y 3
+end
+arch blocked
 x 15
 y 4
 end
@@ -1504,6 +1659,37 @@ x 15
 y 14
 end
 arch blocked
+x 15
+y 15
+end
+arch blocked
+x 15
+y 16
+end
+arch blocked
+x 15
+y 17
+end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch blocked
+x 16
+y 3
+end
+arch blocked
+x 16
+y 4
+end
+arch blocked
 x 16
 y 5
 end
@@ -1538,4 +1724,20 @@ end
 arch blocked
 x 16
 y 13
+end
+arch blocked
+x 16
+y 14
+end
+arch blocked
+x 16
+y 15
+end
+arch blocked
+x 16
+y 16
+end
+arch blocked
+x 16
+y 17
 end
