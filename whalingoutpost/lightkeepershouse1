@@ -9,7 +9,7 @@ enter_x 3
 enter_y 12
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-05 Rick Tanner
+Modified: 2026-04-15 Rick Tanner
 endmsg
 outdoor 1
 reset_group whalingoutpost_lightkeepers-house
@@ -863,6 +863,10 @@ x 8
 y 15
 end
 arch dungeon_floor
+x 8
+y 16
+end
+arch campfire
 x 8
 y 16
 end
