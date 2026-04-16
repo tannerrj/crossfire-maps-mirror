@@ -3,86 +3,161 @@ name Lightkeeper's House
 reset_timeout 7200
 difficulty 1
 region whalingoutpost
-width 15
+width 16
 height 19
 enter_x 3
-enter_y 12
+enter_y 11
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2026-04-15 Rick Tanner
+Modified: 2026-04-16 Rick Tanner
 endmsg
 outdoor 1
 reset_group whalingoutpost_lightkeepers-house
 end
-arch blocked
+arch snow
+end
+arch snow
+y 1
+end
+arch snow
+y 2
+end
+arch snow
+y 3
+end
+arch snow
+y 4
+end
+arch snow
+y 5
+end
+arch snow
+y 6
+end
+arch snow
+y 7
+end
+arch snow
+y 8
+end
+arch snow
+y 9
+end
+arch snow
+y 10
+end
+arch snow
+y 11
+end
+arch snow
+y 12
+end
+arch snow
+y 13
+end
+arch snow
+y 14
+end
+arch snow
+y 15
+end
+arch snow
+y 16
+end
+arch snow
+y 17
+end
+arch snow
+y 18
+end
+arch mountain
+x 1
+end
+arch snow
+x 1
+y 1
+end
+arch snow
 x 1
 y 2
 end
-arch blocked
+arch snow
 x 1
 y 3
 end
-arch blocked
+arch snow
 x 1
 y 4
 end
-arch blocked
+arch snow
 x 1
 y 5
 end
-arch blocked
+arch snow
 x 1
 y 6
 end
-arch blocked
+arch snow
 x 1
 y 7
 end
-arch blocked
+arch snow
 x 1
 y 8
 end
-arch blocked
+arch snow
 x 1
 y 9
 end
-arch blocked
+arch snow
 x 1
 y 10
 end
-arch blocked
+arch snow
 x 1
 y 11
 end
-arch blocked
+arch snow
 x 1
 y 12
 end
-arch blocked
+arch snow
 x 1
 y 13
 end
-arch blocked
+arch snow
 x 1
 y 14
 end
-arch blocked
+arch snow
 x 1
 y 15
 end
-arch blocked
+arch snow
 x 1
 y 16
 end
-arch blocked
+arch snow
 x 1
 y 17
 end
-arch blocked
+arch snow
 x 1
 y 18
 end
-arch blocked
+arch mountain
+x 2
+end
+arch mountain
+x 2
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 2
+y 2
+end
+arch woodwall_2_2_2
 x 2
 y 2
 end
@@ -91,7 +166,7 @@ name woodfloor
 x 2
 y 3
 end
-arch woodwall_2_2_2
+arch woodwall_2_1_1
 x 2
 y 3
 end
@@ -109,7 +184,7 @@ name woodfloor
 x 2
 y 5
 end
-arch woodwall_2_1_1
+arch woodwall_win1
 x 2
 y 5
 end
@@ -118,7 +193,7 @@ name woodfloor
 x 2
 y 6
 end
-arch woodwall_win1
+arch woodwall_2_1_1
 x 2
 y 6
 end
@@ -154,47 +229,47 @@ name woodfloor
 x 2
 y 10
 end
-arch woodwall_2_1_1
-x 2
-y 10
-end
-arch woodfloor2
-name woodfloor
-x 2
-y 11
-end
 arch woodwall_1_2
 x 2
-y 11
+y 10
 end
 arch invis_exit
 slaying /world/world_128_128
 hp 16
 sp 41
 x 2
-y 12
+y 11
 end
 arch woodfloor2
 name woodfloor
 x 2
-y 12
+y 11
 end
 arch snow4
 x 2
-y 12
+y 11
 end
 arch door_1
 x 2
-y 12
+y 11
 move_block 0
 end
 arch woodfloor2
 name woodfloor
 x 2
-y 13
+y 12
 end
 arch woodwall_1_1
 x 2
+y 12
+end
+arch woodfloor2
+name woodfloor
+x 2
+y 13
+end
+arch woodwall_2_1_1
+x 2
 y 13
 end
 arch woodfloor2
@@ -219,25 +294,32 @@ arch woodfloor2
 name woodfloor
 x 2
 y 16
-end
-arch woodwall_2_1_1
-x 2
-y 16
-end
-arch woodfloor2
-name woodfloor
-x 2
-y 17
 end
 arch woodwall_2_2_1
 x 2
+y 16
+end
+arch snow
+x 2
 y 17
 end
-arch blocked
+arch snow
 x 2
 y 18
 end
-arch blocked
+arch mountain
+x 3
+end
+arch mountain
+x 3
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 3
+y 2
+end
+arch woodwall_2_1_2
 x 3
 y 2
 end
@@ -246,12 +328,12 @@ name woodfloor
 x 3
 y 3
 end
-arch woodwall_2_1_2
-x 3
-y 3
-end
 arch woodfloor2
 name woodfloor
+x 3
+y 4
+end
+arch snow5
 x 3
 y 4
 end
@@ -278,10 +360,6 @@ name woodfloor
 x 3
 y 7
 end
-arch snow5
-x 3
-y 7
-end
 arch woodfloor2
 name woodfloor
 x 3
@@ -292,12 +370,16 @@ name woodfloor
 x 3
 y 9
 end
+arch snow5
+x 3
+y 9
+end
 arch woodfloor2
 name woodfloor
 x 3
 y 10
 end
-arch snow5
+arch snow4
 x 3
 y 10
 end
@@ -324,16 +406,12 @@ name woodfloor
 x 3
 y 13
 end
-arch snow4
+arch snow5
 x 3
 y 13
 end
 arch woodfloor2
 name woodfloor
-x 3
-y 14
-end
-arch snow5
 x 3
 y 14
 end
@@ -347,29 +425,36 @@ name woodfloor
 x 3
 y 16
 end
-arch woodfloor2
-name woodfloor
-x 3
-y 17
-end
 arch woodwall_2_1_2
 x 3
+y 16
+end
+arch snow
+x 3
 y 17
 end
-arch blocked
+arch snow
 x 3
 y 18
 end
-arch blocked
+arch mountain
+x 4
+end
+arch mountain
+x 4
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 4
+y 2
+end
+arch woodwall_2_1_2
 x 4
 y 2
 end
 arch woodfloor2
 name woodfloor
-x 4
-y 3
-end
-arch woodwall_2_1_2
 x 4
 y 3
 end
@@ -408,6 +493,10 @@ name woodfloor
 x 4
 y 10
 end
+arch snow5
+x 4
+y 10
+end
 arch woodfloor2
 name woodfloor
 x 4
@@ -428,10 +517,6 @@ y 12
 end
 arch woodfloor2
 name woodfloor
-x 4
-y 13
-end
-arch snow5
 x 4
 y 13
 end
@@ -450,20 +535,31 @@ name woodfloor
 x 4
 y 16
 end
-arch woodfloor2
-name woodfloor
-x 4
-y 17
-end
 arch woodwall_2_1_2
 x 4
+y 16
+end
+arch snow
+x 4
 y 17
 end
-arch blocked
+arch snow
 x 4
 y 18
 end
-arch blocked
+arch mountain
+x 5
+end
+arch mountain
+x 5
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 5
+y 2
+end
+arch woodwall_2_1_2
 x 5
 y 2
 end
@@ -472,16 +568,12 @@ name woodfloor
 x 5
 y 3
 end
-arch woodwall_2_1_2
+arch snow5
 x 5
 y 3
 end
 arch woodfloor2
 name woodfloor
-x 5
-y 4
-end
-arch snow5
 x 5
 y 4
 end
@@ -545,38 +637,45 @@ name woodfloor
 x 5
 y 16
 end
-arch woodfloor2
-name woodfloor
-x 5
-y 17
-end
 arch woodwall_2_1_2
 x 5
+y 16
+end
+arch snow
+x 5
 y 17
 end
-arch blocked
+arch snow
 x 5
 y 18
 end
-arch blocked
+arch mountain
+x 6
+end
+arch mountain
+x 6
+y 1
+end
+arch woodfloor2
+name woodfloor
 x 6
 y 2
-end
-arch woodfloor2
-name woodfloor
-x 6
-y 3
 end
 arch woodwall_win2
 x 6
-y 3
+y 2
 end
 arch woodfloor2
 name woodfloor
 x 6
-y 4
+y 3
 end
 arch snow5
+x 6
+y 3
+end
+arch woodfloor2
+name woodfloor
 x 6
 y 4
 end
@@ -640,30 +739,41 @@ name woodfloor
 x 6
 y 16
 end
-arch woodfloor2
-name woodfloor
-x 6
-y 17
-end
 arch woodwall_win2
 x 6
+y 16
+end
+arch snow
+x 6
 y 17
 end
-arch blocked
+arch snow
 x 6
 y 18
 end
-arch blocked
+arch mountain
 x 7
-y 2
+end
+arch mountain
+x 7
+y 1
 end
 arch woodfloor2
 name woodfloor
 x 7
-y 3
+y 2
 end
 arch woodwall_3_3
 x 7
+y 2
+end
+arch woodfloor2
+name woodfloor
+x 7
+y 3
+end
+arch woodwall_2_1_1
+x 7
 y 3
 end
 arch woodfloor2
@@ -689,7 +799,7 @@ name woodfloor
 x 7
 y 6
 end
-arch woodwall_2_1_1
+arch woodwall_1_2
 x 7
 y 6
 end
@@ -698,35 +808,31 @@ name woodfloor
 x 7
 y 7
 end
-arch woodwall_1_2
-x 7
-y 7
-end
-arch woodfloor2
-name woodfloor
-x 7
-y 8
-end
 arch door_1
 x 7
-y 8
+y 7
 move_block 0
 end
 arch woodfloor2
 name woodfloor
 x 7
-y 9
+y 8
 end
 arch woodwall_1_1
+x 7
+y 8
+end
+arch woodfloor2
+name woodfloor
+x 7
+y 9
+end
+arch woodwall_2_2_1
 x 7
 y 9
 end
 arch woodfloor2
 name woodfloor
-x 7
-y 10
-end
-arch woodwall_2_2_1
 x 7
 y 10
 end
@@ -745,8 +851,11 @@ name woodfloor
 x 7
 y 13
 end
-arch woodfloor2
-name woodfloor
+arch dungeon_floor
+x 7
+y 14
+end
+arch swall_2_2_2
 x 7
 y 14
 end
@@ -754,7 +863,7 @@ arch dungeon_floor
 x 7
 y 15
 end
-arch swall_2_2_2
+arch swall_2_1_1
 x 7
 y 15
 end
@@ -762,27 +871,35 @@ arch dungeon_floor
 x 7
 y 16
 end
-arch swall_2_1_1
+arch woodwall_1_3
 x 7
 y 16
 end
-arch dungeon_floor
-x 7
-y 17
-end
-arch woodwall_1_3
-x 7
-y 17
-end
 arch stwall_1_4
 x 7
+y 16
+end
+arch snow
+x 7
 y 17
 end
-arch blocked
+arch snow
 x 7
 y 18
 end
-arch blocked
+arch mountain
+x 8
+end
+arch mountain
+x 8
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 8
+y 2
+end
+arch woodwall_2_1_2
 x 8
 y 2
 end
@@ -791,10 +908,6 @@ name woodfloor
 x 8
 y 3
 end
-arch woodwall_2_1_2
-x 8
-y 3
-end
 arch woodfloor2
 name woodfloor
 x 8
@@ -825,12 +938,12 @@ name woodfloor
 x 8
 y 9
 end
+arch woodwall_2_1_2
+x 8
+y 9
+end
 arch woodfloor2
 name woodfloor
-x 8
-y 10
-end
-arch woodwall_2_1_2
 x 8
 y 10
 end
@@ -849,8 +962,11 @@ name woodfloor
 x 8
 y 13
 end
-arch woodfloor2
-name woodfloor
+arch dungeon_floor
+x 8
+y 14
+end
+arch swall_2_1_2
 x 8
 y 14
 end
@@ -858,47 +974,51 @@ arch dungeon_floor
 x 8
 y 15
 end
-arch swall_2_1_2
+arch campfire
 x 8
 y 15
 end
 arch dungeon_floor
 x 8
 y 16
-end
-arch campfire
-x 8
-y 16
-end
-arch dungeon_floor
-x 8
-y 17
 end
 arch firewall_1
 face stwall_A.111
 x 8
-y 17
+y 16
 arch spell_small_fireball
 end
 end
 arch stwall_2_1_2
 x 8
+y 16
+end
+arch snow
+x 8
 y 17
 end
-arch blocked
+arch snow
 x 8
 y 18
 end
-arch blocked
+arch mountain
+x 9
+end
+arch mountain
+x 9
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 9
+y 2
+end
+arch woodwall_2_1_2
 x 9
 y 2
 end
 arch woodfloor2
 name woodfloor
-x 9
-y 3
-end
-arch woodwall_2_1_2
 x 9
 y 3
 end
@@ -932,12 +1052,12 @@ name woodfloor
 x 9
 y 9
 end
+arch woodwall_2_1_2
+x 9
+y 9
+end
 arch woodfloor2
 name woodfloor
-x 9
-y 10
-end
-arch woodwall_2_1_2
 x 9
 y 10
 end
@@ -956,53 +1076,60 @@ name woodfloor
 x 9
 y 13
 end
-arch woodfloor2
-name woodfloor
-x 9
-y 14
-end
 arch dungeon_floor
 x 9
-y 15
+y 14
 end
 arch swall_2_2_3
 x 9
+y 14
+end
+arch dungeon_floor
+x 9
+y 15
+end
+arch swall_2_1_1
+x 9
 y 15
 end
 arch dungeon_floor
 x 9
 y 16
 end
-arch swall_2_1_1
+arch woodwall_1_4
 x 9
 y 16
 end
-arch dungeon_floor
-x 9
-y 17
-end
-arch woodwall_1_4
-x 9
-y 17
-end
 arch stwall_1_3
 x 9
+y 16
+end
+arch snow
+x 9
 y 17
 end
-arch blocked
+arch snow
 x 9
 y 18
 end
-arch blocked
+arch mountain
+x 10
+end
+arch mountain
+x 10
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 10
+y 2
+end
+arch woodwall_2_1_2
 x 10
 y 2
 end
 arch woodfloor2
 name woodfloor
-x 10
-y 3
-end
-arch woodwall_2_1_2
 x 10
 y 3
 end
@@ -1036,13 +1163,17 @@ name woodfloor
 x 10
 y 9
 end
-arch woodfloor2
-name woodfloor
-x 10
-y 10
-end
 arch woodwall_3_3
 x 10
+y 9
+end
+arch woodfloor2
+name woodfloor
+x 10
+y 10
+end
+arch woodwall_2_1_1
+x 10
 y 10
 end
 arch woodfloor2
@@ -1058,37 +1189,37 @@ arch woodfloor2
 name woodfloor
 x 10
 y 12
-end
-arch woodwall_2_1_1
-x 10
-y 12
-end
-arch woodfloor2
-name woodfloor
-x 10
-y 13
 end
 arch woodwall_1_2
 x 10
-y 13
+y 12
 end
 arch woodfloor2
 name woodfloor
 x 10
-y 14
+y 13
 end
 arch door_1
 x 10
-y 14
+y 13
 move_block 0
 end
 arch woodfloor2
 name woodfloor
 x 10
-y 15
+y 14
 end
 arch woodwall_1_1
 x 10
+y 14
+end
+arch woodfloor2
+name woodfloor
+x 10
+y 15
+end
+arch woodwall_2_1_1
+x 10
 y 15
 end
 arch woodfloor2
@@ -1096,24 +1227,31 @@ name woodfloor
 x 10
 y 16
 end
-arch woodwall_2_1_1
+arch woodwall_3_1
 x 10
 y 16
 end
-arch woodfloor2
-name woodfloor
+arch snow
 x 10
 y 17
 end
-arch woodwall_3_1
-x 10
-y 17
-end
-arch blocked
+arch snow
 x 10
 y 18
 end
-arch blocked
+arch mountain
+x 11
+end
+arch mountain
+x 11
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 11
+y 2
+end
+arch woodwall_2_1_2
 x 11
 y 2
 end
@@ -1122,16 +1260,12 @@ name woodfloor
 x 11
 y 3
 end
-arch woodwall_2_1_2
+arch bed_1
 x 11
 y 3
 end
 arch woodfloor2
 name woodfloor
-x 11
-y 4
-end
-arch bed_1
 x 11
 y 4
 end
@@ -1160,21 +1294,21 @@ name woodfloor
 x 11
 y 9
 end
-arch woodfloor2
-name woodfloor
-x 11
-y 10
-end
 arch woodwall_2_1_2
 x 11
-y 10
+y 9
 end
 arch woodfloor2
 name woodfloor
 x 11
-y 11
+y 10
 end
 arch barrel
+x 11
+y 10
+end
+arch woodfloor2
+name woodfloor
 x 11
 y 11
 end
@@ -1198,29 +1332,40 @@ name woodfloor
 x 11
 y 15
 end
-arch woodfloor2
-name woodfloor
-x 11
-y 16
-end
 arch barrel
 x 11
-y 16
+y 15
 end
 arch woodfloor2
 name woodfloor
 x 11
-y 17
+y 16
 end
 arch woodwall_2_1_2
 x 11
+y 16
+end
+arch snow
+x 11
 y 17
 end
-arch blocked
+arch snow
 x 11
 y 18
 end
-arch blocked
+arch mountain
+x 12
+end
+arch mountain
+x 12
+y 1
+end
+arch woodfloor2
+name woodfloor
+x 12
+y 2
+end
+arch woodwall_2_1_2
 x 12
 y 2
 end
@@ -1229,24 +1374,20 @@ name woodfloor
 x 12
 y 3
 end
-arch woodwall_2_1_2
-x 12
-y 3
-end
-arch woodfloor2
-name woodfloor
-x 12
-y 4
-end
 arch bad_cauldron
 name heater
 x 12
-y 4
+y 3
 no_pick 1
 end
 arch woodfloor2
 name woodfloor
 x 12
+y 4
+end
+arch woodfloor2
+name woodfloor
+x 12
 y 5
 end
 arch woodfloor2
@@ -1269,13 +1410,17 @@ name woodfloor
 x 12
 y 9
 end
-arch woodfloor2
-name woodfloor
-x 12
-y 10
-end
 arch woodwall_2_1_2
 x 12
+y 9
+end
+arch woodfloor2
+name woodfloor
+x 12
+y 10
+end
+arch barrel
+x 12
 y 10
 end
 arch woodfloor2
@@ -1289,10 +1434,6 @@ y 11
 end
 arch woodfloor2
 name woodfloor
-x 12
-y 12
-end
-arch barrel
 x 12
 y 12
 end
@@ -1305,52 +1446,63 @@ arch woodfloor2
 name woodfloor
 x 12
 y 14
-end
-arch woodfloor2
-name woodfloor
-x 12
-y 15
 end
 arch stair_down_2
 slaying lightkeepershouseb1
 hp 13
 sp 47
 x 12
-y 15
+y 14
 end
 arch woodfloor2
 name woodfloor
 x 12
-y 16
+y 15
 end
 arch barrel
 x 12
-y 16
+y 15
 end
 arch woodfloor2
 name woodfloor
 x 12
-y 17
+y 16
 end
 arch woodwall_2_1_2
 x 12
+y 16
+end
+arch snow
+x 12
 y 17
 end
-arch blocked
+arch snow
 x 12
 y 18
 end
-arch blocked
+arch mountain
 x 13
-y 2
+end
+arch mountain
+x 13
+y 1
 end
 arch woodfloor2
 name woodfloor
 x 13
-y 3
+y 2
 end
 arch woodwall_2_2_3
 x 13
+y 2
+end
+arch woodfloor2
+name woodfloor
+x 13
+y 3
+end
+arch woodwall_2_1_1
+x 13
 y 3
 end
 arch woodfloor2
@@ -1402,18 +1554,18 @@ arch woodfloor2
 name woodfloor
 x 13
 y 9
-end
-arch woodwall_2_1_1
-x 13
-y 9
-end
-arch woodfloor2
-name woodfloor
-x 13
-y 10
 end
 arch woodwall_3_4
 x 13
+y 9
+end
+arch woodfloor2
+name woodfloor
+x 13
+y 10
+end
+arch woodwall_2_1_1
+x 13
 y 10
 end
 arch woodfloor2
@@ -1465,89 +1617,166 @@ arch woodfloor2
 name woodfloor
 x 13
 y 16
-end
-arch woodwall_2_1_1
-x 13
-y 16
-end
-arch woodfloor2
-name woodfloor
-x 13
-y 17
 end
 arch woodwall_2_2_4
 x 13
+y 16
+end
+arch snow
+x 13
 y 17
 end
-arch blocked
+arch snow
 x 13
 y 18
 end
-arch blocked
+arch mountain
+x 14
+end
+arch mountain
+x 14
+y 1
+end
+arch mountain
 x 14
 y 2
 end
-arch blocked
+arch mountain
 x 14
 y 3
 end
-arch blocked
+arch mountain
 x 14
 y 4
 end
-arch blocked
+arch mountain
 x 14
 y 5
 end
-arch blocked
+arch mountain
 x 14
 y 6
 end
-arch blocked
+arch mountain
 x 14
 y 7
 end
-arch blocked
+arch mountain
 x 14
 y 8
 end
-arch blocked
+arch mountain
 x 14
 y 9
 end
-arch blocked
+arch mountain
 x 14
 y 10
 end
-arch blocked
+arch mountain
 x 14
 y 11
 end
-arch blocked
+arch mountain
 x 14
 y 12
 end
-arch blocked
+arch mountain
 x 14
 y 13
 end
-arch blocked
+arch mountain
 x 14
 y 14
 end
-arch blocked
+arch mountain
 x 14
 y 15
 end
-arch blocked
+arch mountain
 x 14
 y 16
 end
-arch blocked
+arch mountain
 x 14
 y 17
 end
-arch blocked
+arch snow
 x 14
+y 18
+end
+arch mountain
+x 15
+end
+arch mountain
+x 15
+y 1
+end
+arch mountain
+x 15
+y 2
+end
+arch mountain
+x 15
+y 3
+end
+arch mountain
+x 15
+y 4
+end
+arch mountain
+x 15
+y 5
+end
+arch mountain
+x 15
+y 6
+end
+arch mountain
+x 15
+y 7
+end
+arch mountain
+x 15
+y 8
+end
+arch mountain
+x 15
+y 9
+end
+arch mountain
+x 15
+y 10
+end
+arch mountain
+x 15
+y 11
+end
+arch mountain
+x 15
+y 12
+end
+arch mountain
+x 15
+y 13
+end
+arch mountain
+x 15
+y 14
+end
+arch mountain
+x 15
+y 15
+end
+arch mountain
+x 15
+y 16
+end
+arch snow
+x 15
+y 17
+end
+arch snow
+x 15
 y 18
 end
