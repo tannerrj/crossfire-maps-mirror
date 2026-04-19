@@ -10,7 +10,7 @@ enter_x 21
 enter_y 6
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2026-03-27 Rick Tanner
+Modified: 2026-04-19 Rick Tanner
 endmsg
 reset_group whalingoutpost_caverns
 end
@@ -19680,7 +19680,7 @@ arch snow
 x 18
 y 14
 end
-arch cave20
+arch cave22
 x 18
 y 14
 end
@@ -136683,10 +136683,6 @@ x 127
 y 96
 end
 arch istone
-x 127
-y 97
-end
-arch cave_15
 x 127
 y 97
 end
