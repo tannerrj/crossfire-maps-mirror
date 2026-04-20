@@ -8,9 +8,14 @@ enter_x 7
 enter_y 16
 msg
 Created:  1994-11-15
-Modified: 2023-06-16 Rick Tanner
+Modified: 2026-04-19 Rick Tanner
 endmsg
 reset_group wolfsburg_well-to-catacombs
+end
+arch blocked
+end
+arch blocked
+y 1
 end
 arch blocked
 y 2
@@ -127,6 +132,16 @@ arch blocked
 y 21
 end
 arch blocked
+y 22
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
 x 1
 y 2
 end
@@ -232,6 +247,17 @@ end
 arch blocked
 x 1
 y 21
+end
+arch blocked
+x 1
+y 22
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
 end
 arch blocked
 x 2
@@ -352,6 +378,13 @@ y 22
 end
 arch blocked
 x 3
+end
+arch blocked
+x 3
+y 1
+end
+arch blocked
+x 3
 y 2
 end
 arch dungeon_floor
@@ -469,6 +502,13 @@ end
 arch blocked
 x 3
 y 22
+end
+arch blocked
+x 4
+end
+arch blocked
+x 4
+y 1
 end
 arch blocked
 x 4
@@ -1729,6 +1769,10 @@ arch blocked
 x 13
 y 21
 end
+arch blocked
+x 13
+y 22
+end
 arch dungeon_floor
 x 14
 end
@@ -1887,6 +1931,10 @@ arch blocked
 x 14
 y 21
 end
+arch blocked
+x 14
+y 22
+end
 arch dungeon_floor
 x 15
 end
@@ -1984,6 +2032,10 @@ end
 arch blocked
 x 15
 y 21
+end
+arch blocked
+x 15
+y 22
 end
 arch dungeon_floor
 x 16
@@ -2134,6 +2186,18 @@ arch blocked
 x 16
 y 19
 end
+arch blocked
+x 16
+y 20
+end
+arch blocked
+x 16
+y 21
+end
+arch blocked
+x 16
+y 22
+end
 arch dungeon_floor
 x 17
 end
@@ -2239,6 +2303,18 @@ end
 arch blocked
 x 17
 y 19
+end
+arch blocked
+x 17
+y 20
+end
+arch blocked
+x 17
+y 21
+end
+arch blocked
+x 17
+y 22
 end
 arch dungeon_floor
 x 18
@@ -2350,6 +2426,18 @@ arch blocked
 x 18
 y 19
 end
+arch blocked
+x 18
+y 20
+end
+arch blocked
+x 18
+y 21
+end
+arch blocked
+x 18
+y 22
+end
 arch dungeon_floor
 x 19
 end
@@ -2468,6 +2556,18 @@ arch blocked
 x 19
 y 19
 end
+arch blocked
+x 19
+y 20
+end
+arch blocked
+x 19
+y 21
+end
+arch blocked
+x 19
+y 22
+end
 arch dungeon_floor
 x 20
 end
@@ -2578,6 +2678,18 @@ arch blocked
 x 20
 y 19
 end
+arch blocked
+x 20
+y 20
+end
+arch blocked
+x 20
+y 21
+end
+arch blocked
+x 20
+y 22
+end
 arch dungeon_floor
 x 21
 end
@@ -2687,6 +2799,18 @@ end
 arch blocked
 x 21
 y 19
+end
+arch blocked
+x 21
+y 20
+end
+arch blocked
+x 21
+y 21
+end
+arch blocked
+x 21
+y 22
 end
 arch dungeon_floor
 x 22
@@ -2802,6 +2926,18 @@ arch blocked
 x 22
 y 19
 end
+arch blocked
+x 22
+y 20
+end
+arch blocked
+x 22
+y 21
+end
+arch blocked
+x 22
+y 22
+end
 arch dungeon_floor
 x 23
 end
@@ -2911,6 +3047,18 @@ end
 arch blocked
 x 23
 y 19
+end
+arch blocked
+x 23
+y 20
+end
+arch blocked
+x 23
+y 21
+end
+arch blocked
+x 23
+y 22
 end
 arch dungeon_floor
 x 24
@@ -3037,6 +3185,18 @@ end
 arch blocked
 x 24
 y 19
+end
+arch blocked
+x 24
+y 20
+end
+arch blocked
+x 24
+y 21
+end
+arch blocked
+x 24
+y 22
 end
 arch dungeon_floor
 x 25
@@ -3176,6 +3336,18 @@ arch blocked
 x 25
 y 19
 end
+arch blocked
+x 25
+y 20
+end
+arch blocked
+x 25
+y 21
+end
+arch blocked
+x 25
+y 22
+end
 arch dungeon_floor
 x 26
 end
@@ -3313,6 +3485,18 @@ end
 arch blocked
 x 26
 y 19
+end
+arch blocked
+x 26
+y 20
+end
+arch blocked
+x 26
+y 21
+end
+arch blocked
+x 26
+y 22
 end
 arch dungeon_floor
 x 27
@@ -3424,6 +3608,18 @@ arch blocked
 x 27
 y 19
 end
+arch blocked
+x 27
+y 20
+end
+arch blocked
+x 27
+y 21
+end
+arch blocked
+x 27
+y 22
+end
 arch dungeon_floor
 x 28
 end
@@ -3554,6 +3750,18 @@ arch blocked
 x 28
 y 19
 end
+arch blocked
+x 28
+y 20
+end
+arch blocked
+x 28
+y 21
+end
+arch blocked
+x 28
+y 22
+end
 arch dungeon_floor
 x 29
 end
@@ -3683,6 +3891,18 @@ end
 arch blocked
 x 29
 y 19
+end
+arch blocked
+x 29
+y 20
+end
+arch blocked
+x 29
+y 21
+end
+arch blocked
+x 29
+y 22
 end
 arch dungeon_floor
 x 30
@@ -3790,6 +4010,18 @@ arch blocked
 x 30
 y 19
 end
+arch blocked
+x 30
+y 20
+end
+arch blocked
+x 30
+y 21
+end
+arch blocked
+x 30
+y 22
+end
 arch dungeon_floor
 x 31
 end
@@ -3927,6 +4159,18 @@ end
 arch blocked
 x 31
 y 19
+end
+arch blocked
+x 31
+y 20
+end
+arch blocked
+x 31
+y 21
+end
+arch blocked
+x 31
+y 22
 end
 arch dungeon_floor
 x 32
@@ -4066,6 +4310,18 @@ arch blocked
 x 32
 y 19
 end
+arch blocked
+x 32
+y 20
+end
+arch blocked
+x 32
+y 21
+end
+arch blocked
+x 32
+y 22
+end
 arch dungeon_floor
 x 33
 end
@@ -4155,6 +4411,18 @@ end
 arch blocked
 x 33
 y 19
+end
+arch blocked
+x 33
+y 20
+end
+arch blocked
+x 33
+y 21
+end
+arch blocked
+x 33
+y 22
 end
 arch dungeon_floor
 x 34
@@ -4316,6 +4584,18 @@ arch blocked
 x 34
 y 19
 end
+arch blocked
+x 34
+y 20
+end
+arch blocked
+x 34
+y 21
+end
+arch blocked
+x 34
+y 22
+end
 arch dungeon_floor
 x 35
 end
@@ -4411,4 +4691,16 @@ end
 arch blocked
 x 35
 y 19
+end
+arch blocked
+x 35
+y 20
+end
+arch blocked
+x 35
+y 21
+end
+arch blocked
+x 35
+y 22
 end
