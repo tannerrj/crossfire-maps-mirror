@@ -7,8 +7,10 @@ height 16
 enter_x 2
 enter_y 3
 msg
-Modified: 2023-12-04 Rick Tanner
+Modified: 2026-04-22 Rick Tanner
 endmsg
+end
+arch blocked
 end
 arch woodfloor
 y 1
@@ -52,6 +54,9 @@ end
 arch bwall_2_2_1
 y 7
 end
+arch blocked
+y 8
+end
 arch woodfloor
 y 9
 end
@@ -93,6 +98,9 @@ y 15
 end
 arch bwall_2_2_1
 y 15
+end
+arch blocked
+x 1
 end
 arch woodfloor
 x 1
@@ -141,6 +149,10 @@ arch bwall_2_1_2
 x 1
 y 7
 end
+arch blocked
+x 1
+y 8
+end
 arch woodfloor
 x 1
 y 9
@@ -188,6 +200,9 @@ end
 arch bwall_2_1_2
 x 1
 y 15
+end
+arch blocked
+x 2
 end
 arch woodfloor
 x 2
@@ -281,6 +296,9 @@ arch bwall_2_1_2
 x 2
 y 15
 end
+arch blocked
+x 3
+end
 arch woodfloor
 x 3
 y 1
@@ -364,6 +382,9 @@ end
 arch bwall_2_1_2
 x 3
 y 15
+end
+arch blocked
+x 4
 end
 arch woodfloor
 x 4
@@ -456,6 +477,9 @@ end
 arch bwall_2_1_2
 x 4
 y 15
+end
+arch blocked
+x 5
 end
 arch woodfloor
 x 5
@@ -570,6 +594,9 @@ end
 arch bwall_2_1_2
 x 5
 y 15
+end
+arch blocked
+x 6
 end
 arch woodfloor
 x 6
@@ -691,6 +718,17 @@ arch bwall_2_2_4
 x 6
 y 15
 end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
 arch woodfloor
 x 7
 y 3
@@ -759,6 +797,17 @@ end
 arch bwall_2_1_2
 x 7
 y 13
+end
+arch blocked
+x 7
+y 14
+end
+arch blocked
+x 7
+y 15
+end
+arch blocked
+x 8
 end
 arch woodfloor
 x 8
@@ -880,6 +929,9 @@ arch bwall_2_2_1
 x 8
 y 15
 end
+arch blocked
+x 9
+end
 arch woodfloor
 x 9
 y 1
@@ -982,6 +1034,9 @@ arch bwall_2_1_2
 x 9
 y 15
 end
+arch blocked
+x 10
+end
 arch woodfloor
 x 10
 y 1
@@ -1082,6 +1137,9 @@ arch bwall_2_1_2
 x 10
 y 15
 end
+arch blocked
+x 11
+end
 arch woodfloor
 x 11
 y 1
@@ -1169,6 +1227,9 @@ end
 arch bwall_2_1_2
 x 11
 y 15
+end
+arch blocked
+x 12
 end
 arch woodfloor
 x 12
@@ -1274,6 +1335,9 @@ arch bwall_2_1_2
 x 12
 y 15
 end
+arch blocked
+x 13
+end
 arch woodfloor
 x 13
 y 1
@@ -1322,6 +1386,10 @@ arch bwall_2_1_2
 x 13
 y 7
 end
+arch blocked
+x 13
+y 8
+end
 arch woodfloor
 x 13
 y 9
@@ -1369,6 +1437,9 @@ end
 arch bwall_2_1_2
 x 13
 y 15
+end
+arch blocked
+x 14
 end
 arch woodfloor
 x 14
@@ -1425,6 +1496,10 @@ end
 arch bwall_2_2_4
 x 14
 y 7
+end
+arch blocked
+x 14
+y 8
 end
 arch woodfloor
 x 14
