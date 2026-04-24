@@ -4370,6 +4370,10 @@ arch flagstone
 x 25
 y 10
 end
+arch earth_elemental
+x 25
+y 10
+end
 arch flagstone
 x 25
 y 11
@@ -4379,10 +4383,6 @@ x 25
 y 12
 end
 arch generate_beholder
-x 25
-y 12
-end
-arch earth_elemental
 x 25
 y 12
 end
