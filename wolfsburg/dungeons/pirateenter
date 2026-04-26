@@ -8,7 +8,7 @@ enter_x 12
 enter_y 2
 msg
 Created:  1993-10-19 Ender
-Modified: 2026-04-22 Rick Tanner
+Modified: 2026-04-25 Rick Tanner
 endmsg
 outdoor 1
 reset_group wolfsburg_seaside-tavern
@@ -1522,11 +1522,7 @@ arch dungeon_floor
 x 11
 y 5
 end
-arch wwall_1_3
-x 11
-y 5
-end
-arch wwall_3_3
+arch wwall_2_2_3
 x 11
 y 5
 end
@@ -1954,11 +1950,7 @@ arch dungeon_floor
 x 14
 y 5
 end
-arch wwall_1_4
-x 14
-y 5
-end
-arch wwall_3_3
+arch wwall_2_2_2
 x 14
 y 5
 end
@@ -2418,7 +2410,7 @@ arch woodfloor
 x 17
 y 13
 end
-arch wwall_3_1
+arch wwall_2_1_2
 x 17
 y 13
 end
