@@ -8,7 +8,7 @@ enter_x 1
 enter_y 13
 msg
 Created:  1993-10-19
-Modified: 2026-04-26 Rick Tanner
+Modified: 2026-04-27 Rick Tanner
 endmsg
 reset_group wolfsburg_sails-of-the-silver-shark
 end
@@ -35,70 +35,64 @@ end
 arch sea
 y 7
 end
-arch woodfloor
-y 8
-end
-arch wwall_2_2_2
+arch sea
 y 8
 end
 arch woodfloor
 y 9
 end
-arch wwall_2_1_1
+arch woodwall_2_2_2
 y 9
 end
 arch woodfloor
 y 10
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 10
 end
 arch woodfloor
 y 11
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 11
 end
 arch woodfloor
 y 12
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 12
 end
 arch woodfloor
 y 13
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 13
 end
 arch woodfloor
 y 14
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 14
 end
 arch woodfloor
 y 15
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 15
 end
 arch woodfloor
 y 16
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 y 16
 end
 arch woodfloor
 y 17
 end
-arch wwall_2_1_1
+arch woodwall_2_2_1
 y 17
 end
-arch woodfloor
-y 18
-end
-arch wwall_2_2_1
+arch sea
 y 18
 end
 arch sea
@@ -154,11 +148,15 @@ arch woodfloor
 x 1
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_2_2
 x 1
 y 8
 end
 arch woodfloor
+x 1
+y 9
+end
+arch woodwall_2_2_4
 x 1
 y 9
 end
@@ -201,11 +199,15 @@ arch woodfloor
 x 1
 y 17
 end
+arch woodwall_2_2_3
+x 1
+y 17
+end
 arch woodfloor
 x 1
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_2_1
 x 1
 y 18
 end
@@ -268,7 +270,7 @@ arch woodfloor
 x 2
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 2
 y 8
 end
@@ -312,7 +314,7 @@ arch woodfloor
 x 2
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 2
 y 18
 end
@@ -375,7 +377,7 @@ arch woodfloor
 x 3
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 3
 y 8
 end
@@ -419,7 +421,7 @@ arch woodfloor
 x 3
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 3
 y 18
 end
@@ -482,7 +484,7 @@ arch woodfloor
 x 4
 y 8
 end
-arch wwall_win2
+arch woodwall_win2
 x 4
 y 8
 end
@@ -526,7 +528,7 @@ arch woodfloor
 x 4
 y 18
 end
-arch wwall_win2
+arch woodwall_win2
 x 4
 y 18
 end
@@ -589,7 +591,7 @@ arch woodfloor
 x 5
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 5
 y 8
 end
@@ -633,7 +635,7 @@ arch woodfloor
 x 5
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 5
 y 18
 end
@@ -696,7 +698,7 @@ arch woodfloor
 x 6
 y 8
 end
-arch wwall_3_3
+arch woodwall_3_3
 x 6
 y 8
 end
@@ -704,7 +706,7 @@ arch woodfloor
 x 6
 y 9
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 9
 end
@@ -712,7 +714,7 @@ arch woodfloor
 x 6
 y 10
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 10
 end
@@ -720,7 +722,7 @@ arch woodfloor
 x 6
 y 11
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 11
 end
@@ -728,7 +730,7 @@ arch woodfloor
 x 6
 y 12
 end
-arch wwall_1_2
+arch woodwall_1_2
 x 6
 y 12
 end
@@ -744,7 +746,7 @@ arch woodfloor
 x 6
 y 14
 end
-arch wwall_1_1
+arch woodwall_1_1
 x 6
 y 14
 end
@@ -752,7 +754,7 @@ arch woodfloor
 x 6
 y 15
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 15
 end
@@ -760,7 +762,7 @@ arch woodfloor
 x 6
 y 16
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 16
 end
@@ -768,7 +770,7 @@ arch woodfloor
 x 6
 y 17
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 6
 y 17
 end
@@ -776,7 +778,7 @@ arch woodfloor
 x 6
 y 18
 end
-arch wwall_3_1
+arch woodwall_3_1
 x 6
 y 18
 end
@@ -839,7 +841,7 @@ arch woodfloor
 x 7
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 7
 y 8
 end
@@ -951,7 +953,7 @@ arch woodfloor
 x 7
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 7
 y 18
 end
@@ -1014,7 +1016,7 @@ arch woodfloor
 x 8
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 8
 y 8
 end
@@ -1058,7 +1060,7 @@ arch woodfloor
 x 8
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 8
 y 18
 end
@@ -1121,7 +1123,7 @@ arch woodfloor
 x 9
 y 8
 end
-arch wwall_win2
+arch woodwall_win2
 x 9
 y 8
 end
@@ -1227,7 +1229,7 @@ arch woodfloor
 x 9
 y 18
 end
-arch wwall_win2
+arch woodwall_win2
 x 9
 y 18
 end
@@ -1290,7 +1292,7 @@ arch woodfloor
 x 10
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 10
 y 8
 end
@@ -1334,7 +1336,7 @@ arch woodfloor
 x 10
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 10
 y 18
 end
@@ -1397,7 +1399,7 @@ arch woodfloor
 x 11
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 11
 y 8
 end
@@ -1509,7 +1511,7 @@ arch woodfloor
 x 11
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 11
 y 18
 end
@@ -1572,7 +1574,7 @@ arch woodfloor
 x 12
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 12
 y 8
 end
@@ -1622,7 +1624,7 @@ arch woodfloor
 x 12
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 12
 y 18
 end
@@ -1685,7 +1687,7 @@ arch woodfloor
 x 13
 y 8
 end
-arch wwall_win2
+arch woodwall_win2
 x 13
 y 8
 end
@@ -1797,7 +1799,7 @@ arch woodfloor
 x 13
 y 18
 end
-arch wwall_win2
+arch woodwall_win2
 x 13
 y 18
 end
@@ -1860,7 +1862,7 @@ arch woodfloor
 x 14
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 14
 y 8
 end
@@ -1904,7 +1906,7 @@ arch woodfloor
 x 14
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 14
 y 18
 end
@@ -1967,7 +1969,7 @@ arch woodfloor
 x 15
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 15
 y 8
 end
@@ -2085,7 +2087,7 @@ arch woodfloor
 x 15
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 15
 y 18
 end
@@ -2148,7 +2150,7 @@ arch woodfloor
 x 16
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 16
 y 8
 end
@@ -2192,7 +2194,7 @@ arch woodfloor
 x 16
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 16
 y 18
 end
@@ -2255,7 +2257,7 @@ arch woodfloor
 x 17
 y 8
 end
-arch wwall_win2
+arch woodwall_win2
 x 17
 y 8
 end
@@ -2361,7 +2363,7 @@ arch woodfloor
 x 17
 y 18
 end
-arch wwall_win2
+arch woodwall_win2
 x 17
 y 18
 end
@@ -2424,7 +2426,7 @@ arch woodfloor
 x 18
 y 8
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 18
 y 8
 end
@@ -2468,7 +2470,7 @@ arch woodfloor
 x 18
 y 18
 end
-arch wwall_2_1_2
+arch woodwall_2_1_2
 x 18
 y 18
 end
@@ -2531,7 +2533,7 @@ arch woodfloor
 x 19
 y 8
 end
-arch wwall_2_2_3
+arch woodwall_2_2_3
 x 19
 y 8
 end
@@ -2539,7 +2541,7 @@ arch woodfloor
 x 19
 y 9
 end
-arch wwall_3_2
+arch woodwall_3_2
 x 19
 y 9
 end
@@ -2547,7 +2549,7 @@ arch woodfloor
 x 19
 y 10
 end
-arch wwall_3_2
+arch woodwall_3_2
 x 19
 y 10
 end
@@ -2555,7 +2557,7 @@ arch woodfloor
 x 19
 y 11
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 19
 y 11
 end
@@ -2563,7 +2565,7 @@ arch woodfloor
 x 19
 y 12
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 19
 y 12
 end
@@ -2578,7 +2580,7 @@ arch woodfloor
 x 19
 y 13
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 19
 y 13
 move_block 0
@@ -2587,7 +2589,7 @@ arch woodfloor
 x 19
 y 14
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 19
 y 14
 end
@@ -2595,7 +2597,7 @@ arch woodfloor
 x 19
 y 15
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 19
 y 15
 end
@@ -2603,7 +2605,7 @@ arch woodfloor
 x 19
 y 16
 end
-arch wwall_3_2
+arch woodwall_3_2
 x 19
 y 16
 end
@@ -2611,7 +2613,7 @@ arch woodfloor
 x 19
 y 17
 end
-arch wwall_3_2
+arch woodwall_3_2
 x 19
 y 17
 end
@@ -2619,7 +2621,7 @@ arch woodfloor
 x 19
 y 18
 end
-arch wwall_2_2_4
+arch woodwall_2_2_4
 x 19
 y 18
 end
@@ -2686,7 +2688,7 @@ arch woodfloor
 x 20
 y 9
 end
-arch wwall_2_2_3
+arch woodwall_2_2_3
 x 20
 y 9
 end
@@ -2694,7 +2696,7 @@ arch woodfloor
 x 20
 y 10
 end
-arch wwall_3_1
+arch woodwall_3_1
 x 20
 y 10
 end
@@ -2742,7 +2744,7 @@ arch woodfloor
 x 20
 y 16
 end
-arch wwall_3_3
+arch woodwall_3_3
 x 20
 y 16
 end
@@ -2750,7 +2752,7 @@ arch woodfloor
 x 20
 y 17
 end
-arch wwall_2_2_4
+arch woodwall_2_2_4
 x 20
 y 17
 end
@@ -2825,7 +2827,7 @@ arch woodfloor
 x 21
 y 10
 end
-arch wwall_2_2_3
+arch woodwall_2_2_3
 x 21
 y 10
 end
@@ -2833,7 +2835,7 @@ arch woodfloor
 x 21
 y 11
 end
-arch wwall_2_2_1
+arch woodwall_2_2_1
 x 21
 y 11
 end
@@ -2865,7 +2867,7 @@ arch woodfloor
 x 21
 y 15
 end
-arch wwall_2_2_2
+arch woodwall_2_2_2
 x 21
 y 15
 end
@@ -2873,7 +2875,7 @@ arch woodfloor
 x 21
 y 16
 end
-arch wwall_2_2_4
+arch woodwall_2_2_4
 x 21
 y 16
 end
@@ -2956,7 +2958,7 @@ arch woodfloor
 x 22
 y 11
 end
-arch wwall_2_2_3
+arch woodwall_2_2_3
 x 22
 y 11
 end
@@ -2964,7 +2966,7 @@ arch woodfloor
 x 22
 y 12
 end
-arch wwall_2_2_1
+arch woodwall_2_2_1
 x 22
 y 12
 end
@@ -2980,7 +2982,7 @@ arch woodfloor
 x 22
 y 14
 end
-arch wwall_2_2_2
+arch woodwall_2_2_2
 x 22
 y 14
 end
@@ -2988,7 +2990,7 @@ arch woodfloor
 x 22
 y 15
 end
-arch wwall_2_2_4
+arch woodwall_2_2_4
 x 22
 y 15
 end
@@ -3079,7 +3081,7 @@ arch woodfloor
 x 23
 y 12
 end
-arch wwall_2_2_3
+arch woodwall_2_2_3
 x 23
 y 12
 end
@@ -3087,7 +3089,7 @@ arch woodfloor
 x 23
 y 13
 end
-arch wwall_2_1_1
+arch woodwall_2_1_1
 x 23
 y 13
 end
@@ -3095,7 +3097,7 @@ arch woodfloor
 x 23
 y 14
 end
-arch wwall_2_2_4
+arch woodwall_2_2_4
 x 23
 y 14
 end
