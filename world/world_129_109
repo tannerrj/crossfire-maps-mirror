@@ -1263,6 +1263,13 @@ x 5
 y 9
 elevation 61
 end
+arch rowboat
+slaying ../wolfsburg/dungeons/ship
+hp 16
+sp 3
+x 5
+y 9
+end
 arch desert
 x 5
 y 10
