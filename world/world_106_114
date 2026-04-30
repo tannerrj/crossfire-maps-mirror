@@ -1,14 +1,15 @@
 arch map
 name world_106_114
-reset_timeout 7200
 difficulty 1
+region world
+reset_timeout 7200
 width 50
 height 50
 enter_x 1
 enter_y 1
 msg
 Created:  2002-02-18
-Modified: 2022-03-19 Rick Tanner
+Modified: 2026-04-30 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_106_113

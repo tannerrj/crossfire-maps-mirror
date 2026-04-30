@@ -1,11 +1,13 @@
 arch map
 name world_111_122
+difficulty 1
+region world
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2026-04-30 Rick Tanner
 endmsg
-outdoor 1
+outdoor 11
 tile_path_1 world_111_121
 tile_path_2 world_112_122
 tile_path_3 world_111_123
