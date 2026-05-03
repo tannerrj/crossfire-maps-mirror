@@ -7,7 +7,7 @@ height 25
 enter_x 9
 enter_y 16
 msg
-Modified: 2022-08-07 Rick Tanner
+Modified: 2026-05-03 Rick Tanner
 endmsg
 reset_group wolfsburg_dank-house
 end
@@ -1512,6 +1512,7 @@ y 16
 end
 arch stair_down
 slaying hcellar_2
+hp 0
 sp 9
 x 10
 y 16
