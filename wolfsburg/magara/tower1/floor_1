@@ -7,7 +7,7 @@ height 30
 enter_x 2
 enter_y 4
 msg
-Modified: 2022-08-07 Rick Tanner
+Modified: 2026-05-04 Rick Tanner
 endmsg
 reset_group wolfsburg_old-tower
 end
@@ -401,10 +401,10 @@ arch dirtfloor
 x 2
 y 4
 end
-arch exit
+arch stair2_up
 slaying entrance
-hp 13
-sp 6
+hp 19
+sp 13
 x 2
 y 4
 end
