@@ -8,7 +8,7 @@ enter_x 9
 enter_y 9
 msg
 Created:  2001-09-05 Commander Gros (yann.chachkoff@mailandnews.com)
-Modified: 2012-08-17 Rick Tanner
+Modified: 2026-05-06 Rick Tanner
 Following a Lord MiDS idea
 endmsg
 outdoor 1
@@ -750,7 +750,7 @@ arch woodfloor
 x 8
 y 5
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 8
 y 5
 end
@@ -837,7 +837,7 @@ arch woodfloor2
 x 9
 y 5
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 9
 y 5
 end
@@ -946,7 +946,7 @@ arch woodfloor2
 x 10
 y 5
 end
-arch wwall_2_1_2
+arch wwall_win2
 x 10
 y 5
 end
