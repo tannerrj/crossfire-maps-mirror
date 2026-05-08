@@ -10,7 +10,7 @@ enter_x 17
 enter_y 8
 msg
 Created:  2019-09-21 Rick Tanner
-Modified: 2019-09-30 Rick Tanner
+Modified: 2026-05-08 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -193,7 +193,7 @@ arch dungeon_floor
 x 2
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 2
 end
@@ -201,7 +201,7 @@ arch wall_2_2_2
 x 2
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 3
 end
@@ -209,7 +209,7 @@ arch wall_2_1_1
 x 2
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 4
 end
@@ -217,7 +217,7 @@ arch wall_2_1_1
 x 2
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 5
 end
@@ -225,7 +225,7 @@ arch wall_2_1_1
 x 2
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 6
 end
@@ -233,7 +233,7 @@ arch wall_2_1_1
 x 2
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 7
 end
@@ -241,7 +241,7 @@ arch wall_2_1_1
 x 2
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 8
 end
@@ -249,7 +249,7 @@ arch wall_2_1_1
 x 2
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 9
 end
@@ -257,7 +257,7 @@ arch wall_2_1_1
 x 2
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 10
 end
@@ -265,7 +265,7 @@ arch wall_2_1_1
 x 2
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 11
 end
@@ -273,7 +273,7 @@ arch wall_2_1_1
 x 2
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 12
 end
@@ -281,7 +281,7 @@ arch wall_2_1_1
 x 2
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 13
 end
@@ -289,7 +289,7 @@ arch wall_2_1_1
 x 2
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 14
 end
@@ -297,7 +297,7 @@ arch wall_3_2
 x 2
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 15
 end
@@ -305,7 +305,7 @@ arch wall_3_2
 x 2
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 16
 end
@@ -313,7 +313,7 @@ arch wall_2_1_1
 x 2
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 17
 end
@@ -321,7 +321,7 @@ arch wall_2_1_1
 x 2
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 18
 end
@@ -329,7 +329,7 @@ arch wall_2_1_1
 x 2
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 19
 end
@@ -337,7 +337,7 @@ arch wall_2_1_1
 x 2
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 20
 end
@@ -345,7 +345,7 @@ arch wall_2_1_1
 x 2
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 21
 end
@@ -353,7 +353,7 @@ arch wall_2_1_1
 x 2
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 2
 y 22
 end
@@ -376,7 +376,7 @@ arch dungeon_floor
 x 3
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 2
 end
@@ -488,7 +488,7 @@ arch barrel
 x 3
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 3
 y 22
 end
@@ -511,7 +511,7 @@ arch dungeon_floor
 x 4
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 2
 end
@@ -619,7 +619,7 @@ arch barrel
 x 4
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 4
 y 22
 end
@@ -642,7 +642,7 @@ arch dungeon_floor
 x 5
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 2
 end
@@ -750,7 +750,7 @@ arch barrel
 x 5
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 5
 y 22
 end
@@ -773,7 +773,7 @@ arch dungeon_floor
 x 6
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 2
 end
@@ -881,7 +881,7 @@ arch barrel
 x 6
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 6
 y 22
 end
@@ -904,7 +904,7 @@ arch dungeon_floor
 x 7
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 2
 end
@@ -1012,7 +1012,7 @@ arch barrel
 x 7
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 7
 y 22
 end
@@ -1035,7 +1035,7 @@ arch dungeon_floor
 x 8
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 2
 end
@@ -1127,7 +1127,7 @@ arch cobblestones2
 x 8
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 8
 y 22
 end
@@ -1150,7 +1150,7 @@ arch dungeon_floor
 x 9
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 2
 end
@@ -1242,7 +1242,7 @@ arch cobblestones2
 x 9
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 9
 y 22
 end
@@ -1265,7 +1265,7 @@ arch dungeon_floor
 x 10
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 2
 end
@@ -1357,7 +1357,7 @@ arch cobblestones2
 x 10
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 10
 y 22
 end
@@ -1380,7 +1380,7 @@ arch dungeon_floor
 x 11
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 2
 end
@@ -1472,7 +1472,7 @@ arch cobblestones2
 x 11
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 11
 y 22
 end
@@ -1491,7 +1491,7 @@ arch dungeon_floor
 x 12
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 2
 end
@@ -1607,7 +1607,7 @@ arch wall_2_1_1
 x 12
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 12
 y 22
 end
@@ -1630,7 +1630,7 @@ arch dungeon_floor
 x 13
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 2
 end
@@ -1734,7 +1734,7 @@ arch bookshelf_bottom_close
 x 13
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 13
 y 22
 end
@@ -1757,7 +1757,7 @@ arch dungeon_floor
 x 14
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 2
 end
@@ -1869,7 +1869,7 @@ arch bookshelf_bottom_close
 x 14
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 14
 y 22
 end
@@ -1892,7 +1892,7 @@ arch dungeon_floor
 x 15
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 2
 end
@@ -1996,7 +1996,7 @@ arch bookshelf_bottom_close
 x 15
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 15
 y 22
 end
@@ -2019,7 +2019,7 @@ arch dungeon_floor
 x 16
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 2
 end
@@ -2127,7 +2127,7 @@ arch bookshelf_bottom_close
 x 16
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 16
 y 22
 end
@@ -2150,7 +2150,7 @@ arch dungeon_floor
 x 17
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 17
 y 2
 end
@@ -2250,7 +2250,7 @@ arch bookshelf_bottom_close
 x 17
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 17
 y 22
 end
@@ -2273,7 +2273,7 @@ arch dungeon_floor
 x 18
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 18
 y 2
 end
@@ -2389,7 +2389,7 @@ arch bookshelf_bottom_close
 x 18
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 18
 y 22
 end
@@ -2412,7 +2412,7 @@ arch dungeon_floor
 x 19
 y 1
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 2
 end
@@ -2420,7 +2420,7 @@ arch wall_2_2_3
 x 19
 y 2
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 3
 end
@@ -2428,7 +2428,7 @@ arch wall_2_1_1
 x 19
 y 3
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 4
 end
@@ -2436,7 +2436,7 @@ arch wall_2_1_1
 x 19
 y 4
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 5
 end
@@ -2444,7 +2444,7 @@ arch wall_2_1_1
 x 19
 y 5
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 6
 end
@@ -2456,7 +2456,7 @@ arch swall_1_3_half
 x 19
 y 6
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 7
 end
@@ -2464,7 +2464,7 @@ arch wall_1_2
 x 19
 y 7
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 8
 end
@@ -2475,7 +2475,7 @@ sp 14
 x 19
 y 8
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 9
 end
@@ -2483,7 +2483,7 @@ arch wall_1_1
 x 19
 y 9
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 10
 end
@@ -2495,7 +2495,7 @@ arch swall_1_3_half
 x 19
 y 10
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 11
 end
@@ -2503,7 +2503,7 @@ arch wall_2_1_1
 x 19
 y 11
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 12
 end
@@ -2511,7 +2511,7 @@ arch wall_2_1_1
 x 19
 y 12
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 13
 end
@@ -2519,7 +2519,7 @@ arch wall_2_1_1
 x 19
 y 13
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 14
 end
@@ -2527,7 +2527,7 @@ arch wall_3_4
 x 19
 y 14
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 15
 end
@@ -2535,7 +2535,7 @@ arch wall_2_1_1
 x 19
 y 15
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 16
 end
@@ -2543,7 +2543,7 @@ arch wall_2_1_1
 x 19
 y 16
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 17
 end
@@ -2551,7 +2551,7 @@ arch wall_2_1_1
 x 19
 y 17
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 18
 end
@@ -2559,7 +2559,7 @@ arch wall_2_1_1
 x 19
 y 18
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 19
 end
@@ -2567,7 +2567,7 @@ arch wall_2_1_1
 x 19
 y 19
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 20
 end
@@ -2575,7 +2575,7 @@ arch wall_2_1_1
 x 19
 y 20
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 21
 end
@@ -2583,7 +2583,7 @@ arch wall_2_1_1
 x 19
 y 21
 end
-arch cobblestones2
+arch flagstone
 x 19
 y 22
 end
