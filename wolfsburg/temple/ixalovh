@@ -8,7 +8,7 @@ enter_x 2
 enter_y 6
 msg
 Created:  2004-03-10 Avion
-Modified: 2008-10-04 Rick Tanner
+Modified: 2026-05-12 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -26,7 +26,7 @@ end
 arch treed_hills
 y 4
 end
-arch cobblestones
+arch cobblestones2
 y 5
 end
 arch awall_1_4
@@ -50,7 +50,7 @@ end
 arch cobblestones
 y 7
 end
-arch cobblestones
+arch cobblestones2
 y 8
 end
 arch awall_1_4
@@ -104,7 +104,7 @@ arch treed_hills
 x 1
 y 3
 end
-arch cobblestones
+arch cobblestones2
 x 1
 y 4
 end
@@ -112,7 +112,7 @@ arch awall_2_2_2
 x 1
 y 4
 end
-arch cobblestones
+arch cobblestones2
 x 1
 y 5
 end
@@ -128,7 +128,7 @@ arch cobblestones
 x 1
 y 7
 end
-arch cobblestones
+arch cobblestones2
 x 1
 y 8
 end
@@ -136,7 +136,7 @@ arch awall_2_2_3
 x 1
 y 8
 end
-arch cobblestones
+arch cobblestones2
 x 1
 y 9
 end
@@ -184,13 +184,13 @@ arch shallow_sea
 x 1
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 2
 end
 arch awall_2_2_2
 x 2
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 1
 end
@@ -198,7 +198,7 @@ arch awall_2_1_1
 x 2
 y 1
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 2
 end
@@ -206,7 +206,7 @@ arch awall_2_1_1
 x 2
 y 2
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 3
 end
@@ -214,7 +214,7 @@ arch awall_2_1_1
 x 2
 y 3
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 4
 end
@@ -254,7 +254,7 @@ arch light4
 x 2
 y 8
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 9
 end
@@ -262,7 +262,7 @@ arch awall_2_2_3
 x 2
 y 9
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 10
 end
@@ -270,7 +270,7 @@ arch awall_2_1_1
 x 2
 y 10
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 11
 end
@@ -278,7 +278,7 @@ arch awall_2_1_1
 x 2
 y 11
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 12
 end
@@ -286,7 +286,7 @@ arch awall_2_1_1
 x 2
 y 12
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 13
 end
@@ -294,7 +294,7 @@ arch awall_2_1_1
 x 2
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 2
 y 14
 end
@@ -322,7 +322,7 @@ arch shallow_sea
 x 2
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 3
 end
 arch awall_2_1_2
@@ -380,7 +380,7 @@ arch cobblestones
 x 3
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 3
 y 14
 end
@@ -408,7 +408,7 @@ arch deep_sea
 x 3
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 4
 end
 arch awall_2_1_2
@@ -466,7 +466,7 @@ arch cobblestones
 x 4
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 4
 y 14
 end
@@ -494,7 +494,7 @@ arch deep_sea
 x 4
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 5
 end
 arch awall_2_1_2
@@ -552,7 +552,7 @@ arch cobblestones
 x 5
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 5
 y 14
 end
@@ -580,7 +580,7 @@ arch shallow_sea
 x 5
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 6
 end
 arch awall_2_1_2
@@ -642,7 +642,7 @@ arch cobblestones
 x 6
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 6
 y 14
 end
@@ -670,7 +670,7 @@ arch shallow_sea
 x 6
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 7
 end
 arch awall_2_1_2
@@ -768,7 +768,7 @@ arch sea
 x 7
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 8
 end
 arch awall_2_1_2
@@ -850,7 +850,7 @@ arch sea
 x 8
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 9
 end
 arch awall_2_1_2
@@ -941,7 +941,7 @@ arch sea
 x 9
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 10
 end
 arch awall_2_1_2
@@ -1023,7 +1023,7 @@ arch sea
 x 10
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 11
 end
 arch awall_2_1_2
@@ -1121,7 +1121,7 @@ arch sea
 x 11
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 12
 end
 arch awall_2_1_2
@@ -1179,7 +1179,7 @@ arch cobblestones
 x 12
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 12
 y 14
 end
@@ -1207,7 +1207,7 @@ arch sea
 x 12
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 13
 end
 arch awall_2_1_2
@@ -1269,7 +1269,7 @@ arch cobblestones
 x 13
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 13
 y 14
 end
@@ -1297,7 +1297,7 @@ arch deep_sea
 x 13
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 14
 end
 arch awall_2_1_2
@@ -1355,7 +1355,7 @@ arch cobblestones
 x 14
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 14
 y 14
 end
@@ -1387,7 +1387,7 @@ arch deep_sea
 x 14
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 15
 end
 arch awall_2_1_2
@@ -1445,7 +1445,7 @@ arch cobblestones
 x 15
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 15
 y 14
 end
@@ -1473,7 +1473,7 @@ arch shallow_sea
 x 15
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 16
 end
 arch awall_2_1_2
@@ -1531,7 +1531,7 @@ arch cobblestones
 x 16
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 16
 y 14
 end
@@ -1559,13 +1559,13 @@ arch shallow_sea
 x 16
 y 19
 end
-arch cobblestones
+arch cobblestones2
 x 17
 end
 arch awall_2_2_3
 x 17
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 1
 end
@@ -1573,7 +1573,7 @@ arch awall_2_1_1
 x 17
 y 1
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 2
 end
@@ -1581,7 +1581,7 @@ arch awall_2_1_1
 x 17
 y 2
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 3
 end
@@ -1589,7 +1589,7 @@ arch awall_2_1_1
 x 17
 y 3
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 4
 end
@@ -1629,7 +1629,7 @@ arch light4
 x 17
 y 8
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 9
 end
@@ -1637,7 +1637,7 @@ arch awall_2_2_2
 x 17
 y 9
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 10
 end
@@ -1645,7 +1645,7 @@ arch awall_2_1_1
 x 17
 y 10
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 11
 end
@@ -1653,7 +1653,7 @@ arch awall_2_1_1
 x 17
 y 11
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 12
 end
@@ -1661,7 +1661,7 @@ arch awall_2_1_1
 x 17
 y 12
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 13
 end
@@ -1669,7 +1669,7 @@ arch awall_2_1_1
 x 17
 y 13
 end
-arch cobblestones
+arch cobblestones2
 x 17
 y 14
 end
@@ -1712,7 +1712,7 @@ arch grass
 x 18
 y 3
 end
-arch cobblestones
+arch cobblestones2
 x 18
 y 4
 end
@@ -1720,7 +1720,7 @@ arch awall_2_2_3
 x 18
 y 4
 end
-arch cobblestones
+arch cobblestones2
 x 18
 y 5
 end
@@ -1736,7 +1736,7 @@ arch cobblestones
 x 18
 y 7
 end
-arch cobblestones
+arch cobblestones2
 x 18
 y 8
 end
@@ -1744,7 +1744,7 @@ arch awall_2_2_2
 x 18
 y 8
 end
-arch cobblestones
+arch cobblestones2
 x 18
 y 9
 end
@@ -1811,7 +1811,7 @@ arch grass
 x 19
 y 4
 end
-arch cobblestones
+arch cobblestones2
 x 19
 y 5
 end
@@ -1849,7 +1849,7 @@ arch cobblestones
 x 19
 y 7
 end
-arch cobblestones
+arch cobblestones2
 x 19
 y 8
 end
