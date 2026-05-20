@@ -2,13 +2,13 @@ arch map
 name Lursendis's house
 difficulty 1
 region wolfsburg
-width 10
-height 10
-enter_x 8
-enter_y 4
+width 14
+height 14
+enter_x 10
+enter_y 6
 msg
 Created:  2007-05-23 ryo
-Modified: 2023-06-16 Rick Tanner
+Modified: 2026-05-19 Rick Tanner
 endmsg
 maplore
 @quest wolfsburg/Lursendis
@@ -22,143 +22,302 @@ No combat required, player just needs to figure where to find the NPCs or items.
 The reward is a special item food-related.
 endmaplore
 end
-arch bluemarblemedium
+arch dungeon_floor
+end
+arch dungeon_floor
+y 1
+end
+arch dungeon_floor
+y 2
+end
+arch dungeon_floor
+y 3
+end
+arch dungeon_floor
+y 4
+end
+arch dungeon_floor
+y 5
+end
+arch dungeon_floor
+y 6
+end
+arch dungeon_floor
+y 7
+end
+arch dungeon_floor
+y 8
+end
+arch dungeon_floor
+y 9
+end
+arch dungeon_floor
+y 10
+end
+arch dungeon_floor
+y 11
+end
+arch dungeon_floor
+y 12
+end
+arch dungeon_floor
+y 13
+end
+arch dungeon_floor
+x 1
+end
+arch dungeon_floor
+x 1
+y 1
+end
+arch dungeon_floor
+x 1
+y 2
+end
+arch dungeon_floor
+x 1
+y 3
+end
+arch dungeon_floor
+x 1
+y 4
+end
+arch dungeon_floor
+x 1
+y 5
+end
+arch dungeon_floor
+x 1
+y 6
+end
+arch dungeon_floor
+x 1
+y 7
+end
+arch dungeon_floor
+x 1
+y 8
+end
+arch dungeon_floor
+x 1
+y 9
+end
+arch dungeon_floor
+x 1
+y 10
+end
+arch dungeon_floor
+x 1
+y 11
+end
+arch dungeon_floor
+x 1
+y 12
+end
+arch dungeon_floor
+x 1
+y 13
+end
+arch dungeon_floor
+x 2
+end
+arch dungeon_floor
+x 2
+y 1
+end
+arch stonefloor2
+x 2
+y 2
 end
 arch wwall_2_2_2
-end
-arch bluemarblemedium
-y 1
-end
-arch wwall_2_1_1
-y 1
-end
-arch bluemarblemedium
+x 2
 y 2
 end
-arch wwall_2_1_1
-y 2
-end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 3
 end
 arch wwall_2_1_1
+x 2
 y 3
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 4
 end
 arch wwall_2_1_1
+x 2
 y 4
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 5
 end
 arch wwall_2_1_1
+x 2
 y 5
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 6
 end
-arch wwall_2_1_1
+arch wwall_win1
+x 2
 y 6
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 7
 end
-arch wwall_2_1_1
+arch wwall_win1
+x 2
 y 7
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 8
 end
 arch wwall_2_1_1
+x 2
 y 8
 end
-arch bluemarblemedium
+arch stonefloor2
+x 2
 y 9
+end
+arch wwall_2_1_1
+x 2
+y 9
+end
+arch stonefloor2
+x 2
+y 10
+end
+arch wwall_2_1_1
+x 2
+y 10
+end
+arch stonefloor2
+x 2
+y 11
 end
 arch wwall_2_2_1
-y 9
+x 2
+y 11
 end
-arch bluemarblemedium
-x 1
+arch dungeon_floor
+x 2
+y 12
+end
+arch dungeon_floor
+x 2
+y 13
+end
+arch dungeon_floor
+x 3
+end
+arch dungeon_floor
+x 3
+y 1
+end
+arch stonefloor2
+x 3
+y 2
 end
 arch wwall_2_1_2
-x 1
-end
-arch bluemarblemedium
-x 1
-y 1
-end
-arch harpsichord2
-x 1
-y 1
-end
-arch bluemarblemedium
-x 1
+x 3
 y 2
 end
 arch bluemarblemedium
-x 1
+x 3
+y 3
+end
+arch harpsichord2
+x 3
 y 3
 end
 arch bluemarblemedium
-x 1
+x 3
 y 4
 end
 arch bluemarblemedium
-x 1
+x 3
 y 5
 end
 arch bluemarblemedium
-x 1
-y 6
-end
-arch chair_1.4
-x 1
+x 3
 y 6
 end
 arch bluemarblemedium
-x 1
-y 7
-end
-arch chair_1.4
-x 1
+x 3
 y 7
 end
 arch bluemarblemedium
-x 1
+x 3
+y 8
+end
+arch chair_1.4
+x 3
 y 8
 end
 arch bluemarblemedium
-x 1
+x 3
 y 9
 end
-arch wwall_2_1_2
-x 1
+arch chair_1.4
+x 3
 y 9
 end
 arch bluemarblemedium
-x 2
+x 3
+y 10
+end
+arch stonefloor2
+x 3
+y 11
 end
 arch wwall_2_1_2
-x 2
+x 3
+y 11
 end
-arch bluemarblemedium
-x 2
+arch dungeon_floor
+x 3
+y 12
+end
+arch dungeon_floor
+x 3
+y 13
+end
+arch dungeon_floor
+x 4
+end
+arch dungeon_floor
+x 4
 y 1
 end
-arch bluemarblemedium
-x 2
+arch stonefloor2
+x 4
+y 2
+end
+arch wwall_win2
+x 4
 y 2
 end
 arch bluemarblemedium
-x 2
+x 4
 y 3
 end
 arch bluemarblemedium
-x 2
+x 4
 y 4
+end
+arch bluemarblemedium
+x 4
+y 5
+end
+arch bluemarblemedium
+x 4
+y 6
 end
 arch fatman
 name Lursendis
@@ -176,8 +335,8 @@ Right now, I'd like to eat a caramel.
 @match *
 Leave me alone, I need to cook something.
 endmsg
-x 2
-y 4
+x 4
+y 6
 arch event_time
 name event_time
 title Python
@@ -189,491 +348,748 @@ slaying /python/monsters/lursendis.py
 end
 end
 arch bluemarblemedium
-x 2
-y 5
+x 4
+y 7
 end
 arch chair_1.1
-x 2
-y 5
+x 4
+y 7
 end
 arch bluemarblemedium
-x 2
-y 6
+x 4
+y 8
 end
 arch table_2x2
-x 2
-y 6
+x 4
+y 8
 end
 arch platter1_bro
-x 2
-y 6
+x 4
+y 8
 no_pick 1
 end
 arch bluemarblemedium
-x 2
-y 7
+x 4
+y 9
 end
 arch bluemarblemedium
-x 2
-y 8
+x 4
+y 10
 end
 arch chair_1.3
-x 2
-y 8
+x 4
+y 10
 end
-arch bluemarblemedium
-x 2
-y 9
+arch stonefloor2
+x 4
+y 11
 end
-arch wwall_2_1_2
-x 2
-y 9
+arch wwall_win2
+x 4
+y 11
 end
-arch bluemarblemedium
-x 3
+arch dungeon_floor
+x 4
+y 12
 end
-arch wwall_2_1_2
-x 3
+arch dungeon_floor
+x 4
+y 13
 end
-arch bluemarblemedium
-x 3
+arch dungeon_floor
+x 5
+end
+arch dungeon_floor
+x 5
 y 1
 end
-arch bluemarblemedium
-x 3
+arch stonefloor2
+x 5
+y 2
+end
+arch wwall_2_1_2
+x 5
 y 2
 end
 arch bluemarblemedium
-x 3
+x 5
 y 3
 end
 arch bluemarblemedium
-x 3
+x 5
 y 4
 end
 arch bluemarblemedium
-x 3
+x 5
 y 5
+end
+arch bluemarblemedium
+x 5
+y 6
+end
+arch bluemarblemedium
+x 5
+y 7
 end
 arch chair_1.1
-x 3
-y 5
-end
-arch bluemarblemedium
-x 3
-y 6
-end
-arch bluemarblemedium
-x 3
+x 5
 y 7
 end
 arch bluemarblemedium
-x 3
+x 5
 y 8
+end
+arch bluemarblemedium
+x 5
+y 9
+end
+arch bluemarblemedium
+x 5
+y 10
 end
 arch chair_1.3
-x 3
-y 8
+x 5
+y 10
 end
-arch bluemarblemedium
-x 3
-y 9
-end
-arch wwall_2_1_2
-x 3
-y 9
-end
-arch bluemarblemedium
-x 4
+arch stonefloor2
+x 5
+y 11
 end
 arch wwall_2_1_2
-x 4
+x 5
+y 11
 end
-arch bluemarblemedium
-x 4
+arch dungeon_floor
+x 5
+y 12
+end
+arch dungeon_floor
+x 5
+y 13
+end
+arch dungeon_floor
+x 6
+end
+arch dungeon_floor
+x 6
 y 1
 end
-arch bluemarblemedium
-x 4
+arch stonefloor2
+x 6
+y 2
+end
+arch wwall_2_1_2
+x 6
 y 2
 end
 arch bluemarblemedium
-x 4
+x 6
 y 3
 end
 arch bluemarblemedium
-x 4
+x 6
 y 4
 end
 arch bluemarblemedium
-x 4
+x 6
 y 5
 end
 arch bluemarblemedium
-x 4
-y 6
-end
-arch chair_1.2
-x 4
+x 6
 y 6
 end
 arch bluemarblemedium
-x 4
-y 7
-end
-arch chair_1.2
-x 4
+x 6
 y 7
 end
 arch bluemarblemedium
-x 4
+x 6
+y 8
+end
+arch chair_1.2
+x 6
 y 8
 end
 arch bluemarblemedium
-x 4
+x 6
 y 9
 end
-arch wwall_2_1_2
-x 4
+arch chair_1.2
+x 6
 y 9
 end
 arch bluemarblemedium
-x 5
+x 6
+y 10
+end
+arch stonefloor2
+x 6
+y 11
+end
+arch wwall_2_1_2
+x 6
+y 11
+end
+arch dungeon_floor
+x 6
+y 12
+end
+arch dungeon_floor
+x 6
+y 13
+end
+arch dungeon_floor
+x 7
+end
+arch dungeon_floor
+x 7
+y 1
+end
+arch stonefloor2
+x 7
+y 2
 end
 arch wwall_3_3
-x 5
-end
-arch bluemarblemedium
-x 5
-y 1
-end
-arch wwall_2_1_1
-x 5
-y 1
-end
-arch bluemarblemedium
-x 5
-y 2
-end
-arch wwall_2_1_1
-x 5
+x 7
 y 2
 end
 arch bluemarblemedium
-x 5
+x 7
 y 3
+end
+arch wwall_2_1_1
+x 7
+y 3
+end
+arch bluemarblemedium
+x 7
+y 4
+end
+arch wwall_2_1_1
+x 7
+y 4
+end
+arch bluemarblemedium
+x 7
+y 5
 end
 arch wwall_1_2
-x 5
-y 3
-end
-arch bluemarblemedium
-x 5
-y 4
-end
-arch bluemarblemedium
-x 5
+x 7
 y 5
 end
 arch bluemarblemedium
-x 5
+x 7
 y 6
+end
+arch bluemarblemedium
+x 7
+y 7
+end
+arch bluemarblemedium
+x 7
+y 8
 end
 arch wwall_1_1
-x 5
-y 6
-end
-arch bluemarblemedium
-x 5
-y 7
-end
-arch wwall_2_1_1
-x 5
-y 7
-end
-arch bluemarblemedium
-x 5
-y 8
-end
-arch wwall_2_1_1
-x 5
+x 7
 y 8
 end
 arch bluemarblemedium
-x 5
+x 7
 y 9
+end
+arch wwall_2_1_1
+x 7
+y 9
+end
+arch bluemarblemedium
+x 7
+y 10
+end
+arch wwall_2_1_1
+x 7
+y 10
+end
+arch stonefloor2
+x 7
+y 11
 end
 arch wwall_3_1
-x 5
-y 9
+x 7
+y 11
 end
-arch bluemarblemedium
-x 6
+arch dungeon_floor
+x 7
+y 12
 end
-arch wwall_2_1_2
-x 6
+arch dungeon_floor
+x 7
+y 13
 end
-arch bluemarblemedium
-x 6
+arch dungeon_floor
+x 8
+end
+arch dungeon_floor
+x 8
 y 1
 end
-arch bluemarblemedium
-x 6
+arch stonefloor2
+x 8
+y 2
+end
+arch wwall_2_1_2
+x 8
 y 2
 end
 arch bluemarblemedium
-x 6
+x 8
 y 3
-end
-arch door_2
-x 6
-y 3
-move_block 0
 end
 arch bluemarblemedium
-x 6
+x 8
 y 4
 end
 arch bluemarblemedium
-x 6
+x 8
 y 5
 end
-arch bluemarblemedium
-x 6
-y 6
-end
 arch door_2
-x 6
-y 6
+x 8
+y 5
 move_block 0
 end
 arch bluemarblemedium
-x 6
+x 8
+y 6
+end
+arch bluemarblemedium
+x 8
 y 7
 end
 arch bluemarblemedium
-x 6
+x 8
 y 8
 end
+arch door_2
+x 8
+y 8
+move_block 0
+end
 arch bluemarblemedium
-x 6
+x 8
 y 9
 end
-arch wwall_2_1_2
-x 6
-y 9
-end
 arch bluemarblemedium
-x 7
+x 8
+y 10
+end
+arch stonefloor2
+x 8
+y 11
 end
 arch wwall_2_1_2
-x 7
+x 8
+y 11
 end
-arch bluemarblemedium
-x 7
+arch dungeon_floor
+x 8
+y 12
+end
+arch dungeon_floor
+x 8
+y 13
+end
+arch dungeon_floor
+x 9
+end
+arch dungeon_floor
+x 9
 y 1
 end
-arch bluemarblemedium
-x 7
+arch stonefloor2
+x 9
+y 2
+end
+arch wwall_win2
+x 9
 y 2
 end
 arch bluemarblemedium
-x 7
-y 3
-end
-arch wwall_1_4
-x 7
+x 9
 y 3
 end
 arch bluemarblemedium
-x 7
+x 9
 y 4
 end
 arch bluemarblemedium
-x 7
+x 9
+y 5
+end
+arch wwall_1_4
+x 9
 y 5
 end
 arch bluemarblemedium
-x 7
-y 6
-end
-arch wwall_1_4
-x 7
+x 9
 y 6
 end
 arch bluemarblemedium
-x 7
+x 9
 y 7
 end
 arch bluemarblemedium
-x 7
+x 9
+y 8
+end
+arch wwall_1_4
+x 9
 y 8
 end
 arch bluemarblemedium
-x 7
-y 9
-end
-arch wwall_2_1_2
-x 7
+x 9
 y 9
 end
 arch bluemarblemedium
-x 8
+x 9
+y 10
 end
-arch wwall_2_1_2
-x 8
+arch stonefloor2
+x 9
+y 11
 end
-arch bluemarblemedium
-x 8
+arch wwall_win2
+x 9
+y 11
+end
+arch dungeon_floor
+x 9
+y 12
+end
+arch dungeon_floor
+x 9
+y 13
+end
+arch dungeon_floor
+x 10
+end
+arch dungeon_floor
+x 10
 y 1
+end
+arch stonefloor2
+x 10
+y 2
+end
+arch wwall_2_1_2
+x 10
+y 2
+end
+arch bluemarblemedium
+x 10
+y 3
 end
 arch bed_1
-x 8
-y 1
-end
-arch bluemarblemedium
-x 8
-y 2
-end
-arch bluemarblemedium
-x 8
-y 3
-end
-arch wwall_2_1_2
-x 8
+x 10
 y 3
 end
 arch bluemarblemedium
-x 8
-y 4
-end
-arch mat
-x 8
+x 10
 y 4
 end
 arch bluemarblemedium
-x 8
+x 10
 y 5
-end
-arch mat
-x 8
-y 5
-end
-arch bluemarblemedium
-x 8
-y 6
 end
 arch wwall_2_1_2
-x 8
+x 10
+y 5
+end
+arch bluemarblemedium
+x 10
+y 6
+end
+arch mat
+x 10
 y 6
 end
 arch bluemarblemedium
-x 8
+x 10
+y 7
+end
+arch mat
+x 10
 y 7
 end
 arch bluemarblemedium
-x 8
+x 10
+y 8
+end
+arch wwall_2_1_2
+x 10
 y 8
 end
 arch bluemarblemedium
-x 8
+x 10
 y 9
+end
+arch bluemarblemedium
+x 10
+y 10
+end
+arch stonefloor2
+x 10
+y 11
 end
 arch wwall_2_1_2
-x 8
-y 9
+x 10
+y 11
 end
-arch bluemarblemedium
-x 9
+arch dungeon_floor
+x 10
+y 12
+end
+arch dungeon_floor
+x 10
+y 13
+end
+arch dungeon_floor
+x 11
+end
+arch dungeon_floor
+x 11
+y 1
+end
+arch stonefloor2
+x 11
+y 2
 end
 arch wwall_2_2_3
-x 9
-end
-arch bluemarblemedium
-x 9
-y 1
-end
-arch wwall_2_1_1
-x 9
-y 1
-end
-arch bluemarblemedium
-x 9
+x 11
 y 2
 end
-arch wwall_2_1_1
-x 9
-y 2
-end
-arch bluemarblemedium
-x 9
+arch stonefloor2
+x 11
 y 3
+end
+arch wwall_2_1_1
+x 11
+y 3
+end
+arch stonefloor2
+x 11
+y 4
+end
+arch wwall_win1
+x 11
+y 4
+end
+arch stonefloor2
+x 11
+y 5
 end
 arch wwall_2_2_4
-x 9
-y 3
+x 11
+y 5
 end
 arch exit
 slaying /world/world_128_109
 hp 24
 sp 4
-x 9
-y 4
+x 11
+y 6
 end
-arch bluemarblemedium
-x 9
-y 4
+arch stonefloor2
+x 11
+y 6
 end
 arch door_1
-x 9
-y 4
+x 11
+y 6
 move_block 0
 end
 arch exit
 slaying /world/world_128_109
 hp 24
 sp 4
-x 9
-y 5
+x 11
+y 7
 end
-arch bluemarblemedium
-x 9
-y 5
+arch stonefloor2
+x 11
+y 7
 end
 arch door_1
-x 9
-y 5
+x 11
+y 7
 move_block 0
 end
-arch bluemarblemedium
-x 9
-y 6
+arch stonefloor2
+x 11
+y 8
 end
 arch wwall_2_2_3
-x 9
-y 6
-end
-arch bluemarblemedium
-x 9
-y 7
-end
-arch wwall_2_1_1
-x 9
-y 7
-end
-arch bluemarblemedium
-x 9
+x 11
 y 8
 end
-arch wwall_2_1_1
-x 9
-y 8
-end
-arch bluemarblemedium
-x 9
+arch stonefloor2
+x 11
 y 9
+end
+arch wwall_win1
+x 11
+y 9
+end
+arch stonefloor2
+x 11
+y 10
+end
+arch wwall_2_1_1
+x 11
+y 10
+end
+arch stonefloor2
+x 11
+y 11
 end
 arch wwall_2_2_4
-x 9
+x 11
+y 11
+end
+arch dungeon_floor
+x 11
+y 12
+end
+arch dungeon_floor
+x 11
+y 13
+end
+arch dungeon_floor
+x 12
+end
+arch dungeon_floor
+x 12
+y 1
+end
+arch dungeon_floor
+x 12
+y 2
+end
+arch dungeon_floor
+x 12
+y 3
+end
+arch dungeon_floor
+x 12
+y 4
+end
+arch dungeon_magic
+x 12
+y 5
+move_block all
+end
+arch dungeon_floor
+x 12
+y 5
+end
+arch dungeon_magic
+x 12
+y 6
+move_block all
+end
+arch dungeon_floor
+x 12
+y 6
+end
+arch dungeon_magic
+x 12
+y 7
+move_block all
+end
+arch dungeon_floor
+x 12
+y 7
+end
+arch dungeon_magic
+x 12
+y 8
+move_block all
+end
+arch dungeon_floor
+x 12
+y 8
+end
+arch dungeon_floor
+x 12
 y 9
+end
+arch dungeon_floor
+x 12
+y 10
+end
+arch dungeon_floor
+x 12
+y 11
+end
+arch dungeon_floor
+x 12
+y 12
+end
+arch dungeon_floor
+x 12
+y 13
+end
+arch dungeon_floor
+x 13
+end
+arch dungeon_floor
+x 13
+y 1
+end
+arch dungeon_floor
+x 13
+y 2
+end
+arch dungeon_floor
+x 13
+y 3
+end
+arch dungeon_floor
+x 13
+y 4
+end
+arch dungeon_floor
+x 13
+y 5
+end
+arch dungeon_floor
+x 13
+y 6
+end
+arch dungeon_floor
+x 13
+y 7
+end
+arch dungeon_floor
+x 13
+y 8
+end
+arch dungeon_floor
+x 13
+y 9
+end
+arch dungeon_floor
+x 13
+y 10
+end
+arch dungeon_floor
+x 13
+y 11
+end
+arch dungeon_floor
+x 13
+y 12
+end
+arch dungeon_floor
+x 13
+y 13
 end
