@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-24 Rick Tanner
+Modified: 2026-05-25 Rick Tanner
 endmsg
 unique 1
 end
@@ -1415,6 +1415,16 @@ x 11
 y 1
 end
 arch woodfloor
+x 11
+y 2
+end
+arch rune_mark
+msg
+Your screen shows several bars at all times.
+* The red bar is your Hit Points (HP) ? if it reaches zero, your character dies.
+* The blue bar is Spell Points (SP) used for casting magic. The yellow bar is your food level ? if it empties, you lose HP rapidly.
+* Watch these three bars constantly while adventuring.
+endmsg
 x 11
 y 2
 end
