@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-25 Rick Tanner
+Modified: 2026-05-26 Rick Tanner
 endmsg
 unique 1
 end
@@ -1448,6 +1448,13 @@ x 11
 y 3
 end
 arch woodfloor
+x 11
+y 4
+end
+arch rune_mark
+msg
+The most useful command in the game is 'help. Type 'help to see a list of topics. Type 'help commands to see all available commands. Type 'help move for movement help. If you are ever confused about how something works, try 'help followed by the topic name first.
+endmsg
 x 11
 y 4
 end
