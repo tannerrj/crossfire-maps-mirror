@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-26 Rick Tanner
+Modified: 2026-05-27 Rick Tanner
 endmsg
 unique 1
 end
@@ -1604,6 +1604,13 @@ x 12
 y 4
 end
 arch woodfloor
+x 12
+y 5
+end
+arch rune_mark
+msg
+Your movement speed is affected by how much you carry. If your inventory becomes too heavy, you will move slower in combat ? sometimes dangerously so. Drop or store items you do not need before entering a dungeon.
+endmsg
 x 12
 y 5
 end
