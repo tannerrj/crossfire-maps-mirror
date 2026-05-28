@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-27 Rick Tanner
+Modified: 2026-05-28 Rick Tanner
 endmsg
 unique 1
 end
@@ -1499,6 +1499,13 @@ arch water
 end
 end
 arch woodfloor
+x 11
+y 8
+end
+arch rune_mark
+msg
+Find Traps and Disarm Traps are skills. Skills improve each time you use them successfully. To see all your current skills and their levels, type 'skills. Different character clsses and races start with different skills ? if you do not have find traps or disarm traps, you cannot use those commands.
+endmsg
 x 11
 y 8
 end
