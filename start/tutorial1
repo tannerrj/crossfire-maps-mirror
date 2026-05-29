@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-28 Rick Tanner
+Modified: 2026-05-29 Rick Tanner
 endmsg
 unique 1
 end
@@ -1771,6 +1771,13 @@ x 13
 y 7
 end
 arch woodfloor
+x 13
+y 8
+end
+arch rune_mark
+msg
+Runes inflict status effects when triggered. Confusion causes your character to move in random directions for several seconds ? you lose control. Paralysis freezes you completely. Poison drains your HP over time. All status effects wear off eventually, but they can be deadly in a room full of monsters. If confused, stop moving and wait it out.
+endmsg
 x 13
 y 8
 end
