@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-05-30 Rick Tanner
+Modified: 2026-05-31 Rick Tanner
 endmsg
 unique 1
 end
@@ -2686,6 +2686,13 @@ x 20
 y 3
 end
 arch woodfloor
+x 20
+y 4
+end
+arch rune_mark
+msg
+Your client may be set to pick up items automatically. If items disappear when you walk over them, check your inventory -- they were auto-picked up. You can control what gets auto-picked up with the 'pickup command. Type 'help pickup for details. Locking ('help lock) an item in your inventory prevents you from accidentally dropping or selling it.
+endmsg
 x 20
 y 4
 end
