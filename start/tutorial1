@@ -981,6 +981,13 @@ arch woodfloor
 x 7
 y 12
 end
+arch rune_mark
+msg
+Arrows and bolts are consumed when fired -- you can run out mid-combat. Fire and other elemental attacks can destroy arrows and bolts that you have fired, sometimes you can recover your fired projectiles. Buy or craft more ammo before long trips. Always carry more arrows than you think you need.
+endmsg
+x 7
+y 12
+end
 arch woodfloor
 x 7
 y 13
