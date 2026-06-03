@@ -636,6 +636,11 @@ arch wall_1_3
 x 5
 y 9
 end
+arch button_trigger
+x 5
+y 10
+connected 10
+end
 arch shop_empty
 x 5
 y 10
@@ -742,24 +747,33 @@ arch shop_empty
 x 6
 y 7
 end
+arch button_trigger
+x 6
+y 8
+connected 10
+end
 arch shop_empty
 x 6
 y 8
 end
+arch button_trigger
+x 6
+y 9
+connected 10
+end
 arch shop_empty
 x 6
 y 9
 end
-arch door_look_1
-hp 0
-exp 0
-ac 0
+arch odoorn2_closed_1
 x 6
 y 9
-type 0
-move_block 0
-alive 0
-pass_thru 0
+connected 10
+end
+arch button_trigger
+x 6
+y 10
+connected 10
 end
 arch shop_empty
 x 6
@@ -870,6 +884,11 @@ arch shop_empty
 x 7
 y 7
 end
+arch button_trigger
+x 7
+y 8
+connected 10
+end
 arch shop_empty
 x 7
 y 8
@@ -881,6 +900,11 @@ end
 arch wall_1_4
 x 7
 y 9
+end
+arch button_trigger
+x 7
+y 10
+connected 10
 end
 arch shop_empty
 x 7
@@ -924,14 +948,9 @@ msg
 The elf says:
 No customers here, please.
 endmsg
-hp 0
-exp 0
-ac 0
 x 7
 y 16
 type 20
-alive 0
-pass_thru 0
 end
 arch flagstone
 name floor
