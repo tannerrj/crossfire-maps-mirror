@@ -12,9 +12,8 @@ enter_x 11
 enter_y 16
 msg
 Created: 1993-10-15 Tero Haatanen (Tero.Haatanen@tel.vtt.fi)
-Modified: 2026-01-21 Rick Tanner
+Modified: 2026-06-03 Rick Tanner
 endmsg
-outdoor 1
 end
 arch grass_only
 end
@@ -265,10 +264,6 @@ end
 arch grass_only
 x 3
 y 2
-end
-arch light4
-x 3
-y 3
 end
 arch stonefloor2
 x 3
@@ -302,10 +297,6 @@ arch wall_3_2
 x 3
 y 6
 end
-arch light2
-x 3
-y 7
-end
 arch stonefloor2
 x 3
 y 7
@@ -321,10 +312,6 @@ end
 arch wall_2_1_1
 x 3
 y 8
-end
-arch light4
-x 3
-y 9
 end
 arch stonefloor2
 x 3
@@ -366,10 +353,6 @@ arch wall_2_1_1
 x 3
 y 13
 end
-arch light2
-x 3
-y 14
-end
 arch stonefloor2
 x 3
 y 14
@@ -401,10 +384,6 @@ end
 arch wall_2_1_1
 x 3
 y 17
-end
-arch light4
-x 3
-y 18
 end
 arch stonefloor2
 x 3
@@ -628,10 +607,6 @@ value 0
 unpaid 1
 identified 1
 end
-arch light4
-x 5
-y 6
-end
 arch shop_empty
 x 5
 y 6
@@ -681,10 +656,6 @@ arch shop_empty
 x 5
 y 14
 end
-arch light4
-x 5
-y 15
-end
 arch shop_empty
 x 5
 y 15
@@ -696,10 +667,6 @@ end
 arch shop_weapon
 x 5
 y 17
-end
-arch light2
-x 5
-y 18
 end
 arch stonefloor2
 x 5
@@ -731,10 +698,6 @@ end
 arch grass_only
 x 6
 y 2
-end
-arch light2
-x 6
-y 3
 end
 arch stonefloor2
 x 6
@@ -805,10 +768,6 @@ end
 arch shop_empty
 x 6
 y 11
-end
-arch light4
-x 6
-y 12
 end
 arch shop_empty
 x 6
@@ -915,10 +874,6 @@ arch shop_empty
 x 7
 y 8
 end
-arch light4
-x 7
-y 9
-end
 arch shop_empty
 x 7
 y 9
@@ -942,10 +897,6 @@ end
 arch shop_empty
 x 7
 y 13
-end
-arch light4
-x 7
-y 14
 end
 arch shop_empty
 x 7
@@ -991,10 +942,6 @@ end
 arch wall_1_1
 x 7
 y 17
-end
-arch light4
-x 7
-y 18
 end
 arch stonefloor2
 x 7
@@ -1205,10 +1152,6 @@ arch wall_2_1_1
 x 9
 y 5
 end
-arch light4
-x 9
-y 6
-end
 arch shop_empty
 x 9
 y 6
@@ -1253,10 +1196,6 @@ arch wall_2_1_1
 x 9
 y 10
 end
-arch light4
-x 9
-y 11
-end
 arch shop_empty
 x 9
 y 11
@@ -1264,10 +1203,6 @@ end
 arch wall_1_2
 x 9
 y 11
-end
-arch light4
-x 9
-y 12
 end
 arch shop_empty
 x 9
@@ -1369,10 +1304,6 @@ arch wall_2_1_2
 x 10
 y 3
 end
-arch light4
-x 10
-y 4
-end
 arch shop_throw
 x 10
 y 4
@@ -1388,10 +1319,6 @@ end
 arch shop_throw
 x 10
 y 7
-end
-arch light4
-x 10
-y 8
 end
 arch shop_throw
 x 10
@@ -1472,10 +1399,6 @@ face shop_empty.111
 x 10
 y 17
 end
-arch light2
-x 10
-y 18
-end
 arch stonefloor2
 x 10
 y 18
@@ -1513,10 +1436,6 @@ end
 arch grass_only
 x 11
 y 2
-end
-arch light2
-x 11
-y 3
 end
 arch stonefloor2
 x 11
@@ -1595,10 +1514,6 @@ end
 arch shop_mat
 x 11
 y 15
-end
-arch light4
-x 11
-y 16
 end
 arch flagstone
 name floor
@@ -1681,10 +1596,6 @@ arch shop_empty
 x 12
 y 5
 end
-arch light4
-x 12
-y 6
-end
 arch shop_empty
 x 12
 y 6
@@ -1702,10 +1613,6 @@ arch shop_throw
 x 12
 y 8
 end
-arch light4
-x 12
-y 9
-end
 arch shop_empty
 x 12
 y 9
@@ -1722,10 +1629,6 @@ end
 arch shop_empty
 x 12
 y 11
-end
-arch light4
-x 12
-y 12
 end
 arch shop_empty
 x 12
@@ -1769,10 +1672,6 @@ name floor
 face shop_empty.111
 x 12
 y 17
-end
-arch light2
-x 12
-y 18
 end
 arch stonefloor2
 x 12
@@ -1820,10 +1719,6 @@ end
 arch wall_2_1_2
 x 13
 y 3
-end
-arch light4
-x 13
-y 4
 end
 arch shop_throw
 x 13
@@ -2057,10 +1952,6 @@ arch wall_2_1_2
 x 15
 y 3
 end
-arch light4
-x 15
-y 4
-end
 arch shop_throw
 x 15
 y 4
@@ -2086,10 +1977,6 @@ arch shop_throw
 x 15
 y 8
 end
-arch light4
-x 15
-y 9
-end
 arch shop_empty
 x 15
 y 9
@@ -2107,10 +1994,6 @@ arch shop_empty
 x 15
 y 11
 end
-arch light4
-x 15
-y 12
-end
 arch shop_empty
 x 15
 y 12
@@ -2118,10 +2001,6 @@ end
 arch shop_empty
 x 15
 y 13
-end
-arch light4
-x 15
-y 14
 end
 arch shop_empty
 x 15
@@ -2165,10 +2044,6 @@ arch wall_1_1
 x 15
 y 17
 end
-arch light4
-x 15
-y 18
-end
 arch stonefloor2
 x 15
 y 18
@@ -2200,10 +2075,6 @@ arch grass_only
 x 16
 y 2
 end
-arch light2
-x 16
-y 3
-end
 arch stonefloor2
 x 16
 y 3
@@ -2219,10 +2090,6 @@ end
 arch shop_empty
 x 16
 y 5
-end
-arch light4
-x 16
-y 6
 end
 arch shop_empty
 x 16
@@ -2370,10 +2237,6 @@ arch shop_empty
 x 17
 y 14
 end
-arch light4
-x 17
-y 15
-end
 arch shop_empty
 x 17
 y 15
@@ -2385,10 +2248,6 @@ end
 arch shop_throw
 x 17
 y 17
-end
-arch light2
-x 17
-y 18
 end
 arch stonefloor2
 x 17
@@ -2429,10 +2288,6 @@ arch wall_2_1_2
 x 18
 y 3
 end
-arch light4
-x 18
-y 4
-end
 arch shop_throw
 x 18
 y 4
@@ -2448,10 +2303,6 @@ end
 arch shop_throw
 x 18
 y 7
-end
-arch light4
-x 18
-y 8
 end
 arch shop_throw
 x 18
@@ -2472,10 +2323,6 @@ end
 arch shop_throw
 x 18
 y 11
-end
-arch light4
-x 18
-y 12
 end
 arch shop_throw
 x 18
@@ -2532,10 +2379,6 @@ arch grass_only
 x 19
 y 2
 end
-arch light4
-x 19
-y 3
-end
 arch stonefloor2
 x 19
 y 3
@@ -2568,10 +2411,6 @@ arch wall_2_1_1
 x 19
 y 6
 end
-arch light2
-x 19
-y 7
-end
 arch stonefloor2
 x 19
 y 7
@@ -2587,10 +2426,6 @@ end
 arch wall_2_1_1
 x 19
 y 8
-end
-arch light4
-x 19
-y 9
 end
 arch stonefloor2
 x 19
@@ -2632,10 +2467,6 @@ arch wall_2_1_1
 x 19
 y 13
 end
-arch light2
-x 19
-y 14
-end
 arch stonefloor2
 x 19
 y 14
@@ -2667,10 +2498,6 @@ end
 arch wall_2_1_1
 x 19
 y 17
-end
-arch light4
-x 19
-y 18
 end
 arch stonefloor2
 x 19
