@@ -481,7 +481,7 @@ x 4
 y 7
 end
 arch platinum_converter
-name convert gold into arrows
+name convert gold into arrows, 10gp each
 slaying money
 other_arch arrow
 sp 1
@@ -498,7 +498,7 @@ x 4
 y 8
 end
 arch platinum_converter
-name convert gold into bolts
+name convert gold into bolts, 10gp each
 slaying money
 other_arch bolt
 sp 1
