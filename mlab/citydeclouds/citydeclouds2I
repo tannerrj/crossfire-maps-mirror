@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created: 2002-08-28 mikeeusa
-Modified: 2023-06-06 Rick Tanner
+Modified: 2026-06-02 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2H
@@ -12071,7 +12071,10 @@ face shop_empty.111
 x 32
 y 12
 end
-arch fighter
+arch stair_down_1
+slaying cdcunderbigstre1
+hp 101
+sp 94
 x 32
 y 12
 end
@@ -12383,6 +12386,13 @@ end
 arch flagstone
 name floor
 face shop_empty.111
+x 33
+y 12
+end
+arch stair_down_1
+slaying cdcunderbigstre1
+hp 102
+sp 94
 x 33
 y 12
 end
@@ -17312,7 +17322,6 @@ name mission key
 slaying cdcexittomystarea1ky
 msg
 This key allows exiting City de Clouds under the cloud surface outside the walls, where a strike force of dragons is expected to wait.
-This quest was removed.
 endmsg
 x 45
 y 48

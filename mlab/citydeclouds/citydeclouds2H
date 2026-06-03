@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2021-10-02 Rick Tanner
+Modified: 2026-06-02 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2G
@@ -400,6 +400,13 @@ end
 arch flagstone
 name floor
 face shop_empty.111
+x 1
+y 21
+end
+arch stair_3_down
+slaying cdcunderbigstre1
+hp 70
+sp 53
 x 1
 y 21
 end
@@ -7647,6 +7654,13 @@ x 17
 y 41
 end
 arch blackmarble
+x 17
+y 42
+end
+arch stair_down
+slaying cdcunderbigstre1
+hp 86
+sp 74
 x 17
 y 42
 end
@@ -14909,7 +14923,7 @@ face shop_empty.111
 x 36
 y 1
 end
-arch cwall_3_2
+arch cwall_2_2_1
 x 36
 y 1
 end
@@ -14919,7 +14933,10 @@ face shop_empty.111
 x 36
 y 2
 end
-arch cwall_3_2
+arch stair_3_down
+slaying cdcunderbigstre1
+hp 143
+sp 3
 x 36
 y 2
 end
@@ -14929,7 +14946,7 @@ face shop_empty.111
 x 36
 y 3
 end
-arch cwall_3_2
+arch cwall_2_2_2
 x 36
 y 3
 end
@@ -15417,7 +15434,7 @@ face shop_empty.111
 x 37
 y 2
 end
-arch cwall_3_4
+arch cwall_2_1_1
 x 37
 y 2
 end

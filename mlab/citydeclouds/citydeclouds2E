@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2016-06-30 Rick Tanner
+Modified: 2026-06-02 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2D
@@ -12271,6 +12271,13 @@ arch dwall_3_1
 x 32
 y 9
 end
+arch invis_exit
+slaying cdcunderbigstre1
+hp 50
+sp 42
+x 32
+y 10
+end
 arch flagstone
 name floor
 face shop_empty.111
@@ -12281,6 +12288,13 @@ arch slevel_3_2
 x 32
 y 10
 end
+arch invis_exit
+slaying cdcunderbigstre1
+hp 50
+sp 43
+x 32
+y 11
+end
 arch flagstone
 name floor
 face shop_empty.111
@@ -12290,6 +12304,13 @@ end
 arch slevel_3_2
 x 32
 y 11
+end
+arch invis_exit
+slaying cdcunderbigstre1
+hp 50
+sp 44
+x 32
+y 12
 end
 arch flagstone
 name floor
