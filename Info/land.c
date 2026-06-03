@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
 
 #define MAX_SIZE    3000
 #define MAX(x,y) ((x)>(y)?(x):(y))
@@ -274,7 +276,7 @@ void write_crossfire_maps(int mapy, int mapx)
 
 
 
-main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
     int x, y, max_x=500, max_y=500, seed, land=300000, npasses=40, newalt, wpasses=50, water=50000;
     int n, i, j, k, l, z, w, r, a, write_maps=0;
@@ -284,7 +286,7 @@ main(int argc, char *argv)
     extern char *optarg;
 
     seed = time(NULL);
-    while ((c = getopt(argc, argv,"x:y:X:Y:s:l:n:w:p:m"))!=-1) {
+    while ((c = getopt(argc, argv, "x:y:X:Y:s:l:n:w:p:m"))!=-1) {
 	switch (c) {
 	    case 'l':
 		land = atoi(optarg);
