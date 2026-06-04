@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-06-01 Rick Tanner
+Modified: 2026-06-04 Rick Tanner
 endmsg
 unique 1
 end
@@ -944,6 +944,13 @@ x 7
 y 5
 end
 arch woodfloor
+x 7
+y 6
+end
+arch rune_mark
+msg
+Worshipping a god gives your character access to divine spells (prayers), altar benefits, spell path bonuses (and penalties), and bonus gifts. To choose a god, stand on their altar and pray at their altar with the 'use_skill praying command. Choose carefully -- switching gods is difficult and has penalties. Once you become a god follower, one can only switch cults; one can never go back to a non-religious follower.
+endmsg
 x 7
 y 6
 end
