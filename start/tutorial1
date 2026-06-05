@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-06-04 Rick Tanner
+Modified: 2026-06-05 Rick Tanner
 endmsg
 unique 1
 end
@@ -1034,6 +1034,13 @@ arch bwall_2_1_2
 x 8
 end
 arch woodfloor
+x 8
+y 1
+end
+arch rune_mark
+msg
+The safe sequence for unknown items is: drop silver on the detect magic altar to check for magic, drop silver on the detect curse altar to check for curses, then use the identify table to learn the full details of items worth keeping. Never apply an item until you know it is not cursed -- a cursed item locks itself to your body until the curse is removed by a spell or a god's blessing.
+endmsg
 x 8
 y 1
 end
