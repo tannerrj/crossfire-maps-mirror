@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-06-05 Rick Tanner
+Modified: 2026-06-06 Rick Tanner
 endmsg
 unique 1
 end
@@ -692,6 +692,13 @@ x 5
 y 7
 end
 arch woodfloor
+x 5
+y 8
+end
+arch rune_mark
+msg
+Spellbooks and prayer books permanently teach your character a spell so you can cast it anytime you have enough spell points or grace. To learn from a spellbook or prayer book, apply it while you have the literacy skill and sufficient skill level -- the book is consumed. Scrolls are different: they cast the spell once and are destroyed. Type 'cast to see all spells you have learned.
+endmsg
 x 5
 y 8
 end
