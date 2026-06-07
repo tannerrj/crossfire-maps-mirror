@@ -11,7 +11,7 @@ enter_x 16
 enter_y 21
 msg
 Created: 1995-03-23
-Modified: 2026-06-06 Rick Tanner
+Modified: 2026-06-07 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -621,7 +621,7 @@ arch sign
 msg
 Crown of Magi(magic+2, Int+2)
 Your quested items are ten potions of intelligence.
-Drop your quested items and you may take the crown..
+Drop your quested items on this sign and you may take the crown..
 endmsg
 x 3
 y 18
@@ -844,7 +844,7 @@ arch sign
 msg
 Crown of Lordliness(Cha+2, Int+1, Wis+2)
 The quested items are sixteen beholder eyes.
-Drop your quested items and you may take the crown..
+Drop your quested items on this sign and you may take the crown..
 endmsg
 x 4
 y 18
@@ -2551,7 +2551,7 @@ arch sign
 msg
 Crown of Fire (Protected: fire, Attuned: fire, Repelled: cold)
 Your quested items are three red dragon scales.
-Drop your quested items and you may take the crown..
+Drop your quested items on this sign and you may take the crown..
 endmsg
 x 15
 y 18
@@ -2779,7 +2779,7 @@ arch sign
 msg
 Crown of Ice (Protected: cold, Attuned: cold, Repelled: fire)
 Your quested item is the heart of Takuse, the fiery dragon.
-Drop your quested items and you may take the crown..
+Drop your quested items on this sign and you may take the crown..
 endmsg
 x 16
 y 18
@@ -3009,7 +3009,7 @@ arch sign
 msg
 Crown the Elements(Protected: fire, cold, electricity, Attuned: electricity)
 Your quested item is the Winterblade owned by the Ice dragon highlord.
-Drop your quested items and you may take the crown..
+Drop your quested items on this sign and you may take the crown..
 endmsg
 x 17
 y 18
