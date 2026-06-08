@@ -10,7 +10,7 @@ msg
 Created: 2007-01-23 Mhoram (http://aaron.baugher.biz/)
 
 This map is intended for use as a tutorial for complete newbies, to teach them some of the basic concepts of Crossfire. Players should enter at x-11, y-1.
-Modified: 2026-06-06 Rick Tanner
+Modified: 2026-06-08 Rick Tanner
 endmsg
 unique 1
 end
@@ -202,6 +202,13 @@ x 1
 y 12
 end
 arch woodfloor
+x 1
+y 13
+end
+arch rune_mark
+msg
+Before you leave: use the bed in this room to set your respawn point. In Scorn, find the Wanderer's Inn and use that bed so you start there each login. The Beginners 1 dungeon entrance is in Scorn's south district. Type 'help to look up anything you are unsure about -- it covers most game systems. Good luck.
+endmsg
 x 1
 y 13
 end
