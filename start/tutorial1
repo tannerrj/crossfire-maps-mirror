@@ -45,6 +45,9 @@ end
 arch woodfloor
 y 5
 end
+arch swall_1_4_half
+y 5
+end
 arch bwall_2_1_1
 y 5
 end
@@ -150,7 +153,7 @@ arch woodfloor
 x 1
 y 5
 end
-arch swall_1_4
+arch swall_2_1_2
 x 1
 y 5
 end
@@ -672,7 +675,7 @@ arch woodfloor
 x 5
 y 5
 end
-arch swall_1_3
+arch swall_2_1_2
 x 5
 y 5
 end
@@ -814,6 +817,10 @@ x 6
 y 4
 end
 arch woodfloor
+x 6
+y 5
+end
+arch swall_1_3_half
 x 6
 y 5
 end
