@@ -9,7 +9,7 @@ enter_x 5
 enter_y 5
 msg
 Creator: 2004-0803 Mikeeusa
-Modified: 2026-06-03 Rick Tanner
+Modified: 2026-06-10 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -63196,11 +63196,11 @@ arch flagstone
 x 49
 y 26
 end
-arch swall_2_2_3
+arch dwall_3_2
 x 49
 y 26
 end
-arch dwall_3_2
+arch swall_1_3_half
 x 49
 y 26
 end
@@ -63228,11 +63228,11 @@ arch flagstone
 x 49
 y 28
 end
-arch swall_2_2_4
+arch dwall_3_2
 x 49
 y 28
 end
-arch dwall_3_2
+arch swall_1_3_half
 x 49
 y 28
 end
@@ -64375,11 +64375,11 @@ face shop_empty.111
 x 50
 y 1
 end
-arch swall_1_1
+arch cwall_3_1
 x 50
 y 1
 end
-arch cwall_3_1
+arch swall_1_1_half
 x 50
 y 1
 end
@@ -64527,7 +64527,7 @@ arch flagstone
 x 50
 y 16
 end
-arch swall_1_2
+arch swall_1_2_half
 x 50
 y 16
 end
@@ -86592,11 +86592,11 @@ arch woodfloor
 x 63
 y 52
 end
-arch swall_2_2_1
+arch wall_1_2
 x 63
 y 52
 end
-arch wall_1_2
+arch swall_1_4_half
 x 63
 y 52
 end
@@ -104545,11 +104545,11 @@ name woodfloor
 x 73
 y 52
 end
-arch swall_2_2_4
+arch wwall_1_2
 x 73
 y 52
 end
-arch wwall_1_2
+arch swall_1_3_half
 x 73
 y 52
 end
@@ -109685,11 +109685,11 @@ name stonefloor
 x 77
 y 78
 end
-arch swall_2_2_2
+arch stwall_1_4
 x 77
 y 78
 end
-arch stwall_1_4
+arch swall_1_1_half
 x 77
 y 78
 end
@@ -130486,7 +130486,7 @@ name woodfloor
 x 96
 y 49
 end
-arch swall_2_2_2
+arch swall_1_4_half
 x 96
 y 49
 end
@@ -140948,11 +140948,11 @@ face shop_empty.111
 x 105
 y 51
 end
-arch swall_1_3
+arch cwall_3_2
 x 105
 y 51
 end
-arch cwall_3_2
+arch swall_1_3_half
 x 105
 y 51
 end
