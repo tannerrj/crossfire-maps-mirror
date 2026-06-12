@@ -8,7 +8,7 @@ enter_x 12
 enter_y 21
 msg
 Created:  2008-12-07 Rick Tanner
-Modified: 2024-09-25 Rick Tanner
+Modified: 2026-06-12 Rick Tanner
 endmsg
 end
 arch grass
@@ -1676,6 +1676,13 @@ arch blackslate
 x 11
 y 5
 end
+arch altar_valkyrie
+x 11
+y 5
+level 120
+arch altar_valkyrie_pray_event
+end
+end
 arch blackslate
 x 11
 y 6
@@ -1820,13 +1827,6 @@ arch blackslate
 x 12
 y 5
 end
-arch altar_valkyrie
-x 12
-y 5
-level 120
-arch altar_valkyrie_pray_event
-end
-end
 arch blackslate
 x 12
 y 6
@@ -1969,6 +1969,13 @@ end
 arch blackslate
 x 13
 y 5
+end
+arch altar_valkyrie
+x 13
+y 5
+level 120
+arch altar_valkyrie_pray_event
+end
 end
 arch blackslate
 x 13
