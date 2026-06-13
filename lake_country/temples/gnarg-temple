@@ -9,7 +9,7 @@ enter_x 27
 enter_y 28
 msg
 Created:  2016-08-30 Rick Tanner
-Modified: 2016-08-31 Rick Tanner
+Modified: 2026-06-13 Rick Tanner
 endmsg
 end
 arch cave_15
@@ -3481,6 +3481,10 @@ arch flagstone
 x 21
 y 20
 end
+arch altar_gnarg
+x 21
+y 20
+end
 arch flagstone
 x 21
 y 21
@@ -3628,10 +3632,6 @@ x 22
 y 19
 end
 arch flagstone
-x 22
-y 20
-end
-arch altar_gnarg
 x 22
 y 20
 end
@@ -3786,6 +3786,10 @@ x 23
 y 19
 end
 arch flagstone
+x 23
+y 20
+end
+arch altar_gnarg
 x 23
 y 20
 end
