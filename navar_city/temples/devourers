@@ -9,7 +9,7 @@ enter_x 3
 enter_y 1
 msg
 Created:  2012-04-17 Rick Tanner
-Modified: 2022-07-24 Rick Tanner
+Modified: 2026-06-15 Rick Tanner
 endmsg
 reset_group navar_sanctum-of-devourers
 end
@@ -1158,6 +1158,10 @@ arch dungeon_floor
 x 8
 y 22
 end
+arch brazier
+x 8
+y 22
+end
 arch redslate
 x 8
 y 23
@@ -1277,7 +1281,7 @@ arch redslate
 x 9
 y 23
 end
-arch brazier
+arch altar_devourers
 x 9
 y 23
 end
@@ -1393,10 +1397,6 @@ x 10
 y 22
 end
 arch redslate
-x 10
-y 23
-end
-arch altar_devourers
 x 10
 y 23
 end
@@ -1531,7 +1531,7 @@ arch redslate
 x 11
 y 23
 end
-arch brazier
+arch altar_devourers
 x 11
 y 23
 end
@@ -1758,6 +1758,10 @@ x 13
 y 21
 end
 arch dungeon_floor
+x 13
+y 22
+end
+arch brazier
 x 13
 y 22
 end
