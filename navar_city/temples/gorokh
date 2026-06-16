@@ -8,7 +8,7 @@ enter_x 7
 enter_y 15
 msg
 Created:  2003-12-14 Avion
-Modified: 2025-06-17 Rick Tanner
+Modified: 2026-06-15 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_temple_of_gorokh
@@ -483,6 +483,10 @@ arch marble
 x 4
 y 7
 end
+arch pentagram
+x 4
+y 7
+end
 arch marble
 x 4
 y 8
@@ -695,15 +699,12 @@ arch marble
 x 6
 y 5
 end
-arch pillars
+arch altar_gorokh
 x 6
 y 5
+level 120
 end
 arch marble
-x 6
-y 6
-end
-arch pentagram
 x 6
 y 6
 end
@@ -793,10 +794,9 @@ arch marble
 x 7
 y 5
 end
-arch altar_gorokh
+arch pillars
 x 7
 y 5
-level 120
 end
 arch marble
 x 7
@@ -891,15 +891,12 @@ arch marble
 x 8
 y 5
 end
-arch pillars
+arch altar_gorokh
 x 8
 y 5
+level 120
 end
 arch marble
-x 8
-y 6
-end
-arch pentagram
 x 8
 y 6
 end
@@ -1144,6 +1141,10 @@ x 10
 y 6
 end
 arch marble
+x 10
+y 7
+end
+arch pentagram
 x 10
 y 7
 end
