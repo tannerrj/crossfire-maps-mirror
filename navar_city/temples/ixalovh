@@ -9,7 +9,7 @@ enter_x 3
 enter_y 18
 msg
 Created:  2003-11 Avion
-Modified: 2025-06-18 Rick Tanner
+Modified: 2026-06-17 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_church-of-ixalovh
@@ -625,6 +625,11 @@ arch tile_white_floor
 x 6
 y 4
 end
+arch altar_ixalovh
+x 6
+y 4
+level 120
+end
 arch tile_white_floor
 x 6
 y 5
@@ -736,11 +741,6 @@ arch tile_white_floor
 x 7
 y 4
 end
-arch altar_ixalovh
-x 7
-y 4
-level 120
-end
 arch tile_white_floor
 x 7
 y 5
@@ -842,6 +842,11 @@ end
 arch tile_white_floor
 x 8
 y 4
+end
+arch altar_ixalovh
+x 8
+y 4
+level 120
 end
 arch tile_white_floor
 x 8
