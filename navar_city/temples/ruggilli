@@ -9,7 +9,7 @@ enter_x 11
 enter_y 22
 msg
 Created: 2003-11 Avion
-Modified: 2025-06-21 Rick Tanner
+Modified: 2026-06-19 Rick Tanner
 endmsg
 outdoor 1
 reset_group navar_temple_of_ruggilli
@@ -1250,7 +1250,15 @@ arch flagstone
 x 9
 y 7
 end
+arch swall_2_2_2
+x 9
+y 7
+end
 arch flagstone
+x 9
+y 8
+end
+arch swall_2_1_1
 x 9
 y 8
 end
@@ -1258,7 +1266,15 @@ arch flagstone
 x 9
 y 9
 end
+arch swall_2_1_1
+x 9
+y 9
+end
 arch flagstone
+x 9
+y 10
+end
+arch swall_2_2_1
 x 9
 y 10
 end
@@ -1423,7 +1439,7 @@ arch flagstone
 x 10
 y 7
 end
-arch swall_2_2_2
+arch swall_2_1_2
 x 10
 y 7
 end
@@ -1431,15 +1447,12 @@ arch flagstone
 x 10
 y 8
 end
-arch swall_2_1_1
+arch altar_ruggilli
 x 10
 y 8
+level 120
 end
 arch flagstone
-x 10
-y 9
-end
-arch swall_2_1_1
 x 10
 y 9
 end
@@ -1447,7 +1460,7 @@ arch flagstone
 x 10
 y 10
 end
-arch swall_2_2_1
+arch swall_2_1_2
 x 10
 y 10
 end
@@ -1768,11 +1781,6 @@ end
 arch flagstone
 x 12
 y 8
-end
-arch altar_ruggilli
-x 12
-y 8
-level 120
 end
 arch check_inv
 slaying rug_pass
@@ -2123,7 +2131,7 @@ arch flagstone
 x 14
 y 7
 end
-arch swall_2_2_3
+arch swall_2_1_2
 x 14
 y 7
 end
@@ -2131,15 +2139,12 @@ arch flagstone
 x 14
 y 8
 end
-arch swall_2_1_1
+arch altar_ruggilli
 x 14
 y 8
+level 120
 end
 arch flagstone
-x 14
-y 9
-end
-arch swall_2_1_1
 x 14
 y 9
 end
@@ -2147,7 +2152,7 @@ arch flagstone
 x 14
 y 10
 end
-arch swall_2_2_4
+arch swall_2_1_2
 x 14
 y 10
 end
@@ -2330,6 +2335,10 @@ arch flagstone
 x 15
 y 7
 end
+arch swall_2_2_3
+x 15
+y 7
+end
 arch light4
 x 15
 y 8
@@ -2338,11 +2347,23 @@ arch flagstone
 x 15
 y 8
 end
+arch swall_2_1_1
+x 15
+y 8
+end
 arch flagstone
 x 15
 y 9
 end
+arch swall_2_1_1
+x 15
+y 9
+end
 arch flagstone
+x 15
+y 10
+end
+arch swall_2_2_4
 x 15
 y 10
 end
