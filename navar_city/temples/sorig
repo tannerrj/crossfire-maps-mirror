@@ -8,7 +8,7 @@ enter_x 7
 enter_y 16
 msg
 Created:  2003-01-11 Avion
-Modified: 2025-06-23 Rick Tanner
+Modified: 2026-06-21 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -735,6 +735,16 @@ x 6
 y 5
 invisible 1
 end
+arch light4
+x 6
+y 5
+glow_radius 6
+end
+arch altar_sorig
+x 6
+y 5
+level 120
+end
 arch dungeon_floor
 x 6
 y 6
@@ -887,16 +897,6 @@ x 7
 y 5
 invisible 1
 end
-arch light4
-x 7
-y 5
-glow_radius 6
-end
-arch altar_sorig
-x 7
-y 5
-level 120
-end
 arch dungeon_floor
 x 7
 y 6
@@ -1014,6 +1014,16 @@ arch slevel_4
 x 8
 y 5
 invisible 1
+end
+arch light4
+x 8
+y 5
+glow_radius 6
+end
+arch altar_sorig
+x 8
+y 5
+level 120
 end
 arch dungeon_floor
 x 8
