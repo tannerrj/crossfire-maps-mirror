@@ -8,7 +8,7 @@ enter_x 9
 enter_y 15
 msg
 Created:  2003-11 Avion
-Modified: 2025-06-27 Rick Tanner
+Modified: 2026-06-22 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -637,6 +637,10 @@ arch flagstone
 x 6
 y 5
 end
+arch brazier
+x 6
+y 5
+end
 arch flagstone
 x 6
 y 6
@@ -650,6 +654,10 @@ x 6
 y 8
 end
 arch flagstone
+x 6
+y 9
+end
+arch brazier
 x 6
 y 9
 end
@@ -740,9 +748,10 @@ arch flagstone
 x 7
 y 5
 end
-arch brazier
+arch altar_lythander
 x 7
 y 5
+level 120
 end
 arch flagstone
 x 7
@@ -757,10 +766,6 @@ x 7
 y 8
 end
 arch flagstone
-x 7
-y 9
-end
-arch brazier
 x 7
 y 9
 end
@@ -858,19 +863,6 @@ arch flagstone
 x 8
 y 6
 end
-arch elf_1
-msg
-@match lythander
-Lythander is the elven god of luck.
-@match *
-Welcome to the temple of Lythander.
-endmsg
-exp 0
-x 8
-y 6
-level 7
-stand_still 1
-end
 arch flagstone
 x 8
 y 7
@@ -962,11 +954,6 @@ arch flagstone
 x 9
 y 5
 end
-arch altar_lythander
-x 9
-y 5
-level 120
-end
 arch flagstone
 x 9
 y 6
@@ -974,6 +961,19 @@ end
 arch flagstone
 x 9
 y 7
+end
+arch elf_1
+msg
+@match lythander
+Lythander is the elven god of luck.
+@match *
+Welcome to the temple of Lythander.
+endmsg
+exp 0
+x 9
+y 7
+level 7
+stand_still 1
 end
 arch flagstone
 x 9
@@ -1161,9 +1161,10 @@ arch flagstone
 x 11
 y 5
 end
-arch brazier
+arch altar_lythander
 x 11
 y 5
+level 120
 end
 arch flagstone
 x 11
@@ -1178,10 +1179,6 @@ x 11
 y 8
 end
 arch flagstone
-x 11
-y 9
-end
-arch brazier
 x 11
 y 9
 end
@@ -1275,6 +1272,10 @@ arch flagstone
 x 12
 y 5
 end
+arch brazier
+x 12
+y 5
+end
 arch flagstone
 x 12
 y 6
@@ -1288,6 +1289,10 @@ x 12
 y 8
 end
 arch flagstone
+x 12
+y 9
+end
+arch brazier
 x 12
 y 9
 end
