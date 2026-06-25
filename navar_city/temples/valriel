@@ -2,13 +2,13 @@ arch map
 name Church of Valriel
 difficulty 1
 region navar
-width 24
+width 26
 height 34
-enter_x 11
+enter_x 12
 enter_y 30
 msg
 Created: 1999-01-18 Raphael Quinet (quinet@gamers.org)
-Modified: 2025-06-30 Rick Tanner
+Modified: 2026-06-25 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1769,7 +1769,7 @@ arch dungeon_floor
 x 9
 y 25
 end
-arch westcwall_1_3
+arch westcwall_2_1_2
 x 9
 y 25
 end
@@ -1777,11 +1777,11 @@ arch grass
 x 9
 y 26
 end
-arch hedge_2_2_4
+arch hedge_2_1_2
 x 9
 y 26
 end
-arch pstone_1
+arch pstone_2
 x 9
 y 27
 end
@@ -1789,7 +1789,7 @@ arch grass
 x 9
 y 28
 end
-arch hedge_2_2_3
+arch hedge_2_1_2
 x 9
 y 28
 end
@@ -1797,19 +1797,7 @@ arch grass
 x 9
 y 29
 end
-arch hedge_2_1_1
-x 9
-y 29
-end
 arch grass
-x 9
-y 30
-end
-arch swall_1_1_half
-x 9
-y 30
-end
-arch hedge_2_1_1
 x 9
 y 30
 end
@@ -1817,7 +1805,7 @@ arch grass
 x 9
 y 31
 end
-arch swall_2_2_4
+arch swall_2_1_2
 x 9
 y 31
 end
@@ -1987,34 +1975,55 @@ arch dungeon_floor
 x 10
 y 25
 end
-arch dungeon_floor
+arch westcwall_1_3
+x 10
+y 25
+end
+arch grass
 x 10
 y 26
 end
-arch dungeon_floor
+arch hedge_2_2_4
+x 10
+y 26
+end
+arch pstone_1
 x 10
 y 27
 end
-arch dungeon_floor
+arch grass
 x 10
 y 28
 end
-arch dungeon_floor
+arch hedge_2_2_3
+x 10
+y 28
+end
+arch grass
 x 10
 y 29
 end
-arch dungeon_floor
+arch hedge_2_1_1
+x 10
+y 29
+end
+arch grass
 x 10
 y 30
 end
-arch invis_exit
-slaying /world/world_122_117
-hp 1
-sp 5
+arch swall_1_1_half
+x 10
+y 30
+end
+arch hedge_2_1_1
+x 10
+y 30
+end
+arch grass
 x 10
 y 31
 end
-arch dungeon_floor
+arch swall_2_2_4
 x 10
 y 31
 end
@@ -2022,7 +2031,7 @@ arch dungeon_magic
 x 10
 y 32
 end
-arch dungeon_floor
+arch grass_only
 x 10
 y 32
 move_block all
@@ -2211,11 +2220,11 @@ arch swall_2_1_2
 x 12
 y 2
 end
-arch tree
+arch grass
 x 12
 y 3
 end
-arch pstone_1
+arch pstone_2
 x 12
 y 4
 end
@@ -2223,7 +2232,7 @@ arch dungeon_floor
 x 12
 y 5
 end
-arch westcwall_win2
+arch westcwall_2_1_2
 x 12
 y 5
 end
@@ -2243,19 +2252,11 @@ arch woodfloorvert
 x 12
 y 9
 end
-arch brazier
-x 12
-y 9
-end
 arch woodfloorvert
 x 12
 y 10
 end
 arch woodfloorvert
-x 12
-y 11
-end
-arch chair_2.3
 x 12
 y 11
 end
@@ -2267,19 +2268,11 @@ arch woodfloorvert
 x 12
 y 13
 end
-arch chair_1.3
-x 12
-y 13
-end
 arch woodfloorvert
 x 12
 y 14
 end
 arch woodfloorvert
-x 12
-y 15
-end
-arch chair_1.3
 x 12
 y 15
 end
@@ -2291,19 +2284,11 @@ arch woodfloorvert
 x 12
 y 17
 end
-arch chair_1.3
-x 12
-y 17
-end
 arch woodfloorvert
 x 12
 y 18
 end
 arch woodfloorvert
-x 12
-y 19
-end
-arch chair_1.3
 x 12
 y 19
 end
@@ -2315,19 +2300,11 @@ arch woodfloorvert
 x 12
 y 21
 end
-arch chair_1.3
-x 12
-y 21
-end
 arch woodfloorvert
 x 12
 y 22
 end
 arch woodfloorvert
-x 12
-y 23
-end
-arch chair_1.3
 x 12
 y 23
 end
@@ -2402,7 +2379,7 @@ arch grass
 x 13
 y 3
 end
-arch pstone_1
+arch pstone_2
 x 13
 y 4
 end
@@ -2410,7 +2387,7 @@ arch dungeon_floor
 x 13
 y 5
 end
-arch westcwall_3_3
+arch westcwall_2_1_2
 x 13
 y 5
 end
@@ -2418,15 +2395,7 @@ arch woodfloorvert
 x 13
 y 6
 end
-arch westcwall_2_1_1
-x 13
-y 6
-end
 arch woodfloorvert
-x 13
-y 7
-end
-arch westcwall_2_1_1
 x 13
 y 7
 end
@@ -2434,27 +2403,20 @@ arch woodfloorvert
 x 13
 y 8
 end
-arch westcwall_2_1_1
-x 13
-y 8
-end
 arch woodfloorvert
 x 13
 y 9
 end
-arch westcwall_2_2_1
+arch altar_valriel
 x 13
 y 9
+level 120
 end
 arch woodfloorvert
 x 13
 y 10
 end
 arch woodfloorvert
-x 13
-y 11
-end
-arch chair_2.3
 x 13
 y 11
 end
@@ -2466,10 +2428,6 @@ arch woodfloorvert
 x 13
 y 13
 end
-arch westcwall_0
-x 13
-y 13
-end
 arch woodfloorvert
 x 13
 y 14
@@ -2478,23 +2436,11 @@ arch woodfloorvert
 x 13
 y 15
 end
-arch chair_1.3
-x 13
-y 15
-end
 arch woodfloorvert
 x 13
 y 16
 end
-arch westcwall_0
-x 13
-y 16
-end
 arch woodfloorvert
-x 13
-y 17
-end
-arch chair_1.3
 x 13
 y 17
 end
@@ -2506,10 +2452,6 @@ arch woodfloorvert
 x 13
 y 19
 end
-arch westcwall_0
-x 13
-y 19
-end
 arch woodfloorvert
 x 13
 y 20
@@ -2518,23 +2460,11 @@ arch woodfloorvert
 x 13
 y 21
 end
-arch chair_1.3
-x 13
-y 21
-end
 arch woodfloorvert
 x 13
 y 22
 end
-arch westcwall_0
-x 13
-y 22
-end
 arch woodfloorvert
-x 13
-y 23
-end
-arch chair_1.3
 x 13
 y 23
 end
@@ -2546,55 +2476,34 @@ arch dungeon_floor
 x 13
 y 25
 end
-arch westcwall_1_4
-x 13
-y 25
-end
-arch grass
+arch dungeon_floor
 x 13
 y 26
 end
-arch hedge_2_2_1
-x 13
-y 26
-end
-arch pstone_1
+arch dungeon_floor
 x 13
 y 27
 end
-arch grass
+arch dungeon_floor
 x 13
 y 28
 end
-arch hedge_2_2_2
-x 13
-y 28
-end
-arch grass
+arch dungeon_floor
 x 13
 y 29
 end
-arch hedge_2_1_1
-x 13
-y 29
-end
-arch grass
+arch dungeon_floor
 x 13
 y 30
 end
-arch swall_1_1_half
-x 13
-y 30
-end
-arch hedge_2_1_1
-x 13
-y 30
-end
-arch grass
+arch invis_exit
+slaying /world/world_122_117
+hp 1
+sp 5
 x 13
 y 31
 end
-arch swall_2_2_1
+arch dungeon_floor
 x 13
 y 31
 end
@@ -2602,7 +2511,7 @@ arch dungeon_magic
 x 13
 y 32
 end
-arch grass_only
+arch dungeon_floor
 x 13
 y 32
 move_block all
@@ -2626,7 +2535,7 @@ arch swall_2_1_2
 x 14
 y 2
 end
-arch grass
+arch tree
 x 14
 y 3
 end
@@ -2638,15 +2547,11 @@ arch dungeon_floor
 x 14
 y 5
 end
-arch westcwall_2_1_2
+arch westcwall_win2
 x 14
 y 5
 end
 arch woodfloorvert
-x 14
-y 6
-end
-arch bookshelf
 x 14
 y 6
 end
@@ -2662,11 +2567,7 @@ arch woodfloorvert
 x 14
 y 9
 end
-arch swall_1_4_half
-x 14
-y 9
-end
-arch westcwall_1_3
+arch brazier
 x 14
 y 9
 end
@@ -2762,7 +2663,7 @@ arch dungeon_floor
 x 14
 y 25
 end
-arch westcwall_2_1_2
+arch westcwall_1_4
 x 14
 y 25
 end
@@ -2770,7 +2671,7 @@ arch grass
 x 14
 y 26
 end
-arch hedge_2_1_2
+arch hedge_2_2_1
 x 14
 y 26
 end
@@ -2782,7 +2683,7 @@ arch grass
 x 14
 y 28
 end
-arch hedge_2_1_2
+arch hedge_2_2_2
 x 14
 y 28
 end
@@ -2790,7 +2691,19 @@ arch grass
 x 14
 y 29
 end
-arch tree
+arch hedge_2_1_1
+x 14
+y 29
+end
+arch grass
+x 14
+y 30
+end
+arch swall_1_1_half
+x 14
+y 30
+end
+arch hedge_2_1_1
 x 14
 y 30
 end
@@ -2798,13 +2711,18 @@ arch grass
 x 14
 y 31
 end
-arch swall_2_1_2
+arch swall_2_2_1
 x 14
 y 31
+end
+arch dungeon_magic
+x 14
+y 32
 end
 arch grass_only
 x 14
 y 32
+move_block all
 end
 arch cobblestones2
 x 14
@@ -2829,7 +2747,7 @@ arch grass
 x 15
 y 3
 end
-arch pstone_2
+arch pstone_1
 x 15
 y 4
 end
@@ -2837,7 +2755,7 @@ arch dungeon_floor
 x 15
 y 5
 end
-arch westcwall_2_1_2
+arch westcwall_3_3
 x 15
 y 5
 end
@@ -2845,7 +2763,15 @@ arch woodfloorvert
 x 15
 y 6
 end
+arch westcwall_2_1_1
+x 15
+y 6
+end
 arch woodfloorvert
+x 15
+y 7
+end
+arch westcwall_2_1_1
 x 15
 y 7
 end
@@ -2853,11 +2779,15 @@ arch woodfloorvert
 x 15
 y 8
 end
+arch westcwall_2_1_1
+x 15
+y 8
+end
 arch woodfloorvert
 x 15
 y 9
 end
-arch swall_2_1_2
+arch westcwall_2_2_1
 x 15
 y 9
 end
@@ -2869,6 +2799,10 @@ arch woodfloorvert
 x 15
 y 11
 end
+arch chair_2.3
+x 15
+y 11
+end
 arch woodfloorvert
 x 15
 y 12
@@ -2877,7 +2811,7 @@ arch woodfloorvert
 x 15
 y 13
 end
-arch chair_1.3
+arch westcwall_0
 x 15
 y 13
 end
@@ -2897,6 +2831,10 @@ arch woodfloorvert
 x 15
 y 16
 end
+arch westcwall_0
+x 15
+y 16
+end
 arch woodfloorvert
 x 15
 y 17
@@ -2913,7 +2851,7 @@ arch woodfloorvert
 x 15
 y 19
 end
-arch chair_1.3
+arch westcwall_0
 x 15
 y 19
 end
@@ -2933,6 +2871,10 @@ arch woodfloorvert
 x 15
 y 22
 end
+arch westcwall_0
+x 15
+y 22
+end
 arch woodfloorvert
 x 15
 y 23
@@ -2949,7 +2891,7 @@ arch dungeon_floor
 x 15
 y 25
 end
-arch westcwall_win2
+arch westcwall_2_1_2
 x 15
 y 25
 end
@@ -2989,9 +2931,14 @@ arch swall_2_1_2
 x 15
 y 31
 end
+arch dungeon_magic
+x 15
+y 32
+end
 arch grass_only
 x 15
 y 32
+move_block all
 end
 arch cobblestones2
 x 15
@@ -3012,7 +2959,7 @@ arch swall_2_1_2
 x 16
 y 2
 end
-arch tree
+arch grass
 x 16
 y 3
 end
@@ -3048,11 +2995,11 @@ arch woodfloorvert
 x 16
 y 9
 end
-arch swall_1_3_half
+arch swall_1_4_half
 x 16
 y 9
 end
-arch westcwall_1_4
+arch westcwall_1_3
 x 16
 y 9
 end
@@ -3060,12 +3007,11 @@ arch woodfloorvert
 x 16
 y 10
 end
-arch statue
-name statue of St Matthew
-x 16
-y 10
-end
 arch woodfloorvert
+x 16
+y 11
+end
+arch chair_2.3
 x 16
 y 11
 end
@@ -3077,7 +3023,7 @@ arch woodfloorvert
 x 16
 y 13
 end
-arch statue
+arch chair_1.3
 x 16
 y 13
 end
@@ -3089,15 +3035,19 @@ arch woodfloorvert
 x 16
 y 15
 end
+arch chair_1.3
+x 16
+y 15
+end
 arch woodfloorvert
 x 16
 y 16
 end
-arch statue
-x 16
-y 16
-end
 arch woodfloorvert
+x 16
+y 17
+end
+arch chair_1.3
 x 16
 y 17
 end
@@ -3109,7 +3059,7 @@ arch woodfloorvert
 x 16
 y 19
 end
-arch statue
+arch chair_1.3
 x 16
 y 19
 end
@@ -3121,15 +3071,19 @@ arch woodfloorvert
 x 16
 y 21
 end
+arch chair_1.3
+x 16
+y 21
+end
 arch woodfloorvert
 x 16
 y 22
 end
-arch statue
-x 16
-y 22
-end
 arch woodfloorvert
+x 16
+y 23
+end
+arch chair_1.3
 x 16
 y 23
 end
@@ -3153,7 +3107,7 @@ arch hedge_2_1_2
 x 16
 y 26
 end
-arch pstone_2
+arch pstone_1
 x 16
 y 27
 end
@@ -3169,7 +3123,7 @@ arch grass
 x 16
 y 29
 end
-arch grass
+arch tree
 x 16
 y 30
 end
@@ -3214,511 +3168,576 @@ y 4
 end
 arch dungeon_floor
 x 17
+y 5
+end
+arch westcwall_2_1_2
+x 17
+y 5
+end
+arch woodfloorvert
+x 17
+y 6
+end
+arch woodfloorvert
+x 17
+y 7
+end
+arch woodfloorvert
+x 17
+y 8
+end
+arch woodfloorvert
+x 17
+y 9
+end
+arch swall_2_1_2
+x 17
+y 9
+end
+arch woodfloorvert
+x 17
+y 10
+end
+arch woodfloorvert
+x 17
+y 11
+end
+arch woodfloorvert
+x 17
+y 12
+end
+arch woodfloorvert
+x 17
+y 13
+end
+arch chair_1.3
+x 17
+y 13
+end
+arch woodfloorvert
+x 17
+y 14
+end
+arch woodfloorvert
+x 17
+y 15
+end
+arch chair_1.3
+x 17
+y 15
+end
+arch woodfloorvert
+x 17
+y 16
+end
+arch woodfloorvert
+x 17
+y 17
+end
+arch chair_1.3
+x 17
+y 17
+end
+arch woodfloorvert
+x 17
+y 18
+end
+arch woodfloorvert
+x 17
+y 19
+end
+arch chair_1.3
+x 17
+y 19
+end
+arch woodfloorvert
+x 17
+y 20
+end
+arch woodfloorvert
+x 17
+y 21
+end
+arch chair_1.3
+x 17
+y 21
+end
+arch woodfloorvert
+x 17
+y 22
+end
+arch woodfloorvert
+x 17
+y 23
+end
+arch chair_1.3
+x 17
+y 23
+end
+arch woodfloorvert
+x 17
+y 24
+end
+arch dungeon_floor
+x 17
+y 25
+end
+arch westcwall_win2
+x 17
+y 25
+end
+arch grass
+x 17
+y 26
+end
+arch hedge_2_1_2
+x 17
+y 26
+end
+arch pstone_2
+x 17
+y 27
+end
+arch grass
+x 17
+y 28
+end
+arch hedge_2_1_2
+x 17
+y 28
+end
+arch grass
+x 17
+y 29
+end
+arch grass
+x 17
+y 30
+end
+arch grass
+x 17
+y 31
+end
+arch swall_2_1_2
+x 17
+y 31
+end
+arch grass_only
+x 17
+y 32
+end
+arch cobblestones2
+x 17
+y 33
+end
+arch cobblestones2
+x 18
+end
+arch grass_only
+x 18
+y 1
+end
+arch grass
+x 18
+y 2
+end
+arch swall_2_1_2
+x 18
+y 2
+end
+arch tree
+x 18
+y 3
+end
+arch pstone_1
+x 18
+y 4
+end
+arch dungeon_floor
+x 18
+y 5
+end
+arch westcwall_2_1_2
+x 18
+y 5
+end
+arch woodfloorvert
+x 18
+y 6
+end
+arch bookshelf
+x 18
+y 6
+end
+arch woodfloorvert
+x 18
+y 7
+end
+arch woodfloorvert
+x 18
+y 8
+end
+arch woodfloorvert
+x 18
+y 9
+end
+arch swall_1_3_half
+x 18
+y 9
+end
+arch westcwall_1_4
+x 18
+y 9
+end
+arch woodfloorvert
+x 18
+y 10
+end
+arch statue
+name statue of St Matthew
+x 18
+y 10
+end
+arch woodfloorvert
+x 18
+y 11
+end
+arch woodfloorvert
+x 18
+y 12
+end
+arch woodfloorvert
+x 18
+y 13
+end
+arch statue
+x 18
+y 13
+end
+arch woodfloorvert
+x 18
+y 14
+end
+arch woodfloorvert
+x 18
+y 15
+end
+arch woodfloorvert
+x 18
+y 16
+end
+arch statue
+x 18
+y 16
+end
+arch woodfloorvert
+x 18
+y 17
+end
+arch woodfloorvert
+x 18
+y 18
+end
+arch woodfloorvert
+x 18
+y 19
+end
+arch statue
+x 18
+y 19
+end
+arch woodfloorvert
+x 18
+y 20
+end
+arch woodfloorvert
+x 18
+y 21
+end
+arch woodfloorvert
+x 18
+y 22
+end
+arch statue
+x 18
+y 22
+end
+arch woodfloorvert
+x 18
+y 23
+end
+arch woodfloorvert
+x 18
+y 24
+end
+arch dungeon_floor
+x 18
+y 25
+end
+arch westcwall_2_1_2
+x 18
+y 25
+end
+arch grass
+x 18
+y 26
+end
+arch hedge_2_1_2
+x 18
+y 26
+end
+arch pstone_2
+x 18
+y 27
+end
+arch grass
+x 18
+y 28
+end
+arch hedge_2_1_2
+x 18
+y 28
+end
+arch grass
+x 18
+y 29
+end
+arch grass
+x 18
+y 30
+end
+arch grass
+x 18
+y 31
+end
+arch swall_2_1_2
+x 18
+y 31
+end
+arch grass_only
+x 18
+y 32
+end
+arch cobblestones2
+x 18
+y 33
+end
+arch cobblestones2
+x 19
+end
+arch grass_only
+x 19
+y 1
+end
+arch grass
+x 19
+y 2
+end
+arch swall_2_1_2
+x 19
+y 2
+end
+arch grass
+x 19
+y 3
+end
+arch pstone_2
+x 19
+y 4
+end
+arch dungeon_floor
+x 19
 y 5
 end
 arch westcwall_2_2_3
-x 17
+x 19
 y 5
 end
 arch dungeon_floor
-x 17
+x 19
 y 6
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 6
 end
 arch dungeon_floor
-x 17
+x 19
 y 7
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 7
 end
 arch dungeon_floor
-x 17
+x 19
 y 8
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 8
 end
 arch dungeon_floor
-x 17
+x 19
 y 9
 end
 arch westcwall_3_4
-x 17
+x 19
 y 9
 end
 arch dungeon_floor
-x 17
+x 19
 y 10
 end
 arch westcwall_win1
-x 17
+x 19
 y 10
 end
 arch dungeon_floor
-x 17
+x 19
 y 11
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 11
 end
 arch dungeon_floor
-x 17
+x 19
 y 12
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 12
 end
 arch dungeon_floor
-x 17
+x 19
 y 13
 end
 arch westcwall_win1
-x 17
+x 19
 y 13
 end
 arch dungeon_floor
-x 17
+x 19
 y 14
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 14
 end
 arch dungeon_floor
-x 17
+x 19
 y 15
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 15
 end
 arch dungeon_floor
-x 17
+x 19
 y 16
 end
 arch westcwall_win1
-x 17
+x 19
 y 16
 end
 arch dungeon_floor
-x 17
+x 19
 y 17
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 17
 end
 arch dungeon_floor
-x 17
+x 19
 y 18
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 18
 end
 arch dungeon_floor
-x 17
+x 19
 y 19
 end
 arch westcwall_win1
-x 17
+x 19
 y 19
 end
 arch dungeon_floor
-x 17
+x 19
 y 20
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 20
 end
 arch dungeon_floor
-x 17
+x 19
 y 21
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 21
 end
 arch dungeon_floor
-x 17
+x 19
 y 22
 end
 arch westcwall_win1
-x 17
+x 19
 y 22
 end
 arch dungeon_floor
-x 17
+x 19
 y 23
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 23
 end
 arch dungeon_floor
-x 17
+x 19
 y 24
 end
 arch westcwall_2_1_1
-x 17
+x 19
 y 24
 end
 arch dungeon_floor
-x 17
+x 19
 y 25
 end
 arch westcwall_2_2_4
-x 17
+x 19
 y 25
 end
 arch grass
-x 17
+x 19
 y 26
 end
 arch hedge_2_2_4
-x 17
+x 19
 y 26
 end
 arch pstone_1
-x 17
+x 19
 y 27
 end
 arch grass
-x 17
+x 19
 y 28
 end
 arch hedge_1_3
-x 17
-y 28
-end
-arch tree
-x 17
-y 29
-end
-arch grass
-x 17
-y 30
-end
-arch grass
-x 17
-y 31
-end
-arch swall_2_1_2
-x 17
-y 31
-end
-arch grass_only
-x 17
-y 32
-end
-arch cobblestones2
-x 17
-y 33
-end
-arch cobblestones2
-x 18
-end
-arch grass_only
-x 18
-y 1
-end
-arch grass
-x 18
-y 2
-end
-arch swall_2_1_2
-x 18
-y 2
-end
-arch grass
-x 18
-y 3
-end
-arch pstone_1
-x 18
-y 4
-end
-arch tree
-x 18
-y 5
-end
-arch grass
-x 18
-y 6
-end
-arch gravestone
-x 18
-y 6
-end
-arch grass
-x 18
-y 7
-end
-arch gravestone2
-x 18
-y 7
-end
-arch grass
-x 18
-y 8
-end
-arch gravestone2
-x 18
-y 8
-end
-arch grass
-x 18
-y 9
-end
-arch gravestone2
-x 18
-y 9
-end
-arch grass
-x 18
-y 10
-end
-arch gravestone
-x 18
-y 10
-end
-arch grass
-x 18
-y 11
-end
-arch gravestone2
-x 18
-y 11
-end
-arch grass
-x 18
-y 12
-end
-arch gravestone
-x 18
-y 12
-end
-arch grass
-x 18
-y 13
-end
-arch grass
-x 18
-y 14
-end
-arch tree
-x 18
-y 15
-end
-arch grass
-x 18
-y 16
-end
-arch grass
-x 18
-y 17
-end
-arch tree
-x 18
-y 18
-end
-arch grass
-x 18
-y 19
-end
-arch grass
-x 18
-y 20
-end
-arch tree
-x 18
-y 21
-end
-arch grass
-x 18
-y 22
-end
-arch grass
-x 18
-y 23
-end
-arch grass
-x 18
-y 24
-end
-arch tree
-x 18
-y 25
-end
-arch grass
-x 18
-y 26
-end
-arch pstone_1
-x 18
-y 27
-end
-arch tree
-x 18
-y 28
-end
-arch grass
-x 18
-y 29
-end
-arch grass
-x 18
-y 30
-end
-arch grass
-x 18
-y 31
-end
-arch swall_2_1_2
-x 18
-y 31
-end
-arch grass_only
-x 18
-y 32
-end
-arch cobblestones2
-x 18
-y 33
-end
-arch cobblestones2
-x 19
-end
-arch grass_only
-x 19
-y 1
-end
-arch grass
-x 19
-y 2
-end
-arch swall_2_1_2
-x 19
-y 2
-end
-arch tree
-x 19
-y 3
-end
-arch pstone_1
-x 19
-y 4
-end
-arch pstone_2
-x 19
-y 5
-end
-arch pstone_2
-x 19
-y 6
-end
-arch pstone_1
-x 19
-y 7
-end
-arch pstone_1
-x 19
-y 8
-end
-arch pstone_1
-x 19
-y 9
-end
-arch pstone_1
-x 19
-y 10
-end
-arch pstone_2
-x 19
-y 11
-end
-arch pstone_2
-x 19
-y 12
-end
-arch pstone_1
-x 19
-y 13
-end
-arch pstone_1
-x 19
-y 14
-end
-arch pstone_2
-x 19
-y 15
-end
-arch pstone_1
-x 19
-y 16
-end
-arch pstone_1
-x 19
-y 17
-end
-arch pstone_2
-x 19
-y 18
-end
-arch pstone_1
-x 19
-y 19
-end
-arch pstone_2
-x 19
-y 20
-end
-arch pstone_1
-x 19
-y 21
-end
-arch pstone_1
-x 19
-y 22
-end
-arch pstone_2
-x 19
-y 23
-end
-arch pstone_1
-x 19
-y 24
-end
-arch pstone_1
-x 19
-y 25
-end
-arch pstone_2
-x 19
-y 26
-end
-arch pstone_2
-x 19
-y 27
-end
-arch grass
 x 19
 y 28
 end
-arch grass
+arch tree
 x 19
 y 29
 end
-arch tree
+arch grass
 x 19
 y 30
 end
@@ -3757,7 +3776,7 @@ arch grass
 x 20
 y 3
 end
-arch grass
+arch pstone_1
 x 20
 y 4
 end
@@ -3769,7 +3788,7 @@ arch grass
 x 20
 y 6
 end
-arch gravestone2
+arch gravestone
 x 20
 y 6
 end
@@ -3785,7 +3804,7 @@ arch grass
 x 20
 y 8
 end
-arch gravestone
+arch gravestone2
 x 20
 y 8
 end
@@ -3793,7 +3812,7 @@ arch grass
 x 20
 y 9
 end
-arch gravestone
+arch gravestone2
 x 20
 y 9
 end
@@ -3801,7 +3820,7 @@ arch grass
 x 20
 y 10
 end
-arch gravestone2
+arch gravestone
 x 20
 y 10
 end
@@ -3809,7 +3828,7 @@ arch grass
 x 20
 y 11
 end
-arch gravestone
+arch gravestone2
 x 20
 y 11
 end
@@ -3817,11 +3836,11 @@ arch grass
 x 20
 y 12
 end
-arch gravestone2
+arch gravestone
 x 20
 y 12
 end
-arch tree
+arch grass
 x 20
 y 13
 end
@@ -3829,11 +3848,11 @@ arch grass
 x 20
 y 14
 end
-arch grass
+arch tree
 x 20
 y 15
 end
-arch tree
+arch grass
 x 20
 y 16
 end
@@ -3841,19 +3860,19 @@ arch grass
 x 20
 y 17
 end
-arch grass
+arch tree
 x 20
 y 18
 end
-arch tree
+arch grass
 x 20
 y 19
 end
-arch tree
+arch grass
 x 20
 y 20
 end
-arch grass
+arch tree
 x 20
 y 21
 end
@@ -3861,7 +3880,7 @@ arch grass
 x 20
 y 22
 end
-arch tree
+arch grass
 x 20
 y 23
 end
@@ -3869,568 +3888,882 @@ arch grass
 x 20
 y 24
 end
-arch grass
+arch tree
 x 20
 y 25
 end
-arch tree
+arch grass
 x 20
 y 26
 end
-arch grass
+arch pstone_1
 x 20
 y 27
 end
-arch grass
+arch tree
 x 20
 y 28
 end
 arch grass
 x 20
+y 29
+end
+arch grass
+x 20
+y 30
+end
+arch grass
+x 20
+y 31
+end
+arch swall_2_1_2
+x 20
+y 31
+end
+arch grass_only
+x 20
+y 32
+end
+arch cobblestones2
+x 20
+y 33
+end
+arch cobblestones2
+x 21
+end
+arch grass_only
+x 21
+y 1
+end
+arch grass
+x 21
+y 2
+end
+arch swall_2_1_2
+x 21
+y 2
+end
+arch tree
+x 21
+y 3
+end
+arch pstone_1
+x 21
+y 4
+end
+arch pstone_2
+x 21
+y 5
+end
+arch pstone_2
+x 21
+y 6
+end
+arch pstone_1
+x 21
+y 7
+end
+arch pstone_1
+x 21
+y 8
+end
+arch pstone_1
+x 21
+y 9
+end
+arch pstone_1
+x 21
+y 10
+end
+arch pstone_2
+x 21
+y 11
+end
+arch pstone_2
+x 21
+y 12
+end
+arch pstone_1
+x 21
+y 13
+end
+arch pstone_1
+x 21
+y 14
+end
+arch pstone_2
+x 21
+y 15
+end
+arch pstone_1
+x 21
+y 16
+end
+arch pstone_1
+x 21
+y 17
+end
+arch pstone_2
+x 21
+y 18
+end
+arch pstone_1
+x 21
+y 19
+end
+arch pstone_2
+x 21
+y 20
+end
+arch pstone_1
+x 21
+y 21
+end
+arch pstone_1
+x 21
+y 22
+end
+arch pstone_2
+x 21
+y 23
+end
+arch pstone_1
+x 21
+y 24
+end
+arch pstone_1
+x 21
+y 25
+end
+arch pstone_2
+x 21
+y 26
+end
+arch pstone_2
+x 21
+y 27
+end
+arch grass
+x 21
+y 28
+end
+arch grass
+x 21
+y 29
+end
+arch tree
+x 21
+y 30
+end
+arch grass
+x 21
+y 31
+end
+arch swall_2_1_2
+x 21
+y 31
+end
+arch grass_only
+x 21
+y 32
+end
+arch cobblestones2
+x 21
+y 33
+end
+arch cobblestones2
+x 22
+end
+arch grass_only
+x 22
+y 1
+end
+arch grass
+x 22
+y 2
+end
+arch swall_2_1_2
+x 22
+y 2
+end
+arch grass
+x 22
+y 3
+end
+arch grass
+x 22
+y 4
+end
+arch tree
+x 22
+y 5
+end
+arch grass
+x 22
+y 6
+end
+arch gravestone2
+x 22
+y 6
+end
+arch grass
+x 22
+y 7
+end
+arch gravestone2
+x 22
+y 7
+end
+arch grass
+x 22
+y 8
+end
+arch gravestone
+x 22
+y 8
+end
+arch grass
+x 22
+y 9
+end
+arch gravestone
+x 22
+y 9
+end
+arch grass
+x 22
+y 10
+end
+arch gravestone2
+x 22
+y 10
+end
+arch grass
+x 22
+y 11
+end
+arch gravestone
+x 22
+y 11
+end
+arch grass
+x 22
+y 12
+end
+arch gravestone2
+x 22
+y 12
+end
+arch tree
+x 22
+y 13
+end
+arch grass
+x 22
+y 14
+end
+arch grass
+x 22
+y 15
+end
+arch tree
+x 22
+y 16
+end
+arch grass
+x 22
+y 17
+end
+arch grass
+x 22
+y 18
+end
+arch tree
+x 22
+y 19
+end
+arch tree
+x 22
+y 20
+end
+arch grass
+x 22
+y 21
+end
+arch grass
+x 22
+y 22
+end
+arch tree
+x 22
+y 23
+end
+arch grass
+x 22
+y 24
+end
+arch grass
+x 22
+y 25
+end
+arch tree
+x 22
+y 26
+end
+arch grass
+x 22
+y 27
+end
+arch grass
+x 22
+y 28
+end
+arch grass
+x 22
 y 29
 end
 arch grasspond
-x 20
+x 22
 y 30
 end
 arch grass
-x 20
+x 22
 y 31
 end
 arch swall_2_1_2
-x 20
+x 22
 y 31
 end
 arch grass_only
-x 20
+x 22
 y 32
 end
 arch cobblestones2
-x 20
+x 22
 y 33
 end
 arch cobblestones2
-x 21
+x 23
 end
 arch grass_only
-x 21
+x 23
 y 1
 end
 arch grass
-x 21
+x 23
 y 2
 end
 arch swall_2_2_3
-x 21
+x 23
 y 2
 end
 arch grass
-x 21
+x 23
 y 3
 end
 arch swall_2_1_1
-x 21
+x 23
 y 3
 end
 arch grass
-x 21
+x 23
 y 4
 end
 arch swall_2_1_1
-x 21
+x 23
 y 4
 end
 arch grass
-x 21
+x 23
 y 5
 end
 arch swall_2_1_1
-x 21
+x 23
 y 5
 end
 arch grass
-x 21
+x 23
 y 6
 end
 arch swall_2_1_1
-x 21
+x 23
 y 6
 end
 arch grass
-x 21
+x 23
 y 7
 end
 arch swall_2_1_1
-x 21
+x 23
 y 7
 end
 arch grass
-x 21
+x 23
 y 8
 end
 arch swall_2_1_1
-x 21
+x 23
 y 8
 end
 arch grass
-x 21
+x 23
 y 9
 end
 arch swall_2_1_1
-x 21
+x 23
 y 9
 end
 arch grass
-x 21
+x 23
 y 10
 end
 arch swall_2_1_1
-x 21
+x 23
 y 10
 end
 arch grass
-x 21
+x 23
 y 11
 end
 arch swall_2_1_1
-x 21
+x 23
 y 11
 end
 arch grass
-x 21
+x 23
 y 12
 end
 arch swall_2_1_1
-x 21
+x 23
 y 12
 end
 arch grass
-x 21
+x 23
 y 13
 end
 arch swall_2_1_1
-x 21
+x 23
 y 13
 end
 arch grass
-x 21
+x 23
 y 14
 end
 arch swall_2_1_1
-x 21
+x 23
 y 14
 end
 arch grass
-x 21
+x 23
 y 15
 end
 arch swall_2_1_1
-x 21
+x 23
 y 15
 end
 arch grass
-x 21
+x 23
 y 16
 end
 arch swall_2_1_1
-x 21
+x 23
 y 16
 end
 arch grass
-x 21
+x 23
 y 17
 end
 arch swall_2_1_1
-x 21
+x 23
 y 17
 end
 arch grass
-x 21
+x 23
 y 18
 end
 arch swall_2_1_1
-x 21
+x 23
 y 18
 end
 arch grass
-x 21
+x 23
 y 19
 end
 arch swall_2_1_1
-x 21
+x 23
 y 19
 end
 arch grass
-x 21
+x 23
 y 20
 end
 arch swall_2_1_1
-x 21
+x 23
 y 20
 end
 arch grass
-x 21
+x 23
 y 21
 end
 arch swall_2_1_1
-x 21
+x 23
 y 21
 end
 arch grass
-x 21
+x 23
 y 22
 end
 arch swall_2_1_1
-x 21
+x 23
 y 22
 end
 arch grass
-x 21
+x 23
 y 23
 end
 arch swall_2_1_1
-x 21
+x 23
 y 23
 end
 arch grass
-x 21
+x 23
 y 24
 end
 arch swall_2_1_1
-x 21
+x 23
 y 24
 end
 arch grass
-x 21
+x 23
 y 25
 end
 arch swall_2_1_1
-x 21
+x 23
 y 25
 end
 arch grass
-x 21
+x 23
 y 26
 end
 arch swall_2_1_1
-x 21
+x 23
 y 26
 end
 arch grass
-x 21
+x 23
 y 27
 end
 arch swall_2_1_1
-x 21
+x 23
 y 27
 end
 arch grass
-x 21
+x 23
 y 28
 end
 arch swall_2_1_1
-x 21
+x 23
 y 28
 end
 arch grass
-x 21
+x 23
 y 29
 end
 arch swall_2_1_1
-x 21
+x 23
 y 29
 end
 arch grass
-x 21
+x 23
 y 30
 end
 arch swall_2_1_1
-x 21
+x 23
 y 30
 end
 arch grass
-x 21
+x 23
 y 31
 end
 arch swall_2_2_4
-x 21
+x 23
 y 31
 end
 arch grass_only
-x 21
+x 23
 y 32
 end
 arch cobblestones2
-x 21
+x 23
 y 33
 end
 arch cobblestones2
-x 22
+x 24
 end
 arch grass_only
-x 22
+x 24
 y 1
 end
 arch grass_only
-x 22
+x 24
 y 2
 end
 arch grass_only
-x 22
+x 24
 y 3
 end
 arch grass_only
-x 22
+x 24
 y 4
 end
 arch grass_only
-x 22
+x 24
 y 5
 end
 arch grass_only
-x 22
+x 24
 y 6
 end
 arch grass_only
-x 22
+x 24
 y 7
 end
 arch grass_only
-x 22
+x 24
 y 8
 end
 arch grass_only
-x 22
+x 24
 y 9
 end
 arch grass_only
-x 22
+x 24
 y 10
 end
 arch grass_only
-x 22
+x 24
 y 11
 end
 arch grass_only
-x 22
+x 24
 y 12
 end
 arch grass_only
-x 22
+x 24
 y 13
 end
 arch grass_only
-x 22
+x 24
 y 14
 end
 arch grass_only
-x 22
+x 24
 y 15
 end
 arch grass_only
-x 22
+x 24
 y 16
 end
 arch grass_only
-x 22
+x 24
 y 17
 end
 arch grass_only
-x 22
+x 24
 y 18
 end
 arch grass_only
-x 22
+x 24
 y 19
 end
 arch grass_only
-x 22
+x 24
 y 20
 end
 arch grass_only
-x 22
+x 24
 y 21
 end
 arch grass_only
-x 22
+x 24
 y 22
 end
 arch grass_only
-x 22
+x 24
 y 23
 end
 arch grass_only
-x 22
+x 24
 y 24
 end
 arch grass_only
-x 22
+x 24
 y 25
 end
 arch grass_only
-x 22
+x 24
 y 26
 end
 arch grass_only
-x 22
+x 24
 y 27
 end
 arch grass_only
-x 22
+x 24
 y 28
 end
 arch grass_only
-x 22
+x 24
 y 29
 end
 arch grass_only
-x 22
+x 24
 y 30
 end
 arch grass_only
-x 22
+x 24
 y 31
 end
 arch grass_only
-x 22
+x 24
 y 32
 end
 arch cobblestones2
-x 22
+x 24
 y 33
 end
 arch cobblestones2
-x 23
+x 25
 end
 arch grass_only
-x 23
+x 25
 y 1
 end
 arch grass_only
-x 23
+x 25
 y 2
 end
 arch grass_only
-x 23
+x 25
 y 3
 end
 arch grass_only
-x 23
+x 25
 y 4
 end
 arch grass_only
-x 23
+x 25
 y 5
 end
 arch grass_only
-x 23
+x 25
 y 6
 end
 arch grass_only
-x 23
+x 25
 y 7
 end
 arch grass_only
-x 23
+x 25
 y 8
 end
 arch grass_only
-x 23
+x 25
 y 9
 end
 arch grass_only
-x 23
+x 25
 y 10
 end
 arch grass_only
-x 23
+x 25
 y 11
 end
 arch grass_only
-x 23
+x 25
 y 12
 end
 arch grass_only
-x 23
+x 25
 y 13
 end
 arch grass_only
-x 23
+x 25
 y 14
 end
 arch grass_only
-x 23
+x 25
 y 15
 end
 arch grass_only
-x 23
+x 25
 y 16
 end
 arch grass_only
-x 23
+x 25
 y 17
 end
 arch grass_only
-x 23
+x 25
 y 18
 end
 arch grass_only
-x 23
+x 25
 y 19
 end
 arch grass_only
-x 23
+x 25
 y 20
 end
 arch grass_only
-x 23
+x 25
 y 21
 end
 arch grass_only
-x 23
+x 25
 y 22
 end
 arch grass_only
-x 23
+x 25
 y 23
 end
 arch grass_only
-x 23
+x 25
 y 24
 end
 arch grass_only
-x 23
+x 25
 y 25
 end
 arch grass_only
-x 23
+x 25
 y 26
 end
 arch grass_only
-x 23
+x 25
 y 27
 end
 arch grass_only
-x 23
+x 25
 y 28
 end
 arch grass_only
-x 23
+x 25
 y 29
 end
 arch grass_only
-x 23
+x 25
 y 30
 end
 arch grass_only
-x 23
+x 25
 y 31
 end
 arch grass_only
-x 23
+x 25
 y 32
 end
 arch cobblestones2
-x 23
+x 25
 y 33
 end
