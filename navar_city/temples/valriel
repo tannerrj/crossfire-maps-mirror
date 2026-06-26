@@ -2071,16 +2071,19 @@ arch westcwall_2_1_2
 x 11
 y 5
 end
-arch woodfloorvert
+arch beige-white-c-marble_111
 x 11
 y 6
 end
-arch gravestone2
-name Son of Valriel
+arch slevel_3_2
 x 11
 y 6
 end
-arch woodfloorvert
+arch beige-white-c-marble_112
+x 11
+y 7
+end
+arch slevel_2_2_1
 x 11
 y 7
 end
@@ -2236,11 +2239,24 @@ arch westcwall_2_1_2
 x 12
 y 5
 end
-arch woodfloorvert
+arch marble
 x 12
 y 6
 end
-arch woodfloorvert
+arch slevel_4
+x 12
+y 6
+end
+arch gravestone2
+name Son of Valriel
+x 12
+y 6
+end
+arch marble
+x 12
+y 7
+end
+arch slevel_3_1
 x 12
 y 7
 end
@@ -2391,11 +2407,19 @@ arch westcwall_2_1_2
 x 13
 y 5
 end
-arch woodfloorvert
+arch beige-white-c-marble_114
 x 13
 y 6
 end
-arch woodfloorvert
+arch slevel_3_4
+x 13
+y 6
+end
+arch beige-white-c-marble_113
+x 13
+y 7
+end
+arch slevel_2_2_4
 x 13
 y 7
 end
