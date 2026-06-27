@@ -9,7 +9,7 @@ enter_x 3
 enter_y 18
 msg
 Created:  2003-11 Avion
-Modified: 2025-08-17 Rick Tanner
+Modified: 2026-06-25 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -317,7 +317,7 @@ arch flagstone
 x 3
 y 4
 end
-arch flagstone
+arch shallow_sea
 x 3
 y 5
 end
@@ -399,15 +399,15 @@ arch flagstone
 x 4
 y 2
 end
-arch flagstone
+arch shallow_sea
 x 4
 y 3
 end
-arch flagstone
+arch shallow_sea
 x 4
 y 4
 end
-arch flagstone
+arch shallow_sea
 x 4
 y 5
 end
@@ -489,11 +489,20 @@ arch flagstone
 x 5
 y 2
 end
-arch flagstone
+arch shallow_sea
 x 5
 y 3
 end
 arch flagstone
+x 5
+y 4
+end
+arch altar_ixalovh
+x 5
+y 4
+level 120
+end
+arch light4
 x 5
 y 4
 end
@@ -580,7 +589,7 @@ arch flagstone
 x 6
 y 2
 end
-arch flagstone
+arch shallow_sea
 x 6
 y 3
 end
@@ -667,7 +676,7 @@ arch flagstone
 x 7
 y 2
 end
-arch flagstone
+arch shallow_sea
 x 7
 y 3
 end
@@ -762,7 +771,7 @@ arch flagstone
 x 8
 y 2
 end
-arch flagstone
+arch shallow_sea
 x 8
 y 3
 end
