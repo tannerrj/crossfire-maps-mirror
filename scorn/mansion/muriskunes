@@ -8,7 +8,8 @@ height 48
 enter_x 15
 enter_y 46
 msg
-Modified: 2026-03-23 Rick Tanner
+Created: 1994-12-28 Morten Hanshugen
+Modified: 2026-07-02 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -3076,10 +3077,10 @@ x 11
 y 1
 end
 arch generate_ghost
+generator_limit 50
 x 11
 y 1
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 11
@@ -3090,10 +3091,10 @@ x 11
 y 3
 end
 arch generate_skeleton
+generator_limit 50
 x 11
 y 3
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 11
@@ -3120,10 +3121,10 @@ x 11
 y 8
 end
 arch generate_ghost
+generator_limit 50
 x 11
 y 8
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 11
@@ -3413,10 +3414,10 @@ x 12
 y 1
 end
 arch generate_ghost
+generator_limit 50
 x 12
 y 1
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 12
@@ -3455,10 +3456,10 @@ x 12
 y 8
 end
 arch generate_ghost
+generator_limit 50
 x 12
 y 8
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 12
@@ -4917,10 +4918,10 @@ x 17
 y 1
 end
 arch generate_vampire
+generator_limit 50
 x 17
 y 1
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 17
@@ -6581,10 +6582,10 @@ x 22
 y 1
 end
 arch generate_ghost
+generator_limit 50
 x 22
 y 1
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 22
@@ -6619,10 +6620,10 @@ x 22
 y 8
 end
 arch generate_ghost
+generator_limit 50
 x 22
 y 8
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 22
@@ -6884,10 +6885,10 @@ x 23
 y 1
 end
 arch generate_ghost
+generator_limit 50
 x 23
 y 1
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 23
@@ -6898,10 +6899,10 @@ x 23
 y 3
 end
 arch generate_skeleton
+generator_limit 50
 x 23
 y 3
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 23
@@ -6928,10 +6929,10 @@ x 23
 y 8
 end
 arch generate_ghost
+generator_limit 50
 x 23
 y 8
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 23
@@ -7472,20 +7473,20 @@ x 25
 y 4
 end
 arch generate_skull
+generator_limit 50
 x 25
 y 4
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 25
 y 5
 end
 arch generate_skull
+generator_limit 50
 x 25
 y 5
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 25
