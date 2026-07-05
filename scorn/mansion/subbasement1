@@ -5,9 +5,11 @@ region scorn
 darkness 4
 width 18
 height 30
+enter_x 4
+enter_y 28
 msg
 Created:  2010-08-15 chris
-Modified: 2026-03-23 Rick Tanner
+Modified: 2026-07-05 Rick Tanner
 endmsg
 reset_group scorn_scorn-mansion
 end
@@ -544,10 +546,10 @@ x 1
 y 28
 end
 arch generate_scorpion
+generator_limit 25
 x 1
 y 28
 type 0
-generator_limit 25
 end
 arch dirtfloor
 x 1
@@ -1003,10 +1005,10 @@ x 3
 y 21
 end
 arch generate_scorpion
+generator_limit 25
 x 3
 y 21
 type 0
-generator_limit 25
 end
 arch dirtfloor
 x 3
@@ -1180,11 +1182,11 @@ x 4
 y 16
 end
 arch generate_devil
+generator_limit 50
 maxsp 4
 x 4
 y 16
 type 0
-generator_limit 50
 end
 arch dirtfloor
 x 4
@@ -1324,6 +1326,7 @@ x 5
 y 6
 end
 arch generate_ghost
+generator_limit 1000
 hp 250
 maxhp 250
 maxsp 2
@@ -1353,7 +1356,6 @@ resist_chaos 50
 resist_godpower 50
 resist_holyword 50
 resist_blind 100
-generator_limit 1000
 end
 arch unholy_ground
 x 5
@@ -1562,10 +1564,10 @@ x 6
 y 1
 end
 arch spider_gen
+generator_limit 10
 x 6
 y 1
 type 0
-generator_limit 10
 end
 arch unholy_ground
 x 6
@@ -1729,10 +1731,10 @@ x 6
 y 14
 end
 arch generate_skull
+generator_limit 15
 x 6
 y 14
 type 0
-generator_limit 15
 end
 arch angry_floor
 x 6
@@ -1886,10 +1888,10 @@ x 6
 y 28
 end
 arch generate_ghost
+generator_limit 75
 x 6
 y 28
 type 0
-generator_limit 75
 end
 arch blackslate
 x 6
@@ -1914,10 +1916,10 @@ x 7
 y 1
 end
 arch spider_gen
+generator_limit 10
 x 7
 y 1
 type 0
-generator_limit 10
 end
 arch unholy_ground
 x 7
@@ -2241,10 +2243,10 @@ x 8
 y 1
 end
 arch spider_gen
+generator_limit 10
 x 8
 y 1
 type 0
-generator_limit 10
 end
 arch blackslate
 x 8
@@ -2688,10 +2690,10 @@ x 9
 y 1
 end
 arch spider_gen
+generator_limit 10
 x 9
 y 1
 type 0
-generator_limit 10
 end
 arch unholy_ground
 x 9
@@ -3007,10 +3009,10 @@ x 10
 y 1
 end
 arch spider_gen
+generator_limit 10
 x 10
 y 1
 type 0
-generator_limit 10
 end
 arch unholy_ground
 x 10
@@ -3129,10 +3131,10 @@ x 10
 y 14
 end
 arch generate_skull
+generator_limit 15
 x 10
 y 14
 type 0
-generator_limit 15
 end
 arch angry_floor
 x 10
@@ -3250,10 +3252,10 @@ x 10
 y 24
 end
 arch generate_ghost
+generator_limit 75
 x 10
 y 24
 type 0
-generator_limit 75
 end
 arch unholy_ground
 x 10
@@ -3296,10 +3298,10 @@ x 10
 y 28
 end
 arch generate_ghost
+generator_limit 75
 x 10
 y 28
 type 0
-generator_limit 75
 end
 arch blackslate
 x 10
@@ -4019,10 +4021,10 @@ x 13
 y 28
 end
 arch generate_ghost
+generator_limit 75
 x 13
 y 28
 type 0
-generator_limit 75
 end
 arch redslate
 x 13
@@ -4608,10 +4610,10 @@ x 15
 y 28
 end
 arch generate_ghost
+generator_limit 75
 x 15
 y 28
 type 0
-generator_limit 75
 end
 arch redslate
 x 15
@@ -4705,6 +4707,7 @@ x 16
 y 16
 end
 arch generate_dragon
+generator_limit 25
 exp 1500
 x 16
 y 16
@@ -4712,7 +4715,6 @@ type 0
 resist_magic 50
 reflect_missile 1
 reflect_spell 1
-generator_limit 25
 end
 arch dungeon_magic
 x 16
