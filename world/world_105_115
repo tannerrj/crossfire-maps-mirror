@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2026-04-05 Kevin Zheng
+Modified: 2026-07-05 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -6817,7 +6817,7 @@ x 15
 y 28
 elevation 213
 end
-arch bungalow
+arch cwall_2_2_2
 x 15
 y 28
 end
@@ -6830,7 +6830,10 @@ x 15
 y 29
 elevation 108
 end
-arch house_long
+arch guard_house_1
+slaying ../scorn/misc/josephs_gate_house
+hp 1
+sp 10
 x 15
 y 29
 end
@@ -6843,7 +6846,7 @@ x 15
 y 30
 elevation 7
 end
-arch cwall_2_1_2
+arch cwall_3_1
 x 15
 y 30
 end
@@ -7286,10 +7289,6 @@ x 16
 y 27
 elevation 13
 end
-arch tavern
-x 16
-y 27
-end
 arch dungeon_magic
 x 16
 y 28
@@ -7298,6 +7297,10 @@ arch cobblestones2
 x 16
 y 28
 elevation 7
+end
+arch cwall_2_2_3
+x 16
+y 28
 end
 arch dungeon_magic
 x 16
@@ -7308,6 +7311,10 @@ x 16
 y 29
 elevation 8
 end
+arch guard_house_2
+x 16
+y 29
+end
 arch dungeon_magic
 x 16
 y 30
@@ -7317,7 +7324,7 @@ x 16
 y 30
 elevation 9
 end
-arch cwall_2_1_2
+arch cwall_3_1
 x 16
 y 30
 end
@@ -7735,6 +7742,18 @@ arch sea
 x 17
 y 29
 elevation -56
+end
+arch pier_2_1_2
+x 17
+y 29
+end
+arch exit
+slaying ../scorn/misc/josephs_gate_house
+hp 21
+sp 10
+x 17
+y 29
+invisible 1
 end
 arch dungeon_magic
 x 17
@@ -8182,7 +8201,7 @@ x 18
 y 29
 elevation -73
 end
-arch pier_2_2_1
+arch pier_3_1
 x 18
 y 29
 end
