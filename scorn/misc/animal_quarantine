@@ -7,8 +7,8 @@ height 40
 enter_x 19
 enter_y 36
 msg
-Created: 1993-10-15
-Modified: 2026-05-17 Rick Tanner
+Created: 1993-10-15 Tyler Van Gorder
+Modified: 2026-07-06 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -3965,6 +3965,7 @@ x 17
 y 39
 end
 arch exit
+client_anim_random 0
 slaying /world/world_105_115
 face cobblesto1.111
 hp 10
@@ -3972,7 +3973,6 @@ sp 26
 x 17
 y 39
 is_animated 0
-client_anim_random 0
 end
 arch stonefloor2
 x 18
@@ -4181,6 +4181,7 @@ x 18
 y 39
 end
 arch exit
+client_anim_random 0
 slaying /world/world_105_115
 face cobblesto1.111
 hp 10
@@ -4188,7 +4189,6 @@ sp 26
 x 18
 y 39
 is_animated 0
-client_anim_random 0
 end
 arch stonefloor2
 x 19
@@ -4386,6 +4386,7 @@ x 19
 y 39
 end
 arch exit
+client_anim_random 0
 slaying /world/world_105_115
 face cobblesto1.111
 hp 10
@@ -4393,7 +4394,6 @@ sp 26
 x 19
 y 39
 is_animated 0
-client_anim_random 0
 end
 arch stonefloor2
 x 20
@@ -4590,6 +4590,7 @@ x 20
 y 39
 end
 arch exit
+client_anim_random 0
 slaying /world/world_105_115
 face cobblesto1.111
 hp 10
@@ -4597,7 +4598,6 @@ sp 26
 x 20
 y 39
 is_animated 0
-client_anim_random 0
 end
 arch stonefloor2
 x 21
