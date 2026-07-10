@@ -7,8 +7,8 @@ height 47
 enter_x 38
 enter_y 6
 msg
-Created:  1993-10-07 skud the great (tvangod@ecst.csuchico.edu)
-Modified: 2026-01-06 Rick Tanner
+Created:  1993-10-07 Tyler Van Gorder
+Modified: 2026-07-10 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -12168,6 +12168,7 @@ x 39
 y 5
 end
 arch exit
+client_anim_random 0
 name dirt exit
 slaying /world/world_105_115
 face dung_floor.111
@@ -12176,7 +12177,6 @@ sp 26
 x 39
 y 6
 is_animated 0
-client_anim_random 0
 end
 arch dungeon_floor
 x 39
