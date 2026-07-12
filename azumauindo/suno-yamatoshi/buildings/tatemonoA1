@@ -9,7 +9,7 @@ enter_x 28
 enter_y 53
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2024-07-21 Rick Tanner
+Modified: 2026-07-12 Rick Tanner
 endmsg
 outdoor 1
 reset_group azumauindo_akuma-tatemono
@@ -22445,6 +22445,10 @@ arch woodfloor
 x 37
 y 15
 end
+arch fire_witch
+x 37
+y 15
+end
 arch woodfloor2
 name woodfloor
 x 37
@@ -27797,10 +27801,6 @@ arch woodfloor
 x 48
 y 20
 end
-arch byakie
-x 48
-y 20
-end
 arch woodfloor
 x 48
 y 21
@@ -28233,6 +28233,10 @@ y 20
 end
 arch woodfloor2
 name woodfloor
+x 49
+y 21
+end
+arch byakie
 x 49
 y 21
 end
@@ -29977,10 +29981,6 @@ y 12
 end
 arch woodfloor2
 name woodfloor
-x 53
-y 13
-end
-arch fire_witch
 x 53
 y 13
 end
