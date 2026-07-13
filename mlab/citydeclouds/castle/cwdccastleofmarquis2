@@ -9,7 +9,7 @@ enter_x 42
 enter_y 8
 msg
 Created:  2004-08-03 Mikeeusa
-Modified: 2022-08-10 Rick Tanner
+Modified: 2026-07-13 Rick Tanner
 endmsg
 outdoor 1
 reset_group citydeclouds_castle-de-clouds
@@ -2440,33 +2440,31 @@ end
 arch dungeon_floor
 x 7
 y 29
+move_block all
 end
-arch altar_none
-name stove
-face altarrugg.111
+arch stove
 x 7
 y 29
-move_block all
 end
 arch dungeon_floor
 x 7
 y 30
+move_block all
 end
-arch altar_none
+arch stove
 name grill
 x 7
 y 30
-move_block all
 end
 arch dungeon_floor
 x 7
 y 31
+move_block all
 end
-arch altar_none
+arch stove
 name grill
 x 7
 y 31
-move_block all
 end
 arch dungeon_floor
 x 7
