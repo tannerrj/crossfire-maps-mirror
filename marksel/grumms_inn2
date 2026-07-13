@@ -8,7 +8,7 @@ enter_x 20
 enter_y 3
 msg
 Created:  2002-10-27 Todd Mitchell
-Modified: 2022-07-22 Rick Tanner
+Modified: 2026-07-13 Rick Tanner
 endmsg
 reset_group marksel_grumms-inn
 end
@@ -966,113 +966,118 @@ arch woodfloor2
 x 14
 y 1
 end
-arch woodfloor2
-x 14
-y 2
-end
-arch woodfloor2
-x 14
-y 3
-end
-arch woodfloor2
-x 14
-y 4
-end
-arch woodfloor2
-x 14
-y 5
-end
-arch woodfloor2
-x 14
-y 6
-end
-arch woodfloor2
-x 14
-y 7
-end
-arch table
-x 14
-y 7
-end
-arch woodfloor2
-x 14
-y 8
-end
-arch table
-x 14
-y 8
-end
-arch woodfloor2
-x 14
-y 9
-end
-arch woodwall_2_1_2
-x 14
-y 9
-end
-arch woodfloor2
-x 15
-end
-arch woodwall_2_1_2
-x 15
-end
-arch woodfloor2
-x 15
-y 1
-end
-arch woodfloor2
-x 15
-y 2
-end
-arch woodfloor2
-x 15
-y 3
-end
-arch woodfloor2
-x 15
-y 4
-end
-arch woodfloor2
-x 15
-y 5
-end
-arch woodfloor2
-x 15
-y 6
-end
-arch woodfloor2
-x 15
-y 7
-end
-arch woodfloor2
-x 15
-y 8
-end
-arch table
-x 15
-y 8
-end
-arch woodfloor2
-x 15
-y 9
-end
-arch woodwall_2_1_2
-x 15
-y 9
-end
-arch woodfloor2
-x 16
-end
-arch woodwall_2_1_2
-x 16
-end
-arch woodfloor2
-x 16
-y 1
-end
 arch firepot
+x 14
+y 1
+end
+arch woodfloor2
+x 14
+y 2
+end
+arch woodfloor2
+x 14
+y 3
+end
+arch woodfloor2
+x 14
+y 4
+end
+arch woodfloor2
+x 14
+y 5
+end
+arch woodfloor2
+x 14
+y 6
+end
+arch woodfloor2
+x 14
+y 7
+end
+arch table
+x 14
+y 7
+end
+arch woodfloor2
+x 14
+y 8
+end
+arch table
+x 14
+y 8
+end
+arch woodfloor2
+x 14
+y 9
+end
+arch woodwall_2_1_2
+x 14
+y 9
+end
+arch woodfloor2
+x 15
+end
+arch woodwall_2_1_2
+x 15
+end
+arch woodfloor2
+x 15
+y 1
+end
+arch woodfloor2
+x 15
+y 2
+end
+arch woodfloor2
+x 15
+y 3
+end
+arch woodfloor2
+x 15
+y 4
+end
+arch woodfloor2
+x 15
+y 5
+end
+arch woodfloor2
+x 15
+y 6
+end
+arch woodfloor2
+x 15
+y 7
+end
+arch woodfloor2
+x 15
+y 8
+end
+arch table
+x 15
+y 8
+end
+arch woodfloor2
+x 15
+y 9
+end
+arch woodwall_2_1_2
+x 15
+y 9
+end
+arch woodfloor2
+x 16
+end
+arch woodwall_2_1_2
+x 16
+end
+arch woodfloor2
 x 16
 y 1
+end
+arch altar_mostrai
+x 16
+y 1
+level 120
 end
 arch woodfloor2
 x 16
@@ -1132,11 +1137,6 @@ arch woodfloor2
 x 17
 y 1
 end
-arch altar_mostrai
-x 17
-y 1
-level 120
-end
 arch woodfloor2
 x 17
 y 2
@@ -1191,9 +1191,10 @@ arch woodfloor2
 x 18
 y 1
 end
-arch firepot
+arch altar_mostrai
 x 18
 y 1
+level 120
 end
 arch woodfloor2
 x 18
@@ -1312,6 +1313,10 @@ arch woodwall_2_1_2
 x 20
 end
 arch woodfloor2
+x 20
+y 1
+end
+arch firepot
 x 20
 y 1
 end
