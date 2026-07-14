@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-08-28 mikeeusa
-Modified: 2011-11-05 Rick Tanner
+Modified: 2026-07-14 Rick Tanner
 endmsg
 outdoor 1
 tile_path_2 citydeclouds2G
@@ -7226,6 +7226,10 @@ arch dungeon_floor
 x 28
 y 22
 end
+arch brazier
+x 28
+y 22
+end
 arch dungeon_floor
 x 28
 y 23
@@ -7713,7 +7717,7 @@ arch dungeon_floor
 x 29
 y 22
 end
-arch brazier
+arch altar_lythander
 x 29
 y 22
 end
@@ -8158,10 +8162,6 @@ arch dungeon_floor
 x 30
 y 22
 end
-arch altar_lythander
-x 30
-y 22
-end
 arch dungeon_floor
 x 30
 y 23
@@ -8556,7 +8556,7 @@ arch dungeon_floor
 x 31
 y 22
 end
-arch brazier
+arch altar_lythander
 x 31
 y 22
 end
@@ -8998,6 +8998,10 @@ x 32
 y 21
 end
 arch dungeon_floor
+x 32
+y 22
+end
+arch brazier
 x 32
 y 22
 end
