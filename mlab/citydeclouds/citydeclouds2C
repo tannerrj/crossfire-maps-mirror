@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created: 2002-08-28 mikeeusa
-Modified: 2023-06-06 Rick Tanner
+Modified: 2026-07-13 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 citydeclouds2B
@@ -1641,6 +1641,7 @@ end
 arch dragon_steak
 x 4
 y 11
+level 1
 end
 arch dungeon_floor
 x 4
@@ -2000,6 +2001,7 @@ end
 arch dragon_steak
 x 5
 y 11
+level 1
 end
 arch dungeon_floor
 x 5
@@ -2112,6 +2114,7 @@ end
 arch dragon_steak
 x 5
 y 21
+level 1
 end
 arch dungeon_floor
 x 5
