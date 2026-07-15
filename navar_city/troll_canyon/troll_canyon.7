@@ -8,7 +8,7 @@ enter_x 19
 enter_y 2
 msg
 Created:  2007-02-03 Brad Reilly
-Modified: 2022-07-24 Rick Tanner
+Modified: 2026-07-15 Rick Tanner
 endmsg
 tile_path_1 troll_canyon.4
 tile_path_2 troll_canyon.6
@@ -1000,9 +1000,34 @@ arch pstone_2
 x 9
 y 17
 end
-arch pstone_1
+arch pstone_2
 x 9
 y 18
+end
+arch altar_gnarg
+x 9
+y 18
+level 120
+end
+arch big_club
+identified_name Large Club
+name strange club
+name_pl Large Clubs
+title of Troll Canyon
+sp -1
+dam 35
+x 9
+y 18
+attacktype 1025
+resist_magic 10
+material 2064
+value 200
+weight 45000
+magic 2
+arch quest_advance_pickup
+name quests/TrollCanyon 0-30>40
+unique 1
+end
 end
 arch pstone_1
 x 9
@@ -1121,31 +1146,6 @@ end
 arch pstone_2
 x 10
 y 18
-end
-arch altar_gnarg
-x 10
-y 18
-level 120
-end
-arch big_club
-name strange club
-name_pl Large Clubs
-title of Troll Canyon
-sp -1
-dam 35
-x 10
-y 18
-attacktype 1025
-resist_magic 10
-material 2064
-value 200
-weight 45000
-magic 2
-identified_name Large Club
-arch quest_advance_pickup
-name quests/TrollCanyon 0-30>40
-unique 1
-end
 end
 arch pstone_2
 x 10
@@ -1328,6 +1328,11 @@ end
 arch pstone_2
 x 12
 y 18
+end
+arch altar_gnarg
+x 12
+y 18
+level 120
 end
 arch pstone_2
 x 12
