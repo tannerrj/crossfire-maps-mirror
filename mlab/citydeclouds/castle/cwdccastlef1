@@ -9,7 +9,7 @@ enter_x 50
 enter_y 97
 msg
 Created: 2004-08-03 Mikeeusa
-Modified: 2023-06-06 Rick Tanner
+Modified: 2026-07-14 Rick Tanner
 endmsg
 outdoor 1
 reset_group citydeclouds_castle-de-clouds
@@ -71337,7 +71337,15 @@ arch grass
 x 76
 y 49
 end
+arch grass
+x 76
+y 49
+end
 arch flagstone
+x 76
+y 49
+end
+arch altar_lythander
 x 76
 y 49
 end
@@ -72007,10 +72015,6 @@ x 77
 y 49
 end
 arch flagstone
-x 77
-y 49
-end
-arch altar_lythander
 x 77
 y 49
 end
@@ -72751,7 +72755,15 @@ arch grass
 x 78
 y 49
 end
+arch grass
+x 78
+y 49
+end
 arch flagstone
+x 78
+y 49
+end
+arch altar_lythander
 x 78
 y 49
 end
