@@ -9,7 +9,7 @@ enter_x 16
 enter_y 15
 msg
 Created:  2004-02-26 mikeeusa
-Modified: 2011-11-12 Rick Tanner
+Modified: 2026-07-15 Rick Tanner
 endmsg
 end
 arch blocked
@@ -3778,13 +3778,11 @@ arch woodfloor2
 name woodfloor
 x 15
 y 6
+move_block all
 end
-arch altar_none
-name stove
-face altarrugg.111
+arch stove
 x 15
 y 6
-move_block all
 end
 arch woodfloor2
 name woodfloor
