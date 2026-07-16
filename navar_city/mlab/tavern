@@ -9,7 +9,7 @@ enter_x 25
 enter_y 1
 msg
 Created: 2002-02-18 Mikeeusa
-Modified: 2025-06-09 Rick Tanner
+Modified: 2026-07-16 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -3950,6 +3950,10 @@ arch marble
 x 7
 y 49
 end
+arch altar_valriel
+x 7
+y 49
+end
 arch marble
 x 7
 y 50
@@ -4475,10 +4479,6 @@ x 8
 y 48
 end
 arch marble
-x 8
-y 49
-end
-arch altar_valriel
 x 8
 y 49
 end
@@ -5057,6 +5057,10 @@ x 9
 y 48
 end
 arch marble
+x 9
+y 49
+end
+arch altar_valriel
 x 9
 y 49
 end
@@ -29005,12 +29009,12 @@ x 55
 y 12
 end
 arch card
+iname_pl playing cards
 name playing card
 name_pl playing cards
 x 55
 y 12
 value 10
-iname_pl playing cards
 end
 arch woodfloor
 x 55
