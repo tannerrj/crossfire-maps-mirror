@@ -22934,6 +22934,14 @@ arch dirtfloor
 x 43
 y 58
 end
+arch torch_1
+food 0
+x 43
+y 58
+material 0
+no_pick 1
+changing 0
+end
 arch dirtfloor
 x 43
 y 59
@@ -23475,6 +23483,10 @@ arch dirtfloor
 x 44
 y 58
 end
+arch altar_sorig
+x 44
+y 58
+end
 arch dirtfloor
 x 44
 y 59
@@ -23999,14 +24011,6 @@ end
 arch dirtfloor
 x 45
 y 58
-end
-arch torch_1
-food 0
-x 45
-y 58
-material 0
-no_pick 1
-changing 0
 end
 arch dirtfloor
 x 45
