@@ -18196,23 +18196,13 @@ arch blackmarble
 x 34
 y 7
 end
-arch brazier
+arch altar_gorokh
 x 34
 y 7
-value 200
-weight 100000
-move_block 0
-no_pick 0
 end
 arch blackmarble
 x 34
 y 8
-end
-arch devil
-name demon priest of Gorokh
-x 34
-y 8
-unaggressive 1
 end
 arch dungeon_floor
 x 34
@@ -18221,6 +18211,12 @@ end
 arch dungeon_floor
 x 34
 y 10
+end
+arch devil
+name demon priest of Gorokh
+x 34
+y 10
+unaggressive 1
 end
 arch dungeon_floor
 x 34
@@ -18654,6 +18650,14 @@ end
 arch dungeon_floor
 x 35
 y 8
+end
+arch brazier
+x 35
+y 8
+value 200
+weight 100000
+move_block 0
+no_pick 0
 end
 arch dungeon_floor
 x 35
