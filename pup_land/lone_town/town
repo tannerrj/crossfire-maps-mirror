@@ -8,7 +8,7 @@ enter_x 5
 enter_y 18
 msg
 Created:  1996-02-25
-Modified: 2024-03-16 Kevin Zheng
+Modified: 2026-07-16 Rick Tanner
 endmsg
 outdoor 1
 background_music lonetown
@@ -246,7 +246,7 @@ arch s_shop2
 name Lone Town's Ye Olde Shoppe of Transport
 slaying /pup_land/lone_town/shops/transport.shoppe
 hp 17
-sp 20
+sp 24
 x 1
 y 15
 end

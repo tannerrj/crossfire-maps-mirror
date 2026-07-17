@@ -7,12 +7,12 @@ shopitems amulet:95;ring:90;potion:90;book:85;scroll:90;spellbook:90;skillscroll
 shopmin 50
 shopmax 2000000
 width 25
-height 25
+height 29
 enter_x 17
-enter_y 20
+enter_y 24
 msg
 Created: 2007-04-08 Gene Alexander
-Modified: 2025-08-05 Rick Tanner
+Modified: 2026-07-16 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -165,6 +165,30 @@ arch dwall_2_1_1
 y 24
 end
 arch grass
+y 25
+end
+arch dwall_2_1_1
+y 25
+end
+arch grass
+y 26
+end
+arch dwall_2_1_1
+y 26
+end
+arch grass
+y 27
+end
+arch dwall_2_1_1
+y 27
+end
+arch grass
+y 28
+end
+arch dwall_2_1_1
+y 28
+end
+arch grass
 x 1
 end
 arch grass
@@ -262,6 +286,22 @@ end
 arch grass
 x 1
 y 24
+end
+arch grass
+x 1
+y 25
+end
+arch grass
+x 1
+y 26
+end
+arch grass
+x 1
+y 27
+end
+arch grass
+x 1
+y 28
 end
 arch grass
 x 2
@@ -463,17 +503,49 @@ arch woodfloor2
 x 2
 y 22
 end
-arch bwall_2_2_1
+arch bwall_2_1_1
 x 2
 y 22
 end
-arch grass
+arch woodfloor2
 x 2
 y 23
 end
-arch grass
+arch bwall_2_1_1
+x 2
+y 23
+end
+arch woodfloor2
 x 2
 y 24
+end
+arch bwall_2_1_1
+x 2
+y 24
+end
+arch woodfloor2
+x 2
+y 25
+end
+arch bwall_2_1_1
+x 2
+y 25
+end
+arch woodfloor2
+x 2
+y 26
+end
+arch bwall_2_2_1
+x 2
+y 26
+end
+arch grass
+x 2
+y 27
+end
+arch grass
+x 2
+y 28
 end
 arch grass
 x 3
@@ -654,21 +726,62 @@ arch shop_gems
 x 3
 y 21
 end
+arch dungeon_magic
+x 3
+y 22
+end
 arch woodfloor2
 x 3
 y 22
 end
-arch bwall_2_1_2
+arch swall_2_1_2
 x 3
 y 22
 end
-arch grass
+arch dungeon_magic
 x 3
 y 23
 end
-arch grass
+arch woodfloor2
+x 3
+y 23
+end
+arch dungeon_magic
 x 3
 y 24
+end
+arch woodfloor2
+x 3
+y 24
+end
+arch dungeon_magic
+x 3
+y 25
+end
+arch woodfloor2
+x 3
+y 25
+end
+arch altar_devourers
+x 3
+y 25
+level 120
+end
+arch woodfloor2
+x 3
+y 26
+end
+arch bwall_2_1_2
+x 3
+y 26
+end
+arch grass
+x 3
+y 27
+end
+arch grass
+x 3
+y 28
 end
 arch grass
 x 4
@@ -854,21 +967,62 @@ arch shop_ring
 x 4
 y 21
 end
+arch dungeon_magic
+x 4
+y 22
+end
 arch woodfloor2
 x 4
 y 22
 end
-arch bwall_2_1_2
+arch swall_2_1_2
 x 4
 y 22
 end
-arch grass
+arch dungeon_magic
 x 4
 y 23
 end
-arch grass
+arch woodfloor2
+x 4
+y 23
+end
+arch dungeon_magic
 x 4
 y 24
+end
+arch woodfloor2
+x 4
+y 24
+end
+arch dungeon_magic
+x 4
+y 25
+end
+arch woodfloor2
+x 4
+y 25
+end
+arch altar_gaea
+x 4
+y 25
+level 120
+end
+arch woodfloor2
+x 4
+y 26
+end
+arch bwall_2_1_2
+x 4
+y 26
+end
+arch grass
+x 4
+y 27
+end
+arch grass
+x 4
+y 28
 end
 arch grass
 x 5
@@ -1044,26 +1198,71 @@ arch shop_gems
 x 5
 y 21
 end
+arch dungeon_magic
+x 5
+y 22
+end
 arch woodfloor2
 x 5
 y 22
 end
-arch swall_1_4
-name barred window
+arch swall_2_1_2
 x 5
 y 22
 end
-arch bwall_1_3
-x 5
-y 22
-end
-arch grass
+arch dungeon_magic
 x 5
 y 23
 end
-arch grass
+arch woodfloor2
+x 5
+y 23
+end
+arch light4
 x 5
 y 24
+end
+arch dungeon_magic
+x 5
+y 24
+end
+arch woodfloor2
+x 5
+y 24
+end
+arch dungeon_magic
+x 5
+y 25
+end
+arch woodfloor2
+x 5
+y 25
+end
+arch altar_gnarg
+x 5
+y 25
+level 120
+end
+arch woodfloor2
+x 5
+y 26
+end
+arch swall_1_4
+name barred window
+x 5
+y 26
+end
+arch bwall_1_3
+x 5
+y 26
+end
+arch grass
+x 5
+y 27
+end
+arch grass
+x 5
+y 28
 end
 arch grass
 x 6
@@ -1218,17 +1417,58 @@ x 6
 y 22
 end
 arch swall_2_1_2
-name barred window
 x 6
 y 22
 end
-arch grass
+arch dungeon_magic
 x 6
 y 23
 end
-arch grass
+arch woodfloor2
+x 6
+y 23
+end
+arch dungeon_magic
 x 6
 y 24
+end
+arch woodfloor2
+x 6
+y 24
+end
+arch dungeon_magic
+x 6
+y 25
+end
+arch woodfloor2
+x 6
+y 25
+end
+arch altar_gorokh
+x 6
+y 25
+level 120
+end
+arch dungeon_magic
+x 6
+y 26
+end
+arch woodfloor2
+x 6
+y 26
+end
+arch swall_2_1_2
+name barred window
+x 6
+y 26
+end
+arch grass
+x 6
+y 27
+end
+arch grass
+x 6
+y 28
 end
 arch grass
 x 7
@@ -1406,17 +1646,58 @@ x 7
 y 22
 end
 arch swall_2_1_2
-name barred window
 x 7
 y 22
 end
-arch grass
+arch dungeon_magic
 x 7
 y 23
 end
-arch grass
+arch woodfloor2
+x 7
+y 23
+end
+arch dungeon_magic
 x 7
 y 24
+end
+arch woodfloor2
+x 7
+y 24
+end
+arch dungeon_magic
+x 7
+y 25
+end
+arch woodfloor2
+x 7
+y 25
+end
+arch altar_ixalovh
+x 7
+y 25
+level 120
+end
+arch dungeon_magic
+x 7
+y 26
+end
+arch woodfloor2
+x 7
+y 26
+end
+arch swall_2_1_2
+name barred window
+x 7
+y 26
+end
+arch grass
+x 7
+y 27
+end
+arch grass
+x 7
+y 28
 end
 arch grass
 x 8
@@ -1615,17 +1896,58 @@ x 8
 y 22
 end
 arch swall_2_1_2
-name barred window
 x 8
 y 22
 end
-arch grass
+arch dungeon_magic
 x 8
 y 23
 end
-arch grass
+arch woodfloor2
+x 8
+y 23
+end
+arch dungeon_magic
 x 8
 y 24
+end
+arch woodfloor2
+x 8
+y 24
+end
+arch dungeon_magic
+x 8
+y 25
+end
+arch woodfloor2
+x 8
+y 25
+end
+arch altar_lythander
+x 8
+y 25
+level 120
+end
+arch dungeon_magic
+x 8
+y 26
+end
+arch woodfloor2
+x 8
+y 26
+end
+arch swall_2_1_2
+name barred window
+x 8
+y 26
+end
+arch grass
+x 8
+y 27
+end
+arch grass
+x 8
+y 28
 end
 arch grass
 x 9
@@ -1794,26 +2116,71 @@ arch shop_empty
 x 9
 y 21
 end
+arch dungeon_magic
+x 9
+y 22
+end
 arch woodfloor2
 x 9
 y 22
 end
-arch swall_1_3
-name barred window
+arch swall_2_1_2
 x 9
 y 22
 end
-arch bwall_1_4
-x 9
-y 22
-end
-arch grass
+arch dungeon_magic
 x 9
 y 23
 end
-arch grass
+arch woodfloor2
+x 9
+y 23
+end
+arch light4
 x 9
 y 24
+end
+arch dungeon_magic
+x 9
+y 24
+end
+arch woodfloor2
+x 9
+y 24
+end
+arch dungeon_magic
+x 9
+y 25
+end
+arch woodfloor2
+x 9
+y 25
+end
+arch altar_mostrai
+x 9
+y 25
+level 120
+end
+arch woodfloor2
+x 9
+y 26
+end
+arch swall_1_3
+name barred window
+x 9
+y 26
+end
+arch bwall_1_4
+x 9
+y 26
+end
+arch grass
+x 9
+y 27
+end
+arch grass
+x 9
+y 28
 end
 arch grass
 x 10
@@ -2048,21 +2415,62 @@ arch shop_empty
 x 10
 y 21
 end
+arch dungeon_magic
+x 10
+y 22
+end
 arch woodfloor2
 x 10
 y 22
 end
-arch bwall_2_1_2
+arch swall_2_1_2
 x 10
 y 22
 end
-arch grass
+arch dungeon_magic
 x 10
 y 23
 end
-arch grass
+arch woodfloor2
+x 10
+y 23
+end
+arch dungeon_magic
 x 10
 y 24
+end
+arch woodfloor2
+x 10
+y 24
+end
+arch dungeon_magic
+x 10
+y 25
+end
+arch woodfloor2
+x 10
+y 25
+end
+arch altar_ruggilli
+x 10
+y 25
+level 120
+end
+arch woodfloor2
+x 10
+y 26
+end
+arch bwall_2_1_2
+x 10
+y 26
+end
+arch grass
+x 10
+y 27
+end
+arch grass
+x 10
+y 28
 end
 arch grass
 x 11
@@ -2320,25 +2728,66 @@ arch swall_2_1_1
 x 11
 y 21
 end
+arch dungeon_magic
+x 11
+y 22
+end
 arch woodfloor2
 x 11
 y 22
 end
-arch swall_1_2_half
+arch swall_2_2_4
 x 11
 y 22
 end
-arch bwall_2_1_2
-x 11
-y 22
-end
-arch grass
+arch dungeon_magic
 x 11
 y 23
 end
-arch grass
+arch woodfloor2
+x 11
+y 23
+end
+arch dungeon_magic
 x 11
 y 24
+end
+arch woodfloor2
+x 11
+y 24
+end
+arch dungeon_magic
+x 11
+y 25
+end
+arch woodfloor2
+x 11
+y 25
+end
+arch altar_sorig
+x 11
+y 25
+level 120
+end
+arch woodfloor2
+x 11
+y 26
+end
+arch swall_1_2_half
+x 11
+y 26
+end
+arch bwall_2_1_2
+x 11
+y 26
+end
+arch grass
+x 11
+y 27
+end
+arch grass
+x 11
+y 28
 end
 arch grass
 x 12
@@ -2531,10 +2980,6 @@ arch woodfloor2
 x 12
 y 20
 end
-arch light4
-x 12
-y 21
-end
 arch dungeon_magic
 x 12
 y 21
@@ -2543,21 +2988,60 @@ arch woodfloor2
 x 12
 y 21
 end
+arch dungeon_magic
+x 12
+y 22
+end
 arch woodfloor2
 x 12
 y 22
 end
-arch bwall_2_1_2
-x 12
-y 22
-end
-arch grass
+arch dungeon_magic
 x 12
 y 23
 end
-arch grass
+arch woodfloor2
+x 12
+y 23
+end
+arch dungeon_magic
 x 12
 y 24
+end
+arch woodfloor2
+x 12
+y 24
+end
+arch dungeon_magic
+x 12
+y 25
+end
+arch woodfloor2
+x 12
+y 25
+end
+arch altar_valkyrie
+x 12
+y 25
+level 120
+arch altar_valkyrie_pray_event
+end
+end
+arch woodfloor2
+x 12
+y 26
+end
+arch bwall_2_1_2
+x 12
+y 26
+end
+arch grass
+x 12
+y 27
+end
+arch grass
+x 12
+y 28
 end
 arch grass
 x 13
@@ -2774,21 +3258,58 @@ x 13
 y 21
 level 1
 end
+arch dungeon_magic
+x 13
+y 22
+end
 arch woodfloor2
 x 13
 y 22
 end
-arch bwall_2_1_2
-x 13
-y 22
-end
-arch grass
+arch dungeon_magic
 x 13
 y 23
 end
-arch grass
+arch woodfloor2
+x 13
+y 23
+end
+arch dungeon_magic
 x 13
 y 24
+end
+arch woodfloor2
+x 13
+y 24
+end
+arch dungeon_magic
+x 13
+y 25
+end
+arch woodfloor2
+x 13
+y 25
+end
+arch altar_valriel
+x 13
+y 25
+level 120
+end
+arch woodfloor2
+x 13
+y 26
+end
+arch bwall_2_1_2
+x 13
+y 26
+end
+arch grass
+x 13
+y 27
+end
+arch grass
+x 13
+y 28
 end
 arch grass
 x 14
@@ -2969,17 +3490,49 @@ arch woodfloor2
 x 14
 y 22
 end
-arch bwall_3_1
+arch bwall_2_1_1
 x 14
 y 22
 end
-arch grass
+arch woodfloor2
 x 14
 y 23
 end
-arch grass
+arch bwall_2_1_1
+x 14
+y 23
+end
+arch woodfloor2
 x 14
 y 24
+end
+arch bwall_2_1_1
+x 14
+y 24
+end
+arch woodfloor2
+x 14
+y 25
+end
+arch bwall_2_1_1
+x 14
+y 25
+end
+arch woodfloor2
+x 14
+y 26
+end
+arch bwall_3_1
+x 14
+y 26
+end
+arch grass
+x 14
+y 27
+end
+arch grass
+x 14
+y 28
 end
 arch grass
 x 15
@@ -3174,25 +3727,37 @@ arch woodfloor2
 x 15
 y 21
 end
-arch chair_2.4
-x 15
-y 21
-end
 arch woodfloor2
 x 15
 y 22
 end
-arch bwall_2_1_2
-x 15
-y 22
-end
-arch grass
+arch woodfloor2
 x 15
 y 23
 end
-arch grass
+arch woodfloor2
 x 15
 y 24
+end
+arch woodfloor2
+x 15
+y 25
+end
+arch woodfloor2
+x 15
+y 26
+end
+arch bwall_2_1_2
+x 15
+y 26
+end
+arch grass
+x 15
+y 27
+end
+arch grass
+x 15
+y 28
 end
 arch grass
 x 16
@@ -3301,41 +3866,57 @@ arch woodfloor2
 x 16
 y 20
 end
-arch button_small
+arch woodfloor2
 x 16
 y 21
+end
+arch woodfloor2
+x 16
+y 22
+end
+arch woodfloor2
+x 16
+y 23
+end
+arch woodfloor2
+x 16
+y 24
+end
+arch button_small
+x 16
+y 25
 connected 13
 end
 arch woodfloor2
 x 16
-y 21
+y 25
 end
 arch woodfloor2
 x 16
-y 22
+y 26
 end
 arch bwall_1_3
 x 16
-y 22
+y 26
 end
 arch dungeon_magic
 x 16
-y 23
+y 27
 end
 arch invis_exit
 slaying /pup_land/lone_town/town
 hp 1
 sp 15
 x 16
-y 23
+y 27
 end
 arch grass
 x 16
-y 23
+y 27
 end
 arch grass
 x 16
-y 24
+y 28
 end
 arch grass
 x 17
@@ -3463,47 +4044,63 @@ arch woodfloor2
 x 17
 y 20
 end
-arch button_small
-x 17
-y 21
-connected 13
-end
 arch woodfloor2
 x 17
 y 21
 end
-arch button_small
+arch woodfloor2
 x 17
 y 22
+end
+arch woodfloor2
+x 17
+y 23
+end
+arch woodfloor2
+x 17
+y 24
+end
+arch button_small
+x 17
+y 25
 connected 13
 end
 arch woodfloor2
 x 17
-y 22
+y 25
+end
+arch button_small
+x 17
+y 26
+connected 13
+end
+arch woodfloor2
+x 17
+y 26
 end
 arch odoorn2_closed_1
 x 17
-y 22
+y 26
 connected 13
 end
 arch dungeon_magic
 x 17
-y 23
+y 27
 end
 arch invis_exit
 slaying /pup_land/lone_town/town
 hp 1
 sp 15
 x 17
-y 23
+y 27
 end
 arch grass
 x 17
-y 23
+y 27
 end
 arch grass
 x 17
-y 24
+y 28
 end
 arch grass
 x 18
@@ -3616,41 +4213,57 @@ arch woodfloor2
 x 18
 y 20
 end
-arch button_small
+arch woodfloor2
 x 18
 y 21
+end
+arch woodfloor2
+x 18
+y 22
+end
+arch woodfloor2
+x 18
+y 23
+end
+arch woodfloor2
+x 18
+y 24
+end
+arch button_small
+x 18
+y 25
 connected 13
 end
 arch woodfloor2
 x 18
-y 21
+y 25
 end
 arch woodfloor2
 x 18
-y 22
+y 26
 end
 arch bwall_1_4
 x 18
-y 22
+y 26
 end
 arch dungeon_magic
 x 18
-y 23
+y 27
 end
 arch invis_exit
 slaying /pup_land/lone_town/town
 hp 1
 sp 15
 x 18
-y 23
+y 27
 end
 arch grass
 x 18
-y 23
+y 27
 end
 arch grass
 x 18
-y 24
+y 28
 end
 arch grass
 x 19
@@ -3852,7 +4465,7 @@ arch woodfloor2
 x 19
 y 21
 end
-arch longtable_1_2
+arch longtable_2_1_1
 name counter
 x 19
 y 21
@@ -3864,17 +4477,65 @@ arch woodfloor2
 x 19
 y 22
 end
-arch bwall_2_1_2
+arch longtable_2_1_1
+name counter
 x 19
 y 22
+move_block all
+cursed 1
+damned 1
 end
-arch grass
+arch woodfloor2
 x 19
 y 23
 end
-arch grass
+arch longtable_2_1_1
+name counter
+x 19
+y 23
+move_block all
+cursed 1
+damned 1
+end
+arch woodfloor2
 x 19
 y 24
+end
+arch longtable_2_1_1
+name counter
+x 19
+y 24
+move_block all
+cursed 1
+damned 1
+end
+arch woodfloor2
+x 19
+y 25
+end
+arch longtable_1_2
+name counter
+x 19
+y 25
+move_block all
+cursed 1
+damned 1
+end
+arch woodfloor2
+x 19
+y 26
+end
+arch bwall_2_1_2
+x 19
+y 26
+end
+arch grass
+x 19
+y 27
+end
+arch grass
+x 19
+y 28
 end
 arch grass
 x 20
@@ -4033,17 +4694,33 @@ arch woodfloor2
 x 20
 y 22
 end
-arch bwall_2_1_2
-x 20
-y 22
-end
-arch grass
+arch woodfloor2
 x 20
 y 23
 end
-arch grass
+arch woodfloor2
 x 20
 y 24
+end
+arch woodfloor2
+x 20
+y 25
+end
+arch woodfloor2
+x 20
+y 26
+end
+arch bwall_2_1_2
+x 20
+y 26
+end
+arch grass
+x 20
+y 27
+end
+arch grass
+x 20
+y 28
 end
 arch grass
 x 21
@@ -4195,10 +4872,6 @@ arch woodfloor2
 x 21
 y 20
 end
-arch light4
-x 21
-y 21
-end
 arch woodfloor2
 x 21
 y 21
@@ -4207,17 +4880,37 @@ arch woodfloor2
 x 21
 y 22
 end
-arch bwall_2_1_2
-x 21
-y 22
-end
-arch grass
+arch woodfloor2
 x 21
 y 23
 end
-arch grass
+arch woodfloor2
 x 21
 y 24
+end
+arch light4
+x 21
+y 25
+end
+arch woodfloor2
+x 21
+y 25
+end
+arch woodfloor2
+x 21
+y 26
+end
+arch bwall_2_1_2
+x 21
+y 26
+end
+arch grass
+x 21
+y 27
+end
+arch grass
+x 21
+y 28
 end
 arch woods_3
 x 22
@@ -4415,21 +5108,53 @@ arch woodfloor2
 x 22
 y 22
 end
+arch bwall_2_1_1
+x 22
+y 22
+end
+arch woodfloor2
+x 22
+y 23
+end
+arch bwall_2_1_1
+x 22
+y 23
+end
+arch woodfloor2
+x 22
+y 24
+end
+arch bwall_2_1_1
+x 22
+y 24
+end
+arch woodfloor2
+x 22
+y 25
+end
+arch bwall_2_1_1
+x 22
+y 25
+end
+arch woodfloor2
+x 22
+y 26
+end
 arch bwall_2_2_4
 x 22
-y 22
+y 26
 end
 arch grass
 x 22
-y 23
+y 27
 end
 arch grass
 x 22
-y 24
+y 28
 end
 arch tree
 x 22
-y 24
+y 28
 end
 arch woods_3
 x 23
@@ -4526,17 +5251,33 @@ arch grass
 x 23
 y 23
 end
-arch tree
-x 23
-y 23
-end
 arch grass
 x 23
 y 24
 end
+arch grass
+x 23
+y 25
+end
+arch grass
+x 23
+y 26
+end
+arch grass
+x 23
+y 27
+end
 arch tree
 x 23
-y 24
+y 27
+end
+arch grass
+x 23
+y 28
+end
+arch tree
+x 23
+y 28
 end
 arch woods_3
 x 24
@@ -4629,15 +5370,7 @@ arch grass
 x 24
 y 22
 end
-arch tree
-x 24
-y 22
-end
 arch grass
-x 24
-y 23
-end
-arch tree
 x 24
 y 23
 end
@@ -4645,7 +5378,31 @@ arch grass
 x 24
 y 24
 end
+arch grass
+x 24
+y 25
+end
+arch grass
+x 24
+y 26
+end
 arch tree
 x 24
-y 24
+y 26
+end
+arch grass
+x 24
+y 27
+end
+arch tree
+x 24
+y 27
+end
+arch grass
+x 24
+y 28
+end
+arch tree
+x 24
+y 28
 end
