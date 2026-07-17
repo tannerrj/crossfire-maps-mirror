@@ -8,7 +8,7 @@ enter_x 14
 enter_y 1
 msg
 Created:  1996-02-18
-Modified: 2019-03-03 DraugTheWhopper
+Modified: 2026-07-16 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -320,6 +320,11 @@ end
 arch woodfloor
 x 2
 y 8
+end
+arch altar_ruggilli
+x 2
+y 8
+level 120
 end
 arch woodfloor
 x 2
