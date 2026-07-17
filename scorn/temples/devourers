@@ -8,7 +8,7 @@ enter_x 15
 enter_y 3
 msg
 Created:  1997-04-16 David Sundqvist (azzie@tellutec.se)
-Modified: 2026-02-10 Rick Tanner
+Modified: 2026-07-17 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_temple-of-the-devourers
@@ -587,6 +587,11 @@ arch blackmarble
 x 5
 y 6
 end
+arch altar_devourers
+x 5
+y 6
+level 120
+end
 arch blackmarble
 x 5
 y 7
@@ -698,10 +703,9 @@ arch blackmarble
 x 6
 y 6
 end
-arch altar_devourers
+arch brazier
 x 6
 y 6
-level 120
 end
 arch blackmarble
 x 6
@@ -814,6 +818,11 @@ end
 arch blackmarble
 x 7
 y 6
+end
+arch altar_devourers
+x 7
+y 6
+level 120
 end
 arch blackmarble
 x 7
