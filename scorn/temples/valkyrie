@@ -10,7 +10,7 @@ enter_x 7
 enter_y 17
 msg
 Created: 2003-08-17 Lalo Martins
-Modified: 2026-02-22 Rick Tanner
+Modified: 2026-07-18 Rick Tanner
 endmsg
 reset_group scorn_chapel-of-valkyrie
 end
@@ -1571,10 +1571,11 @@ arch dungeon_floor
 x 7
 y 5
 end
-arch broadsword
+arch altar_valkyrie
 x 7
 y 5
-no_pick 1
+arch altar_valkyrie_pray_event
+end
 end
 arch dungeon_magic
 x 7
@@ -1587,11 +1588,6 @@ end
 arch slevel_3_1
 x 7
 y 6
-end
-arch broadsword_2
-x 7
-y 6
-no_pick 1
 end
 arch dungeon_magic
 x 7
@@ -1824,12 +1820,6 @@ end
 arch dungeon_floor
 x 8
 y 5
-end
-arch altar_valkyrie
-x 8
-y 5
-arch altar_valkyrie_pray_event
-end
 end
 arch dungeon_magic
 x 8
@@ -2100,10 +2090,11 @@ arch dungeon_floor
 x 9
 y 5
 end
-arch falchion
+arch altar_valkyrie
 x 9
 y 5
-no_pick 1
+arch altar_valkyrie_pray_event
+end
 end
 arch dungeon_magic
 x 9
@@ -2116,11 +2107,6 @@ end
 arch slevel_3_1
 x 9
 y 6
-end
-arch broadsword_2
-x 9
-y 6
-no_pick 1
 end
 arch dungeon_magic
 x 9
