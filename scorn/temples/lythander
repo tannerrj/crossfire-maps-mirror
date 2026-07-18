@@ -8,7 +8,7 @@ enter_x 9
 enter_y 20
 msg
 Created:  1997-04-16
-Modified: 2026-02-17 Rick Tanner
+Modified: 2026-07-18 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1215,6 +1215,11 @@ arch flagstone
 x 8
 y 9
 end
+arch altar_lythander
+x 8
+y 9
+level 120
+end
 arch flagstone
 x 8
 y 10
@@ -1340,11 +1345,6 @@ arch flagstone
 x 9
 y 9
 end
-arch altar_lythander
-x 9
-y 9
-level 120
-end
 arch flagstone
 x 9
 y 10
@@ -1466,17 +1466,12 @@ arch flagstone
 x 10
 y 9
 end
-arch flagstone
+arch altar_lythander
 x 10
-y 10
+y 9
+level 120
 end
-arch sage
-msg
-@match lythander
-Lythander is the elven god of luck.
-@match *
-Welcome to the temple of Lythander.
-endmsg
+arch flagstone
 x 10
 y 10
 end
@@ -1485,6 +1480,16 @@ x 10
 y 11
 end
 arch flagstone
+x 10
+y 12
+end
+arch sage
+msg
+@match lythander
+Lythander is the elven god of luck.
+@match *
+Welcome to the temple of Lythander.
+endmsg
 x 10
 y 12
 end
