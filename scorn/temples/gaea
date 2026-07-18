@@ -8,7 +8,7 @@ enter_x 12
 enter_y 17
 msg
 Created:  1999-01-24 Raphaël Quinet (raphael@gimp.org)
-Modified: 2022-01-05 Kevin Zheng
+Modified: 2026-07-17 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -1184,6 +1184,11 @@ arch pstone_1
 x 11
 y 7
 end
+arch altar_gaea
+x 11
+y 7
+level 120
+end
 arch pstone_1
 x 11
 y 8
@@ -1314,11 +1319,6 @@ arch pstone_1
 x 12
 y 7
 end
-arch altar_gaea
-x 12
-y 7
-level 120
-end
 arch pstone_1
 x 12
 y 8
@@ -1420,6 +1420,11 @@ end
 arch pstone_1
 x 13
 y 7
+end
+arch altar_gaea
+x 13
+y 7
+level 120
 end
 arch pstone_1
 x 13
