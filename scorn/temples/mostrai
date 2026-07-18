@@ -8,7 +8,7 @@ enter_x 15
 enter_y 17
 msg
 Created:  1999-01-22 Raphaël Quinet (raphael@gimp.org)
-Modified: 2026-02-20 Rick Tanner
+Modified: 2026-07-18 Rick Tanner
 endmsg
 outdoor 1
 reset_group scorn_temple-of-mostrai
@@ -725,6 +725,11 @@ arch woodfloor
 x 6
 y 13
 end
+arch altar_mostrai
+x 6
+y 13
+level 120
+end
 arch stonefloor2
 x 6
 y 14
@@ -819,11 +824,6 @@ end
 arch woodfloor
 x 7
 y 13
-end
-arch altar_mostrai
-x 7
-y 13
-level 120
 end
 arch stonefloor2
 x 7
@@ -920,19 +920,14 @@ arch woodfloor
 x 8
 y 12
 end
-arch dwarf_priest
-msg
-@match mostrai
-Mostrai is our god.
-@match *
-Welcome to the Temple of Mostrai!
-endmsg
-x 8
-y 12
-end
 arch woodfloor
 x 8
 y 13
+end
+arch altar_mostrai
+x 8
+y 13
+level 120
 end
 arch stonefloor2
 x 8
@@ -1038,6 +1033,16 @@ x 9
 y 11
 end
 arch woodfloor
+x 9
+y 12
+end
+arch dwarf_priest
+msg
+@match mostrai
+Mostrai is our god.
+@match *
+Welcome to the Temple of Mostrai!
+endmsg
 x 9
 y 12
 end
