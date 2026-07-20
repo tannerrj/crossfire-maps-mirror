@@ -8,7 +8,7 @@ enter_x 12
 enter_y 21
 msg
 Created:  2008-12-07 Rick Tanner
-Modified: 2016-11-30 Rick Tanner
+Modified: 2026-07-19 Rick Tanner
 endmsg
 end
 arch grass
@@ -1640,6 +1640,10 @@ arch whiteslate
 x 11
 y 5
 end
+arch altar_ruggilli
+x 11
+y 5
+end
 arch whiteslate
 x 11
 y 6
@@ -1784,10 +1788,6 @@ arch whiteslate
 x 12
 y 5
 end
-arch altar_ruggilli
-x 12
-y 5
-end
 arch whiteslate
 x 12
 y 6
@@ -1928,6 +1928,10 @@ x 13
 y 4
 end
 arch whiteslate
+x 13
+y 5
+end
+arch altar_ruggilli
 x 13
 y 5
 end
