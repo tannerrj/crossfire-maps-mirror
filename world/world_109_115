@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2026-04-30 Rick Tanner
+Modified: 2026-07-20 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_109_114
@@ -753,7 +753,7 @@ x 2
 y 25
 elevation 4368
 end
-arch hills_rocky
+arch cobblestones
 x 2
 y 26
 elevation 4692
@@ -3385,7 +3385,7 @@ x 11
 y 26
 elevation 3281
 end
-arch hills_rocky
+arch cobblestones
 x 11
 y 27
 elevation 3321
@@ -3675,7 +3675,7 @@ x 12
 y 27
 elevation 2904
 end
-arch jungle_1
+arch cobblestones
 x 12
 y 28
 elevation 2859
@@ -4008,7 +4008,7 @@ arch tree5
 x 13
 y 28
 end
-arch hills
+arch cobblestones
 x 13
 y 29
 elevation 3616
@@ -4742,7 +4742,7 @@ x 15
 y 38
 elevation 5285
 end
-arch mountain
+arch cobblestones
 x 15
 y 39
 elevation 5496
@@ -5084,7 +5084,7 @@ x 16
 y 39
 elevation 5971
 end
-arch hills_rocky
+arch cobblestones
 x 16
 y 40
 elevation 4354
@@ -5406,7 +5406,7 @@ x 17
 y 40
 elevation 6200
 end
-arch mountain
+arch cobblestones
 x 17
 y 41
 elevation 6692
@@ -5738,7 +5738,7 @@ x 18
 y 41
 elevation 7068
 end
-arch mountain
+arch cobblestones
 x 18
 y 42
 elevation 6603
@@ -6071,7 +6071,7 @@ x 19
 y 42
 elevation 6095
 end
-arch hills_rocky
+arch cobblestones
 x 19
 y 43
 elevation 4700
@@ -6387,7 +6387,7 @@ x 20
 y 43
 elevation 4493
 end
-arch grass_only
+arch cobblestones
 x 20
 y 44
 elevation 2729
@@ -6704,7 +6704,7 @@ x 21
 y 44
 elevation 4129
 end
-arch hills_rocky
+arch cobblestones
 x 21
 y 45
 elevation 4469
@@ -6985,12 +6985,12 @@ x 22
 y 45
 elevation 4606
 end
-arch mountain
+arch cobblestones
 x 22
 y 46
 elevation 5711
 end
-arch mountain
+arch cobblestones
 x 22
 y 47
 elevation 5354
@@ -7274,7 +7274,7 @@ x 23
 y 47
 elevation 6782
 end
-arch mountain
+arch cobblestones
 x 23
 y 48
 elevation 5512
