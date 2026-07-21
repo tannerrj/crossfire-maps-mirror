@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2026-04-30 Rick Tanner
+Modified: 2026-07-21 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_112_115
@@ -2985,7 +2985,7 @@ x 11
 y 33
 elevation 3281
 end
-arch jungle_1
+arch cobblestones
 x 11
 y 34
 elevation 2397
@@ -3518,7 +3518,7 @@ arch cobblestones
 x 13
 y 35
 end
-arch steppe
+arch cobblestones
 x 13
 y 36
 elevation 4765
@@ -6725,7 +6725,7 @@ arch evergreens2
 x 25
 y 32
 end
-arch woods_2
+arch cobblestones
 x 25
 y 33
 elevation 2026
@@ -7322,7 +7322,7 @@ arch cobblestones
 x 27
 y 34
 end
-arch woods_2
+arch cobblestones
 x 27
 y 35
 elevation 1962
@@ -12806,7 +12806,7 @@ x 47
 y 31
 elevation 5430
 end
-arch hills
+arch cobblestones
 x 47
 y 32
 elevation 4693
