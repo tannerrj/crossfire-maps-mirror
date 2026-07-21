@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-02-16
-Modified: 2026-07-05 Rick Tanner
+Modified: 2026-07-21 Kevin Zheng
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -9151,7 +9151,7 @@ arch dungeon_magic
 x 20
 y 37
 end
-arch cobblestones2
+arch flagstone
 x 20
 y 37
 elevation 4519
@@ -10012,7 +10012,7 @@ arch dungeon_magic
 x 22
 y 37
 end
-arch cobblestones2
+arch flagstone
 x 22
 y 37
 elevation 1145
