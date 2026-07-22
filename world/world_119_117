@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2026-04-30 Rick Tanner
+Modified: 2026-07-22 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_119_116
@@ -3200,7 +3200,7 @@ x 12
 y 31
 elevation 4218
 end
-arch hills_rocky
+arch cobblestones
 x 12
 y 32
 elevation 4044
@@ -3759,7 +3759,7 @@ x 14
 y 30
 elevation 5022
 end
-arch steppe
+arch cobblestones
 x 14
 y 31
 elevation 4492
@@ -3772,7 +3772,7 @@ arch cobblestones
 x 14
 y 33
 end
-arch woods
+arch cobblestones
 x 14
 y 34
 elevation 2038
@@ -4280,7 +4280,7 @@ arch cobblestones
 x 16
 y 32
 end
-arch woods
+arch cobblestones
 x 16
 y 33
 elevation 2266
@@ -6022,7 +6022,7 @@ arch cobblestones
 x 23
 y 31
 end
-arch hills_rocky
+arch cobblestones
 x 23
 y 32
 elevation 3775
@@ -6263,7 +6263,7 @@ arch cobblestones
 x 24
 y 30
 end
-arch hills
+arch cobblestones
 x 24
 y 31
 elevation 2280
@@ -6508,7 +6508,7 @@ arch cobblestones
 x 25
 y 29
 end
-arch hills
+arch cobblestones
 x 25
 y 30
 elevation 3099
@@ -6753,7 +6753,7 @@ arch cobblestones
 x 26
 y 28
 end
-arch hills_rocky
+arch cobblestones
 x 26
 y 29
 elevation 3260
@@ -6998,7 +6998,7 @@ arch cobblestones
 x 27
 y 27
 end
-arch hills
+arch cobblestones
 x 27
 y 28
 elevation 3135
@@ -7240,7 +7240,7 @@ arch cobblestones
 x 28
 y 26
 end
-arch hills
+arch cobblestones
 x 28
 y 27
 elevation 3037
@@ -9734,7 +9734,7 @@ arch cobblestones
 x 38
 y 26
 end
-arch mountain
+arch cobblestones
 x 38
 y 27
 elevation 5473
@@ -9989,7 +9989,7 @@ arch cobblestones
 x 39
 y 27
 end
-arch mountain
+arch cobblestones
 x 39
 y 28
 elevation 6548
@@ -10244,7 +10244,7 @@ arch cobblestones
 x 40
 y 28
 end
-arch mountain
+arch cobblestones
 x 40
 y 29
 elevation 7477
@@ -10499,7 +10499,7 @@ arch cobblestones
 x 41
 y 29
 end
-arch mountain
+arch cobblestones
 x 41
 y 30
 elevation 6827
@@ -10754,7 +10754,7 @@ arch cobblestones
 x 42
 y 30
 end
-arch mountain
+arch cobblestones
 x 42
 y 31
 elevation 7507
@@ -11009,7 +11009,7 @@ arch cobblestones
 x 43
 y 31
 end
-arch mountain
+arch cobblestones
 x 43
 y 32
 elevation 7027
@@ -11264,7 +11264,7 @@ arch cobblestones
 x 44
 y 32
 end
-arch mountain
+arch cobblestones
 x 44
 y 33
 elevation 6658
