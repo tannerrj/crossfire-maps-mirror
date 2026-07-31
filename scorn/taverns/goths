@@ -8,8 +8,8 @@ height 37
 enter_x 5
 enter_y 32
 msg
-Created: 1993-10-15
-Modified: 2026-02-09 Rick Tanner
+Created: 1993-10-15 Tyler Van Gorder
+Modified: 2026-07-31 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -602,6 +602,7 @@ x 3
 y 8
 end
 arch man
+identified_name Dilek
 name drunk
 msg
 @match name
@@ -626,7 +627,6 @@ x 3
 y 8
 friendly 1
 unaggressive 0
-identified_name Dilek
 end
 arch altar
 slaying booze
@@ -832,6 +832,7 @@ x 3
 y 26
 end
 arch merchant
+identified_name Bragh O'Leary
 name upset merchant
 msg
 @match bragh|o'leary|name
@@ -859,7 +860,6 @@ endmsg
 x 3
 y 26
 friendly 1
-identified_name Bragh O'Leary
 end
 arch woodfloor
 x 3
@@ -1119,6 +1119,7 @@ x 4
 y 31
 end
 arch guildmaster
+identified_name Brum
 name man
 title the Ancient
 msg
@@ -1149,7 +1150,6 @@ x 4
 y 31
 friendly 1
 unaggressive 0
-identified_name Brum
 end
 arch woodfloor
 x 4
@@ -1859,6 +1859,7 @@ x 8
 y 24
 end
 arch fighter
+identified_name Apanu Aaeeia
 name wounded fighter
 msg
 @match name
@@ -1882,7 +1883,6 @@ y 24
 level 12
 friendly 1
 unaggressive 0
-identified_name Apanu Aaeeia
 end
 arch woodfloor
 x 8
@@ -1909,6 +1909,7 @@ x 8
 y 28
 end
 arch courier
+identified_name Joey
 name scribe
 msg
 @match mark
@@ -1934,7 +1935,6 @@ y 28
 monster 0
 friendly 1
 stand_still 1
-identified_name Joey
 end
 arch woodfloor
 x 8
@@ -2543,6 +2543,7 @@ x 11
 y 14
 end
 arch dwarf
+identified_name Limyat
 name lumberjack
 msg
 @match name
@@ -2561,7 +2562,6 @@ x 11
 y 14
 friendly 1
 unaggressive 0
-identified_name Limyat
 end
 arch woodfloor
 x 11
@@ -3018,6 +3018,7 @@ x 13
 y 6
 end
 arch elf_1
+identified_name Silinar
 msg
 @match name
 My name is Silinar.
@@ -3036,7 +3037,6 @@ x 13
 y 6
 friendly 1
 unaggressive 0
-identified_name Silinar
 end
 arch woodfloor
 x 13
@@ -3731,6 +3731,7 @@ x 16
 y 13
 end
 arch warrior_1
+identified_name Palidor
 msg
 @match job
 Umm... professional adventurer?
@@ -3747,7 +3748,6 @@ x 16
 y 13
 friendly 1
 unaggressive 0
-identified_name Palidor
 end
 arch woodfloor
 x 16
@@ -4694,6 +4694,7 @@ x 20
 y 6
 end
 arch woman
+identified_name Samantha
 name bar maid
 msg
 @match hello|hi
@@ -4711,7 +4712,6 @@ y 6
 speed 0.2
 friendly 1
 unaggressive 0
-identified_name Samantha
 end
 arch woodfloor
 x 20
@@ -4954,6 +4954,7 @@ x 21
 y 11
 end
 arch dwarf
+identified_name Darag
 msg
 @match name
 Darag... And yours?
@@ -4974,7 +4975,6 @@ x 21
 y 11
 friendly 1
 unaggressive 0
-identified_name Darag
 end
 arch woodfloor
 x 21
@@ -5113,6 +5113,7 @@ x 21
 y 33
 end
 arch c_man
+identified_name Jack
 title the bingo caller
 msg
 @match job
@@ -5131,7 +5132,6 @@ x 21
 y 33
 friendly 1
 unaggressive 0
-identified_name Jack
 end
 arch woodfloor
 x 21
@@ -5820,6 +5820,7 @@ x 24
 y 30
 end
 arch man
+identified_name Mark
 msg
 @match mark
 Ya, that's me. Bugger off, I'm on a roll here.
@@ -5842,7 +5843,6 @@ endmsg
 x 24
 y 30
 friendly 1
-identified_name Mark
 arch npc_dialog
 name scorn/taverns/mark.msg
 end
@@ -5932,6 +5932,7 @@ y 6
 invisible 1
 end
 arch beholder
+identified_name Atxtoc
 msg
 @match name
 Atxtoc... (smile)
@@ -5950,7 +5951,6 @@ endmsg
 x 25
 y 6
 friendly 1
-identified_name Atxtoc
 end
 arch woodfloor
 x 25
@@ -6185,6 +6185,7 @@ x 26
 y 13
 end
 arch pirate
+identified_name Maurycy
 name sailor
 msg
 @match name
@@ -6210,7 +6211,6 @@ endmsg
 x 26
 y 13
 friendly 1
-identified_name Maurycy
 end
 arch woodfloor
 x 26
@@ -6481,6 +6481,7 @@ x 27
 y 17
 end
 arch elf_1
+identified_name Amras Telrunya
 msg
 @match name
 Amras Telrunya, and that's Anie...
@@ -6511,7 +6512,6 @@ x 27
 y 17
 friendly 1
 unaggressive 0
-identified_name Amras Telrunya
 end
 arch woodfloor
 x 27
@@ -7279,6 +7279,7 @@ x 31
 y 12
 end
 arch c_sage
+identified_name Sonny
 name old man
 msg
 @match name
@@ -7305,7 +7306,6 @@ x 31
 y 12
 friendly 1
 unaggressive 0
-identified_name Sonny
 end
 arch woodfloor
 x 31
@@ -7467,6 +7467,7 @@ x 32
 y 4
 end
 arch conjurer
+identified_name Awiergan Cynricson
 name slightly drunken apprentice conjurer
 msg
 @match name
@@ -7487,7 +7488,6 @@ hp 90
 x 32
 y 4
 friendly 1
-identified_name Awiergan Cynricson
 end
 arch woodfloor
 x 32
@@ -7957,6 +7957,7 @@ x 34
 y 19
 end
 arch faerie_dragon
+identified_name Gramzon
 name scary-looking dragon
 title the dragon emissary
 msg
@@ -7970,7 +7971,6 @@ x 34
 y 19
 friendly 1
 unaggressive 0
-identified_name Gramzon
 arch npc_dialog
 name /scorn/taverns/dragon_emissary.msg
 end
