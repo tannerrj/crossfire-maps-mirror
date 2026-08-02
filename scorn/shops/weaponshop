@@ -10,8 +10,8 @@ height 27
 enter_x 12
 enter_y 21
 msg
-Created:  1993-10-15
-Modified: 2026-02-05 Rick Tanner
+Created:  1993-10-15 Tyler Van Gorder
+Modified: 2026-07-30 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -2149,13 +2149,13 @@ x 14
 y 19
 end
 arch fighter
+random_movement 1
 name Shop owner
 x 14
 y 19
 speed 0.05
 sleep 0
 no_damage 1
-random_movement 1
 arch event_user
 title Python
 slaying /python/maps/witherspoon_manor/weapon_shop.py
