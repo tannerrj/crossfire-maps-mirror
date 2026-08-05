@@ -7,8 +7,8 @@ height 19
 enter_x 4
 enter_y 2
 msg
-Created:  1993-10-15
-Modified: 2026-02-08 Rick Tanner
+Created:  1993-10-15 Tyler Van Gorder
+Modified: 2026-08-05 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -439,6 +439,7 @@ x 4
 y 7
 end
 arch sailor
+random_movement 0
 msg
 @match *
 Ahoy friend! You should take a ship and make an adventure trip.
@@ -448,7 +449,6 @@ x 4
 y 7
 friendly 1
 unaggressive 0
-random_movement 0
 end
 arch woodfloor
 x 4
