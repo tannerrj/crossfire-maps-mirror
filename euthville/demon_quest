@@ -8,8 +8,8 @@ height 35
 enter_x 33
 enter_y 33
 msg
-Created:  2000-06-08
-Modified: 2025-06-28 Nicolas Weeger
+Created:  2000-06-08 Peter Mardahl
+Modified: 2026-08-14 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -4412,6 +4412,7 @@ x 20
 y 18
 end
 arch generate_devil
+death_animation NONE
 name Demon Gate
 hp 10000
 maxhp 10000
@@ -4420,7 +4421,6 @@ y 18
 speed 0.001000
 resist_physical 30
 carrying 100
-death_animation NONE
 arch key2
 name broken gateway
 slaying broken gateway
