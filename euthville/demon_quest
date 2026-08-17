@@ -9,7 +9,7 @@ enter_x 33
 enter_y 33
 msg
 Created:  2000-06-08 Peter Mardahl
-Modified: 2026-08-14 Rick Tanner
+Modified: 2026-08-17 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -327,7 +327,6 @@ arch chest
 hp -1
 x 1
 y 14
-carrying 30
 arch goldcoin
 nrof 3
 end
@@ -1584,7 +1583,6 @@ arch big_demon
 x 7
 y 1
 speed_left -0.400000
-carrying 100
 arch key2
 name big demon's key
 slaying gateway
@@ -1849,7 +1847,6 @@ arch chest
 hp -1
 x 8
 y 15
-carrying 8000
 arch bolt
 title of Blessedness
 slaying undead,demon
@@ -2026,7 +2023,6 @@ arch chest
 hp -1
 x 9
 y 10
-carrying 10000
 arch robe
 end
 end
@@ -2134,7 +2130,6 @@ arch raas
 x 9
 y 30
 speed_left -0.300000
-carrying 89999
 arch icor
 name raas's icor
 food 55
@@ -2160,7 +2155,6 @@ arch raas
 x 9
 y 33
 speed_left -0.300000
-carrying 89999
 arch icor
 name raas's icor
 food 55
@@ -2216,7 +2210,6 @@ arch chest
 hp -1
 x 10
 y 6
-carrying 1000
 arch tunic
 end
 end
@@ -3067,7 +3060,6 @@ arch chest
 hp -1
 x 14
 y 6
-carrying 75
 arch arrow
 nrof 3
 end
@@ -3410,7 +3402,6 @@ arch raas
 x 15
 y 26
 speed_left -0.300000
-carrying 89999
 arch icor
 name raas's icor
 food 55
@@ -4420,7 +4411,6 @@ x 20
 y 18
 speed 0.001000
 resist_physical 30
-carrying 100
 arch key2
 name broken gateway
 slaying broken gateway
@@ -4769,7 +4759,6 @@ arch chest
 hp -1
 x 22
 y 3
-carrying 50
 arch gem
 end
 end
@@ -5209,7 +5198,6 @@ arch devil
 x 24
 y 7
 speed_left -0.210000
-carrying 13800
 arch dagger
 weight 1600
 magic 2
@@ -5385,7 +5373,6 @@ arch chest
 hp -1
 x 24
 y 30
-carrying 15100
 arch trap_needle
 end
 arch sack
@@ -5613,7 +5600,6 @@ arch devil
 x 25
 y 33
 speed_left -0.210000
-carrying 74000
 arch dagger
 end
 arch shield
@@ -5663,7 +5649,6 @@ arch chest
 hp -1
 x 26
 y 4
-carrying 16000
 arch mace
 end
 end
@@ -5787,7 +5772,6 @@ arch big_demon
 x 26
 y 25
 speed_left -0.400000
-carrying 100
 arch key2
 name big demon's key
 slaying inner_circle
