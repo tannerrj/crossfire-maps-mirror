@@ -9,7 +9,7 @@ enter_x 33
 enter_y 33
 msg
 Created:  2000-06-08 Peter Mardahl
-Modified: 2026-08-17 Rick Tanner
+Modified: 2026-08-18 Rick Tanner
 endmsg
 maplore
 @quest scorn/ScornHero
@@ -2132,11 +2132,14 @@ y 30
 speed_left -0.300000
 arch icor
 name raas's icor
+name_pl raas's icors
 food 55
-resist_fire -100
+level 9
+resist_physical 10
+resist_fire -50
+resist_blind 15
 value 1600
-weight 89999
-no_steal 1
+weight 90000
 end
 end
 arch medium_stones
@@ -2157,7 +2160,10 @@ y 33
 speed_left -0.300000
 arch icor
 name raas's icor
+other_arch raas
+exp 4000
 food 55
+level 9
 resist_fire -100
 value 1600
 weight 89999
@@ -3404,11 +3410,14 @@ y 26
 speed_left -0.300000
 arch icor
 name raas's icor
+name_pl raas's icors
 food 55
-resist_fire -100
+level 9
+resist_physical 10
+resist_fire -50
+resist_blind 15
 value 1600
-weight 89999
-no_steal 1
+weight 90000
 end
 end
 arch medium_stones
