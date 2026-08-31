@@ -8,7 +8,7 @@ enter_x 20
 enter_y 5
 msg
 Created:  1994-05-12
-Modified: 2026-08-28 Rick Tanner
+Modified: 2026-08-31 Rick Tanner
 endmsg
 reset_group santodominion_lord-byrons-castle
 end
@@ -4481,10 +4481,6 @@ arch cwall_1_3
 x 17
 y 13
 end
-arch woodfloor
-x 17
-y 14
-end
 arch button_small
 x 17
 y 14
@@ -6185,10 +6181,6 @@ end
 arch cwall_1_4
 x 23
 y 13
-end
-arch woodfloor
-x 23
-y 14
 end
 arch button_small
 x 23
