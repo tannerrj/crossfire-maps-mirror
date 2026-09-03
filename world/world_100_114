@@ -5,8 +5,7 @@ region portjoseph
 width 50
 height 50
 msg
-Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-03 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_100_113
@@ -3368,15 +3367,39 @@ arch ytree
 x 14
 y 19
 end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 14
+y 20
+end
 arch pstone_2
 x 14
 y 20
+end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 14
+y 21
 end
 arch pstone_3
 x 14
 y 21
 end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 14
+y 22
+end
 arch pstone_2
+msg
+
+endmsg
 x 14
 y 22
 end
@@ -3612,6 +3635,13 @@ arch pstone_2
 x 15
 y 19
 end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 15
+y 20
+end
 arch pstone_1
 x 15
 y 20
@@ -3631,6 +3661,13 @@ hp 6
 sp 12
 x 15
 y 21
+end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 15
+y 22
 end
 arch pstone_1
 x 15
@@ -3896,9 +3933,23 @@ arch river_nw-se_l
 x 16
 y 19
 end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 16
+y 20
+end
 arch pstone_1
 x 16
 y 20
+end
+arch magic_mouth
+msg
+An orc hut. No orc has ever lived alone by choice.
+endmsg
+x 16
+y 21
 end
 arch pstone_1
 x 16
@@ -6035,6 +6086,13 @@ arch pstone_1
 x 24
 y 23
 end
+arch magic_mouth
+msg
+A hole on Goblin Isle. Modest, as these things go here - which on Goblin Isle is worth saying out loud.
+endmsg
+x 24
+y 24
+end
 arch pstone_2
 x 24
 y 24
@@ -6050,6 +6108,13 @@ hp 8
 sp 7
 x 24
 y 25
+end
+arch magic_mouth
+msg
+A hole on Goblin Isle. Modest, as these things go here - which on Goblin Isle is worth saying out loud.
+endmsg
+x 24
+y 26
 end
 arch pstone_2
 x 24
@@ -6305,9 +6370,23 @@ arch pstone_1
 x 25
 y 23
 end
+arch magic_mouth
+msg
+A hole on Goblin Isle. Modest, as these things go here - which on Goblin Isle is worth saying out loud.
+endmsg
+x 25
+y 24
+end
 arch pstone_1
 x 25
 y 24
+end
+arch magic_mouth
+msg
+A hole on Goblin Isle. Modest, as these things go here - which on Goblin Isle is worth saying out loud.
+endmsg
+x 25
+y 25
 end
 arch pstone_2
 x 25
@@ -6316,6 +6395,13 @@ end
 arch kobold
 x 25
 y 25
+end
+arch magic_mouth
+msg
+A hole on Goblin Isle. Modest, as these things go here - which on Goblin Isle is worth saying out loud.
+endmsg
+x 25
+y 26
 end
 arch pstone_3
 x 25
