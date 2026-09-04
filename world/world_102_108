@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-26 Rick Tanner
+Modified: 2026-09-04 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_102_107
@@ -605,10 +605,17 @@ x 2
 y 18
 elevation -63
 end
-arch swamp
+arch magic_mouth
+msg
+Mudman's ground begins here. The trees on it are not trees, and the mud is not only mud.
+endmsg
 x 2
 y 19
 elevation 75
+end
+arch swamp
+x 2
+y 19
 end
 arch shallow_sea
 x 2
@@ -878,10 +885,17 @@ arch fernssparse
 x 3
 y 18
 end
-arch swamp
+arch magic_mouth
+msg
+Mudman's ground begins here. The trees on it are not trees, and the mud is not only mud.
+endmsg
 x 3
 y 19
 elevation 31
+end
+arch swamp
+x 3
+y 19
 end
 arch swamp
 x 3
@@ -1181,15 +1195,29 @@ x 4
 y 18
 elevation 57
 end
-arch swamp
+arch magic_mouth
+msg
+Mudman's ground begins here. The trees on it are not trees, and the mud is not only mud.
+endmsg
 x 4
 y 19
 elevation 24
 end
 arch swamp
 x 4
+y 19
+end
+arch magic_mouth
+msg
+Mudman's ground begins here. The trees on it are not trees, and the mud is not only mud.
+endmsg
+x 4
 y 20
 elevation 134
+end
+arch swamp
+x 4
+y 20
 end
 arch shallow_sea
 x 4
@@ -2818,11 +2846,18 @@ arch pier_2_2_3
 x 10
 y 12
 end
+arch magic_mouth
+msg
+South lighthouse, unattended these several years. The lamp still turns. Nobody has established what turns it.
+endmsg
+x 10
+y 13
+elevation 4
+end
 arch brush
 x 10
 y 13
 smoothlevel 10
-elevation 4
 move_block swim boat
 end
 arch pier_2_1_1
@@ -3404,10 +3439,17 @@ x 12
 y 6
 elevation 111
 end
-arch sea
+arch magic_mouth
+msg
+North lighthouse. The keeper's family were taken off by boat. The keeper's cellar was not cleared out first.
+endmsg
 x 12
 y 7
 elevation -998
+end
+arch sea
+x 12
+y 7
 end
 arch pier_2_1_2
 x 12
@@ -3462,20 +3504,41 @@ x 12
 y 16
 elevation 230
 end
-arch cobblestones
+arch magic_mouth
+msg
+The last two houses on this street. One is full of the dead and the other of the living, and there is little to choose between them as company.
+endmsg
 x 12
 y 17
 elevation 124
 end
 arch cobblestones
 x 12
+y 17
+end
+arch magic_mouth
+msg
+The last two houses on this street. One is full of the dead and the other of the living, and there is little to choose between them as company.
+endmsg
+x 12
 y 18
 elevation 31
 end
 arch cobblestones
 x 12
+y 18
+end
+arch magic_mouth
+msg
+The last two houses on this street. One is full of the dead and the other of the living, and there is little to choose between them as company.
+endmsg
+x 12
 y 19
 elevation 13
+end
+arch cobblestones
+x 12
+y 19
 end
 arch cobblestones
 x 12
@@ -4027,6 +4090,14 @@ arch grass
 x 14
 y 14
 elevation 351
+end
+arch sign
+name playbill, much rained on
+msg
+THE MAGARA OPERA - closed until further notice. The company has not been seen since the final rehearsal. Management asks that patrons do not investigate.
+endmsg
+x 14
+y 14
 end
 arch cobblestones
 x 14
@@ -5651,10 +5722,17 @@ x 19
 y 17
 elevation 1775
 end
-arch cobblestones
+arch magic_mouth
+msg
+The town well. Fouled these two years by what nests in the shaft. Water is drawn from the river instead. Draw your conclusions.
+endmsg
 x 19
 y 18
 elevation 1634
+end
+arch cobblestones
+x 19
+y 18
 end
 arch well
 name Santo Dominion Well
@@ -6860,10 +6938,17 @@ x 23
 y 9
 elevation 412
 end
-arch grass
+arch magic_mouth
+msg
+The congregation here worships something that answers. Services are continuous. Attendance is not optional once inside.
+endmsg
 x 23
 y 10
 elevation 512
+end
+arch grass
+x 23
+y 10
 end
 arch cobblestones
 x 23
@@ -6916,10 +7001,17 @@ arch tree3
 x 23
 y 17
 end
-arch grass_only
+arch magic_mouth
+msg
+THE LITTLE PEACOCK - poultry, eggs and ale. Mind the birds. They are not tame, and they are not the ale.
+endmsg
 x 23
 y 18
 elevation 2651
+end
+arch grass_only
+x 23
+y 18
 end
 arch tavern
 name The Little Peacock
@@ -10028,10 +10120,17 @@ x 33
 y 17
 elevation 6340
 end
-arch cobblestones2
+arch magic_mouth
+msg
+The north farm has not been worked in years. Something still walks the furrows, and it is not the farmer.
+endmsg
 x 33
 y 18
 elevation 5783
+end
+arch cobblestones2
+x 33
+y 18
 end
 arch cobblestones2
 x 33
@@ -10354,10 +10453,17 @@ arch swall_1_2
 x 34
 y 19
 end
-arch cobblestones2
+arch magic_mouth
+msg
+The south barn. Something holy is fighting something else inside, and the barn is losing.
+endmsg
 x 34
 y 20
 elevation 3874
+end
+arch cobblestones2
+x 34
+y 20
 end
 arch grass_only
 x 34

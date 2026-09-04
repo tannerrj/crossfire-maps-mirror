@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-04 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_102_106
@@ -2481,10 +2481,17 @@ x 9
 y 45
 elevation 46
 end
-arch cobblestones
+arch magic_mouth
+msg
+Lord Byron's castle. His lordship is not receiving. What receives in his stead has multiple eyes and no manners.
+endmsg
 x 9
 y 46
 elevation 95
+end
+arch cobblestones
+x 9
+y 46
 end
 arch stonebridge_1_4
 x 9
@@ -7258,20 +7265,41 @@ x 28
 y 39
 elevation 1430
 end
-arch woods
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 28
 y 40
 elevation 2115
 end
-arch hills_rocky
+arch woods
+x 28
+y 40
+end
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 28
 y 41
 elevation 2279
 end
-arch woods
+arch hills_rocky
+x 28
+y 41
+end
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 28
 y 42
 elevation 1938
+end
+arch woods
+x 28
+y 42
 end
 arch brush
 x 28
@@ -7507,10 +7535,17 @@ x 29
 y 39
 elevation 1785
 end
-arch woods
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 29
 y 40
 elevation 2559
+end
+arch woods
+x 29
+y 40
 end
 arch grass_only
 x 29
@@ -7529,10 +7564,17 @@ sp 1
 x 29
 y 41
 end
-arch hills_rocky
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 29
 y 42
 elevation 2425
+end
+arch hills_rocky
+x 29
+y 42
 end
 arch woods
 x 29
@@ -7768,20 +7810,41 @@ x 30
 y 39
 elevation 2030
 end
-arch woods
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
 x 30
 y 40
 elevation 2684
 end
 arch woods
 x 30
+y 40
+end
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
+x 30
 y 41
 elevation 2577
+end
+arch woods
+x 30
+y 41
+end
+arch magic_mouth
+msg
+Stig's hut. Stig kept odd company, and a good deal more of it than one hut should hold.
+endmsg
+x 30
+y 42
+elevation 2444
 end
 arch hills_rocky
 x 30
 y 42
-elevation 2444
 end
 arch hills_rocky
 x 30
