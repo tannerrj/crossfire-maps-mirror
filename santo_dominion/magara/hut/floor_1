@@ -568,7 +568,7 @@ arch cobblestones2
 x 4
 y 7
 end
-arch bwall_2_2_1
+arch bwall_3_2
 x 4
 y 7
 end
@@ -580,11 +580,19 @@ arch awall_1_1
 x 4
 y 8
 end
+arch bwall_2_1_1
+x 4
+y 8
+end
 arch cobblestones2
 x 4
 y 9
 end
 arch awall_2_2_1
+x 4
+y 9
+end
+arch bwall_1_2
 x 4
 y 9
 end
