@@ -6,7 +6,7 @@ width 50
 height 50
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-04 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_103_126
@@ -92,6 +92,13 @@ arch tree3
 y 19
 end
 arch cobblestones2
+y 20
+end
+arch sign
+name stone at the wellhead
+msg
+The bloodwell. A vicous beast sits on it. The well is why the beast is there, and the beast is why you should not be.
+endmsg
 y 20
 end
 arch cobblestones2
@@ -2916,6 +2923,14 @@ arch cobblestones2
 x 11
 y 11
 end
+arch sign
+name plaque at the wellhead
+msg
+The Well of Intelligence. To drink of it is said to make a man wiser. Reaching the water is the difficult part.
+endmsg
+x 11
+y 11
+end
 arch cobblestones2
 x 11
 y 12
@@ -5432,13 +5447,34 @@ arch brush
 x 21
 y 9
 end
-arch mountain
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
 x 21
 y 10
 end
 arch mountain
 x 21
+y 10
+end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 21
 y 11
+end
+arch mountain
+x 21
+y 11
+end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 21
+y 12
 end
 arch mountain
 x 21
@@ -5673,6 +5709,13 @@ arch brush
 x 22
 y 9
 end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 22
+y 10
+end
 arch mountain
 x 22
 y 10
@@ -5688,6 +5731,13 @@ hp 1
 sp 3
 x 22
 y 11
+end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 22
+y 12
 end
 arch mountain
 x 22
@@ -5776,6 +5826,14 @@ x 22
 y 28
 end
 arch mountain
+x 22
+y 29
+end
+arch sign
+name marker on the mountain track
+msg
+Dragon Mountain. The kobolds at the entrance are the mountain's least threat.
+endmsg
 x 22
 y 29
 end
@@ -5922,15 +5980,39 @@ arch brush
 x 23
 y 9
 end
-arch mountain
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
 x 23
 y 10
 end
 arch mountain
 x 23
+y 10
+end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 23
 y 11
 end
 arch mountain
+x 23
+y 11
+end
+arch magic_mouth
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
+x 23
+y 12
+end
+arch mountain
+msg
+A thieves' den, and an honest one of its kind: they will take everything and leave you walking.
+endmsg
 x 23
 y 12
 end
