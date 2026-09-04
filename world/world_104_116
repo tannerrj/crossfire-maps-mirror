@@ -7,7 +7,7 @@ width 50
 height 50
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-04 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_104_115
@@ -10398,6 +10398,14 @@ x 40
 y 3
 elevation 13079
 end
+arch sign
+name inn sign
+msg
+THE BARKING MULE - ale, beds, and gossip. Ask for Fran if you want the gossip; she gives more of it than the management would like.
+endmsg
+x 40
+y 3
+end
 arch grass
 x 40
 y 4
@@ -11246,6 +11254,14 @@ arch cobblestones2
 x 43
 y 7
 elevation 12358
+end
+arch sign
+name property board
+msg
+Breezy Acres. The name was the seller's idea. The pests came with the property.
+endmsg
+x 43
+y 7
 end
 arch grass
 x 43
