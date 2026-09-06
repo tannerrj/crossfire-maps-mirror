@@ -563,6 +563,9 @@ arch mine12
 x 2
 y 26
 end
+arch blocked
+x 3
+end
 arch small_stones
 x 3
 y 1
@@ -682,6 +685,13 @@ end
 arch mine2
 x 3
 y 25
+end
+arch blocked
+x 3
+y 26
+end
+arch blocked
+x 4
 end
 arch small_stones
 x 4
@@ -839,6 +849,13 @@ arch mine2
 x 4
 y 25
 end
+arch blocked
+x 4
+y 26
+end
+arch blocked
+x 5
+end
 arch small_stones
 x 5
 y 1
@@ -986,6 +1003,13 @@ end
 arch mine2
 x 5
 y 25
+end
+arch blocked
+x 5
+y 26
+end
+arch blocked
+x 6
 end
 arch small_stones
 x 6
@@ -1147,6 +1171,13 @@ arch mine2
 x 6
 y 25
 end
+arch blocked
+x 6
+y 26
+end
+arch blocked
+x 7
+end
 arch small_stones
 x 7
 y 1
@@ -1294,6 +1325,13 @@ end
 arch mine2
 x 7
 y 25
+end
+arch blocked
+x 7
+y 26
+end
+arch blocked
+x 8
 end
 arch small_stones
 x 8
@@ -1455,6 +1493,13 @@ arch mine2
 x 8
 y 25
 end
+arch blocked
+x 8
+y 26
+end
+arch blocked
+x 9
+end
 arch small_stones
 x 9
 y 1
@@ -1614,6 +1659,13 @@ end
 arch mine2
 x 9
 y 25
+end
+arch blocked
+x 9
+y 26
+end
+arch blocked
+x 10
 end
 arch small_stones
 x 10
@@ -1775,6 +1827,13 @@ arch mine2
 x 10
 y 25
 end
+arch blocked
+x 10
+y 26
+end
+arch blocked
+x 11
+end
 arch small_stones
 x 11
 y 1
@@ -1926,6 +1985,13 @@ end
 arch mine2
 x 11
 y 25
+end
+arch blocked
+x 11
+y 26
+end
+arch blocked
+x 12
 end
 arch small_stones
 x 12
@@ -2090,6 +2156,13 @@ end
 arch mine2
 x 12
 y 25
+end
+arch blocked
+x 12
+y 26
+end
+arch blocked
+x 13
 end
 arch small_stones
 x 13
@@ -2263,6 +2336,13 @@ arch mine2
 x 13
 y 25
 end
+arch blocked
+x 13
+y 26
+end
+arch blocked
+x 14
+end
 arch small_stones
 x 14
 y 1
@@ -2426,6 +2506,13 @@ end
 arch mine2
 x 14
 y 25
+end
+arch blocked
+x 14
+y 26
+end
+arch blocked
+x 15
 end
 arch small_stones
 x 15
@@ -2599,6 +2686,13 @@ arch mine2
 x 15
 y 25
 end
+arch blocked
+x 15
+y 26
+end
+arch blocked
+x 16
+end
 arch small_stones
 x 16
 y 1
@@ -2750,6 +2844,13 @@ end
 arch mine2
 x 16
 y 25
+end
+arch blocked
+x 16
+y 26
+end
+arch blocked
+x 17
 end
 arch small_stones
 x 17
@@ -2923,6 +3024,13 @@ arch mine2
 x 17
 y 25
 end
+arch blocked
+x 17
+y 26
+end
+arch blocked
+x 18
+end
 arch small_stones
 x 18
 y 1
@@ -3082,6 +3190,13 @@ arch mine2
 x 18
 y 25
 end
+arch blocked
+x 18
+y 26
+end
+arch blocked
+x 19
+end
 arch small_stones
 x 19
 y 1
@@ -3218,6 +3333,13 @@ arch mine2
 x 19
 y 25
 end
+arch blocked
+x 19
+y 26
+end
+arch blocked
+x 20
+end
 arch small_stones
 x 20
 y 1
@@ -3337,6 +3459,13 @@ end
 arch mine2
 x 20
 y 25
+end
+arch blocked
+x 20
+y 26
+end
+arch blocked
+x 21
 end
 arch small_stones
 x 21
@@ -3486,6 +3615,13 @@ arch mine2
 x 21
 y 25
 end
+arch blocked
+x 21
+y 26
+end
+arch blocked
+x 22
+end
 arch small_stones
 x 22
 y 1
@@ -3626,6 +3762,13 @@ arch mine2
 x 22
 y 25
 end
+arch blocked
+x 22
+y 26
+end
+arch blocked
+x 23
+end
 arch small_stones
 x 23
 y 1
@@ -3753,6 +3896,13 @@ end
 arch mine2
 x 23
 y 25
+end
+arch blocked
+x 23
+y 26
+end
+arch blocked
+x 24
 end
 arch small_stones
 x 24
@@ -3914,6 +4064,13 @@ arch mine2
 x 24
 y 25
 end
+arch blocked
+x 24
+y 26
+end
+arch blocked
+x 25
+end
 arch small_stones
 x 25
 y 1
@@ -4082,6 +4239,37 @@ arch mine12
 x 25
 y 25
 end
+arch blocked
+x 25
+y 26
+end
+arch blocked
+x 26
+end
+arch blocked
+x 26
+y 1
+end
+arch blocked
+x 26
+y 2
+end
+arch blocked
+x 26
+y 3
+end
+arch blocked
+x 26
+y 4
+end
+arch blocked
+x 26
+y 5
+end
+arch blocked
+x 26
+y 6
+end
 arch small_stones
 x 26
 y 7
@@ -4169,4 +4357,40 @@ end
 arch mine12
 x 26
 y 17
+end
+arch blocked
+x 26
+y 18
+end
+arch blocked
+x 26
+y 19
+end
+arch blocked
+x 26
+y 20
+end
+arch blocked
+x 26
+y 21
+end
+arch blocked
+x 26
+y 22
+end
+arch blocked
+x 26
+y 23
+end
+arch blocked
+x 26
+y 24
+end
+arch blocked
+x 26
+y 25
+end
+arch blocked
+x 26
+y 26
 end
