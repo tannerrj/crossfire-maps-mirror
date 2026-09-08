@@ -9,7 +9,7 @@ enter_x 5
 enter_y 37
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-08 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -183,7 +183,14 @@ y 28
 end
 arch cobblestones2
 y 28
-elevation 459
+elevation 1145
+end
+arch sign
+name crooked sign
+msg
+Puddings Place, so called. There are no puddings. There is a good deal else.
+endmsg
+y 28
 end
 arch dungeon_magic
 y 29
@@ -4571,6 +4578,15 @@ x 10
 y 27
 elevation 96
 end
+arch sign
+name quarantine notice
+msg
+ANIMAL QUARANTINE
+Whatever was penned here stopped being livestock a long while ago.  Note that the gate is not bolted from the outside.
+endmsg
+x 10
+y 27
+end
 arch dungeon_magic
 x 10
 y 28
@@ -4816,6 +4832,14 @@ arch cobblestones2
 x 10
 y 47
 elevation 8087
+end
+arch sign
+name municipal noticeboard
+msg
+SCORN MUNICIPAL ZOO - Over seventy species on show. Keepers ask that visitors do not feed the exhibits, and note that not every enclosure is as sound as it was.
+endmsg
+x 10
+y 47
 end
 arch dungeon_magic
 x 10
@@ -6089,6 +6113,14 @@ x 13
 y 41
 elevation 9946
 end
+arch sign
+name peeling attraction board
+msg
+THE FUN HOUSE. Proprietor absent, attraction unattended. What is inside was not part of the original attraction.
+endmsg
+x 13
+y 41
+end
 arch dungeon_magic
 x 13
 y 42
@@ -6876,6 +6908,13 @@ x 15
 y 32
 elevation 1275
 end
+arch sign
+msg
+The old city lies below this well. Scorn was built on top of it for a reason, and the reason has not gone anywhere.
+endmsg
+x 15
+y 32
+end
 arch dungeon_magic
 x 15
 y 33
@@ -6977,6 +7016,14 @@ x 15
 y 41
 elevation 8224
 end
+arch sign
+name guild notice
+msg
+The porters' guildhouse. The porters left in a hurry and did not take their goods with them, which should tell you what came in behind.
+endmsg
+x 15
+y 41
+end
 arch dungeon_magic
 x 15
 y 42
@@ -7024,6 +7071,14 @@ arch grasspond
 x 15
 y 45
 elevation 3870
+end
+arch sign
+name arena notice
+msg
+SCORN BATTLE ARENA. Combat by consent. Deaths here are not permanent and are not the city's fault.
+endmsg
+x 15
+y 45
 end
 arch dungeon_magic
 x 15
@@ -8744,6 +8799,14 @@ x 19
 y 38
 elevation 3987
 end
+arch sign
+name marker on the grovel road
+msg
+Gork's Grovel. Gork has lots of his cousins down there and no reason at all to be reasonable.
+endmsg
+x 19
+y 38
+end
 arch dungeon_magic
 x 19
 y 39
@@ -10047,6 +10110,14 @@ arch grass
 x 22
 y 40
 elevation 608
+end
+arch sign
+name farm gate board
+msg
+Terry's farm. Terry has goblins in the barn, ogres in the yard, and a goose that is worse than either.
+endmsg
+x 22
+y 40
 end
 arch grass
 x 22
@@ -12154,10 +12225,17 @@ x 30
 y 30
 elevation 7834
 end
-arch mountain
+arch magic_mouth
+msg
+Gnoll grotto. Two sorts of thing den here and have reached an arrangement between them. It does not extend to you.
+endmsg
 x 30
 y 31
 elevation 7996
+end
+arch mountain
+x 30
+y 31
 end
 arch hills_rocky
 x 30
@@ -12450,15 +12528,29 @@ x 31
 y 29
 elevation 6216
 end
-arch mountain
+arch magic_mouth
+msg
+Gnoll grotto. Two sorts of thing den here and have reached an arrangement between them. It does not extend to you.
+endmsg
 x 31
 y 30
 elevation 7346
 end
-arch hills
+arch mountain
+x 31
+y 30
+end
+arch magic_mouth
+msg
+Gnoll grotto. Two sorts of thing den here and have reached an arrangement between them. It does not extend to you.
+endmsg
 x 31
 y 31
 elevation 3456
+end
+arch hills
+x 31
+y 31
 end
 arch hills_rocky
 x 31
