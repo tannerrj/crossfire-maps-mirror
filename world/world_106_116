@@ -6,7 +6,7 @@ width 50
 height 50
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-09-14 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_106_115
@@ -2369,6 +2369,10 @@ x 9
 y 8
 elevation 872
 end
+arch campfire_out
+x 9
+y 8
+end
 arch hills_rocky
 x 9
 y 9
@@ -2879,10 +2883,20 @@ x 11
 y 8
 elevation 2360
 end
+arch bones4
+x 11
+y 8
+no_pick 1
+end
 arch woods
 x 11
 y 9
 elevation 2573
+end
+arch bones3
+x 11
+y 9
+no_pick 1
 end
 arch desert
 x 11
@@ -2893,6 +2907,10 @@ arch hills
 x 11
 y 11
 elevation 3296
+end
+arch campfire_out
+x 11
+y 11
 end
 arch mountain
 x 11
@@ -3135,6 +3153,10 @@ arch hills_rocky
 x 12
 y 9
 elevation 4022
+end
+arch bones4
+x 12
+y 9
 end
 arch hills_rocky
 x 12
@@ -3380,20 +3402,46 @@ x 13
 y 8
 elevation 7111
 end
-arch mountain
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 13
 y 9
 elevation 5584
 end
-arch woods
+arch mountain
+x 13
+y 9
+end
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 13
 y 10
 elevation 2873
 end
-arch hills_rocky
+arch woods
+x 13
+y 10
+end
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 13
 y 11
 elevation 4873
+end
+arch hills_rocky
+x 13
+y 11
+end
+arch bones3
+x 13
+y 11
+no_pick 1
 end
 arch mountain
 x 13
@@ -3641,10 +3689,17 @@ x 14
 y 8
 elevation 7454
 end
-arch mountain
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 14
 y 9
 elevation 6360
+end
+arch mountain
+x 14
+y 9
 end
 arch brush
 x 14
@@ -3658,10 +3713,17 @@ x 14
 y 10
 is_floor 0
 end
-arch mountain
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 14
 y 11
 elevation 5827
+end
+arch mountain
+x 14
+y 11
 end
 arch mountain
 x 14
@@ -3905,20 +3967,41 @@ x 15
 y 8
 elevation 5965
 end
-arch mountain
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
 x 15
 y 9
 elevation 6661
 end
 arch mountain
 x 15
+y 9
+end
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
+x 15
 y 10
 elevation 6548
 end
 arch mountain
 x 15
+y 10
+end
+arch magic_mouth
+msg
+A hole, and goblin tracks all round it - cook-fires, bones, and more of both every season. Nobody has yet found the bottom of the supply.
+endmsg
+x 15
 y 11
 elevation 6693
+end
+arch mountain
+x 15
+y 11
 end
 arch mountain
 x 15
@@ -4697,10 +4780,19 @@ x 18
 y 9
 elevation 4473
 end
+arch bones3
+x 18
+y 9
+no_pick 1
+end
 arch hills
 x 18
 y 10
 elevation 4513
+end
+arch campfire_out
+x 18
+y 10
 end
 arch hills_rocky
 x 18
@@ -4962,6 +5054,11 @@ arch hills_rocky
 x 19
 y 10
 elevation 3035
+end
+arch bones4
+x 19
+y 10
+no_pick 1
 end
 arch hills_rocky
 x 19
