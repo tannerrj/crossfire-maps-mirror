@@ -9,7 +9,7 @@ enter_x 9
 enter_y 22
 msg
 Created:  1993-12-04
-Modified: 2026-09-16 Rick Tanner
+Modified: 2026-09-17 Rick Tanner
 endmsg
 end
 arch grass
@@ -2904,7 +2904,6 @@ end
 arch chicken
 x 18
 y 10
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3024,7 +3023,6 @@ end
 arch chicken
 x 19
 y 6
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3044,7 +3042,6 @@ end
 arch chicken
 x 19
 y 9
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3065,7 +3062,6 @@ end
 arch chicken
 x 19
 y 11
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3098,7 +3094,6 @@ end
 arch chicken
 x 19
 y 16
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3197,7 +3192,6 @@ end
 arch chicken
 x 20
 y 8
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3234,7 +3228,6 @@ end
 arch chicken
 x 20
 y 14
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3354,7 +3347,6 @@ end
 arch chicken
 x 21
 y 9
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3370,7 +3362,6 @@ end
 arch chicken
 x 21
 y 11
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3407,7 +3398,6 @@ end
 arch chicken
 x 21
 y 16
-carrying 7500
 arch roast_bird
 value 5
 end
@@ -3946,7 +3936,6 @@ x 25
 y 8
 level 8
 attacktype 4097
-carrying 20
 sleep 0
 arch flowers_permanent
 end
@@ -3973,7 +3962,6 @@ x 25
 y 9
 level 8
 attacktype 4097
-carrying 20
 sleep 0
 arch flowers_permanent
 end
@@ -4000,7 +3988,6 @@ x 25
 y 10
 level 8
 attacktype 4097
-carrying 20
 sleep 0
 arch flowers_permanent
 end
@@ -4027,7 +4014,6 @@ x 25
 y 11
 level 8
 attacktype 4097
-carrying 20
 sleep 0
 arch flowers_permanent
 end
