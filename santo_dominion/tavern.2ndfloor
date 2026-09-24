@@ -7,8 +7,8 @@ height 31
 enter_x 16
 enter_y 14
 msg
-Created: Andreas Vogl (red.blaze@gmx.net)
-Modified: 2023-12-02 Rick Tanner
+Created:  1994-03-24
+Modified: 2026-09-23 Rick Tanner
 endmsg
 reset_group santodominion_the-golden-lion
 end
@@ -1877,6 +1877,7 @@ x 11
 y 7
 end
 arch fatman
+random_movement 0
 name Bonzo the Banker
 msg
 @match *
@@ -1884,7 +1885,6 @@ Nooo! Don't steal my money. It's all mine, mine, miiiine!
 endmsg
 x 11
 y 7
-random_movement 0
 arch goldcoin
 nrof 200
 end
@@ -4286,6 +4286,7 @@ x 23
 y 24
 end
 arch woodfloor
+anim_speed 0.2
 name fireplace
 face lava.111
 animation permanent_lava
@@ -4293,7 +4294,6 @@ x 23
 y 25
 speed 0.2
 is_animated 1
-anim_speed 0.2
 end
 arch cauldron
 x 23
