@@ -7,8 +7,8 @@ height 25
 enter_x 12
 enter_y 12
 msg
-Created:  1993-02-12
-Modified: 2022-07-27 Rick Tanner
+Created:  1993-12-04
+Modified: 2026-09-25 Rick Tanner
 endmsg
 reset_group santodominion_tobias-tower
 end
@@ -289,10 +289,10 @@ x 2
 y 13
 end
 arch bird
+random_movement 1
 x 2
 y 13
 friendly 1
-random_movement 1
 end
 arch dungeon_magic
 x 2
@@ -779,10 +779,10 @@ x 5
 y 2
 end
 arch bird
+random_movement 1
 x 5
 y 2
 friendly 1
-random_movement 1
 end
 arch invis_exit
 slaying /world/world_102_108
@@ -911,10 +911,10 @@ x 5
 y 22
 end
 arch bird
+random_movement 1
 x 5
 y 22
 friendly 1
-random_movement 1
 end
 arch cobblestones
 x 5
@@ -2917,10 +2917,10 @@ x 19
 y 3
 end
 arch bird
+random_movement 1
 x 19
 y 3
 friendly 1
-random_movement 1
 end
 arch cobblestones
 x 19
@@ -3518,10 +3518,10 @@ x 22
 y 12
 end
 arch bird
+random_movement 1
 x 22
 y 12
 friendly 1
-random_movement 1
 end
 arch dungeon_magic
 x 22
@@ -3580,10 +3580,10 @@ x 22
 y 19
 end
 arch bird
+random_movement 1
 x 22
 y 19
 friendly 1
-random_movement 1
 end
 arch dungeon_magic
 x 22
@@ -3645,10 +3645,10 @@ x 23
 y 6
 end
 arch bird
+random_movement 1
 x 23
 y 6
 friendly 1
-random_movement 1
 end
 arch cobblestones
 x 23
