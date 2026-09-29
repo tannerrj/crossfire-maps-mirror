@@ -7,7 +7,7 @@ height 30
 enter_y 20
 msg
 Created:  1995-05-03
-Modified: 2023-06-04 Rick Tanner
+Modified: 2026-09-29 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -813,7 +813,6 @@ name big hill giant
 hp 450
 x 3
 y 13
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -1347,7 +1346,6 @@ end
 arch behemoth
 x 5
 y 3
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -3688,7 +3686,6 @@ end
 arch dragon
 x 12
 y 3
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -3940,7 +3937,6 @@ end
 arch big_elec
 x 12
 y 24
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -5314,7 +5310,6 @@ end
 arch big_dragon
 x 17
 y 3
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -5922,7 +5917,6 @@ name huge baslic
 hp 2200
 x 18
 y 25
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -7699,7 +7693,6 @@ name strong troll
 hp 1500
 x 24
 y 3
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -8253,7 +8246,6 @@ end
 arch titan
 x 25
 y 24
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -11183,7 +11175,6 @@ end
 arch gaelotroll
 x 34
 y 20
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -11429,7 +11420,6 @@ end
 arch dread
 x 35
 y 13
-carrying 100
 arch key2
 name arena key
 slaying arena
@@ -11627,7 +11617,6 @@ end
 arch spider
 x 36
 y 3
-carrying 100
 arch key2
 name arena key
 slaying arena
