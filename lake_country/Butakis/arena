@@ -2876,7 +2876,7 @@ y 19
 end
 arch sign
 msg
-Go to middle of the arena and say 'start' when you are ready. No magic is can be casted in the arena and adjacent areas to prevent magical means of fleeing..
+Go to middle of the arena at the white 'x' and say 'start' when you are ready. No magic is can be casted in the arena and adjacent areas to prevent magical means of fleeing..
 endmsg
 x 9
 y 19
@@ -6126,7 +6126,7 @@ x 19
 y 14
 connected 1
 end
-arch pstone_2
+arch fcross-white
 x 19
 y 14
 end
