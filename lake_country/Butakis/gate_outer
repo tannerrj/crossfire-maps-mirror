@@ -8,7 +8,7 @@ enter_x 1
 enter_y 7
 msg
 Created:  1995-03-28
-Modified: 2021-07-25 Andreas Kirschbaum
+Modified: 2026-10-02 Rick Tanner
 endmsg
 end
 arch mine2
@@ -82,10 +82,10 @@ end
 arch tree5
 y 13
 end
-arch mine2
+arch mine14
 y 14
 end
-arch blocked
+arch mine2
 y 15
 end
 arch mine16
@@ -223,11 +223,11 @@ name tunnel wall
 x 1
 y 13
 end
-arch mine13
+arch mine14
 x 1
 y 14
 end
-arch blocked
+arch mine2
 x 1
 y 15
 end
@@ -448,6 +448,10 @@ name tunnel wall
 x 3
 y 2
 end
+arch swall_1_1_half
+x 3
+y 2
+end
 arch cobblestones2
 x 3
 y 3
@@ -519,6 +523,10 @@ y 10
 end
 arch mine12
 name tunnel wall
+x 3
+y 10
+end
+arch swall_1_1_half
 x 3
 y 10
 end
@@ -1204,7 +1212,8 @@ arch cobblestones
 x 9
 y 15
 end
-arch mine5
+arch mine4
+name tunnel wall
 x 9
 y 15
 end
@@ -1298,11 +1307,11 @@ arch cobblestones
 x 10
 y 14
 end
-arch mine2
+arch mine14
 x 10
 y 14
 end
-arch blocked
+arch mine2
 x 10
 y 15
 end
@@ -1406,11 +1415,11 @@ arch cobblestones
 x 11
 y 14
 end
-arch mine2
+arch mine14
 x 11
 y 14
 end
-arch blocked
+arch mine2
 x 11
 y 15
 end
@@ -1534,11 +1543,11 @@ arch cobblestones
 x 12
 y 14
 end
-arch mine2
+arch mine14
 x 12
 y 14
 end
-arch blocked
+arch mine2
 x 12
 y 15
 end
@@ -1698,11 +1707,11 @@ arch cobblestones
 x 13
 y 14
 end
-arch mine13
+arch mine14
 x 13
 y 14
 end
-arch blocked
+arch mine2
 x 13
 y 15
 end
@@ -1894,11 +1903,11 @@ arch cobblestones
 x 14
 y 14
 end
-arch mine13
+arch mine14
 x 14
 y 14
 end
-arch blocked
+arch mine2
 x 14
 y 15
 end
@@ -2029,11 +2038,11 @@ arch cobblestones
 x 15
 y 14
 end
-arch mine13
+arch mine14
 x 15
 y 14
 end
-arch blocked
+arch mine2
 x 15
 y 15
 end
