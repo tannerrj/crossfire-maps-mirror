@@ -8,7 +8,7 @@ enter_x 10
 enter_y 16
 msg
 Created:  1995-03-28 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-05 Rick Tanner
 endmsg
 end
 arch grass_only
@@ -470,7 +470,7 @@ arch woodfloor
 x 4
 y 11
 end
-arch stol_king_2
+arch chair_2.3
 x 4
 y 11
 end
@@ -533,7 +533,7 @@ arch woodfloor
 x 5
 y 3
 end
-arch stol_king_2
+arch chair_2.1
 x 5
 y 3
 end
@@ -622,10 +622,6 @@ arch woodfloor
 x 5
 y 16
 end
-arch stol_king_2
-x 5
-y 16
-end
 arch woodfloor
 x 5
 y 17
@@ -661,7 +657,7 @@ arch woodfloor
 x 6
 y 3
 end
-arch stol_king_2
+arch chair_2.1
 x 6
 y 3
 end
@@ -720,6 +716,10 @@ x 6
 y 14
 end
 arch woodfloor
+x 6
+y 15
+end
+arch chair_2.2
 x 6
 y 15
 end
@@ -794,7 +794,7 @@ arch woodfloor
 x 7
 y 7
 end
-arch chair_1.1
+arch chair_1.4
 x 7
 y 7
 end
@@ -810,7 +810,7 @@ arch woodfloor
 x 7
 y 10
 end
-arch chair_1.1
+arch chair_1.4
 x 7
 y 10
 end
@@ -908,7 +908,7 @@ arch woodfloor
 x 8
 y 3
 end
-arch stol_king_2
+arch chair_2.4
 x 8
 y 3
 end
@@ -948,7 +948,7 @@ arch woodfloor
 x 8
 y 8
 end
-arch chair_1.1
+arch chair_1.3
 x 8
 y 8
 end
@@ -1011,7 +1011,7 @@ arch woodfloor
 x 8
 y 11
 end
-arch chair_1.1
+arch chair_1.3
 x 8
 y 11
 end
@@ -1050,7 +1050,7 @@ arch woodfloor
 x 8
 y 13
 end
-arch stol_king_2
+arch chair_2.1
 x 8
 y 13
 end
@@ -1068,7 +1068,7 @@ arch woodfloor
 x 8
 y 15
 end
-arch stol_king_2
+arch chair_2.4
 x 8
 y 15
 end
@@ -1131,7 +1131,7 @@ arch woodfloor
 x 9
 y 7
 end
-arch chair_1.1
+arch chair_1.2
 x 9
 y 7
 end
@@ -1147,7 +1147,7 @@ arch woodfloor
 x 9
 y 10
 end
-arch chair_1.1
+arch chair_1.2
 x 9
 y 10
 end
@@ -1249,7 +1249,7 @@ arch woodfloor
 x 10
 y 7
 end
-arch chair_1.1
+arch chair_1.4
 x 10
 y 7
 end
@@ -1370,7 +1370,7 @@ arch woodfloor
 x 11
 y 8
 end
-arch chair_1.1
+arch chair_1.3
 x 11
 y 8
 end
@@ -1428,7 +1428,7 @@ arch woodfloor
 x 11
 y 13
 end
-arch stol_king_2
+arch chair_2.1
 x 11
 y 13
 end
@@ -1507,7 +1507,7 @@ arch woodfloor
 x 12
 y 7
 end
-arch chair_1.1
+arch chair_1.2
 x 12
 y 7
 end
@@ -1846,7 +1846,7 @@ arch woodfloor
 x 15
 y 3
 end
-arch stol_king_2
+arch chair_2.1
 x 15
 y 3
 end
@@ -1890,7 +1890,7 @@ arch woodfloor
 x 15
 y 11
 end
-arch stol_king_2
+arch chair_2.3
 x 15
 y 11
 end
@@ -1933,37 +1933,25 @@ arch woodfloor
 x 15
 y 13
 end
-arch table_3
+arch table_1x2
 x 15
 y 13
-move_block all
 end
 arch woodfloor
 x 15
 y 14
 end
-arch table_3
-x 15
-y 14
-move_block all
-end
 arch woodfloor
 x 15
 y 15
 end
-arch table_3
+arch table_1x2
 x 15
 y 15
-move_block all
 end
 arch woodfloor
 x 15
 y 16
-end
-arch table_3
-x 15
-y 16
-move_block all
 end
 arch woodfloor
 x 15
