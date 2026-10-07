@@ -13,4 +13,9 @@ The subdirectories are:
 Script additions should be placed in a subdirectory, either existing, or when it makes sense, a new one.
 Shared classes used for import should be placed in the root directory
 
-All Python scripts added to this map repository should be tested with and valid for Python 2.3
+# Dependencies
+
+Some scripts depend on Python packages that are not part of the Python
+standard library. To install these dependencies, run:
+
+    $ pip install -r requirements.txt
