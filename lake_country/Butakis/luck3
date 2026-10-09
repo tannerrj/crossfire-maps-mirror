@@ -8,7 +8,7 @@ enter_x 30
 enter_y 17
 msg
 Created:  1995-05-01 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-08 Rick Tanner
 endmsg
 reset_group butakisfortress_tower-of-luck
 end
@@ -257,7 +257,6 @@ resist_cold 100
 resist_confusion 100
 resist_weaponmagic 100
 resist_fear 100
-carrying 5000
 move_type walk
 monster 1
 unique 1
@@ -324,7 +323,6 @@ resist_physical 100
 resist_electricity 30
 resist_cold 100
 resist_paralyze 100
-carrying 100000
 move_type walk fly_low
 arch gem
 nrof 2000
@@ -428,7 +426,6 @@ resist_physical 100
 resist_electricity 30
 resist_cold 100
 resist_paralyze 100
-carrying 100000
 move_type walk fly_low
 arch gem
 nrof 2000
@@ -648,7 +645,6 @@ end
 arch chest_2
 x 2
 y 30
-carrying 78300
 arch scroll
 msg
 Congratulations winner(s)!!!
@@ -2266,7 +2262,6 @@ x 11
 y 27
 speed 1.000000
 level 80
-carrying 100
 arch key2
 name Heart of Joey
 slaying Heart_Joey
