@@ -5166,6 +5166,22 @@ arch mine13
 x 26
 y 31
 end
+arch dungeon_floor
+x 27
+end
+arch button_plate
+name large button of fragment
+x 27
+connected 19
+end
+arch dungeon_floor
+x 27
+y 1
+end
+arch dungeon_floor
+x 27
+y 2
+end
 arch blocked
 x 27
 y 3
@@ -5390,6 +5406,29 @@ arch mine2
 x 27
 y 31
 end
+arch dungeon_floor
+x 28
+end
+arch dungeon_floor
+x 28
+y 1
+end
+arch spikes_open
+x 28
+y 1
+speed 0.500000
+value 1
+connected 11
+end
+arch boulder
+name boulder of fragment chance
+x 28
+y 1
+end
+arch dungeon_floor
+x 28
+y 2
+end
 arch blocked
 x 28
 y 3
@@ -5605,6 +5644,23 @@ end
 arch mine2
 x 28
 y 31
+end
+arch dungeon_floor
+x 29
+end
+arch dungeon_floor
+x 29
+y 1
+end
+arch dungeon_floor
+x 29
+y 2
+end
+arch button_plate
+name large button of fragment
+x 29
+y 2
+connected 19
 end
 arch blocked
 x 29
