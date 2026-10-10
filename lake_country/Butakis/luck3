@@ -815,10 +815,6 @@ arch dungeon_floor
 x 3
 y 30
 end
-arch dungeon_floor
-x 3
-y 30
-end
 arch table_4
 x 3
 y 30
@@ -1592,10 +1588,6 @@ arch mine13
 x 8
 y 4
 end
-arch dungeon_floor
-x 8
-y 5
-end
 arch pstone_2
 x 8
 y 5
@@ -1612,17 +1604,9 @@ y 5
 speed -0.500000
 level 25
 end
-arch dungeon_floor
-x 8
-y 6
-end
 arch pstone_2
 x 8
 y 6
-end
-arch dungeon_floor
-x 8
-y 7
 end
 arch pstone_2
 x 8
@@ -1766,25 +1750,13 @@ arch mine13
 x 9
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 9
 y 5
 end
 arch pstone_2
 x 9
-y 5
-end
-arch dungeon_floor
-x 9
 y 6
-end
-arch pstone_2
-x 9
-y 6
-end
-arch dungeon_floor
-x 9
-y 7
 end
 arch pstone_2
 x 9
@@ -1952,25 +1924,13 @@ arch mine13
 x 10
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 10
 y 5
 end
 arch pstone_2
 x 10
-y 5
-end
-arch dungeon_floor
-x 10
 y 6
-end
-arch pstone_2
-x 10
-y 6
-end
-arch dungeon_floor
-x 10
-y 7
 end
 arch pstone_2
 x 10
@@ -2132,25 +2092,13 @@ arch mine13
 x 11
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 11
 y 5
 end
 arch pstone_2
 x 11
-y 5
-end
-arch dungeon_floor
-x 11
 y 6
-end
-arch pstone_2
-x 11
-y 6
-end
-arch dungeon_floor
-x 11
-y 7
 end
 arch pstone_2
 x 11
@@ -2317,10 +2265,6 @@ arch mine13
 x 12
 y 4
 end
-arch dungeon_floor
-x 12
-y 5
-end
 arch pstone_2
 x 12
 y 5
@@ -2337,17 +2281,9 @@ y 5
 speed -0.500000
 level 25
 end
-arch dungeon_floor
-x 12
-y 6
-end
 arch pstone_2
 x 12
 y 6
-end
-arch dungeon_floor
-x 12
-y 7
 end
 arch pstone_2
 x 12
@@ -2503,25 +2439,13 @@ arch mine13
 x 13
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 13
 y 5
 end
 arch pstone_2
 x 13
-y 5
-end
-arch dungeon_floor
-x 13
 y 6
-end
-arch pstone_2
-x 13
-y 6
-end
-arch dungeon_floor
-x 13
-y 7
 end
 arch pstone_2
 x 13
@@ -2671,25 +2595,13 @@ arch mine13
 x 14
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 14
 y 5
 end
 arch pstone_2
 x 14
-y 5
-end
-arch dungeon_floor
-x 14
 y 6
-end
-arch pstone_2
-x 14
-y 6
-end
-arch dungeon_floor
-x 14
-y 7
 end
 arch pstone_2
 x 14
@@ -2884,25 +2796,13 @@ arch mine13
 x 15
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 15
 y 5
 end
 arch pstone_2
 x 15
-y 5
-end
-arch dungeon_floor
-x 15
 y 6
-end
-arch pstone_2
-x 15
-y 6
-end
-arch dungeon_floor
-x 15
-y 7
 end
 arch pstone_2
 x 15
@@ -3138,10 +3038,6 @@ arch mine13
 x 16
 y 4
 end
-arch dungeon_floor
-x 16
-y 5
-end
 arch pstone_2
 x 16
 y 5
@@ -3158,17 +3054,9 @@ y 5
 speed -0.500000
 level 25
 end
-arch dungeon_floor
-x 16
-y 6
-end
 arch pstone_2
 x 16
 y 6
-end
-arch dungeon_floor
-x 16
-y 7
 end
 arch pstone_2
 x 16
@@ -3375,25 +3263,13 @@ arch mine13
 x 17
 y 4
 end
-arch dungeon_floor
+arch pstone_2
 x 17
 y 5
 end
 arch pstone_2
 x 17
-y 5
-end
-arch dungeon_floor
-x 17
 y 6
-end
-arch pstone_2
-x 17
-y 6
-end
-arch dungeon_floor
-x 17
-y 7
 end
 arch pstone_2
 x 17
@@ -3541,33 +3417,17 @@ arch mine13
 x 18
 y 4
 end
-arch dungeon_floor
-x 18
-y 5
-end
 arch pstone_2
 x 18
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 18
 y 6
 end
 arch pstone_2
 x 18
-y 6
-end
-arch dungeon_floor
-x 18
 y 7
-end
-arch pstone_2
-x 18
-y 7
-end
-arch dungeon_floor
-x 18
-y 8
 end
 arch pstone_2
 x 18
@@ -3713,10 +3573,6 @@ arch mine13
 x 19
 y 4
 end
-arch dungeon_floor
-x 19
-y 5
-end
 arch pstone_2
 x 19
 y 5
@@ -3733,25 +3589,13 @@ y 5
 speed -0.500000
 level 25
 end
-arch dungeon_floor
+arch pstone_2
 x 19
 y 6
 end
 arch pstone_2
 x 19
-y 6
-end
-arch dungeon_floor
-x 19
 y 7
-end
-arch pstone_2
-x 19
-y 7
-end
-arch dungeon_floor
-x 19
-y 8
 end
 arch pstone_2
 x 19
@@ -3891,33 +3735,17 @@ arch mine13
 x 20
 y 4
 end
-arch dungeon_floor
-x 20
-y 5
-end
 arch pstone_2
 x 20
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 20
 y 6
 end
 arch pstone_2
 x 20
-y 6
-end
-arch dungeon_floor
-x 20
 y 7
-end
-arch pstone_2
-x 20
-y 7
-end
-arch dungeon_floor
-x 20
-y 8
 end
 arch pstone_2
 x 20
@@ -4057,33 +3885,17 @@ arch mine13
 x 21
 y 4
 end
-arch dungeon_floor
-x 21
-y 5
-end
 arch pstone_2
 x 21
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 21
 y 6
 end
 arch pstone_2
 x 21
-y 6
-end
-arch dungeon_floor
-x 21
 y 7
-end
-arch pstone_2
-x 21
-y 7
-end
-arch dungeon_floor
-x 21
-y 8
 end
 arch pstone_2
 x 21
@@ -4243,33 +4055,17 @@ arch mine13
 x 22
 y 4
 end
-arch dungeon_floor
-x 22
-y 5
-end
 arch pstone_2
 x 22
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 22
 y 6
 end
 arch pstone_2
 x 22
-y 6
-end
-arch dungeon_floor
-x 22
 y 7
-end
-arch pstone_2
-x 22
-y 7
-end
-arch dungeon_floor
-x 22
-y 8
 end
 arch pstone_2
 x 22
@@ -4409,10 +4205,6 @@ arch mine13
 x 23
 y 4
 end
-arch dungeon_floor
-x 23
-y 5
-end
 arch pstone_2
 x 23
 y 5
@@ -4429,25 +4221,13 @@ y 5
 speed -0.500000
 level 25
 end
-arch dungeon_floor
+arch pstone_2
 x 23
 y 6
 end
 arch pstone_2
 x 23
-y 6
-end
-arch dungeon_floor
-x 23
 y 7
-end
-arch pstone_2
-x 23
-y 7
-end
-arch dungeon_floor
-x 23
-y 8
 end
 arch pstone_2
 x 23
@@ -4591,33 +4371,17 @@ arch mine13
 x 24
 y 4
 end
-arch dungeon_floor
-x 24
-y 5
-end
 arch pstone_2
 x 24
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 24
 y 6
 end
 arch pstone_2
 x 24
-y 6
-end
-arch dungeon_floor
-x 24
 y 7
-end
-arch pstone_2
-x 24
-y 7
-end
-arch dungeon_floor
-x 24
-y 8
 end
 arch pstone_2
 x 24
@@ -4763,33 +4527,17 @@ arch mine13
 x 25
 y 4
 end
-arch dungeon_floor
-x 25
-y 5
-end
 arch pstone_2
 x 25
 y 5
 end
-arch dungeon_floor
+arch pstone_2
 x 25
 y 6
 end
 arch pstone_2
 x 25
-y 6
-end
-arch dungeon_floor
-x 25
 y 7
-end
-arch pstone_2
-x 25
-y 7
-end
-arch dungeon_floor
-x 25
-y 8
 end
 arch pstone_2
 x 25
