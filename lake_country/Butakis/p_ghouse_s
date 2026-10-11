@@ -8,7 +8,7 @@ enter_x 7
 enter_y 14
 msg
 Created:  1995-04-13 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-11 Rick Tanner
 endmsg
 end
 arch dun10
@@ -582,6 +582,10 @@ arch dun7
 x 5
 y 13
 end
+arch swall_1_1_half
+x 5
+y 13
+end
 arch cobblestones
 x 5
 y 14
@@ -1022,6 +1026,10 @@ x 9
 y 13
 end
 arch dun4
+x 9
+y 13
+end
+arch swall_1_1_half
 x 9
 y 13
 end
