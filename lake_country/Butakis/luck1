@@ -8,7 +8,7 @@ enter_x 3
 enter_y 5
 msg
 Created:  1995-05-02 Kundi, Xue
-Modified: 2026-10-08 Rick Tanner
+Modified: 2026-10-12 Rick Tanner
 endmsg
 reset_group butakisfortress_tower-of-luck
 end
@@ -5653,6 +5653,18 @@ end
 arch blocked
 x 28
 y 23
+end
+arch dcross-red
+x 29
+y 2
+end
+arch sign
+name Spider and Pit summary
+msg
+Spider and Pit summary. Spiders are adjusted to be aggressive (sleep 0) and has a long range sense (Wis 35) so they move towards the pits when the gate is lowered and attack the player at 1,7
+endmsg
+x 29
+y 2
 end
 arch blocked
 x 29
