@@ -7,7 +7,7 @@ height 16
 enter_y 14
 msg
 Created: 1995-03-29 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-12 Rick Tanner
 endmsg
 reset_group butakisfortress_prison
 end
@@ -993,7 +993,6 @@ y 5
 attack_movement 7
 level 10
 type 0
-carrying 2300
 move_type walk
 monster 1
 unaggressive 1
@@ -1884,7 +1883,6 @@ level 50
 type 0
 resist_physical 100
 resist_magic 100
-carrying 5000
 move_type walk
 monster 1
 unaggressive 1
@@ -2159,7 +2157,6 @@ y 5
 attack_movement 7
 level 10
 type 0
-carrying 2300
 move_type walk
 monster 1
 unaggressive 1
