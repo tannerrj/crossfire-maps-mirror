@@ -8,7 +8,7 @@ enter_x 13
 enter_y 15
 msg
 Created:  1995-03-29 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-13 Rick Tanner
 endmsg
 reset_group butakisfortress_prison
 end
@@ -162,7 +162,6 @@ name Fiery, Wist's fervent pupil
 hp 5500
 x 1
 y 8
-carrying 23700
 invisible 1
 arch chalice
 name chalice of fire
@@ -1101,7 +1100,6 @@ arch jessyb
 name Joey
 x 11
 y 3
-carrying 75
 arch note
 msg
 My heart is held by Grunter. Help me get it back and I will reward you.
