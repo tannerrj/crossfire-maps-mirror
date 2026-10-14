@@ -8,7 +8,7 @@ enter_x 2
 enter_y 9
 msg
 Created:  1995-03-28 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-14 Rick Tanner
 endmsg
 reset_group butakisfortress_royal-library
 end
@@ -68,7 +68,7 @@ end
 arch evergreen
 x 1
 end
-arch marble
+arch dungeon_floor
 x 1
 y 1
 end
@@ -76,7 +76,7 @@ arch wall_2_2_2
 x 1
 y 1
 end
-arch marble
+arch dungeon_floor
 x 1
 y 2
 end
@@ -84,7 +84,7 @@ arch wall_2_1_1
 x 1
 y 2
 end
-arch marble
+arch dungeon_floor
 x 1
 y 3
 end
@@ -92,7 +92,7 @@ arch wall_2_1_1
 x 1
 y 3
 end
-arch marble
+arch dungeon_floor
 x 1
 y 4
 end
@@ -100,7 +100,7 @@ arch wall_3_2
 x 1
 y 4
 end
-arch marble
+arch dungeon_floor
 x 1
 y 5
 end
@@ -112,7 +112,7 @@ arch swall_1_1_half
 x 1
 y 5
 end
-arch marble
+arch dungeon_floor
 x 1
 y 6
 end
@@ -124,7 +124,7 @@ arch wall_1_1
 x 1
 y 6
 end
-arch marble
+arch dungeon_floor
 x 1
 y 7
 end
@@ -132,7 +132,7 @@ arch wall_2_2_1
 x 1
 y 7
 end
-arch marble
+arch dungeon_floor
 x 1
 y 8
 end
@@ -143,7 +143,7 @@ sp 26
 x 1
 y 8
 end
-arch marble
+arch dungeon_floor
 x 1
 y 9
 end
@@ -154,7 +154,7 @@ sp 26
 x 1
 y 9
 end
-arch marble
+arch dungeon_floor
 x 1
 y 10
 end
@@ -162,7 +162,7 @@ arch wall_2_2_2
 x 1
 y 10
 end
-arch marble
+arch dungeon_floor
 x 1
 y 11
 end
@@ -174,7 +174,7 @@ arch swall_1_1_half
 x 1
 y 11
 end
-arch marble
+arch dungeon_floor
 x 1
 y 12
 end
@@ -186,7 +186,7 @@ arch wall_1_1
 x 1
 y 12
 end
-arch marble
+arch dungeon_floor
 x 1
 y 13
 end
@@ -194,7 +194,7 @@ arch wall_3_2
 x 1
 y 13
 end
-arch marble
+arch dungeon_floor
 x 1
 y 14
 end
@@ -202,7 +202,7 @@ arch wall_2_1_1
 x 1
 y 14
 end
-arch marble
+arch dungeon_floor
 x 1
 y 15
 end
@@ -210,7 +210,7 @@ arch wall_2_1_1
 x 1
 y 15
 end
-arch marble
+arch dungeon_floor
 x 1
 y 16
 end
@@ -225,7 +225,7 @@ end
 arch evergreen
 x 2
 end
-arch marble
+arch dungeon_floor
 x 2
 y 1
 end
@@ -329,7 +329,7 @@ arch random_reading
 x 2
 y 15
 end
-arch marble
+arch dungeon_floor
 x 2
 y 16
 end
@@ -344,7 +344,7 @@ end
 arch evergreen
 x 3
 end
-arch marble
+arch dungeon_floor
 x 3
 y 1
 end
@@ -440,7 +440,7 @@ arch random_reading
 x 3
 y 15
 end
-arch marble
+arch dungeon_floor
 x 3
 y 16
 end
@@ -455,7 +455,7 @@ end
 arch evergreen
 x 4
 end
-arch marble
+arch dungeon_floor
 x 4
 y 1
 end
@@ -531,7 +531,7 @@ arch marble
 x 4
 y 15
 end
-arch marble
+arch dungeon_floor
 x 4
 y 16
 end
@@ -550,7 +550,7 @@ end
 arch evergreen
 x 5
 end
-arch marble
+arch dungeon_floor
 x 5
 y 1
 end
@@ -646,7 +646,7 @@ arch marble
 x 5
 y 15
 end
-arch marble
+arch dungeon_floor
 x 5
 y 16
 end
@@ -661,7 +661,7 @@ end
 arch evergreen
 x 6
 end
-arch marble
+arch dungeon_floor
 x 6
 y 1
 end
@@ -745,7 +745,7 @@ arch stol_king_1
 x 6
 y 15
 end
-arch marble
+arch dungeon_floor
 x 6
 y 16
 end
@@ -764,7 +764,7 @@ end
 arch evergreen
 x 7
 end
-arch marble
+arch dungeon_floor
 x 7
 y 1
 end
@@ -860,7 +860,7 @@ arch wall_1_1
 x 7
 y 15
 end
-arch marble
+arch dungeon_floor
 x 7
 y 16
 end
@@ -875,7 +875,7 @@ end
 arch evergreen
 x 8
 end
-arch marble
+arch dungeon_floor
 x 8
 y 1
 end
@@ -955,7 +955,7 @@ arch marble
 x 8
 y 15
 end
-arch marble
+arch dungeon_floor
 x 8
 y 16
 end
@@ -970,7 +970,7 @@ end
 arch evergreen
 x 9
 end
-arch marble
+arch dungeon_floor
 x 9
 y 1
 end
@@ -1042,7 +1042,7 @@ arch knight
 x 9
 y 15
 end
-arch marble
+arch dungeon_floor
 x 9
 y 16
 end
@@ -1057,7 +1057,7 @@ end
 arch evergreen
 x 10
 end
-arch marble
+arch dungeon_floor
 x 10
 y 1
 end
@@ -1145,7 +1145,7 @@ arch knight
 x 10
 y 15
 end
-arch marble
+arch dungeon_floor
 x 10
 y 16
 end
@@ -1160,7 +1160,7 @@ end
 arch evergreen
 x 11
 end
-arch marble
+arch dungeon_floor
 x 11
 y 1
 end
@@ -1264,7 +1264,7 @@ arch knight
 x 11
 y 15
 end
-arch marble
+arch dungeon_floor
 x 11
 y 16
 end
@@ -1279,7 +1279,7 @@ end
 arch evergreen
 x 12
 end
-arch marble
+arch dungeon_floor
 x 12
 y 1
 end
@@ -1365,7 +1365,7 @@ arch knight
 x 12
 y 15
 end
-arch marble
+arch dungeon_floor
 x 12
 y 16
 end
@@ -1380,7 +1380,7 @@ end
 arch evergreen
 x 13
 end
-arch marble
+arch dungeon_floor
 x 13
 y 1
 end
@@ -1492,7 +1492,7 @@ arch wall_2_1_1
 x 13
 y 15
 end
-arch marble
+arch dungeon_floor
 x 13
 y 16
 end
@@ -1507,7 +1507,7 @@ end
 arch evergreen
 x 14
 end
-arch marble
+arch dungeon_floor
 x 14
 y 1
 end
@@ -1595,7 +1595,7 @@ arch random_reading
 x 14
 y 15
 end
-arch marble
+arch dungeon_floor
 x 14
 y 16
 end
@@ -1610,7 +1610,7 @@ end
 arch evergreen
 x 15
 end
-arch marble
+arch dungeon_floor
 x 15
 y 1
 end
@@ -1706,7 +1706,7 @@ arch random_reading
 x 15
 y 15
 end
-arch marble
+arch dungeon_floor
 x 15
 y 16
 end
@@ -1721,7 +1721,7 @@ end
 arch evergreen
 x 16
 end
-arch marble
+arch dungeon_floor
 x 16
 y 1
 end
@@ -1729,7 +1729,7 @@ arch wall_2_2_3
 x 16
 y 1
 end
-arch marble
+arch dungeon_floor
 x 16
 y 2
 end
@@ -1737,7 +1737,7 @@ arch wall_2_1_1
 x 16
 y 2
 end
-arch marble
+arch dungeon_floor
 x 16
 y 3
 end
@@ -1745,7 +1745,7 @@ arch wall_2_1_1
 x 16
 y 3
 end
-arch marble
+arch dungeon_floor
 x 16
 y 4
 end
@@ -1753,7 +1753,7 @@ arch wall_2_1_1
 x 16
 y 4
 end
-arch marble
+arch dungeon_floor
 x 16
 y 5
 end
@@ -1765,7 +1765,7 @@ arch swall_1_1_half
 x 16
 y 5
 end
-arch marble
+arch dungeon_floor
 x 16
 y 6
 end
@@ -1773,7 +1773,7 @@ arch swall_2_1_1
 x 16
 y 6
 end
-arch marble
+arch dungeon_floor
 x 16
 y 7
 end
@@ -1785,7 +1785,7 @@ arch wall_1_1
 x 16
 y 7
 end
-arch marble
+arch dungeon_floor
 x 16
 y 8
 end
@@ -1793,7 +1793,7 @@ arch wall_3_4
 x 16
 y 8
 end
-arch marble
+arch dungeon_floor
 x 16
 y 9
 end
@@ -1801,7 +1801,7 @@ arch wall_3_4
 x 16
 y 9
 end
-arch marble
+arch dungeon_floor
 x 16
 y 10
 end
@@ -1813,7 +1813,7 @@ arch swall_1_1_half
 x 16
 y 10
 end
-arch marble
+arch dungeon_floor
 x 16
 y 11
 end
@@ -1821,7 +1821,7 @@ arch swall_2_1_1
 x 16
 y 11
 end
-arch marble
+arch dungeon_floor
 x 16
 y 12
 end
@@ -1833,7 +1833,7 @@ arch wall_1_1
 x 16
 y 12
 end
-arch marble
+arch dungeon_floor
 x 16
 y 13
 end
@@ -1841,7 +1841,7 @@ arch wall_2_1_1
 x 16
 y 13
 end
-arch marble
+arch dungeon_floor
 x 16
 y 14
 end
@@ -1849,7 +1849,7 @@ arch wall_2_1_1
 x 16
 y 14
 end
-arch marble
+arch dungeon_floor
 x 16
 y 15
 end
@@ -1857,7 +1857,7 @@ arch wall_2_1_1
 x 16
 y 15
 end
-arch marble
+arch dungeon_floor
 x 16
 y 16
 end
