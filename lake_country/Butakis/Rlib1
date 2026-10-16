@@ -8,7 +8,7 @@ enter_x 2
 enter_y 9
 msg
 Created:  1995-03-28 Kundi, Xue
-Modified: 2026-10-15 Rick Tanner
+Modified: 2026-10-16 Rick Tanner
 endmsg
 reset_group butakisfortress_royal-library
 end
@@ -224,6 +224,7 @@ end
 arch random_reading
 x 2
 y 2
+no_pick 1
 end
 arch marble
 x 2
@@ -252,6 +253,7 @@ end
 arch random_reading
 x 2
 y 6
+no_pick 1
 end
 arch marble
 x 2
@@ -284,6 +286,7 @@ end
 arch random_reading
 x 2
 y 11
+no_pick 1
 end
 arch marble
 x 2
@@ -312,6 +315,7 @@ end
 arch random_reading
 x 2
 y 15
+no_pick 1
 end
 arch dungeon_floor
 x 2
@@ -343,6 +347,7 @@ end
 arch random_reading
 x 3
 y 2
+no_pick 1
 end
 arch marble
 x 3
@@ -367,6 +372,7 @@ end
 arch random_reading
 x 3
 y 6
+no_pick 1
 end
 arch marble
 x 3
@@ -399,6 +405,7 @@ end
 arch random_reading
 x 3
 y 11
+no_pick 1
 end
 arch marble
 x 3
@@ -423,6 +430,7 @@ end
 arch random_reading
 x 3
 y 15
+no_pick 1
 end
 arch dungeon_floor
 x 3
@@ -1490,6 +1498,7 @@ end
 arch random_reading
 x 14
 y 2
+no_pick 1
 end
 arch marble
 x 14
@@ -1562,6 +1571,7 @@ end
 arch random_reading
 x 14
 y 15
+no_pick 1
 end
 arch dungeon_floor
 x 14
@@ -1593,6 +1603,7 @@ end
 arch random_reading
 x 15
 y 2
+no_pick 1
 end
 arch marble
 x 15
@@ -1605,6 +1616,7 @@ end
 arch random_reading
 x 15
 y 4
+no_pick 1
 end
 arch marble
 x 15
@@ -1661,6 +1673,7 @@ end
 arch random_reading
 x 15
 y 13
+no_pick 1
 end
 arch marble
 x 15
@@ -1673,6 +1686,7 @@ end
 arch random_reading
 x 15
 y 15
+no_pick 1
 end
 arch dungeon_floor
 x 15
