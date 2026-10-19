@@ -8,7 +8,7 @@ enter_x 14
 enter_y 21
 msg
 Created:  1995-04-13 Kundi, Xue
-Modified: 2026-10-02 Rick Tanner
+Modified: 2026-10-19 Rick Tanner
 endmsg
 reset_group butakisfortress_wist
 end
@@ -2311,7 +2311,6 @@ end
 arch chest_2
 x 11
 y 27
-carrying 39720
 arch helmet_of_brilliance
 end
 arch eyeglasses
@@ -2511,7 +2510,6 @@ end
 arch chest_2
 x 12
 y 27
-carrying 800
 arch improve_damage
 end
 arch improve_enchantment
@@ -2579,7 +2577,6 @@ speed 1.0
 speed_left -13.210000
 attack_movement 4
 resist_physical 100
-carrying 5000
 arch dragon_scale
 name figurine of a faerie dragon
 face fae_drag.171
@@ -4223,7 +4220,6 @@ level 50
 type 0
 resist_physical 100
 resist_magic 100
-carrying 5000
 move_type walk
 monster 1
 unique 1
