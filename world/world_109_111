@@ -6,7 +6,7 @@ width 50
 height 50
 msg
 Created:  2001-12-18 Mark Wedel
-Modified: 2026-08-11 Rick Tanner
+Modified: 2026-10-26 Rick Tanner
 endmsg
 outdoor 1
 tile_path_1 world_109_110
@@ -7506,6 +7506,14 @@ arch mountain
 x 25
 y 19
 elevation 7406
+end
+arch sign
+name company noticeboard
+msg
+The old shaft. The company withdrew its miners years ago. Something has gone on working the seam regardless.
+endmsg
+x 25
+y 19
 end
 arch mountain
 x 25
