@@ -10,7 +10,7 @@ enter_x 54
 enter_y 48
 msg
 Created: 2004-08-03 MikeeUSA
-Modified: 2026-10-30 Rick Tanner
+Modified: 2026-11-01 Rick Tanner
 endmsg
 reset_group citydeclouds_castle-de-clouds
 end
@@ -5689,7 +5689,7 @@ arch pstone_1
 x 7
 y 62
 end
-arch cave18
+arch cave24
 x 7
 y 62
 end
@@ -10691,7 +10691,7 @@ face fog.111
 x 14
 y 5
 end
-arch cave20
+arch cave22
 x 14
 y 5
 end
@@ -11367,7 +11367,7 @@ face fog.111
 x 15
 y 3
 end
-arch cave20
+arch cave22
 x 15
 y 3
 end
@@ -16218,11 +16218,9 @@ face fog.111
 x 23
 y 59
 end
-arch cave18
-name mountain top
+arch cave24
 x 23
 y 59
-blocksview 0
 end
 arch blocked
 name nothing
@@ -16484,11 +16482,9 @@ face fog.111
 x 23
 y 73
 end
-arch cave17
-name mountain top
+arch cave23
 x 23
 y 73
-blocksview 0
 end
 arch pstone_1
 x 23
@@ -17026,11 +17022,9 @@ face fog.111
 x 24
 y 58
 end
-arch cave18
-name mountain top
+arch cave24
 x 24
 y 58
-blocksview 0
 end
 arch blocked
 name nothing
@@ -19847,11 +19841,9 @@ face fog.111
 x 27
 y 77
 end
-arch cave17
-name mountain top
+arch cave23
 x 27
 y 77
-blocksview 0
 end
 arch pstone_1
 x 27
@@ -24256,11 +24248,9 @@ face fog.111
 x 32
 y 78
 end
-arch cave17
-name mountain top
+arch cave23
 x 32
 y 78
-blocksview 0
 end
 arch pstone_1
 x 32
@@ -65931,11 +65921,9 @@ face fog.111
 x 89
 y 56
 end
-arch cave17
-name mountain top
+arch cave23
 x 89
 y 56
-blocksview 0
 end
 arch pstone_1
 x 89
@@ -66694,7 +66682,7 @@ arch pstone_1
 x 90
 y 98
 end
-arch cave20
+arch cave22
 x 90
 y 98
 end
@@ -67032,11 +67020,9 @@ face fog.111
 x 91
 y 53
 end
-arch cave19
-name mountain top
+arch cave25
 x 91
 y 53
-blocksview 0
 end
 arch blocked
 name nothing
@@ -67089,11 +67075,9 @@ face fog.111
 x 91
 y 56
 end
-arch cave20
-name mountain top
+arch cave22
 x 91
 y 56
-blocksview 0
 end
 arch pstone_1
 x 91
