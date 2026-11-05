@@ -9,7 +9,7 @@ enter_x 17
 enter_y 35
 msg
 Created:  2010-02-28 Alestan
-Modified: 22023-05-28 Rick Tanner
+Modified: 2026-11-05 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -4803,6 +4803,7 @@ unique 1
 is_buildable 1
 end
 arch bag
+face_opened close_dbox.111
 name Store
 msg
 Put items in here, close the box, and say a price to store the item. Then open the box and get the glass duplicate for display.
@@ -4814,7 +4815,6 @@ y 4
 material 0
 container 15000000
 no_pick 1
-face_opened close_dbox.111
 arch event_close
 name Store
 title Python
