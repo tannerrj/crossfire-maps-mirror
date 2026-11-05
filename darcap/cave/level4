@@ -7,7 +7,8 @@ height 50
 enter_x 38
 enter_y 2
 msg
-Modified: 2022-07-16 Rick Tanner
+Created:  1994-12-28 Morten Hanshaugen
+Modified: 2026-11-04 Rick Tanner
 endmsg
 reset_group darcap_hanshaugen-cave
 end
@@ -17819,9 +17820,9 @@ arch gnoll
 x 56
 y 37
 arch scythe1
+drop_if_quest darcap/Cameron-wine 30
 name Talok's scythe
 material 0
-drop_if_quest darcap/Cameron-wine 30
 arch quest_prevent_drop
 name darcap/Cameron-wine 50
 end
