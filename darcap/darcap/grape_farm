@@ -4,9 +4,11 @@ difficulty 1
 region darcap
 width 15
 height 15
+enter_x 7
+enter_y 13
 msg
 Created:  2010-06-19 Nicolas Weeger
-Modified: 2010-06-19 Nicolas Weeger
+Modified: 2026-11-04 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -516,13 +518,13 @@ x 7
 y 8
 end
 arch earth_witch
+random_movement 1
 name Talok
 x 7
 y 8
 speed 0.07
 type 0
 unaggressive 1
-random_movement 1
 arch npc_dialog
 name /darcap/darcap/talok.msg
 end
