@@ -7,8 +7,8 @@ height 10
 enter_x 6
 enter_y 8
 msg
-Created:  2008-09-13 Rick Tanner
-Modified: 2025-01-06 Rick Tanner
+Created:  1999-01-20 John Cater & Wade
+Modified: 2026-11-04 Rick Tanner
 endmsg
 outdoor 1
 end
@@ -164,12 +164,12 @@ x 2
 y 4
 end
 arch altar_trigger
+accept_alive 1
 slaying air para-elemental
 exp 1
 food 1
 x 2
 y 5
-accept_alive 1
 end
 arch woodlarge
 x 2
@@ -407,13 +407,13 @@ move_type walk
 end
 end
 arch altar_trigger
+accept_alive 1
 slaying air elemental
 exp 1
 food 1
 x 5
 y 4
 connected 2
-accept_alive 1
 end
 arch mover_7
 x 5
