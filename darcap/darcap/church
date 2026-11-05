@@ -7,8 +7,8 @@ height 34
 enter_x 17
 enter_y 1
 msg
-Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
-Modified: 2024-12-15 Rick Tanner
+Created:  1994-03-18 Don Tabb
+Modified: 2026-11-04 Rick Tanner
 endmsg
 end
 arch dungeon_floor
@@ -2199,12 +2199,12 @@ x 12
 y 12
 end
 arch zombie
+random_movement 1
 x 12
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2223,12 +2223,12 @@ x 12
 y 14
 end
 arch ghost
+random_movement 1
 x 12
 y 14
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2247,12 +2247,12 @@ x 12
 y 16
 end
 arch zombie
+random_movement 1
 x 12
 y 16
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2425,12 +2425,12 @@ x 13
 y 13
 end
 arch ghost
+random_movement 1
 x 13
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2619,12 +2619,12 @@ x 14
 y 12
 end
 arch zombie
+random_movement 1
 x 14
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2635,12 +2635,12 @@ x 14
 y 13
 end
 arch ghost
+random_movement 1
 x 14
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2667,12 +2667,12 @@ x 14
 y 16
 end
 arch zombie
+random_movement 1
 x 14
 y 16
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -2850,12 +2850,12 @@ x 15
 y 13
 end
 arch ghost
+random_movement 1
 x 15
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3084,12 +3084,12 @@ x 16
 y 12
 end
 arch zombie
+random_movement 1
 x 16
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3100,12 +3100,12 @@ x 16
 y 13
 end
 arch ghost
+random_movement 1
 x 16
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3132,12 +3132,12 @@ x 16
 y 16
 end
 arch zombie
+random_movement 1
 x 16
 y 16
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3169,9 +3169,9 @@ x 16
 y 20
 end
 arch chalice
+punish_sell_in /darcap/darcap
 x 16
 y 20
-punish_sell_in /darcap/darcap
 arch event_selling
 name event_selling
 title Python
@@ -3192,9 +3192,9 @@ x 16
 y 22
 end
 arch chalice
+punish_sell_in /darcap/darcap
 x 16
 y 22
-punish_sell_in /darcap/darcap
 arch event_selling
 name event_selling
 title Python
@@ -3379,6 +3379,7 @@ x 17
 y 14
 end
 arch ghost
+random_movement 1
 name Devourers priest
 msg
 @match *
@@ -3389,7 +3390,6 @@ y 14
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch key2
 name solemn key
 slaying darcap_andreas
@@ -3618,12 +3618,12 @@ x 18
 y 12
 end
 arch zombie
+random_movement 1
 x 18
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3634,12 +3634,12 @@ x 18
 y 13
 end
 arch ghost
+random_movement 1
 x 18
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3666,11 +3666,11 @@ x 18
 y 16
 end
 arch zombie
+random_movement 1
 x 18
 y 16
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -3702,9 +3702,9 @@ x 18
 y 20
 end
 arch chalice
+punish_sell_in /darcap/darcap
 x 18
 y 20
-punish_sell_in /darcap/darcap
 arch event_selling
 name event_selling
 title Python
@@ -3725,9 +3725,9 @@ x 18
 y 22
 end
 arch chalice
+punish_sell_in /darcap/darcap
 x 18
 y 22
-punish_sell_in /darcap/darcap
 arch event_selling
 name event_selling
 title Python
@@ -3877,12 +3877,12 @@ x 19
 y 13
 end
 arch ghost
+random_movement 1
 x 19
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4087,12 +4087,12 @@ x 20
 y 12
 end
 arch zombie
+random_movement 1
 x 20
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4103,12 +4103,12 @@ x 20
 y 13
 end
 arch ghost
+random_movement 1
 x 20
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4135,12 +4135,12 @@ x 20
 y 16
 end
 arch zombie
+random_movement 1
 x 20
 y 16
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4314,12 +4314,12 @@ x 21
 y 13
 end
 arch ghost
+random_movement 1
 x 21
 y 13
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4512,12 +4512,12 @@ x 22
 y 12
 end
 arch zombie
+random_movement 1
 x 22
 y 12
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4536,12 +4536,12 @@ x 22
 y 14
 end
 arch ghost
+random_movement 1
 x 22
 y 14
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
@@ -4560,12 +4560,12 @@ x 22
 y 16
 end
 arch zombie
+random_movement 1
 x 22
 y 16
 type 0
 unaggressive 1
 sleep 0
-random_movement 1
 arch event_death
 title Python
 slaying /python/items/death_punisher.py
