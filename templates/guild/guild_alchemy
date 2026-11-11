@@ -8,11 +8,8 @@ height 12
 enter_x 3
 enter_y 7
 msg
-Created:  CF Java Map Editor
-Date:    4/8/2007
-Map finised by:  Alestan jehloq@yahoo.com
-Date:     8/27/2007
-Modified: 2023-06-14 Rick Tanner
+Created:  2007-04-08 Rick Tanner
+Modified: 2026-11-10 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -446,11 +443,11 @@ move_block 0
 blocksview 0
 no_damage 1
 arch spelldirect_dragonbreath
+casting_time 0
 other_arch god_power
 sp 0
 level 115
 duration 20
-casting_time 0
 end
 end
 arch woodfloor

@@ -8,12 +8,8 @@ height 27
 enter_x 1
 enter_y 1
 msg
-CF Java Map Editor
-Created:  Avion
-Date:   6/14/2003
-Map finised by:  Alestan jehloq@yahoo.com
-Date:     8/27/2007
-Modified: 2023-06-14 Rick Tanner
+Created:  2004-12-06 Todd Mitchell
+Modified: 2026-11-10 Rick Tanner
 endmsg
 end
 arch flagstone
@@ -4367,6 +4363,7 @@ applied 1
 body_neck 0
 end
 arch amulet
+body_leg -2
 x 21
 y 24
 invisible 1
@@ -4374,9 +4371,9 @@ applied 1
 body_neck 0
 body_foot -2
 body_waist -1
-body_leg -2
 end
 arch amulet
+body_leg -2
 x 21
 y 24
 invisible 1
@@ -4384,9 +4381,9 @@ applied 1
 body_neck 0
 body_foot -2
 body_waist -1
-body_leg -2
 end
 arch amulet
+body_leg -2
 x 21
 y 24
 invisible 1
@@ -4394,7 +4391,6 @@ applied 1
 body_neck 0
 body_foot -2
 body_waist -1
-body_leg -2
 end
 arch blocked
 x 21

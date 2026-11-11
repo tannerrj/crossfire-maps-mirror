@@ -5,9 +5,8 @@ region Template
 width 14
 height 11
 msg
-Created:  Default
-Date:    2008-06-24
-Modified: 2023-06-14 Rick Tanner
+Created:  2008-06-24 Todd Mitchell
+Modified: 2026-11-10 Rick Tanner
 endmsg
 end
 arch woodfloor
@@ -345,11 +344,11 @@ move_block 0
 blocksview 0
 no_damage 1
 arch spelldirect_dragonbreath
+casting_time 0
 other_arch god_power
 sp 0
 level 115
 duration 20
-casting_time 0
 end
 end
 arch table_burl_3
