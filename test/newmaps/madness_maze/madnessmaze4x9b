@@ -32,23 +32,19 @@ end
 arch flagstone
 y 4
 end
-arch stwall_1_2
+arch stwall_2_1_1
 y 4
 end
-arch pit_open
-hp 12
-sp 7
-y 5
-invisible 1
-move_on walk fly_low
-end
 arch flagstone
+y 5
+end
+arch stwall_2_1_1
 y 5
 end
 arch flagstone
 y 6
 end
-arch stwall_1_1
+arch stwall_2_1_1
 y 6
 end
 arch flagstone
@@ -228,7 +224,7 @@ end
 arch flagstone
 x 4
 end
-arch stwall_2_1_2
+arch stwall_1_3
 x 4
 end
 arch flagstone
@@ -275,10 +271,14 @@ arch stwall_2_1_2
 x 4
 y 10
 end
-arch flagstone
+arch pit_open
+hp 12
+sp 1
 x 5
+invisible 1
+move_on walk fly_low
 end
-arch stwall_2_1_2
+arch flagstone
 x 5
 end
 arch flagstone
@@ -328,7 +328,7 @@ end
 arch flagstone
 x 6
 end
-arch stwall_2_1_2
+arch stwall_1_4
 x 6
 end
 arch flagstone
@@ -657,7 +657,10 @@ end
 arch blocked
 x 12
 end
-arch blocked
+arch invis_exit
+slaying madnessmaze4x8c
+hp 5
+sp 5
 x 12
 y 1
 end
@@ -681,10 +684,7 @@ arch blocked
 x 12
 y 6
 end
-arch invis_exit
-slaying madnessmaze3x8c
-hp 5
-sp 5
+arch blocked
 x 12
 y 7
 end
