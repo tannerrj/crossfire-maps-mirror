@@ -108,7 +108,7 @@ y 4
 stand_still 1
 arch event_say
 title Python
-slaying scripts/madnessmaze1.py
+slaying /test/newmaps/madness_maze/scripts/madnessmaze1.py
 end
 end
 arch flagstone
