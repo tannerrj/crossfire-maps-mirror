@@ -33,8 +33,6 @@ slaying madnessmaze-1x6
 hp 11
 sp 4
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 y 6
@@ -306,8 +304,6 @@ Choose the path of your fate.
 endmsg
 x 5
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 5
@@ -511,7 +507,7 @@ sp 1
 x 9
 y 1
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 9
@@ -535,7 +531,7 @@ sp 3
 x 9
 y 3
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 9
@@ -559,7 +555,7 @@ sp 5
 x 9
 y 5
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 9
@@ -583,7 +579,7 @@ sp 7
 x 9
 y 7
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 9
@@ -607,7 +603,7 @@ sp 9
 x 9
 y 9
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 9

@@ -319,7 +319,7 @@ sp 9
 x 5
 y 10
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 5

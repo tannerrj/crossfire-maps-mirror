@@ -40,7 +40,7 @@ hp 13
 sp 9
 y 5
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 y 5
@@ -569,7 +569,7 @@ sp 1
 x 10
 y 5
 invisible 1
-fly_on 1
+move_on walk fly_low
 end
 arch flagstone
 x 10

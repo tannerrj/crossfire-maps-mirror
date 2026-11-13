@@ -121,8 +121,6 @@ You'd better talk to me first.
 endmsg
 x 2
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 2
@@ -134,8 +132,6 @@ You'd better talk to me first
 endmsg
 x 2
 y 6
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 2
@@ -587,8 +583,6 @@ The answer's neither right nor wrong.
 endmsg
 x 8
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 8
@@ -826,8 +820,6 @@ Congratulations.
 endmsg
 x 11
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 11
@@ -917,8 +909,6 @@ hp 1
 sp 5
 x 12
 y 5
-walk_on 1
-fly_on 1
 end
 arch flagstone
 x 12
