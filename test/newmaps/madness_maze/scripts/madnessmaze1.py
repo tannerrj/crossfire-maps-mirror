@@ -1,14 +1,8 @@
-#This is the madness maze, created by Alestan.  Like all of crossfire, it is distributed under the GNU lisence.
+#This is the madness maze, created by Alestan.  Like all of crossfire, it is distributed under the GNU license.
 #Please report bugs to Alestan@meflin.com
 #Created: 1 Aug 2008
 import Crossfire
-import CFGuilds
-import CFItemBroker
-import random
-import string
 
-activator=Crossfire.WhoIsActivator()
-activatorname=activator.Name
 whoami=Crossfire.WhoAmI()
 if whoami.Name == "Guardian":
     text=Crossfire.WhatIsMessage().split() or [""]
@@ -48,7 +42,7 @@ if whoami.Name == "Guardian":
         whoami.Say(message)
         message="2. Who are you?"
         whoami.Say(message)
-        message="3.What information?"
+        message="3. What information?"
         whoami.Say(message)
         message="4. Die you freak!"
         whoami.Say(message)
