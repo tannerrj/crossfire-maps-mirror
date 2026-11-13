@@ -11,7 +11,7 @@ activator=Crossfire.WhoIsActivator()
 activatorname=activator.Name
 whoami=Crossfire.WhoAmI()
 if whoami.Name == "Guardian":
-    text=string.split(Crossfire.WhatIsMessage())
+    text=Crossfire.WhatIsMessage().split() or [""]
     if text[0]=="1":
         message= "This is the Madness maze, leave before it is too late"
         whoami.Say(message)
