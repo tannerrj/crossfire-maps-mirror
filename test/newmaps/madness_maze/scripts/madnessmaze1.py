@@ -3,46 +3,55 @@
 #Created: 1 Aug 2008
 import Crossfire
 
-whoami=Crossfire.WhoAmI()
+# Each entry: reply word -> (what the player asks, what the Guardian says,
+# follow-up replies offered afterwards as (word, text) pairs).
+# The menu is offered with Crossfire.AddReply() so the player gets a
+# "Replies:" list instead of the Guardian speaking every option; this keeps
+# the Guardian under the server's MAX_NPC limit of 5 Say() calls per event.
+Q = Crossfire.ReplyType.QUESTION
+S = Crossfire.ReplyType.SAY
+
+menu = [
+    ("1", "What is this place?"),
+    ("2", "Who are you?"),
+    ("3", "What information?"),
+    ("4", "Die you freak!"),
+]
+
+topics = {
+    "1": ("What is this place?", Q,
+          "This is the Madness maze, leave before it is too late",
+          [("5", "Too late?")]),
+    "2": ("Who are you?", Q,
+          "I am the Guardian of the Madness Maze.  As you see, I am armless, not much of a guardian eh?",
+          [("6", "What happened to your arms?")]),
+    "3": ("What information?", Q,
+          "Many entered here, few return, those that do are... changed...  For the good of all, it has been closed.  I am here to give warning.",
+          [("7", "Changed?")]),
+    "4": ("Die you freak!", S,
+          "Please, go ahead, kill me, I want to die.",
+          []),
+    "5": ("Too late?", Q,
+          "If you go in there, you won't come back.",
+          []),
+    "6": ("What happened to your arms?", Q,
+          "They cut them off, seemed to think I might be tempted by the maze, like I woulda been.  Figured I could warn people without arms, but I couldn't disarm the traps without arms.",
+          []),
+    "7": ("Changed?", Q,
+          "That's what I said, changed.  Rarely for the better.",
+          []),
+}
+
+whoami = Crossfire.WhoAmI()
 if whoami.Name == "Guardian":
-    text=Crossfire.WhatIsMessage().split() or [""]
-    if text[0]=="1":
-        message= "This is the Madness maze, leave before it is too late"
-        whoami.Say(message)
-        message= "5. Too late?"
-        whoami.Say(message)
-    elif text[0]=="2":
-        message="I am the Guardian of the Madness Maze.  As you see, I am armless, not much of a guardian eh?"
-        whoami.Say(message)
-        message="6. What happened to your arms?"
-        whoami.Say(message)
-    elif text[0]=="3":
-        message= "Many entered here, few return, those that do are... changed...  For the good of all, it has been closed.  I am here to give warning."
-        whoami.Say(message)
-        message="7. Changed?"
-        whoami.Say(message)
-    elif text[0]=='4':
-        message= "Please, go ahead, kill me, I want to die."
-        whoami.Say(message)
-    elif text[0]=='5':
-        message="If you go in there, you won't come back."
-        whoami.Say(message)
-    elif text[0]=="6":
-        message="They cut them off, seemed to think I might be tempted by the maze, like I woulda been.  Figured I could warn people without arms, but I couldn't disarm the traps without arms."
-        whoami.Say(message)
-    elif text[0]=="7":
-        message= "That's what I said, changed.  Rarely for the better."
-        whoami.Say(message)
+    text = Crossfire.WhatIsMessage().split() or [""]
+    topic = topics.get(text[0])
+    if topic:
+        asked, kind, answer, replies = topic
+        Crossfire.SetPlayerMessage(asked, kind)
+        whoami.Say(answer)
     else:
-        message="I have some information you need."
-        whoami.Say(message)
-        message="(You may reply with the following, just reply with the number.)"
-        whoami.Say(message)
-        message="1. What is this place?"
-        whoami.Say(message)
-        message="2. Who are you?"
-        whoami.Say(message)
-        message="3. What information?"
-        whoami.Say(message)
-        message="4. Die you freak!"
-        whoami.Say(message)
+        whoami.Say("I have some information you need.")
+        replies = menu
+    for word, reply in replies:
+        Crossfire.AddReply(word, reply)
