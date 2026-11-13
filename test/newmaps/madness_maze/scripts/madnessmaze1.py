@@ -17,26 +17,26 @@ if whoami.Name == "Guardian":
         whoami.Say(message)
         message= "5. Too late?"
         whoami.Say(message)
-    if text[0]=="2":
+    elif text[0]=="2":
         message="I am the Guardian of the Madness Maze.  As you see, I am armless, not much of a guardian eh?"
         whoami.Say(message)
         message="6. What happened to your arms?"
         whoami.Say(message)
-    if text[0]=="3":
+    elif text[0]=="3":
         message= "Many entered here, few return, those that do are... changed...  For the good of all, it has been closed.  I am here to give warning."
         whoami.Say(message)
         message="7. Changed?"
         whoami.Say(message)
-    if text[0]=='4':
+    elif text[0]=='4':
         message= "Please, go ahead, kill me, I want to die."
         whoami.Say(message)
-    if text[0]=='5':
+    elif text[0]=='5':
         message="If you go in there, you won't come back."
         whoami.Say(message)
-    if text[0]=="6":
+    elif text[0]=="6":
         message="They cut them off, seemed to think I might be tempted by the maze, like I woulda been.  Figured I could warn people without arms, but I couldn't disarm the traps without arms."
         whoami.Say(message)
-    if text[0]=="7":
+    elif text[0]=="7":
         message= "That's what I said, changed.  Rarely for the better."
         whoami.Say(message)
     else:
@@ -51,3 +51,4 @@ if whoami.Name == "Guardian":
         message="3.What information?"
         whoami.Say(message)
         message="4. Die you freak!"
+        whoami.Say(message)
