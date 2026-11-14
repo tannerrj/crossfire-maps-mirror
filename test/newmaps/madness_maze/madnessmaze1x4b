@@ -1,11 +1,17 @@
 arch map
 name madness maze 1x4
+difficulty 10
+region wilderness-madness_maze
 width 15
 height 11
+enter_x 5
+enter_y 5
 msg
 Created:  Default
 Date:    2008-08-02
+Modified: 2026-11-13 Rick Tanner
 endmsg
+reset_group wilderness-madness_maze
 end
 arch flagstone
 end

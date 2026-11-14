@@ -1,11 +1,17 @@
 arch map
 name madness maze 2x8
+difficulty 10
+region wilderness
 width 15
 height 11
+enter_x 5
+enter_y 5
 msg
 Created:  madness_maze repair
 Date:    2026-11-13
+Modified: 2026-11-13 Rick Tanner
 endmsg
+reset_group wilderness-madness_maze
 end
 arch flagstone
 end
